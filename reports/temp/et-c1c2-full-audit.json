@@ -3815,7 +3815,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0002",
@@ -3843,7 +3844,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0003",
@@ -3870,7 +3872,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0004",
@@ -3897,7 +3900,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0005",
@@ -3924,7 +3928,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0006",
@@ -3951,7 +3956,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0007",
@@ -3978,7 +3984,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0008",
@@ -4005,7 +4012,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0009",
@@ -4015,7 +4023,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "v",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4032,7 +4040,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0010",
@@ -4042,7 +4051,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "õ",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4059,7 +4068,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0011",
@@ -4069,7 +4079,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "i",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4086,7 +4096,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0012",
@@ -4096,7 +4107,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "s",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4113,7 +4124,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0013",
@@ -4123,7 +4135,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "t",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4140,7 +4152,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0014",
@@ -4150,7 +4163,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "l",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4167,7 +4180,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0015",
@@ -4177,7 +4191,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "u",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4194,7 +4208,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0017",
@@ -4204,7 +4219,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "e",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4221,7 +4236,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0019",
@@ -4231,7 +4247,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "k",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4248,7 +4264,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0020",
@@ -4258,7 +4275,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "o",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4275,7 +4292,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0021",
@@ -4285,7 +4303,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "n",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4302,7 +4320,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0024",
@@ -4312,7 +4331,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "r",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4329,7 +4348,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0039",
@@ -4339,7 +4359,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "voraus",
+      "currentEt": "{\"explanation\":{\"green\":[\"voraussetzen\",\"voraus\"],\"purple\":[\"eeldus\"]},\"examples\":[{\"de\":{},\"lv\":{\"purple\":[\"eeldame\"]}},{\"de\":{},\"lv\":{\"purple\":[\"eeldame\"]}}],\"tip\":[{\"purple\":[\"eeldama\"]}],\"important\":[{\"green\":[\"voraussetzen\"]}]}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4356,7 +4376,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0040",
@@ -4366,7 +4387,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "erhält",
+      "currentEt": "{\"explanation\":{\"green\":[\"aufrechterhalten\",\"erhält\",\"auf\"],\"purple\":[],\"yellow\":[]},\"examples\":[{\"de\":{},\"lv\":{\"purple\":[\"kehtivana\"]}},{\"de\":{\"green\":[\"aufrechterhalten\",\"aufrechterhalten\"]},\"lv\":{\"purple\":[\"kehtivana\"]}},{\"de\":{},\"lv\":{\"purple\":[\"kehtivana\"]}}],\"tip\":[{\"purple\":[\"kehtivana hoidma\"]}],\"important\":[{\"green\":[\"aufrechterhalten\"]}]}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4383,7 +4404,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0041",
@@ -4393,7 +4415,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "auf",
+      "currentEt": "{\"explanation\":{\"green\":[\"aufrechterhalten\",\"erhält\",\"auf\"],\"purple\":[],\"yellow\":[]},\"examples\":[{\"de\":{},\"lv\":{\"purple\":[\"kehtivana\"]}},{\"de\":{\"green\":[\"aufrechterhalten\",\"aufrechterhalten\"]},\"lv\":{\"purple\":[\"kehtivana\"]}},{\"de\":{},\"lv\":{\"purple\":[\"kehtivana\"]}}],\"tip\":[{\"purple\":[\"kehtivana hoidma\"]}],\"important\":[{\"green\":[\"aufrechterhalten\"]}]}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4410,7 +4432,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0042",
@@ -4420,7 +4443,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "m",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4437,7 +4460,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0043",
@@ -4447,7 +4471,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "i",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4464,7 +4488,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0044",
@@ -4474,7 +4499,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "l",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4491,7 +4516,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0046",
@@ -4501,7 +4527,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "e",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4518,7 +4544,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0047",
@@ -4528,7 +4555,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "s",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4545,7 +4572,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0048",
@@ -4555,7 +4583,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": " ",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4572,7 +4600,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0049",
@@ -4582,7 +4611,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "o",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4599,7 +4628,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0051",
@@ -4609,7 +4639,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "a",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4626,7 +4656,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0061",
@@ -4636,7 +4667,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "k",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4653,7 +4684,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0062",
@@ -4663,7 +4695,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "u",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4680,7 +4712,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0065",
@@ -4690,7 +4723,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "p",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4707,7 +4740,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0068",
@@ -4717,7 +4751,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "j",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4734,7 +4768,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0070",
@@ -4744,7 +4779,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "k",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4761,7 +4796,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0071",
@@ -4771,7 +4807,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "u",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4788,7 +4824,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0072",
@@ -4798,7 +4835,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "i",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4815,7 +4852,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0073",
@@ -4825,7 +4863,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": " ",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4842,7 +4880,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0074",
@@ -4852,7 +4891,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "p",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4869,7 +4908,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0075",
@@ -4879,7 +4919,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "a",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4896,7 +4936,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0076",
@@ -4906,7 +4947,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "l",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4923,7 +4964,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0077",
@@ -4933,7 +4975,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "j",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4950,7 +4992,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0082",
@@ -4960,7 +5003,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "v",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -4977,7 +5020,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0083",
@@ -4987,7 +5031,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "õ",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -5004,7 +5048,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0084",
@@ -5014,7 +5059,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "r",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -5031,7 +5076,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0085",
@@ -5041,7 +5087,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "d",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -5058,7 +5104,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0086",
@@ -5068,7 +5115,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "m",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -5085,7 +5132,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0090",
@@ -5095,7 +5143,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "e",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -5112,7 +5160,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0091",
@@ -5122,7 +5171,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "s",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -5139,7 +5188,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0093",
@@ -5149,7 +5199,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "o",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -5166,7 +5216,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0097",
@@ -5195,7 +5246,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0098",
@@ -5224,7 +5276,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0099",
@@ -5253,7 +5306,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0100",
@@ -5282,7 +5336,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0101",
@@ -5311,7 +5366,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0102",
@@ -5340,7 +5396,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0103",
@@ -5369,7 +5426,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0104",
@@ -5398,7 +5456,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0105",
@@ -5427,7 +5486,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0106",
@@ -5456,7 +5516,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0107",
@@ -5485,7 +5546,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0108",
@@ -5514,7 +5576,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0109",
@@ -5543,7 +5606,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0110",
@@ -5572,7 +5636,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0111",
@@ -5601,7 +5666,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0112",
@@ -5630,7 +5696,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0113",
@@ -5659,7 +5726,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0114",
@@ -5688,7 +5756,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0115",
@@ -5717,7 +5786,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0116",
@@ -5746,7 +5816,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0117",
@@ -5775,7 +5846,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0118",
@@ -5804,7 +5876,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0119",
@@ -5833,7 +5906,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0120",
@@ -5862,7 +5936,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0121",
@@ -5891,7 +5966,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0122",
@@ -5920,7 +5996,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0123",
@@ -5949,7 +6026,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0124",
@@ -5978,7 +6056,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0125",
@@ -6007,7 +6086,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0126",
@@ -6036,7 +6116,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0127",
@@ -6065,7 +6146,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0128",
@@ -6094,7 +6176,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0129",
@@ -6123,7 +6206,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0130",
@@ -6152,7 +6236,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0131",
@@ -6181,7 +6266,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0132",
@@ -6210,7 +6296,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0133",
@@ -6239,7 +6326,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0134",
@@ -6268,7 +6356,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0135",
@@ -6297,7 +6386,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0136",
@@ -6326,7 +6416,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0137",
@@ -6355,7 +6446,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0138",
@@ -6384,7 +6476,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0139",
@@ -6413,7 +6506,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0140",
@@ -6442,7 +6536,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0141",
@@ -6471,7 +6566,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0142",
@@ -6500,7 +6596,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0143",
@@ -6529,7 +6626,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0144",
@@ -6558,7 +6656,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0145",
@@ -6587,7 +6686,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0146",
@@ -6616,7 +6716,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0147",
@@ -6645,7 +6746,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0148",
@@ -6674,7 +6776,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0149",
@@ -6703,7 +6806,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0150",
@@ -6732,7 +6836,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0151",
@@ -6761,7 +6866,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0152",
@@ -6790,7 +6896,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0153",
@@ -6819,7 +6926,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0154",
@@ -6848,7 +6956,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0155",
@@ -6877,7 +6986,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0156",
@@ -6906,7 +7016,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0157",
@@ -6935,7 +7046,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0158",
@@ -6964,7 +7076,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0159",
@@ -6993,7 +7106,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0160",
@@ -7022,7 +7136,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0161",
@@ -7051,7 +7166,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0162",
@@ -7080,7 +7196,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0163",
@@ -7109,7 +7226,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0164",
@@ -7138,7 +7256,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0165",
@@ -7167,7 +7286,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0166",
@@ -7196,7 +7316,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0167",
@@ -7225,7 +7346,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0168",
@@ -7254,7 +7376,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0169",
@@ -7283,7 +7406,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0170",
@@ -7312,7 +7436,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0171",
@@ -7341,7 +7466,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0172",
@@ -7370,7 +7496,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0173",
@@ -7399,7 +7526,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0174",
@@ -7428,7 +7556,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0175",
@@ -7457,7 +7586,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0176",
@@ -7486,7 +7616,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     }
   ],
   "summary": {
@@ -11241,7 +11372,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0002",
@@ -11269,7 +11401,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0003",
@@ -11296,7 +11429,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0004",
@@ -11323,7 +11457,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0005",
@@ -11350,7 +11485,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0006",
@@ -11377,7 +11513,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0007",
@@ -11404,7 +11541,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0008",
@@ -11431,7 +11569,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0009",
@@ -11441,7 +11580,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "v",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11458,7 +11597,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0010",
@@ -11468,7 +11608,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "õ",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11485,7 +11625,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0011",
@@ -11495,7 +11636,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "i",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11512,7 +11653,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0012",
@@ -11522,7 +11664,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "s",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11539,7 +11681,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0013",
@@ -11549,7 +11692,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "t",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11566,7 +11709,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0014",
@@ -11576,7 +11720,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "l",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11593,7 +11737,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0015",
@@ -11603,7 +11748,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "u",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11620,7 +11765,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0017",
@@ -11630,7 +11776,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "e",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11647,7 +11793,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0019",
@@ -11657,7 +11804,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "k",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11674,7 +11821,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0020",
@@ -11684,7 +11832,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "o",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11701,7 +11849,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0021",
@@ -11711,7 +11860,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "n",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11728,7 +11877,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0024",
@@ -11738,7 +11888,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "r",
+      "currentEt": "{\"explanation\":{\"blue\":\"der Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"},\"examples\":[{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"yellow\":\"võistlusel\"}},{\"de\":{\"blue\":\"Wettbewerb\"},\"lv\":{\"green\":\"konkurentsis\"}},{\"de\":{\"blue\":\"Wettbewerb\",\"yellow\":\"Stelle\"},\"lv\":{\"purple\":\"konkursi\"}}],\"comparison\":[{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"purple\":\"konkurss\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"green\":\"konkurents\"},\"example\":{\"blue\":\"Wettbewerb\"}},{\"word\":{\"blue\":\"der Wettbewerb\"},\"meaning\":{\"yellow\":\"võistlus\"},\"example\":{\"blue\":\"Wettbewerb\"}}],\"tip\":{\"blue\":\"Wettbewerb\"},\"important\":{\"blue\":\"Wettbewerb\",\"purple\":\"konkurss\",\"green\":\"konkurents\",\"yellow\":\"võistlus\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11755,7 +11905,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0039",
@@ -11765,7 +11916,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "voraus",
+      "currentEt": "{\"explanation\":{\"green\":[\"voraussetzen\",\"voraus\"],\"purple\":[\"eeldus\"]},\"examples\":[{\"de\":{},\"lv\":{\"purple\":[\"eeldame\"]}},{\"de\":{},\"lv\":{\"purple\":[\"eeldame\"]}}],\"tip\":[{\"purple\":[\"eeldama\"]}],\"important\":[{\"green\":[\"voraussetzen\"]}]}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11782,7 +11933,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0040",
@@ -11792,7 +11944,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "erhält",
+      "currentEt": "{\"explanation\":{\"green\":[\"aufrechterhalten\",\"erhält\",\"auf\"],\"purple\":[],\"yellow\":[]},\"examples\":[{\"de\":{},\"lv\":{\"purple\":[\"kehtivana\"]}},{\"de\":{\"green\":[\"aufrechterhalten\",\"aufrechterhalten\"]},\"lv\":{\"purple\":[\"kehtivana\"]}},{\"de\":{},\"lv\":{\"purple\":[\"kehtivana\"]}}],\"tip\":[{\"purple\":[\"kehtivana hoidma\"]}],\"important\":[{\"green\":[\"aufrechterhalten\"]}]}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11809,7 +11961,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0041",
@@ -11819,7 +11972,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "auf",
+      "currentEt": "{\"explanation\":{\"green\":[\"aufrechterhalten\",\"erhält\",\"auf\"],\"purple\":[],\"yellow\":[]},\"examples\":[{\"de\":{},\"lv\":{\"purple\":[\"kehtivana\"]}},{\"de\":{\"green\":[\"aufrechterhalten\",\"aufrechterhalten\"]},\"lv\":{\"purple\":[\"kehtivana\"]}},{\"de\":{},\"lv\":{\"purple\":[\"kehtivana\"]}}],\"tip\":[{\"purple\":[\"kehtivana hoidma\"]}],\"important\":[{\"green\":[\"aufrechterhalten\"]}]}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11836,7 +11989,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0042",
@@ -11846,7 +12000,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "m",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11863,7 +12017,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0043",
@@ -11873,7 +12028,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "i",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11890,7 +12045,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0044",
@@ -11900,7 +12056,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "l",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11917,7 +12073,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0046",
@@ -11927,7 +12084,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "e",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11944,7 +12101,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0047",
@@ -11954,7 +12112,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "s",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11971,7 +12129,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0048",
@@ -11981,7 +12140,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": " ",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -11998,7 +12157,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0049",
@@ -12008,7 +12168,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "o",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12025,7 +12185,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0051",
@@ -12035,7 +12196,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "a",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12052,7 +12213,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0061",
@@ -12062,7 +12224,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "k",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12079,7 +12241,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0062",
@@ -12089,7 +12252,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "u",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12106,7 +12269,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0065",
@@ -12116,7 +12280,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "p",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12133,7 +12297,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0068",
@@ -12143,7 +12308,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "j",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwiefern\",\"purple\":\"milles osas\",\"red\":\"inwieweit\",\"yellow\":\"kui palju\"},\"examples\":[{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"milles osas\"}},{\"de\":{\"blue\":\"Inwiefern\"},\"lv\":{\"purple\":\"mil moel\"}},{\"de\":{\"red\":\"Inwieweit\"},\"lv\":{\"yellow\":\"kui palju\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwiefern\"},\"meaning\":{\"purple\":\"milles osas\"},\"example\":{\"blue\":\"Inwiefern\"}},{\"word\":{\"red\":\"inwieweit\"},\"meaning\":{\"yellow\":\"kuivõrd\"},\"example\":{\"red\":\"Inwieweit\"}}],\"tip\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"},\"important\":{\"blue\":\"inwiefern\",\"red\":\"inwieweit\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12160,7 +12325,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0070",
@@ -12170,7 +12336,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "k",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12187,7 +12353,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0071",
@@ -12197,7 +12364,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "u",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12214,7 +12381,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0072",
@@ -12224,7 +12392,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "i",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12241,7 +12409,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0073",
@@ -12251,7 +12420,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": " ",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12268,7 +12437,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0074",
@@ -12278,7 +12448,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "p",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12295,7 +12465,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0075",
@@ -12305,7 +12476,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "a",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12322,7 +12493,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0076",
@@ -12332,7 +12504,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "l",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12349,7 +12521,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0077",
@@ -12359,7 +12532,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "j",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12376,7 +12549,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0082",
@@ -12386,7 +12560,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "v",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12403,7 +12577,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0083",
@@ -12413,7 +12588,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "õ",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12430,7 +12605,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0084",
@@ -12440,7 +12616,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "r",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12457,7 +12633,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0085",
@@ -12467,7 +12644,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "d",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12484,7 +12661,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0086",
@@ -12494,7 +12672,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "m",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12511,7 +12689,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0090",
@@ -12521,7 +12700,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "e",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12538,7 +12717,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0091",
@@ -12548,7 +12728,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "s",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12565,7 +12745,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0093",
@@ -12575,7 +12756,7 @@
       "severity": "MEDIUM",
       "category": "SECTIONACCENTS_LANGUAGE",
       "de": "",
-      "currentEt": "o",
+      "currentEt": "{\"explanation\":{\"blue\":\"inwieweit\",\"purple\":\"kui palju\",\"red\":\"inwiefern\",\"yellow\":\"milles osas\"},\"examples\":[{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kui palju\"}},{\"de\":{\"blue\":\"Inwieweit\"},\"lv\":{\"purple\":\"kuivõrd\"}},{\"de\":{\"red\":\"Inwiefern\"},\"lv\":{\"yellow\":\"milles osas\"}}],\"comparison\":[{\"word\":{\"blue\":\"inwieweit\"},\"meaning\":{\"purple\":\"kuivõrd\"},\"example\":{\"blue\":\"Inwieweit\"}},{\"word\":{\"red\":\"inwiefern\"},\"meaning\":{\"yellow\":\"milles osas\"},\"example\":{\"red\":\"Inwiefern\"}}],\"tip\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"},\"important\":{\"blue\":\"inwieweit\",\"red\":\"inwiefern\"}}",
       "proposedEt": "(termins no ET teksta)",
       "reason": "Accent term not found in section text",
       "auditStatus": "PENDING",
@@ -12592,7 +12773,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c2.js"
     },
     {
       "findingId": "ET-C1C2-0097",
@@ -12621,7 +12803,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0098",
@@ -12650,7 +12833,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0099",
@@ -12679,7 +12863,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0100",
@@ -12708,7 +12893,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0101",
@@ -12737,7 +12923,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0102",
@@ -12766,7 +12953,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0103",
@@ -12795,7 +12983,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0104",
@@ -12824,7 +13013,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0105",
@@ -12853,7 +13043,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0106",
@@ -12882,7 +13073,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0107",
@@ -12911,7 +13103,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0108",
@@ -12940,7 +13133,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0109",
@@ -12969,7 +13163,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0110",
@@ -12998,7 +13193,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0111",
@@ -13027,7 +13223,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0112",
@@ -13056,7 +13253,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0113",
@@ -13085,7 +13283,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0114",
@@ -13114,7 +13313,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0115",
@@ -13143,7 +13343,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0116",
@@ -13172,7 +13373,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0117",
@@ -13201,7 +13403,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0118",
@@ -13230,7 +13433,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0119",
@@ -13259,7 +13463,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0120",
@@ -13288,7 +13493,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0121",
@@ -13317,7 +13523,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0122",
@@ -13346,7 +13553,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0123",
@@ -13375,7 +13583,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0124",
@@ -13404,7 +13613,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0125",
@@ -13433,7 +13643,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0126",
@@ -13462,7 +13673,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0127",
@@ -13491,7 +13703,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0128",
@@ -13520,7 +13733,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0129",
@@ -13549,7 +13763,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0130",
@@ -13578,7 +13793,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0131",
@@ -13607,7 +13823,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0132",
@@ -13636,7 +13853,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0133",
@@ -13665,7 +13883,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0134",
@@ -13694,7 +13913,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0135",
@@ -13723,7 +13943,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0136",
@@ -13752,7 +13973,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0137",
@@ -13781,7 +14003,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0138",
@@ -13810,7 +14033,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0139",
@@ -13839,7 +14063,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0140",
@@ -13868,7 +14093,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0141",
@@ -13897,7 +14123,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0142",
@@ -13926,7 +14153,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0143",
@@ -13955,7 +14183,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0144",
@@ -13984,7 +14213,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0145",
@@ -14013,7 +14243,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0146",
@@ -14042,7 +14273,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0147",
@@ -14071,7 +14303,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0148",
@@ -14100,7 +14333,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0149",
@@ -14129,7 +14363,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0150",
@@ -14158,7 +14393,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0151",
@@ -14187,7 +14423,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0152",
@@ -14216,7 +14453,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0153",
@@ -14245,7 +14483,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0154",
@@ -14274,7 +14513,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0155",
@@ -14303,7 +14543,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0156",
@@ -14332,7 +14573,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0157",
@@ -14361,7 +14603,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0158",
@@ -14390,7 +14633,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0159",
@@ -14419,7 +14663,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0160",
@@ -14448,7 +14693,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0161",
@@ -14477,7 +14723,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0162",
@@ -14506,7 +14753,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0163",
@@ -14535,7 +14783,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0164",
@@ -14564,7 +14813,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0165",
@@ -14593,7 +14843,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0166",
@@ -14622,7 +14873,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0167",
@@ -14651,7 +14903,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0168",
@@ -14680,7 +14933,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0169",
@@ -14709,7 +14963,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0170",
@@ -14738,7 +14993,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0171",
@@ -14767,7 +15023,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0172",
@@ -14796,7 +15053,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0173",
@@ -14825,7 +15083,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0174",
@@ -14854,7 +15113,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0175",
@@ -14883,7 +15143,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     },
     {
       "findingId": "ET-C1C2-0176",
@@ -14912,7 +15173,8 @@
       "seenInPreviousRaw": "NO",
       "previousAuditRuns": "none",
       "carryForward": false,
-      "ownerBacklogEligible": true
+      "ownerBacklogEligible": true,
+      "productionFile": "data/et/c1.js"
     }
   ],
   "totalFindings": 131

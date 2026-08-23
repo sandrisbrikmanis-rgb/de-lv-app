@@ -39,7 +39,7 @@ function loadFindings() {
 
 function renderFinding(f, num) {
   return [
-    `## Finding ${num} (Sätze)`,
+    `## Finding ${num} (Teikumi / Sätze)`,
     "",
     `**Finding:** ${num}`,
     `**Audit ID:** ${f.id}`,
@@ -65,7 +65,7 @@ function renderReviewFile(findings) {
   const first = findings[0]?.id || "ET-SENT-0001";
   const last = findings[findings.length - 1]?.id || first;
   return [
-    "# DA–DE Sätze — OWNER preview",
+    "# ET–DE Teikumi (Sätze) — OWNER preview",
     "",
     `**Auditors:** ${AUDITOR} (READ-ONLY)`,
     `Avots: \`reports/${AUDIT_REPORT}\` / \`reports/temp/et-sentences-merged-audit.json\``,
@@ -87,7 +87,7 @@ function renderTableFile(findings, mode) {
   const last = findings[findings.length - 1]?.id || first;
 
   const lines = [
-    `# DA–DE Sätze — ${title}`,
+    `# ET–DE Teikumi (Sätze) — ${title}`,
     "",
     `**Auditors:** ${AUDITOR} (READ-ONLY)`,
     "Avots: `reports/et-sentences-owner-review.md`",
@@ -145,9 +145,9 @@ function renderReadme(findings) {
     bySev[f.severity] = (bySev[f.severity] || 0) + 1;
   });
 
-  return `# DA–DE Sätze — OWNER review (GPT-5.6 Luna)
+  return `# ET–DE Teikumi (Sätze) — OWNER review (GPT-5.6 Luna)
 
-**Auditors:** ${AUDITOR} (READ-ONLY)
+**Dataset:** ET–DE Teikumi / Sätze (\`data/et/sentences.js\`)
 
 Avots: [et-sentences-full-audit.md](./et-sentences-full-audit.md) · [et-sentences-all-findings-by-sentence.md](./et-sentences-all-findings-by-sentence.md)
 
@@ -168,7 +168,8 @@ Avots: [et-sentences-full-audit.md](./et-sentences-full-audit.md) · [et-sentenc
 
 | Tips | Fails | Apraksts |
 |------|-------|----------|
-| Preview | [et-sentences-owner-review.md](./et-sentences-owner-review.md) | Pilns OWNER preview (252 findingi) |
+| Preview (OWNER VIEW) | [et-sentences-owner-view.md](./et-sentences-owner-view.md) | Pilns OWNER VIEW (monolīts) |
+| Preview (alias) | [et-sentences-owner-review.md](./et-sentences-owner-review.md) | Identisks saturam ar owner-view |
 | Decisions | [et-sentences-owner-decisions.md](./et-sentences-owner-decisions.md) | PENDING — aizpildīt OWNER |
 | Accepted | [et-sentences-owner-accepted.md](./et-sentences-owner-accepted.md) | Ieteicamais LABOT ceļš |
 | GitHub | [et-sentences-owner-review-GITHUB.md](./et-sentences-owner-review-GITHUB.md) | Visas saites |
@@ -200,6 +201,7 @@ function main() {
   }
 
   fs.writeFileSync(path.join(ROOT, "reports/et-sentences-owner-review.md"), renderReviewFile(findings));
+  fs.writeFileSync(path.join(ROOT, "reports/et-sentences-owner-view.md"), renderReviewFile(findings));
   fs.writeFileSync(path.join(ROOT, "reports/et-sentences-owner-decisions.md"), renderTableFile(findings, "pending"));
   fs.writeFileSync(path.join(ROOT, "reports/et-sentences-owner-accepted.md"), renderTableFile(findings, "accepted"));
   fs.writeFileSync(path.join(ROOT, "reports/et-sentences-owner-review-README.md"), renderReadme(findings));
@@ -230,6 +232,7 @@ function main() {
         findings: findings.length,
         bySeverity: bySev,
         files: [
+          "et-sentences-owner-view.md",
           "et-sentences-owner-review.md",
           "et-sentences-owner-decisions.md",
           "et-sentences-owner-accepted.md",

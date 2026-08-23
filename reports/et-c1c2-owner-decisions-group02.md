@@ -1,7 +1,7 @@
-# ET–DE A2 — OWNER DECISIONS (grupa 02, 51–100)
+# ET–DE C1/C2 — OWNER DECISIONS (grupa 02, 51–100)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#622](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/622)
 
 | Navigācija | Saite |
 |------------|-------|
@@ -13,7 +13,7 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| ET-C1C2-0093 | c2-inwieweit | study.sectionAccents (examples) | o | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
+| ET-C1C2-0093 | c2-inwieweit | study.sectionAccents (examples) | {"explanation":{"blue":"inwieweit","purple":"kui palju","red":"inwiefern","yellow":"milles osas"},"examples":[{"de":{"bl… | (termins no ET teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
 | ET-C1C2-0097 | c1-Kinderschänder-30 | etText | lapse väärkohtleja | lasteahistaja | MEDIUM | SEMANTICS | PENDING | | |
 | ET-C1C2-0098 | c1-Kindesmisshandlung-31 | etText | lastevastane vägivald | laste väärkohtlemine | MEDIUM | TRANSLATION | PENDING | | |
 | ET-C1C2-0099 | c1-Bergwanderung-41 | etText | mägiturism | mägimatk | HIGH | SEMANTICS | PENDING | | |

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 /**
- * Build ET–DE A2 OWNER-PREP package per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.6 / §7.10.
+ * Build ET–DE C1/C2 OWNER-PREP package per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.6 / §7.10.
  */
 const fs = require("fs");
 const path = require("path");
@@ -19,7 +19,7 @@ const AUDIT_MD = "et-c1c2-full-audit.md";
 const VALIDATION_MD = "et-c1c2-pr603-owner-history-validation.md";
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 const BRANCH = process.env.WORK_BRANCH || execSync("git branch --show-current", { cwd: ROOT, encoding: "utf8" }).trim();
-const PR_NUMBER = process.env.AUDIT_PR || "610";
+const PR_NUMBER = process.env.AUDIT_PR || "622";
 const MAIN_BASE_SHA = process.env.MAIN_BASE_SHA || execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
 const GROUP_SIZE = 50;
 
@@ -178,6 +178,13 @@ function verifyOwnerArtifactCoverage(findings) {
   };
 }
 
+function productionFileForFinding(f) {
+  if (f.productionFile) return f.productionFile;
+  const id = String(f.cardId || "");
+  if (id.startsWith("c2-") || id.startsWith("STRUCT-c2")) return "data/et/c2.js";
+  return "data/et/c1.js";
+}
+
 function renderViewFinding(f) {
   return [
     `## ${f.findingId}`,
@@ -185,7 +192,7 @@ function renderViewFinding(f) {
     `**Audit ID:** ${f.findingId}`,
     `**Card ID:** \`${f.cardId}\``,
     `**Field/path:** \`${f.field}\``,
-    `**Production file:** \`data/et/c1.js\``,
+    `**Production file:** \`${productionFileForFinding(f)}\``,
     `**Severity:** ${f.severity}`,
     `**Category:** ${f.category || "—"}`,
     `**DE (read-only):** ${truncate(f.de, 120) || "—"}`,
@@ -239,7 +246,7 @@ function buildView(findings) {
     const viewRel = `reports/${viewName}`;
     const decRel = `reports/${decName}`;
     const content = [
-      `# ET–DE A1 — OWNER VIEW (grupa ${gi + 1}, ${start}–${end})`,
+      `# ET–DE C1/C2 — OWNER VIEW (grupa ${gi + 1}, ${start}–${end})`,
       "",
       `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
       `**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)`,
@@ -260,25 +267,21 @@ function buildView(findings) {
     groupFiles.push({ id, viewName, decName, viewRel, decRel, start, end, slice });
   });
 
-  const includeFullFindingsInAggregate = findings.length <= GROUP_SIZE;
-
   const main = [
-    "# ET–DE A2 — OWNER VIEW",
+    "# ET–DE C1/C2 — OWNER VIEW",
     "",
     `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**WORK_BRANCH:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
-    `**SCOPE:** ET–DE A2 (\`data/et/c1.js\`)`,
+    `**SCOPE:** ET–DE C1/C2 (\`data/et/c1.js\`, \`data/et/c2.js\`)`,
     `**Findings:** **${findings.length}** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)`,
     "",
     `> OBJECT_COVERAGE = ${TOTAL_CARDS}/${TOTAL_CARDS} (100%). DISCOVERY_COMPLETENESS = ${COVERAGE_DISCLAIMER.DISCOVERY_COMPLETENESS}.`,
-    `> ${COVERAGE_DISCLAIMER.forbiddenInterpretation}`,
-    findings.length > GROUP_SIZE
-      ? `> **Atvēršana GitHub/Cursor:** šis indekss ir īss. Pilns VIEW ir sadalīts pa **${groupFiles.length} grupām** (pa ${GROUP_SIZE} findingiem) — atver grupu failus zemāk, nevis gaidi vienu lielu monolītu.`
-      : "> Visi ieraksti sākotnēji **PENDING**. OWNER aizpilda [et-c1c2-owner-decisions.md](et-c1c2-owner-decisions.md).",
-    "> **DE = STRICT READ-ONLY.** Production: `data/et/c1.js` + `www/data/et/c1.js`.",
+    `> ${TOTAL_CARDS}/${TOTAL_CARDS} does NOT mean all possible defects were found.`,
+    `> **Monolīts fails:** pilns VIEW saturs ir šajā failā. Grupu faili ir tikai navigācijas palīdzība (§7.23).`,
+    "> **DE = STRICT READ-ONLY.** Production: `data/et/c1.js`, `data/et/c2.js` + `www/data/et/` mirror.",
     "",
     "## GitHub atvēršana",
     "",
@@ -300,27 +303,15 @@ function buildView(findings) {
     "",
   ];
 
-  if (includeFullFindingsInAggregate) {
-    main.push(
-      "## Īsais saraksts (visi findingi)",
-      "",
-      ...findings.map((f) => `- **${f.findingId}** \`${f.cardId}\` · \`${f.field}\` · ${f.severity} · ${truncate(f.reason, 80)}`),
-      "",
-      "## Pilns findingu pārskats (visi findingi)",
-      "",
-      ...findings.map(renderViewFinding),
-    );
-  } else {
-    main.push(
-      "## Īsais saraksts",
-      "",
-      `Kopā **${findings.length}** findingi — pilns saturs tikai grupu VIEW failos (${groupFiles.length} × ~50).`,
-      "",
-      ...findings.slice(0, 10).map((f) => `- **${f.findingId}** \`${f.cardId}\` · ${f.severity}`),
-      findings.length > 10 ? `- … un vēl **${findings.length - 10}** (skatīt grupas)` : "",
-      "",
-    );
-  }
+  main.push(
+    "## Īsais saraksts (visi findingi)",
+    "",
+    ...findings.map((f) => `- **${f.findingId}** \`${f.cardId}\` · \`${f.field}\` · ${f.severity} · ${truncate(f.reason, 80)}`),
+    "",
+    "## Pilns findingu pārskats (visi findingi)",
+    "",
+    ...findings.map(renderViewFinding),
+  );
 
   fs.writeFileSync(OUT.view, main.filter(Boolean).join("\n"));
   return groupFiles;
@@ -328,7 +319,7 @@ function buildView(findings) {
 
 function buildDecisions(findings, groupFiles) {
   const header = [
-    "# ET–DE A2 — OWNER DECISIONS",
+    "# ET–DE C1/C2 — OWNER DECISIONS",
     "",
     `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
@@ -336,7 +327,7 @@ function buildDecisions(findings, groupFiles) {
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     `**Findings:** **${findings.length}** · sākotnēji visi **PENDING**`,
     "",
-    "Pirmais ET–DE A2 FULL_DISCOVERY — nav iepriekšējas OWNER history. Aizpildi grupu tabulas vai šo indeksu.",
+    "Pirmais ET–DE C1/C2 FULL_DISCOVERY — nav iepriekšējas OWNER history. Aizpildi grupu tabulas vai šo indeksu.",
     "",
     "Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**",
     "",
@@ -360,7 +351,7 @@ function buildDecisions(findings, groupFiles) {
 
   groupFiles.forEach((g) => {
     const groupContent = [
-      `# ET–DE A2 — OWNER DECISIONS (grupa ${g.id}, ${g.start}–${g.end})`,
+      `# ET–DE C1/C2 — OWNER DECISIONS (grupa ${g.id}, ${g.start}–${g.end})`,
       "",
       `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
       `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
@@ -383,7 +374,7 @@ function buildDecisions(findings, groupFiles) {
 function buildReadme(findings, groupFiles) {
   const bySev = countBySev(findings);
   const content = [
-    "# ET–DE A2 — OWNER review (MASTER v1.9)",
+    "# ET–DE C1/C2 — OWNER review (MASTER v1.9)",
     "",
     `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**Branch:** \`${BRANCH}\``,
@@ -482,7 +473,7 @@ function buildGithub(findings, groupFiles, coverage, auditData) {
     : [];
 
   const content = [
-    "# ET–DE A2 — GitHub atvēršanas indekss",
+    "# ET–DE C1/C2 — GitHub atvēršanas indekss",
     "",
     `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**Branch:** \`${BRANCH}\``,
@@ -498,9 +489,9 @@ function buildGithub(findings, groupFiles, coverage, auditData) {
     `| [Šis indekss](${gh("reports/et-c1c2-owner-review-GITHUB.md")}) | Visas GitHub saites |`,
     `| [Pilns audits](${gh(`reports/${AUDIT_MD}`)}) | ${TOTAL_CARDS}/${TOTAL_CARDS} · OWNER backlog **${findings.length}** |`,
     "",
-    "> **Svarīgi:** ar **508** findingiem strādā pa **grupām** (1–50, 51–100, …). Monolīts `et-c1c2-owner-view.md` agrāk bija ~340 KB un GitHub/Cursor to nerāda; indekss tagad ir īss.",
+    `> **Navigācija:** pilns monolīts VIEW/DECISIONS ir obligāti. Grupu faili (${groupFiles.length} × ~50) ir tikai papildus navigācija (MASTER §7.23).`,
     "",
-    "## VIEW ↔ DECISIONS (indeksi — pilns saturs grupās)",
+    "## VIEW ↔ DECISIONS (monolīti + grupas)",
     "",
     "| Tips | Fails |",
     "|------|-------|",

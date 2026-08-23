@@ -1,6 +1,6 @@
-# DA–DE Sätze — OWNER review (GPT-5.6 Luna)
+# ET–DE Teikumi (Sätze) — OWNER review (GPT-5.6 Luna)
 
-**Auditors:** GPT-5.6 Luna (READ-ONLY)
+**Dataset:** ET–DE Teikumi / Sätze (`data/et/sentences.js`)
 
 Avots: [et-sentences-full-audit.md](./et-sentences-full-audit.md) · [et-sentences-all-findings-by-sentence.md](./et-sentences-all-findings-by-sentence.md)
 
@@ -21,7 +21,8 @@ Avots: [et-sentences-full-audit.md](./et-sentences-full-audit.md) · [et-sentenc
 
 | Tips | Fails | Apraksts |
 |------|-------|----------|
-| Preview | [et-sentences-owner-review.md](./et-sentences-owner-review.md) | Pilns OWNER preview (252 findingi) |
+| Preview (OWNER VIEW) | [et-sentences-owner-view.md](./et-sentences-owner-view.md) | Pilns OWNER VIEW (monolīts) |
+| Preview (alias) | [et-sentences-owner-review.md](./et-sentences-owner-review.md) | Identisks saturam ar owner-view |
 | Decisions | [et-sentences-owner-decisions.md](./et-sentences-owner-decisions.md) | PENDING — aizpildīt OWNER |
 | Accepted | [et-sentences-owner-accepted.md](./et-sentences-owner-accepted.md) | Ieteicamais LABOT ceļš |
 | GitHub | [et-sentences-owner-review-GITHUB.md](./et-sentences-owner-review-GITHUB.md) | Visas saites |

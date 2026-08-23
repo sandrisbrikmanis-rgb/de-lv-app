@@ -1,8 +1,8 @@
-# ET–DE A2 — OWNER review (MASTER v1.9)
+# ET–DE C1/C2 — OWNER review (MASTER v1.9)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Branch:** `cursor/et-de-c1c2-teikumi-full-audit-4a7c`
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#622](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/622)
 
 Avots: [et-c1c2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-full-audit.md) · [GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-review-GITHUB.md)
 

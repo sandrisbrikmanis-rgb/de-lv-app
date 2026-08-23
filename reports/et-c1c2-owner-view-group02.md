@@ -1,8 +1,8 @@
-# ET–DE A1 — OWNER VIEW (grupa 2, 51–100)
+# ET–DE C1/C2 — OWNER VIEW (grupa 2, 51–100)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#622](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/622)
 
 | Navigācija | Saite |
 |------------|-------|
@@ -17,11 +17,11 @@ Avots: [et-c1c2-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app
 **Audit ID:** ET-C1C2-0093
 **Card ID:** `c2-inwieweit`
 **Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/et/c1.js`
+**Production file:** `data/et/c2.js`
 **Severity:** MEDIUM
 **Category:** SECTIONACCENTS_LANGUAGE
 **DE (read-only):** —
-**CURRENT:** o
+**CURRENT:** {"explanation":{"blue":"inwieweit","purple":"kui palju","red":"inwiefern","yellow":"milles osas"},"examples":[{"de":{"blue":"Inwieweit"},"lv":{"purple":"kui palju"}},{"de":{"blue":"Inwieweit"},"lv":{"purple":"kuivõrd"}},{"de":{"red":"Inwiefern"},"lv":{"yellow":"milles osas"}}],"comparison":[{"word":{"blue":"inwieweit"},"meaning":{"purple":"kuivõrd"},"example":{"blue":"Inwieweit"}},{"word":{"red":"inwiefern"},"meaning":{"yellow":"milles osas"},"example":{"red":"Inwiefern"}}],"tip":{"blue":"inwiew…
 **PROPOSED_ET (audit ieteikums):** (termins no ET teksta)
 **Problēma:** Accent term not found in section text
 **Avots:** deterministic

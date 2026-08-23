@@ -1,9 +1,9 @@
-# ET–DE A2 — GitHub atvēršanas indekss
+# ET–DE C1/C2 — GitHub atvēršanas indekss
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Branch:** `cursor/et-de-c1c2-teikumi-full-audit-4a7c`
-**MAIN_BASE_SHA:** `8123cf4aba7b8e19df030fefac7d89753b4c9d44`
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**MAIN_BASE_SHA:** `d1ea2b05bde9d5a7d2854c8b83e634a48179185c`
+**Audit PR:** [#622](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/622)
 **Findings:** **131** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
@@ -14,9 +14,9 @@
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-owner-review-GITHUB.md) | Visas GitHub saites |
 | [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-c1c2-teikumi-full-audit-4a7c/reports/et-c1c2-full-audit.md) | 791/791 · OWNER backlog **131** |
 
-> **Svarīgi:** ar **508** findingiem strādā pa **grupām** (1–50, 51–100, …). Monolīts `et-c1c2-owner-view.md` agrāk bija ~340 KB un GitHub/Cursor to nerāda; indekss tagad ir īss.
+> **Navigācija:** pilns monolīts VIEW/DECISIONS ir obligāti. Grupu faili (3 × ~50) ir tikai papildus navigācija (MASTER §7.23).
 
-## VIEW ↔ DECISIONS (indeksi — pilns saturs grupās)
+## VIEW ↔ DECISIONS (monolīti + grupas)
 
 | Tips | Fails |
 |------|-------|
