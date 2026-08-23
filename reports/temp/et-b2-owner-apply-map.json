@@ -1,8 +1,8 @@
 {
   "meta": {
     "expectedLabot": 345,
-    "applyTargets": 345,
-    "skipped": 10,
+    "applyTargets": 344,
+    "skipped": 11,
     "statusCounts": {
       "LABOT": 345,
       "NELABOT": 0,
@@ -17,9 +17,9 @@
       "cardId": "b2-hochwasser",
       "field": "study.comparison[0].example",
       "rawField": "entry[1145].study.comparison[0].example",
-      "current": "Es gibt Hochwasser. = Ir plūdi.",
-      "ownerNew": "Es gibt Hochwasser. = On on üleujutused.",
-      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "current": "Es gibt Hochwasser. = On üleujutus.",
+      "ownerNew": "Es gibt Hochwasser. = On üleujutus.",
+      "ownerNote": "Corrects the generated erroneous `On on üleujutused.`",
       "de": "Hochwasser"
     },
     {
@@ -27,9 +27,9 @@
       "cardId": "b2-hochwasser",
       "field": "study.comparison[1].example",
       "rawField": "entry[1145].study.comparison[1].example",
-      "current": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas.",
-      "ownerNew": "Die Überschwemmung zerstörte Häuser. = Üleujutused hävitasid maju.",
-      "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
+      "current": "Die Überschwemmung zerstörte Häuser. = Üleujutus hävitas maju.",
+      "ownerNew": "Die Überschwemmung zerstörte Häuser. = Üleujutus hävitas maju.",
+      "ownerNote": "Match singular German subject naturally in ET.",
       "de": "Hochwasser"
     },
     {
@@ -37,7 +37,7 @@
       "cardId": "b2-hochwasser",
       "field": "study.comparison[2].example",
       "rawField": "entry[1145].study.comparison[2].example",
-      "current": "Der Pegel steigt. = Ūdens līmenis ceļas.",
+      "current": "Der Pegel steigt. = Veetase tõuseb.",
       "ownerNew": "Der Pegel steigt. = Veetase tõuseb.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "Hochwasser"
@@ -47,7 +47,7 @@
       "cardId": "b2-nachdruck",
       "field": "study.comparison[0].example",
       "rawField": "entry[1349].study.comparison[0].example",
-      "current": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu.",
+      "current": "Er legt Nachdruck auf die Frist. = Ta rõhutab tähtaega.",
       "ownerNew": "Er legt Nachdruck auf die Frist. = Ta rõhutab tähtaega.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "Nachdruck"
@@ -57,7 +57,7 @@
       "cardId": "b2-nachdruck",
       "field": "study.comparison[1].example",
       "rawField": "entry[1349].study.comparison[1].example",
-      "current": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī.",
+      "current": "Der Nachdruck erschien im Frühjahr. = Kordustrükk ilmus kevadel.",
       "ownerNew": "Der Nachdruck erschien im Frühjahr. = Kordustrükk ilmus kevadel.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "Nachdruck"
@@ -67,7 +67,7 @@
       "cardId": "b2-nachdruck",
       "field": "study.comparison[2].example",
       "rawField": "entry[1349].study.comparison[2].example",
-      "current": "Unter Druck stehen = būt spiedienā.",
+      "current": "Unter Druck stehen = olema surve all.",
       "ownerNew": "Unter Druck stehen = olema surve all.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "Nachdruck"
@@ -77,7 +77,7 @@
       "cardId": "b2-zuweisen",
       "field": "study.comparison[0].example",
       "rawField": "entry[2100].study.comparison[0].example",
-      "current": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu.",
+      "current": "Er weist die Aufgabe zu. = Ta määrab ülesande.",
       "ownerNew": "Er weist die Aufgabe zu. = Ta määrab ülesande.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "zuweisen"
@@ -87,7 +87,7 @@
       "cardId": "b2-zuweisen",
       "field": "study.comparison[1].example",
       "rawField": "entry[2100].study.comparison[1].example",
-      "current": "Er gibt mir die Arbeit. = Viņš man dod darbu.",
+      "current": "Er gibt mir die Arbeit. = Ta annab mulle töö.",
       "ownerNew": "Er gibt mir die Arbeit. = Ta annab mulle töö.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "zuweisen"
@@ -97,7 +97,7 @@
       "cardId": "b2-zuweisen",
       "field": "study.comparison[2].example",
       "rawField": "entry[2100].study.comparison[2].example",
-      "current": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus.",
+      "current": "Er verteilt die Aufgaben. = Ta jagab ülesanded.",
       "ownerNew": "Er verteilt die Aufgaben. = Ta jagab ülesanded.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "zuweisen"
@@ -107,7 +107,7 @@
       "cardId": "b2-zuwider",
       "field": "study.comparison[1].example",
       "rawField": "entry[2102].study.comparison[1].example",
-      "current": "Es ist mir zuwider. = Man tas nepatīk.",
+      "current": "Es ist mir zuwider. = See ei meeldi mulle.",
       "ownerNew": "Es ist mir zuwider. = See ei meeldi mulle.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "zuwider"
@@ -117,7 +117,7 @@
       "cardId": "b2-anbieten",
       "field": "study.comparison[0].example",
       "rawField": "entry[2113].study.comparison[0].example",
-      "current": "Ich biete Hilfe an. = Es piedāvāju palīdzību.",
+      "current": "Ich biete Hilfe an. = Ma pakun abi.",
       "ownerNew": "Ich biete Hilfe an. = Ma pakun abi.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "anbieten"
@@ -127,7 +127,7 @@
       "cardId": "b2-anbieten",
       "field": "study.comparison[1].example",
       "rawField": "entry[2113].study.comparison[1].example",
-      "current": "Er bietet viel Geld. = Viņš piedāvā daudz naudas.",
+      "current": "Er bietet viel Geld. = Ta pakub palju raha.",
       "ownerNew": "Er bietet viel Geld. = Ta pakub palju raha.",
       "ownerNote": "LV jäänuk asendatud loomuliku eesti tõlkega comparison näites.",
       "de": "anbieten"
@@ -168,8 +168,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "justkui • näiliselt",
-      "ownerNew": "väidetavalt • oletatav",
-      "ownerNote": "„Angeblich“ väljendab väidetavust, mitte lihtsalt „justkui“ või „näiliselt“.",
+      "ownerNew": "väidetavalt • väidetav",
+      "ownerNote": "`angeblich` = alleged/allegedly; `oletatav` is less exact here.",
       "de": "angeblich"
     },
     {
@@ -178,8 +178,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "ümber veenma • hoiatama • kõrvale juhtima",
-      "ownerNew": "ümber veenma • ära hoidma • kõrvale juhtima",
-      "ownerNote": "„Hoiatama“ tähendab hoiatamist, mitte kellegi heidutamist või millegi ärahoidmist.",
+      "ownerNew": "ümber veenma • millestki loobuma panema • kõrvale juhtima",
+      "ownerNote": "`abbringen` is dissuade/divert, not generic `ära hoidma`.",
       "de": "abbringen"
     },
     {
@@ -298,8 +298,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "väline sära",
-      "ownerNew": "välisus • pealiskaudsus",
-      "ownerNote": "„Väline sära” tähendab välist hiilgust, kuid Äußerlichkeit tähendab välisust või pealiskaudsust.",
+      "ownerNew": "välised tunnused • pealiskaudsus",
+      "ownerNote": "More natural ET than `välisus`.",
       "de": "Äußerlichkeit"
     },
     {
@@ -378,8 +378,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "välja saatma • välja saatma • kinnitama • tõestama",
-      "ownerNew": "välja saatma • välja tõrjuma • kinnitama • tõestama",
-      "ownerNote": "Kaks esimest vastet on identsed ega erista väljasaatmise ja väljatõrjumise tähendust.",
+      "ownerNew": "välja saatma • isikut tõendama • kinnitama • tõestama",
+      "ownerNote": "`ausweisen` includes expel and identify/prove; `välja tõrjuma` was not the correct second sense.",
       "de": "ausweisen"
     },
     {
@@ -448,8 +448,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "enneolematu • nähtamatu • võrreldamatu",
-      "ownerNew": "enneolematu • enneolematu • võrreldamatu",
-      "ownerNote": "„Nähtamatu” tähendab nähtamatut, mitte enneolematut või pretsedenditut.",
+      "ownerNew": "enneolematu • võrreldamatu",
+      "ownerNote": "Remove duplicated `enneolematu`.",
       "de": "beispiellos"
     },
     {
@@ -461,16 +461,6 @@
       "ownerNew": "nõustuma • heaks kiitma",
       "ownerNote": "„Beistimmen” tähendab kellegagi nõustumist või millegi heakskiitmist, mitte kaasa hääletamist.",
       "de": "beistimmen"
-    },
-    {
-      "auditId": "ET-B2-0052",
-      "cardId": "b2-Straßenbelag-174",
-      "field": "lv",
-      "rawField": "lv",
-      "current": "tänavakate",
-      "ownerNew": "teekate",
-      "ownerNote": "Tee või tänava pinnakatte tavapärane eestikeelne termin on „teekate”.",
-      "de": "Straßenbelag"
     },
     {
       "auditId": "ET-B2-0053",
@@ -558,8 +548,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "üllatunud • segaduses • hämmingus",
-      "ownerNew": "vapustatud • segaduses • hämmeldunud",
-      "ownerNote": "„Bestürzt” väljendab tugevat vapustust või kohkumist, mitte lihtsalt üllatust.",
+      "ownerNew": "vapustatud • kohkunud",
+      "ownerNote": "`bestürzt` is stronger than simple surprise/confusion.",
       "de": "bestürzt"
     },
     {
@@ -598,8 +588,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "saak • võit • trofee",
-      "ownerNew": "saak • saagis • trofee",
-      "ownerNote": "„Võit” tähendab eeskätt võitu, samas kui „Beute” tähendab saaki või röövsaaki.",
+      "ownerNew": "saak • röövsaak",
+      "ownerNote": "`saagis` is crop/yield and is not the correct `Beute` sense.",
       "de": "Beute"
     },
     {
@@ -648,8 +638,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "sete • pärme",
-      "ownerNew": "sete • pärm",
-      "ownerNote": "Sõnavarakaardil peaks vaste olema algvormis; „pärme“ on partitiiv, samas kui mõiste vaste on „pärm“.",
+      "ownerNew": "sete • pärmisete",
+      "ownerNote": "More precise than bare `pärm` for sediment/dregs context.",
       "de": "Bodensatz"
     },
     {
@@ -718,8 +708,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "kodanlik • kodanike • kodanlik",
-      "ownerNew": "kodanlik • kodaniku- • kodanlik",
-      "ownerNote": "Teine vaste „kodanike” on mitmuse omastav, mitte omadussõna või korrektne liitsõna tüvi.",
+      "ownerNew": "kodanlik • kodaniku-",
+      "ownerNote": "Remove duplicate and keep valid adjective/compound stem.",
       "de": "bürgerlich"
     },
     {
@@ -748,8 +738,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "nartkootikumide illegaalne müüja",
-      "ownerNew": "illegaalne narkootikumide müüja",
-      "ownerNote": "Sõnas nartkootikumide on kirjaviga ning eestikeelne sõnajärg on ebaloomulik.",
+      "ownerNew": "narkodiiler",
+      "ownerNote": "Natural concise ET lexical equivalent.",
       "de": "Dealer"
     },
     {
@@ -868,8 +858,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "läbi viima • välja kannatama • saavutama • välja ravima • raiskama",
-      "ownerNew": "läbi viima • läbi aitama • saavutama • välja ravima • raiskama",
-      "ownerNote": "„durchbringen” tähendab kellegi või millegi läbi aitamist; „välja kannatama” tähendab taluma.",
+      "ownerNew": "läbi aitama • läbi viima • ülal pidama • raiskama",
+      "ownerNote": "Better coverage of `durchbringen`; remove inaccurate `saavutama` / `välja ravima` chain.",
       "de": "durchbringen"
     },
     {
@@ -928,8 +918,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "abielu • laulumine",
-      "ownerNew": "abiellumine • laulatamine",
-      "ownerNote": "„laulumine” tähendab laulmist; abielu sõlmimise tähenduses on õiged „abiellumine” ja „laulatamine”.",
+      "ownerNew": "abiellumine • abielu sõlmimine",
+      "ownerNote": "Avoid narrowing to religious `laulatamine`.",
       "de": "Eheschließung"
     },
     {
@@ -938,8 +928,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "austama • lugu pidama • auhindama",
-      "ownerNew": "austama • lugu pidama • au sees hoidma",
-      "ownerNote": "„auhindama” tähendab auhinna andmist, mitte austamist või au sees hoidmist.",
+      "ownerNew": "austama • lugu pidama",
+      "ownerNote": "`au sees hoidma` is unnecessary as a third main gloss.",
       "de": "ehren"
     },
     {
@@ -1238,8 +1228,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "korraldus • käsk • dekreet • vallandamine",
-      "ownerNew": "korraldus • käsk • dekreet • võlast vabastamine",
-      "ownerNote": "Erlass tähendab määrust või korraldust; „vallandamine” on siin eksitav tähendus.",
+      "ownerNew": "määrus • korraldus • dekreet • võlast vabastamine",
+      "ownerNote": "`Erlass` includes decree/order and remission.",
       "de": "Erlass"
     },
     {
@@ -1368,8 +1358,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "räbalad",
-      "ownerNew": "räbal • ribad",
-      "ownerNote": "Saksa märksõna on ainsuses; „räbalad” on ainult mitmus ja ei vasta märksõna põhivormile.",
+      "ownerNew": "räbal • riba",
+      "ownerNote": "Keep dictionary headword forms singular.",
       "de": "Fetzen"
     },
     {
@@ -1408,8 +1398,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "muidugi • kahtlemata • aga • ainult",
-      "ownerNew": "muidugi • kahtlemata • aga",
-      "ownerNote": "Freilich tähendab siin „muidugi/kahtlemata” või vastandavat „aga”, mitte iseseisvalt „ainult”.",
+      "ownerNew": "muidugi • tõsi küll",
+      "ownerNote": "Natural core senses of `freilich`; avoid overloading with generic `aga`.",
       "de": "freilich"
     },
     {
@@ -1458,8 +1448,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "liidritüüp • liider",
-      "ownerNew": "liidri loomus • juhivõimed",
-      "ownerNote": "Führernatur tähistab juhi loomust või juhtimisomadusi, mitte lihtsalt liidrit ennast.",
+      "ownerNew": "juhiloomus • juhivõimed",
+      "ownerNote": "Natural ET for `Führernatur`.",
       "de": "Führernatur"
     },
     {
@@ -1518,8 +1508,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "gaasiarvesti",
-      "ownerNew": "gaasinäidu lugeja",
-      "ownerNote": "Gasableser on gaasimõõtja näidu lugeja ehk inimene, mitte gaasiarvesti ise.",
+      "ownerNew": "gaasiarvesti näidu lugeja",
+      "ownerNote": "`Gasableser` is the person who reads the gas meter.",
       "de": "Gasableser"
     },
     {
@@ -1528,8 +1518,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "nõrk • kidur • vilets • vigane • vigadega",
-      "ownerNew": "nõrk • kidur • vilets • põdur",
-      "ownerNote": "„Vigane” ja „vigadega” tähendavad defektset või vigadega, mitte füüsiliselt nõrka ja põdurat.",
+      "ownerNew": "põdur • nõrk",
+      "ownerNote": "Natural concise ET for `gebrechlich`.",
       "de": "gebrechlich"
     },
     {
@@ -1568,8 +1558,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "meeldivus",
-      "ownerNew": "meeldimine • heameel",
-      "ownerNote": "„Gefallen” tähendab meeldimist või heameelt; „meeldivus” tähistab pigem meeldivat omadust.",
+      "ownerNew": "teene • heameel",
+      "ownerNote": "`Gefallen` includes favour/pleasure; generated mapping omitted the central `teene` sense.",
       "de": "Gefallen"
     },
     {
@@ -1588,8 +1578,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "meeleolu",
-      "ownerNew": "meeleolus",
-      "ownerNote": "Saksa „gelaunt” on omadussõna; „meeleolu” on nimisõna. Vastav eestikeelne omadussõnaline vaste on „meeleolus”.",
+      "ownerNew": "tujus",
+      "ownerNote": "Natural adjective-like equivalent for `gelaunt`.",
       "de": "gelaunt"
     },
     {
@@ -1598,8 +1588,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "kallis • armastatud • lemmik",
-      "ownerNew": "armastatu (mees) • kallim",
-      "ownerNote": "Meessoost nimisõnana tähendab „Geliebte” armastatut või kallimat; „lemmik” tähendab eeskätt lemmikut.",
+      "ownerNew": "armastatu • kallim",
+      "ownerNote": "Natural noun equivalents.",
       "de": "Geliebte"
     },
     {
@@ -1608,8 +1598,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "segu • segamini • kokteil",
-      "ownerNew": "segu • segum • kokteil",
-      "ownerNote": "„Segamini” on määrsõna või omadussõna, kuid saksa „Gemisch” ja teised vasted on nimisõnad.",
+      "ownerNew": "segu • kokteil",
+      "ownerNote": "`segum` is unnecessary/nonstandard here.",
       "de": "Gemisch"
     },
     {
@@ -1638,8 +1628,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "hea õnn",
-      "ownerNew": "juhus",
-      "ownerNote": "Geratewohl tähendab juhuslikkust või juhuse hooleks jätmist, mitte lihtsalt head õnne.",
+      "ownerNew": "huupi • hea õnne peale",
+      "ownerNote": "Correct idiomatic meaning of `aufs Geratewohl`.",
       "de": "Geratewohl"
     },
     {
@@ -1688,8 +1678,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "vaated • meeleolu",
-      "ownerNew": "vaated • hoiak",
-      "ownerNote": "Gesinnung tähendab inimese hoiakuid, veendumusi või maailmavaadet; „meeleolu” tähendab emotsionaalset tuju.",
+      "ownerNew": "hoiak • veendumused",
+      "ownerNote": "`Gesinnung` = attitude/convictions, not mood.",
       "de": "Gesinnung"
     },
     {
@@ -1768,8 +1758,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "paljas peanahk",
-      "ownerNew": "kiilaspäisus",
-      "ownerNote": "„Paljas peanahk“ kirjeldab nähtavat peanahka, kuid „Glatze“ tähendab kiilaspäisust või kiilast pead.",
+      "ownerNew": "kiilaspea • kiilaspäisus",
+      "ownerNote": "Better lexical coverage of `Glatze`.",
       "de": "Glatze"
     },
     {
@@ -1838,8 +1828,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "lühike ametlik kõne",
-      "ownerNew": "tervituskõne",
-      "ownerNote": "Tõlge tähendab üldist lühikest ametlikku kõnet ega anna edasi tervituse või tervituskõne tähendust.",
+      "ownerNew": "tervitussõnad • tervituskõne",
+      "ownerNote": "`Grußwort` can be greeting words/address; more exact than only speech.",
       "de": "Grußwort"
     },
     {
@@ -1868,8 +1858,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "heasüdamlikkus • kvaliteet • kasu",
-      "ownerNew": "heasüdamlikkus • kvaliteet",
-      "ownerNote": "Kasu tähendab benefit/profit, mitte Güte tähendustena headus, heatahtlikkus või kvaliteet.",
+      "ownerNew": "headus • kvaliteet",
+      "ownerNote": "`Güte` = goodness/quality; use natural noun `headus`.",
       "de": "Güte"
     },
     {
@@ -1978,8 +1968,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "teade",
-      "ownerNew": "aspekt • seisukoht",
-      "ownerNote": "„Teade” tähendab sõnumit või teadet ega vasta Hinsicht tähendustele „aspekt” ja „seisukoht”.",
+      "ownerNew": "aspekt • suhe",
+      "ownerNote": "`Hinsicht` = respect/aspect; `seisukoht` is not the core lexical equivalent.",
       "de": "Hinsicht"
     },
     {
@@ -2008,8 +1998,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "kuum • õhin • järsk • kiiresti vihastuv",
-      "ownerNew": "kuum • tuline • äge • kiiresti vihastuv",
-      "ownerNote": "„Õhin” on nimisõna ega sobi omadussõnana; hitzig tähendab ka tulist või ägedat.",
+      "ownerNew": "tuline • äge • kiiresti vihastuv",
+      "ownerNote": "Remove literal/general `kuum` from the main gloss chain.",
       "de": "hitzig"
     },
     {
@@ -2018,8 +2008,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "kõrgväärtuslik",
-      "ownerNew": "kvaliteetne",
-      "ownerNote": "Tähendab eeskätt kvaliteetset või kõrgeklassilist, mitte lihtsalt kõrge väärtusega eset.",
+      "ownerNew": "kvaliteetne • kõrgekvaliteediline",
+      "ownerNote": "More exact for `hochwertig`.",
       "de": "hochwertig"
     },
     {
@@ -2479,7 +2469,7 @@
       "rawField": "lv",
       "current": "madalik",
       "ownerNew": "liivamadal",
-      "ownerNote": "„Madalaik” on liiga üldine; Sandbank tähendab konkreetselt liivamadalat või liivast leetseljakut.",
+      "ownerNote": "Exact `Sandbank` meaning.",
       "de": "Sandbank"
     },
     {
@@ -2718,8 +2708,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "kriminaalasja algatamine kellegi vastu",
-      "ownerNew": "kuriteoteade",
-      "ownerNote": "Tähendab kriminaalasja algatamist, mitte kuriteoteadet või politseile esitatud avaldust.",
+      "ownerNew": "kuriteoteade • avaldus politseile",
+      "ownerNote": "`Strafanzeige` is a criminal complaint/report, not the opening of a case itself.",
       "de": "Strafanzeige"
     },
     {
@@ -2728,8 +2718,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "tülinorija",
-      "ownerNew": "tülivõimeline",
-      "ownerNote": "Praegune vaste on nimisõna „tülinorija“, kuid saksa märksõna on omadussõna.",
+      "ownerNew": "võitluslik • vaidlushimuline",
+      "ownerNote": "Generated `tülivõimeline` is unnatural ET.",
       "de": "streitbar"
     },
     {
@@ -2848,8 +2838,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "kuulatlema",
-      "ownerNew": "ringi küsitlema",
-      "ownerNote": "Kuulatlema tähendab tähelepanelikult kuulama; sich umhören tähendab teiste käest järele uurima või ringi küsitlema.",
+      "ownerNew": "ringi küsima • maad kuulama",
+      "ownerNote": "Natural ET for `sich umhören`; avoid `ringi küsitlema`.",
       "de": "umhören, sich"
     },
     {
@@ -2858,8 +2848,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "sisse lülitama • hõlmama • ümbritsema",
-      "ownerNew": "sulgema sisse • hõlmama • ümbritsema",
-      "ownerNote": "Sisse lülitama tähendab seadme aktiveerimist, mitte millegi sisse sulgemist või ümbritsemist.",
+      "ownerNew": "sisse piirama • hõlmama • ümbritsema",
+      "ownerNote": "Natural transitive senses of `umschließen`.",
       "de": "umschließen"
     },
     {
@@ -2868,8 +2858,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "kirjeldama",
-      "ownerNew": "ümber sõnastama",
-      "ownerNote": "„Kirjeldama” ei väljenda peamist tähendust „ümber sõnastama” või „ümber kirjutama”; lisaks on vorm gerundiiv.",
+      "ownerNew": "ümber sõnastama • kirjeldama",
+      "ownerNote": "Preserve both principal senses of `umschreiben`.",
       "de": "umschreiben"
     },
     {
@@ -2978,8 +2968,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "testament",
-      "ownerNew": "pärand",
-      "ownerNote": "„Vermächtnis” on pärand või annak; „testament” on dokument, millega pärand määratakse.",
+      "ownerNew": "pärand • annak",
+      "ownerNote": "`Vermächtnis` = legacy/bequest, not the testament document.",
       "de": "Vermächtnis"
     },
     {
@@ -2988,8 +2978,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "omand",
-      "ownerNew": "vara",
-      "ownerNote": "„Vermögen” tähendab üldiselt vara või varandust; „omand” tähistab pigem omandisuhet või omatud eset.",
+      "ownerNew": "vara • võime",
+      "ownerNote": "`Vermögen` covers wealth/property and ability/capacity.",
       "de": "Vermögen"
     },
     {
@@ -3108,8 +3098,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "täielik • täielikult • hoopis",
-      "ownerNew": "täielik • täielikult • täiesti",
-      "ownerNote": "Hoopis tähendab pigem 'instead/quite', mitte 'completely'; see ei vasta siin saksa sõna määrsõnalisele tähendusele.",
+      "ownerNew": "täielik • täiesti",
+      "ownerNote": "Remove mixed/duplicative adverb chain.",
       "de": "vollkommen"
     },
     {
@@ -3118,8 +3108,8 @@
       "field": "lv",
       "rawField": "lv",
       "current": "täisarvuline",
-      "ownerNew": "täielikus koosseisus",
-      "ownerNote": "Täisarvuline tähendab integer-valued; vollzählig tähendab täielikus arvus või täielikus koosseisus.",
+      "ownerNew": "täies koosseisus",
+      "ownerNote": "Natural ET for `vollzählig`.",
       "de": "vollzählig"
     },
     {
@@ -3267,7 +3257,7 @@
       "cardId": "b2-sich-abwenden",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "pöörduma millestki ära",
+      "current": "millestki ära pöörduma",
       "ownerNew": "millestki ära pöörduma",
       "ownerNote": "Estonian word order is unnatural; the complement normally precedes ära pöörduma.",
       "de": "sich abwenden"
@@ -3277,7 +3267,7 @@
       "cardId": "b2-sich-einpraegen",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "meelde jätma",
+      "current": "meelde jääma",
       "ownerNew": "meelde jääma",
       "ownerNote": "The reflexive German verb means to become firmly remembered, not to memorize something actively.",
       "de": "sich einprägen"
@@ -3287,7 +3277,7 @@
       "cardId": "b2-sich-erweisen",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "osutuma milleks",
+      "current": "osutuma millekski",
       "ownerNew": "osutuma millekski",
       "ownerNote": "Üldises vastefraasis nõuab osutuma translatiivi: osutuma millekski.",
       "de": "sich erweisen"
@@ -3297,7 +3287,7 @@
       "cardId": "b2-sich-fassen",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "haarama • end koguma • end valitsema",
+      "current": "end koguma • end valitsema",
       "ownerNew": "end koguma • end valitsema",
       "ownerNote": "Haarama on tavalise fassen-verbi vaste, kuid sich fassen tähendab siin enese kogumist või valitsemist.",
       "de": "sich fassen"
@@ -3307,7 +3297,7 @@
       "cardId": "b2-sich-gestalten",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "kujunema milleks",
+      "current": "kujunema",
       "ownerNew": "kujunema",
       "ownerNote": "Eesti põhisõnavaste on „kujunema”; „milleks” jätab vaste ebamääraseks ja mõjub siin ebaloomulikult.",
       "de": "sich gestalten"
@@ -3317,9 +3307,9 @@
       "cardId": "b2-haube",
       "field": "study.examples[2].lv",
       "rawField": "study.examples[2].lv",
-      "current": "ta avab auto mootorikapoti.",
-      "ownerNew": "ta avab auto kapoti.",
-      "ownerNote": "Eesti keeles nimetatakse auto mootorikatet tavaliselt lihtsalt kapotiks; „mootorikapott” on ebaharilik liitsõna.",
+      "current": "Ta avab auto kapoti.",
+      "ownerNew": "Ta avab auto kapoti.",
+      "ownerNote": "Sentence capitalization + natural wording.",
       "de": "Haube"
     },
     {
@@ -3327,9 +3317,9 @@
       "cardId": "b2-haube",
       "field": "study.examples[3].lv",
       "rawField": "study.examples[3].lv",
-      "current": "mootorikapott on katki.",
-      "ownerNew": "auto kapott on katki.",
-      "ownerNote": "„Auto kapott” on loomulikum ja tavapärasem kui „mootorikapott”.",
+      "current": "Auto kapott on katki.",
+      "ownerNew": "Auto kapott on katki.",
+      "ownerNote": "Sentence capitalization + natural wording.",
       "de": "Haube"
     },
     {
@@ -3337,9 +3327,9 @@
       "cardId": "b2-haube",
       "field": "study.examples[5].lv",
       "rawField": "study.examples[5].lv",
-      "current": "pane kaas pajale kattena.",
-      "ownerNew": "pane pajale kaas.",
-      "ownerNote": "„Kaas pajale kattena” on kohmakas; loomulik eestikeelne käsk on „pane pajale kaas”.",
+      "current": "Pane pajale kaas.",
+      "ownerNew": "Pane pajale kaas.",
+      "ownerNote": "Sentence capitalization + natural wording.",
       "de": "Haube"
     },
     {
@@ -3347,7 +3337,7 @@
       "cardId": "b2-sich-herausbilden",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "välja kujunema milleks",
+      "current": "välja kujunema",
       "ownerNew": "välja kujunema",
       "ownerNote": "„Sich herausbilden” vaste on „välja kujunema”; lisand „milleks” ei ole siin loomulik ega vajalik.",
       "de": "sich herausbilden"
@@ -3357,9 +3347,9 @@
       "cardId": "b2-sich-herausstellen",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "selguma milleks",
-      "ownerNew": "osutuma millekski",
-      "ownerNote": "„Sich herausstellen” tähendab sageli millekski osutumist; praegune „selguma milleks” on ebatäpne ja kohmakas.",
+      "current": "osutuma millekski • selguma",
+      "ownerNew": "osutuma millekski • selguma",
+      "ownerNote": "Preserve both common senses of `sich herausstellen`.",
       "de": "sich herausstellen"
     },
     {
@@ -3367,7 +3357,7 @@
       "cardId": "b2-leiden-study",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "pikaajaline ja raske haigus",
+      "current": "haigus • kannatused",
       "ownerNew": "haigus • kannatused",
       "ownerNote": "Leiden tähendab haigust või kannatusi, kuid mitte tingimata pikaajalist ja rasket haigust.",
       "de": "Leiden"
@@ -3377,7 +3367,7 @@
       "cardId": "b2-sich-paaren",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "paarduma millegaga",
+      "current": "paarituma",
       "ownerNew": "paarituma",
       "ownerNote": "Sich paaren tähendab eeskätt paarituma; praegune väljend on ebatäpne ja „millegagi” ei sobi.",
       "de": "sich paaren"
@@ -3387,7 +3377,7 @@
       "cardId": "b2-sich-vereinigen",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "ühinema millegaga",
+      "current": "ühinema millegagi",
       "ownerNew": "ühinema millegagi",
       "ownerNote": "Verb ühinema nõuab sihitise puhul kaassõnalist vormi millegagi, mitte millegaga.",
       "de": "sich vereinigen"
@@ -3397,7 +3387,7 @@
       "cardId": "b2-sich-versehen",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "eksima • varustama millegaga",
+      "current": "eksima • varustama millegagi",
       "ownerNew": "eksima • varustama millegagi",
       "ownerNote": "Väljend „varustama millegagi” nõuab indefiniitse asesõna vormi millegagi.",
       "de": "sich versehen"
@@ -3407,7 +3397,7 @@
       "cardId": "b2-sich-versoehnen",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "leppima millegaga",
+      "current": "ära leppima kellegagi",
       "ownerNew": "ära leppima kellegagi",
       "ownerNote": "Sich versöhnen tähendab kellegagi ära leppima; millegagi leppima tähendab millegi aktsepteerimist.",
       "de": "sich versöhnen"
@@ -3417,7 +3407,7 @@
       "cardId": "b2-sich-verstellen",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "teesklema keda",
+      "current": "teesklema",
       "ownerNew": "teesklema",
       "ownerNote": "Küsimusõna keda ei sobi tõlkesse; sich verstellen tähendab siin teesklema või võltsilt käituma.",
       "de": "sich verstellen"
@@ -3427,9 +3417,9 @@
       "cardId": "b2-zuwider",
       "field": "study.examples[2].lv",
       "rawField": "study.examples[2].lv",
-      "current": "see ei meeldi mulle / see kurvastab mind.",
-      "ownerNew": "see ei meeldi mulle",
-      "ownerNote": "Zuwider sein tähendab mitte meeldima või vastumeelne olema, mitte tingimata kurvastama.",
+      "current": "See ei meeldi mulle.",
+      "ownerNew": "See ei meeldi mulle.",
+      "ownerNote": "Sentence capitalization.",
       "de": "zuwider"
     },
     {
@@ -3437,7 +3427,7 @@
       "cardId": "b2-zuwider",
       "field": "study.comparison[3].meaning",
       "rawField": "study.comparison[3].meaning",
-      "current": "vaidlema • mitte nõustuma",
+      "current": "vastu vaidlema • mitte nõustuma",
       "ownerNew": "vastu vaidlema • mitte nõustuma",
       "ownerNote": "Iebilst tähendab vastu vaidlema või vastuväiteid esitama; vaidlema on liiga üldine.",
       "de": "zuwider"
@@ -3447,7 +3437,7 @@
       "cardId": "b2-aendern",
       "field": "lv",
       "rawField": "etMain",
-      "current": "muutma • parandama",
+      "current": "muutma",
       "ownerNew": "muutma",
       "ownerNote": "Ändern tähendab muutma või ümber tegema; parandama viitab pigem vigade parandamisele või verbessern'ile.",
       "de": "ändern"
@@ -3457,7 +3447,7 @@
       "cardId": "b2-aendern",
       "field": "study.translation",
       "rawField": "study.translation",
-      "current": "muutma • parandama",
+      "current": "muutma",
       "ownerNew": "muutma",
       "ownerNote": "Ändern tähendab muutma või ümber tegema; parandama viitab pigem vigade parandamisele või verbessern'ile.",
       "de": "ändern"
@@ -3469,10 +3459,10 @@
       "cardId": "STRUCT",
       "field": "study.count",
       "current": "64",
-      "status": "FALSE_POSITIVE",
-      "ownerNew": "",
-      "ownerNote": "Study parity: 4 TRUE_EXTRA_STUDY (Genosse, Genossin, Neger, Pacht) eemaldatud; ET=60 vastab LV MASTER-ile.",
-      "reason": "FALSE_POSITIVE"
+      "status": "LABOT",
+      "ownerNew": "Remove `study` only from `b2-genosse`, `b2-genossin`, `b2-neger`, `b2-pacht`; final ET Study count = 60",
+      "ownerNote": "The 64→60 mismatch is a real structural finding, not a false positive. Exact TRUE_EXTRA_STUDY objects are known.",
+      "reason": "struct_or_sectionaccents_skip"
     },
     {
       "auditId": "ET-B2-0014",
@@ -3522,6 +3512,16 @@
       "status": "FALSE_POSITIVE",
       "ownerNew": "",
       "ownerNote": "sectionAccents char-split artefakt; lahendub TRUE_EXTRA_STUDY eemaldamisega (4 kaardil).",
+      "reason": "FALSE_POSITIVE"
+    },
+    {
+      "auditId": "ET-B2-0052",
+      "cardId": "b2-Straßenbelag-174",
+      "field": "lv",
+      "current": "tänavakate",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "ownerNote": "`tänavakate` is already a correct natural ET equivalent of `Straßenbelag`; no repair required.",
       "reason": "FALSE_POSITIVE"
     },
     {

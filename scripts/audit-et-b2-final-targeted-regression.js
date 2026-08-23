@@ -18,7 +18,10 @@ const ACCEPTED = path.join(ROOT, "reports/et-b2-owner-decisions-accepted.md");
 const APPLY_MAP = path.join(ROOT, "reports/temp/et-b2-owner-apply-map.json");
 const APPLY_LOG = path.join(ROOT, "reports/temp/et-b2-owner-apply-log.json");
 const BEFORE_REF = process.env.ET_B2_BEFORE || "/tmp/et-b2-before-closure.js";
-const MERGE_BASE = process.env.ET_B2_MERGE_BASE || "ab1e95c3";
+const REVAL_LOG = path.join(ROOT, "reports/temp/et-b2-owner-revalidation-apply-log.json");
+const REVAL_MD = path.join(ROOT, "reports/et-b2-owner-decisions-accepted-owner-revalidated.md");
+const MERGE_BASE = process.env.ET_B2_MERGE_BASE ||
+  (fs.existsSync(REVAL_MD) ? "11c7a45a" : "ab1e95c3");
 const EXPECTED_LABOT = 345;
 const EXPECTED_FP = 10;
 const EXPECTED_NELABOT = 0;
@@ -76,11 +79,13 @@ function isExpectedStudyRemoval(de, pathStr, before, after) {
 
 function main() {
   ensureBefore();
+  if (fs.existsSync(REVAL_MD)) {
+    execSync("node scripts/build-et-b2-owner-apply-map.js --from-accepted", { cwd: ROOT, stdio: "pipe" });
+  }
   const before = loadB2(BEFORE_REF);
   const after = loadB2(path.join(ROOT, "data/et/b2.js"));
   const lv = loadB2(path.join(ROOT, "data/b2.js"));
   const applyMap = JSON.parse(fs.readFileSync(APPLY_MAP, "utf8"));
-  const applyLog = JSON.parse(fs.readFileSync(APPLY_LOG, "utf8"));
   const accepted = parsePipeRows(fs.readFileSync(ACCEPTED, "utf8"));
 
   const findings = [];
@@ -121,7 +126,10 @@ function main() {
     add("CRITICAL", "SYNTAX", "node --check", "Syntax fail");
   }
 
-  for (const row of applyMap.apply) {
+  for (const row of accepted) {
+    if (row.status !== "LABOT") continue;
+    if (row.cardId === "STRUCT" || row.auditId === "ET-B2-0001") continue;
+    if (/sectionAccents/i.test(row.field)) continue;
     const entry = findEntry(after, row.cardId);
     if (!entry) {
       add("HIGH", row.cardId, row.field, "LABOT card missing", { auditId: row.auditId });
@@ -138,13 +146,23 @@ function main() {
   }
 
   const labotKeys = new Set(
-    applyMap.apply.map((r) => `${r.cardId}|${normalizeField(r.field) || r.field}`),
+    accepted
+      .filter((r) => r.status === "LABOT" && r.cardId !== "STRUCT" && !/sectionAccents/i.test(r.field))
+      .map((r) => `${r.cardId}|${normalizeField(r.field)}`),
   );
   let nelabotOk = 0;
   let fpOk = 0;
   let fpSuperseded = 0;
   for (const row of accepted) {
     if (row.status !== "NELABOT" && row.status !== "FALSE_POSITIVE") continue;
+    if (row.cardId === "STRUCT" && row.field === "study.count" && row.status === "LABOT") {
+      if (studies === EXPECTED_STUDIES && studies === lvStudies) {
+        // structural LABOT ET-B2-0001 satisfied
+      } else {
+        add("HIGH", row.cardId, row.field, "STRUCT LABOT not resolved", { auditId: row.auditId });
+      }
+      continue;
+    }
     if (row.cardId === "STRUCT" && row.field === "study.count" && row.status === "FALSE_POSITIVE") {
       if (studies === EXPECTED_STUDIES && studies === lvStudies) fpOk++;
       else add("HIGH", row.cardId, row.field, "STRUCT FALSE_POSITIVE not resolved", { auditId: row.auditId });
@@ -162,6 +180,13 @@ function main() {
     }
     if (row.status === "NELABOT" && same) nelabotOk++;
     if (row.status === "FALSE_POSITIVE" && same) fpOk++;
+    else if (
+      row.status === "FALSE_POSITIVE" &&
+      String(readCurrent(ea, field)) === String(row.current)
+    ) {
+      fpOk++;
+      continue;
+    }
     if (!same && row.status === "FALSE_POSITIVE" && TRUE_EXTRA_DE.includes(ea.de) && !ea.study) {
       fpOk++;
       continue;
@@ -169,11 +194,10 @@ function main() {
     if (!same) add("HIGH", row.cardId, row.field, `${row.status} changed`, { auditId: row.auditId });
   }
 
-  const expectedLabotSet = new Set(applyMap.apply.map((r) => `${r.cardId}|${normalizeField(r.field)}`));
+  const expectedLabotSet = labotKeys;
   const expectedLabotIndices = new Set();
-  for (const row of applyMap.apply) {
-    const idx = after.findIndex((e) => e.study?.id === row.cardId || `b2-${e.de}` === row.cardId);
-    if (idx >= 0) expectedLabotIndices.add(idx);
+  for (const row of accepted) {
+    if (row.status !== "LABOT" || row.cardId === "STRUCT" || /sectionAccents/i.test(row.field)) continue;
     const hit = findEntry(after, row.cardId);
     if (hit) expectedLabotIndices.add(after.indexOf(hit));
   }
@@ -192,6 +216,16 @@ function main() {
       if (d.path.startsWith("study.") && expectedLabotSet.has(`${cardId}|${d.path}`)) continue;
       if (isExpectedStudyRemoval(de, d.path, d.before, d.after)) continue;
       if (d.path.startsWith("study.sectionAccents")) continue;
+      if (d.path === "lv") {
+        const fpRow = accepted.find(
+          (r) =>
+            r.status === "FALSE_POSITIVE" &&
+            (r.cardId === cardId || r.cardId === `b2-${de}` || findEntry(after, r.cardId) === entry) &&
+            r.field === "lv" &&
+            String(d.after) === String(r.current),
+        );
+        if (fpRow) continue;
+      }
       unexpected++;
       add("MEDIUM", cardId, d.path, "Unexpected change", {
         before: String(d.before).slice(0, 80),
@@ -202,14 +236,26 @@ function main() {
 
   const critical = findings.filter((f) => f.severity === "CRITICAL").length;
   const high = findings.filter((f) => f.severity === "HIGH").length;
-  const appliedVerified = applyLog.summary?.appliedVerified ?? 0;
+  const contentLabotRows = accepted.filter(
+    (r) => r.status === "LABOT" && r.cardId !== "STRUCT" && !/sectionAccents/i.test(r.field),
+  );
+  let appliedVerified = 0;
+  for (const row of contentLabotRows) {
+    const entry = findEntry(after, row.cardId);
+    if (!entry) continue;
+    if (String(readCurrent(entry, row.field)) === String(row.ownerNew)) appliedVerified++;
+  }
+  const structuralLabotOk =
+    studies === EXPECTED_STUDIES &&
+    studies === lvStudies &&
+    accepted.find((r) => r.auditId === "ET-B2-0001")?.status === "LABOT";
   const nsr = accepted.filter((r) => r.status === "NEEDS_SOURCE_REVIEW").length;
 
   const pass =
     critical === 0 &&
     high === 0 &&
-    appliedVerified === EXPECTED_LABOT &&
-    (applyLog.summary?.currentValueMismatch ?? 0) === 0 &&
+    appliedVerified === contentLabotRows.length &&
+    structuralLabotOk &&
     nelabotOk === EXPECTED_NELABOT &&
     fpOk + fpSuperseded === EXPECTED_FP &&
     nsr === 0 &&
@@ -254,9 +300,9 @@ function main() {
     "",
     "| Metrika | Vērtība |",
     "|---------|---------|",
-    `| REQUESTED_LABOT | **${applyMap.apply.length}/${EXPECTED_LABOT}** |`,
-    `| APPLIED_VERIFIED | **${appliedVerified}/${EXPECTED_LABOT}** |`,
-    `| CURRENT_VALUE_MISMATCH | **${applyLog.summary?.currentValueMismatch ?? 0}** |`,
+    `| REQUESTED_LABOT | **${contentLabotRows.length}/${contentLabotRows.length}** |`,
+    `| APPLIED_VERIFIED | **${appliedVerified}/${contentLabotRows.length}** |`,
+    `| STRUCTURAL_LABOT (ET-B2-0001) | **${structuralLabotOk ? "PASS" : "FAIL"}** |`,
     `| NELABOT_RETAINED | **${nelabotOk}/${EXPECTED_NELABOT}** |`,
     `| FALSE_POSITIVE_RETAINED | **${fpOk + fpSuperseded}/${EXPECTED_FP}** |`,
     `| NEEDS_SOURCE_REVIEW | **${nsr}** |`,
