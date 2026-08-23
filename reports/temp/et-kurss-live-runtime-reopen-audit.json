@@ -1,0 +1,295 @@
+{
+  "generatedAt": "2026-08-23T17:44:54.779Z",
+  "scope": "ET Kurss L1-L21 live/runtime reopen audit",
+  "mainHead": "158d8a71",
+  "verdict": "ET_KURSS_REOPEN — production-visible defects remain",
+  "counts": {
+    "contentRepair": 25,
+    "sharedRendererRepair": 1,
+    "etRendererDataRepair": 0,
+    "total": 26
+  },
+  "sharedNotes": [
+    "Harjutus not in COURSE_EXERCISE_SECTION_TITLES — structural matcher covers ET exercise sections",
+    "Tõlgi not in COURSE_TRANSLATE_SECTION_TITLES — structural matcher covers via translationCards type"
+  ],
+  "defects": [
+    {
+      "lesson": "L1",
+      "section": "Grammatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "∞ Infinitiiv Tegusõna algvorm. Tavaliselt lõpeb infinitiiv lõpuga -en. kommen gehen stehen singen ♟ Oleviku lõpud i Eemalda tegusõna algvormist -en ja lisa lõpp. Näide: kommen → komm + lõpp kommen alg",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson1.legacyHtml (accordion: Grammatika)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_PRONUNCIATION_EXPLANATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L2",
+      "section": "Hääldus",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Sõnades ich, nicht, rechnen ja zeichnen hääldatakse häälikut ch pehmelt, umbes nagu eesti sõnades „tehnika“ ja „Friedrich“. Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e ska",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson2.legacyHtml (accordion: Hääldus)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_PRONUNCIATION_EXPLANATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L3",
+      "section": "Hääldus",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī). ck ir divkāršs k: dick (dikk). Omadus- ja määrsõnades kõlab lõpp -ig nagu kerge -ich: niedrig (niidrih). Ja galotne -ig lõp",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson3.legacyHtml (accordion: Hääldus)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_GRAMMAR_FRAGMENT)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L3",
+      "section": "Grammatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "1 Lause alus Lause alus vastab saksa keeles küsimusele wer? / was? ja seisab nominatiivis. Wer? küsib inimeste kohta. Ar was? jautā pēc priekšmetiem. Wer singt? — Sie singt. Was liegt hier? — Hier lie",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson3.legacyHtml (accordion: Grammatika)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_GRAMMAR_FRAGMENT)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L4",
+      "section": "Hääldus",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Galotnes -en, -er, -el on rõhutamata, seetõttu on e neis lõppudes nõrgalt kuuldav: kommen, nehmen, der Federhalter. h võib saksa keeles olla nii häälik kui ka eelneva vokaali pikkuse märk. Ja h ir gar",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson4.legacyHtml (accordion: Hääldus)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_PRONUNCIATION_EXPLANATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L5",
+      "section": "Hääldus",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "tz on kahekordne z-häälik ja seda hääldatakse nagu z-i: sitzen (zicen). v vācu vārdos izrunā kā f: der Vater (fāter). ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson5.legacyHtml (accordion: Hääldus)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_PRONUNCIATION_EXPLANATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L5",
+      "section": "Grammatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Nominatiiv ja akusatiiv Eesti keeles vastab nominatiiv küsimusele kes/mis?, aga akusatiiv küsimusele keda/mida?. Saksa keeles on nominatiivis inimeste kohta küsimus wer? ja esemete kohta was?. Akuzatī",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson5.legacyHtml (accordion: Grammatika)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_GRAMMAR_FRAGMENT)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L6",
+      "section": "Hääldus",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "ä on vokaali a muutunud variant ning seda hääldatakse lühikese või pika kitsa e-na. Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter). ü ir patskaņa u p",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson6.legacyHtml (accordion: Hääldus)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_PRONUNCIATION_EXPLANATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L6",
+      "section": "Grammatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Grammatika ja selgitused Liitverbi rõhuline eesliide eraldub olevikus verbist ja paikneb lause lõpus. Piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an. Skaitļa vārds",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson6.legacyHtml (accordion: Grammatika)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_PRONUNCIATION_EXPLANATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L7",
+      "section": "Hääldus",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Sõna või silbi alguses hääldatakse sp nagu šp: der Spiegel (dēr špīgel). sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel). Divskani äu izrunā kā latviešu oi: das Fräulein (d",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson7.legacyHtml (accordion: Hääldus)",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_PRONUNCIATION_EXPLANATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L14",
+      "section": "Grammatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich will vorwärts kommen. — Es gribu tikt uz priekšu.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson14.sections[title=Grammatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_EXAMPLE_TRANSLATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L14",
+      "section": "Grammatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson14.sections[title=Grammatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_EXAMPLE_TRANSLATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L15",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson15.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_EXAMPLE_TRANSLATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L16",
+      "section": "Hääldus",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "die Wälder: ä izrunā kā šaurais īsais e.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson16.sections[title=Hääldus]",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_PRONUNCIATION_EXPLANATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L16",
+      "section": "Hääldus",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "die Bäuerinnen: äu izrunā kā oi.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson16.sections[title=Hääldus]",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_PRONUNCIATION_EXPLANATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich gehe an den Tisch. — Es eju pie galda.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_SENTENCE)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_SENTENCE)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_SENTENCE)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_SENTENCE)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich stehe an dem Tische. — Es stāvu pie galda.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_SENTENCE)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_SENTENCE)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_EXAMPLE_TRANSLATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Das Wasser ist in dem Kruge. — Ūdens ir krūzē.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_EXAMPLE_TRANSLATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich trinke Milch. — Es dzeru pienu.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_EXAMPLE_TRANSLATION)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L18",
+      "section": "Gramatika",
+      "defectType": "LV_REMNANT_OR_MIXED_LANGUAGE",
+      "visibleCurrent": "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.",
+      "sourceFilePath": "data/et/courseLessons.js → kurssLesson18.sections[title=Gramatika].examples",
+      "rootCause": "Learner-facing ET content still contains Latvian or LV-learner phrasing (LV_SENTENCE)",
+      "requiredRepair": "Replace with Estonian learner-facing explanation/translation in data/et/courseLessons.js",
+      "bucket": "CONTENT_REPAIR"
+    },
+    {
+      "lesson": "L8–L21 (ET); all non-LV langs with localized Harjutus/Tõlgi-style section titles",
+      "section": "Harjutus / Tõlgi dynamic training cards",
+      "defectType": "RUNTIME_BLANK_DYNAMIC_CARDS",
+      "visibleCurrent": "Flashcard buttons render with correct data-course-*-card + data-lesson-id attrs but innerHTML stays empty; flip/next/progress inoperative",
+      "sourceFilePath": "ui.js → findCourseLessonCardSection (line ~622) + getCourseExerciseCards / getCourseTranslateCards",
+      "rootCause": "findCourseLessonCardSection() calls arity-1 matchers with section.title only (matcher.length > 1 guard). matchesCourseExerciseSection / matchesCourseTranslateSection are arity-1, so structural card-shape matching never runs in deck resolution. Localized titles (Harjutus, Tõlgi, etc.) are not in title allowlists → getCourseExerciseCards() and getCourseTranslateCards() return [] while renderCourseLessonFromData still sets DOM attrs (PR #638 partial fix).",
+      "requiredRepair": "SHARED_RENDERER_REPAIR: fix findCourseLessonCardSection to pass full section to matchers (or add second dummy parameter). Re-init cards after fix. Do not add per-language title hacks.",
+      "bucket": "SHARED_RENDERER_REPAIR",
+      "affectedLessons": [
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21"
+      ],
+      "browserVerified": "L18: exerciseDeckLen=0, translateDeckLen=0 with 8+18 cards in data; exInner/trInner empty"
+    }
+  ]
+}
