@@ -1,0 +1,1509 @@
+{
+  "generatedAt": "2026-08-23T13:41:22.783Z",
+  "source": "reports/temp/et-sentences-merged-audit.json",
+  "productionFile": "data/et/sentences.js",
+  "meta": {
+    "totalFindings": 166,
+    "PENDING": 0,
+    "LABOT": 103,
+    "NELABOT": 1,
+    "FALSE_POSITIVE": 61,
+    "NEEDS_SOURCE_REVIEW": 1
+  },
+  "findings": [
+    {
+      "id": "ET-SENT-0001",
+      "cardId": "sentence-1",
+      "deContext": "Wenn nichts dazwischenkommt.",
+      "currentEt": "Kui miski ei sega. • Kui kõik läheb plaanipäraselt.",
+      "status": "LABOT",
+      "ownerNew": "Kui miski ei sega.",
+      "note": "Esimene variant säilitab saksa negatsiooni; teine variant „plaanipäraselt” ei vasta DE tähendusele."
+    },
+    {
+      "id": "ET-SENT-0002",
+      "cardId": "sentence-2",
+      "deContext": "Das kann ich mir denken!",
+      "currentEt": "Seda ma juba tean!",
+      "status": "NELABOT",
+      "ownerNew": "",
+      "note": "„Seda ma juba tean!” on vastuvõetav idiomaatiline vaste väljendile „Das kann ich mir denken”."
+    },
+    {
+      "id": "ET-SENT-0003",
+      "cardId": "sentence-14",
+      "deContext": "Die Zeit drängt.",
+      "currentEt": "Aeg kihutab.",
+      "status": "LABOT",
+      "ownerNew": "Aeg surub tagant.",
+      "note": "„Die Zeit drängt” rõhutab aja survet, mitte liikumiskiirust."
+    },
+    {
+      "id": "ET-SENT-0004",
+      "cardId": "sentence-17",
+      "deContext": "Kein Durchgang!",
+      "currentEt": "Läbipääs suletud!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Läbipääs suletud!” väljendab saksa „Kein Durchgang” standardse märkuse vormis."
+    },
+    {
+      "id": "ET-SENT-0005",
+      "cardId": "sentence-18",
+      "deContext": "Darf ich Sie bitten?",
+      "currentEt": "Kas ma tohin teilt paluda?",
+      "status": "LABOT",
+      "ownerNew": "Kas ma tohin teid paluda?",
+      "note": "Verb „paluma” nõuab osastavat „teid”, mitte „teilt”."
+    },
+    {
+      "id": "ET-SENT-0006",
+      "cardId": "sentence-24",
+      "deContext": "Eilt sehr!",
+      "currentEt": "Väga kiiresti!",
+      "status": "LABOT",
+      "ownerNew": "Väga kiire!",
+      "note": "Elliptiline saksa väljend tähendab kiireloomulisust, mitte tegevuse viisi."
+    },
+    {
+      "id": "ET-SENT-0007",
+      "cardId": "sentence-27",
+      "deContext": "Was fällt dir ein?",
+      "currentEt": "Mis sulle pähe tuleb?",
+      "status": "LABOT",
+      "ownerNew": "Kuidas sa julged?",
+      "note": "„Was fällt dir ein?” on etteheide, mitte küsimus pähe tuleva mõtte kohta."
+    },
+    {
+      "id": "ET-SENT-0008",
+      "cardId": "sentence-28",
+      "deContext": "Es war einmal.",
+      "currentEt": "Kord oli.",
+      "status": "LABOT",
+      "ownerNew": "Elas kord.",
+      "note": "Muinasjutu algusvormel „Elas kord” on eesti keeles loomulik."
+    },
+    {
+      "id": "ET-SENT-0009",
+      "cardId": "sentence-56",
+      "deContext": "Was mich anbelangt,...",
+      "currentEt": "Mis puutub minusse,...",
+      "status": "LABOT",
+      "ownerNew": "Mis minusse puutub,...",
+      "note": "Idiomaatiline sõnajärg eesti keeles."
+    },
+    {
+      "id": "ET-SENT-0010",
+      "cardId": "sentence-60",
+      "deContext": "Von jetzt an.",
+      "currentEt": "Alates sellest hetkest.",
+      "status": "LABOT",
+      "ownerNew": "Nüüdsest.",
+      "note": "„Von jetzt an” = nüüdsest/siitpeale."
+    },
+    {
+      "id": "ET-SENT-0011",
+      "cardId": "sentence-61",
+      "deContext": "Anders geht es nicht.",
+      "currentEt": "Teisiti ei saa.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Teisiti ei saa” sisaldab negatsiooni „ei”."
+    },
+    {
+      "id": "ET-SENT-0012",
+      "cardId": "sentence-69",
+      "deContext": "Ich habe die Ausbildung absolviert.",
+      "currentEt": "Ma lõpetasin väljaõppe. • Ma lõpetasin hariduse.",
+      "status": "LABOT",
+      "ownerNew": "Ma läbisin väljaõppe.",
+      "note": "„Ausbildung absolviert” = väljaõppe läbimine; eemalda vale variant „haridus”."
+    },
+    {
+      "id": "ET-SENT-0013",
+      "cardId": "sentence-80",
+      "deContext": "Keine Ahnung!",
+      "currentEt": "Pole aimugi!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Pole aimugi!” väljendab negatsiooni vormiga „pole”."
+    },
+    {
+      "id": "ET-SENT-0014",
+      "cardId": "sentence-82",
+      "deContext": "Dieses Kleid ist akademisch gekleidet.",
+      "currentEt": "See kleit on stiilselt konservatiivne.",
+      "status": "NEEDS_SOURCE_REVIEW",
+      "ownerNew": "",
+      "note": "Saksa lause „akademisch gekleidet” on ebastandardne; täpne ET vaste sõltub allikast."
+    },
+    {
+      "id": "ET-SENT-0015",
+      "cardId": "sentence-84",
+      "deContext": "Kannst du das Gerät anklicken?",
+      "currentEt": "Kas sa saad seadmele klõpsata?",
+      "status": "LABOT",
+      "ownerNew": "Kas sa saad seadmel klõpsata?",
+      "note": "Klõpsamise puhul kasutatakse alalütlevat käänet."
+    },
+    {
+      "id": "ET-SENT-0016",
+      "cardId": "sentence-97",
+      "deContext": "Keine Angst, alles wird gut.",
+      "currentEt": "Ära karda, kõik saab hästi.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära karda” väljendab saksa „Keine Angst” negatsiooni käskivas vormis."
+    },
+    {
+      "id": "ET-SENT-0017",
+      "cardId": "sentence-97",
+      "deContext": "Keine Angst, alles wird gut.",
+      "currentEt": "Ära karda, kõik saab hästi.",
+      "status": "LABOT",
+      "ownerNew": "Ära karda, kõik saab korda.",
+      "note": "„Kõik saab korda” on loomulik vaste „alles wird gut”."
+    },
+    {
+      "id": "ET-SENT-0018",
+      "cardId": "sentence-104",
+      "deContext": "Du glaubst mir anscheinend nicht.",
+      "currentEt": "Näib, et sa ei usu mind.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„ei usu” vastab saksa „nicht”."
+    },
+    {
+      "id": "ET-SENT-0019",
+      "cardId": "sentence-106",
+      "deContext": "Stell dich nicht so an!",
+      "currentEt": "Ära teeskle!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära teeskle” vastab saksa „nicht so anstellen”."
+    },
+    {
+      "id": "ET-SENT-0020",
+      "cardId": "sentence-106",
+      "deContext": "Stell dich nicht so an!",
+      "currentEt": "Ära teeskle!",
+      "status": "LABOT",
+      "ownerNew": "Ära tee numbrit!",
+      "note": "Täpsem idiomaatiline vaste dramatiseerimisele."
+    },
+    {
+      "id": "ET-SENT-0021",
+      "cardId": "sentence-123",
+      "deContext": "Bitte die Tür auf!",
+      "currentEt": "Avage palun uks!",
+      "status": "LABOT",
+      "ownerNew": "Ava palun uks!",
+      "note": "Saksa ainsuse mitteametlik käsk, mitte „avage”."
+    },
+    {
+      "id": "ET-SENT-0022",
+      "cardId": "sentence-126",
+      "deContext": "Alle Kräfte aufwenden.",
+      "currentEt": "Pühendada kõik jõud.",
+      "status": "LABOT",
+      "ownerNew": "Rakendada kõiki jõude.",
+      "note": "Loomulik vaste jõupingutusele."
+    },
+    {
+      "id": "ET-SENT-0023",
+      "cardId": "sentence-127",
+      "deContext": "Viel Mühe aufwenden.",
+      "currentEt": "Väga pingutada.",
+      "status": "LABOT",
+      "ownerNew": "Palju vaeva nägema.",
+      "note": "„Viel Mühe aufwenden” = palju vaeva nägema."
+    },
+    {
+      "id": "ET-SENT-0024",
+      "cardId": "sentence-128",
+      "deContext": "Geh mir aus den Augen!",
+      "currentEt": "Ära näita end mulle enam silmas!",
+      "status": "LABOT",
+      "ownerNew": "Kao mu silmist!",
+      "note": "Idiomaatiline vaste „Geh mir aus den Augen”."
+    },
+    {
+      "id": "ET-SENT-0025",
+      "cardId": "sentence-129",
+      "deContext": "Unter vier Augen.",
+      "currentEt": "Kahekesi. • Vaikselt.",
+      "status": "LABOT",
+      "ownerNew": "Kahekesi. • Nelja silma all.",
+      "note": "„Unter vier Augen” = nelja silma all; eemalda vale „vaikselt”."
+    },
+    {
+      "id": "ET-SENT-0026",
+      "cardId": "sentence-134",
+      "deContext": "Im äußersten Fall.",
+      "currentEt": "Halvimal juhul.",
+      "status": "LABOT",
+      "ownerNew": "Äärmisel juhul.",
+      "note": "„Äußersten” = äärmine, mitte halvim."
+    },
+    {
+      "id": "ET-SENT-0027",
+      "cardId": "sentence-138",
+      "deContext": "Wie wird dieses Wort ausgesprochen?",
+      "currentEt": "Kuidas seda sõna hääldatakse?",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Praegune ET on loomulik eesti keel; ET_LT artefakt ei kinnitust."
+    },
+    {
+      "id": "ET-SENT-0028",
+      "cardId": "sentence-145",
+      "deContext": "Mit der Bahn.",
+      "currentEt": "Rongiga.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Mit der Bahn” ja „Per Bahn” jagavad sama ET tõlget „Rongiga”."
+    },
+    {
+      "id": "ET-SENT-0029",
+      "cardId": "sentence-146",
+      "deContext": "Möglichst bald.",
+      "currentEt": "Nii kiiresti kui võimalik.",
+      "status": "LABOT",
+      "ownerNew": "Nii pea kui võimalik.",
+      "note": "„Möglichst bald” = võimalikult pea, mitte kiiresti."
+    },
+    {
+      "id": "ET-SENT-0030",
+      "cardId": "sentence-147",
+      "deContext": "Mir ist Angst und bange.",
+      "currentEt": "Mul on väga hirm.",
+      "status": "LABOT",
+      "ownerNew": "Ma kardan väga.",
+      "note": "Hirmu väljendatakse eesti keeles verbiga, mitte „mul on hirm”."
+    },
+    {
+      "id": "ET-SENT-0031",
+      "cardId": "sentence-150",
+      "deContext": "Erz bauen.",
+      "currentEt": "Saada maaki.",
+      "status": "LABOT",
+      "ownerNew": "Maaki kaevandada.",
+      "note": "„Erz bauen” = maaki kaevandama, mitte saama."
+    },
+    {
+      "id": "ET-SENT-0032",
+      "cardId": "sentence-155",
+      "deContext": "Was bedeutet dieses Wort?",
+      "currentEt": "Mida see sõna tähendab?",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Praegune ET on loomulik; ET_LT artefakt ei kinnitust."
+    },
+    {
+      "id": "ET-SENT-0033",
+      "cardId": "sentence-161",
+      "deContext": "Ich bin begierig zu wissen.",
+      "currentEt": "Mul on väga huvi teada saada.",
+      "status": "LABOT",
+      "ownerNew": "Soovin väga teada saada.",
+      "note": "„Ich bin begierig zu wissen” = tahan teada."
+    },
+    {
+      "id": "ET-SENT-0034",
+      "cardId": "sentence-163",
+      "deContext": "Am Beginn.",
+      "currentEt": "Alguses.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Am Beginn” ja „Zu Beginn” jagavad ET „Alguses”."
+    },
+    {
+      "id": "ET-SENT-0035",
+      "cardId": "sentence-164",
+      "deContext": "Bei Beginn.",
+      "currentEt": "Alates.",
+      "status": "LABOT",
+      "ownerNew": "Alguses.",
+      "note": "„Bei Beginn” = alguses, mitte „alates”."
+    },
+    {
+      "id": "ET-SENT-0036",
+      "cardId": "sentence-165",
+      "deContext": "In Begleitung.",
+      "currentEt": "Saatel.",
+      "status": "LABOT",
+      "ownerNew": "Seltsis.",
+      "note": "Iseseisev fraas „seltsis” on loomulik."
+    },
+    {
+      "id": "ET-SENT-0037",
+      "cardId": "sentence-166",
+      "deContext": "Mit seiner Begleitung.",
+      "currentEt": "Kaaslasega.",
+      "status": "LABOT",
+      "ownerNew": "Tema kaaslasega.",
+      "note": "Säilita saksa possessiiv „seiner”."
+    },
+    {
+      "id": "ET-SENT-0038",
+      "cardId": "sentence-172",
+      "deContext": "Bei weitem nicht so.",
+      "currentEt": "Sugugi mitte.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Sugugi mitte” väljendab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0039",
+      "cardId": "sentence-172",
+      "deContext": "Bei weitem nicht so.",
+      "currentEt": "Sugugi mitte.",
+      "status": "LABOT",
+      "ownerNew": "Kaugeltki mitte nii.",
+      "note": "Säilita võrdlev „nii”, mida „sugugi mitte” ei väljenda."
+    },
+    {
+      "id": "ET-SENT-0040",
+      "cardId": "sentence-176",
+      "deContext": "Beileid aussprechen.",
+      "currentEt": "Avaldada kaastunnet.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Duplikaattõlge „Avaldada kaastunnet” on mõistetav mõlema saksa fraasi jaoks."
+    },
+    {
+      "id": "ET-SENT-0041",
+      "cardId": "sentence-183",
+      "deContext": "Belegte Brötchen.",
+      "currentEt": "Võileivad pealispanusega.",
+      "status": "LABOT",
+      "ownerNew": "Kattega võileivad.",
+      "note": "Loomulik toidukeel."
+    },
+    {
+      "id": "ET-SENT-0042",
+      "cardId": "sentence-192",
+      "deContext": "Neue Besen kehren gut.",
+      "currentEt": "Uus luud pühib hästi.",
+      "status": "LABOT",
+      "ownerNew": "Uued luuad pühivad hästi.",
+      "note": "Saksa vanasõna on mitmuses."
+    },
+    {
+      "id": "ET-SENT-0043",
+      "cardId": "sentence-204",
+      "deContext": "Zu Besuch sein.",
+      "currentEt": "Külas olla. • Külas käia.",
+      "status": "LABOT",
+      "ownerNew": "Külas olla.",
+      "note": "„Zu Besuch sein” = külas olla; eemalda vale „külas käia”."
+    },
+    {
+      "id": "ET-SENT-0044",
+      "cardId": "sentence-210",
+      "deContext": "Alle beiden.",
+      "currentEt": "Mõlemad.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Alle beiden” ja „Alle beide” jagavad ET „Mõlemad”."
+    },
+    {
+      "id": "ET-SENT-0045",
+      "cardId": "sentence-212",
+      "deContext": "Bezüglich auf etwas.",
+      "currentEt": "Millegi suhtes.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Tootmises juba „Millegi suhtes”; saksa fragment on allika küsimus."
+    },
+    {
+      "id": "ET-SENT-0046",
+      "cardId": "sentence-215",
+      "deContext": "Bitte sehr.",
+      "currentEt": "Palun.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Bitte sehr” ja „Bitte schön” jagavad ET „Palun”."
+    },
+    {
+      "id": "ET-SENT-0047",
+      "cardId": "sentence-221",
+      "deContext": "Danke für die Blumen!",
+      "currentEt": "Aitäh lillede eest!",
+      "status": "LABOT",
+      "ownerNew": "Aitäh komplimendi eest!",
+      "note": "Idiomaatiline tänu komplimendi, mitte lillede eest."
+    },
+    {
+      "id": "ET-SENT-0048",
+      "cardId": "sentence-226",
+      "deContext": "Ich kann nichts dafür.",
+      "currentEt": "Ma ei saa selle vastu midagi teha.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ma ei saa selle vastu midagi teha” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0049",
+      "cardId": "sentence-228",
+      "deContext": "Ich habe nichts dagegen.",
+      "currentEt": "Mul ei ole selle vastu midagi.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Mul ei ole selle vastu midagi” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0050",
+      "cardId": "sentence-230",
+      "deContext": "Mit der Dame ziehen.",
+      "currentEt": "Teha lipu käiku.",
+      "status": "LABOT",
+      "ownerNew": "Käia lipuga.",
+      "note": "Male kontekstis loomulik vaste."
+    },
+    {
+      "id": "ET-SENT-0051",
+      "cardId": "sentence-235",
+      "deContext": "Daraus wird nichts.",
+      "currentEt": "Sellest ei tule midagi välja.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Sellest ei tule midagi välja” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0052",
+      "cardId": "sentence-239",
+      "deContext": "Lass den Kopf nicht hängen!",
+      "currentEt": "Ära lase pead norgu!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära lase pead norgu” vastab saksa „nicht hängen”."
+    },
+    {
+      "id": "ET-SENT-0053",
+      "cardId": "sentence-242",
+      "deContext": "von Haus aus",
+      "currentEt": "lapsepõlvest saati • algusest peale",
+      "status": "LABOT",
+      "ownerNew": "loomu poolest",
+      "note": "„Von Haus aus” = loomupäraselt, mitte lapsepõlvest."
+    },
+    {
+      "id": "ET-SENT-0054",
+      "cardId": "sentence-245",
+      "deContext": "Haben Sie die Güte!",
+      "currentEt": "Olge nii lahke!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Olge nii lahke” on vastuvõetav vaste „Haben Sie die Güte”."
+    },
+    {
+      "id": "ET-SENT-0055",
+      "cardId": "sentence-246",
+      "deContext": "Was hast du?",
+      "currentEt": "Mis sul viga on? • Mis on juhtunud?",
+      "status": "LABOT",
+      "ownerNew": "Mis sul viga on?",
+      "note": "Eemalda vale variant „Mis on juhtunud?”; see vastab teisele saksa fraasile."
+    },
+    {
+      "id": "ET-SENT-0056",
+      "cardId": "sentence-254",
+      "deContext": "Mach keine Geschichten!",
+      "currentEt": "Ära tee rumalusi! • Ära tee nalja!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära tee rumalusi/nalja” vastab saksa „keine Geschichten”."
+    },
+    {
+      "id": "ET-SENT-0057",
+      "cardId": "sentence-254",
+      "deContext": "Mach keine Geschichten!",
+      "currentEt": "Ära tee rumalusi! • Ära tee nalja!",
+      "status": "LABOT",
+      "ownerNew": "Ära aja jama!",
+      "note": "Täpsem idiomaatiline vaste „stseeni tegemisele”."
+    },
+    {
+      "id": "ET-SENT-0058",
+      "cardId": "sentence-258",
+      "deContext": "Frag ihn gelegentlich, ob...",
+      "currentEt": "Küsi temalt, kui juhtub, kas...",
+      "status": "LABOT",
+      "ownerNew": "Küsi temalt aeg-ajalt, kas...",
+      "note": "„Gelegentlich” = aeg-ajalt."
+    },
+    {
+      "id": "ET-SENT-0059",
+      "cardId": "sentence-263",
+      "deContext": "Fahre fort!",
+      "currentEt": "Jätka samamoodi edasi!",
+      "status": "LABOT",
+      "ownerNew": "Jätka!",
+      "note": "Eemalda tarbetud „samamoodi edasi”."
+    },
+    {
+      "id": "ET-SENT-0060",
+      "cardId": "sentence-264",
+      "deContext": "Er ist kein Freund von...",
+      "currentEt": "Talle ei meeldi...",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Talle ei meeldi” väljendab „kein Freund von” tähendust."
+    },
+    {
+      "id": "ET-SENT-0061",
+      "cardId": "sentence-269",
+      "deContext": "Es jammert mich zu sehen...",
+      "currentEt": "Kahju vaadata...",
+      "status": "LABOT",
+      "ownerNew": "Mul on valus näha...",
+      "note": "Saksa väljendab kõneleja valu, mitte lihtsalt kahju."
+    },
+    {
+      "id": "ET-SENT-0062",
+      "cardId": "sentence-274",
+      "deContext": "Könnte ich Frau N. sprechen?",
+      "currentEt": "Kas ma saaksin rääkida proua N-ga?",
+      "status": "LABOT",
+      "ownerNew": "Kas ma saaksin rääkida proua N-iga?",
+      "note": "Lühendi käändelõpp „N-iga”."
+    },
+    {
+      "id": "ET-SENT-0063",
+      "cardId": "sentence-284",
+      "deContext": "Was ist los?",
+      "currentEt": "Mis on juhtunud?",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Duplikaattõlge „Mis on juhtunud?” on teise saksa fraasi jaoks; see finding on struktuuriline."
+    },
+    {
+      "id": "ET-SENT-0064",
+      "cardId": "sentence-284",
+      "deContext": "Was ist los?",
+      "currentEt": "Mis on juhtunud?",
+      "status": "LABOT",
+      "ownerNew": "Mis lahti on?",
+      "note": "„Was ist los?” = mis lahti on / mis toimub."
+    },
+    {
+      "id": "ET-SENT-0065",
+      "cardId": "sentence-286",
+      "deContext": "Das war ein anstrengender Tag.",
+      "currentEt": "See oli pingeline päev.",
+      "status": "LABOT",
+      "ownerNew": "See oli kurnav päev.",
+      "note": "„Anstrengend” = kurnav, mitte pingeline."
+    },
+    {
+      "id": "ET-SENT-0066",
+      "cardId": "sentence-291",
+      "deContext": "Das ist gar nicht so schwer.",
+      "currentEt": "See ei ole sugugi nii raske.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„See ei ole sugugi nii raske” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0067",
+      "cardId": "sentence-292",
+      "deContext": "Ich habe gar kein Geld.",
+      "currentEt": "Mul ei ole üldse raha.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Mul ei ole üldse raha” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0068",
+      "cardId": "sentence-293",
+      "deContext": "Er hat gar nichts gesagt.",
+      "currentEt": "Ta ei öelnud üldse midagi.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ta ei öelnud üldse midagi” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0069",
+      "cardId": "sentence-294",
+      "deContext": "Der Hund ist los.",
+      "currentEt": "Koer on lahti lastud.",
+      "status": "LABOT",
+      "ownerNew": "Koer on lahti.",
+      "note": "„Der Hund ist los” = koer on lahti/vabalt."
+    },
+    {
+      "id": "ET-SENT-0070",
+      "cardId": "sentence-304",
+      "deContext": "Ich mag das nicht.",
+      "currentEt": "Mulle see ei meeldi.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Mulle see ei meeldi” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0071",
+      "cardId": "sentence-315",
+      "deContext": "Wozu nützt das alles?",
+      "currentEt": "Milleks see kõik?",
+      "status": "LABOT",
+      "ownerNew": "Mis kasu sellest kõigest on?",
+      "note": "„Wozu nützt” küsib kasu, mitte eesmärki."
+    },
+    {
+      "id": "ET-SENT-0072",
+      "cardId": "sentence-317",
+      "deContext": "Nicht parken!",
+      "currentEt": "Parkimine keelatud!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Parkimine keelatud” väljendab saksa „Nicht parken” märkuse vormis."
+    },
+    {
+      "id": "ET-SENT-0073",
+      "cardId": "sentence-317",
+      "deContext": "Nicht parken!",
+      "currentEt": "Parkimine keelatud!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Duplikaattõlge „Parkimine keelatud” on mõistetav."
+    },
+    {
+      "id": "ET-SENT-0074",
+      "cardId": "sentence-320",
+      "deContext": "Davon kann keine Rede sein.",
+      "currentEt": "Sellest ei saa juttugi olla.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Sellest ei saa juttugi olla” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0075",
+      "cardId": "sentence-324",
+      "deContext": "Schon gut!",
+      "currentEt": "On juba hea!",
+      "status": "LABOT",
+      "ownerNew": "Hea küll!",
+      "note": "„Schon gut” = hea küll, mitte „on juba hea”."
+    },
+    {
+      "id": "ET-SENT-0076",
+      "cardId": "sentence-333",
+      "deContext": "Nicht nur..., sondern auch...",
+      "currentEt": "Mitte ainult..., vaid ka...",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Mitte ainult..., vaid ka...” sisaldab negatsiooni „mitte”."
+    },
+    {
+      "id": "ET-SENT-0077",
+      "cardId": "sentence-340",
+      "deContext": "Wie steht’s?",
+      "currentEt": "Kuidas läheb?",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Duplikaattõlge „Kuidas läheb?” on mõistetav."
+    },
+    {
+      "id": "ET-SENT-0078",
+      "cardId": "sentence-348",
+      "deContext": "Er wohnt über mir.",
+      "currentEt": "Ta elab minust ülalpool.",
+      "status": "LABOT",
+      "ownerNew": "Ta elab minu kohal.",
+      "note": "Elukoha kontekstis loomulik vaste."
+    },
+    {
+      "id": "ET-SENT-0079",
+      "cardId": "sentence-352",
+      "deContext": "Wie viel Uhr ist es?",
+      "currentEt": "Mis kell on?",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Duplikaattõlge „Mis kell on?” on mõistetav."
+    },
+    {
+      "id": "ET-SENT-0080",
+      "cardId": "sentence-356",
+      "deContext": "Und ob!",
+      "currentEt": "Ja veel kuidas!",
+      "status": "LABOT",
+      "ownerNew": "Ja kuidas veel!",
+      "note": "Loomulik sõnajärg eesti keeles."
+    },
+    {
+      "id": "ET-SENT-0081",
+      "cardId": "sentence-360",
+      "deContext": "Keine Ursache!",
+      "currentEt": "Pole tänu väärt!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Pole tänu väärt” väljendab negatsiooni vormiga „pole”."
+    },
+    {
+      "id": "ET-SENT-0082",
+      "cardId": "sentence-366",
+      "deContext": "Er versteht nichts davon.",
+      "currentEt": "Ta ei saa sellest midagi aru.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ta ei saa sellest midagi aru” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0083",
+      "cardId": "sentence-372",
+      "deContext": "Von Zeit zu Zeit.",
+      "currentEt": "Aeg-ajalt.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Duplikaattõlge „Aeg-ajalt” on mõistetav."
+    },
+    {
+      "id": "ET-SENT-0084",
+      "cardId": "sentence-373",
+      "deContext": "Von Beruf.",
+      "currentEt": "Elukutse poolest.",
+      "status": "LABOT",
+      "ownerNew": "Elukutselt.",
+      "note": "„Von Beruf” = elukutselt."
+    },
+    {
+      "id": "ET-SENT-0085",
+      "cardId": "sentence-374",
+      "deContext": "Er ist Berliner von Geburt.",
+      "currentEt": "Ta on sündinud berliinlane.",
+      "status": "LABOT",
+      "ownerNew": "Ta on sünnilt berliinlane.",
+      "note": "„Von Geburt” = sünnilt."
+    },
+    {
+      "id": "ET-SENT-0086",
+      "cardId": "sentence-378",
+      "deContext": "Vor Freude.",
+      "currentEt": "Rõõmu pärast.",
+      "status": "LABOT",
+      "ownerNew": "Rõõmust.",
+      "note": "„Vor Freude” = rõõmust."
+    },
+    {
+      "id": "ET-SENT-0087",
+      "cardId": "sentence-385",
+      "deContext": "Vorkehrungen treffen.",
+      "currentEt": "Võtta ette kaitsemeetmed.",
+      "status": "LABOT",
+      "ownerNew": "Tarvitusele võtta ettevaatusabinõud.",
+      "note": "„Vorkehrungen treffen” = ettevaatusabinõud."
+    },
+    {
+      "id": "ET-SENT-0088",
+      "cardId": "sentence-398",
+      "deContext": "Gegen eine Wand reden.",
+      "currentEt": "Rääkida asjatult.",
+      "status": "LABOT",
+      "ownerNew": "Rääkida nagu seinale.",
+      "note": "Idiomaatiline vaste „gegen eine Wand reden”."
+    },
+    {
+      "id": "ET-SENT-0089",
+      "cardId": "sentence-409",
+      "deContext": "Von Rechts wegen.",
+      "currentEt": "Õigluse järgi.",
+      "status": "LABOT",
+      "ownerNew": "Õiguse järgi.",
+      "note": "„Von Rechts wegen” = õiguse järgi."
+    },
+    {
+      "id": "ET-SENT-0090",
+      "cardId": "sentence-414",
+      "deContext": "Ohne weiteres.",
+      "currentEt": "Kohe. • Viivitamatult.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Negatsiooni finding on artefakt; tegelik probleem on tähendus (vt 0091)."
+    },
+    {
+      "id": "ET-SENT-0091",
+      "cardId": "sentence-414",
+      "deContext": "Ohne weiteres.",
+      "currentEt": "Kohe. • Viivitamatult.",
+      "status": "LABOT",
+      "ownerNew": "Ilma pikemata.",
+      "note": "„Ohne weiteres” = ilma pikemata/raskusteta."
+    },
+    {
+      "id": "ET-SENT-0092",
+      "cardId": "sentence-417",
+      "deContext": "Weiter nichts.",
+      "currentEt": "Muud midagi.",
+      "status": "LABOT",
+      "ownerNew": "Rohkem midagi pole.",
+      "note": "„Weiter nichts” = rohkem midagi pole; praegune „Muud midagi” on vale tähendus."
+    },
+    {
+      "id": "ET-SENT-0093",
+      "cardId": "sentence-431",
+      "deContext": "Um die Wette laufen.",
+      "currentEt": "Võistelda jooksus.",
+      "status": "LABOT",
+      "ownerNew": "Võidu jooksma.",
+      "note": "„Um die Wette laufen” = võidu peale jooksma."
+    },
+    {
+      "id": "ET-SENT-0094",
+      "cardId": "sentence-432",
+      "deContext": "Was gilt die Wette?",
+      "currentEt": "Mille peale me kihla veame?",
+      "status": "LABOT",
+      "ownerNew": "Mis on kihlveo panuseks?",
+      "note": "Küsimus panuse kohta."
+    },
+    {
+      "id": "ET-SENT-0095",
+      "cardId": "sentence-442",
+      "deContext": "Herzlich willkommen!",
+      "currentEt": "Südamlikult teretulnud!",
+      "status": "LABOT",
+      "ownerNew": "Tere tulemast!",
+      "note": "Loomulik tervitus, mitte sõnasõnaline „südamlikult”."
+    },
+    {
+      "id": "ET-SENT-0096",
+      "cardId": "sentence-446",
+      "deContext": "Zipfel einer Wurst.",
+      "currentEt": "Vorsti otsatükk.",
+      "status": "LABOT",
+      "ownerNew": "Vorstiots.",
+      "note": "Loomulik liitsõna."
+    },
+    {
+      "id": "ET-SENT-0097",
+      "cardId": "sentence-470",
+      "deContext": "Das hätte ich ihm nicht zugetraut.",
+      "currentEt": "Seda ma poleks temalt oodanud.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Seda ma poleks temalt oodanud” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0098",
+      "cardId": "sentence-472",
+      "deContext": "Zutritt verboten!",
+      "currentEt": "Sissepääs keelatud!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Duplikaattõlge „Sissepääs keelatud” on mõistetav."
+    },
+    {
+      "id": "ET-SENT-0099",
+      "cardId": "sentence-477",
+      "deContext": "Ohne Zweifel.",
+      "currentEt": "Kahtlemata.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Kahtlemata” vastab „Ohne Zweifel” kaudse negatsiooniga."
+    },
+    {
+      "id": "ET-SENT-0100",
+      "cardId": "sentence-481",
+      "deContext": "Gute Reise!",
+      "currentEt": "Head reisi!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Duplikaattõlge „Head reisi!” on mõistetav."
+    },
+    {
+      "id": "ET-SENT-0101",
+      "cardId": "sentence-497",
+      "deContext": "Emma, schau bitte nicht aus dem Fenster!",
+      "currentEt": "Emma, palun ära vaata aknast välja!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära vaata aknast välja” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0102",
+      "cardId": "sentence-503",
+      "deContext": "Steh auf, Hanna, es klingelt!",
+      "currentEt": "Tõuse üles, Hanna, kella helistatakse!",
+      "status": "LABOT",
+      "ownerNew": "Tõuse üles, Hanna, kell heliseb!",
+      "note": "Eesti keeles heliseb kell."
+    },
+    {
+      "id": "ET-SENT-0103",
+      "cardId": "sentence-505",
+      "deContext": "Vergiss nicht, das Zimmer zu lüften!",
+      "currentEt": "Ära unusta tuba tuulutada!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära unusta” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0104",
+      "cardId": "sentence-514",
+      "deContext": "Was gibt es Neues?",
+      "currentEt": "Mis uudist?",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "Duplikaattõlge „Mis uudist?” on mõistetav."
+    },
+    {
+      "id": "ET-SENT-0105",
+      "cardId": "sentence-525",
+      "deContext": "Vergiss dein Frühstück nicht!",
+      "currentEt": "Ära unusta hommikusööki!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära unusta hommikusööki” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0106",
+      "cardId": "sentence-527",
+      "deContext": "Vergiss die Servietten nicht!",
+      "currentEt": "Ära unusta salvrätte!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära unusta salvrätte” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0107",
+      "cardId": "sentence-534",
+      "deContext": "Danke, ich habe schon.",
+      "currentEt": "Aitäh, mul on juba.",
+      "status": "LABOT",
+      "ownerNew": "Aitäh, mul juba on.",
+      "note": "Elliptilises vastuses „juba” enne verbi."
+    },
+    {
+      "id": "ET-SENT-0108",
+      "cardId": "sentence-536",
+      "deContext": "Danke, ich bin schon satt.",
+      "currentEt": "Aitäh, ma olen juba söönud.",
+      "status": "LABOT",
+      "ownerNew": "Aitäh, kõht on juba täis.",
+      "note": "„Satt” = täis kõht."
+    },
+    {
+      "id": "ET-SENT-0109",
+      "cardId": "sentence-541",
+      "deContext": "Bitte, bedien dich!",
+      "currentEt": "Palun söö, kui palju tahad!",
+      "status": "LABOT",
+      "ownerNew": "Palun, võta ise!",
+      "note": "„Bedien dich” = võta ise."
+    },
+    {
+      "id": "ET-SENT-0110",
+      "cardId": "sentence-545",
+      "deContext": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+      "currentEt": "Kui ma tööl tulen, olen alati väsinud.",
+      "status": "LABOT",
+      "ownerNew": "Kui ma töölt tulen, olen alati väsinud.",
+      "note": "„Von der Arbeit” = töölt."
+    },
+    {
+      "id": "ET-SENT-0111",
+      "cardId": "sentence-559",
+      "deContext": "Das Gewitter zieht vorüber.",
+      "currentEt": "Äikesetorm on möödas.",
+      "status": "LABOT",
+      "ownerNew": "Äikesetorm läheb üle.",
+      "note": "„Zieht vorüber” = läheb üle."
+    },
+    {
+      "id": "ET-SENT-0112",
+      "cardId": "sentence-562",
+      "deContext": "Der Winter ist da, es hat geschneit.",
+      "currentEt": "Talv on käes, öösel sadas lund.",
+      "status": "LABOT",
+      "ownerNew": "Talv on käes, on lund sadanud.",
+      "note": "Eemalda põhjendamata „öösel”."
+    },
+    {
+      "id": "ET-SENT-0113",
+      "cardId": "sentence-566",
+      "deContext": "Draußen ist Glatteis, pass auf!",
+      "currentEt": "Väljas on libe, ole ettevaatlik!",
+      "status": "LABOT",
+      "ownerNew": "Väljas on kiilasjää, ole ettevaatlik!",
+      "note": "„Glatteis” = kiilasjää."
+    },
+    {
+      "id": "ET-SENT-0114",
+      "cardId": "sentence-580",
+      "deContext": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "currentEt": "Ma tulin sulle jalutuskäigule järele.",
+      "status": "LABOT",
+      "ownerNew": "Tulen sulle jalutama järele.",
+      "note": "Olevik ja loomulik vaste „abholen”."
+    },
+    {
+      "id": "ET-SENT-0115",
+      "cardId": "sentence-581",
+      "deContext": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
+      "currentEt": "Mine pisut aeglasemalt, ma ei jõua sulle järele!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„ma ei jõua sulle järele” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0116",
+      "cardId": "sentence-582",
+      "deContext": "Ich bin zum ersten Mal in dieser Gegend.",
+      "currentEt": "Olen siin esimest korda.",
+      "status": "LABOT",
+      "ownerNew": "Olen selles piirkonnas esimest korda.",
+      "note": "Säilita „selles piirkonnas”."
+    },
+    {
+      "id": "ET-SENT-0117",
+      "cardId": "sentence-589",
+      "deContext": "Wie komme ich am schnellsten zum Bahnhof?",
+      "currentEt": "Kuidas kiiremini jaama jõuda?",
+      "status": "LABOT",
+      "ownerNew": "Kuidas ma kõige kiiremini jaama jõuan?",
+      "note": "„Am schnellsten” = kõige kiiremini."
+    },
+    {
+      "id": "ET-SENT-0118",
+      "cardId": "sentence-592",
+      "deContext": "Reist du geschäftlich oder privat?",
+      "currentEt": "Kas sa sõidad töö pärast või puhkusele?",
+      "status": "LABOT",
+      "ownerNew": "Kas sõidad tööasjus või eraviisiliselt?",
+      "note": "„Privat” = eraviisiliselt."
+    },
+    {
+      "id": "ET-SENT-0119",
+      "cardId": "sentence-597",
+      "deContext": "Vergiss deinen Pass nicht!",
+      "currentEt": "Ära unusta passi!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära unusta passi” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0120",
+      "cardId": "sentence-601",
+      "deContext": "Fahr bitte zum Bahnhof!",
+      "currentEt": "Vii palun jaama!",
+      "status": "LABOT",
+      "ownerNew": "Sõida palun jaama!",
+      "note": "„Fahr” = sõida, mitte vii."
+    },
+    {
+      "id": "ET-SENT-0121",
+      "cardId": "sentence-604",
+      "deContext": "Eine Fahrkarte nach Köln, bitte.",
+      "currentEt": "Üks pilet Kölnini, palun.",
+      "status": "LABOT",
+      "ownerNew": "Üks pilet Kölni, palun.",
+      "note": "Sihtkoha vorm „Kölni”."
+    },
+    {
+      "id": "ET-SENT-0122",
+      "cardId": "sentence-610",
+      "deContext": "Nein, hier sitzt niemand.",
+      "currentEt": "Ei, siin ei istu keegi.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ei, siin ei istu keegi” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0123",
+      "cardId": "sentence-612",
+      "deContext": "Stell mein Handgepäck ins Gepäcknetz.",
+      "currentEt": "Pane mu käsipagas võrele.",
+      "status": "LABOT",
+      "ownerNew": "Pane mu käsipagas pagasivõrku.",
+      "note": "„Gepäcknetz” = pagasivõrk."
+    },
+    {
+      "id": "ET-SENT-0124",
+      "cardId": "sentence-625",
+      "deContext": "Ein Zimmer mit zwei Betten, bitte.",
+      "currentEt": "Kaheinimesetuba, palun.",
+      "status": "LABOT",
+      "ownerNew": "Tuba kahe voodiga, palun.",
+      "note": "Täpsustab kahe voodi olemasolu."
+    },
+    {
+      "id": "ET-SENT-0125",
+      "cardId": "sentence-644",
+      "deContext": "Lass deinen Kaffee nicht kalt werden!",
+      "currentEt": "Ära lase kohvil jahtuda!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära lase kohvil jahtuda” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0126",
+      "cardId": "sentence-651",
+      "deContext": "Erinnere mich morgen daran zu schreiben!",
+      "currentEt": "Tuleta mulle homme meelde kirja kirjutada!",
+      "status": "LABOT",
+      "ownerNew": "Tuleta mulle homme meelde, et ma kirjutaksin!",
+      "note": "Eemalda lisatud „kirja”."
+    },
+    {
+      "id": "ET-SENT-0127",
+      "cardId": "sentence-652",
+      "deContext": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "currentEt": "Palun pane see kiri postkasti!",
+      "status": "LABOT",
+      "ownerNew": "Palun pange see kiri postkasti!",
+      "note": "Viisakas teie-vorm „pange”."
+    },
+    {
+      "id": "ET-SENT-0128",
+      "cardId": "sentence-657",
+      "deContext": "Hinten bitte nicht zu kurz.",
+      "currentEt": "Taga, palun, mitte liiga lühikeseks.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„mitte liiga lühikeseks” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0129",
+      "cardId": "sentence-657",
+      "deContext": "Hinten bitte nicht zu kurz.",
+      "currentEt": "Taga, palun, mitte liiga lühikeseks.",
+      "status": "LABOT",
+      "ownerNew": "Tagant palun mitte liiga lühikeseks.",
+      "note": "Juuste kontekstis „tagant”."
+    },
+    {
+      "id": "ET-SENT-0130",
+      "cardId": "sentence-659",
+      "deContext": "Es fängt um halb acht an.",
+      "currentEt": "Algab pool kaheksa.",
+      "status": "LABOT",
+      "ownerNew": "See algab kell pool kaheksa.",
+      "note": "Kellaaja väljend vajab „kell”."
+    },
+    {
+      "id": "ET-SENT-0131",
+      "cardId": "sentence-660",
+      "deContext": "Alle Plätze sind ausverkauft.",
+      "currentEt": "Kõik piletid on välja müüdud.",
+      "status": "LABOT",
+      "ownerNew": "Kõik kohad on välja müüdud.",
+      "note": "„Plätze” = kohad, mitte piletid."
+    },
+    {
+      "id": "ET-SENT-0132",
+      "cardId": "sentence-665",
+      "deContext": "Darf ich dich zum Tanz bitten?",
+      "currentEt": "Kas ma tohin tantsule kutsuda?",
+      "status": "LABOT",
+      "ownerNew": "Kas ma tohin sind tantsule kutsuda?",
+      "note": "Säilita objekt „sind”."
+    },
+    {
+      "id": "ET-SENT-0133",
+      "cardId": "sentence-673",
+      "deContext": "Hast du alles eingepackt?",
+      "currentEt": "Kas kõik on juba kastidesse pandud?",
+      "status": "LABOT",
+      "ownerNew": "Kas oled kõik juba sisse pakkinud?",
+      "note": "Aktiivne subjekt „oled”."
+    },
+    {
+      "id": "ET-SENT-0134",
+      "cardId": "sentence-674",
+      "deContext": "Ich stehe mit meinem Freund in Kontakt.",
+      "currentEt": "Olen kirjavahetuses oma sõbraga.",
+      "status": "LABOT",
+      "ownerNew": "Olen oma sõbraga kontaktis.",
+      "note": "„In Kontakt” = kontaktis, mitte ainult kirjavahetuses."
+    },
+    {
+      "id": "ET-SENT-0135",
+      "cardId": "sentence-682",
+      "deContext": "Schwimm nicht zu weit hinaus!",
+      "currentEt": "Ära uju liiga kaugele!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Ära uju liiga kaugele” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0136",
+      "cardId": "sentence-686",
+      "deContext": "Er hat sich aber recht verändert.",
+      "currentEt": "Ta on ikkagi üsna muutunud.",
+      "status": "LABOT",
+      "ownerNew": "Ta on aga üsna palju muutunud.",
+      "note": "„aber” = aga; „recht” = üsna palju."
+    },
+    {
+      "id": "ET-SENT-0137",
+      "cardId": "sentence-689",
+      "deContext": "Ich fühle mich nicht wohl.",
+      "currentEt": "Tunnen end halvasti.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Tunnen end halvasti” vastab „fühl mich nicht wohl”."
+    },
+    {
+      "id": "ET-SENT-0138",
+      "cardId": "sentence-695",
+      "deContext": "Leg dich ins Bett!",
+      "currentEt": "Heida voodisse pikali!",
+      "status": "LABOT",
+      "ownerNew": "Heida voodisse!",
+      "note": "Eemalda tarbetud „pikali”."
+    },
+    {
+      "id": "ET-SENT-0139",
+      "cardId": "sentence-698",
+      "deContext": "Ich habe Zahnschmerzen.",
+      "currentEt": "Mul valutab hammas.",
+      "status": "LABOT",
+      "ownerNew": "Mul valutavad hambad.",
+      "note": "Saksa mitmus „Zahnschmerzen”."
+    },
+    {
+      "id": "ET-SENT-0140",
+      "cardId": "sentence-702",
+      "deContext": "Ich will meine Wohnung neu möblieren.",
+      "currentEt": "Tahan korterit uuesti sisustada.",
+      "status": "LABOT",
+      "ownerNew": "Tahan oma korterit uuesti sisustada.",
+      "note": "Säilita „meine Wohnung”."
+    },
+    {
+      "id": "ET-SENT-0141",
+      "cardId": "sentence-711",
+      "deContext": "Ich nehme seit einem Jahr Deutschstunden.",
+      "currentEt": "Juba aasta võtan saksa keele tunde.",
+      "status": "LABOT",
+      "ownerNew": "Olen juba aasta aega saksa keele tunde võtnud.",
+      "note": "Kestuse loomulik väljendus."
+    },
+    {
+      "id": "ET-SENT-0142",
+      "cardId": "sentence-714",
+      "deContext": "Das Buch ist leider ausverkauft.",
+      "currentEt": "Kahjuks on raamat läbi müüdud.",
+      "status": "LABOT",
+      "ownerNew": "Kahjuks on raamat välja müüdud.",
+      "note": "„Välja müüdud” on loomulik vaste."
+    },
+    {
+      "id": "ET-SENT-0143",
+      "cardId": "sentence-723",
+      "deContext": "Wiegen Sie mir bitte zwei Kilo ab.",
+      "currentEt": "Kaaluge palun kaks kilogrammi.",
+      "status": "LABOT",
+      "ownerNew": "Kaaluge mulle palun kaks kilogrammi.",
+      "note": "Lisa „mulle”."
+    },
+    {
+      "id": "ET-SENT-0144",
+      "cardId": "sentence-726",
+      "deContext": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "currentEt": "Andke kaks kilogrammi hakkliha.",
+      "status": "LABOT",
+      "ownerNew": "Andke mulle kaks kilogrammi hakkliha.",
+      "note": "Lisa „mulle”."
+    },
+    {
+      "id": "ET-SENT-0145",
+      "cardId": "sentence-727",
+      "deContext": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "currentEt": "Üks leivapäts, palun, aga mitte liiga kõva.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„mitte liiga kõva” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0146",
+      "cardId": "sentence-727",
+      "deContext": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "currentEt": "Üks leivapäts, palun, aga mitte liiga kõva.",
+      "status": "LABOT",
+      "ownerNew": "Üks leivapäts, palun, aga mitte liiga krõbe.",
+      "note": "„Knusprig” = krõbe."
+    },
+    {
+      "id": "ET-SENT-0147",
+      "cardId": "sentence-735",
+      "deContext": "Geben Sie mir bitte ein Kilo Reis.",
+      "currentEt": "Andke palun kilogramm riisi.",
+      "status": "LABOT",
+      "ownerNew": "Andke mulle palun kilogramm riisi.",
+      "note": "Lisa „mulle”."
+    },
+    {
+      "id": "ET-SENT-0148",
+      "cardId": "sentence-736",
+      "deContext": "Danke, diesmal nicht.",
+      "currentEt": "Aitäh, seekord mitte.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„seekord mitte” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0149",
+      "cardId": "sentence-738",
+      "deContext": "Können Sie die Möbel in meine Wohnung liefern?",
+      "currentEt": "Kas te saate mööbli korterisse toimetada?",
+      "status": "LABOT",
+      "ownerNew": "Kas te saate mööbli minu korterisse toimetada?",
+      "note": "Säilita „meine Wohnung”."
+    },
+    {
+      "id": "ET-SENT-0150",
+      "cardId": "sentence-743",
+      "deContext": "Schneiden Sie mir bitte drei Meter ab.",
+      "currentEt": "Lõigake palun kolm meetrit.",
+      "status": "LABOT",
+      "ownerNew": "Lõigake mulle palun kolm meetrit.",
+      "note": "Lisa „mulle”."
+    },
+    {
+      "id": "ET-SENT-0151",
+      "cardId": "sentence-744",
+      "deContext": "Haben Sie auch andere Muster?",
+      "currentEt": "Kas teil on ka teisi näidiseid?",
+      "status": "LABOT",
+      "ownerNew": "Kas teil on ka teisi mustreid?",
+      "note": "„Muster” = muster."
+    },
+    {
+      "id": "ET-SENT-0152",
+      "cardId": "sentence-745",
+      "deContext": "Diese Farbe gefällt mir nicht.",
+      "currentEt": "Mulle ei meeldi see värv.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Mulle ei meeldi” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0153",
+      "cardId": "sentence-746",
+      "deContext": "Geben Sie mir eine hellere.",
+      "currentEt": "Andke heledam.",
+      "status": "LABOT",
+      "ownerNew": "Andke mulle heledam.",
+      "note": "Lisa „mulle”."
+    },
+    {
+      "id": "ET-SENT-0154",
+      "cardId": "sentence-750",
+      "deContext": "So, nun passen sie gut.",
+      "currentEt": "Nii, nüüd sobib hästi.",
+      "status": "LABOT",
+      "ownerNew": "Nii, nüüd sobivad need hästi.",
+      "note": "Mitmus ja verb ühilduvus."
+    },
+    {
+      "id": "ET-SENT-0155",
+      "cardId": "sentence-753",
+      "deContext": "Wann wird er fertig sein?",
+      "currentEt": "Millal on valmis?",
+      "status": "LABOT",
+      "ownerNew": "Millal ta valmis saab?",
+      "note": "Säilita asesõna „er”."
+    },
+    {
+      "id": "ET-SENT-0156",
+      "cardId": "sentence-757",
+      "deContext": "Wann wird das Kleid fertig sein?",
+      "currentEt": "Millal kleit on valmis?",
+      "status": "LABOT",
+      "ownerNew": "Millal kleit valmis saab?",
+      "note": "Loomulik sõnajärg ja „valmis saab”."
+    },
+    {
+      "id": "ET-SENT-0157",
+      "cardId": "sentence-760",
+      "deContext": "Wann kann ich die Schuhe abholen?",
+      "currentEt": "Millal ma saan kingad ära tuua?",
+      "status": "LABOT",
+      "ownerNew": "Millal ma saan kingad kätte?",
+      "note": "„Abholen” = kätte saama."
+    },
+    {
+      "id": "ET-SENT-0158",
+      "cardId": "sentence-761",
+      "deContext": "Meine Armbanduhr funktioniert nicht.",
+      "currentEt": "Minu käekell ei tööta.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Minu käekell ei tööta” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0159",
+      "cardId": "sentence-769",
+      "deContext": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "currentEt": "Palun pakkige ja saatke koju.",
+      "status": "LABOT",
+      "ownerNew": "Palun pakkige see sisse ja saatke see mulle koju.",
+      "note": "Lisa objektid ja „mulle”."
+    },
+    {
+      "id": "ET-SENT-0160",
+      "cardId": "sentence-772",
+      "deContext": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
+      "currentEt": "Istuge, vaadake otse kaamerasse ja ärge liikuge!",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„ärge liikuge” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0161",
+      "cardId": "sentence-773",
+      "deContext": "Wann kann ich das Probebild sehen?",
+      "currentEt": "Millal ma näen näidist?",
+      "status": "LABOT",
+      "ownerNew": "Millal ma saan proovipilti näha?",
+      "note": "„Probebild” = proovipilt."
+    },
+    {
+      "id": "ET-SENT-0162",
+      "cardId": "sentence-774",
+      "deContext": "Wann sind die Fotos fertig?",
+      "currentEt": "Millal fotod on valmis?",
+      "status": "LABOT",
+      "ownerNew": "Millal fotod valmis saavad?",
+      "note": "Loomulik sõnajärg."
+    },
+    {
+      "id": "ET-SENT-0163",
+      "cardId": "sentence-784",
+      "deContext": "Zeigen Sie mir schöne Geschenkideen.",
+      "currentEt": "Näidake ilusaid kingituse ideid.",
+      "status": "LABOT",
+      "ownerNew": "Näidake ilusaid kingiideid.",
+      "note": "Liitsõna „kingiideid”."
+    },
+    {
+      "id": "ET-SENT-0164",
+      "cardId": "sentence-788",
+      "deContext": "Das ist kein echter Stein, das ist Glas.",
+      "currentEt": "See ei ole ehtne kivi, see on klaas.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„See ei ole ehtne kivi” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0165",
+      "cardId": "sentence-791",
+      "deContext": "Der Preis ist nicht hoch.",
+      "currentEt": "Hind ei ole kõrge.",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Hind ei ole kõrge” sisaldab negatsiooni."
+    },
+    {
+      "id": "ET-SENT-0166",
+      "cardId": "sentence-794",
+      "deContext": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
+      "currentEt": "Kui mu naisele ei meeldi, kas ma saan vahetada?",
+      "status": "FALSE_POSITIVE",
+      "ownerNew": "",
+      "note": "„Kui mu naisele ei meeldi” sisaldab negatsiooni."
+    }
+  ]
+}
