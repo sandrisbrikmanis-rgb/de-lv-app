@@ -80,7 +80,7 @@ const C2_WORDS = [
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "osaleja tunnistus",
+    "lv": "osalejakaart",
     "level": "C2"
   },
   {
@@ -104,7 +104,7 @@ const C2_WORDS = [
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "arsti kabinet",
+    "lv": "raviruum",
     "level": "C2"
   },
   {
@@ -463,7 +463,7 @@ const C2_WORDS = [
     "de": "Krankheitsüberträger",
     "de_article": "der",
     "de_plural": "die Krankheitsüberträger",
-    "lv": "haiguse levitaja",
+    "lv": "haiguse edasikandja",
     "level": "C2"
   },
   {
@@ -585,7 +585,7 @@ const C2_WORDS = [
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "jalakäijate tunnel",
+    "lv": "teealune läbipääs",
     "level": "C2"
   },
   {
@@ -826,7 +826,7 @@ const C2_WORDS = [
   },
   {
     "de": "durchkreuzen",
-    "lv": "läbi kriipsutama • risti tõmbama • ristuma • nurjama",
+    "lv": "läbi kriipsutama • risti tõmbama • läbi lõikama • nurjama",
     "level": "C2"
   },
   {
@@ -847,7 +847,7 @@ const C2_WORDS = [
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "keskpärane tulemus • keskmine tulemus",
+    "lv": "keskpärane sooritus • keskmine sooritus",
     "level": "C2"
   },
   {
@@ -922,7 +922,7 @@ const C2_WORDS = [
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "saavutus • saavutis • võit",
+    "lv": "saavutus • saavutis • edusamm",
     "level": "C2"
   },
   {
@@ -1018,7 +1018,7 @@ const C2_WORDS = [
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "vaimne kohalolek",
+    "lv": "kiire taip • meelekindlus",
     "level": "C2"
   },
   {
@@ -1051,7 +1051,7 @@ const C2_WORDS = [
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "külaelanikkond",
+    "lv": "külakogukond",
     "level": "C2"
   },
   {
@@ -1188,7 +1188,7 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "loteriivõidu väljamaksmine",
+    "lv": "kasumi või võidu väljamaksmine",
     "level": "C2"
   },
   {
@@ -1223,7 +1223,7 @@ const C2_WORDS = [
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "pereliikmed • majaelanikud",
+    "lv": "majaelanikud • majaelanike kogukond",
     "level": "C2"
   },
   {
@@ -1286,7 +1286,7 @@ const C2_WORDS = [
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "elutahe",
+    "lv": "enesesäilitamisinstinkt",
     "level": "C2"
   },
   {
@@ -1335,7 +1335,7 @@ const C2_WORDS = [
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "meistrivõistlused",
+    "lv": "meistrivõistluste mäng",
     "level": "C2"
   },
   {
@@ -1400,7 +1400,7 @@ const C2_WORDS = [
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "võistlus",
+    "lv": "auhinnavõistlus",
     "level": "C2"
   },
   {
@@ -1527,7 +1527,7 @@ const C2_WORDS = [
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "põhiliselt",
+    "lv": "aluseks",
     "level": "C2"
   },
   {
