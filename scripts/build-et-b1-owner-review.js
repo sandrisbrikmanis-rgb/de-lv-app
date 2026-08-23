@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 /**
- * Build ET–DE A2 OWNER-PREP package per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.6 / §7.10.
+ * Build ET–DE B1 OWNER-PREP package per PROJECT_LANGUAGE_MASTER_STANDARD.md §7.6 / §7.10.
  */
 const fs = require("fs");
 const path = require("path");
@@ -19,7 +19,7 @@ const AUDIT_MD = "et-b1-full-audit.md";
 const VALIDATION_MD = "et-b1-pr603-owner-history-validation.md";
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 const BRANCH = process.env.WORK_BRANCH || execSync("git branch --show-current", { cwd: ROOT, encoding: "utf8" }).trim();
-const PR_NUMBER = process.env.AUDIT_PR || "610";
+const PR_NUMBER = process.env.AUDIT_PR || "621";
 const MAIN_BASE_SHA = process.env.MAIN_BASE_SHA || execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
 const GROUP_SIZE = 50;
 
@@ -263,14 +263,14 @@ function buildView(findings) {
   const includeFullFindingsInAggregate = findings.length <= GROUP_SIZE;
 
   const main = [
-    "# ET–DE A2 — OWNER VIEW",
+    "# ET–DE B1 — OWNER VIEW",
     "",
     `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
     `**WORK_BRANCH:** \`${BRANCH}\``,
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
-    `**SCOPE:** ET–DE A2 (\`data/et/b1.js\`)`,
+    `**SCOPE:** ET–DE B1 (\`data/et/b1.js\`)`,
     `**Findings:** **${findings.length}** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)`,
     "",
     `> OBJECT_COVERAGE = ${TOTAL_CARDS}/${TOTAL_CARDS} (100%). DISCOVERY_COMPLETENESS = ${COVERAGE_DISCLAIMER.DISCOVERY_COMPLETENESS}.`,
@@ -287,7 +287,9 @@ function buildView(findings) {
     `| GitHub indekss | [et-b1-owner-review-GITHUB.md](${gh("reports/et-b1-owner-review-GITHUB.md")}) |`,
     `| OWNER README | [et-b1-owner-review-README.md](${gh("reports/et-b1-owner-review-README.md")}) |`,
     `| OWNER DECISIONS (indekss) | [et-b1-owner-decisions.md](${gh("reports/et-b1-owner-decisions.md")}) |`,
-    `| Pilns audits | [${AUDIT_MD}](${gh(`reports/${AUDIT_MD}`)}) |`,
+    `| Pilns audits (indekss) | [et-b1-full-audit-GITHUB.md](${gh("reports/et-b1-full-audit-GITHUB.md")}) |`,
+    `| Audita kopsavilkums | [et-b1-full-audit-summary.md](${gh("reports/et-b1-full-audit-summary.md")}) |`,
+    `| Audit JSON | [et-b1-full-audit.json](${gh("reports/et-b1-full-audit.json")}) |`,
     "",
     "## Grupas (pa 50 findingiem) — **sākt šeit**",
     "",
@@ -328,7 +330,7 @@ function buildView(findings) {
 
 function buildDecisions(findings, groupFiles) {
   const header = [
-    "# ET–DE A2 — OWNER DECISIONS",
+    "# ET–DE B1 — OWNER DECISIONS",
     "",
     `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**MAIN_BASE_SHA:** \`${MAIN_BASE_SHA}\``,
@@ -336,7 +338,7 @@ function buildDecisions(findings, groupFiles) {
     `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
     `**Findings:** **${findings.length}** · sākotnēji visi **PENDING**`,
     "",
-    "Pirmais ET–DE A2 FULL_DISCOVERY — nav iepriekšējas OWNER history. Aizpildi grupu tabulas vai šo indeksu.",
+    "Pirmais ET–DE B1 FULL_DISCOVERY — nav iepriekšējas OWNER history. Aizpildi grupu tabulas vai šo indeksu.",
     "",
     "Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**",
     "",
@@ -360,7 +362,7 @@ function buildDecisions(findings, groupFiles) {
 
   groupFiles.forEach((g) => {
     const groupContent = [
-      `# ET–DE A2 — OWNER DECISIONS (grupa ${g.id}, ${g.start}–${g.end})`,
+      `# ET–DE B1 — OWNER DECISIONS (grupa ${g.id}, ${g.start}–${g.end})`,
       "",
       `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
       `**Audit PR:** [#${PR_NUMBER}](https://github.com/${REPO}/pull/${PR_NUMBER})`,
@@ -383,7 +385,7 @@ function buildDecisions(findings, groupFiles) {
 function buildReadme(findings, groupFiles) {
   const bySev = countBySev(findings);
   const content = [
-    "# ET–DE A2 — OWNER review (MASTER v1.9)",
+    "# ET–DE B1 — OWNER review (MASTER v1.9)",
     "",
     `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**Branch:** \`${BRANCH}\``,
@@ -482,7 +484,7 @@ function buildGithub(findings, groupFiles, coverage, auditData) {
     : [];
 
   const content = [
-    "# ET–DE A2 — GitHub atvēršanas indekss",
+    "# ET–DE B1 — GitHub atvēršanas indekss",
     "",
     `**Standard:** \`PROJECT_LANGUAGE_MASTER_STANDARD.md\` v1.9`,
     `**Branch:** \`${BRANCH}\``,
@@ -496,9 +498,10 @@ function buildGithub(findings, groupFiles, coverage, auditData) {
     "|-------|----------|",
     `| [OWNER README](${gh("reports/et-b1-owner-review-README.md")}) | Workflow un kopsavilkums |`,
     `| [Šis indekss](${gh("reports/et-b1-owner-review-GITHUB.md")}) | Visas GitHub saites |`,
-    `| [Pilns audits](${gh(`reports/${AUDIT_MD}`)}) | ${TOTAL_CARDS}/${TOTAL_CARDS} · OWNER backlog **${findings.length}** |`,
+    `| [Pilns audits (indekss)](${gh("reports/et-b1-full-audit-GITHUB.md")}) | ${TOTAL_CARDS}/${TOTAL_CARDS} · OWNER backlog **${findings.length}** |`,
+    `| [Audit JSON](${gh("reports/et-b1-full-audit.json")}) | Mašīnlasāms pilns audits |`,
     "",
-    "> **Svarīgi:** ar **508** findingiem strādā pa **grupām** (1–50, 51–100, …). Monolīts `et-b1-owner-view.md` agrāk bija ~340 KB un GitHub/Cursor to nerāda; indekss tagad ir īss.",
+    `> **Svarīgi:** ar **${findings.length}** findingiem strādā pa **${groupFiles.length} grupām** (pa ${GROUP_SIZE} findingiem). Monolīts \`et-b1-full-audit.md\` (~1 MB) GitHub/Cursor bieži bloķē — izmanto [et-b1-full-audit-GITHUB.md](${gh("reports/et-b1-full-audit-GITHUB.md")}) un OWNER grupas.`,
     "",
     "## VIEW ↔ DECISIONS (indeksi — pilns saturs grupās)",
     "",

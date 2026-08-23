@@ -1,10 +1,10 @@
-# ET–DE A2 — OWNER VIEW
+# ET–DE B1 — OWNER VIEW
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
 **MAIN_BASE_SHA:** `8123cf4aba7b8e19df030fefac7d89753b4c9d44`
 **WORK_BRANCH:** `cursor/et-de-b1-full-audit-4a7c`
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
-**SCOPE:** ET–DE A2 (`data/et/b1.js`)
+**Audit PR:** [#621](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/621)
+**SCOPE:** ET–DE B1 (`data/et/b1.js`)
 **Findings:** **2738** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
 > OBJECT_COVERAGE = 3367/3367 (100%). DISCOVERY_COMPLETENESS = NOT_GUARANTEED.
 > 702/702 does NOT mean all possible defects were found.
@@ -16,7 +16,9 @@
 | GitHub indekss | [et-b1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-review-GITHUB.md) |
 | OWNER README | [et-b1-owner-review-README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-review-README.md) |
 | OWNER DECISIONS (indekss) | [et-b1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions.md) |
-| Pilns audits | [et-b1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit.md) |
+| Pilns audits (indekss) | [et-b1-full-audit-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit-GITHUB.md) |
+| Audita kopsavilkums | [et-b1-full-audit-summary.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit-summary.md) |
+| Audit JSON | [et-b1-full-audit.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit.json) |
 ## Grupas (pa 50 findingiem) — **sākt šeit**
 | Grupa | Findings | VIEW | DECISIONS |
 |-------|----------|------|-----------|

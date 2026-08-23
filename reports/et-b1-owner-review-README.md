@@ -1,8 +1,8 @@
-# ET–DE A2 — OWNER review (MASTER v1.9)
+# ET–DE B1 — OWNER review (MASTER v1.9)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Branch:** `cursor/et-de-b1-full-audit-4a7c`
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#621](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/621)
 
 Avots: [et-b1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit.md) · [GitHub indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-review-GITHUB.md)
 

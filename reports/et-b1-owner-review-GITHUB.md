@@ -1,9 +1,9 @@
-# ET–DE A2 — GitHub atvēršanas indekss
+# ET–DE B1 — GitHub atvēršanas indekss
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Branch:** `cursor/et-de-b1-full-audit-4a7c`
 **MAIN_BASE_SHA:** `8123cf4aba7b8e19df030fefac7d89753b4c9d44`
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#621](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/621)
 **Findings:** **2738** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
@@ -12,9 +12,10 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-review-README.md) | Workflow un kopsavilkums |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit.md) | 3367/3367 · OWNER backlog **2738** |
+| [Pilns audits (indekss)](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit-GITHUB.md) | 3367/3367 · OWNER backlog **2738** |
+| [Audit JSON](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit.json) | Mašīnlasāms pilns audits |
 
-> **Svarīgi:** ar **508** findingiem strādā pa **grupām** (1–50, 51–100, …). Monolīts `et-b1-owner-view.md` agrāk bija ~340 KB un GitHub/Cursor to nerāda; indekss tagad ir īss.
+> **Svarīgi:** ar **2738** findingiem strādā pa **55 grupām** (pa 50 findingiem). Monolīts `et-b1-full-audit.md` (~1 MB) GitHub/Cursor bieži bloķē — izmanto [et-b1-full-audit-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit-GITHUB.md) un OWNER grupas.
 
 ## VIEW ↔ DECISIONS (indeksi — pilns saturs grupās)
 

@@ -1,12 +1,12 @@
-# ET–DE A2 — OWNER DECISIONS
+# ET–DE B1 — OWNER DECISIONS
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **MAIN_BASE_SHA:** `8123cf4aba7b8e19df030fefac7d89753b4c9d44`
 **WORK_BRANCH:** `cursor/et-de-b1-full-audit-4a7c`
-**Audit PR:** [#610](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/610)
+**Audit PR:** [#621](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/621)
 **Findings:** **2738** · sākotnēji visi **PENDING**
 
-Pirmais ET–DE A2 FULL_DISCOVERY — nav iepriekšējas OWNER history. Aizpildi grupu tabulas vai šo indeksu.
+Pirmais ET–DE B1 FULL_DISCOVERY — nav iepriekšējas OWNER history. Aizpildi grupu tabulas vai šo indeksu.
 
 Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**
 

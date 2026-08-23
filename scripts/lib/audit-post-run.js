@@ -62,7 +62,7 @@ const HOOKS = {
   },
   "et-b1-full": {
     label: "ET–DE B1 full audit",
-    scripts: ["build-et-b1-owner-review.js"],
+    scripts: ["build-et-b1-owner-review.js", "build-et-b1-full-audit-github.js"],
     github: "reports/et-b1-owner-review-GITHUB.md",
     readme: "reports/et-b1-owner-review-README.md",
   },
