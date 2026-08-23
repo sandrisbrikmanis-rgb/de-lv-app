@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-08-23T13:31:05.373Z",
+  "verdict": "ET_C1C2_FINAL_TARGETED_REGRESSION_PASS",
+  "labotOk": 76,
+  "nelabotOk": 3,
+  "fpOk": 7,
+  "sectionAccentsRaw": 0,
+  "c1Studies": 15,
+  "c2Studies": 1,
+  "studyParityC1": true,
+  "studyParityC2": true,
+  "deChanges": 0,
+  "unexpectedChanges": 0,
+  "mirrorC1": true,
+  "mirrorC2": true,
+  "syntaxPass": true,
+  "findingsCount": 0,
+  "critical": 0,
+  "high": 0,
+  "findings": []
+}

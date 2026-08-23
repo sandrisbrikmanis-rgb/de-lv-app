@@ -1,0 +1,229 @@
+{
+  "dryRun": false,
+  "studyRemovals": [
+    {
+      "auditId": "ET-C1C2-0001",
+      "cardId": "c1-wettbewerb",
+      "level": "c1",
+      "de": "Wettbewerb",
+      "classification": "TRUE_EXTRA_STUDY",
+      "evidence": "LV MASTER C1 has Wettbewerb card without study; ET-only standardStudy.",
+      "action": "REMOVED_STUDY",
+      "index": 184,
+      "lvHasStudy": false,
+      "studyLayout": "standardStudy"
+    },
+    {
+      "auditId": "ET-C1C2-0002",
+      "cardId": "c2-inwiefern",
+      "level": "c2",
+      "de": "inwiefern",
+      "classification": "TRUE_EXTRA_STUDY",
+      "evidence": "LV MASTER C2 has only Gewichtseinheit study; inwiefern has no LV study counterpart.",
+      "action": "REMOVED_STUDY",
+      "index": 212,
+      "lvHasStudy": false,
+      "studyLayout": "standardStudy"
+    },
+    {
+      "auditId": "ET-C1C2-0002",
+      "cardId": "c2-inwieweit",
+      "level": "c2",
+      "de": "inwieweit",
+      "classification": "TRUE_EXTRA_STUDY",
+      "evidence": "LV MASTER C2 has only Gewichtseinheit study; inwieweit has no LV study counterpart.",
+      "action": "REMOVED_STUDY",
+      "index": 213,
+      "lvHasStudy": false,
+      "studyLayout": "standardStudy"
+    }
+  ],
+  "dedupedTargetsBefore": [
+    {
+      "cardId": "c1-wettbewerb",
+      "path": "sectionAccents.tip",
+      "section": "tip",
+      "count": 1
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "path": "sectionAccents.examples[0].lv",
+      "section": "examples",
+      "count": 1
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "path": "sectionAccents.examples[1].lv",
+      "section": "examples",
+      "count": 1
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "path": "sectionAccents.examples[2].lv",
+      "section": "examples",
+      "count": 1
+    }
+  ],
+  "repairsSample": [
+    {
+      "id": "c1-offentlichkeit",
+      "de": "Öffentlichkeit",
+      "section": "explanation",
+      "index": null,
+      "field": null,
+      "color": "purple",
+      "before": "avalikkus",
+      "after": "avalikkust",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-partei",
+      "de": "Partei",
+      "section": "explanation",
+      "index": null,
+      "field": null,
+      "color": "purple",
+      "before": "pool",
+      "after": "poolt",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-prozess",
+      "de": "Prozess",
+      "section": "explanation",
+      "index": null,
+      "field": null,
+      "color": "purple",
+      "before": "kohtuprotsess",
+      "after": "kohtuprotsessi",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-wahl",
+      "de": "Wahl",
+      "section": "explanation",
+      "index": null,
+      "field": null,
+      "color": "purple",
+      "before": "valik",
+      "after": "valiku",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-gelegentlich",
+      "de": "gelegentlich",
+      "section": "examples",
+      "index": 1,
+      "field": "lv",
+      "color": "purple",
+      "before": "juhuslik",
+      "after": "juhuslikust",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-voraussetzen",
+      "de": "voraussetzen",
+      "section": "explanation",
+      "index": null,
+      "field": null,
+      "color": "green",
+      "before": "voraus",
+      "after": "voraussetzen",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-aufrechterhalten",
+      "de": "aufrechterhalten",
+      "section": "examples",
+      "index": 0,
+      "field": "lv",
+      "color": "purple",
+      "before": "kehtivana",
+      "after": "Riik",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-aufrechterhalten",
+      "de": "aufrechterhalten",
+      "section": "examples",
+      "index": 1,
+      "field": "lv",
+      "color": "purple",
+      "before": "kehtivana",
+      "after": "Tegevust",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-aufrechterhalten",
+      "de": "aufrechterhalten",
+      "section": "examples",
+      "index": 2,
+      "field": "lv",
+      "color": "purple",
+      "before": "kehtivana",
+      "after": "Riik",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-aufrechterhalten",
+      "de": "aufrechterhalten",
+      "section": "explanation",
+      "index": null,
+      "field": null,
+      "color": "green",
+      "before": "erhält",
+      "after": "aufrechterhalten",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c1-aufrechterhalten",
+      "de": "aufrechterhalten",
+      "section": "explanation",
+      "index": null,
+      "field": null,
+      "color": "green",
+      "before": "auf",
+      "after": "aufrechterhalten",
+      "action": "REPLACE"
+    },
+    {
+      "id": "c2-gewichtseinheit",
+      "de": "Gewichtseinheit",
+      "section": "explanation",
+      "index": null,
+      "field": null,
+      "color": "purple",
+      "before": "kaaluühik",
+      "after": "kaaluühikut",
+      "action": "REPLACE"
+    }
+  ],
+  "unresolved": [],
+  "ownerLabotFailures": [],
+  "summary": {
+    "mainBefore": "d1ea2b05bde9d5a7d2854c8b83e634a48179185c",
+    "mergeCommit": "69360f44223e50815c1f8de2169909b1830fdb26",
+    "mainAfterBase": "69360f44223e50815c1f8de2169909b1830fdb26",
+    "c1BlobBefore": "d72c3f635504feb1bd69bd8f4241a53ad35c475d",
+    "c2BlobBefore": "5a74596d0d9f9f4448000c110572e367268b3e43",
+    "c1BlobAfter": "9ff5e1bffe0a41a4762ae1c3033a5cfda8144f51",
+    "c2BlobAfter": "b23529c27039d14df239a3ee235256f8254d95a9",
+    "sectionAccentsRawBefore": 4,
+    "sectionAccentsDedupedBefore": 4,
+    "sectionAccentsApplied": 12,
+    "sectionAccentsOwnerRequired": 0,
+    "sectionAccentsRawAfter": 0,
+    "sectionAccentsDedupedAfter": 0,
+    "c1Studies": 15,
+    "c2Studies": 1,
+    "ownerLabotRetained": 76,
+    "nelabotRetained": 3,
+    "falsePositiveRetained": 7,
+    "deChanges": 0,
+    "etProseChanges": 0,
+    "mirrorC1": "PASS",
+    "mirrorC2": "PASS",
+    "syntax": "PASS",
+    "finalVerdict": "ET_C1C2_FINAL_NSR_CLOSURE_PASS"
+  }
+}

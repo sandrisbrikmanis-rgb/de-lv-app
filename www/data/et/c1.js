@@ -404,8 +404,7 @@ const C1_WORDS = [
         "explanation": {
           "blue": [
             "Einfamilienhaus"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -920,7 +919,7 @@ const C1_WORDS = [
             "Öffentlichkeit"
           ],
           "purple": [
-            "avalikkus"
+            "avalikkust"
           ]
         },
         "examples": [
@@ -1073,7 +1072,7 @@ const C1_WORDS = [
           ],
           "purple": [
             "partei",
-            "pool"
+            "poolt"
           ]
         },
         "examples": [
@@ -1261,7 +1260,7 @@ const C1_WORDS = [
           ],
           "purple": [
             "protsess",
-            "kohtuprotsess"
+            "kohtuprotsessi"
           ]
         },
         "examples": [
@@ -1726,125 +1725,7 @@ const C1_WORDS = [
     "de_article": "der",
     "de_plural": "die Wettbewerbe",
     "lv": "konkurss",
-    "level": "C1",
-    "study": {
-      "id": "c1-wettbewerb",
-      "layout": "standardStudy",
-      "translation": "konkurss",
-      "explanation": "Põhiidee: der Wettbewerb võib tähendada töökonkurssi, turukonkurentsi või võistlust. Täpne tähendus sõltub kontekstist.",
-      "examples": [
-        {
-          "de": "Viele Schüler nehmen am Wettbewerb teil.",
-          "lv": "paljud õpilased osalevad võistlusel."
-        },
-        {
-          "de": "Die Firma steht im starken Wettbewerb.",
-          "lv": "ettevõte on tugevas konkurentsis."
-        },
-        {
-          "de": "Er hat den Wettbewerb um die Stelle gewonnen.",
-          "lv": "ta võitis töökoha konkursi."
-        }
-      ],
-      "comparison": [
-        {
-          "word": "der Wettbewerb",
-          "meaning": "konkurss (töökoha jaoks)",
-          "example": "Er hat den Wettbewerb gewonnen. = Ta võitis konkursi."
-        },
-        {
-          "word": "der Wettbewerb",
-          "meaning": "konkurents (turul)",
-          "example": "Die Firma steht im Wettbewerb. = Ettevõte on konkurentsis."
-        },
-        {
-          "word": "der Wettbewerb",
-          "meaning": "võistlus",
-          "example": "Viele nehmen am Wettbewerb teil. = Paljud osalevad võistlusel."
-        }
-      ],
-      "tip": "Kontekst näitab, kas tegu on töökonkursi, turukonkurentsi või võistlusega.",
-      "important": "Üks saksa sõna Wettbewerb võib tähendada nii konkurssi, konkurentsi kui ka võistlust.",
-      "sectionAccents": {
-        "explanation": {
-          "blue": "der Wettbewerb",
-          "purple": "konkurss",
-          "green": "konkurents",
-          "yellow": "võistlus"
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": "Wettbewerb"
-            },
-            "lv": {
-              "yellow": "võistlusel"
-            }
-          },
-          {
-            "de": {
-              "blue": "Wettbewerb"
-            },
-            "lv": {
-              "green": "konkurentsis"
-            }
-          },
-          {
-            "de": {
-              "blue": "Wettbewerb",
-              "yellow": "Stelle"
-            },
-            "lv": {
-              "purple": "konkursi"
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "blue": "der Wettbewerb"
-            },
-            "meaning": {
-              "purple": "konkurss"
-            },
-            "example": {
-              "blue": "Wettbewerb"
-            }
-          },
-          {
-            "word": {
-              "blue": "der Wettbewerb"
-            },
-            "meaning": {
-              "green": "konkurents"
-            },
-            "example": {
-              "blue": "Wettbewerb"
-            }
-          },
-          {
-            "word": {
-              "blue": "der Wettbewerb"
-            },
-            "meaning": {
-              "yellow": "võistlus"
-            },
-            "example": {
-              "blue": "Wettbewerb"
-            }
-          }
-        ],
-        "tip": {
-          "blue": "Wettbewerb"
-        },
-        "important": {
-          "blue": "Wettbewerb",
-          "purple": "konkurss",
-          "green": "konkurents",
-          "yellow": "võistlus"
-        }
-      }
-    }
+    "level": "C1"
   },
   {
     "de": "sich zufrieden geben",
@@ -2136,7 +2017,7 @@ const C1_WORDS = [
             "Wahl"
           ],
           "purple": [
-            "valik",
+            "valiku",
             "valimisi"
           ]
         },
@@ -3262,7 +3143,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "juhuslik"
+                "juhuslikust"
               ]
             }
           },
@@ -4596,8 +4477,7 @@ const C1_WORDS = [
             "wahlberechtigt",
             "Wahl",
             "berechtigt"
-          ],
-          "purple": []
+          ]
         },
         "examples": [
           {
@@ -4914,7 +4794,6 @@ const C1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "blue": [],
           "purple": [
             "Formaalne"
           ]
@@ -5294,7 +5173,7 @@ const C1_WORDS = [
         "explanation": {
           "green": [
             "voraussetzen",
-            "voraus"
+            "voraussetzen"
           ],
           "purple": [
             "eeldus"
@@ -5506,18 +5385,16 @@ const C1_WORDS = [
         "explanation": {
           "green": [
             "aufrechterhalten",
-            "erhält",
-            "auf"
-          ],
-          "purple": [],
-          "yellow": []
+            "aufrechterhalten",
+            "aufrechterhalten"
+          ]
         },
         "examples": [
           {
             "de": {},
             "lv": {
               "purple": [
-                "kehtivana"
+                "Riik"
               ]
             }
           },
@@ -5530,7 +5407,7 @@ const C1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kehtivana"
+                "Tegevust"
               ]
             }
           },
@@ -5538,7 +5415,7 @@ const C1_WORDS = [
             "de": {},
             "lv": {
               "purple": [
-                "kehtivana"
+                "Riik"
               ]
             }
           }
