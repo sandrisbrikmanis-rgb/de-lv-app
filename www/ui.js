@@ -563,8 +563,68 @@ function isCourseExerciseSection(title) {
   return COURSE_EXERCISE_SECTION_TITLES.has(String(title || "").trim());
 }
 
+function isCourseTranslateCardShape(card) {
+  if (!card || typeof card !== "object") return false;
+  const hasLvDe = Boolean(card.lv) && Boolean(card.de);
+  const hasExerciseFields = Boolean(
+    card.prompt ||
+      card.task ||
+      card.answer ||
+      card.ich ||
+      card.er ||
+      card.wir ||
+      card.infinitive ||
+      card.du ||
+      card.ihr ||
+      card.sie ||
+      card.type === "fill",
+  );
+  return hasLvDe && !hasExerciseFields;
+}
+
+function isCourseExerciseCardShape(card) {
+  if (!card || typeof card !== "object") return false;
+  return Boolean(
+    card.prompt ||
+      card.task ||
+      card.answer ||
+      card.ich ||
+      card.er ||
+      card.wir ||
+      card.infinitive ||
+      card.du ||
+      card.ihr ||
+      card.sie ||
+      card.type === "fill",
+  );
+}
+
+function isCourseTranslateSectionData(section) {
+  if (!Array.isArray(section?.cards) || section.cards.length === 0) return false;
+  if (section.type === "translationCards") return true;
+  return section.cards.every(isCourseTranslateCardShape);
+}
+
+function isCourseExerciseSectionData(section) {
+  if (!Array.isArray(section?.cards) || section.cards.length === 0) return false;
+  if (isCourseTranslateSectionData(section)) return false;
+  return section.cards.some(isCourseExerciseCardShape);
+}
+
+function matchesCourseTranslateSection(section) {
+  return isCourseTranslateSection(section?.title) || isCourseTranslateSectionData(section);
+}
+
+function matchesCourseExerciseSection(section) {
+  return isCourseExerciseSection(section?.title) || isCourseExerciseSectionData(section);
+}
+
 function findCourseLessonCardSection(lesson, matcher) {
-  return lesson?.sections?.find((section) => matcher(section.title) && Array.isArray(section.cards)) || null;
+  return lesson?.sections?.find((section) => {
+    if (!Array.isArray(section.cards)) return false;
+    if (typeof matcher === "function" && matcher.length > 1) return matcher(section);
+    return matcher(section?.title);
+  }) || null;
 }
 
 function getCourseLessonNumber(lessonId) {
@@ -635,10 +695,12 @@ function localizeLegacyCourseLessonUi(target, lessonId, lesson) {
   });
 }
 
-function getCourseExerciseHint(sectionTitle, lessonId) {
+function getCourseExerciseHint(sectionTitle, lessonId, section) {
   if (lessonId === "lesson9" && (sectionTitle === "Übung / Vingrinājums" || sectionTitle === "Übung / Pratimas" || sectionTitle === "Übung / Vježba" || sectionTitle === "Übung / Exercise" || sectionTitle === "Übung / Øvelse")) {
     return t("kurss.hints.tapNextStep");
   }
+  if (section && isCourseTranslateSectionData(section)) return t("kurss.hints.tapToRevealGerman");
+  if (section && isCourseExerciseSectionData(section)) return t("kurss.hints.tapToContinue");
   if (sectionTitle === "Vingrinājums" || sectionTitle === "Pratimas" || sectionTitle === "Vježbajte" || sectionTitle === "Exercise" || sectionTitle === "Øvelse") return t("kurss.hints.tapToContinue");
   if (isCourseTranslateSection(sectionTitle)) return t("kurss.hints.tapToRevealGerman");
   return t("kurss.hints.tapToRevealAnswer");
@@ -843,7 +905,7 @@ function getCourseExerciseCards(lessonId) {
   const lessonNumber = String(lessonId || "").match(/\d+/)?.[0];
   if (!lessonNumber) return [];
   const lesson = window.COURSE_LESSON_DATA?.[`kurssLesson${lessonNumber}`];
-  return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
+  return findCourseLessonCardSection(lesson, matchesCourseExerciseSection)?.cards || [];
 }
 
 function resolveExerciseMeta(instruction, task, fallback) {
@@ -1205,12 +1267,14 @@ function getExerciseSourceCards(lessonId) {
   if (lessonNumber === "8") {
     const lesson = window.COURSE_LESSON_DATA?.kurssLesson8;
     const exerciseSection = lesson?.sections?.find((section) => Array.isArray(section.cards));
+    const exerciseCards = findCourseLessonCardSection(lesson, matchesCourseExerciseSection)?.cards;
+    if (exerciseCards?.length) return exerciseCards;
     if (exerciseSection?.cards?.length) return exerciseSection.cards;
     return typeof lesson8ExerciseCards !== "undefined" ? lesson8ExerciseCards : [];
   }
   if (lessonNumber === "9") {
     const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
-    return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
+    return findCourseLessonCardSection(lesson, matchesCourseExerciseSection)?.cards || [];
   }
   const normalizedLessonId = normalizeCourseLessonId(lessonId);
   return getCourseExerciseCards(normalizedLessonId);
@@ -1751,7 +1815,7 @@ function handleCourseExerciseCardClick(card) {
     }
   }
   const lesson = window.COURSE_LESSON_DATA?.[`kurssLesson${lessonNumber}`];
-  return findCourseLessonCardSection(lesson, isCourseTranslateSection)?.cards || [];
+  return findCourseLessonCardSection(lesson, matchesCourseTranslateSection)?.cards || [];
 }
 
 function getCourseTranslateLessonIdFromCard(card) {
@@ -1921,11 +1985,11 @@ function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId)
     }
     if (isExercise) {
       let attr = exerciseAttribute || "data-course-exercise-card";
-      const hint = getCourseExerciseHint(section.title, lesson.id || "");
-      if (isCourseExerciseSection(section.title)) {
+      const hint = getCourseExerciseHint(section.title, lesson.id || "", section);
+      if (matchesCourseExerciseSection(section)) {
         attr = 'data-course-exercise-card data-lesson-id="' + escapeHtml(cardLessonId) + '"';
       }
-      if (isCourseTranslateSection(section.title)) {
+      if (matchesCourseTranslateSection(section)) {
         attr = 'data-course-translate-card data-lesson-id="' + escapeHtml(cardLessonId) + '"';
       }
       if (lesson.id === "lesson9" && (section.title === "Übung / Vingrinājums" || section.title === "Übung / Pratimas" || section.title === "Übung / Vježba" || section.title === "Übung / Exercise" || section.title === "Übung / Øvelse")) {
@@ -3161,7 +3225,7 @@ function prepareLesson13Accordion() {
 }
 function getLesson9ExerciseCards() {
   const lesson = window.COURSE_LESSON_DATA?.kurssLesson9;
-  return findCourseLessonCardSection(lesson, isCourseExerciseSection)?.cards || [];
+  return findCourseLessonCardSection(lesson, matchesCourseExerciseSection)?.cards || [];
 }
 
 function formatExerciseFormMeta(form, fallback) {
