@@ -1,0 +1,337 @@
+{
+  "batch": "batch-601-650",
+  "results": [
+    {
+      "cardId": "sentence-601",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Fahr bitte zum Bahnhof!",
+      "daCurrent": "",
+      "proposedEt": "Sõida palun jaama!",
+      "reason": "„Vii” tähendab kellegi või millegi viimist; saksa „Fahr” vastab siin pigem verbile „sõida”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-604",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Eine Fahrkarte nach Köln, bitte.",
+      "daCurrent": "",
+      "proposedEt": "Üks pilet Kölni, palun.",
+      "reason": "„Kölnini” tähendab pigem „kuni Kölnini”; sihtkoha väljendamiseks on siin loomulikum „Kölni”.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-612",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Stell mein Handgepäck ins Gepäcknetz.",
+      "daCurrent": "",
+      "proposedEt": "Pane mu käsipagas pagasivõrku.",
+      "reason": "„Gepäcknetz” on pagasivõrk; „võrele” muudab nii eseme kui ka paigutamise tähendust.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-625",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Zimmer mit zwei Betten, bitte.",
+      "daCurrent": "",
+      "proposedEt": "Tuba kahe voodiga, palun.",
+      "reason": "Saksa lause täpsustab, et toas on kaks voodit; „kaheinimesetuba” ei taga seda tähendust.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-600",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-602",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-603",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-605",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-606",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-607",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-608",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-609",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-610",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-611",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-613",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-614",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-615",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-616",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-617",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-618",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-619",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-620",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-621",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-622",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-623",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-624",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-626",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-627",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-628",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-629",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-630",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-631",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-632",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-633",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-634",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-635",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-636",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-637",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-638",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-639",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-640",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-641",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-642",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-643",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-644",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-645",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-646",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-647",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-648",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-649",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-601",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Fahr bitte zum Bahnhof!",
+      "daCurrent": "",
+      "proposedEt": "Sõida palun jaama!",
+      "reason": "„Vii” tähendab kellegi või millegi viimist; saksa „Fahr” vastab siin pigem verbile „sõida”.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-604",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Eine Fahrkarte nach Köln, bitte.",
+      "daCurrent": "",
+      "proposedEt": "Üks pilet Kölni, palun.",
+      "reason": "„Kölnini” tähendab pigem „kuni Kölnini”; sihtkoha väljendamiseks on siin loomulikum „Kölni”.",
+      "confidence": 0.89,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-612",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Stell mein Handgepäck ins Gepäcknetz.",
+      "daCurrent": "",
+      "proposedEt": "Pane mu käsipagas pagasivõrku.",
+      "reason": "„Gepäcknetz” on pagasivõrk; „võrele” muudab nii eseme kui ka paigutamise tähendust.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-625",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ein Zimmer mit zwei Betten, bitte.",
+      "daCurrent": "",
+      "proposedEt": "Tuba kahe voodiga, palun.",
+      "reason": "Saksa lause täpsustab, et toas on kaks voodit; „kaheinimesetuba” ei taga seda tähendust.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 46,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:36:54.578Z",
+  "source": "openai-api"
+}

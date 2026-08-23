@@ -1,0 +1,356 @@
+{
+  "batch": "batch-201-250",
+  "results": [
+    {
+      "cardId": "sentence-200",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-201",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-202",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-203",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-204",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Zu Besuch sein.",
+      "daCurrent": "",
+      "proposedEt": "Külas olla.",
+      "reason": "„Külas käia” tähendab külastamas käimist, mitte külas viibimist või kohal olemist.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-205",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-206",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-207",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-208",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-209",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-210",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-211",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-212",
+      "field": "de",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "TECHNICAL",
+      "de": "Bezüglich auf etwas.",
+      "daCurrent": "",
+      "proposedEt": "Millegi suhtes.",
+      "reason": "Saksa väljend „bezüglich auf” on ebastandardne; „bezüglich etwas” või „in Bezug auf etwas” vajab allika ülevaatust.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-213",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-214",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-215",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-216",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-217",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-218",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-219",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-220",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-221",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Danke für die Blumen!",
+      "daCurrent": "",
+      "proposedEt": "Aitäh komplimendi eest!",
+      "reason": "Saksa väljend on idiomaatiline tänu komplimendi eest; praegune tõlge tähendab sõna-sõnalt tänu lillede eest.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-222",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-223",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-224",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-225",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-226",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-227",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-228",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-229",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-230",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "",
+      "proposedEt": "Käia lipuga.",
+      "reason": "Male kontekstis on loomulikum öelda „käia lipuga”; praegune sõnastus on ebaloomulik ja kohmakas.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-231",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-232",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-233",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-234",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-235",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-236",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-237",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-238",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-239",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-240",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-241",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-242",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "von Haus aus",
+      "daCurrent": "",
+      "proposedEt": "loomu poolest",
+      "reason": "„Von Haus aus” tähendab loomupäraselt või olemuselt, mitte lapsepõlvest saadik ega algusest peale.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-243",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-244",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-245",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-246",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-247",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-248",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-249",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-204",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Zu Besuch sein.",
+      "daCurrent": "",
+      "proposedEt": "Külas olla.",
+      "reason": "„Külas käia” tähendab külastamas käimist, mitte külas viibimist või kohal olemist.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-212",
+      "field": "de",
+      "severity": "NEEDS_SOURCE_REVIEW",
+      "category": "TECHNICAL",
+      "de": "Bezüglich auf etwas.",
+      "daCurrent": "",
+      "proposedEt": "Millegi suhtes.",
+      "reason": "Saksa väljend „bezüglich auf” on ebastandardne; „bezüglich etwas” või „in Bezug auf etwas” vajab allika ülevaatust.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-221",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Danke für die Blumen!",
+      "daCurrent": "",
+      "proposedEt": "Aitäh komplimendi eest!",
+      "reason": "Saksa väljend on idiomaatiline tänu komplimendi eest; praegune tõlge tähendab sõna-sõnalt tänu lillede eest.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-230",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Mit der Dame ziehen.",
+      "daCurrent": "",
+      "proposedEt": "Käia lipuga.",
+      "reason": "Male kontekstis on loomulikum öelda „käia lipuga”; praegune sõnastus on ebaloomulik ja kohmakas.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-242",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "von Haus aus",
+      "daCurrent": "",
+      "proposedEt": "loomu poolest",
+      "reason": "„Von Haus aus” tähendab loomupäraselt või olemuselt, mitte lapsepõlvest saadik ega algusest peale.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 45,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:33:55.245Z",
+  "source": "openai-api"
+}

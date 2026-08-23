@@ -1,0 +1,380 @@
+{
+  "batch": "batch-001-050",
+  "results": [
+    {
+      "cardId": "sentence-0",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-1",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-2",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das kann ich mir denken!",
+      "daCurrent": "",
+      "proposedEt": "Seda ma võin arvata!",
+      "reason": "Praegune tõlge tähendab „Seda ma juba tean!”, kuid saksa väljend tähendab pigem „Seda ma võin arvata/ette kujutada!”.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-3",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-4",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-5",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-6",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-7",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-8",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-9",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-10",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-11",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-12",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-13",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-14",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Die Zeit drängt.",
+      "daCurrent": "",
+      "proposedEt": "Aeg surub tagant.",
+      "reason": "„Aeg kihutab” tähendab, et aeg liigub kiiresti; saksa väljend rõhutab, et aega on vähe ja tuleb kiirustada.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-15",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-16",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-17",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-18",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Darf ich Sie bitten?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma tohin teid paluda?",
+      "reason": "Verb „paluma” nõuab siin isikut osastavas: „teid”, mitte „teilt”.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-19",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-20",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-21",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-22",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-23",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-24",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Eilt sehr!",
+      "daCurrent": "",
+      "proposedEt": "Väga kiire!",
+      "reason": "Saksa elliptiline väljend tähendab „väga kiireloomuline”, mitte „väga kiiresti” ehk tegevuse viisi.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-25",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-26",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-27",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was fällt dir ein?",
+      "daCurrent": "",
+      "proposedEt": "Kuidas sa julged?",
+      "reason": "Saksa väljend on etteheitev „Kuidas sa julged?”, praegune tõlge küsib pigem, mis kellelegi mõttesse tuleb.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-28",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Es war einmal.",
+      "daCurrent": "",
+      "proposedEt": "Elas kord.",
+      "reason": "Muinasjutu algusvormel on eesti keeles „Elas kord”; „Kord oli” jääb ebaloomulikult lõpetamata.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-29,",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-30",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-31",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-32",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-33",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-34",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-35",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-36",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-37",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-38",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-39",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-40",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-41",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-42",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-43",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-44",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-45",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-46",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-47",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-48",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-49",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-29",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-2",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das kann ich mir denken!",
+      "daCurrent": "",
+      "proposedEt": "Seda ma võin arvata!",
+      "reason": "Praegune tõlge tähendab „Seda ma juba tean!”, kuid saksa väljend tähendab pigem „Seda ma võin arvata/ette kujutada!”.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-14",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Die Zeit drängt.",
+      "daCurrent": "",
+      "proposedEt": "Aeg surub tagant.",
+      "reason": "„Aeg kihutab” tähendab, et aeg liigub kiiresti; saksa väljend rõhutab, et aega on vähe ja tuleb kiirustada.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-18",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Darf ich Sie bitten?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma tohin teid paluda?",
+      "reason": "Verb „paluma” nõuab siin isikut osastavas: „teid”, mitte „teilt”.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-24",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Eilt sehr!",
+      "daCurrent": "",
+      "proposedEt": "Väga kiire!",
+      "reason": "Saksa elliptiline väljend tähendab „väga kiireloomuline”, mitte „väga kiiresti” ehk tegevuse viisi.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-27",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was fällt dir ein?",
+      "daCurrent": "",
+      "proposedEt": "Kuidas sa julged?",
+      "reason": "Saksa väljend on etteheitev „Kuidas sa julged?”, praegune tõlge küsib pigem, mis kellelegi mõttesse tuleb.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-28",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Es war einmal.",
+      "daCurrent": "",
+      "proposedEt": "Elas kord.",
+      "reason": "Muinasjutu algusvormel on eesti keeles „Elas kord”; „Kord oli” jääb ebaloomulikult lõpetamata.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 45,
+  "sentencesAudited": 51,
+  "completedAt": "2026-08-22T18:32:23.627Z",
+  "source": "openai-api"
+}

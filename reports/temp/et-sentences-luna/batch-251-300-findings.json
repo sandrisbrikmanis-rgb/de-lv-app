@@ -1,0 +1,413 @@
+{
+  "batch": "batch-251-300",
+  "results": [
+    {
+      "cardId": "sentence-250",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-251",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-252",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-253",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-254",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mach keine Geschichten!",
+      "daCurrent": "",
+      "proposedEt": "Ära aja jama!",
+      "reason": "Saksa väljend tähendab pigem „ära aja jama/ära tee stseeni”; praegused variandid tähendavad rumaluste tegemist või naljatamist.",
+      "confidence": 0.88,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-255",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-256",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-257",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-258",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Frag ihn gelegentlich, ob...",
+      "daCurrent": "",
+      "proposedEt": "Küsi temalt aeg-ajalt, kas...",
+      "reason": "„Gelegentlich” tähendab „aeg-ajalt”; „kui juhtub” ei väljenda siin saksa määrsõna tähendust.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-259",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-260",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-261",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-262",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-263",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Fahre fort!",
+      "daCurrent": "",
+      "proposedEt": "Jätka!",
+      "reason": "„Samamoodi edasi” on tarbetult korduv ja lisab tähenduse, mida saksa käsk ei sisalda.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-264",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-265",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-266",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-267",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-268",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-269",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Es jammert mich zu sehen...",
+      "daCurrent": "",
+      "proposedEt": "Mul on valus näha...",
+      "reason": "Saksa lause väljendab kõneleja valu või piina millegi nägemisel, mitte lihtsalt kahetsust või kahju.",
+      "confidence": 0.86,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-270",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-271",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-272",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-273",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-274",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Könnte ich Frau N. sprechen?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma saaksin rääkida proua N-iga?",
+      "reason": "Ühetähelise lühendi käändelõpp kirjutatakse tavaliselt kujul „N-iga”, mitte häälduspõhiselt „N-ga”.",
+      "confidence": 0.82,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-275",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-276",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-277",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-278",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-279",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-280",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-281",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-282",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-283",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-284",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was ist los?",
+      "daCurrent": "",
+      "proposedEt": "Mis lahti on?",
+      "reason": "„Was ist los?” küsib üldiselt, mis toimub või mis viga on; praegune tõlge küsib kitsamalt, mis juhtus.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-285",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-286",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Das war ein anstrengender Tag.",
+      "daCurrent": "",
+      "proposedEt": "See oli kurnav päev.",
+      "reason": "„Anstrengend” tähendab kurnavat või pingutust nõudvat; „pingeline” tähendab pigem stressirohket või närvilist.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-287",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-288",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-289",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-290",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-291",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-292",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-293",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-294",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Hund ist los.",
+      "daCurrent": "",
+      "proposedEt": "Koer on lahti.",
+      "reason": "Saksa väljend tähendab, et koer on lahti või vabalt jooksmas; praegune tõlge väidab, et keegi lasi ta lahti.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-295",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-296",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-297",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-298",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-299",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-254",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Mach keine Geschichten!",
+      "daCurrent": "",
+      "proposedEt": "Ära aja jama!",
+      "reason": "Saksa väljend tähendab pigem „ära aja jama/ära tee stseeni”; praegused variandid tähendavad rumaluste tegemist või naljatamist.",
+      "confidence": 0.88,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-258",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Frag ihn gelegentlich, ob...",
+      "daCurrent": "",
+      "proposedEt": "Küsi temalt aeg-ajalt, kas...",
+      "reason": "„Gelegentlich” tähendab „aeg-ajalt”; „kui juhtub” ei väljenda siin saksa määrsõna tähendust.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-263",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "NATURALNESS",
+      "de": "Fahre fort!",
+      "daCurrent": "",
+      "proposedEt": "Jätka!",
+      "reason": "„Samamoodi edasi” on tarbetult korduv ja lisab tähenduse, mida saksa käsk ei sisalda.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-269",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Es jammert mich zu sehen...",
+      "daCurrent": "",
+      "proposedEt": "Mul on valus näha...",
+      "reason": "Saksa lause väljendab kõneleja valu või piina millegi nägemisel, mitte lihtsalt kahetsust või kahju.",
+      "confidence": 0.86,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-274",
+      "field": "lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "Könnte ich Frau N. sprechen?",
+      "daCurrent": "",
+      "proposedEt": "Kas ma saaksin rääkida proua N-iga?",
+      "reason": "Ühetähelise lühendi käändelõpp kirjutatakse tavaliselt kujul „N-iga”, mitte häälduspõhiselt „N-ga”.",
+      "confidence": 0.82,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-284",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Was ist los?",
+      "daCurrent": "",
+      "proposedEt": "Mis lahti on?",
+      "reason": "„Was ist los?” küsib üldiselt, mis toimub või mis viga on; praegune tõlge küsib kitsamalt, mis juhtus.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-286",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Das war ein anstrengender Tag.",
+      "daCurrent": "",
+      "proposedEt": "See oli kurnav päev.",
+      "reason": "„Anstrengend” tähendab kurnavat või pingutust nõudvat; „pingeline” tähendab pigem stressirohket või närvilist.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-294",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Hund ist los.",
+      "daCurrent": "",
+      "proposedEt": "Koer on lahti.",
+      "reason": "Saksa väljend tähendab, et koer on lahti või vabalt jooksmas; praegune tõlge väidab, et keegi lasi ta lahti.",
+      "confidence": 0.9,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 42,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:34:39.238Z",
+  "source": "openai-api"
+}

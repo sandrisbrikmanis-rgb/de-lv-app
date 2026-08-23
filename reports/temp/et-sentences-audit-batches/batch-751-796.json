@@ -1,0 +1,376 @@
+{
+  "batch": "batch-751-796",
+  "startIndex": 750,
+  "endIndex": 795,
+  "count": 46,
+  "sentences": [
+    {
+      "cardId": "sentence-750",
+      "index": 750,
+      "batch": "batch-751-796",
+      "de": "So, nun passen sie gut.",
+      "daCurrent": "Nii, nüüd sobib hästi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-751",
+      "index": 751,
+      "batch": "batch-751-796",
+      "de": "Kannst du mir einen guten Schneider empfehlen?",
+      "daCurrent": "Kas sa saad head rätsepat soovitada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-752",
+      "index": 752,
+      "batch": "batch-751-796",
+      "de": "Ich will einen Anzug bestellen.",
+      "daCurrent": "Tahan tellida ülikonna.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-753",
+      "index": 753,
+      "batch": "batch-751-796",
+      "de": "Wann wird er fertig sein?",
+      "daCurrent": "Millal on valmis?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-754",
+      "index": 754,
+      "batch": "batch-751-796",
+      "de": "Der Anzug sitzt gut.",
+      "daCurrent": "Ülikond sobib hästi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-755",
+      "index": 755,
+      "batch": "batch-751-796",
+      "de": "Die Hose ist zu lang.",
+      "daCurrent": "Püksid on liiga pikad.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-756",
+      "index": 756,
+      "batch": "batch-751-796",
+      "de": "Bitte reinigen und bügeln Sie ihn!",
+      "daCurrent": "Palun puhastage ja triikige see!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-757",
+      "index": 757,
+      "batch": "batch-751-796",
+      "de": "Wann wird das Kleid fertig sein?",
+      "daCurrent": "Millal kleit on valmis?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-758",
+      "index": 758,
+      "batch": "batch-751-796",
+      "de": "Die Schuhe sind zu eng.",
+      "daCurrent": "Kingad on liiga kitsad.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-759",
+      "index": 759,
+      "batch": "batch-751-796",
+      "de": "Können Sie die Schuhe heute reparieren?",
+      "daCurrent": "Kas te saate täna kingad parandada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-760",
+      "index": 760,
+      "batch": "batch-751-796",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "daCurrent": "Millal ma saan kingad ära tuua?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-761",
+      "index": 761,
+      "batch": "batch-751-796",
+      "de": "Meine Armbanduhr funktioniert nicht.",
+      "daCurrent": "Minu käekell ei tööta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-762",
+      "index": 762,
+      "batch": "batch-751-796",
+      "de": "Sie geht fünf Minuten vor.",
+      "daCurrent": "See käib viis minutit ees.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-763",
+      "index": 763,
+      "batch": "batch-751-796",
+      "de": "Bist du kurzsichtig oder weitsichtig?",
+      "daCurrent": "Kas sa oled lühinägelik või kaugelenägelik?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-764",
+      "index": 764,
+      "batch": "batch-751-796",
+      "de": "Ich möchte eine Brille kaufen.",
+      "daCurrent": "Tahan prille osta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-765",
+      "index": 765,
+      "batch": "batch-751-796",
+      "de": "Können Sie meine Brille reparieren?",
+      "daCurrent": "Kas te saate mu prillid ära parandada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-766",
+      "index": 766,
+      "batch": "batch-751-796",
+      "de": "Das dauert nur eine Viertelstunde.",
+      "daCurrent": "See kestab ainult veerand tundi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-767",
+      "index": 767,
+      "batch": "batch-751-796",
+      "de": "Der Preis ist mir zu hoch.",
+      "daCurrent": "Hind on mulle liiga kõrge.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-768",
+      "index": 768,
+      "batch": "batch-751-796",
+      "de": "Ich brauche zwei Fotos für meinen Pass.",
+      "daCurrent": "Mul on vaja kahte fotot passi jaoks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-769",
+      "index": 769,
+      "batch": "batch-751-796",
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "daCurrent": "Palun pakkige ja saatke koju.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-770",
+      "index": 770,
+      "batch": "batch-751-796",
+      "de": "Wir haben feste Preise.",
+      "daCurrent": "Meil on fikseeritud hinnad.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-771",
+      "index": 771,
+      "batch": "batch-751-796",
+      "de": "Bitte, fotografieren Sie mich.",
+      "daCurrent": "Palun tehke minust foto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-772",
+      "index": 772,
+      "batch": "batch-751-796",
+      "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
+      "daCurrent": "Istuge, vaadake otse kaamerasse ja ärge liikuge!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-773",
+      "index": 773,
+      "batch": "batch-751-796",
+      "de": "Wann kann ich das Probebild sehen?",
+      "daCurrent": "Millal ma näen näidist?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-774",
+      "index": 774,
+      "batch": "batch-751-796",
+      "de": "Wann sind die Fotos fertig?",
+      "daCurrent": "Millal fotod on valmis?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-775",
+      "index": 775,
+      "batch": "batch-751-796",
+      "de": "Die Aufnahme ist gelungen.",
+      "daCurrent": "Foto õnnestus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-776",
+      "index": 776,
+      "batch": "batch-751-796",
+      "de": "Die Fotos sind gut geworden.",
+      "daCurrent": "Fotod õnnestusid hästi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-777",
+      "index": 777,
+      "batch": "batch-751-796",
+      "de": "Können Sie das Foto auch vergrößern?",
+      "daCurrent": "Kas te saate ka fotot suurendada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-778",
+      "index": 778,
+      "batch": "batch-751-796",
+      "de": "Sind diese Steine echt?",
+      "daCurrent": "Kas need kivid on ehtsad?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-779",
+      "index": 779,
+      "batch": "batch-751-796",
+      "de": "Ist das echtes Gold?",
+      "daCurrent": "Kas see on ehtne kuld?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-780",
+      "index": 780,
+      "batch": "batch-751-796",
+      "de": "Zeigen Sie mir bitte Trauringe.",
+      "daCurrent": "Näidake palun abielusõrmuseid.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-781",
+      "index": 781,
+      "batch": "batch-751-796",
+      "de": "Der Ring ist mir etwas zu weit.",
+      "daCurrent": "Sõrmus on mulle pisut liiga suur.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-782",
+      "index": 782,
+      "batch": "batch-751-796",
+      "de": "Ich kann ihn enger machen.",
+      "daCurrent": "Ma saan seda kitsamaks teha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-783",
+      "index": 783,
+      "batch": "batch-751-796",
+      "de": "Dieser Ring passt mir.",
+      "daCurrent": "See sõrmus sobib mulle.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-784",
+      "index": 784,
+      "batch": "batch-751-796",
+      "de": "Zeigen Sie mir schöne Geschenkideen.",
+      "daCurrent": "Näidake ilusaid kingituse ideid.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-785",
+      "index": 785,
+      "batch": "batch-751-796",
+      "de": "Wie gefallen dir diese Ohrringe?",
+      "daCurrent": "Kuidas need kõrvarõngad sulle meeldivad?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-786",
+      "index": 786,
+      "batch": "batch-751-796",
+      "de": "Diese Brosche ist wirklich schön.",
+      "daCurrent": "See sõlg on väga ilus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-787",
+      "index": 787,
+      "batch": "batch-751-796",
+      "de": "Der Stein ist ein Saphir.",
+      "daCurrent": "See kivi on safiir.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-788",
+      "index": 788,
+      "batch": "batch-751-796",
+      "de": "Das ist kein echter Stein, das ist Glas.",
+      "daCurrent": "See ei ole ehtne kivi, see on klaas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-789",
+      "index": 789,
+      "batch": "batch-751-796",
+      "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
+      "daCurrent": "Seda käevõru võin eriti soovitada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-790",
+      "index": 790,
+      "batch": "batch-751-796",
+      "de": "Es ist besonders schön gearbeitet.",
+      "daCurrent": "See on eriti peenelt valmistatud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-791",
+      "index": 791,
+      "batch": "batch-751-796",
+      "de": "Der Preis ist nicht hoch.",
+      "daCurrent": "Hind ei ole kõrge.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-792",
+      "index": 792,
+      "batch": "batch-751-796",
+      "de": "Bekomme ich die Schachtel gratis?",
+      "daCurrent": "Kas ma saan karbi tasuta?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-793",
+      "index": 793,
+      "batch": "batch-751-796",
+      "de": "Alle Schmuckstücke sind gestempelt.",
+      "daCurrent": "Kõik ehted on templiga.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-794",
+      "index": 794,
+      "batch": "batch-751-796",
+      "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
+      "daCurrent": "Kui mu naisele ei meeldi, kas ma saan vahetada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-795",
+      "index": 795,
+      "batch": "batch-751-796",
+      "de": "Natürlich, jederzeit.",
+      "daCurrent": "Muidugi, igal ajal.",
+      "level": "Sätze"
+    }
+  ]
+}

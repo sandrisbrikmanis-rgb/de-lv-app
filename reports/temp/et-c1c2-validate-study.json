@@ -1,0 +1,217 @@
+{
+  "lang": "et",
+  "totals": {
+    "total": 9603,
+    "noStudy": 8820,
+    "flashcard": 8841,
+    "standardStudy": 713,
+    "minimalStudy": 49,
+    "comparisonStudy": 0,
+    "studyObjectNoRenderable": 21,
+    "sectionAccentIssues": 17,
+    "emptySectionAccents": 107
+  },
+  "perFile": [
+    {
+      "file": "data/et/a1.js",
+      "total": 702,
+      "noStudy": 568,
+      "flashcard": 568,
+      "standardStudy": 134,
+      "minimalStudy": 0,
+      "comparisonStudy": 0,
+      "studyObjectNoRenderable": 0,
+      "sectionAccentIssues": 0,
+      "emptySectionAccents": 0,
+      "examples": {
+        "studyObjectNoRenderable": [],
+        "sectionAccentIssues": []
+      }
+    },
+    {
+      "file": "data/et/a2.js",
+      "total": 1640,
+      "noStudy": 1409,
+      "flashcard": 1427,
+      "standardStudy": 207,
+      "minimalStudy": 6,
+      "comparisonStudy": 0,
+      "studyObjectNoRenderable": 18,
+      "sectionAccentIssues": 0,
+      "emptySectionAccents": 0,
+      "examples": {
+        "studyObjectNoRenderable": [
+          {
+            "de": "Aschenputtel",
+            "layout": "minimalStudy"
+          },
+          {
+            "de": "Gott",
+            "layout": "minimalStudy"
+          },
+          {
+            "de": "Keller",
+            "layout": "minimalStudy"
+          },
+          {
+            "de": "Kellner",
+            "layout": "minimalStudy"
+          },
+          {
+            "de": "Kerl",
+            "layout": "minimalStudy"
+          }
+        ],
+        "sectionAccentIssues": []
+      }
+    },
+    {
+      "file": "data/et/b1.js",
+      "total": 3367,
+      "noStudy": 3032,
+      "flashcard": 3033,
+      "standardStudy": 334,
+      "minimalStudy": 0,
+      "comparisonStudy": 0,
+      "studyObjectNoRenderable": 1,
+      "sectionAccentIssues": 17,
+      "emptySectionAccents": 100,
+      "examples": {
+        "studyObjectNoRenderable": [
+          {
+            "de": "Homosexuelle",
+            "layout": "minimalStudy"
+          }
+        ],
+        "sectionAccentIssues": [
+          {
+            "de": "Dank",
+            "term": "südamlik tänu",
+            "section": "comparison",
+            "field": "example"
+          },
+          {
+            "de": "Dank",
+            "term": "aitäh",
+            "section": "comparison",
+            "field": "example"
+          },
+          {
+            "de": "Dank",
+            "term": "sind",
+            "section": "comparison",
+            "field": "example"
+          },
+          {
+            "de": "Dank",
+            "term": "tänan",
+            "section": "comparison",
+            "field": "example"
+          },
+          {
+            "de": "Dank",
+            "term": "suur tänu",
+            "section": "comparison",
+            "field": "example"
+          }
+        ]
+      }
+    },
+    {
+      "file": "data/et/b2.js",
+      "total": 2118,
+      "noStudy": 2054,
+      "flashcard": 2056,
+      "standardStudy": 19,
+      "minimalStudy": 43,
+      "comparisonStudy": 0,
+      "studyObjectNoRenderable": 2,
+      "sectionAccentIssues": 0,
+      "emptySectionAccents": 4,
+      "examples": {
+        "studyObjectNoRenderable": [
+          {
+            "de": "sich verlaufen",
+            "layout": "minimalStudy"
+          },
+          {
+            "de": "verlaufen",
+            "layout": "minimalStudy"
+          }
+        ],
+        "sectionAccentIssues": []
+      }
+    },
+    {
+      "file": "data/et/c1.js",
+      "total": 572,
+      "noStudy": 556,
+      "flashcard": 556,
+      "standardStudy": 16,
+      "minimalStudy": 0,
+      "comparisonStudy": 0,
+      "studyObjectNoRenderable": 0,
+      "sectionAccentIssues": 0,
+      "emptySectionAccents": 1,
+      "examples": {
+        "studyObjectNoRenderable": [],
+        "sectionAccentIssues": []
+      }
+    },
+    {
+      "file": "data/et/c2.js",
+      "total": 219,
+      "noStudy": 216,
+      "flashcard": 216,
+      "standardStudy": 3,
+      "minimalStudy": 0,
+      "comparisonStudy": 0,
+      "studyObjectNoRenderable": 0,
+      "sectionAccentIssues": 0,
+      "emptySectionAccents": 2,
+      "examples": {
+        "studyObjectNoRenderable": [],
+        "sectionAccentIssues": []
+      }
+    },
+    {
+      "file": "data/et/sentences.js",
+      "total": 796,
+      "noStudy": 796,
+      "flashcard": 796,
+      "standardStudy": 0,
+      "minimalStudy": 0,
+      "comparisonStudy": 0,
+      "studyObjectNoRenderable": 0,
+      "sectionAccentIssues": 0,
+      "emptySectionAccents": 0,
+      "examples": {
+        "studyObjectNoRenderable": [],
+        "sectionAccentIssues": []
+      }
+    },
+    {
+      "file": "data/et/verbs.js",
+      "total": 189,
+      "noStudy": 189,
+      "flashcard": 189,
+      "standardStudy": 0,
+      "minimalStudy": 0,
+      "comparisonStudy": 0,
+      "studyObjectNoRenderable": 0,
+      "sectionAccentIssues": 0,
+      "emptySectionAccents": 0,
+      "examples": {
+        "studyObjectNoRenderable": [],
+        "sectionAccentIssues": []
+      }
+    },
+    {
+      "file": "data/et/courseLessons.js",
+      "skipped": true,
+      "reason": "not a flashcard array"
+    }
+  ],
+  "rootWwwMismatches": [],
+  "pass": false
+}

@@ -1,0 +1,1391 @@
+{
+  "version": 1,
+  "meta": {
+    "dataset": "et-c1c2",
+    "auditRunId": "run-12293064-2026-08-22",
+    "mainSha": "8123cf4aba7b8e19df030fefac7d89753b4c9d44",
+    "productionBlob": "50629a755bb6baed8ce4f9f011bdeb4a4de85bda+2eacf17a02b19e53820c8bf285dec06263f9add9",
+    "masterVersion": "1.9",
+    "model": "gpt-5.6-luna",
+    "updatedAt": "2026-08-22T18:40:25.400Z"
+  },
+  "entries": [
+    {
+      "semanticSignature": "STRUCT-c1|count|c1: study count mismatch lv=15 et=16",
+      "pathFamilySignature": "STRUCT-c1|count",
+      "dataset": "et-c1c2",
+      "cardId": "STRUCT-c1",
+      "fieldFamily": "count",
+      "pedagogicalMeaning": "c1: study count mismatch lv=15 et=16",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "STRUCT-c1|count|16"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "STRUCT-c2|count|c2: study count mismatch lv=1 et=3",
+      "pathFamilySignature": "STRUCT-c2|count",
+      "dataset": "et-c1c2",
+      "cardId": "STRUCT-c2",
+      "fieldFamily": "count",
+      "pedagogicalMeaning": "c2: study count mismatch lv=1 et=3",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "STRUCT-c2|count|3"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-gelegentlich|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "c1-gelegentlich|entry[].study.comparison[].example",
+      "dataset": "et-c1c2",
+      "cardId": "c1-gelegentlich",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-gelegentlich|entry[340].study.comparison[0].example|er kommt gelegentlich. = viņš reizēm atnāk.",
+        "c1-gelegentlich|entry[340].study.comparison[1].example|ein gelegentlicher besuch = gadījuma apmeklējums",
+        "c1-gelegentlich|entry[340].study.comparison[2].example|gelegentlich des festes = svētku sakarā",
+        "c1-gelegentlich|entry[340].study.comparison[3].example|manchmal regnet es. = reizēm līst."
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-wahlberechtigt|entry[].study.comparison[].example|lv/atlikušā valoda et laukā",
+      "pathFamilySignature": "c1-wahlberechtigt|entry[].study.comparison[].example",
+      "dataset": "et-c1c2",
+      "cardId": "c1-wahlberechtigt",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda et laukā",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-wahlberechtigt|entry[543].study.comparison[0].example|er ist wahlberechtigt. = viņam ir vēlēšanu tiesības.",
+        "c1-wahlberechtigt|entry[543].study.comparison[2].example|der wähler geht zur wahl. = vēlētājs iet uz vēlēšanām."
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-wettbewerb|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "c1-wettbewerb|sectionaccents (examples)",
+      "dataset": "et-c1c2",
+      "cardId": "c1-wettbewerb",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-wettbewerb|sectionaccents (examples)|v",
+        "c1-wettbewerb|sectionaccents (examples)|õ",
+        "c1-wettbewerb|sectionaccents (examples)|i",
+        "c1-wettbewerb|sectionaccents (examples)|s",
+        "c1-wettbewerb|sectionaccents (examples)|t",
+        "c1-wettbewerb|sectionaccents (examples)|l",
+        "c1-wettbewerb|sectionaccents (examples)|u",
+        "c1-wettbewerb|sectionaccents (examples)|e",
+        "c1-wettbewerb|sectionaccents (examples)|k",
+        "c1-wettbewerb|sectionaccents (examples)|o",
+        "c1-wettbewerb|sectionaccents (examples)|n",
+        "c1-wettbewerb|sectionaccents (examples)|r"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-voraussetzen|sectionaccents (explanation)|accent term not found in section text",
+      "pathFamilySignature": "c1-voraussetzen|sectionaccents (explanation)",
+      "dataset": "et-c1c2",
+      "cardId": "c1-voraussetzen",
+      "fieldFamily": "sectionaccents (explanation)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-voraussetzen|sectionaccents (explanation)|voraus"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-aufrechterhalten|sectionaccents (explanation)|accent term not found in section text",
+      "pathFamilySignature": "c1-aufrechterhalten|sectionaccents (explanation)",
+      "dataset": "et-c1c2",
+      "cardId": "c1-aufrechterhalten",
+      "fieldFamily": "sectionaccents (explanation)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-aufrechterhalten|sectionaccents (explanation)|erhält",
+        "c1-aufrechterhalten|sectionaccents (explanation)|auf"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-inwiefern|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "c2-inwiefern|sectionaccents (examples)",
+      "dataset": "et-c1c2",
+      "cardId": "c2-inwiefern",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-inwiefern|sectionaccents (examples)|m",
+        "c2-inwiefern|sectionaccents (examples)|i",
+        "c2-inwiefern|sectionaccents (examples)|l",
+        "c2-inwiefern|sectionaccents (examples)|e",
+        "c2-inwiefern|sectionaccents (examples)|s",
+        "c2-inwiefern|sectionaccents (examples)|",
+        "c2-inwiefern|sectionaccents (examples)|o",
+        "c2-inwiefern|sectionaccents (examples)|a",
+        "c2-inwiefern|sectionaccents (examples)|k",
+        "c2-inwiefern|sectionaccents (examples)|u",
+        "c2-inwiefern|sectionaccents (examples)|p",
+        "c2-inwiefern|sectionaccents (examples)|j"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-inwieweit|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "c2-inwieweit|sectionaccents (examples)",
+      "dataset": "et-c1c2",
+      "cardId": "c2-inwieweit",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-inwieweit|sectionaccents (examples)|k",
+        "c2-inwieweit|sectionaccents (examples)|u",
+        "c2-inwieweit|sectionaccents (examples)|i",
+        "c2-inwieweit|sectionaccents (examples)|",
+        "c2-inwieweit|sectionaccents (examples)|p",
+        "c2-inwieweit|sectionaccents (examples)|a",
+        "c2-inwieweit|sectionaccents (examples)|l",
+        "c2-inwieweit|sectionaccents (examples)|j",
+        "c2-inwieweit|sectionaccents (examples)|v",
+        "c2-inwieweit|sectionaccents (examples)|õ",
+        "c2-inwieweit|sectionaccents (examples)|r",
+        "c2-inwieweit|sectionaccents (examples)|d",
+        "c2-inwieweit|sectionaccents (examples)|m",
+        "c2-inwieweit|sectionaccents (examples)|e",
+        "c2-inwieweit|sectionaccents (examples)|s",
+        "c2-inwieweit|sectionaccents (examples)|o"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Kinderschänder-30|ettext|tähendus on liiga lai: kinderschänder viitab lapse seksuaalsele väärkohtlejale, mitte üldiselt lapse väärkohtlejale.",
+      "pathFamilySignature": "c1-Kinderschänder-30|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Kinderschänder-30",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "tähendus on liiga lai: kinderschänder viitab lapse seksuaalsele väärkohtlejale, mitte üldiselt lapse väärkohtlejale.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Kinderschänder-30|ettext|lapse väärkohtleja"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Kindesmisshandlung-31|ettext|saksa mõiste hõlmab laste väärkohtlemist laiemalt; praegune vaste tähistab kitsamalt füüsilist vägivalda.",
+      "pathFamilySignature": "c1-Kindesmisshandlung-31|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Kindesmisshandlung-31",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa mõiste hõlmab laste väärkohtlemist laiemalt; praegune vaste tähistab kitsamalt füüsilist vägivalda.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Kindesmisshandlung-31|ettext|lastevastane vägivald"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Bergwanderung-41|ettext|mägiturism tähendab mägiturismi, kuid bergwanderung on matk või jalgsiretk mägedes.",
+      "pathFamilySignature": "c1-Bergwanderung-41|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Bergwanderung-41",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "mägiturism tähendab mägiturismi, kuid bergwanderung on matk või jalgsiretk mägedes.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Bergwanderung-41|ettext|mägiturism"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Beschäftigung-44|ettext|tegevusala tähendab tegevusvaldkonda, mitte üldiselt tegevust, hõivatust või ametit.",
+      "pathFamilySignature": "c1-Beschäftigung-44|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Beschäftigung-44",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "tegevusala tähendab tegevusvaldkonda, mitte üldiselt tegevust, hõivatust või ametit.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Beschäftigung-44|ettext|tegevusala"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-geschäftlich-71|ettext|„äri-“ on liitekujuline fragment, mitte iseseisev eestikeelne vaste omadussõnale „geschäftlich“.",
+      "pathFamilySignature": "c1-geschäftlich-71|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-geschäftlich-71",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„äri-“ on liitekujuline fragment, mitte iseseisev eestikeelne vaste omadussõnale „geschäftlich“.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-geschäftlich-71|ettext|äri-"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Gewichtheben-78|ettext|„tõstmine“ on liiga üldine; „gewichtheben“ tähendab konkreetset spordiala ehk tõstesporti.",
+      "pathFamilySignature": "c1-Gewichtheben-78|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Gewichtheben-78",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„tõstmine“ on liiga üldine; „gewichtheben“ tähendab konkreetset spordiala ehk tõstesporti.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Gewichtheben-78|ettext|tõstmine"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Hochzeitsreise-86|ettext|„mesinädalate reis“ on arusaadav, kuid „hochzeitsreise“ loomulik ja täpne vaste on „pulmareis“.",
+      "pathFamilySignature": "c1-Hochzeitsreise-86|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Hochzeitsreise-86",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„mesinädalate reis“ on arusaadav, kuid „hochzeitsreise“ loomulik ja täpne vaste on „pulmareis“.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Hochzeitsreise-86|ettext|mesinädalate reis"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Kabelanschluss-92|ettext|„kaabellevi liitumine“ tähistab pigem liitumisprotsessi; „kabelanschluss“ on kaabeltelevisiooni ühendus.",
+      "pathFamilySignature": "c1-Kabelanschluss-92|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Kabelanschluss-92",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„kaabellevi liitumine“ tähistab pigem liitumisprotsessi; „kabelanschluss“ on kaabeltelevisiooni ühendus.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Kabelanschluss-92|ettext|kaabellevi liitumine"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Kostenanschlag-99|ettext|„kuluprognoos“ tähendab kulude prognoosi; „kostenanschlag“ on kulude kalkulatsioon või hinnang.",
+      "pathFamilySignature": "c1-Kostenanschlag-99|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Kostenanschlag-99",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„kuluprognoos“ tähendab kulude prognoosi; „kostenanschlag“ on kulude kalkulatsioon või hinnang.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Kostenanschlag-99|ettext|kuluprognoos"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Rennen mit Hindernissen-131|ettext|tõkkejooks tähendab konkreetselt tõkkejooksu; saksa väljend on üldisem takistusjooks.",
+      "pathFamilySignature": "c1-Rennen mit Hindernissen-131|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Rennen mit Hindernissen-131",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "tõkkejooks tähendab konkreetselt tõkkejooksu; saksa väljend on üldisem takistusjooks.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Rennen mit Hindernissen-131|ettext|tõkkejooks"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Schlussverkauf-138|ettext|saksa sõna tähendab üldist lõpumüüki või tühjendusmüüki, mitte tingimata hooaja lõpu allahindlust.",
+      "pathFamilySignature": "c1-Schlussverkauf-138|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Schlussverkauf-138",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa sõna tähendab üldist lõpumüüki või tühjendusmüüki, mitte tingimata hooaja lõpu allahindlust.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Schlussverkauf-138|ettext|hooajalõpu allahindlus"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Strampelhöschen-153|ettext|roomik tähendab roomavat looma või roomikuosa, mitte imikurõivast; saksa sõna tähistab beebi sipupükse.",
+      "pathFamilySignature": "c1-Strampelhöschen-153|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Strampelhöschen-153",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "roomik tähendab roomavat looma või roomikuosa, mitte imikurõivast; saksa sõna tähistab beebi sipupükse.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Strampelhöschen-153|ettext|imiku roomik"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Terminkalender-157|ettext|terminkalender tähendab eeskätt kohtumiste või kokkulepitud aegade kalendrit; tähtajakalender viitab tähtaegadele.",
+      "pathFamilySignature": "c1-Terminkalender-157|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Terminkalender-157",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "terminkalender tähendab eeskätt kohtumiste või kokkulepitud aegade kalendrit; tähtajakalender viitab tähtaegadele.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Terminkalender-157|ettext|tähtajakalender"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-verantworten-168|ettext|vastutust võtma tähendab vastutuse enda peale võtma; verantworten tähendab millegi eest vastutama.",
+      "pathFamilySignature": "c1-verantworten-168|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-verantworten-168",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "vastutust võtma tähendab vastutuse enda peale võtma; verantworten tähendab millegi eest vastutama.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-verantworten-168|ettext|vastutust võtma"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Verlegenheit-173|ettext|verlegenheit tähendab piinlikkust või ebamugavat olukorda; hämmeldus tähendab segadust või nõutust.",
+      "pathFamilySignature": "c1-Verlegenheit-173|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Verlegenheit-173",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "verlegenheit tähendab piinlikkust või ebamugavat olukorda; hämmeldus tähendab segadust või nõutust.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Verlegenheit-173|ettext|hämmeldus"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Basisforschung-206|ettext|basisforschung tähendab alusuuringut ehk fundamentaalset teadustööd; põhiuuring tähendab pigem peamist või keskset uuringut.",
+      "pathFamilySignature": "c1-Basisforschung-206|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Basisforschung-206",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "basisforschung tähendab alusuuringut ehk fundamentaalset teadustööd; põhiuuring tähendab pigem peamist või keskset uuringut.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Basisforschung-206|ettext|põhiuuring"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Befangenheit-211|ettext|befangenheit tähendab erapoolikust või kallutatust, mitte kimbatust ega segadust.",
+      "pathFamilySignature": "c1-Befangenheit-211|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Befangenheit-211",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "befangenheit tähendab erapoolikust või kallutatust, mitte kimbatust ega segadust.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Befangenheit-211|ettext|kimbatus • segadus"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-benachteiligen-220|ettext|sõna tähendab kellegi ebasoodsasse olukorda seadmist, mitte üldiselt kahjustamist või kahju tekitamist.",
+      "pathFamilySignature": "c1-benachteiligen-220|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-benachteiligen-220",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "sõna tähendab kellegi ebasoodsasse olukorda seadmist, mitte üldiselt kahjustamist või kahju tekitamist.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-benachteiligen-220|ettext|kahjustama • kahju tekitama"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-bereitwillig-224|ettext|bereitwillig tähendab valmisolekut ja vastutulelikkust; teenistusvalmis tähendab valmisolekut teenistuseks.",
+      "pathFamilySignature": "c1-bereitwillig-224|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-bereitwillig-224",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "bereitwillig tähendab valmisolekut ja vastutulelikkust; teenistusvalmis tähendab valmisolekut teenistuseks.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-bereitwillig-224|ettext|abivalmis • teenistusvalmis"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Betriebskosten-236|ettext|betriebskosten on tegevus- või käituskulud; tootmiskulud tähistavad kitsamalt tootmise kulusid.",
+      "pathFamilySignature": "c1-Betriebskosten-236|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Betriebskosten-236",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "betriebskosten on tegevus- või käituskulud; tootmiskulud tähistavad kitsamalt tootmise kulusid.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Betriebskosten-236|ettext|ettevõtte ekspluatatsioonikulud • tootmiskulud"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Beweismaterial-241|ettext|beweismaterial tähendab tõendusmaterjali üldiselt; materiaalsed tõendid tähendab kitsamalt füüsilisi tõendeid.",
+      "pathFamilySignature": "c1-Beweismaterial-241|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Beweismaterial-241",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "beweismaterial tähendab tõendusmaterjali üldiselt; materiaalsed tõendid tähendab kitsamalt füüsilisi tõendeid.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Beweismaterial-241|ettext|materiaalsed tõendid"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-bewerben, sich-242|ettext|sich bewerben tähendab kandideerima või avaldust esitama; püüdlema tähendab üldiselt millegi poole püüdlemist.",
+      "pathFamilySignature": "c1-bewerben, sich-242|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-bewerben, sich-242",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "sich bewerben tähendab kandideerima või avaldust esitama; püüdlema tähendab üldiselt millegi poole püüdlemist.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-bewerben, sich-242|ettext|kandideerima • püüdlema"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Computersprache-251|ettext|computersprache on arvutikeel üldiselt; programmeerimiskeel on selle kitsam tähendus ja vastab pigem sõnale programmiersprache.",
+      "pathFamilySignature": "c1-Computersprache-251|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Computersprache-251",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "computersprache on arvutikeel üldiselt; programmeerimiskeel on selle kitsam tähendus ja vastab pigem sõnale programmiersprache.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Computersprache-251|ettext|programmeerimiskeel"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Dachgepäckträger-252|ettext|eesti keeles kirjutatakse see liitsõnana kokku: katusepagasiraam.",
+      "pathFamilySignature": "c1-Dachgepäckträger-252|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Dachgepäckträger-252",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "eesti keeles kirjutatakse see liitsõnana kokku: katusepagasiraam.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Dachgepäckträger-252|ettext|katuse pagasiraam"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Dienstleistung-266|ettext|olmeteenus tähendab kodumajapidamisteenust, kuid saksa sõna on üldine „teenus“ või „teenuse osutamine“.",
+      "pathFamilySignature": "c1-Dienstleistung-266|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Dienstleistung-266",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "olmeteenus tähendab kodumajapidamisteenust, kuid saksa sõna on üldine „teenus“ või „teenuse osutamine“.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Dienstleistung-266|ettext|olmeteenus"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-dienstpflichtig-267|ettext|praegune vaste on isikunimisõna, saksa sõna on omadussõna tähenduses „sõjaväeteenistuskohustuslik“.",
+      "pathFamilySignature": "c1-dienstpflichtig-267|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-dienstpflichtig-267",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "praegune vaste on isikunimisõna, saksa sõna on omadussõna tähenduses „sõjaväeteenistuskohustuslik“.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-dienstpflichtig-267|ettext|sõjaväeteenistuskohuslane"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-sich einschmeicheln-284|ettext|praegune tõlge on arusaadav, kuid „end sisse pugema“ on eesti keeles loomulikum vaste tähendusele end kellegi poolehoidu pugeda.",
+      "pathFamilySignature": "c1-sich einschmeicheln-284|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-sich einschmeicheln-284",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "praegune tõlge on arusaadav, kuid „end sisse pugema“ on eesti keeles loomulikum vaste tähendusele end kellegi poolehoidu pugeda.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-sich einschmeicheln-284|ettext|meelitama end sisse"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Entziehungskur-303|ettext|„ravikuur“ moodustab eesti keeles liitsõna; praegune lahkukirjutus on ebaloomulik ja ortograafiliselt vigane.",
+      "pathFamilySignature": "c1-Entziehungskur-303|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Entziehungskur-303",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„ravikuur“ moodustab eesti keeles liitsõna; praegune lahkukirjutus on ebaloomulik ja ortograafiliselt vigane.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Entziehungskur-303|ettext|võõrutusravi kuur"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Feuerwerkskörper-312|ettext|praegune vaste tähendab konkreetsemalt ilutulestikuraketti, kuid saksa sõna on üldmõiste igasuguse ilutulestikuvahendi kohta.",
+      "pathFamilySignature": "c1-Feuerwerkskörper-312|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Feuerwerkskörper-312",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "praegune vaste tähendab konkreetsemalt ilutulestikuraketti, kuid saksa sõna on üldmõiste igasuguse ilutulestikuvahendi kohta.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Feuerwerkskörper-312|ettext|ilutulestikurakett"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Fortbildungskurse-315|ettext|„täienduskoolituskursused” on tarbetult korduv ja ebaloomulik; saksa mõiste loomulik vaste on „täienduskursused”.",
+      "pathFamilySignature": "c1-Fortbildungskurse-315|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Fortbildungskurse-315",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„täienduskoolituskursused” on tarbetult korduv ja ebaloomulik; saksa mõiste loomulik vaste on „täienduskursused”.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Fortbildungskurse-315|ettext|täienduskoolituskursused"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-fortgeschritten-316|ettext|praegune fraas on kitsas ja kohmakas kontekstivaste; sõnavarakaardil on loomulikum üldvaste „edasijõudnud”.",
+      "pathFamilySignature": "c1-fortgeschritten-316|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-fortgeschritten-316",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "praegune fraas on kitsas ja kohmakas kontekstivaste; sõnavarakaardil on loomulikum üldvaste „edasijõudnud”.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-fortgeschritten-316|ettext|üsna hilises arengujärgus"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Gebrauchtwaren-325|ettext|„waren” tähendab kaupu, mitte üldiselt asju; „kasutatud kaubad” vastab saksa sõna tähendusele täpsemalt.",
+      "pathFamilySignature": "c1-Gebrauchtwaren-325|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Gebrauchtwaren-325",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„waren” tähendab kaupu, mitte üldiselt asju; „kasutatud kaubad” vastab saksa sõna tähendusele täpsemalt.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Gebrauchtwaren-325|ettext|kasutatud asjad"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Geburtenrate-326|ettext|„sündimuse tase” on arusaadav, kuid eesti keeles on selle demograafilise näitaja tavapärane vaste „sündimus”.",
+      "pathFamilySignature": "c1-Geburtenrate-326|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Geburtenrate-326",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„sündimuse tase” on arusaadav, kuid eesti keeles on selle demograafilise näitaja tavapärane vaste „sündimus”.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Geburtenrate-326|ettext|sündimuse tase"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-geistesschwach-337|ettext|„vaimupuudega” tähendab vaimupuudega inimest, mitte omadust „vaimselt nõrk”; praegune vaste muudab tähendust.",
+      "pathFamilySignature": "c1-geistesschwach-337|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-geistesschwach-337",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„vaimupuudega” tähendab vaimupuudega inimest, mitte omadust „vaimselt nõrk”; praegune vaste muudab tähendust.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-geistesschwach-337|ettext|vaimupuudega"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Gemeineigentum-343|ettext|„gemeineigentum” tähendab ühisomandit; „ühiskondlik omand” viitab pigem avalikule või ühiskondlikule omandile.",
+      "pathFamilySignature": "c1-Gemeineigentum-343|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Gemeineigentum-343",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„gemeineigentum” tähendab ühisomandit; „ühiskondlik omand” viitab pigem avalikule või ühiskondlikule omandile.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Gemeineigentum-343|ettext|ühiskondlik omand"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Geschäftshaus-358|ettext|kaubamaja tähendab department store’i; geschäftshaus tähendab äri- või ärikasutusega hoonet.",
+      "pathFamilySignature": "c1-Geschäftshaus-358|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Geschäftshaus-358",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "kaubamaja tähendab department store’i; geschäftshaus tähendab äri- või ärikasutusega hoonet.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Geschäftshaus-358|ettext|kaubamaja"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-gesetzlos-363|ettext|seadusevastane tähendab pigem gesetzwidrig; gesetzlos tähendab seadusetut või seadust eiravat.",
+      "pathFamilySignature": "c1-gesetzlos-363|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-gesetzlos-363",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "seadusevastane tähendab pigem gesetzwidrig; gesetzlos tähendab seadusetut või seadust eiravat.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-gesetzlos-363|ettext|seadusevastane"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Gewissensbisse-368|ettext|südametunnistuse piinad on arusaadav, kuid loomulik ja tavapärane vaste on süümepiinad.",
+      "pathFamilySignature": "c1-Gewissensbisse-368|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Gewissensbisse-368",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "südametunnistuse piinad on arusaadav, kuid loomulik ja tavapärane vaste on süümepiinad.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Gewissensbisse-368|ettext|südametunnistuse piinad"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-gewissermaßen-369|ettext|omal moel tähendab 'in one's own way', mitte 'gewissermaßen'; sobiv vaste on teatud mõttes.",
+      "pathFamilySignature": "c1-gewissermaßen-369|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-gewissermaßen-369",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "omal moel tähendab 'in one's own way', mitte 'gewissermaßen'; sobiv vaste on teatud mõttes.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-gewissermaßen-369|ettext|teataval määral • omal moel • nii-öelda"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Hausdurchsuchung-384|ettext|praegune kokku kirjutatud vorm on ortograafiliselt vigane; politsei ja läbiotsimine kirjutatakse eraldi.",
+      "pathFamilySignature": "c1-Hausdurchsuchung-384|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Hausdurchsuchung-384",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "praegune kokku kirjutatud vorm on ortograafiliselt vigane; politsei ja läbiotsimine kirjutatakse eraldi.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Hausdurchsuchung-384|ettext|politseiläbiotsimine"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-sich hinreißen lassen-392|ettext|eestikeelne väljend on loomulikus sõnajärjes 'laskma end kaasa haarata'.",
+      "pathFamilySignature": "c1-sich hinreißen lassen-392|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-sich hinreißen lassen-392",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "eestikeelne väljend on loomulikus sõnajärjes 'laskma end kaasa haarata'.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-sich hinreißen lassen-392|ettext|end kaasa haarata laskma"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Industrieabwässer-394|ettext|reovesi on eesti keeles tavaliselt loendamatu ainsus; mitmus 'reoveed' on siin ebaloomulik.",
+      "pathFamilySignature": "c1-Industrieabwässer-394|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Industrieabwässer-394",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "reovesi on eesti keeles tavaliselt loendamatu ainsus; mitmus 'reoveed' on siin ebaloomulik.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Industrieabwässer-394|ettext|tööstuslikud reoveed"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Justiz-401|ettext|justiits on kõnekeelne ja tähenduselt ebatäpne; siin sobib justiitssüsteem või õigusemõistmine.",
+      "pathFamilySignature": "c1-Justiz-401|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Justiz-401",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "justiits on kõnekeelne ja tähenduselt ebatäpne; siin sobib justiitssüsteem või õigusemõistmine.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Justiz-401|ettext|õigusemõistmine • justiits"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Kaution-404|ettext|garantii tähendab guarantee ega ole kautioni vaste; kaution on tagatis või kautsjon.",
+      "pathFamilySignature": "c1-Kaution-404|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Kaution-404",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "garantii tähendab guarantee ega ole kautioni vaste; kaution on tagatis või kautsjon.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Kaution-404|ettext|tagatis • kautsjon • garantii"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-militärpflichtig-429|ettext|praegune sõna on nimisõna isiku kohta, kuid saksa lähteüksus on omadussõna „sõjaväekohustuslik“ ehk teenistuskohustusega.",
+      "pathFamilySignature": "c1-militärpflichtig-429|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-militärpflichtig-429",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "praegune sõna on nimisõna isiku kohta, kuid saksa lähteüksus on omadussõna „sõjaväekohustuslik“ ehk teenistuskohustusega.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-militärpflichtig-429|ettext|ajateenistuskohuslane"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Parteifunktionär-440|ettext|„parteitöötaja“ tähendab üldiselt partei töötajat ega väljenda funktsionääri ehk parteiametniku tähendust.",
+      "pathFamilySignature": "c1-Parteifunktionär-440|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Parteifunktionär-440",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„parteitöötaja“ tähendab üldiselt partei töötajat ega väljenda funktsionääri ehk parteiametniku tähendust.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Parteifunktionär-440|ettext|parteitöötaja"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Produktionskosten-446|ettext|„omahind“ tähendab omahinda või kulupõhist hinda, kuid produktionskosten tähendab üldiselt tootmiskulusid.",
+      "pathFamilySignature": "c1-Produktionskosten-446|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Produktionskosten-446",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„omahind“ tähendab omahinda või kulupõhist hinda, kuid produktionskosten tähendab üldiselt tootmiskulusid.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Produktionskosten-446|ettext|tootmise omahind"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-rechtswidrig-452|ettext|saksa lähteüksus on omadussõna, kuid „ebaseaduslikult“ on määrsõna; omadussõna on „ebaseaduslik“.",
+      "pathFamilySignature": "c1-rechtswidrig-452|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-rechtswidrig-452",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa lähteüksus on omadussõna, kuid „ebaseaduslikult“ on määrsõna; omadussõna on „ebaseaduslik“.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-rechtswidrig-452|ettext|ebaseaduslikult"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-sanktionieren-461|ettext|toetama tähendab „unterstützen“ ja ei vasta saksa verbile „sanktionieren“.",
+      "pathFamilySignature": "c1-sanktionieren-461|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-sanktionieren-461",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "toetama tähendab „unterstützen“ ja ei vasta saksa verbile „sanktionieren“.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-sanktionieren-461|ettext|toetama • sanktsioneerima"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Sinnestäuschung-474|ettext|sinnestäuschung on üldmõiste meelepette või illusiooni kohta, mitte ainult hallutsinatsioon.",
+      "pathFamilySignature": "c1-Sinnestäuschung-474|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Sinnestäuschung-474",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "sinnestäuschung on üldmõiste meelepette või illusiooni kohta, mitte ainult hallutsinatsioon.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Sinnestäuschung-474|ettext|hallutsinatsioon"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-synchronisieren-486|ettext|„filmi dubleerima“ tähendab filmi dubleerimist, mitte sünkroniseerimist.",
+      "pathFamilySignature": "c1-synchronisieren-486|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-synchronisieren-486",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„filmi dubleerima“ tähendab filmi dubleerimist, mitte sünkroniseerimist.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-synchronisieren-486|ettext|filmi dubleerima"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Transfusion-488|ettext|saksa „transfusion“ on üldiselt vereülekanne; „otsene inimeselt inimesele“ lisab põhjendamatu kitsenduse.",
+      "pathFamilySignature": "c1-Transfusion-488|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Transfusion-488",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa „transfusion“ on üldiselt vereülekanne; „otsene inimeselt inimesele“ lisab põhjendamatu kitsenduse.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Transfusion-488|ettext|otsene vereülekanne inimeselt inimesele"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-urteilen-499|ettext|„arutlema“ tähendab arutamist; see ei vasta „urteilen“ tähendusele „hinnangut andma“ või „otsust langetama“.",
+      "pathFamilySignature": "c1-urteilen-499|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-urteilen-499",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„arutlema“ tähendab arutamist; see ei vasta „urteilen“ tähendusele „hinnangut andma“ või „otsust langetama“.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-urteilen-499|ettext|otsustama • arutlema"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-sich vervollkommnen-534|ettext|saksa refleksiivne verb tähendab enda täiustamist; praegune tõlge kitsendab tähenduse ainult teadmiste täiendamisele.",
+      "pathFamilySignature": "c1-sich vervollkommnen-534|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-sich vervollkommnen-534",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa refleksiivne verb tähendab enda täiustamist; praegune tõlge kitsendab tähenduse ainult teadmiste täiendamisele.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-sich vervollkommnen-534|ettext|oma teadmisi täiendama"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-Volksbefragung-537|ettext|volksbefragung on rahva küsitlus või konsultatsioon, mitte täpselt referendum; referendum tähistab siduvamat hääletust.",
+      "pathFamilySignature": "c1-Volksbefragung-537|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c1-Volksbefragung-537",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "volksbefragung on rahva küsitlus või konsultatsioon, mitte täpselt referendum; referendum tähistab siduvamat hääletust.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-Volksbefragung-537|ettext|üleriigiline küsitlus • referendum"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-konterkarieren-1|ettext|„nurjama” tähendab midagi ära rikkuma või vussi ajama, mitte vastutoimimist või vastutöötamist.",
+      "pathFamilySignature": "c2-konterkarieren-1|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-konterkarieren-1",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„nurjama” tähendab midagi ära rikkuma või vussi ajama, mitte vastutoimimist või vastutöötamist.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-konterkarieren-1|ettext|nurjama"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Teilnehmerausweis-12|ettext|„ausweis” on kaart või tõend isikuõiguse kohta, „tunnistus” tähendab eeskätt sertifikaati või diplomit.",
+      "pathFamilySignature": "c2-Teilnehmerausweis-12|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Teilnehmerausweis-12",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„ausweis” on kaart või tõend isikuõiguse kohta, „tunnistus” tähendab eeskätt sertifikaati või diplomit.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Teilnehmerausweis-12|ettext|osaleja tunnistus"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Behandlungsraum-16|ettext|„behandlungsraum” tähendab üldiselt raviruumi; „arsti kabinet” kitsendab tähenduse arsti kabinetiks.",
+      "pathFamilySignature": "c2-Behandlungsraum-16|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Behandlungsraum-16",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„behandlungsraum” tähendab üldiselt raviruumi; „arsti kabinet” kitsendab tähenduse arsti kabinetiks.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Behandlungsraum-16|ettext|arsti kabinet"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Krankheitsüberträger-49|ettext|„levitaja” tähendab haiguse levitajat, kuid überträger on täpsemalt haiguse edasikandja või kandja.",
+      "pathFamilySignature": "c2-Krankheitsüberträger-49|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Krankheitsüberträger-49",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„levitaja” tähendab haiguse levitajat, kuid überträger on täpsemalt haiguse edasikandja või kandja.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Krankheitsüberträger-49|ettext|haiguse levitaja"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Straßenunterführung-67|ettext|saksa sõna tähendab teealust läbipääsu, mitte jalakäijate tunnelit; praegune tõlge kitsendab ja muudab tähendust.",
+      "pathFamilySignature": "c2-Straßenunterführung-67|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Straßenunterführung-67",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "saksa sõna tähendab teealust läbipääsu, mitte jalakäijate tunnelit; praegune tõlge kitsendab ja muudab tähendust.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Straßenunterführung-67|ettext|jalakäijate tunnel"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-durchkreuzen-103|ettext|ristuma tähendab ‘ristuma’ või ‘lõikuma’, mitte tegevust ‘ületama’ või ‘risti minema’.",
+      "pathFamilySignature": "c2-durchkreuzen-103|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-durchkreuzen-103",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "ristuma tähendab ‘ristuma’ või ‘lõikuma’, mitte tegevust ‘ületama’ või ‘risti minema’.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-durchkreuzen-103|ettext|läbi kriipsutama • risti tõmbama • ristuma • nurjama"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Durchschnittsleistung-106|ettext|leistung tähendab siin sooritust või jõudlust, mitte otseselt tulemust.",
+      "pathFamilySignature": "c2-Durchschnittsleistung-106|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Durchschnittsleistung-106",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "leistung tähendab siin sooritust või jõudlust, mitte otseselt tulemust.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Durchschnittsleistung-106|ettext|keskpärane tulemus • keskmine tulemus"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Errungenschaft-117|ettext|võit tähendab eeskätt ‘sieg’ ehk võitu, mitte saavutust või saavutist.",
+      "pathFamilySignature": "c2-Errungenschaft-117|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Errungenschaft-117",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "võit tähendab eeskätt ‘sieg’ ehk võitu, mitte saavutust või saavutist.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Errungenschaft-117|ettext|saavutus • saavutis • võit"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Gedächtnisschwäche-126|ettext|halb mälu tähendab ‘halb mälu’; gedächtnisschwäche täpsem vaste on mälunõrkus.",
+      "pathFamilySignature": "c2-Gedächtnisschwäche-126|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Gedächtnisschwäche-126",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "halb mälu tähendab ‘halb mälu’; gedächtnisschwäche täpsem vaste on mälunõrkus.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Gedächtnisschwäche-126|ettext|halb mälu"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Geistesgegenwart-131|ettext|geistesgegenwart tähendab vaimu kohalolu asemel taibukust või kiiret reageerimisvõimet.",
+      "pathFamilySignature": "c2-Geistesgegenwart-131|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Geistesgegenwart-131",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "geistesgegenwart tähendab vaimu kohalolu asemel taibukust või kiiret reageerimisvõimet.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Geistesgegenwart-131|ettext|vaimne kohalolek"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Dorfgemeinschaft-136|ettext|külaelanikkond tähendab küla elanikkonda, dorfgemeinschaft aga küla kogukonda.",
+      "pathFamilySignature": "c2-Dorfgemeinschaft-136|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Dorfgemeinschaft-136",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "külaelanikkond tähendab küla elanikkonda, dorfgemeinschaft aga küla kogukonda.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Dorfgemeinschaft-136|ettext|külaelanikkond"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Gewinnauszahlung-156|ettext|estonian narrows the meaning to a lottery payout, while gewinn can mean profit or winnings generally.",
+      "pathFamilySignature": "c2-Gewinnauszahlung-156|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Gewinnauszahlung-156",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "estonian narrows the meaning to a lottery payout, while gewinn can mean profit or winnings generally.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Gewinnauszahlung-156|ettext|loteriivõidu väljamaksmine"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Hausgemeinschaft-161|ettext|hausgemeinschaft refers to people living in the same house; pereliikmed means family members and adds an incorrect meaning.",
+      "pathFamilySignature": "c2-Hausgemeinschaft-161|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Hausgemeinschaft-161",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "hausgemeinschaft refers to people living in the same house; pereliikmed means family members and adds an incorrect meaning.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Hausgemeinschaft-161|ettext|pereliikmed • majaelanikud"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Lebenserhaltungstrieb-170|ettext|elutahe means will to live, whereas trieb denotes an instinct or drive for self-preservation.",
+      "pathFamilySignature": "c2-Lebenserhaltungstrieb-170|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Lebenserhaltungstrieb-170",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "elutahe means will to live, whereas trieb denotes an instinct or drive for self-preservation.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Lebenserhaltungstrieb-170|ettext|elutahe"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Meisterschaftsspiel-177|ettext|the german denotes a single championship match, while meistrivõistlused denotes the championship competition as a whole.",
+      "pathFamilySignature": "c2-Meisterschaftsspiel-177|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "the german denotes a single championship match, while meistrivõistlused denotes the championship competition as a whole.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Meisterschaftsspiel-177|ettext|meistrivõistlused"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-Preisausschreiben-187|ettext|võistlus is too general and omits the defining element that prizes are awarded.",
+      "pathFamilySignature": "c2-Preisausschreiben-187|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-Preisausschreiben-187",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "võistlus is too general and omits the defining element that prizes are awarded.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-Preisausschreiben-187|ettext|võistlus"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c2-zugrunde, zu Grunde-206|ettext|„põhiliselt” tähendab „peamiselt”, mitte „aluseks” või „millegi aluseks olevana”.",
+      "pathFamilySignature": "c2-zugrunde, zu Grunde-206|ettext",
+      "dataset": "et-c1c2",
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "fieldFamily": "ettext",
+      "pedagogicalMeaning": "„põhiliselt” tähendab „peamiselt”, mitte „aluseks” või „millegi aluseks olevana”.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c2-zugrunde, zu Grunde-206|ettext|põhiliselt"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-gelegentlich|translation|„seoses” tähendab „in verbindung mit” ega ole tänapäeva eesti keeles „gelegentlich” üldtähenduses sobiv vaste.",
+      "pathFamilySignature": "c1-gelegentlich|translation",
+      "dataset": "et-c1c2",
+      "cardId": "c1-gelegentlich",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "„seoses” tähendab „in verbindung mit” ega ole tänapäeva eesti keeles „gelegentlich” üldtähenduses sobiv vaste.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-gelegentlich|translation|aeg-ajalt • juhuslik • seoses"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-gelegentlich|comparison[].meaning|„seoses” ei vasta sõna „gelegentlich” põhitähendusele „aeg-ajalt; mõnikord”.",
+      "pathFamilySignature": "c1-gelegentlich|comparison[].meaning",
+      "dataset": "et-c1c2",
+      "cardId": "c1-gelegentlich",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "„seoses” ei vasta sõna „gelegentlich” põhitähendusele „aeg-ajalt; mõnikord”.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-gelegentlich|comparison[2].meaning|seoses"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-beziehen-sich-beziehen-auf|translation|„beziehen” võib tähendada pensioni saamist; „sich beziehen auf” tähendab millelegi viitamist. praegune vaste ajab tähendused segi.",
+      "pathFamilySignature": "c1-beziehen-sich-beziehen-auf|translation",
+      "dataset": "et-c1c2",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "„beziehen” võib tähendada pensioni saamist; „sich beziehen auf” tähendab millelegi viitamist. praegune vaste ajab tähendused segi.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-beziehen-sich-beziehen-auf|translation|seostama • käima millegi kohta"
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-voraussetzen|examples[].lv|lause alguses peab olema suur algustäht.",
+      "pathFamilySignature": "c1-voraussetzen|examples[].lv",
+      "dataset": "et-c1c2",
+      "cardId": "c1-voraussetzen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses peab olema suur algustäht.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-voraussetzen|examples[1].lv|me eeldame põhiteadmisi."
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-bewahren|examples[].lv|lause alguses peab olema suur algustäht.",
+      "pathFamilySignature": "c1-bewahren|examples[].lv",
+      "dataset": "et-c1c2",
+      "cardId": "c1-bewahren",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lause alguses peab olema suur algustäht.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-bewahren|examples[2].lv|me säilitame traditsioone."
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-aufrechterhalten|examples[].lv|eesti keeles hoitakse korda alal; „kehtivana hoidma” ei sobi siin loomuliku kollokatsioonina.",
+      "pathFamilySignature": "c1-aufrechterhalten|examples[].lv",
+      "dataset": "et-c1c2",
+      "cardId": "c1-aufrechterhalten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "eesti keeles hoitakse korda alal; „kehtivana hoidma” ei sobi siin loomuliku kollokatsioonina.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-aufrechterhalten|examples[0].lv|riik hoiab korda kehtivana."
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-aufrechterhalten|examples[].lv|tegevust ei hoita tavaliselt „kehtivana”; selle puhul on loomulikum „alal hoidma”.",
+      "pathFamilySignature": "c1-aufrechterhalten|examples[].lv",
+      "dataset": "et-c1c2",
+      "cardId": "c1-aufrechterhalten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "tegevust ei hoita tavaliselt „kehtivana”; selle puhul on loomulikum „alal hoidma”.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-aufrechterhalten|examples[1].lv|tegevus tuleb hoida kehtivana."
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    },
+    {
+      "semanticSignature": "c1-aufrechterhalten|examples[].lv|lisaks algustähele on „korda kehtivana hoidma” ebaloomulik; õige kollokatsioon on „korda alal hoidma”.",
+      "pathFamilySignature": "c1-aufrechterhalten|examples[].lv",
+      "dataset": "et-c1c2",
+      "cardId": "c1-aufrechterhalten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "lisaks algustähele on „korda kehtivana hoidma” ebaloomulik; õige kollokatsioon on „korda alal hoidma”.",
+      "auditRunIds": [
+        "run-12293064-2026-08-22"
+      ],
+      "problemSignatures": [
+        "c1-aufrechterhalten|examples[2].lv|riik hoiab korda kehtivana."
+      ],
+      "lastSeenAt": "2026-08-22T18:40:25.400Z"
+    }
+  ]
+}

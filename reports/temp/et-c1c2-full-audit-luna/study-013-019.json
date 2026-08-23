@@ -1,0 +1,84 @@
+{
+  "dataset": "et-c1c2",
+  "batch": "study-013-019",
+  "auditType": "vocab_study",
+  "cardCount": 7,
+  "cardIds": [
+    "c1-unterstellen",
+    "c1-voraussetzen",
+    "c1-bewahren",
+    "c1-aufrechterhalten",
+    "c2-gewichtseinheit",
+    "c2-inwiefern",
+    "c2-inwieweit"
+  ],
+  "findings": [
+    {
+      "cardId": "c1-voraussetzen",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "voraussetzen",
+      "lvSource": "mēs pieņemam pamatzināšanas kā priekšnoteikumu.",
+      "currentEt": "me eeldame põhiteadmisi.",
+      "proposedEt": "Me eeldame põhiteadmisi.",
+      "reason": "Lause alguses peab olema suur algustäht.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-bewahren",
+      "field": "study.examples[2].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "bewahren",
+      "lvSource": "mēs saglabājam tradīcijas.",
+      "currentEt": "me säilitame traditsioone.",
+      "proposedEt": "Me säilitame traditsioone.",
+      "reason": "Lause alguses peab olema suur algustäht.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "aufrechterhalten",
+      "lvSource": "Valsts uztur kārtību spēkā.",
+      "currentEt": "Riik hoiab korda kehtivana.",
+      "proposedEt": "Riik hoiab korda alal.",
+      "reason": "Eesti keeles hoitakse korda alal; „kehtivana hoidma” ei sobi siin loomuliku kollokatsioonina.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "aufrechterhalten",
+      "lvSource": "jāuztur darbība spēkā.",
+      "currentEt": "tegevus tuleb hoida kehtivana.",
+      "proposedEt": "Tegevust tuleb alal hoida.",
+      "reason": "Tegevust ei hoita tavaliselt „kehtivana”; selle puhul on loomulikum „alal hoidma”.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "aufrechterhalten",
+      "lvSource": "valsts uztur kārtību spēkā.",
+      "currentEt": "riik hoiab korda kehtivana.",
+      "proposedEt": "Riik hoiab korda alal.",
+      "reason": "Lisaks algustähele on „korda kehtivana hoidma” ebaloomulik; õige kollokatsioon on „korda alal hoidma”.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 4,
+  "completedAt": "2026-08-22T18:40:25.354Z"
+}

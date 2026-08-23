@@ -1,0 +1,408 @@
+{
+  "batch": "batch-101-150",
+  "startIndex": 100,
+  "endIndex": 149,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-100",
+      "index": 100,
+      "batch": "batch-101-150",
+      "de": "Aus diesem Anlass.",
+      "daCurrent": "Sel puhul. • Sellega seoses.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-101",
+      "index": 101,
+      "batch": "batch-101-150",
+      "de": "Nehmen wir an, dass...",
+      "daCurrent": "Oletame, et...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-102",
+      "index": 102,
+      "batch": "batch-101-150",
+      "de": "Was hast du da angerichtet?",
+      "daCurrent": "Mida sa seal oled korda saatnud?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-103",
+      "index": 103,
+      "batch": "batch-101-150",
+      "de": "Bis ans Ende.",
+      "daCurrent": "Lõpuni.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-104",
+      "index": 104,
+      "batch": "batch-101-150",
+      "de": "Du glaubst mir anscheinend nicht.",
+      "daCurrent": "Näib, et sa ei usu mind.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-105",
+      "index": 105,
+      "batch": "batch-101-150",
+      "de": "Meiner Ansicht nach...",
+      "daCurrent": "Minu arvates...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-106",
+      "index": 106,
+      "batch": "batch-101-150",
+      "de": "Stell dich nicht so an!",
+      "daCurrent": "Ära teeskle!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-107",
+      "index": 107,
+      "batch": "batch-101-150",
+      "de": "An die Arbeit gehen.",
+      "daCurrent": "Asuda tööle.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-108",
+      "index": 108,
+      "batch": "batch-101-150",
+      "de": "Außer Atem sein.",
+      "daCurrent": "Olla hingetu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-109",
+      "index": 109,
+      "batch": "batch-101-150",
+      "de": "Guten Appetit!",
+      "daCurrent": "Head isu!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-110",
+      "index": 110,
+      "batch": "batch-101-150",
+      "de": "In einem Atemzug.",
+      "daCurrent": "Ühe hingetõmbega.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-111",
+      "index": 111,
+      "batch": "batch-101-150",
+      "de": "Auf jeden Fall.",
+      "daCurrent": "Igal juhul.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-112",
+      "index": 112,
+      "batch": "batch-101-150",
+      "de": "Auf einmal war alles still.",
+      "daCurrent": "Järsku jäi kõik vaikseks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-113",
+      "index": 113,
+      "batch": "batch-101-150",
+      "de": "Bitte mach die Tür auf!",
+      "daCurrent": "Ava palun uks!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-114",
+      "index": 114,
+      "batch": "batch-101-150",
+      "de": "Er hat den Kredit aufgenommen.",
+      "daCurrent": "Ta võttis laenu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-115",
+      "index": 115,
+      "batch": "batch-101-150",
+      "de": "Wir müssen heute aufräumen.",
+      "daCurrent": "Meil tuleb täna ruum korda teha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-116",
+      "index": 116,
+      "batch": "batch-101-150",
+      "de": "Ich höre jetzt auf.",
+      "daCurrent": "Ma lõpetan nüüd.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-117",
+      "index": 117,
+      "batch": "batch-101-150",
+      "de": "Er ist schon auf.",
+      "daCurrent": "Ta on juba üleval.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-118",
+      "index": 118,
+      "batch": "batch-101-150",
+      "de": "Wir müssen das Treffen verschieben.",
+      "daCurrent": "Meil tuleb kohtumine edasi lükata.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-119",
+      "index": 119,
+      "batch": "batch-101-150",
+      "de": "Sie hat mich aufgeregt.",
+      "daCurrent": "Ta ärritas mind.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-120",
+      "index": 120,
+      "batch": "batch-101-150",
+      "de": "Auf einmal.",
+      "daCurrent": "Järsku.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-121",
+      "index": 121,
+      "batch": "batch-101-150",
+      "de": "Auf der Stelle.",
+      "daCurrent": "Viivitamatult.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-122",
+      "index": 122,
+      "batch": "batch-101-150",
+      "de": "Für den Schaden aufkommen.",
+      "daCurrent": "Katta tekitatud kahju.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-123",
+      "index": 123,
+      "batch": "batch-101-150",
+      "de": "Bitte die Tür auf!",
+      "daCurrent": "Avage palun uks!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-124",
+      "index": 124,
+      "batch": "batch-101-150",
+      "de": "Aufrecht sitzen.",
+      "daCurrent": "Istuda sirgelt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-125",
+      "index": 125,
+      "batch": "batch-101-150",
+      "de": "Er ist auf.",
+      "daCurrent": "Ta on üleval.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-126",
+      "index": 126,
+      "batch": "batch-101-150",
+      "de": "Alle Kräfte aufwenden.",
+      "daCurrent": "Pühendada kõik jõud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-127",
+      "index": 127,
+      "batch": "batch-101-150",
+      "de": "Viel Mühe aufwenden.",
+      "daCurrent": "Väga pingutada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-128",
+      "index": 128,
+      "batch": "batch-101-150",
+      "de": "Geh mir aus den Augen!",
+      "daCurrent": "Ära näita end mulle enam silmas!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-129",
+      "index": 129,
+      "batch": "batch-101-150",
+      "de": "Unter vier Augen.",
+      "daCurrent": "Kahekesi. • Vaikselt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-130",
+      "index": 130,
+      "batch": "batch-101-150",
+      "de": "Aus Mangel an Zeit.",
+      "daCurrent": "Ajapuuduse tõttu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-131",
+      "index": 131,
+      "batch": "batch-101-150",
+      "de": "Aus diesem Grunde.",
+      "daCurrent": "Sel põhjusel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-132",
+      "index": 132,
+      "batch": "batch-101-150",
+      "de": "Alle außer dir.",
+      "daCurrent": "Kõik peale sinu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-133",
+      "index": 133,
+      "batch": "batch-101-150",
+      "de": "Auf Äußerlichkeiten Wert legen.",
+      "daCurrent": "Panna rõhku välimusele.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-134",
+      "index": 134,
+      "batch": "batch-101-150",
+      "de": "Im äußersten Fall.",
+      "daCurrent": "Halvimal juhul.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-135",
+      "index": 135,
+      "batch": "batch-101-150",
+      "de": "Äußerst wichtig.",
+      "daCurrent": "Äärmiselt tähtis.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-136",
+      "index": 136,
+      "batch": "batch-101-150",
+      "de": "Aussicht auf die See.",
+      "daCurrent": "Vaade merele.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-137",
+      "index": 137,
+      "batch": "batch-101-150",
+      "de": "Er hat gute Aussichten.",
+      "daCurrent": "Tal on head väljavaated.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-138",
+      "index": 138,
+      "batch": "batch-101-150",
+      "de": "Wie wird dieses Wort ausgesprochen?",
+      "daCurrent": "Kuidas seda sõna hääldatakse?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-139",
+      "index": 139,
+      "batch": "batch-101-150",
+      "de": "Sein Beileid aussprechen.",
+      "daCurrent": "Avaldada kaastunnet.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-140",
+      "index": 140,
+      "batch": "batch-101-150",
+      "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
+      "daCurrent": "Millal toimusid meistrivõistlused?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-141",
+      "index": 141,
+      "batch": "batch-101-150",
+      "de": "Welchen Beruf üben Sie aus?",
+      "daCurrent": "Milline on teie amet?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-142",
+      "index": 142,
+      "batch": "batch-101-150",
+      "de": "Einfluss ausüben.",
+      "daCurrent": "Mõjutada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-143",
+      "index": 143,
+      "batch": "batch-101-150",
+      "de": "Auswärts essen.",
+      "daCurrent": "Süüa väljas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-144",
+      "index": 144,
+      "batch": "batch-101-150",
+      "de": "Per Bahn.",
+      "daCurrent": "Rongiga.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-145",
+      "index": 145,
+      "batch": "batch-101-150",
+      "de": "Mit der Bahn.",
+      "daCurrent": "Rongiga.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-146",
+      "index": 146,
+      "batch": "batch-101-150",
+      "de": "Möglichst bald.",
+      "daCurrent": "Nii kiiresti kui võimalik.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-147",
+      "index": 147,
+      "batch": "batch-101-150",
+      "de": "Mir ist Angst und bange.",
+      "daCurrent": "Mul on väga hirm.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-148",
+      "index": 148,
+      "batch": "batch-101-150",
+      "de": "Auf die lange Bank schieben.",
+      "daCurrent": "Edasi lükata. • Venitada. • Lükata määramata ajaks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-149",
+      "index": 149,
+      "batch": "batch-101-150",
+      "de": "Bar zahlen.",
+      "daCurrent": "Maksta sularahas.",
+      "level": "Sätze"
+    }
+  ]
+}

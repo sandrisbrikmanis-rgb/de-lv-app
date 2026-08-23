@@ -1,0 +1,393 @@
+{
+  "batch": "batch-751-796",
+  "results": [
+    {
+      "cardId": "sentence-750",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "So, nun passen sie gut.",
+      "daCurrent": "",
+      "proposedEt": "Nii, nüüd sobivad need hästi.",
+      "reason": "Mitmuse alus on tõlkes puudu ning verb peab ühilduma mitmusega.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-751",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-752",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-753",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Wann wird er fertig sein?",
+      "daCurrent": "",
+      "proposedEt": "Millal ta valmis saab?",
+      "reason": "Tõlkest puudub saksa lähtefraasi asesõna „er“ ehk kontekstis ülikonnale viitav alus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-754",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-755",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-756",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-757",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wann wird das Kleid fertig sein?",
+      "daCurrent": "",
+      "proposedEt": "Millal kleit valmis saab?",
+      "reason": "Otseses küsimuses on sõnajärg ebaloomulik; lisaks väljendab „valmis saab“ paremini valmissaamist.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-758",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-759",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-760",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "daCurrent": "",
+      "proposedEt": "Millal ma saan kingad kätte?",
+      "reason": "„Abholen“ tähendab kingadele järele minemist ja nende kättesaamist; „ära tuua“ tähendab pigem need ära tuua.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-761",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-762",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-763",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-764",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-765",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-766",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-767",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-768",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-769",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "daCurrent": "",
+      "proposedEt": "Palun pakkige see sisse ja saatke see mulle koju.",
+      "reason": "Tõlkest puuduvad mõlema tegevuse objekt ning saatmise adressaat „mulle“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-770",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-771",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-772",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-773",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich das Probebild sehen?",
+      "daCurrent": "",
+      "proposedEt": "Millal ma saan proovipilti näha?",
+      "reason": "„Probebild“ on proovipilt või proovifoto, mitte üldiselt „näidis“; praegune tõlge on liiga ebamäärane.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-774",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wann sind die Fotos fertig?",
+      "daCurrent": "",
+      "proposedEt": "Millal fotod valmis saavad?",
+      "reason": "Otsese küsimuse sõnajärg on ebaloomulik ning „valmis saavad“ vastab paremini valmimisele.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-775",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-776",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-777",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-778",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-779",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-780",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-781",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-782",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-783",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-784",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Zeigen Sie mir schöne Geschenkideen.",
+      "daCurrent": "",
+      "proposedEt": "Näidake ilusaid kingiideid.",
+      "reason": "„Kingituse ideed“ on selles tähenduses ebaloomulik; tavapärane liitsõna on „kingiideed“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-785",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-786",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-787",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-788",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-789",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-790",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-791",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-792",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-793",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-794",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-795",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-750",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "So, nun passen sie gut.",
+      "daCurrent": "",
+      "proposedEt": "Nii, nüüd sobivad need hästi.",
+      "reason": "Mitmuse alus on tõlkes puudu ning verb peab ühilduma mitmusega.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-753",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Wann wird er fertig sein?",
+      "daCurrent": "",
+      "proposedEt": "Millal ta valmis saab?",
+      "reason": "Tõlkest puudub saksa lähtefraasi asesõna „er“ ehk kontekstis ülikonnale viitav alus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-757",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wann wird das Kleid fertig sein?",
+      "daCurrent": "",
+      "proposedEt": "Millal kleit valmis saab?",
+      "reason": "Otseses küsimuses on sõnajärg ebaloomulik; lisaks väljendab „valmis saab“ paremini valmissaamist.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-760",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich die Schuhe abholen?",
+      "daCurrent": "",
+      "proposedEt": "Millal ma saan kingad kätte?",
+      "reason": "„Abholen“ tähendab kingadele järele minemist ja nende kättesaamist; „ära tuua“ tähendab pigem need ära tuua.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-769",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "daCurrent": "",
+      "proposedEt": "Palun pakkige see sisse ja saatke see mulle koju.",
+      "reason": "Tõlkest puuduvad mõlema tegevuse objekt ning saatmise adressaat „mulle“.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-773",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Wann kann ich das Probebild sehen?",
+      "daCurrent": "",
+      "proposedEt": "Millal ma saan proovipilti näha?",
+      "reason": "„Probebild“ on proovipilt või proovifoto, mitte üldiselt „näidis“; praegune tõlge on liiga ebamäärane.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-774",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Wann sind die Fotos fertig?",
+      "daCurrent": "",
+      "proposedEt": "Millal fotod valmis saavad?",
+      "reason": "Otsese küsimuse sõnajärg on ebaloomulik ning „valmis saavad“ vastab paremini valmimisele.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-784",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "Zeigen Sie mir schöne Geschenkideen.",
+      "daCurrent": "",
+      "proposedEt": "Näidake ilusaid kingiideid.",
+      "reason": "„Kingituse ideed“ on selles tähenduses ebaloomulik; tavapärane liitsõna on „kingiideed“.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 38,
+  "sentencesAudited": 46,
+  "completedAt": "2026-08-22T18:38:12.853Z",
+  "source": "openai-api"
+}

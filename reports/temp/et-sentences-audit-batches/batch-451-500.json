@@ -1,0 +1,408 @@
+{
+  "batch": "batch-451-500",
+  "startIndex": 450,
+  "endIndex": 499,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-450",
+      "index": 450,
+      "batch": "batch-451-500",
+      "de": "Von Tag zu Tag.",
+      "daCurrent": "Päevast päeva.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-451",
+      "index": 451,
+      "batch": "batch-451-500",
+      "de": "Zum Glück.",
+      "daCurrent": "Õnneks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-452",
+      "index": 452,
+      "batch": "batch-451-500",
+      "de": "Wasser zum Trinken.",
+      "daCurrent": "Joogivesi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-453",
+      "index": 453,
+      "batch": "batch-451-500",
+      "de": "Zu Fuß.",
+      "daCurrent": "Jalgsi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-454",
+      "index": 454,
+      "batch": "batch-451-500",
+      "de": "Zu Pferde.",
+      "daCurrent": "Ratsa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-455",
+      "index": 455,
+      "batch": "batch-451-500",
+      "de": "Zu Rad.",
+      "daCurrent": "Jalgrattaga.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-456",
+      "index": 456,
+      "batch": "batch-451-500",
+      "de": "Es hörte auf zu regnen.",
+      "daCurrent": "Vihm lakkas sadamast.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-457",
+      "index": 457,
+      "batch": "batch-451-500",
+      "de": "Ich habe noch viel zu tun.",
+      "daCurrent": "Mul on veel palju teha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-458",
+      "index": 458,
+      "batch": "batch-451-500",
+      "de": "Zu früh.",
+      "daCurrent": "Liiga vara.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-459",
+      "index": 459,
+      "batch": "batch-451-500",
+      "de": "Zu groß.",
+      "daCurrent": "Liiga suur.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-460",
+      "index": 460,
+      "batch": "batch-451-500",
+      "de": "Mit den Achseln zucken.",
+      "daCurrent": "Kehitada õlgu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-461",
+      "index": 461,
+      "batch": "batch-451-500",
+      "de": "In einem Zug trinken.",
+      "daCurrent": "Juua ühe sõõmuga.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-462",
+      "index": 462,
+      "batch": "batch-451-500",
+      "de": "Zugrunde gehen.",
+      "daCurrent": "Hukka minna.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-463",
+      "index": 463,
+      "batch": "batch-451-500",
+      "de": "Zugrunde legen.",
+      "daCurrent": "Panna aluseks. • Võtta aluseks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-464",
+      "index": 464,
+      "batch": "batch-451-500",
+      "de": "Zum ersten Mal.",
+      "daCurrent": "Esmakordselt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-465",
+      "index": 465,
+      "batch": "batch-451-500",
+      "de": "Machen Sie bitte die Tür zu!",
+      "daCurrent": "Sulgege palun uks!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-466",
+      "index": 466,
+      "batch": "batch-451-500",
+      "de": "Er hat zugenommen.",
+      "daCurrent": "Ta on juurde võtnud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-467",
+      "index": 467,
+      "batch": "batch-451-500",
+      "de": "Die Tage nehmen zu.",
+      "daCurrent": "Päevad muutuvad pikemaks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-468",
+      "index": 468,
+      "batch": "batch-451-500",
+      "de": "Zusammenhängen mit etwas.",
+      "daCurrent": "Olla millegagi seotud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-469",
+      "index": 469,
+      "batch": "batch-451-500",
+      "de": "Die Tür ist zu.",
+      "daCurrent": "Uks on suletud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-470",
+      "index": 470,
+      "batch": "batch-451-500",
+      "de": "Das hätte ich ihm nicht zugetraut.",
+      "daCurrent": "Seda ma poleks temalt oodanud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-471",
+      "index": 471,
+      "batch": "batch-451-500",
+      "de": "Freier Zutritt.",
+      "daCurrent": "Vaba sissepääs.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-472",
+      "index": 472,
+      "batch": "batch-451-500",
+      "de": "Zutritt verboten!",
+      "daCurrent": "Sissepääs keelatud!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-473",
+      "index": 473,
+      "batch": "batch-451-500",
+      "de": "Das ist zu viel!",
+      "daCurrent": "See on liiga palju!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-474",
+      "index": 474,
+      "batch": "batch-451-500",
+      "de": "Zuwider werden.",
+      "daCurrent": "Muutuda vastikuks. • Tüütuks muutuda.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-475",
+      "index": 475,
+      "batch": "batch-451-500",
+      "de": "Und zwar.",
+      "daCurrent": "Nimelt.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-476",
+      "index": 476,
+      "batch": "batch-451-500",
+      "de": "Es steht außer Zweifel.",
+      "daCurrent": "Pole mingit kahtlust.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-477",
+      "index": 477,
+      "batch": "batch-451-500",
+      "de": "Ohne Zweifel.",
+      "daCurrent": "Kahtlemata.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-478",
+      "index": 478,
+      "batch": "batch-451-500",
+      "de": "Zum Zweiten.",
+      "daCurrent": "Teiseks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-479",
+      "index": 479,
+      "batch": "batch-451-500",
+      "de": "Frohes neues Jahr!",
+      "daCurrent": "Head uut aastat!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-480",
+      "index": 480,
+      "batch": "batch-451-500",
+      "de": "Herzlichen Glückwunsch zum Geburtstag!",
+      "daCurrent": "Palju õnne sünnipäevaks!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-481",
+      "index": 481,
+      "batch": "batch-451-500",
+      "de": "Gute Reise!",
+      "daCurrent": "Head reisi!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-482",
+      "index": 482,
+      "batch": "batch-451-500",
+      "de": "Es freut mich, Sie kennenzulernen.",
+      "daCurrent": "Rõõm on teiega tuttavaks saada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-483",
+      "index": 483,
+      "batch": "batch-451-500",
+      "de": "Wären Sie bitte so nett?",
+      "daCurrent": "Kas te oleksite palun nii lahke?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-484",
+      "index": 484,
+      "batch": "batch-451-500",
+      "de": "Ich bin Ihnen sehr dankbar.",
+      "daCurrent": "Olen teile väga tänulik.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-485",
+      "index": 485,
+      "batch": "batch-451-500",
+      "de": "Setzt euch bitte hin!",
+      "daCurrent": "Istuge palun!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-486",
+      "index": 486,
+      "batch": "batch-451-500",
+      "de": "Ben, komm bitte an die Tafel!",
+      "daCurrent": "Ben, tule palun tahvli juurde!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-487",
+      "index": 487,
+      "batch": "batch-451-500",
+      "de": "Schlagt bitte die Lehrbücher auf!",
+      "daCurrent": "Avage palun õpikud!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-488",
+      "index": 488,
+      "batch": "batch-451-500",
+      "de": "Geht bitte in die Sporthalle!",
+      "daCurrent": "Minge palun spordisaali!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-489",
+      "index": 489,
+      "batch": "batch-451-500",
+      "de": "Schläfst du noch?",
+      "daCurrent": "Kas sa veel magad?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-490",
+      "index": 490,
+      "batch": "batch-451-500",
+      "de": "Schlafen Sie noch?",
+      "daCurrent": "Kas te veel magate?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-491",
+      "index": 491,
+      "batch": "batch-451-500",
+      "de": "Er ist fest eingeschlafen.",
+      "daCurrent": "Ta on sügavalt magama jäänud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-492",
+      "index": 492,
+      "batch": "batch-451-500",
+      "de": "Wecke ihn bitte auf, es ist schon spät!",
+      "daCurrent": "Palun ärata ta, on juba hilja!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-493",
+      "index": 493,
+      "batch": "batch-451-500",
+      "de": "Es tut mir sehr leid!",
+      "daCurrent": "Mul on väga kahju!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-494",
+      "index": 494,
+      "batch": "batch-451-500",
+      "de": "Vielen Dank!",
+      "daCurrent": "Suur aitäh!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-495",
+      "index": 495,
+      "batch": "batch-451-500",
+      "de": "Finn, fang bitte an!",
+      "daCurrent": "Finn, alusta palun!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-496",
+      "index": 496,
+      "batch": "batch-451-500",
+      "de": "Lest bitte mit!",
+      "daCurrent": "Lugege kaasa, palun!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-497",
+      "index": 497,
+      "batch": "batch-451-500",
+      "de": "Emma, schau bitte nicht aus dem Fenster!",
+      "daCurrent": "Emma, palun ära vaata aknast välja!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-498",
+      "index": 498,
+      "batch": "batch-451-500",
+      "de": "Jonas, bring bitte die Hefte!",
+      "daCurrent": "Jonas, too palun vihikud!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-499",
+      "index": 499,
+      "batch": "batch-451-500",
+      "de": "Geh bitte zurück an deinen Platz!",
+      "daCurrent": "Mine tagasi oma kohale!",
+      "level": "Sätze"
+    }
+  ]
+}

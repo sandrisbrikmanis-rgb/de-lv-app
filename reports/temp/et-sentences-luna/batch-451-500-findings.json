@@ -1,0 +1,260 @@
+{
+  "batch": "batch-451-500",
+  "results": [
+    {
+      "cardId": "sentence-450",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-451",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-452",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-453",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-454",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-455",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-456",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-457",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-458",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-459",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-460",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-461",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-462",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-463",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-464",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-465",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-466",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-467",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-468",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-469",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-470",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-471",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-472",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-473",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-474",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-475",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-476",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-477",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-478",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-479",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-480",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-481",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-482",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-483",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-484",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-485",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-486",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-487",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-488",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-489",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-490",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-491",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-492",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-493",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-494",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-495",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-496",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-497",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-498",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-499",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [],
+  "passCount": 50,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:35:46.326Z",
+  "source": "openai-api"
+}

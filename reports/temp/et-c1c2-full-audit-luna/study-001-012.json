@@ -1,0 +1,63 @@
+{
+  "dataset": "et-c1c2",
+  "batch": "study-001-012",
+  "auditType": "vocab_study",
+  "cardCount": 12,
+  "cardIds": [
+    "c1-einfamilienhaus",
+    "c1-offentlichkeit",
+    "c1-partei",
+    "c1-prozess",
+    "c1-wettbewerb",
+    "c1-zusammenfassen",
+    "c1-wahl",
+    "c1-gelegentlich",
+    "c1-wahlberechtigt",
+    "c1-zuschlag",
+    "c1-beziehen-sich-beziehen-auf",
+    "c1-beabsichtigen"
+  ],
+  "findings": [
+    {
+      "cardId": "c1-gelegentlich",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "gelegentlich",
+      "lvSource": "reizēm • gadījuma • sakarā ar",
+      "currentEt": "aeg-ajalt • juhuslik • seoses",
+      "proposedEt": "aeg-ajalt • juhuslik",
+      "reason": "„Seoses” tähendab „in Verbindung mit” ega ole tänapäeva eesti keeles „gelegentlich” üldtähenduses sobiv vaste.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "gelegentlich",
+      "lvSource": "sakarā ar",
+      "currentEt": "seoses",
+      "proposedEt": "aeg-ajalt",
+      "reason": "„Seoses” ei vasta sõna „gelegentlich” põhitähendusele „aeg-ajalt; mõnikord”.",
+      "confidence": 0.92,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.translation",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "beziehen / sich beziehen auf",
+      "lvSource": "attiecināt • attiekties uz",
+      "currentEt": "seostama • käima millegi kohta",
+      "proposedEt": "saama (nt pensioni) • millelegi viitama / millegi kohta käima",
+      "reason": "„Beziehen” võib tähendada pensioni saamist; „sich beziehen auf” tähendab millelegi viitamist. Praegune vaste ajab tähendused segi.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-22T18:40:03.510Z"
+}

@@ -1,0 +1,394 @@
+{
+  "batch": "batch-551-600",
+  "results": [
+    {
+      "cardId": "sentence-550",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-551",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-552",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-553",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-554",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-555",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-556",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-557",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-558",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-559",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "",
+      "proposedEt": "Äikesetorm läheb üle.",
+      "reason": "„Zieht vorüber” tähendab, et äikesetorm läheb üle või liigub mööda; „on möödas” ütleb, et see on juba lõppenud.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-560",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-561",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-562",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "daCurrent": "",
+      "proposedEt": "Talv on käes, on lund sadanud.",
+      "reason": "Saksa lauses ei öelda, et lund sadas öösel; see on eestikeelses tõlkes põhjendamatu lisandus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-563",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-564",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-565",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-566",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Draußen ist Glatteis, pass auf!",
+      "daCurrent": "",
+      "proposedEt": "Väljas on kiilasjää, ole ettevaatlik!",
+      "reason": "„Glatteis” tähendab kiilasjääd, mitte lihtsalt libedust; praegune tõlge kaotab olulise tähendusdetaili.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-567",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-568",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-569",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-570",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-571",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-572",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-573",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-574",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-575",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-576",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-577",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-578",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-579",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-580",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "daCurrent": "",
+      "proposedEt": "Tulen sulle jalutama järele.",
+      "reason": "„Ma tulin” on minevik, kuid saksa lause kasutab olevikku. Lisaks on „jalutuskäigule järele” ebaloomulik väljend.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-581",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-582",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "daCurrent": "",
+      "proposedEt": "Olen selles piirkonnas esimest korda.",
+      "reason": "Tõlge jätab välja täpsustuse „selles piirkonnas” ja muudab tähenduse üldisemaks: „siin” võib viidata ükskõik millele.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-583",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-584",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-585",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-586",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-587",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-588",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-589",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "daCurrent": "",
+      "proposedEt": "Kuidas ma kõige kiiremini jaama jõuan?",
+      "reason": "„Am schnellsten” tähendab „kõige kiiremini”, mitte lihtsalt „kiiremini”; lisatud „ma” teeb küsimuse loomulikumaks.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-590",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-591",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-592",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Reist du geschäftlich oder privat?",
+      "daCurrent": "",
+      "proposedEt": "Kas sõidad tööasjus või eraviisiliselt?",
+      "reason": "„Privat” tähendab eraviisiliselt, mitte tingimata puhkusele; praegune tõlge kitsendab ja muudab teist reisimise põhjust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-593",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-594",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-595",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-596",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-597",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-598",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "sentence-599",
+      "status": "PASS",
+      "field": "lv"
+    }
+  ],
+  "findings": [
+    {
+      "cardId": "sentence-559",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Das Gewitter zieht vorüber.",
+      "daCurrent": "",
+      "proposedEt": "Äikesetorm läheb üle.",
+      "reason": "„Zieht vorüber” tähendab, et äikesetorm läheb üle või liigub mööda; „on möödas” ütleb, et see on juba lõppenud.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-562",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "daCurrent": "",
+      "proposedEt": "Talv on käes, on lund sadanud.",
+      "reason": "Saksa lauses ei öelda, et lund sadas öösel; see on eestikeelses tõlkes põhjendamatu lisandus.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-566",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Draußen ist Glatteis, pass auf!",
+      "daCurrent": "",
+      "proposedEt": "Väljas on kiilasjää, ole ettevaatlik!",
+      "reason": "„Glatteis” tähendab kiilasjääd, mitte lihtsalt libedust; praegune tõlge kaotab olulise tähendusdetaili.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-580",
+      "field": "lv",
+      "severity": "HIGH",
+      "category": "GRAMMAR",
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "daCurrent": "",
+      "proposedEt": "Tulen sulle jalutama järele.",
+      "reason": "„Ma tulin” on minevik, kuid saksa lause kasutab olevikku. Lisaks on „jalutuskäigule järele” ebaloomulik väljend.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-582",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "daCurrent": "",
+      "proposedEt": "Olen selles piirkonnas esimest korda.",
+      "reason": "Tõlge jätab välja täpsustuse „selles piirkonnas” ja muudab tähenduse üldisemaks: „siin” võib viidata ükskõik millele.",
+      "confidence": 0.95,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-589",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "daCurrent": "",
+      "proposedEt": "Kuidas ma kõige kiiremini jaama jõuan?",
+      "reason": "„Am schnellsten” tähendab „kõige kiiremini”, mitte lihtsalt „kiiremini”; lisatud „ma” teeb küsimuse loomulikumaks.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "sentence-592",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Reist du geschäftlich oder privat?",
+      "daCurrent": "",
+      "proposedEt": "Kas sõidad tööasjus või eraviisiliselt?",
+      "reason": "„Privat” tähendab eraviisiliselt, mitte tingimata puhkusele; praegune tõlge kitsendab ja muudab teist reisimise põhjust.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 43,
+  "sentencesAudited": 50,
+  "completedAt": "2026-08-22T18:36:30.649Z",
+  "source": "openai-api"
+}

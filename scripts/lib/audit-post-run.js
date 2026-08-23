@@ -97,6 +97,18 @@ const HOOKS = {
     github: "reports/da-kurss-owner-review-final-post-repair-GITHUB.md",
     readme: "reports/da-kurss-owner-review-final-post-repair-README.md",
   },
+  "et-c1c2-full": {
+    label: "ET–DE C1/C2 full audit",
+    scripts: ["build-et-c1c2-owner-review.js"],
+    github: "reports/et-c1c2-owner-review-GITHUB.md",
+    readme: "reports/et-c1c2-owner-review-README.md",
+  },
+  "et-sentences-full": {
+    label: "ET–DE Sätze/Teikumi full audit",
+    scripts: ["build-et-sentences-owner-review.js", "build-et-sentences-github-index.js"],
+    github: "reports/et-sentences-owner-review-GITHUB.md",
+    readme: "reports/et-sentences-owner-review-README.md",
+  },
 };
 
 function skipOwnerReview(argv = process.argv.slice(2)) {

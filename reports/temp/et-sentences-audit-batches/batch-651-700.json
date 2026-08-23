@@ -1,0 +1,408 @@
+{
+  "batch": "batch-651-700",
+  "startIndex": 650,
+  "endIndex": 699,
+  "count": 50,
+  "sentences": [
+    {
+      "cardId": "sentence-650",
+      "index": 650,
+      "batch": "batch-651-700",
+      "de": "Wo ist die Post?",
+      "daCurrent": "Kus on postkontor?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-651",
+      "index": 651,
+      "batch": "batch-651-700",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "daCurrent": "Tuleta mulle homme meelde kirja kirjutada!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-652",
+      "index": 652,
+      "batch": "batch-651-700",
+      "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "daCurrent": "Palun pane see kiri postkasti!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-653",
+      "index": 653,
+      "batch": "batch-651-700",
+      "de": "Hallo, hier spricht Emma.",
+      "daCurrent": "Tere, siin räägib Emma.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-654",
+      "index": 654,
+      "batch": "batch-651-700",
+      "de": "Kann ich dich später anrufen?",
+      "daCurrent": "Kas ma tohin sulle hiljem helistada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-655",
+      "index": 655,
+      "batch": "batch-651-700",
+      "de": "Muss ich lange warten?",
+      "daCurrent": "Kas ma pean kaua ootama?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-656",
+      "index": 656,
+      "batch": "batch-651-700",
+      "de": "Bitte schneiden Sie mir die Haare.",
+      "daCurrent": "Palun lõigake mul juukseid.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-657",
+      "index": 657,
+      "batch": "batch-651-700",
+      "de": "Hinten bitte nicht zu kurz.",
+      "daCurrent": "Taga, palun, mitte liiga lühikeseks.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-658",
+      "index": 658,
+      "batch": "batch-651-700",
+      "de": "Wann beginnt die Vorstellung?",
+      "daCurrent": "Millal etendus algab?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-659",
+      "index": 659,
+      "batch": "batch-651-700",
+      "de": "Es fängt um halb acht an.",
+      "daCurrent": "Algab pool kaheksa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-660",
+      "index": 660,
+      "batch": "batch-651-700",
+      "de": "Alle Plätze sind ausverkauft.",
+      "daCurrent": "Kõik piletid on välja müüdud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-661",
+      "index": 661,
+      "batch": "batch-651-700",
+      "de": "Drei Karten, bitte!",
+      "daCurrent": "Kolm piletit, palun!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-662",
+      "index": 662,
+      "batch": "batch-651-700",
+      "de": "Wir lassen die Jacken in der Garderobe.",
+      "daCurrent": "Jätame joped garderoobi.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-663",
+      "index": 663,
+      "batch": "batch-651-700",
+      "de": "Bitte schnell, der Vorhang geht gleich auf!",
+      "daCurrent": "Kiiremini, palun, eesriie avaneb kohe!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-664",
+      "index": 664,
+      "batch": "batch-651-700",
+      "de": "Der Vorhang fällt.",
+      "daCurrent": "Eesriie langeb.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-665",
+      "index": 665,
+      "batch": "batch-651-700",
+      "de": "Darf ich dich zum Tanz bitten?",
+      "daCurrent": "Kas ma tohin tantsule kutsuda?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-666",
+      "index": 666,
+      "batch": "batch-651-700",
+      "de": "Wann ist eure Hochzeit?",
+      "daCurrent": "Millal on teie pulmad?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-667",
+      "index": 667,
+      "batch": "batch-651-700",
+      "de": "Ich suche eine Wohnung.",
+      "daCurrent": "Otsin korterit.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-668",
+      "index": 668,
+      "batch": "batch-651-700",
+      "de": "Ist in diesem Haus eine Wohnung frei?",
+      "daCurrent": "Kas selles majas on vaba korter?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-669",
+      "index": 669,
+      "batch": "batch-651-700",
+      "de": "Wie viel kostet die Miete?",
+      "daCurrent": "Kui palju maksab üür?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-670",
+      "index": 670,
+      "batch": "batch-651-700",
+      "de": "Die Wohnung hat drei Zimmer und eine Küche.",
+      "daCurrent": "Korteris on kolm tuba ja köök.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-671",
+      "index": 671,
+      "batch": "batch-651-700",
+      "de": "Heute ziehen wir um.",
+      "daCurrent": "Täna kolime.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-672",
+      "index": 672,
+      "batch": "batch-651-700",
+      "de": "Mia, pack die Sachen bitte in Kisten!",
+      "daCurrent": "Mia, pane palun asjad kastidesse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-673",
+      "index": 673,
+      "batch": "batch-651-700",
+      "de": "Hast du alles eingepackt?",
+      "daCurrent": "Kas kõik on juba kastidesse pandud?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-674",
+      "index": 674,
+      "batch": "batch-651-700",
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "daCurrent": "Olen kirjavahetuses oma sõbraga.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-675",
+      "index": 675,
+      "batch": "batch-651-700",
+      "de": "Gehen wir ins Theater?",
+      "daCurrent": "Kas läheme teatrisse?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-676",
+      "index": 676,
+      "batch": "batch-651-700",
+      "de": "Ist alles eingeladen?",
+      "daCurrent": "Kas kõik on peale laaditud?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-677",
+      "index": 677,
+      "batch": "batch-651-700",
+      "de": "Welch schöne Aussicht!",
+      "daCurrent": "Küll on kaunis vaade!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-678",
+      "index": 678,
+      "batch": "batch-651-700",
+      "de": "Nun können wir alles wieder aufräumen.",
+      "daCurrent": "Nüüd võime kõik jälle korda teha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-679",
+      "index": 679,
+      "batch": "batch-651-700",
+      "de": "Wie viele Zimmer habt ihr?",
+      "daCurrent": "Mitu tuba teil on?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-680",
+      "index": 680,
+      "batch": "batch-651-700",
+      "de": "Im Sommer fahre ich ans Meer.",
+      "daCurrent": "Suvel sõidan mere äärde.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-681",
+      "index": 681,
+      "batch": "batch-651-700",
+      "de": "Kannst du schwimmen?",
+      "daCurrent": "Kas sa oskad ujuda?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-682",
+      "index": 682,
+      "batch": "batch-651-700",
+      "de": "Schwimm nicht zu weit hinaus!",
+      "daCurrent": "Ära uju liiga kaugele!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-683",
+      "index": 683,
+      "batch": "batch-651-700",
+      "de": "Badest du jeden Tag?",
+      "daCurrent": "Kas sa käid iga päev ujumas?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-684",
+      "index": 684,
+      "batch": "batch-651-700",
+      "de": "Bei schönem Wetter gehe ich angeln.",
+      "daCurrent": "Kui ilm on ilus, lähen kalale.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-685",
+      "index": 685,
+      "batch": "batch-651-700",
+      "de": "Wie sieht er aus?",
+      "daCurrent": "Kuidas ta välja näeb?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-686",
+      "index": 686,
+      "batch": "batch-651-700",
+      "de": "Er hat sich aber recht verändert.",
+      "daCurrent": "Ta on ikkagi üsna muutunud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-687",
+      "index": 687,
+      "batch": "batch-651-700",
+      "de": "Wie ist er als Mensch?",
+      "daCurrent": "Milline ta on inimesena?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-688",
+      "index": 688,
+      "batch": "batch-651-700",
+      "de": "Er ist immer nett und freundlich.",
+      "daCurrent": "Ta on alati tore ja sõbralik.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-689",
+      "index": 689,
+      "batch": "batch-651-700",
+      "de": "Ich fühle mich nicht wohl.",
+      "daCurrent": "Tunnen end halvasti.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-690",
+      "index": 690,
+      "batch": "batch-651-700",
+      "de": "Ich habe starke Kopfschmerzen.",
+      "daCurrent": "Mul on tugev peavalu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-691",
+      "index": 691,
+      "batch": "batch-651-700",
+      "de": "Ich habe mich erkältet.",
+      "daCurrent": "Olen külmetunud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-692",
+      "index": 692,
+      "batch": "batch-651-700",
+      "de": "Ich habe Schnupfen.",
+      "daCurrent": "Mul on nohu.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-693",
+      "index": 693,
+      "batch": "batch-651-700",
+      "de": "Mir ist schwindlig.",
+      "daCurrent": "Mul on peapööritus.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-694",
+      "index": 694,
+      "batch": "batch-651-700",
+      "de": "Ich muss zum Arzt gehen.",
+      "daCurrent": "Ma pean arsti juurde minema.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-695",
+      "index": 695,
+      "batch": "batch-651-700",
+      "de": "Leg dich ins Bett!",
+      "daCurrent": "Heida voodisse pikali!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-696",
+      "index": 696,
+      "batch": "batch-651-700",
+      "de": "Hast du Fieber?",
+      "daCurrent": "Kas sul on palavik?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-697",
+      "index": 697,
+      "batch": "batch-651-700",
+      "de": "Gestern hatte ich erhöhte Temperatur.",
+      "daCurrent": "Eile oli mul kõrgenenud temperatuur.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-698",
+      "index": 698,
+      "batch": "batch-651-700",
+      "de": "Ich habe Zahnschmerzen.",
+      "daCurrent": "Mul valutab hammas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-699",
+      "index": 699,
+      "batch": "batch-651-700",
+      "de": "Ich muss zum Zahnarzt gehen.",
+      "daCurrent": "Ma pean hambaarsti juurde minema.",
+      "level": "Sätze"
+    }
+  ]
+}
