@@ -1,0 +1,17 @@
+# ET–DE B1 final targeted regression
+
+**Verdict:** ET_B1_FINAL_TARGETED_REGRESSION_PASS
+
+| Gate | Value |
+|------|-------|
+| LINGUISTIC_APPLIED_VERIFIED | 4/4 |
+| STUDY_REMOVE_VERIFIED | 11/11 |
+| ET_STUDY_COUNT | 324 |
+| LV_MASTER_STUDY_COUNT | 324 |
+| STUDY_PARITY | PASS |
+| OWNER_1054_RETAINED | 1054/1054 |
+| SECTIONACCENTS_RAW | 0 |
+| DE_CHANGES | 0 |
+| MIRROR | PASS |
+| SYNTAX | PASS |
+| Findings | 0 |
