@@ -1,0 +1,283 @@
+{
+  "dryRun": false,
+  "masterVersion": "1.12",
+  "staged": [
+    {
+      "auditId": "ET-C2-MT-0001",
+      "cardId": "c2-Unvoreingenommenheit-0",
+      "field": "lv",
+      "ownerNew": "objektiivsus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0002",
+      "cardId": "c2-Berichterstatter-86",
+      "field": "lv",
+      "ownerNew": "referent",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0003",
+      "cardId": "c2-Computerwissenschaft-96",
+      "field": "lv",
+      "ownerNew": "arvutiteadus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0004",
+      "cardId": "c2-durchkreuzen-103",
+      "field": "lv",
+      "ownerNew": "läbi kriipsutama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0005",
+      "cardId": "c2-Durchschnittsleistung-106",
+      "field": "lv",
+      "ownerNew": "keskmine sooritus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0006",
+      "cardId": "c2-Entschlossenheit-113",
+      "field": "lv",
+      "ownerNew": "otsustavus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0007",
+      "cardId": "c2-Errungenschaft-117",
+      "field": "lv",
+      "ownerNew": "saavutus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0008",
+      "cardId": "c2-Geistesgegenwart-131",
+      "field": "lv",
+      "ownerNew": "kiire taip",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0009",
+      "cardId": "c2-Genossenschaft-140",
+      "field": "lv",
+      "ownerNew": "ühistu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0010",
+      "cardId": "c2-Geschäftsordnung-144",
+      "field": "lv",
+      "ownerNew": "reglement",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0011",
+      "cardId": "c2-gesellschaftlich-150",
+      "field": "lv",
+      "ownerNew": "ühiskondlik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0012",
+      "cardId": "c2-Hausgemeinschaft-161",
+      "field": "lv",
+      "ownerNew": "majaelanike kogukond",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0013",
+      "cardId": "c2-Kabinettsmitglied-166",
+      "field": "lv",
+      "ownerNew": "kabineti liige",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0014",
+      "cardId": "c2-Kriegsentschädigung-169",
+      "field": "lv",
+      "ownerNew": "reparatsioonid",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0015",
+      "cardId": "c2-Leistungsfähigkeit-173",
+      "field": "lv",
+      "ownerNew": "töövõime",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0016",
+      "cardId": "c2-menschenfreundlich-178",
+      "field": "lv",
+      "ownerNew": "humaanne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0017",
+      "cardId": "c2-Parlamentarier-183",
+      "field": "lv",
+      "ownerNew": "parlamendiliige",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0018",
+      "cardId": "c2-zugunsten, zu Gunsten-207",
+      "field": "lv",
+      "ownerNew": "kasuks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C2-MT-0019",
+      "cardId": "c2-Sachverständige-218",
+      "field": "lv",
+      "ownerNew": "ekspert",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ET-C2-MT-0001",
+      "cardId": "c2-Unvoreingenommenheit-0",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0002",
+      "cardId": "c2-Berichterstatter-86",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0003",
+      "cardId": "c2-Computerwissenschaft-96",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0004",
+      "cardId": "c2-durchkreuzen-103",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0005",
+      "cardId": "c2-Durchschnittsleistung-106",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0006",
+      "cardId": "c2-Entschlossenheit-113",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0007",
+      "cardId": "c2-Errungenschaft-117",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0008",
+      "cardId": "c2-Geistesgegenwart-131",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0009",
+      "cardId": "c2-Genossenschaft-140",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0010",
+      "cardId": "c2-Geschäftsordnung-144",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0011",
+      "cardId": "c2-gesellschaftlich-150",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0012",
+      "cardId": "c2-Hausgemeinschaft-161",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0013",
+      "cardId": "c2-Kabinettsmitglied-166",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0014",
+      "cardId": "c2-Kriegsentschädigung-169",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0015",
+      "cardId": "c2-Leistungsfähigkeit-173",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0016",
+      "cardId": "c2-menschenfreundlich-178",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0017",
+      "cardId": "c2-Parlamentarier-183",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0018",
+      "cardId": "c2-zugunsten, zu Gunsten-207",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C2-MT-0019",
+      "cardId": "c2-Sachverständige-218",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "c2Cards": 219,
+    "requestedLabot": 19,
+    "appliedVerified": 19,
+    "alreadyMatched": 0,
+    "appliedTotal": 19,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "verificationFail": 0,
+    "deChanges": 0,
+    "reconciles": true,
+    "gitDiffPass": true,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "multiTranslationScan": {
+      "violations": 0,
+      "inventoryCoverage": "100%",
+      "fieldsScanned": 219,
+      "rawCandidates": 0
+    },
+    "multipleMainTranslationsValidatedReal": 0,
+    "mainTranslationCountViolations": 0,
+    "finalVerdict": "PASS"
+  }
+}
