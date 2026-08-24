@@ -6,7 +6,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-ab-und-zu",
       "layout": "standardStudy",
-      "translation": "aeg-ajalt • vahetevahel",
+      "translation": "aeg-ajalt",
       "explanation": "Kasutatakse selle väljendamiseks, et miski toimub ebaregulaarselt — aeg-ajalt, vahetevahel, mõni kord.",
       "examples": [
         {
@@ -161,7 +161,7 @@ const A2_WORDS = [
     "de": "Abenteuer",
     "de_article": "das",
     "de_plural": "die Abenteuer",
-    "lv": "seiklus • avantüür",
+    "lv": "seiklus",
     "level": "A2"
   },
   {
@@ -591,7 +591,7 @@ const A2_WORDS = [
     "de": "Abfahrt",
     "de_article": "die",
     "de_plural": "die Abfahrten",
-    "lv": "ärasõit • väljumine",
+    "lv": "`väljumine`",
     "level": "A2"
   },
   {
@@ -608,7 +608,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-abgeben",
       "layout": "standardStudy",
-      "translation": "ära andma • tagasi andma • esitama",
+      "translation": "ära andma",
       "explanation": "Põhiidee: abgeben tähendab midagi teisele või kindlasse kohta üle andma või ära andma. Seda kasutatakse dokumentide, võtmete, asjade, avalduste ja koduste tööde puhul. Koolis või tööl tähendab abgeben sageli esitama. Müümine ja kiirgamine ei ole selle kaardi peamised A2 tähendused.",
       "examples": [
         {
@@ -989,7 +989,7 @@ const A2_WORDS = [
   },
   {
     "de": "abgemacht",
-    "lv": "korraldatud • otsustatud • kokku lepitud",
+    "lv": "`kokku lepitud`",
     "level": "A2"
   },
   {
@@ -999,7 +999,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-abholen",
       "layout": "standardStudy",
-      "translation": "järele minema • välja võtma",
+      "translation": "järele minema",
       "explanation": [
         "Põhiidee: Minna järele ja võtta inimene kaasa või võtta välja pakk/tellimus.",
         "abholen tähendab peamiselt: järele minema ja kaasa võtma / kohapealt ära tooma.",
@@ -1102,7 +1102,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-holen",
       "layout": "standardStudy",
-      "translation": "järele minema • tooma",
+      "translation": "järele minema",
       "explanation": [
         "Põhiidee: Minna järele ja midagi ära tuua.",
         "holen tähendab peamiselt: minna ja tuua.",
@@ -1211,7 +1211,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-bringen",
       "layout": "standardStudy",
-      "translation": "tooma • kohale toimetama",
+      "translation": "tooma",
       "explanation": [
         "Põhiidee: Midagi siia tuua või toimetada.",
         "bringen tähendab peamiselt: siia tooma.",
@@ -1338,7 +1338,7 @@ const A2_WORDS = [
   },
   {
     "de": "abreisen",
-    "lv": "ära reisima • ära sõitma",
+    "lv": "ära reisima",
     "level": "A2"
   },
   {
@@ -1762,7 +1762,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-abschließen",
       "layout": "standardStudy",
-      "translation": "lukustama • sõlmima • lõpetama",
+      "translation": "lukustama",
       "explanation": "Põhiidee: abschließen tähendab olenevalt objektist lukustama, sõlmima või lõpetama. Kui jutt on uksest või autost, tähendab see “lukustama”. Lepingu puhul tähendab see “lepingut sõlmima”. Töö, kursuse või projekti puhul tähendab see “lõpetama”. Seepärast muutub tähendus objekti järgi: uks, leping või töö.",
       "examples": [
         {
@@ -2132,12 +2132,12 @@ const A2_WORDS = [
     "de": "Abstand",
     "de_article": "der",
     "de_plural": "die Abstände",
-    "lv": "vahemaa • distants",
+    "lv": "vahemaa",
     "level": "A2"
   },
   {
     "de": "absteigen",
-    "lv": "maha minema • hotellis peatuma",
+    "lv": "maha minema",
     "level": "A2"
   },
   {
@@ -2147,7 +2147,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-abstellen",
       "layout": "standardStudy",
-      "translation": "panema • paigutama • välja lülitama",
+      "translation": "panema",
       "explanation": [
         "Põhiidee: abstellen tähenduse määrab objekt: auto või kott pannakse ära, vesi või elekter lülitatakse välja, mootor seisatakse, probleem kõrvaldatakse.",
         "Auto, jalgratta, koti või kasti puhul tähendab abstellen kindlasse kohta paigutama või asetama.",
@@ -2667,7 +2667,7 @@ const A2_WORDS = [
   {
     "de": "Achtung",
     "de_article": "die",
-    "lv": "austus • tähelepanu",
+    "lv": "`tähelepanu`",
     "level": "A2"
   },
   {
@@ -2705,7 +2705,7 @@ const A2_WORDS = [
   },
   {
     "de": "aktiv",
-    "lv": "aktiivne • tegus",
+    "lv": "aktiivne",
     "level": "A2"
   },
   {
@@ -2717,7 +2717,7 @@ const A2_WORDS = [
   },
   {
     "de": "aktuell",
-    "lv": "aktuaalne • praegune",
+    "lv": "`praegune`",
     "level": "A2"
   },
   {
@@ -2744,7 +2744,7 @@ const A2_WORDS = [
   },
   {
     "de": "ändern",
-    "lv": "muutma • ümber tegema",
+    "lv": "muutma",
     "level": "A2"
   },
   {
@@ -2785,7 +2785,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-angewandt",
       "layout": "standardStudy",
-      "translation": "rakendatud • rakenduslik • praktiline",
+      "translation": "`rakenduslik`",
       "explanation": "Põhiidee: angewandt tähendab praktikas rakendatud või rakenduslik. Seda kasutatakse, kui teooriat, teadust või meetodit kasutatakse praktikas. Ülikoolides ja teaduses tähendab angewandt sageli rakenduslik, näiteks angewandte Mathematik. Meetodi või seaduse puhul tähendab see rakendatud. See ei ole sama mis einfach nur praktisch, sest angewandt rõhutab kasutamist praktikas.",
       "examples": [
         {
@@ -3280,7 +3280,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-anhänger",
       "layout": "standardStudy",
-      "translation": "haagis • pooldaja • ripats",
+      "translation": "haagis",
       "explanation": "Põhiidee: der Anhänger tähendab midagi, mis on külge haagitud või järel käib. Auto küljes on see haagis. Inimese kohta tähendab see pooldajat või toetajat. Ehte küljes võib see olla ripats. Tähenduse määrab kontekst: Auto, Partei, Idee või Kette.",
       "examples": [
         {
@@ -3646,7 +3646,7 @@ const A2_WORDS = [
     "de": "Anlass",
     "de_article": "der",
     "de_plural": "die Anlässe",
-    "lv": "põhjus • puhk",
+    "lv": "põhjus",
     "level": "A2"
   },
   {
@@ -4037,7 +4037,7 @@ const A2_WORDS = [
     "de": "Anleitung",
     "de_article": "die",
     "de_plural": "die Anleitungen",
-    "lv": "juhend • instruktsioon",
+    "lv": "juhend",
     "level": "A2"
   },
   {
@@ -4439,7 +4439,7 @@ const A2_WORDS = [
     "de": "Anmeldung",
     "de_article": "die",
     "de_plural": "die Anmeldungen",
-    "lv": "avaldus • registreerimine",
+    "lv": "`registreerimine`",
     "level": "A2"
   },
   {
@@ -4449,14 +4449,14 @@ const A2_WORDS = [
   },
   {
     "de": "anordnen",
-    "lv": "käskima • korraldama",
+    "lv": "`korraldama`",
     "level": "A2"
   },
   {
     "de": "Anordnung",
     "de_article": "die",
     "de_plural": "die Anordnungen",
-    "lv": "korraldus • paigutus",
+    "lv": "korraldus",
     "level": "A2"
   },
   {
@@ -4839,7 +4839,7 @@ const A2_WORDS = [
   },
   {
     "de": "ansteckend",
-    "lv": "nakkav • nakkuslik",
+    "lv": "nakkav",
     "level": "A2"
   },
   {
@@ -5228,7 +5228,7 @@ const A2_WORDS = [
   },
   {
     "de": "anstreichen",
-    "lv": "värvima • alla joonima",
+    "lv": "värvima",
     "level": "A2"
   },
   {
@@ -5238,7 +5238,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-anstrengend",
       "layout": "minimalStudy",
-      "translation": "kurnav • pingeline",
+      "translation": "kurnav",
       "accent": "blue",
       "examples": [
         {
@@ -5272,7 +5272,7 @@ const A2_WORDS = [
     "de": "Anwendung",
     "de_article": "die",
     "de_plural": "die Anwendungen",
-    "lv": "kasutamine • rakendus",
+    "lv": "kasutamine",
     "level": "A2"
   },
   {
@@ -5298,7 +5298,7 @@ const A2_WORDS = [
     "de": "Anzeige",
     "de_article": "die",
     "de_plural": "die Anzeigen",
-    "lv": "kuulutus • teadaanne",
+    "lv": "kuulutus",
     "level": "A2"
   },
   {
@@ -5350,17 +5350,17 @@ const A2_WORDS = [
     "de": "Ärger",
     "de_article": "der",
     "de_plural": null,
-    "lv": "viha • pahameel",
+    "lv": "`pahameel`",
     "level": "A2"
   },
   {
     "de": "ärgerlich",
-    "lv": "ärritav • vihane",
+    "lv": "ärritav",
     "level": "A2"
   },
   {
     "de": "ärgern",
-    "lv": "ärritama • vihastama",
+    "lv": "ärritama",
     "level": "A2"
   },
   {
@@ -6231,7 +6231,7 @@ const A2_WORDS = [
   },
   {
     "de": "auf der Stelle",
-    "lv": "kohe • kohapeal",
+    "lv": "kohe",
     "level": "A2"
   },
   {
@@ -6241,7 +6241,7 @@ const A2_WORDS = [
   },
   {
     "de": "auf einmal",
-    "lv": "järsku • äkki",
+    "lv": "järsku",
     "level": "A2"
   },
   {
@@ -6251,19 +6251,19 @@ const A2_WORDS = [
   },
   {
     "de": "auf und ab",
-    "lv": "edasi-tagasi • üles-alla",
+    "lv": "`üles-alla`",
     "level": "A2"
   },
   {
     "de": "Aufbau",
     "de_article": "der",
     "de_plural": "die Aufbauten",
-    "lv": "ülesehitus • ülesseadmine",
+    "lv": "ülesehitus",
     "level": "A2"
   },
   {
     "de": "aufbrechen",
-    "lv": "teele asuma • lahti murdma",
+    "lv": "teele asuma",
     "level": "A2"
   },
   {
@@ -6327,7 +6327,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-aufheben",
       "layout": "standardStudy",
-      "translation": "üles tõstma • tühistama • alles hoidma",
+      "translation": "üles tõstma",
       "explanation": "Põhiidee: aufheben tähendab olenevalt sellest, mida tehakse, üles tõstma, tühistama või alles hoidma. aufheben võib tähendada millegi maast üles tõstmist. See võib tähendada ka reegli, keelu või otsuse tühistamist. Igapäevaelus võib aufheben tähendada ka hilisemaks ajaks alles hoidmist. Need tähendused on väga erinevad, seepärast tuleb sõna vaadata kontekstis. Eriti tähtis on eristada üles tõstmist ja tühistamist.",
       "examples": [
         {
@@ -6716,7 +6716,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufklären",
-    "lv": "välja selgitama • selgitama",
+    "lv": "välja selgitama",
     "level": "A2"
   },
   {
@@ -6909,7 +6909,7 @@ const A2_WORDS = [
     "de": "Aufmarsch",
     "de_article": "der",
     "de_plural": "die Aufmärsche",
-    "lv": "rongkäik • demonstratsioon",
+    "lv": "rongkäik",
     "level": "A2"
   },
   {
@@ -6931,7 +6931,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-aufnahme",
       "layout": "standardStudy",
-      "translation": "vastuvõtt • salvestus • foto",
+      "translation": "vastuvõtt",
       "explanation": "Põhiidee: die Aufnahme tähendab olenevalt kontekstist vastuvõtmist, salvestist või tehtud fotot. Foto või video puhul võib see olla foto või salvestis. Inimeste puhul võib see tähendada vastuvõtmist kooli, haiglasse või rühma. Heli puhul on see helisalvestis. Kontekst määrab, kas jutt on pildist, helist või inimese vastuvõtmisest.",
       "examples": [
         {
@@ -7504,7 +7504,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-aufrichtig",
       "layout": "standardStudy",
-      "translation": "siiras • südamlik • avameelne",
+      "translation": "siiras",
       "explanation": "Põhiidee: aufrichtig tähendab siirast, südamlikku või avatud hoiakut. Seda kasutatakse vabanduse, kaastunde, soovide või inimese hoiaku kohta. aufrichtig rõhutab, et sõnad või tunded tulevad südamest ja ei ole teeseldud. See ei ole peamine sõna tähenduses “aus” faktide mõttes; selleks kasutatakse sagedamini ehrlich. Võrreldes sõnadega ehrlich, herzlich ja offen tuleb vaadata, kas jutt on mittevaletamisest, soojusest või avatusest.",
       "examples": [
         {
@@ -7821,7 +7821,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-aufrufen",
       "layout": "standardStudy",
-      "translation": "välja kutsuma • avama • kutsuma",
+      "translation": "`kutsuma`",
       "explanation": "Põhiidee: aufrufen tähendab kedagi välja kutsuma, midagi arvutis avama või avalikult tegutsema kutsuma. Koolis või koosolekul tähendab see nime hüüdmist. Arvutis tähendab see lehe või programmi avamist. Avalikus tekstis võib see tähendada inimeste üleskutsumist midagi tegema.",
       "examples": [
         {
@@ -7993,7 +7993,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufspringen",
-    "lv": "üles hüppama • lahti paiskuma",
+    "lv": "üles hüppama",
     "level": "A2"
   },
   {
@@ -9271,7 +9271,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufziehen",
-    "lv": "üles kasvatama • narrima",
+    "lv": "üles kasvatama",
     "level": "A2"
   },
   {
@@ -9319,7 +9319,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-aussteigen",
       "layout": "standardStudy",
-      "translation": "väljuma • välja astuma",
+      "translation": "väljuma",
       "explanation": "Põhiidee: aussteigen tähendab sõidukist väljumist või ülekantud tähenduses välja astumist. Seda kasutatakse auto, bussi, rongi või trammi puhul. Ülekantud tähenduses võib see tähendada projektist välja astumist või osalemise katkestamist. Sageli tuleb vaadata, kas lauses on sõiduk või abstraktne rühm/projekt. Seepärast tuleb “väljuma” ja “välja astuma” eristada.",
       "examples": [
         {
@@ -9704,7 +9704,7 @@ const A2_WORDS = [
     "de": "Auswahl",
     "de_article": "die",
     "de_plural": "die Auswahlen",
-    "lv": "valik • väljavalimine",
+    "lv": "valik",
     "level": "A2"
   },
   {
@@ -10123,7 +10123,7 @@ const A2_WORDS = [
   },
   {
     "de": "auswärts",
-    "lv": "kodust väljas • võõrsil",
+    "lv": "kodust väljas",
     "level": "A2"
   },
   {
@@ -10145,7 +10145,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-ausziehen",
       "layout": "standardStudy",
-      "translation": "seljast võtma • välja kolima",
+      "translation": "seljast võtma",
       "explanation": "Põhiidee: ausziehen tähendab riiete äravõtmist või eluruumist välja kolimist. ausziehen on väga sagedane sõna kahe peamise tähendusega. Riiete puhul tähendab see ära võtma. Korteri või maja puhul tähendab see välja kolima. Tähenduse määrab objekt: Schuhe, Jacke, Wohnung või Haus. Seepärast tuleb “ära võtma” ja “välja kolima” eristada.",
       "examples": [
         {
@@ -10544,7 +10544,7 @@ const A2_WORDS = [
     "de": "Autopanne",
     "de_article": "die",
     "de_plural": "die Autopannen",
-    "lv": "autorike • rike",
+    "lv": "autorike",
     "level": "A2"
   },
   {
@@ -10558,7 +10558,7 @@ const A2_WORDS = [
     "de": "Autounfall",
     "de_article": "der",
     "de_plural": "die Autounfälle",
-    "lv": "liiklusõnnetus • avarii",
+    "lv": "liiklusõnnetus",
     "level": "A2"
   },
   {
@@ -11015,7 +11015,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-band",
       "layout": "standardStudy",
-      "translation": "lint • side",
+      "translation": "lint",
       "explanation": "Põhiidee: das Band tähendab paela või sidet, aga die Band tähendab muusikabändi. das Band tähendab kõige sagedamini paela, sidet või riba. Seda kasutatakse kingipaelte, juuksepaelte ja tehniliste lintide kohta. See võib tähendada ka sidet inimeste vahel. Förderband on konveierilint. Oluline on mitte ajada segi das Band ja die Band: die Band tähendab muusikabändi.",
       "examples": [
         {
@@ -11337,7 +11337,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-bank",
       "layout": "standardStudy",
-      "translation": "pank • pink • madalik",
+      "translation": "pank",
       "explanation": "Põhiidee: die Bank tähendab olenevalt olukorrast panka, pinki või madalikku. Finantstähenduses on mitmus die Banken. Pingi (Sitzbank) mitmus on die Bänke — umlaudiga! Looduse kontekstis tähendab Sandbank liivamadalikku. Liitsõnad aitavad: Bankfiliale, Parkbank, Sandbank.",
       "examples": [
         {
@@ -11840,7 +11840,7 @@ const A2_WORDS = [
     "de": "Bauarbeiter",
     "de_article": "der",
     "de_plural": "die Bauarbeiter",
-    "lv": "ehitustööline • ehitaja",
+    "lv": "ehitustööline",
     "level": "A2"
   },
   {
@@ -11856,7 +11856,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-bauen",
       "layout": "standardStudy",
-      "translation": "ehitama • püstitama • valmistama",
+      "translation": "ehitama",
       "explanation": "Põhiidee: bauen tähendab ehitama, rajama või midagi praktiliselt valmistama. bauen ei ole ainult “maja ehitama”. Seda kasutatakse, kui rajatakse või ehitatakse hooneid ja sildu. Igapäevaelus võib bauen tähendada ka millegi kätega tegemist või valmistamist. Põllumajanduses võib bauen tähendada kasvatamist, näiteks köögivilju. Fraasides koos auf võib see tähendada millelegi toetumist või millelegi lootmist.",
       "examples": [
         {
@@ -12506,7 +12506,7 @@ const A2_WORDS = [
   },
   {
     "de": "beachten",
-    "lv": "järgima • arvesse võtma",
+    "lv": "järgima",
     "level": "A2"
   },
   {
@@ -13491,7 +13491,7 @@ const A2_WORDS = [
   {
     "de": "Beginn",
     "de_article": "der",
-    "lv": "algus • alustus",
+    "lv": "algus",
     "level": "A2"
   },
   {
@@ -13501,14 +13501,14 @@ const A2_WORDS = [
   },
   {
     "de": "begrüßen",
-    "lv": "tervitama • teretama",
+    "lv": "tervitama",
     "level": "A2"
   },
   {
     "de": "Begrüßung",
     "de_article": "die",
     "de_plural": "die Begrüßungen",
-    "lv": "tervitus • tervitamine",
+    "lv": "tervitus",
     "level": "A2"
   },
   {
@@ -13518,7 +13518,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-behalten",
       "layout": "standardStudy",
-      "translation": "endale jätma • meeles pidama",
+      "translation": "endale jätma",
       "explanation": "Põhiidee: behalten tähendab midagi endale jätma või meeles pidama. behalten tähendab millegi enda omandis või enda juures hoidmist. See võib tähendada ka meeles pidamist, seega mäletamist. Esemete puhul tõlgitakse behalten tavaliselt kui endale jätma. Teabe, sõna või arvu puhul tähendab see sageli mäletama. Fraas im Kopf behalten tähendab peas pidama.",
       "examples": [
         {
@@ -14337,7 +14337,7 @@ const A2_WORDS = [
   },
   {
     "de": "beißen",
-    "lv": "hammustama • katki hammustama • sisse hammustama",
+    "lv": "hammustama",
     "level": "A2"
   },
   {
@@ -14347,7 +14347,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-bekannt",
       "layout": "standardStudy",
-      "translation": "tuntud • teadaolev",
+      "translation": "tuntud",
       "explanation": "Põhiidee: bekannt tähendab tuntud või teada olenevalt sellest, kas jutt on inimesest, faktist või asjast. bekannt tähendab tuntud või teada. See võib kirjeldada inimest, kohta, fakti või teavet. Kui inimene on bekannt, võib ta olla teistele tuttav või kuulus. Kui fakt on bekannt, siis see on teada. bekannt ei ole sama mis befreundet, sest befreundet tähendab suhete mõttes sõbralik või sõpruses olev.",
       "examples": [
         {
@@ -14768,7 +14768,7 @@ const A2_WORDS = [
   },
   {
     "de": "beliebt",
-    "lv": "armastatud • hinnatud • populaarne",
+    "lv": "`populaarne`",
     "level": "A2"
   },
   {
@@ -14778,7 +14778,7 @@ const A2_WORDS = [
   },
   {
     "de": "benötigen",
-    "lv": "vajama • vajalik olema",
+    "lv": "vajama",
     "level": "A2"
   },
   {
@@ -14794,7 +14794,7 @@ const A2_WORDS = [
   },
   {
     "de": "bequem",
-    "lv": "mugav • käepärane",
+    "lv": "mugav",
     "level": "A2"
   },
   {
@@ -14840,7 +14840,7 @@ const A2_WORDS = [
   },
   {
     "de": "besonders",
-    "lv": "eriti • iseäranis • eelkõige",
+    "lv": "eriti",
     "level": "A2"
   },
   {
@@ -15589,7 +15589,7 @@ const A2_WORDS = [
   },
   {
     "de": "bewölkt",
-    "lv": "pilves • pilvine",
+    "lv": "pilves",
     "level": "A2"
   },
   {
@@ -15632,7 +15632,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-birne",
       "layout": "standardStudy",
-      "translation": "pirn • lambipirn",
+      "translation": "pirn",
       "explanation": "Põhiidee: die Birne tähendab kõige sagedamini pirni, aga igapäevaelus võib see tähendada ka lambipirni. Vilja puhul on kontekst söömine, pood või puu. Lambipirni puhul on kontekst lamp, valgus või elekter. die Lampe on lamp, mitte vili ise. Kui on vaja lambipirni kohta väga täpne olla, võib kasutada ka die Glühbirne.",
       "examples": [
         {
@@ -16517,7 +16517,7 @@ const A2_WORDS = [
     "de": "Blick",
     "de_article": "der",
     "de_plural": "die Blicke",
-    "lv": "vaade • pilk",
+    "lv": "vaade",
     "level": "A2"
   },
   {
@@ -16534,7 +16534,7 @@ const A2_WORDS = [
   },
   {
     "de": "blühen",
-    "lv": "õitsema • puhkema",
+    "lv": "õitsema",
     "level": "A2"
   },
   {
@@ -17051,7 +17051,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-borgen",
       "layout": "standardStudy",
-      "translation": "laenuks võtma • laenuks andma",
+      "translation": "laenuks võtma",
       "explanation": "Põhiidee: borgen võib tähendada nii laenuks võtma kui ka laenuks andma ning suuna määrab lause. borgen võib tähendada nii laenuks võtmist kui ka laenuks andmist. Suund saab selgeks isiku ja Dativi järgi. Kui ma võtan midagi teiselt, on see eesti keeles laenuks võtma. Kui ma annan teisele ajutiselt, on see eesti keeles laenuks andma. Igapäevaelus kasutatakse sageli ka leihen väga sarnases tähenduses. Seepärast tuleb borgen lugeda konteksti järgi.",
       "examples": [
         {
@@ -17422,7 +17422,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-böse",
       "layout": "standardStudy",
-      "translation": "kuri • pahane",
+      "translation": "kuri",
       "explanation": "Põhiidee: böse tähendab olenevalt kontekstist kuri või vihane. Inimese iseloomu või teo kohta võib see tähendada kuri. Igapäevases vestluses tähendab böse auf jemanden sein kellegi peale vihane olema. Halb on tavaliselt schlecht. Raevukas on täpsemalt zornig või väga vihane.",
       "examples": [
         {
@@ -18217,14 +18217,14 @@ const A2_WORDS = [
     "de": "Brei",
     "de_article": "der",
     "de_plural": "die Breie",
-    "lv": "puder • püree",
+    "lv": "puder",
     "level": "A2"
   },
   {
     "de": "Bremse",
     "de_article": "die",
     "de_plural": "die Bremsen",
-    "lv": "pidur • parm",
+    "lv": "pidur",
     "level": "A2"
   },
   {
@@ -18547,7 +18547,7 @@ const A2_WORDS = [
     "de": "Briefkasten",
     "de_article": "der",
     "de_plural": "die Briefkästen",
-    "lv": "postkast • kirjakast",
+    "lv": "postkast",
     "level": "A2"
   },
   {
@@ -18589,7 +18589,7 @@ const A2_WORDS = [
     "de": "Brust",
     "de_article": "die",
     "de_plural": "die Brüste",
-    "lv": "rind • rinnad",
+    "lv": "rind",
     "level": "A2"
   },
   {
@@ -18613,7 +18613,7 @@ const A2_WORDS = [
   },
   {
     "de": "bunt",
-    "lv": "värviline • kirju",
+    "lv": "värviline",
     "level": "A2"
   },
   {
@@ -18627,7 +18627,7 @@ const A2_WORDS = [
     "de": "Bürgersteig",
     "de_article": "der",
     "de_plural": "die Bürgersteige",
-    "lv": "kõnnitee • trotuaar",
+    "lv": "kõnnitee",
     "level": "A2"
   },
   {
@@ -18655,7 +18655,7 @@ const A2_WORDS = [
     "de": "Chance",
     "de_article": "die",
     "de_plural": "die Chancen",
-    "lv": "võimalus • väljavaated • soodne juhus",
+    "lv": "võimalus",
     "level": "A2"
   },
   {
@@ -19124,7 +19124,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-dafür",
       "layout": "standardStudy",
-      "translation": "selle eest • selleks • seevastu",
+      "translation": "selle eest",
       "explanation": [
         "Põhiidee: dafür tähendab olenevalt lausest selle eest, selleks või seevastu.",
         "dafür viitab sageli varem mainitud asjale või tegevusele: selle eest.",
@@ -19532,7 +19532,7 @@ const A2_WORDS = [
   },
   {
     "de": "damals",
-    "lv": "tollal • sel ajal",
+    "lv": "tollal",
     "level": "A2"
   },
   {
@@ -19947,7 +19947,7 @@ const A2_WORDS = [
   },
   {
     "de": "danach",
-    "lv": "pärast seda • selle järel",
+    "lv": "pärast seda",
     "level": "A2"
   },
   {
@@ -20343,7 +20343,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-darauf",
       "layout": "standardStudy",
-      "translation": "sellele • sellel • pärast seda",
+      "translation": "sellele",
       "explanation": [
         "Põhiidee: darauf tähendab olenevalt kontekstist selle peale, selle peal või pärast seda.",
         "Kui jutt on pinnast, tähendab darauf selle peal.",
@@ -21514,7 +21514,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-davon",
       "layout": "standardStudy",
-      "translation": "sellest • selle kohta",
+      "translation": "sellest",
       "explanation": [
         "Põhiidee: davon tähendab olenevalt kontekstist “sellest” või “selle kohta”.",
         "Kui jutt on päritolust või osast, tähendab davon tavaliselt sellest.",
@@ -23052,17 +23052,17 @@ const A2_WORDS = [
   },
   {
     "de": "deshalb",
-    "lv": "seepärast • seetõttu",
+    "lv": "seepärast",
     "level": "A2"
   },
   {
     "de": "deswegen",
-    "lv": "seepärast • seetõttu",
+    "lv": "seepärast",
     "level": "A2"
   },
   {
     "de": "deutlich",
-    "lv": "selge • selgelt • arusaadav",
+    "lv": "selge",
     "level": "A2"
   },
   {
@@ -23434,7 +23434,7 @@ const A2_WORDS = [
   },
   {
     "de": "direkt",
-    "lv": "otsene • otse",
+    "lv": "otsene",
     "level": "A2"
   },
   {
@@ -24279,7 +24279,7 @@ const A2_WORDS = [
   },
   {
     "de": "doppelt",
-    "lv": "kahekordne • topelt",
+    "lv": "kahekordne",
     "level": "A2"
   },
   {
@@ -24291,12 +24291,12 @@ const A2_WORDS = [
   },
   {
     "de": "dorthin",
-    "lv": "sinna • sinnapoole",
+    "lv": "sinna",
     "level": "A2"
   },
   {
     "de": "draußen",
-    "lv": "väljas • õues",
+    "lv": "väljas",
     "level": "A2"
   },
   {
@@ -24306,7 +24306,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-drehen",
       "layout": "standardStudy",
-      "translation": "keerama • pöörama",
+      "translation": "keerama",
       "explanation": [
         "Põhiidee: drehen tähendab midagi ümber telje keerama või pöörama, mitte noaga lõikama.",
         "Seda kasutatakse, kui miski pöörleb või seda keeratakse.",
@@ -24578,7 +24578,7 @@ const A2_WORDS = [
   },
   {
     "de": "drüben",
-    "lv": "teisel pool • sealpool",
+    "lv": "teisel pool",
     "level": "A2"
   },
   {
@@ -24847,12 +24847,12 @@ const A2_WORDS = [
   },
   {
     "de": "dumm",
-    "lv": "rumal • loll",
+    "lv": "rumal",
     "level": "A2"
   },
   {
     "de": "dunkel",
-    "lv": "tume • ebaselge",
+    "lv": "tume",
     "level": "A2"
   },
   {
@@ -25896,12 +25896,12 @@ const A2_WORDS = [
   },
   {
     "de": "ebenfalls",
-    "lv": "ka • samuti",
+    "lv": "`samuti`",
     "level": "A2"
   },
   {
     "de": "ebenso",
-    "lv": "samuti • täpselt samuti",
+    "lv": "samuti",
     "level": "A2"
   },
   {
@@ -25940,7 +25940,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-ehrlich",
       "layout": "standardStudy",
-      "translation": "aus • avameelne",
+      "translation": "aus",
       "explanation": [
         "Põhiidee: ehrlich tähendab aus või avameelne, eriti kui inimene ei valeta.",
         "ehrlich kasutatakse inimese, vastuse või teo kohta.",
@@ -26586,7 +26586,7 @@ const A2_WORDS = [
   },
   {
     "de": "einander",
-    "lv": "üksteist • teineteist",
+    "lv": "üksteist",
     "level": "A2"
   },
   {
@@ -26603,14 +26603,14 @@ const A2_WORDS = [
   },
   {
     "de": "einige",
-    "lv": "mõned • vähesed",
+    "lv": "mõned",
     "level": "A2"
   },
   {
     "de": "Einkauf",
     "de_article": "der",
     "de_plural": "die Einkäufe",
-    "lv": "ostlemine • ost",
+    "lv": "ostlemine",
     "level": "A2"
   },
   {
@@ -27018,7 +27018,7 @@ const A2_WORDS = [
   },
   {
     "de": "einsam",
-    "lv": "üksildane • üksik",
+    "lv": "üksildane",
     "level": "A2"
   },
   {
@@ -27401,7 +27401,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-einschlafen",
       "layout": "standardStudy",
-      "translation": "magama jääma • tuimaks jääma",
+      "translation": "magama jääma",
       "explanation": "Põhiidee: einschlafen tähendab magama jääma; käe või jala kohta tähendab see tuimaks jääma. Inimese puhul tähendab see tavaliselt, et keegi uinub. Kehaosa puhul tähendab einschlafen, et see muutub tundetuks. Eesti keeles on “uinuma” sünonüüm, aga peamine A2 tähendus on “magama jääma”. Kontekst näitab, kas jutt on unest või tuimusest.",
       "examples": [
         {
@@ -28543,7 +28543,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-eng",
       "layout": "standardStudy",
-      "translation": "kitsas • liibuv",
+      "translation": "kitsas",
       "explanation": [
         "Põhiidee: eng tähendab ruumi kohta kitsas, riiete kohta liibuv ja suhete kohta lähedane.",
         "Ruumist või teest rääkides eng = kitsas (eine enge Straße = kitsas tänav).",
@@ -28722,7 +28722,7 @@ const A2_WORDS = [
   },
   {
     "de": "entschuldigen",
-    "lv": "vabandama • vabandust paluma",
+    "lv": "vabandama",
     "level": "A2"
   },
   {
@@ -28744,7 +28744,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-erfahren",
       "layout": "standardStudy",
-      "translation": "teada saama • kogema",
+      "translation": "teada saama",
       "explanation": "Põhiidee: erfahren tähendab teavet teada saama või midagi kogema. Igapäevaelus tähendab see väga sageli uudise, fakti või uue teabe teada saamist. Teises kontekstis tähendab see olukorra läbielamist või kogemist. erfahren ei ole sama mis wissen, sest wissen tähendab juba teadma. Inimese kohta tähendab omadussõna erfahren kogenud.",
       "examples": [
         {
@@ -29388,7 +29388,7 @@ const A2_WORDS = [
     "de": "Erinnerung",
     "de_article": "die",
     "de_plural": "die Erinnerungen",
-    "lv": "mälestus • meenutus",
+    "lv": "mälestus",
     "level": "A2"
   },
   {
@@ -29400,17 +29400,17 @@ const A2_WORDS = [
   },
   {
     "de": "erkennen",
-    "lv": "ära tundma • aru saama",
+    "lv": "ära tundma",
     "level": "A2"
   },
   {
     "de": "erklären",
-    "lv": "selgitama • seletama",
+    "lv": "selgitama",
     "level": "A2"
   },
   {
     "de": "erlauben",
-    "lv": "lubama • laskma",
+    "lv": "lubama",
     "level": "A2"
   },
   {
@@ -29426,7 +29426,7 @@ const A2_WORDS = [
   },
   {
     "de": "erreichen",
-    "lv": "saavutama • õigeks ajaks jõudma",
+    "lv": "saavutama",
     "level": "A2"
   },
   {
@@ -29441,17 +29441,17 @@ const A2_WORDS = [
   },
   {
     "de": "erwärmen",
-    "lv": "soojendama • üles soojendama",
+    "lv": "soojendama",
     "level": "A2"
   },
   {
     "de": "erwarten",
-    "lv": "ootama • ära ootama",
+    "lv": "ootama",
     "level": "A2"
   },
   {
     "de": "erzählen",
-    "lv": "jutustama • rääkima",
+    "lv": "jutustama",
     "level": "A2"
   },
   {
@@ -29903,7 +29903,7 @@ const A2_WORDS = [
     "de": "Fabrik",
     "de_article": "die",
     "de_plural": "die Fabriken",
-    "lv": "tehas • vabrik",
+    "lv": "tehas",
     "level": "A2"
   },
   {
@@ -30430,7 +30430,7 @@ const A2_WORDS = [
     "de": "Fahrer",
     "de_article": "der",
     "de_plural": "die Fahrer",
-    "lv": "juht • autojuht",
+    "lv": "`autojuht`",
     "level": "A2"
   },
   {
@@ -30451,7 +30451,7 @@ const A2_WORDS = [
     "de": "Fahrt",
     "de_article": "die",
     "de_plural": "die Fahrten",
-    "lv": "sõit • reis",
+    "lv": "sõit",
     "level": "A2"
   },
   {
@@ -30943,12 +30943,12 @@ const A2_WORDS = [
   },
   {
     "de": "fallen",
-    "lv": "kukkuma • maha kukkuma",
+    "lv": "kukkuma",
     "level": "A2"
   },
   {
     "de": "falten",
-    "lv": "voltima • kokku voltima",
+    "lv": "voltima",
     "level": "A2"
   },
   {
@@ -30966,12 +30966,12 @@ const A2_WORDS = [
   },
   {
     "de": "fangen",
-    "lv": "püüdma • kinni püüdma",
+    "lv": "püüdma",
     "level": "A2"
   },
   {
     "de": "färben",
-    "lv": "värvima • ära värvima",
+    "lv": "värvima",
     "level": "A2"
   },
   {
@@ -31380,7 +31380,7 @@ const A2_WORDS = [
     "de": "Feier",
     "de_article": "die",
     "de_plural": "die Feiern",
-    "lv": "pidu • pidustused",
+    "lv": "pidu",
     "level": "A2"
   },
   {
@@ -31404,7 +31404,7 @@ const A2_WORDS = [
   },
   {
     "de": "fein",
-    "lv": "peen • rafineeritud",
+    "lv": "peen",
     "level": "A2"
   },
   {
@@ -31425,7 +31425,7 @@ const A2_WORDS = [
     "de": "Fell",
     "de_article": "das",
     "de_plural": "die Felle",
-    "lv": "karvkate • karusnahk",
+    "lv": "karvkate",
     "level": "A2"
   },
   {
@@ -31774,7 +31774,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-feuer",
       "layout": "standardStudy",
-      "translation": "tuli • tulekahju",
+      "translation": "tuli",
       "explanation": "das Feuer võib tähendada kontrollitud tuld, näiteks lõket või tuld ahjus. See võib tähendada ka tulekahju, kui tuli on ohtlik või kontrollimatu. Feuer seostub sageli põlemise ja leekidega. Koos Feuerwehr tähendab see sageli tulekahju, mida kustutatakse. Sõjaväe või politsei kontekstis võib Feuer tähendada tulistamist või tule avamist.",
       "examples": [
         {
@@ -32248,7 +32248,7 @@ const A2_WORDS = [
     "de": "Figur",
     "de_article": "die",
     "de_plural": "die Figuren",
-    "lv": "figuur • kehakuju",
+    "lv": "figuur",
     "level": "A2"
   },
   {
@@ -32265,7 +32265,7 @@ const A2_WORDS = [
   },
   {
     "de": "fischen",
-    "lv": "kala püüdma • õngitsema",
+    "lv": "kala püüdma",
     "level": "A2"
   },
   {
@@ -32284,7 +32284,7 @@ const A2_WORDS = [
   },
   {
     "de": "flach",
-    "lv": "lame • madal",
+    "lv": "lame",
     "level": "A2"
   },
   {
@@ -32298,19 +32298,19 @@ const A2_WORDS = [
     "de": "Fleck",
     "de_article": "der",
     "de_plural": "die Flecke",
-    "lv": "plekk • laik",
+    "lv": "plekk",
     "level": "A2"
   },
   {
     "de": "fleißig",
-    "lv": "töökas • püüdlik",
+    "lv": "töökas",
     "level": "A2"
   },
   {
     "de": "Fliege",
     "de_article": "die",
     "de_plural": "die Fliegen",
-    "lv": "kärbes • kikilips",
+    "lv": "kärbes",
     "level": "A2"
   },
   {
@@ -32352,7 +32352,7 @@ const A2_WORDS = [
     "de": "Flur",
     "de_article": "der",
     "de_plural": "die Flure",
-    "lv": "esik • koridor",
+    "lv": "esik",
     "level": "A2"
   },
   {
@@ -32728,7 +32728,7 @@ const A2_WORDS = [
   },
   {
     "de": "folgend",
-    "lv": "järgnev • järgmine",
+    "lv": "järgnev",
     "level": "A2"
   },
   {
@@ -32752,12 +32752,12 @@ const A2_WORDS = [
   },
   {
     "de": "fort",
-    "lv": "ära • eemal",
+    "lv": "ära",
     "level": "A2"
   },
   {
     "de": "fortgehen",
-    "lv": "ära minema • lahkuma",
+    "lv": "ära minema",
     "level": "A2"
   },
   {
@@ -32797,7 +32797,7 @@ const A2_WORDS = [
   },
   {
     "de": "fremd",
-    "lv": "võõras • tundmatu",
+    "lv": "võõras",
     "level": "A2"
   },
   {
@@ -32871,7 +32871,7 @@ const A2_WORDS = [
   },
   {
     "de": "fröhlich",
-    "lv": "rõõmus • lõbus",
+    "lv": "rõõmus",
     "level": "A2"
   },
   {
@@ -32897,7 +32897,7 @@ const A2_WORDS = [
   },
   {
     "de": "früher",
-    "lv": "varem • endine",
+    "lv": "varem",
     "level": "A2"
   },
   {
@@ -32909,7 +32909,7 @@ const A2_WORDS = [
   },
   {
     "de": "fühlen",
-    "lv": "tundma • tunnetama",
+    "lv": "tundma",
     "level": "A2"
   },
   {
@@ -33354,7 +33354,7 @@ const A2_WORDS = [
   },
   {
     "de": "füllen",
-    "lv": "täitma • täis valama",
+    "lv": "täitma",
     "level": "A2"
   },
   {
@@ -33366,12 +33366,12 @@ const A2_WORDS = [
   },
   {
     "de": "funktionieren",
-    "lv": "toimima • töötama",
+    "lv": "toimima",
     "level": "A2"
   },
   {
     "de": "furchtbar",
-    "lv": "kohutav • hirmus",
+    "lv": "kohutav",
     "level": "A2"
   },
   {
@@ -33385,7 +33385,7 @@ const A2_WORDS = [
     "de": "Fußballspieler",
     "de_article": "der",
     "de_plural": "die Fußballspieler",
-    "lv": "jalgpallur • jalgpallimängija",
+    "lv": "jalgpallur",
     "level": "A2"
   },
   {
@@ -33406,7 +33406,7 @@ const A2_WORDS = [
     "de": "Fußweg",
     "de_article": "der",
     "de_plural": "die Fußwege",
-    "lv": "kõnnitee • jalgtee",
+    "lv": "kõnnitee",
     "level": "A2"
   },
   {
@@ -33430,7 +33430,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gang",
       "layout": "standardStudy",
-      "translation": "koridor • kõnnak • käik",
+      "translation": "`koridor`",
       "explanation": [
         "Põhiidee: der Gang tähenduse määrab kontekst: ruumis on see koridor, liikumises kõnnak, menüüs roa käik.",
         "Majas, koolis või hotellis tähendab Gang väga sageli koridor.",
@@ -33706,7 +33706,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gar",
       "layout": "minimalStudy",
-      "translation": "üldse • sugugi (eitavates lausetes)",
+      "translation": "üldse",
       "accent": "blue",
       "tip": "Kasuta ainult koos eitusega (nicht, kein), et seda tugevdada (\"üldse mitte\", \"sugugi mitte\").",
       "examples": [
@@ -33729,7 +33729,7 @@ const A2_WORDS = [
     "de": "Garderobe",
     "de_article": "die",
     "de_plural": "die Garderoben",
-    "lv": "garderoob • riietusruum",
+    "lv": "garderoob",
     "level": "A2"
   },
   {
@@ -33763,7 +33763,7 @@ const A2_WORDS = [
   {
     "de": "Gebäck",
     "de_article": "das",
-    "lv": "küpsised • kondiitritooted",
+    "lv": "`küpsetised`",
     "level": "A2"
   },
   {
@@ -33784,7 +33784,7 @@ const A2_WORDS = [
     "de": "Gedanke",
     "de_article": "der",
     "de_plural": "die Gedanken",
-    "lv": "mõte • idee",
+    "lv": "mõte",
     "level": "A2"
   },
   {
@@ -33803,7 +33803,7 @@ const A2_WORDS = [
   },
   {
     "de": "gefährlich",
-    "lv": "ohtlik • riskantne",
+    "lv": "ohtlik",
     "level": "A2"
   },
   {
@@ -33817,21 +33817,21 @@ const A2_WORDS = [
     "de": "Gefühl",
     "de_article": "das",
     "de_plural": "die Gefühle",
-    "lv": "tunne • tunded",
+    "lv": "tunne",
     "level": "A2"
   },
   {
     "de": "Gegend",
     "de_article": "die",
     "de_plural": "die Gegenden",
-    "lv": "piirkond • ümbrus • naabruskond",
+    "lv": "piirkond",
     "level": "A2"
   },
   {
     "de": "Gegenstand",
     "de_article": "der",
     "de_plural": "die Gegenstände",
-    "lv": "ese • asi • teema",
+    "lv": "ese",
     "level": "A2"
   },
   {
@@ -33841,7 +33841,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gegenüber",
       "layout": "standardStudy",
-      "translation": "vastas • vastu • võrreldes",
+      "translation": "vastas",
       "explanation": [
         "Põhiidee: gegenüber tähendab koha kohta vastas, suhtumist kellegi vastu või võrdlust millegagi.",
         "Koha tähenduses tähendab gegenüber vastas või teisel pool.",
@@ -34464,7 +34464,7 @@ const A2_WORDS = [
   },
   {
     "de": "gemütlich",
-    "lv": "hubane • meeldiv • mugav",
+    "lv": "hubane",
     "level": "A2"
   },
   {
@@ -34474,7 +34474,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-genau",
       "layout": "standardStudy",
-      "translation": "täpne • just • täpselt",
+      "translation": "`täpselt`",
       "explanation": "Põhiidee: genau tähendab täpne või täpselt olenevalt sellest, kas see kirjeldab asja, arvu, kohta või tegevust. Omadussõnana tähendab see täpne. Määrsõnana tähendab see sageli just või täpselt. Vestluses võib genau tähendada “just nii”. See ei ole sama mis gerade või eben, kuigi eesti keeles tõlgitakse neid vahel sarnaselt.",
       "examples": [
         {
@@ -35432,7 +35432,7 @@ const A2_WORDS = [
     "de": "Geschmack",
     "de_article": "der",
     "de_plural": "die Geschmäcke",
-    "lv": "maitse • maitsemeel",
+    "lv": "maitse",
     "level": "A2"
   },
   {
@@ -35462,7 +35462,7 @@ const A2_WORDS = [
   },
   {
     "de": "getrennt",
-    "lv": "lahus • eraldi",
+    "lv": "lahus",
     "level": "A2"
   },
   {
@@ -35874,7 +35874,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gießen",
       "layout": "standardStudy",
-      "translation": "kastma • valama",
+      "translation": "kastma",
       "explanation": [
         "Põhiidee: gießen tähendab taimi kastma või vedelikku valama.",
         "Lillede, taimede ja aia puhul tähendab gießen kõige sagedamini kastma.",
@@ -36243,7 +36243,7 @@ const A2_WORDS = [
   },
   {
     "de": "glatt",
-    "lv": "sile • libe",
+    "lv": "sile",
     "level": "A2"
   },
   {
@@ -36293,7 +36293,7 @@ const A2_WORDS = [
   },
   {
     "de": "gratis",
-    "lv": "tasuta • ilma rahata",
+    "lv": "tasuta",
     "level": "A2"
   },
   {
@@ -36827,7 +36827,7 @@ const A2_WORDS = [
     "de": "Haarschnitt",
     "de_article": "der",
     "de_plural": "die Haarschnitte",
-    "lv": "juukselõikus • soeng",
+    "lv": "juukselõikus",
     "level": "A2"
   },
   {
@@ -36867,7 +36867,7 @@ const A2_WORDS = [
     "de": "Hähnchen",
     "de_article": "das",
     "de_plural": "die Hähnchen",
-    "lv": "kanapoeg • kanaliha",
+    "lv": "`kanaliha`",
     "level": "A2"
   },
   {
@@ -36944,7 +36944,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-hängen",
       "layout": "standardStudy",
-      "translation": "rippuma • riputama",
+      "translation": "rippuma",
       "explanation": [
         "Põhiidee: hängen tähendab rippuma või midagi seinale, uksele või mujale riputama.",
         "Kui asi ise on seina küljes või konksu otsas, öeldakse eesti keeles tavaliselt rippuma.",
@@ -37285,7 +37285,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-hart",
       "layout": "standardStudy",
-      "translation": "kõva • raske",
+      "translation": "kõva",
       "explanation": [
         "Põhiidee: hart tähendab materjali kohta kõva, olukorra või iseloomu kohta raske/karm.",
         "Materjalist või pinnast rääkides hart = kõva (Der Stein ist hart. = Kivi on kõva.).",
@@ -37711,7 +37711,7 @@ const A2_WORDS = [
   },
   {
     "de": "höher",
-    "lv": "kõrgem • kõrgemal",
+    "lv": "kõrgem",
     "level": "A2"
   },
   {
@@ -38436,7 +38436,7 @@ const A2_WORDS = [
     "de": "Insekt",
     "de_article": "das",
     "de_plural": "die Insekten",
-    "lv": "putukas • insekt",
+    "lv": "putukas",
     "level": "A2"
   },
   {
@@ -38543,7 +38543,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-je",
       "layout": "standardStudy",
-      "translation": "kunagi • kaupa",
+      "translation": "kunagi",
       "explanation": [
         "Põhiidee: je muudab tähendust olenevalt lause vormist ja seda tuleb sageli vaadata koos teiste sõnadega.",
         "Küsimustes ja eitavates lausetes tähendab je sageli kunagi.",
@@ -38741,7 +38741,7 @@ const A2_WORDS = [
   },
   {
     "de": "jemanden baden",
-    "lv": "vannitama • vannis pesema",
+    "lv": "vannitama",
     "level": "A2"
   },
   {
@@ -39338,7 +39338,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-kaum",
       "layout": "standardStudy",
-      "translation": "peaaegu üldse mitte • vaevu",
+      "translation": "peaaegu üldse mitte",
       "explanation": [
         "Põhiidee: kaum tähendab tavaliselt peaaegu mitte või vaevu, olenevalt lausest.",
         "Kui jutt on kogusest või võimalusest, tähendab kaum sageli peaaegu mitte.",
@@ -42846,7 +42846,7 @@ const A2_WORDS = [
   {
     "de": "Leid",
     "de_article": "das",
-    "lv": "kannatused • mured",
+    "lv": "kannatused",
     "level": "A2"
   },
   {
@@ -43178,7 +43178,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-leihen",
       "layout": "standardStudy",
-      "translation": "laenuks andma • laenuks võtma",
+      "translation": "laenuks andma",
       "explanation": "leihen on väga sarnane sõnaga borgen ja võib tähendada nii laenuks andma kui ka laenuks võtma. Kui keegi annab sulle asja ajutiselt, siis ta laenab selle sulle. Kui sina selle ajutiselt saad, siis sina laenad selle endale. Dativi vorm näitab sageli, kellele asi antakse. Kõnekeeles on see sõna väga praktiline. Seepärast tuleb vaadata kogu lause suunda.",
       "examples": [
         {
@@ -43560,7 +43560,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-leiter",
       "layout": "standardStudy",
-      "translation": "juht • redel",
+      "translation": "juht",
       "explanation": [
         "Põhiidee: Leiter on homonüüm — olenevalt soost tähendab juhti või redelit.",
         "der Leiter (meessugu) = juht, ülemus; mitmus: die Leiter.",
@@ -44228,7 +44228,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-liegen",
       "layout": "standardStudy",
-      "translation": "lamama • asuma",
+      "translation": "lamama",
       "explanation": [
         "Põhiidee: Asend: miski on juba pikali või horisontaalselt.",
         "liegen tähendab peamiselt: seisund.",
@@ -44527,7 +44527,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-los",
       "layout": "minimalStudy",
-      "translation": "vaba • lahti • mis toimub",
+      "translation": "vaba",
       "accent": "blue",
       "tip": "Kõnekeeles kasutatakse seda sageli, et küsida olukorra kohta või tähistada, et midagi on lahti lastud/vabastatud.",
       "examples": [
@@ -45026,7 +45026,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-merken",
       "layout": "standardStudy",
-      "translation": "märkama • meelde jätma",
+      "translation": "märkama",
       "explanation": [
         "Põhiidee: merken tähendab märkama või meelde jätma olenevalt lausest.",
         "Kui jutt on sellest, et sa midagi tunned või tähele paned, tähendab merken märkama.",
@@ -45769,7 +45769,7 @@ const A2_WORDS = [
     "de": "Möbel",
     "de_article": "das",
     "de_plural": "die Möbel",
-    "lv": "mööbliese • mööbel",
+    "lv": "mööbliese",
     "level": "A2"
   },
   {
@@ -46133,7 +46133,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-nagel",
       "layout": "standardStudy",
-      "translation": "sõrmeküüs • nael",
+      "translation": "sõrmeküüs",
       "explanation": [
         "Põhiidee: der Nagel võib tähendada sõrmeküünt või metallnaela — tähenduse määrab kontekst.",
         "Kehaosast rääkides der Nagel = sõrme-/varbaküüs.",
@@ -47640,7 +47640,7 @@ const A2_WORDS = [
     "de": "Öl",
     "de_article": "das",
     "de_plural": "die Öle",
-    "lv": "õli • nafta",
+    "lv": "õli",
     "level": "A2"
   },
   {
@@ -48117,7 +48117,7 @@ const A2_WORDS = [
     "de": "Pension",
     "de_article": "die",
     "de_plural": "die Pensionen",
-    "lv": "külalistemaja • pansionaat",
+    "lv": "külalistemaja",
     "level": "A2"
   },
   {
@@ -48294,7 +48294,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-pflaster",
       "layout": "standardStudy",
-      "translation": "plaaster • sillutis",
+      "translation": "plaaster",
       "explanation": [
         "Põhiidee: das Pflaster on kahetähenduslik sõna — plaaster või sillutis olenevalt kontekstist.",
         "Meditsiinis ja kodus tähendab Pflaster plaastrit, mis kleebitakse haavale või kriimustusele.",
@@ -49168,7 +49168,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-raten",
       "layout": "standardStudy",
-      "translation": "soovitama • ära arvama",
+      "translation": "soovitama",
       "explanation": [
         "Põhiidee: raten tähendab nõu andma või ära arvata püüdma.",
         "Kui kellelegi antakse nõu, kasutatakse saksa keeles sageli raten koos Dativi vormiga.",
@@ -49709,7 +49709,7 @@ const A2_WORDS = [
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "riik • impeerium • kuningriik",
+    "lv": "riik",
     "level": "A2"
   },
   {
@@ -49719,7 +49719,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-reichen",
       "layout": "standardStudy",
-      "translation": "piisama • ulatama",
+      "translation": "piisama",
       "explanation": [
         "Põhiidee: reichen tähendab piisama või ulatama olenevalt lausest.",
         "Kui jutt on kogusest, ajast või rahast, tähendab reichen sageli piisama.",
@@ -50010,7 +50010,7 @@ const A2_WORDS = [
     "de": "Rennen",
     "de_article": "das",
     "de_plural": "die Rennen",
-    "lv": "jooks • võistlus",
+    "lv": "`võistlus`",
     "level": "A2"
   },
   {
@@ -50048,7 +50048,7 @@ const A2_WORDS = [
     "de": "Rest",
     "de_article": "der",
     "de_plural": "die Reste",
-    "lv": "jääk • ülejääk • kangatükk",
+    "lv": "jääk",
     "level": "A2"
   },
   {
@@ -50067,7 +50067,7 @@ const A2_WORDS = [
     "de": "Rezeption",
     "de_article": "die",
     "de_plural": "die Rezeptionen",
-    "lv": "vastuvõtt • retseptsioon",
+    "lv": "vastuvõtt",
     "level": "A2"
   },
   {
@@ -50084,7 +50084,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-riechen",
       "layout": "standardStudy",
-      "translation": "lõhnama • nuusutama",
+      "translation": "lõhnama",
       "explanation": [
         "Põhiidee: riechen tähendab millegi järele lõhnama või midagi nuusutama.",
         "Kui alus on asi, tähendab riechen lõhnama või haisema.",
@@ -50479,7 +50479,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-rolle",
       "layout": "standardStudy",
-      "translation": "roll • rull",
+      "translation": "roll",
       "explanation": "die Rolle tähendab väga sageli rolli filmis, töös või olukorras. Fraas eine Rolle spielen tähendab rolli mängima või tähtis olema. Rolle võib tähendada ka rulli või rullikut, näiteks paberirulli. Teatri ja filmi kontekstis on Rolle roll. Esemete kontekstis on see sageli rull või rullik.",
       "examples": [
         {
@@ -52080,7 +52080,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-scharf",
       "layout": "standardStudy",
-      "translation": "terav • vürtsikas",
+      "translation": "terav",
       "explanation": [
         "Põhiidee: scharf tähendab olenevalt kontekstist terav või vürtsikas.",
         "Noa, kääride või serva kohta tähendab scharf terav.",
@@ -52372,7 +52372,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-scheinen",
       "layout": "standardStudy",
-      "translation": "paistma • tunduma",
+      "translation": "paistma",
       "explanation": "scheinen tähendab paistma, kui jutt on päikesest või valgusest. See võib tähendada ka tunduma või näima. Konstruktsioon es scheint tähendab sageli “tundub”. Koos zu + infinitiiviga väljendab see muljet inimesest või olukorrast. Tähenduse määrab kontekst: Sonne või Eindruck. Seepärast tuleb eristada füüsilist valgust ja muljet.",
       "examples": [
         {
@@ -52758,7 +52758,7 @@ const A2_WORDS = [
     "de": "Schild",
     "de_article": "das",
     "de_plural": "die Schilder",
-    "lv": "silt • plaadike • etikett pudelitel • vihikutel jms",
+    "lv": "silt",
     "level": "A2"
   },
   {
@@ -52795,7 +52795,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-schlange",
       "layout": "standardStudy",
-      "translation": "madu • järjekord",
+      "translation": "madu",
       "explanation": "die Schlange tähendab madu kui looma. Igapäevaelus tähendab see väga sageli ka järjekorda, kus inimesed ootavad. Fraas in der Schlange stehen tähendab järjekorras seisma. Kontekst näitab tähendust tavaliselt kohe: mets ja loom või pood ja inimesed. Mõlemad tähendused on A2 igapäevakeeles tähtsad.",
       "examples": [
         {
@@ -53603,7 +53603,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-schloss",
       "layout": "standardStudy",
-      "translation": "loss • lukk",
+      "translation": "loss",
       "explanation": "das Schloss võib tähendada lossi või lukku. Turismi ja ajaloo kontekstis tähendab see lossi. Ukse, jalgratta või võtme kontekstis tähendab Schloss lukku. Liitsõnad aitavad: Türschloss on ukselukk, Fahrradschloss on jalgrattalukk. Seepärast tuleb sõna lugeda ümbritsevate sõnade järgi.",
       "examples": [
         {
@@ -54177,7 +54177,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-schuld",
       "layout": "standardStudy",
-      "translation": "süü • võlg • vastutus",
+      "translation": "süü",
       "explanation": "die Schuld tähendab kõige sagedamini süüd või vastutust juhtunu eest. Fraas Schuld haben tähendab süüdi olema. jemandem die Schuld geben tähendab kedagi süüdistama. Mitmuses tähendab Schulden võlgu. Seepärast tuleb Schuld ja Schulden eriti hoolikalt eristada. Eesti keeles on “süü” ja “võlg” väga erineva tähendusega.",
       "examples": [
         {
@@ -54643,7 +54643,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-schwer",
       "layout": "standardStudy",
-      "translation": "raske • keeruline",
+      "translation": "raske",
       "explanation": [
         "Põhiidee: schwer tähendab füüsiliselt raske ehk kaalukas, ülekantud tähenduses raske ehk keeruline.",
         "Kaalust rääkides schwer = raske (Der Koffer ist schwer. = Kohver on raske.).",
@@ -54890,7 +54890,7 @@ const A2_WORDS = [
   },
   {
     "de": "servieren",
-    "lv": "pakkuma • serveerima",
+    "lv": "`serveerima`",
     "level": "A2"
   },
   {
@@ -55286,7 +55286,7 @@ const A2_WORDS = [
   },
   {
     "de": "sich erholen",
-    "lv": "puhkama • taastuma",
+    "lv": "puhkama",
     "level": "A2"
   },
   {
@@ -55946,7 +55946,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-setzen",
       "layout": "standardStudy",
-      "translation": "istuma panema • istuli panema",
+      "translation": "istuma panema",
       "explanation": [
         "Põhiidee: Tegevus: keegi paneb midagi istuma või asetab istuli.",
         "setzen tähendab peamiselt: tegevus.",
@@ -56075,7 +56075,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-sobald",
       "layout": "standardStudy",
-      "translation": "niipea kui • kohe kui",
+      "translation": "niipea kui",
       "explanation": "sobald tähendab niipea kui või kohe kui. See juhatab sisse kõrvallause ja saksa keeles on tegusõna selles kõrvallauses tavaliselt lõpus. sobald näitab, et üks tegevus toimub kohe pärast teist. See ei ole sama mis wenn, sest wenn võib tähendada “kui” ajas või “kui” tingimusena. Eesti keeles kõlab loomulikult sageli “niipea kui”.",
       "examples": [
         {
@@ -56520,7 +56520,7 @@ const A2_WORDS = [
     "de": "Sohle",
     "de_article": "die",
     "de_plural": "die Sohlen",
-    "lv": "tald • kingatald",
+    "lv": "tald",
     "level": "A2"
   },
   {
@@ -57036,7 +57036,7 @@ const A2_WORDS = [
     "de": "Spaß",
     "de_article": "der",
     "de_plural": "die Späße",
-    "lv": "nali • lõbu",
+    "lv": "`lõbu`",
     "level": "A2"
   },
   {
@@ -57172,7 +57172,7 @@ const A2_WORDS = [
   },
   {
     "de": "stattfinden",
-    "lv": "Musik. = koche, höre ich Süüa tehes kuulan ma muusikat.",
+    "lv": "`toimuma`",
     "level": "A2"
   },
   {
@@ -57507,7 +57507,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-steigen",
       "layout": "standardStudy",
-      "translation": "ronima • tõusma",
+      "translation": "ronima",
       "explanation": "Põhiidee: steigen tähendab ronima või ülespoole tõusma. Seda kasutatakse, kui inimene läheb mööda treppi üles, mäkke või sõidukisse. Hindade, arvude, temperatuuri või veetaseme puhul tähendab steigen tõusma või kerkima. See ei ole sama mis einsteigen, aussteigen või aufstehen.",
       "examples": [
         {
@@ -58370,7 +58370,7 @@ const A2_WORDS = [
   },
   {
     "de": "still",
-    "lv": "vaikne • rahulik",
+    "lv": "vaikne",
     "level": "A2"
   },
   {
@@ -58387,7 +58387,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-stimmen",
       "layout": "standardStudy",
-      "translation": "klappima • õige olema • hääletama",
+      "translation": "klappima",
       "explanation": "Põhiidee: stimmen tähendab, et miski klapib või on õige; teises kontekstis tähendab see hääletama. Igapäevaelus kuuleb väga sageli “Das stimmt” = “Nii on” või “See on õige”. Poliitikas või rühmas tähendab stimmen hääletama. Pilli puhul tähendab stimmen häälestama.",
       "examples": [
         {
@@ -58789,7 +58789,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-stoff",
       "layout": "standardStudy",
-      "translation": "kangas • aine • materjal",
+      "translation": "kangas",
       "explanation": "Põhiidee: der Stoff tähendab kõige sagedamini kangast või materjali, aga õppimises ja teaduses võib see tähendada ainet või õppematerjali. Riiete ja õmblemise puhul mõeldakse kangast. Keemia või füüsika puhul mõeldakse ainet. Koolis tähendab Unterrichtsstoff õppematerjali.",
       "examples": [
         {
@@ -59321,7 +59321,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-tafel",
       "layout": "standardStudy",
-      "translation": "tahvel • plaat",
+      "translation": "`tahvel`",
       "explanation": "Põhiidee: die Tafel tähendab kõige sagedamini tahvlit koolis, aga see võib tähendada ka plaati või tahvlikest. Koolis on die Tafel tahvel seinal. Šokolaadi kohta öeldakse sageli eine Tafel Schokolade = šokolaaditahvel. Tabel on saksa keeles tavaliselt die Tabelle, mitte die Tafel.",
       "examples": [
         {
@@ -59721,7 +59721,7 @@ const A2_WORDS = [
     "de": "Tannenbaum",
     "de_article": "der",
     "de_plural": "die Tannenbäume",
-    "lv": "kuusk • jõulukuusk",
+    "lv": "kuusk",
     "level": "A2"
   },
   {
@@ -59794,7 +59794,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-teil",
       "layout": "standardStudy",
-      "translation": "osa • detail • tükk",
+      "translation": "osa",
       "explanation": "das Teil tähendab kõige sagedamini osa millestki suuremast. Tehnilises kontekstis võib see tähendada detaili. Kõnekeeles võib Teil olla ese, tükk või rõivaese. Liitsõnad nagu Ersatzteil aitavad: see on varuosa. Auto, seadmete, riiete või terviku kontekst määrab tähenduse.",
       "examples": [
         {
@@ -60308,7 +60308,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-termin",
       "layout": "standardStudy",
-      "translation": "kokkulepitud kohtumine • tähtaeg",
+      "translation": "kokkulepitud kohtumine",
       "explanation": "Põhiidee: der Termin on kokkulepitud aeg arsti juures, asutuses, tööl või konkreetne tähtaeg. Igapäevaelus tähendab see sageli vastuvõtuaega või kohtumist kindlal ajal. Dokumentide ja tööde puhul võib Termin tähendada tähtaega. See ei ole sama mis das Treffen, sest Treffen on kohtumine ise, aga Termin on kokkulepitud aeg.",
       "examples": [
         {
@@ -60710,7 +60710,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-tief",
       "layout": "standardStudy",
-      "translation": "sügav • madal",
+      "translation": "sügav",
       "explanation": "Põhiidee: tief tähendab sügav, aga hääle, heli või temperatuuri puhul võib see tähendada madal. Vee, augu või oru kohta on tief tavaliselt sügav. Hääle või tooni kohta tähendab tief madal. Vastand on sageli hoch.",
       "examples": [
         {
@@ -61127,7 +61127,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-toll",
       "layout": "standardStudy",
-      "translation": "suurepärane • lahe • imeline",
+      "translation": "suurepärane",
       "explanation": [
         "Põhiidee: toll tähendab kõnekeeles suurepärane, lahe, imeline — positiivne hüüatus.",
         "toll kasutatakse sageli entusiasmi või imetluse väljendamiseks (Das ist toll! = See on suurepärane!).",
@@ -62107,7 +62107,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-übrig",
       "layout": "standardStudy",
-      "translation": "üle jäänud • ülejäänu",
+      "translation": "üle jäänud",
       "explanation": "Põhiidee: übrig tähendab järele jäänud või ülejäänud pärast seda, kui midagi on juba kasutatud, tehtud või ära võetud. Seda kasutatakse sageli koos bleiben: übrig bleiben = üle jääma. Kui jutt on inimestest või asjadest, tähendab die übrigen ülejäänud. See ei ole sama mis unnötig “ebavajalik”.",
       "examples": [
         {
@@ -62471,7 +62471,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-übung",
       "layout": "standardStudy",
-      "translation": "harjutus • praktika",
+      "translation": "harjutus",
       "explanation": "Põhiidee: die Übung tähendab harjutust või praktilist treenimist. Koolis ja keeleõppes on see tavaliselt konkreetne harjutus. Fraasis Übung macht den Meister on tähendus praktika või regulaarne treenimine. Tegevus on üben = harjutama.",
       "examples": [
         {
@@ -62830,7 +62830,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-umsonst",
       "layout": "standardStudy",
-      "translation": "tasuta • asjata",
+      "translation": "tasuta",
       "explanation": "umsonst on väga tähtis sõna kahe erineva tähendusega. See võib tähendada tasuta ehk ilma rahata. See võib tähendada ka asjata ehk tulemuseta. Kontekst näitab, kas jutt on hinnast või tulemusest. kostenlos on selgem sõna tähenduse tasuta jaoks. vergeblich on selgem sõna tähenduse asjata jaoks.",
       "examples": [
         {
@@ -63299,7 +63299,7 @@ const A2_WORDS = [
   },
   {
     "de": "unterwegs",
-    "lv": "teel • tee peal",
+    "lv": "teel",
     "level": "A2"
   },
   {
@@ -63466,7 +63466,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-verbinden",
       "layout": "standardStudy",
-      "translation": "ühendama • kinni siduma",
+      "translation": "ühendama",
       "explanation": "Põhiidee: verbinden tähendab asju ühendama või haava kinni siduma. Telefoni, teede, linnade või ideede puhul tähendab see ühendama. Meditsiinis tähendab eine Wunde verbinden haava kinni siduma. See ei ole sama mis binden “siduma”.",
       "examples": [
         {
@@ -63872,7 +63872,7 @@ const A2_WORDS = [
   },
   {
     "de": "verbringen",
-    "lv": "Ich lerne, weil brauche. = ich Deutsch Ma õpin, sest mul on saksa keelt vaja.",
+    "lv": "`veetma`",
     "level": "A2"
   },
   {
@@ -64930,7 +64930,7 @@ const A2_WORDS = [
     "de": "Vorhang",
     "de_article": "der",
     "de_plural": "die Vorhänge",
-    "lv": "kardin • eesriie",
+    "lv": "kardin",
     "level": "A2"
   },
   {
@@ -65443,7 +65443,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-wagen",
       "layout": "standardStudy",
-      "translation": "auto • vagun",
+      "translation": "auto",
       "explanation": "Põhiidee: der Wagen tähendab sõidukit — autot, vagunit või käru. Mitmus on die Wagen. See ei ole tegusõna wagen (julgema).",
       "examples": [
         {
@@ -66013,7 +66013,7 @@ const A2_WORDS = [
   },
   {
     "de": "wahr",
-    "lv": "tõsi • tõene",
+    "lv": "tõsi",
     "level": "A2"
   },
   {
@@ -66860,7 +66860,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-wechseln",
       "layout": "standardStudy",
-      "translation": "vahetama • ära vahetama",
+      "translation": "vahetama",
       "explanation": "Põhiidee: wechseln tähendab midagi muutma või millegi muu vastu vahetama. Seda kasutatakse raha, riiete, töö, kooli, rongi või teema puhul. Pangas tähendab Geld wechseln raha vahetama. Transpordi puhul on umsteigen sageli täpsem sõna “ümber istuma”.",
       "examples": [
         {
@@ -67318,7 +67318,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-weit",
       "layout": "standardStudy",
-      "translation": "kauge • avar",
+      "translation": "kauge",
       "explanation": [
         "Põhiidee: weit tähendab kauguse kohta kauge, laiuse või ulatuse kohta avar.",
         "Vahemaast rääkides weit = kauge (Die Schule ist weit. = Kool on kaugel.).",
@@ -69934,7 +69934,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-ansehen",
       "layout": "standardStudy",
-      "translation": "vaatama • ära vaatama",
+      "translation": "vaatama",
       "explanation": [
         "Põhiidee: Vaadata konkreetset asja või vaadata ära filmi/videot.",
         "ansehen tähendab peamiselt: vaatama konkreetset objekti.",
@@ -70008,7 +70008,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-hoeren",
       "layout": "standardStudy",
-      "translation": "kuulma • kuulama",
+      "translation": "kuulma",
       "explanation": [
         "Põhiidee: Kuulda heli või kuulata muusikat.",
         "hören tähendab peamiselt: heli tajuma.",
@@ -71026,7 +71026,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-erst",
       "layout": "standardStudy",
-      "translation": "alles • mitte varem kui",
+      "translation": "alles",
       "explanation": [
         "Põhiidee: Osutab ajale, järjekorrale, varasele staadiumile või millelegi, mis toimub oodatust hiljem.",
         "erst tähendab peamiselt: aeg, järjekord või varajane staadium.",
@@ -71160,7 +71160,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-nur",
       "layout": "standardStudy",
-      "translation": "ainult • üksnes",
+      "translation": "ainult",
       "explanation": [
         "Põhiidee: Piirab kogust, inimeste arvu, valikut või võimalusi.",
         "nur tähendab peamiselt: piiratud kogus või valik.",
@@ -71336,7 +71336,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-ueber",
       "layout": "standardStudy",
-      "translation": "kohal • üle • kohta",
+      "translation": "kohal",
       "explanation": [
         "Põhiidee: Võib olla millegi kohal, üle millegi või mingi teema kohta.",
         "über tähendab peamiselt: millestki kõrgemal.",
@@ -71574,7 +71574,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gleich",
       "layout": "standardStudy",
-      "translation": "ühesugune • kohe",
+      "translation": "ühesugune",
       "explanation": [
         "Põhiidee: Võib tähendada ühesugune või kohe.",
         "gleich tähendab peamiselt: samasugune.",

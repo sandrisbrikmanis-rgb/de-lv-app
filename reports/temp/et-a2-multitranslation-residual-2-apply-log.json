@@ -1,0 +1,54 @@
+{
+  "dryRun": false,
+  "masterVersion": "1.12",
+  "staged": [
+    {
+      "cardId": "a2-anordnen-60",
+      "field": "lv",
+      "ownerNew": "`korraldama`",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "cardId": "a2-gang",
+      "field": "study.translation",
+      "ownerNew": "`koridor`",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "cardId": "a2-anordnen-60",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "cardId": "a2-gang",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "requestedLabot": 2,
+    "appliedVerified": 2,
+    "alreadyMatched": 0,
+    "appliedTotal": 2,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "deChanges": 0,
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "multiTranslationResidual": {
+      "rawCandidates": 0,
+      "violations": 0,
+      "inventoryCoverage": "100%",
+      "fieldsScanned": 1640
+    },
+    "multipleMainTranslationsValidatedReal": 0,
+    "mainTranslationCountViolations": 0,
+    "finalVerdict": "PASS"
+  }
+}
