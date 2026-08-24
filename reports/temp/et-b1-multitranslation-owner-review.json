@@ -1,0 +1,989 @@
+{
+  "generatedAt": "2026-08-24T14:50:53.010Z",
+  "masterVersion": "1.12",
+  "originMainSha": "eb2a0397abd2a28060a4b8b46e6289e4648a2c11",
+  "productionBlob": "f78868bdeac0afa0f790e2f2b680b6e66939ad1f",
+  "verdict": "ET_B1_MULTITRANSLATION_OWNER_REVIEW_READY",
+  "b1Cards": 3367,
+  "mainTranslationFieldInventoryTotal": 3,
+  "mainTranslationFieldInventoryCoverage": "100%",
+  "multiTranslationScanCoverage": "100%",
+  "fieldsScanned": 3367,
+  "multipleTranslationCandidatesRaw": 25,
+  "multipleMainTranslationsValidatedReal": 25,
+  "ownerArtifactCoverage": "25/25",
+  "ownerNewFilled": 0,
+  "ownerDecisionRequired": 25,
+  "pending": 0,
+  "deChanges": 0,
+  "productionChanges": 0,
+  "currentMatch": "25/25",
+  "findings": [
+    {
+      "auditId": "ET-B1-MT-0001",
+      "cardId": "b1-sich-bedienen",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "sich bedienen",
+      "currentEt": "endale võtma • kasutama",
+      "candidates": [
+        "endale võtma",
+        "kasutama"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (endale võtma | kasutama)",
+      "recommendedMain": "kasutama",
+      "candidateAnalysis": [
+        {
+          "candidate": "endale võtma",
+          "meaning": "to take/serve oneself (reflexive bedienen)",
+          "germanSense": "reflexive: help oneself / serve oneself (food, buffet)",
+          "role": "reflexive: help oneself / serve oneself (food, buffet)",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        },
+        {
+          "candidate": "kasutama",
+          "meaning": "to use; operate",
+          "germanSense": "transitive: use/operate (device, tool, service)",
+          "role": "transitive: use/operate (device, tool, service)",
+          "suitable": "Strong candidate for single main translation at B1."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **kasutama** as the primary B1 learner-facing gloss (transitive: use/operate (device, tool, service)). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**endale võtma** — to take/serve oneself (reflexive bedienen). German sense: reflexive: help oneself / serve oneself (food, buffet). Suitability: Additional sense — likely Study-only after OWNER main pick. **kasutama** — to use; operate. German sense: transitive: use/operate (device, tool, service). Suitability: Strong candidate for single main translation at B1. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: sich bedienen tähendab ise võtmist/end teenindamist või mõne vahendi kasutamist. Ilma sich-ta tähendab bedienen teist inimest teenindamist.",
+      "studyContext": "Põhiidee: sich bedienen tähendab ise võtmist/end teenindamist või mõne vahendi kasutamist. Ilma sich-ta tähendab bedienen teist inimest teenindamist."
+    },
+    {
+      "auditId": "ET-B1-MT-0002",
+      "cardId": "b1-betragen-407",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "betragen",
+      "currentEt": "ulatuma • moodustama",
+      "candidates": [
+        "ulatuma",
+        "moodustama"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (ulatuma | moodustama)",
+      "recommendedMain": "ulatuma",
+      "candidateAnalysis": [
+        {
+          "candidate": "ulatuma",
+          "meaning": "to amount to; extend (quantity/distance)",
+          "germanSense": "amount to (quantity: costs, distances, percentages)",
+          "role": "amount to (quantity: costs, distances, percentages)",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "moodustama",
+          "meaning": "to constitute; make up (percentage/part)",
+          "germanSense": "constitute / make up (share of total)",
+          "role": "constitute / make up (share of total)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **ulatuma** as the primary B1 learner-facing gloss (amount to (quantity: costs, distances, percentages)). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical B1 gloss for flashcard front.",
+      "semanticAnalysis": "**ulatuma** — to amount to; extend (quantity/distance). German sense: amount to (quantity: costs, distances, percentages). Suitability: Strong candidate for single main translation at B1. **moodustama** — to constitute; make up (percentage/part). German sense: constitute / make up (share of total). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-B1-MT-0003",
+      "cardId": "b1-Burg-528",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Burg",
+      "currentEt": "kindlus • loss",
+      "candidates": [
+        "kindlus",
+        "loss"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (kindlus | loss)",
+      "recommendedMain": "kindlus",
+      "candidateAnalysis": [
+        {
+          "candidate": "kindlus",
+          "meaning": "fortress; stronghold",
+          "germanSense": "fortified stronghold",
+          "role": "fortified stronghold",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "loss",
+          "meaning": "castle; palace (residential)",
+          "germanSense": "castle/palace (often residential)",
+          "role": "castle/palace (often residential)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Genuinely different senses or domains — not simple synonyms; Study may retain secondary senses.",
+      "recommendationJustification": "Recommended **kindlus** as the primary B1 learner-facing gloss (fortified stronghold). Genuinely different senses or domains — not simple synonyms; Study may retain secondary senses. Ordinary card — pick the most frequent practical B1 gloss for flashcard front.",
+      "semanticAnalysis": "**kindlus** — fortress; stronghold. German sense: fortified stronghold. Suitability: Strong candidate for single main translation at B1. **loss** — castle; palace (residential). German sense: castle/palace (often residential). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Genuinely different senses or domains — not simple synonyms; Study may retain secondary senses.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-B1-MT-0004",
+      "cardId": "b1-Dasein-565",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Dasein",
+      "currentEt": "olemasolu • eksistents",
+      "candidates": [
+        "olemasolu",
+        "eksistents"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (olemasolu | eksistents)",
+      "recommendedMain": "olemasolu",
+      "candidateAnalysis": [
+        {
+          "candidate": "olemasolu",
+          "meaning": "existence; being (abstract)",
+          "germanSense": "everyday existence/being",
+          "role": "everyday existence/being",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "eksistents",
+          "meaning": "existence (philosophical/formal)",
+          "germanSense": "philosophical existence",
+          "role": "philosophical existence",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **olemasolu** as the primary B1 learner-facing gloss (everyday existence/being). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical B1 gloss for flashcard front.",
+      "semanticAnalysis": "**olemasolu** — existence; being (abstract). German sense: everyday existence/being. Suitability: Strong candidate for single main translation at B1. **eksistents** — existence (philosophical/formal). German sense: philosophical existence. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-B1-MT-0005",
+      "cardId": "b1-Elend-738",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Elend",
+      "currentEt": "häda • armetu olukord",
+      "candidates": [
+        "häda",
+        "armetu olukord"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (häda | armetu olukord)",
+      "recommendedMain": "häda",
+      "candidateAnalysis": [
+        {
+          "candidate": "häda",
+          "meaning": "misery; distress; trouble",
+          "germanSense": "misery/trouble (general)",
+          "role": "misery/trouble (general)",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "armetu olukord",
+          "meaning": "wretched situation; dire straits",
+          "germanSense": "wretched predicament (stronger)",
+          "role": "wretched predicament (stronger)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **häda** as the primary B1 learner-facing gloss (misery/trouble (general)). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical B1 gloss for flashcard front.",
+      "semanticAnalysis": "**häda** — misery; distress; trouble. German sense: misery/trouble (general). Suitability: Strong candidate for single main translation at B1. **armetu olukord** — wretched situation; dire straits. German sense: wretched predicament (stronger). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-B1-MT-0006",
+      "cardId": "b1-ganztaegig",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "ganztägig",
+      "currentEt": "kogu päeva kestev • terve päeva pikkune",
+      "candidates": [
+        "kogu päeva kestev",
+        "terve päeva pikkune"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (kogu päeva kestev | terve päeva pikkune)",
+      "recommendedMain": "kogu päeva kestev",
+      "candidateAnalysis": [
+        {
+          "candidate": "kogu päeva kestev",
+          "meaning": "lasting the whole day",
+          "germanSense": "lasting entire day (duration)",
+          "role": "lasting entire day (duration)",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "terve päeva pikkune",
+          "meaning": "whole-day long (duration)",
+          "germanSense": "whole-day long (adjectival duration)",
+          "role": "whole-day long (adjectival duration)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **kogu päeva kestev** as the primary B1 learner-facing gloss (lasting entire day (duration)). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**kogu päeva kestev** — lasting the whole day. German sense: lasting entire day (duration). Suitability: Strong candidate for single main translation at B1. **terve päeva pikkune** — whole-day long (duration). German sense: whole-day long (adjectival duration). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: ganztägig tähendab midagi, mis toimub või kestab kogu päeva. ganztägig kirjeldab sündmuse või ürituse kestust (ein ganztägiger Ausflug = ekskursioon, mis kestab kogu päeva). Ära aja segi tähendusega '24 tundi/ö…",
+      "studyContext": "Põhiidee: ganztägig tähendab midagi, mis toimub või kestab kogu päeva. ganztägig kirjeldab sündmuse või ürituse kestust (ein ganztägiger Ausflug = ekskursioon, mis kestab kogu päeva). Ära aja segi tähendusega '24 tundi/ööpäevaringselt' — see on saksa keeles rund um die Uhr, mitte ganztägig. ganztägig on omadussõna; määrsõna vorm ganztags tähendab 'kogu päeva' (ilma omadussõna funktsioonita)."
+    },
+    {
+      "auditId": "ET-B1-MT-0007",
+      "cardId": "b1-hort",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "Hort",
+      "currentEt": "pikapäevarühm • laste päevakeskus",
+      "candidates": [
+        "pikapäevarühm",
+        "laste päevakeskus"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (pikapäevarühm | laste päevakeskus)",
+      "recommendedMain": "laste päevakeskus",
+      "candidateAnalysis": [
+        {
+          "candidate": "pikapäevarühm",
+          "meaning": "after-school group; extended-day group",
+          "germanSense": "after-school care group",
+          "role": "after-school care group",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        },
+        {
+          "candidate": "laste päevakeskus",
+          "meaning": "children's day centre",
+          "germanSense": "children's day centre (broader institution)",
+          "role": "children's day centre (broader institution)",
+          "suitable": "Strong candidate for single main translation at B1."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **laste päevakeskus** as the primary B1 learner-facing gloss (children's day centre (broader institution)). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**pikapäevarühm** — after-school group; extended-day group. German sense: after-school care group. Suitability: Additional sense — likely Study-only after OWNER main pick. **laste päevakeskus** — children's day centre. German sense: children's day centre (broader institution). Suitability: Strong candidate for single main translation at B1. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: der Hort (ka Schulhort/Kinderhort) on koolieas laste koolijärgse hoiu asutus. Saksamaal hoiab der Hort lapsi pärast koolitunde, kui vanemad on tööl. Ära aja segi der Kindergarten'iga — see on koolieelses eas la…",
+      "studyContext": "Põhiidee: der Hort (ka Schulhort/Kinderhort) on koolieas laste koolijärgse hoiu asutus. Saksamaal hoiab der Hort lapsi pärast koolitunde, kui vanemad on tööl. Ära aja segi der Kindergarten'iga — see on koolieelses eas laste (kuni 6 aastat) asutus. Eesti keeles on lähim vaste pikapäevarühm või laste päevakeskus."
+    },
+    {
+      "auditId": "ET-B1-MT-0008",
+      "cardId": "b1-hupe",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "Hupe",
+      "currentEt": "signaalpasun • pasun",
+      "candidates": [
+        "signaalpasun",
+        "pasun"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (signaalpasun | pasun)",
+      "recommendedMain": "signaalpasun",
+      "candidateAnalysis": [
+        {
+          "candidate": "signaalpasun",
+          "meaning": "signal horn; klaxon",
+          "germanSense": "signal horn/klaxon",
+          "role": "signal horn/klaxon",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "pasun",
+          "meaning": "horn (vehicle/signal)",
+          "germanSense": "horn (general)",
+          "role": "horn (general)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **signaalpasun** as the primary B1 learner-facing gloss (signal horn/klaxon). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**signaalpasun** — signal horn; klaxon. German sense: signal horn/klaxon. Suitability: Strong candidate for single main translation at B1. **pasun** — horn (vehicle/signal). German sense: horn (general). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: die Hupe on auto signaalpasun või laeva pasun. Sellega hoiatatakse teisi liikluses. Mitmus: die Hupen.",
+      "studyContext": "Põhiidee: die Hupe on auto signaalpasun või laeva pasun. Sellega hoiatatakse teisi liikluses. Mitmus: die Hupen."
+    },
+    {
+      "auditId": "ET-B1-MT-0009",
+      "cardId": "b1-juenger",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "Jünger",
+      "currentEt": "jünger • järgija",
+      "candidates": [
+        "jünger",
+        "järgija"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (jünger | järgija)",
+      "recommendedMain": "jünger",
+      "candidateAnalysis": [
+        {
+          "candidate": "jünger",
+          "meaning": "disciple; follower (biblical/religious)",
+          "germanSense": "disciple (religious)",
+          "role": "disciple (religious)",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "järgija",
+          "meaning": "follower; adherent",
+          "germanSense": "follower/adherent (general)",
+          "role": "follower/adherent (general)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **jünger** as the primary B1 learner-facing gloss (disciple (religious)). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**jünger** — disciple; follower (biblical/religious). German sense: disciple (religious). Suitability: Strong candidate for single main translation at B1. **järgija** — follower; adherent. German sense: follower/adherent (general). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: der Jünger tähendab jüngrit või järgijat — inimest, kes järgib õpetajat, ideed või õpetust. der Jünger võib viidata igasuguse õpetaja või mõttesuuna järgijale, mitte ainult religioosses kontekstis. Piibli/relig…",
+      "studyContext": "Põhiidee: der Jünger tähendab jüngrit või järgijat — inimest, kes järgib õpetajat, ideed või õpetust. der Jünger võib viidata igasuguse õpetaja või mõttesuuna järgijale, mitte ainult religioosses kontekstis. Piibli/religioosses kontekstis tähendab die Jünger Jesu Jeesuse jüngreid — see on üks sage, kuid mitte ainus kasutusvaldkond. Ülekantud tähenduses võib der Jünger tähendada ka kellegi või mingi idee toetajat (ein Jünger Nietzsches = Nietzsche õpetuse järgija). Mitmuses: die Jünger; naissoost"
+    },
+    {
+      "auditId": "ET-B1-MT-0010",
+      "cardId": "b1-kader",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "Kader",
+      "currentEt": "koosseis • tuumik",
+      "candidates": [
+        "koosseis",
+        "tuumik"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (koosseis | tuumik)",
+      "recommendedMain": "koosseis",
+      "candidateAnalysis": [
+        {
+          "candidate": "koosseis",
+          "meaning": "composition; roster; corps",
+          "germanSense": "organizational roster/core group",
+          "role": "organizational roster/core group",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "tuumik",
+          "meaning": "core; nucleus; elite group",
+          "germanSense": "elite nucleus/core",
+          "role": "elite nucleus/core",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **koosseis** as the primary B1 learner-facing gloss (organizational roster/core group). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**koosseis** — composition; roster; corps. German sense: organizational roster/core group. Suitability: Strong candidate for single main translation at B1. **tuumik** — core; nucleus; elite group. German sense: elite nucleus/core. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: der Kader tähendab (kvalifitseeritud) koosseisu või tuumikut — inimeste rühma kindla rolli või kvalifikatsiooniga. Spordis tähendab der Kader meeskonna koosseisu (der Kader der Nationalmannschaft = koondise koo…",
+      "studyContext": "Põhiidee: der Kader tähendab (kvalifitseeritud) koosseisu või tuumikut — inimeste rühma kindla rolli või kvalifikatsiooniga. Spordis tähendab der Kader meeskonna koosseisu (der Kader der Nationalmannschaft = koondise koosseis). Poliitikas või organisatsioonide kontekstis tähendab der Kader juhtiva/koolitatud personali tuumikut. Ära aja segi eestikeelse 'kaader' (filmikaader) sõnaga — see on saksa keeles das Bild või die Einstellung, mitte der Kader."
+    },
+    {
+      "auditId": "ET-B1-MT-0011",
+      "cardId": "b1-Nachteil-1950",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Nachteil",
+      "currentEt": "puudus • miinus",
+      "candidates": [
+        "puudus",
+        "miinus"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (puudus | miinus)",
+      "recommendedMain": "puudus",
+      "candidateAnalysis": [
+        {
+          "candidate": "puudus",
+          "meaning": "disadvantage; drawback; lack",
+          "germanSense": "disadvantage/drawback",
+          "role": "disadvantage/drawback",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "miinus",
+          "meaning": "minus; disadvantage (colloquial)",
+          "germanSense": "minus point (colloquial)",
+          "role": "minus point (colloquial)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **puudus** as the primary B1 learner-facing gloss (disadvantage/drawback). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical B1 gloss for flashcard front.",
+      "semanticAnalysis": "**puudus** — disadvantage; drawback; lack. German sense: disadvantage/drawback. Suitability: Strong candidate for single main translation at B1. **miinus** — minus; disadvantage (colloquial). German sense: minus point (colloquial). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-B1-MT-0012",
+      "cardId": "b1-Neuheit-1978",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Neuheit",
+      "currentEt": "uudsus • uuendus",
+      "candidates": [
+        "uudsus",
+        "uuendus"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (uudsus | uuendus)",
+      "recommendedMain": "uudsus",
+      "candidateAnalysis": [
+        {
+          "candidate": "uudsus",
+          "meaning": "novelty; newness",
+          "germanSense": "novelty/newness",
+          "role": "novelty/newness",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "uuendus",
+          "meaning": "innovation; update",
+          "germanSense": "innovation/update",
+          "role": "innovation/update",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **uudsus** as the primary B1 learner-facing gloss (novelty/newness). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical B1 gloss for flashcard front.",
+      "semanticAnalysis": "**uudsus** — novelty; newness. German sense: novelty/newness. Suitability: Strong candidate for single main translation at B1. **uuendus** — innovation; update. German sense: innovation/update. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-B1-MT-0013",
+      "cardId": "b1-rüsten",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "rüsten",
+      "currentEt": "varustama, relvastama; valmistuma",
+      "candidates": [
+        "varustama",
+        "relvastama",
+        "valmistuma"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (varustama, relvastama | valmistuma)",
+      "recommendedMain": "varustama",
+      "candidateAnalysis": [
+        {
+          "candidate": "varustama",
+          "meaning": "to equip; supply",
+          "germanSense": "equip/supply",
+          "role": "equip/supply",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "relvastama",
+          "meaning": "to arm; equip with weapons",
+          "germanSense": "arm (weapons)",
+          "role": "arm (weapons)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        },
+        {
+          "candidate": "valmistuma",
+          "meaning": "to prepare (oneself); get ready",
+          "germanSense": "prepare oneself / get ready",
+          "role": "prepare oneself / get ready",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        }
+      ],
+      "candidateRelation": "Multiple distinct senses listed with punctuation — separate grammatical/lexical meanings, not one phrase.",
+      "recommendationJustification": "Recommended **varustama** as the primary B1 learner-facing gloss (equip/supply). Multiple distinct senses listed with punctuation — separate grammatical/lexical meanings, not one phrase. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**varustama** — to equip; supply. German sense: equip/supply. Suitability: Strong candidate for single main translation at B1. **relvastama** — to arm; equip with weapons. German sense: arm (weapons). Suitability: Valid secondary meaning — retain in Study if applicable. **valmistuma** — to prepare (oneself); get ready. German sense: prepare oneself / get ready. Suitability: Additional sense — likely Study-only after OWNER main pick. Relation: Multiple distinct senses listed with punctuation — separate grammatical/lexical meanings, not one phrase.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: rüsten tähendab valmistumist või varustamist. Sõjaväelises kontekstis tähendab see relvastumist või relvastamist.",
+      "studyContext": "Põhiidee: rüsten tähendab valmistumist või varustamist. Sõjaväelises kontekstis tähendab see relvastumist või relvastamist."
+    },
+    {
+      "auditId": "ET-B1-MT-0014",
+      "cardId": "b1-saat",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "Saat",
+      "currentEt": "seeme, külv",
+      "candidates": [
+        "seeme",
+        "külv"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (seeme | külv)",
+      "recommendedMain": "seeme",
+      "candidateAnalysis": [
+        {
+          "candidate": "seeme",
+          "meaning": "seed (agricultural)",
+          "germanSense": "seed (agriculture)",
+          "role": "seed (agriculture)",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "külv",
+          "meaning": "sowing; crop (yield)",
+          "germanSense": "sowing/crop yield",
+          "role": "sowing/crop yield",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Genuinely different senses or domains — not simple synonyms; Study may retain secondary senses.",
+      "recommendationJustification": "Recommended **seeme** as the primary B1 learner-facing gloss (seed (agriculture)). Genuinely different senses or domains — not simple synonyms; Study may retain secondary senses. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**seeme** — seed (agricultural). German sense: seed (agriculture). Suitability: Strong candidate for single main translation at B1. **külv** — sowing; crop (yield). German sense: sowing/crop yield. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Genuinely different senses or domains — not simple synonyms; Study may retain secondary senses.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: die Saat tähendab seemet, külvi või külvatud põldu. Ühe üksiku seemne kohta kasutatakse sagedamini der Samen.",
+      "studyContext": "Põhiidee: die Saat tähendab seemet, külvi või külvatud põldu. Ühe üksiku seemne kohta kasutatakse sagedamini der Samen."
+    },
+    {
+      "auditId": "ET-B1-MT-0015",
+      "cardId": "b1-sowie",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "sowie",
+      "currentEt": "samuti, nagu ka; ning",
+      "candidates": [
+        "samuti",
+        "nagu ka",
+        "ning"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (samuti, nagu ka | ning)",
+      "recommendedMain": "samuti",
+      "candidateAnalysis": [
+        {
+          "candidate": "samuti",
+          "meaning": "also; likewise",
+          "germanSense": "also/likewise",
+          "role": "also/likewise",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "nagu ka",
+          "meaning": "as well as; like also",
+          "germanSense": "as well as",
+          "role": "as well as",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        },
+        {
+          "candidate": "ning",
+          "meaning": "and (coordinating)",
+          "germanSense": "and (listing)",
+          "role": "and (listing)",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        }
+      ],
+      "candidateRelation": "Multiple distinct senses listed with punctuation — separate grammatical/lexical meanings, not one phrase.",
+      "recommendationJustification": "Recommended **samuti** as the primary B1 learner-facing gloss (also/likewise). Multiple distinct senses listed with punctuation — separate grammatical/lexical meanings, not one phrase. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**samuti** — also; likewise. German sense: also/likewise. Suitability: Strong candidate for single main translation at B1. **nagu ka** — as well as; like also. German sense: as well as. Suitability: Valid secondary meaning — retain in Study if applicable. **ning** — and (coordinating). German sense: and (listing). Suitability: Additional sense — likely Study-only after OWNER main pick. Relation: Multiple distinct senses listed with punctuation — separate grammatical/lexical meanings, not one phrase.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: sowie tähendab enamasti samuti kui ja ühendab kaks asja. Ajalauses võib see tähendada niipea kui.",
+      "studyContext": "Põhiidee: sowie tähendab enamasti samuti kui ja ühendab kaks asja. Ajalauses võib see tähendada niipea kui."
+    },
+    {
+      "auditId": "ET-B1-MT-0016",
+      "cardId": "b1-Streifen-2792",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Streifen",
+      "currentEt": "triip • riba",
+      "candidates": [
+        "triip",
+        "riba"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (triip | riba)",
+      "recommendedMain": "triip",
+      "candidateAnalysis": [
+        {
+          "candidate": "triip",
+          "meaning": "stripe; streak",
+          "germanSense": "stripe/streak",
+          "role": "stripe/streak",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "riba",
+          "meaning": "strip; band",
+          "germanSense": "strip/band",
+          "role": "strip/band",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.",
+      "recommendationJustification": "Recommended **triip** as the primary B1 learner-facing gloss (stripe/streak). Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form. Ordinary card — pick the most frequent practical B1 gloss for flashcard front.",
+      "semanticAnalysis": "**triip** — stripe; streak. German sense: stripe/streak. Suitability: Strong candidate for single main translation at B1. **riba** — strip; band. German sense: strip/band. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-B1-MT-0017",
+      "cardId": "b1-versäumen-3102",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "versäumen",
+      "currentEt": "vahele jätma • tegemata jätma",
+      "candidates": [
+        "vahele jätma",
+        "tegemata jätma"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (vahele jätma | tegemata jätma)",
+      "recommendedMain": "vahele jätma",
+      "candidateAnalysis": [
+        {
+          "candidate": "vahele jätma",
+          "meaning": "to miss; skip; omit",
+          "germanSense": "miss/skip (event, lesson)",
+          "role": "miss/skip (event, lesson)",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "tegemata jätma",
+          "meaning": "to leave undone; fail to do",
+          "germanSense": "leave undone / fail to do",
+          "role": "leave undone / fail to do",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **vahele jätma** as the primary B1 learner-facing gloss (miss/skip (event, lesson)). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical B1 gloss for flashcard front.",
+      "semanticAnalysis": "**vahele jätma** — to miss; skip; omit. German sense: miss/skip (event, lesson). Suitability: Strong candidate for single main translation at B1. **tegemata jätma** — to leave undone; fail to do. German sense: leave undone / fail to do. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-B1-MT-0018",
+      "cardId": "b1-wagen",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "Wagen",
+      "currentEt": "auto • vagun",
+      "candidates": [
+        "auto",
+        "vagun"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (auto | vagun)",
+      "recommendedMain": "auto",
+      "candidateAnalysis": [
+        {
+          "candidate": "auto",
+          "meaning": "car; automobile",
+          "germanSense": "car/automobile",
+          "role": "car/automobile",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "vagun",
+          "meaning": "carriage; wagon; rail car",
+          "germanSense": "carriage/wagon/rail car",
+          "role": "carriage/wagon/rail car",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Genuinely different senses or domains — not simple synonyms; Study may retain secondary senses.",
+      "recommendationJustification": "Recommended **auto** as the primary B1 learner-facing gloss (car/automobile). Genuinely different senses or domains — not simple synonyms; Study may retain secondary senses. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**auto** — car; automobile. German sense: car/automobile. Suitability: Strong candidate for single main translation at B1. **vagun** — carriage; wagon; rail car. German sense: carriage/wagon/rail car. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Genuinely different senses or domains — not simple synonyms; Study may retain secondary senses.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Põhiidee: der Wagen tähendab sõidukit — autot, vagunit või käru. Mitmus on die Wagen. See ei ole tegusõna wagen (julgema).",
+      "studyContext": "Põhiidee: der Wagen tähendab sõidukit — autot, vagunit või käru. Mitmus on die Wagen. See ei ole tegusõna wagen (julgema)."
+    },
+    {
+      "auditId": "ET-B1-MT-0019",
+      "cardId": "b1-Chef-3321",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Chef",
+      "currentEt": "ülemus • juht",
+      "candidates": [
+        "ülemus",
+        "juht"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (ülemus | juht)",
+      "recommendedMain": "ülemus",
+      "candidateAnalysis": [
+        {
+          "candidate": "ülemus",
+          "meaning": "superior; boss",
+          "germanSense": "boss/superior",
+          "role": "boss/superior",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "juht",
+          "meaning": "leader; manager; driver",
+          "germanSense": "leader/manager (also driver)",
+          "role": "leader/manager (also driver)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **ülemus** as the primary B1 learner-facing gloss (boss/superior). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical B1 gloss for flashcard front.",
+      "semanticAnalysis": "**ülemus** — superior; boss. German sense: boss/superior. Suitability: Strong candidate for single main translation at B1. **juht** — leader; manager; driver. German sense: leader/manager (also driver). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-B1-MT-0020",
+      "cardId": "b1-weil",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "weil",
+      "currentEt": "sest • kuna",
+      "candidates": [
+        "sest",
+        "kuna"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (sest | kuna)",
+      "recommendedMain": "sest",
+      "candidateAnalysis": [
+        {
+          "candidate": "sest",
+          "meaning": "because (subordinating)",
+          "germanSense": "because (standard)",
+          "role": "because (standard)",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "kuna",
+          "meaning": "because; since (subordinating)",
+          "germanSense": "because/since (interchangeable subordinator)",
+          "role": "because/since (interchangeable subordinator)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.",
+      "recommendationJustification": "Recommended **sest** as the primary B1 learner-facing gloss (because (standard)). Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**sest** — because (subordinating). German sense: because (standard). Suitability: Strong candidate for single main translation at B1. **kuna** — because; since (subordinating). German sense: because/since (interchangeable subordinator). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Peamine mõte: kõige sagedamini kasutatav põhjussidesõna. Pärast weil on tegusõna lause lõpus. weil tähendab peamiselt: selgitab põhjust. Sageli iseloomustab: kõige sagedasem variant. weil selgitab põhjust ja on kõige sag…",
+      "studyContext": "Peamine mõte: kõige sagedamini kasutatav põhjussidesõna. Pärast weil on tegusõna lause lõpus. weil tähendab peamiselt: selgitab põhjust. Sageli iseloomustab: kõige sagedasem variant. weil selgitab põhjust ja on kõige sagedasem variant."
+    },
+    {
+      "auditId": "ET-B1-MT-0021",
+      "cardId": "b1-da",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "da",
+      "currentEt": "kuna • sest",
+      "candidates": [
+        "kuna",
+        "sest"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (kuna | sest)",
+      "recommendedMain": "kuna",
+      "candidateAnalysis": [
+        {
+          "candidate": "kuna",
+          "meaning": "because; since (subordinating)",
+          "germanSense": "because/since",
+          "role": "because/since",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "sest",
+          "meaning": "because (subordinating)",
+          "germanSense": "because",
+          "role": "because",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.",
+      "recommendationJustification": "Recommended **kuna** as the primary B1 learner-facing gloss (because/since). Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**kuna** — because; since (subordinating). German sense: because/since. Suitability: Strong candidate for single main translation at B1. **sest** — because (subordinating). German sense: because. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Peamine mõte: põhjussidesõna, kui põhjus on juba teada või mainitud. Pärast da on tegusõna lause lõpus. da tähendab peamiselt: selgitab teadaolevat põhjust. Sageli iseloomustab: põhjus on juba mainitud. da kui sidesõna t…",
+      "studyContext": "Peamine mõte: põhjussidesõna, kui põhjus on juba teada või mainitud. Pärast da on tegusõna lause lõpus. da tähendab peamiselt: selgitab teadaolevat põhjust. Sageli iseloomustab: põhjus on juba mainitud. da kui sidesõna tähendab kuna/sest, kui põhjus on juba varem teada või mainitud. Mõlemad nõuavad tegusõna lause lõpus."
+    },
+    {
+      "auditId": "ET-B1-MT-0022",
+      "cardId": "b1-obwohl",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "obwohl",
+      "currentEt": "kuigi • ehkki",
+      "candidates": [
+        "kuigi",
+        "ehkki"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (kuigi | ehkki)",
+      "recommendedMain": "kuigi",
+      "candidateAnalysis": [
+        {
+          "candidate": "kuigi",
+          "meaning": "although; even though",
+          "germanSense": "although",
+          "role": "although",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "ehkki",
+          "meaning": "although; even if",
+          "germanSense": "although/even if",
+          "role": "although/even if",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.",
+      "recommendationJustification": "Recommended **kuigi** as the primary B1 learner-facing gloss (although). Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**kuigi** — although; even though. German sense: although. Suitability: Strong candidate for single main translation at B1. **ehkki** — although; even if. German sense: although/even if. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Peamine mõte: sissejuhatab vastupidise põhjuse kõrvallauses. Tegusõna on lause lõpus. obwohl tähendab peamiselt: vastupidine põhjus. Sageli iseloomustab: kõrvallause. obwohl tähendab kuigi ja sissejuhatab kõrvallauset, k…",
+      "studyContext": "Peamine mõte: sissejuhatab vastupidise põhjuse kõrvallauses. Tegusõna on lause lõpus. obwohl tähendab peamiselt: vastupidine põhjus. Sageli iseloomustab: kõrvallause. obwohl tähendab kuigi ja sissejuhatab kõrvallauset, kus tegusõna on lõpus."
+    },
+    {
+      "auditId": "ET-B1-MT-0023",
+      "cardId": "b1-trotzdem",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "trotzdem",
+      "currentEt": "sellegipoolest • ikkagi",
+      "candidates": [
+        "sellegipoolest",
+        "ikkagi"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (sellegipoolest | ikkagi)",
+      "recommendedMain": "sellegipoolest",
+      "candidateAnalysis": [
+        {
+          "candidate": "sellegipoolest",
+          "meaning": "nevertheless; all the same",
+          "germanSense": "nevertheless",
+          "role": "nevertheless",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "ikkagi",
+          "meaning": "still; anyway; nevertheless",
+          "germanSense": "still/anyway",
+          "role": "still/anyway",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.",
+      "recommendationJustification": "Recommended **sellegipoolest** as the primary B1 learner-facing gloss (nevertheless). Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**sellegipoolest** — nevertheless; all the same. German sense: nevertheless. Suitability: Strong candidate for single main translation at B1. **ikkagi** — still; anyway; nevertheless. German sense: still/anyway. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Peamine mõte: näitab tulemust, hoolimata põhjusest. Tegusõna on 2. kohal. trotzdem tähendab peamiselt: tulemus sellest hoolimata. Sageli iseloomustab: pealause. trotzdem tähendab sellegipoolest ja seisab pealauses — pära…",
+      "studyContext": "Peamine mõte: näitab tulemust, hoolimata põhjusest. Tegusõna on 2. kohal. trotzdem tähendab peamiselt: tulemus sellest hoolimata. Sageli iseloomustab: pealause. trotzdem tähendab sellegipoolest ja seisab pealauses — pärast seda on tegusõna 2. kohal."
+    },
+    {
+      "auditId": "ET-B1-MT-0024",
+      "cardId": "b1-schaden",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "Schaden",
+      "currentEt": "kahju • kahjustus",
+      "candidates": [
+        "kahju",
+        "kahjustus"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (kahju | kahjustus)",
+      "recommendedMain": "kahju",
+      "candidateAnalysis": [
+        {
+          "candidate": "kahju",
+          "meaning": "damage; harm; pity",
+          "germanSense": "damage/harm (general)",
+          "role": "damage/harm (general)",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "kahjustus",
+          "meaning": "damage; injury (concrete harm)",
+          "germanSense": "damage/injury (concrete)",
+          "role": "damage/injury (concrete)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.",
+      "recommendationJustification": "Recommended **kahju** as the primary B1 learner-facing gloss (damage/harm (general)). Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**kahju** — damage; harm; pity. German sense: damage/harm (general). Suitability: Strong candidate for single main translation at B1. **kahjustus** — damage; injury (concrete harm). German sense: damage/injury (concrete). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Near-synonyms / interchangeable subordinators or parallel glosses — OWNER picks one normalized main form.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Peamine mõte: nimisõna — materiaalne, tervisega seotud või muu kahju. der Schaden tähendab peamiselt: kahju kui asi. Sageli iseloomustab: nimisõna (der). schaden tähendab peamiselt: kahju tekitama. Sageli iseloomustab: t…",
+      "studyContext": "Peamine mõte: nimisõna — materiaalne, tervisega seotud või muu kahju. der Schaden tähendab peamiselt: kahju kui asi. Sageli iseloomustab: nimisõna (der). schaden tähendab peamiselt: kahju tekitama. Sageli iseloomustab: tegusõna. der Schaden tähendab kahju, kahjustust või vigastust. schaden tähendab kahjustama, kahju tekitama. Tegusõnaga schaden tuleb kohustuslikult kasutada: kellele/millele?"
+    },
+    {
+      "auditId": "ET-B1-MT-0025",
+      "cardId": "b1-trotz",
+      "cardType": "standardStudy",
+      "field": "study.translation",
+      "de": "Trotz",
+      "currentEt": "jonn • kangekaelsus",
+      "candidates": [
+        "jonn",
+        "kangekaelsus"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (jonn | kangekaelsus)",
+      "recommendedMain": "jonn",
+      "candidateAnalysis": [
+        {
+          "candidate": "jonn",
+          "meaning": "stubbornness; obstinacy",
+          "germanSense": "stubbornness",
+          "role": "stubbornness",
+          "suitable": "Strong candidate for single main translation at B1."
+        },
+        {
+          "candidate": "kangekaelsus",
+          "meaning": "stubbornness; obduracy",
+          "germanSense": "obstinacy/stubbornness (formal)",
+          "role": "obstinacy/stubbornness (formal)",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **jonn** as the primary B1 learner-facing gloss (stubbornness). Two distinct B1-level senses — evaluate which is primary for the learner-facing main field. Study Põhiidee/explanation supports keeping secondary senses in Study after OWNER selects one main form.",
+      "semanticAnalysis": "**jonn** — stubbornness; obstinacy. German sense: stubbornness. Suitability: Strong candidate for single main translation at B1. **kangekaelsus** — stubbornness; obduracy. German sense: obstinacy/stubbornness (formal). Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct B1-level senses — evaluate which is primary for the learner-facing main field.. Study card: do not rewrite explanation/examples (MASTER v1.12 §1.1.12). Context: Peamine mõte: nimisõna — jonn, jonnakas suhtumine. der Trotz tähendab peamiselt: jonnakas suhtumine. Sageli iseloomustab: nimisõna (der). trotz tähendab peamiselt: hoolimata millestki. Sageli iseloomustab: eessõna. der T…",
+      "studyContext": "Peamine mõte: nimisõna — jonn, jonnakas suhtumine. der Trotz tähendab peamiselt: jonnakas suhtumine. Sageli iseloomustab: nimisõna (der). trotz tähendab peamiselt: hoolimata millestki. Sageli iseloomustab: eessõna. der Trotz tähendab jonni või kangekaelsust kui omadust. trotz on eessõna ja tähendab millestki hoolimata. Eessõnaga trotz tuleb kohustuslikult kasutada genitiivi: trotz des Regens, trotz des Wetters."
+    }
+  ]
+}

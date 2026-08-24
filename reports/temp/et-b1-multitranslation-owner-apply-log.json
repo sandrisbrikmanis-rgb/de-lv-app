@@ -1,0 +1,357 @@
+{
+  "dryRun": false,
+  "masterVersion": "1.12",
+  "staged": [
+    {
+      "auditId": "ET-B1-MT-0001",
+      "cardId": "b1-sich-bedienen",
+      "field": "study.translation",
+      "ownerNew": "kasutama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0002",
+      "cardId": "b1-betragen-407",
+      "field": "lv",
+      "ownerNew": "ulatuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0003",
+      "cardId": "b1-Burg-528",
+      "field": "lv",
+      "ownerNew": "kindlus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0004",
+      "cardId": "b1-Dasein-565",
+      "field": "lv",
+      "ownerNew": "olemasolu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0005",
+      "cardId": "b1-Elend-738",
+      "field": "lv",
+      "ownerNew": "häda",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0006",
+      "cardId": "b1-ganztaegig",
+      "field": "study.translation",
+      "ownerNew": "kogu päeva kestev",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0007",
+      "cardId": "b1-hort",
+      "field": "study.translation",
+      "ownerNew": "pikapäevarühm",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0008",
+      "cardId": "b1-hupe",
+      "field": "study.translation",
+      "ownerNew": "signaalpasun",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0009",
+      "cardId": "b1-juenger",
+      "field": "study.translation",
+      "ownerNew": "jünger",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0010",
+      "cardId": "b1-kader",
+      "field": "study.translation",
+      "ownerNew": "koosseis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0011",
+      "cardId": "b1-Nachteil-1950",
+      "field": "lv",
+      "ownerNew": "puudus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0012",
+      "cardId": "b1-Neuheit-1978",
+      "field": "lv",
+      "ownerNew": "uudsus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0013",
+      "cardId": "b1-rüsten",
+      "field": "study.translation",
+      "ownerNew": "varustama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0014",
+      "cardId": "b1-saat",
+      "field": "study.translation",
+      "ownerNew": "külv",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0015",
+      "cardId": "b1-sowie",
+      "field": "study.translation",
+      "ownerNew": "samuti",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0016",
+      "cardId": "b1-Streifen-2792",
+      "field": "lv",
+      "ownerNew": "triip",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0017",
+      "cardId": "b1-versäumen-3102",
+      "field": "lv",
+      "ownerNew": "vahele jätma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0018",
+      "cardId": "b1-wagen",
+      "field": "study.translation",
+      "ownerNew": "auto",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0019",
+      "cardId": "b1-Chef-3321",
+      "field": "lv",
+      "ownerNew": "ülemus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0020",
+      "cardId": "b1-weil",
+      "field": "study.translation",
+      "ownerNew": "sest",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0021",
+      "cardId": "b1-da",
+      "field": "study.translation",
+      "ownerNew": "kuna",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0022",
+      "cardId": "b1-obwohl",
+      "field": "study.translation",
+      "ownerNew": "kuigi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0023",
+      "cardId": "b1-trotzdem",
+      "field": "study.translation",
+      "ownerNew": "sellegipoolest",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0024",
+      "cardId": "b1-schaden",
+      "field": "study.translation",
+      "ownerNew": "kahju",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-B1-MT-0025",
+      "cardId": "b1-trotz",
+      "field": "study.translation",
+      "ownerNew": "jonn",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ET-B1-MT-0001",
+      "cardId": "b1-sich-bedienen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0002",
+      "cardId": "b1-betragen-407",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0003",
+      "cardId": "b1-Burg-528",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0004",
+      "cardId": "b1-Dasein-565",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0005",
+      "cardId": "b1-Elend-738",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0006",
+      "cardId": "b1-ganztaegig",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0007",
+      "cardId": "b1-hort",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0008",
+      "cardId": "b1-hupe",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0009",
+      "cardId": "b1-juenger",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0010",
+      "cardId": "b1-kader",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0011",
+      "cardId": "b1-Nachteil-1950",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0012",
+      "cardId": "b1-Neuheit-1978",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0013",
+      "cardId": "b1-rüsten",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0014",
+      "cardId": "b1-saat",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0015",
+      "cardId": "b1-sowie",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0016",
+      "cardId": "b1-Streifen-2792",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0017",
+      "cardId": "b1-versäumen-3102",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0018",
+      "cardId": "b1-wagen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0019",
+      "cardId": "b1-Chef-3321",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0020",
+      "cardId": "b1-weil",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0021",
+      "cardId": "b1-da",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0022",
+      "cardId": "b1-obwohl",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0023",
+      "cardId": "b1-trotzdem",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0024",
+      "cardId": "b1-schaden",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-B1-MT-0025",
+      "cardId": "b1-trotz",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "requestedLabot": 25,
+    "appliedVerified": 25,
+    "alreadyMatched": 0,
+    "appliedTotal": 25,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "deChanges": 0,
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "multiTranslationScan": {
+      "violations": 0,
+      "inventoryCoverage": "100%",
+      "fieldsScanned": 3367,
+      "rawCandidates": 0
+    },
+    "multipleMainTranslationsValidatedReal": 0,
+    "mainTranslationCountViolations": 0,
+    "finalVerdict": "PASS"
+  }
+}

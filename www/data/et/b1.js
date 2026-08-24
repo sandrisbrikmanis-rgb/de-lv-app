@@ -6532,7 +6532,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-sich-bedienen",
       "layout": "standardStudy",
-      "translation": "endale võtma • kasutama",
+      "translation": "kasutama",
       "explanation": "Põhiidee: sich bedienen tähendab ise võtmist/end teenindamist või mõne vahendi kasutamist. Ilma sich-ta tähendab bedienen teist inimest teenindamist.",
       "examples": [
         {
@@ -9949,7 +9949,7 @@ const B1_WORDS = [
   },
   {
     "de": "betragen",
-    "lv": "ulatuma • moodustama",
+    "lv": "ulatuma",
     "level": "B1"
   },
   {
@@ -12664,7 +12664,7 @@ const B1_WORDS = [
     "de": "Burg",
     "de_article": "die",
     "de_plural": "die Burgen",
-    "lv": "kindlus • loss",
+    "lv": "kindlus",
     "level": "B1"
   },
   {
@@ -14409,7 +14409,7 @@ const B1_WORDS = [
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "olemasolu • eksistents",
+    "lv": "olemasolu",
     "level": "B1"
   },
   {
@@ -20647,7 +20647,7 @@ const B1_WORDS = [
   {
     "de": "Elend",
     "de_article": "das",
-    "lv": "häda • armetu olukord",
+    "lv": "häda",
     "level": "B1"
   },
   {
@@ -25870,7 +25870,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-ganztaegig",
       "layout": "standardStudy",
-      "translation": "kogu päeva kestev • terve päeva pikkune",
+      "translation": "kogu päeva kestev",
       "explanation": [
         "Põhiidee: ganztägig tähendab midagi, mis toimub või kestab kogu päeva.",
         "ganztägig kirjeldab sündmuse või ürituse kestust (ein ganztägiger Ausflug = ekskursioon, mis kestab kogu päeva).",
@@ -32288,7 +32288,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hort",
       "layout": "standardStudy",
-      "translation": "pikapäevarühm • laste päevakeskus",
+      "translation": "pikapäevarühm",
       "explanation": [
         "Põhiidee: der Hort (ka Schulhort/Kinderhort) on koolieas laste koolijärgse hoiu asutus.",
         "Saksamaal hoiab der Hort lapsi pärast koolitunde, kui vanemad on tööl.",
@@ -32536,7 +32536,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-hupe",
       "layout": "standardStudy",
-      "translation": "signaalpasun • pasun",
+      "translation": "signaalpasun",
       "explanation": "Põhiidee: die Hupe on auto signaalpasun või laeva pasun. Sellega hoiatatakse teisi liikluses. Mitmus: die Hupen.",
       "examples": [
         {
@@ -34139,7 +34139,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-juenger",
       "layout": "standardStudy",
-      "translation": "jünger • järgija",
+      "translation": "jünger",
       "explanation": [
         "Põhiidee: der Jünger tähendab jüngrit või järgijat — inimest, kes järgib õpetajat, ideed või õpetust.",
         "der Jünger võib viidata igasuguse õpetaja või mõttesuuna järgijale, mitte ainult religioosses kontekstis.",
@@ -34361,7 +34361,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-kader",
       "layout": "standardStudy",
-      "translation": "koosseis • tuumik",
+      "translation": "koosseis",
       "explanation": [
         "Põhiidee: der Kader tähendab (kvalifitseeritud) koosseisu või tuumikut — inimeste rühma kindla rolli või kvalifikatsiooniga.",
         "Spordis tähendab der Kader meeskonna koosseisu (der Kader der Nationalmannschaft = koondise koosseis).",
@@ -44326,7 +44326,7 @@ const B1_WORDS = [
     "de": "Nachteil",
     "de_article": "der",
     "de_plural": "die Nachteile",
-    "lv": "puudus • miinus",
+    "lv": "puudus",
     "level": "B1"
   },
   {
@@ -45019,7 +45019,7 @@ const B1_WORDS = [
     "de": "Neuheit",
     "de_article": "die",
     "de_plural": "die Neuheiten",
-    "lv": "uudsus • uuendus",
+    "lv": "uudsus",
     "level": "B1"
   },
   {
@@ -51935,7 +51935,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-rüsten",
       "layout": "standardStudy",
-      "translation": "varustama, relvastama; valmistuma",
+      "translation": "varustama",
       "explanation": "Põhiidee: rüsten tähendab valmistumist või varustamist. Sõjaväelises kontekstis tähendab see relvastumist või relvastamist.",
       "examples": [
         {
@@ -52135,7 +52135,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-saat",
       "layout": "standardStudy",
-      "translation": "seeme, külv",
+      "translation": "külv",
       "explanation": "Põhiidee: die Saat tähendab seemet, külvi või külvatud põldu. Ühe üksiku seemne kohta kasutatakse sagedamini der Samen.",
       "examples": [
         {
@@ -57038,7 +57038,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-sowie",
       "layout": "standardStudy",
-      "translation": "samuti, nagu ka; ning",
+      "translation": "samuti",
       "explanation": "Põhiidee: sowie tähendab enamasti samuti kui ja ühendab kaks asja. Ajalauses võib see tähendada niipea kui.",
       "examples": [
         {
@@ -60206,7 +60206,7 @@ const B1_WORDS = [
     "de": "Streifen",
     "de_article": "der",
     "de_plural": "die Streifen",
-    "lv": "triip • riba",
+    "lv": "triip",
     "level": "B1"
   },
   {
@@ -67629,7 +67629,7 @@ const B1_WORDS = [
   },
   {
     "de": "versäumen",
-    "lv": "vahele jätma • tegemata jätma",
+    "lv": "vahele jätma",
     "level": "B1"
   },
   {
@@ -69589,7 +69589,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-wagen",
       "layout": "standardStudy",
-      "translation": "auto • vagun",
+      "translation": "auto",
       "explanation": "Põhiidee: der Wagen tähendab sõidukit — autot, vagunit või käru. Mitmus on die Wagen. See ei ole tegusõna wagen (julgema).",
       "examples": [
         {
@@ -72786,7 +72786,7 @@ const B1_WORDS = [
     "de": "Chef",
     "de_article": "der",
     "de_plural": "die Chefs",
-    "lv": "ülemus • juht",
+    "lv": "ülemus",
     "level": "B1"
   },
   {
@@ -73084,7 +73084,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-weil",
       "layout": "standardStudy",
-      "translation": "sest • kuna",
+      "translation": "sest",
       "explanation": [
         "Peamine mõte: kõige sagedamini kasutatav põhjussidesõna. Pärast weil on tegusõna lause lõpus.",
         "weil tähendab peamiselt: selgitab põhjust.",
@@ -73233,7 +73233,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-da",
       "layout": "standardStudy",
-      "translation": "kuna • sest",
+      "translation": "kuna",
       "explanation": [
         "Peamine mõte: põhjussidesõna, kui põhjus on juba teada või mainitud. Pärast da on tegusõna lause lõpus.",
         "da tähendab peamiselt: selgitab teadaolevat põhjust.",
@@ -73387,7 +73387,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-obwohl",
       "layout": "standardStudy",
-      "translation": "kuigi • ehkki",
+      "translation": "kuigi",
       "explanation": [
         "Peamine mõte: sissejuhatab vastupidise põhjuse kõrvallauses. Tegusõna on lause lõpus.",
         "obwohl tähendab peamiselt: vastupidine põhjus.",
@@ -73554,7 +73554,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-trotzdem",
       "layout": "standardStudy",
-      "translation": "sellegipoolest • ikkagi",
+      "translation": "sellegipoolest",
       "explanation": [
         "Peamine mõte: näitab tulemust, hoolimata põhjusest. Tegusõna on 2. kohal.",
         "trotzdem tähendab peamiselt: tulemus sellest hoolimata.",
@@ -74591,7 +74591,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-schaden",
       "layout": "standardStudy",
-      "translation": "kahju • kahjustus",
+      "translation": "kahju",
       "explanation": [
         "Peamine mõte: nimisõna — materiaalne, tervisega seotud või muu kahju.",
         "der Schaden tähendab peamiselt: kahju kui asi.",
@@ -75252,7 +75252,7 @@ const B1_WORDS = [
     "study": {
       "id": "b1-trotz",
       "layout": "standardStudy",
-      "translation": "jonn • kangekaelsus",
+      "translation": "jonn",
       "explanation": [
         "Peamine mõte: nimisõna — jonn, jonnakas suhtumine.",
         "der Trotz tähendab peamiselt: jonnakas suhtumine.",
