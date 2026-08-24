@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-08-24T14:28:38.905Z",
+  "originMainSha": "569e6c34d4e04ccfb14ce945a0e37e26ad0f4d9e",
+  "a2Cards": 1640,
+  "appliedBatchSize": 228,
+  "appliedBatchViolations": 0,
+  "residualMultiTranslationOutsideBatch": 2,
+  "residualCards": [
+    {
+      "cardId": "a2-anordnen-60",
+      "field": "lv",
+      "de": "anordnen",
+      "currentEt": "käskima • korraldama",
+      "candidates": [
+        "käskima",
+        "korraldama"
+      ]
+    },
+    {
+      "cardId": "a2-gang",
+      "field": "study.translation",
+      "de": "Gang",
+      "currentEt": "koridor • kõnnak • käik",
+      "candidates": [
+        "koridor",
+        "kõnnak",
+        "käik"
+      ]
+    }
+  ],
+  "mainTranslationCountViolations": 2,
+  "multipleMainTranslationsValidatedReal": 2,
+  "multipleMainTranslationsOwnerUnresolved": 2,
+  "mainTranslationFieldInventoryCoverage": "100%",
+  "multiTranslationScanCoverage": "100%",
+  "fieldsScanned": 1640,
+  "deChanges": 0,
+  "syntaxPass": true,
+  "mirrorPass": true,
+  "structurePass": true,
+  "idOrderPass": true,
+  "regressionAtoE": "PASS",
+  "appliedVerified": "228/228",
+  "currentValueMismatch": 0,
+  "unexpectedProductionChanges": 0,
+  "ET_A2_MULTITRANSLATION_POSTMERGE_VERIFY": "PASS",
+  "finalVerdict": "ET_A2_MULTITRANSLATION_OWNER_ACCEPTED_228"
+}
