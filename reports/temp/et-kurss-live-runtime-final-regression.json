@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-24T09:06:53.568Z",
-  "gitHead": "158d8a71",
+  "generatedAt": "2026-08-24T09:23:20.256Z",
+  "gitHead": "8f91ded6",
   "verdict": "ET_KURSS_REOPEN_NEEDS_OWNER_REVIEW",
   "contentRepair": {
     "requested": 25,
     "appliedOwnerGranular": 11,
-    "verified": 11,
-    "needsOwnerDecision": 14,
+    "verified": 24,
+    "needsOwnerDecision": 1,
     "currentValueMismatch": 0,
     "ownerNewMismatch": 0,
     "missingPath": 0
@@ -15,9 +15,10 @@
     "result": "PASS",
     "l18ExerciseDeckLen": 8,
     "l18TranslateDeckLen": 18,
+    "globalRuntimeFailures": 0,
     "browserL18": "PASS (exerciseDeckLen=32 runtime, translateDeckLen=18, cards populated)"
   },
-  "knownReopenContentDefects": 14,
+  "knownReopenContentDefects": 1,
   "gates": {
     "DE_CHANGES": 0,
     "MIRROR_ET": "PASS",
@@ -31,19 +32,6 @@
     "LV_UNCHANGED": "PASS"
   },
   "remainingOwnerDecisions": [
-    "R11a",
-    "R11b",
-    "R12",
-    "R13a",
-    "R13b",
-    "R14a",
-    "R14b",
-    "R14c",
-    "R14d",
-    "R14e",
-    "R14f",
-    "R14g",
-    "R14h",
-    "R14i"
+    "R14d"
   ]
 }

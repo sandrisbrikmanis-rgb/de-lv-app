@@ -6,19 +6,23 @@
 
 ## Verdict
 
-**ET_KURSS_REOPEN_NEEDS_OWNER_REVIEW**
+**ET_KURSS_REOPEN_NEEDS_OWNER_REVIEW** (1 duplicate-path residual)
 
-Shared renderer root cause is **fixed and browser-verified**. Eleven L1–L7 legacyHtml CONTENT_REPAIR rows were applied from OWNER-approved granular LABOT strings. Fourteen remaining CONTENT_REPAIR rows lack exact OWNER-approved Estonian replacements (grammar example translations L14–L18, L16 pronunciation lines) — classified **NEEDS_OWNER_DECISION** per OWNER safety rules.
+Shared renderer **PASS**. CONTENT_REPAIR **24/25** reopen targets verified after OWNER **14/14** COPY-ONLY apply (`reports/et-kurss-reopen-owner-decisions-accepted-14.md`). One L18 duplicate LV line remains at `Kindel aine` (same CURRENT as REOPEN-OWNER-009 but not in OWNER path list).
 
-`ET_KURSS_FINAL_CLOSED_ON_MAIN` is **not** restored until OWNER provides approved text for remaining rows and content regression reaches 25/25.
+`ET_KURSS_FINAL_CLOSED_ON_MAIN` is **not** restored until the residual duplicate path is OWNER-resolved.
 
 ## Summary
 
 | Bucket | Requested | Applied | Verified | Owner pending |
 |--------|-----------|---------|----------|---------------|
-| CONTENT_REPAIR | 25 | 11 | 11/25 | 14 |
+| CONTENT_REPAIR | 25 | 25 | 24/25 | 1 (duplicate path) |
 | SHARED_RENDERER_REPAIR | 1 | 1 | PASS | 0 |
 | ET_RENDERER/DATA_REPAIR | 0 | 0 | — | 0 |
+
+| OWNER batch (REOPEN-001..014) | REQUESTED | APPLIED | VERIFIED |
+|-------------------------------|-----------|---------|----------|
+| L14–L18 COPY-ONLY | 14 | 14 | 14/14 |
 
 ## SHARED_RENDERER_REPAIR
 
@@ -70,28 +74,34 @@ Applied **22 OWNER-approved granular LABOT** string replacements via `scripts/ap
 
 Post-repair LV remnant scan: L1–L7 accordion bodies no longer match reopen LV heuristics.
 
-### NEEDS_OWNER_DECISION (14 reopen findings)
+### APPLIED — OWNER REOPEN batch (14/14)
 
-No exact approved replacement in `reports/et-kurss-owner-decisions-accepted-materialized.md`:
+`scripts/apply-et-kurss-reopen-owner-14.js` — exact CURRENT→NEW from `reports/et-kurss-reopen-owner-decisions-accepted-14.md`:
 
-| Lesson | Visible CURRENT (abbrev.) | Reason |
-|--------|---------------------------|--------|
-| L14 Grammatika | `Es gribu tikt uz priekšu.` | No OWNER LABOT row |
-| L14 Grammatika | `Es negribu zupu ēst.` | No OWNER LABOT row |
-| L15 Gramatika | `Es pārgriežu ābolu uz pusēm.` | No OWNER LABOT row |
-| L16 Hääldus | `die Wälder: ä izrunā kā šaurais īsais e.` | No OWNER LABOT row |
-| L16 Hääldus | `die Bäuerinnen: äu izrunā kā oi.` | No OWNER LABOT row |
-| L18 Grammatika | `Es eju pie galda.` … `Es dzeru pienu.` (9 LV example strings) | No OWNER LABOT rows for grammar `examples[]` em-dash translations |
+| ID | Lesson | Status |
+|----|--------|--------|
+| REOPEN-OWNER-001–002 | L14 Grammatika (Wollen, Mögen) | APPLIED |
+| REOPEN-OWNER-003 | L15 Gramatika (entzweischneiden) | APPLIED |
+| REOPEN-OWNER-004–005 | L16 Hääldus (Wälder, Bäuerinnen) | APPLIED |
+| REOPEN-OWNER-006–014 | L18 Gramatika examples | APPLIED |
 
-German source sentences unchanged.
+`REQUESTED_LABOT = 14` · `APPLIED_VERIFIED = 14/14` · `CURRENT_VALUE_MISMATCH = 0`
 
-## Changed files
+### Residual (1) — duplicate path
+
+| Path | CURRENT | Reason |
+|------|---------|--------|
+| `kurssLesson18` → Gramatika → Kindel aine → examples[0] | `Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.` | Identical CURRENT to REOPEN-OWNER-009 but **not** in OWNER path list; COPY-ONLY skipped |
+
+### Changed files
 
 | File | Change |
 |------|--------|
 | `ui.js`, `www/ui.js` | Shared renderer: pass full section to matchers |
 | `data/et/courseLessons.js`, `www/data/et/courseLessons.js` | OWNER granular LABOT (22 strings) |
-| `scripts/apply-et-kurss-reopen-granular-labot.js` | Apply helper |
+| `scripts/apply-et-kurss-reopen-granular-labot.js` | L1–L7 granular LABOT apply |
+| `scripts/apply-et-kurss-reopen-owner-14.js` | OWNER REOPEN 14 COPY-ONLY apply |
+| `reports/et-kurss-reopen-owner-decisions-accepted-14.md` | OWNER accepted mapping |
 | `scripts/audit-et-kurss-live-runtime-reopen.js` | Reopen audit (from audit PR) |
 | `scripts/audit-et-kurss-live-runtime-browser.js` | Browser verification |
 | `scripts/audit-et-kurss-live-runtime-final-regression.js` | Post-repair regression |
@@ -111,4 +121,4 @@ German source sentences unchanged.
 
 ## Next OWNER action
 
-Provide approved Estonian replacements for the 14 pending grammar/pronunciation example rows (L14–L18). Re-run `scripts/apply-et-kurss-owner-repair.js` or granular apply after materialized decisions update.
+Provide OWNER path + approved NEW for L18 `Kindel aine` duplicate (`Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.`) or authorize global apply of REOPEN-OWNER-009 NEW to all identical CURRENT occurrences.

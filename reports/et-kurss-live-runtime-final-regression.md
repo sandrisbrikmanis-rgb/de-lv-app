@@ -1,24 +1,23 @@
 # ET–DE Kurss — Live / Runtime Final Regression
 
-**Generated:** 2026-08-24T09:06:53.568Z
-**Git:** 158d8a71
+**Generated:** 2026-08-24T09:23:20.256Z
+**Git:** 8f91ded6
 
 ## Verdict
 
-**ET_KURSS_REOPEN_NEEDS_OWNER_REVIEW**
-
-Remaining LV example/pronunciation strings lack OWNER-approved Estonian replacements in materialized decisions.
+**ET_KURSS_REOPEN_NEEDS_OWNER_REVIEW** — 1 duplicate-path LV remnant at L18 `Kindel aine` (same CURRENT as REOPEN-OWNER-009, different path).
 
 ## Content regression
 
 | Metric | Value |
 |--------|-------|
-| CONTENT_REPAIR requested | 25 |
-| OWNER granular applied (L1–L7 legacyHtml) | 11 |
-| CONTENT_REPAIR verified | 11/25 |
-| NEEDS_OWNER_DECISION rows | 14 |
+| CONTENT_REPAIR requested (reopen audit) | 25 |
+| OWNER granular applied (L1–L7) | 11 |
+| OWNER REOPEN batch applied (L14–L18) | 14/14 |
+| CONTENT_REPAIR verified | 24/25 |
+| NEEDS_OWNER_DECISION (duplicate path) | 1 |
 | CURRENT_VALUE_MISMATCH | 0 |
-| KNOWN_REOPEN_CONTENT_DEFECTS | 14 |
+| KNOWN_REOPEN_CONTENT_DEFECTS | 1 |
 
 ## Shared renderer regression
 
@@ -42,17 +41,4 @@ Remaining LV example/pronunciation strings lack OWNER-approved Estonian replacem
 
 ## Remaining OWNER decisions
 
-- R11a (L14): `Es gribu tikt uz priekšu.`
-- R11b (L14): `Es negribu zupu ēst.`
-- R12 (L15): `Es pārgriežu ābolu uz pusēm.`
-- R13a (L16): `die Wälder: ä izrunā kā šaurais īsais e.`
-- R13b (L16): `die Bäuerinnen: äu izrunā kā oi.`
-- R14a (L18): `Es eju pie galda.`
-- R14b (L18): `Es nolieku grozu uz sola.`
-- R14c (L18): `Es lieku ābolus groziņā.`
-- R14d (L18): `Es leju ūdeni krūzē.`
-- R14e (L18): `Es stāvu pie galda.`
-- R14f (L18): `Grozs stāv uz sola.`
-- R14g (L18): `Āboli ir groziņā.`
-- R14h (L18): `Ūdens ir krūzē.`
-- R14i (L18): `Es dzeru pienu.`
+- L18 `Kindel aine` examples[0]: `Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.` (duplicate of REOPEN-OWNER-009 CURRENT, path not in OWNER batch)
