@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-08-24T13:26:51.413Z",
+  "baseRef": "2f4d62089a66b0d101a34cd72d3fdffea2763e93",
+  "masterVersion": "1.12",
+  "MASTER_V1_12_PREMERGE_VERIFY": "PASS",
+  "MASTER_V1_12_TOOLING_VERIFY": "PASS",
+  "V1_10_RULES_RETAINED": "100%",
+  "V1_11_RULES_RETAINED": "100%",
+  "V1_12_RULES_RETAINED": "100%",
+  "SECTION_NUMBER_COLLISIONS": 0,
+  "BROKEN_INTERNAL_REFERENCES": 0,
+  "MASTER_SEMANTIC_REGRESSION": 0,
+  "PRODUCTION_CHANGES": 0,
+  "DE_CHANGES": 0,
+  "productionFilesChanged": [],
+  "deFilesChanged": [],
+  "rulesMissing": {
+    "v10": [],
+    "v11": [],
+    "v12": []
+  },
+  "sectionCollisions": [],
+  "brokenRefs": [],
+  "tooling": {
+    "regressionPass": true,
+    "inventoryOk": true,
+    "inventoryFields": [
+      "lv",
+      "study.translation",
+      "study.title"
+    ],
+    "fixtureResults": [
+      {
+        "id": "case-a-ordinary",
+        "pass": true
+      },
+      {
+        "id": "case-b-standardStudy",
+        "pass": true
+      },
+      {
+        "id": "case-c-standardStudy",
+        "pass": true
+      },
+      {
+        "id": "case-d-standardStudy",
+        "pass": true
+      },
+      {
+        "id": "case-e-valid-explanation",
+        "pass": true
+      }
+    ]
+  }
+}
