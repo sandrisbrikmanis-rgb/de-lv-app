@@ -9,6 +9,21 @@
 
 Per MASTER v1.12: one card = one main translation. `RECOMMENDED_MAIN_TRANSLATION` is auditor analysis only. `OWNER NEW` remains empty until OWNER decision.
 
+**Candidate meaning** columns give Estonian target-language semantic gloss (English) for OWNER review — not Latvian; ET is the learner language for this dataset.
+
+## Precheck
+
+| Gate | Result |
+|------|--------|
+| MASTER_VERSION | 1.12 |
+| CARDS | 702 |
+| SOURCE_FINDINGS | 59 |
+| CURRENT_MATCH | 59/59 |
+| MISSING_PATH | 0 |
+| DUPLICATE_FINDING_ID | 0 |
+| PRODUCTION_CHANGES | 0 |
+| DE_CHANGES | 0 |
+
 ## ET-A1-0015
 
 | Field | Value |
