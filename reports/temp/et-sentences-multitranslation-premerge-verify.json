@@ -1,0 +1,13 @@
+{
+  "requestedOwnerMappings": 120,
+  "appliedVerified": 120,
+  "currentValueMismatch": 0,
+  "teikumiCards": 796,
+  "mainTranslationCountViolations": 0,
+  "mainBefore": "0e627680bc9a8cffa442470c4c24ae973a690ebc",
+  "prHead": "ab5ada6dde806f0b19a83562e7793179e8b39ad8",
+  "deChanges": 0,
+  "syntaxPass": true,
+  "mirrorPass": true,
+  "ET_TEIKUMI_MULTITRANSLATION_PREMERGE_VERIFY": "PASS"
+}

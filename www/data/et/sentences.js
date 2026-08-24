@@ -211,7 +211,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heraus mit der Sprache!",
-    "lv": "Räägi! • Räägi ära!",
+    "lv": "Räägi ära!",
     "level": "Sätze"
   },
   {
@@ -491,7 +491,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Anklang finden.",
-    "lv": "Leida vastukaja. • Leida poolehoidu.",
+    "lv": "Leida vastukaja.",
     "level": "Sätze"
   },
   {
@@ -501,7 +501,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Aus diesem Anlass.",
-    "lv": "Sel puhul. • Sellega seoses.",
+    "lv": "Sel puhul.",
     "level": "Sätze"
   },
   {
@@ -646,7 +646,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Unter vier Augen.",
-    "lv": "Kahekesi. • Nelja silma all.",
+    "lv": "Kahekesi.",
     "level": "Sätze"
   },
   {
@@ -741,7 +741,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf die lange Bank schieben.",
-    "lv": "Edasi lükata. • Venitada. • Lükata määramata ajaks.",
+    "lv": "Edasi lükata.",
     "level": "Sätze"
   },
   {
@@ -756,7 +756,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Mist bauen.",
-    "lv": "Untsu keerata. • Rumalusi teha.",
+    "lv": "Untsu keerata.",
     "level": "Sätze"
   },
   {
@@ -836,12 +836,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Er ist schwer von Begriff.",
-    "lv": "Ta taipab aeglaselt. • Tal on aeglane mõtlemine.",
+    "lv": "Ta taipab aeglaselt.",
     "level": "Sätze"
   },
   {
     "de": "Im Gedächtnis behalten.",
-    "lv": "Meelde jätta. • Mällu hoida.",
+    "lv": "Meelde jätta.",
     "level": "Sätze"
   },
   {
@@ -896,7 +896,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Beistand leisten.",
-    "lv": "Aidata. • Osutada abi.",
+    "lv": "Osutada abi.",
     "level": "Sätze"
   },
   {
@@ -911,7 +911,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bekanntschaft anknüpfen.",
-    "lv": "Tuttavaks saada. • Kontakti luua.",
+    "lv": "Tuttavaks saada.",
     "level": "Sätze"
   },
   {
@@ -941,7 +941,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bereit sein.",
-    "lv": "Olla valmis. • Olla nõus.",
+    "lv": "Olla valmis.",
     "level": "Sätze"
   },
   {
@@ -951,7 +951,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bericht erstatten.",
-    "lv": "Teatada. • Anda aru. • Esitada ülevaade.",
+    "lv": "Teatada.",
     "level": "Sätze"
   },
   {
@@ -981,7 +981,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gute Besserung!",
-    "lv": "Paranege! • Saa terveks!",
+    "lv": "Paranege!",
     "level": "Sätze"
   },
   {
@@ -1011,7 +1011,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Ganz bestimmt.",
-    "lv": "Kindlasti. • Täiesti kindlalt.",
+    "lv": "Kindlasti.",
     "level": "Sätze"
   },
   {
@@ -1036,12 +1036,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "In Betracht ziehen.",
-    "lv": "Arvesse võtta. • Kaaluda.",
+    "lv": "Arvesse võtta.",
     "level": "Sätze"
   },
   {
     "de": "Außer Betracht lassen.",
-    "lv": "Mitte arvesse võtta. • Mitte kaaluda.",
+    "lv": "Mitte arvesse võtta.",
     "level": "Sätze"
   },
   {
@@ -1116,7 +1116,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Bitte checken.",
-    "lv": "Kontrollida. • Üle kontrollida.",
+    "lv": "Kontrollida.",
     "level": "Sätze"
   },
   {
@@ -1156,12 +1156,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Es dämmert.",
-    "lv": "Hakkab hämarduma. • Koidab.",
+    "lv": "Hakkab hämarduma.",
     "level": "Sätze"
   },
   {
     "de": "Danke schön!",
-    "lv": "Aitäh! • Tänan!",
+    "lv": "Aitäh!",
     "level": "Sätze"
   },
   {
@@ -1221,7 +1221,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Seien Sie so gut!",
-    "lv": "Olge nii lahke! • Olge nii hea!",
+    "lv": "Olge nii lahke!",
     "level": "Sätze"
   },
   {
@@ -1276,7 +1276,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Geschweige denn...",
-    "lv": "Rääkimata sellest. • Kus veel.",
+    "lv": "Rääkimata sellest.",
     "level": "Sätze"
   },
   {
@@ -1286,7 +1286,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Wie geht es Ihnen?",
-    "lv": "Kuidas teil läheb? • Kuidas käsi käib?",
+    "lv": "Kuidas teil läheb?",
     "level": "Sätze"
   },
   {
@@ -1331,7 +1331,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Gedenkst du meiner?",
-    "lv": "Kas sa mind mäletad? • Kas sa mõtled minu peale?",
+    "lv": "Kas sa mind mäletad?",
     "level": "Sätze"
   },
   {
@@ -1386,7 +1386,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Lass das!",
-    "lv": "Lõpeta! • Jäta see!",
+    "lv": "Lõpeta!",
     "level": "Sätze"
   },
   {
@@ -1416,7 +1416,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Leben Sie wohl!",
-    "lv": "Elage õnnelikult! • Hüvasti!",
+    "lv": "Elage õnnelikult!",
     "level": "Sätze"
   },
   {
@@ -1496,7 +1496,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was meinen Sie damit?",
-    "lv": "Mida te sellega mõtlete? • Kuidas te seda mõtlete?",
+    "lv": "Mida te sellega mõtlete?",
     "level": "Sätze"
   },
   {
@@ -1561,7 +1561,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht doch!",
-    "lv": "Ei ometi! • Pole vaja!",
+    "lv": "Ei ometi!",
     "level": "Sätze"
   },
   {
@@ -1631,7 +1631,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was bin ich schuldig?",
-    "lv": "Kui palju ma võlgnen? • Kui palju ma pean maksma?",
+    "lv": "Kui palju ma võlgnen?",
     "level": "Sätze"
   },
   {
@@ -1676,7 +1676,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Spaß beiseite!",
-    "lv": "Ilma naljata! • Nali kõrvale!",
+    "lv": "Ilma naljata!",
     "level": "Sätze"
   },
   {
@@ -1736,7 +1736,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Nicht übel!",
-    "lv": "Üsna hea! • Pole midagi ette heita.",
+    "lv": "Üsna hea!",
     "level": "Sätze"
   },
   {
@@ -1896,12 +1896,12 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vor allem.",
-    "lv": "Esiteks. • Kõigepealt.",
+    "lv": "Esiteks.",
     "level": "Sätze"
   },
   {
     "de": "Im Voraus.",
-    "lv": "Ette. • Eelnevalt.",
+    "lv": "Ette.",
     "level": "Sätze"
   },
   {
@@ -1916,7 +1916,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Vorhanden sein.",
-    "lv": "Olemas olla. • Kohal olla. • Kättesaadav olla.",
+    "lv": "Olemas olla.",
     "level": "Sätze"
   },
   {
@@ -1941,7 +1941,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Heute Vormittag.",
-    "lv": "Täna hommikul. • Täna enne lõunat.",
+    "lv": "Täna hommikul.",
     "level": "Sätze"
   },
   {
@@ -2021,7 +2021,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Was für ein...?",
-    "lv": "Milline...? • Mis...?",
+    "lv": "Milline...?",
     "level": "Sätze"
   },
   {
@@ -2031,7 +2031,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Auf diesem Wege.",
-    "lv": "Sel viisil. • Selliste vahenditega.",
+    "lv": "Sel viisil.",
     "level": "Sätze"
   },
   {
@@ -2096,7 +2096,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Alle Welt.",
-    "lv": "Kogu maailm. • Kõik.",
+    "lv": "Kogu maailm.",
     "level": "Sätze"
   },
   {
@@ -2181,7 +2181,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Widerspruch erheben.",
-    "lv": "Protesteerida. • Esitada vastuväiteid.",
+    "lv": "Protesteerida.",
     "level": "Sätze"
   },
   {
@@ -2316,7 +2316,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zugrunde legen.",
-    "lv": "Panna aluseks. • Võtta aluseks.",
+    "lv": "Panna aluseks.",
     "level": "Sätze"
   },
   {
@@ -2371,7 +2371,7 @@ const SENTENCE_ENTRIES = [
   },
   {
     "de": "Zuwider werden.",
-    "lv": "Muutuda vastikuks. • Tüütuks muutuda.",
+    "lv": "Muutuda vastikuks.",
     "level": "Sätze"
   },
   {
