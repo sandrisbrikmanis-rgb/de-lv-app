@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-08-24T16:00:35.067Z",
+  "originMainSha": "2c0fb3e26469f4cb006fbedd78a78ccd62564c87",
+  "c1Cards": 572,
+  "appliedOwnerMappings": 102,
+  "mainTranslationCountViolations": 0,
+  "multipleMainTranslationsValidatedReal": 0,
+  "multipleMainTranslationsOwnerUnresolved": 0,
+  "mainTranslationFieldInventoryCoverage": "100%",
+  "multiTranslationScanCoverage": "100%",
+  "fieldsScanned": 572,
+  "deChanges": 0,
+  "syntaxPass": true,
+  "mirrorPass": true,
+  "structurePass": true,
+  "idOrderPass": true,
+  "regressionAtoE": "PASS",
+  "appliedVerified": "102/102",
+  "currentValueMismatch": 0,
+  "unexpectedProductionChanges": 0,
+  "ET_C1_MULTITRANSLATION_POSTMERGE_VERIFY": "PASS",
+  "finalVerdict": "ET_C1_MULTITRANSLATION_CLOSED_ON_MAIN"
+}
