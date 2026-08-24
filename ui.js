@@ -549,11 +549,13 @@ const COURSE_SECTION_I18N_KEYS = {
   "Ord": "kurss.sections.words",
   "Navne": "kurss.sections.names",
   "Tekst/læsning": "kurss.sections.reading",
-  "Gramatika": "kurss.sections.grammar"
+  "Gramatika": "kurss.sections.grammar",
+  "Harjutus": "kurss.sections.exercise",
+  "Tõlgi": "kurss.sections.translate"
 };
 
-const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk", "Prevedi", "Translate", "Přeložit", "Přelož", "Oversætte", "Oversæt"]);
-const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas", "Vježbajte", "Übung / Vježba", "Exercise", "Übung / Exercise", "Cvičení", "Übung / Cvičení", "Øvelse", "Übung / Øvelse"]);
+const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk", "Prevedi", "Translate", "Přeložit", "Přelož", "Oversætte", "Oversæt", "Tõlgi"]);
+const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas", "Vježbajte", "Übung / Vježba", "Exercise", "Übung / Exercise", "Cvičení", "Übung / Cvičení", "Øvelse", "Übung / Øvelse", "Harjutus"]);
 
 function isCourseTranslateSection(title) {
   return COURSE_TRANSLATE_SECTION_TITLES.has(String(title || "").trim());
@@ -850,7 +852,11 @@ function renderCourseLesson(lessonId) {
 
   const lesson = window.COURSE_LESSON_DATA?.[config.dataKey || lessonId];
   renderCourseLessonFromData(target, lesson, config.exerciseAttribute, lessonId);
-  if (lesson?.id) renderCourseExerciseCard(normalizeCourseLessonId(lesson.id), 0, "challenge");
+  if (lesson?.id) {
+    const normalizedLessonId = normalizeCourseLessonId(lesson.id);
+    renderCourseExerciseCard(normalizedLessonId, 0, "challenge");
+    renderCourseTranslateCard(normalizedLessonId, 0, false);
+  }
   target.classList.add("course-lesson");
 }
 
@@ -1860,6 +1866,30 @@ function handleCourseTranslateCardClick(card) {
   renderCourseTranslateCard(lessonId, showingBack ? (index + 1) % cards.length : index, !showingBack);
 }
 
+function ensureCourseLessonDynamicCards(lessonPanel, accordion) {
+  if (!lessonPanel || !accordion) return;
+  const lessonNumber = String(lessonPanel.id || "").match(/\d+/)?.[0];
+  if (!lessonNumber) return;
+  const normalizedLessonId = `lesson${lessonNumber}`;
+  const lesson = window.COURSE_LESSON_DATA?.[`kurssLesson${lessonNumber}`];
+  const sectionIndex = Array.from(lessonPanel.querySelectorAll(".lesson1-accordion")).indexOf(accordion);
+  const section = lesson?.sections?.[sectionIndex];
+  if (!section) return;
+
+  if (matchesCourseExerciseSection(section)) {
+    const exerciseCard = accordion.querySelector("[data-course-exercise-card]");
+    if (exerciseCard && !exerciseCard.innerHTML.trim()) {
+      renderCourseExerciseCard(normalizedLessonId, 0, "challenge");
+    }
+  }
+  if (matchesCourseTranslateSection(section)) {
+    const translateCard = accordion.querySelector("[data-course-translate-card]");
+    if (translateCard && !translateCard.innerHTML.trim()) {
+      renderCourseTranslateCard(normalizedLessonId, 0, false);
+    }
+  }
+}
+
 function handleCourseLessonToggle(event) {
   const accordion = event.target;
   if (!accordion.matches(".lesson1-accordion") || !accordion.open) return;
@@ -1869,6 +1899,7 @@ function handleCourseLessonToggle(event) {
     if (item !== accordion) item.open = false;
   });
 
+  ensureCourseLessonDynamicCards(lessonPanel, accordion);
   accordion.scrollIntoView({ block: "start", behavior: "smooth" });
 }
 

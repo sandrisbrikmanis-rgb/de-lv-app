@@ -12,6 +12,7 @@ const COURSE_TRANSLATE_SECTION_TITLES = new Set([
   "Přelož",
   "Oversætte",
   "Oversæt",
+  "Tõlgi",
 ]);
 const COURSE_EXERCISE_SECTION_TITLES = new Set([
   "Vingrinājums",
@@ -26,6 +27,7 @@ const COURSE_EXERCISE_SECTION_TITLES = new Set([
   "Übung / Cvičení",
   "Øvelse",
   "Übung / Øvelse",
+  "Harjutus",
 ]);
 
 function isCourseTranslateSection(title) {
