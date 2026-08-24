@@ -1,92 +1,421 @@
 # ET–DE B1 — OWNER VIEW
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
-**Auditors:** deterministika + GPT-5.6 Luna (READ-ONLY)
-**MAIN_BASE_SHA:** `8123cf4aba7b8e19df030fefac7d89753b4c9d44`
-**WORK_BRANCH:** `cursor/et-de-b1-full-audit-4a7c`
-**Audit PR:** [#621](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/621)
-**SCOPE:** ET–DE B1 (`data/et/b1.js`)
-**Findings:** **2738** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
-> OBJECT_COVERAGE = 3367/3367 (100%). DISCOVERY_COMPLETENESS = NOT_GUARANTEED.
-> 702/702 does NOT mean all possible defects were found.
-> **Atvēršana GitHub/Cursor:** šis indekss ir īss. Pilns VIEW ir sadalīts pa **55 grupām** (pa 50 findingiem) — atver grupu failus zemāk, nevis gaidi vienu lielu monolītu.
-> **DE = STRICT READ-ONLY.** Production: `data/et/b1.js` + `www/data/et/b1.js`.
-## GitHub atvēršana
-| Fails | GitHub |
-|-------|--------|
-| GitHub indekss | [et-b1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-review-GITHUB.md) |
-| OWNER README | [et-b1-owner-review-README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-review-README.md) |
-| OWNER DECISIONS (indekss) | [et-b1-owner-decisions.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions.md) |
-| Pilns audits (indekss) | [et-b1-full-audit-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit-GITHUB.md) |
-| Audita kopsavilkums | [et-b1-full-audit-summary.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit-summary.md) |
-| Audit JSON | [et-b1-full-audit.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-full-audit.json) |
-## Grupas (pa 50 findingiem) — **sākt šeit**
-| Grupa | Findings | VIEW | DECISIONS |
-|-------|----------|------|-----------|
-| 1–50 | 50 | [et-b1-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group01.md) | [et-b1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group01.md) |
-| 51–100 | 50 | [et-b1-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group02.md) | [et-b1-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group02.md) |
-| 101–150 | 50 | [et-b1-owner-view-group03.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group03.md) | [et-b1-owner-decisions-group03.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group03.md) |
-| 151–200 | 50 | [et-b1-owner-view-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group04.md) | [et-b1-owner-decisions-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group04.md) |
-| 201–250 | 50 | [et-b1-owner-view-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group05.md) | [et-b1-owner-decisions-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group05.md) |
-| 251–300 | 50 | [et-b1-owner-view-group06.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group06.md) | [et-b1-owner-decisions-group06.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group06.md) |
-| 301–350 | 50 | [et-b1-owner-view-group07.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group07.md) | [et-b1-owner-decisions-group07.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group07.md) |
-| 351–400 | 50 | [et-b1-owner-view-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group08.md) | [et-b1-owner-decisions-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group08.md) |
-| 401–450 | 50 | [et-b1-owner-view-group09.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group09.md) | [et-b1-owner-decisions-group09.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group09.md) |
-| 451–500 | 50 | [et-b1-owner-view-group10.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group10.md) | [et-b1-owner-decisions-group10.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group10.md) |
-| 501–550 | 50 | [et-b1-owner-view-group11.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group11.md) | [et-b1-owner-decisions-group11.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group11.md) |
-| 551–600 | 50 | [et-b1-owner-view-group12.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group12.md) | [et-b1-owner-decisions-group12.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group12.md) |
-| 601–650 | 50 | [et-b1-owner-view-group13.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group13.md) | [et-b1-owner-decisions-group13.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group13.md) |
-| 651–700 | 50 | [et-b1-owner-view-group14.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group14.md) | [et-b1-owner-decisions-group14.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group14.md) |
-| 701–750 | 50 | [et-b1-owner-view-group15.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group15.md) | [et-b1-owner-decisions-group15.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group15.md) |
-| 751–800 | 50 | [et-b1-owner-view-group16.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group16.md) | [et-b1-owner-decisions-group16.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group16.md) |
-| 801–850 | 50 | [et-b1-owner-view-group17.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group17.md) | [et-b1-owner-decisions-group17.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group17.md) |
-| 851–900 | 50 | [et-b1-owner-view-group18.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group18.md) | [et-b1-owner-decisions-group18.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group18.md) |
-| 901–950 | 50 | [et-b1-owner-view-group19.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group19.md) | [et-b1-owner-decisions-group19.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group19.md) |
-| 951–1000 | 50 | [et-b1-owner-view-group20.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group20.md) | [et-b1-owner-decisions-group20.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group20.md) |
-| 1001–1050 | 50 | [et-b1-owner-view-group21.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group21.md) | [et-b1-owner-decisions-group21.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group21.md) |
-| 1051–1100 | 50 | [et-b1-owner-view-group22.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group22.md) | [et-b1-owner-decisions-group22.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group22.md) |
-| 1101–1150 | 50 | [et-b1-owner-view-group23.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group23.md) | [et-b1-owner-decisions-group23.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group23.md) |
-| 1151–1200 | 50 | [et-b1-owner-view-group24.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group24.md) | [et-b1-owner-decisions-group24.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group24.md) |
-| 1201–1250 | 50 | [et-b1-owner-view-group25.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group25.md) | [et-b1-owner-decisions-group25.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group25.md) |
-| 1251–1300 | 50 | [et-b1-owner-view-group26.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group26.md) | [et-b1-owner-decisions-group26.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group26.md) |
-| 1301–1350 | 50 | [et-b1-owner-view-group27.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group27.md) | [et-b1-owner-decisions-group27.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group27.md) |
-| 1351–1400 | 50 | [et-b1-owner-view-group28.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group28.md) | [et-b1-owner-decisions-group28.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group28.md) |
-| 1401–1450 | 50 | [et-b1-owner-view-group29.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group29.md) | [et-b1-owner-decisions-group29.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group29.md) |
-| 1451–1500 | 50 | [et-b1-owner-view-group30.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group30.md) | [et-b1-owner-decisions-group30.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group30.md) |
-| 1501–1550 | 50 | [et-b1-owner-view-group31.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group31.md) | [et-b1-owner-decisions-group31.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group31.md) |
-| 1551–1600 | 50 | [et-b1-owner-view-group32.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group32.md) | [et-b1-owner-decisions-group32.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group32.md) |
-| 1601–1650 | 50 | [et-b1-owner-view-group33.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group33.md) | [et-b1-owner-decisions-group33.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group33.md) |
-| 1651–1700 | 50 | [et-b1-owner-view-group34.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group34.md) | [et-b1-owner-decisions-group34.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group34.md) |
-| 1701–1750 | 50 | [et-b1-owner-view-group35.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group35.md) | [et-b1-owner-decisions-group35.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group35.md) |
-| 1751–1800 | 50 | [et-b1-owner-view-group36.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group36.md) | [et-b1-owner-decisions-group36.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group36.md) |
-| 1801–1850 | 50 | [et-b1-owner-view-group37.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group37.md) | [et-b1-owner-decisions-group37.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group37.md) |
-| 1851–1900 | 50 | [et-b1-owner-view-group38.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group38.md) | [et-b1-owner-decisions-group38.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group38.md) |
-| 1901–1950 | 50 | [et-b1-owner-view-group39.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group39.md) | [et-b1-owner-decisions-group39.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group39.md) |
-| 1951–2000 | 50 | [et-b1-owner-view-group40.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group40.md) | [et-b1-owner-decisions-group40.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group40.md) |
-| 2001–2050 | 50 | [et-b1-owner-view-group41.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group41.md) | [et-b1-owner-decisions-group41.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group41.md) |
-| 2051–2100 | 50 | [et-b1-owner-view-group42.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group42.md) | [et-b1-owner-decisions-group42.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group42.md) |
-| 2101–2150 | 50 | [et-b1-owner-view-group43.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group43.md) | [et-b1-owner-decisions-group43.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group43.md) |
-| 2151–2200 | 50 | [et-b1-owner-view-group44.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group44.md) | [et-b1-owner-decisions-group44.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group44.md) |
-| 2201–2250 | 50 | [et-b1-owner-view-group45.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group45.md) | [et-b1-owner-decisions-group45.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group45.md) |
-| 2251–2300 | 50 | [et-b1-owner-view-group46.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group46.md) | [et-b1-owner-decisions-group46.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group46.md) |
-| 2301–2350 | 50 | [et-b1-owner-view-group47.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group47.md) | [et-b1-owner-decisions-group47.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group47.md) |
-| 2351–2400 | 50 | [et-b1-owner-view-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group48.md) | [et-b1-owner-decisions-group48.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group48.md) |
-| 2401–2450 | 50 | [et-b1-owner-view-group49.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group49.md) | [et-b1-owner-decisions-group49.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group49.md) |
-| 2451–2500 | 50 | [et-b1-owner-view-group50.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group50.md) | [et-b1-owner-decisions-group50.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group50.md) |
-| 2501–2550 | 50 | [et-b1-owner-view-group51.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group51.md) | [et-b1-owner-decisions-group51.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group51.md) |
-| 2551–2600 | 50 | [et-b1-owner-view-group52.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group52.md) | [et-b1-owner-decisions-group52.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group52.md) |
-| 2601–2650 | 50 | [et-b1-owner-view-group53.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group53.md) | [et-b1-owner-decisions-group53.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group53.md) |
-| 2651–2700 | 50 | [et-b1-owner-view-group54.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group54.md) | [et-b1-owner-decisions-group54.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group54.md) |
-| 2701–2738 | 38 | [et-b1-owner-view-group55.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-view-group55.md) | [et-b1-owner-decisions-group55.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-b1-full-audit-4a7c/reports/et-b1-owner-decisions-group55.md) |
-## Īsais saraksts
-Kopā **2738** findingi — pilns saturs tikai grupu VIEW failos (55 × ~50).
-- **ET-B1-0001** `STRUCT` · CRITICAL
-- **ET-B1-0002** `b1-anbauen` · HIGH
-- **ET-B1-0003** `b1-anbauen` · HIGH
-- **ET-B1-0004** `b1-anbauen` · HIGH
-- **ET-B1-0005** `b1-angeben` · HIGH
-- **ET-B1-0006** `b1-angeben` · HIGH
-- **ET-B1-0007** `b1-angeben` · HIGH
-- **ET-B1-0008** `b1-anbringen` · HIGH
-- **ET-B1-0009** `b1-anbringen` · HIGH
-- **ET-B1-0010** `b1-anbringen` · HIGH
-- … un vēl **2728** (skatīt grupas)
+
+**Generated:** 2026-08-24T13:19:30.529Z
+**MASTER:** v1.12
+**Findings:** 26
+
+### ET-B1-0001
+
+| Field | Value |
+|---|---|
+| Card ID | b1-nachgeben |
+| Card type | — |
+| Field/path | `de` |
+| CURRENT | — |
+| Candidates | — |
+| DE/source | nachgeben |
+| Category | DE_INTEGRITY |
+| Severity | CRITICAL |
+| Reason | Study German content differs from LV etalon |
+| Recommended | Restore DE parity with LV MASTER (DE read-only reference) |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0002
+
+| Field | Value |
+|---|---|
+| Card ID | b1-sich-bedienen |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | endale võtma • kasutama |
+| Candidates | endale võtma · kasutama |
+| DE/source | sich bedienen |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (endale võtma | kasutama) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0003
+
+| Field | Value |
+|---|---|
+| Card ID | b1-betragen-407 |
+| Card type | ordinary |
+| Field/path | `lv` |
+| CURRENT | ulatuma • moodustama |
+| Candidates | ulatuma · moodustama |
+| DE/source | betragen |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (ulatuma | moodustama) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0004
+
+| Field | Value |
+|---|---|
+| Card ID | b1-Burg-528 |
+| Card type | ordinary |
+| Field/path | `lv` |
+| CURRENT | kindlus • loss |
+| Candidates | kindlus · loss |
+| DE/source | Burg |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (kindlus | loss) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0005
+
+| Field | Value |
+|---|---|
+| Card ID | b1-Dasein-565 |
+| Card type | ordinary |
+| Field/path | `lv` |
+| CURRENT | olemasolu • eksistents |
+| Candidates | olemasolu · eksistents |
+| DE/source | Dasein |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (olemasolu | eksistents) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0006
+
+| Field | Value |
+|---|---|
+| Card ID | b1-Elend-738 |
+| Card type | ordinary |
+| Field/path | `lv` |
+| CURRENT | häda • armetu olukord |
+| Candidates | häda · armetu olukord |
+| DE/source | Elend |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (häda | armetu olukord) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0007
+
+| Field | Value |
+|---|---|
+| Card ID | b1-ganztaegig |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | kogu päeva kestev • terve päeva pikkune |
+| Candidates | kogu päeva kestev · terve päeva pikkune |
+| DE/source | ganztägig |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (kogu päeva kestev | terve päeva pikkune) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0008
+
+| Field | Value |
+|---|---|
+| Card ID | b1-hort |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | pikapäevarühm • laste päevakeskus |
+| Candidates | pikapäevarühm · laste päevakeskus |
+| DE/source | Hort |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (pikapäevarühm | laste päevakeskus) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0009
+
+| Field | Value |
+|---|---|
+| Card ID | b1-hupe |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | signaalpasun • pasun |
+| Candidates | signaalpasun · pasun |
+| DE/source | Hupe |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (signaalpasun | pasun) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0010
+
+| Field | Value |
+|---|---|
+| Card ID | b1-juenger |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | jünger • järgija |
+| Candidates | jünger · järgija |
+| DE/source | Jünger |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (jünger | järgija) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0011
+
+| Field | Value |
+|---|---|
+| Card ID | b1-kader |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | koosseis • tuumik |
+| Candidates | koosseis · tuumik |
+| DE/source | Kader |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (koosseis | tuumik) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0012
+
+| Field | Value |
+|---|---|
+| Card ID | b1-Nachteil-1950 |
+| Card type | ordinary |
+| Field/path | `lv` |
+| CURRENT | puudus • miinus |
+| Candidates | puudus · miinus |
+| DE/source | Nachteil |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (puudus | miinus) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0013
+
+| Field | Value |
+|---|---|
+| Card ID | b1-Neuheit-1978 |
+| Card type | ordinary |
+| Field/path | `lv` |
+| CURRENT | uudsus • uuendus |
+| Candidates | uudsus · uuendus |
+| DE/source | Neuheit |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (uudsus | uuendus) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0014
+
+| Field | Value |
+|---|---|
+| Card ID | b1-rüsten |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | varustama, relvastama; valmistuma |
+| Candidates | varustama, relvastama · valmistuma |
+| DE/source | rüsten |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (varustama, relvastama | valmistuma) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0015
+
+| Field | Value |
+|---|---|
+| Card ID | b1-saat |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | seeme, külv |
+| Candidates | seeme · külv |
+| DE/source | Saat |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (seeme | külv) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0016
+
+| Field | Value |
+|---|---|
+| Card ID | b1-sowie |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | samuti, nagu ka; ning |
+| Candidates | samuti, nagu ka · ning |
+| DE/source | sowie |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (samuti, nagu ka | ning) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0017
+
+| Field | Value |
+|---|---|
+| Card ID | b1-Streifen-2792 |
+| Card type | ordinary |
+| Field/path | `lv` |
+| CURRENT | triip • riba |
+| Candidates | triip · riba |
+| DE/source | Streifen |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (triip | riba) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0018
+
+| Field | Value |
+|---|---|
+| Card ID | b1-versäumen-3102 |
+| Card type | ordinary |
+| Field/path | `lv` |
+| CURRENT | vahele jätma • tegemata jätma |
+| Candidates | vahele jätma · tegemata jätma |
+| DE/source | versäumen |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (vahele jätma | tegemata jätma) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0019
+
+| Field | Value |
+|---|---|
+| Card ID | b1-wagen |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | auto • vagun |
+| Candidates | auto · vagun |
+| DE/source | Wagen |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (auto | vagun) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0020
+
+| Field | Value |
+|---|---|
+| Card ID | b1-Chef-3321 |
+| Card type | ordinary |
+| Field/path | `lv` |
+| CURRENT | ülemus • juht |
+| Candidates | ülemus · juht |
+| DE/source | Chef |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (ülemus | juht) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0021
+
+| Field | Value |
+|---|---|
+| Card ID | b1-weil |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | sest • kuna |
+| Candidates | sest · kuna |
+| DE/source | weil |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (sest | kuna) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0022
+
+| Field | Value |
+|---|---|
+| Card ID | b1-da |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | kuna • sest |
+| Candidates | kuna · sest |
+| DE/source | da |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (kuna | sest) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0023
+
+| Field | Value |
+|---|---|
+| Card ID | b1-obwohl |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | kuigi • ehkki |
+| Candidates | kuigi · ehkki |
+| DE/source | obwohl |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (kuigi | ehkki) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0024
+
+| Field | Value |
+|---|---|
+| Card ID | b1-trotzdem |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | sellegipoolest • ikkagi |
+| Candidates | sellegipoolest · ikkagi |
+| DE/source | trotzdem |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (sellegipoolest | ikkagi) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0025
+
+| Field | Value |
+|---|---|
+| Card ID | b1-schaden |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | kahju • kahjustus |
+| Candidates | kahju · kahjustus |
+| DE/source | Schaden |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (kahju | kahjustus) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |
+
+### ET-B1-0026
+
+| Field | Value |
+|---|---|
+| Card ID | b1-trotz |
+| Card type | standardStudy |
+| Field/path | `study.translation` |
+| CURRENT | jonn • kangekaelsus |
+| Candidates | jonn · kangekaelsus |
+| DE/source | Trotz |
+| Category | MULTIPLE_TRANSLATION |
+| Severity | HIGH |
+| Reason | Main translation field shows 2 learner-facing candidates (jonn | kangekaelsus) |
+| Recommended | OWNER must choose single main translation |
+| Status | OWNER_DECISION_REQUIRED |

@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.11\
+**Versija:** 1.12\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -62,10 +62,11 @@ branch saturs **nav OWNER lēmums**.
 
 # 1. PAMATPRINCIPI
 
-## 1.1. Learning First — viena galvenā nozīme uz parastās flashkartes
+## 1.1. Viena kartīte = viena galvenā nozīme = viens galvenais tulkojums
 
-Šī lietotne nav vārdnīca. Parastajai flashkartei jābūt ātri uztveramai
-un nepārprotamai.
+Šī lietotne nav vārdnīca. Katrai learner-facing kartītei jābūt ātri uztveramai
+un nepārprotamai — ordinary flashcard, minimalStudy, standardStudy,
+comparisonStudy un jebkurš cits Study tips.
 
 **Hard rule:**
 
@@ -84,8 +85,10 @@ un nepārprotamai.
 -   morfoloģiski vai gramatiski varianti, kas nav atšķirīgas leksiskas
     nozīmes, nav automātiski pārkāpums.
 
-Auditā parastajām flashkartēm obligāti jābūt deterministiskam kandidātu
-scan uz:
+Auditā **visiem kartīšu tipiem** obligāti jābūt deterministiskam kandidātu
+scan uz visiem rendererī redzamiem galvenajiem tulkojuma laukiem (`MAIN_TRANSLATION_FIELD_INVENTORY`, sk. §1.1.10):
+
+Scan uz:
 
 ```text
 •
@@ -103,7 +106,7 @@ sevi nav kļūda. Kļūda ir tikai tad, ja tulkojums ir nepareizs, sajaukti
 vācu vārdi/konstrukcijas vai saturs ir savstarpēji pretrunīgs.
 ### 1.1.1. Obligāti
 
--   `TRANSLATION_COUNT = 1`;
+-   `MAIN_TRANSLATION_COUNT = 1` (v1.11 `TRANSLATION_COUNT = 1` ekvivalents);
 -   viens learner-facing galvenais tulkojums;
 -   tulkojumam jāatbilst konkrētajai DE kartītes nozīmei;
 -   alternatīvas nozīmes nedrīkst automātiski apvienot vienā parastā
@@ -248,6 +251,71 @@ MASTER v1.11 nostiprina:
 
 Šis princips ir prioritārs pār jebkuru repair automatizāciju.
 
+### 1.1.10. MAIN_TRANSLATION_FIELD_INVENTORY (v1.12)
+
+MASTER v1.12 ievieš obligātu:
+
+`MAIN_TRANSLATION_FIELD_INVENTORY`
+
+Auditoram vispirms jānosaka **visi production lauki**, kurus runtime renderer
+izmanto kā galveno learner-facing tulkojumu. Inventāram jāaptver visi kartīšu
+tipi.
+
+Required:
+
+`MAIN_TRANSLATION_FIELD_INVENTORY_COVERAGE = 100%`
+
+`UNMAPPED_MAIN_TRANSLATION_FIELDS = 0`
+
+Nedrīkst pieņemt, ka galvenais tulkojums vienmēr atrodas tikai vienā
+universālā laukā, piemēram `lv`.
+
+### 1.1.11. FULL MULTI-TRANSLATION SCAN — ALL CARD TYPES (v1.12)
+
+`MULTI_TRANSLATION_SCAN` scope paplašināts no ordinary flashcards uz **visiem
+kartīšu tipiem**:
+
+`ALL_CARD_MAIN_TRANSLATION_FIELDS = 100%`
+
+Jāmeklē vismaz `•`, `/`, `;`, comma/list konstrukcijas, arrays, multi-value
+structures un rendererī salikti vairāki tulkojumi. Separator scan ir candidate
+detection, nevis gala lingvistisks spriedums.
+
+Katram kandidātam klasifikācija:
+
+`SINGLE_TRANSLATION` / `MULTIPLE_MAIN_TRANSLATIONS_REAL` / `FALSE_POSITIVE`
+
+Ja `MULTIPLE_MAIN_TRANSLATIONS_REAL` → obligāti `OWNER_DECISION_REQUIRED`.
+
+### 1.1.12. Study exception precizēts (v1.12)
+
+Study kartīte drīkst saturēt vairākas nozīmes tikai **skaidrojošajā saturā**
+(explanation, examples, comparison, tip, important). Study **galvenais
+tulkojums** joprojām ir `MAIN_TRANSLATION_COUNT = 1`.
+
+Piemērs: `finden → leidma` drīkst būt galvenais tulkojums; Study skaidrojumā
+drīkst paskaidrot `finden noteiktos kontekstos = arvama`.
+
+### 1.1.13. INVALID AUDIT GATE (v1.12)
+
+Ja audits deklarē `MULTIPLE_TRANSLATION violations = 0`, bet production satur
+zināmu regression fixture ar vairākiem galvenajiem tulkojumiem (piem. `finden
+→ leidma • arvama`), tad:
+
+`MULTI_TRANSLATION_SCAN = INVALID`
+
+`AUDIT_RESULT = REOPEN_REQUIRED`
+
+Auditu nedrīkst izmantot closure pierādījumam.
+
+### 1.1.14. TOOLING_STANDARD_MISMATCH (v1.12)
+
+Ja MASTER v1.12 ir aktīvs, bet audita tooling skenē tikai ordinary flashcards
+vai tikai vienu fiksētu tulkojuma lauku:
+
+`TOOLING_STANDARD_MISMATCH = BLOCKED`
+
+Final closure nav atļauts.
 ### 1.1.9. Normatīvs piemērs
 
 Production:
@@ -1719,7 +1787,8 @@ MASTER pilnajam deterministic discovery slānim obligāti pievienots:
 
 Scope:
 
-**100% visu parasto flashcard learner-facing tulkojuma lauku.**
+**100% visu kartīšu tipu learner-facing galveno tulkojuma lauku**
+(atbilstoši `MAIN_TRANSLATION_FIELD_INVENTORY`).
 
 Jāmeklē vismaz:
 
@@ -1851,7 +1920,13 @@ MASTER regression suite papildināts ar pārbaudi, ka:
 4.  bez OWNER `NEW` production netiek mainīts;
 5.  pēc OWNER apstiprināta viena `NEW` COPY-ONLY apply strādā;
 6.  post-repair full residual scan apstiprina
-    `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS = 0`.
+    `MAIN_TRANSLATION_COUNT_VIOLATIONS = 0`;
+6.  Case A–D (§13): ordinary `dauerhaft → püsiv • pikaajaline • vastupidav`,
+    standardStudy `finden → leidma • arvama`, `für → jaoks • eest`, `aus → -st • välja`
+    → `MULTIPLE_MAIN_TRANSLATIONS_DETECTED = true`, `OWNER_DECISION_REQUIRED`;
+7.  Case E (§13): `finden → leidma` ar `arvama` tikai Study explanation →
+    `MAIN_TRANSLATION_COUNT = 1`, PASS;
+
 
 ------------------------------------------------------------------------
 
@@ -2447,6 +2522,23 @@ vai
 tad:
 
 `FINAL_CLOSED_ON_MAIN = BLOCKED`
+
+## 11.15. v1.12 closure metrics — universal main translation hard gate
+
+Katras valodas/dataset gala closure atskaitē obligāti norādīt (papildus §11.14):
+
+-   `CARD_SCOPE = <count>/<count>`;
+-   `MAIN_TRANSLATION_FIELD_INVENTORY_COVERAGE = 100%`;
+-   `UNMAPPED_MAIN_TRANSLATION_FIELDS = 0`;
+-   `MULTIPLE_MAIN_TRANSLATION_CANDIDATES_RAW = <count>`;
+-   `MULTIPLE_MAIN_TRANSLATIONS_VALIDATED_REAL = 0`;
+-   `MULTIPLE_MAIN_TRANSLATIONS_OWNER_UNRESOLVED = 0`;
+-   `MAIN_TRANSLATION_COUNT_VIOLATIONS = 0`.
+
+Ja `MULTIPLE_MAIN_TRANSLATIONS_OWNER_UNRESOLVED > 0` vai
+`MAIN_TRANSLATION_COUNT_VIOLATIONS > 0` vai `UNMAPPED_MAIN_TRANSLATION_FIELDS > 0`
+vai `MAIN_TRANSLATION_FIELD_INVENTORY_COVERAGE < 100%` →
+`FINAL_CLOSED_ON_MAIN = BLOCKED`.
 ------------------------------------------------------------------------
 
 # 12. GIT / BRANCH MASTER PROTOKOLS
@@ -2755,14 +2847,15 @@ KURSS_NEXT:
 DE changes = 0; LV MASTER changes = 0; other-language unexpected changes
 = 0.
 
-### Multi-translation closure (v1.11)
+### Multi-translation closure (v1.12)
 
-`ORDINARY_FLASHCARD_SCOPE`, `MULTI_TRANSLATION_SCAN_COVERAGE`,
-`MULTIPLE_TRANSLATION_CANDIDATES_RAW`,
-`MULTIPLE_TRANSLATION_VALIDATED_REAL`,
-`MULTIPLE_TRANSLATION_OWNER_UNRESOLVED`,
-`ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS`,
-`OWNER_AUTOMATIC_SELECTION`, `MULTI_TRANSLATION_RESIDUAL_SCAN`.
+`CARD_SCOPE`, `MAIN_TRANSLATION_FIELD_INVENTORY_COVERAGE`,
+`UNMAPPED_MAIN_TRANSLATION_FIELDS`, `MULTI_TRANSLATION_SCAN_COVERAGE`,
+`MULTIPLE_MAIN_TRANSLATION_CANDIDATES_RAW`,
+`MULTIPLE_MAIN_TRANSLATIONS_VALIDATED_REAL`,
+`MULTIPLE_MAIN_TRANSLATIONS_OWNER_UNRESOLVED`,
+`MAIN_TRANSLATION_COUNT_VIOLATIONS`, `OWNER_AUTOMATIC_SELECTION`,
+`MULTI_TRANSLATION_SCAN` (VALID/INVALID), `MULTI_TRANSLATION_RESIDUAL_SCAN`.
 ### Zināmās problēmas
 
 Tikai reāli neatrisinātais. Ja nav: `Nav zināmu neatrisinātu problēmu.`
@@ -3072,6 +3165,27 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.12
+
+Universal single main translation — viena kartīte = viena galvenā nozīme = viens
+galvenais tulkojums visiem kartīšu tipiem (ordinary, minimalStudy, standardStudy,
+comparisonStudy).
+
+Pievienots:
+
+- §1.1 universāls `MAIN_TRANSLATION_COUNT = 1` visiem renderer galvenajiem laukiem;
+- `MAIN_TRANSLATION_FIELD_INVENTORY` ar 100% coverage prasību;
+- pilns multi-translation scan visiem kartīšu tipiem un laukiem;
+- Study exception precizēts (papildu nozīmes tikai skaidrojošajā saturā);
+- §1.1.13 INVALID AUDIT GATE; §1.1.14 TOOLING_STANDARD_MISMATCH;
+- §10.1 §13 regression fixtures (Cases A–E);
+- §11.15 v1.12 closure metrics.
+
+**FINAL v1.12 RULE:** Viena kartīte = viena galvenā mācāmā nozīme = viens
+galvenais tulkojums. Study drīkst izskaidrot papildu nozīmes, bet galvenais
+tulkojums vienmēr paliek viens. Gala izvēle pieder tikai OWNER.
+
+Version 1.11 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.12.
 ## Version 1.11
 
 Multiple translation OWNER hard gate — parastai flashcard tieši viens
@@ -3291,4 +3405,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.11 --- END
+## MASTER 1.12 --- END
