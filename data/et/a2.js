@@ -4449,7 +4449,7 @@ const A2_WORDS = [
   },
   {
     "de": "anordnen",
-    "lv": "käskima • korraldama",
+    "lv": "`korraldama`",
     "level": "A2"
   },
   {
@@ -33430,7 +33430,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-gang",
       "layout": "standardStudy",
-      "translation": "koridor • kõnnak • käik",
+      "translation": "`koridor`",
       "explanation": [
         "Põhiidee: der Gang tähenduse määrab kontekst: ruumis on see koridor, liikumises kõnnak, menüüs roa käik.",
         "Majas, koolis või hotellis tähendab Gang väga sageli koridor.",

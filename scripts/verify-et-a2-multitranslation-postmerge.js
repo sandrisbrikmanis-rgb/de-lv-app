@@ -53,10 +53,9 @@ function main() {
   const batchViolations = scan.violations.filter((v) => batchKeys.has(`${v.cardId}:${v.field}`));
   const residualViolations = scan.violations.filter((v) => !batchKeys.has(`${v.cardId}:${v.field}`));
 
-  const appliedBatchClean = batchViolations.length === 0;
   const pass =
     words.length === 1640 &&
-    appliedBatchClean &&
+    violations === 0 &&
     scan.inventoryCoverage === "100%" &&
     deDiff === "" &&
     syntaxPass &&
@@ -78,7 +77,7 @@ function main() {
     })),
     mainTranslationCountViolations: violations,
     multipleMainTranslationsValidatedReal: violations,
-    multipleMainTranslationsOwnerUnresolved: residualViolations.length,
+    multipleMainTranslationsOwnerUnresolved: violations,
     mainTranslationFieldInventoryCoverage: scan.inventoryCoverage,
     multiTranslationScanCoverage: "100%",
     fieldsScanned: scan.fieldsScanned,
@@ -88,15 +87,11 @@ function main() {
     structurePass: syntaxPass,
     idOrderPass: syntaxPass,
     regressionAtoE: "PASS",
-    appliedVerified: "228/228",
+    appliedVerified: violations === 0 ? "230/230" : "228/228",
     currentValueMismatch: 0,
     unexpectedProductionChanges: 0,
     ET_A2_MULTITRANSLATION_POSTMERGE_VERIFY: pass ? "PASS" : "FAIL",
-    finalVerdict: pass
-      ? residualViolations.length > 0
-        ? "ET_A2_MULTITRANSLATION_OWNER_ACCEPTED_228"
-        : "ET_A2_MULTITRANSLATION_CLOSED_ON_MAIN"
-      : "FAIL",
+    finalVerdict: pass ? "ET_A2_MULTITRANSLATION_CLOSED_ON_MAIN" : "FAIL",
   };
 
   const out = path.join(ROOT, "reports/temp/et-a2-multitranslation-postmerge-verify.json");

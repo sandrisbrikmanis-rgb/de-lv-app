@@ -1,12 +1,12 @@
-# ET–DE A2 — Multi-translation residuals outside 228 OWNER batch
+# ET–DE A2 — Multi-translation residuals (closed)
 
-**Generated:** post-apply scan (MASTER v1.12)  
-**Applied batch:** 228/228 LABOT — **0** violations remaining in batch  
-**Residuals outside batch:** **2** (do not auto-fix — OWNER decision required)
+**Status:** CLOSED via residual 2 OWNER apply (`reports/et-a2-multitranslation-residual-2-owner-accepted.md`)
 
-| Card ID | Field | DE | CURRENT | Candidates |
-|---|---|---|---|---|
-| `a2-anordnen-60` | `lv` | anordnen | käskima • korraldama | käskima, korraldama |
-| `a2-gang` | `study.translation` | Gang | koridor • kõnnak • käik | koridor, kõnnak, käik |
+| Card ID | Field | DE | Applied OWNER NEW |
+|---|---|---|---|
+| `a2-anordnen-60` | `lv` | anordnen | `korraldama` |
+| `a2-gang` | `study.translation` | Gang | `koridor` |
 
-These findings were **not** part of the 228 validated `MULTIPLE_TRANSLATION` batch from PR #645 / OWNER review #648. Report for separate OWNER review.
+Post-apply scan: `MULTIPLE_MAIN_TRANSLATIONS_VALIDATED_REAL = 0` on full A2 dataset (1640 cards).
+
+**Verdict:** `ET_A2_MULTITRANSLATION_CLOSED_ON_MAIN`
