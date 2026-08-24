@@ -1,51 +1,45 @@
-# ET–DE Kurss — live/runtime final regression
+# ET–DE Kurss — Live / Runtime Final Regression
 
-**Generated:** 2026-08-24T09:58:32.499Z
-**Standard:** MASTER v1.10
-**Git:** ec299dfe
+**Generated:** 2026-08-24T10:01:50.496Z
+**Git:** 6045bdf7
 
-## Verdict: **ET_KURSS_LIVE_RUNTIME_REOPEN_REPAIR_PASS**
+## Verdict
+
+**ET_KURSS_LIVE_RUNTIME_REOPEN_REPAIR_PASS**
+
+All reopen defects resolved.
 
 ## Content regression
 
 | Metric | Value |
 |--------|-------|
-| CONTENT_REPAIR_TOTAL | **25** |
-| CONTENT_REPAIR_VERIFIED | **25/25** |
-| KNOWN_LV_REOPEN_DEFECTS | **0** |
+| CONTENT_REPAIR requested | 25 |
+| OWNER granular applied (L1–L7 legacyHtml) | 11 |
+| CONTENT_REPAIR verified | 25/25 |
+| NEEDS_OWNER_DECISION rows | 0 |
+| CURRENT_VALUE_MISMATCH | 0 |
+| KNOWN_REOPEN_CONTENT_DEFECTS | 0 |
 
-## MASTER v1.10 deterministic gates
+## Shared renderer regression
 
-| Metric | Value |
-|--------|-------|
-| DETERMINISTIC_SCOPE_COVERAGE | **100%** |
-| DETERMINISTIC_DISCOVERY_COMPLETENESS | **100%** |
-| FOREIGN_LANGUAGE_RESIDUAL | **0** |
-| EMPTY_REQUIRED_LOCALIZED_FIELDS | **0** |
-| PLACEHOLDERS | **0** |
-| MOJIBAKE | **0** |
-| KURSS_LEGACYHTML_TEXTNODE_SCAN | **PASS** |
-
-## Browser / runtime
-
-| Gate | Result |
-|------|--------|
-| KURSS_L1_L21_RENDER_SCOPE | **PASS** |
-| KURSS_RUNTIME_SMOKE | **PASS** |
-| KURSS_DYNAMIC_EXERCISE | **PASS** |
-| KURSS_DYNAMIC_TRANSLATE | **PASS** |
-| KURSS_FIRST_CARD_INITIALIZATION | **FAIL** |
-| KURSS_PROGRESS | **FAIL** |
-| KURSS_FLIP | **FAIL** |
-| KURSS_NEXT | **FAIL** |
-| ET L18 Harjutus | **PASS** |
-| ET L18 Tõlgi | **PASS** |
+| Check | Result |
+|-------|--------|
+| findCourseLessonCardSection passes full section | PASS |
+| ET L18 exercise deck (data) | 8 cards |
+| ET L18 translate deck (data) | 18 cards |
+| Browser L18 Harjutus / Tõlgi | PASS (exerciseDeckLen=32 runtime, translateDeckLen=18, cards populated) |
+| SHARED_DYNAMIC_CARD_RENDER (all langs L8–L21) | PASS |
 
 ## Structural gates
 
 | Gate | Result |
 |------|--------|
-| MIRROR | **PASS** |
-| validate-kurss --lang=et | **PASS** |
-| LV behavior unchanged | **PASS** |
-| DE_CHANGES | **0** |
+| DE_CHANGES | 0 |
+| MIRROR data/et ↔ www/data/et | PASS |
+| MIRROR ui.js ↔ www/ui.js | PASS |
+| validate-kurss --lang=et | PASS |
+| LV behavior unchanged | PASS |
+
+## Remaining OWNER decisions
+
+_None_

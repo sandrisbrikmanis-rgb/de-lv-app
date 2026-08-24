@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T17:28:49.831Z",
+  "generatedAt": "2026-08-24T10:02:26.858Z",
   "verdict": "GLOBAL_KURSS_DYNAMIC_CARDS_RUNTIME_REPAIR_PASS",
   "mergeBase": "62ac476d",
   "rootCause": "Shared ui.js matched exercise/translate sections only by hardcoded title allowlists; localized titles (e.g. ET Harjutus/Tõlgi) skipped card binding and left blank flashcards.",

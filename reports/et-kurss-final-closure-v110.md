@@ -1,8 +1,8 @@
 # ET–DE Kurss — final closure v1.10 (main)
 
-**Generated:** 2026-08-24T10:00:28.268Z
+**Generated:** 2026-08-24T10:02:26.888Z
 **Standard:** MASTER v1.10
-**Git:** 411b8170
+**Git:** 6045bdf7
 
 ## Verdict: **ET_KURSS_FINAL_CLOSED_ON_MAIN**
 
@@ -44,8 +44,8 @@
 ## Git baseline
 
 | MAIN_BEFORE | `158d8a71d044728e8a3ade31b97f732af8f35b6c` |
-| MERGE_COMMIT | `411b8170` |
-| MAIN_AFTER | `411b8170` |
+| MERGE_COMMIT | `6045bdf7` |
+| MAIN_AFTER | `6045bdf7` |
 | KURSS_PRODUCTION_BLOB (before) | `d1ed9598789ee366c0b89712c929e056b9709900` |
 | KURSS_PRODUCTION_BLOB (after) | `117be3ec73bc26a42b56af36614c4de29b044cfc` |
 | UI_PRODUCTION_BLOB (before) | `46f17d6bee4ece21918802dbb3f59256c95266d7` |
