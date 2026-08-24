@@ -1,0 +1,801 @@
+{
+  "generatedAt": "2026-08-24T16:02:12.168Z",
+  "masterVersion": "1.12",
+  "originMainSha": "03389f707316ed91b12e67b33d4492515640f768",
+  "productionBlob": "b23529c27039d14df239a3ee235256f8254d95a9",
+  "verdict": "ET_C2_MULTITRANSLATION_OWNER_REVIEW_READY",
+  "c2Cards": 219,
+  "mainTranslationFieldInventoryTotal": 3,
+  "mainTranslationFieldInventoryCoverage": "100%",
+  "multiTranslationScanCoverage": "100%",
+  "fieldsScanned": 219,
+  "multipleTranslationCandidatesRaw": 19,
+  "multipleMainTranslationsValidatedReal": 19,
+  "ownerArtifactCoverage": "19/19",
+  "ownerNewFilled": 0,
+  "ownerDecisionRequired": 19,
+  "pending": 0,
+  "deChanges": 0,
+  "productionChanges": 0,
+  "currentMatch": "19/19",
+  "findings": [
+    {
+      "auditId": "ET-C2-MT-0001",
+      "cardId": "c2-Unvoreingenommenheit-0",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Unvoreingenommenheit",
+      "currentEt": "objektiivsus • neutraalsus",
+      "candidates": [
+        "objektiivsus",
+        "neutraalsus"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (objektiivsus | neutraalsus)",
+      "recommendedMain": "objektiivsus",
+      "candidateAnalysis": [
+        {
+          "candidate": "objektiivsus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Unvoreingenommenheit» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Unvoreingenommenheit» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "neutraalsus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Unvoreingenommenheit» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Unvoreingenommenheit» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **objektiivsus** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Unvoreingenommenheit» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**objektiivsus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Unvoreingenommenheit» at C2 level. Suitability: Strong candidate for single main translation at C2. **neutraalsus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Unvoreingenommenheit» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0002",
+      "cardId": "c2-Berichterstatter-86",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Berichterstatter",
+      "currentEt": "referent • teataja • korrespondent • reporter",
+      "candidates": [
+        "referent",
+        "teataja",
+        "korrespondent",
+        "reporter"
+      ],
+      "translationCount": 4,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 4 learner-facing candidates (referent | teataja | korrespondent)",
+      "recommendedMain": "referent",
+      "candidateAnalysis": [
+        {
+          "candidate": "referent",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Berichterstatter» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Berichterstatter» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "teataja",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Berichterstatter» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Berichterstatter» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        },
+        {
+          "candidate": "korrespondent",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Berichterstatter» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Berichterstatter» at C2 level",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        },
+        {
+          "candidate": "reporter",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Berichterstatter» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Berichterstatter» at C2 level",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        }
+      ],
+      "candidateRelation": "Multiple distinct senses — evaluate primary vs Study-only secondary meanings.",
+      "recommendationJustification": "Recommended **referent** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Berichterstatter» at C2 level). Multiple distinct senses — evaluate primary vs Study-only secondary meanings. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**referent** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Berichterstatter» at C2 level. Suitability: Strong candidate for single main translation at C2. **teataja** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Berichterstatter» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. **korrespondent** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Berichterstatter» at C2 level. Suitability: Additional sense — likely Study-only after OWNER main pick. **reporter** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Berichterstatter» at C2 level. Suitability: Additional sense — likely Study-only after OWNER main pick. Relation: Multiple distinct senses — evaluate primary vs Study-only secondary meanings.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0003",
+      "cardId": "c2-Computerwissenschaft-96",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Computerwissenschaft",
+      "currentEt": "arvutiteadus • informaatika",
+      "candidates": [
+        "arvutiteadus",
+        "informaatika"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (arvutiteadus | informaatika)",
+      "recommendedMain": "arvutiteadus",
+      "candidateAnalysis": [
+        {
+          "candidate": "arvutiteadus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Computerwissenschaft» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Computerwissenschaft» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "informaatika",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Computerwissenschaft» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Computerwissenschaft» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **arvutiteadus** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Computerwissenschaft» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**arvutiteadus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Computerwissenschaft» at C2 level. Suitability: Strong candidate for single main translation at C2. **informaatika** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Computerwissenschaft» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0004",
+      "cardId": "c2-durchkreuzen-103",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "durchkreuzen",
+      "currentEt": "läbi kriipsutama • risti tõmbama • läbi lõikama • nurjama",
+      "candidates": [
+        "läbi kriipsutama",
+        "risti tõmbama",
+        "läbi lõikama",
+        "nurjama"
+      ],
+      "translationCount": 4,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 4 learner-facing candidates (läbi kriipsutama | risti tõmbama | läbi lõikama)",
+      "recommendedMain": "läbi kriipsutama",
+      "candidateAnalysis": [
+        {
+          "candidate": "läbi kriipsutama",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «durchkreuzen» at C2 level",
+          "role": "Learner-facing Estonian sense for German «durchkreuzen» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "risti tõmbama",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «durchkreuzen» at C2 level",
+          "role": "Learner-facing Estonian sense for German «durchkreuzen» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        },
+        {
+          "candidate": "läbi lõikama",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «durchkreuzen» at C2 level",
+          "role": "Learner-facing Estonian sense for German «durchkreuzen» at C2 level",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        },
+        {
+          "candidate": "nurjama",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «durchkreuzen» at C2 level",
+          "role": "Learner-facing Estonian sense for German «durchkreuzen» at C2 level",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        }
+      ],
+      "candidateRelation": "Multiple distinct senses — evaluate primary vs Study-only secondary meanings.",
+      "recommendationJustification": "Recommended **läbi kriipsutama** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «durchkreuzen» at C2 level). Multiple distinct senses — evaluate primary vs Study-only secondary meanings. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**läbi kriipsutama** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «durchkreuzen» at C2 level. Suitability: Strong candidate for single main translation at C2. **risti tõmbama** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «durchkreuzen» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. **läbi lõikama** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «durchkreuzen» at C2 level. Suitability: Additional sense — likely Study-only after OWNER main pick. **nurjama** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «durchkreuzen» at C2 level. Suitability: Additional sense — likely Study-only after OWNER main pick. Relation: Multiple distinct senses — evaluate primary vs Study-only secondary meanings.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0005",
+      "cardId": "c2-Durchschnittsleistung-106",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Durchschnittsleistung",
+      "currentEt": "keskpärane sooritus • keskmine sooritus",
+      "candidates": [
+        "keskpärane sooritus",
+        "keskmine sooritus"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (keskpärane sooritus | keskmine sooritus)",
+      "recommendedMain": "keskpärane sooritus",
+      "candidateAnalysis": [
+        {
+          "candidate": "keskpärane sooritus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Durchschnittsleistung» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Durchschnittsleistung» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "keskmine sooritus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Durchschnittsleistung» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Durchschnittsleistung» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **keskpärane sooritus** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Durchschnittsleistung» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**keskpärane sooritus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Durchschnittsleistung» at C2 level. Suitability: Strong candidate for single main translation at C2. **keskmine sooritus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Durchschnittsleistung» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0006",
+      "cardId": "c2-Entschlossenheit-113",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Entschlossenheit",
+      "currentEt": "otsustavus • sihikindlus • kahtlematus",
+      "candidates": [
+        "otsustavus",
+        "sihikindlus",
+        "kahtlematus"
+      ],
+      "translationCount": 3,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 3 learner-facing candidates (otsustavus | sihikindlus | kahtlematus)",
+      "recommendedMain": "otsustavus",
+      "candidateAnalysis": [
+        {
+          "candidate": "otsustavus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Entschlossenheit» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Entschlossenheit» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "sihikindlus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Entschlossenheit» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Entschlossenheit» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        },
+        {
+          "candidate": "kahtlematus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Entschlossenheit» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Entschlossenheit» at C2 level",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        }
+      ],
+      "candidateRelation": "Multiple distinct senses — evaluate primary vs Study-only secondary meanings.",
+      "recommendationJustification": "Recommended **otsustavus** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Entschlossenheit» at C2 level). Multiple distinct senses — evaluate primary vs Study-only secondary meanings. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**otsustavus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Entschlossenheit» at C2 level. Suitability: Strong candidate for single main translation at C2. **sihikindlus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Entschlossenheit» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. **kahtlematus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Entschlossenheit» at C2 level. Suitability: Additional sense — likely Study-only after OWNER main pick. Relation: Multiple distinct senses — evaluate primary vs Study-only secondary meanings.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0007",
+      "cardId": "c2-Errungenschaft-117",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Errungenschaft",
+      "currentEt": "saavutus • saavutis • edusamm",
+      "candidates": [
+        "saavutus",
+        "saavutis",
+        "edusamm"
+      ],
+      "translationCount": 3,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 3 learner-facing candidates (saavutus | saavutis | edusamm)",
+      "recommendedMain": "saavutus",
+      "candidateAnalysis": [
+        {
+          "candidate": "saavutus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Errungenschaft» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Errungenschaft» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "saavutis",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Errungenschaft» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Errungenschaft» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        },
+        {
+          "candidate": "edusamm",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Errungenschaft» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Errungenschaft» at C2 level",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        }
+      ],
+      "candidateRelation": "Multiple distinct senses — evaluate primary vs Study-only secondary meanings.",
+      "recommendationJustification": "Recommended **saavutus** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Errungenschaft» at C2 level). Multiple distinct senses — evaluate primary vs Study-only secondary meanings. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**saavutus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Errungenschaft» at C2 level. Suitability: Strong candidate for single main translation at C2. **saavutis** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Errungenschaft» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. **edusamm** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Errungenschaft» at C2 level. Suitability: Additional sense — likely Study-only after OWNER main pick. Relation: Multiple distinct senses — evaluate primary vs Study-only secondary meanings.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0008",
+      "cardId": "c2-Geistesgegenwart-131",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Geistesgegenwart",
+      "currentEt": "kiire taip • meelekindlus",
+      "candidates": [
+        "kiire taip",
+        "meelekindlus"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (kiire taip | meelekindlus)",
+      "recommendedMain": "kiire taip",
+      "candidateAnalysis": [
+        {
+          "candidate": "kiire taip",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Geistesgegenwart» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Geistesgegenwart» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "meelekindlus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Geistesgegenwart» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Geistesgegenwart» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **kiire taip** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Geistesgegenwart» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**kiire taip** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Geistesgegenwart» at C2 level. Suitability: Strong candidate for single main translation at C2. **meelekindlus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Geistesgegenwart» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0009",
+      "cardId": "c2-Genossenschaft-140",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Genossenschaft",
+      "currentEt": "ühistu • artell",
+      "candidates": [
+        "ühistu",
+        "artell"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (ühistu | artell)",
+      "recommendedMain": "ühistu",
+      "candidateAnalysis": [
+        {
+          "candidate": "ühistu",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Genossenschaft» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Genossenschaft» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "artell",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Genossenschaft» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Genossenschaft» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **ühistu** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Genossenschaft» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**ühistu** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Genossenschaft» at C2 level. Suitability: Strong candidate for single main translation at C2. **artell** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Genossenschaft» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0010",
+      "cardId": "c2-Geschäftsordnung-144",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Geschäftsordnung",
+      "currentEt": "põhimäärus • reglement",
+      "candidates": [
+        "põhimäärus",
+        "reglement"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (põhimäärus | reglement)",
+      "recommendedMain": "põhimäärus",
+      "candidateAnalysis": [
+        {
+          "candidate": "põhimäärus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Geschäftsordnung» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Geschäftsordnung» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "reglement",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Geschäftsordnung» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Geschäftsordnung» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **põhimäärus** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Geschäftsordnung» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**põhimäärus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Geschäftsordnung» at C2 level. Suitability: Strong candidate for single main translation at C2. **reglement** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Geschäftsordnung» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0011",
+      "cardId": "c2-gesellschaftlich-150",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "gesellschaftlich",
+      "currentEt": "ühiskondlik • ühiskonna",
+      "candidates": [
+        "ühiskondlik",
+        "ühiskonna"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (ühiskondlik | ühiskonna)",
+      "recommendedMain": "ühiskondlik",
+      "candidateAnalysis": [
+        {
+          "candidate": "ühiskondlik",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «gesellschaftlich» at C2 level",
+          "role": "Learner-facing Estonian sense for German «gesellschaftlich» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "ühiskonna",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «gesellschaftlich» at C2 level",
+          "role": "Learner-facing Estonian sense for German «gesellschaftlich» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **ühiskondlik** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «gesellschaftlich» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**ühiskondlik** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «gesellschaftlich» at C2 level. Suitability: Strong candidate for single main translation at C2. **ühiskonna** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «gesellschaftlich» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0012",
+      "cardId": "c2-Hausgemeinschaft-161",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Hausgemeinschaft",
+      "currentEt": "majaelanikud • majaelanike kogukond",
+      "candidates": [
+        "majaelanikud",
+        "majaelanike kogukond"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (majaelanikud | majaelanike kogukond)",
+      "recommendedMain": "majaelanikud",
+      "candidateAnalysis": [
+        {
+          "candidate": "majaelanikud",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Hausgemeinschaft» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Hausgemeinschaft» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "majaelanike kogukond",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Hausgemeinschaft» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Hausgemeinschaft» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **majaelanikud** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Hausgemeinschaft» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**majaelanikud** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Hausgemeinschaft» at C2 level. Suitability: Strong candidate for single main translation at C2. **majaelanike kogukond** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Hausgemeinschaft» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0013",
+      "cardId": "c2-Kabinettsmitglied-166",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Kabinettsmitglied",
+      "currentEt": "kabineti liige • minister",
+      "candidates": [
+        "kabineti liige",
+        "minister"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (kabineti liige | minister)",
+      "recommendedMain": "kabineti liige",
+      "candidateAnalysis": [
+        {
+          "candidate": "kabineti liige",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Kabinettsmitglied» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Kabinettsmitglied» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "minister",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Kabinettsmitglied» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Kabinettsmitglied» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **kabineti liige** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Kabinettsmitglied» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**kabineti liige** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Kabinettsmitglied» at C2 level. Suitability: Strong candidate for single main translation at C2. **minister** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Kabinettsmitglied» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0014",
+      "cardId": "c2-Kriegsentschädigung-169",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Kriegsentschädigung",
+      "currentEt": "sõjakahjude hüvitamine • reparatsioonid",
+      "candidates": [
+        "sõjakahjude hüvitamine",
+        "reparatsioonid"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (sõjakahjude hüvitamine | reparatsioonid)",
+      "recommendedMain": "sõjakahjude hüvitamine",
+      "candidateAnalysis": [
+        {
+          "candidate": "sõjakahjude hüvitamine",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Kriegsentschädigung» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Kriegsentschädigung» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "reparatsioonid",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Kriegsentschädigung» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Kriegsentschädigung» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **sõjakahjude hüvitamine** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Kriegsentschädigung» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**sõjakahjude hüvitamine** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Kriegsentschädigung» at C2 level. Suitability: Strong candidate for single main translation at C2. **reparatsioonid** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Kriegsentschädigung» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0015",
+      "cardId": "c2-Leistungsfähigkeit-173",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Leistungsfähigkeit",
+      "currentEt": "töövõime • tootlikkus • võimsus",
+      "candidates": [
+        "töövõime",
+        "tootlikkus",
+        "võimsus"
+      ],
+      "translationCount": 3,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 3 learner-facing candidates (töövõime | tootlikkus | võimsus)",
+      "recommendedMain": "töövõime",
+      "candidateAnalysis": [
+        {
+          "candidate": "töövõime",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "tootlikkus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        },
+        {
+          "candidate": "võimsus",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level",
+          "suitable": "Additional sense — likely Study-only after OWNER main pick."
+        }
+      ],
+      "candidateRelation": "Multiple distinct senses — evaluate primary vs Study-only secondary meanings.",
+      "recommendationJustification": "Recommended **töövõime** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level). Multiple distinct senses — evaluate primary vs Study-only secondary meanings. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**töövõime** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level. Suitability: Strong candidate for single main translation at C2. **tootlikkus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. **võimsus** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Leistungsfähigkeit» at C2 level. Suitability: Additional sense — likely Study-only after OWNER main pick. Relation: Multiple distinct senses — evaluate primary vs Study-only secondary meanings.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0016",
+      "cardId": "c2-menschenfreundlich-178",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "menschenfreundlich",
+      "currentEt": "humaanne • inimlik",
+      "candidates": [
+        "humaanne",
+        "inimlik"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (humaanne | inimlik)",
+      "recommendedMain": "humaanne",
+      "candidateAnalysis": [
+        {
+          "candidate": "humaanne",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «menschenfreundlich» at C2 level",
+          "role": "Learner-facing Estonian sense for German «menschenfreundlich» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "inimlik",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «menschenfreundlich» at C2 level",
+          "role": "Learner-facing Estonian sense for German «menschenfreundlich» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **humaanne** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «menschenfreundlich» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**humaanne** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «menschenfreundlich» at C2 level. Suitability: Strong candidate for single main translation at C2. **inimlik** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «menschenfreundlich» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0017",
+      "cardId": "c2-Parlamentarier-183",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Parlamentarier",
+      "currentEt": "parlamendisaadik • parlamendiliige",
+      "candidates": [
+        "parlamendisaadik",
+        "parlamendiliige"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (parlamendisaadik | parlamendiliige)",
+      "recommendedMain": "parlamendisaadik",
+      "candidateAnalysis": [
+        {
+          "candidate": "parlamendisaadik",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Parlamentarier» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Parlamentarier» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "parlamendiliige",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Parlamentarier» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Parlamentarier» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **parlamendisaadik** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Parlamentarier» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**parlamendisaadik** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Parlamentarier» at C2 level. Suitability: Strong candidate for single main translation at C2. **parlamendiliige** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Parlamentarier» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0018",
+      "cardId": "c2-zugunsten, zu Gunsten-207",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "zugunsten, zu Gunsten",
+      "currentEt": "kasuks • heaks",
+      "candidates": [
+        "kasuks",
+        "heaks"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (kasuks | heaks)",
+      "recommendedMain": "kasuks",
+      "candidateAnalysis": [
+        {
+          "candidate": "kasuks",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «zugunsten, zu Gunsten» at C2 level",
+          "role": "Learner-facing Estonian sense for German «zugunsten, zu Gunsten» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "heaks",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «zugunsten, zu Gunsten» at C2 level",
+          "role": "Learner-facing Estonian sense for German «zugunsten, zu Gunsten» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **kasuks** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «zugunsten, zu Gunsten» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**kasuks** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «zugunsten, zu Gunsten» at C2 level. Suitability: Strong candidate for single main translation at C2. **heaks** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «zugunsten, zu Gunsten» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    },
+    {
+      "auditId": "ET-C2-MT-0019",
+      "cardId": "c2-Sachverständige-218",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Sachverständige",
+      "currentEt": "asjatundja • ekspert",
+      "candidates": [
+        "asjatundja",
+        "ekspert"
+      ],
+      "translationCount": 2,
+      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
+      "category": "MULTIPLE_TRANSLATION",
+      "severity": "HIGH",
+      "reason": "Main translation field shows 2 learner-facing candidates (asjatundja | ekspert)",
+      "recommendedMain": "asjatundja",
+      "candidateAnalysis": [
+        {
+          "candidate": "asjatundja",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Sachverständige» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Sachverständige» at C2 level",
+          "suitable": "Strong candidate for single main translation at C2."
+        },
+        {
+          "candidate": "ekspert",
+          "meaning": "Estonian target-language form — see semantic analysis and Study context",
+          "germanSense": "Learner-facing Estonian sense for German «Sachverständige» at C2 level",
+          "role": "Learner-facing Estonian sense for German «Sachverständige» at C2 level",
+          "suitable": "Valid secondary meaning — retain in Study if applicable."
+        }
+      ],
+      "candidateRelation": "Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.",
+      "recommendationJustification": "Recommended **asjatundja** as the primary C2 learner-facing gloss (Learner-facing Estonian sense for German «Sachverständige» at C2 level). Two distinct C2-level senses — evaluate which is primary for the learner-facing main field. Ordinary card — pick the most frequent practical C2 gloss for flashcard front.",
+      "semanticAnalysis": "**asjatundja** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Sachverständige» at C2 level. Suitability: Strong candidate for single main translation at C2. **ekspert** — Estonian target-language form — see semantic analysis and Study context. German sense: Learner-facing Estonian sense for German «Sachverständige» at C2 level. Suitability: Valid secondary meaning — retain in Study if applicable. Relation: Two distinct C2-level senses — evaluate which is primary for the learner-facing main field.. Ordinary card: one practical main meaning on learner-facing surface.",
+      "studyContext": ""
+    }
+  ]
+}

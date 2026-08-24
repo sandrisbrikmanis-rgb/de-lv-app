@@ -3,7 +3,7 @@ const C2_WORDS = [
     "de": "Unvoreingenommenheit",
     "de_article": "die",
     "de_plural": "die Unvoreingenommenheiten",
-    "lv": "objektiivsus • neutraalsus",
+    "lv": "objektiivsus",
     "level": "C2"
   },
   {
@@ -710,7 +710,7 @@ const C2_WORDS = [
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "referent • teataja • korrespondent • reporter",
+    "lv": "referent",
     "level": "C2"
   },
   {
@@ -780,7 +780,7 @@ const C2_WORDS = [
     "de": "Computerwissenschaft",
     "de_article": "die",
     "de_plural": "die Computerwissenschaften",
-    "lv": "arvutiteadus • informaatika",
+    "lv": "arvutiteadus",
     "level": "C2"
   },
   {
@@ -826,7 +826,7 @@ const C2_WORDS = [
   },
   {
     "de": "durchkreuzen",
-    "lv": "läbi kriipsutama • risti tõmbama • läbi lõikama • nurjama",
+    "lv": "läbi kriipsutama",
     "level": "C2"
   },
   {
@@ -847,7 +847,7 @@ const C2_WORDS = [
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "keskpärane sooritus • keskmine sooritus",
+    "lv": "keskmine sooritus",
     "level": "C2"
   },
   {
@@ -894,7 +894,7 @@ const C2_WORDS = [
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "otsustavus • sihikindlus • kahtlematus",
+    "lv": "otsustavus",
     "level": "C2"
   },
   {
@@ -922,7 +922,7 @@ const C2_WORDS = [
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "saavutus • saavutis • edusamm",
+    "lv": "saavutus",
     "level": "C2"
   },
   {
@@ -1018,7 +1018,7 @@ const C2_WORDS = [
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "kiire taip • meelekindlus",
+    "lv": "kiire taip",
     "level": "C2"
   },
   {
@@ -1079,7 +1079,7 @@ const C2_WORDS = [
     "de": "Genossenschaft",
     "de_article": "die",
     "de_plural": "die Genossenschaften",
-    "lv": "ühistu • artell",
+    "lv": "ühistu",
     "level": "C2"
   },
   {
@@ -1107,7 +1107,7 @@ const C2_WORDS = [
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "põhimäärus • reglement",
+    "lv": "reglement",
     "level": "C2"
   },
   {
@@ -1146,7 +1146,7 @@ const C2_WORDS = [
   },
   {
     "de": "gesellschaftlich",
-    "lv": "ühiskondlik • ühiskonna",
+    "lv": "ühiskondlik",
     "level": "C2"
   },
   {
@@ -1223,7 +1223,7 @@ const C2_WORDS = [
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "majaelanikud • majaelanike kogukond",
+    "lv": "majaelanike kogukond",
     "level": "C2"
   },
   {
@@ -1258,7 +1258,7 @@ const C2_WORDS = [
     "de": "Kabinettsmitglied",
     "de_article": "das",
     "de_plural": "die Kabinettsmitglieder",
-    "lv": "kabineti liige • minister",
+    "lv": "kabineti liige",
     "level": "C2"
   },
   {
@@ -1279,7 +1279,7 @@ const C2_WORDS = [
     "de": "Kriegsentschädigung",
     "de_article": "die",
     "de_plural": "die Kriegsentschädigungen",
-    "lv": "sõjakahjude hüvitamine • reparatsioonid",
+    "lv": "reparatsioonid",
     "level": "C2"
   },
   {
@@ -1307,7 +1307,7 @@ const C2_WORDS = [
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "töövõime • tootlikkus • võimsus",
+    "lv": "töövõime",
     "level": "C2"
   },
   {
@@ -1340,7 +1340,7 @@ const C2_WORDS = [
   },
   {
     "de": "menschenfreundlich",
-    "lv": "humaanne • inimlik",
+    "lv": "humaanne",
     "level": "C2"
   },
   {
@@ -1375,7 +1375,7 @@ const C2_WORDS = [
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "parlamendisaadik • parlamendiliige",
+    "lv": "parlamendiliige",
     "level": "C2"
   },
   {
@@ -1532,7 +1532,7 @@ const C2_WORDS = [
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "kasuks • heaks",
+    "lv": "kasuks",
     "level": "C2"
   },
   {
@@ -1597,7 +1597,7 @@ const C2_WORDS = [
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "asjatundja • ekspert",
+    "lv": "ekspert",
     "level": "C2"
   }
 ];
