@@ -1,0 +1,54 @@
+{
+  "dryRun": false,
+  "masterVersion": "1.12",
+  "staged": [
+    {
+      "cardId": "a1-es",
+      "field": "study.translation",
+      "ownerNew": "see",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "cardId": "a1-heissen",
+      "field": "study.translation",
+      "ownerNew": "nime kandma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "cardId": "a1-es",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "cardId": "a1-heissen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "requestedLabot": 2,
+    "appliedVerified": 2,
+    "alreadyMatched": 0,
+    "appliedTotal": 2,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "deChanges": 0,
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "multiTranslationResidual": {
+      "rawCandidates": 0,
+      "violations": 0,
+      "inventoryCoverage": "100%",
+      "fieldsScanned": 702
+    },
+    "multipleMainTranslationsValidatedReal": 0,
+    "mainTranslationCountViolations": 0,
+    "finalVerdict": "PASS"
+  }
+}

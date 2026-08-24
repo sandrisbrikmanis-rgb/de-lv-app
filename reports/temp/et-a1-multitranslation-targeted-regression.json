@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:54:08.656Z",
+  "generatedAt": "2026-08-24T14:06:00.012Z",
   "masterVersion": "1.12",
   "ownerRegression": {
     "requested": 59,
@@ -7,14 +7,14 @@
     "fail": 0
   },
   "multiTranslationResidual": {
-    "rawCandidates": 2,
-    "validatedViolations": 2,
+    "rawCandidates": 0,
+    "validatedViolations": 0,
     "fieldsScanned": 702
   },
   "gates": {
     "OWNER_EXACT_MATCH": "PASS",
-    "MULTI_TRANSLATION_RESIDUAL_SCAN": "FAIL",
-    "MAIN_TRANSLATION_COUNT_VIOLATIONS": 2,
+    "MULTI_TRANSLATION_RESIDUAL_SCAN": "PASS",
+    "MAIN_TRANSLATION_COUNT_VIOLATIONS": 0,
     "SYNTAX": "PASS",
     "MIRROR": "PASS",
     "DE_CHANGES": 0
@@ -493,41 +493,6 @@
       "pass": true
     }
   ],
-  "violations": [
-    {
-      "cardId": "a1-es",
-      "cardType": "standardStudy",
-      "field": "study.translation",
-      "de": "es",
-      "currentEt": "see • umbisikuline vorm",
-      "candidates": [
-        "see",
-        "umbisikuline vorm"
-      ],
-      "translationCount": 2,
-      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
-      "category": "MULTIPLE_TRANSLATION",
-      "severity": "HIGH",
-      "reason": "Main translation field shows 2 learner-facing candidates (see | umbisikuline vorm)",
-      "recommendedMain": "see"
-    },
-    {
-      "cardId": "a1-heißen",
-      "cardType": "standardStudy",
-      "field": "study.translation",
-      "de": "heißen",
-      "currentEt": "nime kandma • tähendama",
-      "candidates": [
-        "nime kandma",
-        "tähendama"
-      ],
-      "translationCount": 2,
-      "classification": "MULTIPLE_MAIN_TRANSLATIONS_REAL",
-      "category": "MULTIPLE_TRANSLATION",
-      "severity": "HIGH",
-      "reason": "Main translation field shows 2 learner-facing candidates (nime kandma | tähendama)",
-      "recommendedMain": "nime kandma"
-    }
-  ],
-  "verdict": "ET_A1_MULTITRANSLATION_OWNER_APPLY_59_PASS"
+  "violations": [],
+  "verdict": "ET_A1_MULTITRANSLATION_TARGETED_REGRESSION_PASS"
 }

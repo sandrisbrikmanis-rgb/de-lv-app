@@ -5865,7 +5865,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "see • umbisikuline vorm",
+      "translation": "see",
       "explanation": "Saksa keeles ei kasutata “es” enda kohta rääkimiseks. Seda kasutatakse, et tähistada: see, ta või umbisikulist vormi (ilm, aeg, mitmesugused umbisikulised laused).",
       "examples": [
         {
@@ -9498,7 +9498,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-heißen",
       "layout": "standardStudy",
-      "translation": "nime kandma • tähendama",
+      "translation": "nime kandma",
       "explanation": [
         "Põhiidee: heißen kasutatakse kõige sagedamini selleks, et öelda, mis kellegi nimi on.",
         "Fraas Ich heiße... tähendab “minu nimi on...”.",
