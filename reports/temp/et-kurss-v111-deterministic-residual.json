@@ -1,0 +1,967 @@
+{
+  "generatedAt": "2026-08-24T10:33:24.157Z",
+  "standard": "PROJECT_LANGUAGE_MASTER_STANDARD v1.11",
+  "originMainSha": "571124878bb889e5353d84bc5118806976670c31",
+  "masterVersion": "1.11",
+  "etKurssProductionBlob": "117be3ec73bc26a42b56af36614c4de29b044cfc",
+  "etUiBlob": "46f17d6bee4ece21918802dbb3f59256c95266d7",
+  "rootUiBlob": "277eed9ac3c613783d1fa03465f5a5d9088a3949",
+  "verdict": "ET_KURSS_V111_DETERMINISTIC_RESIDUAL_FAIL",
+  "deterministicScopeCoverage": 100,
+  "deterministicDiscoveryCompleteness": 100,
+  "lessonsScanned": 21,
+  "learnerTextNodesScanned": 498,
+  "scopedFieldsEstimate": 60,
+  "foreignLanguageResidual": 37,
+  "realLvResidual": 21,
+  "mixedLvEtResidual": 16,
+  "rawCandidates": 115,
+  "falsePositive": 33,
+  "rawUnclassified": 45,
+  "emptyRequiredLocalizedFields": 0,
+  "placeholders": 0,
+  "mojibake": 0,
+  "multiTranslationCandidatesRaw": 188,
+  "kurssLegacyHtmlTextnodeScan": "PASS",
+  "legacyHtmlIssues": [],
+  "l1l7ForeignFindings": 37,
+  "gates": {
+    "MIRROR": "PASS",
+    "VALIDATE_KURSS": "PASS",
+    "DE_CHANGES": 0,
+    "PRODUCTION_CHANGES": 0
+  },
+  "findingsTotal": 225,
+  "foreignFindings": [
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson1.legacyHtml → accordion:Grammatika → kurss-example → [14]",
+      "fragment": "Latviešu valodā: Tu nāc. Vai tu nāc?",
+      "sample": "Latviešu valodā: Tu nāc. Vai tu nāc?"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson2.legacyHtml → accordion:Hääldus → kurss-example → [1]",
+      "fragment": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.",
+      "sample": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [4]",
+      "fragment": "vīriešu kārta — der",
+      "sample": "vīriešu kārta — der"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [5]",
+      "fragment": "sieviešu kārta — die",
+      "sample": "sieviešu kārta — die"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [7]",
+      "fragment": "Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.",
+      "sample": "Daudzskaitlī noteiktais artikuls visām trim kārtām ir die."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [11]",
+      "fragment": "vīriešu kārta — ein",
+      "sample": "vīriešu kārta — ein"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [12]",
+      "fragment": "sieviešu kārta — eine",
+      "sample": "sieviešu kārta — eine"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson4.legacyHtml → accordion:Grammatika → kurss-example → [13]",
+      "fragment": "daudzskaitlī — sie",
+      "sample": "daudzskaitlī — sie"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson5.legacyHtml → accordion:Hääldus → kurss-example → [2]",
+      "fragment": "ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).",
+      "sample": "ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson5.legacyHtml → accordion:Grammatika → kurss-example → [1]",
+      "fragment": "Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.",
+      "sample": "Akuzatīvā jautājums ir wen? personām un was? priekšmetiem."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson5.legacyHtml → accordion:Grammatika → kurss-example → [14]",
+      "fragment": "Daudz sieviešu kārtas vārdu atvasina ar galotni -in.",
+      "sample": "Daudz sieviešu kārtas vārdu atvasina ar galotni -in."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [1]",
+      "fragment": "Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).",
+      "sample": "Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [3]",
+      "fragment": "Piemēri: fünf, der Schlüssel (šlūsel).",
+      "sample": "Piemēri: fünf, der Schlüssel (šlūsel)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [5]",
+      "fragment": "Divkāršots patskanis apzīmē garu patskani: leer (lēr).",
+      "sample": "Divkāršots patskanis apzīmē garu patskani: leer (lēr)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [6]",
+      "fragment": "Divskani eu izrunā kā oi: neun (noin).",
+      "sample": "Divskani eu izrunā kā oi: neun (noin)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [1]",
+      "fragment": "Piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.",
+      "sample": "Piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [2]",
+      "fragment": "Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.",
+      "sample": "Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [3]",
+      "fragment": "Piemēri: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps.",
+      "sample": "Piemēri: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [4]",
+      "fragment": "Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).",
+      "sample": "Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [5]",
+      "fragment": "Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein.",
+      "sample": "Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [6]",
+      "fragment": "Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.",
+      "sample": "Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [7]",
+      "fragment": "Piemēri: tas ir veseris — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln.",
+      "sample": "Piemēri: tas ir veseris — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [9]",
+      "fragment": "Vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en ei saa mitmuses sageli lõppu.",
+      "sample": "Vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en ei saa mitmuses sageli lõppu."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [10]",
+      "fragment": "Piemēri: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.",
+      "sample": "Piemēri: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [11]",
+      "fragment": "Sieviešu kārtas lietvārdi ar galotni -el, -er saavad mitmuses lõpu -n.",
+      "sample": "Sieviešu kārtas lietvārdi ar galotni -el, -er saavad mitmuses lõpu -n."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [12]",
+      "fragment": "Piemēri: die Nadel — die Nadeln; die Feder — die Federn.",
+      "sample": "Piemēri: die Nadel — die Nadeln; die Feder — die Federn."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [13]",
+      "fragment": "Izņēmumi: die Mutter (māte) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred).",
+      "sample": "Izņēmumi: die Mutter (māte) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Hääldus → kurss-example → [1]",
+      "fragment": "sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "sample": "sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Hääldus → kurss-example → [2]",
+      "fragment": "Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).",
+      "sample": "Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [1]",
+      "fragment": "Piemēri: antworte!, arbeite!, öffne!, zeichne!",
+      "sample": "Piemēri: antworte!, arbeite!, öffne!, zeichne!"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [3]",
+      "fragment": "Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.",
+      "sample": "Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [4]",
+      "fragment": "Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
+      "sample": "Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [6]",
+      "fragment": "Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!",
+      "sample": "Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [7]",
+      "fragment": "Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, ihr öffnet.",
+      "sample": "Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, i"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "COURSE_LESSON_DATA.kurssLesson13.sections[2].items[7].table[0][1]",
+      "fragment": "Vīriešu",
+      "sample": "Vīriešu"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].table[0][1]",
+      "fragment": "Vīriešu",
+      "sample": "Vīriešu"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].table[0][1]",
+      "fragment": "Vīriešu",
+      "sample": "Vīriešu"
+    }
+  ],
+  "findingsSample": [
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Tegusõnad olevikus → conjugation",
+      "sample": "ich komme mina tulen du kommst sina tuled er / sie kommt tema tuleb wir kommen meie tuleme ihr kommt teie tulete sie / Sie kommen nemad / Teie tulevad",
+      "candidates": [
+        "ich komme mina tulen du kommst sina tuled er",
+        "sie kommt tema tuleb wir kommen meie tuleme ihr kommt teie tulete sie",
+        "Sie kommen nemad",
+        "Teie tulevad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Tegusõnad olevikus → conjugation",
+      "sample": "ich gehe mina lähen du gehst sina lähed er / sie geht tema läheb wir gehen meie läheme ihr geht teie lähete sie / Sie gehen nemad / Teie lähevad",
+      "candidates": [
+        "ich gehe mina lähen du gehst sina lähed er",
+        "sie geht tema läheb wir gehen meie läheme ihr geht teie lähete sie",
+        "Sie gehen nemad",
+        "Teie lähevad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Tegusõnad olevikus → conjugation",
+      "sample": "ich stehe mina seisan du stehst sina seisad er / sie steht tema seisab wir stehen meie seisame ihr steht teie seisate sie / Sie stehen nemad / Teie seisavad",
+      "candidates": [
+        "ich stehe mina seisan du stehst sina seisad er",
+        "sie steht tema seisab wir stehen meie seisame ihr steht teie seisate sie",
+        "Sie stehen nemad",
+        "Teie seisavad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Tegusõnad olevikus → conjugation",
+      "sample": "ich singe mina laulan du singst sina laulad er / sie singt tema laulab wir singen meie laulame ihr singt teie laulate sie / Sie singen nemad / Teie laulavad",
+      "candidates": [
+        "ich singe mina laulan du singst sina laulad er",
+        "sie singt tema laulab wir singen meie laulame ihr singt teie laulate sie",
+        "Sie singen nemad",
+        "Teie laulavad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Grammatika → kurss-example → [6]",
+      "sample": "er / sie → -t",
+      "candidates": [
+        "er",
+        "sie → -t"
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson1.legacyHtml → accordion:Grammatika → kurss-example → [14]",
+      "fragment": "Latviešu valodā: Tu nāc. Vai tu nāc?",
+      "sample": "Latviešu valodā: Tu nāc. Vai tu nāc?"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson2.legacyHtml → accordion:Hääldus → kurss-example → [1]",
+      "fragment": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.",
+      "sample": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [4]",
+      "fragment": "vīriešu kārta — der",
+      "sample": "vīriešu kārta — der"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [5]",
+      "fragment": "sieviešu kārta — die",
+      "sample": "sieviešu kārta — die"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [7]",
+      "fragment": "Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.",
+      "sample": "Daudzskaitlī noteiktais artikuls visām trim kārtām ir die."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [11]",
+      "fragment": "vīriešu kārta — ein",
+      "sample": "vīriešu kārta — ein"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [12]",
+      "fragment": "sieviešu kārta — eine",
+      "sample": "sieviešu kārta — eine"
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → h4",
+      "sample": "5 stehen / liegen / hängen",
+      "candidates": [
+        "5 stehen",
+        "liegen",
+        "hängen"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson4.legacyHtml → accordion:Grammatika → kurss-example → [6]",
+      "sample": "er/sie nimmt",
+      "candidates": [
+        "er",
+        "sie nimmt"
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson4.legacyHtml → accordion:Grammatika → kurss-example → [13]",
+      "fragment": "daudzskaitlī — sie",
+      "sample": "daudzskaitlī — sie"
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson4.legacyHtml → accordion:Grammatika → h4",
+      "sample": "7 -chen / -lein",
+      "candidates": [
+        "7 -chen",
+        "-lein"
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson5.legacyHtml → accordion:Hääldus → kurss-example → [2]",
+      "fragment": "ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).",
+      "sample": "ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson5.legacyHtml → accordion:Grammatika → kurss-example → [1]",
+      "fragment": "Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.",
+      "sample": "Akuzatīvā jautājums ir wen? personām un was? priekšmetiem."
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson5.legacyHtml → accordion:Grammatika → kurss-example → [8]",
+      "sample": "er/sie/es sitzt",
+      "candidates": [
+        "er",
+        "sie",
+        "es sitzt"
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson5.legacyHtml → accordion:Grammatika → kurss-example → [14]",
+      "fragment": "Daudz sieviešu kārtas vārdu atvasina ar galotni -in.",
+      "sample": "Daudz sieviešu kārtas vārdu atvasina ar galotni -in."
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Dialoogid / laused → kurss-example → [16]",
+      "sample": "Gertrud kommt und zählt die Löffel: das ist ein Löffel; das sind zwei, drei, vier Löffel.",
+      "candidates": [
+        "Gertrud kommt und zählt die Löffel: das ist ein Löffel",
+        "das sind zwei, drei, vier Löffel."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Dialoogid / laused → kurss-example → [17]",
+      "sample": "Anna zählt die Nadeln: das ist eine Nadel; das sind zwei, drei, vier, fünf Nadeln.",
+      "candidates": [
+        "Anna zählt die Nadeln: das ist eine Nadel",
+        "das sind zwei, drei, vier, fünf Nadeln."
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [1]",
+      "fragment": "Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).",
+      "sample": "Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [3]",
+      "fragment": "Piemēri: fünf, der Schlüssel (šlūsel).",
+      "sample": "Piemēri: fünf, der Schlüssel (šlūsel)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [5]",
+      "fragment": "Divkāršots patskanis apzīmē garu patskani: leer (lēr).",
+      "sample": "Divkāršots patskanis apzīmē garu patskani: leer (lēr)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [6]",
+      "fragment": "Divskani eu izrunā kā oi: neun (noin).",
+      "sample": "Divskani eu izrunā kā oi: neun (noin)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [1]",
+      "fragment": "Piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.",
+      "sample": "Piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an."
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [1]",
+      "sample": "Piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.",
+      "candidates": [
+        "Piemēri: hinlegen — er legt hin",
+        "aufmachen — er macht auf",
+        "anspitzen — er spitzt an."
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [2]",
+      "fragment": "Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.",
+      "sample": "Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [3]",
+      "fragment": "Piemēri: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps.",
+      "sample": "Piemēri: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps."
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [3]",
+      "sample": "Piemēri: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps.",
+      "candidates": [
+        "Piemēri: ein Schüler — üks õpilane",
+        "eine Schülerin — üks õpilane (naine)",
+        "ein Kind — üks laps."
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [4]",
+      "fragment": "Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).",
+      "sample": "Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [5]",
+      "fragment": "Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein.",
+      "sample": "Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [6]",
+      "fragment": "Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.",
+      "sample": "Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [7]",
+      "fragment": "Piemēri: tas ir veseris — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln.",
+      "sample": "Piemēri: tas ir veseris — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln."
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [7]",
+      "sample": "Piemēri: tas ir veseris — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln.",
+      "candidates": [
+        "Piemēri: tas ir veseris — das ist ein Hammer",
+        "see on nõel — das ist eine Nadel",
+        "need on haamrid — das sind Hämmer",
+        "need on nõelad — das sind Nadeln."
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [9]",
+      "fragment": "Vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en ei saa mitmuses sageli lõppu.",
+      "sample": "Vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en ei saa mitmuses sageli lõppu."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [10]",
+      "fragment": "Piemēri: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.",
+      "sample": "Piemēri: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer."
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [10]",
+      "sample": "Piemēri: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.",
+      "candidates": [
+        "Piemēri: der Hammer — die Hämmer",
+        "der Garten — die Gärten",
+        "das Fenster — die Fenster",
+        "das Messer — die Messer."
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [11]",
+      "fragment": "Sieviešu kārtas lietvārdi ar galotni -el, -er saavad mitmuses lõpu -n.",
+      "sample": "Sieviešu kārtas lietvārdi ar galotni -el, -er saavad mitmuses lõpu -n."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [12]",
+      "fragment": "Piemēri: die Nadel — die Nadeln; die Feder — die Federn.",
+      "sample": "Piemēri: die Nadel — die Nadeln; die Feder — die Federn."
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [12]",
+      "sample": "Piemēri: die Nadel — die Nadeln; die Feder — die Federn.",
+      "candidates": [
+        "Piemēri: die Nadel — die Nadeln",
+        "die Feder — die Federn."
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [13]",
+      "fragment": "Izņēmumi: die Mutter (māte) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred).",
+      "sample": "Izņēmumi: die Mutter (māte) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred)."
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [13]",
+      "sample": "Izņēmumi: die Mutter (māte) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred).",
+      "candidates": [
+        "Izņēmumi: die Mutter (māte) — die Mütter (emad)",
+        "die Tochter (tütar) — die Töchter (tütred)."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [14]",
+      "sample": "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen — das sind Wagen; das ist eine Nadel — das sind Nadeln.",
+      "candidates": [
+        "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen — das sind Wagen",
+        "das ist eine Nadel — das sind Nadeln."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [15]",
+      "sample": "Stāstāmā teikumā izteicējs-tegusõna teisel kohal: er legt den Schlüssel hin; dann legt er den Schlüssel hin.",
+      "candidates": [
+        "Stāstāmā teikumā izteicējs-tegusõna teisel kohal: er legt den Schlüssel hin",
+        "dann legt er den Schlüssel hin."
+      ]
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Hääldus → kurss-example → [1]",
+      "fragment": "sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "sample": "sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Hääldus → kurss-example → [2]",
+      "fragment": "Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).",
+      "sample": "Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein)."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [1]",
+      "fragment": "Piemēri: antworte!, arbeite!, öffne!, zeichne!",
+      "sample": "Piemēri: antworte!, arbeite!, öffne!, zeichne!"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "REAL_LV_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [3]",
+      "fragment": "Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.",
+      "sample": "Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda."
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [4]",
+      "fragment": "Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
+      "sample": "Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [6]",
+      "fragment": "Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!",
+      "sample": "Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!"
+    },
+    {
+      "type": "FOREIGN_LANGUAGE_RESIDUAL",
+      "classification": "MIXED_LV_ET_RESIDUAL",
+      "path": "kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [7]",
+      "fragment": "Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, ihr öffnet.",
+      "sample": "Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, i"
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.subtitle",
+      "sample": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv.",
+      "candidates": [
+        "Refleksiivsed tegusõnad, e → i",
+        "ie muutus ja akusatiiv."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].title",
+      "sample": "Dialoogid / laused",
+      "candidates": [
+        "Dialoogid",
+        "laused"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "sample": "Olevik: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "candidates": [
+        "Olevik: ich setze mich, du setzt dich, er",
+        "sie",
+        "es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "sample": "Übung / Harjutus",
+      "candidates": [
+        "Übung",
+        "Harjutus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.subtitle",
+      "sample": "Mitmed esemed, dieser/jener, ainsus ja mitmus",
+      "candidates": [
+        "Mitmed esemed, dieser",
+        "jener, ainsus ja mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.intro",
+      "sample": "Üheksas õppetund: nimisõnade mitmus, näitavad asesõnad dieser/jener, harjutused ja tõlkimine.",
+      "candidates": [
+        "Üheksas õppetund: nimisõnade mitmus, näitavad asesõnad dieser",
+        "jener, harjutused ja tõlkimine."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[0].title",
+      "sample": "Dialoogid / laused",
+      "candidates": [
+        "Dialoogid",
+        "laused"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "sample": "Übung / Harjutus",
+      "candidates": [
+        "Übung",
+        "Harjutus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    }
+  ]
+}
