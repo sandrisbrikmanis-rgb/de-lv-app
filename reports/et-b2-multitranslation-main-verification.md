@@ -16,7 +16,7 @@
 | Field | SHA |
 |-------|-----|
 | **MAIN_BEFORE** | `9b77fcb4d81ec4e6467f31698bc410b1faf1122f` |
-| **PR_HEAD** | (see apply PR after push) |
+| **PR_HEAD** | `8469ecf899bbea193a2d3a1b437a8a4e52d52075` |
 | **MERGE_COMMIT** | (pending) |
 | **MAIN_AFTER** | (pending) |
 
