@@ -1,0 +1,72 @@
+{
+  "originMainSha": "2f4d62089a66b0d101a34cd72d3fdffea2763e93",
+  "masterVersion": "1.11",
+  "results": [
+    {
+      "dataset": "A1",
+      "cards": 702,
+      "study": 134,
+      "objectCoverage": "702/702",
+      "validatedFindings": 14,
+      "multiTranslationOwner": 0,
+      "foreignResidual": 0,
+      "ownerBacklog": 14,
+      "verdict": "ET_A1_NEEDS_OWNER_REVIEW"
+    },
+    {
+      "dataset": "A2",
+      "cards": 1640,
+      "study": 231,
+      "objectCoverage": "1640/1640",
+      "validatedFindings": 0,
+      "multiTranslationOwner": 0,
+      "foreignResidual": 0,
+      "ownerBacklog": 0,
+      "verdict": "ET_A2_FULL_AUDIT_PASS"
+    },
+    {
+      "dataset": "B1",
+      "cards": 3367,
+      "study": 324,
+      "objectCoverage": "3367/3367",
+      "validatedFindings": 1,
+      "multiTranslationOwner": 0,
+      "foreignResidual": 0,
+      "ownerBacklog": 1,
+      "verdict": "ET_B1_NEEDS_OWNER_REVIEW"
+    },
+    {
+      "dataset": "B2",
+      "cards": 2118,
+      "study": 60,
+      "objectCoverage": "2118/2118",
+      "validatedFindings": 2,
+      "multiTranslationOwner": 0,
+      "foreignResidual": 0,
+      "ownerBacklog": 2,
+      "verdict": "ET_B2_NEEDS_OWNER_REVIEW"
+    },
+    {
+      "dataset": "C1",
+      "cards": 572,
+      "study": 15,
+      "objectCoverage": "572/572",
+      "validatedFindings": 13,
+      "multiTranslationOwner": 0,
+      "foreignResidual": 0,
+      "ownerBacklog": 13,
+      "verdict": "ET_C1_NEEDS_OWNER_REVIEW"
+    },
+    {
+      "dataset": "C2",
+      "cards": 219,
+      "study": 1,
+      "objectCoverage": "219/219",
+      "validatedFindings": 2,
+      "multiTranslationOwner": 0,
+      "foreignResidual": 0,
+      "ownerBacklog": 2,
+      "verdict": "ET_C2_NEEDS_OWNER_REVIEW"
+    }
+  ]
+}

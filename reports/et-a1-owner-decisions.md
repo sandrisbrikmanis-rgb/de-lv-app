@@ -1,26 +1,20 @@
 # ET–DE A1 — OWNER DECISIONS
 
-**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.8
-**MAIN_BASE_SHA:** `f92199e3`
-**WORK_BRANCH:** `cursor/et-de-a1-full-audit-v18-ba9e`
-**Audit PR:** [#608](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/608)
-**Findings:** **1** · sākotnēji visi **PENDING**
+**Generated:** 2026-08-24T11:23:10.161Z
 
-Filtrēts pēc [et-a1-pr603-owner-history-validation.md](et-a1-pr603-owner-history-validation.md): tikai **NEW_VALIDATED_REAL_FINDINGS** (16/19).
-
-Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**
-
-**DE = STRICT READ-ONLY.** Apply tikai pēc OWNER apstiprinājuma.
-
-## GitHub atvēršana
-
-| Fails | GitHub |
-|-------|--------|
-| GitHub indekss | [et-a1-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-review-GITHUB.md) |
-| OWNER VIEW | [et-a1-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-view.md) |
-| Decisions grupa 1–1 | [et-a1-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/et-de-a1-full-audit-v18-ba9e/reports/et-a1-owner-decisions-group01.md) |
-
-## Pilna tabula (visi findingi)
-| Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
-|----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| ET-A1-0023 | a1-essen | study.examples[2].lv | mida te tahate süüa? | Mida te tahate süüa? | LOW | ORTHOGRAPHY | PENDING | | |
+| Audit ID | Card ID | Field/path | CURRENT | Problematic | OWNER NEW | Status |
+|---|---|---|---|---|---|---|
+| ET-A1-0001 | a1-euch | `structure` | Missing fields vs LV: study.tip.example | Missing fields vs LV: study.tip.example | | OWNER_DECISION_REQUIRED |
+| ET-A1-0002 | a1-euch | `structure` | Extra fields vs LV: study.important | Extra fields vs LV: study.important | | OWNER_DECISION_REQUIRED |
+| ET-A1-0003 | a1-liter | `structure` | Extra fields vs LV: study.examples, study.comparison, study.tip, study.important | Extra fields vs LV: study.examples, study.comparison, study.tip, study.important | | OWNER_DECISION_REQUIRED |
+| ET-A1-0004 | a1-klein-study | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0005 | a1-bitte | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0006 | a1-bitte-study | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0007 | a1-bringen | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0008 | a1-es | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0009 | a1-euch | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0010 | a1-finden | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0011 | a1-jung | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0012 | a1-kennen-study | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0013 | a1-liter | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |
+| ET-A1-0014 | a1-probieren | `de` |  | Study German content differs from LV etalon | | OWNER_DECISION_REQUIRED |

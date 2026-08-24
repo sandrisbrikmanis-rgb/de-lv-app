@@ -1,68 +1,16 @@
 {
   "meta": {
-    "date": "2026-08-23T11:20:23.020Z",
+    "date": "2026-08-24T11:23:13.808Z",
     "lvFile": "data/b2.js",
     "etFile": "data/et/b2.js",
     "wwwFile": "www/data/et/b2.js",
     "lvCount": 2118,
     "etCount": 2118,
     "lvStudyCount": 60,
-    "etStudyCount": 64
+    "etStudyCount": 60
   },
   "structural": {
     "issues": [
-      {
-        "severity": "critical",
-        "message": "Study count mismatch LV=60 ET=64"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "de": "Genosse",
-        "message": "Extra fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
-      },
-      {
-        "severity": "high",
-        "id": "b2-genosse",
-        "de": "Genosse",
-        "message": "Layout mismatch LV=null ET=standardStudy"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "de": "Genossin",
-        "message": "Extra fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
-      },
-      {
-        "severity": "high",
-        "id": "b2-genossin",
-        "de": "Genossin",
-        "message": "Layout mismatch LV=null ET=standardStudy"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "de": "Neger",
-        "message": "Extra fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
-      },
-      {
-        "severity": "high",
-        "id": "b2-neger",
-        "de": "Neger",
-        "message": "Layout mismatch LV=null ET=standardStudy"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "de": "Pacht",
-        "message": "Extra fields vs LV: study, study.id, study.layout, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important"
-      },
-      {
-        "severity": "high",
-        "id": "b2-pacht",
-        "de": "Pacht",
-        "message": "Layout mismatch LV=null ET=standardStudy"
-      },
       {
         "severity": "medium",
         "id": "b2-Pfahlbau-1443",
@@ -70,7 +18,7 @@
         "message": "Extra fields vs LV: de_plural"
       }
     ],
-    "pass": false
+    "pass": true
   },
   "germanIntegrity": {
     "issues": [
@@ -88,81 +36,8 @@
     "pass": true
   },
   "lvRemnants": {
-    "issues": [
-      {
-        "severity": "critical",
-        "id": "b2-hochwasser",
-        "path": "entry[1145].study.comparison[0].example",
-        "text": "Es gibt Hochwasser. = Ir plūdi."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-hochwasser",
-        "path": "entry[1145].study.comparison[1].example",
-        "text": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-hochwasser",
-        "path": "entry[1145].study.comparison[2].example",
-        "text": "Der Pegel steigt. = Ūdens līmenis ceļas."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-nachdruck",
-        "path": "entry[1349].study.comparison[0].example",
-        "text": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-nachdruck",
-        "path": "entry[1349].study.comparison[1].example",
-        "text": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-nachdruck",
-        "path": "entry[1349].study.comparison[2].example",
-        "text": "Unter Druck stehen = būt spiedienā."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-zuweisen",
-        "path": "entry[2100].study.comparison[0].example",
-        "text": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-zuweisen",
-        "path": "entry[2100].study.comparison[1].example",
-        "text": "Er gibt mir die Arbeit. = Viņš man dod darbu."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-zuweisen",
-        "path": "entry[2100].study.comparison[2].example",
-        "text": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-zuwider",
-        "path": "entry[2102].study.comparison[1].example",
-        "text": "Es ist mir zuwider. = Man tas nepatīk."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-anbieten",
-        "path": "entry[2113].study.comparison[0].example",
-        "text": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
-      },
-      {
-        "severity": "critical",
-        "id": "b2-anbieten",
-        "path": "entry[2113].study.comparison[1].example",
-        "text": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
-      }
-    ],
-    "pass": false
+    "issues": [],
+    "pass": true
   },
   "mainTranslations": {
     "entries": [
@@ -295,7 +170,7 @@
         "id": "b2-anbelangen-13",
         "de": "anbelangen",
         "lvGloss": "attiekties uz",
-        "etMain": "puudutama, käima kohta",
+        "etMain": "puudutama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -351,7 +226,7 @@
         "id": "b2-angehen-19",
         "de": "angehen",
         "lvGloss": "attiekties • vērsties pret",
-        "etMain": "puudutama • pöörduma vastu",
+        "etMain": "puudutama • vastu astuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -370,7 +245,7 @@
         "de": "Aktienkurs",
         "de_article": "der",
         "lvGloss": "akcijas kurss",
-        "etMain": "aktsia kurss",
+        "etMain": "aktsiakurss",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -433,7 +308,7 @@
         "id": "b2-angeblich-28",
         "de": "angeblich",
         "lvGloss": "it kā • šķietami",
-        "etMain": "justkui • näiliselt",
+        "etMain": "väidetavalt • väidetav",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -505,7 +380,7 @@
         "id": "b2-abbringen-36",
         "de": "abbringen",
         "lvGloss": "atrunāt • atturēt • novirzīt",
-        "etMain": "ümber veenma • hoiatama • kõrvale juhtima",
+        "etMain": "ümber veenma • millestki loobuma panema • kõrvale juhtima",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -581,7 +456,7 @@
         "id": "b2-abgesehen-44",
         "de": "abgesehen",
         "lvGloss": "lai gan • turklāt",
-        "etMain": "kuigi • pealegi",
+        "etMain": "välja arvatud • kõrvale jättes",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -599,7 +474,7 @@
         "id": "b2-abgetan-46",
         "de": "abgetan",
         "lvGloss": "izbeigts • nokārtots",
-        "etMain": "lõpetatud • korraldatud",
+        "etMain": "lõpetatud • lahendatud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -627,7 +502,7 @@
         "id": "b2-abhören-49",
         "de": "abhören",
         "lvGloss": "noklausīties • slepeni noklausīties",
-        "etMain": "kuulama • pealt kuulama",
+        "etMain": "pealt kuulama • salaja pealt kuulama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -636,7 +511,7 @@
         "id": "b2-ableiten-50",
         "de": "ableiten",
         "lvGloss": "novadīt • novirzīt • atvasināt",
-        "etMain": "juhtima • kõrvale juhtima • tuletama",
+        "etMain": "ära juhtima • kõrvale juhtima • tuletama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -656,7 +531,7 @@
         "de": "Abnutzung",
         "de_article": "die",
         "lvGloss": "nolietošana • nolietošanās • nodilums",
-        "etMain": "kulumine • amortiseerumine • kulu",
+        "etMain": "kulumine • amortiseerumine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -695,7 +570,7 @@
         "de": "Absatzmarkt",
         "de_article": "der",
         "lvGloss": "noieta tirgus",
-        "etMain": "turustusturg",
+        "etMain": "müügiturg",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -835,7 +710,7 @@
         "id": "b2-abtragen-71",
         "de": "abtragen",
         "lvGloss": "aiznest • nonēsāt • nojaukt",
-        "etMain": "ära kandma • kulutama (kandes) • lammutama",
+        "etMain": "ära kandma • kulutama • lammutama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -891,7 +766,7 @@
         "de": "sich abwenden",
         "lvGloss": "novērsties no",
         "etMain": "pöörduma millestki ära",
-        "studyTranslation": "pöörduma millestki ära",
+        "studyTranslation": "millestki ära pöörduma",
         "status": "OK",
         "flags": []
       },
@@ -918,7 +793,7 @@
         "id": "b2-affig-80",
         "de": "affig",
         "lvGloss": "uzkrītošs • iedomīgs",
-        "etMain": "silmatorkav • edev",
+        "etMain": "afekteeritud • edvistav",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -984,7 +859,7 @@
         "de": "Anorak",
         "de_article": "der",
         "lvGloss": "sportiska jaka ar kapuci",
-        "etMain": "kapuutsiga dressijakk",
+        "etMain": "kapuutsiga jope",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1034,7 +909,7 @@
         "de": "Aster",
         "de_article": "die",
         "lvGloss": "astere",
-        "etMain": "astra",
+        "etMain": "aster",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1073,7 +948,7 @@
         "de": "Ausbeutung",
         "de_article": "die",
         "lvGloss": "ekspluatācija",
-        "etMain": "ekspluatatsioon",
+        "etMain": "ekspluateerimine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1142,7 +1017,7 @@
         "de": "Äußerlichkeit",
         "de_article": "die",
         "lvGloss": "ārišķība",
-        "etMain": "väline sära",
+        "etMain": "välised tunnused • pealiskaudsus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1152,7 +1027,7 @@
         "de": "Äußerung",
         "de_article": "die",
         "lvGloss": "izteikums • izpaudums • izpausme",
-        "etMain": "väljendus • avaldumine • ilming",
+        "etMain": "väljendus • avaldus • ütlus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1161,7 +1036,7 @@
         "id": "b2-aussetzen-105",
         "de": "aussetzen",
         "lvGloss": "izlikt • pakļaut • iebilst • stāties",
-        "etMain": "eksponeerima • allutama • vastu vaidlema • astuma",
+        "etMain": "ohustama • allutama • vastu vaidlema • välja panema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1170,7 +1045,7 @@
         "id": "b2-aussichtslos-106",
         "de": "aussichtslos",
         "lvGloss": "bezcerīgs • bez izredzēm",
-        "etMain": "lootusetu • väljavaadeteta",
+        "etMain": "lootusetu • väljavaatetu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1188,7 +1063,7 @@
         "id": "b2-ausstatten-108",
         "de": "ausstatten",
         "lvGloss": "apgādāt • noformēt",
-        "etMain": "varustama • vormistama",
+        "etMain": "varustama • sisustama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1224,7 +1099,7 @@
         "id": "b2-austragen-112",
         "de": "austragen",
         "lvGloss": "iznēsāt • piegādāt • izcīnīt",
-        "etMain": "kandma • kohale toimetama • välja võitlema",
+        "etMain": "laiali kandma • kohale toimetama • välja võitlema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1242,7 +1117,7 @@
         "id": "b2-austreten-114",
         "de": "austreten",
         "lvGloss": "izmīt • nomīt • izstāties",
-        "etMain": "sisse tallama • maha tallama • välja astuma",
+        "etMain": "välja tallama • maha tallama • välja astuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1251,7 +1126,7 @@
         "id": "b2-auswärtig-115",
         "de": "auswärtig",
         "lvGloss": "ārzemju • ārlietu",
-        "etMain": "välismaine • välisasjade",
+        "etMain": "välismaine • välisasjadega seotud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1269,7 +1144,7 @@
         "id": "b2-ausweisen-117",
         "de": "ausweisen",
         "lvGloss": "izraidīt • izsūtīt • apstiprināt • pierādīt",
-        "etMain": "välja saatma • välja saatma • kinnitama • tõestama",
+        "etMain": "välja saatma • isikut tõendama • kinnitama • tõestama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1296,7 +1171,7 @@
         "id": "b2-auszeichnen-120",
         "de": "auszeichnen",
         "lvGloss": "apbalvot • piešķirt • izcelties",
-        "etMain": "autasustama • andma • silma paistma",
+        "etMain": "autasustama • esile tõstma • silma paistma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1325,7 +1200,7 @@
         "de": "Schwebebalken",
         "de_article": "der",
         "lvGloss": "līdzsvara baļķis",
-        "etMain": "tasakaalupulk",
+        "etMain": "võimlemispoom",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1344,7 +1219,7 @@
         "de": "Blutbank",
         "de_article": "die",
         "lvGloss": "asins rezerves",
-        "etMain": "verevaru",
+        "etMain": "verepank",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1512,7 +1387,7 @@
         "de": "Baugrube",
         "de_article": "die",
         "lvGloss": "būvbedre",
-        "etMain": "ehituskraav",
+        "etMain": "ehituskaevik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1551,7 +1426,7 @@
         "id": "b2-bebauen-146",
         "de": "bebauen",
         "lvGloss": "apstrādāt • apbūvēt",
-        "etMain": "töötlema • hoonestama",
+        "etMain": "harima • hoonestama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1569,7 +1444,7 @@
         "id": "b2-befallen-148",
         "de": "befallen",
         "lvGloss": "uznākt • uzbrukt",
-        "etMain": "peale tulema • ründama",
+        "etMain": "tabama • ründama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1707,7 +1582,7 @@
         "id": "b2-beispiellos-163",
         "de": "beispiellos",
         "lvGloss": "nebijis • neredzēts • tāds, kas nav ne ar ko salīdzināms",
-        "etMain": "enneolematu • nähtamatu • võrreldamatu",
+        "etMain": "enneolematu • võrreldamatu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1735,7 +1610,7 @@
         "id": "b2-beistimmen-166",
         "de": "beistimmen",
         "lvGloss": "piebalsot • atbalstīt",
-        "etMain": "kaasa hääletama • toetama",
+        "etMain": "nõustuma • heaks kiitma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1836,7 +1711,7 @@
         "id": "b2-belästigen-177",
         "de": "belästigen",
         "lvGloss": "apgrūtināt • uzmākties • uzbāzties",
-        "etMain": "koormama • pealetükkivalt käituma • peale suruma",
+        "etMain": "häirima • tülitama • ahistama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1872,7 +1747,7 @@
         "id": "b2-beleibt-181",
         "de": "beleibt",
         "lvGloss": "tukls • brangs • pilnīgs",
-        "etMain": "täidlane • priske • täielik",
+        "etMain": "täidlane • priske • tüse",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1947,7 +1822,7 @@
         "id": "b2-beredt-189",
         "de": "beredt",
         "lvGloss": "runīgs",
-        "etMain": "jutukas",
+        "etMain": "sõnaosav",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -1975,7 +1850,7 @@
         "id": "b2-bergen-192",
         "de": "bergen",
         "lvGloss": "glābt • izglābt • novākt ražu",
-        "etMain": "päästma • koristama saaki",
+        "etMain": "päästma • saaki koristama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2031,7 +1906,7 @@
         "id": "b2-beruhen-198",
         "de": "beruhen",
         "lvGloss": "dibināties • pamatoties",
-        "etMain": "asutatama • põhinema",
+        "etMain": "põhinema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2077,7 +1952,7 @@
         "id": "b2-beschimpfen-203",
         "de": "beschimpfen",
         "lvGloss": "nolamāt • nozākāt • noķengāt",
-        "etMain": "sõimama • halvustama • laimama",
+        "etMain": "sõimama • halvustama • solvama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2114,7 +1989,7 @@
         "id": "b2-besessen-207",
         "de": "besessen",
         "lvGloss": "apsēsts • apmāts • pārņemts",
-        "etMain": "kinnisideeks muutunud • vaevatud • haaratud",
+        "etMain": "kinnisideest haaratud • vaevatud • haaratud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2123,7 +1998,7 @@
         "id": "b2-besiedeln-208",
         "de": "besiedeln",
         "lvGloss": "nometināt iedzīvotājus",
-        "etMain": "elanikke ümber asustama",
+        "etMain": "asustama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2215,7 +2090,7 @@
         "id": "b2-bestürzt-218",
         "de": "bestürzt",
         "lvGloss": "pārsteigts • samulsis • apmulsis • apjucis",
-        "etMain": "üllatunud • segaduses • hämmingus",
+        "etMain": "vapustatud • kohkunud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2243,7 +2118,7 @@
         "id": "b2-beteuern-221",
         "de": "beteuern",
         "lvGloss": "apliecināt",
-        "etMain": "tõendama",
+        "etMain": "kinnitama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2272,7 +2147,7 @@
         "de": "Betriebsrat",
         "de_article": "der",
         "lvGloss": "uzņēmuma padome",
-        "etMain": "ettevõtte nõukogu",
+        "etMain": "töönõukogu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2282,7 +2157,7 @@
         "de": "Betrug",
         "de_article": "der",
         "lvGloss": "krāpšana • mānīšana • viltus • blēdība",
-        "etMain": "pettus • mahhineerimine • võltsing • kelmus",
+        "etMain": "pettus • petmine • kelmus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2301,7 +2176,7 @@
         "de": "Beute",
         "de_article": "die",
         "lvGloss": "laupījums • guvums • trofeja",
-        "etMain": "saak • võit • trofee",
+        "etMain": "saak • röövsaak",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2320,7 +2195,7 @@
         "id": "b2-bewähren-229",
         "de": "bewähren",
         "lvGloss": "pierādīt sevi",
-        "etMain": "kaitsma • ära kaitsma • hoidma • päästma",
+        "etMain": "ennast tõestama • end õigustama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2395,7 +2270,7 @@
         "id": "b2-bezähmen-237",
         "de": "bezähmen",
         "lvGloss": "savaldīt",
-        "etMain": "nõiduma • lummama",
+        "etMain": "taltsutama • ohjeldama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2527,7 +2402,7 @@
         "de": "Binnenhandel",
         "de_article": "der",
         "lvGloss": "iekšējā tirdzniecība",
-        "etMain": "siseturg",
+        "etMain": "sisekaubandus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2750,7 +2625,7 @@
         "de": "Blutkonserve",
         "de_article": "die",
         "lvGloss": "konservētas asinis",
-        "etMain": "konserveeritud veri",
+        "etMain": "verekonserv",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2809,7 +2684,7 @@
         "de": "Bodensatz",
         "de_article": "der",
         "lvGloss": "nogulsnes • padibenes • mieles",
-        "etMain": "sete • pärme",
+        "etMain": "sete • pärmisete",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2838,7 +2713,7 @@
         "de": "Bootsmann",
         "de_article": "der",
         "lvGloss": "bocmanis",
-        "etMain": "bootsman",
+        "etMain": "pootsman",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2888,7 +2763,7 @@
         "de": "Borte",
         "de_article": "die",
         "lvGloss": "apmale",
-        "etMain": "äärekivi",
+        "etMain": "ääris",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2927,7 +2802,7 @@
         "de": "Brandschaden",
         "de_article": "der",
         "lvGloss": "ugunsgrēka nodarītais zaudējums",
-        "etMain": "tulekahjukahju",
+        "etMain": "tulekahju tekitatud kahju",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2947,7 +2822,7 @@
         "de": "Brandanschlag",
         "de_article": "der",
         "lvGloss": "ļaunprātīga dedzināšana",
-        "etMain": "süütamine",
+        "etMain": "süütamisrünnak",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -2957,7 +2832,7 @@
         "de": "Brandmal",
         "de_article": "das",
         "lvGloss": "apdegums • apdeguma rēta",
-        "etMain": "põletus • põletusarm",
+        "etMain": "põletusjälg • põletusarm",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3016,7 +2891,7 @@
         "de": "Brettsegeln",
         "de_article": "das",
         "lvGloss": "vindsērfings",
-        "etMain": "purjelaud",
+        "etMain": "purjelauasõit",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3213,7 +3088,7 @@
         "id": "b2-bürgerlich-321",
         "de": "bürgerlich",
         "lvGloss": "pilsonisks • pilsoņu • buržuāzisks • buržuāzijas",
-        "etMain": "kodanlik • kodanike • kodanlik",
+        "etMain": "kodanlik • kodaniku-",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3554,7 +3429,7 @@
         "de": "Datei",
         "de_article": "die",
         "lvGloss": "kartotēka",
-        "etMain": "kartoteek",
+        "etMain": "fail",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3574,7 +3449,7 @@
         "de": "Datenträger",
         "de_article": "der",
         "lvGloss": "diskete",
-        "etMain": "diskett",
+        "etMain": "andmekandja",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3604,7 +3479,7 @@
         "de": "Dealer",
         "de_article": "der",
         "lvGloss": "nelegāls narkotiku tirgotājs",
-        "etMain": "nartkootikumide illegaalne müüja",
+        "etMain": "narkodiiler",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3662,7 +3537,7 @@
         "id": "b2-dehnen-367",
         "de": "dehnen",
         "lvGloss": "stiept • staipīt • stiepties • staipīties • vilkties",
-        "etMain": "venitama • sirutama • venima • sirutuma • vinduma",
+        "etMain": "venitama • sirutama • venima • sirutuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3728,7 +3603,7 @@
         "id": "b2-dementieren-374",
         "de": "dementieren",
         "lvGloss": "atsaukt informāciju",
-        "etMain": "teavet tagasi kutsuma",
+        "etMain": "ümber lükkama • eitama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3948,7 +3823,7 @@
         "id": "b2-diejenige-397",
         "de": "diejenige",
         "lvGloss": "tā",
-        "etMain": "nõnda",
+        "etMain": "see",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -3994,7 +3869,7 @@
         "id": "b2-dingen-402",
         "de": "dingen",
         "lvGloss": "līgt • salīgt",
-        "etMain": "sõlmima kokkulepet",
+        "etMain": "palkama • tööle võtma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4178,7 +4053,7 @@
         "de": "Dörrgemüse",
         "de_article": "das",
         "lvGloss": "kaltēti dārzeņi",
-        "etMain": "kuivatatud juurviljad",
+        "etMain": "kuivatatud köögiviljad",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4248,7 +4123,7 @@
         "de": "Dotterblume",
         "de_article": "die",
         "lvGloss": "purene",
-        "etMain": "tulikas",
+        "etMain": "kullerkupp",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4258,7 +4133,7 @@
         "de": "Dragee",
         "de_article": "das",
         "lvGloss": "dražeja",
-        "etMain": "draažee",
+        "etMain": "dražee",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4356,7 +4231,7 @@
         "de": "Drehung",
         "de_article": "die",
         "lvGloss": "griešanās • apgrieziens",
-        "etMain": "pöörlemine • pöörde",
+        "etMain": "pöörlemine • pööre",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4434,7 +4309,7 @@
         "de": "Drossel",
         "de_article": "die",
         "lvGloss": "strazds",
-        "etMain": "kuldnokk",
+        "etMain": "rästas",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4443,7 +4318,7 @@
         "id": "b2-drosseln-448",
         "de": "drosseln",
         "lvGloss": "žņaugt • apslāpēt",
-        "etMain": "kägistama • lämmatama",
+        "etMain": "kägistama • lämmatama • piirama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4618,7 +4493,7 @@
         "de": "Dunst",
         "de_article": "der",
         "lvGloss": "tvaiks • garaiņi • izgarojumi • tvans • migla • dūmaka",
-        "etMain": "aur • aurud • eritis • ummehtus • udu • sudu",
+        "etMain": "aur • aurud • udu • sudu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4663,7 +4538,7 @@
         "id": "b2-durchbringen-471",
         "de": "durchbringen",
         "lvGloss": "izdabūt cauri • iznest cauri • panākt • izārstēt • izšķērdēt",
-        "etMain": "läbi viima • välja kannatama • saavutama • välja ravima • raiskama",
+        "etMain": "läbi aitama • läbi viima • ülal pidama • raiskama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4739,7 +4614,7 @@
         "id": "b2-durchmachen-479",
         "de": "durchmachen",
         "lvGloss": "pārdzīvot • izņemt • pabeigt",
-        "etMain": "üle elama • välja võtma • lõpetama",
+        "etMain": "üle elama • läbi tegema • lõpetama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4804,7 +4679,7 @@
         "id": "b2-durchsetzen-486",
         "de": "durchsetzen",
         "lvGloss": "izdabūt cauri • panākt",
-        "etMain": "läbi viima • saavutama",
+        "etMain": "läbi suruma • saavutama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4832,7 +4707,7 @@
         "de": "Dürre",
         "de_article": "die",
         "lvGloss": "sausums",
-        "etMain": "kuivus",
+        "etMain": "põud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4908,7 +4783,7 @@
         "id": "b2-edel-497",
         "de": "edel",
         "lvGloss": "cēls • cildens • dižciltīgs",
-        "etMain": "õilis • ülev • aadlik",
+        "etMain": "õilis • ülev • aadellik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4947,7 +4822,7 @@
         "de": "Eheberatung",
         "de_article": "die",
         "lvGloss": "ģimenes konsultācija",
-        "etMain": "pereabi nõustamine",
+        "etMain": "abielunõustamine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4976,7 +4851,7 @@
         "de": "Eheschließung",
         "de_article": "die",
         "lvGloss": "laulības • salaulāšanās",
-        "etMain": "abielu • laulumine",
+        "etMain": "abiellumine • abielu sõlmimine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -4985,7 +4860,7 @@
         "id": "b2-ehren-505",
         "de": "ehren",
         "lvGloss": "godāt • cienīt • godināt",
-        "etMain": "austama • lugu pidama • auhindama",
+        "etMain": "austama • lugu pidama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5004,7 +4879,7 @@
         "id": "b2-ehrenamtlich-507",
         "de": "ehrenamtlich",
         "lvGloss": "bez maksas • goda pienākumu izpildot",
-        "etMain": "tasuta • auülesannet täites",
+        "etMain": "vabatahtlikult • auameti korras",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5024,7 +4899,7 @@
         "de": "Ehrenpflicht",
         "de_article": "die",
         "lvGloss": "goda pienākums",
-        "etMain": "auülesanne",
+        "etMain": "aukohustus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5170,7 +5045,7 @@
         "id": "b2-eigenhändig-524",
         "de": "eigenhändig",
         "lvGloss": "pašrocīgs",
-        "etMain": "isetehtud",
+        "etMain": "oma käega tehtud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5319,7 +5194,7 @@
         "id": "b2-einfassen-540",
         "de": "einfassen",
         "lvGloss": "ietvert • ierāmēt • iedarināt apkalumā",
-        "etMain": "sisaldama • raamima • kinnitama",
+        "etMain": "ääristama • raamima • ehtesse kinnitama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5328,7 +5203,7 @@
         "id": "b2-einflussreich-541",
         "de": "einflussreich",
         "lvGloss": "ietekmīgs",
-        "etMain": "mõjukas • muljetavaldav",
+        "etMain": "mõjukas",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5346,7 +5221,7 @@
         "id": "b2-einfrieren-543",
         "de": "einfrieren",
         "lvGloss": "sasaldēt • iesaldēt • pārtraukt",
-        "etMain": "külmutama • sisse külmutama • katkestama",
+        "etMain": "külmutama • peatama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5413,7 +5288,7 @@
         "id": "b2-eingehend-550",
         "de": "eingehend",
         "lvGloss": "pamatīgs • sīks • ienākošs",
-        "etMain": "põhjalik • pisiasjaline • sissetulev",
+        "etMain": "põhjalik • üksikasjalik • sissetulev",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5479,7 +5354,7 @@
         "id": "b2-eingleisig-557",
         "de": "eingleisig",
         "lvGloss": "viensliežu-",
-        "etMain": "monorööpa-",
+        "etMain": "üherööpmeline",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5488,7 +5363,7 @@
         "id": "b2-eingrenzen-558",
         "de": "eingrenzen",
         "lvGloss": "ierobežot • norobežot",
-        "etMain": "piirama • eraldama",
+        "etMain": "piirama • piiritlema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5517,7 +5392,7 @@
         "de": "Einigkeit",
         "de_article": "die",
         "lvGloss": "vienība • vienotība • vienprātība",
-        "etMain": "üksus • ühtsus • üksmeel",
+        "etMain": "ühtsus • üksmeel",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5563,7 +5438,7 @@
         "id": "b2-einleiten-566",
         "de": "einleiten",
         "lvGloss": "ievadīt",
-        "etMain": "sisestama",
+        "etMain": "sisse juhatama • algatama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5581,7 +5456,7 @@
         "id": "b2-einliefern-568",
         "de": "einliefern",
         "lvGloss": "ievest • atvest",
-        "etMain": "sisse tooma • kohale tooma",
+        "etMain": "sisse andma • (haiglasse) toimetama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5590,7 +5465,7 @@
         "id": "b2-einmachen-569",
         "de": "einmachen",
         "lvGloss": "iekonservēt • iemarinēt • ievārīt",
-        "etMain": "konserveerima • marineerima • keetma",
+        "etMain": "konserveerima • marineerima • moosiks keetma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5609,7 +5484,7 @@
         "de": "sich einprägen",
         "lvGloss": "iegaumēt",
         "etMain": "meelde jätma",
-        "studyTranslation": "meelde jätma",
+        "studyTranslation": "meelde jääma",
         "status": "OK",
         "flags": []
       },
@@ -5775,7 +5650,7 @@
         "id": "b2-einüben-589",
         "de": "einüben",
         "lvGloss": "iemācīties • iestudēt",
-        "etMain": "õppima • lavastama",
+        "etMain": "harjutama • selgeks õppima",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -5928,7 +5803,7 @@
         "id": "b2-eitel-605",
         "de": "eitel",
         "lvGloss": "godkārīgs • uzpūtīgs • iedomīgs • sekls • tukšs • ārišķīgs",
-        "etMain": "auahne • ülbe • edev • pinnapealne • tühine • näidislik",
+        "etMain": "edev • ennasttäis • asjatu • tühine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6032,7 +5907,7 @@
         "id": "b2-entbehren-616",
         "de": "entbehren",
         "lvGloss": "iztikt bez • pieciest • trūkt",
-        "etMain": "läbi ajama • kannatama • puuduma",
+        "etMain": "läbi ajama • ilma olema • puudust kannatama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6060,7 +5935,7 @@
         "id": "b2-entehren-619",
         "de": "entehren",
         "lvGloss": "laupīt godu • apkaunot",
-        "etMain": "au röövima • häbistama",
+        "etMain": "au teotama • häbistama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6078,7 +5953,7 @@
         "id": "b2-enterben-621",
         "de": "enterben",
         "lvGloss": "atņemt mantojumu",
-        "etMain": "pärandit ära võtma",
+        "etMain": "pärandist ilma jätma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6087,7 +5962,7 @@
         "id": "b2-entfallen-622",
         "de": "entfallen",
         "lvGloss": "izkrist • aizmirsties",
-        "etMain": "välja kukkuma • unustuma",
+        "etMain": "ära jääma • välja langema • ununema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6096,7 +5971,7 @@
         "id": "b2-entfalten-623",
         "de": "entfalten",
         "lvGloss": "attīt • atlocīt • attīstīt • izvērst",
-        "etMain": "lahti keerama • lahti voltima • arendama • laiendama",
+        "etMain": "lahti rullima • lahti voltima • arendama • laiendama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6105,7 +5980,7 @@
         "id": "b2-sich entfalten-624",
         "de": "sich entfalten",
         "lvGloss": "atvērties • atraisīties • attīstīties • izvērsties",
-        "etMain": "avanema • vabanema • arenema • laienema",
+        "etMain": "avanema • arenema • õitsele puhkema • välja kujunema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6159,7 +6034,7 @@
         "id": "b2-enthüllen-630",
         "de": "enthüllen",
         "lvGloss": "atklāt • atsegt",
-        "etMain": "avastama • avama",
+        "etMain": "paljastama • avalikustama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6222,7 +6097,7 @@
         "id": "b2-entmutigen-637",
         "de": "entmutigen",
         "lvGloss": "atņemt drosmi",
-        "etMain": "julgust võtma",
+        "etMain": "julgust vähendama • heidutama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6314,7 +6189,7 @@
         "de": "Entwerter",
         "de_article": "der",
         "lvGloss": "kompostrs",
-        "etMain": "pilettempler",
+        "etMain": "piletikomposter",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6437,7 +6312,7 @@
         "de": "Erachten",
         "de_article": "das",
         "lvGloss": "domas • ieskats",
-        "etMain": "mõtted • arusaam",
+        "etMain": "arvamus • hinnang",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6456,7 +6331,7 @@
         "de": "Erbauer",
         "de_article": "der",
         "lvGloss": "cēlājs",
-        "etMain": "kraana",
+        "etMain": "ehitaja • rajaja",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6475,7 +6350,7 @@
         "id": "b2-erbrechen-664",
         "de": "erbrechen",
         "lvGloss": "vemt",
-        "etMain": "lahti murdma • sisse murdma",
+        "etMain": "oksendama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6504,7 +6379,7 @@
         "de": "Erdrutsch",
         "de_article": "der",
         "lvGloss": "nogruvums",
-        "etMain": "varing",
+        "etMain": "maalihe",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6645,7 +6520,7 @@
         "id": "b2-erlangen-682",
         "de": "erlangen",
         "lvGloss": "aizsniegt • sasniegt • gūt • iegūt",
-        "etMain": "ulatuma • saavutama • omandama",
+        "etMain": "saavutama • omandama • kätte saama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6655,7 +6530,7 @@
         "de": "Erlass",
         "de_article": "der",
         "lvGloss": "rīkojums • pavēle • dekrēts • atlaišana",
-        "etMain": "korraldus • käsk • dekreet • vallandamine",
+        "etMain": "määrus • korraldus • dekreet • võlast vabastamine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6664,7 +6539,7 @@
         "id": "b2-erlassen-684",
         "de": "erlassen",
         "lvGloss": "izdot • atlaist • atbrīvot",
-        "etMain": "väljastama • vallandama • vabastama",
+        "etMain": "välja andma • vabastama • maha kandma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6692,7 +6567,7 @@
         "id": "b2-erleiden-687",
         "de": "erleiden",
         "lvGloss": "ciest • izciest • pārciest • tikt sakautam",
-        "etMain": "kannatama • üle elama • saama alistatud",
+        "etMain": "kannatama • üle elama • lüüasaamist kannatama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6766,7 +6641,7 @@
         "de": "Eröffnung",
         "de_article": "die",
         "lvGloss": "atvēršana • atklāšana • atklātne • paziņojums • atklājums",
-        "etMain": "avamine • avastamine • postkaart • teadaanne • avastus",
+        "etMain": "avamine • pidulik avamine • avasõna",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6812,7 +6687,7 @@
         "de": "Erreger",
         "de_article": "der",
         "lvGloss": "slimības ierosinātājs • vīruss",
-        "etMain": "haigustekitaja • viirus",
+        "etMain": "haigustekitaja",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6894,7 +6769,7 @@
         "id": "b2-ersehen-709",
         "de": "ersehen",
         "lvGloss": "redzēt • saskatīt",
-        "etMain": "nägema • märkama",
+        "etMain": "välja lugema • järeldama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -6958,7 +6833,7 @@
         "id": "b2-ertönen-716",
         "de": "ertönen",
         "lvGloss": "atskanēt • ieskanēties",
-        "etMain": "kõlama hakkama",
+        "etMain": "kõlama • kostma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7014,7 +6889,7 @@
         "de": "sich erweisen",
         "lvGloss": "izrādīties par",
         "etMain": "osutuma milleks",
-        "studyTranslation": "osutuma milleks",
+        "studyTranslation": "osutuma millekski",
         "status": "OK",
         "flags": []
       },
@@ -7244,7 +7119,7 @@
         "de": "Fachabitur",
         "de_article": "das",
         "lvGloss": "pabeigta apmācība arodskolā",
-        "etMain": "lõpetatud kutseõpe",
+        "etMain": "erialane küpsustunnistus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7301,7 +7176,7 @@
         "de": "Fahrdamm",
         "de_article": "der",
         "lvGloss": "ielas braucamā daļa • bruģis",
-        "etMain": "sõidutee • sillutis",
+        "etMain": "sõidutee",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7320,7 +7195,7 @@
         "id": "b2-fahrlässig-754",
         "de": "fahrlässig",
         "lvGloss": "neuzmanīgs • paviršs",
-        "etMain": "hooletu • pealiskaudne",
+        "etMain": "hooletu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7330,7 +7205,7 @@
         "de": "Falke",
         "de_article": "der",
         "lvGloss": "piekūns",
-        "etMain": "kull",
+        "etMain": "pistrik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7458,7 +7333,7 @@
         "de": "sich fassen",
         "lvGloss": "sagrābt • saņemties • savaldīties",
         "etMain": "haarama • end koguma • end valitsema",
-        "studyTranslation": "haarama • end koguma • end valitsema",
+        "studyTranslation": "end koguma • end valitsema",
         "status": "OK",
         "flags": []
       },
@@ -7486,7 +7361,7 @@
         "de": "Faulbaum",
         "de_article": "der",
         "lvGloss": "ieva",
-        "etMain": "toomingas",
+        "etMain": "paakspuu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7582,7 +7457,7 @@
         "de": "Fessel",
         "de_article": "die",
         "lvGloss": "ķēde • važas",
-        "etMain": "kett • ahelad",
+        "etMain": "kett • köidik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7631,7 +7506,7 @@
         "de": "Fetzen",
         "de_article": "der",
         "lvGloss": "skrandas • driska",
-        "etMain": "räbalad",
+        "etMain": "räbal • riba",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7766,7 +7641,7 @@
         "id": "b2-fliederfarben-800",
         "de": "fliederfarben",
         "lvGloss": "ceriņu krāsā",
-        "etMain": "lilla värvi",
+        "etMain": "sirelililla",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7874,7 +7749,7 @@
         "de": "Flussarm",
         "de_article": "der",
         "lvGloss": "atteka",
-        "etMain": "hargjõgi",
+        "etMain": "jõeharu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -7884,7 +7759,7 @@
         "de": "Flussbett",
         "de_article": "das",
         "lvGloss": "gultne",
-        "etMain": "sängi (jõe)",
+        "etMain": "jõesäng",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8064,7 +7939,7 @@
         "id": "b2-freilich-831",
         "de": "freilich",
         "lvGloss": "protams • bez šaubām • bet • tikai",
-        "etMain": "muidugi • kahtlemata • aga • ainult",
+        "etMain": "muidugi • tõsi küll",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8092,7 +7967,7 @@
         "id": "b2-freisprechen-834",
         "de": "freisprechen",
         "lvGloss": "attaisnot",
-        "etMain": "õigustama",
+        "etMain": "õigeks mõistma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8111,7 +7986,7 @@
         "id": "b2-fremdgehen-836",
         "de": "fremdgehen",
         "lvGloss": "kļūt neuzticīgam",
-        "etMain": "ebalojaalseks muutuma",
+        "etMain": "truudust murdma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8120,7 +7995,7 @@
         "id": "b2-friedfertig-837",
         "de": "friedfertig",
         "lvGloss": "miermīlīgs • saticīgs",
-        "etMain": "rahumeelne • sallija",
+        "etMain": "rahumeelne • rahuarmastav",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8129,7 +8004,7 @@
         "id": "b2-fristlos-838",
         "de": "fristlos",
         "lvGloss": "beztermiņa",
-        "etMain": "tähtajatu",
+        "etMain": "etteteatamistähtajata",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8216,7 +8091,7 @@
         "de": "Führernatur",
         "de_article": "die",
         "lvGloss": "līdera tips • līderis",
-        "etMain": "liidritüüp • liider",
+        "etMain": "juhiloomus • juhivõimed",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8255,7 +8130,7 @@
         "de": "Funkstation",
         "de_article": "die",
         "lvGloss": "raidstacija",
-        "etMain": "saatejaam",
+        "etMain": "raadiojaam",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8265,7 +8140,7 @@
         "de": "Funkstörung",
         "de_article": "die",
         "lvGloss": "traucējumi pārraidē",
-        "etMain": "ülekandehäired",
+        "etMain": "raadiosidehäire",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8285,7 +8160,7 @@
         "de": "Funktionär",
         "de_article": "der",
         "lvGloss": "aktīvists • darbinieks",
-        "etMain": "aktivist • töötaja",
+        "etMain": "funktsionäär",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8295,7 +8170,7 @@
         "de": "Furche",
         "de_article": "die",
         "lvGloss": "vaga • krunka • grumba",
-        "etMain": "vagu • kortsujoon",
+        "etMain": "vagu • korts",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8373,7 +8248,7 @@
         "id": "b2-gängig-863",
         "de": "gängig",
         "lvGloss": "ejošs",
-        "etMain": "käiv",
+        "etMain": "levinud • tavapärane",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8442,7 +8317,7 @@
         "de": "Gasableser",
         "de_article": "der",
         "lvGloss": "gāzes skaitītājs",
-        "etMain": "gaasiarvesti",
+        "etMain": "gaasiarvesti näidu lugeja",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8511,7 +8386,7 @@
         "id": "b2-gebrechlich-877",
         "de": "gebrechlich",
         "lvGloss": "vārgs • sanīcis • gaudens • kroplīgs • pilns vainām",
-        "etMain": "nõrk • kidur • vilets • vigane • vigadega",
+        "etMain": "põdur • nõrk",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8539,7 +8414,7 @@
         "id": "b2-gedeihen-880",
         "de": "gedeihen",
         "lvGloss": "labi padoties • izdoties • zelt • plaukt",
-        "etMain": "hästi õnnestuma • õnnestuma • õitsema",
+        "etMain": "edenema • õitsema • hästi kasvama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8548,7 +8423,7 @@
         "id": "b2-gedenken-881",
         "de": "gedenken",
         "lvGloss": "būt nodomājušam • atcerēties • atminēties • pieminēt",
-        "etMain": "kavatsema • meenutama • mainima",
+        "etMain": "kavatsema • meenutama • mälestama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8578,7 +8453,7 @@
         "de": "Gefährte",
         "de_article": "der",
         "lvGloss": "biedrs",
-        "etMain": "liige",
+        "etMain": "kaaslane • seltsiline",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8588,7 +8463,7 @@
         "de": "Gefallen",
         "de_article": "das",
         "lvGloss": "patikšana • patika",
-        "etMain": "meeldivus",
+        "etMain": "teene • heameel",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8597,7 +8472,7 @@
         "id": "b2-gefällig-886",
         "de": "gefällig",
         "lvGloss": "patīkams • pakalpīgs • iztapīgs • laipns",
-        "etMain": "meeldiv • teenistusvalmis • lahke",
+        "etMain": "meeldiv • vastutulelik • lahke",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8762,7 +8637,7 @@
         "id": "b2-gelaunt-903",
         "de": "gelaunt",
         "lvGloss": "omā",
-        "etMain": "meeleolu",
+        "etMain": "tujus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8831,7 +8706,7 @@
         "de": "Geliebte",
         "de_article": "der",
         "lvGloss": "mīļais • mīļotais • mīļākais",
-        "etMain": "kallis • armastatud • lemmik",
+        "etMain": "armastatu • kallim",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8909,7 +8784,7 @@
         "de": "Gemisch",
         "de_article": "das",
         "lvGloss": "maisījums • sajaukums • mistrojums",
-        "etMain": "segu • segamini • kokteil",
+        "etMain": "segu • kokteil",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -8929,7 +8804,7 @@
         "de": "Gemüt",
         "de_article": "das",
         "lvGloss": "raksturs • daba • domas • prāti",
-        "etMain": "iseloom • loomus • mõtted",
+        "etMain": "meel • loomus • iseloom",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9012,22 +8887,22 @@
         "flags": []
       },
       {
-        "id": "b2-genosse",
+        "id": "b2-Genosse-929",
         "de": "Genosse",
         "de_article": "der",
         "lvGloss": "biedrs",
         "etMain": "liige",
-        "studyTranslation": "liige",
+        "studyTranslation": null,
         "status": "OK",
         "flags": []
       },
       {
-        "id": "b2-genossin",
+        "id": "b2-Genossin-930",
         "de": "Genossin",
         "de_article": "die",
         "lvGloss": "biedre • biedrene",
         "etMain": "liige (naine)",
-        "studyTranslation": "liige (naine)",
+        "studyTranslation": null,
         "status": "OK",
         "flags": []
       },
@@ -9074,7 +8949,7 @@
         "id": "b2-geraten-935",
         "de": "geraten",
         "lvGloss": "nonākt • nokļūt • padoties • izdoties • atsisties",
-        "etMain": "sattuma • jõudma • alistuma • õnnestuma • loobuma",
+        "etMain": "sattuma • õnnestuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9084,7 +8959,7 @@
         "de": "Geratewohl",
         "de_article": "das",
         "lvGloss": "laba laime",
-        "etMain": "hea õnn",
+        "etMain": "huupi • hea õnne peale",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9103,7 +8978,7 @@
         "de": "Gerede",
         "de_article": "das",
         "lvGloss": "runāšana • runas • ļaužu valodas • tenkas",
-        "etMain": "jutt • kõned • kuulujutud",
+        "etMain": "jutt • lobisemine • kuulujutud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9122,7 +8997,7 @@
         "de": "Gerippe",
         "de_article": "das",
         "lvGloss": "skelets • ģindenis • karkass",
-        "etMain": "luukere • korjus • karkass",
+        "etMain": "luukere • karkass",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9142,7 +9017,7 @@
         "de": "Gesamtzahl",
         "de_article": "die",
         "lvGloss": "kopskaits",
-        "etMain": "kogusumma",
+        "etMain": "koguarv",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9221,7 +9096,7 @@
         "de": "Geschwätz",
         "de_article": "das",
         "lvGloss": "pļāpāšana • melošana • pļāpas",
-        "etMain": "lobisemine • valetamine • lobajutt",
+        "etMain": "lobisemine • tühi jutt • lobajutt",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9298,7 +9173,7 @@
         "de": "Gesinnung",
         "de_article": "die",
         "lvGloss": "uzskati • noskaņojums",
-        "etMain": "vaated • meeleolu",
+        "etMain": "hoiak • veendumused",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9328,7 +9203,7 @@
         "de": "sich gestalten",
         "lvGloss": "veidoties par",
         "etMain": "kujunema milleks",
-        "studyTranslation": "kujunema milleks",
+        "studyTranslation": "kujunema",
         "status": "OK",
         "flags": []
       },
@@ -9356,7 +9231,7 @@
         "de": "Gestein",
         "de_article": "das",
         "lvGloss": "iezis",
-        "etMain": "kaljurahn",
+        "etMain": "kivim",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9405,7 +9280,7 @@
         "id": "b2-getüpfelt-969",
         "de": "getüpfelt",
         "lvGloss": "punktots",
-        "etMain": "punktiirjooneline",
+        "etMain": "täpiline",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9462,7 +9337,7 @@
         "de": "Gewässer",
         "de_article": "das",
         "lvGloss": "ūdeņi",
-        "etMain": "veed",
+        "etMain": "veekogu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9491,7 +9366,7 @@
         "id": "b2-gewieft-978",
         "de": "gewieft",
         "lvGloss": "rūdīts • izmanīgs",
-        "etMain": "karastunud • kaval",
+        "etMain": "kaval • nutikas",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9510,7 +9385,7 @@
         "de": "Gewissheit",
         "de_article": "die",
         "lvGloss": "skaidrība • drošība • noteiktība",
-        "etMain": "selgus • kindlus",
+        "etMain": "kindlus • veendumus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9520,7 +9395,7 @@
         "de": "Gezeiten",
         "de_article": "die",
         "lvGloss": "plūdmaiņas",
-        "etMain": "tõus-mõõn",
+        "etMain": "tõus ja mõõn",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9595,7 +9470,7 @@
         "de": "Gipsverband",
         "de_article": "der",
         "lvGloss": "ģipša pārsējs",
-        "etMain": "gipsplaastr",
+        "etMain": "kipsiside",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9654,7 +9529,7 @@
         "de": "Glatze",
         "de_article": "die",
         "lvGloss": "kails galvvidus",
-        "etMain": "paljas peanahk",
+        "etMain": "kiilaspea • kiilaspäisus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9664,7 +9539,7 @@
         "de": "Stirnglatze",
         "de_article": "die",
         "lvGloss": "atsegta piere",
-        "etMain": "avatud laup",
+        "etMain": "otsmiku kiilaspäisus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9683,7 +9558,7 @@
         "de": "Gleichnis",
         "de_article": "das",
         "lvGloss": "līdzība",
-        "etMain": "sarnasus",
+        "etMain": "tähendamissõna • võrdum",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9692,7 +9567,7 @@
         "id": "b2-gleiten-999",
         "de": "gleiten",
         "lvGloss": "slīdēt • planēt",
-        "etMain": "libisema • planeerima",
+        "etMain": "libisema • liuglema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9711,7 +9586,7 @@
         "id": "b2-gliedern-1001",
         "de": "gliedern",
         "lvGloss": "sadalīt",
-        "etMain": "jagama",
+        "etMain": "liigendama • jaotama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9777,7 +9652,7 @@
         "id": "b2-gnädig-1008",
         "de": "gnädig",
         "lvGloss": "žēlīgs • cienīts",
-        "etMain": "armulik • austatud",
+        "etMain": "armuline • halastav",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -9915,7 +9790,7 @@
         "id": "b2-grauen-1022",
         "de": "grauen",
         "lvGloss": "aust",
-        "etMain": "kuduma",
+        "etMain": "koitma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10099,7 +9974,7 @@
         "de": "Grußwort",
         "de_article": "das",
         "lvGloss": "īsa oficiāla uzruna",
-        "etMain": "lühike ametlik kõne",
+        "etMain": "tervitussõnad • tervituskõne",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10129,7 +10004,7 @@
         "de": "Günstling",
         "de_article": "der",
         "lvGloss": "favorīts • protežējamais",
-        "etMain": "lemmik • soositav",
+        "etMain": "lemmik • soosik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10138,7 +10013,7 @@
         "id": "b2-gurgeln-1045",
         "de": "gurgeln",
         "lvGloss": "skalot rīkli • muti",
-        "etMain": "kurku • suud loputama",
+        "etMain": "kuristama • suud loputama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10168,7 +10043,7 @@
         "de": "Güte",
         "de_article": "die",
         "lvGloss": "labsirdība • kvalitāte • labums",
-        "etMain": "heasüdamlikkus • kvaliteet • kasu",
+        "etMain": "headus • kvaliteet",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10215,7 +10090,7 @@
         "id": "b2-haaren-1053",
         "de": "haaren",
         "lvGloss": "mest spalvu",
-        "etMain": "sulgima (lindudel)",
+        "etMain": "karva ajama • sulgima",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10304,7 +10179,7 @@
         "de": "Hängebrücke",
         "de_article": "die",
         "lvGloss": "vanšu tilts",
-        "etMain": "vantsild",
+        "etMain": "rippsild",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10314,7 +10189,7 @@
         "de": "Hängsel",
         "de_article": "das",
         "lvGloss": "piešūtais drēbju pakaramais",
-        "etMain": "õmmeldud riidepuu",
+        "etMain": "õmmeldud riputusaas",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10352,7 +10227,7 @@
         "de": "Harsch",
         "de_article": "der",
         "lvGloss": "sērsna • apledojis sniegs",
-        "etMain": "hangelumi",
+        "etMain": "lumekoorik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10390,7 +10265,7 @@
         "de": "Haushaltung",
         "de_article": "die",
         "lvGloss": "mājturība",
-        "etMain": "majapidamisõpetus",
+        "etMain": "majapidamine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10489,7 +10364,7 @@
         "de": "Heilkunde",
         "de_article": "die",
         "lvGloss": "ārstniecība • medicīna",
-        "etMain": "ravi • meditsiin",
+        "etMain": "arstiteadus • meditsiin",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10538,7 +10413,7 @@
         "de": "Heimkehr",
         "de_article": "die",
         "lvGloss": "atgriešanās mājās • dzimtenē",
-        "etMain": "koju • kodumaale naasmine",
+        "etMain": "kojutulek • kodumaale naasmine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10548,7 +10423,7 @@
         "de": "Heimwerker",
         "de_article": "der",
         "lvGloss": "mājamatnieks • mājmeistars",
-        "etMain": "kodune käsitööline",
+        "etMain": "kodumeister",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10597,7 +10472,7 @@
         "de": "Hemmung",
         "de_article": "die",
         "lvGloss": "kavēklis • šķērslis • aizture",
-        "etMain": "takistus • viivitus",
+        "etMain": "takistus • pidurdus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10652,7 +10527,7 @@
         "de": "sich herausbilden",
         "lvGloss": "izveidoties par",
         "etMain": "välja kujunema milleks",
-        "studyTranslation": "välja kujunema milleks",
+        "studyTranslation": "välja kujunema",
         "status": "OK",
         "flags": []
       },
@@ -10688,7 +10563,7 @@
         "de": "sich herausstellen",
         "lvGloss": "izrādīties par",
         "etMain": "selguma milleks",
-        "studyTranslation": "selguma milleks",
+        "studyTranslation": "osutuma millekski • selguma",
         "status": "OK",
         "flags": []
       },
@@ -10838,7 +10713,7 @@
         "id": "b2-hingeben-1118",
         "de": "hingeben",
         "lvGloss": "atdot • aizdot projām",
-        "etMain": "ära andma • laenuks andma",
+        "etMain": "ära andma • pühenduma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10866,7 +10741,7 @@
         "de": "Hinsicht",
         "de_article": "die",
         "lvGloss": "ziņa",
-        "etMain": "teade",
+        "etMain": "aspekt • suhe",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10894,7 +10769,7 @@
         "de": "Hinterhalt",
         "de_article": "der",
         "lvGloss": "slēpnis",
-        "etMain": "peidik",
+        "etMain": "varitsus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10903,7 +10778,7 @@
         "id": "b2-hinterziehen-1125",
         "de": "hinterziehen",
         "lvGloss": "piesavināties naudu • nenomaksāt nodokļus",
-        "etMain": "raha omastama • makse mitte tasuma",
+        "etMain": "raha omastama • maksudest kõrvale hoidma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -10961,7 +10836,7 @@
         "id": "b2-hitzig-1131",
         "de": "hitzig",
         "lvGloss": "karsts • dedzīgs • straujš • ātrs dusmās",
-        "etMain": "kuum • õhin • järsk • kiiresti vihastuv",
+        "etMain": "tuline • äge • kiiresti vihastuv",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11113,7 +10988,7 @@
         "id": "b2-hochwertig-1146",
         "de": "hochwertig",
         "lvGloss": "augstvērtīgs",
-        "etMain": "kõrgväärtuslik",
+        "etMain": "kvaliteetne • kõrgekvaliteediline",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11152,7 +11027,7 @@
         "id": "b2-holpern-1150",
         "de": "holpern",
         "lvGloss": "kratīties • raustīties",
-        "etMain": "raputama • vappuma",
+        "etMain": "hüplema • rappuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11229,7 +11104,7 @@
         "id": "b2-in flagranti-1158",
         "de": "in flagranti",
         "lvGloss": "pieķert • darot kaut ko aizliegtu",
-        "etMain": "tabama keelatud teo pealt",
+        "etMain": "teolt tabama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11325,7 +11200,7 @@
         "de": "Kapazität",
         "de_article": "die",
         "lvGloss": "ražotspēja • jauda • tilpums • ietilpība",
-        "etMain": "tootlikkus • võimsus • maht",
+        "etMain": "mahutavus • võimsus • suutlikkus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11384,7 +11259,7 @@
         "de": "Karrierefrau",
         "de_article": "die",
         "lvGloss": "sieviete, kas taisa karjeru",
-        "etMain": "karjääri tegev naine",
+        "etMain": "karjäärinaine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11394,7 +11269,7 @@
         "de": "Kaufkraft",
         "de_article": "die",
         "lvGloss": "naudas • arī personas pirktspēja",
-        "etMain": "raha • ka isiku ostujõud",
+        "etMain": "ostujõud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11557,7 +11432,7 @@
         "de": "Konsequenz",
         "de_article": "die",
         "lvGloss": "konsekvence • secība • secinājums • sekas",
-        "etMain": "järjekindlus • järjekord • järeldus • tagajärg",
+        "etMain": "järjekindlus • järeldus • tagajärg",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11625,7 +11500,7 @@
         "id": "b2-korrumpieren-1199",
         "de": "korrumpieren",
         "lvGloss": "piekukuļot",
-        "etMain": "altkäemaksu andma",
+        "etMain": "ära ostma • korrumpeerima",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11634,7 +11509,7 @@
         "id": "b2-korrupt-1200",
         "de": "korrupt",
         "lvGloss": "pērkams • piekukuļojams",
-        "etMain": "ostetav • altkäemaksuga mõjutatav",
+        "etMain": "korruptne • äraostetav",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11684,7 +11559,7 @@
         "de": "Laie",
         "de_article": "der",
         "lvGloss": "diletants",
-        "etMain": "diletant",
+        "etMain": "võhik • asjaarmastaja",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11849,7 +11724,7 @@
         "de": "Laufwerk",
         "de_article": "das",
         "lvGloss": "dzinējs • dzinis",
-        "etMain": "mootor • ajav jõud",
+        "etMain": "mootor • ajam",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11907,7 +11782,7 @@
         "de": "Lehrstuhl",
         "de_article": "der",
         "lvGloss": "katedra",
-        "etMain": "katedra",
+        "etMain": "õppetool",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11936,7 +11811,7 @@
         "de": "Leichenhalle",
         "de_article": "die",
         "lvGloss": "kapliča kapos",
-        "etMain": "kabel kalmistul",
+        "etMain": "surnukuur",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -11975,7 +11850,7 @@
         "de_article": "das",
         "lvGloss": "ilga un smaga slimība",
         "etMain": "pikaajaline ja raske haigus",
-        "studyTranslation": "pikaajaline ja raske haigus",
+        "studyTranslation": "haigus • kannatused",
         "status": "OK",
         "flags": []
       },
@@ -12116,7 +11991,7 @@
         "id": "b2-lispeln-1250",
         "de": "lispeln",
         "lvGloss": "šļupstēt",
-        "etMain": "sosistama • pudistama",
+        "etMain": "susistama • pudistama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -12501,7 +12376,7 @@
         "de": "Marssonde",
         "de_article": "die",
         "lvGloss": "marsa zonde",
-        "etMain": "Marsi-sond",
+        "etMain": "Marsisond",
         "studyTranslation": null,
         "status": "WARNING",
         "flags": [
@@ -12572,7 +12447,7 @@
         "id": "b2-maßlos-1296",
         "de": "maßlos",
         "lvGloss": "neizmērojams • bezgalīgs",
-        "etMain": "mõõtmatu • lõputu",
+        "etMain": "mõõdutundetu • piiritu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -12621,7 +12496,7 @@
         "de": "Meerenge",
         "de_article": "die",
         "lvGloss": "jūras šaurums",
-        "etMain": "merekitsus",
+        "etMain": "väin",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -12678,7 +12553,7 @@
         "id": "b2-menschenscheu-1307",
         "de": "menschenscheu",
         "lvGloss": "nesabiedrisks • bikls",
-        "etMain": "ebasotsiaalne • arg",
+        "etMain": "inimpelglik • inimestest hoiduv",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -12736,7 +12611,7 @@
         "de": "Milbe",
         "de_article": "die",
         "lvGloss": "ērce",
-        "etMain": "puuk",
+        "etMain": "lest",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -12793,7 +12668,7 @@
         "id": "b2-militärfrei-1319",
         "de": "militärfrei",
         "lvGloss": "karaklausībai nepadots",
-        "etMain": "ajateenistuskõlbmatu",
+        "etMain": "ajateenistusest vabastatud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -12821,7 +12696,7 @@
         "id": "b2-minderwertig-1322",
         "de": "minderwertig",
         "lvGloss": "mazvērtīgs",
-        "etMain": "vähene väärtusega",
+        "etMain": "väheväärtuslik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -12979,7 +12854,7 @@
         "de": "Müllentsorgung",
         "de_article": "die",
         "lvGloss": "atkritumu iznīcināšana",
-        "etMain": "jäätmete hävitamine",
+        "etMain": "jäätmete kõrvaldamine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13189,7 +13064,7 @@
         "id": "b2-namens-1361",
         "de": "namens",
         "lvGloss": "vārdā • uzvārdā",
-        "etMain": "eesnimeliselt • perekonnanimeliselt",
+        "etMain": "nimel • nimega",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13265,12 +13140,12 @@
         "flags": []
       },
       {
-        "id": "b2-neger",
+        "id": "b2-Neger-1369",
         "de": "Neger",
         "de_article": "der",
         "lvGloss": "nēģeris",
         "etMain": "neeger",
-        "studyTranslation": "neeger",
+        "studyTranslation": null,
         "status": "OK",
         "flags": []
       },
@@ -13299,7 +13174,7 @@
         "de": "Nesselfieber",
         "de_article": "das",
         "lvGloss": "nātrene",
-        "etMain": "nõgesvõrk (haigus)",
+        "etMain": "nõgestõbi",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13318,7 +13193,7 @@
         "id": "b2-neuerdings-1374",
         "de": "neuerdings",
         "lvGloss": "nesen • šais dienās • no jauna • atkal",
-        "etMain": "hiljuti • neil päevil • uuesti",
+        "etMain": "hiljuti • neil päevil • viimasel ajal",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13406,7 +13281,7 @@
         "de": "Niederschlag",
         "de_article": "der",
         "lvGloss": "nogulsnes • nokrišņi",
-        "etMain": "sademed",
+        "etMain": "sademed • sete",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13482,7 +13357,7 @@
         "de": "Nutzeffekt",
         "de_article": "der",
         "lvGloss": "lietderības koeficients",
-        "etMain": "kasuteguri koefitsient",
+        "etMain": "kasutegur",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13492,7 +13367,7 @@
         "de": "Nutzholz",
         "de_article": "das",
         "lvGloss": "lietaskoki",
-        "etMain": "kasutusmets",
+        "etMain": "tarbepuit",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13609,7 +13484,7 @@
         "de": "Ölbohrung",
         "de_article": "die",
         "lvGloss": "naftas urbums",
-        "etMain": "naftapuurauk",
+        "etMain": "naftapuurimine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13619,7 +13494,7 @@
         "de": "Ölgewinnung",
         "de_article": "die",
         "lvGloss": "naftas ieguve",
-        "etMain": "naftatootmine",
+        "etMain": "nafta ammutamine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13639,7 +13514,7 @@
         "de": "Ölpest",
         "de_article": "die",
         "lvGloss": "ūdens un piekrastes piesārņojums ar naftu",
-        "etMain": "vee ja ranniku naftareostus",
+        "etMain": "naftareostus vees ja rannikul",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13669,7 +13544,7 @@
         "de": "Operator",
         "de_article": "der",
         "lvGloss": "lielu datoru apkalpes speciālists",
-        "etMain": "suurarvutite hooldusspetsialist",
+        "etMain": "operaator",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13777,17 +13652,17 @@
         "de": "sich paaren",
         "lvGloss": "pāroties ar",
         "etMain": "paarduma millegaga",
-        "studyTranslation": "paarduma millegaga",
+        "studyTranslation": "paarituma",
         "status": "OK",
         "flags": []
       },
       {
-        "id": "b2-pacht",
+        "id": "b2-Pacht-1422",
         "de": "Pacht",
         "de_article": "die",
         "lvGloss": "noma",
         "etMain": "rent",
-        "studyTranslation": "rent",
+        "studyTranslation": null,
         "status": "OK",
         "flags": []
       },
@@ -13796,7 +13671,7 @@
         "de": "Pachtvertrag",
         "de_article": "der",
         "lvGloss": "nomas līgums",
-        "etMain": "üürileping",
+        "etMain": "rendileping",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13805,7 +13680,7 @@
         "id": "b2-pachten-1424",
         "de": "pachten",
         "lvGloss": "nomāt",
-        "etMain": "üürima",
+        "etMain": "rentima",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -13952,7 +13827,7 @@
         "de": "Pendelverkehr",
         "de_article": "der",
         "lvGloss": "vietējā piepilsētas satiksme",
-        "etMain": "kohalik eeslinnaliiklus",
+        "etMain": "pendelliiklus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14010,7 +13885,7 @@
         "de": "Pfandschein",
         "de_article": "der",
         "lvGloss": "ķīlu zīme",
-        "etMain": "pandimärk",
+        "etMain": "pandipilet",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14108,7 +13983,7 @@
         "de": "Pilotstudie",
         "de_article": "die",
         "lvGloss": "pētījumu sērijas ievads",
-        "etMain": "uurimissarja sissejuhatus",
+        "etMain": "pilootuuring",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14177,7 +14052,7 @@
         "de": "Possen",
         "de_article": "der",
         "lvGloss": "farss • joku luga • rupjš joks",
-        "etMain": "farss • naljamäng • jäme nali",
+        "etMain": "jäme nali • tembutus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14204,7 +14079,7 @@
         "id": "b2-prägnant-1465",
         "de": "prägnant",
         "lvGloss": "spilgti izteikts",
-        "etMain": "eredalt väljendunud",
+        "etMain": "tabav • lühidalt ja selgelt väljendatud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14385,7 +14260,7 @@
         "id": "b2-quittieren-1484",
         "de": "quittieren",
         "lvGloss": "parakstīties par saņemšanu",
-        "etMain": "vastuvõtmist allkirjastama",
+        "etMain": "kättesaamist kinnitama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14463,7 +14338,7 @@
         "id": "b2-ranzig-1492",
         "de": "ranzig",
         "lvGloss": "sasmacis • rūgtens par krējumu • taukiem • sviestu",
-        "etMain": "hallitanud maitsega • kibedavõitu (koore, rasva, või kohta)",
+        "etMain": "rääsunud • kibedavõitu (koore, rasva ja või kohta)",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14654,7 +14529,7 @@
         "de": "Regenfront",
         "de_article": "die",
         "lvGloss": "lietus josla",
-        "etMain": "vihmavöönd",
+        "etMain": "vihmafront",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14721,7 +14596,7 @@
         "id": "b2-relevant-1519",
         "de": "relevant",
         "lvGloss": "nozīmīgs • svarīgs",
-        "etMain": "märkimisväärne • tähtis",
+        "etMain": "asjakohane • tähtis",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14847,7 +14722,7 @@
         "id": "b2-rücksichtslos-1532",
         "de": "rücksichtslos",
         "lvGloss": "neuzmanīgs • rupjš • nesaudzīgs",
-        "etMain": "hooletu • jäme • armutu",
+        "etMain": "hoolimatu • jäme • armutu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14856,7 +14731,7 @@
         "id": "b2-rückständig-1533",
         "de": "rückständig",
         "lvGloss": "atpalicis • nokavēts par maksājumu",
-        "etMain": "hilinenud • maksega viivituses",
+        "etMain": "mahajäänud • maksetega võlgnevuses",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -14961,7 +14836,7 @@
         "id": "b2-sächlich-1544",
         "de": "sächlich",
         "lvGloss": "~es Geschlecht gram. • nekatrā dzimte",
-        "etMain": "gram. neutraalne sugu",
+        "etMain": "gram. kesksugu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15000,7 +14875,7 @@
         "de": "Sandbank",
         "de_article": "die",
         "lvGloss": "sēklis",
-        "etMain": "madalik",
+        "etMain": "liivamadal",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15029,7 +14904,7 @@
         "de": "Satellit",
         "de_article": "der",
         "lvGloss": "pol. satelīts • astr. pavadonis",
-        "etMain": "poliitiline satelliit • astr. kaaslane",
+        "etMain": "poliitiline satelliit • astronoomiline satelliit",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15077,7 +14952,7 @@
         "de": "Schadenersatz",
         "de_article": "der",
         "lvGloss": "materiāla kompensācija par zaudējumiem",
-        "etMain": "materiaalne hüvitis kahju eest",
+        "etMain": "kahjuhüvitis",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15096,7 +14971,7 @@
         "de": "Schaffen",
         "de_article": "das",
         "lvGloss": "jaunrade • daiļrade • darbs • darbība • radīšana",
-        "etMain": "looming • teos • tegevus • loomine",
+        "etMain": "looming • loometöö • tegevus • loomine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15221,7 +15096,7 @@
         "de": "Scheitel",
         "de_article": "der",
         "lvGloss": "galvvidus • pauris • celiņš",
-        "etMain": "juuksejoon • lagi (pea)",
+        "etMain": "juukselahk • pealagi",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15230,7 +15105,7 @@
         "id": "b2-scheitern-1572",
         "de": "scheitern",
         "lvGloss": "piedzīvot neveiksmi • izjukt",
-        "etMain": "ebaõnnestuma • lagunema",
+        "etMain": "ebaõnnestuma • luhtuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15277,7 +15152,7 @@
         "de": "Schieber",
         "de_article": "der",
         "lvGloss": "aizbīdnis • bulta • spekulants",
-        "etMain": "riiv • polt • spekulant",
+        "etMain": "riiv • siiber • spekulant",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15335,7 +15210,7 @@
         "id": "b2-schlafwandeln-1583",
         "de": "schlafwandeln",
         "lvGloss": "būt mēnessērdzīgam",
-        "etMain": "olema unerändaja",
+        "etMain": "unes kõndima",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15460,7 +15335,7 @@
         "de": "Schmuggel",
         "de_article": "der",
         "lvGloss": "kontrabanda",
-        "etMain": "salakaup",
+        "etMain": "salakaubandus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15470,7 +15345,7 @@
         "de": "Schnappschuss",
         "de_article": "der",
         "lvGloss": "momentuzņēmums fotogrāfijā",
-        "etMain": "hetkevõte fotol",
+        "etMain": "hetktõmmis",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15517,7 +15392,7 @@
         "de": "Bittschrift",
         "de_article": "die",
         "lvGloss": "lūgums",
-        "etMain": "palve",
+        "etMain": "palvekiri",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15526,7 +15401,7 @@
         "id": "b2-schrill-1603",
         "de": "schrill",
         "lvGloss": "spalgs • griezīgs",
-        "etMain": "kimeda • lõikav",
+        "etMain": "kime • lõikav",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15535,7 +15410,7 @@
         "id": "b2-schroff-1604",
         "de": "schroff",
         "lvGloss": "stāvs • kraujš • skarbs • ass • nelaipns",
-        "etMain": "järsk • kalju • karm • terav • ebasõbralik",
+        "etMain": "järsk • karm • terav • ebasõbralik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15555,7 +15430,7 @@
         "de": "Schuldschein",
         "de_article": "der",
         "lvGloss": "parādzīme",
-        "etMain": "võlakiri",
+        "etMain": "võlatunnistus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15614,7 +15489,7 @@
         "de": "Schwarm",
         "de_article": "der",
         "lvGloss": "bars",
-        "etMain": "kirg • vaimustus",
+        "etMain": "parv • sülem",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15643,7 +15518,7 @@
         "de": "Schwarze",
         "de_article": "der",
         "lvGloss": "cilvēks ar melnu ādas krāsu",
-        "etMain": "tumedanahaline inimene",
+        "etMain": "mustanahaline inimene",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15692,7 +15567,7 @@
         "de": "Schwerathletik",
         "de_article": "die",
         "lvGloss": "sp. smagatlētika",
-        "etMain": "sp. tõstespordid",
+        "etMain": "raskejõustik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15730,7 +15605,7 @@
         "de": "Seenot",
         "de_article": "die",
         "lvGloss": "avārijas situācija uz jūras",
-        "etMain": "avariiolukord merel",
+        "etMain": "hädaseisund merel",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15780,7 +15655,7 @@
         "de": "Naturseide",
         "de_article": "die",
         "lvGloss": "dabiskais zīds",
-        "etMain": "loomulik siid",
+        "etMain": "looduslik siid",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -15800,7 +15675,7 @@
         "de": "Selbstgefühl",
         "de_article": "das",
         "lvGloss": "pašapziņīgums • pašapziņa",
-        "etMain": "enesekindlus",
+        "etMain": "eneseväärtustunne",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16040,7 +15915,7 @@
         "de": "Sonderausgabe",
         "de_article": "die",
         "lvGloss": "grāmatas speciālizdevums • laikraksta speciāl numurs • marku speciālizlaidums",
-        "etMain": "raamatu erilaadumine • ajalehe erinumber • margi eriväljalase",
+        "etMain": "raamatu eriväljaanne • ajalehe erinumber • margi eriväljaanne",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16080,7 +15955,7 @@
         "de": "Sorgenkind",
         "de_article": "das",
         "lvGloss": "rūpju bērns",
-        "etMain": "hoolealune laps",
+        "etMain": "murelaps",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16138,7 +16013,7 @@
         "id": "b2-spärlich-1666",
         "de": "spärlich",
         "lvGloss": "niecīgs • skops • rets",
-        "etMain": "tühine • ihne • harv",
+        "etMain": "napp • hõre • vähene",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16390,7 +16265,7 @@
         "de": "Stahlwerk",
         "de_article": "das",
         "lvGloss": "tēraudlietuve",
-        "etMain": "terasevalukoda",
+        "etMain": "terasetehas",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16515,7 +16390,7 @@
         "de": "Strafanzeige",
         "de_article": "die",
         "lvGloss": "krimināllietas ierosināšana pret kādu",
-        "etMain": "kriminaalasja algatamine kellegi vastu",
+        "etMain": "kuriteoteade • avaldus politseile",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16542,7 +16417,7 @@
         "id": "b2-streitbar-1708",
         "de": "streitbar",
         "lvGloss": "ķildīgs",
-        "etMain": "tülinorija",
+        "etMain": "võitluslik • vaidlushimuline",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16552,7 +16427,7 @@
         "de": "Streitkräfte",
         "de_article": "die",
         "lvGloss": "valsts visas militārās organizācijas un militārie spēki",
-        "etMain": "riigi kõik sõjalised organisatsioonid ja väed",
+        "etMain": "relvajõud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16670,7 +16545,7 @@
         "de": "Tagebau",
         "de_article": "der",
         "lvGloss": "derīgo izrakteņu atklātā ieguve",
-        "etMain": "maavarade karjääripõline kaevandamine",
+        "etMain": "pealmaakaevandamine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16816,7 +16691,7 @@
         "de": "Töpferscheibe",
         "de_article": "die",
         "lvGloss": "podnieka ripa",
-        "etMain": "pottsepakäi",
+        "etMain": "potikeder",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16952,7 +16827,7 @@
         "id": "b2-treuherzig-1750",
         "de": "treuherzig",
         "lvGloss": "valsirdīgs • sirsnīgs",
-        "etMain": "südamlik",
+        "etMain": "siiras ja lihtsameelne",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -16991,7 +16866,7 @@
         "de": "Triumphzug",
         "de_article": "der",
         "lvGloss": "triumfa gājiens",
-        "etMain": "triumfirong",
+        "etMain": "võidurongkäik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17132,7 +17007,7 @@
         "id": "b2-überhören-1769",
         "de": "überhören",
         "lvGloss": "ne[sa]dzirdēt aiz neuzmanības • izlikties nedzirdam",
-        "etMain": "hooletusest mitte kuulma • end mitte kuulvana teesklema",
+        "etMain": "tähelepanematusest kuulmata jätma • kuulmatust teesklema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17141,7 +17016,7 @@
         "id": "b2-überlassen-1770",
         "de": "überlassen",
         "lvGloss": "atstāt kāda ziņā • rīcībā • atļaut izvēlēties",
-        "etMain": "jätma kellegi otsustada • käsutusse jätma • valikut lubama",
+        "etMain": "kellegi otsustada jätma • käsutusse jätma • valida laskma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17180,7 +17055,7 @@
         "de": "Übermüdung",
         "de_article": "die",
         "lvGloss": "pārgurums",
-        "etMain": "ülekurnatus",
+        "etMain": "üleväsimus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17189,7 +17064,7 @@
         "id": "b2-überschätzen-1775",
         "de": "überschätzen",
         "lvGloss": "pārvērtēt",
-        "etMain": "ümber hindama",
+        "etMain": "üle hindama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17198,7 +17073,7 @@
         "id": "b2-überschreiten-1776",
         "de": "überschreiten",
         "lvGloss": "pāriet • pārkāpt",
-        "etMain": "üle minema • rikkuma",
+        "etMain": "ületama • seadust rikkuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17299,7 +17174,7 @@
         "id": "b2-umdenken-1787",
         "de": "umdenken",
         "lvGloss": "mainīt viedokli atkarībā no situācijas",
-        "etMain": "arvamust olukorrast sõltuvalt muutma",
+        "etMain": "ümber mõtlema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17336,7 +17211,7 @@
         "id": "b2-umhören, sich-1791",
         "de": "umhören, sich",
         "lvGloss": "apklausīties",
-        "etMain": "kuulatlema",
+        "etMain": "ringi küsima • maad kuulama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17394,7 +17269,7 @@
         "id": "b2-umschließen-1797",
         "de": "umschließen",
         "lvGloss": "ieslēgt • aptvert • apņemt",
-        "etMain": "sisse lülitama • hõlmama • ümbritsema",
+        "etMain": "sisse piirama • hõlmama • ümbritsema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17403,7 +17278,7 @@
         "id": "b2-umschreiben-1798",
         "de": "umschreiben",
         "lvGloss": "aprakstīt",
-        "etMain": "kirjeldama",
+        "etMain": "ümber sõnastama • kirjeldama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17450,7 +17325,7 @@
         "id": "b2-umständlich-1803",
         "de": "umständlich",
         "lvGloss": "ļoti sīks • pārāk plašs • apgrūtinošs • sarežģīts",
-        "etMain": "väga pisike • liiga ulatuslik • koormav • keeruline",
+        "etMain": "tülikas • liiga üksikasjalik • koormav • keeruline",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17743,7 +17618,7 @@
         "id": "b2-unterbreiten-1835",
         "de": "unterbreiten",
         "lvGloss": "paskaidrot • iesniegt",
-        "etMain": "selgitama • esitama",
+        "etMain": "ette panema • esitama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17866,7 +17741,7 @@
         "de": "Untertan",
         "de_article": "der",
         "lvGloss": "pavalstnieks",
-        "etMain": "kodanik",
+        "etMain": "alam",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17875,7 +17750,7 @@
         "id": "b2-untertauchen-1849",
         "de": "untertauchen",
         "lvGloss": "ienirt • palīst zem ūdens • iemērkt • iegremdēt",
-        "etMain": "sukelduma • vee alla minema • kastma",
+        "etMain": "sukelduma • vee alla minema • peitu minema",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -17920,7 +17795,7 @@
         "id": "b2-unüberlegt-1854",
         "de": "unüberlegt",
         "lvGloss": "neapdomīgs • vieglprātīgs",
-        "etMain": "ettevaatamatu • kergemeelne",
+        "etMain": "läbimõtlematu • kaalutlematu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18096,7 +17971,7 @@
         "id": "b2-verbittert-1873",
         "de": "verbittert",
         "lvGloss": "sarūgtināts",
-        "etMain": "pettunud",
+        "etMain": "kibestunud",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18134,7 +18009,7 @@
         "de": "Verdruss",
         "de_article": "der",
         "lvGloss": "nepatika • sarūgtinājums • īgnums",
-        "etMain": "vastumeelsus • pettumus • tusk",
+        "etMain": "meelehärm • pahameel • tusk",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18171,7 +18046,7 @@
         "de": "sich vereinigen",
         "lvGloss": "apvienoties ar",
         "etMain": "ühinema millegaga",
-        "studyTranslation": "ühinema millegaga",
+        "studyTranslation": "ühinema millegagi",
         "status": "OK",
         "flags": []
       },
@@ -18357,7 +18232,7 @@
         "id": "b2-sich verhören-1901",
         "de": "sich verhören",
         "lvGloss": "pārklausīties",
-        "etMain": "üle kuulama (proovi)",
+        "etMain": "valesti kuulma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18366,7 +18241,7 @@
         "id": "b2-verhüten-1902",
         "de": "verhüten",
         "lvGloss": "novērst • izsargāties",
-        "etMain": "ära hoidma • hoiduma",
+        "etMain": "ära hoidma • rasestumisvastaseid vahendeid kasutama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18396,7 +18271,7 @@
         "de": "Verleih",
         "de_article": "der",
         "lvGloss": "noma",
-        "etMain": "üür",
+        "etMain": "laenutus • renditeenus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18406,7 +18281,7 @@
         "de": "Vermächtnis",
         "de_article": "das",
         "lvGloss": "testaments",
-        "etMain": "testament",
+        "etMain": "pärand • annak",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18426,7 +18301,7 @@
         "de": "Vermögen",
         "de_article": "das",
         "lvGloss": "īpašums",
-        "etMain": "omand",
+        "etMain": "vara • võime",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18446,7 +18321,7 @@
         "de": "Vernehmung",
         "de_article": "die",
         "lvGloss": "nopratināšana policijā",
-        "etMain": "ülekuulamine politseis",
+        "etMain": "ülekuulamine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18505,7 +18380,7 @@
         "id": "b2-verkommen-1916",
         "de": "verkommen",
         "lvGloss": "panīkt • pagrimt • paklīst",
-        "etMain": "alla käima • kaduma",
+        "etMain": "alla käima • manduma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18523,7 +18398,7 @@
         "id": "b2-verkraften-1918",
         "de": "verkraften",
         "lvGloss": "uzturēt morālu spēku, lai pārvarētu kaut ko nepatīkamu",
-        "etMain": "moraalset jõudu säilitama, et millestki ebameeldivast üle saada",
+        "etMain": "välja kannatama • üle elama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18667,7 +18542,7 @@
         "id": "b2-versagen-1934",
         "de": "versagen",
         "lvGloss": "liegt • atteikt • noraidīt • neklausīt • atteikties kalpot • izrādīties gļēvam un nevarīgam",
-        "etMain": "keelduma • tagasi lükkama • mitte kuulama • teenimast keelduma • argaks jääma",
+        "etMain": "ebaõnnestuma • üles ütlema • keelduma • tagasi lükkama • mitte kuuletuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18677,7 +18552,7 @@
         "de": "sich versehen",
         "lvGloss": "aizmirst • aprīkot ar",
         "etMain": "eksima • varustama millegaga",
-        "studyTranslation": "eksima • varustama millegaga",
+        "studyTranslation": "eksima • varustama millegagi",
         "status": "OK",
         "flags": []
       },
@@ -18721,7 +18596,7 @@
         "id": "b2-versöhnen-1940",
         "de": "versöhnen",
         "lvGloss": "samierināt",
-        "etMain": "leppima panema",
+        "etMain": "lepitama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18731,7 +18606,7 @@
         "de": "sich versöhnen",
         "lvGloss": "samierināties ar",
         "etMain": "leppima millegaga",
-        "studyTranslation": "leppima millegaga",
+        "studyTranslation": "ära leppima kellegagi",
         "status": "OK",
         "flags": []
       },
@@ -18739,7 +18614,7 @@
         "id": "b2-verspielen-1942",
         "de": "verspielen",
         "lvGloss": "paspēlēt • pazaudēt",
-        "etMain": "kaotama (mängus)",
+        "etMain": "mängides kaotama • maha mängima",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18766,7 +18641,7 @@
         "id": "b2-verstauchen-1945",
         "de": "verstauchen",
         "lvGloss": "izmežģīt",
-        "etMain": "nihestama",
+        "etMain": "välja väänama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18785,7 +18660,7 @@
         "de": "sich verstellen",
         "lvGloss": "uzdoties par",
         "etMain": "teesklema keda",
-        "studyTranslation": "teesklema keda",
+        "studyTranslation": "teesklema",
         "status": "OK",
         "flags": []
       },
@@ -18868,7 +18743,7 @@
         "id": "b2-verweilen-1956",
         "de": "verweilen",
         "lvGloss": "pakavēties",
-        "etMain": "peatuma (mõttes)",
+        "etMain": "peatuma • viibima",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18953,7 +18828,7 @@
         "de": "Verwüstung",
         "de_article": "die",
         "lvGloss": "izpostīšana",
-        "etMain": "hävitamine",
+        "etMain": "laastamine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18981,7 +18856,7 @@
         "id": "b2-sich verzögern-1968",
         "de": "sich verzögern",
         "lvGloss": "aizkavēties • novilcināties",
-        "etMain": "hilinema • venitama",
+        "etMain": "hilinema • edasi lükkuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -18990,7 +18865,7 @@
         "id": "b2-verzollen-1969",
         "de": "verzollen",
         "lvGloss": "muitot",
-        "etMain": "tolliima",
+        "etMain": "tollima",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19093,7 +18968,7 @@
         "id": "b2-vollkommen-1980",
         "de": "vollkommen",
         "lvGloss": "pilnīgs • pilnīgi • pavisam",
-        "etMain": "täielik • täielikult • hoopis",
+        "etMain": "täielik • täiesti",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19112,7 +18987,7 @@
         "id": "b2-vollzählig-1982",
         "de": "vollzählig",
         "lvGloss": "pilnā skaitā esošs",
-        "etMain": "täisarvuline",
+        "etMain": "täies koosseisus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19206,7 +19081,7 @@
         "de": "Vorbildung",
         "de_article": "die",
         "lvGloss": "priekšzināšanas • sagatavotība",
-        "etMain": "eelteadmised • valmisolek",
+        "etMain": "eelteadmised • ettevalmistus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19291,7 +19166,7 @@
         "id": "b2-vornherein-2001",
         "de": "vornherein",
         "lvGloss": "pašā sākumā",
-        "etMain": "just alguses",
+        "etMain": "algusest peale",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19310,7 +19185,7 @@
         "id": "b2-vorsätzlich-2003",
         "de": "vorsätzlich",
         "lvGloss": "apzināts • ar nolūku",
-        "etMain": "teadlik • tahtlik",
+        "etMain": "tahtlik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19516,7 +19391,7 @@
         "de": "Wählscheibe",
         "de_article": "die",
         "lvGloss": "tālruņa ciparu ripa",
-        "etMain": "telefoni valikuketas",
+        "etMain": "telefoni valimisketas",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19582,7 +19457,7 @@
         "de": "Warenausgabe",
         "de_article": "die",
         "lvGloss": "pirkumu kontrole un izsniegšana",
-        "etMain": "ostude kontroll ja väljastamine",
+        "etMain": "kauba väljastamine",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19661,7 +19536,7 @@
         "de": "Wegstrecke",
         "de_article": "die",
         "lvGloss": "ceļa posms • gabals",
-        "etMain": "teelõik • tükk",
+        "etMain": "teelõik",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19681,7 +19556,7 @@
         "de": "Wehe",
         "de_article": "die",
         "lvGloss": "kāpa • kupena",
-        "etMain": "luide • hang",
+        "etMain": "sünnitusvalu • tuhu",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19701,7 +19576,7 @@
         "de": "Wehrpflicht",
         "de_article": "die",
         "lvGloss": "karaklausība",
-        "etMain": "ajateenistus",
+        "etMain": "ajateenistuskohustus",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -19820,7 +19695,7 @@
         "de": "Werkhalle",
         "de_article": "die",
         "lvGloss": "cehs",
-        "etMain": "tsehh",
+        "etMain": "tootmishall",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -20023,7 +19898,7 @@
         "de": "Windbeutel",
         "de_article": "der",
         "lvGloss": "vēja kūka",
-        "etMain": "tuulelohe",
+        "etMain": "tuuletasku",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -20136,7 +20011,7 @@
         "id": "b2-zürnen-2088",
         "de": "zürnen",
         "lvGloss": "dusmoties",
-        "etMain": "vihastama",
+        "etMain": "vihastuma",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -20191,7 +20066,7 @@
         "id": "b2-zuschneiden-2094",
         "de": "zuschneiden",
         "lvGloss": "piegriezt",
-        "etMain": "lõikama (lõikeks)",
+        "etMain": "sobivasse mõõtu lõikama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -20218,7 +20093,7 @@
         "id": "b2-zutrauen-2097",
         "de": "zutrauen",
         "lvGloss": "gaidīt • domāt spējīgu",
-        "etMain": "ootama • võimeliseks pidama",
+        "etMain": "võimeliseks pidama",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -20228,7 +20103,7 @@
         "de": "Zuversicht",
         "de_article": "die",
         "lvGloss": "paļāvība",
-        "etMain": "usaldus",
+        "etMain": "kindlustunne",
         "studyTranslation": null,
         "status": "OK",
         "flags": []
@@ -20342,8 +20217,8 @@
         "id": "b2-aendern",
         "de": "ändern",
         "lvGloss": "mainīt • labot",
-        "etMain": "muutma • parandama",
-        "studyTranslation": "muutma • parandama",
+        "etMain": "muutma",
+        "studyTranslation": "muutma",
         "status": "OK",
         "flags": []
       },
@@ -20422,680 +20297,7 @@
     "pass": true
   },
   "sectionAccents": {
-    "issues": [
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "g",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "m",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genosse",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "g",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "m",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-genossin",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "g",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "r",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "m",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "u",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "s",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "a",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "a",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "h",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "a",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": " ",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "m",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-neger",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "r",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "t",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "ü",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "ü",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "r",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "r",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "d",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "l",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "e",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "p",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "i",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "n",
-        "message": "Accent term not found in section text"
-      },
-      {
-        "severity": "medium",
-        "id": "b2-pacht",
-        "section": "examples",
-        "term": "g",
-        "message": "Accent term not found in section text"
-      }
-    ],
+    "issues": [],
     "pass": true
   },
   "layerIdentity": {
@@ -21107,6 +20309,6 @@
     "count": 0
   },
   "standardStudy": {
-    "count": 64
+    "count": 60
   }
 }

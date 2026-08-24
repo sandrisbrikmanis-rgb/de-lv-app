@@ -1,0 +1,6016 @@
+{
+  "meta": {
+    "date": "2026-08-24T11:23:14.051Z",
+    "lvFile": "data/c1.js",
+    "etFile": "data/et/c1.js",
+    "wwwFile": "www/data/et/c1.js",
+    "lvCount": 572,
+    "etCount": 572,
+    "lvStudyCount": 15,
+    "etStudyCount": 15
+  },
+  "structural": {
+    "issues": [
+      {
+        "severity": "medium",
+        "id": "c1-einfamilienhaus",
+        "de": "Einfamilienhaus",
+        "message": "Extra fields vs LV: study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "medium",
+        "id": "c1-offentlichkeit",
+        "de": "Öffentlichkeit",
+        "message": "Extra fields vs LV: study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "medium",
+        "id": "c1-partei",
+        "de": "Partei",
+        "message": "Extra fields vs LV: study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "medium",
+        "id": "c1-prozess",
+        "de": "Prozess",
+        "message": "Extra fields vs LV: study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "medium",
+        "id": "c1-wahl",
+        "de": "Wahl",
+        "message": "Extra fields vs LV: study.comparison, study.tip, study.important"
+      },
+      {
+        "severity": "high",
+        "id": "c1-gelegentlich",
+        "de": "gelegentlich",
+        "message": "Missing fields vs LV: study.tip.leftBlocks, study.important.text"
+      },
+      {
+        "severity": "high",
+        "id": "c1-wahlberechtigt",
+        "de": "wahlberechtigt",
+        "message": "Missing fields vs LV: study.tip.leftBlocks, study.important.text"
+      }
+    ],
+    "pass": false
+  },
+  "germanIntegrity": {
+    "issues": [
+      {
+        "severity": "critical",
+        "id": "c1-einfamilienhaus",
+        "de": "Einfamilienhaus",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Sie wohnen in einem Einfamilienhaus."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Das Einfamilienhaus hat einen Garten."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Nebenan steht ein Mehrfamilienhaus."
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Sie wohnen in einem Einfamilienhaus."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Das Einfamilienhaus hat einen Garten."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Nebenan steht ein Mehrfamilienhaus."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "Einfamilienhaus"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "green": [
+                "Mehrfamilienhaus"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "c1-offentlichkeit",
+        "de": "Öffentlichkeit",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Die Öffentlichkeit reagierte kritisch."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Der Fall kam an die Öffentlichkeit."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Die Öffentlichkeit hat ein Recht auf Information."
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Die Öffentlichkeit reagierte kritisch."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Der Fall kam an die Öffentlichkeit."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Die Öffentlichkeit hat ein Recht auf Information."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "Öffentlichkeit"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "c1-partei",
+        "de": "Partei",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Diese Partei gewann die Wahl."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Er ist seit Jahren Mitglied einer Partei."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Beide Parteien müssen den Vertrag unterschreiben."
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Diese Partei gewann die Wahl."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Er ist seit Jahren Mitglied einer Partei."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Beide Parteien müssen den Vertrag unterschreiben."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "Partei"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "Partei"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "green": [
+                "Parteien"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "c1-prozess",
+        "de": "Prozess",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Der Prozess dauert mehrere Monate."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Der Prozess vor Gericht beginnt morgen."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wir verbessern den ganzen Prozess."
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Der Prozess dauert mehrere Monate."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Der Prozess vor Gericht beginnt morgen."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Wir verbessern den ganzen Prozess."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "Prozess"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "green": [
+                "Prozess"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "blue": [
+                "Prozess"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "c1-wahl",
+        "de": "Wahl",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "Du hast die Wahl."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich treffe meine Wahl morgen."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Die Wahl findet am Sonntag statt."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Viele Menschen gehen zur Wahl."
+          },
+          {
+            "path": "examples[4]",
+            "value": "Die freie Wahl ist wichtig."
+          },
+          {
+            "path": "examples[5]",
+            "value": "Bei der Wahl stimmen wir ab."
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "Du hast die Wahl."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Ich treffe meine Wahl morgen."
+          },
+          {
+            "path": "examples[2]",
+            "value": "Die Wahl findet am Sonntag statt."
+          },
+          {
+            "path": "examples[3]",
+            "value": "Viele Menschen gehen zur Wahl."
+          },
+          {
+            "path": "examples[4]",
+            "value": "Die freie Wahl ist wichtig."
+          },
+          {
+            "path": "examples[5]",
+            "value": "Bei der Wahl stimmen wir ab."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "Wahl"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[1]",
+            "value": {
+              "blue": [
+                "Wahl"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[2]",
+            "value": {
+              "green": [
+                "Wahl"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[3]",
+            "value": {
+              "green": [
+                "Wahl"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[4]",
+            "value": {
+              "blue": [
+                "Wahl"
+              ]
+            }
+          },
+          {
+            "path": "sectionAccents.examples[5]",
+            "value": {
+              "green": [
+                "Wahl"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "severity": "critical",
+        "id": "c1-beziehen-sich-beziehen-auf",
+        "de": "beziehen / sich beziehen auf",
+        "message": "Study German content differs from LV etalon",
+        "lvDe": [
+          {
+            "path": "examples[0]",
+            "value": "beziehen / sich beziehen auf."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "beziehen / sich beziehen auf",
+                "beziehen / sich beziehen auf"
+              ]
+            }
+          }
+        ],
+        "etDe": [
+          {
+            "path": "examples[0]",
+            "value": "beziehen / sich beziehen auf."
+          },
+          {
+            "path": "examples[1]",
+            "value": "Der Bericht bezieht sich auf die Ereignisse des letzten Jahres."
+          },
+          {
+            "path": "sectionAccents.examples[0]",
+            "value": {
+              "blue": [
+                "beziehen / sich beziehen auf",
+                "beziehen / sich beziehen auf"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "pass": false
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "lvRemnants": {
+    "issues": [],
+    "pass": true
+  },
+  "mainTranslations": {
+    "entries": [
+      {
+        "id": "c1-Wahrnehmung-0",
+        "de": "Wahrnehmung",
+        "de_article": "die",
+        "lvGloss": "uztvere",
+        "etMain": "taju",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gewährleisten-1",
+        "de": "gewährleisten",
+        "lvGloss": "nodrošināt",
+        "etMain": "tagama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Auswirkung-2",
+        "de": "Auswirkung",
+        "de_article": "die",
+        "lvGloss": "ietekme",
+        "etMain": "mõju",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-umstritten-3",
+        "de": "umstritten",
+        "lvGloss": "pretrunīgs",
+        "etMain": "vastuoluline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stellungnahme-4",
+        "de": "Stellungnahme",
+        "de_article": "die",
+        "lvGloss": "oficiāls paziņojums • viedokļa paušana",
+        "etMain": "ametlik avaldus • seisukoha väljendamine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-nachvollziehen-5",
+        "de": "nachvollziehen",
+        "lvGloss": "saprast • sekot loģikai",
+        "etMain": "mõista • loogikat jälgida",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-ausschlaggebend-6",
+        "de": "ausschlaggebend",
+        "lvGloss": "izšķirošs",
+        "etMain": "otsustav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Belastbarkeit-7",
+        "de": "Belastbarkeit",
+        "de_article": "die",
+        "lvGloss": "stresa noturība • izturība pret slodzi",
+        "etMain": "stressitaluvus • koormustaluvus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-akkreditieren-8",
+        "de": "akkreditieren",
+        "lvGloss": "akreditēt",
+        "etMain": "akrediteerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aktiengesellschaft-9",
+        "de": "Aktiengesellschaft",
+        "de_article": "die",
+        "lvGloss": "akciju sabiedrība",
+        "etMain": "aktsiaselts",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aktionsprogramm-10",
+        "de": "Aktionsprogramm",
+        "de_article": "das",
+        "lvGloss": "pasākumu programma",
+        "etMain": "tegevusprogramm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Alarmbereitschaft-11",
+        "de": "Alarmbereitschaft",
+        "de_article": "die",
+        "lvGloss": "trauksmes gatavība",
+        "etMain": "häirevalmidus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Altweibersommer-12",
+        "de": "Altweibersommer",
+        "de_article": "der",
+        "lvGloss": "atvasara",
+        "etMain": "vananaistesuvi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-anfechten-13",
+        "de": "anfechten",
+        "lvGloss": "apstrīdēt • apšaubīt",
+        "etMain": "vaidlustama • kahtluse alla seadma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-allerseits-14",
+        "de": "allerseits",
+        "lvGloss": "no visām pusēm",
+        "etMain": "igast küljest",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-anderweitig-15",
+        "de": "anderweitig",
+        "lvGloss": "citur • citādi",
+        "etMain": "mujal • teisiti",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abrüstungsabkommen-16",
+        "de": "Abrüstungsabkommen",
+        "de_article": "das",
+        "lvGloss": "atbruņošanās līgums",
+        "etMain": "desarmeerimisleping",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abrüstungsverhandlungen-17",
+        "de": "Abrüstungsverhandlungen",
+        "de_article": "die",
+        "lvGloss": "atbruņošanās sarunas",
+        "etMain": "desarmeerimisläbirääkimised",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aal-18",
+        "de": "Aal",
+        "de_article": "der",
+        "lvGloss": "zutis",
+        "etMain": "angerjas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abart-19",
+        "de": "Abart",
+        "de_article": "die",
+        "lvGloss": "novirze • aberrācija",
+        "etMain": "kõrvalekalle • aberratsioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-abstumpfen-20",
+        "de": "abstumpfen",
+        "lvGloss": "notrulināt • padarīt nejūtīgu",
+        "etMain": "nüristama • tundetuks tegema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abtreibung-21",
+        "de": "Abtreibung",
+        "de_article": "die",
+        "lvGloss": "aborts",
+        "etMain": "abort",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Affekt-22",
+        "de": "Affekt",
+        "de_article": "der",
+        "lvGloss": "emociju uzliesmojums",
+        "etMain": "afektipurse",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-ächten-23",
+        "de": "ächten",
+        "lvGloss": "izstumt • sociāli atstumt",
+        "etMain": "tõrjuma • sotsiaalselt tõrjuma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Flottenstützpunkt-24",
+        "de": "Flottenstützpunkt",
+        "de_article": "der",
+        "lvGloss": "jūras bāze",
+        "etMain": "mereväebaas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Flugwetter-25",
+        "de": "Flugwetter",
+        "de_article": "das",
+        "lvGloss": "laika apstākļi lidošanai",
+        "etMain": "lennuilm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Frachtbrief-26",
+        "de": "Frachtbrief",
+        "de_article": "der",
+        "lvGloss": "kravas pavadzīme",
+        "etMain": "kaubasaateleht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Frachtgeld-27",
+        "de": "Frachtgeld",
+        "de_article": "das",
+        "lvGloss": "maksa par kravas pārvadāšanu",
+        "etMain": "veotasu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Frauenrechtlerin-28",
+        "de": "Frauenrechtlerin",
+        "de_article": "die",
+        "lvGloss": "cīnītāja par sieviešu līdztiesību",
+        "etMain": "naisõiguslane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Freikörperkultur-29",
+        "de": "Freikörperkultur",
+        "de_article": "die",
+        "lvGloss": "nūdisms",
+        "etMain": "nudism",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kinderschänder-30",
+        "de": "Kinderschänder",
+        "de_article": "der",
+        "lvGloss": "pedofils",
+        "etMain": "lapsepilastaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kindesmisshandlung-31",
+        "de": "Kindesmisshandlung",
+        "de_article": "die",
+        "lvGloss": "vardarbība pret bērniem",
+        "etMain": "laste väärkohtlemine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Zivilgesetzbuch-32",
+        "de": "Zivilgesetzbuch",
+        "de_article": "das",
+        "lvGloss": "civillikums",
+        "etMain": "tsiviilseadustik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aktie-33",
+        "de": "Aktie",
+        "de_article": "die",
+        "lvGloss": "akcija",
+        "etMain": "aktsia",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abenddämmerung-34",
+        "de": "Abenddämmerung",
+        "de_article": "die",
+        "lvGloss": "vakara krēsla",
+        "etMain": "õhtuhämarus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Anwalt-35",
+        "de": "Anwalt",
+        "de_article": "der",
+        "lvGloss": "advokāts",
+        "etMain": "advokaat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-außergewöhnlich-36",
+        "de": "außergewöhnlich",
+        "lvGloss": "neparasts",
+        "etMain": "ebatavaline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-außerordentlich-37",
+        "de": "außerordentlich",
+        "lvGloss": "ārkārtējs",
+        "etMain": "erakorraline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Autokennzeichen-38",
+        "de": "Autokennzeichen",
+        "de_article": "das",
+        "lvGloss": "burti un cipari uz automašīnas numura zīmes",
+        "etMain": "auto numbrimärgi tähed ja numbrid",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bäckerhandwerk-39",
+        "de": "Bäckerhandwerk",
+        "de_article": "das",
+        "lvGloss": "maiznieka amats",
+        "etMain": "pagariamet",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bekannt geben-40",
+        "de": "bekannt geben",
+        "lvGloss": "paziņot",
+        "etMain": "teatavaks tegema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bergwanderung-41",
+        "de": "Bergwanderung",
+        "de_article": "die",
+        "lvGloss": "kalnu tūrisms",
+        "etMain": "mägimatk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beschäftigen-42",
+        "de": "beschäftigen",
+        "lvGloss": "nodarbināt",
+        "etMain": "tööle võtma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich beschäftigen-43",
+        "de": "sich beschäftigen",
+        "lvGloss": "nodarboties",
+        "etMain": "tegelema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Beschäftigung-44",
+        "de": "Beschäftigung",
+        "de_article": "die",
+        "lvGloss": "nodarbošanās",
+        "etMain": "tegevus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beschleunigen-45",
+        "de": "beschleunigen",
+        "lvGloss": "paātrināt",
+        "etMain": "kiirendama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Besichtigung-46",
+        "de": "Besichtigung",
+        "de_article": "die",
+        "lvGloss": "apskate",
+        "etMain": "vaatamine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beurteilen-47",
+        "de": "beurteilen",
+        "lvGloss": "vērtēt",
+        "etMain": "hindama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Autobahnbrücke-48",
+        "de": "Autobahnbrücke",
+        "de_article": "die",
+        "lvGloss": "ceļa pārvads",
+        "etMain": "teeviadukt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnbrücke-49",
+        "de": "Eisenbahnbrücke",
+        "de_article": "die",
+        "lvGloss": "dzelzceļa tilts",
+        "etMain": "raudteesild",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dampfbügeleisen-50",
+        "de": "Dampfbügeleisen",
+        "de_article": "das",
+        "lvGloss": "tvaika gludeklis",
+        "etMain": "auruga triikraud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Büroangestellte-51",
+        "de": "Büroangestellte",
+        "de_article": "der",
+        "lvGloss": "biroja darbinieks",
+        "etMain": "kontoritöötaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-charakteristisch-52",
+        "de": "charakteristisch",
+        "lvGloss": "raksturīgs",
+        "etMain": "iseloomulik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Diplomat-53",
+        "de": "Diplomat",
+        "de_article": "der",
+        "lvGloss": "diplomāts",
+        "etMain": "diplomaat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dokumentarfilm-54",
+        "de": "Dokumentarfilm",
+        "de_article": "der",
+        "lvGloss": "dokumentālā filma",
+        "etMain": "dokumentaalfilm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-durchschnittlich-55",
+        "de": "durchschnittlich",
+        "lvGloss": "vidēji",
+        "etMain": "keskmiselt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-durchstreichen-56",
+        "de": "durchstreichen",
+        "lvGloss": "pārsvītrot",
+        "etMain": "läbi kriipsutama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-einfamilienhaus",
+        "de": "Einfamilienhaus",
+        "de_article": "das",
+        "lvGloss": "vienģimenes māja",
+        "etMain": "üksikelamu",
+        "studyTranslation": "üksikelamu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnfahrt-58",
+        "de": "Eisenbahnfahrt",
+        "de_article": "die",
+        "lvGloss": "brauciens pa dzelzceļu",
+        "etMain": "rongisõit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnstation-59",
+        "de": "Eisenbahnstation",
+        "de_article": "die",
+        "lvGloss": "dzelzceļa stacija",
+        "etMain": "raudteejaam",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-ekelhaft-60",
+        "de": "ekelhaft",
+        "lvGloss": "pretīgs",
+        "etMain": "vastik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Energieverbrauch-61",
+        "de": "Energieverbrauch",
+        "de_article": "der",
+        "lvGloss": "enerģijas patēriņš",
+        "etMain": "energiakulu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gartenerdbeere-62",
+        "de": "Gartenerdbeere",
+        "de_article": "die",
+        "lvGloss": "dārza zemene",
+        "etMain": "aiamaasikas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-erforderlich-63",
+        "de": "erforderlich",
+        "lvGloss": "nepieciešams",
+        "etMain": "vajalik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-fabelhaft-64",
+        "de": "fabelhaft",
+        "lvGloss": "lielisks",
+        "etMain": "suurepärane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-fehlerhaft-65",
+        "de": "fehlerhaft",
+        "lvGloss": "kļūdains",
+        "etMain": "vigane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-folgendermaßen-66",
+        "de": "folgendermaßen",
+        "lvGloss": "šādi",
+        "etMain": "järgmiselt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geburtsschein-67",
+        "de": "Geburtsschein",
+        "de_article": "der",
+        "lvGloss": "dzimšanas apliecība",
+        "etMain": "sünnitunnistus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gegeneinander-68",
+        "de": "gegeneinander",
+        "lvGloss": "viens pret otru",
+        "etMain": "üksteise vastu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemüsegarten-69",
+        "de": "Gemüsegarten",
+        "de_article": "der",
+        "lvGloss": "sakņu dārzs",
+        "etMain": "köögiviljaaed",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gepäckträger-70",
+        "de": "Gepäckträger",
+        "de_article": "der",
+        "lvGloss": "bagāžnieks",
+        "etMain": "pagasiraam",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschäftlich-71",
+        "de": "geschäftlich",
+        "lvGloss": "darījumu",
+        "etMain": "äriline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geschäftsmann-72",
+        "de": "Geschäftsmann",
+        "de_article": "der",
+        "lvGloss": "uzņēmējs",
+        "etMain": "ärimees",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschichtlich-73",
+        "de": "geschichtlich",
+        "lvGloss": "vēsturisks",
+        "etMain": "ajalooline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschmacklos-74",
+        "de": "geschmacklos",
+        "lvGloss": "bezgaumīgs",
+        "etMain": "maitsetu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschmackvoll-75",
+        "de": "geschmackvoll",
+        "lvGloss": "gaumīgs",
+        "etMain": "maitsekas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzlich-76",
+        "de": "gesetzlich",
+        "lvGloss": "likumīgs",
+        "etMain": "seaduslik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesichtspunkt-77",
+        "de": "Gesichtspunkt",
+        "de_article": "der",
+        "lvGloss": "viedoklis",
+        "etMain": "seisukoht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gewichtheben-78",
+        "de": "Gewichtheben",
+        "de_article": "das",
+        "lvGloss": "svarcelšana",
+        "etMain": "tõstmine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gewissenhaft-79",
+        "de": "gewissenhaft",
+        "lvGloss": "apzinīgs",
+        "etMain": "kohusetundlik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gipfel-80",
+        "de": "Gipfel",
+        "de_article": "der",
+        "lvGloss": "virsotne",
+        "etMain": "tipp",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hausangestellte-81",
+        "de": "Hausangestellte",
+        "de_article": "die",
+        "lvGloss": "mājkalpotāja",
+        "etMain": "koduabiline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-hinaufklettern-82",
+        "de": "hinaufklettern",
+        "lvGloss": "kāpt augšā",
+        "etMain": "üles ronima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-hintereinander-83",
+        "de": "hintereinander",
+        "lvGloss": "viens aiz otra",
+        "etMain": "üksteise järel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hochzeitsbrauch-84",
+        "de": "Hochzeitsbrauch",
+        "de_article": "der",
+        "lvGloss": "kāzu paraža",
+        "etMain": "pulmakomme",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hochzeitsfeier-85",
+        "de": "Hochzeitsfeier",
+        "de_article": "die",
+        "lvGloss": "kāzu svinības",
+        "etMain": "pulmapidu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hochzeitsreise-86",
+        "de": "Hochzeitsreise",
+        "de_article": "die",
+        "lvGloss": "kāzu ceļojums",
+        "etMain": "pulmareis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-identifizieren-87",
+        "de": "identifizieren",
+        "lvGloss": "identificēt",
+        "etMain": "identifitseerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Inflationsrate-88",
+        "de": "Inflationsrate",
+        "de_article": "die",
+        "lvGloss": "inflācijas līmenis",
+        "etMain": "inflatsioonimäär",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schlaginstrument-89",
+        "de": "Schlaginstrument",
+        "de_article": "das",
+        "lvGloss": "sitamais instruments",
+        "etMain": "löökpill",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Tasteninstrument-90",
+        "de": "Tasteninstrument",
+        "de_article": "das",
+        "lvGloss": "taustiņinstruments",
+        "etMain": "klahvpill",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Jahreseinkommen-91",
+        "de": "Jahreseinkommen",
+        "de_article": "das",
+        "lvGloss": "gada ienākums",
+        "etMain": "aastasissetulek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kabelanschluss-92",
+        "de": "Kabelanschluss",
+        "de_article": "der",
+        "lvGloss": "televīzijas kabeļpieslēgums",
+        "etMain": "kaabeltelevisiooni ühendus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kabelfernsehen-93",
+        "de": "Kabelfernsehen",
+        "de_article": "das",
+        "lvGloss": "kabeļtelevīzija",
+        "etMain": "kaabeltelevisioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kaltwasserhahn-94",
+        "de": "Kaltwasserhahn",
+        "de_article": "der",
+        "lvGloss": "aukstā ūdens krāns",
+        "etMain": "külma vee kraan",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pressekampagne-95",
+        "de": "Pressekampagne",
+        "de_article": "die",
+        "lvGloss": "preses kampaņa",
+        "etMain": "ajakirjanduskampaania",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kandidatenliste-96",
+        "de": "Kandidatenliste",
+        "de_article": "die",
+        "lvGloss": "kandidātu saraksts",
+        "etMain": "kandidaatide nimekiri",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Klage-97",
+        "de": "Klage",
+        "de_article": "die",
+        "lvGloss": "sūdzība",
+        "etMain": "kaebus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-klagen-98",
+        "de": "klagen",
+        "lvGloss": "sūdzēties",
+        "etMain": "kaebama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kostenanschlag-99",
+        "de": "Kostenanschlag",
+        "de_article": "der",
+        "lvGloss": "izdevumu tāme",
+        "etMain": "kulukalkulatsioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-krampfhaft-100",
+        "de": "krampfhaft",
+        "lvGloss": "krampjains",
+        "etMain": "kramplik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Krankheitsbild-101",
+        "de": "Krankheitsbild",
+        "de_article": "das",
+        "lvGloss": "slimības aina",
+        "etMain": "haiguspilt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lastkraftwagen-102",
+        "de": "Lastkraftwagen",
+        "de_article": "der",
+        "lvGloss": "smagā automašīna",
+        "etMain": "veoauto",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-lebhaft-103",
+        "de": "lebhaft",
+        "lvGloss": "rosīgs",
+        "etMain": "elav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Leichtathletik-104",
+        "de": "Leichtathletik",
+        "de_article": "die",
+        "lvGloss": "vieglatlētika",
+        "etMain": "kergejõustik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Mehrwertsteuer-105",
+        "de": "Mehrwertsteuer",
+        "de_article": "die",
+        "lvGloss": "pievienotās vērtības nodoklis",
+        "etMain": "käibemaks",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Meinungsumfrage-106",
+        "de": "Meinungsumfrage",
+        "de_article": "die",
+        "lvGloss": "viedokļu aptauja",
+        "etMain": "arvamusküsitlus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Menschenrechte-107",
+        "de": "Menschenrechte",
+        "de_article": "die",
+        "lvGloss": "cilvēktiesības",
+        "etMain": "inimõigused",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Ministerium-108",
+        "de": "Ministerium",
+        "de_article": "das",
+        "lvGloss": "ministrija",
+        "etMain": "ministeerium",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Missverständnis-109",
+        "de": "Missverständnis",
+        "de_article": "das",
+        "lvGloss": "pārpratums",
+        "etMain": "arusaamatus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Modezeitschrift-110",
+        "de": "Modezeitschrift",
+        "de_article": "die",
+        "lvGloss": "modes žurnāls",
+        "etMain": "moeajakiri",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Morgendämmerung-111",
+        "de": "Morgendämmerung",
+        "de_article": "die",
+        "lvGloss": "rītausma",
+        "etMain": "koidik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Morgengymnastik-112",
+        "de": "Morgengymnastik",
+        "de_article": "die",
+        "lvGloss": "rītarosme",
+        "etMain": "hommikvõimlemine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-nahrhaft-113",
+        "de": "nahrhaft",
+        "lvGloss": "barojošs",
+        "etMain": "toitev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Nationaltracht-114",
+        "de": "Nationaltracht",
+        "de_article": "die",
+        "lvGloss": "tautastērps",
+        "etMain": "rahvarõivas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Notar-115",
+        "de": "Notar",
+        "de_article": "der",
+        "lvGloss": "notārs",
+        "etMain": "notar",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Notarzt-116",
+        "de": "Notarzt",
+        "de_article": "der",
+        "lvGloss": "ātrās palīdzības ārsts",
+        "etMain": "kiirabiarst",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-offentlichkeit",
+        "de": "Öffentlichkeit",
+        "de_article": "die",
+        "lvGloss": "sabiedrība • atklātība",
+        "etMain": "avalikkus • avalik ruum",
+        "studyTranslation": "avalikkus • avalik ruum",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Parlament-118",
+        "de": "Parlament",
+        "de_article": "das",
+        "lvGloss": "parlaments",
+        "etMain": "parlament",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-partei",
+        "de": "Partei",
+        "de_article": "die",
+        "lvGloss": "partija • puse",
+        "etMain": "partei • pool",
+        "studyTranslation": "partei • pool",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Persönlichkeit-120",
+        "de": "Persönlichkeit",
+        "de_article": "die",
+        "lvGloss": "personība",
+        "etMain": "isiksus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Polizeieinheit-121",
+        "de": "Polizeieinheit",
+        "de_article": "die",
+        "lvGloss": "policijas vienība",
+        "etMain": "politseiüksus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Polizeistreife-122",
+        "de": "Polizeistreife",
+        "de_article": "die",
+        "lvGloss": "policijas patruļa",
+        "etMain": "politseipatrull",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pollenallergie-123",
+        "de": "Pollenallergie",
+        "de_article": "die",
+        "lvGloss": "putekšņu alerģija",
+        "etMain": "õietolmuallergia",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Polstergarnitur-124",
+        "de": "Polstergarnitur",
+        "de_article": "die",
+        "lvGloss": "mīksto mēbeļu garnitūra",
+        "etMain": "pehme mööbli garnituur",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Premier-125",
+        "de": "Premier",
+        "de_article": "der",
+        "lvGloss": "premjerministrs",
+        "etMain": "peaminister",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-prozess",
+        "de": "Prozess",
+        "de_article": "der",
+        "lvGloss": "process • prāva",
+        "etMain": "protsess • kohtuprotsess",
+        "studyTranslation": "protsess • kohtuprotsess",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Prozessor-127",
+        "de": "Prozessor",
+        "de_article": "der",
+        "lvGloss": "procesors",
+        "etMain": "protsessor",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Radioübertragung-128",
+        "de": "Radioübertragung",
+        "de_article": "die",
+        "lvGloss": "radiopārraide",
+        "etMain": "raadioülekanne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rechtsanwalt-129",
+        "de": "Rechtsanwalt",
+        "de_article": "der",
+        "lvGloss": "advokāts",
+        "etMain": "advokaat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rekonstruktion-130",
+        "de": "Rekonstruktion",
+        "de_article": "die",
+        "lvGloss": "rekonstrukcija",
+        "etMain": "rekonstrueerimine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rennen mit Hindernissen-131",
+        "de": "Rennen mit Hindernissen",
+        "de_article": "das",
+        "lvGloss": "šķēršļu skrējiens",
+        "etMain": "tõkkejooks",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Reparaturkosten-132",
+        "de": "Reparaturkosten",
+        "de_article": "die",
+        "lvGloss": "remonta izmaksas",
+        "etMain": "remondikulud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rettungsstelle-133",
+        "de": "Rettungsstelle",
+        "de_article": "die",
+        "lvGloss": "ātrās palīdzības punkts",
+        "etMain": "kiirabipunkt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-rezeptpflichtig-134",
+        "de": "rezeptpflichtig",
+        "lvGloss": "pēc receptes",
+        "etMain": "retsepti alusel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schauspielhaus-135",
+        "de": "Schauspielhaus",
+        "de_article": "das",
+        "lvGloss": "teātris",
+        "etMain": "teater",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Scheibenwischer-136",
+        "de": "Scheibenwischer",
+        "de_article": "der",
+        "lvGloss": "automašīnas logu tīrītājs",
+        "etMain": "klaasipuhastaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schiedsrichter-137",
+        "de": "Schiedsrichter",
+        "de_article": "der",
+        "lvGloss": "tiesnesis",
+        "etMain": "kohtunik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schlussverkauf-138",
+        "de": "Schlussverkauf",
+        "de_article": "der",
+        "lvGloss": "preču izpārdošana sezonas beigās par pazeminātām cenām",
+        "etMain": "hooajalõpu allahindlus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-schmerzhaft-139",
+        "de": "schmerzhaft",
+        "lvGloss": "sāpīgs",
+        "etMain": "valus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schneewittchen-140",
+        "de": "Schneewittchen",
+        "de_article": "das",
+        "lvGloss": "pasaku tēls Sniegbaltīte",
+        "etMain": "muinasjututegelane Lumivalgeke",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schraubenzieher-141",
+        "de": "Schraubenzieher",
+        "de_article": "der",
+        "lvGloss": "skrūvgriezis",
+        "etMain": "kruvikeeraja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schutzumschlag-142",
+        "de": "Schutzumschlag",
+        "de_article": "der",
+        "lvGloss": "apvāks",
+        "etMain": "ümbrispaber",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwiegereltern-143",
+        "de": "Schwiegereltern",
+        "de_article": "die",
+        "lvGloss": "vīra vecāki",
+        "etMain": "ämm ja äi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwiegermutter-144",
+        "de": "Schwiegermutter",
+        "de_article": "die",
+        "lvGloss": "vīramāte",
+        "etMain": "ämm",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwiegertochter-145",
+        "de": "Schwiegertochter",
+        "de_article": "die",
+        "lvGloss": "vedekla",
+        "etMain": "minia",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwiegervater-146",
+        "de": "Schwiegervater",
+        "de_article": "der",
+        "lvGloss": "vīratēvs",
+        "etMain": "äi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Selbstbedienung-147",
+        "de": "Selbstbedienung",
+        "de_article": "die",
+        "lvGloss": "pašapkalpošanās",
+        "etMain": "iseteenindus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stabhochspringen-148",
+        "de": "Stabhochspringen",
+        "de_article": "das",
+        "lvGloss": "kārtslēkšana",
+        "etMain": "teivashüpe",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stadtrundfahrt-149",
+        "de": "Stadtrundfahrt",
+        "de_article": "die",
+        "lvGloss": "brauciens pa pilsētu",
+        "etMain": "linnaekskursioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-stecken bleiben-150",
+        "de": "stecken bleiben",
+        "lvGloss": "iestrēgt",
+        "etMain": "kinni jääma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stellvertreter-151",
+        "de": "Stellvertreter",
+        "de_article": "der",
+        "lvGloss": "aizstājējs",
+        "etMain": "asendaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Steuererklärung-152",
+        "de": "Steuererklärung",
+        "de_article": "die",
+        "lvGloss": "nodokļu deklarācija",
+        "etMain": "maksudeklaratsioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Strampelhöschen-153",
+        "de": "Strampelhöschen",
+        "de_article": "das",
+        "lvGloss": "zīdaiņa rāpulītis",
+        "etMain": "imiku sipupüksid",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stromverbrauch-154",
+        "de": "Stromverbrauch",
+        "de_article": "der",
+        "lvGloss": "strāvas patēriņš",
+        "etMain": "voolutarve",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Tagesnachrichten-155",
+        "de": "Tagesnachrichten",
+        "de_article": "die",
+        "lvGloss": "dienas ziņas",
+        "etMain": "päevauudised",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Teilzeitarbeit-156",
+        "de": "Teilzeitarbeit",
+        "de_article": "die",
+        "lvGloss": "darbs nepilnu darba dienu",
+        "etMain": "osaajaga töö",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Terminkalender-157",
+        "de": "Terminkalender",
+        "de_article": "der",
+        "lvGloss": "piezīmju kalendārs",
+        "etMain": "kohtumiste kalender",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Thermosflasche-158",
+        "de": "Thermosflasche",
+        "de_article": "die",
+        "lvGloss": "termoss",
+        "etMain": "termos",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Tierkreiszeichen-159",
+        "de": "Tierkreiszeichen",
+        "de_article": "das",
+        "lvGloss": "zodiaka zīme",
+        "etMain": "sodiaagimärk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-transportieren-160",
+        "de": "transportieren",
+        "lvGloss": "transportēt",
+        "etMain": "transportima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Überschwemmung-161",
+        "de": "Überschwemmung",
+        "de_article": "die",
+        "lvGloss": "plūdi",
+        "etMain": "üleujutus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Unternehmen-162",
+        "de": "Unternehmen",
+        "de_article": "das",
+        "lvGloss": "uzņēmums • pasākums",
+        "etMain": "ettevõte • ettevõtmine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unterstreichen-163",
+        "de": "unterstreichen",
+        "lvGloss": "pasvītrot",
+        "etMain": "alla kriipsutama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unverständlich-164",
+        "de": "unverständlich",
+        "lvGloss": "nesaprotams",
+        "etMain": "arusaamatu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Heiratsurkunde-165",
+        "de": "Heiratsurkunde",
+        "de_article": "die",
+        "lvGloss": "laulības apliecība",
+        "etMain": "abielutunnistus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Urteil-166",
+        "de": "Urteil",
+        "de_article": "das",
+        "lvGloss": "spriedums",
+        "etMain": "kohtuotsus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-veranstalten-167",
+        "de": "veranstalten",
+        "lvGloss": "organizēt",
+        "etMain": "korraldama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verantworten-168",
+        "de": "verantworten",
+        "lvGloss": "uzņemties atbildību par",
+        "etMain": "vastutama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verantwortung-169",
+        "de": "Verantwortung",
+        "de_article": "die",
+        "lvGloss": "atbildība",
+        "etMain": "vastutus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vereinbarung-170",
+        "de": "Vereinbarung",
+        "de_article": "die",
+        "lvGloss": "vienošanās",
+        "etMain": "kokkulepe",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vergangenheit-171",
+        "de": "Vergangenheit",
+        "de_article": "die",
+        "lvGloss": "pagātne",
+        "etMain": "minevik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verkehrsstau-172",
+        "de": "Verkehrsstau",
+        "de_article": "der",
+        "lvGloss": "satiksmes sastrēgums",
+        "etMain": "liiklusummik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verlegenheit-173",
+        "de": "Verlegenheit",
+        "de_article": "die",
+        "lvGloss": "apjukums",
+        "etMain": "kimbatus • piinlik olukord",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschließen-174",
+        "de": "verschließen",
+        "lvGloss": "aizslēgt",
+        "etMain": "lukustama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschlucken-175",
+        "de": "verschlucken",
+        "lvGloss": "norīt",
+        "etMain": "alla neelama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschwenden-176",
+        "de": "verschwenden",
+        "lvGloss": "izšķērdēt",
+        "etMain": "raiskama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Versicherung-177",
+        "de": "Versicherung",
+        "de_article": "die",
+        "lvGloss": "apdrošināšana",
+        "etMain": "kindlustus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich verständigen-178",
+        "de": "sich verständigen",
+        "lvGloss": "saprasties",
+        "etMain": "üksteisest aru saama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verständlich-179",
+        "de": "verständlich",
+        "lvGloss": "saprotams",
+        "etMain": "arusaadav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vertrag-180",
+        "de": "Vertrag",
+        "de_article": "der",
+        "lvGloss": "līgums",
+        "etMain": "leping",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-voll beschäftigt-181",
+        "de": "voll beschäftigt",
+        "lvGloss": "nodarbināts pilnu darba dienu",
+        "etMain": "täiskohaga tööl",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vorgesetzte-182",
+        "de": "Vorgesetzte",
+        "de_article": "der",
+        "lvGloss": "priekšnieks",
+        "etMain": "ülemus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vorteilhaft-183",
+        "de": "vorteilhaft",
+        "lvGloss": "izdevīgs",
+        "etMain": "kasulik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wettbewerb-184",
+        "de": "Wettbewerb",
+        "de_article": "der",
+        "lvGloss": "konkurss",
+        "etMain": "konkurss",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich zufrieden geben-185",
+        "de": "sich zufrieden geben",
+        "lvGloss": "apmierināties",
+        "etMain": "leppima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenbringen-186",
+        "de": "zusammenbringen",
+        "lvGloss": "savest kopā",
+        "etMain": "kokku viima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenfassen",
+        "de": "zusammenfassen",
+        "lvGloss": "apkopot • rezumēt",
+        "etMain": "kokku võtma • resümeerima",
+        "studyTranslation": "kokku võtma • resümeerima",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenhängen-188",
+        "de": "zusammenhängen",
+        "lvGloss": "būt saistītam (ar)",
+        "etMain": "seotud olema (millegagi)",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aufmerksamkeit-189",
+        "de": "Aufmerksamkeit",
+        "de_article": "die",
+        "lvGloss": "uzmanība",
+        "etMain": "tähelepanu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Fernsehsendung-190",
+        "de": "Fernsehsendung",
+        "de_article": "die",
+        "lvGloss": "televīzijas raidījums",
+        "etMain": "telesaade",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Landschaft-191",
+        "de": "Landschaft",
+        "de_article": "die",
+        "lvGloss": "ainava",
+        "etMain": "maastik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rechtschreibung-192",
+        "de": "Rechtschreibung",
+        "de_article": "die",
+        "lvGloss": "pareizrakstība",
+        "etMain": "õigekiri",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Straßenkreuzung-193",
+        "de": "Straßenkreuzung",
+        "de_article": "die",
+        "lvGloss": "ielu krustojums",
+        "etMain": "tänavaristmik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-wahl",
+        "de": "Wahl",
+        "de_article": "die",
+        "lvGloss": "izvēle • vēlēšanas",
+        "etMain": "valik • valimised",
+        "studyTranslation": "valik • valimised",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Herausforderung-195",
+        "de": "Herausforderung",
+        "de_article": "die",
+        "lvGloss": "izaicinājums",
+        "etMain": "väljakutse",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abfallbeseitigung-196",
+        "de": "Abfallbeseitigung",
+        "de_article": "die",
+        "lvGloss": "atkritumu iznīcināšana",
+        "etMain": "jäätmete kõrvaldamine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abgeordnete-197",
+        "de": "Abgeordnete",
+        "de_article": "der",
+        "lvGloss": "deputāts • pārstāvis • delegāts",
+        "etMain": "saadik • esindaja • delegaat",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abkommen-198",
+        "de": "Abkommen",
+        "de_article": "das",
+        "lvGloss": "nolīgums • vienošanās",
+        "etMain": "kokkulepe",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abschleppdienst-199",
+        "de": "Abschleppdienst",
+        "de_article": "der",
+        "lvGloss": "evakuācijas dienests • aizvākšanas dienests",
+        "etMain": "evakuatsiooniteenistus • pukseerimisteenistus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abteilungsleiter-200",
+        "de": "Abteilungsleiter",
+        "de_article": "der",
+        "lvGloss": "nodaļas vadītājs",
+        "etMain": "osakonnajuhataja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-antifaschistisch-201",
+        "de": "antifaschistisch",
+        "lvGloss": "antifašistisks",
+        "etMain": "antifašistlik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aufenthaltsdauer-202",
+        "de": "Aufenthaltsdauer",
+        "de_article": "die",
+        "lvGloss": "uzturēšanās ilgums",
+        "etMain": "viibimise kestus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-augenscheinlich-203",
+        "de": "augenscheinlich",
+        "lvGloss": "acīmredzot",
+        "etMain": "ilmselt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Güteraustausch-204",
+        "de": "Güteraustausch",
+        "de_article": "der",
+        "lvGloss": "preču apmaiņa",
+        "etMain": "kaubavahetus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Flottenbasis-205",
+        "de": "Flottenbasis",
+        "de_article": "die",
+        "lvGloss": "flotes bāze",
+        "etMain": "laevastikubaas",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Basisforschung-206",
+        "de": "Basisforschung",
+        "de_article": "die",
+        "lvGloss": "pamatpētījums",
+        "etMain": "alusuuring",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beachtenswert-207",
+        "de": "beachtenswert",
+        "lvGloss": "ievērības cienīgs • vērā ņemams",
+        "etMain": "tähelepanuväärne • arvestamisväärne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beanspruchen-208",
+        "de": "beanspruchen",
+        "lvGloss": "prasīt • pretendēt • būt noslogotam",
+        "etMain": "nõudma • pretendeerima • koormatud olema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bedarfsartikel-209",
+        "de": "Bedarfsartikel",
+        "de_article": "der",
+        "lvGloss": "plaša patēriņa prece",
+        "etMain": "laiatarbekaup",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bedingungslos-210",
+        "de": "bedingungslos",
+        "lvGloss": "bezierunu • beznosacījumu • bez ierunām • bez nosacījumiem",
+        "etMain": "tingimusteta",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Befangenheit-211",
+        "de": "Befangenheit",
+        "de_article": "die",
+        "lvGloss": "samulsums • apmulsums",
+        "etMain": "erapoolikus • kallutatus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beglaubigen-212",
+        "de": "beglaubigen",
+        "lvGloss": "oficiāli apliecināt • notariāli apstiprināt",
+        "etMain": "ametlikult kinnitama • notariaalselt tõestama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beglückwünschen-213",
+        "de": "beglückwünschen",
+        "lvGloss": "novēlēt laimes • apsveikt",
+        "etMain": "õnne soovima • õnnitlema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beiderseitig-214",
+        "de": "beiderseitig",
+        "lvGloss": "abpusīgs • abpusējs",
+        "etMain": "kahepoolne • vastastikune",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Familienbeihilfe-215",
+        "de": "Familienbeihilfe",
+        "de_article": "die",
+        "lvGloss": "ģimenes pabalsts",
+        "etMain": "peretoetus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beispielhaft-216",
+        "de": "beispielhaft",
+        "lvGloss": "parauga • priekšzīmīgs",
+        "etMain": "eeskujulik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beklagen-217",
+        "de": "beklagen",
+        "lvGloss": "nožēlot • skumt • apraudāt • žēloties • sūdzēties",
+        "etMain": "kahetsema • kurvastama • leinama • kaebama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Zahnbelag-218",
+        "de": "Zahnbelag",
+        "de_article": "der",
+        "lvGloss": "zobu aplikums",
+        "etMain": "hambakatt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Belegschaft-219",
+        "de": "Belegschaft",
+        "de_article": "die",
+        "lvGloss": "kolektīvs • personāls",
+        "etMain": "kollektiiv • personal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-benachteiligen-220",
+        "de": "benachteiligen",
+        "lvGloss": "kaitēt • nodarīt zaudējumus • nodarīt pāri",
+        "etMain": "ebasoodsasse olukorda seadma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Berufsberater-221",
+        "de": "Berufsberater",
+        "de_article": "der",
+        "lvGloss": "darba konsultants",
+        "etMain": "tööalane nõustaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beratschlagen-222",
+        "de": "beratschlagen",
+        "lvGloss": "apspriesties",
+        "etMain": "nõu pidama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einflussbereich-223",
+        "de": "Einflussbereich",
+        "de_article": "der",
+        "lvGloss": "ietekmes sfēra",
+        "etMain": "mõjusfäär",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bereitwillig-224",
+        "de": "bereitwillig",
+        "lvGloss": "gatavs pakalpot • pakalpīgs",
+        "etMain": "vastutulelik • meelsasti nõus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Berufsberatung-225",
+        "de": "Berufsberatung",
+        "de_article": "die",
+        "lvGloss": "profesionālās orientācijas konsultācija",
+        "etMain": "kutsenõustamine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Berufsgeheimnis-226",
+        "de": "Berufsgeheimnis",
+        "de_article": "das",
+        "lvGloss": "amata noslēpums",
+        "etMain": "ametisaladus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Berufung-227",
+        "de": "Berufung",
+        "de_article": "die",
+        "lvGloss": "aicinājums • tieksme • atsaukšanās",
+        "etMain": "kutsumus • kalduvus • apellatsioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Besatzungsmacht-228",
+        "de": "Besatzungsmacht",
+        "de_article": "die",
+        "lvGloss": "okupācijas vara",
+        "etMain": "okupatsioonivõim",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Beschaffenheit-229",
+        "de": "Beschaffenheit",
+        "de_article": "die",
+        "lvGloss": "īpašība • daba • būtība",
+        "etMain": "omadus • olemus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bescheinigen-230",
+        "de": "bescheinigen",
+        "lvGloss": "apliecināt • izdot apliecību",
+        "etMain": "kinnitama • tõendit väljastama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bescheinigung-231",
+        "de": "Bescheinigung",
+        "de_article": "die",
+        "lvGloss": "uzziņa • apliecība • apliecinājums • apliecināšana",
+        "etMain": "tõend • tunnistus • kinnitus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beschlagnahmen-232",
+        "de": "beschlagnahmen",
+        "lvGloss": "apķīlāt • konfiscēt • atsavināt",
+        "etMain": "arestima • konfiskeerima • võõrandama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beschuldigen-233",
+        "de": "beschuldigen",
+        "lvGloss": "apsūdzēt • apvainot",
+        "etMain": "süüdistama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Besonderheit-234",
+        "de": "Besonderheit",
+        "de_article": "die",
+        "lvGloss": "īpatnība • savādība",
+        "etMain": "iseärasus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beträchtlich-235",
+        "de": "beträchtlich",
+        "lvGloss": "ievērojams • krietni liels • krietns",
+        "etMain": "märkimisväärne • üsna suur",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Betriebskosten-236",
+        "de": "Betriebskosten",
+        "de_article": "die",
+        "lvGloss": "uzņēmuma ekspluatācijas izdevumi • ražošanas izdevumi",
+        "etMain": "tegevuskulud • käituskulud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Betriebssystem-237",
+        "de": "Betriebssystem",
+        "de_article": "das",
+        "lvGloss": "datora instalācijas sistēma",
+        "etMain": "operatsioonisüsteem",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bevollmächtigen-238",
+        "de": "bevollmächtigen",
+        "lvGloss": "pilnvarot • piešķirt pilnvaru",
+        "etMain": "volitama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bevorstehend-239",
+        "de": "bevorstehend",
+        "lvGloss": "gaidāmais • nākamais",
+        "etMain": "eesseisev • järgmine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bewähren, sich-240",
+        "de": "bewähren, sich",
+        "lvGloss": "izrādīties par patiesu • attaisnoties",
+        "etMain": "end tõestama • õigustatuks osutuma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Beweismaterial-241",
+        "de": "Beweismaterial",
+        "de_article": "das",
+        "lvGloss": "lietiskie pierādījumi",
+        "etMain": "tõendusmaterjal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bewerben, sich-242",
+        "de": "bewerben, sich",
+        "lvGloss": "pretendēt • kandidēt • censties • tiekties",
+        "etMain": "kandideerima • avaldust esitama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bezugsperson-243",
+        "de": "Bezugsperson",
+        "de_article": "die",
+        "lvGloss": "kontaktpersona • tuvākais cilvēks",
+        "etMain": "kontaktisik • lähedane inimene",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bildhauerkunst-244",
+        "de": "Bildhauerkunst",
+        "de_article": "die",
+        "lvGloss": "tēlniecība",
+        "etMain": "skulptuur",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bilanz-245",
+        "de": "Bilanz",
+        "de_article": "die",
+        "lvGloss": "bilance",
+        "etMain": "bilanss",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Finanzblockade-246",
+        "de": "Finanzblockade",
+        "de_article": "die",
+        "lvGloss": "finanšu blokāde",
+        "etMain": "finantsblokaad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Blutuntersuchung-247",
+        "de": "Blutuntersuchung",
+        "de_article": "die",
+        "lvGloss": "asinsanalīze",
+        "etMain": "vereanalüüs",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Blutsverwandte-248",
+        "de": "Blutsverwandte",
+        "de_article": "der",
+        "lvGloss": "asinsradinieks",
+        "etMain": "veresugulane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Botschafter-249",
+        "de": "Botschafter",
+        "de_article": "der",
+        "lvGloss": "vēstnieks",
+        "etMain": "saadik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bundesdeutsche-250",
+        "de": "Bundesdeutsche",
+        "de_article": "der",
+        "lvGloss": "VFR pilsonis vai pilsone",
+        "etMain": "Saksamaa Liitvabariigi kodanik",
+        "studyTranslation": null,
+        "status": "WARNING",
+        "flags": [
+          "unexpected_capitalization"
+        ]
+      },
+      {
+        "id": "c1-Computersprache-251",
+        "de": "Computersprache",
+        "de_article": "die",
+        "lvGloss": "datorvaloda",
+        "etMain": "programmeerimiskeel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dachgepäckträger-252",
+        "de": "Dachgepäckträger",
+        "de_article": "der",
+        "lvGloss": "automašīnas jumta bagāžnieks",
+        "etMain": "katusepagasiraam",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Datenübermittlung-253",
+        "de": "Datenübermittlung",
+        "de_article": "die",
+        "lvGloss": "datu pārraide",
+        "etMain": "andmeedastus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Datenübertragung-254",
+        "de": "Datenübertragung",
+        "de_article": "die",
+        "lvGloss": "datu pārraide",
+        "etMain": "andmeedastus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dauerhaft-255",
+        "de": "dauerhaft",
+        "lvGloss": "ilgstošs • ilgs • izturīgs",
+        "etMain": "püsiv • pikaajaline • vastupidav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dazwischenkommen-256",
+        "de": "dazwischenkommen",
+        "lvGloss": "atgadīties • gadīties starpā • iejaukties",
+        "etMain": "vahele tulema • sekkuma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haushaltsdefizit-257",
+        "de": "Haushaltsdefizit",
+        "de_article": "das",
+        "lvGloss": "budžeta deficīts",
+        "etMain": "eelarvedefitsiit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Zolldeklaration-258",
+        "de": "Zolldeklaration",
+        "de_article": "die",
+        "lvGloss": "muitas deklarācija",
+        "etMain": "tollideklaratsioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Delegation-259",
+        "de": "Delegation",
+        "de_article": "die",
+        "lvGloss": "delegācija",
+        "etMain": "delegatsioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eigentumsdelikt-260",
+        "de": "Eigentumsdelikt",
+        "de_article": "das",
+        "lvGloss": "īpašuma tiesību pārkāpums",
+        "etMain": "omandiõiguse rikkumine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verkehrsdelikt-261",
+        "de": "Verkehrsdelikt",
+        "de_article": "das",
+        "lvGloss": "satiksmes noteikumu pārkāpums",
+        "etMain": "liiklusrikkumine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dementsprechend-262",
+        "de": "dementsprechend",
+        "lvGloss": "atbilstoši tam",
+        "etMain": "vastavalt sellele",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dessen ungeachtet-263",
+        "de": "dessen ungeachtet",
+        "lvGloss": "neskatoties uz to • neievērojot to",
+        "etMain": "sellest hoolimata",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Nachrichtendienst-264",
+        "de": "Nachrichtendienst",
+        "de_article": "der",
+        "lvGloss": "valsts slepenais dienests",
+        "etMain": "riiklik luureteenistus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rettungsdienst-265",
+        "de": "Rettungsdienst",
+        "de_article": "der",
+        "lvGloss": "glābšanas dienests",
+        "etMain": "päästeteenistus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dienstleistung-266",
+        "de": "Dienstleistung",
+        "de_article": "die",
+        "lvGloss": "sadzīves pakalpojums",
+        "etMain": "teenus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dienstpflichtig-267",
+        "de": "dienstpflichtig",
+        "lvGloss": "padots karadienestam",
+        "etMain": "sõjaväeteenistuskohustuslik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-diensttauglich-268",
+        "de": "diensttauglich",
+        "lvGloss": "derīgs karadienestam",
+        "etMain": "sõjaväeteenistuskõlblik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dieseltreibstoff-269",
+        "de": "Dieseltreibstoff",
+        "de_article": "der",
+        "lvGloss": "dīzeļdegviela",
+        "etMain": "diislikütus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Diplomatie-270",
+        "de": "Diplomatie",
+        "de_article": "die",
+        "lvGloss": "diplomātija",
+        "etMain": "diplomaatia",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-diplomatisch-271",
+        "de": "diplomatisch",
+        "lvGloss": "diplomātisks",
+        "etMain": "diplomaatiline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dirigentenstab-272",
+        "de": "Dirigentenstab",
+        "de_article": "der",
+        "lvGloss": "diriģenta zizlis",
+        "etMain": "dirigendikepp",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Diskettenlaufwerk-273",
+        "de": "Diskettenlaufwerk",
+        "de_article": "das",
+        "lvGloss": "disketes dzinis",
+        "etMain": "disketiseade",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-disqualifizieren-274",
+        "de": "disqualifizieren",
+        "lvGloss": "diskvalificēt",
+        "etMain": "diskvalifitseerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Durchfuhrverbot-275",
+        "de": "Durchfuhrverbot",
+        "de_article": "das",
+        "lvGloss": "caurbraukšanas aizliegums",
+        "etMain": "läbisõidukeeld",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Durchgangsverkehr-276",
+        "de": "Durchgangsverkehr",
+        "de_article": "der",
+        "lvGloss": "tranzītsatiksme",
+        "etMain": "transiitliiklus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-ehrenhaft-277",
+        "de": "ehrenhaft",
+        "lvGloss": "godīgs • godājams • cienījams",
+        "etMain": "aus • auväärne • lugupeetav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einflusssphäre-278",
+        "de": "Einflusssphäre",
+        "de_article": "die",
+        "lvGloss": "ietekmes sfēra",
+        "etMain": "mõjusfäär",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-eingeschrieben-279",
+        "de": "eingeschrieben",
+        "lvGloss": "ierakstīts • reģistrēts",
+        "etMain": "registreeritud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Währungseinheit-280",
+        "de": "Währungseinheit",
+        "de_article": "die",
+        "lvGloss": "naudas mērvienība",
+        "etMain": "rahaühik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einkommensteuer-281",
+        "de": "Einkommensteuer",
+        "de_article": "die",
+        "lvGloss": "ienākuma nodoklis",
+        "etMain": "tulumaks",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einlage-282",
+        "de": "Einlage",
+        "de_article": "die",
+        "lvGloss": "iemaksa • noguldījums • pielikums vēstulei",
+        "etMain": "sissemakse • hoius • kirja lisa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-einreden-283",
+        "de": "einreden",
+        "lvGloss": "iestāstīt • iegalvot • mēģināt pārliecināt",
+        "etMain": "sisendama • veenda püüdma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich einschmeicheln-284",
+        "de": "sich einschmeicheln",
+        "lvGloss": "pieglai­moties • pielabināties",
+        "etMain": "end sisse pugema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einschreibebrief-285",
+        "de": "Einschreibebrief",
+        "de_article": "der",
+        "lvGloss": "ierakstīta vēstule",
+        "etMain": "tähtkiri",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einspruchsrecht-286",
+        "de": "Einspruchsrecht",
+        "de_article": "das",
+        "lvGloss": "protesta tiesības • veto tiesības",
+        "etMain": "vastuväiteõigus • vetoõigus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einstandsgebühr-287",
+        "de": "Einstandsgebühr",
+        "de_article": "die",
+        "lvGloss": "iestāšanās maksa",
+        "etMain": "liitumistasu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einverständnis-288",
+        "de": "Einverständnis",
+        "de_article": "das",
+        "lvGloss": "saprašanās • vienprātība • piekrišana",
+        "etMain": "üksmeel • kokkulepe • nõusolek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnunglück-289",
+        "de": "Eisenbahnunglück",
+        "de_article": "das",
+        "lvGloss": "dzelzceļa katastrofa",
+        "etMain": "raudteeõnnetus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnverkehr-290",
+        "de": "Eisenbahnverkehr",
+        "de_article": "der",
+        "lvGloss": "dzelzceļa satiksme",
+        "etMain": "raudteeliiklus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Elektrizitätswerk-291",
+        "de": "Elektrizitätswerk",
+        "de_article": "das",
+        "lvGloss": "elektrostacija",
+        "etMain": "elektrijaam",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Elementarbegriff-292",
+        "de": "Elementarbegriff",
+        "de_article": "der",
+        "lvGloss": "pamatjēdziens",
+        "etMain": "põhimõiste",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Elementarregel-293",
+        "de": "Elementarregel",
+        "de_article": "die",
+        "lvGloss": "pamatlikums",
+        "etMain": "põhireegel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Energieerzeugung-294",
+        "de": "Energieerzeugung",
+        "de_article": "die",
+        "lvGloss": "enerģijas ražošana",
+        "etMain": "energiatootmine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Energieversorgung-295",
+        "de": "Energieversorgung",
+        "de_article": "die",
+        "lvGloss": "apgāde ar enerģiju",
+        "etMain": "energiavarustus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-entgegensetzen-296",
+        "de": "entgegensetzen",
+        "lvGloss": "nostādīt pretī • likt pretī",
+        "etMain": "vastandama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich entgegensetzen-297",
+        "de": "sich entgegensetzen",
+        "lvGloss": "pretoties",
+        "etMain": "vastu seisma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-entschädigen-298",
+        "de": "entschädigen",
+        "lvGloss": "atlīdzināt • kompensēt",
+        "etMain": "hüvitama • kompenseerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich entschließen-299",
+        "de": "sich entschließen",
+        "lvGloss": "izlemt • izšķirties",
+        "etMain": "otsustama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-entschlossen-300",
+        "de": "entschlossen",
+        "lvGloss": "noteikts • apņēmīgs • nešaubīgs",
+        "etMain": "otsustav • kindlameelne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-entschlüsseln-301",
+        "de": "entschlüsseln",
+        "lvGloss": "atšifrēt",
+        "etMain": "dešifreerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesetzentwurf-302",
+        "de": "Gesetzentwurf",
+        "de_article": "der",
+        "lvGloss": "likumprojekts",
+        "etMain": "seaduseelnõu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Entziehungskur-303",
+        "de": "Entziehungskur",
+        "de_article": "die",
+        "lvGloss": "ārstniecības kurss alkoholiķiem vai narkomāniem",
+        "etMain": "võõrutusravikuur",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Erbkrankheit-304",
+        "de": "Erbkrankheit",
+        "de_article": "die",
+        "lvGloss": "iedzimta slimība",
+        "etMain": "pärilik haigus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kriegserklärung-305",
+        "de": "Kriegserklärung",
+        "de_article": "die",
+        "lvGloss": "kara pieteikums",
+        "etMain": "sõjakuulutus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Erntearbeiten-306",
+        "de": "Erntearbeiten",
+        "de_article": "die",
+        "lvGloss": "ražas novākšanas darbi",
+        "etMain": "saagikoristustööd",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Ersatzspieler-307",
+        "de": "Ersatzspieler",
+        "de_article": "der",
+        "lvGloss": "rezervists • rezerves spēlētājs",
+        "etMain": "reservväelane • reservmängija",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Erstaufführung-308",
+        "de": "Erstaufführung",
+        "de_article": "die",
+        "lvGloss": "pirmuzvedums • pirmizrāde",
+        "etMain": "esietendus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-festgesetzt-309",
+        "de": "festgesetzt",
+        "lvGloss": "noteikts • nosacīts • nolikts",
+        "etMain": "kindlaks määratud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-feuergefährlich-310",
+        "de": "feuergefährlich",
+        "lvGloss": "ugunsnedrošs",
+        "etMain": "tuleohtlik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Feuerversicherung-311",
+        "de": "Feuerversicherung",
+        "de_article": "die",
+        "lvGloss": "apdrošināšana pret ugunsgrēku",
+        "etMain": "tulekindlustus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Feuerwerkskörper-312",
+        "de": "Feuerwerkskörper",
+        "de_article": "der",
+        "lvGloss": "raķete uguņošanai",
+        "etMain": "ilutulestikuvahend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Fleckenentferner-313",
+        "de": "Fleckenentferner",
+        "de_article": "der",
+        "lvGloss": "traipu tīrāmais līdzeklis",
+        "etMain": "plekieemaldi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Flüchtlingslager-314",
+        "de": "Flüchtlingslager",
+        "de_article": "das",
+        "lvGloss": "bēgļu nometne",
+        "etMain": "pagulaslaager",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Fortbildungskurse-315",
+        "de": "Fortbildungskurse",
+        "de_article": "die",
+        "lvGloss": "kvalifikācijas paaugstināšanas kursi",
+        "etMain": "täienduskoolituskursused",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-fortgeschritten-316",
+        "de": "fortgeschritten",
+        "lvGloss": "samērā vēlā attīstības stadijā",
+        "etMain": "edasijõudnud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-fortschrittlich-317",
+        "de": "fortschrittlich",
+        "lvGloss": "progresīvs",
+        "etMain": "progressiivne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Freilichtmuseum-318",
+        "de": "Freilichtmuseum",
+        "de_article": "das",
+        "lvGloss": "brīvdabas muzejs",
+        "etMain": "vabaõhumuuseum",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Friedensangebot-319",
+        "de": "Friedensangebot",
+        "de_article": "das",
+        "lvGloss": "miera piedāvājums",
+        "etMain": "rahupakkumine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Friedensvertrag-320",
+        "de": "Friedensvertrag",
+        "de_article": "der",
+        "lvGloss": "miera līgums",
+        "etMain": "rahuleping",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Friedenspolitik-321",
+        "de": "Friedenspolitik",
+        "de_article": "die",
+        "lvGloss": "miera politika",
+        "etMain": "rahupoliitika",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Führunternehmen-322",
+        "de": "Führunternehmen",
+        "de_article": "das",
+        "lvGloss": "kravas transporta uzņēmums",
+        "etMain": "veoettevõte",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-soziale Fürsorge-323",
+        "de": "soziale Fürsorge",
+        "de_article": "die",
+        "lvGloss": "sociālā apgāde",
+        "etMain": "sotsiaalhoolekanne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Auffassungsgabe-324",
+        "de": "Auffassungsgabe",
+        "de_article": "die",
+        "lvGloss": "uztveres spēja",
+        "etMain": "taipamisvõime",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gebrauchtwaren-325",
+        "de": "Gebrauchtwaren",
+        "de_article": "die",
+        "lvGloss": "lietotas mantas",
+        "etMain": "kasutatud kaubad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geburtenrate-326",
+        "de": "Geburtenrate",
+        "de_article": "die",
+        "lvGloss": "dzimstības līmenis",
+        "etMain": "sündimus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gefängniszelle-327",
+        "de": "Gefängniszelle",
+        "de_article": "die",
+        "lvGloss": "cietuma kamera",
+        "etMain": "vanglakamber",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gefäßverengung-328",
+        "de": "Gefäßverengung",
+        "de_article": "die",
+        "lvGloss": "asinsvadu sašaurināšanās",
+        "etMain": "veresoonte ahenemine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geflügelzucht-329",
+        "de": "Geflügelzucht",
+        "de_article": "die",
+        "lvGloss": "putnkopība",
+        "etMain": "linnukasvatus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gefrierpunkt-330",
+        "de": "Gefrierpunkt",
+        "de_article": "der",
+        "lvGloss": "sasalšanas punkts • nullpunkts",
+        "etMain": "külmumispunkt • nullpunkt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gehaltskürzung-331",
+        "de": "Gehaltskürzung",
+        "de_article": "die",
+        "lvGloss": "algas pazeminājums",
+        "etMain": "palgakärbe",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Beichtgeheimnis-332",
+        "de": "Beichtgeheimnis",
+        "de_article": "das",
+        "lvGloss": "bikts noslēpums",
+        "etMain": "pihisaladus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gehirnschlag-333",
+        "de": "Gehirnschlag",
+        "de_article": "der",
+        "lvGloss": "insults",
+        "etMain": "insult",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geisterstunde-334",
+        "de": "Geisterstunde",
+        "de_article": "die",
+        "lvGloss": "spoku stunda",
+        "etMain": "kummituste tund",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geistesabwesend-335",
+        "de": "geistesabwesend",
+        "lvGloss": "izklaidīgs",
+        "etMain": "hajevil",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geisteskrank-336",
+        "de": "geisteskrank",
+        "lvGloss": "garīgi slims",
+        "etMain": "vaimuhaige",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geistesschwach-337",
+        "de": "geistesschwach",
+        "lvGloss": "garā vājš • plānprātīgs",
+        "etMain": "vaimupuudega",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geländefahrt-338",
+        "de": "Geländefahrt",
+        "de_article": "die",
+        "lvGloss": "apvidus brauciens",
+        "etMain": "maastikusõit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geldentwertung-339",
+        "de": "Geldentwertung",
+        "de_article": "die",
+        "lvGloss": "inflācija",
+        "etMain": "inflatsioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gelegentlich",
+        "de": "gelegentlich",
+        "lvGloss": "reizēm • gadījuma • sakarā ar",
+        "etMain": "aeg-ajalt • juhuslik • seoses",
+        "studyTranslation": "aeg-ajalt • juhuslik",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemäldegalerie-341",
+        "de": "Gemäldegalerie",
+        "de_article": "die",
+        "lvGloss": "gleznu galerija",
+        "etMain": "maaligalerii",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemäldesammlung-342",
+        "de": "Gemäldesammlung",
+        "de_article": "die",
+        "lvGloss": "gleznu kolekcija",
+        "etMain": "maalikogu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemeineigentum-343",
+        "de": "Gemeineigentum",
+        "de_article": "das",
+        "lvGloss": "sabiedriskais īpašums",
+        "etMain": "ühiskondlik omand",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemütsmensch-344",
+        "de": "Gemütsmensch",
+        "de_article": "der",
+        "lvGloss": "laipns un labsirdīgs cilvēks",
+        "etMain": "lahke ja heasüdamlik inimene",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Genmanipulation-345",
+        "de": "Genmanipulation",
+        "de_article": "die",
+        "lvGloss": "gēnu pārveidošana",
+        "etMain": "geenimuundamine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Generalprobe-346",
+        "de": "Generalprobe",
+        "de_article": "die",
+        "lvGloss": "ģenerālmēģinājums",
+        "etMain": "peaproov",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Generalstreik-347",
+        "de": "Generalstreik",
+        "de_article": "der",
+        "lvGloss": "vispārējs streiks",
+        "etMain": "üldstreik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-genmanipuliert-348",
+        "de": "genmanipuliert",
+        "lvGloss": "ar pārveidotiem gēniem",
+        "etMain": "geneetiliselt muundatud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gepäckschein-349",
+        "de": "Gepäckschein",
+        "de_article": "der",
+        "lvGloss": "bagāžas kvīts",
+        "etMain": "pagasitõend",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gepflogenheit-350",
+        "de": "Gepflogenheit",
+        "de_article": "die",
+        "lvGloss": "paradums • paraža",
+        "etMain": "harjumus • komme",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geradebiegen-351",
+        "de": "geradebiegen",
+        "lvGloss": "iztaisnot • izlabot",
+        "etMain": "sirgeks ajama • parandama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwurgericht-352",
+        "de": "Schwurgericht",
+        "de_article": "das",
+        "lvGloss": "zvērināto tiesa",
+        "etMain": "vandekohus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gerichtshof-353",
+        "de": "Gerichtshof",
+        "de_article": "der",
+        "lvGloss": "tiesu palāta • tribunāls",
+        "etMain": "kohtukoda • tribunal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geringschätzig-354",
+        "de": "geringschätzig",
+        "lvGloss": "nicīgs • nievājošs • nicinošs",
+        "etMain": "põlglik • halvustav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesamteindruck-355",
+        "de": "Gesamteindruck",
+        "de_article": "der",
+        "lvGloss": "kopiespaids",
+        "etMain": "üldmulje",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesamtergebnis-356",
+        "de": "Gesamtergebnis",
+        "de_article": "das",
+        "lvGloss": "gala iznākums • gala rezultāts",
+        "etMain": "lõpptulemus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesandtschaft-357",
+        "de": "Gesandtschaft",
+        "de_article": "die",
+        "lvGloss": "sūtniecība",
+        "etMain": "saatkond",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geschäftshaus-358",
+        "de": "Geschäftshaus",
+        "de_article": "das",
+        "lvGloss": "tirdzniecības nams",
+        "etMain": "ärihoone",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geschäftsjahr-359",
+        "de": "Geschäftsjahr",
+        "de_article": "das",
+        "lvGloss": "saimniecības gads",
+        "etMain": "majandusaasta",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschlechtsreif-360",
+        "de": "geschlechtsreif",
+        "lvGloss": "sasniedzis dzimumbriedumu",
+        "etMain": "suguküpseks saanud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesetzbuch-361",
+        "de": "Gesetzbuch",
+        "de_article": "das",
+        "lvGloss": "kodekss • likumu krājums",
+        "etMain": "seadustik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzgebend-362",
+        "de": "gesetzgebend",
+        "lvGloss": "likumdevējs",
+        "etMain": "seadusandlik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzlos-363",
+        "de": "gesetzlos",
+        "lvGloss": "nelikumīgs",
+        "etMain": "seadusetu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzmäßig-364",
+        "de": "gesetzmäßig",
+        "lvGloss": "likumīgs • likumsakarīgs",
+        "etMain": "seaduslik • seaduspärane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzwidrig-365",
+        "de": "gesetzwidrig",
+        "lvGloss": "pretrunā ar likumu",
+        "etMain": "seadusevastane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesichtskreis-366",
+        "de": "Gesichtskreis",
+        "de_article": "der",
+        "lvGloss": "redzesloks • apvārsnis",
+        "etMain": "silmaring • horisont",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gewinnanteil-367",
+        "de": "Gewinnanteil",
+        "de_article": "der",
+        "lvGloss": "peļņas daļa",
+        "etMain": "kasumiosa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gewissensbisse-368",
+        "de": "Gewissensbisse",
+        "de_article": "die",
+        "lvGloss": "sirdsapziņas pārmetumi",
+        "etMain": "süümepiinad",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gewissermaßen-369",
+        "de": "gewissermaßen",
+        "lvGloss": "zināmā mērā • savā ziņā • tā sakot",
+        "etMain": "teataval määral • teatud mõttes • nii-öelda",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-glaubhaft-370",
+        "de": "glaubhaft",
+        "lvGloss": "ticams • pārliecinošs",
+        "etMain": "usutav • veenev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gleichberechtigt-371",
+        "de": "gleichberechtigt",
+        "lvGloss": "līdztiesīgs • ar vienādām tiesībām",
+        "etMain": "võrdõiguslik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Götzenverehrung-372",
+        "de": "Götzenverehrung",
+        "de_article": "die",
+        "lvGloss": "elku pielūgšana",
+        "etMain": "ebajumalateenistus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Grenzverletzung-373",
+        "de": "Grenzverletzung",
+        "de_article": "die",
+        "lvGloss": "robežpārkāpums",
+        "etMain": "piiririkkumine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Grundgesetz-374",
+        "de": "Grundgesetz",
+        "de_article": "das",
+        "lvGloss": "pamatlikums • konstitūcija",
+        "etMain": "põhiseadus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gütertransport-375",
+        "de": "Gütertransport",
+        "de_article": "der",
+        "lvGloss": "preču pārvadājumi",
+        "etMain": "kaubavedu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haft-376",
+        "de": "Haft",
+        "de_article": "die",
+        "lvGloss": "apcietinājums • arests",
+        "etMain": "vahi all olek • arest",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haftbefehl-377",
+        "de": "Haftbefehl",
+        "de_article": "der",
+        "lvGloss": "apcietināšanas orderis",
+        "etMain": "vahistamismäärus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-haften-378",
+        "de": "haften",
+        "lvGloss": "pielipt • būt pielipušam",
+        "etMain": "kinni jääma • küljes olema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haftung-379",
+        "de": "Haftung",
+        "de_article": "die",
+        "lvGloss": "atbildība",
+        "etMain": "vastutus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haltbarkeitsdauer-380",
+        "de": "Haltbarkeitsdauer",
+        "de_article": "die",
+        "lvGloss": "uzglabāšanas laiks",
+        "etMain": "säilivusaeg",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Handelspartner-381",
+        "de": "Handelspartner",
+        "de_article": "der",
+        "lvGloss": "tirdzniecības partneris",
+        "etMain": "kaubanduspartner",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Handelsvertretung-382",
+        "de": "Handelsvertretung",
+        "de_article": "die",
+        "lvGloss": "tirdzniecības pārstāvniecība",
+        "etMain": "kaubandusesindus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hauptversammlung-383",
+        "de": "Hauptversammlung",
+        "de_article": "die",
+        "lvGloss": "kopsapulce",
+        "etMain": "üldkoosolek",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hausdurchsuchung-384",
+        "de": "Hausdurchsuchung",
+        "de_article": "die",
+        "lvGloss": "policijas kratīšana",
+        "etMain": "politsei läbiotsimine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haushaltsartikel-385",
+        "de": "Haushaltsartikel",
+        "de_article": "der",
+        "lvGloss": "saimniecības prece",
+        "etMain": "majapidamiskaup",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haushaltshilfe-386",
+        "de": "Haushaltshilfe",
+        "de_article": "die",
+        "lvGloss": "algota palīdze mājsaimniecībā",
+        "etMain": "palgaline koduabiline",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hautentzündung-387",
+        "de": "Hautentzündung",
+        "de_article": "die",
+        "lvGloss": "ādas iekaisums",
+        "etMain": "nahapõletik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-heldenhaft-388",
+        "de": "heldenhaft",
+        "lvGloss": "varonīgs",
+        "etMain": "kangelaslik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Herrschaft-389",
+        "de": "Herrschaft",
+        "de_article": "die",
+        "lvGloss": "kundzība • vara",
+        "etMain": "valitsemine • võim",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-herunterkommen-390",
+        "de": "herunterkommen",
+        "lvGloss": "nonākt lejā • nonīkt • panīkt • pagrimt",
+        "etMain": "alla käima • viletsaks jääma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-herunterstürzen-391",
+        "de": "herunterstürzen",
+        "lvGloss": "krist zemē • gāzties zemē",
+        "etMain": "alla kukkuma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich hinreißen lassen-392",
+        "de": "sich hinreißen lassen",
+        "lvGloss": "aizrauties",
+        "etMain": "laskma end kaasa haarata",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Industrieabgase-393",
+        "de": "Industrieabgase",
+        "de_article": "die",
+        "lvGloss": "rūpnieciskās izplūdes gāzes",
+        "etMain": "tööstuslikud heitgaasid",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Industrieabwässer-394",
+        "de": "Industrieabwässer",
+        "de_article": "die",
+        "lvGloss": "rūpnieciskie notekūdeņi",
+        "etMain": "tööstuslik reovesi",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Industrieanlage-395",
+        "de": "Industrieanlage",
+        "de_article": "die",
+        "lvGloss": "rūpniecības komplekss",
+        "etMain": "tööstuskompleks",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-inhaftieren-396",
+        "de": "inhaftieren",
+        "lvGloss": "apcietināt",
+        "etMain": "vahistama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Innenarchitekt-397",
+        "de": "Innenarchitekt",
+        "de_article": "der",
+        "lvGloss": "iekštelpu arhitekts",
+        "etMain": "sisearhitekt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Innenminister-398",
+        "de": "Innenminister",
+        "de_article": "der",
+        "lvGloss": "iekšlietu ministrs",
+        "etMain": "siseminister",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Intensivstation-399",
+        "de": "Intensivstation",
+        "de_article": "die",
+        "lvGloss": "reanimācijas nodaļa slimnīcā",
+        "etMain": "haigla intensiivravi osakond",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-interpretieren-400",
+        "de": "interpretieren",
+        "lvGloss": "interpretēt • izskaidrot",
+        "etMain": "tõlgendama • selgitama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Justiz-401",
+        "de": "Justiz",
+        "de_article": "die",
+        "lvGloss": "justīcija • tieslietas",
+        "etMain": "õigusemõistmine • justiitssüsteem",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kabinettsitzung-402",
+        "de": "Kabinettsitzung",
+        "de_article": "die",
+        "lvGloss": "kabineta sēde",
+        "etMain": "kabinetiistung",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kapitalverbrechen-403",
+        "de": "Kapitalverbrechen",
+        "de_article": "das",
+        "lvGloss": "sevišķi smags noziegums",
+        "etMain": "eriti raske kuritegu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kaution-404",
+        "de": "Kaution",
+        "de_article": "die",
+        "lvGloss": "ķīla • galvojums • drošības nauda • garantija",
+        "etMain": "tagatis • kautsjon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Koalition-405",
+        "de": "Koalition",
+        "de_article": "die",
+        "lvGloss": "koalīcija",
+        "etMain": "koalitsioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-körperbehindert-406",
+        "de": "körperbehindert",
+        "lvGloss": "fizisks invalīds",
+        "etMain": "füüsilise puudega inimene",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Krankheitserreger-407",
+        "de": "Krankheitserreger",
+        "de_article": "der",
+        "lvGloss": "slimības ierosinātājs",
+        "etMain": "haigustekitaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kriegsbeschädigte-408",
+        "de": "Kriegsbeschädigte",
+        "de_article": "der",
+        "lvGloss": "kara invalīds",
+        "etMain": "sõjainvaliid",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kriegsgefangene-409",
+        "de": "Kriegsgefangene",
+        "de_article": "der",
+        "lvGloss": "karagūsteknis",
+        "etMain": "sõjavang",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kabinettskrise-410",
+        "de": "Kabinettskrise",
+        "de_article": "die",
+        "lvGloss": "kabineta krīze",
+        "etMain": "kabinetikriis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lawinenwarnung-411",
+        "de": "Lawinenwarnung",
+        "de_article": "die",
+        "lvGloss": "brīdinājums par lavīnu",
+        "etMain": "laviinihoiatus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lebenserwartung-412",
+        "de": "Lebenserwartung",
+        "de_article": "die",
+        "lvGloss": "vidējais dzīves ilgums",
+        "etMain": "keskmine eluiga",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-lebensgefährlich-413",
+        "de": "lebensgefährlich",
+        "lvGloss": "dzīvību apdraudošs • bīstams",
+        "etMain": "eluohtlik • ohtlik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lebensgefährte-414",
+        "de": "Lebensgefährte",
+        "de_article": "der",
+        "lvGloss": "dzīvesbiedrs nereģistrētā laulībā",
+        "etMain": "vabaabikaasa",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lebensstandard-415",
+        "de": "Lebensstandard",
+        "de_article": "der",
+        "lvGloss": "dzīves līmenis",
+        "etMain": "elatustase",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Leistungssport-416",
+        "de": "Leistungssport",
+        "de_article": "der",
+        "lvGloss": "profesionālais sports",
+        "etMain": "tippspord",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-lichtempfindlich-417",
+        "de": "lichtempfindlich",
+        "lvGloss": "gaismjutīgs",
+        "etMain": "valgustundlik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Liebesbeziehung-418",
+        "de": "Liebesbeziehung",
+        "de_article": "die",
+        "lvGloss": "intīmas attiecības",
+        "etMain": "armusuhe",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Liebeserklärung-419",
+        "de": "Liebeserklärung",
+        "de_article": "die",
+        "lvGloss": "mīlestības atklāšana",
+        "etMain": "armastusavaldus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Linksextremismus-420",
+        "de": "Linksextremismus",
+        "de_article": "der",
+        "lvGloss": "kreisais ekstrēmisms",
+        "etMain": "vasakäärmuslus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Machtergreifung-421",
+        "de": "Machtergreifung",
+        "de_article": "die",
+        "lvGloss": "varas sagrābšana",
+        "etMain": "võimuhaaramine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Machtübernahme-422",
+        "de": "Machtübernahme",
+        "de_article": "die",
+        "lvGloss": "varas pārņemšana",
+        "etMain": "võimuülevõtmine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Magnetstreifen-423",
+        "de": "Magnetstreifen",
+        "de_article": "der",
+        "lvGloss": "magnētiskā josla (uz kredītkartes)",
+        "etMain": "magnetriba (krediitkaardil)",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Marschflugkörper-424",
+        "de": "Marschflugkörper",
+        "de_article": "der",
+        "lvGloss": "kruīza raķete • kruīzraķete",
+        "etMain": "tiibrakett",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Massenherstellung-425",
+        "de": "Massenherstellung",
+        "de_article": "die",
+        "lvGloss": "masveida ražošana",
+        "etMain": "masstootmine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-materialistisch-426",
+        "de": "materialistisch",
+        "lvGloss": "materiālistisks",
+        "etMain": "materialistlik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Meineid-427",
+        "de": "Meineid",
+        "de_article": "der",
+        "lvGloss": "apzināti nepatiesa liecība tiesā",
+        "etMain": "tahtlik valeütlus kohtus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-menschenfeindlich-428",
+        "de": "menschenfeindlich",
+        "lvGloss": "naidīgs cilvēkiem",
+        "etMain": "inimestevaenulik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-militärpflichtig-429",
+        "de": "militärpflichtig",
+        "lvGloss": "karaklausībai padots",
+        "etMain": "sõjaväekohustuslik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Nachschlagewerk-430",
+        "de": "Nachschlagewerk",
+        "de_article": "das",
+        "lvGloss": "uzziņu literatūra • vārdnīca • enciklopēdija",
+        "etMain": "teatmeteos • sõnaraamat • entsüklopeedia",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-namhaft-431",
+        "de": "namhaft",
+        "lvGloss": "slavens • ievērojams",
+        "etMain": "kuulus • silmapaistev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Nichtangriffspakt-432",
+        "de": "Nichtangriffspakt",
+        "de_article": "der",
+        "lvGloss": "neuzbrukšanas pakts",
+        "etMain": "mittekallaletungileping",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-niedergeschlagen-433",
+        "de": "niedergeschlagen",
+        "lvGloss": "nomākts • depresīvs",
+        "etMain": "masendunud • depressioonis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Ölembargo-434",
+        "de": "Ölembargo",
+        "de_article": "das",
+        "lvGloss": "naftas embargo",
+        "etMain": "naftaembargo",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Oppositionsführer-435",
+        "de": "Oppositionsführer",
+        "de_article": "der",
+        "lvGloss": "opozīcijas līderis",
+        "etMain": "opositsioonijuht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Oppositionspartei-436",
+        "de": "Oppositionspartei",
+        "de_article": "die",
+        "lvGloss": "opozīcijas partija",
+        "etMain": "opositsioonipartei",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Originalausgabe-437",
+        "de": "Originalausgabe",
+        "de_article": "die",
+        "lvGloss": "oriģinālizdevums",
+        "etMain": "originaalväljaanne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Originalfassung-438",
+        "de": "Originalfassung",
+        "de_article": "die",
+        "lvGloss": "oriģinālvariants",
+        "etMain": "originaalversioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Originalgemälde-439",
+        "de": "Originalgemälde",
+        "de_article": "das",
+        "lvGloss": "oriģinālglezna",
+        "etMain": "originaalmaal",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Parteifunktionär-440",
+        "de": "Parteifunktionär",
+        "de_article": "der",
+        "lvGloss": "partijas darbinieks",
+        "etMain": "parteifunktsionäär",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pflichtlektüre-441",
+        "de": "Pflichtlektüre",
+        "de_article": "die",
+        "lvGloss": "obligātā mācību literatūra",
+        "etMain": "kohustuslik kirjandus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Preisfrage-442",
+        "de": "Preisfrage",
+        "de_article": "die",
+        "lvGloss": "konkursa jautājums",
+        "etMain": "konkursiküsimus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pressefreiheit-443",
+        "de": "Pressefreiheit",
+        "de_article": "die",
+        "lvGloss": "preses brīvība",
+        "etMain": "ajakirjandusvabadus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pressevertreter-444",
+        "de": "Pressevertreter",
+        "de_article": "der",
+        "lvGloss": "preses pārstāvis",
+        "etMain": "ajakirjanduse esindaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Presseerklärung-445",
+        "de": "Presseerklärung",
+        "de_article": "die",
+        "lvGloss": "paziņojums presei",
+        "etMain": "pressiteade",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Produktionskosten-446",
+        "de": "Produktionskosten",
+        "de_article": "die",
+        "lvGloss": "ražošanas pašizmaksa",
+        "etMain": "tootmiskulud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Produktionsweise-447",
+        "de": "Produktionsweise",
+        "de_article": "die",
+        "lvGloss": "ražošanas veids",
+        "etMain": "tootmisviis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rangierbahnhof-448",
+        "de": "Rangierbahnhof",
+        "de_article": "der",
+        "lvGloss": "šķirotava dzelzceļa",
+        "etMain": "raudtee sorteerimisjaam",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-rätselhaft-449",
+        "de": "rätselhaft",
+        "lvGloss": "mīklains • neizprotams",
+        "etMain": "salapärane • arusaamatu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Raumausstatter-450",
+        "de": "Raumausstatter",
+        "de_article": "der",
+        "lvGloss": "interjerists",
+        "etMain": "sisekujundaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rechenschaft-451",
+        "de": "Rechenschaft",
+        "de_article": "die",
+        "lvGloss": "atskaite (par savu rīcību) • atbildība",
+        "etMain": "aruandekohustus • vastutus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-rechtswidrig-452",
+        "de": "rechtswidrig",
+        "lvGloss": "nelikumīgi",
+        "etMain": "ebaseaduslik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Regenbogenpresse-453",
+        "de": "Regenbogenpresse",
+        "de_article": "die",
+        "lvGloss": "bulvārprese",
+        "etMain": "kollane ajakirjandus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Regierungschef-454",
+        "de": "Regierungschef",
+        "de_article": "der",
+        "lvGloss": "premjerministrs • valdības galva",
+        "etMain": "peaminister • valitsusjuht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Regierungspartei-455",
+        "de": "Regierungspartei",
+        "de_article": "die",
+        "lvGloss": "valdības partija",
+        "etMain": "valitsuspartei",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Regierungswechsel-456",
+        "de": "Regierungswechsel",
+        "de_article": "der",
+        "lvGloss": "valdības maiņa",
+        "etMain": "valitsusvahetus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rentenanspruch-457",
+        "de": "Rentenanspruch",
+        "de_article": "der",
+        "lvGloss": "tiesības uz pensiju",
+        "etMain": "pensioniõigus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rentenempfänger-458",
+        "de": "Rentenempfänger",
+        "de_article": "der",
+        "lvGloss": "pensijas saņēmējs",
+        "etMain": "pensionisaaja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-republikanisch-459",
+        "de": "republikanisch",
+        "lvGloss": "republikānisks • republikas",
+        "etMain": "vabariiklik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sanktion-460",
+        "de": "Sanktion",
+        "de_article": "die",
+        "lvGloss": "sankcija",
+        "etMain": "sanktsioon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sanktionieren-461",
+        "de": "sanktionieren",
+        "lvGloss": "atbalstīt • sankcionēt",
+        "etMain": "sanktsioneerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lüftungsschacht-462",
+        "de": "Lüftungsschacht",
+        "de_article": "der",
+        "lvGloss": "ventilācijas šahta",
+        "etMain": "ventilatsioonišaht",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Scheidungsgrund-463",
+        "de": "Scheidungsgrund",
+        "de_article": "der",
+        "lvGloss": "šķiršanās iemesls",
+        "etMain": "lahutuse põhjus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schicksalsschlag-464",
+        "de": "Schicksalsschlag",
+        "de_article": "der",
+        "lvGloss": "likteņa trieciens",
+        "etMain": "saatuselöök",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-schmerzstillend-465",
+        "de": "schmerzstillend",
+        "lvGloss": "sāpes remdējošs",
+        "etMain": "valuvaigistav",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Anklageschrift-466",
+        "de": "Anklageschrift",
+        "de_article": "die",
+        "lvGloss": "apsūdzības raksts",
+        "etMain": "süüdistusakt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwerindustrie-467",
+        "de": "Schwerindustrie",
+        "de_article": "die",
+        "lvGloss": "smagā rūpniecība",
+        "etMain": "rasketööstus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Segelflugsport-468",
+        "de": "Segelflugsport",
+        "de_article": "der",
+        "lvGloss": "planierisms",
+        "etMain": "purilennusport",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Selbstverwaltung-469",
+        "de": "Selbstverwaltung",
+        "de_article": "die",
+        "lvGloss": "pašvaldība",
+        "etMain": "omavalitsus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-selbstzufrieden-470",
+        "de": "selbstzufrieden",
+        "lvGloss": "pašapmierināts",
+        "etMain": "enesega rahulolev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sensationsmeldung-471",
+        "de": "Sensationsmeldung",
+        "de_article": "die",
+        "lvGloss": "sensacionāls paziņojums",
+        "etMain": "sensatsiooniline teade",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sesshaft-472",
+        "de": "sesshaft",
+        "lvGloss": "vienā vietā dzīvojošs • nometnieku",
+        "etMain": "paikne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sinfonieorchester-473",
+        "de": "Sinfonieorchester",
+        "de_article": "das",
+        "lvGloss": "simfoniskais orķestris",
+        "etMain": "sümfooniaorkester",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sinnestäuschung-474",
+        "de": "Sinnestäuschung",
+        "de_article": "die",
+        "lvGloss": "halucinācija",
+        "etMain": "meelepett",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Konfliktsituation-475",
+        "de": "Konfliktsituation",
+        "de_article": "die",
+        "lvGloss": "konflikta situācija",
+        "etMain": "konfliktolukord",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Krisensituation-476",
+        "de": "Krisensituation",
+        "de_article": "die",
+        "lvGloss": "krīzes situācija • krīze",
+        "etMain": "kriisiolukord • kriis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sommersonnenwende-477",
+        "de": "Sommersonnenwende",
+        "de_article": "die",
+        "lvGloss": "vasaras saulgrieži",
+        "etMain": "suvine pööripäev",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sonnenfinsternis-478",
+        "de": "Sonnenfinsternis",
+        "de_article": "die",
+        "lvGloss": "saules aptumsums",
+        "etMain": "päikesevarjutus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Spitzenleistung-479",
+        "de": "Spitzenleistung",
+        "de_article": "die",
+        "lvGloss": "rekords • augstākais sasniegums • tehn. maksimālā jauda",
+        "etMain": "rekord • tippsaavutus • maksimaalne võimsus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Staatsangehörige-480",
+        "de": "Staatsangehörige",
+        "de_article": "der",
+        "lvGloss": "pavalstnieks",
+        "etMain": "kodanik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Staatsanwalt-481",
+        "de": "Staatsanwalt",
+        "de_article": "der",
+        "lvGloss": "prokurors",
+        "etMain": "prokurör",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Staatsgeheimnis-482",
+        "de": "Staatsgeheimnis",
+        "de_article": "das",
+        "lvGloss": "valsts noslēpums",
+        "etMain": "riigisaladus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Steuereinnahmen-483",
+        "de": "Steuereinnahmen",
+        "de_article": "die",
+        "lvGloss": "nodokļu ieņēmumi",
+        "etMain": "maksutulu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-stimmberechtigt-484",
+        "de": "stimmberechtigt",
+        "lvGloss": "balsstiesīgs",
+        "etMain": "hääleõiguslik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Studienbewerber-485",
+        "de": "Studienbewerber",
+        "de_article": "der",
+        "lvGloss": "augstskolas reflektants",
+        "etMain": "ülikooli sisseastuja",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-synchronisieren-486",
+        "de": "synchronisieren",
+        "lvGloss": "dublēt filmu",
+        "etMain": "filmi dubleerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Tageseinnahmen-487",
+        "de": "Tageseinnahmen",
+        "de_article": "die",
+        "lvGloss": "dienas ieņēmumi",
+        "etMain": "päevatulu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Transfusion-488",
+        "de": "Transfusion",
+        "de_article": "die",
+        "lvGloss": "tieša asins pārliešana no viena cilvēka citam",
+        "etMain": "vereülekanne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-überanstrengen-489",
+        "de": "überanstrengen",
+        "lvGloss": "pārpūlēt • sich ü. pārpūlēties",
+        "etMain": "üle koormama • end üle pingutama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Überbevölkerung-490",
+        "de": "Überbevölkerung",
+        "de_article": "die",
+        "lvGloss": "pārapdzīvotība",
+        "etMain": "ülerahvastatus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Überbleibsel-491",
+        "de": "Überbleibsel",
+        "de_article": "das",
+        "lvGloss": "pārpalikums • paliekas",
+        "etMain": "jäänused",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-übereinstimmen-492",
+        "de": "übereinstimmen",
+        "lvGloss": "saskanēt • būt ar kādu vienisprātis",
+        "etMain": "kokku sobima • kellegagi ühel meelel olema",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Überschuss-493",
+        "de": "Überschuss",
+        "de_article": "der",
+        "lvGloss": "atlikums • pārpalikums • uzvija",
+        "etMain": "jääk • ülejääk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Umgangssprache-494",
+        "de": "Umgangssprache",
+        "de_article": "die",
+        "lvGloss": "sarunvaloda",
+        "etMain": "kõnekeel",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Unannehmlichkeit-495",
+        "de": "Unannehmlichkeit",
+        "de_article": "die",
+        "lvGloss": "nepatikšanas • nepatīkams gadījums",
+        "etMain": "ebameeldivused • ebameeldiv juhtum",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unausgeglichen-496",
+        "de": "unausgeglichen",
+        "lvGloss": "nelīdzsvarots",
+        "etMain": "tasakaalustamata",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unerschütterlich-497",
+        "de": "unerschütterlich",
+        "lvGloss": "nesatricināms",
+        "etMain": "vankumatu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Unterschätzung-498",
+        "de": "Unterschätzung",
+        "de_article": "die",
+        "lvGloss": "nepietiekams novērtējums • novērtēšana par zemu",
+        "etMain": "alahindamine",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-urteilen-499",
+        "de": "urteilen",
+        "lvGloss": "spriest",
+        "etMain": "otsustama • hinnangut andma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verabschieden-500",
+        "de": "verabschieden",
+        "lvGloss": "atbrīvot no darba • aizlaist pensijā",
+        "etMain": "töölt vabastama • pensionile saatma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-veränderlich-501",
+        "de": "veränderlich",
+        "lvGloss": "mainīgs • grozīgs",
+        "etMain": "muutlik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-veranschlagen-502",
+        "de": "veranschlagen",
+        "lvGloss": "aprēķināt • kalkulēt • sastādīt tāmi",
+        "etMain": "arvestama • kalkuleerima • eelarvet koostama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verdrießlich-503",
+        "de": "verdrießlich",
+        "lvGloss": "nepatīkams • īgns • sapīcis",
+        "etMain": "ebameeldiv • tusane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verfallsdatum-504",
+        "de": "Verfallsdatum",
+        "de_article": "das",
+        "lvGloss": "lietošanas termiņa beigas",
+        "etMain": "kõlblikkusaja lõpp",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verfassung-505",
+        "de": "Verfassung",
+        "de_article": "die",
+        "lvGloss": "konstitūcija • satversme",
+        "etMain": "põhiseadus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vergewaltigen-506",
+        "de": "vergewaltigen",
+        "lvGloss": "izvarot",
+        "etMain": "vägistama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich vergewissern-507",
+        "de": "sich vergewissern",
+        "lvGloss": "pārliecināties",
+        "etMain": "veenduma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vergünstigung-508",
+        "de": "Vergünstigung",
+        "de_article": "die",
+        "lvGloss": "priekšrocība • privilēģija • atvieglojums",
+        "etMain": "eelis • privileeg • soodustus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verhaften-509",
+        "de": "verhaften",
+        "lvGloss": "apcietināt",
+        "etMain": "vahistama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verhältnismäßig-510",
+        "de": "verhältnismäßig",
+        "lvGloss": "samērā",
+        "etMain": "suhteliselt",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verhandlungen-511",
+        "de": "Verhandlungen",
+        "de_article": "die",
+        "lvGloss": "sarunas",
+        "etMain": "läbirääkimised",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verheimlichen-512",
+        "de": "verheimlichen",
+        "lvGloss": "slēpt • turēt slepenībā",
+        "etMain": "varjama • salajas hoidma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verkehrsdichte-513",
+        "de": "Verkehrsdichte",
+        "de_article": "die",
+        "lvGloss": "satiksmes blīvums",
+        "etMain": "liiklustihedus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verkehrswesen-514",
+        "de": "Verkehrswesen",
+        "de_article": "das",
+        "lvGloss": "transports",
+        "etMain": "transport",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verpflichtung-515",
+        "de": "Verpflichtung",
+        "de_article": "die",
+        "lvGloss": "pienākums • saistība",
+        "etMain": "kohustus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verschwörung-516",
+        "de": "Verschwörung",
+        "de_article": "die",
+        "lvGloss": "sazvērestība",
+        "etMain": "vandenõu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verklagen-517",
+        "de": "verklagen",
+        "lvGloss": "iesūdzēt tiesā",
+        "etMain": "kohtusse kaebama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vernachlässigen-518",
+        "de": "vernachlässigen",
+        "lvGloss": "atstāt novārtā • nevērīgi izturēties",
+        "etMain": "hooletusse jätma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verpflichten-519",
+        "de": "verpflichten",
+        "lvGloss": "uzlikt par pienākumu",
+        "etMain": "kohustama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich verpflichten-520",
+        "de": "sich verpflichten",
+        "lvGloss": "uzņemties",
+        "etMain": "endale võtma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich verschließen-521",
+        "de": "sich verschließen",
+        "lvGloss": "noslēgties • norobežoties",
+        "etMain": "endasse tõmbuma • end isoleerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschlossen-522",
+        "de": "verschlossen",
+        "lvGloss": "aizslēgts • noslēgts • pārn. noslēgts • sevī noslēdzies",
+        "etMain": "lukustatud • suletud • endassetõmbunud",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschlüsseln-523",
+        "de": "verschlüsseln",
+        "lvGloss": "šifrēt • kodēt",
+        "etMain": "krüpteerima • kodeerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschreiben-524",
+        "de": "verschreiben",
+        "lvGloss": "med. parakstīt",
+        "etMain": "med. välja kirjutama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschweigen-525",
+        "de": "verschweigen",
+        "lvGloss": "noklusēt • neizpaust",
+        "etMain": "maha vaikima • mitte avaldama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verständigen-526",
+        "de": "verständigen",
+        "lvGloss": "informēt • paziņot",
+        "etMain": "informeerima • teatama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Versuchsanlage-527",
+        "de": "Versuchsanlage",
+        "de_article": "die",
+        "lvGloss": "izmēģinājumu iekārta",
+        "etMain": "katserajatis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Versuchsgelände-528",
+        "de": "Versuchsgelände",
+        "de_article": "das",
+        "lvGloss": "izmēģinājumu poligons",
+        "etMain": "katsepolügoon",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Versuchsreihe-529",
+        "de": "Versuchsreihe",
+        "de_article": "die",
+        "lvGloss": "testu sērija",
+        "etMain": "katseseeria",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verunglücken-530",
+        "de": "verunglücken",
+        "lvGloss": "ciest nelaimes gadījumā • ciest avārijā",
+        "etMain": "õnnetusse sattuma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verurteilen-531",
+        "de": "verurteilen",
+        "lvGloss": "notiesāt",
+        "etMain": "süüdi mõistma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vervielfältigen-532",
+        "de": "vervielfältigen",
+        "lvGloss": "pavairot",
+        "etMain": "paljundama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vervollkommnen-533",
+        "de": "vervollkommnen",
+        "lvGloss": "papildināt • uzlabot",
+        "etMain": "täiendama • täiustama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich vervollkommnen-534",
+        "de": "sich vervollkommnen",
+        "lvGloss": "papildināt savas zināšanas",
+        "etMain": "ennast täiustama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verwirklichen-535",
+        "de": "verwirklichen",
+        "lvGloss": "realizēt • īstenot",
+        "etMain": "realiseerima • ellu viima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Volksabstimmung-536",
+        "de": "Volksabstimmung",
+        "de_article": "die",
+        "lvGloss": "tautas nobalsošana • plebiscīts",
+        "etMain": "rahvahääletus • plebistsiit",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Volksbefragung-537",
+        "de": "Volksbefragung",
+        "de_article": "die",
+        "lvGloss": "visas tautas aptauja • referendums",
+        "etMain": "rahvaküsitlus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vollversammlung-538",
+        "de": "Vollversammlung",
+        "de_article": "die",
+        "lvGloss": "plēnums • pilnsapulce • ģenerālā asambleja",
+        "etMain": "pleenum • üldkoosolek • peaassamblee",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-voreingenommen-539",
+        "de": "voreingenommen",
+        "lvGloss": "aizspriedumains • neobjektīvs",
+        "etMain": "eelarvamuslik • erapoolik",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-waag[e]recht-540",
+        "de": "waag[e]recht",
+        "lvGloss": "līmenisks • horizontāls",
+        "etMain": "horisontaalne",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Waffenruhe-541",
+        "de": "Waffenruhe",
+        "de_article": "die",
+        "lvGloss": "cīņu pārtraukums",
+        "etMain": "relvarahu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Waffenschein-542",
+        "de": "Waffenschein",
+        "de_article": "der",
+        "lvGloss": "ieroča atļauja",
+        "etMain": "relvaluba",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-wahlberechtigt",
+        "de": "wahlberechtigt",
+        "lvGloss": "tāds, kam ir vēlēšanu tiesības",
+        "etMain": "valimisõiguslik",
+        "studyTranslation": "valimisõiguslik",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-wahrhaft-544",
+        "de": "wahrhaft",
+        "lvGloss": "patiesi • tiešām",
+        "etMain": "tõesti • tõepoolest",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wäscheschleuder-545",
+        "de": "Wäscheschleuder",
+        "de_article": "die",
+        "lvGloss": "veļas centrifūga",
+        "etMain": "pesutsentrifuug",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wasserheilanstalt-546",
+        "de": "Wasserheilanstalt",
+        "de_article": "die",
+        "lvGloss": "ūdensdziedniecības iestāde",
+        "etMain": "vesiravila",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wasserkraftwerk-547",
+        "de": "Wasserkraftwerk",
+        "de_article": "das",
+        "lvGloss": "hidroelektrostacija",
+        "etMain": "hüdroelektrijaam",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wasserversorgung-548",
+        "de": "Wasserversorgung",
+        "de_article": "die",
+        "lvGloss": "ūdensapgāde",
+        "etMain": "veevarustus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wechselbeziehung-549",
+        "de": "Wechselbeziehung",
+        "de_article": "die",
+        "lvGloss": "savstarpējs sakars",
+        "etMain": "vastastikune seos",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wehrersatzdienst-550",
+        "de": "Wehrersatzdienst",
+        "de_article": "der",
+        "lvGloss": "civildienests karadienesta vietā",
+        "etMain": "asendusteenistus",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Weidenkätzchen-551",
+        "de": "Weidenkätzchen",
+        "de_article": "das",
+        "lvGloss": "pūpols",
+        "etMain": "pajuurb",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Weltanschauung-552",
+        "de": "Weltanschauung",
+        "de_article": "die",
+        "lvGloss": "pasaules uzskats",
+        "etMain": "maailmavaade",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wetterleuchten-553",
+        "de": "Wetterleuchten",
+        "de_article": "das",
+        "lvGloss": "rūsa",
+        "etMain": "hõõguv välk",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-widerrechtlich-554",
+        "de": "widerrechtlich",
+        "lvGloss": "prettiesisks",
+        "etMain": "õigusvastane",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-wiederherstellen-555",
+        "de": "wiederherstellen",
+        "lvGloss": "atjaunot • restaurēt",
+        "etMain": "taastama • restaureerima",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenfallen-556",
+        "de": "zusammenfallen",
+        "lvGloss": "sabrukt • sagadīties",
+        "etMain": "kokku langema • kokku sattuma",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenstellen-557",
+        "de": "zusammenstellen",
+        "lvGloss": "sastādīt",
+        "etMain": "koostama",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zuschlag",
+        "de": "Zuschlag",
+        "de_article": "der",
+        "lvGloss": "piemaksa • uzcenojums",
+        "etMain": "lisatasu • hinnalisa",
+        "studyTranslation": "lisatasu • hinnalisa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beziehen-sich-beziehen-auf",
+        "de": "beziehen / sich beziehen auf",
+        "lvGloss": "attiecināt • attiekties uz",
+        "etMain": "seostama • käima millegi kohta",
+        "studyTranslation": "saama (nt pensioni) • millelegi viitama / millegi kohta käima",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beabsichtigen",
+        "de": "beabsichtigen",
+        "lvGloss": "nodomāt • plānot",
+        "etMain": "kavatsema • plaanima",
+        "studyTranslation": "kavatsema • plaanima",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unterstellen",
+        "de": "unterstellen",
+        "lvGloss": "pārmest • piedēvēt bez pamata",
+        "etMain": "ette heitma • alusetult omistama",
+        "studyTranslation": "ette heitma • alusetult omistama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-voraussetzen",
+        "de": "voraussetzen",
+        "lvGloss": "pieņemt kā priekšnoteikumu",
+        "etMain": "eeldama",
+        "studyTranslation": "eeldama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bewahren",
+        "de": "bewahren",
+        "lvGloss": "pasargāt • saglabāt",
+        "etMain": "hoidma • säilitama",
+        "studyTranslation": "hoidma • säilitama",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-aufrechterhalten",
+        "de": "aufrechterhalten",
+        "lvGloss": "uzturēt spēkā",
+        "etMain": "kehtivana hoidma",
+        "studyTranslation": "kehtivana hoidma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hektar-565",
+        "de": "Hektar",
+        "de_article": "der",
+        "lvGloss": "hektārs",
+        "etMain": "hektar",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Karre-566",
+        "de": "Karre",
+        "de_article": "die",
+        "lvGloss": "ķerra",
+        "etMain": "kärutis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Karren-567",
+        "de": "Karren",
+        "de_article": "der",
+        "lvGloss": "ķerra",
+        "etMain": "kärutis",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Krüppel-568",
+        "de": "Krüppel",
+        "de_article": "der",
+        "lvGloss": "kroplis",
+        "etMain": "sandistunu",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Matsch-569",
+        "de": "Matsch",
+        "de_article": "der",
+        "lvGloss": "dubļi • šļaka",
+        "etMain": "pori • lörts",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Panter-570",
+        "de": "Panter",
+        "de_article": "der",
+        "lvGloss": "pantera",
+        "etMain": "panter",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Panther-571",
+        "de": "Panther",
+        "de_article": "der",
+        "lvGloss": "pantera",
+        "etMain": "panter",
+        "studyTranslation": null,
+        "status": "OK",
+        "flags": []
+      }
+    ],
+    "summary": {
+      "OK": 571,
+      "WARNING": 1,
+      "ERROR": 0
+    }
+  },
+  "studyCards": {
+    "issues": [],
+    "pass": true
+  },
+  "sectionAccents": {
+    "issues": [],
+    "pass": true
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  },
+  "comparisonStudy": {
+    "issues": [],
+    "count": 0
+  },
+  "standardStudy": {
+    "count": 15
+  }
+}
