@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-24T16:11:07.796Z",
+  "timestamp": "2026-08-24T16:11:40.618Z",
   "mainBefore": "03389f707316ed91b12e67b33d4492515640f768",
-  "prHead": "d2507d11437215db53d3805dc828edadef4aca3e",
+  "prHead": "299b3f8e1894bd56d7ae5fd4800188699debf6fb",
   "requestedOwnerMappings": 19,
   "appliedVerified": 19,
   "currentValueMismatch": 0,
@@ -13,7 +13,7 @@
   "multiTranslationScanCoverage": "100%",
   "fieldsScanned": 219,
   "fullC2Scan": "219/219",
-  "etProductionChanges": 0,
+  "etProductionChanges": 2,
   "unexpectedProductionChanges": 0,
   "deChanges": 0,
   "syntaxPass": true,

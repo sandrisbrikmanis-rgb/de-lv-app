@@ -16,7 +16,7 @@
 | Field | SHA |
 |-------|-----|
 | **MAIN_BEFORE** | `03389f707316ed91b12e67b33d4492515640f768` |
-| **PR_HEAD** | `a5455e1d30a8819cbca361e5465bbea1dcf0e499` (apply commit; update after push) |
+| **PR_HEAD** | `299b3f8e1894bd56d7ae5fd4800188699debf6fb` |
 | **MERGE_COMMIT** | (pending) |
 | **MAIN_AFTER** | (pending) |
 
