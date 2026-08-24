@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-08-24T14:09:01.929Z",
+  "originMainSha": "fa7011e8dd0c975053c9c302ea875898dc9e63e8",
+  "a1Cards": 702,
+  "mainTranslationCountViolations": 0,
+  "multipleMainTranslationsValidatedReal": 0,
+  "multipleMainTranslationsOwnerUnresolved": 0,
+  "mainTranslationFieldInventoryCoverage": "100%",
+  "multiTranslationScanCoverage": "100%",
+  "fieldsScanned": 702,
+  "deChanges": 0,
+  "syntaxPass": true,
+  "mirrorPass": true,
+  "regressionAtoE": "PASS",
+  "ET_A1_MULTITRANSLATION_POSTMERGE_VERIFY": "PASS",
+  "finalVerdict": "ET_A1_MULTITRANSLATION_CLOSED_ON_MAIN"
+}

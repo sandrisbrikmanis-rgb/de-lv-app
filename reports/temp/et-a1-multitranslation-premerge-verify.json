@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-08-24T14:08:32.057Z",
+  "requestedOwnerMappings": 61,
+  "appliedVerified": 61,
+  "currentValueMismatch": 0,
+  "mainTranslationCountViolations": 0,
+  "multipleMainTranslationsValidatedReal": 0,
+  "mainTranslationFieldInventoryCoverage": "100%",
+  "fullA1Scan": "702/702",
+  "deChanges": 0,
+  "syntaxPass": true,
+  "mirrorPass": true,
+  "regressionAtoE": "PASS",
+  "ET_A1_MULTITRANSLATION_PREMERGE_VERIFY": "PASS"
+}
