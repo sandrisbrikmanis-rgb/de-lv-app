@@ -5,9 +5,11 @@
 
 ## Final verdict
 
-**ET_TEIKUMI_MULTITRANSLATION_OWNER_ACCEPTED_120** (pre-merge PASS; closure pending merge)
+**ET_TEIKUMI_MULTITRANSLATION_CLOSED_ON_MAIN**
 
-Pre-merge: `reports/temp/et-sentences-multitranslation-premerge-verify.json`
+Full closure record: `reports/et-sentences-multitranslation-main-verification.md` (PR [#659](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/659), merged 2026-08-24).
+
+Post-merge artifact: `reports/temp/et-sentences-multitranslation-postmerge-verify.json`
 
 ## Scanner note
 
