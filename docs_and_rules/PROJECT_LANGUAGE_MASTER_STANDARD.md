@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.9\
+**Versija:** 1.11\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -62,16 +62,198 @@ branch saturs **nav OWNER lēmums**.
 
 # 1. PAMATPRINCIPI
 
-## 1.1. Learning First
+## 1.1. Parastā flashcard — tieši viens OWNER apstiprināts galvenais tulkojums
+
+Parastai flashcard kartītei learner-facing tulkojuma laukā drīkst būt
+**tieši VIENS galvenais tulkojums**.
+
+### 1.1.1. Obligāti
+
+-   `TRANSLATION_COUNT = 1`;
+-   viens learner-facing galvenais tulkojums;
+-   tulkojumam jāatbilst konkrētajai DE kartītes nozīmei;
+-   alternatīvas nozīmes nedrīkst automātiski apvienot vienā parastā
+    flashcard.
+
+### 1.1.2. Aizliegts kā gala production stāvoklis
+
+Piemēri:
+
+`püsiv • pikaajaline • vastupidav`
+
+`püsiv / pikaajaline`
+
+`püsiv; pikaajaline`
+
+vai cita konstrukcija, kas learner-facing laukā faktiski satur vairākus
+tulkojuma/nozīmes kandidātus.
+
+Separatoru saraksts nav izsmeļošs. Deterministiskajam auditam jāspēj
+atklāt arī strukturāli vai tekstuāli citādi reprezentētus vairāku
+tulkojumu kandidātus.
+
+### 1.1.3. MULTIPLE_TRANSLATIONS_DETECTED = OWNER_DECISION_REQUIRED
+
+Ja auditā vai repair/regression posmā parastā flashcard satur vairāk nekā
+vienu tulkojumu/nozīmes kandidātu:
+
+`MULTIPLE_TRANSLATIONS_DETECTED = true`
+
+tad obligāti:
+
+`OWNER_DECISION_REQUIRED`
+
+Tas ir **HARD GATE**.
+
+Ne Luna, ne Cursor, ne audits, ne repair skripts nedrīkst automātiski
+izvēlēties, kurš variants jāatstāj.
+
+Pat ja viens variants šķiet lingvistiski acīmredzami labāks, automātiska
+dzēšana/izvēle ir aizliegta.
+
+### 1.1.4. Audita pienākums
+
+Audits drīkst un tam vajag:
+
+1.  identificēt visus esošos tulkojuma kandidātus;
+2.  saglabāt precīzu `CURRENT`;
+3.  norādīt DE avota vārdu/nozīmi;
+4.  lingvistiski izvērtēt katru kandidātu;
+5.  paskaidrot semantiskās atšķirības;
+6.  norādīt rekomendēto variantu, ja iespējams;
+7.  nodot kartīti OWNER lēmumam.
+
+Audita rekomendācija **nav OWNER lēmums**.
+
+`PROPOSED` / `RECOMMENDED` / Luna priekšlikums nedrīkst kļūt par
+production `NEW` bez OWNER apstiprinājuma.
+
+### 1.1.5. OWNER VIEW / DECISIONS obligātie lauki
+
+Katram `MULTIPLE_TRANSLATIONS_DETECTED` findingam OWNER artefaktā jābūt
+vismaz:
+
+-   Card ID;
+-   Field/path;
+-   DE;
+-   CURRENT;
+-   detected translation candidates;
+-   semantic assessment;
+-   recommended main translation (ja ir);
+-   OWNER NEW;
+-   Status.
+
+Pirms OWNER lēmuma:
+
+`Status: OWNER_DECISION_REQUIRED`
+
+`OWNER NEW:` tukšs / unresolved.
+
+OWNER drīkst izlemt:
+
+-   atstāt vienu no esošajiem variantiem;
+-   ievadīt citu vienu tulkojumu;
+-   pārvietot papildu nozīmi uz Study;
+-   pieprasīt atsevišķu kartīti;
+-   `NELABOT`, ja konkrētais gadījums pēc OWNER izvērtējuma nav vairāku
+    tulkojumu pārkāpums.
+
+### 1.1.6. REPAIR APPLY HARD GATE
+
+COPY-ONLY repair drīkst mainīt šādu kartīti tikai tad, ja OWNER mappingā
+ir:
+
+-   `Status: LABOT`;
+-   precīzs `Card ID`;
+-   precīzs `Field/path`;
+-   precīzs `CURRENT`;
+-   precīzs OWNER apstiprināts `NEW`;
+-   `NEW` satur tieši vienu galveno tulkojumu, ja kartīte paliek parasta
+    flashcard.
+
+Aizliegts repair laikā:
+
+-   pašam izvēlēties pirmo variantu;
+-   izvēlēties īsāko variantu;
+-   izvēlēties Luna `proposed`;
+-   izvēlēties auditora `recommended`;
+-   dzēst pārējos variantus bez OWNER lēmuma;
+-   automātiski pārveidot kartīti par Study;
+-   automātiski izveidot jaunu kartīti.
+
+Ja OWNER lēmuma nav:
+
+`SKIP_OWNER_DECISION_REQUIRED`
+
+Production paliek nemainīts.
+
+### 1.1.7. standardStudy izņēmums
+
+Šis noteikums nenozīmē, ka Study saturā aizliegts skaidrot semantiskas
+nianses, sinonīmus vai salīdzinājumus.
+
+`standardStudy` drīkst pedagoģiski izskaidrot vairākas nozīmes/atšķirības
+atbilstoši Study noteikumiem.
+
+Taču parastās flashcard learner-facing galvenais tulkojums joprojām ir:
+
+`TRANSLATION_COUNT = 1`
+
+Ja viena DE vienība nevar korekti tikt mācīta ar vienu galveno
+tulkojumu, tas ir OWNER izvērtējams kandidāts Study vai atsevišķas
+kartītes risinājumam.
+
+### 1.1.8. Aizliegta automātiska semantiska izvēle
+
+MASTER v1.11 nostiprina:
+
+**DETECTION** var būt automātiska.\
+**SEMANTIC ANALYSIS** var būt automātiska.\
+**RECOMMENDATION** var būt automātiska.\
+**FINAL SELECTION** vairāku tulkojumu gadījumā pieder tikai OWNER.
+
+Šis princips ir prioritārs pār jebkuru repair automatizāciju.
+
+### 1.1.9. Normatīvs piemērs
+
+Production:
+
+`dauerhaft → püsiv • pikaajaline • vastupidav`
+
+Audit:
+
+`MULTIPLE_TRANSLATIONS_DETECTED = true`
+
+Audits drīkst norādīt, ka kandidātiem ir atšķirīgas semantiskas nianses
+un sniegt rekomendāciju.
+
+Audits **nedrīkst** automātiski pārvērst production par:
+
+`dauerhaft → püsiv`
+
+Pat ja `püsiv` tiek rekomendēts.
+
+Pareizais stāvoklis pirms OWNER lēmuma:
+
+`Status: OWNER_DECISION_REQUIRED`
+
+Tikai pēc OWNER apstiprinājuma, piemēram:
+
+`Status: LABOT`
+
+`CURRENT: püsiv • pikaajaline • vastupidav`
+
+`NEW: püsiv`
+
+repair drīkst veikt COPY-ONLY izmaiņu.
+
+### 1.1.10. Learning First pedagoģiskais princips
 
 Šī lietotne nav vārdnīca. Galvenajai flashkartei jābūt ātri uztveramai.
 
--   priekšpusē rāda vienu galveno vai dažas praktiski svarīgākās
-    nozīmes;
+-   priekšpusē rāda vienu galveno nozīmi (sk. §1.1);
 -   papildu nozīmes, konstrukcijas un nianses skaidro Study saturā;
--   virsrakstu nedrīkst pārvērst vārdnīcas ierakstā;
--   vairākas galvenās nozīmes atdala tikai ar `•`;
--   semikoli nozīmju uzskaitījumos nav atļauti.
+-   virsrakstu nedrīkst pārvērst vārdnīcas ierakstā.
 
 Atšķirība starp flashkartes `{lang}` un `study.translation` pati par
 sevi nav kļūda. Kļūda ir tikai tad, ja tulkojums ir nepareizs, sajaukti
@@ -761,6 +943,13 @@ Katram findingam obligāti norādīt:
 - `OWNER STATUS`: `PENDING`;
 - `OWNER_DECISION`: tukšs.
 
+Ja `MULTIPLE_TRANSLATIONS_DETECTED = true`, papildus obligāti (sk. §1.1.5):
+
+- detected translation candidates;
+- semantic assessment;
+- recommended main translation (ja ir);
+- `Status: OWNER_DECISION_REQUIRED` līdz OWNER lēmumam.
+
 `PROPOSED_<LANGUAGE>` ir tikai audita ieteikums un **nav** OWNER
 apstiprināts labojums.
 
@@ -1323,6 +1512,38 @@ Ja kaut viens no šiem FAIL:
 
 `FINAL VERDICT = BLOCKED_OWNER_ARTIFACT_PUBLICATION_FAILED`
 
+## 7.25 MULTI_TRANSLATION_SCAN
+
+MASTER pilnajam deterministic discovery slānim obligāti pievienots:
+
+`MULTI_TRANSLATION_SCAN`
+
+Scope:
+
+**100% visu parasto flashcard learner-facing tulkojuma lauku.**
+
+Jāmeklē vismaz:
+
+-   `•`;
+-   `/`;
+-   `;`;
+-   newline/list konstrukcijas;
+-   arrays vai citas struktūras, kas rendererī rada vairākus
+    learner-facing tulkojumus;
+-   citi deterministiski identificējami vairāku tulkojumu modeļi.
+
+Svarīgi:
+
+separatora atrašana ir **candidate detection**, nevis automātisks
+lingvistisks spriedums.
+
+False positive drīkst aizvērt tikai validācija/OWNER process atbilstoši
+findinga tipam.
+
+Ja `MULTIPLE_TRANSLATIONS_DETECTED = true`:
+
+`OWNER_DECISION_REQUIRED` (sk. §1.1.3).
+
 ------------------------------------------------------------------------
 
 # 8. OWNER REVIEW
@@ -1369,6 +1590,9 @@ Pirms katras izmaiņas obligāti:
 Apply tikai `Status = LABOT`, precīzs OWNER target un precīzs OWNER NEW.
 `NELABOT`, `FALSE_POSITIVE`, `NEEDS_SOURCE_REVIEW` netiek modificēti.
 
+Vairāku tulkojumu gadījumā obligāti §1.1.6: bez OWNER `NEW` ar tieši
+vienu galveno tulkojumu — `SKIP_OWNER_DECISION_REQUIRED`.
+
 Nedrīkst mainīt blakus kartes, citus laukus tajā pašā objektā, DE, LV
 MASTER, citas valodas, renderer/CSS/UI loģiku vai formatējumu visā failā
 tikai cleanup dēļ.
@@ -1396,6 +1620,18 @@ Pēc remonta obligāti pārbauda:
 15. unexpected production changes = 0.
 
 Ja regression atrod kļūdu, dataset nav CLOSED.
+
+## 10.1. Multiple translation OWNER lock
+
+MASTER regression suite papildināts ar pārbaudi, ka:
+
+1.  parastā flashcard ar `A • B • C` tiek atrasta;
+2.  tooling neizvēlas `A`, `B` vai `C` automātiski;
+3.  finding kļūst `OWNER_DECISION_REQUIRED`;
+4.  bez OWNER `NEW` production netiek mainīts;
+5.  pēc OWNER apstiprināta viena `NEW` COPY-ONLY apply strādā;
+6.  post-repair full residual scan apstiprina
+    `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS = 0`.
 
 ------------------------------------------------------------------------
 
@@ -1469,7 +1705,9 @@ Closure KPI ir:
 - deterministic gates = PASS;
 - repair regressions = 0;
 - unexpected changes = 0;
-- READ-ONLY integritāte = PASS.
+- READ-ONLY integritāte = PASS;
+- `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS = 0` (sk. §11.11);
+- `MULTIPLE_TRANSLATION_OWNER_UNRESOLVED = 0` (sk. §11.12).
 
 Raw LLM finding count izmanto discovery uzskaitei, nevis kā vienīgo kvalitātes progresijas metriku.
 
@@ -1847,6 +2085,38 @@ OWNER DECISIONS; publicē GitHub.
 
 OWNER nedrīkst būt atbildīgs par failu ģenerēšanas ierosināšanu.
 
+## 11.11. MULTI_TRANSLATION_RESIDUAL_SCAN
+
+Pēc repair nepietiek pārbaudīt tikai labotās kartītes.
+
+Obligāti atkārtoti jāpārbauda **100% parasto flashcard**:
+
+`MULTI_TRANSLATION_RESIDUAL_SCAN = PASS`
+
+## 11.12. v1.11 closure metrics — vairāku tulkojumu hard gate
+
+Katras valodas/dataset gala closure atskaitē obligāti norādīt:
+
+-   `ORDINARY_FLASHCARD_SCOPE = <count>/<count>`;
+-   `MULTI_TRANSLATION_SCAN_COVERAGE = 100%`;
+-   `MULTIPLE_TRANSLATION_CANDIDATES_RAW = <count>`;
+-   `MULTIPLE_TRANSLATION_VALIDATED_REAL = 0`;
+-   `MULTIPLE_TRANSLATION_OWNER_UNRESOLVED = 0`;
+-   `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS = 0`;
+-   `OWNER_AUTOMATIC_SELECTION = 0`.
+
+Ja:
+
+`MULTIPLE_TRANSLATION_OWNER_UNRESOLVED > 0`
+
+vai
+
+`ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS > 0`
+
+tad:
+
+`FINAL_CLOSED_ON_MAIN = BLOCKED`
+
 ------------------------------------------------------------------------
 
 # 12. GIT / BRANCH MASTER PROTOKOLS
@@ -2065,7 +2335,10 @@ CLOSED` tikai tad, ja:
 -   LV MASTER READ-ONLY PASS;
 -   syntax, ID/order, mirror un relevant validators PASS;
 -   final Git state ir zināms;
--   `OWNER_DECISION_REOPEN_REQUIRED = 0` vai OWNER atrisināts.
+-   `OWNER_DECISION_REOPEN_REQUIRED = 0` vai OWNER atrisināts;
+-   `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS = 0` (sk. §11.12);
+-   `MULTIPLE_TRANSLATION_OWNER_UNRESOLVED = 0` (sk. §11.12);
+-   `MULTI_TRANSLATION_RESIDUAL_SCAN = PASS` (sk. §11.11).
 
 Līdz `POST_MERGE_MAIN_VERIFICATION` PASS atļautais stāvoklis ir
 `CLOSED_PENDING_MAIN_INTEGRATION`, nevis `FINAL_CLOSED`.
@@ -2095,7 +2368,8 @@ Findings, LABOT, NELABOT, FALSE_POSITIVE, NEEDS_SOURCE_REVIEW, PENDING.
 
 ### Apply
 
-Requested, applied, already applied, mismatch, skipped, unexpected.
+Requested, applied, already applied, mismatch, skipped, unexpected,
+`SKIP_OWNER_DECISION_REQUIRED`.
 
 ### Validācija
 
@@ -2112,6 +2386,15 @@ DE changes = 0; LV MASTER changes = 0; other-language unexpected changes
 ### Zināmās problēmas
 
 Tikai reāli neatrisinātais. Ja nav: `Nav zināmu neatrisinātu problēmu.`
+
+### Multi-translation closure (v1.11)
+
+`ORDINARY_FLASHCARD_SCOPE`, `MULTI_TRANSLATION_SCAN_COVERAGE`,
+`MULTIPLE_TRANSLATION_CANDIDATES_RAW`,
+`MULTIPLE_TRANSLATION_VALIDATED_REAL`,
+`MULTIPLE_TRANSLATION_OWNER_UNRESOLVED`,
+`ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS`,
+`OWNER_AUTOMATIC_SELECTION`, `MULTI_TRANSLATION_RESIDUAL_SCAN`.
 
 ------------------------------------------------------------------------
 
@@ -2418,6 +2701,37 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.11
+
+Multiple translation OWNER hard gate — parastai flashcard tieši viens
+galvenais tulkojums; vairāku tulkojumu reducēšana tikai ar OWNER lēmumu.
+
+Pievienots:
+
+- §1.1 Parastā flashcard — tieši viens OWNER apstiprināts galvenais
+  tulkojums (§1.1.1–§1.1.10);
+- `MULTIPLE_TRANSLATIONS_DETECTED` → `OWNER_DECISION_REQUIRED` hard gate;
+- §1.1.4 audita pienākums; §1.1.5 OWNER artefaktu lauki;
+- §1.1.6 repair apply hard gate un `SKIP_OWNER_DECISION_REQUIRED`;
+- §1.1.7 `standardStudy` izņēmums;
+- §1.1.8 aizliegta automātiska semantiska izvēle;
+- §7.25 `MULTI_TRANSLATION_SCAN` deterministic discovery slānis;
+- §10.1 multiple translation OWNER lock regression;
+- §11.11 `MULTI_TRANSLATION_RESIDUAL_SCAN`;
+- §11.12 v1.11 closure metrics un `FINAL_CLOSED_ON_MAIN = BLOCKED`;
+- §13 un §14 papildinājumi multi-translation closure metrikām.
+
+Šis PATCH nemaina v1.10 deterministic completeness, Kurss
+runtime/browser, residual-scan vai closure prasības. Tas tās papildina.
+
+**FINAL v1.11 RULE:** Parastai flashcard ir tieši viens galvenais
+tulkojums. Vairāku tulkojumu gadījumā tooling drīkst atrast, analizēt
+un rekomendēt, bet nedrīkst izvēlēties OWNER vietā. Jebkura vairāku
+tulkojumu reducēšana līdz vienam ir OWNER lēmums un bez precīza OWNER
+NEW production izmaiņa ir aizliegta.
+
+Version 1.10 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.11.
+
 ## Version 1.9
 
 Automatic OWNER artifact publication gate.
@@ -2589,4 +2903,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.9 --- END
+## MASTER 1.11 --- END
