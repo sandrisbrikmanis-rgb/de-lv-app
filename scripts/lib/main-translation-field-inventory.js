@@ -128,6 +128,14 @@ function isMultiTranslationFalsePositive(text, fieldPath) {
   const t = String(text || "").trim();
   if (!t) return true;
   if (/—/.test(t) && /\b(ich|du|der |die |das |ein |eine?n? )\b/i.test(t)) return true;
+  // Teikumi / sentence cards: comma without • is internal punctuation, not alt translations
+  if (!/[•/;]/.test(t) && /,\s+/.test(t)) {
+    const parts = t.split(/,\s+/).map((p) => p.trim()).filter(Boolean);
+    if (parts.length >= 2) {
+      if (/[.!?…]$/.test(t)) return true;
+      if (parts[0].length <= 12 && parts.length === 2) return true;
+    }
+  }
   return false;
 }
 

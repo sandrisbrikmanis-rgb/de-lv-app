@@ -1,0 +1,1351 @@
+{
+  "dryRun": false,
+  "masterVersion": "1.12",
+  "staged": [
+    {
+      "auditId": "ET-SENT-MT-0004",
+      "cardId": "Heraus mit der Sprache!",
+      "field": "lv",
+      "ownerNew": "Räägi ära!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0007",
+      "cardId": "Anklang finden.",
+      "field": "lv",
+      "ownerNew": "Leida vastukaja.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0008",
+      "cardId": "Aus diesem Anlass.",
+      "field": "lv",
+      "ownerNew": "Sel puhul.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0011",
+      "cardId": "Unter vier Augen.",
+      "field": "lv",
+      "ownerNew": "Kahekesi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0012",
+      "cardId": "Auf die lange Bank schieben.",
+      "field": "lv",
+      "ownerNew": "Edasi lükata.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0013",
+      "cardId": "Mist bauen.",
+      "field": "lv",
+      "ownerNew": "Untsu keerata.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0015",
+      "cardId": "Er ist schwer von Begriff.",
+      "field": "lv",
+      "ownerNew": "Ta taipab aeglaselt.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0016",
+      "cardId": "Im Gedächtnis behalten.",
+      "field": "lv",
+      "ownerNew": "Meelde jätta.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0017",
+      "cardId": "Beistand leisten.",
+      "field": "lv",
+      "ownerNew": "Osutada abi.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0018",
+      "cardId": "Bekanntschaft anknüpfen.",
+      "field": "lv",
+      "ownerNew": "Tuttavaks saada.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0019",
+      "cardId": "Bereit sein.",
+      "field": "lv",
+      "ownerNew": "Olla valmis.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0020",
+      "cardId": "Bericht erstatten.",
+      "field": "lv",
+      "ownerNew": "Teatada.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0021",
+      "cardId": "Gute Besserung!",
+      "field": "lv",
+      "ownerNew": "Paranege!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0022",
+      "cardId": "Ganz bestimmt.",
+      "field": "lv",
+      "ownerNew": "Kindlasti.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0023",
+      "cardId": "In Betracht ziehen.",
+      "field": "lv",
+      "ownerNew": "Arvesse võtta.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0024",
+      "cardId": "Außer Betracht lassen.",
+      "field": "lv",
+      "ownerNew": "Mitte arvesse võtta.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0026",
+      "cardId": "Bitte checken.",
+      "field": "lv",
+      "ownerNew": "Kontrollida.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0027",
+      "cardId": "Es dämmert.",
+      "field": "lv",
+      "ownerNew": "Hakkab hämarduma.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0028",
+      "cardId": "Danke schön!",
+      "field": "lv",
+      "ownerNew": "Aitäh!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0029",
+      "cardId": "Seien Sie so gut!",
+      "field": "lv",
+      "ownerNew": "Olge nii lahke!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0033",
+      "cardId": "Geschweige denn...",
+      "field": "lv",
+      "ownerNew": "Rääkimata sellest.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0034",
+      "cardId": "Wie geht es Ihnen?",
+      "field": "lv",
+      "ownerNew": "Kuidas teil läheb?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0038",
+      "cardId": "Gedenkst du meiner?",
+      "field": "lv",
+      "ownerNew": "Kas sa mind mäletad?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0040",
+      "cardId": "Lass das!",
+      "field": "lv",
+      "ownerNew": "Lõpeta!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0041",
+      "cardId": "Leben Sie wohl!",
+      "field": "lv",
+      "ownerNew": "Elage õnnelikult!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0042",
+      "cardId": "Was meinen Sie damit?",
+      "field": "lv",
+      "ownerNew": "Mida te sellega mõtlete?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0043",
+      "cardId": "Nicht doch!",
+      "field": "lv",
+      "ownerNew": "Ei ometi!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0046",
+      "cardId": "Was bin ich schuldig?",
+      "field": "lv",
+      "ownerNew": "Kui palju ma võlgnen?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0048",
+      "cardId": "Spaß beiseite!",
+      "field": "lv",
+      "ownerNew": "Ilma naljata!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0050",
+      "cardId": "Nicht übel!",
+      "field": "lv",
+      "ownerNew": "Üsna hea!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0052",
+      "cardId": "Vor allem.",
+      "field": "lv",
+      "ownerNew": "Esiteks.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0053",
+      "cardId": "Im Voraus.",
+      "field": "lv",
+      "ownerNew": "Ette.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0055",
+      "cardId": "Vorhanden sein.",
+      "field": "lv",
+      "ownerNew": "Olemas olla.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0056",
+      "cardId": "Heute Vormittag.",
+      "field": "lv",
+      "ownerNew": "Täna hommikul.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0057",
+      "cardId": "Was für ein...?",
+      "field": "lv",
+      "ownerNew": "Milline...?",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0058",
+      "cardId": "Auf diesem Wege.",
+      "field": "lv",
+      "ownerNew": "Sel viisil.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0059",
+      "cardId": "Alle Welt.",
+      "field": "lv",
+      "ownerNew": "Kogu maailm.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0061",
+      "cardId": "Widerspruch erheben.",
+      "field": "lv",
+      "ownerNew": "Protesteerida.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0062",
+      "cardId": "Zugrunde legen.",
+      "field": "lv",
+      "ownerNew": "Panna aluseks.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-SENT-MT-0063",
+      "cardId": "Zuwider werden.",
+      "field": "lv",
+      "ownerNew": "Muutuda vastikuks.",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ET-SENT-MT-0004",
+      "cardId": "Heraus mit der Sprache!",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0007",
+      "cardId": "Anklang finden.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0008",
+      "cardId": "Aus diesem Anlass.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0011",
+      "cardId": "Unter vier Augen.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0012",
+      "cardId": "Auf die lange Bank schieben.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0013",
+      "cardId": "Mist bauen.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0015",
+      "cardId": "Er ist schwer von Begriff.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0016",
+      "cardId": "Im Gedächtnis behalten.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0017",
+      "cardId": "Beistand leisten.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0018",
+      "cardId": "Bekanntschaft anknüpfen.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0019",
+      "cardId": "Bereit sein.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0020",
+      "cardId": "Bericht erstatten.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0021",
+      "cardId": "Gute Besserung!",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0022",
+      "cardId": "Ganz bestimmt.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0023",
+      "cardId": "In Betracht ziehen.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0024",
+      "cardId": "Außer Betracht lassen.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0026",
+      "cardId": "Bitte checken.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0027",
+      "cardId": "Es dämmert.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0028",
+      "cardId": "Danke schön!",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0029",
+      "cardId": "Seien Sie so gut!",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0033",
+      "cardId": "Geschweige denn...",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0034",
+      "cardId": "Wie geht es Ihnen?",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0038",
+      "cardId": "Gedenkst du meiner?",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0040",
+      "cardId": "Lass das!",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0041",
+      "cardId": "Leben Sie wohl!",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0042",
+      "cardId": "Was meinen Sie damit?",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0043",
+      "cardId": "Nicht doch!",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0046",
+      "cardId": "Was bin ich schuldig?",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0048",
+      "cardId": "Spaß beiseite!",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0050",
+      "cardId": "Nicht übel!",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0052",
+      "cardId": "Vor allem.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0053",
+      "cardId": "Im Voraus.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0055",
+      "cardId": "Vorhanden sein.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0056",
+      "cardId": "Heute Vormittag.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0057",
+      "cardId": "Was für ein...?",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0058",
+      "cardId": "Auf diesem Wege.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0059",
+      "cardId": "Alle Welt.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0061",
+      "cardId": "Widerspruch erheben.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0062",
+      "cardId": "Zugrunde legen.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0063",
+      "cardId": "Zuwider werden.",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [
+    {
+      "auditId": "ET-SENT-MT-0001",
+      "cardId": "Je mehr, desto besser.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Je mehr, desto besser.",
+      "current": "Mida rohkem, seda parem.",
+      "ownerNew": "Mida rohkem, seda parem.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0002",
+      "cardId": "Du bildest dir nur ein, krank zu sein.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Du bildest dir nur ein, krank zu sein.",
+      "current": "Sa ainult kujutled, et oled haige.",
+      "ownerNew": "Sa ainult kujutled, et oled haige.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0003",
+      "cardId": "Entschuldigen Sie bitte!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Entschuldigen Sie bitte!",
+      "current": "Vabandage, palun!",
+      "ownerNew": "Vabandage, palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0005",
+      "cardId": "Ich warte den Regen ab.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Ich warte den Regen ab.",
+      "current": "Ma ootan ära, kuni vihm lakkab.",
+      "ownerNew": "Ma ootan ära, kuni vihm lakkab.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0006",
+      "cardId": "Keine Angst, alles wird gut.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Keine Angst, alles wird gut.",
+      "current": "Ära karda, kõik saab korda.",
+      "ownerNew": "Ära karda, kõik saab korda.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0009",
+      "cardId": "Nehmen wir an, dass...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Nehmen wir an, dass...",
+      "current": "Oletame, et...",
+      "ownerNew": "Oletame, et...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0010",
+      "cardId": "Du glaubst mir anscheinend nicht.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Du glaubst mir anscheinend nicht.",
+      "current": "Näib, et sa ei usu mind.",
+      "ownerNew": "Näib, et sa ei usu mind.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0014",
+      "cardId": "Unter der Bedingung, dass...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Unter der Bedingung, dass...",
+      "current": "Tingimusel, et...",
+      "ownerNew": "Tingimusel, et...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0025",
+      "cardId": "Wie bitte?",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Wie bitte?",
+      "current": "Kuidas, palun?",
+      "ownerNew": "Kuidas, palun?",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0030",
+      "cardId": "Gestatten Sie bitte!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Gestatten Sie bitte!",
+      "current": "Lubage, palun!",
+      "ownerNew": "Lubage, palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0031",
+      "cardId": "Ich muss gestehen, dass...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Ich muss gestehen, dass...",
+      "current": "Pean tunnistama, et...",
+      "ownerNew": "Pean tunnistama, et...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0032",
+      "cardId": "Es ist mir gleichgültig, ob...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Es ist mir gleichgültig, ob...",
+      "current": "Mulle on ükskõik, kas...",
+      "ownerNew": "Mulle on ükskõik, kas...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0035",
+      "cardId": "Frag ihn gelegentlich, ob...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Frag ihn gelegentlich, ob...",
+      "current": "Küsi temalt aeg-ajalt, kas...",
+      "ownerNew": "Küsi temalt aeg-ajalt, kas...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0036",
+      "cardId": "Aus diesem Brief folgt, dass...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Aus diesem Brief folgt, dass...",
+      "current": "Sellest kirjast selgub, et...",
+      "ownerNew": "Sellest kirjast selgub, et...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0037",
+      "cardId": "Es erwies sich, dass...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Es erwies sich, dass...",
+      "current": "Selgus, et...",
+      "ownerNew": "Selgus, et...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0039",
+      "cardId": "je mehr, desto besser",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "je mehr, desto besser",
+      "current": "mida rohkem, seda parem",
+      "ownerNew": "mida rohkem, seda parem",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0044",
+      "cardId": "Nun endlich!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Nun endlich!",
+      "current": "Noh, lõpuks ometi!",
+      "ownerNew": "Noh, lõpuks ometi!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0045",
+      "cardId": "Man sagt, dass...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Man sagt, dass...",
+      "current": "Räägitakse, et...",
+      "ownerNew": "Räägitakse, et...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0047",
+      "cardId": "Nicht nur..., sondern auch...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Nicht nur..., sondern auch...",
+      "current": "Mitte ainult..., vaid ka...",
+      "ownerNew": "Mitte ainult..., vaid ka...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0049",
+      "cardId": "Statt zu...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Statt zu...",
+      "current": "Selle asemel, et...",
+      "ownerNew": "Selle asemel, et...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0051",
+      "cardId": "Es geschah, wie verabredet.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Es geschah, wie verabredet.",
+      "current": "Läks nii, nagu oli kokku lepitud.",
+      "ownerNew": "Läks nii, nagu oli kokku lepitud.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0054",
+      "cardId": "Unter der Voraussetzung, dass...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Unter der Voraussetzung, dass...",
+      "current": "Eeldusel, et...",
+      "ownerNew": "Eeldusel, et...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0060",
+      "cardId": "Er ist wert, dass...",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Er ist wert, dass...",
+      "current": "Ta on ära teeninud, et...",
+      "ownerNew": "Ta on ära teeninud, et...",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0064",
+      "cardId": "Ben, komm bitte an die Tafel!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Ben, komm bitte an die Tafel!",
+      "current": "Ben, tule palun tahvli juurde!",
+      "ownerNew": "Ben, tule palun tahvli juurde!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0065",
+      "cardId": "Wecke ihn bitte auf, es ist schon spät!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Wecke ihn bitte auf, es ist schon spät!",
+      "current": "Palun ärata ta, on juba hilja!",
+      "ownerNew": "Palun ärata ta, on juba hilja!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0066",
+      "cardId": "Finn, fang bitte an!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Finn, fang bitte an!",
+      "current": "Finn, alusta palun!",
+      "ownerNew": "Finn, alusta palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0067",
+      "cardId": "Lest bitte mit!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Lest bitte mit!",
+      "current": "Lugege kaasa, palun!",
+      "ownerNew": "Lugege kaasa, palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0068",
+      "cardId": "Emma, schau bitte nicht aus dem Fenster!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Emma, schau bitte nicht aus dem Fenster!",
+      "current": "Emma, palun ära vaata aknast välja!",
+      "ownerNew": "Emma, palun ära vaata aknast välja!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0069",
+      "cardId": "Jonas, bring bitte die Hefte!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Jonas, bring bitte die Hefte!",
+      "current": "Jonas, too palun vihikud!",
+      "ownerNew": "Jonas, too palun vihikud!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0070",
+      "cardId": "Steh auf, Hanna, es klingelt!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Steh auf, Hanna, es klingelt!",
+      "current": "Tõuse üles, Hanna, kell heliseb!",
+      "ownerNew": "Tõuse üles, Hanna, kell heliseb!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0071",
+      "cardId": "Zieh dich bitte schnell an!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Zieh dich bitte schnell an!",
+      "current": "Pane kiiresti riidesse, palun!",
+      "ownerNew": "Pane kiiresti riidesse, palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0072",
+      "cardId": "Kleide dich wärmer an, draußen ist es kühl.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Kleide dich wärmer an, draußen ist es kühl.",
+      "current": "Pane soojemalt riidesse, väljas on jahe.",
+      "ownerNew": "Pane soojemalt riidesse, väljas on jahe.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0073",
+      "cardId": "Guten Morgen, wie geht es dir?",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Guten Morgen, wie geht es dir?",
+      "current": "Tere hommikust, kuidas sul läheb?",
+      "ownerNew": "Tere hommikust, kuidas sul läheb?",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0074",
+      "cardId": "Mir geht es gut, danke.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Mir geht es gut, danke.",
+      "current": "Mul läheb hästi, aitäh.",
+      "ownerNew": "Mul läheb hästi, aitäh.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0075",
+      "cardId": "Was trinkst du morgens, Kaffee oder Tee?",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Was trinkst du morgens, Kaffee oder Tee?",
+      "current": "Mida sa hommikul jood, kohvi või teed?",
+      "ownerNew": "Mida sa hommikul jood, kohvi või teed?",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0076",
+      "cardId": "Guten Morgen, hast du gut geschlafen?",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Guten Morgen, hast du gut geschlafen?",
+      "current": "Tere hommikust, kas magasid hästi?",
+      "ownerNew": "Tere hommikust, kas magasid hästi?",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0077",
+      "cardId": "Klara, deck bitte den Tisch!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Klara, deck bitte den Tisch!",
+      "current": "Klara, palun kata laud!",
+      "ownerNew": "Klara, palun kata laud!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0078",
+      "cardId": "Danke, ich habe schon.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Danke, ich habe schon.",
+      "current": "Aitäh, mul juba on.",
+      "ownerNew": "Aitäh, mul juba on.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0079",
+      "cardId": "Danke, ich bin schon satt.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Danke, ich bin schon satt.",
+      "current": "Aitäh, kõht on juba täis.",
+      "ownerNew": "Aitäh, kõht on juba täis.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0080",
+      "cardId": "Bitte, bedien dich!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Bitte, bedien dich!",
+      "current": "Palun, võta ise!",
+      "ownerNew": "Palun, võta ise!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0081",
+      "cardId": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+      "current": "Kui ma töölt tulen, olen alati väsinud.",
+      "ownerNew": "Kui ma töölt tulen, olen alati väsinud.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0082",
+      "cardId": "Sieh mal, es wird gleich regnen.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Sieh mal, es wird gleich regnen.",
+      "current": "Vaata, kohe hakkab sadama.",
+      "ownerNew": "Vaata, kohe hakkab sadama.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0083",
+      "cardId": "Glaubst du, dass es den ganzen Tag regnen wird?",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
+      "current": "Kas arvad, et sajab kogu päeva?",
+      "ownerNew": "Kas arvad, et sajab kogu päeva?",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0084",
+      "cardId": "Es sieht nach Regen aus.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Es sieht nach Regen aus.",
+      "current": "Näib, et hakkab sadama.",
+      "ownerNew": "Näib, et hakkab sadama.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0085",
+      "cardId": "Der Winter ist da, es hat geschneit.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Der Winter ist da, es hat geschneit.",
+      "current": "Talv on käes, on lund sadanud.",
+      "ownerNew": "Talv on käes, on lund sadanud.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0086",
+      "cardId": "Mir ist kalt, ich friere.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Mir ist kalt, ich friere.",
+      "current": "Mul on külm, ma külmetan.",
+      "ownerNew": "Mul on külm, ma külmetan.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0087",
+      "cardId": "Draußen ist Glatteis, pass auf!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Draußen ist Glatteis, pass auf!",
+      "current": "Väljas on kiilasjää, ole ettevaatlik!",
+      "ownerNew": "Väljas on kiilasjää, ole ettevaatlik!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0088",
+      "cardId": "Zieh die Jacke an, du kannst dich erkälten.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Zieh die Jacke an, du kannst dich erkälten.",
+      "current": "Pane jope selga, võid külmetuda.",
+      "ownerNew": "Pane jope selga, võid külmetuda.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0089",
+      "cardId": "Entschuldige, ich möchte etwas mit dir besprechen.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
+      "current": "Vabanda, tahan sinuga midagi arutada.",
+      "ownerNew": "Vabanda, tahan sinuga midagi arutada.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0090",
+      "cardId": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
+      "current": "Mine pisut aeglasemalt, ma ei jõua sulle järele!",
+      "ownerNew": "Mine pisut aeglasemalt, ma ei jõua sulle järele!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0091",
+      "cardId": "Entschuldige, wo ist die nächste U-Bahn-Station?",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
+      "current": "Vabanda, kus on lähim metroojaam?",
+      "ownerNew": "Vabanda, kus on lähim metroojaam?",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0092",
+      "cardId": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
+      "current": "Finn sõidab Berliinini, siis läheb mere äärde.",
+      "ownerNew": "Finn sõidab Berliinini, siis läheb mere äärde.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0093",
+      "cardId": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
+      "current": "Kutsu palun takso, muidu jään rongist maha!",
+      "ownerNew": "Kutsu palun takso, muidu jään rongist maha!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0094",
+      "cardId": "Eine Fahrkarte nach Köln, bitte.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Eine Fahrkarte nach Köln, bitte.",
+      "current": "Üks pilet Kölni, palun.",
+      "ownerNew": "Üks pilet Kölni, palun.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0095",
+      "cardId": "Ja, dort musst du umsteigen.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Ja, dort musst du umsteigen.",
+      "current": "Jah, seal pead sa ümber istuma.",
+      "ownerNew": "Jah, seal pead sa ümber istuma.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0096",
+      "cardId": "Nein, hier sitzt niemand.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Nein, hier sitzt niemand.",
+      "current": "Ei, siin ei istu keegi.",
+      "ownerNew": "Ei, siin ei istu keegi.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0097",
+      "cardId": "Es zieht, schließ bitte das Fenster!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Es zieht, schließ bitte das Fenster!",
+      "current": "Tõmbab tuult, sulge palun aken!",
+      "ownerNew": "Tõmbab tuult, sulge palun aken!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0098",
+      "cardId": "Ein Zimmer mit zwei Betten, bitte.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Ein Zimmer mit zwei Betten, bitte.",
+      "current": "Tuba kahe voodiga, palun.",
+      "ownerNew": "Tuba kahe voodiga, palun.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0099",
+      "cardId": "Die Rechnung, bitte!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Die Rechnung, bitte!",
+      "current": "Arve, palun!",
+      "ownerNew": "Arve, palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0100",
+      "cardId": "Kellner, die Speisekarte, bitte!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Kellner, die Speisekarte, bitte!",
+      "current": "Ettekandja, menüü, palun!",
+      "ownerNew": "Ettekandja, menüü, palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0101",
+      "cardId": "Kellner, zahlen bitte!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Kellner, zahlen bitte!",
+      "current": "Ettekandja, palun arve!",
+      "ownerNew": "Ettekandja, palun arve!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0102",
+      "cardId": "Eine Tasse Kaffee mit Milch, bitte!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Eine Tasse Kaffee mit Milch, bitte!",
+      "current": "Tass kohvi piimaga, palun!",
+      "ownerNew": "Tass kohvi piimaga, palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0103",
+      "cardId": "Bitte schneller, ich habe es eilig!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Bitte schneller, ich habe es eilig!",
+      "current": "Kiiremini, palun, mul on kiire!",
+      "ownerNew": "Kiiremini, palun, mul on kiire!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0104",
+      "cardId": "Eine Portion Eis, bitte!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Eine Portion Eis, bitte!",
+      "current": "Portsjon jäätist, palun!",
+      "ownerNew": "Portsjon jäätist, palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0105",
+      "cardId": "Erinnere mich morgen daran zu schreiben!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "current": "Tuleta mulle homme meelde, et ma kirjutaksin!",
+      "ownerNew": "Tuleta mulle homme meelde, et ma kirjutaksin!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0106",
+      "cardId": "Hallo, hier spricht Emma.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Hallo, hier spricht Emma.",
+      "current": "Tere, siin räägib Emma.",
+      "ownerNew": "Tere, siin räägib Emma.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0107",
+      "cardId": "Drei Karten, bitte!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Drei Karten, bitte!",
+      "current": "Kolm piletit, palun!",
+      "ownerNew": "Kolm piletit, palun!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0108",
+      "cardId": "Bitte schnell, der Vorhang geht gleich auf!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Bitte schnell, der Vorhang geht gleich auf!",
+      "current": "Kiiremini, palun, eesriie avaneb kohe!",
+      "ownerNew": "Kiiremini, palun, eesriie avaneb kohe!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0109",
+      "cardId": "Mia, pack die Sachen bitte in Kisten!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Mia, pack die Sachen bitte in Kisten!",
+      "current": "Mia, pane palun asjad kastidesse!",
+      "ownerNew": "Mia, pane palun asjad kastidesse!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0110",
+      "cardId": "Bei schönem Wetter gehe ich angeln.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Bei schönem Wetter gehe ich angeln.",
+      "current": "Kui ilm on ilus, lähen kalale.",
+      "ownerNew": "Kui ilm on ilus, lähen kalale.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0111",
+      "cardId": "Weißt du, dass Finn krank ist?",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Weißt du, dass Finn krank ist?",
+      "current": "Kas sa tead, et Finn on haige?",
+      "ownerNew": "Kas sa tead, et Finn on haige?",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0112",
+      "cardId": "Bleib im Bett, bis es dir besser geht!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Bleib im Bett, bis es dir besser geht!",
+      "current": "Jää voodisse, kuni tunned end paremini!",
+      "ownerNew": "Jää voodisse, kuni tunned end paremini!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0113",
+      "cardId": "Ja, ein bisschen.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Ja, ein bisschen.",
+      "current": "Jah, natuke.",
+      "ownerNew": "Jah, natuke.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0114",
+      "cardId": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "current": "Üks leivapäts, palun, aga mitte liiga krõbe.",
+      "ownerNew": "Üks leivapäts, palun, aga mitte liiga krõbe.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0115",
+      "cardId": "Danke, diesmal nicht.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Danke, diesmal nicht.",
+      "current": "Aitäh, seekord mitte.",
+      "ownerNew": "Aitäh, seekord mitte.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0116",
+      "cardId": "So, nun passen sie gut.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "So, nun passen sie gut.",
+      "current": "Nii, nüüd sobivad need hästi.",
+      "ownerNew": "Nii, nüüd sobivad need hästi.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0117",
+      "cardId": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
+      "current": "Istuge, vaadake otse kaamerasse ja ärge liikuge!",
+      "ownerNew": "Istuge, vaadake otse kaamerasse ja ärge liikuge!",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0118",
+      "cardId": "Das ist kein echter Stein, das ist Glas.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Das ist kein echter Stein, das ist Glas.",
+      "current": "See ei ole ehtne kivi, see on klaas.",
+      "ownerNew": "See ei ole ehtne kivi, see on klaas.",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0119",
+      "cardId": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
+      "current": "Kui mu naisele ei meeldi, kas ma saan vahetada?",
+      "ownerNew": "Kui mu naisele ei meeldi, kas ma saan vahetada?",
+      "status": "ALREADY_MATCHED"
+    },
+    {
+      "auditId": "ET-SENT-MT-0120",
+      "cardId": "Natürlich, jederzeit.",
+      "cardType": "ordinary",
+      "field": "lv",
+      "de": "Natürlich, jederzeit.",
+      "current": "Muidugi, igal ajal.",
+      "ownerNew": "Muidugi, igal ajal.",
+      "status": "ALREADY_MATCHED"
+    }
+  ],
+  "summary": {
+    "teikumiCards": 796,
+    "requestedLabot": 120,
+    "appliedVerified": 40,
+    "alreadyMatched": 80,
+    "appliedTotal": 120,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "deChanges": 0,
+    "multiTranslationScan": {
+      "violations": 0,
+      "inventoryCoverage": "100%",
+      "fieldsScanned": 796,
+      "rawCandidates": 80
+    },
+    "multipleMainTranslationsValidatedReal": 0,
+    "finalVerdict": "PASS"
+  }
+}
