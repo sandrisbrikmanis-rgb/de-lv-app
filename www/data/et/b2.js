@@ -58,7 +58,7 @@ const B2_WORDS = [
     "de": "Akt",
     "de_article": "der",
     "de_plural": "die Akte",
-    "lv": "akt • dokument",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -94,7 +94,7 @@ const B2_WORDS = [
   {
     "de": "Anbau",
     "de_article": "der",
-    "lv": "juurdeehitis • kasvatamine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -104,17 +104,17 @@ const B2_WORDS = [
   },
   {
     "de": "anführen",
-    "lv": "mainima • juhtima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "angebracht",
-    "lv": "sobiv • kohane",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "angehen",
-    "lv": "puudutama • vastu astuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -131,7 +131,7 @@ const B2_WORDS = [
   },
   {
     "de": "allerhand",
-    "lv": "mitmesugused • erinevad",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -146,7 +146,7 @@ const B2_WORDS = [
   },
   {
     "de": "anbrechen",
-    "lv": "alguse saama • lahti murdma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -161,7 +161,7 @@ const B2_WORDS = [
   },
   {
     "de": "angeblich",
-    "lv": "väidetavalt • väidetav",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -171,12 +171,12 @@ const B2_WORDS = [
   },
   {
     "de": "angelegt",
-    "lv": "loodud • investeeritud",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "angeordnet",
-    "lv": "kindlaks määratud • käsutatud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -186,12 +186,12 @@ const B2_WORDS = [
   },
   {
     "de": "angegriffen",
-    "lv": "väsinud • rünnatud",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abberufen",
-    "lv": "tagasi kutsuma • ametist vabastama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -201,7 +201,7 @@ const B2_WORDS = [
   },
   {
     "de": "abbringen",
-    "lv": "ümber veenma • millestki loobuma panema • kõrvale juhtima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -233,12 +233,12 @@ const B2_WORDS = [
   },
   {
     "de": "abfällig",
-    "lv": "ebasoodne • negatiivne • halb • tõrjuv",
+    "lv": "negatiivne",
     "level": "B2"
   },
   {
     "de": "abfertigen",
-    "lv": "ära saatma • minema saatma • teenindama • ebaviisakalt kohtlema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -270,22 +270,22 @@ const B2_WORDS = [
   },
   {
     "de": "abgesehen",
-    "lv": "välja arvatud • kõrvale jättes",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abgespannt",
-    "lv": "väsinud • läbi väsinud",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abgetan",
-    "lv": "lõpetatud • lahendatud",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abgrenzen",
-    "lv": "eraldama • distantseeruma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -297,26 +297,26 @@ const B2_WORDS = [
   },
   {
     "de": "abhören",
-    "lv": "pealt kuulama • salaja pealt kuulama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ableiten",
-    "lv": "ära juhtima • kõrvale juhtima • tuletama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Abneigung",
     "de_article": "die",
     "de_plural": "die Abneigungen",
-    "lv": "vastumeelsus • antipaatia",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Abnutzung",
     "de_article": "die",
     "de_plural": "die Abnutzungen",
-    "lv": "kulumine • amortiseerumine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -347,17 +347,17 @@ const B2_WORDS = [
   },
   {
     "de": "abscheulich",
-    "lv": "vastik • jälk",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abschieben",
-    "lv": "eemale tõukama • välja saatma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abschlagen",
-    "lv": "maha raiuma • lööma • tõrjuma • tagasi lükkama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -367,19 +367,19 @@ const B2_WORDS = [
   },
   {
     "de": "abschrecken",
-    "lv": "hirmutama • järsult jahutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Abschrift",
     "de_article": "die",
     "de_plural": "die Abschriften",
-    "lv": "ärakiri • koopia",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "absondern",
-    "lv": "eraldama • lahutama • isoleerima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -393,12 +393,12 @@ const B2_WORDS = [
     "de": "Abstecher",
     "de_article": "der",
     "de_plural": "die Abstecher",
-    "lv": "kõrvalekalle • lühike väljasõit",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abstimmen",
-    "lv": "hääletama • kooskõlastama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -410,39 +410,39 @@ const B2_WORDS = [
   },
   {
     "de": "abstoßend",
-    "lv": "eemaletõukav • vastik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Absturz",
     "de_article": "der",
     "de_plural": "die Abstürze",
-    "lv": "kukkumine • langemine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "absurd",
-    "lv": "absurdne • mõttetu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abtragen",
-    "lv": "ära kandma • kulutama • lammutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abtreten",
-    "lv": "taganema • ära andma • lahkuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abweichen",
-    "lv": "erinema • kõrvale kalduma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "abweisen",
-    "lv": "tagasi lükkama • hülgama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -454,7 +454,7 @@ const B2_WORDS = [
     "de": "Affäre",
     "de_article": "die",
     "de_plural": "die Affären",
-    "lv": "afäär • armastuslugu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -487,17 +487,17 @@ const B2_WORDS = [
   {
     "de": "Abzweigung",
     "de_article": "die",
-    "lv": "haru • kõrvalharu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ächzen",
-    "lv": "oigama • ägama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "affig",
-    "lv": "afekteeritud • edvistav",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -514,23 +514,23 @@ const B2_WORDS = [
     "de": "Andeutung",
     "de_article": "die",
     "de_plural": "die Andeutungen",
-    "lv": "vihje • viide",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "andeuten",
-    "lv": "osutama • vihjama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Anmut",
     "de_article": "die",
-    "lv": "veetlus • ilu • graatsia",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "annähernd",
-    "lv": "ligikaudne • umbes",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -544,7 +544,7 @@ const B2_WORDS = [
     "de": "Anwärter",
     "de_article": "der",
     "de_plural": "die Anwärter",
-    "lv": "pretendent • kandidaat",
+    "lv": "kandidaat",
     "level": "B2"
   },
   {
@@ -623,7 +623,7 @@ const B2_WORDS = [
     "de": "Aufschluss",
     "de_article": "der",
     "de_plural": "die Aufschlüsse",
-    "lv": "selgitus • teave",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -644,34 +644,34 @@ const B2_WORDS = [
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "välised tunnused • pealiskaudsus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Äußerung",
     "de_article": "die",
     "de_plural": "die Äußerungen",
-    "lv": "väljendus • avaldus • ütlus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "aussetzen",
-    "lv": "ohustama • allutama • vastu vaidlema • välja panema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "aussichtslos",
-    "lv": "lootusetu • väljavaatetu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ausspannen",
-    "lv": "lahti rakendama • partnerit ära võtma • puhkama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ausstatten",
-    "lv": "varustama • sisustama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -681,42 +681,42 @@ const B2_WORDS = [
   },
   {
     "de": "ausstopfen",
-    "lv": "täitma • betooniga täitma • täis toppima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ausströmen",
-    "lv": "välja voolama • välja valguma • kiirgama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "austragen",
-    "lv": "laiali kandma • kohale toimetama • välja võitlema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "austreiben",
-    "lv": "välja ajama • võõrutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "austreten",
-    "lv": "välja tallama • maha tallama • välja astuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "auswärtig",
-    "lv": "välismaine • välisasjadega seotud",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ausweichend",
-    "lv": "vältiv • ebamäärane",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ausweisen",
-    "lv": "välja saatma • isikut tõendama • kinnitama • tõestama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -726,19 +726,19 @@ const B2_WORDS = [
   },
   {
     "de": "auswerten",
-    "lv": "hindama • hinnangut andma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "auszeichnen",
-    "lv": "autasustama • esile tõstma • silma paistma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "autasustamine • autasu • aumärk",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -755,7 +755,7 @@ const B2_WORDS = [
   },
   {
     "de": "bändigen",
-    "lv": "vaos hoidma • ohjeldama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -828,7 +828,7 @@ const B2_WORDS = [
   },
   {
     "de": "barmherzig",
-    "lv": "halastav • kaastundlik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -896,22 +896,22 @@ const B2_WORDS = [
   {
     "de": "Bauwesen",
     "de_article": "das",
-    "lv": "ehitamine • ehitustegevus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bebauen",
-    "lv": "harima • hoonestama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bedürfen",
-    "lv": "vajama • olema vajalik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "befallen",
-    "lv": "tabama • ründama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -945,19 +945,19 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "toimetamine • vedu • ülendamine • edutamine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Befugnis",
     "de_article": "die",
     "de_plural": "die Befugnisse",
-    "lv": "õigus • volitus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "begehren",
-    "lv": "nõudma • küsima • ihaldama • himustama • soovima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -999,44 +999,44 @@ const B2_WORDS = [
   },
   {
     "de": "begünstigen",
-    "lv": "soodustama • kaasa aitama • soosima • toetama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "begutachten",
-    "lv": "hinnangut andma • hindama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "beharren",
-    "lv": "püsima • jääma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "beharrlich",
-    "lv": "visa • püsiv",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "behüten",
-    "lv": "kaitsma • ära kaitsma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Beihilfe",
     "de_article": "die",
     "de_plural": "die Beihilfen",
-    "lv": "riiklik toetus • lisatasu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "beiläufig",
-    "lv": "juhuslik • möödaminnes",
+    "lv": "möödaminnes",
     "level": "B2"
   },
   {
     "de": "beispiellos",
-    "lv": "enneolematu • võrreldamatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1053,12 +1053,12 @@ const B2_WORDS = [
   },
   {
     "de": "beistimmen",
-    "lv": "nõustuma • heaks kiitma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "beiwohnen",
-    "lv": "kohal olema • osalema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1068,7 +1068,7 @@ const B2_WORDS = [
   },
   {
     "de": "bejahen",
-    "lv": "kinnitama • väitma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1083,7 +1083,7 @@ const B2_WORDS = [
   },
   {
     "de": "bekräftigen",
-    "lv": "kinnitama • tõendama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1102,17 +1102,17 @@ const B2_WORDS = [
   },
   {
     "de": "belagern",
-    "lv": "piirama • ümber piirama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "belanglos",
-    "lv": "ebaoluline • tähtsusetu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "belästigen",
-    "lv": "häirima • tülitama • ahistama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1132,18 +1132,18 @@ const B2_WORDS = [
   },
   {
     "de": "beleibt",
-    "lv": "täidlane • priske • tüse",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "belichten",
-    "lv": "valgustama • eksponeerima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Belieben",
     "de_article": "das",
-    "lv": "meeldivus • meeldimine • soov",
+    "lv": "soov",
     "level": "B2"
   },
   {
@@ -1158,7 +1158,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-bemaechtigen",
       "layout": "minimalStudy",
-      "translation": "haarama • enda valdusesse võtma",
+      "translation": "\\",
       "rektion": "+ omastavas käändes",
       "explanation": "sich bemächtigen nõuab kindlat eessõna + omastavas käändes.",
       "forms": "+ omastavas käändes",
@@ -1183,7 +1183,7 @@ const B2_WORDS = [
     "de": "Benennung",
     "de_article": "die",
     "de_plural": "die Benennungen",
-    "lv": "nimetamine • kutsumine • nimetus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1216,31 +1216,31 @@ const B2_WORDS = [
   },
   {
     "de": "bergen",
-    "lv": "päästma • saaki koristama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Bergmann",
     "de_article": "der",
     "de_plural": "die Bergmänner",
-    "lv": "kaevur • söekaevur",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Bergwerk",
     "de_article": "das",
     "de_plural": "die Bergwerke",
-    "lv": "kaevandus • šaht",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bersten",
-    "lv": "lõhenema • pragunema • lõhkema • rebenema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "berufen",
-    "lv": "ametisse nimetama • kutsuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1277,14 +1277,14 @@ const B2_WORDS = [
   },
   {
     "de": "besänftigen",
-    "lv": "rahustama • leevendama • jahutama • vaigistama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "meeskond • ekipaaž • personal • okupatsiooniväed",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1294,12 +1294,12 @@ const B2_WORDS = [
   },
   {
     "de": "beschatten",
-    "lv": "varjutama • jälgima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "beschimpfen",
-    "lv": "sõimama • halvustama • solvama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1333,17 +1333,17 @@ const B2_WORDS = [
     "de": "Beschützer",
     "de_article": "der",
     "de_plural": "die Beschützer",
-    "lv": "kaitsja • valvur • eestkostja",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "beschwören",
-    "lv": "vanduma • vandega kinnitama • tungivalt paluma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "besessen",
-    "lv": "kinnisideest haaratud • vaevatud • haaratud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1367,17 +1367,17 @@ const B2_WORDS = [
     "de": "Bestand",
     "de_article": "der",
     "de_plural": "die Bestände",
-    "lv": "koosseis • inventar • varu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "beständig",
-    "lv": "püsiv • muutumatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bestärken",
-    "lv": "tugevdama • kinnitama • julgustama",
+    "lv": "julgustama",
     "level": "B2"
   },
   {
@@ -1387,22 +1387,22 @@ const B2_WORDS = [
   },
   {
     "de": "bestechlich",
-    "lv": "ostetav • altkäemaksuga mõjutatav",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bestrahlen",
-    "lv": "kiiritama • valgustama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bestreiten",
-    "lv": "vaidlustama • maksma • katma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bestürzt",
-    "lv": "vapustatud • kohkunud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1412,7 +1412,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-betaetigen",
       "layout": "minimalStudy",
-      "translation": "tegutsema • osalema",
+      "translation": "\\",
       "rektion": "in + kus?",
       "explanation": "sich betätigen nõuab kindlat eessõna in + kus?.",
       "forms": "in + kus?",
@@ -1437,7 +1437,7 @@ const B2_WORDS = [
     "de": "Betäubung",
     "de_article": "die",
     "de_plural": "die Betäubungen",
-    "lv": "uimastamine • uimasus • narkoos • anesteesia",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1448,7 +1448,7 @@ const B2_WORDS = [
   {
     "de": "Betracht",
     "de_article": "der",
-    "lv": "arvestamine • kaalumine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1467,64 +1467,64 @@ const B2_WORDS = [
     "de": "Betrug",
     "de_article": "der",
     "de_plural": "die Betrüge",
-    "lv": "pettus • petmine • kelmus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "beurlauben",
-    "lv": "puhkust andma • töölt vabastama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Beute",
     "de_article": "die",
-    "lv": "saak • röövsaak",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Bewaffnung",
     "de_article": "die",
     "de_plural": "die Bewaffnungen",
-    "lv": "relvastamine • relvastus",
+    "lv": "relvastus",
     "level": "B2"
   },
   {
     "de": "bewähren",
-    "lv": "ennast tõestama • end õigustama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bewährt",
-    "lv": "kontrollitud • kindel • usaldusväärne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bewältigen",
-    "lv": "ületama • hakkama saama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bewandert",
-    "lv": "asjatundlik • kompetentne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Bewässerung",
     "de_article": "die",
     "de_plural": "die Bewässerungen",
-    "lv": "niisutamine • niisutussüsteem",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Bewerbung",
     "de_article": "die",
     "de_plural": "die Bewerbungen",
-    "lv": "avaldus • avalduse vorm • esitatud dokumentide kogum",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bewilligen",
-    "lv": "lubama • eraldama • andma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1536,7 +1536,7 @@ const B2_WORDS = [
   },
   {
     "de": "bezähmen",
-    "lv": "taltsutama • ohjeldama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1548,7 +1548,7 @@ const B2_WORDS = [
     "de": "Bezug",
     "de_article": "der",
     "de_plural": "die Bezüge",
-    "lv": "suhe • side • kate",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1558,7 +1558,7 @@ const B2_WORDS = [
   },
   {
     "de": "bezwingen",
-    "lv": "ületama • alistama • valitsema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1570,12 +1570,12 @@ const B2_WORDS = [
     "de": "Biegung",
     "de_article": "die",
     "de_plural": "die Biegungen",
-    "lv": "kõverus • kaardumine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "bisweilen",
-    "lv": "mõnikord • vahel",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1587,31 +1587,31 @@ const B2_WORDS = [
   },
   {
     "de": "bildlich",
-    "lv": "maaliline • kujundlik • figuratiivne",
+    "lv": "kujundlik",
     "level": "B2"
   },
   {
     "de": "Bildnis",
     "de_article": "das",
     "de_plural": "die Bildnisse",
-    "lv": "portree • pilt",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "billigen",
-    "lv": "heaks kiitma • nõustuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "seotus • ühend • keemiline ühend • side • rihmad • emotsionaalne side",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "binnen",
-    "lv": "jooksul • sees",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1656,17 +1656,17 @@ const B2_WORDS = [
   },
   {
     "de": "bildend",
-    "lv": "kujundav • harivat",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "blähen",
-    "lv": "puhuma • täis puhuma • üles puhuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "sich blähen",
-    "lv": "end täis puhuma • paisuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1690,19 +1690,19 @@ const B2_WORDS = [
   },
   {
     "de": "bleichen",
-    "lv": "pleekima • valgendama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "blenden",
-    "lv": "pimestama • segadusse ajama • eksitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Blindgänger",
     "de_article": "der",
     "de_plural": "die Blindgänger",
-    "lv": "lõhkemata lõhkekeha • mürsk",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1742,7 +1742,7 @@ const B2_WORDS = [
   },
   {
     "de": "blödsinnig",
-    "lv": "nõdrameelne • rumal • loll",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1800,7 +1800,7 @@ const B2_WORDS = [
     "de": "Bodensatz",
     "de_article": "der",
     "de_plural": "die Bodensätze",
-    "lv": "sete • pärmisete",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1860,19 +1860,19 @@ const B2_WORDS = [
     "de": "Böschung",
     "de_article": "die",
     "de_plural": "die Böschungen",
-    "lv": "nõlv • kalle • vall",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "sõnumitooja • kuller • saadik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "brach",
-    "lv": "harimata • sööti jäetud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1900,7 +1900,7 @@ const B2_WORDS = [
     "de": "Brandmal",
     "de_article": "das",
     "de_plural": "die Brandmale",
-    "lv": "põletusjälg • põletusarm",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1919,7 +1919,7 @@ const B2_WORDS = [
   },
   {
     "de": "brauen",
-    "lv": "õlut tegema • pruulima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1951,12 +1951,12 @@ const B2_WORDS = [
   },
   {
     "de": "brillant",
-    "lv": "suurepärane • hiilgav",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "brüten",
-    "lv": "haudlema • pidevalt millegi peale mõtlema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -1996,14 +1996,14 @@ const B2_WORDS = [
     "de": "Buckel",
     "de_article": "der",
     "de_plural": "die Buckel",
-    "lv": "küür • küürakas selg",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Bügel",
     "de_article": "der",
     "de_plural": "die Bügel",
-    "lv": "käepide • vits • riidepuu • jalus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2031,7 +2031,7 @@ const B2_WORDS = [
     "de": "Bundesstaat",
     "de_article": "der",
     "de_plural": "die Bundesstaaten",
-    "lv": "föderatsioon • liitriik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2051,7 +2051,7 @@ const B2_WORDS = [
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "koorem • kohustus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2068,7 +2068,7 @@ const B2_WORDS = [
   },
   {
     "de": "bürgerlich",
-    "lv": "kodanlik • kodaniku-",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2194,29 +2194,29 @@ const B2_WORDS = [
     "de": "Damm",
     "de_article": "der",
     "de_plural": "die Dämme",
-    "lv": "tamm • pais • raudteetamm",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "dämmern",
-    "lv": "hämarduma • pimenema • koitma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Dämmerung",
     "de_article": "die",
     "de_plural": "die Dämmerungen",
-    "lv": "hämarik • koit",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "dampfen",
-    "lv": "suitsema • auruma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "dämpfen",
-    "lv": "vaigistama • summutama • aurutama • hautama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2235,19 +2235,19 @@ const B2_WORDS = [
   },
   {
     "de": "darbieten",
-    "lv": "esitama • ulatama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "sooritus • ettekanne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "darlegen",
-    "lv": "esitama • selgitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2275,13 +2275,13 @@ const B2_WORDS = [
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "kujutamine • esitus • ülevaade",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "olemasolu • eksistents",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2349,24 +2349,24 @@ const B2_WORDS = [
     "de": "Defekt",
     "de_article": "der",
     "de_plural": "die Defekte",
-    "lv": "tehniline puudus • viga",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Defizit",
     "de_article": "das",
     "de_plural": "die Defizite",
-    "lv": "puudus • puudujääk • defitsiit",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "dehnbar",
-    "lv": "venitatav • elastne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "dehnen",
-    "lv": "venitama • sirutama • venima • sirutuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2395,26 +2395,26 @@ const B2_WORDS = [
   },
   {
     "de": "delikat",
-    "lv": "delikaatne • maitsev",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Delikt",
     "de_article": "das",
     "de_plural": "die Delikte",
-    "lv": "kuritegu • seaduserikkumine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "dementieren",
-    "lv": "ümber lükkama • eitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "ametist tagasiastumine • demissioon",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2424,22 +2424,22 @@ const B2_WORDS = [
   },
   {
     "de": "denkbar",
-    "lv": "arvatav • kujuteldav • võimalik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "deplaziert",
-    "lv": "sobimatu • valel ajal",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "deponieren",
-    "lv": "deponeerima • hoiustama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "derartig",
-    "lv": "selline • samasugune",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2449,14 +2449,14 @@ const B2_WORDS = [
   },
   {
     "de": "deuten",
-    "lv": "seletama • tõlgendama • osutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Deutung",
     "de_article": "die",
     "de_plural": "die Deutungen",
-    "lv": "seletamine • tõlgendamine • seletus • tõlgendus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2553,7 +2553,7 @@ const B2_WORDS = [
     "de": "Diele",
     "de_article": "die",
     "de_plural": "die Dielen",
-    "lv": "põrand • laud • eesruum",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2563,7 +2563,7 @@ const B2_WORDS = [
   },
   {
     "de": "dienstlich",
-    "lv": "teenistuslik • ametialane",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2573,7 +2573,7 @@ const B2_WORDS = [
   },
   {
     "de": "dingen",
-    "lv": "palkama • tööle võtma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2640,12 +2640,12 @@ const B2_WORDS = [
     "de": "Dom",
     "de_article": "der",
     "de_plural": "die Dome",
-    "lv": "katedraal • toomkirik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "donnern",
-    "lv": "kõu müristab • mürisema • kärgatama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2676,12 +2676,12 @@ const B2_WORDS = [
     "de": "Dorn",
     "de_article": "der",
     "de_plural": "die Dornen",
-    "lv": "oga • astel",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "dornig",
-    "lv": "okkaline • astlaline",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2734,7 +2734,7 @@ const B2_WORDS = [
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "doos • annus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2767,26 +2767,26 @@ const B2_WORDS = [
     "de": "Dramatiker",
     "de_article": "der",
     "de_plural": "die Dramatiker",
-    "lv": "dramaturg • näitekirjanik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Drang",
     "de_article": "der",
     "de_plural": "die Dränge",
-    "lv": "tung • kalduvus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "drängen",
-    "lv": "lükkama • suruma • kiirustama • õhutama • ässitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Dreck",
     "de_article": "der",
     "de_plural": "die Drecke",
-    "lv": "sõnnik • mustus • pori • sopp",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2813,7 +2813,7 @@ const B2_WORDS = [
     "de": "Drehung",
     "de_article": "die",
     "de_plural": "die Drehungen",
-    "lv": "pöörlemine • pööre",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2825,7 +2825,7 @@ const B2_WORDS = [
   },
   {
     "de": "dreschen",
-    "lv": "vilja peksma • munavalget vahustama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2837,7 +2837,7 @@ const B2_WORDS = [
   },
   {
     "de": "dringen",
-    "lv": "trügima • tungima • sisse tungima • sisse murdma • nõudma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2858,7 +2858,7 @@ const B2_WORDS = [
     "de": "Drops",
     "de_article": "der",
     "de_plural": "die Drops",
-    "lv": "hapud puuviljakommid • pastillid",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2870,7 +2870,7 @@ const B2_WORDS = [
   },
   {
     "de": "drosseln",
-    "lv": "kägistama • lämmatama • piirama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2912,7 +2912,7 @@ const B2_WORDS = [
     "de": "Drucksache",
     "de_article": "die",
     "de_plural": "die Drucksachen",
-    "lv": "bandrool • trükis postisaadetisena",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2924,12 +2924,12 @@ const B2_WORDS = [
   },
   {
     "de": "dulden",
-    "lv": "kannatama • välja kannatama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "dumpf",
-    "lv": "õõnes • summutatud • läppunud • lämbe • raske • rõhutud • rõhuv",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2957,7 +2957,7 @@ const B2_WORDS = [
     "de": "Düngemittel",
     "de_article": "das",
     "de_plural": "die Düngemittel",
-    "lv": "väetis • mineraalväetis",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2968,7 +2968,7 @@ const B2_WORDS = [
   {
     "de": "Dünkel",
     "de_article": "der",
-    "lv": "edevus • ülbus • kõrkus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -2978,71 +2978,71 @@ const B2_WORDS = [
   },
   {
     "de": "dünken",
-    "lv": "tunduma • näima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Dunst",
     "de_article": "der",
     "de_plural": "die Dünste",
-    "lv": "aur • aurud • udu • sudu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durcharbeiten",
-    "lv": "läbi töötama • hoolikalt läbi lugema • hoolikalt läbi sõtkuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durchaus",
-    "lv": "täiesti • hoopis • täielikult",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durchbrechen",
-    "lv": "murdma • välja murdma • ilmnema • katkestama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durchbrennen",
-    "lv": "läbi põletama • üle põletama • läbi põlema • üle põlema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durchbringen",
-    "lv": "läbi aitama • läbi viima • ülal pidama • raiskama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Durchbruch",
     "de_article": "der",
     "de_plural": "die Durchbrüche",
-    "lv": "läbimurre • tammi purunemine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durchdringen",
-    "lv": "läbi pressima • läbi murdma • olema haaratud",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Durchfahrt",
     "de_article": "die",
     "de_plural": "die Durchfahrten",
-    "lv": "läbisõit • läbisõidutee",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Durchfuhr",
     "de_article": "die",
-    "lv": "läbisõit • transiit",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Durchführung",
     "de_article": "die",
     "de_plural": "die Durchführungen",
-    "lv": "läbiviimine • täitmine • teostamine • sooritamine • realiseerimine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3052,19 +3052,19 @@ const B2_WORDS = [
   },
   {
     "de": "durchlaufen",
-    "lv": "läbi jooksma • läbi voolama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durchmachen",
-    "lv": "üle elama • läbi tegema • lõpetama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Durchmesser",
     "de_article": "der",
     "de_plural": "die Durchmesser",
-    "lv": "diameeter • läbimõõt",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3081,22 +3081,22 @@ const B2_WORDS = [
   },
   {
     "de": "durchschauen",
-    "lv": "läbi nägema • avastama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durchschlagen",
-    "lv": "kurnama • läbi sõela laskma • läbi murdma • auku lööma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durchsehen",
-    "lv": "läbi vaatama • kontrollima • läbi lugema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "durchsetzen",
-    "lv": "läbi suruma • saavutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3106,7 +3106,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürr",
-    "lv": "kuiv • kuivanud • kõhn",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3118,7 +3118,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürsten",
-    "lv": "januma • janu tundma • ihaldama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3149,7 +3149,7 @@ const B2_WORDS = [
   },
   {
     "de": "ebnen",
-    "lv": "tasandama • siluma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3161,7 +3161,7 @@ const B2_WORDS = [
   },
   {
     "de": "edel",
-    "lv": "õilis • ülev • aadellik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3206,12 +3206,12 @@ const B2_WORDS = [
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "abiellumine • abielu sõlmimine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ehren",
-    "lv": "austama • lugu pidama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3223,7 +3223,7 @@ const B2_WORDS = [
   },
   {
     "de": "ehrenamtlich",
-    "lv": "vabatahtlikult • auameti korras",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3281,7 +3281,7 @@ const B2_WORDS = [
     "de": "Ehrung",
     "de_article": "die",
     "de_plural": "die Ehrungen",
-    "lv": "austamine • autseremoonia",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3316,19 +3316,19 @@ const B2_WORDS = [
     "de": "Eifer",
     "de_article": "der",
     "de_plural": "die Eifer",
-    "lv": "hoolsus • usinus • kirg • õhin • innukus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eifrig",
-    "lv": "hoolas • usin • püüdlik • innukas",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Eigenart",
     "de_article": "die",
     "de_plural": "die Eigenarten",
-    "lv": "iseärasus • omapära",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3339,29 +3339,29 @@ const B2_WORDS = [
   {
     "de": "Eigenliebe",
     "de_article": "die",
-    "lv": "enesearmastus • egoism",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eigensinnig",
-    "lv": "jonnakas • kangekaelne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eigentümlich",
-    "lv": "eripärane • iseloomulik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eigenwillig",
-    "lv": "omavoliline • jonnakas • kangekaelne • meelevaldne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Eilbote",
     "de_article": "der",
     "de_plural": "die Eilboten",
-    "lv": "sõnumitooja • kuller",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3373,7 +3373,7 @@ const B2_WORDS = [
   },
   {
     "de": "einäschern",
-    "lv": "kremeerima • tulekahjus põletama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3385,19 +3385,19 @@ const B2_WORDS = [
   },
   {
     "de": "einberufen",
-    "lv": "kokku kutsuma • ajateenistusse kutsuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Einbildung",
     "de_article": "die",
     "de_plural": "die Einbildungen",
-    "lv": "kujutlus • ettekujutus • fantaasia • edevus • ülbus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einbürgern",
-    "lv": "kodakondsust andma • sisse elama • juurduma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3407,22 +3407,22 @@ const B2_WORDS = [
   },
   {
     "de": "eindringen",
-    "lv": "tungima • sisse murdma • imbuma • süvenema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eindringlich",
-    "lv": "visa • veenev",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einfältig",
-    "lv": "kergeusklik • naiivne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einfassen",
-    "lv": "ääristama • raamima • ehtesse kinnitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3432,19 +3432,19 @@ const B2_WORDS = [
   },
   {
     "de": "einförmig",
-    "lv": "ühetaoline • üksluine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einfrieren",
-    "lv": "külmutama • peatama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Einfuhr",
     "de_article": "die",
     "de_plural": "die Einfuhren",
-    "lv": "import • sissevedu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3458,41 +3458,41 @@ const B2_WORDS = [
     "de": "Eingabe",
     "de_article": "die",
     "de_plural": "die Eingaben",
-    "lv": "avaldus • andmete sisestamine arvutisse",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eingebildet",
-    "lv": "edev • ülbe",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Eingebung",
     "de_article": "die",
     "de_plural": "die Eingebungen",
-    "lv": "inspiratsioon • äkiline mõte",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eingehen",
-    "lv": "sisse minema • saabuma • sisenema • kokku tõmbuma • nõustuma • sobima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eingehend",
-    "lv": "põhjalik • üksikasjalik • sissetulev",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Eingemachte",
     "de_article": "das",
     "de_plural": "die Eingemachte",
-    "lv": "moos • konserveeritud puuviljad",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eingerechnet",
-    "lv": "arvestatud • sisse arvatud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3510,7 +3510,7 @@ const B2_WORDS = [
   {
     "de": "Eingeweide",
     "de_article": "die",
-    "lv": "sisikond • siseorganid",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3525,26 +3525,26 @@ const B2_WORDS = [
   },
   {
     "de": "eingrenzen",
-    "lv": "piirama • piiritlema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Eingriff",
     "de_article": "der",
     "de_plural": "die Eingriffe",
-    "lv": "sekkumine • operatsioon",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einhüllen",
-    "lv": "mähkima • kokku pakkima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Einigkeit",
     "de_article": "die",
     "de_plural": "die Einigkeiten",
-    "lv": "ühtsus • üksmeel",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3593,22 +3593,22 @@ const B2_WORDS = [
   },
   {
     "de": "einleiten",
-    "lv": "sisse juhatama • algatama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einleuchten",
-    "lv": "olema arusaadav • olema selge",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einliefern",
-    "lv": "sisse andma • (haiglasse) toimetama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einmachen",
-    "lv": "konserveerima • marineerima • moosiks keetma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3645,7 +3645,7 @@ const B2_WORDS = [
   },
   {
     "de": "einrechnen",
-    "lv": "arvestama • sisse arvama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3660,7 +3660,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-einschleichen",
       "layout": "minimalStudy",
-      "translation": "sisse hiilima • sisse imbuma",
+      "translation": "\\",
       "rektion": "in + mida?",
       "explanation": "sich einschleichen nõuab kindlat eessõna in + mida?.",
       "forms": "in + mida?",
@@ -3685,7 +3685,7 @@ const B2_WORDS = [
     "de": "Einschnitt",
     "de_article": "der",
     "de_plural": "die Einschnitte",
-    "lv": "sisselõige • lõige • lõikamine • sälk",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3729,19 +3729,19 @@ const B2_WORDS = [
   },
   {
     "de": "einsichtig",
-    "lv": "mõistlik • arukas",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einspeichern",
-    "lv": "andmeid sisestama • salvestama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Einspruch",
     "de_article": "der",
     "de_plural": "die Einsprüche",
-    "lv": "vastuväide • protest",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3753,7 +3753,7 @@ const B2_WORDS = [
   },
   {
     "de": "einstimmig",
-    "lv": "ühehäälne • üksmeelne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3763,28 +3763,28 @@ const B2_WORDS = [
   },
   {
     "de": "eintauchen",
-    "lv": "kastma • leotama • sukelduma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "eintönig",
-    "lv": "üksluine • monotoonne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Eintracht",
     "de_article": "die",
-    "lv": "üksmeel • kooskõla • sobivus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einträglich",
-    "lv": "tulus • rentaabel",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einüben",
-    "lv": "harjutama • selgeks õppima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3806,17 +3806,17 @@ const B2_WORDS = [
   },
   {
     "de": "einweihen",
-    "lv": "pidulikult avama • saladust usaldama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einwenden",
-    "lv": "vastu vaidlema • vastuväiteid esitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "einwilligen",
-    "lv": "nõustuma • nõus olema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3880,13 +3880,13 @@ const B2_WORDS = [
   },
   {
     "de": "eitel",
-    "lv": "edev • ennasttäis • asjatu • tühine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Ekel",
     "de_article": "der",
-    "lv": "vastikus • jälkus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3939,7 +3939,7 @@ const B2_WORDS = [
   },
   {
     "de": "empor",
-    "lv": "üles • ülespoole",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -3954,7 +3954,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-empoeren",
       "layout": "minimalStudy",
-      "translation": "nördima • mässama",
+      "translation": "\\",
       "rektion": "über + mida?",
       "explanation": "sich empören nõuab kindlat eessõna über + mida?.",
       "forms": "über + mida?",
@@ -3979,39 +3979,39 @@ const B2_WORDS = [
     "de": "Empörung",
     "de_article": "die",
     "de_plural": "die Empörungen",
-    "lv": "pahameel • mäss • ülestõus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "emsig",
-    "lv": "tragi • toimekas • tegus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entbehren",
-    "lv": "läbi ajama • ilma olema • puudust kannatama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entbinden",
-    "lv": "vabastama • sünnitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Entbindung",
     "de_article": "die",
     "de_plural": "die Entbindungen",
-    "lv": "vabastamine • sünnitus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entehren",
-    "lv": "au teotama • häbistama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "enteignen",
-    "lv": "võõrandama • eksproprieerima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4021,27 +4021,27 @@ const B2_WORDS = [
   },
   {
     "de": "entfallen",
-    "lv": "ära jääma • välja langema • ununema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entfalten",
-    "lv": "lahti rullima • lahti voltima • arendama • laiendama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "sich entfalten",
-    "lv": "avanema • arenema • õitsele puhkema • välja kujunema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entflammen",
-    "lv": "süütama • vaimustama • süttima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entführen",
-    "lv": "ära viima • röövima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4083,7 +4083,7 @@ const B2_WORDS = [
   },
   {
     "de": "enthüllen",
-    "lv": "paljastama • avalikustama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4093,12 +4093,12 @@ const B2_WORDS = [
   },
   {
     "de": "entkräften",
-    "lv": "jõuetuks tegema • nõrgestama • ümber lükkama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entladen",
-    "lv": "maha laadima • tühjaks laadima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4113,7 +4113,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-entledigen",
       "layout": "minimalStudy",
-      "translation": "vabanema • lahti saama",
+      "translation": "\\",
       "rektion": "+ omastavas käändes",
       "explanation": "sich entledigen nõuab kindlat eessõna + omastavas käändes.",
       "forms": "+ omastavas käändes",
@@ -4136,17 +4136,17 @@ const B2_WORDS = [
   },
   {
     "de": "entlegen",
-    "lv": "eemalseisev • kauge",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entmutigen",
-    "lv": "julgust vähendama • heidutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entnehmen",
-    "lv": "võtma • ära võtma • välja võtma • järeldama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4156,7 +4156,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-entruesten",
       "layout": "minimalStudy",
-      "translation": "nördima • tuliseks minema",
+      "translation": "\\",
       "rektion": "über + mida?",
       "explanation": "sich entrüsten nõuab kindlat eessõna über + mida?.",
       "forms": "über + mida?",
@@ -4179,7 +4179,7 @@ const B2_WORDS = [
   },
   {
     "de": "entsagen",
-    "lv": "keelduma • loobuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4194,7 +4194,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-entsinnen",
       "layout": "minimalStudy",
-      "translation": "meenutama • meeles pidama",
+      "translation": "\\",
       "rektion": "+ omastavas käändes",
       "explanation": "sich entsinnen nõuab kindlat eessõna + omastavas käändes.",
       "forms": "+ omastavas käändes",
@@ -4219,17 +4219,17 @@ const B2_WORDS = [
     "de": "Entspannung",
     "de_article": "die",
     "de_plural": "die Entspannungen",
-    "lv": "lõdvestus • lõdvestumine • pinge vähenemine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entstellen",
-    "lv": "moonutama • väänama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entweichen",
-    "lv": "eemalduma • põgenema • taganema • välja voolama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4248,24 +4248,24 @@ const B2_WORDS = [
     "de": "Entwertung",
     "de_article": "die",
     "de_plural": "die Entwertungen",
-    "lv": "väärtuse langetamine • devalveerimine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Entwurf",
     "de_article": "der",
     "de_plural": "die Entwürfe",
-    "lv": "visand • eskiis • projekt",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entwurzeln",
-    "lv": "juurtega välja kiskuma • hävitama • täielikult likvideerima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "entziehen",
-    "lv": "ära võtma • lahti rebima • vältima • lahti kiskuma • põgenema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4275,7 +4275,7 @@ const B2_WORDS = [
   },
   {
     "de": "entzückend",
-    "lv": "imeline • lummav • võluv",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4290,14 +4290,14 @@ const B2_WORDS = [
   },
   {
     "de": "sich entzünden",
-    "lv": "süttima • põlema hakkama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "süütamine • süttimine • põletik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4317,7 +4317,7 @@ const B2_WORDS = [
   {
     "de": "Erachten",
     "de_article": "das",
-    "lv": "arvamus • hinnang",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4327,7 +4327,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-erbarmen",
       "layout": "minimalStudy",
-      "translation": "halastama • kaasa tundma",
+      "translation": "\\",
       "rektion": "über + mida?",
       "explanation": "sich erbarmen nõuab kindlat eessõna über + mida?.",
       "forms": "über + mida?",
@@ -4352,7 +4352,7 @@ const B2_WORDS = [
     "de": "Erbauer",
     "de_article": "der",
     "de_plural": "die Erbauer",
-    "lv": "ehitaja • rajaja",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4376,7 +4376,7 @@ const B2_WORDS = [
   },
   {
     "de": "erdrücken",
-    "lv": "alla suruma • rõhuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4402,12 +4402,12 @@ const B2_WORDS = [
   },
   {
     "de": "erfassen",
-    "lv": "hõlmama • mõistma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erforschen",
-    "lv": "uurima • välja selgitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4424,7 +4424,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-ergeben",
       "layout": "minimalStudy",
-      "translation": "tulenema • alistuma",
+      "translation": "\\",
       "rektion": "aus + kellele?",
       "explanation": "sich ergeben nõuab kindlat eessõna aus + kellele?.",
       "forms": "aus + kellele?",
@@ -4447,7 +4447,7 @@ const B2_WORDS = [
   },
   {
     "de": "ergiebig",
-    "lv": "viljakas • tulus • rikas • rikkalik • saagirikas",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4457,22 +4457,22 @@ const B2_WORDS = [
   },
   {
     "de": "erhaben",
-    "lv": "reljeefne • kumer • suursugune • ülev • silmapaistev",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erheben",
-    "lv": "tõstma • üles kergitama • protestima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "sich erheben",
-    "lv": "püsti tõusma • tõusma • mässama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erheblich",
-    "lv": "märkimisväärne • tähtis",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4484,29 +4484,29 @@ const B2_WORDS = [
     "de": "Erkenntnis",
     "de_article": "die",
     "de_plural": "die Erkenntnisse",
-    "lv": "arusaam • mõistmine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erlangen",
-    "lv": "saavutama • omandama • kätte saama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Erlass",
     "de_article": "der",
     "de_plural": "die Erlasse",
-    "lv": "määrus • korraldus • dekreet • võlast vabastamine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erlassen",
-    "lv": "välja andma • vabastama • maha kandma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erläutern",
-    "lv": "seletama • selgitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4518,12 +4518,12 @@ const B2_WORDS = [
   },
   {
     "de": "erleiden",
-    "lv": "kannatama • üle elama • lüüasaamist kannatama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erlöschen",
-    "lv": "kustuma • kehtivuse kaotama • lõppema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4538,7 +4538,7 @@ const B2_WORDS = [
   },
   {
     "de": "ermitteln",
-    "lv": "teada saama • välja selgitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4584,12 +4584,12 @@ const B2_WORDS = [
     "de": "Eröffnung",
     "de_article": "die",
     "de_plural": "die Eröffnungen",
-    "lv": "avamine • pidulik avamine • avasõna",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erörtern",
-    "lv": "arutlema • arutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4599,7 +4599,7 @@ const B2_WORDS = [
   },
   {
     "de": "erregen",
-    "lv": "erutama • ärritama • tekitama • põhjustama • äratama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4650,7 +4650,7 @@ const B2_WORDS = [
     "de": "Erscheinung",
     "de_article": "die",
     "de_plural": "die Erscheinungen",
-    "lv": "nähtus • ilmumine • välimus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4665,12 +4665,12 @@ const B2_WORDS = [
   },
   {
     "de": "erschöpfen",
-    "lv": "ammendama • kurnama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erschüttern",
-    "lv": "raputama • rabama • kõigutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4680,19 +4680,19 @@ const B2_WORDS = [
   },
   {
     "de": "ersehen",
-    "lv": "välja lugema • järeldama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ersparen",
-    "lv": "kokku hoidma • koguma • säästma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Ersparnis",
     "de_article": "die",
     "de_plural": "die Ersparnisse",
-    "lv": "sääst • säästud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4702,12 +4702,12 @@ const B2_WORDS = [
   },
   {
     "de": "ersticken",
-    "lv": "lämmatama • summutama • alla suruma • rõhuma • lämbuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "sich erstrecken",
-    "lv": "laienema • ulatuma • sirutuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4717,12 +4717,12 @@ const B2_WORDS = [
   },
   {
     "de": "ertönen",
-    "lv": "kõlama • kostma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ertragen",
-    "lv": "taluma • kannatama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4739,12 +4739,12 @@ const B2_WORDS = [
     "de": "Erwägung",
     "de_article": "die",
     "de_plural": "die Erwägungen",
-    "lv": "kaalumine • kaalutlus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erweisen",
-    "lv": "näitama • tegema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4778,12 +4778,12 @@ const B2_WORDS = [
     "de": "Erwerb",
     "de_article": "der",
     "de_plural": "die Erwerbe",
-    "lv": "teenistus • kasum • kasu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "erwerben",
-    "lv": "teenima • omandama • saama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4795,7 +4795,7 @@ const B2_WORDS = [
   },
   {
     "de": "erzielen",
-    "lv": "saavutama • saama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4852,7 +4852,7 @@ const B2_WORDS = [
     "de": "Exil",
     "de_article": "das",
     "de_plural": "die Exile",
-    "lv": "pagulus • väljasaatmine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4864,19 +4864,19 @@ const B2_WORDS = [
   },
   {
     "de": "exklusiv",
-    "lv": "peen • aristokraatlik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Exot",
     "de_article": "der",
     "de_plural": "die Exoten",
-    "lv": "eksootiline inimene • taim • loom",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "expandieren",
-    "lv": "kiiresti kasvama • laienema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4913,7 +4913,7 @@ const B2_WORDS = [
     "de": "Fabrikat",
     "de_article": "das",
     "de_plural": "die Fabrikate",
-    "lv": "tööstustoodang • toode",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4937,7 +4937,7 @@ const B2_WORDS = [
   },
   {
     "de": "fahl",
-    "lv": "tuhm • kahvatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4988,7 +4988,7 @@ const B2_WORDS = [
     "de": "Falltür",
     "de_article": "die",
     "de_plural": "die Falltüren",
-    "lv": "luuk • põranda-uks",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -4998,7 +4998,7 @@ const B2_WORDS = [
   },
   {
     "de": "fälschlich",
-    "lv": "eksitavalt • ekslikult",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5019,7 +5019,7 @@ const B2_WORDS = [
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
-    "lv": "värvus • toon",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5063,7 +5063,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-fassen",
       "layout": "minimalStudy",
-      "translation": "end koguma • end valitsema",
+      "translation": "\\",
       "rektion": "an + kellele?",
       "explanation": "sich fassen nõuab kindlat eessõna an + kellele?.",
       "forms": "an + kellele?",
@@ -5089,12 +5089,12 @@ const B2_WORDS = [
     "de": "Fassung",
     "de_article": "die",
     "de_plural": "die Fassungen",
-    "lv": "raamistik • ümbris • sõnastus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "fassungslos",
-    "lv": "üllatunud • šokeeritud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5129,7 +5129,7 @@ const B2_WORDS = [
   {
     "de": "Feingefühl",
     "de_article": "das",
-    "lv": "delikaatsus • takt",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5162,12 +5162,12 @@ const B2_WORDS = [
     "de": "Fessel",
     "de_article": "die",
     "de_plural": "die Fesseln",
-    "lv": "kett • köidik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "festigen",
-    "lv": "tugevdama • kinnitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5194,7 +5194,7 @@ const B2_WORDS = [
     "de": "Fetzen",
     "de_article": "der",
     "de_plural": "die Fetzen",
-    "lv": "räbal • riba",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5219,7 +5219,7 @@ const B2_WORDS = [
     "de": "Finsternis",
     "de_article": "die",
     "de_plural": "die Finsternisse",
-    "lv": "pimedus • pimenemine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5260,12 +5260,12 @@ const B2_WORDS = [
     "de": "Flaum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "udusulg • ebe",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "flauschig",
-    "lv": "pehme • kohev",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5275,7 +5275,7 @@ const B2_WORDS = [
   },
   {
     "de": "fleckig",
-    "lv": "plekiline • täpiline • kirju",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5285,7 +5285,7 @@ const B2_WORDS = [
   },
   {
     "de": "flimmern",
-    "lv": "sädelema • vilkuma • virvendama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5311,7 +5311,7 @@ const B2_WORDS = [
   },
   {
     "de": "flüchtig",
-    "lv": "lenduv • põgus • hetkeline • kiiresti mööduv • lühiajaline",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5344,7 +5344,7 @@ const B2_WORDS = [
     "de": "Flur",
     "de_article": "die",
     "de_plural": "die Fluren",
-    "lv": "põld • lagendik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5389,7 +5389,7 @@ const B2_WORDS = [
   },
   {
     "de": "formell",
-    "lv": "korrektne • viisakas • formaalne • jäik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5408,12 +5408,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich fortpflanzen",
-    "lv": "paljunema • levima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "fortschaffen",
-    "lv": "ära toimetama • ära viima • ära kandma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5423,24 +5423,24 @@ const B2_WORDS = [
   },
   {
     "de": "fortwährend",
-    "lv": "pidev • katkematu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Fracht",
     "de_article": "die",
     "de_plural": "die Frachten",
-    "lv": "last • last (veos)",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "fraglich",
-    "lv": "kaheldav • vaieldav",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "fraglos",
-    "lv": "kahtlemata • vaieldamatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5459,7 +5459,7 @@ const B2_WORDS = [
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "freesija • frees",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5471,7 +5471,7 @@ const B2_WORDS = [
   },
   {
     "de": "freilich",
-    "lv": "muidugi • tõsi küll",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5483,7 +5483,7 @@ const B2_WORDS = [
   },
   {
     "de": "freimütig",
-    "lv": "avameelne • avatud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5504,7 +5504,7 @@ const B2_WORDS = [
   },
   {
     "de": "friedfertig",
-    "lv": "rahumeelne • rahuarmastav",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5549,7 +5549,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-fuegen",
       "layout": "minimalStudy",
-      "translation": "kohanema • alluma",
+      "translation": "\\",
       "rektion": "in + mida?",
       "explanation": "sich fügen nõuab kindlat eessõna in + mida?.",
       "forms": "in + mida?",
@@ -5574,7 +5574,7 @@ const B2_WORDS = [
     "de": "Fuhre",
     "de_article": "die",
     "de_plural": "die Fuhren",
-    "lv": "koorem • last",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5587,7 +5587,7 @@ const B2_WORDS = [
   {
     "de": "Führernatur",
     "de_article": "die",
-    "lv": "juhiloomus • juhivõimed",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5599,7 +5599,7 @@ const B2_WORDS = [
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "raadiotelegrafist • radist",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5641,21 +5641,21 @@ const B2_WORDS = [
     "de": "Furche",
     "de_article": "die",
     "de_plural": "die Furchen",
-    "lv": "vagu • korts",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Fürsorge",
     "de_article": "die",
     "de_plural": "die Fürsorgen",
-    "lv": "hoolitsus • eestkoste",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Fürsprache",
     "de_article": "die",
     "de_plural": "die Fürsprachen",
-    "lv": "eestkõne • hea sõna ütlemine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5693,7 +5693,7 @@ const B2_WORDS = [
   },
   {
     "de": "gängig",
-    "lv": "levinud • tavapärane",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5707,7 +5707,7 @@ const B2_WORDS = [
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "vihk • kimp",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5733,7 +5733,7 @@ const B2_WORDS = [
     "de": "Garnspule",
     "de_article": "die",
     "de_plural": "die Garnspulen",
-    "lv": "pool • poolike",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5768,31 +5768,31 @@ const B2_WORDS = [
     "de": "Gattung",
     "de_article": "die",
     "de_plural": "die Gattungen",
-    "lv": "liik • tõug",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gebärde",
     "de_article": "die",
     "de_plural": "die Gebärden",
-    "lv": "žest • ilme",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gebot",
     "de_article": "das",
     "de_plural": "die Gebote",
-    "lv": "käsk • nõue",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gebrechlich",
-    "lv": "põdur • nõrk",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gedämpft",
-    "lv": "hautatud • summutatud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5804,12 +5804,12 @@ const B2_WORDS = [
   },
   {
     "de": "gedeihen",
-    "lv": "edenema • õitsema • hästi kasvama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gedenken",
-    "lv": "kavatsema • meenutama • mälestama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5830,32 +5830,32 @@ const B2_WORDS = [
     "de": "Gefährte",
     "de_article": "der",
     "de_plural": "die Gefährten",
-    "lv": "kaaslane • seltsiline",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "teene • heameel",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gefällig",
-    "lv": "meeldiv • vastutulelik • lahke",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gefäß",
     "de_article": "das",
     "de_plural": "die Gefäße",
-    "lv": "anum • veresoon",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gefecht",
     "de_article": "das",
     "de_plural": "die Gefechte",
-    "lv": "lahing • võitlus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5869,7 +5869,7 @@ const B2_WORDS = [
     "de": "Gefüge",
     "de_article": "das",
     "de_plural": "die Gefüge",
-    "lv": "struktuur • ehitus • ühendus • liide",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5897,7 +5897,7 @@ const B2_WORDS = [
     "de": "Gegensatz",
     "de_article": "der",
     "de_plural": "die Gegensätze",
-    "lv": "vastand • kontrast • vastuolu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5909,7 +5909,7 @@ const B2_WORDS = [
   },
   {
     "de": "gehörig",
-    "lv": "kuuluv • kohane • sobiv",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5928,7 +5928,7 @@ const B2_WORDS = [
   },
   {
     "de": "gekünstelt",
-    "lv": "kunstlik • ebaloomulik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5940,12 +5940,12 @@ const B2_WORDS = [
   },
   {
     "de": "gelassen",
-    "lv": "rahulik • enesevalitsev",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "geläufig",
-    "lv": "teadaolev • tuntud • harjumuspärane • sujuv • vaba",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5971,7 +5971,7 @@ const B2_WORDS = [
     "de": "Geldeinlage",
     "de_article": "die",
     "de_plural": "die Geldeinlagen",
-    "lv": "rahahoius • deposiit",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5983,7 +5983,7 @@ const B2_WORDS = [
   },
   {
     "de": "gelegen",
-    "lv": "mugav • soodne • käepärane",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -5997,7 +5997,7 @@ const B2_WORDS = [
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "armastatu • kallim",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6011,63 +6011,63 @@ const B2_WORDS = [
     "de": "Geltung",
     "de_article": "die",
     "de_plural": "die Geltungen",
-    "lv": "tähendus • tähtsus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gemahl",
     "de_article": "der",
     "de_plural": "die Gemahle",
-    "lv": "abikaasa (mees) • elukaaslane",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gemahlin",
     "de_article": "die",
     "de_plural": "die Gemahlinnen",
-    "lv": "abikaasa (naine) • elukaaslane",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gemäß",
-    "lv": "vastavalt • kooskõlas",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gemessen",
-    "lv": "tasakaalukas • läbimõeldud",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gemetzel",
     "de_article": "das",
     "de_plural": "die Gemetzel",
-    "lv": "veresaun • massimõrv",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "segu • kokteil",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gemüsebau",
     "de_article": "der",
-    "lv": "juurviljakasvatus • aiandus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gemüt",
     "de_article": "das",
     "de_plural": "die Gemüter",
-    "lv": "meel • loomus • iseloom",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gemütvoll",
-    "lv": "südamlik • hubane",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6092,14 +6092,14 @@ const B2_WORDS = [
   },
   {
     "de": "genesen",
-    "lv": "paranema • terveks saama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Genesung",
     "de_article": "die",
     "de_plural": "die Genesungen",
-    "lv": "paranemine • tervenemine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6178,37 +6178,37 @@ const B2_WORDS = [
   },
   {
     "de": "geraten",
-    "lv": "sattuma • õnnestuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Geratewohl",
     "de_article": "das",
-    "lv": "huupi • hea õnne peale",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "geräuschlos",
-    "lv": "vaikselt • hääletult",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gerede",
     "de_article": "das",
     "de_plural": "die Gerede",
-    "lv": "jutt • lobisemine • kuulujutud",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gerinnen",
-    "lv": "kalgenduma • kokku minema • tarduma • külmuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gerippe",
     "de_article": "das",
     "de_plural": "die Gerippe",
-    "lv": "luukere • karkass",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6234,14 +6234,14 @@ const B2_WORDS = [
   },
   {
     "de": "geschäftig",
-    "lv": "tegus • toimekas",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Geschehnis",
     "de_article": "das",
     "de_plural": "die Geschehnisse",
-    "lv": "sündmus • juhtum",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6255,7 +6255,7 @@ const B2_WORDS = [
     "de": "Geschöpf",
     "de_article": "das",
     "de_plural": "die Geschöpfe",
-    "lv": "loodu • olend",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6276,7 +6276,7 @@ const B2_WORDS = [
     "de": "Geschwätz",
     "de_article": "das",
     "de_plural": "die Geschwätze",
-    "lv": "lobisemine • tühi jutt • lobajutt",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6286,7 +6286,7 @@ const B2_WORDS = [
   },
   {
     "de": "geschwind",
-    "lv": "kiire • virk • osav",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6300,14 +6300,14 @@ const B2_WORDS = [
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "paise • haavand",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Geselle",
     "de_article": "der",
     "de_plural": "die Gesellen",
-    "lv": "sell • abiline • poiss • kutseeksami sooritanud käsitööline",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6348,7 +6348,7 @@ const B2_WORDS = [
     "de": "Gesinnung",
     "de_article": "die",
     "de_plural": "die Gesinnungen",
-    "lv": "hoiak • veendumused",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6413,7 +6413,7 @@ const B2_WORDS = [
     "de": "Gestell",
     "de_article": "das",
     "de_plural": "die Gestelle",
-    "lv": "statiiv • alusraam • šassii",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6427,7 +6427,7 @@ const B2_WORDS = [
     "de": "Gesuch",
     "de_article": "das",
     "de_plural": "die Gesuche",
-    "lv": "palve • avaldus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6445,29 +6445,29 @@ const B2_WORDS = [
   {
     "de": "Gewähr",
     "de_article": "die",
-    "lv": "kindlus • käendus • garantii",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gewähren",
-    "lv": "andma • eraldama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gewaltsam",
-    "lv": "jõuga • sundkorras",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gewalttat",
     "de_article": "die",
     "de_plural": "die Gewalttaten",
-    "lv": "vägivald • vägivallaakt",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gewandt",
-    "lv": "osav • vilunud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6481,31 +6481,31 @@ const B2_WORDS = [
     "de": "Gewebe",
     "de_article": "das",
     "de_plural": "die Gewebe",
-    "lv": "riie • kude",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gewerbe",
     "de_article": "das",
     "de_plural": "die Gewerbe",
-    "lv": "amet • kutseala • püsiv töö kaubanduses või käsitöös või teenindamises",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gewieft",
-    "lv": "kaval • nutikas",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gewissenlos",
-    "lv": "südametunnistuseta • ebaaus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gewissheit",
     "de_article": "die",
     "de_plural": "die Gewissheiten",
-    "lv": "kindlus • veendumus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6516,7 +6516,7 @@ const B2_WORDS = [
   },
   {
     "de": "gierig",
-    "lv": "himur • ahne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6568,7 +6568,7 @@ const B2_WORDS = [
   },
   {
     "de": "gläsern",
-    "lv": "klaasist • klaasjas",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6595,7 +6595,7 @@ const B2_WORDS = [
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "kiilaspea • kiilaspäisus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6607,36 +6607,36 @@ const B2_WORDS = [
   },
   {
     "de": "gleichmütig",
-    "lv": "tasakaalukas • rahulik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gleichnis",
     "de_article": "das",
     "de_plural": "die Gleichnisse",
-    "lv": "tähendamissõna • võrdum",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gleiten",
-    "lv": "libisema • liuglema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Glied",
     "de_article": "das",
     "de_plural": "die Glieder",
-    "lv": "liige • jäse • keti lüli",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gliedern",
-    "lv": "liigendama • jaotama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "glimmen",
-    "lv": "hõõguma • kuumalt hõõguma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6646,21 +6646,21 @@ const B2_WORDS = [
   },
   {
     "de": "glühen",
-    "lv": "hõõguma • kuumenema • põlema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Glut",
     "de_article": "die",
     "de_plural": "die Gluten",
-    "lv": "kõrvetav kuumus • hõõgumine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gnade",
     "de_article": "die",
     "de_plural": "die Gnaden",
-    "lv": "arm • armuandmine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6671,7 +6671,7 @@ const B2_WORDS = [
   },
   {
     "de": "gnädig",
-    "lv": "armuline • halastav",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6720,14 +6720,14 @@ const B2_WORDS = [
     "de": "Gondel",
     "de_article": "die",
     "de_plural": "die Gondeln",
-    "lv": "gondel • köisraudtee kabiin",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gönner",
     "de_article": "der",
     "de_plural": "die Gönner",
-    "lv": "heategija • mesenaat",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6759,7 +6759,7 @@ const B2_WORDS = [
   },
   {
     "de": "grässlich",
-    "lv": "kohutav • jube • vastik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6796,7 +6796,7 @@ const B2_WORDS = [
   },
   {
     "de": "grausam",
-    "lv": "julm • karm",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6813,7 +6813,7 @@ const B2_WORDS = [
   },
   {
     "de": "grell",
-    "lv": "särav • pimestav",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6847,13 +6847,13 @@ const B2_WORDS = [
     "de": "Grenzbereich",
     "de_article": "der",
     "de_plural": "die Grenzbereiche",
-    "lv": "piiririba • piirivöönd",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Grimm",
     "de_article": "der",
-    "lv": "suur viha • raev",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6904,7 +6904,7 @@ const B2_WORDS = [
     "de": "Grußwort",
     "de_article": "das",
     "de_plural": "die Grußworte",
-    "lv": "tervitussõnad • tervituskõne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6924,32 +6924,32 @@ const B2_WORDS = [
     "de": "Günstling",
     "de_article": "der",
     "de_plural": "die Günstlinge",
-    "lv": "lemmik • soosik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "gurgeln",
-    "lv": "kuristama • suud loputama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Guss",
     "de_article": "der",
     "de_plural": "die Güsse",
-    "lv": "valamine • vihmahoog",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Gutachten",
     "de_article": "das",
     "de_plural": "die Gutachten",
-    "lv": "arvamus • eksperdiarvamus",
+    "lv": "eksperdiarvamus",
     "level": "B2"
   },
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "headus • kvaliteet",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -6978,7 +6978,7 @@ const B2_WORDS = [
   },
   {
     "de": "haaren",
-    "lv": "karva ajama • sulgima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7018,7 +7018,7 @@ const B2_WORDS = [
     "de": "Haltung",
     "de_article": "die",
     "de_plural": "die Haltungen",
-    "lv": "kehahoiak • käitumine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7051,12 +7051,12 @@ const B2_WORDS = [
   },
   {
     "de": "hänseln",
-    "lv": "narrima • kiusama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "hantieren",
-    "lv": "midagi käsitsema • toimima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7080,7 +7080,7 @@ const B2_WORDS = [
   },
   {
     "de": "hartnäckig",
-    "lv": "kangekaelne • visa",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7092,7 +7092,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "müts • kapott",
+      "translation": "\\",
       "explanation": [
         "Peamine mõte: die Haube võib tähendada peakatet/kapuutsi või katet/kaant — kontekst määrab tähenduse.",
         "Peas: die Haube = müts, kapuuts või konkreetne peakate (nt Nonne mit Haube).",
@@ -7290,13 +7290,13 @@ const B2_WORDS = [
     "de": "Heiligtum",
     "de_article": "das",
     "de_plural": "die Heiligtümer",
-    "lv": "pühamu • pühadus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Heilkunde",
     "de_article": "die",
-    "lv": "arstiteadus • meditsiin",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7328,7 +7328,7 @@ const B2_WORDS = [
   {
     "de": "Heimkehr",
     "de_article": "die",
-    "lv": "kojutulek • kodumaale naasmine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7349,7 +7349,7 @@ const B2_WORDS = [
     "de": "Heizöl",
     "de_article": "das",
     "de_plural": "die Heizöle",
-    "lv": "vedelkütus • masuut",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7361,24 +7361,24 @@ const B2_WORDS = [
   },
   {
     "de": "hemmen",
-    "lv": "takistama • edasi lükkama • pidurdama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Hemmung",
     "de_article": "die",
     "de_plural": "die Hemmungen",
-    "lv": "takistus • pidurdus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "henken",
-    "lv": "riputama • inimest üles pooma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "herabsetzen",
-    "lv": "alandama • halvustama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7393,7 +7393,7 @@ const B2_WORDS = [
   },
   {
     "de": "heraufkommen",
-    "lv": "üles tulema • üles saama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7467,7 +7467,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-herausstellen",
       "layout": "minimalStudy",
-      "translation": "osutuma millekski • selguma",
+      "translation": "\\",
       "rektion": "als + mis?",
       "explanation": "sich herausstellen nõuab kindlat eessõna als + mis?.",
       "forms": "als + mis?",
@@ -7489,7 +7489,7 @@ const B2_WORDS = [
   },
   {
     "de": "herb",
-    "lv": "kibedavõitu • hapukas",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7499,12 +7499,12 @@ const B2_WORDS = [
   },
   {
     "de": "hervorheben",
-    "lv": "esile tõstma • rõhutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "hervorrufen",
-    "lv": "esile kutsuma • põhjustama • tekitama • äratama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7550,24 +7550,24 @@ const B2_WORDS = [
   {
     "de": "Herzversagen",
     "de_article": "das",
-    "lv": "südameseiskus • südamepuudulikkus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Hetze",
     "de_article": "die",
     "de_plural": "die Hetzen",
-    "lv": "õhutamine • kihutamine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "hetzen",
-    "lv": "kihutama • õhutama • jälitama • taga ajama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "heucheln",
-    "lv": "teesklema • silmakirjatsema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7578,7 +7578,7 @@ const B2_WORDS = [
   },
   {
     "de": "hierdurch",
-    "lv": "sellega • käesolevaga",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7597,7 +7597,7 @@ const B2_WORDS = [
   },
   {
     "de": "hingeben",
-    "lv": "ära andma • pühenduma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7607,7 +7607,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-hingeben",
       "layout": "minimalStudy",
-      "translation": "end pühendama • end andma",
+      "translation": "\\",
       "rektion": "+ kellele?",
       "explanation": "sich hingeben nõuab kindlat eessõna + kellele?.",
       "forms": "+ kellele?",
@@ -7630,14 +7630,14 @@ const B2_WORDS = [
   },
   {
     "de": "hinreißen",
-    "lv": "haarama • kaasa kiskuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "aspekt • suhe",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7647,7 +7647,7 @@ const B2_WORDS = [
   },
   {
     "de": "hintergehen",
-    "lv": "petma • alt vedama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7659,12 +7659,12 @@ const B2_WORDS = [
   },
   {
     "de": "hinterziehen",
-    "lv": "raha omastama • maksudest kõrvale hoidma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "hinüberfahren",
-    "lv": "üle vedama • üle sõitma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7697,7 +7697,7 @@ const B2_WORDS = [
   },
   {
     "de": "hitzig",
-    "lv": "tuline • äge • kiiresti vihastuv",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7879,12 +7879,12 @@ const B2_WORDS = [
   {
     "de": "Hochmut",
     "de_article": "der",
-    "lv": "ülbus • kõrkus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "hochmütig",
-    "lv": "ülbe • kõrk",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7905,7 +7905,7 @@ const B2_WORDS = [
     "de": "Höchstleistung",
     "de_article": "die",
     "de_plural": "die Höchstleistungen",
-    "lv": "tipptulemus • suurim võimsus • rekord",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -7924,7 +7924,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-hochwasser",
       "layout": "standardStudy",
-      "translation": "üleujutus • kõrge veetase",
+      "translation": "\\",
       "explanation": "Peamine mõte: das Hochwasser tähendab üleujutust või väga kõrget veetaset jões, järves või meres. Mitmus: die Hochwasser. Sageli kasutatakse ajakirjanduses ja hoiatustes.",
       "examples": [
         {
@@ -8020,7 +8020,7 @@ const B2_WORDS = [
   },
   {
     "de": "hochwertig",
-    "lv": "kvaliteetne • kõrgekvaliteediline",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8033,7 +8033,7 @@ const B2_WORDS = [
   {
     "de": "Hohn",
     "de_article": "der",
-    "lv": "pilge • naeruvääristamine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8045,7 +8045,7 @@ const B2_WORDS = [
   },
   {
     "de": "holpern",
-    "lv": "hüplema • rappuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8130,12 +8130,12 @@ const B2_WORDS = [
     "de": "Investition",
     "de_article": "die",
     "de_plural": "die Investitionen",
-    "lv": "investeering • investeerimine • kapitalimahutus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "irrsinnig",
-    "lv": "hullumeelne • nõdrameelne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8156,7 +8156,7 @@ const B2_WORDS = [
     "de": "Kapazität",
     "de_article": "die",
     "de_plural": "die Kapazitäten",
-    "lv": "mahutavus • võimsus • suutlikkus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8212,7 +8212,7 @@ const B2_WORDS = [
   },
   {
     "de": "kidnappen",
-    "lv": "röövima • pantvangi võtma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8224,14 +8224,14 @@ const B2_WORDS = [
     "de": "Klappe",
     "de_article": "die",
     "de_plural": "die Klappen",
-    "lv": "klapp • ventiil",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Klasse",
     "de_article": "die",
     "de_plural": "die Klassen",
-    "lv": "ühiskonnaklass • klass • kategooria",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8274,7 +8274,7 @@ const B2_WORDS = [
     "de": "Kolben",
     "de_article": "der",
     "de_plural": "die Kolben",
-    "lv": "kolb • kolvik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8290,7 +8290,7 @@ const B2_WORDS = [
   },
   {
     "de": "kompetent",
-    "lv": "kompetentne • asjatundlik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8304,7 +8304,7 @@ const B2_WORDS = [
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "järjekindlus • järeldus • tagajärg",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8336,7 +8336,7 @@ const B2_WORDS = [
     "de": "Konzept",
     "de_article": "das",
     "de_plural": "die Konzepte",
-    "lv": "kontseptsioon • visand • plaan",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8348,12 +8348,12 @@ const B2_WORDS = [
   },
   {
     "de": "korrumpieren",
-    "lv": "ära ostma • korrumpeerima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "korrupt",
-    "lv": "korruptne • äraostetav",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8388,7 +8388,7 @@ const B2_WORDS = [
     "de": "Laie",
     "de_article": "der",
     "de_plural": "die Laien",
-    "lv": "võhik • asjaarmastaja",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8435,7 +8435,7 @@ const B2_WORDS = [
     "de": "Landung",
     "de_article": "die",
     "de_plural": "die Landungen",
-    "lv": "kaldale tulek • dessant • maandumine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8462,7 +8462,7 @@ const B2_WORDS = [
   },
   {
     "de": "latent",
-    "lv": "varjatud • märkamatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8495,12 +8495,12 @@ const B2_WORDS = [
     "de": "Laufwerk",
     "de_article": "das",
     "de_plural": "die Laufwerke",
-    "lv": "mootor • ajam",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "lauschen",
-    "lv": "tähelepanelikult kuulama • pealt kuulama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8581,7 +8581,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-leiden-study",
       "layout": "standardStudy",
-      "translation": "haigus • kannatused",
+      "translation": "\\",
       "explanation": [
         "Peamine mõte: das Leiden suure algustähega ja artikliga das on nimisõna — kannatused, pikaajaline/raske haigus.",
         "leiden väikese algustähega on tegusõna — kannatama.",
@@ -8712,7 +8712,7 @@ const B2_WORDS = [
   },
   {
     "de": "leidlich",
-    "lv": "talutav • üsna hästi",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8752,7 +8752,7 @@ const B2_WORDS = [
   },
   {
     "de": "lesegeschützt",
-    "lv": "tekst, mida saab lugeda alles pärast parooli sisestamist",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8781,12 +8781,12 @@ const B2_WORDS = [
   },
   {
     "de": "liebkosten",
-    "lv": "paitama • hellitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "liederlich",
-    "lv": "pealiskaudne • hooletu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8796,7 +8796,7 @@ const B2_WORDS = [
   },
   {
     "de": "lispeln",
-    "lv": "susistama • pudistama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8856,7 +8856,7 @@ const B2_WORDS = [
     "de": "Losung",
     "de_article": "die",
     "de_plural": "die Losungen",
-    "lv": "loosung • parool",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8895,7 +8895,7 @@ const B2_WORDS = [
   },
   {
     "de": "luftdicht",
-    "lv": "õhukindel • hermeetiline",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8935,7 +8935,7 @@ const B2_WORDS = [
     "de": "Lustspiel",
     "de_article": "das",
     "de_plural": "die Lustspiele",
-    "lv": "komöödia • naljamäng",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8953,7 +8953,7 @@ const B2_WORDS = [
   },
   {
     "de": "mächtig",
-    "lv": "vägev • jõuline • hiiglaslik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -8988,7 +8988,7 @@ const B2_WORDS = [
     "de": "Mahl",
     "de_article": "das",
     "de_plural": "die Mähler",
-    "lv": "söögikord • pidusöök",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9025,7 +9025,7 @@ const B2_WORDS = [
     "de": "Marine",
     "de_article": "die",
     "de_plural": "die Marinen",
-    "lv": "sõjalaevastik • merevaade",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9097,7 +9097,7 @@ const B2_WORDS = [
   },
   {
     "de": "maßlos",
-    "lv": "mõõdutundetu • piiritu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9165,7 +9165,7 @@ const B2_WORDS = [
   },
   {
     "de": "menschenscheu",
-    "lv": "inimpelglik • inimestest hoiduv",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9182,13 +9182,13 @@ const B2_WORDS = [
     "de": "Mieder",
     "de_article": "das",
     "de_plural": "die Mieder",
-    "lv": "korsett • pihik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Miederwaren",
     "de_article": "die",
-    "lv": "korsetid • rinnahoidjad",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9214,7 +9214,7 @@ const B2_WORDS = [
   },
   {
     "de": "mildern",
-    "lv": "valu leevendama • karistust leevendama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9225,7 +9225,7 @@ const B2_WORDS = [
   {
     "de": "Militär",
     "de_article": "das",
-    "lv": "sõjavägi • armee",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9264,7 +9264,7 @@ const B2_WORDS = [
   },
   {
     "de": "missbilligen",
-    "lv": "mitte heaks kiitma • laitma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9311,7 +9311,7 @@ const B2_WORDS = [
   },
   {
     "de": "mitwirken",
-    "lv": "osalema • kaasa tegema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9335,7 +9335,7 @@ const B2_WORDS = [
     "de": "Moment",
     "de_article": "das",
     "de_plural": "die Momente",
-    "lv": "otsustav asjaolu • tegur",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9360,23 +9360,23 @@ const B2_WORDS = [
   },
   {
     "de": "mulmig",
-    "lv": "ebamugav • ebakindel • kartlik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "münden",
-    "lv": "sisse voolama • sisenema • välja minema • lõppema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Muße",
     "de_article": "die",
-    "lv": "vaba aeg • vaba hetk",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "müßig",
-    "lv": "tegevusetu • jõude",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9402,7 +9402,7 @@ const B2_WORDS = [
     "de": "Nachbildung",
     "de_article": "die",
     "de_plural": "die Nachbildungen",
-    "lv": "jäljendus • imitatsioon",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9414,7 +9414,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
-      "translation": "rõhutus • kordustrükk",
+      "translation": "\\",
       "explanation": [
         "Peamine mõte: der Nachdruck võib tähendada rõhutust või raamatu kordustrükki.",
         "Nachdruck auf etwas legen = panema rõhku millelegi, nõudma midagi.",
@@ -9545,12 +9545,12 @@ const B2_WORDS = [
   },
   {
     "de": "nachdrücklich",
-    "lv": "rõhutatud • jõuline • veenev",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "nachgehen",
-    "lv": "jälgima • välja selgitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9575,7 +9575,7 @@ const B2_WORDS = [
   {
     "de": "Nachsicht",
     "de_article": "die",
-    "lv": "sallivus • mõistmine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9585,7 +9585,7 @@ const B2_WORDS = [
   },
   {
     "de": "nachträglich",
-    "lv": "hilisem • lisa- • hiljem • lisaks",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9599,7 +9599,7 @@ const B2_WORDS = [
     "de": "Nachwort",
     "de_article": "das",
     "de_plural": "die Nachworte",
-    "lv": "järelsõna • epiloog",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9611,7 +9611,7 @@ const B2_WORDS = [
   },
   {
     "de": "namens",
-    "lv": "nimel • nimega",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9693,12 +9693,12 @@ const B2_WORDS = [
     "de": "Neuauflage",
     "de_article": "die",
     "de_plural": "die Neuauflagen",
-    "lv": "kordustrükk • ümbertöötatud väljaanne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "neuerdings",
-    "lv": "hiljuti • neil päevil • viimasel ajal",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9712,7 +9712,7 @@ const B2_WORDS = [
     "de": "Neuerscheinung",
     "de_article": "die",
     "de_plural": "die Neuerscheinungen",
-    "lv": "uudis • uus väljaanne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9738,26 +9738,26 @@ const B2_WORDS = [
   },
   {
     "de": "nichtig",
-    "lv": "kehtetu • tühistatud • tähtsusetu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Niedergang",
     "de_article": "der",
     "de_plural": "die Niedergänge",
-    "lv": "loojang • allakäik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "niederlegen",
-    "lv": "maha panema • tööd katkestama • streikima hakkama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Niederschlag",
     "de_article": "der",
     "de_plural": "die Niederschläge",
-    "lv": "sademed • sete",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9790,7 +9790,7 @@ const B2_WORDS = [
     "de": "Notstand",
     "de_article": "der",
     "de_plural": "die Notstände",
-    "lv": "katastroofiolukord • erakorraline seisukord",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9847,7 +9847,7 @@ const B2_WORDS = [
   },
   {
     "de": "observieren",
-    "lv": "jälitama • jälgima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9941,7 +9941,7 @@ const B2_WORDS = [
     "de": "Order",
     "de_article": "die",
     "de_plural": "die Orders",
-    "lv": "korraldus • käsk • ülesanne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -9981,7 +9981,7 @@ const B2_WORDS = [
   },
   {
     "de": "orientalisch",
-    "lv": "orientaalne • idamaine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10059,14 +10059,14 @@ const B2_WORDS = [
     "de": "Panzerschrank",
     "de_article": "der",
     "de_plural": "die Panzerschränke",
-    "lv": "seif • raudkapp",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Parole",
     "de_article": "die",
     "de_plural": "die Parolen",
-    "lv": "parool • loosung",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10083,7 +10083,7 @@ const B2_WORDS = [
   },
   {
     "de": "parteilich",
-    "lv": "parteiline • partei-",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10109,21 +10109,21 @@ const B2_WORDS = [
     "de": "Partikel",
     "de_article": "das",
     "de_plural": "die Partikel",
-    "lv": "osake • terake",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Pater",
     "de_article": "der",
     "de_plural": "die Patres",
-    "lv": "katoliku preester • ordu liige",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Peepshow",
     "de_article": "die",
     "de_plural": "die Peepshows",
-    "lv": "erootiline programm, mida vaadatakse eraldi läbi akna",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10187,7 +10187,7 @@ const B2_WORDS = [
   },
   {
     "de": "pfuschen",
-    "lv": "halvasti • oskamatult • lohakalt töötama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10213,7 +10213,7 @@ const B2_WORDS = [
   },
   {
     "de": "pikiert",
-    "lv": "solvunud • riivatud • nördinud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10280,14 +10280,14 @@ const B2_WORDS = [
     "de": "Posse",
     "de_article": "die",
     "de_plural": "die Possen",
-    "lv": "farss • naljamäng • jäme nali",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Possen",
     "de_article": "der",
     "de_plural": "die Possen",
-    "lv": "jäme nali • tembutus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10297,12 +10297,12 @@ const B2_WORDS = [
   },
   {
     "de": "prägen",
-    "lv": "raha vermima • pressima • peale suruma • vormima • valmistama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "prägnant",
-    "lv": "tabav • lühidalt ja selgelt väljendatud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10331,7 +10331,7 @@ const B2_WORDS = [
     "de": "Preisträger",
     "de_article": "der",
     "de_plural": "die Preisträger",
-    "lv": "auhinna võitja • laureaat",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10369,7 +10369,7 @@ const B2_WORDS = [
   },
   {
     "de": "provisorisch",
-    "lv": "esialgne • ajutine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10401,12 +10401,12 @@ const B2_WORDS = [
     "de": "Quantität",
     "de_article": "die",
     "de_plural": "die Quantitäten",
-    "lv": "kvantiteet • hulk",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "quellen",
-    "lv": "välja voolama • immituma • läbi märgunuma • paisuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10437,7 +10437,7 @@ const B2_WORDS = [
     "de": "Radierung",
     "de_article": "die",
     "de_plural": "die Radierungen",
-    "lv": "söövitusgravüür • ofort",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10455,7 +10455,7 @@ const B2_WORDS = [
   },
   {
     "de": "raffiniert",
-    "lv": "rafineeritud • kaval",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10467,25 +10467,25 @@ const B2_WORDS = [
   },
   {
     "de": "ranzig",
-    "lv": "rääsunud • kibedavõitu (koore, rasva ja või kohta)",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "rau",
-    "lv": "ebatasane • kare • jäme • kähe • karm • ebasõbralik • töötlemata",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Rauchwaren",
     "de_article": "die",
-    "lv": "karusnahad • karusnahatooted",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Raumflug",
     "de_article": "der",
     "de_plural": "die Raumflüge",
-    "lv": "kosmoselend • kosmiline planeetidevaheline lend",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10532,7 +10532,7 @@ const B2_WORDS = [
   },
   {
     "de": "recken",
-    "lv": "venitama • sirutama • venima • sirutuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10549,7 +10549,7 @@ const B2_WORDS = [
   },
   {
     "de": "redselig",
-    "lv": "jutukas • lobisev",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10561,7 +10561,7 @@ const B2_WORDS = [
   },
   {
     "de": "rege",
-    "lv": "elav • toimekas • liikuv • tegus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10594,7 +10594,7 @@ const B2_WORDS = [
     "de": "Regung",
     "de_article": "die",
     "de_plural": "die Regungen",
-    "lv": "liikumine • tundepuhang • kalduvus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10606,7 +10606,7 @@ const B2_WORDS = [
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "impeerium • riik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10630,7 +10630,7 @@ const B2_WORDS = [
   },
   {
     "de": "relevant",
-    "lv": "asjakohane • tähtis",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10659,7 +10659,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-revanchieren",
       "layout": "minimalStudy",
-      "translation": "tasuma • kätte maksma",
+      "translation": "\\",
       "rektion": "bei + kellele?",
       "explanation": "sich revanchieren nõuab kindlat eessõna bei + kellele?.",
       "forms": "bei + kellele?",
@@ -10705,7 +10705,7 @@ const B2_WORDS = [
     "de": "Rivale",
     "de_article": "der",
     "de_plural": "die Rivalen",
-    "lv": "rivaal • konkurent",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10724,24 +10724,24 @@ const B2_WORDS = [
     "de": "Rückgang",
     "de_article": "der",
     "de_plural": "die Rückgänge",
-    "lv": "taandumine • allakäik • vähenemine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Rückhalt",
     "de_article": "der",
     "de_plural": "die Rückhalte",
-    "lv": "tugi • toetus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "rücksichtslos",
-    "lv": "hoolimatu • jäme • armutu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "rückständig",
-    "lv": "mahajäänud • maksetega võlgnevuses",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10760,7 +10760,7 @@ const B2_WORDS = [
   },
   {
     "de": "rühmen",
-    "lv": "kiitma • ülistama • kiitlema • uhkeldama millegagi",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10770,14 +10770,14 @@ const B2_WORDS = [
   },
   {
     "de": "runzeln",
-    "lv": "kortsutama • kulmu kortsutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Rüstung",
     "de_article": "die",
     "de_plural": "die Rüstungen",
-    "lv": "relvastumine • relvastus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10791,19 +10791,19 @@ const B2_WORDS = [
     "de": "Sachkenntnis",
     "de_article": "die",
     "de_plural": "die Sachkenntnisse",
-    "lv": "asjatundlikkus • kompetents",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "sachkundig",
-    "lv": "asjatundlik • kompetentne",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Sachlage",
     "de_article": "die",
     "de_plural": "die Sachlagen",
-    "lv": "seisund • asjaolud • olukord",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10827,7 +10827,7 @@ const B2_WORDS = [
   },
   {
     "de": "sämtlich",
-    "lv": "kõik erandita • täies koosseisus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10839,7 +10839,7 @@ const B2_WORDS = [
   },
   {
     "de": "sanieren",
-    "lv": "remontima • majanduslikult rentaabliks muutma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10853,12 +10853,12 @@ const B2_WORDS = [
     "de": "Satellit",
     "de_article": "der",
     "de_plural": "die Satelliten",
-    "lv": "poliitiline satelliit • astronoomiline satelliit",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "sättigen",
-    "lv": "hästi toitma • kostitama • keem. küllastama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10870,7 +10870,7 @@ const B2_WORDS = [
   },
   {
     "de": "sausen",
-    "lv": "kohisema • vilistama • kihutama • tormama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10895,7 +10895,7 @@ const B2_WORDS = [
   {
     "de": "Schaffen",
     "de_article": "das",
-    "lv": "looming • loometöö • tegevus • loomine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10926,24 +10926,24 @@ const B2_WORDS = [
   },
   {
     "de": "schärfsichtig",
-    "lv": "terava pilguga • tähelepanelik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "schärfsinnig",
-    "lv": "vaimukas • terava mõistusega • leidlik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Schattierung",
     "de_article": "die",
     "de_plural": "die Schattierungen",
-    "lv": "toon • nüanss",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "schaudern",
-    "lv": "õudust tundma • värisema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10962,7 +10962,7 @@ const B2_WORDS = [
   },
   {
     "de": "scheiden",
-    "lv": "eraldama • lahutama • end lahutada laskma • lahutuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10976,12 +10976,12 @@ const B2_WORDS = [
     "de": "Scheitel",
     "de_article": "der",
     "de_plural": "die Scheitel",
-    "lv": "juukselahk • pealagi",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "scheitern",
-    "lv": "ebaõnnestuma • luhtuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -10991,7 +10991,7 @@ const B2_WORDS = [
   },
   {
     "de": "schelten",
-    "lv": "sõimama • riidlema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11032,7 +11032,7 @@ const B2_WORDS = [
     "de": "Schieber",
     "de_article": "der",
     "de_plural": "die Schieber",
-    "lv": "riiv • siiber • spekulant",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11057,7 +11057,7 @@ const B2_WORDS = [
   },
   {
     "de": "schillern",
-    "lv": "sädelema • eri värvides mängima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11081,14 +11081,14 @@ const B2_WORDS = [
   },
   {
     "de": "schlagfertig",
-    "lv": "leidlik • vaimukas",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Schlagwort",
     "de_article": "das",
     "de_plural": "die Schlagwörter",
-    "lv": "loosung • tabav sõna",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11100,7 +11100,7 @@ const B2_WORDS = [
   },
   {
     "de": "schleunigst",
-    "lv": "viivitamatult • niipea kui võimalik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11114,7 +11114,7 @@ const B2_WORDS = [
     "de": "Schmach",
     "de_article": "die",
     "de_plural": null,
-    "lv": "häbi • ebaau",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11138,7 +11138,7 @@ const B2_WORDS = [
   },
   {
     "de": "schmerzlich",
-    "lv": "valus • kurb",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11173,12 +11173,12 @@ const B2_WORDS = [
     "de": "Schöpfung",
     "de_article": "die",
     "de_plural": "die Schöpfungen",
-    "lv": "loomine • looming • töö",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "schreiten",
-    "lv": "sammuma • kõndima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11190,12 +11190,12 @@ const B2_WORDS = [
   },
   {
     "de": "schrill",
-    "lv": "kime • lõikav",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "schroff",
-    "lv": "järsk • karm • terav • ebasõbralik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11249,12 +11249,12 @@ const B2_WORDS = [
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "parv • sülem",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "schwärmen",
-    "lv": "kirglikult tegelema • vaimustuma • unistama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11306,7 +11306,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwerfällig",
-    "lv": "raskepärane • aeglane",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11318,7 +11318,7 @@ const B2_WORDS = [
   },
   {
     "de": "schwinden",
-    "lv": "vähenema • kaduma • hajuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11351,7 +11351,7 @@ const B2_WORDS = [
   {
     "de": "Sehkraft",
     "de_article": "die",
-    "lv": "nägemine • nägemisvõime",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11519,7 +11519,7 @@ const B2_WORDS = [
   },
   {
     "de": "selbstlos",
-    "lv": "omakasupüüdmatu • ennastsalgav",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11538,7 +11538,7 @@ const B2_WORDS = [
     "de": "Senat",
     "de_article": "der",
     "de_plural": "die Senate",
-    "lv": "senat • teadusnõukogu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11550,7 +11550,7 @@ const B2_WORDS = [
   },
   {
     "de": "sensibel",
-    "lv": "tundlik • delikaatne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11563,7 +11563,7 @@ const B2_WORDS = [
     "de": "Seuche",
     "de_article": "die",
     "de_plural": "die Seuchen",
-    "lv": "katk • epideemia",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11575,7 +11575,7 @@ const B2_WORDS = [
   },
   {
     "de": "sickern",
-    "lv": "tilkuma • imbuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11599,7 +11599,7 @@ const B2_WORDS = [
   },
   {
     "de": "simulieren",
-    "lv": "simuleerima • imiteerima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11623,7 +11623,7 @@ const B2_WORDS = [
   },
   {
     "de": "smart",
-    "lv": "tark • kaval",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11633,7 +11633,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sofern",
       "layout": "standardStudy",
-      "translation": "kui • tingimusel, et",
+      "translation": "\\",
       "explanation": [
         "Peamine mõte: sofern on tingimuse sidesõna — tähendab kui/tingimusel, et.",
         "sofern sissejuhatab tingimuslause, sarnaselt wenn, kuid on formaalsem ja tüüpilisem kirjakeelele.",
@@ -11818,7 +11818,7 @@ const B2_WORDS = [
     "de": "Sonderausgabe",
     "de_article": "die",
     "de_plural": "die Sonderausgaben",
-    "lv": "raamatu eriväljaanne • ajalehe erinumber • margi eriväljaanne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11877,12 +11877,12 @@ const B2_WORDS = [
     "de": "Spaltung",
     "de_article": "die",
     "de_plural": "die Spaltungen",
-    "lv": "lõhestamine • lõhenemine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "spärlich",
-    "lv": "napp • hõre • vähene",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11901,7 +11901,7 @@ const B2_WORDS = [
     "de": "Sphäre",
     "de_article": "die",
     "de_plural": "die Sphären",
-    "lv": "sfäär • valdkond",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11926,7 +11926,7 @@ const B2_WORDS = [
   {
     "de": "Spott",
     "de_article": "der",
-    "lv": "pilge • narrimine • kuri nali",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11936,12 +11936,12 @@ const B2_WORDS = [
   },
   {
     "de": "spotten",
-    "lv": "naeruvääristama • narrima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "spöttisch",
-    "lv": "pilkav • narritav",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11953,7 +11953,7 @@ const B2_WORDS = [
   },
   {
     "de": "sprengen",
-    "lv": "õhku laskma • piserdama • kastma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -11967,33 +11967,33 @@ const B2_WORDS = [
     "de": "Spross",
     "de_article": "der",
     "de_plural": "die Sprosse",
-    "lv": "bot. võsu • idand • ülek. järeltulija",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Spruch",
     "de_article": "der",
     "de_plural": "die Sprüche",
-    "lv": "väljend • aforism • jur. kohtuotsus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Spruchband",
     "de_article": "das",
     "de_plural": "die Spruchbande",
-    "lv": "transparent • plakat",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Spuk",
     "de_article": "der",
     "de_plural": "die Spuke",
-    "lv": "kummitus • vaim • nähtus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "spurlos",
-    "lv": "jäljetult • teadmata kadunud",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12052,22 +12052,22 @@ const B2_WORDS = [
   },
   {
     "de": "starr",
-    "lv": "liikumatu • tardunud • jäik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "starren",
-    "lv": "teraselt vaatama • jõllitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "starrköpfig",
-    "lv": "kangekaelne • jonnakas",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "starrsinnig",
-    "lv": "kangekaelne • jonnakas",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12119,19 +12119,19 @@ const B2_WORDS = [
   {
     "de": "Stoßverkehr",
     "de_article": "der",
-    "lv": "tipptund • suurenenud liiklus kindlal kellaajal",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "kuriteoteade • avaldus politseile",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "stranden",
-    "lv": "madalikule jooksma • avariisse sattuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12141,7 +12141,7 @@ const B2_WORDS = [
   },
   {
     "de": "streitbar",
-    "lv": "võitluslik • vaidlushimuline",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12198,7 +12198,7 @@ const B2_WORDS = [
   },
   {
     "de": "stur",
-    "lv": "jonnakas • kangekaelne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12219,7 +12219,7 @@ const B2_WORDS = [
     "de": "Täfelung",
     "de_article": "die",
     "de_plural": "die Täfelungen",
-    "lv": "seinapaneel • vooder",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12259,13 +12259,13 @@ const B2_WORDS = [
     "de": "Tapferkeit",
     "de_article": "die",
     "de_plural": "die Tapferkeiten",
-    "lv": "julgus • vaprus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Tatkraft",
     "de_article": "die",
-    "lv": "energia • hoog",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12312,7 +12312,7 @@ const B2_WORDS = [
   },
   {
     "de": "tönen",
-    "lv": "kõlama • toonima • varjundit andma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12326,14 +12326,14 @@ const B2_WORDS = [
     "de": "Tor",
     "de_article": "der",
     "de_plural": "die Toren",
-    "lv": "loll • jobu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Totalschaden",
     "de_article": "der",
     "de_plural": "die Totalschäden",
-    "lv": "sõiduki avariikahjustus, mida ei saa enam parandada",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12397,7 +12397,7 @@ const B2_WORDS = [
   },
   {
     "de": "treffend",
-    "lv": "tabav • kõnekas",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12414,7 +12414,7 @@ const B2_WORDS = [
   },
   {
     "de": "treulos",
-    "lv": "ebalojaalne • ebausaldusväärne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12477,7 +12477,7 @@ const B2_WORDS = [
   },
   {
     "de": "überbringen",
-    "lv": "teadet • õnnitlust • kirja • kingitust edastama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12488,7 +12488,7 @@ const B2_WORDS = [
   },
   {
     "de": "überfahren",
-    "lv": "üle sõitma • kergelt pintsliga üle tõmbama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12510,22 +12510,22 @@ const B2_WORDS = [
   },
   {
     "de": "überführen",
-    "lv": "üle vedama • üle jõe toimetama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "übergehen",
-    "lv": "märkamata jätma • ignoreerima • vahele jätma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "überhören",
-    "lv": "tähelepanematusest kuulmata jätma • kuulmatust teesklema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "überlassen",
-    "lv": "kellegi otsustada jätma • käsutusse jätma • valida laskma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12539,12 +12539,12 @@ const B2_WORDS = [
     "de": "Überlegung",
     "de_article": "die",
     "de_plural": "die Überlegungen",
-    "lv": "läbimõtlemine • kaalumine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "übermitteln",
-    "lv": "üle andma • kirja saatma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12561,7 +12561,7 @@ const B2_WORDS = [
   },
   {
     "de": "überschreiten",
-    "lv": "ületama • seadust rikkuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12571,27 +12571,27 @@ const B2_WORDS = [
   },
   {
     "de": "übersiedeln",
-    "lv": "kolima • elukohta vahetama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "überstehen",
-    "lv": "üle elama • ebameeldivusi taluma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "übertragen",
-    "lv": "üle kandma • nakkushaigust levitama • raadio kaudu edastama • tõlkima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "übertreten",
-    "lv": "seadust rikkuma • üle astuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "überwältigen",
-    "lv": "ületama • üle trumpama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12607,7 +12607,7 @@ const B2_WORDS = [
   },
   {
     "de": "umarbeiten",
-    "lv": "ümber töötama • ümber tegema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12624,14 +12624,14 @@ const B2_WORDS = [
   },
   {
     "de": "umfassen",
-    "lv": "ümbritsema • haarama • kallistama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Umfeld",
     "de_article": "das",
     "de_plural": "die Umfelder",
-    "lv": "sotsiaalne • poliitiline keskkond",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12641,7 +12641,7 @@ const B2_WORDS = [
   },
   {
     "de": "umhören, sich",
-    "lv": "ringi küsima • maad kuulama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12653,14 +12653,14 @@ const B2_WORDS = [
   },
   {
     "de": "umkreisen",
-    "lv": "ümber piirama • ringi lendama • hõljuma • ringlema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Umlauf",
     "de_article": "der",
     "de_plural": "die Umläufe",
-    "lv": "ringlemine • tsirkulatsioon",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12679,12 +12679,12 @@ const B2_WORDS = [
   },
   {
     "de": "umschließen",
-    "lv": "sisse piirama • hõlmama • ümbritsema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "umschreiben",
-    "lv": "ümber sõnastama • kirjeldama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12696,13 +12696,13 @@ const B2_WORDS = [
     "de": "Umschwung",
     "de_article": "der",
     "de_plural": "die Umschwünge",
-    "lv": "pööre • murdepunkt • äkiline muutus • pööre",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Umsicht",
     "de_article": "die",
-    "lv": "ettevaatlikkus • kaalutletus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12712,7 +12712,7 @@ const B2_WORDS = [
   },
   {
     "de": "umständlich",
-    "lv": "tülikas • liiga üksikasjalik • koormav • keeruline",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12724,7 +12724,7 @@ const B2_WORDS = [
   },
   {
     "de": "umwandeln",
-    "lv": "muutma • ümber kujundama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12739,37 +12739,37 @@ const B2_WORDS = [
   },
   {
     "de": "unanständig",
-    "lv": "ebaviisakas • kombeteta",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unaufhörlich",
-    "lv": "katkematu • pidev",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unbarmherzig",
-    "lv": "julm • südametu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unbebaut",
-    "lv": "harimata (maa kohta) • hoonestamata",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unbedacht",
-    "lv": "läbimõtlemata • rutakas • ettevaatamatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unbegreiflich",
-    "lv": "hoomamatu • arusaamatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unbegründet",
-    "lv": "alusetu • põhjendamatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12804,7 +12804,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbewusst",
-    "lv": "teadvustamata • instinktiivne • tahtmatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12836,24 +12836,24 @@ const B2_WORDS = [
     "de": "Unfug",
     "de_article": "der",
     "de_plural": "die Unfuge",
-    "lv": "üleastumine • pahategu • kohatu käitumine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ungeachtet",
-    "lv": "hoolimata • kuigi",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "ungerade",
-    "lv": "mitte päris sirge • kõver • paaritu arv",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "liit • unioon",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12869,7 +12869,7 @@ const B2_WORDS = [
   },
   {
     "de": "unnütz",
-    "lv": "kõlbmatu • asjatu • kasutu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12881,24 +12881,24 @@ const B2_WORDS = [
   },
   {
     "de": "unterbreiten",
-    "lv": "ette panema • esitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unterdrücken",
-    "lv": "rõhuma • alla suruma",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "untereinander",
-    "lv": "omavahel • vastastikku",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Untergang",
     "de_article": "der",
     "de_plural": "die Untergänge",
-    "lv": "loojang • hukk • kokkuvarisemine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12911,7 +12911,7 @@ const B2_WORDS = [
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "ülalpidamine • varustamine",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12928,7 +12928,7 @@ const B2_WORDS = [
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "alus • vaip • toend • andmed • dokumentatsioon",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12962,12 +12962,12 @@ const B2_WORDS = [
   },
   {
     "de": "untertauchen",
-    "lv": "sukelduma • vee alla minema • peitu minema",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unterweisen",
-    "lv": "juhendama • õpetama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -12982,12 +12982,12 @@ const B2_WORDS = [
   },
   {
     "de": "untragbar",
-    "lv": "vastuvõetamatu • talumatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unüberlegt",
-    "lv": "läbimõtlematu • kaalutlematu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13002,12 +13002,12 @@ const B2_WORDS = [
   },
   {
     "de": "unwiderlegbar",
-    "lv": "ümberlükkamatu • vaieldamatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "unwillkürlich",
-    "lv": "tahtmatu • teadvustamata",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13022,14 +13022,14 @@ const B2_WORDS = [
   },
   {
     "de": "üppig",
-    "lv": "rikkalik • lopsakas",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Urheber",
     "de_article": "der",
     "de_plural": "die Urheber",
-    "lv": "algataja • autor",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13043,14 +13043,14 @@ const B2_WORDS = [
     "de": "Urkunde",
     "de_article": "die",
     "de_plural": "die Urkunden",
-    "lv": "dokument • kirjutis",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Ursprung",
     "de_article": "der",
     "de_plural": "die Ursprünge",
-    "lv": "päritolu • algupära",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13060,7 +13060,7 @@ const B2_WORDS = [
   },
   {
     "de": "vage",
-    "lv": "ebaselge • ebatäpne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13070,7 +13070,7 @@ const B2_WORDS = [
   },
   {
     "de": "verachten",
-    "lv": "põlgama • halvustama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13082,12 +13082,12 @@ const B2_WORDS = [
     "de": "Veranlagung",
     "de_article": "die",
     "de_plural": "die Veranlagungen",
-    "lv": "andekus • võimed",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "veranlassen",
-    "lv": "esile kutsuma • algatama • õhutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13097,7 +13097,7 @@ const B2_WORDS = [
   },
   {
     "de": "verborgen",
-    "lv": "peidetud • salajane",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13116,17 +13116,17 @@ const B2_WORDS = [
     "de": "Verdruss",
     "de_article": "der",
     "de_plural": "die Verdrusse",
-    "lv": "meelehärm • pahameel • tusk",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "verdünnen",
-    "lv": "õhemaks tegema • keem. lahjendama • nõrgestama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "verehren",
-    "lv": "austama • lugu pidama • kõnek. kinkima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13165,43 +13165,43 @@ const B2_WORDS = [
     "de": "Vereinigung",
     "de_article": "die",
     "de_plural": "die Vereinigungen",
-    "lv": "liit • ühing • ühendamine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "vererben",
-    "lv": "jätma • pärandama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Verfahren",
     "de_article": "das",
     "de_plural": "die Verfahren",
-    "lv": "tegevus • käitumine • võte • meetod • jur. protsess • asi",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Verfall",
     "de_article": "der",
     "de_plural": "die Verfälle",
-    "lv": "kokkuvarisemine • allakäik",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "verfallen",
-    "lv": "kokku varisema • lagunema • alla käima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Verfasser",
     "de_article": "der",
     "de_plural": "die Verfasser",
-    "lv": "koostaja • autor",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "verfügen",
-    "lv": "kindlaks määrama • käskima • määrama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13213,7 +13213,7 @@ const B2_WORDS = [
   },
   {
     "de": "verführen",
-    "lv": "ahvatlema • võrgutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13240,7 +13240,7 @@ const B2_WORDS = [
   },
   {
     "de": "verhandeln",
-    "lv": "nõu pidama • läbirääkimisi pidama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13277,14 +13277,14 @@ const B2_WORDS = [
   },
   {
     "de": "verhüten",
-    "lv": "ära hoidma • rasestumisvastaseid vahendeid kasutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Verlauf",
     "de_article": "der",
     "de_plural": "die Verläufe",
-    "lv": "käik • kulg",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13298,35 +13298,35 @@ const B2_WORDS = [
     "de": "Verleih",
     "de_article": "der",
     "de_plural": "die Verleihe",
-    "lv": "laenutus • renditeenus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Vermächtnis",
     "de_article": "das",
     "de_plural": "die Vermächtnisse",
-    "lv": "pärand • annak",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Vermerk",
     "de_article": "der",
     "de_plural": "die Vermerke",
-    "lv": "märkus • märge",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Vermögen",
     "de_article": "das",
     "de_plural": "die Vermögen",
-    "lv": "vara • võime",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Vermutung",
     "de_article": "die",
     "de_plural": "die Vermutungen",
-    "lv": "eeldus • hüpotees",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13360,19 +13360,19 @@ const B2_WORDS = [
     "de": "Verschluss",
     "de_article": "der",
     "de_plural": "die Verschlüsse",
-    "lv": "lukk • riiv",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Versehen",
     "de_article": "das",
     "de_plural": "die Versehen",
-    "lv": "viga • eksitus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "verkommen",
-    "lv": "alla käima • manduma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13382,7 +13382,7 @@ const B2_WORDS = [
   },
   {
     "de": "verkraften",
-    "lv": "välja kannatama • üle elama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13392,7 +13392,7 @@ const B2_WORDS = [
   },
   {
     "de": "verkünden",
-    "lv": "teatama • kuulutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13422,7 +13422,7 @@ const B2_WORDS = [
   },
   {
     "de": "vermitteln",
-    "lv": "vahendama • hankima • soodustama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13442,7 +13442,7 @@ const B2_WORDS = [
   },
   {
     "de": "verordnen",
-    "lv": "määrama • korraldust andma • med. välja kirjutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13462,7 +13462,7 @@ const B2_WORDS = [
   },
   {
     "de": "versagen",
-    "lv": "ebaõnnestuma • üles ütlema • keelduma • tagasi lükkama • mitte kuuletuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13472,7 +13472,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-versehen",
       "layout": "minimalStudy",
-      "translation": "eksima • varustama millegagi",
+      "translation": "\\",
       "rektion": "mit + kellele?",
       "explanation": "sich versehen nõuab kindlat eessõna mit + kellele?.",
       "forms": "mit + kellele?",
@@ -13495,7 +13495,7 @@ const B2_WORDS = [
   },
   {
     "de": "versetzen",
-    "lv": "ümber tõstma • ümber paigutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13547,12 +13547,12 @@ const B2_WORDS = [
   },
   {
     "de": "verspielen",
-    "lv": "mängides kaotama • maha mängima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "verspotten",
-    "lv": "narrima • naeruvääristama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13601,7 +13601,7 @@ const B2_WORDS = [
     "de": "Verstorbene",
     "de_article": "der",
     "de_plural": "die Verstorbenen",
-    "lv": "lahkunu • surnu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13613,7 +13613,7 @@ const B2_WORDS = [
   },
   {
     "de": "vertagen",
-    "lv": "edasi lükkama • kõrvale panema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13625,12 +13625,12 @@ const B2_WORDS = [
     "de": "Vertretung",
     "de_article": "die",
     "de_plural": "die Vertretungen",
-    "lv": "asendamine • esindamine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "verwalten",
-    "lv": "valitsema • haldama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13645,14 +13645,14 @@ const B2_WORDS = [
   },
   {
     "de": "verweilen",
-    "lv": "peatuma • viibima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Verweis",
     "de_article": "der",
     "de_plural": "die Verweise",
-    "lv": "märkus • noomitus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13664,24 +13664,24 @@ const B2_WORDS = [
   },
   {
     "de": "verwickeln",
-    "lv": "sassi ajama • ülek. sisse kaasama • segama",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "verwirren",
-    "lv": "segi ajama • sassi ajama • segadusse viima",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Verwirrung",
     "de_article": "die",
     "de_plural": "die Verwirrungen",
-    "lv": "segiajamine • segadus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "verwöhnen",
-    "lv": "hellitama • ära hellitama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13737,7 +13737,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich verzögern",
-    "lv": "hilinema • edasi lükkuma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13752,7 +13752,7 @@ const B2_WORDS = [
   },
   {
     "de": "verzweifelt",
-    "lv": "meeleheitel • meeleheitlik",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13794,7 +13794,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollbringen",
-    "lv": "sooritama • tegema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13804,7 +13804,7 @@ const B2_WORDS = [
   },
   {
     "de": "vollkommen",
-    "lv": "täielik • täiesti",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13840,7 +13840,7 @@ const B2_WORDS = [
   },
   {
     "de": "voran",
-    "lv": "ees • eesotsas",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13850,7 +13850,7 @@ const B2_WORDS = [
   },
   {
     "de": "voraussetzen",
-    "lv": "nõudma • eelduseks olema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13874,7 +13874,7 @@ const B2_WORDS = [
     "de": "Vorbildung",
     "de_article": "die",
     "de_plural": "die Vorbildungen",
-    "lv": "eelteadmised • ettevalmistus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13898,12 +13898,12 @@ const B2_WORDS = [
     "de": "Vorfall",
     "de_article": "der",
     "de_plural": "die Vorfälle",
-    "lv": "juhtum • sündmus",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "vorfristig",
-    "lv": "enneaegne • tähtajaeelne",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13922,7 +13922,7 @@ const B2_WORDS = [
   },
   {
     "de": "vornehmen",
-    "lv": "tegema • sooritama • asuma • midagi ette võtma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13934,7 +13934,7 @@ const B2_WORDS = [
     "de": "Vorrecht",
     "de_article": "das",
     "de_plural": "die Vorrechte",
-    "lv": "eesõigus • privileeg",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13946,21 +13946,21 @@ const B2_WORDS = [
     "de": "Vorspiel",
     "de_article": "das",
     "de_plural": "die Vorspiele",
-    "lv": "proloog • eelmäng • uvertüür",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Vorsprung",
     "de_article": "der",
     "de_plural": "die Vorsprünge",
-    "lv": "ülevus • paremus • ülekaal",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Vorstand",
     "de_article": "der",
     "de_plural": "die Vorstände",
-    "lv": "juhatus • juhtkond • ülemus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13972,7 +13972,7 @@ const B2_WORDS = [
   },
   {
     "de": "vortragen",
-    "lv": "loengut pidama • esitama • deklameerima • esitama (muusikat)",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -13998,7 +13998,7 @@ const B2_WORDS = [
     "de": "Vorwand",
     "de_article": "der",
     "de_plural": "die Vorwände",
-    "lv": "ettekääne • vabandus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14036,7 +14036,7 @@ const B2_WORDS = [
     "de": "Wachsamkeit",
     "de_article": "die",
     "de_plural": "die Wachsamkeiten",
-    "lv": "valvsus • tähelepanelikkus",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14112,7 +14112,7 @@ const B2_WORDS = [
   },
   {
     "de": "wanken",
-    "lv": "kõikuma • ülek. kõhklema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14140,7 +14140,7 @@ const B2_WORDS = [
     "de": "Wasserspiegel",
     "de_article": "der",
     "de_plural": "die Wasserspiegel",
-    "lv": "veetase • veepind",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14187,7 +14187,7 @@ const B2_WORDS = [
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "sünnitusvalu • tuhu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14315,21 +14315,21 @@ const B2_WORDS = [
     "de": "Wesen",
     "de_article": "das",
     "de_plural": "die Wesen",
-    "lv": "olend • loodu • olemus • iseloom",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "sp. jooksuvõistlus • jooks",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "võistlus • jooks",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14361,7 +14361,7 @@ const B2_WORDS = [
   },
   {
     "de": "widerlich",
-    "lv": "vastik • jälk",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14378,7 +14378,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-widersetzen",
       "layout": "minimalStudy",
-      "translation": "vastu panema • vastu seisma",
+      "translation": "\\",
       "rektion": "+ kellele?",
       "explanation": "sich widersetzen nõuab kindlat eessõna + kellele?.",
       "forms": "+ kellele?",
@@ -14409,12 +14409,12 @@ const B2_WORDS = [
   {
     "de": "Wiederaufbau",
     "de_article": "der",
-    "lv": "taastamine • rekonstrueerimine",
+    "lv": "\\",
     "level": "B2"
   },
   {
     "de": "wiedergeben",
-    "lv": "tagastama • reprodutseerima • kujutama",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14437,7 +14437,7 @@ const B2_WORDS = [
   },
   {
     "de": "winden",
-    "lv": "punuma • kerima",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14478,7 +14478,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuerkennen",
-    "lv": "määrama • andma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14528,7 +14528,7 @@ const B2_WORDS = [
   },
   {
     "de": "zusammenlegen",
-    "lv": "panema • kokku panema",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14543,7 +14543,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuteilen",
-    "lv": "eraldama • andma",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14572,7 +14572,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "määrama • eraldama",
+      "translation": "\\",
       "explanation": "Peamine mõte: zuweisen tähendab ametlikult määramist või eraldamist — ülesande, rolli, ressursi või raha konkreetsele isikule või osakonnale. Lahutatav: weise ... zu.",
       "examples": [
         {
@@ -14683,7 +14683,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "vastu • vastupidi • mitte meeldima",
+      "translation": "\\",
       "explanation": "Peamine mõte: zuwider on mitme funktsiooniga sõna. Kaassõnana + daativ tähendab see „vastu, vastupidi”: mir zuwider. Väljendi jemandem zuwider sein/laufen osana tähendab see „kellelegi mitte meeldida, muutuda ebameeldivaks”. Ei tohi segi ajada sõnaga wider (vastu).",
       "examples": [
         {
@@ -14787,7 +14787,7 @@ const B2_WORDS = [
   },
   {
     "de": "zwanglos",
-    "lv": "vaba • sundimatu",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -14824,7 +14824,7 @@ const B2_WORDS = [
     "de": "Zwischenraum",
     "de_article": "der",
     "de_plural": "die Zwischenräume",
-    "lv": "vahe • vaheruum",
+    "lv": "\\",
     "level": "B2"
   },
   {
@@ -15513,7 +15513,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-foerdern",
       "layout": "standardStudy",
-      "translation": "soodustama • toetama",
+      "translation": "\\",
       "explanation": [
         "Peamine mõte: Soodustada arengut, toetada inimest, projekti või protsessi.",
         "fördern tähendab peamiselt: arengut soodustama.",
@@ -15663,7 +15663,7 @@ const B2_WORDS = [
   },
   {
     "de": "verlaufen",
-    "lv": "kulgema • toimuma",
+    "lv": "\\",
     "level": "B2",
     "study": {
       "id": "b2-verlaufen",
