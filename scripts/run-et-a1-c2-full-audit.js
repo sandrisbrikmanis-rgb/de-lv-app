@@ -32,6 +32,8 @@ function main() {
     /* validate output may not exist */
   }
 
+  execSync("node scripts/test-main-translation-v112-regression.js", { cwd: ROOT, stdio: "inherit" });
+
   const results = [];
   for (const key of Object.keys(DATASETS)) {
     console.log(`\n--- Auditing ${key.toUpperCase()} ---\n`);
@@ -46,11 +48,12 @@ function main() {
     dataset: r.dataset,
     cards: r.cardCount,
     study: r.studyCount,
-    objectCoverage: r.objectCoverage,
-    validatedFindings: r.newValidatedFindings,
-    multiTranslationOwner: r.multiTranslationValidated,
+    multiTranslationRaw: r.multiTranslationCandidatesRaw,
+    multiTranslationOwner: r.multiTranslationOwnerUnresolved,
+    otherOwnerBacklog: r.ownerBacklog - r.multiTranslationOwnerUnresolved,
     foreignResidual: r.foreignResidual,
     ownerBacklog: r.ownerBacklog,
+    multiTranslationScan: r.multiTranslationScanStatus,
     verdict: r.verdict,
   }));
 

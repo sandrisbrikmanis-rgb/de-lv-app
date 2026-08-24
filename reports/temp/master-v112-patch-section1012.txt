@@ -1,0 +1,5 @@
+6.  Case A–D (§13): ordinary `dauerhaft → püsiv • pikaajaline • vastupidav`,
+    standardStudy `finden → leidma • arvama`, `für → jaoks • eest`, `aus → -st • välja`
+    → `MULTIPLE_MAIN_TRANSLATIONS_DETECTED = true`, `OWNER_DECISION_REQUIRED`;
+7.  Case E (§13): `finden → leidma` ar `arvama` tikai Study explanation →
+    `MAIN_TRANSLATION_COUNT = 1`, PASS;

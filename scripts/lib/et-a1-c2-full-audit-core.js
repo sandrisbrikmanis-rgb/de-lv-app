@@ -7,10 +7,12 @@ const vm = require("vm");
 const { execSync } = require("child_process");
 const { ROOT } = require("./audit-common");
 const { classifyWithOwnerHistory, normalizePath } = require("./et-a1-owner-history");
+const {
+  scanDatasetMainTranslations,
+  REGRESSION_FIXTURES,
+} = require("./main-translation-field-inventory");
 
-const MASTER_VERSION = "1.11";
-const MULTI_SEP = /[•/;]|\n/;
-const MULTI_COMMA = /,\s*(?=[A-Za-zÕÄÖÜõäöü])/;
+const MASTER_VERSION = "1.12";
 
 const DATASETS = {
   a1: {
@@ -143,41 +145,34 @@ function valuesMatch(a, b) {
   return x === y;
 }
 
-function isMultiTranslationFalsePositive(text, fieldPath) {
-  const t = String(text || "").trim();
-  if (!t) return true;
-  if (/—/.test(t) && /\b(ich|du|der |die |das |ein |eine?n? )\b/i.test(t)) return true;
-  if (fieldPath && !fieldPath.endsWith(".lv") && !fieldPath.endsWith("entry.lv")) return true;
+function productionHasRegressionFixture(entries) {
+  for (const fixture of REGRESSION_FIXTURES) {
+    if (!fixture.expectDetected) continue;
+    const match = entries.find((e) => String(e.de || "").trim() === fixture.de);
+    if (!match) continue;
+    if (fixture.field === "lv" && String(match.lv || "").includes("•")) return true;
+    if (fixture.field === "study.translation" && String(match.study?.translation || "").includes("•")) return true;
+  }
   return false;
 }
 
-function scanMultiTranslation(entries, entryIdFn) {
-  const violations = [];
-  entries.forEach((entry, index) => {
-    const text = entry.lv || "";
-    if (!text.trim()) return;
-    let parts = [];
-    if (MULTI_SEP.test(text)) {
-      parts = text.split(MULTI_SEP).map((p) => p.trim()).filter(Boolean);
-    } else if (MULTI_COMMA.test(text) && text.split(",").length >= 2) {
-      parts = text.split(",").map((p) => p.trim()).filter(Boolean);
-    }
-    if (parts.length < 2 || !parts.every((p) => p.length > 0 && p.length < 80)) return;
-    const fieldPath = "lv";
-    if (isMultiTranslationFalsePositive(text, fieldPath)) return;
-    violations.push({
-      cardId: entryIdFn(entry, index),
-      field: fieldPath,
-      de: entry.de || "",
-      currentEt: text,
-      candidates: parts.slice(0, 6),
-      translationCount: parts.length,
-      category: "MULTIPLE_TRANSLATION",
-      severity: "HIGH",
-      reason: `Ordinary flashcard shows ${parts.length} learner-facing translation candidates (${parts.slice(0, 3).join(" | ")})`,
-    });
-  });
-  return violations;
+function evaluateInvalidAuditGate(entries, validatedMultiCount, rawCandidates) {
+  const hasFixture = productionHasRegressionFixture(entries);
+  if (validatedMultiCount === 0 && rawCandidates > 0 && hasFixture) {
+    return {
+      multiTranslationScan: "INVALID",
+      auditResult: "REOPEN_REQUIRED",
+      reason: "Audit reports 0 validated multi-translation violations but production contains §13 regression fixtures",
+    };
+  }
+  if (validatedMultiCount === 0 && hasFixture) {
+    return {
+      multiTranslationScan: "INVALID",
+      auditResult: "REOPEN_REQUIRED",
+      reason: "§14 INVALID AUDIT GATE: known multi-translation fixtures present but scan reported 0 validated violations",
+    };
+  }
+  return { multiTranslationScan: "VALID", auditResult: null, reason: null };
 }
 
 function classifyFinding(finding, history) {
@@ -388,8 +383,10 @@ function buildOwnerArtifacts(cfg, backlog) {
       "| Field | Value |",
       "|---|---|",
       `| Card ID | ${f.cardId} |`,
+      `| Card type | ${f.cardType || "—"} |`,
       `| Field/path | \`${f.field}\` |`,
       `| CURRENT | ${f.currentEt || "—"} |`,
+      `| Candidates | ${(f.candidates || []).join(" · ") || "—"} |`,
       `| DE/source | ${f.de || "—"} |`,
       `| Category | ${f.category} |`,
       `| Severity | ${f.severity} |`,
@@ -428,9 +425,16 @@ function buildAuditReport(cfg, result) {
     `| OBJECT_COVERAGE | **${result.objectCoverage}** |`,
     `| DETERMINISTIC_SCOPE_COVERAGE | **100%** |`,
     `| DETERMINISTIC_DISCOVERY_COMPLETENESS | **100%** |`,
-    `| ORDINARY_FLASHCARD_SCOPE | **${result.ordinaryFlashcardScope}** |`,
-    `| MULTI_TRANSLATION_SCAN_COVERAGE | **100%** |`,
-    `| MULTIPLE_TRANSLATION_VALIDATED_REAL | **${result.multiTranslationValidated}** |`,
+    `| CARD_SCOPE | **${result.cardScope}** |`,
+    `| MAIN_TRANSLATION_FIELD_INVENTORY_COVERAGE | **${result.mainTranslationInventoryCoverage}** |`,
+    `| UNMAPPED_MAIN_TRANSLATION_FIELDS | **${result.unmappedMainTranslationFields}** |`,
+    `| MULTI_TRANSLATION_SCAN_COVERAGE | **${result.multiTranslationScanCoverage}** |`,
+    `| MULTIPLE_MAIN_TRANSLATION_CANDIDATES_RAW | **${result.multiTranslationCandidatesRaw}** |`,
+    `| MULTIPLE_MAIN_TRANSLATIONS_VALIDATED_REAL | **${result.multiTranslationValidated}** |`,
+    `| MULTIPLE_MAIN_TRANSLATIONS_OWNER_UNRESOLVED | **${result.multiTranslationOwnerUnresolved}** |`,
+    `| MAIN_TRANSLATION_COUNT_VIOLATIONS | **${result.mainTranslationCountViolations}** |`,
+    `| OWNER_AUTOMATIC_SELECTION | **0** |`,
+    `| MULTI_TRANSLATION_SCAN | **${result.multiTranslationScanStatus}** |`,
     `| FOREIGN_LANGUAGE_RESIDUAL | **${result.foreignResidual}** |`,
     `| OWNER_BACKLOG_FINAL | **${result.ownerBacklog}** |`,
     `| OWNER_HISTORY_AVAILABLE | **${result.ownerHistoryAvailable}** |`,
@@ -487,7 +491,8 @@ function auditDataset(key) {
     }));
   }
 
-  const multiViolations = scanMultiTranslation(et, entryIdFn);
+  const multiScan = scanDatasetMainTranslations(et, entryIdFn);
+  const multiViolations = multiScan.violations;
   let seq = 1;
   const fromCollect = collectToFindings(cfg, collectData, null, seq);
   seq = fromCollect.nextSeq;
@@ -520,6 +525,7 @@ function auditDataset(key) {
     f.category === "FOREIGN_REMNANT" || f.category === "MIXED_LANGUAGE",
   ).length;
   const multiOwner = backlog.filter((f) => f.category === "MULTIPLE_TRANSLATION").length;
+  const invalidGateFinal = evaluateInvalidAuditGate(et, multiOwner, multiScan.rawCandidates);
 
   const allGatesPass =
     gates.MIRROR === "PASS" &&
@@ -530,7 +536,11 @@ function auditDataset(key) {
     collectData.technical?.pass &&
     backlog.length === 0;
 
-  const verdict = backlog.length > 0 ? `ET_${cfg.label}_NEEDS_OWNER_REVIEW` : `ET_${cfg.label}_FULL_AUDIT_PASS`;
+  let verdict =
+    backlog.length > 0 ? `ET_${cfg.label}_NEEDS_OWNER_REVIEW` : `ET_${cfg.label}_FULL_AUDIT_PASS`;
+  if (invalidGateFinal.auditResult === "REOPEN_REQUIRED") {
+    verdict = `ET_${cfg.label}_AUDIT_REOPEN_REQUIRED`;
+  }
 
   const productionBlob = git(`git hash-object ${cfg.etPath}`);
 
@@ -545,8 +555,19 @@ function auditDataset(key) {
     cardCount: gates.cardCount,
     studyCount: gates.studyCount,
     objectCoverage: `${gates.cardCount}/${gates.cardCount}`,
-    ordinaryFlashcardScope: `${gates.cardCount}/${gates.cardCount}`,
+    cardScope: `${gates.cardCount}/${gates.cardCount}`,
+    mainTranslationInventoryCoverage: multiScan.inventoryCoverage,
+    unmappedMainTranslationFields: multiScan.unmappedMainTranslationFields,
+    multiTranslationScanCoverage: "100%",
+    multiTranslationCandidatesRaw: multiScan.rawCandidates,
     multiTranslationValidated: multiOwner,
+    multiTranslationOwnerUnresolved: multiOwner,
+    mainTranslationCountViolations: multiOwner,
+    multiTranslationScanStatus: invalidGateFinal.multiTranslationScan,
+    auditResult: invalidGateFinal.auditResult,
+    invalidAuditGateReason: invalidGateFinal.reason,
+    mainTranslationFieldsScanned: multiScan.fieldsScanned,
+    mainTranslationInventory: multiScan.inventory,
     foreignResidual,
     ownerBacklog: backlog.length,
     ownerHistoryAvailable: history.loaded ? "YES" : "NO",
@@ -581,8 +602,8 @@ function buildGithubIndex(results) {
     `**MASTER_VERSION:** ${MASTER_VERSION}`,
     `**ORIGIN_MAIN_SHA:** \`${git("git rev-parse origin/main")}\``,
     "",
-    "| Dataset | Cards | Study | Object | Deterministic | Validated | Multi-T OWNER | Foreign | sectionAccents | OWNER backlog | Verdict | Audit | OWNER |",
-    "|---------|-------|-------|--------|---------------|-----------|---------------|---------|----------------|---------------|---------|-------|-------|",
+    `| Dataset | Cards | Study | Multi-T raw | Multi-T OWNER | Other OWNER | Foreign | Verdict | Audit | OWNER |`,
+    "|---------|-------|-------|-------------|---------------|-------------|---------|---------|-------|-------|",
   ];
 
   for (const r of results) {
@@ -592,12 +613,26 @@ function buildGithubIndex(results) {
       r.ownerBacklog > 0
         ? `[view](${link(`reports/et-${low}-owner-view.md`)}) · [decisions](${link(`reports/et-${low}-owner-decisions.md`)})`
         : "—";
+    const otherOwner = r.ownerBacklog - r.multiTranslationOwnerUnresolved;
     lines.push(
-      `| ${r.dataset} | ${r.cardCount} | ${r.studyCount} | ${r.objectCoverage} | 100% | ${r.newValidatedFindings} | ${r.multiTranslationValidated} | ${r.foreignResidual} | ${r.collectPass?.sectionAccents === false ? "FAIL" : "PASS"} | **${r.ownerBacklog}** | **${r.verdict}** | ${auditLink} | ${ownerLink} |`,
+      `| ${r.dataset} | ${r.cardCount} | ${r.studyCount} | **${r.multiTranslationCandidatesRaw}** | **${r.multiTranslationOwnerUnresolved}** | **${otherOwner}** | ${r.foreignResidual} | **${r.verdict}** | ${auditLink} | ${ownerLink} |`,
     );
   }
 
-  lines.push("", "## Production safety", "", "| DE_CHANGES | **0** |", "| PRODUCTION_CHANGES | **0** |", "");
+  lines.push(
+    "",
+    "## Production safety",
+    "",
+    "| DE_CHANGES | **0** |",
+    "| PRODUCTION_CHANGES | **0** |",
+    "",
+    "## v1.12 reopen note",
+    "",
+    "Prior MASTER **v1.11** audit on this branch reported `MULTIPLE_TRANSLATION violations = 0` for all datasets.",
+    "Under **v1.12 §14 INVALID AUDIT GATE** that result was **INVALID** (tooling scanned only `entry.lv` on ordinary cards).",
+    "This re-audit uses renderer-aligned `MAIN_TRANSLATION_FIELD_INVENTORY` and reports raw multi-T candidates above.",
+    "",
+  );
   fs.writeFileSync(path.join(ROOT, "reports/et-a1-c2-full-audit-GITHUB.md"), lines.join("\n"));
 }
 

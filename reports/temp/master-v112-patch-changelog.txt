@@ -1,0 +1,22 @@
+
+## Version 1.12
+
+Universal single main translation — viena kartīte = viena galvenā nozīme = viens
+galvenais tulkojums visiem kartīšu tipiem (ordinary, minimalStudy, standardStudy,
+comparisonStudy).
+
+Pievienots:
+
+- §1.1 universāls `MAIN_TRANSLATION_COUNT = 1` visiem renderer galvenajiem laukiem;
+- `MAIN_TRANSLATION_FIELD_INVENTORY` ar 100% coverage prasību;
+- pilns multi-translation scan visiem kartīšu tipiem un laukiem;
+- Study exception precizēts (papildu nozīmes tikai skaidrojošajā saturā);
+- §1.1.13 INVALID AUDIT GATE; §1.1.14 TOOLING_STANDARD_MISMATCH;
+- §10.1 §13 regression fixtures (Cases A–E);
+- §11.15 v1.12 closure metrics.
+
+**FINAL v1.12 RULE:** Viena kartīte = viena galvenā mācāmā nozīme = viens
+galvenais tulkojums. Study drīkst izskaidrot papildu nozīmes, bet galvenais
+tulkojums vienmēr paliek viens. Gala izvēle pieder tikai OWNER.
+
+Version 1.11 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.12.

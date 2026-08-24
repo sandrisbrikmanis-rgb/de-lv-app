@@ -1,0 +1,65 @@
+### 1.1.10. MAIN_TRANSLATION_FIELD_INVENTORY (v1.12)
+
+MASTER v1.12 ievieš obligātu:
+
+`MAIN_TRANSLATION_FIELD_INVENTORY`
+
+Auditoram vispirms jānosaka **visi production lauki**, kurus runtime renderer
+izmanto kā galveno learner-facing tulkojumu. Inventāram jāaptver visi kartīšu
+tipi.
+
+Required:
+
+`MAIN_TRANSLATION_FIELD_INVENTORY_COVERAGE = 100%`
+
+`UNMAPPED_MAIN_TRANSLATION_FIELDS = 0`
+
+Nedrīkst pieņemt, ka galvenais tulkojums vienmēr atrodas tikai vienā
+universālā laukā, piemēram `lv`.
+
+### 1.1.11. FULL MULTI-TRANSLATION SCAN — ALL CARD TYPES (v1.12)
+
+`MULTI_TRANSLATION_SCAN` scope paplašināts no ordinary flashcards uz **visiem
+kartīšu tipiem**:
+
+`ALL_CARD_MAIN_TRANSLATION_FIELDS = 100%`
+
+Jāmeklē vismaz `•`, `/`, `;`, comma/list konstrukcijas, arrays, multi-value
+structures un rendererī salikti vairāki tulkojumi. Separator scan ir candidate
+detection, nevis gala lingvistisks spriedums.
+
+Katram kandidātam klasifikācija:
+
+`SINGLE_TRANSLATION` / `MULTIPLE_MAIN_TRANSLATIONS_REAL` / `FALSE_POSITIVE`
+
+Ja `MULTIPLE_MAIN_TRANSLATIONS_REAL` → obligāti `OWNER_DECISION_REQUIRED`.
+
+### 1.1.12. Study exception precizēts (v1.12)
+
+Study kartīte drīkst saturēt vairākas nozīmes tikai **skaidrojošajā saturā**
+(explanation, examples, comparison, tip, important). Study **galvenais
+tulkojums** joprojām ir `MAIN_TRANSLATION_COUNT = 1`.
+
+Piemērs: `finden → leidma` drīkst būt galvenais tulkojums; Study skaidrojumā
+drīkst paskaidrot `finden noteiktos kontekstos = arvama`.
+
+### 1.1.13. INVALID AUDIT GATE (v1.12)
+
+Ja audits deklarē `MULTIPLE_TRANSLATION violations = 0`, bet production satur
+zināmu regression fixture ar vairākiem galvenajiem tulkojumiem (piem. `finden
+→ leidma • arvama`), tad:
+
+`MULTI_TRANSLATION_SCAN = INVALID`
+
+`AUDIT_RESULT = REOPEN_REQUIRED`
+
+Auditu nedrīkst izmantot closure pierādījumam.
+
+### 1.1.14. TOOLING_STANDARD_MISMATCH (v1.12)
+
+Ja MASTER v1.12 ir aktīvs, bet audita tooling skenē tikai ordinary flashcards
+vai tikai vienu fiksētu tulkojuma lauku:
+
+`TOOLING_STANDARD_MISMATCH = BLOCKED`
+
+Final closure nav atļauts.
