@@ -62,11 +62,45 @@ branch saturs **nav OWNER lēmums**.
 
 # 1. PAMATPRINCIPI
 
-## 1.1. Parastā flashcard — tieši viens OWNER apstiprināts galvenais tulkojums
+## 1.1. Learning First — viena galvenā nozīme uz parastās flashkartes
 
-Parastai flashcard kartītei learner-facing tulkojuma laukā drīkst būt
-**tieši VIENS galvenais tulkojums**.
+Šī lietotne nav vārdnīca. Parastajai flashkartei jābūt ātri uztveramai
+un nepārprotamai.
 
+**Hard rule:**
+
+-   parastās flashkartes native-language pusē ir **viena galvenā praktiskā
+    nozīme**;
+-   sinonīmu ķēdes, vārdnīcas tipa uzskaitījumi un vairāku semantiski
+    atšķirīgu nozīmju sabāšana vienā frontē nav atļauta;
+-   `•`, `/`, semikoli vai komatu virknes nedrīkst tikt izmantotas, lai
+    parastajā frontē apvienotu vairākas atšķirīgas nozīmes;
+-   ja vienam DE vārdam mācību vajadzībām nepieciešamas vairākas
+    nozīmes, tās jāizskaidro `standardStudy` / `comparisonStudy`, nevis
+    jāpārvērš parastā karte par vārdnīcas ierakstu;
+-   ja native-language vārds faktiski atbilst citam DE vārdam, to
+    nedrīkst piespiest šai kartei; vajadzības gadījumā tas ir atsevišķas
+    kartes/source-review jautājums;
+-   morfoloģiski vai gramatiski varianti, kas nav atšķirīgas leksiskas
+    nozīmes, nav automātiski pārkāpums.
+
+Auditā parastajām flashkartēm obligāti jābūt deterministiskam kandidātu
+scan uz:
+
+```text
+•
+/
+;
+```
+
+un citiem projekta definētiem multi-meaning separatoriem.
+
+Šis scans dod kandidātus; gala lingvistiskais statuss tiek validēts pēc
+nozīmes.
+
+Atšķirība starp flashkartes `{lang}` un `study.translation` pati par
+sevi nav kļūda. Kļūda ir tikai tad, ja tulkojums ir nepareizs, sajaukti
+vācu vārdi/konstrukcijas vai saturs ir savstarpēji pretrunīgs.
 ### 1.1.1. Obligāti
 
 -   `TRANSLATION_COUNT = 1`;
@@ -247,18 +281,6 @@ Tikai pēc OWNER apstiprinājuma, piemēram:
 
 repair drīkst veikt COPY-ONLY izmaiņu.
 
-### 1.1.10. Learning First pedagoģiskais princips
-
-Šī lietotne nav vārdnīca. Galvenajai flashkartei jābūt ātri uztveramai.
-
--   priekšpusē rāda vienu galveno nozīmi (sk. §1.1);
--   papildu nozīmes, konstrukcijas un nianses skaidro Study saturā;
--   virsrakstu nedrīkst pārvērst vārdnīcas ierakstā.
-
-Atšķirība starp flashkartes `{lang}` un `study.translation` pati par
-sevi nav kļūda. Kļūda ir tikai tad, ja tulkojums ir nepareizs, sajaukti
-vācu vārdi/konstrukcijas vai saturs ir savstarpēji pretrunīgs.
-
 ## 1.2. DE = STRICT READ-ONLY
 
 Bez skaidra OWNER uzdevuma nedrīkst mainīt `de`, `de_article`,
@@ -409,6 +431,64 @@ pēc OWNER apstiprinājuma drīkst COPY-ONLY apply.
 
 Ja pilns avots nav pieejams: `NEEDS_SOURCE_REVIEW`, nevis minējums.
 
+## 5.3. Kurss LIVE / RUNTIME kvalitātes vārti
+
+Kurss kvalitāti nedrīkst pierādīt tikai ar source failu struktūru vai
+statisku validatoru.
+
+Ja Kurss sadaļai ir interaktīva uzvedība, gala regression / closure
+obligāti jāpārbauda **faktiski renderētā aplikācijas uzvedība**.
+
+Obligāti jāpārbauda, ja attiecas:
+
+-   lesson open/load;
+-   accordion open/close;
+-   section saturs nav tukšs;
+-   kartes pirmais saturs inicializējas;
+-   progress ir redzams un korekts;
+-   flip darbojas;
+-   next darbojas;
+-   exercise/practice deck tiek atrasts;
+-   translate deck tiek atrasts;
+-   lokalizēts section title nedrīkst būt vienīgais renderer binding
+    avots, ja section struktūra/type ļauj drošu strukturālu
+    identifikāciju;
+-   L8--L21 dynamic training/flashcard sistēmai jābūt funkcionāli
+    identiskai LV MASTER.
+
+**Hard rule:**
+
+```text
+SOURCE_DATA_EXISTS ≠ RUNTIME_RENDER_PASS
+STATIC_VALIDATOR_PASS ≠ LIVE_UI_PASS
+```
+
+Kurss nedrīkst saņemt `FINAL_CLOSED_ON_MAIN`, ja obligātā
+browser/runtime pārbaude nav PASS.
+
+## 5.4. `legacyHtml` pilna teksta deterministiska pārbaude
+
+`legacyHtml` nedrīkst auditēt tikai kā vienu lielu semantisku objektu un
+pēc tam pieņemt, ka visi iekšējie defekti ir atrasti.
+
+Katram `legacyHtml` laukam deterministiskais slānis obligāti:
+
+1.  nolasa **pilnu** production lauku;
+2.  parsē vai droši ekstrahē visus learner-facing teksta mezglus;
+3.  pārbauda katru teksta mezglu uz:
+    -   source-language remnants;
+    -   LV remnants;
+    -   mixed-language fragmentiem;
+    -   placeholderiem;
+    -   mojibake;
+    -   tukšu learner-facing saturu;
+4.  saglabā exact source path / pietiekami precīzu target identitāti;
+5.  pēc remonta atkārto scan uz **visa aktuālā production lauka**, ne
+    tikai uz iepriekšējiem OWNER targetiem.
+
+Plašs parent finding par visu `legacyHtml` lauku nedrīkst aizstāt
+granular residual scan.
+
 ------------------------------------------------------------------------
 
 # 6. UI / UX
@@ -430,14 +510,100 @@ uzvedība netiek lokalizēta.
 Audita laikā production dati netiek mainīti. Audita rezultāts =
 findings + pierādījums, nevis remonts.
 
-## 7.2. Coverage
+## 7.2. Coverage — divu slāņu modelis
 
-Pilnam valodas auditam jāpārbauda 100% faktiskā tvēruma: A1--C2,
-sentences, verbs, Kurss, training, UI, Study, comparisonStudy,
-sectionAccents, manifests/routing, data↔www mirror, sintakse,
-ID/order/parity, foreign remnants, placeholders, mojibake,
-terminoloģija, gramatika, pareizrakstība, semantika un dabiskums. Auditā
-skaidri jānorāda `checked / total`.
+Pilnam auditam obligāti ir divi neatkarīgi completeness slāņi:
+
+### A. SEMANTIC / LLM DISCOVERY
+
+LLM audits pārbauda:
+
+-   semantiku;
+-   dabiskumu;
+-   gramatiku;
+-   kontekstu;
+-   pedagoģisko kvalitāti;
+-   nozīmes atbilstību DE.
+
+Obligāti:
+
+```text
+OBJECT_COVERAGE = 100%
+SEMANTIC_DISCOVERY_COMPLETENESS = NOT_GUARANTEED
+```
+
+`OBJECT_COVERAGE = 100%` nozīmē tikai to, ka visi objekti/lauki tika
+auditēti, nevis ka stochastic modelis ir izsmēlis visas iespējamās
+lingvistiskās kļūdas.
+
+### B. DETERMINISTIC DISCOVERY
+
+Mehāniski pārbaudāmām kvalitātes klasēm jābūt pilnībā skenētām pār
+**visu faktisko production scope**.
+
+Obligāti:
+
+```text
+DETERMINISTIC_SCOPE_COVERAGE = 100%
+DETERMINISTIC_DISCOVERY_COMPLETENESS = 100% REQUIRED
+```
+
+Deterministiskajam slānim jāaptver vismaz, ja attiecas:
+
+-   syntax;
+-   ID/order;
+-   structure;
+-   data↔www mirror;
+-   Study parity / count;
+-   required fields;
+-   empty localized fields;
+-   placeholders;
+-   mojibake;
+-   source-language / LV remnants;
+-   mixed-language kandidāti;
+-   `legacyHtml` learner-facing text nodes;
+-   UI fallback / untranslated keys;
+-   sectionAccents deterministiskā integritāte;
+-   card front multi-meaning separator scan;
+-   Kurss renderer/data līguma pārbaudes;
+-   browser/runtime obligātie ceļi.
+
+Ja kādu no šīm klasēm tooling objektīvi nespēj pārbaudīt 100%, reportā
+to nedrīkst klusējot uzrādīt kā PASS. Jānorāda konkrētais coverage
+ierobežojums un closure jābloķē, ja šī klase ir obligāta konkrētajam
+datasetam.
+
+## 7.2.1. Deterministic residual scan ir obligāts pēc remonta
+
+Pēc OWNER apply un pirms closure deterministisko defektu pārbaude nedrīkst
+būt tikai targeted regression pret OWNER mappingu.
+
+Obligāti atkārtoti skenēt **visu aktuālo production scope** uz
+attiecīgajām deterministiskajām kļūdu klasēm.
+
+Piemērs:
+
+```text
+310/310 OWNER LABOT retained = PASS
+```
+
+pierāda tikai OWNER apply saglabāšanos.
+
+Tas **nepierāda**:
+
+```text
+FOREIGN_LANGUAGE_RESIDUAL = 0
+```
+
+ja nav veikts full residual scan pār visu production saturu.
+
+Hard rule:
+
+```text
+TARGETED_OWNER_REGRESSION ≠ FULL_DETERMINISTIC_RESIDUAL_SCAN
+```
+
+Closure vajag abus.
 
 ## 7.3. Automātiskie skripti nav OWNER
 
@@ -943,7 +1109,7 @@ Katram findingam obligāti norādīt:
 - `OWNER STATUS`: `PENDING`;
 - `OWNER_DECISION`: tukšs.
 
-Ja `MULTIPLE_TRANSLATIONS_DETECTED = true`, papildus obligāti (sk. §1.1.5):
+Ja `MULTIPLE_TRANSLATIONS_DETECTED = true`, papildus obligāti (sk. §1.1.4):
 
 - detected translation candidates;
 - semantic assessment;
@@ -1268,28 +1434,61 @@ Tas nedrīkst ietvert:
 - `OWNER_DECISION_CONFIRMED`
 - `FALSE_POSITIVE_OR_STYLE_ONLY`
 
-## 7.19 AUDIT COMPLETENESS MODEL
+## 7.19 AUDIT COMPLETENESS MODEL — SEMANTIC ≠ DETERMINISTIC
 
-FULL_DISCOVERY rezultāts jāinterpretē kā:
+`FULL_DISCOVERY` satur divus atšķirīgus pierādījumu veidus.
 
-"all objects inspected in this run"
+### 7.19.1. Semantic discovery
+
+Semantic/LLM audits nozīmē:
+
+> all required objects inspected in this run
 
 nevis:
 
-"all possible defects exhausted forever".
+> all possible linguistic defects mathematically exhausted.
 
-Tāpēc closure mērķis nav atkārtot pilnus stochastic audit run bezgalīgi
-līdz vienā konkrētā runā tiek iegūts 0.
+Tāpēc:
+
+```text
+SEMANTIC_DISCOVERY_COMPLETENESS = NOT_GUARANTEED
+```
+
+ir korekts un obligāti skaidri norādāms.
+
+### 7.19.2. Deterministic discovery
+
+Deterministiski definētām kļūdu klasēm projekta toolingam jānodrošina
+pilna enumerācija pār konkrēto scope.
+
+Tāpēc:
+
+```text
+DETERMINISTIC_DISCOVERY_COMPLETENESS = 100% REQUIRED
+```
+
+nav LLM solījums; tas ir tooling / scan coverage kontrakts.
+
+### 7.19.3. Closure interpretācija
+
+Closure nedrīkst balstīt tikai uz:
+
+-   vienu Luna PASS;
+-   OWNER target retention;
+-   finding count = 0 vienā stochastic runā;
+-   statisku source validatoru.
 
 Closure jābalsta uz:
 
-- deterministic gates;
-- semantic finding registry;
-- OWNER history;
-- unresolved finding registry;
-- repair verification;
-- targeted regression;
-- controlled discovery stability.
+-   deterministic full gates;
+-   deterministic residual full scan;
+-   semantic finding registry;
+-   OWNER history;
+-   unresolved finding registry;
+-   repair verification;
+-   targeted regression;
+-   runtime/browser gates, ja attiecas;
+-   authoritative `origin/main` post-merge verification.
 
 ## 7.20 AUTOMATIC OWNER ARTIFACT GENERATION
 
@@ -1545,7 +1744,6 @@ Ja `MULTIPLE_TRANSLATIONS_DETECTED = true`:
 `OWNER_DECISION_REQUIRED` (sk. §1.1.3).
 
 ------------------------------------------------------------------------
-
 # 8. OWNER REVIEW
 
 Pēc audita visi reālie findings tiek nodoti OWNER review, izmantojot
@@ -1590,7 +1788,7 @@ Pirms katras izmaiņas obligāti:
 Apply tikai `Status = LABOT`, precīzs OWNER target un precīzs OWNER NEW.
 `NELABOT`, `FALSE_POSITIVE`, `NEEDS_SOURCE_REVIEW` netiek modificēti.
 
-Vairāku tulkojumu gadījumā obligāti §1.1.6: bez OWNER `NEW` ar tieši
+Vairāku tulkojumu gadījumā obligāti §1.1.5: bez OWNER `NEW` ar tieši
 vienu galveno tulkojumu — `SKIP_OWNER_DECISION_REQUIRED`.
 
 Nedrīkst mainīt blakus kartes, citus laukus tajā pašā objektā, DE, LV
@@ -1617,7 +1815,29 @@ Pēc remonta obligāti pārbauda:
 12. Kurss validator PASS, ja attiecas;
 13. placeholders/remnants/mojibake targeted recheck;
 14. changed-target linguistic recheck;
-15. unexpected production changes = 0.
+15. unexpected production changes = 0;
+16. **FULL deterministic residual scan** pār visu aktuālo dataseta
+    production scope, ne tikai changed targets;
+17. `FOREIGN_LANGUAGE_RESIDUAL = 0` visām aizliegtajām
+    source-language/LV paliekām, ja datasetam jābūt pilnībā
+    lokalizētam;
+18. `EMPTY_REQUIRED_LOCALIZED_FIELDS = 0`;
+19. `DETERMINISTIC_SCOPE_COVERAGE = 100%`;
+20. `DETERMINISTIC_DISCOVERY_COMPLETENESS = 100%`;
+21. parastajām flashkartēm `MULTI_MEANING_FRONT_UNRESOLVED = 0`;
+22. Kurss gadījumā — `LIVE_RUNTIME_REQUIRED_PATHS = PASS`;
+23. Kurss L8--L21 gadījumā — exercise/translate first-card
+    initialization, progress, flip un next = PASS;
+24. `legacyHtml` gadījumā — full learner-facing text-node residual scan
+    = PASS.
+
+**Hard rule:**
+
+Targeted regression pierāda OWNER apply pareizību. Full deterministic
+residual scan pierāda, ka visā production scope nav palikušas mehāniski
+atrodamas closure-blocking kļūdas.
+
+Neviens no šiem pierādījumiem neaizstāj otru.
 
 Ja regression atrod kļūdu, dataset nav CLOSED.
 
@@ -1706,8 +1926,8 @@ Closure KPI ir:
 - repair regressions = 0;
 - unexpected changes = 0;
 - READ-ONLY integritāte = PASS;
-- `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS = 0` (sk. §11.11);
-- `MULTIPLE_TRANSLATION_OWNER_UNRESOLVED = 0` (sk. §11.12).
+- `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS = 0` (sk. §11.14);
+- `MULTIPLE_TRANSLATION_OWNER_UNRESOLVED = 0` (sk. §11.14).
 
 Raw LLM finding count izmanto discovery uzskaitei, nevis kā vienīgo kvalitātes progresijas metriku.
 
@@ -2085,7 +2305,118 @@ OWNER DECISIONS; publicē GitHub.
 
 OWNER nedrīkst būt atbildīgs par failu ģenerēšanas ierosināšanu.
 
-## 11.11. MULTI_TRANSLATION_RESIDUAL_SCAN
+## 11.11. DETERMINISTIC COMPLETENESS — FINAL CLOSURE HARD GATE
+
+Datasetu nedrīkst deklarēt `FINAL_CLOSED` / `FINAL_CLOSED_ON_MAIN`,
+kamēr nav izpildīts:
+
+```text
+DETERMINISTIC_SCOPE_COVERAGE = 100%
+DETERMINISTIC_DISCOVERY_COMPLETENESS = 100%
+
+SYNTAX = PASS
+MIRROR = PASS
+ID_ORDER = PASS
+STRUCTURE = PASS
+PARITY = PASS / N/A
+
+FOREIGN_LANGUAGE_RESIDUAL = 0
+EMPTY_REQUIRED_LOCALIZED_FIELDS = 0
+PLACEHOLDERS = 0
+MOJIBAKE = 0
+
+OWNER_BACKLOG_FINAL = 0
+NEEDS_SOURCE_REVIEW = 0
+PENDING = 0
+
+UNEXPECTED_PRODUCTION_CHANGES = 0
+DE_CHANGES = 0
+```
+
+Papildu dataset-specific gate piemēro, ja attiecas.
+
+Ja kāds obligātais deterministic gate nav veikts:
+
+```text
+FINAL_CLOSED = FORBIDDEN
+```
+
+un verdict jābūt blocker statusam, nevis PASS.
+
+### 11.11.1. Negative proof prasība
+
+`0 findings` drīkst deklarēt tikai tad, ja scan ir enumerējis visu
+definēto scope.
+
+Nedrīkst secināt:
+
+```text
+finding netika atrasts → finding neeksistē
+```
+
+ja scan coverage nav pierādīts.
+
+### 11.11.2. Production-visible defect automātiski atver closure
+
+Ja pēc `FINAL_CLOSED_ON_MAIN` tiek pierādīts reāls production-visible
+defekts, kas eksistēja closure brīdī, dataset statusu automātiski
+uzskata par:
+
+```text
+REOPEN_REQUIRED
+```
+
+līdz:
+
+-   root cause ir klasificēts;
+-   defekts ir remontēts vai OWNER atrisināts;
+-   attiecīgais deterministic/runtime gate ir pievienots vai
+    pastiprināts, ja iepriekšējais closure to nespēja atklāt;
+-   post-repair verification uz `origin/main` ir PASS.
+
+Iepriekšējais `FINAL_CLOSED` statuss nedrīkst tikt izmantots, lai
+ignorētu production-visible pierādījumu.
+
+## 11.12. KURSS LIVE / BROWSER CLOSURE HARD GATE
+
+Kurss `FINAL_CLOSED_ON_MAIN` papildus §11.11 obligāti prasa:
+
+```text
+KURSS_SOURCE_STRUCTURE = PASS
+KURSS_DETERMINISTIC_CONTENT_SCAN = PASS
+KURSS_FOREIGN_LANGUAGE_RESIDUAL = 0
+KURSS_LEGACYHTML_TEXTNODE_SCAN = PASS
+KURSS_RUNTIME_SMOKE = PASS
+KURSS_REQUIRED_DYNAMIC_CARD_PATHS = PASS
+```
+
+Browser/runtime smoke jāaptver visas funkcionāli obligātās
+lesson/section klases.
+
+L8--L21 vismaz:
+
+```text
+EXERCISE_DECK_RESOLVED = PASS
+TRANSLATE_DECK_RESOLVED = PASS
+FIRST_CARD_VISIBLE = PASS
+PROGRESS_VISIBLE = PASS
+FLIP = PASS
+NEXT = PASS
+```
+
+Ja konkrētā lokalizācija izmanto atšķirīgu section title, shared renderer
+nedrīkst paļauties tikai uz hardcoded title allowlist, ja strukturālais
+section līgums ļauj drošu identifikāciju.
+
+**Hard rule:**
+
+```text
+validate-kurss = PASS
+```
+
+viens pats nav pietiekams Kurss final closure.
+
+## 11.13. MULTI_TRANSLATION_RESIDUAL_SCAN (v1.11)
 
 Pēc repair nepietiek pārbaudīt tikai labotās kartītes.
 
@@ -2093,7 +2424,7 @@ Obligāti atkārtoti jāpārbauda **100% parasto flashcard**:
 
 `MULTI_TRANSLATION_RESIDUAL_SCAN = PASS`
 
-## 11.12. v1.11 closure metrics — vairāku tulkojumu hard gate
+## 11.14. v1.11 closure metrics — vairāku tulkojumu hard gate
 
 Katras valodas/dataset gala closure atskaitē obligāti norādīt:
 
@@ -2116,7 +2447,6 @@ vai
 tad:
 
 `FINAL_CLOSED_ON_MAIN = BLOCKED`
-
 ------------------------------------------------------------------------
 
 # 12. GIT / BRANCH MASTER PROTOKOLS
@@ -2336,9 +2666,9 @@ CLOSED` tikai tad, ja:
 -   syntax, ID/order, mirror un relevant validators PASS;
 -   final Git state ir zināms;
 -   `OWNER_DECISION_REOPEN_REQUIRED = 0` vai OWNER atrisināts;
--   `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS = 0` (sk. §11.12);
--   `MULTIPLE_TRANSLATION_OWNER_UNRESOLVED = 0` (sk. §11.12);
--   `MULTI_TRANSLATION_RESIDUAL_SCAN = PASS` (sk. §11.11).
+-   `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS = 0` (sk. §11.14);
+-   `MULTIPLE_TRANSLATION_OWNER_UNRESOLVED = 0` (sk. §11.14);
+-   `MULTI_TRANSLATION_RESIDUAL_SCAN = PASS` (sk. §11.13).
 
 Līdz `POST_MERGE_MAIN_VERIFICATION` PASS atļautais stāvoklis ir
 `CLOSED_PENDING_MAIN_INTEGRATION`, nevis `FINAL_CLOSED`.
@@ -2378,14 +2708,52 @@ engine/i18n, mojibake/remnants, UI smoke un dataset-specifiskie
 validator results. Ja pārbaude nav veikta, raksta `NOT RUN`, nevis
 pieņem PASS.
 
+Obligāti jānorāda (v1.10):
+
+```text
+OBJECT_COVERAGE:
+SEMANTIC_DISCOVERY_COMPLETENESS:
+
+DETERMINISTIC_SCOPE_COVERAGE:
+DETERMINISTIC_DISCOVERY_COMPLETENESS:
+
+FOREIGN_LANGUAGE_RESIDUAL:
+EMPTY_REQUIRED_LOCALIZED_FIELDS:
+PLACEHOLDERS:
+MOJIBAKE:
+
+OWNER_BACKLOG_FINAL:
+NEEDS_SOURCE_REVIEW:
+PENDING:
+
+TARGETED_OWNER_REGRESSION:
+FULL_DETERMINISTIC_RESIDUAL_SCAN:
+
+RUNTIME_REQUIRED:
+RUNTIME_REQUIRED_PATHS:
+RUNTIME_RESULT:
+
+DE_CHANGES:
+UNEXPECTED_PRODUCTION_CHANGES:
+```
+
+Kurss papildus:
+
+```text
+KURSS_LEGACYHTML_TEXTNODE_SCAN:
+KURSS_L1_L21_RENDER_SCOPE:
+KURSS_DYNAMIC_EXERCISE:
+KURSS_DYNAMIC_TRANSLATE:
+KURSS_FIRST_CARD_INITIALIZATION:
+KURSS_PROGRESS:
+KURSS_FLIP:
+KURSS_NEXT:
+```
+
 ### READ-ONLY integritāte
 
 DE changes = 0; LV MASTER changes = 0; other-language unexpected changes
 = 0.
-
-### Zināmās problēmas
-
-Tikai reāli neatrisinātais. Ja nav: `Nav zināmu neatrisinātu problēmu.`
 
 ### Multi-translation closure (v1.11)
 
@@ -2395,6 +2763,9 @@ Tikai reāli neatrisinātais. Ja nav: `Nav zināmu neatrisinātu problēmu.`
 `MULTIPLE_TRANSLATION_OWNER_UNRESOLVED`,
 `ORDINARY_FLASHCARD_TRANSLATION_COUNT_VIOLATIONS`,
 `OWNER_AUTOMATIC_SELECTION`, `MULTI_TRANSLATION_RESIDUAL_SCAN`.
+### Zināmās problēmas
+
+Tikai reāli neatrisinātais. Ja nav: `Nav zināmu neatrisinātu problēmu.`
 
 ------------------------------------------------------------------------
 
@@ -2708,17 +3079,12 @@ galvenais tulkojums; vairāku tulkojumu reducēšana tikai ar OWNER lēmumu.
 
 Pievienots:
 
-- §1.1 Parastā flashcard — tieši viens OWNER apstiprināts galvenais
-  tulkojums (§1.1.1–§1.1.10);
+- §1.1.1–§1.1.9 OWNER hard gate papildinājumi §1.1 (v1.10 §1.1 saglabāts);
 - `MULTIPLE_TRANSLATIONS_DETECTED` → `OWNER_DECISION_REQUIRED` hard gate;
-- §1.1.4 audita pienākums; §1.1.5 OWNER artefaktu lauki;
-- §1.1.6 repair apply hard gate un `SKIP_OWNER_DECISION_REQUIRED`;
-- §1.1.7 `standardStudy` izņēmums;
-- §1.1.8 aizliegta automātiska semantiska izvēle;
-- §7.25 `MULTI_TRANSLATION_SCAN` deterministic discovery slānis;
+- §7.25 `MULTI_TRANSLATION_SCAN`;
 - §10.1 multiple translation OWNER lock regression;
-- §11.11 `MULTI_TRANSLATION_RESIDUAL_SCAN`;
-- §11.12 v1.11 closure metrics un `FINAL_CLOSED_ON_MAIN = BLOCKED`;
+- §11.13 `MULTI_TRANSLATION_RESIDUAL_SCAN`;
+- §11.14 v1.11 closure metrics un `FINAL_CLOSED_ON_MAIN = BLOCKED`;
 - §13 un §14 papildinājumi multi-translation closure metrikām.
 
 Šis PATCH nemaina v1.10 deterministic completeness, Kurss
@@ -2731,6 +3097,28 @@ tulkojumu reducēšana līdz vienam ir OWNER lēmums un bez precīza OWNER
 NEW production izmaiņa ir aizliegta.
 
 Version 1.10 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.11.
+## Version 1.10
+
+Deterministic completeness, Kurss live/runtime gates, legacyHtml granular
+scan, flashcard single-meaning rule, semantic ≠ deterministic closure
+model.
+
+Pievienots / atjaunināts:
+
+- §1.1 Learning First — viena galvenā nozīme; multi-meaning separator
+  scan;
+- §5.3 Kurss LIVE / RUNTIME kvalitātes vārti;
+- §5.4 `legacyHtml` pilna teksta deterministiska pārbaude;
+- §7.2 divu slāņu coverage modelis (semantic vs deterministic);
+- §7.2.1 deterministic residual scan pēc remonta;
+- §7.19 semantic ≠ deterministic completeness model;
+- §10 regression papildinājumi (16–24) un targeted ≠ full residual rule;
+- §11.11 DETERMINISTIC COMPLETENESS — FINAL CLOSURE HARD GATE;
+- §11.12 KURSS LIVE / BROWSER CLOSURE HARD GATE;
+- §14 obligātas v1.10 closure metrikas;
+- `REOPEN_REQUIRED` verdict noteikumi; `TOOLING_STANDARD_MISMATCH`.
+
+Version 1.9 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.10.
 
 ## Version 1.9
 
