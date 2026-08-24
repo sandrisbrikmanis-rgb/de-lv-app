@@ -622,7 +622,7 @@ function matchesCourseExerciseSection(section) {
 function findCourseLessonCardSection(lesson, matcher) {
   return lesson?.sections?.find((section) => {
     if (!Array.isArray(section.cards)) return false;
-    if (typeof matcher === "function" && matcher.length > 1) return matcher(section);
+    if (typeof matcher === "function") return matcher(section);
     return matcher(section?.title);
   }) || null;
 }
