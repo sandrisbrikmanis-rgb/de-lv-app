@@ -1,0 +1,1362 @@
+{
+  "dryRun": false,
+  "masterVersion": "1.12",
+  "staged": [
+    {
+      "auditId": "ET-C1-MT-0001",
+      "cardId": "c1-Stellungnahme-4",
+      "field": "lv",
+      "ownerNew": "ametlik avaldus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0002",
+      "cardId": "c1-nachvollziehen-5",
+      "field": "lv",
+      "ownerNew": "mõista",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0003",
+      "cardId": "c1-Belastbarkeit-7",
+      "field": "lv",
+      "ownerNew": "stressitaluvus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0004",
+      "cardId": "c1-anfechten-13",
+      "field": "lv",
+      "ownerNew": "vaidlustama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0005",
+      "cardId": "c1-anderweitig-15",
+      "field": "lv",
+      "ownerNew": "mujal",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0006",
+      "cardId": "c1-Abart-19",
+      "field": "lv",
+      "ownerNew": "kõrvalekalle",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0007",
+      "cardId": "c1-abstumpfen-20",
+      "field": "lv",
+      "ownerNew": "nüristama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0008",
+      "cardId": "c1-ächten-23",
+      "field": "lv",
+      "ownerNew": "tõrjuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0009",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.translation",
+      "ownerNew": "avalikkus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0010",
+      "cardId": "c1-partei",
+      "field": "study.translation",
+      "ownerNew": "partei",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0011",
+      "cardId": "c1-prozess",
+      "field": "study.translation",
+      "ownerNew": "protsess",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0012",
+      "cardId": "c1-Unternehmen-162",
+      "field": "lv",
+      "ownerNew": "ettevõte",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0013",
+      "cardId": "c1-Verlegenheit-173",
+      "field": "lv",
+      "ownerNew": "kimbatus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0014",
+      "cardId": "c1-zusammenfassen",
+      "field": "study.translation",
+      "ownerNew": "kokku võtma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0015",
+      "cardId": "c1-wahl",
+      "field": "study.translation",
+      "ownerNew": "valik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0016",
+      "cardId": "c1-Abgeordnete-197",
+      "field": "lv",
+      "ownerNew": "saadik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0017",
+      "cardId": "c1-Abschleppdienst-199",
+      "field": "lv",
+      "ownerNew": "pukseerimisteenistus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0018",
+      "cardId": "c1-beachtenswert-207",
+      "field": "lv",
+      "ownerNew": "tähelepanuväärne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0019",
+      "cardId": "c1-beanspruchen-208",
+      "field": "lv",
+      "ownerNew": "nõudma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0020",
+      "cardId": "c1-Befangenheit-211",
+      "field": "lv",
+      "ownerNew": "erapoolikus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0021",
+      "cardId": "c1-beglaubigen-212",
+      "field": "lv",
+      "ownerNew": "ametlikult kinnitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0022",
+      "cardId": "c1-beglückwünschen-213",
+      "field": "lv",
+      "ownerNew": "õnne soovima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0023",
+      "cardId": "c1-beiderseitig-214",
+      "field": "lv",
+      "ownerNew": "kahepoolne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0024",
+      "cardId": "c1-beklagen-217",
+      "field": "lv",
+      "ownerNew": "kahetsema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0025",
+      "cardId": "c1-Belegschaft-219",
+      "field": "lv",
+      "ownerNew": "kollektiiv",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0026",
+      "cardId": "c1-bereitwillig-224",
+      "field": "lv",
+      "ownerNew": "vastutulelik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0027",
+      "cardId": "c1-Berufung-227",
+      "field": "lv",
+      "ownerNew": "kutsumus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0028",
+      "cardId": "c1-Beschaffenheit-229",
+      "field": "lv",
+      "ownerNew": "omadus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0029",
+      "cardId": "c1-bescheinigen-230",
+      "field": "lv",
+      "ownerNew": "kinnitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0030",
+      "cardId": "c1-Bescheinigung-231",
+      "field": "lv",
+      "ownerNew": "tõend",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0031",
+      "cardId": "c1-beschlagnahmen-232",
+      "field": "lv",
+      "ownerNew": "arestima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0032",
+      "cardId": "c1-beträchtlich-235",
+      "field": "lv",
+      "ownerNew": "märkimisväärne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0033",
+      "cardId": "c1-Betriebskosten-236",
+      "field": "lv",
+      "ownerNew": "tegevuskulud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0034",
+      "cardId": "c1-bevorstehend-239",
+      "field": "lv",
+      "ownerNew": "eesseisev",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0035",
+      "cardId": "c1-bewähren, sich-240",
+      "field": "lv",
+      "ownerNew": "end tõestama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0036",
+      "cardId": "c1-bewerben, sich-242",
+      "field": "lv",
+      "ownerNew": "kandideerima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0037",
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "ownerNew": "kontaktisik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0038",
+      "cardId": "c1-dauerhaft-255",
+      "field": "lv",
+      "ownerNew": "püsiv",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0039",
+      "cardId": "c1-dazwischenkommen-256",
+      "field": "lv",
+      "ownerNew": "vahele tulema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0040",
+      "cardId": "c1-ehrenhaft-277",
+      "field": "lv",
+      "ownerNew": "aus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0041",
+      "cardId": "c1-Einlage-282",
+      "field": "lv",
+      "ownerNew": "sissemakse",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0042",
+      "cardId": "c1-einreden-283",
+      "field": "lv",
+      "ownerNew": "sisendama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0043",
+      "cardId": "c1-Einspruchsrecht-286",
+      "field": "lv",
+      "ownerNew": "vastuväiteõigus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0044",
+      "cardId": "c1-Einverständnis-288",
+      "field": "lv",
+      "ownerNew": "üksmeel",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0045",
+      "cardId": "c1-entschädigen-298",
+      "field": "lv",
+      "ownerNew": "hüvitama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0046",
+      "cardId": "c1-entschlossen-300",
+      "field": "lv",
+      "ownerNew": "otsustav",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0047",
+      "cardId": "c1-Ersatzspieler-307",
+      "field": "lv",
+      "ownerNew": "reservväelane",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0048",
+      "cardId": "c1-Gefrierpunkt-330",
+      "field": "lv",
+      "ownerNew": "külmumispunkt",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0049",
+      "cardId": "c1-gelegentlich",
+      "field": "study.translation",
+      "ownerNew": "aeg-ajalt",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0050",
+      "cardId": "c1-Gepflogenheit-350",
+      "field": "lv",
+      "ownerNew": "harjumus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0051",
+      "cardId": "c1-geradebiegen-351",
+      "field": "lv",
+      "ownerNew": "sirgeks ajama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0052",
+      "cardId": "c1-Gerichtshof-353",
+      "field": "lv",
+      "ownerNew": "kohtukoda",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0053",
+      "cardId": "c1-geringschätzig-354",
+      "field": "lv",
+      "ownerNew": "põlglik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0054",
+      "cardId": "c1-gesetzmäßig-364",
+      "field": "lv",
+      "ownerNew": "seaduslik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0055",
+      "cardId": "c1-Gesichtskreis-366",
+      "field": "lv",
+      "ownerNew": "silmaring",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0056",
+      "cardId": "c1-gewissermaßen-369",
+      "field": "lv",
+      "ownerNew": "teataval määral",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0057",
+      "cardId": "c1-glaubhaft-370",
+      "field": "lv",
+      "ownerNew": "usutav",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0058",
+      "cardId": "c1-Haft-376",
+      "field": "lv",
+      "ownerNew": "vahi all olek",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0059",
+      "cardId": "c1-haften-378",
+      "field": "lv",
+      "ownerNew": "kinni jääma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0060",
+      "cardId": "c1-Herrschaft-389",
+      "field": "lv",
+      "ownerNew": "valitsemine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0061",
+      "cardId": "c1-herunterkommen-390",
+      "field": "lv",
+      "ownerNew": "alla käima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0062",
+      "cardId": "c1-interpretieren-400",
+      "field": "lv",
+      "ownerNew": "tõlgendama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0063",
+      "cardId": "c1-Justiz-401",
+      "field": "lv",
+      "ownerNew": "õigusemõistmine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0064",
+      "cardId": "c1-Kaution-404",
+      "field": "lv",
+      "ownerNew": "tagatis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0065",
+      "cardId": "c1-lebensgefährlich-413",
+      "field": "lv",
+      "ownerNew": "eluohtlik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0066",
+      "cardId": "c1-Nachschlagewerk-430",
+      "field": "lv",
+      "ownerNew": "teatmeteos",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0067",
+      "cardId": "c1-namhaft-431",
+      "field": "lv",
+      "ownerNew": "kuulus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0068",
+      "cardId": "c1-niedergeschlagen-433",
+      "field": "lv",
+      "ownerNew": "masendunud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0069",
+      "cardId": "c1-rätselhaft-449",
+      "field": "lv",
+      "ownerNew": "salapärane",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0070",
+      "cardId": "c1-Rechenschaft-451",
+      "field": "lv",
+      "ownerNew": "aruandekohustus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0071",
+      "cardId": "c1-Regierungschef-454",
+      "field": "lv",
+      "ownerNew": "peaminister",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0072",
+      "cardId": "c1-Krisensituation-476",
+      "field": "lv",
+      "ownerNew": "kriisiolukord",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0073",
+      "cardId": "c1-Spitzenleistung-479",
+      "field": "lv",
+      "ownerNew": "rekord",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0074",
+      "cardId": "c1-überanstrengen-489",
+      "field": "lv",
+      "ownerNew": "üle koormama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0075",
+      "cardId": "c1-übereinstimmen-492",
+      "field": "lv",
+      "ownerNew": "kokku sobima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0076",
+      "cardId": "c1-Überschuss-493",
+      "field": "lv",
+      "ownerNew": "jääk",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0077",
+      "cardId": "c1-Unannehmlichkeit-495",
+      "field": "lv",
+      "ownerNew": "ebameeldivused",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0078",
+      "cardId": "c1-urteilen-499",
+      "field": "lv",
+      "ownerNew": "otsustama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0079",
+      "cardId": "c1-verabschieden-500",
+      "field": "lv",
+      "ownerNew": "töölt vabastama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0080",
+      "cardId": "c1-veranschlagen-502",
+      "field": "lv",
+      "ownerNew": "arvestama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0081",
+      "cardId": "c1-verdrießlich-503",
+      "field": "lv",
+      "ownerNew": "ebameeldiv",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0082",
+      "cardId": "c1-Vergünstigung-508",
+      "field": "lv",
+      "ownerNew": "eelis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0083",
+      "cardId": "c1-verheimlichen-512",
+      "field": "lv",
+      "ownerNew": "varjama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0084",
+      "cardId": "c1-sich verschließen-521",
+      "field": "lv",
+      "ownerNew": "endasse tõmbuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0085",
+      "cardId": "c1-verschlossen-522",
+      "field": "lv",
+      "ownerNew": "lukustatud",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0086",
+      "cardId": "c1-verschlüsseln-523",
+      "field": "lv",
+      "ownerNew": "krüpteerima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0087",
+      "cardId": "c1-verschweigen-525",
+      "field": "lv",
+      "ownerNew": "maha vaikima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0088",
+      "cardId": "c1-verständigen-526",
+      "field": "lv",
+      "ownerNew": "informeerima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0089",
+      "cardId": "c1-vervollkommnen-533",
+      "field": "lv",
+      "ownerNew": "täiendama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0090",
+      "cardId": "c1-verwirklichen-535",
+      "field": "lv",
+      "ownerNew": "realiseerima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0091",
+      "cardId": "c1-Volksabstimmung-536",
+      "field": "lv",
+      "ownerNew": "rahvahääletus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0092",
+      "cardId": "c1-Vollversammlung-538",
+      "field": "lv",
+      "ownerNew": "pleenum",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0093",
+      "cardId": "c1-voreingenommen-539",
+      "field": "lv",
+      "ownerNew": "eelarvamuslik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0094",
+      "cardId": "c1-wahrhaft-544",
+      "field": "lv",
+      "ownerNew": "tõesti",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0095",
+      "cardId": "c1-wiederherstellen-555",
+      "field": "lv",
+      "ownerNew": "taastama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0096",
+      "cardId": "c1-zusammenfallen-556",
+      "field": "lv",
+      "ownerNew": "kokku langema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0097",
+      "cardId": "c1-zuschlag",
+      "field": "study.translation",
+      "ownerNew": "lisatasu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0098",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.translation",
+      "ownerNew": "saama (nt pensioni)",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0099",
+      "cardId": "c1-beabsichtigen",
+      "field": "study.translation",
+      "ownerNew": "kavatsema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0100",
+      "cardId": "c1-unterstellen",
+      "field": "study.translation",
+      "ownerNew": "alusetult omistama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0101",
+      "cardId": "c1-bewahren",
+      "field": "study.translation",
+      "ownerNew": "hoidma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-C1-MT-0102",
+      "cardId": "c1-Matsch-569",
+      "field": "lv",
+      "ownerNew": "pori",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ET-C1-MT-0001",
+      "cardId": "c1-Stellungnahme-4",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0002",
+      "cardId": "c1-nachvollziehen-5",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0003",
+      "cardId": "c1-Belastbarkeit-7",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0004",
+      "cardId": "c1-anfechten-13",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0005",
+      "cardId": "c1-anderweitig-15",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0006",
+      "cardId": "c1-Abart-19",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0007",
+      "cardId": "c1-abstumpfen-20",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0008",
+      "cardId": "c1-ächten-23",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0009",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0010",
+      "cardId": "c1-partei",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0011",
+      "cardId": "c1-prozess",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0012",
+      "cardId": "c1-Unternehmen-162",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0013",
+      "cardId": "c1-Verlegenheit-173",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0014",
+      "cardId": "c1-zusammenfassen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0015",
+      "cardId": "c1-wahl",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0016",
+      "cardId": "c1-Abgeordnete-197",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0017",
+      "cardId": "c1-Abschleppdienst-199",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0018",
+      "cardId": "c1-beachtenswert-207",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0019",
+      "cardId": "c1-beanspruchen-208",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0020",
+      "cardId": "c1-Befangenheit-211",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0021",
+      "cardId": "c1-beglaubigen-212",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0022",
+      "cardId": "c1-beglückwünschen-213",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0023",
+      "cardId": "c1-beiderseitig-214",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0024",
+      "cardId": "c1-beklagen-217",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0025",
+      "cardId": "c1-Belegschaft-219",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0026",
+      "cardId": "c1-bereitwillig-224",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0027",
+      "cardId": "c1-Berufung-227",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0028",
+      "cardId": "c1-Beschaffenheit-229",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0029",
+      "cardId": "c1-bescheinigen-230",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0030",
+      "cardId": "c1-Bescheinigung-231",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0031",
+      "cardId": "c1-beschlagnahmen-232",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0032",
+      "cardId": "c1-beträchtlich-235",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0033",
+      "cardId": "c1-Betriebskosten-236",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0034",
+      "cardId": "c1-bevorstehend-239",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0035",
+      "cardId": "c1-bewähren, sich-240",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0036",
+      "cardId": "c1-bewerben, sich-242",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0037",
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0038",
+      "cardId": "c1-dauerhaft-255",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0039",
+      "cardId": "c1-dazwischenkommen-256",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0040",
+      "cardId": "c1-ehrenhaft-277",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0041",
+      "cardId": "c1-Einlage-282",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0042",
+      "cardId": "c1-einreden-283",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0043",
+      "cardId": "c1-Einspruchsrecht-286",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0044",
+      "cardId": "c1-Einverständnis-288",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0045",
+      "cardId": "c1-entschädigen-298",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0046",
+      "cardId": "c1-entschlossen-300",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0047",
+      "cardId": "c1-Ersatzspieler-307",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0048",
+      "cardId": "c1-Gefrierpunkt-330",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0049",
+      "cardId": "c1-gelegentlich",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0050",
+      "cardId": "c1-Gepflogenheit-350",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0051",
+      "cardId": "c1-geradebiegen-351",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0052",
+      "cardId": "c1-Gerichtshof-353",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0053",
+      "cardId": "c1-geringschätzig-354",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0054",
+      "cardId": "c1-gesetzmäßig-364",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0055",
+      "cardId": "c1-Gesichtskreis-366",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0056",
+      "cardId": "c1-gewissermaßen-369",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0057",
+      "cardId": "c1-glaubhaft-370",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0058",
+      "cardId": "c1-Haft-376",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0059",
+      "cardId": "c1-haften-378",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0060",
+      "cardId": "c1-Herrschaft-389",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0061",
+      "cardId": "c1-herunterkommen-390",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0062",
+      "cardId": "c1-interpretieren-400",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0063",
+      "cardId": "c1-Justiz-401",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0064",
+      "cardId": "c1-Kaution-404",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0065",
+      "cardId": "c1-lebensgefährlich-413",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0066",
+      "cardId": "c1-Nachschlagewerk-430",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0067",
+      "cardId": "c1-namhaft-431",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0068",
+      "cardId": "c1-niedergeschlagen-433",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0069",
+      "cardId": "c1-rätselhaft-449",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0070",
+      "cardId": "c1-Rechenschaft-451",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0071",
+      "cardId": "c1-Regierungschef-454",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0072",
+      "cardId": "c1-Krisensituation-476",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0073",
+      "cardId": "c1-Spitzenleistung-479",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0074",
+      "cardId": "c1-überanstrengen-489",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0075",
+      "cardId": "c1-übereinstimmen-492",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0076",
+      "cardId": "c1-Überschuss-493",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0077",
+      "cardId": "c1-Unannehmlichkeit-495",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0078",
+      "cardId": "c1-urteilen-499",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0079",
+      "cardId": "c1-verabschieden-500",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0080",
+      "cardId": "c1-veranschlagen-502",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0081",
+      "cardId": "c1-verdrießlich-503",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0082",
+      "cardId": "c1-Vergünstigung-508",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0083",
+      "cardId": "c1-verheimlichen-512",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0084",
+      "cardId": "c1-sich verschließen-521",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0085",
+      "cardId": "c1-verschlossen-522",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0086",
+      "cardId": "c1-verschlüsseln-523",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0087",
+      "cardId": "c1-verschweigen-525",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0088",
+      "cardId": "c1-verständigen-526",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0089",
+      "cardId": "c1-vervollkommnen-533",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0090",
+      "cardId": "c1-verwirklichen-535",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0091",
+      "cardId": "c1-Volksabstimmung-536",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0092",
+      "cardId": "c1-Vollversammlung-538",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0093",
+      "cardId": "c1-voreingenommen-539",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0094",
+      "cardId": "c1-wahrhaft-544",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0095",
+      "cardId": "c1-wiederherstellen-555",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0096",
+      "cardId": "c1-zusammenfallen-556",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0097",
+      "cardId": "c1-zuschlag",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0098",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0099",
+      "cardId": "c1-beabsichtigen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0100",
+      "cardId": "c1-unterstellen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0101",
+      "cardId": "c1-bewahren",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-C1-MT-0102",
+      "cardId": "c1-Matsch-569",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "c1Cards": 572,
+    "requestedLabot": 102,
+    "appliedVerified": 102,
+    "alreadyMatched": 0,
+    "appliedTotal": 102,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "verificationFail": 0,
+    "deChanges": 0,
+    "reconciles": true,
+    "gitDiffPass": true,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "multiTranslationScan": {
+      "violations": 0,
+      "inventoryCoverage": "100%",
+      "fieldsScanned": 572,
+      "rawCandidates": 0
+    },
+    "multipleMainTranslationsValidatedReal": 0,
+    "mainTranslationCountViolations": 0,
+    "finalVerdict": "PASS"
+  }
+}
