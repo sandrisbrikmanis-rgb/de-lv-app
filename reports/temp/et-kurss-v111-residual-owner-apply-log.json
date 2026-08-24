@@ -1,0 +1,382 @@
+{
+  "generatedAt": "2026-08-24T10:46:00.817Z",
+  "requestedLabot": 37,
+  "appliedVerified": 37,
+  "applied": 0,
+  "alreadyApplied": 37,
+  "currentValueMismatch": 0,
+  "ownerNewMismatch": 0,
+  "results": [
+    {
+      "id": "ET-KURSS-L1L7-V111-0001",
+      "lesson": "L1",
+      "fieldPath": "`kurssLesson1.legacyHtml → accordion:Grammatika → kurss-example → [14]`",
+      "current": "Latviešu valodā: Tu nāc. Vai tu nāc?",
+      "ownerNew": "Eesti keeles: Sa tuled. Kas sa tuled?",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Eesti keeles:<br>Sa tuled.<br>Kas sa tuled?"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0002",
+      "lesson": "L2",
+      "fieldPath": "`kurssLesson2.legacyHtml → accordion:Hääldus → kurss-example → [1]`",
+      "current": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.",
+      "ownerNew": "Sõnades arbeiten ja zeichnen hääldatakse diftongi ei nagu ai.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Sõnades arbeiten ja zeichnen hääldatakse diftongi ei nagu ai."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0003",
+      "lesson": "L3",
+      "fieldPath": "`kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [4]`",
+      "current": "vīriešu kārta — der",
+      "ownerNew": "meessugu — der",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "meessugu — der"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0004",
+      "lesson": "L3",
+      "fieldPath": "`kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [5]`",
+      "current": "sieviešu kārta — die",
+      "ownerNew": "naissugu — die",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "naissugu — die"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0005",
+      "lesson": "L3",
+      "fieldPath": "`kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [7]`",
+      "current": "Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.",
+      "ownerNew": "Mitmuses on kõigi kolme soo määrav artikkel die.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Mitmuses on kõigi kolme soo määrav artikkel die."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0006",
+      "lesson": "L3",
+      "fieldPath": "`kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [11]`",
+      "current": "vīriešu kārta — ein",
+      "ownerNew": "meessugu — ein",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "meessugu — ein"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0007",
+      "lesson": "L3",
+      "fieldPath": "`kurssLesson3.legacyHtml → accordion:Grammatika → kurss-example → [12]`",
+      "current": "sieviešu kārta — eine",
+      "ownerNew": "naissugu — eine",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "naissugu — eine"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0008",
+      "lesson": "L4",
+      "fieldPath": "`kurssLesson4.legacyHtml → accordion:Grammatika → kurss-example → [13]`",
+      "current": "daudzskaitlī — sie",
+      "ownerNew": "mitmuses — sie",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "mitmuses — sie"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0009",
+      "lesson": "L5",
+      "fieldPath": "`kurssLesson5.legacyHtml → accordion:Hääldus → kurss-example → [2]`",
+      "current": "ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).",
+      "ownerNew": "ß nimetatakse Eszettiks ja seda hääldatakse nagu s-i: groß (groos), weiß (vais).",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "ß nimetatakse Eszettiks ja seda hääldatakse nagu s-i: groß (groos), weiß (vais)."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0010",
+      "lesson": "L5",
+      "fieldPath": "`kurssLesson5.legacyHtml → accordion:Grammatika → kurss-example → [1]`",
+      "current": "Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.",
+      "ownerNew": "Akusatiivis küsitakse inimeste kohta wen? ja esemete kohta was?",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Akusatiivis küsitakse inimeste kohta wen? ja esemete kohta was?"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0011",
+      "lesson": "L5",
+      "fieldPath": "`kurssLesson5.legacyHtml → accordion:Grammatika → kurss-example → [14]`",
+      "current": "Daudz sieviešu kārtas vārdu atvasina ar galotni -in.",
+      "ownerNew": "Paljud naissoost isikut tähistavad nimisõnad moodustatakse lõpuga -in.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Paljud naissoost isikut tähistavad nimisõnad moodustatakse lõpuga -in."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0012",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [1]`",
+      "current": "Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).",
+      "ownerNew": "Näited: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter)."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0013",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [3]`",
+      "current": "Piemēri: fünf, der Schlüssel (šlūsel).",
+      "ownerNew": "Näited: fünf, der Schlüssel (šlūsel).",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: fünf, der Schlüssel (šlūsel)."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0014",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [5]`",
+      "current": "Divkāršots patskanis apzīmē garu patskani: leer (lēr).",
+      "ownerNew": "Kahekordne täishäälik tähistab pikka täishäälikut: leer (leer).",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Kahekordne täishäälik tähistab pikka täishäälikut: leer (leer)."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0015",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Hääldus → kurss-example → [6]`",
+      "current": "Divskani eu izrunā kā oi: neun (noin).",
+      "ownerNew": "Diftongi eu hääldatakse nagu oi: neun (noin).",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Diftongi eu hääldatakse nagu oi: neun (noin)."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0016",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [1]`",
+      "current": "Piemēri: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.",
+      "ownerNew": "Näited: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0017",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [2]`",
+      "current": "Skaitļa vārds viens ir visās trīs kārtās, ja to lieto ar lietvārdu: vīriešu kārtā ein, sieviešu kārtā eine, vidējā kārtā ein.",
+      "ownerNew": "Arvsõnal üks on nimisõnaga kasutades saksa keeles kolm soovormi: meessoos ein, naissoos eine, kesksoos ein.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Arvsõnal üks on nimisõnaga kasutades saksa keeles kolm soovormi: meessoos ein, naissoos eine, kesksoos ein."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0018",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [3]`",
+      "current": "Piemēri: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps.",
+      "ownerNew": "Näited: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0019",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [4]`",
+      "current": "Skaitļi: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).",
+      "ownerNew": "Arvud: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Arvud: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn)."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0020",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [5]`",
+      "current": "Saitaiņa vācu valodā ir vienskaitļa un daudzskaitļa forma: der Schüler ist klein; die Schüler sind klein.",
+      "ownerNew": "Saksa keeles on sidusverbil sein ainsuse ja mitmuse vorm: der Schüler ist klein; die Schüler sind klein.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Saksa keeles on sidusverbil sein ainsuse ja mitmuse vorm: der Schüler ist klein; die Schüler sind klein."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0021",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [6]`",
+      "current": "Norādāmais vietniekvārds tas latviešu valodā mainās skaitlī un kārtā, bet vācu valodā lieto vienu formu: das.",
+      "ownerNew": "Eesti keeles on ainsuses see ja mitmuses need; saksa keeles kasutatakse sellistes konstruktsioonides vorme das ist ja das sind.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Eesti keeles on ainsuses see ja mitmuses need; saksa keeles kasutatakse sellistes konstruktsioonides vorme das ist ja das sind."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0022",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [7]`",
+      "current": "Piemēri: tas ir veseris — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln.",
+      "ownerNew": "Näited: see on haamer — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: see on haamer — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0023",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [9]`",
+      "current": "Vīriešu un vidējās kārtas lietvārdi ar galotni -er, -el, -en ei saa mitmuses sageli lõppu.",
+      "ownerNew": "Mees- ja kesksoost nimisõnad lõpuga -er, -el, -en ei saa mitmuses sageli lõppu.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Mees- ja kesksoost nimisõnad lõpuga -er, -el, -en ei saa mitmuses sageli lõppu."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0024",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [10]`",
+      "current": "Piemēri: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.",
+      "ownerNew": "Näited: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0025",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [11]`",
+      "current": "Sieviešu kārtas lietvārdi ar galotni -el, -er saavad mitmuses lõpu -n.",
+      "ownerNew": "Naissoost nimisõnad lõpuga -el, -er saavad mitmuses lõpu -n.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Naissoost nimisõnad lõpuga -el, -er saavad mitmuses lõpu -n."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0026",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [12]`",
+      "current": "Piemēri: die Nadel — die Nadeln; die Feder — die Federn.",
+      "ownerNew": "Näited: die Nadel — die Nadeln; die Feder — die Federn.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: die Nadel — die Nadeln; die Feder — die Federn."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0027",
+      "lesson": "L6",
+      "fieldPath": "`kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [13]`",
+      "current": "Izņēmumi: die Mutter (māte) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred).",
+      "ownerNew": "Erandid: die Mutter (ema) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred).",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Erandid: die Mutter (ema) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred)."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0028",
+      "lesson": "L7",
+      "fieldPath": "`kurssLesson7.legacyHtml → accordion:Hääldus → kurss-example → [1]`",
+      "current": "sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "ownerNew": "sch hääldatakse nagu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "sch hääldatakse nagu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel)."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0029",
+      "lesson": "L7",
+      "fieldPath": "`kurssLesson7.legacyHtml → accordion:Hääldus → kurss-example → [2]`",
+      "current": "Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).",
+      "ownerNew": "Diftongi äu hääldatakse nagu oi: das Fräulein (das froilein).",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Diftongi äu hääldatakse nagu oi: das Fräulein (das froilein)."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0030",
+      "lesson": "L7",
+      "fieldPath": "`kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [1]`",
+      "current": "Piemēri: antworte!, arbeite!, öffne!, zeichne!",
+      "ownerNew": "Näited: antworte!, arbeite!, öffne!, zeichne!",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: antworte!, arbeite!, öffne!, zeichne!"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0031",
+      "lesson": "L7",
+      "fieldPath": "`kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [3]`",
+      "current": "Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.",
+      "ownerNew": "Käskiva kõneviisi mitmuse 2. isiku vorm sarnaneb oleviku mitmuse 2. isiku vormiga, kuid seda kasutatakse ilma asesõnata.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Käskiva kõneviisi mitmuse 2. isiku vorm sarnaneb oleviku mitmuse 2. isiku vormiga, kuid seda kasutatakse ilma asesõnata."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0032",
+      "lesson": "L7",
+      "fieldPath": "`kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [4]`",
+      "current": "Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
+      "ownerNew": "Näited: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0033",
+      "lesson": "L7",
+      "fieldPath": "`kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [6]`",
+      "current": "Piemēri: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!",
+      "ownerNew": "Näited: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Näited: antworten Sie!, arbeiten Sie!, öffnen Sie!, zeichnen Sie!, gehen Sie!, stehen Sie!, tun Sie!"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0034",
+      "lesson": "L7",
+      "fieldPath": "`kurssLesson7.legacyHtml → accordion:Grammatika → kurss-example → [7]`",
+      "current": "Darbības vārdam öffnen vieglākas izrunas dēļ 2. un 3. personā vienskaitlī un 2. personā daudzskaitlī starp celmu un galotni iesprauž e: du öffnest, er öffnet, ihr öffnet.",
+      "ownerNew": "Tegusõnal öffnen lisatakse häälduse hõlbustamiseks ainsuse 2. ja 3. isikus ning mitmuse 2. isikus tüve ja lõpu vahele e: du öffnest, er öffnet, ihr öffnet.",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Tegusõnal öffnen lisatakse häälduse hõlbustamiseks ainsuse 2. ja 3. isikus ning mitmuse 2. isikus tüve ja lõpu vahele e: du öffnest, er öffnet, ihr öffnet."
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0035",
+      "lesson": "L13",
+      "fieldPath": "`COURSE_LESSON_DATA.kurssLesson13.sections[2].items[7].table[0][1]`",
+      "current": "Vīriešu",
+      "ownerNew": "Meessugu",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Meessugu"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0036",
+      "lesson": "L16",
+      "fieldPath": "`COURSE_LESSON_DATA.kurssLesson16.sections[2].items[1].table[0][1]`",
+      "current": "Vīriešu",
+      "ownerNew": "Meessugu",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Meessugu"
+    },
+    {
+      "id": "ET-KURSS-L1L7-V111-0037",
+      "lesson": "L16",
+      "fieldPath": "`COURSE_LESSON_DATA.kurssLesson16.sections[2].items[2].table[0][1]`",
+      "current": "Vīriešu",
+      "ownerNew": "Meessugu",
+      "status": "ALREADY_APPLIED",
+      "count": 0,
+      "matchedNew": "Meessugu"
+    }
+  ],
+  "wwwMatchesPrimary": true
+}

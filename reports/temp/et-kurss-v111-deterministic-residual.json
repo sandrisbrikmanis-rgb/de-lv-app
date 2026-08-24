@@ -1,0 +1,780 @@
+{
+  "generatedAt": "2026-08-24T10:45:12.725Z",
+  "standard": "PROJECT_LANGUAGE_MASTER_STANDARD v1.11",
+  "originMainSha": "571124878bb889e5353d84bc5118806976670c31",
+  "masterVersion": "1.11",
+  "etKurssProductionBlob": "01ccd6882675d755cbea21613528d9eead46425f",
+  "etUiBlob": "46f17d6bee4ece21918802dbb3f59256c95266d7",
+  "rootUiBlob": "277eed9ac3c613783d1fa03465f5a5d9088a3949",
+  "verdict": "ET_KURSS_V111_DETERMINISTIC_RESIDUAL_PASS",
+  "deterministicScopeCoverage": 100,
+  "deterministicDiscoveryCompleteness": 100,
+  "lessonsScanned": 21,
+  "learnerTextNodesScanned": 498,
+  "scopedFieldsEstimate": 60,
+  "foreignLanguageResidual": 0,
+  "realLvResidual": 0,
+  "mixedLvEtResidual": 0,
+  "rawCandidates": 82,
+  "falsePositive": 33,
+  "rawUnclassified": 49,
+  "emptyRequiredLocalizedFields": 0,
+  "placeholders": 0,
+  "mojibake": 0,
+  "multiTranslationCandidatesRaw": 189,
+  "kurssLegacyHtmlTextnodeScan": "PASS",
+  "legacyHtmlIssues": [],
+  "l1l7ForeignFindings": 0,
+  "gates": {
+    "MIRROR": "PASS",
+    "VALIDATE_KURSS": "PASS",
+    "DE_CHANGES": 0,
+    "PRODUCTION_CHANGES": 0
+  },
+  "findingsTotal": 189,
+  "foreignFindings": [],
+  "findingsSample": [
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Tegusõnad olevikus → conjugation",
+      "sample": "ich komme mina tulen du kommst sina tuled er / sie kommt tema tuleb wir kommen meie tuleme ihr kommt teie tulete sie / Sie kommen nemad / Teie tulevad",
+      "candidates": [
+        "ich komme mina tulen du kommst sina tuled er",
+        "sie kommt tema tuleb wir kommen meie tuleme ihr kommt teie tulete sie",
+        "Sie kommen nemad",
+        "Teie tulevad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Tegusõnad olevikus → conjugation",
+      "sample": "ich gehe mina lähen du gehst sina lähed er / sie geht tema läheb wir gehen meie läheme ihr geht teie lähete sie / Sie gehen nemad / Teie lähevad",
+      "candidates": [
+        "ich gehe mina lähen du gehst sina lähed er",
+        "sie geht tema läheb wir gehen meie läheme ihr geht teie lähete sie",
+        "Sie gehen nemad",
+        "Teie lähevad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Tegusõnad olevikus → conjugation",
+      "sample": "ich stehe mina seisan du stehst sina seisad er / sie steht tema seisab wir stehen meie seisame ihr steht teie seisate sie / Sie stehen nemad / Teie seisavad",
+      "candidates": [
+        "ich stehe mina seisan du stehst sina seisad er",
+        "sie steht tema seisab wir stehen meie seisame ihr steht teie seisate sie",
+        "Sie stehen nemad",
+        "Teie seisavad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Tegusõnad olevikus → conjugation",
+      "sample": "ich singe mina laulan du singst sina laulad er / sie singt tema laulab wir singen meie laulame ihr singt teie laulate sie / Sie singen nemad / Teie laulavad",
+      "candidates": [
+        "ich singe mina laulan du singst sina laulad er",
+        "sie singt tema laulab wir singen meie laulame ihr singt teie laulate sie",
+        "Sie singen nemad",
+        "Teie laulavad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson1.legacyHtml → accordion:Grammatika → kurss-example → [6]",
+      "sample": "er / sie → -t",
+      "candidates": [
+        "er",
+        "sie → -t"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson3.legacyHtml → accordion:Grammatika → h4",
+      "sample": "5 stehen / liegen / hängen",
+      "candidates": [
+        "5 stehen",
+        "liegen",
+        "hängen"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson4.legacyHtml → accordion:Grammatika → kurss-example → [6]",
+      "sample": "er/sie nimmt",
+      "candidates": [
+        "er",
+        "sie nimmt"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson4.legacyHtml → accordion:Grammatika → h4",
+      "sample": "7 -chen / -lein",
+      "candidates": [
+        "7 -chen",
+        "-lein"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson5.legacyHtml → accordion:Grammatika → kurss-example → [8]",
+      "sample": "er/sie/es sitzt",
+      "candidates": [
+        "er",
+        "sie",
+        "es sitzt"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Dialoogid / laused → kurss-example → [16]",
+      "sample": "Gertrud kommt und zählt die Löffel: das ist ein Löffel; das sind zwei, drei, vier Löffel.",
+      "candidates": [
+        "Gertrud kommt und zählt die Löffel: das ist ein Löffel",
+        "das sind zwei, drei, vier Löffel."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Dialoogid / laused → kurss-example → [17]",
+      "sample": "Anna zählt die Nadeln: das ist eine Nadel; das sind zwei, drei, vier, fünf Nadeln.",
+      "candidates": [
+        "Anna zählt die Nadeln: das ist eine Nadel",
+        "das sind zwei, drei, vier, fünf Nadeln."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [1]",
+      "sample": "Näited: hinlegen — er legt hin; aufmachen — er macht auf; anspitzen — er spitzt an.",
+      "candidates": [
+        "Näited: hinlegen — er legt hin",
+        "aufmachen — er macht auf",
+        "anspitzen — er spitzt an."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [3]",
+      "sample": "Näited: ein Schüler — üks õpilane; eine Schülerin — üks õpilane (naine); ein Kind — üks laps.",
+      "candidates": [
+        "Näited: ein Schüler — üks õpilane",
+        "eine Schülerin — üks õpilane (naine)",
+        "ein Kind — üks laps."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [5]",
+      "sample": "Saksa keeles on sidusverbil sein ainsuse ja mitmuse vorm: der Schüler ist klein; die Schüler sind klein.",
+      "candidates": [
+        "Saksa keeles on sidusverbil sein ainsuse ja mitmuse vorm: der Schüler ist klein",
+        "die Schüler sind klein."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [7]",
+      "sample": "Näited: see on haamer — das ist ein Hammer; see on nõel — das ist eine Nadel; need on haamrid — das sind Hämmer; need on nõelad — das sind Nadeln.",
+      "candidates": [
+        "Näited: see on haamer — das ist ein Hammer",
+        "see on nõel — das ist eine Nadel",
+        "need on haamrid — das sind Hämmer",
+        "need on nõelad — das sind Nadeln."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [10]",
+      "sample": "Näited: der Hammer — die Hämmer; der Garten — die Gärten; das Fenster — die Fenster; das Messer — die Messer.",
+      "candidates": [
+        "Näited: der Hammer — die Hämmer",
+        "der Garten — die Gärten",
+        "das Fenster — die Fenster",
+        "das Messer — die Messer."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [12]",
+      "sample": "Näited: die Nadel — die Nadeln; die Feder — die Federn.",
+      "candidates": [
+        "Näited: die Nadel — die Nadeln",
+        "die Feder — die Federn."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [13]",
+      "sample": "Erandid: die Mutter (ema) — die Mütter (emad); die Tochter (tütar) — die Töchter (tütred).",
+      "candidates": [
+        "Erandid: die Mutter (ema) — die Mütter (emad)",
+        "die Tochter (tütar) — die Töchter (tütred)."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [14]",
+      "sample": "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen — das sind Wagen; das ist eine Nadel — das sind Nadeln.",
+      "candidates": [
+        "Nenoteiktajam artikulam daudzskaitļa nav: das ist ein Wagen — das sind Wagen",
+        "das ist eine Nadel — das sind Nadeln."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "kurssLesson6.legacyHtml → accordion:Grammatika → kurss-example → [15]",
+      "sample": "Stāstāmā teikumā izteicējs-tegusõna teisel kohal: er legt den Schlüssel hin; dann legt er den Schlüssel hin.",
+      "candidates": [
+        "Stāstāmā teikumā izteicējs-tegusõna teisel kohal: er legt den Schlüssel hin",
+        "dann legt er den Schlüssel hin."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.subtitle",
+      "sample": "Refleksiivsed tegusõnad, e → i/ie muutus ja akusatiiv.",
+      "candidates": [
+        "Refleksiivsed tegusõnad, e → i",
+        "ie muutus ja akusatiiv."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].title",
+      "sample": "Dialoogid / laused",
+      "candidates": [
+        "Dialoogid",
+        "laused"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "sample": "Olevik: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "candidates": [
+        "Olevik: ich setze mich, du setzt dich, er",
+        "sie",
+        "es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].title",
+      "sample": "Übung / Harjutus",
+      "candidates": [
+        "Übung",
+        "Harjutus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.subtitle",
+      "sample": "Mitmed esemed, dieser/jener, ainsus ja mitmus",
+      "candidates": [
+        "Mitmed esemed, dieser",
+        "jener, ainsus ja mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.intro",
+      "sample": "Üheksas õppetund: nimisõnade mitmus, näitavad asesõnad dieser/jener, harjutused ja tõlkimine.",
+      "candidates": [
+        "Üheksas õppetund: nimisõnade mitmus, näitavad asesõnad dieser",
+        "jener, harjutused ja tõlkimine."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[0].title",
+      "sample": "Dialoogid / laused",
+      "candidates": [
+        "Dialoogid",
+        "laused"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].title",
+      "sample": "Übung / Harjutus",
+      "candidates": [
+        "Übung",
+        "Harjutus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[0].label",
+      "sample": "1/4 Algne lause",
+      "candidates": [
+        "1",
+        "4 Algne lause"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[1].label",
+      "sample": "2/4 Er vorm",
+      "candidates": [
+        "2",
+        "4 Er vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[2].label",
+      "sample": "3/4 Wir vorm",
+      "candidates": [
+        "3",
+        "4 Wir vorm"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[3].label",
+      "sample": "4/4 Mitmus",
+      "candidates": [
+        "4",
+        "4 Mitmus"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[0].title",
+      "sample": "Dialoogid / laused",
+      "candidates": [
+        "Dialoogid",
+        "laused"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[5]",
+      "sample": "ich kann — mina saan/võin",
+      "candidates": [
+        "ich kann — mina saan",
+        "võin"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[6]",
+      "sample": "du kannst — sina saad/võid",
+      "candidates": [
+        "du kannst — sina saad",
+        "võid"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[7]",
+      "sample": "er kann — tema saab/võib",
+      "candidates": [
+        "er kann — tema saab",
+        "võib"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[8]",
+      "sample": "wir können — meie saame/võime",
+      "candidates": [
+        "wir können — meie saame",
+        "võime"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[9]",
+      "sample": "ihr könnt — teie saate/võite",
+      "candidates": [
+        "ihr könnt — teie saate",
+        "võite"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[10]",
+      "sample": "sie können — nemad saavad/võivad",
+      "candidates": [
+        "sie können — nemad saavad",
+        "võivad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[1].table[2][0]",
+      "sample": "er / sie / es",
+      "candidates": [
+        "er",
+        "sie",
+        "es"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text",
+      "sample": "Samamoodi pööratakse ebareeglipäraselt ka abitegusõna können — võima/oskama.",
+      "candidates": [
+        "Samamoodi pööratakse ebareeglipäraselt ka abitegusõna können — võima",
+        "oskama."
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].table[2][0]",
+      "sample": "er / sie / es",
+      "candidates": [
+        "er",
+        "sie",
+        "es"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.subtitle",
+      "sample": "Haben, kein/keine/keinen, omamine ja liitnimisõnad",
+      "candidates": [
+        "Haben, kein",
+        "keine",
+        "keinen, omamine ja liitnimisõnad"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].title",
+      "sample": "Dialoogid / laused",
+      "candidates": [
+        "Dialoogid",
+        "laused"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].table[2][0]",
+      "sample": "er/sie/es hat",
+      "candidates": [
+        "er",
+        "sie",
+        "es hat"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].table[2][1]",
+      "sample": "viņam/viņai/tam ir",
+      "candidates": [
+        "viņam",
+        "viņai",
+        "tam ir"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].heading",
+      "sample": "Eesti daativ ja saksa nominatiiv/akusatiiv",
+      "candidates": [
+        "Eesti daativ ja saksa nominatiiv",
+        "akusatiiv"
+      ]
+    },
+    {
+      "type": "MULTIPLE_TRANSLATION_CANDIDATE",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "sample": "vene: я имею тетрадь; отец имеет книгу.",
+      "candidates": [
+        "vene: я имею тетрадь",
+        "отец имеет книгу."
+      ]
+    }
+  ]
+}
