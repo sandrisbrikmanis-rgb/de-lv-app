@@ -86,3 +86,19 @@ PR #642 was initially built from **main (v1.9)** and **overwrote** v1.10 content
 ## Merge authorization
 
 **MASTER_V1_11_INHERITANCE_VERIFIED_PASS** — PR #642 authorized to merge after this commit.
+
+## Post-merge verification (origin/main)
+
+| Field | Value |
+|-------|-------|
+| MAIN_BEFORE | `c50b8684344250ce96834a12206efd5fb3440187` |
+| MERGE_COMMIT (PR #642) | `f993fa6640cbdd68c83181316ffddd482c0a2fb3` |
+| MAIN_AFTER | `f993fa6640cbdd68c83181316ffddd482c0a2fb3` |
+| Document blob on main | `4ae2758f1de3feed43841627b898a14ab2c931e9` |
+| MASTER_VERSION | **1.11** |
+| V1_10_RULES_RETAINED | **100%** (24/24) |
+| V1_11_RULES_RETAINED | **100%** (14/14) |
+| PRODUCTION_CHANGES | **0** |
+| POST_MERGE_MASTER_VERIFICATION | **PASS** |
+
+**Final verdict:** **PROJECT_LANGUAGE_MASTER_STANDARD_V1_11_ACTIVE_ON_MAIN**
