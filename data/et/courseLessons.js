@@ -3457,7 +3457,7 @@ const COURSE_LESSON_DATA = {
             "heading": "Kindel aine",
             "text": "Kui ainet mainitakse kindla koguse või kindla koha kontekstis, kasutatakse artiklit.",
             "examples": [
-              "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē."
+              "Ich gieße das Wasser in den Krug. — Ma valan vee kannu."
             ]
           },
           {

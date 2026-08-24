@@ -1,0 +1,422 @@
+{
+  "generatedAt": "2026-08-24T09:58:31.453Z",
+  "kurssL1L21RenderScope": "PASS",
+  "kurssRuntimeSmoke": "PASS",
+  "kurssDynamicExercise": "PASS",
+  "kurssDynamicTranslate": "PASS",
+  "kurssFirstCardInitialization": "FAIL",
+  "kurssProgress": "FAIL",
+  "kurssFlip": "FAIL",
+  "kurssNext": "FAIL",
+  "etL18Harjutus": "PASS",
+  "etL18Tolgi": "PASS",
+  "failures": 0,
+  "lessons": [
+    {
+      "lesson": 1,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": null,
+      "pass": true
+    },
+    {
+      "lesson": 2,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": null,
+      "pass": true
+    },
+    {
+      "lesson": 3,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": null,
+      "pass": true
+    },
+    {
+      "lesson": 4,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": null,
+      "pass": true
+    },
+    {
+      "lesson": 5,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": null,
+      "pass": true
+    },
+    {
+      "lesson": 6,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": null,
+      "pass": true
+    },
+    {
+      "lesson": 7,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": null,
+      "pass": true
+    },
+    {
+      "lesson": 8,
+      "accordionCount": 6,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 38,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 19,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 9,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 0,
+          "init": false,
+          "flip": false,
+          "next": false,
+          "progress": false
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 19,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 10,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 0,
+          "init": false,
+          "flip": false,
+          "next": false,
+          "progress": false
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 21,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 11,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 0,
+          "init": false,
+          "flip": false,
+          "next": false,
+          "progress": false
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 21,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 12,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 0,
+          "init": false,
+          "flip": false,
+          "next": false,
+          "progress": false
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 33,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 13,
+      "accordionCount": 6,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 36,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 33,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 14,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 0,
+          "init": false,
+          "flip": false,
+          "next": false,
+          "progress": false
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 14,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 15,
+      "accordionCount": 5,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 0,
+          "init": false,
+          "flip": false,
+          "next": false,
+          "progress": false
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 16,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 16,
+      "accordionCount": 6,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 16,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 14,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 17,
+      "accordionCount": 6,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 30,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 25,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 18,
+      "accordionCount": 6,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 32,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 18,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 19,
+      "accordionCount": 6,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 16,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 9,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 20,
+      "accordionCount": 6,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 17,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 24,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "lesson": 21,
+      "accordionCount": 6,
+      "blankPanel": false,
+      "lvHits": [],
+      "dynamic": {
+        "exercise": {
+          "pass": true,
+          "deckLen": 15,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        },
+        "translate": {
+          "pass": true,
+          "deckLen": 14,
+          "init": true,
+          "flip": true,
+          "next": true,
+          "progress": true
+        }
+      },
+      "pass": true
+    }
+  ]
+}
