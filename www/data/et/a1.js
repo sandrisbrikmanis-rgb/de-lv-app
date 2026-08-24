@@ -293,7 +293,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "juures • pinna küljes • serva ääres",
+      "translation": "juures",
       "explanation": "Kasutatakse, kui miski asub seina, akna, ukse, jõe, mereranna või mõne muu ääre/pinna juures.",
       "examples": [
         {
@@ -1505,7 +1505,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "-st • välja",
+      "translation": "välja",
       "explanation": "Kasutatakse, kui miski tuleb seestpoolt, tuleb välja või osutab päritolule.",
       "examples": [
         {
@@ -1680,7 +1680,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "peale • otsa • kuhu?",
+      "translation": "peale",
       "explanation": [
         "aufs on eessõna auf ja artikli das lühend.",
         "Täisvorm: auf das (Akkusativ).",
@@ -2580,7 +2580,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-besuch",
       "layout": "standardStudy",
-      "translation": "külaskäik • külastus • visiit",
+      "translation": "külastus",
       "explanation": [
         "Põhitähendus: der Besuch tähendab külastust, külaskäiku või visiiti.",
         "Kui räägitakse kohast või üritusest, sobib eesti keeles tavaliselt külastus.",
@@ -2774,7 +2774,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-besuchen",
       "layout": "standardStudy",
-      "translation": "külastama • külla minema",
+      "translation": "külastama",
       "explanation": [
         "Põhitähendus: besuchen kasutatakse koha, ürituse või inimese külastamise kohta.",
         "Kohta, üritust või kursust eesti keeles tavaliselt külastatakse.",
@@ -3760,7 +3760,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "tooma • viima",
+      "translation": "tooma",
       "explanation": [
         "Põhiidee: bringen tähendab midagi kellelegi tooma, viima või toimetama.",
         "bringen kasutatakse, kui midagi viiakse teise kohta või teise inimese juurde.",
@@ -5181,7 +5181,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "umbmäärane artikkel • üks • mingi",
+      "translation": "üks",
       "explanation": "Kasutatakse koos meessoost nimisõnaga. Osutab ühele kindlale asjale või inimesele mitme võimaluse hulgast.",
       "examples": [
         {
@@ -5350,7 +5350,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-eis",
       "layout": "standardStudy",
-      "translation": "jää • jäätis",
+      "translation": "jää",
       "explanation": [
         "Põhiidee: das Eis võib tähendada nii jääd kui ka jäätist.",
         "Kui jutt on külmast külmunud veest, öeldakse eesti keeles tavaliselt jää.",
@@ -5660,7 +5660,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "kõigepealt • alles",
+      "translation": "kõigepealt",
       "explanation": "“erst” kasutatakse järjekorra näitamiseks (kõigepealt) või selle rõhutamiseks, et midagi toimub hiljem kui oodatud või väiksemas mahus (alles).",
       "examples": [
         {
@@ -6042,7 +6042,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-etwas",
       "layout": "standardStudy",
-      "translation": "midagi • veidi",
+      "translation": "midagi",
       "explanation": [
         "Põhiidee: etwas tähendab olenevalt kontekstist midagi või natuke.",
         "Kui etwas asendab tundmatut asja, öeldakse eesti keeles tavaliselt midagi.",
@@ -6313,7 +6313,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "teid • teile",
+      "translation": "teid",
       "explanation": "“euch” on 2. isiku mitmuse asesõna. Seda kasutatakse nii otsesihitisena (Akkusativ) — “teid”, kui ka kaudsihitisena (Dativ) — “teile”.",
       "examples": [
         {
@@ -6505,7 +6505,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "sõitma • vedama • ära viima",
+      "translation": "sõitma",
       "explanation": [
         "Põhiidee: fahren tähendab sõidukiga sõitma ja mõnes lauses ka kedagi sõidutama või ära viima.",
         "fahren kasutatakse, kui liikumine toimub autoga, bussiga, rongiga, jalgrattaga või muu sõidukiga.",
@@ -6936,7 +6936,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-finden",
       "layout": "standardStudy",
-      "translation": "leidma • arvama",
+      "translation": "leidma",
       "explanation": [
         "Põhiidee: finden tähendab kõige sagedamini leidma.",
         "Vestlustes tähendab finden väga sageli ka arvamist või millegi kohta mõtlemist.",
@@ -7243,7 +7243,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-frau",
       "layout": "standardStudy",
-      "translation": "naine • abikaasa",
+      "translation": "naine",
       "explanation": [
         "Põhiidee: die Frau võib tähendada naist (sugu) või abikaasat (abielupool).",
         "Kui jutt on lihtsalt soost või isikust, die Frau = naine.",
@@ -7516,7 +7516,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "jaoks • eest",
+      "translation": "jaoks",
       "explanation": [
         "Põhiidee: für on eessõna, mis nõuab alati Akkusativit — eesti keeles tavaliselt jaoks või eest.",
         "Saajast või eesmärgist rääkides für = jaoks (für dich = sinu jaoks).",
@@ -7739,7 +7739,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ganz-study",
       "layout": "standardStudy",
-      "translation": "terve • kogu • täiesti",
+      "translation": "terve",
       "explanation": [
         "Põhitähendus: ganz koos nimisõnaga tähendab tervet või kogu midagi.",
         "Omadus- või määrsõna ees võib ganz tähendada täiesti, päris või üsna.",
@@ -8167,7 +8167,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-geschichte-study",
       "layout": "standardStudy",
-      "translation": "lugu • ajalugu",
+      "translation": "lugu",
       "explanation": [
         "Põhitähendus: Geschichte võib tähendada lugu või ajalugu.",
         "Mitmus die Geschichten tähendab tavaliselt lugusid.",
@@ -8309,7 +8309,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "kohe • ühesugune",
+      "translation": "kohe",
       "explanation": [
         "Põhiidee: gleich tähendab aja mõttes kohe, võrdluses tähendab ühesugune.",
         "Kui jutt on ajast, gleich = kohe/varsti (Ich komme gleich. = Ma tulen kohe.).",
@@ -9152,7 +9152,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-halten",
       "layout": "standardStudy",
-      "translation": "hoidma • peatama",
+      "translation": "hoidma",
       "explanation": [
         "Põhiidee: halten tähendab hoidma, aga sõiduki või liikumise puhul võib tähendada peatama või peatuma.",
         "Kui ese on käes, tähendab halten tavaliselt hoidma.",
@@ -9932,7 +9932,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-hoeren-study",
       "layout": "standardStudy",
-      "translation": "kuulma • kuulama",
+      "translation": "kuulma",
       "explanation": [
         "Põhiidee: Kuulda heli või kuulata muusikat.",
         "hören tähendab peamiselt: heli tajuma.",
@@ -10046,7 +10046,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-huebsch",
       "layout": "standardStudy",
-      "translation": "kena • nägus",
+      "translation": "kena",
       "explanation": [
         "Põhitähendus: hübsch tähendab kena, nägusat või meeldiva välimusega.",
         "Seda kasutatakse inimeste, riiete, ruumide ja esemete välimuse kirjeldamiseks.",
@@ -10260,7 +10260,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "teie • temale",
+      "translation": "teie",
       "explanation": [
         "Põhiidee: ihr on kaks erinevat ühesuguse kirjapildiga asesõna — mitme inimese poole pöördumine (teie) ja asesõna sie Dativi vorm (talle/tema).",
         "Väikese ihr tõlgitakse mitme inimese poole pöördumisel sõnaga teie (Kommt ihr mit? = Kas te tulete kaasa?).",
@@ -10433,7 +10433,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-im",
       "layout": "standardStudy",
-      "translation": "sees (-s) • kus?",
+      "translation": "sees",
       "explanation": [
         "im on eessõna in ja artikli dem lühend.",
         "Täisvorm: in dem (Dativ).",
@@ -10781,7 +10781,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-in",
       "layout": "standardStudy",
-      "translation": "sees • sisse",
+      "translation": "sees",
       "explanation": [
         "Põhiidee: in tähendab tavaliselt sees või mingisse kohta, kui jutt on ruumist, riigist, linnast või hoonest.",
         "Asukoha puhul tõlgitakse in sageli sõnaga sees või lõpuga -s: in Berlin = Berliinis.",
@@ -10945,7 +10945,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ins",
       "layout": "standardStudy",
-      "translation": "sisse • sissepoole • kuhu?",
+      "translation": "sisse",
       "explanation": [
         "ins on eessõna in ja artikli das lühend.",
         "Täisvorm: in das (Akkusativ).",
@@ -11317,7 +11317,7 @@ const A1_WORDS = [
   },
   {
     "de": "jetzt",
-    "lv": "nüüd • praegu",
+    "lv": "nüüd",
     "level": "A1"
   },
   {
@@ -11547,7 +11547,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-kein",
       "layout": "standardStudy",
-      "translation": "mitte ükski • mitte mingi",
+      "translation": "mitte ükski",
       "explanation": [
         "Põhiidee: kein on eitav artikkel, mis eitab nimisõna — eesti keeles olenevalt kontekstist mitte ükski või mitte mingi.",
         "kein käändub samamoodi nagu ein (kein/keine/keinen...) ja seisab nimisõna ees.",
@@ -12023,7 +12023,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-können",
       "layout": "standardStudy",
-      "translation": "saama • oskama",
+      "translation": "oskama",
       "explanation": [
         "Põhiidee: können tähendab midagi suutma või oskama teha.",
         "Kui jutt on võimest või oskusest, öeldakse eesti keeles sageli oskama.",
@@ -12909,7 +12909,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
-      "translation": "riik • maa",
+      "translation": "riik",
       "explanation": [
         "Põhiidee: das Land tähendab kõige sagedamini riiki või maad väljaspool linna.",
         "Kui jutt on Saksamaast, Eestist või mõnest muust piiridega territooriumist, tõlgi kui riik.",
@@ -13155,7 +13155,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-lang",
       "layout": "standardStudy",
-      "translation": "pikk • kauakestev",
+      "translation": "pikk",
       "explanation": [
         "Põhiidee: lang tähendab ruumiliselt pikk, aja mõttes pikk või kestev.",
         "Kui jutt on suurusest või kaugusest, lang = pikk (ein langer Tisch = pikk laud).",
@@ -13331,7 +13331,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-lassen",
       "layout": "standardStudy",
-      "translation": "jätma • laskma",
+      "translation": "laskma",
       "explanation": [
         "Põhiidee: lassen tähendab midagi jätma või laskma millelgi juhtuda.",
         "Kui miski jääb paigale, tõlgitakse lassen kui jätma.",
@@ -13564,7 +13564,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-laufen",
       "layout": "standardStudy",
-      "translation": "jooksma • töötama",
+      "translation": "jooksma",
       "explanation": [
         "Põhiidee: laufen tähendab jooksma, aga seadmete puhul võib see tähendada töötama.",
         "Inimese või looma kohta tähendab laufen sageli jooksma või kiires sammus minema.",
@@ -14610,7 +14610,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-liegen",
       "layout": "standardStudy",
-      "translation": "asuma • lamama",
+      "translation": "asuma",
       "explanation": [
         "Põhiidee: liegen tähendab asuma või horisontaalselt lamama.",
         "Inimese kohta tähendab liegen sageli lamamist.",
@@ -14883,7 +14883,7 @@ const A1_WORDS = [
   },
   {
     "de": "links",
-    "lv": "vasakul • vasak",
+    "lv": "vasakul",
     "level": "A1"
   },
   {
@@ -15048,7 +15048,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "tegema • valmistama",
+      "translation": "tegema",
       "explanation": [
         "Põhiidee: machen on väga sage sõna, mis tähendab tegema või valmistama.",
         "Kui jutt on tegevusest üldiselt, tõlgitakse see kui tegema.",
@@ -15379,7 +15379,7 @@ const A1_WORDS = [
   },
   {
     "de": "malen",
-    "lv": "maalima • värvima",
+    "lv": "maalima",
     "level": "A1"
   },
   {
@@ -15403,7 +15403,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-mann",
       "layout": "standardStudy",
-      "translation": "mees • abikaasa",
+      "translation": "mees",
       "explanation": [
         "Põhiidee: der Mann võib tähendada meest (sugu) või abikaasat (abielupool).",
         "Kui jutt on lihtsalt soost või isikust, der Mann = mees.",
@@ -16787,7 +16787,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "-sse • pärast",
+      "translation": "pärast",
       "explanation": [
         "Põhiidee: nach tähendab kohtade puhul suunda kuhugi ja aja või järjekorra puhul pärast.",
         "Artiklita linnade ja riikide puhul tähendab nach sageli lõppu -sse.",
@@ -17069,7 +17069,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-natuerlich",
       "layout": "standardStudy",
-      "translation": "muidugi • loomulik",
+      "translation": "muidugi",
       "explanation": [
         "Põhiidee: natürlich tähendab määrsõnana muidugi, omadussõnana tähendab loomulik.",
         "Vestluses, midagi kinnitades, natürlich = muidugi (Kommst du mit? – Natürlich! = Kas tuled kaasa? – Muidugi!).",
@@ -17234,7 +17234,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "võtma • kätte võtma",
+      "translation": "võtma",
       "explanation": [
         "Põhiidee: nehmen tähendab võtma või kätte võtma.",
         "nehmen kasutatakse, kui sa võtad midagi endale või valid.",
@@ -17888,7 +17888,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-nur-study",
       "layout": "standardStudy",
-      "translation": "ainult • üksnes",
+      "translation": "ainult",
       "explanation": [
         "Põhiidee: Piirab kogust, inimeste arvu, valikut või võimalusi.",
         "nur tähendab peamiselt: piiratud kogus või valik.",
@@ -18288,7 +18288,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "või • ehk",
+      "translation": "või",
       "explanation": [
         "Põhiidee: oder kasutatakse, kui valime kahe või mitme võimaluse vahel.",
         "Eesti keeles tähendab oder kõige sagedamini või.",
@@ -18599,7 +18599,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "sobima • hästi sobima",
+      "translation": "sobima",
       "explanation": [
         "Põhiidee: passen tähendab sobima, hästi istuma või paras olema.",
         "Riiete puhul tähendab passen sageli suuruse järgi sobima.",
@@ -18916,7 +18916,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-probieren",
       "layout": "standardStudy",
-      "translation": "proovima • maitsma",
+      "translation": "proovima",
       "explanation": [
         "Põhiidee: probieren tähendab proovima või maitsma.",
         "Kui jutt on toidust või joogist, tähendab probieren sageli maitsma.",
@@ -19232,7 +19232,7 @@ const A1_WORDS = [
   },
   {
     "de": "rechts",
-    "lv": "paremale • parem",
+    "lv": "paremale",
     "level": "A1"
   },
   {
@@ -20562,7 +20562,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-seite",
       "layout": "standardStudy",
-      "translation": "lehekülg • külg",
+      "translation": "lehekülg",
       "explanation": [
         "Põhiidee: die Seite võib tähendada raamatu/dokumendi lehekülge või mingi asja külge/serva.",
         "Raamatus, ajakirjas või veebilehel die Seite = lehekülg (Seite 5 = 5. lehekülg).",
@@ -20744,7 +20744,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "end • endale",
+      "translation": "end",
       "explanation": [
         "Põhiidee: sich näitab, et tegevus käib tegija enda kohta.",
         "Eesti keeles tõlgitakse seda sageli kui ennast või endale.",
@@ -20979,7 +20979,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-sicher",
       "layout": "standardStudy",
-      "translation": "kindel • kindlasti",
+      "translation": "kindel",
       "explanation": [
         "Põhiidee: sicher tähendab omadussõnana kindel, määrsõnana tähendab kindlasti/küllap.",
         "Kohast, olukorrast või inimesest rääkides sicher = turvaline (ein sicherer Ort = turvaline koht).",
@@ -21141,7 +21141,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "nemad / nad",
+      "translation": "nad",
       "explanation": [
         "Põhiidee: Mitmuse vorm — jutt on mitmest inimesest. Tegusõna lõpeb -en: kochen, essen, gehen.",
         "sie tähendab peamiselt: üks naine.",
@@ -22526,7 +22526,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-über",
       "layout": "standardStudy",
-      "translation": "kohal • kohta",
+      "translation": "kohal",
       "explanation": [
         "Põhiidee: über tähendab olenevalt kontekstist millegi kohal või millegi kohta.",
         "Kui jutt on asukohast, tähendab über sageli kohal.",
@@ -22791,7 +22791,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-um",
       "layout": "standardStudy",
-      "translation": "umbes • kell",
+      "translation": "kell",
       "explanation": [
         "Põhiidee: um tähendab väga sageli aja puhul kell või koha puhul ümber/ringi.",
         "Täpse kellaaja puhul tähendab um kell.",
@@ -23975,7 +23975,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-vor",
       "layout": "standardStudy",
-      "translation": "enne • ees",
+      "translation": "enne",
       "explanation": [
         "Põhiidee: vor tähendab aja puhul enne või koha puhul ees.",
         "Kui jutt on ajast, tähendab vor enne.",
@@ -24268,7 +24268,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "mis • mida",
+      "translation": "mis",
       "explanation": [
         "Põhiidee: was on küsisõna asjade ja sündmuste kohta — eesti keeles on see mis või mida, olenevalt lauseosast.",
         "was küsib asjade, sündmuste ja faktide kohta, mitte isikute kohta.",
@@ -24514,7 +24514,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-wenn",
       "layout": "standardStudy",
-      "translation": "kui (tingimus) • kui (aeg)",
+      "translation": "kui",
       "explanation": [
         "Põhiidee: wenn väljendab olenevalt olukorrast tingimust või korduvat aega ja vastab eesti keeles sõnale kui.",
         "Kui jutt on tingimusest, tõlgi see sõnaga kui.",
@@ -25455,7 +25455,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-wie",
       "layout": "standardStudy",
-      "translation": "kuidas • kui",
+      "translation": "kuidas",
       "explanation": [
         "Põhiidee: wie küsib viisi või omaduse kohta (kuidas) ja hulga või arvu kohta (kui palju), olenevalt kontekstist.",
         "wie üksi (Wie geht's?) küsib viisi kohta — eesti keeles kuidas.",
@@ -25676,7 +25676,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-zu",
       "layout": "standardStudy",
-      "translation": "-sse • juurde",
+      "translation": "juurde",
       "explanation": [
         "Põhiidee: zu tähendab väga sageli juurde või poole, aga sellel on oma roll ka infinitiiviga.",
         "Inimeste ja asutuste puhul tähendab zu sageli juurde või poole.",
@@ -26158,7 +26158,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-zum",
       "layout": "standardStudy",
-      "translation": "-sse • juurde",
+      "translation": "juurde",
       "explanation": [
         "zum on eessõna zu ja artikli dem lühend.",
         "Täisvorm: zu dem (Dativ).",
@@ -28063,7 +28063,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-zeit",
       "layout": "standardStudy",
-      "translation": "aeg (hetk / ajavahemik)",
+      "translation": "aeg",
       "explanation": [
         "Põhiidee: Aeg kui mõiste — hetk, võimalus, ajavahemik.",
         "die Zeit tähendab peamiselt: hetk, võimalus.",
@@ -28184,7 +28184,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-einmal",
       "layout": "standardStudy",
-      "translation": "üks kord • kord",
+      "translation": "üks kord",
       "explanation": [
         "Põhiidee: Osutab ühele korrale või minevikule (kord ma olin...).",
         "einmal tähendab peamiselt: üks kord / minevikus.",

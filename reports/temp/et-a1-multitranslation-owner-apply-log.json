@@ -1,0 +1,794 @@
+{
+  "dryRun": false,
+  "masterVersion": "1.12",
+  "staged": [
+    {
+      "auditId": "ET-A1-0015",
+      "cardId": "a1-an",
+      "field": "study.translation",
+      "ownerNew": "juures",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0016",
+      "cardId": "a1-aus",
+      "field": "study.translation",
+      "ownerNew": "välja",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0017",
+      "cardId": "a1-aufs",
+      "field": "study.translation",
+      "ownerNew": "peale",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0018",
+      "cardId": "a1-besuch",
+      "field": "study.translation",
+      "ownerNew": "külastus",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0019",
+      "cardId": "a1-besuchen",
+      "field": "study.translation",
+      "ownerNew": "külastama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0020",
+      "cardId": "a1-bringen",
+      "field": "study.translation",
+      "ownerNew": "tooma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0021",
+      "cardId": "a1-ein",
+      "field": "study.translation",
+      "ownerNew": "üks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0022",
+      "cardId": "a1-eis",
+      "field": "study.translation",
+      "ownerNew": "jää",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0023",
+      "cardId": "a1-erst",
+      "field": "study.translation",
+      "ownerNew": "kõigepealt",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0025",
+      "cardId": "a1-etwas",
+      "field": "study.translation",
+      "ownerNew": "midagi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0026",
+      "cardId": "a1-euch",
+      "field": "study.translation",
+      "ownerNew": "teid",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0027",
+      "cardId": "a1-fahren",
+      "field": "study.translation",
+      "ownerNew": "sõitma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0028",
+      "cardId": "a1-finden",
+      "field": "study.translation",
+      "ownerNew": "leidma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0029",
+      "cardId": "a1-frau",
+      "field": "study.translation",
+      "ownerNew": "naine",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0030",
+      "cardId": "a1-fuer",
+      "field": "study.translation",
+      "ownerNew": "jaoks",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0031",
+      "cardId": "a1-ganz-study",
+      "field": "study.translation",
+      "ownerNew": "terve",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0032",
+      "cardId": "a1-geschichte-study",
+      "field": "study.translation",
+      "ownerNew": "lugu",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0033",
+      "cardId": "a1-gleich",
+      "field": "study.translation",
+      "ownerNew": "kohe",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0034",
+      "cardId": "a1-halten",
+      "field": "study.translation",
+      "ownerNew": "hoidma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0036",
+      "cardId": "a1-hoeren-study",
+      "field": "study.translation",
+      "ownerNew": "kuulma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0037",
+      "cardId": "a1-huebsch",
+      "field": "study.translation",
+      "ownerNew": "kena",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0038",
+      "cardId": "a1-ihr",
+      "field": "study.translation",
+      "ownerNew": "teie",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0039",
+      "cardId": "a1-im",
+      "field": "study.translation",
+      "ownerNew": "sees",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0040",
+      "cardId": "a1-in",
+      "field": "study.translation",
+      "ownerNew": "sees",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0041",
+      "cardId": "a1-ins",
+      "field": "study.translation",
+      "ownerNew": "sisse",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0042",
+      "cardId": "a1-jetzt-302",
+      "field": "lv",
+      "ownerNew": "nüüd",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0043",
+      "cardId": "a1-kein",
+      "field": "study.translation",
+      "ownerNew": "mitte ükski",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0044",
+      "cardId": "a1-können",
+      "field": "study.translation",
+      "ownerNew": "oskama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0045",
+      "cardId": "a1-land",
+      "field": "study.translation",
+      "ownerNew": "riik",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0046",
+      "cardId": "a1-lang",
+      "field": "study.translation",
+      "ownerNew": "pikk",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0047",
+      "cardId": "a1-lassen",
+      "field": "study.translation",
+      "ownerNew": "laskma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0048",
+      "cardId": "a1-laufen",
+      "field": "study.translation",
+      "ownerNew": "jooksma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0049",
+      "cardId": "a1-liegen",
+      "field": "study.translation",
+      "ownerNew": "asuma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0050",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "ownerNew": "vasakul",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0051",
+      "cardId": "a1-machen",
+      "field": "study.translation",
+      "ownerNew": "tegema",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0052",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "ownerNew": "maalima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0053",
+      "cardId": "a1-mann",
+      "field": "study.translation",
+      "ownerNew": "mees",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0054",
+      "cardId": "a1-nach",
+      "field": "study.translation",
+      "ownerNew": "pärast",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0055",
+      "cardId": "a1-natuerlich",
+      "field": "study.translation",
+      "ownerNew": "muidugi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0056",
+      "cardId": "a1-nehmen",
+      "field": "study.translation",
+      "ownerNew": "võtma",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0057",
+      "cardId": "a1-nur-study",
+      "field": "study.translation",
+      "ownerNew": "ainult",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0058",
+      "cardId": "a1-oder",
+      "field": "study.translation",
+      "ownerNew": "või",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0059",
+      "cardId": "a1-passen",
+      "field": "study.translation",
+      "ownerNew": "sobima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0060",
+      "cardId": "a1-probieren",
+      "field": "study.translation",
+      "ownerNew": "proovima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0061",
+      "cardId": "a1-rechts-491",
+      "field": "lv",
+      "ownerNew": "paremale",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0062",
+      "cardId": "a1-seite",
+      "field": "study.translation",
+      "ownerNew": "lehekülg",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0063",
+      "cardId": "a1-sich",
+      "field": "study.translation",
+      "ownerNew": "end",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0064",
+      "cardId": "a1-sicher",
+      "field": "study.translation",
+      "ownerNew": "kindel",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0065",
+      "cardId": "a1-sie-study",
+      "field": "study.translation",
+      "ownerNew": "nad",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0066",
+      "cardId": "a1-über",
+      "field": "study.translation",
+      "ownerNew": "kohal",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0067",
+      "cardId": "a1-um",
+      "field": "study.translation",
+      "ownerNew": "kell",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0068",
+      "cardId": "a1-vor",
+      "field": "study.translation",
+      "ownerNew": "enne",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0069",
+      "cardId": "a1-was",
+      "field": "study.translation",
+      "ownerNew": "mis",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0070",
+      "cardId": "a1-wenn",
+      "field": "study.translation",
+      "ownerNew": "kui",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0071",
+      "cardId": "a1-wie",
+      "field": "study.translation",
+      "ownerNew": "kuidas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0072",
+      "cardId": "a1-zu",
+      "field": "study.translation",
+      "ownerNew": "juurde",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0073",
+      "cardId": "a1-zum",
+      "field": "study.translation",
+      "ownerNew": "juurde",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0074",
+      "cardId": "a1-zeit",
+      "field": "study.translation",
+      "ownerNew": "aeg",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ET-A1-0075",
+      "cardId": "a1-einmal",
+      "field": "study.translation",
+      "ownerNew": "üks kord",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ET-A1-0015",
+      "cardId": "a1-an",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0016",
+      "cardId": "a1-aus",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0017",
+      "cardId": "a1-aufs",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0018",
+      "cardId": "a1-besuch",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0019",
+      "cardId": "a1-besuchen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0020",
+      "cardId": "a1-bringen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0021",
+      "cardId": "a1-ein",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0022",
+      "cardId": "a1-eis",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0023",
+      "cardId": "a1-erst",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0025",
+      "cardId": "a1-etwas",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0026",
+      "cardId": "a1-euch",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0027",
+      "cardId": "a1-fahren",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0028",
+      "cardId": "a1-finden",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0029",
+      "cardId": "a1-frau",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0030",
+      "cardId": "a1-fuer",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0031",
+      "cardId": "a1-ganz-study",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0032",
+      "cardId": "a1-geschichte-study",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0033",
+      "cardId": "a1-gleich",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0034",
+      "cardId": "a1-halten",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0036",
+      "cardId": "a1-hoeren-study",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0037",
+      "cardId": "a1-huebsch",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0038",
+      "cardId": "a1-ihr",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0039",
+      "cardId": "a1-im",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0040",
+      "cardId": "a1-in",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0041",
+      "cardId": "a1-ins",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0042",
+      "cardId": "a1-jetzt-302",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0043",
+      "cardId": "a1-kein",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0044",
+      "cardId": "a1-können",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0045",
+      "cardId": "a1-land",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0046",
+      "cardId": "a1-lang",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0047",
+      "cardId": "a1-lassen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0048",
+      "cardId": "a1-laufen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0049",
+      "cardId": "a1-liegen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0050",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0051",
+      "cardId": "a1-machen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0052",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0053",
+      "cardId": "a1-mann",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0054",
+      "cardId": "a1-nach",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0055",
+      "cardId": "a1-natuerlich",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0056",
+      "cardId": "a1-nehmen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0057",
+      "cardId": "a1-nur-study",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0058",
+      "cardId": "a1-oder",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0059",
+      "cardId": "a1-passen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0060",
+      "cardId": "a1-probieren",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0061",
+      "cardId": "a1-rechts-491",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0062",
+      "cardId": "a1-seite",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0063",
+      "cardId": "a1-sich",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0064",
+      "cardId": "a1-sicher",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0065",
+      "cardId": "a1-sie-study",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0066",
+      "cardId": "a1-über",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0067",
+      "cardId": "a1-um",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0068",
+      "cardId": "a1-vor",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0069",
+      "cardId": "a1-was",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0070",
+      "cardId": "a1-wenn",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0071",
+      "cardId": "a1-wie",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0072",
+      "cardId": "a1-zu",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0073",
+      "cardId": "a1-zum",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0074",
+      "cardId": "a1-zeit",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ET-A1-0075",
+      "cardId": "a1-einmal",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "requestedLabot": 59,
+    "appliedVerified": 59,
+    "alreadyMatched": 0,
+    "appliedTotal": 59,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "verificationFail": 0,
+    "deChanges": 0,
+    "reconciles": true,
+    "gitDiffPass": true,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "finalVerdict": "PASS"
+  }
+}
