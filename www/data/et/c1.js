@@ -27,12 +27,12 @@ const C1_WORDS = [
     "de": "Stellungnahme",
     "de_article": "die",
     "de_plural": "die Stellungnahmen",
-    "lv": "ametlik avaldus • seisukoha väljendamine",
+    "lv": "ametlik avaldus",
     "level": "C1"
   },
   {
     "de": "nachvollziehen",
-    "lv": "mõista • loogikat jälgida",
+    "lv": "mõista",
     "level": "C1"
   },
   {
@@ -44,7 +44,7 @@ const C1_WORDS = [
     "de": "Belastbarkeit",
     "de_article": "die",
     "de_plural": "die Belastbarkeiten",
-    "lv": "stressitaluvus • koormustaluvus",
+    "lv": "stressitaluvus",
     "level": "C1"
   },
   {
@@ -82,7 +82,7 @@ const C1_WORDS = [
   },
   {
     "de": "anfechten",
-    "lv": "vaidlustama • kahtluse alla seadma",
+    "lv": "vaidlustama",
     "level": "C1"
   },
   {
@@ -92,7 +92,7 @@ const C1_WORDS = [
   },
   {
     "de": "anderweitig",
-    "lv": "mujal • teisiti",
+    "lv": "mujal",
     "level": "C1"
   },
   {
@@ -120,12 +120,12 @@ const C1_WORDS = [
     "de": "Abart",
     "de_article": "die",
     "de_plural": "die Abarten",
-    "lv": "kõrvalekalle • aberratsioon",
+    "lv": "kõrvalekalle",
     "level": "C1"
   },
   {
     "de": "abstumpfen",
-    "lv": "nüristama • tundetuks tegema",
+    "lv": "nüristama",
     "level": "C1"
   },
   {
@@ -144,7 +144,7 @@ const C1_WORDS = [
   },
   {
     "de": "ächten",
-    "lv": "tõrjuma • sotsiaalselt tõrjuma",
+    "lv": "tõrjuma",
     "level": "C1"
   },
   {
@@ -878,7 +878,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "avalikkus • avalik ruum",
+      "translation": "avalikkus",
       "explanation": "Põhiidee: die Öffentlichkeit tähendab avalikkust kui avalikku ruumi või inimesi tervikuna. Väljendis an die Öffentlichkeit kommen tähendab see avalikuks saamist.",
       "examples": [
         {
@@ -1030,7 +1030,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "partei • pool",
+      "translation": "partei",
       "explanation": "Põhiidee: die Partei on tavaliselt poliitiline partei. Juriidilises või konfliktikeeles võib see tähendada ka poolt.",
       "examples": [
         {
@@ -1218,7 +1218,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "protsess • kohtuprotsess",
+      "translation": "protsess",
       "explanation": "Põhiidee: der Prozess on protsess või kulg. Kohtus tähendab der Prozess kohtuprotsessi.",
       "examples": [
         {
@@ -1592,7 +1592,7 @@ const C1_WORDS = [
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "ettevõte • ettevõtmine",
+    "lv": "ettevõte",
     "level": "C1"
   },
   {
@@ -1661,7 +1661,7 @@ const C1_WORDS = [
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "kimbatus • piinlik olukord",
+    "lv": "kimbatus",
     "level": "C1"
   },
   {
@@ -1744,7 +1744,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "kokku võtma • resümeerima",
+      "translation": "kokku võtma",
       "explanation": [
         "Põhiidee: zusammenfassen on tegusõna — koguda või koondada teave üheks lühikeseks ülevaateks.",
         "Sõna zusammenfassen kasutatakse, kui mitmest faktist, tekstist või mõttest luuakse lühike ülevaade.",
@@ -1959,7 +1959,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "valik • valimised",
+      "translation": "valik",
       "explanation": [
         "Põhiidee: die Wahl tähendab valikut kahe või enama võimaluse vahel.",
         "Poliitika kontekstis tähendab die Wahl valimisi või hääletamist ennast.",
@@ -2167,7 +2167,7 @@ const C1_WORDS = [
     "de": "Abgeordnete",
     "de_article": "der",
     "de_plural": "die Abgeordneten",
-    "lv": "saadik • esindaja • delegaat",
+    "lv": "saadik",
     "level": "C1"
   },
   {
@@ -2181,7 +2181,7 @@ const C1_WORDS = [
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "evakuatsiooniteenistus • pukseerimisteenistus",
+    "lv": "pukseerimisteenistus",
     "level": "C1"
   },
   {
@@ -2231,12 +2231,12 @@ const C1_WORDS = [
   },
   {
     "de": "beachtenswert",
-    "lv": "tähelepanuväärne • arvestamisväärne",
+    "lv": "tähelepanuväärne",
     "level": "C1"
   },
   {
     "de": "beanspruchen",
-    "lv": "nõudma • pretendeerima • koormatud olema",
+    "lv": "nõudma",
     "level": "C1"
   },
   {
@@ -2255,22 +2255,22 @@ const C1_WORDS = [
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "erapoolikus • kallutatus",
+    "lv": "erapoolikus",
     "level": "C1"
   },
   {
     "de": "beglaubigen",
-    "lv": "ametlikult kinnitama • notariaalselt tõestama",
+    "lv": "ametlikult kinnitama",
     "level": "C1"
   },
   {
     "de": "beglückwünschen",
-    "lv": "õnne soovima • õnnitlema",
+    "lv": "õnne soovima",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "kahepoolne • vastastikune",
+    "lv": "kahepoolne",
     "level": "C1"
   },
   {
@@ -2287,7 +2287,7 @@ const C1_WORDS = [
   },
   {
     "de": "beklagen",
-    "lv": "kahetsema • kurvastama • leinama • kaebama",
+    "lv": "kahetsema",
     "level": "C1"
   },
   {
@@ -2301,7 +2301,7 @@ const C1_WORDS = [
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "kollektiiv • personal",
+    "lv": "kollektiiv",
     "level": "C1"
   },
   {
@@ -2330,7 +2330,7 @@ const C1_WORDS = [
   },
   {
     "de": "bereitwillig",
-    "lv": "vastutulelik • meelsasti nõus",
+    "lv": "vastutulelik",
     "level": "C1"
   },
   {
@@ -2351,7 +2351,7 @@ const C1_WORDS = [
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "kutsumus • kalduvus • apellatsioon",
+    "lv": "kutsumus",
     "level": "C1"
   },
   {
@@ -2365,24 +2365,24 @@ const C1_WORDS = [
     "de": "Beschaffenheit",
     "de_article": "die",
     "de_plural": "die Beschaffenheiten",
-    "lv": "omadus • olemus",
+    "lv": "omadus",
     "level": "C1"
   },
   {
     "de": "bescheinigen",
-    "lv": "kinnitama • tõendit väljastama",
+    "lv": "kinnitama",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "tõend • tunnistus • kinnitus",
+    "lv": "tõend",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "arestima • konfiskeerima • võõrandama",
+    "lv": "arestima",
     "level": "C1"
   },
   {
@@ -2399,13 +2399,13 @@ const C1_WORDS = [
   },
   {
     "de": "beträchtlich",
-    "lv": "märkimisväärne • üsna suur",
+    "lv": "märkimisväärne",
     "level": "C1"
   },
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "tegevuskulud • käituskulud",
+    "lv": "tegevuskulud",
     "level": "C1"
   },
   {
@@ -2422,12 +2422,12 @@ const C1_WORDS = [
   },
   {
     "de": "bevorstehend",
-    "lv": "eesseisev • järgmine",
+    "lv": "eesseisev",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "end tõestama • õigustatuks osutuma",
+    "lv": "end tõestama",
     "level": "C1"
   },
   {
@@ -2439,14 +2439,14 @@ const C1_WORDS = [
   },
   {
     "de": "bewerben, sich",
-    "lv": "kandideerima • avaldust esitama",
+    "lv": "kandideerima",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "kontaktisik • lähedane inimene",
+    "lv": "kontaktisik",
     "level": "C1"
   },
   {
@@ -2527,12 +2527,12 @@ const C1_WORDS = [
   },
   {
     "de": "dauerhaft",
-    "lv": "püsiv • pikaajaline • vastupidav",
+    "lv": "püsiv",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "vahele tulema • sekkuma",
+    "lv": "vahele tulema",
     "level": "C1"
   },
   {
@@ -2663,7 +2663,7 @@ const C1_WORDS = [
   },
   {
     "de": "ehrenhaft",
-    "lv": "aus • auväärne • lugupeetav",
+    "lv": "aus",
     "level": "C1"
   },
   {
@@ -2696,12 +2696,12 @@ const C1_WORDS = [
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "sissemakse • hoius • kirja lisa",
+    "lv": "sissemakse",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "sisendama • veenda püüdma",
+    "lv": "sisendama",
     "level": "C1"
   },
   {
@@ -2720,7 +2720,7 @@ const C1_WORDS = [
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "vastuväiteõigus • vetoõigus",
+    "lv": "vastuväiteõigus",
     "level": "C1"
   },
   {
@@ -2734,7 +2734,7 @@ const C1_WORDS = [
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "üksmeel • kokkulepe • nõusolek",
+    "lv": "üksmeel",
     "level": "C1"
   },
   {
@@ -2798,7 +2798,7 @@ const C1_WORDS = [
   },
   {
     "de": "entschädigen",
-    "lv": "hüvitama • kompenseerima",
+    "lv": "hüvitama",
     "level": "C1"
   },
   {
@@ -2808,7 +2808,7 @@ const C1_WORDS = [
   },
   {
     "de": "entschlossen",
-    "lv": "otsustav • kindlameelne",
+    "lv": "otsustav",
     "level": "C1"
   },
   {
@@ -2854,7 +2854,7 @@ const C1_WORDS = [
     "de": "Ersatzspieler",
     "de_article": "der",
     "de_plural": "die Ersatzspieler",
-    "lv": "reservväelane • reservmängija",
+    "lv": "reservväelane",
     "level": "C1"
   },
   {
@@ -3004,7 +3004,7 @@ const C1_WORDS = [
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "külmumispunkt • nullpunkt",
+    "lv": "külmumispunkt",
     "level": "C1"
   },
   {
@@ -3071,7 +3071,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "aeg-ajalt • juhuslik",
+      "translation": "aeg-ajalt",
       "explanation": "Põhiidee: gelegentlich on kolme funktsiooniga sõna. Omadussõna: juhuslik (ein gelegentlicher Besuch). Määrsõna: aeg-ajalt (Er kommt gelegentlich). Eessõna + genitiiv: seoses (gelegentlich des Festes).",
       "examples": [
         {
@@ -3227,12 +3227,12 @@ const C1_WORDS = [
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "harjumus • komme",
+    "lv": "harjumus",
     "level": "C1"
   },
   {
     "de": "geradebiegen",
-    "lv": "sirgeks ajama • parandama",
+    "lv": "sirgeks ajama",
     "level": "C1"
   },
   {
@@ -3246,12 +3246,12 @@ const C1_WORDS = [
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "kohtukoda • tribunal",
+    "lv": "kohtukoda",
     "level": "C1"
   },
   {
     "de": "geringschätzig",
-    "lv": "põlglik • halvustav",
+    "lv": "põlglik",
     "level": "C1"
   },
   {
@@ -3313,7 +3313,7 @@ const C1_WORDS = [
   },
   {
     "de": "gesetzmäßig",
-    "lv": "seaduslik • seaduspärane",
+    "lv": "seaduslik",
     "level": "C1"
   },
   {
@@ -3325,7 +3325,7 @@ const C1_WORDS = [
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "silmaring • horisont",
+    "lv": "silmaring",
     "level": "C1"
   },
   {
@@ -3343,12 +3343,12 @@ const C1_WORDS = [
   },
   {
     "de": "gewissermaßen",
-    "lv": "teataval määral • teatud mõttes • nii-öelda",
+    "lv": "teataval määral",
     "level": "C1"
   },
   {
     "de": "glaubhaft",
-    "lv": "usutav • veenev",
+    "lv": "usutav",
     "level": "C1"
   },
   {
@@ -3387,7 +3387,7 @@ const C1_WORDS = [
   {
     "de": "Haft",
     "de_article": "die",
-    "lv": "vahi all olek • arest",
+    "lv": "vahi all olek",
     "level": "C1"
   },
   {
@@ -3399,7 +3399,7 @@ const C1_WORDS = [
   },
   {
     "de": "haften",
-    "lv": "kinni jääma • küljes olema",
+    "lv": "kinni jääma",
     "level": "C1"
   },
   {
@@ -3474,12 +3474,12 @@ const C1_WORDS = [
     "de": "Herrschaft",
     "de_article": "die",
     "de_plural": "die Herrschaften",
-    "lv": "valitsemine • võim",
+    "lv": "valitsemine",
     "level": "C1"
   },
   {
     "de": "herunterkommen",
-    "lv": "alla käima • viletsaks jääma",
+    "lv": "alla käima",
     "level": "C1"
   },
   {
@@ -3539,13 +3539,13 @@ const C1_WORDS = [
   },
   {
     "de": "interpretieren",
-    "lv": "tõlgendama • selgitama",
+    "lv": "tõlgendama",
     "level": "C1"
   },
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "õigusemõistmine • justiitssüsteem",
+    "lv": "õigusemõistmine",
     "level": "C1"
   },
   {
@@ -3566,7 +3566,7 @@ const C1_WORDS = [
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "tagatis • kautsjon",
+    "lv": "tagatis",
     "level": "C1"
   },
   {
@@ -3625,7 +3625,7 @@ const C1_WORDS = [
   },
   {
     "de": "lebensgefährlich",
-    "lv": "eluohtlik • ohtlik",
+    "lv": "eluohtlik",
     "level": "C1"
   },
   {
@@ -3734,12 +3734,12 @@ const C1_WORDS = [
     "de": "Nachschlagewerk",
     "de_article": "das",
     "de_plural": "die Nachschlagewerke",
-    "lv": "teatmeteos • sõnaraamat • entsüklopeedia",
+    "lv": "teatmeteos",
     "level": "C1"
   },
   {
     "de": "namhaft",
-    "lv": "kuulus • silmapaistev",
+    "lv": "kuulus",
     "level": "C1"
   },
   {
@@ -3751,7 +3751,7 @@ const C1_WORDS = [
   },
   {
     "de": "niedergeschlagen",
-    "lv": "masendunud • depressioonis",
+    "lv": "masendunud",
     "level": "C1"
   },
   {
@@ -3860,7 +3860,7 @@ const C1_WORDS = [
   },
   {
     "de": "rätselhaft",
-    "lv": "salapärane • arusaamatu",
+    "lv": "salapärane",
     "level": "C1"
   },
   {
@@ -3873,7 +3873,7 @@ const C1_WORDS = [
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "aruandekohustus • vastutus",
+    "lv": "aruandekohustus",
     "level": "C1"
   },
   {
@@ -3892,7 +3892,7 @@ const C1_WORDS = [
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "peaminister • valitsusjuht",
+    "lv": "peaminister",
     "level": "C1"
   },
   {
@@ -4035,7 +4035,7 @@ const C1_WORDS = [
     "de": "Krisensituation",
     "de_article": "die",
     "de_plural": "die Krisensituationen",
-    "lv": "kriisiolukord • kriis",
+    "lv": "kriisiolukord",
     "level": "C1"
   },
   {
@@ -4056,7 +4056,7 @@ const C1_WORDS = [
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "rekord • tippsaavutus • maksimaalne võimsus",
+    "lv": "rekord",
     "level": "C1"
   },
   {
@@ -4118,7 +4118,7 @@ const C1_WORDS = [
   },
   {
     "de": "überanstrengen",
-    "lv": "üle koormama • end üle pingutama",
+    "lv": "üle koormama",
     "level": "C1"
   },
   {
@@ -4137,14 +4137,14 @@ const C1_WORDS = [
   },
   {
     "de": "übereinstimmen",
-    "lv": "kokku sobima • kellegagi ühel meelel olema",
+    "lv": "kokku sobima",
     "level": "C1"
   },
   {
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "jääk • ülejääk",
+    "lv": "jääk",
     "level": "C1"
   },
   {
@@ -4158,7 +4158,7 @@ const C1_WORDS = [
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "ebameeldivused • ebameeldiv juhtum",
+    "lv": "ebameeldivused",
     "level": "C1"
   },
   {
@@ -4180,12 +4180,12 @@ const C1_WORDS = [
   },
   {
     "de": "urteilen",
-    "lv": "otsustama • hinnangut andma",
+    "lv": "otsustama",
     "level": "C1"
   },
   {
     "de": "verabschieden",
-    "lv": "töölt vabastama • pensionile saatma",
+    "lv": "töölt vabastama",
     "level": "C1"
   },
   {
@@ -4195,12 +4195,12 @@ const C1_WORDS = [
   },
   {
     "de": "veranschlagen",
-    "lv": "arvestama • kalkuleerima • eelarvet koostama",
+    "lv": "arvestama",
     "level": "C1"
   },
   {
     "de": "verdrießlich",
-    "lv": "ebameeldiv • tusane",
+    "lv": "ebameeldiv",
     "level": "C1"
   },
   {
@@ -4231,7 +4231,7 @@ const C1_WORDS = [
     "de": "Vergünstigung",
     "de_article": "die",
     "de_plural": "die Vergünstigungen",
-    "lv": "eelis • privileeg • soodustus",
+    "lv": "eelis",
     "level": "C1"
   },
   {
@@ -4253,7 +4253,7 @@ const C1_WORDS = [
   },
   {
     "de": "verheimlichen",
-    "lv": "varjama • salajas hoidma",
+    "lv": "varjama",
     "level": "C1"
   },
   {
@@ -4305,17 +4305,17 @@ const C1_WORDS = [
   },
   {
     "de": "sich verschließen",
-    "lv": "endasse tõmbuma • end isoleerima",
+    "lv": "endasse tõmbuma",
     "level": "C1"
   },
   {
     "de": "verschlossen",
-    "lv": "lukustatud • suletud • endassetõmbunud",
+    "lv": "lukustatud",
     "level": "C1"
   },
   {
     "de": "verschlüsseln",
-    "lv": "krüpteerima • kodeerima",
+    "lv": "krüpteerima",
     "level": "C1"
   },
   {
@@ -4325,12 +4325,12 @@ const C1_WORDS = [
   },
   {
     "de": "verschweigen",
-    "lv": "maha vaikima • mitte avaldama",
+    "lv": "maha vaikima",
     "level": "C1"
   },
   {
     "de": "verständigen",
-    "lv": "informeerima • teatama",
+    "lv": "informeerima",
     "level": "C1"
   },
   {
@@ -4371,7 +4371,7 @@ const C1_WORDS = [
   },
   {
     "de": "vervollkommnen",
-    "lv": "täiendama • täiustama",
+    "lv": "täiendama",
     "level": "C1"
   },
   {
@@ -4381,14 +4381,14 @@ const C1_WORDS = [
   },
   {
     "de": "verwirklichen",
-    "lv": "realiseerima • ellu viima",
+    "lv": "realiseerima",
     "level": "C1"
   },
   {
     "de": "Volksabstimmung",
     "de_article": "die",
     "de_plural": "die Volksabstimmungen",
-    "lv": "rahvahääletus • plebistsiit",
+    "lv": "rahvahääletus",
     "level": "C1"
   },
   {
@@ -4402,12 +4402,12 @@ const C1_WORDS = [
     "de": "Vollversammlung",
     "de_article": "die",
     "de_plural": "die Vollversammlungen",
-    "lv": "pleenum • üldkoosolek • peaassamblee",
+    "lv": "pleenum",
     "level": "C1"
   },
   {
     "de": "voreingenommen",
-    "lv": "eelarvamuslik • erapoolik",
+    "lv": "eelarvamuslik",
     "level": "C1"
   },
   {
@@ -4522,7 +4522,7 @@ const C1_WORDS = [
   },
   {
     "de": "wahrhaft",
-    "lv": "tõesti • tõepoolest",
+    "lv": "tõesti",
     "level": "C1"
   },
   {
@@ -4592,12 +4592,12 @@ const C1_WORDS = [
   },
   {
     "de": "wiederherstellen",
-    "lv": "taastama • restaureerima",
+    "lv": "taastama",
     "level": "C1"
   },
   {
     "de": "zusammenfallen",
-    "lv": "kokku langema • kokku sattuma",
+    "lv": "kokku langema",
     "level": "C1"
   },
   {
@@ -4614,7 +4614,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "lisatasu • hinnalisa",
+      "translation": "lisatasu",
       "explanation": [
         "Põhiidee: der Zuschlag tähendab lisatasu või hinnalisa — täiendavat summat, mis lisatakse põhihinnale.",
         "Reisi/transpordi kontekstis on der Zuschlag lisatasu kiirema rongi, parema koha jms eest.",
@@ -4767,7 +4767,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "saama (nt pensioni) • millelegi viitama / millegi kohta käima",
+      "translation": "saama (nt pensioni)",
       "explanation": [
         "Põhiidee: Formaalne register: seostada allikaga, regulaarse pensioni/palga saamisega või korterisse sisseelamisega.",
         "Näidetes otsi tüüpilist igapäevast kasutust.",
@@ -4842,7 +4842,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-beabsichtigen",
       "layout": "standardStudy",
-      "translation": "kavatsema • plaanima",
+      "translation": "kavatsema",
       "explanation": [
         "Põhiidee: Teadlik kavatsus teha tegevus tulevikus. Ei käi suhte, vaid plaani kohta.",
         "beabsichtigen tähendab peamiselt: teadlik kavatsus.",
@@ -4993,7 +4993,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-unterstellen",
       "layout": "standardStudy",
-      "translation": "ette heitma • alusetult omistama",
+      "translation": "alusetult omistama",
       "explanation": [
         "Põhiidee: Alusetult omistada kellelegi süü, motiiv või kavatsus.",
         "unterstellen tähendab peamiselt: alusetult omistama.",
@@ -5221,7 +5221,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-bewahren",
       "layout": "standardStudy",
-      "translation": "hoidma • säilitama",
+      "translation": "hoidma",
       "explanation": [
         "Põhiidee: Kaitsta kaotuse, kahjustuse või hävimise eest — väärtust, traditsiooni, rahu.",
         "bewahren tähendab peamiselt: kaitsma kaotuse eest.",
@@ -5469,7 +5469,7 @@ const C1_WORDS = [
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "pori • lörts",
+    "lv": "pori",
     "level": "C1"
   },
   {
