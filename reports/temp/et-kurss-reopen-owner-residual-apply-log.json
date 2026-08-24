@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-08-24T09:36:55.174Z",
+  "requestedLabot": 1,
+  "appliedVerified": 1,
+  "currentValueMismatch": 0,
+  "ownerNewMismatch": 0,
+  "missingPath": 0,
+  "deChanges": 0,
+  "unexpectedChanges": 0,
+  "log": [
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-RESIDUAL-001",
+      "status": "APPLIED",
+      "previous": "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.",
+      "current": "Ich gieße das Wasser in den Krug. — Ma valan vee kannu.",
+      "path": "kurssLesson18.sections[title=Grammatika].blocks[heading=Kindel aine].examples[0]"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "generatedAt": "2026-08-24T09:02:58.765Z",
+  "totalRows": 310,
+  "lessonsApplied": 22,
+  "lessonsSkipped": 288,
+  "applied": [
+    {
+      "id": "ET-KURSS-0027",
+      "current": "hier (hīr) — siin",
+      "approved": "hier (hiir) — siin",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0063",
+      "current": "Piemēri",
+      "approved": "Näited",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0203",
+      "current": "Vārdā “wir” burts i tiek izrunāts gari.",
+      "approved": "Sõnas „wir“ hääldatakse i-d pikalt.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0204",
+      "current": "Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.",
+      "approved": "Sõnade õige hääldus, mis on märgitud eesti tähtedega, on õppetundides ära toodud.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0205",
+      "current": "Vārdos ich, nicht, rechnen, zeichnen skaņu ch izrunā mīksti, apmēram tā, kā latviski vārdos: technika, Frīdrihs.",
+      "approved": "Sõnades ich, nicht, rechnen ja zeichnen hääldatakse häälikut ch pehmelt, umbes nagu eesti sõnades „tehnika“ ja „Friedrich“.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0206",
+      "current": "Īpašības un apstākļu vārdos galotne -ja määrsõnades kõlab lõpp -ig kui kerge -ich: niedrig (niidrih).",
+      "approved": "Omadus- ja määrsõnades kõlab lõpp -ig nagu kerge -ich: niedrig (niidrih).",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0207",
+      "current": "Ar wer? jautā pēc personām.",
+      "approved": "Wer? küsib inimeste kohta.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0208",
+      "current": "h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.",
+      "approved": "h võib saksa keeles olla nii häälik kui ka eelneva vokaali pikkuse märk.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0209",
+      "current": "Lietvārdi ar galotni -chen ja -lein on kesksoost: das Mädchen.",
+      "approved": "Lõppudega -chen ja -lein nimisõnad on kesks soost: das Mädchen.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0210",
+      "current": "tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).",
+      "approved": "tz on kahekordne z-häälik ja seda hääldatakse nagu z-i: sitzen (zicen).",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0211",
+      "current": "Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.",
+      "approved": "Saksa keeles on nominatiivis inimeste kohta küsimus wer? ja esemete kohta was?.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0213",
+      "current": "ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.",
+      "approved": "ä on vokaali a muutunud variant ning seda hääldatakse lühikese või pika kitsa e-na.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0214",
+      "current": "Salikta darbības vārda uzsvērtais priedēklis tagadnē atdalās no darbības vārda un stāv teikuma beigās.",
+      "approved": "Liitverbi rõhuline eesliide eraldub olevikus verbist ja paikneb lause lõpus.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0215",
+      "current": "sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).",
+      "approved": "Sõna või silbi alguses hääldatakse sp nagu šp: der Spiegel (dēr špīgel).",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0216",
+      "current": "Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -st, millele lisatakse lõpp -e.",
+      "approved": "Ainsuse 2. isiku käskiv kõneviis vastab verbi ainsuse 2. isikule ilma isikulõputa -st, millele lisatakse lõpp -e.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0232",
+      "current": "Imperativ",
+      "approved": "Käskiv kõneviis",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0238",
+      "current": "Superlativ",
+      "approved": "Ülivõrre",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0242",
+      "current": "jedes — iga (kesksugu)",
+      "approved": "jedes — iga (kesksugu)",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0245",
+      "current": "Gramatika",
+      "approved": "Grammatika",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0252",
+      "current": "Gramatika",
+      "approved": "Grammatika",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0308",
+      "current": "lugema",
+      "approved": "loendama",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ET-KURSS-0316",
+      "current": "Übung / Harjutus",
+      "approved": "Harjutus",
+      "status": "APPLIED"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "ET-KURSS-0306",
+      "current": "Kas õpilane (naine) vastab halvasti?",
+      "approved": "Kas naisõpilane vastab halvasti?",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0307",
+      "current": "Ei, õpilane (naine) ei vasta halvasti, tema vastab hästi.",
+      "approved": "Ei, naisõpilane ei vasta halvasti, tema vastab hästi.",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0309",
+      "current": "Tagasi peamisele ekraanile",
+      "approved": "Tagasi põhiekraanile",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0310",
+      "current": "Saksa keele häälte ja häälduse alused.",
+      "approved": "Saksa keele häälikute ja häälduse alused.",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0311",
+      "current": "Der, die, das ja kasutamise alused.",
+      "approved": "Der, die, das ja nende kasutamise alused.",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0312",
+      "current": "Õppetunnid järjestuses 1 kuni 21.",
+      "approved": "Õppetunnid järjekorras 1–21.",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0313",
+      "current": "Der, die, das ja kasutamise alused.",
+      "approved": "Der, die, das ja nende kasutamise alused.",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0314",
+      "current": "Saksa keele häälte ja häälduse alused",
+      "approved": "Saksa keele häälikute ja häälduse alused",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0315",
+      "current": "Õppetunnid järjestuses 1 kuni 21.",
+      "approved": "Õppetunnid järjekorras 1–21.",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0318",
+      "current": "Muuda lause 3. isikus ainsuses.",
+      "approved": "Muuda lauset 3. isikus ainsuses.",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0319",
+      "current": "Muuda lause 1. isikus mitmuses.",
+      "approved": "Muuda lauset 1. isikus mitmuses.",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0321",
+      "current": "Pane õige kääne ja tee mitmus!",
+      "approved": "Vali õige kääne ja moodusta mitmus!",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0322",
+      "current": "Übung II — tõlgi",
+      "approved": "Harjutus II — tõlgi",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "ET-KURSS-0323",
+      "current": "Dativ, geben, sich nähern.",
+      "approved": "Daativ, geben, sich nähern.",
+      "status": "NOT_FOUND"
+    }
+  ],
+  "uiApplied": [],
+  "trainingApplied": []
+}

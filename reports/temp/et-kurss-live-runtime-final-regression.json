@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-08-24T09:57:55.847Z",
+  "gitHead": "ec299dfe",
+  "verdict": "ET_KURSS_LIVE_RUNTIME_REOPEN_REPAIR_PASS",
+  "contentRepair": {
+    "requested": 25,
+    "appliedOwnerGranular": 11,
+    "verified": 25,
+    "needsOwnerDecision": 0,
+    "currentValueMismatch": 0,
+    "ownerNewMismatch": 0,
+    "missingPath": 0
+  },
+  "sharedRendererRepair": {
+    "result": "PASS",
+    "l18ExerciseDeckLen": 8,
+    "l18TranslateDeckLen": 18,
+    "globalRuntimeFailures": 0,
+    "browserL18": "PASS (exerciseDeckLen=32 runtime, translateDeckLen=18, cards populated)"
+  },
+  "knownReopenContentDefects": 0,
+  "gates": {
+    "DE_CHANGES": 0,
+    "MIRROR_ET": "PASS",
+    "MIRROR_UI": "PASS",
+    "UI_RENDERER_FIX": "PASS",
+    "VALIDATE_KURSS": "PASS",
+    "SHARED_DYNAMIC_CARD_RENDER": "PASS",
+    "STRUCTURE": "PASS",
+    "SYNTAX": "PASS",
+    "ID_ORDER": "PASS",
+    "LV_UNCHANGED": "PASS"
+  },
+  "remainingOwnerDecisions": []
+}

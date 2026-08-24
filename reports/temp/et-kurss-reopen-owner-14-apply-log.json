@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-08-24T09:23:08.026Z",
+  "requested": 14,
+  "applied": 14,
+  "verified": 14,
+  "currentValueMismatch": 0,
+  "missingPath": 0,
+  "log": [
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-001",
+      "status": "APPLIED",
+      "previous": "Ich will vorwärts kommen. — Es gribu tikt uz priekšu.",
+      "current": "Ich will vorwärts kommen. — Es gribu tikt uz priekšu.",
+      "new": "Ich will vorwärts kommen. — Ma tahan edasi jõuda."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-002",
+      "status": "APPLIED",
+      "previous": "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
+      "current": "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
+      "new": "Ich mag die Suppe nicht essen. — Ma ei taha suppi süüa."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-003",
+      "status": "APPLIED",
+      "previous": "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm.",
+      "current": "Ich schneide den Apfel entzwei. — Es pārgriežu ābolu uz pusēm.",
+      "new": "Ich schneide den Apfel entzwei. — Ma lõikan õuna pooleks."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-004",
+      "status": "APPLIED",
+      "previous": "die Wälder: ä izrunā kā šaurais īsais e.",
+      "current": "die Wälder: ä izrunā kā šaurais īsais e.",
+      "new": "die Wälder: ä hääldatakse lühikese e-häälikuna."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-005",
+      "status": "APPLIED",
+      "previous": "die Bäuerinnen: äu izrunā kā oi.",
+      "current": "die Bäuerinnen: äu izrunā kā oi.",
+      "new": "die Bäuerinnen: äu hääldatakse nagu oi."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-006",
+      "status": "APPLIED",
+      "previous": "Ich gehe an den Tisch. — Es eju pie galda.",
+      "current": "Ich gehe an den Tisch. — Es eju pie galda.",
+      "new": "Ich gehe an den Tisch. — Ma lähen laua juurde."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-007",
+      "status": "APPLIED",
+      "previous": "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
+      "current": "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
+      "new": "Ich stelle den Korb auf die Bank. — Ma panen korvi pingile."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-008",
+      "status": "APPLIED",
+      "previous": "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
+      "current": "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
+      "new": "Ich lege die Äpfel in das Körbchen. — Ma panen õunad korvikesse."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-009",
+      "status": "APPLIED",
+      "previous": "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.",
+      "current": "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.",
+      "new": "Ich gieße das Wasser in den Krug. — Ma valan vee kannu."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-010",
+      "status": "APPLIED",
+      "previous": "Ich stehe an dem Tische. — Es stāvu pie galda.",
+      "current": "Ich stehe an dem Tische. — Es stāvu pie galda.",
+      "new": "Ich stehe an dem Tische. — Ma seisan laua juures."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-011",
+      "status": "APPLIED",
+      "previous": "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
+      "current": "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
+      "new": "Der Korb steht auf der Bank. — Korv seisab pingil."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-012",
+      "status": "APPLIED",
+      "previous": "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
+      "current": "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
+      "new": "Die Äpfel sind in dem Körbchen. — Õunad on korvikeses."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-013",
+      "status": "APPLIED",
+      "previous": "Das Wasser ist in dem Kruge. — Ūdens ir krūzē.",
+      "current": "Das Wasser ist in dem Kruge. — Ūdens ir krūzē.",
+      "new": "Das Wasser ist in dem Kruge. — Vesi on kannus."
+    },
+    {
+      "id": "ET-KURSS-REOPEN-OWNER-014",
+      "status": "APPLIED",
+      "previous": "Ich trinke Milch. — Es dzeru pienu.",
+      "current": "Ich trinke Milch. — Es dzeru pienu.",
+      "new": "Ich trinke Milch. — Ma joon piima."
+    }
+  ]
+}
