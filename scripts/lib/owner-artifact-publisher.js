@@ -13,6 +13,26 @@ const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 
 /** @type {Record<string, import('./owner-artifact-publisher.types')>} */
 const SCOPE_REGISTRY = {
+  "et-b2": {
+    scope: "et-b2",
+    builders: ["build-et-b2-owner-review.js", "build-et-b2-github-index.js"],
+    viewPath: "reports/et-b2-owner-view.md",
+    decisionsPath: "reports/et-b2-owner-decisions.md",
+    githubPath: "reports/et-b2-owner-review-GITHUB.md",
+    readmePath: "reports/et-b2-owner-review-README.md",
+    auditReportPath: "reports/et-b2-full-audit.md",
+    auditJsonPath: "reports/et-b2-full-audit.json",
+    viewHeadingRegex: /^## (ET-B2-\d+)/gm,
+    decisionRowPrefix: "| ET-B2-",
+    commitPaths: [
+      "reports/et-b2-owner-view.md",
+      "reports/et-b2-owner-decisions.md",
+      "reports/et-b2-owner-review-GITHUB.md",
+      "reports/et-b2-owner-review-README.md",
+      "reports/et-b2-owner-view-group*.md",
+      "reports/et-b2-owner-decisions-group*.md",
+    ],
+  },
   "et-a2": {
     scope: "et-a2",
     builders: ["build-et-a2-owner-review.js"],
