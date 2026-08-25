@@ -1,6 +1,6 @@
 # ES–DE A1+A2 — OWNER closure regression
 
-**HEAD:** `d8a1ec84ad5db1c23c1625c621aa5f5342c1b16e`
+**HEAD:** `6a03418760c281e799b34a4eebb8a8d058f2a589`
 **DE:** STRICT READ-ONLY
 
 ## Kopsavilkums
@@ -12,6 +12,8 @@
 | **APPLIED_VERIFIED** | **1208** |
 | NOT_APPLIED | **0** |
 | CARD_NOT_FOUND | **0** |
-| Deterministiskie atradumi | **N/A** |
+| Deterministiskie LV atlikumi | **573** |
+| Trūkstošie A1 Study | **0** |
+| Mirror | **true** |
 
 ## FINAL VERDICT: **PASS — ALL 1208 OWNER TARGETS APPLIED**

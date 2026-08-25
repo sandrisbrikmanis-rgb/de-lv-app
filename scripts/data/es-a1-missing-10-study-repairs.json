@@ -1,0 +1,921 @@
+[
+  {
+    "de": "Besuch",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "visita",
+      "explanation": [
+        "Idea principal: der Besuch significa una visita a un lugar, a un evento o a una persona.",
+        "Besuch nombra la visita como hecho o acontecimiento, no a la persona que visita.",
+        "También puede referirse a una visita médica.",
+        "El plural es die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "La visita al museo fue interesante."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Gracias por tu visita."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "El médico hace una visita."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "visita",
+          "example": "Danke für deinen Besuch. – Gracias por tu visita."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "visitante",
+          "example": "Der Besucher wartet draußen. – El visitante espera fuera."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "visitar",
+          "example": "Ich besuche meine Großeltern. – Visito a mis abuelos."
+        }
+      ],
+      "tip": {
+        "text": "Recuerda: Besuch es la visita; Besucher es la persona que visita."
+      },
+      "important": [
+        "der Besuch puede ser una visita social, una visita a un lugar o una visita médica.",
+        "Plural: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "visita",
+            "visita médica"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visita"
+              ],
+              "green": [
+                "museo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "visita"
+              ],
+              "green": [
+                "médico"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "visita"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "visitante"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "visitar"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "visita"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "visita",
+              "visita médica"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "besuchen",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "visitar",
+      "explanation": [
+        "Idea principal: besuchen significa visitar a una persona, un lugar o un evento.",
+        "En alemán, besuchen se usa sin preposición y rige acusativo.",
+        "En español se usa visitar un lugar, pero visitar a una persona.",
+        "Según el contexto, para un curso o una escuela también puede equivaler a asistir a."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Visito el museo."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Asistimos a un curso de alemán."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Visito a mis abuelos."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "visitar • asistir a",
+          "example": "Ich besuche meine Großeltern. – Visito a mis abuelos."
+        },
+        {
+          "word": "treffen",
+          "meaning": "encontrarse con • quedar con",
+          "example": "Ich treffe meinen Freund. – Me encuentro con mi amigo."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "ir a casa de alguien",
+          "example": "Ich gehe zu meinem Freund. – Voy a casa de mi amigo."
+        }
+      ],
+      "tip": {
+        "text": "Recuerda: besuchen no lleva preposición en alemán; la persona o el lugar va en acusativo."
+      },
+      "important": [
+        "Ich besuche meine Freundin, no ich besuche zu meiner Freundin.",
+        "En español, delante de una persona normalmente se usa la a personal: Visito a mi amiga."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "visitar",
+            "asistir a"
+          ],
+          "green": [
+            "persona",
+            "lugar",
+            "evento"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Visito"
+              ],
+              "green": [
+                "museo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Asistimos"
+              ],
+              "green": [
+                "curso de alemán"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Visito"
+              ],
+              "green": [
+                "abuelos"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "visitar",
+                "asistir a"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "Visito"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "encontrarse con",
+                "quedar con"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "ir a casa de alguien"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "sin preposición"
+            ],
+            "green": [
+              "acusativo"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuche"
+            ],
+            "purple": [
+              "no",
+              "zu"
+            ]
+          },
+          {
+            "green": [
+              "persona"
+            ],
+            "purple": [
+              "a personal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "de": "Fußball",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "fútbol • balón de fútbol",
+      "explanation": [
+        "Idea principal: Fußball normalmente significa fútbol como deporte.",
+        "Con artículo y en uso contable, der Fußball también puede significar un balón de fútbol.",
+        "El plural die Fußbälle significa balones de fútbol, no varios deportes."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Juego al fútbol."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "El balón de fútbol está en el jardín."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "Compramos dos balones de fútbol."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "fútbol como deporte",
+          "example": "Ich spiele Fußball. – Juego al fútbol."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "balón de fútbol",
+          "example": "Der Fußball ist neu. – El balón de fútbol es nuevo."
+        }
+      ],
+      "tip": [
+        "Sin artículo, Fußball en spielen Fußball normalmente se refiere al deporte.",
+        "En uso contable, ein Fußball y die Fußbälle significan un balón y varios balones de fútbol."
+      ],
+      "important": [
+        "die Fußbälle significa balones de fútbol.",
+        "El deporte Fußball normalmente se usa en singular."
+      ]
+    }
+  },
+  {
+    "de": "ganz",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "entero • todo • completamente • bastante",
+      "explanation": [
+        "Idea principal: ganz delante de un sustantivo significa entero o todo.",
+        "Delante de un adjetivo o adverbio, ganz puede significar completamente o bastante.",
+        "ganz no es lo mismo que el pronombre alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Trabajo todo el día."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Toda la casa está limpia."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "Eso es completamente seguro."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "La comida está bastante bien."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "entero • todo • completamente • bastante",
+          "example": "der ganze Tag – todo el día"
+        },
+        {
+          "word": "alles",
+          "meaning": "todo como pronombre",
+          "example": "Alles ist gut. – Todo está bien."
+        }
+      ],
+      "tip": [
+        "Delante de un sustantivo, ganz suele significar entero o todo.",
+        "Delante de un adjetivo, ganz suele significar completamente o bastante."
+      ],
+      "important": [
+        "der ganze Tag = todo el día.",
+        "alles = todo como pronombre."
+      ]
+    }
+  },
+  {
+    "de": "gefallen",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "gustar",
+      "explanation": [
+        "Idea principal: gefallen significa gustar y su estructura se parece a la del verbo español gustar.",
+        "La cosa que gusta es el sujeto de la oración alemana.",
+        "La persona a quien le gusta algo va en dativo: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "Eso me gusta."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "¿Te gusta el vestido?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "Nos gusta la película."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "gustar • persona en dativo",
+          "example": "Das gefällt mir. – Eso me gusta."
+        },
+        {
+          "word": "mögen",
+          "meaning": "gustar • querer",
+          "example": "Ich mag das. – Eso me gusta."
+        }
+      ],
+      "tip": [
+        "Recuerda el patrón: Das gefällt mir.",
+        "La estructura alemana es muy parecida a Eso me gusta."
+      ],
+      "important": [
+        "gefallen se usa con dativo: mir, dir, ihm, ihr, uns, euch, ihnen.",
+        "Das gefällt mir = Eso me gusta."
+      ]
+    }
+  },
+  {
+    "de": "Geschichte",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "historia • relato",
+      "explanation": [
+        "Idea principal: Geschichte puede significar una historia o la historia como disciplina y pasado de un país o una sociedad.",
+        "El plural die Geschichten normalmente se refiere a historias o relatos.",
+        "Cuando significa historia como asignatura o disciplina, Geschichte suele usarse en singular."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "Él cuenta una historia."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Estudio historia."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "Esa es la historia de Alemania."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "una historia • un relato",
+          "example": "eine interessante Geschichte – una historia interesante"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "historia",
+          "example": "Geschichte lernen – estudiar historia"
+        }
+      ],
+      "tip": [
+        "Con eine y en plural, Geschichte normalmente significa una historia o un relato.",
+        "Como asignatura escolar, Geschichte significa historia."
+      ],
+      "important": [
+        "die Geschichten = historias o relatos.",
+        "Geschichte con el sentido de historia suele usarse en singular."
+      ]
+    }
+  },
+  {
+    "de": "Geschwister",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "hermanos",
+      "explanation": [
+        "Idea principal: Geschwister significa hermanos y hermanas como grupo.",
+        "Esta palabra normalmente se usa solo en plural.",
+        "Para una sola persona se usa Bruder o Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Tengo dos hermanos."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "Mis hermanos viven en Berlín."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "hermanos y hermanas",
+          "example": "Meine Geschwister – mis hermanos"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "hermano",
+          "example": "mein Bruder – mi hermano"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "hermana",
+          "example": "meine Schwester – mi hermana"
+        }
+      ],
+      "tip": [
+        "Geschwister normalmente se usa en plural.",
+        "Para una sola persona, elige Bruder o Schwester."
+      ],
+      "important": [
+        "En el nivel A1 no se usa normalmente ein Geschwister como forma singular."
+      ]
+    }
+  },
+  {
+    "de": "Großeltern",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "abuelos",
+      "explanation": [
+        "Idea principal: Großeltern significa abuela y abuelo como grupo.",
+        "Esta palabra se usa en plural.",
+        "En singular se usa Großmutter o Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "Mis abuelos viven en el campo."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Visito a mis abuelos."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "abuelos",
+          "example": "meine Großeltern – mis abuelos"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "abuela",
+          "example": "meine Großmutter – mi abuela"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "abuelo",
+          "example": "mein Großvater – mi abuelo"
+        }
+      ],
+      "tip": [
+        "Großeltern es una palabra plural.",
+        "Para una sola persona, usa Großmutter o Großvater."
+      ],
+      "important": [
+        "die Großeltern = los abuelos."
+      ]
+    }
+  },
+  {
+    "de": "Hand",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "mano",
+      "explanation": [
+        "Idea principal: die Hand significa mano.",
+        "En alemán, Arm y Hand son dos palabras diferentes.",
+        "der Arm significa brazo, mientras que die Hand significa mano."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Me lavo las manos."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Ella sostiene el vaso en la mano."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "Me duele el brazo."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "mano",
+          "example": "in der Hand – en la mano"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "brazo",
+          "example": "Mein Arm tut weh. – Me duele el brazo."
+        }
+      ],
+      "tip": [
+        "Hand = mano.",
+        "Arm = brazo, desde el hombro hasta la mano."
+      ],
+      "important": [
+        "En alemán, Hand y Arm no significan lo mismo."
+      ]
+    }
+  },
+  {
+    "de": "hübsch",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "bonito • atractivo",
+      "explanation": [
+        "Idea principal: hübsch significa bonito o atractivo por su aspecto.",
+        "hübsch suele describir el aspecto de una persona, una prenda, una habitación o un objeto.",
+        "Para el carácter amable de una persona, en alemán normalmente se usa nett.",
+        "schön es más amplio y puede significar bonito, hermoso o agradable."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Ella lleva un vestido bonito."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "La habitación es bonita."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Ese es un cuadro bonito."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "bonito • atractivo",
+          "example": "Das ist ein hübsches Kleid. – Ese es un vestido bonito."
+        },
+        {
+          "word": "schön",
+          "meaning": "bonito • hermoso • agradable",
+          "example": "Der Garten ist schön. – El jardín es bonito."
+        },
+        {
+          "word": "nett",
+          "meaning": "simpático • amable",
+          "example": "Sie ist sehr nett. – Ella es muy simpática."
+        }
+      ],
+      "tip": {
+        "text": "Recuerda: hübsch describe principalmente un aspecto bonito o atractivo; nett describe con más frecuencia a una persona simpática o un comportamiento amable."
+      },
+      "important": [
+        "hübsch no es una traducción universal de simpático o amable.",
+        "Para el carácter o el comportamiento amable de una persona, normalmente se usa nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "bonito",
+            "atractivo"
+          ],
+          "green": [
+            "aspecto"
+          ],
+          "yellow": [
+            "nett",
+            "schön"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bonito"
+              ],
+              "green": [
+                "vestido"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bonita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "bonito"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bonito",
+                "atractivo"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "bonito"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bonito",
+                "hermoso",
+                "agradable"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "simpático",
+                "amable"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "aspecto bonito",
+              "aspecto atractivo"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "persona simpática",
+              "comportamiento amable"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "bonito",
+              "atractivo"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "simpático",
+              "amable"
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

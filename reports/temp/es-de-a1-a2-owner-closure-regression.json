@@ -1,6 +1,6 @@
 {
   "summary": {
-    "head": "d8a1ec84ad5db1c23c1625c621aa5f5342c1b16e",
+    "head": "6a03418760c281e799b34a4eebb8a8d058f2a589",
     "ownerSources": 13,
     "ownerTargets": 1208,
     "expectedTargets": 1208,
@@ -10,9 +10,9 @@
     "deterministic": {
       "a1Cards": 702,
       "a2Cards": 1640,
-      "a1StudyGap": 10,
+      "a1StudyGap": 0,
       "a2StudyGap": 0,
-      "missingStudyTotal": 10,
+      "missingStudyTotal": 0,
       "partialStudyTotal": 2,
       "foreignRemnants": 573,
       "semicolons": 0,
@@ -29,9 +29,9 @@
   "deterministic": {
     "a1Cards": 702,
     "a2Cards": 1640,
-    "a1StudyGap": 10,
+    "a1StudyGap": 0,
     "a2StudyGap": 0,
-    "missingStudyTotal": 10,
+    "missingStudyTotal": 0,
     "partialStudyTotal": 2,
     "foreignRemnants": 573,
     "semicolons": 0,
