@@ -2,7 +2,7 @@
 
 **Repository:** `sandrisbrikmanis-rgb/de-lv-app`  
 **Branch:** `cursor/global-course-card-visual-parity-repair-3141`  
-**HEAD SHA:** _(see latest commit on branch)_  
+**HEAD SHA:** `0cb0134aeed16a1e26a252d5dd6ef58973f81323`  
 **Runtime:** https://sandrisbrikmanis-rgb.github.io/de-lv-app/  
 **Generated:** 2026-08-25 (updated: LV first-time language selection fix)
 
