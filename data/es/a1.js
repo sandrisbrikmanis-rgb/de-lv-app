@@ -3050,12 +3050,12 @@ const A1_WORDS = [
         {
           "word": "bitte",
           "meaning": "por favor",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "example": "Komm bitte herein. – Entra, por favor."
         },
         {
           "word": "die Bitte",
           "meaning": "petición",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "example": "Ich habe eine Bitte. – Tengo una petición."
         }
       ]
     }
@@ -3177,12 +3177,12 @@ const A1_WORDS = [
         {
           "word": "die Bitte",
           "meaning": "petición",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "example": "Ich habe eine Bitte. – Tengo una petición."
         },
         {
           "word": "bitte",
           "meaning": "por favor",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "example": "Komm bitte herein. – Entra, por favor."
         }
       ]
     }
@@ -3547,7 +3547,7 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "tomar",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "example": "Ich nehme das Buch. – Cojo el libro."
         }
       ],
       "tip": {
@@ -4998,7 +4998,7 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "hielo / helado",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. – Como un helado."
         },
         {
           "word": "der Schnee",
@@ -5008,12 +5008,12 @@ const A1_WORDS = [
         {
           "word": "kalt",
           "meaning": "frío",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. – El agua está fría."
         },
         {
           "word": "das Dessert",
           "meaning": "postre",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. – El helado es un postre."
         }
       ],
       "tip": {
@@ -5273,17 +5273,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "primero • al principio",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. – Primero desayunamos."
         },
         {
           "word": "nur",
           "meaning": "solo",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. – Solo tengo 5 euros."
         },
         {
           "word": "dann",
           "meaning": "entonces",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. – Después nos vamos a casa."
         }
       ],
       "tip": {
@@ -5563,12 +5563,12 @@ const A1_WORDS = [
         {
           "word": "es",
           "meaning": "eso • forma impersonal",
-          "example": "Es regnet. – Līst."
+          "example": "Es regnet. – Llueve."
         },
         {
           "word": "ich",
           "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "example": "Ich lerne Deutsch. – Estudio alemán."
         }
       ]
     }
@@ -5621,7 +5621,7 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "algo / un poco",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. – Necesito algo."
         },
         {
           "word": "was",
@@ -5631,7 +5631,7 @@ const A1_WORDS = [
         {
           "word": "ein bisschen",
           "meaning": "un poco",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. – Estoy un poco cansado."
         },
         {
           "word": "nichts",
@@ -5709,7 +5709,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "poco"
+                "un poco"
               ]
             }
           }
@@ -5769,8 +5769,7 @@ const A1_WORDS = [
             },
             "example": {
               "yellow": [
-                "ein bisschen",
-                "un poco"
+                "ein bisschen"
               ]
             }
           },
@@ -5853,17 +5852,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "vosotros",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Sois amables."
         },
         {
           "word": "euch",
           "meaning": "vosotros/a vosotros",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Os ayudo."
         },
         {
           "word": "euer",
           "meaning": "tuyo",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = Esta es vuestra casa."
         }
       ],
       "info": [
@@ -6328,7 +6327,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "encontrar / considerar",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Me parece bien."
         },
         {
           "word": "suchen",
@@ -8179,17 +8178,17 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "tengo",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = Tengo tiempo."
         },
         {
           "word": "sein",
           "meaning": "ser",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Estoy aquí."
         },
         {
           "word": "bekommen",
           "meaning": "recibir",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Recibo un regalo."
         },
         {
           "word": "machen",
@@ -8417,17 +8416,17 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "tomar",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Cojo la bolsa."
         },
         {
           "word": "anhalten",
           "meaning": "parar",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Por favor, deténgase."
         },
         {
           "word": "denken",
           "meaning": "pensar",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Creo que eso es correcto."
         }
       ],
       "tip": {
@@ -8748,12 +8747,12 @@ const A1_WORDS = [
         {
           "word": "nennen",
           "meaning": "llamarse / nombrar",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Él me llama Tom."
         },
         {
           "word": "bedeuten",
           "meaning": "significar",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? – ¿Qué significa eso?"
         },
         {
           "word": "rufen",
@@ -9543,9 +9542,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "jums"
-              ]
+              "purple": []
             }
           },
           {
@@ -11047,17 +11044,17 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "poder / saber",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. – Sé nadar."
         },
         {
           "word": "dürfen",
           "meaning": "ser permitido",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? – ¿Puedo irme?"
         },
         {
           "word": "müssen",
           "meaning": "ser capaz de / poder",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. – Tengo que estudiar."
         },
         {
           "word": "wissen",
@@ -11279,22 +11276,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "costar (precio) • cuánto",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. – Cuesta 5 euros."
         },
         {
           "word": "bezahlen",
           "meaning": "costar • tener un precio",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. – Pago la factura."
         },
         {
           "word": "zahlen",
           "meaning": "costar • tener un precio",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? – ¿Puedo pagar en efectivo?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "¿Cuánto cuesta...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? – ¿Cuánto cuesta el libro?"
         }
       ],
       "tip": [
@@ -17788,7 +17785,7 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "ver (sin intención)",
-          "example": "Ich sehe dich. – Es tevi redzu."
+          "example": "Ich sehe dich. – Te veo."
         }
       ],
       "tip": [
@@ -18341,7 +18338,7 @@ const A1_WORDS = [
       },
       "important": [
         "sehen nav tas pats, kas anschauen.",
-        "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
+        "Te veo = veo; veo la película = miro la película."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18358,9 +18355,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "redzu"
-              ]
+              "purple": []
             }
           },
           {
@@ -18382,9 +18377,7 @@ const A1_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "neredzu"
-              ]
+              "purple": []
             }
           },
           {
@@ -18703,8 +18696,8 @@ const A1_WORDS = [
               "du bist"
             ],
             "purple": [
-              "es esmu",
-              "tu esi"
+              "yo soy/estoy",
+              "tú eres/estás"
             ]
           }
         },
@@ -24281,17 +24274,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "ver la televisión",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. – Veo la televisión."
         },
         {
           "word": "das Fernsehen",
           "meaning": "televisión (medios de comunicación)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. – En la televisión ponen una película."
         },
         {
           "word": "sehen",
           "meaning": "ver",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. – Veo una película."
         }
       ],
       "tip": {
