@@ -1255,7 +1255,7 @@ CRITICAL: **384** · HIGH: **341** · MEDIUM: **361** · LOW: **122**
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Statuss:** PENDING
-> … un vēl **1108** atradumi — pilns saraksts: `reports/temp/es-a1-a2-linguistic-audit.json`
+> … un vēl **1108** atradumi — pilns saraksts: [`reports/es-a1-a2-linguistic-audit.json`](./es-a1-a2-linguistic-audit.json) · [GitHub indekss](./es-a1-a2-linguistic-audit-GITHUB.md)
 
 ## 5. Deterministiskie atradumi (kopsavilkums)
 
