@@ -2,20 +2,30 @@
 "use strict";
 /**
  * Build apply map from ES-DE A1+A2 OWNER decision master batches.
- * Usage: node scripts/build-es-a1-a2-owner-apply-map.js
+ * Usage: node scripts/build-es-a1-a2-owner-apply-map.js [--from=201] [--to=1208]
  */
 const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 
-const SOURCES = [
-  path.join(ROOT, "reports/es-de-a1-a2-owner-decisions-master-001-100.md"),
-  path.join(ROOT, "reports/es-de-a1-a2-owner-decisions-master-101-200.md"),
-];
+const REPORTS = path.join(ROOT, "reports");
 const OUT = path.join(ROOT, "reports/temp/es-a1-a2-owner-apply-map.json");
 
-const ROW_RE =
+const LEGACY_ROW_RE =
   /^\s*\d+\s+`(ES-A1A2-LUNA-\d+)`\s+`([^`]+)`\s+`([^`]+)`\s+`([^`]+)`\s+`([^`]+)`\s+\*\*LABOT\*\*/;
+
+const TABLE_ROW_RE =
+  /^\|\s*\d+\s*\|\s*`(ES-A1A2-LUNA-\d+)`\s*\|\s*`([^`]+)`\s*\|\s*`([^`]+)`\s*\|\s*`([^`]+)`\s*\|\s*`([^`]+)`\s*\|\s*\*\*LABOT\*\*\s*\|/;
+
+function parseRangeArg(name, fallback) {
+  const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
+  return hit ? parseInt(hit.split("=")[1], 10) : fallback;
+}
+
+function findingNum(id) {
+  const m = String(id).match(/ES-A1A2-LUNA-(\d+)/);
+  return m ? parseInt(m[1], 10) : 0;
+}
 
 function normalizeField(field) {
   const f = String(field || "").trim();
@@ -23,16 +33,30 @@ function normalizeField(field) {
   return f;
 }
 
+function discoverSources() {
+  return fs
+    .readdirSync(REPORTS)
+    .filter((name) => /^es-de-a1-a2-owner-decisions-master-\d+-\d+\.md$/.test(name))
+    .sort((a, b) => {
+      const na = parseInt(a.match(/master-(\d+)/)[1], 10);
+      const nb = parseInt(b.match(/master-(\d+)/)[1], 10);
+      return na - nb;
+    })
+    .map((name) => path.join(REPORTS, name));
+}
+
 function parseFile(filePath) {
   const md = fs.readFileSync(filePath, "utf8");
   const rows = [];
   for (const line of md.split("\n")) {
-    const m = line.match(ROW_RE);
+    let m = line.match(TABLE_ROW_RE);
+    if (!m) m = line.match(LEGACY_ROW_RE);
     if (!m) continue;
     rows.push({
       auditId: m[1],
       cardId: m[2],
       field: normalizeField(m[3]),
+      rawField: m[3],
       current: m[4],
       ownerNew: m[5],
       source: path.relative(ROOT, filePath),
@@ -42,20 +66,26 @@ function parseFile(filePath) {
 }
 
 function main() {
+  const from = parseRangeArg("from", 1);
+  const to = parseRangeArg("to", 99999);
+  const sources = discoverSources();
   const parsed = [];
-  for (const src of SOURCES) {
-    if (!fs.existsSync(src)) {
-      console.error(`Missing ${src}`);
-      process.exit(1);
-    }
+
+  for (const src of sources) {
+    if (!fs.existsSync(src)) continue;
     parsed.push(...parseFile(src));
   }
 
+  const filtered = parsed.filter((row) => {
+    const n = findingNum(row.auditId);
+    return n >= from && n <= to;
+  });
+
   const byKey = new Map();
-  for (const row of parsed) {
-    byKey.set(`${row.auditId}|${row.cardId}|${row.field}`, row);
+  for (const row of filtered) {
+    byKey.set(`${row.auditId}|${row.cardId}|${row.field}|${row.current}`, row);
   }
-  const apply = [...byKey.values()].sort((a, b) => a.auditId.localeCompare(b.auditId));
+  const apply = [...byKey.values()].sort((a, b) => findingNum(a.auditId) - findingNum(b.auditId));
 
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(
@@ -63,7 +93,8 @@ function main() {
     JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
-        sources: SOURCES.map((s) => path.relative(ROOT, s)),
+        range: { from, to },
+        sources,
         apply,
         count: apply.length,
       },
@@ -71,7 +102,21 @@ function main() {
       2,
     ),
   );
-  console.log(JSON.stringify({ parsed: parsed.length, apply: apply.length, out: OUT }, null, 2));
+  console.log(
+    JSON.stringify(
+      {
+        sources: sources.length,
+        parsed: parsed.length,
+        inRange: filtered.length,
+        apply: apply.length,
+        from,
+        to,
+        out: OUT,
+      },
+      null,
+      2,
+    ),
+  );
 }
 
 main();

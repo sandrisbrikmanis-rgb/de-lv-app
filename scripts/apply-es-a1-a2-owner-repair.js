@@ -1,24 +1,34 @@
 #!/usr/bin/env node
 "use strict";
 /**
- * ES-DE A1+A2 OWNER COPY-ONLY repair apply (LUNA master 001-200).
- * Usage: node scripts/apply-es-a1-a2-owner-repair.js [--dry-run]
+ * ES-DE A1+A2 OWNER COPY-ONLY repair apply.
+ * Usage: node scripts/apply-es-a1-a2-owner-repair.js [--dry-run] [--from=201] [--to=1208]
  */
 const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { execSync } = require("child_process");
 const { ROOT, isSyncedWithWww } = require("./lib/audit-common");
+const { getAt, setAt } = require("./lib/da-a1-owner-path");
 const {
   verifyFromDisk,
   gitDiffNonEmpty,
   buildReconciliation,
-  assertWritePostcondition,
 } = require("./lib/repair-apply-safety");
 
+function parseRangeArg(name, fallback) {
+  const hit = process.argv.find((a) => a.startsWith(`--${name}=`));
+  return hit ? parseInt(hit.split("=")[1], 10) : fallback;
+}
+
+const FROM = parseRangeArg("from", 1);
+const TO = parseRangeArg("to", 99999);
 const APPLY_MAP = path.join(ROOT, "reports/temp/es-a1-a2-owner-apply-map.json");
 const APPLY_LOG = path.join(ROOT, "reports/temp/es-a1-a2-owner-apply-log.json");
-const REPORT_MD = path.join(ROOT, "reports/es-de-a1-a2-owner-repair-apply-001-200.md");
+const REPORT_MD = path.join(
+  ROOT,
+  `reports/es-de-a1-a2-owner-repair-apply-${String(FROM).padStart(3, "0")}-${String(TO).padStart(3, "0")}.md`,
+);
 const DRY_RUN = process.argv.includes("--dry-run");
 const DE_FIELDS = ["de", "de_article", "de_plural", "level"];
 
@@ -54,9 +64,18 @@ function deepClone(o) {
   return JSON.parse(JSON.stringify(o));
 }
 
-function levelFromCardId(cardId) {
-  if (cardId.startsWith("a2-")) return "a2";
-  return "a1";
+function resolveEntry(wordsByLevel, cardId) {
+  const tryLevels = cardId.startsWith("a2-")
+    ? ["a2"]
+    : cardId.startsWith("a1-")
+      ? ["a1"]
+      : ["a2", "a1"];
+  for (const level of tryLevels) {
+    const ds = DATASETS[level];
+    const entry = findEntry(wordsByLevel[level], cardId, ds.prefix);
+    if (entry) return { level, entry };
+  }
+  return { level: null, entry: null };
 }
 
 function findEntry(words, cardId, prefix) {
@@ -78,19 +97,44 @@ function findEntry(words, cardId, prefix) {
 
 function currentMatches(actual, expected) {
   const exp = String(expected || "").trim();
+  if (exp === "(tukšs)" || exp === "(empty)") {
+    return actual === undefined || actual === null || String(actual).trim() === "";
+  }
   if (actual === undefined || actual === null) return exp === "";
   return String(actual) === exp;
 }
 
 function readCurrent(entry, field) {
   if (field === "lv") return entry.lv;
-  return entry[field];
+  if (field === "study.tip.text") {
+    const tip = entry.study?.tip;
+    if (!tip) return undefined;
+    if (typeof tip === "string") return tip;
+    if (Array.isArray(tip)) return undefined;
+    return tip.text;
+  }
+  return getAt(entry, field);
 }
 
 function applySet(entry, field, ownerNew) {
-  if (field !== "lv") return { ok: false, reason: "unsupported_field", field };
-  entry.lv = ownerNew;
-  return { ok: true, field };
+  if (field === "lv") {
+    entry.lv = ownerNew;
+    return { ok: true, field };
+  }
+  if (field.startsWith("study.") && !entry.study) {
+    return { ok: false, reason: "no_study", field };
+  }
+  if (field === "study.tip.text") {
+    if (!entry.study) return { ok: false, reason: "no_study", field };
+    entry.study.tip = { text: ownerNew };
+    return { ok: true, field };
+  }
+  const before = getAt(entry, field);
+  if (before === undefined) return { ok: false, reason: "path_missing", field };
+  if (!setAt(entry, field, ownerNew)) {
+    return { ok: false, reason: "set_failed", field };
+  }
+  return { ok: true, field, before, after: ownerNew };
 }
 
 function verifyDeUnchanged(before, after) {
@@ -106,10 +150,10 @@ function verifyDeUnchanged(before, after) {
 function writeReport(log) {
   const s = log.summary;
   const lines = [
-    "# ES–DE A1+A2 — OWNER COPY-ONLY repair apply (MASTER 001–200)",
+    `# ES–DE A1+A2 — OWNER COPY-ONLY repair apply (MASTER ${FROM}–${TO})`,
     "",
     "**Standard:** `REPAIR_APPLY_SAFETY_STANDARD.md`",
-    "**Source:** `reports/es-de-a1-a2-owner-decisions-master-001-100.md` + `...-101-200.md`",
+    `**Range:** ES-A1A2-LUNA-${String(FROM).padStart(4, "0")} … ${String(TO).padStart(4, "0")}`,
     "**DE:** STRICT READ-ONLY",
     "",
     "## Kopsavilkums",
@@ -131,7 +175,16 @@ function writeReport(log) {
   if (log.mismatches.length) {
     lines.push("## CURRENT_VALUE_MISMATCH", "");
     for (const m of log.mismatches) {
-      lines.push(`- ${m.auditId} \`${m.cardId}\` expected \`${m.expectedCurrent}\` got \`${m.actualCurrent}\``);
+      lines.push(
+        `- ${m.auditId} \`${m.cardId}\` \`${m.field}\` expected \`${m.expectedCurrent}\` got \`${m.actualCurrent}\``,
+      );
+    }
+    lines.push("");
+  }
+  if (log.failed.length) {
+    lines.push("## FAILED", "");
+    for (const f of log.failed) {
+      lines.push(`- ${f.auditId} \`${f.cardId}\` \`${f.field}\` — ${f.reason || f.status}`);
     }
     lines.push("");
   }
@@ -139,7 +192,10 @@ function writeReport(log) {
 }
 
 function main() {
-  execSync("node scripts/build-es-a1-a2-owner-apply-map.js", { cwd: ROOT, stdio: "pipe" });
+  execSync(`node scripts/build-es-a1-a2-owner-apply-map.js --from=${FROM} --to=${TO}`, {
+    cwd: ROOT,
+    stdio: "pipe",
+  });
   const mapData = JSON.parse(fs.readFileSync(APPLY_MAP, "utf8"));
   const { apply } = mapData;
 
@@ -154,6 +210,7 @@ function main() {
 
   const log = {
     dryRun: DRY_RUN,
+    range: { from: FROM, to: TO },
     staged: [],
     appliedVerified: [],
     mismatches: [],
@@ -163,11 +220,8 @@ function main() {
   };
 
   for (const row of apply) {
-    const level = levelFromCardId(row.cardId);
-    const ds = DATASETS[level];
-    const words = wordsByLevel[level];
-    const entry = findEntry(words, row.cardId, ds.prefix);
-    if (!entry) {
+    const { level, entry } = resolveEntry(wordsByLevel, row.cardId);
+    if (!entry || !level) {
       log.failed.push({ ...row, status: "FAILED", reason: "CARD_NOT_FOUND" });
       continue;
     }
@@ -249,9 +303,11 @@ function main() {
       log.verificationFailures.push(...failures);
     }
 
-    gitDiffPass =
-      gitDiffNonEmpty([DATASETS.a1.rel, "www/data/es/a1.js"], ROOT) &&
-      gitDiffNonEmpty([DATASETS.a2.rel, "www/data/es/a2.js"], ROOT);
+    const levelsWritten = [...new Set(log.staged.map((s) => s._resolver?.level).filter(Boolean))];
+    gitDiffPass = levelsWritten.every((level) => {
+      const ds = DATASETS[level];
+      return gitDiffNonEmpty([ds.rel, `www/${ds.rel}`], ROOT);
+    });
   } else if (DRY_RUN) {
     log.appliedVerified = log.staged.map((r) => ({ ...r, status: "DRY_RUN_STAGED" }));
   }
