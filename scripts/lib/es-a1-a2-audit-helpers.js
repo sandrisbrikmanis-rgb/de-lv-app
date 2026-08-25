@@ -2,14 +2,16 @@ const fs = require("fs");
 const path = require("path");
 const vm = require("vm");
 const { ROOT } = require("./audit-common");
+const {
+  TEMP_DIR,
+  LUNA_JSON,
+  PROGRESS_FILE,
+} = require("./es-a1-a2-final-regression-paths");
 
 const LEVELS = ["a1", "a2"];
 const GLOBAL_KEYS = { a1: "A1_WORDS", a2: "A2_WORDS" };
 const BATCH_SIZE = 50;
 const STUDY_BATCH_SIZE = 12;
-const TEMP_DIR = path.join(ROOT, "reports", "temp", "es-a1-a2-full-audit-luna");
-const LUNA_JSON = path.join(ROOT, "reports", "temp", "es-a1-a2-linguistic-audit.json");
-const PROGRESS_FILE = path.join(ROOT, "scripts", ".es-a1-a2-luna-progress.json");
 
 const NATIVE_KEYS = new Set(["lv", "translation", "text", "meaning", "title", "lead"]);
 

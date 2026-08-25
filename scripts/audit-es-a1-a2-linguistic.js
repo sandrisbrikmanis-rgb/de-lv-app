@@ -2,8 +2,11 @@
 "use strict";
 /**
  * ES-DE A1+A2 linguistic audit with GPT-5.6 Luna (READ-ONLY).
- * Usage: node scripts/audit-es-a1-a2-linguistic.js [--test-batch] [--resume] [--fresh]
+ * Usage: node scripts/audit-es-a1-a2-linguistic.js [--test-batch] [--resume] [--fresh] [--final-regression]
  */
+if (process.argv.includes("--final-regression")) {
+  process.env.ES_A1A2_FINAL_REGRESSION = "1";
+}
 require("dotenv").config({ path: require("path").join(__dirname, "..", ".env") });
 
 const fs = require("fs");
@@ -28,7 +31,7 @@ const {
 
 const TEST_BATCH = process.argv.includes("--test-batch");
 const RESUME = process.argv.includes("--resume");
-const FRESH = process.argv.includes("--fresh");
+const FRESH = process.argv.includes("--fresh") || process.argv.includes("--fresh-luna");
 const MAX_RETRIES = 3;
 
 async function auditBatchWithRetry(cards, stats, batchKey, auditType) {
