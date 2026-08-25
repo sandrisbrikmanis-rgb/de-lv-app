@@ -1,0 +1,2826 @@
+{
+  "dryRun": false,
+  "staged": [
+    {
+      "auditId": "ES-A1A2-LUNA-0001",
+      "cardId": "a1-anfangen-14",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "empezar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0002",
+      "cardId": "a1-anders-15",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "diferente",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0003",
+      "cardId": "a1-abends-20",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "por la noche",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0004",
+      "cardId": "a1-achten-22",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "prestar atención",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0005",
+      "cardId": "a1-anschauen-29",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "mirar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0006",
+      "cardId": "a1-April-41",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "abril",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0007",
+      "cardId": "a1-Arbeit-42",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "trabajo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0008",
+      "cardId": "a1-Arm-44",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "brazo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0009",
+      "cardId": "a1-Ärztin-46",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "una doctora",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0010",
+      "cardId": "a1-aufpassen-51",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "tener cuidado",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0011",
+      "cardId": "a1-August-56",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "agosto",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0012",
+      "cardId": "a1-auf dem Bahnhof-59",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "en la estación",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0013",
+      "cardId": "a1-Bauch-73",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "barriga",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0014",
+      "cardId": "a1-Baum-74",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "un árbol",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0015",
+      "cardId": "a1-beginnen-77",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "empezar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0016",
+      "cardId": "a1-besuchen-89",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "visitar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0017",
+      "cardId": "a1-bitten-98",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "pedir",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0018",
+      "cardId": "a1-Blatt-99",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "hoja",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0019",
+      "cardId": "a1-Buchstabe-117",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "letra",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0020",
+      "cardId": "a1-Butter-120",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "mantequilla",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0021",
+      "cardId": "a1-Cousine-125",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "prima",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0022",
+      "cardId": "a1-deutsch-135",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "alemán",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0023",
+      "cardId": "a1-Dezember-136",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "diciembre",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0024",
+      "cardId": "a1-Donnerstag-141",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "jueves",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0025",
+      "cardId": "a1-dürfen-150",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "poder",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0026",
+      "cardId": "a1-Esslöffel-168",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "cuchara sopera",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0027",
+      "cardId": "a1-euer-171",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "vuestro",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0028",
+      "cardId": "a1-Februar-178",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "febrero",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0029",
+      "cardId": "a1-Fernseher-182",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "televisor",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0030",
+      "cardId": "a1-frei-199",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "libre",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0031",
+      "cardId": "a1-frühstücken-208",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "desayunar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0032",
+      "cardId": "a1-Fußball-218",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "fútbol",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0033",
+      "cardId": "a1-geboren-224",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "nacido",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0034",
+      "cardId": "a1-gegen-226",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "contra",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0035",
+      "cardId": "a1-halb-262",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "medio",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0036",
+      "cardId": "a1-Hälfte-263",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "mitad",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0037",
+      "cardId": "a1-Haltestelle-266",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "parada",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0038",
+      "cardId": "a1-Heft-273",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "cuaderno",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0039",
+      "cardId": "a1-helfen-277",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "ayudar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0040",
+      "cardId": "a1-Herr-280",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "señor",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0041",
+      "cardId": "a1-hübsch-288",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "bonito",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0042",
+      "cardId": "a1-ich-291",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "yo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0043",
+      "cardId": "a1-Januar-298",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "enero",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0044",
+      "cardId": "a1-jawohl-299",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "sí",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0045",
+      "cardId": "a1-Juli-303",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "julio",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0046",
+      "cardId": "a1-Juni-305",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "junio",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0047",
+      "cardId": "a1-Honig-324",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "miel",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0048",
+      "cardId": "a1-Koch-340",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "cocinero",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0049",
+      "cardId": "a1-Köchin-341",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "cocinera",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0050",
+      "cardId": "a1-Lehrerin-365",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "una maestra",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0051",
+      "cardId": "a1-letzte-370",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "el último",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0052",
+      "cardId": "a1-Liebe-374",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "amor",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0053",
+      "cardId": "a1-Lineal-379",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "regla",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0054",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "izquierda",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0055",
+      "cardId": "a1-Mai-389",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "mayo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0056",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "pintar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0057",
+      "cardId": "a1-Mandarine-393",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "mandarina",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0058",
+      "cardId": "a1-Marmelade-395",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "mermelada",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0059",
+      "cardId": "a1-März-396",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "marzo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0060",
+      "cardId": "a1-mein-401",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "mi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0061",
+      "cardId": "a1-mitnehmen-409",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "llevarse",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0062",
+      "cardId": "a1-Mittag-410",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "mediodía",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0063",
+      "cardId": "a1-Mittwoch-412",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "miércoles",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0064",
+      "cardId": "a1-Montag-416",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "lunes",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0065",
+      "cardId": "a1-Mütze-425",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "gorro",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0066",
+      "cardId": "a1-neunzehnte-444",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "el decimonoveno",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0067",
+      "cardId": "a1-neunzigste-446",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "el nonagésimo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0068",
+      "cardId": "a1-November-453",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "noviembre",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0069",
+      "cardId": "a1-Oktober-464",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "octubre",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0070",
+      "cardId": "a1-Polizei-479",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "la policía",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0071",
+      "cardId": "a1-schmecken-515",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "saber",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0072",
+      "cardId": "a1-Schnee-517",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "nieve",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0073",
+      "cardId": "a1-September-546",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "septiembre",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0074",
+      "cardId": "a1-so-559",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "así",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0075",
+      "cardId": "a1-Samstag-566",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "sábado",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0076",
+      "cardId": "a1-Taxi-591",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "taxi",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0077",
+      "cardId": "a1-Teller-595",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "plato",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0078",
+      "cardId": "a1-Treppe-603",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "escalera",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0079",
+      "cardId": "a1-versuchen-622",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "intentar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0080",
+      "cardId": "a1-Vorname-637",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "nombre de pila",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0081",
+      "cardId": "a1-sich waschen-646",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "lavarse",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0082",
+      "cardId": "a1-welcher-652",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "cuál",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0083",
+      "cardId": "a1-zumachen-673",
+      "field": "lv",
+      "level": "a1",
+      "ownerNew": "cerrar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0084",
+      "cardId": "a2-Abenteuer-1",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "aventura",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0085",
+      "cardId": "a2-abtauen-17",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "descongelar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0086",
+      "cardId": "a2-abwesend-20",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "ausente",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0087",
+      "cardId": "a2-Achse-21",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "eje",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0088",
+      "cardId": "a2-Aerobic-26",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "aeróbic",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0089",
+      "cardId": "a2-Änderung-36",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "cambio",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0090",
+      "cardId": "a2-Anlass-53",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "ocasión",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0091",
+      "cardId": "a2-anlässlich-54",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "con motivo de",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0092",
+      "cardId": "a2-anstreichen-66",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "pintar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0093",
+      "cardId": "a2-anzünden-75",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "encender",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0094",
+      "cardId": "a2-Arm-85",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "brazo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0095",
+      "cardId": "a2-Ast-94",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "rama",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0096",
+      "cardId": "a2-auf die Schulter klopfen-102",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "dar una palmada en el hombro",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0097",
+      "cardId": "a2-auf jeden Fall-104",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "en cualquier caso",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0098",
+      "cardId": "a2-aufbrechen-107",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "ponerse en marcha",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0099",
+      "cardId": "a2-Aufenthalt-110",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "estancia",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0100",
+      "cardId": "a2-auffordern-113",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "pedir",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0101",
+      "cardId": "a2-aufhalten-117",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "detener",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0102",
+      "cardId": "a2-aufklären-122",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "aclarar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0103",
+      "cardId": "a2-aufregen-136",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "alterar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0104",
+      "cardId": "a2-aufstellen-143",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "instalar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0105",
+      "cardId": "a2-Aufstrich-144",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "crema para untar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0106",
+      "cardId": "a2-auftauen-145",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "descongelar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0107",
+      "cardId": "a2-aufziehen-151",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "criar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0108",
+      "cardId": "a2-ausbessern-155",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "reparar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0109",
+      "cardId": "a2-ausstrahlen-160",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "irradiar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0110",
+      "cardId": "a2-Ausverkauf-163",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "liquidación",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0111",
+      "cardId": "a2-auswärts-166",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "fuera",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0112",
+      "cardId": "a2-Ausweis-167",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "documento de identidad",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0113",
+      "cardId": "a2-auswendig-168",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "de memoria",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0114",
+      "cardId": "a2-Autobahn-170",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "autopista",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0115",
+      "cardId": "a2-Autopanne-175",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "avería del coche",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0116",
+      "cardId": "a2-Badetuch-185",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "toalla de baño",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0117",
+      "cardId": "a2-Bahngleis-188",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "vía férrea",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0118",
+      "cardId": "a2-Bargeld-200",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "dinero en efectivo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0119",
+      "cardId": "a2-Bauchweh-205",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "dolor de estómago",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0120",
+      "cardId": "a2-Bäuerin-208",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "agricultora",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0121",
+      "cardId": "a2-Beet-216",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "parterre",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0122",
+      "cardId": "a2-bellen-228",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "ladrar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0123",
+      "cardId": "a2-besitzen-238",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "poseer",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0124",
+      "cardId": "a2-Besteck-241",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "cubiertos",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0125",
+      "cardId": "a2-beten-246",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "orar a Dios",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0126",
+      "cardId": "a2-bewundern-250",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "admirar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0127",
+      "cardId": "a2-Blick-261",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "mirada",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0128",
+      "cardId": "a2-Blitz-263",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "relámpago",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0129",
+      "cardId": "a2-Braten-281",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "asado",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0130",
+      "cardId": "a2-Bratkartoffeln-282",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "patatas salteadas",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0131",
+      "cardId": "a2-Bräutigam-284",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "novio",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0132",
+      "cardId": "a2-Bremse-287",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "freno",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0133",
+      "cardId": "a2-Bürste-303",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "cepillo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0134",
+      "cardId": "a2-Chance-306",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "oportunidad",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0135",
+      "cardId": "a2-Comic-311",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "un cómic",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0136",
+      "cardId": "a2-deutlich-340",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "claro",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0137",
+      "cardId": "a2-dorthin-351",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "hasta allí",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0138",
+      "cardId": "a2-draußen-352",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "fuera",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0139",
+      "cardId": "a2-Drittel-358",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "un tercio",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0140",
+      "cardId": "a2-drüben-359",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "al otro lado",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0141",
+      "cardId": "a2-egal-374",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "da igual",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0142",
+      "cardId": "a2-Eile-379",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "prisa",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0143",
+      "cardId": "a2-einige-384",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "algunos",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0144",
+      "cardId": "a2-einschenken-392",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "servir",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0145",
+      "cardId": "a2-einverstanden-397",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "de acuerdo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0146",
+      "cardId": "a2-Eiskaffee-402",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "café con helado",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0147",
+      "cardId": "a2-enden-408",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "terminar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0148",
+      "cardId": "a2-entdecken-412",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "descubrir",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0149",
+      "cardId": "a2-entlang-414",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "a lo largo de",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0150",
+      "cardId": "a2-entschuldigen-415",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "disculpar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0151",
+      "cardId": "a2-entweder-416",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "o bien",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0152",
+      "cardId": "a2-Erdgeschoss-417",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "planta baja",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0153",
+      "cardId": "a2-erkennen-423",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "reconocer",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0154",
+      "cardId": "a2-erwachsen-430",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "adulto",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0155",
+      "cardId": "a2-Essbesteck-435",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "cubiertos",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0156",
+      "cardId": "a2-Fächer-445",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "abanico",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0157",
+      "cardId": "a2-Fähre-448",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "ferri",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0158",
+      "cardId": "a2-Fahrer-449",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "conductor",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0159",
+      "cardId": "a2-Fahrt-452",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "viaje",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0160",
+      "cardId": "a2-färben-461",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "teñir",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0161",
+      "cardId": "a2-feiern-470",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "celebrar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0162",
+      "cardId": "a2-Fell-475",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "piel",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0163",
+      "cardId": "a2-Fensterbrett-476",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "alféizar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0164",
+      "cardId": "a2-Fett-483",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "grasa",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0165",
+      "cardId": "a2-Figur-489",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "figura",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0166",
+      "cardId": "a2-Fliege-499",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "mosca",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0167",
+      "cardId": "a2-Fliese-500",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "baldosa",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0168",
+      "cardId": "a2-Flugplatz-504",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "aeródromo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0169",
+      "cardId": "a2-Formular-512",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "formulario",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0170",
+      "cardId": "a2-frieren-527",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "tener frío",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0171",
+      "cardId": "a2-frisieren-529",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "arreglar el pelo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0172",
+      "cardId": "a2-Füllfederhalter-541",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "pluma estilográfica",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0173",
+      "cardId": "a2-Fußballfeld-544",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "campo de fútbol",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0174",
+      "cardId": "a2-Fußgänger-547",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "peatón",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0175",
+      "cardId": "a2-Gasse-558",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "callejón",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0176",
+      "cardId": "a2-Gegenstand-569",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "objeto",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0177",
+      "cardId": "a2-Geschirr-584",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "vajilla",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0178",
+      "cardId": "a2-Gewürz-594",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "especia",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0179",
+      "cardId": "a2-Gymnastik-613",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "gimnasia",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0180",
+      "cardId": "a2-Haarschnitt-615",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "corte de pelo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0181",
+      "cardId": "a2-Haferflocken-619",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "copos de avena",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0182",
+      "cardId": "a2-halt!-626",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "¡alto!",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0183",
+      "cardId": "a2-Hase-635",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "conejo",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0184",
+      "cardId": "a2-Hausarzt-641",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "médico de familia",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0185",
+      "cardId": "a2-heilen-647",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "curar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0186",
+      "cardId": "a2-Heim-648",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "hogar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0187",
+      "cardId": "a2-Herd-654",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "cocina",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0188",
+      "cardId": "a2-herzlich-662",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "cordial",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0189",
+      "cardId": "a2-hin-667",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "hacia allí",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0190",
+      "cardId": "a2-hineingehen-670",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "entrar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0191",
+      "cardId": "a2-Homepage-683",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "página de inicio de internet",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0192",
+      "cardId": "a2-Hosenbein-684",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "pernera",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0193",
+      "cardId": "a2-Hundegebell-690",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "ladrido de perro",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0194",
+      "cardId": "a2-Hundehütte-692",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "caseta para perros",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0195",
+      "cardId": "a2-Hunderasse-693",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "raza de perro",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0196",
+      "cardId": "a2-hungern-695",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "pasar hambre",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0197",
+      "cardId": "a2-Insekt-708",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "insecto",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0198",
+      "cardId": "a2-insgesamt-710",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "en total",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0199",
+      "cardId": "a2-irgendein-717",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "algún",
+      "status": "WRITTEN_PENDING_VERIFY"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0200",
+      "cardId": "a2-irgendwohin-721",
+      "field": "lv",
+      "level": "a2",
+      "ownerNew": "a algún lugar",
+      "status": "WRITTEN_PENDING_VERIFY"
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ES-A1A2-LUNA-0001",
+      "cardId": "a1-anfangen-14",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0002",
+      "cardId": "a1-anders-15",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0003",
+      "cardId": "a1-abends-20",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0004",
+      "cardId": "a1-achten-22",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0005",
+      "cardId": "a1-anschauen-29",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0006",
+      "cardId": "a1-April-41",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0007",
+      "cardId": "a1-Arbeit-42",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0008",
+      "cardId": "a1-Arm-44",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0009",
+      "cardId": "a1-Ärztin-46",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0010",
+      "cardId": "a1-aufpassen-51",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0011",
+      "cardId": "a1-August-56",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0012",
+      "cardId": "a1-auf dem Bahnhof-59",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0013",
+      "cardId": "a1-Bauch-73",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0014",
+      "cardId": "a1-Baum-74",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0015",
+      "cardId": "a1-beginnen-77",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0016",
+      "cardId": "a1-besuchen-89",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0017",
+      "cardId": "a1-bitten-98",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0018",
+      "cardId": "a1-Blatt-99",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0019",
+      "cardId": "a1-Buchstabe-117",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0020",
+      "cardId": "a1-Butter-120",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0021",
+      "cardId": "a1-Cousine-125",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0022",
+      "cardId": "a1-deutsch-135",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0023",
+      "cardId": "a1-Dezember-136",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0024",
+      "cardId": "a1-Donnerstag-141",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0025",
+      "cardId": "a1-dürfen-150",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0026",
+      "cardId": "a1-Esslöffel-168",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0027",
+      "cardId": "a1-euer-171",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0028",
+      "cardId": "a1-Februar-178",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0029",
+      "cardId": "a1-Fernseher-182",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0030",
+      "cardId": "a1-frei-199",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0031",
+      "cardId": "a1-frühstücken-208",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0032",
+      "cardId": "a1-Fußball-218",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0033",
+      "cardId": "a1-geboren-224",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0034",
+      "cardId": "a1-gegen-226",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0035",
+      "cardId": "a1-halb-262",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0036",
+      "cardId": "a1-Hälfte-263",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0037",
+      "cardId": "a1-Haltestelle-266",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0038",
+      "cardId": "a1-Heft-273",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0039",
+      "cardId": "a1-helfen-277",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0040",
+      "cardId": "a1-Herr-280",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0041",
+      "cardId": "a1-hübsch-288",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0042",
+      "cardId": "a1-ich-291",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0043",
+      "cardId": "a1-Januar-298",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0044",
+      "cardId": "a1-jawohl-299",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0045",
+      "cardId": "a1-Juli-303",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0046",
+      "cardId": "a1-Juni-305",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0047",
+      "cardId": "a1-Honig-324",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0048",
+      "cardId": "a1-Koch-340",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0049",
+      "cardId": "a1-Köchin-341",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0050",
+      "cardId": "a1-Lehrerin-365",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0051",
+      "cardId": "a1-letzte-370",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0052",
+      "cardId": "a1-Liebe-374",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0053",
+      "cardId": "a1-Lineal-379",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0054",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0055",
+      "cardId": "a1-Mai-389",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0056",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0057",
+      "cardId": "a1-Mandarine-393",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0058",
+      "cardId": "a1-Marmelade-395",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0059",
+      "cardId": "a1-März-396",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0060",
+      "cardId": "a1-mein-401",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0061",
+      "cardId": "a1-mitnehmen-409",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0062",
+      "cardId": "a1-Mittag-410",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0063",
+      "cardId": "a1-Mittwoch-412",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0064",
+      "cardId": "a1-Montag-416",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0065",
+      "cardId": "a1-Mütze-425",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0066",
+      "cardId": "a1-neunzehnte-444",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0067",
+      "cardId": "a1-neunzigste-446",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0068",
+      "cardId": "a1-November-453",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0069",
+      "cardId": "a1-Oktober-464",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0070",
+      "cardId": "a1-Polizei-479",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0071",
+      "cardId": "a1-schmecken-515",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0072",
+      "cardId": "a1-Schnee-517",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0073",
+      "cardId": "a1-September-546",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0074",
+      "cardId": "a1-so-559",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0075",
+      "cardId": "a1-Samstag-566",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0076",
+      "cardId": "a1-Taxi-591",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0077",
+      "cardId": "a1-Teller-595",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0078",
+      "cardId": "a1-Treppe-603",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0079",
+      "cardId": "a1-versuchen-622",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0080",
+      "cardId": "a1-Vorname-637",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0081",
+      "cardId": "a1-sich waschen-646",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0082",
+      "cardId": "a1-welcher-652",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0083",
+      "cardId": "a1-zumachen-673",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0084",
+      "cardId": "a2-Abenteuer-1",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0085",
+      "cardId": "a2-abtauen-17",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0086",
+      "cardId": "a2-abwesend-20",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0087",
+      "cardId": "a2-Achse-21",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0088",
+      "cardId": "a2-Aerobic-26",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0089",
+      "cardId": "a2-Änderung-36",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0090",
+      "cardId": "a2-Anlass-53",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0091",
+      "cardId": "a2-anlässlich-54",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0092",
+      "cardId": "a2-anstreichen-66",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0093",
+      "cardId": "a2-anzünden-75",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0094",
+      "cardId": "a2-Arm-85",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0095",
+      "cardId": "a2-Ast-94",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0096",
+      "cardId": "a2-auf die Schulter klopfen-102",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0097",
+      "cardId": "a2-auf jeden Fall-104",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0098",
+      "cardId": "a2-aufbrechen-107",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0099",
+      "cardId": "a2-Aufenthalt-110",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0100",
+      "cardId": "a2-auffordern-113",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0101",
+      "cardId": "a2-aufhalten-117",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0102",
+      "cardId": "a2-aufklären-122",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0103",
+      "cardId": "a2-aufregen-136",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0104",
+      "cardId": "a2-aufstellen-143",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0105",
+      "cardId": "a2-Aufstrich-144",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0106",
+      "cardId": "a2-auftauen-145",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0107",
+      "cardId": "a2-aufziehen-151",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0108",
+      "cardId": "a2-ausbessern-155",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0109",
+      "cardId": "a2-ausstrahlen-160",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0110",
+      "cardId": "a2-Ausverkauf-163",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0111",
+      "cardId": "a2-auswärts-166",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0112",
+      "cardId": "a2-Ausweis-167",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0113",
+      "cardId": "a2-auswendig-168",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0114",
+      "cardId": "a2-Autobahn-170",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0115",
+      "cardId": "a2-Autopanne-175",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0116",
+      "cardId": "a2-Badetuch-185",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0117",
+      "cardId": "a2-Bahngleis-188",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0118",
+      "cardId": "a2-Bargeld-200",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0119",
+      "cardId": "a2-Bauchweh-205",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0120",
+      "cardId": "a2-Bäuerin-208",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0121",
+      "cardId": "a2-Beet-216",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0122",
+      "cardId": "a2-bellen-228",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0123",
+      "cardId": "a2-besitzen-238",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0124",
+      "cardId": "a2-Besteck-241",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0125",
+      "cardId": "a2-beten-246",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0126",
+      "cardId": "a2-bewundern-250",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0127",
+      "cardId": "a2-Blick-261",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0128",
+      "cardId": "a2-Blitz-263",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0129",
+      "cardId": "a2-Braten-281",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0130",
+      "cardId": "a2-Bratkartoffeln-282",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0131",
+      "cardId": "a2-Bräutigam-284",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0132",
+      "cardId": "a2-Bremse-287",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0133",
+      "cardId": "a2-Bürste-303",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0134",
+      "cardId": "a2-Chance-306",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0135",
+      "cardId": "a2-Comic-311",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0136",
+      "cardId": "a2-deutlich-340",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0137",
+      "cardId": "a2-dorthin-351",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0138",
+      "cardId": "a2-draußen-352",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0139",
+      "cardId": "a2-Drittel-358",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0140",
+      "cardId": "a2-drüben-359",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0141",
+      "cardId": "a2-egal-374",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0142",
+      "cardId": "a2-Eile-379",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0143",
+      "cardId": "a2-einige-384",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0144",
+      "cardId": "a2-einschenken-392",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0145",
+      "cardId": "a2-einverstanden-397",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0146",
+      "cardId": "a2-Eiskaffee-402",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0147",
+      "cardId": "a2-enden-408",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0148",
+      "cardId": "a2-entdecken-412",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0149",
+      "cardId": "a2-entlang-414",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0150",
+      "cardId": "a2-entschuldigen-415",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0151",
+      "cardId": "a2-entweder-416",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0152",
+      "cardId": "a2-Erdgeschoss-417",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0153",
+      "cardId": "a2-erkennen-423",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0154",
+      "cardId": "a2-erwachsen-430",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0155",
+      "cardId": "a2-Essbesteck-435",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0156",
+      "cardId": "a2-Fächer-445",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0157",
+      "cardId": "a2-Fähre-448",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0158",
+      "cardId": "a2-Fahrer-449",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0159",
+      "cardId": "a2-Fahrt-452",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0160",
+      "cardId": "a2-färben-461",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0161",
+      "cardId": "a2-feiern-470",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0162",
+      "cardId": "a2-Fell-475",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0163",
+      "cardId": "a2-Fensterbrett-476",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0164",
+      "cardId": "a2-Fett-483",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0165",
+      "cardId": "a2-Figur-489",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0166",
+      "cardId": "a2-Fliege-499",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0167",
+      "cardId": "a2-Fliese-500",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0168",
+      "cardId": "a2-Flugplatz-504",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0169",
+      "cardId": "a2-Formular-512",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0170",
+      "cardId": "a2-frieren-527",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0171",
+      "cardId": "a2-frisieren-529",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0172",
+      "cardId": "a2-Füllfederhalter-541",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0173",
+      "cardId": "a2-Fußballfeld-544",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0174",
+      "cardId": "a2-Fußgänger-547",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0175",
+      "cardId": "a2-Gasse-558",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0176",
+      "cardId": "a2-Gegenstand-569",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0177",
+      "cardId": "a2-Geschirr-584",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0178",
+      "cardId": "a2-Gewürz-594",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0179",
+      "cardId": "a2-Gymnastik-613",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0180",
+      "cardId": "a2-Haarschnitt-615",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0181",
+      "cardId": "a2-Haferflocken-619",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0182",
+      "cardId": "a2-halt!-626",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0183",
+      "cardId": "a2-Hase-635",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0184",
+      "cardId": "a2-Hausarzt-641",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0185",
+      "cardId": "a2-heilen-647",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0186",
+      "cardId": "a2-Heim-648",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0187",
+      "cardId": "a2-Herd-654",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0188",
+      "cardId": "a2-herzlich-662",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0189",
+      "cardId": "a2-hin-667",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0190",
+      "cardId": "a2-hineingehen-670",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0191",
+      "cardId": "a2-Homepage-683",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0192",
+      "cardId": "a2-Hosenbein-684",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0193",
+      "cardId": "a2-Hundegebell-690",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0194",
+      "cardId": "a2-Hundehütte-692",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0195",
+      "cardId": "a2-Hunderasse-693",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0196",
+      "cardId": "a2-hungern-695",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0197",
+      "cardId": "a2-Insekt-708",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0198",
+      "cardId": "a2-insgesamt-710",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0199",
+      "cardId": "a2-irgendein-717",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0200",
+      "cardId": "a2-irgendwohin-721",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "skipped": [],
+  "summary": {
+    "uniqueTargets": 200,
+    "staged": 200,
+    "appliedVerified": 200,
+    "currentValueMismatch": 0,
+    "skipped": 0,
+    "failed": 0,
+    "verificationFail": 0,
+    "deChanges": 0,
+    "reconciles": true,
+    "gitDiffPass": true,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "finalVerdict": "PASS"
+  }
+}

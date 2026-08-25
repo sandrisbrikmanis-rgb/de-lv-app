@@ -439,12 +439,12 @@ const A1_WORDS = [
   },
   {
     "de": "anfangen",
-    "lv": "para empezar",
+    "lv": "empezar",
     "level": "A1"
   },
   {
     "de": "anders",
-    "lv": "de lo contrario",
+    "lv": "diferente",
     "level": "A1"
   },
   {
@@ -643,7 +643,7 @@ const A1_WORDS = [
   },
   {
     "de": "abends",
-    "lv": "por la tarde",
+    "lv": "por la noche",
     "level": "A1"
   },
   {
@@ -805,7 +805,7 @@ const A1_WORDS = [
   },
   {
     "de": "achten",
-    "lv": "observar",
+    "lv": "prestar atención",
     "level": "A1"
   },
   {
@@ -996,7 +996,7 @@ const A1_WORDS = [
   },
   {
     "de": "anschauen",
-    "lv": "mira a",
+    "lv": "mirar",
     "level": "A1"
   },
   {
@@ -1071,14 +1071,14 @@ const A1_WORDS = [
   {
     "de": "April",
     "de_article": "der",
-    "lv": "Abril",
+    "lv": "abril",
     "level": "A1"
   },
   {
     "de": "Arbeit",
     "de_article": "die",
     "de_plural": "die Arbeiten",
-    "lv": "trabajar",
+    "lv": "trabajo",
     "level": "A1"
   },
   {
@@ -1090,7 +1090,7 @@ const A1_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "mano",
+    "lv": "brazo",
     "level": "A1"
   },
   {
@@ -1104,7 +1104,7 @@ const A1_WORDS = [
     "de": "Ärztin",
     "de_article": "die",
     "de_plural": "die Ärztinnen",
-    "lv": "un doctor",
+    "lv": "una doctora",
     "level": "A1"
   },
   {
@@ -1369,7 +1369,7 @@ const A1_WORDS = [
   },
   {
     "de": "aufpassen",
-    "lv": "ten cuidado",
+    "lv": "tener cuidado",
     "level": "A1"
   },
   {
@@ -1399,7 +1399,7 @@ const A1_WORDS = [
   {
     "de": "August",
     "de_article": "der",
-    "lv": "Agosto",
+    "lv": "agosto",
     "level": "A1"
   },
   {
@@ -1563,7 +1563,7 @@ const A1_WORDS = [
   },
   {
     "de": "auf dem Bahnhof",
-    "lv": "en la estacion",
+    "lv": "en la estación",
     "level": "A1"
   },
   {
@@ -2159,14 +2159,14 @@ const A1_WORDS = [
     "de": "Bauch",
     "de_article": "der",
     "de_plural": "die Bäuche",
-    "lv": "estómago",
+    "lv": "barriga",
     "level": "A1"
   },
   {
     "de": "Baum",
     "de_article": "der",
     "de_plural": "die Bäume",
-    "lv": "un arbol",
+    "lv": "un árbol",
     "level": "A1"
   },
   {
@@ -2183,7 +2183,7 @@ const A1_WORDS = [
   },
   {
     "de": "beginnen",
-    "lv": "para empezar",
+    "lv": "empezar",
     "level": "A1"
   },
   {
@@ -2388,7 +2388,7 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "asistir • visitar",
+    "lv": "visitar",
     "level": "A1"
   },
   {
@@ -2829,14 +2829,14 @@ const A1_WORDS = [
   },
   {
     "de": "bitten",
-    "lv": "preguntar",
+    "lv": "pedir",
     "level": "A1"
   },
   {
     "de": "Blatt",
     "de_article": "das",
     "de_plural": "die Blätter",
-    "lv": "página",
+    "lv": "hoja",
     "level": "A1"
   },
   {
@@ -3388,7 +3388,7 @@ const A1_WORDS = [
     "de": "Buchstabe",
     "de_article": "der",
     "de_plural": "die Buchstaben",
-    "lv": "carta",
+    "lv": "letra",
     "level": "A1"
   },
   {
@@ -3408,7 +3408,7 @@ const A1_WORDS = [
   {
     "de": "Butter",
     "de_article": "die",
-    "lv": "manteca",
+    "lv": "mantequilla",
     "level": "A1"
   },
   {
@@ -3443,7 +3443,7 @@ const A1_WORDS = [
     "de": "Cousine",
     "de_article": "die",
     "de_plural": "die Cousinen",
-    "lv": "primo",
+    "lv": "prima",
     "level": "A1"
   },
   {
@@ -4105,13 +4105,13 @@ const A1_WORDS = [
   },
   {
     "de": "deutsch",
-    "lv": "Alemán",
+    "lv": "alemán",
     "level": "A1"
   },
   {
     "de": "Dezember",
     "de_article": "der",
-    "lv": "Diciembre",
+    "lv": "diciembre",
     "level": "A1"
   },
   {
@@ -4340,7 +4340,7 @@ const A1_WORDS = [
     "de": "Donnerstag",
     "de_article": "der",
     "de_plural": "die Donnerstage",
-    "lv": "Jueves",
+    "lv": "jueves",
     "level": "A1"
   },
   {
@@ -4385,7 +4385,7 @@ const A1_WORDS = [
   },
   {
     "de": "dürfen",
-    "lv": "ser permitido",
+    "lv": "poder",
     "level": "A1"
   },
   {
@@ -5198,7 +5198,7 @@ const A1_WORDS = [
     "de": "Esslöffel",
     "de_article": "der",
     "de_plural": "die Esslöffel",
-    "lv": "cucharada",
+    "lv": "cuchara sopera",
     "level": "A1"
   },
   {
@@ -5511,7 +5511,7 @@ const A1_WORDS = [
   },
   {
     "de": "euer",
-    "lv": "tuyo",
+    "lv": "vuestro",
     "level": "A1"
   },
   {
@@ -5858,7 +5858,7 @@ const A1_WORDS = [
   {
     "de": "Februar",
     "de_article": "der",
-    "lv": "Febrero",
+    "lv": "febrero",
     "level": "A1"
   },
   {
@@ -5886,7 +5886,7 @@ const A1_WORDS = [
     "de": "Fernseher",
     "de_article": "der",
     "de_plural": "die Fernseher",
-    "lv": "televisión",
+    "lv": "televisor",
     "level": "A1"
   },
   {
@@ -6351,7 +6351,7 @@ const A1_WORDS = [
   },
   {
     "de": "frei",
-    "lv": "gratis",
+    "lv": "libre",
     "level": "A1"
   },
   {
@@ -6406,7 +6406,7 @@ const A1_WORDS = [
   },
   {
     "de": "frühstücken",
-    "lv": "desayunando",
+    "lv": "desayunar",
     "level": "A1"
   },
   {
@@ -6602,7 +6602,7 @@ const A1_WORDS = [
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "fútbol americano",
+    "lv": "fútbol",
     "level": "A1"
   },
   {
@@ -6866,7 +6866,7 @@ const A1_WORDS = [
   },
   {
     "de": "geboren",
-    "lv": "nació",
+    "lv": "nacido",
     "level": "A1"
   },
   {
@@ -6876,7 +6876,7 @@ const A1_WORDS = [
   },
   {
     "de": "gegen",
-    "lv": "vs",
+    "lv": "contra",
     "level": "A1"
   },
   {
@@ -7712,14 +7712,14 @@ const A1_WORDS = [
   },
   {
     "de": "halb",
-    "lv": "lado",
+    "lv": "medio",
     "level": "A1"
   },
   {
     "de": "Hälfte",
     "de_article": "die",
     "de_plural": "die Hälften",
-    "lv": "lado",
+    "lv": "mitad",
     "level": "A1"
   },
   {
@@ -7955,7 +7955,7 @@ const A1_WORDS = [
     "de": "Haltestelle",
     "de_article": "die",
     "de_plural": "die Haltestellen",
-    "lv": "detener",
+    "lv": "parada",
     "level": "A1"
   },
   {
@@ -8004,7 +8004,7 @@ const A1_WORDS = [
     "de": "Heft",
     "de_article": "das",
     "de_plural": "die Hefte",
-    "lv": "computadora portátil",
+    "lv": "cuaderno",
     "level": "A1"
   },
   {
@@ -8245,7 +8245,7 @@ const A1_WORDS = [
   },
   {
     "de": "helfen",
-    "lv": "para ayudar",
+    "lv": "ayudar",
     "level": "A1"
   },
   {
@@ -8266,7 +8266,7 @@ const A1_WORDS = [
     "de": "Herr",
     "de_article": "der",
     "de_plural": "die Herren",
-    "lv": "Señor",
+    "lv": "señor",
     "level": "A1"
   },
   {
@@ -8522,7 +8522,7 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "ordenado • agradable",
+    "lv": "bonito",
     "level": "A1"
   },
   {
@@ -8537,7 +8537,7 @@ const A1_WORDS = [
   },
   {
     "de": "ich",
-    "lv": "a mí",
+    "lv": "yo",
     "level": "A1"
   },
   {
@@ -9448,12 +9448,12 @@ const A1_WORDS = [
   {
     "de": "Januar",
     "de_article": "der",
-    "lv": "Enero",
+    "lv": "enero",
     "level": "A1"
   },
   {
     "de": "jawohl",
-    "lv": "exactamente así",
+    "lv": "sí",
     "level": "A1"
   },
   {
@@ -9474,7 +9474,7 @@ const A1_WORDS = [
   {
     "de": "Juli",
     "de_article": "der",
-    "lv": "Julio",
+    "lv": "julio",
     "level": "A1"
   },
   {
@@ -9660,7 +9660,7 @@ const A1_WORDS = [
   {
     "de": "Juni",
     "de_article": "der",
-    "lv": "Junio",
+    "lv": "junio",
     "level": "A1"
   },
   {
@@ -10645,7 +10645,7 @@ const A1_WORDS = [
     "de": "Honig",
     "de_article": "der",
     "de_plural": "die Honige",
-    "lv": "Miel",
+    "lv": "miel",
     "level": "A1"
   },
   {
@@ -10754,14 +10754,14 @@ const A1_WORDS = [
     "de": "Koch",
     "de_article": "der",
     "de_plural": "die Köche",
-    "lv": "cocinar",
+    "lv": "cocinero",
     "level": "A1"
   },
   {
     "de": "Köchin",
     "de_article": "die",
     "de_plural": "die Köchinnen",
-    "lv": "cocinar",
+    "lv": "cocinera",
     "level": "A1"
   },
   {
@@ -12331,7 +12331,7 @@ const A1_WORDS = [
     "de": "Lehrerin",
     "de_article": "die",
     "de_plural": "die Lehrerinnen",
-    "lv": "un maestro",
+    "lv": "una maestra",
     "level": "A1"
   },
   {
@@ -12469,7 +12469,7 @@ const A1_WORDS = [
   },
   {
     "de": "letzte",
-    "lv": "el ultimo",
+    "lv": "el último",
     "level": "A1"
   },
   {
@@ -12493,7 +12493,7 @@ const A1_WORDS = [
   {
     "de": "Liebe",
     "de_article": "die",
-    "lv": "amar",
+    "lv": "amor",
     "level": "A1"
   },
   {
@@ -12750,12 +12750,12 @@ const A1_WORDS = [
     "de": "Lineal",
     "de_article": "das",
     "de_plural": "die Lineale",
-    "lv": "gobernante",
+    "lv": "regla",
     "level": "A1"
   },
   {
     "de": "links",
-    "lv": "izquierda • izquierda",
+    "lv": "izquierda",
     "level": "A1"
   },
   {
@@ -12966,7 +12966,7 @@ const A1_WORDS = [
   {
     "de": "Mai",
     "de_article": "der",
-    "lv": "Puede",
+    "lv": "mayo",
     "level": "A1"
   },
   {
@@ -13088,7 +13088,7 @@ const A1_WORDS = [
   },
   {
     "de": "malen",
-    "lv": "pintar • pintar",
+    "lv": "pintar",
     "level": "A1"
   },
   {
@@ -13100,7 +13100,7 @@ const A1_WORDS = [
     "de": "Mandarine",
     "de_article": "die",
     "de_plural": "die Mandarinen",
-    "lv": "mandarín",
+    "lv": "mandarina",
     "level": "A1"
   },
   {
@@ -13259,13 +13259,13 @@ const A1_WORDS = [
     "de": "Marmelade",
     "de_article": "die",
     "de_plural": "die Marmeladen",
-    "lv": "atasco",
+    "lv": "mermelada",
     "level": "A1"
   },
   {
     "de": "März",
     "de_article": "der",
-    "lv": "Marzo",
+    "lv": "marzo",
     "level": "A1"
   },
   {
@@ -13296,7 +13296,7 @@ const A1_WORDS = [
   },
   {
     "de": "mein",
-    "lv": "mío",
+    "lv": "mi",
     "level": "A1"
   },
   {
@@ -13552,14 +13552,14 @@ const A1_WORDS = [
   },
   {
     "de": "mitnehmen",
-    "lv": "llévate contigo",
+    "lv": "llevarse",
     "level": "A1"
   },
   {
     "de": "Mittag",
     "de_article": "der",
     "de_plural": "die Mittage",
-    "lv": "almuerzo",
+    "lv": "mediodía",
     "level": "A1"
   },
   {
@@ -13573,7 +13573,7 @@ const A1_WORDS = [
     "de": "Mittwoch",
     "de_article": "der",
     "de_plural": "die Mittwoche",
-    "lv": "Miércoles",
+    "lv": "miércoles",
     "level": "A1"
   },
   {
@@ -13807,7 +13807,7 @@ const A1_WORDS = [
     "de": "Montag",
     "de_article": "der",
     "de_plural": "die Montage",
-    "lv": "Lunes",
+    "lv": "lunes",
     "level": "A1"
   },
   {
@@ -14356,7 +14356,7 @@ const A1_WORDS = [
     "de": "Mütze",
     "de_article": "die",
     "de_plural": "die Mützen",
-    "lv": "sombrero",
+    "lv": "gorro",
     "level": "A1"
   },
   {
@@ -15234,7 +15234,7 @@ const A1_WORDS = [
   },
   {
     "de": "neunzehnte",
-    "lv": "el diecinueve",
+    "lv": "el decimonoveno",
     "level": "A1"
   },
   {
@@ -15244,7 +15244,7 @@ const A1_WORDS = [
   },
   {
     "de": "neunzigste",
-    "lv": "el noventa",
+    "lv": "el nonagésimo",
     "level": "A1"
   },
   {
@@ -15375,7 +15375,7 @@ const A1_WORDS = [
   {
     "de": "November",
     "de_article": "der",
-    "lv": "Noviembre",
+    "lv": "noviembre",
     "level": "A1"
   },
   {
@@ -16008,7 +16008,7 @@ const A1_WORDS = [
   {
     "de": "Oktober",
     "de_article": "der",
-    "lv": "Octubre",
+    "lv": "octubre",
     "level": "A1"
   },
   {
@@ -16322,7 +16322,7 @@ const A1_WORDS = [
   {
     "de": "Polizei",
     "de_article": "die",
-    "lv": "la policia",
+    "lv": "la policía",
     "level": "A1"
   },
   {
@@ -16988,7 +16988,7 @@ const A1_WORDS = [
   },
   {
     "de": "schmecken",
-    "lv": "al gusto",
+    "lv": "saber",
     "level": "A1"
   },
   {
@@ -16999,7 +16999,7 @@ const A1_WORDS = [
   {
     "de": "Schnee",
     "de_article": "der",
-    "lv": "nevará",
+    "lv": "nieve",
     "level": "A1"
   },
   {
@@ -17993,7 +17993,7 @@ const A1_WORDS = [
   {
     "de": "September",
     "de_article": "der",
-    "lv": "Septiembre",
+    "lv": "septiembre",
     "level": "A1"
   },
   {
@@ -18926,7 +18926,7 @@ const A1_WORDS = [
   },
   {
     "de": "so",
-    "lv": "entonces",
+    "lv": "así",
     "level": "A1"
   },
   {
@@ -19190,7 +19190,7 @@ const A1_WORDS = [
     "de": "Samstag",
     "de_article": "der",
     "de_plural": "die Samstage",
-    "lv": "Sábado",
+    "lv": "sábado",
     "level": "A1"
   },
   {
@@ -19563,7 +19563,7 @@ const A1_WORDS = [
     "de": "Taxi",
     "de_article": "das",
     "de_plural": "die Taxis",
-    "lv": "Taxi",
+    "lv": "taxi",
     "level": "A1"
   },
   {
@@ -19589,7 +19589,7 @@ const A1_WORDS = [
     "de": "Teller",
     "de_article": "der",
     "de_plural": "die Teller",
-    "lv": "lámina",
+    "lv": "plato",
     "level": "A1"
   },
   {
@@ -19643,7 +19643,7 @@ const A1_WORDS = [
     "de": "Treppe",
     "de_article": "die",
     "de_plural": "die Treppen",
-    "lv": "escaleras",
+    "lv": "escalera",
     "level": "A1"
   },
   {
@@ -20607,7 +20607,7 @@ const A1_WORDS = [
   },
   {
     "de": "versuchen",
-    "lv": "intentarlo",
+    "lv": "intentar",
     "level": "A1"
   },
   {
@@ -21196,7 +21196,7 @@ const A1_WORDS = [
     "de": "Vorname",
     "de_article": "der",
     "de_plural": "die Vornamen",
-    "lv": "palabra",
+    "lv": "nombre de pila",
     "level": "A1"
   },
   {
@@ -21421,7 +21421,7 @@ const A1_WORDS = [
   },
   {
     "de": "sich waschen",
-    "lv": "lavar",
+    "lv": "lavarse",
     "level": "A1"
   },
   {
@@ -21455,7 +21455,7 @@ const A1_WORDS = [
   },
   {
     "de": "welcher",
-    "lv": "OMS",
+    "lv": "cuál",
     "level": "A1"
   },
   {
@@ -23295,7 +23295,7 @@ const A1_WORDS = [
   },
   {
     "de": "zumachen",
-    "lv": "de cerca",
+    "lv": "cerrar",
     "level": "A1"
   },
   {

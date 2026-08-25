@@ -1,0 +1,1610 @@
+{
+  "generatedAt": "2026-08-25T16:24:27.307Z",
+  "sources": [
+    "reports/es-de-a1-a2-owner-decisions-master-001-100.md",
+    "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+  ],
+  "apply": [
+    {
+      "auditId": "ES-A1A2-LUNA-0001",
+      "cardId": "a1-anfangen-14",
+      "field": "lv",
+      "current": "para empezar",
+      "ownerNew": "empezar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0002",
+      "cardId": "a1-anders-15",
+      "field": "lv",
+      "current": "de lo contrario",
+      "ownerNew": "diferente",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0003",
+      "cardId": "a1-abends-20",
+      "field": "lv",
+      "current": "por la tarde",
+      "ownerNew": "por la noche",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0004",
+      "cardId": "a1-achten-22",
+      "field": "lv",
+      "current": "observar",
+      "ownerNew": "prestar atención",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0005",
+      "cardId": "a1-anschauen-29",
+      "field": "lv",
+      "current": "mira a",
+      "ownerNew": "mirar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0006",
+      "cardId": "a1-April-41",
+      "field": "lv",
+      "current": "Abril",
+      "ownerNew": "abril",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0007",
+      "cardId": "a1-Arbeit-42",
+      "field": "lv",
+      "current": "trabajar",
+      "ownerNew": "trabajo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0008",
+      "cardId": "a1-Arm-44",
+      "field": "lv",
+      "current": "mano",
+      "ownerNew": "brazo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0009",
+      "cardId": "a1-Ärztin-46",
+      "field": "lv",
+      "current": "un doctor",
+      "ownerNew": "una doctora",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0010",
+      "cardId": "a1-aufpassen-51",
+      "field": "lv",
+      "current": "ten cuidado",
+      "ownerNew": "tener cuidado",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0011",
+      "cardId": "a1-August-56",
+      "field": "lv",
+      "current": "Agosto",
+      "ownerNew": "agosto",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0012",
+      "cardId": "a1-auf dem Bahnhof-59",
+      "field": "lv",
+      "current": "en la estacion",
+      "ownerNew": "en la estación",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0013",
+      "cardId": "a1-Bauch-73",
+      "field": "lv",
+      "current": "estómago",
+      "ownerNew": "barriga",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0014",
+      "cardId": "a1-Baum-74",
+      "field": "lv",
+      "current": "un arbol",
+      "ownerNew": "un árbol",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0015",
+      "cardId": "a1-beginnen-77",
+      "field": "lv",
+      "current": "para empezar",
+      "ownerNew": "empezar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0016",
+      "cardId": "a1-besuchen-89",
+      "field": "lv",
+      "current": "asistir • visitar",
+      "ownerNew": "visitar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0017",
+      "cardId": "a1-bitten-98",
+      "field": "lv",
+      "current": "preguntar",
+      "ownerNew": "pedir",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0018",
+      "cardId": "a1-Blatt-99",
+      "field": "lv",
+      "current": "página",
+      "ownerNew": "hoja",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0019",
+      "cardId": "a1-Buchstabe-117",
+      "field": "lv",
+      "current": "carta",
+      "ownerNew": "letra",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0020",
+      "cardId": "a1-Butter-120",
+      "field": "lv",
+      "current": "manteca",
+      "ownerNew": "mantequilla",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0021",
+      "cardId": "a1-Cousine-125",
+      "field": "lv",
+      "current": "primo",
+      "ownerNew": "prima",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0022",
+      "cardId": "a1-deutsch-135",
+      "field": "lv",
+      "current": "Alemán",
+      "ownerNew": "alemán",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0023",
+      "cardId": "a1-Dezember-136",
+      "field": "lv",
+      "current": "Diciembre",
+      "ownerNew": "diciembre",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0024",
+      "cardId": "a1-Donnerstag-141",
+      "field": "lv",
+      "current": "Jueves",
+      "ownerNew": "jueves",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0025",
+      "cardId": "a1-dürfen-150",
+      "field": "lv",
+      "current": "ser permitido",
+      "ownerNew": "poder",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0026",
+      "cardId": "a1-Esslöffel-168",
+      "field": "lv",
+      "current": "cucharada",
+      "ownerNew": "cuchara sopera",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0027",
+      "cardId": "a1-euer-171",
+      "field": "lv",
+      "current": "tuyo",
+      "ownerNew": "vuestro",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0028",
+      "cardId": "a1-Februar-178",
+      "field": "lv",
+      "current": "Febrero",
+      "ownerNew": "febrero",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0029",
+      "cardId": "a1-Fernseher-182",
+      "field": "lv",
+      "current": "televisión",
+      "ownerNew": "televisor",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0030",
+      "cardId": "a1-frei-199",
+      "field": "lv",
+      "current": "gratis",
+      "ownerNew": "libre",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0031",
+      "cardId": "a1-frühstücken-208",
+      "field": "lv",
+      "current": "desayunando",
+      "ownerNew": "desayunar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0032",
+      "cardId": "a1-Fußball-218",
+      "field": "lv",
+      "current": "fútbol americano",
+      "ownerNew": "fútbol",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0033",
+      "cardId": "a1-geboren-224",
+      "field": "lv",
+      "current": "nació",
+      "ownerNew": "nacido",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0034",
+      "cardId": "a1-gegen-226",
+      "field": "lv",
+      "current": "vs",
+      "ownerNew": "contra",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0035",
+      "cardId": "a1-halb-262",
+      "field": "lv",
+      "current": "lado",
+      "ownerNew": "medio",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0036",
+      "cardId": "a1-Hälfte-263",
+      "field": "lv",
+      "current": "lado",
+      "ownerNew": "mitad",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0037",
+      "cardId": "a1-Haltestelle-266",
+      "field": "lv",
+      "current": "detener",
+      "ownerNew": "parada",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0038",
+      "cardId": "a1-Heft-273",
+      "field": "lv",
+      "current": "computadora portátil",
+      "ownerNew": "cuaderno",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0039",
+      "cardId": "a1-helfen-277",
+      "field": "lv",
+      "current": "para ayudar",
+      "ownerNew": "ayudar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0040",
+      "cardId": "a1-Herr-280",
+      "field": "lv",
+      "current": "Señor",
+      "ownerNew": "señor",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0041",
+      "cardId": "a1-hübsch-288",
+      "field": "lv",
+      "current": "ordenado • agradable",
+      "ownerNew": "bonito",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0042",
+      "cardId": "a1-ich-291",
+      "field": "lv",
+      "current": "a mí",
+      "ownerNew": "yo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0043",
+      "cardId": "a1-Januar-298",
+      "field": "lv",
+      "current": "Enero",
+      "ownerNew": "enero",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0044",
+      "cardId": "a1-jawohl-299",
+      "field": "lv",
+      "current": "exactamente así",
+      "ownerNew": "sí",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0045",
+      "cardId": "a1-Juli-303",
+      "field": "lv",
+      "current": "Julio",
+      "ownerNew": "julio",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0046",
+      "cardId": "a1-Juni-305",
+      "field": "lv",
+      "current": "Junio",
+      "ownerNew": "junio",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0047",
+      "cardId": "a1-Honig-324",
+      "field": "lv",
+      "current": "Miel",
+      "ownerNew": "miel",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0048",
+      "cardId": "a1-Koch-340",
+      "field": "lv",
+      "current": "cocinar",
+      "ownerNew": "cocinero",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0049",
+      "cardId": "a1-Köchin-341",
+      "field": "lv",
+      "current": "cocinar",
+      "ownerNew": "cocinera",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0050",
+      "cardId": "a1-Lehrerin-365",
+      "field": "lv",
+      "current": "un maestro",
+      "ownerNew": "una maestra",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0051",
+      "cardId": "a1-letzte-370",
+      "field": "lv",
+      "current": "el ultimo",
+      "ownerNew": "el último",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0052",
+      "cardId": "a1-Liebe-374",
+      "field": "lv",
+      "current": "amar",
+      "ownerNew": "amor",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0053",
+      "cardId": "a1-Lineal-379",
+      "field": "lv",
+      "current": "gobernante",
+      "ownerNew": "regla",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0054",
+      "cardId": "a1-links-380",
+      "field": "lv",
+      "current": "izquierda • izquierda",
+      "ownerNew": "izquierda",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0055",
+      "cardId": "a1-Mai-389",
+      "field": "lv",
+      "current": "Puede",
+      "ownerNew": "mayo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0056",
+      "cardId": "a1-malen-391",
+      "field": "lv",
+      "current": "pintar • pintar",
+      "ownerNew": "pintar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0057",
+      "cardId": "a1-Mandarine-393",
+      "field": "lv",
+      "current": "mandarín",
+      "ownerNew": "mandarina",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0058",
+      "cardId": "a1-Marmelade-395",
+      "field": "lv",
+      "current": "atasco",
+      "ownerNew": "mermelada",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0059",
+      "cardId": "a1-März-396",
+      "field": "lv",
+      "current": "Marzo",
+      "ownerNew": "marzo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0060",
+      "cardId": "a1-mein-401",
+      "field": "lv",
+      "current": "mío",
+      "ownerNew": "mi",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0061",
+      "cardId": "a1-mitnehmen-409",
+      "field": "lv",
+      "current": "llévate contigo",
+      "ownerNew": "llevarse",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0062",
+      "cardId": "a1-Mittag-410",
+      "field": "lv",
+      "current": "almuerzo",
+      "ownerNew": "mediodía",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0063",
+      "cardId": "a1-Mittwoch-412",
+      "field": "lv",
+      "current": "Miércoles",
+      "ownerNew": "miércoles",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0064",
+      "cardId": "a1-Montag-416",
+      "field": "lv",
+      "current": "Lunes",
+      "ownerNew": "lunes",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0065",
+      "cardId": "a1-Mütze-425",
+      "field": "lv",
+      "current": "sombrero",
+      "ownerNew": "gorro",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0066",
+      "cardId": "a1-neunzehnte-444",
+      "field": "lv",
+      "current": "el diecinueve",
+      "ownerNew": "el decimonoveno",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0067",
+      "cardId": "a1-neunzigste-446",
+      "field": "lv",
+      "current": "el noventa",
+      "ownerNew": "el nonagésimo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0068",
+      "cardId": "a1-November-453",
+      "field": "lv",
+      "current": "Noviembre",
+      "ownerNew": "noviembre",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0069",
+      "cardId": "a1-Oktober-464",
+      "field": "lv",
+      "current": "Octubre",
+      "ownerNew": "octubre",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0070",
+      "cardId": "a1-Polizei-479",
+      "field": "lv",
+      "current": "la policia",
+      "ownerNew": "la policía",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0071",
+      "cardId": "a1-schmecken-515",
+      "field": "lv",
+      "current": "al gusto",
+      "ownerNew": "saber",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0072",
+      "cardId": "a1-Schnee-517",
+      "field": "lv",
+      "current": "nevará",
+      "ownerNew": "nieve",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0073",
+      "cardId": "a1-September-546",
+      "field": "lv",
+      "current": "Septiembre",
+      "ownerNew": "septiembre",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0074",
+      "cardId": "a1-so-559",
+      "field": "lv",
+      "current": "entonces",
+      "ownerNew": "así",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0075",
+      "cardId": "a1-Samstag-566",
+      "field": "lv",
+      "current": "Sábado",
+      "ownerNew": "sábado",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0076",
+      "cardId": "a1-Taxi-591",
+      "field": "lv",
+      "current": "Taxi",
+      "ownerNew": "taxi",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0077",
+      "cardId": "a1-Teller-595",
+      "field": "lv",
+      "current": "lámina",
+      "ownerNew": "plato",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0078",
+      "cardId": "a1-Treppe-603",
+      "field": "lv",
+      "current": "escaleras",
+      "ownerNew": "escalera",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0079",
+      "cardId": "a1-versuchen-622",
+      "field": "lv",
+      "current": "intentarlo",
+      "ownerNew": "intentar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0080",
+      "cardId": "a1-Vorname-637",
+      "field": "lv",
+      "current": "palabra",
+      "ownerNew": "nombre de pila",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0081",
+      "cardId": "a1-sich waschen-646",
+      "field": "lv",
+      "current": "lavar",
+      "ownerNew": "lavarse",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0082",
+      "cardId": "a1-welcher-652",
+      "field": "lv",
+      "current": "OMS",
+      "ownerNew": "cuál",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0083",
+      "cardId": "a1-zumachen-673",
+      "field": "lv",
+      "current": "de cerca",
+      "ownerNew": "cerrar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0084",
+      "cardId": "a2-Abenteuer-1",
+      "field": "lv",
+      "current": "aventura • asunto",
+      "ownerNew": "aventura",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0085",
+      "cardId": "a2-abtauen-17",
+      "field": "lv",
+      "current": "deshielo",
+      "ownerNew": "descongelar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0086",
+      "cardId": "a2-abwesend-20",
+      "field": "lv",
+      "current": "prometedor",
+      "ownerNew": "ausente",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0087",
+      "cardId": "a2-Achse-21",
+      "field": "lv",
+      "current": "culo",
+      "ownerNew": "eje",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0088",
+      "cardId": "a2-Aerobic-26",
+      "field": "lv",
+      "current": "aerobic",
+      "ownerNew": "aeróbic",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0089",
+      "cardId": "a2-Änderung-36",
+      "field": "lv",
+      "current": "cambios",
+      "ownerNew": "cambio",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0090",
+      "cardId": "a2-Anlass-53",
+      "field": "lv",
+      "current": "razón • caso",
+      "ownerNew": "ocasión",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0091",
+      "cardId": "a2-anlässlich-54",
+      "field": "lv",
+      "current": "debido a",
+      "ownerNew": "con motivo de",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0092",
+      "cardId": "a2-anstreichen-66",
+      "field": "lv",
+      "current": "color • subrayado",
+      "ownerNew": "pintar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0093",
+      "cardId": "a2-anzünden-75",
+      "field": "lv",
+      "current": "incendiar",
+      "ownerNew": "encender",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0094",
+      "cardId": "a2-Arm-85",
+      "field": "lv",
+      "current": "mano",
+      "ownerNew": "brazo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0095",
+      "cardId": "a2-Ast-94",
+      "field": "lv",
+      "current": "una sucursal",
+      "ownerNew": "rama",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0096",
+      "cardId": "a2-auf die Schulter klopfen-102",
+      "field": "lv",
+      "current": "toque en el hombro",
+      "ownerNew": "dar una palmada en el hombro",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0097",
+      "cardId": "a2-auf jeden Fall-104",
+      "field": "lv",
+      "current": "en cada caso",
+      "ownerNew": "en cualquier caso",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0098",
+      "cardId": "a2-aufbrechen-107",
+      "field": "lv",
+      "current": "poner en marcha • abrirse",
+      "ownerNew": "ponerse en marcha",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0099",
+      "cardId": "a2-Aufenthalt-110",
+      "field": "lv",
+      "current": "permanecer",
+      "ownerNew": "estancia",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0100",
+      "cardId": "a2-auffordern-113",
+      "field": "lv",
+      "current": "invitar",
+      "ownerNew": "pedir",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-001-100.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0101",
+      "cardId": "a2-aufhalten-117",
+      "field": "lv",
+      "current": "demora",
+      "ownerNew": "detener",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0102",
+      "cardId": "a2-aufklären-122",
+      "field": "lv",
+      "current": "descubrir • explicar",
+      "ownerNew": "aclarar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0103",
+      "cardId": "a2-aufregen-136",
+      "field": "lv",
+      "current": "preocuparse",
+      "ownerNew": "alterar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0104",
+      "cardId": "a2-aufstellen-143",
+      "field": "lv",
+      "current": "para instalar",
+      "ownerNew": "instalar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0105",
+      "cardId": "a2-Aufstrich-144",
+      "field": "lv",
+      "current": "frotis",
+      "ownerNew": "crema para untar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0106",
+      "cardId": "a2-auftauen-145",
+      "field": "lv",
+      "current": "deshielo",
+      "ownerNew": "descongelar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0107",
+      "cardId": "a2-aufziehen-151",
+      "field": "lv",
+      "current": "mencionar • molestar",
+      "ownerNew": "criar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0108",
+      "cardId": "a2-ausbessern-155",
+      "field": "lv",
+      "current": "corregir",
+      "ownerNew": "reparar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0109",
+      "cardId": "a2-ausstrahlen-160",
+      "field": "lv",
+      "current": "irradiando",
+      "ownerNew": "irradiar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0110",
+      "cardId": "a2-Ausverkauf-163",
+      "field": "lv",
+      "current": "venta",
+      "ownerNew": "liquidación",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0111",
+      "cardId": "a2-auswärts-166",
+      "field": "lv",
+      "current": "lejos de casa • lejos",
+      "ownerNew": "fuera",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0112",
+      "cardId": "a2-Ausweis-167",
+      "field": "lv",
+      "current": "certificado",
+      "ownerNew": "documento de identidad",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0113",
+      "cardId": "a2-auswendig-168",
+      "field": "lv",
+      "current": "desde la cabeza",
+      "ownerNew": "de memoria",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0114",
+      "cardId": "a2-Autobahn-170",
+      "field": "lv",
+      "current": "carretera",
+      "ownerNew": "autopista",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0115",
+      "cardId": "a2-Autopanne-175",
+      "field": "lv",
+      "current": "daños al auto • falla",
+      "ownerNew": "avería del coche",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0116",
+      "cardId": "a2-Badetuch-185",
+      "field": "lv",
+      "current": "hoja de natación",
+      "ownerNew": "toalla de baño",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0117",
+      "cardId": "a2-Bahngleis-188",
+      "field": "lv",
+      "current": "rieles",
+      "ownerNew": "vía férrea",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0118",
+      "cardId": "a2-Bargeld-200",
+      "field": "lv",
+      "current": "dinero",
+      "ownerNew": "dinero en efectivo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0119",
+      "cardId": "a2-Bauchweh-205",
+      "field": "lv",
+      "current": "Dolor de estómago",
+      "ownerNew": "dolor de estómago",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0120",
+      "cardId": "a2-Bäuerin-208",
+      "field": "lv",
+      "current": "un granjero",
+      "ownerNew": "agricultora",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0121",
+      "cardId": "a2-Beet-216",
+      "field": "lv",
+      "current": "cama",
+      "ownerNew": "parterre",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0122",
+      "cardId": "a2-bellen-228",
+      "field": "lv",
+      "current": "atardecer",
+      "ownerNew": "ladrar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0123",
+      "cardId": "a2-besitzen-238",
+      "field": "lv",
+      "current": "pertenecer",
+      "ownerNew": "poseer",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0124",
+      "cardId": "a2-Besteck-241",
+      "field": "lv",
+      "current": "cuchillería",
+      "ownerNew": "cubiertos",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0125",
+      "cardId": "a2-beten-246",
+      "field": "lv",
+      "current": "orar a dios",
+      "ownerNew": "orar a Dios",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0126",
+      "cardId": "a2-bewundern-250",
+      "field": "lv",
+      "current": "admirativo",
+      "ownerNew": "admirar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0127",
+      "cardId": "a2-Blick-261",
+      "field": "lv",
+      "current": "ver • vistazo",
+      "ownerNew": "mirada",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0128",
+      "cardId": "a2-Blitz-263",
+      "field": "lv",
+      "current": "iluminación",
+      "ownerNew": "relámpago",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0129",
+      "cardId": "a2-Braten-281",
+      "field": "lv",
+      "current": "asar",
+      "ownerNew": "asado",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0130",
+      "cardId": "a2-Bratkartoffeln-282",
+      "field": "lv",
+      "current": "patatas fritas",
+      "ownerNew": "patatas salteadas",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0131",
+      "cardId": "a2-Bräutigam-284",
+      "field": "lv",
+      "current": "acicalar",
+      "ownerNew": "novio",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0132",
+      "cardId": "a2-Bremse-287",
+      "field": "lv",
+      "current": "freno • golpe",
+      "ownerNew": "freno",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0133",
+      "cardId": "a2-Bürste-303",
+      "field": "lv",
+      "current": "cepillar",
+      "ownerNew": "cepillo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0134",
+      "cardId": "a2-Chance-306",
+      "field": "lv",
+      "current": "oportunidad • prospecto • oportunidad",
+      "ownerNew": "oportunidad",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0135",
+      "cardId": "a2-Comic-311",
+      "field": "lv",
+      "current": "un comic",
+      "ownerNew": "un cómic",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0136",
+      "cardId": "a2-deutlich-340",
+      "field": "lv",
+      "current": "claro • claro • comprensible",
+      "ownerNew": "claro",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0137",
+      "cardId": "a2-dorthin-351",
+      "field": "lv",
+      "current": "hasta allí • siguiente",
+      "ownerNew": "hasta allí",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0138",
+      "cardId": "a2-draußen-352",
+      "field": "lv",
+      "current": "fuera • en el campo",
+      "ownerNew": "fuera",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0139",
+      "cardId": "a2-Drittel-358",
+      "field": "lv",
+      "current": "un tercero",
+      "ownerNew": "un tercio",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0140",
+      "cardId": "a2-drüben-359",
+      "field": "lv",
+      "current": "en el otro lado • espera",
+      "ownerNew": "al otro lado",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0141",
+      "cardId": "a2-egal-374",
+      "field": "lv",
+      "current": "de todos modos",
+      "ownerNew": "da igual",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0142",
+      "cardId": "a2-Eile-379",
+      "field": "lv",
+      "current": "correr",
+      "ownerNew": "prisa",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0143",
+      "cardId": "a2-einige-384",
+      "field": "lv",
+      "current": "algunos • pocos",
+      "ownerNew": "algunos",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0144",
+      "cardId": "a2-einschenken-392",
+      "field": "lv",
+      "current": "derramar",
+      "ownerNew": "servir",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0145",
+      "cardId": "a2-einverstanden-397",
+      "field": "lv",
+      "current": "con paz",
+      "ownerNew": "de acuerdo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0146",
+      "cardId": "a2-Eiskaffee-402",
+      "field": "lv",
+      "current": "cafe con helado",
+      "ownerNew": "café con helado",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0147",
+      "cardId": "a2-enden-408",
+      "field": "lv",
+      "current": "sin",
+      "ownerNew": "terminar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0148",
+      "cardId": "a2-entdecken-412",
+      "field": "lv",
+      "current": "revelar",
+      "ownerNew": "descubrir",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0149",
+      "cardId": "a2-entlang-414",
+      "field": "lv",
+      "current": "largo",
+      "ownerNew": "a lo largo de",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0150",
+      "cardId": "a2-entschuldigen-415",
+      "field": "lv",
+      "current": "excusa • perdonar",
+      "ownerNew": "disculpar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0151",
+      "cardId": "a2-entweder-416",
+      "field": "lv",
+      "current": "cualquiera",
+      "ownerNew": "o bien",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0152",
+      "cardId": "a2-Erdgeschoss-417",
+      "field": "lv",
+      "current": "primer piso",
+      "ownerNew": "planta baja",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0153",
+      "cardId": "a2-erkennen-423",
+      "field": "lv",
+      "current": "reconocer • comprender",
+      "ownerNew": "reconocer",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0154",
+      "cardId": "a2-erwachsen-430",
+      "field": "lv",
+      "current": "creciendo",
+      "ownerNew": "adulto",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0155",
+      "cardId": "a2-Essbesteck-435",
+      "field": "lv",
+      "current": "cuchillería",
+      "ownerNew": "cubiertos",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0156",
+      "cardId": "a2-Fächer-445",
+      "field": "lv",
+      "current": "admirador",
+      "ownerNew": "abanico",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0157",
+      "cardId": "a2-Fähre-448",
+      "field": "lv",
+      "current": "transportar",
+      "ownerNew": "ferri",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0158",
+      "cardId": "a2-Fahrer-449",
+      "field": "lv",
+      "current": "gerente • conductor",
+      "ownerNew": "conductor",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0159",
+      "cardId": "a2-Fahrt-452",
+      "field": "lv",
+      "current": "viaje • vuelo",
+      "ownerNew": "viaje",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0160",
+      "cardId": "a2-färben-461",
+      "field": "lv",
+      "current": "pintar • pintar",
+      "ownerNew": "teñir",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0161",
+      "cardId": "a2-feiern-470",
+      "field": "lv",
+      "current": "para celebrar",
+      "ownerNew": "celebrar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0162",
+      "cardId": "a2-Fell-475",
+      "field": "lv",
+      "current": "abrigo • piel",
+      "ownerNew": "piel",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0163",
+      "cardId": "a2-Fensterbrett-476",
+      "field": "lv",
+      "current": "antepecho",
+      "ownerNew": "alféizar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0164",
+      "cardId": "a2-Fett-483",
+      "field": "lv",
+      "current": "gordo",
+      "ownerNew": "grasa",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0165",
+      "cardId": "a2-Figur-489",
+      "field": "lv",
+      "current": "figura • altura",
+      "ownerNew": "figura",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0166",
+      "cardId": "a2-Fliege-499",
+      "field": "lv",
+      "current": "mosca • mariposa",
+      "ownerNew": "mosca",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0167",
+      "cardId": "a2-Fliese-500",
+      "field": "lv",
+      "current": "teja",
+      "ownerNew": "baldosa",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0168",
+      "cardId": "a2-Flugplatz-504",
+      "field": "lv",
+      "current": "aeropuerto",
+      "ownerNew": "aeródromo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0169",
+      "cardId": "a2-Formular-512",
+      "field": "lv",
+      "current": "forma",
+      "ownerNew": "formulario",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0170",
+      "cardId": "a2-frieren-527",
+      "field": "lv",
+      "current": "frío",
+      "ownerNew": "tener frío",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0171",
+      "cardId": "a2-frisieren-529",
+      "field": "lv",
+      "current": "hacer el pelo",
+      "ownerNew": "arreglar el pelo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0172",
+      "cardId": "a2-Füllfederhalter-541",
+      "field": "lv",
+      "current": "bolígrafo",
+      "ownerNew": "pluma estilográfica",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0173",
+      "cardId": "a2-Fußballfeld-544",
+      "field": "lv",
+      "current": "campo de futbol",
+      "ownerNew": "campo de fútbol",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0174",
+      "cardId": "a2-Fußgänger-547",
+      "field": "lv",
+      "current": "peatonal",
+      "ownerNew": "peatón",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0175",
+      "cardId": "a2-Gasse-558",
+      "field": "lv",
+      "current": "la calle",
+      "ownerNew": "callejón",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0176",
+      "cardId": "a2-Gegenstand-569",
+      "field": "lv",
+      "current": "sujeto • cosa • tema",
+      "ownerNew": "objeto",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0177",
+      "cardId": "a2-Geschirr-584",
+      "field": "lv",
+      "current": "platos",
+      "ownerNew": "vajilla",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0178",
+      "cardId": "a2-Gewürz-594",
+      "field": "lv",
+      "current": "condimentar",
+      "ownerNew": "especia",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0179",
+      "cardId": "a2-Gymnastik-613",
+      "field": "lv",
+      "current": "ejercicio",
+      "ownerNew": "gimnasia",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0180",
+      "cardId": "a2-Haarschnitt-615",
+      "field": "lv",
+      "current": "corte de pelo • peinado",
+      "ownerNew": "corte de pelo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0181",
+      "cardId": "a2-Haferflocken-619",
+      "field": "lv",
+      "current": "avena",
+      "ownerNew": "copos de avena",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0182",
+      "cardId": "a2-halt!-626",
+      "field": "lv",
+      "current": "¡pararse!",
+      "ownerNew": "¡alto!",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0183",
+      "cardId": "a2-Hase-635",
+      "field": "lv",
+      "current": "conejito",
+      "ownerNew": "conejo",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0184",
+      "cardId": "a2-Hausarzt-641",
+      "field": "lv",
+      "current": "doctor familiar",
+      "ownerNew": "médico de familia",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0185",
+      "cardId": "a2-heilen-647",
+      "field": "lv",
+      "current": "tratar",
+      "ownerNew": "curar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0186",
+      "cardId": "a2-Heim-648",
+      "field": "lv",
+      "current": "alojamiento",
+      "ownerNew": "hogar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0187",
+      "cardId": "a2-Herd-654",
+      "field": "lv",
+      "current": "hogar",
+      "ownerNew": "cocina",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0188",
+      "cardId": "a2-herzlich-662",
+      "field": "lv",
+      "current": "sincero",
+      "ownerNew": "cordial",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0189",
+      "cardId": "a2-hin-667",
+      "field": "lv",
+      "current": "continuación",
+      "ownerNew": "hacia allí",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0190",
+      "cardId": "a2-hineingehen-670",
+      "field": "lv",
+      "current": "entra",
+      "ownerNew": "entrar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0191",
+      "cardId": "a2-Homepage-683",
+      "field": "lv",
+      "current": "pagina de inicio de internet",
+      "ownerNew": "página de inicio de internet",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0192",
+      "cardId": "a2-Hosenbein-684",
+      "field": "lv",
+      "current": "viga del pantalón",
+      "ownerNew": "pernera",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0193",
+      "cardId": "a2-Hundegebell-690",
+      "field": "lv",
+      "current": "el perro ladra",
+      "ownerNew": "ladrido de perro",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0194",
+      "cardId": "a2-Hundehütte-692",
+      "field": "lv",
+      "current": "perrera",
+      "ownerNew": "caseta para perros",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0195",
+      "cardId": "a2-Hunderasse-693",
+      "field": "lv",
+      "current": "una especie de perro",
+      "ownerNew": "raza de perro",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0196",
+      "cardId": "a2-hungern-695",
+      "field": "lv",
+      "current": "hambriento",
+      "ownerNew": "pasar hambre",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0197",
+      "cardId": "a2-Insekt-708",
+      "field": "lv",
+      "current": "insecto • insecto",
+      "ownerNew": "insecto",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0198",
+      "cardId": "a2-insgesamt-710",
+      "field": "lv",
+      "current": "juntos",
+      "ownerNew": "en total",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0199",
+      "cardId": "a2-irgendein-717",
+      "field": "lv",
+      "current": "alguien",
+      "ownerNew": "algún",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    },
+    {
+      "auditId": "ES-A1A2-LUNA-0200",
+      "cardId": "a2-irgendwohin-721",
+      "field": "lv",
+      "current": "en algún lugar",
+      "ownerNew": "a algún lugar",
+      "source": "reports/es-de-a1-a2-owner-decisions-master-101-200.md"
+    }
+  ],
+  "count": 200
+}

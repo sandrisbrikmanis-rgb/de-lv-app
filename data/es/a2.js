@@ -148,7 +148,7 @@ const A2_WORDS = [
     "de": "Abenteuer",
     "de_article": "das",
     "de_plural": "die Abenteuer",
-    "lv": "aventura • asunto",
+    "lv": "aventura",
     "level": "A2"
   },
   {
@@ -2523,7 +2523,7 @@ const A2_WORDS = [
   },
   {
     "de": "abtauen",
-    "lv": "deshielo",
+    "lv": "descongelar",
     "level": "A2"
   },
   {
@@ -2540,14 +2540,14 @@ const A2_WORDS = [
   },
   {
     "de": "abwesend",
-    "lv": "prometedor",
+    "lv": "ausente",
     "level": "A2"
   },
   {
     "de": "Achse",
     "de_article": "die",
     "de_plural": "die Achsen",
-    "lv": "culo",
+    "lv": "eje",
     "level": "A2"
   },
   {
@@ -2581,7 +2581,7 @@ const A2_WORDS = [
     "de": "Aerobic",
     "de_article": "die",
     "de_plural": null,
-    "lv": "aerobic",
+    "lv": "aeróbic",
     "level": "A2"
   },
   {
@@ -2637,7 +2637,7 @@ const A2_WORDS = [
     "de": "Änderung",
     "de_article": "die",
     "de_plural": "die Änderungen",
-    "lv": "cambios",
+    "lv": "cambio",
     "level": "A2"
   },
   {
@@ -3529,12 +3529,12 @@ const A2_WORDS = [
     "de": "Anlass",
     "de_article": "der",
     "de_plural": "die Anlässe",
-    "lv": "razón • caso",
+    "lv": "ocasión",
     "level": "A2"
   },
   {
     "de": "anlässlich",
-    "lv": "debido a",
+    "lv": "con motivo de",
     "level": "A2"
   },
   {
@@ -5089,7 +5089,7 @@ const A2_WORDS = [
   },
   {
     "de": "anstreichen",
-    "lv": "color • subrayado",
+    "lv": "pintar",
     "level": "A2"
   },
   {
@@ -5164,7 +5164,7 @@ const A2_WORDS = [
   },
   {
     "de": "anzünden",
-    "lv": "incendiar",
+    "lv": "encender",
     "level": "A2"
   },
   {
@@ -5228,7 +5228,7 @@ const A2_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "mano",
+    "lv": "brazo",
     "level": "A2"
   },
   {
@@ -6014,7 +6014,7 @@ const A2_WORDS = [
     "de": "Ast",
     "de_article": "der",
     "de_plural": "die Äste",
-    "lv": "una sucursal",
+    "lv": "rama",
     "level": "A2"
   },
   {
@@ -6058,7 +6058,7 @@ const A2_WORDS = [
   },
   {
     "de": "auf die Schulter klopfen",
-    "lv": "toque en el hombro",
+    "lv": "dar una palmada en el hombro",
     "level": "A2"
   },
   {
@@ -6068,7 +6068,7 @@ const A2_WORDS = [
   },
   {
     "de": "auf jeden Fall",
-    "lv": "en cada caso",
+    "lv": "en cualquier caso",
     "level": "A2"
   },
   {
@@ -6085,7 +6085,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufbrechen",
-    "lv": "poner en marcha • abrirse",
+    "lv": "ponerse en marcha",
     "level": "A2"
   },
   {
@@ -6102,7 +6102,7 @@ const A2_WORDS = [
     "de": "Aufenthalt",
     "de_article": "der",
     "de_plural": "die Aufenthalte",
-    "lv": "permanecer",
+    "lv": "estancia",
     "level": "A2"
   },
   {
@@ -6117,7 +6117,7 @@ const A2_WORDS = [
   },
   {
     "de": "auffordern",
-    "lv": "invitar",
+    "lv": "pedir",
     "level": "A2"
   },
   {
@@ -6139,7 +6139,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufhalten",
-    "lv": "demora",
+    "lv": "detener",
     "level": "A2"
   },
   {
@@ -6528,7 +6528,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufklären",
-    "lv": "descubrir • explicar",
+    "lv": "aclarar",
     "level": "A2"
   },
   {
@@ -7294,7 +7294,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufregen",
-    "lv": "preocuparse",
+    "lv": "alterar",
     "level": "A2"
   },
   {
@@ -7805,19 +7805,19 @@ const A2_WORDS = [
   },
   {
     "de": "aufstellen",
-    "lv": "para instalar",
+    "lv": "instalar",
     "level": "A2"
   },
   {
     "de": "Aufstrich",
     "de_article": "der",
     "de_plural": "die Aufstriche",
-    "lv": "frotis",
+    "lv": "crema para untar",
     "level": "A2"
   },
   {
     "de": "auftauen",
-    "lv": "deshielo",
+    "lv": "descongelar",
     "level": "A2"
   },
   {
@@ -9058,7 +9058,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufziehen",
-    "lv": "mencionar • molestar",
+    "lv": "criar",
     "level": "A2"
   },
   {
@@ -9081,7 +9081,7 @@ const A2_WORDS = [
   },
   {
     "de": "ausbessern",
-    "lv": "corregir",
+    "lv": "reparar",
     "level": "A2"
   },
   {
@@ -9460,7 +9460,7 @@ const A2_WORDS = [
   },
   {
     "de": "ausstrahlen",
-    "lv": "irradiando",
+    "lv": "irradiar",
     "level": "A2"
   },
   {
@@ -9477,7 +9477,7 @@ const A2_WORDS = [
     "de": "Ausverkauf",
     "de_article": "der",
     "de_plural": "die Ausverkäufe",
-    "lv": "venta",
+    "lv": "liquidación",
     "level": "A2"
   },
   {
@@ -9891,19 +9891,19 @@ const A2_WORDS = [
   },
   {
     "de": "auswärts",
-    "lv": "lejos de casa • lejos",
+    "lv": "fuera",
     "level": "A2"
   },
   {
     "de": "Ausweis",
     "de_article": "der",
     "de_plural": "die Ausweise",
-    "lv": "certificado",
+    "lv": "documento de identidad",
     "level": "A2"
   },
   {
     "de": "auswendig",
-    "lv": "desde la cabeza",
+    "lv": "de memoria",
     "level": "A2"
   },
   {
@@ -10277,7 +10277,7 @@ const A2_WORDS = [
     "de": "Autobahn",
     "de_article": "die",
     "de_plural": "die Autobahnen",
-    "lv": "carretera",
+    "lv": "autopista",
     "level": "A2"
   },
   {
@@ -10310,7 +10310,7 @@ const A2_WORDS = [
     "de": "Autopanne",
     "de_article": "die",
     "de_plural": "die Autopannen",
-    "lv": "daños al auto • falla",
+    "lv": "avería del coche",
     "level": "A2"
   },
   {
@@ -10378,7 +10378,7 @@ const A2_WORDS = [
     "de": "Badetuch",
     "de_article": "das",
     "de_plural": "die Badetücher",
-    "lv": "hoja de natación",
+    "lv": "toalla de baño",
     "level": "A2"
   },
   {
@@ -10741,7 +10741,7 @@ const A2_WORDS = [
     "de": "Bahngleis",
     "de_article": "das",
     "de_plural": "die Bahngleise",
-    "lv": "rieles",
+    "lv": "vía férrea",
     "level": "A2"
   },
   {
@@ -11488,7 +11488,7 @@ const A2_WORDS = [
   {
     "de": "Bargeld",
     "de_article": "das",
-    "lv": "dinero",
+    "lv": "dinero en efectivo",
     "level": "A2"
   },
   {
@@ -11522,7 +11522,7 @@ const A2_WORDS = [
   {
     "de": "Bauchweh",
     "de_article": "das",
-    "lv": "Dolor de estómago",
+    "lv": "dolor de estómago",
     "level": "A2"
   },
   {
@@ -12166,7 +12166,7 @@ const A2_WORDS = [
     "de": "Bäuerin",
     "de_article": "die",
     "de_plural": "die Bäuerinnen",
-    "lv": "un granjero",
+    "lv": "agricultora",
     "level": "A2"
   },
   {
@@ -13136,7 +13136,7 @@ const A2_WORDS = [
     "de": "Beet",
     "de_article": "das",
     "de_plural": "die Beete",
-    "lv": "cama",
+    "lv": "parterre",
     "level": "A2"
   },
   {
@@ -14401,7 +14401,7 @@ const A2_WORDS = [
   },
   {
     "de": "bellen",
-    "lv": "atardecer",
+    "lv": "ladrar",
     "level": "A2"
   },
   {
@@ -14456,7 +14456,7 @@ const A2_WORDS = [
   },
   {
     "de": "besitzen",
-    "lv": "pertenecer",
+    "lv": "poseer",
     "level": "A2"
   },
   {
@@ -14475,7 +14475,7 @@ const A2_WORDS = [
     "de": "Besteck",
     "de_article": "das",
     "de_plural": "die Bestecke",
-    "lv": "cuchillería",
+    "lv": "cubiertos",
     "level": "A2"
   },
   {
@@ -15196,7 +15196,7 @@ const A2_WORDS = [
   },
   {
     "de": "beten",
-    "lv": "orar a dios",
+    "lv": "orar a Dios",
     "level": "A2"
   },
   {
@@ -15218,7 +15218,7 @@ const A2_WORDS = [
   },
   {
     "de": "bewundern",
-    "lv": "admirativo",
+    "lv": "admirar",
     "level": "A2"
   },
   {
@@ -16106,7 +16106,7 @@ const A2_WORDS = [
     "de": "Blick",
     "de_article": "der",
     "de_plural": "die Blicke",
-    "lv": "ver • vistazo",
+    "lv": "mirada",
     "level": "A2"
   },
   {
@@ -16118,7 +16118,7 @@ const A2_WORDS = [
     "de": "Blitz",
     "de_article": "der",
     "de_plural": "die Blitze",
-    "lv": "iluminación",
+    "lv": "relámpago",
     "level": "A2"
   },
   {
@@ -17340,13 +17340,13 @@ const A2_WORDS = [
     "de": "Braten",
     "de_article": "der",
     "de_plural": "die Braten",
-    "lv": "asar",
+    "lv": "asado",
     "level": "A2"
   },
   {
     "de": "Bratkartoffeln",
     "de_article": "die",
-    "lv": "patatas fritas",
+    "lv": "patatas salteadas",
     "level": "A2"
   },
   {
@@ -17360,7 +17360,7 @@ const A2_WORDS = [
     "de": "Bräutigam",
     "de_article": "der",
     "de_plural": "die Bräutigame",
-    "lv": "acicalar",
+    "lv": "novio",
     "level": "A2"
   },
   {
@@ -17782,7 +17782,7 @@ const A2_WORDS = [
     "de": "Bremse",
     "de_article": "die",
     "de_plural": "die Bremsen",
-    "lv": "freno • golpe",
+    "lv": "freno",
     "level": "A2"
   },
   {
@@ -18192,7 +18192,7 @@ const A2_WORDS = [
     "de": "Bürste",
     "de_article": "die",
     "de_plural": "die Bürsten",
-    "lv": "cepillar",
+    "lv": "cepillo",
     "level": "A2"
   },
   {
@@ -18213,7 +18213,7 @@ const A2_WORDS = [
     "de": "Chance",
     "de_article": "die",
     "de_plural": "die Chancen",
-    "lv": "oportunidad • prospecto • oportunidad",
+    "lv": "oportunidad",
     "level": "A2"
   },
   {
@@ -18247,7 +18247,7 @@ const A2_WORDS = [
     "de": "Comic",
     "de_article": "der",
     "de_plural": "die Comics",
-    "lv": "un comic",
+    "lv": "un cómic",
     "level": "A2"
   },
   {
@@ -22470,7 +22470,7 @@ const A2_WORDS = [
   },
   {
     "de": "deutlich",
-    "lv": "claro • claro • comprensible",
+    "lv": "claro",
     "level": "A2"
   },
   {
@@ -23665,12 +23665,12 @@ const A2_WORDS = [
   },
   {
     "de": "dorthin",
-    "lv": "hasta allí • siguiente",
+    "lv": "hasta allí",
     "level": "A2"
   },
   {
     "de": "draußen",
-    "lv": "fuera • en el campo",
+    "lv": "fuera",
     "level": "A2"
   },
   {
@@ -23944,12 +23944,12 @@ const A2_WORDS = [
     "de": "Drittel",
     "de_article": "das",
     "de_plural": "die Drittel",
-    "lv": "un tercero",
+    "lv": "un tercio",
     "level": "A2"
   },
   {
     "de": "drüben",
-    "lv": "en el otro lado • espera",
+    "lv": "al otro lado",
     "level": "A2"
   },
   {
@@ -25263,7 +25263,7 @@ const A2_WORDS = [
   },
   {
     "de": "egal",
-    "lv": "de todos modos",
+    "lv": "da igual",
     "level": "A2"
   },
   {
@@ -25921,7 +25921,7 @@ const A2_WORDS = [
   {
     "de": "Eile",
     "de_article": "die",
-    "lv": "correr",
+    "lv": "prisa",
     "level": "A2"
   },
   {
@@ -25950,7 +25950,7 @@ const A2_WORDS = [
   },
   {
     "de": "einige",
-    "lv": "algunos • pocos",
+    "lv": "algunos",
     "level": "A2"
   },
   {
@@ -26727,7 +26727,7 @@ const A2_WORDS = [
   },
   {
     "de": "einschenken",
-    "lv": "derramar",
+    "lv": "servir",
     "level": "A2"
   },
   {
@@ -27750,7 +27750,7 @@ const A2_WORDS = [
   },
   {
     "de": "einverstanden",
-    "lv": "con paz",
+    "lv": "de acuerdo",
     "level": "A2"
   },
   {
@@ -27783,7 +27783,7 @@ const A2_WORDS = [
     "de": "Eiskaffee",
     "de_article": "der",
     "de_plural": "die Eiskaffees",
-    "lv": "cafe con helado",
+    "lv": "café con helado",
     "level": "A2"
   },
   {
@@ -27817,7 +27817,7 @@ const A2_WORDS = [
   },
   {
     "de": "enden",
-    "lv": "sin",
+    "lv": "terminar",
     "level": "A2"
   },
   {
@@ -27985,7 +27985,7 @@ const A2_WORDS = [
   },
   {
     "de": "entdecken",
-    "lv": "revelar",
+    "lv": "descubrir",
     "level": "A2"
   },
   {
@@ -27997,24 +27997,24 @@ const A2_WORDS = [
   },
   {
     "de": "entlang",
-    "lv": "largo",
+    "lv": "a lo largo de",
     "level": "A2"
   },
   {
     "de": "entschuldigen",
-    "lv": "excusa • perdonar",
+    "lv": "disculpar",
     "level": "A2"
   },
   {
     "de": "entweder",
-    "lv": "cualquiera",
+    "lv": "o bien",
     "level": "A2"
   },
   {
     "de": "Erdgeschoss",
     "de_article": "das",
     "de_plural": "die Erdgeschosse",
-    "lv": "primer piso",
+    "lv": "planta baja",
     "level": "A2"
   },
   {
@@ -28633,7 +28633,7 @@ const A2_WORDS = [
   },
   {
     "de": "erkennen",
-    "lv": "reconocer • comprender",
+    "lv": "reconocer",
     "level": "A2"
   },
   {
@@ -28669,7 +28669,7 @@ const A2_WORDS = [
   },
   {
     "de": "erwachsen",
-    "lv": "creciendo",
+    "lv": "adulto",
     "level": "A2"
   },
   {
@@ -28698,7 +28698,7 @@ const A2_WORDS = [
     "de": "Essbesteck",
     "de_article": "das",
     "de_plural": "die Essbestecke",
-    "lv": "cuchillería",
+    "lv": "cubiertos",
     "level": "A2"
   },
   {
@@ -29561,7 +29561,7 @@ const A2_WORDS = [
     "de": "Fächer",
     "de_article": "der",
     "de_plural": "die Fächer",
-    "lv": "admirador",
+    "lv": "abanico",
     "level": "A2"
   },
   {
@@ -29582,14 +29582,14 @@ const A2_WORDS = [
     "de": "Fähre",
     "de_article": "die",
     "de_plural": "die Fähren",
-    "lv": "transportar",
+    "lv": "ferri",
     "level": "A2"
   },
   {
     "de": "Fahrer",
     "de_article": "der",
     "de_plural": "die Fahrer",
-    "lv": "gerente • conductor",
+    "lv": "conductor",
     "level": "A2"
   },
   {
@@ -29610,7 +29610,7 @@ const A2_WORDS = [
     "de": "Fahrt",
     "de_article": "die",
     "de_plural": "die Fahrten",
-    "lv": "viaje • vuelo",
+    "lv": "viaje",
     "level": "A2"
   },
   {
@@ -30100,7 +30100,7 @@ const A2_WORDS = [
   },
   {
     "de": "färben",
-    "lv": "pintar • pintar",
+    "lv": "teñir",
     "level": "A2"
   },
   {
@@ -30495,7 +30495,7 @@ const A2_WORDS = [
   },
   {
     "de": "feiern",
-    "lv": "para celebrar",
+    "lv": "celebrar",
     "level": "A2"
   },
   {
@@ -30528,14 +30528,14 @@ const A2_WORDS = [
     "de": "Fell",
     "de_article": "das",
     "de_plural": "die Felle",
-    "lv": "abrigo • piel",
+    "lv": "piel",
     "level": "A2"
   },
   {
     "de": "Fensterbrett",
     "de_article": "das",
     "de_plural": "die Fensterbretter",
-    "lv": "antepecho",
+    "lv": "alféizar",
     "level": "A2"
   },
   {
@@ -30852,7 +30852,7 @@ const A2_WORDS = [
     "de": "Fett",
     "de_article": "das",
     "de_plural": "die Fette",
-    "lv": "gordo",
+    "lv": "grasa",
     "level": "A2"
   },
   {
@@ -31321,7 +31321,7 @@ const A2_WORDS = [
     "de": "Figur",
     "de_article": "die",
     "de_plural": "die Figuren",
-    "lv": "figura • altura",
+    "lv": "figura",
     "level": "A2"
   },
   {
@@ -31383,14 +31383,14 @@ const A2_WORDS = [
     "de": "Fliege",
     "de_article": "die",
     "de_plural": "die Fliegen",
-    "lv": "mosca • mariposa",
+    "lv": "mosca",
     "level": "A2"
   },
   {
     "de": "Fliese",
     "de_article": "die",
     "de_plural": "die Fliesen",
-    "lv": "teja",
+    "lv": "baldosa",
     "level": "A2"
   },
   {
@@ -31418,7 +31418,7 @@ const A2_WORDS = [
     "de": "Flugplatz",
     "de_article": "der",
     "de_plural": "die Flugplätze",
-    "lv": "aeropuerto",
+    "lv": "aeródromo",
     "level": "A2"
   },
   {
@@ -31795,7 +31795,7 @@ const A2_WORDS = [
     "de": "Formular",
     "de_article": "das",
     "de_plural": "die Formulare",
-    "lv": "forma",
+    "lv": "formulario",
     "level": "A2"
   },
   {
@@ -31890,7 +31890,7 @@ const A2_WORDS = [
   },
   {
     "de": "frieren",
-    "lv": "frío",
+    "lv": "tener frío",
     "level": "A2"
   },
   {
@@ -31902,7 +31902,7 @@ const A2_WORDS = [
   },
   {
     "de": "frisieren",
-    "lv": "hacer el pelo",
+    "lv": "arreglar el pelo",
     "level": "A2"
   },
   {
@@ -32402,7 +32402,7 @@ const A2_WORDS = [
     "de": "Füllfederhalter",
     "de_article": "der",
     "de_plural": "die Füllfederhalter",
-    "lv": "bolígrafo",
+    "lv": "pluma estilográfica",
     "level": "A2"
   },
   {
@@ -32419,7 +32419,7 @@ const A2_WORDS = [
     "de": "Fußballfeld",
     "de_article": "das",
     "de_plural": "die Fußballfelder",
-    "lv": "campo de futbol",
+    "lv": "campo de fútbol",
     "level": "A2"
   },
   {
@@ -32440,7 +32440,7 @@ const A2_WORDS = [
     "de": "Fußgänger",
     "de_article": "der",
     "de_plural": "die Fußgänger",
-    "lv": "peatonal",
+    "lv": "peatón",
     "level": "A2"
   },
   {
@@ -32774,7 +32774,7 @@ const A2_WORDS = [
     "de": "Gasse",
     "de_article": "die",
     "de_plural": "die Gassen",
-    "lv": "la calle",
+    "lv": "callejón",
     "level": "A2"
   },
   {
@@ -32848,7 +32848,7 @@ const A2_WORDS = [
     "de": "Gegenstand",
     "de_article": "der",
     "de_plural": "die Gegenstände",
-    "lv": "sujeto • cosa • tema",
+    "lv": "objeto",
     "level": "A2"
   },
   {
@@ -34380,7 +34380,7 @@ const A2_WORDS = [
   {
     "de": "Geschirr",
     "de_article": "das",
-    "lv": "platos",
+    "lv": "vajilla",
     "level": "A2"
   },
   {
@@ -34789,7 +34789,7 @@ const A2_WORDS = [
     "de": "Gewürz",
     "de_article": "das",
     "de_plural": "die Gewürze",
-    "lv": "condimentar",
+    "lv": "especia",
     "level": "A2"
   },
   {
@@ -35690,7 +35690,7 @@ const A2_WORDS = [
   {
     "de": "Gymnastik",
     "de_article": "die",
-    "lv": "ejercicio",
+    "lv": "gimnasia",
     "level": "A2"
   },
   {
@@ -35704,7 +35704,7 @@ const A2_WORDS = [
     "de": "Haarschnitt",
     "de_article": "der",
     "de_plural": "die Haarschnitte",
-    "lv": "corte de pelo • peinado",
+    "lv": "corte de pelo",
     "level": "A2"
   },
   {
@@ -35730,7 +35730,7 @@ const A2_WORDS = [
   {
     "de": "Haferflocken",
     "de_article": "die",
-    "lv": "avena",
+    "lv": "copos de avena",
     "level": "A2"
   },
   {
@@ -35777,7 +35777,7 @@ const A2_WORDS = [
   },
   {
     "de": "halt!",
-    "lv": "¡pararse!",
+    "lv": "¡alto!",
     "level": "A2"
   },
   {
@@ -36248,7 +36248,7 @@ const A2_WORDS = [
     "de": "Hase",
     "de_article": "der",
     "de_plural": "die Hasen",
-    "lv": "conejito",
+    "lv": "conejo",
     "level": "A2"
   },
   {
@@ -36284,7 +36284,7 @@ const A2_WORDS = [
     "de": "Hausarzt",
     "de_article": "der",
     "de_plural": "die Hausärzte",
-    "lv": "doctor familiar",
+    "lv": "médico de familia",
     "level": "A2"
   },
   {
@@ -36322,14 +36322,14 @@ const A2_WORDS = [
   },
   {
     "de": "heilen",
-    "lv": "tratar",
+    "lv": "curar",
     "level": "A2"
   },
   {
     "de": "Heim",
     "de_article": "das",
     "de_plural": "die Heime",
-    "lv": "alojamiento",
+    "lv": "hogar",
     "level": "A2"
   },
   {
@@ -36363,7 +36363,7 @@ const A2_WORDS = [
     "de": "Herd",
     "de_article": "der",
     "de_plural": "die Herde",
-    "lv": "hogar",
+    "lv": "cocina",
     "level": "A2"
   },
   {
@@ -36407,7 +36407,7 @@ const A2_WORDS = [
   },
   {
     "de": "herzlich",
-    "lv": "sincero",
+    "lv": "cordial",
     "level": "A2"
   },
   {
@@ -36437,7 +36437,7 @@ const A2_WORDS = [
   },
   {
     "de": "hin",
-    "lv": "continuación",
+    "lv": "hacia allí",
     "level": "A2"
   },
   {
@@ -36452,7 +36452,7 @@ const A2_WORDS = [
   },
   {
     "de": "hineingehen",
-    "lv": "entra",
+    "lv": "entrar",
     "level": "A2"
   },
   {
@@ -36820,14 +36820,14 @@ const A2_WORDS = [
     "de": "Homepage",
     "de_article": "die",
     "de_plural": "die Homepages",
-    "lv": "pagina de inicio de internet",
+    "lv": "página de inicio de internet",
     "level": "A2"
   },
   {
     "de": "Hosenbein",
     "de_article": "das",
     "de_plural": "die Hosenbeine",
-    "lv": "viga del pantalón",
+    "lv": "pernera",
     "level": "A2"
   },
   {
@@ -36866,7 +36866,7 @@ const A2_WORDS = [
   {
     "de": "Hundegebell",
     "de_article": "das",
-    "lv": "el perro ladra",
+    "lv": "ladrido de perro",
     "level": "A2"
   },
   {
@@ -36879,14 +36879,14 @@ const A2_WORDS = [
     "de": "Hundehütte",
     "de_article": "die",
     "de_plural": "die Hundehütten",
-    "lv": "perrera",
+    "lv": "caseta para perros",
     "level": "A2"
   },
   {
     "de": "Hunderasse",
     "de_article": "die",
     "de_plural": "die Hunderassen",
-    "lv": "una especie de perro",
+    "lv": "raza de perro",
     "level": "A2"
   },
   {
@@ -36897,7 +36897,7 @@ const A2_WORDS = [
   },
   {
     "de": "hungern",
-    "lv": "hambriento",
+    "lv": "pasar hambre",
     "level": "A2"
   },
   {
@@ -37203,7 +37203,7 @@ const A2_WORDS = [
     "de": "Insekt",
     "de_article": "das",
     "de_plural": "die Insekten",
-    "lv": "insecto • insecto",
+    "lv": "insecto",
     "level": "A2"
   },
   {
@@ -37215,7 +37215,7 @@ const A2_WORDS = [
   },
   {
     "de": "insgesamt",
-    "lv": "juntos",
+    "lv": "en total",
     "level": "A2"
   },
   {
@@ -37255,7 +37255,7 @@ const A2_WORDS = [
   },
   {
     "de": "irgendein",
-    "lv": "alguien",
+    "lv": "algún",
     "level": "A2"
   },
   {
@@ -37275,7 +37275,7 @@ const A2_WORDS = [
   },
   {
     "de": "irgendwohin",
-    "lv": "en algún lugar",
+    "lv": "a algún lugar",
     "level": "A2"
   },
   {
