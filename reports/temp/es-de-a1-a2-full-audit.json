@@ -3,9 +3,14 @@
     "date": "2026-08-25",
     "standard": "LANGUAGE_AUDIT_STANDARD.md",
     "scope": "ES-DE A1+A2",
-    "originMainSha": "1806917473faa6d5251074a6a22d3631cef0eae9",
+    "originMainSha": "1be24b708f9396fbb3c5b4785e1d0d6b5637bf48",
     "readOnly": true,
-    "productionChanges": 0
+    "productionChanges": 0,
+    "lunaModel": "gpt-5.6-luna",
+    "lunaCoverage": "skipped",
+    "lunaRan": false,
+    "lunaTestOnly": false,
+    "lunaError": "OPENAI_API_KEY nav pieejama — Luna audits netika palaists."
   },
   "summary": {
     "a1Cards": 702,
@@ -27,14 +32,11 @@
     "mojibake": "PASS",
     "parity": "FAIL",
     "validateStudy": "FAIL",
-    "deReadOnly": "FAIL"
+    "deReadOnly": "FAIL",
+    "luna": "SKIPPED_NO_KEY"
   },
   "a1": {
-    "cards": 702,
-    "study": {
-      "lv": 134,
-      "es": 124
-    },
+    "esStudy": 124,
     "sectionAccentIssues": 45,
     "lvRemnantCards": 24,
     "missingStudy": [
@@ -91,11 +93,7 @@
     ]
   },
   "a2": {
-    "cards": 1640,
-    "study": {
-      "lv": 231,
-      "es": 231
-    },
+    "esStudy": 231,
     "sectionAccentIssues": 581,
     "lvRemnantCards": 147,
     "minimalStudyNoRenderable": [
@@ -190,6 +188,16 @@
         "layout": "minimalStudy"
       }
     ]
+  },
+  "luna": {
+    "findings": [],
+    "severityCounts": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0
+    },
+    "apiUsage": null
   },
   "verdict": "NEEDS_REPAIR"
 }
