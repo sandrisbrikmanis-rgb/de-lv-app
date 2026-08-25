@@ -4,7 +4,8 @@ window.LANGUAGE_UI_STRINGS = {
     "course": "Curso",
     "sentences": "Frases",
     "verbs": "Verbos",
-    "chooseGroup": "Elige un grupo"
+    "chooseGroup": "Elige un grupo",
+    "learningModes": "Modos de aprendizaje"
   },
   "groups": {
     "sentences": "Frases"
@@ -13,12 +14,12 @@ window.LANGUAGE_UI_STRINGS = {
     "backHome": "Volver al menú principal",
     "changeLanguage": "Cambia tu idioma nativo",
     "howItWorks": "¿Cómo funciona?",
-    "quickTools": "herramientas rápidas"
+    "quickTools": "Herramientas rápidas"
   },
   "buttons": {
     "known": "Lo sé",
     "unknown": "No lo sé",
-    "next": "la siguiente palabra",
+    "next": "Siguiente palabra",
     "check": "Comprobar",
     "continue": "Continuar",
     "close": "Cerrar",
@@ -29,17 +30,17 @@ window.LANGUAGE_UI_STRINGS = {
     "extraOptions": "Opciones adicionales",
     "extraOptionsOpen": "Opciones adicionales ▼",
     "extraOptionsClose": "Opciones adicionales ▲",
-    "weeklyReview": "revisión semanal",
+    "weeklyReview": "Revisión semanal",
     "monthlyReview": "Revisión mensual",
     "unwantedWords": "Palabras innecesarias",
     "knownWords": "Conocidas",
     "knownWithCount": "Conocidos ({count})",
     "markMastered": "100% dominado",
-    "shuffleVerbs": "mezclar los verbos",
+    "shuffleVerbs": "Mezclar los verbos",
     "restartSession": "🔄 Revisar la sesión nuevamente",
     "markSessionLearned": "🏅 Marcar la sesión como aprendida",
     "chooseAnotherGroup": "Elige otro grupo",
-    "listen": "para escuchar",
+    "listen": "Escuchar",
     "listenPlural": "Escuche el plural",
     "listenWithWord": "Escuchar: {word}",
     "autoplayOn": "Pronunciación automática activada",
@@ -92,12 +93,12 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "verb": {
     "infinitive": "Infinitivo",
-    "present": "el presente",
+    "present": "Presente",
     "imperfectIndicative": "Imperfecto - Indicativo",
     "imperfectSubjunctive": "Imperfecto - Subjuntivo",
     "pastParticiple": "Participio pasado",
     "infinitiv": "Infinitivo",
-    "writeInfinitive": "escribe el infinitivo",
+    "writeInfinitive": "Escribe el infinitivo",
     "guessInfinitive": "adivina el infinitivo",
     "writeImperfect": "escribe el imperfecto",
     "guessImperfect": "Adivina el imperfecto",
@@ -203,17 +204,17 @@ window.LANGUAGE_UI_STRINGS = {
     "title": "Curso",
     "subtitle": "Conceptos básicos del idioma alemán paso a paso.",
     "back": "‹ Curso",
-    "closeCourse": "cerrar el curso",
+    "closeCourse": "Cerrar el curso",
     "backToMain": "Volver a la pantalla principal",
     "tipTitle": "Consejo",
     "tipBody": "Escuche, repita y compare. ¡Tu oído es el mejor maestro!",
-    "pronunciation": "pronunciación",
+    "pronunciation": "Pronunciación",
     "pronunciationDesc": "Conceptos básicos de los sonidos y la pronunciación alemanes.",
     "articles": "Artículos",
     "articlesDesc": "Der, die, das y conceptos básicos de uso.",
     "pronouns": "Pronombres",
     "pronounsDesc": "Formas Nominativ, Akkusativ y Dativ.",
-    "lessons": "lecciones",
+    "lessons": "Lecciones",
     "lessonsDesc": "Lecciones en orden secuencial del 1 al 21.",
     "verbBasics": "Los fundamentos de los verbos.",
     "verbBasicsDesc": "Personas, formas y verbos comunes.",
@@ -232,10 +233,14 @@ window.LANGUAGE_UI_STRINGS = {
     "lessonProgress": "Lección {lesson} · Traducir: {current} / {total}",
     "exerciseProgress": "Lección {lesson} · Ejercicio",
     "sections": {
-      "grammar": "gramática",
+      "grammar": "Gramática",
       "exercise": "Ejercicio",
       "translate": "Traducir",
-      "exerciseCombined": "Ejercicio / Ejercicio"
+      "exerciseCombined": "Ejercicio / Ejercicio",
+      "dialogues": "Diálogos / frases",
+      "words": "Palabras",
+      "names": "Nombres",
+      "reading": "Texto / lectura"
     },
     "hints": {
       "tapToRevealAnswer": "Toca la tarjeta para ver la respuesta.",
@@ -253,10 +258,10 @@ window.LANGUAGE_UI_STRINGS = {
       "transformFirstPlural": "Cambia la oración a 1ª persona del plural."
     },
     "exerciseMeta": {
-      "fillCase": "Übung I - Usa la conjugación correcta",
+      "fillCase": "Ejercicio I — Usa la conjugación correcta",
       "chooseCasePlural": "¡Pon la conjugación correcta y hazlo en plural!",
       "answerPlural": "Ahora responde en plural.",
-      "translate": "Übung II - traducir",
+      "translate": "Ejercicio II — Traducir",
       "formDu": "Forma 1/3: Tu (singular)",
       "formIhr": "Formulario 2/3: Tú (plural)",
       "formSie": "Formulario 3/3: Sie (forma decente)"
@@ -360,7 +365,7 @@ window.LANGUAGE_UI_STRINGS = {
     "incorrect": "Equivocado",
     "expectedLabel": "Correcto:",
     "noVerbTask": "No hay tarea de ortografía para este verbo.",
-    "writeAnswer": "escribe la respuesta",
+    "writeAnswer": "Escribe la respuesta",
     "missingChar": "faltante: {char}"
   },
   "progress": {
@@ -389,14 +394,14 @@ window.LANGUAGE_UI_STRINGS = {
       "meaning": "Significado",
       "example": "Un ejemplo",
       "native": "ES",
-      "german": "Delaware",
+      "german": "DE",
       "mainMeaning": "El significado principal",
       "describes": "Describe",
       "translation": "Traducción"
     },
     "minimal": {
       "tipLabel": "Consejo:",
-      "pluralLabel": "MUCHOS",
+      "pluralLabel": "Pl.",
       "formsLabel": "Formas:",
       "noteLabel": "Indicación:"
     }
@@ -404,11 +409,13 @@ window.LANGUAGE_UI_STRINGS = {
   "__langCode": "es",
   "splash": {
     "title": "Alemán",
-    "subtitle": "Aprender alemán"
+    "subtitle": "Aprender alemán",
+    "ariaLabel": "Cargando"
   },
   "languageSelect": {
     "title": "Elegir idioma",
-    "footer": "Aprender alemán"
+    "footer": "Aprender alemán",
+    "ariaLabel": "Selección de idioma"
   },
   "app": {
     "title": "Alemán • ES-DE",

@@ -63,7 +63,7 @@ const COURSE_LESSON_DATA = {
     "subtitle": "Verbos reflexivos, e → i/ie cambio y acusativo.",
     "sections": [
       {
-        "title": "Diálogo / teikumi",
+        "title": "Diálogo / frases",
         "items": [
           "Der Lehrer kommt. Alle Schüler stehen auf und grüßen den Lehrer. Sie sagen: „Guten Morgen, Herr Lehrer!“",
           "Der Lehrer grüßt die Schüler und sagt: „Kinder, setzt euch!“",
@@ -131,7 +131,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "ä, kā jau minēts, izrunā gan kā šauro īso vai garo e skaņu. Piemēri: der Bäcker (bēker), das Mädchen (mētchen).",
           "ä vēl izrunā arī kā plato e, piemēram, vārdā der Gärtner (dēr gertner).",
@@ -158,7 +158,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ejercicio / Ejercicio",
+        "title": "Ejercicio",
         "exerciseType": "mezclado",
         "description": "Übung I - Usa la conjugación correcta. Übung II - cards de traducción.",
         "cards": [
@@ -446,7 +446,7 @@ const COURSE_LESSON_DATA = {
     "intro": "Novena conferencia: plural de sustantivos, pronombres demostrativos dieser/jener, ejercicios y traducción.",
     "sections": [
       {
-        "title": "Diálogo / teikumi",
+        "title": "Diálogo / frases",
         "items": [
           "Hier liegen mehrere Hefte.",
           "Dort liegen mehrere Bleistifte.",
@@ -553,7 +553,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Ejercicio / Ejercicio",
+        "title": "Ejercicio",
         "type": "gramáticaTransformCards",
         "cards": [
           {
@@ -874,7 +874,7 @@ const COURSE_LESSON_DATA = {
     "intro": "Décima conferencia: sein, können, formas de mando, salud, edad y profesiones.",
     "sections": [
       {
-        "title": "Diálogo / teikumi",
+        "title": "Diálogo / frases",
         "items": [
           "Ich bin gesund.",
           "Du bist gesund.",
@@ -957,7 +957,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "Pareizi jāizrunā patskaņu pārkaņojumi.",
           "ö izrunā ar apaļotām lūpām kā e: wir können, ihr könnt, sie können, der Löffel.",
@@ -1149,7 +1149,7 @@ const COURSE_LESSON_DATA = {
     "intro": "Undécima lección: haben, negación con kein, posesión, sustantivos compuestos y orden de las palabras con denn.",
     "sections": [
       {
-        "title": "Diálogo / teikumi",
+        "title": "Diálogo / frases",
         "items": [
           "Ich habe einen Bruder.",
           "Du hast einen Bruder.",
@@ -1224,11 +1224,11 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
           "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
-          "z izrunā kā latviešu c: Franz (franc), das Zimmer (cimer)."
+          "La z suena como la c española: Franz (frans), das Zimmer (tsimer)."
         ]
       },
       {
@@ -1456,7 +1456,7 @@ const COURSE_LESSON_DATA = {
     "intro": "Conferencia duodécima: grados comparativos, als/wie, edad, adjetivos y colores.",
     "sections": [
       {
-        "title": "Diálogo / teikumi",
+        "title": "Diálogo / frases",
         "items": [
           "Wie heißt du? Ich heiße Hans Grube.",
           "Wieviel Brüder hast du, Hans?",
@@ -1524,7 +1524,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "x izrunā kā ks: Max (maks), Felix (feliks).",
           "Vārdos Schwester, am jüngsten st izrunā kā latviski parasts st: Schwester (švester), jüngsten (jünksten).",
@@ -1979,7 +1979,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "h vārdā halten ir dzirdama skaņa.",
           "h vārdā fahren rāda patskaņa garumu.",
@@ -2360,14 +2360,14 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "ß izrunā kā latviešu s.",
           "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
           "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
           "ö vārdā mögen izrunā kā skaidru ö skaņu.",
           "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
-          "Līdzīgi arī latviešu valodā vārdā “smags” g pirms s izklausās tuvāk k skaņai."
+          "Del mismo modo, en español la g ante s en «signos» suena más cercana a una k."
         ]
       },
       {
@@ -2581,13 +2581,13 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "ä vārdos Äpfel un schälen izrunā kā šauro e.",
           "Vārdā Äpfel ä izrunā īsi, jo pēc patskaņa seko divi līdzskaņi.",
           "Vārdā schälen ä izrunā gari, jo pēc patskaņa seko viens līdzskanis.",
           "Vārdā gern e ir īss un plats.",
-          "Atceries: divskanis ei vācu valodā izrunā kā ai: reif, unreif."
+          "Recuerda: el diptongo ei en alemán se pronuncia como ai: reif, unreif."
         ]
       },
       {
@@ -2870,7 +2870,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "Vārdos wem, dem, den, der — En wem, dem, den, der, la e es larga y estrecha.",
           "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
@@ -3168,7 +3168,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "Vārdā werfen pirmais e ir plats: werfen.",
           "Vārdā wieder e ir plats: wieder.",
@@ -3475,7 +3475,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "Vārdā wohin h ir dzirdams: wo-hin.",
           "Vārdā wo o ir garš: wo."
@@ -3769,7 +3769,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "Vārdā vor o izrunā gari.",
           "Vārdā hinter h ir dzirdams, un e ir plats.",
@@ -3971,7 +3971,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
           "Vārdos der Ofen, der Boden: o ir garš.",
@@ -4307,7 +4307,7 @@ const COURSE_LESSON_DATA = {
         ]
       },
       {
-        "title": "Izruná",
+        "title": "Pronunciación",
         "items": [
           "Vārdā die Axt: x izrunā kā ks.",
           "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",

@@ -172,7 +172,8 @@ const STUDY_MAIN_IDEA_PREFIXES = [
   "Главная мысль",
   "Головна думка",
   "Główna myśl",
-  "Hovedidé"
+  "Hovedidé",
+  "Idea principal"
 ];
 
 function escapeRegex(value) {
@@ -551,11 +552,22 @@ const COURSE_SECTION_I18N_KEYS = {
   "Tekst/læsning": "kurss.sections.reading",
   "Gramatika": "kurss.sections.grammar",
   "Harjutus": "kurss.sections.exercise",
-  "Tõlgi": "kurss.sections.translate"
+  "Tõlgi": "kurss.sections.translate",
+  "Traducir": "kurss.sections.translate",
+  "Ejercicio": "kurss.sections.exercise",
+  "Ejercicio / Ejercicio": "kurss.sections.exerciseCombined",
+  "Palabras": "kurss.sections.words",
+  "Gramática": "kurss.sections.grammar",
+  "Diálogo / teikumi": "kurss.sections.dialogues",
+  "Diálogo / frases": "kurss.sections.dialogues",
+  "Izruná": "kurss.pronunciation",
+  "Pronunciación": "kurss.pronunciation",
+  "Texto / Lectura": "kurss.sections.reading",
+  "Nombres": "kurss.sections.names"
 };
 
-const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk", "Prevedi", "Translate", "Přeložit", "Přelož", "Oversætte", "Oversæt", "Tõlgi"]);
-const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas", "Vježbajte", "Übung / Vježba", "Exercise", "Übung / Exercise", "Cvičení", "Übung / Cvičení", "Øvelse", "Übung / Øvelse", "Harjutus"]);
+const COURSE_TRANSLATE_SECTION_TITLES = new Set(["Pārtulko", "Išversk", "Prevedi", "Translate", "Přeložit", "Přelož", "Oversætte", "Oversæt", "Tõlgi", "Traducir"]);
+const COURSE_EXERCISE_SECTION_TITLES = new Set(["Vingrinājums", "Pratimas", "Übung / Vingrinājums", "Übung / Pratimas", "Vježbajte", "Übung / Vježba", "Exercise", "Übung / Exercise", "Cvičení", "Übung / Cvičení", "Øvelse", "Übung / Øvelse", "Harjutus", "Ejercicio", "Ejercicio / Ejercicio"]);
 
 function isCourseTranslateSection(title) {
   return COURSE_TRANSLATE_SECTION_TITLES.has(String(title || "").trim());
