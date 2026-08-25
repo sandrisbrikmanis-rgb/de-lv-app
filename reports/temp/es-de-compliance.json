@@ -1,0 +1,142 @@
+{
+  "deReadOnly": {
+    "pass": false,
+    "mismatches": [
+      {
+        "level": "a1",
+        "de": "Besuch",
+        "path": "study.examples[0].de",
+        "lv": "Der Besuch im Museum war interessant."
+      },
+      {
+        "level": "a1",
+        "de": "Besuch",
+        "path": "study.examples[1].de",
+        "lv": "Danke für deinen Besuch."
+      },
+      {
+        "level": "a1",
+        "de": "Besuch",
+        "path": "study.examples[2].de",
+        "lv": "Der Arzt macht einen Besuch."
+      },
+      {
+        "level": "a1",
+        "de": "Besuch",
+        "path": "study.comparison[0].word",
+        "lv": "der Besuch"
+      },
+      {
+        "level": "a1",
+        "de": "Besuch",
+        "path": "study.comparison[1].word",
+        "lv": "der Besucher"
+      },
+      {
+        "level": "a1",
+        "de": "Besuch",
+        "path": "study.comparison[2].word",
+        "lv": "besuchen"
+      },
+      {
+        "level": "a1",
+        "de": "besuchen",
+        "path": "study.examples[0].de",
+        "lv": "Ich besuche das Museum."
+      },
+      {
+        "level": "a1",
+        "de": "besuchen",
+        "path": "study.examples[1].de",
+        "lv": "Wir besuchen einen Deutschkurs."
+      },
+      {
+        "level": "a1",
+        "de": "besuchen",
+        "path": "study.examples[2].de",
+        "lv": "Ich besuche meine Großeltern."
+      },
+      {
+        "level": "a1",
+        "de": "besuchen",
+        "path": "study.comparison[0].word",
+        "lv": "besuchen"
+      },
+      {
+        "level": "a1",
+        "de": "besuchen",
+        "path": "study.comparison[1].word",
+        "lv": "treffen"
+      },
+      {
+        "level": "a1",
+        "de": "besuchen",
+        "path": "study.comparison[2].word",
+        "lv": "zu jemandem gehen"
+      },
+      {
+        "level": "a1",
+        "de": "Fußball",
+        "path": "study.examples[0].de",
+        "lv": "Ich spiele Fußball."
+      },
+      {
+        "level": "a1",
+        "de": "Fußball",
+        "path": "study.examples[1].de",
+        "lv": "Der Fußball liegt im Garten."
+      },
+      {
+        "level": "a1",
+        "de": "Fußball",
+        "path": "study.examples[2].de",
+        "lv": "Wir kaufen zwei Fußbälle."
+      },
+      {
+        "level": "a1",
+        "de": "Fußball",
+        "path": "study.comparison[0].word",
+        "lv": "Fußball"
+      },
+      {
+        "level": "a1",
+        "de": "Fußball",
+        "path": "study.comparison[1].word",
+        "lv": "der Fußball"
+      },
+      {
+        "level": "a1",
+        "de": "ganz",
+        "path": "study.examples[0].de",
+        "lv": "Ich arbeite den ganzen Tag."
+      },
+      {
+        "level": "a1",
+        "de": "ganz",
+        "path": "study.examples[1].de",
+        "lv": "Das ganze Haus ist sauber."
+      },
+      {
+        "level": "a1",
+        "de": "ganz",
+        "path": "study.examples[2].de",
+        "lv": "Das ist ganz sicher."
+      }
+    ],
+    "totalMismatches": 54,
+    "checkedLevels": [
+      "a1",
+      "a2",
+      "b1",
+      "b2",
+      "c1",
+      "c2",
+      "sentences",
+      "verbs"
+    ]
+  },
+  "otherLanguagesReadOnly": {
+    "pass": true,
+    "modifiedFiles": []
+  }
+}

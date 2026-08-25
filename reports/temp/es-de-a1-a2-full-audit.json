@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "date": "2026-08-25",
+    "standard": "LANGUAGE_AUDIT_STANDARD.md",
+    "scope": "ES-DE A1+A2",
+    "originMainSha": "1806917473faa6d5251074a6a22d3631cef0eae9",
+    "readOnly": true,
+    "productionChanges": 0
+  },
+  "summary": {
+    "a1Cards": 702,
+    "a2Cards": 1640,
+    "a1StudyGap": 10,
+    "a2StudyGap": 0,
+    "missingStudyTotal": 10,
+    "partialStudyTotal": 2,
+    "foreignRemnants": 600,
+    "semicolons": 0,
+    "germanIntegrity": 6,
+    "technical": 0,
+    "minimalStudyNoRenderable": 18,
+    "mirrorPass": true
+  },
+  "gates": {
+    "syntax": "PASS",
+    "mirror": "PASS",
+    "mojibake": "PASS",
+    "parity": "FAIL",
+    "validateStudy": "FAIL",
+    "deReadOnly": "FAIL"
+  },
+  "a1": {
+    "cards": 702,
+    "study": {
+      "lv": 134,
+      "es": 124
+    },
+    "sectionAccentIssues": 45,
+    "lvRemnantCards": 24,
+    "missingStudy": [
+      {
+        "de": "Besuch",
+        "id": "a1-besuch",
+        "layout": "standardStudy"
+      },
+      {
+        "de": "besuchen",
+        "id": "a1-besuchen",
+        "layout": "standardStudy"
+      },
+      {
+        "de": "Fußball",
+        "id": "a1-fussball-study",
+        "layout": "standardStudy"
+      },
+      {
+        "de": "ganz",
+        "id": "a1-ganz-study",
+        "layout": "standardStudy"
+      },
+      {
+        "de": "gefallen",
+        "id": "a1-gefallen-study",
+        "layout": "standardStudy"
+      },
+      {
+        "de": "Geschichte",
+        "id": "a1-geschichte-study",
+        "layout": "standardStudy"
+      },
+      {
+        "de": "Geschwister",
+        "id": "a1-geschwister-study",
+        "layout": "standardStudy"
+      },
+      {
+        "de": "Großeltern",
+        "id": "a1-grosseltern-study",
+        "layout": "standardStudy"
+      },
+      {
+        "de": "Hand",
+        "id": "a1-hand-study",
+        "layout": "standardStudy"
+      },
+      {
+        "de": "hübsch",
+        "id": "a1-huebsch",
+        "layout": "standardStudy"
+      }
+    ]
+  },
+  "a2": {
+    "cards": 1640,
+    "study": {
+      "lv": 231,
+      "es": 231
+    },
+    "sectionAccentIssues": 581,
+    "lvRemnantCards": 147,
+    "minimalStudyNoRenderable": [
+      {
+        "de": "Aschenputtel",
+        "id": "a2-aschenputtel",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Gott",
+        "id": "a2-gott",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Keller",
+        "id": "a2-keller",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kellner",
+        "id": "a2-kellner",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kerl",
+        "id": "a2-kerl",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kerze",
+        "id": "a2-kerze",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Keyboard",
+        "id": "a2-keyboard",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kinderarzt",
+        "id": "a2-kinderarzt",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kinderfunk",
+        "id": "a2-kinderfunk",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kinderwagen",
+        "id": "a2-kinderwagen",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kindheit",
+        "id": "a2-kindheit",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kino",
+        "id": "a2-kino",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kiosk",
+        "id": "a2-kiosk",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kirsche",
+        "id": "a2-kirsche",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kissen",
+        "id": "a2-kissen",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kissenbezug",
+        "id": "a2-kissenbezug",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Kiste",
+        "id": "a2-kiste",
+        "layout": "minimalStudy"
+      },
+      {
+        "de": "Zwilling",
+        "id": "a2-zwilling",
+        "layout": "minimalStudy"
+      }
+    ]
+  },
+  "verdict": "NEEDS_REPAIR"
+}

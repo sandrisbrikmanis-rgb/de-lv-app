@@ -1,0 +1,5112 @@
+{
+  "meta": {
+    "date": "2026-08-25",
+    "standard": "LANGUAGE_AUDIT_STANDARD.md",
+    "scope": "ES-DE A1+A2",
+    "originMainSha": "1806917473faa6d5251074a6a22d3631cef0eae9",
+    "readOnly": true
+  },
+  "levels": [
+    {
+      "level": "a1",
+      "counts": {
+        "cards": 702,
+        "lvStudy": 134,
+        "esStudy": 124
+      },
+      "structural": {
+        "issues": [
+          {
+            "severity": "CRITICAL",
+            "message": "Study count mismatch LV=134 ES=124"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte",
+            "de": "bitte",
+            "message": "Missing fields vs LV: study.tip.text"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte-study",
+            "de": "Bitte",
+            "message": "Missing fields vs LV: study.tip.text"
+          }
+        ],
+        "pass": false
+      },
+      "germanIntegrity": {
+        "issues": [
+          {
+            "severity": "CRITICAL",
+            "id": "a1-klein-study",
+            "de": "klein",
+            "message": "Study German content differs from LV etalon"
+          },
+          {
+            "severity": "CRITICAL",
+            "id": "a1-bitte",
+            "de": "bitte",
+            "message": "Study German content differs from LV etalon"
+          },
+          {
+            "severity": "CRITICAL",
+            "id": "a1-bitte-study",
+            "de": "Bitte",
+            "message": "Study German content differs from LV etalon"
+          },
+          {
+            "severity": "CRITICAL",
+            "id": "a1-bringen",
+            "de": "bringen",
+            "message": "Study German content differs from LV etalon"
+          },
+          {
+            "severity": "CRITICAL",
+            "id": "a1-es",
+            "de": "es",
+            "message": "Study German content differs from LV etalon"
+          },
+          {
+            "severity": "CRITICAL",
+            "id": "a1-finden",
+            "de": "finden",
+            "message": "Study German content differs from LV etalon"
+          }
+        ],
+        "pass": false
+      },
+      "foreignRemnants": {
+        "issues": [
+          {
+            "severity": "HIGH",
+            "id": "a1-klein-study",
+            "de": "klein",
+            "path": "entry[6].study.examples[3].lv",
+            "category": "LV_REMNANT",
+            "text": "man ir maza soma."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bei",
+            "de": "bei",
+            "path": "entry[78].study.examples[0].lv",
+            "category": "LV_REMNANT",
+            "text": "es esmu pie sava drauga."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-bisschen-92",
+            "de": "bisschen",
+            "path": "entry[92].lv",
+            "category": "IT_REMNANT",
+            "text": "un poco"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte",
+            "de": "bitte",
+            "path": "entry[93].study.comparison[0].meaning",
+            "category": "LV_REMNANT",
+            "text": "lūdzu"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte",
+            "de": "bitte",
+            "path": "entry[93].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte",
+            "de": "bitte",
+            "path": "entry[93].study.comparison[1].meaning",
+            "category": "LV_REMNANT",
+            "text": "lūgums"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte",
+            "de": "bitte",
+            "path": "entry[93].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe eine Bitte. – Man ir lūgums."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte-study",
+            "de": "Bitte",
+            "path": "entry[94].study.comparison[0].meaning",
+            "category": "LV_REMNANT",
+            "text": "lūgums"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte-study",
+            "de": "Bitte",
+            "path": "entry[94].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe eine Bitte. – Man ir lūgums."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte-study",
+            "de": "Bitte",
+            "path": "entry[94].study.comparison[1].meaning",
+            "category": "LV_REMNANT",
+            "text": "lūdzu"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bitte-study",
+            "de": "Bitte",
+            "path": "entry[94].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bringen",
+            "de": "bringen",
+            "path": "entry[111].study.comparison[4].meaning",
+            "category": "LV_REMNANT",
+            "text": "paņemt"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-bringen",
+            "de": "bringen",
+            "path": "entry[111].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich nehme das Buch. – Es paņemu grāmatu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-ein",
+            "de": "ein",
+            "path": "entry[154].study.examples[3].lv",
+            "category": "LV_REMNANT",
+            "text": "Bērns spēlējas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-ein",
+            "de": "ein",
+            "path": "entry[154].study.comparison[0].meaning",
+            "category": "LV_REMNANT",
+            "text": "vīriešu dzimte"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-ein",
+            "de": "ein",
+            "path": "entry[154].study.comparison[3].meaning",
+            "category": "LV_REMNANT",
+            "text": "akuzatīvs"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-eis",
+            "de": "Eis",
+            "path": "entry[157].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich esse ein Eis. = Es ēdu saldējumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-eis",
+            "de": "Eis",
+            "path": "entry[157].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Wasser ist kalt. = Ūdens ir auksts."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-eis",
+            "de": "Eis",
+            "path": "entry[157].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Eis ist ein Dessert. = Saldējums ir deserts."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-erst",
+            "de": "erst",
+            "path": "entry[165].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-erst",
+            "de": "erst",
+            "path": "entry[165].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-erst",
+            "de": "erst",
+            "path": "entry[165].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-es",
+            "de": "es",
+            "path": "entry[167].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Es regnet. – Līst."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-es",
+            "de": "es",
+            "path": "entry[167].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].lv",
+            "category": "IT_REMNANT",
+            "text": "algo • un poco"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.translation",
+            "category": "IT_REMNANT",
+            "text": "algo • un poco"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.explanation[0]",
+            "category": "IT_REMNANT",
+            "text": "Idea principal: etwas significa algo o un poco según el contexto."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.explanation[2]",
+            "category": "IT_REMNANT",
+            "text": "Cuando etwas está delante de un adjetivo o cantidad, a menudo significa un poco."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.explanation[4]",
+            "category": "IT_REMNANT",
+            "text": "Lo más importante es distinguir: etwas kaufen = comprar algo, etwas müde = un poco cansado."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.examples[2].lv",
+            "category": "LV_REMNANT",
+            "text": "es esmu nedaudz noguris."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.examples[4].lv",
+            "category": "IT_REMNANT",
+            "text": "es un poco caro."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.comparison[2].meaning",
+            "category": "IT_REMNANT",
+            "text": "un poco"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.sectionAccents.examples[4].lv.purple[0]",
+            "category": "IT_REMNANT",
+            "text": "poco"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.sectionAccents.comparison[2].meaning.purple[0]",
+            "category": "IT_REMNANT",
+            "text": "un poco"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-etwas",
+            "de": "etwas",
+            "path": "entry[169].study.sectionAccents.comparison[2].example.yellow[1]",
+            "category": "IT_REMNANT",
+            "text": "un poco"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-euch",
+            "de": "euch",
+            "path": "entry[170].study.examples[3].lv",
+            "category": "LV_REMNANT",
+            "text": "es jums pateicos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-euch",
+            "de": "euch",
+            "path": "entry[170].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-euch",
+            "de": "euch",
+            "path": "entry[170].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich helfe euch. = Es jums palīdzu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-euch",
+            "de": "euch",
+            "path": "entry[170].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist euer Haus. = Tā ir jūsu māja."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-finden",
+            "de": "finden",
+            "path": "entry[187].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich finde das gut. = Man tas šķiet labi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-haben",
+            "de": "haben",
+            "path": "entry[261].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe Zeit. = Man ir laiks."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-haben",
+            "de": "haben",
+            "path": "entry[261].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bin hier. = Es esmu šeit."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-haben",
+            "de": "haben",
+            "path": "entry[261].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-haben",
+            "de": "haben",
+            "path": "entry[261].study.tip.text",
+            "category": "LV_REMNANT",
+            "text": "Recuerda: Ich habe → man ir."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-halten",
+            "de": "halten",
+            "path": "entry[265].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich nehme die Tasche. = Es ņemu somu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-halten",
+            "de": "halten",
+            "path": "entry[265].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-halten",
+            "de": "halten",
+            "path": "entry[265].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-heißen",
+            "de": "heißen",
+            "path": "entry[276].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-heißen",
+            "de": "heißen",
+            "path": "entry[276].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Was bedeutet das? = Ko tas nozīmē?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-heißen",
+            "de": "heißen",
+            "path": "entry[276].study.comparison[4].meaning",
+            "category": "LV_REMNANT",
+            "text": "zvanīt"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-ihr",
+            "de": "ihr",
+            "path": "entry[292].study.examples[4].lv",
+            "category": "LV_REMNANT",
+            "text": "vai jums ir laiks?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-ihr",
+            "de": "ihr",
+            "path": "entry[292].study.sectionAccents.examples[4].lv.purple[0]",
+            "category": "LV_REMNANT",
+            "text": "jums"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-können",
+            "de": "können",
+            "path": "entry[319].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich kann schwimmen. = Es protu peldēt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-können",
+            "de": "können",
+            "path": "entry[319].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Darf ich gehen? = Vai drīkstu iet?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-können",
+            "de": "können",
+            "path": "entry[319].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich muss lernen. = Man jāmācās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-kosten",
+            "de": "kosten",
+            "path": "entry[320].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-kosten",
+            "de": "kosten",
+            "path": "entry[320].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-kosten",
+            "de": "kosten",
+            "path": "entry[320].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-kosten",
+            "de": "kosten",
+            "path": "entry[320].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Was kostet das Buch? = Cik maksā grāmata?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-nur-study",
+            "de": "nur",
+            "path": "entry[456].study.examples[0].lv",
+            "category": "LV_REMNANT",
+            "text": "Man ir tikai desmit eiro."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-nur-study",
+            "de": "nur",
+            "path": "entry[456].study.examples[1].lv",
+            "category": "LV_REMNANT",
+            "text": "man ir tikai desmit eiro."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-nur-study",
+            "de": "nur",
+            "path": "entry[456].study.examples[3].lv",
+            "category": "LV_REMNANT",
+            "text": "es gribu tikai kafiju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-schauen-study",
+            "de": "schauen",
+            "path": "entry[510].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich sehe dich. – Es tevi redzu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-sehen",
+            "de": "sehen",
+            "path": "entry[539].study.examples[0].lv",
+            "category": "LV_REMNANT",
+            "text": "es tevi redzu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-sehen",
+            "de": "sehen",
+            "path": "entry[539].study.examples[2].lv",
+            "category": "LV_REMNANT",
+            "text": "es neko neredzu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-sehen",
+            "de": "sehen",
+            "path": "entry[539].study.important[1]",
+            "category": "LV_REMNANT",
+            "text": "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-sehen",
+            "de": "sehen",
+            "path": "entry[539].study.sectionAccents.examples[0].lv.purple[0]",
+            "category": "LV_REMNANT",
+            "text": "redzu"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-sehen",
+            "de": "sehen",
+            "path": "entry[539].study.sectionAccents.examples[2].lv.purple[0]",
+            "category": "LV_REMNANT",
+            "text": "neredzu"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-sein",
+            "de": "sein",
+            "path": "entry[542].study.tip.text",
+            "category": "LV_REMNANT",
+            "text": "Recuerda: ich bin = es esmu; du bist = tu esi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-sein",
+            "de": "sein",
+            "path": "entry[542].study.sectionAccents.tip.left.purple[0]",
+            "category": "LV_REMNANT",
+            "text": "es esmu"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a1-wenig-654",
+            "de": "wenig",
+            "path": "entry[654].lv",
+            "category": "IT_REMNANT",
+            "text": "poco"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-werden",
+            "de": "werden",
+            "path": "entry[657].study.examples[3].lv",
+            "category": "LV_REMNANT",
+            "text": "es esmu noguris."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-fernsehen",
+            "de": "fernsehen",
+            "path": "entry[687].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich sehe fern. = Es skatos televīziju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-fernsehen",
+            "de": "fernsehen",
+            "path": "entry[687].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a1-fernsehen",
+            "de": "fernsehen",
+            "path": "entry[687].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich sehe einen Film. = Es redzu filmu."
+          }
+        ],
+        "pass": false
+      },
+      "technical": {
+        "issues": [],
+        "pass": true
+      },
+      "semicolons": {
+        "issues": [],
+        "pass": true
+      },
+      "missingStudy": [
+        {
+          "de": "Besuch",
+          "id": "a1-besuch",
+          "layout": "standardStudy"
+        },
+        {
+          "de": "besuchen",
+          "id": "a1-besuchen",
+          "layout": "standardStudy"
+        },
+        {
+          "de": "Fußball",
+          "id": "a1-fussball-study",
+          "layout": "standardStudy"
+        },
+        {
+          "de": "ganz",
+          "id": "a1-ganz-study",
+          "layout": "standardStudy"
+        },
+        {
+          "de": "gefallen",
+          "id": "a1-gefallen-study",
+          "layout": "standardStudy"
+        },
+        {
+          "de": "Geschichte",
+          "id": "a1-geschichte-study",
+          "layout": "standardStudy"
+        },
+        {
+          "de": "Geschwister",
+          "id": "a1-geschwister-study",
+          "layout": "standardStudy"
+        },
+        {
+          "de": "Großeltern",
+          "id": "a1-grosseltern-study",
+          "layout": "standardStudy"
+        },
+        {
+          "de": "Hand",
+          "id": "a1-hand-study",
+          "layout": "standardStudy"
+        },
+        {
+          "de": "hübsch",
+          "id": "a1-huebsch",
+          "layout": "standardStudy"
+        }
+      ],
+      "partialStudy": [
+        {
+          "de": "bitte",
+          "id": "a1-bitte",
+          "missing": [
+            "study.tip.text"
+          ]
+        },
+        {
+          "de": "Bitte",
+          "id": "a1-bitte-study",
+          "missing": [
+            "study.tip.text"
+          ]
+        }
+      ],
+      "minimalStudyNoRenderable": [],
+      "mirror": {
+        "level": "a1",
+        "identical": true,
+        "dataBlob": "fbc65a70d189313fde09f4fe350eaa2738987c39",
+        "wwwBlob": "fbc65a70d189313fde09f4fe350eaa2738987c39"
+      }
+    },
+    {
+      "level": "a2",
+      "counts": {
+        "cards": 1640,
+        "lvStudy": 231,
+        "esStudy": 231
+      },
+      "structural": {
+        "issues": [],
+        "pass": true
+      },
+      "germanIntegrity": {
+        "issues": [],
+        "pass": true
+      },
+      "foreignRemnants": {
+        "issues": [
+          {
+            "severity": "MEDIUM",
+            "id": "a2-abfahren",
+            "de": "abfahren",
+            "path": "entry[2].study.examples[4].lv",
+            "category": "IT_REMNANT",
+            "text": "poco a poco vamos por este camino."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abfahren",
+            "de": "abfahren",
+            "path": "entry[2].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abfahren",
+            "de": "abfahren",
+            "path": "entry[2].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abfahren",
+            "de": "abfahren",
+            "path": "entry[2].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-abfahren",
+            "de": "abfahren",
+            "path": "entry[2].study.sectionAccents.examples[4].lv.purple[0]",
+            "category": "IT_REMNANT",
+            "text": "poco"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-abfahren",
+            "de": "abfahren",
+            "path": "entry[2].study.sectionAccents.examples[4].lv.purple[1]",
+            "category": "IT_REMNANT",
+            "text": "poco"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-abfahren",
+            "de": "abfahren",
+            "path": "entry[2].study.sectionAccents.examples[4].lv.purple[2]",
+            "category": "IT_REMNANT",
+            "text": "poco"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abgeben",
+            "de": "abgeben",
+            "path": "entry[5].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abgeben",
+            "de": "abgeben",
+            "path": "entry[5].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abgeben",
+            "de": "abgeben",
+            "path": "entry[5].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-absagen",
+            "de": "absagen",
+            "path": "entry[11].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich sage den Termin ab. = Es atceļu tikšanos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-absagen",
+            "de": "absagen",
+            "path": "entry[11].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-absagen",
+            "de": "absagen",
+            "path": "entry[11].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich kündige den Vertrag. = Es uzteicu līgumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-absagen",
+            "de": "absagen",
+            "path": "entry[11].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich storniere die Buchung. = Es atceļu rezervāciju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-absagen",
+            "de": "absagen",
+            "path": "entry[11].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Er sagt nein. = Viņš saka nē."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abschließen",
+            "de": "abschließen",
+            "path": "entry[13].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abschließen",
+            "de": "abschließen",
+            "path": "entry[13].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abstellen",
+            "de": "abstellen",
+            "path": "entry[16].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abstellen",
+            "de": "abstellen",
+            "path": "entry[16].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich schalte den Computer aus. = Es izslēdzu datoru."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abstellen",
+            "de": "abstellen",
+            "path": "entry[16].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Der Bus hält an. = Autobuss apstājas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abstellen",
+            "de": "abstellen",
+            "path": "entry[16].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-abstellen",
+            "de": "abstellen",
+            "path": "entry[16].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-angewandt",
+            "de": "angewandt",
+            "path": "entry[41].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-angewandt",
+            "de": "angewandt",
+            "path": "entry[41].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-angreifen",
+            "de": "angreifen",
+            "path": "entry[42].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Hund greift an. = Suns uzbrūk."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-angreifen",
+            "de": "angreifen",
+            "path": "entry[42].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-angreifen",
+            "de": "angreifen",
+            "path": "entry[42].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Er beleidigt mich. = Viņš mani apvaino."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-angreifen",
+            "de": "angreifen",
+            "path": "entry[42].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anhänger",
+            "de": "Anhänger",
+            "path": "entry[44].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anhänger",
+            "de": "Anhänger",
+            "path": "entry[44].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anhänger",
+            "de": "Anhänger",
+            "path": "entry[44].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anheizen",
+            "de": "anheizen",
+            "path": "entry[45].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich heize den Ofen an. = Es iekuru krāsni."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anheizen",
+            "de": "anheizen",
+            "path": "entry[45].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anheizen",
+            "de": "anheizen",
+            "path": "entry[45].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das verschärft den Streit. = Tas saasina strīdu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anlegen",
+            "de": "anlegen",
+            "path": "entry[55].study.examples[2].lv",
+            "category": "LV_REMNANT",
+            "text": "es gribu izveidot jaunu kontu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anlegen",
+            "de": "anlegen",
+            "path": "entry[55].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anmelden",
+            "de": "anmelden",
+            "path": "entry[57].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anmelden",
+            "de": "anmelden",
+            "path": "entry[57].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anmelden",
+            "de": "anmelden",
+            "path": "entry[57].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich buche einen Termin. = Es rezervēju laiku."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anmelden",
+            "de": "anmelden",
+            "path": "entry[57].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich melde das Problem. = Es ziņoju par problēmu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anstecken",
+            "de": "anstecken",
+            "path": "entry[63].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anstecken",
+            "de": "anstecken",
+            "path": "entry[63].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe mich angesteckt. = Es inficējos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anstellen",
+            "de": "anstellen",
+            "path": "entry[65].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anstellen",
+            "de": "anstellen",
+            "path": "entry[65].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anstellen",
+            "de": "anstellen",
+            "path": "entry[65].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-anstellen",
+            "de": "anstellen",
+            "path": "entry[65].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich stelle mich an. = Es nostājos rindā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-artikel",
+            "de": "Artikel",
+            "path": "entry[90].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Artikel ist kurz. = Raksts ir īss."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-artikel",
+            "de": "Artikel",
+            "path": "entry[90].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-artikel",
+            "de": "Artikel",
+            "path": "entry[90].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Ware ist teuer. = Prece ir dārga."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-artikel",
+            "de": "Artikel",
+            "path": "entry[90].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Paragraph ist wichtig. = Pants ir svarīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufheben",
+            "de": "aufheben",
+            "path": "entry[118].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufheben",
+            "de": "aufheben",
+            "path": "entry[118].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich hebe die Hand. = Es paceļu roku."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufheben",
+            "de": "aufheben",
+            "path": "entry[118].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auflage",
+            "de": "Auflage",
+            "path": "entry[127].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Die Auflage ist hoch. = Tirāža ir liela."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auflage",
+            "de": "Auflage",
+            "path": "entry[127].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auflage",
+            "de": "Auflage",
+            "path": "entry[127].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist eine Bedingung. = Tas ir nosacījums."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufnahme",
+            "de": "Aufnahme",
+            "path": "entry[132].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufnahme",
+            "de": "Aufnahme",
+            "path": "entry[132].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufnehmen",
+            "de": "aufnehmen",
+            "path": "entry[133].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich nehme das Buch. = Es ņemu grāmatu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufnehmen",
+            "de": "aufnehmen",
+            "path": "entry[133].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufnehmen",
+            "de": "aufnehmen",
+            "path": "entry[133].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir beginnen die Arbeit. = Mēs sākam darbu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufrichtig",
+            "de": "aufrichtig",
+            "path": "entry[138].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufrichtig",
+            "de": "aufrichtig",
+            "path": "entry[138].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist ehrlich. = Viņš ir godīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufrichtig",
+            "de": "aufrichtig",
+            "path": "entry[138].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Herzliche Grüße. = Sirsnīgi sveicieni."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufrichtig",
+            "de": "aufrichtig",
+            "path": "entry[138].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Sie spricht offen. = Viņa runā atklāti."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufrufen",
+            "de": "aufrufen",
+            "path": "entry[139].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Er fordert uns auf. = Viņš mūs aicina."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auftragen",
+            "de": "auftragen",
+            "path": "entry[146].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auftragen",
+            "de": "auftragen",
+            "path": "entry[146].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auftragen",
+            "de": "auftragen",
+            "path": "entry[146].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir streichen die Wand an. = Mēs krāsojam sienu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auftragen",
+            "de": "auftragen",
+            "path": "entry[146].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auftreten",
+            "de": "auftreten",
+            "path": "entry[147].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ein Fehler tritt auf. = Parādās kļūda."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auftreten",
+            "de": "auftreten",
+            "path": "entry[147].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er erscheint um acht. = Viņš ierodas astoņos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auftreten",
+            "de": "auftreten",
+            "path": "entry[147].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Sie spielt im Theater. = Viņa spēlē teātrī."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auftreten",
+            "de": "auftreten",
+            "path": "entry[147].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Er verhält sich ruhig. = Viņš izturas mierīgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufwenden",
+            "de": "aufwenden",
+            "path": "entry[149].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufwenden",
+            "de": "aufwenden",
+            "path": "entry[149].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufwenden",
+            "de": "aufwenden",
+            "path": "entry[149].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aufzeichnen",
+            "de": "aufzeichnen",
+            "path": "entry[150].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aussteigen",
+            "de": "aussteigen",
+            "path": "entry[159].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aussteigen",
+            "de": "aussteigen",
+            "path": "entry[159].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aussteigen",
+            "de": "aussteigen",
+            "path": "entry[159].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-aussteigen",
+            "de": "aussteigen",
+            "path": "entry[159].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Er verlässt die Firma. = Viņš atstāj firmu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auswählen",
+            "de": "auswählen",
+            "path": "entry[165].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auswählen",
+            "de": "auswählen",
+            "path": "entry[165].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auswählen",
+            "de": "auswählen",
+            "path": "entry[165].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich entscheide morgen. = Es izlemšu rīt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-auswählen",
+            "de": "auswählen",
+            "path": "entry[165].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-ausziehen",
+            "de": "ausziehen",
+            "path": "entry[169].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-ausziehen",
+            "de": "ausziehen",
+            "path": "entry[169].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das Kind zieht sich aus. = Bērns izģērbjas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bahn",
+            "de": "Bahn",
+            "path": "entry[187].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bahn",
+            "de": "Bahn",
+            "path": "entry[187].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bank",
+            "de": "Bank",
+            "path": "entry[194].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bank",
+            "de": "Bank",
+            "path": "entry[194].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bank",
+            "de": "Bank",
+            "path": "entry[194].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bank",
+            "de": "Bank",
+            "path": "entry[194].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bank",
+            "de": "Bank",
+            "path": "entry[194].study.comparison[5].example",
+            "category": "LV_REMNANT",
+            "text": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bauer",
+            "de": "Bauer",
+            "path": "entry[207].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bauer",
+            "de": "Bauer",
+            "path": "entry[207].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bauer",
+            "de": "Bauer",
+            "path": "entry[207].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bauer",
+            "de": "Bauer",
+            "path": "entry[207].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bauer",
+            "de": "Bauer",
+            "path": "entry[207].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bedienen",
+            "de": "bedienen",
+            "path": "entry[213].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bedienen",
+            "de": "bedienen",
+            "path": "entry[213].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Kannst du mir helfen? = Vai vari man palīdzēt?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bedienen",
+            "de": "bedienen",
+            "path": "entry[213].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bedienen",
+            "de": "bedienen",
+            "path": "entry[213].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Er steuert das Auto. = Viņš vada auto."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bedienung",
+            "de": "Bedienung",
+            "path": "entry[214].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bedienung",
+            "de": "Bedienung",
+            "path": "entry[214].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bedienung",
+            "de": "Bedienung",
+            "path": "entry[214].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bedienung",
+            "de": "Bedienung",
+            "path": "entry[214].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das Personal hilft uns. = Personāls mums palīdz."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-behalten",
+            "de": "behalten",
+            "path": "entry[221].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Du kannst es behalten. = Tu vari to paturēt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-behalten",
+            "de": "behalten",
+            "path": "entry[221].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich merke mir die Nummer. = Es iegaumēju numuru."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-behalten",
+            "de": "behalten",
+            "path": "entry[221].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bewahre die Quittung auf. = Es glabāju čeku."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-beinahe",
+            "de": "beinahe",
+            "path": "entry[222].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-beinahe",
+            "de": "beinahe",
+            "path": "entry[222].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-beinahe",
+            "de": "beinahe",
+            "path": "entry[222].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bekannt",
+            "de": "bekannt",
+            "path": "entry[224].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist bekannt. = Tas ir zināms."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bekannt",
+            "de": "bekannt",
+            "path": "entry[224].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist berühmt. = Viņš ir slavens."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bekannt",
+            "de": "bekannt",
+            "path": "entry[224].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bekannt",
+            "de": "bekannt",
+            "path": "entry[224].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir sind befreundet. = Mēs esam draugos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bekannt",
+            "de": "bekannt",
+            "path": "entry[224].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bestellen",
+            "de": "bestellen",
+            "path": "entry[242].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bestelle Essen. = Es pasūtu ēdienu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bestellen",
+            "de": "bestellen",
+            "path": "entry[242].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bestellen",
+            "de": "bestellen",
+            "path": "entry[242].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich kaufe Brot. = Es pērku maizi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bestellen",
+            "de": "bestellen",
+            "path": "entry[242].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bearbeite den Text. = Es apstrādāju tekstu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bestimmt",
+            "de": "bestimmt",
+            "path": "entry[244].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bestimmt",
+            "de": "bestimmt",
+            "path": "entry[244].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bestimmt",
+            "de": "bestimmt",
+            "path": "entry[244].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-birne",
+            "de": "Birne",
+            "path": "entry[255].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich esse eine Birne. = Es ēdu bumbieri."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-birne",
+            "de": "Birne",
+            "path": "entry[255].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-birne",
+            "de": "Birne",
+            "path": "entry[255].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Birnen sind Obst. = Bumbieri ir augļi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bitter",
+            "de": "bitter",
+            "path": "entry[258].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Kaffee ist bitter. = Kafija ir rūgta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bitter",
+            "de": "bitter",
+            "path": "entry[258].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Zitrone ist sauer. = Citrons ir skābs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bitter",
+            "de": "bitter",
+            "path": "entry[258].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Lehrer ist streng. = Skolotājs ir stingrs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-bitter",
+            "de": "bitter",
+            "path": "entry[258].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-boden",
+            "de": "Boden",
+            "path": "entry[272].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-boden",
+            "de": "Boden",
+            "path": "entry[272].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Fußboden ist sauber. = Grīda ir tīra."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-boden",
+            "de": "Boden",
+            "path": "entry[272].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-borgen",
+            "de": "borgen",
+            "path": "entry[276].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich borge mir Geld. = Es aizņemos naudu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-borgen",
+            "de": "borgen",
+            "path": "entry[276].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-borgen",
+            "de": "borgen",
+            "path": "entry[276].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-böse",
+            "de": "böse",
+            "path": "entry[277].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-böse",
+            "de": "böse",
+            "path": "entry[277].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist zornig. = Viņš ir nikns."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-böse",
+            "de": "böse",
+            "path": "entry[277].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bin sauer. = Es esmu dusmīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-brav",
+            "de": "brav",
+            "path": "entry[285].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das Kind ist brav. = Bērns ir paklausīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-brav",
+            "de": "brav",
+            "path": "entry[285].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-brav",
+            "de": "brav",
+            "path": "entry[285].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Sie ist nett. = Viņa ir jauka."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-brav",
+            "de": "brav",
+            "path": "entry[285].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-brav",
+            "de": "brav",
+            "path": "entry[285].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das Kind ist artig. = Bērns ir pieklājīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-brav",
+            "de": "brav",
+            "path": "entry[285].study.comparison[5].example",
+            "category": "LV_REMNANT",
+            "text": "Der Hund ist gehorsam. = Suns ir paklausīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-brennen",
+            "de": "brennen",
+            "path": "entry[289].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe mich verbrannt. = Es apdedzinājos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-brennen",
+            "de": "brennen",
+            "path": "entry[289].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dabei",
+            "de": "dabei",
+            "path": "entry[315].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dabei",
+            "de": "dabei",
+            "path": "entry[315].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dabei",
+            "de": "dabei",
+            "path": "entry[315].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dabei",
+            "de": "dabei",
+            "path": "entry[315].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Trotzdem komme ich. = Tomēr es nākšu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dafür",
+            "de": "dafür",
+            "path": "entry[318].study.examples[0].lv",
+            "category": "LV_REMNANT",
+            "text": "es esmu par to."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dafür",
+            "de": "dafür",
+            "path": "entry[318].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dafür",
+            "de": "dafür",
+            "path": "entry[318].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dafür",
+            "de": "dafür",
+            "path": "entry[318].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bin dagegen. = Es esmu pret to."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dafür",
+            "de": "dafür",
+            "path": "entry[318].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist für das Kind. = Tas ir bērnam."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-damit",
+            "de": "damit",
+            "path": "entry[321].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-damit",
+            "de": "damit",
+            "path": "entry[321].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-damit",
+            "de": "damit",
+            "path": "entry[321].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
+          },
+          {
+            "severity": "HIGH",
+            "id": "study-der-dank",
+            "de": "Dank",
+            "path": "entry[323].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Herzlichen Dank! = Sirsnīgs paldies!"
+          },
+          {
+            "severity": "HIGH",
+            "id": "study-der-dank",
+            "de": "Dank",
+            "path": "entry[323].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Nein, danke. = Nē, paldies."
+          },
+          {
+            "severity": "HIGH",
+            "id": "study-der-dank",
+            "de": "Dank",
+            "path": "entry[323].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
+          },
+          {
+            "severity": "HIGH",
+            "id": "study-der-dank",
+            "de": "Dank",
+            "path": "entry[323].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-darauf",
+            "de": "darauf",
+            "path": "entry[324].study.examples[5].lv",
+            "category": "IT_REMNANT",
+            "text": "regresó poco después."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darauf",
+            "de": "darauf",
+            "path": "entry[324].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darauf",
+            "de": "darauf",
+            "path": "entry[324].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darauf",
+            "de": "darauf",
+            "path": "entry[324].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir sprechen darüber. = Mēs runājam par to."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darüber",
+            "de": "darüber",
+            "path": "entry[325].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Wir sprechen darüber. = Mēs runājam par to."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darüber",
+            "de": "darüber",
+            "path": "entry[325].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darüber",
+            "de": "darüber",
+            "path": "entry[325].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe davon gehört. = Es par to dzirdēju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darum",
+            "de": "darum",
+            "path": "entry[326].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darum",
+            "de": "darum",
+            "path": "entry[326].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darum",
+            "de": "darum",
+            "path": "entry[326].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Deswegen bin ich müde. = Tāpēc esmu noguris."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-darum",
+            "de": "darum",
+            "path": "entry[326].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-davor",
+            "de": "davor",
+            "path": "entry[329].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe Angst davor. = Man ir bail no tā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-davor",
+            "de": "davor",
+            "path": "entry[329].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-davor",
+            "de": "davor",
+            "path": "entry[329].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Danach gehen wir. = Pēc tam mēs ejam."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dazu",
+            "de": "dazu",
+            "path": "entry[330].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich war dabei. = Es biju klāt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dazu",
+            "de": "dazu",
+            "path": "entry[330].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-decke",
+            "de": "Decke",
+            "path": "entry[331].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Bettdecke ist weich. = Sega ir mīksta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-decke",
+            "de": "Decke",
+            "path": "entry[331].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-denn",
+            "de": "denn",
+            "path": "entry[334].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-denn",
+            "de": "denn",
+            "path": "entry[334].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Dann gehen wir. = Tad mēs ejam."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-denn",
+            "de": "denn",
+            "path": "entry[334].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Deshalb bleibe ich. = Tāpēc es palieku."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dick",
+            "de": "dick",
+            "path": "entry[341].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das Buch ist dick. = Grāmata ir bieza."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dick",
+            "de": "dick",
+            "path": "entry[341].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das Essen ist fett. = Ēdiens ir trekns."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dick",
+            "de": "dick",
+            "path": "entry[341].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Papier ist dünn. = Papīrs ir plāns."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dick",
+            "de": "dick",
+            "path": "entry[341].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist stark. = Viņš ir stiprs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-doch",
+            "de": "doch",
+            "path": "entry[346].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Komm doch! = Nāc taču!"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-doch",
+            "de": "doch",
+            "path": "entry[346].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-doch",
+            "de": "doch",
+            "path": "entry[346].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-doch",
+            "de": "doch",
+            "path": "entry[346].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Kommst du? Nein. = Vai tu nāksi? Nē."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-doktor",
+            "de": "Doktor",
+            "path": "entry[347].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich gehe zum Doktor. = Es eju pie ārsta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-doktor",
+            "de": "Doktor",
+            "path": "entry[347].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Arzt hilft mir. = Ārsts man palīdz."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-doktor",
+            "de": "Doktor",
+            "path": "entry[347].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-doktor",
+            "de": "Doktor",
+            "path": "entry[347].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-dunkel-363",
+            "de": "dunkel",
+            "path": "entry[363].lv",
+            "category": "IT_REMNANT",
+            "text": "oscuro • poco claro"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dünn",
+            "de": "dünn",
+            "path": "entry[364].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das Papier ist dünn. = Papīrs ir plāns."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dünn",
+            "de": "dünn",
+            "path": "entry[364].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das Buch ist dick. = Grāmata ir bieza."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dünn",
+            "de": "dünn",
+            "path": "entry[364].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das Fleisch ist mager. = Gaļa ir liesa."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-dünn",
+            "de": "dünn",
+            "path": "entry[364].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Honig ist flüssig. = Medus ir šķidrs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-eben",
+            "de": "eben",
+            "path": "entry[369].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist eben so. = Tā tas vienkārši ir."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-eben",
+            "de": "eben",
+            "path": "entry[369].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-eben",
+            "de": "eben",
+            "path": "entry[369].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-ehrlich",
+            "de": "ehrlich",
+            "path": "entry[377].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist ehrlich. = Viņš ir godīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-ehrlich",
+            "de": "ehrlich",
+            "path": "entry[377].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Sie ist nett. = Viņa ir jauka."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-ehrlich",
+            "de": "ehrlich",
+            "path": "entry[377].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-eigentlich",
+            "de": "eigentlich",
+            "path": "entry[378].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-eigentlich",
+            "de": "eigentlich",
+            "path": "entry[378].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist echt. = Tas ir īsts."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-eigentlich",
+            "de": "eigentlich",
+            "path": "entry[378].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist wirklich gut. = Tas tiešām ir labi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einladen",
+            "de": "einladen",
+            "path": "entry[387].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lade das Handy. = Es lādēju telefonu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einladen",
+            "de": "einladen",
+            "path": "entry[387].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Bring bitte Brot mit. = Paņem līdzi maizi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einschalten",
+            "de": "einschalten",
+            "path": "entry[391].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einschalten",
+            "de": "einschalten",
+            "path": "entry[391].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Schalte den Computer aus. = Izslēdz datoru."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einschalten",
+            "de": "einschalten",
+            "path": "entry[391].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Mach das Licht an. = Ieslēdz gaismu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einschalten",
+            "de": "einschalten",
+            "path": "entry[391].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einschlafen",
+            "de": "einschlafen",
+            "path": "entry[393].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einschlafen",
+            "de": "einschlafen",
+            "path": "entry[393].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einsteigen",
+            "de": "einsteigen",
+            "path": "entry[394].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einsteigen",
+            "de": "einsteigen",
+            "path": "entry[394].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich steige hier aus. = Es šeit izkāpju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-einsteigen",
+            "de": "einsteigen",
+            "path": "entry[394].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir steigen um. = Mēs pārsēžamies."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-eintritt",
+            "de": "Eintritt",
+            "path": "entry[395].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-eintritt",
+            "de": "Eintritt",
+            "path": "entry[395].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich trete dem Verein bei. = Es iestājos biedrībā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-erinnern",
+            "de": "erinnern",
+            "path": "entry[420].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-erinnern",
+            "de": "erinnern",
+            "path": "entry[420].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Denk an den Schlüssel. = Atceries par atslēgu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-etwa",
+            "de": "etwa",
+            "path": "entry[439].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-etwa",
+            "de": "etwa",
+            "path": "entry[439].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-etwa",
+            "de": "etwa",
+            "path": "entry[439].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Vielleicht kommt er. = Varbūt viņš atnāks."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fach",
+            "de": "Fach",
+            "path": "entry[444].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das Fach ist leer. = Nodalījums ir tukšs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fach",
+            "de": "Fach",
+            "path": "entry[444].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fach",
+            "de": "Fach",
+            "path": "entry[444].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fach",
+            "de": "Fach",
+            "path": "entry[444].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fach",
+            "de": "Fach",
+            "path": "entry[444].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fall",
+            "de": "Fall",
+            "path": "entry[455].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fall",
+            "de": "Fall",
+            "path": "entry[455].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Unfall war schlimm. = Negadījums bija smags."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fall",
+            "de": "Fall",
+            "path": "entry[455].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Situation ist schwierig. = Situācija ir grūta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fall",
+            "de": "Fall",
+            "path": "entry[455].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Kasus ist wichtig. = Locījums ir svarīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fehlen",
+            "de": "fehlen",
+            "path": "entry[467].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Mir fehlt Geld. = Man trūkst naudas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fehlen",
+            "de": "fehlen",
+            "path": "entry[467].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich vermisse dich. = Man tevis pietrūkst."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-fehlen",
+            "de": "fehlen",
+            "path": "entry[467].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist abwesend. = Viņš nav klāt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-feuer",
+            "de": "Feuer",
+            "path": "entry[484].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Brand ist groß. = Ugunsgrēks ir liels."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-feuer",
+            "de": "Feuer",
+            "path": "entry[484].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-feuer",
+            "de": "Feuer",
+            "path": "entry[484].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-flach-495",
+            "de": "flach",
+            "path": "entry[495].lv",
+            "category": "IT_REMNANT",
+            "text": "plano • poco profundo"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-folgen",
+            "de": "folgen",
+            "path": "entry[508].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-folgen",
+            "de": "folgen",
+            "path": "entry[508].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Kind gehorcht. = Bērns klausa."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-folgen",
+            "de": "folgen",
+            "path": "entry[508].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-führen",
+            "de": "führen",
+            "path": "entry[539].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-führen",
+            "de": "führen",
+            "path": "entry[539].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Sie leitet die Firma. = Viņa vada firmu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-führen",
+            "de": "führen",
+            "path": "entry[539].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich fahre nach Hause. = Es braucu mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-führen",
+            "de": "führen",
+            "path": "entry[539].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-führen",
+            "de": "führen",
+            "path": "entry[539].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das führt zu Problemen. = Tas noved pie problēmām."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-gehören",
+            "de": "gehören",
+            "path": "entry[572].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er besitzt ein Auto. = Viņam pieder auto."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-genau",
+            "de": "genau",
+            "path": "entry[576].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-genau",
+            "de": "genau",
+            "path": "entry[576].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-genau",
+            "de": "genau",
+            "path": "entry[576].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Er war eben hier. = Viņš tikko bija šeit."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-gerade",
+            "de": "gerade",
+            "path": "entry[580].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich komme gerade. = Es tieši tagad nāku."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-geschäft",
+            "de": "Geschäft",
+            "path": "entry[582].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das Unternehmen wächst. = Uzņēmums aug."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-geschäft",
+            "de": "Geschäft",
+            "path": "entry[582].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-gewinnen",
+            "de": "gewinnen",
+            "path": "entry[592].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-gewinnen",
+            "de": "gewinnen",
+            "path": "entry[592].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-gewinnen",
+            "de": "gewinnen",
+            "path": "entry[592].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Er verdient Geld. = Viņš pelna naudu."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-gießen",
+            "de": "gießen",
+            "path": "entry[595].study.examples[3].lv",
+            "category": "IT_REMNANT",
+            "text": "sírveme un poco de té por favor"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-gießen",
+            "de": "gießen",
+            "path": "entry[595].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich gieße die Blumen. = Es laistu puķes."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-gießen",
+            "de": "gießen",
+            "path": "entry[595].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich schenke Tee ein. = Es ieleju tēju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-gießen",
+            "de": "gießen",
+            "path": "entry[595].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Es regnet. = Līst."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-gießen",
+            "de": "gießen",
+            "path": "entry[595].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-grund",
+            "de": "Grund",
+            "path": "entry[607].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-grund",
+            "de": "Grund",
+            "path": "entry[607].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-grund",
+            "de": "Grund",
+            "path": "entry[607].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Der Anlass war ein Fest. = Iemesls bija svētki."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-grund",
+            "de": "Grund",
+            "path": "entry[607].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Boden ist nass. = Grīda ir slapja."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-hängen",
+            "de": "hängen",
+            "path": "entry[632].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-hängen",
+            "de": "hängen",
+            "path": "entry[632].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-hängen",
+            "de": "hängen",
+            "path": "entry[632].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-indem",
+            "de": "indem",
+            "path": "entry[703].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-indem",
+            "de": "indem",
+            "path": "entry[703].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-indem",
+            "de": "indem",
+            "path": "entry[703].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-indem",
+            "de": "indem",
+            "path": "entry[703].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kaum",
+            "de": "kaum",
+            "path": "entry[783].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe kaum Zeit. = Man gandrīz nav laika."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kaum",
+            "de": "kaum",
+            "path": "entry[783].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kaum",
+            "de": "kaum",
+            "path": "entry[783].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kleiden",
+            "de": "kleiden",
+            "path": "entry[810].study.explanation",
+            "category": "IT_REMNANT",
+            "text": "kleiden puede significar vestir a otra persona. Con sich significa vestir o vestir con un estilo determinado. El \"ajuste\" es muy importante si la ropa o el color le quedan bien a la persona. La palabr"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kleiden",
+            "de": "kleiden",
+            "path": "entry[810].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kleiden",
+            "de": "kleiden",
+            "path": "entry[810].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kleiden",
+            "de": "kleiden",
+            "path": "entry[810].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Farbe kleidet dich. = Krāsa tev piestāv."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kleiden",
+            "de": "kleiden",
+            "path": "entry[810].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Sie trägt ein Kleid. = Viņa valkā kleitu."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.explanation[2]",
+            "category": "IT_REMNANT",
+            "text": "En las frases kurz vor y kurz nach, significa poco antes o poco después."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.examples[3].lv",
+            "category": "IT_REMNANT",
+            "text": "poco antes de las ocho estaba allí."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.examples[4].lv",
+            "category": "IT_REMNANT",
+            "text": "Poco después de comer nos marcharemos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Text ist kurz. = Teksts ir īss."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.comparison[1].meaning",
+            "category": "IT_REMNANT",
+            "text": "poco antes"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "kurz vor acht = īsi pirms astoņiem"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.comparison[2].meaning",
+            "category": "IT_REMNANT",
+            "text": "poco después"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "kurz nach dem Essen = īsi pēc ēšanas"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich komme bald. = Es drīz nākšu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Weg ist lang. = Ceļš ir garš."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.tip[1]",
+            "category": "IT_REMNANT",
+            "text": "Con vor y nach, apréndelo como frases: kurz vor = poco antes, kurz nach = poco después."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.important[1]",
+            "category": "IT_REMNANT",
+            "text": "Al poco tiempo suele quedar calvo; kurz more significa corto o por un rato."
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.sectionAccents.explanation.purple[1]",
+            "category": "IT_REMNANT",
+            "text": "poco antes"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.sectionAccents.explanation.purple[2]",
+            "category": "IT_REMNANT",
+            "text": "poco después"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.sectionAccents.examples[3].lv.purple[0]",
+            "category": "IT_REMNANT",
+            "text": "poco antes"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.sectionAccents.examples[4].lv.purple[0]",
+            "category": "IT_REMNANT",
+            "text": "poco después"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.sectionAccents.comparison[1].meaning.purple[0]",
+            "category": "IT_REMNANT",
+            "text": "poco antes"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.sectionAccents.comparison[2].meaning.purple[0]",
+            "category": "IT_REMNANT",
+            "text": "poco después"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.sectionAccents.comparison[2].example.purple[0]",
+            "category": "IT_REMNANT",
+            "text": "poco después"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.sectionAccents.tip[0].purple[1]",
+            "category": "IT_REMNANT",
+            "text": "poco antes"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-kurz",
+            "de": "kurz",
+            "path": "entry[855].study.sectionAccents.tip[0].purple[2]",
+            "category": "IT_REMNANT",
+            "text": "poco después"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-lage",
+            "de": "Lage",
+            "path": "entry[857].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Die Lage ist schwierig. = Situācija ir sarežģīta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-lage",
+            "de": "Lage",
+            "path": "entry[857].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Situation ist ernst. = Situācija ir nopietna."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-lage",
+            "de": "Lage",
+            "path": "entry[857].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Der Standort ist gut. = Atrašanās vieta ir laba."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-lage",
+            "de": "Lage",
+            "path": "entry[857].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "eine Schicht Farbe = viena krāsas kārta"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leiden",
+            "de": "leiden",
+            "path": "entry[877].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leiden",
+            "de": "leiden",
+            "path": "entry[877].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Sie leidet an Asthma. = Viņa slimo ar astmu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leiden",
+            "de": "leiden",
+            "path": "entry[877].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leiden",
+            "de": "leiden",
+            "path": "entry[877].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist krank. = Viņš ir slims."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leihen",
+            "de": "leihen",
+            "path": "entry[878].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich borge mir Geld. = Es aizņemos naudu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leihen",
+            "de": "leihen",
+            "path": "entry[878].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leihen",
+            "de": "leihen",
+            "path": "entry[878].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich kaufe das Buch. = Es pērku grāmatu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leiter",
+            "de": "Leiter",
+            "path": "entry[880].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leiter",
+            "de": "Leiter",
+            "path": "entry[880].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leitung",
+            "de": "Leitung",
+            "path": "entry[881].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Die Leitung ist kaputt. = Līnija ir bojāta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leitung",
+            "de": "Leitung",
+            "path": "entry[881].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leitung",
+            "de": "Leitung",
+            "path": "entry[881].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leitung",
+            "de": "Leitung",
+            "path": "entry[881].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-leitung",
+            "de": "Leitung",
+            "path": "entry[881].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Die Wasserleitung tropft. = Ūdens caurule pil."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-merken",
+            "de": "merken",
+            "path": "entry[936].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich merke den Fehler. = Es pamanu kļūdu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-merken",
+            "de": "merken",
+            "path": "entry[936].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Merk dir das! = Iegaumē to!"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-merken",
+            "de": "merken",
+            "path": "entry[936].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bemerke den Fehler. = Es pamanu kļūdu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-merken",
+            "de": "merken",
+            "path": "entry[936].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich behalte die Nummer. = Es paturu numuru prātā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-mittel",
+            "de": "Mittel",
+            "path": "entry[951].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "ein Mittel gegen Husten = līdzeklis pret klepu"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-mittel",
+            "de": "Mittel",
+            "path": "entry[951].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das Medikament hilft. = Medikaments palīdz."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-mittel",
+            "de": "Mittel",
+            "path": "entry[951].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Diese Methode ist einfach. = Šī metode ir vienkārša."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-mittel",
+            "de": "Mittel",
+            "path": "entry[951].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "finanzielle Mittel = finanšu līdzekļi"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-na-gut",
+            "de": "na gut",
+            "path": "entry[975].study.tip.text",
+            "category": "IT_REMNANT",
+            "text": "\"na gut\" es una expresión coloquial que se utiliza muy a menudo en la vida cotidiana. Puede parecer neutral, condescendiente o un poco reacio, según la situación."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-note",
+            "de": "Note",
+            "path": "entry[1019].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bekomme eine Note. = Es saņemu atzīmi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-note",
+            "de": "Note",
+            "path": "entry[1019].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Schulnote ist gut. = Skolas atzīme ir laba."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-note",
+            "de": "Note",
+            "path": "entry[1019].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-nutzen",
+            "de": "nutzen",
+            "path": "entry[1029].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-nutzen",
+            "de": "nutzen",
+            "path": "entry[1029].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Nutze die Chance! = Izmanto iespēju!"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-offen",
+            "de": "offen",
+            "path": "entry[1037].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Die Tür ist offen. = Durvis ir vaļā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-offen",
+            "de": "offen",
+            "path": "entry[1037].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das Museum ist geöffnet. = Muzejs ir atvērts."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-offen",
+            "de": "offen",
+            "path": "entry[1037].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Er ist ehrlich. = Viņš ir godīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-offen",
+            "de": "offen",
+            "path": "entry[1037].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Platz ist frei. = Vieta ir brīva."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-patient",
+            "de": "Patient",
+            "path": "entry[1064].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Patientin ruht sich aus. = Paciente atpūšas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-patient",
+            "de": "Patient",
+            "path": "entry[1064].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-personal",
+            "de": "Personal",
+            "path": "entry[1068].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das Personal hilft. = Personāls palīdz."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-personal",
+            "de": "Personal",
+            "path": "entry[1068].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-personal",
+            "de": "Personal",
+            "path": "entry[1068].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist persönlich. = Tas ir personīgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rad",
+            "de": "Rad",
+            "path": "entry[1119].study.examples[2].lv",
+            "category": "LV_REMNANT",
+            "text": "automašīnai ir četri riteņi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rad",
+            "de": "Rad",
+            "path": "entry[1119].study.examples[3].lv",
+            "category": "LV_REMNANT",
+            "text": "es braucu ar velosipēdu uz skolu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rad",
+            "de": "Rad",
+            "path": "entry[1119].study.important[1]",
+            "category": "LV_REMNANT",
+            "text": "Velosipēds visprecīzāk ir das Fahrrad; Rad var būt īsā sarunvalodas forma."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rad",
+            "de": "Rad",
+            "path": "entry[1119].study.sectionAccents.examples[2].lv.purple[0]",
+            "category": "LV_REMNANT",
+            "text": "automašīnai"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rasen-study",
+            "de": "Rasen",
+            "path": "entry[1124].study.explanation[1]",
+            "category": "LV_REMNANT",
+            "text": "rasen ar mazo burtu ir verbo — joņot, traukties ļoti ātri."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rasen-study",
+            "de": "Rasen",
+            "path": "entry[1124].study.explanation[2]",
+            "category": "LV_REMNANT",
+            "text": "der Rasen bieži attiecas uz kopto zālienu dārzā vai stadionā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-raten",
+            "de": "raten",
+            "path": "entry[1126].study.explanation[2]",
+            "category": "LV_REMNANT",
+            "text": "Ja nezini atbildi un mēģini to trāpīt, raten significa uzminēt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-raten",
+            "de": "raten",
+            "path": "entry[1126].study.explanation[3]",
+            "category": "LV_REMNANT",
+            "text": "Frāze Ich rate dir... significa es tev iesaku."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-raten",
+            "de": "raten",
+            "path": "entry[1126].study.explanation[4]",
+            "category": "LV_REMNANT",
+            "text": "Konteksts parāda, vai runa ir par padomu vai minēšanu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rechnen",
+            "de": "rechnen",
+            "path": "entry[1132].study.examples[2].lv",
+            "category": "LV_REMNANT",
+            "text": "mēs rēķināmies ar lietu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rechnen",
+            "de": "rechnen",
+            "path": "entry[1132].study.sectionAccents.examples[2].lv.purple[0]",
+            "category": "LV_REMNANT",
+            "text": "mēs"
+          },
+          {
+            "severity": "MEDIUM",
+            "id": "a2-reichen",
+            "de": "reichen",
+            "path": "entry[1144].study.examples[2].lv",
+            "category": "IT_REMNANT",
+            "text": "¿Puedes darme un poco de sal?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-riechen",
+            "de": "riechen",
+            "path": "entry[1165].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rolle",
+            "de": "Rolle",
+            "path": "entry[1172].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Sie spielt eine Rolle. = Viņa spēlē lomu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rolle",
+            "de": "Rolle",
+            "path": "entry[1172].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rolle",
+            "de": "Rolle",
+            "path": "entry[1172].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rolle",
+            "de": "Rolle",
+            "path": "entry[1172].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das hat keine Bedeutung. = Tam nav nozīmes."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-rolle",
+            "de": "Rolle",
+            "path": "entry[1172].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sammeln",
+            "de": "sammeln",
+            "path": "entry[1190].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Briefmarken sammeln = krāt pastmarkas"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sammeln",
+            "de": "sammeln",
+            "path": "entry[1190].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Schüler sammeln sich. = Skolēni sapulcējas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sammeln",
+            "de": "sammeln",
+            "path": "entry[1190].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich hole Wasser. = Es atnesu ūdeni."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sammeln",
+            "de": "sammeln",
+            "path": "entry[1190].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-satz",
+            "de": "Satz",
+            "path": "entry[1194].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Satz ist kurz. = Teikums ir īss."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-satz",
+            "de": "Satz",
+            "path": "entry[1194].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-satz",
+            "de": "Satz",
+            "path": "entry[1194].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-satz",
+            "de": "Satz",
+            "path": "entry[1194].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-scheinen",
+            "de": "scheinen",
+            "path": "entry[1217].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Die Sonne scheint. = Saule spīd."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-scheinen",
+            "de": "scheinen",
+            "path": "entry[1217].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Er wirkt ruhig. = Viņš šķiet mierīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-scheinen",
+            "de": "scheinen",
+            "path": "entry[1217].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Die Lampe leuchtet. = Lampa spīd."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schlange",
+            "de": "Schlange",
+            "path": "entry[1229].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schlange",
+            "de": "Schlange",
+            "path": "entry[1229].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schlange",
+            "de": "Schlange",
+            "path": "entry[1229].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schließen",
+            "de": "schließen",
+            "path": "entry[1230].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schließen",
+            "de": "schließen",
+            "path": "entry[1230].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schloss",
+            "de": "Schloss",
+            "path": "entry[1236].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schloss",
+            "de": "Schloss",
+            "path": "entry[1236].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schloss",
+            "de": "Schloss",
+            "path": "entry[1236].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schloss",
+            "de": "Schloss",
+            "path": "entry[1236].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schuld",
+            "de": "Schuld",
+            "path": "entry[1256].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist meine Schuld. = Tā ir mana vaina."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schuld",
+            "de": "Schuld",
+            "path": "entry[1256].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Er hat Schulden. = Viņam ir parādi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schuld",
+            "de": "Schuld",
+            "path": "entry[1256].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich trage Verantwortung. = Es nesu atbildību."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schuld",
+            "de": "Schuld",
+            "path": "entry[1256].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das war ein Fehler. = Tā bija kļūda."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schuld",
+            "de": "Schuld",
+            "path": "entry[1256].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bin schuld. = Es esmu vainīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sich-befinden",
+            "de": "sich befinden",
+            "path": "entry[1291].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sich-befinden",
+            "de": "sich befinden",
+            "path": "entry[1291].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das Büro ist oben. = Birojs ir augšā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sich-befinden",
+            "de": "sich befinden",
+            "path": "entry[1291].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sich-befinden",
+            "de": "sich befinden",
+            "path": "entry[1291].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sich-befinden",
+            "de": "sich befinden",
+            "path": "entry[1291].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich fühle mich gut. = Es jūtos labi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sich-unterhalten",
+            "de": "sich unterhalten",
+            "path": "entry[1305].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Wir unterhalten uns. = Mēs sarunājamies."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sich-unterhalten",
+            "de": "sich unterhalten",
+            "path": "entry[1305].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich spreche Deutsch. = Es runāju vāciski."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sich-unterhalten",
+            "de": "sich unterhalten",
+            "path": "entry[1305].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir reden viel. = Mēs daudz runājam."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sich-unterhalten",
+            "de": "sich unterhalten",
+            "path": "entry[1305].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir amüsieren uns. = Mēs izklaidējamies."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sobald",
+            "de": "sobald",
+            "path": "entry[1325].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sobald",
+            "de": "sobald",
+            "path": "entry[1325].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sobald",
+            "de": "sobald",
+            "path": "entry[1325].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sobald",
+            "de": "sobald",
+            "path": "entry[1325].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sobald",
+            "de": "sobald",
+            "path": "entry[1325].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sonst",
+            "de": "sonst",
+            "path": "entry[1336].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sonst",
+            "de": "sonst",
+            "path": "entry[1336].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ansonsten ist alles gut. = Citādi viss ir labi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sonst",
+            "de": "sonst",
+            "path": "entry[1336].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sonst",
+            "de": "sonst",
+            "path": "entry[1336].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sonst",
+            "de": "sonst",
+            "path": "entry[1336].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-steigen",
+            "de": "steigen",
+            "path": "entry[1378].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Die Preise steigen. = Cenas ceļas."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-steigen",
+            "de": "steigen",
+            "path": "entry[1378].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich steige in den Bus ein. = Es iekāpju autobusā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-steigen",
+            "de": "steigen",
+            "path": "entry[1378].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich steige aus. = Es izkāpju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-steigen",
+            "de": "steigen",
+            "path": "entry[1378].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich stehe um sieben auf. = Es pieceļos septiņos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-steigen",
+            "de": "steigen",
+            "path": "entry[1378].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stelle",
+            "de": "Stelle",
+            "path": "entry[1380].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich suche eine Stelle. = Es meklēju darba vietu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stelle",
+            "de": "Stelle",
+            "path": "entry[1380].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stelle",
+            "de": "Stelle",
+            "path": "entry[1380].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Die Wunde tut weh. = Brūce sāp."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stimmen",
+            "de": "stimmen",
+            "path": "entry[1388].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das stimmt. = Tā ir / tas ir pareizi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stimmen",
+            "de": "stimmen",
+            "path": "entry[1388].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich stimme dir zu. = Es tev piekrītu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stimmen",
+            "de": "stimmen",
+            "path": "entry[1388].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir stimmen darüber ab. = Mēs par to balsojam."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stimmen",
+            "de": "stimmen",
+            "path": "entry[1388].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stimmen",
+            "de": "stimmen",
+            "path": "entry[1388].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Die Farbe passt. = Krāsa piestāv."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stoff",
+            "de": "Stoff",
+            "path": "entry[1392].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Stoff ist weich. = Audums ir mīksts."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stoff",
+            "de": "Stoff",
+            "path": "entry[1392].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das Material ist stabil. = Materiāls ir izturīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stoff",
+            "de": "Stoff",
+            "path": "entry[1392].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Substanz ist gefährlich. = Viela ir bīstama."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-stoff",
+            "de": "Stoff",
+            "path": "entry[1392].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-tafel",
+            "de": "Tafel",
+            "path": "entry[1416].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-tafel",
+            "de": "Tafel",
+            "path": "entry[1416].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-tafel",
+            "de": "Tafel",
+            "path": "entry[1416].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-tafel",
+            "de": "Tafel",
+            "path": "entry[1416].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das Schild ist rot. = Zīme ir sarkana."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-tafel",
+            "de": "Tafel",
+            "path": "entry[1416].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Eine Tafel Schokolade = šokolādes tāfelīte."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-teil",
+            "de": "Teil",
+            "path": "entry[1431].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ein Teil fehlt. = Trūkst viena daļa."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-teil",
+            "de": "Teil",
+            "path": "entry[1431].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-teil",
+            "de": "Teil",
+            "path": "entry[1431].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-teil",
+            "de": "Teil",
+            "path": "entry[1431].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-teil",
+            "de": "Teil",
+            "path": "entry[1431].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist eine gute Sache. = Tā ir laba lieta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-termin",
+            "de": "Termin",
+            "path": "entry[1438].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-termin",
+            "de": "Termin",
+            "path": "entry[1438].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das Treffen war nett. = Tikšanās bija jauka."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-termin",
+            "de": "Termin",
+            "path": "entry[1438].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Frist endet morgen. = Termiņš beidzas rīt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-termin",
+            "de": "Termin",
+            "path": "entry[1438].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-termin",
+            "de": "Termin",
+            "path": "entry[1438].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-tief",
+            "de": "tief",
+            "path": "entry[1443].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der See ist tief. = Ezers ir dziļš."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-tief",
+            "de": "tief",
+            "path": "entry[1443].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Das Wasser ist flach. = Ūdens ir sekls."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-tragen",
+            "de": "tragen",
+            "path": "entry[1458].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-tragen",
+            "de": "tragen",
+            "path": "entry[1458].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich halte das Kind. = Es turu bērnu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-treffen",
+            "de": "treffen",
+            "path": "entry[1469].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Eine Entscheidung treffen = pieņemt lēmumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-treffen",
+            "de": "treffen",
+            "path": "entry[1469].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Wir treffen uns. = Mēs tiekamies."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-treffen",
+            "de": "treffen",
+            "path": "entry[1469].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-treffen",
+            "de": "treffen",
+            "path": "entry[1469].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-übrig",
+            "de": "übrig",
+            "path": "entry[1488].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-übrig",
+            "de": "übrig",
+            "path": "entry[1488].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Der Rest ist für morgen. = Atlikums ir rītdienai."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-übrig",
+            "de": "übrig",
+            "path": "entry[1488].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-übrig",
+            "de": "übrig",
+            "path": "entry[1488].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist unnötig. = Tas ir nevajadzīgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-übung",
+            "de": "Übung",
+            "path": "entry[1489].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-übung",
+            "de": "Übung",
+            "path": "entry[1489].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Training beginnt um sechs. = Treniņš sākas sešos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-übung",
+            "de": "Übung",
+            "path": "entry[1489].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-übung",
+            "de": "Übung",
+            "path": "entry[1489].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "In der Praxis ist es anders. = Praksē tas ir citādi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-umsonst",
+            "de": "umsonst",
+            "path": "entry[1492].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich warte umsonst. = Es gaidu veltīgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-umsonst",
+            "de": "umsonst",
+            "path": "entry[1492].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist gratis. = Tas ir par brīvu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-umsonst",
+            "de": "umsonst",
+            "path": "entry[1492].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich suche vergeblich. = Es meklēju veltīgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-verbinden",
+            "de": "verbinden",
+            "path": "entry[1511].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-verbinden",
+            "de": "verbinden",
+            "path": "entry[1511].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-verbinden",
+            "de": "verbinden",
+            "path": "entry[1511].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-verkehr",
+            "de": "Verkehr",
+            "path": "entry[1517].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Verkehr ist stark. = Satiksme ir intensīva."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-verkehr",
+            "de": "Verkehr",
+            "path": "entry[1517].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-verkehr",
+            "de": "Verkehr",
+            "path": "entry[1517].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-verkehr",
+            "de": "Verkehr",
+            "path": "entry[1517].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Bewegung ist gesund. = Kustība ir veselīga."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-viertel",
+            "de": "Viertel",
+            "path": "entry[1529].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-viertel",
+            "de": "Viertel",
+            "path": "entry[1529].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ein Drittel bleibt. = Trešdaļa paliek."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-viertel",
+            "de": "Viertel",
+            "path": "entry[1529].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das Quartier ist ruhig. = Kvartāls ir kluss."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-vorstellen",
+            "de": "vorstellen",
+            "path": "entry[1544].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-vorstellen",
+            "de": "vorstellen",
+            "path": "entry[1544].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich stelle mich vor. = Es stādos priekšā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-vorstellen",
+            "de": "vorstellen",
+            "path": "entry[1544].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Ich denke an dich. = Es domāju par tevi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-vorstellen",
+            "de": "vorstellen",
+            "path": "entry[1544].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Was meinst du? = Ko tu domā?"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-vorstellen",
+            "de": "vorstellen",
+            "path": "entry[1544].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich präsentiere den Plan. = Es prezentēju plānu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wagen",
+            "de": "Wagen",
+            "path": "entry[1550].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Der Wagen ist neu. = Automašīna ir jauna."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wagen",
+            "de": "Wagen",
+            "path": "entry[1550].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Auto steht da. = Automašīna stāv tur."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wählen",
+            "de": "wählen",
+            "path": "entry[1551].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich wähle eine Nummer. = Es sastādu numuru."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wählen",
+            "de": "wählen",
+            "path": "entry[1551].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wählen",
+            "de": "wählen",
+            "path": "entry[1551].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Wir stimmen ab. = Mēs balsojam."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-während",
+            "de": "während",
+            "path": "entry[1553].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-während",
+            "de": "während",
+            "path": "entry[1553].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-während",
+            "de": "während",
+            "path": "entry[1553].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-während",
+            "de": "während",
+            "path": "entry[1553].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wahrscheinlich",
+            "de": "wahrscheinlich",
+            "path": "entry[1555].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wahrscheinlich",
+            "de": "wahrscheinlich",
+            "path": "entry[1555].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Vielleicht kommt er. = Varbūt viņš atnāks."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wahrscheinlich",
+            "de": "wahrscheinlich",
+            "path": "entry[1555].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Er kommt bestimmt. = Viņš noteikti atnāks."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wahrscheinlich",
+            "de": "wahrscheinlich",
+            "path": "entry[1555].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist möglich. = Tas ir iespējams."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wechseln",
+            "de": "wechseln",
+            "path": "entry[1564].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Wir tauschen Plätze. = Mēs samaināmies vietām."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wechseln",
+            "de": "wechseln",
+            "path": "entry[1564].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich steige um. = Es pārsēžos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wechseln",
+            "de": "wechseln",
+            "path": "entry[1564].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Ich ändere den Plan. = Es mainu plānu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wert",
+            "de": "Wert",
+            "path": "entry[1583].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist viel wert. = Tas ir daudz vērts."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wert",
+            "de": "Wert",
+            "path": "entry[1583].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Der Wert ist hoch. = Vērtība ir augsta."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wert",
+            "de": "Wert",
+            "path": "entry[1583].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Auto ist teuer. = Auto ir dārgs."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wert",
+            "de": "Wert",
+            "path": "entry[1583].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wert",
+            "de": "Wert",
+            "path": "entry[1583].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Das ist wichtig. = Tas ir svarīgi."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wiegen",
+            "de": "wiegen",
+            "path": "entry[1589].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Die Waage steht im Bad. = Svari stāv vannasistabā."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wiegen",
+            "de": "wiegen",
+            "path": "entry[1589].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Das Gewicht ist normal. = Svars ir normāls."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wiegen",
+            "de": "wiegen",
+            "path": "entry[1589].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Ich messe die Länge. = Es mēru garumu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-wiegen",
+            "de": "wiegen",
+            "path": "entry[1589].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Der Wagen ist neu. = Automašīna ir jauna."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-ziehen",
+            "de": "ziehen",
+            "path": "entry[1599].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Wir ziehen um. = Mēs pārvācamies."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-ziehen",
+            "de": "ziehen",
+            "path": "entry[1599].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich ziehe um. = Es pārvācos."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-ziehen",
+            "de": "ziehen",
+            "path": "entry[1599].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-zunehmen",
+            "de": "zunehmen",
+            "path": "entry[1614].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich nehme ab. = Es notievēju."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-zunehmen",
+            "de": "zunehmen",
+            "path": "entry[1614].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Die Stadt wächst. = Pilsēta aug."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-zunehmen",
+            "de": "zunehmen",
+            "path": "entry[1614].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Die Preise steigen. = Cenas kāpj."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-zunehmen",
+            "de": "zunehmen",
+            "path": "entry[1614].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Die Kosten erhöhen sich. = Izmaksas palielinās."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-zurzeit",
+            "de": "zurzeit",
+            "path": "entry[1618].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-zurzeit",
+            "de": "zurzeit",
+            "path": "entry[1618].study.comparison[2].example",
+            "category": "LV_REMNANT",
+            "text": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-zurzeit",
+            "de": "zurzeit",
+            "path": "entry[1618].study.comparison[3].example",
+            "category": "LV_REMNANT",
+            "text": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-zurzeit",
+            "de": "zurzeit",
+            "path": "entry[1618].study.comparison[4].example",
+            "category": "LV_REMNANT",
+            "text": "Momentan bin ich krank. = Šobrīd esmu slims."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sehen",
+            "de": "sehen",
+            "path": "entry[1622].study.examples[0].lv",
+            "category": "LV_REMNANT",
+            "text": "es tevi redzu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sehen",
+            "de": "sehen",
+            "path": "entry[1622].study.comparison[0].example",
+            "category": "LV_REMNANT",
+            "text": "Ich sehe einen Vogel. – Es redzu putnu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-sehen",
+            "de": "sehen",
+            "path": "entry[1622].study.sectionAccents.examples[0].lv.purple[0]",
+            "category": "LV_REMNANT",
+            "text": "redzu"
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-schauen",
+            "de": "schauen",
+            "path": "entry[1623].study.comparison[1].example",
+            "category": "LV_REMNANT",
+            "text": "Ich sehe dich. – Es tevi redzu."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-klein",
+            "de": "klein",
+            "path": "entry[1630].study.examples[3].lv",
+            "category": "LV_REMNANT",
+            "text": "man ir maza soma."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-nur",
+            "de": "nur",
+            "path": "entry[1635].study.examples[0].lv",
+            "category": "LV_REMNANT",
+            "text": "Man ir tikai desmit eiro."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-nur",
+            "de": "nur",
+            "path": "entry[1635].study.examples[1].lv",
+            "category": "LV_REMNANT",
+            "text": "man ir tikai desmit eiro."
+          },
+          {
+            "severity": "HIGH",
+            "id": "a2-nur",
+            "de": "nur",
+            "path": "entry[1635].study.examples[3].lv",
+            "category": "LV_REMNANT",
+            "text": "es gribu tikai kafiju."
+          }
+        ],
+        "pass": false
+      },
+      "technical": {
+        "issues": [],
+        "pass": true
+      },
+      "semicolons": {
+        "issues": [],
+        "pass": true
+      },
+      "missingStudy": [],
+      "partialStudy": [],
+      "minimalStudyNoRenderable": [
+        {
+          "de": "Aschenputtel",
+          "id": "a2-aschenputtel",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Gott",
+          "id": "a2-gott",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Keller",
+          "id": "a2-keller",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kellner",
+          "id": "a2-kellner",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kerl",
+          "id": "a2-kerl",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kerze",
+          "id": "a2-kerze",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Keyboard",
+          "id": "a2-keyboard",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kinderarzt",
+          "id": "a2-kinderarzt",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kinderfunk",
+          "id": "a2-kinderfunk",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kinderwagen",
+          "id": "a2-kinderwagen",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kindheit",
+          "id": "a2-kindheit",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kino",
+          "id": "a2-kino",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kiosk",
+          "id": "a2-kiosk",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kirsche",
+          "id": "a2-kirsche",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kissen",
+          "id": "a2-kissen",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kissenbezug",
+          "id": "a2-kissenbezug",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Kiste",
+          "id": "a2-kiste",
+          "layout": "minimalStudy"
+        },
+        {
+          "de": "Zwilling",
+          "id": "a2-zwilling",
+          "layout": "minimalStudy"
+        }
+      ],
+      "mirror": {
+        "level": "a2",
+        "identical": true,
+        "dataBlob": "3c5e7c34bf7f1a1f4202a46db3459853bc035b2d",
+        "wwwBlob": "3c5e7c34bf7f1a1f4202a46db3459853bc035b2d"
+      }
+    }
+  ],
+  "summary": {
+    "a1Cards": 702,
+    "a2Cards": 1640,
+    "a1StudyGap": 10,
+    "a2StudyGap": 0,
+    "missingStudyTotal": 10,
+    "partialStudyTotal": 2,
+    "foreignRemnants": 600,
+    "semicolons": 0,
+    "germanIntegrity": 6,
+    "technical": 0,
+    "minimalStudyNoRenderable": 18,
+    "mirrorPass": true
+  }
+}
