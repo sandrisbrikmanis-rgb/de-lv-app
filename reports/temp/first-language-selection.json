@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-08-25T10:01:48.241Z",
+  "languages": 32,
+  "pass": 32,
+  "fail": 0,
+  "results": [
+    {
+      "lang": "lv",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "ru",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "pl",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "uk",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 2
+    },
+    {
+      "lang": "lt",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "et",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "en",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "ro",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "bg",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "gr",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "tr",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "sq",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "mk",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "sl",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "bs",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "sr",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "hr",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "sk",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "cs",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "fi",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "sv",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "nb",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "nn",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "da",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "nl",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "lb",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "fr",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "it",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "es",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "pt",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "hu",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "lang": "is",
+      "status": "PASS",
+      "issues": [],
+      "consoleErrorCount": 0
+    }
+  ]
+}

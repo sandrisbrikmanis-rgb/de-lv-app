@@ -650,6 +650,42 @@ function normalizeCourseLessonId(lessonId) {
   return lessonNumber ? `lesson${lessonNumber}` : String(lessonId || "").toLowerCase();
 }
 
+const COURSE_LEGACY_CLASS_ALIASES = [
+  ["course-lesson-section", "kurss-lesson-section"],
+  ["course-examples", "kurss-examples"],
+  ["course-example", "kurss-example"],
+  ["curso-lección-sección", "kurss-lesson-section"],
+  ["items-intro-info", "artikuli-intro-info"]
+];
+
+function normalizeCourseLegacyHtml(html) {
+  if (!html) return html;
+  let normalized = String(html);
+  COURSE_LEGACY_CLASS_ALIASES.forEach(([fromClass, toClass]) => {
+    const pattern = new RegExp(`\\b${fromClass.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "g");
+    normalized = normalized.replace(pattern, toClass);
+  });
+  normalized = normalized.replace(/<section class="kurs-[^"]*">/g, '<section class="kurss-lesson-section">');
+  return normalized;
+}
+
+function normalizeCourseLegacyDom(root) {
+  if (!root) return;
+  root.querySelectorAll(".kurss-example").forEach((element) => {
+    const childExamples = Array.from(element.children).filter((child) => child.classList.contains("kurss-example"));
+    if (!childExamples.length || childExamples.length !== element.children.length) return;
+    element.classList.remove("kurss-example");
+    element.classList.add("kurss-examples");
+  });
+}
+
+function applyCourseLegacyHtml(target, html, lessonId, lesson) {
+  if (!target) return;
+  target.innerHTML = normalizeCourseLegacyHtml(html);
+  normalizeCourseLegacyDom(target);
+  localizeLegacyCourseLessonUi(target, lessonId, lesson);
+}
+
 function getActiveCourseLanguageCode() {
   const code = window.AppI18n?.getCurrentLanguage?.() || window.AppLanguageRegistry?.defaultCode || "lv";
   return String(code).toLowerCase();
@@ -2008,8 +2044,7 @@ function renderCourseLessonItems(items) {
 
 function renderCourseLessonFromData(target, lesson, exerciseAttribute, lessonId) {
   if (target && lesson?.legacyHtml) {
-    target.innerHTML = lesson.legacyHtml;
-    localizeLegacyCourseLessonUi(target, lessonId, lesson);
+    applyCourseLegacyHtml(target, lesson.legacyHtml, lessonId, lesson);
     return;
   }
   if (!target || !lesson || !Array.isArray(lesson.sections)) return;
@@ -2094,10 +2129,11 @@ function initStaticCourseLessons(options = {}) {
     const target = elements[panelId];
     const html = htmlMap[panelId];
     if (!target || !html) return;
-    const normalizedHtml = String(html);
+    const normalizedHtml = normalizeCourseLegacyHtml(String(html));
     const currentHtml = target.innerHTML.trim();
     if (force || !currentHtml || currentHtml !== normalizedHtml.trim()) {
       target.innerHTML = normalizedHtml;
+      normalizeCourseLegacyDom(target);
     }
   });
 }

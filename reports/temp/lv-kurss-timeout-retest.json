@@ -1,0 +1,720 @@
+{
+  "generatedAt": "2026-08-25T09:35:36.061Z",
+  "lang": "lv",
+  "retest": "targeted-timeout-rerun",
+  "results": [
+    {
+      "viewport": "desktop",
+      "sections": [
+        {
+          "section": "kurss-menu",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 0,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": null,
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "pronunciation-vowels",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 99,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Patskaņi — garš un īss",
+            "h4Count": 15
+          }
+        },
+        {
+          "section": "pronunciation-consonants",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 45,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Līdzskaņi un burtu savienojumi",
+            "h4Count": 10
+          }
+        },
+        {
+          "section": "articles",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 68,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Artikuli",
+            "h4Count": 5
+          }
+        },
+        {
+          "section": "pronouns",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 32,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Vietniekvārdi",
+            "h4Count": 5
+          }
+        },
+        {
+          "section": "verb-basics",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 88,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Darbības vārdu pamati",
+            "h4Count": 13
+          }
+        },
+        {
+          "section": "sentence-structure",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 35,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Teikumu uzbūve",
+            "h4Count": 4
+          }
+        },
+        {
+          "section": "lessons-menu",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 0,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": null,
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-1",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 40,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 1",
+            "h4Count": 10
+          }
+        },
+        {
+          "section": "lesson-2",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 53,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 2",
+            "h4Count": 3
+          }
+        },
+        {
+          "section": "lesson-3",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 63,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 3",
+            "h4Count": 5
+          }
+        },
+        {
+          "section": "lesson-4",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 62,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 4",
+            "h4Count": 7
+          }
+        },
+        {
+          "section": "lesson-5",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 54,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 5",
+            "h4Count": 6
+          }
+        },
+        {
+          "section": "lesson-6",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 98,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 6",
+            "h4Count": 1
+          }
+        },
+        {
+          "section": "lesson-7",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 49,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 7",
+            "h4Count": 4
+          }
+        },
+        {
+          "section": "lesson-8",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 75,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 8",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-9",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 46,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 9",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-10",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 86,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 10",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-11",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 81,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 11",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-12",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 71,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 12",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-13",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 123,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 13",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-14",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 96,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 14",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-15",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 93,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 15",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-16",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 79,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 16",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-17",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 83,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 17",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-18",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 81,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 18",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-19",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 107,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 19",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-20",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 84,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 20",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-21",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 83,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 21",
+            "h4Count": 0
+          }
+        }
+      ],
+      "passCount": 29,
+      "failCount": 0
+    },
+    {
+      "viewport": "mobile",
+      "sections": [
+        {
+          "section": "kurss-menu",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 0,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": null,
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "pronunciation-vowels",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 99,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Patskaņi — garš un īss",
+            "h4Count": 15
+          }
+        },
+        {
+          "section": "pronunciation-consonants",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 45,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Līdzskaņi un burtu savienojumi",
+            "h4Count": 10
+          }
+        },
+        {
+          "section": "articles",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 68,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Artikuli",
+            "h4Count": 5
+          }
+        },
+        {
+          "section": "pronouns",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 32,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Vietniekvārdi",
+            "h4Count": 5
+          }
+        },
+        {
+          "section": "verb-basics",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 88,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Darbības vārdu pamati",
+            "h4Count": 13
+          }
+        },
+        {
+          "section": "sentence-structure",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 35,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Teikumu uzbūve",
+            "h4Count": 4
+          }
+        },
+        {
+          "section": "lessons-menu",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 0,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": null,
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-1",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 40,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 1",
+            "h4Count": 10
+          }
+        },
+        {
+          "section": "lesson-2",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 53,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 2",
+            "h4Count": 3
+          }
+        },
+        {
+          "section": "lesson-3",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 63,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 3",
+            "h4Count": 5
+          }
+        },
+        {
+          "section": "lesson-4",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 62,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 4",
+            "h4Count": 7
+          }
+        },
+        {
+          "section": "lesson-5",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 54,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 5",
+            "h4Count": 6
+          }
+        },
+        {
+          "section": "lesson-6",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 98,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 6",
+            "h4Count": 1
+          }
+        },
+        {
+          "section": "lesson-7",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 49,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 7",
+            "h4Count": 4
+          }
+        },
+        {
+          "section": "lesson-8",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 75,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 8",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-9",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 46,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 9",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-10",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 86,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 10",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-11",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 81,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 11",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-12",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 71,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 12",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-13",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 123,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 13",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-14",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 96,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 14",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-15",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 93,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 15",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-16",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 79,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 16",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-17",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 83,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 17",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-18",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 81,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 18",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-19",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 107,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 19",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-20",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 84,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 20",
+            "h4Count": 0
+          }
+        },
+        {
+          "section": "lesson-21",
+          "panel": "ref: <Node>",
+          "status": "PASS",
+          "legacyHits": [],
+          "cardSampleCount": 83,
+          "unstyledCardSamples": 0,
+          "titleHierarchy": {
+            "h3": "Lekcija 21",
+            "h4Count": 0
+          }
+        }
+      ],
+      "passCount": 29,
+      "failCount": 0
+    }
+  ],
+  "pass": 58,
+  "fail": 0,
+  "totalChecks": 58
+}
