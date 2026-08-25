@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "dataset": "es-a1-a2",
+    "part": "04/04",
+    "findingRange": "1201-1208",
+    "count": 8,
+    "totalFindings": 1208
+  },
+  "qualityFindings": [
+    {
+      "cardId": "a2-leise",
+      "field": "study.examples[1].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "leise",
+      "lvSource": "por favor guarda silencio",
+      "currentEs": "por favor guarda silencio",
+      "proposedEs": "Por favor, guarda silencio.",
+      "reason": "Faltan mayúscula inicial, coma tras «Por favor» y punto final.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-leise",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "leise",
+      "lvSource": "la música es tranquila.",
+      "currentEs": "la música es tranquila.",
+      "proposedEs": "La música está baja.",
+      "reason": "«Tranquila» describe calma; para «leise» referido a música, «está baja» expresa el volumen.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-leise",
+      "field": "study.examples[3].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "leise",
+      "lvSource": "por favor habla en voz baja.",
+      "currentEs": "por favor habla en voz baja.",
+      "proposedEs": "Por favor, habla en voz baja.",
+      "reason": "Faltan mayúscula inicial y coma tras «Por favor».",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-schon",
+      "field": "study.examples[0].lv",
+      "severity": "LOW",
+      "category": "ORTHOGRAPHY",
+      "de": "schon",
+      "lvSource": "ya estoy en casa",
+      "currentEs": "ya estoy en casa",
+      "proposedEs": "Ya estoy en casa.",
+      "reason": "La oración en español necesita mayúscula inicial y punto final.",
+      "confidence": "high",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-nur",
+      "field": "study.examples[0].lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "de": "nur",
+      "lvSource": "Man ir tikai desmit eiro.",
+      "currentEs": "Man ir tikai desmit eiro.",
+      "proposedEs": "Solo tengo diez euros.",
+      "reason": "The Spanish field contains a Latvian sentence instead of Spanish.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-nur",
+      "field": "study.examples[1].lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "de": "nur",
+      "lvSource": "man ir tikai desmit eiro.",
+      "currentEs": "man ir tikai desmit eiro.",
+      "proposedEs": "solo tengo diez euros.",
+      "reason": "The Spanish field contains a Latvian sentence instead of Spanish.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-nur",
+      "field": "study.examples[3].lv",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_REMNANT",
+      "de": "nur",
+      "lvSource": "es gribu tikai kafiju.",
+      "currentEs": "es gribu tikai kafiju.",
+      "proposedEs": "solo quiero café.",
+      "reason": "The sentence is Latvian, with no valid Spanish translation in the Spanish field.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "cardId": "a2-ueber",
+      "field": "study.translation",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "über",
+      "lvSource": "más de • más de • para",
+      "currentEs": "más de • más de • para",
+      "proposedEs": "más de • encima de • sobre",
+      "reason": "“Para” does not translate über; the listed senses should cover quantity, position, and topic.",
+      "confidence": 0.94,
+      "status": "FINDING"
+    }
+  ]
+}

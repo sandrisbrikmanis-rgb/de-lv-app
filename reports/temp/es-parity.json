@@ -1,0 +1,254 @@
+{
+  "lang": "es",
+  "levels": {
+    "a1": {
+      "lvCount": 702,
+      "langCount": 702,
+      "countMatch": true,
+      "lvStudyCount": 134,
+      "langStudyCount": 124,
+      "orderMismatches": 0,
+      "missingFields": [
+        {
+          "de": "Besuch",
+          "missing": [
+            "study",
+            "study.id",
+            "study.layout",
+            "study.translation",
+            "study.explanation",
+            "study.examples",
+            "study.comparison",
+            "study.tip",
+            "study.tip.text",
+            "study.important"
+          ]
+        },
+        {
+          "de": "besuchen",
+          "missing": [
+            "study",
+            "study.id",
+            "study.layout",
+            "study.translation",
+            "study.explanation",
+            "study.examples",
+            "study.comparison",
+            "study.tip",
+            "study.tip.text",
+            "study.important"
+          ]
+        },
+        {
+          "de": "bitte",
+          "missing": [
+            "study.tip.text"
+          ]
+        },
+        {
+          "de": "Bitte",
+          "missing": [
+            "study.tip.text"
+          ]
+        },
+        {
+          "de": "Fußball",
+          "missing": [
+            "study",
+            "study.id",
+            "study.layout",
+            "study.translation",
+            "study.explanation",
+            "study.examples",
+            "study.comparison",
+            "study.tip",
+            "study.important"
+          ]
+        },
+        {
+          "de": "ganz",
+          "missing": [
+            "study",
+            "study.id",
+            "study.layout",
+            "study.translation",
+            "study.explanation",
+            "study.examples",
+            "study.comparison",
+            "study.tip",
+            "study.important"
+          ]
+        },
+        {
+          "de": "gefallen",
+          "missing": [
+            "study",
+            "study.id",
+            "study.layout",
+            "study.translation",
+            "study.explanation",
+            "study.examples",
+            "study.comparison",
+            "study.tip",
+            "study.important"
+          ]
+        },
+        {
+          "de": "Geschichte",
+          "missing": [
+            "study",
+            "study.id",
+            "study.layout",
+            "study.translation",
+            "study.explanation",
+            "study.examples",
+            "study.comparison",
+            "study.tip",
+            "study.important"
+          ]
+        },
+        {
+          "de": "Geschwister",
+          "missing": [
+            "study",
+            "study.id",
+            "study.layout",
+            "study.translation",
+            "study.explanation",
+            "study.examples",
+            "study.comparison",
+            "study.tip",
+            "study.important"
+          ]
+        },
+        {
+          "de": "Großeltern",
+          "missing": [
+            "study",
+            "study.id",
+            "study.layout",
+            "study.translation",
+            "study.explanation",
+            "study.examples",
+            "study.comparison",
+            "study.tip",
+            "study.important"
+          ]
+        }
+      ],
+      "layoutMismatches": [
+        {
+          "de": "Besuch",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        },
+        {
+          "de": "besuchen",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        },
+        {
+          "de": "Fußball",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        },
+        {
+          "de": "ganz",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        },
+        {
+          "de": "gefallen",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        },
+        {
+          "de": "Geschichte",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        },
+        {
+          "de": "Geschwister",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        },
+        {
+          "de": "Großeltern",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        },
+        {
+          "de": "Hand",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        },
+        {
+          "de": "hübsch",
+          "lvLayout": "standardStudy",
+          "langLayout": null
+        }
+      ]
+    },
+    "a2": {
+      "lvCount": 1640,
+      "langCount": 1640,
+      "countMatch": true,
+      "lvStudyCount": 231,
+      "langStudyCount": 231,
+      "orderMismatches": 0,
+      "missingFields": [],
+      "layoutMismatches": []
+    },
+    "b1": {
+      "lvCount": 3367,
+      "langCount": 3367,
+      "countMatch": true,
+      "lvStudyCount": 324,
+      "langStudyCount": 324,
+      "orderMismatches": 0,
+      "missingFields": [],
+      "layoutMismatches": []
+    },
+    "b2": {
+      "lvCount": 2118,
+      "langCount": 2118,
+      "countMatch": true,
+      "lvStudyCount": 60,
+      "langStudyCount": 60,
+      "orderMismatches": 0,
+      "missingFields": [],
+      "layoutMismatches": []
+    },
+    "c1": {
+      "lvCount": 572,
+      "langCount": 572,
+      "countMatch": true,
+      "lvStudyCount": 15,
+      "langStudyCount": 15,
+      "orderMismatches": 0,
+      "missingFields": [],
+      "layoutMismatches": []
+    },
+    "c2": {
+      "lvCount": 219,
+      "langCount": 219,
+      "countMatch": true,
+      "lvStudyCount": 1,
+      "langStudyCount": 1,
+      "orderMismatches": 0,
+      "missingFields": [],
+      "layoutMismatches": []
+    }
+  },
+  "totals": {
+    "lvRecords": 8618,
+    "langRecords": 8618,
+    "lvStudy": 765,
+    "langStudy": 755
+  },
+  "issues": [
+    "A1: 10+ records with missing fields vs LV",
+    "A1: 10+ records with study.layout mismatch vs LV"
+  ],
+  "pass": false
+}
