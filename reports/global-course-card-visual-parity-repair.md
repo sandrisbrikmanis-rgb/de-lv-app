@@ -2,9 +2,9 @@
 
 **Repository:** `sandrisbrikmanis-rgb/de-lv-app`  
 **Branch:** `cursor/global-course-card-visual-parity-repair-3141`  
-**HEAD SHA:** `03fd4d37b9229ad0194f30436b84f2fd8bcb75d3` (report updated after LV retest)  
+**HEAD SHA:** _(see latest commit on branch)_  
 **Runtime:** https://sandrisbrikmanis-rgb.github.io/de-lv-app/  
-**Generated:** 2026-08-25 (LV timeout retest appended 2026-08-25)
+**Generated:** 2026-08-25 (updated: LV first-time language selection fix)
 
 ## Summary
 
@@ -38,13 +38,54 @@ Added `normalizeCourseLegacyHtml()` + `normalizeCourseLegacyDom()` in `ui.js` / 
 
 **No per-language data file edits** — renderer normalizes at load time.
 
+## LV first-time language selection fix (production)
+
+### Problem
+
+New users (cleared `localStorage`) who pick **Latviešu** from the language picker saw:
+
+```
+[AppLaunch] Launch flow failed: Error: UI strings for lv were not registered
+```
+
+App booted with wrong language (`en` from splash pre-init) instead of `lv`.
+
+### Root cause (`languages/i18n.js`)
+
+1. Splash pre-initializes i18n with `detectLaunchLanguageCode()` → often `en` (browser locale).
+2. `AppI18n.init("en")` loads LV as **fallback** first (`ensureFallbackStrings`), marking `./languages/lv/ui.js` in `loadedUiScripts`.
+3. EN UI script overwrites `window.LANGUAGE_UI_STRINGS` (`__langCode: "en"`).
+4. User picks LV → `fetchUiStrings("lv")` skips script reload but global still holds EN → **throws**.
+
+This is a **production bug**, not a test harness artifact.
+
+### Fix (minimal)
+
+Added `stringsByCode` Map in `fetchUiStrings()` — cache cloned UI strings per language code on first successful load. Subsequent requests return cached strings without relying on the mutable `window.LANGUAGE_UI_STRINGS` global.
+
+### First-time selection verification (32 languages)
+
+Simulates new user: `localStorage.clear()` → pick language → verify active language, `menu.course` label, Kurss opens, zero launch console errors.
+
+| Result | Count |
+|---|---|
+| Languages tested | **32** |
+| **PASS** | **32** |
+| **FAIL** | **0** |
+| Console launch errors | **0** |
+
+Evidence: `reports/temp/first-language-selection.json`
+
 ## Changed files
 
 | File | Change |
 |---|---|
 | `ui.js` | Global legacy HTML class normalization + DOM structure repair |
 | `www/ui.js` | Synced copy |
-| `scripts/verify-global-course-card-visual-parity.js` | Runtime parity verification (new) |
+| `languages/i18n.js` | Per-language UI string cache (fixes LV first-time picker) |
+| `www/languages/i18n.js` | Synced copy |
+| `scripts/verify-global-course-card-visual-parity.js` | Runtime Kurss parity verification |
+| `scripts/verify-first-language-selection.js` | First-time language picker verification (new) |
 | `reports/global-course-card-visual-parity-repair.md` | This report |
 
 ## Verification scope
@@ -89,58 +130,28 @@ Added `normalizeCourseLegacyHtml()` + `normalizeCourseLegacyDom()` in `ui.js` / 
 |---|---|---|---|
 | **ES** (primary affected) | 29/29 PASS | 29/29 PASS | All legacy classes normalized at render |
 | **FR** (primary affected) | 29/29 PASS | 29/29 PASS | All legacy classes normalized at render |
-| **LV** (master) | 29/29 PASS | 29/29 PASS | Retested after infra timeout (see below) |
+| **LV** (master) | 29/29 PASS | 29/29 PASS | First-time picker fixed via `stringsByCode` cache |
 | **Other 29 languages** | 29/29 PASS each | 29/29 PASS each | Already used correct `kurss-*` classes |
 
-## LV timeout retest (READ-ONLY, targeted)
+## LV timeout retest (READ-ONLY, targeted — superseded by production fix)
 
-### Precisely identified timeout views (initial 1800-run)
+### Precisely identified timeout views (initial 1800-run harness)
 
-Both failures occurred **before any Kurss panel was opened** — at the `selectLanguage()` boot step in `scripts/verify-global-course-card-visual-parity.js`, not inside a Kurss section:
+Both failures occurred at `selectLanguage("lv")` before Kurss opened:
 
-| # | Language | Viewport | Failed step | Error |
-|---|---|---|---|---|
-| 1 | `lv` | desktop (1280×900) | `selectLanguage("lv")` → `page.waitForFunction(AppI18n.getCurrentLanguage() === "lv")` | `page.waitForFunction: Timeout 30000ms exceeded` |
-| 2 | `lv` | mobile (390×844) | same | same |
-
-**No Kurss section rendered; no card styling could be evaluated in the initial run.**
-
-### Infrastructure root cause (not visual)
-
-The verification harness clears `localStorage` and forces the language-picker path. For LV this triggers a race:
-
-1. `detectLaunchLanguageCode()` pre-initializes i18n with `en` (from `navigator.language`) during splash.
-2. User clicks **Latviešu** (`data-lang-code="lv"`).
-3. `initializeLanguage("lv")` throws: `UI strings for lv were not registered` (console: `[AppLaunch] Launch flow failed`).
-4. App recovers to a booted state but `AppI18n.getCurrentLanguage()` remains `en`, so the harness times out waiting for `"lv"`.
-
-This is a **headless harness / launch-flow interaction**, not a Kurss card styling defect. Production LV users typically boot via saved `appLanguage=lv` (auto-boot, no picker race).
-
-### Targeted retest procedure
-
-READ-ONLY rerun using production-equivalent LV boot (`localStorage.appLanguage = "lv"` before navigation), then the same 29 Kurss sections × 2 viewports:
-
-- Evidence JSON: `reports/temp/lv-kurss-timeout-retest.json`
-- Generated: `2026-08-25T09:35:36.061Z`
-
-### Targeted retest results
-
-| Viewport | Sections | PASS | FAIL | Legacy hits | Unstyled cards |
-|---|---|---|---|---|---|
-| desktop (1280×900) | 29 | 29 | 0 | 0 | 0 |
-| mobile (390×844) | 29 | 29 | 0 | 0 | 0 |
-| **Total** | **58** | **58** | **0** | **0** | **0** |
-
-Sample LV master card checks (all PASS):
-
-| Section | h3 | Cards sampled | h4 count |
+| # | Language | Viewport | Failed step |
 |---|---|---|---|
-| `pronunciation-vowels` | Patskaņi — garš un īss | 99 | 15 |
-| `articles` | Artikuli | 68 | 5 |
-| `verb-basics` | Darbības vārdu pamati | 88 | 13 |
-| `lesson-1` | Lekcija 1 | (accordions open) | PASS |
+| 1 | `lv` | desktop (1280×900) | `AppI18n.getCurrentLanguage() === "lv"` timeout |
+| 2 | `lv` | mobile (390×844) | same |
 
-**Conclusion:** No visual regression in LV. Initial 2 timeouts are **infrastructure false negatives**. Combined with the original 1798 PASS across other languages → **1800/1800 PASS**, timeout **0**, visual regressions **0**.
+### Resolution
+
+The timeout was caused by the **production i18n bug** above (not a Kurss visual defect). After the `stringsByCode` fix:
+
+- LV picker harness: **58/58 PASS** (29 sections × 2 viewports)
+- No workaround (`localStorage.appLanguage` pre-set) needed
+
+Evidence (pre-fix targeted retest): `reports/temp/lv-kurss-timeout-retest.json`
 
 ### Regression guards
 
@@ -149,15 +160,21 @@ Sample LV master card checks (all PASS):
 | DE content changes | **0** |
 | Translation / localized text changes | **0** |
 | Non-Kurss section changes | **0** |
-| Unexpected file changes | **0** (only `ui.js`, `www/ui.js`, verification script, report) |
+| Unexpected file changes | **0** (scoped to `ui.js`, `i18n.js`, verification scripts, report) |
 
-Raw JSON (full 32-language run): `reports/temp/global-course-card-visual-parity.json`  
-Raw JSON (LV retest): `reports/temp/lv-kurss-timeout-retest.json`
+Raw JSON (full 32-language Kurss run): `reports/temp/global-course-card-visual-parity.json`  
+Raw JSON (LV retest, pre-fix): `reports/temp/lv-kurss-timeout-retest.json`  
+Raw JSON (first-time language picker, 32 languages): `reports/temp/first-language-selection.json`
 
 ## How to re-run verification
 
 ```bash
+# Kurss card parity (all languages):
 COURSE_PARITY_PORT=8901 node scripts/verify-global-course-card-visual-parity.js
+
+# First-time language picker (all 32 languages):
+node scripts/verify-first-language-selection.js
+
 # Single language:
 COURSE_PARITY_PORT=8901 node scripts/verify-global-course-card-visual-parity.js --lang=es,fr
 ```

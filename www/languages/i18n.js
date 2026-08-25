@@ -4,6 +4,7 @@
   let strings = {};
   let fallbackStrings = null;
   const loadedUiScripts = new Set();
+  const stringsByCode = new Map();
 
   function cloneStrings(source) {
     return JSON.parse(JSON.stringify(source || {}));
@@ -76,6 +77,9 @@
     if (!entry) {
       throw new Error(`Unknown native language code: ${code}`);
     }
+    if (stringsByCode.has(code)) {
+      return cloneStrings(stringsByCode.get(code));
+    }
     if (!loadedUiScripts.has(entry.uiPath)) {
       await loadScript(entry.uiPath);
       loadedUiScripts.add(entry.uiPath);
@@ -84,7 +88,9 @@
     if (!uiStrings || uiStrings.__langCode !== code) {
       throw new Error(`UI strings for ${code} were not registered`);
     }
-    return cloneStrings(uiStrings);
+    const cloned = cloneStrings(uiStrings);
+    stringsByCode.set(code, cloned);
+    return cloneStrings(cloned);
   }
 
   async function ensureFallbackStrings() {
