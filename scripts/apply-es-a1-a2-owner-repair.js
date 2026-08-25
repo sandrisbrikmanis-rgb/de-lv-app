@@ -192,7 +192,7 @@ function writeReport(log) {
 }
 
 function main() {
-  execSync(`node scripts/build-es-a1-a2-owner-apply-map.js --from=${FROM} --to=${TO}`, {
+  execSync(`node scripts/build-es-a1-a2-owner-apply-map.js --from=${FROM} --to=${TO}${process.argv.find((a) => a.startsWith("--only=")) ? ` ${process.argv.find((a) => a.startsWith("--only="))}` : ""}`, {
     cwd: ROOT,
     stdio: "pipe",
   });

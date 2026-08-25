@@ -43098,7 +43098,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich meine, das ist richtig.",
-          "lv": "es uzskatu, ka tas ir pareizi."
+          "lv": "Creo que es correcto."
         },
         {
           "de": "Wen meinst du?",

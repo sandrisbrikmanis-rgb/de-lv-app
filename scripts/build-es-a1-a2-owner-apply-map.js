@@ -34,7 +34,7 @@ function normalizeField(field) {
 }
 
 function discoverSources() {
-  return fs
+  const numbered = fs
     .readdirSync(REPORTS)
     .filter((name) => /^es-de-a1-a2-owner-decisions-master-\d+-\d+\.md$/.test(name))
     .sort((a, b) => {
@@ -43,6 +43,15 @@ function discoverSources() {
       return na - nb;
     })
     .map((name) => path.join(REPORTS, name));
+  const remaining = path.join(REPORTS, "es-de-a1-a2-owner-decisions-master-remaining-101.md");
+  const extra = fs.existsSync(remaining) ? [remaining] : [];
+  const only = process.argv.find((a) => a.startsWith("--only="));
+  if (only) {
+    const rel = only.split("=")[1];
+    const abs = path.isAbsolute(rel) ? rel : path.join(REPORTS, rel);
+    return [abs];
+  }
+  return [...numbered, ...extra];
 }
 
 function parseFile(filePath) {

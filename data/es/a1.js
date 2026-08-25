@@ -2198,7 +2198,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin bei meinem Freund.",
-          "lv": "es esmu pie sava drauga."
+          "lv": "Estoy en casa de mi amigo."
         },
         {
           "de": "Sie arbeitet bei Siemens.",
@@ -2217,12 +2217,12 @@ const A1_WORDS = [
         },
         {
           "word": "an",
-          "meaning": "pie sienas, malas, krasta, virsmas malas",
+          "meaning": "junto a una pared, un borde o la orilla",
           "example": "Das Bild hängt an der Wand. – El cuadro está colgado en la pared."
         },
         {
           "word": "zu",
-          "meaning": "quien va a (dirección)",
+          "meaning": "a (dirección)",
           "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
         }
       ],
@@ -2670,12 +2670,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
+          "meaning": "por favor",
           "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
+          "meaning": "petición",
           "example": "Ich habe eine Bitte. – Man ir lūgums."
         }
       ]
@@ -2797,12 +2797,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
+          "meaning": "petición",
           "example": "Ich habe eine Bitte. – Man ir lūgums."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
+          "meaning": "por favor",
           "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
         }
       ]
@@ -2889,7 +2889,7 @@ const A1_WORDS = [
         },
         {
           "word": "fahren",
-          "meaning": "braukt / doties ar transportu",
+          "meaning": "conducir / desplazarse en transporte",
           "example": "Ich fahre nach Hause."
         },
         {
@@ -3119,7 +3119,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "traer • quitar",
+      "translation": "traer • llevar",
       "explanation": [
         "Idea principal: traer significa traer, llevar o entregar algo a alguien.",
         "Bringen se usa cuando algo se traslada a otro lugar o a otra persona.",
@@ -3167,7 +3167,7 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
+          "meaning": "tomar",
           "example": "Ich nehme das Buch. – Es paņemu grāmatu."
         }
       ],
@@ -3467,7 +3467,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich war da.",
-          "lv": "es biju tur."
+          "lv": "yo estuve allí."
         },
         {
           "de": "Da kommt er.",
@@ -3702,11 +3702,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das ist mein Auto.",
-          "lv": "tas ir mans auto."
+          "lv": "ese es mi coche."
         },
         {
           "de": "Das ist gut.",
-          "lv": "tas ir labi."
+          "lv": "eso está bien."
         },
         {
           "de": "Das Buch, das ich lese, ist interessant.",
@@ -3716,7 +3716,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "das",
-          "meaning": "it (artículo / pronombre)",
+          "meaning": "eso (pronombre)",
           "example": "Das ist mein Auto. – Tas ir mans auto."
         },
         {
@@ -3731,7 +3731,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerda: vidus género → das; ka → dass."
+        "text": "Recuerda: género neutro → das; que → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -3833,12 +3833,12 @@ const A1_WORDS = [
     "study": {
       "id": "a1-dass",
       "layout": "standardStudy",
-      "translation": "eso",
+      "translation": "que",
       "explanation": "Introduce una cláusula auxiliar que expresa un hecho, pensamiento o afirmación.",
       "examples": [
         {
           "de": "Ich weiß, dass du müde bist.",
-          "lv": "es zinu, ka tu esi noguris."
+          "lv": "sé que estás cansado."
         },
         {
           "de": "Er sagt, dass er kommt.",
@@ -3852,27 +3852,27 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "dass",
-          "meaning": "eso",
+          "meaning": "que",
           "example": "Ich weiß, dass er kommt. – Sé que vendrá."
         },
         {
           "word": "weil",
-          "meaning": "porque • porque",
+          "meaning": "que",
           "example": "Ich bleibe zu Hause, weil es regnet. – Me quedo en casa porque está lloviendo."
         },
         {
           "word": "damit",
-          "meaning": "lai",
+          "meaning": "que",
           "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Estoy aprendiendo alemán para poder trabajar en Alemania."
         },
         {
           "word": "ob",
-          "meaning": "o",
+          "meaning": "que",
           "example": "Ich weiß nicht, ob er kommt. – No sé si vendrá."
         }
       ],
       "tip": {
-        "text": "Recuerda: ka → dass."
+        "text": "Recuerda: que → dass."
       },
       "sectionAccents": {
         "examples": [
@@ -4033,7 +4033,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "autobuss brauc."
+          "lv": "el autobús circula."
         },
         {
           "de": "Der Lehrer spricht.",
@@ -4041,7 +4041,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerde: masculino → encaja."
+        "text": "Recuerda: masculino → der."
       },
       "sectionAccents": {
         "examples": [
@@ -4130,15 +4130,15 @@ const A1_WORDS = [
         },
         {
           "de": "Die Katze schläft.",
-          "lv": "el gatito está durmiendo."
+          "lv": "la gatita está durmiendo."
         },
         {
           "de": "Die Lehrerin erklärt.",
-          "lv": "explica el profesor."
+          "lv": "explica la profesora."
         }
       ],
       "tip": {
-        "text": "Recuerda: femenino → morir."
+        "text": "Recuerda: femenino → die."
       },
       "sectionAccents": {
         "examples": [
@@ -4433,7 +4433,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "El niño juega."
         }
       ],
       "tip": {
@@ -4546,22 +4546,22 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
+          "meaning": "género masculino",
           "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
+          "meaning": "género femenino",
           "example": "eine Frau"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
+          "meaning": "género neutro",
           "example": "Ich habe ein Buch."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
+          "meaning": "acusativo",
           "example": "einen Mann"
         }
       ]
@@ -4608,7 +4608,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das Eis ist kalt.",
-          "lv": "ledus ir auksts."
+          "lv": "El hielo está frío."
         },
         {
           "de": "Ich nehme ein Eis mit Schokolade.",
@@ -4870,7 +4870,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
-          "lv": "vispirms dzert, tad braukt."
+          "lv": "Primero beber y luego conducir."
         },
         {
           "de": "Ich komme erst morgen.",
@@ -4908,7 +4908,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerda: laiks/skaits → erst; daudzums → nur."
+        "text": "Recuerda: tiempo/cantidad → erst; cantidad → nur."
       },
       "accents": {
         "blue": [
@@ -5074,7 +5074,7 @@ const A1_WORDS = [
         },
         {
           "de": "Es schneit.",
-          "lv": "snieg."
+          "lv": "Nieva."
         }
       ],
       "info": [
@@ -5082,7 +5082,7 @@ const A1_WORDS = [
         "\"I\" alemán = eso; entonces; forma impersonal"
       ],
       "tip": {
-        "text": "Recuerde: \"es\" letón → ich, no es alemán."
+        "text": "Recuerde: en letón, «es» significa «yo»; no es el «es» alemán."
       },
       "sectionAccents": {
         "examples": [
@@ -5183,7 +5183,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
+          "meaning": "eso • forma impersonal",
           "example": "Es regnet. – Līst."
         },
         {
@@ -5223,15 +5223,15 @@ const A1_WORDS = [
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "vai tev ir nedaudz laika?"
+          "lv": "¿Tienes un poco de tiempo?"
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "es esmu nedaudz noguris."
+          "lv": "Estoy un poco cansado."
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "man tev ir kaut kas."
+          "lv": "Tengo algo para ti."
         },
         {
           "de": "Das ist etwas teuer.",
@@ -5241,7 +5241,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "etwas",
-          "meaning": "kaut kas / nedaudz",
+          "meaning": "algo / un poco",
           "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
@@ -5446,39 +5446,39 @@ const A1_WORDS = [
     "study": {
       "id": "a1-euch",
       "layout": "standardStudy",
-      "translation": "usted • usted",
+      "translation": "os • os",
       "explanation": "“euch” es un pronombre de segunda persona del plural. Se utiliza tanto como complemento directo (¿dónde?) - \"tú\" como como complemento indirecto (¿a quién?) - \"a ti\".",
       "examples": [
         {
           "de": "Ich sehe euch.",
-          "lv": "te veo"
+          "lv": "Os veo."
         },
         {
           "de": "Ich helfe euch.",
-          "lv": "yo te ayudo"
+          "lv": "Os ayudo."
         },
         {
           "de": "Ich gebe euch das Buch.",
-          "lv": "te regalo un libro"
+          "lv": "Os regalo un libro."
         },
         {
           "de": "Ich danke euch.",
-          "lv": "es jums pateicos."
+          "lv": "Os doy las gracias."
         },
         {
           "de": "Ihr erinnert euch.",
-          "lv": "tu recuerdas"
+          "lv": "Vosotros recordáis."
         }
       ],
       "comparison": [
         {
           "word": "ihr",
-          "meaning": "tú",
+          "meaning": "vosotros",
           "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
-          "meaning": "tu/a ti",
+          "meaning": "vosotros/a vosotros",
           "example": "Ich helfe euch. = Es jums palīdzu."
         },
         {
@@ -5521,7 +5521,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "conducir • liderar • llevar",
+      "translation": "conducir • viajar • llevar",
       "explanation": [
         "Idea principal: fahren significa conducir un vehículo y en algunas frases también llevar o llevarse a alguien.",
         "fahren se utiliza cuando se viaja en coche, autobús, tren, bicicleta u otro vehículo.",
@@ -5535,11 +5535,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich fahre mit dem Auto.",
-          "lv": "es braucu ar auto."
+          "lv": "Voy en coche."
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "es vedu savu meitu uz skolu."
+          "lv": "Llevo a mi hija al colegio."
         },
         {
           "de": "Ich fahre dich nach Hause.",
@@ -5547,13 +5547,13 @@ const A1_WORDS = [
         },
         {
           "de": "Wir fahren morgen nach München.",
-          "lv": "mañana nos vamos a Munich."
+          "lv": "Mañana nos vamos a Múnich."
         }
       ],
       "comparison": [
         {
           "word": "fahren",
-          "meaning": "braukt ar transportu",
+          "meaning": "viajar en un vehículo",
           "example": "Ich fahre mit dem Bus."
         },
         {
@@ -5563,7 +5563,7 @@ const A1_WORDS = [
         },
         {
           "word": "laufen",
-          "meaning": "skriet / iet",
+          "meaning": "correr / caminar",
           "example": "Er läuft schnell."
         },
         {
@@ -5581,7 +5581,7 @@ const A1_WORDS = [
         "text": "Recuerde: vehículo → fahren; a pie → gehen."
       },
       "important": {
-        "text": "fahren ≠ tikai “braukt”",
+        "text": "fahren ≠ solo «conducir»",
         "example": "En alemán, el mismo verbo suele significar: conducir • conducir • llevarse, según el contexto."
       },
       "accents": {
@@ -5934,7 +5934,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich finde das gut.",
-          "lv": "vai tu atradi savu telefonu?"
+          "lv": "¿Encontraste tu teléfono?"
         },
         {
           "de": "Wie findest du den Film?",
@@ -6223,7 +6223,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist meine Frau.",
-          "lv": "tas ir mana sieva."
+          "lv": "Esta es mi esposa."
         },
         {
           "de": "Wie viele Frauen sind hier?",
@@ -6451,7 +6451,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-fuer",
       "layout": "standardStudy",
-      "translation": "para • para",
+      "translation": "para • por",
       "explanation": [
         "Idea principal: für es una preposición que siempre rige el caso acusativo, normalmente for o for en letón.",
         "Cuando se habla de destinatario o intención, für = para (für dich = para ti).",
@@ -6473,7 +6473,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was bezahlst du für das Auto?",
-          "lv": "¿cuanto pagas por un auto?"
+          "lv": "¿Cuánto pagas por un coche?"
         },
         {
           "de": "Das Buch ist für Kinder.",
@@ -7189,11 +7189,11 @@ const A1_WORDS = [
         },
         {
           "de": "Er ist groß.",
-          "lv": "el es alto."
+          "lv": "Él es alto."
         },
         {
           "de": "Das Zimmer ist groß.",
-          "lv": "istaba ir liela."
+          "lv": "La habitación es grande."
         }
       ],
       "tip": [
@@ -7517,7 +7517,7 @@ const A1_WORDS = [
         },
         {
           "de": "Hast du Zeit?",
-          "lv": "vai tev ir laiks?"
+          "lv": "¿Tienes tiempo?"
         },
         {
           "de": "Wir haben Hunger.",
@@ -7525,7 +7525,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich habe das gemacht.",
-          "lv": "lo hice"
+          "lv": "lo tengo"
         }
       ],
       "comparison": [
@@ -7551,7 +7551,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerda: Ich habe → man ir."
+        "text": "Recuerda: Ich habe → tengo."
       },
       "important": [
         "Letón \"tengo\" = alemán Ich habe + acusativo. No utilizar el caso dativo: incorrecto *mir habe.",
@@ -7746,7 +7746,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich halte die Tasche.",
-          "lv": "es turu somu."
+          "lv": "sostengo la bolsa."
         },
         {
           "de": "Der Bus hält hier.",
@@ -7758,7 +7758,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich halte das für richtig.",
-          "lv": "es to uzskatu par pareizu."
+          "lv": "considero que es correcto."
         }
       ],
       "comparison": [
@@ -7784,7 +7784,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerde: en la mano → detener; transporte → hält/stops."
+        "text": "Recuerda: en la mano → sostener; transporte → hält/se detiene."
       },
       "important": [
         "detener no es sólo \"mantener\". En el caso del transporte, esto a menudo significa detenerse.",
@@ -8034,7 +8034,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich heiße Anna.",
-          "lv": "mani sauc Anna."
+          "lv": "Me llamo Anna."
         },
         {
           "de": "Wie heißt du?",
@@ -8057,7 +8057,7 @@ const A1_WORDS = [
         },
         {
           "word": "nennen",
-          "meaning": "saukt / nosaukt",
+          "meaning": "llamarse / nombrar",
           "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
@@ -8072,12 +8072,12 @@ const A1_WORDS = [
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
+          "meaning": "llamar",
           "example": "Ich rufe dich an. = Es tev piezvanu."
         }
       ],
       "tip": {
-        "text": "Recuerda: Ich heiße... → mani sauc..."
+        "text": "Recuerda: Ich heiße... → me llamo..."
       },
       "important": [
         "Wie heißt du? significa \"¿Cómo te llamas?\", no literalmente \"¿cómo te llamas?\".",
@@ -8310,11 +8310,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Kalns ir augsts."
+          "lv": "La montaña es alta."
         },
         {
           "de": "Das Regal ist zwei Meter hoch.",
-          "lv": "kalns ir augsts."
+          "lv": "La montaña es alta."
         },
         {
           "de": "Die Miete ist hoch.",
@@ -8322,11 +8322,11 @@ const A1_WORDS = [
         },
         {
           "de": "Die Mauer ist hoch.",
-          "lv": "siena ir augsta."
+          "lv": "La pared es alta."
         },
         {
           "de": "Die Preise sind hoch.",
-          "lv": "cenas ir augstas."
+          "lv": "Los precios son altos."
         }
       ],
       "tip": [
@@ -8453,7 +8453,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich höre dich.",
-          "lv": "es tevi dzirdu."
+          "lv": "Te oigo."
         }
       ],
       "tip": [
@@ -8547,7 +8547,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ihr",
       "layout": "standardStudy",
-      "translation": "usted • ella",
+      "translation": "ustedes • ella • su",
       "explanation": [
         "Idea principal: ihr son dos pronombres diferentes con la misma ortografía: dirigidos a varias personas (tú) y la forma dativo del pronombre sie (ella/ella).",
         "Con minúscula ihr como dirección a varias personas se traduce como tú (Kommt ihr mit? = ¿Vienes?).",
@@ -8559,7 +8559,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Kommt ihr heute Abend?",
-          "lv": "¿vienes esta noche?"
+          "lv": "¿Venís esta noche?"
         },
         {
           "de": "Ich gebe ihr das Buch.",
@@ -8575,7 +8575,7 @@ const A1_WORDS = [
         },
         {
           "de": "Habt ihr Zeit?",
-          "lv": "vai jums ir laiks?"
+          "lv": "¿Tienen tiempo?"
         },
         {
           "de": "Das ist ihr Auto.",
@@ -8763,12 +8763,12 @@ const A1_WORDS = [
         },
         {
           "word": "am",
-          "meaning": "pie, kur? (kam?)",
+          "meaning": "¿En dónde? (¿A quién?)",
           "example": "am Fenster – pie loga"
         },
         {
           "word": "auf",
-          "meaning": "uz virsmas",
+          "meaning": "sobre una superficie",
           "example": "auf dem Tisch – uz galda"
         }
       ],
@@ -9018,7 +9018,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich gehe in die Schule.",
-          "lv": "es eju uz skolu."
+          "lv": "Voy a la escuela."
         },
         {
           "de": "Das Buch ist in der Tasche.",
@@ -9030,7 +9030,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerde: pulg/pulg → pulg."
+        "text": "Recuerda: in significa «en» o «dentro de»."
       },
       "important": [
         "in no siempre es literalmente “in”; Se dice letón a menudo en Berlín, en la escuela, en el cine.",
@@ -9144,7 +9144,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-ins",
       "layout": "standardStudy",
-      "translation": "en • en • ¿dónde?",
+      "translation": "a • al • ¿adónde?",
       "explanation": [
         "ins es una abreviatura de la preposición in y del artículo das.",
         "Forma completa: en das (¿dónde?).",
@@ -9155,7 +9155,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe ins Kino.",
-          "lv": "es eju uz kino."
+          "lv": "Voy al cine."
         },
         {
           "de": "Sie geht ins Bett.",
@@ -9204,12 +9204,12 @@ const A1_WORDS = [
         },
         {
           "word": "aufs",
-          "meaning": "uz virsmu (Akk.)",
+          "meaning": "hacia una superficie (acusativo)",
           "example": "aufs Dach – uz jumta"
         },
         {
           "word": "zum",
-          "meaning": "uz / pie (kam?)",
+          "meaning": "a / hacia (¿a quién?)",
           "example": "zum Arzt – al médico"
         }
       ],
@@ -9500,7 +9500,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Hund ist jung.",
-          "lv": "suns ir jauns."
+          "lv": "El perro es joven."
         },
         {
           "de": "Wir sind noch jung.",
@@ -9512,7 +9512,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist ein junges Paar.",
-          "lv": "es una nueva pareja."
+          "lv": "Es una pareja joven."
         },
         {
           "de": "Die junge Frau lächelt.",
@@ -9681,7 +9681,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-kein",
       "layout": "standardStudy",
-      "translation": "nadie • nada",
+      "translation": "ningún • ninguna",
       "explanation": [
         "Idea principal: kein es un artículo de negación que niega un sustantivo: letón, según el contexto, nadie o nada.",
         "kein se declina como ein (kein/keine/keinen...) y se sitúa delante de un sustantivo.",
@@ -9692,11 +9692,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich habe kein Geld.",
-          "lv": "man nav naudas."
+          "lv": "No tengo dinero."
         },
         {
           "de": "Es gibt keine Milch mehr.",
-          "lv": "piena vairs nav nemaz."
+          "lv": "Ya no hay nada de leche."
         },
         {
           "de": "Kein Mensch war da.",
@@ -9704,7 +9704,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "man nav laika."
+          "lv": "No tengo tiempo."
         },
         {
           "de": "Das ist kein Problem.",
@@ -9851,7 +9851,7 @@ const A1_WORDS = [
     "study": {
       "id": "a1-kennen-study",
       "layout": "standardStudy",
-      "translation": "saber",
+      "translation": "conocer",
       "explanation": [
         "Idea principal: Conocer a una persona, lugar o cosa por experiencia.",
         "Kennen significa principalmente: conocido personal.",
@@ -9877,13 +9877,13 @@ const A1_WORDS = [
         },
         {
           "de": "kennen",
-          "lv": "saber sabias"
+          "lv": "conocer, conocías"
         }
       ],
       "comparison": [
         {
           "word": "kennen",
-          "meaning": "saber (persona, lugar, cosa)",
+          "meaning": "conocer (persona, lugar, cosa)",
           "example": "Ich kenne ihn. – Lo conozco."
         },
         {
@@ -10007,7 +10007,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich weiß die Antwort.",
-          "lv": "es zinu atbildi."
+          "lv": "Sé la respuesta."
         }
       ],
       "comparison": [
@@ -10018,7 +10018,7 @@ const A1_WORDS = [
         },
         {
           "word": "kennen",
-          "meaning": "saber (persona, lugar, cosa)",
+          "meaning": "conocer (persona, lugar, cosa)",
           "example": "Ich kenne die Stadt. – Conozco la ciudad."
         }
       ],
