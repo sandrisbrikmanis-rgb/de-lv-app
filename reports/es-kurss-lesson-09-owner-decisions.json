@@ -14,7 +14,7 @@
   },
   "lessonNumber": 9,
   "targetCount": 151,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 9,
@@ -25,8 +25,8 @@
       "current": "Lección 9",
       "deContext": "",
       "structureContext": "Lección 9 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 9",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Múltiples sujetos, dieser/jener, singular y plural.",
       "deContext": "",
       "structureContext": "Lección 9 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Múltiples sujetos, dieser/jener, singular y plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Novena conferencia: plural de sustantivos, pronombres demostrativos dieser/jener, ejercicios y traducción.",
       "deContext": "",
       "structureContext": "Lección 9 intro paragraph",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Novena conferencia: plural de sustantivos, pronombres demostrativos dieser/jener, ejercicios y traducción.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Diálogos / frases",
       "deContext": "",
       "structureContext": "Accordion section 1; raw: Diálogo / frases",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diálogos / frases",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Hier liegen mehrere Hefte.",
       "deContext": "Hier liegen mehrere Hefte.",
       "structureContext": "Section[0] Diálogos / frases / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hier liegen mehrere Hefte.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Dort liegen mehrere Bleistifte.",
       "deContext": "Dort liegen mehrere Bleistifte.",
       "structureContext": "Section[0] Diálogos / frases / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dort liegen mehrere Bleistifte.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Ich nehme ein Heft.",
       "deContext": "Ich nehme ein Heft.",
       "structureContext": "Section[0] Diálogos / frases / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich nehme ein Heft.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Ich öffne das Heft.",
       "deContext": "Ich öffne das Heft.",
       "structureContext": "Section[0] Diálogos / frases / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich öffne das Heft.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Ich nehme auch einen Bleistift.",
       "deContext": "Ich nehme auch einen Bleistift.",
       "structureContext": "Section[0] Diálogos / frases / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich nehme auch einen Bleistift.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Ich spitze den Bleistift an.",
       "deContext": "Ich spitze den Bleistift an.",
       "structureContext": "Section[0] Diálogos / frases / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich spitze den Bleistift an.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Ich setze mich und schreibe langsam.",
       "deContext": "Ich setze mich und schreibe langsam.",
       "structureContext": "Section[0] Diálogos / frases / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich setze mich und schreibe langsam.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Ich schreibe schnell.",
       "deContext": "Ich schreibe schnell.",
       "structureContext": "Section[0] Diálogos / frases / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich schreibe schnell.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Ich schreibe nicht mehr.",
       "deContext": "Ich schreibe nicht mehr.",
       "structureContext": "Section[0] Diálogos / frases / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich schreibe nicht mehr.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Ich mache das Heft zu.",
       "deContext": "Ich mache das Heft zu.",
       "structureContext": "Section[0] Diálogos / frases / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich mache das Heft zu.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Ich lege den Bleistift hin.",
       "deContext": "Ich lege den Bleistift hin.",
       "structureContext": "Section[0] Diálogos / frases / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich lege den Bleistift hin.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Ich sitze ruhig.",
       "deContext": "Ich sitze ruhig.",
       "structureContext": "Section[0] Diálogos / frases / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich sitze ruhig.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "Dieser Brief ist lang.",
       "deContext": "Dieser Brief ist lang.",
       "structureContext": "Section[0] Diálogos / frases / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dieser Brief ist lang.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "Dieses Buch ist dick.",
       "deContext": "Dieses Buch ist dick.",
       "structureContext": "Section[0] Diálogos / frases / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dieses Buch ist dick.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "Diese Schüssel ist rein.",
       "deContext": "Diese Schüssel ist rein.",
       "structureContext": "Section[0] Diálogos / frases / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diese Schüssel ist rein.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "Diese Briefe sind lang.",
       "deContext": "Diese Briefe sind lang.",
       "structureContext": "Section[0] Diálogos / frases / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diese Briefe sind lang.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "Jener Brief ist kurz.",
       "deContext": "Jener Brief ist kurz.",
       "structureContext": "Section[0] Diálogos / frases / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Jener Brief ist kurz.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "Jenes Buch ist dünn.",
       "deContext": "Jenes Buch ist dünn.",
       "structureContext": "Section[0] Diálogos / frases / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Jenes Buch ist dünn.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "Jene Schüssel ist schmutzig.",
       "deContext": "Jene Schüssel ist schmutzig.",
       "structureContext": "Section[0] Diálogos / frases / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Jene Schüssel ist schmutzig.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "Jene Briefe sind kurz.",
       "deContext": "Jene Briefe sind kurz.",
       "structureContext": "Section[0] Diálogos / frases / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Jene Briefe sind kurz.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "mehrere (mērere) — varios, varios",
       "deContext": "mehrere (mērere)",
       "structureContext": "Section[1] Palabras / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mehrere (mērere) — varios",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "hier (hīr) — aquí, aquí",
       "deContext": "hier (hīr)",
       "structureContext": "Section[1] Palabras / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hier (hīr) — aquí",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "dort — tur",
       "deContext": "dort",
       "structureContext": "Section[1] Palabras / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dort — allá",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "auch — también",
       "deContext": "auch",
       "structureContext": "Section[1] Palabras / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "auch — también",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "langsam (lankzām) — lentamente",
       "deContext": "langsam (lankzām)",
       "structureContext": "Section[1] Palabras / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "langsam (lankzām) — lento",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "schnell (šnel) — rápidamente",
       "deContext": "schnell (šnel)",
       "structureContext": "Section[1] Palabras / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "schnell (šnel) — rápido",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "mehr (mēr) — más",
       "deContext": "mehr (mēr)",
       "structureContext": "Section[1] Palabras / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mehr (mēr) — más",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "zumachen — cerrar",
       "deContext": "zumachen",
       "structureContext": "Section[1] Palabras / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zumachen — cerrar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "ich mache zu — es aiztaisu",
       "deContext": "ich mache zu",
       "structureContext": "Section[1] Palabras / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich mache zu — es aiztaisu",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "sitzen (zicen) — sentarse",
       "deContext": "sitzen (zicen)",
       "structureContext": "Section[1] Palabras / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sitzen (zicen) — sentarse",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "ruhig (rū-ich) - calma",
       "deContext": "ruhig (rū",
       "structureContext": "Section[1] Palabras / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ruhig (rū-ich) — tranquilo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "dieser (dīzer) — este",
       "deContext": "dieser (dīzer)",
       "structureContext": "Section[1] Palabras / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dieser (dīzer) — Éste",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "jener (jēner) — que",
       "deContext": "jener (jēner)",
       "structureContext": "Section[1] Palabras / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jener (jēner) — aquel",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "der Brief (dēr brīf) — una carta",
       "deContext": "der Brief (dēr brīf)",
       "structureContext": "Section[1] Palabras / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Brief (dēr brīf) — carta",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "die Briefe — letras",
       "deContext": "die Briefe",
       "structureContext": "Section[1] Palabras / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Briefe — letras",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "kurz (kurc) — corto",
       "deContext": "kurz (kurc)",
       "structureContext": "Section[1] Palabras / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kurz (kurc) — corto",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "rein — limpia",
       "deContext": "rein",
       "structureContext": "Section[1] Palabras / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "rein — limpia",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "schmutzig (šmucich) — sucio",
       "deContext": "schmutzig (šmucich)",
       "structureContext": "Section[1] Palabras / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "schmutzig (šmucich) — sucio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "Norādāmie vietniekvārdi",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronombres demostrativos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "Indique los pronombres dieser y jener como article definido.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Indique los pronombres dieser y jener como article definido.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "Vienskaitlis",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Singular",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "Nominativ",
       "deContext": "Nominativ",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nominativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "dieser Bleistift",
       "deContext": "dieser Bleistift",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dieser Bleistift",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "jene Feder",
       "deContext": "jene Feder",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jene Feder",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "dieses Heft",
       "deContext": "dieses Heft",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dieses Heft",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "Akkusativ",
       "deContext": "Akkusativ",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Akkusativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "diesen Bleistift",
       "deContext": "diesen Bleistift",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "diesen Bleistift",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "jene Feder",
       "deContext": "jene Feder",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jene Feder",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "dieses Heft",
       "deContext": "dieses Heft",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dieses Heft",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "Daudzskaitlis",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Plural",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "Nominativ",
       "deContext": "Nominativ",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nominativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "diese Bleistifte",
       "deContext": "diese Bleistifte",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "diese Bleistifte",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "jene Federn",
       "deContext": "jene Federn",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jene Federn",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "diese Hefte",
       "deContext": "diese Hefte",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "diese Hefte",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "Akkusativ",
       "deContext": "Akkusativ",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Akkusativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "diese Bleistifte",
       "deContext": "diese Bleistifte",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "diese Bleistifte",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "jene Federn",
       "deContext": "jene Federn",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jene Federn",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "diese Hefte",
       "deContext": "diese Hefte",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "diese Hefte",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "Artikulu nelieto",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Artikulu nelieto",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "Si el sustantivo va precedido de un pronombre o una palabra numérica, no se utiliza el article.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si el sustantivo va precedido de un pronombre o una palabra numérica, no se utiliza el article.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "viele Hefte",
       "deContext": "viele Hefte",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "viele Hefte",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "mehrere Kinder",
       "deContext": "mehrere Kinder",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mehrere Kinder",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "einige Bücher",
       "deContext": "einige Bücher",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "einige Bücher",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "alle Federn",
       "deContext": "alle Federn",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "alle Federn",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "dieser Schüler",
       "deContext": "dieser Schüler",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dieser Schüler",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "jene Schülerin",
       "deContext": "jene Schülerin",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jene Schülerin",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "dieses Fenster",
       "deContext": "dieses Fenster",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dieses Fenster",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "jene Messer",
       "deContext": "jene Messer",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jene Messer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "Ich nehme ein Heft.",
       "deContext": "Ich nehme ein Heft.",
       "structureContext": "Section[3] Ejercicio / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich nehme ein Heft.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "Cambia esta oración a 3ra persona del singular.",
       "deContext": "Ich nehme ein Heft.",
       "structureContext": "Section[3] Ejercicio / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambia esta oración a 3ra persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "Cambie la oración inicial a la primera persona del plural.",
       "deContext": "Er nimmt ein Heft.",
       "structureContext": "Section[3] Ejercicio / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambie la oración inicial a la primera persona del plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "Utilice el plural en lugar del singular.",
       "deContext": "Wir nehmen ein Heft.",
       "structureContext": "Section[3] Ejercicio / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Utilice el plural en lugar del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "Listo. El siguiente clic muestra la siguiente card.",
       "deContext": "Ich nehme Hefte.",
       "structureContext": "Section[3] Ejercicio / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "Ich öffne das Heft.",
       "deContext": "Ich öffne das Heft.",
       "structureContext": "Section[3] Ejercicio / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich öffne das Heft.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "Cambia esta oración a 3ra persona del singular.",
       "deContext": "Ich öffne das Heft.",
       "structureContext": "Section[3] Ejercicio / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambia esta oración a 3ra persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "Cambie la oración inicial a la primera persona del plural.",
       "deContext": "Er öffnet das Heft.",
       "structureContext": "Section[3] Ejercicio / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambie la oración inicial a la primera persona del plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "Utilice el plural en lugar del singular.",
       "deContext": "Wir öffnen das Heft.",
       "structureContext": "Section[3] Ejercicio / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Utilice el plural en lugar del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "Listo. El siguiente clic muestra la siguiente card.",
       "deContext": "Ich öffne die Hefte.",
       "structureContext": "Section[3] Ejercicio / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "Ich nehme auch einen Bleistift.",
       "deContext": "Ich nehme auch einen Bleistift.",
       "structureContext": "Section[3] Ejercicio / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich nehme auch einen Bleistift.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "Cambia esta oración a 3ra persona del singular.",
       "deContext": "Ich nehme auch einen Bleistift.",
       "structureContext": "Section[3] Ejercicio / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambia esta oración a 3ra persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "Cambie la oración inicial a la primera persona del plural.",
       "deContext": "Er nimmt auch einen Bleistift.",
       "structureContext": "Section[3] Ejercicio / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambie la oración inicial a la primera persona del plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "Utilice el plural en lugar del singular.",
       "deContext": "Wir nehmen auch einen Bleistift.",
       "structureContext": "Section[3] Ejercicio / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Utilice el plural en lugar del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "Listo. El siguiente clic muestra la siguiente card.",
       "deContext": "Ich nehme auch Bleistifte.",
       "structureContext": "Section[3] Ejercicio / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "Ich spitze den Bleistift an.",
       "deContext": "Ich spitze den Bleistift an.",
       "structureContext": "Section[3] Ejercicio / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich spitze den Bleistift an.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "Cambia esta oración a 3ra persona del singular.",
       "deContext": "Ich spitze den Bleistift an.",
       "structureContext": "Section[3] Ejercicio / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambia esta oración a 3ra persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "Cambie la oración inicial a la primera persona del plural.",
       "deContext": "Er spitzt den Bleistift an.",
       "structureContext": "Section[3] Ejercicio / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambie la oración inicial a la primera persona del plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "Utilice el plural en lugar del singular.",
       "deContext": "Wir spitzen den Bleistift an.",
       "structureContext": "Section[3] Ejercicio / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Utilice el plural en lugar del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "Listo. El siguiente clic muestra la siguiente card.",
       "deContext": "Ich spitze die Bleistifte an.",
       "structureContext": "Section[3] Ejercicio / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "Ich setze mich und schreibe langsam.",
       "deContext": "Ich setze mich und schreibe langsam.",
       "structureContext": "Section[3] Ejercicio / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich setze mich und schreibe langsam.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "Cambia esta oración a 3ra persona del singular.",
       "deContext": "Ich setze mich und schreibe langsam.",
       "structureContext": "Section[3] Ejercicio / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambia esta oración a 3ra persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "Cambie la oración inicial a la primera persona del plural.",
       "deContext": "Er setzt sich und schreibt langsam.",
       "structureContext": "Section[3] Ejercicio / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambie la oración inicial a la primera persona del plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "Utilice el plural en lugar del singular.",
       "deContext": "Wir setzen uns und schreiben langsam.",
       "structureContext": "Section[3] Ejercicio / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Utilice el plural en lugar del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "Listo. El siguiente clic muestra la siguiente card.",
       "deContext": "Ich setze mich und schreibe langsam.",
       "structureContext": "Section[3] Ejercicio / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "Ich schreibe schnell.",
       "deContext": "Ich schreibe schnell.",
       "structureContext": "Section[3] Ejercicio / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich schreibe schnell.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "Cambia esta oración a 3ra persona del singular.",
       "deContext": "Ich schreibe schnell.",
       "structureContext": "Section[3] Ejercicio / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambia esta oración a 3ra persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "Cambie la oración inicial a la primera persona del plural.",
       "deContext": "Er schreibt schnell.",
       "structureContext": "Section[3] Ejercicio / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambie la oración inicial a la primera persona del plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "Utilice el plural en lugar del singular.",
       "deContext": "Wir schreiben schnell.",
       "structureContext": "Section[3] Ejercicio / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Utilice el plural en lugar del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "Listo. El siguiente clic muestra la siguiente card.",
       "deContext": "Ich schreibe schnell.",
       "structureContext": "Section[3] Ejercicio / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "Ich mache das Heft zu.",
       "deContext": "Ich mache das Heft zu.",
       "structureContext": "Section[3] Ejercicio / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich mache das Heft zu.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "Cambia esta oración a 3ra persona del singular.",
       "deContext": "Ich mache das Heft zu.",
       "structureContext": "Section[3] Ejercicio / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambia esta oración a 3ra persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "Cambie la oración inicial a la primera persona del plural.",
       "deContext": "Er macht das Heft zu.",
       "structureContext": "Section[3] Ejercicio / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambie la oración inicial a la primera persona del plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0105"
     },
     {
@@ -1390,8 +1390,8 @@
       "current": "Utilice el plural en lugar del singular.",
       "deContext": "Wir machen das Heft zu.",
       "structureContext": "Section[3] Ejercicio / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Utilice el plural en lugar del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0106"
     },
     {
@@ -1403,8 +1403,8 @@
       "current": "Listo. El siguiente clic muestra la siguiente card.",
       "deContext": "Ich mache die Hefte zu.",
       "structureContext": "Section[3] Ejercicio / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0107"
     },
     {
@@ -1416,8 +1416,8 @@
       "current": "Ich lege den Bleistift hin.",
       "deContext": "Ich lege den Bleistift hin.",
       "structureContext": "Section[3] Ejercicio / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich lege den Bleistift hin.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0108"
     },
     {
@@ -1429,8 +1429,8 @@
       "current": "Cambia esta oración a 3ra persona del singular.",
       "deContext": "Ich lege den Bleistift hin.",
       "structureContext": "Section[3] Ejercicio / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambia esta oración a 3ra persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0109"
     },
     {
@@ -1442,8 +1442,8 @@
       "current": "Cambie la oración inicial a la primera persona del plural.",
       "deContext": "Er legt den Bleistift hin.",
       "structureContext": "Section[3] Ejercicio / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambie la oración inicial a la primera persona del plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0110"
     },
     {
@@ -1455,8 +1455,8 @@
       "current": "Utilice el plural en lugar del singular.",
       "deContext": "Wir legen den Bleistift hin.",
       "structureContext": "Section[3] Ejercicio / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Utilice el plural en lugar del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0111"
     },
     {
@@ -1468,8 +1468,8 @@
       "current": "Listo. El siguiente clic muestra la siguiente card.",
       "deContext": "Ich lege die Bleistifte hin.",
       "structureContext": "Section[3] Ejercicio / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0112"
     },
     {
@@ -1481,8 +1481,8 @@
       "current": "Ich sitze ruhig.",
       "deContext": "Ich sitze ruhig.",
       "structureContext": "Section[3] Ejercicio / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich sitze ruhig.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0113"
     },
     {
@@ -1494,8 +1494,8 @@
       "current": "Cambia esta oración a 3ra persona del singular.",
       "deContext": "Ich sitze ruhig.",
       "structureContext": "Section[3] Ejercicio / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambia esta oración a 3ra persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0114"
     },
     {
@@ -1507,8 +1507,8 @@
       "current": "Cambie la oración inicial a la primera persona del plural.",
       "deContext": "Er sitzt ruhig.",
       "structureContext": "Section[3] Ejercicio / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambie la oración inicial a la primera persona del plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0115"
     },
     {
@@ -1520,8 +1520,8 @@
       "current": "Utilice el plural en lugar del singular.",
       "deContext": "Wir sitzen ruhig.",
       "structureContext": "Section[3] Ejercicio / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Utilice el plural en lugar del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0116"
     },
     {
@@ -1533,8 +1533,8 @@
       "current": "Listo. El siguiente clic muestra la siguiente card.",
       "deContext": "Ich sitze ruhig.",
       "structureContext": "Section[3] Ejercicio / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0117"
     },
     {
@@ -1546,8 +1546,8 @@
       "current": "La niña se sienta y escribe una carta.",
       "deContext": "Das Mädchen setzt sich und schreibt einen Brief.",
       "structureContext": "Section[4] Traducir / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La niña se sienta y escribe una carta.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0118"
     },
     {
@@ -1559,8 +1559,8 @@
       "current": "¿La carta es corta?",
       "deContext": "Ist der Brief kurz?",
       "structureContext": "Section[4] Traducir / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿La carta es corta?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0119"
     },
     {
@@ -1572,8 +1572,8 @@
       "current": "No, la carta no es corta, es larga.",
       "deContext": "Nein, der Brief ist nicht kurz, er ist lang.",
       "structureContext": "Section[4] Traducir / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No, la carta no es corta, es larga.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0120"
     },
     {
@@ -1585,8 +1585,8 @@
       "current": "qué estás haciendo",
       "deContext": "Was machen Sie?",
       "structureContext": "Section[4] Traducir / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "qué estás haciendo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0121"
     },
     {
@@ -1598,8 +1598,8 @@
       "current": "Nos sentamos y leemos.",
       "deContext": "Wir sitzen und lesen.",
       "structureContext": "Section[4] Traducir / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nos sentamos y leemos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0122"
     },
     {
@@ -1611,8 +1611,8 @@
       "current": "¡Paul, siéntate y lee!",
       "deContext": "Paul, setz dich und lies!",
       "structureContext": "Section[4] Traducir / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Paul, siéntate y lee!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0123"
     },
     {
@@ -1624,8 +1624,8 @@
       "current": "¡Señor Maestro, siéntese y lea!",
       "deContext": "Herr Lehrer, setzen Sie sich und lesen Sie!",
       "structureContext": "Section[4] Traducir / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Señor Maestro, siéntese y lea!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0124"
     },
     {
@@ -1637,8 +1637,8 @@
       "current": "¿Cómo escriben los niños?",
       "deContext": "Wie schreiben die Kinder?",
       "structureContext": "Section[4] Traducir / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo escriben los niños?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0125"
     },
     {
@@ -1650,8 +1650,8 @@
       "current": "¿Escriben rápido o lento?",
       "deContext": "Schreiben sie schnell oder langsam?",
       "structureContext": "Section[4] Traducir / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Escriben rápido o lento?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0126"
     },
     {
@@ -1663,8 +1663,8 @@
       "current": "Escriben muy lentamente.",
       "deContext": "Sie schreiben sehr langsam.",
       "structureContext": "Section[4] Traducir / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Escriben muy lentamente.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0127"
     },
     {
@@ -1676,8 +1676,8 @@
       "current": "¿Qué es este plato?",
       "deContext": "Wie ist dieser Teller?",
       "structureContext": "Section[4] Traducir / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué es este plato?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0128"
     },
     {
@@ -1689,8 +1689,8 @@
       "current": "Este plato no está limpio, está sucio.",
       "deContext": "Dieser Teller ist nicht rein, er ist schmutzig.",
       "structureContext": "Section[4] Traducir / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Este plato no está limpio, está sucio.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0129"
     },
     {
@@ -1702,8 +1702,8 @@
       "current": "¿Las letras son largas o cortas?",
       "deContext": "Sind die Briefe lang oder kurz?",
       "structureContext": "Section[4] Traducir / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Las letras son largas o cortas?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0130"
     },
     {
@@ -1715,8 +1715,8 @@
       "current": "¡Anna, afila ese lápiz!",
       "deContext": "Anna, spitz diesen Bleistift an!",
       "structureContext": "Section[4] Traducir / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Anna, afila ese lápiz!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0131"
     },
     {
@@ -1728,8 +1728,8 @@
       "current": "¡Maestro, por favor afile este lápiz!",
       "deContext": "Herr Lehrer, bitte spitzen Sie diesen Bleistift an!",
       "structureContext": "Section[4] Traducir / card[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Maestro, por favor afile este lápiz!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0132"
     },
     {
@@ -1741,8 +1741,8 @@
       "current": "¡Deja ese lápiz!",
       "deContext": "Leg jenen Bleistift hin!",
       "structureContext": "Section[4] Traducir / card[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Deja ese lápiz!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0133"
     },
     {
@@ -1754,8 +1754,8 @@
       "current": "¡Aiztaisi logu!",
       "deContext": "Mach das Fenster zu!",
       "structureContext": "Section[4] Traducir / card[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Aiztaisi logu!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0134"
     },
     {
@@ -1767,8 +1767,8 @@
       "current": "Ko meitene beidzot dara?",
       "deContext": "Was macht das Mädchen endlich?",
       "structureContext": "Section[4] Traducir / card[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ko meitene beidzot dara?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0135"
     },
     {
@@ -1780,8 +1780,8 @@
       "current": "Ella cierra la ventana y sale.",
       "deContext": "Sie macht das Fenster zu und geht hinaus.",
       "structureContext": "Section[4] Traducir / card[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ella cierra la ventana y sale.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0136"
     },
     {
@@ -1793,8 +1793,8 @@
       "current": "Diálogos / frases",
       "deContext": "",
       "structureContext": "Section raw title: Diálogo / frases",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diálogos / frases",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0137"
     },
     {
@@ -1806,8 +1806,8 @@
       "current": "Palabras",
       "deContext": "",
       "structureContext": "Section raw title: Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Palabras",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0138"
     },
     {
@@ -1819,8 +1819,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Section raw title: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0139"
     },
     {
@@ -1832,8 +1832,8 @@
       "current": "Ejercicio",
       "deContext": "",
       "structureContext": "Section raw title: Ejercicio",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0140"
     },
     {
@@ -1845,8 +1845,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Exercise flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0141"
     },
     {
@@ -1858,8 +1858,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0142"
     },
     {
@@ -1871,8 +1871,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0143"
     },
     {
@@ -1884,8 +1884,8 @@
       "current": "Toque la tarjeta para ir al siguiente paso.",
       "deContext": "",
       "structureContext": "Lesson 9 multi-step exercise hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ir al siguiente paso.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0144"
     },
     {
@@ -1897,8 +1897,8 @@
       "current": "Ejercicio I — Usa la conjugación correcta",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio I — Usa la conjugación correcta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0145"
     },
     {
@@ -1910,8 +1910,8 @@
       "current": "¡Pon la conjugación correcta y hazlo en plural!",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Pon la conjugación correcta y hazlo en plural!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0146"
     },
     {
@@ -1923,8 +1923,8 @@
       "current": "Ahora responde en plural.",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ahora responde en plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0147"
     },
     {
@@ -1936,8 +1936,8 @@
       "current": "Ejercicio II — Traducir",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio II — Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0148"
     },
     {
@@ -1949,8 +1949,8 @@
       "current": "Forma 1/3: Tu (singular)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 1/3: du (singular)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0149"
     },
     {
@@ -1962,8 +1962,8 @@
       "current": "Formulario 2/3: Tú (plural)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-09-0150"
     },
     {
@@ -1975,9 +1975,16 @@
       "current": "Formulario 3/3: Sie (forma decente)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-09-0151"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 151,
+    "LABOT": 14,
+    "NELABOT": 137,
+    "unresolved": 0
+  }
 }
