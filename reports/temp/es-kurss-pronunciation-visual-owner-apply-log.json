@@ -1,0 +1,82 @@
+{
+  "requested": 12,
+  "appliedVerified": 12,
+  "mismatch": 0,
+  "failed": 0,
+  "nelabotSkipped": 0,
+  "details": [
+    {
+      "id": "ES-KURSS-PRON-001",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-002",
+      "file": "www/data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-001",
+      "file": "languages/es/ui.js",
+      "field": "kurss.vowelsSubtitle",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-003",
+      "file": "www/languages/es/ui.js",
+      "field": "kurss.vowelsSubtitle",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-003",
+      "file": "languages/es/ui.js",
+      "field": "kurss.consonantsSubtitle",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-005",
+      "file": "www/languages/es/ui.js",
+      "field": "kurss.consonantsSubtitle",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-005",
+      "file": "languages/es/ui.js",
+      "field": "kurss.vowelsTitle",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-007",
+      "file": "www/languages/es/ui.js",
+      "field": "kurss.vowelsTitle",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-007",
+      "file": "languages/es/ui.js",
+      "field": "kurss.consonantsTitle",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-009",
+      "file": "www/languages/es/ui.js",
+      "field": "kurss.consonantsTitle",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-009",
+      "file": "languages/es/ui.js",
+      "field": "kurss.consonantsDesc",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRON-UI-011",
+      "file": "www/languages/es/ui.js",
+      "field": "kurss.consonantsDesc",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "errors": []
+}
