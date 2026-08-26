@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "scope": "ES Kurss → Estructura de oraciones",
+  "status": "READY_FOR_COPY_ONLY_APPLY",
+  "sourceMain": "860cca7fa508251ed40792bcf7325ab0b8d1c6d9",
+  "targets": [
+    {
+      "id": "ES-KURSS-SENTENCE-STRUCTURE-0001",
+      "status": "LABOT",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssSentenceStructureLesson",
+      "currentSha256": "997fc48e93b82ff34e3bb8e0b27c3a73f39cd7e67e6d7226760f5b38f1cd9432",
+      "currentLength": 3306,
+      "new": "<h3>Estructura de la oración</h3>\n<p class=\"kurss-lesson-intro\">En las oraciones enunciativas, el verbo conjugado suele ocupar la segunda posición; en las preguntas de sí o no, suele aparecer al principio.</p>\n<section class=\"kurss-lesson-section\">\n<h4>Oraciones y preguntas de sí o no</h4>\n<div class=\"kurss-examples\"><div class=\"kurss-example\">Du kommst. — Vienes.</div><div class=\"kurss-example\">Kommst du? — ¿Vienes?</div><div class=\"kurss-example\">Er singt. — Él canta.</div><div class=\"kurss-example\">Singt er? — ¿Canta?</div><div class=\"kurss-example\">Stehst du? — ¿Estás de pie?</div><div class=\"kurss-example\">Ja, ich stehe. — Sí, estoy de pie.</div><div class=\"kurss-example\">Geht ihr? — ¿Vais?</div><div class=\"kurss-example\">Ja, wir gehen. — Sí, vamos.</div></div>\n</section>\n<section class=\"kurss-lesson-section\">\n<h4>Preguntas con «was»</h4>\n<p>Cuando una pregunta comienza con una palabra interrogativa, el verbo conjugado suele aparecer inmediatamente después.</p>\n<div class=\"kurss-examples\"><div class=\"kurss-example\">Was tust du? — ¿Qué haces?</div><div class=\"kurss-example\">Was tut er? — ¿Qué hace él?</div><div class=\"kurss-example\">Was tut sie? — ¿Qué hace ella?</div><div class=\"kurss-example\">Was tun sie? — ¿Qué hacen ellos/ellas?</div></div>\n</section>\n<section class=\"kurss-lesson-section\">\n<h4>Negación con «nicht»</h4>\n<p>Cuando «nicht» niega el verbo o la oración completa, suele colocarse después del verbo conjugado.</p>\n<div class=\"kurss-examples\"><div class=\"kurss-example\">Ich spiele nicht. — No juego.</div><div class=\"kurss-example\">Paul fragt nicht. — Paul no pregunta.</div><div class=\"kurss-example\">Er kommt nicht. — Él no viene.</div><div class=\"kurss-example\">Sie singen nicht. — Ellos/ellas no cantan.</div></div>\n</section>\n<section class=\"kurss-lesson-section\">\n<h4>Oraciones de la lección 2</h4>\n<div class=\"kurss-examples\"><div class=\"kurss-example\">Spielst du? — ¿Juegas?</div><div class=\"kurss-example\">Nein, ich spiele nicht, ich arbeite. — No, no juego; trabajo.</div><div class=\"kurss-example\">Paul fragt nicht, er arbeitet. — Paul no pregunta; trabaja.</div><div class=\"kurss-example\">Arbeitest du? — ¿Trabajas?</div><div class=\"kurss-example\">Nein, ich arbeite nicht, ich singe. — No, no trabajo; canto.</div><div class=\"kurss-example\">Was tut Paul? — ¿Qué hace Paul?</div><div class=\"kurss-example\">Er spielt. — Él juega.</div><div class=\"kurss-example\">Was tut Marie? — ¿Qué hace Marie?</div><div class=\"kurss-example\">Sie singt. — Ella canta.</div><div class=\"kurss-example\">Paul spielt, aber Marie singt. — Paul juega, pero Marie canta.</div><div class=\"kurss-example\">Singt ihr? — ¿Cantáis?</div><div class=\"kurss-example\">Nein, wir singen nicht, wir arbeiten. — No, no cantamos; trabajamos.</div><div class=\"kurss-example\">Was tun Paul und Marie? — ¿Qué hacen Paul y Marie?</div><div class=\"kurss-example\">Sie fragen. — Preguntan.</div><div class=\"kurss-example\">Sie antworten nicht. — No responden.</div><div class=\"kurss-example\">Wer arbeitet? — ¿Quién trabaja?</div><div class=\"kurss-example\">Wir arbeiten. — Trabajamos.</div><div class=\"kurss-example\">Wir rechnen und zeichnen. — Calculamos y dibujamos.</div><div class=\"kurss-example\">Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen. — Vienen, preguntan, responden, trabajan, juegan, cantan y se van.</div></div>\n</section>"
+    },
+    {
+      "id": "ES-KURSS-SENTENCE-STRUCTURE-0002",
+      "status": "LABOT",
+      "file": "www/data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssSentenceStructureLesson",
+      "currentSha256": "997fc48e93b82ff34e3bb8e0b27c3a73f39cd7e67e6d7226760f5b38f1cd9432",
+      "currentLength": 3306,
+      "newFrom": "ES-KURSS-SENTENCE-STRUCTURE-0001.new"
+    }
+  ],
+  "ownerNotes": [
+    "UI title and subtitle shown in the screenshots are correct and must remain unchanged.",
+    "The final German sentence from lesson 2 was missing from the visual lesson because translations were shifted by one row; it is restored with its Spanish translation.",
+    "DE production files remain strictly read-only."
+  ]
+}

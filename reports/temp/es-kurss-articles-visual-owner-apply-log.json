@@ -1,0 +1,87 @@
+{
+  "requested": 19,
+  "appliedVerified": 19,
+  "currentMismatch": 0,
+  "newMismatch": 0,
+  "failed": 0,
+  "details": [
+    {
+      "id": "ES-KURSS-ARTICLES-0001",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0002",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0003",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0004",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0005",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0006",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0007",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0008",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0009",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0010",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0011",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0012",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0013",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0014",
+      "status": "APPLIED_VERIFIED",
+      "note": "REMOVE_ELEMENT"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0015",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0016",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0017",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0018",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0019",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "errors": []
+}

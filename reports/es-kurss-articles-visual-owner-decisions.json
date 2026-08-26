@@ -1,0 +1,178 @@
+{
+  "title": "ES Kurss — Artículos visual OWNER decisions",
+  "authority": "OWNER",
+  "source": "User screenshots 2026-08-26",
+  "base": "main",
+  "scope": {
+    "lesson": "kurssArticlesLesson",
+    "targets": 19,
+    "productionFiles": 2
+  },
+  "rules": {
+    "copyOnly": true,
+    "currentExactMatchRequired": true,
+    "deReadOnly": true,
+    "mirrorRequired": true
+  },
+  "counts": {
+    "LABOT": 19,
+    "NELABOT": 0,
+    "UNRESOLVED": 0
+  },
+  "targets": [
+    {
+      "id": "ES-KURSS-ARTICLES-0001",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "El article alemán no siempre coincide con el sistema de género inglés. Por lo tanto, es mejor aprender los sustantivos junto con el article.",
+      "new": "El artículo alemán no siempre coincide con el género gramatical español. Por lo tanto, es mejor aprender los sustantivos junto con el artículo.",
+      "status": "LABOT",
+      "category": "GRAMATIKA / SEMANTIKA"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0002",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "der Tisch - table",
+      "new": "der Tisch - mesa",
+      "status": "LABOT",
+      "category": "EN ATLIKUMS"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0003",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "marcas de automóviles → adecuado para BMW, adecuado para Mercedes",
+      "new": "marcas de automóviles → der BMW, der Mercedes",
+      "status": "LABOT",
+      "category": "TULKOJUMS"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0004",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "meses → der agosto, der diciembre",
+      "new": "meses → der August, der Dezember",
+      "status": "LABOT",
+      "category": "DE VĀRDI AIZSTĀTI"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0005",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "Estaciones → der Sommer, der Winter",
+      "new": "estaciones → der Sommer, der Winter",
+      "status": "LABOT",
+      "category": "ORTOGRĀFIJA"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0006",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "der Mann - man",
+      "new": "der Mann - hombre",
+      "status": "LABOT",
+      "category": "EN ATLIKUMS"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0007",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "se adapta de lunes a lunes",
+      "new": "der Montag - lunes",
+      "status": "LABOT",
+      "category": "BOJĀTS PIEMĒRS"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0008",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "se adapta a agosto - agosto",
+      "new": "der August - agosto",
+      "status": "LABOT",
+      "category": "BOJĀTS PIEMĒRS"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0009",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "DIE es a menudo una persona femenina, plural y palabras que terminan en -ung, -heit, -keit, -schaft, -ion, -tät, -ei.",
+      "new": "DIE se usa a menudo con personas femeninas, formas plurales y palabras terminadas en -ung, -heit, -keit, -schaft, -ion, -tät y -ei.",
+      "status": "LABOT",
+      "category": "GRAMATIKA"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0010",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "marcas de motocicletas → la Harley-Davidson, la Yamaha",
+      "new": "marcas de motocicletas → die Harley-Davidson, die Yamaha",
+      "status": "LABOT",
+      "category": "DE ARTIKULI AIZSTĀTI"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0011",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "plural → los automóviles, la casa",
+      "new": "plural → die Autos, die Häuser",
+      "status": "LABOT",
+      "category": "DE VĀRDI AIZSTĀTI"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0012",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "DAS suelen tener diminutivos con -chen / -lein, muchas palabras con -ment / -um y verbos como sustantivos.",
+      "new": "DAS suele usarse con diminutivos terminados en -chen o -lein, con muchas palabras terminadas en -ment o -um y con verbos sustantivados.",
+      "status": "LABOT",
+      "category": "GRAMATIKA"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0013",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "verbo como sustantivo → das Essen, das Lernen",
+      "new": "verbos sustantivados → das Essen, das Lernen, das Lesen",
+      "status": "LABOT",
+      "category": "TERMINOLOĢIJA"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0014",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "verbos como sustantivos → das Essen, das Lernen, das Lesen",
+      "new": "REMOVE",
+      "status": "LABOT",
+      "category": "DUBLIKĀTS",
+      "action": "REMOVE_ELEMENT",
+      "removeHtml": "<div class=\"kurss-example\">verbos como sustantivos → das Essen, das Lernen, das Lesen</div>"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0015",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "das Essen - comer / comida",
+      "new": "das Essen - la comida",
+      "status": "LABOT",
+      "category": "GALVENĀ NOZĪME"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0016",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "das Lernen - Aprender",
+      "new": "das Lernen - el aprendizaje",
+      "status": "LABOT",
+      "category": "SEMANTIKA / ORTOGRĀFIJA"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0017",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "Excepciones importantes / debe aprender con el article",
+      "new": "Excepciones importantes: deben aprenderse con el artículo",
+      "status": "LABOT",
+      "category": "GRAMATIKA"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0018",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "die Gabel - fork",
+      "new": "die Gabel - tenedor",
+      "status": "LABOT",
+      "category": "EN ATLIKUMS"
+    },
+    {
+      "id": "ES-KURSS-ARTICLES-0019",
+      "field": "COURSE_LESSON_HTML.kurssArticlesLesson",
+      "current": "Ayuda para terminaciones y grupos de palabras adivinar el article, pero no son una regla 100% segura. Si no está seguro, aprenda la palabra junto con el article.",
+      "new": "Las terminaciones y los grupos de palabras ayudan a identificar el artículo, pero no constituyen una regla totalmente segura. Si tiene dudas, aprenda la palabra junto con el artículo.",
+      "status": "LABOT",
+      "category": "GRAMATIKA"
+    }
+  ]
+}

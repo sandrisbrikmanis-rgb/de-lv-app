@@ -1,0 +1,45 @@
+{
+  "requested": 6,
+  "appliedVerified": 6,
+  "mismatch": 0,
+  "failed": 0,
+  "details": [
+    {
+      "id": "ES-KURSS-VERB-BASICS-0001",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssVerbBasicsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-VERB-BASICS-0002",
+      "file": "www/data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssVerbBasicsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-VERB-BASICS-0003",
+      "file": "languages/es/ui.js",
+      "field": "COURSE_UI.sections.verbBasics",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-VERB-BASICS-0004",
+      "file": "www/languages/es/ui.js",
+      "field": "COURSE_UI.sections.verbBasics",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-VERB-BASICS-0005",
+      "file": "languages/es/ui.js",
+      "field": "COURSE_UI.sections.verbBasicsDesc",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-VERB-BASICS-0006",
+      "file": "www/languages/es/ui.js",
+      "field": "COURSE_UI.sections.verbBasicsDesc",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "errors": []
+}
