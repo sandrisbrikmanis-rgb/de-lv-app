@@ -3,10 +3,10 @@
 **Source HEAD:** `4d849bf181a3332374db31566fb4f5a9150206c4`
 **Review findings:** 240
 **LABOT findings:** 237
-**NELABOT findings:** 1
-**BLOCKED findings:** 2
+**NELABOT findings:** 3
+**BLOCKED findings:** 0
 **Unique LABOT apply targets:** 237
-**Status:** BLOCKED
+**Status:** OWNER ACCEPTED
 
 ## ES-A1A2-MICRO-OWNER-0001
 
@@ -3168,9 +3168,10 @@
 - DE: `morgen`
 - Field/path: `study.examples[4].lv`
 - CURRENT: `¡Buen día!`
-- NEW: `¡Hasta mañana!`
-- Status: BLOCKED
-- Pamatojums: OWNER: paredzēts Bis morgen! tulkojums. | Prerequisite FAIL: DE piemērs ir «Guten Morgen!», nevis «Bis morgen!». CURRENT «¡Buen día!» atbilst Guten Morgen!
+- NEW: `¡Buen día!`
+- Status: NELABOT
+- Classification: FALSE_POSITIVE
+- Pamatojums: Guten Morgen! ir rīta sveiciens. ¡Buen día! ir derīgs spāņu sveiciens. Iepriekš piedāvātais ¡Hasta mañana! nozīmētu Bis morgen! un mainītu vācu avota nozīmi.
 
 ## ES-A1A2-MICRO-OWNER-0227
 
@@ -3182,9 +3183,10 @@
 - DE: `Morgen`
 - Field/path: `study.examples[4].lv`
 - CURRENT: `¡Buen día!`
-- NEW: `Es por la mañana.`
-- Status: BLOCKED
-- Pamatojums: OWNER: rīta nozīmes precizējums. | Prerequisite FAIL: DE piemērs ir «Guten Morgen!» (sveiciens), nevis rīta laika izteiksme; NEW «Es por la mañana.» neatbilst DE nozīmei.
+- NEW: `¡Buen día!`
+- Status: NELABOT
+- Classification: FALSE_POSITIVE
+- Pamatojums: Guten Morgen! ir sveiciens. Es por la mañana. nebūtu sveiciena tulkojums un neatbilstu vācu avotam.
 
 ## ES-A1A2-MICRO-OWNER-0228
 

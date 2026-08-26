@@ -11,8 +11,8 @@
 | OWNER_REVIEW_REQUIRED resolved | **20** |
 | Review coverage | **240/240** |
 | LABOT findings | **237** |
-| NELABOT findings | **1** |
-| BLOCKED findings | **2** |
+| NELABOT findings | **3** |
+| BLOCKED findings | **0** |
 | Unique LABOT apply targets | **237** |
 | Consolidated duplicates | **0** |
 | OWNER_CONFLICT | **0** |
@@ -24,9 +24,4 @@
 | Mirror | **PASS** |
 | Syntax | **PASS** |
 
-## BLOCKED items
-
-- `ES-A1A2-MICRO-0226`: Prerequisite FAIL: DE piemērs ir «Guten Morgen!», nevis «Bis morgen!». CURRENT «¡Buen día!» atbilst Guten Morgen!
-- `ES-A1A2-MICRO-0227`: Prerequisite FAIL: DE piemērs ir «Guten Morgen!» (sveiciens), nevis rīta laika izteiksme; NEW «Es por la mañana.» neatbilst DE nozīmei.
-
-## FINAL VERDICT: **BLOCKED**
+## FINAL VERDICT: **READY FOR FINAL MICRO COPY-ONLY APPLY**

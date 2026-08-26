@@ -31,18 +31,18 @@ const OWNER_OVERRIDES = {
     reason: "OWNER: pietrūkst sākuma ¡ pie Bis morgen! tulkojuma.",
   },
   "ES-A1A2-MICRO-0226": {
-    new: "¡Hasta mañana!",
-    status: "LABOT",
-    reason: "OWNER: paredzēts Bis morgen! tulkojums.",
-    prerequisiteDe: "Bis morgen!",
-    exampleIndex: 4,
+    new: "¡Buen día!",
+    status: "NELABOT",
+    classification: "FALSE_POSITIVE",
+    reason:
+      "Guten Morgen! ir rīta sveiciens. ¡Buen día! ir derīgs spāņu sveiciens. Iepriekš piedāvātais ¡Hasta mañana! nozīmētu Bis morgen! un mainītu vācu avota nozīmi.",
   },
   "ES-A1A2-MICRO-0227": {
-    new: "Es por la mañana.",
-    status: "LABOT",
-    reason: "OWNER: rīta nozīmes precizējums.",
-    prerequisiteMorning: true,
-    exampleIndex: 4,
+    new: "¡Buen día!",
+    status: "NELABOT",
+    classification: "FALSE_POSITIVE",
+    reason:
+      "Guten Morgen! ir sveiciens. Es por la mañana. nebūtu sveiciena tulkojums un neatbilstu vācu avotam.",
   },
   "ES-A1A2-MICRO-0228": {
     new: "Yo como arroz.",
@@ -416,6 +416,15 @@ function validateOwnerDecisions({ regression, payload, wordsByLevel, syntaxPass,
   const nelabotDecisions = payload.decisions.filter((d) => d.status === "NELABOT");
   const blockedDecisions = payload.decisions.filter((d) => d.status === "BLOCKED");
 
+  if (labotDecisions.length !== 237) {
+    errors.push(`LABOT findings ${labotDecisions.length} !== 237`);
+  }
+  if (nelabotDecisions.length !== 3) {
+    errors.push(`NELABOT findings ${nelabotDecisions.length} !== 3`);
+  }
+  if (blockedDecisions.length !== 0) {
+    errors.push(`BLOCKED findings ${blockedDecisions.length} !== 0`);
+  }
   if (labotDecisions.length + nelabotDecisions.length + blockedDecisions.length !== 240) {
     errors.push(`decision count ${payload.decisions.length} !== 240`);
   }
@@ -481,12 +490,7 @@ function validateOwnerDecisions({ regression, payload, wordsByLevel, syntaxPass,
     dupKeys.add(k);
   }
 
-  const hasBlocked = blockedDecisions.length > 0;
-  const verdict = errors.length
-    ? "FAIL"
-    : hasBlocked
-      ? "BLOCKED"
-      : "READY FOR FINAL MICRO COPY-ONLY APPLY";
+  const verdict = errors.length ? "FAIL" : "READY FOR FINAL MICRO COPY-ONLY APPLY";
 
   return {
     errors,

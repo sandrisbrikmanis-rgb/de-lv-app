@@ -5,11 +5,11 @@
   "sourceHead": "4d849bf181a3332374db31566fb4f5a9150206c4",
   "reviewFindings": 240,
   "labotFindings": 237,
-  "nelabotFindings": 1,
-  "blockedFindings": 2,
+  "nelabotFindings": 3,
+  "blockedFindings": 0,
   "uniqueOwnerTargets": 237,
   "consolidatedDuplicates": 0,
-  "status": "BLOCKED",
+  "status": "OWNER ACCEPTED",
   "decisions": [
     {
       "id": "ES-A1A2-MICRO-OWNER-0001",
@@ -3848,9 +3848,10 @@
       "de": "morgen",
       "field": "study.examples[4].lv",
       "current": "¡Buen día!",
-      "new": "¡Hasta mañana!",
-      "status": "BLOCKED",
-      "reason": "OWNER: paredzēts Bis morgen! tulkojums. | Prerequisite FAIL: DE piemērs ir «Guten Morgen!», nevis «Bis morgen!». CURRENT «¡Buen día!» atbilst Guten Morgen!",
+      "new": "¡Buen día!",
+      "status": "NELABOT",
+      "classification": "FALSE_POSITIVE",
+      "reason": "Guten Morgen! ir rīta sveiciens. ¡Buen día! ir derīgs spāņu sveiciens. Iepriekš piedāvātais ¡Hasta mañana! nozīmētu Bis morgen! un mainītu vācu avota nozīmi.",
       "resolvedBy": "direct"
     },
     {
@@ -3865,9 +3866,10 @@
       "de": "Morgen",
       "field": "study.examples[4].lv",
       "current": "¡Buen día!",
-      "new": "Es por la mañana.",
-      "status": "BLOCKED",
-      "reason": "OWNER: rīta nozīmes precizējums. | Prerequisite FAIL: DE piemērs ir «Guten Morgen!» (sveiciens), nevis rīta laika izteiksme; NEW «Es por la mañana.» neatbilst DE nozīmei.",
+      "new": "¡Buen día!",
+      "status": "NELABOT",
+      "classification": "FALSE_POSITIVE",
+      "reason": "Guten Morgen! ir sveiciens. Es por la mañana. nebūtu sveiciena tulkojums un neatbilstu vācu avotam.",
       "resolvedBy": "direct"
     },
     {
@@ -8124,18 +8126,7 @@
       "resolvedBy": "direct"
     }
   ],
-  "blockedDecisions": [
-    {
-      "id": "ES-A1A2-MICRO-0226",
-      "blocked": true,
-      "reason": "Prerequisite FAIL: DE piemērs ir «Guten Morgen!», nevis «Bis morgen!». CURRENT «¡Buen día!» atbilst Guten Morgen!"
-    },
-    {
-      "id": "ES-A1A2-MICRO-0227",
-      "blocked": true,
-      "reason": "Prerequisite FAIL: DE piemērs ir «Guten Morgen!» (sveiciens), nevis rīta laika izteiksme; NEW «Es por la mañana.» neatbilst DE nozīmei."
-    }
-  ],
+  "blockedDecisions": [],
   "errors": [],
   "consolidatedDuplicateGroups": []
 }
