@@ -1,0 +1,4341 @@
+{
+  "ownerObjects": [
+    {
+      "id": "ES-DE-C1-OWNER-0001",
+      "module": "C1",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[0].example",
+      "current": "Er kommt gelegentlich. = Viņš reizēm atnāk.",
+      "pairedGermanText": "gelegentlich",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "explanation": "Svešvalodas atlikums (LV)",
+      "proposedNew": "",
+      "sourceFindingIds": [
+        "ES-C1-0001"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0002",
+      "module": "C1",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[1].example",
+      "current": "ein gelegentlicher Besuch = gadījuma apmeklējums",
+      "pairedGermanText": "gelegentlich",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "explanation": "Svešvalodas atlikums (LV)",
+      "proposedNew": "",
+      "sourceFindingIds": [
+        "ES-C1-0002"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0003",
+      "module": "C1",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].example",
+      "current": "gelegentlich des Festes = svētku sakarā",
+      "pairedGermanText": "gelegentlich",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "explanation": "Svešvalodas atlikums (LV)",
+      "proposedNew": "",
+      "sourceFindingIds": [
+        "ES-C1-0003"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0004",
+      "module": "C1",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[3].example",
+      "current": "Manchmal regnet es. = Reizēm līst.",
+      "pairedGermanText": "gelegentlich",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "explanation": "Svešvalodas atlikums (LV)",
+      "proposedNew": "",
+      "sourceFindingIds": [
+        "ES-C1-0004"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0005",
+      "module": "C1",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[0].example",
+      "current": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības.",
+      "pairedGermanText": "wahlberechtigt",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "explanation": "Svešvalodas atlikums (LV)",
+      "proposedNew": "",
+      "sourceFindingIds": [
+        "ES-C1-0005"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0006",
+      "module": "C1",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[2].example",
+      "current": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām.",
+      "pairedGermanText": "wahlberechtigt",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "explanation": "Svešvalodas atlikums (LV)",
+      "proposedNew": "",
+      "sourceFindingIds": [
+        "ES-C1-0006"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0007",
+      "module": "C1",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.sectionAccents.explanation",
+      "current": "{\"green\":[\"aufrechterhalten\",\"erhalt\",\"auf\"]}",
+      "pairedGermanText": "aufrechterhalten",
+      "category": "SECTION_ACCENT",
+      "severity": "VIDĒJA",
+      "explanation": "Accent term not found in section text",
+      "proposedNew": "",
+      "sourceFindingIds": [
+        "ES-C1-0007",
+        "ES-C1-0008"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0008",
+      "module": "C1",
+      "cardId": "c1-gewährleisten-1",
+      "field": "lv",
+      "current": "proporcionar",
+      "pairedGermanText": "gewährleisten",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Gewährleisten significa garantizar o asegurar, no simplemente proporcionar.",
+      "proposedNew": "garantizar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0001"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0009",
+      "module": "C1",
+      "cardId": "c1-Auswirkung-2",
+      "field": "lv",
+      "current": "influencia",
+      "pairedGermanText": "Auswirkung",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "Auswirkung se refiere al efecto o impacto producido, no específicamente a una influencia.",
+      "proposedNew": "efecto",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0002"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0010",
+      "module": "C1",
+      "cardId": "c1-umstritten-3",
+      "field": "lv",
+      "current": "contradictorio",
+      "pairedGermanText": "umstritten",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Umstritten significa controvertido o discutido; contradictorio significa que se opone a otra cosa.",
+      "proposedNew": "controvertido",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0003"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0011",
+      "module": "C1",
+      "cardId": "c1-Aktionsprogramm-10",
+      "field": "lv",
+      "current": "programa de eventos",
+      "pairedGermanText": "Aktionsprogramm",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "Aktionsprogramm es un programa de acción o medidas, no un programa de eventos.",
+      "proposedNew": "programa de acción",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0004"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0012",
+      "module": "C1",
+      "cardId": "c1-Alarmbereitschaft-11",
+      "field": "lv",
+      "current": "preparación para la alerta",
+      "pairedGermanText": "Alarmbereitschaft",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "La traducción actual expresa preparación para una alerta, no el estado de alerta o disponibilidad inmediata.",
+      "proposedNew": "estado de alerta",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0005"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0013",
+      "module": "C1",
+      "cardId": "c1-Altweibersommer-12",
+      "field": "lv",
+      "current": "primavera",
+      "pairedGermanText": "Altweibersommer",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Altweibersommer es un periodo cálido de otoño, no la primavera.",
+      "proposedNew": "veranillo de San Martín",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0006"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0014",
+      "module": "C1",
+      "cardId": "c1-anfechten-13",
+      "field": "lv",
+      "current": "disputa • pregunta",
+      "pairedGermanText": "anfechten",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "explanation": "El alemán es un verbo; las opciones actuales son sustantivos y pregunta no corresponde semánticamente.",
+      "proposedNew": "impugnar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0007"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0015",
+      "module": "C1",
+      "cardId": "c1-Aal-18",
+      "field": "lv",
+      "current": "Anguila",
+      "pairedGermanText": "Aal",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "El nombre común del animal debe escribirse en minúscula.",
+      "proposedNew": "anguila",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0008"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0016",
+      "module": "C1",
+      "cardId": "c1-Abtreibung-21",
+      "field": "lv",
+      "current": "aborto provocado",
+      "pairedGermanText": "Abtreibung",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "Abtreibung es aborto en general; provocado añade una especificidad no presente en el alemán.",
+      "proposedNew": "aborto",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0009"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0017",
+      "module": "C1",
+      "cardId": "c1-Frachtbrief-26",
+      "field": "lv",
+      "current": "carta de porte de carga",
+      "pairedGermanText": "Frachtbrief",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "explanation": "Carta de porte ya designa el documento de transporte de mercancías; «de carga» resulta redundante.",
+      "proposedNew": "carta de porte",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0010"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0018",
+      "module": "C1",
+      "cardId": "c1-Kinderschänder-30",
+      "field": "lv",
+      "current": "pedófilo",
+      "pairedGermanText": "Kinderschänder",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "Kinderschänder designa a un abusador de menores, que no necesariamente es pedófilo.",
+      "proposedNew": "abusador de menores",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0011"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0019",
+      "module": "C1",
+      "cardId": "c1-Zivilgesetzbuch-32",
+      "field": "lv",
+      "current": "derecho civil",
+      "pairedGermanText": "Zivilgesetzbuch",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Zivilgesetzbuch es el código civil, no la rama jurídica denominada derecho civil.",
+      "proposedNew": "código civil",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0012"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0020",
+      "module": "C1",
+      "cardId": "c1-Abenddämmerung-34",
+      "field": "lv",
+      "current": "crepúsculo de la tarde",
+      "pairedGermanText": "Abenddämmerung",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "explanation": "«Crepúsculo de la tarde» es redundante y poco idiomático en español.",
+      "proposedNew": "crepúsculo vespertino",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0013"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0021",
+      "module": "C1",
+      "cardId": "c1-Autokennzeichen-38",
+      "field": "lv",
+      "current": "Letras y números en la matrícula del coche.",
+      "pairedGermanText": "Autokennzeichen",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "Autokennzeichen es la matrícula o placa, no las letras y números que aparecen en ella.",
+      "proposedNew": "matrícula del coche",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0014"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0022",
+      "module": "C1",
+      "cardId": "c1-Bäckerhandwerk-39",
+      "field": "lv",
+      "current": "trabajo de panadero",
+      "pairedGermanText": "Bäckerhandwerk",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "Bäckerhandwerk designa el oficio o gremio de panadero, no simplemente el trabajo realizado por uno.",
+      "proposedNew": "oficio de panadero",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0015"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0023",
+      "module": "C1",
+      "cardId": "c1-Bergwanderung-41",
+      "field": "lv",
+      "current": "turismo de montaña",
+      "pairedGermanText": "Bergwanderung",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "Bergwanderung es una excursión o caminata de montaña; turismo de montaña es un concepto más amplio.",
+      "proposedNew": "excursión por la montaña",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0016"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0024",
+      "module": "C1",
+      "cardId": "c1-sich beschäftigen-43",
+      "field": "lv",
+      "current": "ocupar",
+      "pairedGermanText": "sich beschäftigen",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "explanation": "El verbo alemán es reflexivo; «ocupar» sin pronombre cambia la estructura y el significado.",
+      "proposedNew": "ocuparse",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0017"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0025",
+      "module": "C1",
+      "cardId": "c1-Besichtigung-46",
+      "field": "lv",
+      "current": "inspección",
+      "pairedGermanText": "Besichtigung",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "Besichtigung suele referirse a una visita o recorrido para ver algo; inspección implica un examen más técnico o formal.",
+      "proposedNew": "visita",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0018"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0026",
+      "module": "C1",
+      "cardId": "c1-charakteristisch-52",
+      "field": "lv",
+      "current": "característica",
+      "pairedGermanText": "charakteristisch",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "explanation": "La traducción actual es un sustantivo femenino; el alemán es un adjetivo.",
+      "proposedNew": "característico",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0019"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0027",
+      "module": "C1",
+      "cardId": "c1-ekelhaft-60",
+      "field": "lv",
+      "current": "desagradable",
+      "pairedGermanText": "ekelhaft",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "“Desagradable” es demasiado débil; “ekelhaft” significa asqueroso o repugnante.",
+      "proposedNew": "asqueroso",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0020"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0028",
+      "module": "C1",
+      "cardId": "c1-Gartenerdbeere-62",
+      "field": "lv",
+      "current": "fresa de jardin",
+      "pairedGermanText": "Gartenerdbeere",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "“Jardín” lleva tilde en español.",
+      "proposedNew": "fresa de jardín",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0021"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0029",
+      "module": "C1",
+      "cardId": "c1-Gepäckträger-70",
+      "field": "lv",
+      "current": "trompa",
+      "pairedGermanText": "Gepäckträger",
+      "category": "TRANSLATION",
+      "severity": "KRITISKA",
+      "explanation": "“Trompa” significa hocico o probóscide; no traduce a la persona que transporta equipaje.",
+      "proposedNew": "maletero",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0022"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0030",
+      "module": "C1",
+      "cardId": "c1-geschäftlich-71",
+      "field": "lv",
+      "current": "transacción",
+      "pairedGermanText": "geschäftlich",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "explanation": "El alemán es un adjetivo; “transacción” es un sustantivo y no expresa el significado adjetival.",
+      "proposedNew": "comercial",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0023"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0031",
+      "module": "C1",
+      "cardId": "c1-Geschäftsmann-72",
+      "field": "lv",
+      "current": "emprendedor",
+      "pairedGermanText": "Geschäftsmann",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "“Emprendedor” implica iniciar proyectos; “Geschäftsmann” significa hombre de negocios.",
+      "proposedNew": "hombre de negocios",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0024"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0032",
+      "module": "C1",
+      "cardId": "c1-geschmacklos-74",
+      "field": "lv",
+      "current": "insípido",
+      "pairedGermanText": "geschmacklos",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "En este contexto significa sin gusto o vulgar, no simplemente insípido en sentido culinario.",
+      "proposedNew": "de mal gusto",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0025"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0033",
+      "module": "C1",
+      "cardId": "c1-Gesichtspunkt-77",
+      "field": "lv",
+      "current": "opinión",
+      "pairedGermanText": "Gesichtspunkt",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "“Gesichtspunkt” significa punto de vista o aspecto, no una opinión.",
+      "proposedNew": "punto de vista",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0026"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0034",
+      "module": "C1",
+      "cardId": "c1-Hausangestellte-81",
+      "field": "lv",
+      "current": "un ama de llaves",
+      "pairedGermanText": "Hausangestellte",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "La traducción actual es más específica y además usa el artículo masculino; el alemán designa a una empleada doméstica.",
+      "proposedNew": "empleada doméstica",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0027"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0035",
+      "module": "C1",
+      "cardId": "c1-hinaufklettern-82",
+      "field": "lv",
+      "current": "subir",
+      "pairedGermanText": "hinaufklettern",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "“Subir” omite la idea de escalar o trepar que expresa “klettern”.",
+      "proposedNew": "trepar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0028"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0036",
+      "module": "C1",
+      "cardId": "c1-Hochzeitsbrauch-84",
+      "field": "lv",
+      "current": "boda personalizada",
+      "pairedGermanText": "Hochzeitsbrauch",
+      "category": "TRANSLATION",
+      "severity": "KRITISKA",
+      "explanation": "“Boda personalizada” significa una boda adaptada; el alemán significa costumbre o tradición nupcial.",
+      "proposedNew": "costumbre nupcial",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0029"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0037",
+      "module": "C1",
+      "cardId": "c1-Tasteninstrument-90",
+      "field": "lv",
+      "current": "teclado",
+      "pairedGermanText": "Tasteninstrument",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "“Teclado” suele referirse al instrumento electrónico; el alemán incluye piano, órgano y otros instrumentos de teclado.",
+      "proposedNew": "instrumento de teclado",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0030"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0038",
+      "module": "C1",
+      "cardId": "c1-Krankheitsbild-101",
+      "field": "lv",
+      "current": "escena de la enfermedad",
+      "pairedGermanText": "Krankheitsbild",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Krankheitsbild» significa cuadro clínico o conjunto de síntomas, no una escena de la enfermedad.",
+      "proposedNew": "cuadro clínico",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0031"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0039",
+      "module": "C1",
+      "cardId": "c1-Lastkraftwagen-102",
+      "field": "lv",
+      "current": "carro pesado",
+      "pairedGermanText": "Lastkraftwagen",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Lastkraftwagen» significa camión; «carro pesado» no es la denominación española habitual.",
+      "proposedNew": "camión",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0032"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0040",
+      "module": "C1",
+      "cardId": "c1-Morgengymnastik-112",
+      "field": "lv",
+      "current": "amanecer",
+      "pairedGermanText": "Morgengymnastik",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Morgengymnastik» significa gimnasia matutina; «amanecer» corresponde a Morgendämmerung.",
+      "proposedNew": "gimnasia matutina",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0033"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0041",
+      "module": "C1",
+      "cardId": "c1-Polizeieinheit-121",
+      "field": "lv",
+      "current": "unidad de policia",
+      "pairedGermanText": "Polizeieinheit",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "Falta la tilde obligatoria en «policía».",
+      "proposedNew": "unidad de policía",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0034"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0042",
+      "module": "C1",
+      "cardId": "c1-Premier-125",
+      "field": "lv",
+      "current": "Primer ministro",
+      "pairedGermanText": "Premier",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "El nombre común debe escribirse en minúscula en una entrada léxica aislada.",
+      "proposedNew": "primer ministro",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0035"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0043",
+      "module": "C1",
+      "cardId": "c1-Scheibenwischer-136",
+      "field": "lv",
+      "current": "limpiador de ventanas de coche",
+      "pairedGermanText": "Scheibenwischer",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Scheibenwischer» es el limpiaparabrisas, no un limpiador de ventanas del coche.",
+      "proposedNew": "limpiaparabrisas",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0036"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0044",
+      "module": "C1",
+      "cardId": "c1-Schiedsrichter-137",
+      "field": "lv",
+      "current": "el juez",
+      "pairedGermanText": "Schiedsrichter",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "En contexto deportivo, «Schiedsrichter» significa árbitro; «juez» tiene otro significado principal.",
+      "proposedNew": "árbitro",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0037"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0045",
+      "module": "C1",
+      "cardId": "c1-Schutzumschlag-142",
+      "field": "lv",
+      "current": "cubrir",
+      "pairedGermanText": "Schutzumschlag",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Schutzumschlag» es la sobrecubierta o cubierta protectora de un libro; «cubrir» es un verbo.",
+      "proposedNew": "sobrecubierta",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0038"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0046",
+      "module": "C1",
+      "cardId": "c1-Schwiegereltern-143",
+      "field": "lv",
+      "current": "los padres del marido",
+      "pairedGermanText": "Schwiegereltern",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Schwiegereltern» se refiere a los padres del cónyuge, no exclusivamente a los del marido.",
+      "proposedNew": "suegros",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0039"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0047",
+      "module": "C1",
+      "cardId": "c1-Stadtrundfahrt-149",
+      "field": "lv",
+      "current": "viaje a la ciudad",
+      "pairedGermanText": "Stadtrundfahrt",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Stadtrundfahrt» es un recorrido turístico por la ciudad, no un viaje hacia la ciudad.",
+      "proposedNew": "visita turística por la ciudad",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0040"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0048",
+      "module": "C1",
+      "cardId": "c1-Strampelhöschen-153",
+      "field": "lv",
+      "current": "gateador de bebé",
+      "pairedGermanText": "Strampelhöschen",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Strampelhöschen» es una prenda de bebé, un pelele; «gateador» designa a un bebé que gatea.",
+      "proposedNew": "pelele de bebé",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0041"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0049",
+      "module": "C1",
+      "cardId": "c1-Stromverbrauch-154",
+      "field": "lv",
+      "current": "consumo actual",
+      "pairedGermanText": "Stromverbrauch",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "“Consumo actual” significa consumo presente o vigente, no consumo de electricidad.",
+      "proposedNew": "consumo de electricidad",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0042"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0050",
+      "module": "C1",
+      "cardId": "c1-Tagesnachrichten-155",
+      "field": "lv",
+      "current": "noticias del dia",
+      "pairedGermanText": "Tagesnachrichten",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "Falta la tilde obligatoria en “día”.",
+      "proposedNew": "noticias del día",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0043"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0051",
+      "module": "C1",
+      "cardId": "c1-Terminkalender-157",
+      "field": "lv",
+      "current": "calendario de notas",
+      "pairedGermanText": "Terminkalender",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "Un Terminkalender registra citas y compromisos, no notas generales.",
+      "proposedNew": "calendario de citas",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0044"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0052",
+      "module": "C1",
+      "cardId": "c1-Unternehmen-162",
+      "field": "lv",
+      "current": "empresa • evento",
+      "pairedGermanText": "Unternehmen",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "“Evento” traduce Veranstaltung, no Unternehmen; introduce un significado ajeno.",
+      "proposedNew": "empresa",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0045"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0053",
+      "module": "C1",
+      "cardId": "c1-Urteil-166",
+      "field": "lv",
+      "current": "juicio",
+      "pairedGermanText": "Urteil",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "En sentido jurídico, Urteil es una sentencia o fallo; “juicio” suele ser el proceso.",
+      "proposedNew": "sentencia",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0046"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0054",
+      "module": "C1",
+      "cardId": "c1-Verlegenheit-173",
+      "field": "lv",
+      "current": "confusión",
+      "pairedGermanText": "Verlegenheit",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "Verlegenheit expresa embarazo, apuro o incomodidad; “confusión” significa desconcierto.",
+      "proposedNew": "situación embarazosa",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0047"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0055",
+      "module": "C1",
+      "cardId": "c1-verschließen-174",
+      "field": "lv",
+      "current": "bloquear",
+      "pairedGermanText": "verschließen",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "“Bloquear” puede significar obstruir; verschließen aquí es cerrar o asegurar algo.",
+      "proposedNew": "cerrar con llave",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0048"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0056",
+      "module": "C1",
+      "cardId": "c1-sich verständigen-178",
+      "field": "lv",
+      "current": "llevarse bien",
+      "pairedGermanText": "sich verständigen",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "“Llevarse bien” significa tener buena relación; sich verständigen significa comunicarse o entenderse.",
+      "proposedNew": "entenderse",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0049"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0057",
+      "module": "C1",
+      "cardId": "c1-sich zufrieden geben-185",
+      "field": "lv",
+      "current": "satisfacer",
+      "pairedGermanText": "sich zufrieden geben",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "“Satisfacer” significa complacer o cumplir una necesidad; la expresión alemana es contentarse.",
+      "proposedNew": "darse por satisfecho",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0050"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0058",
+      "module": "C1",
+      "cardId": "c1-Straßenkreuzung-193",
+      "field": "lv",
+      "current": "bocacalle",
+      "pairedGermanText": "Straßenkreuzung",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "“Bocacalle” es una calle secundaria o callejón, no un cruce de calles.",
+      "proposedNew": "intersección de calles",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0051"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0059",
+      "module": "C1",
+      "cardId": "c1-Abkommen-198",
+      "field": "lv",
+      "current": "acuerdo • acuerdo",
+      "pairedGermanText": "Abkommen",
+      "category": "STUDY_STRUCTURE",
+      "severity": "ZEMA",
+      "explanation": "La segunda alternativa duplica exactamente la primera y no aporta una distinción útil.",
+      "proposedNew": "acuerdo",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0052"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0060",
+      "module": "C1",
+      "cardId": "c1-Abschleppdienst-199",
+      "field": "lv",
+      "current": "servicio de evacuación • servicio de mudanza",
+      "pairedGermanText": "Abschleppdienst",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Abschleppdienst es un servicio de grúa; evacuación y mudanza tienen otros significados.",
+      "proposedNew": "servicio de grúa",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0053"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0061",
+      "module": "C1",
+      "cardId": "c1-Basisforschung-206",
+      "field": "lv",
+      "current": "investigacion basica",
+      "pairedGermanText": "Basisforschung",
+      "category": "ORTHOGRAPHY",
+      "severity": "VIDĒJA",
+      "explanation": "Falta la tilde obligatoria en «investigación».",
+      "proposedNew": "investigación básica",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0054"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0062",
+      "module": "C1",
+      "cardId": "c1-beachtenswert-207",
+      "field": "lv",
+      "current": "notable • considerable",
+      "pairedGermanText": "beachtenswert",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Considerable» significa de gran importancia o cantidad, no necesariamente digno de atención.",
+      "proposedNew": "notable",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0055"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0063",
+      "module": "C1",
+      "cardId": "c1-beanspruchen-208",
+      "field": "lv",
+      "current": "requerir • reclamar • estar agobiado",
+      "pairedGermanText": "beanspruchen",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Estar agobiado» expresa angustia; para este verbo corresponde mejor «estar ocupado» o «sobrecargado».",
+      "proposedNew": "requerir • reclamar • estar ocupado",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0056"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0064",
+      "module": "C1",
+      "cardId": "c1-Bedarfsartikel-209",
+      "field": "lv",
+      "current": "bienes de consumo",
+      "pairedGermanText": "Bedarfsartikel",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "El alemán designa artículos necesarios o de uso cotidiano, no bienes de consumo en general.",
+      "proposedNew": "artículos de primera necesidad",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0057"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0065",
+      "module": "C1",
+      "cardId": "c1-Befangenheit-211",
+      "field": "lv",
+      "current": "vergüenza • vergüenza",
+      "pairedGermanText": "Befangenheit",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Befangenheit» alude a turbación o incomodidad, no específicamente a vergüenza.",
+      "proposedNew": "turbación • embarazo",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0058"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0066",
+      "module": "C1",
+      "cardId": "c1-beglückwünschen-213",
+      "field": "lv",
+      "current": "desear felicidad • felicitar",
+      "pairedGermanText": "beglückwünschen",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "explanation": "«Desear felicidad» es una traducción literal poco natural; «felicitar» es la equivalencia usual.",
+      "proposedNew": "felicitar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0059"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0067",
+      "module": "C1",
+      "cardId": "c1-beiderseitig-214",
+      "field": "lv",
+      "current": "dos caras • dos caras",
+      "pairedGermanText": "beiderseitig",
+      "category": "SEMANTICS",
+      "severity": "KRITISKA",
+      "explanation": "«Dos caras» significa de doble faz o hipócrita; «beiderseitig» significa bilateral o de ambas partes.",
+      "proposedNew": "bilateral • mutuo",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0060"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0068",
+      "module": "C1",
+      "cardId": "c1-beklagen-217",
+      "field": "lv",
+      "current": "arrepentirse · afligirse · llorar · lamentarse · quejarse",
+      "pairedGermanText": "beklagen",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Arrepentirse» no equivale a lamentar; «llorar» solo expresa llorar, no necesariamente lamentar una pérdida.",
+      "proposedNew": "lamentar • afligirse • llorar la pérdida de alguien • lamentarse • quejarse",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0061"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0069",
+      "module": "C1",
+      "cardId": "c1-Belegschaft-219",
+      "field": "lv",
+      "current": "colectivo • personal",
+      "pairedGermanText": "Belegschaft",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Colectivo» es demasiado general; «Belegschaft» se refiere a la plantilla o conjunto de empleados.",
+      "proposedNew": "plantilla • personal",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0062"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0070",
+      "module": "C1",
+      "cardId": "c1-benachteiligen-220",
+      "field": "lv",
+      "current": "dañar • causar daño • dañar",
+      "pairedGermanText": "benachteiligen",
+      "category": "SEMANTICS",
+      "severity": "KRITISKA",
+      "explanation": "El verbo significa poner en desventaja o discriminar, no simplemente causar daño.",
+      "proposedNew": "perjudicar • discriminar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0063"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0071",
+      "module": "C1",
+      "cardId": "c1-Berufsberater-221",
+      "field": "lv",
+      "current": "consultor de empleo",
+      "pairedGermanText": "Berufsberater",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Berufsberater» orienta sobre profesiones y carreras; «consultor de empleo» se centra en conseguir trabajo.",
+      "proposedNew": "orientador profesional",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0064"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0072",
+      "module": "C1",
+      "cardId": "c1-beratschlagen-222",
+      "field": "lv",
+      "current": "conversar",
+      "pairedGermanText": "beratschlagen",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "El verbo significa deliberar o consultar conjuntamente, no conversar en general.",
+      "proposedNew": "deliberar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0065"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0073",
+      "module": "C1",
+      "cardId": "c1-bereitwillig-224",
+      "field": "lv",
+      "current": "listo para servir • servicial",
+      "pairedGermanText": "bereitwillig",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Listo para servir» es literal y poco natural; el adjetivo significa dispuesto o solícito.",
+      "proposedNew": "dispuesto • solícito",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0066"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0074",
+      "module": "C1",
+      "cardId": "c1-Berufsberatung-225",
+      "field": "lv",
+      "current": "consulta de orientacion profesional",
+      "pairedGermanText": "Berufsberatung",
+      "category": "ORTHOGRAPHY",
+      "severity": "VIDĒJA",
+      "explanation": "Falta la tilde obligatoria en «orientación».",
+      "proposedNew": "consulta de orientación profesional",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0067"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0075",
+      "module": "C1",
+      "cardId": "c1-Berufsgeheimnis-226",
+      "field": "lv",
+      "current": "secreto de oficina",
+      "pairedGermanText": "Berufsgeheimnis",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "El término se refiere al secreto profesional, no a un secreto de oficina.",
+      "proposedNew": "secreto profesional",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0068"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0076",
+      "module": "C1",
+      "cardId": "c1-Berufung-227",
+      "field": "lv",
+      "current": "llamamiento • inclinación • atractivo",
+      "pairedGermanText": "Berufung",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "En el sentido jurídico, «Berufung» es un recurso o apelación, no «atractivo».",
+      "proposedNew": "vocación • inclinación • recurso",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0069"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0077",
+      "module": "C1",
+      "cardId": "c1-bescheinigen-230",
+      "field": "lv",
+      "current": "certificar • emitir un certificado",
+      "pairedGermanText": "bescheinigen",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "El verbo significa certificar o atestiguar; emitir un certificado describe otra acción.",
+      "proposedNew": "certificar • atestiguar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0070"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0078",
+      "module": "C1",
+      "cardId": "c1-Bescheinigung-231",
+      "field": "lv",
+      "current": "referencia • certificado • atestación • atestación",
+      "pairedGermanText": "Bescheinigung",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Referencia» no corresponde a este documento; además, «atestación» está duplicado.",
+      "proposedNew": "constancia • certificado • atestación",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0071"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0079",
+      "module": "C1",
+      "cardId": "c1-beschlagnahmen-232",
+      "field": "lv",
+      "current": "confiscar • confiscar • expropiar",
+      "pairedGermanText": "beschlagnahmen",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Expropiar» es adquirir forzosamente una propiedad, no incautarla o embargarla.",
+      "proposedNew": "embargar • confiscar • incautar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0072"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0080",
+      "module": "C1",
+      "cardId": "c1-beschuldigen-233",
+      "field": "lv",
+      "current": "acusar • insultar",
+      "pairedGermanText": "beschuldigen",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Insultar» significa ofender verbalmente, mientras que «beschuldigen» significa acusar o inculpar.",
+      "proposedNew": "acusar • inculpar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0073"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0081",
+      "module": "C1",
+      "cardId": "c1-Betriebskosten-236",
+      "field": "lv",
+      "current": "gastos de funcionamiento de la empresa • gastos de producción",
+      "pairedGermanText": "Betriebskosten",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Gastos de producción» es más específico; el término designa los costes generales de funcionamiento.",
+      "proposedNew": "gastos de funcionamiento • costes operativos",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0074"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0082",
+      "module": "C1",
+      "cardId": "c1-Betriebssystem-237",
+      "field": "lv",
+      "current": "sistema de instalación de computadora",
+      "pairedGermanText": "Betriebssystem",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "explanation": "La expresión actual es una traducción literal incorrecta; el término informático es «sistema operativo».",
+      "proposedNew": "sistema operativo",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0075"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0083",
+      "module": "C1",
+      "cardId": "c1-bevorstehend-239",
+      "field": "lv",
+      "current": "próximo • siguiente",
+      "pairedGermanText": "bevorstehend",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Siguiente» indica orden posterior, no algo que está próximo o a punto de ocurrir.",
+      "proposedNew": "inminente • próximo",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0076"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0084",
+      "module": "C1",
+      "cardId": "c1-bewähren, sich-240",
+      "field": "lv",
+      "current": "resulta ser cierto • justificar",
+      "pairedGermanText": "bewähren, sich",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Bewähren» significa demostrar que funciona o superar una prueba, no resultar verdadero ni justificar.",
+      "proposedNew": "demostrar su eficacia • dar buenos resultados",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0077"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0085",
+      "module": "C1",
+      "cardId": "c1-Beweismaterial-241",
+      "field": "lv",
+      "current": "evidencia física",
+      "pairedGermanText": "Beweismaterial",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Beweismaterial» es material probatorio en general; no tiene que ser necesariamente evidencia física.",
+      "proposedNew": "material probatorio",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0078"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0086",
+      "module": "C1",
+      "cardId": "c1-bewerben, sich-242",
+      "field": "lv",
+      "current": "aplicar • correr • esforzarse • aspirar",
+      "pairedGermanText": "bewerben, sich",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Correr» y «esforzarse» no significan solicitar un puesto; «aplicar» es un calco frecuente en este sentido.",
+      "proposedNew": "postularse • presentar una candidatura",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0079"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0087",
+      "module": "C1",
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "current": "contacto • persona más cercana",
+      "pairedGermanText": "Bezugsperson",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Contacto» es un sustantivo demasiado general; el alemán designa a una persona de referencia o cercana.",
+      "proposedNew": "persona de referencia • persona cercana",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0080"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0088",
+      "module": "C1",
+      "cardId": "c1-Bundesdeutsche-250",
+      "field": "lv",
+      "current": "ciudadano FFR",
+      "pairedGermanText": "Bundesdeutsche",
+      "category": "TRANSLATION",
+      "severity": "KRITISKA",
+      "explanation": "«FFR» no es la abreviatura española de República Federal de Alemania; corresponde «RFA».",
+      "proposedNew": "ciudadano de la RFA",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0081"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0089",
+      "module": "C1",
+      "cardId": "c1-dauerhaft-255",
+      "field": "lv",
+      "current": "duradero • largo • duradero",
+      "pairedGermanText": "dauerhaft",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Largo» indica longitud o duración, pero no expresa por sí solo permanencia o durabilidad.",
+      "proposedNew": "duradero • permanente • resistente",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0082"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0090",
+      "module": "C1",
+      "cardId": "c1-dazwischenkommen-256",
+      "field": "lv",
+      "current": "suceder • suceder entre • intervenir",
+      "pairedGermanText": "dazwischenkommen",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "La tarjeta mezcla varios sentidos; debe presentar un significado español principal y claro.",
+      "proposedNew": "interponerse",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0083"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0091",
+      "module": "C1",
+      "cardId": "c1-Eigentumsdelikt-260",
+      "field": "lv",
+      "current": "violación de los derechos de propiedad",
+      "pairedGermanText": "Eigentumsdelikt",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "El alemán designa un delito contra la propiedad, no específicamente una violación de derechos de propiedad.",
+      "proposedNew": "delito contra la propiedad",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0084"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0092",
+      "module": "C1",
+      "cardId": "c1-Verkehrsdelikt-261",
+      "field": "lv",
+      "current": "violación de las reglas de tráfico",
+      "pairedGermanText": "Verkehrsdelikt",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "Verkehrsdelikt significa delito o infracción de tráfico; la versión actual enfatiza solo las reglas violadas.",
+      "proposedNew": "delito de tráfico",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0085"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0093",
+      "module": "C1",
+      "cardId": "c1-dementsprechend-262",
+      "field": "lv",
+      "current": "respectivamente",
+      "pairedGermanText": "dementsprechend",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "Respectivamente expresa correspondencia entre elementos, no la consecuencia indicada por dementsprechend.",
+      "proposedNew": "en consecuencia",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0086"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0094",
+      "module": "C1",
+      "cardId": "c1-dessen ungeachtet-263",
+      "field": "lv",
+      "current": "a pesar de ello • a pesar de ello",
+      "pairedGermanText": "dessen ungeachtet",
+      "category": "STUDY_STRUCTURE",
+      "severity": "ZEMA",
+      "explanation": "La entrada repite exactamente la misma traducción y no aporta un segundo significado.",
+      "proposedNew": "a pesar de ello",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0087"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0095",
+      "module": "C1",
+      "cardId": "c1-Nachrichtendienst-264",
+      "field": "lv",
+      "current": "servicio secreto de estado",
+      "pairedGermanText": "Nachrichtendienst",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "Nachrichtendienst suele significar servicio de inteligencia; servicio secreto es una especificación más estrecha.",
+      "proposedNew": "servicio de inteligencia",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0088"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0096",
+      "module": "C1",
+      "cardId": "c1-Dienstleistung-266",
+      "field": "lv",
+      "current": "servicio domestico",
+      "pairedGermanText": "Dienstleistung",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Dienstleistung significa servicio o prestación de servicios en general, no servicio doméstico.",
+      "proposedNew": "servicio",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0089"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0097",
+      "module": "C1",
+      "cardId": "c1-Durchfuhrverbot-275",
+      "field": "lv",
+      "current": "prohibición de paso",
+      "pairedGermanText": "Durchfuhrverbot",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "Durchfuhr se refiere al tránsito o transporte a través de un territorio, no al paso en sentido general.",
+      "proposedNew": "prohibición de tránsito",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0090"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0098",
+      "module": "C1",
+      "cardId": "c1-Durchgangsverkehr-276",
+      "field": "lv",
+      "current": "tráfico de tránsito",
+      "pairedGermanText": "Durchgangsverkehr",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "Tráfico de tránsito resulta redundante y poco natural; tráfico de paso expresa el concepto habitual.",
+      "proposedNew": "tráfico de paso",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0091"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0099",
+      "module": "C1",
+      "cardId": "c1-Einflusssphäre-278",
+      "field": "lv",
+      "current": "esfera de influencia",
+      "pairedGermanText": "Einflusssphäre",
+      "category": "ORTHOGRAPHY",
+      "severity": "VIDĒJA",
+      "explanation": "La traducción es correcta, pero falta la tilde obligatoria en esfera.",
+      "proposedNew": "esfera de influencia",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0092"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0100",
+      "module": "C1",
+      "cardId": "c1-eingeschrieben-279",
+      "field": "lv",
+      "current": "grabado • registrado",
+      "pairedGermanText": "eingeschrieben",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Grabado significa registrado como audio o imagen; eingeschrieben aquí significa inscrito o registrado.",
+      "proposedNew": "inscrito",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0093"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0101",
+      "module": "C1",
+      "cardId": "c1-Währungseinheit-280",
+      "field": "lv",
+      "current": "unidad de dinero",
+      "pairedGermanText": "Währungseinheit",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "Unidad monetaria es la expresión española establecida para una unidad de moneda.",
+      "proposedNew": "unidad monetaria",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0094"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0102",
+      "module": "C1",
+      "cardId": "c1-Einlage-282",
+      "field": "lv",
+      "current": "contribución • depósito • adjunto a la carta",
+      "pairedGermanText": "Einlage",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "La entrada reúne varios sentidos no relacionados; debe ofrecer un significado principal claro para el estudio.",
+      "proposedNew": "depósito",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0095"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0103",
+      "module": "C1",
+      "cardId": "c1-einreden-283",
+      "field": "lv",
+      "current": "decir • insistir • tratar de persuadir",
+      "pairedGermanText": "einreden",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "La tarjeta mezcla traducciones y decir no equivale al verbo alemán; conviene fijar un sentido principal.",
+      "proposedNew": "persuadir",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0096"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0104",
+      "module": "C1",
+      "cardId": "c1-sich einschmeicheln-284",
+      "field": "lv",
+      "current": "adular • adular",
+      "pairedGermanText": "sich einschmeicheln",
+      "category": "STUDY_STRUCTURE",
+      "severity": "ZEMA",
+      "explanation": "La traducción aparece duplicada; debe conservarse una sola formulación.",
+      "proposedNew": "adular",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0097"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0105",
+      "module": "C1",
+      "cardId": "c1-Einspruchsrecht-286",
+      "field": "lv",
+      "current": "derecho de protesta • derecho de veto",
+      "pairedGermanText": "Einspruchsrecht",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "La entrada mezcla dos conceptos jurídicos distintos; debe presentar un significado principal claro.",
+      "proposedNew": "derecho de objeción",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0098"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0106",
+      "module": "C1",
+      "cardId": "c1-Einstandsgebühr-287",
+      "field": "lv",
+      "current": "tarifa de entrada",
+      "pairedGermanText": "Einstandsgebühr",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "Cuota de ingreso expresa de forma más natural la tasa pagada al incorporarse a una organización.",
+      "proposedNew": "cuota de ingreso",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0099"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0107",
+      "module": "C1",
+      "cardId": "c1-Einverständnis-288",
+      "field": "lv",
+      "current": "comprensión • consenso • consentimiento",
+      "pairedGermanText": "Einverständnis",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "La tarjeta mezcla comprensión, consenso y consentimiento; son conceptos distintos y debe elegirse un significado principal.",
+      "proposedNew": "consentimiento",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0100"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0108",
+      "module": "C1",
+      "cardId": "c1-Eisenbahnunglück-289",
+      "field": "lv",
+      "current": "desastre ferroviario",
+      "pairedGermanText": "Eisenbahnunglück",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "Unglück significa accidente o desgracia; desastre implica una gravedad mayor que no exige el alemán.",
+      "proposedNew": "accidente ferroviario",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0101"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0109",
+      "module": "C1",
+      "cardId": "c1-Elementarregel-293",
+      "field": "lv",
+      "current": "ley basica",
+      "pairedGermanText": "Elementarregel",
+      "category": "ORTHOGRAPHY",
+      "severity": "VIDĒJA",
+      "explanation": "Básica lleva tilde por ser palabra llana terminada en vocal.",
+      "proposedNew": "ley básica",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0102"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0110",
+      "module": "C1",
+      "cardId": "c1-entgegensetzen-296",
+      "field": "lv",
+      "current": "frente a • frente a",
+      "pairedGermanText": "entgegensetzen",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "explanation": "Frente a es una locución preposicional, no una traducción verbal de entgegensetzen; además aparece duplicada.",
+      "proposedNew": "oponer",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0103"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0111",
+      "module": "C1",
+      "cardId": "c1-sich entgegensetzen-297",
+      "field": "lv",
+      "current": "resistir",
+      "pairedGermanText": "sich entgegensetzen",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "El verbo reflexivo significa oponerse a algo; resistir no reproduce exactamente la construcción ni el sentido.",
+      "proposedNew": "oponerse",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0104"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0112",
+      "module": "C1",
+      "cardId": "c1-sich entschließen-299",
+      "field": "lv",
+      "current": "decidir • decidir",
+      "pairedGermanText": "sich entschließen",
+      "category": "STUDY_STRUCTURE",
+      "severity": "ZEMA",
+      "explanation": "La traducción está duplicada y no refleja la construcción pronominal del verbo alemán.",
+      "proposedNew": "decidirse",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0105"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0113",
+      "module": "C1",
+      "cardId": "c1-entschlossen-300",
+      "field": "lv",
+      "current": "decidido • decidido • inquebrantable",
+      "pairedGermanText": "entschlossen",
+      "category": "STUDY_STRUCTURE",
+      "severity": "ZEMA",
+      "explanation": "La entrada repite decidido y mezcla sentidos; debe conservar un único equivalente principal.",
+      "proposedNew": "decidido",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0106"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0114",
+      "module": "C1",
+      "cardId": "c1-Gesetzentwurf-302",
+      "field": "lv",
+      "current": "factura",
+      "pairedGermanText": "Gesetzentwurf",
+      "category": "TRANSLATION",
+      "severity": "KRITISKA",
+      "explanation": "Gesetzentwurf significa proyecto de ley; factura es un documento comercial y cambia completamente el significado.",
+      "proposedNew": "proyecto de ley",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0107"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0115",
+      "module": "C1",
+      "cardId": "c1-Erbkrankheit-304",
+      "field": "lv",
+      "current": "enfermedad congénita",
+      "pairedGermanText": "Erbkrankheit",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "Erbkrankheit significa enfermedad hereditaria; congénita describe la presencia al nacer, no necesariamente la herencia.",
+      "proposedNew": "enfermedad hereditaria",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0108"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0116",
+      "module": "C1",
+      "cardId": "c1-festgesetzt-309",
+      "field": "lv",
+      "current": "determinado • condicional • establecido",
+      "pairedGermanText": "festgesetzt",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Condicional» significa conditional y no corresponde a «festgesetzt»; las otras dos opciones son adecuadas.",
+      "proposedNew": "determinado • establecido",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0109"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0117",
+      "module": "C1",
+      "cardId": "c1-feuergefährlich-310",
+      "field": "lv",
+      "current": "incombustible",
+      "pairedGermanText": "feuergefährlich",
+      "category": "SEMANTICS",
+      "severity": "KRITISKA",
+      "explanation": "«Incombustible» significa que no arde, exactamente lo contrario de «feuergefährlich».",
+      "proposedNew": "inflamable",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0110"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0118",
+      "module": "C1",
+      "cardId": "c1-Feuerwerkskörper-312",
+      "field": "lv",
+      "current": "cohete para fuegos artificiales",
+      "pairedGermanText": "Feuerwerkskörper",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "El alemán designa un artificio pirotécnico en general, no específicamente un cohete.",
+      "proposedNew": "artificio pirotécnico",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0111"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0119",
+      "module": "C1",
+      "cardId": "c1-fortgeschritten-316",
+      "field": "lv",
+      "current": "relativamente tarde en el desarrollo",
+      "pairedGermanText": "fortgeschritten",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Fortgeschritten» significa avanzado; «relativamente tarde» describe un momento, no el grado de desarrollo.",
+      "proposedNew": "avanzado",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0112"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0120",
+      "module": "C1",
+      "cardId": "c1-fortschrittlich-317",
+      "field": "lv",
+      "current": "progresivo",
+      "pairedGermanText": "fortschrittlich",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Fortschrittlich» suele significar progresista o avanzado; «progresivo» no expresa bien esta orientación.",
+      "proposedNew": "progresista",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0113"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0121",
+      "module": "C1",
+      "cardId": "c1-Friedensangebot-319",
+      "field": "lv",
+      "current": "una ofrenda de paz",
+      "pairedGermanText": "Friedensangebot",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "En contexto político, «oferta de paz» es la expresión idiomática; «ofrenda» sugiere un acto ritual.",
+      "proposedNew": "oferta de paz",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0114"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0122",
+      "module": "C1",
+      "cardId": "c1-Führunternehmen-322",
+      "field": "lv",
+      "current": "empresa de transporte de mercancias",
+      "pairedGermanText": "Führunternehmen",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "Falta la tilde en «mercancías».",
+      "proposedNew": "empresa de transporte de mercancías",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0115"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0123",
+      "module": "C1",
+      "cardId": "c1-soziale Fürsorge-323",
+      "field": "lv",
+      "current": "seguridad social",
+      "pairedGermanText": "soziale Fürsorge",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Soziale Fürsorge» es asistencia o protección social, no el sistema de seguridad social.",
+      "proposedNew": "asistencia social",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0116"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0124",
+      "module": "C1",
+      "cardId": "c1-Auffassungsgabe-324",
+      "field": "lv",
+      "current": "capacidad perceptiva",
+      "pairedGermanText": "Auffassungsgabe",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "El término alude a la capacidad de comprender o captar rápidamente, no solo a percibir.",
+      "proposedNew": "capacidad de comprensión",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0117"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0125",
+      "module": "C1",
+      "cardId": "c1-Gefrierpunkt-330",
+      "field": "lv",
+      "current": "punto de congelación • punto cero",
+      "pairedGermanText": "Gefrierpunkt",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "«Punto cero» es otro concepto y añade un significado no expresado por «Gefrierpunkt».",
+      "proposedNew": "punto de congelación",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0118"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0126",
+      "module": "C1",
+      "cardId": "c1-Beichtgeheimnis-332",
+      "field": "lv",
+      "current": "un secreto confesado",
+      "pairedGermanText": "Beichtgeheimnis",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "Es el secreto protegido por la confesión, no un secreto que ha sido confesado.",
+      "proposedNew": "secreto de confesión",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0119"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0127",
+      "module": "C1",
+      "cardId": "c1-Geisterstunde-334",
+      "field": "lv",
+      "current": "hora fantasma",
+      "pairedGermanText": "Geisterstunde",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Hora fantasma» resulta poco idiomático; «hora de los fantasmas» conserva el significado literal.",
+      "proposedNew": "hora de los fantasmas",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0120"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0128",
+      "module": "C1",
+      "cardId": "c1-geisteskrank-336",
+      "field": "lv",
+      "current": "enfermo mental",
+      "pairedGermanText": "geisteskrank",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "explanation": "«Enfermo mental» funciona principalmente como sustantivo; el alemán es un adjetivo.",
+      "proposedNew": "mentalmente enfermo",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0121"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0129",
+      "module": "C1",
+      "cardId": "c1-geistesschwach-337",
+      "field": "lv",
+      "current": "débil de espíritu • obstinado",
+      "pairedGermanText": "geistesschwach",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Obstinado» significa terco y no corresponde a «geistesschwach», que alude a debilidad intelectual.",
+      "proposedNew": "débil mental • de pocas luces",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0122"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0130",
+      "module": "C1",
+      "cardId": "c1-Geländefahrt-338",
+      "field": "lv",
+      "current": "viaje a través del país",
+      "pairedGermanText": "Geländefahrt",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "El compuesto se refiere a un recorrido por terreno no asfaltado o accidentado, no a un viaje a través del país.",
+      "proposedNew": "viaje todoterreno",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0123"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0131",
+      "module": "C1",
+      "cardId": "c1-Gemeineigentum-343",
+      "field": "lv",
+      "current": "propiedad publica",
+      "pairedGermanText": "Gemeineigentum",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "Falta la tilde en «pública».",
+      "proposedNew": "propiedad pública",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0124"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0132",
+      "module": "C1",
+      "cardId": "c1-Gemütsmensch-344",
+      "field": "lv",
+      "current": "persona amable y amable",
+      "pairedGermanText": "Gemütsmensch",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "La repetición de «amable» es defectuosa; el término describe a alguien amable y de buen corazón.",
+      "proposedNew": "persona amable y bondadosa",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0125"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0133",
+      "module": "C1",
+      "cardId": "c1-Gepflogenheit-350",
+      "field": "lv",
+      "current": "personalizado • personalizado",
+      "pairedGermanText": "Gepflogenheit",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Personalizado» significa adaptado a una persona; «Gepflogenheit» significa costumbre o práctica habitual.",
+      "proposedNew": "costumbre • práctica habitual",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0126"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0134",
+      "module": "C1",
+      "cardId": "c1-Schwurgericht-352",
+      "field": "lv",
+      "current": "juicio con jurado",
+      "pairedGermanText": "Schwurgericht",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Schwurgericht» designa el tribunal, mientras que «juicio con jurado» designa el proceso.",
+      "proposedNew": "tribunal del jurado",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0127"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0135",
+      "module": "C1",
+      "cardId": "c1-Gerichtshof-353",
+      "field": "lv",
+      "current": "sala de audiencias • tribunal",
+      "pairedGermanText": "Gerichtshof",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Sala de audiencias» es una habitación, no un tribunal; «tribunal» corresponde al significado alemán.",
+      "proposedNew": "tribunal",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0128"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0136",
+      "module": "C1",
+      "cardId": "c1-Gesamtergebnis-356",
+      "field": "lv",
+      "current": "resultado final • resultado final",
+      "pairedGermanText": "Gesamtergebnis",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Gesamtergebnis» significa resultado global o total; «resultado final» cambia el matiz y además está duplicado.",
+      "proposedNew": "resultado global",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0129"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0137",
+      "module": "C1",
+      "cardId": "c1-Geschäftshaus-358",
+      "field": "lv",
+      "current": "casa comercial",
+      "pairedGermanText": "Geschäftshaus",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "«Casa comercial» suele referirse a una empresa o negocio, no a un edificio destinado al comercio.",
+      "proposedNew": "edificio comercial",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0130"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0138",
+      "module": "C1",
+      "cardId": "c1-Geschäftsjahr-359",
+      "field": "lv",
+      "current": "año de granja",
+      "pairedGermanText": "Geschäftsjahr",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Geschäftsjahr» significa año fiscal o ejercicio contable; «año de granja» es una traducción errónea.",
+      "proposedNew": "ejercicio fiscal",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0131"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0139",
+      "module": "C1",
+      "cardId": "c1-geschlechtsreif-360",
+      "field": "lv",
+      "current": "ha alcanzado la madurez sexual",
+      "pairedGermanText": "geschlechtsreif",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "explanation": "El alemán es un adjetivo; la traducción actual es una oración verbal y no conserva la categoría gramatical.",
+      "proposedNew": "sexualmente maduro",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0132"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0140",
+      "module": "C1",
+      "cardId": "c1-Gesetzbuch-361",
+      "field": "lv",
+      "current": "códice • colección de leyes",
+      "pairedGermanText": "Gesetzbuch",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Códice» suele designar un manuscrito antiguo, no un código jurídico moderno.",
+      "proposedNew": "código • código de leyes",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0133"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0141",
+      "module": "C1",
+      "cardId": "c1-gesetzgebend-362",
+      "field": "lv",
+      "current": "legislador",
+      "pairedGermanText": "gesetzgebend",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Gesetzgebend» es el adjetivo «legislativo»; «legislador» designa a una persona o entidad.",
+      "proposedNew": "legislativo",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0134"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0142",
+      "module": "C1",
+      "cardId": "c1-gesetzlos-363",
+      "field": "lv",
+      "current": "ilegal",
+      "pairedGermanText": "gesetzlos",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Gesetzlos» significa sin ley o fuera del orden legal; «ilegal» significa contrario a la ley.",
+      "proposedNew": "sin ley",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0135"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0143",
+      "module": "C1",
+      "cardId": "c1-gesetzmäßig-364",
+      "field": "lv",
+      "current": "lícito • lícito",
+      "pairedGermanText": "gesetzmäßig",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "Las dos equivalencias son idénticas y se omite el sentido de «conforme a la ley» o «regular según la ley».",
+      "proposedNew": "lícito • conforme a la ley",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0136"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0144",
+      "module": "C1",
+      "cardId": "c1-Gesichtskreis-366",
+      "field": "lv",
+      "current": "horizonte • horizonte",
+      "pairedGermanText": "Gesichtskreis",
+      "category": "STUDY_STRUCTURE",
+      "severity": "ZEMA",
+      "explanation": "La misma traducción aparece dos veces; debe conservarse una distinción útil entre los sentidos del alemán.",
+      "proposedNew": "horizonte • campo de visión",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0137"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0145",
+      "module": "C1",
+      "cardId": "c1-Gewissensbisse-368",
+      "field": "lv",
+      "current": "remordimiento",
+      "pairedGermanText": "Gewissensbisse",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "explanation": "El alemán es plural y expresa específicamente remordimientos de conciencia; el singular actual pierde ambos matices.",
+      "proposedNew": "remordimientos de conciencia",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0138"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0146",
+      "module": "C1",
+      "cardId": "c1-Grenzverletzung-373",
+      "field": "lv",
+      "current": "violación fronteriza",
+      "pairedGermanText": "Grenzverletzung",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "«Violación fronteriza» resulta poco idiomático y ambiguo; «violación de la frontera» expresa claramente el concepto.",
+      "proposedNew": "violación de la frontera",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0139"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0147",
+      "module": "C1",
+      "cardId": "c1-haften-378",
+      "field": "lv",
+      "current": "pegar • estar atascado",
+      "pairedGermanText": "haften",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Haften» significa adherirse o estar pegado; «estar atascado» significa estar obstruido o inmovilizado.",
+      "proposedNew": "adherirse • estar adherido",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0140"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0148",
+      "module": "C1",
+      "cardId": "c1-Haltbarkeitsdauer-380",
+      "field": "lv",
+      "current": "tiempo de almacenamiento",
+      "pairedGermanText": "Haltbarkeitsdauer",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "El término alemán indica el periodo durante el que un producto es apto o se conserva, no simplemente su almacenamiento.",
+      "proposedNew": "duración de conservación",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0141"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0149",
+      "module": "C1",
+      "cardId": "c1-Hausdurchsuchung-384",
+      "field": "lv",
+      "current": "búsqueda policial",
+      "pairedGermanText": "Hausdurchsuchung",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Hausdurchsuchung» es un registro o allanamiento de un domicilio, no una búsqueda policial genérica.",
+      "proposedNew": "registro domiciliario",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0142"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0150",
+      "module": "C1",
+      "cardId": "c1-herunterstürzen-391",
+      "field": "lv",
+      "current": "caer al suelo • caer al suelo",
+      "pairedGermanText": "herunterstürzen",
+      "category": "STUDY_STRUCTURE",
+      "severity": "ZEMA",
+      "explanation": "La traducción está duplicada y no refleja bien el matiz de precipitarse o caer violentamente hacia abajo.",
+      "proposedNew": "precipitarse • caer al suelo",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0143"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0151",
+      "module": "C1",
+      "cardId": "c1-sich hinreißen lassen-392",
+      "field": "lv",
+      "current": "excitarse",
+      "pairedGermanText": "sich hinreißen lassen",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "La expresión significa dejarse llevar por una emoción o impulso; «excitarse» tiene un sentido distinto y más específico.",
+      "proposedNew": "dejarse llevar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0144"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0152",
+      "module": "C1",
+      "cardId": "c1-Industrieanlage-395",
+      "field": "lv",
+      "current": "complejo industrial",
+      "pairedGermanText": "Industrieanlage",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Industrieanlage» designa una instalación o planta industrial; «complejo» implica varias instalaciones y es más específico.",
+      "proposedNew": "instalación industrial",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0145"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0153",
+      "module": "C1",
+      "cardId": "c1-inhaftieren-396",
+      "field": "lv",
+      "current": "arrestar",
+      "pairedGermanText": "inhaftieren",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Inhaftieren» significa encarcelar o poner bajo custodia; «arrestar» se refiere principalmente a detener.",
+      "proposedNew": "encarcelar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0146"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0154",
+      "module": "C1",
+      "cardId": "c1-Justiz-401",
+      "field": "lv",
+      "current": "justicia • casos legales",
+      "pairedGermanText": "Justiz",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Justiz» puede significar justicia o poder judicial; «casos legales» designa asuntos concretos, no la institución.",
+      "proposedNew": "justicia • poder judicial",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0147"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0155",
+      "module": "C1",
+      "cardId": "c1-Kaution-404",
+      "field": "lv",
+      "current": "prenda • fianza • fianza • garantía",
+      "pairedGermanText": "Kaution",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "«Fianza» aparece duplicada y falta una equivalencia clara para el sentido de depósito o cantidad entregada como garantía.",
+      "proposedNew": "prenda • fianza • depósito de garantía • garantía",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0148"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0156",
+      "module": "C1",
+      "cardId": "c1-körperbehindert-406",
+      "field": "lv",
+      "current": "físicamente discapacitado",
+      "pairedGermanText": "körperbehindert",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "«Con discapacidad física» es la formulación española actual, más natural y respetuosa que el adjetivo «discapacitado».",
+      "proposedNew": "con discapacidad física",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0149"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0157",
+      "module": "C1",
+      "cardId": "c1-Krankheitserreger-407",
+      "field": "lv",
+      "current": "agente de la enfermedad",
+      "pairedGermanText": "Krankheitserreger",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "La expresión actual es poco idiomática y demasiado general; Krankheitserreger significa agente patógeno o infeccioso.",
+      "proposedNew": "agente patógeno",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0150"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0158",
+      "module": "C1",
+      "cardId": "c1-Kriegsbeschädigte-408",
+      "field": "lv",
+      "current": "una guerra inválida",
+      "pairedGermanText": "Kriegsbeschädigte",
+      "category": "SEMANTICS",
+      "severity": "KRITISKA",
+      "explanation": "La traducción actual es semánticamente incorrecta; describe a una persona discapacitada como consecuencia de la guerra.",
+      "proposedNew": "persona discapacitada por la guerra",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0151"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0159",
+      "module": "C1",
+      "cardId": "c1-lebensgefährlich-413",
+      "field": "lv",
+      "current": "amenazante para la vida • peligroso",
+      "pairedGermanText": "lebensgefährlich",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "explanation": "«Amenazante para la vida» no es idiomático y «peligroso» pierde el componente de riesgo vital.",
+      "proposedNew": "potencialmente mortal",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0152"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0160",
+      "module": "C1",
+      "cardId": "c1-Lebensgefährte-414",
+      "field": "lv",
+      "current": "cónyuge en un matrimonio no registrado",
+      "pairedGermanText": "Lebensgefährte",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Cónyuge» presupone matrimonio; Lebensgefährte se refiere a la pareja o compañero sentimental, normalmente no casado.",
+      "proposedNew": "pareja de hecho",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0153"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0161",
+      "module": "C1",
+      "cardId": "c1-Leistungssport-416",
+      "field": "lv",
+      "current": "deportes profesionales",
+      "pairedGermanText": "Leistungssport",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "Leistungssport significa deporte de alto rendimiento, no necesariamente deporte profesional.",
+      "proposedNew": "deporte de alto rendimiento",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0154"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0162",
+      "module": "C1",
+      "cardId": "c1-Liebesbeziehung-418",
+      "field": "lv",
+      "current": "relaciones íntimas",
+      "pairedGermanText": "Liebesbeziehung",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Relaciones íntimas» suele implicar intimidad sexual y no expresa necesariamente una relación amorosa.",
+      "proposedNew": "relación amorosa",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0155"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0163",
+      "module": "C1",
+      "cardId": "c1-Liebeserklärung-419",
+      "field": "lv",
+      "current": "el descubrimiento del amor",
+      "pairedGermanText": "Liebeserklärung",
+      "category": "SEMANTICS",
+      "severity": "KRITISKA",
+      "explanation": "Liebeserklärung es una declaración de amor, no el descubrimiento del amor.",
+      "proposedNew": "declaración de amor",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0156"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0164",
+      "module": "C1",
+      "cardId": "c1-Marschflugkörper-424",
+      "field": "lv",
+      "current": "misil de crucero • misil de crucero",
+      "pairedGermanText": "Marschflugkörper",
+      "category": "STUDY_STRUCTURE",
+      "severity": "ZEMA",
+      "explanation": "La misma traducción aparece duplicada; la tarjeta debería presentar una sola equivalencia clara.",
+      "proposedNew": "misil de crucero",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0157"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0165",
+      "module": "C1",
+      "cardId": "c1-Meineid-427",
+      "field": "lv",
+      "current": "perjurio a sabiendas en el tribunal",
+      "pairedGermanText": "Meineid",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "La expresión actual es forzada; «perjurio» ya designa el testimonio falso prestado bajo juramento.",
+      "proposedNew": "perjurio",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0158"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0166",
+      "module": "C1",
+      "cardId": "c1-niedergeschlagen-433",
+      "field": "lv",
+      "current": "deprimido • deprimido",
+      "pairedGermanText": "niedergeschlagen",
+      "category": "STUDY_STRUCTURE",
+      "severity": "ZEMA",
+      "explanation": "Las dos equivalencias son idénticas; conviene conservar dos sinónimos distintos para el estudio.",
+      "proposedNew": "abatido • deprimido",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0159"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0167",
+      "module": "C1",
+      "cardId": "c1-Originalfassung-438",
+      "field": "lv",
+      "current": "variante original",
+      "pairedGermanText": "Originalfassung",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "«Versión original» es la expresión idiomática para una versión o forma original de una obra.",
+      "proposedNew": "versión original",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0160"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0168",
+      "module": "C1",
+      "cardId": "c1-Parteifunktionär-440",
+      "field": "lv",
+      "current": "trabajador del partido",
+      "pairedGermanText": "Parteifunktionär",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "Parteifunktionär es un funcionario o dirigente del partido, no cualquier trabajador del partido.",
+      "proposedNew": "funcionario del partido",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0161"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0169",
+      "module": "C1",
+      "cardId": "c1-Pflichtlektüre-441",
+      "field": "lv",
+      "current": "literatura de estudio obligatorio",
+      "pairedGermanText": "Pflichtlektüre",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "La traducción actual es poco idiomática y añade «de estudio»; el término significa lectura obligatoria.",
+      "proposedNew": "lectura obligatoria",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0162"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0170",
+      "module": "C1",
+      "cardId": "c1-Preisfrage-442",
+      "field": "lv",
+      "current": "pregunta de competencia",
+      "pairedGermanText": "Preisfrage",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Pregunta de competencia» calca el sentido de competencia; Preisfrage se refiere a una pregunta de concurso.",
+      "proposedNew": "pregunta de concurso",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0163"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0171",
+      "module": "C1",
+      "cardId": "c1-Presseerklärung-445",
+      "field": "lv",
+      "current": "presione soltar",
+      "pairedGermanText": "Presseerklärung",
+      "category": "SEMANTICS",
+      "severity": "KRITISKA",
+      "explanation": "La traducción actual es una secuencia incorrecta de palabras y no expresa el significado de comunicado o declaración de prensa.",
+      "proposedNew": "comunicado de prensa",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0164"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0172",
+      "module": "C1",
+      "cardId": "c1-Produktionsweise-447",
+      "field": "lv",
+      "current": "tipo de producción",
+      "pairedGermanText": "Produktionsweise",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "Produktionsweise designa el modo o la manera de producir, no simplemente el tipo de producción.",
+      "proposedNew": "modo de producción",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0165"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0173",
+      "module": "C1",
+      "cardId": "c1-Rangierbahnhof-448",
+      "field": "lv",
+      "current": "patio de ferrocarril",
+      "pairedGermanText": "Rangierbahnhof",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "El término alemán designa una estación ferroviaria de clasificación y maniobras; «patio» es demasiado literal y ambiguo.",
+      "proposedNew": "estación de clasificación ferroviaria",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0166"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0174",
+      "module": "C1",
+      "cardId": "c1-Rechenschaft-451",
+      "field": "lv",
+      "current": "responsabilidad (por las acciones de uno) • responsabilidad",
+      "pairedGermanText": "Rechenschaft",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "La primera acepción principal es rendición de cuentas; además, «responsabilidad» está duplicada.",
+      "proposedNew": "rendición de cuentas • responsabilidad",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0167"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0175",
+      "module": "C1",
+      "cardId": "c1-Regierungschef-454",
+      "field": "lv",
+      "current": "primer ministro • jefe de gobierno",
+      "pairedGermanText": "Regierungschef",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Primer ministro» es más específico y no corresponde a todos los Regierungschefs; «jefe de gobierno» es la equivalencia general.",
+      "proposedNew": "jefe de gobierno",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0168"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0176",
+      "module": "C1",
+      "cardId": "c1-republikanisch-459",
+      "field": "lv",
+      "current": "republicano • repúblicas",
+      "pairedGermanText": "republikanisch",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Repúblicas» es un sustantivo plural y no traduce el adjetivo alemán.",
+      "proposedNew": "republicano",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0169"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0177",
+      "module": "C1",
+      "cardId": "c1-sanktionieren-461",
+      "field": "lv",
+      "current": "apoyo • sanción",
+      "pairedGermanText": "sanktionieren",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "explanation": "El alemán es un verbo; las formas actuales son sustantivos y «apoyo» no corresponde al significado principal.",
+      "proposedNew": "sancionar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0170"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0178",
+      "module": "C1",
+      "cardId": "c1-Segelflugsport-468",
+      "field": "lv",
+      "current": "planeador",
+      "pairedGermanText": "Segelflugsport",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Planeador» designa la aeronave, no el deporte o actividad de vuelo sin motor.",
+      "proposedNew": "vuelo sin motor",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0171"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0179",
+      "module": "C1",
+      "cardId": "c1-Selbstverwaltung-469",
+      "field": "lv",
+      "current": "municipio",
+      "pairedGermanText": "Selbstverwaltung",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Municipio» es una entidad territorial; Selbstverwaltung significa administración o gestión autónoma.",
+      "proposedNew": "autogestión",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0172"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0180",
+      "module": "C1",
+      "cardId": "c1-selbstzufrieden-470",
+      "field": "lv",
+      "current": "presumido",
+      "pairedGermanText": "selbstzufrieden",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Presumido» significa vanidoso o engreído; el alemán expresa satisfacción excesiva con uno mismo.",
+      "proposedNew": "complacido consigo mismo",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0173"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0181",
+      "module": "C1",
+      "cardId": "c1-Sensationsmeldung-471",
+      "field": "lv",
+      "current": "declaración sensacional",
+      "pairedGermanText": "Sensationsmeldung",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Meldung significa noticia o informe, no «declaración» en este compuesto.",
+      "proposedNew": "noticia sensacional",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0174"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0182",
+      "module": "C1",
+      "cardId": "c1-sesshaft-472",
+      "field": "lv",
+      "current": "vivir en un solo lugar • caravana",
+      "pairedGermanText": "sesshaft",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "La primera opción es una paráfrasis verbal y «caravana» contradice el significado de establecido en un lugar.",
+      "proposedNew": "sedentario",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0175"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0183",
+      "module": "C1",
+      "cardId": "c1-Spitzenleistung-479",
+      "field": "lv",
+      "current": "récord • logro más alto • tecnología. potencia máxima",
+      "pairedGermanText": "Spitzenleistung",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "«Tecnología.» no funciona como etiqueta española y deja una segmentación incorrecta de la acepción técnica.",
+      "proposedNew": "récord • máximo rendimiento • potencia máxima (técnica)",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0176"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0184",
+      "module": "C1",
+      "cardId": "c1-Staatsgeheimnis-482",
+      "field": "lv",
+      "current": "secreto de estado",
+      "pairedGermanText": "Staatsgeheimnis",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "En esta expresión, Estado se escribe con mayúscula al referirse a la institución estatal.",
+      "proposedNew": "secreto de Estado",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0177"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0185",
+      "module": "C1",
+      "cardId": "c1-stimmberechtigt-484",
+      "field": "lv",
+      "current": "derecho a votar",
+      "pairedGermanText": "stimmberechtigt",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "explanation": "El alemán es un adjetivo; la opción actual es un sintagma nominal y no describe directamente a la persona.",
+      "proposedNew": "con derecho a voto",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0178"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0186",
+      "module": "C1",
+      "cardId": "c1-synchronisieren-486",
+      "field": "lv",
+      "current": "doblar la película",
+      "pairedGermanText": "synchronisieren",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Doblar la película» significa traducirla mediante doblaje; el verbo alemán significa sincronizar.",
+      "proposedNew": "sincronizar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0179"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0187",
+      "module": "C1",
+      "cardId": "c1-überanstrengen-489",
+      "field": "lv",
+      "current": "trabajar demasiado • sich ü. trabajar demasiado",
+      "pairedGermanText": "überanstrengen",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "explanation": "La segunda opción contiene un fragmento alemán y una construcción defectuosa; además, el verbo no significa necesariamente trabajar.",
+      "proposedNew": "forzar demasiado • esforzarse demasiado",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0180"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0188",
+      "module": "C1",
+      "cardId": "c1-Überschuss-493",
+      "field": "lv",
+      "current": "resto • excedente • liquidación",
+      "pairedGermanText": "Überschuss",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "explanation": "«Liquidación» significa venta o ajuste de cuentas, no excedente o cantidad sobrante.",
+      "proposedNew": "sobrante • excedente • superávit",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0181"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0189",
+      "module": "C1",
+      "cardId": "c1-Unannehmlichkeit-495",
+      "field": "lv",
+      "current": "problema • una ocasión desagradable",
+      "pairedGermanText": "Unannehmlichkeit",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "La segunda traducción es poco idiomática y el sentido central es inconveniente o molestia.",
+      "proposedNew": "inconveniente • molestia",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0182"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0190",
+      "module": "C1",
+      "cardId": "c1-verabschieden-500",
+      "field": "lv",
+      "current": "liberación del trabajo • jubilarse",
+      "pairedGermanText": "verabschieden",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Liberación del trabajo» no es una traducción idiomática del verbo; «jubilarse» es además intransitivo.",
+      "proposedNew": "despedir • jubilar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0183"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0191",
+      "module": "C1",
+      "cardId": "c1-verdrießlich-503",
+      "field": "lv",
+      "current": "desagradable • molesto • molesto",
+      "pairedGermanText": "verdrießlich",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "La última traducción está duplicada y no refleja bien la acepción de malhumorado o irritable.",
+      "proposedNew": "desagradable • irritable • malhumorado",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0184"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0192",
+      "module": "C1",
+      "cardId": "c1-Vergünstigung-508",
+      "field": "lv",
+      "current": "ventaja • privilegio • alivio",
+      "pairedGermanText": "Vergünstigung",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Alivio» significa relief y no corresponde a Vergünstigung en este sentido.",
+      "proposedNew": "beneficio",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0185"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0193",
+      "module": "C1",
+      "cardId": "c1-Verhandlungen-511",
+      "field": "lv",
+      "current": "conversaciones",
+      "pairedGermanText": "Verhandlungen",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "Verhandlungen se refiere específicamente a negociaciones, no a conversaciones generales.",
+      "proposedNew": "negociaciones",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0186"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0194",
+      "module": "C1",
+      "cardId": "c1-vernachlässigen-518",
+      "field": "lv",
+      "current": "descuidar • ser descuidado",
+      "pairedGermanText": "vernachlässigen",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Ser descuidado» significa ser negligente, no necesariamente descuidar algo o a alguien.",
+      "proposedNew": "descuidar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0187"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0195",
+      "module": "C1",
+      "cardId": "c1-sich verpflichten-520",
+      "field": "lv",
+      "current": "emprender",
+      "pairedGermanText": "sich verpflichten",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Sich verpflichten significa comprometerse u obligarse, no emprender.",
+      "proposedNew": "comprometerse",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0188"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0196",
+      "module": "C1",
+      "cardId": "c1-sich verschließen-521",
+      "field": "lv",
+      "current": "apagar • apagar",
+      "pairedGermanText": "sich verschließen",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Apagar» significa switch off; no traduce el sentido reflexivo de cerrarse o aislarse.",
+      "proposedNew": "cerrarse • aislarse",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0189"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0197",
+      "module": "C1",
+      "cardId": "c1-verschlossen-522",
+      "field": "lv",
+      "current": "bloqueado • cerrado • trans. cerrado • autónomo",
+      "pairedGermanText": "verschlossen",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Autónomo» no corresponde y «trans. cerrado» es un remanente no válido; falta el sentido de reservado.",
+      "proposedNew": "cerrado • reservado • introvertido",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0190"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0198",
+      "module": "C1",
+      "cardId": "c1-verschreiben-524",
+      "field": "lv",
+      "current": "medicina firmar",
+      "pairedGermanText": "verschreiben",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "En el sentido médico, verschreiben significa recetar; «medicina firmar» es incorrecto y antinatural.",
+      "proposedNew": "recetar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0191"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0199",
+      "module": "C1",
+      "cardId": "c1-verunglücken-530",
+      "field": "lv",
+      "current": "sufrir en un accidente • sufrir en un accidente",
+      "pairedGermanText": "verunglücken",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "En español se dice «sufrir un accidente», no «sufrir en un accidente»; además, la traducción está duplicada.",
+      "proposedNew": "sufrir un accidente",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0192"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0200",
+      "module": "C1",
+      "cardId": "c1-vervollkommnen-533",
+      "field": "lv",
+      "current": "complementar • mejorar",
+      "pairedGermanText": "vervollkommnen",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Complementar» significa completar algo, no perfeccionarlo; el equivalente adecuado es «perfeccionar».",
+      "proposedNew": "perfeccionar • mejorar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0193"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0201",
+      "module": "C1",
+      "cardId": "c1-sich vervollkommnen-534",
+      "field": "lv",
+      "current": "complementa tus conocimientos",
+      "pairedGermanText": "sich vervollkommnen",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "explanation": "La frase actual es un imperativo y pierde el sentido reflexivo; el verbo significa perfeccionarse.",
+      "proposedNew": "perfeccionarse",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0194"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0202",
+      "module": "C1",
+      "cardId": "c1-Volksabstimmung-536",
+      "field": "lv",
+      "current": "voto popular • plebiscito",
+      "pairedGermanText": "Volksabstimmung",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "«Voto popular» es el acto de votar y no designa necesariamente una consulta o votación popular formal.",
+      "proposedNew": "referéndum • plebiscito",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0195"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0203",
+      "module": "C1",
+      "cardId": "c1-Volksbefragung-537",
+      "field": "lv",
+      "current": "encuesta de todo el pueblo • referéndum",
+      "pairedGermanText": "Volksbefragung",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "«Encuesta de todo el pueblo» es una formulación antinatural; Volksbefragung corresponde a consulta popular.",
+      "proposedNew": "consulta popular",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0196"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0204",
+      "module": "C1",
+      "cardId": "c1-waag[e]recht-540",
+      "field": "lv",
+      "current": "nivel • horizontal",
+      "pairedGermanText": "waag[e]recht",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Nivel» es un sustantivo; como adjetivo, el equivalente correcto es «nivelado».",
+      "proposedNew": "nivelado • horizontal",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0197"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0205",
+      "module": "C1",
+      "cardId": "c1-Waffenruhe-541",
+      "field": "lv",
+      "current": "una pausa en la lucha",
+      "pairedGermanText": "Waffenruhe",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "La expresión actual es una paráfrasis poco natural; «tregua» es el equivalente léxico directo.",
+      "proposedNew": "tregua",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0198"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0206",
+      "module": "C1",
+      "cardId": "c1-Wäscheschleuder-545",
+      "field": "lv",
+      "current": "hilandero de lavandería",
+      "pairedGermanText": "Wäscheschleuder",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Hilandero» es una persona que hila; Wäscheschleuder es una centrifugadora para ropa.",
+      "proposedNew": "centrifugadora de ropa",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0199"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0207",
+      "module": "C1",
+      "cardId": "c1-Wasserheilanstalt-546",
+      "field": "lv",
+      "current": "instalación de tratamiento de agua",
+      "pairedGermanText": "Wasserheilanstalt",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "El compuesto designa un establecimiento de curas mediante agua, no una planta para tratar agua.",
+      "proposedNew": "establecimiento de hidroterapia",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0200"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0208",
+      "module": "C1",
+      "cardId": "c1-Wechselbeziehung-549",
+      "field": "lv",
+      "current": "comunicación mutua",
+      "pairedGermanText": "Wechselbeziehung",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "Wechselbeziehung significa relación recíproca o interrelación, no específicamente comunicación.",
+      "proposedNew": "interrelación",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0201"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0209",
+      "module": "C1",
+      "cardId": "c1-Weidenkätzchen-551",
+      "field": "lv",
+      "current": "Amapola",
+      "pairedGermanText": "Weidenkätzchen",
+      "category": "TRANSLATION",
+      "severity": "KRITISKA",
+      "explanation": "Weidenkätzchen es la flor o amento del sauce; «amapola» designa otra planta.",
+      "proposedNew": "sauce cabruno",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0202"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0210",
+      "module": "C1",
+      "cardId": "c1-Wetterleuchten-553",
+      "field": "lv",
+      "current": "óxido",
+      "pairedGermanText": "Wetterleuchten",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "Wetterleuchten es un resplandor luminoso lejano de tormenta, no óxido.",
+      "proposedNew": "resplandor de tormenta",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0203"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0211",
+      "module": "C1",
+      "cardId": "c1-zusammenfallen-556",
+      "field": "lv",
+      "current": "colapsar • suceder",
+      "pairedGermanText": "zusammenfallen",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "En el sentido temporal o conceptual, zusammenfallen significa coincidir, no suceder.",
+      "proposedNew": "colapsar • coincidir",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0204"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0212",
+      "module": "C1",
+      "cardId": "c1-Matsch-569",
+      "field": "lv",
+      "current": "barro • aguanieve",
+      "pairedGermanText": "Matsch",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Aguanieve» significa sleet y no equivale exactamente a «Matsch»; además, el campo mezcla dos acepciones.",
+      "proposedNew": "barro",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0205"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0213",
+      "module": "C1",
+      "cardId": "c1-einfamilienhaus",
+      "field": "study.examples[0].lv",
+      "current": "viven en una casa unifamiliar.",
+      "pairedGermanText": "Einfamilienhaus",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "Viven en una casa unifamiliar.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0206"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0214",
+      "module": "C1",
+      "cardId": "c1-einfamilienhaus",
+      "field": "study.examples[1].lv",
+      "current": "la casa unifamiliar tiene jardín.",
+      "pairedGermanText": "Einfamilienhaus",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "La casa unifamiliar tiene jardín.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0207"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0215",
+      "module": "C1",
+      "cardId": "c1-einfamilienhaus",
+      "field": "study.examples[2].lv",
+      "current": "hay un edificio de apartamentos al lado.",
+      "pairedGermanText": "Einfamilienhaus",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "Hay un edificio de apartamentos al lado.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0208"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0216",
+      "module": "C1",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.translation",
+      "current": "sociedad • apertura",
+      "pairedGermanText": "Öffentlichkeit",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Öffentlichkeit» significa principalmente «esfera pública» o «el público»; «sociedad» y «apertura» desvían el sentido.",
+      "proposedNew": "esfera pública",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0209"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0217",
+      "module": "C1",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.examples[1].lv",
+      "current": "el caso salió a la luz.",
+      "pairedGermanText": "Öffentlichkeit",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "El caso salió a la luz.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0210"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0218",
+      "module": "C1",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.examples[2].lv",
+      "current": "el público tiene derecho a la información.",
+      "pairedGermanText": "Öffentlichkeit",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "El público tiene derecho a la información.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0211"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0219",
+      "module": "C1",
+      "cardId": "c1-partei",
+      "field": "study.translation",
+      "current": "fiesta • fiesta",
+      "pairedGermanText": "Partei",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Partei» no significa «fiesta»; puede referirse a un partido político o a una parte implicada.",
+      "proposedNew": "partido político • parte",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0212"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0220",
+      "module": "C1",
+      "cardId": "c1-partei",
+      "field": "study.examples[0].lv",
+      "current": "este partido ganó las elecciones.",
+      "pairedGermanText": "Partei",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "Este partido ganó las elecciones.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0213"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0221",
+      "module": "C1",
+      "cardId": "c1-partei",
+      "field": "study.examples[2].lv",
+      "current": "ambas partes deben firmar el contrato.",
+      "pairedGermanText": "Partei",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "Ambas partes deben firmar el contrato.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0214"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0222",
+      "module": "C1",
+      "cardId": "c1-prozess",
+      "field": "study.translation",
+      "current": "proceso • demanda",
+      "pairedGermanText": "Prozess",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Demanda» suele traducir «Klage»; para el sentido jurídico de «Prozess» corresponde mejor «juicio».",
+      "proposedNew": "proceso • juicio",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0215"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0223",
+      "module": "C1",
+      "cardId": "c1-prozess",
+      "field": "study.examples[0].lv",
+      "current": "el proceso dura varios meses.",
+      "pairedGermanText": "Prozess",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "El proceso dura varios meses.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0216"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0224",
+      "module": "C1",
+      "cardId": "c1-prozess",
+      "field": "study.examples[2].lv",
+      "current": "Mejoramos todo el proceso.",
+      "pairedGermanText": "Prozess",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "No hay un cambio semántico; este campo ya está correctamente capitalizado.",
+      "proposedNew": "Mejoramos todo el proceso.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0217"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0225",
+      "module": "C1",
+      "cardId": "c1-zusammenfassen",
+      "field": "study.translation",
+      "current": "resumir • resumir",
+      "pairedGermanText": "zusammenfassen",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "La duplicación no aporta una acepción distinta y contradice el principio de una entrada clara.",
+      "proposedNew": "resumir",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0218"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0226",
+      "module": "C1",
+      "cardId": "c1-zusammenfassen",
+      "field": "study.examples[5].lv",
+      "current": "el resumen es demasiado largo.",
+      "pairedGermanText": "zusammenfassen",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "El resumen es demasiado largo.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0219"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0227",
+      "module": "C1",
+      "cardId": "c1-wahl",
+      "field": "study.translation",
+      "current": "elección • elección",
+      "pairedGermanText": "Wahl",
+      "category": "STUDY_STRUCTURE",
+      "severity": "VIDĒJA",
+      "explanation": "La duplicación oculta la diferencia entre «Wahl» como elección y como elecciones electorales.",
+      "proposedNew": "elección • elecciones",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0220"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0228",
+      "module": "C1",
+      "cardId": "c1-wahl",
+      "field": "study.examples[0].lv",
+      "current": "tienes una opción.",
+      "pairedGermanText": "Wahl",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "Tienes una opción.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0221"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0229",
+      "module": "C1",
+      "cardId": "c1-wahl",
+      "field": "study.examples[3].lv",
+      "current": "mucha gente va a las urnas.",
+      "pairedGermanText": "Wahl",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "Mucha gente va a las urnas.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0222"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0230",
+      "module": "C1",
+      "cardId": "c1-wahl",
+      "field": "study.examples[5].lv",
+      "current": "votamos en las elecciones.",
+      "pairedGermanText": "Wahl",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "Votamos en las elecciones.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0223"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0231",
+      "module": "C1",
+      "cardId": "c1-gelegentlich",
+      "field": "study.translation",
+      "current": "a veces • ocasión • debido a",
+      "pairedGermanText": "gelegentlich",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Ocasión» es un sustantivo y «debido a» expresa causa, no el sentido ocasional o de ocasión de «gelegentlich».",
+      "proposedNew": "a veces • ocasionalmente • con motivo de",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0224"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0232",
+      "module": "C1",
+      "cardId": "c1-gelegentlich",
+      "field": "study.examples[0].lv",
+      "current": "a veces pasa por aquí.",
+      "pairedGermanText": "gelegentlich",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "A veces pasa por aquí.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0225"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0233",
+      "module": "C1",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[1].meaning",
+      "current": "casual • accidental",
+      "pairedGermanText": "gelegentlich",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Casual» no corresponde al sentido habitual de «gelegentlich»; «ocasional» es la equivalencia adecuada.",
+      "proposedNew": "ocasional • fortuito",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0226"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0234",
+      "module": "C1",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].meaning",
+      "current": "debido a",
+      "pairedGermanText": "gelegentlich",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Debido a» expresa causa; aquí se necesita el valor de ocasión: «con motivo de».",
+      "proposedNew": "con motivo de",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0227"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0235",
+      "module": "C1",
+      "cardId": "c1-gelegentlich",
+      "field": "study.important.text",
+      "current": "Adj.: informal. Adv.: a veces. Deberes. + Gen.: debido a. El contexto determina el significado.",
+      "pairedGermanText": "gelegentlich",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Informal» y «Deberes» son incorrectos; además, «debido a» expresa causa, no ocasión.",
+      "proposedNew": "Adj.: ocasional. Adv.: a veces. Prep.: con motivo de. El contexto determina el significado.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0228"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0236",
+      "module": "C1",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.examples[1].lv",
+      "current": "a partir de los 18 años tienen derecho a votar.",
+      "pairedGermanText": "wahlberechtigt",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "A partir de los 18 años tienen derecho a votar.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0229"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0237",
+      "module": "C1",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[1].meaning",
+      "current": "desear • votar",
+      "pairedGermanText": "wahlberechtigt",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Desear» y «votar» no traducen «wahlberechtigt»; la expresión significa tener derecho a votar.",
+      "proposedNew": "tener derecho a votar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0230"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0238",
+      "module": "C1",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.tip.leftBlocks[0].text",
+      "current": "Wahl = elección, behrechtig = elegible. Común en prensa y textos legales.",
+      "pairedGermanText": "wahlberechtigt",
+      "category": "ORTHOGRAPHY",
+      "severity": "VIDĒJA",
+      "explanation": "«behrechtig» está mal escrito y «berechtigt» significa «con derecho», no simplemente «elegible».",
+      "proposedNew": "Wahl = elección, berechtigt = con derecho. Común en prensa y textos legales.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0231"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0239",
+      "module": "C1",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.important.text",
+      "current": "wahlberechtig = con derecho a voto. Enfrente: nicht wahlberechtigkeit.",
+      "pairedGermanText": "wahlberechtigt",
+      "category": "ORTHOGRAPHY",
+      "severity": "AUGSTA",
+      "explanation": "El lema alemán está truncado y «nicht wahlberechtigkeit» es una forma incorrecta.",
+      "proposedNew": "wahlberechtigt = con derecho a voto. Lo contrario: nicht wahlberechtigt.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0232"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0240",
+      "module": "C1",
+      "cardId": "c1-zuschlag",
+      "field": "study.translation",
+      "current": "prima • margen de beneficio",
+      "pairedGermanText": "Zuschlag",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "explanation": "«Zuschlag» significa recargo o suplemento; «margen de beneficio» corresponde a «Gewinnspanne».",
+      "proposedNew": "recargo • suplemento",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0233"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0241",
+      "module": "C1",
+      "cardId": "c1-zuschlag",
+      "field": "study.examples[2].lv",
+      "current": "recibió el pedido (en la subasta).",
+      "pairedGermanText": "Zuschlag",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "«Recibió el pedido» no expresa bien que la subasta le fue adjudicada; la frase además comienza en minúscula.",
+      "proposedNew": "recibió la adjudicación (en la subasta).",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0234"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0242",
+      "module": "C1",
+      "cardId": "c1-zuschlag",
+      "field": "study.examples[3].lv",
+      "current": "hay un recargo por exceso de equipaje.",
+      "pairedGermanText": "Zuschlag",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "Hay un recargo por exceso de equipaje.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0235"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0243",
+      "module": "C1",
+      "cardId": "c1-zuschlag",
+      "field": "study.examples[4].lv",
+      "current": "el precio es sin recargos.",
+      "pairedGermanText": "Zuschlag",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración comienza con minúscula; debe escribirse con mayúscula inicial.",
+      "proposedNew": "El precio es sin recargos.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0236"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0244",
+      "module": "C1",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.translation",
+      "current": "aplicar • aplicar a",
+      "pairedGermanText": "beziehen / sich beziehen auf",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "explanation": "«Sich beziehen auf» significa «referirse a»; «beziehen» aislado tiene aquí el sentido de «obtener».",
+      "proposedNew": "obtener • referirse a",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0237"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0245",
+      "module": "C1",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.examples[0].lv",
+      "current": "aplicar • aplicar a",
+      "pairedGermanText": "beziehen / sich beziehen auf",
+      "category": "STUDY_STRUCTURE",
+      "severity": "AUGSTA",
+      "explanation": "El campo no es una oración ni refleja correctamente la diferencia semántica entre ambos verbos alemanes.",
+      "proposedNew": "obtener • referirse a",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0238"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0246",
+      "module": "C1",
+      "cardId": "c1-beabsichtigen",
+      "field": "study.examples[1].lv",
+      "current": "¿Qué quieres decir con este evento?",
+      "pairedGermanText": "beabsichtigen",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "La frase expresa preguntar por el significado, no por la intención o el propósito.",
+      "proposedNew": "¿Qué pretendes conseguir con este evento?",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0239"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0247",
+      "module": "C1",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[1].lv",
+      "current": "¡No me culpes por nada!",
+      "pairedGermanText": "unterstellen",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "Unterstellen implica atribuir algo, normalmente sin fundamento, no simplemente culpar por cualquier cosa.",
+      "proposedNew": "¡No me atribuyas cosas sin fundamento!",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0240"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0248",
+      "module": "C1",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[2].lv",
+      "current": "nadie debería ser acusado injustamente de traición.",
+      "pairedGermanText": "unterstellen",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración debe comenzar con mayúscula.",
+      "proposedNew": "Nadie debería ser acusado injustamente de traición.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0241"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0249",
+      "module": "C1",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[3].lv",
+      "current": "se le acusa de desconfianza.",
+      "pairedGermanText": "unterstellen",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "explanation": "La formulación actual es poco idiomática para expresar atribuir una actitud o cualidad.",
+      "proposedNew": "Se le atribuye desconfianza.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0242"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0250",
+      "module": "C1",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[4].lv",
+      "current": "nepamatota vaina; voraussetzen",
+      "pairedGermanText": "unterstellen",
+      "category": "FOREIGN_REMNANT",
+      "severity": "KRITISKA",
+      "explanation": "El campo contiene texto letón y alemán en lugar de una formulación exclusivamente española.",
+      "proposedNew": "imputar sin fundamento; presuponer",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0243"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0251",
+      "module": "C1",
+      "cardId": "c1-bewahren",
+      "field": "study.examples[1].lv",
+      "current": "mantienen la calma en una crisis.",
+      "pairedGermanText": "bewahren",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración debe comenzar con mayúscula.",
+      "proposedNew": "Mantienen la calma en una crisis.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0244"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0252",
+      "module": "C1",
+      "cardId": "c1-bewahren",
+      "field": "study.examples[3].lv",
+      "current": "proteger/preservar; aufrechterhalten",
+      "pairedGermanText": "bewahren",
+      "category": "FOREIGN_REMNANT",
+      "severity": "KRITISKA",
+      "explanation": "El campo contiene el infinitivo alemán aufrechterhalten y una barra impropia en una formulación española.",
+      "proposedNew": "proteger o preservar",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0245"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0253",
+      "module": "C1",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[0].lv",
+      "current": "El Estado mantiene el orden en vigor.",
+      "pairedGermanText": "aufrechterhalten",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "En español, en vigor se aplica a leyes o medidas, no al orden; la frase actual resulta semánticamente incorrecta.",
+      "proposedNew": "El Estado mantiene el orden.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0246"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0254",
+      "module": "C1",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[1].lv",
+      "current": "deberá mantener vigente la acción.",
+      "pairedGermanText": "aufrechterhalten",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "explanation": "La oración debe comenzar con mayúscula.",
+      "proposedNew": "Deberá mantener vigente la acción.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0247"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    },
+    {
+      "id": "ES-DE-C1-OWNER-0255",
+      "module": "C1",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[2].lv",
+      "current": "el estado mantiene el orden en vigor.",
+      "pairedGermanText": "aufrechterhalten",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "explanation": "La frase requiere Estado con mayúscula y en vigor no es adecuado para modificar orden.",
+      "proposedNew": "El Estado mantiene el orden.",
+      "sourceFindingIds": [
+        "ES-C1-LUNA-0248"
+      ],
+      "ownerStatus": "PĀRSKATĪT",
+      "new": null
+    }
+  ],
+  "count": 255
+}

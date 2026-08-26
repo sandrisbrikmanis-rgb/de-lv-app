@@ -1,0 +1,5743 @@
+{
+  "meta": {
+    "module": "SENTENCES",
+    "date": "2026-08-26T10:30:31.806Z",
+    "deFile": "data/sentences.js",
+    "esFile": "data/es/sentences.js",
+    "wwwFile": "www/data/es/sentences.js",
+    "sentencesTotal": 796
+  },
+  "structural": {
+    "issues": [],
+    "pass": true,
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "countPass": true,
+    "deIntegrityPass": true
+  },
+  "lvRemnants": {
+    "issues": [
+      {
+        "severity": "high",
+        "id": "sentence-8",
+        "path": "lv",
+        "text": "Para mí tiene poco sentido.",
+        "kind": "IT"
+      },
+      {
+        "severity": "high",
+        "id": "sentence-421",
+        "path": "lv",
+        "text": "Muy poco.",
+        "kind": "IT"
+      },
+      {
+        "severity": "high",
+        "id": "sentence-581",
+        "path": "lv",
+        "text": "¡Ve un poco más lento, no puedo seguirte!",
+        "kind": "IT"
+      },
+      {
+        "severity": "high",
+        "id": "sentence-583",
+        "path": "lv",
+        "text": "Descansemos un poco.",
+        "kind": "IT"
+      },
+      {
+        "severity": "high",
+        "id": "sentence-611",
+        "path": "lv",
+        "text": "¿Dónde está la máquina expendedora de billetes del andén?",
+        "kind": "EN"
+      },
+      {
+        "severity": "high",
+        "id": "sentence-708",
+        "path": "lv",
+        "text": "Sí, un poco.",
+        "kind": "IT"
+      },
+      {
+        "severity": "high",
+        "id": "sentence-749",
+        "path": "lv",
+        "text": "Me quedan un poco ajustados.",
+        "kind": "IT"
+      },
+      {
+        "severity": "high",
+        "id": "sentence-781",
+        "path": "lv",
+        "text": "El anillo me queda un poco grande.",
+        "kind": "IT"
+      }
+    ],
+    "pass": false
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  },
+  "batches": [
+    {
+      "batch": "batch-001-050",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-001-050.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-051-100",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-051-100.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-101-150",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-101-150.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-151-200",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-151-200.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-201-250",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-201-250.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-251-300",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-251-300.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-301-350",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-301-350.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-351-400",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-351-400.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-401-450",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-401-450.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-451-500",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-451-500.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-501-550",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-501-550.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-551-600",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-551-600.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-601-650",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-601-650.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-651-700",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-651-700.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-701-750",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-701-750.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-751-796",
+      "file": "/workspace/reports/temp/es-de-sentences-audit-batches/batch-751-796.json",
+      "count": 46
+    }
+  ],
+  "sentences": [
+    {
+      "cardId": "sentence-0",
+      "index": 0,
+      "de": "Hüte dich davor!",
+      "esText": "¡Cuidado con eso!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-1",
+      "index": 1,
+      "de": "Wenn nichts dazwischenkommt.",
+      "esText": "Si nada interfiere. • Si todo va según lo planeado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-2",
+      "index": 2,
+      "de": "Das kann ich mir denken!",
+      "esText": "¡Yo sé eso!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-3",
+      "index": 3,
+      "de": "Ist er denn krank?",
+      "esText": "¿Está enfermo entonces?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-4",
+      "index": 4,
+      "de": "Was denn?",
+      "esText": "¿Entonces qué?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-5",
+      "index": 5,
+      "de": "Desto mehr.",
+      "esText": "Cuanto más.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-6",
+      "index": 6,
+      "de": "Je mehr, desto besser.",
+      "esText": "Cuanto más mejor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-7",
+      "index": 7,
+      "de": "Alles deutet auf Regen.",
+      "esText": "Todo apunta al caso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-8",
+      "index": 8,
+      "de": "Damit ist mir wenig gedient.",
+      "esText": "Para mí tiene poco sentido.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-9",
+      "index": 9,
+      "de": "Er ist dienstlich verhindert.",
+      "esText": "No puede venir por motivos de trabajo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-10",
+      "index": 10,
+      "de": "Sprechen Sie doch!",
+      "esText": "¡Hablar alto!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-11",
+      "index": 11,
+      "de": "Es donnert.",
+      "esText": "El trueno ruge.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-12",
+      "index": 12,
+      "de": "Doppelt so groß.",
+      "esText": "El doble de grande.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-13",
+      "index": 13,
+      "de": "Von dort.",
+      "esText": "De eso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-14",
+      "index": 14,
+      "de": "Die Zeit drängt.",
+      "esText": "El tiempo se acaba.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-15",
+      "index": 15,
+      "de": "Ihn drücken Sorgen.",
+      "esText": "Está abrumado por la preocupación.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-16",
+      "index": 16,
+      "de": "Hast du das Buch durchgearbeitet?",
+      "esText": "¿Has leído el libro detenidamente?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-17",
+      "index": 17,
+      "de": "Kein Durchgang!",
+      "esText": "¡No pases! • ¡Salida cerrada!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-18",
+      "index": 18,
+      "de": "Darf ich Sie bitten?",
+      "esText": "¿puedo preguntarte?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-19",
+      "index": 19,
+      "de": "Ich bin durstig.",
+      "esText": "Tengo sed.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-20",
+      "index": 20,
+      "de": "Eben das meine ich.",
+      "esText": "Eso es exactamente lo que quiero decir.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-21",
+      "index": 21,
+      "de": "Es ist ganz egal.",
+      "esText": "No importa en absoluto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-22",
+      "index": 22,
+      "de": "Was wollen Sie eigentlich?",
+      "esText": "¿Qué es lo que realmente quieres?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-23",
+      "index": 23,
+      "de": "Eilt es mit dieser Sache?",
+      "esText": "¿Es este asunto urgente?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-24",
+      "index": 24,
+      "de": "Eilt sehr!",
+      "esText": "¡Muy urgente!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-25",
+      "index": 25,
+      "de": "Ich habe es eilig.",
+      "esText": "Tengo prisa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-26",
+      "index": 26,
+      "de": "Du bildest dir nur ein, krank zu sein.",
+      "esText": "Simplemente imagina que estás enfermo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-27",
+      "index": 27,
+      "de": "Was fällt dir ein?",
+      "esText": "¿Qué te viene a la mente?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-28",
+      "index": 28,
+      "de": "Es war einmal.",
+      "esText": "Una vez lo hubo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-29",
+      "index": 29,
+      "de": "Steigen Sie bitte ein!",
+      "esText": "¡Por favor entra!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-30",
+      "index": 30,
+      "de": "Treten Sie ein!",
+      "esText": "¡Por favor entra!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-31",
+      "index": 31,
+      "de": "Einzelnes hat mir dort gefallen.",
+      "esText": "Me gustaron algunas cosas allí.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-32",
+      "index": 32,
+      "de": "Es empfiehlt sich.",
+      "esText": "Se recomienda.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-33",
+      "index": 33,
+      "de": "Diese Flasche enthält Essig.",
+      "esText": "Esta botella contiene vinagre.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-34",
+      "index": 34,
+      "de": "Entschuldigen Sie bitte!",
+      "esText": "¡Discúlpame, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-35",
+      "index": 35,
+      "de": "Entweder... oder...",
+      "esText": "O... o...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-36",
+      "index": 36,
+      "de": "Wer war der Erste?",
+      "esText": "¿Quién fue primero?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-37",
+      "index": 37,
+      "de": "Wer fehlt heute?",
+      "esText": "¿Quién no ha venido hoy?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-38",
+      "index": 38,
+      "de": "Was fehlt dir?",
+      "esText": "¿Qué sucede contigo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-39",
+      "index": 39,
+      "de": "Wie heißen Sie?",
+      "esText": "¿Cómo te llamas?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-40",
+      "index": 40,
+      "de": "Was soll das heißen?",
+      "esText": "¿Qué significa eso?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-41",
+      "index": 41,
+      "de": "Bitte treten Sie näher heran!",
+      "esText": "¡Por favor acércate!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-42",
+      "index": 42,
+      "de": "Heraus mit der Sprache!",
+      "esText": "¡Hablar! • ¡Historias!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-43",
+      "index": 43,
+      "de": "im Herbst",
+      "esText": "en otoño",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-44",
+      "index": 44,
+      "de": "Meine Herrschaften!",
+      "esText": "¡Damas y caballeros!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-45",
+      "index": 45,
+      "de": "von heute an",
+      "esText": "a partir de hoy",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-46",
+      "index": 46,
+      "de": "heute früh",
+      "esText": "esta mañana",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-47",
+      "index": 47,
+      "de": "heute Nacht",
+      "esText": "anoche",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-48",
+      "index": 48,
+      "de": "Zu Hilfe!",
+      "esText": "¡Ayuda!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-49",
+      "index": 49,
+      "de": "Ich lerne jeden Tag Deutsch.",
+      "esText": "Estudio alemán todos los días.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-50",
+      "index": 50,
+      "de": "Kannst du das bitte wiederholen?",
+      "esText": "¿Puedes repetir eso por favor?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-51",
+      "index": 51,
+      "de": "Wir treffen uns am Bahnhof.",
+      "esText": "Nos encontramos en la estación de tren.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-52",
+      "index": 52,
+      "de": "Ich stimme dir teilweise zu.",
+      "esText": "Estoy en parte de acuerdo contigo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-53",
+      "index": 53,
+      "de": "Diese Entscheidung hat weitreichende Folgen.",
+      "esText": "Esta decisión tiene consecuencias de largo alcance.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-54",
+      "index": 54,
+      "de": "Man sollte mehrere Perspektiven berücksichtigen.",
+      "esText": "Se deben considerar varias perspectivas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-55",
+      "index": 55,
+      "de": "Könnten Sie das näher erläutern?",
+      "esText": "¿Podrías explicar esto con más detalle?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-56",
+      "index": 56,
+      "de": "Was mich anbelangt,...",
+      "esText": "En cuanto a mí...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-57",
+      "index": 57,
+      "de": "Wie alt sind Sie?",
+      "esText": "¿Cuántos años tiene?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-58",
+      "index": 58,
+      "de": "Ich bin zwanzig Jahre alt.",
+      "esText": "Tengo veinte años.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-59",
+      "index": 59,
+      "de": "Von heute an.",
+      "esText": "A partir de hoy.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-60",
+      "index": 60,
+      "de": "Von jetzt an.",
+      "esText": "De aquí en adelante.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-61",
+      "index": 61,
+      "de": "Anders geht es nicht.",
+      "esText": "No hay otra manera.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-62",
+      "index": 62,
+      "de": "Rufen Sie mich an.",
+      "esText": "Llámame.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-63",
+      "index": 63,
+      "de": "Bitte stellen Sie das Radio ab.",
+      "esText": "Por favor apaga la radio.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-64",
+      "index": 64,
+      "de": "Achte bitte auf den Verkehr.",
+      "esText": "Por favor preste atención al tráfico.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-65",
+      "index": 65,
+      "de": "Darauf musst du achten.",
+      "esText": "Deberías prestar atención a eso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-66",
+      "index": 66,
+      "de": "Heute mache ich es anders.",
+      "esText": "Hoy lo haré diferente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-67",
+      "index": 67,
+      "de": "Wir warten auf den Bus.",
+      "esText": "Estamos esperando el autobús.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-68",
+      "index": 68,
+      "de": "Er wohnt allein.",
+      "esText": "Vive solo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-69",
+      "index": 69,
+      "de": "Ich habe die Ausbildung absolviert.",
+      "esText": "Terminé mi entrenamiento. • Terminé mi educación.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-70",
+      "index": 70,
+      "de": "Ich warte den Regen ab.",
+      "esText": "Esperaré a que pare la lluvia.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-71",
+      "index": 71,
+      "de": "Er arbeitet in der Verkaufsabteilung.",
+      "esText": "Trabaja en el departamento de ventas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-72",
+      "index": 72,
+      "de": "Ich bin allergisch gegen Katzen.",
+      "esText": "Soy alérgico a los gatos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-73",
+      "index": 73,
+      "de": "Andererseits verstehe ich ihn.",
+      "esText": "Por otro lado, lo entiendo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-74",
+      "index": 74,
+      "de": "Ich habe die Situation analysiert.",
+      "esText": "Analicé la situación.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-75",
+      "index": 75,
+      "de": "Sie hat meinen Vorschlag akzeptiert.",
+      "esText": "Ella aceptó mi propuesta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-76",
+      "index": 76,
+      "de": "Ich möchte das genauer analysieren.",
+      "esText": "Quiero analizarlo con mayor precisión.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-77",
+      "index": 77,
+      "de": "Ich möchte den Vertrag ändern.",
+      "esText": "Quiero cambiar el contrato.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-78",
+      "index": 78,
+      "de": "Er ändert ständig seine Meinung.",
+      "esText": "Cambia constantemente de opinión.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-79",
+      "index": 79,
+      "de": "Ähnliche Probleme hatten wir schon früher.",
+      "esText": "Tuvimos problemas similares antes.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-80",
+      "index": 80,
+      "de": "Keine Ahnung!",
+      "esText": "¡Ni idea!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-81",
+      "index": 81,
+      "de": "Hör auf zu jammern.",
+      "esText": "Deja de quejarte.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-82",
+      "index": 82,
+      "de": "Dieses Kleid ist akademisch gekleidet.",
+      "esText": "Este vestido es elegantemente conservador.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-83",
+      "index": 83,
+      "de": "Ich höre gerne Akkordeonmusik.",
+      "esText": "Me gusta escuchar música de acordeón.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-84",
+      "index": 84,
+      "de": "Kannst du das Gerät anklicken?",
+      "esText": "¿Puedes hacer clic en el dispositivo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-85",
+      "index": 85,
+      "de": "Bitte öffne die Datei und klicke darauf.",
+      "esText": "Abra el archivo y haga clic en él.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-86",
+      "index": 86,
+      "de": "Ich habe einen Unfall gehabt.",
+      "esText": "Tuve un accidente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-87",
+      "index": 87,
+      "de": "Wir laufen zum Bahnhof.",
+      "esText": "Nos dirigimos a la estación.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-88",
+      "index": 88,
+      "de": "Bitte schalte den Fernseher an.",
+      "esText": "Por favor enciende la televisión.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-89",
+      "index": 89,
+      "de": "Mein Computer ist abgestürzt.",
+      "esText": "Mi computadora ha fallado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-90",
+      "index": 90,
+      "de": "Am Wochenende gehe ich angeln.",
+      "esText": "Iré a pescar el fin de semana.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-91",
+      "index": 91,
+      "de": "Ich habe den Anruf verpasst.",
+      "esText": "Perdí la llamada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-92",
+      "index": 92,
+      "de": "Kannst du mich später anrufen?",
+      "esText": "¿Puedes llamarme más tarde?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-93",
+      "index": 93,
+      "de": "Bitte nimm meinen Vorschlag an.",
+      "esText": "Por favor acepte mi propuesta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-94",
+      "index": 94,
+      "de": "Ich nehme dein Angebot an.",
+      "esText": "Acepto tu oferta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-95",
+      "index": 95,
+      "de": "Er nahm die Einladung an.",
+      "esText": "Aceptó la invitación.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-96",
+      "index": 96,
+      "de": "Ich habe Angst vor Spinnen.",
+      "esText": "Tengo miedo de las arañas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-97",
+      "index": 97,
+      "de": "Keine Angst, alles wird gut.",
+      "esText": "No tengas miedo, todo estará bien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-98",
+      "index": 98,
+      "de": "Anklang finden.",
+      "esText": "Encuentra un eco. • Encuentre capacidad de respuesta",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-99",
+      "index": 99,
+      "de": "Es kommt darauf an.",
+      "esText": "Depende de eso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-100",
+      "index": 100,
+      "de": "Aus diesem Anlass.",
+      "esText": "Por esta época. • A este respecto",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-101",
+      "index": 101,
+      "de": "Nehmen wir an, dass...",
+      "esText": "Supongamos que...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-102",
+      "index": 102,
+      "de": "Was hast du da angerichtet?",
+      "esText": "¿Qué has hecho allí?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-103",
+      "index": 103,
+      "de": "Bis ans Ende.",
+      "esText": "Hasta el final.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-104",
+      "index": 104,
+      "de": "Du glaubst mir anscheinend nicht.",
+      "esText": "Parece que no me crees.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-105",
+      "index": 105,
+      "de": "Meiner Ansicht nach...",
+      "esText": "En mi opinión...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-106",
+      "index": 106,
+      "de": "Stell dich nicht so an!",
+      "esText": "¡No finjas!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-107",
+      "index": 107,
+      "de": "An die Arbeit gehen.",
+      "esText": "Empezar a trabajar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-108",
+      "index": 108,
+      "de": "Außer Atem sein.",
+      "esText": "Estar sin aliento.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-109",
+      "index": 109,
+      "de": "Guten Appetit!",
+      "esText": "¡Buen apetito!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-110",
+      "index": 110,
+      "de": "In einem Atemzug.",
+      "esText": "En un suspiro.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-111",
+      "index": 111,
+      "de": "Auf jeden Fall.",
+      "esText": "En cada caso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-112",
+      "index": 112,
+      "de": "Auf einmal war alles still.",
+      "esText": "De repente todo quedó en silencio.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-113",
+      "index": 113,
+      "de": "Bitte mach die Tür auf!",
+      "esText": "¡Por favor abre la puerta!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-114",
+      "index": 114,
+      "de": "Er hat den Kredit aufgenommen.",
+      "esText": "Tomó un préstamo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-115",
+      "index": 115,
+      "de": "Wir müssen heute aufräumen.",
+      "esText": "Tenemos que ordenar la habitación hoy.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-116",
+      "index": 116,
+      "de": "Ich höre jetzt auf.",
+      "esText": "Me detendré ahora.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-117",
+      "index": 117,
+      "de": "Er ist schon auf.",
+      "esText": "Él ya está levantado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-118",
+      "index": 118,
+      "de": "Wir müssen das Treffen verschieben.",
+      "esText": "Tenemos que reprogramar la reunión.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-119",
+      "index": 119,
+      "de": "Sie hat mich aufgeregt.",
+      "esText": "Ella me irritó.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-120",
+      "index": 120,
+      "de": "Auf einmal.",
+      "esText": "De repente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-121",
+      "index": 121,
+      "de": "Auf der Stelle.",
+      "esText": "Inmediatamente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-122",
+      "index": 122,
+      "de": "Für den Schaden aufkommen.",
+      "esText": "Cubrir los daños.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-123",
+      "index": 123,
+      "de": "Bitte die Tür auf!",
+      "esText": "¡Abre la puerta, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-124",
+      "index": 124,
+      "de": "Aufrecht sitzen.",
+      "esText": "Erguirse.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-125",
+      "index": 125,
+      "de": "Er ist auf.",
+      "esText": "Se ha puesto de pie.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-126",
+      "index": 126,
+      "de": "Alle Kräfte aufwenden.",
+      "esText": "Dedica todas tus fuerzas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-127",
+      "index": 127,
+      "de": "Viel Mühe aufwenden.",
+      "esText": "Esfuérzate mucho.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-128",
+      "index": 128,
+      "de": "Geh mir aus den Augen!",
+      "esText": "¡No me mires más!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-129",
+      "index": 129,
+      "de": "Unter vier Augen.",
+      "esText": "En dos. • En silencio",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-130",
+      "index": 130,
+      "de": "Aus Mangel an Zeit.",
+      "esText": "Por falta de tiempo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-131",
+      "index": 131,
+      "de": "Aus diesem Grunde.",
+      "esText": "Por esta razón.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-132",
+      "index": 132,
+      "de": "Alle außer dir.",
+      "esText": "Todos menos tú.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-133",
+      "index": 133,
+      "de": "Auf Äußerlichkeiten Wert legen.",
+      "esText": "Dale importancia a la apariencia.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-134",
+      "index": 134,
+      "de": "Im äußersten Fall.",
+      "esText": "En el peor de los casos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-135",
+      "index": 135,
+      "de": "Äußerst wichtig.",
+      "esText": "Extremadamente importante.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-136",
+      "index": 136,
+      "de": "Aussicht auf die See.",
+      "esText": "Vista al mar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-137",
+      "index": 137,
+      "de": "Er hat gute Aussichten.",
+      "esText": "Tiene buenas posibilidades.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-138",
+      "index": 138,
+      "de": "Wie wird dieses Wort ausgesprochen?",
+      "esText": "¿Cómo se pronuncia esta palabra?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-139",
+      "index": 139,
+      "de": "Sein Beileid aussprechen.",
+      "esText": "Expresar condolencias.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-140",
+      "index": 140,
+      "de": "Wann wurden die Meisterschaftskämpfe ausgetragen?",
+      "esText": "¿Cuándo fue el campeonato?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-141",
+      "index": 141,
+      "de": "Welchen Beruf üben Sie aus?",
+      "esText": "¿Cuál es tu profesión?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-142",
+      "index": 142,
+      "de": "Einfluss ausüben.",
+      "esText": "Influir.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-143",
+      "index": 143,
+      "de": "Auswärts essen.",
+      "esText": "Comer fuera.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-144",
+      "index": 144,
+      "de": "Per Bahn.",
+      "esText": "Por ferrocarril.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-145",
+      "index": 145,
+      "de": "Mit der Bahn.",
+      "esText": "Por ferrocarril.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-146",
+      "index": 146,
+      "de": "Möglichst bald.",
+      "esText": "Lo antes posible.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-147",
+      "index": 147,
+      "de": "Mir ist Angst und bange.",
+      "esText": "Tengo mucho miedo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-148",
+      "index": 148,
+      "de": "Auf die lange Bank schieben.",
+      "esText": "Aplazar. • Arrastrar hasta el final • Posponer indefinidamente",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-149",
+      "index": 149,
+      "de": "Bar zahlen.",
+      "esText": "Pagar en metálico.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-150",
+      "index": 150,
+      "de": "Erz bauen.",
+      "esText": "Consigue mineral.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-151",
+      "index": 151,
+      "de": "Mist bauen.",
+      "esText": "Disparar. • Haz el ridículo",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-152",
+      "index": 152,
+      "de": "Ich bin beauftragt.",
+      "esText": "Me han asignado un trabajo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-153",
+      "index": 153,
+      "de": "Nach Bedarf.",
+      "esText": "Según sea necesario.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-154",
+      "index": 154,
+      "de": "Ich bedauere ihn.",
+      "esText": "Lo siento por él.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-155",
+      "index": 155,
+      "de": "Was bedeutet dieses Wort?",
+      "esText": "¿Qué significa esta palabra?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-156",
+      "index": 156,
+      "de": "Unter der Bedingung, dass...",
+      "esText": "Siempre que...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-157",
+      "index": 157,
+      "de": "Sie sieht bedrückt aus.",
+      "esText": "Parece deprimida.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-158",
+      "index": 158,
+      "de": "Hinweise befolgen.",
+      "esText": "Sigue las instrucciones.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-159",
+      "index": 159,
+      "de": "Befehle befolgen.",
+      "esText": "Sigue órdenes.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-160",
+      "index": 160,
+      "de": "Mit der Post befördern.",
+      "esText": "Enviar por correo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-161",
+      "index": 161,
+      "de": "Ich bin begierig zu wissen.",
+      "esText": "Realmente quiero saberlo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-162",
+      "index": 162,
+      "de": "Zu Beginn.",
+      "esText": "Al principio.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-163",
+      "index": 163,
+      "de": "Am Beginn.",
+      "esText": "Al principio.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-164",
+      "index": 164,
+      "de": "Bei Beginn.",
+      "esText": "A partir de",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-165",
+      "index": 165,
+      "de": "In Begleitung.",
+      "esText": "Acompañado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-166",
+      "index": 166,
+      "de": "Mit seiner Begleitung.",
+      "esText": "Con acompañamiento.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-167",
+      "index": 167,
+      "de": "Er ist schwer von Begriff.",
+      "esText": "Es lento para percibir. • Tiene un pensamiento lento",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-168",
+      "index": 168,
+      "de": "Im Gedächtnis behalten.",
+      "esText": "Recordar. • Mantener en la memoria",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-169",
+      "index": 169,
+      "de": "Bei Tisch.",
+      "esText": "A la mesa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-170",
+      "index": 170,
+      "de": "Bei Sinnen sein.",
+      "esText": "Estar cuerdo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-171",
+      "index": 171,
+      "de": "Bei Tage.",
+      "esText": "Durante el día.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-172",
+      "index": 172,
+      "de": "Bei weitem nicht so.",
+      "esText": "De nada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-173",
+      "index": 173,
+      "de": "Alle beide.",
+      "esText": "Ambos dos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-174",
+      "index": 174,
+      "de": "Stürmischer Beifall brach los.",
+      "esText": "Hubo un estruendoso aplauso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-175",
+      "index": 175,
+      "de": "Beifall finden.",
+      "esText": "Obtener el consentimiento.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-176",
+      "index": 176,
+      "de": "Beileid aussprechen.",
+      "esText": "Expresar condolencias.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-177",
+      "index": 177,
+      "de": "Auf eigenen Beinen stehen.",
+      "esText": "Ser financieramente independiente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-178",
+      "index": 178,
+      "de": "Zum Beispiel.",
+      "esText": "Por ejemplo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-179",
+      "index": 179,
+      "de": "Beistand leisten.",
+      "esText": "Para ayudar. • Proporcionar asistencia",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-180",
+      "index": 180,
+      "de": "Beitrag leisten.",
+      "esText": "Invierta su parte.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-181",
+      "index": 181,
+      "de": "Jemandes Bekanntschaft machen.",
+      "esText": "Conoce a alguien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-182",
+      "index": 182,
+      "de": "Bekanntschaft anknüpfen.",
+      "esText": "Conózcanse unos a otros. • Establecer contacto",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-183",
+      "index": 183,
+      "de": "Belegte Brötchen.",
+      "esText": "Sándwiches con aderezos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-184",
+      "index": 184,
+      "de": "Nach Ihrem Belieben.",
+      "esText": "Como desées.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-185",
+      "index": 185,
+      "de": "Zu jeder beliebigen Zeit.",
+      "esText": "En cualquier momento.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-186",
+      "index": 186,
+      "de": "Schweigen beobachten.",
+      "esText": "Observar el silencio.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-187",
+      "index": 187,
+      "de": "Zur Bequemlichkeit.",
+      "esText": "Por conveniencia.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-188",
+      "index": 188,
+      "de": "Bereit sein.",
+      "esText": "Estar preparado. • Estar en paz",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-189",
+      "index": 189,
+      "de": "Unfallopfer bergen.",
+      "esText": "Rescatar a las víctimas en caso de accidente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-190",
+      "index": 190,
+      "de": "Bericht erstatten.",
+      "esText": "Informe. • Proporcionar un informe. • Proporcionar una descripción general.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-191",
+      "index": 191,
+      "de": "Alle Plätze sind besetzt.",
+      "esText": "Todos los asientos están ocupados.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-192",
+      "index": 192,
+      "de": "Neue Besen kehren gut.",
+      "esText": "Una escoba nueva barre bien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-193",
+      "index": 193,
+      "de": "Er besitzt ein Haus.",
+      "esText": "Es dueño de una casa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-194",
+      "index": 194,
+      "de": "Er besitzt viel Mut.",
+      "esText": "Tiene un gran coraje.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-195",
+      "index": 195,
+      "de": "Desto besser.",
+      "esText": "Cuanto mejor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-196",
+      "index": 196,
+      "de": "Gute Besserung!",
+      "esText": "¡Reponerse! • ¡Reponerse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-197",
+      "index": 197,
+      "de": "Beim besten Willen.",
+      "esText": "Lo que quieras.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-198",
+      "index": 198,
+      "de": "Am besten.",
+      "esText": "El mejor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-199",
+      "index": 199,
+      "de": "Es besteht Zweifel.",
+      "esText": "Hay dudas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-200",
+      "index": 200,
+      "de": "Seine Aufgabe besteht darin...",
+      "esText": "Su tarea es...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-201",
+      "index": 201,
+      "de": "Grüße bestellen.",
+      "esText": "Saluda.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-202",
+      "index": 202,
+      "de": "Ganz bestimmt.",
+      "esText": "Definitivamente. • Completamente seguro",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-203",
+      "index": 203,
+      "de": "Zu Besuch kommen.",
+      "esText": "Ven a visitarnos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-204",
+      "index": 204,
+      "de": "Zu Besuch sein.",
+      "esText": "Para visitar. • Para visitar",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-205",
+      "index": 205,
+      "de": "Oft Konzerte besuchen.",
+      "esText": "A menudo van a conciertos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-206",
+      "index": 206,
+      "de": "Welche Schule hat er besucht?",
+      "esText": "¿A qué escuela fue?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-207",
+      "index": 207,
+      "de": "In Betracht ziehen.",
+      "esText": "Tener en cuenta. • Considerar",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-208",
+      "index": 208,
+      "de": "Außer Betracht lassen.",
+      "esText": "Indiferencia. • No considere",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-209",
+      "index": 209,
+      "de": "Er betreibt ein Hotel.",
+      "esText": "Dirige un hotel.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-210",
+      "index": 210,
+      "de": "Alle beiden.",
+      "esText": "Ambos dos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-211",
+      "index": 211,
+      "de": "Alles bezahlen.",
+      "esText": "Paga todo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-212",
+      "index": 212,
+      "de": "Bezüglich auf etwas.",
+      "esText": "Respecto a algo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-213",
+      "index": 213,
+      "de": "Bitte schön.",
+      "esText": "Por favor",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-214",
+      "index": 214,
+      "de": "Wie bitte?",
+      "esText": "como por favor",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-215",
+      "index": 215,
+      "de": "Bitte sehr.",
+      "esText": "Por favor",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-216",
+      "index": 216,
+      "de": "Ich habe eine Bitte an Sie.",
+      "esText": "Tengo una solicitud para ti.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-217",
+      "index": 217,
+      "de": "Trompete blasen.",
+      "esText": "Toca la trompeta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-218",
+      "index": 218,
+      "de": "In einem Buch blättern.",
+      "esText": "Ordena el libro.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-219",
+      "index": 219,
+      "de": "Mit bloßen Füßen.",
+      "esText": "Pies descalzos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-220",
+      "index": 220,
+      "de": "Mit bloßem Auge.",
+      "esText": "A simple vista.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-221",
+      "index": 221,
+      "de": "Danke für die Blumen!",
+      "esText": "¡Gracias por las flores!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-222",
+      "index": 222,
+      "de": "Alles in Butter.",
+      "esText": "Todo está bien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-223",
+      "index": 223,
+      "de": "Bitte checken.",
+      "esText": "Controlar. • Controlar",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-224",
+      "index": 224,
+      "de": "Da ist er!",
+      "esText": "¡Aquí está!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-225",
+      "index": 225,
+      "de": "Alles spricht dafür.",
+      "esText": "Todo habla bien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-226",
+      "index": 226,
+      "de": "Ich kann nichts dafür.",
+      "esText": "No puedo hacer nada allí.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-227",
+      "index": 227,
+      "de": "Ich bin dagegen.",
+      "esText": "Estoy en contra.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-228",
+      "index": 228,
+      "de": "Ich habe nichts dagegen.",
+      "esText": "No tengo ninguna objeción a eso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-229",
+      "index": 229,
+      "de": "Von daheim.",
+      "esText": "Desde casa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-230",
+      "index": 230,
+      "de": "Mit der Dame ziehen.",
+      "esText": "Haz un movimiento de dama.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-231",
+      "index": 231,
+      "de": "Es dämmert.",
+      "esText": "Se está haciendo de noche. • Amanece.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-232",
+      "index": 232,
+      "de": "Danke schön!",
+      "esText": "¡Gracias! • ¡Gracias!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-233",
+      "index": 233,
+      "de": "Dann und wann.",
+      "esText": "De vez en cuando.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-234",
+      "index": 234,
+      "de": "Darauf kannst du dich verlassen.",
+      "esText": "Puedes contar con eso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-235",
+      "index": 235,
+      "de": "Daraus wird nichts.",
+      "esText": "No saldrá nada de ello.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-236",
+      "index": 236,
+      "de": "So dass...",
+      "esText": "De modo que...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-237",
+      "index": 237,
+      "de": "Für wen halten Sie mich?",
+      "esText": "¿Qué crees que soy?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-238",
+      "index": 238,
+      "de": "Hände weg!",
+      "esText": "¡Fuera las manos!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-239",
+      "index": 239,
+      "de": "Lass den Kopf nicht hängen!",
+      "esText": "¡No bajes la cabeza!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-240",
+      "index": 240,
+      "de": "zu Hause",
+      "esText": "en casa",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-241",
+      "index": 241,
+      "de": "nach Hause gehen",
+      "esText": "ir a casa",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-242",
+      "index": 242,
+      "de": "von Haus aus",
+      "esText": "desde la niñez • desde el principio",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-243",
+      "index": 243,
+      "de": "Meinen herzlichsten Glückwunsch!",
+      "esText": "¡Felicidades!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-244",
+      "index": 244,
+      "de": "Seien Sie so gut!",
+      "esText": "¡Sea tan amable! • ¡Sé tan bueno!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-245",
+      "index": 245,
+      "de": "Haben Sie die Güte!",
+      "esText": "¡Sea tan amable!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-246",
+      "index": 246,
+      "de": "Was hast du?",
+      "esText": "¿Qué sucede contigo? • ¿Qué pasó?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-247",
+      "index": 247,
+      "de": "Gestatten Sie bitte!",
+      "esText": "¡Permíteme, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-248",
+      "index": 248,
+      "de": "Ist es gestattet zu rauchen?",
+      "esText": "¿Puedo fumar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-249",
+      "index": 249,
+      "de": "Ich muss gestehen, dass...",
+      "esText": "Tengo que admitir que...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-250",
+      "index": 250,
+      "de": "gestern früh",
+      "esText": "temprano ayer por la mañana",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-251",
+      "index": 251,
+      "de": "gestern Abend",
+      "esText": "anoche",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-252",
+      "index": 252,
+      "de": "Es ist mir gleichgültig, ob...",
+      "esText": "No me importa si...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-253",
+      "index": 253,
+      "de": "Was ist geschehen?",
+      "esText": "¿Qué pasó?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-254",
+      "index": 254,
+      "de": "Mach keine Geschichten!",
+      "esText": "¡No hagas tonterías! • ¡No hagas bromas!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-255",
+      "index": 255,
+      "de": "Geschweige denn...",
+      "esText": "Sin mencionar eso. • ¿Dónde más?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-256",
+      "index": 256,
+      "de": "Gehen Sie geradeaus!",
+      "esText": "¡Sigue recto!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-257",
+      "index": 257,
+      "de": "Wie geht es Ihnen?",
+      "esText": "¿Cómo está usted?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-258",
+      "index": 258,
+      "de": "Frag ihn gelegentlich, ob...",
+      "esText": "Pregúntale si sale si...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-259",
+      "index": 259,
+      "de": "morgen früh",
+      "esText": "mañana por la mañana",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-260",
+      "index": 260,
+      "de": "im Frühling",
+      "esText": "en la primavera",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-261",
+      "index": 261,
+      "de": "Was gibt’s Neues?",
+      "esText": "¿Qué hay de nuevo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-262",
+      "index": 262,
+      "de": "Aus diesem Brief folgt, dass...",
+      "esText": "De esta carta se desprende que...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-263",
+      "index": 263,
+      "de": "Fahre fort!",
+      "esText": "¡Avanza!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-264",
+      "index": 264,
+      "de": "Er ist kein Freund von...",
+      "esText": "A él no le gusta...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-265",
+      "index": 265,
+      "de": "Es erwies sich, dass...",
+      "esText": "Resultó que...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-266",
+      "index": 266,
+      "de": "Gedenkst du meiner?",
+      "esText": "¿Te acuerdas de mí? ¿Has pensado en mí?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-267",
+      "index": 267,
+      "de": "im Winter",
+      "esText": "en invierno",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-268",
+      "index": 268,
+      "de": "Welcher Jahrgang sind Sie?",
+      "esText": "¿En qué año naciste?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-269",
+      "index": 269,
+      "de": "Es jammert mich zu sehen...",
+      "esText": "Triste de ver...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-270",
+      "index": 270,
+      "de": "je mehr, desto besser",
+      "esText": "cuanto más mejor",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-271",
+      "index": 271,
+      "de": "bis jetzt",
+      "esText": "hasta ahora",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-272",
+      "index": 272,
+      "de": "Wie komme ich zum Bahnhof?",
+      "esText": "¿Cómo llegar a la estación?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-273",
+      "index": 273,
+      "de": "Komm her!",
+      "esText": "¡Ven aquí!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-274",
+      "index": 274,
+      "de": "Könnte ich Frau N. sprechen?",
+      "esText": "¿Puedo hablar con la señora N.?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-275",
+      "index": 275,
+      "de": "Was kostet das?",
+      "esText": "¿Cuánto cuesta?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-276",
+      "index": 276,
+      "de": "Wie lange dauert die Vorstellung?",
+      "esText": "¿Cuánto durará la actuación?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-277",
+      "index": 277,
+      "de": "Lass das!",
+      "esText": "¡Basta! • ¡Déjalo!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-278",
+      "index": 278,
+      "de": "Lass mich in Ruhe!",
+      "esText": "¡Déjame en paz!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-279",
+      "index": 279,
+      "de": "Lassen Sie mich Ihnen helfen!",
+      "esText": "¡Déjame ayudarte!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-280",
+      "index": 280,
+      "de": "Lasst uns gehen!",
+      "esText": "¡Vamos!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-281",
+      "index": 281,
+      "de": "Na, wie läufts?",
+      "esText": "Cómo estás",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-282",
+      "index": 282,
+      "de": "Es lebe!",
+      "esText": "¡Viva!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-283",
+      "index": 283,
+      "de": "Leben Sie wohl!",
+      "esText": "¡Viva sano! • ¡Adiós!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-284",
+      "index": 284,
+      "de": "Was ist los?",
+      "esText": "¿Qué pasó?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-285",
+      "index": 285,
+      "de": "Der Job ist anstrengend.",
+      "esText": "El trabajo es agotador.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-286",
+      "index": 286,
+      "de": "Das war ein anstrengender Tag.",
+      "esText": "Fue un día ajetreado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-287",
+      "index": 287,
+      "de": "Deutsch lernen kann anstrengend sein.",
+      "esText": "Aprender alemán puede resultar agotador.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-288",
+      "index": 288,
+      "de": "Er verlangt eine Erklärung.",
+      "esText": "Exige una explicación.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-289",
+      "index": 289,
+      "de": "Der Verkäufer verlangt zu viel Geld.",
+      "esText": "El vendedor pide demasiado dinero.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-290",
+      "index": 290,
+      "de": "Das Gesetz verlangt es so.",
+      "esText": "La ley lo exige.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-291",
+      "index": 291,
+      "de": "Das ist gar nicht so schwer.",
+      "esText": "No es tan difícil en absoluto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-292",
+      "index": 292,
+      "de": "Ich habe gar kein Geld.",
+      "esText": "No tengo dinero en absoluto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-293",
+      "index": 293,
+      "de": "Er hat gar nichts gesagt.",
+      "esText": "No dijo nada en absoluto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-294",
+      "index": 294,
+      "de": "Der Hund ist los.",
+      "esText": "El perro ha sido liberado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-295",
+      "index": 295,
+      "de": "Hier ist viel los.",
+      "esText": "Están sucediendo muchas cosas aquí.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-296",
+      "index": 296,
+      "de": "Halt die Luft an!",
+      "esText": "¡Contén la respiración!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-297",
+      "index": 297,
+      "de": "Was machst du?",
+      "esText": "qué estás haciendo",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-298",
+      "index": 298,
+      "de": "Sag mal!",
+      "esText": "¡Di que sí!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-299",
+      "index": 299,
+      "de": "Was meinen Sie damit?",
+      "esText": "¿Qué quieres decir con eso? • ¿Qué opinas?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-300",
+      "index": 300,
+      "de": "Wir gehen mit Ihnen.",
+      "esText": "Nosotros vamos contigo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-301",
+      "index": 301,
+      "de": "Ich fahre mit der Eisenbahn.",
+      "esText": "Viajo en tren.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-302",
+      "index": 302,
+      "de": "am Mittwoch",
+      "esText": "El miércoles",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-303",
+      "index": 303,
+      "de": "Es mag sein.",
+      "esText": "Tal vez.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-304",
+      "index": 304,
+      "de": "Ich mag das nicht.",
+      "esText": "No me gusta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-305",
+      "index": 305,
+      "de": "am Montag",
+      "esText": "los lunes",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-306",
+      "index": 306,
+      "de": "Guten Morgen!",
+      "esText": "¡Buen día!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-307",
+      "index": 307,
+      "de": "am Morgen",
+      "esText": "por la mañana",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-308",
+      "index": 308,
+      "de": "Gute Nacht!",
+      "esText": "¡Buenas noches!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-309",
+      "index": 309,
+      "de": "Nehmen Sie Platz!",
+      "esText": "¡Sentarse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-310",
+      "index": 310,
+      "de": "Letzte Neuheit!",
+      "esText": "¡Las últimas noticias!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-311",
+      "index": 311,
+      "de": "Nicht wahr?",
+      "esText": "¿bien?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-312",
+      "index": 312,
+      "de": "Nicht doch!",
+      "esText": "¡No, por supuesto! • ¡No!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-313",
+      "index": 313,
+      "de": "Nun endlich!",
+      "esText": "Bueno, ¡por fin!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-314",
+      "index": 314,
+      "de": "Wozu nützt das?",
+      "esText": "¿Para qué sirve?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-315",
+      "index": 315,
+      "de": "Wozu nützt das alles?",
+      "esText": "¿Para qué es todo esto?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-316",
+      "index": 316,
+      "de": "Parken verboten!",
+      "esText": "¡Está prohibido aparcar!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-317",
+      "index": 317,
+      "de": "Nicht parken!",
+      "esText": "¡Está prohibido aparcar!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-318",
+      "index": 318,
+      "de": "Er hat Recht.",
+      "esText": "Tiene razón.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-319",
+      "index": 319,
+      "de": "Wovon ist die Rede?",
+      "esText": "¿De qué se trata?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-320",
+      "index": 320,
+      "de": "Davon kann keine Rede sein.",
+      "esText": "Eso está fuera de discusión.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-321",
+      "index": 321,
+      "de": "Glückliche Reise!",
+      "esText": "¡Se usa viaje!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-322",
+      "index": 322,
+      "de": "Mir reißt die Geduld.",
+      "esText": "Se me está acabando la paciencia.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-323",
+      "index": 323,
+      "de": "Man sagt, dass...",
+      "esText": "Dicen que...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-324",
+      "index": 324,
+      "de": "Schon gut!",
+      "esText": "¡Ya está bueno!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-325",
+      "index": 325,
+      "de": "Bitte schön!",
+      "esText": "¡Por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-326",
+      "index": 326,
+      "de": "Was bin ich schuldig?",
+      "esText": "¿Cuánto debo? • ¿Cuánto tengo que pagar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-327",
+      "index": 327,
+      "de": "Vor dem Gebrauch schütteln!",
+      "esText": "Agitar antes de usar!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-328",
+      "index": 328,
+      "de": "Sehen Sie mal!",
+      "esText": "¡Echa un vistazo!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-329",
+      "index": 329,
+      "de": "Wie sehr auch...",
+      "esText": "Cuánto cuesta...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-330",
+      "index": 330,
+      "de": "Seit wann?",
+      "esText": "¿Desde cuándo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-331",
+      "index": 331,
+      "de": "Was soll ich tun?",
+      "esText": "¿Qué tengo que hacer?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-332",
+      "index": 332,
+      "de": "im Sommer",
+      "esText": "en el verano",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-333",
+      "index": 333,
+      "de": "Nicht nur..., sondern auch...",
+      "esText": "No sólo... sino también...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-334",
+      "index": 334,
+      "de": "Sonst noch etwas?",
+      "esText": "¿Algo más?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-335",
+      "index": 335,
+      "de": "Spaß beiseite!",
+      "esText": "¡No es broma! • ¡Bromas al límite!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-336",
+      "index": 336,
+      "de": "Wie spät ist es?",
+      "esText": "¿qué hora es?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-337",
+      "index": 337,
+      "de": "Durchfahrt gesperrt!",
+      "esText": "¡Está prohibido circular!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-338",
+      "index": 338,
+      "de": "Sprechen Sie deutsch?",
+      "esText": "¿Hablas alemán?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-339",
+      "index": 339,
+      "de": "Statt zu...",
+      "esText": "En lugar de...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-340",
+      "index": 340,
+      "de": "Wie steht’s?",
+      "esText": "Cómo estás",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-341",
+      "index": 341,
+      "de": "Dieser Hut steht ihr gut.",
+      "esText": "Este sombrero le sienta bien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-342",
+      "index": 342,
+      "de": "Guten Tag!",
+      "esText": "¡Hola!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-343",
+      "index": 343,
+      "de": "Wo treffen wir uns?",
+      "esText": "¿Dónde nos encontraremos?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-344",
+      "index": 344,
+      "de": "Treten Sie näher!",
+      "esText": "¡Acércate!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-345",
+      "index": 345,
+      "de": "Ehrlichkeit ist eine Tugend.",
+      "esText": "La honestidad es una virtud.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-346",
+      "index": 346,
+      "de": "Ich habe viel zu tun.",
+      "esText": "Tengo mucho que hacer.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-347",
+      "index": 347,
+      "de": "Nicht übel!",
+      "esText": "¡Muy bien! • No hay ninguna objeción",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-348",
+      "index": 348,
+      "de": "Er wohnt über mir.",
+      "esText": "Él vive encima de mí.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-349",
+      "index": 349,
+      "de": "Er ist davon überzeugt.",
+      "esText": "Está seguro de ello.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-350",
+      "index": 350,
+      "de": "So ist es üblich.",
+      "esText": "Se acepta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-351",
+      "index": 351,
+      "de": "Deine Uhr geht nach.",
+      "esText": "Tu reloj está atrasado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-352",
+      "index": 352,
+      "de": "Wie viel Uhr ist es?",
+      "esText": "¿Qué hora es?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-353",
+      "index": 353,
+      "de": "Um acht Uhr früh.",
+      "esText": "A las ocho de la mañana.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-354",
+      "index": 354,
+      "de": "umso mehr",
+      "esText": "cuanto más",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-355",
+      "index": 355,
+      "de": "Rechts um!",
+      "esText": "¡Gire a la derecha!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-356",
+      "index": 356,
+      "de": "Und ob!",
+      "esText": "¡Y qué más!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-357",
+      "index": 357,
+      "de": "und zwar",
+      "esText": "a saber",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-358",
+      "index": 358,
+      "de": "Auf Unkosten von...",
+      "esText": "A costa de...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-359",
+      "index": 359,
+      "de": "Er saß unter den Zuschauern.",
+      "esText": "Se sentó entre la audiencia.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-360",
+      "index": 360,
+      "de": "Keine Ursache!",
+      "esText": "¡Nada por nada!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-361",
+      "index": 361,
+      "de": "Es geschah, wie verabredet.",
+      "esText": "Sucedió según lo acordado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-362",
+      "index": 362,
+      "de": "Rauchen verboten!",
+      "esText": "¡Está prohibido fumar!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-363",
+      "index": 363,
+      "de": "Falsch verbunden!",
+      "esText": "¡Conexión incorrecta!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-364",
+      "index": 364,
+      "de": "Eintritt verboten!",
+      "esText": "¡La entrada está prohibida!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-365",
+      "index": 365,
+      "de": "Verstehen Sie mich?",
+      "esText": "¿Me entiendes?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-366",
+      "index": 366,
+      "de": "Er versteht nichts davon.",
+      "esText": "Él no entiende nada al respecto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-367",
+      "index": 367,
+      "de": "Seine Ansicht vertreten.",
+      "esText": "Defiende tu opinión.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-368",
+      "index": 368,
+      "de": "Streit verursachen.",
+      "esText": "Provocar una discusión.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-369",
+      "index": 369,
+      "de": "Viel besser.",
+      "esText": "Mucho mejor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-370",
+      "index": 370,
+      "de": "Zu viel.",
+      "esText": "Demasiado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-371",
+      "index": 371,
+      "de": "Vom Hörensagen.",
+      "esText": "Después de escuchar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-372",
+      "index": 372,
+      "de": "Von Zeit zu Zeit.",
+      "esText": "De vez en cuando.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-373",
+      "index": 373,
+      "de": "Von Beruf.",
+      "esText": "De profesión.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-374",
+      "index": 374,
+      "de": "Er ist Berliner von Geburt.",
+      "esText": "Es berlinés de nacimiento.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-375",
+      "index": 375,
+      "de": "Er steht vor dem Fenster.",
+      "esText": "Él está parado junto a la ventana.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-376",
+      "index": 376,
+      "de": "Vor Sonnenaufgang.",
+      "esText": "Antes del amanecer.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-377",
+      "index": 377,
+      "de": "Vor vierzehn Tagen.",
+      "esText": "Hace dos semanas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-378",
+      "index": 378,
+      "de": "Vor Freude.",
+      "esText": "Por diversión.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-379",
+      "index": 379,
+      "de": "Vor allem.",
+      "esText": "En primer lugar. • En primer lugar",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-380",
+      "index": 380,
+      "de": "Im Voraus.",
+      "esText": "Previamente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-381",
+      "index": 381,
+      "de": "Unter der Voraussetzung, dass...",
+      "esText": "Suponiendo que...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-382",
+      "index": 382,
+      "de": "Unter dem Vorbehalt.",
+      "esText": "Condicionalmente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-383",
+      "index": 383,
+      "de": "Vorhanden sein.",
+      "esText": "Ser. • Estar presente • Estar disponible",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-384",
+      "index": 384,
+      "de": "In der vorigen Woche.",
+      "esText": "La semana pasada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-385",
+      "index": 385,
+      "de": "Vorkehrungen treffen.",
+      "esText": "Tomar medidas de protección.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-386",
+      "index": 386,
+      "de": "Sie kommt mir bekannt vor.",
+      "esText": "Ella me resulta familiar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-387",
+      "index": 387,
+      "de": "Er hat Vorliebe für Literatur.",
+      "esText": "Le gusta mucho la literatura.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-388",
+      "index": 388,
+      "de": "Heute Vormittag.",
+      "esText": "Esta mañana. • Hoy por la mañana",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-389",
+      "index": 389,
+      "de": "Von vorn.",
+      "esText": "Desde el frente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-390",
+      "index": 390,
+      "de": "Nach vorn.",
+      "esText": "Adelante.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-391",
+      "index": 391,
+      "de": "Von vornherein.",
+      "esText": "Al principio.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-392",
+      "index": 392,
+      "de": "Im Vorteil sein.",
+      "esText": "Estar en una mejor posición.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-393",
+      "index": 393,
+      "de": "Wach sein.",
+      "esText": "Estar despierto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-394",
+      "index": 394,
+      "de": "Wach werden.",
+      "esText": "Despertar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-395",
+      "index": 395,
+      "de": "Auf Wache sein.",
+      "esText": "Haz guardia.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-396",
+      "index": 396,
+      "de": "Während eines Jahres.",
+      "esText": "Durante el año.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-397",
+      "index": 397,
+      "de": "Während des Krieges.",
+      "esText": "Durante la guerra.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-398",
+      "index": 398,
+      "de": "Gegen eine Wand reden.",
+      "esText": "Habla en vano.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-399",
+      "index": 399,
+      "de": "Hier haben die Wände Ohren.",
+      "esText": "Aquí las paredes tienen oídos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-400",
+      "index": 400,
+      "de": "Bis wann?",
+      "esText": "¿Hasta cuando?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-401",
+      "index": 401,
+      "de": "Es ist warm.",
+      "esText": "Es cálido.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-402",
+      "index": 402,
+      "de": "Auf eine Nachricht warten.",
+      "esText": "Espere el mensaje.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-403",
+      "index": 403,
+      "de": "Was wollen Sie?",
+      "esText": "¿Qué deseas?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-404",
+      "index": 404,
+      "de": "Was für ein...?",
+      "esText": "¿Qué clase de...? • ¿Qué tipo de...?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-405",
+      "index": 405,
+      "de": "Auf halbem Wege.",
+      "esText": "A medio camino.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-406",
+      "index": 406,
+      "de": "Auf diesem Wege.",
+      "esText": "De esa manera. • Para dichos fondos",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-407",
+      "index": 407,
+      "de": "Auf friedlichem Wege.",
+      "esText": "En el camino de la paz.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-408",
+      "index": 408,
+      "de": "Unserer Freundschaft wegen.",
+      "esText": "Por nuestra amistad.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-409",
+      "index": 409,
+      "de": "Von Rechts wegen.",
+      "esText": "Por la justicia.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-410",
+      "index": 410,
+      "de": "Weh tun.",
+      "esText": "Para lastimar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-411",
+      "index": 411,
+      "de": "Zu Weihnachten.",
+      "esText": "Por Navidad.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-412",
+      "index": 412,
+      "de": "Auf welche Weise?",
+      "esText": "¿De qué manera?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-413",
+      "index": 413,
+      "de": "Art und Weise.",
+      "esText": "Tipo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-414",
+      "index": 414,
+      "de": "Ohne weiteres.",
+      "esText": "Inmediatamente. • Inmediatamente",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-415",
+      "index": 415,
+      "de": "Bis auf weiteres.",
+      "esText": "Hasta nuevo aviso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-416",
+      "index": 416,
+      "de": "Und so weiter.",
+      "esText": "Etcétera.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-417",
+      "index": 417,
+      "de": "Weiter nichts.",
+      "esText": "Nada más.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-418",
+      "index": 418,
+      "de": "An welchem Tag?",
+      "esText": "¿En qué día?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-419",
+      "index": 419,
+      "de": "Alle Welt.",
+      "esText": "El mundo entero. • Todos",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-420",
+      "index": 420,
+      "de": "In wenigen Tagen.",
+      "esText": "En algunos días.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-421",
+      "index": 421,
+      "de": "Zu wenig.",
+      "esText": "Muy poco.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-422",
+      "index": 422,
+      "de": "Wenn auch.",
+      "esText": "A pesar de.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-423",
+      "index": 423,
+      "de": "Wer da?",
+      "esText": "¿Qué hay ahí?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-424",
+      "index": 424,
+      "de": "Gesammelte Werke von Schiller.",
+      "esText": "Los escritos completos de Schiller.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-425",
+      "index": 425,
+      "de": "Ausgewählte Werke.",
+      "esText": "Una selección de obras.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-426",
+      "index": 426,
+      "de": "Er ist wert, dass...",
+      "esText": "Él merece...",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-427",
+      "index": 427,
+      "de": "Es ist zwei Euro wert.",
+      "esText": "Cuesta dos euros.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-428",
+      "index": 428,
+      "de": "Nach Westen.",
+      "esText": "Al oeste.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-429",
+      "index": 429,
+      "de": "Von Westen.",
+      "esText": "Del oeste.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-430",
+      "index": 430,
+      "de": "In Wettbewerb treten.",
+      "esText": "Entra en la competición.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-431",
+      "index": 431,
+      "de": "Um die Wette laufen.",
+      "esText": "Corre la carrera.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-432",
+      "index": 432,
+      "de": "Was gilt die Wette?",
+      "esText": "¿Qué estamos negociando?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-433",
+      "index": 433,
+      "de": "Wie wird das Wetter?",
+      "esText": "¿Cómo será el clima?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-434",
+      "index": 434,
+      "de": "Wettkampf im Turnen.",
+      "esText": "Competiciones de gimnasia.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-435",
+      "index": 435,
+      "de": "Wider meinen Willen.",
+      "esText": "Contra mi voluntad.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-436",
+      "index": 436,
+      "de": "Widerspruch erheben.",
+      "esText": "Para protestar. • Plantear objeciones",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-437",
+      "index": 437,
+      "de": "Wie alt ist er?",
+      "esText": "¿Cuántos años tiene él?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-438",
+      "index": 438,
+      "de": "Wie lange?",
+      "esText": "cuánto tiempo",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-439",
+      "index": 439,
+      "de": "Auf Wiederhören!",
+      "esText": "¡Adiós!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-440",
+      "index": 440,
+      "de": "Auf Wiedersehen!",
+      "esText": "¡Adiós!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-441",
+      "index": 441,
+      "de": "Wilde Tiere.",
+      "esText": "Animales salvajes.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-442",
+      "index": 442,
+      "de": "Herzlich willkommen!",
+      "esText": "¡Saludos cordiales!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-443",
+      "index": 443,
+      "de": "Du musst ziehen.",
+      "esText": "Tienes un movimiento.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-444",
+      "index": 444,
+      "de": "Es zieht.",
+      "esText": "Jalar",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-445",
+      "index": 445,
+      "de": "Ziemlich kalt.",
+      "esText": "Bastante frío.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-446",
+      "index": 446,
+      "de": "Zipfel einer Wurst.",
+      "esText": "Punta de salchicha.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-447",
+      "index": 447,
+      "de": "Zu ihm gehen.",
+      "esText": "Ve con él.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-448",
+      "index": 448,
+      "de": "Zur Schule gehen.",
+      "esText": "Ve a la escuela.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-449",
+      "index": 449,
+      "de": "Zu Hause bleiben.",
+      "esText": "Quedarse en casa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-450",
+      "index": 450,
+      "de": "Von Tag zu Tag.",
+      "esText": "A diario.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-451",
+      "index": 451,
+      "de": "Zum Glück.",
+      "esText": "Afortunadamente.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-452",
+      "index": 452,
+      "de": "Wasser zum Trinken.",
+      "esText": "Agua para beber.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-453",
+      "index": 453,
+      "de": "Zu Fuß.",
+      "esText": "Para piernas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-454",
+      "index": 454,
+      "de": "Zu Pferde.",
+      "esText": "Sí.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-455",
+      "index": 455,
+      "de": "Zu Rad.",
+      "esText": "En bicicleta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-456",
+      "index": 456,
+      "de": "Es hörte auf zu regnen.",
+      "esText": "Dejó de llover.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-457",
+      "index": 457,
+      "de": "Ich habe noch viel zu tun.",
+      "esText": "Todavía tengo mucho que hacer.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-458",
+      "index": 458,
+      "de": "Zu früh.",
+      "esText": "Demasiado pronto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-459",
+      "index": 459,
+      "de": "Zu groß.",
+      "esText": "Demasiado grande.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-460",
+      "index": 460,
+      "de": "Mit den Achseln zucken.",
+      "esText": "Encogimiento de hombros.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-461",
+      "index": 461,
+      "de": "In einem Zug trinken.",
+      "esText": "Bebe de un trago.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-462",
+      "index": 462,
+      "de": "Zugrunde gehen.",
+      "esText": "Perecer.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-463",
+      "index": 463,
+      "de": "Zugrunde legen.",
+      "esText": "Poner sobre la base. • Tomar como base.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-464",
+      "index": 464,
+      "de": "Zum ersten Mal.",
+      "esText": "Por primera vez.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-465",
+      "index": 465,
+      "de": "Machen Sie bitte die Tür zu!",
+      "esText": "¡Por favor cierra la puerta!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-466",
+      "index": 466,
+      "de": "Er hat zugenommen.",
+      "esText": "Ganó peso.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-467",
+      "index": 467,
+      "de": "Die Tage nehmen zu.",
+      "esText": "Los días son cada vez más largos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-468",
+      "index": 468,
+      "de": "Zusammenhängen mit etwas.",
+      "esText": "Estar asociado con algo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-469",
+      "index": 469,
+      "de": "Die Tür ist zu.",
+      "esText": "La puerta está cerrada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-470",
+      "index": 470,
+      "de": "Das hätte ich ihm nicht zugetraut.",
+      "esText": "No hubiera esperado eso de él.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-471",
+      "index": 471,
+      "de": "Freier Zutritt.",
+      "esText": "Entrada gratuita.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-472",
+      "index": 472,
+      "de": "Zutritt verboten!",
+      "esText": "¡La entrada está prohibida!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-473",
+      "index": 473,
+      "de": "Das ist zu viel!",
+      "esText": "¡Es demasiado!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-474",
+      "index": 474,
+      "de": "Zuwider werden.",
+      "esText": "Vuélvete repugnante. • enfermarse",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-475",
+      "index": 475,
+      "de": "Und zwar.",
+      "esText": "A saber.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-476",
+      "index": 476,
+      "de": "Es steht außer Zweifel.",
+      "esText": "No hay duda.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-477",
+      "index": 477,
+      "de": "Ohne Zweifel.",
+      "esText": "Sin dudarlo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-478",
+      "index": 478,
+      "de": "Zum Zweiten.",
+      "esText": "En segundo lugar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-479",
+      "index": 479,
+      "de": "Frohes neues Jahr!",
+      "esText": "¡Se usa año nuevo!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-480",
+      "index": 480,
+      "de": "Herzlichen Glückwunsch zum Geburtstag!",
+      "esText": "¡Se usa cumpleaños!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-481",
+      "index": 481,
+      "de": "Gute Reise!",
+      "esText": "¡Se usa viaje!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-482",
+      "index": 482,
+      "de": "Es freut mich, Sie kennenzulernen.",
+      "esText": "Me alegro de conocerte.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-483",
+      "index": 483,
+      "de": "Wären Sie bitte so nett?",
+      "esText": "¿Serías tan amable por favor?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-484",
+      "index": 484,
+      "de": "Ich bin Ihnen sehr dankbar.",
+      "esText": "Te estoy muy agradecido.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-485",
+      "index": 485,
+      "de": "Setzt euch bitte hin!",
+      "esText": "¡Siéntate, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-486",
+      "index": 486,
+      "de": "Ben, komm bitte an die Tafel!",
+      "esText": "¡Ben, por favor ven al tablero!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-487",
+      "index": 487,
+      "de": "Schlagt bitte die Lehrbücher auf!",
+      "esText": "¡Abre los libros de texto, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-488",
+      "index": 488,
+      "de": "Geht bitte in die Sporthalle!",
+      "esText": "¡Por favor ve al gimnasio!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-489",
+      "index": 489,
+      "de": "Schläfst du noch?",
+      "esText": "¿Todavía estás durmiendo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-490",
+      "index": 490,
+      "de": "Schlafen Sie noch?",
+      "esText": "¿Todavía estás durmiendo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-491",
+      "index": 491,
+      "de": "Er ist fest eingeschlafen.",
+      "esText": "Está profundamente dormido.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-492",
+      "index": 492,
+      "de": "Wecke ihn bitte auf, es ist schon spät!",
+      "esText": "¡Por favor despiértalo, ya es tarde!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-493",
+      "index": 493,
+      "de": "Es tut mir sehr leid!",
+      "esText": "¡Lo siento mucho!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-494",
+      "index": 494,
+      "de": "Vielen Dank!",
+      "esText": "¡Muchas gracias!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-495",
+      "index": 495,
+      "de": "Finn, fang bitte an!",
+      "esText": "¡Finn, empieza, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-496",
+      "index": 496,
+      "de": "Lest bitte mit!",
+      "esText": "¡Sigue leyendo, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-497",
+      "index": 497,
+      "de": "Emma, schau bitte nicht aus dem Fenster!",
+      "esText": "Emma, ​​¡por favor no mires por la ventana!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-498",
+      "index": 498,
+      "de": "Jonas, bring bitte die Hefte!",
+      "esText": "¡Jonas, por favor trae los cuadernos!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-499",
+      "index": 499,
+      "de": "Geh bitte zurück an deinen Platz!",
+      "esText": "¡Vuelve a tu casa!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-500",
+      "index": 500,
+      "de": "Es ist halb acht.",
+      "esText": "Son las siete y media.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-501",
+      "index": 501,
+      "de": "Wann wachst du gewöhnlich auf?",
+      "esText": "¿Cuándo sueles despertarte?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-502",
+      "index": 502,
+      "de": "Ich stehe gleich auf.",
+      "esText": "Me levantaré enseguida.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-503",
+      "index": 503,
+      "de": "Steh auf, Hanna, es klingelt!",
+      "esText": "¡Levántate, Hannah, que suena el timbre!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-504",
+      "index": 504,
+      "de": "Lass mich noch fünf Minuten schlafen!",
+      "esText": "¡Déjame dormir cinco minutos más!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-505",
+      "index": 505,
+      "de": "Vergiss nicht, das Zimmer zu lüften!",
+      "esText": "¡No olvides ventilar la habitación!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-506",
+      "index": 506,
+      "de": "Wo ist das Handtuch?",
+      "esText": "donde esta la toalla",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-507",
+      "index": 507,
+      "de": "Ich möchte mir die Zähne putzen.",
+      "esText": "Quiero cepillarme los dientes.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-508",
+      "index": 508,
+      "de": "Mit was putzt du dir die Zähne?",
+      "esText": "¿Con qué te cepillas los dientes?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-509",
+      "index": 509,
+      "de": "Ich möchte mich anziehen.",
+      "esText": "Quiero vestirme.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-510",
+      "index": 510,
+      "de": "Zieh dich bitte schnell an!",
+      "esText": "¡Vístete rápido, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-511",
+      "index": 511,
+      "de": "Kleide dich wärmer an, draußen ist es kühl.",
+      "esText": "Vístase abrigado, hace frío afuera.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-512",
+      "index": 512,
+      "de": "Guten Morgen, wie geht es dir?",
+      "esText": "Buenos días, ¿cómo estás?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-513",
+      "index": 513,
+      "de": "Mir geht es gut, danke.",
+      "esText": "Estoy bien gracias.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-514",
+      "index": 514,
+      "de": "Was gibt es Neues?",
+      "esText": "¿Qué hay de nuevo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-515",
+      "index": 515,
+      "de": "Was für ein Chaos hier!",
+      "esText": "¡Qué desastre hay aquí!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-516",
+      "index": 516,
+      "de": "Darf ich beim Aufräumen helfen?",
+      "esText": "¿Puedo ayudar a ordenar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-517",
+      "index": 517,
+      "de": "Was trinkst du morgens, Kaffee oder Tee?",
+      "esText": "¿Qué bebes por la mañana, café o té?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-518",
+      "index": 518,
+      "de": "Gewöhnlich trinke ich morgens eine Tasse Kaffee.",
+      "esText": "Normalmente tomo una taza de café por la mañana.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-519",
+      "index": 519,
+      "de": "Am liebsten trinke ich schwarzen Kaffee.",
+      "esText": "Yo bebo mejor café negro.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-520",
+      "index": 520,
+      "de": "Guten Morgen, hast du gut geschlafen?",
+      "esText": "Buenos días, ¿dormiste bien?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-521",
+      "index": 521,
+      "de": "Ich bin noch sehr müde.",
+      "esText": "Todavía estoy muy cansado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-522",
+      "index": 522,
+      "de": "Willst du Kaffee oder Milch?",
+      "esText": "¿Quieres café o leche?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-523",
+      "index": 523,
+      "de": "Gib mir bitte ein Brötchen mit Käse.",
+      "esText": "Dame un panecillo de queso, por favor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-524",
+      "index": 524,
+      "de": "Ich muss jetzt los!",
+      "esText": "¡Me tengo que ir ahora!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-525",
+      "index": 525,
+      "de": "Vergiss dein Frühstück nicht!",
+      "esText": "¡No olvides el desayuno!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-526",
+      "index": 526,
+      "de": "Klara, deck bitte den Tisch!",
+      "esText": "¡Clara, por favor pon la mesa!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-527",
+      "index": 527,
+      "de": "Vergiss die Servietten nicht!",
+      "esText": "¡No te olvides de las servilletas!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-528",
+      "index": 528,
+      "de": "Wann esst ihr zu Mittag?",
+      "esText": "cuando almuerzas",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-529",
+      "index": 529,
+      "de": "Es ist Zeit zu essen.",
+      "esText": "Es hora de comer.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-530",
+      "index": 530,
+      "de": "Was gibt es heute zu Mittag?",
+      "esText": "¿Qué hay para almorzar hoy?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-531",
+      "index": 531,
+      "de": "Wie schmeckt dir die Suppe?",
+      "esText": "¿Cómo te gusta la sopa?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-532",
+      "index": 532,
+      "de": "Ehrlich gesagt ist sie etwas zu salzig.",
+      "esText": "Francamente, es demasiado salado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-533",
+      "index": 533,
+      "de": "Darf ich dir ein Stück Brot geben?",
+      "esText": "¿Puedo darte una rebanada de pan?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-534",
+      "index": 534,
+      "de": "Danke, ich habe schon.",
+      "esText": "Gracias, ya lo tengo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-535",
+      "index": 535,
+      "de": "Das Fleisch schmeckt ausgezeichnet.",
+      "esText": "La carne sabe muy bien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-536",
+      "index": 536,
+      "de": "Danke, ich bin schon satt.",
+      "esText": "Gracias, ya estoy lleno.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-537",
+      "index": 537,
+      "de": "Heute haben wir Besuch.",
+      "esText": "Hoy tenemos visitas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-538",
+      "index": 538,
+      "de": "Bist du heute Abend frei?",
+      "esText": "¿Estás libre esta noche?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-539",
+      "index": 539,
+      "de": "Komm doch heute zum Mittagessen vorbei!",
+      "esText": "¡Ven a almorzar hoy!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-540",
+      "index": 540,
+      "de": "Setzen wir uns an den Tisch.",
+      "esText": "Sentémonos a la mesa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-541",
+      "index": 541,
+      "de": "Bitte, bedien dich!",
+      "esText": "¡Por favor come todo lo que quieras!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-542",
+      "index": 542,
+      "de": "Stört dich das Rauchen?",
+      "esText": "¿Le molesta fumar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-543",
+      "index": 543,
+      "de": "Danke für die nette Aufnahme!",
+      "esText": "¡Gracias por la cálida bienvenida!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-544",
+      "index": 544,
+      "de": "Wann gehst du ins Bett?",
+      "esText": "cuando te vas a dormir",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-545",
+      "index": 545,
+      "de": "Wenn ich von der Arbeit komme, bin ich immer müde.",
+      "esText": "Siempre estoy cansado cuando llego a casa del trabajo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-546",
+      "index": 546,
+      "de": "Es ist Zeit, ins Bett zu gehen.",
+      "esText": "Es hora de ir a dormir.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-547",
+      "index": 547,
+      "de": "Es ist schönes Wetter.",
+      "esText": "Es un buen momento.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-548",
+      "index": 548,
+      "de": "Willst du mit mir spazieren gehen?",
+      "esText": "¿Quieres caminar conmigo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-549",
+      "index": 549,
+      "de": "Sieh mal, es wird gleich regnen.",
+      "esText": "Mira, pronto lloverá.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-550",
+      "index": 550,
+      "de": "Nimm den Regenschirm mit!",
+      "esText": "¡Lleva un paraguas contigo!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-551",
+      "index": 551,
+      "de": "Es regnet.",
+      "esText": "Está lloviendo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-552",
+      "index": 552,
+      "de": "Ich bin schon ganz nass.",
+      "esText": "Ya estoy completamente mojado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-553",
+      "index": 553,
+      "de": "Glaubst du, dass es den ganzen Tag regnen wird?",
+      "esText": "¿Crees que va a llover todo el día?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-554",
+      "index": 554,
+      "de": "Es hört auf zu regnen.",
+      "esText": "La lluvia cesa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-555",
+      "index": 555,
+      "de": "Die Sonne scheint wieder.",
+      "esText": "El sol vuelve a brillar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-556",
+      "index": 556,
+      "de": "Es ist sehr warm.",
+      "esText": "Hace mucho calor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-557",
+      "index": 557,
+      "de": "Es sieht nach Regen aus.",
+      "esText": "Parece que va a llover.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-558",
+      "index": 558,
+      "de": "Wir bekommen gleich ein Gewitter.",
+      "esText": "Estamos a punto de tener una tormenta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-559",
+      "index": 559,
+      "de": "Das Gewitter zieht vorüber.",
+      "esText": "La tormenta ha pasado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-560",
+      "index": 560,
+      "de": "Die Wolken verziehen sich.",
+      "esText": "Las nubes se están dispersando.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-561",
+      "index": 561,
+      "de": "Siehst du den Regenbogen?",
+      "esText": "¿Ves el arcoíris?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-562",
+      "index": 562,
+      "de": "Der Winter ist da, es hat geschneit.",
+      "esText": "El invierno ya está aquí, nevó por la noche.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-563",
+      "index": 563,
+      "de": "Es schneit.",
+      "esText": "Está nevando.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-564",
+      "index": 564,
+      "de": "Wie schön ist es im Wald im Winter!",
+      "esText": "¡Qué bonito es el bosque en invierno!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-565",
+      "index": 565,
+      "de": "Mir ist kalt, ich friere.",
+      "esText": "Tengo frío, me estoy congelando.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-566",
+      "index": 566,
+      "de": "Draußen ist Glatteis, pass auf!",
+      "esText": "Afuera está resbaladizo, ¡cuidado!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-567",
+      "index": 567,
+      "de": "Wollen wir auf die Eisbahn gehen?",
+      "esText": "¿Vamos a patinar sobre hielo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-568",
+      "index": 568,
+      "de": "Zieh die Jacke an, du kannst dich erkälten.",
+      "esText": "Ponte una chaqueta, podrías resfriarte.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-569",
+      "index": 569,
+      "de": "Es ist halb sieben.",
+      "esText": "Son las siete y media.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-570",
+      "index": 570,
+      "de": "Meine Uhr geht fünf Minuten vor.",
+      "esText": "Mi reloj está adelantado cinco minutos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-571",
+      "index": 571,
+      "de": "Weck mich morgen früh um sieben Uhr!",
+      "esText": "¡Despiértame mañana a las siete!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-572",
+      "index": 572,
+      "de": "Was ist heute für ein Datum?",
+      "esText": "¿Cuál es la fecha de hoy?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-573",
+      "index": 573,
+      "de": "Heute ist der elfte Juli.",
+      "esText": "Hoy es once de julio.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-574",
+      "index": 574,
+      "de": "Was machst du gewöhnlich am Abend?",
+      "esText": "¿Qué sueles hacer por las noches?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-575",
+      "index": 575,
+      "de": "Es ist schon lange her, dass wir uns gesehen haben.",
+      "esText": "Hace mucho tiempo que no nos vemos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-576",
+      "index": 576,
+      "de": "Wie geht es dir?",
+      "esText": "Cómo estás",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-577",
+      "index": 577,
+      "de": "Entschuldige, ich möchte etwas mit dir besprechen.",
+      "esText": "Disculpe, quiero discutir algo con usted.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-578",
+      "index": 578,
+      "de": "Gehen wir spazieren!",
+      "esText": "¡Vamos a caminar!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-579",
+      "index": 579,
+      "de": "Hast du Lust, mit mir in den Park zu gehen?",
+      "esText": "¿Quieres ir al parque conmigo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-580",
+      "index": 580,
+      "de": "Ich komme, um dich zum Spaziergang abzuholen.",
+      "esText": "Vine a llevarte a caminar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-581",
+      "index": 581,
+      "de": "Geh bitte etwas langsamer, ich kann dir nicht folgen!",
+      "esText": "¡Ve un poco más lento, no puedo seguirte!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-582",
+      "index": 582,
+      "de": "Ich bin zum ersten Mal in dieser Gegend.",
+      "esText": "Estoy aquí por primera vez.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-583",
+      "index": 583,
+      "de": "Ruhen wir uns ein wenig aus.",
+      "esText": "Descansemos un poco.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-584",
+      "index": 584,
+      "de": "Jetzt können wir zurückgehen.",
+      "esText": "Ahora podemos regresar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-585",
+      "index": 585,
+      "de": "Ehrlich gesagt bin ich ziemlich müde.",
+      "esText": "Francamente, estoy bastante cansado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-586",
+      "index": 586,
+      "de": "Entschuldige, wo ist die nächste U-Bahn-Station?",
+      "esText": "Disculpe, ¿dónde está la estación de metro más cercana?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-587",
+      "index": 587,
+      "de": "Welcher ist der kürzeste Weg?",
+      "esText": "¿Cuál es el camino más corto?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-588",
+      "index": 588,
+      "de": "Geh hier die zweite Straße links und dann immer geradeaus.",
+      "esText": "Aquí toma la segunda calle a la izquierda y sigue recto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-589",
+      "index": 589,
+      "de": "Wie komme ich am schnellsten zum Bahnhof?",
+      "esText": "¿Cómo llegar más rápido a la estación?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-590",
+      "index": 590,
+      "de": "Ich habe vor, morgen zu verreisen.",
+      "esText": "Tengo la intención de irme mañana.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-591",
+      "index": 591,
+      "de": "Wohin willst du fahren?",
+      "esText": "¿A dónde quieres ir?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-592",
+      "index": 592,
+      "de": "Reist du geschäftlich oder privat?",
+      "esText": "¿Viajas por trabajo o por placer?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-593",
+      "index": 593,
+      "de": "Finn fährt bis Berlin mit, dann geht er ans Meer.",
+      "esText": "Finn conducirá hasta Berlín y luego irá al mar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-594",
+      "index": 594,
+      "de": "Wann fährt das Schiff ab?",
+      "esText": "¿Cuándo sale el barco?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-595",
+      "index": 595,
+      "de": "In einer halben Stunde.",
+      "esText": "Después de media hora.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-596",
+      "index": 596,
+      "de": "Kann ich noch eine Kabine bekommen?",
+      "esText": "¿Aún puedo conseguir una cabaña?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-597",
+      "index": 597,
+      "de": "Vergiss deinen Pass nicht!",
+      "esText": "¡No olvides tu pasaporte!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-598",
+      "index": 598,
+      "de": "Es ist Zeit, den Koffer zu packen.",
+      "esText": "Es hora de hacer la maleta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-599",
+      "index": 599,
+      "de": "Der Zug fährt um halb sieben ab.",
+      "esText": "El tren sale a las siete y media.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-600",
+      "index": 600,
+      "de": "Hol mir bitte ein Taxi, ich verpasse sonst den Zug!",
+      "esText": "¡Llame a un taxi, por favor, sino perderé el tren!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-601",
+      "index": 601,
+      "de": "Fahr bitte zum Bahnhof!",
+      "esText": "¡Por favor llévame a la estación!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-602",
+      "index": 602,
+      "de": "Ich muss mich beeilen.",
+      "esText": "Tengo que darme prisa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-603",
+      "index": 603,
+      "de": "Ist der Schalter schon offen?",
+      "esText": "¿Ya está abierta la taquilla?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-604",
+      "index": 604,
+      "de": "Eine Fahrkarte nach Köln, bitte.",
+      "esText": "Un billete a Colonia, por favor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-605",
+      "index": 605,
+      "de": "Wann fährt der Zug ab?",
+      "esText": "¿Cuándo sale el tren?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-606",
+      "index": 606,
+      "de": "Der Zug fährt gleich ab.",
+      "esText": "El tren sale pronto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-607",
+      "index": 607,
+      "de": "Muss ich in Koblenz umsteigen?",
+      "esText": "¿Tengo que cambiar de asiento en Coblenza?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-608",
+      "index": 608,
+      "de": "Ja, dort musst du umsteigen.",
+      "esText": "Sí, tienes que cambiar de asiento allí.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-609",
+      "index": 609,
+      "de": "Ist dieser Platz frei?",
+      "esText": "¿Está disponible este lugar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-610",
+      "index": 610,
+      "de": "Nein, hier sitzt niemand.",
+      "esText": "No, no hay nadie sentado aquí.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-611",
+      "index": 611,
+      "de": "Wo ist der Bahnsteigkartenautomat?",
+      "esText": "¿Dónde está la máquina expendedora de billetes del andén?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-612",
+      "index": 612,
+      "de": "Stell mein Handgepäck ins Gepäcknetz.",
+      "esText": "Pon mi equipaje de mano en la parrilla.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-613",
+      "index": 613,
+      "de": "Kann ich das Fenster aufmachen?",
+      "esText": "¿Puedo abrir la ventana?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-614",
+      "index": 614,
+      "de": "Es zieht, schließ bitte das Fenster!",
+      "esText": "¡Sal, por favor cierra la ventana!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-615",
+      "index": 615,
+      "de": "Welche ist die nächste Station?",
+      "esText": "¿Cuál es la próxima parada?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-616",
+      "index": 616,
+      "de": "Wie lange hält der Zug?",
+      "esText": "¿Cuánto tiempo permanece parado el tren?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-617",
+      "index": 617,
+      "de": "Wo muss ich umsteigen?",
+      "esText": "¿A dónde debo transferirme?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-618",
+      "index": 618,
+      "de": "Der Zug hat Verspätung.",
+      "esText": "El tren llega tarde.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-619",
+      "index": 619,
+      "de": "Dieser Wagen ist für Nichtraucher.",
+      "esText": "Este carruaje es para no fumadores.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-620",
+      "index": 620,
+      "de": "Wir fahren jetzt über die Grenze.",
+      "esText": "Ahora estamos cruzando la frontera.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-621",
+      "index": 621,
+      "de": "Hast du etwas zu verzollen?",
+      "esText": "¿Tienes algo que aclarar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-622",
+      "index": 622,
+      "de": "Wir sind in Berlin angekommen.",
+      "esText": "Hemos llegado a Berlín.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-623",
+      "index": 623,
+      "de": "Kannst du mir ein gutes Hotel empfehlen?",
+      "esText": "¿Puedes recomendar un buen hotel?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-624",
+      "index": 624,
+      "de": "Haben Sie freie Zimmer?",
+      "esText": "¿Tiene habitaciones disponibles?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-625",
+      "index": 625,
+      "de": "Ein Zimmer mit zwei Betten, bitte.",
+      "esText": "Una habitación con dos camas, por favor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-626",
+      "index": 626,
+      "de": "Was kostet das Zimmer pro Nacht?",
+      "esText": "¿Cuánto cuesta la habitación por noche?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-627",
+      "index": 627,
+      "de": "Morgen reise ich ab. Weck mich um sieben Uhr!",
+      "esText": "Me voy mañana. ¡Despiértame a las siete!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-628",
+      "index": 628,
+      "de": "Die Rechnung, bitte!",
+      "esText": "¡La cuenta, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-629",
+      "index": 629,
+      "de": "Wo ist die Stadtbibliothek?",
+      "esText": "¿Dónde está la biblioteca de la ciudad?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-630",
+      "index": 630,
+      "de": "Wann hat das Museum geöffnet?",
+      "esText": "¿Cuándo está abierto el museo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-631",
+      "index": 631,
+      "de": "Wollen wir ins Museum gehen?",
+      "esText": "¿Vamos al museo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-632",
+      "index": 632,
+      "de": "Fahren wir mit dem Bus oder der U-Bahn?",
+      "esText": "¿Vamos en autobús o en metro?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-633",
+      "index": 633,
+      "de": "Wo ist die nächste Bushaltestelle?",
+      "esText": "¿Dónde está la parada de autobús más cercana?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-634",
+      "index": 634,
+      "de": "Ich habe großen Hunger.",
+      "esText": "Tengo mucha hambre.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-635",
+      "index": 635,
+      "de": "Gehen wir zusammen essen?",
+      "esText": "¿Vamos a comer juntos?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-636",
+      "index": 636,
+      "de": "Kellner, die Speisekarte, bitte!",
+      "esText": "Camareros, menú, ¡por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-637",
+      "index": 637,
+      "de": "Ist der Fisch frisch?",
+      "esText": "¿Está fresco el pescado?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-638",
+      "index": 638,
+      "de": "Das schmeckt ausgezeichnet!",
+      "esText": "¡Sabe muy bien!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-639",
+      "index": 639,
+      "de": "Kellner, zahlen bitte!",
+      "esText": "¡Camareros, por favor paguen!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-640",
+      "index": 640,
+      "de": "Ich gehe ins Café einen Kaffee trinken.",
+      "esText": "Iré a una cafetería a tomar café.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-641",
+      "index": 641,
+      "de": "Willst du mitkommen?",
+      "esText": "¿Quieres venir?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-642",
+      "index": 642,
+      "de": "Eine Tasse Kaffee mit Milch, bitte!",
+      "esText": "¡Una taza de café con leche, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-643",
+      "index": 643,
+      "de": "Bitte schneller, ich habe es eilig!",
+      "esText": "¡Más rápido por favor, tengo que darme prisa!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-644",
+      "index": 644,
+      "de": "Lass deinen Kaffee nicht kalt werden!",
+      "esText": "¡No dejes que el café se enfríe!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-645",
+      "index": 645,
+      "de": "Haben Sie etwas Erfrischendes?",
+      "esText": "¿Tienes algo refrescante?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-646",
+      "index": 646,
+      "de": "Eine Portion Eis, bitte!",
+      "esText": "¡Una ración de helado, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-647",
+      "index": 647,
+      "de": "Heute Morgen habe ich einen Brief bekommen.",
+      "esText": "Recibí una carta esta mañana.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-648",
+      "index": 648,
+      "de": "Ich muss ihm gleich schreiben.",
+      "esText": "Debo escribirle ahora.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-649",
+      "index": 649,
+      "de": "Wo ist der nächste Briefkasten?",
+      "esText": "¿Dónde está el buzón más cercano?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-650",
+      "index": 650,
+      "de": "Wo ist die Post?",
+      "esText": "¿Dónde está la oficina de correos?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-651",
+      "index": 651,
+      "de": "Erinnere mich morgen daran zu schreiben!",
+      "esText": "¡Recuérdame firmar mañana!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-652",
+      "index": 652,
+      "de": "Werfen Sie bitte diesen Brief in den Briefkasten.",
+      "esText": "¡Por favor deje esta carta en el buzón!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-653",
+      "index": 653,
+      "de": "Hallo, hier spricht Emma.",
+      "esText": "Hola, ella es Emma.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-654",
+      "index": 654,
+      "de": "Kann ich dich später anrufen?",
+      "esText": "¿Puedo llamarte más tarde?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-655",
+      "index": 655,
+      "de": "Muss ich lange warten?",
+      "esText": "¿Tengo que esperar mucho?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-656",
+      "index": 656,
+      "de": "Bitte schneiden Sie mir die Haare.",
+      "esText": "Por favor córtame el pelo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-657",
+      "index": 657,
+      "de": "Hinten bitte nicht zu kurz.",
+      "esText": "En la parte de atrás, por favor, no demasiado corta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-658",
+      "index": 658,
+      "de": "Wann beginnt die Vorstellung?",
+      "esText": "¿Cuándo empieza el espectáculo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-659",
+      "index": 659,
+      "de": "Es fängt um halb acht an.",
+      "esText": "Empieza a las ocho y media.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-660",
+      "index": 660,
+      "de": "Alle Plätze sind ausverkauft.",
+      "esText": "Todas las entradas están agotadas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-661",
+      "index": 661,
+      "de": "Drei Karten, bitte!",
+      "esText": "¡Tres entradas, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-662",
+      "index": 662,
+      "de": "Wir lassen die Jacken in der Garderobe.",
+      "esText": "Dejemos las chaquetas en el armario.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-663",
+      "index": 663,
+      "de": "Bitte schnell, der Vorhang geht gleich auf!",
+      "esText": "¡Más rápido, por favor, que el telón está a punto de abrirse!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-664",
+      "index": 664,
+      "de": "Der Vorhang fällt.",
+      "esText": "Cae el telón.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-665",
+      "index": 665,
+      "de": "Darf ich dich zum Tanz bitten?",
+      "esText": "¿Puedo invitarte a bailar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-666",
+      "index": 666,
+      "de": "Wann ist eure Hochzeit?",
+      "esText": "¿Cuándo es tu boda?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-667",
+      "index": 667,
+      "de": "Ich suche eine Wohnung.",
+      "esText": "Estoy buscando un apartamento.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-668",
+      "index": 668,
+      "de": "Ist in diesem Haus eine Wohnung frei?",
+      "esText": "¿Hay algún apartamento disponible en esta casa?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-669",
+      "index": 669,
+      "de": "Wie viel kostet die Miete?",
+      "esText": "¿A cuánto asciende el alquiler?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-670",
+      "index": 670,
+      "de": "Die Wohnung hat drei Zimmer und eine Küche.",
+      "esText": "El apartamento tiene tres habitaciones y una cocina.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-671",
+      "index": 671,
+      "de": "Heute ziehen wir um.",
+      "esText": "Nos mudamos hoy.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-672",
+      "index": 672,
+      "de": "Mia, pack die Sachen bitte in Kisten!",
+      "esText": "¡Mía, pon las cosas en cajas, por favor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-673",
+      "index": 673,
+      "de": "Hast du alles eingepackt?",
+      "esText": "¿Está todo ya en caja?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-674",
+      "index": 674,
+      "de": "Ich stehe mit meinem Freund in Kontakt.",
+      "esText": "Estoy en correspondencia con mi amigo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-675",
+      "index": 675,
+      "de": "Gehen wir ins Theater?",
+      "esText": "¿Vamos al teatro?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-676",
+      "index": 676,
+      "de": "Ist alles eingeladen?",
+      "esText": "¿Está todo cargado?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-677",
+      "index": 677,
+      "de": "Welch schöne Aussicht!",
+      "esText": "¡Qué hermosa vista!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-678",
+      "index": 678,
+      "de": "Nun können wir alles wieder aufräumen.",
+      "esText": "Ahora podemos volver a armar todo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-679",
+      "index": 679,
+      "de": "Wie viele Zimmer habt ihr?",
+      "esText": "¿Cuántas habitaciones tienes?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-680",
+      "index": 680,
+      "de": "Im Sommer fahre ich ans Meer.",
+      "esText": "Iré al mar en verano.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-681",
+      "index": 681,
+      "de": "Kannst du schwimmen?",
+      "esText": "Sabes nadar",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-682",
+      "index": 682,
+      "de": "Schwimm nicht zu weit hinaus!",
+      "esText": "¡No nades demasiado lejos!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-683",
+      "index": 683,
+      "de": "Badest du jeden Tag?",
+      "esText": "¿Nadas todos los días?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-684",
+      "index": 684,
+      "de": "Bei schönem Wetter gehe ich angeln.",
+      "esText": "Si hace buen tiempo, voy a pescar.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-685",
+      "index": 685,
+      "de": "Wie sieht er aus?",
+      "esText": "¿Qué aspecto tiene?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-686",
+      "index": 686,
+      "de": "Er hat sich aber recht verändert.",
+      "esText": "Sin embargo, ha cambiado bastante.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-687",
+      "index": 687,
+      "de": "Wie ist er als Mensch?",
+      "esText": "¿Cómo es él como persona?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-688",
+      "index": 688,
+      "de": "Er ist immer nett und freundlich.",
+      "esText": "Él siempre es agradable y amable.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-689",
+      "index": 689,
+      "de": "Ich fühle mich nicht wohl.",
+      "esText": "Me siento mal.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-690",
+      "index": 690,
+      "de": "Ich habe starke Kopfschmerzen.",
+      "esText": "Tengo un fuerte dolor de cabeza.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-691",
+      "index": 691,
+      "de": "Ich habe mich erkältet.",
+      "esText": "Tengo un resfrío.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-692",
+      "index": 692,
+      "de": "Ich habe Schnupfen.",
+      "esText": "Tengo la nariz que moquea.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-693",
+      "index": 693,
+      "de": "Mir ist schwindlig.",
+      "esText": "Estoy mareado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-694",
+      "index": 694,
+      "de": "Ich muss zum Arzt gehen.",
+      "esText": "Tengo que ir al médico.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-695",
+      "index": 695,
+      "de": "Leg dich ins Bett!",
+      "esText": "¡Acuéstate en la cama!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-696",
+      "index": 696,
+      "de": "Hast du Fieber?",
+      "esText": "¿Tienes fiebre?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-697",
+      "index": 697,
+      "de": "Gestern hatte ich erhöhte Temperatur.",
+      "esText": "Ayer tuve temperatura alta.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-698",
+      "index": 698,
+      "de": "Ich habe Zahnschmerzen.",
+      "esText": "Tengo dolor de muela.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-699",
+      "index": 699,
+      "de": "Ich muss zum Zahnarzt gehen.",
+      "esText": "Tengo que ir al dentista.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-700",
+      "index": 700,
+      "de": "Weißt du, dass Finn krank ist?",
+      "esText": "¿Sabes que Finn está enfermo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-701",
+      "index": 701,
+      "de": "Laut Arzt wird er bald wieder gesund.",
+      "esText": "Según el médico, pronto se recuperará.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-702",
+      "index": 702,
+      "de": "Ich will meine Wohnung neu möblieren.",
+      "esText": "Quiero reformar el apartamento.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-703",
+      "index": 703,
+      "de": "Kann ich das auf Raten kaufen?",
+      "esText": "¿Puedo comprar a plazos?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-704",
+      "index": 704,
+      "de": "Bleib im Bett, bis es dir besser geht!",
+      "esText": "¡Quédate en cama hasta que te sientas mejor!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-705",
+      "index": 705,
+      "de": "Noah hat in zwei Wochen schwimmen gelernt.",
+      "esText": "Noah aprendió a nadar en dos semanas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-706",
+      "index": 706,
+      "de": "Sei mit dem Essen noch vorsichtig.",
+      "esText": "Ten cuidado con la comida.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-707",
+      "index": 707,
+      "de": "Sprichst du Deutsch?",
+      "esText": "¿Hablas alemán?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-708",
+      "index": 708,
+      "de": "Ja, ein bisschen.",
+      "esText": "Sí, un poco.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-709",
+      "index": 709,
+      "de": "Du sprichst ziemlich fließend.",
+      "esText": "Hablas con bastante fluidez.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-710",
+      "index": 710,
+      "de": "Wo hast du Deutsch gelernt?",
+      "esText": "¿Dónde aprendiste alemán?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-711",
+      "index": 711,
+      "de": "Ich nehme seit einem Jahr Deutschstunden.",
+      "esText": "Llevo un año tomando clases de alemán.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-712",
+      "index": 712,
+      "de": "Ich suche immer Gelegenheit, Deutsch zu sprechen.",
+      "esText": "Siempre buscando la oportunidad de hablar alemán.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-713",
+      "index": 713,
+      "de": "Ist das Buch noch vorrätig?",
+      "esText": "¿Este libro todavía está disponible?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-714",
+      "index": 714,
+      "de": "Das Buch ist leider ausverkauft.",
+      "esText": "Lamentablemente el libro está agotado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-715",
+      "index": 715,
+      "de": "Wann erscheint die neue Auflage?",
+      "esText": "¿Cuándo saldrá la nueva edición?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-716",
+      "index": 716,
+      "de": "Womit kann ich Ihnen helfen?",
+      "esText": "¿Cómo puedo ayudar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-717",
+      "index": 717,
+      "de": "Haben Sie ganz frische Eier?",
+      "esText": "¿Tienes huevos frescos?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-718",
+      "index": 718,
+      "de": "Was kosten die?",
+      "esText": "¿Cuánto cuestan?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-719",
+      "index": 719,
+      "de": "Das ist zu teuer.",
+      "esText": "Es demasiado caro.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-720",
+      "index": 720,
+      "de": "Können Sie mir ein halbes Kilo abwiegen?",
+      "esText": "¿Puedes pesar medio kilo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-721",
+      "index": 721,
+      "de": "Wie viel muss ich zahlen?",
+      "esText": "¿Cuanto tengo que pagar?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-722",
+      "index": 722,
+      "de": "Wie viel kostet das Kilo?",
+      "esText": "¿Cuánto cuesta un kilogramo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-723",
+      "index": 723,
+      "de": "Wiegen Sie mir bitte zwei Kilo ab.",
+      "esText": "Por favor pesa dos kilogramos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-724",
+      "index": 724,
+      "de": "Haben Sie auch Karotten?",
+      "esText": "¿Tienes zanahorias también?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-725",
+      "index": 725,
+      "de": "Haben Sie gutes Rindfleisch?",
+      "esText": "¿Tienes buena carne?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-726",
+      "index": 726,
+      "de": "Geben Sie mir zwei Kilo Hackfleisch.",
+      "esText": "Dale dos kilogramos de carne picada.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-727",
+      "index": 727,
+      "de": "Ein Laib Brot, bitte, aber nicht zu knusprig.",
+      "esText": "Una barra de pan, por favor, pero no demasiado dura.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-728",
+      "index": 728,
+      "de": "Das Brot ist frisch gebacken.",
+      "esText": "El pan está recién horneado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-729",
+      "index": 729,
+      "de": "Was für Obst haben Sie heute?",
+      "esText": "¿Qué fruta tienes hoy?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-730",
+      "index": 730,
+      "de": "Was kosten die Äpfel?",
+      "esText": "¿Cuánto cuestan las manzanas?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-731",
+      "index": 731,
+      "de": "Dann nehme ich zwei Kilo Äpfel.",
+      "esText": "Luego tomaré dos kilogramos de manzanas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-732",
+      "index": 732,
+      "de": "Die Birnen sind sehr teuer.",
+      "esText": "Las peras son muy caras.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-733",
+      "index": 733,
+      "de": "Können Sie mir alles nach Hause liefern?",
+      "esText": "¿Puedes entregar todo a tu casa?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-734",
+      "index": 734,
+      "de": "Haben Sie Reis?",
+      "esText": "¿Tienes arroz?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-735",
+      "index": 735,
+      "de": "Geben Sie mir bitte ein Kilo Reis.",
+      "esText": "Dame un kilo de arroz, por favor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-736",
+      "index": 736,
+      "de": "Danke, diesmal nicht.",
+      "esText": "Gracias, esta vez no.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-737",
+      "index": 737,
+      "de": "Wie viel kostet dieser Teppich?",
+      "esText": "¿Cuánto cuesta esta alfombra?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-738",
+      "index": 738,
+      "de": "Können Sie die Möbel in meine Wohnung liefern?",
+      "esText": "¿Pueden entregar muebles al apartamento?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-739",
+      "index": 739,
+      "de": "Bitte an der Kasse zahlen.",
+      "esText": "Por favor pague en caja.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-740",
+      "index": 740,
+      "de": "Bitte, machen Sie die Rechnung.",
+      "esText": "Por favor emita una factura.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-741",
+      "index": 741,
+      "de": "Was kostet das Meter?",
+      "esText": "¿Cuánto cuesta un medidor?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-742",
+      "index": 742,
+      "de": "Dieser Stoff gefällt mir.",
+      "esText": "Me encanta esta tela.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-743",
+      "index": 743,
+      "de": "Schneiden Sie mir bitte drei Meter ab.",
+      "esText": "Por favor corte tres metros.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-744",
+      "index": 744,
+      "de": "Haben Sie auch andere Muster?",
+      "esText": "¿Tienes otras muestras?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-745",
+      "index": 745,
+      "de": "Diese Farbe gefällt mir nicht.",
+      "esText": "No me gusta este color.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-746",
+      "index": 746,
+      "de": "Geben Sie mir eine hellere.",
+      "esText": "Dar más brillo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-747",
+      "index": 747,
+      "de": "Was kosten diese Socken?",
+      "esText": "¿Cuánto cuestan estos calcetines?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-748",
+      "index": 748,
+      "de": "Welche Handschuhe wünschen Sie?",
+      "esText": "¿Qué tipo de guantes quieres?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-749",
+      "index": 749,
+      "de": "Die sind mir etwas zu eng.",
+      "esText": "Me quedan un poco ajustados.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-750",
+      "index": 750,
+      "de": "So, nun passen sie gut.",
+      "esText": "Entonces, funciona bien ahora.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-751",
+      "index": 751,
+      "de": "Kannst du mir einen guten Schneider empfehlen?",
+      "esText": "¿Puedes recomendar un buen sastre?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-752",
+      "index": 752,
+      "de": "Ich will einen Anzug bestellen.",
+      "esText": "Quiero encargar un traje.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-753",
+      "index": 753,
+      "de": "Wann wird er fertig sein?",
+      "esText": "¿Cuándo estará listo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-754",
+      "index": 754,
+      "de": "Der Anzug sitzt gut.",
+      "esText": "El traje le queda bien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-755",
+      "index": 755,
+      "de": "Die Hose ist zu lang.",
+      "esText": "Los pantalones son demasiado largos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-756",
+      "index": 756,
+      "de": "Bitte reinigen und bügeln Sie ihn!",
+      "esText": "¡Límpielo y plánchelo!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-757",
+      "index": 757,
+      "de": "Wann wird das Kleid fertig sein?",
+      "esText": "¿Cuándo estará listo el vestido?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-758",
+      "index": 758,
+      "de": "Die Schuhe sind zu eng.",
+      "esText": "Los zapatos están demasiado apretados.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-759",
+      "index": 759,
+      "de": "Können Sie die Schuhe heute reparieren?",
+      "esText": "¿Puedes arreglar tus zapatos hoy?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-760",
+      "index": 760,
+      "de": "Wann kann ich die Schuhe abholen?",
+      "esText": "¿Cuándo puedo traer los zapatos?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-761",
+      "index": 761,
+      "de": "Meine Armbanduhr funktioniert nicht.",
+      "esText": "Mi reloj de pulsera no funciona.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-762",
+      "index": 762,
+      "de": "Sie geht fünf Minuten vor.",
+      "esText": "Son cinco minutos antes.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-763",
+      "index": 763,
+      "de": "Bist du kurzsichtig oder weitsichtig?",
+      "esText": "¿Es usted miope o hipermétrope?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-764",
+      "index": 764,
+      "de": "Ich möchte eine Brille kaufen.",
+      "esText": "Quiero comprar gafas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-765",
+      "index": 765,
+      "de": "Können Sie meine Brille reparieren?",
+      "esText": "¿Puedes arreglar mis gafas?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-766",
+      "index": 766,
+      "de": "Das dauert nur eine Viertelstunde.",
+      "esText": "Sólo te llevará quince minutos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-767",
+      "index": 767,
+      "de": "Der Preis ist mir zu hoch.",
+      "esText": "El precio es demasiado alto para mí.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-768",
+      "index": 768,
+      "de": "Ich brauche zwei Fotos für meinen Pass.",
+      "esText": "Necesito dos fotografías de pasaporte.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-769",
+      "index": 769,
+      "de": "Bitte packen Sie es ein und schicken Sie es mir nach Hause.",
+      "esText": "Por favor empaquete y envíe a casa.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-770",
+      "index": 770,
+      "de": "Wir haben feste Preise.",
+      "esText": "Tenemos precios fijos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-771",
+      "index": 771,
+      "de": "Bitte, fotografieren Sie mich.",
+      "esText": "Por favor tomame una foto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-772",
+      "index": 772,
+      "de": "Setzen Sie sich, schauen Sie gerade in die Kamera und bewegen Sie sich nicht!",
+      "esText": "¡Siéntate, mira directamente a la cámara y no te muevas!",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-773",
+      "index": 773,
+      "de": "Wann kann ich das Probebild sehen?",
+      "esText": "¿Cuándo puedo ver una muestra?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-774",
+      "index": 774,
+      "de": "Wann sind die Fotos fertig?",
+      "esText": "¿Cuándo van a estar listas las fotos?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-775",
+      "index": 775,
+      "de": "Die Aufnahme ist gelungen.",
+      "esText": "La foto fue un éxito.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-776",
+      "index": 776,
+      "de": "Die Fotos sind gut geworden.",
+      "esText": "Las fotos salieron bien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-777",
+      "index": 777,
+      "de": "Können Sie das Foto auch vergrößern?",
+      "esText": "¿También puedes ampliar la foto?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-778",
+      "index": 778,
+      "de": "Sind diese Steine echt?",
+      "esText": "¿Son reales estas piedras?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-779",
+      "index": 779,
+      "de": "Ist das echtes Gold?",
+      "esText": "¿Es oro real?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-780",
+      "index": 780,
+      "de": "Zeigen Sie mir bitte Trauringe.",
+      "esText": "Muéstrame los anillos de boda, por favor.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-781",
+      "index": 781,
+      "de": "Der Ring ist mir etwas zu weit.",
+      "esText": "El anillo me queda un poco grande.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-782",
+      "index": 782,
+      "de": "Ich kann ihn enger machen.",
+      "esText": "Puedo reducirlo.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-783",
+      "index": 783,
+      "de": "Dieser Ring passt mir.",
+      "esText": "Este anillo me queda bien.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-784",
+      "index": 784,
+      "de": "Zeigen Sie mir schöne Geschenkideen.",
+      "esText": "Muestre hermosas ideas para regalos.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-785",
+      "index": 785,
+      "de": "Wie gefallen dir diese Ohrringe?",
+      "esText": "¿Cómo te gustan estos pendientes?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-786",
+      "index": 786,
+      "de": "Diese Brosche ist wirklich schön.",
+      "esText": "Este broche es muy bonito.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-787",
+      "index": 787,
+      "de": "Der Stein ist ein Saphir.",
+      "esText": "Esta piedra es un zafiro.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-788",
+      "index": 788,
+      "de": "Das ist kein echter Stein, das ist Glas.",
+      "esText": "Esto no es piedra real, es vidrio.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-789",
+      "index": 789,
+      "de": "Dieses Armband kann ich Ihnen besonders empfehlen.",
+      "esText": "Puedo recomendar especialmente esta pulsera.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-790",
+      "index": 790,
+      "de": "Es ist besonders schön gearbeitet.",
+      "esText": "Está extremadamente finamente elaborado.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-791",
+      "index": 791,
+      "de": "Der Preis ist nicht hoch.",
+      "esText": "El precio no es alto.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-792",
+      "index": 792,
+      "de": "Bekomme ich die Schachtel gratis?",
+      "esText": "¿Recibí la caja gratis?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-793",
+      "index": 793,
+      "de": "Alle Schmuckstücke sind gestempelt.",
+      "esText": "Todas las joyas están estampadas.",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-794",
+      "index": 794,
+      "de": "Falls es meiner Frau nicht gefällt, kann ich es umtauschen?",
+      "esText": "Si a mi esposa no le gusta, ¿puedo cambiarlo?",
+      "level": "Sätze"
+    },
+    {
+      "cardId": "sentence-795",
+      "index": 795,
+      "de": "Natürlich, jederzeit.",
+      "esText": "En cualquier momento, por supuesto.",
+      "level": "Sätze"
+    }
+  ]
+}

@@ -1,0 +1,6292 @@
+{
+  "meta": {
+    "module": "VERBS",
+    "date": "2026-08-26T10:40:36.260Z",
+    "deFile": "data/verbs.js",
+    "esFile": "data/es/verbs.js",
+    "wwwFile": "www/data/es/verbs.js",
+    "verbsTotal": 189,
+    "verbFormsTotal": 945
+  },
+  "structural": {
+    "issues": [],
+    "pass": true,
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "countPass": true,
+    "deIntegrityPass": true
+  },
+  "lvRemnants": {
+    "issues": [],
+    "pass": true
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  },
+  "batches": [
+    {
+      "batch": "batch-001-050",
+      "file": "/workspace/reports/temp/es-de-verbs-audit-batches/batch-001-050.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-051-100",
+      "file": "/workspace/reports/temp/es-de-verbs-audit-batches/batch-051-100.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-101-150",
+      "file": "/workspace/reports/temp/es-de-verbs-audit-batches/batch-101-150.json",
+      "count": 50
+    },
+    {
+      "batch": "batch-151-189",
+      "file": "/workspace/reports/temp/es-de-verbs-audit-batches/batch-151-189.json",
+      "count": 39
+    }
+  ],
+  "verbs": [
+    {
+      "cardId": "verb-0",
+      "index": 0,
+      "infinitivDe": "backen",
+      "infinitivEs": "hornear",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "backen",
+          "currentEs": "hornear"
+        },
+        {
+          "field": "praesens",
+          "de": "er bäckt",
+          "currentEs": "el hornea"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er buk",
+          "currentEs": "él estaba horneando"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er büke",
+          "currentEs": "él hornearía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gebacken",
+          "currentEs": "frito / al horno"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-1",
+      "index": 1,
+      "infinitivDe": "befehlen",
+      "infinitivEs": "mandar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "befehlen",
+          "currentEs": "mandar"
+        },
+        {
+          "field": "praesens",
+          "de": "er befiehlt",
+          "currentEs": "el manda"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er befahl",
+          "currentEs": "él ordenó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er beföhle",
+          "currentEs": "el mandaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "befohlen",
+          "currentEs": "ordenó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-2",
+      "index": 2,
+      "infinitivDe": "beginnen",
+      "infinitivEs": "para empezar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "beginnen",
+          "currentEs": "para empezar"
+        },
+        {
+          "field": "praesens",
+          "de": "er beginnt",
+          "currentEs": "el comienza"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er begann",
+          "currentEs": "el empezó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er begönne / er begänne",
+          "currentEs": "él comenzaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "begonnen",
+          "currentEs": "comenzó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-3",
+      "index": 3,
+      "infinitivDe": "beißen",
+      "infinitivEs": "morder",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "beißen",
+          "currentEs": "morder"
+        },
+        {
+          "field": "praesens",
+          "de": "er beißt",
+          "currentEs": "el muerde"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er biss",
+          "currentEs": "él codificó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er bisse",
+          "currentEs": "el muerde"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gebissen",
+          "currentEs": "mordido / mordido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-4",
+      "index": 4,
+      "infinitivDe": "bergen",
+      "infinitivEs": "esconder",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "bergen",
+          "currentEs": "esconder"
+        },
+        {
+          "field": "praesens",
+          "de": "er birgt",
+          "currentEs": "el se esconde"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er barg",
+          "currentEs": "él se escondió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er bürge / er bärge",
+          "currentEs": "él se escondería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geborgen",
+          "currentEs": "oculto / guardado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-5",
+      "index": 5,
+      "infinitivDe": "bersten",
+      "infinitivEs": "muy lleno",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "bersten",
+          "currentEs": "muy lleno"
+        },
+        {
+          "field": "praesens",
+          "de": "er birst",
+          "currentEs": "el estalla"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er barst / er borst",
+          "currentEs": "él estalló"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er bärste / er börste",
+          "currentEs": "el estalla"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geborsten (er ist)",
+          "currentEs": "roto"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-6",
+      "index": 6,
+      "infinitivDe": "bewegen",
+      "infinitivEs": "alentar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "bewegen",
+          "currentEs": "alentar"
+        },
+        {
+          "field": "praesens",
+          "de": "er bewegt",
+          "currentEs": "el incita"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er bewog",
+          "currentEs": "él instó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er bewöge",
+          "currentEs": "él alentaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "bewogen",
+          "currentEs": "motivado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-7",
+      "index": 7,
+      "infinitivDe": "biegen",
+      "infinitivEs": "doblar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "biegen",
+          "currentEs": "doblar"
+        },
+        {
+          "field": "praesens",
+          "de": "er biegt",
+          "currentEs": "el se inclina"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er bog",
+          "currentEs": "él se flexionó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er böge",
+          "currentEs": "él se doblaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gebogen",
+          "currentEs": "doblado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-8",
+      "index": 8,
+      "infinitivDe": "bieten",
+      "infinitivEs": "prometer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "bieten",
+          "currentEs": "prometer"
+        },
+        {
+          "field": "praesens",
+          "de": "er bietet",
+          "currentEs": "el promete"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er bot",
+          "currentEs": "el prometió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er böte",
+          "currentEs": "el lo prometeria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geboten",
+          "currentEs": "prometido / ofrecido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-9",
+      "index": 9,
+      "infinitivDe": "binden",
+      "infinitivEs": "tamiz",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "binden",
+          "currentEs": "tamiz"
+        },
+        {
+          "field": "praesens",
+          "de": "er bindet",
+          "currentEs": "el hay"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er band",
+          "currentEs": "el sembró"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er bände",
+          "currentEs": "él tamizó"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gebunden",
+          "currentEs": "tamiz"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-10",
+      "index": 10,
+      "infinitivDe": "bitten",
+      "infinitivEs": "preguntar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "bitten",
+          "currentEs": "preguntar"
+        },
+        {
+          "field": "praesens",
+          "de": "er bittet",
+          "currentEs": "el suplica"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er bat",
+          "currentEs": "el pregunto"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er bäte",
+          "currentEs": "él rezaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gebeten",
+          "currentEs": "solicitado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-11",
+      "index": 11,
+      "infinitivDe": "blasen",
+      "infinitivEs": "soplar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "blasen",
+          "currentEs": "soplar"
+        },
+        {
+          "field": "praesens",
+          "de": "er bläst",
+          "currentEs": "el sopla"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er blies",
+          "currentEs": "el soplo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er bliese",
+          "currentEs": "el volaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geblasen",
+          "currentEs": "estropeado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-12",
+      "index": 12,
+      "infinitivDe": "gären",
+      "infinitivEs": "fermentar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gären",
+          "currentEs": "fermentar"
+        },
+        {
+          "field": "praesens",
+          "de": "es gärt",
+          "currentEs": "fermenta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "es gor / es gärte",
+          "currentEs": "fermenta"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "es göre / es gärte",
+          "currentEs": "seria amargo"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gegoren / gegärt",
+          "currentEs": "centeno"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-13",
+      "index": 13,
+      "infinitivDe": "gebären",
+      "infinitivEs": "dar a luz",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gebären",
+          "currentEs": "dar a luz"
+        },
+        {
+          "field": "praesens",
+          "de": "sie gebiert",
+          "currentEs": "en su vientre"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "sie gebar",
+          "currentEs": "ella dio a luz"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "sie gebäre",
+          "currentEs": "ella daría a luz"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geboren",
+          "currentEs": "nació / nació"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-14",
+      "index": 14,
+      "infinitivDe": "gelingen",
+      "infinitivEs": "tener éxito",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gelingen",
+          "currentEs": "tener éxito"
+        },
+        {
+          "field": "praesens",
+          "de": "es gelingt",
+          "currentEs": "tiene éxito"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "es gelang",
+          "currentEs": "funcionó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "es gelänge",
+          "currentEs": "funcionaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gelungen (es ist)",
+          "currentEs": "tuvo éxito"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-15",
+      "index": 15,
+      "infinitivDe": "gelten",
+      "infinitivEs": "ser útil",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gelten",
+          "currentEs": "ser útil"
+        },
+        {
+          "field": "praesens",
+          "de": "er gilt",
+          "currentEs": "él encaja / es válido"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er galt",
+          "currentEs": "él estaba en forma / estaba en forma"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er gölte / es gälte",
+          "currentEs": "él encajaría / encajaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gegolten",
+          "currentEs": "aplicado / era válido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-16",
+      "index": 16,
+      "infinitivDe": "genesen",
+      "infinitivEs": "mejorando",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "genesen",
+          "currentEs": "mejorando"
+        },
+        {
+          "field": "praesens",
+          "de": "er genest",
+          "currentEs": "el esta mejorando"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er genas",
+          "currentEs": "se puso bien"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er genäse",
+          "currentEs": "él se pondría bien"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "genesen (er ist)",
+          "currentEs": "reponerse"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-17",
+      "index": 17,
+      "infinitivDe": "genießen",
+      "infinitivEs": "disfrutar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "genießen",
+          "currentEs": "disfrutar"
+        },
+        {
+          "field": "praesens",
+          "de": "er genießt",
+          "currentEs": "el disfruta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er genoss",
+          "currentEs": "el disfruto"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er genösse",
+          "currentEs": "el disfrutaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "genossen",
+          "currentEs": "disfruté"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-18",
+      "index": 18,
+      "infinitivDe": "geschehen",
+      "infinitivEs": "suceder",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "geschehen",
+          "currentEs": "suceder"
+        },
+        {
+          "field": "praesens",
+          "de": "es geschieht",
+          "currentEs": "sucede"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "es geschah",
+          "currentEs": "sucedió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "es geschähe",
+          "currentEs": "sucedería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschehen (es ist)",
+          "currentEs": "sucedió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-19",
+      "index": 19,
+      "infinitivDe": "gießen",
+      "infinitivEs": "teniente",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gießen",
+          "currentEs": "teniente"
+        },
+        {
+          "field": "praesens",
+          "de": "er gießt",
+          "currentEs": "el vierte"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er goss",
+          "currentEs": "él vertió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er gösse",
+          "currentEs": "el llueve"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gegossen",
+          "currentEs": "cosa"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-20",
+      "index": 20,
+      "infinitivDe": "gleichen",
+      "infinitivEs": "parecerse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gleichen",
+          "currentEs": "parecerse"
+        },
+        {
+          "field": "praesens",
+          "de": "er gleicht",
+          "currentEs": "el se parece"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er glich",
+          "currentEs": "él emuló"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er gliche",
+          "currentEs": "él emularía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geglichen",
+          "currentEs": "se parecía"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-21",
+      "index": 21,
+      "infinitivDe": "gleiten",
+      "infinitivEs": "deslizarse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gleiten",
+          "currentEs": "deslizarse"
+        },
+        {
+          "field": "praesens",
+          "de": "er gleitet",
+          "currentEs": "el se desliza"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er glitt",
+          "currentEs": "él se estaba deslizando"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er glitte",
+          "currentEs": "él se deslizaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geglitten (er ist)",
+          "currentEs": "resbaló"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-22",
+      "index": 22,
+      "infinitivDe": "glimmen",
+      "infinitivEs": "brillante",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "glimmen",
+          "currentEs": "brillante"
+        },
+        {
+          "field": "praesens",
+          "de": "er glimmt",
+          "currentEs": "el brilla"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er glimmte / glomm",
+          "currentEs": "el brilló"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er glimmte",
+          "currentEs": "el brillaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geglimmt / geglommen",
+          "currentEs": "brillante"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-23",
+      "index": 23,
+      "infinitivDe": "graben",
+      "infinitivEs": "cavar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "graben",
+          "currentEs": "cavar"
+        },
+        {
+          "field": "praesens",
+          "de": "er gräbt",
+          "currentEs": "el cava"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er grub",
+          "currentEs": "él cavó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er grübe",
+          "currentEs": "él cavaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gegraben",
+          "currentEs": "excavar"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-24",
+      "index": 24,
+      "infinitivDe": "greifen",
+      "infinitivEs": "atrapar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "greifen",
+          "currentEs": "atrapar"
+        },
+        {
+          "field": "praesens",
+          "de": "er greift",
+          "currentEs": "el atrapa"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er griff",
+          "currentEs": "él atrapó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er griffe",
+          "currentEs": "él atraparía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gegriffen",
+          "currentEs": "atrapado / agarrado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-25",
+      "index": 25,
+      "infinitivDe": "hauen",
+      "infinitivEs": "cortar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "hauen",
+          "currentEs": "cortar"
+        },
+        {
+          "field": "praesens",
+          "de": "er haut",
+          "currentEs": "el escogió"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er hieb",
+          "currentEs": "él espetó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er hiebe",
+          "currentEs": "él tallaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gehauen",
+          "currentEs": "tallado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-26",
+      "index": 26,
+      "infinitivDe": "heben",
+      "infinitivEs": "elevar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "heben",
+          "currentEs": "elevar"
+        },
+        {
+          "field": "praesens",
+          "de": "er hebt",
+          "currentEs": "el levanta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er hob",
+          "currentEs": "él trajo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er höbe",
+          "currentEs": "el construiria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gehoben",
+          "currentEs": "construido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-27",
+      "index": 27,
+      "infinitivDe": "kennen",
+      "infinitivEs": "saber / saber",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "kennen",
+          "currentEs": "saber / saber"
+        },
+        {
+          "field": "praesens",
+          "de": "er kennt",
+          "currentEs": "el sabe"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "kannte",
+          "currentEs": "sabía"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "kannte",
+          "currentEs": "sabía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gekannt",
+          "currentEs": "conocido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-28",
+      "index": 28,
+      "infinitivDe": "klingen",
+      "infinitivEs": "sonar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "klingen",
+          "currentEs": "sonar"
+        },
+        {
+          "field": "praesens",
+          "de": "er klingt",
+          "currentEs": "el suena"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er klang",
+          "currentEs": "el sonó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er klänge",
+          "currentEs": "el sonaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geklungen",
+          "currentEs": "sonó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-29",
+      "index": 29,
+      "infinitivDe": "kneifen",
+      "infinitivEs": "pellizco",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "kneifen",
+          "currentEs": "pellizco"
+        },
+        {
+          "field": "praesens",
+          "de": "er kneift",
+          "currentEs": "él bromea"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er kniff",
+          "currentEs": "el pellizcó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er kniffe",
+          "currentEs": "él pellizcaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gekniffen",
+          "currentEs": "apretado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-30",
+      "index": 30,
+      "infinitivDe": "bleiben",
+      "infinitivEs": "permanecer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "bleiben",
+          "currentEs": "permanecer"
+        },
+        {
+          "field": "praesens",
+          "de": "er bleibt",
+          "currentEs": "el se queda"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er blieb",
+          "currentEs": "el se quedo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er bliebe",
+          "currentEs": "él se quedaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geblieben (er ist)",
+          "currentEs": "izquierda"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-31",
+      "index": 31,
+      "infinitivDe": "bleichen",
+      "infinitivEs": "blanquear",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "bleichen",
+          "currentEs": "blanquear"
+        },
+        {
+          "field": "praesens",
+          "de": "er bleicht",
+          "currentEs": "el blanquea"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "blich",
+          "currentEs": "blanqueado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "blich",
+          "currentEs": "blanqueado"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geblichen",
+          "currentEs": "blanqueado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-32",
+      "index": 32,
+      "infinitivDe": "braten",
+      "infinitivEs": "hornear",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "braten",
+          "currentEs": "hornear"
+        },
+        {
+          "field": "praesens",
+          "de": "er brät",
+          "currentEs": "el hornea"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er briet",
+          "currentEs": "él estaba horneando"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er briete",
+          "currentEs": "él hornearía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gebraten",
+          "currentEs": "frito / al horno"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-33",
+      "index": 33,
+      "infinitivDe": "brechen",
+      "infinitivEs": "romper",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "brechen",
+          "currentEs": "romper"
+        },
+        {
+          "field": "praesens",
+          "de": "er bricht",
+          "currentEs": "el rompe"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er brach",
+          "currentEs": "el rompió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er bräche",
+          "currentEs": "él se rompería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gebrochen",
+          "currentEs": "roto / roto"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-34",
+      "index": 34,
+      "infinitivDe": "brennen",
+      "infinitivEs": "quemar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "brennen",
+          "currentEs": "quemar"
+        },
+        {
+          "field": "praesens",
+          "de": "er brennt",
+          "currentEs": "el esta en llamas"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "brannte",
+          "currentEs": "estaba ardiendo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "brannte",
+          "currentEs": "estaba ardiendo"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gebrannt",
+          "currentEs": "quemado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-35",
+      "index": 35,
+      "infinitivDe": "bringen",
+      "infinitivEs": "llevar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "bringen",
+          "currentEs": "llevar"
+        },
+        {
+          "field": "praesens",
+          "de": "er bringt",
+          "currentEs": "el lleva"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er brachte",
+          "currentEs": "él llevaba"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er brächte",
+          "currentEs": "él llevaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gebracht",
+          "currentEs": "traído / traído"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-36",
+      "index": 36,
+      "infinitivDe": "denken",
+      "infinitivEs": "pensar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "denken",
+          "currentEs": "pensar"
+        },
+        {
+          "field": "praesens",
+          "de": "er denkt",
+          "currentEs": "el piensa"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er dachte",
+          "currentEs": "el pensó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er dächte",
+          "currentEs": "el pensaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gedacht",
+          "currentEs": "destinado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-37",
+      "index": 37,
+      "infinitivDe": "dingen",
+      "infinitivEs": "contratar / acordar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "dingen",
+          "currentEs": "contratar / acordar"
+        },
+        {
+          "field": "praesens",
+          "de": "er dingt",
+          "currentEs": "el contrata"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "dingte",
+          "currentEs": "contratado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "dingte",
+          "currentEs": "contratado"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gedungen",
+          "currentEs": "contratado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-38",
+      "index": 38,
+      "infinitivDe": "dreschen",
+      "infinitivEs": "culto",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "dreschen",
+          "currentEs": "culto"
+        },
+        {
+          "field": "praesens",
+          "de": "er drischt",
+          "currentEs": "el trilla"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er drasch / er drosch",
+          "currentEs": "él trilló"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er dräsche / er drösche",
+          "currentEs": "él adoraría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gedroschen",
+          "currentEs": "culto"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-39",
+      "index": 39,
+      "infinitivDe": "dringen",
+      "infinitivEs": "forzar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "dringen",
+          "currentEs": "forzar"
+        },
+        {
+          "field": "praesens",
+          "de": "er dringt",
+          "currentEs": "él irrumpe"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er drang",
+          "currentEs": "él irrumpió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er dränge",
+          "currentEs": "él irrumpiría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gedrungen (er ist)",
+          "currentEs": "irrumpió en"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-40",
+      "index": 40,
+      "infinitivDe": "dünken",
+      "infinitivEs": "parece",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "dünken",
+          "currentEs": "parece"
+        },
+        {
+          "field": "praesens",
+          "de": "es dünkt",
+          "currentEs": "parece"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "deuchte",
+          "currentEs": "parecía"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "deuchte",
+          "currentEs": "parecía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gedünkt",
+          "currentEs": "pareció"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-41",
+      "index": 41,
+      "infinitivDe": "dürfen",
+      "infinitivEs": "ser permitido",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "dürfen",
+          "currentEs": "ser permitido"
+        },
+        {
+          "field": "praesens",
+          "de": "er darf",
+          "currentEs": "el puede"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "durfte",
+          "currentEs": "estaba permitido"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "durfte",
+          "currentEs": "estaba permitido"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gedurft",
+          "currentEs": "permitido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-42",
+      "index": 42,
+      "infinitivDe": "empfehlen",
+      "infinitivEs": "recomendar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "empfehlen",
+          "currentEs": "recomendar"
+        },
+        {
+          "field": "praesens",
+          "de": "er empfiehlt",
+          "currentEs": "el sugiere"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er empfahl",
+          "currentEs": "él sugirió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er empfähle / er empföhle",
+          "currentEs": "el recomendaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "empfohlen",
+          "currentEs": "recomendado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-43",
+      "index": 43,
+      "infinitivDe": "empfinden",
+      "infinitivEs": "sentir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "empfinden",
+          "currentEs": "sentir"
+        },
+        {
+          "field": "praesens",
+          "de": "er empfindet",
+          "currentEs": "el siente"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er empfand",
+          "currentEs": "el sintio"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er empfände",
+          "currentEs": "el sentiria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "empfunden",
+          "currentEs": "sintió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-44",
+      "index": 44,
+      "infinitivDe": "erlöschen",
+      "infinitivEs": "se desvanece",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "erlöschen",
+          "currentEs": "se desvanece"
+        },
+        {
+          "field": "praesens",
+          "de": "er erlischt",
+          "currentEs": "el sale"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er erlosch",
+          "currentEs": "él salió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er erlösche",
+          "currentEs": "él se desvanecería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "erloschen (er ist)",
+          "currentEs": "extinguido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-45",
+      "index": 45,
+      "infinitivDe": "erschrecken",
+      "infinitivEs": "confundirse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "erschrecken",
+          "currentEs": "confundirse"
+        },
+        {
+          "field": "praesens",
+          "de": "er erschrickt",
+          "currentEs": "el se asusta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er erschrak",
+          "currentEs": "se asustó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er erschräke",
+          "currentEs": "él se asustaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "erschrocken (er ist)",
+          "currentEs": "asustado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-46",
+      "index": 46,
+      "infinitivDe": "essen",
+      "infinitivEs": "comer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "essen",
+          "currentEs": "comer"
+        },
+        {
+          "field": "praesens",
+          "de": "er isst",
+          "currentEs": "el come"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er ass",
+          "currentEs": "el estaba comiendo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er äße",
+          "currentEs": "el comeria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gegessen",
+          "currentEs": "comido / comido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-47",
+      "index": 47,
+      "infinitivDe": "fahren",
+      "infinitivEs": "conducir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "fahren",
+          "currentEs": "conducir"
+        },
+        {
+          "field": "praesens",
+          "de": "er fährt",
+          "currentEs": "el conduce"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er fuhr",
+          "currentEs": "él estaba conduciendo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er führe",
+          "currentEs": "él conduciría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gefahren (er ist)",
+          "currentEs": "condujo / se fue"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-48",
+      "index": 48,
+      "infinitivDe": "fallen",
+      "infinitivEs": "caer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "fallen",
+          "currentEs": "caer"
+        },
+        {
+          "field": "praesens",
+          "de": "er fällt",
+          "currentEs": "el cae"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er fiel",
+          "currentEs": "el cayó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er fiele",
+          "currentEs": "el caeria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gefallen (er ist)",
+          "currentEs": "cayó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-49",
+      "index": 49,
+      "infinitivDe": "fangen",
+      "infinitivEs": "atrapar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "fangen",
+          "currentEs": "atrapar"
+        },
+        {
+          "field": "praesens",
+          "de": "er fängt",
+          "currentEs": "el atrapa"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er fing",
+          "currentEs": "él atrapó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er finge",
+          "currentEs": "él atraparía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gefangen",
+          "currentEs": "atrapado / atrapado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-50",
+      "index": 50,
+      "infinitivDe": "finden",
+      "infinitivEs": "encontrar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "finden",
+          "currentEs": "encontrar"
+        },
+        {
+          "field": "praesens",
+          "de": "er findet",
+          "currentEs": "el encuentra"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er fand",
+          "currentEs": "el encontro"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er fände",
+          "currentEs": "él encontraría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gefunden",
+          "currentEs": "encontró"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-51",
+      "index": 51,
+      "infinitivDe": "fliegen",
+      "infinitivEs": "Déjalo ir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "fliegen",
+          "currentEs": "Déjalo ir"
+        },
+        {
+          "field": "praesens",
+          "de": "er fliegt",
+          "currentEs": "el vuela"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er flog",
+          "currentEs": "el voló"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er flöge",
+          "currentEs": "el volaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geflogen (er ist)",
+          "currentEs": "ha volado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-52",
+      "index": 52,
+      "infinitivDe": "fliehen",
+      "infinitivEs": "huir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "fliehen",
+          "currentEs": "huir"
+        },
+        {
+          "field": "praesens",
+          "de": "er flieht",
+          "currentEs": "el huye"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er floh",
+          "currentEs": "él se escapó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er flöhe",
+          "currentEs": "él huiría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geflohen (er ist)",
+          "currentEs": "se escapó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-53",
+      "index": 53,
+      "infinitivDe": "fließen",
+      "infinitivEs": "fluir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "fließen",
+          "currentEs": "fluir"
+        },
+        {
+          "field": "praesens",
+          "de": "er fließt",
+          "currentEs": "el corre"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er floss",
+          "currentEs": "él corrió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er flösse",
+          "currentEs": "el correria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geflossen (er ist)",
+          "currentEs": "aprobado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-54",
+      "index": 54,
+      "infinitivDe": "fressen",
+      "infinitivEs": "comer mañana",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "fressen",
+          "currentEs": "comer mañana"
+        },
+        {
+          "field": "praesens",
+          "de": "er frisst",
+          "currentEs": "el come/traga"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er frass",
+          "currentEs": "comió / tragó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er fräße",
+          "currentEs": "él comería/desayunaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gefressen",
+          "currentEs": "comido / mañana"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-55",
+      "index": 55,
+      "infinitivDe": "frieren",
+      "infinitivEs": "frío",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "frieren",
+          "currentEs": "frío"
+        },
+        {
+          "field": "praesens",
+          "de": "er friert",
+          "currentEs": "el esta helado"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er fror",
+          "currentEs": "la isla"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er fröre",
+          "currentEs": "el estaba helado"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gefroren",
+          "currentEs": "isla"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-56",
+      "index": 56,
+      "infinitivDe": "geben",
+      "infinitivEs": "dar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "geben",
+          "currentEs": "dar"
+        },
+        {
+          "field": "praesens",
+          "de": "er gibt",
+          "currentEs": "el da"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er gab",
+          "currentEs": "el dio"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er gäbe",
+          "currentEs": "el daria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gegeben",
+          "currentEs": "dado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-57",
+      "index": 57,
+      "infinitivDe": "gedeihen",
+      "infinitivEs": "tener éxito",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gedeihen",
+          "currentEs": "tener éxito"
+        },
+        {
+          "field": "praesens",
+          "de": "er gedeiht",
+          "currentEs": "el tiene exito"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er gedieh",
+          "currentEs": "lo logró"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er gediehe",
+          "currentEs": "él tendría éxito"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gediehen (er ist)",
+          "currentEs": "tuvo éxito"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-58",
+      "index": 58,
+      "infinitivDe": "gehen",
+      "infinitivEs": "ir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gehen",
+          "currentEs": "ir"
+        },
+        {
+          "field": "praesens",
+          "de": "er geht",
+          "currentEs": "el va"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er ging",
+          "currentEs": "él caminó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er ginge",
+          "currentEs": "él iría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gegangen (er ist)",
+          "currentEs": "fue"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-59",
+      "index": 59,
+      "infinitivDe": "gewinnen",
+      "infinitivEs": "obtener",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "gewinnen",
+          "currentEs": "obtener"
+        },
+        {
+          "field": "praesens",
+          "de": "er gewinnt",
+          "currentEs": "el consigue"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er gewann",
+          "currentEs": "el consiguió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er gewönne / er gewänne",
+          "currentEs": "él obtendría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewonnen",
+          "currentEs": "obtenido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-60",
+      "index": 60,
+      "infinitivDe": "haben",
+      "infinitivEs": "ser / pertenecer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "haben",
+          "currentEs": "ser / pertenecer"
+        },
+        {
+          "field": "praesens",
+          "de": "er hat",
+          "currentEs": "él tiene"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "hatte",
+          "currentEs": "era"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "hatte",
+          "currentEs": "era"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gehabt",
+          "currentEs": "estado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-61",
+      "index": 61,
+      "infinitivDe": "halten",
+      "infinitivEs": "sostener",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "halten",
+          "currentEs": "sostener"
+        },
+        {
+          "field": "praesens",
+          "de": "er hält",
+          "currentEs": "él ahí"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er hielt",
+          "currentEs": "él sostuvo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er hielte",
+          "currentEs": "él sostendría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gehalten",
+          "currentEs": "sostuvo"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-62",
+      "index": 62,
+      "infinitivDe": "heißen",
+      "infinitivEs": "llamar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "heißen",
+          "currentEs": "llamar"
+        },
+        {
+          "field": "praesens",
+          "de": "er heißt",
+          "currentEs": "él llama / él es llamado"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er hieß",
+          "currentEs": "llamó / fue llamado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er hieße",
+          "currentEs": "él llamaría / sería llamado"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geheißen",
+          "currentEs": "llamado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-63",
+      "index": 63,
+      "infinitivDe": "helfen",
+      "infinitivEs": "para ayudar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "helfen",
+          "currentEs": "para ayudar"
+        },
+        {
+          "field": "praesens",
+          "de": "er hilft",
+          "currentEs": "el ayuda"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er half",
+          "currentEs": "él ayudó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er hülfe / er hälfe",
+          "currentEs": "el ayudaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geholfen",
+          "currentEs": "ayudó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-64",
+      "index": 64,
+      "infinitivDe": "kommen",
+      "infinitivEs": "venir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "kommen",
+          "currentEs": "venir"
+        },
+        {
+          "field": "praesens",
+          "de": "er kommt",
+          "currentEs": "el esta viniendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er kam",
+          "currentEs": "él vino"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er käme",
+          "currentEs": "él vendría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gekommen (er ist)",
+          "currentEs": "ha llegado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-65",
+      "index": 65,
+      "infinitivDe": "können",
+      "infinitivEs": "poder",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "können",
+          "currentEs": "poder"
+        },
+        {
+          "field": "praesens",
+          "de": "er kann",
+          "currentEs": "el puede"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "konnte",
+          "currentEs": "podría"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "konnte",
+          "currentEs": "podría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gekonnt",
+          "currentEs": "podría"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-66",
+      "index": 66,
+      "infinitivDe": "kriechen",
+      "infinitivEs": "Está lloviendo",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "kriechen",
+          "currentEs": "Está lloviendo"
+        },
+        {
+          "field": "praesens",
+          "de": "er kriecht",
+          "currentEs": "el se inclina"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er kroch",
+          "currentEs": "el llovió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er kröche",
+          "currentEs": "el esta lloviendo"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gekrochen (er ist)",
+          "currentEs": "falleció"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-67",
+      "index": 67,
+      "infinitivDe": "laden",
+      "infinitivEs": "cargar, invitar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "laden",
+          "currentEs": "cargar, invitar"
+        },
+        {
+          "field": "praesens",
+          "de": "er lädt",
+          "currentEs": "él amontona / invita"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er lud",
+          "currentEs": "cargó / invitó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er lüde",
+          "currentEs": "él cargaría / invitaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geladen",
+          "currentEs": "cargado / invitado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-68",
+      "index": 68,
+      "infinitivDe": "lassen",
+      "infinitivEs": "poner, dejar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "lassen",
+          "currentEs": "poner, dejar"
+        },
+        {
+          "field": "praesens",
+          "de": "er lässt",
+          "currentEs": "él pone / deja"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er ließ",
+          "currentEs": "él ordenó / permitió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er ließe",
+          "currentEs": "él pondría / dejaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gelassen",
+          "currentEs": "poner / permitido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-69",
+      "index": 69,
+      "infinitivDe": "laufen",
+      "infinitivEs": "correr",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "laufen",
+          "currentEs": "correr"
+        },
+        {
+          "field": "praesens",
+          "de": "er läuft",
+          "currentEs": "el esta corriendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er lief",
+          "currentEs": "él corrió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er liefe",
+          "currentEs": "el correria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gelaufen (er ist)",
+          "currentEs": "corrió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-70",
+      "index": 70,
+      "infinitivDe": "leiden",
+      "infinitivEs": "sufrir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "leiden",
+          "currentEs": "sufrir"
+        },
+        {
+          "field": "praesens",
+          "de": "er leidet",
+          "currentEs": "el sufre"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er litt",
+          "currentEs": "el sufrió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er litte",
+          "currentEs": "el sufriria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gelitten",
+          "currentEs": "sufrió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-71",
+      "index": 71,
+      "infinitivDe": "leihen",
+      "infinitivEs": "prestar / pedir prestado",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "leihen",
+          "currentEs": "prestar / pedir prestado"
+        },
+        {
+          "field": "praesens",
+          "de": "er leiht",
+          "currentEs": "él presta / toma prestado"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er lieh",
+          "currentEs": "él prestó / tomó prestado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er liehe",
+          "currentEs": "él prestaría / pediría prestado"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geliehen",
+          "currentEs": "prestado / prestado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-72",
+      "index": 72,
+      "infinitivDe": "lesen",
+      "infinitivEs": "leer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "lesen",
+          "currentEs": "leer"
+        },
+        {
+          "field": "praesens",
+          "de": "er liest",
+          "currentEs": "el esta leyendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er las",
+          "currentEs": "el estaba leyendo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er läse",
+          "currentEs": "él leería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gelesen",
+          "currentEs": "leer"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-73",
+      "index": 73,
+      "infinitivDe": "liegen",
+      "infinitivEs": "dormir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "liegen",
+          "currentEs": "dormir"
+        },
+        {
+          "field": "praesens",
+          "de": "er liegt",
+          "currentEs": "el esta durmiendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er lag",
+          "currentEs": "el estaba durmiendo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er läge",
+          "currentEs": "el dormiria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gelegen",
+          "currentEs": "durmió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-74",
+      "index": 74,
+      "infinitivDe": "lügen",
+      "infinitivEs": "mentir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "lügen",
+          "currentEs": "mentir"
+        },
+        {
+          "field": "praesens",
+          "de": "er lügt",
+          "currentEs": "el esta mintiendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er log",
+          "currentEs": "él mintió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er löge",
+          "currentEs": "él mentiría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gelogen",
+          "currentEs": "mintió a"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-75",
+      "index": 75,
+      "infinitivDe": "mahlen",
+      "infinitivEs": "suelo",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "mahlen",
+          "currentEs": "suelo"
+        },
+        {
+          "field": "praesens",
+          "de": "er mahlt",
+          "currentEs": "el muele"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er mahlte",
+          "currentEs": "el borde"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er malte",
+          "currentEs": "el muele"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gemahlen",
+          "currentEs": "suelo"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-76",
+      "index": 76,
+      "infinitivDe": "meiden",
+      "infinitivEs": "evitar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "meiden",
+          "currentEs": "evitar"
+        },
+        {
+          "field": "praesens",
+          "de": "er meidet",
+          "currentEs": "el evita"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er mied",
+          "currentEs": "él evitó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er miede",
+          "currentEs": "él evitaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gemieden",
+          "currentEs": "evitado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-77",
+      "index": 77,
+      "infinitivDe": "melken",
+      "infinitivEs": "ordeñar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "melken",
+          "currentEs": "ordeñar"
+        },
+        {
+          "field": "praesens",
+          "de": "er milkt / er melkt",
+          "currentEs": "el barre"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er molk / er melkte",
+          "currentEs": "él barrió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er mölke / er melkte",
+          "currentEs": "él ordeñaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gemolken / gemelkt",
+          "currentEs": "ordeñado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-78",
+      "index": 78,
+      "infinitivDe": "messen",
+      "infinitivEs": "medir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "messen",
+          "currentEs": "medir"
+        },
+        {
+          "field": "praesens",
+          "de": "er misst",
+          "currentEs": "él mide"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er mass",
+          "currentEs": "él midió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er mäße",
+          "currentEs": "él mediría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gemessen",
+          "currentEs": "mesurado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-79",
+      "index": 79,
+      "infinitivDe": "misslingen",
+      "infinitivEs": "fallar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "misslingen",
+          "currentEs": "fallar"
+        },
+        {
+          "field": "praesens",
+          "de": "es misslingt",
+          "currentEs": "falla"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "misslang",
+          "currentEs": "fallido"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "misslang",
+          "currentEs": "fallido"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "misslungen",
+          "currentEs": "fallido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-80",
+      "index": 80,
+      "infinitivDe": "mögen",
+      "infinitivEs": "gustar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "mögen",
+          "currentEs": "gustar"
+        },
+        {
+          "field": "praesens",
+          "de": "er mag",
+          "currentEs": "le gusta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "mochte",
+          "currentEs": "le gustó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "mochte",
+          "currentEs": "le gustó"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gemocht",
+          "currentEs": "apreciado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-81",
+      "index": 81,
+      "infinitivDe": "müssen",
+      "infinitivEs": "necesitar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "müssen",
+          "currentEs": "necesitar"
+        },
+        {
+          "field": "praesens",
+          "de": "er muss",
+          "currentEs": "el necesita"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "musste",
+          "currentEs": "debería tener"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "musste",
+          "currentEs": "debería tener"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gemusst",
+          "currentEs": "necesario"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-82",
+      "index": 82,
+      "infinitivDe": "nehmen",
+      "infinitivEs": "tomar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "nehmen",
+          "currentEs": "tomar"
+        },
+        {
+          "field": "praesens",
+          "de": "er nimmt",
+          "currentEs": "el toma"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er nahm",
+          "currentEs": "el tomo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er nähme",
+          "currentEs": "él tomaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "genommen",
+          "currentEs": "tomado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-83",
+      "index": 83,
+      "infinitivDe": "nennen",
+      "infinitivEs": "nombrar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "nennen",
+          "currentEs": "nombrar"
+        },
+        {
+          "field": "praesens",
+          "de": "er nennt",
+          "currentEs": "él nombró"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er nannte",
+          "currentEs": "el llamo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er nennte",
+          "currentEs": "él nombraría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "genannt",
+          "currentEs": "nombrado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-84",
+      "index": 84,
+      "infinitivDe": "pfeifen",
+      "infinitivEs": "silbar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "pfeifen",
+          "currentEs": "silbar"
+        },
+        {
+          "field": "praesens",
+          "de": "er pfeift",
+          "currentEs": "el silba"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er pfiff",
+          "currentEs": "el silbó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er pfiffe",
+          "currentEs": "él silbaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gepfiffen",
+          "currentEs": "silbó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-85",
+      "index": 85,
+      "infinitivDe": "pflegen",
+      "infinitivEs": "mantener",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "pflegen",
+          "currentEs": "mantener"
+        },
+        {
+          "field": "praesens",
+          "de": "er pflegt",
+          "currentEs": "a él le importa"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "pflegte vai pflog",
+          "currentEs": "colocar"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "pflegte vai pflog",
+          "currentEs": "colocar"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gepflegt vai gepflogen",
+          "currentEs": "arreglado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-86",
+      "index": 86,
+      "infinitivDe": "preisen",
+      "infinitivEs": "elogio",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "preisen",
+          "currentEs": "elogio"
+        },
+        {
+          "field": "praesens",
+          "de": "er preist",
+          "currentEs": "el elogia"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er pries",
+          "currentEs": "el elogió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er priese",
+          "currentEs": "él alabaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gepriesen",
+          "currentEs": "alabado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-87",
+      "index": 87,
+      "infinitivDe": "quellen",
+      "infinitivEs": "hincharse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "quellen",
+          "currentEs": "hincharse"
+        },
+        {
+          "field": "praesens",
+          "de": "er quillt",
+          "currentEs": "el esta engordando"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er quoll",
+          "currentEs": "el maduró"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er quölle",
+          "currentEs": "el gordo"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gequollen (er ist)",
+          "currentEs": "hinchado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-88",
+      "index": 88,
+      "infinitivDe": "raten",
+      "infinitivEs": "sugerir / mencionar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "raten",
+          "currentEs": "sugerir / mencionar"
+        },
+        {
+          "field": "praesens",
+          "de": "er rät",
+          "currentEs": "él recomienda / min"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er riet",
+          "currentEs": "él sugirió / sugirió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er riete",
+          "currentEs": "él sugeriría / mencionaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geraten",
+          "currentEs": "sugerido / mencionado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-89",
+      "index": 89,
+      "infinitivDe": "reiben",
+      "infinitivEs": "frotar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "reiben",
+          "currentEs": "frotar"
+        },
+        {
+          "field": "praesens",
+          "de": "er reibt",
+          "currentEs": "el frota"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er rieb",
+          "currentEs": "el frota"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er riebe",
+          "currentEs": "él frotaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gerieben",
+          "currentEs": "frotado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-90",
+      "index": 90,
+      "infinitivDe": "reißen",
+      "infinitivEs": "jalar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "reißen",
+          "currentEs": "jalar"
+        },
+        {
+          "field": "praesens",
+          "de": "er reißt",
+          "currentEs": "él chasquea"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er riss",
+          "currentEs": "él espetó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er risse",
+          "currentEs": "él espetó"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gerissen",
+          "currentEs": "rasgado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-91",
+      "index": 91,
+      "infinitivDe": "reiten",
+      "infinitivEs": "montar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "reiten",
+          "currentEs": "montar"
+        },
+        {
+          "field": "praesens",
+          "de": "er reitet",
+          "currentEs": "el cabalga"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er ritt",
+          "currentEs": "él montó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er ritte",
+          "currentEs": "él montaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geritten (er ist)",
+          "currentEs": "montó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-92",
+      "index": 92,
+      "infinitivDe": "rennen",
+      "infinitivEs": "correr",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "rennen",
+          "currentEs": "correr"
+        },
+        {
+          "field": "praesens",
+          "de": "er rennt",
+          "currentEs": "el esta corriendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er rannte",
+          "currentEs": "él corrió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er rennte",
+          "currentEs": "el correria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gerannt",
+          "currentEs": "corrió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-93",
+      "index": 93,
+      "infinitivDe": "riechen",
+      "infinitivEs": "ost",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "riechen",
+          "currentEs": "ost"
+        },
+        {
+          "field": "praesens",
+          "de": "er riecht",
+          "currentEs": "el huele"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er roch",
+          "currentEs": "el canta"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er röche",
+          "currentEs": "el puerto"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gerochen",
+          "currentEs": "puerto"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-94",
+      "index": 94,
+      "infinitivDe": "ringen",
+      "infinitivEs": "romper",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "ringen",
+          "currentEs": "romper"
+        },
+        {
+          "field": "praesens",
+          "de": "er ringt",
+          "currentEs": "el rompe"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er rang",
+          "currentEs": "él se rompió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er ränge",
+          "currentEs": "él se rompería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gerungen",
+          "currentEs": "esperar"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-95",
+      "index": 95,
+      "infinitivDe": "rinnen",
+      "infinitivEs": "fluir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "rinnen",
+          "currentEs": "fluir"
+        },
+        {
+          "field": "praesens",
+          "de": "er rinnt",
+          "currentEs": "el corre"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er rann",
+          "currentEs": "él corrió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er ränne / er rönne",
+          "currentEs": "el correria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geronnen (er ist)",
+          "currentEs": "fluido / coagulado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-96",
+      "index": 96,
+      "infinitivDe": "rufen",
+      "infinitivEs": "llamar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "rufen",
+          "currentEs": "llamar"
+        },
+        {
+          "field": "praesens",
+          "de": "er ruft",
+          "currentEs": "el llama"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er rief",
+          "currentEs": "el llamo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er riefe",
+          "currentEs": "el llamaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gerufen",
+          "currentEs": "llamado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-97",
+      "index": 97,
+      "infinitivDe": "salzen",
+      "infinitivEs": "a la sal",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "salzen",
+          "currentEs": "a la sal"
+        },
+        {
+          "field": "praesens",
+          "de": "er salzt",
+          "currentEs": "el salado"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er salzte",
+          "currentEs": "el salado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er salzte",
+          "currentEs": "el salaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesalzen",
+          "currentEs": "salado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-98",
+      "index": 98,
+      "infinitivDe": "saufen",
+      "infinitivEs": "secar / beber",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "saufen",
+          "currentEs": "secar / beber"
+        },
+        {
+          "field": "praesens",
+          "de": "er säuft",
+          "currentEs": "el esta bebiendo / bebiendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er soff",
+          "currentEs": "bebió / bebió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er söffe",
+          "currentEs": "él bebería / bebería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesoffen",
+          "currentEs": "ebrio"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-99",
+      "index": 99,
+      "infinitivDe": "saugen",
+      "infinitivEs": "chupar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "saugen",
+          "currentEs": "chupar"
+        },
+        {
+          "field": "praesens",
+          "de": "er saugt",
+          "currentEs": "el apesta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sog",
+          "currentEs": "el apestaba"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er söge",
+          "currentEs": "el chuparia"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesogen",
+          "currentEs": "chupado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-100",
+      "index": 100,
+      "infinitivDe": "schaffen",
+      "infinitivEs": "crear",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schaffen",
+          "currentEs": "crear"
+        },
+        {
+          "field": "praesens",
+          "de": "er schafft",
+          "currentEs": "el crea"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schuf",
+          "currentEs": "el creo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schüfe",
+          "currentEs": "él crearía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschaffen",
+          "currentEs": "creado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-101",
+      "index": 101,
+      "infinitivDe": "schallen",
+      "infinitivEs": "sonar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schallen",
+          "currentEs": "sonar"
+        },
+        {
+          "field": "praesens",
+          "de": "es schallt",
+          "currentEs": "suena"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "schallte vai scholl",
+          "currentEs": "sonó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "schallte vai scholl",
+          "currentEs": "sonó"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschallt",
+          "currentEs": "sonó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-102",
+      "index": 102,
+      "infinitivDe": "scheiden",
+      "infinitivEs": "divorcio / ruptura",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "scheiden",
+          "currentEs": "divorcio / ruptura"
+        },
+        {
+          "field": "praesens",
+          "de": "er scheidet",
+          "currentEs": "él se está divorciando/divorciando"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schied",
+          "currentEs": "se divorció / se divorció"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schiede",
+          "currentEs": "él se divorciaría / divorciaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschieden (er hat / er ist)",
+          "currentEs": "separados / divorciados"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-103",
+      "index": 103,
+      "infinitivDe": "scheinen",
+      "infinitivEs": "brillar / aparecer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "scheinen",
+          "currentEs": "brillar / aparecer"
+        },
+        {
+          "field": "praesens",
+          "de": "er scheint",
+          "currentEs": "él brilla / parece"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schien",
+          "currentEs": "él brillaba / parecía"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schiene",
+          "currentEs": "él brillaría / parecería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschienen",
+          "currentEs": "brillaba / parecía"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-104",
+      "index": 104,
+      "infinitivDe": "schelten",
+      "infinitivEs": "barto",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schelten",
+          "currentEs": "barto"
+        },
+        {
+          "field": "praesens",
+          "de": "er schilt",
+          "currentEs": "el regaña"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schalt",
+          "currentEs": "el prohibió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schölte / er schälte",
+          "currentEs": "el se afeita"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gescholten",
+          "currentEs": "barba"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-105",
+      "index": 105,
+      "infinitivDe": "scheren",
+      "infinitivEs": "cortar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "scheren",
+          "currentEs": "cortar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schert",
+          "currentEs": "el esta cortando"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "schor vai scherte",
+          "currentEs": "tijeras"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "schor vai scherte",
+          "currentEs": "tijeras"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschoren vai geschert",
+          "currentEs": "recortado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-106",
+      "index": 106,
+      "infinitivDe": "schieben",
+      "infinitivEs": "empujar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schieben",
+          "currentEs": "empujar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schiebt",
+          "currentEs": "el empuja"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schob",
+          "currentEs": "él empujó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schöbe",
+          "currentEs": "él empujaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschoben",
+          "currentEs": "empujado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-107",
+      "index": 107,
+      "infinitivDe": "schießen",
+      "infinitivEs": "disparar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schießen",
+          "currentEs": "disparar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schießt",
+          "currentEs": "el dispara"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schoss",
+          "currentEs": "disparó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schösse",
+          "currentEs": "el dispararia"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschossen",
+          "currentEs": "disparo"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-108",
+      "index": 108,
+      "infinitivDe": "schinden",
+      "infinitivEs": "tormento",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schinden",
+          "currentEs": "tormento"
+        },
+        {
+          "field": "praesens",
+          "de": "er schindet",
+          "currentEs": "el atormenta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "schindete",
+          "currentEs": "atormentado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "schindete",
+          "currentEs": "atormentado"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschunden",
+          "currentEs": "atormentado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-109",
+      "index": 109,
+      "infinitivDe": "schlafen",
+      "infinitivEs": "dormir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schlafen",
+          "currentEs": "dormir"
+        },
+        {
+          "field": "praesens",
+          "de": "er schläft",
+          "currentEs": "el esta durmiendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schlief",
+          "currentEs": "el estaba durmiendo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schliefe",
+          "currentEs": "el dormiria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlafen",
+          "currentEs": "durmió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-110",
+      "index": 110,
+      "infinitivDe": "schlagen",
+      "infinitivEs": "golpear",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schlagen",
+          "currentEs": "golpear"
+        },
+        {
+          "field": "praesens",
+          "de": "er schlägt",
+          "currentEs": "el golpea"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schlug",
+          "currentEs": "el golpe"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schlüge",
+          "currentEs": "él golpearía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlagen",
+          "currentEs": "vencido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-111",
+      "index": 111,
+      "infinitivDe": "schleichen",
+      "infinitivEs": "Está lloviendo",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schleichen",
+          "currentEs": "Está lloviendo"
+        },
+        {
+          "field": "praesens",
+          "de": "er schleicht",
+          "currentEs": "el se inclina"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schlich",
+          "currentEs": "el llovió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schliche",
+          "currentEs": "el esta lloviendo"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlichen (er ist)",
+          "currentEs": "falleció"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-112",
+      "index": 112,
+      "infinitivDe": "schleifen",
+      "infinitivEs": "moler",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schleifen",
+          "currentEs": "moler"
+        },
+        {
+          "field": "praesens",
+          "de": "er schleift",
+          "currentEs": "el muele"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schliff",
+          "currentEs": "él molió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schliffe",
+          "currentEs": "él molería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschliffen",
+          "currentEs": "pulido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-113",
+      "index": 113,
+      "infinitivDe": "schließen",
+      "infinitivEs": "cerrar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schließen",
+          "currentEs": "cerrar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schließt",
+          "currentEs": "el cierra"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schloss",
+          "currentEs": "el cerro"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schlösse",
+          "currentEs": "el cerraria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlossen",
+          "currentEs": "cerrado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-114",
+      "index": 114,
+      "infinitivDe": "schlingen",
+      "infinitivEs": "mañana",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schlingen",
+          "currentEs": "mañana"
+        },
+        {
+          "field": "praesens",
+          "de": "er schlingt",
+          "currentEs": "el traga"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schlang",
+          "currentEs": "el trago"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schlänge",
+          "currentEs": "él mañana"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschlungen",
+          "currentEs": "la mañana"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-115",
+      "index": 115,
+      "infinitivDe": "schmeißen",
+      "infinitivEs": "tirar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schmeißen",
+          "currentEs": "tirar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schmeißt",
+          "currentEs": "el tira"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schmiss",
+          "currentEs": "el arrojó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schmisse",
+          "currentEs": "el arrojó"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschmissen",
+          "currentEs": "arrojado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-116",
+      "index": 116,
+      "infinitivDe": "schmelzen",
+      "infinitivEs": "emocionante",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schmelzen",
+          "currentEs": "emocionante"
+        },
+        {
+          "field": "praesens",
+          "de": "er schmilzt",
+          "currentEs": "el se derrite"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schmolz",
+          "currentEs": "el gimió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schmölze",
+          "currentEs": "él se estaba moviendo"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschmolzen (er ist)",
+          "currentEs": "derretido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-117",
+      "index": 117,
+      "infinitivDe": "schnauben",
+      "infinitivEs": "silbar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schnauben",
+          "currentEs": "silbar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schnaubt",
+          "currentEs": "el resopla"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "schnaubte vai schnob",
+          "currentEs": "resopló"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "schnaubte vai schnob",
+          "currentEs": "resopló"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschnaubt vai geschnoben",
+          "currentEs": "bufido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-118",
+      "index": 118,
+      "infinitivDe": "schneiden",
+      "infinitivEs": "cortar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schneiden",
+          "currentEs": "cortar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schneidet",
+          "currentEs": "el gira"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schnitt",
+          "currentEs": "él estaba cortando"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schnitte",
+          "currentEs": "él cortaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschnitten",
+          "currentEs": "cortar"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-119",
+      "index": 119,
+      "infinitivDe": "schreiben",
+      "infinitivEs": "escribir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schreiben",
+          "currentEs": "escribir"
+        },
+        {
+          "field": "praesens",
+          "de": "er schreibt",
+          "currentEs": "el escribe"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schrieb",
+          "currentEs": "el escribio"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schriebe",
+          "currentEs": "el escribiria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschrieben",
+          "currentEs": "escrito"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-120",
+      "index": 120,
+      "infinitivDe": "schreien",
+      "infinitivEs": "gritar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schreien",
+          "currentEs": "gritar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schreit",
+          "currentEs": "el grita"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schrie",
+          "currentEs": "el grito"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schriee",
+          "currentEs": "el gritaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschrien",
+          "currentEs": "gritó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-121",
+      "index": 121,
+      "infinitivDe": "schreiten",
+      "infinitivEs": "caminando",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schreiten",
+          "currentEs": "caminando"
+        },
+        {
+          "field": "praesens",
+          "de": "er schreitet",
+          "currentEs": "el esta caminando"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schritt",
+          "currentEs": "el estaba caminando"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schritte",
+          "currentEs": "el caminaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschritten (er ist)",
+          "currentEs": "caminó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-122",
+      "index": 122,
+      "infinitivDe": "schweigen",
+      "infinitivEs": "callar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schweigen",
+          "currentEs": "callar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schweigt",
+          "currentEs": "el esta en silencio"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwieg",
+          "currentEs": "el estaba en silencio"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwiege",
+          "currentEs": "el estaría en silencio"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwiegen",
+          "currentEs": "silenciado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-123",
+      "index": 123,
+      "infinitivDe": "schwellen",
+      "infinitivEs": "pampa",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwellen",
+          "currentEs": "pampa"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwillt",
+          "currentEs": "él hace pucheros"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwoll",
+          "currentEs": "el pampa"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwölle",
+          "currentEs": "él bombearía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwollen (er ist)",
+          "currentEs": "bomba"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-124",
+      "index": 124,
+      "infinitivDe": "schwimmen",
+      "infinitivEs": "nadar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwimmen",
+          "currentEs": "nadar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwimmt",
+          "currentEs": "el nada"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwamm",
+          "currentEs": "el estaba nadando"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwömme / er schwämme",
+          "currentEs": "él nadaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwommen (er ist)",
+          "currentEs": "nadé"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-125",
+      "index": 125,
+      "infinitivDe": "schwinden",
+      "infinitivEs": "desaparecer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwinden",
+          "currentEs": "desaparecer"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwindet",
+          "currentEs": "el desaparece"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwand",
+          "currentEs": "él desapareció"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwände",
+          "currentEs": "él desaparecería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwunden (er ist)",
+          "currentEs": "perdido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-126",
+      "index": 126,
+      "infinitivDe": "schwingen",
+      "infinitivEs": "ola",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwingen",
+          "currentEs": "ola"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwingt",
+          "currentEs": "él saluda"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwang",
+          "currentEs": "él saludó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwänge",
+          "currentEs": "él saludaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschwungen",
+          "currentEs": "saludó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-127",
+      "index": 127,
+      "infinitivDe": "schwören",
+      "infinitivEs": "jurar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "schwören",
+          "currentEs": "jurar"
+        },
+        {
+          "field": "praesens",
+          "de": "er schwört",
+          "currentEs": "el jura"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er schwur / er schwor",
+          "currentEs": "él juró"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er schwöre",
+          "currentEs": "el juraría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geschworen",
+          "currentEs": "jurado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-128",
+      "index": 128,
+      "infinitivDe": "sehen",
+      "infinitivEs": "ver",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sehen",
+          "currentEs": "ver"
+        },
+        {
+          "field": "praesens",
+          "de": "er sieht",
+          "currentEs": "el ve"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sah",
+          "currentEs": "el vio"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sähe",
+          "currentEs": "el veria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesehen",
+          "currentEs": "visto"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-129",
+      "index": 129,
+      "infinitivDe": "sein",
+      "infinitivEs": "ser",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sein",
+          "currentEs": "ser"
+        },
+        {
+          "field": "praesens",
+          "de": "er ist",
+          "currentEs": "él es"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "war",
+          "currentEs": "era"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "war",
+          "currentEs": "era"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewesen",
+          "currentEs": "estado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-130",
+      "index": 130,
+      "infinitivDe": "senden",
+      "infinitivEs": "enviar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "senden",
+          "currentEs": "enviar"
+        },
+        {
+          "field": "praesens",
+          "de": "er sendet",
+          "currentEs": "el envia"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sandte / er sendete",
+          "currentEs": "el envió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sendete",
+          "currentEs": "él enviaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesandt / gesendet",
+          "currentEs": "enviado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-131",
+      "index": 131,
+      "infinitivDe": "sieden",
+      "infinitivEs": "hervir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sieden",
+          "currentEs": "hervir"
+        },
+        {
+          "field": "praesens",
+          "de": "er siedet",
+          "currentEs": "el cocina"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "sott vai siedete",
+          "currentEs": "cocido"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "sott vai siedete",
+          "currentEs": "cocido"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesotten vai gesiedet",
+          "currentEs": "hervido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-132",
+      "index": 132,
+      "infinitivDe": "singen",
+      "infinitivEs": "cantar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "singen",
+          "currentEs": "cantar"
+        },
+        {
+          "field": "praesens",
+          "de": "er singt",
+          "currentEs": "el canta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sang",
+          "currentEs": "el canto"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sänge",
+          "currentEs": "el cantaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesungen",
+          "currentEs": "cantado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-133",
+      "index": 133,
+      "infinitivDe": "sinken",
+      "infinitivEs": "hundirse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sinken",
+          "currentEs": "hundirse"
+        },
+        {
+          "field": "praesens",
+          "de": "er sinkt",
+          "currentEs": "el se esta hundiendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sank",
+          "currentEs": "él estaba haciendo las paces"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sänke",
+          "currentEs": "él se hundiría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesunken (er ist)",
+          "currentEs": "constituir"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-134",
+      "index": 134,
+      "infinitivDe": "sinnen",
+      "infinitivEs": "preguntarse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sinnen",
+          "currentEs": "preguntarse"
+        },
+        {
+          "field": "praesens",
+          "de": "er sinnt",
+          "currentEs": "el se pregunta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sann",
+          "currentEs": "se preguntó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sönne / er sänne",
+          "currentEs": "él se preguntaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesonnen",
+          "currentEs": "dispuesto"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-135",
+      "index": 135,
+      "infinitivDe": "sitzen",
+      "infinitivEs": "sentarse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sitzen",
+          "currentEs": "sentarse"
+        },
+        {
+          "field": "praesens",
+          "de": "er sitzt",
+          "currentEs": "el esta sentado"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sass",
+          "currentEs": "el estaba sentado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er säße",
+          "currentEs": "él se sentaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesessen",
+          "currentEs": "se sentó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-136",
+      "index": 136,
+      "infinitivDe": "sollen",
+      "infinitivEs": "necesitar / estar obligado",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sollen",
+          "currentEs": "necesitar / estar obligado"
+        },
+        {
+          "field": "praesens",
+          "de": "er soll",
+          "currentEs": "el necesita"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "sollte",
+          "currentEs": "debería tener"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "sollte",
+          "currentEs": "debería tener"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesollt",
+          "currentEs": "necesario"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-137",
+      "index": 137,
+      "infinitivDe": "speien",
+      "infinitivEs": "escupir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "speien",
+          "currentEs": "escupir"
+        },
+        {
+          "field": "praesens",
+          "de": "er speit",
+          "currentEs": "el escupe"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er spie",
+          "currentEs": "el escupió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spie",
+          "currentEs": "él escupiría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gespien",
+          "currentEs": "escupió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-138",
+      "index": 138,
+      "infinitivDe": "spinnen",
+      "infinitivEs": "girar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "spinnen",
+          "currentEs": "girar"
+        },
+        {
+          "field": "praesens",
+          "de": "er spinnt",
+          "currentEs": "el gira"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er spann",
+          "currentEs": "el giró"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spönne / er spänne",
+          "currentEs": "él daría vueltas"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesponnen",
+          "currentEs": "hilado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-139",
+      "index": 139,
+      "infinitivDe": "spleißen",
+      "infinitivEs": "para conectar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "spleißen",
+          "currentEs": "para conectar"
+        },
+        {
+          "field": "praesens",
+          "de": "er spleißt",
+          "currentEs": "el conecta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "spliss",
+          "currentEs": "conectado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "spliss",
+          "currentEs": "conectado"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesplissen",
+          "currentEs": "conectado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-140",
+      "index": 140,
+      "infinitivDe": "sprechen",
+      "infinitivEs": "hablar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sprechen",
+          "currentEs": "hablar"
+        },
+        {
+          "field": "praesens",
+          "de": "er spricht",
+          "currentEs": "el habla"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sprach",
+          "currentEs": "el habló"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spräche",
+          "currentEs": "el hablaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesprochen",
+          "currentEs": "hablado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-141",
+      "index": 141,
+      "infinitivDe": "sprießen",
+      "infinitivEs": "prosperar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sprießen",
+          "currentEs": "prosperar"
+        },
+        {
+          "field": "praesens",
+          "de": "er sprießt",
+          "currentEs": "el prospera"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er spross",
+          "currentEs": "él prosperó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er sprösse",
+          "currentEs": "el estante"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesprossen (er ist)",
+          "currentEs": "el hombro"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-142",
+      "index": 142,
+      "infinitivDe": "springen",
+      "infinitivEs": "saltar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "springen",
+          "currentEs": "saltar"
+        },
+        {
+          "field": "praesens",
+          "de": "er springt",
+          "currentEs": "el salta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er sprang",
+          "currentEs": "él saltó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spränge",
+          "currentEs": "el saltaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesprungen (er ist)",
+          "currentEs": "lente"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-143",
+      "index": 143,
+      "infinitivDe": "stechen",
+      "infinitivEs": "puñalada",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stechen",
+          "currentEs": "puñalada"
+        },
+        {
+          "field": "praesens",
+          "de": "er sticht",
+          "currentEs": "el apuñala"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stach",
+          "currentEs": "él golpeó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stäche",
+          "currentEs": "él apuñalaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestochen",
+          "currentEs": "apuñalado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-144",
+      "index": 144,
+      "infinitivDe": "stecken",
+      "infinitivEs": "pegarse / pegarse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stecken",
+          "currentEs": "pegarse / pegarse"
+        },
+        {
+          "field": "praesens",
+          "de": "er steckt",
+          "currentEs": "el empuja"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "stak vai steckte",
+          "currentEs": "relleno"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "stak vai steckte",
+          "currentEs": "relleno"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gesteckt",
+          "currentEs": "relleno"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-145",
+      "index": 145,
+      "infinitivDe": "stehen",
+      "infinitivEs": "estar de pie",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stehen",
+          "currentEs": "estar de pie"
+        },
+        {
+          "field": "praesens",
+          "de": "er steht",
+          "currentEs": "el esta de pie"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stand",
+          "currentEs": "él se puso de pie"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stände / er stünde",
+          "currentEs": "él estaría de pie"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestanden",
+          "currentEs": "de pie"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-146",
+      "index": 146,
+      "infinitivDe": "stehlen",
+      "infinitivEs": "robar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stehlen",
+          "currentEs": "robar"
+        },
+        {
+          "field": "praesens",
+          "de": "er stiehlt",
+          "currentEs": "el roba"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stahl",
+          "currentEs": "el robo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stöhle / er stähle",
+          "currentEs": "el robaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestohlen",
+          "currentEs": "robado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-147",
+      "index": 147,
+      "infinitivDe": "steigen",
+      "infinitivEs": "escalar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "steigen",
+          "currentEs": "escalar"
+        },
+        {
+          "field": "praesens",
+          "de": "er steigt",
+          "currentEs": "el sube"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stieg",
+          "currentEs": "él subió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stiege",
+          "currentEs": "él subiría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestiegen (er ist)",
+          "currentEs": "subió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-148",
+      "index": 148,
+      "infinitivDe": "sterben",
+      "infinitivEs": "morir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "sterben",
+          "currentEs": "morir"
+        },
+        {
+          "field": "praesens",
+          "de": "er stirbt",
+          "currentEs": "el esta muriendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er starb",
+          "currentEs": "el murio"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stürbe",
+          "currentEs": "el moriria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestorben (er ist)",
+          "currentEs": "muerto"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-149",
+      "index": 149,
+      "infinitivDe": "stieben",
+      "infinitivEs": "espuma / remolino",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stieben",
+          "currentEs": "espuma / remolino"
+        },
+        {
+          "field": "praesens",
+          "de": "es stiebt",
+          "currentEs": "sopla"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "stob vai stiebte",
+          "currentEs": "espumado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "stob vai stiebte",
+          "currentEs": "espumado"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestoben vai gestiebt",
+          "currentEs": "arruinado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-150",
+      "index": 150,
+      "infinitivDe": "stinken",
+      "infinitivEs": "oler",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stinken",
+          "currentEs": "oler"
+        },
+        {
+          "field": "praesens",
+          "de": "es stinkt",
+          "currentEs": "apesta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "stank",
+          "currentEs": "olía"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "stank",
+          "currentEs": "olía"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestunken",
+          "currentEs": "maloliente"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-151",
+      "index": 151,
+      "infinitivDe": "stoßen",
+      "infinitivEs": "empujar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "stoßen",
+          "currentEs": "empujar"
+        },
+        {
+          "field": "praesens",
+          "de": "er stößt",
+          "currentEs": "el empuja"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stieß",
+          "currentEs": "él empujó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stieße",
+          "currentEs": "él estaba empujando"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestoßen",
+          "currentEs": "empujado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-152",
+      "index": 152,
+      "infinitivDe": "streichen",
+      "infinitivEs": "pintura / tira",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "streichen",
+          "currentEs": "pintura / tira"
+        },
+        {
+          "field": "praesens",
+          "de": "er streicht",
+          "currentEs": "él pinta / rayas"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er strich",
+          "currentEs": "él pintó / rayado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er striche",
+          "currentEs": "él pintaría / desnudaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestrichen",
+          "currentEs": "pintado / rayado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-153",
+      "index": 153,
+      "infinitivDe": "streiten",
+      "infinitivEs": "pelear",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "streiten",
+          "currentEs": "pelear"
+        },
+        {
+          "field": "praesens",
+          "de": "er streitet",
+          "currentEs": "el esta peleando"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er stritt",
+          "currentEs": "él luchó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er stritte",
+          "currentEs": "el pelearia"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gestritten",
+          "currentEs": "luchó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-154",
+      "index": 154,
+      "infinitivDe": "tragen",
+      "infinitivEs": "llevar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "tragen",
+          "currentEs": "llevar"
+        },
+        {
+          "field": "praesens",
+          "de": "er trägt",
+          "currentEs": "el lleva"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trug",
+          "currentEs": "él llevaba"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er trüge",
+          "currentEs": "él llevaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getragen",
+          "currentEs": "transportado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-155",
+      "index": 155,
+      "infinitivDe": "treffen",
+      "infinitivEs": "encontrar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "treffen",
+          "currentEs": "encontrar"
+        },
+        {
+          "field": "praesens",
+          "de": "er trifft",
+          "currentEs": "el se encuentra"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er traf",
+          "currentEs": "el encontro"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er träfe",
+          "currentEs": "él se encontraría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getroffen",
+          "currentEs": "encontrado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-156",
+      "index": 156,
+      "infinitivDe": "treiben",
+      "infinitivEs": "perseguir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "treiben",
+          "currentEs": "perseguir"
+        },
+        {
+          "field": "praesens",
+          "de": "er treibt",
+          "currentEs": "el conduce"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trieb",
+          "currentEs": "él condujo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er triebe",
+          "currentEs": "él conduciría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getrieben",
+          "currentEs": "perseguido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-157",
+      "index": 157,
+      "infinitivDe": "treten",
+      "infinitivEs": "entrar/ir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "treten",
+          "currentEs": "entrar/ir"
+        },
+        {
+          "field": "praesens",
+          "de": "er tritt",
+          "currentEs": "el entra/va"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trat",
+          "currentEs": "él se puso de pie / caminó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er träte",
+          "currentEs": "él se pararía/iría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getreten (er ist)",
+          "currentEs": "se puso de pie / caminó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-158",
+      "index": 158,
+      "infinitivDe": "trinken",
+      "infinitivEs": "beber",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "trinken",
+          "currentEs": "beber"
+        },
+        {
+          "field": "praesens",
+          "de": "er trinkt",
+          "currentEs": "el bebe"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trank",
+          "currentEs": "él estaba bebiendo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er tränke",
+          "currentEs": "el beberia"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getrunken",
+          "currentEs": "ebrio"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-159",
+      "index": 159,
+      "infinitivDe": "trügen",
+      "infinitivEs": "hacer trampa",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "trügen",
+          "currentEs": "hacer trampa"
+        },
+        {
+          "field": "praesens",
+          "de": "er trögt",
+          "currentEs": "el hace trampa"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er trog",
+          "currentEs": "él hizo trampa"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er tröge",
+          "currentEs": "él haría trampa"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getrogen",
+          "currentEs": "engañado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-160",
+      "index": 160,
+      "infinitivDe": "tun",
+      "infinitivEs": "hacer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "tun",
+          "currentEs": "hacer"
+        },
+        {
+          "field": "praesens",
+          "de": "er tut",
+          "currentEs": "el lo hace"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er tat",
+          "currentEs": "el lo hizo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er täte",
+          "currentEs": "el lo haria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "getan",
+          "currentEs": "hecho"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-161",
+      "index": 161,
+      "infinitivDe": "verderben",
+      "infinitivEs": "dañar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "verderben",
+          "currentEs": "dañar"
+        },
+        {
+          "field": "praesens",
+          "de": "er verdirbt",
+          "currentEs": "el destruye"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er verdarb",
+          "currentEs": "él dañó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er verdürbe",
+          "currentEs": "él dañaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "verdorben",
+          "currentEs": "dañado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-162",
+      "index": 162,
+      "infinitivDe": "verdrießen",
+      "infinitivEs": "causar molestia",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "verdrießen",
+          "currentEs": "causar molestia"
+        },
+        {
+          "field": "praesens",
+          "de": "er verdrießt",
+          "currentEs": "el causa molestia"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er verdross",
+          "currentEs": "el causo molestia"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er verdrösse",
+          "currentEs": "él causaría molestia"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "verdrossen",
+          "currentEs": "decepcionado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-163",
+      "index": 163,
+      "infinitivDe": "vergessen",
+      "infinitivEs": "olvidar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "vergessen",
+          "currentEs": "olvidar"
+        },
+        {
+          "field": "praesens",
+          "de": "er vergisst",
+          "currentEs": "el olvida"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er vergass",
+          "currentEs": "se olvidó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er vergäße",
+          "currentEs": "el olvidaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "vergessen",
+          "currentEs": "olvidado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-164",
+      "index": 164,
+      "infinitivDe": "verlieren",
+      "infinitivEs": "perder",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "verlieren",
+          "currentEs": "perder"
+        },
+        {
+          "field": "praesens",
+          "de": "er verliert",
+          "currentEs": "el pierde"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er verlor",
+          "currentEs": "el perdio"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er verlöre",
+          "currentEs": "el perderia"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "verloren",
+          "currentEs": "perdido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-165",
+      "index": 165,
+      "infinitivDe": "wachsen",
+      "infinitivEs": "crecer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wachsen",
+          "currentEs": "crecer"
+        },
+        {
+          "field": "praesens",
+          "de": "er wächst",
+          "currentEs": "el esta creciendo"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wuchs",
+          "currentEs": "él estaba creciendo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wüchse",
+          "currentEs": "él crecería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewachsen (er ist)",
+          "currentEs": "creció"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-166",
+      "index": 166,
+      "infinitivDe": "waschen",
+      "infinitivEs": "lavar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "waschen",
+          "currentEs": "lavar"
+        },
+        {
+          "field": "praesens",
+          "de": "er wäscht",
+          "currentEs": "el lava"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wusch",
+          "currentEs": "el lavo"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wüsche",
+          "currentEs": "él se lavaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewaschen",
+          "currentEs": "lavado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-167",
+      "index": 167,
+      "infinitivDe": "weben",
+      "infinitivEs": "tejer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "weben",
+          "currentEs": "tejer"
+        },
+        {
+          "field": "praesens",
+          "de": "er webt",
+          "currentEs": "el teje"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "wob",
+          "currentEs": "tejido"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "wob",
+          "currentEs": "tejido"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewoben",
+          "currentEs": "tejido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-168",
+      "index": 168,
+      "infinitivDe": "weichen",
+      "infinitivEs": "retirarse",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "weichen",
+          "currentEs": "retirarse"
+        },
+        {
+          "field": "praesens",
+          "de": "er weicht",
+          "currentEs": "él retrocede"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wich",
+          "currentEs": "él dio un paso atrás"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wiche",
+          "currentEs": "él retrocedería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewichen (er ist)",
+          "currentEs": "dar marcha atrás"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-169",
+      "index": 169,
+      "infinitivDe": "weisen",
+      "infinitivEs": "espectáculo",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "weisen",
+          "currentEs": "espectáculo"
+        },
+        {
+          "field": "praesens",
+          "de": "er weist",
+          "currentEs": "el muestra"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wies",
+          "currentEs": "el mostro"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wiese",
+          "currentEs": "el mostraria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewiesen",
+          "currentEs": "mostrado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-170",
+      "index": 170,
+      "infinitivDe": "wenden",
+      "infinitivEs": "modificar / recortar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wenden",
+          "currentEs": "modificar / recortar"
+        },
+        {
+          "field": "praesens",
+          "de": "er wendet",
+          "currentEs": "él gira / gira"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wandte / es wendete",
+          "currentEs": "él giró / giró"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wendete",
+          "currentEs": "él enmendaría / revertiría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewandt / gewendet",
+          "currentEs": "modificado / revertido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-171",
+      "index": 171,
+      "infinitivDe": "werben",
+      "infinitivEs": "proponer",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "werben",
+          "currentEs": "proponer"
+        },
+        {
+          "field": "praesens",
+          "de": "er wirbt",
+          "currentEs": "el propone"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er warb",
+          "currentEs": "el propuso"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er würbe",
+          "currentEs": "él propondría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geworben",
+          "currentEs": "propuesto a"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-172",
+      "index": 172,
+      "infinitivDe": "werden",
+      "infinitivEs": "convertirse en",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "werden",
+          "currentEs": "convertirse en"
+        },
+        {
+          "field": "praesens",
+          "de": "er wird",
+          "currentEs": "él se convierte"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "wurde",
+          "currentEs": "convertirse"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "wurde",
+          "currentEs": "convertirse"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geworden",
+          "currentEs": "se ha convertido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-173",
+      "index": 173,
+      "infinitivDe": "werfen",
+      "infinitivEs": "tirar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "werfen",
+          "currentEs": "tirar"
+        },
+        {
+          "field": "praesens",
+          "de": "er wirft",
+          "currentEs": "el tira"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er warf",
+          "currentEs": "el arrojó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er würfe",
+          "currentEs": "el arrojó"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geworfen",
+          "currentEs": "arrojado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-174",
+      "index": 174,
+      "infinitivDe": "wiegen",
+      "infinitivEs": "pesar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wiegen",
+          "currentEs": "pesar"
+        },
+        {
+          "field": "praesens",
+          "de": "er wiegt",
+          "currentEs": "el pesa"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wog",
+          "currentEs": "el pesó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wöge",
+          "currentEs": "el pesaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewogen",
+          "currentEs": "ponderado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-175",
+      "index": 175,
+      "infinitivDe": "winden",
+      "infinitivEs": "trenza",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "winden",
+          "currentEs": "trenza"
+        },
+        {
+          "field": "praesens",
+          "de": "er windet",
+          "currentEs": "el alfiler"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wand",
+          "currentEs": "el trenza"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wände",
+          "currentEs": "él trenzaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewunden",
+          "currentEs": "trenzado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-176",
+      "index": 176,
+      "infinitivDe": "wissen",
+      "infinitivEs": "saber",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wissen",
+          "currentEs": "saber"
+        },
+        {
+          "field": "praesens",
+          "de": "er weiß",
+          "currentEs": "el sabe"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er wusste",
+          "currentEs": "el sabia"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er wüsste",
+          "currentEs": "el sabria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewusst",
+          "currentEs": "conocido"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-177",
+      "index": 177,
+      "infinitivDe": "wollen",
+      "infinitivEs": "quiero",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wollen",
+          "currentEs": "quiero"
+        },
+        {
+          "field": "praesens",
+          "de": "er will",
+          "currentEs": "el quiere"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "wollte",
+          "currentEs": "quería"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "wollte",
+          "currentEs": "quería"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewollt",
+          "currentEs": "quería"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-178",
+      "index": 178,
+      "infinitivDe": "wringen",
+      "infinitivEs": "cortar / exprimir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "wringen",
+          "currentEs": "cortar / exprimir"
+        },
+        {
+          "field": "praesens",
+          "de": "er wringt",
+          "currentEs": "el corta"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "wrang",
+          "currentEs": "separar"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "wrang",
+          "currentEs": "separar"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gewrungen",
+          "currentEs": "separar"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-179",
+      "index": 179,
+      "infinitivDe": "zeihen",
+      "infinitivEs": "culpar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "zeihen",
+          "currentEs": "culpar"
+        },
+        {
+          "field": "praesens",
+          "de": "er zeiht",
+          "currentEs": "el culpa"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "zieh",
+          "currentEs": "culpado"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "zieh",
+          "currentEs": "culpado"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geziehen",
+          "currentEs": "culpado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-180",
+      "index": 180,
+      "infinitivDe": "ziehen",
+      "infinitivEs": "tirar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "ziehen",
+          "currentEs": "tirar"
+        },
+        {
+          "field": "praesens",
+          "de": "er zieht",
+          "currentEs": "el tira"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er zog",
+          "currentEs": "él tiró"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er zöge",
+          "currentEs": "el arrastraria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gezogen",
+          "currentEs": "arrastrado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-181",
+      "index": 181,
+      "infinitivDe": "zwingen",
+      "infinitivEs": "forzar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "zwingen",
+          "currentEs": "forzar"
+        },
+        {
+          "field": "praesens",
+          "de": "er zwingt",
+          "currentEs": "el obliga"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er zwang",
+          "currentEs": "el forzó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er zwänge",
+          "currentEs": "él obligaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gezwungen",
+          "currentEs": "forzado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-182",
+      "index": 182,
+      "infinitivDe": "empfangen",
+      "infinitivEs": "recibir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "empfangen",
+          "currentEs": "recibir"
+        },
+        {
+          "field": "praesens",
+          "de": "er empfängt",
+          "currentEs": "el recibe"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er empfing",
+          "currentEs": "el recibió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er empfinge",
+          "currentEs": "el recibiria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "empfangen",
+          "currentEs": "recibió"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-183",
+      "index": 183,
+      "infinitivDe": "erwägen",
+      "infinitivEs": "considerar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "erwägen",
+          "currentEs": "considerar"
+        },
+        {
+          "field": "praesens",
+          "de": "er erwägt",
+          "currentEs": "el considera"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er erwog",
+          "currentEs": "el considero"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er erwöge",
+          "currentEs": "el consideraria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "erwogen",
+          "currentEs": "consideró"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-184",
+      "index": 184,
+      "infinitivDe": "fechten",
+      "infinitivEs": "pelear",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "fechten",
+          "currentEs": "pelear"
+        },
+        {
+          "field": "praesens",
+          "de": "er ficht",
+          "currentEs": "el esta peleando"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er focht",
+          "currentEs": "él luchó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er föchte",
+          "currentEs": "el pelearia"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gefochten",
+          "currentEs": "luchó"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-185",
+      "index": 185,
+      "infinitivDe": "flechten",
+      "infinitivEs": "trenza",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "flechten",
+          "currentEs": "trenza"
+        },
+        {
+          "field": "praesens",
+          "de": "er flicht",
+          "currentEs": "el alfiler"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er flocht",
+          "currentEs": "el trenza"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er flöchte",
+          "currentEs": "él trenzaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "geflochten",
+          "currentEs": "trenzado"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-186",
+      "index": 186,
+      "infinitivDe": "hangen",
+      "infinitivEs": "colgar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "hangen",
+          "currentEs": "colgar"
+        },
+        {
+          "field": "praesens",
+          "de": "er hängt",
+          "currentEs": "el cuelga"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er hing",
+          "currentEs": "el colgó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er hinge",
+          "currentEs": "él se ahorcaría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gehangen",
+          "currentEs": "Aférrate"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-187",
+      "index": 187,
+      "infinitivDe": "spalten",
+      "infinitivEs": "dividir",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "spalten",
+          "currentEs": "dividir"
+        },
+        {
+          "field": "praesens",
+          "de": "er spaltet",
+          "currentEs": "el se divide"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er spaltete",
+          "currentEs": "él se dividió"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er spaltete",
+          "currentEs": "él se dividiría"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "gespalten",
+          "currentEs": "dividir"
+        }
+      ]
+    },
+    {
+      "cardId": "verb-188",
+      "index": 188,
+      "infinitivDe": "verzeihen",
+      "infinitivEs": "perdonar",
+      "forms": [
+        {
+          "field": "infinitiv",
+          "de": "verzeihen",
+          "currentEs": "perdonar"
+        },
+        {
+          "field": "praesens",
+          "de": "er verzeiht",
+          "currentEs": "el perdona"
+        },
+        {
+          "field": "imperfektIndikativ",
+          "de": "er verzieh",
+          "currentEs": "el perdonó"
+        },
+        {
+          "field": "imperfektKonjunktiv",
+          "de": "er verziehe",
+          "currentEs": "el perdonaria"
+        },
+        {
+          "field": "partizipVergangenheit",
+          "de": "verziehen",
+          "currentEs": "perdonado"
+        }
+      ]
+    }
+  ]
+}
