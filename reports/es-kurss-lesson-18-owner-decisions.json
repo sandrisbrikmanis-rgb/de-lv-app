@@ -14,7 +14,7 @@
   },
   "lessonNumber": 18,
   "targetCount": 144,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 18,
@@ -25,8 +25,8 @@
       "current": "Lección 18",
       "deContext": "",
       "structureContext": "Lección 18 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 18",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "wohin / wo, Akkusativ o Dativ con / in / auf.",
       "deContext": "",
       "structureContext": "Lección 18 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wohin / wo, Akkusativ o Dativ con / in / auf.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Decimoctava conferencia: wohin / wo, Akkusativ o Dativ con an / in / auf.",
       "deContext": "",
       "structureContext": "Lección 18 intro paragraph",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Decimoctava conferencia: wohin / wo, Akkusativ o Dativ con an / in / auf.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Accordion section 1; raw: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Wohin gehst du?",
       "deContext": "Wohin gehst du?",
       "structureContext": "Section[0] Texto / lectura / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin gehst du?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Ich gehe an den Tisch.",
       "deContext": "Ich gehe an den Tisch.",
       "structureContext": "Section[0] Texto / lectura / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich gehe an den Tisch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Wo stehst du?",
       "deContext": "Wo stehst du?",
       "structureContext": "Section[0] Texto / lectura / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo stehst du?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Ich stehe an dem Tische.",
       "deContext": "Ich stehe an dem Tische.",
       "structureContext": "Section[0] Texto / lectura / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich stehe an dem Tische.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Was trägst du?",
       "deContext": "Was trägst du?",
       "structureContext": "Section[0] Texto / lectura / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was trägst du?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Ich trage einen Korb mit Äpfeln.",
       "deContext": "Ich trage einen Korb mit Äpfeln.",
       "structureContext": "Section[0] Texto / lectura / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich trage einen Korb mit Äpfeln.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Wohin stellst du den Korb?",
       "deContext": "Wohin stellst du den Korb?",
       "structureContext": "Section[0] Texto / lectura / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin stellst du den Korb?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Ich stelle den Korb auf die Bank.",
       "deContext": "Ich stelle den Korb auf die Bank.",
       "structureContext": "Section[0] Texto / lectura / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich stelle den Korb auf die Bank.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Wo steht der Korb?",
       "deContext": "Wo steht der Korb?",
       "structureContext": "Section[0] Texto / lectura / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo steht der Korb?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Der Korb steht auf der Bank.",
       "deContext": "Der Korb steht auf der Bank.",
       "structureContext": "Section[0] Texto / lectura / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Korb steht auf der Bank.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Auf der Diele steht ein Körbchen.",
       "deContext": "Auf der Diele steht ein Körbchen.",
       "structureContext": "Section[0] Texto / lectura / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Auf der Diele steht ein Körbchen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Wohin legst du zehn Äpfel?",
       "deContext": "Wohin legst du zehn Äpfel?",
       "structureContext": "Section[0] Texto / lectura / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin legst du zehn Äpfel?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "Ich lege zehn Äpfel in das Körbchen.",
       "deContext": "Ich lege zehn Äpfel in das Körbchen.",
       "structureContext": "Section[0] Texto / lectura / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich lege zehn Äpfel in das Körbchen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "Wo sind die Äpfel?",
       "deContext": "Wo sind die Äpfel?",
       "structureContext": "Section[0] Texto / lectura / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo sind die Äpfel?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "Die Äpfel sind in dem Körbchen.",
       "deContext": "Die Äpfel sind in dem Körbchen.",
       "structureContext": "Section[0] Texto / lectura / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Äpfel sind in dem Körbchen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "Auf der Diele steht ein Eimer mit Wasser.",
       "deContext": "Auf der Diele steht ein Eimer mit Wasser.",
       "structureContext": "Section[0] Texto / lectura / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Auf der Diele steht ein Eimer mit Wasser.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "Gieß das Wasser in den Krug!",
       "deContext": "Gieß das Wasser in den Krug!",
       "structureContext": "Section[0] Texto / lectura / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gieß das Wasser in den Krug!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "Wohin gießt du das Wasser?",
       "deContext": "Wohin gießt du das Wasser?",
       "structureContext": "Section[0] Texto / lectura / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin gießt du das Wasser?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "Ich gieße das Wasser in den Krug.",
       "deContext": "Ich gieße das Wasser in den Krug.",
       "structureContext": "Section[0] Texto / lectura / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich gieße das Wasser in den Krug.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "Wo ist das Wasser jetzt?",
       "deContext": "Wo ist das Wasser jetzt?",
       "structureContext": "Section[0] Texto / lectura / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo ist das Wasser jetzt?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "Das Wasser ist jetzt in dem Kruge.",
       "deContext": "Das Wasser ist jetzt in dem Kruge.",
       "structureContext": "Section[0] Texto / lectura / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Wasser ist jetzt in dem Kruge.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "wohin — kurp?",
       "deContext": "wohin",
       "structureContext": "Section[1] Nombres / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wohin — kurp?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "wo — kur?",
       "deContext": "wo",
       "structureContext": "Section[1] Nombres / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wo — kur?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "tragen — nido",
       "deContext": "tragen",
       "structureContext": "Section[1] Nombres / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tragen — nido",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "ich trage — es nesu",
       "deContext": "ich trage",
       "structureContext": "Section[1] Nombres / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich trage — es nesu",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "du trägst — tu nes",
       "deContext": "du trägst",
       "structureContext": "Section[1] Nombres / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du trägst — tu nes",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "er/sie/es trägt — él/ella/ello lleva",
       "deContext": "er/sie/es trägt",
       "structureContext": "Section[1] Nombres / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er/sie/es trägt — él/ella/ello lleva",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "der Korb — grozs / kurvis",
       "deContext": "der Korb",
       "structureContext": "Section[1] Nombres / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Korb — grozs / kurvis",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "die Körbe — grozi / kurvji",
       "deContext": "die Körbe",
       "structureContext": "Section[1] Nombres / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Körbe — grozi / kurvji",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "das Körbchen — una cesta",
       "deContext": "das Körbchen",
       "structureContext": "Section[1] Nombres / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Körbchen — una cesta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "stellen — colocar / poner en posición vertical",
       "deContext": "stellen",
       "structureContext": "Section[1] Nombres / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "stellen — colocar / poner en posición vertical",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "legen — acostarse",
       "deContext": "legen",
       "structureContext": "Section[1] Nombres / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "legen — acostarse",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "das Wasser — agua",
       "deContext": "das Wasser",
       "structureContext": "Section[1] Nombres / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Wasser — agua",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "gießen — liet",
       "deContext": "gießen",
       "structureContext": "Section[1] Nombres / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "gießen — liet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "der Krug — taza",
       "deContext": "der Krug",
       "structureContext": "Section[1] Nombres / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Krug — taza",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "die Krüge — tazas",
       "deContext": "die Krüge",
       "structureContext": "Section[1] Nombres / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Krüge — tazas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "jetzt — tagad",
       "deContext": "jetzt",
       "structureContext": "Section[1] Nombres / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jetzt — ahora • actualmente",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "an — pastel",
       "deContext": "an",
       "structureContext": "Section[1] Nombres / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "an — pastel",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "auf — uz",
       "deContext": "auf",
       "structureContext": "Section[1] Nombres / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "auf — uz",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "in — dentro / dentro",
       "deContext": "in",
       "structureContext": "Section[1] Nombres / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "in — dentro / dentro",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "der Tisch — galdos",
       "deContext": "der Tisch",
       "structureContext": "Section[1] Nombres / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Tisch — galdos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "die Bank — soles",
       "deContext": "die Bank",
       "structureContext": "Section[1] Nombres / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Bank — soles",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "die Diele — el suelo",
       "deContext": "die Diele",
       "structureContext": "Section[1] Nombres / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Diele — el suelo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "der Eimer — España",
       "deContext": "der Eimer",
       "structureContext": "Section[1] Nombres / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Eimer — España",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "an / in / auf",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "an / in / auf",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "Las preposiciones an, in, auf pueden acompañar tanto a Akkusativ como a Dativo.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Las preposiciones an, in, auf pueden acompañar tanto a Akkusativ como a Dativo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "Akkusativ: wohin?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Akkusativ: wohin?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "Si la acción indica un cambio de dirección o de lugar, se utiliza Akkusativ. Pregunta: ¿quién? - ¿dónde?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si la acción indica un cambio de dirección o de lugar, se utiliza Akkusativ. Pregunta: ¿quién? - ¿dónde?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "Ich gehe an den Tisch. — Es eju pie galda.",
       "deContext": "Ich gehe an den Tisch.",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich gehe an den Tisch. — Es eju pie galda.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
       "deContext": "Ich stelle den Korb auf die Bank.",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "Ich lege die Äpfel in das Körbchen. — Es lieku ābolus groziņā.",
       "deContext": "Ich lege die Äpfel in das Körbchen.",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich lege die Äpfel in das Körbchen. — Pongo las manzanas en la cesta.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.",
       "deContext": "Ich gieße das Wasser in den Krug.",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich gieße das Wasser in den Krug. — Vierto el agua en la jarra.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "Dativ: wo?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dativ: wo?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "Si la acción indica ubicación o estado, se utiliza el dativo. Pregunta: ¿wo? - ¿dónde?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si la acción indica ubicación o estado, se utiliza el dativo. Pregunta: ¿wo? - ¿dónde?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "Ich stehe an dem Tische. — Es stāvu pie galda.",
       "deContext": "Ich stehe an dem Tische.",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich stehe an dem Tische. — Estoy de pie junto a la mesa.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "Der Korb steht auf der Bank. — Grozs stāv uz sola.",
       "deContext": "Der Korb steht auf der Bank.",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Korb steht auf der Bank. — cesta",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "Die Äpfel sind in dem Körbchen. — Āboli ir groziņā.",
       "deContext": "Die Äpfel sind in dem Körbchen.",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Äpfel sind in dem Körbchen. — en",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "Das Wasser ist in dem Kruge. — Ūdens ir krūzē.",
       "deContext": "Das Wasser ist in dem Kruge.",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Wasser ist in dem Kruge. — agua",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "Darbības vārdi ar wohin?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbos con wohin?",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "Estos verbos suelen indicar dirección y por tanto responden a la pregunta ¿wohin?.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Estos verbos suelen indicar dirección y por tanto responden a la pregunta ¿wohin?.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "gehen — iet",
       "deContext": "gehen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "gehen — iet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "kommen — nākt",
       "deContext": "kommen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kommen — venir",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "fahren — braukt",
       "deContext": "fahren",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "fahren — braukt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "laufen — skriet",
       "deContext": "laufen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "laufen — skriet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "fliegen — lidot",
       "deContext": "fliegen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "fliegen — lidot",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "springen — lēkt",
       "deContext": "springen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "springen — saltar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "kriechen — rāpot",
       "deContext": "kriechen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kriechen — gatear",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "schleichen — līst",
       "deContext": "schleichen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "schleichen — deslizarse sigilosamente",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "hängen — kārt",
       "deContext": "hängen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hängen — colgar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "sich setzen — apsēsties",
       "deContext": "sich setzen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sich setzen — sentarse",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "sich stellen — nostāties",
       "deContext": "sich stellen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sich stellen — usted mismo • para usted mismo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "werfen — mest",
       "deContext": "werfen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "werfen — mest",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "reiten — jāt",
       "deContext": "reiten",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "reiten — montar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "Darbības vārdi ar wo?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbos con wo?",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "Estos verbos suelen indicar ubicación o estado y por tanto responden a la pregunta ¿wo?.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Estos verbos suelen indicar ubicación o estado y por tanto responden a la pregunta ¿wo?.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "sein — būt",
       "deContext": "sein",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sein — ser",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "sich befinden — atrasties",
       "deContext": "sich befinden",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sich befinden — atrasties",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "arbeiten — strādāt",
       "deContext": "arbeiten",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "arbeiten — trabajar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "liegen — gulēt / atrasties guļus",
       "deContext": "liegen",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "liegen — estar tumbado • estar situado",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "sitzen — sēdēt",
       "deContext": "sitzen",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sitzen — sentarse",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "hängen — karāties",
       "deContext": "hängen",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hängen — colgar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "finden — atrast",
       "deContext": "finden",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "finden — atrast",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "suchen — meklēt",
       "deContext": "suchen",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "suchen — buscar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "spielen — spēlēt",
       "deContext": "spielen",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "spielen — jugar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "Vielu vārdi",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nombres de sustancias",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "Los sustantivos suelen aparecer sin article.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los sustantivos suelen aparecer sin article.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "Ich trinke Milch. — Es dzeru pienu.",
       "deContext": "Ich trinke Milch.",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich trinke Milch. — Es dzeru pienu.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "In dem Eimer ist Wasser. — Spainī ir ūdens.",
       "deContext": "In dem Eimer ist Wasser.",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "In dem Eimer ist Wasser. — en",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "Konkrēta viela",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sustancia concreta",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "Si la sustancia se menciona en una determinada cantidad o en un determinado lugar, entonces se utiliza el article.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si la sustancia se menciona en una determinada cantidad o en un determinado lugar, entonces se utiliza el article.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "Ich gieße das Wasser in den Krug. — Es leju ūdeni krūzē.",
       "deContext": "Ich gieße das Wasser in den Krug.",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich gieße das Wasser in den Krug. — Vierto el agua en la jarra.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "in + vieta",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "in + vieta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "Si la preposición in no se traduce como \"en\", pero expresa una ubicación, se puede traducir con el locativo.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si la preposición in no se traduce como \"en\", pero expresa una ubicación, se puede traducir con el locativo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "in dem Eimer — spainī",
       "deContext": "in dem Eimer",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "in dem Eimer — en",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "in dem Zimmer — istabā",
       "deContext": "in dem Zimmer",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "in dem Zimmer — en",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "Mūsdienu formas",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formas modernas",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "Las formas antiguas como dem Tische, dem Kruge, im Walde se utilizan a menudo de forma más breve hoy en día: dem Tisch, dem Krug, im Wald.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Las formas antiguas como dem Tische, dem Kruge, im Walde se utilizan a menudo de forma más breve hoy en día: dem Tisch, dem Krug, im Wald.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "Vārdā wohin h ir dzirdams: wo-hin.",
       "deContext": "Vārdā wohin h ir dzirdams: wo",
       "structureContext": "Section[3] Pronunciación / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En wohin, la h se pronuncia: wo-hin.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "Vārdā wo o ir garš: wo.",
       "deContext": "Vārdā wo o ir garš: wo.",
       "structureContext": "Section[3] Pronunciación / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En wo, la o es larga.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
       "deContext": "Das Mädchen geht in den Wald, in den Garten, auf die Wiese, auf den Hof.",
       "structureContext": "Section[4] Ejercicio / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin geht das Mädchen?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
       "deContext": "Es spielt in dem Walde, in dem Garten, auf der Wiese, auf dem Hofe.",
       "structureContext": "Section[4] Ejercicio / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo spielt es?\n(in d... Wald, in d... Garten, auf d... Wiese, auf d... Hof)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0105"
     },
     {
@@ -1390,8 +1390,8 @@
       "current": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
       "deContext": "Die Magd kommt in die Küche, in das Zimmer, in den Saal, in den Keller.",
       "structureContext": "Section[4] Ejercicio / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin kommt die Magd?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0106"
     },
     {
@@ -1403,8 +1403,8 @@
       "current": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
       "deContext": "Sie arbeitet in der Küche, in dem Zimmer, in dem Saal, in dem Keller.",
       "structureContext": "Section[4] Ejercicio / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo arbeitet sie?\n(in d... Küche, in d... Zimmer, in d... Saal, in d... Keller)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0107"
     },
     {
@@ -1416,8 +1416,8 @@
       "current": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
       "deContext": "Ich lege den Teller auf die Bank, auf den Stuhl, auf den Tisch, auf das Fensterbrett.",
       "structureContext": "Section[4] Ejercicio / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin legst du den Teller?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0108"
     },
     {
@@ -1429,8 +1429,8 @@
       "current": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
       "deContext": "Er steht auf der Bank, auf dem Stuhl, auf dem Tisch, auf dem Fensterbrett.",
       "structureContext": "Section[4] Ejercicio / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo steht er?\n(auf d... Bank, d... Stuhl, d... Tisch, d... Fensterbrett)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0109"
     },
     {
@@ -1442,8 +1442,8 @@
       "current": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
       "deContext": "Der Mann stellt sich an dieses Fenster, an jenen Tisch, an die Wand, an den Baum.",
       "structureContext": "Section[4] Ejercicio / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Mann stellt sich ...\nan dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0110"
     },
     {
@@ -1455,8 +1455,8 @@
       "current": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
       "deContext": "Er steht an diesem Fenster, an jenem Tisch, an der Wand, an dem Baum.",
       "structureContext": "Section[4] Ejercicio / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo steht er?\nAn dies... Fenster, an jen... Tisch, an d... Wand, an d... Baum.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0111"
     },
     {
@@ -1468,8 +1468,8 @@
       "current": "¿De dónde viene el servidor?",
       "deContext": "Wohin kommt der Diener?",
       "structureContext": "Section[5] Traducir / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿De dónde viene el servidor?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0112"
     },
     {
@@ -1481,8 +1481,8 @@
       "current": "Entra en la habitación.",
       "deContext": "Er kommt in das Zimmer.",
       "structureContext": "Section[5] Traducir / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Entra en la habitación.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0113"
     },
     {
@@ -1494,8 +1494,8 @@
       "current": "donde trabaja",
       "deContext": "Wo arbeitet er?",
       "structureContext": "Section[5] Traducir / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "donde trabaja",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0114"
     },
     {
@@ -1507,8 +1507,8 @@
       "current": "Trabaja en la habitación.",
       "deContext": "Er arbeitet in dem Zimmer.",
       "structureContext": "Section[5] Traducir / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Trabaja en la habitación.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0115"
     },
     {
@@ -1520,8 +1520,8 @@
       "current": "El hombre pone el banco junto a la ventana.",
       "deContext": "Der Mann stellt die Bank an das Fenster.",
       "structureContext": "Section[5] Traducir / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El hombre pone el banco junto a la ventana.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0116"
     },
     {
@@ -1533,8 +1533,8 @@
       "current": "El banco está junto a la ventana.",
       "deContext": "Die Bank steht an dem Fenster.",
       "structureContext": "Section[5] Traducir / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El banco está junto a la ventana.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0117"
     },
     {
@@ -1546,8 +1546,8 @@
       "current": "Los niños van al bosque.",
       "deContext": "Die Kinder gehen in den Wald.",
       "structureContext": "Section[5] Traducir / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los niños van al bosque.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0118"
     },
     {
@@ -1559,8 +1559,8 @@
       "current": "Recogen bayas en el bosque.",
       "deContext": "Sie suchen Beeren in dem Walde.",
       "structureContext": "Section[5] Traducir / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Recogen bayas en el bosque.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0119"
     },
     {
@@ -1572,8 +1572,8 @@
       "current": "Encuentran muchas bayas en el bosque.",
       "deContext": "Sie finden in dem Walde viele Beeren.",
       "structureContext": "Section[5] Traducir / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Encuentran muchas bayas en el bosque.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0120"
     },
     {
@@ -1585,8 +1585,8 @@
       "current": "La madre pone la cesta en el armario.",
       "deContext": "Die Mutter stellt den Korb auf den Schrank.",
       "structureContext": "Section[5] Traducir / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La madre pone la cesta en el armario.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0121"
     },
     {
@@ -1598,8 +1598,8 @@
       "current": "La cesta está sobre el armario.",
       "deContext": "Der Korb steht auf dem Schrank.",
       "structureContext": "Section[5] Traducir / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La cesta está sobre el armario.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0122"
     },
     {
@@ -1611,8 +1611,8 @@
       "current": "El estudiante pone los cuadernos en la bolsa.",
       "deContext": "Der Schüler legt die Hefte in die Mappe.",
       "structureContext": "Section[5] Traducir / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El estudiante pone los cuadernos en la bolsa.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0123"
     },
     {
@@ -1624,8 +1624,8 @@
       "current": "¿Dónde están los cuadernos?",
       "deContext": "Wo sind die Hefte?",
       "structureContext": "Section[5] Traducir / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dónde están los cuadernos?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0124"
     },
     {
@@ -1637,8 +1637,8 @@
       "current": "Las cartas ya están en la bolsa.",
       "deContext": "Die Hefte sind jetzt in der Mappe.",
       "structureContext": "Section[5] Traducir / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Las cartas ya están en la bolsa.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0125"
     },
     {
@@ -1650,8 +1650,8 @@
       "current": "¿A dónde va el maestro?",
       "deContext": "Wohin geht der Lehrer?",
       "structureContext": "Section[5] Traducir / card[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿A dónde va el maestro?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0126"
     },
     {
@@ -1663,8 +1663,8 @@
       "current": "Él va a clase.",
       "deContext": "Er geht in die Klasse.",
       "structureContext": "Section[5] Traducir / card[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Él va a clase.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0127"
     },
     {
@@ -1676,8 +1676,8 @@
       "current": "¿Dónde está sentado el profesor?",
       "deContext": "Wo sitzt der Lehrer?",
       "structureContext": "Section[5] Traducir / card[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dónde está sentado el profesor?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0128"
     },
     {
@@ -1689,8 +1689,8 @@
       "current": "El profesor está sentado en el aula.",
       "deContext": "Der Lehrer sitzt in der Klasse.",
       "structureContext": "Section[5] Traducir / card[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El profesor está sentado en el aula.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0129"
     },
     {
@@ -1702,8 +1702,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Section raw title: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0130"
     },
     {
@@ -1715,8 +1715,8 @@
       "current": "Nombres",
       "deContext": "",
       "structureContext": "Section raw title: Nombres",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nombres",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0131"
     },
     {
@@ -1728,8 +1728,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Section raw title: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0132"
     },
     {
@@ -1741,8 +1741,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Section raw title: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0133"
     },
     {
@@ -1754,8 +1754,8 @@
       "current": "Ejercicio",
       "deContext": "",
       "structureContext": "Section raw title: Ejercicio",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0134"
     },
     {
@@ -1767,8 +1767,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Exercise flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0135"
     },
     {
@@ -1780,8 +1780,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0136"
     },
     {
@@ -1793,8 +1793,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0137"
     },
     {
@@ -1806,8 +1806,8 @@
       "current": "Ejercicio I — Usa la conjugación correcta",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio I — Usa la conjugación correcta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0138"
     },
     {
@@ -1819,8 +1819,8 @@
       "current": "¡Pon la conjugación correcta y hazlo en plural!",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Pon la conjugación correcta y hazlo en plural!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0139"
     },
     {
@@ -1832,8 +1832,8 @@
       "current": "Ahora responde en plural.",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ahora responde en plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0140"
     },
     {
@@ -1845,8 +1845,8 @@
       "current": "Ejercicio II — Traducir",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio II — Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0141"
     },
     {
@@ -1858,8 +1858,8 @@
       "current": "Forma 1/3: Tu (singular)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 1/3: du (singular)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0142"
     },
     {
@@ -1871,8 +1871,8 @@
       "current": "Formulario 2/3: Tú (plural)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-18-0143"
     },
     {
@@ -1884,9 +1884,16 @@
       "current": "Formulario 3/3: Sie (forma decente)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-18-0144"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 144,
+    "LABOT": 35,
+    "NELABOT": 109,
+    "unresolved": 0
+  }
 }
