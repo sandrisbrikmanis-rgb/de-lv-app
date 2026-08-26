@@ -1,0 +1,226 @@
+{
+  "requested": 35,
+  "appliedVerified": 35,
+  "mismatch": 0,
+  "failed": 0,
+  "nelabotRetained": 1,
+  "details": [
+    {
+      "id": "ES-KURSS-PRONOUNS-0017",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0007",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0001",
+      "file": "languages/es/ui.js",
+      "field": "kurss.pronounsSubtitle",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0002",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0003",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0004",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0005",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0006",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0008",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0009",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0010",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0011",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0012",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0013",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0014",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0015",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0016",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0018",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0019",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0020",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0021",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0022",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0023",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0024",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0025",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0026",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0027",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0028",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0029",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0030",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "NELABOT_UNCHANGED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0031",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0032",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0033",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0034",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0035",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0036",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "errors": []
+}

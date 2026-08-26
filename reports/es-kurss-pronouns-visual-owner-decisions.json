@@ -1,0 +1,346 @@
+{
+  "title": "ES Kurss — Pronombres visual OWNER decisions",
+  "authority": "OWNER",
+  "source": "reports/es-kurss-pronouns-visual-owner-decisions.md",
+  "base": "main",
+  "scope": {
+    "lesson": "kurssPronounsLesson",
+    "targets": 36,
+    "productionFiles": 4
+  },
+  "counts": {
+    "LABOT": 35,
+    "NELABOT": 1,
+    "UNRESOLVED": 0
+  },
+  "targets": [
+    {
+      "id": "ES-KURSS-PRONOUNS-0001",
+      "field": "kurss.pronounsSubtitle",
+      "file": "languages/es/ui.js",
+      "kind": "ui",
+      "current": "Nominativ, Akkusativ y Dativ: formas de pronombres.",
+      "new": "Nominativo, acusativo y dativo: formas de los pronombres.",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0002",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html",
+      "current": "Nominativo, Akkusativo y Dativo - formas de pronombres.",
+      "new": "Nominativo, acusativo y dativo: formas de los pronombres.",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0003",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "current": "Nominativo - ¿qué?",
+      "new": "Nominativo: ¿quién? / ¿qué?",
+      "status": "LABOT",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0004",
+      "current": "ich - I",
+      "new": "ich - yo",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0005",
+      "current": "yo - eso",
+      "new": "es - ello",
+      "status": "LABOT",
+      "replaceMode": "first",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0006",
+      "current": "ihr - tú",
+      "new": "ihr - vosotros/vosotras",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0007",
+      "current": "atan - ellos / ella",
+      "new": "sie - ellos/ellas",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0008",
+      "current": "atan - tú (cortesía)",
+      "new": "Sie - usted/ustedes (cortesía)",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0009",
+      "current": "Acusativo - ¿qué?",
+      "new": "Acusativo: ¿a quién? / ¿qué?",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0010",
+      "current": "mich - yo",
+      "new": "mich - me",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0011",
+      "current": "dich - tú",
+      "new": "dich - te",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0012",
+      "current": "ihn - su (v.)",
+      "new": "ihn - lo (masculino)",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0013",
+      "current": "sie - su (s.)",
+      "new": "sie - la (femenino)",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0014",
+      "current": "yo - eso",
+      "new": "es - lo",
+      "status": "LABOT",
+      "replaceMode": "first",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0015",
+      "current": "él - nosotros",
+      "new": "uns - nos",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0016",
+      "current": "euch - tú",
+      "new": "euch - os",
+      "status": "LABOT",
+      "replaceMode": "first",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0017",
+      "current": "sie - ellos/ella",
+      "new": "sie - los/las",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0018",
+      "current": "sie - tú (cortesía)",
+      "new": "Sie - lo/la/los/las (cortesía)",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0019",
+      "current": "Dativo - ¿a quién?",
+      "new": "Dativo: ¿a quién?",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0020",
+      "current": "mir - yo",
+      "new": "mir - me",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0021",
+      "current": "dir - tú",
+      "new": "dir - te",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0022",
+      "current": "ihm - él / eso",
+      "new": "ihm - le (masculino/neutro)",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0023",
+      "current": "ihr - ella",
+      "new": "ihr - le (femenino)",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0024",
+      "current": "uns - nosotros",
+      "new": "uns - nos",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0025",
+      "current": "euch - tú",
+      "new": "euch - os",
+      "status": "LABOT",
+      "replaceMode": "first",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0026",
+      "current": "ihnen - ellos / para ellos",
+      "new": "ihnen - les",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0027",
+      "current": "Ihnen - para ti (cortesía)",
+      "new": "Ihnen - le/les (cortesía)",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0028",
+      "current": "¿Cómo elegir una forma?",
+      "new": "¿Cómo elegir la forma correcta?",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0029",
+      "current": "<span class=\"case-red\">Akkusativ</span> - objeto directo (¿qué?)",
+      "new": "Acusativo - objeto directo (¿a quién? / ¿qué?)",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0030",
+      "current": "<span class=\"case-green\">Dativo</span> - objeto indirecto (¿a quién?)",
+      "new": "Dativo - objeto indirecto (¿a quién?)",
+      "status": "NELABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0031",
+      "current": "Ich sehe <span class=\"case-red\">ihn</span>. - Veo él.",
+      "new": "Ich sehe ihn. — Lo veo.",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0032",
+      "current": "Wir mögen <span class=\"case-red\">euch</span>. — Nos gustas.",
+      "new": "Wir mögen euch. — Nos gustáis.",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0033",
+      "current": "Ich helpe <span class=\"case-green\">dir</span>. — Te estoy ayudando.",
+      "new": "Ich helfe dir. — Te ayudo.",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0034",
+      "current": "Ich gebe <span class=\"case-green\">ihm</span> ein Buch. — Le doy el libro.",
+      "new": "Ich gebe ihm ein Buch. — Le doy un libro.",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0035",
+      "current": "Wir danken <span class=\"case-green\">euch</span>. — Te lo agradecemos.",
+      "new": "Wir danken euch. — Os damos las gracias.",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    },
+    {
+      "id": "ES-KURSS-PRONOUNS-0036",
+      "current": "El Nominativo es siempre el sujeto de la oración, mientras que Akkusativ y Dativ son los objetos. Mire el verbo y pregunte: <span class=\"case-red\">¿qué?</span> o <span class=\"case-green\">¿quién?</span>",
+      "new": "El nominativo marca el sujeto; el acusativo suele marcar el objeto directo y el dativo, el objeto indirecto. Observe la función del pronombre en la oración.",
+      "status": "LABOT",
+      "field": "COURSE_LESSON_HTML.kurssPronounsLesson",
+      "file": "data/es/courseLessons.js",
+      "kind": "html"
+    }
+  ]
+}
