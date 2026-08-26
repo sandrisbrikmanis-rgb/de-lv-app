@@ -137,17 +137,22 @@ function legacyLessonKeyFromField(field) {
   return m ? m[1] : null;
 }
 
-function loadAllDecisions() {
+function loadAllDecisions(suffix = "") {
   const targets = [];
   for (let n = 1; n <= LESSON_COUNT; n++) {
     const pad = String(n).padStart(2, "0");
-    const filePath = path.join(ROOT, `reports/es-kurss-lesson-${pad}-owner-decisions.json`);
+    const rel = `reports/es-kurss-lesson-${pad}-owner-decisions${suffix}.json`;
+    const filePath = path.join(ROOT, rel);
     const json = JSON.parse(fs.readFileSync(filePath, "utf8"));
     for (const target of json.targets) {
-      targets.push({ ...target, sourceFile: `reports/es-kurss-lesson-${pad}-owner-decisions.json` });
+      targets.push({ ...target, sourceFile: rel });
     }
   }
   return targets;
+}
+
+function loadAllDecisionsV2MainCurrent() {
+  return loadAllDecisions("-v2-main-current");
 }
 
 function trainingPathFromField(field) {
@@ -417,6 +422,7 @@ module.exports = {
   writeUi,
   writeTraining,
   loadAllDecisions,
+  loadAllDecisionsV2MainCurrent,
   classifyApplyKind,
   readActual,
   applyTarget,
