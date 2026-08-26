@@ -1,0 +1,135 @@
+{
+  "batchKey": "narrow-0076-0090",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0076",
+    "ES-A1A2-MICRO-OWNER-0077",
+    "ES-A1A2-MICRO-OWNER-0078",
+    "ES-A1A2-MICRO-OWNER-0079",
+    "ES-A1A2-MICRO-OWNER-0080",
+    "ES-A1A2-MICRO-OWNER-0081",
+    "ES-A1A2-MICRO-OWNER-0082",
+    "ES-A1A2-MICRO-OWNER-0083",
+    "ES-A1A2-MICRO-OWNER-0084",
+    "ES-A1A2-MICRO-OWNER-0085",
+    "ES-A1A2-MICRO-OWNER-0086",
+    "ES-A1A2-MICRO-OWNER-0087",
+    "ES-A1A2-MICRO-OWNER-0088",
+    "ES-A1A2-MICRO-OWNER-0089",
+    "ES-A1A2-MICRO-OWNER-0090"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0078",
+      "cardId": "a2-aufrufen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "aufrufen",
+      "pairedDe": "Der Moderator ruft die nächste Nummer auf.",
+      "currentEs": "El gerente llama al siguiente número.",
+      "proposedEs": "El moderador llama al siguiente número.",
+      "reason": "“Moderator” significa moderador, no gerente; la persona indicada no coincide con el alemán.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0080",
+      "cardId": "a2-aufzeichnen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "aufzeichnen",
+      "pairedDe": "Der Arzt zeichnet die Werte auf.",
+      "currentEs": "El médico anota los indicadores.",
+      "proposedEs": "El médico anota los valores.",
+      "reason": "“Werte” significa valores o lecturas; “indicadores” cambia el referente del dato registrado.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0076",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0077",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0078",
+      "cardId": "a2-aufrufen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "aufrufen",
+      "pairedDe": "Der Moderator ruft die nächste Nummer auf.",
+      "currentEs": "El gerente llama al siguiente número.",
+      "proposedEs": "El moderador llama al siguiente número.",
+      "reason": "“Moderator” significa moderador, no gerente; la persona indicada no coincide con el alemán.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0079",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0080",
+      "cardId": "a2-aufzeichnen",
+      "field": "study.examples[3].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "aufzeichnen",
+      "pairedDe": "Der Arzt zeichnet die Werte auf.",
+      "currentEs": "El médico anota los indicadores.",
+      "proposedEs": "El médico anota los valores.",
+      "reason": "“Werte” significa valores o lecturas; “indicadores” cambia el referente del dato registrado.",
+      "confidence": 0.93,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0081",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0082",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0083",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0084",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0085",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0086",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0087",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0088",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0089",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0090",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 13,
+  "completedAt": "2026-08-26T06:11:31.320Z"
+}

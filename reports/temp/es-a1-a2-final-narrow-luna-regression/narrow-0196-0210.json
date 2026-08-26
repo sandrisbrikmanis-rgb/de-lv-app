@@ -1,0 +1,86 @@
+{
+  "batchKey": "narrow-0196-0210",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0196",
+    "ES-A1A2-MICRO-OWNER-0197",
+    "ES-A1A2-MICRO-OWNER-0198",
+    "ES-A1A2-MICRO-OWNER-0199",
+    "ES-A1A2-MICRO-OWNER-0200",
+    "ES-A1A2-MICRO-OWNER-0201",
+    "ES-A1A2-MICRO-OWNER-0202",
+    "ES-A1A2-MICRO-OWNER-0203",
+    "ES-A1A2-MICRO-OWNER-0204",
+    "ES-A1A2-MICRO-OWNER-0205",
+    "ES-A1A2-MICRO-OWNER-0206",
+    "ES-A1A2-MICRO-OWNER-0207",
+    "ES-A1A2-MICRO-OWNER-0208",
+    "ES-A1A2-MICRO-OWNER-0209",
+    "ES-A1A2-MICRO-OWNER-0210"
+  ],
+  "targetCount": 15,
+  "findings": [],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0196",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0197",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0198",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0199",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0200",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0201",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0202",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0203",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0204",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0205",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0206",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0207",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0208",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0209",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0210",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 15,
+  "completedAt": "2026-08-26T06:12:41.155Z"
+}

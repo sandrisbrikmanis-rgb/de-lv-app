@@ -1,0 +1,159 @@
+{
+  "batchKey": "narrow-0016-0030",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0016",
+    "ES-A1A2-MICRO-OWNER-0017",
+    "ES-A1A2-MICRO-OWNER-0018",
+    "ES-A1A2-MICRO-OWNER-0019",
+    "ES-A1A2-MICRO-OWNER-0020",
+    "ES-A1A2-MICRO-OWNER-0021",
+    "ES-A1A2-MICRO-OWNER-0022",
+    "ES-A1A2-MICRO-OWNER-0023",
+    "ES-A1A2-MICRO-OWNER-0024",
+    "ES-A1A2-MICRO-OWNER-0025",
+    "ES-A1A2-MICRO-OWNER-0026",
+    "ES-A1A2-MICRO-OWNER-0027",
+    "ES-A1A2-MICRO-OWNER-0028",
+    "ES-A1A2-MICRO-OWNER-0029",
+    "ES-A1A2-MICRO-OWNER-0030"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0017",
+      "cardId": "a1-hand-study",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Hand",
+      "pairedDe": "Mein Arm tut weh.",
+      "currentEs": "Me duele la mano.",
+      "proposedEs": "Me duele el brazo.",
+      "reason": "El alemán dice «Mi brazo duele», no «Mi mano duele»; Arm y Hand son partes distintas del cuerpo.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0018",
+      "cardId": "a1-kosten",
+      "field": "study.examples[4].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "pairedDe": "Ich bezahle die Rechnung.",
+      "currentEs": "La cuenta tiene un precio.",
+      "proposedEs": "Pago la cuenta.",
+      "reason": "La frase alemana expresa que pago la cuenta, mientras que el español actual dice que la cuenta tiene un precio.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0026",
+      "cardId": "a1-laufen",
+      "field": "study.comparison[2].meaning",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "laufen",
+      "pairedDe": "Ich fahre mit dem Bus.",
+      "currentEs": "caminar o correr",
+      "proposedEs": "viajar en transporte",
+      "reason": "La comparación es para fahren: con «mit dem Bus» significa viajar en transporte, no caminar o correr.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0016",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0017",
+      "cardId": "a1-hand-study",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Hand",
+      "pairedDe": "Mein Arm tut weh.",
+      "currentEs": "Me duele la mano.",
+      "proposedEs": "Me duele el brazo.",
+      "reason": "El alemán dice «Mi brazo duele», no «Mi mano duele»; Arm y Hand son partes distintas del cuerpo.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0018",
+      "cardId": "a1-kosten",
+      "field": "study.examples[4].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "kosten",
+      "pairedDe": "Ich bezahle die Rechnung.",
+      "currentEs": "La cuenta tiene un precio.",
+      "proposedEs": "Pago la cuenta.",
+      "reason": "La frase alemana expresa que pago la cuenta, mientras que el español actual dice que la cuenta tiene un precio.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0019",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0020",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0021",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0022",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0023",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0024",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0025",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0026",
+      "cardId": "a1-laufen",
+      "field": "study.comparison[2].meaning",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "laufen",
+      "pairedDe": "Ich fahre mit dem Bus.",
+      "currentEs": "caminar o correr",
+      "proposedEs": "viajar en transporte",
+      "reason": "La comparación es para fahren: con «mit dem Bus» significa viajar en transporte, no caminar o correr.",
+      "confidence": "HIGH",
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0027",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0028",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0029",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0030",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 12,
+  "completedAt": "2026-08-26T06:10:52.952Z"
+}

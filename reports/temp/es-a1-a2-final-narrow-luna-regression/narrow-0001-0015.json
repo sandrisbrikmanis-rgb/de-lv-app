@@ -1,0 +1,207 @@
+{
+  "batchKey": "narrow-0001-0015",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0001",
+    "ES-A1A2-MICRO-OWNER-0002",
+    "ES-A1A2-MICRO-OWNER-0003",
+    "ES-A1A2-MICRO-OWNER-0004",
+    "ES-A1A2-MICRO-OWNER-0005",
+    "ES-A1A2-MICRO-OWNER-0006",
+    "ES-A1A2-MICRO-OWNER-0007",
+    "ES-A1A2-MICRO-OWNER-0008",
+    "ES-A1A2-MICRO-OWNER-0009",
+    "ES-A1A2-MICRO-OWNER-0010",
+    "ES-A1A2-MICRO-OWNER-0011",
+    "ES-A1A2-MICRO-OWNER-0012",
+    "ES-A1A2-MICRO-OWNER-0013",
+    "ES-A1A2-MICRO-OWNER-0014",
+    "ES-A1A2-MICRO-OWNER-0015"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0001",
+      "cardId": "a1-bringen",
+      "field": "study.examples[0].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bitte",
+      "pairedDe": "Ich bringe dir ein Buch.",
+      "currentEs": "Tráeme agua, por favor.",
+      "proposedEs": "Te traigo un libro.",
+      "reason": "La frase aplicada pide agua, pero el alemán expresa que traigo un libro para ti.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0002",
+      "cardId": "a1-bringen",
+      "field": "study.examples[1].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "bringen",
+      "pairedDe": "Ich bringe das Paket zur Post.",
+      "currentEs": "Te llevaré a casa.",
+      "proposedEs": "Llevo el paquete a la oficina de correos.",
+      "reason": "La frase aplicada cambia el paquete y la oficina de correos por una persona y su casa.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0003",
+      "cardId": "a1-bringen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "bringen",
+      "pairedDe": "Ich bringe die Kinder zur Schule.",
+      "currentEs": "Lleva el libro a la escuela.",
+      "proposedEs": "Llevo a los niños a la escuela.",
+      "reason": "La frase aplicada menciona un libro y un imperativo; el alemán expresa que llevo a los niños a la escuela.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0006",
+      "cardId": "a1-dieser",
+      "field": "study.examples[1].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "dieser",
+      "pairedDe": "Ich sehe diesen Hund.",
+      "currentEs": "Me gusta este perro.",
+      "proposedEs": "Veo a este perro.",
+      "reason": "Me gusta significa que el perro agrada; el alemán expresa que veo a este perro.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0011",
+      "cardId": "a1-es",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "es",
+      "pairedDe": "Es ist müde.",
+      "currentEs": "Es mi libro.",
+      "proposedEs": "Está cansado.",
+      "reason": "La frase aplicada significa que es mi libro; el alemán expresa que algo está cansado.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0001",
+      "cardId": "a1-bringen",
+      "field": "study.examples[0].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "Bitte",
+      "pairedDe": "Ich bringe dir ein Buch.",
+      "currentEs": "Tráeme agua, por favor.",
+      "proposedEs": "Te traigo un libro.",
+      "reason": "La frase aplicada pide agua, pero el alemán expresa que traigo un libro para ti.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0002",
+      "cardId": "a1-bringen",
+      "field": "study.examples[1].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "bringen",
+      "pairedDe": "Ich bringe das Paket zur Post.",
+      "currentEs": "Te llevaré a casa.",
+      "proposedEs": "Llevo el paquete a la oficina de correos.",
+      "reason": "La frase aplicada cambia el paquete y la oficina de correos por una persona y su casa.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0003",
+      "cardId": "a1-bringen",
+      "field": "study.examples[2].lv",
+      "severity": "HIGH",
+      "category": "SEMANTICS",
+      "de": "bringen",
+      "pairedDe": "Ich bringe die Kinder zur Schule.",
+      "currentEs": "Lleva el libro a la escuela.",
+      "proposedEs": "Llevo a los niños a la escuela.",
+      "reason": "La frase aplicada menciona un libro y un imperativo; el alemán expresa que llevo a los niños a la escuela.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0004",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0005",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0006",
+      "cardId": "a1-dieser",
+      "field": "study.examples[1].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "dieser",
+      "pairedDe": "Ich sehe diesen Hund.",
+      "currentEs": "Me gusta este perro.",
+      "proposedEs": "Veo a este perro.",
+      "reason": "Me gusta significa que el perro agrada; el alemán expresa que veo a este perro.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0007",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0008",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0009",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0010",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0011",
+      "cardId": "a1-es",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "es",
+      "pairedDe": "Es ist müde.",
+      "currentEs": "Es mi libro.",
+      "proposedEs": "Está cansado.",
+      "reason": "La frase aplicada significa que es mi libro; el alemán expresa que algo está cansado.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0012",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0013",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0014",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0015",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 10,
+  "completedAt": "2026-08-26T06:10:37.313Z"
+}

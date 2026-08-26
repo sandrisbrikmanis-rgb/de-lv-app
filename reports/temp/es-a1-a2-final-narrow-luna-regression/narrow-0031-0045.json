@@ -1,0 +1,159 @@
+{
+  "batchKey": "narrow-0031-0045",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0031",
+    "ES-A1A2-MICRO-OWNER-0032",
+    "ES-A1A2-MICRO-OWNER-0033",
+    "ES-A1A2-MICRO-OWNER-0034",
+    "ES-A1A2-MICRO-OWNER-0035",
+    "ES-A1A2-MICRO-OWNER-0036",
+    "ES-A1A2-MICRO-OWNER-0037",
+    "ES-A1A2-MICRO-OWNER-0038",
+    "ES-A1A2-MICRO-OWNER-0039",
+    "ES-A1A2-MICRO-OWNER-0040",
+    "ES-A1A2-MICRO-OWNER-0041",
+    "ES-A1A2-MICRO-OWNER-0042",
+    "ES-A1A2-MICRO-OWNER-0043",
+    "ES-A1A2-MICRO-OWNER-0044",
+    "ES-A1A2-MICRO-OWNER-0045"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0033",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[0].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Morgen",
+      "pairedDe": "Guten Morgen!",
+      "currentEs": "Por la mañana.",
+      "proposedEs": "¡Buen día!",
+      "reason": "Traduce una indicación temporal, no el saludo alemán.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0034",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Morgen",
+      "pairedDe": "Morgen ist Montag.",
+      "currentEs": "El lunes por la mañana trabajo.",
+      "proposedEs": "Mañana es lunes.",
+      "reason": "Añade trabajo y cambia el sentido de Morgen ist Montag: «mañana es lunes».",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0045",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "absagen",
+      "pairedDe": "Ich sage den Termin ab.",
+      "currentEs": "cancelar / dar de baja una membresía",
+      "proposedEs": "cancelar",
+      "reason": "Absagen significa cancelar o anular citas y eventos, no dar de baja una membresía.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0031",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0032",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0033",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[0].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Morgen",
+      "pairedDe": "Guten Morgen!",
+      "currentEs": "Por la mañana.",
+      "proposedEs": "¡Buen día!",
+      "reason": "Traduce una indicación temporal, no el saludo alemán.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0034",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[3].lv",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "Morgen",
+      "pairedDe": "Morgen ist Montag.",
+      "currentEs": "El lunes por la mañana trabajo.",
+      "proposedEs": "Mañana es lunes.",
+      "reason": "Añade trabajo y cambia el sentido de Morgen ist Montag: «mañana es lunes».",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0035",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0036",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0037",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0038",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0039",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0040",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0041",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0042",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0043",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0044",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0045",
+      "cardId": "a2-absagen",
+      "field": "study.comparison[0].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "absagen",
+      "pairedDe": "Ich sage den Termin ab.",
+      "currentEs": "cancelar / dar de baja una membresía",
+      "proposedEs": "cancelar",
+      "reason": "Absagen significa cancelar o anular citas y eventos, no dar de baja una membresía.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 12,
+  "completedAt": "2026-08-26T06:11:05.050Z"
+}

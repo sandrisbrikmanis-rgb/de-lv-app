@@ -1,0 +1,111 @@
+{
+  "batchKey": "narrow-0046-0060",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0046",
+    "ES-A1A2-MICRO-OWNER-0047",
+    "ES-A1A2-MICRO-OWNER-0048",
+    "ES-A1A2-MICRO-OWNER-0049",
+    "ES-A1A2-MICRO-OWNER-0050",
+    "ES-A1A2-MICRO-OWNER-0051",
+    "ES-A1A2-MICRO-OWNER-0052",
+    "ES-A1A2-MICRO-OWNER-0053",
+    "ES-A1A2-MICRO-OWNER-0054",
+    "ES-A1A2-MICRO-OWNER-0055",
+    "ES-A1A2-MICRO-OWNER-0056",
+    "ES-A1A2-MICRO-OWNER-0057",
+    "ES-A1A2-MICRO-OWNER-0058",
+    "ES-A1A2-MICRO-OWNER-0059",
+    "ES-A1A2-MICRO-OWNER-0060"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0056",
+      "cardId": "a2-anlegen",
+      "field": "study.examples[5].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "anlegen",
+      "pairedDe": "Der Arzt legt das Gerät an den Arm an.",
+      "currentEs": "El médico coloca el dispositivo en la mano.",
+      "proposedEs": "El médico coloca el dispositivo en el brazo.",
+      "reason": "El alemán especifica el brazo (Arm), pero la traducción aplicada indica la mano.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0046",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0047",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0048",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0049",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0050",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0051",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0052",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0053",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0054",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0055",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0056",
+      "cardId": "a2-anlegen",
+      "field": "study.examples[5].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "anlegen",
+      "pairedDe": "Der Arzt legt das Gerät an den Arm an.",
+      "currentEs": "El médico coloca el dispositivo en la mano.",
+      "proposedEs": "El médico coloca el dispositivo en el brazo.",
+      "reason": "El alemán especifica el brazo (Arm), pero la traducción aplicada indica la mano.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0057",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0058",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0059",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0060",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 14,
+  "completedAt": "2026-08-26T06:11:13.521Z"
+}

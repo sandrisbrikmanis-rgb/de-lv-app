@@ -1,0 +1,111 @@
+{
+  "batchKey": "narrow-0121-0135",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0121",
+    "ES-A1A2-MICRO-OWNER-0122",
+    "ES-A1A2-MICRO-OWNER-0123",
+    "ES-A1A2-MICRO-OWNER-0124",
+    "ES-A1A2-MICRO-OWNER-0125",
+    "ES-A1A2-MICRO-OWNER-0126",
+    "ES-A1A2-MICRO-OWNER-0127",
+    "ES-A1A2-MICRO-OWNER-0128",
+    "ES-A1A2-MICRO-OWNER-0129",
+    "ES-A1A2-MICRO-OWNER-0130",
+    "ES-A1A2-MICRO-OWNER-0131",
+    "ES-A1A2-MICRO-OWNER-0132",
+    "ES-A1A2-MICRO-OWNER-0133",
+    "ES-A1A2-MICRO-OWNER-0134",
+    "ES-A1A2-MICRO-OWNER-0135"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0135",
+      "cardId": "a2-drücken",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Bitte hier drücken.",
+      "pairedDe": "Bitte hier drücken.",
+      "currentEs": "Por favor, haga clic aquí.",
+      "proposedEs": "Por favor, presione aquí.",
+      "reason": "Drücken con un botón significa presionar; «hacer clic» traduce klicken y cambia la acción indicada.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0121",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0122",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0123",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0124",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0125",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0126",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0127",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0128",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0129",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0130",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0131",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0132",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0133",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0134",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0135",
+      "cardId": "a2-drücken",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Bitte hier drücken.",
+      "pairedDe": "Bitte hier drücken.",
+      "currentEs": "Por favor, haga clic aquí.",
+      "proposedEs": "Por favor, presione aquí.",
+      "reason": "Drücken con un botón significa presionar; «hacer clic» traduce klicken y cambia la acción indicada.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 14,
+  "completedAt": "2026-08-26T06:11:57.065Z"
+}

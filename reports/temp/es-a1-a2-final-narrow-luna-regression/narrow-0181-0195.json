@@ -1,0 +1,111 @@
+{
+  "batchKey": "narrow-0181-0195",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0181",
+    "ES-A1A2-MICRO-OWNER-0182",
+    "ES-A1A2-MICRO-OWNER-0183",
+    "ES-A1A2-MICRO-OWNER-0184",
+    "ES-A1A2-MICRO-OWNER-0185",
+    "ES-A1A2-MICRO-OWNER-0186",
+    "ES-A1A2-MICRO-OWNER-0187",
+    "ES-A1A2-MICRO-OWNER-0188",
+    "ES-A1A2-MICRO-OWNER-0189",
+    "ES-A1A2-MICRO-OWNER-0190",
+    "ES-A1A2-MICRO-OWNER-0191",
+    "ES-A1A2-MICRO-OWNER-0192",
+    "ES-A1A2-MICRO-OWNER-0193",
+    "ES-A1A2-MICRO-OWNER-0194",
+    "ES-A1A2-MICRO-OWNER-0195"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0192",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[4].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Schloss",
+      "pairedDe": "Der Schlüssel",
+      "currentEs": "la cerradura",
+      "proposedEs": "la llave",
+      "reason": "Der Schlüssel significa «la llave», no «la cerradura».",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0181",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0182",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0183",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0184",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0185",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0186",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0187",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0188",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0189",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0190",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0191",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0192",
+      "cardId": "a2-schloss",
+      "field": "study.comparison[4].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "Schloss",
+      "pairedDe": "Der Schlüssel",
+      "currentEs": "la cerradura",
+      "proposedEs": "la llave",
+      "reason": "Der Schlüssel significa «la llave», no «la cerradura».",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0193",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0194",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0195",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 14,
+  "completedAt": "2026-08-26T06:12:34.115Z"
+}

@@ -1,0 +1,111 @@
+{
+  "batchKey": "narrow-0061-0075",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0061",
+    "ES-A1A2-MICRO-OWNER-0062",
+    "ES-A1A2-MICRO-OWNER-0063",
+    "ES-A1A2-MICRO-OWNER-0064",
+    "ES-A1A2-MICRO-OWNER-0065",
+    "ES-A1A2-MICRO-OWNER-0066",
+    "ES-A1A2-MICRO-OWNER-0067",
+    "ES-A1A2-MICRO-OWNER-0068",
+    "ES-A1A2-MICRO-OWNER-0069",
+    "ES-A1A2-MICRO-OWNER-0070",
+    "ES-A1A2-MICRO-OWNER-0071",
+    "ES-A1A2-MICRO-OWNER-0072",
+    "ES-A1A2-MICRO-OWNER-0073",
+    "ES-A1A2-MICRO-OWNER-0074",
+    "ES-A1A2-MICRO-OWNER-0075"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0075",
+      "cardId": "a2-aufrufen",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "aufrufen",
+      "pairedDe": "Der Lehrer ruft meinen Namen auf.",
+      "currentEs": "El maestro llama mi nombre en voz alta.",
+      "proposedEs": "El maestro dice mi nombre en voz alta.",
+      "reason": "«Llamar mi nombre» no es una construcción idiomática; «decir mi nombre» expresa correctamente la acción.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0061",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0062",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0063",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0064",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0065",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0066",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0067",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0068",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0069",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0070",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0071",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0072",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0073",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0074",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0075",
+      "cardId": "a2-aufrufen",
+      "field": "study.examples[0].lv",
+      "severity": "MEDIUM",
+      "category": "NATURALNESS",
+      "de": "aufrufen",
+      "pairedDe": "Der Lehrer ruft meinen Namen auf.",
+      "currentEs": "El maestro llama mi nombre en voz alta.",
+      "proposedEs": "El maestro dice mi nombre en voz alta.",
+      "reason": "«Llamar mi nombre» no es una construcción idiomática; «decir mi nombre» expresa correctamente la acción.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 14,
+  "completedAt": "2026-08-26T06:11:21.626Z"
+}
