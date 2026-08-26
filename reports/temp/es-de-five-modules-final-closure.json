@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "head": "537806546b426647a4689eb4a2a5e65a9cfa4b15",
+    "branch": "cursor/es-de-b2-c1-c2-sentences-verbs-full-audit-3141",
+    "pr": 667,
+    "timestamp": "2026-08-26T11:36:03.050Z",
+    "lunaUsed": false
+  },
+  "totals": {
+    "labotMatched": 2221,
+    "nelabotMatched": 15,
+    "unresolved": 0,
+    "deChanges": 0,
+    "labotPass": true,
+    "nelabotPass": true,
+    "unresolvedPass": true
+  },
+  "modules": [
+    {
+      "key": "b2",
+      "module": "B2",
+      "total": 1022,
+      "labot": {
+        "expected": 1022,
+        "matched": 1022,
+        "failures": []
+      },
+      "nelabot": {
+        "expected": 0,
+        "matched": 0,
+        "failures": []
+      },
+      "sourceDeIssue": {
+        "expected": 0,
+        "matched": 0,
+        "failures": []
+      },
+      "unresolved": 0,
+      "duplicates": 0,
+      "applyLogVerified": true,
+      "structure": {
+        "totalCards": 2118,
+        "studyCount": 60,
+        "mirrorPass": true,
+        "syntaxPass": true,
+        "idOrderPass": true,
+        "deFieldChanges": 0,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "key": "c1",
+      "module": "C1",
+      "total": 255,
+      "labot": {
+        "expected": 253,
+        "matched": 253,
+        "failures": []
+      },
+      "nelabot": {
+        "expected": 2,
+        "matched": 2,
+        "failures": []
+      },
+      "sourceDeIssue": {
+        "expected": 0,
+        "matched": 0,
+        "failures": []
+      },
+      "unresolved": 0,
+      "duplicates": 0,
+      "applyLogVerified": true,
+      "structure": {
+        "totalCards": 572,
+        "studyCount": 15,
+        "mirrorPass": true,
+        "syntaxPass": true,
+        "idOrderPass": true,
+        "deFieldChanges": 0,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "key": "c2",
+      "module": "C2",
+      "total": 92,
+      "labot": {
+        "expected": 91,
+        "matched": 91,
+        "failures": []
+      },
+      "nelabot": {
+        "expected": 1,
+        "matched": 1,
+        "failures": []
+      },
+      "sourceDeIssue": {
+        "expected": 0,
+        "matched": 0,
+        "failures": []
+      },
+      "unresolved": 0,
+      "duplicates": 0,
+      "applyLogVerified": true,
+      "structure": {
+        "totalCards": 219,
+        "studyCount": 1,
+        "mirrorPass": true,
+        "syntaxPass": true,
+        "idOrderPass": true,
+        "deFieldChanges": 0,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "key": "sentences",
+      "module": "SENTENCES",
+      "total": 317,
+      "labot": {
+        "expected": 310,
+        "matched": 310,
+        "failures": []
+      },
+      "nelabot": {
+        "expected": 7,
+        "matched": 7,
+        "failures": []
+      },
+      "sourceDeIssue": {
+        "expected": 0,
+        "matched": 0,
+        "failures": []
+      },
+      "unresolved": 0,
+      "duplicates": 0,
+      "applyLogVerified": true,
+      "structure": {
+        "totalCards": 796,
+        "studyCount": 0,
+        "mirrorPass": true,
+        "syntaxPass": true,
+        "idOrderPass": true,
+        "deFieldChanges": 0,
+        "pass": true
+      },
+      "pass": true
+    },
+    {
+      "key": "verbs",
+      "module": "VERBS",
+      "total": 550,
+      "labot": {
+        "expected": 545,
+        "matched": 545,
+        "failures": []
+      },
+      "nelabot": {
+        "expected": 5,
+        "matched": 5,
+        "failures": []
+      },
+      "sourceDeIssue": {
+        "expected": 0,
+        "matched": 0,
+        "failures": []
+      },
+      "unresolved": 0,
+      "duplicates": 0,
+      "applyLogVerified": true,
+      "structure": {
+        "totalCards": 189,
+        "studyCount": 0,
+        "mirrorPass": true,
+        "syntaxPass": true,
+        "idOrderPass": true,
+        "deFieldChanges": 0,
+        "pass": true
+      },
+      "pass": true
+    }
+  ],
+  "changeBoundaries": {
+    "changedProductionFiles": [
+      "data/es/b2.js",
+      "data/es/c1.js",
+      "data/es/c2.js",
+      "data/es/sentences.js",
+      "data/es/verbs.js",
+      "www/data/es/b2.js",
+      "www/data/es/c1.js",
+      "www/data/es/c2.js",
+      "www/data/es/sentences.js",
+      "www/data/es/verbs.js"
+    ],
+    "unexpectedProductionFiles": [],
+    "deMasterFilesChanged": [],
+    "otherLangProductionFiles": [],
+    "pass": true
+  },
+  "prMergeReadiness": {
+    "checked": true,
+    "ready": true,
+    "pr": {
+      "state": "OPEN",
+      "isDraft": true,
+      "baseRefName": "main",
+      "headRefName": "cursor/es-de-b2-c1-c2-sentences-verbs-full-audit-3141",
+      "headRefOid": "537806546b426647a4689eb4a2a5e65a9cfa4b15",
+      "mergeable": "MERGEABLE",
+      "mergeStateStatus": "CLEAN",
+      "failedChecks": 0,
+      "pendingChecks": 0,
+      "changedProductionFiles": [
+        "data/es/b2.js",
+        "data/es/c1.js",
+        "data/es/c2.js",
+        "data/es/sentences.js",
+        "data/es/verbs.js",
+        "www/data/es/b2.js",
+        "www/data/es/c1.js",
+        "www/data/es/c2.js",
+        "www/data/es/sentences.js",
+        "www/data/es/verbs.js"
+      ],
+      "unexpectedProductionFiles": []
+    }
+  },
+  "verdict": "PASS — ES–DE B2/C1/C2/Teikumi/Darbības vārdi OWNER ACCEPTED / READY TO MERGE"
+}

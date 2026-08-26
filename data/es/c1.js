@@ -8,19 +8,19 @@ const C1_WORDS = [
   },
   {
     "de": "gewährleisten",
-    "lv": "proporcionar",
+    "lv": "garantizar",
     "level": "C1"
   },
   {
     "de": "Auswirkung",
     "de_article": "die",
     "de_plural": "die Auswirkungen",
-    "lv": "influencia",
+    "lv": "efecto",
     "level": "C1"
   },
   {
     "de": "umstritten",
-    "lv": "contradictorio",
+    "lv": "controvertido",
     "level": "C1"
   },
   {
@@ -63,26 +63,26 @@ const C1_WORDS = [
     "de": "Aktionsprogramm",
     "de_article": "das",
     "de_plural": "die Aktionsprogramme",
-    "lv": "programa de eventos",
+    "lv": "programa de acción",
     "level": "C1"
   },
   {
     "de": "Alarmbereitschaft",
     "de_article": "die",
     "de_plural": "die Alarmbereitschaften",
-    "lv": "preparación para la alerta",
+    "lv": "estado de alerta",
     "level": "C1"
   },
   {
     "de": "Altweibersommer",
     "de_article": "der",
     "de_plural": "die Altweibersommer",
-    "lv": "primavera",
+    "lv": "veranillo de San Martín",
     "level": "C1"
   },
   {
     "de": "anfechten",
-    "lv": "disputa • pregunta",
+    "lv": "impugnar",
     "level": "C1"
   },
   {
@@ -113,7 +113,7 @@ const C1_WORDS = [
     "de": "Aal",
     "de_article": "der",
     "de_plural": "die Aale",
-    "lv": "Anguila",
+    "lv": "anguila",
     "level": "C1"
   },
   {
@@ -132,7 +132,7 @@ const C1_WORDS = [
     "de": "Abtreibung",
     "de_article": "die",
     "de_plural": "die Abtreibungen",
-    "lv": "aborto provocado",
+    "lv": "aborto",
     "level": "C1"
   },
   {
@@ -164,7 +164,7 @@ const C1_WORDS = [
     "de": "Frachtbrief",
     "de_article": "der",
     "de_plural": "die Frachtbriefe",
-    "lv": "carta de porte de carga",
+    "lv": "carta de porte",
     "level": "C1"
   },
   {
@@ -192,7 +192,7 @@ const C1_WORDS = [
     "de": "Kinderschänder",
     "de_article": "der",
     "de_plural": "die Kinderschänder",
-    "lv": "pedófilo",
+    "lv": "abusador de menores",
     "level": "C1"
   },
   {
@@ -206,7 +206,7 @@ const C1_WORDS = [
     "de": "Zivilgesetzbuch",
     "de_article": "das",
     "de_plural": "die Zivilgesetzbücher",
-    "lv": "derecho civil",
+    "lv": "código civil",
     "level": "C1"
   },
   {
@@ -220,7 +220,7 @@ const C1_WORDS = [
     "de": "Abenddämmerung",
     "de_article": "die",
     "de_plural": "die Abenddämmerungen",
-    "lv": "crepúsculo de la tarde",
+    "lv": "crepúsculo vespertino",
     "level": "C1"
   },
   {
@@ -244,14 +244,14 @@ const C1_WORDS = [
     "de": "Autokennzeichen",
     "de_article": "das",
     "de_plural": "die Autokennzeichen",
-    "lv": "Letras y números en la matrícula del coche.",
+    "lv": "matrícula del coche",
     "level": "C1"
   },
   {
     "de": "Bäckerhandwerk",
     "de_article": "das",
     "de_plural": "die Bäckerhandwerke",
-    "lv": "trabajo de panadero",
+    "lv": "oficio de panadero",
     "level": "C1"
   },
   {
@@ -263,7 +263,7 @@ const C1_WORDS = [
     "de": "Bergwanderung",
     "de_article": "die",
     "de_plural": "die Bergwanderungen",
-    "lv": "turismo de montaña",
+    "lv": "excursión por la montaña",
     "level": "C1"
   },
   {
@@ -273,7 +273,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich beschäftigen",
-    "lv": "ocupar",
+    "lv": "ocuparse",
     "level": "C1"
   },
   {
@@ -292,7 +292,7 @@ const C1_WORDS = [
     "de": "Besichtigung",
     "de_article": "die",
     "de_plural": "die Besichtigungen",
-    "lv": "inspección",
+    "lv": "visita",
     "level": "C1"
   },
   {
@@ -329,7 +329,7 @@ const C1_WORDS = [
   },
   {
     "de": "charakteristisch",
-    "lv": "característica",
+    "lv": "característico",
     "level": "C1"
   },
   {
@@ -370,15 +370,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Sie wohnen in einem Einfamilienhaus.",
-          "lv": "viven en una casa unifamiliar."
+          "lv": "Viven en una casa unifamiliar."
         },
         {
           "de": "Das Einfamilienhaus hat einen Garten.",
-          "lv": "la casa unifamiliar tiene jardín."
+          "lv": "La casa unifamiliar tiene jardín."
         },
         {
           "de": "Nebenan steht ein Mehrfamilienhaus.",
-          "lv": "hay un edificio de apartamentos al lado."
+          "lv": "Hay un edificio de apartamentos al lado."
         }
       ]
     }
@@ -399,7 +399,7 @@ const C1_WORDS = [
   },
   {
     "de": "ekelhaft",
-    "lv": "desagradable",
+    "lv": "asqueroso",
     "level": "C1"
   },
   {
@@ -413,7 +413,7 @@ const C1_WORDS = [
     "de": "Gartenerdbeere",
     "de_article": "die",
     "de_plural": "die Gartenerdbeeren",
-    "lv": "fresa de jardin",
+    "lv": "fresa de jardín",
     "level": "C1"
   },
   {
@@ -459,19 +459,19 @@ const C1_WORDS = [
     "de": "Gepäckträger",
     "de_article": "der",
     "de_plural": "die Gepäckträger",
-    "lv": "trompa",
+    "lv": "maletero",
     "level": "C1"
   },
   {
     "de": "geschäftlich",
-    "lv": "transacción",
+    "lv": "comercial",
     "level": "C1"
   },
   {
     "de": "Geschäftsmann",
     "de_article": "der",
     "de_plural": "die Geschäftsleute",
-    "lv": "emprendedor",
+    "lv": "hombre de negocios",
     "level": "C1"
   },
   {
@@ -481,7 +481,7 @@ const C1_WORDS = [
   },
   {
     "de": "geschmacklos",
-    "lv": "insípido",
+    "lv": "de mal gusto",
     "level": "C1"
   },
   {
@@ -498,7 +498,7 @@ const C1_WORDS = [
     "de": "Gesichtspunkt",
     "de_article": "der",
     "de_plural": "die Gesichtspunkte",
-    "lv": "opinión",
+    "lv": "punto de vista",
     "level": "C1"
   },
   {
@@ -522,12 +522,12 @@ const C1_WORDS = [
   {
     "de": "Hausangestellte",
     "de_article": "die",
-    "lv": "un ama de llaves",
+    "lv": "empleada doméstica",
     "level": "C1"
   },
   {
     "de": "hinaufklettern",
-    "lv": "subir",
+    "lv": "trepar",
     "level": "C1"
   },
   {
@@ -539,7 +539,7 @@ const C1_WORDS = [
     "de": "Hochzeitsbrauch",
     "de_article": "der",
     "de_plural": "die Hochzeitsbräuche",
-    "lv": "boda personalizada",
+    "lv": "costumbre nupcial",
     "level": "C1"
   },
   {
@@ -579,7 +579,7 @@ const C1_WORDS = [
     "de": "Tasteninstrument",
     "de_article": "das",
     "de_plural": "die Tasteninstrumente",
-    "lv": "teclado",
+    "lv": "instrumento de teclado",
     "level": "C1"
   },
   {
@@ -651,14 +651,14 @@ const C1_WORDS = [
     "de": "Krankheitsbild",
     "de_article": "das",
     "de_plural": "die Krankheitsbilder",
-    "lv": "escena de la enfermedad",
+    "lv": "cuadro clínico",
     "level": "C1"
   },
   {
     "de": "Lastkraftwagen",
     "de_article": "der",
     "de_plural": "die Lastkraftwagen",
-    "lv": "carro pesado",
+    "lv": "camión",
     "level": "C1"
   },
   {
@@ -725,7 +725,7 @@ const C1_WORDS = [
     "de": "Morgengymnastik",
     "de_article": "die",
     "de_plural": "die Morgengymnastiken",
-    "lv": "amanecer",
+    "lv": "gimnasia matutina",
     "level": "C1"
   },
   {
@@ -763,7 +763,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-offentlichkeit",
       "layout": "standardStudy",
-      "translation": "sociedad • apertura",
+      "translation": "esfera pública",
       "explanation": "Idea principal: die Öffentlichkeit significa sociedad como espacio público o personas en su conjunto. En la frase an die Öffentlichkeit kommen, significa salir a la luz.",
       "examples": [
         {
@@ -772,11 +772,11 @@ const C1_WORDS = [
         },
         {
           "de": "Der Fall kam an die Öffentlichkeit.",
-          "lv": "el caso salió a la luz."
+          "lv": "El caso salió a la luz."
         },
         {
           "de": "Die Öffentlichkeit hat ein Recht auf Information.",
-          "lv": "el público tiene derecho a la información."
+          "lv": "El público tiene derecho a la información."
         }
       ]
     }
@@ -797,12 +797,12 @@ const C1_WORDS = [
     "study": {
       "id": "c1-partei",
       "layout": "standardStudy",
-      "translation": "fiesta • fiesta",
+      "translation": "partido político • parte",
       "explanation": "Idea principal: die Partei suele ser un partido político. En lenguaje legal o de conflictos, también puede significar una parte.",
       "examples": [
         {
           "de": "Diese Partei gewann die Wahl.",
-          "lv": "este partido ganó las elecciones."
+          "lv": "Este partido ganó las elecciones."
         },
         {
           "de": "Er ist seit Jahren Mitglied einer Partei.",
@@ -810,7 +810,7 @@ const C1_WORDS = [
         },
         {
           "de": "Beide Parteien müssen den Vertrag unterschreiben.",
-          "lv": "ambas partes deben firmar el contrato."
+          "lv": "Ambas partes deben firmar el contrato."
         }
       ]
     }
@@ -826,7 +826,7 @@ const C1_WORDS = [
     "de": "Polizeieinheit",
     "de_article": "die",
     "de_plural": "die Polizeieinheiten",
-    "lv": "unidad de policia",
+    "lv": "unidad de policía",
     "level": "C1"
   },
   {
@@ -854,7 +854,7 @@ const C1_WORDS = [
     "de": "Premier",
     "de_article": "der",
     "de_plural": "die Premiers",
-    "lv": "Primer ministro",
+    "lv": "primer ministro",
     "level": "C1"
   },
   {
@@ -866,12 +866,12 @@ const C1_WORDS = [
     "study": {
       "id": "c1-prozess",
       "layout": "standardStudy",
-      "translation": "proceso • demanda",
+      "translation": "proceso • juicio",
       "explanation": "Idea principal: der Prozess es un proceso o procedimiento. En los tribunales, der Prozess significa juicio.",
       "examples": [
         {
           "de": "Der Prozess dauert mehrere Monate.",
-          "lv": "el proceso dura varios meses."
+          "lv": "El proceso dura varios meses."
         },
         {
           "de": "Der Prozess vor Gericht beginnt morgen.",
@@ -948,14 +948,14 @@ const C1_WORDS = [
     "de": "Scheibenwischer",
     "de_article": "der",
     "de_plural": "die Scheibenwischer",
-    "lv": "limpiador de ventanas de coche",
+    "lv": "limpiaparabrisas",
     "level": "C1"
   },
   {
     "de": "Schiedsrichter",
     "de_article": "der",
     "de_plural": "die Schiedsrichter",
-    "lv": "el juez",
+    "lv": "árbitro",
     "level": "C1"
   },
   {
@@ -988,13 +988,13 @@ const C1_WORDS = [
     "de": "Schutzumschlag",
     "de_article": "der",
     "de_plural": "die Schutzumschläge",
-    "lv": "cubrir",
+    "lv": "sobrecubierta",
     "level": "C1"
   },
   {
     "de": "Schwiegereltern",
     "de_article": "die",
-    "lv": "los padres del marido",
+    "lv": "suegros",
     "level": "C1"
   },
   {
@@ -1035,7 +1035,7 @@ const C1_WORDS = [
     "de": "Stadtrundfahrt",
     "de_article": "die",
     "de_plural": "die Stadtrundfahrten",
-    "lv": "viaje a la ciudad",
+    "lv": "visita turística por la ciudad",
     "level": "C1"
   },
   {
@@ -1061,20 +1061,20 @@ const C1_WORDS = [
     "de": "Strampelhöschen",
     "de_article": "das",
     "de_plural": "die Strampelhöschen",
-    "lv": "gateador de bebé",
+    "lv": "pelele de bebé",
     "level": "C1"
   },
   {
     "de": "Stromverbrauch",
     "de_article": "der",
     "de_plural": "die Stromverbräuche",
-    "lv": "consumo actual",
+    "lv": "consumo de electricidad",
     "level": "C1"
   },
   {
     "de": "Tagesnachrichten",
     "de_article": "die",
-    "lv": "noticias del dia",
+    "lv": "noticias del día",
     "level": "C1"
   },
   {
@@ -1088,7 +1088,7 @@ const C1_WORDS = [
     "de": "Terminkalender",
     "de_article": "der",
     "de_plural": "die Terminkalender",
-    "lv": "calendario de notas",
+    "lv": "calendario de citas",
     "level": "C1"
   },
   {
@@ -1121,7 +1121,7 @@ const C1_WORDS = [
     "de": "Unternehmen",
     "de_article": "das",
     "de_plural": "die Unternehmen",
-    "lv": "empresa • evento",
+    "lv": "empresa",
     "level": "C1"
   },
   {
@@ -1145,7 +1145,7 @@ const C1_WORDS = [
     "de": "Urteil",
     "de_article": "das",
     "de_plural": "die Urteile",
-    "lv": "juicio",
+    "lv": "sentencia",
     "level": "C1"
   },
   {
@@ -1190,12 +1190,12 @@ const C1_WORDS = [
     "de": "Verlegenheit",
     "de_article": "die",
     "de_plural": "die Verlegenheiten",
-    "lv": "confusión",
+    "lv": "situación embarazosa",
     "level": "C1"
   },
   {
     "de": "verschließen",
-    "lv": "bloquear",
+    "lv": "cerrar con llave",
     "level": "C1"
   },
   {
@@ -1217,7 +1217,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich verständigen",
-    "lv": "llevarse bien",
+    "lv": "entenderse",
     "level": "C1"
   },
   {
@@ -1258,7 +1258,7 @@ const C1_WORDS = [
   },
   {
     "de": "sich zufrieden geben",
-    "lv": "satisfacer",
+    "lv": "darse por satisfecho",
     "level": "C1"
   },
   {
@@ -1273,7 +1273,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zusammenfassen",
       "layout": "standardStudy",
-      "translation": "resumir • resumir",
+      "translation": "resumir",
       "explanation": [
         "Idea principal: zusammenfassen es un verbo: recopilar u organizar información en una declaración concisa.",
         "zusammenfassen se utiliza cuando varios hechos, textos o pensamientos se resumen en una breve descripción.",
@@ -1304,7 +1304,7 @@ const C1_WORDS = [
         },
         {
           "de": "Die Zusammenfassung ist zu lang.",
-          "lv": "el resumen es demasiado largo."
+          "lv": "El resumen es demasiado largo."
         }
       ],
       "tip": [
@@ -1469,7 +1469,7 @@ const C1_WORDS = [
     "de": "Straßenkreuzung",
     "de_article": "die",
     "de_plural": "die Straßenkreuzungen",
-    "lv": "bocacalle",
+    "lv": "intersección de calles",
     "level": "C1"
   },
   {
@@ -1481,12 +1481,12 @@ const C1_WORDS = [
     "study": {
       "id": "c1-wahl",
       "layout": "standardStudy",
-      "translation": "elección • elección",
+      "translation": "elección • elecciones",
       "explanation": "die Wahl puede significar una elección entre opciones. En el contexto de la política, Wahl significa elección. También puede significar votar en sí. La frase eine Wahl treffen significa tomar una decisión. zur Wahl gehen significa ir a las urnas. El contexto de una política o decisión personal muestra el significado correcto.",
       "examples": [
         {
           "de": "Du hast die Wahl.",
-          "lv": "tienes una opción."
+          "lv": "Tienes una opción."
         },
         {
           "de": "Ich treffe meine Wahl morgen.",
@@ -1498,7 +1498,7 @@ const C1_WORDS = [
         },
         {
           "de": "Viele Menschen gehen zur Wahl.",
-          "lv": "mucha gente va a las urnas."
+          "lv": "Mucha gente va a las urnas."
         },
         {
           "de": "Die freie Wahl ist wichtig.",
@@ -1506,7 +1506,7 @@ const C1_WORDS = [
         },
         {
           "de": "Bei der Wahl stimmen wir ab.",
-          "lv": "votamos en las elecciones."
+          "lv": "Votamos en las elecciones."
         }
       ]
     }
@@ -1536,14 +1536,14 @@ const C1_WORDS = [
     "de": "Abkommen",
     "de_article": "das",
     "de_plural": "die Abkommen",
-    "lv": "acuerdo • acuerdo",
+    "lv": "acuerdo",
     "level": "C1"
   },
   {
     "de": "Abschleppdienst",
     "de_article": "der",
     "de_plural": "die Abschleppdienste",
-    "lv": "servicio de evacuación • servicio de mudanza",
+    "lv": "servicio de grúa",
     "level": "C1"
   },
   {
@@ -1588,24 +1588,24 @@ const C1_WORDS = [
     "de": "Basisforschung",
     "de_article": "die",
     "de_plural": "die Basisforschungen",
-    "lv": "investigacion basica",
+    "lv": "investigación básica",
     "level": "C1"
   },
   {
     "de": "beachtenswert",
-    "lv": "notable • considerable",
+    "lv": "notable",
     "level": "C1"
   },
   {
     "de": "beanspruchen",
-    "lv": "requerir • reclamar • estar agobiado",
+    "lv": "requerir • reclamar • estar ocupado",
     "level": "C1"
   },
   {
     "de": "Bedarfsartikel",
     "de_article": "der",
     "de_plural": "die Bedarfsartikel",
-    "lv": "bienes de consumo",
+    "lv": "artículos de primera necesidad",
     "level": "C1"
   },
   {
@@ -1617,7 +1617,7 @@ const C1_WORDS = [
     "de": "Befangenheit",
     "de_article": "die",
     "de_plural": "die Befangenheiten",
-    "lv": "vergüenza • vergüenza",
+    "lv": "turbación • embarazo",
     "level": "C1"
   },
   {
@@ -1627,12 +1627,12 @@ const C1_WORDS = [
   },
   {
     "de": "beglückwünschen",
-    "lv": "desear felicidad • felicitar",
+    "lv": "felicitar",
     "level": "C1"
   },
   {
     "de": "beiderseitig",
-    "lv": "dos caras • dos caras",
+    "lv": "bilateral • mutuo",
     "level": "C1"
   },
   {
@@ -1649,7 +1649,7 @@ const C1_WORDS = [
   },
   {
     "de": "beklagen",
-    "lv": "arrepentirse · afligirse · llorar · lamentarse · quejarse",
+    "lv": "lamentar • afligirse • llorar la pérdida de alguien • lamentarse • quejarse",
     "level": "C1"
   },
   {
@@ -1663,24 +1663,24 @@ const C1_WORDS = [
     "de": "Belegschaft",
     "de_article": "die",
     "de_plural": "die Belegschaften",
-    "lv": "colectivo • personal",
+    "lv": "plantilla • personal",
     "level": "C1"
   },
   {
     "de": "benachteiligen",
-    "lv": "dañar • causar daño • dañar",
+    "lv": "perjudicar • discriminar",
     "level": "C1"
   },
   {
     "de": "Berufsberater",
     "de_article": "der",
     "de_plural": "die Berufsberater",
-    "lv": "consultor de empleo",
+    "lv": "orientador profesional",
     "level": "C1"
   },
   {
     "de": "beratschlagen",
-    "lv": "conversar",
+    "lv": "deliberar",
     "level": "C1"
   },
   {
@@ -1692,28 +1692,28 @@ const C1_WORDS = [
   },
   {
     "de": "bereitwillig",
-    "lv": "listo para servir • servicial",
+    "lv": "dispuesto • solícito",
     "level": "C1"
   },
   {
     "de": "Berufsberatung",
     "de_article": "die",
     "de_plural": "die Berufsberatungen",
-    "lv": "consulta de orientacion profesional",
+    "lv": "consulta de orientación profesional",
     "level": "C1"
   },
   {
     "de": "Berufsgeheimnis",
     "de_article": "das",
     "de_plural": "die Berufsgeheimnisse",
-    "lv": "secreto de oficina",
+    "lv": "secreto profesional",
     "level": "C1"
   },
   {
     "de": "Berufung",
     "de_article": "die",
     "de_plural": "die Berufungen",
-    "lv": "llamamiento • inclinación • atractivo",
+    "lv": "vocación • inclinación • recurso",
     "level": "C1"
   },
   {
@@ -1732,24 +1732,24 @@ const C1_WORDS = [
   },
   {
     "de": "bescheinigen",
-    "lv": "certificar • emitir un certificado",
+    "lv": "certificar • atestiguar",
     "level": "C1"
   },
   {
     "de": "Bescheinigung",
     "de_article": "die",
     "de_plural": "die Bescheinigungen",
-    "lv": "referencia • certificado • atestación • atestación",
+    "lv": "constancia • certificado • atestación",
     "level": "C1"
   },
   {
     "de": "beschlagnahmen",
-    "lv": "confiscar • confiscar • expropiar",
+    "lv": "embargar • confiscar • incautar",
     "level": "C1"
   },
   {
     "de": "beschuldigen",
-    "lv": "acusar • insultar",
+    "lv": "acusar • inculpar",
     "level": "C1"
   },
   {
@@ -1767,14 +1767,14 @@ const C1_WORDS = [
   {
     "de": "Betriebskosten",
     "de_article": "die",
-    "lv": "gastos de funcionamiento de la empresa • gastos de producción",
+    "lv": "gastos de funcionamiento • costes operativos",
     "level": "C1"
   },
   {
     "de": "Betriebssystem",
     "de_article": "das",
     "de_plural": "die Betriebssysteme",
-    "lv": "sistema de instalación de computadora",
+    "lv": "sistema operativo",
     "level": "C1"
   },
   {
@@ -1784,31 +1784,31 @@ const C1_WORDS = [
   },
   {
     "de": "bevorstehend",
-    "lv": "próximo • siguiente",
+    "lv": "inminente • próximo",
     "level": "C1"
   },
   {
     "de": "bewähren, sich",
-    "lv": "resulta ser cierto • justificar",
+    "lv": "demostrar su eficacia • dar buenos resultados",
     "level": "C1"
   },
   {
     "de": "Beweismaterial",
     "de_article": "das",
     "de_plural": "die Beweismaterialien",
-    "lv": "evidencia física",
+    "lv": "material probatorio",
     "level": "C1"
   },
   {
     "de": "bewerben, sich",
-    "lv": "aplicar • correr • esforzarse • aspirar",
+    "lv": "postularse • presentar una candidatura",
     "level": "C1"
   },
   {
     "de": "Bezugsperson",
     "de_article": "die",
     "de_plural": "die Bezugspersonen",
-    "lv": "contacto • persona más cercana",
+    "lv": "persona de referencia • persona cercana",
     "level": "C1"
   },
   {
@@ -1856,7 +1856,7 @@ const C1_WORDS = [
     "de": "Bundesdeutsche",
     "de_article": "der",
     "de_plural": "die Bundesdeutschen",
-    "lv": "ciudadano FFR",
+    "lv": "ciudadano de la RFA",
     "level": "C1"
   },
   {
@@ -1889,12 +1889,12 @@ const C1_WORDS = [
   },
   {
     "de": "dauerhaft",
-    "lv": "duradero • largo • duradero",
+    "lv": "duradero • permanente • resistente",
     "level": "C1"
   },
   {
     "de": "dazwischenkommen",
-    "lv": "suceder • suceder entre • intervenir",
+    "lv": "interponerse",
     "level": "C1"
   },
   {
@@ -1922,31 +1922,31 @@ const C1_WORDS = [
     "de": "Eigentumsdelikt",
     "de_article": "das",
     "de_plural": "die Eigentumsdelikte",
-    "lv": "violación de los derechos de propiedad",
+    "lv": "delito contra la propiedad",
     "level": "C1"
   },
   {
     "de": "Verkehrsdelikt",
     "de_article": "das",
     "de_plural": "die Verkehrsdelikte",
-    "lv": "violación de las reglas de tráfico",
+    "lv": "delito de tráfico",
     "level": "C1"
   },
   {
     "de": "dementsprechend",
-    "lv": "respectivamente",
+    "lv": "en consecuencia",
     "level": "C1"
   },
   {
     "de": "dessen ungeachtet",
-    "lv": "a pesar de ello • a pesar de ello",
+    "lv": "a pesar de ello",
     "level": "C1"
   },
   {
     "de": "Nachrichtendienst",
     "de_article": "der",
     "de_plural": "die Nachrichtendienste",
-    "lv": "servicio secreto de estado",
+    "lv": "servicio de inteligencia",
     "level": "C1"
   },
   {
@@ -1960,7 +1960,7 @@ const C1_WORDS = [
     "de": "Dienstleistung",
     "de_article": "die",
     "de_plural": "die Dienstleistungen",
-    "lv": "servicio domestico",
+    "lv": "servicio",
     "level": "C1"
   },
   {
@@ -2014,13 +2014,13 @@ const C1_WORDS = [
     "de": "Durchfuhrverbot",
     "de_article": "das",
     "de_plural": "die Durchfuhrverbote",
-    "lv": "prohibición de paso",
+    "lv": "prohibición de tránsito",
     "level": "C1"
   },
   {
     "de": "Durchgangsverkehr",
     "de_article": "der",
-    "lv": "tráfico de tránsito",
+    "lv": "tráfico de paso",
     "level": "C1"
   },
   {
@@ -2037,14 +2037,14 @@ const C1_WORDS = [
   },
   {
     "de": "eingeschrieben",
-    "lv": "grabado • registrado",
+    "lv": "inscrito",
     "level": "C1"
   },
   {
     "de": "Währungseinheit",
     "de_article": "die",
     "de_plural": "die Währungseinheiten",
-    "lv": "unidad de dinero",
+    "lv": "unidad monetaria",
     "level": "C1"
   },
   {
@@ -2058,17 +2058,17 @@ const C1_WORDS = [
     "de": "Einlage",
     "de_article": "die",
     "de_plural": "die Einlagen",
-    "lv": "contribución • depósito • adjunto a la carta",
+    "lv": "depósito",
     "level": "C1"
   },
   {
     "de": "einreden",
-    "lv": "decir • insistir • tratar de persuadir",
+    "lv": "persuadir",
     "level": "C1"
   },
   {
     "de": "sich einschmeicheln",
-    "lv": "adular • adular",
+    "lv": "adular",
     "level": "C1"
   },
   {
@@ -2082,28 +2082,28 @@ const C1_WORDS = [
     "de": "Einspruchsrecht",
     "de_article": "das",
     "de_plural": "die Einspruchsrechte",
-    "lv": "derecho de protesta • derecho de veto",
+    "lv": "derecho de objeción",
     "level": "C1"
   },
   {
     "de": "Einstandsgebühr",
     "de_article": "die",
     "de_plural": "die Einstandsgebühren",
-    "lv": "tarifa de entrada",
+    "lv": "cuota de ingreso",
     "level": "C1"
   },
   {
     "de": "Einverständnis",
     "de_article": "das",
     "de_plural": "die Einverständnisse",
-    "lv": "comprensión • consenso • consentimiento",
+    "lv": "consentimiento",
     "level": "C1"
   },
   {
     "de": "Eisenbahnunglück",
     "de_article": "das",
     "de_plural": "die Eisenbahnunglücke",
-    "lv": "desastre ferroviario",
+    "lv": "accidente ferroviario",
     "level": "C1"
   },
   {
@@ -2131,7 +2131,7 @@ const C1_WORDS = [
     "de": "Elementarregel",
     "de_article": "die",
     "de_plural": "die Elementarregeln",
-    "lv": "ley basica",
+    "lv": "ley básica",
     "level": "C1"
   },
   {
@@ -2150,12 +2150,12 @@ const C1_WORDS = [
   },
   {
     "de": "entgegensetzen",
-    "lv": "frente a • frente a",
+    "lv": "oponer",
     "level": "C1"
   },
   {
     "de": "sich entgegensetzen",
-    "lv": "resistir",
+    "lv": "oponerse",
     "level": "C1"
   },
   {
@@ -2165,12 +2165,12 @@ const C1_WORDS = [
   },
   {
     "de": "sich entschließen",
-    "lv": "decidir • decidir",
+    "lv": "decidirse",
     "level": "C1"
   },
   {
     "de": "entschlossen",
-    "lv": "decidido • decidido • inquebrantable",
+    "lv": "decidido",
     "level": "C1"
   },
   {
@@ -2182,7 +2182,7 @@ const C1_WORDS = [
     "de": "Gesetzentwurf",
     "de_article": "der",
     "de_plural": "die Gesetzentwürfe",
-    "lv": "factura",
+    "lv": "proyecto de ley",
     "level": "C1"
   },
   {
@@ -2196,7 +2196,7 @@ const C1_WORDS = [
     "de": "Erbkrankheit",
     "de_article": "die",
     "de_plural": "die Erbkrankheiten",
-    "lv": "enfermedad congénita",
+    "lv": "enfermedad hereditaria",
     "level": "C1"
   },
   {
@@ -2228,12 +2228,12 @@ const C1_WORDS = [
   },
   {
     "de": "festgesetzt",
-    "lv": "determinado • condicional • establecido",
+    "lv": "determinado • establecido",
     "level": "C1"
   },
   {
     "de": "feuergefährlich",
-    "lv": "incombustible",
+    "lv": "inflamable",
     "level": "C1"
   },
   {
@@ -2247,7 +2247,7 @@ const C1_WORDS = [
     "de": "Feuerwerkskörper",
     "de_article": "der",
     "de_plural": "die Feuerwerkskörper",
-    "lv": "cohete para fuegos artificiales",
+    "lv": "artificio pirotécnico",
     "level": "C1"
   },
   {
@@ -2272,12 +2272,12 @@ const C1_WORDS = [
   },
   {
     "de": "fortgeschritten",
-    "lv": "relativamente tarde en el desarrollo",
+    "lv": "avanzado",
     "level": "C1"
   },
   {
     "de": "fortschrittlich",
-    "lv": "progresivo",
+    "lv": "progresista",
     "level": "C1"
   },
   {
@@ -2291,7 +2291,7 @@ const C1_WORDS = [
     "de": "Friedensangebot",
     "de_article": "das",
     "de_plural": "die Friedensangebote",
-    "lv": "una ofrenda de paz",
+    "lv": "oferta de paz",
     "level": "C1"
   },
   {
@@ -2312,20 +2312,20 @@ const C1_WORDS = [
     "de": "Führunternehmen",
     "de_article": "das",
     "de_plural": "die Führunternehmen",
-    "lv": "empresa de transporte de mercancias",
+    "lv": "empresa de transporte de mercancías",
     "level": "C1"
   },
   {
     "de": "soziale Fürsorge",
     "de_article": "die",
-    "lv": "seguridad social",
+    "lv": "asistencia social",
     "level": "C1"
   },
   {
     "de": "Auffassungsgabe",
     "de_article": "die",
     "de_plural": "die Auffassungsgaben",
-    "lv": "capacidad perceptiva",
+    "lv": "capacidad de comprensión",
     "level": "C1"
   },
   {
@@ -2366,7 +2366,7 @@ const C1_WORDS = [
     "de": "Gefrierpunkt",
     "de_article": "der",
     "de_plural": "die Gefrierpunkte",
-    "lv": "punto de congelación • punto cero",
+    "lv": "punto de congelación",
     "level": "C1"
   },
   {
@@ -2380,7 +2380,7 @@ const C1_WORDS = [
     "de": "Beichtgeheimnis",
     "de_article": "das",
     "de_plural": "die Beichtgeheimnisse",
-    "lv": "un secreto confesado",
+    "lv": "secreto de confesión",
     "level": "C1"
   },
   {
@@ -2394,7 +2394,7 @@ const C1_WORDS = [
     "de": "Geisterstunde",
     "de_article": "die",
     "de_plural": "die Geisterstunden",
-    "lv": "hora fantasma",
+    "lv": "hora de los fantasmas",
     "level": "C1"
   },
   {
@@ -2404,19 +2404,19 @@ const C1_WORDS = [
   },
   {
     "de": "geisteskrank",
-    "lv": "enfermo mental",
+    "lv": "mentalmente enfermo",
     "level": "C1"
   },
   {
     "de": "geistesschwach",
-    "lv": "débil de espíritu • obstinado",
+    "lv": "débil mental • de pocas luces",
     "level": "C1"
   },
   {
     "de": "Geländefahrt",
     "de_article": "die",
     "de_plural": "die Geländefahrten",
-    "lv": "viaje a través del país",
+    "lv": "viaje todoterreno",
     "level": "C1"
   },
   {
@@ -2433,12 +2433,12 @@ const C1_WORDS = [
     "study": {
       "id": "c1-gelegentlich",
       "layout": "standardStudy",
-      "translation": "a veces • ocasión • debido a",
+      "translation": "a veces • ocasionalmente • con motivo de",
       "explanation": "Idea principal: gelegentlich es una palabra con tres funciones. Adjetivo: casual (ein gelegentlicher Besuch). Adverbio: a veces, de vez en cuando (Er kommt gelegentlich). Preposición + dativo: debido a (gelegentlich des Festes).",
       "examples": [
         {
           "de": "Er kommt gelegentlich vorbei.",
-          "lv": "a veces pasa por aquí."
+          "lv": "A veces pasa por aquí."
         },
         {
           "de": "Ein gelegentlicher Besuch reicht.",
@@ -2453,22 +2453,22 @@ const C1_WORDS = [
         {
           "word": "gelegentlich (Adv.)",
           "meaning": "a veces • de vez en cuando",
-          "example": "Er kommt gelegentlich. = Viņš reizēm atnāk."
+          "example": "Er kommt gelegentlich. = Viene de vez en cuando."
         },
         {
           "word": "gelegentlich (Adj.)",
-          "meaning": "casual • accidental",
-          "example": "ein gelegentlicher Besuch = gadījuma apmeklējums"
+          "meaning": "ocasional • fortuito",
+          "example": "ein gelegentlicher Besuch = una visita ocasional"
         },
         {
           "word": "gelegentlich (+ Gen.)",
-          "meaning": "debido a",
-          "example": "gelegentlich des Festes = svētku sakarā"
+          "meaning": "con motivo de",
+          "example": "gelegentlich des Festes = con motivo de la festividad"
         },
         {
           "word": "manchmal",
           "meaning": "a veces",
-          "example": "Manchmal regnet es. = Reizēm līst."
+          "example": "Manchmal regnet es. = A veces llueve."
         }
       ],
       "tip": {
@@ -2479,7 +2479,7 @@ const C1_WORDS = [
         ]
       },
       "important": {
-        "text": "Adj.: informal. Adv.: a veces. Deberes. + Gen.: debido a. El contexto determina el significado."
+        "text": "Adj.: ocasional. Adv.: a veces. Prep.: con motivo de. El contexto determina el significado."
       },
       "sectionAccents": {
         "explanation": {
@@ -2547,14 +2547,14 @@ const C1_WORDS = [
   {
     "de": "Gemeineigentum",
     "de_article": "das",
-    "lv": "propiedad publica",
+    "lv": "propiedad pública",
     "level": "C1"
   },
   {
     "de": "Gemütsmensch",
     "de_article": "der",
     "de_plural": "die Gemütsmenschen",
-    "lv": "persona amable y amable",
+    "lv": "persona amable y bondadosa",
     "level": "C1"
   },
   {
@@ -2594,7 +2594,7 @@ const C1_WORDS = [
     "de": "Gepflogenheit",
     "de_article": "die",
     "de_plural": "die Gepflogenheiten",
-    "lv": "personalizado • personalizado",
+    "lv": "costumbre • práctica habitual",
     "level": "C1"
   },
   {
@@ -2606,14 +2606,14 @@ const C1_WORDS = [
     "de": "Schwurgericht",
     "de_article": "das",
     "de_plural": "die Schwurgerichte",
-    "lv": "juicio con jurado",
+    "lv": "tribunal del jurado",
     "level": "C1"
   },
   {
     "de": "Gerichtshof",
     "de_article": "der",
     "de_plural": "die Gerichtshöfe",
-    "lv": "sala de audiencias • tribunal",
+    "lv": "tribunal",
     "level": "C1"
   },
   {
@@ -2632,7 +2632,7 @@ const C1_WORDS = [
     "de": "Gesamtergebnis",
     "de_article": "das",
     "de_plural": "die Gesamtergebnisse",
-    "lv": "resultado final • resultado final",
+    "lv": "resultado global",
     "level": "C1"
   },
   {
@@ -2646,41 +2646,41 @@ const C1_WORDS = [
     "de": "Geschäftshaus",
     "de_article": "das",
     "de_plural": "die Geschäftshäuser",
-    "lv": "casa comercial",
+    "lv": "edificio comercial",
     "level": "C1"
   },
   {
     "de": "Geschäftsjahr",
     "de_article": "das",
     "de_plural": "die Geschäftsjahre",
-    "lv": "año de granja",
+    "lv": "ejercicio fiscal",
     "level": "C1"
   },
   {
     "de": "geschlechtsreif",
-    "lv": "ha alcanzado la madurez sexual",
+    "lv": "sexualmente maduro",
     "level": "C1"
   },
   {
     "de": "Gesetzbuch",
     "de_article": "das",
     "de_plural": "die Gesetzbücher",
-    "lv": "códice • colección de leyes",
+    "lv": "código • código de leyes",
     "level": "C1"
   },
   {
     "de": "gesetzgebend",
-    "lv": "legislador",
+    "lv": "legislativo",
     "level": "C1"
   },
   {
     "de": "gesetzlos",
-    "lv": "ilegal",
+    "lv": "sin ley",
     "level": "C1"
   },
   {
     "de": "gesetzmäßig",
-    "lv": "lícito • lícito",
+    "lv": "lícito • conforme a la ley",
     "level": "C1"
   },
   {
@@ -2692,7 +2692,7 @@ const C1_WORDS = [
     "de": "Gesichtskreis",
     "de_article": "der",
     "de_plural": "die Gesichtskreise",
-    "lv": "horizonte • horizonte",
+    "lv": "horizonte • campo de visión",
     "level": "C1"
   },
   {
@@ -2705,7 +2705,7 @@ const C1_WORDS = [
   {
     "de": "Gewissensbisse",
     "de_article": "die",
-    "lv": "remordimiento",
+    "lv": "remordimientos de conciencia",
     "level": "C1"
   },
   {
@@ -2734,7 +2734,7 @@ const C1_WORDS = [
     "de": "Grenzverletzung",
     "de_article": "die",
     "de_plural": "die Grenzverletzungen",
-    "lv": "violación fronteriza",
+    "lv": "violación de la frontera",
     "level": "C1"
   },
   {
@@ -2766,7 +2766,7 @@ const C1_WORDS = [
   },
   {
     "de": "haften",
-    "lv": "pegar • estar atascado",
+    "lv": "adherirse • estar adherido",
     "level": "C1"
   },
   {
@@ -2780,7 +2780,7 @@ const C1_WORDS = [
     "de": "Haltbarkeitsdauer",
     "de_article": "die",
     "de_plural": "die Haltbarkeitsdauern",
-    "lv": "tiempo de almacenamiento",
+    "lv": "duración de conservación",
     "level": "C1"
   },
   {
@@ -2808,7 +2808,7 @@ const C1_WORDS = [
     "de": "Hausdurchsuchung",
     "de_article": "die",
     "de_plural": "die Hausdurchsuchungen",
-    "lv": "búsqueda policial",
+    "lv": "registro domiciliario",
     "level": "C1"
   },
   {
@@ -2851,12 +2851,12 @@ const C1_WORDS = [
   },
   {
     "de": "herunterstürzen",
-    "lv": "caer al suelo • caer al suelo",
+    "lv": "precipitarse • caer al suelo",
     "level": "C1"
   },
   {
     "de": "sich hinreißen lassen",
-    "lv": "excitarse",
+    "lv": "dejarse llevar",
     "level": "C1"
   },
   {
@@ -2875,12 +2875,12 @@ const C1_WORDS = [
     "de": "Industrieanlage",
     "de_article": "die",
     "de_plural": "die Industrieanlagen",
-    "lv": "complejo industrial",
+    "lv": "instalación industrial",
     "level": "C1"
   },
   {
     "de": "inhaftieren",
-    "lv": "arrestar",
+    "lv": "encarcelar",
     "level": "C1"
   },
   {
@@ -2912,7 +2912,7 @@ const C1_WORDS = [
   {
     "de": "Justiz",
     "de_article": "die",
-    "lv": "justicia • casos legales",
+    "lv": "justicia • poder judicial",
     "level": "C1"
   },
   {
@@ -2933,7 +2933,7 @@ const C1_WORDS = [
     "de": "Kaution",
     "de_article": "die",
     "de_plural": "die Kautionen",
-    "lv": "prenda • fianza • fianza • garantía",
+    "lv": "prenda • fianza • depósito de garantía • garantía",
     "level": "C1"
   },
   {
@@ -2945,21 +2945,21 @@ const C1_WORDS = [
   },
   {
     "de": "körperbehindert",
-    "lv": "físicamente discapacitado",
+    "lv": "con discapacidad física",
     "level": "C1"
   },
   {
     "de": "Krankheitserreger",
     "de_article": "der",
     "de_plural": "die Krankheitserreger",
-    "lv": "agente de la enfermedad",
+    "lv": "agente patógeno",
     "level": "C1"
   },
   {
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "una guerra inválida",
+    "lv": "persona discapacitada por la guerra",
     "level": "C1"
   },
   {
@@ -2992,14 +2992,14 @@ const C1_WORDS = [
   },
   {
     "de": "lebensgefährlich",
-    "lv": "amenazante para la vida • peligroso",
+    "lv": "potencialmente mortal",
     "level": "C1"
   },
   {
     "de": "Lebensgefährte",
     "de_article": "der",
     "de_plural": "die Lebensgefährten",
-    "lv": "cónyuge en un matrimonio no registrado",
+    "lv": "pareja de hecho",
     "level": "C1"
   },
   {
@@ -3012,7 +3012,7 @@ const C1_WORDS = [
   {
     "de": "Leistungssport",
     "de_article": "der",
-    "lv": "deportes profesionales",
+    "lv": "deporte de alto rendimiento",
     "level": "C1"
   },
   {
@@ -3024,14 +3024,14 @@ const C1_WORDS = [
     "de": "Liebesbeziehung",
     "de_article": "die",
     "de_plural": "die Liebesbeziehungen",
-    "lv": "relaciones íntimas",
+    "lv": "relación amorosa",
     "level": "C1"
   },
   {
     "de": "Liebeserklärung",
     "de_article": "die",
     "de_plural": "die Liebeserklärungen",
-    "lv": "el descubrimiento del amor",
+    "lv": "declaración de amor",
     "level": "C1"
   },
   {
@@ -3065,7 +3065,7 @@ const C1_WORDS = [
     "de": "Marschflugkörper",
     "de_article": "der",
     "de_plural": "die Marschflugkörper",
-    "lv": "misil de crucero • misil de crucero",
+    "lv": "misil de crucero",
     "level": "C1"
   },
   {
@@ -3084,7 +3084,7 @@ const C1_WORDS = [
     "de": "Meineid",
     "de_article": "der",
     "de_plural": "die Meineide",
-    "lv": "perjurio a sabiendas en el tribunal",
+    "lv": "perjurio",
     "level": "C1"
   },
   {
@@ -3118,7 +3118,7 @@ const C1_WORDS = [
   },
   {
     "de": "niedergeschlagen",
-    "lv": "deprimido • deprimido",
+    "lv": "abatido • deprimido",
     "level": "C1"
   },
   {
@@ -3153,7 +3153,7 @@ const C1_WORDS = [
     "de": "Originalfassung",
     "de_article": "die",
     "de_plural": "die Originalfassungen",
-    "lv": "variante original",
+    "lv": "versión original",
     "level": "C1"
   },
   {
@@ -3167,21 +3167,21 @@ const C1_WORDS = [
     "de": "Parteifunktionär",
     "de_article": "der",
     "de_plural": "die Parteifunktionäre",
-    "lv": "trabajador del partido",
+    "lv": "funcionario del partido",
     "level": "C1"
   },
   {
     "de": "Pflichtlektüre",
     "de_article": "die",
     "de_plural": "die Pflichtlektüren",
-    "lv": "literatura de estudio obligatorio",
+    "lv": "lectura obligatoria",
     "level": "C1"
   },
   {
     "de": "Preisfrage",
     "de_article": "die",
     "de_plural": "die Preisfragen",
-    "lv": "pregunta de competencia",
+    "lv": "pregunta de concurso",
     "level": "C1"
   },
   {
@@ -3202,7 +3202,7 @@ const C1_WORDS = [
     "de": "Presseerklärung",
     "de_article": "die",
     "de_plural": "die Presseerklärungen",
-    "lv": "presione soltar",
+    "lv": "comunicado de prensa",
     "level": "C1"
   },
   {
@@ -3215,14 +3215,14 @@ const C1_WORDS = [
     "de": "Produktionsweise",
     "de_article": "die",
     "de_plural": "die Produktionsweisen",
-    "lv": "tipo de producción",
+    "lv": "modo de producción",
     "level": "C1"
   },
   {
     "de": "Rangierbahnhof",
     "de_article": "der",
     "de_plural": "die Rangierbahnhöfe",
-    "lv": "patio de ferrocarril",
+    "lv": "estación de clasificación ferroviaria",
     "level": "C1"
   },
   {
@@ -3240,7 +3240,7 @@ const C1_WORDS = [
   {
     "de": "Rechenschaft",
     "de_article": "die",
-    "lv": "responsabilidad (por las acciones de uno) • responsabilidad",
+    "lv": "rendición de cuentas • responsabilidad",
     "level": "C1"
   },
   {
@@ -3259,7 +3259,7 @@ const C1_WORDS = [
     "de": "Regierungschef",
     "de_article": "der",
     "de_plural": "die Regierungschefs",
-    "lv": "primer ministro • jefe de gobierno",
+    "lv": "jefe de gobierno",
     "level": "C1"
   },
   {
@@ -3292,7 +3292,7 @@ const C1_WORDS = [
   },
   {
     "de": "republikanisch",
-    "lv": "republicano • repúblicas",
+    "lv": "republicano",
     "level": "C1"
   },
   {
@@ -3304,7 +3304,7 @@ const C1_WORDS = [
   },
   {
     "de": "sanktionieren",
-    "lv": "apoyo • sanción",
+    "lv": "sancionar",
     "level": "C1"
   },
   {
@@ -3350,31 +3350,31 @@ const C1_WORDS = [
   {
     "de": "Segelflugsport",
     "de_article": "der",
-    "lv": "planeador",
+    "lv": "vuelo sin motor",
     "level": "C1"
   },
   {
     "de": "Selbstverwaltung",
     "de_article": "die",
     "de_plural": "die Selbstverwaltungen",
-    "lv": "municipio",
+    "lv": "autogestión",
     "level": "C1"
   },
   {
     "de": "selbstzufrieden",
-    "lv": "presumido",
+    "lv": "complacido consigo mismo",
     "level": "C1"
   },
   {
     "de": "Sensationsmeldung",
     "de_article": "die",
     "de_plural": "die Sensationsmeldungen",
-    "lv": "declaración sensacional",
+    "lv": "noticia sensacional",
     "level": "C1"
   },
   {
     "de": "sesshaft",
-    "lv": "vivir en un solo lugar • caravana",
+    "lv": "sedentario",
     "level": "C1"
   },
   {
@@ -3423,7 +3423,7 @@ const C1_WORDS = [
     "de": "Spitzenleistung",
     "de_article": "die",
     "de_plural": "die Spitzenleistungen",
-    "lv": "récord • logro más alto • tecnología. potencia máxima",
+    "lv": "récord • máximo rendimiento • potencia máxima (técnica)",
     "level": "C1"
   },
   {
@@ -3444,7 +3444,7 @@ const C1_WORDS = [
     "de": "Staatsgeheimnis",
     "de_article": "das",
     "de_plural": "die Staatsgeheimnisse",
-    "lv": "secreto de estado",
+    "lv": "secreto de Estado",
     "level": "C1"
   },
   {
@@ -3455,7 +3455,7 @@ const C1_WORDS = [
   },
   {
     "de": "stimmberechtigt",
-    "lv": "derecho a votar",
+    "lv": "con derecho a voto",
     "level": "C1"
   },
   {
@@ -3467,7 +3467,7 @@ const C1_WORDS = [
   },
   {
     "de": "synchronisieren",
-    "lv": "doblar la película",
+    "lv": "sincronizar",
     "level": "C1"
   },
   {
@@ -3485,7 +3485,7 @@ const C1_WORDS = [
   },
   {
     "de": "überanstrengen",
-    "lv": "trabajar demasiado • sich ü. trabajar demasiado",
+    "lv": "forzar demasiado • esforzarse demasiado",
     "level": "C1"
   },
   {
@@ -3511,7 +3511,7 @@ const C1_WORDS = [
     "de": "Überschuss",
     "de_article": "der",
     "de_plural": "die Überschüsse",
-    "lv": "resto • excedente • liquidación",
+    "lv": "sobrante • excedente • superávit",
     "level": "C1"
   },
   {
@@ -3525,7 +3525,7 @@ const C1_WORDS = [
     "de": "Unannehmlichkeit",
     "de_article": "die",
     "de_plural": "die Unannehmlichkeiten",
-    "lv": "problema • una ocasión desagradable",
+    "lv": "inconveniente • molestia",
     "level": "C1"
   },
   {
@@ -3552,7 +3552,7 @@ const C1_WORDS = [
   },
   {
     "de": "verabschieden",
-    "lv": "liberación del trabajo • jubilarse",
+    "lv": "despedir • jubilar",
     "level": "C1"
   },
   {
@@ -3567,7 +3567,7 @@ const C1_WORDS = [
   },
   {
     "de": "verdrießlich",
-    "lv": "desagradable • molesto • molesto",
+    "lv": "desagradable • irritable • malhumorado",
     "level": "C1"
   },
   {
@@ -3598,7 +3598,7 @@ const C1_WORDS = [
     "de": "Vergünstigung",
     "de_article": "die",
     "de_plural": "die Vergünstigungen",
-    "lv": "ventaja • privilegio • alivio",
+    "lv": "beneficio",
     "level": "C1"
   },
   {
@@ -3615,7 +3615,7 @@ const C1_WORDS = [
     "de": "Verhandlungen",
     "de_article": "die",
     "de_plural": "die Verhandlungen",
-    "lv": "conversaciones",
+    "lv": "negociaciones",
     "level": "C1"
   },
   {
@@ -3657,7 +3657,7 @@ const C1_WORDS = [
   },
   {
     "de": "vernachlässigen",
-    "lv": "descuidar • ser descuidado",
+    "lv": "descuidar",
     "level": "C1"
   },
   {
@@ -3667,17 +3667,17 @@ const C1_WORDS = [
   },
   {
     "de": "sich verpflichten",
-    "lv": "emprender",
+    "lv": "comprometerse",
     "level": "C1"
   },
   {
     "de": "sich verschließen",
-    "lv": "apagar • apagar",
+    "lv": "cerrarse • aislarse",
     "level": "C1"
   },
   {
     "de": "verschlossen",
-    "lv": "bloqueado • cerrado • trans. cerrado • autónomo",
+    "lv": "cerrado • reservado • introvertido",
     "level": "C1"
   },
   {
@@ -3687,7 +3687,7 @@ const C1_WORDS = [
   },
   {
     "de": "verschreiben",
-    "lv": "medicina firmar",
+    "lv": "recetar",
     "level": "C1"
   },
   {
@@ -3723,7 +3723,7 @@ const C1_WORDS = [
   },
   {
     "de": "verunglücken",
-    "lv": "sufrir en un accidente • sufrir en un accidente",
+    "lv": "sufrir un accidente",
     "level": "C1"
   },
   {
@@ -3738,12 +3738,12 @@ const C1_WORDS = [
   },
   {
     "de": "vervollkommnen",
-    "lv": "complementar • mejorar",
+    "lv": "perfeccionar • mejorar",
     "level": "C1"
   },
   {
     "de": "sich vervollkommnen",
-    "lv": "complementa tus conocimientos",
+    "lv": "perfeccionarse",
     "level": "C1"
   },
   {
@@ -3755,14 +3755,14 @@ const C1_WORDS = [
     "de": "Volksabstimmung",
     "de_article": "die",
     "de_plural": "die Volksabstimmungen",
-    "lv": "voto popular • plebiscito",
+    "lv": "referéndum • plebiscito",
     "level": "C1"
   },
   {
     "de": "Volksbefragung",
     "de_article": "die",
     "de_plural": "die Volksbefragungen",
-    "lv": "encuesta de todo el pueblo • referéndum",
+    "lv": "consulta popular",
     "level": "C1"
   },
   {
@@ -3779,14 +3779,14 @@ const C1_WORDS = [
   },
   {
     "de": "waag[e]recht",
-    "lv": "nivel • horizontal",
+    "lv": "nivelado • horizontal",
     "level": "C1"
   },
   {
     "de": "Waffenruhe",
     "de_article": "die",
     "de_plural": "die Waffenruhen",
-    "lv": "una pausa en la lucha",
+    "lv": "tregua",
     "level": "C1"
   },
   {
@@ -3812,7 +3812,7 @@ const C1_WORDS = [
         },
         {
           "de": "Ab 18 Jahren ist man wahlberechtigt.",
-          "lv": "a partir de los 18 años tienen derecho a votar."
+          "lv": "A partir de los 18 años tienen derecho a votar."
         },
         {
           "de": "Nicht alle Einwohner sind wahlberechtigt.",
@@ -3823,28 +3823,28 @@ const C1_WORDS = [
         {
           "word": "wahlberechtigt",
           "meaning": "con derecho a votar",
-          "example": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+          "example": "Er ist wahlberechtigt. = Tiene derecho a votar."
         },
         {
           "word": "wählen",
-          "meaning": "desear • votar",
+          "meaning": "tener derecho a votar",
           "example": "Ich wähle heute. = Es šodien balsoju."
         },
         {
           "word": "der Wähler",
           "meaning": "votante",
-          "example": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+          "example": "Der Wähler geht zur Wahl. = El votante va a votar."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Wahl = elección, behrechtig = elegible. Común en prensa y textos legales."
+            "text": "Wahl = elección, berechtigt = con derecho. Común en prensa y textos legales."
           }
         ]
       },
       "important": {
-        "text": "wahlberechtig = con derecho a voto. Enfrente: nicht wahlberechtigkeit."
+        "text": "wahlberechtigt = con derecho a voto. Lo contrario: nicht wahlberechtigt."
       },
       "sectionAccents": {
         "explanation": {
@@ -3904,13 +3904,13 @@ const C1_WORDS = [
     "de": "Wäscheschleuder",
     "de_article": "die",
     "de_plural": "die Wäscheschleudern",
-    "lv": "hilandero de lavandería",
+    "lv": "centrifugadora de ropa",
     "level": "C1"
   },
   {
     "de": "Wasserheilanstalt",
     "de_article": "die",
-    "lv": "instalación de tratamiento de agua",
+    "lv": "establecimiento de hidroterapia",
     "level": "C1"
   },
   {
@@ -3931,7 +3931,7 @@ const C1_WORDS = [
     "de": "Wechselbeziehung",
     "de_article": "die",
     "de_plural": "die Wechselbeziehungen",
-    "lv": "comunicación mutua",
+    "lv": "interrelación",
     "level": "C1"
   },
   {
@@ -3944,7 +3944,7 @@ const C1_WORDS = [
     "de": "Weidenkätzchen",
     "de_article": "das",
     "de_plural": "die Weidenkätzchen",
-    "lv": "Amapola",
+    "lv": "sauce cabruno",
     "level": "C1"
   },
   {
@@ -3957,7 +3957,7 @@ const C1_WORDS = [
   {
     "de": "Wetterleuchten",
     "de_article": "das",
-    "lv": "óxido",
+    "lv": "resplandor de tormenta",
     "level": "C1"
   },
   {
@@ -3972,7 +3972,7 @@ const C1_WORDS = [
   },
   {
     "de": "zusammenfallen",
-    "lv": "colapsar • suceder",
+    "lv": "colapsar • coincidir",
     "level": "C1"
   },
   {
@@ -3989,7 +3989,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-zuschlag",
       "layout": "standardStudy",
-      "translation": "prima • margen de beneficio",
+      "translation": "recargo • suplemento",
       "explanation": [
         "Idea principal: der Zuschlag significa una prima o margen: una cantidad adicional agregada al precio base.",
         "En el contexto de viajes/transporte, der Zuschlag es un cargo adicional por un tren más rápido, un mejor asiento, etc.",
@@ -4007,15 +4007,15 @@ const C1_WORDS = [
         },
         {
           "de": "Sie erhielt den Zuschlag für den Auftrag.",
-          "lv": "recibió el pedido (en la subasta)."
+          "lv": "recibió la adjudicación (en la subasta)."
         },
         {
           "de": "Es gibt einen Zuschlag für Übergepäck.",
-          "lv": "hay un recargo por exceso de equipaje."
+          "lv": "Hay un recargo por exceso de equipaje."
         },
         {
           "de": "Der Preis versteht sich ohne Zuschläge.",
-          "lv": "el precio es sin recargos."
+          "lv": "El precio es sin recargos."
         }
       ],
       "tip": [
@@ -4126,7 +4126,7 @@ const C1_WORDS = [
     "study": {
       "id": "c1-beziehen-sich-beziehen-auf",
       "layout": "standardStudy",
-      "translation": "aplicar • aplicar a",
+      "translation": "obtener • referirse a",
       "explanation": [
         "Idea principal: Registro formal: atribuir a la fuente, recibo regular de pensión/salario o mudanza a un apartamento.",
         "Los ejemplos buscan el uso diario típico.",
@@ -4136,7 +4136,7 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "beziehen / sich beziehen auf.",
-          "lv": "aplicar • aplicar a"
+          "lv": "obtener • referirse a"
         }
       ],
       "tip": [
@@ -4206,7 +4206,7 @@ const C1_WORDS = [
         },
         {
           "de": "Was beabsichtigen Sie mit dieser Maßnahme?",
-          "lv": "¿Qué quieres decir con este evento?"
+          "lv": "¿Qué pretendes conseguir con este evento?"
         },
         {
           "de": "Wir beabsichtigen keine Änderung.",
@@ -4337,19 +4337,19 @@ const C1_WORDS = [
         },
         {
           "de": "Unterstellen Sie mir nichts!",
-          "lv": "¡No me culpes por nada!"
+          "lv": "¡No me atribuyas cosas sin fundamento!"
         },
         {
           "de": "Man darf niemandem Verrat unterstellen.",
-          "lv": "nadie debería ser acusado injustamente de traición."
+          "lv": "Nadie debería ser acusado injustamente de traición."
         },
         {
           "de": "Ihm wird Untreue unterstellt.",
-          "lv": "se le acusa de desconfianza."
+          "lv": "Se le atribuye desconfianza."
         },
         {
           "de": "unterstellen",
-          "lv": "nepamatota vaina; voraussetzen"
+          "lv": "imputar sin fundamento; presuponer"
         }
       ],
       "tip": [
@@ -4525,7 +4525,7 @@ const C1_WORDS = [
         },
         {
           "de": "Sie bewahren die Ruhe in der Krise.",
-          "lv": "mantienen la calma en una crisis."
+          "lv": "Mantienen la calma en una crisis."
         },
         {
           "de": "Wir bewahren die Traditionen.",
@@ -4533,7 +4533,7 @@ const C1_WORDS = [
         },
         {
           "de": "bewahren",
-          "lv": "proteger/preservar; aufrechterhalten"
+          "lv": "proteger o preservar"
         }
       ],
       "tip": [
@@ -4640,15 +4640,15 @@ const C1_WORDS = [
       "examples": [
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "El Estado mantiene el orden en vigor."
+          "lv": "El Estado mantiene el orden."
         },
         {
           "de": "Man muss den Betrieb aufrechterhalten.",
-          "lv": "deberá mantener vigente la acción."
+          "lv": "Deberá mantener vigente la acción."
         },
         {
           "de": "Der Staat erhält die Ordnung auf.",
-          "lv": "el estado mantiene el orden en vigor."
+          "lv": "El Estado mantiene el orden."
         }
       ],
       "tip": [
@@ -4663,9 +4663,7 @@ const C1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "green": [
-            "aufrechterhalten",
-            "erhalt",
-            "auf"
+            "aufrechterhalten"
           ]
         },
         "examples": [
@@ -4736,7 +4734,7 @@ const C1_WORDS = [
     "de": "Matsch",
     "de_article": "der",
     "de_plural": "die Matsche",
-    "lv": "barro • aguanieve",
+    "lv": "barro",
     "level": "C1"
   },
   {

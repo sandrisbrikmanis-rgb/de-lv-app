@@ -1,0 +1,240 @@
+const path = require("path");
+require("dotenv").config({ path: path.join(__dirname, "..", "..", ".env") });
+
+const OpenAI = require("openai");
+const { DEFAULT_MODEL, createStats } = require("./openai-es-a1-a2-audit");
+
+const VOCAB_PROMPT = [
+  "You are a full linguistic quality auditor for ES-DE vocabulary and study cards (Spanish translations of German).",
+  "Audit Spanish text against German meaning (primary authoritative source). Latvian in DE reference file is context only.",
+  "The data schema uses field name 'lv' for Spanish native text — project convention, NOT Latvian language.",
+  "Return ONLY valid JSON: { \"items\": [ ... ] }.",
+  "For each card/field: if correct, return { cardId, status: \"PASS\" }.",
+  "For real issues return finding objects with:",
+  "cardId, field, severity, category, de, pairedGermanText, currentEs, proposedEs, reason, confidence.",
+  "Severity: CRITICAL | HIGH | MEDIUM | LOW.",
+  "Category: TRANSLATION | GRAMMAR | SEMANTICS | ORTHOGRAPHY | PUNCTUATION | REGISTER | NATURALNESS | STUDY | COMPARISON | SECTIONACCENTS_LANGUAGE | FOREIGN_REMNANT | STRUCTURE | SOURCE_DE_ISSUE.",
+  "Non-error verdicts (do NOT count as quality findings):",
+  "SOURCE_LV_ISSUE | SOURCE_DE_ISSUE | DE_SOURCE_ISSUE | NEEDS_OWNER_REVIEW | STYLE_ONLY | PROJECT_CONVENTION | FALSE_POSITIVE.",
+  "Check Spanish: DE–ES semantics, person/number/gender/tense, tú/usted/vosotros/ustedes, imperatives, ser/estar, por/para, haber/tener, reflexives, articles, prepositions, accents (áéíóúñü), ¿? ¡!, capitalization, punctuation.",
+  "Do NOT flag ¿ or ¡ as errors — required for Spanish questions/exclamations.",
+  "CRITICAL: Latvian/Italian/English/German fragments in Spanish fields.",
+  "Learning First: main lv should be one clear meaning; flag multiple unrelated meanings with / • or commas.",
+  "Do NOT suggest DE changes. comparison.word stays German.",
+  "Keep reason under 160 chars. proposedEs must be exact replacement text.",
+].join("\n");
+
+const SENTENCES_PROMPT = [
+  "You are a full linguistic quality auditor for ES-DE Sätze/Teikumi (Spanish translations of German sentence flashcards).",
+  "Audit Spanish text in field 'lv' against German 'de' (primary authoritative source).",
+  "The schema uses field name 'lv' for Spanish — project convention, NOT Latvian.",
+  "DE is STRICT READ-ONLY: never propose DE changes; use SOURCE_DE_ISSUE if DE seems wrong.",
+  "Return ONLY valid JSON: { \"items\": [ ... ] }.",
+  "For each sentence: if correct, return { cardId, status: \"PASS\" }.",
+  "For real issues return: cardId, field (always 'lv'), severity, category, de, pairedGermanText, currentEs, proposedEs, reason, confidence.",
+  "Severity: CRITICAL | HIGH | MEDIUM | LOW.",
+  "Category: TRANSLATION | GRAMMAR | SEMANTICS | ORTHOGRAPHY | PUNCTUATION | REGISTER | NATURALNESS | FOREIGN_REMNANT | SOURCE_DE_ISSUE.",
+  "Non-error: SOURCE_LV_ISSUE | SOURCE_DE_ISSUE | NEEDS_OWNER_REVIEW | STYLE_ONLY | PROJECT_CONVENTION | FALSE_POSITIVE.",
+  "Check: idiomatic Spanish, register, negation mapping, question/exclamation punctuation, accents.",
+  "CRITICAL: Latvian/English/other foreign remnants in Spanish.",
+  "Keep reason under 160 chars. proposedEs must be exact replacement text.",
+].join("\n");
+
+const VERBS_PROMPT = [
+  "You are a full linguistic quality auditor for ES-DE VERBS (Spanish translations of German verb forms).",
+  "Audit each Spanish learner-facing verb form against German meaning (primary authoritative source).",
+  "The data schema uses field name 'lv' for Spanish native text — project convention, NOT Latvian language.",
+  "Return ONLY valid JSON: { \"items\": [ ... ] }.",
+  "For each form slot: if correct, return { cardId, field, status: \"PASS\" }.",
+  "For real issues return: cardId, field, severity, category, de, pairedGermanText, currentEs, proposedEs, reason, confidence.",
+  "field must be one of: infinitiv | praesens | imperfektIndikativ | imperfektKonjunktiv | partizipVergangenheit.",
+  "Severity: CRITICAL | HIGH | MEDIUM | LOW.",
+  "Category: TRANSLATION | GRAMMAR | SEMANTICS | ORTHOGRAPHY | REGISTER | FOREIGN_REMNANT | PARADIGM | FORMAT | SOURCE_DE_ISSUE.",
+  "PARADIGM = cross-form inconsistency within the same verb.",
+  "Non-error: SOURCE_LV_ISSUE | SOURCE_DE_ISSUE | NEEDS_OWNER_REVIEW | STYLE_ONLY | PROJECT_CONVENTION | FALSE_POSITIVE.",
+  "Check paradigm consistency across all 5 forms. German Konjunktiv II → Spanish conditional/subjunctive.",
+  "Partizip must reflect Spanish past participle sense where German uses Partizip II.",
+  "Use bullet • for multiple variants. Do NOT suggest DE changes.",
+  "Keep reason under 140 chars. proposedEs must be exact replacement text.",
+].join("\n");
+
+let client = null;
+
+function getClient() {
+  if (!process.env.OPENAI_API_KEY?.trim()) throw new Error("OPENAI_API_KEY required");
+  if (!client) client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  return client;
+}
+
+function addUsage(stats, usage) {
+  if (!usage) return;
+  stats.inputTokens += usage.input_tokens || 0;
+  stats.outputTokens += usage.output_tokens || 0;
+  stats.totalTokens += usage.total_tokens || 0;
+}
+
+function normalizeVocabItem(item) {
+  if (!item || !item.cardId) return null;
+  const status = String(item.status || "").toUpperCase();
+  if (status === "PASS" || status === "OK" || status === "NO_FINDING") {
+    return { cardId: item.cardId, status: "PASS", field: item.field || "lv" };
+  }
+  return {
+    cardId: item.cardId,
+    field: item.field || item.path || "lv",
+    severity: String(item.severity || "MEDIUM").toUpperCase(),
+    category: String(item.category || "TRANSLATION").toUpperCase(),
+    de: item.de || item.pairedGermanText || "",
+    pairedGermanText: item.pairedGermanText || item.de || "",
+    currentEs: item.currentEs || item.currentText || "",
+    proposedEs: item.proposedEs || item.proposedNew || "",
+    reason: item.reason || "",
+    confidence: item.confidence || "medium",
+    status: "FINDING",
+  };
+}
+
+function normalizeVerbItem(item) {
+  if (!item) return null;
+  const cardId = item.cardId || item.verbId;
+  if (!cardId) return null;
+  const field = item.field || "infinitiv";
+  const status = String(item.status || "").toUpperCase();
+  if (status === "PASS" || status === "OK" || status === "NO_FINDING") {
+    return { cardId, field, status: "PASS" };
+  }
+  return {
+    cardId,
+    field,
+    severity: String(item.severity || "MEDIUM").toUpperCase(),
+    category: String(item.category || "TRANSLATION").toUpperCase(),
+    de: item.de || item.pairedGermanText || "",
+    pairedGermanText: item.pairedGermanText || item.de || "",
+    currentEs: item.currentEs || item.currentText || "",
+    proposedEs: item.proposedEs || item.proposedNew || "",
+    reason: item.reason || "",
+    confidence: item.confidence || "medium",
+    status: "FINDING",
+  };
+}
+
+function parseLunaResponse(raw, expectedKeys, type = "vocab") {
+  if (!raw || typeof raw !== "string") throw new Error("Luna audit: empty response");
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch (error) {
+    throw new Error(`Luna audit: invalid JSON (${error.message})`);
+  }
+  const items = parsed.items || parsed.findings || [];
+  if (!Array.isArray(items)) throw new Error("Luna audit: missing items array");
+
+  const normalize = type === "verbs" ? normalizeVerbItem : normalizeVocabItem;
+  const results = [];
+  const responded = new Set();
+  for (const item of items) {
+    const normalized = normalize(item);
+    if (!normalized) continue;
+    const key = type === "verbs" ? `${normalized.cardId}|${normalized.field}` : normalized.cardId;
+    responded.add(key);
+    results.push(normalized);
+  }
+  for (const key of expectedKeys) {
+    if (responded.has(key)) continue;
+    if (type === "verbs") {
+      const [cardId, field] = key.split("|");
+      results.push({ cardId, field, status: "PASS" });
+    } else {
+      results.push({ cardId: key, status: "PASS", field: "lv" });
+    }
+  }
+  const findings = results.filter((r) => r.status === "FINDING");
+  const passCount = results.filter((r) => r.status === "PASS").length;
+  return { results, findings, passCount };
+}
+
+async function auditCardsBatch({ cards, stats, batchLabel, auditType, dataset, moduleType = "vocab", model = DEFAULT_MODEL }) {
+  if (!cards.length) throw new Error("cards array empty");
+  const cardIds = cards.map((c) => c.cardId);
+  const instructions = moduleType === "sentences" ? SENTENCES_PROMPT : moduleType === "verbs" ? VERBS_PROMPT : VOCAB_PROMPT;
+  const payload = { auditType, dataset, cards };
+  const response = await getClient().responses.create({
+    model,
+    instructions,
+    input: [
+      `Full ES-DE ${moduleType} linguistic audit. Return JSON items array. PASS for correct; findings only for real issues.`,
+      JSON.stringify(payload),
+    ].join("\n"),
+    text: { format: { type: "json_object" } },
+  });
+  const expectedKeys = moduleType === "verbs"
+    ? cards.flatMap((v) => (v.forms || []).map((f) => `${v.cardId}|${f.field}`))
+    : cardIds;
+  const { results, findings, passCount } = parseLunaResponse(response.output_text, expectedKeys, moduleType === "verbs" ? "verbs" : "vocab");
+  if (stats) {
+    stats.requestCount += 1;
+    stats.batchCount += 1;
+    stats.batchSizes.push(cards.length);
+    stats.findingsCount += findings.length;
+    stats.passCount += passCount;
+    addUsage(stats, response.usage);
+    if (batchLabel) {
+      process.stdout.write(
+        `  luna ${batchLabel}: ${cards.length} cards, findings=${findings.length}, pass=${passCount}, tokens=${response.usage?.total_tokens || 0}\n`,
+      );
+    }
+  }
+  return { results, findings, passCount, usage: response.usage || null };
+}
+
+const NON_ERROR_CATEGORIES = new Set([
+  "SOURCE_LV_ISSUE",
+  "SOURCE_DE_ISSUE",
+  "DE_SOURCE_ISSUE",
+  "NEEDS_OWNER_REVIEW",
+  "NEEDS_REVIEW",
+  "STYLE_ONLY",
+  "PROJECT_CONVENTION",
+  "FALSE_POSITIVE",
+]);
+
+function classifyFindings(findings) {
+  const severity = { CRITICAL: 0, HIGH: 0, MEDIUM: 0, LOW: 0 };
+  const nonError = {};
+  const qualityFindings = [];
+  for (const f of findings) {
+    if (f.status === "PASS") continue;
+    const cat = String(f.category || "").toUpperCase();
+    if (NON_ERROR_CATEGORIES.has(cat)) {
+      nonError[cat] = (nonError[cat] || 0) + 1;
+      continue;
+    }
+    const sev = String(f.severity || "MEDIUM").toUpperCase();
+    if (severity[sev] !== undefined) severity[sev] += 1;
+    else severity.MEDIUM += 1;
+    qualityFindings.push(f);
+  }
+  return { severity, nonError, qualityFindings };
+}
+
+function mapValidationStatus(finding) {
+  const cat = String(finding.category || "").toUpperCase();
+  if (NON_ERROR_CATEGORIES.has(cat)) {
+    if (cat === "NEEDS_OWNER_REVIEW" || cat === "NEEDS_REVIEW") return "OWNER_REVIEW_REQUIRED";
+    return "FALSE_POSITIVE";
+  }
+  if (cat === "SOURCE_DE_ISSUE" || cat === "DE_SOURCE_ISSUE") return "SOURCE_DE_ISSUE";
+  return "REAL";
+}
+
+module.exports = {
+  VOCAB_PROMPT,
+  SENTENCES_PROMPT,
+  VERBS_PROMPT,
+  NON_ERROR_CATEGORIES,
+  auditCardsBatch,
+  classifyFindings,
+  mapValidationStatus,
+  parseLunaResponse,
+  createStats,
+};

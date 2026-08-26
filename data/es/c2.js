@@ -8,14 +8,14 @@ const C2_WORDS = [
   },
   {
     "de": "konterkarieren",
-    "lv": "interrumpir",
+    "lv": "contrarrestar",
     "level": "C2"
   },
   {
     "de": "Stichhaltigkeit",
     "de_article": "die",
     "de_plural": "die Stichhaltigkeiten",
-    "lv": "sensatez",
+    "lv": "solidez",
     "level": "C2"
   },
   {
@@ -32,7 +32,7 @@ const C2_WORDS = [
   },
   {
     "de": "veranschaulichen",
-    "lv": "mostrar demostrablemente",
+    "lv": "ilustrar",
     "level": "C2"
   },
   {
@@ -80,17 +80,17 @@ const C2_WORDS = [
     "de": "Teilnehmerausweis",
     "de_article": "der",
     "de_plural": "die Teilnehmerausweise",
-    "lv": "tarjeta de membresía",
+    "lv": "acreditación de participante",
     "level": "C2"
   },
   {
     "de": "batteriebetrieben",
-    "lv": "operado por batería",
+    "lv": "que funciona con pilas",
     "level": "C2"
   },
   {
     "de": "beaufsichtigen",
-    "lv": "monitor",
+    "lv": "supervisar",
     "level": "C2"
   },
   {
@@ -104,12 +104,12 @@ const C2_WORDS = [
     "de": "Behandlungsraum",
     "de_article": "der",
     "de_plural": "die Behandlungsräume",
-    "lv": "consultorio médico",
+    "lv": "sala de tratamiento",
     "level": "C2"
   },
   {
     "de": "beispielsweise",
-    "lv": "Por ejemplo",
+    "lv": "por ejemplo",
     "level": "C2"
   },
   {
@@ -121,7 +121,7 @@ const C2_WORDS = [
   },
   {
     "de": "benachrichtigen",
-    "lv": "anunciar",
+    "lv": "notificar",
     "level": "C2"
   },
   {
@@ -154,14 +154,14 @@ const C2_WORDS = [
   },
   {
     "de": "berücksichtigen",
-    "lv": "para tener en cuenta",
+    "lv": "tener en cuenta",
     "level": "C2"
   },
   {
     "de": "Berufsausbildung",
     "de_article": "die",
     "de_plural": "die Berufsausbildungen",
-    "lv": "educación profesional",
+    "lv": "formación profesional",
     "level": "C2"
   },
   {
@@ -185,7 +185,7 @@ const C2_WORDS = [
       "examples": [
         {
           "de": "Kilogramm ist eine Gewichtseinheit.",
-          "lv": "kilogramo es una unidad de peso."
+          "lv": "El kilogramo es una unidad de peso."
         },
         {
           "de": "Welche Gewichtseinheit soll ich benutzen?",
@@ -193,7 +193,7 @@ const C2_WORDS = [
         },
         {
           "de": "Gramm und Tonne sind Gewichtseinheiten.",
-          "lv": "gramo y tonelada son unidades de peso."
+          "lv": "El gramo y la tonelada son unidades de peso."
         }
       ]
     }
@@ -201,12 +201,12 @@ const C2_WORDS = [
   {
     "de": "Elementarkenntnisse",
     "de_article": "die",
-    "lv": "conocimientos basicos",
+    "lv": "conocimientos básicos",
     "level": "C2"
   },
   {
     "de": "entgegenkommen",
-    "lv": "cruzar",
+    "lv": "ceder",
     "level": "C2"
   },
   {
@@ -227,7 +227,7 @@ const C2_WORDS = [
     "de": "Gehaltsabrechnung",
     "de_article": "die",
     "de_plural": "die Gehaltsabrechnungen",
-    "lv": "calculo de salario",
+    "lv": "recibo de nómina",
     "level": "C2"
   },
   {
@@ -262,7 +262,7 @@ const C2_WORDS = [
     "de": "Geschäftspartner",
     "de_article": "der",
     "de_plural": "die Geschäftspartner",
-    "lv": "compañero de negocios",
+    "lv": "socio comercial",
     "level": "C2"
   },
   {
@@ -276,7 +276,7 @@ const C2_WORDS = [
     "de": "Geschenkpackung",
     "de_article": "die",
     "de_plural": "die Geschenkpackungen",
-    "lv": "envoltorio de regalo",
+    "lv": "paquete de regalo",
     "level": "C2"
   },
   {
@@ -290,7 +290,7 @@ const C2_WORDS = [
     "de": "Inhaltsverzeichnis",
     "de_article": "das",
     "de_plural": "die Inhaltsverzeichnisse",
-    "lv": "Tabla de contenido",
+    "lv": "tabla de contenido",
     "level": "C2"
   },
   {
@@ -310,7 +310,7 @@ const C2_WORDS = [
   {
     "de": "Katastrophendienst",
     "de_article": "der",
-    "lv": "servicio de desastres",
+    "lv": "servicio de protección civil",
     "level": "C2"
   },
   {
@@ -324,14 +324,14 @@ const C2_WORDS = [
     "de": "Kostensteigerung",
     "de_article": "die",
     "de_plural": "die Kostensteigerungen",
-    "lv": "costos crecientes",
+    "lv": "aumento de los costos",
     "level": "C2"
   },
   {
     "de": "Krankenversicherung",
     "de_article": "die",
     "de_plural": "die Krankenversicherungen",
-    "lv": "seguro en caso de enfermedad",
+    "lv": "seguro médico",
     "level": "C2"
   },
   {
@@ -366,7 +366,7 @@ const C2_WORDS = [
     "de": "Lungenentzündung",
     "de_article": "die",
     "de_plural": "die Lungenentzündungen",
-    "lv": "cáncer de pulmón",
+    "lv": "neumonía",
     "level": "C2"
   },
   {
@@ -380,7 +380,7 @@ const C2_WORDS = [
     "de": "Personenkraftwagen",
     "de_article": "der",
     "de_plural": "die Personenkraftwagen",
-    "lv": "coche de pasajeros",
+    "lv": "automóvil de pasajeros",
     "level": "C2"
   },
   {
@@ -408,14 +408,14 @@ const C2_WORDS = [
     "de": "Schlafwagenzimmer",
     "de_article": "das",
     "de_plural": "die Schlafwagenzimmer",
-    "lv": "dormitorio",
+    "lv": "compartimento de coche cama",
     "level": "C2"
   },
   {
     "de": "Schlittschuhkufe",
     "de_article": "die",
     "de_plural": "die Schlittschuhkufen",
-    "lv": "pendiente de trineo",
+    "lv": "cuchilla de patín de hielo",
     "level": "C2"
   },
   {
@@ -427,7 +427,7 @@ const C2_WORDS = [
   },
   {
     "de": "selbstverständlich",
-    "lv": "se explica por si mismo",
+    "lv": "por supuesto",
     "level": "C2"
   },
   {
@@ -439,7 +439,7 @@ const C2_WORDS = [
     "de": "Sozialversicherung",
     "de_article": "die",
     "de_plural": "die Sozialversicherungen",
-    "lv": "seguro social",
+    "lv": "seguridad social",
     "level": "C2"
   },
   {
@@ -467,7 +467,7 @@ const C2_WORDS = [
     "de": "Straßenunterführung",
     "de_article": "die",
     "de_plural": "die Straßenunterführungen",
-    "lv": "tunel peatonal",
+    "lv": "paso subterráneo bajo la carretera",
     "level": "C2"
   },
   {
@@ -479,7 +479,7 @@ const C2_WORDS = [
     "de": "Verkehrsunfall",
     "de_article": "der",
     "de_plural": "die Verkehrsunfälle",
-    "lv": "accidente de trafico",
+    "lv": "accidente de tráfico",
     "level": "C2"
   },
   {
@@ -522,7 +522,7 @@ const C2_WORDS = [
     "de": "Sehenswürdigkeit",
     "de_article": "die",
     "de_plural": "die Sehenswürdigkeiten",
-    "lv": "un lugar destacado",
+    "lv": "un lugar de interés",
     "level": "C2"
   },
   {
@@ -571,14 +571,14 @@ const C2_WORDS = [
     "de": "Arbeitslosenbeihilfe",
     "de_article": "die",
     "de_plural": "die Arbeitslosenbeihilfen",
-    "lv": "prestación de desempleo",
+    "lv": "prestación por desempleo",
     "level": "C2"
   },
   {
     "de": "Ausbildungsbeihilfe",
     "de_article": "die",
     "de_plural": "die Ausbildungsbeihilfen",
-    "lv": "subsidio de matrícula",
+    "lv": "ayuda para la formación",
     "level": "C2"
   },
   {
@@ -592,7 +592,7 @@ const C2_WORDS = [
     "de": "Berichterstatter",
     "de_article": "der",
     "de_plural": "die Berichterstatter",
-    "lv": "reportero • reportero • corresponsal • reportero",
+    "lv": "relator • reportero • corresponsal • cronista",
     "level": "C2"
   },
   {
@@ -627,7 +627,7 @@ const C2_WORDS = [
     "de": "Bildberichterstatter",
     "de_article": "der",
     "de_plural": "die Bildberichterstatter",
-    "lv": "corresponsal de fotografía",
+    "lv": "reportero gráfico",
     "level": "C2"
   },
   {
@@ -689,26 +689,26 @@ const C2_WORDS = [
     "de": "Dialektik",
     "de_article": "die",
     "de_plural": "die Dialektiken",
-    "lv": "dialéctico",
+    "lv": "dialéctica",
     "level": "C2"
   },
   {
     "de": "Bereitschaftsdienst",
     "de_article": "der",
     "de_plural": "die Bereitschaftsdienste",
-    "lv": "servicio operativo",
+    "lv": "servicio de guardia",
     "level": "C2"
   },
   {
     "de": "Durchfuhrerlaubnis",
     "de_article": "die",
     "de_plural": "die Durchfuhrerlaubnisse",
-    "lv": "permiso de transito",
+    "lv": "permiso de tránsito",
     "level": "C2"
   },
   {
     "de": "durchkreuzen",
-    "lv": "ponchar • cruzar • cruzar • interrumpir",
+    "lv": "tachar • cruzar • frustrar",
     "level": "C2"
   },
   {
@@ -729,7 +729,7 @@ const C2_WORDS = [
     "de": "Durchschnittsleistung",
     "de_article": "die",
     "de_plural": "die Durchschnittsleistungen",
-    "lv": "rendimiento promedio • rendimiento promedio",
+    "lv": "rendimiento promedio",
     "level": "C2"
   },
   {
@@ -757,7 +757,7 @@ const C2_WORDS = [
     "de": "Empfehlungsschreiben",
     "de_article": "das",
     "de_plural": "die Empfehlungsschreiben",
-    "lv": "recomendación escrita",
+    "lv": "carta de recomendación",
     "level": "C2"
   },
   {
@@ -769,42 +769,42 @@ const C2_WORDS = [
   },
   {
     "de": "entgegengesetzt",
-    "lv": "lo contrario",
+    "lv": "opuesto",
     "level": "C2"
   },
   {
     "de": "Entschlossenheit",
     "de_article": "die",
     "de_plural": "die Entschlossenheiten",
-    "lv": "certeza • determinación • incuestionamiento",
+    "lv": "determinación • resolución",
     "level": "C2"
   },
   {
     "de": "Entwicklungsland",
     "de_article": "das",
     "de_plural": "die Entwicklungsländer",
-    "lv": "tierra de desarrollo",
+    "lv": "país en desarrollo",
     "level": "C2"
   },
   {
     "de": "Erfrischungsraum",
     "de_article": "der",
     "de_plural": "die Erfrischungsräume",
-    "lv": "bufé",
+    "lv": "sala de refrigerios",
     "level": "C2"
   },
   {
     "de": "Regierungserklärung",
     "de_article": "die",
     "de_plural": "die Regierungserklärungen",
-    "lv": "anuncio del gobierno",
+    "lv": "declaración del Gobierno",
     "level": "C2"
   },
   {
     "de": "Errungenschaft",
     "de_article": "die",
     "de_plural": "die Errungenschaften",
-    "lv": "logro • beneficio • ganancia",
+    "lv": "logro • conquista",
     "level": "C2"
   },
   {
@@ -845,14 +845,14 @@ const C2_WORDS = [
     "de": "Führerpersönlichkeit",
     "de_article": "die",
     "de_plural": "die Führerpersönlichkeiten",
-    "lv": "personalidad de liderazgo",
+    "lv": "personalidad de líder",
     "level": "C2"
   },
   {
     "de": "Fußballweltmeisterschaft",
     "de_article": "die",
     "de_plural": "die Fußballweltmeisterschaften",
-    "lv": "campeonato mundial de futbol",
+    "lv": "campeonato mundial de fútbol",
     "level": "C2"
   },
   {
@@ -880,7 +880,7 @@ const C2_WORDS = [
     "de": "Gefängnisaufseher",
     "de_article": "der",
     "de_plural": "die Gefängnisaufseher",
-    "lv": "director de prisión",
+    "lv": "guardia de prisión",
     "level": "C2"
   },
   {
@@ -894,18 +894,18 @@ const C2_WORDS = [
     "de": "Gefäßerweiterung",
     "de_article": "die",
     "de_plural": "die Gefäßerweiterungen",
-    "lv": "dilatacion de los vasos sanguineos",
+    "lv": "dilatación de los vasos sanguíneos",
     "level": "C2"
   },
   {
     "de": "Geistesgegenwart",
     "de_article": "die",
-    "lv": "ingenio",
+    "lv": "presencia de ánimo",
     "level": "C2"
   },
   {
     "de": "geistige Getränke",
-    "lv": "bebidas alcoholicas",
+    "lv": "bebidas alcohólicas",
     "level": "C2"
   },
   {
@@ -933,21 +933,21 @@ const C2_WORDS = [
     "de": "Dorfgemeinschaft",
     "de_article": "die",
     "de_plural": "die Dorfgemeinschaften",
-    "lv": "los aldeanos",
+    "lv": "comunidad aldeana",
     "level": "C2"
   },
   {
     "de": "Forschungsgemeinschaft",
     "de_article": "die",
     "de_plural": "die Forschungsgemeinschaften",
-    "lv": "grupo de investigación",
+    "lv": "comunidad de investigación",
     "level": "C2"
   },
   {
     "de": "Generalreparatur",
     "de_article": "die",
     "de_plural": "die Generalreparaturen",
-    "lv": "revisión",
+    "lv": "reparación general",
     "level": "C2"
   },
   {
@@ -968,41 +968,41 @@ const C2_WORDS = [
     "de": "Gerechtigkeitsgefühl",
     "de_article": "das",
     "de_plural": "die Gerechtigkeitsgefühle",
-    "lv": "justicia • sentido de justicia",
+    "lv": "sentido de justicia",
     "level": "C2"
   },
   {
     "de": "Schiedsgericht",
     "de_article": "das",
     "de_plural": "die Schiedsgerichte",
-    "lv": "arbitraje",
+    "lv": "tribunal arbitral",
     "level": "C2"
   },
   {
     "de": "Gerichtsverfahren",
     "de_article": "das",
     "de_plural": "die Gerichtsverfahren",
-    "lv": "procedimientos judiciales",
+    "lv": "procedimiento judicial",
     "level": "C2"
   },
   {
     "de": "Geschäftsordnung",
     "de_article": "die",
     "de_plural": "die Geschäftsordnungen",
-    "lv": "regulación • regulaciones",
+    "lv": "reglamento • normas de procedimiento",
     "level": "C2"
   },
   {
     "de": "Geschlechtsverkehr",
     "de_article": "der",
-    "lv": "relaciones",
+    "lv": "relaciones sexuales",
     "level": "C2"
   },
   {
     "de": "Geschwindigkeitsbegrenzung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsbegrenzungen",
-    "lv": "Límite de velocidad",
+    "lv": "límite de velocidad",
     "level": "C2"
   },
   {
@@ -1023,26 +1023,26 @@ const C2_WORDS = [
     "de": "Geschwindigkeitsüberschreitung",
     "de_article": "die",
     "de_plural": "die Geschwindigkeitsüberschreitungen",
-    "lv": "incumplimiento de la velocidad prescrita • infracción",
+    "lv": "exceso de velocidad • infracción por exceso de velocidad",
     "level": "C2"
   },
   {
     "de": "gesellschaftlich",
-    "lv": "públicas • sociedades",
+    "lv": "social • de la sociedad",
     "level": "C2"
   },
   {
     "de": "Gesellschaftsordnung",
     "de_article": "die",
     "de_plural": "die Gesellschaftsordnungen",
-    "lv": "instalación pública",
+    "lv": "orden social",
     "level": "C2"
   },
   {
     "de": "Gesetzesvorlage",
     "de_article": "die",
     "de_plural": "die Gesetzesvorlagen",
-    "lv": "factura",
+    "lv": "proyecto de ley",
     "level": "C2"
   },
   {
@@ -1056,7 +1056,7 @@ const C2_WORDS = [
     "de": "Gewerkschaftsbeitrag",
     "de_article": "der",
     "de_plural": "die Gewerkschaftsbeiträge",
-    "lv": "cuotas de afiliación sindical",
+    "lv": "cuota sindical",
     "level": "C2"
   },
   {
@@ -1070,7 +1070,7 @@ const C2_WORDS = [
     "de": "Gewinnauszahlung",
     "de_article": "die",
     "de_plural": "die Gewinnauszahlungen",
-    "lv": "pago de ganancias de lotería",
+    "lv": "pago de ganancias",
     "level": "C2"
   },
   {
@@ -1084,7 +1084,7 @@ const C2_WORDS = [
     "de": "Gleichberechtigung",
     "de_article": "die",
     "de_plural": "die Gleichberechtigungen",
-    "lv": "igualdad",
+    "lv": "igualdad de derechos",
     "level": "C2"
   },
   {
@@ -1105,7 +1105,7 @@ const C2_WORDS = [
     "de": "Hausgemeinschaft",
     "de_article": "die",
     "de_plural": "die Hausgemeinschaften",
-    "lv": "miembros de la familia • residentes de la casa",
+    "lv": "comunidad de vecinos",
     "level": "C2"
   },
   {
@@ -1119,7 +1119,7 @@ const C2_WORDS = [
     "de": "Herztransplantation",
     "de_article": "die",
     "de_plural": "die Herztransplantationen",
-    "lv": "trasplante de corazon",
+    "lv": "trasplante de corazón",
     "level": "C2"
   },
   {
@@ -1140,7 +1140,7 @@ const C2_WORDS = [
     "de": "Kabinettsmitglied",
     "de_article": "das",
     "de_plural": "die Kabinettsmitglieder",
-    "lv": "miembro del gabinete • ministro",
+    "lv": "miembro del gabinete",
     "level": "C2"
   },
   {
@@ -1168,14 +1168,14 @@ const C2_WORDS = [
     "de": "Lebenserhaltungstrieb",
     "de_article": "der",
     "de_plural": "die Lebenserhaltungstriebe",
-    "lv": "el impulso de la vida",
+    "lv": "instinto de supervivencia",
     "level": "C2"
   },
   {
     "de": "Lebenshaltungskosten",
     "de_article": "die",
     "de_plural": "die Lebenshaltungskosten",
-    "lv": "medios de subsistencia • costos",
+    "lv": "coste de vida",
     "level": "C2"
   },
   {
@@ -1189,7 +1189,7 @@ const C2_WORDS = [
     "de": "Leistungsfähigkeit",
     "de_article": "die",
     "de_plural": "die Leistungsfähigkeiten",
-    "lv": "capacidad de trabajo • productividad • capacidad",
+    "lv": "capacidad de rendimiento",
     "level": "C2"
   },
   {
@@ -1217,12 +1217,12 @@ const C2_WORDS = [
     "de": "Meisterschaftsspiel",
     "de_article": "das",
     "de_plural": "die Meisterschaftsspiele",
-    "lv": "carrera superior",
+    "lv": "partido de campeonato",
     "level": "C2"
   },
   {
     "de": "menschenfreundlich",
-    "lv": "humano • humano",
+    "lv": "humanitario",
     "level": "C2"
   },
   {
@@ -1257,7 +1257,7 @@ const C2_WORDS = [
     "de": "Parlamentarier",
     "de_article": "der",
     "de_plural": "die Parlamentarier",
-    "lv": "miembro del parlamento • parlamentario",
+    "lv": "parlamentario",
     "level": "C2"
   },
   {
@@ -1275,19 +1275,19 @@ const C2_WORDS = [
   },
   {
     "de": "populärwissenschaftlich",
-    "lv": "divulgación científica",
+    "lv": "de divulgación científica",
     "level": "C2"
   },
   {
     "de": "Preisausschreiben",
     "de_article": "das",
     "de_plural": "die Preisausschreiben",
-    "lv": "competencia",
+    "lv": "concurso con premio",
     "level": "C2"
   },
   {
     "de": "rechtsextremistisch",
-    "lv": "extrema derecha",
+    "lv": "de extrema derecha",
     "level": "C2"
   },
   {
@@ -1308,7 +1308,7 @@ const C2_WORDS = [
     "de": "Beschwerdeschrift",
     "de_article": "die",
     "de_plural": "die Beschwerdeschriften",
-    "lv": "queja",
+    "lv": "escrito de queja",
     "level": "C2"
   },
   {
@@ -1343,21 +1343,21 @@ const C2_WORDS = [
     "de": "Staatsangehörigkeit",
     "de_article": "die",
     "de_plural": "die Staatsangehörigkeiten",
-    "lv": "categoría de estado",
+    "lv": "nacionalidad",
     "level": "C2"
   },
   {
     "de": "Steuererleichterung",
     "de_article": "die",
     "de_plural": "die Steuererleichterungen",
-    "lv": "beneficios fiscales",
+    "lv": "desgravación fiscal",
     "level": "C2"
   },
   {
     "de": "Strafgesetzbuch",
     "de_article": "das",
     "de_plural": "die Strafgesetzbücher",
-    "lv": "código penal jurado",
+    "lv": "código penal",
     "level": "C2"
   },
   {
@@ -1409,12 +1409,12 @@ const C2_WORDS = [
   },
   {
     "de": "zugrunde, zu Grunde",
-    "lv": "básicamente",
+    "lv": "en la base",
     "level": "C2"
   },
   {
     "de": "zugunsten, zu Gunsten",
-    "lv": "para bien • para bien",
+    "lv": "a favor de",
     "level": "C2"
   },
   {
@@ -1439,12 +1439,12 @@ const C2_WORDS = [
   },
   {
     "de": "inwiefern",
-    "lv": "hasta que punto",
+    "lv": "hasta qué punto",
     "level": "C2"
   },
   {
     "de": "inwieweit",
-    "lv": "hasta que punto",
+    "lv": "hasta qué punto",
     "level": "C2"
   },
   {
@@ -1465,7 +1465,7 @@ const C2_WORDS = [
     "de": "Kriegsbeschädigte",
     "de_article": "der",
     "de_plural": "die Kriegsbeschädigten",
-    "lv": "una guerra inválida",
+    "lv": "un inválido de guerra",
     "level": "C2"
   },
   {
@@ -1479,7 +1479,7 @@ const C2_WORDS = [
     "de": "Sachverständige",
     "de_article": "der",
     "de_plural": "die Sachverständigen",
-    "lv": "competente • experto",
+    "lv": "experto",
     "level": "C2"
   }
 ];

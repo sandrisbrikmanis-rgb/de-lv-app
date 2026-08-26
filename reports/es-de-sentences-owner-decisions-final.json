@@ -1,0 +1,4778 @@
+{
+  "schemaVersion": "1.0",
+  "authority": "OWNER",
+  "scope": "ES–DE Teikumi FIRST FULL DISCOVERY",
+  "source": "reports/es-de-sentences-full-audit-owner-source.json",
+  "sourceObjectCount": 317,
+  "decisionCount": 317,
+  "counts": {
+    "LABOT": 310,
+    "NELABOT": 7,
+    "SOURCE_DE_ISSUE": 0,
+    "UNRESOLVED": 0
+  },
+  "rules": {
+    "deReadOnly": true,
+    "copyOnlyApply": true,
+    "currentExactMatchRequired": true,
+    "newExactVerificationRequired": true
+  },
+  "decisions": [
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0001",
+      "module": "SENTENCES",
+      "cardId": "sentence-8",
+      "field": "lv",
+      "current": "Para mí tiene poco sentido.",
+      "new": "Eso me sirve de poco.",
+      "status": "LABOT",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "ownerReason": "Svešvalodas atlikums (IT)",
+      "sourceFindingIds": [
+        "ES-SENTENCES-0001",
+        "ES-SENTENCES-LUNA-0006"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0002",
+      "module": "SENTENCES",
+      "cardId": "sentence-421",
+      "field": "lv",
+      "current": "Muy poco.",
+      "new": "Muy poco.",
+      "status": "NELABOT",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "ownerReason": "FALSE_POSITIVE: CURRENT ir korekts spāņu teikums; foreign-remnant signāls radies no vārda, kas ir derīgs spāņu valodā.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-0002"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0003",
+      "module": "SENTENCES",
+      "cardId": "sentence-581",
+      "field": "lv",
+      "current": "¡Ve un poco más lento, no puedo seguirte!",
+      "new": "¡Ve un poco más lento, no puedo seguirte!",
+      "status": "NELABOT",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "ownerReason": "FALSE_POSITIVE: CURRENT ir korekts spāņu teikums; foreign-remnant signāls radies no vārda, kas ir derīgs spāņu valodā.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-0003"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0004",
+      "module": "SENTENCES",
+      "cardId": "sentence-583",
+      "field": "lv",
+      "current": "Descansemos un poco.",
+      "new": "Descansemos un poco.",
+      "status": "NELABOT",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "ownerReason": "FALSE_POSITIVE: CURRENT ir korekts spāņu teikums; foreign-remnant signāls radies no vārda, kas ir derīgs spāņu valodā.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-0004"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0005",
+      "module": "SENTENCES",
+      "cardId": "sentence-611",
+      "field": "lv",
+      "current": "¿Dónde está la máquina expendedora de billetes del andén?",
+      "new": "¿Dónde está la máquina expendedora de billetes del andén?",
+      "status": "NELABOT",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "ownerReason": "FALSE_POSITIVE: CURRENT ir korekts spāņu teikums; foreign-remnant signāls radies no vārda, kas ir derīgs spāņu valodā.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-0005"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0006",
+      "module": "SENTENCES",
+      "cardId": "sentence-708",
+      "field": "lv",
+      "current": "Sí, un poco.",
+      "new": "Sí, un poco.",
+      "status": "NELABOT",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "ownerReason": "FALSE_POSITIVE: CURRENT ir korekts spāņu teikums; foreign-remnant signāls radies no vārda, kas ir derīgs spāņu valodā.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-0006"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0007",
+      "module": "SENTENCES",
+      "cardId": "sentence-749",
+      "field": "lv",
+      "current": "Me quedan un poco ajustados.",
+      "new": "Me quedan un poco ajustados.",
+      "status": "NELABOT",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "ownerReason": "FALSE_POSITIVE: CURRENT ir korekts spāņu teikums; foreign-remnant signāls radies no vārda, kas ir derīgs spāņu valodā.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-0007"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0008",
+      "module": "SENTENCES",
+      "cardId": "sentence-781",
+      "field": "lv",
+      "current": "El anillo me queda un poco grande.",
+      "new": "El anillo me queda un poco grande.",
+      "status": "NELABOT",
+      "category": "FOREIGN_REMNANT",
+      "severity": "AUGSTA",
+      "ownerReason": "FALSE_POSITIVE: CURRENT ir korekts spāņu teikums; foreign-remnant signāls radies no vārda, kas ir derīgs spāņu valodā.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-0008"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0009",
+      "module": "SENTENCES",
+      "cardId": "sentence-1",
+      "field": "lv",
+      "current": "Si nada interfiere. • Si todo va según lo planeado.",
+      "new": "Si nada se interpone. • Si todo sale según lo planeado.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "La primera variante es poco idiomática; ambas pueden expresarse de forma más natural en español.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0001"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0010",
+      "module": "SENTENCES",
+      "cardId": "sentence-2",
+      "field": "lv",
+      "current": "¡Yo sé eso!",
+      "new": "¡Eso me lo puedo imaginar!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La frase alemana expresa que algo es imaginable o previsible, no simplemente que se sabe.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0002"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0011",
+      "module": "SENTENCES",
+      "cardId": "sentence-4",
+      "field": "lv",
+      "current": "¿Entonces qué?",
+      "new": "¿Qué pasa?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La traducción actual equivale más a «¿y entonces qué?»; la interjección alemana pide aclaración o reacción.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0003"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0012",
+      "module": "SENTENCES",
+      "cardId": "sentence-6",
+      "field": "lv",
+      "current": "Cuanto más mejor.",
+      "new": "Cuanto más, mejor.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "ownerReason": "La construcción correlativa española requiere coma entre las dos partes.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0004"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0013",
+      "module": "SENTENCES",
+      "cardId": "sentence-7",
+      "field": "lv",
+      "current": "Todo apunta al caso.",
+      "new": "Todo apunta a que lloverá.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Regen» significa lluvia; «caso» es un error semántico.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0005"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0014",
+      "module": "SENTENCES",
+      "cardId": "sentence-10",
+      "field": "lv",
+      "current": "¡Hablar alto!",
+      "new": "¡Hable!",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción usa un infinitivo incorrecto y añade «alto», que no está en el alemán.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0007"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0015",
+      "module": "SENTENCES",
+      "cardId": "sentence-11",
+      "field": "lv",
+      "current": "El trueno ruge.",
+      "new": "Truena.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán es una expresión meteorológica impersonal; «el trueno ruge» cambia el sentido y resulta poco natural.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0008"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0016",
+      "module": "SENTENCES",
+      "cardId": "sentence-13",
+      "field": "lv",
+      "current": "De eso.",
+      "new": "De allí.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Dort» significa «allí», no «eso».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0009"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0017",
+      "module": "SENTENCES",
+      "cardId": "sentence-17",
+      "field": "lv",
+      "current": "¡No pases! • ¡Salida cerrada!",
+      "new": "¡No pasar! • ¡Paso cerrado!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Durchgang» es paso o pasadizo, no salida; además, «no pases» cambia el aviso impersonal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0010"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0018",
+      "module": "SENTENCES",
+      "cardId": "sentence-18",
+      "field": "lv",
+      "current": "¿puedo preguntarte?",
+      "new": "¿Puedo pedirle algo?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Debe comenzar con mayúscula y mantener el tratamiento formal «Sie»; «bitten» es pedir, no preguntar.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0011"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0019",
+      "module": "SENTENCES",
+      "cardId": "sentence-22",
+      "field": "lv",
+      "current": "¿Qué es lo que realmente quieres?",
+      "new": "¿Qué es lo que realmente quiere?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa tratamiento formal («Sie»), pero la traducción emplea la forma informal «quieres».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0012"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0020",
+      "module": "SENTENCES",
+      "cardId": "sentence-26",
+      "field": "lv",
+      "current": "Simplemente imagina que estás enfermo.",
+      "new": "Simplemente te imaginas que estás enfermo.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "La versión actual es un imperativo; el alemán afirma que la persona se imagina estar enferma.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0013"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0021",
+      "module": "SENTENCES",
+      "cardId": "sentence-27",
+      "field": "lv",
+      "current": "¿Qué te viene a la mente?",
+      "new": "¿Cómo te atreves?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La expresión alemana es un reproche («¿cómo te atreves?»), no una pregunta sobre pensamientos.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0014"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0022",
+      "module": "SENTENCES",
+      "cardId": "sentence-28",
+      "field": "lv",
+      "current": "Una vez lo hubo.",
+      "new": "Érase una vez.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La fórmula narrativa española correspondiente es «Érase una vez»; la versión actual no es idiomática.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0015"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0023",
+      "module": "SENTENCES",
+      "cardId": "sentence-29",
+      "field": "lv",
+      "current": "¡Por favor entra!",
+      "new": "¡Suba, por favor!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa tratamiento formal y «einsteigen» significa subir o entrar en un vehículo; la forma actual es informal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0016"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0024",
+      "module": "SENTENCES",
+      "cardId": "sentence-30",
+      "field": "lv",
+      "current": "¡Por favor entra!",
+      "new": "¡Entre, por favor!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa tratamiento formal; «entra» es informal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0017"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0025",
+      "module": "SENTENCES",
+      "cardId": "sentence-34",
+      "field": "lv",
+      "current": "¡Discúlpame, por favor!",
+      "new": "¡Discúlpeme, por favor!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán emplea tratamiento formal («Sie»), mientras que «discúlpame» es informal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0018"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0026",
+      "module": "SENTENCES",
+      "cardId": "sentence-38",
+      "field": "lv",
+      "current": "¿Qué sucede contigo?",
+      "new": "¿Qué te pasa?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "La traducción actual es comprensible, pero no es la formulación idiomática habitual en español.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0019"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0027",
+      "module": "SENTENCES",
+      "cardId": "sentence-39",
+      "field": "lv",
+      "current": "¿Cómo te llamas?",
+      "new": "¿Cómo se llama?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa tratamiento formal («Sie»), pero la traducción emplea la forma informal «te llamas».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0020"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0028",
+      "module": "SENTENCES",
+      "cardId": "sentence-41",
+      "field": "lv",
+      "current": "¡Por favor acércate!",
+      "new": "¡Por favor, acérquese!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Debe mantenerse el tratamiento formal de «Sie»; también es natural aislar «por favor» con coma.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0021"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0029",
+      "module": "SENTENCES",
+      "cardId": "sentence-42",
+      "field": "lv",
+      "current": "¡Hablar! • ¡Historias!",
+      "new": "¡Habla! • ¡Cuenta!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La expresión exige que alguien revele lo que sabe («¡habla!» o «¡cuenta!»), no «historias».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0022"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0030",
+      "module": "SENTENCES",
+      "cardId": "sentence-47",
+      "field": "lv",
+      "current": "anoche",
+      "new": "esta noche",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Heute Nacht» significa «esta noche»; «anoche» se refiere a la noche pasada.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0023"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0031",
+      "module": "SENTENCES",
+      "cardId": "sentence-50",
+      "field": "lv",
+      "current": "¿Puedes repetir eso por favor?",
+      "new": "¿Puedes repetir eso, por favor?",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "La expresión «por favor» debe aislarse con comas en esta posición.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0024"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0032",
+      "module": "SENTENCES",
+      "cardId": "sentence-53",
+      "field": "lv",
+      "current": "Esta decisión tiene consecuencias de largo alcance.",
+      "new": "Esta decisión tiene consecuencias de gran alcance.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Consecuencias de gran alcance» es la colocación idiomática habitual en español.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0025"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0033",
+      "module": "SENTENCES",
+      "cardId": "sentence-54",
+      "field": "lv",
+      "current": "Se deben considerar varias perspectivas.",
+      "new": "Se deberían considerar varias perspectivas.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Sollte» expresa recomendación, mientras que «se deben» expresa obligación.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0026"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0034",
+      "module": "SENTENCES",
+      "cardId": "sentence-55",
+      "field": "lv",
+      "current": "¿Podrías explicar esto con más detalle?",
+      "new": "¿Podría explicar esto con más detalle?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa el tratamiento formal «Sie», pero el español actual usa «tú».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0027"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0035",
+      "module": "SENTENCES",
+      "cardId": "sentence-62",
+      "field": "lv",
+      "current": "Llámame.",
+      "new": "Llámeme.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa el tratamiento formal «Sie», por lo que corresponde «llámeme».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0028"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0036",
+      "module": "SENTENCES",
+      "cardId": "sentence-63",
+      "field": "lv",
+      "current": "Por favor apaga la radio.",
+      "new": "Por favor, apague la radio.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Hay discordancia de tratamiento: «Sie» requiere el imperativo formal «apague»; además falta una coma.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0029"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0037",
+      "module": "SENTENCES",
+      "cardId": "sentence-64",
+      "field": "lv",
+      "current": "Por favor preste atención al tráfico.",
+      "new": "Por favor, presta atención al tráfico.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa el tratamiento informal «du», pero el español actual usa el formal «usted».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0030"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0038",
+      "module": "SENTENCES",
+      "cardId": "sentence-65",
+      "field": "lv",
+      "current": "Deberías prestar atención a eso.",
+      "new": "Tienes que prestar atención a eso.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Musst» expresa obligación («tener que»), no una recomendación atenuada («deberías»).",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0031"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0039",
+      "module": "SENTENCES",
+      "cardId": "sentence-66",
+      "field": "lv",
+      "current": "Hoy lo haré diferente.",
+      "new": "Hoy lo haré de otra manera.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "«Hacerlo de otra manera» es más idiomático que «hacerlo diferente» en esta frase.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0032"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0040",
+      "module": "SENTENCES",
+      "cardId": "sentence-69",
+      "field": "lv",
+      "current": "Terminé mi entrenamiento. • Terminé mi educación.",
+      "new": "Terminé mi formación.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Ausbildung» significa formación o capacitación profesional; las dos alternativas actuales son antinaturales o imprecisas.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0033"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0041",
+      "module": "SENTENCES",
+      "cardId": "sentence-87",
+      "field": "lv",
+      "current": "Nos dirigimos a la estación.",
+      "new": "Vamos andando a la estación.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Laufen» indica desplazarse a pie; «nos dirigimos» no conserva esa información.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0034"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0042",
+      "module": "SENTENCES",
+      "cardId": "sentence-91",
+      "field": "lv",
+      "current": "Perdí la llamada.",
+      "new": "Perdí una llamada.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "En español, «perder una llamada» es la formulación idiomática habitual para no contestarla.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0035"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0043",
+      "module": "SENTENCES",
+      "cardId": "sentence-93",
+      "field": "lv",
+      "current": "Por favor acepte mi propuesta.",
+      "new": "Por favor, acepte mi propuesta.",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "La locución «por favor» debe separarse con una coma al inicio de la oración.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0036"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0044",
+      "module": "SENTENCES",
+      "cardId": "sentence-98",
+      "field": "lv",
+      "current": "Encuentra un eco. • Encuentre capacidad de respuesta",
+      "new": "Tener buena acogida.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La expresión significa «tener buena acogida» o «gozar de aceptación», no «encontrar un eco».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0037"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0045",
+      "module": "SENTENCES",
+      "cardId": "sentence-99",
+      "field": "lv",
+      "current": "Depende de eso.",
+      "new": "Depende.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "Como expresión independiente, «Depende» corresponde mejor; «de eso» añade un referente no presente en el alemán.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0038"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0046",
+      "module": "SENTENCES",
+      "cardId": "sentence-100",
+      "field": "lv",
+      "current": "Por esta época. • A este respecto",
+      "new": "Con este motivo.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "Ninguna de las dos opciones expresa correctamente «con motivo de esta ocasión».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0039"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0047",
+      "module": "SENTENCES",
+      "cardId": "sentence-102",
+      "field": "lv",
+      "current": "¿Qué has hecho allí?",
+      "new": "¿Qué has hecho?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Angerichtet» implica qué has hecho o causado, no necesariamente que lo hayas hecho allí.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0040"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0048",
+      "module": "SENTENCES",
+      "cardId": "sentence-106",
+      "field": "lv",
+      "current": "¡No finjas!",
+      "new": "¡No armes tanto drama!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La expresión alemana reprocha hacer un drama o complicar algo, no fingir.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0041"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0049",
+      "module": "SENTENCES",
+      "cardId": "sentence-109",
+      "field": "lv",
+      "current": "¡Buen apetito!",
+      "new": "¡Buen provecho!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«¡Buen provecho!» es la fórmula idiomática habitual en español.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0042"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0050",
+      "module": "SENTENCES",
+      "cardId": "sentence-110",
+      "field": "lv",
+      "current": "En un suspiro.",
+      "new": "De un tirón.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La expresión significa hacer algo de una sola vez o sin interrupción, no «en un suspiro».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0043"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0051",
+      "module": "SENTENCES",
+      "cardId": "sentence-111",
+      "field": "lv",
+      "current": "En cada caso.",
+      "new": "En cualquier caso.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Auf jeden Fall» significa «en cualquier caso» o «de todos modos», no «en cada caso».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0044"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0052",
+      "module": "SENTENCES",
+      "cardId": "sentence-113",
+      "field": "lv",
+      "current": "¡Por favor abre la puerta!",
+      "new": "¡Por favor, abre la puerta!",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "Debe colocarse coma tras «por favor» cuando introduce la petición.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0045"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0053",
+      "module": "SENTENCES",
+      "cardId": "sentence-114",
+      "field": "lv",
+      "current": "Tomó un préstamo.",
+      "new": "Pidió un préstamo.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Tomar un préstamo» es un calco poco idiomático; en español se dice «pedir un préstamo».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0046"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0054",
+      "module": "SENTENCES",
+      "cardId": "sentence-115",
+      "field": "lv",
+      "current": "Tenemos que ordenar la habitación hoy.",
+      "new": "Tenemos que recoger hoy.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "El español añade sin base que se trata de la habitación; el alemán no especifica el lugar.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0047"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0055",
+      "module": "SENTENCES",
+      "cardId": "sentence-116",
+      "field": "lv",
+      "current": "Me detendré ahora.",
+      "new": "Ahora paro.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Me detendré» sugiere detenerse físicamente y cambia el registro; «ahora paro» es la formulación natural.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0048"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0056",
+      "module": "SENTENCES",
+      "cardId": "sentence-122",
+      "field": "lv",
+      "current": "Cubrir los daños.",
+      "new": "Pagar por los daños.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Aufkommen für» significa pagar o hacerse cargo del daño, no simplemente cubrirlo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0049"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0057",
+      "module": "SENTENCES",
+      "cardId": "sentence-124",
+      "field": "lv",
+      "current": "Erguirse.",
+      "new": "Sentarse erguido.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán especifica estar sentado en posición erguida; «erguirse» expresa ponerse derecho, sin sentarse.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0050"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0058",
+      "module": "SENTENCES",
+      "cardId": "sentence-125",
+      "field": "lv",
+      "current": "Se ha puesto de pie.",
+      "new": "Está levantado.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "La frase alemana indica que está despierto o levantado, no necesariamente que acaba de ponerse de pie.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0051"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0059",
+      "module": "SENTENCES",
+      "cardId": "sentence-126",
+      "field": "lv",
+      "current": "Dedica todas tus fuerzas.",
+      "new": "Emplear todas las fuerzas.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán es un infinitivo; el español actual cambia a un imperativo de segunda persona.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0052"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0060",
+      "module": "SENTENCES",
+      "cardId": "sentence-127",
+      "field": "lv",
+      "current": "Esfuérzate mucho.",
+      "new": "Esforzarse mucho.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán es un sintagma en infinitivo; el español actual lo convierte en un imperativo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0053"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0061",
+      "module": "SENTENCES",
+      "cardId": "sentence-128",
+      "field": "lv",
+      "current": "¡No me mires más!",
+      "new": "¡Quítate de mi vista!",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "La expresión ordena marcharse o desaparecer, no dejar de mirar.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0054"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0062",
+      "module": "SENTENCES",
+      "cardId": "sentence-129",
+      "field": "lv",
+      "current": "En dos. • En silencio",
+      "new": "A solas.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Unter vier Augen» significa hablar o estar en privado, a solas; las opciones dadas son incorrectas.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0055"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0063",
+      "module": "SENTENCES",
+      "cardId": "sentence-133",
+      "field": "lv",
+      "current": "Dale importancia a la apariencia.",
+      "new": "Dar importancia a las apariencias.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán es un infinitivo; el español actual usa un imperativo y cambia la estructura.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0056"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0064",
+      "module": "SENTENCES",
+      "cardId": "sentence-140",
+      "field": "lv",
+      "current": "¿Cuándo fue el campeonato?",
+      "new": "¿Cuándo se disputaron los combates del campeonato?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "El original pregunta por varios combates disputados, no por la fecha de un campeonato en general.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0057"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0065",
+      "module": "SENTENCES",
+      "cardId": "sentence-141",
+      "field": "lv",
+      "current": "¿Cuál es tu profesión?",
+      "new": "¿Qué profesión ejerce usted?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Sie» exige tratamiento formal; «tu» introduce un cambio de registro.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0058"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0066",
+      "module": "SENTENCES",
+      "cardId": "sentence-150",
+      "field": "lv",
+      "current": "Consigue mineral.",
+      "new": "Extraer mineral.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Erz bauen» significa extraer o explotar mineral, no simplemente conseguirlo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0059"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0067",
+      "module": "SENTENCES",
+      "cardId": "sentence-151",
+      "field": "lv",
+      "current": "Disparar. • Haz el ridículo",
+      "new": "Meter la pata.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción no expresa «hacer algo mal» o «meter la pata»; «disparar» es incorrecto.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0060"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0068",
+      "module": "SENTENCES",
+      "cardId": "sentence-164",
+      "field": "lv",
+      "current": "A partir de",
+      "new": "Al comenzar.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«A partir de» significa desde un momento en adelante, no al comienzo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0061"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0069",
+      "module": "SENTENCES",
+      "cardId": "sentence-166",
+      "field": "lv",
+      "current": "Con acompañamiento.",
+      "new": "Con su acompañante.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "«Acompañamiento» suele referirse a música o guarnición; aquí se trata de su acompañante.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0062"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0070",
+      "module": "SENTENCES",
+      "cardId": "sentence-167",
+      "field": "lv",
+      "current": "Es lento para percibir. • Tiene un pensamiento lento",
+      "new": "Es lento para entender.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Las opciones actuales son poco idiomáticas y no expresan naturalmente la dificultad para entender.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0063"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0071",
+      "module": "SENTENCES",
+      "cardId": "sentence-172",
+      "field": "lv",
+      "current": "De nada.",
+      "new": "Ni mucho menos así.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "«De nada» significa «you're welcome» y no corresponde a «no tan... ni de lejos».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0064"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0072",
+      "module": "SENTENCES",
+      "cardId": "sentence-173",
+      "field": "lv",
+      "current": "Ambos dos.",
+      "new": "Ambos.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "«Ambos dos» es redundante; «ambos» expresa correctamente la idea.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0065"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0073",
+      "module": "SENTENCES",
+      "cardId": "sentence-175",
+      "field": "lv",
+      "current": "Obtener el consentimiento.",
+      "new": "Obtener aprobación.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La expresión significa recibir aprobación o aplauso, no obtener consentimiento.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0066"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0074",
+      "module": "SENTENCES",
+      "cardId": "sentence-180",
+      "field": "lv",
+      "current": "Invierta su parte.",
+      "new": "Hacer una contribución.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción actual es un imperativo sobre invertir una parte y cambia completamente el significado.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0067"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0075",
+      "module": "SENTENCES",
+      "cardId": "sentence-181",
+      "field": "lv",
+      "current": "Conoce a alguien.",
+      "new": "Entablar relación con alguien.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La fuente expresa entablar conocimiento o relación, no simplemente conocer a alguien en imperativo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0068"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0076",
+      "module": "SENTENCES",
+      "cardId": "sentence-183",
+      "field": "lv",
+      "current": "Sándwiches con aderezos.",
+      "new": "Bocadillos rellenos.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Belegte Brötchen» son bocadillos rellenos o preparados; «aderezos» resulta demasiado específico e impreciso.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0069"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0077",
+      "module": "SENTENCES",
+      "cardId": "sentence-184",
+      "field": "lv",
+      "current": "Como desées.",
+      "new": "Como desee.",
+      "status": "LABOT",
+      "category": "ORTHOGRAPHY",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Desee» no lleva tilde y debe concordar con el tratamiento formal «Ihr».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0070"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0078",
+      "module": "SENTENCES",
+      "cardId": "sentence-186",
+      "field": "lv",
+      "current": "Observar el silencio.",
+      "new": "Guardar silencio.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "En español, la expresión idiomática equivalente es «guardar silencio».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0071"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0079",
+      "module": "SENTENCES",
+      "cardId": "sentence-188",
+      "field": "lv",
+      "current": "Estar preparado. • Estar en paz",
+      "new": "Estar preparado.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Estar en paz» no significa estar listo y es una alternativa semánticamente incorrecta.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0072"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0080",
+      "module": "SENTENCES",
+      "cardId": "sentence-189",
+      "field": "lv",
+      "current": "Rescatar a las víctimas en caso de accidente.",
+      "new": "Rescatar a las víctimas de un accidente.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La versión actual añade «en caso de», que cambia la relación entre las víctimas y el accidente.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0073"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0081",
+      "module": "SENTENCES",
+      "cardId": "sentence-190",
+      "field": "lv",
+      "current": "Informe. • Proporcionar un informe. • Proporcionar una descripción general.",
+      "new": "Presentar un informe.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Proporcionar una descripción general» no corresponde a rendir o presentar un informe.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0074"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0082",
+      "module": "SENTENCES",
+      "cardId": "sentence-195",
+      "field": "lv",
+      "current": "Cuanto mejor.",
+      "new": "Tanto mejor.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La expresión independiente «desto besser» equivale a «tanto mejor» o «mejor aún».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0075"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0083",
+      "module": "SENTENCES",
+      "cardId": "sentence-196",
+      "field": "lv",
+      "current": "¡Reponerse! • ¡Reponerse!",
+      "new": "¡Que te mejores!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Reponerse» es un infinitivo poco natural aquí y además está duplicado; la fórmula habitual es «¡Que te mejores!».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0076"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0084",
+      "module": "SENTENCES",
+      "cardId": "sentence-197",
+      "field": "lv",
+      "current": "Lo que quieras.",
+      "new": "Por más que quisiera.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "La fuente expresa buena voluntad o «por más que quisiera», no «lo que quieras».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0077"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0085",
+      "module": "SENTENCES",
+      "cardId": "sentence-198",
+      "field": "lv",
+      "current": "El mejor.",
+      "new": "Lo mejor.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«El mejor» es masculino singular y suele referirse a una persona o cosa; la expresión adverbial es «lo mejor».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0078"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0086",
+      "module": "SENTENCES",
+      "cardId": "sentence-201",
+      "field": "lv",
+      "current": "Saluda.",
+      "new": "Enviar saludos.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "“Saluda” significa que alguien saluda, no que transmite saludos a otra persona.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0079"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0087",
+      "module": "SENTENCES",
+      "cardId": "sentence-202",
+      "field": "lv",
+      "current": "Definitivamente. • Completamente seguro",
+      "new": "Sin duda. • Definitivamente.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "“Completamente seguro” es una frase adjetival y no corresponde bien al adverbio alemán.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0080"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0088",
+      "module": "SENTENCES",
+      "cardId": "sentence-203",
+      "field": "lv",
+      "current": "Ven a visitarnos.",
+      "new": "Venir de visita.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "La traducción añade “a nosotros” y cambia el fragmento infinitivo por un imperativo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0081"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0089",
+      "module": "SENTENCES",
+      "cardId": "sentence-204",
+      "field": "lv",
+      "current": "Para visitar. • Para visitar",
+      "new": "Estar de visita.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "“Para visitar” expresa finalidad, no el estado de estar de visita; además, la alternativa está duplicada.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0082"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0090",
+      "module": "SENTENCES",
+      "cardId": "sentence-205",
+      "field": "lv",
+      "current": "A menudo van a conciertos.",
+      "new": "Ir a menudo a conciertos.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "ZEMA",
+      "ownerReason": "El alemán es un fragmento infinitivo y no especifica sujeto; la traducción añade “ellos”.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0083"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0091",
+      "module": "SENTENCES",
+      "cardId": "sentence-208",
+      "field": "lv",
+      "current": "Indiferencia. • No considere",
+      "new": "No tener en cuenta.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "“Indiferencia” es un sustantivo incorrecto y “No considere” no conserva el fragmento infinitivo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0084"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0092",
+      "module": "SENTENCES",
+      "cardId": "sentence-210",
+      "field": "lv",
+      "current": "Ambos dos.",
+      "new": "Ambos.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "“Ambos dos” es redundante en español estándar.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0085"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0093",
+      "module": "SENTENCES",
+      "cardId": "sentence-211",
+      "field": "lv",
+      "current": "Paga todo.",
+      "new": "Pagar todo.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "ZEMA",
+      "ownerReason": "El alemán es un infinitivo; “paga” introduce un imperativo o una tercera persona.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0086"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0094",
+      "module": "SENTENCES",
+      "cardId": "sentence-214",
+      "field": "lv",
+      "current": "como por favor",
+      "new": "¿Perdón?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La versión actual es incorrecta, carece de mayúscula y de signos de interrogación.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0087"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0095",
+      "module": "SENTENCES",
+      "cardId": "sentence-215",
+      "field": "lv",
+      "current": "Por favor",
+      "new": "De nada.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "En este uso, “Bitte sehr” suele significar “de nada” o “aquí tiene”, no “por favor”.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0088"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0096",
+      "module": "SENTENCES",
+      "cardId": "sentence-216",
+      "field": "lv",
+      "current": "Tengo una solicitud para ti.",
+      "new": "Tengo una petición para usted.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "“Sie” exige tratamiento formal; “ti” es informal y “solicitud” resulta menos natural aquí.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0089"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0097",
+      "module": "SENTENCES",
+      "cardId": "sentence-218",
+      "field": "lv",
+      "current": "Ordena el libro.",
+      "new": "Hojear un libro.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "“Blättern” significa pasar o hojear las páginas, no ordenar el libro.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0090"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0098",
+      "module": "SENTENCES",
+      "cardId": "sentence-225",
+      "field": "lv",
+      "current": "Todo habla bien.",
+      "new": "Todo apunta a ello.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "“Todo habla bien” no es una expresión idiomática con el sentido de que todo indica algo favorable.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0091"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0099",
+      "module": "SENTENCES",
+      "cardId": "sentence-226",
+      "field": "lv",
+      "current": "No puedo hacer nada allí.",
+      "new": "No puedo evitarlo.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "La frase alemana significa “no es culpa mía” o “no puedo evitarlo”, no “no puedo hacer nada allí”.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0092"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0100",
+      "module": "SENTENCES",
+      "cardId": "sentence-230",
+      "field": "lv",
+      "current": "Haz un movimiento de dama.",
+      "new": "Mover con la dama.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "ZEMA",
+      "ownerReason": "El alemán es un fragmento infinitivo; la traducción lo convierte en un imperativo y añade contenido.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0093"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0101",
+      "module": "SENTENCES",
+      "cardId": "sentence-237",
+      "field": "lv",
+      "current": "¿Qué crees que soy?",
+      "new": "¿Por quién me toma?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "La traducción usa “crees”, informal, y cambia el sentido de “¿por quién me toma?”.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0094"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0102",
+      "module": "SENTENCES",
+      "cardId": "sentence-238",
+      "field": "lv",
+      "current": "¡Fuera las manos!",
+      "new": "¡Las manos fuera!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "La colocación actual es poco idiomática; “¡Las manos fuera!” conserva el sentido de la advertencia.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0095"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0103",
+      "module": "SENTENCES",
+      "cardId": "sentence-239",
+      "field": "lv",
+      "current": "¡No bajes la cabeza!",
+      "new": "¡No te desanimes!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "La versión literal no reproduce bien la expresión idiomática alemana de ánimo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0096"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0104",
+      "module": "SENTENCES",
+      "cardId": "sentence-242",
+      "field": "lv",
+      "current": "desde la niñez • desde el principio",
+      "new": "por naturaleza • de nacimiento",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "“Von Haus aus” significa originalmente, por naturaleza o de nacimiento; ninguna alternativa actual es adecuada.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0097"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0105",
+      "module": "SENTENCES",
+      "cardId": "sentence-243",
+      "field": "lv",
+      "current": "¡Felicidades!",
+      "new": "¡Mis más sinceras felicitaciones!",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "ZEMA",
+      "ownerReason": "La versión actual es válida pero omite el matiz enfático de “mi más sincera felicitación”.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0098"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0106",
+      "module": "SENTENCES",
+      "cardId": "sentence-244",
+      "field": "lv",
+      "current": "¡Sea tan amable! • ¡Sé tan bueno!",
+      "new": "¡Haga el favor! • ¡Haz el favor!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Las versiones actuales son traducciones literales poco idiomáticas para esta fórmula de petición.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0099"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0107",
+      "module": "SENTENCES",
+      "cardId": "sentence-246",
+      "field": "lv",
+      "current": "¿Qué sucede contigo? • ¿Qué pasó?",
+      "new": "¿Qué te pasa?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "“¿Qué pasó?” está en pasado y no corresponde al presente de la frase alemana.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0100"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0108",
+      "module": "SENTENCES",
+      "cardId": "sentence-247",
+      "field": "lv",
+      "current": "¡Permíteme, por favor!",
+      "new": "¡Permítame, por favor!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "“Sie” requiere tratamiento formal; “permíteme” es la forma informal de tú.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0101"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0109",
+      "module": "SENTENCES",
+      "cardId": "sentence-250",
+      "field": "lv",
+      "current": "temprano ayer por la mañana",
+      "new": "ayer temprano",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "El orden actual suena poco idiomático; «ayer temprano» expresa naturalmente «gestern früh».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0102"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0110",
+      "module": "SENTENCES",
+      "cardId": "sentence-254",
+      "field": "lv",
+      "current": "¡No hagas tonterías! • ¡No hagas bromas!",
+      "new": "¡No armes líos!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La expresión alemana significa no montar problemas o alboroto, no simplemente no hacer tonterías o bromas.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0103"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0111",
+      "module": "SENTENCES",
+      "cardId": "sentence-255",
+      "field": "lv",
+      "current": "Sin mencionar eso. • ¿Dónde más?",
+      "new": "Mucho menos...",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Geschweige denn» equivale a «mucho menos» o «ni hablar de», y «¿Dónde más?» es incorrecto.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0104"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0112",
+      "module": "SENTENCES",
+      "cardId": "sentence-258",
+      "field": "lv",
+      "current": "Pregúntale si sale si...",
+      "new": "Pregúntale de vez en cuando si...",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sale» no corresponde al alemán y la frase actual resulta incoherente; falta traducir «gelegentlich».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0105"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0113",
+      "module": "SENTENCES",
+      "cardId": "sentence-268",
+      "field": "lv",
+      "current": "¿En qué año naciste?",
+      "new": "¿De qué año es usted?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Sie» exige tratamiento formal; «naciste» usa tú y no corresponde al registro de la frase alemana.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0106"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0114",
+      "module": "SENTENCES",
+      "cardId": "sentence-269",
+      "field": "lv",
+      "current": "Triste de ver...",
+      "new": "Me da pena ver...",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La versión actual es un fragmento agramatical y no expresa que al hablante le apena verlo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0107"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0115",
+      "module": "SENTENCES",
+      "cardId": "sentence-270",
+      "field": "lv",
+      "current": "cuanto más mejor",
+      "new": "cuanto más, mejor",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "La construcción comparativa necesita coma entre «más» y «mejor».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0108"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0116",
+      "module": "SENTENCES",
+      "cardId": "sentence-272",
+      "field": "lv",
+      "current": "¿Cómo llegar a la estación?",
+      "new": "¿Cómo llego a la estación?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán pregunta cómo llega el hablante; el infinitivo español omite esa perspectiva personal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0109"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0117",
+      "module": "SENTENCES",
+      "cardId": "sentence-274",
+      "field": "lv",
+      "current": "¿Puedo hablar con la señora N.?",
+      "new": "¿Podría hablar con la señora N.?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "«Könnte ich» corresponde más precisamente al condicional cortés «¿Podría...?».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0110"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0118",
+      "module": "SENTENCES",
+      "cardId": "sentence-279",
+      "field": "lv",
+      "current": "¡Déjame ayudarte!",
+      "new": "¡Permítame ayudarle!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción usa tuteo («déjame/ayudarte»), pero el alemán emplea tratamiento formal («Sie/Ihnen»).",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0111"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0119",
+      "module": "SENTENCES",
+      "cardId": "sentence-281",
+      "field": "lv",
+      "current": "Cómo estás",
+      "new": "¿Qué tal?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La versión actual significa «¿cómo estás?» y además carece de signos de interrogación; «¿Qué tal?» es idiomático aquí.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0112"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0120",
+      "module": "SENTENCES",
+      "cardId": "sentence-283",
+      "field": "lv",
+      "current": "¡Viva sano! • ¡Adiós!",
+      "new": "¡Que le vaya bien!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«¡Viva sano!» es incorrecto en este contexto; la despedida alemana expresa un buen deseo formal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0113"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0121",
+      "module": "SENTENCES",
+      "cardId": "sentence-284",
+      "field": "lv",
+      "current": "¿Qué pasó?",
+      "new": "¿Qué pasa?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Was ist los?» pregunta por la situación actual; «¿Qué pasó?» la sitúa específicamente en el pasado.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0114"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0122",
+      "module": "SENTENCES",
+      "cardId": "sentence-286",
+      "field": "lv",
+      "current": "Fue un día ajetreado.",
+      "new": "Fue un día agotador.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Anstrengend» significa agotador o cansado; «ajetreado» significa principalmente ocupado o con mucha actividad.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0115"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0123",
+      "module": "SENTENCES",
+      "cardId": "sentence-294",
+      "field": "lv",
+      "current": "El perro ha sido liberado.",
+      "new": "El perro anda suelto.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "«Ist los» indica que el perro está suelto, no necesariamente que alguien lo haya liberado.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0116"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0124",
+      "module": "SENTENCES",
+      "cardId": "sentence-297",
+      "field": "lv",
+      "current": "qué estás haciendo",
+      "new": "¿Qué estás haciendo?",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "Faltan la mayúscula inicial y los signos de interrogación invertidos.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0117"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0125",
+      "module": "SENTENCES",
+      "cardId": "sentence-298",
+      "field": "lv",
+      "current": "¡Di que sí!",
+      "new": "¡Dime!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sag mal!» es una llamada coloquial para pedir que alguien hable, no «di que sí».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0118"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0126",
+      "module": "SENTENCES",
+      "cardId": "sentence-299",
+      "field": "lv",
+      "current": "¿Qué quieres decir con eso? • ¿Qué opinas?",
+      "new": "¿Qué quiere decir con eso?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "La primera opción usa tuteo frente al «Sie» formal, y «¿Qué opinas?» cambia el significado.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0119"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0127",
+      "module": "SENTENCES",
+      "cardId": "sentence-300",
+      "field": "lv",
+      "current": "Nosotros vamos contigo.",
+      "new": "Vamos con usted.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Ihnen» requiere tratamiento formal; «contigo» es informal y singular.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0120"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0128",
+      "module": "SENTENCES",
+      "cardId": "sentence-305",
+      "field": "lv",
+      "current": "los lunes",
+      "new": "el lunes",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán indica un lunes concreto; «los lunes» expresa una acción habitual.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0121"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0129",
+      "module": "SENTENCES",
+      "cardId": "sentence-309",
+      "field": "lv",
+      "current": "¡Sentarse!",
+      "new": "¡Tome asiento!",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El infinitivo no reproduce el imperativo formal alemán; se necesita una forma verbal dirigida al interlocutor.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0122"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0130",
+      "module": "SENTENCES",
+      "cardId": "sentence-310",
+      "field": "lv",
+      "current": "¡Las últimas noticias!",
+      "new": "¡La última novedad!",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán usa singular («Neuheit»), mientras que «noticias» cambia el significado a news.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0123"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0131",
+      "module": "SENTENCES",
+      "cardId": "sentence-311",
+      "field": "lv",
+      "current": "¿bien?",
+      "new": "¿Verdad?",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«¿bien?» no es el equivalente idiomático; además, falta la mayúscula inicial.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0124"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0132",
+      "module": "SENTENCES",
+      "cardId": "sentence-312",
+      "field": "lv",
+      "current": "¡No, por supuesto! • ¡No!",
+      "new": "¡No, qué va!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Nicht doch!» expresa una negación enfática o rechazo; «por supuesto» puede invertir el sentido.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0125"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0133",
+      "module": "SENTENCES",
+      "cardId": "sentence-315",
+      "field": "lv",
+      "current": "¿Para qué es todo esto?",
+      "new": "¿Para qué sirve todo esto?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Nützt» significa «sirve»; «para qué es» resulta poco idiomático en este contexto.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0126"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0134",
+      "module": "SENTENCES",
+      "cardId": "sentence-320",
+      "field": "lv",
+      "current": "Eso está fuera de discusión.",
+      "new": "De eso no se puede hablar.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción actual significa que algo no se discute, no que sea inconcebible hablar de ello.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0127"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0135",
+      "module": "SENTENCES",
+      "cardId": "sentence-321",
+      "field": "lv",
+      "current": "¡Se usa viaje!",
+      "new": "¡Buen viaje!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción actual es agramatical y no expresa el deseo de un buen viaje.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0128"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0136",
+      "module": "SENTENCES",
+      "cardId": "sentence-324",
+      "field": "lv",
+      "current": "¡Ya está bueno!",
+      "new": "¡Está bien!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Ya está bueno» resulta poco idiomático aquí; «¡Está bien!» reproduce el sentido de conformidad.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0129"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0137",
+      "module": "SENTENCES",
+      "cardId": "sentence-325",
+      "field": "lv",
+      "current": "¡Por favor!",
+      "new": "¡De nada!",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "Como fórmula independiente, «Bitte schön!» suele significar «de nada» o «aquí tiene», no simplemente «por favor».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0130"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0138",
+      "module": "SENTENCES",
+      "cardId": "sentence-327",
+      "field": "lv",
+      "current": "Agitar antes de usar!",
+      "new": "¡Agite antes de usar!",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "Falta el signo de apertura y conviene usar el imperativo formal de una instrucción.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0131"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0139",
+      "module": "SENTENCES",
+      "cardId": "sentence-328",
+      "field": "lv",
+      "current": "¡Echa un vistazo!",
+      "new": "¡Eche un vistazo!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sie» exige tratamiento formal; «echa» es la forma informal de tú.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0132"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0140",
+      "module": "SENTENCES",
+      "cardId": "sentence-329",
+      "field": "lv",
+      "current": "Cuánto cuesta...",
+      "new": "Por mucho que...",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción actual pregunta por un precio y no corresponde a «wie sehr auch».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0133"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0141",
+      "module": "SENTENCES",
+      "cardId": "sentence-335",
+      "field": "lv",
+      "current": "¡No es broma! • ¡Bromas al límite!",
+      "new": "¡Bromas aparte!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La expresión idiomática española equivalente es «¡Bromas aparte!»; las opciones actuales no corresponden.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0134"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0142",
+      "module": "SENTENCES",
+      "cardId": "sentence-336",
+      "field": "lv",
+      "current": "¿qué hora es?",
+      "new": "¿Qué hora es?",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La pregunta comienza con minúscula; debe llevar mayúscula inicial.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0135"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0143",
+      "module": "SENTENCES",
+      "cardId": "sentence-338",
+      "field": "lv",
+      "current": "¿Hablas alemán?",
+      "new": "¿Habla alemán?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sie» requiere tratamiento formal; «hablas» usa la segunda persona informal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0136"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0144",
+      "module": "SENTENCES",
+      "cardId": "sentence-340",
+      "field": "lv",
+      "current": "Cómo estás",
+      "new": "¿Cómo va?",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "AUGSTA",
+      "ownerReason": "Faltan los signos de interrogación y la traducción literal «cómo estás» no refleja la expresión idiomática.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0137"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0145",
+      "module": "SENTENCES",
+      "cardId": "sentence-344",
+      "field": "lv",
+      "current": "¡Acércate!",
+      "new": "¡Acérquese!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sie» exige tratamiento formal; «acércate» es el imperativo informal de tú.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0138"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0146",
+      "module": "SENTENCES",
+      "cardId": "sentence-347",
+      "field": "lv",
+      "current": "¡Muy bien! • No hay ninguna objeción",
+      "new": "¡No está mal!",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "«No hay ninguna objeción» significa ausencia de oposición y no traduce «Nicht übel!»; la alternativa actual es imprecisa.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0139"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0147",
+      "module": "SENTENCES",
+      "cardId": "sentence-350",
+      "field": "lv",
+      "current": "Se acepta.",
+      "new": "Así se acostumbra.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Se acepta» significa que algo es aceptado, no que sea una práctica habitual.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0140"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0148",
+      "module": "SENTENCES",
+      "cardId": "sentence-354",
+      "field": "lv",
+      "current": "cuanto más",
+      "new": "tanto más",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Cuanto más» suele requerir una segunda parte comparativa; «tanto más» corresponde a la expresión aislada.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0141"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0149",
+      "module": "SENTENCES",
+      "cardId": "sentence-356",
+      "field": "lv",
+      "current": "¡Y qué más!",
+      "new": "¡Y tanto!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Und ob!» es una afirmación enfática; «¡Y qué más!» significa «what else?» y cambia el sentido.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0142"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0150",
+      "module": "SENTENCES",
+      "cardId": "sentence-359",
+      "field": "lv",
+      "current": "Se sentó entre la audiencia.",
+      "new": "Estaba sentado entre los espectadores.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán describe un estado («estaba sentado»), no la acción de sentarse.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0143"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0151",
+      "module": "SENTENCES",
+      "cardId": "sentence-360",
+      "field": "lv",
+      "current": "¡Nada por nada!",
+      "new": "¡De nada!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Keine Ursache!» es una respuesta a un agradecimiento; «¡Nada por nada!» no es idiomático en español.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0144"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0152",
+      "module": "SENTENCES",
+      "cardId": "sentence-363",
+      "field": "lv",
+      "current": "¡Conexión incorrecta!",
+      "new": "¡Se ha equivocado de número!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "En contexto telefónico, la expresión idiomática española indica que se ha marcado o conectado un número equivocado.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0145"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0153",
+      "module": "SENTENCES",
+      "cardId": "sentence-365",
+      "field": "lv",
+      "current": "¿Me entiendes?",
+      "new": "¿Me entiende?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa tratamiento formal («Sie»), pero el español actual usa la forma informal «tú».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0146"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0154",
+      "module": "SENTENCES",
+      "cardId": "sentence-367",
+      "field": "lv",
+      "current": "Defiende tu opinión.",
+      "new": "Defender su opinión.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "El original es una frase en infinitivo y expresa «su» opinión, no un imperativo dirigido a «tú».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0147"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0155",
+      "module": "SENTENCES",
+      "cardId": "sentence-371",
+      "field": "lv",
+      "current": "Después de escuchar.",
+      "new": "De oídas.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Vom Hörensagen» significa saber algo de oídas, no «después de escuchar».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0148"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0156",
+      "module": "SENTENCES",
+      "cardId": "sentence-375",
+      "field": "lv",
+      "current": "Él está parado junto a la ventana.",
+      "new": "Está de pie delante de la ventana.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Vor dem Fenster» significa «delante de la ventana», no simplemente «junto a la ventana».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0149"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0157",
+      "module": "SENTENCES",
+      "cardId": "sentence-377",
+      "field": "lv",
+      "current": "Hace dos semanas.",
+      "new": "Hace catorce días.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "El original especifica catorce días; «dos semanas» es una reformulación aproximada, no exacta.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0150"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0158",
+      "module": "SENTENCES",
+      "cardId": "sentence-378",
+      "field": "lv",
+      "current": "Por diversión.",
+      "new": "De alegría.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Vor Freude» significa «de alegría»; «por diversión» expresa una causa completamente distinta.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0151"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0159",
+      "module": "SENTENCES",
+      "cardId": "sentence-379",
+      "field": "lv",
+      "current": "En primer lugar. • En primer lugar",
+      "new": "Sobre todo.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Vor allem» significa «sobre todo»; además, la traducción actual está duplicada.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0152"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0160",
+      "module": "SENTENCES",
+      "cardId": "sentence-380",
+      "field": "lv",
+      "current": "Previamente.",
+      "new": "De antemano.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Previamente» significa «con anterioridad», pero «de antemano» es la equivalencia idiomática de «im Voraus».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0153"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0161",
+      "module": "SENTENCES",
+      "cardId": "sentence-382",
+      "field": "lv",
+      "current": "Condicionalmente.",
+      "new": "Bajo reserva.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Unter dem Vorbehalt» significa «bajo reserva» o «con salvedades», no simplemente «condicionalmente».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0154"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0162",
+      "module": "SENTENCES",
+      "cardId": "sentence-383",
+      "field": "lv",
+      "current": "Ser. • Estar presente • Estar disponible",
+      "new": "Existir. • Estar presente. • Estar disponible.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Ser» no traduce «vorhanden sein» en este sentido; las otras opciones sí son adecuadas.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0155"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0163",
+      "module": "SENTENCES",
+      "cardId": "sentence-385",
+      "field": "lv",
+      "current": "Tomar medidas de protección.",
+      "new": "Tomar precauciones.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Vorkehrungen» significa «precauciones» o «medidas preventivas», no necesariamente medidas de protección.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0156"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0164",
+      "module": "SENTENCES",
+      "cardId": "sentence-391",
+      "field": "lv",
+      "current": "Al principio.",
+      "new": "De antemano.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Von vornherein» significa «de antemano» o «desde el principio», no solo «al principio».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0157"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0165",
+      "module": "SENTENCES",
+      "cardId": "sentence-395",
+      "field": "lv",
+      "current": "Haz guardia.",
+      "new": "Estar de guardia.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán presenta una locución en infinitivo; el español actual la convierte en un imperativo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0158"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0166",
+      "module": "SENTENCES",
+      "cardId": "sentence-396",
+      "field": "lv",
+      "current": "Durante el año.",
+      "new": "Durante un año.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "El original usa artículo indefinido («un año»), mientras que «el año» cambia la referencia temporal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0159"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0167",
+      "module": "SENTENCES",
+      "cardId": "sentence-398",
+      "field": "lv",
+      "current": "Habla en vano.",
+      "new": "Hablarle a una pared.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "El original es la imagen idiomática de hablarle a una pared y además está en infinitivo, no en imperativo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0160"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0168",
+      "module": "SENTENCES",
+      "cardId": "sentence-400",
+      "field": "lv",
+      "current": "¿Hasta cuando?",
+      "new": "¿Hasta cuándo?",
+      "status": "LABOT",
+      "category": "ORTHOGRAPHY",
+      "severity": "VIDĒJA",
+      "ownerReason": "El adverbio interrogativo «cuándo» lleva tilde.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0161"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0169",
+      "module": "SENTENCES",
+      "cardId": "sentence-401",
+      "field": "lv",
+      "current": "Es cálido.",
+      "new": "Hace calor.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "Para referirse al tiempo atmosférico, el español usa normalmente «Hace calor».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0162"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0170",
+      "module": "SENTENCES",
+      "cardId": "sentence-402",
+      "field": "lv",
+      "current": "Espere el mensaje.",
+      "new": "Esperar un mensaje.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán es un infinitivo y significa esperar un mensaje, no una orden formal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0163"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0171",
+      "module": "SENTENCES",
+      "cardId": "sentence-403",
+      "field": "lv",
+      "current": "¿Qué deseas?",
+      "new": "¿Qué desea?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sie» exige tratamiento formal; «deseas» es informal de segunda persona singular.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0164"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0172",
+      "module": "SENTENCES",
+      "cardId": "sentence-406",
+      "field": "lv",
+      "current": "De esa manera. • Para dichos fondos",
+      "new": "De esta manera. • Por este medio.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La primera alternativa cambia «este» por «esa» y la segunda no corresponde al significado alemán.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0165"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0173",
+      "module": "SENTENCES",
+      "cardId": "sentence-407",
+      "field": "lv",
+      "current": "En el camino de la paz.",
+      "new": "Por medios pacíficos.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "La expresión significa actuar pacíficamente, no estar en un camino relacionado con la paz.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0166"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0174",
+      "module": "SENTENCES",
+      "cardId": "sentence-409",
+      "field": "lv",
+      "current": "Por la justicia.",
+      "new": "Por derecho.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Von Rechts wegen» significa «por derecho» o «legalmente», no «por la justicia».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0167"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0175",
+      "module": "SENTENCES",
+      "cardId": "sentence-410",
+      "field": "lv",
+      "current": "Para lastimar.",
+      "new": "Hacer daño.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán expresa «doler» o «hacer daño»; «para lastimar» expresa finalidad.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0168"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0176",
+      "module": "SENTENCES",
+      "cardId": "sentence-413",
+      "field": "lv",
+      "current": "Tipo.",
+      "new": "Manera.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "«Art und Weise» significa «manera» o «forma», no simplemente «tipo».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0169"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0177",
+      "module": "SENTENCES",
+      "cardId": "sentence-414",
+      "field": "lv",
+      "current": "Inmediatamente. • Inmediatamente",
+      "new": "Sin más. • Sin dificultad.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La expresión significa «sin más» o «fácilmente», no «inmediatamente».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0170"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0178",
+      "module": "SENTENCES",
+      "cardId": "sentence-420",
+      "field": "lv",
+      "current": "En algunos días.",
+      "new": "En pocos días.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Wenigen» significa «pocos», no «algunos».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0171"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0179",
+      "module": "SENTENCES",
+      "cardId": "sentence-422",
+      "field": "lv",
+      "current": "A pesar de.",
+      "new": "Aunque.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Wenn auch» es una conjunción equivalente a «aunque»; «a pesar de» requiere otra construcción.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0172"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0180",
+      "module": "SENTENCES",
+      "cardId": "sentence-423",
+      "field": "lv",
+      "current": "¿Qué hay ahí?",
+      "new": "¿Quién está ahí?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Wer» pregunta por una persona («quién»), no por una cosa o situación («qué hay»).",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0173"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0181",
+      "module": "SENTENCES",
+      "cardId": "sentence-430",
+      "field": "lv",
+      "current": "Entra en la competición.",
+      "new": "Competir.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán es un infinitivo; la traducción actual es una forma finita de tercera persona.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0174"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0182",
+      "module": "SENTENCES",
+      "cardId": "sentence-431",
+      "field": "lv",
+      "current": "Corre la carrera.",
+      "new": "Correr una carrera.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "ownerReason": "Debe conservarse el infinitivo del alemán; la forma actual es una oración en tercera persona.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0175"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0183",
+      "module": "SENTENCES",
+      "cardId": "sentence-432",
+      "field": "lv",
+      "current": "¿Qué estamos negociando?",
+      "new": "¿Qué se apuesta?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "La pregunta se refiere a lo que está en juego en la apuesta, no a una negociación.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0176"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0184",
+      "module": "SENTENCES",
+      "cardId": "sentence-433",
+      "field": "lv",
+      "current": "¿Cómo será el clima?",
+      "new": "¿Qué tiempo hará?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Para «Wetter», «tiempo» es la opción idiomática habitual en este contexto meteorológico.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0177"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0185",
+      "module": "SENTENCES",
+      "cardId": "sentence-434",
+      "field": "lv",
+      "current": "Competiciones de gimnasia.",
+      "new": "Competición de gimnasia.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "ownerReason": "El sustantivo alemán está en singular; la traducción actual usa plural.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0178"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0186",
+      "module": "SENTENCES",
+      "cardId": "sentence-438",
+      "field": "lv",
+      "current": "cuánto tiempo",
+      "new": "¿Cuánto tiempo?",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "AUGSTA",
+      "ownerReason": "Faltan los signos de interrogación y la mayúscula inicial.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0179"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0187",
+      "module": "SENTENCES",
+      "cardId": "sentence-442",
+      "field": "lv",
+      "current": "¡Saludos cordiales!",
+      "new": "¡Bienvenido!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Herzlich willkommen» es un saludo de bienvenida, no «saludos cordiales».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0180"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0188",
+      "module": "SENTENCES",
+      "cardId": "sentence-443",
+      "field": "lv",
+      "current": "Tienes un movimiento.",
+      "new": "Tienes que tirar.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán significa que debes tirar; la traducción actual no expresa esa acción.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0181"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0189",
+      "module": "SENTENCES",
+      "cardId": "sentence-444",
+      "field": "lv",
+      "current": "Jalar",
+      "new": "Hay corriente.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "En este uso meteorológico, «Es zieht» significa que hay corriente de aire; además, falta una forma verbal conjugada.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0182"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0190",
+      "module": "SENTENCES",
+      "cardId": "sentence-447",
+      "field": "lv",
+      "current": "Ve con él.",
+      "new": "Ir con él.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán es un infinitivo; «ve» es un imperativo de segunda persona.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0183"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0191",
+      "module": "SENTENCES",
+      "cardId": "sentence-448",
+      "field": "lv",
+      "current": "Ve a la escuela.",
+      "new": "Ir a la escuela.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán es un infinitivo; «ve» es un imperativo de segunda persona.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0184"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0192",
+      "module": "SENTENCES",
+      "cardId": "sentence-450",
+      "field": "lv",
+      "current": "A diario.",
+      "new": "De día en día.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«A diario» significa «diariamente», no «de día en día»; cambia el sentido progresivo de la expresión alemana.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0185"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0193",
+      "module": "SENTENCES",
+      "cardId": "sentence-453",
+      "field": "lv",
+      "current": "Para piernas.",
+      "new": "A pie.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Para piernas» no traduce la locución alemana; «zu Fuß» significa «a pie».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0186"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0194",
+      "module": "SENTENCES",
+      "cardId": "sentence-454",
+      "field": "lv",
+      "current": "Sí.",
+      "new": "A caballo.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción actual no guarda relación con el original; «zu Pferde» significa «a caballo».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0187"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0195",
+      "module": "SENTENCES",
+      "cardId": "sentence-460",
+      "field": "lv",
+      "current": "Encogimiento de hombros.",
+      "new": "Encogerse de hombros.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa un infinitivo verbal; la traducción actual es un sustantivo y no mantiene la estructura.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0188"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0196",
+      "module": "SENTENCES",
+      "cardId": "sentence-461",
+      "field": "lv",
+      "current": "Bebe de un trago.",
+      "new": "Beber de un trago.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "ownerReason": "El original es un infinitivo; «bebe» es un imperativo o presente de segunda persona.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0189"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0197",
+      "module": "SENTENCES",
+      "cardId": "sentence-465",
+      "field": "lv",
+      "current": "¡Por favor cierra la puerta!",
+      "new": "¡Cierre la puerta, por favor!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán usa el tratamiento formal «Sie», pero «cierra» es informal; además falta una coma tras «por favor».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0190"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0198",
+      "module": "SENTENCES",
+      "cardId": "sentence-474",
+      "field": "lv",
+      "current": "Vuélvete repugnante. • enfermarse",
+      "new": "Volverse repugnante.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "El original es un infinitivo; «vuélvete» es imperativo y «enfermarse» no corresponde al significado principal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0191"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0199",
+      "module": "SENTENCES",
+      "cardId": "sentence-477",
+      "field": "lv",
+      "current": "Sin dudarlo.",
+      "new": "Sin duda.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Sin dudarlo» significa «sin vacilar»; la expresión alemana significa «sin duda».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0192"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0200",
+      "module": "SENTENCES",
+      "cardId": "sentence-479",
+      "field": "lv",
+      "current": "¡Se usa año nuevo!",
+      "new": "¡Feliz año nuevo!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción actual es incorrecta y no expresa el saludo de Año Nuevo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0193"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0201",
+      "module": "SENTENCES",
+      "cardId": "sentence-480",
+      "field": "lv",
+      "current": "¡Se usa cumpleaños!",
+      "new": "¡Feliz cumpleaños!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción actual es incorrecta y no expresa una felicitación de cumpleaños.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0194"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0202",
+      "module": "SENTENCES",
+      "cardId": "sentence-481",
+      "field": "lv",
+      "current": "¡Se usa viaje!",
+      "new": "¡Buen viaje!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción actual es incorrecta; el saludo alemán significa «¡Buen viaje!».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0195"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0203",
+      "module": "SENTENCES",
+      "cardId": "sentence-482",
+      "field": "lv",
+      "current": "Me alegro de conocerte.",
+      "new": "Me alegro de conocerle.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sie» requiere tratamiento formal; «conocerte» es informal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0196"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0204",
+      "module": "SENTENCES",
+      "cardId": "sentence-483",
+      "field": "lv",
+      "current": "¿Serías tan amable por favor?",
+      "new": "¿Sería tan amable, por favor?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sie» requiere la forma formal «sería», no la informal «serías»; también falta una coma.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0197"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0205",
+      "module": "SENTENCES",
+      "cardId": "sentence-484",
+      "field": "lv",
+      "current": "Te estoy muy agradecido.",
+      "new": "Le estoy muy agradecido.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán usa el pronombre formal «Ihnen»; «te» es informal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0198"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0206",
+      "module": "SENTENCES",
+      "cardId": "sentence-485",
+      "field": "lv",
+      "current": "¡Siéntate, por favor!",
+      "new": "¡Sentaos, por favor!",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "«Euch» y el verbo alemán están en plural; «siéntate» es singular.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0199"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0207",
+      "module": "SENTENCES",
+      "cardId": "sentence-487",
+      "field": "lv",
+      "current": "¡Abre los libros de texto, por favor!",
+      "new": "¡Abrid los libros de texto, por favor!",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El imperativo alemán es plural; «abre» es singular.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0200"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0208",
+      "module": "SENTENCES",
+      "cardId": "sentence-488",
+      "field": "lv",
+      "current": "¡Por favor ve al gimnasio!",
+      "new": "¡Id al polideportivo, por favor!",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El imperativo alemán es plural; «ve» es singular. «Polideportivo» traduce mejor «Sporthalle».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0201"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0209",
+      "module": "SENTENCES",
+      "cardId": "sentence-490",
+      "field": "lv",
+      "current": "¿Todavía estás durmiendo?",
+      "new": "¿Todavía está durmiendo?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sie» requiere tratamiento formal; «estás» es informal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0202"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0210",
+      "module": "SENTENCES",
+      "cardId": "sentence-492",
+      "field": "lv",
+      "current": "¡Por favor despiértalo, ya es tarde!",
+      "new": "¡Por favor, despiértalo; ya es tarde!",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "Falta la coma obligatoria tras «por favor» y conviene separar las dos proposiciones con punto y coma.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0203"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0211",
+      "module": "SENTENCES",
+      "cardId": "sentence-496",
+      "field": "lv",
+      "current": "¡Sigue leyendo, por favor!",
+      "new": "¡Leed, por favor!",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Sigue leyendo» significa «continúa leyendo»; el alemán pide leer conjuntamente o seguir la lectura.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0204"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0212",
+      "module": "SENTENCES",
+      "cardId": "sentence-497",
+      "field": "lv",
+      "current": "Emma, ​​¡por favor no mires por la ventana!",
+      "new": "Emma, ¡por favor, no mires por la ventana!",
+      "status": "LABOT",
+      "category": "ORTHOGRAPHY",
+      "severity": "ZEMA",
+      "ownerReason": "Contiene caracteres invisibles espurios y falta la coma tras «por favor».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0205"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0213",
+      "module": "SENTENCES",
+      "cardId": "sentence-499",
+      "field": "lv",
+      "current": "¡Vuelve a tu casa!",
+      "new": "¡Vuelve a tu sitio, por favor!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«An deinen Platz» significa «a tu sitio/lugar», no «a tu casa».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0206"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0214",
+      "module": "SENTENCES",
+      "cardId": "sentence-506",
+      "field": "lv",
+      "current": "donde esta la toalla",
+      "new": "¿Dónde está la toalla?",
+      "status": "LABOT",
+      "category": "ORTHOGRAPHY",
+      "severity": "VIDĒJA",
+      "ownerReason": "Faltan mayúsculas, tildes y los signos de interrogación inicial y final.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0207"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0215",
+      "module": "SENTENCES",
+      "cardId": "sentence-511",
+      "field": "lv",
+      "current": "Vístase abrigado, hace frío afuera.",
+      "new": "¡Abrígate más, que afuera hace fresco!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "Usa el tratamiento formal en vez del informal y traduce «kühl» como «frío», además de sonar poco natural.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0208"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0216",
+      "module": "SENTENCES",
+      "cardId": "sentence-513",
+      "field": "lv",
+      "current": "Estoy bien gracias.",
+      "new": "Estoy bien, gracias.",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "Falta la coma que separa la expresión de agradecimiento.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0209"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0217",
+      "module": "SENTENCES",
+      "cardId": "sentence-519",
+      "field": "lv",
+      "current": "Yo bebo mejor café negro.",
+      "new": "Prefiero tomar café negro.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Bebo mejor» no expresa preferencia y resulta antinatural en español.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0210"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0218",
+      "module": "SENTENCES",
+      "cardId": "sentence-523",
+      "field": "lv",
+      "current": "Dame un panecillo de queso, por favor.",
+      "new": "Dame un panecillo con queso, por favor.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Panecillo de queso» suele significar un panecillo hecho de queso, no uno servido con queso.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0211"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0219",
+      "module": "SENTENCES",
+      "cardId": "sentence-526",
+      "field": "lv",
+      "current": "¡Clara, por favor pon la mesa!",
+      "new": "¡Clara, por favor, pon la mesa!",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "«Por favor» funciona como inciso y debe ir delimitado por comas.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0212"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0220",
+      "module": "SENTENCES",
+      "cardId": "sentence-528",
+      "field": "lv",
+      "current": "cuando almuerzas",
+      "new": "¿Cuándo almorzáis?",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "Faltan tildes y signos de interrogación; además, «almuerzas» es singular, pero «ihr» es plural.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0213"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0221",
+      "module": "SENTENCES",
+      "cardId": "sentence-532",
+      "field": "lv",
+      "current": "Francamente, es demasiado salado.",
+      "new": "Francamente, está un poco demasiado salada.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sopa» es femenino, por lo que debe ser «salada»; además, se omite «un poco».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0214"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0222",
+      "module": "SENTENCES",
+      "cardId": "sentence-534",
+      "field": "lv",
+      "current": "Gracias, ya lo tengo.",
+      "new": "Gracias, ya he comido.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "En este contexto, «ich habe schon» significa que ya ha comido o tomado algo, no que ya lo tiene.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0215"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0223",
+      "module": "SENTENCES",
+      "cardId": "sentence-541",
+      "field": "lv",
+      "current": "¡Por favor come todo lo que quieras!",
+      "new": "¡Por favor, sírvete!",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "«Bedien dich» significa «sírvete» o «ayúdate», no «come todo lo que quieras».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0216"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0224",
+      "module": "SENTENCES",
+      "cardId": "sentence-542",
+      "field": "lv",
+      "current": "¿Le molesta fumar?",
+      "new": "¿Te molesta fumar?",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán usa trato informal («dich»), pero el español emplea el pronombre formal «le».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0217"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0225",
+      "module": "SENTENCES",
+      "cardId": "sentence-544",
+      "field": "lv",
+      "current": "cuando te vas a dormir",
+      "new": "¿Cuándo te acuestas?",
+      "status": "LABOT",
+      "category": "ORTHOGRAPHY",
+      "severity": "VIDĒJA",
+      "ownerReason": "Faltan mayúscula, tilde y signos de interrogación; «acostarse» refleja mejor «ins Bett gehen».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0218"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0226",
+      "module": "SENTENCES",
+      "cardId": "sentence-547",
+      "field": "lv",
+      "current": "Es un buen momento.",
+      "new": "Hace buen tiempo.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Un buen momento» significa «ein guter Zeitpunkt»; la frase alemana se refiere al buen tiempo meteorológico.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0219"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0227",
+      "module": "SENTENCES",
+      "cardId": "sentence-554",
+      "field": "lv",
+      "current": "La lluvia cesa.",
+      "new": "Deja de llover.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "La versión actual es gramatical, pero suena excesivamente formal y poco idiomática en este contexto.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0220"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0228",
+      "module": "SENTENCES",
+      "cardId": "sentence-559",
+      "field": "lv",
+      "current": "La tormenta ha pasado.",
+      "new": "La tormenta está pasando.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán describe una tormenta que está pasando; el español actual indica que ya terminó.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0221"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0229",
+      "module": "SENTENCES",
+      "cardId": "sentence-562",
+      "field": "lv",
+      "current": "El invierno ya está aquí, nevó por la noche.",
+      "new": "El invierno ya está aquí, ha nevado.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "Se añade sin base que nevó por la noche, alterando el contenido del original.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0222"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0230",
+      "module": "SENTENCES",
+      "cardId": "sentence-566",
+      "field": "lv",
+      "current": "Afuera está resbaladizo, ¡cuidado!",
+      "new": "Hay placas de hielo afuera, ¡cuidado!",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "Glatteis se refiere a hielo peligroso en la superficie, no simplemente a que el exterior sea resbaladizo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0223"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0231",
+      "module": "SENTENCES",
+      "cardId": "sentence-569",
+      "field": "lv",
+      "current": "Son las siete y media.",
+      "new": "Son las seis y media.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "En alemán halb sieben significa las seis y media, no las siete y media.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0224"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0232",
+      "module": "SENTENCES",
+      "cardId": "sentence-576",
+      "field": "lv",
+      "current": "Cómo estás",
+      "new": "¿Cómo estás?",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "Faltan los signos de interrogación y la tilde obligatoria en «Cómo».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0225"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0233",
+      "module": "SENTENCES",
+      "cardId": "sentence-577",
+      "field": "lv",
+      "current": "Disculpe, quiero discutir algo con usted.",
+      "new": "Perdona, quiero hablar contigo de algo.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "El original usa trato informal; además, «discutir» puede significar discutir o pelear, no simplemente hablar de algo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0226"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0234",
+      "module": "SENTENCES",
+      "cardId": "sentence-580",
+      "field": "lv",
+      "current": "Vine a llevarte a caminar.",
+      "new": "Vengo a recogerte para dar un paseo.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Vine» cambia el presente a pasado y «llevarte» no expresa venir a recogerte.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0227"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0235",
+      "module": "SENTENCES",
+      "cardId": "sentence-582",
+      "field": "lv",
+      "current": "Estoy aquí por primera vez.",
+      "new": "Estoy en esta zona por primera vez.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Aquí» omite la referencia específica a esta zona o área.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0228"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0236",
+      "module": "SENTENCES",
+      "cardId": "sentence-586",
+      "field": "lv",
+      "current": "Disculpe, ¿dónde está la estación de metro más cercana?",
+      "new": "Perdona, ¿dónde está la estación de metro más cercana?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Entschuldige» es informal, mientras que «disculpe» usa el tratamiento formal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0229"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0237",
+      "module": "SENTENCES",
+      "cardId": "sentence-589",
+      "field": "lv",
+      "current": "¿Cómo llegar más rápido a la estación?",
+      "new": "¿Cómo llego más rápido a la estación?",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "ownerReason": "La pregunta alemana está en primera persona; el infinitivo español resulta incompleto y poco natural aquí.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0230"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0238",
+      "module": "SENTENCES",
+      "cardId": "sentence-593",
+      "field": "lv",
+      "current": "Finn conducirá hasta Berlín y luego irá al mar.",
+      "new": "Finn irá hasta Berlín y luego irá al mar.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Fährt mit» indica que Finn va acompañado o viaja con alguien, no que conduzca.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0231"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0239",
+      "module": "SENTENCES",
+      "cardId": "sentence-595",
+      "field": "lv",
+      "current": "Después de media hora.",
+      "new": "Dentro de media hora.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«In einer halben Stunde» significa dentro de media hora, no después de que transcurra media hora.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0232"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0240",
+      "module": "SENTENCES",
+      "cardId": "sentence-596",
+      "field": "lv",
+      "current": "¿Aún puedo conseguir una cabaña?",
+      "new": "¿Aún puedo conseguir un camarote?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "En el contexto de un barco, Kabine significa camarote; «cabaña» es una vivienda pequeña.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0233"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0241",
+      "module": "SENTENCES",
+      "cardId": "sentence-599",
+      "field": "lv",
+      "current": "El tren sale a las siete y media.",
+      "new": "El tren sale a las seis y media.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "En alemán halb sieben corresponde a las seis y media, no a las siete y media.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0234"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0242",
+      "module": "SENTENCES",
+      "cardId": "sentence-600",
+      "field": "lv",
+      "current": "¡Llame a un taxi, por favor, sino perderé el tren!",
+      "new": "¡Pídeme un taxi, por favor, si no perderé el tren!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "Usa tratamiento formal frente al imperativo informal alemán y «sino» debe escribirse «si no» en esta condición.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0235"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0243",
+      "module": "SENTENCES",
+      "cardId": "sentence-607",
+      "field": "lv",
+      "current": "¿Tengo que cambiar de asiento en Coblenza?",
+      "new": "¿Tengo que hacer transbordo en Coblenza?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Umsteigen» significa cambiar de tren o hacer transbordo, no cambiar de asiento.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0236"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0244",
+      "module": "SENTENCES",
+      "cardId": "sentence-608",
+      "field": "lv",
+      "current": "Sí, tienes que cambiar de asiento allí.",
+      "new": "Sí, tienes que hacer transbordo allí.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "El verbo alemán se refiere a hacer transbordo, no a cambiar de asiento.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0237"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0245",
+      "module": "SENTENCES",
+      "cardId": "sentence-609",
+      "field": "lv",
+      "current": "¿Está disponible este lugar?",
+      "new": "¿Está libre este asiento?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "ZEMA",
+      "ownerReason": "En el contexto de un tren, «asiento» y «estar libre» son las formas idiomáticas habituales.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0238"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0246",
+      "module": "SENTENCES",
+      "cardId": "sentence-612",
+      "field": "lv",
+      "current": "Pon mi equipaje de mano en la parrilla.",
+      "new": "Pon mi equipaje de mano en la red portaequipajes.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Gepäcknetz» es una red o espacio portaequipajes; «parrilla» no corresponde en este contexto ferroviario.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0239"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0247",
+      "module": "SENTENCES",
+      "cardId": "sentence-614",
+      "field": "lv",
+      "current": "¡Sal, por favor cierra la ventana!",
+      "new": "¡Hay corriente, cierra la ventana, por favor!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Es zieht» significa «hay corriente»; «sal» es una traducción errónea y cambia completamente el sentido.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0240"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0248",
+      "module": "SENTENCES",
+      "cardId": "sentence-616",
+      "field": "lv",
+      "current": "¿Cuánto tiempo permanece parado el tren?",
+      "new": "¿Cuánto tiempo permanece detenido el tren?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Permanece parado» suena poco idiomático para un tren; «permanece detenido» expresa mejor la parada.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0241"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0249",
+      "module": "SENTENCES",
+      "cardId": "sentence-617",
+      "field": "lv",
+      "current": "¿A dónde debo transferirme?",
+      "new": "¿Dónde tengo que hacer transbordo?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "En transporte público, «umsteigen» se traduce como «hacer transbordo», no «transferirme».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0242"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0250",
+      "module": "SENTENCES",
+      "cardId": "sentence-619",
+      "field": "lv",
+      "current": "Este carruaje es para no fumadores.",
+      "new": "Este vagón es para no fumadores.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "En un tren, «Wagen» significa «vagón»; «carruaje» se refiere normalmente a vehículos de tracción animal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0243"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0251",
+      "module": "SENTENCES",
+      "cardId": "sentence-621",
+      "field": "lv",
+      "current": "¿Tienes algo que aclarar?",
+      "new": "¿Tienes algo que declarar?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Zu verzollen» alude a declarar mercancías en aduanas, no a aclarar algo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0244"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0252",
+      "module": "SENTENCES",
+      "cardId": "sentence-636",
+      "field": "lv",
+      "current": "Camareros, menú, ¡por favor!",
+      "new": "¡Camarero, la carta, por favor!",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "ownerReason": "El vocativo alemán es singular y falta el artículo; «camareros» y la estructura actual no son naturales.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0245"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0253",
+      "module": "SENTENCES",
+      "cardId": "sentence-639",
+      "field": "lv",
+      "current": "¡Camareros, por favor paguen!",
+      "new": "¡Camarero, la cuenta, por favor!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Zahlen» aquí significa pedir la cuenta, no ordenar a los camareros que paguen; además, el vocativo es singular.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0246"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0254",
+      "module": "SENTENCES",
+      "cardId": "sentence-640",
+      "field": "lv",
+      "current": "Iré a una cafetería a tomar café.",
+      "new": "Voy a una cafetería a tomar café.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "El presente alemán expresa una acción inmediata o prevista; el futuro «iré» cambia innecesariamente el tiempo verbal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0247"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0255",
+      "module": "SENTENCES",
+      "cardId": "sentence-643",
+      "field": "lv",
+      "current": "¡Más rápido por favor, tengo que darme prisa!",
+      "new": "¡Más rápido, por favor, que tengo prisa!",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "Faltan comas para aislar «por favor» y la formulación propuesta refleja mejor «ich habe es eilig».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0248"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0256",
+      "module": "SENTENCES",
+      "cardId": "sentence-645",
+      "field": "lv",
+      "current": "¿Tienes algo refrescante?",
+      "new": "¿Tiene algo refrescante?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Haben Sie» requiere tratamiento formal; «tienes» usa la segunda persona informal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0249"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0257",
+      "module": "SENTENCES",
+      "cardId": "sentence-648",
+      "field": "lv",
+      "current": "Debo escribirle ahora.",
+      "new": "Debo escribirle enseguida.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "ZEMA",
+      "ownerReason": "«Gleich» significa «enseguida» o «dentro de poco», no necesariamente «ahora» en sentido inmediato.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0250"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0258",
+      "module": "SENTENCES",
+      "cardId": "sentence-651",
+      "field": "lv",
+      "current": "¡Recuérdame firmar mañana!",
+      "new": "¡Recuérdame escribir mañana!",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Firmar» significa firmar; el alemán indica recordar escribir.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0251"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0259",
+      "module": "SENTENCES",
+      "cardId": "sentence-652",
+      "field": "lv",
+      "current": "¡Por favor deje esta carta en el buzón!",
+      "new": "¡Por favor, deje esta carta en el buzón!",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "Falta la coma recomendada después de «Por favor».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0252"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0260",
+      "module": "SENTENCES",
+      "cardId": "sentence-653",
+      "field": "lv",
+      "current": "Hola, ella es Emma.",
+      "new": "Hola, soy Emma.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "En una presentación telefónica, «hier spricht Emma» significa «soy Emma», no «ella es Emma».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0253"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0261",
+      "module": "SENTENCES",
+      "cardId": "sentence-656",
+      "field": "lv",
+      "current": "Por favor córtame el pelo.",
+      "new": "Por favor, córteme el pelo.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa tratamiento formal («Sie»), pero el español emplea el informal «córtame».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0254"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0262",
+      "module": "SENTENCES",
+      "cardId": "sentence-657",
+      "field": "lv",
+      "current": "En la parte de atrás, por favor, no demasiado corta.",
+      "new": "Por detrás, por favor, no demasiado corto.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Pelo» es masculino; debe concordar «corto», no «corta».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0255"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0263",
+      "module": "SENTENCES",
+      "cardId": "sentence-659",
+      "field": "lv",
+      "current": "Empieza a las ocho y media.",
+      "new": "Empieza a las siete y media.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La hora alemana «halb acht» corresponde a las 7:30, no a las 8:30.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0256"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0264",
+      "module": "SENTENCES",
+      "cardId": "sentence-662",
+      "field": "lv",
+      "current": "Dejemos las chaquetas en el armario.",
+      "new": "Dejamos las chaquetas en el guardarropa.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Garderobe» es el guardarropa o ropero, no un armario.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0257"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0265",
+      "module": "SENTENCES",
+      "cardId": "sentence-666",
+      "field": "lv",
+      "current": "¿Cuándo es tu boda?",
+      "new": "¿Cuándo es vuestra boda?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Eure» se dirige a varias personas; «tu» es singular.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0258"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0266",
+      "module": "SENTENCES",
+      "cardId": "sentence-673",
+      "field": "lv",
+      "current": "¿Está todo ya en caja?",
+      "new": "¿Has empaquetado todo ya?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán pregunta si la persona ha empaquetado todo, no si todo está en una sola caja.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0259"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0267",
+      "module": "SENTENCES",
+      "cardId": "sentence-674",
+      "field": "lv",
+      "current": "Estoy en correspondencia con mi amigo.",
+      "new": "Estoy en contacto con mi amigo.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«In Kontakt stehen» significa estar en contacto, no estar en correspondencia.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0260"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0268",
+      "module": "SENTENCES",
+      "cardId": "sentence-678",
+      "field": "lv",
+      "current": "Ahora podemos volver a armar todo.",
+      "new": "Ahora podemos volver a ordenar todo.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Aufräumen» significa ordenar o recoger, mientras que «armar» significa montar.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0261"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0269",
+      "module": "SENTENCES",
+      "cardId": "sentence-679",
+      "field": "lv",
+      "current": "¿Cuántas habitaciones tienes?",
+      "new": "¿Cuántas habitaciones tenéis?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Ihr» es plural; «tienes» se dirige a una sola persona.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0262"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0270",
+      "module": "SENTENCES",
+      "cardId": "sentence-681",
+      "field": "lv",
+      "current": "Sabes nadar",
+      "new": "¿Sabes nadar?",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "Faltan los signos de interrogación de apertura y cierre.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0263"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0271",
+      "module": "SENTENCES",
+      "cardId": "sentence-683",
+      "field": "lv",
+      "current": "¿Nadas todos los días?",
+      "new": "¿Te bañas todos los días?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Baden» significa bañarse; «nadar» corresponde a «schwimmen».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0264"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0272",
+      "module": "SENTENCES",
+      "cardId": "sentence-692",
+      "field": "lv",
+      "current": "Tengo la nariz que moquea.",
+      "new": "Me moquea la nariz.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "La versión actual es poco idiomática; «me moquea la nariz» expresa naturalmente el síntoma.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0265"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0273",
+      "module": "SENTENCES",
+      "cardId": "sentence-702",
+      "field": "lv",
+      "current": "Quiero reformar el apartamento.",
+      "new": "Quiero amueblar de nuevo mi apartamento.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "\"Möblieren\" significa amueblar, no reformar o remodelar.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0266"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0274",
+      "module": "SENTENCES",
+      "cardId": "sentence-706",
+      "field": "lv",
+      "current": "Ten cuidado con la comida.",
+      "new": "Sigue teniendo cuidado con la comida.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "Se omite el matiz de \"noch\": la precaución debe continuar.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0267"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0275",
+      "module": "SENTENCES",
+      "cardId": "sentence-712",
+      "field": "lv",
+      "current": "Siempre buscando la oportunidad de hablar alemán.",
+      "new": "Siempre busco la oportunidad de hablar alemán.",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción es un fragmento sin verbo principal ni sujeto explícito.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0268"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0276",
+      "module": "SENTENCES",
+      "cardId": "sentence-716",
+      "field": "lv",
+      "current": "¿Cómo puedo ayudar?",
+      "new": "¿En qué puedo ayudarle?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "\"Ihnen\" exige tratamiento formal y el original expresa \"ayudarle con qué\".",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0269"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0277",
+      "module": "SENTENCES",
+      "cardId": "sentence-717",
+      "field": "lv",
+      "current": "¿Tienes huevos frescos?",
+      "new": "¿Tiene huevos muy frescos?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Se usa tuteo en lugar del tratamiento formal \"Sie\" y se pierde el énfasis de \"ganz\".",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0270"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0278",
+      "module": "SENTENCES",
+      "cardId": "sentence-720",
+      "field": "lv",
+      "current": "¿Puedes pesar medio kilo?",
+      "new": "¿Puede pesarme medio kilo?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "El original usa tratamiento formal y expresa que se pesa la cantidad para el hablante.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0271"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0279",
+      "module": "SENTENCES",
+      "cardId": "sentence-721",
+      "field": "lv",
+      "current": "¿Cuanto tengo que pagar?",
+      "new": "¿Cuánto tengo que pagar?",
+      "status": "LABOT",
+      "category": "ORTHOGRAPHY",
+      "severity": "AUGSTA",
+      "ownerReason": "\"Cuánto\" lleva tilde en esta pregunta.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0272"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0280",
+      "module": "SENTENCES",
+      "cardId": "sentence-722",
+      "field": "lv",
+      "current": "¿Cuánto cuesta un kilogramo?",
+      "new": "¿Cuánto cuesta el kilo?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "En este contexto comercial, \"el kilo\" es la formulación idiomática equivalente a \"das Kilo\".",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0273"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0281",
+      "module": "SENTENCES",
+      "cardId": "sentence-723",
+      "field": "lv",
+      "current": "Por favor pesa dos kilogramos.",
+      "new": "Por favor, pésame dos kilos.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "Se usa tuteo y se omite el pronombre \"me\"; el original es una petición formal al vendedor.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0274"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0282",
+      "module": "SENTENCES",
+      "cardId": "sentence-724",
+      "field": "lv",
+      "current": "¿Tienes zanahorias también?",
+      "new": "¿Tiene también zanahorias?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El original usa tratamiento formal, pero la traducción usa tuteo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0275"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0283",
+      "module": "SENTENCES",
+      "cardId": "sentence-725",
+      "field": "lv",
+      "current": "¿Tienes buena carne?",
+      "new": "¿Tiene buena carne de res?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "Se pierde la especificación \"Rindfleisch\" (carne de res) y además se usa tuteo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0276"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0284",
+      "module": "SENTENCES",
+      "cardId": "sentence-726",
+      "field": "lv",
+      "current": "Dale dos kilogramos de carne picada.",
+      "new": "Deme dos kilos de carne picada.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "\"Dale\" es informal y no corresponde al tratamiento formal de \"Geben Sie\".",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0277"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0285",
+      "module": "SENTENCES",
+      "cardId": "sentence-727",
+      "field": "lv",
+      "current": "Una barra de pan, por favor, pero no demasiado dura.",
+      "new": "Una hogaza de pan, por favor, pero no demasiado crujiente.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "\"Laib\" es hogaza, y \"knusprig\" significa crujiente, no dura.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0278"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0286",
+      "module": "SENTENCES",
+      "cardId": "sentence-729",
+      "field": "lv",
+      "current": "¿Qué fruta tienes hoy?",
+      "new": "¿Qué tipo de fruta tiene hoy?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "Se usa tuteo en lugar del tratamiento formal y falta expresar \"qué tipo de\".",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0279"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0287",
+      "module": "SENTENCES",
+      "cardId": "sentence-733",
+      "field": "lv",
+      "current": "¿Puedes entregar todo a tu casa?",
+      "new": "¿Puede entregármelo todo a casa?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción cambia \"mi casa\" por \"tu casa\" y usa tuteo en lugar del tratamiento formal.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0280"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0288",
+      "module": "SENTENCES",
+      "cardId": "sentence-734",
+      "field": "lv",
+      "current": "¿Tienes arroz?",
+      "new": "¿Tiene arroz?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El original usa tratamiento formal, pero la traducción usa tuteo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0281"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0289",
+      "module": "SENTENCES",
+      "cardId": "sentence-735",
+      "field": "lv",
+      "current": "Dame un kilo de arroz, por favor.",
+      "new": "Deme un kilo de arroz, por favor.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "\"Dame\" es informal; el alemán emplea la forma formal \"Geben Sie\".",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0282"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0290",
+      "module": "SENTENCES",
+      "cardId": "sentence-738",
+      "field": "lv",
+      "current": "¿Pueden entregar muebles al apartamento?",
+      "new": "¿Pueden entregar los muebles en mi apartamento?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "Se omiten el artículo definido y el posesivo \"mi\", presentes en el original.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0283"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0291",
+      "module": "SENTENCES",
+      "cardId": "sentence-739",
+      "field": "lv",
+      "current": "Por favor pague en caja.",
+      "new": "Por favor, pague en caja.",
+      "status": "LABOT",
+      "category": "PUNCTUATION",
+      "severity": "ZEMA",
+      "ownerReason": "Debe colocarse una coma tras la locución introductoria \"Por favor\".",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0284"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0292",
+      "module": "SENTENCES",
+      "cardId": "sentence-741",
+      "field": "lv",
+      "current": "¿Cuánto cuesta un medidor?",
+      "new": "¿Cuánto cuesta el metro?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "Aquí \"Meter\" es la unidad de longitud; \"medidor\" significa un instrumento de medición.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0285"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0293",
+      "module": "SENTENCES",
+      "cardId": "sentence-742",
+      "field": "lv",
+      "current": "Me encanta esta tela.",
+      "new": "Me gusta esta tela.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "\"Gefällt mir\" expresa que algo gusta; \"me encanta\" intensifica innecesariamente el significado.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0286"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0294",
+      "module": "SENTENCES",
+      "cardId": "sentence-743",
+      "field": "lv",
+      "current": "Por favor corte tres metros.",
+      "new": "Por favor, córteme tres metros.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "Se omite el pronombre \"me\", que indica que los tres metros se cortan para el hablante.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0287"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0295",
+      "module": "SENTENCES",
+      "cardId": "sentence-744",
+      "field": "lv",
+      "current": "¿Tienes otras muestras?",
+      "new": "¿Tiene también otros estampados?",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "AUGSTA",
+      "ownerReason": "\"Muster\" significa estampados o diseños, no muestras; además se usa tuteo.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0288"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0296",
+      "module": "SENTENCES",
+      "cardId": "sentence-746",
+      "field": "lv",
+      "current": "Dar más brillo.",
+      "new": "Deme una más clara.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción no conserva la petición de recibir otra pieza/color más claro y usa un infinitivo incorrecto.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0289"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0297",
+      "module": "SENTENCES",
+      "cardId": "sentence-748",
+      "field": "lv",
+      "current": "¿Qué tipo de guantes quieres?",
+      "new": "¿Qué guantes desea?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Se usa tuteo en lugar del tratamiento formal; \"qué tipo de\" añade un matiz no presente.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0290"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0298",
+      "module": "SENTENCES",
+      "cardId": "sentence-750",
+      "field": "lv",
+      "current": "Entonces, funciona bien ahora.",
+      "new": "Entonces, ahora quedan bien.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Passen» significa «quedar bien» en este contexto, no «funcionar»; además, el sujeto alemán es plural.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0291"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0299",
+      "module": "SENTENCES",
+      "cardId": "sentence-751",
+      "field": "lv",
+      "current": "¿Puedes recomendar un buen sastre?",
+      "new": "¿Puedes recomendarme un buen sastre?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "Se omite el destinatario «mir» («me»), explícito en el original alemán.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0292"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0300",
+      "module": "SENTENCES",
+      "cardId": "sentence-754",
+      "field": "lv",
+      "current": "El traje le queda bien.",
+      "new": "El traje queda bien.",
+      "status": "LABOT",
+      "category": "SEMANTICS",
+      "severity": "VIDĒJA",
+      "ownerReason": "El español añade un destinatario («le») que no aparece en el alemán; el original describe el ajuste del traje.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0293"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0301",
+      "module": "SENTENCES",
+      "cardId": "sentence-759",
+      "field": "lv",
+      "current": "¿Puedes arreglar tus zapatos hoy?",
+      "new": "¿Puede arreglar los zapatos hoy?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sie» exige trato formal («puede»); «tus» cambia el sentido y atribuye los zapatos al interlocutor.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0294"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0302",
+      "module": "SENTENCES",
+      "cardId": "sentence-760",
+      "field": "lv",
+      "current": "¿Cuándo puedo traer los zapatos?",
+      "new": "¿Cuándo puedo recoger los zapatos?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "«Abholen» significa «recoger», mientras que «traer» expresa la acción opuesta.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0295"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0303",
+      "module": "SENTENCES",
+      "cardId": "sentence-762",
+      "field": "lv",
+      "current": "Son cinco minutos antes.",
+      "new": "Se adelanta cinco minutos.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La frase alemana indica que el reloj se adelanta cinco minutos; la versión actual no expresa ese significado.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0296"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0304",
+      "module": "SENTENCES",
+      "cardId": "sentence-763",
+      "field": "lv",
+      "current": "¿Es usted miope o hipermétrope?",
+      "new": "¿Eres miope o hipermétrope?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa el trato informal «du», pero el español emplea el formal «usted».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0297"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0305",
+      "module": "SENTENCES",
+      "cardId": "sentence-765",
+      "field": "lv",
+      "current": "¿Puedes arreglar mis gafas?",
+      "new": "¿Puede arreglar mis gafas?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "«Sie» requiere el tratamiento formal «puede», no el informal «puedes».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0298"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0306",
+      "module": "SENTENCES",
+      "cardId": "sentence-766",
+      "field": "lv",
+      "current": "Sólo te llevará quince minutos.",
+      "new": "Eso solo tardará un cuarto de hora.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "La versión actual introduce un destinatario («te») y cambia la estructura impersonal del original.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0299"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0307",
+      "module": "SENTENCES",
+      "cardId": "sentence-769",
+      "field": "lv",
+      "current": "Por favor empaquete y envíe a casa.",
+      "new": "Por favor, empaquételo y envíemelo a casa.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "Se omiten ambos objetos («lo» y «me»), y «a casa» queda sin indicar que es la casa del hablante.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0300"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0308",
+      "module": "SENTENCES",
+      "cardId": "sentence-771",
+      "field": "lv",
+      "current": "Por favor tomame una foto.",
+      "new": "Por favor, tómeme una foto.",
+      "status": "LABOT",
+      "category": "ORTHOGRAPHY",
+      "severity": "AUGSTA",
+      "ownerReason": "Falta la tilde en «tómame» y el alemán usa tratamiento formal («tómeme»); también falta una coma tras «Por favor».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0301"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0309",
+      "module": "SENTENCES",
+      "cardId": "sentence-772",
+      "field": "lv",
+      "current": "¡Siéntate, mira directamente a la cámara y no te muevas!",
+      "new": "¡Siéntese, mire directamente a la cámara y no se mueva!",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "El alemán usa imperativos formales («Sie»), pero la traducción emplea formas informales.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0302"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0310",
+      "module": "SENTENCES",
+      "cardId": "sentence-773",
+      "field": "lv",
+      "current": "¿Cuándo puedo ver una muestra?",
+      "new": "¿Cuándo puedo ver la foto de prueba?",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "«Probebild» es específicamente una foto o imagen de prueba, no una muestra genérica.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0303"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0311",
+      "module": "SENTENCES",
+      "cardId": "sentence-777",
+      "field": "lv",
+      "current": "¿También puedes ampliar la foto?",
+      "new": "¿También puede ampliar la foto?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "El alemán usa tratamiento formal («Sie»), que debe traducirse como «puede», no «puedes».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0304"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0312",
+      "module": "SENTENCES",
+      "cardId": "sentence-780",
+      "field": "lv",
+      "current": "Muéstrame los anillos de boda, por favor.",
+      "new": "Muéstreme los anillos de boda, por favor.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "AUGSTA",
+      "ownerReason": "El imperativo alemán es formal («Sie»), pero la traducción usa la forma informal «muéstrame».",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0305"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0313",
+      "module": "SENTENCES",
+      "cardId": "sentence-782",
+      "field": "lv",
+      "current": "Puedo reducirlo.",
+      "new": "Puedo ajustarlo.",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Para un anillo, «ajustarlo» es la expresión idiomática; «reducirlo» resulta impreciso y poco natural.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0306"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0314",
+      "module": "SENTENCES",
+      "cardId": "sentence-785",
+      "field": "lv",
+      "current": "¿Cómo te gustan estos pendientes?",
+      "new": "¿Qué te parecen estos pendientes?",
+      "status": "LABOT",
+      "category": "REGISTER",
+      "severity": "VIDĒJA",
+      "ownerReason": "Para preguntar la opinión sobre unos objetos, «¿Qué te parecen?» es la formulación idiomática en español.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0307"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0315",
+      "module": "SENTENCES",
+      "cardId": "sentence-789",
+      "field": "lv",
+      "current": "Puedo recomendar especialmente esta pulsera.",
+      "new": "Puedo recomendarle especialmente esta pulsera.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "VIDĒJA",
+      "ownerReason": "Se omite el pronombre de objeto indirecto formal «Ihnen» («le»).",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0308"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0316",
+      "module": "SENTENCES",
+      "cardId": "sentence-790",
+      "field": "lv",
+      "current": "Está extremadamente finamente elaborado.",
+      "new": "Está especialmente bien elaborada.",
+      "status": "LABOT",
+      "category": "TRANSLATION",
+      "severity": "AUGSTA",
+      "ownerReason": "La traducción cambia «especialmente bien trabajado» por una expresión poco natural y usa género masculino para la pulsera.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0309"
+      ]
+    },
+    {
+      "id": "ES-DE-SENTENCES-OWNER-0317",
+      "module": "SENTENCES",
+      "cardId": "sentence-792",
+      "field": "lv",
+      "current": "¿Recibí la caja gratis?",
+      "new": "¿Me dan la caja gratis?",
+      "status": "LABOT",
+      "category": "GRAMMAR",
+      "severity": "AUGSTA",
+      "ownerReason": "«Bekomme ich» pregunta si se puede obtener la caja, no si ya se recibió en el pasado.",
+      "sourceFindingIds": [
+        "ES-SENTENCES-LUNA-0310"
+      ]
+    }
+  ]
+}

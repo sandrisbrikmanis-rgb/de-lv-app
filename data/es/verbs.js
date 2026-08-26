@@ -6,11 +6,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er bäckt",
-      "lv": "el hornea"
+      "lv": "él hornea"
     },
     "imperfektIndikativ": {
       "de": "er buk",
-      "lv": "él estaba horneando"
+      "lv": "él horneó"
     },
     "imperfektKonjunktiv": {
       "de": "er büke",
@@ -18,7 +18,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebacken",
-      "lv": "frito / al horno"
+      "lv": "horneado"
     }
   },
   {
@@ -28,7 +28,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er befiehlt",
-      "lv": "el manda"
+      "lv": "él manda"
     },
     "imperfektIndikativ": {
       "de": "er befahl",
@@ -36,21 +36,21 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er beföhle",
-      "lv": "el mandaria"
+      "lv": "él mandaría"
     },
     "partizipVergangenheit": {
       "de": "befohlen",
-      "lv": "ordenó"
+      "lv": "ordenado"
     }
   },
   {
     "infinitiv": {
       "de": "beginnen",
-      "lv": "para empezar"
+      "lv": "empezar"
     },
     "praesens": {
       "de": "er beginnt",
-      "lv": "el comienza"
+      "lv": "él comienza"
     },
     "imperfektIndikativ": {
       "de": "er begann",
@@ -62,7 +62,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "begonnen",
-      "lv": "comenzó"
+      "lv": "comenzado"
     }
   },
   {
@@ -72,19 +72,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er beißt",
-      "lv": "el muerde"
+      "lv": "él muerde"
     },
     "imperfektIndikativ": {
       "de": "er biss",
-      "lv": "él codificó"
+      "lv": "él mordió"
     },
     "imperfektKonjunktiv": {
       "de": "er bisse",
-      "lv": "el muerde"
+      "lv": "él mordería"
     },
     "partizipVergangenheit": {
       "de": "gebissen",
-      "lv": "mordido / mordido"
+      "lv": "mordido"
     }
   },
   {
@@ -94,7 +94,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er birgt",
-      "lv": "el se esconde"
+      "lv": "él se esconde"
     },
     "imperfektIndikativ": {
       "de": "er barg",
@@ -112,11 +112,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bersten",
-      "lv": "muy lleno"
+      "lv": "estallar"
     },
     "praesens": {
       "de": "er birst",
-      "lv": "el estalla"
+      "lv": "él estalla"
     },
     "imperfektIndikativ": {
       "de": "er barst / er borst",
@@ -124,11 +124,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er bärste / er börste",
-      "lv": "el estalla"
+      "lv": "él estallaría"
     },
     "partizipVergangenheit": {
       "de": "geborsten (er ist)",
-      "lv": "roto"
+      "lv": "reventado"
     }
   },
   {
@@ -160,11 +160,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er biegt",
-      "lv": "el se inclina"
+      "lv": "él dobla"
     },
     "imperfektIndikativ": {
       "de": "er bog",
-      "lv": "él se flexionó"
+      "lv": "él dobló"
     },
     "imperfektKonjunktiv": {
       "de": "er böge",
@@ -178,51 +178,51 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "bieten",
-      "lv": "prometer"
+      "lv": "ofrecer"
     },
     "praesens": {
       "de": "er bietet",
-      "lv": "el promete"
+      "lv": "él ofrece"
     },
     "imperfektIndikativ": {
       "de": "er bot",
-      "lv": "el prometió"
+      "lv": "él ofreció"
     },
     "imperfektKonjunktiv": {
       "de": "er böte",
-      "lv": "el lo prometeria"
+      "lv": "él lo ofrecería"
     },
     "partizipVergangenheit": {
       "de": "geboten",
-      "lv": "prometido / ofrecido"
+      "lv": "ofrecido"
     }
   },
   {
     "infinitiv": {
       "de": "binden",
-      "lv": "tamiz"
+      "lv": "atar"
     },
     "praesens": {
       "de": "er bindet",
-      "lv": "el hay"
+      "lv": "él ata"
     },
     "imperfektIndikativ": {
       "de": "er band",
-      "lv": "el sembró"
+      "lv": "él ató"
     },
     "imperfektKonjunktiv": {
       "de": "er bände",
-      "lv": "él tamizó"
+      "lv": "él ataría"
     },
     "partizipVergangenheit": {
       "de": "gebunden",
-      "lv": "tamiz"
+      "lv": "atado"
     }
   },
   {
     "infinitiv": {
       "de": "bitten",
-      "lv": "preguntar"
+      "lv": "pedir"
     },
     "praesens": {
       "de": "er bittet",
@@ -230,11 +230,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er bat",
-      "lv": "el pregunto"
+      "lv": "él pidió"
     },
     "imperfektKonjunktiv": {
       "de": "er bäte",
-      "lv": "él rezaría"
+      "lv": "él pediría"
     },
     "partizipVergangenheit": {
       "de": "gebeten",
@@ -248,19 +248,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er bläst",
-      "lv": "el sopla"
+      "lv": "él sopla"
     },
     "imperfektIndikativ": {
       "de": "er blies",
-      "lv": "el soplo"
+      "lv": "él sopló"
     },
     "imperfektKonjunktiv": {
       "de": "er bliese",
-      "lv": "el volaria"
+      "lv": "él soplaría"
     },
     "partizipVergangenheit": {
       "de": "geblasen",
-      "lv": "estropeado"
+      "lv": "soplado"
     }
   },
   {
@@ -274,15 +274,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "es gor / es gärte",
-      "lv": "fermenta"
+      "lv": "fermentó"
     },
     "imperfektKonjunktiv": {
       "de": "es göre / es gärte",
-      "lv": "seria amargo"
+      "lv": "fermentaría"
     },
     "partizipVergangenheit": {
       "de": "gegoren / gegärt",
-      "lv": "centeno"
+      "lv": "fermentado"
     }
   },
   {
@@ -292,7 +292,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "sie gebiert",
-      "lv": "en su vientre"
+      "lv": "ella da a luz"
     },
     "imperfektIndikativ": {
       "de": "sie gebar",
@@ -304,7 +304,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geboren",
-      "lv": "nació / nació"
+      "lv": "nacido"
     }
   },
   {
@@ -326,7 +326,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelungen (es ist)",
-      "lv": "tuvo éxito"
+      "lv": "logrado"
     }
   },
   {
@@ -340,25 +340,25 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er galt",
-      "lv": "él estaba en forma / estaba en forma"
+      "lv": "él era válido"
     },
     "imperfektKonjunktiv": {
       "de": "er gölte / es gälte",
-      "lv": "él encajaría / encajaría"
+      "lv": "él sería válido"
     },
     "partizipVergangenheit": {
       "de": "gegolten",
-      "lv": "aplicado / era válido"
+      "lv": "considerado válido"
     }
   },
   {
     "infinitiv": {
       "de": "genesen",
-      "lv": "mejorando"
+      "lv": "recuperarse"
     },
     "praesens": {
       "de": "er genest",
-      "lv": "el esta mejorando"
+      "lv": "él está mejorando"
     },
     "imperfektIndikativ": {
       "de": "er genas",
@@ -370,7 +370,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "genesen (er ist)",
-      "lv": "reponerse"
+      "lv": "recuperado"
     }
   },
   {
@@ -380,19 +380,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er genießt",
-      "lv": "el disfruta"
+      "lv": "él disfruta"
     },
     "imperfektIndikativ": {
       "de": "er genoss",
-      "lv": "el disfruto"
+      "lv": "él disfrutó"
     },
     "imperfektKonjunktiv": {
       "de": "er genösse",
-      "lv": "el disfrutaria"
+      "lv": "él disfrutaría"
     },
     "partizipVergangenheit": {
       "de": "genossen",
-      "lv": "disfruté"
+      "lv": "disfrutado"
     }
   },
   {
@@ -414,17 +414,17 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschehen (es ist)",
-      "lv": "sucedió"
+      "lv": "sucedido"
     }
   },
   {
     "infinitiv": {
       "de": "gießen",
-      "lv": "teniente"
+      "lv": "verter"
     },
     "praesens": {
       "de": "er gießt",
-      "lv": "el vierte"
+      "lv": "él vierte"
     },
     "imperfektIndikativ": {
       "de": "er goss",
@@ -432,11 +432,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er gösse",
-      "lv": "el llueve"
+      "lv": "él vertería"
     },
     "partizipVergangenheit": {
       "de": "gegossen",
-      "lv": "cosa"
+      "lv": "vertido"
     }
   },
   {
@@ -446,19 +446,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er gleicht",
-      "lv": "el se parece"
+      "lv": "él se parece"
     },
     "imperfektIndikativ": {
       "de": "er glich",
-      "lv": "él emuló"
+      "lv": "él se parecía"
     },
     "imperfektKonjunktiv": {
       "de": "er gliche",
-      "lv": "él emularía"
+      "lv": "él se parecería"
     },
     "partizipVergangenheit": {
       "de": "geglichen",
-      "lv": "se parecía"
+      "lv": "parecido"
     }
   },
   {
@@ -468,11 +468,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er gleitet",
-      "lv": "el se desliza"
+      "lv": "él se desliza"
     },
     "imperfektIndikativ": {
       "de": "er glitt",
-      "lv": "él se estaba deslizando"
+      "lv": "él se deslizó"
     },
     "imperfektKonjunktiv": {
       "de": "er glitte",
@@ -480,17 +480,17 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geglitten (er ist)",
-      "lv": "resbaló"
+      "lv": "deslizado"
     }
   },
   {
     "infinitiv": {
       "de": "glimmen",
-      "lv": "brillante"
+      "lv": "brillar"
     },
     "praesens": {
       "de": "er glimmt",
-      "lv": "el brilla"
+      "lv": "él brilla"
     },
     "imperfektIndikativ": {
       "de": "er glimmte / glomm",
@@ -498,11 +498,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er glimmte",
-      "lv": "el brillaria"
+      "lv": "él brillaría"
     },
     "partizipVergangenheit": {
       "de": "geglimmt / geglommen",
-      "lv": "brillante"
+      "lv": "brillado"
     }
   },
   {
@@ -512,7 +512,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er gräbt",
-      "lv": "el cava"
+      "lv": "él cava"
     },
     "imperfektIndikativ": {
       "de": "er grub",
@@ -524,7 +524,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegraben",
-      "lv": "excavar"
+      "lv": "cavado"
     }
   },
   {
@@ -534,7 +534,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er greift",
-      "lv": "el atrapa"
+      "lv": "él atrapa"
     },
     "imperfektIndikativ": {
       "de": "er griff",
@@ -556,15 +556,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er haut",
-      "lv": "el escogió"
+      "lv": "él golpea"
     },
     "imperfektIndikativ": {
       "de": "er hieb",
-      "lv": "él espetó"
+      "lv": "él golpeó"
     },
     "imperfektKonjunktiv": {
       "de": "er hiebe",
-      "lv": "él tallaría"
+      "lv": "él golpearía"
     },
     "partizipVergangenheit": {
       "de": "gehauen",
@@ -578,33 +578,33 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er hebt",
-      "lv": "el levanta"
+      "lv": "él levanta"
     },
     "imperfektIndikativ": {
       "de": "er hob",
-      "lv": "él trajo"
+      "lv": "él levantó"
     },
     "imperfektKonjunktiv": {
       "de": "er höbe",
-      "lv": "el construiria"
+      "lv": "él levantaría"
     },
     "partizipVergangenheit": {
       "de": "gehoben",
-      "lv": "construido"
+      "lv": "levantado"
     }
   },
   {
     "infinitiv": {
       "de": "kennen",
-      "lv": "saber / saber"
+      "lv": "conocer"
     },
     "praesens": {
       "de": "er kennt",
-      "lv": "el sabe"
+      "lv": "él conoce"
     },
     "imperfektIndikativ": {
       "de": "kannte",
-      "lv": "sabía"
+      "lv": "conocía"
     },
     "imperfektKonjunktiv": {
       "de": "kannte",
@@ -622,7 +622,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er klingt",
-      "lv": "el suena"
+      "lv": "él suena"
     },
     "imperfektIndikativ": {
       "de": "er klang",
@@ -630,25 +630,25 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er klänge",
-      "lv": "el sonaria"
+      "lv": "él sonaría"
     },
     "partizipVergangenheit": {
       "de": "geklungen",
-      "lv": "sonó"
+      "lv": "sonado"
     }
   },
   {
     "infinitiv": {
       "de": "kneifen",
-      "lv": "pellizco"
+      "lv": "pellizcar"
     },
     "praesens": {
       "de": "er kneift",
-      "lv": "él bromea"
+      "lv": "él pellizca"
     },
     "imperfektIndikativ": {
       "de": "er kniff",
-      "lv": "el pellizcó"
+      "lv": "él pellizcó"
     },
     "imperfektKonjunktiv": {
       "de": "er kniffe",
@@ -656,7 +656,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gekniffen",
-      "lv": "apretado"
+      "lv": "pellizcado"
     }
   },
   {
@@ -666,11 +666,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er bleibt",
-      "lv": "el se queda"
+      "lv": "él se queda"
     },
     "imperfektIndikativ": {
       "de": "er blieb",
-      "lv": "el se quedo"
+      "lv": "él se quedó"
     },
     "imperfektKonjunktiv": {
       "de": "er bliebe",
@@ -678,7 +678,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geblieben (er ist)",
-      "lv": "izquierda"
+      "lv": "permanecido"
     }
   },
   {
@@ -692,7 +692,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "blich",
-      "lv": "blanqueado"
+      "lv": "blanqueó"
     },
     "imperfektKonjunktiv": {
       "de": "blich",
@@ -706,19 +706,19 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "braten",
-      "lv": "hornear"
+      "lv": "freír"
     },
     "praesens": {
       "de": "er brät",
-      "lv": "el hornea"
+      "lv": "él fríe"
     },
     "imperfektIndikativ": {
       "de": "er briet",
-      "lv": "él estaba horneando"
+      "lv": "él frió"
     },
     "imperfektKonjunktiv": {
       "de": "er briete",
-      "lv": "él hornearía"
+      "lv": "él freiría"
     },
     "partizipVergangenheit": {
       "de": "gebraten",
@@ -732,19 +732,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er bricht",
-      "lv": "el rompe"
+      "lv": "él rompe"
     },
     "imperfektIndikativ": {
       "de": "er brach",
-      "lv": "el rompió"
+      "lv": "él rompió"
     },
     "imperfektKonjunktiv": {
       "de": "er bräche",
-      "lv": "él se rompería"
+      "lv": "él rompería"
     },
     "partizipVergangenheit": {
       "de": "gebrochen",
-      "lv": "roto / roto"
+      "lv": "roto"
     }
   },
   {
@@ -754,11 +754,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er brennt",
-      "lv": "el esta en llamas"
+      "lv": "él está en llamas"
     },
     "imperfektIndikativ": {
       "de": "brannte",
-      "lv": "estaba ardiendo"
+      "lv": "ardía"
     },
     "imperfektKonjunktiv": {
       "de": "brannte",
@@ -776,11 +776,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er bringt",
-      "lv": "el lleva"
+      "lv": "él lleva"
     },
     "imperfektIndikativ": {
       "de": "er brachte",
-      "lv": "él llevaba"
+      "lv": "él llevó"
     },
     "imperfektKonjunktiv": {
       "de": "er brächte",
@@ -788,7 +788,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gebracht",
-      "lv": "traído / traído"
+      "lv": "traído"
     }
   },
   {
@@ -798,7 +798,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er denkt",
-      "lv": "el piensa"
+      "lv": "él piensa"
     },
     "imperfektIndikativ": {
       "de": "er dachte",
@@ -806,11 +806,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er dächte",
-      "lv": "el pensaria"
+      "lv": "él pensaría"
     },
     "partizipVergangenheit": {
       "de": "gedacht",
-      "lv": "destinado"
+      "lv": "pensado"
     }
   },
   {
@@ -820,11 +820,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er dingt",
-      "lv": "el contrata"
+      "lv": "él contrata"
     },
     "imperfektIndikativ": {
       "de": "dingte",
-      "lv": "contratado"
+      "lv": "contrató"
     },
     "imperfektKonjunktiv": {
       "de": "dingte",
@@ -838,11 +838,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "dreschen",
-      "lv": "culto"
+      "lv": "trillar"
     },
     "praesens": {
       "de": "er drischt",
-      "lv": "el trilla"
+      "lv": "él trilla"
     },
     "imperfektIndikativ": {
       "de": "er drasch / er drosch",
@@ -850,11 +850,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er dräsche / er drösche",
-      "lv": "él adoraría"
+      "lv": "él tr||||aría"
     },
     "partizipVergangenheit": {
       "de": "gedroschen",
-      "lv": "culto"
+      "lv": "trillado"
     }
   },
   {
@@ -876,13 +876,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gedrungen (er ist)",
-      "lv": "irrumpió en"
+      "lv": "irrumpido"
     }
   },
   {
     "infinitiv": {
       "de": "dünken",
-      "lv": "parece"
+      "lv": "parecer"
     },
     "praesens": {
       "de": "es dünkt",
@@ -898,7 +898,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gedünkt",
-      "lv": "pareció"
+      "lv": "parecido"
     }
   },
   {
@@ -908,7 +908,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er darf",
-      "lv": "el puede"
+      "lv": "él puede"
     },
     "imperfektIndikativ": {
       "de": "durfte",
@@ -930,7 +930,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er empfiehlt",
-      "lv": "el sugiere"
+      "lv": "él sugiere"
     },
     "imperfektIndikativ": {
       "de": "er empfahl",
@@ -938,7 +938,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er empfähle / er empföhle",
-      "lv": "el recomendaria"
+      "lv": "él recomendaría"
     },
     "partizipVergangenheit": {
       "de": "empfohlen",
@@ -952,37 +952,37 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er empfindet",
-      "lv": "el siente"
+      "lv": "él siente"
     },
     "imperfektIndikativ": {
       "de": "er empfand",
-      "lv": "el sintio"
+      "lv": "él sintió"
     },
     "imperfektKonjunktiv": {
       "de": "er empfände",
-      "lv": "el sentiria"
+      "lv": "él sentiría"
     },
     "partizipVergangenheit": {
       "de": "empfunden",
-      "lv": "sintió"
+      "lv": "sentido"
     }
   },
   {
     "infinitiv": {
       "de": "erlöschen",
-      "lv": "se desvanece"
+      "lv": "extinguirse"
     },
     "praesens": {
       "de": "er erlischt",
-      "lv": "el sale"
+      "lv": "él se extingue"
     },
     "imperfektIndikativ": {
       "de": "er erlosch",
-      "lv": "él salió"
+      "lv": "él se extinguió"
     },
     "imperfektKonjunktiv": {
       "de": "er erlösche",
-      "lv": "él se desvanecería"
+      "lv": "él se extinguiría"
     },
     "partizipVergangenheit": {
       "de": "erloschen (er ist)",
@@ -992,11 +992,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "erschrecken",
-      "lv": "confundirse"
+      "lv": "asustarse"
     },
     "praesens": {
       "de": "er erschrickt",
-      "lv": "el se asusta"
+      "lv": "él se asusta"
     },
     "imperfektIndikativ": {
       "de": "er erschrak",
@@ -1018,19 +1018,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er isst",
-      "lv": "el come"
+      "lv": "él come"
     },
     "imperfektIndikativ": {
       "de": "er ass",
-      "lv": "el estaba comiendo"
+      "lv": "él comió"
     },
     "imperfektKonjunktiv": {
       "de": "er äße",
-      "lv": "el comeria"
+      "lv": "él comería"
     },
     "partizipVergangenheit": {
       "de": "gegessen",
-      "lv": "comido / comido"
+      "lv": "comido"
     }
   },
   {
@@ -1040,11 +1040,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fährt",
-      "lv": "el conduce"
+      "lv": "él conduce"
     },
     "imperfektIndikativ": {
       "de": "er fuhr",
-      "lv": "él estaba conduciendo"
+      "lv": "él condujo"
     },
     "imperfektKonjunktiv": {
       "de": "er führe",
@@ -1052,7 +1052,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefahren (er ist)",
-      "lv": "condujo / se fue"
+      "lv": "conducido / ido"
     }
   },
   {
@@ -1062,19 +1062,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fällt",
-      "lv": "el cae"
+      "lv": "él cae"
     },
     "imperfektIndikativ": {
       "de": "er fiel",
-      "lv": "el cayó"
+      "lv": "él cayó"
     },
     "imperfektKonjunktiv": {
       "de": "er fiele",
-      "lv": "el caeria"
+      "lv": "él caería"
     },
     "partizipVergangenheit": {
       "de": "gefallen (er ist)",
-      "lv": "cayó"
+      "lv": "caído"
     }
   },
   {
@@ -1084,7 +1084,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fängt",
-      "lv": "el atrapa"
+      "lv": "él atrapa"
     },
     "imperfektIndikativ": {
       "de": "er fing",
@@ -1096,7 +1096,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefangen",
-      "lv": "atrapado / atrapado"
+      "lv": "atrapado"
     }
   },
   {
@@ -1106,11 +1106,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er findet",
-      "lv": "el encuentra"
+      "lv": "él encuentra"
     },
     "imperfektIndikativ": {
       "de": "er fand",
-      "lv": "el encontro"
+      "lv": "él encontró"
     },
     "imperfektKonjunktiv": {
       "de": "er fände",
@@ -1118,25 +1118,25 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gefunden",
-      "lv": "encontró"
+      "lv": "encontrado"
     }
   },
   {
     "infinitiv": {
       "de": "fliegen",
-      "lv": "Déjalo ir"
+      "lv": "volar"
     },
     "praesens": {
       "de": "er fliegt",
-      "lv": "el vuela"
+      "lv": "él vuela"
     },
     "imperfektIndikativ": {
       "de": "er flog",
-      "lv": "el voló"
+      "lv": "él voló"
     },
     "imperfektKonjunktiv": {
       "de": "er flöge",
-      "lv": "el volaria"
+      "lv": "él volaría"
     },
     "partizipVergangenheit": {
       "de": "geflogen (er ist)",
@@ -1150,7 +1150,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er flieht",
-      "lv": "el huye"
+      "lv": "él huye"
     },
     "imperfektIndikativ": {
       "de": "er floh",
@@ -1162,7 +1162,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geflohen (er ist)",
-      "lv": "se escapó"
+      "lv": "huido"
     }
   },
   {
@@ -1172,29 +1172,29 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er fließt",
-      "lv": "el corre"
+      "lv": "él fluye"
     },
     "imperfektIndikativ": {
       "de": "er floss",
-      "lv": "él corrió"
+      "lv": "él fluyó"
     },
     "imperfektKonjunktiv": {
       "de": "er flösse",
-      "lv": "el correria"
+      "lv": "él fluiría"
     },
     "partizipVergangenheit": {
       "de": "geflossen (er ist)",
-      "lv": "aprobado"
+      "lv": "fluido"
     }
   },
   {
     "infinitiv": {
       "de": "fressen",
-      "lv": "comer mañana"
+      "lv": "comer"
     },
     "praesens": {
       "de": "er frisst",
-      "lv": "el come/traga"
+      "lv": "él come / traga"
     },
     "imperfektIndikativ": {
       "de": "er frass",
@@ -1202,33 +1202,33 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er fräße",
-      "lv": "él comería/desayunaría"
+      "lv": "él comería"
     },
     "partizipVergangenheit": {
       "de": "gefressen",
-      "lv": "comido / mañana"
+      "lv": "comido"
     }
   },
   {
     "infinitiv": {
       "de": "frieren",
-      "lv": "frío"
+      "lv": "tener frío"
     },
     "praesens": {
       "de": "er friert",
-      "lv": "el esta helado"
+      "lv": "él tiene frío"
     },
     "imperfektIndikativ": {
       "de": "er fror",
-      "lv": "la isla"
+      "lv": "él tuvo frío"
     },
     "imperfektKonjunktiv": {
       "de": "er fröre",
-      "lv": "el estaba helado"
+      "lv": "él tendría frío"
     },
     "partizipVergangenheit": {
       "de": "gefroren",
-      "lv": "isla"
+      "lv": "tenido frío"
     }
   },
   {
@@ -1238,15 +1238,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er gibt",
-      "lv": "el da"
+      "lv": "él da"
     },
     "imperfektIndikativ": {
       "de": "er gab",
-      "lv": "el dio"
+      "lv": "él dio"
     },
     "imperfektKonjunktiv": {
       "de": "er gäbe",
-      "lv": "el daria"
+      "lv": "él daría"
     },
     "partizipVergangenheit": {
       "de": "gegeben",
@@ -1260,11 +1260,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er gedeiht",
-      "lv": "el tiene exito"
+      "lv": "él tiene éxito"
     },
     "imperfektIndikativ": {
       "de": "er gedieh",
-      "lv": "lo logró"
+      "lv": "tuvo éxito"
     },
     "imperfektKonjunktiv": {
       "de": "er gediehe",
@@ -1272,7 +1272,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gediehen (er ist)",
-      "lv": "tuvo éxito"
+      "lv": "tenido éxito"
     }
   },
   {
@@ -1282,7 +1282,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er geht",
-      "lv": "el va"
+      "lv": "él va"
     },
     "imperfektIndikativ": {
       "de": "er ging",
@@ -1294,35 +1294,35 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gegangen (er ist)",
-      "lv": "fue"
+      "lv": "ido"
     }
   },
   {
     "infinitiv": {
       "de": "gewinnen",
-      "lv": "obtener"
+      "lv": "ganar"
     },
     "praesens": {
       "de": "er gewinnt",
-      "lv": "el consigue"
+      "lv": "él gana"
     },
     "imperfektIndikativ": {
       "de": "er gewann",
-      "lv": "el consiguió"
+      "lv": "él ganó"
     },
     "imperfektKonjunktiv": {
       "de": "er gewönne / er gewänne",
-      "lv": "él obtendría"
+      "lv": "él ganaría"
     },
     "partizipVergangenheit": {
       "de": "gewonnen",
-      "lv": "obtenido"
+      "lv": "ganado"
     }
   },
   {
     "infinitiv": {
       "de": "haben",
-      "lv": "ser / pertenecer"
+      "lv": "tener"
     },
     "praesens": {
       "de": "er hat",
@@ -1330,7 +1330,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "hatte",
-      "lv": "era"
+      "lv": "tenía"
     },
     "imperfektKonjunktiv": {
       "de": "hatte",
@@ -1338,7 +1338,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gehabt",
-      "lv": "estado"
+      "lv": "tenido"
     }
   },
   {
@@ -1348,7 +1348,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er hält",
-      "lv": "él ahí"
+      "lv": "él sostiene"
     },
     "imperfektIndikativ": {
       "de": "er hielt",
@@ -1360,13 +1360,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gehalten",
-      "lv": "sostuvo"
+      "lv": "sostenido"
     }
   },
   {
     "infinitiv": {
       "de": "heißen",
-      "lv": "llamar"
+      "lv": "llamarse"
     },
     "praesens": {
       "de": "er heißt",
@@ -1388,11 +1388,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "helfen",
-      "lv": "para ayudar"
+      "lv": "ayudar"
     },
     "praesens": {
       "de": "er hilft",
-      "lv": "el ayuda"
+      "lv": "él ayuda"
     },
     "imperfektIndikativ": {
       "de": "er half",
@@ -1400,11 +1400,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er hülfe / er hälfe",
-      "lv": "el ayudaria"
+      "lv": "él ayudaría"
     },
     "partizipVergangenheit": {
       "de": "geholfen",
-      "lv": "ayudó"
+      "lv": "ayudado"
     }
   },
   {
@@ -1414,7 +1414,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er kommt",
-      "lv": "el esta viniendo"
+      "lv": "él está viniendo"
     },
     "imperfektIndikativ": {
       "de": "er kam",
@@ -1436,11 +1436,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er kann",
-      "lv": "el puede"
+      "lv": "él puede"
     },
     "imperfektIndikativ": {
       "de": "konnte",
-      "lv": "podría"
+      "lv": "podía"
     },
     "imperfektKonjunktiv": {
       "de": "konnte",
@@ -1448,29 +1448,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gekonnt",
-      "lv": "podría"
+      "lv": "podido"
     }
   },
   {
     "infinitiv": {
       "de": "kriechen",
-      "lv": "Está lloviendo"
+      "lv": "gatear"
     },
     "praesens": {
       "de": "er kriecht",
-      "lv": "el se inclina"
+      "lv": "él gatea"
     },
     "imperfektIndikativ": {
       "de": "er kroch",
-      "lv": "el llovió"
+      "lv": "él gateó"
     },
     "imperfektKonjunktiv": {
       "de": "er kröche",
-      "lv": "el esta lloviendo"
+      "lv": "él gatearía"
     },
     "partizipVergangenheit": {
       "de": "gekrochen (er ist)",
-      "lv": "falleció"
+      "lv": "gateado"
     }
   },
   {
@@ -1480,7 +1480,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er lädt",
-      "lv": "él amontona / invita"
+      "lv": "él carga / invita"
     },
     "imperfektIndikativ": {
       "de": "er lud",
@@ -1514,7 +1514,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelassen",
-      "lv": "poner / permitido"
+      "lv": "dejado / permitido"
     }
   },
   {
@@ -1524,7 +1524,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er läuft",
-      "lv": "el esta corriendo"
+      "lv": "él está corriendo"
     },
     "imperfektIndikativ": {
       "de": "er lief",
@@ -1532,11 +1532,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er liefe",
-      "lv": "el correria"
+      "lv": "él correría"
     },
     "partizipVergangenheit": {
       "de": "gelaufen (er ist)",
-      "lv": "corrió"
+      "lv": "corrido"
     }
   },
   {
@@ -1546,19 +1546,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er leidet",
-      "lv": "el sufre"
+      "lv": "él sufre"
     },
     "imperfektIndikativ": {
       "de": "er litt",
-      "lv": "el sufrió"
+      "lv": "él sufrió"
     },
     "imperfektKonjunktiv": {
       "de": "er litte",
-      "lv": "el sufriria"
+      "lv": "él sufriría"
     },
     "partizipVergangenheit": {
       "de": "gelitten",
-      "lv": "sufrió"
+      "lv": "sufrido"
     }
   },
   {
@@ -1580,7 +1580,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geliehen",
-      "lv": "prestado / prestado"
+      "lv": "prestado / pedido prestado"
     }
   },
   {
@@ -1590,11 +1590,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er liest",
-      "lv": "el esta leyendo"
+      "lv": "él está leyendo"
     },
     "imperfektIndikativ": {
       "de": "er las",
-      "lv": "el estaba leyendo"
+      "lv": "él leyó"
     },
     "imperfektKonjunktiv": {
       "de": "er läse",
@@ -1602,29 +1602,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelesen",
-      "lv": "leer"
+      "lv": "leído"
     }
   },
   {
     "infinitiv": {
       "de": "liegen",
-      "lv": "dormir"
+      "lv": "estar tumbado"
     },
     "praesens": {
       "de": "er liegt",
-      "lv": "el esta durmiendo"
+      "lv": "él está tumbado"
     },
     "imperfektIndikativ": {
       "de": "er lag",
-      "lv": "el estaba durmiendo"
+      "lv": "él estaba tumbado"
     },
     "imperfektKonjunktiv": {
       "de": "er läge",
-      "lv": "el dormiria"
+      "lv": "él estaría tumbado"
     },
     "partizipVergangenheit": {
       "de": "gelegen",
-      "lv": "durmió"
+      "lv": "estado tumbado"
     }
   },
   {
@@ -1634,7 +1634,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er lügt",
-      "lv": "el esta mintiendo"
+      "lv": "él está mintiendo"
     },
     "imperfektIndikativ": {
       "de": "er log",
@@ -1646,13 +1646,13 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gelogen",
-      "lv": "mintió a"
+      "lv": "mentido"
     }
   },
   {
     "infinitiv": {
       "de": "mahlen",
-      "lv": "suelo"
+      "lv": "moler"
     },
     "praesens": {
       "de": "er mahlt",
@@ -1660,15 +1660,15 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er mahlte",
-      "lv": "el borde"
+      "lv": "él molió"
     },
     "imperfektKonjunktiv": {
       "de": "er malte",
-      "lv": "el muele"
+      "lv": "él molería"
     },
     "partizipVergangenheit": {
       "de": "gemahlen",
-      "lv": "suelo"
+      "lv": "molido"
     }
   },
   {
@@ -1678,7 +1678,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er meidet",
-      "lv": "el evita"
+      "lv": "él evita"
     },
     "imperfektIndikativ": {
       "de": "er mied",
@@ -1700,11 +1700,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er milkt / er melkt",
-      "lv": "el barre"
+      "lv": "él ordeña"
     },
     "imperfektIndikativ": {
       "de": "er molk / er melkte",
-      "lv": "él barrió"
+      "lv": "él ordeñó"
     },
     "imperfektKonjunktiv": {
       "de": "er mölke / er melkte",
@@ -1734,7 +1734,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemessen",
-      "lv": "mesurado"
+      "lv": "medido"
     }
   },
   {
@@ -1748,7 +1748,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "misslang",
-      "lv": "fallido"
+      "lv": "fracasó"
     },
     "imperfektKonjunktiv": {
       "de": "misslang",
@@ -1756,7 +1756,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "misslungen",
-      "lv": "fallido"
+      "lv": "fracasado"
     }
   },
   {
@@ -1770,7 +1770,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "mochte",
-      "lv": "le gustó"
+      "lv": "le gustaba"
     },
     "imperfektKonjunktiv": {
       "de": "mochte",
@@ -1778,7 +1778,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemocht",
-      "lv": "apreciado"
+      "lv": "gustado"
     }
   },
   {
@@ -1788,11 +1788,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er muss",
-      "lv": "el necesita"
+      "lv": "él necesita"
     },
     "imperfektIndikativ": {
       "de": "musste",
-      "lv": "debería tener"
+      "lv": "tuvo que"
     },
     "imperfektKonjunktiv": {
       "de": "musste",
@@ -1800,7 +1800,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gemusst",
-      "lv": "necesario"
+      "lv": "tenido que"
     }
   },
   {
@@ -1810,11 +1810,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er nimmt",
-      "lv": "el toma"
+      "lv": "él toma"
     },
     "imperfektIndikativ": {
       "de": "er nahm",
-      "lv": "el tomo"
+      "lv": "él tomó"
     },
     "imperfektKonjunktiv": {
       "de": "er nähme",
@@ -1832,11 +1832,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er nennt",
-      "lv": "él nombró"
+      "lv": "él nombra"
     },
     "imperfektIndikativ": {
       "de": "er nannte",
-      "lv": "el llamo"
+      "lv": "él llamó"
     },
     "imperfektKonjunktiv": {
       "de": "er nennte",
@@ -1854,11 +1854,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er pfeift",
-      "lv": "el silba"
+      "lv": "él silba"
     },
     "imperfektIndikativ": {
       "de": "er pfiff",
-      "lv": "el silbó"
+      "lv": "él silbó"
     },
     "imperfektKonjunktiv": {
       "de": "er pfiffe",
@@ -1866,43 +1866,43 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gepfiffen",
-      "lv": "silbó"
+      "lv": "silbado"
     }
   },
   {
     "infinitiv": {
       "de": "pflegen",
-      "lv": "mantener"
+      "lv": "cuidar"
     },
     "praesens": {
       "de": "er pflegt",
-      "lv": "a él le importa"
+      "lv": "él cuida"
     },
     "imperfektIndikativ": {
       "de": "pflegte vai pflog",
-      "lv": "colocar"
+      "lv": "cuidó"
     },
     "imperfektKonjunktiv": {
       "de": "pflegte vai pflog",
-      "lv": "colocar"
+      "lv": "cuidaría"
     },
     "partizipVergangenheit": {
       "de": "gepflegt vai gepflogen",
-      "lv": "arreglado"
+      "lv": "cuidado"
     }
   },
   {
     "infinitiv": {
       "de": "preisen",
-      "lv": "elogio"
+      "lv": "elogiar"
     },
     "praesens": {
       "de": "er preist",
-      "lv": "el elogia"
+      "lv": "él elogia"
     },
     "imperfektIndikativ": {
       "de": "er pries",
-      "lv": "el elogió"
+      "lv": "él elogió"
     },
     "imperfektKonjunktiv": {
       "de": "er priese",
@@ -1920,15 +1920,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er quillt",
-      "lv": "el esta engordando"
+      "lv": "él se hincha"
     },
     "imperfektIndikativ": {
       "de": "er quoll",
-      "lv": "el maduró"
+      "lv": "él se hinchó"
     },
     "imperfektKonjunktiv": {
       "de": "er quölle",
-      "lv": "el gordo"
+      "lv": "él se hincharía"
     },
     "partizipVergangenheit": {
       "de": "gequollen (er ist)",
@@ -1938,23 +1938,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "raten",
-      "lv": "sugerir / mencionar"
+      "lv": "recomendar / aconsejar"
     },
     "praesens": {
       "de": "er rät",
-      "lv": "él recomienda / min"
+      "lv": "él recomienda / aconseja"
     },
     "imperfektIndikativ": {
       "de": "er riet",
-      "lv": "él sugirió / sugirió"
+      "lv": "él recomendó / aconsejó"
     },
     "imperfektKonjunktiv": {
       "de": "er riete",
-      "lv": "él sugeriría / mencionaría"
+      "lv": "él recomendaría / aconsejaría"
     },
     "partizipVergangenheit": {
       "de": "geraten",
-      "lv": "sugerido / mencionado"
+      "lv": "recomendado / aconsejado"
     }
   },
   {
@@ -1964,11 +1964,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er reibt",
-      "lv": "el frota"
+      "lv": "él frota"
     },
     "imperfektIndikativ": {
       "de": "er rieb",
-      "lv": "el frota"
+      "lv": "él frotó"
     },
     "imperfektKonjunktiv": {
       "de": "er riebe",
@@ -1986,15 +1986,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er reißt",
-      "lv": "él chasquea"
+      "lv": "él rasga"
     },
     "imperfektIndikativ": {
       "de": "er riss",
-      "lv": "él espetó"
+      "lv": "él rasgó"
     },
     "imperfektKonjunktiv": {
       "de": "er risse",
-      "lv": "él espetó"
+      "lv": "él rasgaría"
     },
     "partizipVergangenheit": {
       "de": "gerissen",
@@ -2020,7 +2020,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geritten (er ist)",
-      "lv": "montó"
+      "lv": "montado"
     }
   },
   {
@@ -2030,7 +2030,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er rennt",
-      "lv": "el esta corriendo"
+      "lv": "él está corriendo"
     },
     "imperfektIndikativ": {
       "de": "er rannte",
@@ -2038,55 +2038,55 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er rennte",
-      "lv": "el correria"
+      "lv": "él correría"
     },
     "partizipVergangenheit": {
       "de": "gerannt",
-      "lv": "corrió"
+      "lv": "corrido"
     }
   },
   {
     "infinitiv": {
       "de": "riechen",
-      "lv": "ost"
+      "lv": "oler"
     },
     "praesens": {
       "de": "er riecht",
-      "lv": "el huele"
+      "lv": "él huele"
     },
     "imperfektIndikativ": {
       "de": "er roch",
-      "lv": "el canta"
+      "lv": "él olió"
     },
     "imperfektKonjunktiv": {
       "de": "er röche",
-      "lv": "el puerto"
+      "lv": "él olería"
     },
     "partizipVergangenheit": {
       "de": "gerochen",
-      "lv": "puerto"
+      "lv": "olido"
     }
   },
   {
     "infinitiv": {
       "de": "ringen",
-      "lv": "romper"
+      "lv": "luchar"
     },
     "praesens": {
       "de": "er ringt",
-      "lv": "el rompe"
+      "lv": "él lucha"
     },
     "imperfektIndikativ": {
       "de": "er rang",
-      "lv": "él se rompió"
+      "lv": "él luchó"
     },
     "imperfektKonjunktiv": {
       "de": "er ränge",
-      "lv": "él se rompería"
+      "lv": "él lucharía"
     },
     "partizipVergangenheit": {
       "de": "gerungen",
-      "lv": "esperar"
+      "lv": "luchado"
     }
   },
   {
@@ -2096,15 +2096,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er rinnt",
-      "lv": "el corre"
+      "lv": "él fluye"
     },
     "imperfektIndikativ": {
       "de": "er rann",
-      "lv": "él corrió"
+      "lv": "él fluyó"
     },
     "imperfektKonjunktiv": {
       "de": "er ränne / er rönne",
-      "lv": "el correria"
+      "lv": "él fluiría"
     },
     "partizipVergangenheit": {
       "de": "geronnen (er ist)",
@@ -2118,15 +2118,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er ruft",
-      "lv": "el llama"
+      "lv": "él llama"
     },
     "imperfektIndikativ": {
       "de": "er rief",
-      "lv": "el llamo"
+      "lv": "él llamó"
     },
     "imperfektKonjunktiv": {
       "de": "er riefe",
-      "lv": "el llamaria"
+      "lv": "él llamaría"
     },
     "partizipVergangenheit": {
       "de": "gerufen",
@@ -2136,19 +2136,19 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "salzen",
-      "lv": "a la sal"
+      "lv": "salar"
     },
     "praesens": {
       "de": "er salzt",
-      "lv": "el salado"
+      "lv": "él sala"
     },
     "imperfektIndikativ": {
       "de": "er salzte",
-      "lv": "el salado"
+      "lv": "él saló"
     },
     "imperfektKonjunktiv": {
       "de": "er salzte",
-      "lv": "el salaria"
+      "lv": "él salaría"
     },
     "partizipVergangenheit": {
       "de": "gesalzen",
@@ -2158,23 +2158,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "saufen",
-      "lv": "secar / beber"
+      "lv": "beber"
     },
     "praesens": {
       "de": "er säuft",
-      "lv": "el esta bebiendo / bebiendo"
+      "lv": "él está bebiendo"
     },
     "imperfektIndikativ": {
       "de": "er soff",
-      "lv": "bebió / bebió"
+      "lv": "bebió"
     },
     "imperfektKonjunktiv": {
       "de": "er söffe",
-      "lv": "él bebería / bebería"
+      "lv": "él bebería"
     },
     "partizipVergangenheit": {
       "de": "gesoffen",
-      "lv": "ebrio"
+      "lv": "bebido"
     }
   },
   {
@@ -2184,15 +2184,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er saugt",
-      "lv": "el apesta"
+      "lv": "él succiona"
     },
     "imperfektIndikativ": {
       "de": "er sog",
-      "lv": "el apestaba"
+      "lv": "él succionó"
     },
     "imperfektKonjunktiv": {
       "de": "er söge",
-      "lv": "el chuparia"
+      "lv": "él chuparía"
     },
     "partizipVergangenheit": {
       "de": "gesogen",
@@ -2206,11 +2206,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schafft",
-      "lv": "el crea"
+      "lv": "él crea"
     },
     "imperfektIndikativ": {
       "de": "er schuf",
-      "lv": "el creo"
+      "lv": "él creó"
     },
     "imperfektKonjunktiv": {
       "de": "er schüfe",
@@ -2236,33 +2236,33 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "schallte vai scholl",
-      "lv": "sonó"
+      "lv": "sonaría"
     },
     "partizipVergangenheit": {
       "de": "geschallt",
-      "lv": "sonó"
+      "lv": "sonado"
     }
   },
   {
     "infinitiv": {
       "de": "scheiden",
-      "lv": "divorcio / ruptura"
+      "lv": "divorciarse / separarse"
     },
     "praesens": {
       "de": "er scheidet",
-      "lv": "él se está divorciando/divorciando"
+      "lv": "él se divorcia / se separa"
     },
     "imperfektIndikativ": {
       "de": "er schied",
-      "lv": "se divorció / se divorció"
+      "lv": "se divorció / se separó"
     },
     "imperfektKonjunktiv": {
       "de": "er schiede",
-      "lv": "él se divorciaría / divorciaría"
+      "lv": "él se divorciaría / se separaría"
     },
     "partizipVergangenheit": {
       "de": "geschieden (er hat / er ist)",
-      "lv": "separados / divorciados"
+      "lv": "separado / divorciado"
     }
   },
   {
@@ -2284,29 +2284,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschienen",
-      "lv": "brillaba / parecía"
+      "lv": "brillado / parecido"
     }
   },
   {
     "infinitiv": {
       "de": "schelten",
-      "lv": "barto"
+      "lv": "regañar"
     },
     "praesens": {
       "de": "er schilt",
-      "lv": "el regaña"
+      "lv": "él regaña"
     },
     "imperfektIndikativ": {
       "de": "er schalt",
-      "lv": "el prohibió"
+      "lv": "él regañó"
     },
     "imperfektKonjunktiv": {
       "de": "er schölte / er schälte",
-      "lv": "el se afeita"
+      "lv": "él regañaría / se pelaría"
     },
     "partizipVergangenheit": {
       "de": "gescholten",
-      "lv": "barba"
+      "lv": "regañado"
     }
   },
   {
@@ -2316,19 +2316,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schert",
-      "lv": "el esta cortando"
+      "lv": "él corta"
     },
     "imperfektIndikativ": {
       "de": "schor vai scherte",
-      "lv": "tijeras"
+      "lv": "afeitó / esquiló"
     },
     "imperfektKonjunktiv": {
       "de": "schor vai scherte",
-      "lv": "tijeras"
+      "lv": "afeitaría / esquilaría"
     },
     "partizipVergangenheit": {
       "de": "geschoren vai geschert",
-      "lv": "recortado"
+      "lv": "afeitado / esquilado"
     }
   },
   {
@@ -2360,7 +2360,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schießt",
-      "lv": "el dispara"
+      "lv": "él dispara"
     },
     "imperfektIndikativ": {
       "de": "er schoss",
@@ -2368,29 +2368,29 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schösse",
-      "lv": "el dispararia"
+      "lv": "él dispararía"
     },
     "partizipVergangenheit": {
       "de": "geschossen",
-      "lv": "disparo"
+      "lv": "disparado"
     }
   },
   {
     "infinitiv": {
       "de": "schinden",
-      "lv": "tormento"
+      "lv": "atormentar"
     },
     "praesens": {
       "de": "er schindet",
-      "lv": "el atormenta"
+      "lv": "él atormenta"
     },
     "imperfektIndikativ": {
       "de": "schindete",
-      "lv": "atormentado"
+      "lv": "atormentó"
     },
     "imperfektKonjunktiv": {
       "de": "schindete",
-      "lv": "atormentado"
+      "lv": "atormentaría"
     },
     "partizipVergangenheit": {
       "de": "geschunden",
@@ -2404,7 +2404,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schläft",
-      "lv": "el esta durmiendo"
+      "lv": "él duerme"
     },
     "imperfektIndikativ": {
       "de": "er schlief",
@@ -2412,11 +2412,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schliefe",
-      "lv": "el dormiria"
+      "lv": "él dormiría"
     },
     "partizipVergangenheit": {
       "de": "geschlafen",
-      "lv": "durmió"
+      "lv": "dormido"
     }
   },
   {
@@ -2426,11 +2426,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schlägt",
-      "lv": "el golpea"
+      "lv": "él golpea"
     },
     "imperfektIndikativ": {
       "de": "er schlug",
-      "lv": "el golpe"
+      "lv": "él golpeó"
     },
     "imperfektKonjunktiv": {
       "de": "er schlüge",
@@ -2438,29 +2438,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschlagen",
-      "lv": "vencido"
+      "lv": "golpeado"
     }
   },
   {
     "infinitiv": {
       "de": "schleichen",
-      "lv": "Está lloviendo"
+      "lv": "escabullirse"
     },
     "praesens": {
       "de": "er schleicht",
-      "lv": "el se inclina"
+      "lv": "él se escabulle"
     },
     "imperfektIndikativ": {
       "de": "er schlich",
-      "lv": "el llovió"
+      "lv": "él se escabulló"
     },
     "imperfektKonjunktiv": {
       "de": "er schliche",
-      "lv": "el esta lloviendo"
+      "lv": "él se escabulliría"
     },
     "partizipVergangenheit": {
       "de": "geschlichen (er ist)",
-      "lv": "falleció"
+      "lv": "escabullido"
     }
   },
   {
@@ -2482,7 +2482,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschliffen",
-      "lv": "pulido"
+      "lv": "molido"
     }
   },
   {
@@ -2492,15 +2492,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schließt",
-      "lv": "el cierra"
+      "lv": "él cierra"
     },
     "imperfektIndikativ": {
       "de": "er schloss",
-      "lv": "el cerro"
+      "lv": "él cerró"
     },
     "imperfektKonjunktiv": {
       "de": "er schlösse",
-      "lv": "el cerraria"
+      "lv": "él cerraría"
     },
     "partizipVergangenheit": {
       "de": "geschlossen",
@@ -2510,23 +2510,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schlingen",
-      "lv": "mañana"
+      "lv": "tragar"
     },
     "praesens": {
       "de": "er schlingt",
-      "lv": "el traga"
+      "lv": "él traga"
     },
     "imperfektIndikativ": {
       "de": "er schlang",
-      "lv": "el trago"
+      "lv": "él tragó"
     },
     "imperfektKonjunktiv": {
       "de": "er schlänge",
-      "lv": "él mañana"
+      "lv": "él tragaría"
     },
     "partizipVergangenheit": {
       "de": "geschlungen",
-      "lv": "la mañana"
+      "lv": "tragado"
     }
   },
   {
@@ -2544,7 +2544,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schmisse",
-      "lv": "el arrojó"
+      "lv": "él arrojaría"
     },
     "partizipVergangenheit": {
       "de": "geschmissen",
@@ -2554,19 +2554,19 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schmelzen",
-      "lv": "emocionante"
+      "lv": "derretirse"
     },
     "praesens": {
       "de": "er schmilzt",
-      "lv": "el se derrite"
+      "lv": "él se derrite"
     },
     "imperfektIndikativ": {
       "de": "er schmolz",
-      "lv": "el gimió"
+      "lv": "él se derritió"
     },
     "imperfektKonjunktiv": {
       "de": "er schmölze",
-      "lv": "él se estaba moviendo"
+      "lv": "él se derretiría"
     },
     "partizipVergangenheit": {
       "de": "geschmolzen (er ist)",
@@ -2576,11 +2576,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "schnauben",
-      "lv": "silbar"
+      "lv": "resoplar"
     },
     "praesens": {
       "de": "er schnaubt",
-      "lv": "el resopla"
+      "lv": "él resopla"
     },
     "imperfektIndikativ": {
       "de": "schnaubte vai schnob",
@@ -2588,11 +2588,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "schnaubte vai schnob",
-      "lv": "resopló"
+      "lv": "resoplaría"
     },
     "partizipVergangenheit": {
       "de": "geschnaubt vai geschnoben",
-      "lv": "bufido"
+      "lv": "resoplado"
     }
   },
   {
@@ -2602,11 +2602,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schneidet",
-      "lv": "el gira"
+      "lv": "él corta"
     },
     "imperfektIndikativ": {
       "de": "er schnitt",
-      "lv": "él estaba cortando"
+      "lv": "él cortó"
     },
     "imperfektKonjunktiv": {
       "de": "er schnitte",
@@ -2614,7 +2614,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschnitten",
-      "lv": "cortar"
+      "lv": "cortado"
     }
   },
   {
@@ -2624,15 +2624,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schreibt",
-      "lv": "el escribe"
+      "lv": "él escribe"
     },
     "imperfektIndikativ": {
       "de": "er schrieb",
-      "lv": "el escribio"
+      "lv": "él escribió"
     },
     "imperfektKonjunktiv": {
       "de": "er schriebe",
-      "lv": "el escribiria"
+      "lv": "él escribiría"
     },
     "partizipVergangenheit": {
       "de": "geschrieben",
@@ -2646,33 +2646,33 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schreit",
-      "lv": "el grita"
+      "lv": "él grita"
     },
     "imperfektIndikativ": {
       "de": "er schrie",
-      "lv": "el grito"
+      "lv": "él gritó"
     },
     "imperfektKonjunktiv": {
       "de": "er schriee",
-      "lv": "el gritaria"
+      "lv": "él gritaría"
     },
     "partizipVergangenheit": {
       "de": "geschrien",
-      "lv": "gritó"
+      "lv": "gritado"
     }
   },
   {
     "infinitiv": {
       "de": "schreiten",
-      "lv": "caminando"
+      "lv": "caminar"
     },
     "praesens": {
       "de": "er schreitet",
-      "lv": "el esta caminando"
+      "lv": "él camina"
     },
     "imperfektIndikativ": {
       "de": "er schritt",
-      "lv": "el estaba caminando"
+      "lv": "él caminó"
     },
     "imperfektKonjunktiv": {
       "de": "er schritte",
@@ -2680,7 +2680,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschritten (er ist)",
-      "lv": "caminó"
+      "lv": "caminado"
     }
   },
   {
@@ -2690,7 +2690,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schweigt",
-      "lv": "el esta en silencio"
+      "lv": "él está en silencio"
     },
     "imperfektIndikativ": {
       "de": "er schwieg",
@@ -2702,29 +2702,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschwiegen",
-      "lv": "silenciado"
+      "lv": "callado"
     }
   },
   {
     "infinitiv": {
       "de": "schwellen",
-      "lv": "pampa"
+      "lv": "hincharse"
     },
     "praesens": {
       "de": "er schwillt",
-      "lv": "él hace pucheros"
+      "lv": "él se hincha"
     },
     "imperfektIndikativ": {
       "de": "er schwoll",
-      "lv": "el pampa"
+      "lv": "él se hinchó"
     },
     "imperfektKonjunktiv": {
       "de": "er schwölle",
-      "lv": "él bombearía"
+      "lv": "él se hincharía"
     },
     "partizipVergangenheit": {
       "de": "geschwollen (er ist)",
-      "lv": "bomba"
+      "lv": "hinchado"
     }
   },
   {
@@ -2734,11 +2734,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schwimmt",
-      "lv": "el nada"
+      "lv": "él nada"
     },
     "imperfektIndikativ": {
       "de": "er schwamm",
-      "lv": "el estaba nadando"
+      "lv": "él nadó"
     },
     "imperfektKonjunktiv": {
       "de": "er schwömme / er schwämme",
@@ -2746,7 +2746,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschwommen (er ist)",
-      "lv": "nadé"
+      "lv": "nadado"
     }
   },
   {
@@ -2756,7 +2756,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schwindet",
-      "lv": "el desaparece"
+      "lv": "él desaparece"
     },
     "imperfektIndikativ": {
       "de": "er schwand",
@@ -2768,29 +2768,29 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geschwunden (er ist)",
-      "lv": "perdido"
+      "lv": "desaparecido"
     }
   },
   {
     "infinitiv": {
       "de": "schwingen",
-      "lv": "ola"
+      "lv": "oscilar"
     },
     "praesens": {
       "de": "er schwingt",
-      "lv": "él saluda"
+      "lv": "él oscila"
     },
     "imperfektIndikativ": {
       "de": "er schwang",
-      "lv": "él saludó"
+      "lv": "él osciló"
     },
     "imperfektKonjunktiv": {
       "de": "er schwänge",
-      "lv": "él saludaría"
+      "lv": "él oscilaría"
     },
     "partizipVergangenheit": {
       "de": "geschwungen",
-      "lv": "saludó"
+      "lv": "oscilado"
     }
   },
   {
@@ -2800,7 +2800,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er schwört",
-      "lv": "el jura"
+      "lv": "él jura"
     },
     "imperfektIndikativ": {
       "de": "er schwur / er schwor",
@@ -2808,7 +2808,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er schwöre",
-      "lv": "el juraría"
+      "lv": "él juraría"
     },
     "partizipVergangenheit": {
       "de": "geschworen",
@@ -2822,15 +2822,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er sieht",
-      "lv": "el ve"
+      "lv": "él ve"
     },
     "imperfektIndikativ": {
       "de": "er sah",
-      "lv": "el vio"
+      "lv": "él vio"
     },
     "imperfektKonjunktiv": {
       "de": "er sähe",
-      "lv": "el veria"
+      "lv": "él vería"
     },
     "partizipVergangenheit": {
       "de": "gesehen",
@@ -2856,7 +2856,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewesen",
-      "lv": "estado"
+      "lv": "sido"
     }
   },
   {
@@ -2866,7 +2866,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er sendet",
-      "lv": "el envia"
+      "lv": "él envía"
     },
     "imperfektIndikativ": {
       "de": "er sandte / er sendete",
@@ -2888,15 +2888,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er siedet",
-      "lv": "el cocina"
+      "lv": "él hierve"
     },
     "imperfektIndikativ": {
       "de": "sott vai siedete",
-      "lv": "cocido"
+      "lv": "hirvió"
     },
     "imperfektKonjunktiv": {
       "de": "sott vai siedete",
-      "lv": "cocido"
+      "lv": "herviría"
     },
     "partizipVergangenheit": {
       "de": "gesotten vai gesiedet",
@@ -2910,15 +2910,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er singt",
-      "lv": "el canta"
+      "lv": "él canta"
     },
     "imperfektIndikativ": {
       "de": "er sang",
-      "lv": "el canto"
+      "lv": "él cantó"
     },
     "imperfektKonjunktiv": {
       "de": "er sänge",
-      "lv": "el cantaria"
+      "lv": "él cantaría"
     },
     "partizipVergangenheit": {
       "de": "gesungen",
@@ -2932,11 +2932,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er sinkt",
-      "lv": "el se esta hundiendo"
+      "lv": "él se está hundiendo"
     },
     "imperfektIndikativ": {
       "de": "er sank",
-      "lv": "él estaba haciendo las paces"
+      "lv": "él se hundió"
     },
     "imperfektKonjunktiv": {
       "de": "er sänke",
@@ -2944,7 +2944,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesunken (er ist)",
-      "lv": "constituir"
+      "lv": "hundido"
     }
   },
   {
@@ -2954,7 +2954,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er sinnt",
-      "lv": "el se pregunta"
+      "lv": "él se pregunta"
     },
     "imperfektIndikativ": {
       "de": "er sann",
@@ -2976,7 +2976,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er sitzt",
-      "lv": "el esta sentado"
+      "lv": "él está sentado"
     },
     "imperfektIndikativ": {
       "de": "er sass",
@@ -2984,33 +2984,33 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er säße",
-      "lv": "él se sentaría"
+      "lv": "él estaría sentado"
     },
     "partizipVergangenheit": {
       "de": "gesessen",
-      "lv": "se sentó"
+      "lv": "sentado"
     }
   },
   {
     "infinitiv": {
       "de": "sollen",
-      "lv": "necesitar / estar obligado"
+      "lv": "deber"
     },
     "praesens": {
       "de": "er soll",
-      "lv": "el necesita"
+      "lv": "él debe"
     },
     "imperfektIndikativ": {
       "de": "sollte",
-      "lv": "debería tener"
+      "lv": "debía"
     },
     "imperfektKonjunktiv": {
       "de": "sollte",
-      "lv": "debería tener"
+      "lv": "debería"
     },
     "partizipVergangenheit": {
       "de": "gesollt",
-      "lv": "necesario"
+      "lv": "debido"
     }
   },
   {
@@ -3020,7 +3020,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er speit",
-      "lv": "el escupe"
+      "lv": "él escupe"
     },
     "imperfektIndikativ": {
       "de": "er spie",
@@ -3032,7 +3032,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gespien",
-      "lv": "escupió"
+      "lv": "escupido"
     }
   },
   {
@@ -3054,25 +3054,25 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gesponnen",
-      "lv": "hilado"
+      "lv": "girado"
     }
   },
   {
     "infinitiv": {
       "de": "spleißen",
-      "lv": "para conectar"
+      "lv": "conectar"
     },
     "praesens": {
       "de": "er spleißt",
-      "lv": "el conecta"
+      "lv": "él conecta"
     },
     "imperfektIndikativ": {
       "de": "spliss",
-      "lv": "conectado"
+      "lv": "conectó"
     },
     "imperfektKonjunktiv": {
       "de": "spliss",
-      "lv": "conectado"
+      "lv": "conectaría"
     },
     "partizipVergangenheit": {
       "de": "gesplissen",
@@ -3086,15 +3086,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er spricht",
-      "lv": "el habla"
+      "lv": "él habla"
     },
     "imperfektIndikativ": {
       "de": "er sprach",
-      "lv": "el habló"
+      "lv": "él habló"
     },
     "imperfektKonjunktiv": {
       "de": "er spräche",
-      "lv": "el hablaria"
+      "lv": "él hablaría"
     },
     "partizipVergangenheit": {
       "de": "gesprochen",
@@ -3104,23 +3104,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "sprießen",
-      "lv": "prosperar"
+      "lv": "brotar"
     },
     "praesens": {
       "de": "er sprießt",
-      "lv": "el prospera"
+      "lv": "él brota"
     },
     "imperfektIndikativ": {
       "de": "er spross",
-      "lv": "él prosperó"
+      "lv": "él brotó"
     },
     "imperfektKonjunktiv": {
       "de": "er sprösse",
-      "lv": "el estante"
+      "lv": "él brotaría"
     },
     "partizipVergangenheit": {
       "de": "gesprossen (er ist)",
-      "lv": "el hombro"
+      "lv": "brotado"
     }
   },
   {
@@ -3130,7 +3130,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er springt",
-      "lv": "el salta"
+      "lv": "él salta"
     },
     "imperfektIndikativ": {
       "de": "er sprang",
@@ -3138,17 +3138,17 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er spränge",
-      "lv": "el saltaria"
+      "lv": "él saltaría"
     },
     "partizipVergangenheit": {
       "de": "gesprungen (er ist)",
-      "lv": "lente"
+      "lv": "saltado"
     }
   },
   {
     "infinitiv": {
       "de": "stechen",
-      "lv": "puñalada"
+      "lv": "apuñalar"
     },
     "praesens": {
       "de": "er sticht",
@@ -3156,7 +3156,7 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "er stach",
-      "lv": "él golpeó"
+      "lv": "él apuñaló"
     },
     "imperfektKonjunktiv": {
       "de": "er stäche",
@@ -3170,23 +3170,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stecken",
-      "lv": "pegarse / pegarse"
+      "lv": "meter / estar metido"
     },
     "praesens": {
       "de": "er steckt",
-      "lv": "el empuja"
+      "lv": "él mete / está metido"
     },
     "imperfektIndikativ": {
       "de": "stak vai steckte",
-      "lv": "relleno"
+      "lv": "metió / estuvo metido"
     },
     "imperfektKonjunktiv": {
       "de": "stak vai steckte",
-      "lv": "relleno"
+      "lv": "metería / estaría metido"
     },
     "partizipVergangenheit": {
       "de": "gesteckt",
-      "lv": "relleno"
+      "lv": "metido"
     }
   },
   {
@@ -3196,11 +3196,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er steht",
-      "lv": "el esta de pie"
+      "lv": "él está de pie"
     },
     "imperfektIndikativ": {
       "de": "er stand",
-      "lv": "él se puso de pie"
+      "lv": "él estuvo de pie"
     },
     "imperfektKonjunktiv": {
       "de": "er stände / er stünde",
@@ -3208,7 +3208,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestanden",
-      "lv": "de pie"
+      "lv": "estado de pie"
     }
   },
   {
@@ -3218,15 +3218,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er stiehlt",
-      "lv": "el roba"
+      "lv": "él roba"
     },
     "imperfektIndikativ": {
       "de": "er stahl",
-      "lv": "el robo"
+      "lv": "él robó"
     },
     "imperfektKonjunktiv": {
       "de": "er stöhle / er stähle",
-      "lv": "el robaria"
+      "lv": "él robaría"
     },
     "partizipVergangenheit": {
       "de": "gestohlen",
@@ -3252,7 +3252,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestiegen (er ist)",
-      "lv": "subió"
+      "lv": "subido"
     }
   },
   {
@@ -3262,15 +3262,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er stirbt",
-      "lv": "el esta muriendo"
+      "lv": "él muere"
     },
     "imperfektIndikativ": {
       "de": "er starb",
-      "lv": "el murio"
+      "lv": "él murió"
     },
     "imperfektKonjunktiv": {
       "de": "er stürbe",
-      "lv": "el moriria"
+      "lv": "él moriría"
     },
     "partizipVergangenheit": {
       "de": "gestorben (er ist)",
@@ -3280,23 +3280,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "stieben",
-      "lv": "espuma / remolino"
+      "lv": "dispersarse / salir disparado"
     },
     "praesens": {
       "de": "es stiebt",
-      "lv": "sopla"
+      "lv": "se dispersa"
     },
     "imperfektIndikativ": {
       "de": "stob vai stiebte",
-      "lv": "espumado"
+      "lv": "se dispersó"
     },
     "imperfektKonjunktiv": {
       "de": "stob vai stiebte",
-      "lv": "espumado"
+      "lv": "se dispersaría"
     },
     "partizipVergangenheit": {
       "de": "gestoben vai gestiebt",
-      "lv": "arruinado"
+      "lv": "dispersado"
     }
   },
   {
@@ -3318,7 +3318,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gestunken",
-      "lv": "maloliente"
+      "lv": "olido"
     }
   },
   {
@@ -3328,7 +3328,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er stößt",
-      "lv": "el empuja"
+      "lv": "él empuja"
     },
     "imperfektIndikativ": {
       "de": "er stieß",
@@ -3336,7 +3336,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er stieße",
-      "lv": "él estaba empujando"
+      "lv": "él empujaría"
     },
     "partizipVergangenheit": {
       "de": "gestoßen",
@@ -3346,23 +3346,23 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "streichen",
-      "lv": "pintura / tira"
+      "lv": "pintar / quitar"
     },
     "praesens": {
       "de": "er streicht",
-      "lv": "él pinta / rayas"
+      "lv": "él pinta / quita"
     },
     "imperfektIndikativ": {
       "de": "er strich",
-      "lv": "él pintó / rayado"
+      "lv": "él pintó / quitó"
     },
     "imperfektKonjunktiv": {
       "de": "er striche",
-      "lv": "él pintaría / desnudaría"
+      "lv": "él pintaría / quitaría"
     },
     "partizipVergangenheit": {
       "de": "gestrichen",
-      "lv": "pintado / rayado"
+      "lv": "pintado / quitado"
     }
   },
   {
@@ -3372,19 +3372,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er streitet",
-      "lv": "el esta peleando"
+      "lv": "él está peleando"
     },
     "imperfektIndikativ": {
       "de": "er stritt",
-      "lv": "él luchó"
+      "lv": "él peleó"
     },
     "imperfektKonjunktiv": {
       "de": "er stritte",
-      "lv": "el pelearia"
+      "lv": "él pelearía"
     },
     "partizipVergangenheit": {
       "de": "gestritten",
-      "lv": "luchó"
+      "lv": "peleado"
     }
   },
   {
@@ -3394,7 +3394,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er trägt",
-      "lv": "el lleva"
+      "lv": "él lleva"
     },
     "imperfektIndikativ": {
       "de": "er trug",
@@ -3406,7 +3406,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getragen",
-      "lv": "transportado"
+      "lv": "llevado"
     }
   },
   {
@@ -3416,11 +3416,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er trifft",
-      "lv": "el se encuentra"
+      "lv": "él se encuentra"
     },
     "imperfektIndikativ": {
       "de": "er traf",
-      "lv": "el encontro"
+      "lv": "él encontró"
     },
     "imperfektKonjunktiv": {
       "de": "er träfe",
@@ -3438,7 +3438,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er treibt",
-      "lv": "el conduce"
+      "lv": "él conduce"
     },
     "imperfektIndikativ": {
       "de": "er trieb",
@@ -3456,11 +3456,11 @@ const VERB_ENTRIES = [
   {
     "infinitiv": {
       "de": "treten",
-      "lv": "entrar/ir"
+      "lv": "entrar / ir"
     },
     "praesens": {
       "de": "er tritt",
-      "lv": "el entra/va"
+      "lv": "él entra / va"
     },
     "imperfektIndikativ": {
       "de": "er trat",
@@ -3472,7 +3472,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "getreten (er ist)",
-      "lv": "se puso de pie / caminó"
+      "lv": "se ha puesto de pie / ha caminado"
     }
   },
   {
@@ -3482,7 +3482,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er trinkt",
-      "lv": "el bebe"
+      "lv": "él bebe"
     },
     "imperfektIndikativ": {
       "de": "er trank",
@@ -3490,11 +3490,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er tränke",
-      "lv": "el beberia"
+      "lv": "él bebería"
     },
     "partizipVergangenheit": {
       "de": "getrunken",
-      "lv": "ebrio"
+      "lv": "bebido"
     }
   },
   {
@@ -3526,15 +3526,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er tut",
-      "lv": "el lo hace"
+      "lv": "él lo hace"
     },
     "imperfektIndikativ": {
       "de": "er tat",
-      "lv": "el lo hizo"
+      "lv": "él lo hizo"
     },
     "imperfektKonjunktiv": {
       "de": "er täte",
-      "lv": "el lo haria"
+      "lv": "él lo haría"
     },
     "partizipVergangenheit": {
       "de": "getan",
@@ -3548,7 +3548,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er verdirbt",
-      "lv": "el destruye"
+      "lv": "él destruye"
     },
     "imperfektIndikativ": {
       "de": "er verdarb",
@@ -3570,11 +3570,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er verdrießt",
-      "lv": "el causa molestia"
+      "lv": "él causa molestia"
     },
     "imperfektIndikativ": {
       "de": "er verdross",
-      "lv": "el causo molestia"
+      "lv": "él causó molestia"
     },
     "imperfektKonjunktiv": {
       "de": "er verdrösse",
@@ -3582,7 +3582,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "verdrossen",
-      "lv": "decepcionado"
+      "lv": "molestado"
     }
   },
   {
@@ -3592,7 +3592,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er vergisst",
-      "lv": "el olvida"
+      "lv": "él olvida"
     },
     "imperfektIndikativ": {
       "de": "er vergass",
@@ -3600,7 +3600,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er vergäße",
-      "lv": "el olvidaria"
+      "lv": "él olvidaría"
     },
     "partizipVergangenheit": {
       "de": "vergessen",
@@ -3614,15 +3614,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er verliert",
-      "lv": "el pierde"
+      "lv": "él pierde"
     },
     "imperfektIndikativ": {
       "de": "er verlor",
-      "lv": "el perdio"
+      "lv": "él perdió"
     },
     "imperfektKonjunktiv": {
       "de": "er verlöre",
-      "lv": "el perderia"
+      "lv": "él perdería"
     },
     "partizipVergangenheit": {
       "de": "verloren",
@@ -3636,7 +3636,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er wächst",
-      "lv": "el esta creciendo"
+      "lv": "él está creciendo"
     },
     "imperfektIndikativ": {
       "de": "er wuchs",
@@ -3658,11 +3658,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er wäscht",
-      "lv": "el lava"
+      "lv": "él lava"
     },
     "imperfektIndikativ": {
       "de": "er wusch",
-      "lv": "el lavo"
+      "lv": "él lavó"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsche",
@@ -3680,15 +3680,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er webt",
-      "lv": "el teje"
+      "lv": "él teje"
     },
     "imperfektIndikativ": {
       "de": "wob",
-      "lv": "tejido"
+      "lv": "él tejió"
     },
     "imperfektKonjunktiv": {
       "de": "wob",
-      "lv": "tejido"
+      "lv": "él tejería"
     },
     "partizipVergangenheit": {
       "de": "gewoben",
@@ -3714,25 +3714,25 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewichen (er ist)",
-      "lv": "dar marcha atrás"
+      "lv": "se ha retirado"
     }
   },
   {
     "infinitiv": {
       "de": "weisen",
-      "lv": "espectáculo"
+      "lv": "mostrar"
     },
     "praesens": {
       "de": "er weist",
-      "lv": "el muestra"
+      "lv": "él muestra"
     },
     "imperfektIndikativ": {
       "de": "er wies",
-      "lv": "el mostro"
+      "lv": "él mostró"
     },
     "imperfektKonjunktiv": {
       "de": "er wiese",
-      "lv": "el mostraria"
+      "lv": "él mostraría"
     },
     "partizipVergangenheit": {
       "de": "gewiesen",
@@ -3768,11 +3768,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er wirbt",
-      "lv": "el propone"
+      "lv": "él propone"
     },
     "imperfektIndikativ": {
       "de": "er warb",
-      "lv": "el propuso"
+      "lv": "él propuso"
     },
     "imperfektKonjunktiv": {
       "de": "er würbe",
@@ -3780,7 +3780,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geworben",
-      "lv": "propuesto a"
+      "lv": "promocionado"
     }
   },
   {
@@ -3794,11 +3794,11 @@ const VERB_ENTRIES = [
     },
     "imperfektIndikativ": {
       "de": "wurde",
-      "lv": "convertirse"
+      "lv": "se convirtió"
     },
     "imperfektKonjunktiv": {
       "de": "wurde",
-      "lv": "convertirse"
+      "lv": "se convertiría"
     },
     "partizipVergangenheit": {
       "de": "geworden",
@@ -3812,15 +3812,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er wirft",
-      "lv": "el tira"
+      "lv": "él tira"
     },
     "imperfektIndikativ": {
       "de": "er warf",
-      "lv": "el arrojó"
+      "lv": "él arrojó"
     },
     "imperfektKonjunktiv": {
       "de": "er würfe",
-      "lv": "el arrojó"
+      "lv": "él arrojaría"
     },
     "partizipVergangenheit": {
       "de": "geworfen",
@@ -3834,33 +3834,33 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er wiegt",
-      "lv": "el pesa"
+      "lv": "él pesa"
     },
     "imperfektIndikativ": {
       "de": "er wog",
-      "lv": "el pesó"
+      "lv": "él pesó"
     },
     "imperfektKonjunktiv": {
       "de": "er wöge",
-      "lv": "el pesaria"
+      "lv": "él pesaría"
     },
     "partizipVergangenheit": {
       "de": "gewogen",
-      "lv": "ponderado"
+      "lv": "pesado"
     }
   },
   {
     "infinitiv": {
       "de": "winden",
-      "lv": "trenza"
+      "lv": "retorcer"
     },
     "praesens": {
       "de": "er windet",
-      "lv": "el alfiler"
+      "lv": "él retuerce"
     },
     "imperfektIndikativ": {
       "de": "er wand",
-      "lv": "el trenza"
+      "lv": "él retorció"
     },
     "imperfektKonjunktiv": {
       "de": "er wände",
@@ -3878,29 +3878,29 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er weiß",
-      "lv": "el sabe"
+      "lv": "él sabe"
     },
     "imperfektIndikativ": {
       "de": "er wusste",
-      "lv": "el sabia"
+      "lv": "él sabía"
     },
     "imperfektKonjunktiv": {
       "de": "er wüsste",
-      "lv": "el sabria"
+      "lv": "él sabría"
     },
     "partizipVergangenheit": {
       "de": "gewusst",
-      "lv": "conocido"
+      "lv": "sabido"
     }
   },
   {
     "infinitiv": {
       "de": "wollen",
-      "lv": "quiero"
+      "lv": "querer"
     },
     "praesens": {
       "de": "er will",
-      "lv": "el quiere"
+      "lv": "él quiere"
     },
     "imperfektIndikativ": {
       "de": "wollte",
@@ -3912,7 +3912,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gewollt",
-      "lv": "quería"
+      "lv": "querido"
     }
   },
   {
@@ -3922,19 +3922,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er wringt",
-      "lv": "el corta"
+      "lv": "él exprime"
     },
     "imperfektIndikativ": {
       "de": "wrang",
-      "lv": "separar"
+      "lv": "él exprimió"
     },
     "imperfektKonjunktiv": {
       "de": "wrang",
-      "lv": "separar"
+      "lv": "él exprimiría"
     },
     "partizipVergangenheit": {
       "de": "gewrungen",
-      "lv": "separar"
+      "lv": "exprimido"
     }
   },
   {
@@ -3944,7 +3944,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er zeiht",
-      "lv": "el culpa"
+      "lv": "él culpa"
     },
     "imperfektIndikativ": {
       "de": "zieh",
@@ -3956,7 +3956,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "geziehen",
-      "lv": "culpado"
+      "lv": "acusado"
     }
   },
   {
@@ -3966,7 +3966,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er zieht",
-      "lv": "el tira"
+      "lv": "él tira"
     },
     "imperfektIndikativ": {
       "de": "er zog",
@@ -3974,7 +3974,7 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er zöge",
-      "lv": "el arrastraria"
+      "lv": "él arrastraría"
     },
     "partizipVergangenheit": {
       "de": "gezogen",
@@ -3988,11 +3988,11 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er zwingt",
-      "lv": "el obliga"
+      "lv": "él obliga"
     },
     "imperfektIndikativ": {
       "de": "er zwang",
-      "lv": "el forzó"
+      "lv": "él forzó"
     },
     "imperfektKonjunktiv": {
       "de": "er zwänge",
@@ -4010,7 +4010,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er empfängt",
-      "lv": "el recibe"
+      "lv": "él recibe"
     },
     "imperfektIndikativ": {
       "de": "er empfing",
@@ -4018,11 +4018,11 @@ const VERB_ENTRIES = [
     },
     "imperfektKonjunktiv": {
       "de": "er empfinge",
-      "lv": "el recibiria"
+      "lv": "él recibiría"
     },
     "partizipVergangenheit": {
       "de": "empfangen",
-      "lv": "recibió"
+      "lv": "recibido"
     }
   },
   {
@@ -4032,19 +4032,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er erwägt",
-      "lv": "el considera"
+      "lv": "él considera"
     },
     "imperfektIndikativ": {
       "de": "er erwog",
-      "lv": "el considero"
+      "lv": "él consideró"
     },
     "imperfektKonjunktiv": {
       "de": "er erwöge",
-      "lv": "el consideraria"
+      "lv": "él consideraría"
     },
     "partizipVergangenheit": {
       "de": "erwogen",
-      "lv": "consideró"
+      "lv": "considerado"
     }
   },
   {
@@ -4054,33 +4054,33 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er ficht",
-      "lv": "el esta peleando"
+      "lv": "él está peleando"
     },
     "imperfektIndikativ": {
       "de": "er focht",
-      "lv": "él luchó"
+      "lv": "él peleó"
     },
     "imperfektKonjunktiv": {
       "de": "er föchte",
-      "lv": "el pelearia"
+      "lv": "él pelearía"
     },
     "partizipVergangenheit": {
       "de": "gefochten",
-      "lv": "luchó"
+      "lv": "peleado"
     }
   },
   {
     "infinitiv": {
       "de": "flechten",
-      "lv": "trenza"
+      "lv": "trenzar"
     },
     "praesens": {
       "de": "er flicht",
-      "lv": "el alfiler"
+      "lv": "él trenza"
     },
     "imperfektIndikativ": {
       "de": "er flocht",
-      "lv": "el trenza"
+      "lv": "él trenzó"
     },
     "imperfektKonjunktiv": {
       "de": "er flöchte",
@@ -4098,19 +4098,19 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er hängt",
-      "lv": "el cuelga"
+      "lv": "él cuelga"
     },
     "imperfektIndikativ": {
       "de": "er hing",
-      "lv": "el colgó"
+      "lv": "él colgó"
     },
     "imperfektKonjunktiv": {
       "de": "er hinge",
-      "lv": "él se ahorcaría"
+      "lv": "él colgaría"
     },
     "partizipVergangenheit": {
       "de": "gehangen",
-      "lv": "Aférrate"
+      "lv": "colgado"
     }
   },
   {
@@ -4120,7 +4120,7 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er spaltet",
-      "lv": "el se divide"
+      "lv": "él se divide"
     },
     "imperfektIndikativ": {
       "de": "er spaltete",
@@ -4132,7 +4132,7 @@ const VERB_ENTRIES = [
     },
     "partizipVergangenheit": {
       "de": "gespalten",
-      "lv": "dividir"
+      "lv": "dividido"
     }
   },
   {
@@ -4142,15 +4142,15 @@ const VERB_ENTRIES = [
     },
     "praesens": {
       "de": "er verzeiht",
-      "lv": "el perdona"
+      "lv": "él perdona"
     },
     "imperfektIndikativ": {
       "de": "er verzieh",
-      "lv": "el perdonó"
+      "lv": "él perdonó"
     },
     "imperfektKonjunktiv": {
       "de": "er verziehe",
-      "lv": "el perdonaria"
+      "lv": "él perdonaría"
     },
     "partizipVergangenheit": {
       "de": "verziehen",

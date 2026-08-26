@@ -30,7 +30,7 @@ const B2_WORDS = [
   },
   {
     "de": "widersprechen",
-    "lv": "objeto",
+    "lv": "contradecir",
     "level": "B2"
   },
   {
@@ -58,7 +58,7 @@ const B2_WORDS = [
     "de": "Akt",
     "de_article": "der",
     "de_plural": "die Akte",
-    "lv": "acto • documento",
+    "lv": "acto",
     "level": "B2"
   },
   {
@@ -99,7 +99,7 @@ const B2_WORDS = [
   },
   {
     "de": "anfertigen",
-    "lv": "hacer",
+    "lv": "elaborar",
     "level": "B2"
   },
   {
@@ -114,7 +114,7 @@ const B2_WORDS = [
   },
   {
     "de": "angehen",
-    "lv": "relacionarse con • volverse en contra",
+    "lv": "atañer a • volverse contra",
     "level": "B2"
   },
   {
@@ -146,7 +146,7 @@ const B2_WORDS = [
   },
   {
     "de": "anbrechen",
-    "lv": "para empezar • hackear",
+    "lv": "empezar • abrir",
     "level": "B2"
   },
   {
@@ -161,7 +161,7 @@ const B2_WORDS = [
   },
   {
     "de": "angeblich",
-    "lv": "como si • aparentemente",
+    "lv": "supuestamente",
     "level": "B2"
   },
   {
@@ -176,7 +176,7 @@ const B2_WORDS = [
   },
   {
     "de": "angeordnet",
-    "lv": "determinado • ordenado",
+    "lv": "dispuesto • ordenado",
     "level": "B2"
   },
   {
@@ -186,12 +186,12 @@ const B2_WORDS = [
   },
   {
     "de": "angegriffen",
-    "lv": "cansado • atacado",
+    "lv": "debilitado • atacado",
     "level": "B2"
   },
   {
     "de": "abberufen",
-    "lv": "revocar • despedir",
+    "lv": "destituir • despedir",
     "level": "B2"
   },
   {
@@ -221,7 +221,7 @@ const B2_WORDS = [
   {
     "de": "Abenteuerlust",
     "de_article": "die",
-    "lv": "lujuria por una aventura",
+    "lv": "sed de aventuras",
     "level": "B2"
   },
   {
@@ -233,12 +233,12 @@ const B2_WORDS = [
   },
   {
     "de": "abfällig",
-    "lv": "desfavorable • negativo • malo • desaprobador",
+    "lv": "despectivo",
     "level": "B2"
   },
   {
     "de": "abfertigen",
-    "lv": "enviar • despedir • servir • tratar cruelmente",
+    "lv": "despachar • despedir • atender • tratar con brusquedad",
     "level": "B2"
   },
   {
@@ -248,7 +248,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-abfinden",
       "layout": "minimalStudy",
-      "translation": "soportar",
+      "translation": "resignarse a",
       "rektion": "mit + kam?",
       "explanation": "sich abfinden requiere la preposición definida mit + kam?.",
       "forms": "mit + kam?",
@@ -267,7 +267,7 @@ const B2_WORDS = [
   },
   {
     "de": "abgesehen",
-    "lv": "aunque • además",
+    "lv": "aparte de • además de",
     "level": "B2"
   },
   {
@@ -299,7 +299,7 @@ const B2_WORDS = [
   },
   {
     "de": "ableiten",
-    "lv": "liderar • desviar • derivar",
+    "lv": "drenar • desviar • derivar",
     "level": "B2"
   },
   {
@@ -313,7 +313,7 @@ const B2_WORDS = [
     "de": "Abnutzung",
     "de_article": "die",
     "de_plural": "die Abnutzungen",
-    "lv": "desgaste • desgaste • desgaste",
+    "lv": "desgaste",
     "level": "B2"
   },
   {
@@ -332,19 +332,19 @@ const B2_WORDS = [
     "de": "Abrüstung",
     "de_article": "die",
     "de_plural": "die Abrüstungen",
-    "lv": "desarmamiento",
+    "lv": "desarme",
     "level": "B2"
   },
   {
     "de": "Absatzmarkt",
     "de_article": "der",
     "de_plural": "die Absatzmärkte",
-    "lv": "mercado de salida",
+    "lv": "mercado de ventas",
     "level": "B2"
   },
   {
     "de": "abscheulich",
-    "lv": "repugnante • repugnante",
+    "lv": "repugnante",
     "level": "B2"
   },
   {
@@ -354,12 +354,12 @@ const B2_WORDS = [
   },
   {
     "de": "abschlagen",
-    "lv": "reducir • repeler • rechazar • rechazar",
+    "lv": "cortar • repeler • rechazar",
     "level": "B2"
   },
   {
     "de": "abschleppen",
-    "lv": "quitar el auto",
+    "lv": "remolcar un coche",
     "level": "B2"
   },
   {
@@ -376,7 +376,7 @@ const B2_WORDS = [
   },
   {
     "de": "absondern",
-    "lv": "separar • separar • aislar",
+    "lv": "secretar • separar • aislar",
     "level": "B2"
   },
   {
@@ -395,7 +395,7 @@ const B2_WORDS = [
   },
   {
     "de": "abstimmen",
-    "lv": "votar • estar de acuerdo",
+    "lv": "votar • coordinar",
     "level": "B2"
   },
   {
@@ -414,7 +414,7 @@ const B2_WORDS = [
     "de": "Absturz",
     "de_article": "der",
     "de_plural": "die Abstürze",
-    "lv": "caer • caer",
+    "lv": "caída • accidente aéreo",
     "level": "B2"
   },
   {
@@ -424,12 +424,12 @@ const B2_WORDS = [
   },
   {
     "de": "abtragen",
-    "lv": "llevarse · llevarse · demoler",
+    "lv": "llevarse • desgastar • demoler",
     "level": "B2"
   },
   {
     "de": "abtreten",
-    "lv": "retirar • dar • dejar",
+    "lv": "dimitir • ceder • marcharse",
     "level": "B2"
   },
   {
@@ -439,19 +439,19 @@ const B2_WORDS = [
   },
   {
     "de": "abweisen",
-    "lv": "rechazar • rechazar",
+    "lv": "rechazar",
     "level": "B2"
   },
   {
     "de": "abwenden",
-    "lv": "para prevenir",
+    "lv": "evitar",
     "level": "B2"
   },
   {
     "de": "Affäre",
     "de_article": "die",
     "de_plural": "die Affären",
-    "lv": "asunto • novela",
+    "lv": "asunto • aventura amorosa",
     "level": "B2"
   },
   {
@@ -481,12 +481,12 @@ const B2_WORDS = [
   {
     "de": "Abzweigung",
     "de_article": "die",
-    "lv": "sucursal • sucursal",
+    "lv": "desvío • bifurcación",
     "level": "B2"
   },
   {
     "de": "ächzen",
-    "lv": "gemir • gemir",
+    "lv": "gemir",
     "level": "B2"
   },
   {
@@ -513,7 +513,7 @@ const B2_WORDS = [
   },
   {
     "de": "andeuten",
-    "lv": "indicar • sugerencia",
+    "lv": "indicar • insinuar",
     "level": "B2"
   },
   {
@@ -545,7 +545,7 @@ const B2_WORDS = [
     "de": "Areal",
     "de_article": "das",
     "de_plural": "die Areale",
-    "lv": "rango",
+    "lv": "área",
     "level": "B2"
   },
   {
@@ -566,7 +566,7 @@ const B2_WORDS = [
     "de": "Aster",
     "de_article": "die",
     "de_plural": "die Astern",
-    "lv": "aster",
+    "lv": "áster",
     "level": "B2"
   },
   {
@@ -591,7 +591,7 @@ const B2_WORDS = [
     "de": "Ausbeutung",
     "de_article": "die",
     "de_plural": "die Ausbeutungen",
-    "lv": "operación",
+    "lv": "explotación",
     "level": "B2"
   },
   {
@@ -603,14 +603,14 @@ const B2_WORDS = [
   },
   {
     "de": "sich aufdrängen",
-    "lv": "acosar",
+    "lv": "imponerse",
     "level": "B2"
   },
   {
     "de": "Aufruf",
     "de_article": "der",
     "de_plural": "die Aufrufe",
-    "lv": "exclamación • invitación",
+    "lv": "llamamiento • invitación",
     "level": "B2"
   },
   {
@@ -631,26 +631,26 @@ const B2_WORDS = [
     "de": "Augenmaß",
     "de_article": "das",
     "de_plural": "die Augenmaße",
-    "lv": "acumetro",
+    "lv": "sentido de la proporción",
     "level": "B2"
   },
   {
     "de": "Äußerlichkeit",
     "de_article": "die",
     "de_plural": "die Äußerlichkeiten",
-    "lv": "ostentación",
+    "lv": "apariencia externa",
     "level": "B2"
   },
   {
     "de": "Äußerung",
     "de_article": "die",
     "de_plural": "die Äußerungen",
-    "lv": "enunciado • expresión • expresión",
+    "lv": "enunciado • expresión • declaración",
     "level": "B2"
   },
   {
     "de": "aussetzen",
-    "lv": "publicar • asunto • oponerse • ponerse de pie",
+    "lv": "exponer • someter • oponerse • abandonar",
     "level": "B2"
   },
   {
@@ -660,32 +660,32 @@ const B2_WORDS = [
   },
   {
     "de": "ausspannen",
-    "lv": "desatar • quitar pareja • descansar",
+    "lv": "desenganchar • quitarle la pareja a alguien • relajarse",
     "level": "B2"
   },
   {
     "de": "ausstatten",
-    "lv": "suministrar • diseñar",
+    "lv": "equipar • decorar",
     "level": "B2"
   },
   {
     "de": "aussterben",
-    "lv": "morir",
+    "lv": "extinguirse",
     "level": "B2"
   },
   {
     "de": "ausstopfen",
-    "lv": "llenar • llenar • rellenar",
+    "lv": "rellenar • disecar",
     "level": "B2"
   },
   {
     "de": "ausströmen",
-    "lv": "rezumar • emanar • irradiar",
+    "lv": "fluir • emanar • irradiar",
     "level": "B2"
   },
   {
     "de": "austragen",
-    "lv": "llevar • entregar • ganar",
+    "lv": "llevar a término • entregar • ganar",
     "level": "B2"
   },
   {
@@ -695,7 +695,7 @@ const B2_WORDS = [
   },
   {
     "de": "austreten",
-    "lv": "desalojar • alquilar • abandonar",
+    "lv": "pisar • salir • abandonar",
     "level": "B2"
   },
   {
@@ -705,34 +705,34 @@ const B2_WORDS = [
   },
   {
     "de": "ausweichend",
-    "lv": "evasivo • incierto",
+    "lv": "evasivo • impreciso",
     "level": "B2"
   },
   {
     "de": "ausweisen",
-    "lv": "expulsar • enviar • confirmar • probar",
+    "lv": "expulsar • identificarse • acreditar • demostrar",
     "level": "B2"
   },
   {
     "de": "auswerfen",
-    "lv": "tirar • tirar",
+    "lv": "tirar • expulsar",
     "level": "B2"
   },
   {
     "de": "auswerten",
-    "lv": "evaluar • evaluar",
+    "lv": "evaluar • analizar",
     "level": "B2"
   },
   {
     "de": "auszeichnen",
-    "lv": "premio • premio • destacar",
+    "lv": "premiar • distinguir • destacar",
     "level": "B2"
   },
   {
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "concesión • premio • insignia de honor",
+    "lv": "distinción • premio • insignia de honor",
     "level": "B2"
   },
   {
@@ -749,21 +749,21 @@ const B2_WORDS = [
   },
   {
     "de": "bändigen",
-    "lv": "restringir • someter",
+    "lv": "domar • someter",
     "level": "B2"
   },
   {
     "de": "Blutbank",
     "de_article": "die",
     "de_plural": "die Blutbanken",
-    "lv": "reservas de sangre",
+    "lv": "banco de sangre",
     "level": "B2"
   },
   {
     "de": "Organbank",
     "de_article": "die",
     "de_plural": "die Organbanken",
-    "lv": "banco de organos",
+    "lv": "banco de órganos",
     "level": "B2"
   },
   {
@@ -777,7 +777,7 @@ const B2_WORDS = [
     "de": "Bankleitzahl",
     "de_article": "die",
     "de_plural": "die Bankleitzahlen",
-    "lv": "índice bancario",
+    "lv": "código bancario",
     "level": "B2"
   },
   {
@@ -829,13 +829,13 @@ const B2_WORDS = [
     "de": "Barren",
     "de_article": "der",
     "de_plural": "die Barren",
-    "lv": "afluentes",
+    "lv": "barras paralelas",
     "level": "B2"
   },
   {
     "de": "Barrenturnen",
     "de_article": "das",
-    "lv": "ejercicio en afluentes",
+    "lv": "gimnasia en barras paralelas",
     "level": "B2"
   },
   {
@@ -870,7 +870,7 @@ const B2_WORDS = [
     "de": "Baugrube",
     "de_article": "die",
     "de_plural": "die Baugruben",
-    "lv": "pozo de construcción",
+    "lv": "excavación de obra",
     "level": "B2"
   },
   {
@@ -890,22 +890,22 @@ const B2_WORDS = [
   {
     "de": "Bauwesen",
     "de_article": "das",
-    "lv": "construcción • construcción",
+    "lv": "construcción • sector de la construcción",
     "level": "B2"
   },
   {
     "de": "bebauen",
-    "lv": "proceso • construir",
+    "lv": "cultivar • construir en",
     "level": "B2"
   },
   {
     "de": "bedürfen",
-    "lv": "necesitar • ser necesario",
+    "lv": "necesitar • requerir",
     "level": "B2"
   },
   {
     "de": "befallen",
-    "lv": "subir • atacar",
+    "lv": "afectar • atacar",
     "level": "B2"
   },
   {
@@ -936,29 +936,29 @@ const B2_WORDS = [
     "de": "Beförderung",
     "de_article": "die",
     "de_plural": "die Beförderungen",
-    "lv": "entrega • transporte • promoción • promoción",
+    "lv": "entrega • transporte • promoción • ascenso",
     "level": "B2"
   },
   {
     "de": "Befugnis",
     "de_article": "die",
     "de_plural": "die Befugnisse",
-    "lv": "derechos • autoridad",
+    "lv": "facultad • autorización",
     "level": "B2"
   },
   {
     "de": "begehren",
-    "lv": "demandar demandar gustar codiciar codiciar",
+    "lv": "exigir • solicitar • desear • codiciar • anhelar",
     "level": "B2"
   },
   {
     "de": "begierig",
-    "lv": "antojo",
+    "lv": "ávido • ansioso por",
     "level": "B2"
   },
   {
     "de": "begnadigen",
-    "lv": "tener piedad",
+    "lv": "indultar • perdonar",
     "level": "B2"
   },
   {
@@ -987,44 +987,44 @@ const B2_WORDS = [
   },
   {
     "de": "begünstigen",
-    "lv": "promover • facilitar • proteger • apoyar",
+    "lv": "favorecer • promover • facilitar",
     "level": "B2"
   },
   {
     "de": "begutachten",
-    "lv": "dar retroalimentación • evaluar",
+    "lv": "evaluar • peritar",
     "level": "B2"
   },
   {
     "de": "beharren",
-    "lv": "existir • permanecer",
+    "lv": "insistir • mantenerse firme",
     "level": "B2"
   },
   {
     "de": "beharrlich",
-    "lv": "persistente • persistente",
+    "lv": "persistente • tenaz",
     "level": "B2"
   },
   {
     "de": "behüten",
-    "lv": "proteger • proteger",
+    "lv": "proteger • cuidar",
     "level": "B2"
   },
   {
     "de": "Beihilfe",
     "de_article": "die",
     "de_plural": "die Beihilfen",
-    "lv": "beneficio estatal • bonificación",
+    "lv": "ayuda estatal • subsidio",
     "level": "B2"
   },
   {
     "de": "beiläufig",
-    "lv": "accidental • casual • por cierto • pasando por",
+    "lv": "de pasada • casual • incidental",
     "level": "B2"
   },
   {
     "de": "beispiellos",
-    "lv": "no ha sido • invisible • aquello que no es comparable a nada",
+    "lv": "sin precedentes • incomparable",
     "level": "B2"
   },
   {
@@ -1036,22 +1036,22 @@ const B2_WORDS = [
   },
   {
     "de": "beistehen",
-    "lv": "para ayudar",
+    "lv": "ayudar • asistir",
     "level": "B2"
   },
   {
     "de": "beistimmen",
-    "lv": "aprobar • apoyar",
+    "lv": "estar de acuerdo • asentir",
     "level": "B2"
   },
   {
     "de": "beiwohnen",
-    "lv": "estar presente • participar",
+    "lv": "estar presente • asistir a",
     "level": "B2"
   },
   {
     "de": "beizen",
-    "lv": "grabar • teñir",
+    "lv": "mordentar • teñir",
     "level": "B2"
   },
   {
@@ -1061,7 +1061,7 @@ const B2_WORDS = [
   },
   {
     "de": "bejahrt",
-    "lv": "en muchos años",
+    "lv": "de edad avanzada • anciano",
     "level": "B2"
   },
   {
@@ -1071,7 +1071,7 @@ const B2_WORDS = [
   },
   {
     "de": "bekräftigen",
-    "lv": "confirmar • certificar",
+    "lv": "confirmar • ratificar",
     "level": "B2"
   },
   {
@@ -1085,12 +1085,12 @@ const B2_WORDS = [
     "de": "Straßenbelag",
     "de_article": "der",
     "de_plural": "die Straßenbeläge",
-    "lv": "presencia en la calle",
+    "lv": "pavimento • revestimiento de la calzada",
     "level": "B2"
   },
   {
     "de": "belagern",
-    "lv": "asediar • rodear",
+    "lv": "asediar • sitiar",
     "level": "B2"
   },
   {
@@ -1100,7 +1100,7 @@ const B2_WORDS = [
   },
   {
     "de": "belästigen",
-    "lv": "molestar • molestar • quedarse en",
+    "lv": "molestar • acosar • importunar",
     "level": "B2"
   },
   {
@@ -1110,7 +1110,7 @@ const B2_WORDS = [
   },
   {
     "de": "beleben",
-    "lv": "reanimar",
+    "lv": "revitalizar • animar",
     "level": "B2"
   },
   {
@@ -1120,7 +1120,7 @@ const B2_WORDS = [
   },
   {
     "de": "beleibt",
-    "lv": "gordo • querido • lleno",
+    "lv": "corpulento • rollizo",
     "level": "B2"
   },
   {
@@ -1131,7 +1131,7 @@ const B2_WORDS = [
   {
     "de": "Belieben",
     "de_article": "das",
-    "lv": "gustó • gusto • querer",
+    "lv": "gusto • voluntad • deseo",
     "level": "B2"
   },
   {
@@ -1164,7 +1164,7 @@ const B2_WORDS = [
     "de": "Benennung",
     "de_article": "die",
     "de_plural": "die Benennungen",
-    "lv": "denominación • denominación • nombre",
+    "lv": "denominación • nombre",
     "level": "B2"
   },
   {
@@ -1176,12 +1176,12 @@ const B2_WORDS = [
   },
   {
     "de": "berechtigen",
-    "lv": "dar derechos",
+    "lv": "dar derecho a • facultar",
     "level": "B2"
   },
   {
     "de": "beredt",
-    "lv": "charlatán",
+    "lv": "elocuente • persuasivo",
     "level": "B2"
   },
   {
@@ -1216,12 +1216,12 @@ const B2_WORDS = [
   },
   {
     "de": "bersten",
-    "lv": "agrietarse • agrietarse • estallar • estallar",
+    "lv": "agrietarse • reventar • estallar",
     "level": "B2"
   },
   {
     "de": "berufen",
-    "lv": "nombrar • invitar",
+    "lv": "nombrar • convocar",
     "level": "B2"
   },
   {
@@ -1231,7 +1231,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-berufen",
       "layout": "minimalStudy",
-      "translation": "referirse a",
+      "translation": "invocar",
       "rektion": "auf + ko?",
       "explanation": "sich berufen requiere la preposición definida auf + ko?.",
       "forms": "auf + ko?",
@@ -1250,19 +1250,19 @@ const B2_WORDS = [
   },
   {
     "de": "beruhen",
-    "lv": "ser fundado • estar basado",
+    "lv": "fundarse en • basarse en",
     "level": "B2"
   },
   {
     "de": "besänftigen",
-    "lv": "calmarse • apaciguar • apaciguar • silencio",
+    "lv": "calmar • apaciguar • sosegar",
     "level": "B2"
   },
   {
     "de": "Besatzung",
     "de_article": "die",
     "de_plural": "die Besatzungen",
-    "lv": "comando • tripulación • tripulación • unidades militares de ocupación",
+    "lv": "tripulación • dotación • fuerzas de ocupación",
     "level": "B2"
   },
   {
@@ -1272,12 +1272,12 @@ const B2_WORDS = [
   },
   {
     "de": "beschatten",
-    "lv": "eclipsar • dejar rastro",
+    "lv": "seguir • vigilar",
     "level": "B2"
   },
   {
     "de": "beschimpfen",
-    "lv": "maldecir • robar • atrapar",
+    "lv": "insultar • injuriar • denostar",
     "level": "B2"
   },
   {
@@ -1287,7 +1287,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-beschraenken",
       "layout": "minimalStudy",
-      "translation": "limítate a",
+      "translation": "limitarse a",
       "rektion": "auf + ko?",
       "explanation": "sich beschränken requiere la preposición definida auf + ko?.",
       "forms": "auf + ko?",
@@ -1313,17 +1313,17 @@ const B2_WORDS = [
   },
   {
     "de": "beschwören",
-    "lv": "jurar • jurar • orar mucho",
+    "lv": "jurar • invocar • implorar",
     "level": "B2"
   },
   {
     "de": "besessen",
-    "lv": "obsesionado • abrumado • abrumado",
+    "lv": "obsesionado",
     "level": "B2"
   },
   {
     "de": "besiedeln",
-    "lv": "acampar a los habitantes",
+    "lv": "poblar • colonizar",
     "level": "B2"
   },
   {
@@ -1335,7 +1335,7 @@ const B2_WORDS = [
   },
   {
     "de": "bespielen",
-    "lv": "grabar música en casete o disquete",
+    "lv": "reproducir • tocar",
     "level": "B2"
   },
   {
@@ -1367,17 +1367,17 @@ const B2_WORDS = [
   },
   {
     "de": "bestrahlen",
-    "lv": "irradiar • brillar",
+    "lv": "irradiar",
     "level": "B2"
   },
   {
     "de": "bestreiten",
-    "lv": "disputa • pago • cobertura",
+    "lv": "disputar • pagar • cubrir",
     "level": "B2"
   },
   {
     "de": "bestürzt",
-    "lv": "sorprendido • confundido • perplejo • confundido",
+    "lv": "consternado • confundido • perplejo",
     "level": "B2"
   },
   {
@@ -1387,7 +1387,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-betaetigen",
       "layout": "minimalStudy",
-      "translation": "operar • participar",
+      "translation": "dedicarse a",
       "rektion": "in + kur?",
       "explanation": "sich betätigen requiere la preposición definida en + ¿dónde?.",
       "forms": "in + kur?",
@@ -1413,7 +1413,7 @@ const B2_WORDS = [
   },
   {
     "de": "beteuern",
-    "lv": "certificar",
+    "lv": "asegurar enfáticamente • afirmar",
     "level": "B2"
   },
   {
@@ -1438,18 +1438,18 @@ const B2_WORDS = [
     "de": "Betrug",
     "de_article": "der",
     "de_plural": "die Betrüge",
-    "lv": "fraude • engaño • falso • fraude",
+    "lv": "fraude • engaño • estafa",
     "level": "B2"
   },
   {
     "de": "beurlauben",
-    "lv": "conceder licencia • liberación del trabajo",
+    "lv": "conceder licencia • conceder permiso",
     "level": "B2"
   },
   {
     "de": "Beute",
     "de_article": "die",
-    "lv": "botín • ganar • trofeo",
+    "lv": "botín • presa • trofeo",
     "level": "B2"
   },
   {
@@ -1461,7 +1461,7 @@ const B2_WORDS = [
   },
   {
     "de": "bewähren",
-    "lv": "proteger • proteger • proteger • salvar",
+    "lv": "demostrar su valía • resultar eficaz",
     "level": "B2"
   },
   {
@@ -1507,12 +1507,12 @@ const B2_WORDS = [
   },
   {
     "de": "bezähmen",
-    "lv": "encantar • cautivar",
+    "lv": "domar • refrenar",
     "level": "B2"
   },
   {
     "de": "bezeugen",
-    "lv": "certificar",
+    "lv": "atestiguar • dar testimonio de",
     "level": "B2"
   },
   {
@@ -1558,31 +1558,31 @@ const B2_WORDS = [
   },
   {
     "de": "bildlich",
-    "lv": "pictórico • imaginativo • figurativo",
+    "lv": "pictórico • metafórico • figurativo",
     "level": "B2"
   },
   {
     "de": "Bildnis",
     "de_article": "das",
     "de_plural": "die Bildnisse",
-    "lv": "apellido • retrato • imagen",
+    "lv": "retrato • imagen",
     "level": "B2"
   },
   {
     "de": "billigen",
-    "lv": "reconocer como bueno • aceptar",
+    "lv": "aprobar • aceptar",
     "level": "B2"
   },
   {
     "de": "Bindung",
     "de_article": "die",
     "de_plural": "die Bindungen",
-    "lv": "vínculo • conexión • vínculo químico • vínculo • correas • vínculo emocional",
+    "lv": "vínculo • conexión • enlace químico • correas • vínculo emocional",
     "level": "B2"
   },
   {
     "de": "binnen",
-    "lv": "durante • dentro",
+    "lv": "en el plazo de • dentro de",
     "level": "B2"
   },
   {
@@ -1627,17 +1627,17 @@ const B2_WORDS = [
   },
   {
     "de": "bildend",
-    "lv": "imaginativo • educativo",
+    "lv": "formativo • educativo",
     "level": "B2"
   },
   {
     "de": "blähen",
-    "lv": "soplar • inflar • inflar",
+    "lv": "hinchar • inflar",
     "level": "B2"
   },
   {
     "de": "sich blähen",
-    "lv": "inflar • inflar",
+    "lv": "hincharse",
     "level": "B2"
   },
   {
@@ -1651,7 +1651,7 @@ const B2_WORDS = [
     "de": "Bleigehalt",
     "de_article": "der",
     "de_plural": "die Bleigehalte",
-    "lv": "contenido principal",
+    "lv": "contenido de plomo",
     "level": "B2"
   },
   {
@@ -1661,7 +1661,7 @@ const B2_WORDS = [
   },
   {
     "de": "bleichen",
-    "lv": "balate • balot • lejía",
+    "lv": "blanquear • decolorarse",
     "level": "B2"
   },
   {
@@ -1733,7 +1733,7 @@ const B2_WORDS = [
     "de": "Blutkonserve",
     "de_article": "die",
     "de_plural": "die Blutkonserven",
-    "lv": "sangre enlatada",
+    "lv": "sangre conservada",
     "level": "B2"
   },
   {
@@ -1771,13 +1771,13 @@ const B2_WORDS = [
     "de": "Bodensatz",
     "de_article": "der",
     "de_plural": "die Bodensätze",
-    "lv": "sedimento • espuma • levadura",
+    "lv": "sedimento • posos • residuos",
     "level": "B2"
   },
   {
     "de": "Bodenschätze",
     "de_article": "die",
-    "lv": "minerales",
+    "lv": "recursos minerales",
     "level": "B2"
   },
   {
@@ -1789,7 +1789,7 @@ const B2_WORDS = [
     "de": "Bootsmann",
     "de_article": "der",
     "de_plural": "die Bootsleute",
-    "lv": "el barquero",
+    "lv": "contramaestre",
     "level": "B2"
   },
   {
@@ -1803,7 +1803,7 @@ const B2_WORDS = [
     "de": "Bord",
     "de_article": "das",
     "de_plural": "die Borde",
-    "lv": "junta",
+    "lv": "a bordo",
     "level": "B2"
   },
   {
@@ -1843,21 +1843,21 @@ const B2_WORDS = [
   },
   {
     "de": "brach",
-    "lv": "crudo • reservar",
+    "lv": "inculto • en barbecho",
     "level": "B2"
   },
   {
     "de": "Brandschaden",
     "de_article": "der",
     "de_plural": "die Brandschäden",
-    "lv": "perdida causada por incendio",
+    "lv": "pérdida causada por un incendio",
     "level": "B2"
   },
   {
     "de": "Brandstätte",
     "de_article": "die",
     "de_plural": "die Brandstätten",
-    "lv": "chimenea",
+    "lv": "lugar del incendio",
     "level": "B2"
   },
   {
@@ -1871,7 +1871,7 @@ const B2_WORDS = [
     "de": "Brandmal",
     "de_article": "das",
     "de_plural": "die Brandmale",
-    "lv": "quemar • cicatriz de quemadura",
+    "lv": "marca de quemadura • cicatriz de quemadura",
     "level": "B2"
   },
   {
@@ -1897,7 +1897,7 @@ const B2_WORDS = [
     "de": "Brauerei",
     "de_article": "die",
     "de_plural": "die Brauereien",
-    "lv": "cervecería",
+    "lv": "fábrica de cerveza",
     "level": "B2"
   },
   {
@@ -1927,14 +1927,14 @@ const B2_WORDS = [
   },
   {
     "de": "brüten",
-    "lv": "cavilar • pensar constantemente en algo",
+    "lv": "incubar • cavilar",
     "level": "B2"
   },
   {
     "de": "Buche",
     "de_article": "die",
     "de_plural": "die Buchen",
-    "lv": "haya • carpe",
+    "lv": "haya",
     "level": "B2"
   },
   {
@@ -1967,79 +1967,79 @@ const B2_WORDS = [
     "de": "Buckel",
     "de_article": "der",
     "de_plural": "die Buckel",
-    "lv": "joroba • pastel • espalda",
+    "lv": "joroba",
     "level": "B2"
   },
   {
     "de": "Bügel",
     "de_article": "der",
     "de_plural": "die Bügel",
-    "lv": "mango • aro • percha • peldaño",
+    "lv": "percha",
     "level": "B2"
   },
   {
     "de": "Bühnenbild",
     "de_article": "das",
     "de_plural": "die Bühnenbilder",
-    "lv": "decoración",
+    "lv": "escenografía",
     "level": "B2"
   },
   {
     "de": "Bühnenbildner",
     "de_article": "der",
     "de_plural": "die Bühnenbildner",
-    "lv": "decorador",
+    "lv": "escenógrafo",
     "level": "B2"
   },
   {
     "de": "Bundesland",
     "de_article": "das",
     "de_plural": "die Bundesländer",
-    "lv": "terreno federal",
+    "lv": "estado federado",
     "level": "B2"
   },
   {
     "de": "Bundesstaat",
     "de_article": "der",
     "de_plural": "die Bundesstaaten",
-    "lv": "federación • estado federal",
+    "lv": "estado federal",
     "level": "B2"
   },
   {
     "de": "Bundeswehr",
     "de_article": "die",
-    "lv": "Fuerzas Armadas Alemanas",
+    "lv": "Fuerzas Armadas alemanas",
     "level": "B2"
   },
   {
     "de": "Bündnis",
     "de_article": "das",
     "de_plural": "die Bündnisse",
-    "lv": "unión",
+    "lv": "alianza",
     "level": "B2"
   },
   {
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "carga • carga",
+    "lv": "carga",
     "level": "B2"
   },
   {
     "de": "Bürge",
     "de_article": "der",
     "de_plural": "die Bürgen",
-    "lv": "garante • cabecilla",
+    "lv": "garante",
     "level": "B2"
   },
   {
     "de": "bürgen",
-    "lv": "garantizar",
+    "lv": "avalar",
     "level": "B2"
   },
   {
     "de": "bürgerlich",
-    "lv": "cívicos • ciudadanos • burgueses • burgueses",
+    "lv": "burgués",
     "level": "B2"
   },
   {
@@ -2165,29 +2165,29 @@ const B2_WORDS = [
     "de": "Damm",
     "de_article": "der",
     "de_plural": "die Dämme",
-    "lv": "presa • presa • terraplén del ferrocarril",
+    "lv": "presa • terraplén",
     "level": "B2"
   },
   {
     "de": "dämmern",
-    "lv": "al anochecer • oscurece • amanece • la luz suda",
+    "lv": "anochecer • amanecer",
     "level": "B2"
   },
   {
     "de": "Dämmerung",
     "de_article": "die",
     "de_plural": "die Dämmerungen",
-    "lv": "crepúsculo • crepúsculo • amanecer • amanecer",
+    "lv": "crepúsculo • amanecer",
     "level": "B2"
   },
   {
     "de": "dampfen",
-    "lv": "fumar • evaporarse",
+    "lv": "echar vapor • evaporarse",
     "level": "B2"
   },
   {
     "de": "dämpfen",
-    "lv": "silenciar • sofocar • cocinar al vapor • guisar • revolver",
+    "lv": "silenciar • sofocar • cocinar al vapor • guisar",
     "level": "B2"
   },
   {
@@ -2201,31 +2201,31 @@ const B2_WORDS = [
     "de": "Dampfheizung",
     "de_article": "die",
     "de_plural": "die Dampfheizungen",
-    "lv": "calentamiento con vapor",
+    "lv": "calefacción de vapor",
     "level": "B2"
   },
   {
     "de": "darbieten",
-    "lv": "proporcionar • presente",
+    "lv": "presentar • ofrecer",
     "level": "B2"
   },
   {
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "desempeño • desempeño",
+    "lv": "actuación • presentación",
     "level": "B2"
   },
   {
     "de": "darlegen",
-    "lv": "esquematizar • explicar",
+    "lv": "exponer • explicar",
     "level": "B2"
   },
   {
     "de": "Darlehen",
     "de_article": "das",
     "de_plural": "die Darlehen",
-    "lv": "préstamo • endeudamiento",
+    "lv": "préstamo",
     "level": "B2"
   },
   {
@@ -2246,13 +2246,13 @@ const B2_WORDS = [
     "de": "Darstellung",
     "de_article": "die",
     "de_plural": "die Darstellungen",
-    "lv": "representación • representación • esquema",
+    "lv": "representación • esquema",
     "level": "B2"
   },
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "existencia • existencia",
+    "lv": "existencia",
     "level": "B2"
   },
   {
@@ -2264,7 +2264,7 @@ const B2_WORDS = [
     "de": "Datei",
     "de_article": "die",
     "de_plural": "die Dateien",
-    "lv": "archivador",
+    "lv": "archivo",
     "level": "B2"
   },
   {
@@ -2278,21 +2278,21 @@ const B2_WORDS = [
     "de": "Datenträger",
     "de_article": "der",
     "de_plural": "die Datenträger",
-    "lv": "disquete",
+    "lv": "soporte de datos",
     "level": "B2"
   },
   {
     "de": "Dattel",
     "de_article": "die",
     "de_plural": "die Datteln",
-    "lv": "fecha",
+    "lv": "dátil",
     "level": "B2"
   },
   {
     "de": "Daune",
     "de_article": "die",
     "de_plural": "die Daunen",
-    "lv": "abajo",
+    "lv": "plumón",
     "level": "B2"
   },
   {
@@ -2327,17 +2327,17 @@ const B2_WORDS = [
     "de": "Defizit",
     "de_article": "das",
     "de_plural": "die Defizite",
-    "lv": "escasez • escasez • déficit",
+    "lv": "déficit",
     "level": "B2"
   },
   {
     "de": "dehnbar",
-    "lv": "estirable • estirable • elástico",
+    "lv": "elástico",
     "level": "B2"
   },
   {
     "de": "dehnen",
-    "lv": "estirar · estirar · estirar · estirar · arrastrar",
+    "lv": "estirar",
     "level": "B2"
   },
   {
@@ -2347,7 +2347,7 @@ const B2_WORDS = [
   },
   {
     "de": "deinetwegen",
-    "lv": "gracias a ti",
+    "lv": "por tu causa",
     "level": "B2"
   },
   {
@@ -2361,7 +2361,7 @@ const B2_WORDS = [
     "de": "Delegierte",
     "de_article": "der",
     "de_plural": "die Delegierten",
-    "lv": "delegar",
+    "lv": "delegado",
     "level": "B2"
   },
   {
@@ -2373,19 +2373,19 @@ const B2_WORDS = [
     "de": "Delikt",
     "de_article": "das",
     "de_plural": "die Delikte",
-    "lv": "delito • violar la ley",
+    "lv": "delito",
     "level": "B2"
   },
   {
     "de": "dementieren",
-    "lv": "retirar información",
+    "lv": "desmentir",
     "level": "B2"
   },
   {
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "renuncia • renuncia",
+    "lv": "dimisión",
     "level": "B2"
   },
   {
@@ -2395,7 +2395,7 @@ const B2_WORDS = [
   },
   {
     "de": "denkbar",
-    "lv": "supuesto • imaginable • posible",
+    "lv": "posible",
     "level": "B2"
   },
   {
@@ -2405,17 +2405,17 @@ const B2_WORDS = [
   },
   {
     "de": "deponieren",
-    "lv": "depósito • depósito",
+    "lv": "depositar",
     "level": "B2"
   },
   {
     "de": "derartig",
-    "lv": "tal • tal • similar",
+    "lv": "de ese tipo",
     "level": "B2"
   },
   {
     "de": "derjenige",
-    "lv": "eso",
+    "lv": "aquel",
     "level": "B2"
   },
   {
@@ -2427,20 +2427,20 @@ const B2_WORDS = [
     "de": "Deutung",
     "de_article": "die",
     "de_plural": "die Deutungen",
-    "lv": "explicación • traducción • explicación • traducción",
+    "lv": "interpretación",
     "level": "B2"
   },
   {
     "de": "Devisen",
     "de_article": "die",
-    "lv": "medios de pago en moneda extranjera",
+    "lv": "divisas",
     "level": "B2"
   },
   {
     "de": "Devisenbörse",
     "de_article": "die",
     "de_plural": "die Devisenbörsen",
-    "lv": "cambio de divisas",
+    "lv": "mercado de divisas",
     "level": "B2"
   },
   {
@@ -2454,21 +2454,21 @@ const B2_WORDS = [
     "de": "Dezernat",
     "de_article": "das",
     "de_plural": "die Dezernate",
-    "lv": "departamento en la policia",
+    "lv": "departamento de policía",
     "level": "B2"
   },
   {
     "de": "Morddezernat",
     "de_article": "das",
     "de_plural": "die Morddezernate",
-    "lv": "departamento criminal",
+    "lv": "departamento de homicidios",
     "level": "B2"
   },
   {
     "de": "Dia",
     "de_article": "das",
     "de_plural": "die Dias",
-    "lv": "deslizar",
+    "lv": "diapositiva",
     "level": "B2"
   },
   {
@@ -2488,12 +2488,12 @@ const B2_WORDS = [
   {
     "de": "Diätkost",
     "de_article": "die",
-    "lv": "nutrición dietética",
+    "lv": "alimentación dietética",
     "level": "B2"
   },
   {
     "de": "dichten",
-    "lv": "cantar • cantar",
+    "lv": "escribir poesía",
     "level": "B2"
   },
   {
@@ -2512,12 +2512,12 @@ const B2_WORDS = [
   },
   {
     "de": "dickköpfig",
-    "lv": "tenaz",
+    "lv": "testarudo",
     "level": "B2"
   },
   {
     "de": "diejenige",
-    "lv": "entonces",
+    "lv": "aquella",
     "level": "B2"
   },
   {
@@ -2534,7 +2534,7 @@ const B2_WORDS = [
   },
   {
     "de": "dienstlich",
-    "lv": "puesto de servicio",
+    "lv": "oficial",
     "level": "B2"
   },
   {
@@ -2544,14 +2544,14 @@ const B2_WORDS = [
   },
   {
     "de": "dingen",
-    "lv": "estar de acuerdo • estar de acuerdo",
+    "lv": "contratar",
     "level": "B2"
   },
   {
     "de": "Direktion",
     "de_article": "die",
     "de_plural": "die Direktionen",
-    "lv": "control de preposiciones",
+    "lv": "dirección",
     "level": "B2"
   },
   {
@@ -2604,19 +2604,19 @@ const B2_WORDS = [
     "de": "Dohle",
     "de_article": "die",
     "de_plural": "die Dohlen",
-    "lv": "covarner",
+    "lv": "grajilla",
     "level": "B2"
   },
   {
     "de": "Dom",
     "de_article": "der",
     "de_plural": "die Dome",
-    "lv": "catedral • consejo",
+    "lv": "catedral",
     "level": "B2"
   },
   {
     "de": "donnern",
-    "lv": "trueno rugido • retumbar • retumbar",
+    "lv": "tronar • retumbar • rugir",
     "level": "B2"
   },
   {
@@ -2628,7 +2628,7 @@ const B2_WORDS = [
     "de": "Doping",
     "de_article": "das",
     "de_plural": "die Dopinge",
-    "lv": "agente dopaje",
+    "lv": "dopaje",
     "level": "B2"
   },
   {
@@ -2640,14 +2640,14 @@ const B2_WORDS = [
     "de": "Doppelzentner",
     "de_article": "der",
     "de_plural": "die Doppelzentner",
-    "lv": "centro",
+    "lv": "quintal",
     "level": "B2"
   },
   {
     "de": "Dorn",
     "de_article": "der",
     "de_plural": "die Dornen",
-    "lv": "espina • picadura",
+    "lv": "espina • aguijón",
     "level": "B2"
   },
   {
@@ -2664,7 +2664,7 @@ const B2_WORDS = [
     "de": "Dörrgemüse",
     "de_article": "das",
     "de_plural": "die Dörrgemüse",
-    "lv": "verduras secas",
+    "lv": "verduras deshidratadas",
     "level": "B2"
   },
   {
@@ -2712,7 +2712,7 @@ const B2_WORDS = [
     "de": "Dotterblume",
     "de_article": "die",
     "de_plural": "die Dotterblumen",
-    "lv": "renacuajo",
+    "lv": "calta",
     "level": "B2"
   },
   {
@@ -2745,12 +2745,12 @@ const B2_WORDS = [
     "de": "Drang",
     "de_article": "der",
     "de_plural": "die Dränge",
-    "lv": "accionamiento • inclinación",
+    "lv": "impulso • inclinación",
     "level": "B2"
   },
   {
     "de": "drängen",
-    "lv": "empujar • empujar • apresurarse • apresurarse • animar",
+    "lv": "empujar • presionar • apremiar • instar • animar",
     "level": "B2"
   },
   {
@@ -2777,7 +2777,7 @@ const B2_WORDS = [
     "de": "Drehbleistift",
     "de_article": "der",
     "de_plural": "die Drehbleistifte",
-    "lv": "lápiz automático",
+    "lv": "portaminas",
     "level": "B2"
   },
   {
@@ -2796,19 +2796,19 @@ const B2_WORDS = [
   },
   {
     "de": "dreschen",
-    "lv": "batir el grano • batir la clara de huevo",
+    "lv": "trillar el grano • batir la clara de huevo",
     "level": "B2"
   },
   {
     "de": "Dressman",
     "de_article": "der",
     "de_plural": "die Dressmen",
-    "lv": "demostradora modelo en desfiles de moda",
+    "lv": "modelo masculino",
     "level": "B2"
   },
   {
     "de": "dringen",
-    "lv": "presionar • romper • empujar hacia adentro • entrar • requerir • exigir",
+    "lv": "abrirse paso • abrirse camino • introducirse • irrumpir • requerir • exigir",
     "level": "B2"
   },
   {
@@ -2822,7 +2822,7 @@ const B2_WORDS = [
     "de": "Drohung",
     "de_article": "die",
     "de_plural": "die Drohungen",
-    "lv": "amenazas",
+    "lv": "amenaza",
     "level": "B2"
   },
   {
@@ -2836,7 +2836,7 @@ const B2_WORDS = [
     "de": "Drossel",
     "de_article": "die",
     "de_plural": "die Drosseln",
-    "lv": "estornino",
+    "lv": "tordo",
     "level": "B2"
   },
   {
@@ -2848,14 +2848,14 @@ const B2_WORDS = [
     "de": "Nadeldrucker",
     "de_article": "der",
     "de_plural": "die Nadeldrucker",
-    "lv": "impresora digital",
+    "lv": "impresora matricial",
     "level": "B2"
   },
   {
     "de": "Druckerei",
     "de_article": "die",
     "de_plural": "die Druckereien",
-    "lv": "tipografía",
+    "lv": "imprenta",
     "level": "B2"
   },
   {
@@ -2883,7 +2883,7 @@ const B2_WORDS = [
     "de": "Drucksache",
     "de_article": "die",
     "de_plural": "die Drucksachen",
-    "lv": "bandrole • impresión en envíos postales",
+    "lv": "impreso postal",
     "level": "B2"
   },
   {
@@ -2900,7 +2900,7 @@ const B2_WORDS = [
   },
   {
     "de": "dumpf",
-    "lv": "hueco • amortiguado • tapado • sofocante • pesado • oprimido • opresivo",
+    "lv": "sordo • amortiguado • viciado • sofocante • pesado • abatido • opresivo",
     "level": "B2"
   },
   {
@@ -2939,12 +2939,12 @@ const B2_WORDS = [
   {
     "de": "Dünkel",
     "de_article": "der",
-    "lv": "vanidad • vanidad • arrogancia",
+    "lv": "arrogancia",
     "level": "B2"
   },
   {
     "de": "dunkeln",
-    "lv": "oscurece • oscurece",
+    "lv": "oscurecer",
     "level": "B2"
   },
   {
@@ -2961,7 +2961,7 @@ const B2_WORDS = [
   },
   {
     "de": "durcharbeiten",
-    "lv": "desarrollar • leer con atención • amasar con atención",
+    "lv": "elaborar • leer detenidamente • amasar a fondo",
     "level": "B2"
   },
   {
@@ -2976,7 +2976,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchbrennen",
-    "lv": "quemarse · quemarse · quemarse · quemarse",
+    "lv": "quemarse • fugarse • consumirse",
     "level": "B2"
   },
   {
@@ -2988,32 +2988,32 @@ const B2_WORDS = [
     "de": "Durchbruch",
     "de_article": "der",
     "de_plural": "die Durchbrüche",
-    "lv": "brecha • una brecha en una presa",
+    "lv": "avance decisivo • brecha en una presa",
     "level": "B2"
   },
   {
     "de": "durchdringen",
-    "lv": "empujar hacia adelante • abrirse paso • estar abrumado",
+    "lv": "penetrar • abrirse paso • impregnar",
     "level": "B2"
   },
   {
     "de": "Durchfahrt",
     "de_article": "die",
     "de_plural": "die Durchfahrten",
-    "lv": "paso • vía pública",
+    "lv": "paso • tránsito",
     "level": "B2"
   },
   {
     "de": "Durchfuhr",
     "de_article": "die",
-    "lv": "pasando por • tránsito",
+    "lv": "tránsito • transporte en tránsito",
     "level": "B2"
   },
   {
     "de": "Durchführung",
     "de_article": "die",
     "de_plural": "die Durchführungen",
-    "lv": "poner algo en práctica • hacer • hacer • llevar a cabo • darse cuenta",
+    "lv": "ejecución • realización • puesta en práctica",
     "level": "B2"
   },
   {
@@ -3028,14 +3028,14 @@ const B2_WORDS = [
   },
   {
     "de": "durchmachen",
-    "lv": "sobrevivir • eliminar • terminar",
+    "lv": "pasar por • experimentar • completar",
     "level": "B2"
   },
   {
     "de": "Durchmesser",
     "de_article": "der",
     "de_plural": "die Durchmesser",
-    "lv": "diámetro • diámetro",
+    "lv": "diámetro",
     "level": "B2"
   },
   {
@@ -3047,12 +3047,12 @@ const B2_WORDS = [
     "de": "Durchreise",
     "de_article": "die",
     "de_plural": "die Durchreisen",
-    "lv": "pasando por",
+    "lv": "tránsito • viaje de paso",
     "level": "B2"
   },
   {
     "de": "durchschauen",
-    "lv": "ver a través de • revelar",
+    "lv": "ver a través de • descubrir",
     "level": "B2"
   },
   {
@@ -3067,12 +3067,12 @@ const B2_WORDS = [
   },
   {
     "de": "durchsetzen",
-    "lv": "superar • lograr",
+    "lv": "imponer • hacer valer • lograr",
     "level": "B2"
   },
   {
     "de": "durchstellen",
-    "lv": "conectar una conversación telefónica",
+    "lv": "pasar una llamada",
     "level": "B2"
   },
   {
@@ -3084,12 +3084,12 @@ const B2_WORDS = [
     "de": "Dürre",
     "de_article": "die",
     "de_plural": "die Dürren",
-    "lv": "sequedad",
+    "lv": "sequía",
     "level": "B2"
   },
   {
     "de": "dürsten",
-    "lv": "tener sed • tener sed • tener sed",
+    "lv": "tener sed • anhelar",
     "level": "B2"
   },
   {
@@ -3115,12 +3115,12 @@ const B2_WORDS = [
     "de": "Eberesche",
     "de_article": "die",
     "de_plural": "die Ebereschen",
-    "lv": "musgo de azufre • serbal",
+    "lv": "serbal",
     "level": "B2"
   },
   {
     "de": "ebnen",
-    "lv": "nivel • suave",
+    "lv": "allanar • nivelar",
     "level": "B2"
   },
   {
@@ -3144,7 +3144,7 @@ const B2_WORDS = [
   },
   {
     "de": "effektvoll",
-    "lv": "eficiente",
+    "lv": "impactante",
     "level": "B2"
   },
   {
@@ -3158,12 +3158,12 @@ const B2_WORDS = [
     "de": "Eheberatung",
     "de_article": "die",
     "de_plural": "die Eheberatungen",
-    "lv": "asesoramiento familiar",
+    "lv": "asesoramiento matrimonial",
     "level": "B2"
   },
   {
     "de": "ehelich",
-    "lv": "casamiento-",
+    "lv": "conyugal-",
     "level": "B2"
   },
   {
@@ -3182,19 +3182,19 @@ const B2_WORDS = [
   },
   {
     "de": "ehren",
-    "lv": "honor • respeto • honor",
+    "lv": "honrar • respetar • rendir homenaje",
     "level": "B2"
   },
   {
     "de": "Ehrenamt",
     "de_article": "das",
     "de_plural": "die Ehrenämter",
-    "lv": "puesto honorario",
+    "lv": "voluntariado • cargo voluntario",
     "level": "B2"
   },
   {
     "de": "ehrenamtlich",
-    "lv": "gratuitamente • en el cumplimiento de un deber de honor",
+    "lv": "voluntario • no remunerado",
     "level": "B2"
   },
   {
@@ -3240,19 +3240,19 @@ const B2_WORDS = [
     "de": "Ehrenwort",
     "de_article": "das",
     "de_plural": "die Ehrenworte",
-    "lv": "honorífico",
+    "lv": "palabra de honor",
     "level": "B2"
   },
   {
     "de": "ehrgeizig",
-    "lv": "avaro",
+    "lv": "ambicioso",
     "level": "B2"
   },
   {
     "de": "Ehrung",
     "de_article": "die",
     "de_plural": "die Ehrungen",
-    "lv": "honrar • ceremonia de honrar",
+    "lv": "homenaje • ceremonia de homenaje",
     "level": "B2"
   },
   {
@@ -3273,7 +3273,7 @@ const B2_WORDS = [
     "de": "Eidechse",
     "de_article": "die",
     "de_plural": "die Eidechsen",
-    "lv": "lagarto",
+    "lv": "lagartija",
     "level": "B2"
   },
   {
@@ -3304,7 +3304,7 @@ const B2_WORDS = [
   },
   {
     "de": "eigenhändig",
-    "lv": "salir adelante por sí mismo",
+    "lv": "de propia mano",
     "level": "B2"
   },
   {
@@ -3320,12 +3320,12 @@ const B2_WORDS = [
   },
   {
     "de": "eigentümlich",
-    "lv": "peculiar • característica",
+    "lv": "peculiar • característico",
     "level": "B2"
   },
   {
     "de": "eigenwillig",
-    "lv": "arbitrario • obstinado • obstinado • autoritario",
+    "lv": "voluntarioso • obstinado • independiente",
     "level": "B2"
   },
   {
@@ -3351,7 +3351,7 @@ const B2_WORDS = [
     "de": "Einband",
     "de_article": "der",
     "de_plural": "die Einbände",
-    "lv": "vinculante",
+    "lv": "encuadernación",
     "level": "B2"
   },
   {
@@ -3368,7 +3368,7 @@ const B2_WORDS = [
   },
   {
     "de": "einbürgern",
-    "lv": "otorgar el derecho de un ciudadano • a introducir • a echar raíces",
+    "lv": "naturalizar • arraigarse",
     "level": "B2"
   },
   {
@@ -3378,7 +3378,7 @@ const B2_WORDS = [
   },
   {
     "de": "eindringen",
-    "lv": "empujar hacia adentro • penetrar • sumergirse • profundizar en",
+    "lv": "penetrar • irrumpir • infiltrarse • profundizar en",
     "level": "B2"
   },
   {
@@ -3388,17 +3388,17 @@ const B2_WORDS = [
   },
   {
     "de": "einfältig",
-    "lv": "moralista • ingenuo",
+    "lv": "ingenuo • simplón",
     "level": "B2"
   },
   {
     "de": "einfassen",
-    "lv": "incluir • marco • marco",
+    "lv": "incluir • enmarcar • engastar",
     "level": "B2"
   },
   {
     "de": "einflussreich",
-    "lv": "influyente • impresionante",
+    "lv": "influyente",
     "level": "B2"
   },
   {
@@ -3415,7 +3415,7 @@ const B2_WORDS = [
     "de": "Einfuhr",
     "de_article": "die",
     "de_plural": "die Einfuhren",
-    "lv": "introducción • importación • introducción • importación",
+    "lv": "importación",
     "level": "B2"
   },
   {
@@ -3429,7 +3429,7 @@ const B2_WORDS = [
     "de": "Eingabe",
     "de_article": "die",
     "de_plural": "die Eingaben",
-    "lv": "aplicación • ingresar datos en la computadora",
+    "lv": "solicitud • introducción de datos",
     "level": "B2"
   },
   {
@@ -3451,7 +3451,7 @@ const B2_WORDS = [
   },
   {
     "de": "eingehend",
-    "lv": "minucioso • mezquino • entrante",
+    "lv": "minucioso • detallado • entrante",
     "level": "B2"
   },
   {
@@ -3463,7 +3463,7 @@ const B2_WORDS = [
   },
   {
     "de": "eingerechnet",
-    "lv": "contado • acreditado • agregado",
+    "lv": "incluido • tenido en cuenta",
     "level": "B2"
   },
   {
@@ -3491,7 +3491,7 @@ const B2_WORDS = [
   },
   {
     "de": "eingleisig",
-    "lv": "monocarril",
+    "lv": "de una sola vía",
     "level": "B2"
   },
   {
@@ -3508,7 +3508,7 @@ const B2_WORDS = [
   },
   {
     "de": "einhüllen",
-    "lv": "enrollar • enrollar • enrollar",
+    "lv": "envolver • envolver • envolver",
     "level": "B2"
   },
   {
@@ -3520,7 +3520,7 @@ const B2_WORDS = [
   },
   {
     "de": "einkassieren",
-    "lv": "recolectar",
+    "lv": "cobrar",
     "level": "B2"
   },
   {
@@ -3532,7 +3532,7 @@ const B2_WORDS = [
   },
   {
     "de": "einkleiden",
-    "lv": "vestirse • vestirse",
+    "lv": "vestir • vestir",
     "level": "B2"
   },
   {
@@ -3542,7 +3542,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-einlassen",
       "layout": "minimalStudy",
-      "translation": "dejar entrar",
+      "translation": "involucrarse en",
       "rektion": "auf + ko?",
       "explanation": "sich einlassen requiere la preposición definida auf + ko?.",
       "forms": "auf + ko?",
@@ -3561,7 +3561,7 @@ const B2_WORDS = [
   },
   {
     "de": "einleiten",
-    "lv": "ingresar",
+    "lv": "iniciar",
     "level": "B2"
   },
   {
@@ -3571,12 +3571,12 @@ const B2_WORDS = [
   },
   {
     "de": "einliefern",
-    "lv": "traer • traer",
+    "lv": "ingresar • llevar",
     "level": "B2"
   },
   {
     "de": "einmachen",
-    "lv": "conservar • marinar • hervir",
+    "lv": "conservar • encurtir • hacer mermelada",
     "level": "B2"
   },
   {
@@ -3610,12 +3610,12 @@ const B2_WORDS = [
   },
   {
     "de": "einrechnen",
-    "lv": "contar • contar",
+    "lv": "incluir en el cálculo • tener en cuenta",
     "level": "B2"
   },
   {
     "de": "einschläfern",
-    "lv": "hacer dormir",
+    "lv": "poner a dormir • eutanasiar",
     "level": "B2"
   },
   {
@@ -3625,7 +3625,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-einschleichen",
       "layout": "minimalStudy",
-      "translation": "colarse • colarse",
+      "translation": "colarse",
       "rektion": "in + ko?",
       "explanation": "sich einschleichen requiere la preposición definida en + ko?.",
       "forms": "in + ko?",
@@ -3656,7 +3656,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-einschraenken",
       "layout": "minimalStudy",
-      "translation": "limítate",
+      "translation": "limitarse",
       "rektion": "auf + ko?",
       "explanation": "sich einschränken requiere la preposición definida auf + ko?.",
       "forms": "auf + ko?",
@@ -3692,7 +3692,7 @@ const B2_WORDS = [
   },
   {
     "de": "einspeichern",
-    "lv": "introducir datos • guardar",
+    "lv": "guardar datos",
     "level": "B2"
   },
   {
@@ -3721,7 +3721,7 @@ const B2_WORDS = [
   },
   {
     "de": "eintauchen",
-    "lv": "sumergir · sumergir · sumergir · sumergir",
+    "lv": "sumergir • sumergirse",
     "level": "B2"
   },
   {
@@ -3732,7 +3732,7 @@ const B2_WORDS = [
   {
     "de": "Eintracht",
     "de_article": "die",
-    "lv": "consenso • acuerdo • armonía • compatibilidad",
+    "lv": "concordia • acuerdo • armonía • unidad",
     "level": "B2"
   },
   {
@@ -3742,7 +3742,7 @@ const B2_WORDS = [
   },
   {
     "de": "einüben",
-    "lv": "aprender a • poner en escena",
+    "lv": "practicar • ensayar",
     "level": "B2"
   },
   {
@@ -3759,7 +3759,7 @@ const B2_WORDS = [
   },
   {
     "de": "einweichen",
-    "lv": "aderezo",
+    "lv": "poner en remojo",
     "level": "B2"
   },
   {
@@ -3774,7 +3774,7 @@ const B2_WORDS = [
   },
   {
     "de": "einwilligen",
-    "lv": "estar de acuerdo • estar a gusto",
+    "lv": "dar su consentimiento • consentir",
     "level": "B2"
   },
   {
@@ -3808,7 +3808,7 @@ const B2_WORDS = [
     "de": "Eisengießerei",
     "de_article": "die",
     "de_plural": "die Eisengießereien",
-    "lv": "fundición de hierro fundido",
+    "lv": "fundición de hierro",
     "level": "B2"
   },
   {
@@ -3820,7 +3820,7 @@ const B2_WORDS = [
     "de": "Eisgang",
     "de_article": "der",
     "de_plural": "die Eisgänge",
-    "lv": "caminar sobre hielo",
+    "lv": "movimiento del hielo",
     "level": "B2"
   },
   {
@@ -3833,7 +3833,7 @@ const B2_WORDS = [
   {
     "de": "Eissegeln",
     "de_article": "das",
-    "lv": "navegando con yates de hielo",
+    "lv": "navegación a vela sobre hielo",
     "level": "B2"
   },
   {
@@ -3858,14 +3858,14 @@ const B2_WORDS = [
     "de": "Elster",
     "de_article": "die",
     "de_plural": "die Elstern",
-    "lv": "hipo",
+    "lv": "urraca",
     "level": "B2"
   },
   {
     "de": "Empfangschef",
     "de_article": "der",
     "de_plural": "die Empfangschefs",
-    "lv": "administrador del hotel",
+    "lv": "jefe de recepción",
     "level": "B2"
   },
   {
@@ -3875,7 +3875,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-empfehlen",
       "layout": "minimalStudy",
-      "translation": "ser recomendado",
+      "translation": "ser recomendable",
       "rektion": "zu + kam?",
       "explanation": "sich empfehlen requiere la preposición definida zu + kam?.",
       "forms": "zu + kam?",
@@ -3930,17 +3930,17 @@ const B2_WORDS = [
     "de": "Empörung",
     "de_article": "die",
     "de_plural": "die Empörungen",
-    "lv": "indignación • revuelta • motín",
+    "lv": "indignación",
     "level": "B2"
   },
   {
     "de": "emsig",
-    "lv": "trabajador • animado • activo",
+    "lv": "trabajador",
     "level": "B2"
   },
   {
     "de": "entbehren",
-    "lv": "prescindir • soportar • carecer",
+    "lv": "prescindir de • carecer de",
     "level": "B2"
   },
   {
@@ -3952,12 +3952,12 @@ const B2_WORDS = [
     "de": "Entbindung",
     "de_article": "die",
     "de_plural": "die Entbindungen",
-    "lv": "liberación • liberación • nacimiento",
+    "lv": "liberación • parto",
     "level": "B2"
   },
   {
     "de": "entehren",
-    "lv": "robar honor • deshonra",
+    "lv": "deshonrar",
     "level": "B2"
   },
   {
@@ -3972,27 +3972,27 @@ const B2_WORDS = [
   },
   {
     "de": "entfallen",
-    "lv": "caer • olvidar",
+    "lv": "caer • olvidarse",
     "level": "B2"
   },
   {
     "de": "entfalten",
-    "lv": "relajarse · desplegar · desarrollar · desplegar",
+    "lv": "desplegar • desarrollar",
     "level": "B2"
   },
   {
     "de": "sich entfalten",
-    "lv": "abrir • aflojar • desarrollar • desplegar",
+    "lv": "abrirse • desarrollarse • desplegarse",
     "level": "B2"
   },
   {
     "de": "entflammen",
-    "lv": "encender • encender • excitar • prender fuego",
+    "lv": "encender • entusiasmar • inflamar",
     "level": "B2"
   },
   {
     "de": "entführen",
-    "lv": "quitar • secuestrar",
+    "lv": "secuestrar",
     "level": "B2"
   },
   {
@@ -4002,7 +4002,7 @@ const B2_WORDS = [
   },
   {
     "de": "entgleisen",
-    "lv": "hacer descarrilar",
+    "lv": "descarrilar",
     "level": "B2"
   },
   {
@@ -4041,7 +4041,7 @@ const B2_WORDS = [
   },
   {
     "de": "entkräften",
-    "lv": "quitar poder • debilitar • refutar • derrocar",
+    "lv": "debilitar • refutar",
     "level": "B2"
   },
   {
@@ -4061,7 +4061,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-entledigen",
       "layout": "minimalStudy",
-      "translation": "deshacerse de • deshacerse de",
+      "translation": "deshacerse de",
       "rektion": "+ forma posesiva",
       "explanation": "sich entledigen se utiliza en alemán moderno con la forma posesiva sin preposición.",
       "forms": "+ forma posesiva",
@@ -4082,7 +4082,7 @@ const B2_WORDS = [
   },
   {
     "de": "entmutigen",
-    "lv": "quita el coraje",
+    "lv": "desanimar",
     "level": "B2"
   },
   {
@@ -4116,7 +4116,7 @@ const B2_WORDS = [
   },
   {
     "de": "entsagen",
-    "lv": "rendirse • rendirse",
+    "lv": "renunciar • privarse de",
     "level": "B2"
   },
   {
@@ -4131,7 +4131,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-entsinnen",
       "layout": "minimalStudy",
-      "translation": "recordar • recordar",
+      "translation": "recordar",
       "rektion": "+ forma posesiva",
       "explanation": "sich entsinnen se usa en alemán moderno con la forma posesiva sin preposición, por ejemplo: Ich entsinne mich eines Fehlers.",
       "forms": "+ forma posesiva",
@@ -4154,24 +4154,24 @@ const B2_WORDS = [
   },
   {
     "de": "entstellen",
-    "lv": "distorsionar • asustarse • distorsionar",
+    "lv": "distorsionar • desfigurar • tergiversar",
     "level": "B2"
   },
   {
     "de": "entweichen",
-    "lv": "alejarse • escapar • retroceder • emanar",
+    "lv": "alejarse • escapar • retroceder • filtrarse",
     "level": "B2"
   },
   {
     "de": "entwerfen",
-    "lv": "molde • esquema",
+    "lv": "diseñar • esbozar",
     "level": "B2"
   },
   {
     "de": "Entwerter",
     "de_article": "der",
     "de_plural": "die Entwerter",
-    "lv": "compostador",
+    "lv": "cancelador de billetes",
     "level": "B2"
   },
   {
@@ -4220,7 +4220,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich entzünden",
-    "lv": "prender fuego • encender • inflamar",
+    "lv": "prenderse • inflamarse",
     "level": "B2"
   },
   {
@@ -4247,7 +4247,7 @@ const B2_WORDS = [
   {
     "de": "Erachten",
     "de_article": "das",
-    "lv": "pensamientos • percepción",
+    "lv": "opinión • parecer",
     "level": "B2"
   },
   {
@@ -4257,7 +4257,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-erbarmen",
       "layout": "minimalStudy",
-      "translation": "tener piedad • tener piedad",
+      "translation": "tener piedad",
       "rektion": "über + ¿qué?",
       "explanation": "sich erbarmen requiere la preposición definida über + ko?.",
       "forms": "über + ¿qué?",
@@ -4278,7 +4278,7 @@ const B2_WORDS = [
     "de": "Erbauer",
     "de_article": "der",
     "de_plural": "die Erbauer",
-    "lv": "levantador",
+    "lv": "constructor",
     "level": "B2"
   },
   {
@@ -4290,7 +4290,7 @@ const B2_WORDS = [
   },
   {
     "de": "erbrechen",
-    "lv": "abrir • piratear",
+    "lv": "vomitar",
     "level": "B2"
   },
   {
@@ -4302,7 +4302,7 @@ const B2_WORDS = [
   },
   {
     "de": "erdrücken",
-    "lv": "suprimir • suprimir",
+    "lv": "aplastar • oprimir",
     "level": "B2"
   },
   {
@@ -4316,14 +4316,14 @@ const B2_WORDS = [
     "de": "Erdsatellit",
     "de_article": "der",
     "de_plural": "die Erdsatelliten",
-    "lv": "satélite artificial de la tierra",
+    "lv": "satélite artificial de la Tierra",
     "level": "B2"
   },
   {
     "de": "Erdtrabant",
     "de_article": "der",
     "de_plural": "die Erdtrabanten",
-    "lv": "compañero de la tierra",
+    "lv": "satélite de la Tierra",
     "level": "B2"
   },
   {
@@ -4333,7 +4333,7 @@ const B2_WORDS = [
   },
   {
     "de": "erforschen",
-    "lv": "explorar • descubrir",
+    "lv": "explorar • investigar",
     "level": "B2"
   },
   {
@@ -4350,7 +4350,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-ergeben",
       "layout": "minimalStudy",
-      "translation": "dar resultado • rendirse",
+      "translation": "resultar",
       "rektion": "aus + kam?",
       "explanation": "sich ergeben requiere la preposición definida aus + kam?.",
       "forms": "aus + kam?",
@@ -4379,17 +4379,17 @@ const B2_WORDS = [
   },
   {
     "de": "erhaben",
-    "lv": "relieve • convexo • genial • genial • elevado • sublime • excelente",
+    "lv": "en relieve • convexo • majestuoso • elevado • sublime • noble",
     "level": "B2"
   },
   {
     "de": "erheben",
-    "lv": "levantar · levantar · levantar · protestar",
+    "lv": "levantar • elevar • sublevar • protestar",
     "level": "B2"
   },
   {
     "de": "sich erheben",
-    "lv": "levantarse · levantarse · levantarse · levantarse",
+    "lv": "levantarse • alzarse • rebelarse",
     "level": "B2"
   },
   {
@@ -4399,36 +4399,36 @@ const B2_WORDS = [
   },
   {
     "de": "erkämpfen",
-    "lv": "ganar",
+    "lv": "conquistar",
     "level": "B2"
   },
   {
     "de": "Erkenntnis",
     "de_article": "die",
     "de_plural": "die Erkenntnisse",
-    "lv": "cognición • comprensión",
+    "lv": "conocimiento • comprensión",
     "level": "B2"
   },
   {
     "de": "erlangen",
-    "lv": "alcanzar • lograr • obtener • obtener",
+    "lv": "alcanzar • lograr • obtener",
     "level": "B2"
   },
   {
     "de": "Erlass",
     "de_article": "der",
     "de_plural": "die Erlasse",
-    "lv": "orden • orden • decreto • despido",
+    "lv": "orden • decreto • exención • condonación",
     "level": "B2"
   },
   {
     "de": "erlassen",
-    "lv": "emisión • lanzamiento • lanzamiento",
+    "lv": "promulgar • eximir • liberar",
     "level": "B2"
   },
   {
     "de": "erläutern",
-    "lv": "explicar • explicar",
+    "lv": "explicar • aclarar",
     "level": "B2"
   },
   {
@@ -4460,7 +4460,7 @@ const B2_WORDS = [
   },
   {
     "de": "ermitteln",
-    "lv": "descubrir • descubrir",
+    "lv": "investigar • determinar",
     "level": "B2"
   },
   {
@@ -4475,7 +4475,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-erniedrigen",
       "layout": "minimalStudy",
-      "translation": "humíllate",
+      "translation": "humillarse",
       "rektion": "vor + kam?",
       "explanation": "sich erniedrigen requiere la preposición definida vor + kam?.",
       "forms": "vor + kam?",
@@ -4496,24 +4496,24 @@ const B2_WORDS = [
     "de": "Ernteertrag",
     "de_article": "der",
     "de_plural": "die Ernteerträge",
-    "lv": "cultivo",
+    "lv": "rendimiento de la cosecha",
     "level": "B2"
   },
   {
     "de": "Eröffnung",
     "de_article": "die",
     "de_plural": "die Eröffnungen",
-    "lv": "apertura • descubrimiento • postal • anuncio • descubrimiento",
+    "lv": "apertura • inauguración • revelación",
     "level": "B2"
   },
   {
     "de": "erörtern",
-    "lv": "discutir • discutir",
+    "lv": "discutir • debatir",
     "level": "B2"
   },
   {
     "de": "erpressen",
-    "lv": "chantaje",
+    "lv": "chantajear • extorsionar",
     "level": "B2"
   },
   {
@@ -4528,7 +4528,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-erregen",
       "layout": "minimalStudy",
-      "translation": "preocuparse por",
+      "translation": "excitarse",
       "rektion": "über + ¿qué?",
       "explanation": "sich erregen requiere la preposición definida über + ko?.",
       "forms": "über + ¿qué?",
@@ -4549,12 +4549,12 @@ const B2_WORDS = [
     "de": "Erreger",
     "de_article": "der",
     "de_plural": "die Erreger",
-    "lv": "agente patógeno • virus",
+    "lv": "agente patógeno • agente causante",
     "level": "B2"
   },
   {
     "de": "erringen",
-    "lv": "ganar",
+    "lv": "conquistar",
     "level": "B2"
   },
   {
@@ -4571,12 +4571,12 @@ const B2_WORDS = [
   },
   {
     "de": "erschießen",
-    "lv": "disparar",
+    "lv": "disparar y matar",
     "level": "B2"
   },
   {
     "de": "erschlagen",
-    "lv": "rebajar",
+    "lv": "matar a golpes",
     "level": "B2"
   },
   {
@@ -4601,14 +4601,14 @@ const B2_WORDS = [
   },
   {
     "de": "ersparen",
-    "lv": "guardar • guardar • sobrar • sobra",
+    "lv": "ahorrar • reservar • evitar • escatimar",
     "level": "B2"
   },
   {
     "de": "Ersparnis",
     "de_article": "die",
     "de_plural": "die Ersparnisse",
-    "lv": "ahorros • ahorros",
+    "lv": "ahorro • ahorros",
     "level": "B2"
   },
   {
@@ -4628,7 +4628,7 @@ const B2_WORDS = [
   },
   {
     "de": "ertappen",
-    "lv": "atrapar",
+    "lv": "sorprender in fraganti",
     "level": "B2"
   },
   {
@@ -4655,7 +4655,7 @@ const B2_WORDS = [
     "de": "Erwägung",
     "de_article": "die",
     "de_plural": "die Erwägungen",
-    "lv": "consideración • consideración",
+    "lv": "consideración • reflexión",
     "level": "B2"
   },
   {
@@ -4691,7 +4691,7 @@ const B2_WORDS = [
     "de": "Erwerb",
     "de_article": "der",
     "de_plural": "die Erwerbe",
-    "lv": "ganancias • ganancia • ganancia",
+    "lv": "adquisición",
     "level": "B2"
   },
   {
@@ -4708,19 +4708,19 @@ const B2_WORDS = [
   },
   {
     "de": "erzielen",
-    "lv": "ganar • lograr • lograr",
+    "lv": "lograr",
     "level": "B2"
   },
   {
     "de": "erzürnen",
-    "lv": "enojarse",
+    "lv": "enfurecer",
     "level": "B2"
   },
   {
     "de": "Esche",
     "de_article": "die",
     "de_plural": "die Eschen",
-    "lv": "ceniza",
+    "lv": "fresno",
     "level": "B2"
   },
   {
@@ -4777,7 +4777,7 @@ const B2_WORDS = [
   },
   {
     "de": "exklusiv",
-    "lv": "investigado • fino • aristocrático",
+    "lv": "exclusivo",
     "level": "B2"
   },
   {
@@ -4796,17 +4796,17 @@ const B2_WORDS = [
     "de": "Export",
     "de_article": "der",
     "de_plural": "die Exporte",
-    "lv": "exportar • exportar",
+    "lv": "exportación",
     "level": "B2"
   },
   {
     "de": "exportieren",
-    "lv": "exportar • sacar",
+    "lv": "exportar",
     "level": "B2"
   },
   {
     "de": "exquisit",
-    "lv": "investigado • sutil",
+    "lv": "exquisito",
     "level": "B2"
   },
   {
@@ -4833,7 +4833,7 @@ const B2_WORDS = [
     "de": "Fachabitur",
     "de_article": "das",
     "de_plural": "die Fachabiture",
-    "lv": "formación escolar vocacional completa",
+    "lv": "título de acceso a una universidad de ciencias aplicadas",
     "level": "B2"
   },
   {
@@ -4875,12 +4875,12 @@ const B2_WORDS = [
   {
     "de": "Fahrerflucht",
     "de_article": "die",
-    "lv": "abandonando el lugar del accidente",
+    "lv": "fuga tras un accidente",
     "level": "B2"
   },
   {
     "de": "fahrlässig",
-    "lv": "descuidado • descuidado",
+    "lv": "negligente • imprudente",
     "level": "B2"
   },
   {
@@ -4906,33 +4906,33 @@ const B2_WORDS = [
   },
   {
     "de": "fälschen",
-    "lv": "fingir",
+    "lv": "falsificar",
     "level": "B2"
   },
   {
     "de": "fälschlich",
-    "lv": "equivocado • equivocado",
+    "lv": "erróneamente",
     "level": "B2"
   },
   {
     "de": "Farbstoff",
     "de_article": "der",
     "de_plural": "die Farbstoffe",
-    "lv": "teñir",
+    "lv": "colorante",
     "level": "B2"
   },
   {
     "de": "Farbige",
     "de_article": "der",
     "de_plural": "die Farbigen",
-    "lv": "el hombre de color",
+    "lv": "persona de color",
     "level": "B2"
   },
   {
     "de": "Färbung",
     "de_article": "die",
     "de_plural": "die Färbungen",
-    "lv": "colorante • matiz",
+    "lv": "coloración • matiz",
     "level": "B2"
   },
   {
@@ -4946,7 +4946,7 @@ const B2_WORDS = [
     "de": "Fasan",
     "de_article": "der",
     "de_plural": "die Fasane",
-    "lv": "Faisán",
+    "lv": "faisán",
     "level": "B2"
   },
   {
@@ -4976,7 +4976,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-fassen",
       "layout": "minimalStudy",
-      "translation": "apoderarse • recibir • restringir",
+      "translation": "recobrar la compostura",
       "rektion": "an + kam?",
       "explanation": "sich fassen requiere la preposición definida an + kam?.",
       "forms": "an + kam?",
@@ -4997,24 +4997,24 @@ const B2_WORDS = [
     "de": "Fassung",
     "de_article": "die",
     "de_plural": "die Fassungen",
-    "lv": "marco • sobre • redacción",
+    "lv": "marco • carcasa • redacción",
     "level": "B2"
   },
   {
     "de": "fassungslos",
-    "lv": "sorprendido • sorprendido",
+    "lv": "consternado",
     "level": "B2"
   },
   {
     "de": "Faulbaum",
     "de_article": "der",
     "de_plural": "die Faulbäume",
-    "lv": "víspera",
+    "lv": "arraclán",
     "level": "B2"
   },
   {
     "de": "fechten",
-    "lv": "esgrima",
+    "lv": "practicar esgrima",
     "level": "B2"
   },
   {
@@ -5026,7 +5026,7 @@ const B2_WORDS = [
   },
   {
     "de": "feilen",
-    "lv": "decepcionar",
+    "lv": "limar",
     "level": "B2"
   },
   {
@@ -5075,7 +5075,7 @@ const B2_WORDS = [
   },
   {
     "de": "festigen",
-    "lv": "fortalecer • fortalecer",
+    "lv": "fortalecer • consolidar",
     "level": "B2"
   },
   {
@@ -5102,7 +5102,7 @@ const B2_WORDS = [
     "de": "Fetzen",
     "de_article": "der",
     "de_plural": "die Fetzen",
-    "lv": "estómago • riesgo",
+    "lv": "harapo • jirón",
     "level": "B2"
   },
   {
@@ -5127,7 +5127,7 @@ const B2_WORDS = [
     "de": "Finsternis",
     "de_article": "die",
     "de_plural": "die Finsternisse",
-    "lv": "oscuridad • oscuridad • eclipse",
+    "lv": "oscuridad • tinieblas",
     "level": "B2"
   },
   {
@@ -5168,7 +5168,7 @@ const B2_WORDS = [
     "de": "Flaum",
     "de_article": "der",
     "de_plural": null,
-    "lv": "abajo • pelusa",
+    "lv": "plumón • pelusa",
     "level": "B2"
   },
   {
@@ -5178,12 +5178,12 @@ const B2_WORDS = [
   },
   {
     "de": "flechten",
-    "lv": "torcer • trenza",
+    "lv": "trenzar • tejer",
     "level": "B2"
   },
   {
     "de": "fleckig",
-    "lv": "con manchas • manchado • moteado • moteado • moteado",
+    "lv": "moteado",
     "level": "B2"
   },
   {
@@ -5193,7 +5193,7 @@ const B2_WORDS = [
   },
   {
     "de": "flimmern",
-    "lv": "centelleo • centelleo • centelleo • centelleo • centelleo",
+    "lv": "titilar • centellear",
     "level": "B2"
   },
   {
@@ -5219,14 +5219,14 @@ const B2_WORDS = [
   },
   {
     "de": "flüchtig",
-    "lv": "fugaz • superficial • fugaz • fugaz • de corta duración",
+    "lv": "volátil • superficial • fugaz",
     "level": "B2"
   },
   {
     "de": "Flugfeld",
     "de_article": "das",
     "de_plural": "die Flugfelder",
-    "lv": "aeropuerto",
+    "lv": "aeródromo",
     "level": "B2"
   },
   {
@@ -5245,7 +5245,7 @@ const B2_WORDS = [
     "de": "Flunder",
     "de_article": "die",
     "de_plural": "die Flundern",
-    "lv": "cabaña",
+    "lv": "platija",
     "level": "B2"
   },
   {
@@ -5259,26 +5259,26 @@ const B2_WORDS = [
     "de": "Flussarm",
     "de_article": "der",
     "de_plural": "die Flussarme",
-    "lv": "reflujo",
+    "lv": "brazo de río",
     "level": "B2"
   },
   {
     "de": "Flussbett",
     "de_article": "das",
     "de_plural": "die Flussbetten",
-    "lv": "cama",
+    "lv": "lecho del río",
     "level": "B2"
   },
   {
     "de": "folgern",
-    "lv": "para concluir",
+    "lv": "deducir • inferir",
     "level": "B2"
   },
   {
     "de": "Fonds",
     "de_article": "der",
     "de_plural": "die Fonds",
-    "lv": "financiar",
+    "lv": "fondo",
     "level": "B2"
   },
   {
@@ -5316,12 +5316,12 @@ const B2_WORDS = [
   },
   {
     "de": "sich fortpflanzen",
-    "lv": "multiplicar • esparcir",
+    "lv": "reproducirse • propagarse",
     "level": "B2"
   },
   {
     "de": "fortschaffen",
-    "lv": "adquirir · llevar · llevar",
+    "lv": "retirar • llevarse",
     "level": "B2"
   },
   {
@@ -5360,14 +5360,14 @@ const B2_WORDS = [
   },
   {
     "de": "fräsen",
-    "lv": "moler",
+    "lv": "fresar",
     "level": "B2"
   },
   {
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "fresadora • fresadora",
+    "lv": "fresador • fresadora",
     "level": "B2"
   },
   {
@@ -5396,28 +5396,28 @@ const B2_WORDS = [
   },
   {
     "de": "freisprechen",
-    "lv": "justificar",
+    "lv": "absolver",
     "level": "B2"
   },
   {
     "de": "Fremde",
     "de_article": "die",
-    "lv": "extranjería • extranjero",
+    "lv": "lo extranjero",
     "level": "B2"
   },
   {
     "de": "fremdgehen",
-    "lv": "volverse infiel",
+    "lv": "ser infiel",
     "level": "B2"
   },
   {
     "de": "friedfertig",
-    "lv": "pacífico • obediente",
+    "lv": "pacífico • conciliador",
     "level": "B2"
   },
   {
     "de": "fristlos",
-    "lv": "indefinido",
+    "lv": "sin preaviso",
     "level": "B2"
   },
   {
@@ -5457,7 +5457,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-fuegen",
       "layout": "minimalStudy",
-      "translation": "adaptarse • obedecer",
+      "translation": "someterse",
       "rektion": "in + ko?",
       "explanation": "sich fügen requiere la preposición definida en + ko?.",
       "forms": "in + ko?",
@@ -5478,7 +5478,7 @@ const B2_WORDS = [
     "de": "Fuhre",
     "de_article": "die",
     "de_plural": "die Fuhren",
-    "lv": "transporte • carga",
+    "lv": "carga",
     "level": "B2"
   },
   {
@@ -5491,19 +5491,19 @@ const B2_WORDS = [
   {
     "de": "Führernatur",
     "de_article": "die",
-    "lv": "tipo de líder • líder",
+    "lv": "carácter de líder",
     "level": "B2"
   },
   {
     "de": "funken",
-    "lv": "transmitido en la radio",
+    "lv": "transmitir por radio",
     "level": "B2"
   },
   {
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "operador de radio • operador de radio",
+    "lv": "radiotelegrafista • operador de radio",
     "level": "B2"
   },
   {
@@ -5524,7 +5524,7 @@ const B2_WORDS = [
     "de": "Funkstörung",
     "de_article": "die",
     "de_plural": "die Funkstörungen",
-    "lv": "interferencia de transmisión",
+    "lv": "interferencia de radio",
     "level": "B2"
   },
   {
@@ -5538,14 +5538,14 @@ const B2_WORDS = [
     "de": "Funktionär",
     "de_article": "der",
     "de_plural": "die Funktionäre",
-    "lv": "activista • empleado",
+    "lv": "funcionario",
     "level": "B2"
   },
   {
     "de": "Furche",
     "de_article": "die",
     "de_plural": "die Furchen",
-    "lv": "surco • arruga • arruga",
+    "lv": "surco • arruga",
     "level": "B2"
   },
   {
@@ -5559,7 +5559,7 @@ const B2_WORDS = [
     "de": "Fürsprache",
     "de_article": "die",
     "de_plural": "die Fürsprachen",
-    "lv": "persuasión • buen nombre defendible",
+    "lv": "intercesión",
     "level": "B2"
   },
   {
@@ -5597,7 +5597,7 @@ const B2_WORDS = [
   },
   {
     "de": "gängig",
-    "lv": "caminando",
+    "lv": "habitual",
     "level": "B2"
   },
   {
@@ -5611,7 +5611,7 @@ const B2_WORDS = [
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "paquete • paquete",
+    "lv": "gavilla",
     "level": "B2"
   },
   {
@@ -5630,28 +5630,28 @@ const B2_WORDS = [
     "de": "Garnknäuel",
     "de_article": "das",
     "de_plural": "die Garnknäuel",
-    "lv": "bulto",
+    "lv": "ovillo de hilo",
     "level": "B2"
   },
   {
     "de": "Garnspule",
     "de_article": "die",
     "de_plural": "die Garnspulen",
-    "lv": "bobina • bobina",
+    "lv": "bobina",
     "level": "B2"
   },
   {
     "de": "Gasableser",
     "de_article": "der",
     "de_plural": "die Gasableser",
-    "lv": "medidor de gas",
+    "lv": "lector del contador de gas",
     "level": "B2"
   },
   {
     "de": "Gastarbeiter",
     "de_article": "der",
     "de_plural": "die Gastarbeiter",
-    "lv": "trabajador invitado",
+    "lv": "trabajador migrante",
     "level": "B2"
   },
   {
@@ -5679,7 +5679,7 @@ const B2_WORDS = [
     "de": "Gebärde",
     "de_article": "die",
     "de_plural": "die Gebärden",
-    "lv": "gesto • característica",
+    "lv": "gesto",
     "level": "B2"
   },
   {
@@ -5691,29 +5691,29 @@ const B2_WORDS = [
   },
   {
     "de": "gebrechlich",
-    "lv": "débil • marchito • gauden • lisiado • lleno de fallas",
+    "lv": "débil • achacoso",
     "level": "B2"
   },
   {
     "de": "gedämpft",
-    "lv": "amortiguado • silenciado • amortiguado",
+    "lv": "amortiguado • silenciado",
     "level": "B2"
   },
   {
     "de": "Gedeck",
     "de_article": "das",
     "de_plural": "die Gedecke",
-    "lv": "cubiertos para una persona",
+    "lv": "servicio de mesa para una persona",
     "level": "B2"
   },
   {
     "de": "gedeihen",
-    "lv": "hacerlo bien • tener éxito • prosperar • prosperar",
+    "lv": "prosperar • desarrollarse bien",
     "level": "B2"
   },
   {
     "de": "gedenken",
-    "lv": "tener en cuenta • recordar • recordar • mencionar",
+    "lv": "recordar • conmemorar",
     "level": "B2"
   },
   {
@@ -5734,13 +5734,13 @@ const B2_WORDS = [
     "de": "Gefährte",
     "de_article": "der",
     "de_plural": "die Gefährten",
-    "lv": "un miembro",
+    "lv": "compañero",
     "level": "B2"
   },
   {
     "de": "Gefallen",
     "de_article": "das",
-    "lv": "me gusta • me gustó",
+    "lv": "agrado • favor",
     "level": "B2"
   },
   {
@@ -5759,7 +5759,7 @@ const B2_WORDS = [
     "de": "Gefecht",
     "de_article": "das",
     "de_plural": "die Gefechte",
-    "lv": "batalla • batalla",
+    "lv": "combate • batalla",
     "level": "B2"
   },
   {
@@ -5773,7 +5773,7 @@ const B2_WORDS = [
     "de": "Gefüge",
     "de_article": "das",
     "de_plural": "die Gefüge",
-    "lv": "estructura • estructura • conexión • empalme",
+    "lv": "estructura • conexión • ensamblaje",
     "level": "B2"
   },
   {
@@ -5787,14 +5787,14 @@ const B2_WORDS = [
     "de": "Gegenmittel",
     "de_article": "das",
     "de_plural": "die Gegenmittel",
-    "lv": "el antídoto",
+    "lv": "contramedida • remedio",
     "level": "B2"
   },
   {
     "de": "Gegenrede",
     "de_article": "die",
     "de_plural": "die Gegenreden",
-    "lv": "declaración • objeción",
+    "lv": "réplica • objeción",
     "level": "B2"
   },
   {
@@ -5808,19 +5808,19 @@ const B2_WORDS = [
     "de": "Amtsgeheimnis",
     "de_article": "das",
     "de_plural": "die Amtsgeheimnisse",
-    "lv": "secreto de oficina",
+    "lv": "secreto oficial",
     "level": "B2"
   },
   {
     "de": "gehörig",
-    "lv": "pertenencia • pertenencia • apropiado • digno",
+    "lv": "perteneciente • apropiado • decoroso",
     "level": "B2"
   },
   {
     "de": "Geiselnahme",
     "de_article": "die",
     "de_plural": "die Geiselnahmen",
-    "lv": "tomando rehenes",
+    "lv": "toma de rehenes",
     "level": "B2"
   },
   {
@@ -5839,29 +5839,29 @@ const B2_WORDS = [
     "de": "Geländelauf",
     "de_article": "der",
     "de_plural": "die Geländeläufe",
-    "lv": "a campo traviesa",
+    "lv": "carrera campo a través",
     "level": "B2"
   },
   {
     "de": "gelassen",
-    "lv": "calmado • restringido",
+    "lv": "calmado • sereno",
     "level": "B2"
   },
   {
     "de": "geläufig",
-    "lv": "conocido • familiar • habitual • fluido • fluido",
+    "lv": "conocido • familiar • habitual • fluido",
     "level": "B2"
   },
   {
     "de": "gelaunt",
-    "lv": "Vaya",
+    "lv": "de buen o mal humor",
     "level": "B2"
   },
   {
     "de": "Geldbuße",
     "de_article": "die",
     "de_plural": "die Geldbußen",
-    "lv": "bien",
+    "lv": "multa",
     "level": "B2"
   },
   {
@@ -5887,21 +5887,21 @@ const B2_WORDS = [
   },
   {
     "de": "gelegen",
-    "lv": "conveniente • conveniente • práctico • apartado",
+    "lv": "conveniente • práctico • apartado",
     "level": "B2"
   },
   {
     "de": "Gelehrte",
     "de_article": "der",
     "de_plural": "die Gelehrten",
-    "lv": "científico",
+    "lv": "erudito • académico",
     "level": "B2"
   },
   {
     "de": "Geliebte",
     "de_article": "der",
     "de_plural": "die Geliebten",
-    "lv": "amado • amado • amante",
+    "lv": "amado • amante",
     "level": "B2"
   },
   {
@@ -5915,7 +5915,7 @@ const B2_WORDS = [
     "de": "Geltung",
     "de_article": "die",
     "de_plural": "die Geltungen",
-    "lv": "significado • importancia",
+    "lv": "validez • importancia",
     "level": "B2"
   },
   {
@@ -5934,7 +5934,7 @@ const B2_WORDS = [
   },
   {
     "de": "gemäß",
-    "lv": "después • según • en consecuencia",
+    "lv": "según • conforme a",
     "level": "B2"
   },
   {
@@ -5953,7 +5953,7 @@ const B2_WORDS = [
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "una mezcla • una mezcla • una mezcla",
+    "lv": "mezcla",
     "level": "B2"
   },
   {
@@ -5971,14 +5971,14 @@ const B2_WORDS = [
   },
   {
     "de": "gemütvoll",
-    "lv": "cálido • acogedor",
+    "lv": "cálido • cordial",
     "level": "B2"
   },
   {
     "de": "Genforscher",
     "de_article": "der",
     "de_plural": "die Genforscher",
-    "lv": "investigador de genes",
+    "lv": "genetista",
     "level": "B2"
   },
   {
@@ -5996,14 +5996,14 @@ const B2_WORDS = [
   },
   {
     "de": "genesen",
-    "lv": "mejorar • mejorar",
+    "lv": "recuperarse",
     "level": "B2"
   },
   {
     "de": "Genesung",
     "de_article": "die",
     "de_plural": "die Genesungen",
-    "lv": "recuperación • recuperación",
+    "lv": "recuperación",
     "level": "B2"
   },
   {
@@ -6048,12 +6048,12 @@ const B2_WORDS = [
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "un miembro • un miembro",
+    "lv": "una miembro",
     "level": "B2"
   },
   {
     "de": "genügsam",
-    "lv": "modesto",
+    "lv": "austero",
     "level": "B2"
   },
   {
@@ -6079,37 +6079,37 @@ const B2_WORDS = [
   },
   {
     "de": "geraten",
-    "lv": "llegar • llegar a • rendirse • tener éxito • golpear",
+    "lv": "caer en • resultar • salir bien • dar con",
     "level": "B2"
   },
   {
     "de": "Geratewohl",
     "de_article": "das",
-    "lv": "buena suerte",
+    "lv": "al azar",
     "level": "B2"
   },
   {
     "de": "geräuschlos",
-    "lv": "silenciosamente • silenciosamente • sin ruido",
+    "lv": "silenciosamente • sin ruido",
     "level": "B2"
   },
   {
     "de": "Gerede",
     "de_article": "das",
     "de_plural": "die Gerede",
-    "lv": "hablar • habla • vernácula • chisme",
+    "lv": "parloteo • cháchara • chismes",
     "level": "B2"
   },
   {
     "de": "gerinnen",
-    "lv": "coagular • congelar • congelar • congelar • congelar",
+    "lv": "coagular • cuajarse • solidificarse",
     "level": "B2"
   },
   {
     "de": "Gerippe",
     "de_article": "das",
     "de_plural": "die Gerippe",
-    "lv": "esqueleto • cuerpo • estructura",
+    "lv": "esqueleto • armazón",
     "level": "B2"
   },
   {
@@ -6123,19 +6123,19 @@ const B2_WORDS = [
     "de": "Gesamtzahl",
     "de_article": "die",
     "de_plural": "die Gesamtzahlen",
-    "lv": "total",
+    "lv": "número total",
     "level": "B2"
   },
   {
     "de": "Gesandte",
     "de_article": "der",
     "de_plural": "die Gesandten",
-    "lv": "mensajero",
+    "lv": "enviado",
     "level": "B2"
   },
   {
     "de": "geschäftig",
-    "lv": "activo • animado",
+    "lv": "activo • atareado",
     "level": "B2"
   },
   {
@@ -6149,7 +6149,7 @@ const B2_WORDS = [
     "de": "Geschiedene",
     "de_article": "der",
     "de_plural": "die Geschiedenen",
-    "lv": "divorcio",
+    "lv": "divorciado",
     "level": "B2"
   },
   {
@@ -6177,7 +6177,7 @@ const B2_WORDS = [
     "de": "Geschwätz",
     "de_article": "das",
     "de_plural": "die Geschwätze",
-    "lv": "charlando • mintiendo • charlando",
+    "lv": "parloteo • cháchara • tonterías",
     "level": "B2"
   },
   {
@@ -6187,7 +6187,7 @@ const B2_WORDS = [
   },
   {
     "de": "geschwind",
-    "lv": "rápido • ágil • ágil",
+    "lv": "rápido • ágil",
     "level": "B2"
   },
   {
@@ -6201,14 +6201,14 @@ const B2_WORDS = [
     "de": "Geschwür",
     "de_article": "das",
     "de_plural": "die Geschwüre",
-    "lv": "planta • úlcera",
+    "lv": "forúnculo • úlcera",
     "level": "B2"
   },
   {
     "de": "Geselle",
     "de_article": "der",
     "de_plural": "die Gesellen",
-    "lv": "zellis • ayudante • chico • artesano que aprobó el examen después del horario escolar",
+    "lv": "oficial • ayudante • muchacho • artesano que ha aprobado el examen tras su aprendizaje",
     "level": "B2"
   },
   {
@@ -6239,20 +6239,20 @@ const B2_WORDS = [
     "de": "Gesichtszug",
     "de_article": "der",
     "de_plural": "die Gesichtszüge",
-    "lv": "característica",
+    "lv": "rasgo facial",
     "level": "B2"
   },
   {
     "de": "Gesinnung",
     "de_article": "die",
     "de_plural": "die Gesinnungen",
-    "lv": "creencias • estado de ánimo",
+    "lv": "convicciones • actitud",
     "level": "B2"
   },
   {
     "de": "Gespött",
     "de_article": "das",
-    "lv": "dentición",
+    "lv": "burla",
     "level": "B2"
   },
   {
@@ -6268,7 +6268,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-gestalten",
       "layout": "minimalStudy",
-      "translation": "formar en",
+      "translation": "tomar forma",
       "rektion": "zu + kam?",
       "explanation": "sich gestalten requiere la preposición definida zu + kam?.",
       "forms": "zu + kam?",
@@ -6294,7 +6294,7 @@ const B2_WORDS = [
   },
   {
     "de": "gestehen",
-    "lv": "admitir • admitir",
+    "lv": "admitir • confesar",
     "level": "B2"
   },
   {
@@ -6308,28 +6308,28 @@ const B2_WORDS = [
     "de": "Gestell",
     "de_article": "das",
     "de_plural": "die Gestelle",
-    "lv": "bastidor • puntal • chasis",
+    "lv": "soporte • bastidor • chasis",
     "level": "B2"
   },
   {
     "de": "Gestrüpp",
     "de_article": "das",
     "de_plural": "die Gestrüppe",
-    "lv": "arbusto",
+    "lv": "matorral",
     "level": "B2"
   },
   {
     "de": "Gesuch",
     "de_article": "das",
     "de_plural": "die Gesuche",
-    "lv": "solicitud • presentación",
+    "lv": "solicitud • petición",
     "level": "B2"
   },
   {
     "de": "Getriebe",
     "de_article": "das",
     "de_plural": "die Getriebe",
-    "lv": "el motor",
+    "lv": "caja de cambios",
     "level": "B2"
   },
   {
@@ -6345,12 +6345,12 @@ const B2_WORDS = [
   },
   {
     "de": "gewähren",
-    "lv": "dar • asignar",
+    "lv": "conceder • otorgar",
     "level": "B2"
   },
   {
     "de": "gewaltsam",
-    "lv": "por la fuerza • por la fuerza",
+    "lv": "por la fuerza • violentamente",
     "level": "B2"
   },
   {
@@ -6376,31 +6376,31 @@ const B2_WORDS = [
     "de": "Gewebe",
     "de_article": "das",
     "de_plural": "die Gewebe",
-    "lv": "tela • pañuelo de papel",
+    "lv": "tejido • tela",
     "level": "B2"
   },
   {
     "de": "Gewerbe",
     "de_article": "das",
     "de_plural": "die Gewerbe",
-    "lv": "posición • comercio • trabajo permanente en el campo del comercio o artesanía o prestación de servicios",
+    "lv": "actividad comercial • oficio • negocio",
     "level": "B2"
   },
   {
     "de": "gewieft",
-    "lv": "templado • astuto",
+    "lv": "astuto",
     "level": "B2"
   },
   {
     "de": "gewissenlos",
-    "lv": "sin conciencia • deshonesto",
+    "lv": "sin escrúpulos",
     "level": "B2"
   },
   {
     "de": "Gewissheit",
     "de_article": "die",
     "de_plural": "die Gewissheiten",
-    "lv": "claridad • seguridad • certeza",
+    "lv": "certeza",
     "level": "B2"
   },
   {
@@ -6411,27 +6411,27 @@ const B2_WORDS = [
   },
   {
     "de": "gierig",
-    "lv": "ansioso • codicioso • codicioso",
+    "lv": "ávido • codicioso",
     "level": "B2"
   },
   {
     "de": "geldgierig",
-    "lv": "codicioso de dinero",
+    "lv": "ávido de dinero",
     "level": "B2"
   },
   {
     "de": "machtgierig",
-    "lv": "hambriento de poder",
+    "lv": "ávido de poder",
     "level": "B2"
   },
   {
     "de": "rachgierig",
-    "lv": "ansia de venganza",
+    "lv": "sediento de venganza",
     "level": "B2"
   },
   {
     "de": "raffgierig",
-    "lv": "fascinante",
+    "lv": "codicioso",
     "level": "B2"
   },
   {
@@ -6490,65 +6490,65 @@ const B2_WORDS = [
     "de": "Glatze",
     "de_article": "die",
     "de_plural": "die Glatzen",
-    "lv": "cabeza desnuda",
+    "lv": "calva",
     "level": "B2"
   },
   {
     "de": "Stirnglatze",
     "de_article": "die",
     "de_plural": "die Stirnglatzen",
-    "lv": "frente descubierta",
+    "lv": "calvicie frontal",
     "level": "B2"
   },
   {
     "de": "gleichmütig",
-    "lv": "compuesto • sangre fría",
+    "lv": "imperturbable • ecuánime",
     "level": "B2"
   },
   {
     "de": "Gleichnis",
     "de_article": "das",
     "de_plural": "die Gleichnisse",
-    "lv": "semejanza",
+    "lv": "parábola",
     "level": "B2"
   },
   {
     "de": "gleiten",
-    "lv": "deslizarse • elevarse",
+    "lv": "deslizarse • planear",
     "level": "B2"
   },
   {
     "de": "Glied",
     "de_article": "das",
     "de_plural": "die Glieder",
-    "lv": "miembro • miembro • miembro de cadena • eslabón",
+    "lv": "miembro • extremidad • eslabón • segmento",
     "level": "B2"
   },
   {
     "de": "gliedern",
-    "lv": "dividir",
+    "lv": "estructurar",
     "level": "B2"
   },
   {
     "de": "glimmen",
-    "lv": "brillar • brillar • arder",
+    "lv": "arder débilmente • brillar débilmente",
     "level": "B2"
   },
   {
     "de": "glotzen",
-    "lv": "estrabismo",
+    "lv": "mirar fijamente",
     "level": "B2"
   },
   {
     "de": "glühen",
-    "lv": "brillar • arder • arder • arder",
+    "lv": "arder • brillar intensamente • estar al rojo vivo",
     "level": "B2"
   },
   {
     "de": "Glut",
     "de_article": "die",
     "de_plural": "die Gluten",
-    "lv": "resplandor • resplandor • gran calor",
+    "lv": "rescoldo • resplandor • calor intenso",
     "level": "B2"
   },
   {
@@ -6561,12 +6561,12 @@ const B2_WORDS = [
   {
     "de": "Gnadenbrot",
     "de_article": "das",
-    "lv": "el pan de gracia",
+    "lv": "pan de caridad",
     "level": "B2"
   },
   {
     "de": "gnädig",
-    "lv": "amable • respetado",
+    "lv": "benévolo • misericordioso",
     "level": "B2"
   },
   {
@@ -6601,7 +6601,7 @@ const B2_WORDS = [
     "de": "Goldwäscher",
     "de_article": "der",
     "de_plural": "die Goldwäscher",
-    "lv": "lavadora de oro",
+    "lv": "lavador de oro",
     "level": "B2"
   },
   {
@@ -6615,7 +6615,7 @@ const B2_WORDS = [
     "de": "Gondel",
     "de_article": "die",
     "de_plural": "die Gondeln",
-    "lv": "góndola • teleférico",
+    "lv": "góndola • cabina de teleférico",
     "level": "B2"
   },
   {
@@ -6642,7 +6642,7 @@ const B2_WORDS = [
   {
     "de": "Götzendienst",
     "de_article": "der",
-    "lv": "sirviendo a un ídolo",
+    "lv": "idolatría",
     "level": "B2"
   },
   {
@@ -6654,12 +6654,12 @@ const B2_WORDS = [
   },
   {
     "de": "grässlich",
-    "lv": "terrible • terrible • repugnante • desagradable",
+    "lv": "horrible • espantoso • repugnante • desagradable",
     "level": "B2"
   },
   {
     "de": "grauen",
-    "lv": "tejer",
+    "lv": "amanecer",
     "level": "B2"
   },
   {
@@ -6700,7 +6700,7 @@ const B2_WORDS = [
     "de": "Greis",
     "de_article": "der",
     "de_plural": "die Greise",
-    "lv": "viejo",
+    "lv": "anciano",
     "level": "B2"
   },
   {
@@ -6750,14 +6750,14 @@ const B2_WORDS = [
   },
   {
     "de": "grinsen",
-    "lv": "sonreír",
+    "lv": "sonreír burlonamente",
     "level": "B2"
   },
   {
     "de": "Großmacht",
     "de_article": "die",
     "de_plural": "die Großmächte",
-    "lv": "un gran poder",
+    "lv": "gran potencia",
     "level": "B2"
   },
   {
@@ -6775,28 +6775,28 @@ const B2_WORDS = [
     "de": "Gründonnerstag",
     "de_article": "der",
     "de_plural": "die Gründonnerstage",
-    "lv": "Jueves Verde antes de Semana Santa",
+    "lv": "Jueves Santo",
     "level": "B2"
   },
   {
     "de": "Grundrecht",
     "de_article": "das",
     "de_plural": "die Grundrechte",
-    "lv": "derechos fundamentales",
+    "lv": "derecho fundamental",
     "level": "B2"
   },
   {
     "de": "Grundriss",
     "de_article": "der",
     "de_plural": "die Grundrisse",
-    "lv": "plan",
+    "lv": "plano",
     "level": "B2"
   },
   {
     "de": "Grußwort",
     "de_article": "das",
     "de_plural": "die Grußworte",
-    "lv": "una breve dirección formal",
+    "lv": "saludo oficial",
     "level": "B2"
   },
   {
@@ -6821,7 +6821,7 @@ const B2_WORDS = [
   },
   {
     "de": "gurgeln",
-    "lv": "hacer gárgaras • boca",
+    "lv": "hacer gárgaras",
     "level": "B2"
   },
   {
@@ -6835,13 +6835,13 @@ const B2_WORDS = [
     "de": "Gutachten",
     "de_article": "das",
     "de_plural": "die Gutachten",
-    "lv": "retroalimentación • opinión de un experto",
+    "lv": "informe pericial",
     "level": "B2"
   },
   {
     "de": "Güte",
     "de_article": "die",
-    "lv": "amabilidad • calidad • beneficio",
+    "lv": "bondad • calidad",
     "level": "B2"
   },
   {
@@ -6860,7 +6860,7 @@ const B2_WORDS = [
   },
   {
     "de": "gutheißen",
-    "lv": "reconocer como bueno",
+    "lv": "aprobar",
     "level": "B2"
   },
   {
@@ -6870,19 +6870,19 @@ const B2_WORDS = [
   },
   {
     "de": "haaren",
-    "lv": "tirar una pluma",
+    "lv": "mudar el pelo",
     "level": "B2"
   },
   {
     "de": "habsüchtig",
-    "lv": "codicioso • codicioso",
+    "lv": "codicioso • avaro",
     "level": "B2"
   },
   {
     "de": "Hafenbecken",
     "de_article": "das",
     "de_plural": "die Hafenbecken",
-    "lv": "zona de aguas del puerto",
+    "lv": "dársena portuaria",
     "level": "B2"
   },
   {
@@ -6903,7 +6903,7 @@ const B2_WORDS = [
     "de": "Hahnenkamm",
     "de_article": "der",
     "de_plural": "die Hahnenkämme",
-    "lv": "sexteo de polla",
+    "lv": "cresta de gallo",
     "level": "B2"
   },
   {
@@ -6917,38 +6917,38 @@ const B2_WORDS = [
     "de": "Handelsflotte",
     "de_article": "die",
     "de_plural": "die Handelsflotten",
-    "lv": "marina mercante",
+    "lv": "flota mercante",
     "level": "B2"
   },
   {
     "de": "Handelsklasse",
     "de_article": "die",
     "de_plural": "die Handelsklassen",
-    "lv": "clase de bienes",
+    "lv": "categoría comercial",
     "level": "B2"
   },
   {
     "de": "Hängebrücke",
     "de_article": "die",
     "de_plural": "die Hängebrücken",
-    "lv": "puente atirantado",
+    "lv": "puente colgante",
     "level": "B2"
   },
   {
     "de": "Hängsel",
     "de_article": "das",
     "de_plural": "die Hängsel",
-    "lv": "percha de ropa cosida",
+    "lv": "presilla",
     "level": "B2"
   },
   {
     "de": "hänseln",
-    "lv": "nerrot • chillido",
+    "lv": "burlarse • tomar el pelo",
     "level": "B2"
   },
   {
     "de": "hantieren",
-    "lv": "actuar • actuar con lo que",
+    "lv": "manipular • trabajar con algo",
     "level": "B2"
   },
   {
@@ -6962,7 +6962,7 @@ const B2_WORDS = [
     "de": "Harsch",
     "de_article": "der",
     "de_plural": "die Harsche",
-    "lv": "azufre • nieve congelada",
+    "lv": "costra de nieve • nieve endurecida",
     "level": "B2"
   },
   {
@@ -6984,7 +6984,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-haube",
       "layout": "standardStudy",
-      "translation": "gorra • capucha",
+      "translation": "capucha",
       "explanation": [
         "Idea principal: die Haube puede significar gorro/capucha o capucha/cubierta; el contexto determina el significado.",
         "En la cabeza: die Haube = gorra, capucha o técnica del autor en un contexto específico (z. B. Nonne mit Haube).",
@@ -6994,27 +6994,27 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Sie trägt eine warme Haube.",
-          "lv": "ella usa un gorro abrigado."
+          "lv": "Ella usa un gorro abrigado."
         },
         {
           "de": "Die Nonne trägt eine schwarze Haube.",
-          "lv": "la monja lleva una capucha negra."
+          "lv": "La monja lleva una capucha negra."
         },
         {
           "de": "Er öffnet die Haube des Autos.",
-          "lv": "abre el capó del coche."
+          "lv": "Abre el capó del coche."
         },
         {
           "de": "Die Motorhaube ist kaputt.",
-          "lv": "el capó está roto."
+          "lv": "El capó está roto."
         },
         {
           "de": "Über dem Herd hängt eine Dunsthaube.",
-          "lv": "encima de la estufa hay una campana extractora."
+          "lv": "Encima de la estufa hay una campana extractora."
         },
         {
           "de": "Setz den Deckel als Haube auf den Topf.",
-          "lv": "Pon la tapa a la olla a modo de tapa."
+          "lv": "Pon la tapa a la olla."
         }
       ],
       "tip": [
@@ -7089,7 +7089,7 @@ const B2_WORDS = [
             },
             "lv": {
               "purple": [
-                "extractor"
+                "extractora"
               ]
             }
           },
@@ -7113,20 +7113,20 @@ const B2_WORDS = [
     "de": "Haushaltung",
     "de_article": "die",
     "de_plural": "die Haushaltungen",
-    "lv": "gestión interna",
+    "lv": "administración del hogar",
     "level": "B2"
   },
   {
     "de": "Hausherr",
     "de_article": "der",
     "de_plural": "die Hausherren",
-    "lv": "ama de casa • animadora",
+    "lv": "dueño de la casa • anfitrión",
     "level": "B2"
   },
   {
     "de": "Hausrat",
     "de_article": "der",
-    "lv": "vida",
+    "lv": "enseres domésticos",
     "level": "B2"
   },
   {
@@ -7144,7 +7144,7 @@ const B2_WORDS = [
   },
   {
     "de": "hauteng",
-    "lv": "ropa ajustada",
+    "lv": "muy ajustado",
     "level": "B2"
   },
   {
@@ -7172,13 +7172,13 @@ const B2_WORDS = [
     "de": "Heiligtum",
     "de_article": "das",
     "de_plural": "die Heiligtümer",
-    "lv": "lugar santo • santidad",
+    "lv": "santuario",
     "level": "B2"
   },
   {
     "de": "Heilkunde",
     "de_article": "die",
-    "lv": "tratamiento • medicina",
+    "lv": "medicina",
     "level": "B2"
   },
   {
@@ -7199,7 +7199,7 @@ const B2_WORDS = [
     "de": "Heilpraktiker",
     "de_article": "der",
     "de_plural": "die Heilpraktiker",
-    "lv": "curador",
+    "lv": "naturópata",
     "level": "B2"
   },
   {
@@ -7210,21 +7210,21 @@ const B2_WORDS = [
   {
     "de": "Heimkehr",
     "de_article": "die",
-    "lv": "regresar a casa • a la patria",
+    "lv": "regreso a casa",
     "level": "B2"
   },
   {
     "de": "Heimwerker",
     "de_article": "der",
     "de_plural": "die Heimwerker",
-    "lv": "artesano de la casa • maestro de la casa",
+    "lv": "aficionado al bricolaje",
     "level": "B2"
   },
   {
     "de": "Heizkraftwerk",
     "de_article": "das",
     "de_plural": "die Heizkraftwerke",
-    "lv": "planta de energía térmica",
+    "lv": "central de cogeneración",
     "level": "B2"
   },
   {
@@ -7238,7 +7238,7 @@ const B2_WORDS = [
     "de": "Heldentat",
     "de_article": "die",
     "de_plural": "die Heldentaten",
-    "lv": "logro",
+    "lv": "hazaña heroica",
     "level": "B2"
   },
   {
@@ -7250,22 +7250,22 @@ const B2_WORDS = [
     "de": "Hemmung",
     "de_article": "die",
     "de_plural": "die Hemmungen",
-    "lv": "obstáculo • obstáculo • retraso",
+    "lv": "inhibición • obstáculo • retraso",
     "level": "B2"
   },
   {
     "de": "henken",
-    "lv": "una vez • colgar a una persona",
+    "lv": "ahorcar",
     "level": "B2"
   },
   {
     "de": "herabsetzen",
-    "lv": "bajar • menospreciar",
+    "lv": "rebajar • menospreciar",
     "level": "B2"
   },
   {
     "de": "herangehen",
-    "lv": "empezar a trabajar",
+    "lv": "abordar • acercarse",
     "level": "B2"
   },
   {
@@ -7285,7 +7285,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-herausbilden",
       "layout": "minimalStudy",
-      "translation": "formar en",
+      "translation": "formarse",
       "rektion": "zu + kam?",
       "explanation": "sich herausbilden requiere la preposición definida zu + kam?.",
       "forms": "zu + kam?",
@@ -7333,7 +7333,7 @@ const B2_WORDS = [
   },
   {
     "de": "herausstellen",
-    "lv": "apagar",
+    "lv": "sacar • destacar",
     "level": "B2"
   },
   {
@@ -7362,7 +7362,7 @@ const B2_WORDS = [
   },
   {
     "de": "herb",
-    "lv": "amargo • agrio • agrio",
+    "lv": "amargo • áspero",
     "level": "B2"
   },
   {
@@ -7420,24 +7420,24 @@ const B2_WORDS = [
   {
     "de": "Herzversagen",
     "de_article": "das",
-    "lv": "paro cardíaco • insuficiencia",
+    "lv": "insuficiencia cardíaca",
     "level": "B2"
   },
   {
     "de": "Hetze",
     "de_article": "die",
     "de_plural": "die Hetzen",
-    "lv": "incitación • incitación",
+    "lv": "incitación • hostigamiento",
     "level": "B2"
   },
   {
     "de": "hetzen",
-    "lv": "patear • incitar • perseguir • golpear",
+    "lv": "azuzar • incitar • perseguir • apresurar",
     "level": "B2"
   },
   {
     "de": "heucheln",
-    "lv": "fingir • fingir",
+    "lv": "fingir • comportarse hipócritamente",
     "level": "B2"
   },
   {
@@ -7462,12 +7462,12 @@ const B2_WORDS = [
     "de": "Hilfsdienst",
     "de_article": "der",
     "de_plural": "die Hilfsdienste",
-    "lv": "mesa de ayuda",
+    "lv": "servicio de asistencia",
     "level": "B2"
   },
   {
     "de": "hingeben",
-    "lv": "regalar • prestar",
+    "lv": "entregar • dedicarse",
     "level": "B2"
   },
   {
@@ -7477,7 +7477,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-hingeben",
       "layout": "minimalStudy",
-      "translation": "rendirse • rendirse",
+      "translation": "entregarse",
       "rektion": "+ kam?",
       "explanation": "sich hingeben prasa + kam?.",
       "forms": "+ kam?",
@@ -7496,31 +7496,31 @@ const B2_WORDS = [
   },
   {
     "de": "hinreißen",
-    "lv": "apoderarse • quitar",
+    "lv": "arrebatar • entusiasmar",
     "level": "B2"
   },
   {
     "de": "Hinsicht",
     "de_article": "die",
     "de_plural": "die Hinsichten",
-    "lv": "mensaje",
+    "lv": "aspecto • respecto",
     "level": "B2"
   },
   {
     "de": "hinsichtlich",
-    "lv": "con respecto a • debido a",
+    "lv": "con respecto a • en cuanto a",
     "level": "B2"
   },
   {
     "de": "hintergehen",
-    "lv": "hacer trampa • decepcionar",
+    "lv": "engañar • traicionar",
     "level": "B2"
   },
   {
     "de": "Hinterhalt",
     "de_article": "der",
     "de_plural": "die Hinterhalte",
-    "lv": "el escondite",
+    "lv": "emboscada",
     "level": "B2"
   },
   {
@@ -7558,7 +7558,7 @@ const B2_WORDS = [
     "de": "Hirschkuh",
     "de_article": "die",
     "de_plural": "die Hirschkühe",
-    "lv": "madre venado",
+    "lv": "cierva",
     "level": "B2"
   },
   {
@@ -7570,7 +7570,7 @@ const B2_WORDS = [
     "de": "Hitzkopf",
     "de_article": "der",
     "de_plural": "die Hitzköpfe",
-    "lv": "exaltado",
+    "lv": "persona irascible",
     "level": "B2"
   },
   {
@@ -7594,7 +7594,7 @@ const B2_WORDS = [
     "de": "Hobelbank",
     "de_article": "die",
     "de_plural": "die Hobelbänke",
-    "lv": "cepilladora",
+    "lv": "banco de carpintero",
     "level": "B2"
   },
   {
@@ -7616,7 +7616,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Wir bringen ein Hoch auf das Brautpaar aus.",
-          "lv": "brindamos por los recién casados."
+          "lv": "Brindamos por los recién casados."
         },
         {
           "de": "Ein Hoch auf dich!",
@@ -7628,7 +7628,7 @@ const B2_WORDS = [
         },
         {
           "de": "Der Berg ist sehr hoch.",
-          "lv": "la montaña es muy alta."
+          "lv": "La montaña es muy alta."
         }
       ],
       "tip": [
@@ -7739,12 +7739,12 @@ const B2_WORDS = [
   {
     "de": "Hochmut",
     "de_article": "der",
-    "lv": "arrogancia • arrogancia",
+    "lv": "arrogancia",
     "level": "B2"
   },
   {
     "de": "hochmütig",
-    "lv": "altivo • altivo",
+    "lv": "altivo",
     "level": "B2"
   },
   {
@@ -7765,14 +7765,14 @@ const B2_WORDS = [
     "de": "Höchstleistung",
     "de_article": "die",
     "de_plural": "die Höchstleistungen",
-    "lv": "mayor logro • mayor poder • récord",
+    "lv": "máximo rendimiento",
     "level": "B2"
   },
   {
     "de": "Hochverrat",
     "de_article": "der",
     "de_plural": null,
-    "lv": "traición",
+    "lv": "alta traición",
     "level": "B2"
   },
   {
@@ -7789,7 +7789,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Nach dem Regen gibt es Hochwasser.",
-          "lv": "después de la lluvia hay una inundación."
+          "lv": "Después de la lluvia hay una inundación."
         },
         {
           "de": "Das Hochwasser bedroht die Stadt.",
@@ -7804,17 +7804,17 @@ const B2_WORDS = [
         {
           "word": "das Hochwasser",
           "meaning": "inundación • nivel alto de agua",
-          "example": "Es gibt Hochwasser. = Ir plūdi."
+          "example": "Es gibt Hochwasser. = Hay una inundación."
         },
         {
           "word": "die Überschwemmung",
           "meaning": "inundación (específica)",
-          "example": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas."
+          "example": "Die Überschwemmung zerstörte Häuser. = La inundación destruyó casas."
         },
         {
           "word": "der Pegel",
-          "meaning": "nivel del agua",
-          "example": "Der Pegel steigt. = Ūdens līmenis ceļas."
+          "meaning": "presión / impresión",
+          "example": "Der Pegel steigt. = El nivel del agua está subiendo."
         }
       ],
       "tip": {
@@ -7876,7 +7876,7 @@ const B2_WORDS = [
   },
   {
     "de": "hochwertig",
-    "lv": "alto valor",
+    "lv": "de alta calidad",
     "level": "B2"
   },
   {
@@ -7889,7 +7889,7 @@ const B2_WORDS = [
   {
     "de": "Hohn",
     "de_article": "der",
-    "lv": "ridiculizar • ridiculizar",
+    "lv": "burla",
     "level": "B2"
   },
   {
@@ -7901,14 +7901,14 @@ const B2_WORDS = [
   },
   {
     "de": "holpern",
-    "lv": "sacudir • contraerse",
+    "lv": "dar tumbos",
     "level": "B2"
   },
   {
     "de": "Honorar",
     "de_article": "das",
     "de_plural": "die Honorare",
-    "lv": "realeza",
+    "lv": "honorarios",
     "level": "B2"
   },
   {
@@ -7950,7 +7950,7 @@ const B2_WORDS = [
   },
   {
     "de": "in flagranti",
-    "lv": "atrapar • hacer algo ilegal",
+    "lv": "in fraganti",
     "level": "B2"
   },
   {
@@ -7967,12 +7967,12 @@ const B2_WORDS = [
   },
   {
     "de": "innewohnen",
-    "lv": "hogar",
+    "lv": "ser inherente a",
     "level": "B2"
   },
   {
     "de": "inszenieren",
-    "lv": "al escenario",
+    "lv": "escenificar",
     "level": "B2"
   },
   {
@@ -7986,12 +7986,12 @@ const B2_WORDS = [
     "de": "Investition",
     "de_article": "die",
     "de_plural": "die Investitionen",
-    "lv": "inversión • inversión • inversión de capital • inversión",
+    "lv": "inversión",
     "level": "B2"
   },
   {
     "de": "irrsinnig",
-    "lv": "loco • loco",
+    "lv": "loco",
     "level": "B2"
   },
   {
@@ -8012,7 +8012,7 @@ const B2_WORDS = [
     "de": "Kapazität",
     "de_article": "die",
     "de_plural": "die Kapazitäten",
-    "lv": "capacidad de producción • capacidad • volumen • capacidad",
+    "lv": "capacidad",
     "level": "B2"
   },
   {
@@ -8057,7 +8057,7 @@ const B2_WORDS = [
   {
     "de": "Kaufkraft",
     "de_article": "die",
-    "lv": "dinero • también poder adquisitivo personal",
+    "lv": "poder adquisitivo",
     "level": "B2"
   },
   {
@@ -8141,7 +8141,7 @@ const B2_WORDS = [
   },
   {
     "de": "kompatibel",
-    "lv": "conectable",
+    "lv": "compatible",
     "level": "B2"
   },
   {
@@ -8160,7 +8160,7 @@ const B2_WORDS = [
     "de": "Konsequenz",
     "de_article": "die",
     "de_plural": "die Konsequenzen",
-    "lv": "consistencia • secuencia • conclusión • consecuencia",
+    "lv": "consecuencia",
     "level": "B2"
   },
   {
@@ -8204,12 +8204,12 @@ const B2_WORDS = [
   },
   {
     "de": "korrumpieren",
-    "lv": "sobornar",
+    "lv": "corromper",
     "level": "B2"
   },
   {
     "de": "korrupt",
-    "lv": "comprable • sobornable",
+    "lv": "corrupto",
     "level": "B2"
   },
   {
@@ -8230,7 +8230,7 @@ const B2_WORDS = [
     "de": "Kriegszustand",
     "de_article": "der",
     "de_plural": "die Kriegszustände",
-    "lv": "ley marcial",
+    "lv": "estado de guerra",
     "level": "B2"
   },
   {
@@ -8250,7 +8250,7 @@ const B2_WORDS = [
   {
     "de": "Laienkunst",
     "de_article": "die",
-    "lv": "autoactividad artística",
+    "lv": "arte amateur",
     "level": "B2"
   },
   {
@@ -8271,7 +8271,7 @@ const B2_WORDS = [
     "de": "Landenge",
     "de_article": "die",
     "de_plural": "die Landengen",
-    "lv": "istmo de tierra",
+    "lv": "istmo",
     "level": "B2"
   },
   {
@@ -8284,21 +8284,21 @@ const B2_WORDS = [
     "de": "Landsmann",
     "de_article": "der",
     "de_plural": "die Landsleute",
-    "lv": "compatriota • residente del condado",
+    "lv": "compatriota",
     "level": "B2"
   },
   {
     "de": "Landung",
     "de_article": "die",
     "de_plural": "die Landungen",
-    "lv": "parada • aterrizaje • aterrizaje",
+    "lv": "aterrizaje",
     "level": "B2"
   },
   {
     "de": "Landzunge",
     "de_article": "die",
     "de_plural": "die Landzungen",
-    "lv": "la lengua de la tierra",
+    "lv": "lengua de tierra",
     "level": "B2"
   },
   {
@@ -8323,7 +8323,7 @@ const B2_WORDS = [
   },
   {
     "de": "lauern",
-    "lv": "acurrucarse",
+    "lv": "acechar",
     "level": "B2"
   },
   {
@@ -8337,21 +8337,21 @@ const B2_WORDS = [
     "de": "Laufmasche",
     "de_article": "die",
     "de_plural": "die Laufmaschen",
-    "lv": "se ha desprendido una puntada del calcetín",
+    "lv": "punto corrido",
     "level": "B2"
   },
   {
     "de": "Laufsteg",
     "de_article": "der",
     "de_plural": "die Laufstege",
-    "lv": "lengua en desfile de moda",
+    "lv": "pasarela",
     "level": "B2"
   },
   {
     "de": "Laufwerk",
     "de_article": "das",
     "de_plural": "die Laufwerke",
-    "lv": "motor • motor",
+    "lv": "mecanismo de accionamiento",
     "level": "B2"
   },
   {
@@ -8389,7 +8389,7 @@ const B2_WORDS = [
     "de": "Lehrstuhl",
     "de_article": "der",
     "de_plural": "die Lehrstühle",
-    "lv": "departamento",
+    "lv": "cátedra",
     "level": "B2"
   },
   {
@@ -8408,7 +8408,7 @@ const B2_WORDS = [
     "de": "Leichenhalle",
     "de_article": "die",
     "de_plural": "die Leichenhallen",
-    "lv": "en el cementerio de la capilla",
+    "lv": "morgue",
     "level": "B2"
   },
   {
@@ -8425,7 +8425,7 @@ const B2_WORDS = [
   },
   {
     "de": "leichtsinnig",
-    "lv": "frívolo",
+    "lv": "imprudente",
     "level": "B2"
   },
   {
@@ -8437,7 +8437,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-leiden-study",
       "layout": "standardStudy",
-      "translation": "enfermedad larga y grave",
+      "translation": "sufrimiento • dolencia",
       "explanation": [
         "Idea principal: das Leiden con mayúscula y el artículo das es un sustantivo: sufrimiento, enfermedad larga/grave.",
         "Leiden en minúscula está el verbo - sufrir.",
@@ -8447,7 +8447,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Er hat ein schweres Leiden.",
-          "lv": "tiene una enfermedad grave."
+          "lv": "Tiene una enfermedad grave."
         },
         {
           "de": "Das Leiden der Patienten war groß.",
@@ -8455,11 +8455,11 @@ const B2_WORDS = [
         },
         {
           "de": "Er leidet an einer seltenen Krankheit.",
-          "lv": "sufre una enfermedad rara."
+          "lv": "Sufre una enfermedad rara."
         },
         {
           "de": "Ihr Leiden dauerte Jahre.",
-          "lv": "su enfermedad duró años."
+          "lv": "Su enfermedad duró años."
         }
       ],
       "tip": [
@@ -8562,7 +8562,7 @@ const B2_WORDS = [
   },
   {
     "de": "leidlich",
-    "lv": "tolerable • tolerable • medio bueno",
+    "lv": "tolerable • medianamente bueno",
     "level": "B2"
   },
   {
@@ -8576,7 +8576,7 @@ const B2_WORDS = [
     "de": "Leitartikel",
     "de_article": "der",
     "de_plural": "die Leitartikel",
-    "lv": "artículo introductorio",
+    "lv": "artículo editorial",
     "level": "B2"
   },
   {
@@ -8609,7 +8609,7 @@ const B2_WORDS = [
     "de": "Leuchtreklame",
     "de_article": "die",
     "de_plural": "die Leuchtreklamen",
-    "lv": "publicidad ligera",
+    "lv": "publicidad luminosa",
     "level": "B2"
   },
   {
@@ -8626,17 +8626,17 @@ const B2_WORDS = [
     "de": "Liebesaffäre",
     "de_article": "die",
     "de_plural": "die Liebesaffären",
-    "lv": "conexión íntima",
+    "lv": "aventura amorosa",
     "level": "B2"
   },
   {
     "de": "liebkosten",
-    "lv": "acariciar • acariciar",
+    "lv": "acariciar • mimar",
     "level": "B2"
   },
   {
     "de": "liederlich",
-    "lv": "descuidado • descuidado",
+    "lv": "descuidado • negligente",
     "level": "B2"
   },
   {
@@ -8646,7 +8646,7 @@ const B2_WORDS = [
   },
   {
     "de": "lispeln",
-    "lv": "deslizarse",
+    "lv": "cecear",
     "level": "B2"
   },
   {
@@ -8665,14 +8665,14 @@ const B2_WORDS = [
     "de": "Litfaßsäule",
     "de_article": "die",
     "de_plural": "die Litfaßsäulen",
-    "lv": "poste del cartel",
+    "lv": "columna publicitaria",
     "level": "B2"
   },
   {
     "de": "Lochband",
     "de_article": "das",
     "de_plural": "die Lochbänder",
-    "lv": "perforante",
+    "lv": "cinta perforada",
     "level": "B2"
   },
   {
@@ -8699,7 +8699,7 @@ const B2_WORDS = [
     "de": "Lösegeld",
     "de_article": "das",
     "de_plural": "die Lösegelder",
-    "lv": "tarifa de reembolso",
+    "lv": "rescate",
     "level": "B2"
   },
   {
@@ -8733,19 +8733,19 @@ const B2_WORDS = [
     "de": "Luftbad",
     "de_article": "das",
     "de_plural": "die Luftbäder",
-    "lv": "nadando en el aire",
+    "lv": "baño de aire",
     "level": "B2"
   },
   {
     "de": "Luftaufnahme",
     "de_article": "die",
     "de_plural": "die Luftaufnahmen",
-    "lv": "fotografía aérea • fotografía aérea",
+    "lv": "fotografía aérea",
     "level": "B2"
   },
   {
     "de": "luftdicht",
-    "lv": "permeable al aire • hermético",
+    "lv": "impermeable al aire • hermético",
     "level": "B2"
   },
   {
@@ -8771,7 +8771,7 @@ const B2_WORDS = [
     "de": "Luftgewehr",
     "de_article": "das",
     "de_plural": "die Luftgewehre",
-    "lv": "pistola de aire",
+    "lv": "rifle de aire comprimido",
     "level": "B2"
   },
   {
@@ -8785,14 +8785,14 @@ const B2_WORDS = [
     "de": "Lustspiel",
     "de_article": "das",
     "de_plural": "die Lustspiele",
-    "lv": "comedia • juego de broma",
+    "lv": "comedia • obra cómica",
     "level": "B2"
   },
   {
     "de": "Machtantritt",
     "de_article": "der",
     "de_plural": "die Machtantritte",
-    "lv": "llegando al poder",
+    "lv": "toma del poder",
     "level": "B2"
   },
   {
@@ -8817,14 +8817,14 @@ const B2_WORDS = [
     "de": "Magister",
     "de_article": "der",
     "de_plural": "die Magister",
-    "lv": "maestría",
+    "lv": "magíster",
     "level": "B2"
   },
   {
     "de": "Mahd",
     "de_article": "die",
     "de_plural": "die Mahden",
-    "lv": "cosechado",
+    "lv": "siega",
     "level": "B2"
   },
   {
@@ -8849,7 +8849,7 @@ const B2_WORDS = [
   {
     "de": "Mahnschreiben",
     "de_article": "das",
-    "lv": "un recordatorio",
+    "lv": "carta de requerimiento",
     "level": "B2"
   },
   {
@@ -8889,7 +8889,7 @@ const B2_WORDS = [
     "de": "Marketing",
     "de_article": "das",
     "de_plural": null,
-    "lv": "marketing • comercio",
+    "lv": "marketing • mercadotecnia",
     "level": "B2"
   },
   {
@@ -8903,7 +8903,7 @@ const B2_WORDS = [
     "de": "Marssonde",
     "de_article": "die",
     "de_plural": "die Marssonden",
-    "lv": "sonda de marte",
+    "lv": "sonda de Marte",
     "level": "B2"
   },
   {
@@ -8922,32 +8922,32 @@ const B2_WORDS = [
   {
     "de": "Maschinenbau",
     "de_article": "der",
-    "lv": "Ingeniería Mecánica",
+    "lv": "ingeniería mecánica",
     "level": "B2"
   },
   {
     "de": "Maskenbildner",
     "de_article": "der",
     "de_plural": "die Maskenbildner",
-    "lv": "maquilladora y peluquera profesional",
+    "lv": "maquillador y peluquero profesional",
     "level": "B2"
   },
   {
     "de": "Massaker",
     "de_article": "das",
     "de_plural": "die Massaker",
-    "lv": "carnicería",
+    "lv": "masacre",
     "level": "B2"
   },
   {
     "de": "Massenware",
     "de_article": "die",
-    "lv": "bienes de consumo",
+    "lv": "productos fabricados en serie",
     "level": "B2"
   },
   {
     "de": "maßlos",
-    "lv": "inconmensurable • infinito",
+    "lv": "desmesurado • ilimitado",
     "level": "B2"
   },
   {
@@ -8960,7 +8960,7 @@ const B2_WORDS = [
     "de": "Matinée",
     "de_article": "die",
     "de_plural": "die Matinéen",
-    "lv": "programa matutino",
+    "lv": "función matinal",
     "level": "B2"
   },
   {
@@ -8972,7 +8972,7 @@ const B2_WORDS = [
     "de": "Meerbusen",
     "de_article": "der",
     "de_plural": "die Meerbusen",
-    "lv": "bahía del mar",
+    "lv": "golfo",
     "level": "B2"
   },
   {
@@ -9010,7 +9010,7 @@ const B2_WORDS = [
     "de": "Meldefrist",
     "de_article": "die",
     "de_plural": "die Meldefristen",
-    "lv": "fecha límite de solicitud",
+    "lv": "plazo de inscripción",
     "level": "B2"
   },
   {
@@ -9025,14 +9025,14 @@ const B2_WORDS = [
   },
   {
     "de": "meutern",
-    "lv": "rebelde • rebelde",
+    "lv": "amotinarse • rebelarse",
     "level": "B2"
   },
   {
     "de": "Mieder",
     "de_article": "das",
     "de_plural": "die Mieder",
-    "lv": "cinturón ajustado • corpiño",
+    "lv": "corsé • corpiño",
     "level": "B2"
   },
   {
@@ -9052,7 +9052,7 @@ const B2_WORDS = [
     "de": "Milbe",
     "de_article": "die",
     "de_plural": "die Milben",
-    "lv": "garrapata",
+    "lv": "ácaro",
     "level": "B2"
   },
   {
@@ -9069,7 +9069,7 @@ const B2_WORDS = [
   },
   {
     "de": "militant",
-    "lv": "beligerante",
+    "lv": "militante",
     "level": "B2"
   },
   {
@@ -9099,27 +9099,27 @@ const B2_WORDS = [
     "de": "Minderung",
     "de_article": "die",
     "de_plural": "die Minderungen",
-    "lv": "menguante",
+    "lv": "reducción",
     "level": "B2"
   },
   {
     "de": "minderwertig",
-    "lv": "sin valor",
+    "lv": "de inferior calidad",
     "level": "B2"
   },
   {
     "de": "missachten",
-    "lv": "indiferencia",
+    "lv": "despreciar",
     "level": "B2"
   },
   {
     "de": "missbilligen",
-    "lv": "no reconocer como bueno • ganar",
+    "lv": "desaprobar • condenar",
     "level": "B2"
   },
   {
     "de": "missbrauchen",
-    "lv": "abuso",
+    "lv": "abusar",
     "level": "B2"
   },
   {
@@ -9129,12 +9129,12 @@ const B2_WORDS = [
   },
   {
     "de": "missglücken",
-    "lv": "fallar • fallar",
+    "lv": "fracasar • salir mal",
     "level": "B2"
   },
   {
     "de": "missgönnen",
-    "lv": "no desear • sufrir",
+    "lv": "envidiar • no conceder de buen grado",
     "level": "B2"
   },
   {
@@ -9156,7 +9156,7 @@ const B2_WORDS = [
     "de": "Mittelsmann",
     "de_article": "der",
     "de_plural": "die Mittelsmänner",
-    "lv": "un mediador entre oponentes o socios",
+    "lv": "intermediario",
     "level": "B2"
   },
   {
@@ -9168,7 +9168,7 @@ const B2_WORDS = [
     "de": "Mitwisser",
     "de_article": "der",
     "de_plural": "die Mitwisser",
-    "lv": "coconspirador",
+    "lv": "cómplice conocedor del secreto",
     "level": "B2"
   },
   {
@@ -9191,7 +9191,7 @@ const B2_WORDS = [
   {
     "de": "Monatsschrift",
     "de_article": "die",
-    "lv": "mensual",
+    "lv": "revista mensual",
     "level": "B2",
     "de_plural": "die Monatsschriften"
   },
@@ -9215,7 +9215,7 @@ const B2_WORDS = [
   },
   {
     "de": "münden",
-    "lv": "fluir hacia adentro · fluir hacia adentro · salir · agotar",
+    "lv": "desembocar (en)",
     "level": "B2"
   },
   {
@@ -9231,7 +9231,7 @@ const B2_WORDS = [
   },
   {
     "de": "mutieren",
-    "lv": "hablar",
+    "lv": "mutar",
     "level": "B2"
   },
   {
@@ -9264,7 +9264,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-nachdruck",
       "layout": "standardStudy",
-      "translation": "Énfasis • Reedición",
+      "translation": "énfasis • reimpresión",
       "explanation": [
         "Idea principal: der Nachdruck puede significar un énfasis o una reimpresión de un libro.",
         "Nachdruck auf etwas legen = enfatizar algo, insistir en algo.",
@@ -9274,11 +9274,11 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Er legt Nachdruck auf die Frist.",
-          "lv": "él enfatiza la fecha límite."
+          "lv": "Él enfatiza la fecha límite."
         },
         {
           "de": "Mit Nachdruck forderte sie eine Antwort.",
-          "lv": "ella exigió una respuesta."
+          "lv": "Ella exigió una respuesta con insistencia."
         },
         {
           "de": "Der Nachdruck des Romans erschien im Frühjahr.",
@@ -9286,28 +9286,28 @@ const B2_WORDS = [
         },
         {
           "de": "Dieses Buch ist bereits im Nachdruck.",
-          "lv": "este libro ya está en reimpresión."
+          "lv": "Este libro ya está en reimpresión."
         },
         {
           "de": "Der Verlag plant einen Nachdruck.",
-          "lv": "el editor está planeando una reedición."
+          "lv": "El editor está planeando una reedición."
         }
       ],
       "comparison": [
         {
           "word": "Nachdruck legen auf",
           "meaning": "enfatizar, insistir",
-          "example": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu."
+          "example": "Er legt Nachdruck auf die Frist. = Hace hincapié en el plazo."
         },
         {
           "word": "der Nachdruck (Buch)",
           "meaning": "reedición",
-          "example": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī."
+          "example": "Der Nachdruck erschien im Frühjahr. = La reedición apareció en primavera."
         },
         {
           "word": "der Druck",
-          "meaning": "spiediens / druka",
-          "example": "Unter Druck stehen = būt spiedienā."
+          "meaning": "presión / impresión",
+          "example": "Unter Druck stehen = estar bajo presión."
         }
       ],
       "tip": [
@@ -9396,12 +9396,12 @@ const B2_WORDS = [
   },
   {
     "de": "nachgehen",
-    "lv": "seguir • descubrir",
+    "lv": "seguir • investigar",
     "level": "B2"
   },
   {
     "de": "nachgiebig",
-    "lv": "condescendiente",
+    "lv": "complaciente",
     "level": "B2"
   },
   {
@@ -9426,12 +9426,12 @@ const B2_WORDS = [
   },
   {
     "de": "nachsitzen",
-    "lv": "quedarse en la escuela después del horario laboral como castigo",
+    "lv": "quedarse en la escuela después del horario escolar como castigo",
     "level": "B2"
   },
   {
     "de": "nachträglich",
-    "lv": "más tarde • adicional • más tarde • para suplementos",
+    "lv": "posterior • adicional • posteriormente",
     "level": "B2"
   },
   {
@@ -9452,12 +9452,12 @@ const B2_WORDS = [
     "de": "Nährboden",
     "de_article": "der",
     "de_plural": "die Nährböden",
-    "lv": "medio",
+    "lv": "medio de cultivo",
     "level": "B2"
   },
   {
     "de": "namens",
-    "lv": "en el nombre • en el apellido",
+    "lv": "en nombre de",
     "level": "B2"
   },
   {
@@ -9471,7 +9471,7 @@ const B2_WORDS = [
     "de": "Narkosearzt",
     "de_article": "der",
     "de_plural": "die Narkoseärzte",
-    "lv": "medico anestesiólogo",
+    "lv": "médico anestesiólogo",
     "level": "B2"
   },
   {
@@ -9485,7 +9485,7 @@ const B2_WORDS = [
     "de": "Vollnarkose",
     "de_article": "die",
     "de_plural": "die Vollnarkosen",
-    "lv": "narcosis total",
+    "lv": "anestesia general",
     "level": "B2"
   },
   {
@@ -9498,7 +9498,7 @@ const B2_WORDS = [
     "de": "Nebelschwaden",
     "de_article": "der",
     "de_plural": "die Nebelschwaden",
-    "lv": "una franja de niebla",
+    "lv": "bancos de niebla",
     "level": "B2"
   },
   {
@@ -9512,7 +9512,7 @@ const B2_WORDS = [
     "de": "Neger",
     "de_article": "der",
     "de_plural": "die Neger",
-    "lv": "un negro",
+    "lv": "negro (término racista)",
     "level": "B2"
   },
   {
@@ -9526,7 +9526,7 @@ const B2_WORDS = [
     "de": "Nervenarzt",
     "de_article": "der",
     "de_plural": "die Nervenärzte",
-    "lv": "medico en enfermedades nerviosas",
+    "lv": "neurólogo",
     "level": "B2"
   },
   {
@@ -9539,12 +9539,12 @@ const B2_WORDS = [
     "de": "Neuauflage",
     "de_article": "die",
     "de_plural": "die Neuauflagen",
-    "lv": "re • edición revisada",
+    "lv": "nueva edición",
     "level": "B2"
   },
   {
     "de": "neuerdings",
-    "lv": "recientemente • estos días • otra vez • otra vez",
+    "lv": "últimamente",
     "level": "B2"
   },
   {
@@ -9558,14 +9558,14 @@ const B2_WORDS = [
     "de": "Neuerscheinung",
     "de_article": "die",
     "de_plural": "die Neuerscheinungen",
-    "lv": "nuevo • nueva edición",
+    "lv": "novedad • nueva edición",
     "level": "B2"
   },
   {
     "de": "Neuerung",
     "de_article": "die",
     "de_plural": "die Neuerungen",
-    "lv": "una mejora",
+    "lv": "una innovación",
     "level": "B2"
   },
   {
@@ -9579,24 +9579,24 @@ const B2_WORDS = [
     "de": "Nichtbeachtung",
     "de_article": "die",
     "de_plural": "die Nichtbeachtungen",
-    "lv": "ignorando • ignorando",
+    "lv": "desatención",
     "level": "B2"
   },
   {
     "de": "nichtig",
-    "lv": "vacío • vacío • insignificante • insignificante",
+    "lv": "nulo • inválido • insignificante",
     "level": "B2"
   },
   {
     "de": "Niedergang",
     "de_article": "der",
     "de_plural": "die Niedergänge",
-    "lv": "puesta de sol • decadencia • decadencia",
+    "lv": "declive • decadencia",
     "level": "B2"
   },
   {
     "de": "niederlegen",
-    "lv": "dejar de trabajar • dejar de trabajar • hacer huelga",
+    "lv": "depositar • dimitir • hacer huelga",
     "level": "B2"
   },
   {
@@ -9609,7 +9609,7 @@ const B2_WORDS = [
   {
     "de": "Niedertracht",
     "de_article": "die",
-    "lv": "mezquindad",
+    "lv": "bajeza",
     "level": "B2"
   },
   {
@@ -9624,7 +9624,7 @@ const B2_WORDS = [
   },
   {
     "de": "normieren",
-    "lv": "racionar",
+    "lv": "normalizar",
     "level": "B2"
   },
   {
@@ -9636,13 +9636,13 @@ const B2_WORDS = [
     "de": "Notstand",
     "de_article": "der",
     "de_plural": "die Notstände",
-    "lv": "estado catastrófico • estado de emergencia",
+    "lv": "estado de excepción • estado de emergencia",
     "level": "B2"
   },
   {
     "de": "Notwehr",
     "de_article": "die",
-    "lv": "protección necesaria",
+    "lv": "legítima defensa",
     "level": "B2"
   },
   {
@@ -9656,7 +9656,7 @@ const B2_WORDS = [
     "de": "Nutzholz",
     "de_article": "das",
     "de_plural": "die Nutzhölzer",
-    "lv": "archivos de casos",
+    "lv": "madera industrial",
     "level": "B2"
   },
   {
@@ -9675,7 +9675,7 @@ const B2_WORDS = [
   },
   {
     "de": "obgleich",
-    "lv": "aunque aunque",
+    "lv": "aunque",
     "level": "B2"
   },
   {
@@ -9718,7 +9718,7 @@ const B2_WORDS = [
     "de": "Ökobauer",
     "de_article": "der",
     "de_plural": "die Ökobauern",
-    "lv": "un agricultor que produce productos agrícolas ecológicamente limpios",
+    "lv": "agricultor ecológico",
     "level": "B2"
   },
   {
@@ -9732,7 +9732,7 @@ const B2_WORDS = [
     "de": "Ölbohrung",
     "de_article": "die",
     "de_plural": "die Ölbohrungen",
-    "lv": "pozo de petróleo",
+    "lv": "perforación petrolera",
     "level": "B2"
   },
   {
@@ -9752,14 +9752,14 @@ const B2_WORDS = [
   {
     "de": "Ölpest",
     "de_article": "die",
-    "lv": "Contaminación del agua y del petróleo en las costas.",
+    "lv": "marea negra",
     "level": "B2"
   },
   {
     "de": "Ölpflanze",
     "de_article": "die",
     "de_plural": "die Ölpflanzen",
-    "lv": "planta petrolera",
+    "lv": "planta oleaginosa",
     "level": "B2"
   },
   {
@@ -9808,7 +9808,7 @@ const B2_WORDS = [
     "de": "Organspende",
     "de_article": "die",
     "de_plural": "die Organspenden",
-    "lv": "donar un órgano para trasplante",
+    "lv": "donación de órganos",
     "level": "B2"
   },
   {
@@ -9827,7 +9827,7 @@ const B2_WORDS = [
   },
   {
     "de": "orientalisch",
-    "lv": "oriental • oriental • oriental",
+    "lv": "oriental • de Oriente",
     "level": "B2"
   },
   {
@@ -9926,7 +9926,7 @@ const B2_WORDS = [
   },
   {
     "de": "parteilich",
-    "lv": "partidos • partidistas",
+    "lv": "partidista • de partido",
     "level": "B2"
   },
   {
@@ -9966,7 +9966,7 @@ const B2_WORDS = [
     "de": "Peepshow",
     "de_article": "die",
     "de_plural": "die Peepshows",
-    "lv": "un programa erótico que se ve por separado a través de la caja",
+    "lv": "programa erótico que se ve individualmente a través de una ventanilla",
     "level": "B2"
   },
   {
@@ -9999,37 +9999,37 @@ const B2_WORDS = [
     "de": "Personalakte",
     "de_article": "die",
     "de_plural": "die Personalakten",
-    "lv": "asunto personal",
+    "lv": "expediente personal",
     "level": "B2"
   },
   {
     "de": "Pfahlbau",
     "de_article": "der",
-    "lv": "construcción de pilotes",
+    "lv": "vivienda sobre pilotes",
     "level": "B2"
   },
   {
     "de": "pfänden",
-    "lv": "describir la propiedad • prenda",
+    "lv": "embargar",
     "level": "B2"
   },
   {
     "de": "Pfandschein",
     "de_article": "der",
     "de_plural": "die Pfandscheine",
-    "lv": "signo de compromiso",
+    "lv": "resguardo de prenda",
     "level": "B2"
   },
   {
     "de": "Pflichtbesuch",
     "de_article": "der",
     "de_plural": "die Pflichtbesuche",
-    "lv": "llamada de cortesía",
+    "lv": "visita de cortesía",
     "level": "B2"
   },
   {
     "de": "pfuschen",
-    "lv": "mal • no calificado • trabajo descuidado",
+    "lv": "trabajar chapuceramente • trabajar de forma descuidada",
     "level": "B2"
   },
   {
@@ -10055,7 +10055,7 @@ const B2_WORDS = [
   },
   {
     "de": "pikiert",
-    "lv": "ofendido • ofendido • indignado",
+    "lv": "ofendido • molesto • indignado",
     "level": "B2"
   },
   {
@@ -10076,14 +10076,14 @@ const B2_WORDS = [
     "de": "Pilotsendung",
     "de_article": "die",
     "de_plural": "die Pilotsendungen",
-    "lv": "abridor de serie",
+    "lv": "programa piloto",
     "level": "B2"
   },
   {
     "de": "Pilotstudie",
     "de_article": "die",
     "de_plural": "die Pilotstudien",
-    "lv": "introducción a la serie de investigación",
+    "lv": "estudio piloto",
     "level": "B2"
   },
   {
@@ -10097,14 +10097,14 @@ const B2_WORDS = [
     "de": "Plateau",
     "de_article": "das",
     "de_plural": "die Plateaus",
-    "lv": "colina plana",
+    "lv": "meseta",
     "level": "B2"
   },
   {
     "de": "Poltergeist",
     "de_article": "der",
     "de_plural": "die Poltergeister",
-    "lv": "un duende",
+    "lv": "espíritu burlón",
     "level": "B2"
   },
   {
@@ -10122,7 +10122,7 @@ const B2_WORDS = [
     "de": "Posse",
     "de_article": "die",
     "de_plural": "die Possen",
-    "lv": "farsa • juego de broma • broma grosera",
+    "lv": "farsa • bufonada • broma grosera",
     "level": "B2"
   },
   {
@@ -10134,17 +10134,17 @@ const B2_WORDS = [
   },
   {
     "de": "postlagernd",
-    "lv": "a pedido",
+    "lv": "poste restante",
     "level": "B2"
   },
   {
     "de": "prägen",
-    "lv": "acuñar dinero • presionar • imponer • formar • hacer",
+    "lv": "acuñar monedas • imprimir • marcar • moldear • influir",
     "level": "B2"
   },
   {
     "de": "prägnant",
-    "lv": "expresado vívidamente",
+    "lv": "conciso • contundente",
     "level": "B2"
   },
   {
@@ -10154,14 +10154,14 @@ const B2_WORDS = [
   },
   {
     "de": "prämieren",
-    "lv": "premio",
+    "lv": "premiar",
     "level": "B2"
   },
   {
     "de": "Präsidium",
     "de_article": "das",
     "de_plural": "die Präsidien",
-    "lv": "Presidio",
+    "lv": "presídium",
     "level": "B2"
   },
   {
@@ -10187,7 +10187,7 @@ const B2_WORDS = [
     "de": "Pressesprecher",
     "de_article": "der",
     "de_plural": "die Pressesprecher",
-    "lv": "secretario de prensa",
+    "lv": "portavoz de prensa",
     "level": "B2"
   },
   {
@@ -10231,7 +10231,7 @@ const B2_WORDS = [
     "de": "Putsch",
     "de_article": "der",
     "de_plural": "die Putsche",
-    "lv": "golpe de estado",
+    "lv": "golpe de Estado",
     "level": "B2"
   },
   {
@@ -10243,17 +10243,17 @@ const B2_WORDS = [
     "de": "Quantität",
     "de_article": "die",
     "de_plural": "die Quantitäten",
-    "lv": "cantidad • cantidad",
+    "lv": "cantidad",
     "level": "B2"
   },
   {
     "de": "quellen",
-    "lv": "rezumar • rezumar • empapar • empapar • hincharse",
+    "lv": "brotar • rezumar • empaparse • hincharse",
     "level": "B2"
   },
   {
     "de": "querüber",
-    "lv": "opuesto",
+    "lv": "transversalmente • de lado a lado",
     "level": "B2"
   },
   {
@@ -10279,7 +10279,7 @@ const B2_WORDS = [
     "de": "Radierung",
     "de_article": "die",
     "de_plural": "die Radierungen",
-    "lv": "afilado • grabado",
+    "lv": "aguafuerte • grabado al ácido",
     "level": "B2"
   },
   {
@@ -10304,30 +10304,30 @@ const B2_WORDS = [
     "de": "Rain",
     "de_article": "der",
     "de_plural": "die Raine",
-    "lv": "erizo",
+    "lv": "linde",
     "level": "B2"
   },
   {
     "de": "ranzig",
-    "lv": "rancio • amargo para crema • grasa • mantequilla",
+    "lv": "rancio",
     "level": "B2"
   },
   {
     "de": "rau",
-    "lv": "áspero • áspero • tosco • ronco • áspero • cruel • crudo",
+    "lv": "áspero • tosco • ronco • duro • crudo",
     "level": "B2"
   },
   {
     "de": "Rauchwaren",
     "de_article": "die",
-    "lv": "pieles • productos de piel",
+    "lv": "pieles • artículos de peletería",
     "level": "B2"
   },
   {
     "de": "Raumflug",
     "de_article": "der",
     "de_plural": "die Raumflüge",
-    "lv": "vuelo espacial • vuelo espacial interplanetario",
+    "lv": "vuelo espacial",
     "level": "B2"
   },
   {
@@ -10345,7 +10345,7 @@ const B2_WORDS = [
   },
   {
     "de": "rechtlos",
-    "lv": "ilegal",
+    "lv": "sin derechos",
     "level": "B2"
   },
   {
@@ -10362,19 +10362,19 @@ const B2_WORDS = [
   },
   {
     "de": "rechtsfähig",
-    "lv": "capacidad jurídica",
+    "lv": "jurídicamente capaz",
     "level": "B2"
   },
   {
     "de": "Rechtsstaat",
     "de_article": "der",
     "de_plural": "die Rechtsstaaten",
-    "lv": "Estado de derecho país",
+    "lv": "Estado de derecho",
     "level": "B2"
   },
   {
     "de": "recken",
-    "lv": "estirar · estirar · estirar · estirar · estirar",
+    "lv": "estirar • extender",
     "level": "B2"
   },
   {
@@ -10398,7 +10398,7 @@ const B2_WORDS = [
     "de": "Referenz",
     "de_article": "die",
     "de_plural": "die Referenzen",
-    "lv": "recomendaciones",
+    "lv": "referencia",
     "level": "B2"
   },
   {
@@ -10429,14 +10429,14 @@ const B2_WORDS = [
     "de": "Regenfront",
     "de_article": "die",
     "de_plural": "die Regenfronten",
-    "lv": "banda de lluvia",
+    "lv": "frente de lluvia",
     "level": "B2"
   },
   {
     "de": "Regung",
     "de_article": "die",
     "de_plural": "die Regungen",
-    "lv": "movimiento • oleada de sensación • inclinación",
+    "lv": "movimiento • emoción • impulso",
     "level": "B2"
   },
   {
@@ -10448,21 +10448,21 @@ const B2_WORDS = [
     "de": "Reich",
     "de_article": "das",
     "de_plural": "die Reiche",
-    "lv": "imperio • país",
+    "lv": "imperio • reino",
     "level": "B2"
   },
   {
     "de": "Reifeprüfung",
     "de_article": "die",
     "de_plural": "die Reifeprüfungen",
-    "lv": "prueba de preparación",
+    "lv": "examen de madurez",
     "level": "B2"
   },
   {
     "de": "Reifezeugnis",
     "de_article": "das",
     "de_plural": "die Reifezeugnisse",
-    "lv": "certificado de preparación",
+    "lv": "certificado de madurez",
     "level": "B2"
   },
   {
@@ -10479,7 +10479,7 @@ const B2_WORDS = [
     "de": "Relief",
     "de_article": "das",
     "de_plural": "die Reliefs",
-    "lv": "terreno",
+    "lv": "relieve",
     "level": "B2"
   },
   {
@@ -10501,7 +10501,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-revanchieren",
       "layout": "minimalStudy",
-      "translation": "devolver el dinero • vengarse",
+      "translation": "devolver el favor • vengarse",
       "rektion": "bei + kam?",
       "explanation": "sich revanchieren requiere la preposición definida bei + kam?.",
       "forms": "bei + kam?",
@@ -10522,7 +10522,7 @@ const B2_WORDS = [
     "de": "Richtfest",
     "de_article": "das",
     "de_plural": "die Richtfeste",
-    "lv": "festival de la libélula",
+    "lv": "ceremonia de culminación de la estructura",
     "level": "B2"
   },
   {
@@ -10536,7 +10536,7 @@ const B2_WORDS = [
     "de": "Ringelnatter",
     "de_article": "die",
     "de_plural": "die Ringelnattern",
-    "lv": "hambriento",
+    "lv": "culebra de collar",
     "level": "B2"
   },
   {
@@ -10569,17 +10569,17 @@ const B2_WORDS = [
     "de": "Rückhalt",
     "de_article": "der",
     "de_plural": "die Rückhalte",
-    "lv": "apoyo • apoyo",
+    "lv": "apoyo • respaldo",
     "level": "B2"
   },
   {
     "de": "rücksichtslos",
-    "lv": "descuidado • grosero • despiadado",
+    "lv": "desconsiderado • despiadado",
     "level": "B2"
   },
   {
     "de": "rückständig",
-    "lv": "vencido • vencido en el pago",
+    "lv": "atrasado • moroso en los pagos",
     "level": "B2"
   },
   {
@@ -10593,7 +10593,7 @@ const B2_WORDS = [
     "de": "Rüge",
     "de_article": "die",
     "de_plural": "die Rügen",
-    "lv": "regañar • regañar",
+    "lv": "reprimenda • amonestación",
     "level": "B2"
   },
   {
@@ -10615,7 +10615,7 @@ const B2_WORDS = [
     "de": "Rüstung",
     "de_article": "die",
     "de_plural": "die Rüstungen",
-    "lv": "armamento • armamento",
+    "lv": "armadura • armamento",
     "level": "B2"
   },
   {
@@ -10629,24 +10629,24 @@ const B2_WORDS = [
     "de": "Sachkenntnis",
     "de_article": "die",
     "de_plural": "die Sachkenntnisse",
-    "lv": "competencia • competencia",
+    "lv": "competencia",
     "level": "B2"
   },
   {
     "de": "sachkundig",
-    "lv": "competente • competente",
+    "lv": "competente",
     "level": "B2"
   },
   {
     "de": "Sachlage",
     "de_article": "die",
     "de_plural": "die Sachlagen",
-    "lv": "condición • circunstancias • situación",
+    "lv": "situación",
     "level": "B2"
   },
   {
     "de": "sächlich",
-    "lv": "~es Geschlecht gram. • cualquier género",
+    "lv": "género neutro",
     "level": "B2"
   },
   {
@@ -10660,43 +10660,43 @@ const B2_WORDS = [
     "de": "Sämaschine",
     "de_article": "die",
     "de_plural": "die Sämaschinen",
-    "lv": "maquina de sembrar",
+    "lv": "máquina sembradora",
     "level": "B2"
   },
   {
     "de": "sämtlich",
-    "lv": "todos [sin excepción] • en plena vigencia",
+    "lv": "todos [sin excepción]",
     "level": "B2"
   },
   {
     "de": "Sandbank",
     "de_article": "die",
     "de_plural": "die Sandbänke",
-    "lv": "banco",
+    "lv": "banco de arena",
     "level": "B2"
   },
   {
     "de": "sanieren",
-    "lv": "reparar • ek. hacer rentable",
+    "lv": "sanear • hacer rentable",
     "level": "B2"
   },
   {
     "de": "Sanitätsstelle",
     "de_article": "die",
     "de_plural": "die Sanitätsstellen",
-    "lv": "punto medico",
+    "lv": "puesto médico",
     "level": "B2"
   },
   {
     "de": "Satellit",
     "de_article": "der",
     "de_plural": "die Satelliten",
-    "lv": "Pol. satélite • astr. compañero",
+    "lv": "satélite político • satélite astronómico",
     "level": "B2"
   },
   {
     "de": "sättigen",
-    "lv": "[bueno] alimentar • festín • química. saturar",
+    "lv": "alimentar bien • saciar • saturar (química)",
     "level": "B2"
   },
   {
@@ -10708,7 +10708,7 @@ const B2_WORDS = [
   },
   {
     "de": "sausen",
-    "lv": "susurro • silbido • silbido • silbido",
+    "lv": "susurrar • silbar • precipitarse • zumbar",
     "level": "B2"
   },
   {
@@ -10722,32 +10722,32 @@ const B2_WORDS = [
     "de": "Schadenersatz",
     "de_article": "der",
     "de_plural": null,
-    "lv": "compensación material por pérdidas",
+    "lv": "indemnización por daños y perjuicios",
     "level": "B2"
   },
   {
     "de": "schädigen",
-    "lv": "dañar • causar daño",
+    "lv": "dañar",
     "level": "B2"
   },
   {
     "de": "Schaffen",
     "de_article": "das",
-    "lv": "creatividad • creación • trabajo • actividad • creación",
+    "lv": "creación • labor creativa",
     "level": "B2"
   },
   {
     "de": "Schalldämmung",
     "de_article": "die",
     "de_plural": "die Schalldämmungen",
-    "lv": "supresión de ruido",
+    "lv": "aislamiento acústico",
     "level": "B2"
   },
   {
     "de": "Schalldämpfer",
     "de_article": "der",
     "de_plural": "die Schalldämpfer",
-    "lv": "supresor de sonido",
+    "lv": "silenciador",
     "level": "B2"
   },
   {
@@ -10759,77 +10759,77 @@ const B2_WORDS = [
   },
   {
     "de": "schalldicht",
-    "lv": "insonorizar",
+    "lv": "insonorizado",
     "level": "B2"
   },
   {
     "de": "schärfsichtig",
-    "lv": "con una mirada aguda • observador",
+    "lv": "de vista aguda • perspicaz",
     "level": "B2"
   },
   {
     "de": "schärfsinnig",
-    "lv": "ingenioso • con una mente aguda • ingenioso",
+    "lv": "perspicaz • de mente aguda",
     "level": "B2"
   },
   {
     "de": "Schattierung",
     "de_article": "die",
     "de_plural": "die Schattierungen",
-    "lv": "matiz • matiz",
+    "lv": "matiz • sombreado",
     "level": "B2"
   },
   {
     "de": "schaudern",
-    "lv": "estar horrorizado • [estremecerse]",
+    "lv": "horrorizarse • estremecerse",
     "level": "B2"
   },
   {
     "de": "Schauplatz",
     "de_article": "der",
     "de_plural": "die Schauplätze",
-    "lv": "la arena",
+    "lv": "escenario",
     "level": "B2"
   },
   {
     "de": "Schaustück",
     "de_article": "das",
     "de_plural": "die Schaustücke",
-    "lv": "anexo",
+    "lv": "pieza expuesta",
     "level": "B2"
   },
   {
     "de": "scheiden",
-    "lv": "[des]separar • separar • separar • sich sch. lassen • romper • romper",
+    "lv": "separar • divorciarse • separarse",
     "level": "B2"
   },
   {
     "de": "Scheidewand",
     "de_article": "die",
     "de_plural": "die Scheidewände",
-    "lv": "pulpa",
+    "lv": "tabique",
     "level": "B2"
   },
   {
     "de": "Scheitel",
     "de_article": "der",
     "de_plural": "die Scheitel",
-    "lv": "cabeza • remolque • camino",
+    "lv": "coronilla • raya del pelo",
     "level": "B2"
   },
   {
     "de": "scheitern",
-    "lv": "fallar • romper",
+    "lv": "fracasar • fracasar",
     "level": "B2"
   },
   {
     "de": "schelmisch",
-    "lv": "divisivo",
+    "lv": "travieso",
     "level": "B2"
   },
   {
     "de": "schelten",
-    "lv": "a bart • a bart",
+    "lv": "reprender • regañar",
     "level": "B2"
   },
   {
@@ -10839,7 +10839,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-scheren",
       "layout": "minimalStudy",
-      "translation": "ocuparse de",
+      "translation": "preocuparse por",
       "rektion": "um + ko?",
       "explanation": "sich scheren requiere una preposición definida um + ko?.",
       "forms": "um + ko?",
@@ -10867,7 +10867,7 @@ const B2_WORDS = [
     "de": "Schieber",
     "de_article": "der",
     "de_plural": "die Schieber",
-    "lv": "perno • flecha • especulador",
+    "lv": "pestillo • corredera • especulador",
     "level": "B2"
   },
   {
@@ -10880,7 +10880,7 @@ const B2_WORDS = [
     "de": "Schiffbruch",
     "de_article": "der",
     "de_plural": "die Schiffbrüche",
-    "lv": "desastre del naufragio",
+    "lv": "naufragio",
     "level": "B2"
   },
   {
@@ -10892,7 +10892,7 @@ const B2_WORDS = [
   },
   {
     "de": "schillern",
-    "lv": "iridiscente • bañarse en diferentes colores",
+    "lv": "irisarse • brillar con colores cambiantes",
     "level": "B2"
   },
   {
@@ -10904,33 +10904,33 @@ const B2_WORDS = [
   },
   {
     "de": "schlafwandeln",
-    "lv": "estar deslumbrado",
+    "lv": "caminar dormido",
     "level": "B2"
   },
   {
     "de": "Schlaganfall",
     "de_article": "der",
     "de_plural": "die Schlaganfälle",
-    "lv": "parálisis",
+    "lv": "accidente cerebrovascular",
     "level": "B2"
   },
   {
     "de": "schlagfertig",
-    "lv": "ingenioso • ingenioso",
+    "lv": "ingenioso • rápido para responder",
     "level": "B2"
   },
   {
     "de": "Schlagwort",
     "de_article": "das",
     "de_plural": "die Schlagwörter",
-    "lv": "eslogan • palabra adecuada",
+    "lv": "eslogan • palabra clave",
     "level": "B2"
   },
   {
     "de": "Schleudersitz",
     "de_article": "der",
     "de_plural": "die Schleudersitze",
-    "lv": "un asiento de catapulta de avión",
+    "lv": "asiento eyectable",
     "level": "B2"
   },
   {
@@ -10956,7 +10956,7 @@ const B2_WORDS = [
     "de": "Schmarotzer",
     "de_article": "der",
     "de_plural": "die Schmarotzer",
-    "lv": "glotón • parásito",
+    "lv": "gorrón • parásito",
     "level": "B2"
   },
   {
@@ -10968,17 +10968,17 @@ const B2_WORDS = [
     "de": "Schmerzensgeld",
     "de_article": "das",
     "de_plural": "die Schmerzensgelder",
-    "lv": "dolor dinero",
+    "lv": "indemnización por daños y perjuicios",
     "level": "B2"
   },
   {
     "de": "schmerzlich",
-    "lv": "doloroso • triste",
+    "lv": "doloroso",
     "level": "B2"
   },
   {
     "de": "schmollen",
-    "lv": "vestirse",
+    "lv": "enfurruñarse",
     "level": "B2"
   },
   {
@@ -10991,7 +10991,7 @@ const B2_WORDS = [
     "de": "Schnappschuss",
     "de_article": "der",
     "de_plural": "die Schnappschüsse",
-    "lv": "una instantánea en una foto",
+    "lv": "instantánea",
     "level": "B2"
   },
   {
@@ -11008,36 +11008,36 @@ const B2_WORDS = [
     "de": "Schöpfung",
     "de_article": "die",
     "de_plural": "die Schöpfungen",
-    "lv": "creación • creación • trabajo",
+    "lv": "creación",
     "level": "B2"
   },
   {
     "de": "schreiten",
-    "lv": "caminar • ir",
+    "lv": "caminar con paso firme",
     "level": "B2"
   },
   {
     "de": "Bittschrift",
     "de_article": "die",
     "de_plural": "die Bittschriften",
-    "lv": "una solicitud",
+    "lv": "petición formal",
     "level": "B2"
   },
   {
     "de": "schrill",
-    "lv": "agudo • agudo",
+    "lv": "estridente",
     "level": "B2"
   },
   {
     "de": "schroff",
-    "lv": "empinado • escarpado • áspero • agudo • cruel",
+    "lv": "escarpado",
     "level": "B2"
   },
   {
     "de": "Schuhfabrik",
     "de_article": "die",
     "de_plural": "die Schuhfabriken",
-    "lv": "fabrica de zapatos",
+    "lv": "fábrica de zapatos",
     "level": "B2"
   },
   {
@@ -11065,7 +11065,7 @@ const B2_WORDS = [
     "de": "Schutzimpfung",
     "de_article": "die",
     "de_plural": "die Schutzimpfungen",
-    "lv": "injerto protector",
+    "lv": "vacunación protectora",
     "level": "B2"
   },
   {
@@ -11084,12 +11084,12 @@ const B2_WORDS = [
     "de": "Schwarm",
     "de_article": "der",
     "de_plural": "die Schwärme",
-    "lv": "pasión • éxtasis",
+    "lv": "enjambre",
     "level": "B2"
   },
   {
     "de": "schwärmen",
-    "lv": "emocionarse • delirar • soñar",
+    "lv": "entusiasmarse",
     "level": "B2"
   },
   {
@@ -11103,7 +11103,7 @@ const B2_WORDS = [
     "de": "Schwarze",
     "de_article": "der",
     "de_plural": "die Schwarze",
-    "lv": "una persona con color de piel negro",
+    "lv": "persona negra",
     "level": "B2"
   },
   {
@@ -11117,7 +11117,7 @@ const B2_WORDS = [
     "de": "Schwebebahn",
     "de_article": "die",
     "de_plural": "die Schwebebahnen",
-    "lv": "suspensión [ferrocarril].",
+    "lv": "ferrocarril suspendido",
     "level": "B2"
   },
   {
@@ -11129,26 +11129,26 @@ const B2_WORDS = [
   },
   {
     "de": "schwelen",
-    "lv": "brillante",
+    "lv": "arder lentamente",
     "level": "B2"
   },
   {
     "de": "Schwerathletik",
     "de_article": "die",
     "de_plural": "die Schwerathletiken",
-    "lv": "sp. levantamiento de pesas",
+    "lv": "halterofilia",
     "level": "B2"
   },
   {
     "de": "schwerfällig",
-    "lv": "pesado • voluminoso",
+    "lv": "torpe",
     "level": "B2"
   },
   {
     "de": "Schwerpunkt",
     "de_article": "der",
     "de_plural": "die Schwerpunkte",
-    "lv": "punto de gravedad",
+    "lv": "centro de gravedad",
     "level": "B2"
   },
   {
@@ -11166,14 +11166,14 @@ const B2_WORDS = [
     "de": "Seemacht",
     "de_article": "die",
     "de_plural": "die Seemächte",
-    "lv": "mar [gran] poder",
+    "lv": "potencia naval",
     "level": "B2"
   },
   {
     "de": "Segelflieger",
     "de_article": "der",
     "de_plural": "die Segelflieger",
-    "lv": "planeador",
+    "lv": "piloto de planeador",
     "level": "B2"
   },
   {
@@ -11221,11 +11221,11 @@ const B2_WORDS = [
         },
         {
           "de": "Ich bin müde.",
-          "lv": "es esmu noguris."
+          "lv": "Estoy cansado."
         },
         {
           "de": "Das Sein bestimmt das Bewusstsein.",
-          "lv": "la existencia determina la conciencia."
+          "lv": "La existencia determina la conciencia."
         }
       ],
       "tip": [
@@ -11330,7 +11330,7 @@ const B2_WORDS = [
     "de": "Selbstgefühl",
     "de_article": "das",
     "de_plural": "die Selbstgefühle",
-    "lv": "confianza en uno mismo • autoconciencia",
+    "lv": "autoestima",
     "level": "B2"
   },
   {
@@ -11348,7 +11348,7 @@ const B2_WORDS = [
   },
   {
     "de": "selbstlos",
-    "lv": "desinteresado • desinteresado",
+    "lv": "altruista",
     "level": "B2"
   },
   {
@@ -11367,7 +11367,7 @@ const B2_WORDS = [
     "de": "Senat",
     "de_article": "der",
     "de_plural": "die Senate",
-    "lv": "senado • consejo científico",
+    "lv": "senado",
     "level": "B2"
   },
   {
@@ -11379,7 +11379,7 @@ const B2_WORDS = [
   },
   {
     "de": "sensibel",
-    "lv": "sensible • sensible",
+    "lv": "sensible",
     "level": "B2"
   },
   {
@@ -11399,12 +11399,12 @@ const B2_WORDS = [
     "de": "Seuchenherd",
     "de_article": "der",
     "de_plural": "die Seuchenherde",
-    "lv": "la fuente de la epidemia",
+    "lv": "foco epidémico",
     "level": "B2"
   },
   {
     "de": "sickern",
-    "lv": "gotear • chupar",
+    "lv": "filtrarse • gotear",
     "level": "B2"
   },
   {
@@ -11440,7 +11440,7 @@ const B2_WORDS = [
   },
   {
     "de": "sittlich",
-    "lv": "virtuoso",
+    "lv": "moral",
     "level": "B2"
   },
   {
@@ -11472,7 +11472,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Ich komme, sofern ich Zeit habe.",
-          "lv": "Vengo cuando tengo tiempo."
+          "lv": "Vengo si tengo tiempo."
         },
         {
           "de": "Sofern nichts anderes vereinbart ist, gilt der Standardpreis.",
@@ -11484,15 +11484,15 @@ const B2_WORDS = [
         },
         {
           "de": "Sofern möglich, bitte pünktlich sein.",
-          "lv": "por favor sea específico si es posible."
+          "lv": "Por favor, sea específico si es posible."
         },
         {
           "de": "Er hilft, sofern er kann.",
-          "lv": "él ayuda si puede."
+          "lv": "Él ayuda si puede."
         },
         {
           "de": "Da es regnet, bleiben wir zu Hause.",
-          "lv": "Como está lloviendo, nos quedamos en casa."
+          "lv": "Si está lloviendo, nos quedamos en casa."
         }
       ],
       "tip": [
@@ -11658,7 +11658,7 @@ const B2_WORDS = [
     "de": "Sorgenkind",
     "de_article": "das",
     "de_plural": "die Sorgenkinder",
-    "lv": "cuidado infantil",
+    "lv": "niño problemático",
     "level": "B2"
   },
   {
@@ -11671,7 +11671,7 @@ const B2_WORDS = [
     "de": "Sorgerecht",
     "de_article": "das",
     "de_plural": "die Sorgerechte",
-    "lv": "el derecho a cuidar",
+    "lv": "derecho de custodia",
     "level": "B2"
   },
   {
@@ -11689,7 +11689,7 @@ const B2_WORDS = [
     "de": "Spaltung",
     "de_article": "die",
     "de_plural": "die Spaltungen",
-    "lv": "dividir • [sa] dividir • [sa] dividir",
+    "lv": "división • escisión",
     "level": "B2"
   },
   {
@@ -11720,14 +11720,14 @@ const B2_WORDS = [
     "de": "Spielgerät",
     "de_article": "das",
     "de_plural": "die Spielgeräte",
-    "lv": "inventario de juegos deportivos",
+    "lv": "equipamiento deportivo",
     "level": "B2"
   },
   {
     "de": "Spießbürger",
     "de_article": "der",
     "de_plural": "die Spießbürger",
-    "lv": "un ciudadano residente",
+    "lv": "filisteo",
     "level": "B2"
   },
   {
@@ -11738,7 +11738,7 @@ const B2_WORDS = [
   {
     "de": "Spott",
     "de_article": "der",
-    "lv": "burla • dentición • broma perversa",
+    "lv": "burla • mofa • escarnio",
     "level": "B2"
   },
   {
@@ -11748,12 +11748,12 @@ const B2_WORDS = [
   },
   {
     "de": "spotten",
-    "lv": "simulacro • dentición",
+    "lv": "burlarse • mofarse",
     "level": "B2"
   },
   {
     "de": "spöttisch",
-    "lv": "burlón • con dientes",
+    "lv": "burlón • sarcástico",
     "level": "B2"
   },
   {
@@ -11765,7 +11765,7 @@ const B2_WORDS = [
   },
   {
     "de": "sprengen",
-    "lv": "[on]explosión • rociar • agua",
+    "lv": "hacer explotar • rociar • regar",
     "level": "B2"
   },
   {
@@ -11779,7 +11779,7 @@ const B2_WORDS = [
     "de": "Spross",
     "de_article": "der",
     "de_plural": "die Sprosse",
-    "lv": "bot. vástago • disparar • trans. progenie • descendencia",
+    "lv": "brote • vástago • descendencia",
     "level": "B2"
   },
   {
@@ -11819,7 +11819,7 @@ const B2_WORDS = [
     "de": "Staatsbesuch",
     "de_article": "der",
     "de_plural": "die Staatsbesuche",
-    "lv": "visita de estado",
+    "lv": "visita de Estado",
     "level": "B2"
   },
   {
@@ -11847,7 +11847,7 @@ const B2_WORDS = [
     "de": "Staatsstreich",
     "de_article": "der",
     "de_plural": "die Staatsstreiche",
-    "lv": "golpe de estado",
+    "lv": "golpe de Estado",
     "level": "B2"
   },
   {
@@ -11859,7 +11859,7 @@ const B2_WORDS = [
     "de": "Stahlwerk",
     "de_article": "das",
     "de_plural": "die Stahlwerke",
-    "lv": "fundición de acero",
+    "lv": "acería",
     "level": "B2"
   },
   {
@@ -11869,7 +11869,7 @@ const B2_WORDS = [
   },
   {
     "de": "starren",
-    "lv": "mirar de cerca • deslumbrar",
+    "lv": "mirar fijamente • quedarse mirando",
     "level": "B2"
   },
   {
@@ -11900,7 +11900,7 @@ const B2_WORDS = [
     "de": "Steckbrief",
     "de_article": "der",
     "de_plural": "die Steckbriefe",
-    "lv": "descripción de la persona buscada en la policía",
+    "lv": "descripción de la persona buscada por la policía",
     "level": "B2"
   },
   {
@@ -11918,14 +11918,14 @@ const B2_WORDS = [
     "de": "Steuererhöhung",
     "de_article": "die",
     "de_plural": "die Steuererhöhungen",
-    "lv": "aumentar los impuestos",
+    "lv": "aumento de impuestos",
     "level": "B2"
   },
   {
     "de": "Steuersenkung",
     "de_article": "die",
     "de_plural": "die Steuersenkungen",
-    "lv": "bajando impuestos",
+    "lv": "reducción de impuestos",
     "level": "B2"
   },
   {
@@ -11938,12 +11938,12 @@ const B2_WORDS = [
     "de": "Strafanzeige",
     "de_article": "die",
     "de_plural": "die Strafanzeigen",
-    "lv": "iniciar un caso penal contra alguien",
+    "lv": "presentar una denuncia penal contra alguien",
     "level": "B2"
   },
   {
     "de": "stranden",
-    "lv": "encallar • tener un accidente",
+    "lv": "encallar • quedar varado",
     "level": "B2"
   },
   {
@@ -11984,7 +11984,7 @@ const B2_WORDS = [
   {
     "de": "Striptease",
     "de_article": "der",
-    "lv": "estriptís",
+    "lv": "estriptis",
     "level": "B2"
   },
   {
@@ -12038,14 +12038,14 @@ const B2_WORDS = [
     "de": "Tagebau",
     "de_article": "der",
     "de_plural": "die Tagebaue",
-    "lv": "minería abierta de minerales",
+    "lv": "minería a cielo abierto",
     "level": "B2"
   },
   {
     "de": "Tagegeld",
     "de_article": "das",
     "de_plural": "die Tagegelder",
-    "lv": "viaje de negocios viáticos",
+    "lv": "viáticos de viaje de negocios",
     "level": "B2"
   },
   {
@@ -12064,7 +12064,7 @@ const B2_WORDS = [
   },
   {
     "de": "tagen",
-    "lv": "celebrar una sesión • sentada",
+    "lv": "celebrar una sesión • reunirse en sesión",
     "level": "B2"
   },
   {
@@ -12100,7 +12100,7 @@ const B2_WORDS = [
   },
   {
     "de": "texten",
-    "lv": "escribir la letra de una canción o comercial",
+    "lv": "escribir la letra de una canción o el texto de un anuncio",
     "level": "B2"
   },
   {
@@ -12113,7 +12113,7 @@ const B2_WORDS = [
   {
     "de": "Tiefsinn",
     "de_article": "der",
-    "lv": "consideración",
+    "lv": "profundidad de pensamiento",
     "level": "B2"
   },
   {
@@ -12124,7 +12124,7 @@ const B2_WORDS = [
   },
   {
     "de": "tönen",
-    "lv": "sonar • tonificar • dar una sombra",
+    "lv": "sonar • teñir • dar un matiz",
     "level": "B2"
   },
   {
@@ -12138,7 +12138,7 @@ const B2_WORDS = [
     "de": "Tor",
     "de_article": "der",
     "de_plural": "die Toren",
-    "lv": "tonto • nelga",
+    "lv": "tonto • necio",
     "level": "B2"
   },
   {
@@ -12157,19 +12157,19 @@ const B2_WORDS = [
   },
   {
     "de": "totschießen",
-    "lv": "disparar",
+    "lv": "matar a tiros",
     "level": "B2"
   },
   {
     "de": "totschlagen",
-    "lv": "rebajar",
+    "lv": "matar a golpes",
     "level": "B2"
   },
   {
     "de": "Trabant",
     "de_article": "der",
     "de_plural": "die Trabanten",
-    "lv": "astro. compañero",
+    "lv": "satélite astronómico",
     "level": "B2"
   },
   {
@@ -12183,7 +12183,7 @@ const B2_WORDS = [
     "de": "Trägerrakete",
     "de_article": "die",
     "de_plural": "die Trägerraketen",
-    "lv": "lanzacohetes",
+    "lv": "cohete portador",
     "level": "B2"
   },
   {
@@ -12209,7 +12209,7 @@ const B2_WORDS = [
   },
   {
     "de": "treffend",
-    "lv": "apto • significativo",
+    "lv": "acertado • significativo",
     "level": "B2"
   },
   {
@@ -12221,12 +12221,12 @@ const B2_WORDS = [
   },
   {
     "de": "treuherzig",
-    "lv": "abundante • abundante",
+    "lv": "ingenuo • sincero",
     "level": "B2"
   },
   {
     "de": "treulos",
-    "lv": "poco confiable • no digno de confianza",
+    "lv": "desleal • infiel",
     "level": "B2"
   },
   {
@@ -12265,7 +12265,7 @@ const B2_WORDS = [
   },
   {
     "de": "trügen",
-    "lv": "truco • engañar",
+    "lv": "engañar • ser engañoso",
     "level": "B2"
   },
   {
@@ -12284,7 +12284,7 @@ const B2_WORDS = [
     "de": "Tusch",
     "de_article": "der",
     "de_plural": "die Tusche",
-    "lv": "trompeteo",
+    "lv": "fanfarria",
     "level": "B2"
   },
   {
@@ -12317,12 +12317,12 @@ const B2_WORDS = [
   },
   {
     "de": "überfordern",
-    "lv": "hacer demandas excesivas",
+    "lv": "exigir demasiado",
     "level": "B2"
   },
   {
     "de": "überführen",
-    "lv": "cruzar • cruzar el río",
+    "lv": "transportar al otro lado • cruzar el río",
     "level": "B2"
   },
   {
@@ -12332,7 +12332,7 @@ const B2_WORDS = [
   },
   {
     "de": "überhören",
-    "lv": "no [escuchar] por descuido • pretender no escuchar",
+    "lv": "no oír por descuido • fingir no oír",
     "level": "B2"
   },
   {
@@ -12393,7 +12393,7 @@ const B2_WORDS = [
   },
   {
     "de": "übertragen",
-    "lv": "transmitir • transmitir enfermedades contagiosas • transmitir por radio • [re]traducir",
+    "lv": "transferir • transmitir enfermedades contagiosas • transmitir por radio • traducir",
     "level": "B2"
   },
   {
@@ -12408,7 +12408,7 @@ const B2_WORDS = [
   },
   {
     "de": "ultimativ",
-    "lv": "último",
+    "lv": "definitivo • tajante",
     "level": "B2"
   },
   {
@@ -12419,7 +12419,7 @@ const B2_WORDS = [
   },
   {
     "de": "umarbeiten",
-    "lv": "reciclar • rehacer",
+    "lv": "reelaborar • rehacer",
     "level": "B2"
   },
   {
@@ -12436,14 +12436,14 @@ const B2_WORDS = [
   },
   {
     "de": "umfassen",
-    "lv": "abarcar • abrazar • abrazar",
+    "lv": "abarcar • comprender • abrazar",
     "level": "B2"
   },
   {
     "de": "Umfeld",
     "de_article": "das",
     "de_plural": "die Umfelder",
-    "lv": "medio ambiente social • político",
+    "lv": "entorno social • político",
     "level": "B2"
   },
   {
@@ -12453,7 +12453,7 @@ const B2_WORDS = [
   },
   {
     "de": "umhören, sich",
-    "lv": "escuchar",
+    "lv": "preguntar por ahí",
     "level": "B2"
   },
   {
@@ -12465,14 +12465,14 @@ const B2_WORDS = [
   },
   {
     "de": "umkreisen",
-    "lv": "rodear • asediar • flotar • lanzar • rodear",
+    "lv": "rodear • orbitar",
     "level": "B2"
   },
   {
     "de": "Umlauf",
     "de_article": "der",
     "de_plural": "die Umläufe",
-    "lv": "dando vueltas • circulación",
+    "lv": "circulación",
     "level": "B2"
   },
   {
@@ -12491,7 +12491,7 @@ const B2_WORDS = [
   },
   {
     "de": "umschließen",
-    "lv": "encender • abarcar • abarcar",
+    "lv": "rodear • abarcar",
     "level": "B2"
   },
   {
@@ -12501,14 +12501,14 @@ const B2_WORDS = [
   },
   {
     "de": "umschulen",
-    "lv": "enseñar a las personas con un trabajo otro trabajo • volver a capacitarse",
+    "lv": "reciclarse profesionalmente • formar para otra profesión",
     "level": "B2"
   },
   {
     "de": "Umschwung",
     "de_article": "der",
     "de_plural": "die Umschwünge",
-    "lv": "inversión • ruptura • cambio repentino • inversión • giro",
+    "lv": "cambio radical • giro",
     "level": "B2"
   },
   {
@@ -12519,19 +12519,19 @@ const B2_WORDS = [
   },
   {
     "de": "umsiedeln",
-    "lv": "ser trasladado por la fuerza a otro lugar de residencia",
+    "lv": "reasentar • trasladar a otro lugar",
     "level": "B2"
   },
   {
     "de": "umständlich",
-    "lv": "muy detallado • demasiado amplio • oneroso • complicado",
+    "lv": "complicado • engorroso • prolijo",
     "level": "B2"
   },
   {
     "de": "Umsturz",
     "de_article": "der",
     "de_plural": "die Umstürze",
-    "lv": "golpe de estado",
+    "lv": "golpe de Estado",
     "level": "B2"
   },
   {
@@ -12566,7 +12566,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbebaut",
-    "lv": "sin cultivar para terreno • sin construir",
+    "lv": "sin cultivar • sin construir",
     "level": "B2"
   },
   {
@@ -12576,7 +12576,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbegreiflich",
-    "lv": "insondable • incomprensible",
+    "lv": "incomprensible • inconcebible",
     "level": "B2"
   },
   {
@@ -12586,7 +12586,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbehaglich",
-    "lv": "inquieto",
+    "lv": "incómodo",
     "level": "B2"
   },
   {
@@ -12616,22 +12616,22 @@ const B2_WORDS = [
   },
   {
     "de": "unbewusst",
-    "lv": "inconsciente • instintivo • inadvertido • no intencional",
+    "lv": "inconsciente • instintivo • inadvertido • involuntario",
     "level": "B2"
   },
   {
     "de": "undenkbar",
-    "lv": "no imaginable",
+    "lv": "inimaginable",
     "level": "B2"
   },
   {
     "de": "unentbehrlich",
-    "lv": "necesario",
+    "lv": "indispensable",
     "level": "B2"
   },
   {
     "de": "unentgeltlich",
-    "lv": "sin compensación • gratis • gratis",
+    "lv": "gratuito • sin remuneración",
     "level": "B2"
   },
   {
@@ -12648,7 +12648,7 @@ const B2_WORDS = [
     "de": "Unfug",
     "de_article": "der",
     "de_plural": "die Unfuge",
-    "lv": "fechoría • ausencia • acto lascivo",
+    "lv": "tontería • travesura • conducta indebida",
     "level": "B2"
   },
   {
@@ -12693,7 +12693,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterbreiten",
-    "lv": "explicar • presentar",
+    "lv": "proponer • presentar",
     "level": "B2"
   },
   {
@@ -12710,7 +12710,7 @@ const B2_WORDS = [
     "de": "Untergang",
     "de_article": "der",
     "de_plural": "die Untergänge",
-    "lv": "decadencia • decadencia • desaparición • colapso",
+    "lv": "ocaso • decadencia • desaparición • colapso",
     "level": "B2"
   },
   {
@@ -12723,7 +12723,7 @@ const B2_WORDS = [
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "suministro • suministro • suministro",
+    "lv": "manutención • sustento",
     "level": "B2"
   },
   {
@@ -12740,7 +12740,7 @@ const B2_WORDS = [
     "de": "Unterlage",
     "de_article": "die",
     "de_plural": "die Unterlagen",
-    "lv": "permanente • tapete • almohadilla • soporte • datos • documentación",
+    "lv": "base • alfombrilla • almohadilla • soporte • documentos",
     "level": "B2"
   },
   {
@@ -12750,7 +12750,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterordnen",
-    "lv": "subordinado • sujeto",
+    "lv": "subordinar • someter",
     "level": "B2"
   },
   {
@@ -12769,27 +12769,27 @@ const B2_WORDS = [
     "de": "Untertan",
     "de_article": "der",
     "de_plural": "die Untertanen",
-    "lv": "ciudadano",
+    "lv": "súbdito",
     "level": "B2"
   },
   {
     "de": "untertauchen",
-    "lv": "bucear • sumergirse bajo el agua • sumergirse • sumergirse",
+    "lv": "sumergirse • esconderse",
     "level": "B2"
   },
   {
     "de": "unterweisen",
-    "lv": "mostrar • instruir",
+    "lv": "instruir • enseñar",
     "level": "B2"
   },
   {
     "de": "unterwerfen",
-    "lv": "sujeto a",
+    "lv": "someter",
     "level": "B2"
   },
   {
     "de": "sich unterwerfen",
-    "lv": "obedecer",
+    "lv": "someterse",
     "level": "B2"
   },
   {
@@ -12799,12 +12799,12 @@ const B2_WORDS = [
   },
   {
     "de": "unüberlegt",
-    "lv": "imprudente • imprudente",
+    "lv": "irreflexivo • imprudente",
     "level": "B2"
   },
   {
     "de": "unvermeidlich",
-    "lv": "inminente • inevitable",
+    "lv": "inevitable",
     "level": "B2"
   },
   {
@@ -12819,7 +12819,7 @@ const B2_WORDS = [
   },
   {
     "de": "unwillkürlich",
-    "lv": "involuntario • involuntario • involuntario",
+    "lv": "involuntario • inconsciente",
     "level": "B2"
   },
   {
@@ -12841,7 +12841,7 @@ const B2_WORDS = [
     "de": "Urheber",
     "de_article": "der",
     "de_plural": "die Urheber",
-    "lv": "iniciador • iniciador • autor",
+    "lv": "creador • iniciador • autor",
     "level": "B2"
   },
   {
@@ -12855,14 +12855,14 @@ const B2_WORDS = [
     "de": "Urkunde",
     "de_article": "die",
     "de_plural": "die Urkunden",
-    "lv": "documento • artículo",
+    "lv": "documento • certificado",
     "level": "B2"
   },
   {
     "de": "Ursprung",
     "de_article": "der",
     "de_plural": "die Ursprünge",
-    "lv": "origen • origen • [pre]comienzo",
+    "lv": "origen • procedencia • comienzo",
     "level": "B2"
   },
   {
@@ -12882,7 +12882,7 @@ const B2_WORDS = [
   },
   {
     "de": "verachten",
-    "lv": "despreciar • despreciar",
+    "lv": "despreciar • menospreciar",
     "level": "B2"
   },
   {
@@ -12904,7 +12904,7 @@ const B2_WORDS = [
   },
   {
     "de": "verbittert",
-    "lv": "decepcionado",
+    "lv": "amargado",
     "level": "B2"
   },
   {
@@ -12928,22 +12928,22 @@ const B2_WORDS = [
     "de": "Verdruss",
     "de_article": "der",
     "de_plural": "die Verdrusse",
-    "lv": "desagrado • decepción • molestia",
+    "lv": "desagrado • fastidio • molestia",
     "level": "B2"
   },
   {
     "de": "verdünnen",
-    "lv": "diluir • quím. diluir • debilitar",
+    "lv": "adelgazar • diluir • debilitar",
     "level": "B2"
   },
   {
     "de": "verehren",
-    "lv": "honor • respeto • comp. [para] regalar",
+    "lv": "honrar • venerar • regalar",
     "level": "B2"
   },
   {
     "de": "vereinigen",
-    "lv": "combinar • conectar",
+    "lv": "unir • fusionar",
     "level": "B2"
   },
   {
@@ -12979,33 +12979,33 @@ const B2_WORDS = [
   },
   {
     "de": "vererben",
-    "lv": "dejar • heredar",
+    "lv": "legar • transmitir por herencia",
     "level": "B2"
   },
   {
     "de": "Verfahren",
     "de_article": "das",
     "de_plural": "die Verfahren",
-    "lv": "comportamiento • comportamiento • técnica • método • jur. proceso • caso",
+    "lv": "comportamiento • procedimiento • método • proceso judicial",
     "level": "B2"
   },
   {
     "de": "Verfall",
     "de_article": "der",
     "de_plural": "die Verfälle",
-    "lv": "colapso • decadencia • decadencia",
+    "lv": "colapso • decadencia • deterioro",
     "level": "B2"
   },
   {
     "de": "verfallen",
-    "lv": "colapsar · colapsar · declinar · hundirse",
+    "lv": "derrumbarse • decaer • caducar • hundirse",
     "level": "B2"
   },
   {
     "de": "Verfasser",
     "de_article": "der",
     "de_plural": "die Verfasser",
-    "lv": "compositor • autor",
+    "lv": "redactor • autor",
     "level": "B2"
   },
   {
@@ -13022,66 +13022,66 @@ const B2_WORDS = [
   },
   {
     "de": "verführen",
-    "lv": "seducir • seducir",
+    "lv": "seducir • tentar",
     "level": "B2"
   },
   {
     "de": "vergeblich",
-    "lv": "vano • vano",
+    "lv": "en vano • inútil",
     "level": "B2"
   },
   {
     "de": "Vergehen",
     "de_article": "das",
     "de_plural": "die Vergehen",
-    "lv": "violación",
+    "lv": "infracción",
     "level": "B2"
   },
   {
     "de": "vergeuden",
-    "lv": "desperdiciar • desperdiciar",
+    "lv": "desperdiciar • derrochar",
     "level": "B2"
   },
   {
     "de": "vergiften",
-    "lv": "envenenar • envenenar",
+    "lv": "envenenar • intoxicar",
     "level": "B2"
   },
   {
     "de": "verhandeln",
-    "lv": "discutir • negociar",
+    "lv": "negociar",
     "level": "B2"
   },
   {
     "de": "verhasst",
-    "lv": "odiado • invisible",
+    "lv": "odiado",
     "level": "B2"
   },
   {
     "de": "verheeren",
-    "lv": "arruinar",
+    "lv": "devastar",
     "level": "B2"
   },
   {
     "de": "verhöhnen",
-    "lv": "simulacro • abolladura",
+    "lv": "burlarse de • ridiculizar",
     "level": "B2"
   },
   {
     "de": "Verhör",
     "de_article": "das",
     "de_plural": "die Verhöre",
-    "lv": "[de] interrogatorio",
+    "lv": "interrogatorio",
     "level": "B2"
   },
   {
     "de": "verhören",
-    "lv": "[de] cuestionamiento",
+    "lv": "interrogar",
     "level": "B2"
   },
   {
     "de": "sich verhören",
-    "lv": "escucha de nuevo",
+    "lv": "oír mal",
     "level": "B2"
   },
   {
@@ -13093,7 +13093,7 @@ const B2_WORDS = [
     "de": "Verlauf",
     "de_article": "der",
     "de_plural": "die Verläufe",
-    "lv": "progreso • progreso",
+    "lv": "curso • desarrollo",
     "level": "B2"
   },
   {
@@ -13114,21 +13114,21 @@ const B2_WORDS = [
     "de": "Vermächtnis",
     "de_article": "das",
     "de_plural": "die Vermächtnisse",
-    "lv": "testamento",
+    "lv": "legado",
     "level": "B2"
   },
   {
     "de": "Vermerk",
     "de_article": "der",
     "de_plural": "die Vermerke",
-    "lv": "nota • marca",
+    "lv": "nota • anotación",
     "level": "B2"
   },
   {
     "de": "Vermögen",
     "de_article": "das",
     "de_plural": "die Vermögen",
-    "lv": "propiedad",
+    "lv": "patrimonio",
     "level": "B2"
   },
   {
@@ -13155,14 +13155,14 @@ const B2_WORDS = [
     "de": "Vers",
     "de_article": "der",
     "de_plural": "die Verse",
-    "lv": "artículo",
+    "lv": "verso",
     "level": "B2"
   },
   {
     "de": "Versager",
     "de_article": "der",
     "de_plural": "die Versager",
-    "lv": "perdedor • perdedor",
+    "lv": "fracasado • perdedor",
     "level": "B2"
   },
   {
@@ -13176,47 +13176,47 @@ const B2_WORDS = [
     "de": "Versehen",
     "de_article": "das",
     "de_plural": "die Versehen",
-    "lv": "error • revisión",
+    "lv": "error • descuido",
     "level": "B2"
   },
   {
     "de": "verkommen",
-    "lv": "declinar • hundirse • extraviarse",
+    "lv": "declinar • hundirse • descarriarse",
     "level": "B2"
   },
   {
     "de": "verkörpern",
-    "lv": "encarnando",
+    "lv": "encarnar",
     "level": "B2"
   },
   {
     "de": "verkraften",
-    "lv": "mantener la fuerza moral para superar algo desagradable",
+    "lv": "sobrellevar",
     "level": "B2"
   },
   {
     "de": "verkümmern",
-    "lv": "declinar",
+    "lv": "marchitarse",
     "level": "B2"
   },
   {
     "de": "verkünden",
-    "lv": "anunciar • anunciar",
+    "lv": "anunciar • proclamar",
     "level": "B2"
   },
   {
     "de": "verleumden",
-    "lv": "calumnia • difamar",
+    "lv": "calumniar • difamar",
     "level": "B2"
   },
   {
     "de": "vermehren",
-    "lv": "multiplicar • multiplicar",
+    "lv": "aumentar • multiplicar",
     "level": "B2"
   },
   {
     "de": "sich vermehren",
-    "lv": "multiplicando",
+    "lv": "multiplicarse",
     "level": "B2"
   },
   {
@@ -13226,17 +13226,17 @@ const B2_WORDS = [
   },
   {
     "de": "vermindern",
-    "lv": "[para] reducir",
+    "lv": "reducir",
     "level": "B2"
   },
   {
     "de": "vermitteln",
-    "lv": "mediar • procurar • promover",
+    "lv": "mediar • procurar • transmitir",
     "level": "B2"
   },
   {
     "de": "vermögend",
-    "lv": "rico • alimentado",
+    "lv": "rico • acomodado",
     "level": "B2"
   },
   {
@@ -13251,12 +13251,12 @@ const B2_WORDS = [
   },
   {
     "de": "verordnen",
-    "lv": "determinar • ordenar • med. firmar",
+    "lv": "ordenar • prescribir • recetar",
     "level": "B2"
   },
   {
     "de": "verpfänden",
-    "lv": "promesa",
+    "lv": "empeñar",
     "level": "B2"
   },
   {
@@ -13271,7 +13271,7 @@ const B2_WORDS = [
   },
   {
     "de": "versagen",
-    "lv": "negar • negarse • rechazar • desobedecer • negarse a servir • parecer cobarde e impotente",
+    "lv": "fallar • negarse • rechazar • no funcionar • negarse a servir • mostrarse cobarde e incapaz",
     "level": "B2"
   },
   {
@@ -13281,7 +13281,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-versehen",
       "layout": "minimalStudy",
-      "translation": "olvidar • equipar con",
+      "translation": "equivocarse • equiparse con",
       "rektion": "mit + kam?",
       "explanation": "sich verschein requiere la preposición definida mit + kam?.",
       "forms": "mit + kam?",
@@ -13300,7 +13300,7 @@ const B2_WORDS = [
   },
   {
     "de": "versetzen",
-    "lv": "mover • mover",
+    "lv": "mover • trasladar",
     "level": "B2"
   },
   {
@@ -13330,7 +13330,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-versoehnen",
       "layout": "minimalStudy",
-      "translation": "soportar",
+      "translation": "reconciliarse",
       "rektion": "mit + kam?",
       "explanation": "sich versöhnen requiere la preposición definida mit + kam?.",
       "forms": "mit + kam?",
@@ -13349,12 +13349,12 @@ const B2_WORDS = [
   },
   {
     "de": "verspielen",
-    "lv": "jugar • perder",
+    "lv": "jugarse • perder",
     "level": "B2"
   },
   {
     "de": "verspotten",
-    "lv": "mella • ridículo",
+    "lv": "burlarse de • ridiculizar",
     "level": "B2"
   },
   {
@@ -13364,7 +13364,7 @@ const B2_WORDS = [
   },
   {
     "de": "verstauchen",
-    "lv": "dislocar",
+    "lv": "torcer",
     "level": "B2"
   },
   {
@@ -13379,7 +13379,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-verstellen",
       "layout": "minimalStudy",
-      "translation": "personificar",
+      "translation": "fingir",
       "rektion": "als + ko?",
       "explanation": "sich verstellen requiere la preposición definida als + ko?.",
       "forms": "als + ko?",
@@ -13412,7 +13412,7 @@ const B2_WORDS = [
   },
   {
     "de": "vertagen",
-    "lv": "posponer • dejar",
+    "lv": "posponer • aplazar",
     "level": "B2"
   },
   {
@@ -13424,7 +13424,7 @@ const B2_WORDS = [
     "de": "Vertretung",
     "de_article": "die",
     "de_plural": "die Vertretungen",
-    "lv": "sustitución • sustitución • representación • representando",
+    "lv": "sustitución • representación",
     "level": "B2"
   },
   {
@@ -13444,7 +13444,7 @@ const B2_WORDS = [
   },
   {
     "de": "verweilen",
-    "lv": "andar",
+    "lv": "permanecer",
     "level": "B2"
   },
   {
@@ -13463,7 +13463,7 @@ const B2_WORDS = [
   },
   {
     "de": "verwickeln",
-    "lv": "confundir • adj. entrelazar • interferir",
+    "lv": "enredar • implicar",
     "level": "B2"
   },
   {
@@ -13475,12 +13475,12 @@ const B2_WORDS = [
     "de": "Verwirrung",
     "de_article": "die",
     "de_plural": "die Verwirrungen",
-    "lv": "confusión • vergüenza",
+    "lv": "confusión • desconcierto",
     "level": "B2"
   },
   {
     "de": "verwöhnen",
-    "lv": "estropear • estropear",
+    "lv": "mimar • consentir",
     "level": "B2"
   },
   {
@@ -13495,7 +13495,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-verwundern",
       "layout": "minimalStudy",
-      "translation": "pensar en",
+      "translation": "sorprenderse",
       "rektion": "über + ¿qué?",
       "explanation": "sich verwundern requiere la preposición definida über + ko?.",
       "forms": "über + ¿qué?",
@@ -13533,17 +13533,17 @@ const B2_WORDS = [
   },
   {
     "de": "sich verzögern",
-    "lv": "retrasar • procrastinar",
+    "lv": "retrasarse • demorarse",
     "level": "B2"
   },
   {
     "de": "verzollen",
-    "lv": "pasar la aduana",
+    "lv": "declarar en aduana",
     "level": "B2"
   },
   {
     "de": "verzweifeln",
-    "lv": "salido",
+    "lv": "desesperarse",
     "level": "B2"
   },
   {
@@ -13600,19 +13600,19 @@ const B2_WORDS = [
   },
   {
     "de": "vollkommen",
-    "lv": "completo • completamente • en conjunto",
+    "lv": "completo • completamente • por completo",
     "level": "B2"
   },
   {
     "de": "Vollmacht",
     "de_article": "die",
     "de_plural": "die Vollmachten",
-    "lv": "Poder legal",
+    "lv": "poder legal",
     "level": "B2"
   },
   {
     "de": "vollzählig",
-    "lv": "existente en su totalidad",
+    "lv": "completo • en número completo",
     "level": "B2"
   },
   {
@@ -13653,7 +13653,7 @@ const B2_WORDS = [
     "de": "Vorbehalt",
     "de_article": "der",
     "de_plural": "die Vorbehalte",
-    "lv": "condición",
+    "lv": "reserva • salvedad",
     "level": "B2"
   },
   {
@@ -13663,7 +13663,7 @@ const B2_WORDS = [
   },
   {
     "de": "vorbeugen",
-    "lv": "para prevenir",
+    "lv": "prevenir",
     "level": "B2"
   },
   {
@@ -13675,7 +13675,7 @@ const B2_WORDS = [
   },
   {
     "de": "vorder",
-    "lv": "frente",
+    "lv": "delantero",
     "level": "B2"
   },
   {
@@ -13706,14 +13706,14 @@ const B2_WORDS = [
     "de": "Vorkehrung",
     "de_article": "die",
     "de_plural": "die Vorkehrungen",
-    "lv": "medidas de proteccion",
+    "lv": "medidas de protección",
     "level": "B2"
   },
   {
     "de": "Vorliebe",
     "de_article": "die",
     "de_plural": "die Vorlieben",
-    "lv": "Me gustó especialmente",
+    "lv": "preferencia",
     "level": "B2"
   },
   {
@@ -13723,7 +13723,7 @@ const B2_WORDS = [
   },
   {
     "de": "vornherein",
-    "lv": "al principio",
+    "lv": "de antemano",
     "level": "B2"
   },
   {
@@ -13742,7 +13742,7 @@ const B2_WORDS = [
     "de": "Vorspiel",
     "de_article": "das",
     "de_plural": "die Vorspiele",
-    "lv": "prólogo • preludio • obertura",
+    "lv": "preludio • obertura • juegos preliminares",
     "level": "B2"
   },
   {
@@ -13756,7 +13756,7 @@ const B2_WORDS = [
     "de": "Vorstand",
     "de_article": "der",
     "de_plural": "die Vorstände",
-    "lv": "junta directiva • jefe • dirección • jefe",
+    "lv": "junta directiva • dirección • órgano directivo",
     "level": "B2"
   },
   {
@@ -13768,12 +13768,12 @@ const B2_WORDS = [
   },
   {
     "de": "vortragen",
-    "lv": "conferencia • realizar • recitar • jugar",
+    "lv": "dar una conferencia • presentar • recitar • interpretar",
     "level": "B2"
   },
   {
     "de": "vortrefflich",
-    "lv": "excelente • excelente",
+    "lv": "excelente • magnífico",
     "level": "B2"
   },
   {
@@ -13794,7 +13794,7 @@ const B2_WORDS = [
     "de": "Vorwand",
     "de_article": "der",
     "de_plural": "die Vorwände",
-    "lv": "pretexto • pretexto",
+    "lv": "pretexto • excusa",
     "level": "B2"
   },
   {
@@ -13813,19 +13813,19 @@ const B2_WORDS = [
   },
   {
     "de": "vorzeitig",
-    "lv": "prematuro • prematuro",
+    "lv": "prematuro • anticipado",
     "level": "B2"
   },
   {
     "de": "vorzüglich",
-    "lv": "excelente • excelente",
+    "lv": "excelente • espléndido",
     "level": "B2"
   },
   {
     "de": "Wacholder",
     "de_article": "der",
     "de_plural": "die Wacholder",
-    "lv": "abeto • enebro",
+    "lv": "enebro",
     "level": "B2"
   },
   {
@@ -13839,7 +13839,7 @@ const B2_WORDS = [
     "de": "Wade",
     "de_article": "die",
     "de_plural": "die Waden",
-    "lv": "hueva",
+    "lv": "pantorrilla",
     "level": "B2"
   },
   {
@@ -13853,14 +13853,14 @@ const B2_WORDS = [
     "de": "Wahlfach",
     "de_article": "das",
     "de_plural": "die Wahlfächer",
-    "lv": "Materia optativa en la escuela o universidad.",
+    "lv": "asignatura optativa en la escuela o la universidad",
     "level": "B2"
   },
   {
     "de": "Wahlkampf",
     "de_article": "der",
     "de_plural": "die Wahlkämpfe",
-    "lv": "batalla electoral",
+    "lv": "campaña electoral",
     "level": "B2"
   },
   {
@@ -13874,12 +13874,12 @@ const B2_WORDS = [
     "de": "Wählscheibe",
     "de_article": "die",
     "de_plural": "die Wählscheiben",
-    "lv": "teclado de marcación del teléfono",
+    "lv": "disco de marcación telefónica",
     "level": "B2"
   },
   {
     "de": "wahren",
-    "lv": "ahorrar",
+    "lv": "conservar",
     "level": "B2"
   },
   {
@@ -13898,7 +13898,7 @@ const B2_WORDS = [
     "de": "Wall",
     "de_article": "der",
     "de_plural": "die Wälle",
-    "lv": "terraplén • terraplén",
+    "lv": "muro • terraplén",
     "level": "B2"
   },
   {
@@ -13908,14 +13908,14 @@ const B2_WORDS = [
   },
   {
     "de": "wanken",
-    "lv": "asar a la parrilla • adj. fluctuar",
+    "lv": "tambalearse • fluctuar",
     "level": "B2"
   },
   {
     "de": "Warenausgabe",
     "de_article": "die",
     "de_plural": "die Warenausgaben",
-    "lv": "control de compras y emisión",
+    "lv": "entrega de mercancías",
     "level": "B2"
   },
   {
@@ -13969,7 +13969,7 @@ const B2_WORDS = [
     "de": "Wegstrecke",
     "de_article": "die",
     "de_plural": "die Wegstrecken",
-    "lv": "tramo de carretera • pieza",
+    "lv": "tramo del camino • distancia recorrida",
     "level": "B2"
   },
   {
@@ -13983,7 +13983,7 @@ const B2_WORDS = [
     "de": "Wehe",
     "de_article": "die",
     "de_plural": "die Wehen",
-    "lv": "duna • kupena",
+    "lv": "contracción del parto",
     "level": "B2"
   },
   {
@@ -13996,14 +13996,14 @@ const B2_WORDS = [
   {
     "de": "Wehrpflicht",
     "de_article": "die",
-    "lv": "ley marcial",
+    "lv": "servicio militar obligatorio",
     "level": "B2"
   },
   {
     "de": "Weib",
     "de_article": "das",
     "de_plural": "die Weiber",
-    "lv": "cf. no una mujer",
+    "lv": "mujer (despectivo)",
     "level": "B2"
   },
   {
@@ -14042,13 +14042,13 @@ const B2_WORDS = [
     "de": "Weltmacht",
     "de_article": "die",
     "de_plural": "die Weltmächte",
-    "lv": "un gran poder",
+    "lv": "una gran potencia",
     "level": "B2"
   },
   {
     "de": "Weltraumfahrt",
     "de_article": "die",
-    "lv": "vuelo espacial",
+    "lv": "viajes espaciales",
     "level": "B2"
   },
   {
@@ -14069,14 +14069,14 @@ const B2_WORDS = [
     "de": "Werkbank",
     "de_article": "die",
     "de_plural": "die Werkbänke",
-    "lv": "máquina herramienta",
+    "lv": "banco de trabajo",
     "level": "B2"
   },
   {
     "de": "Werkhalle",
     "de_article": "die",
     "de_plural": "die Werkhallen",
-    "lv": "taller",
+    "lv": "nave industrial",
     "level": "B2"
   },
   {
@@ -14090,54 +14090,54 @@ const B2_WORDS = [
     "de": "Werktätige",
     "de_article": "der",
     "de_plural": "die Werktätigen",
-    "lv": "el que trabaja",
+    "lv": "persona trabajadora",
     "level": "B2"
   },
   {
     "de": "Werkteil",
     "de_article": "der",
     "de_plural": "die Werkteile",
-    "lv": "detalle",
+    "lv": "pieza",
     "level": "B2"
   },
   {
     "de": "Wertpapier",
     "de_article": "das",
     "de_plural": "die Wertpapiere",
-    "lv": "seguridad",
+    "lv": "valor negociable",
     "level": "B2"
   },
   {
     "de": "Wesen",
     "de_article": "das",
     "de_plural": "die Wesen",
-    "lv": "ser • criatura • esencia • naturaleza",
+    "lv": "ser",
     "level": "B2"
   },
   {
     "de": "Wettlauf",
     "de_article": "der",
     "de_plural": "die Wettläufe",
-    "lv": "sp. carrera apresurada • prisa",
+    "lv": "carrera • competición",
     "level": "B2"
   },
   {
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "carrera • carrera",
+    "lv": "carrera • competición",
     "level": "B2"
   },
   {
     "de": "Wettrudern",
     "de_article": "das",
-    "lv": "carrera de remo",
+    "lv": "competición de remo",
     "level": "B2"
   },
   {
     "de": "Wettschwimmen",
     "de_article": "das",
-    "lv": "carrera de natación",
+    "lv": "competición de natación",
     "level": "B2"
   },
   {
@@ -14147,7 +14147,7 @@ const B2_WORDS = [
   },
   {
     "de": "wider",
-    "lv": "vs",
+    "lv": "contra",
     "level": "B2"
   },
   {
@@ -14157,7 +14157,7 @@ const B2_WORDS = [
   },
   {
     "de": "widerlich",
-    "lv": "repugnante • repugnante",
+    "lv": "repugnante",
     "level": "B2"
   },
   {
@@ -14174,7 +14174,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-widersetzen",
       "layout": "minimalStudy",
-      "translation": "resistir • cara",
+      "translation": "resistir • oponerse a",
       "rektion": "+ kam?",
       "explanation": "sich widersetzen prasa + kam?.",
       "forms": "+ kam?",
@@ -14201,12 +14201,12 @@ const B2_WORDS = [
   {
     "de": "Wiederaufbau",
     "de_article": "der",
-    "lv": "restauración • reconstrucción",
+    "lv": "reconstrucción",
     "level": "B2"
   },
   {
     "de": "wiedergeben",
-    "lv": "dar • reproducir • reproducir",
+    "lv": "devolver • reproducir • expresar",
     "level": "B2"
   },
   {
@@ -14217,24 +14217,24 @@ const B2_WORDS = [
   {
     "de": "Willkür",
     "de_article": "die",
-    "lv": "arbitrario",
+    "lv": "arbitrariedad",
     "level": "B2"
   },
   {
     "de": "Windbeutel",
     "de_article": "der",
     "de_plural": "die Windbeutel",
-    "lv": "pastel de viento",
+    "lv": "buñuelo de viento",
     "level": "B2"
   },
   {
     "de": "winden",
-    "lv": "torcer • torcer • trenzar",
+    "lv": "retorcer • enrollar • trenzar",
     "level": "B2"
   },
   {
     "de": "zielbewusst",
-    "lv": "dirigido",
+    "lv": "orientado a objetivos",
     "level": "B2"
   },
   {
@@ -14246,19 +14246,19 @@ const B2_WORDS = [
   },
   {
     "de": "zollfrei",
-    "lv": "libre de aduanas",
+    "lv": "libre de aranceles",
     "level": "B2"
   },
   {
     "de": "zollpflichtig",
-    "lv": "sujeto a aduanas",
+    "lv": "sujeto a derechos arancelarios",
     "level": "B2"
   },
   {
     "de": "Zucht",
     "de_article": "die",
     "de_plural": "die Zuchten",
-    "lv": "crianza • cultivo",
+    "lv": "crianza • cría",
     "level": "B2"
   },
   {
@@ -14270,7 +14270,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuerkennen",
-    "lv": "ordenar • asignar",
+    "lv": "conceder • asignar",
     "level": "B2"
   },
   {
@@ -14298,7 +14298,7 @@ const B2_WORDS = [
   },
   {
     "de": "zurückprallen",
-    "lv": "recuperarse",
+    "lv": "rebotar",
     "level": "B2"
   },
   {
@@ -14310,51 +14310,51 @@ const B2_WORDS = [
     "de": "Zusage",
     "de_article": "die",
     "de_plural": "die Zusagen",
-    "lv": "respuesta agradable",
+    "lv": "respuesta afirmativa",
     "level": "B2"
   },
   {
     "de": "zusammenfügen",
-    "lv": "para conectar",
+    "lv": "unir",
     "level": "B2"
   },
   {
     "de": "zusammenlegen",
-    "lv": "poner • poner [juntar]",
+    "lv": "juntar • doblar",
     "level": "B2"
   },
   {
     "de": "zuschneiden",
-    "lv": "cortar",
+    "lv": "cortar a medida",
     "level": "B2"
   },
   {
     "de": "zuströmen",
-    "lv": "fluye en",
+    "lv": "afluir",
     "level": "B2"
   },
   {
     "de": "zuteilen",
-    "lv": "asignar • asignar",
+    "lv": "asignar • repartir",
     "level": "B2"
   },
   {
     "de": "zutrauen",
-    "lv": "esperar • pensar capaz",
+    "lv": "confiar en que alguien es capaz",
     "level": "B2"
   },
   {
     "de": "Zuversicht",
     "de_article": "die",
     "de_plural": "die Zuversichten",
-    "lv": "dependencia",
+    "lv": "confianza",
     "level": "B2"
   },
   {
     "de": "Zuwachs",
     "de_article": "der",
     "de_plural": "die Zuwächse",
-    "lv": "aumentar",
+    "lv": "aumento",
     "level": "B2"
   },
   {
@@ -14364,7 +14364,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuweisen",
       "layout": "standardStudy",
-      "translation": "asignar • asignar",
+      "translation": "asignar",
       "explanation": "Idea principal: zuweisen significa asignar o asignar oficialmente una tarea, rol, recurso o dinero a una persona o departamento específico. Divisible: weise... zu.",
       "examples": [
         {
@@ -14384,17 +14384,17 @@ const B2_WORDS = [
         {
           "word": "zuweisen",
           "meaning": "asignar • asignar",
-          "example": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu."
+          "example": "Er weist die Aufgabe zu. = Asigna la tarea."
         },
         {
           "word": "geben",
           "meaning": "dar",
-          "example": "Er gibt mir die Arbeit. = Viņš man dod darbu."
+          "example": "Er gibt mir die Arbeit. = Me da el trabajo."
         },
         {
           "word": "verteilen",
           "meaning": "dividir",
-          "example": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus."
+          "example": "Er verteilt die Aufgaben. = Reparte las tareas."
         }
       ],
       "tip": {
@@ -14470,7 +14470,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-zuwider",
       "layout": "standardStudy",
-      "translation": "en contra • contrario a • disgusto",
+      "translation": "contrario a • desagradable • no gustarle a alguien",
       "explanation": "Idea principal: zuwider es una palabra con múltiples funciones. Como preposición + dativo, significa \"contra, en contra\": mir zuwider. Como parte de la expresión jemandem zuwider sein/laufen significa \"no gustarle a alguien, volverse desagradable\". No confundir con más ancho (en contra).",
       "examples": [
         {
@@ -14483,7 +14483,7 @@ const B2_WORDS = [
         },
         {
           "de": "Das läuft mir zuwider.",
-          "lv": "No me gusta / me pone triste."
+          "lv": "Me resulta desagradable."
         }
       ],
       "comparison": [
@@ -14495,7 +14495,7 @@ const B2_WORDS = [
         {
           "word": "jemandem zuwider sein",
           "meaning": "a alguien no le gustará",
-          "example": "Es ist mir zuwider. = Man tas nepatīk."
+          "example": "Es ist mir zuwider. = Me resulta desagradable."
         },
         {
           "word": "wider",
@@ -14504,7 +14504,7 @@ const B2_WORDS = [
         },
         {
           "word": "widersprechen",
-          "meaning": "iebilst • nepiekrist",
+          "meaning": "disgustar • no estar de acuerdo",
           "example": "Ich widerspreche. = Es iebilstu."
         }
       ],
@@ -14516,7 +14516,7 @@ const B2_WORDS = [
         ]
       },
       "important": {
-        "text": "zuwider + dativo = contra, opuesto. zuwider sein = disgusto. No es lo mismo que más ancho."
+        "text": "zuwider + dativo = contrario a, desagradable para alguien. zuwider sein = no gustarle a alguien. No es lo mismo que más ancho."
       },
       "sectionAccents": {
         "explanation": {
@@ -14633,7 +14633,7 @@ const B2_WORDS = [
         },
         {
           "de": "Wir ändern unseren Plan.",
-          "lv": "cambiamos nuestro plan."
+          "lv": "Cambiamos nuestro plan."
         },
         {
           "de": "Ich ändere den Termin.",
@@ -14641,7 +14641,7 @@ const B2_WORDS = [
         },
         {
           "de": "ändern",
-          "lv": "cambiar la pieza; wechseln"
+          "lv": "cambiar la pieza"
         }
       ],
       "tip": [
@@ -14759,19 +14759,19 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Ich wechsle die Schule.",
-          "lv": "Es mainu skolu."
+          "lv": "Cambio de escuela."
         },
         {
           "de": "Ich muss Geld wechseln.",
-          "lv": "necesito cambiar dinero."
+          "lv": "Necesito cambiar dinero."
         },
         {
           "de": "Wir wechseln das Thema.",
-          "lv": "cambiamos de tema."
+          "lv": "Cambiamos de tema."
         },
         {
           "de": "Ich wechsle die Schule.",
-          "lv": "es mainu skolu."
+          "lv": "Cambio de escuela."
         }
       ],
       "tip": [
@@ -14870,15 +14870,15 @@ const B2_WORDS = [
         },
         {
           "de": "Die Schule bietet viele Kurse.",
-          "lv": "la escuela ofrece muchos cursos."
+          "lv": "La escuela ofrece muchos cursos."
         },
         {
           "de": "Die App bietet Sicherheit.",
-          "lv": "la aplicación proporciona seguridad."
+          "lv": "La aplicación proporciona seguridad."
         },
         {
           "de": "bieten",
-          "lv": "ko kaut kas sniedz; anbieten"
+          "lv": "ofrecer algo"
         }
       ],
       "tip": [
@@ -14992,19 +14992,19 @@ const B2_WORDS = [
         },
         {
           "de": "Das Unternehmen bietet neue Stellen an.",
-          "lv": "la empresa ofrece nuevos puestos de trabajo."
+          "lv": "La empresa ofrece nuevos puestos de trabajo."
         }
       ],
       "comparison": [
         {
           "word": "anbieten",
           "meaning": "oferta (activa)",
-          "example": "Ich biete Hilfe an. = Es piedāvāju palīdzību."
+          "example": "Ich biete Hilfe an. = Ofrezco ayuda."
         },
         {
           "word": "bieten",
           "meaning": "ofrecer • dar",
-          "example": "Er bietet viel Geld. = Viņš piedāvā daudz naudas."
+          "example": "Er bietet viel Geld. = Ofrece mucho dinero."
         },
         {
           "word": "vorschlagen",
@@ -15078,7 +15078,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-fordern",
       "layout": "standardStudy",
-      "translation": "requerir • requerir",
+      "translation": "exigir • reclamar",
       "explanation": [
         "Idea principal: Pedir dinero, derechos, cambios u obligaciones: una demanda activa.",
         "fordern significa principalmente: requerir / exigir.",
@@ -15090,7 +15090,7 @@ const B2_WORDS = [
       "examples": [
         {
           "de": "Sie fordert mehr Geld.",
-          "lv": "Ella pide más dinero."
+          "lv": "Ella exige más dinero."
         },
         {
           "de": "Wir fordern mehr Transparenz.",
@@ -15098,7 +15098,7 @@ const B2_WORDS = [
         },
         {
           "de": "Sie fordert mehr Geld.",
-          "lv": "ella pide más dinero."
+          "lv": "Ella exige más dinero."
         },
         {
           "de": "Wir fordern mehr Sicherheit.",
@@ -15106,7 +15106,7 @@ const B2_WORDS = [
         },
         {
           "de": "fordern",
-          "lv": "exigir; förden"
+          "lv": "exigir"
         }
       ],
       "tip": [
@@ -15232,7 +15232,7 @@ const B2_WORDS = [
         },
         {
           "de": "Sport fördert die Gesundheit.",
-          "lv": "El deporte promueve la salud."
+          "lv": "La inversión promueve el desarrollo económico."
         },
         {
           "de": "In der Region wird Öl gefördert.",
@@ -15330,7 +15330,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-sich-verlaufen",
       "layout": "minimalStudy",
-      "translation": "Piérdase",
+      "translation": "perderse",
       "explanation": "sich verlaufen significa perderse. No tiene preposición fija. No confundir con verlaufen.",
       "sectionAccents": {
         "explanation": {
@@ -15348,7 +15348,7 @@ const B2_WORDS = [
     "study": {
       "id": "b2-verlaufen",
       "layout": "minimalStudy",
-      "translation": "proceder • rodar",
+      "translation": "transcurrir • desarrollarse",
       "explanation": "verlaufen (bez sich) significa correr o rodar. No es sinónimo de sich verlaufen (perderse).",
       "sectionAccents": {
         "explanation": {

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "module": "C2",
+    "date": "2026-08-26T10:27:39.845Z",
+    "deFile": "data/c2.js",
+    "esFile": "data/es/c2.js",
+    "wwwFile": "www/data/es/c2.js",
+    "lvCount": 219,
+    "esCount": 219,
+    "lvStudyCount": 1,
+    "esStudyCount": 1
+  },
+  "structural": {
+    "issues": [],
+    "pass": true
+  },
+  "germanIntegrity": {
+    "issues": [],
+    "pass": true
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "lvRemnants": {
+    "issues": [],
+    "pass": true
+  },
+  "sectionAccents": {
+    "issues": [],
+    "pass": true
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  },
+  "standardStudy": {
+    "count": 1
+  },
+  "comparisonStudy": {
+    "count": 0,
+    "issues": []
+  },
+  "studyCards": {
+    "issues": [],
+    "pass": true
+  }
+}

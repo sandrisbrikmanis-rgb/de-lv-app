@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "module": "C1",
+    "date": "2026-08-26T10:18:40.937Z",
+    "deFile": "data/c1.js",
+    "esFile": "data/es/c1.js",
+    "wwwFile": "www/data/es/c1.js",
+    "lvCount": 572,
+    "esCount": 572,
+    "lvStudyCount": 15,
+    "esStudyCount": 15
+  },
+  "structural": {
+    "issues": [],
+    "pass": true
+  },
+  "germanIntegrity": {
+    "issues": [],
+    "pass": true
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "lvRemnants": {
+    "issues": [
+      {
+        "severity": "critical",
+        "id": "c1-gelegentlich",
+        "path": "study.comparison[0].example",
+        "text": "Er kommt gelegentlich. = Viņš reizēm atnāk.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "c1-gelegentlich",
+        "path": "study.comparison[1].example",
+        "text": "ein gelegentlicher Besuch = gadījuma apmeklējums",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "c1-gelegentlich",
+        "path": "study.comparison[2].example",
+        "text": "gelegentlich des Festes = svētku sakarā",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "c1-gelegentlich",
+        "path": "study.comparison[3].example",
+        "text": "Manchmal regnet es. = Reizēm līst.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "c1-wahlberechtigt",
+        "path": "study.comparison[0].example",
+        "text": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "c1-wahlberechtigt",
+        "path": "study.comparison[2].example",
+        "text": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām.",
+        "kind": "LV"
+      }
+    ],
+    "pass": false
+  },
+  "sectionAccents": {
+    "issues": [
+      {
+        "severity": "medium",
+        "id": "c1-aufrechterhalten",
+        "section": "explanation",
+        "term": "erhalt",
+        "de": "aufrechterhalten",
+        "path": "study.sectionAccents.explanation",
+        "message": "Accent term not found in section text"
+      },
+      {
+        "severity": "medium",
+        "id": "c1-aufrechterhalten",
+        "section": "explanation",
+        "term": "auf",
+        "de": "aufrechterhalten",
+        "path": "study.sectionAccents.explanation",
+        "message": "Accent term not found in section text"
+      }
+    ],
+    "pass": false
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  },
+  "standardStudy": {
+    "count": 15
+  },
+  "comparisonStudy": {
+    "count": 0,
+    "issues": []
+  },
+  "studyCards": {
+    "issues": [],
+    "pass": true
+  }
+}

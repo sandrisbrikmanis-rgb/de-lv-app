@@ -1,0 +1,1226 @@
+{
+  "dryRun": false,
+  "headBefore": "b2d14cac923c7c01375523f107781cf55b55d3bc",
+  "staged": [
+    {
+      "auditId": "ES-DE-C2-OWNER-0001",
+      "cardId": "c2-konterkarieren-1",
+      "field": "lv",
+      "ownerNew": "contrarrestar",
+      "ownerCurrent": "interrumpir"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0002",
+      "cardId": "c2-Stichhaltigkeit-2",
+      "field": "lv",
+      "ownerNew": "solidez",
+      "ownerCurrent": "sensatez"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0003",
+      "cardId": "c2-veranschaulichen-5",
+      "field": "lv",
+      "ownerNew": "ilustrar",
+      "ownerCurrent": "mostrar demostrablemente"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0004",
+      "cardId": "c2-Teilnehmerausweis-12",
+      "field": "lv",
+      "ownerNew": "acreditación de participante",
+      "ownerCurrent": "tarjeta de membresía"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0005",
+      "cardId": "c2-batteriebetrieben-13",
+      "field": "lv",
+      "ownerNew": "que funciona con pilas",
+      "ownerCurrent": "operado por batería"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0006",
+      "cardId": "c2-beaufsichtigen-14",
+      "field": "lv",
+      "ownerNew": "supervisar",
+      "ownerCurrent": "monitor"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0007",
+      "cardId": "c2-Behandlungsraum-16",
+      "field": "lv",
+      "ownerNew": "sala de tratamiento",
+      "ownerCurrent": "consultorio médico"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0008",
+      "cardId": "c2-beispielsweise-17",
+      "field": "lv",
+      "ownerNew": "por ejemplo",
+      "ownerCurrent": "Por ejemplo"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0009",
+      "cardId": "c2-benachrichtigen-19",
+      "field": "lv",
+      "ownerNew": "notificar",
+      "ownerCurrent": "anunciar"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0010",
+      "cardId": "c2-berücksichtigen-24",
+      "field": "lv",
+      "ownerNew": "tener en cuenta",
+      "ownerCurrent": "para tener en cuenta"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0011",
+      "cardId": "c2-Berufsausbildung-25",
+      "field": "lv",
+      "ownerNew": "formación profesional",
+      "ownerCurrent": "educación profesional"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0012",
+      "cardId": "c2-Elementarkenntnisse-28",
+      "field": "lv",
+      "ownerNew": "conocimientos básicos",
+      "ownerCurrent": "conocimientos basicos"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0013",
+      "cardId": "c2-entgegenkommen-29",
+      "field": "lv",
+      "ownerNew": "ceder",
+      "ownerCurrent": "cruzar"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0014",
+      "cardId": "c2-Gehaltsabrechnung-32",
+      "field": "lv",
+      "ownerNew": "recibo de nómina",
+      "ownerCurrent": "calculo de salario"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0015",
+      "cardId": "c2-Geschäftspartner-37",
+      "field": "lv",
+      "ownerNew": "socio comercial",
+      "ownerCurrent": "compañero de negocios"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0016",
+      "cardId": "c2-Geschenkpackung-39",
+      "field": "lv",
+      "ownerNew": "paquete de regalo",
+      "ownerCurrent": "envoltorio de regalo"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0017",
+      "cardId": "c2-Inhaltsverzeichnis-41",
+      "field": "lv",
+      "ownerNew": "tabla de contenido",
+      "ownerCurrent": "Tabla de contenido"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0018",
+      "cardId": "c2-Katastrophendienst-44",
+      "field": "lv",
+      "ownerNew": "servicio de protección civil",
+      "ownerCurrent": "servicio de desastres"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0019",
+      "cardId": "c2-Kostensteigerung-46",
+      "field": "lv",
+      "ownerNew": "aumento de los costos",
+      "ownerCurrent": "costos crecientes"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0020",
+      "cardId": "c2-Krankenversicherung-47",
+      "field": "lv",
+      "ownerNew": "seguro médico",
+      "ownerCurrent": "seguro en caso de enfermedad"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0021",
+      "cardId": "c2-Lungenentzündung-52",
+      "field": "lv",
+      "ownerNew": "neumonía",
+      "ownerCurrent": "cáncer de pulmón"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0022",
+      "cardId": "c2-Personenkraftwagen-54",
+      "field": "lv",
+      "ownerNew": "automóvil de pasajeros",
+      "ownerCurrent": "coche de pasajeros"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0023",
+      "cardId": "c2-Schlafwagenzimmer-58",
+      "field": "lv",
+      "ownerNew": "compartimento de coche cama",
+      "ownerCurrent": "dormitorio"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0024",
+      "cardId": "c2-Schlittschuhkufe-59",
+      "field": "lv",
+      "ownerNew": "cuchilla de patín de hielo",
+      "ownerCurrent": "pendiente de trineo"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0025",
+      "cardId": "c2-selbstverständlich-61",
+      "field": "lv",
+      "ownerNew": "por supuesto",
+      "ownerCurrent": "se explica por si mismo"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0026",
+      "cardId": "c2-Sozialversicherung-63",
+      "field": "lv",
+      "ownerNew": "seguridad social",
+      "ownerCurrent": "seguro social"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0027",
+      "cardId": "c2-Straßenunterführung-67",
+      "field": "lv",
+      "ownerNew": "paso subterráneo bajo la carretera",
+      "ownerCurrent": "tunel peatonal"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0028",
+      "cardId": "c2-Verkehrsunfall-69",
+      "field": "lv",
+      "ownerNew": "accidente de tráfico",
+      "ownerCurrent": "accidente de trafico"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0029",
+      "cardId": "c2-Sehenswürdigkeit-76",
+      "field": "lv",
+      "ownerNew": "un lugar de interés",
+      "ownerCurrent": "un lugar destacado"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0030",
+      "cardId": "c2-Arbeitslosenbeihilfe-83",
+      "field": "lv",
+      "ownerNew": "prestación por desempleo",
+      "ownerCurrent": "prestación de desempleo"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0031",
+      "cardId": "c2-Ausbildungsbeihilfe-84",
+      "field": "lv",
+      "ownerNew": "ayuda para la formación",
+      "ownerCurrent": "subsidio de matrícula"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0032",
+      "cardId": "c2-Berichterstatter-86",
+      "field": "lv",
+      "ownerNew": "relator • reportero • corresponsal • cronista",
+      "ownerCurrent": "reportero • reportero • corresponsal • reportero"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0033",
+      "cardId": "c2-Bildberichterstatter-91",
+      "field": "lv",
+      "ownerNew": "reportero gráfico",
+      "ownerCurrent": "corresponsal de fotografía"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0034",
+      "cardId": "c2-Dialektik-100",
+      "field": "lv",
+      "ownerNew": "dialéctica",
+      "ownerCurrent": "dialéctico"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0035",
+      "cardId": "c2-Bereitschaftsdienst-101",
+      "field": "lv",
+      "ownerNew": "servicio de guardia",
+      "ownerCurrent": "servicio operativo"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0036",
+      "cardId": "c2-Durchfuhrerlaubnis-102",
+      "field": "lv",
+      "ownerNew": "permiso de tránsito",
+      "ownerCurrent": "permiso de transito"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0037",
+      "cardId": "c2-durchkreuzen-103",
+      "field": "lv",
+      "ownerNew": "tachar • cruzar • frustrar",
+      "ownerCurrent": "ponchar • cruzar • cruzar • interrumpir"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0038",
+      "cardId": "c2-Durchschnittsleistung-106",
+      "field": "lv",
+      "ownerNew": "rendimiento promedio",
+      "ownerCurrent": "rendimiento promedio • rendimiento promedio"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0039",
+      "cardId": "c2-Empfehlungsschreiben-110",
+      "field": "lv",
+      "ownerNew": "carta de recomendación",
+      "ownerCurrent": "recomendación escrita"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0040",
+      "cardId": "c2-entgegengesetzt-112",
+      "field": "lv",
+      "ownerNew": "opuesto",
+      "ownerCurrent": "lo contrario"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0041",
+      "cardId": "c2-Entschlossenheit-113",
+      "field": "lv",
+      "ownerNew": "determinación • resolución",
+      "ownerCurrent": "certeza • determinación • incuestionamiento"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0042",
+      "cardId": "c2-Entwicklungsland-114",
+      "field": "lv",
+      "ownerNew": "país en desarrollo",
+      "ownerCurrent": "tierra de desarrollo"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0043",
+      "cardId": "c2-Erfrischungsraum-115",
+      "field": "lv",
+      "ownerNew": "sala de refrigerios",
+      "ownerCurrent": "bufé"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0044",
+      "cardId": "c2-Regierungserklärung-116",
+      "field": "lv",
+      "ownerNew": "declaración del Gobierno",
+      "ownerCurrent": "anuncio del gobierno"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0045",
+      "cardId": "c2-Errungenschaft-117",
+      "field": "lv",
+      "ownerNew": "logro • conquista",
+      "ownerCurrent": "logro • beneficio • ganancia"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0046",
+      "cardId": "c2-Führerpersönlichkeit-123",
+      "field": "lv",
+      "ownerNew": "personalidad de líder",
+      "ownerCurrent": "personalidad de liderazgo"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0047",
+      "cardId": "c2-Fußballweltmeisterschaft-124",
+      "field": "lv",
+      "ownerNew": "campeonato mundial de fútbol",
+      "ownerCurrent": "campeonato mundial de futbol"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0048",
+      "cardId": "c2-Gefängnisaufseher-128",
+      "field": "lv",
+      "ownerNew": "guardia de prisión",
+      "ownerCurrent": "director de prisión"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0049",
+      "cardId": "c2-Gefäßerweiterung-130",
+      "field": "lv",
+      "ownerNew": "dilatación de los vasos sanguíneos",
+      "ownerCurrent": "dilatacion de los vasos sanguineos"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0050",
+      "cardId": "c2-Geistesgegenwart-131",
+      "field": "lv",
+      "ownerNew": "presencia de ánimo",
+      "ownerCurrent": "ingenio"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0051",
+      "cardId": "c2-geistige Getränke-132",
+      "field": "lv",
+      "ownerNew": "bebidas alcohólicas",
+      "ownerCurrent": "bebidas alcoholicas"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0052",
+      "cardId": "c2-Dorfgemeinschaft-136",
+      "field": "lv",
+      "ownerNew": "comunidad aldeana",
+      "ownerCurrent": "los aldeanos"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0053",
+      "cardId": "c2-Forschungsgemeinschaft-137",
+      "field": "lv",
+      "ownerNew": "comunidad de investigación",
+      "ownerCurrent": "grupo de investigación"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0054",
+      "cardId": "c2-Generalreparatur-138",
+      "field": "lv",
+      "ownerNew": "reparación general",
+      "ownerCurrent": "revisión"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0055",
+      "cardId": "c2-Gerechtigkeitsgefühl-141",
+      "field": "lv",
+      "ownerNew": "sentido de justicia",
+      "ownerCurrent": "justicia • sentido de justicia"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0056",
+      "cardId": "c2-Schiedsgericht-142",
+      "field": "lv",
+      "ownerNew": "tribunal arbitral",
+      "ownerCurrent": "arbitraje"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0057",
+      "cardId": "c2-Gerichtsverfahren-143",
+      "field": "lv",
+      "ownerNew": "procedimiento judicial",
+      "ownerCurrent": "procedimientos judiciales"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0058",
+      "cardId": "c2-Geschäftsordnung-144",
+      "field": "lv",
+      "ownerNew": "reglamento • normas de procedimiento",
+      "ownerCurrent": "regulación • regulaciones"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0059",
+      "cardId": "c2-Geschlechtsverkehr-145",
+      "field": "lv",
+      "ownerNew": "relaciones sexuales",
+      "ownerCurrent": "relaciones"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0060",
+      "cardId": "c2-Geschwindigkeitsbegrenzung-146",
+      "field": "lv",
+      "ownerNew": "límite de velocidad",
+      "ownerCurrent": "Límite de velocidad"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0061",
+      "cardId": "c2-Geschwindigkeitsüberschreitung-149",
+      "field": "lv",
+      "ownerNew": "exceso de velocidad • infracción por exceso de velocidad",
+      "ownerCurrent": "incumplimiento de la velocidad prescrita • infracción"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0062",
+      "cardId": "c2-gesellschaftlich-150",
+      "field": "lv",
+      "ownerNew": "social • de la sociedad",
+      "ownerCurrent": "públicas • sociedades"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0063",
+      "cardId": "c2-Gesellschaftsordnung-151",
+      "field": "lv",
+      "ownerNew": "orden social",
+      "ownerCurrent": "instalación pública"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0064",
+      "cardId": "c2-Gesetzesvorlage-152",
+      "field": "lv",
+      "ownerNew": "proyecto de ley",
+      "ownerCurrent": "factura"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0065",
+      "cardId": "c2-Gewerkschaftsbeitrag-154",
+      "field": "lv",
+      "ownerNew": "cuota sindical",
+      "ownerCurrent": "cuotas de afiliación sindical"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0066",
+      "cardId": "c2-Gewinnauszahlung-156",
+      "field": "lv",
+      "ownerNew": "pago de ganancias",
+      "ownerCurrent": "pago de ganancias de lotería"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0067",
+      "cardId": "c2-Gleichberechtigung-158",
+      "field": "lv",
+      "ownerNew": "igualdad de derechos",
+      "ownerCurrent": "igualdad"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0068",
+      "cardId": "c2-Hausgemeinschaft-161",
+      "field": "lv",
+      "ownerNew": "comunidad de vecinos",
+      "ownerCurrent": "miembros de la familia • residentes de la casa"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0069",
+      "cardId": "c2-Herztransplantation-163",
+      "field": "lv",
+      "ownerNew": "trasplante de corazón",
+      "ownerCurrent": "trasplante de corazon"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0070",
+      "cardId": "c2-Kabinettsmitglied-166",
+      "field": "lv",
+      "ownerNew": "miembro del gabinete",
+      "ownerCurrent": "miembro del gabinete • ministro"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0071",
+      "cardId": "c2-Lebenserhaltungstrieb-170",
+      "field": "lv",
+      "ownerNew": "instinto de supervivencia",
+      "ownerCurrent": "el impulso de la vida"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0072",
+      "cardId": "c2-Lebenshaltungskosten-171",
+      "field": "lv",
+      "ownerNew": "coste de vida",
+      "ownerCurrent": "medios de subsistencia • costos"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0073",
+      "cardId": "c2-Leistungsfähigkeit-173",
+      "field": "lv",
+      "ownerNew": "capacidad de rendimiento",
+      "ownerCurrent": "capacidad de trabajo • productividad • capacidad"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0074",
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "field": "lv",
+      "ownerNew": "partido de campeonato",
+      "ownerCurrent": "carrera superior"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0075",
+      "cardId": "c2-menschenfreundlich-178",
+      "field": "lv",
+      "ownerNew": "humanitario",
+      "ownerCurrent": "humano • humano"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0076",
+      "cardId": "c2-Parlamentarier-183",
+      "field": "lv",
+      "ownerNew": "parlamentario",
+      "ownerCurrent": "miembro del parlamento • parlamentario"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0077",
+      "cardId": "c2-populärwissenschaftlich-186",
+      "field": "lv",
+      "ownerNew": "de divulgación científica",
+      "ownerCurrent": "divulgación científica"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0078",
+      "cardId": "c2-Preisausschreiben-187",
+      "field": "lv",
+      "ownerNew": "concurso con premio",
+      "ownerCurrent": "competencia"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0079",
+      "cardId": "c2-rechtsextremistisch-188",
+      "field": "lv",
+      "ownerNew": "de extrema derecha",
+      "ownerCurrent": "extrema derecha"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0080",
+      "cardId": "c2-Beschwerdeschrift-191",
+      "field": "lv",
+      "ownerNew": "escrito de queja",
+      "ownerCurrent": "queja"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0081",
+      "cardId": "c2-Staatsangehörigkeit-196",
+      "field": "lv",
+      "ownerNew": "nacionalidad",
+      "ownerCurrent": "categoría de estado"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0082",
+      "cardId": "c2-Steuererleichterung-197",
+      "field": "lv",
+      "ownerNew": "desgravación fiscal",
+      "ownerCurrent": "beneficios fiscales"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0083",
+      "cardId": "c2-Strafgesetzbuch-198",
+      "field": "lv",
+      "ownerNew": "código penal",
+      "ownerCurrent": "código penal jurado"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0084",
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "field": "lv",
+      "ownerNew": "en la base",
+      "ownerCurrent": "básicamente"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0085",
+      "cardId": "c2-zugunsten, zu Gunsten-207",
+      "field": "lv",
+      "ownerNew": "a favor de",
+      "ownerCurrent": "para bien • para bien"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0086",
+      "cardId": "c2-inwiefern-212",
+      "field": "lv",
+      "ownerNew": "hasta qué punto",
+      "ownerCurrent": "hasta que punto"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0087",
+      "cardId": "c2-inwieweit-213",
+      "field": "lv",
+      "ownerNew": "hasta qué punto",
+      "ownerCurrent": "hasta que punto"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0088",
+      "cardId": "c2-Kriegsbeschädigte-216",
+      "field": "lv",
+      "ownerNew": "un inválido de guerra",
+      "ownerCurrent": "una guerra inválida"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0089",
+      "cardId": "c2-Sachverständige-218",
+      "field": "lv",
+      "ownerNew": "experto",
+      "ownerCurrent": "competente • experto"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0091",
+      "cardId": "c2-gewichtseinheit",
+      "field": "study.examples[0].lv",
+      "ownerNew": "El kilogramo es una unidad de peso.",
+      "ownerCurrent": "kilogramo es una unidad de peso."
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0092",
+      "cardId": "c2-gewichtseinheit",
+      "field": "study.examples[2].lv",
+      "ownerNew": "El gramo y la tonelada son unidades de peso.",
+      "ownerCurrent": "gramo y tonelada son unidades de peso."
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ES-DE-C2-OWNER-0001",
+      "cardId": "c2-konterkarieren-1",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0002",
+      "cardId": "c2-Stichhaltigkeit-2",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0003",
+      "cardId": "c2-veranschaulichen-5",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0004",
+      "cardId": "c2-Teilnehmerausweis-12",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0005",
+      "cardId": "c2-batteriebetrieben-13",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0006",
+      "cardId": "c2-beaufsichtigen-14",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0007",
+      "cardId": "c2-Behandlungsraum-16",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0008",
+      "cardId": "c2-beispielsweise-17",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0009",
+      "cardId": "c2-benachrichtigen-19",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0010",
+      "cardId": "c2-berücksichtigen-24",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0011",
+      "cardId": "c2-Berufsausbildung-25",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0012",
+      "cardId": "c2-Elementarkenntnisse-28",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0013",
+      "cardId": "c2-entgegenkommen-29",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0014",
+      "cardId": "c2-Gehaltsabrechnung-32",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0015",
+      "cardId": "c2-Geschäftspartner-37",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0016",
+      "cardId": "c2-Geschenkpackung-39",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0017",
+      "cardId": "c2-Inhaltsverzeichnis-41",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0018",
+      "cardId": "c2-Katastrophendienst-44",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0019",
+      "cardId": "c2-Kostensteigerung-46",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0020",
+      "cardId": "c2-Krankenversicherung-47",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0021",
+      "cardId": "c2-Lungenentzündung-52",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0022",
+      "cardId": "c2-Personenkraftwagen-54",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0023",
+      "cardId": "c2-Schlafwagenzimmer-58",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0024",
+      "cardId": "c2-Schlittschuhkufe-59",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0025",
+      "cardId": "c2-selbstverständlich-61",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0026",
+      "cardId": "c2-Sozialversicherung-63",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0027",
+      "cardId": "c2-Straßenunterführung-67",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0028",
+      "cardId": "c2-Verkehrsunfall-69",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0029",
+      "cardId": "c2-Sehenswürdigkeit-76",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0030",
+      "cardId": "c2-Arbeitslosenbeihilfe-83",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0031",
+      "cardId": "c2-Ausbildungsbeihilfe-84",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0032",
+      "cardId": "c2-Berichterstatter-86",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0033",
+      "cardId": "c2-Bildberichterstatter-91",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0034",
+      "cardId": "c2-Dialektik-100",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0035",
+      "cardId": "c2-Bereitschaftsdienst-101",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0036",
+      "cardId": "c2-Durchfuhrerlaubnis-102",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0037",
+      "cardId": "c2-durchkreuzen-103",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0038",
+      "cardId": "c2-Durchschnittsleistung-106",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0039",
+      "cardId": "c2-Empfehlungsschreiben-110",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0040",
+      "cardId": "c2-entgegengesetzt-112",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0041",
+      "cardId": "c2-Entschlossenheit-113",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0042",
+      "cardId": "c2-Entwicklungsland-114",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0043",
+      "cardId": "c2-Erfrischungsraum-115",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0044",
+      "cardId": "c2-Regierungserklärung-116",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0045",
+      "cardId": "c2-Errungenschaft-117",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0046",
+      "cardId": "c2-Führerpersönlichkeit-123",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0047",
+      "cardId": "c2-Fußballweltmeisterschaft-124",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0048",
+      "cardId": "c2-Gefängnisaufseher-128",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0049",
+      "cardId": "c2-Gefäßerweiterung-130",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0050",
+      "cardId": "c2-Geistesgegenwart-131",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0051",
+      "cardId": "c2-geistige Getränke-132",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0052",
+      "cardId": "c2-Dorfgemeinschaft-136",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0053",
+      "cardId": "c2-Forschungsgemeinschaft-137",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0054",
+      "cardId": "c2-Generalreparatur-138",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0055",
+      "cardId": "c2-Gerechtigkeitsgefühl-141",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0056",
+      "cardId": "c2-Schiedsgericht-142",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0057",
+      "cardId": "c2-Gerichtsverfahren-143",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0058",
+      "cardId": "c2-Geschäftsordnung-144",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0059",
+      "cardId": "c2-Geschlechtsverkehr-145",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0060",
+      "cardId": "c2-Geschwindigkeitsbegrenzung-146",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0061",
+      "cardId": "c2-Geschwindigkeitsüberschreitung-149",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0062",
+      "cardId": "c2-gesellschaftlich-150",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0063",
+      "cardId": "c2-Gesellschaftsordnung-151",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0064",
+      "cardId": "c2-Gesetzesvorlage-152",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0065",
+      "cardId": "c2-Gewerkschaftsbeitrag-154",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0066",
+      "cardId": "c2-Gewinnauszahlung-156",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0067",
+      "cardId": "c2-Gleichberechtigung-158",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0068",
+      "cardId": "c2-Hausgemeinschaft-161",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0069",
+      "cardId": "c2-Herztransplantation-163",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0070",
+      "cardId": "c2-Kabinettsmitglied-166",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0071",
+      "cardId": "c2-Lebenserhaltungstrieb-170",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0072",
+      "cardId": "c2-Lebenshaltungskosten-171",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0073",
+      "cardId": "c2-Leistungsfähigkeit-173",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0074",
+      "cardId": "c2-Meisterschaftsspiel-177",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0075",
+      "cardId": "c2-menschenfreundlich-178",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0076",
+      "cardId": "c2-Parlamentarier-183",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0077",
+      "cardId": "c2-populärwissenschaftlich-186",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0078",
+      "cardId": "c2-Preisausschreiben-187",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0079",
+      "cardId": "c2-rechtsextremistisch-188",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0080",
+      "cardId": "c2-Beschwerdeschrift-191",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0081",
+      "cardId": "c2-Staatsangehörigkeit-196",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0082",
+      "cardId": "c2-Steuererleichterung-197",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0083",
+      "cardId": "c2-Strafgesetzbuch-198",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0084",
+      "cardId": "c2-zugrunde, zu Grunde-206",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0085",
+      "cardId": "c2-zugunsten, zu Gunsten-207",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0086",
+      "cardId": "c2-inwiefern-212",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0087",
+      "cardId": "c2-inwieweit-213",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0088",
+      "cardId": "c2-Kriegsbeschädigte-216",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0089",
+      "cardId": "c2-Sachverständige-218",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0091",
+      "cardId": "c2-gewichtseinheit",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C2-OWNER-0092",
+      "cardId": "c2-gewichtseinheit",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "nelabotChanged": [],
+  "sourceDeIssueChanged": [],
+  "summary": {
+    "requestedLabot": 91,
+    "appliedVerified": 91,
+    "currentValueMismatch": 0,
+    "newValueMismatch": 0,
+    "failed": 0,
+    "nelabotUnchanged": 1,
+    "nelabotTotal": 1,
+    "sourceDeIssueUnchanged": 0,
+    "sourceDeIssueTotal": 0,
+    "totalCards": 219,
+    "studyCount": 1,
+    "deChanges": 0,
+    "otherLangChanges": 0,
+    "unexpectedChanges": 0,
+    "mirrorPass": "PASS",
+    "syntaxPass": "PASS",
+    "idOrderPass": "PASS",
+    "reconciliation": {
+      "uniqueTargets": 91,
+      "appliedVerified": 91,
+      "currentValueMismatch": 0,
+      "skipped": 0,
+      "failed": 0,
+      "reconciles": true,
+      "total": 91
+    },
+    "finalVerdict": "PASS — ALL 91 OWNER LABOT APPLIED AND VERIFIED"
+  },
+  "headAfter": "b2d14cac923c7c01375523f107781cf55b55d3bc"
+}

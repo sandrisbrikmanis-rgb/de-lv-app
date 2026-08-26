@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "module": "B2",
+    "date": "2026-08-26T09:46:30.427Z",
+    "deFile": "data/b2.js",
+    "esFile": "data/es/b2.js",
+    "wwwFile": "www/data/es/b2.js",
+    "lvCount": 2118,
+    "esCount": 2118,
+    "lvStudyCount": 60,
+    "esStudyCount": 60
+  },
+  "structural": {
+    "issues": [],
+    "pass": true
+  },
+  "germanIntegrity": {
+    "issues": [],
+    "pass": true
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "lvRemnants": {
+    "issues": [
+      {
+        "severity": "critical",
+        "id": "b2-hochwasser",
+        "path": "study.comparison[0].example",
+        "text": "Es gibt Hochwasser. = Ir plūdi.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-hochwasser",
+        "path": "study.comparison[1].example",
+        "text": "Die Überschwemmung zerstörte Häuser. = Plūdi izpostīja mājas.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-hochwasser",
+        "path": "study.comparison[2].example",
+        "text": "Der Pegel steigt. = Ūdens līmenis ceļas.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-nachdruck",
+        "path": "study.comparison[0].example",
+        "text": "Er legt Nachdruck auf die Frist. = Viņš uzsver termiņu.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-nachdruck",
+        "path": "study.comparison[1].example",
+        "text": "Der Nachdruck erschien im Frühjahr. = Atkārtotais izdevums iznāca pavasarī.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-nachdruck",
+        "path": "study.comparison[2].example",
+        "text": "Unter Druck stehen = būt spiedienā.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-sein-study",
+        "path": "study.examples[2].lv",
+        "text": "es esmu noguris.",
+        "kind": "LV"
+      },
+      {
+        "severity": "high",
+        "id": "b2-treulos-1751",
+        "path": "lv",
+        "text": "poco confiable • no digno de confianza",
+        "kind": "IT"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-zuweisen",
+        "path": "study.comparison[0].example",
+        "text": "Er weist die Aufgabe zu. = Viņš piešķir uzdevumu.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-zuweisen",
+        "path": "study.comparison[1].example",
+        "text": "Er gibt mir die Arbeit. = Viņš man dod darbu.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-zuweisen",
+        "path": "study.comparison[2].example",
+        "text": "Er verteilt die Aufgaben. = Viņš sadala uzdevumus.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-zuwider",
+        "path": "study.comparison[1].example",
+        "text": "Es ist mir zuwider. = Man tas nepatīk.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-anbieten",
+        "path": "study.comparison[0].example",
+        "text": "Ich biete Hilfe an. = Es piedāvāju palīdzību.",
+        "kind": "LV"
+      },
+      {
+        "severity": "critical",
+        "id": "b2-anbieten",
+        "path": "study.comparison[1].example",
+        "text": "Er bietet viel Geld. = Viņš piedāvā daudz naudas.",
+        "kind": "LV"
+      }
+    ],
+    "pass": false
+  },
+  "sectionAccents": {
+    "issues": [
+      {
+        "severity": "medium",
+        "id": "b2-haube",
+        "section": "examples",
+        "term": "extractor",
+        "de": "Haube",
+        "path": "study.sectionAccents.examples",
+        "message": "Accent term not found in section text"
+      }
+    ],
+    "pass": false
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  },
+  "standardStudy": {
+    "count": 60
+  },
+  "comparisonStudy": {
+    "count": 0,
+    "issues": []
+  },
+  "studyCards": {
+    "issues": [],
+    "pass": true
+  }
+}

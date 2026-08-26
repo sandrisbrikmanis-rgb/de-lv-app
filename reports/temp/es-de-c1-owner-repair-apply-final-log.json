@@ -1,0 +1,3336 @@
+{
+  "dryRun": false,
+  "headBefore": "a906e1d1e07ebad50dcd21f76f1f3bb8745fd59f",
+  "staged": [
+    {
+      "auditId": "ES-DE-C1-OWNER-0001",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Er kommt gelegentlich. = Viene de vez en cuando.",
+      "ownerCurrent": "Er kommt gelegentlich. = Viņš reizēm atnāk."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0002",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[1].example",
+      "ownerNew": "ein gelegentlicher Besuch = una visita ocasional",
+      "ownerCurrent": "ein gelegentlicher Besuch = gadījuma apmeklējums"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0003",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].example",
+      "ownerNew": "gelegentlich des Festes = con motivo de la festividad",
+      "ownerCurrent": "gelegentlich des Festes = svētku sakarā"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0004",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[3].example",
+      "ownerNew": "Manchmal regnet es. = A veces llueve.",
+      "ownerCurrent": "Manchmal regnet es. = Reizēm līst."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0005",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[0].example",
+      "ownerNew": "Er ist wahlberechtigt. = Tiene derecho a votar.",
+      "ownerCurrent": "Er ist wahlberechtigt. = Viņam ir vēlēšanu tiesības."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0006",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[2].example",
+      "ownerNew": "Der Wähler geht zur Wahl. = El votante va a votar.",
+      "ownerCurrent": "Der Wähler geht zur Wahl. = Vēlētājs iet uz vēlēšanām."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0007",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.sectionAccents.explanation",
+      "ownerNew": {
+        "green": [
+          "aufrechterhalten"
+        ]
+      },
+      "ownerCurrent": "{\"green\":[\"aufrechterhalten\",\"erhalt\",\"auf\"]}"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0008",
+      "cardId": "c1-gewährleisten-1",
+      "field": "lv",
+      "ownerNew": "garantizar",
+      "ownerCurrent": "proporcionar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0009",
+      "cardId": "c1-Auswirkung-2",
+      "field": "lv",
+      "ownerNew": "efecto",
+      "ownerCurrent": "influencia"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0010",
+      "cardId": "c1-umstritten-3",
+      "field": "lv",
+      "ownerNew": "controvertido",
+      "ownerCurrent": "contradictorio"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0011",
+      "cardId": "c1-Aktionsprogramm-10",
+      "field": "lv",
+      "ownerNew": "programa de acción",
+      "ownerCurrent": "programa de eventos"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0012",
+      "cardId": "c1-Alarmbereitschaft-11",
+      "field": "lv",
+      "ownerNew": "estado de alerta",
+      "ownerCurrent": "preparación para la alerta"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0013",
+      "cardId": "c1-Altweibersommer-12",
+      "field": "lv",
+      "ownerNew": "veranillo de San Martín",
+      "ownerCurrent": "primavera"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0014",
+      "cardId": "c1-anfechten-13",
+      "field": "lv",
+      "ownerNew": "impugnar",
+      "ownerCurrent": "disputa • pregunta"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0015",
+      "cardId": "c1-Aal-18",
+      "field": "lv",
+      "ownerNew": "anguila",
+      "ownerCurrent": "Anguila"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0016",
+      "cardId": "c1-Abtreibung-21",
+      "field": "lv",
+      "ownerNew": "aborto",
+      "ownerCurrent": "aborto provocado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0017",
+      "cardId": "c1-Frachtbrief-26",
+      "field": "lv",
+      "ownerNew": "carta de porte",
+      "ownerCurrent": "carta de porte de carga"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0018",
+      "cardId": "c1-Kinderschänder-30",
+      "field": "lv",
+      "ownerNew": "abusador de menores",
+      "ownerCurrent": "pedófilo"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0019",
+      "cardId": "c1-Zivilgesetzbuch-32",
+      "field": "lv",
+      "ownerNew": "código civil",
+      "ownerCurrent": "derecho civil"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0020",
+      "cardId": "c1-Abenddämmerung-34",
+      "field": "lv",
+      "ownerNew": "crepúsculo vespertino",
+      "ownerCurrent": "crepúsculo de la tarde"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0021",
+      "cardId": "c1-Autokennzeichen-38",
+      "field": "lv",
+      "ownerNew": "matrícula del coche",
+      "ownerCurrent": "Letras y números en la matrícula del coche."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0022",
+      "cardId": "c1-Bäckerhandwerk-39",
+      "field": "lv",
+      "ownerNew": "oficio de panadero",
+      "ownerCurrent": "trabajo de panadero"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0023",
+      "cardId": "c1-Bergwanderung-41",
+      "field": "lv",
+      "ownerNew": "excursión por la montaña",
+      "ownerCurrent": "turismo de montaña"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0024",
+      "cardId": "c1-sich beschäftigen-43",
+      "field": "lv",
+      "ownerNew": "ocuparse",
+      "ownerCurrent": "ocupar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0025",
+      "cardId": "c1-Besichtigung-46",
+      "field": "lv",
+      "ownerNew": "visita",
+      "ownerCurrent": "inspección"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0026",
+      "cardId": "c1-charakteristisch-52",
+      "field": "lv",
+      "ownerNew": "característico",
+      "ownerCurrent": "característica"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0027",
+      "cardId": "c1-ekelhaft-60",
+      "field": "lv",
+      "ownerNew": "asqueroso",
+      "ownerCurrent": "desagradable"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0028",
+      "cardId": "c1-Gartenerdbeere-62",
+      "field": "lv",
+      "ownerNew": "fresa de jardín",
+      "ownerCurrent": "fresa de jardin"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0029",
+      "cardId": "c1-Gepäckträger-70",
+      "field": "lv",
+      "ownerNew": "maletero",
+      "ownerCurrent": "trompa"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0030",
+      "cardId": "c1-geschäftlich-71",
+      "field": "lv",
+      "ownerNew": "comercial",
+      "ownerCurrent": "transacción"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0031",
+      "cardId": "c1-Geschäftsmann-72",
+      "field": "lv",
+      "ownerNew": "hombre de negocios",
+      "ownerCurrent": "emprendedor"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0032",
+      "cardId": "c1-geschmacklos-74",
+      "field": "lv",
+      "ownerNew": "de mal gusto",
+      "ownerCurrent": "insípido"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0033",
+      "cardId": "c1-Gesichtspunkt-77",
+      "field": "lv",
+      "ownerNew": "punto de vista",
+      "ownerCurrent": "opinión"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0034",
+      "cardId": "c1-Hausangestellte-81",
+      "field": "lv",
+      "ownerNew": "empleada doméstica",
+      "ownerCurrent": "un ama de llaves"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0035",
+      "cardId": "c1-hinaufklettern-82",
+      "field": "lv",
+      "ownerNew": "trepar",
+      "ownerCurrent": "subir"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0036",
+      "cardId": "c1-Hochzeitsbrauch-84",
+      "field": "lv",
+      "ownerNew": "costumbre nupcial",
+      "ownerCurrent": "boda personalizada"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0037",
+      "cardId": "c1-Tasteninstrument-90",
+      "field": "lv",
+      "ownerNew": "instrumento de teclado",
+      "ownerCurrent": "teclado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0038",
+      "cardId": "c1-Krankheitsbild-101",
+      "field": "lv",
+      "ownerNew": "cuadro clínico",
+      "ownerCurrent": "escena de la enfermedad"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0039",
+      "cardId": "c1-Lastkraftwagen-102",
+      "field": "lv",
+      "ownerNew": "camión",
+      "ownerCurrent": "carro pesado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0040",
+      "cardId": "c1-Morgengymnastik-112",
+      "field": "lv",
+      "ownerNew": "gimnasia matutina",
+      "ownerCurrent": "amanecer"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0041",
+      "cardId": "c1-Polizeieinheit-121",
+      "field": "lv",
+      "ownerNew": "unidad de policía",
+      "ownerCurrent": "unidad de policia"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0042",
+      "cardId": "c1-Premier-125",
+      "field": "lv",
+      "ownerNew": "primer ministro",
+      "ownerCurrent": "Primer ministro"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0043",
+      "cardId": "c1-Scheibenwischer-136",
+      "field": "lv",
+      "ownerNew": "limpiaparabrisas",
+      "ownerCurrent": "limpiador de ventanas de coche"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0044",
+      "cardId": "c1-Schiedsrichter-137",
+      "field": "lv",
+      "ownerNew": "árbitro",
+      "ownerCurrent": "el juez"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0045",
+      "cardId": "c1-Schutzumschlag-142",
+      "field": "lv",
+      "ownerNew": "sobrecubierta",
+      "ownerCurrent": "cubrir"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0046",
+      "cardId": "c1-Schwiegereltern-143",
+      "field": "lv",
+      "ownerNew": "suegros",
+      "ownerCurrent": "los padres del marido"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0047",
+      "cardId": "c1-Stadtrundfahrt-149",
+      "field": "lv",
+      "ownerNew": "visita turística por la ciudad",
+      "ownerCurrent": "viaje a la ciudad"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0048",
+      "cardId": "c1-Strampelhöschen-153",
+      "field": "lv",
+      "ownerNew": "pelele de bebé",
+      "ownerCurrent": "gateador de bebé"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0049",
+      "cardId": "c1-Stromverbrauch-154",
+      "field": "lv",
+      "ownerNew": "consumo de electricidad",
+      "ownerCurrent": "consumo actual"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0050",
+      "cardId": "c1-Tagesnachrichten-155",
+      "field": "lv",
+      "ownerNew": "noticias del día",
+      "ownerCurrent": "noticias del dia"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0051",
+      "cardId": "c1-Terminkalender-157",
+      "field": "lv",
+      "ownerNew": "calendario de citas",
+      "ownerCurrent": "calendario de notas"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0052",
+      "cardId": "c1-Unternehmen-162",
+      "field": "lv",
+      "ownerNew": "empresa",
+      "ownerCurrent": "empresa • evento"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0053",
+      "cardId": "c1-Urteil-166",
+      "field": "lv",
+      "ownerNew": "sentencia",
+      "ownerCurrent": "juicio"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0054",
+      "cardId": "c1-Verlegenheit-173",
+      "field": "lv",
+      "ownerNew": "situación embarazosa",
+      "ownerCurrent": "confusión"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0055",
+      "cardId": "c1-verschließen-174",
+      "field": "lv",
+      "ownerNew": "cerrar con llave",
+      "ownerCurrent": "bloquear"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0056",
+      "cardId": "c1-sich verständigen-178",
+      "field": "lv",
+      "ownerNew": "entenderse",
+      "ownerCurrent": "llevarse bien"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0057",
+      "cardId": "c1-sich zufrieden geben-185",
+      "field": "lv",
+      "ownerNew": "darse por satisfecho",
+      "ownerCurrent": "satisfacer"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0058",
+      "cardId": "c1-Straßenkreuzung-193",
+      "field": "lv",
+      "ownerNew": "intersección de calles",
+      "ownerCurrent": "bocacalle"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0059",
+      "cardId": "c1-Abkommen-198",
+      "field": "lv",
+      "ownerNew": "acuerdo",
+      "ownerCurrent": "acuerdo • acuerdo"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0060",
+      "cardId": "c1-Abschleppdienst-199",
+      "field": "lv",
+      "ownerNew": "servicio de grúa",
+      "ownerCurrent": "servicio de evacuación • servicio de mudanza"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0061",
+      "cardId": "c1-Basisforschung-206",
+      "field": "lv",
+      "ownerNew": "investigación básica",
+      "ownerCurrent": "investigacion basica"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0062",
+      "cardId": "c1-beachtenswert-207",
+      "field": "lv",
+      "ownerNew": "notable",
+      "ownerCurrent": "notable • considerable"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0063",
+      "cardId": "c1-beanspruchen-208",
+      "field": "lv",
+      "ownerNew": "requerir • reclamar • estar ocupado",
+      "ownerCurrent": "requerir • reclamar • estar agobiado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0064",
+      "cardId": "c1-Bedarfsartikel-209",
+      "field": "lv",
+      "ownerNew": "artículos de primera necesidad",
+      "ownerCurrent": "bienes de consumo"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0065",
+      "cardId": "c1-Befangenheit-211",
+      "field": "lv",
+      "ownerNew": "turbación • embarazo",
+      "ownerCurrent": "vergüenza • vergüenza"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0066",
+      "cardId": "c1-beglückwünschen-213",
+      "field": "lv",
+      "ownerNew": "felicitar",
+      "ownerCurrent": "desear felicidad • felicitar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0067",
+      "cardId": "c1-beiderseitig-214",
+      "field": "lv",
+      "ownerNew": "bilateral • mutuo",
+      "ownerCurrent": "dos caras • dos caras"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0068",
+      "cardId": "c1-beklagen-217",
+      "field": "lv",
+      "ownerNew": "lamentar • afligirse • llorar la pérdida de alguien • lamentarse • quejarse",
+      "ownerCurrent": "arrepentirse · afligirse · llorar · lamentarse · quejarse"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0069",
+      "cardId": "c1-Belegschaft-219",
+      "field": "lv",
+      "ownerNew": "plantilla • personal",
+      "ownerCurrent": "colectivo • personal"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0070",
+      "cardId": "c1-benachteiligen-220",
+      "field": "lv",
+      "ownerNew": "perjudicar • discriminar",
+      "ownerCurrent": "dañar • causar daño • dañar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0071",
+      "cardId": "c1-Berufsberater-221",
+      "field": "lv",
+      "ownerNew": "orientador profesional",
+      "ownerCurrent": "consultor de empleo"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0072",
+      "cardId": "c1-beratschlagen-222",
+      "field": "lv",
+      "ownerNew": "deliberar",
+      "ownerCurrent": "conversar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0073",
+      "cardId": "c1-bereitwillig-224",
+      "field": "lv",
+      "ownerNew": "dispuesto • solícito",
+      "ownerCurrent": "listo para servir • servicial"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0074",
+      "cardId": "c1-Berufsberatung-225",
+      "field": "lv",
+      "ownerNew": "consulta de orientación profesional",
+      "ownerCurrent": "consulta de orientacion profesional"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0075",
+      "cardId": "c1-Berufsgeheimnis-226",
+      "field": "lv",
+      "ownerNew": "secreto profesional",
+      "ownerCurrent": "secreto de oficina"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0076",
+      "cardId": "c1-Berufung-227",
+      "field": "lv",
+      "ownerNew": "vocación • inclinación • recurso",
+      "ownerCurrent": "llamamiento • inclinación • atractivo"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0077",
+      "cardId": "c1-bescheinigen-230",
+      "field": "lv",
+      "ownerNew": "certificar • atestiguar",
+      "ownerCurrent": "certificar • emitir un certificado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0078",
+      "cardId": "c1-Bescheinigung-231",
+      "field": "lv",
+      "ownerNew": "constancia • certificado • atestación",
+      "ownerCurrent": "referencia • certificado • atestación • atestación"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0079",
+      "cardId": "c1-beschlagnahmen-232",
+      "field": "lv",
+      "ownerNew": "embargar • confiscar • incautar",
+      "ownerCurrent": "confiscar • confiscar • expropiar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0080",
+      "cardId": "c1-beschuldigen-233",
+      "field": "lv",
+      "ownerNew": "acusar • inculpar",
+      "ownerCurrent": "acusar • insultar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0081",
+      "cardId": "c1-Betriebskosten-236",
+      "field": "lv",
+      "ownerNew": "gastos de funcionamiento • costes operativos",
+      "ownerCurrent": "gastos de funcionamiento de la empresa • gastos de producción"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0082",
+      "cardId": "c1-Betriebssystem-237",
+      "field": "lv",
+      "ownerNew": "sistema operativo",
+      "ownerCurrent": "sistema de instalación de computadora"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0083",
+      "cardId": "c1-bevorstehend-239",
+      "field": "lv",
+      "ownerNew": "inminente • próximo",
+      "ownerCurrent": "próximo • siguiente"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0084",
+      "cardId": "c1-bewähren, sich-240",
+      "field": "lv",
+      "ownerNew": "demostrar su eficacia • dar buenos resultados",
+      "ownerCurrent": "resulta ser cierto • justificar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0085",
+      "cardId": "c1-Beweismaterial-241",
+      "field": "lv",
+      "ownerNew": "material probatorio",
+      "ownerCurrent": "evidencia física"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0086",
+      "cardId": "c1-bewerben, sich-242",
+      "field": "lv",
+      "ownerNew": "postularse • presentar una candidatura",
+      "ownerCurrent": "aplicar • correr • esforzarse • aspirar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0087",
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "ownerNew": "persona de referencia • persona cercana",
+      "ownerCurrent": "contacto • persona más cercana"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0088",
+      "cardId": "c1-Bundesdeutsche-250",
+      "field": "lv",
+      "ownerNew": "ciudadano de la RFA",
+      "ownerCurrent": "ciudadano FFR"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0089",
+      "cardId": "c1-dauerhaft-255",
+      "field": "lv",
+      "ownerNew": "duradero • permanente • resistente",
+      "ownerCurrent": "duradero • largo • duradero"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0090",
+      "cardId": "c1-dazwischenkommen-256",
+      "field": "lv",
+      "ownerNew": "interponerse",
+      "ownerCurrent": "suceder • suceder entre • intervenir"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0091",
+      "cardId": "c1-Eigentumsdelikt-260",
+      "field": "lv",
+      "ownerNew": "delito contra la propiedad",
+      "ownerCurrent": "violación de los derechos de propiedad"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0092",
+      "cardId": "c1-Verkehrsdelikt-261",
+      "field": "lv",
+      "ownerNew": "delito de tráfico",
+      "ownerCurrent": "violación de las reglas de tráfico"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0093",
+      "cardId": "c1-dementsprechend-262",
+      "field": "lv",
+      "ownerNew": "en consecuencia",
+      "ownerCurrent": "respectivamente"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0094",
+      "cardId": "c1-dessen ungeachtet-263",
+      "field": "lv",
+      "ownerNew": "a pesar de ello",
+      "ownerCurrent": "a pesar de ello • a pesar de ello"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0095",
+      "cardId": "c1-Nachrichtendienst-264",
+      "field": "lv",
+      "ownerNew": "servicio de inteligencia",
+      "ownerCurrent": "servicio secreto de estado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0096",
+      "cardId": "c1-Dienstleistung-266",
+      "field": "lv",
+      "ownerNew": "servicio",
+      "ownerCurrent": "servicio domestico"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0097",
+      "cardId": "c1-Durchfuhrverbot-275",
+      "field": "lv",
+      "ownerNew": "prohibición de tránsito",
+      "ownerCurrent": "prohibición de paso"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0098",
+      "cardId": "c1-Durchgangsverkehr-276",
+      "field": "lv",
+      "ownerNew": "tráfico de paso",
+      "ownerCurrent": "tráfico de tránsito"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0100",
+      "cardId": "c1-eingeschrieben-279",
+      "field": "lv",
+      "ownerNew": "inscrito",
+      "ownerCurrent": "grabado • registrado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0101",
+      "cardId": "c1-Währungseinheit-280",
+      "field": "lv",
+      "ownerNew": "unidad monetaria",
+      "ownerCurrent": "unidad de dinero"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0102",
+      "cardId": "c1-Einlage-282",
+      "field": "lv",
+      "ownerNew": "depósito",
+      "ownerCurrent": "contribución • depósito • adjunto a la carta"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0103",
+      "cardId": "c1-einreden-283",
+      "field": "lv",
+      "ownerNew": "persuadir",
+      "ownerCurrent": "decir • insistir • tratar de persuadir"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0104",
+      "cardId": "c1-sich einschmeicheln-284",
+      "field": "lv",
+      "ownerNew": "adular",
+      "ownerCurrent": "adular • adular"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0105",
+      "cardId": "c1-Einspruchsrecht-286",
+      "field": "lv",
+      "ownerNew": "derecho de objeción",
+      "ownerCurrent": "derecho de protesta • derecho de veto"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0106",
+      "cardId": "c1-Einstandsgebühr-287",
+      "field": "lv",
+      "ownerNew": "cuota de ingreso",
+      "ownerCurrent": "tarifa de entrada"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0107",
+      "cardId": "c1-Einverständnis-288",
+      "field": "lv",
+      "ownerNew": "consentimiento",
+      "ownerCurrent": "comprensión • consenso • consentimiento"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0108",
+      "cardId": "c1-Eisenbahnunglück-289",
+      "field": "lv",
+      "ownerNew": "accidente ferroviario",
+      "ownerCurrent": "desastre ferroviario"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0109",
+      "cardId": "c1-Elementarregel-293",
+      "field": "lv",
+      "ownerNew": "ley básica",
+      "ownerCurrent": "ley basica"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0110",
+      "cardId": "c1-entgegensetzen-296",
+      "field": "lv",
+      "ownerNew": "oponer",
+      "ownerCurrent": "frente a • frente a"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0111",
+      "cardId": "c1-sich entgegensetzen-297",
+      "field": "lv",
+      "ownerNew": "oponerse",
+      "ownerCurrent": "resistir"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0112",
+      "cardId": "c1-sich entschließen-299",
+      "field": "lv",
+      "ownerNew": "decidirse",
+      "ownerCurrent": "decidir • decidir"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0113",
+      "cardId": "c1-entschlossen-300",
+      "field": "lv",
+      "ownerNew": "decidido",
+      "ownerCurrent": "decidido • decidido • inquebrantable"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0114",
+      "cardId": "c1-Gesetzentwurf-302",
+      "field": "lv",
+      "ownerNew": "proyecto de ley",
+      "ownerCurrent": "factura"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0115",
+      "cardId": "c1-Erbkrankheit-304",
+      "field": "lv",
+      "ownerNew": "enfermedad hereditaria",
+      "ownerCurrent": "enfermedad congénita"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0116",
+      "cardId": "c1-festgesetzt-309",
+      "field": "lv",
+      "ownerNew": "determinado • establecido",
+      "ownerCurrent": "determinado • condicional • establecido"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0117",
+      "cardId": "c1-feuergefährlich-310",
+      "field": "lv",
+      "ownerNew": "inflamable",
+      "ownerCurrent": "incombustible"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0118",
+      "cardId": "c1-Feuerwerkskörper-312",
+      "field": "lv",
+      "ownerNew": "artificio pirotécnico",
+      "ownerCurrent": "cohete para fuegos artificiales"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0119",
+      "cardId": "c1-fortgeschritten-316",
+      "field": "lv",
+      "ownerNew": "avanzado",
+      "ownerCurrent": "relativamente tarde en el desarrollo"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0120",
+      "cardId": "c1-fortschrittlich-317",
+      "field": "lv",
+      "ownerNew": "progresista",
+      "ownerCurrent": "progresivo"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0121",
+      "cardId": "c1-Friedensangebot-319",
+      "field": "lv",
+      "ownerNew": "oferta de paz",
+      "ownerCurrent": "una ofrenda de paz"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0122",
+      "cardId": "c1-Führunternehmen-322",
+      "field": "lv",
+      "ownerNew": "empresa de transporte de mercancías",
+      "ownerCurrent": "empresa de transporte de mercancias"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0123",
+      "cardId": "c1-soziale Fürsorge-323",
+      "field": "lv",
+      "ownerNew": "asistencia social",
+      "ownerCurrent": "seguridad social"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0124",
+      "cardId": "c1-Auffassungsgabe-324",
+      "field": "lv",
+      "ownerNew": "capacidad de comprensión",
+      "ownerCurrent": "capacidad perceptiva"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0125",
+      "cardId": "c1-Gefrierpunkt-330",
+      "field": "lv",
+      "ownerNew": "punto de congelación",
+      "ownerCurrent": "punto de congelación • punto cero"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0126",
+      "cardId": "c1-Beichtgeheimnis-332",
+      "field": "lv",
+      "ownerNew": "secreto de confesión",
+      "ownerCurrent": "un secreto confesado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0127",
+      "cardId": "c1-Geisterstunde-334",
+      "field": "lv",
+      "ownerNew": "hora de los fantasmas",
+      "ownerCurrent": "hora fantasma"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0128",
+      "cardId": "c1-geisteskrank-336",
+      "field": "lv",
+      "ownerNew": "mentalmente enfermo",
+      "ownerCurrent": "enfermo mental"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0129",
+      "cardId": "c1-geistesschwach-337",
+      "field": "lv",
+      "ownerNew": "débil mental • de pocas luces",
+      "ownerCurrent": "débil de espíritu • obstinado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0130",
+      "cardId": "c1-Geländefahrt-338",
+      "field": "lv",
+      "ownerNew": "viaje todoterreno",
+      "ownerCurrent": "viaje a través del país"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0131",
+      "cardId": "c1-Gemeineigentum-343",
+      "field": "lv",
+      "ownerNew": "propiedad pública",
+      "ownerCurrent": "propiedad publica"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0132",
+      "cardId": "c1-Gemütsmensch-344",
+      "field": "lv",
+      "ownerNew": "persona amable y bondadosa",
+      "ownerCurrent": "persona amable y amable"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0133",
+      "cardId": "c1-Gepflogenheit-350",
+      "field": "lv",
+      "ownerNew": "costumbre • práctica habitual",
+      "ownerCurrent": "personalizado • personalizado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0134",
+      "cardId": "c1-Schwurgericht-352",
+      "field": "lv",
+      "ownerNew": "tribunal del jurado",
+      "ownerCurrent": "juicio con jurado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0135",
+      "cardId": "c1-Gerichtshof-353",
+      "field": "lv",
+      "ownerNew": "tribunal",
+      "ownerCurrent": "sala de audiencias • tribunal"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0136",
+      "cardId": "c1-Gesamtergebnis-356",
+      "field": "lv",
+      "ownerNew": "resultado global",
+      "ownerCurrent": "resultado final • resultado final"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0137",
+      "cardId": "c1-Geschäftshaus-358",
+      "field": "lv",
+      "ownerNew": "edificio comercial",
+      "ownerCurrent": "casa comercial"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0138",
+      "cardId": "c1-Geschäftsjahr-359",
+      "field": "lv",
+      "ownerNew": "ejercicio fiscal",
+      "ownerCurrent": "año de granja"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0139",
+      "cardId": "c1-geschlechtsreif-360",
+      "field": "lv",
+      "ownerNew": "sexualmente maduro",
+      "ownerCurrent": "ha alcanzado la madurez sexual"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0140",
+      "cardId": "c1-Gesetzbuch-361",
+      "field": "lv",
+      "ownerNew": "código • código de leyes",
+      "ownerCurrent": "códice • colección de leyes"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0141",
+      "cardId": "c1-gesetzgebend-362",
+      "field": "lv",
+      "ownerNew": "legislativo",
+      "ownerCurrent": "legislador"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0142",
+      "cardId": "c1-gesetzlos-363",
+      "field": "lv",
+      "ownerNew": "sin ley",
+      "ownerCurrent": "ilegal"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0143",
+      "cardId": "c1-gesetzmäßig-364",
+      "field": "lv",
+      "ownerNew": "lícito • conforme a la ley",
+      "ownerCurrent": "lícito • lícito"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0144",
+      "cardId": "c1-Gesichtskreis-366",
+      "field": "lv",
+      "ownerNew": "horizonte • campo de visión",
+      "ownerCurrent": "horizonte • horizonte"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0145",
+      "cardId": "c1-Gewissensbisse-368",
+      "field": "lv",
+      "ownerNew": "remordimientos de conciencia",
+      "ownerCurrent": "remordimiento"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0146",
+      "cardId": "c1-Grenzverletzung-373",
+      "field": "lv",
+      "ownerNew": "violación de la frontera",
+      "ownerCurrent": "violación fronteriza"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0147",
+      "cardId": "c1-haften-378",
+      "field": "lv",
+      "ownerNew": "adherirse • estar adherido",
+      "ownerCurrent": "pegar • estar atascado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0148",
+      "cardId": "c1-Haltbarkeitsdauer-380",
+      "field": "lv",
+      "ownerNew": "duración de conservación",
+      "ownerCurrent": "tiempo de almacenamiento"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0149",
+      "cardId": "c1-Hausdurchsuchung-384",
+      "field": "lv",
+      "ownerNew": "registro domiciliario",
+      "ownerCurrent": "búsqueda policial"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0150",
+      "cardId": "c1-herunterstürzen-391",
+      "field": "lv",
+      "ownerNew": "precipitarse • caer al suelo",
+      "ownerCurrent": "caer al suelo • caer al suelo"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0151",
+      "cardId": "c1-sich hinreißen lassen-392",
+      "field": "lv",
+      "ownerNew": "dejarse llevar",
+      "ownerCurrent": "excitarse"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0152",
+      "cardId": "c1-Industrieanlage-395",
+      "field": "lv",
+      "ownerNew": "instalación industrial",
+      "ownerCurrent": "complejo industrial"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0153",
+      "cardId": "c1-inhaftieren-396",
+      "field": "lv",
+      "ownerNew": "encarcelar",
+      "ownerCurrent": "arrestar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0154",
+      "cardId": "c1-Justiz-401",
+      "field": "lv",
+      "ownerNew": "justicia • poder judicial",
+      "ownerCurrent": "justicia • casos legales"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0155",
+      "cardId": "c1-Kaution-404",
+      "field": "lv",
+      "ownerNew": "prenda • fianza • depósito de garantía • garantía",
+      "ownerCurrent": "prenda • fianza • fianza • garantía"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0156",
+      "cardId": "c1-körperbehindert-406",
+      "field": "lv",
+      "ownerNew": "con discapacidad física",
+      "ownerCurrent": "físicamente discapacitado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0157",
+      "cardId": "c1-Krankheitserreger-407",
+      "field": "lv",
+      "ownerNew": "agente patógeno",
+      "ownerCurrent": "agente de la enfermedad"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0158",
+      "cardId": "c1-Kriegsbeschädigte-408",
+      "field": "lv",
+      "ownerNew": "persona discapacitada por la guerra",
+      "ownerCurrent": "una guerra inválida"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0159",
+      "cardId": "c1-lebensgefährlich-413",
+      "field": "lv",
+      "ownerNew": "potencialmente mortal",
+      "ownerCurrent": "amenazante para la vida • peligroso"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0160",
+      "cardId": "c1-Lebensgefährte-414",
+      "field": "lv",
+      "ownerNew": "pareja de hecho",
+      "ownerCurrent": "cónyuge en un matrimonio no registrado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0161",
+      "cardId": "c1-Leistungssport-416",
+      "field": "lv",
+      "ownerNew": "deporte de alto rendimiento",
+      "ownerCurrent": "deportes profesionales"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0162",
+      "cardId": "c1-Liebesbeziehung-418",
+      "field": "lv",
+      "ownerNew": "relación amorosa",
+      "ownerCurrent": "relaciones íntimas"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0163",
+      "cardId": "c1-Liebeserklärung-419",
+      "field": "lv",
+      "ownerNew": "declaración de amor",
+      "ownerCurrent": "el descubrimiento del amor"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0164",
+      "cardId": "c1-Marschflugkörper-424",
+      "field": "lv",
+      "ownerNew": "misil de crucero",
+      "ownerCurrent": "misil de crucero • misil de crucero"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0165",
+      "cardId": "c1-Meineid-427",
+      "field": "lv",
+      "ownerNew": "perjurio",
+      "ownerCurrent": "perjurio a sabiendas en el tribunal"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0166",
+      "cardId": "c1-niedergeschlagen-433",
+      "field": "lv",
+      "ownerNew": "abatido • deprimido",
+      "ownerCurrent": "deprimido • deprimido"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0167",
+      "cardId": "c1-Originalfassung-438",
+      "field": "lv",
+      "ownerNew": "versión original",
+      "ownerCurrent": "variante original"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0168",
+      "cardId": "c1-Parteifunktionär-440",
+      "field": "lv",
+      "ownerNew": "funcionario del partido",
+      "ownerCurrent": "trabajador del partido"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0169",
+      "cardId": "c1-Pflichtlektüre-441",
+      "field": "lv",
+      "ownerNew": "lectura obligatoria",
+      "ownerCurrent": "literatura de estudio obligatorio"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0170",
+      "cardId": "c1-Preisfrage-442",
+      "field": "lv",
+      "ownerNew": "pregunta de concurso",
+      "ownerCurrent": "pregunta de competencia"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0171",
+      "cardId": "c1-Presseerklärung-445",
+      "field": "lv",
+      "ownerNew": "comunicado de prensa",
+      "ownerCurrent": "presione soltar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0172",
+      "cardId": "c1-Produktionsweise-447",
+      "field": "lv",
+      "ownerNew": "modo de producción",
+      "ownerCurrent": "tipo de producción"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0173",
+      "cardId": "c1-Rangierbahnhof-448",
+      "field": "lv",
+      "ownerNew": "estación de clasificación ferroviaria",
+      "ownerCurrent": "patio de ferrocarril"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0174",
+      "cardId": "c1-Rechenschaft-451",
+      "field": "lv",
+      "ownerNew": "rendición de cuentas • responsabilidad",
+      "ownerCurrent": "responsabilidad (por las acciones de uno) • responsabilidad"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0175",
+      "cardId": "c1-Regierungschef-454",
+      "field": "lv",
+      "ownerNew": "jefe de gobierno",
+      "ownerCurrent": "primer ministro • jefe de gobierno"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0176",
+      "cardId": "c1-republikanisch-459",
+      "field": "lv",
+      "ownerNew": "republicano",
+      "ownerCurrent": "republicano • repúblicas"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0177",
+      "cardId": "c1-sanktionieren-461",
+      "field": "lv",
+      "ownerNew": "sancionar",
+      "ownerCurrent": "apoyo • sanción"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0178",
+      "cardId": "c1-Segelflugsport-468",
+      "field": "lv",
+      "ownerNew": "vuelo sin motor",
+      "ownerCurrent": "planeador"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0179",
+      "cardId": "c1-Selbstverwaltung-469",
+      "field": "lv",
+      "ownerNew": "autogestión",
+      "ownerCurrent": "municipio"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0180",
+      "cardId": "c1-selbstzufrieden-470",
+      "field": "lv",
+      "ownerNew": "complacido consigo mismo",
+      "ownerCurrent": "presumido"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0181",
+      "cardId": "c1-Sensationsmeldung-471",
+      "field": "lv",
+      "ownerNew": "noticia sensacional",
+      "ownerCurrent": "declaración sensacional"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0182",
+      "cardId": "c1-sesshaft-472",
+      "field": "lv",
+      "ownerNew": "sedentario",
+      "ownerCurrent": "vivir en un solo lugar • caravana"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0183",
+      "cardId": "c1-Spitzenleistung-479",
+      "field": "lv",
+      "ownerNew": "récord • máximo rendimiento • potencia máxima (técnica)",
+      "ownerCurrent": "récord • logro más alto • tecnología. potencia máxima"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0184",
+      "cardId": "c1-Staatsgeheimnis-482",
+      "field": "lv",
+      "ownerNew": "secreto de Estado",
+      "ownerCurrent": "secreto de estado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0185",
+      "cardId": "c1-stimmberechtigt-484",
+      "field": "lv",
+      "ownerNew": "con derecho a voto",
+      "ownerCurrent": "derecho a votar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0186",
+      "cardId": "c1-synchronisieren-486",
+      "field": "lv",
+      "ownerNew": "sincronizar",
+      "ownerCurrent": "doblar la película"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0187",
+      "cardId": "c1-überanstrengen-489",
+      "field": "lv",
+      "ownerNew": "forzar demasiado • esforzarse demasiado",
+      "ownerCurrent": "trabajar demasiado • sich ü. trabajar demasiado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0188",
+      "cardId": "c1-Überschuss-493",
+      "field": "lv",
+      "ownerNew": "sobrante • excedente • superávit",
+      "ownerCurrent": "resto • excedente • liquidación"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0189",
+      "cardId": "c1-Unannehmlichkeit-495",
+      "field": "lv",
+      "ownerNew": "inconveniente • molestia",
+      "ownerCurrent": "problema • una ocasión desagradable"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0190",
+      "cardId": "c1-verabschieden-500",
+      "field": "lv",
+      "ownerNew": "despedir • jubilar",
+      "ownerCurrent": "liberación del trabajo • jubilarse"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0191",
+      "cardId": "c1-verdrießlich-503",
+      "field": "lv",
+      "ownerNew": "desagradable • irritable • malhumorado",
+      "ownerCurrent": "desagradable • molesto • molesto"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0192",
+      "cardId": "c1-Vergünstigung-508",
+      "field": "lv",
+      "ownerNew": "beneficio",
+      "ownerCurrent": "ventaja • privilegio • alivio"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0193",
+      "cardId": "c1-Verhandlungen-511",
+      "field": "lv",
+      "ownerNew": "negociaciones",
+      "ownerCurrent": "conversaciones"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0194",
+      "cardId": "c1-vernachlässigen-518",
+      "field": "lv",
+      "ownerNew": "descuidar",
+      "ownerCurrent": "descuidar • ser descuidado"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0195",
+      "cardId": "c1-sich verpflichten-520",
+      "field": "lv",
+      "ownerNew": "comprometerse",
+      "ownerCurrent": "emprender"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0196",
+      "cardId": "c1-sich verschließen-521",
+      "field": "lv",
+      "ownerNew": "cerrarse • aislarse",
+      "ownerCurrent": "apagar • apagar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0197",
+      "cardId": "c1-verschlossen-522",
+      "field": "lv",
+      "ownerNew": "cerrado • reservado • introvertido",
+      "ownerCurrent": "bloqueado • cerrado • trans. cerrado • autónomo"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0198",
+      "cardId": "c1-verschreiben-524",
+      "field": "lv",
+      "ownerNew": "recetar",
+      "ownerCurrent": "medicina firmar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0199",
+      "cardId": "c1-verunglücken-530",
+      "field": "lv",
+      "ownerNew": "sufrir un accidente",
+      "ownerCurrent": "sufrir en un accidente • sufrir en un accidente"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0200",
+      "cardId": "c1-vervollkommnen-533",
+      "field": "lv",
+      "ownerNew": "perfeccionar • mejorar",
+      "ownerCurrent": "complementar • mejorar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0201",
+      "cardId": "c1-sich vervollkommnen-534",
+      "field": "lv",
+      "ownerNew": "perfeccionarse",
+      "ownerCurrent": "complementa tus conocimientos"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0202",
+      "cardId": "c1-Volksabstimmung-536",
+      "field": "lv",
+      "ownerNew": "referéndum • plebiscito",
+      "ownerCurrent": "voto popular • plebiscito"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0203",
+      "cardId": "c1-Volksbefragung-537",
+      "field": "lv",
+      "ownerNew": "consulta popular",
+      "ownerCurrent": "encuesta de todo el pueblo • referéndum"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0204",
+      "cardId": "c1-waag[e]recht-540",
+      "field": "lv",
+      "ownerNew": "nivelado • horizontal",
+      "ownerCurrent": "nivel • horizontal"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0205",
+      "cardId": "c1-Waffenruhe-541",
+      "field": "lv",
+      "ownerNew": "tregua",
+      "ownerCurrent": "una pausa en la lucha"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0206",
+      "cardId": "c1-Wäscheschleuder-545",
+      "field": "lv",
+      "ownerNew": "centrifugadora de ropa",
+      "ownerCurrent": "hilandero de lavandería"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0207",
+      "cardId": "c1-Wasserheilanstalt-546",
+      "field": "lv",
+      "ownerNew": "establecimiento de hidroterapia",
+      "ownerCurrent": "instalación de tratamiento de agua"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0208",
+      "cardId": "c1-Wechselbeziehung-549",
+      "field": "lv",
+      "ownerNew": "interrelación",
+      "ownerCurrent": "comunicación mutua"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0209",
+      "cardId": "c1-Weidenkätzchen-551",
+      "field": "lv",
+      "ownerNew": "sauce cabruno",
+      "ownerCurrent": "Amapola"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0210",
+      "cardId": "c1-Wetterleuchten-553",
+      "field": "lv",
+      "ownerNew": "resplandor de tormenta",
+      "ownerCurrent": "óxido"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0211",
+      "cardId": "c1-zusammenfallen-556",
+      "field": "lv",
+      "ownerNew": "colapsar • coincidir",
+      "ownerCurrent": "colapsar • suceder"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0212",
+      "cardId": "c1-Matsch-569",
+      "field": "lv",
+      "ownerNew": "barro",
+      "ownerCurrent": "barro • aguanieve"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0213",
+      "cardId": "c1-einfamilienhaus",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Viven en una casa unifamiliar.",
+      "ownerCurrent": "viven en una casa unifamiliar."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0214",
+      "cardId": "c1-einfamilienhaus",
+      "field": "study.examples[1].lv",
+      "ownerNew": "La casa unifamiliar tiene jardín.",
+      "ownerCurrent": "la casa unifamiliar tiene jardín."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0215",
+      "cardId": "c1-einfamilienhaus",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Hay un edificio de apartamentos al lado.",
+      "ownerCurrent": "hay un edificio de apartamentos al lado."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0216",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.translation",
+      "ownerNew": "esfera pública",
+      "ownerCurrent": "sociedad • apertura"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0217",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.examples[1].lv",
+      "ownerNew": "El caso salió a la luz.",
+      "ownerCurrent": "el caso salió a la luz."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0218",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.examples[2].lv",
+      "ownerNew": "El público tiene derecho a la información.",
+      "ownerCurrent": "el público tiene derecho a la información."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0219",
+      "cardId": "c1-partei",
+      "field": "study.translation",
+      "ownerNew": "partido político • parte",
+      "ownerCurrent": "fiesta • fiesta"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0220",
+      "cardId": "c1-partei",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Este partido ganó las elecciones.",
+      "ownerCurrent": "este partido ganó las elecciones."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0221",
+      "cardId": "c1-partei",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Ambas partes deben firmar el contrato.",
+      "ownerCurrent": "ambas partes deben firmar el contrato."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0222",
+      "cardId": "c1-prozess",
+      "field": "study.translation",
+      "ownerNew": "proceso • juicio",
+      "ownerCurrent": "proceso • demanda"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0223",
+      "cardId": "c1-prozess",
+      "field": "study.examples[0].lv",
+      "ownerNew": "El proceso dura varios meses.",
+      "ownerCurrent": "el proceso dura varios meses."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0225",
+      "cardId": "c1-zusammenfassen",
+      "field": "study.translation",
+      "ownerNew": "resumir",
+      "ownerCurrent": "resumir • resumir"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0226",
+      "cardId": "c1-zusammenfassen",
+      "field": "study.examples[5].lv",
+      "ownerNew": "El resumen es demasiado largo.",
+      "ownerCurrent": "el resumen es demasiado largo."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0227",
+      "cardId": "c1-wahl",
+      "field": "study.translation",
+      "ownerNew": "elección • elecciones",
+      "ownerCurrent": "elección • elección"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0228",
+      "cardId": "c1-wahl",
+      "field": "study.examples[0].lv",
+      "ownerNew": "Tienes una opción.",
+      "ownerCurrent": "tienes una opción."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0229",
+      "cardId": "c1-wahl",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Mucha gente va a las urnas.",
+      "ownerCurrent": "mucha gente va a las urnas."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0230",
+      "cardId": "c1-wahl",
+      "field": "study.examples[5].lv",
+      "ownerNew": "Votamos en las elecciones.",
+      "ownerCurrent": "votamos en las elecciones."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0231",
+      "cardId": "c1-gelegentlich",
+      "field": "study.translation",
+      "ownerNew": "a veces • ocasionalmente • con motivo de",
+      "ownerCurrent": "a veces • ocasión • debido a"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0232",
+      "cardId": "c1-gelegentlich",
+      "field": "study.examples[0].lv",
+      "ownerNew": "A veces pasa por aquí.",
+      "ownerCurrent": "a veces pasa por aquí."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0233",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[1].meaning",
+      "ownerNew": "ocasional • fortuito",
+      "ownerCurrent": "casual • accidental"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0234",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].meaning",
+      "ownerNew": "con motivo de",
+      "ownerCurrent": "debido a"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0235",
+      "cardId": "c1-gelegentlich",
+      "field": "study.important.text",
+      "ownerNew": "Adj.: ocasional. Adv.: a veces. Prep.: con motivo de. El contexto determina el significado.",
+      "ownerCurrent": "Adj.: informal. Adv.: a veces. Deberes. + Gen.: debido a. El contexto determina el significado."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0236",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.examples[1].lv",
+      "ownerNew": "A partir de los 18 años tienen derecho a votar.",
+      "ownerCurrent": "a partir de los 18 años tienen derecho a votar."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0237",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[1].meaning",
+      "ownerNew": "tener derecho a votar",
+      "ownerCurrent": "desear • votar"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0238",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.tip.leftBlocks[0].text",
+      "ownerNew": "Wahl = elección, berechtigt = con derecho. Común en prensa y textos legales.",
+      "ownerCurrent": "Wahl = elección, behrechtig = elegible. Común en prensa y textos legales."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0239",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.important.text",
+      "ownerNew": "wahlberechtigt = con derecho a voto. Lo contrario: nicht wahlberechtigt.",
+      "ownerCurrent": "wahlberechtig = con derecho a voto. Enfrente: nicht wahlberechtigkeit."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0240",
+      "cardId": "c1-zuschlag",
+      "field": "study.translation",
+      "ownerNew": "recargo • suplemento",
+      "ownerCurrent": "prima • margen de beneficio"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0241",
+      "cardId": "c1-zuschlag",
+      "field": "study.examples[2].lv",
+      "ownerNew": "recibió la adjudicación (en la subasta).",
+      "ownerCurrent": "recibió el pedido (en la subasta)."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0242",
+      "cardId": "c1-zuschlag",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Hay un recargo por exceso de equipaje.",
+      "ownerCurrent": "hay un recargo por exceso de equipaje."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0243",
+      "cardId": "c1-zuschlag",
+      "field": "study.examples[4].lv",
+      "ownerNew": "El precio es sin recargos.",
+      "ownerCurrent": "el precio es sin recargos."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0244",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.translation",
+      "ownerNew": "obtener • referirse a",
+      "ownerCurrent": "aplicar • aplicar a"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0245",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.examples[0].lv",
+      "ownerNew": "obtener • referirse a",
+      "ownerCurrent": "aplicar • aplicar a"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0246",
+      "cardId": "c1-beabsichtigen",
+      "field": "study.examples[1].lv",
+      "ownerNew": "¿Qué pretendes conseguir con este evento?",
+      "ownerCurrent": "¿Qué quieres decir con este evento?"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0247",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[1].lv",
+      "ownerNew": "¡No me atribuyas cosas sin fundamento!",
+      "ownerCurrent": "¡No me culpes por nada!"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0248",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[2].lv",
+      "ownerNew": "Nadie debería ser acusado injustamente de traición.",
+      "ownerCurrent": "nadie debería ser acusado injustamente de traición."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0249",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[3].lv",
+      "ownerNew": "Se le atribuye desconfianza.",
+      "ownerCurrent": "se le acusa de desconfianza."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0250",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[4].lv",
+      "ownerNew": "imputar sin fundamento; presuponer",
+      "ownerCurrent": "nepamatota vaina; voraussetzen"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0251",
+      "cardId": "c1-bewahren",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Mantienen la calma en una crisis.",
+      "ownerCurrent": "mantienen la calma en una crisis."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0252",
+      "cardId": "c1-bewahren",
+      "field": "study.examples[3].lv",
+      "ownerNew": "proteger o preservar",
+      "ownerCurrent": "proteger/preservar; aufrechterhalten"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0253",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[0].lv",
+      "ownerNew": "El Estado mantiene el orden.",
+      "ownerCurrent": "El Estado mantiene el orden en vigor."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0254",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[1].lv",
+      "ownerNew": "Deberá mantener vigente la acción.",
+      "ownerCurrent": "deberá mantener vigente la acción."
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0255",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[2].lv",
+      "ownerNew": "El Estado mantiene el orden.",
+      "ownerCurrent": "el estado mantiene el orden en vigor."
+    }
+  ],
+  "appliedVerified": [
+    {
+      "auditId": "ES-DE-C1-OWNER-0001",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0002",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[1].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0003",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0004",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[3].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0005",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[0].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0006",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[2].example",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0007",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.sectionAccents.explanation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0008",
+      "cardId": "c1-gewährleisten-1",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0009",
+      "cardId": "c1-Auswirkung-2",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0010",
+      "cardId": "c1-umstritten-3",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0011",
+      "cardId": "c1-Aktionsprogramm-10",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0012",
+      "cardId": "c1-Alarmbereitschaft-11",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0013",
+      "cardId": "c1-Altweibersommer-12",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0014",
+      "cardId": "c1-anfechten-13",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0015",
+      "cardId": "c1-Aal-18",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0016",
+      "cardId": "c1-Abtreibung-21",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0017",
+      "cardId": "c1-Frachtbrief-26",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0018",
+      "cardId": "c1-Kinderschänder-30",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0019",
+      "cardId": "c1-Zivilgesetzbuch-32",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0020",
+      "cardId": "c1-Abenddämmerung-34",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0021",
+      "cardId": "c1-Autokennzeichen-38",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0022",
+      "cardId": "c1-Bäckerhandwerk-39",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0023",
+      "cardId": "c1-Bergwanderung-41",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0024",
+      "cardId": "c1-sich beschäftigen-43",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0025",
+      "cardId": "c1-Besichtigung-46",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0026",
+      "cardId": "c1-charakteristisch-52",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0027",
+      "cardId": "c1-ekelhaft-60",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0028",
+      "cardId": "c1-Gartenerdbeere-62",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0029",
+      "cardId": "c1-Gepäckträger-70",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0030",
+      "cardId": "c1-geschäftlich-71",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0031",
+      "cardId": "c1-Geschäftsmann-72",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0032",
+      "cardId": "c1-geschmacklos-74",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0033",
+      "cardId": "c1-Gesichtspunkt-77",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0034",
+      "cardId": "c1-Hausangestellte-81",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0035",
+      "cardId": "c1-hinaufklettern-82",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0036",
+      "cardId": "c1-Hochzeitsbrauch-84",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0037",
+      "cardId": "c1-Tasteninstrument-90",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0038",
+      "cardId": "c1-Krankheitsbild-101",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0039",
+      "cardId": "c1-Lastkraftwagen-102",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0040",
+      "cardId": "c1-Morgengymnastik-112",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0041",
+      "cardId": "c1-Polizeieinheit-121",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0042",
+      "cardId": "c1-Premier-125",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0043",
+      "cardId": "c1-Scheibenwischer-136",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0044",
+      "cardId": "c1-Schiedsrichter-137",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0045",
+      "cardId": "c1-Schutzumschlag-142",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0046",
+      "cardId": "c1-Schwiegereltern-143",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0047",
+      "cardId": "c1-Stadtrundfahrt-149",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0048",
+      "cardId": "c1-Strampelhöschen-153",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0049",
+      "cardId": "c1-Stromverbrauch-154",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0050",
+      "cardId": "c1-Tagesnachrichten-155",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0051",
+      "cardId": "c1-Terminkalender-157",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0052",
+      "cardId": "c1-Unternehmen-162",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0053",
+      "cardId": "c1-Urteil-166",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0054",
+      "cardId": "c1-Verlegenheit-173",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0055",
+      "cardId": "c1-verschließen-174",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0056",
+      "cardId": "c1-sich verständigen-178",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0057",
+      "cardId": "c1-sich zufrieden geben-185",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0058",
+      "cardId": "c1-Straßenkreuzung-193",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0059",
+      "cardId": "c1-Abkommen-198",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0060",
+      "cardId": "c1-Abschleppdienst-199",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0061",
+      "cardId": "c1-Basisforschung-206",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0062",
+      "cardId": "c1-beachtenswert-207",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0063",
+      "cardId": "c1-beanspruchen-208",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0064",
+      "cardId": "c1-Bedarfsartikel-209",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0065",
+      "cardId": "c1-Befangenheit-211",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0066",
+      "cardId": "c1-beglückwünschen-213",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0067",
+      "cardId": "c1-beiderseitig-214",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0068",
+      "cardId": "c1-beklagen-217",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0069",
+      "cardId": "c1-Belegschaft-219",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0070",
+      "cardId": "c1-benachteiligen-220",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0071",
+      "cardId": "c1-Berufsberater-221",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0072",
+      "cardId": "c1-beratschlagen-222",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0073",
+      "cardId": "c1-bereitwillig-224",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0074",
+      "cardId": "c1-Berufsberatung-225",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0075",
+      "cardId": "c1-Berufsgeheimnis-226",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0076",
+      "cardId": "c1-Berufung-227",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0077",
+      "cardId": "c1-bescheinigen-230",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0078",
+      "cardId": "c1-Bescheinigung-231",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0079",
+      "cardId": "c1-beschlagnahmen-232",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0080",
+      "cardId": "c1-beschuldigen-233",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0081",
+      "cardId": "c1-Betriebskosten-236",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0082",
+      "cardId": "c1-Betriebssystem-237",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0083",
+      "cardId": "c1-bevorstehend-239",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0084",
+      "cardId": "c1-bewähren, sich-240",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0085",
+      "cardId": "c1-Beweismaterial-241",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0086",
+      "cardId": "c1-bewerben, sich-242",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0087",
+      "cardId": "c1-Bezugsperson-243",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0088",
+      "cardId": "c1-Bundesdeutsche-250",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0089",
+      "cardId": "c1-dauerhaft-255",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0090",
+      "cardId": "c1-dazwischenkommen-256",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0091",
+      "cardId": "c1-Eigentumsdelikt-260",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0092",
+      "cardId": "c1-Verkehrsdelikt-261",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0093",
+      "cardId": "c1-dementsprechend-262",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0094",
+      "cardId": "c1-dessen ungeachtet-263",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0095",
+      "cardId": "c1-Nachrichtendienst-264",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0096",
+      "cardId": "c1-Dienstleistung-266",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0097",
+      "cardId": "c1-Durchfuhrverbot-275",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0098",
+      "cardId": "c1-Durchgangsverkehr-276",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0100",
+      "cardId": "c1-eingeschrieben-279",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0101",
+      "cardId": "c1-Währungseinheit-280",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0102",
+      "cardId": "c1-Einlage-282",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0103",
+      "cardId": "c1-einreden-283",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0104",
+      "cardId": "c1-sich einschmeicheln-284",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0105",
+      "cardId": "c1-Einspruchsrecht-286",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0106",
+      "cardId": "c1-Einstandsgebühr-287",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0107",
+      "cardId": "c1-Einverständnis-288",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0108",
+      "cardId": "c1-Eisenbahnunglück-289",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0109",
+      "cardId": "c1-Elementarregel-293",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0110",
+      "cardId": "c1-entgegensetzen-296",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0111",
+      "cardId": "c1-sich entgegensetzen-297",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0112",
+      "cardId": "c1-sich entschließen-299",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0113",
+      "cardId": "c1-entschlossen-300",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0114",
+      "cardId": "c1-Gesetzentwurf-302",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0115",
+      "cardId": "c1-Erbkrankheit-304",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0116",
+      "cardId": "c1-festgesetzt-309",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0117",
+      "cardId": "c1-feuergefährlich-310",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0118",
+      "cardId": "c1-Feuerwerkskörper-312",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0119",
+      "cardId": "c1-fortgeschritten-316",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0120",
+      "cardId": "c1-fortschrittlich-317",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0121",
+      "cardId": "c1-Friedensangebot-319",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0122",
+      "cardId": "c1-Führunternehmen-322",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0123",
+      "cardId": "c1-soziale Fürsorge-323",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0124",
+      "cardId": "c1-Auffassungsgabe-324",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0125",
+      "cardId": "c1-Gefrierpunkt-330",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0126",
+      "cardId": "c1-Beichtgeheimnis-332",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0127",
+      "cardId": "c1-Geisterstunde-334",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0128",
+      "cardId": "c1-geisteskrank-336",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0129",
+      "cardId": "c1-geistesschwach-337",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0130",
+      "cardId": "c1-Geländefahrt-338",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0131",
+      "cardId": "c1-Gemeineigentum-343",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0132",
+      "cardId": "c1-Gemütsmensch-344",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0133",
+      "cardId": "c1-Gepflogenheit-350",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0134",
+      "cardId": "c1-Schwurgericht-352",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0135",
+      "cardId": "c1-Gerichtshof-353",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0136",
+      "cardId": "c1-Gesamtergebnis-356",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0137",
+      "cardId": "c1-Geschäftshaus-358",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0138",
+      "cardId": "c1-Geschäftsjahr-359",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0139",
+      "cardId": "c1-geschlechtsreif-360",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0140",
+      "cardId": "c1-Gesetzbuch-361",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0141",
+      "cardId": "c1-gesetzgebend-362",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0142",
+      "cardId": "c1-gesetzlos-363",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0143",
+      "cardId": "c1-gesetzmäßig-364",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0144",
+      "cardId": "c1-Gesichtskreis-366",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0145",
+      "cardId": "c1-Gewissensbisse-368",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0146",
+      "cardId": "c1-Grenzverletzung-373",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0147",
+      "cardId": "c1-haften-378",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0148",
+      "cardId": "c1-Haltbarkeitsdauer-380",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0149",
+      "cardId": "c1-Hausdurchsuchung-384",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0150",
+      "cardId": "c1-herunterstürzen-391",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0151",
+      "cardId": "c1-sich hinreißen lassen-392",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0152",
+      "cardId": "c1-Industrieanlage-395",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0153",
+      "cardId": "c1-inhaftieren-396",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0154",
+      "cardId": "c1-Justiz-401",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0155",
+      "cardId": "c1-Kaution-404",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0156",
+      "cardId": "c1-körperbehindert-406",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0157",
+      "cardId": "c1-Krankheitserreger-407",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0158",
+      "cardId": "c1-Kriegsbeschädigte-408",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0159",
+      "cardId": "c1-lebensgefährlich-413",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0160",
+      "cardId": "c1-Lebensgefährte-414",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0161",
+      "cardId": "c1-Leistungssport-416",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0162",
+      "cardId": "c1-Liebesbeziehung-418",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0163",
+      "cardId": "c1-Liebeserklärung-419",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0164",
+      "cardId": "c1-Marschflugkörper-424",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0165",
+      "cardId": "c1-Meineid-427",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0166",
+      "cardId": "c1-niedergeschlagen-433",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0167",
+      "cardId": "c1-Originalfassung-438",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0168",
+      "cardId": "c1-Parteifunktionär-440",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0169",
+      "cardId": "c1-Pflichtlektüre-441",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0170",
+      "cardId": "c1-Preisfrage-442",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0171",
+      "cardId": "c1-Presseerklärung-445",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0172",
+      "cardId": "c1-Produktionsweise-447",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0173",
+      "cardId": "c1-Rangierbahnhof-448",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0174",
+      "cardId": "c1-Rechenschaft-451",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0175",
+      "cardId": "c1-Regierungschef-454",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0176",
+      "cardId": "c1-republikanisch-459",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0177",
+      "cardId": "c1-sanktionieren-461",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0178",
+      "cardId": "c1-Segelflugsport-468",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0179",
+      "cardId": "c1-Selbstverwaltung-469",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0180",
+      "cardId": "c1-selbstzufrieden-470",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0181",
+      "cardId": "c1-Sensationsmeldung-471",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0182",
+      "cardId": "c1-sesshaft-472",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0183",
+      "cardId": "c1-Spitzenleistung-479",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0184",
+      "cardId": "c1-Staatsgeheimnis-482",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0185",
+      "cardId": "c1-stimmberechtigt-484",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0186",
+      "cardId": "c1-synchronisieren-486",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0187",
+      "cardId": "c1-überanstrengen-489",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0188",
+      "cardId": "c1-Überschuss-493",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0189",
+      "cardId": "c1-Unannehmlichkeit-495",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0190",
+      "cardId": "c1-verabschieden-500",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0191",
+      "cardId": "c1-verdrießlich-503",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0192",
+      "cardId": "c1-Vergünstigung-508",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0193",
+      "cardId": "c1-Verhandlungen-511",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0194",
+      "cardId": "c1-vernachlässigen-518",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0195",
+      "cardId": "c1-sich verpflichten-520",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0196",
+      "cardId": "c1-sich verschließen-521",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0197",
+      "cardId": "c1-verschlossen-522",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0198",
+      "cardId": "c1-verschreiben-524",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0199",
+      "cardId": "c1-verunglücken-530",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0200",
+      "cardId": "c1-vervollkommnen-533",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0201",
+      "cardId": "c1-sich vervollkommnen-534",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0202",
+      "cardId": "c1-Volksabstimmung-536",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0203",
+      "cardId": "c1-Volksbefragung-537",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0204",
+      "cardId": "c1-waag[e]recht-540",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0205",
+      "cardId": "c1-Waffenruhe-541",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0206",
+      "cardId": "c1-Wäscheschleuder-545",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0207",
+      "cardId": "c1-Wasserheilanstalt-546",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0208",
+      "cardId": "c1-Wechselbeziehung-549",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0209",
+      "cardId": "c1-Weidenkätzchen-551",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0210",
+      "cardId": "c1-Wetterleuchten-553",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0211",
+      "cardId": "c1-zusammenfallen-556",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0212",
+      "cardId": "c1-Matsch-569",
+      "field": "lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0213",
+      "cardId": "c1-einfamilienhaus",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0214",
+      "cardId": "c1-einfamilienhaus",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0215",
+      "cardId": "c1-einfamilienhaus",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0216",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0217",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0218",
+      "cardId": "c1-offentlichkeit",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0219",
+      "cardId": "c1-partei",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0220",
+      "cardId": "c1-partei",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0221",
+      "cardId": "c1-partei",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0222",
+      "cardId": "c1-prozess",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0223",
+      "cardId": "c1-prozess",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0225",
+      "cardId": "c1-zusammenfassen",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0226",
+      "cardId": "c1-zusammenfassen",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0227",
+      "cardId": "c1-wahl",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0228",
+      "cardId": "c1-wahl",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0229",
+      "cardId": "c1-wahl",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0230",
+      "cardId": "c1-wahl",
+      "field": "study.examples[5].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0231",
+      "cardId": "c1-gelegentlich",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0232",
+      "cardId": "c1-gelegentlich",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0233",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[1].meaning",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0234",
+      "cardId": "c1-gelegentlich",
+      "field": "study.comparison[2].meaning",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0235",
+      "cardId": "c1-gelegentlich",
+      "field": "study.important.text",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0236",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0237",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.comparison[1].meaning",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0238",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.tip.leftBlocks[0].text",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0239",
+      "cardId": "c1-wahlberechtigt",
+      "field": "study.important.text",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0240",
+      "cardId": "c1-zuschlag",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0241",
+      "cardId": "c1-zuschlag",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0242",
+      "cardId": "c1-zuschlag",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0243",
+      "cardId": "c1-zuschlag",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0244",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.translation",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0245",
+      "cardId": "c1-beziehen-sich-beziehen-auf",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0246",
+      "cardId": "c1-beabsichtigen",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0247",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0248",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0249",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0250",
+      "cardId": "c1-unterstellen",
+      "field": "study.examples[4].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0251",
+      "cardId": "c1-bewahren",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0252",
+      "cardId": "c1-bewahren",
+      "field": "study.examples[3].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0253",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[0].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0254",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[1].lv",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "auditId": "ES-DE-C1-OWNER-0255",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.examples[2].lv",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "mismatches": [],
+  "failed": [],
+  "verificationFailures": [],
+  "nelabotChanged": [],
+  "sourceDeIssueChanged": [],
+  "summary": {
+    "requestedLabot": 253,
+    "appliedVerified": 253,
+    "currentValueMismatch": 0,
+    "newValueMismatch": 0,
+    "failed": 0,
+    "nelabotUnchanged": 2,
+    "nelabotTotal": 2,
+    "sourceDeIssueUnchanged": 0,
+    "sourceDeIssueTotal": 0,
+    "totalCards": 572,
+    "studyCount": 15,
+    "deChanges": 0,
+    "otherLangChanges": 0,
+    "unexpectedChanges": 0,
+    "mirrorPass": "PASS",
+    "syntaxPass": "PASS",
+    "idOrderPass": "PASS",
+    "reconciliation": {
+      "uniqueTargets": 253,
+      "appliedVerified": 253,
+      "currentValueMismatch": 0,
+      "skipped": 0,
+      "failed": 0,
+      "reconciles": true,
+      "total": 253
+    },
+    "finalVerdict": "PASS — ALL 253 OWNER LABOT APPLIED AND VERIFIED"
+  },
+  "headAfter": "a906e1d1e07ebad50dcd21f76f1f3bb8745fd59f"
+}
