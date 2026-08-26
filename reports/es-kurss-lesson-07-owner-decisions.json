@@ -14,7 +14,7 @@
   },
   "lessonNumber": 7,
   "targetCount": 132,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 7,
@@ -25,8 +25,8 @@
       "current": "Lección 7",
       "deContext": "",
       "structureContext": "Lección 7 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 7",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Imperativo, forma de tratamiento y plural.",
       "deContext": "",
       "structureContext": "Lección 7 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Imperativo, forma de tratamiento y plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Diálogos/oraciones",
       "deContext": "",
       "structureContext": "Legacy accordion summary",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diálogos/oraciones",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Hans, singe ein Lied! Was tust du? Ich singe ein Lied.",
       "deContext": "Hans, singe ein Lied! Was tust du? Ich singe ein Lied.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hans, singe ein Lied! Was tust du? Ich singe ein Lied.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.",
       "deContext": "Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hans und Olga, singt ein Lied! Was tut ihr? Wir singen ein Lied.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.",
       "deContext": "Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Fräulein Müller, singen Sie, bitte, ein Lied! Was tun Sie? Ich singe ein Lied.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.",
       "deContext": "Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hans, zähle die Teller! Was tut Hans? Er zählt die Teller.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.",
       "deContext": "Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hans und Olga, zählt die Teller! Was tun Hans und Olga? Sie zählen die Teller.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Fräulein Müller, zählen Sie, bitte, die Teller!",
       "deContext": "Fräulein Müller, zählen Sie, bitte, die Teller!",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Fräulein Müller, zählen Sie, bitte, die Teller!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.",
       "deContext": "Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hans, öffne das Fenster! Was tut Hans? Er öffnet das Fenster.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.",
       "deContext": "Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hans und Olga, öffnet die Fenster! Was tun Hans und Olga? Sie öffnen die Fenster.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Fräulein Müller, öffnen Sie, bitte, alle Fenster!",
       "deContext": "Fräulein Müller, öffnen Sie, bitte, alle Fenster!",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Fräulein Müller, öffnen Sie, bitte, alle Fenster!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Fräulein Müller öffnet alle Fenster.",
       "deContext": "Fräulein Müller öffnet alle Fenster.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Fräulein Müller öffnet alle Fenster.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Das ist der Spiegel. Das sind die Spiegel.",
       "deContext": "Das ist der Spiegel. Das sind die Spiegel.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das ist der Spiegel. Das sind die Spiegel.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Das ist der Lappen. Das sind die Lappen.",
       "deContext": "Das ist der Lappen. Das sind die Lappen.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das ist der Lappen. Das sind die Lappen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Das ist der Spaten. Das sind die Spaten.",
       "deContext": "Das ist der Spaten. Das sind die Spaten.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das ist der Spaten. Das sind die Spaten.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "Das ist der Besen. Das sind die Besen.",
       "deContext": "Das ist der Besen. Das sind die Besen.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das ist der Besen. Das sind die Besen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "Das ist die Schaufel. Das sind die Schaufeln.",
       "deContext": "Das ist die Schaufel. Das sind die Schaufeln.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das ist die Schaufel. Das sind die Schaufeln.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "Das ist die Schüssel. Das sind die Schüsseln.",
       "deContext": "Das ist die Schüssel. Das sind die Schüsseln.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das ist die Schüssel. Das sind die Schüsseln.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "Das ist das Zimmer. Das sind die Zimmer.",
       "deContext": "Das ist das Zimmer. Das sind die Zimmer.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das ist das Zimmer. Das sind die Zimmer.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "Hans, singe ein Lied! ¿Qué estás haciendo? Ich singe ein Lied.",
       "deContext": "Hans, singe ein Lied! ¿Qué estás haciendo? Ich singe ein Lied.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hans, singe ein Lied! ¿Qué estás haciendo? Ich singe ein Lied.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "Palabras",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Palabras",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "Das ist das Ufer. Das sind die Ufer.",
       "deContext": "Das ist das Ufer. Das sind die Ufer.",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das ist das Ufer. Das sind die Ufer.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "singen — cantar",
       "deContext": "singen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singen — cantar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "singe — canción",
       "deContext": "singe",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singe — canción",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "singt — Tú",
       "deContext": "singt",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singt — Tú",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "singen Sie — conde",
       "deContext": "singen Sie",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singen Sie — cantar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "das Lied (das līt) — jovencita",
       "deContext": "das Lied (das līt)",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Lied (das līt) — canción",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "Sie — molinero",
       "deContext": "Sie",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie — molinero",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "zählen — abierto",
       "deContext": "zählen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zählen — abierto",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "das Fräulein (froilein) — ventana",
       "deContext": "das Fräulein (froilein)",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Fräulein (froilein) — ventana",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "der Müller — todos",
       "deContext": "der Müller",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Müller — el molinero",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "öffnen — espejo",
       "deContext": "öffnen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "öffnen — abrir",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "das Fenster (fenster) — trapo, fregona",
       "deContext": "das Fenster (fenster)",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Fenster (fenster) — ventana",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "alle — pala",
       "deContext": "alle",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "alle — todos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "der Spiegel (špīgel) — escoba",
       "deContext": "der Spiegel (špīgel)",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Spiegel (špīgel) — un espejo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "der Lappen — pala",
       "deContext": "der Lappen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Lappen — trapo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "der Spaten — cuenco",
       "deContext": "der Spaten",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Spaten — pala",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "der Besen — habitación",
       "deContext": "der Besen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Besen — escoba",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "die Schaufel — orilla",
       "deContext": "die Schaufel",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Schaufel — pala",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "singen — cantar",
       "deContext": "singen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singen — cantar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "singe — cantar",
       "deContext": "singe",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singe — cantar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "die Schüssel — sp al principio de una palabra o sílaba se pronuncia como šp: der Spiegel (para špīgel).",
       "deContext": "die Schüssel",
       "structureContext": "Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Schüssel — un cuenco",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "das Zimmer — sch se pronuncia como letón š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
       "deContext": "das Zimmer",
       "structureContext": "Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Zimmer — habitación",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "das Ufer (ūfer) — El diptongo äu se pronuncia como letón oi: das Fräulein (das froilein).",
       "deContext": "das Ufer (ūfer)",
       "structureContext": "Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Ufer (ūfer) — orilla",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).",
       "deContext": "sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Al inicio de una palabra o sílaba, sp se pronuncia «shp»: der Spiegel (dēr špīgel).",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
       "deContext": "sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sch se pronuncia como «sh»: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).",
       "deContext": "Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El diptongo äu se pronuncia «oi»: das Fräulein (das froilein).",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -La forma del comando en la segunda persona del plural es similar a la segunda persona del presente plural, pero se usa sin pronombre.",
       "deContext": "Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El imperativo de segunda persona singular se forma normalmente con la raíz verbal, sin el pronombre du.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "Piemēri: antworte!, arbeite!, öffne!, zeichne!",
       "deContext": "Piemēri: antworte!, arbeite!, öffne!, zeichne!",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejemplos: antworte!, arbeite!, öffne!, zeichne!",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "Ļoti bieži galotne -La forma de tratamiento con \"Usted\" se parece a la tercera persona del plural. El pronombre Sie es escrito con mayúscula y después del verbo.",
       "deContext": "Ļoti bieži galotne",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Con frecuencia se añade -e al imperativo cuando la raíz termina en -t, -d o en un grupo consonántico.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.",
       "deContext": "Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El imperativo de segunda persona plural coincide con la forma de ihr, pero se usa sin el pronombre.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
       "deContext": "Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejemplos: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-07-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "1Expresión de comandos",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "1Expresión de comandos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "2Comando plural",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "2Comando plural",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "3Forma de tratamiento con Sie",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "3Forma de tratamiento con Sie",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "4öffnen",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "4öffnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Legacy HTML hint placeholder 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "preguntar",
       "deContext": "fragen",
       "structureContext": "Lección 7 imperative exercise 1/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "preguntar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "frag! / frage!",
       "deContext": "fragen",
       "structureContext": "Lección 7 imperative du form, card 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "frag! / frage!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "fragt!",
       "deContext": "fragen",
       "structureContext": "Lección 7 imperative ihr form, card 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "fragt!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "fragen Sie!",
       "deContext": "fragen",
       "structureContext": "Lección 7 imperative sie form, card 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "fragen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "responder",
       "deContext": "antworten",
       "structureContext": "Lección 7 imperative exercise 2/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "responder",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "antworte!",
       "deContext": "antworten",
       "structureContext": "Lección 7 imperative du form, card 2",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "antworte!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "antwortet!",
       "deContext": "antworten",
       "structureContext": "Lección 7 imperative ihr form, card 2",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "antwortet!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "antworten Sie!",
       "deContext": "antworten",
       "structureContext": "Lección 7 imperative sie form, card 2",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "antworten Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "elogio",
       "deContext": "loben",
       "structureContext": "Lección 7 imperative exercise 3/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "elogio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "lob! / lobe!",
       "deContext": "loben",
       "structureContext": "Lección 7 imperative du form, card 3",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "lob! / lobe!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "lobt!",
       "deContext": "loben",
       "structureContext": "Lección 7 imperative ihr form, card 3",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "lobt!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "loben Sie!",
       "deContext": "loben",
       "structureContext": "Lección 7 imperative sie form, card 3",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "loben Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "amar",
       "deContext": "lieben",
       "structureContext": "Lección 7 imperative exercise 4/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "amar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "lieb! / liebe!",
       "deContext": "lieben",
       "structureContext": "Lección 7 imperative du form, card 4",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "lieb! / liebe!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "liebt!",
       "deContext": "lieben",
       "structureContext": "Lección 7 imperative ihr form, card 4",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "liebt!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "lieben Sie!",
       "deContext": "lieben",
       "structureContext": "Lección 7 imperative sie form, card 4",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "lieben Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "contar",
       "deContext": "zählen",
       "structureContext": "Lección 7 imperative exercise 5/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "contar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "zähl! / zähle!",
       "deContext": "zählen",
       "structureContext": "Lección 7 imperative du form, card 5",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zähl! / zähle!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "zählt!",
       "deContext": "zählen",
       "structureContext": "Lección 7 imperative ihr form, card 5",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zählt!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "zählen Sie!",
       "deContext": "zählen",
       "structureContext": "Lección 7 imperative sie form, card 5",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zählen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "espectáculo",
       "deContext": "zeigen",
       "structureContext": "Lección 7 imperative exercise 6/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "espectáculo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "zeig! / zeige!",
       "deContext": "zeigen",
       "structureContext": "Lección 7 imperative du form, card 6",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zeig! / zeige!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "zeigt!",
       "deContext": "zeigen",
       "structureContext": "Lección 7 imperative ihr form, card 6",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zeigt!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "zeigen Sie!",
       "deContext": "zeigen",
       "structureContext": "Lección 7 imperative sie form, card 6",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zeigen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "dibujar",
       "deContext": "zeichnen",
       "structureContext": "Lección 7 imperative exercise 7/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dibujar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "zeichne!",
       "deContext": "zeichnen",
       "structureContext": "Lección 7 imperative du form, card 7",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zeichne!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "zeichnet!",
       "deContext": "zeichnen",
       "structureContext": "Lección 7 imperative ihr form, card 7",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zeichnet!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "zeichnen Sie!",
       "deContext": "zeichnen",
       "structureContext": "Lección 7 imperative sie form, card 7",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zeichnen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "contar",
       "deContext": "rechnen",
       "structureContext": "Lección 7 imperative exercise 8/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "contar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "rechne!",
       "deContext": "rechnen",
       "structureContext": "Lección 7 imperative du form, card 8",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "rechne!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "rechnet!",
       "deContext": "rechnen",
       "structureContext": "Lección 7 imperative ihr form, card 8",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "rechnet!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "rechnen Sie!",
       "deContext": "rechnen",
       "structureContext": "Lección 7 imperative sie form, card 8",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "rechnen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "trabajar",
       "deContext": "arbeiten",
       "structureContext": "Lección 7 imperative exercise 9/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "trabajar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "arbeite!",
       "deContext": "arbeiten",
       "structureContext": "Lección 7 imperative du form, card 9",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "arbeite!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "arbeitet!",
       "deContext": "arbeiten",
       "structureContext": "Lección 7 imperative ihr form, card 9",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "arbeitet!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "arbeiten Sie!",
       "deContext": "arbeiten",
       "structureContext": "Lección 7 imperative sie form, card 9",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "arbeiten Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "venir",
       "deContext": "kommen",
       "structureContext": "Lección 7 imperative exercise 10/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "venir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "komm! / komme!",
       "deContext": "kommen",
       "structureContext": "Lección 7 imperative du form, card 10",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "komm! / komme!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "kommt!",
       "deContext": "kommen",
       "structureContext": "Lección 7 imperative ihr form, card 10",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kommt!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "kommen Sie!",
       "deContext": "kommen",
       "structureContext": "Lección 7 imperative sie form, card 10",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kommen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "ir",
       "deContext": "gehen",
       "structureContext": "Lección 7 imperative exercise 11/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "geh! / gehe!",
       "deContext": "gehen",
       "structureContext": "Lección 7 imperative du form, card 11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "geh! / gehe!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "geht!",
       "deContext": "gehen",
       "structureContext": "Lección 7 imperative ihr form, card 11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "geht!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "gehen Sie!",
       "deContext": "gehen",
       "structureContext": "Lección 7 imperative sie form, card 11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "gehen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "estar de pie",
       "deContext": "stehen",
       "structureContext": "Lección 7 imperative exercise 12/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "estar de pie",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0105"
     },
     {
@@ -1390,8 +1390,8 @@
       "current": "steh! / stehe!",
       "deContext": "stehen",
       "structureContext": "Lección 7 imperative du form, card 12",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "steh! / stehe!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0106"
     },
     {
@@ -1403,8 +1403,8 @@
       "current": "steht!",
       "deContext": "stehen",
       "structureContext": "Lección 7 imperative ihr form, card 12",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "steht!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0107"
     },
     {
@@ -1416,8 +1416,8 @@
       "current": "stehen Sie!",
       "deContext": "stehen",
       "structureContext": "Lección 7 imperative sie form, card 12",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "stehen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0108"
     },
     {
@@ -1429,8 +1429,8 @@
       "current": "abrir",
       "deContext": "öffnen",
       "structureContext": "Lección 7 imperative exercise 13/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "abrir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0109"
     },
     {
@@ -1442,8 +1442,8 @@
       "current": "öffne!",
       "deContext": "öffnen",
       "structureContext": "Lección 7 imperative du form, card 13",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "öffne!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0110"
     },
     {
@@ -1455,8 +1455,8 @@
       "current": "öffnet!",
       "deContext": "öffnen",
       "structureContext": "Lección 7 imperative ihr form, card 13",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "öffnet!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0111"
     },
     {
@@ -1468,8 +1468,8 @@
       "current": "öffnen Sie!",
       "deContext": "öffnen",
       "structureContext": "Lección 7 imperative sie form, card 13",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "öffnen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0112"
     },
     {
@@ -1481,8 +1481,8 @@
       "current": "cantar",
       "deContext": "singen",
       "structureContext": "Lección 7 imperative exercise 14/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "cantar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0113"
     },
     {
@@ -1494,8 +1494,8 @@
       "current": "sing! / singe!",
       "deContext": "singen",
       "structureContext": "Lección 7 imperative du form, card 14",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sing! / singe!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0114"
     },
     {
@@ -1507,8 +1507,8 @@
       "current": "singt!",
       "deContext": "singen",
       "structureContext": "Lección 7 imperative ihr form, card 14",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singt!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0115"
     },
     {
@@ -1520,8 +1520,8 @@
       "current": "singen Sie!",
       "deContext": "singen",
       "structureContext": "Lección 7 imperative sie form, card 14",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0116"
     },
     {
@@ -1533,8 +1533,8 @@
       "current": "hacer",
       "deContext": "tun",
       "structureContext": "Lección 7 imperative exercise 15/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hacer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0117"
     },
     {
@@ -1546,8 +1546,8 @@
       "current": "tu!",
       "deContext": "tun",
       "structureContext": "Lección 7 imperative du form, card 15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tu!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0118"
     },
     {
@@ -1559,8 +1559,8 @@
       "current": "tut!",
       "deContext": "tun",
       "structureContext": "Lección 7 imperative ihr form, card 15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tut!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0119"
     },
     {
@@ -1572,8 +1572,8 @@
       "current": "tun Sie!",
       "deContext": "tun",
       "structureContext": "Lección 7 imperative sie form, card 15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tun Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0120"
     },
     {
@@ -1585,8 +1585,8 @@
       "current": "tomar",
       "deContext": "nehmen",
       "structureContext": "Lección 7 imperative exercise 16/16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tomar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0121"
     },
     {
@@ -1598,8 +1598,8 @@
       "current": "nimm!",
       "deContext": "nehmen",
       "structureContext": "Lección 7 imperative du form, card 16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nimm!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0122"
     },
     {
@@ -1611,8 +1611,8 @@
       "current": "nehmt!",
       "deContext": "nehmen",
       "structureContext": "Lección 7 imperative ihr form, card 16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nehmt!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0123"
     },
     {
@@ -1624,8 +1624,8 @@
       "current": "nehmen Sie!",
       "deContext": "nehmen",
       "structureContext": "Lección 7 imperative sie form, card 16",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nehmen Sie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0124"
     },
     {
@@ -1637,8 +1637,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0125"
     },
     {
@@ -1650,8 +1650,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0126"
     },
     {
@@ -1663,8 +1663,8 @@
       "current": "Lección {lesson} · Traducir: {current} / {total}",
       "deContext": "",
       "structureContext": "Translate progress template",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0127"
     },
     {
@@ -1676,8 +1676,8 @@
       "current": "Lección {lesson} · Ejercicio",
       "deContext": "",
       "structureContext": "Exercise progress template",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección {lesson} · Ejercicio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0128"
     },
     {
@@ -1689,8 +1689,8 @@
       "current": "Ejercicio",
       "deContext": "",
       "structureContext": "Section raw title: Ejercicio",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0129"
     },
     {
@@ -1702,8 +1702,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Exercise flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0130"
     },
     {
@@ -1715,8 +1715,8 @@
       "current": "Lección {lesson} · Traducir: {current} / {total}",
       "deContext": "",
       "structureContext": "Translate progress template",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0131"
     },
     {
@@ -1728,9 +1728,16 @@
       "current": "Lección {lesson} · Ejercicio",
       "deContext": "",
       "structureContext": "Exercise progress template",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección {lesson} · Ejercicio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-07-0132"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 132,
+    "LABOT": 22,
+    "NELABOT": 110,
+    "unresolved": 0
+  }
 }
