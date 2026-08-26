@@ -50,17 +50,7 @@ const POSITIVE_MARKERS = [
   "con el artículo",
 ];
 
-const ALLOWED_CHANGED = new Set([
-  "data/es/courseLessons.js",
-  "www/data/es/courseLessons.js",
-  "reports/es-kurss-articles-visual-owner-decisions.json",
-  "reports/es-kurss-articles-visual-repair-task.md",
-  "reports/es-kurss-articles-visual-owner-apply.md",
-  "reports/es-kurss-articles-visual-repair-verification.md",
-  "reports/temp/es-kurss-articles-visual-owner-apply-log.json",
-  "scripts/apply-es-kurss-articles-visual-owner-copy-only.js",
-  "scripts/verify-es-kurss-articles-visual-repair.js",
-]);
+const ALLOWED_CHANGED = require("./lib/es-kurss-four-sections-integration-allowed");
 
 function read(rel) {
   return fs.readFileSync(path.join(ROOT, rel), "utf8");

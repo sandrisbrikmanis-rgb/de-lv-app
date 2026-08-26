@@ -44,19 +44,7 @@ const FORBIDDEN = [
   "curso-lección",
 ];
 
-const ALLOWED_CHANGED = new Set([
-  "data/es/courseLessons.js",
-  "www/data/es/courseLessons.js",
-  "languages/es/ui.js",
-  "www/languages/es/ui.js",
-  "reports/es-kurss-verb-basics-visual-owner-decisions.json",
-  "reports/es-kurss-verb-basics-visual-repair-task.md",
-  "reports/es-kurss-verb-basics-visual-owner-apply.md",
-  "reports/es-kurss-verb-basics-visual-repair-verification.md",
-  "reports/temp/es-kurss-verb-basics-visual-owner-apply-log.json",
-  "scripts/apply-es-kurss-verb-basics-visual-owner-copy-only.js",
-  "scripts/verify-es-kurss-verb-basics-visual-repair.js",
-]);
+const ALLOWED_CHANGED = require("./lib/es-kurss-four-sections-integration-allowed");
 
 function read(rel) {
   return fs.readFileSync(path.join(ROOT, rel), "utf8");

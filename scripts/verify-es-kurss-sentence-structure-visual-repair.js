@@ -26,17 +26,7 @@ const FORBIDDEN = [
   "¿Vas a ir?",
 ];
 
-const ALLOWED_CHANGED = new Set([
-  "data/es/courseLessons.js",
-  "www/data/es/courseLessons.js",
-  "reports/es-kurss-sentence-structure-visual-owner-decisions.json",
-  "reports/es-kurss-sentence-structure-visual-repair-task.md",
-  "reports/es-kurss-sentence-structure-visual-owner-apply.md",
-  "reports/es-kurss-sentence-structure-visual-repair-verification.md",
-  "reports/temp/es-kurss-sentence-structure-visual-owner-apply-log.json",
-  "scripts/apply-es-kurss-sentence-structure-visual-owner-copy-only.js",
-  "scripts/verify-es-kurss-sentence-structure-visual-repair.js",
-]);
+const ALLOWED_CHANGED = require("./lib/es-kurss-four-sections-integration-allowed");
 
 function read(rel) {
   return fs.readFileSync(path.join(ROOT, rel), "utf8");

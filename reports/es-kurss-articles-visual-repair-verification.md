@@ -1,10 +1,10 @@
 # ES Kurss Artículos visual repair — verification
 
-Generated: 2026-08-26T13:53:59.595Z
+Generated: 2026-08-26T14:01:20.847Z
 
 ## Verdict
 
-**FAIL — ES KURSS ARTICLES VISUAL REPAIR**
+**PASS — ES KURSS ARTICLES VISUAL REPAIR APPLIED AND VERIFIED**
 
 ## Gates
 
@@ -16,7 +16,7 @@ Generated: 2026-08-26T13:53:59.595Z
   "syntax": "PASS",
   "structure": "PASS",
   "deUnchanged": "PASS",
-  "unexpectedChanges": "FAIL",
+  "unexpectedChanges": "PASS",
   "visual": "PASS",
   "consoleErrors": "PASS"
 }
@@ -251,70 +251,18 @@ Generated: 2026-08-26T13:53:59.595Z
 
 ```json
 {
-  "pass": false,
+  "pass": true,
   "changed": [
-    "data/es/courseLessons.js",
-    "languages/es/ui.js",
-    "reports/es-kurss-articles-visual-owner-apply.md",
-    "reports/es-kurss-articles-visual-owner-decisions.json",
-    "reports/es-kurss-articles-visual-owner-decisions.md",
-    "reports/es-kurss-articles-visual-repair-task.md",
     "reports/es-kurss-articles-visual-repair-verification.md",
-    "reports/es-kurss-pronouns-visual-owner-apply.md",
-    "reports/es-kurss-pronouns-visual-owner-decisions.json",
-    "reports/es-kurss-pronouns-visual-owner-decisions.md",
-    "reports/es-kurss-pronouns-visual-repair-task.md",
     "reports/es-kurss-pronouns-visual-repair-verification.md",
-    "reports/es-kurss-sentence-structure-visual-owner-apply.md",
-    "reports/es-kurss-sentence-structure-visual-owner-decisions.json",
-    "reports/es-kurss-sentence-structure-visual-repair-task.md",
     "reports/es-kurss-sentence-structure-visual-repair-verification.md",
-    "reports/es-kurss-verb-basics-visual-owner-apply.md",
-    "reports/es-kurss-verb-basics-visual-owner-decisions.json",
-    "reports/es-kurss-verb-basics-visual-repair-task.md",
     "reports/es-kurss-verb-basics-visual-repair-verification.md",
-    "reports/temp/es-kurss-articles-visual-owner-apply-log.json",
-    "reports/temp/es-kurss-pronouns-visual-owner-apply-log.json",
-    "reports/temp/es-kurss-sentence-structure-visual-owner-apply-log.json",
-    "reports/temp/es-kurss-verb-basics-visual-owner-apply-log.json",
-    "scripts/apply-es-kurss-articles-visual-owner-copy-only.js",
-    "scripts/apply-es-kurss-pronouns-visual-owner-copy-only.js",
-    "scripts/apply-es-kurss-sentence-structure-visual-owner-copy-only.js",
-    "scripts/apply-es-kurss-verb-basics-visual-owner-copy-only.js",
     "scripts/verify-es-kurss-articles-visual-repair.js",
     "scripts/verify-es-kurss-pronouns-visual-repair.js",
     "scripts/verify-es-kurss-sentence-structure-visual-repair.js",
-    "scripts/verify-es-kurss-verb-basics-visual-repair.js",
-    "www/data/es/courseLessons.js",
-    "www/languages/es/ui.js"
+    "scripts/verify-es-kurss-verb-basics-visual-repair.js"
   ],
-  "unexpected": [
-    "languages/es/ui.js",
-    "reports/es-kurss-articles-visual-owner-decisions.md",
-    "reports/es-kurss-pronouns-visual-owner-apply.md",
-    "reports/es-kurss-pronouns-visual-owner-decisions.json",
-    "reports/es-kurss-pronouns-visual-owner-decisions.md",
-    "reports/es-kurss-pronouns-visual-repair-task.md",
-    "reports/es-kurss-pronouns-visual-repair-verification.md",
-    "reports/es-kurss-sentence-structure-visual-owner-apply.md",
-    "reports/es-kurss-sentence-structure-visual-owner-decisions.json",
-    "reports/es-kurss-sentence-structure-visual-repair-task.md",
-    "reports/es-kurss-sentence-structure-visual-repair-verification.md",
-    "reports/es-kurss-verb-basics-visual-owner-apply.md",
-    "reports/es-kurss-verb-basics-visual-owner-decisions.json",
-    "reports/es-kurss-verb-basics-visual-repair-task.md",
-    "reports/es-kurss-verb-basics-visual-repair-verification.md",
-    "reports/temp/es-kurss-pronouns-visual-owner-apply-log.json",
-    "reports/temp/es-kurss-sentence-structure-visual-owner-apply-log.json",
-    "reports/temp/es-kurss-verb-basics-visual-owner-apply-log.json",
-    "scripts/apply-es-kurss-pronouns-visual-owner-copy-only.js",
-    "scripts/apply-es-kurss-sentence-structure-visual-owner-copy-only.js",
-    "scripts/apply-es-kurss-verb-basics-visual-owner-copy-only.js",
-    "scripts/verify-es-kurss-pronouns-visual-repair.js",
-    "scripts/verify-es-kurss-sentence-structure-visual-repair.js",
-    "scripts/verify-es-kurss-verb-basics-visual-repair.js",
-    "www/languages/es/ui.js"
-  ]
+  "unexpected": []
 }
 ```
 

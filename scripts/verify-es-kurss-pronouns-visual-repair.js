@@ -28,20 +28,7 @@ const UNLOCALIZED = [
 ];
 const FORBIDDEN_DE_TYPO = ["helpe"];
 
-const ALLOWED_CHANGED = new Set([
-  "data/es/courseLessons.js",
-  "www/data/es/courseLessons.js",
-  "languages/es/ui.js",
-  "www/languages/es/ui.js",
-  "reports/es-kurss-pronouns-visual-owner-decisions.json",
-  "reports/es-kurss-pronouns-visual-owner-decisions.md",
-  "reports/es-kurss-pronouns-visual-repair-task.md",
-  "reports/es-kurss-pronouns-visual-owner-apply.md",
-  "reports/es-kurss-pronouns-visual-repair-verification.md",
-  "reports/temp/es-kurss-pronouns-visual-owner-apply-log.json",
-  "scripts/apply-es-kurss-pronouns-visual-owner-copy-only.js",
-  "scripts/verify-es-kurss-pronouns-visual-repair.js",
-]);
+const ALLOWED_CHANGED = require("./lib/es-kurss-four-sections-integration-allowed");
 
 function read(rel) {
   return fs.readFileSync(path.join(ROOT, rel), "utf8");
