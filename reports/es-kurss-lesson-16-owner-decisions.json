@@ -14,7 +14,7 @@
   },
   "lessonNumber": 16,
   "targetCount": 180,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 16,
@@ -25,8 +25,8 @@
       "current": "Lección 16",
       "deContext": "",
       "structureContext": "Lección 16 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 16",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Dativo, geben, sich nähern.",
       "deContext": "",
       "structureContext": "Lección 16 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dativo, geben, sich nähern.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Decimosexta conferencia: dativo, geben, sich nähern y ejercicios dativos.",
       "deContext": "",
       "structureContext": "Lección 16 intro paragraph",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Decimosexta conferencia: dativo, geben, sich nähern y ejercicios dativos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Accordion section 1; raw: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Wem schenkt der Vater ein Buch?",
       "deContext": "Wem schenkt der Vater ein Buch?",
       "structureContext": "Section[0] Texto / lectura / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wem schenkt der Vater ein Buch?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Der Vater schenkt dem Sohne ein Buch.",
       "deContext": "Der Vater schenkt dem Sohne ein Buch.",
       "structureContext": "Section[0] Texto / lectura / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater schenkt dem Sohne ein Buch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Der Vater schenkt den Söhnen Bücher.",
       "deContext": "Der Vater schenkt den Söhnen Bücher.",
       "structureContext": "Section[0] Texto / lectura / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater schenkt den Söhnen Bücher.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Wem nähert sich die Mutter?",
       "deContext": "Wem nähert sich die Mutter?",
       "structureContext": "Section[0] Texto / lectura / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wem nähert sich die Mutter?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Die Mutter nähert sich der Tochter.",
       "deContext": "Die Mutter nähert sich der Tochter.",
       "structureContext": "Section[0] Texto / lectura / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Mutter nähert sich der Tochter.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Die Mutter nähert sich den Töchtern.",
       "deContext": "Die Mutter nähert sich den Töchtern.",
       "structureContext": "Section[0] Texto / lectura / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Mutter nähert sich den Töchtern.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Wem gibt die Magd Brot und Milch?",
       "deContext": "Wem gibt die Magd Brot und Milch?",
       "structureContext": "Section[0] Texto / lectura / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wem gibt die Magd Brot und Milch?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Die Magd gibt dem Kinde Brot und Milch.",
       "deContext": "Die Magd gibt dem Kinde Brot und Milch.",
       "structureContext": "Section[0] Texto / lectura / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Magd gibt dem Kinde Brot und Milch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Die Magd gibt den Kindern Brot und Milch.",
       "deContext": "Die Magd gibt den Kindern Brot und Milch.",
       "structureContext": "Section[0] Texto / lectura / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Magd gibt den Kindern Brot und Milch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Wem gehorchen die Kinder?",
       "deContext": "Wem gehorchen die Kinder?",
       "structureContext": "Section[0] Texto / lectura / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wem gehorchen die Kinder?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Sie gehorchen den Eltern.",
       "deContext": "Sie gehorchen den Eltern.",
       "structureContext": "Section[0] Texto / lectura / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie gehorchen den Eltern.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Wem gehorcht der Hund?",
       "deContext": "Wem gehorcht der Hund?",
       "structureContext": "Section[0] Texto / lectura / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wem gehorcht der Hund?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "Der Hund gehorcht dem Knechte.",
       "deContext": "Der Hund gehorcht dem Knechte.",
       "structureContext": "Section[0] Texto / lectura / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Hund gehorcht dem Knechte.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "Wem gehören die Felder, die Wiesen und die Wälder?",
       "deContext": "Wem gehören die Felder, die Wiesen und die Wälder?",
       "structureContext": "Section[0] Texto / lectura / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wem gehören die Felder, die Wiesen und die Wälder?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "Die Felder, die Wiesen und die Wälder gehören den Bauern und den Bäuerinnen.",
       "deContext": "Die Felder, die Wiesen und die Wälder gehören den Bauern und den Bäuerinnen.",
       "structureContext": "Section[0] Texto / lectura / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Felder, die Wiesen und die Wälder gehören den Bauern und den Bäuerinnen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "Wem folgt der Hund?",
       "deContext": "Wem folgt der Hund?",
       "structureContext": "Section[0] Texto / lectura / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wem folgt der Hund?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "Der Hund folgt dem Jäger.",
       "deContext": "Der Hund folgt dem Jäger.",
       "structureContext": "Section[0] Texto / lectura / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Hund folgt dem Jäger.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "Der Hund ist dem Jäger treu.",
       "deContext": "Der Hund ist dem Jäger treu.",
       "structureContext": "Section[0] Texto / lectura / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Hund ist dem Jäger treu.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "wem — kam?",
       "deContext": "wem",
       "structureContext": "Section[1] Nombres / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wem — kam?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "schenken — regalar",
       "deContext": "schenken",
       "structureContext": "Section[1] Nombres / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "schenken — regalar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "dem Sohne — al hijo",
       "deContext": "dem Sohne",
       "structureContext": "Section[1] Nombres / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dem Sohne — al hijo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "den Söhnen — a los hijos",
       "deContext": "den Söhnen",
       "structureContext": "Section[1] Nombres / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "den Söhnen — a los hijos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "sich nähern — tuvoties",
       "deContext": "sich nähern",
       "structureContext": "Section[1] Nombres / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sich nähern — tuvoties",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "ich nähere mich — es tuvieronjos",
       "deContext": "ich nähere mich",
       "structureContext": "Section[1] Nombres / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich nähere mich — es tuvieronjos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "du näherst dich — tu tuvieronjies",
       "deContext": "du näherst dich",
       "structureContext": "Section[1] Nombres / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du näherst dich — tu tuvieronjies",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "geben — punto",
       "deContext": "geben",
       "structureContext": "Section[1] Nombres / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "geben — punto",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "ich gebe — es dodu",
       "deContext": "ich gebe",
       "structureContext": "Section[1] Nombres / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich gebe — es dodu",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "du gibst — tu dod",
       "deContext": "du gibst",
       "structureContext": "Section[1] Nombres / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du gibst — tu dod",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "er gibt — él da",
       "deContext": "er gibt",
       "structureContext": "Section[1] Nombres / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er gibt — él da",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "die Magd — kalpone",
       "deContext": "die Magd",
       "structureContext": "Section[1] Nombres / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Magd — kalpone",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "Brot — maise",
       "deContext": "Brot",
       "structureContext": "Section[1] Nombres / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Brot — maise",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "Milch — pies",
       "deContext": "Milch",
       "structureContext": "Section[1] Nombres / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Milch — pies",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "gehorchen — obedecer",
       "deContext": "gehorchen",
       "structureContext": "Section[1] Nombres / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "gehorchen — obedecer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "der Knecht — kalps",
       "deContext": "der Knecht",
       "structureContext": "Section[1] Nombres / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Knecht — kalps",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "gehören — pertenecer",
       "deContext": "gehören",
       "structureContext": "Section[1] Nombres / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "gehören — pertenecer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "das Feld — campo / campo",
       "deContext": "das Feld",
       "structureContext": "Section[1] Nombres / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Feld — campo / campo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "die Felder — campos / campos",
       "deContext": "die Felder",
       "structureContext": "Section[1] Nombres / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Felder — campos / campos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "die Wiese — el prado",
       "deContext": "die Wiese",
       "structureContext": "Section[1] Nombres / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Wiese — el prado",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "die Wiesen — prados",
       "deContext": "die Wiesen",
       "structureContext": "Section[1] Nombres / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Wiesen — prados",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "der Wald — el bosque",
       "deContext": "der Wald",
       "structureContext": "Section[1] Nombres / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Wald — el bosque",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "die Wälder — bosques",
       "deContext": "die Wälder",
       "structureContext": "Section[1] Nombres / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Wälder — bosques",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "der Bauer — zemnieks",
       "deContext": "der Bauer",
       "structureContext": "Section[1] Nombres / items[23]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Bauer — zemnieks",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "die Bäuerin — zemniece",
       "deContext": "die Bäuerin",
       "structureContext": "Section[1] Nombres / items[24]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Bäuerin — zemniece",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "folgen — sekot",
       "deContext": "folgen",
       "structureContext": "Section[1] Nombres / items[25]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "folgen — sekot",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "der Jäger — medicinas",
       "deContext": "der Jäger",
       "structureContext": "Section[1] Nombres / items[26]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Jäger — medicinas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "treu — fiel",
       "deContext": "treu",
       "structureContext": "Section[1] Nombres / items[27]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "treu — fiel",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "Dativs",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dativs",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "El dativo responde a la pregunta: ¿wem? - ¿A quien?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El dativo responde a la pregunta: ¿wem? - ¿A quien?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "Vienskaitlis",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Singular",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "Vīriešu",
       "deContext": "Vīriešu",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Masculino",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "Sieviešu",
       "deContext": "Sieviešu",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Femenino",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "Vidējā",
       "deContext": "Vidējā",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Neutro",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "Nominativ",
       "deContext": "Nominativ",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nominativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "der Sohn",
       "deContext": "der Sohn",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Sohn",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "die Tochter",
       "deContext": "die Tochter",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Tochter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "das Kind",
       "deContext": "das Kind",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Kind",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "Dativ",
       "deContext": "Dativ",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "dem Sohn(e)",
       "deContext": "dem Sohn(e)",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dem Sohn(e)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "der Tochter",
       "deContext": "der Tochter",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Tochter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "dem Kind(e)",
       "deContext": "dem Kind(e)",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dem Kind(e)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "Akkusativ",
       "deContext": "Akkusativ",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Akkusativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "den Sohn",
       "deContext": "den Sohn",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "den Sohn",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "die Tochter",
       "deContext": "die Tochter",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Tochter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "das Kind",
       "deContext": "das Kind",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Kind",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "Daudzskaitlis",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Plural",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "Vīriešu",
       "deContext": "Vīriešu",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Masculino",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "Sieviešu",
       "deContext": "Sieviešu",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Femenino",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "Vidējā",
       "deContext": "Vidējā",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Neutro",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "Nominativ",
       "deContext": "Nominativ",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nominativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "die Söhne",
       "deContext": "die Söhne",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Söhne",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "die Töchter",
       "deContext": "die Töchter",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Töchter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "die Kinder",
       "deContext": "die Kinder",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Kinder",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "Dativ",
       "deContext": "Dativ",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "den Söhnen",
       "deContext": "den Söhnen",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "den Söhnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "den Töchtern",
       "deContext": "den Töchtern",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "den Töchtern",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "den Kindern",
       "deContext": "den Kindern",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "den Kindern",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "Akkusativ",
       "deContext": "Akkusativ",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Akkusativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "die Söhne",
       "deContext": "die Söhne",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Söhne",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "die Töchter",
       "deContext": "die Töchter",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Töchter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "die Kinder",
       "deContext": "die Kinder",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Kinder",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "Datīva -e",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La -e del dativo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "Los sustantivos masculinos y neutros en dativo singular pueden llevar la terminación -e. Hoy en día, este final suele descartarse.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los sustantivos masculinos y neutros en dativo singular pueden llevar la terminación -e. Hoy en día, este final suele descartarse.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "dem Sohne / dem Sohn",
       "deContext": "dem Sohne / dem Sohn",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dem Sohne / dem Sohn",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "dem Kinde / dem Kind",
       "deContext": "dem Kinde / dem Kind",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dem Kinde / dem Kind",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "dem Arme / dem Arm",
       "deContext": "dem Arme / dem Arm",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dem Arme / dem Arm",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "dem Beine / dem Bein",
       "deContext": "dem Beine / dem Bein",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dem Beine / dem Bein",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "Sieviešu kārta datīvā",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Femenino en dativo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "Los sustantivos femeninos no llevan terminación en dativo singular.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los sustantivos femeninos no llevan terminación en dativo singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "die Tochter — der Tochter",
       "deContext": "die Tochter",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Tochter — der Tochter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "die Wiese — der Wiese",
       "deContext": "die Wiese",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Wiese — der Wiese",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "die Mutter — der Mutter",
       "deContext": "die Mutter",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Mutter — der Mutter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "Nenoteiktais artikuls datīvā",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Artículo indefinido en dativo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "ein Messer — einem Messer",
       "deContext": "ein Messer",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ein Messer — einem Messer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "das Messer — dem Messer",
       "deContext": "das Messer",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Messer — dem Messer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "ein Apfel — einem Apfel",
       "deContext": "ein Apfel",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ein Apfel — einem Apfel",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "der Apfel — dem Apfel",
       "deContext": "der Apfel",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Apfel — dem Apfel",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "eine Mutter — einer Mutter",
       "deContext": "eine Mutter",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "eine Mutter — einer Mutter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "die Mutter — der Mutter",
       "deContext": "die Mutter",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Mutter — der Mutter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "Daudzskaitļa datīvs",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dativo plural",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0105"
     },
     {
@@ -1390,8 +1390,8 @@
       "current": "El article dativo plural y el sustantivo suelen tener la terminación -n.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El article dativo plural y el sustantivo suelen tener la terminación -n.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0106"
     },
     {
@@ -1403,8 +1403,8 @@
       "current": "die Bücher — den Büchern",
       "deContext": "die Bücher",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Bücher — den Büchern",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0107"
     },
     {
@@ -1416,8 +1416,8 @@
       "current": "die Schlüssel — den Schlüsseln",
       "deContext": "die Schlüssel",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Schlüssel — den Schlüsseln",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0108"
     },
     {
@@ -1429,8 +1429,8 @@
       "current": "die Söhne — den Söhnen",
       "deContext": "die Söhne",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Söhne — den Söhnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0109"
     },
     {
@@ -1442,8 +1442,8 @@
       "current": "die Kinder — den Kindern",
       "deContext": "die Kinder",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Kinder — den Kindern",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0110"
     },
     {
@@ -1455,8 +1455,8 @@
       "current": "Ja daudzskaitlis jau beidzas ar -n",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cuando el plural ya termina en -n",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0111"
     },
     {
@@ -1468,8 +1468,8 @@
       "current": "Si el plural ya termina en -n, no se añade otra -n.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si el plural ya termina en -n, no se añade otra -n.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0112"
     },
     {
@@ -1481,8 +1481,8 @@
       "current": "die Wiesen — den Wiesen",
       "deContext": "die Wiesen",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Wiesen — den Wiesen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0113"
     },
     {
@@ -1494,8 +1494,8 @@
       "current": "die Blumen — den Blumen",
       "deContext": "die Blumen",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Blumen — den Blumen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0114"
     },
     {
@@ -1507,8 +1507,8 @@
       "current": "die Wagen — den Wagen",
       "deContext": "die Wagen",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Wagen — den Wagen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0115"
     },
     {
@@ -1520,8 +1520,8 @@
       "current": "geben",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "geben",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0116"
     },
     {
@@ -1533,8 +1533,8 @@
       "current": "En el verbo geben, e cambia a i en la segunda y tercera persona del singular.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En el verbo geben, e cambia a i en la segunda y tercera persona del singular.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0117"
     },
     {
@@ -1546,8 +1546,8 @@
       "current": "ich gebe",
       "deContext": "ich gebe",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich gebe",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0118"
     },
     {
@@ -1559,8 +1559,8 @@
       "current": "du gibst",
       "deContext": "du gibst",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du gibst",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0119"
     },
     {
@@ -1572,8 +1572,8 @@
       "current": "er gibt",
       "deContext": "er gibt",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er gibt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0120"
     },
     {
@@ -1585,8 +1585,8 @@
       "current": "sich nähern",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sich nähern",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0121"
     },
     {
@@ -1598,8 +1598,8 @@
       "current": "Verbo reflexivo: sich nähern - acercarse.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbo reflexivo: sich nähern - acercarse.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0122"
     },
     {
@@ -1611,8 +1611,8 @@
       "current": "ich nähere mich",
       "deContext": "ich nähere mich",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich nähere mich",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0123"
     },
     {
@@ -1624,8 +1624,8 @@
       "current": "du näherst dich",
       "deContext": "du näherst dich",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du näherst dich",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0124"
     },
     {
@@ -1637,8 +1637,8 @@
       "current": "er nähert sich",
       "deContext": "er nähert sich",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er nähert sich",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0125"
     },
     {
@@ -1650,8 +1650,8 @@
       "current": "Daudzskaitlis ar Umlaut",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Plural con umlaut",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0126"
     },
     {
@@ -1663,8 +1663,8 @@
       "current": "die Mutter — die Mütter",
       "deContext": "die Mutter",
       "structureContext": "Section[2] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Mutter — die Mütter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0127"
     },
     {
@@ -1676,8 +1676,8 @@
       "current": "die Tochter — die Töchter",
       "deContext": "die Tochter",
       "structureContext": "Section[2] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Tochter — die Töchter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0128"
     },
     {
@@ -1689,8 +1689,8 @@
       "current": "Bez artikula",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Bez artikula",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0129"
     },
     {
@@ -1702,8 +1702,8 @@
       "current": "Palabras que se utilizan a menudo sin el article: die Milch, das Brot.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Palabras que se utilizan a menudo sin el article: die Milch, das Brot.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0130"
     },
     {
@@ -1715,8 +1715,8 @@
       "current": "Vārdos wem, dem, den, der — En wem, dem, den, der, la e es larga y estrecha.",
       "deContext": "Vārdos wem, dem, den, der",
       "structureContext": "Section[3] Pronunciación / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En wem, dem, den y der, la e es larga y cerrada.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0131"
     },
     {
@@ -1728,8 +1728,8 @@
       "current": "Vārdā gehorchen h ir dzirdams: ge-hor-chen.",
       "deContext": "Vārdā gehorchen h ir dzirdams: ge",
       "structureContext": "Section[3] Pronunciación / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En gehorchen, la h se pronuncia: ge-hor-chen.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0132"
     },
     {
@@ -1741,8 +1741,8 @@
       "current": "die Wälder: ä izrunā kā šaurais īsais e.",
       "deContext": "die Wälder: ä izrunā kā šaurais īsais e.",
       "structureContext": "Section[3] Pronunciación / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En die Wälder, ä se pronuncia como una e corta y abierta.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0133"
     },
     {
@@ -1754,8 +1754,8 @@
       "current": "die Bäuerinnen: äu izrunā kā oi.",
       "deContext": "die Bäuerinnen: äu izrunā kā oi.",
       "structureContext": "Section[3] Pronunciación / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En die Bäuerinnen, äu se pronuncia «oi».",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0134"
     },
     {
@@ -1767,8 +1767,8 @@
       "current": "-ie significa long ī: die Wiese.",
       "deContext": "",
       "structureContext": "Section[3] Pronunciación / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ie representa una i larga: die Wiese.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0135"
     },
     {
@@ -1780,8 +1780,8 @@
       "current": "Der Vater ruft d... Mann.",
       "deContext": "Der Vater ruft den Mann.",
       "structureContext": "Section[4] Ejercicio / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater ruft d... Mann.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0136"
     },
     {
@@ -1793,8 +1793,8 @@
       "current": "Der Vater ruft d... Frau.",
       "deContext": "Der Vater ruft die Frau.",
       "structureContext": "Section[4] Ejercicio / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater ruft d... Frau.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0137"
     },
     {
@@ -1806,8 +1806,8 @@
       "current": "Der Vater ruft d... Kind.",
       "deContext": "Der Vater ruft das Kind.",
       "structureContext": "Section[4] Ejercicio / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater ruft d... Kind.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0138"
     },
     {
@@ -1819,8 +1819,8 @@
       "current": "Der Vater ruft d... Sohn.",
       "deContext": "Der Vater ruft den Sohn.",
       "structureContext": "Section[4] Ejercicio / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater ruft d... Sohn.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0139"
     },
     {
@@ -1832,8 +1832,8 @@
       "current": "Der Vater ruft d... Fräulein.",
       "deContext": "Der Vater ruft das Fräulein.",
       "structureContext": "Section[4] Ejercicio / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater ruft d... Fräulein.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0140"
     },
     {
@@ -1845,8 +1845,8 @@
       "current": "Der Vater ruft d... Tante.",
       "deContext": "Der Vater ruft die Tante.",
       "structureContext": "Section[4] Ejercicio / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater ruft d... Tante.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0141"
     },
     {
@@ -1858,8 +1858,8 @@
       "current": "Der Vater nähert sich d... Knechte.",
       "deContext": "Der Vater nähert sich dem Knechte.",
       "structureContext": "Section[4] Ejercicio / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater nähert sich d... Knechte.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0142"
     },
     {
@@ -1871,8 +1871,8 @@
       "current": "Der Vater nähert sich d... Tochter.",
       "deContext": "Der Vater nähert sich der Tochter.",
       "structureContext": "Section[4] Ejercicio / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater nähert sich d... Tochter.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0143"
     },
     {
@@ -1884,8 +1884,8 @@
       "current": "Der Vater nähert sich d... Magd.",
       "deContext": "Der Vater nähert sich der Magd.",
       "structureContext": "Section[4] Ejercicio / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater nähert sich d... Magd.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0144"
     },
     {
@@ -1897,8 +1897,8 @@
       "current": "Der Vater nähert sich d... Lehrer.",
       "deContext": "Der Vater nähert sich dem Lehrer.",
       "structureContext": "Section[4] Ejercicio / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater nähert sich d... Lehrer.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0145"
     },
     {
@@ -1910,8 +1910,8 @@
       "current": "Der Vater nähert sich d... Tischler.",
       "deContext": "Der Vater nähert sich dem Tischler.",
       "structureContext": "Section[4] Ejercicio / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater nähert sich d... Tischler.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0146"
     },
     {
@@ -1923,8 +1923,8 @@
       "current": "Der Vater nähert sich d... Lehrerin.",
       "deContext": "Der Vater nähert sich der Lehrerin.",
       "structureContext": "Section[4] Ejercicio / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater nähert sich d... Lehrerin.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0147"
     },
     {
@@ -1936,8 +1936,8 @@
       "current": "Der Vater nähert sich d... Mädchen.",
       "deContext": "Der Vater nähert sich dem Mädchen.",
       "structureContext": "Section[4] Ejercicio / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater nähert sich d... Mädchen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0148"
     },
     {
@@ -1949,8 +1949,8 @@
       "current": "Der Vater nähert sich d... Jäger.",
       "deContext": "Der Vater nähert sich dem Jäger.",
       "structureContext": "Section[4] Ejercicio / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater nähert sich d... Jäger.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0149"
     },
     {
@@ -1962,8 +1962,8 @@
       "current": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
       "deContext": "Der Vater ruft die Männer, die Frauen, die Kinder, die Söhne, die Fräulein, die Tanten.",
       "structureContext": "Section[4] Ejercicio / card[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater ruft den Mann, die Frau, das Kind, den Sohn, das Fräulein, die Tante.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0150"
     },
     {
@@ -1975,8 +1975,8 @@
       "current": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
       "deContext": "Der Vater nähert sich den Knechten, den Töchtern, den Mägden, den Lehrern, den Tischlern, den Lehrerinnen, den Mädchen, den Jägern.",
       "structureContext": "Section[4] Ejercicio / card[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater nähert sich dem Knechte, der Tochter, der Magd, dem Lehrer, dem Tischler, der Lehrerin, dem Mädchen, dem Jäger.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0151"
     },
     {
@@ -1988,8 +1988,8 @@
       "current": "¿Cómo se llama el padre?",
       "deContext": "Wen ruft der Vater?",
       "structureContext": "Section[5] Traducir / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo se llama el padre?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0152"
     },
     {
@@ -2001,8 +2001,8 @@
       "current": "Llama a su hijo y a su hija.",
       "deContext": "Er ruft den Sohn und die Tochter.",
       "structureContext": "Section[5] Traducir / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Llama a su hijo y a su hija.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0153"
     },
     {
@@ -2014,8 +2014,8 @@
       "current": "¿A quién pertenece este bosque?",
       "deContext": "Wem gehört dieser Wald?",
       "structureContext": "Section[5] Traducir / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿A quién pertenece este bosque?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0154"
     },
     {
@@ -2027,8 +2027,8 @@
       "current": "Este bosque pertenece al agricultor.",
       "deContext": "Dieser Wald gehört dem Bauer.",
       "structureContext": "Section[5] Traducir / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Este bosque pertenece al agricultor.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0155"
     },
     {
@@ -2040,8 +2040,8 @@
       "current": "Kam paklausa soles?",
       "deContext": "Wem gehorcht der Hund?",
       "structureContext": "Section[5] Traducir / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Kam paklausa soles?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0156"
     },
     {
@@ -2053,8 +2053,8 @@
       "current": "El perro obedece a los sirvientes y criadas.",
       "deContext": "Der Hund gehorcht den Knechten und den Mägden.",
       "structureContext": "Section[5] Traducir / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El perro obedece a los sirvientes y criadas.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0157"
     },
     {
@@ -2066,8 +2066,8 @@
       "current": "¿Cuantos perros tiene el cazador?",
       "deContext": "Wieviel Hunde hat der Jäger?",
       "structureContext": "Section[5] Traducir / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cuantos perros tiene el cazador?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0158"
     },
     {
@@ -2079,8 +2079,8 @@
       "current": "El cazador tiene cinco perros.",
       "deContext": "Der Jäger hat fünf Hunde.",
       "structureContext": "Section[5] Traducir / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El cazador tiene cinco perros.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0159"
     },
     {
@@ -2092,8 +2092,8 @@
       "current": "¿Cómo es el perro?",
       "deContext": "Wie ist der Hund?",
       "structureContext": "Section[5] Traducir / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo es el perro?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0160"
     },
     {
@@ -2105,8 +2105,8 @@
       "current": "El perro es fiel.",
       "deContext": "Der Hund ist treu.",
       "structureContext": "Section[5] Traducir / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El perro es fiel.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0161"
     },
     {
@@ -2118,8 +2118,8 @@
       "current": "¿Cómo son los perros?",
       "deContext": "Wie sind die Hunde?",
       "structureContext": "Section[5] Traducir / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo son los perros?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0162"
     },
     {
@@ -2131,8 +2131,8 @@
       "current": "Los perros son leales.",
       "deContext": "Die Hunde sind treu.",
       "structureContext": "Section[5] Traducir / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los perros son leales.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0163"
     },
     {
@@ -2144,8 +2144,8 @@
       "current": "¿Qué se acerca a los escolares y las niñas?",
       "deContext": "Wer nähert sich den Schülern und Schülerinnen?",
       "structureContext": "Section[5] Traducir / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué se acerca a los escolares y las niñas?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0164"
     },
     {
@@ -2157,8 +2157,8 @@
       "current": "El profesor se acerca a los alumnos.",
       "deContext": "Der Lehrer nähert sich den Schülern und Schülerinnen.",
       "structureContext": "Section[5] Traducir / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El profesor se acerca a los alumnos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0165"
     },
     {
@@ -2170,8 +2170,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Section raw title: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0166"
     },
     {
@@ -2183,8 +2183,8 @@
       "current": "Nombres",
       "deContext": "",
       "structureContext": "Section raw title: Nombres",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nombres",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0167"
     },
     {
@@ -2196,8 +2196,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Section raw title: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0168"
     },
     {
@@ -2209,8 +2209,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Section raw title: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0169"
     },
     {
@@ -2222,8 +2222,8 @@
       "current": "Ejercicio",
       "deContext": "",
       "structureContext": "Section raw title: Ejercicio",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0170"
     },
     {
@@ -2235,8 +2235,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Exercise flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0171"
     },
     {
@@ -2248,8 +2248,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0172"
     },
     {
@@ -2261,8 +2261,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0173"
     },
     {
@@ -2274,8 +2274,8 @@
       "current": "Ejercicio I — Usa la conjugación correcta",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio I — Usa la conjugación correcta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0174"
     },
     {
@@ -2287,8 +2287,8 @@
       "current": "¡Pon la conjugación correcta y hazlo en plural!",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Pon la conjugación correcta y hazlo en plural!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0175"
     },
     {
@@ -2300,8 +2300,8 @@
       "current": "Ahora responde en plural.",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ahora responde en plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0176"
     },
     {
@@ -2313,8 +2313,8 @@
       "current": "Ejercicio II — Traducir",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio II — Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0177"
     },
     {
@@ -2326,8 +2326,8 @@
       "current": "Forma 1/3: Tu (singular)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 1/3: du (singular)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0178"
     },
     {
@@ -2339,8 +2339,8 @@
       "current": "Formulario 2/3: Tú (plural)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-16-0179"
     },
     {
@@ -2352,9 +2352,16 @@
       "current": "Formulario 3/3: Sie (forma decente)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-16-0180"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 180,
+    "LABOT": 21,
+    "NELABOT": 159,
+    "unresolved": 0
+  }
 }
