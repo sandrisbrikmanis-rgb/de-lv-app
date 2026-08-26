@@ -1600,7 +1600,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Él monta un caballo."
+          "lv": "Él salta sobre el caballo."
         },
         {
           "de": "Leg das Buch aufs Regal.",
@@ -3508,15 +3508,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bringe dir ein Buch.",
-          "lv": "tráeme agua por favor"
+          "lv": "Tráeme agua, por favor."
         },
         {
           "de": "Ich bringe das Paket zur Post.",
-          "lv": "te llevaré a casa"
+          "lv": "Te llevaré a casa."
         },
         {
           "de": "Ich bringe die Kinder zur Schule.",
-          "lv": "lleva el libro a la escuela."
+          "lv": "Lleva el libro a la escuela."
         },
         {
           "de": "Ich nehme das Buch.",
@@ -3880,7 +3880,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerda: general ahí/te → da."
+        "text": "Recuerda: en general, «da» significa «ahí» o «allí»."
       },
       "sectionAccents": {
         "explanation": {
@@ -4610,15 +4610,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Dieser Mann ist nett.",
-          "lv": "este hombre es agradable."
+          "lv": "Este hombre es agradable."
         },
         {
           "de": "Ich sehe diesen Hund.",
-          "lv": "me gusta este perro"
+          "lv": "Me gusta este perro."
         },
         {
           "de": "Dieser Stift ist neu.",
-          "lv": "este bolígrafo es nuevo."
+          "lv": "Este bolígrafo es nuevo."
         }
       ],
       "tip": {
@@ -4800,15 +4800,15 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
-          "lv": "un hombre está esperando afuera."
+          "lv": "Un hombre está esperando afuera."
         },
         {
           "de": "Ich habe ein Buch.",
-          "lv": "tengo un libro."
+          "lv": "Tengo un libro."
         },
         {
           "de": "Er sucht einen Stift.",
-          "lv": "él está buscando un bolígrafo."
+          "lv": "Él está buscando un bolígrafo."
         },
         {
           "de": "Ein Kind spielt.",
@@ -5445,11 +5445,11 @@ const A1_WORDS = [
         },
         {
           "de": "Es ist müde.",
-          "lv": "es mi libro."
+          "lv": "Es mi libro."
         },
         {
           "de": "Es regnet.",
-          "lv": "Está lloviendo"
+          "lv": "Está lloviendo."
         },
         {
           "de": "Es schneit.",
@@ -7141,7 +7141,7 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "tomar / tomar",
+          "meaning": "tomar",
           "example": "Ich nehme das Buch."
         },
         {
@@ -7993,7 +7993,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "¿Cómo estás? Ok, ¡gracias!"
+          "lv": "¿Cómo estás? ¡Bien, gracias!"
         },
         {
           "de": "Er spricht gut Deutsch.",
@@ -8192,7 +8192,7 @@ const A1_WORDS = [
         },
         {
           "word": "machen",
-          "meaning": "hacer / hacer",
+          "meaning": "hacer",
           "example": "Ich mache das. = Es to daru."
         }
       ],
@@ -8430,7 +8430,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerda: en la mano → sostener; transporte → hält/se detiene."
+        "text": "Recuerda: en la mano → sostener; transporte → se detiene."
       },
       "important": [
         "detener no es sólo \"mantener\". En el caso del transporte, esto a menudo significa detenerse.",
@@ -8630,7 +8630,7 @@ const A1_WORDS = [
         },
         {
           "de": "Mein Arm tut weh.",
-          "lv": "Me duele el brazo."
+          "lv": "Me duele la mano."
         }
       ],
       "comparison": [
@@ -9634,12 +9634,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "im",
-          "meaning": "¿Dentro de dónde? (¿A quién?)",
+          "meaning": "en el • dentro del (¿dónde?)",
           "example": "im Park – en el parque"
         },
         {
           "word": "ins",
-          "meaning": "hacia dentro, ¿dónde? (según el contexto)",
+          "meaning": "hacia dentro, ¿adónde? (según el contexto)",
           "example": "ins Kino – uz kino"
         },
         {
@@ -10075,7 +10075,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ins",
-          "meaning": "hacia dentro, ¿dónde? (según el contexto)",
+          "meaning": "hacia dentro, ¿adónde? (según el contexto)",
           "example": "ins Kino – uz kino"
         },
         {
@@ -11257,7 +11257,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bezahle die Rechnung.",
-          "lv": "La cuenta cuesta dinero."
+          "lv": "La cuenta tiene un precio."
         },
         {
           "de": "Kann ich bar bezahlen?",
@@ -11722,7 +11722,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Laden ist geschlossen.",
-          "lv": "la tienda está cerrada."
+          "lv": "La tienda está cerrada."
         },
         {
           "de": "Es gibt viele Läden hier.",
@@ -12074,7 +12074,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Der Tisch ist sehr lang.",
-          "lv": "la mesa es muy larga."
+          "lv": "La mesa es muy larga."
         },
         {
           "de": "Der Film war sehr lang.",
@@ -12086,7 +12086,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie hat lange Haare.",
-          "lv": "ella tiene el pelo largo."
+          "lv": "Ella tiene el pelo largo."
         },
         {
           "de": "Ich warte schon lange.",
@@ -12241,7 +12241,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich lasse die Tasche hier.",
-          "lv": "dejé la bolsa aquí"
+          "lv": "Dejé la bolsa aquí."
         },
         {
           "de": "Lass das bitte auf dem Tisch.",
@@ -12249,7 +12249,7 @@ const A1_WORDS = [
         },
         {
           "de": "Meine Eltern lassen mich gehen.",
-          "lv": "mis padres me dejaron ir."
+          "lv": "Mis padres me dejaron ir."
         },
         {
           "de": "Lass mich in Ruhe!",
@@ -12452,11 +12452,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Er läuft sehr schnell.",
-          "lv": "corre muy rápido."
+          "lv": "Corre muy rápido."
         },
         {
           "de": "Die Kinder laufen im Park.",
-          "lv": "los niños corren en el parque."
+          "lv": "Los niños corren en el parque."
         },
         {
           "de": "Der Film läuft schon.",
@@ -12480,7 +12480,7 @@ const A1_WORDS = [
         },
         {
           "word": "fahren",
-          "meaning": "viajar en transporte",
+          "meaning": "caminar o correr",
           "example": "Ich fahre mit dem Bus."
         },
         {
@@ -13247,11 +13247,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "Por favor, cállate."
+          "lv": "Por favor, habla más bajo."
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "por favor guarda silencio"
+          "lv": "Por favor, guarda silencio."
         },
         {
           "de": "Die Musik ist leise.",
@@ -13259,7 +13259,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "por favor habla en voz baja."
+          "lv": "Por favor, habla en voz baja."
         }
       ],
       "tip": [
@@ -13411,11 +13411,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "el libro está sobre la mesa."
+          "lv": "El libro está sobre la mesa."
         },
         {
           "de": "Mein Handy liegt im Auto.",
-          "lv": "mi teléfono está en el auto."
+          "lv": "Mi teléfono está en el auto."
         },
         {
           "de": "Er liegt im Bett.",
@@ -13429,7 +13429,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "liegen",
-          "meaning": "estar / dormir",
+          "meaning": "estar tumbado / estar situado",
           "example": "Das Buch liegt hier."
         },
         {
@@ -14721,7 +14721,7 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "Hasta mañana!"
+          "lv": "¡Hasta mañana!"
         },
         {
           "de": "Ich komme morgen.",
@@ -14875,7 +14875,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Guten Morgen!",
-          "lv": "¡Buen día!"
+          "lv": "Por la mañana."
         },
         {
           "de": "Bis morgen!",
@@ -14887,7 +14887,7 @@ const A1_WORDS = [
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Por la mañana es lunes."
+          "lv": "El lunes por la mañana trabajo."
         },
         {
           "de": "Guten Morgen!",
@@ -15953,7 +15953,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist eine neue Idee.",
-          "lv": "es una idea nueva."
+          "lv": "Es una idea nueva."
         },
         {
           "de": "Er hat einen neuen Job.",
@@ -16666,7 +16666,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Kaffee oder Tee?",
-          "lv": "¿café o té?"
+          "lv": "¿Café o té?"
         },
         {
           "de": "Heute oder morgen?",
@@ -17279,7 +17279,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerda: comida → probieren = al gusto."
+        "text": "Recuerda: comida → probieren = probar o saborear."
       },
       "important": [
         "probieren no es la palabra principal para examen formal.",
@@ -17546,7 +17546,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich esse Reis.",
-          "lv": "Yo como arroz"
+          "lv": "Yo como arroz."
         },
         {
           "de": "Kochst du Reis?",
@@ -19301,7 +19301,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Ellos cocinan, por favor."
+          "lv": "Por favor, cocinen."
         }
       ],
       "tip": [
@@ -19434,7 +19434,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Usted cocina, por favor."
+          "lv": "Por favor, cocine."
         },
         {
           "de": "Sie kocht.",
@@ -19454,7 +19454,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Usted cocina, por favor."
+          "lv": "Por favor, cocine."
         }
       ],
       "tip": [
@@ -21601,7 +21601,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "vom",
-          "meaning": "de (algo específico, ¿para quién?)",
+          "meaning": "de (algo específico, ¿de quién?)",
           "example": "vom Bahnhof – no stacijas"
         },
         {
@@ -23481,7 +23481,7 @@ const A1_WORDS = [
         },
         {
           "word": "bei",
-          "meaning": "en alguien / en el trabajo",
+          "meaning": "a alguien / al trabajo",
           "example": "Ich bin bei Anna."
         }
       ],
@@ -23931,7 +23931,7 @@ const A1_WORDS = [
         },
         {
           "word": "zu",
-          "meaning": "a / en / también",
+          "meaning": "a / en",
           "example": "zu Hause – en casa"
         },
         {
