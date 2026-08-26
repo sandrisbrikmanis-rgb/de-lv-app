@@ -14,7 +14,7 @@
   },
   "lessonNumber": 20,
   "targetCount": 155,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 20,
@@ -25,8 +25,8 @@
       "current": "Lección 20",
       "deContext": "",
       "structureContext": "Lección 20 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 20",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Haus, Stockwerk, Dativ/Akkusativ y sustantivos compuestos.",
       "deContext": "",
       "structureContext": "Lección 20 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Haus, Stockwerk, Dativ/Akkusativ y sustantivos compuestos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Vigésima conferencia: casa, pisos, Dativ/Akkusativ y sustantivos compuestos.",
       "deContext": "",
       "structureContext": "Lección 20 intro paragraph",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Vigésima conferencia: casa, pisos, Dativ/Akkusativ y sustantivos compuestos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Accordion section 1; raw: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Dieses Haus ist hoch.",
       "deContext": "Dieses Haus ist hoch.",
       "structureContext": "Section[0] Texto / lectura / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dieses Haus ist hoch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Es hat drei Stockwerke.",
       "deContext": "Es hat drei Stockwerke.",
       "structureContext": "Section[0] Texto / lectura / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Es hat drei Stockwerke.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "In den Mauern sind Fenster und Türen.",
       "deContext": "In den Mauern sind Fenster und Türen.",
       "structureContext": "Section[0] Texto / lectura / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "In den Mauern sind Fenster und Türen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Die Mauern sind aus Stein.",
       "deContext": "Die Mauern sind aus Stein.",
       "structureContext": "Section[0] Texto / lectura / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Mauern sind aus Stein.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Die Wände und Türen sind aus Holz.",
       "deContext": "Die Wände und Türen sind aus Holz.",
       "structureContext": "Section[0] Texto / lectura / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Wände und Türen sind aus Holz.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Die Fenster sind aus Glas.",
       "deContext": "Die Fenster sind aus Glas.",
       "structureContext": "Section[0] Texto / lectura / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Fenster sind aus Glas.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "In dem Hause sind zehn Wohnungen.",
       "deContext": "In dem Hause sind zehn Wohnungen.",
       "structureContext": "Section[0] Texto / lectura / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "In dem Hause sind zehn Wohnungen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Jede Wohnung hat drei Zimmer, ein Vorhaus und eine Küche.",
       "deContext": "Jede Wohnung hat drei Zimmer, ein Vorhaus und eine Küche.",
       "structureContext": "Section[0] Texto / lectura / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Jede Wohnung hat drei Zimmer, ein Vorhaus und eine Küche.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Unter dem Dache ist der Boden.",
       "deContext": "Unter dem Dache ist der Boden.",
       "structureContext": "Section[0] Texto / lectura / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Unter dem Dache ist der Boden.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Unter dem Hause ist der Keller.",
       "deContext": "Unter dem Hause ist der Keller.",
       "structureContext": "Section[0] Texto / lectura / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Unter dem Hause ist der Keller.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Auf dem Dache sind drei Schornsteine.",
       "deContext": "Auf dem Dache sind drei Schornsteine.",
       "structureContext": "Section[0] Texto / lectura / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Auf dem Dache sind drei Schornsteine.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Der Schornsteinfeger steigt aufs Dach und reinigt die Schornsteine.",
       "deContext": "Der Schornsteinfeger steigt aufs Dach und reinigt die Schornsteine.",
       "structureContext": "Section[0] Texto / lectura / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Schornsteinfeger steigt aufs Dach und reinigt die Schornsteine.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "Die Stadt hat viele Häuser.",
       "deContext": "Die Stadt hat viele Häuser.",
       "structureContext": "Section[0] Texto / lectura / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Stadt hat viele Häuser.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "In den Häusern sind viele Wohnungen.",
       "deContext": "In den Häusern sind viele Wohnungen.",
       "structureContext": "Section[0] Texto / lectura / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "In den Häusern sind viele Wohnungen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "In den Wohnungen leben viele Menschen.",
       "deContext": "In den Wohnungen leben viele Menschen.",
       "structureContext": "Section[0] Texto / lectura / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "In den Wohnungen leben viele Menschen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "Alle Menschen arbeiten.",
       "deContext": "Alle Menschen arbeiten.",
       "structureContext": "Section[0] Texto / lectura / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Alle Menschen arbeiten.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "Alle Menschen müssen arbeiten.",
       "deContext": "Alle Menschen müssen arbeiten.",
       "structureContext": "Section[0] Texto / lectura / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Alle Menschen müssen arbeiten.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "Wir wohnen in dem vierten Stockwerk.",
       "deContext": "Wir wohnen in dem vierten Stockwerk.",
       "structureContext": "Section[0] Texto / lectura / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir wohnen in dem vierten Stockwerk.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "Ich muss das Holz in das vierte Stockwerk tragen.",
       "deContext": "Ich muss das Holz in das vierte Stockwerk tragen.",
       "structureContext": "Section[0] Texto / lectura / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich muss das Holz in das vierte Stockwerk tragen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "Ich bringe das Holz in die Küche.",
       "deContext": "Ich bringe das Holz in die Küche.",
       "structureContext": "Section[0] Texto / lectura / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich bringe das Holz in die Küche.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "Ich stecke das Holz in den Ofen.",
       "deContext": "Ich stecke das Holz in den Ofen.",
       "structureContext": "Section[0] Texto / lectura / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich stecke das Holz in den Ofen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "Ich zünde das Holz an.",
       "deContext": "Ich zünde das Holz an.",
       "structureContext": "Section[0] Texto / lectura / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich zünde das Holz an.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "Bald brennt das Holz licht und hell.",
       "deContext": "Bald brennt das Holz licht und hell.",
       "structureContext": "Section[0] Texto / lectura / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Bald brennt das Holz licht und hell.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "das Haus — la casa",
       "deContext": "das Haus",
       "structureContext": "Section[1] Nombres / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Haus — la casa",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "das Stockwerk — piso",
       "deContext": "das Stockwerk",
       "structureContext": "Section[1] Nombres / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Stockwerk — piso",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "die Mauer — la pared",
       "deContext": "die Mauer",
       "structureContext": "Section[1] Nombres / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Mauer — la pared",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "der Stein — akmens",
       "deContext": "der Stein",
       "structureContext": "Section[1] Nombres / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Stein — akmens",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "das Holz — koks / malka",
       "deContext": "das Holz",
       "structureContext": "Section[1] Nombres / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Holz — koks / malka",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "das Glas — stikls",
       "deContext": "das Glas",
       "structureContext": "Section[1] Nombres / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Glas — stikls",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "aus Glas — sin stikla",
       "deContext": "aus Glas",
       "structureContext": "Section[1] Nombres / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "aus Glas — sin stikla",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "die Wohnung — un apartamento",
       "deContext": "die Wohnung",
       "structureContext": "Section[1] Nombres / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Wohnung — un apartamento",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "das Vorhaus — vestíbulo / pasillo",
       "deContext": "das Vorhaus",
       "structureContext": "Section[1] Nombres / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Vorhaus — vestíbulo / pasillo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "die Küche — virtueva",
       "deContext": "die Küche",
       "structureContext": "Section[1] Nombres / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Küche — virtueva",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "das Dach — salta",
       "deContext": "das Dach",
       "structureContext": "Section[1] Nombres / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Dach — salta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "der Boden — ático / suelo / suelo",
       "deContext": "der Boden",
       "structureContext": "Section[1] Nombres / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Boden — ático / suelo / suelo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "der Keller — pagrabs",
       "deContext": "der Keller",
       "structureContext": "Section[1] Nombres / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Keller — pagrabs",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "der Schornstein — skurstenis",
       "deContext": "der Schornstein",
       "structureContext": "Section[1] Nombres / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Schornstein — skurstenis",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "der Schornsteinfeger — deshollinador",
       "deContext": "der Schornsteinfeger",
       "structureContext": "Section[1] Nombres / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Schornsteinfeger — deshollinador",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "die Stadt — la ciudad",
       "deContext": "die Stadt",
       "structureContext": "Section[1] Nombres / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Stadt — la ciudad",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "leben — vivir",
       "deContext": "leben",
       "structureContext": "Section[1] Nombres / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "leben — vivir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "tragen — nido",
       "deContext": "tragen",
       "structureContext": "Section[1] Nombres / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tragen — nido",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "bringen — nido / atnest",
       "deContext": "bringen",
       "structureContext": "Section[1] Nombres / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "bringen — nido / atnest",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "stecken — pegar / insertar",
       "deContext": "stecken",
       "structureContext": "Section[1] Nombres / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "stecken — pegar / insertar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "der Ofen — horno",
       "deContext": "der Ofen",
       "structureContext": "Section[1] Nombres / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Ofen — horno",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "anzünden — encender",
       "deContext": "anzünden",
       "structureContext": "Section[1] Nombres / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "anzünden — encender",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "bald — pronto",
       "deContext": "bald",
       "structureContext": "Section[1] Nombres / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "bald — pronto",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "brennen — degt",
       "deContext": "brennen",
       "structureContext": "Section[1] Nombres / items[23]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "brennen — degt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "licht — luz",
       "deContext": "licht",
       "structureContext": "Section[1] Nombres / items[24]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "licht — luz",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "hell — brillante / brillante",
       "deContext": "hell",
       "structureContext": "Section[1] Nombres / items[25]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hell — brillante / brillante",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "die Tür — durvis",
       "deContext": "die Tür",
       "structureContext": "Section[1] Nombres / items[26]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Tür — durvis",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "das Fenster — troncos",
       "deContext": "das Fenster",
       "structureContext": "Section[1] Nombres / items[27]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Fenster — troncos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "der Mensch — el ser humano",
       "deContext": "der Mensch",
       "structureContext": "Section[1] Nombres / items[28]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Mensch — el ser humano",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "Dativs ar wann?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dativs ar wann?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "Palabras de tráfico que responden a la pregunta ¿quieres? en las conferencias 19 y 20. —¿cuándo?, está junto al dativo. El dativo responde no sólo a wo? — ¿dónde?, pero también en wann? - ¿cuando?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Palabras de tráfico que responden a la pregunta ¿quieres? en las conferencias 19 y 20. —¿cuándo?, está junto al dativo. El dativo responde no sólo a wo? — ¿dónde?, pero también en wann? - ¿cuando?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "an dem Tage / am Tage — dienā",
       "deContext": "an dem Tage / am Tage",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "an dem Tage / am Tage — en • junto a • a",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "in der Nacht — naktī",
       "deContext": "in der Nacht",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "in der Nacht — en",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "in dem Sommer / im Sommer — vasarā",
       "deContext": "in dem Sommer / im Sommer",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "in dem Sommer / im Sommer — en",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "in dem Januar / im Januar — janvārī",
       "deContext": "in dem Januar / im Januar",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "in dem Januar / im Januar — en",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "vor drei Tagen — pirms trīs dienām",
       "deContext": "vor drei Tagen",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "vor drei Tagen — antes • delante de",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "Prievārds + artikuls",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Preposición + artículo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "Muchas preposiciones se unen al article.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Muchas preposiciones se unen al article.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "an das Fenster → ans Fenster",
       "deContext": "an das Fenster → ans Fenster",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "an das Fenster → ans Fenster",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "an dem Fenster → am Fenster",
       "deContext": "an dem Fenster → am Fenster",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "an dem Fenster → am Fenster",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "in das Zimmer → ins Zimmer",
       "deContext": "in das Zimmer → ins Zimmer",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "in das Zimmer → ins Zimmer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "in dem Zimmer → im Zimmer",
       "deContext": "in dem Zimmer → im Zimmer",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "in dem Zimmer → im Zimmer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "auf das Dach → aufs Dach",
       "deContext": "auf das Dach → aufs Dach",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "auf das Dach → aufs Dach",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "über das Land → übers Land",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "über das Land → übers Land",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "-e- starp celmu un galotni",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "-e- entre la raíz y la terminación",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "Si la raíz del verbo termina en t, d, m, n, entonces en la segunda y tercera persona del singular y en la segunda persona del plural, a menudo se inserta una -e- entre la raíz y la terminación para una mejor pronunciación.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si la raíz del verbo termina en t, d, m, n, entonces en la segunda y tercera persona del singular y en la segunda persona del plural, a menudo se inserta una -e- entre la raíz y la terminación para una mejor pronunciación.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "anzünden: du zündest an, er zündet an, ihr zündet an",
       "deContext": "anzünden: du zündest an, er zündet an, ihr zündet an",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "anzünden: du zündest an, er zündet an, ihr zündet an",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
       "deContext": "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "arbeiten: du arbeitest, er arbeitet, ihr arbeitet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "atmen: du atmest, er atmet, ihr atmet",
       "deContext": "atmen: du atmest, er atmet, ihr atmet",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "atmen: du atmest, er atmet, ihr atmet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "öffnen: du öffnest, er öffnet, ihr öffnet",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "öffnen: du öffnest, er öffnet, ihr öffnet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "Saliktie lietvārdi",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sustantivos compuestos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "Los sustantivos compuestos suelen llevar el article de la última palabra.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los sustantivos compuestos suelen llevar el article de la última palabra.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "der Stock + das Werk = das Stockwerk",
       "deContext": "der Stock + das Werk = das Stockwerk",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Stock + das Werk = das Stockwerk",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "der Schornstein + der Feger = der Schornsteinfeger",
       "deContext": "der Schornstein + der Feger = der Schornsteinfeger",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Schornstein + der Feger = der Schornsteinfeger",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "das Haus + die Tür = die Haustür",
       "deContext": "das Haus + die Tür = die Haustür",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Haus + die Tür = die Haustür",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "Salikto lietvārdu veidošana",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formación de sustantivos compuestos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "jung + die Frau = die Jungfrau",
       "deContext": "jung + die Frau = die Jungfrau",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jung + die Frau = die Jungfrau",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "groß + die Mutter = die Großmutter",
       "deContext": "groß + die Mutter = die Großmutter",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "groß + die Mutter = die Großmutter",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "vor + das Haus = das Vorhaus",
       "deContext": "vor + das Haus = das Vorhaus",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "vor + das Haus = das Vorhaus",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "schreiben + der Tisch = der Schreibtisch",
       "deContext": "schreiben + der Tisch = der Schreibtisch",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "schreiben + der Tisch = der Schreibtisch",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "tragen",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tragen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "En el verbo tragen en la segunda y tercera persona del singular, la vocal raíz a toma diéresis.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En el verbo tragen en la segunda y tercera persona del singular, la vocal raíz a toma diéresis.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "ich trage",
       "deContext": "ich trage",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich trage",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "du trägst",
       "deContext": "du trägst",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du trägst",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "er trägt",
       "deContext": "er trägt",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er trägt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
       "deContext": "Vārdos Stockwerk, Stein, Stadt, stecken: st izrunā kā št.",
       "structureContext": "Section[3] Pronunciación / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En Stockwerk, Stein, Stadt y stecken, st se pronuncia «sht».",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "Vārdos der Ofen, der Boden: o ir garš.",
       "deContext": "Vārdos der Ofen, der Boden: o ir garš.",
       "structureContext": "Section[3] Pronunciación / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En der Ofen y der Boden, la o es larga.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "sch izrunā kā š: der Schornstein, der Mensch.",
       "deContext": "sch izrunā kā š: der Schornstein, der Mensch.",
       "structureContext": "Section[3] Pronunciación / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sch se pronuncia «sh»: der Schornstein, der Mensch.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
       "deContext": "Vārdos das Haus, das Holz: h ir dzirdams un jāizrunā.",
       "structureContext": "Section[3] Pronunciación / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En das Haus y das Holz, la h se pronuncia.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
       "deContext": "Vārdos die Wohnung, wohnen: h ir garuma zīme, to neizrunā.",
       "structureContext": "Section[3] Pronunciación / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En die Wohnung y wohnen, la h indica longitud vocálica y no se pronuncia.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich-Laut.",
       "deContext": "Vārdos die Küche, die Dächer: ch izrunā kā “h” tipa skaņu, kā vācu ich",
       "structureContext": "Section[3] Pronunciación / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En die Küche y die Dächer, ch se pronuncia como el ich-Laut alemán.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "Vārdā das Vorhaus: v izrunā kā f.",
       "deContext": "Vārdā das Vorhaus: v izrunā kā f.",
       "structureContext": "Section[3] Pronunciación / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En das Vorhaus, la v se pronuncia como f.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "Der Wolf lebt in (der Wald).",
       "deContext": "Der Wolf lebt in dem Wald.",
       "structureContext": "Section[4] Ejercicio / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Wolf lebt in (der Wald).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "Dieser Mann lebt in (das Haus).",
       "deContext": "Dieser Mann lebt in dem Haus.",
       "structureContext": "Section[4] Ejercicio / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dieser Mann lebt in (das Haus).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "Der Schornsteinfeger steht auf (das Dach).",
       "deContext": "Der Schornsteinfeger steht auf dem Dach.",
       "structureContext": "Section[4] Ejercicio / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Schornsteinfeger steht auf (das Dach).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "Der Knecht arbeitet auf (das Feld).",
       "deContext": "Der Knecht arbeitet auf dem Feld.",
       "structureContext": "Section[4] Ejercicio / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Knecht arbeitet auf (das Feld).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "Die Magd arbeitet auf (die Wiese).",
       "deContext": "Die Magd arbeitet auf der Wiese.",
       "structureContext": "Section[4] Ejercicio / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Magd arbeitet auf (die Wiese).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "Der Holzhauer sägt das Holz in (die Scheune).",
       "deContext": "Der Holzhauer sägt das Holz in der Scheune.",
       "structureContext": "Section[4] Ejercicio / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Holzhauer sägt das Holz in (die Scheune).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0105"
     },
     {
@@ -1390,8 +1390,8 @@
       "current": "Der Schüler stellt das Glas auf (die Kommode).",
       "deContext": "Der Schüler stellt das Glas auf die Kommode.",
       "structureContext": "Section[4] Ejercicio / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Schüler stellt das Glas auf (die Kommode).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0106"
     },
     {
@@ -1403,8 +1403,8 @@
       "current": "Der Jäger geht in (der Wald).",
       "deContext": "Der Jäger geht in den Wald.",
       "structureContext": "Section[4] Ejercicio / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Jäger geht in (der Wald).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0107"
     },
     {
@@ -1416,8 +1416,8 @@
       "current": "Die Katze kriecht unter (die Bank).",
       "deContext": "Die Katze kriecht unter die Bank.",
       "structureContext": "Section[4] Ejercicio / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Katze kriecht unter (die Bank).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0108"
     },
     {
@@ -1429,8 +1429,8 @@
       "current": "Der Ball rollt unter (der Schrank).",
       "deContext": "Der Ball rollt unter den Schrank.",
       "structureContext": "Section[4] Ejercicio / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Ball rollt unter (der Schrank).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0109"
     },
     {
@@ -1442,8 +1442,8 @@
       "current": "Dieser Mann geht über (die Brücke).",
       "deContext": "Dieser Mann geht über die Brücke.",
       "structureContext": "Section[4] Ejercicio / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dieser Mann geht über (die Brücke).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0110"
     },
     {
@@ -1455,8 +1455,8 @@
       "current": "Jener Mann steht unter (die Brücke).",
       "deContext": "Jener Mann steht unter der Brücke.",
       "structureContext": "Section[4] Ejercicio / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Jener Mann steht unter (die Brücke).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0111"
     },
     {
@@ -1468,8 +1468,8 @@
       "current": "Ein Spiegel hängt an (die Wand).",
       "deContext": "Ein Spiegel hängt an der Wand.",
       "structureContext": "Section[4] Ejercicio / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ein Spiegel hängt an (die Wand).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0112"
     },
     {
@@ -1481,8 +1481,8 @@
       "current": "Der Bruder stellt die Vase vor (der Spiegel).",
       "deContext": "Der Bruder stellt die Vase vor den Spiegel.",
       "structureContext": "Section[4] Ejercicio / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Bruder stellt die Vase vor (der Spiegel).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0113"
     },
     {
@@ -1494,8 +1494,8 @@
       "current": "Das Kind geht gern auf (die Straße).",
       "deContext": "Das Kind geht gern auf die Straße.",
       "structureContext": "Section[4] Ejercicio / card[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Kind geht gern auf (die Straße).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0114"
     },
     {
@@ -1507,8 +1507,8 @@
       "current": "Das Kind spielt gern auf (die Straße).",
       "deContext": "Das Kind spielt gern auf der Straße.",
       "structureContext": "Section[4] Ejercicio / card[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Kind spielt gern auf (die Straße).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0115"
     },
     {
@@ -1520,8 +1520,8 @@
       "current": "Das Kind spielt gern in (der Garten).",
       "deContext": "Das Kind spielt gern in dem Garten.",
       "structureContext": "Section[4] Ejercicio / card[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Kind spielt gern in (der Garten).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0116"
     },
     {
@@ -1533,8 +1533,8 @@
       "current": "¿Kas ir aumenta?",
       "deContext": "Was ist hoch?",
       "structureContext": "Section[5] Traducir / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Kas ir aumenta?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0117"
     },
     {
@@ -1546,8 +1546,8 @@
       "current": "¿Cuantos pisos tiene la casa?",
       "deContext": "Wieviel Stockwerke hat das Haus?",
       "structureContext": "Section[5] Traducir / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cuantos pisos tiene la casa?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0118"
     },
     {
@@ -1559,8 +1559,8 @@
       "current": "¿Kur ir logi un durvis?",
       "deContext": "Wo sind Fenster und Türen?",
       "structureContext": "Section[5] Traducir / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Kur ir logi un durvis?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0119"
     },
     {
@@ -1572,8 +1572,8 @@
       "current": "¿De qué están hechas las paredes?",
       "deContext": "Woraus sind die Mauern?",
       "structureContext": "Section[5] Traducir / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿De qué están hechas las paredes?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0120"
     },
     {
@@ -1585,8 +1585,8 @@
       "current": "¿De qué está hecha la puerta?",
       "deContext": "Woraus sind die Türen?",
       "structureContext": "Section[5] Traducir / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿De qué está hecha la puerta?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0121"
     },
     {
@@ -1598,8 +1598,8 @@
       "current": "¿De qué están hechas las ventanas?",
       "deContext": "Woraus sind die Fenster?",
       "structureContext": "Section[5] Traducir / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿De qué están hechas las ventanas?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0122"
     },
     {
@@ -1611,8 +1611,8 @@
       "current": "¿Dónde están los diez apartamentos?",
       "deContext": "Wo sind zehn Wohnungen?",
       "structureContext": "Section[5] Traducir / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dónde están los diez apartamentos?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0123"
     },
     {
@@ -1624,8 +1624,8 @@
       "current": "¿Qué hay en cada apartamento?",
       "deContext": "Was hat jede Wohnung?",
       "structureContext": "Section[5] Traducir / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué hay en cada apartamento?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0124"
     },
     {
@@ -1637,8 +1637,8 @@
       "current": "¿Kur ir pagrabs?",
       "deContext": "Wo ist der Keller?",
       "structureContext": "Section[5] Traducir / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Kur ir pagrabs?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0125"
     },
     {
@@ -1650,8 +1650,8 @@
       "current": "¿Dónde está el ático?",
       "deContext": "Wo ist der Boden?",
       "structureContext": "Section[5] Traducir / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dónde está el ático?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0126"
     },
     {
@@ -1663,8 +1663,8 @@
       "current": "¿Dónde están las tres chimeneas?",
       "deContext": "Wo sind drei Schornsteine?",
       "structureContext": "Section[5] Traducir / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dónde están las tres chimeneas?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0127"
     },
     {
@@ -1676,8 +1676,8 @@
       "current": "¿Adónde va el deshollinador?",
       "deContext": "Wohin steigt der Schornsteinfeger?",
       "structureContext": "Section[5] Traducir / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Adónde va el deshollinador?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0128"
     },
     {
@@ -1689,8 +1689,8 @@
       "current": "¿Dónde está parado?",
       "deContext": "Wo steht er?",
       "structureContext": "Section[5] Traducir / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dónde está parado?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0129"
     },
     {
@@ -1702,8 +1702,8 @@
       "current": "¿Qué está haciendo?",
       "deContext": "Was tut er?",
       "structureContext": "Section[5] Traducir / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué está haciendo?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0130"
     },
     {
@@ -1715,8 +1715,8 @@
       "current": "¿Cuál es la ciudad?",
       "deContext": "Was hat die Stadt?",
       "structureContext": "Section[5] Traducir / card[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cuál es la ciudad?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0131"
     },
     {
@@ -1728,8 +1728,8 @@
       "current": "¿Dónde hay muchos apartamentos?",
       "deContext": "Wo sind viele Wohnungen?",
       "structureContext": "Section[5] Traducir / card[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dónde hay muchos apartamentos?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0132"
     },
     {
@@ -1741,8 +1741,8 @@
       "current": "¿Dónde vive mucha gente?",
       "deContext": "Wo leben viele Menschen?",
       "structureContext": "Section[5] Traducir / card[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dónde vive mucha gente?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0133"
     },
     {
@@ -1754,8 +1754,8 @@
       "current": "¿Quién trabaja?",
       "deContext": "Wer arbeitet?",
       "structureContext": "Section[5] Traducir / card[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién trabaja?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0134"
     },
     {
@@ -1767,8 +1767,8 @@
       "current": "¿Quién necesita trabajar?",
       "deContext": "Wer muss arbeiten?",
       "structureContext": "Section[5] Traducir / card[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién necesita trabajar?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0135"
     },
     {
@@ -1780,8 +1780,8 @@
       "current": "¿En qué piso vives?",
       "deContext": "In welchem Stockwerk wohnst du?",
       "structureContext": "Section[5] Traducir / card[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿En qué piso vives?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0136"
     },
     {
@@ -1793,8 +1793,8 @@
       "current": "¿Dónde necesitas llevar leña?",
       "deContext": "Wohin musst du das Holz tragen?",
       "structureContext": "Section[5] Traducir / card[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dónde necesitas llevar leña?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0137"
     },
     {
@@ -1806,8 +1806,8 @@
       "current": "Kurp tu liec malku?",
       "deContext": "Wohin steckst du das Holz?",
       "structureContext": "Section[5] Traducir / card[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Kurp tu liec malku?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0138"
     },
     {
@@ -1819,8 +1819,8 @@
       "current": "¿Ko tu aizdedzini?",
       "deContext": "Was zündest du an?",
       "structureContext": "Section[5] Traducir / card[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Ko tu aizdedzini?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0139"
     },
     {
@@ -1832,8 +1832,8 @@
       "current": "¿Qué arde intensamente?",
       "deContext": "Was brennt hell?",
       "structureContext": "Section[5] Traducir / card[23]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué arde intensamente?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0140"
     },
     {
@@ -1845,8 +1845,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Section raw title: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0141"
     },
     {
@@ -1858,8 +1858,8 @@
       "current": "Nombres",
       "deContext": "",
       "structureContext": "Section raw title: Nombres",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nombres",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0142"
     },
     {
@@ -1871,8 +1871,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Section raw title: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0143"
     },
     {
@@ -1884,8 +1884,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Section raw title: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0144"
     },
     {
@@ -1897,8 +1897,8 @@
       "current": "Ejercicio",
       "deContext": "",
       "structureContext": "Section raw title: Ejercicio",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0145"
     },
     {
@@ -1910,8 +1910,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Exercise flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0146"
     },
     {
@@ -1923,8 +1923,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0147"
     },
     {
@@ -1936,8 +1936,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0148"
     },
     {
@@ -1949,8 +1949,8 @@
       "current": "Ejercicio I — Usa la conjugación correcta",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio I — Usa la conjugación correcta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0149"
     },
     {
@@ -1962,8 +1962,8 @@
       "current": "¡Pon la conjugación correcta y hazlo en plural!",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Pon la conjugación correcta y hazlo en plural!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0150"
     },
     {
@@ -1975,8 +1975,8 @@
       "current": "Ahora responde en plural.",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ahora responde en plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0151"
     },
     {
@@ -1988,8 +1988,8 @@
       "current": "Ejercicio II — Traducir",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio II — Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0152"
     },
     {
@@ -2001,8 +2001,8 @@
       "current": "Forma 1/3: Tu (singular)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 1/3: du (singular)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0153"
     },
     {
@@ -2014,8 +2014,8 @@
       "current": "Formulario 2/3: Tú (plural)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-20-0154"
     },
     {
@@ -2027,9 +2027,16 @@
       "current": "Formulario 3/3: Sie (forma decente)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-20-0155"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 155,
+    "LABOT": 18,
+    "NELABOT": 137,
+    "unresolved": 0
+  }
 }
