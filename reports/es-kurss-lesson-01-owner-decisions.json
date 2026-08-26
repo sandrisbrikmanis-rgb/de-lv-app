@@ -14,7 +14,7 @@
   },
   "lessonNumber": 1,
   "targetCount": 101,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 1,
@@ -25,8 +25,8 @@
       "current": "Lección 1",
       "deContext": "",
       "structureContext": "Lección 1 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 1",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Verbos en presente, palabras, gramática y práctica.",
       "deContext": "",
       "structureContext": "Lección 1 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbos en presente, palabras, gramática y práctica.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Verbos en presente",
       "deContext": "",
       "structureContext": "Legacy accordion summary",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbos en presente",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Verbos y sus conjugaciones en tiempo presente.",
       "deContext": "",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbos y sus conjugaciones en tiempo presente.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "♟kommen — venir",
       "deContext": "♟kommen",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "♟kommen — venir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "yo vengo",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "yo vengo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "tú vienes",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tú vienes",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "él / ella viene",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "él / ella viene",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "nosotros ven",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nosotros venimos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "tú vienes",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "vosotros venís",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "ellos / tú vienes",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ellos / ellas vienen",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "♟gehen — go",
       "deContext": "♟gehen",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "♟gehen — ir",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "yo voy",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 2",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "yo voy",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "tú vas",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 2",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tú vas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "he / ella va",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 2",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "he / ella va",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "nosotros vamos",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 2",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nosotros vamos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "tú ejat",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 2",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "vosotros vais",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "ellos / tú vas",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 2",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ellos / ellas van",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "♟stehen — pararse",
       "deContext": "♟stehen",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "♟stehen — estar de pie",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "I stand",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 3",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "yo estoy de pie",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "tú estás de pie",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 3",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tú estás de pie",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "él / ella está de pie",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 3",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "él / ella está de pie",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "nosotros estamos de pie",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 3",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nosotros estamos de pie",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "tú estás de pie",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 3",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "vosotros estáis de pie",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "ellos / Tú estás",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 3",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ellos / ellas están de pie",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "♟singen — to canta",
       "deContext": "♟singen",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "♟singen — cantar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "yo canto",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 4",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "yo canto",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "tú cantas",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 4",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tú cantas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "él / ella canta",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 4",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "él / ella canta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "nosotros cantamos",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 4",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nosotros cantamos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "tú cantas",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 4",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "vosotros cantáis",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "ellos / tú cantas",
       "deContext": "",
       "structureContext": "Verbos en presente / verb card 4",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ellos / ellas cantan",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "Stehst du?\nJa, ich stehe.",
       "deContext": "Stehst du?\nJa, ich stehe.",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Stehst du?\nJa, ich stehe.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "Steht Albert?\nJa, er steht.",
       "deContext": "Steht Albert?\nJa, er steht.",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Steht Albert?\nJa, er steht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "Steht Marta?\nJa, sie steht.",
       "deContext": "Steht Marta?\nJa, sie steht.",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Steht Marta?\nJa, sie steht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "Wer kommt und singt?\nAlbert und Marta kommen und singen.",
       "deContext": "Wer kommt und singt?\nAlbert und Marta kommen und singen.",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wer kommt und singt?\nAlbert und Marta kommen und singen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "Geht ihr?\nJa, wir gehen.",
       "deContext": "Geht ihr?\nJa, wir gehen.",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Geht ihr?\nJa, wir gehen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "Wer steht und singt?\nAlbert und Marta stehen und singen.",
       "deContext": "Wer steht und singt?\nAlbert und Marta stehen und singen.",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wer steht und singt?\nAlbert und Marta stehen und singen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "Ejemplos",
       "deContext": "",
       "structureContext": "Verbos en presente",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejemplos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "Palabras",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Palabras",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "iEl La pronunciación aproximada de las palabras se da entre paréntesis con letras letonas.\nEsto también debería seguirse en futuras conferencias.",
       "deContext": "",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "iEl La pronunciación aproximada de las palabras se da entre paréntesis con letras letonas.\nEsto también debería seguirse en futuras conferencias.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "wir (vīr) — we",
       "deContext": "wir (vīr)",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir (vīr) — nosotros",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "Vārdā “wir” burts i tiek izrunāts gari.",
       "deContext": "Vārdā “wir” burts i tiek izrunāts gari.",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En la palabra «wir», la vocal i se pronuncia larga.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "kommen (komen) — venir",
       "deContext": "kommen (komen)",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kommen (komen) — venir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "gehen (gē-en) - ir",
       "deContext": "gehen (gē",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "gehen (gē-en) — ir",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "stehen (štē-en) - stand",
       "deContext": "stehen (štē",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "stehen (štē-en) — estar de pie",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "singen (zingen) — canta",
       "deContext": "singen (zingen)",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singen (zingen) — cantar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "du (dū) kommst — tú vienes",
       "deContext": "du (dū) kommst",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du (dū) kommst — tú vienes",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "er (ēr) kommt — él viene",
       "deContext": "er (ēr) kommt",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er (ēr) kommt — él viene",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "sie (zī) kommt — ella viene",
       "deContext": "sie (zī) kommt",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie (zī) kommt — ella viene",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "wer (vēr) — ¿qué?",
       "deContext": "wer (vēr)",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wer (vēr) — ¿qué?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "ja (jā) — sí",
       "deContext": "ja (jā)",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ja (jā) — Sí",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.",
       "deContext": "Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.",
       "structureContext": "Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En las lecciones se indica la pronunciación aproximada de las palabras entre paréntesis.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "Wir (vīr) — nosotros La palabra wir siempre se pronuncia larga.",
       "deContext": "Wir (vīr)",
       "structureContext": "Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir (vīr) — nosotros La palabra wir siempre se pronuncia larga.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "kommen",
       "deContext": "kommen",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kommen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "gehen",
       "deContext": "gehen",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "gehen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "stehen",
       "deContext": "stehen",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "stehen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "singen",
       "deContext": "singen",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "singen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "ich → -ich komme",
       "deContext": "ich →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich → -ich komme",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "du → -du kommst",
       "deContext": "du →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du → -du kommst",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "er / sie → -er kommt",
       "deContext": "er / sie →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er / sie → -er kommt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "wir → -wir kommen",
       "deContext": "wir →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir → -wir kommen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "ihr → -En letón:",
       "deContext": "ihr →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr → -En letón:",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "sie → -Alemán en:",
       "deContext": "sie →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie → -Alemán en:",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "ich komme",
       "deContext": "ich komme",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich komme",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "du kommst",
       "deContext": "du kommst",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du kommst",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "er kommt",
       "deContext": "er kommt",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er kommt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "wir kommen",
       "deContext": "wir kommen",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir kommen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "Latviešu valodā:\nTu nāc.\nVai tu nāc?",
       "deContext": "Latviešu valodā:\nTu nāc.\nVai tu nāc?",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En español:\nTú vienes.\n¿Vienes?",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "ich → -e",
       "deContext": "ich →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich → -e",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "du → -st",
       "deContext": "du →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du → -st",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "er / sie → -t",
       "deContext": "er / sie →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er / sie → -t",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "wir → -en",
       "deContext": "wir →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir → -en",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "ihr → -t",
       "deContext": "ihr →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr → -t",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "sie → -en",
       "deContext": "sie →",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie → -en",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "La forma base de un verbo. Normalmente el infinitivo termina en -en.",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La forma base de un verbo. Normalmente el infinitivo termina en -en.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "∞Infinitivo",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "∞Infinitivo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "♟Presente terminaciones",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "♟Presente terminaciones",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "●Ejemplos",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "●Ejemplos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "?Oraciones de preguntas",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "?Oraciones de preguntas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "♣Diferencia de persona",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "♣Diferencia de persona",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "Eliminar -en de las formas base del verbo y agrega la terminación.\nEjemplo: kommen → komm + terminación\nkommenforma base",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Elimina -en del infinitivo y añade la terminación personal.\nEjemplo: kommen → komm- + terminación.\nkommen = infinitivo.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "Eliminar -en de las formas base del verbo y agrega la terminación.",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Elimina -en del infinitivo y añade la terminación personal.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-01-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "Ejemplo: kommen → komm + terminación",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejemplo: kommen → komm + terminación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Legacy HTML hint placeholder 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "¿vienes?",
       "deContext": "Kommst du?",
       "structureContext": "Lección 1 translate card 1/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿vienes?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "Sí, ya voy.",
       "deContext": "Ja, ich komme.",
       "structureContext": "Lección 1 translate card 2/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sí, ya voy.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "¿Quién canta?",
       "deContext": "Wer singt?",
       "structureContext": "Lección 1 translate card 3/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién canta?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "Marta canta.",
       "deContext": "Marta singt.",
       "structureContext": "Lección 1 translate card 4/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Marta canta.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "¿Se van?",
       "deContext": "Gehen sie?",
       "structureContext": "Lección 1 translate card 5/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Se van?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "Sí, van.",
       "deContext": "Ja, sie gehen.",
       "structureContext": "Lección 1 translate card 6/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sí, van.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "¿Está de pie?",
       "deContext": "Steht er?",
       "structureContext": "Lección 1 translate card 7/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Está de pie?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "Sí, está de pie.",
       "deContext": "Ja, er steht.",
       "structureContext": "Lección 1 translate card 8/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sí, está de pie.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "Nos vamos.",
       "deContext": "Wir gehen.",
       "structureContext": "Lección 1 translate card 9/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nos vamos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "Vas a ir",
       "deContext": "Geht ihr?",
       "structureContext": "Lección 1 translate card 10/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Vas a ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "Albert y Martha van y vienen.",
       "deContext": "Albert und Marta kommen und gehen.",
       "structureContext": "Lección 1 translate card 11/11",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Albert y Martha van y vienen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0100"
     },
     {
@@ -1325,9 +1325,16 @@
       "current": "Lección {lesson} · Traducir: {current} / {total}",
       "deContext": "",
       "structureContext": "Translate progress template",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-01-0101"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 101,
+    "LABOT": 23,
+    "NELABOT": 78,
+    "unresolved": 0
+  }
 }
