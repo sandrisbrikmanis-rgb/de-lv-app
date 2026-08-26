@@ -3,7 +3,7 @@
 **Branch:** `cursor/es-de-a1-a2-owner-apply-001-200-3141`
 **PR:** #664
 **HEAD before:** `2c003ff7`
-**HEAD after:** `9cda94be`
+**HEAD after:** `24aec91c`
 **DE:** STRICT READ-ONLY
 
 ## Apply

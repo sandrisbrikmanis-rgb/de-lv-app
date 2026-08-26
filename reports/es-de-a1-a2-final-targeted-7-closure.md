@@ -1,7 +1,7 @@
 # ES–DE A1+A2 — final targeted 7 closure
 
-**HEAD:** `9cda94be`
-**Commit:** `9cda94be`
+**HEAD:** `24aec91c`
+**Commit:** `24aec91c`
 **Branch:** `cursor/es-de-a1-a2-owner-apply-001-200-3141`
 **PR:** #664
 
