@@ -14,7 +14,7 @@
   },
   "lessonNumber": 11,
   "targetCount": 163,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 11,
@@ -25,8 +25,8 @@
       "current": "Lección 11",
       "deContext": "",
       "structureContext": "Lección 11 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 11",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Haben, kein/keine/keinen, sustantivos posesivos y compuestos.",
       "deContext": "",
       "structureContext": "Lección 11 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Haben, kein/keine/keinen, sustantivos posesivos y compuestos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Undécima lección: haben, negación con kein, posesión, sustantivos compuestos y orden de las palabras con denn.",
       "deContext": "",
       "structureContext": "Lección 11 intro paragraph",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Undécima lección: haben, negación con kein, posesión, sustantivos compuestos y orden de las palabras con denn.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Diálogos / frases",
       "deContext": "",
       "structureContext": "Accordion section 1; raw: Diálogo / frases",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diálogos / frases",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Ich habe einen Bruder.",
       "deContext": "Ich habe einen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich habe einen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Du hast einen Bruder.",
       "deContext": "Du hast einen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Du hast einen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Er hat einen Bruder.",
       "deContext": "Er hat einen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er hat einen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Sie hat einen Bruder.",
       "deContext": "Sie hat einen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie hat einen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Es hat einen Bruder.",
       "deContext": "Es hat einen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Es hat einen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Wir haben einen Bruder.",
       "deContext": "Wir haben einen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir haben einen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Ihr habt einen Bruder.",
       "deContext": "Ihr habt einen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ihr habt einen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Sie haben einen Bruder.",
       "deContext": "Sie haben einen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie haben einen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Ich habe keinen Bruder.",
       "deContext": "Ich habe keinen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich habe keinen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Du hast keinen Bruder.",
       "deContext": "Du hast keinen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Du hast keinen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Er hat keinen Bruder.",
       "deContext": "Er hat keinen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er hat keinen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Sie hat keinen Bruder.",
       "deContext": "Sie hat keinen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie hat keinen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "Es hat keinen Bruder.",
       "deContext": "Es hat keinen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Es hat keinen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "Wir haben keinen Bruder.",
       "deContext": "Wir haben keinen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir haben keinen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "Ihr habt keinen Bruder.",
       "deContext": "Ihr habt keinen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ihr habt keinen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "Sie haben keinen Bruder.",
       "deContext": "Sie haben keinen Bruder.",
       "structureContext": "Section[0] Diálogos / frases / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie haben keinen Bruder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "Ich habe ein Zimmer.",
       "deContext": "Ich habe ein Zimmer.",
       "structureContext": "Section[0] Diálogos / frases / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich habe ein Zimmer.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "Das Zimmer ist nicht groß, aber es ist hell und warm.",
       "deContext": "Das Zimmer ist nicht groß, aber es ist hell und warm.",
       "structureContext": "Section[0] Diálogos / frases / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Zimmer ist nicht groß, aber es ist hell und warm.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "Das Zimmer hat ein Fenster.",
       "deContext": "Das Zimmer hat ein Fenster.",
       "structureContext": "Section[0] Diálogos / frases / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Zimmer hat ein Fenster.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "Das Fenster ist breit.",
       "deContext": "Das Fenster ist breit.",
       "structureContext": "Section[0] Diálogos / frases / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Fenster ist breit.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "Du hast einen Schreibtisch.",
       "deContext": "Du hast einen Schreibtisch.",
       "structureContext": "Section[0] Diálogos / frases / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Du hast einen Schreibtisch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "Da liegen drei Bücher.",
       "deContext": "Da liegen drei Bücher.",
       "structureContext": "Section[0] Diálogos / frases / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Da liegen drei Bücher.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "Anna hat einen Federhalter, eine Feder und einen Bleistift.",
       "deContext": "Anna hat einen Federhalter, eine Feder und einen Bleistift.",
       "structureContext": "Section[0] Diálogos / frases / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Anna hat einen Federhalter, eine Feder und einen Bleistift.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
       "deContext": "Franz, schreibst du auch?",
       "structureContext": "Section[0] Diálogos / frases / items[23]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
       "deContext": "Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.",
       "structureContext": "Section[0] Diálogos / frases / items[24]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
       "deContext": "Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.",
       "structureContext": "Section[0] Diálogos / frases / items[25]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "Anna und Franz arbeiten oft zusammen.",
       "deContext": "Anna und Franz arbeiten oft zusammen.",
       "structureContext": "Section[0] Diálogos / frases / items[26]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Anna und Franz arbeiten oft zusammen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "Sie sind Freunde.",
       "deContext": "Sie sind Freunde.",
       "structureContext": "Section[0] Diálogos / frases / items[27]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie sind Freunde.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "Was hast du?",
       "deContext": "Was hast du?",
       "structureContext": "Section[0] Diálogos / frases / items[28]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was hast du?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "Ich habe einen Schrank, einen Tisch und zwei Stühle.",
       "deContext": "Ich habe einen Schrank, einen Tisch und zwei Stühle.",
       "structureContext": "Section[0] Diálogos / frases / items[29]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich habe einen Schrank, einen Tisch und zwei Stühle.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "Was habt ihr?",
       "deContext": "Was habt ihr?",
       "structureContext": "Section[0] Diálogos / frases / items[30]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was habt ihr?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "Wir haben eine Tischlampe, ein Bücherbrett und eine Landkarte.",
       "deContext": "Wir haben eine Tischlampe, ein Bücherbrett und eine Landkarte.",
       "structureContext": "Section[0] Diálogos / frases / items[31]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir haben eine Tischlampe, ein Bücherbrett und eine Landkarte.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "Wer ist glücklich?",
       "deContext": "Wer ist glücklich?",
       "structureContext": "Section[0] Diálogos / frases / items[32]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wer ist glücklich?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "Ich bin glücklich, denn ich habe einen Vater und eine Mutter.",
       "deContext": "Ich bin glücklich, denn ich habe einen Vater und eine Mutter.",
       "structureContext": "Section[0] Diálogos / frases / items[33]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich bin glücklich, denn ich habe einen Vater und eine Mutter.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "Wir sind glücklich, denn wir haben Brüder und Schwestern.",
       "deContext": "Wir sind glücklich, denn wir haben Brüder und Schwestern.",
       "structureContext": "Section[0] Diálogos / frases / items[34]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir sind glücklich, denn wir haben Brüder und Schwestern.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "ich habe — hombre ir",
       "deContext": "ich habe",
       "structureContext": "Section[1] Palabras / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich habe — hombre ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "du hast — tev ir",
       "deContext": "du hast",
       "structureContext": "Section[1] Palabras / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du hast — tev ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "er hat — él tiene",
       "deContext": "er hat",
       "structureContext": "Section[1] Palabras / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er hat — él tiene",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "wir haben — mamás ir",
       "deContext": "wir haben",
       "structureContext": "Section[1] Palabras / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir haben — mamás ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "ihr habt — jums ir",
       "deContext": "ihr habt",
       "structureContext": "Section[1] Palabras / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr habt — jums ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "sie haben — tienen",
       "deContext": "sie haben",
       "structureContext": "Section[1] Palabras / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie haben — tienen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "der Bruder (dēr brūder) — hermano",
       "deContext": "der Bruder (dēr brūder)",
       "structureContext": "Section[1] Palabras / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Bruder (dēr brūder) — hermano",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "die Brüder — hermanos",
       "deContext": "die Brüder",
       "structureContext": "Section[1] Palabras / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Brüder — hermanos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "das Zimmer (das cimer) — istaba",
       "deContext": "das Zimmer (das cimer)",
       "structureContext": "Section[1] Palabras / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Zimmer (das cimer) — istaba",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "ist nicht — nav",
       "deContext": "ist nicht",
       "structureContext": "Section[1] Palabras / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ist nicht — nav",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "groß (grōs) — mentiras",
       "deContext": "groß (grōs)",
       "structureContext": "Section[1] Palabras / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "groß (grōs) — mentiras",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "hell — brillante",
       "deContext": "hell",
       "structureContext": "Section[1] Palabras / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hell — brillante",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "breit — platos",
       "deContext": "breit",
       "structureContext": "Section[1] Palabras / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "breit — platos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "der Schreibtisch (dēr šreibtīš) — un escritorio",
       "deContext": "der Schreibtisch (dēr šreibtīš)",
       "structureContext": "Section[1] Palabras / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Schreibtisch (dēr šreibtīš) — un escritorio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "da — tur",
       "deContext": "da",
       "structureContext": "Section[1] Palabras / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "da — allá",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "kein, keine, kein — neviens, neviena, neviens",
       "deContext": "kein, keine, kein",
       "structureContext": "Section[1] Palabras / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kein, keine, kein — neviens, neviena, neviens",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "zusammen (cuzāmen) — juntos",
       "deContext": "zusammen (cuzāmen)",
       "structureContext": "Section[1] Palabras / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zusammen (cuzāmen) — juntos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "oft — a menudo",
       "deContext": "oft",
       "structureContext": "Section[1] Palabras / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "oft — a menudo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "der Freund (dēr froint) — amigo",
       "deContext": "der Freund (dēr froint)",
       "structureContext": "Section[1] Palabras / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Freund (dēr froint) — un amigo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "die Freunde — draugi",
       "deContext": "die Freunde",
       "structureContext": "Section[1] Palabras / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Freunde — draugi",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "der Schrank — skapis",
       "deContext": "der Schrank",
       "structureContext": "Section[1] Palabras / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Schrank — skapis",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "der Stuhl (dēr štūl) — una silla",
       "deContext": "der Stuhl (dēr štūl)",
       "structureContext": "Section[1] Palabras / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Stuhl (dēr štūl) — una silla",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "die Stühle — las sillas",
       "deContext": "die Stühle",
       "structureContext": "Section[1] Palabras / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Stühle — las sillas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "die Tischlampe — lámpara galda",
       "deContext": "die Tischlampe",
       "structureContext": "Section[1] Palabras / items[23]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Tischlampe — lámpara galda",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "das Bücherbrett — estantería",
       "deContext": "das Bücherbrett",
       "structureContext": "Section[1] Palabras / items[24]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Bücherbrett — estantería",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "die Landkarte (dī lantkarte) — un mapa de geografía",
       "deContext": "die Landkarte (dī lantkarte)",
       "structureContext": "Section[1] Palabras / items[25]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Landkarte (dī lantkarte) — mapa geográfico",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "glücklich — feliz",
       "deContext": "glücklich",
       "structureContext": "Section[1] Palabras / items[26]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "glücklich — feliz",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "denn — jo",
       "deContext": "denn",
       "structureContext": "Section[1] Palabras / items[27]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "denn — jo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "die Schwester (dī švester) — hermana",
       "deContext": "die Schwester (dī švester)",
       "structureContext": "Section[1] Palabras / items[28]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Schwester (dī švester) — hermana",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "die Schwestern — hermanas",
       "deContext": "die Schwestern",
       "structureContext": "Section[1] Palabras / items[29]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Schwestern — hermanas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
       "deContext": "eu izrunā kā oi: der Freund (dēr froint), neun (noin).",
       "structureContext": "Section[2] Pronunciación / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "eu se pronuncia «oi»: der Freund (dēr froint), neun (noin).",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
       "deContext": "h pa lielākai daļai ir garumzīme iepriekšējam patskanim: der Stuhl (dēr štūl), zehn (cēn).",
       "structureContext": "Section[2] Pronunciación / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "A menudo, la h indica que la vocal anterior es larga: der Stuhl (dēr štūl), zehn (cēn).",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "La z suena como la c española: Franz (frans), das Zimmer (tsimer).",
       "deContext": "La z suena como la c española: Franz (frans), das Zimmer (tsimer).",
       "structureContext": "Section[2] Pronunciación / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La z suena como la c española: Franz (frans), das Zimmer (tsimer).",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "Haben",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Haben",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "El verbo auxiliar haben en alemán expresa el concepto de pertenencia. En español, a menudo se expresa con: yo tengo, tú tienes, él tiene, etc. t. t.",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El verbo auxiliar haben en alemán expresa el concepto de pertenencia. En español, a menudo se expresa con: yo tengo, tú tienes, él tiene, etc. t. t.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "Haben — Präsens",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Haben — Präsens",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "ich habe",
       "deContext": "ich habe",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich habe",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "man ir",
       "deContext": "man ir",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "man ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "du hast",
       "deContext": "du hast",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du hast",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "tev ir",
       "deContext": "tev ir",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tev ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "er/sie/es hat",
       "deContext": "er/sie/es hat",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er/sie/es hat",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "viņam/viņai/tam ir",
       "deContext": "viņam/viņai/tam ir",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "él/ella/ello tiene",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "wir haben",
       "deContext": "wir haben",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir haben",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "mums ir",
       "deContext": "mums ir",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mums ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "ihr habt",
       "deContext": "ihr habt",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr habt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "jums ir",
       "deContext": "jums ir",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jums ir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "sie haben",
       "deContext": "sie haben",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie haben",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "viņiem ir",
       "deContext": "viņiem ir",
       "structureContext": "Section[3] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ellos tienen",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "Latviešu datīvs un vācu nominatīvs/akuzatīvs",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Construcción alemana con nominativo y acusativo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "En español, la persona a quien pertenece algo está en el caso dativo y el sujeto en el caso nominativo. En alemán, la persona está en el caso nominativo y el objeto poseído en el caso acusativo.",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En español, la persona a quien pertenece algo está en el caso dativo y el sujeto en el caso nominativo. En alemán, la persona está en el caso nominativo y el objeto poseído en el caso acusativo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "Piemēri",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejemplos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "Ich habe einen Tisch — man ir galds",
       "deContext": "Ich habe einen Tisch",
       "structureContext": "Section[3] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich habe einen Tisch — man ir galds",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "Der Vater hat ein Buch — tēvam ir grāmata",
       "deContext": "Der Vater hat ein Buch",
       "structureContext": "Section[3] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater hat ein Buch — padre",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "Sie haben eine Feder — viņiem ir spalva",
       "deContext": "Sie haben eine Feder",
       "structureContext": "Section[3] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie haben eine Feder — Ellos tienen una pluma.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "Salīdzinājums ar citām valodām",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Comparación con otras lenguas",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "krievu: я имею тетрадь; отец имеет книгу.",
       "deContext": "krievu: я имею тетрадь; отец имеет книгу.",
       "structureContext": "Section[3] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "krievu: я имею тетрадь; отец имеет книгу.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "angļu: I have a book; the father has a pencil.",
       "deContext": "angļu: I have a book; the father has a pencil.",
       "structureContext": "Section[3] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "inglés: I have a book; the father has a pencil.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "Imperativ",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Imperativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "El verbo haben debe aprenderse bien y utilizarse correctamente. También debes conocer las formas de comando.",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El verbo haben debe aprenderse bien y utilizarse correctamente. También debes conocer las formas de comando.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "Imperativ — piemēri",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Imperativo: ejemplos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "habe Geduld! — pacietību! / lai tev ir pacietība!",
       "deContext": "habe Geduld!",
       "structureContext": "Section[3] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "habe Geduld! — ¡ten paciencia!",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "habt Geduld! — lai jums ir pacietība!",
       "deContext": "habt Geduld!",
       "structureContext": "Section[3] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "habt Geduld! — ¡tened paciencia!",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "Fräulein Müller, haben Sie Geduld!",
       "deContext": "Fräulein Müller, haben Sie Geduld!",
       "structureContext": "Section[3] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Fräulein Müller, haben Sie Geduld!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "Kein / keine / keinen",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Kein / keine / keinen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "La doble negación de la lengua española no se expresa en alemán con la palabra negativa kein. La palabra negativa kein sólo se sitúa delante del sustantivo.",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La doble negación de la lengua española no se expresa en alemán con la palabra negativa kein. La palabra negativa kein sólo se sitúa delante del sustantivo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "Kein — vienskaitlis",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Kein — vienskaitlis",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0105"
     },
     {
@@ -1390,8 +1390,8 @@
       "current": "Nominativ",
       "deContext": "Nominativ",
       "structureContext": "Section[3] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nominativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0106"
     },
     {
@@ -1403,8 +1403,8 @@
       "current": "kein",
       "deContext": "kein",
       "structureContext": "Section[3] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kein",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0107"
     },
     {
@@ -1416,8 +1416,8 @@
       "current": "keine",
       "deContext": "keine",
       "structureContext": "Section[3] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "keine",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0108"
     },
     {
@@ -1429,8 +1429,8 @@
       "current": "kein",
       "deContext": "kein",
       "structureContext": "Section[3] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kein",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0109"
     },
     {
@@ -1442,8 +1442,8 @@
       "current": "Akkusativ",
       "deContext": "Akkusativ",
       "structureContext": "Section[3] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Akkusativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0110"
     },
     {
@@ -1455,8 +1455,8 @@
       "current": "keinen",
       "deContext": "keinen",
       "structureContext": "Section[3] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "keinen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0111"
     },
     {
@@ -1468,8 +1468,8 @@
       "current": "keine",
       "deContext": "keine",
       "structureContext": "Section[3] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "keine",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0112"
     },
     {
@@ -1481,8 +1481,8 @@
       "current": "kein",
       "deContext": "kein",
       "structureContext": "Section[3] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kein",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0113"
     },
     {
@@ -1494,8 +1494,8 @@
       "current": "Kein — daudzskaitlis",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Kein — daudzskaitlis",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0114"
     },
     {
@@ -1507,8 +1507,8 @@
       "current": "Nominativ",
       "deContext": "Nominativ",
       "structureContext": "Section[3] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nominativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0115"
     },
     {
@@ -1520,8 +1520,8 @@
       "current": "keine",
       "deContext": "keine",
       "structureContext": "Section[3] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "keine",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0116"
     },
     {
@@ -1533,8 +1533,8 @@
       "current": "Akkusativ",
       "deContext": "Akkusativ",
       "structureContext": "Section[3] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Akkusativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0117"
     },
     {
@@ -1546,8 +1546,8 @@
       "current": "keine",
       "deContext": "keine",
       "structureContext": "Section[3] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "keine",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0118"
     },
     {
@@ -1559,8 +1559,8 @@
       "current": "Vārdu kārtība ar denn",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Orden de palabras con denn",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0119"
     },
     {
@@ -1572,8 +1572,8 @@
       "current": "Si la oración narrativa contiene la conjunción denn, el verbo permanece en 2ª posición. La conjunción denn no cuenta como miembro de la oración.",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si la oración narrativa contiene la conjunción denn, el verbo permanece en 2ª posición. La conjunción denn no cuenta como miembro de la oración.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0120"
     },
     {
@@ -1585,8 +1585,8 @@
       "current": "Denn — piemēri",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Denn — porque",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0121"
     },
     {
@@ -1598,8 +1598,8 @@
       "current": "Ich bin glücklich, denn ich habe Brüder.",
       "deContext": "Ich bin glücklich, denn ich habe Brüder.",
       "structureContext": "Section[3] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich bin glücklich, denn ich habe Brüder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0122"
     },
     {
@@ -1611,8 +1611,8 @@
       "current": "Wir sind glücklich, denn wir haben Schwestern.",
       "deContext": "Wir sind glücklich, denn wir haben Schwestern.",
       "structureContext": "Section[3] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir sind glücklich, denn wir haben Schwestern.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0123"
     },
     {
@@ -1624,8 +1624,8 @@
       "current": "Saliktie lietvārdi",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sustantivos compuestos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0124"
     },
     {
@@ -1637,8 +1637,8 @@
       "current": "Los sustantivos compuestos van precedidos del article del último sustantivo. El énfasis está en la primera palabra del caso.",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los sustantivos compuestos van precedidos del article del último sustantivo. El énfasis está en la primera palabra del caso.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0125"
     },
     {
@@ -1650,8 +1650,8 @@
       "current": "Saliktie lietvārdi — piemēri",
       "deContext": "",
       "structureContext": "Section[3] Gramática / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sustantivos compuestos: ejemplos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0126"
     },
     {
@@ -1663,8 +1663,8 @@
       "current": "der Tisch + die Lampe = die Tischlampe",
       "deContext": "der Tisch + die Lampe = die Tischlampe",
       "structureContext": "Section[3] Gramática / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Tisch + die Lampe = die Tischlampe",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0127"
     },
     {
@@ -1676,8 +1676,8 @@
       "current": "die Bücher + das Brett = das Bücherbrett",
       "deContext": "die Bücher + das Brett = das Bücherbrett",
       "structureContext": "Section[3] Gramática / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Bücher + das Brett = das Bücherbrett",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0128"
     },
     {
@@ -1689,8 +1689,8 @@
       "current": "das Land + die Karte = die Landkarte",
       "deContext": "das Land + die Karte = die Landkarte",
       "structureContext": "Section[3] Gramática / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Land + die Karte = die Landkarte",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0129"
     },
     {
@@ -1702,8 +1702,8 @@
       "current": "¿Kas tev ir?",
       "deContext": "Was hast du?",
       "structureContext": "Section[4] Traducir / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Kas tev ir?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0130"
     },
     {
@@ -1715,8 +1715,8 @@
       "current": "Tengo libros.",
       "deContext": "Ich habe Bücher.",
       "structureContext": "Section[4] Traducir / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Tengo libros.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0131"
     },
     {
@@ -1728,8 +1728,8 @@
       "current": "¿Cuáles son los libros?",
       "deContext": "Wie sind die Bücher?",
       "structureContext": "Section[4] Traducir / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cuáles son los libros?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0132"
     },
     {
@@ -1741,8 +1741,8 @@
       "current": "Los libros son gruesos.",
       "deContext": "Die Bücher sind dick.",
       "structureContext": "Section[4] Traducir / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los libros son gruesos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0133"
     },
     {
@@ -1754,8 +1754,8 @@
       "current": "Señorita Müller, ¿tiene cuadernos?",
       "deContext": "Fräulein Müller, haben Sie Hefte?",
       "structureContext": "Section[4] Traducir / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Señorita Müller, ¿tiene cuadernos?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0134"
     },
     {
@@ -1767,8 +1767,8 @@
       "current": "No tengo cuadernos.",
       "deContext": "Ich habe keine Hefte.",
       "structureContext": "Section[4] Traducir / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No tengo cuadernos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0135"
     },
     {
@@ -1780,8 +1780,8 @@
       "current": "Franc no tiene bolígrafo ni lápiz.",
       "deContext": "Franz hat keine Feder und keinen Bleistift.",
       "structureContext": "Section[4] Traducir / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Franc no tiene bolígrafo ni lápiz.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0136"
     },
     {
@@ -1793,8 +1793,8 @@
       "current": "¿Cómo es la habitación?",
       "deContext": "Wie ist das Zimmer?",
       "structureContext": "Section[4] Traducir / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo es la habitación?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0137"
     },
     {
@@ -1806,8 +1806,8 @@
       "current": "La habitación es grande, luminosa y cálida.",
       "deContext": "Das Zimmer ist groß, hell und warm.",
       "structureContext": "Section[4] Traducir / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La habitación es grande, luminosa y cálida.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0138"
     },
     {
@@ -1819,8 +1819,8 @@
       "current": "¿Tienes un escritorio?",
       "deContext": "Hast du einen Schreibtisch?",
       "structureContext": "Section[4] Traducir / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Tienes un escritorio?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0139"
     },
     {
@@ -1832,8 +1832,8 @@
       "current": "Sí, tengo un escritorio y una lámpara de mesa.",
       "deContext": "Ja, ich habe einen Schreibtisch und eine Tischlampe.",
       "structureContext": "Section[4] Traducir / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sí, tengo un escritorio y una lámpara de mesa.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0140"
     },
     {
@@ -1845,8 +1845,8 @@
       "current": "¿Qué tiene un maestro?",
       "deContext": "Was hat der Lehrer?",
       "structureContext": "Section[4] Traducir / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué tiene un maestro?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0141"
     },
     {
@@ -1858,8 +1858,8 @@
       "current": "La maestra tiene muchos libros y una estantería.",
       "deContext": "Der Lehrer hat viele Bücher und ein Bücherbrett.",
       "structureContext": "Section[4] Traducir / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La maestra tiene muchos libros y una estantería.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0142"
     },
     {
@@ -1871,8 +1871,8 @@
       "current": "¿Quién es feliz?",
       "deContext": "Wer ist glücklich?",
       "structureContext": "Section[4] Traducir / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién es feliz?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0143"
     },
     {
@@ -1884,8 +1884,8 @@
       "current": "El niño es feliz porque tiene un padre y una madre.",
       "deContext": "Das Kind ist glücklich, denn es hat einen Vater und eine Mutter.",
       "structureContext": "Section[4] Traducir / card[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El niño es feliz porque tiene un padre y una madre.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0144"
     },
     {
@@ -1897,8 +1897,8 @@
       "current": "Ko dara Anna?",
       "deContext": "Was tut Anna?",
       "structureContext": "Section[4] Traducir / card[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ko dara Anna?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0145"
     },
     {
@@ -1910,8 +1910,8 @@
       "current": "Ella escribe.",
       "deContext": "Sie schreibt.",
       "structureContext": "Section[4] Traducir / card[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ella escribe.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0146"
     },
     {
@@ -1923,8 +1923,8 @@
       "current": "¿Francisco también escribe?",
       "deContext": "Schreibt Franz auch?",
       "structureContext": "Section[4] Traducir / card[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Francisco también escribe?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0147"
     },
     {
@@ -1936,8 +1936,8 @@
       "current": "No, Francisco no escribe, dibuja.",
       "deContext": "Nein, Franz schreibt nicht, er zeichnet.",
       "structureContext": "Section[4] Traducir / card[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No, Francisco no escribe, dibuja.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0148"
     },
     {
@@ -1949,8 +1949,8 @@
       "current": "¿Están de pie?",
       "deContext": "Stehen sie?",
       "structureContext": "Section[4] Traducir / card[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Están de pie?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0149"
     },
     {
@@ -1962,8 +1962,8 @@
       "current": "No, se sientan y estudian.",
       "deContext": "Nein, sie setzen sich und lernen.",
       "structureContext": "Section[4] Traducir / card[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No, se sientan y estudian.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0150"
     },
     {
@@ -1975,8 +1975,8 @@
       "current": "Diálogos / frases",
       "deContext": "",
       "structureContext": "Section raw title: Diálogo / frases",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diálogos / frases",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0151"
     },
     {
@@ -1988,8 +1988,8 @@
       "current": "Palabras",
       "deContext": "",
       "structureContext": "Section raw title: Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Palabras",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0152"
     },
     {
@@ -2001,8 +2001,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Section raw title: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0153"
     },
     {
@@ -2014,8 +2014,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Section raw title: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0154"
     },
     {
@@ -2027,8 +2027,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0155"
     },
     {
@@ -2040,8 +2040,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0156"
     },
     {
@@ -2053,8 +2053,8 @@
       "current": "Ejercicio I — Usa la conjugación correcta",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio I — Usa la conjugación correcta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0157"
     },
     {
@@ -2066,8 +2066,8 @@
       "current": "¡Pon la conjugación correcta y hazlo en plural!",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Pon la conjugación correcta y hazlo en plural!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0158"
     },
     {
@@ -2079,8 +2079,8 @@
       "current": "Ahora responde en plural.",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ahora responde en plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0159"
     },
     {
@@ -2092,8 +2092,8 @@
       "current": "Ejercicio II — Traducir",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio II — Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0160"
     },
     {
@@ -2105,8 +2105,8 @@
       "current": "Forma 1/3: Tu (singular)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 1/3: du (singular)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0161"
     },
     {
@@ -2118,8 +2118,8 @@
       "current": "Formulario 2/3: Tú (plural)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-11-0162"
     },
     {
@@ -2131,9 +2131,16 @@
       "current": "Formulario 3/3: Sie (forma decente)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-11-0163"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 163,
+    "LABOT": 22,
+    "NELABOT": 141,
+    "unresolved": 0
+  }
 }
