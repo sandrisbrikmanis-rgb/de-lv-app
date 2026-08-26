@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-26T16:59:12.371Z",
-  "branch": "cursor/es-kurss-lessons-01-21-owner-extract-3141",
-  "commit": "23e85adf",
-  "pr": 673,
-  "verdict": "PASS — ES KURSS LESSONS 01–21 OWNER ACCEPTED / READY TO MERGE",
+  "generatedAt": "2026-08-26T17:00:26.437Z",
+  "branch": "main",
+  "commit": "2e5bed8d",
+  "pr": null,
+  "verdict": "PASS — ES KURSS LESSONS 01–21 OWNER ACCEPTED / CLOSED ON MAIN",
   "gates": {
     "labotRetention": "PASS (421/421)",
     "nelabotRetention": "PASS (2530/2530)",
@@ -180,12 +180,7 @@
   },
   "unexpectedProduction": {
     "pass": true,
-    "changedProduction": [
-      "data/es/courseLessons.js",
-      "languages/es/ui.js",
-      "www/data/es/courseLessons.js",
-      "www/languages/es/ui.js"
-    ],
+    "changedProduction": [],
     "unexpectedProduction": []
   },
   "applyLog": {

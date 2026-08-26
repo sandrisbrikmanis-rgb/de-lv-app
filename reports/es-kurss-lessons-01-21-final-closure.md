@@ -1,10 +1,9 @@
 # ES Kurss Lessons 1–21 — final closure
-**Generated:** 2026-08-26T16:59:12.371Z
-**Branch:** `cursor/es-kurss-lessons-01-21-owner-extract-3141`
-**Commit:** `23e85adf`
-**PR:** #673
+**Generated:** 2026-08-26T17:00:26.437Z
+**Branch:** `main`
+**Commit:** `2e5bed8d`
 ## Verdict
-**PASS — ES KURSS LESSONS 01–21 OWNER ACCEPTED / READY TO MERGE**
+**PASS — ES KURSS LESSONS 01–21 OWNER ACCEPTED / CLOSED ON MAIN**
 ## Gates
 | Gate | Status |
 |------|--------|
