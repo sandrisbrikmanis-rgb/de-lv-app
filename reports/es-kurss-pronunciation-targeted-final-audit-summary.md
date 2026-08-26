@@ -34,6 +34,6 @@
 | Retention 14/14 | PASS |
 | DE unchanged | PASS |
 | Visual smoke | PASS |
-| Production changes | 0 |
+| Production changes | 6 LABOT (final OWNER repair) |
 
-REAL=7. See owner decisions JSON for LABOT targets.
+All 7 audit findings reconciled: 6 LABOT applied, 1 NELABOT (ES-KURSS-FINAL-0007). Closure: `reports/es-kurss-pronunciation-targeted-final-closure.md`.
