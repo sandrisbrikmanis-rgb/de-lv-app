@@ -14,7 +14,7 @@
   },
   "lessonNumber": 14,
   "targetCount": 143,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 14,
@@ -25,8 +25,8 @@
       "current": "Lección 14",
       "deContext": "",
       "structureContext": "Lección 14 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 14",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Verbos müssen, wollen, mögen y modales.",
       "deContext": "",
       "structureContext": "Lección 14 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbos müssen, wollen, mögen y modales.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Lección Catorce: Verbos modales müssen, wollen y mögen.",
       "deContext": "",
       "structureContext": "Lección 14 intro paragraph",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección Catorce: Verbos modales müssen, wollen y mögen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Accordion section 1; raw: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Ich muss lernen, denn ich will vorwärts kommen.",
       "deContext": "Ich muss lernen, denn ich will vorwärts kommen.",
       "structureContext": "Section[0] Texto / lectura / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich muss lernen, denn ich will vorwärts kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Du musst lernen, denn du willst vorwärts kommen.",
       "deContext": "Du musst lernen, denn du willst vorwärts kommen.",
       "structureContext": "Section[0] Texto / lectura / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Du musst lernen, denn du willst vorwärts kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Er muss lernen, denn er will vorwärts kommen.",
       "deContext": "Er muss lernen, denn er will vorwärts kommen.",
       "structureContext": "Section[0] Texto / lectura / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er muss lernen, denn er will vorwärts kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Sie muss lernen, denn sie will vorwärts kommen.",
       "deContext": "Sie muss lernen, denn sie will vorwärts kommen.",
       "structureContext": "Section[0] Texto / lectura / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie muss lernen, denn sie will vorwärts kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Es muss lernen, denn es will vorwärts kommen.",
       "deContext": "Es muss lernen, denn es will vorwärts kommen.",
       "structureContext": "Section[0] Texto / lectura / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Es muss lernen, denn es will vorwärts kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Wir müssen lernen, denn wir wollen vorwärts kommen.",
       "deContext": "Wir müssen lernen, denn wir wollen vorwärts kommen.",
       "structureContext": "Section[0] Texto / lectura / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir müssen lernen, denn wir wollen vorwärts kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Ihr müsst lernen, denn ihr wollt vorwärts kommen.",
       "deContext": "Ihr müsst lernen, denn ihr wollt vorwärts kommen.",
       "structureContext": "Section[0] Texto / lectura / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ihr müsst lernen, denn ihr wollt vorwärts kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Sie müssen lernen, denn sie wollen vorwärts kommen.",
       "deContext": "Sie müssen lernen, denn sie wollen vorwärts kommen.",
       "structureContext": "Section[0] Texto / lectura / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie müssen lernen, denn sie wollen vorwärts kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
       "deContext": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
       "structureContext": "Section[0] Texto / lectura / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Du magst die Suppe nicht essen, denn sie mundet dir nicht.",
       "deContext": "Du magst die Suppe nicht essen, denn sie mundet dir nicht.",
       "structureContext": "Section[0] Texto / lectura / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Du magst die Suppe nicht essen, denn sie mundet dir nicht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Er mag die Suppe nicht essen, denn sie mundet ihm nicht.",
       "deContext": "Er mag die Suppe nicht essen, denn sie mundet ihm nicht.",
       "structureContext": "Section[0] Texto / lectura / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er mag die Suppe nicht essen, denn sie mundet ihm nicht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Sie mag die Suppe nicht essen, denn sie mundet ihr nicht.",
       "deContext": "Sie mag die Suppe nicht essen, denn sie mundet ihr nicht.",
       "structureContext": "Section[0] Texto / lectura / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie mag die Suppe nicht essen, denn sie mundet ihr nicht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "Es mag die Suppe nicht essen, denn sie mundet ihm nicht.",
       "deContext": "Es mag die Suppe nicht essen, denn sie mundet ihm nicht.",
       "structureContext": "Section[0] Texto / lectura / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Es mag die Suppe nicht essen, denn sie mundet ihm nicht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "Wir mögen die Suppe nicht essen, denn sie mundet uns nicht.",
       "deContext": "Wir mögen die Suppe nicht essen, denn sie mundet uns nicht.",
       "structureContext": "Section[0] Texto / lectura / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir mögen die Suppe nicht essen, denn sie mundet uns nicht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "Ihr mögt die Suppe nicht essen, denn sie mundet euch nicht.",
       "deContext": "Ihr mögt die Suppe nicht essen, denn sie mundet euch nicht.",
       "structureContext": "Section[0] Texto / lectura / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ihr mögt die Suppe nicht essen, denn sie mundet euch nicht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "Sie mögen die Suppe nicht essen, denn sie mundet ihnen nicht.",
       "deContext": "Sie mögen die Suppe nicht essen, denn sie mundet ihnen nicht.",
       "structureContext": "Section[0] Texto / lectura / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie mögen die Suppe nicht essen, denn sie mundet ihnen nicht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "müssen — necesitar / tener que hacer",
       "deContext": "müssen",
       "structureContext": "Section[1] Nombres / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "müssen — necesitar / tener que hacer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "ich muss — necesito / tengo que hacer",
       "deContext": "ich muss",
       "structureContext": "Section[1] Nombres / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich muss — necesito / tengo que hacer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "du musst — necesitas / debes hacer",
       "deContext": "du musst",
       "structureContext": "Section[1] Nombres / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du musst — necesitas / debes hacer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "er muss — él necesita / tiene que",
       "deContext": "er muss",
       "structureContext": "Section[1] Nombres / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er muss — él necesita / tiene que",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "sie muss — ella necesita / tiene que",
       "deContext": "sie muss",
       "structureContext": "Section[1] Nombres / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie muss — ella necesita / tiene que",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "es muss — necesita / tiene que hacer",
       "deContext": "es muss",
       "structureContext": "Section[1] Nombres / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "es muss — necesita / tiene que hacer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "wir müssen — necesitamos / tenemos que hacer",
       "deContext": "wir müssen",
       "structureContext": "Section[1] Nombres / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir müssen — necesitamos / tenemos que hacer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "ihr müsst — necesitas / debes",
       "deContext": "ihr müsst",
       "structureContext": "Section[1] Nombres / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr müsst — necesitas / debes",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "sie müssen — ellos / ellos necesitan",
       "deContext": "sie müssen",
       "structureContext": "Section[1] Nombres / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie müssen — ellos / ellos necesitan",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "lernen — aprender",
       "deContext": "lernen",
       "structureContext": "Section[1] Nombres / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "lernen — aprender",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "vorwärts — adelante",
       "deContext": "vorwärts",
       "structureContext": "Section[1] Nombres / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "vorwärts — adelante",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "vorwärts kommen — salir adelante",
       "deContext": "vorwärts kommen",
       "structureContext": "Section[1] Nombres / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "vorwärts kommen — salir adelante",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "wollen — querer",
       "deContext": "wollen",
       "structureContext": "Section[1] Nombres / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wollen — querer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "ich will — es gribu",
       "deContext": "ich will",
       "structureContext": "Section[1] Nombres / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich will — es gribu",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "du willst — tu gribi",
       "deContext": "du willst",
       "structureContext": "Section[1] Nombres / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du willst — tu gribi",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "er will — él quiere",
       "deContext": "er will",
       "structureContext": "Section[1] Nombres / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er will — él quiere",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "sie will — ella quiere",
       "deContext": "sie will",
       "structureContext": "Section[1] Nombres / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie will — ella quiere",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "es will — tas grib",
       "deContext": "es will",
       "structureContext": "Section[1] Nombres / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "es will — tas grib",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "wir wollen — queremos",
       "deContext": "wir wollen",
       "structureContext": "Section[1] Nombres / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir wollen — queremos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "ihr wollt — quieres",
       "deContext": "ihr wollt",
       "structureContext": "Section[1] Nombres / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr wollt — quieres",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "sie wollen — ellos / ellas quieren",
       "deContext": "sie wollen",
       "structureContext": "Section[1] Nombres / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie wollen — ellos / ellas quieren",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "mögen — querer / querer / gustar",
       "deContext": "mögen",
       "structureContext": "Section[1] Nombres / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mögen — querer / querer / gustar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "ich mag — quiero / me gusta",
       "deContext": "ich mag",
       "structureContext": "Section[1] Nombres / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich mag — quiero / me gusta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "du magst — quieres / te gusta",
       "deContext": "du magst",
       "structureContext": "Section[1] Nombres / items[23]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du magst — quieres / te gusta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "er mag — él quiere / le gusta",
       "deContext": "er mag",
       "structureContext": "Section[1] Nombres / items[24]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er mag — él quiere / le gusta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "sie mag — ella quiere / le gusta",
       "deContext": "sie mag",
       "structureContext": "Section[1] Nombres / items[25]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie mag — ella quiere / le gusta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "es mag — quiere / le gusta",
       "deContext": "es mag",
       "structureContext": "Section[1] Nombres / items[26]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "es mag — quiere / le gusta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "wir mögen — queremos",
       "deContext": "wir mögen",
       "structureContext": "Section[1] Nombres / items[27]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir mögen — queremos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "ihr mögt — quieres",
       "deContext": "ihr mögt",
       "structureContext": "Section[1] Nombres / items[28]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr mögt — quieres",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "sie mögen — ellos / ella quieren",
       "deContext": "sie mögen",
       "structureContext": "Section[1] Nombres / items[29]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie mögen — ellos / ella quieren",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "die Suppe — zupa",
       "deContext": "die Suppe",
       "structureContext": "Section[1] Nombres / items[30]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Suppe — zupa",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "munden — para saber bien",
       "deContext": "munden",
       "structureContext": "Section[1] Nombres / items[31]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "munden — para saber bien",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "mir — hombre",
       "deContext": "mir",
       "structureContext": "Section[1] Nombres / items[32]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mir — hombre",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "dir — tev",
       "deContext": "dir",
       "structureContext": "Section[1] Nombres / items[33]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dir — tev",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "ihm — a él",
       "deContext": "ihm",
       "structureContext": "Section[1] Nombres / items[34]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihm — a él",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "ihr — para ella",
       "deContext": "ihr",
       "structureContext": "Section[1] Nombres / items[35]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr — para ella",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "uns — mamás",
       "deContext": "uns",
       "structureContext": "Section[1] Nombres / items[36]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "uns — mamás",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "euch — jums",
       "deContext": "euch",
       "structureContext": "Section[1] Nombres / items[37]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "euch — jums",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "ihnen — para ellos / ellos",
       "deContext": "ihnen",
       "structureContext": "Section[1] Nombres / items[38]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihnen — para ellos / ellos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "denn — jo",
       "deContext": "denn",
       "structureContext": "Section[1] Nombres / items[39]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "denn — jo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "Modālie darbības vārdi",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbos modales",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "Los verbos müssen, wollen y mögen son verbos modales.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los verbos müssen, wollen y mögen son verbos modales.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "1. un 3. persona vienskaitlī",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Primera y tercera persona singular",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "En presente singular, la 1ª y 3ª personas son iguales.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En presente singular, la 1ª y 3ª personas son iguales.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "ich muss",
       "deContext": "ich muss",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich muss",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "er muss",
       "deContext": "er muss",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er muss",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "ich will",
       "deContext": "ich will",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich will",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "er will",
       "deContext": "er will",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er will",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "ich mag",
       "deContext": "ich mag",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich mag",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "er mag",
       "deContext": "er mag",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er mag",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "Müssen",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Müssen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "ich muss",
       "deContext": "ich muss",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich muss",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "du musst",
       "deContext": "du musst",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du musst",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "er/sie/es muss",
       "deContext": "er/sie/es muss",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er/sie/es muss",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "wir müssen",
       "deContext": "wir müssen",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir müssen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "ihr müsst",
       "deContext": "ihr müsst",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr müsst",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "sie müssen",
       "deContext": "sie müssen",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie müssen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "Wollen",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wollen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "ich will",
       "deContext": "ich will",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich will",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "du willst",
       "deContext": "du willst",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du willst",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "er/sie/es will",
       "deContext": "er/sie/es will",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er/sie/es will",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "wir wollen",
       "deContext": "wir wollen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir wollen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "ihr wollt",
       "deContext": "ihr wollt",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr wollt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "sie wollen",
       "deContext": "sie wollen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie wollen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "Mögen",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Mögen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "ich mag",
       "deContext": "ich mag",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich mag",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "du magst",
       "deContext": "du magst",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du magst",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "er/sie/es mag",
       "deContext": "er/sie/es mag",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er/sie/es mag",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "wir mögen",
       "deContext": "wir mögen",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir mögen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "ihr mögt",
       "deContext": "ihr mögt",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr mögt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "sie mögen",
       "deContext": "sie mögen",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie mögen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "Celma patskaņu maiņa",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cambio de vocal en la raíz",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "müssen: ich muss — wir müssen",
       "deContext": "müssen: ich muss",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "müssen: ich muss — wir müssen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "wollen: ich will — wir wollen",
       "deContext": "wollen: ich will",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wollen: ich will — wir wollen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "mögen: ich mag — wir mögen",
       "deContext": "mögen: ich mag",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mögen: ich mag — wir mögen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "Müssen",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Müssen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "Müssen significa necesitar/ser necesitado.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Müssen significa necesitar/ser necesitado.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "Ich muss lernen. — Man jāmācās.",
       "deContext": "Ich muss lernen.",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich muss lernen. — Tengo que estudiar.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "Wollen",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wollen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "Wollen significa querer hacer algo deliberadamente.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wollen significa querer hacer algo deliberadamente.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "Ich will vorwärts kommen. — Es gribu tikt uz priekšu.",
       "deContext": "Ich will vorwärts kommen.",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich will vorwärts kommen. — Quiero avanzar.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "Mögen",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Mögen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "Mögen expresa un deseo o agrado.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Mögen expresa un deseo o agrado.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "Ich mag die Suppe nicht essen. — Es negribu zupu ēst.",
       "deContext": "Ich mag die Suppe nicht essen.",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich mag die Suppe nicht essen. — No quiero comer la sopa.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "Die Suppe mundet mir nicht. — Zupa man negaršo.",
       "deContext": "Die Suppe mundet mir nicht.",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Suppe mundet mir nicht. — No me gusta la sopa.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0105"
     },
     {
@@ -1390,8 +1390,8 @@
       "current": "Svarīgi",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Importante",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0106"
     },
     {
@@ -1403,8 +1403,8 @@
       "current": "En español solemos decir \"tengo que estudiar\", \"tienes que escribir\", \"él tiene que venir\". El alemán suele utilizar müssen en este tipo de frases.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En español solemos decir \"tengo que estudiar\", \"tienes que escribir\", \"él tiene que venir\". El alemán suele utilizar müssen en este tipo de frases.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0107"
     },
     {
@@ -1416,8 +1416,8 @@
       "current": "Ich muss lernen.",
       "deContext": "Ich muss lernen.",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich muss lernen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0108"
     },
     {
@@ -1429,8 +1429,8 @@
       "current": "Du musst den Brief schreiben.",
       "deContext": "Du musst den Brief schreiben.",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Du musst den Brief schreiben.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0109"
     },
     {
@@ -1442,8 +1442,8 @@
       "current": "Er muss heute kommen.",
       "deContext": "Er muss heute kommen.",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er muss heute kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0110"
     },
     {
@@ -1455,8 +1455,8 @@
       "current": "ß izrunā kā latviešu s.",
       "deContext": "ß izrunā kā latviešu s.",
       "structureContext": "Section[3] Pronunciación / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ß se pronuncia como s.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0111"
     },
     {
@@ -1468,8 +1468,8 @@
       "current": "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
       "deContext": "ß raksta vārda vidū vai beigās pēc gara patskaņa vai divskaņa: die Füße, die Straße, ich muss, er muss.",
       "structureContext": "Section[3] Pronunciación / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ß se escribe en medio o al final de una palabra después de una vocal larga o un diptongo: die Füße, die Straße. Después de una vocal corta se escribe ss: ich muss, er muss.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0112"
     },
     {
@@ -1481,8 +1481,8 @@
       "current": "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
       "deContext": "Ja citās formās ir ss, tad pirms galotnes var būt ß: müssen, ich muss, du musst, ihr müsst.",
       "structureContext": "Section[3] Pronunciación / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Observa la alternancia entre ss y ß según la longitud vocálica: müssen, ich muss, du musst, ihr müsst.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0113"
     },
     {
@@ -1494,8 +1494,8 @@
       "current": "ö vārdā mögen izrunā kā skaidru ö skaņu.",
       "deContext": "",
       "structureContext": "Section[3] Pronunciación / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En mögen, la ö debe pronunciarse claramente.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0114"
     },
     {
@@ -1507,8 +1507,8 @@
       "current": "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
       "deContext": "Ja pēc g seko t, tad g izklausās tuvāk k skaņai: du magst, ihr mögt.",
       "structureContext": "Section[3] Pronunciación / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cuando g va seguida de t, se ensordece y suena cercana a k: du magst, ihr mögt.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0115"
     },
     {
@@ -1520,8 +1520,8 @@
       "current": "Del mismo modo, en español la g ante s en «signos» suena más cercana a una k.",
       "deContext": "Del mismo modo, en español la g ante s en «signos» suena más cercana a una k.",
       "structureContext": "Section[3] Pronunciación / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Del mismo modo, en español la g ante s en «signos» suena más cercana a una k.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0116"
     },
     {
@@ -1533,8 +1533,8 @@
       "current": "¿Quién quiere estudiar mucho?",
       "deContext": "Wer will fleißig lernen?",
       "structureContext": "Section[4] Traducir / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién quiere estudiar mucho?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0117"
     },
     {
@@ -1546,8 +1546,8 @@
       "current": "Todos los estudiantes quieren estudiar mucho.",
       "deContext": "Alle Schüler wollen fleißig lernen.",
       "structureContext": "Section[4] Traducir / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Todos los estudiantes quieren estudiar mucho.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0118"
     },
     {
@@ -1559,8 +1559,8 @@
       "current": "¿Quién debería venir hoy?",
       "deContext": "Wer muss heute kommen?",
       "structureContext": "Section[4] Traducir / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién debería venir hoy?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0119"
     },
     {
@@ -1572,8 +1572,8 @@
       "current": "Tengo que venir hoy.",
       "deContext": "Ich muss heute kommen.",
       "structureContext": "Section[4] Traducir / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Tengo que venir hoy.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0120"
     },
     {
@@ -1585,8 +1585,8 @@
       "current": "Tienes que escribir una carta.",
       "deContext": "Du musst den Brief schreiben.",
       "structureContext": "Section[4] Traducir / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Tienes que escribir una carta.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0121"
     },
     {
@@ -1598,8 +1598,8 @@
       "current": "¿Quién necesita estudiar mucho?",
       "deContext": "Wer muss fleißig lernen?",
       "structureContext": "Section[4] Traducir / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién necesita estudiar mucho?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0122"
     },
     {
@@ -1611,8 +1611,8 @@
       "current": "Los estudiantes deben estudiar mucho.",
       "deContext": "Die Schüler müssen fleißig lernen.",
       "structureContext": "Section[4] Traducir / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los estudiantes deben estudiar mucho.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0123"
     },
     {
@@ -1624,8 +1624,8 @@
       "current": "No quiero comer sopa porque no me gusta.",
       "deContext": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
       "structureContext": "Section[4] Traducir / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No quiero comer sopa porque no me gusta.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0124"
     },
     {
@@ -1637,8 +1637,8 @@
       "current": "¿Quién quiere comer sopa?",
       "deContext": "Wer will die Suppe essen?",
       "structureContext": "Section[4] Traducir / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién quiere comer sopa?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0125"
     },
     {
@@ -1650,8 +1650,8 @@
       "current": "Elsa quiere comer sopa.",
       "deContext": "Elsa will die Suppe essen.",
       "structureContext": "Section[4] Traducir / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Elsa quiere comer sopa.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0126"
     },
     {
@@ -1663,8 +1663,8 @@
       "current": "¿Quién debería leer el libro?",
       "deContext": "Wer muss das Buch lesen?",
       "structureContext": "Section[4] Traducir / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién debería leer el libro?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0127"
     },
     {
@@ -1676,8 +1676,8 @@
       "current": "El hermano debe leer un libro.",
       "deContext": "Der Bruder muss das Buch lesen.",
       "structureContext": "Section[4] Traducir / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El hermano debe leer un libro.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0128"
     },
     {
@@ -1689,8 +1689,8 @@
       "current": "No quiero cantar.",
       "deContext": "Ich mag nicht singen.",
       "structureContext": "Section[4] Traducir / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No quiero cantar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0129"
     },
     {
@@ -1702,8 +1702,8 @@
       "current": "Papá tiene que comprar una mesa.",
       "deContext": "Der Vater muss einen Tisch kaufen.",
       "structureContext": "Section[4] Traducir / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Papá tiene que comprar una mesa.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0130"
     },
     {
@@ -1715,8 +1715,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Section raw title: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0131"
     },
     {
@@ -1728,8 +1728,8 @@
       "current": "Nombres",
       "deContext": "",
       "structureContext": "Section raw title: Nombres",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nombres",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0132"
     },
     {
@@ -1741,8 +1741,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Section raw title: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0133"
     },
     {
@@ -1754,8 +1754,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Section raw title: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0134"
     },
     {
@@ -1767,8 +1767,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0135"
     },
     {
@@ -1780,8 +1780,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0136"
     },
     {
@@ -1793,8 +1793,8 @@
       "current": "Ejercicio I — Usa la conjugación correcta",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio I — Usa la conjugación correcta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0137"
     },
     {
@@ -1806,8 +1806,8 @@
       "current": "¡Pon la conjugación correcta y hazlo en plural!",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Pon la conjugación correcta y hazlo en plural!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0138"
     },
     {
@@ -1819,8 +1819,8 @@
       "current": "Ahora responde en plural.",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ahora responde en plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0139"
     },
     {
@@ -1832,8 +1832,8 @@
       "current": "Ejercicio II — Traducir",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio II — Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0140"
     },
     {
@@ -1845,8 +1845,8 @@
       "current": "Forma 1/3: Tu (singular)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 1/3: du (singular)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0141"
     },
     {
@@ -1858,8 +1858,8 @@
       "current": "Formulario 2/3: Tú (plural)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-14-0142"
     },
     {
@@ -1871,9 +1871,16 @@
       "current": "Formulario 3/3: Sie (forma decente)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-14-0143"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 143,
+    "LABOT": 15,
+    "NELABOT": 128,
+    "unresolved": 0
+  }
 }
