@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "headStart": "e19c93c5429f2770c1b36c71038f02337583e1e9",
+    "headEnd": "e19c93c5429f2770c1b36c71038f02337583e1e9",
+    "branch": "cursor/es-de-b1-first-full-discovery-master-1-9-3141",
+    "pr": 665,
+    "timestamp": "2026-08-26T09:28:07.633Z",
+    "lunaUsed": false
+  },
+  "ownerRetention": {
+    "total": 2842,
+    "labot": {
+      "expected": 2654,
+      "matched": 2654,
+      "failures": []
+    },
+    "nelabot": {
+      "expected": 184,
+      "matched": 184,
+      "failures": []
+    },
+    "sourceDeIssue": {
+      "expected": 4,
+      "matched": 4,
+      "failures": []
+    },
+    "unresolved": 0,
+    "duplicates": 0,
+    "findingIdsCovered": 3795,
+    "findingIdsTotal": 3795,
+    "pass": true
+  },
+  "structure": {
+    "totalCards": 3367,
+    "studyCount": 324,
+    "standardStudy": 323,
+    "minimalStudy": 1,
+    "comparisonStudy": 0,
+    "uniqueStudyIds": 324,
+    "duplicateStudyIds": 0,
+    "idOrderPass": true,
+    "syntaxPass": true,
+    "mirrorPass": true,
+    "invalidPaths": [],
+    "pass": true
+  },
+  "changeBoundaries": {
+    "changedProductionFiles": [
+      "data/es/b1.js",
+      "www/data/es/b1.js"
+    ],
+    "unexpectedProductionFiles": [],
+    "deMasterDiffBytes": 0,
+    "otherLangProductionFiles": [],
+    "deFieldChanges": 0,
+    "pass": true
+  },
+  "collectors": {
+    "structuralPass": true,
+    "germanPass": true,
+    "technicalPass": true,
+    "lvRemnantCount": 13,
+    "sectionAccentCount": 1130,
+    "studyIssueCount": 0,
+    "sectionAccentIssuesB1": 266
+  },
+  "collectorReconciliation": {
+    "lvRemnantRaw": 13,
+    "sectionAccentRaw": 1130,
+    "ownerAccepted": 1143,
+    "uncovered": 0,
+    "uncoveredSamples": [],
+    "pass": true
+  },
+  "prMergeReadiness": {
+    "checked": true,
+    "ready": true,
+    "pr": {
+      "state": "OPEN",
+      "isDraft": true,
+      "baseRefName": "main",
+      "headRefName": "cursor/es-de-b1-first-full-discovery-master-1-9-3141",
+      "headRefOid": "e19c93c5429f2770c1b36c71038f02337583e1e9",
+      "mergeable": "MERGEABLE",
+      "mergeStateStatus": "CLEAN",
+      "failedChecks": 0,
+      "pendingChecks": 0,
+      "changedProductionFiles": [
+        "data/es/b1.js",
+        "www/data/es/b1.js"
+      ],
+      "unexpectedProductionFiles": []
+    }
+  },
+  "verdict": "PASS — ES–DE B1 OWNER ACCEPTED / READY TO MERGE"
+}
