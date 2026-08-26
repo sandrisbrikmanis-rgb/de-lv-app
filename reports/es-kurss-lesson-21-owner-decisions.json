@@ -14,7 +14,7 @@
   },
   "lessonNumber": 21,
   "targetCount": 141,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 21,
@@ -25,8 +25,8 @@
       "current": "Lección 21",
       "deContext": "",
       "structureContext": "Lección 21 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 21",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "woher / wohin / wo, von / aus / mit + Dativo.",
       "deContext": "",
       "structureContext": "Lección 21 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "woher / wohin / wo, von / aus / mit + Dativo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Vigésima primera conferencia: woher / wohin / wo, von / aus / mit + Dativ.",
       "deContext": "",
       "structureContext": "Lección 21 intro paragraph",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Vigésima primera conferencia: woher / wohin / wo, von / aus / mit + Dativ.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Accordion section 1; raw: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Die Holzhauer arbeiten in der Scheune.",
       "deContext": "Die Holzhauer arbeiten in der Scheune.",
       "structureContext": "Section[0] Texto / lectura / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Holzhauer arbeiten in der Scheune.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Sie sägen und spalten Holz.",
       "deContext": "Sie sägen und spalten Holz.",
       "structureContext": "Section[0] Texto / lectura / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie sägen und spalten Holz.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Sie haben Sägen und Beile.",
       "deContext": "Sie haben Sägen und Beile.",
       "structureContext": "Section[0] Texto / lectura / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie haben Sägen und Beile.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Zwei Männer sägen mit einer Säge; ein Mann spaltet mit einem Beil.",
       "deContext": "Zwei Männer sägen mit einer Säge; ein Mann spaltet mit einem Beil.",
       "structureContext": "Section[0] Texto / lectura / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Zwei Männer sägen mit einer Säge; ein Mann spaltet mit einem Beil.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Der Vater ist auf dem Felde.",
       "deContext": "Der Vater ist auf dem Felde.",
       "structureContext": "Section[0] Texto / lectura / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater ist auf dem Felde.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Er kommt von dem Felde.",
       "deContext": "Er kommt von dem Felde.",
       "structureContext": "Section[0] Texto / lectura / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er kommt von dem Felde.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Er hat eine Axt in der Hand.",
       "deContext": "Er hat eine Axt in der Hand.",
       "structureContext": "Section[0] Texto / lectura / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er hat eine Axt in der Hand.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Er will in die Scheune gehen.",
       "deContext": "Er will in die Scheune gehen.",
       "structureContext": "Section[0] Texto / lectura / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er will in die Scheune gehen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Er will den Holzhauern helfen.",
       "deContext": "Er will den Holzhauern helfen.",
       "structureContext": "Section[0] Texto / lectura / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er will den Holzhauern helfen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Ein Mann steigt von dem Berge.",
       "deContext": "Ein Mann steigt von dem Berge.",
       "structureContext": "Section[0] Texto / lectura / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ein Mann steigt von dem Berge.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Er geht über die Brücke und kommt auf den Hof.",
       "deContext": "Er geht über die Brücke und kommt auf den Hof.",
       "structureContext": "Section[0] Texto / lectura / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er geht über die Brücke und kommt auf den Hof.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Er will mit dem Vater sprechen.",
       "deContext": "Er will mit dem Vater sprechen.",
       "structureContext": "Section[0] Texto / lectura / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er will mit dem Vater sprechen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "Die Mutter tritt aus dem Hause.",
       "deContext": "Die Mutter tritt aus dem Hause.",
       "structureContext": "Section[0] Texto / lectura / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Mutter tritt aus dem Hause.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "Sie geht auf den Hof und ruft den Vater.",
       "deContext": "Sie geht auf den Hof und ruft den Vater.",
       "structureContext": "Section[0] Texto / lectura / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie geht auf den Hof und ruft den Vater.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "Der Vater kommt aus der Scheune.",
       "deContext": "Der Vater kommt aus der Scheune.",
       "structureContext": "Section[0] Texto / lectura / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Vater kommt aus der Scheune.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "Er grüßt den Mann und geht mit dem Mann ins Zimmer.",
       "deContext": "Er grüßt den Mann und geht mit dem Mann ins Zimmer.",
       "structureContext": "Section[0] Texto / lectura / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er grüßt den Mann und geht mit dem Mann ins Zimmer.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "Die Magd kommt aus der Küche.",
       "deContext": "Die Magd kommt aus der Küche.",
       "structureContext": "Section[0] Texto / lectura / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Magd kommt aus der Küche.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "Sie muss Milch holen.",
       "deContext": "Sie muss Milch holen.",
       "structureContext": "Section[0] Texto / lectura / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie muss Milch holen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "Sie eilt in den Keller.",
       "deContext": "Sie eilt in den Keller.",
       "structureContext": "Section[0] Texto / lectura / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie eilt in den Keller.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "Sie holt Milch.",
       "deContext": "Sie holt Milch.",
       "structureContext": "Section[0] Texto / lectura / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie holt Milch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "Sie steigt mit einem Eimer aus dem Keller.",
       "deContext": "Sie steigt mit einem Eimer aus dem Keller.",
       "structureContext": "Section[0] Texto / lectura / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie steigt mit einem Eimer aus dem Keller.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "Sie geht in die Küche zurück.",
       "deContext": "Sie geht in die Küche zurück.",
       "structureContext": "Section[0] Texto / lectura / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie geht in die Küche zurück.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "Sie arbeitet fleißig in der Küche.",
       "deContext": "Sie arbeitet fleißig in der Küche.",
       "structureContext": "Section[0] Texto / lectura / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie arbeitet fleißig in der Küche.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "der Holzhauer — leñador",
       "deContext": "der Holzhauer",
       "structureContext": "Section[1] Nombres / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Holzhauer — leñador",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "sägen — sierra",
       "deContext": "sägen",
       "structureContext": "Section[1] Nombres / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sägen — sierra",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "spalten — dividir",
       "deContext": "spalten",
       "structureContext": "Section[1] Nombres / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "spalten — dividir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "die Axt — cirvis",
       "deContext": "die Axt",
       "structureContext": "Section[1] Nombres / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Axt — cirvis",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "von — no",
       "deContext": "von",
       "structureContext": "Section[1] Nombres / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "von — no",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "aus — no/iz",
       "deContext": "aus",
       "structureContext": "Section[1] Nombres / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "aus — no/iz",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "mit — ar",
       "deContext": "mit",
       "structureContext": "Section[1] Nombres / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mit — ar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "helfen — ayudar",
       "deContext": "helfen",
       "structureContext": "Section[1] Nombres / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "helfen — ayudar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "treten — ve / ven / da un paso",
       "deContext": "treten",
       "structureContext": "Section[1] Nombres / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "treten — ve / ven / da un paso",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "du trittst — tu ej / tu sper soli",
       "deContext": "du trittst",
       "structureContext": "Section[1] Nombres / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du trittst — tu ej / tu sper soli",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "er tritt — va / da un paso",
       "deContext": "er tritt",
       "structureContext": "Section[1] Nombres / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er tritt — va / da un paso",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "rufen — saukt",
       "deContext": "rufen",
       "structureContext": "Section[1] Nombres / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "rufen — saukt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "holen — traer / entregar",
       "deContext": "holen",
       "structureContext": "Section[1] Nombres / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "holen — traer / entregar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "eilen — steigties",
       "deContext": "eilen",
       "structureContext": "Section[1] Nombres / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "eilen — steigties",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "zurück — atrás",
       "deContext": "zurück",
       "structureContext": "Section[1] Nombres / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "zurück — atrás",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "finden — atrasar",
       "deContext": "finden",
       "structureContext": "Section[1] Nombres / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "finden — atrasar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "sehen — ver",
       "deContext": "sehen",
       "structureContext": "Section[1] Nombres / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sehen — ver",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "du siehst — tu redzi",
       "deContext": "du siehst",
       "structureContext": "Section[1] Nombres / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du siehst — tu redzi",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "er sieht — él ve",
       "deContext": "er sieht",
       "structureContext": "Section[1] Nombres / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er sieht — él ve",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "fleißig — diligentemente",
       "deContext": "fleißig",
       "structureContext": "Section[1] Nombres / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "fleißig — diligentemente",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "die Scheune — el granero",
       "deContext": "die Scheune",
       "structureContext": "Section[1] Nombres / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Scheune — el granero",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "das Feld — lauks",
       "deContext": "das Feld",
       "structureContext": "Section[1] Nombres / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Feld — lauks",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "der Berg — calderas",
       "deContext": "der Berg",
       "structureContext": "Section[1] Nombres / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Berg — calderas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "die Brücke — se inclina",
       "deContext": "die Brücke",
       "structureContext": "Section[1] Nombres / items[23]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Brücke — se inclina",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "der Hof — pagalms",
       "deContext": "der Hof",
       "structureContext": "Section[1] Nombres / items[24]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Hof — pagalms",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "der Keller — pagrabs",
       "deContext": "der Keller",
       "structureContext": "Section[1] Nombres / items[25]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Keller — pagrabs",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "die Küche — virtueva",
       "deContext": "die Küche",
       "structureContext": "Section[1] Nombres / items[26]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Küche — virtueva",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "die Milch — piens",
       "deContext": "die Milch",
       "structureContext": "Section[1] Nombres / items[27]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Milch — piens",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "der Eimer — España",
       "deContext": "der Eimer",
       "structureContext": "Section[1] Nombres / items[28]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Eimer — España",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "die Säge — sierra",
       "deContext": "die Säge",
       "structureContext": "Section[1] Nombres / items[29]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Säge — sierra",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "das Beil — cirvis",
       "deContext": "das Beil",
       "structureContext": "Section[1] Nombres / items[30]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Beil — cirvis",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "mit / von / aus + Dativ",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mit / von / aus + Dativ",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "Las preposiciones mit, von y aus siempre van con el dativo.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Las preposiciones mit, von y aus siempre van con el dativo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "mit — ar",
       "deContext": "mit",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mit — ar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "von — no",
       "deContext": "von",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "von — no",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "aus — no / iz",
       "deContext": "aus",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "aus — no / iz",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "mit dem Mann — ar vīru",
       "deContext": "mit dem Mann",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mit dem Mann — con",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-21-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "von dem Felde / vom Felde — no lauka",
       "deContext": "von dem Felde / vom Felde",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "von dem Felde / vom Felde — no lauka",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "aus der Küche — no virtuves",
       "deContext": "aus der Küche",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "aus der Küche — no virtuves",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "von dem = vom",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "von dem = vom",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "La preposición von puede fusionarse con el article.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La preposición von puede fusionarse con el article.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "von dem Felde = vom Felde",
       "deContext": "von dem Felde = vom Felde",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "von dem Felde = vom Felde",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "von dem Berge = vom Berge",
       "deContext": "von dem Berge = vom Berge",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "von dem Berge = vom Berge",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "Mūsdienu forma: vom Feld, vom Berg.",
       "deContext": "Mūsdienu forma: vom Feld, vom Berg.",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma moderna: vom Feld, vom Berg.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-21-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "Woher? — no kurienes?",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher? — no kurienes?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "Si una persona u objeto está en una habitación, lugar o recipiente y sale de él, utilice aus.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si una persona u objeto está en una habitación, lugar o recipiente y sale de él, utilice aus.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "Die Magd ist in der Küche.",
       "deContext": "Die Magd ist in der Küche.",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Magd ist in der Küche.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "Woher kommt sie?",
       "deContext": "Woher kommt sie?",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher kommt sie?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "Sie kommt aus der Küche.",
       "deContext": "Sie kommt aus der Küche.",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie kommt aus der Küche.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "Das Buch ist im Schrank.",
       "deContext": "Das Buch ist im Schrank.",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Buch ist im Schrank.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "Woher nehme ich das Buch?",
       "deContext": "Woher nehme ich das Buch?",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher nehme ich das Buch?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "Ich nehme das Buch aus dem Schrank.",
       "deContext": "Ich nehme das Buch aus dem Schrank.",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich nehme das Buch aus dem Schrank.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "von",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "von",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "Si una persona u objeto está encima de un lugar o sobre algo y se aleja de él, se utiliza von.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si una persona u objeto está encima de un lugar o sobre algo y se aleja de él, se utiliza von.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "Der Knabe ist auf dem Dache.",
       "deContext": "Der Knabe ist auf dem Dache.",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Knabe ist auf dem Dache.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "Woher steigt er?",
       "deContext": "Woher steigt er?",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher steigt er?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "Er steigt vom Dache.",
       "deContext": "Er steigt vom Dache.",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er steigt vom Dache.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "Das Buch ist auf dem Schrank.",
       "deContext": "Das Buch ist auf dem Schrank.",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Buch ist auf dem Schrank.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "Woher nehme ich das Buch?",
       "deContext": "Woher nehme ich das Buch?",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher nehme ich das Buch?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "Ich nehme das Buch vom Schrank.",
       "deContext": "Ich nehme das Buch vom Schrank.",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich nehme das Buch vom Schrank.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "Materiāls",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Material",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-21-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "Cuando hable del material del que está hecho el objeto, utilice aus.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Cuando hable del material del que está hecho el objeto, utilice aus.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "Die Türen sind aus Holz.",
       "deContext": "Die Türen sind aus Holz.",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Türen sind aus Holz.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "Die Fenster sind aus Glas.",
       "deContext": "Die Fenster sind aus Glas.",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Fenster sind aus Glas.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "Die Kissen sind aus Federn.",
       "deContext": "Die Kissen sind aus Federn.",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Kissen sind aus Federn.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "Man macht aus Wolle Kleider.",
       "deContext": "Man macht aus Wolle Kleider.",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Man macht aus Wolle Kleider.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "Vārdā die Axt: x izrunā kā ks.",
       "deContext": "Vārdā die Axt: x izrunā kā ks.",
       "structureContext": "Section[3] Pronunciación / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En die Axt, x se pronuncia «ks».",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-21-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
       "deContext": "Vārdos arbeiten, das Beil, steigen: ei izrunā kā ai.",
       "structureContext": "Section[3] Pronunciación / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En arbeiten, das Beil y steigen, ei se pronuncia «ai».",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-21-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "Vārdā die Scheune: eu izrunā kā oi.",
       "deContext": "Vārdā die Scheune: eu izrunā kā oi.",
       "structureContext": "Section[3] Pronunciación / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En die Scheune, eu se pronuncia «oi».",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-21-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "Vārdā die Brücke: ck izrunā kā dubultu k.",
       "deContext": "Vārdā die Brücke: ck izrunā kā dubultu k.",
       "structureContext": "Section[3] Pronunciación / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En die Brücke, ck se pronuncia como k.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-21-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "Woher kommt der Vater?",
       "deContext": "Der Vater kommt von dem Felde.",
       "structureContext": "Section[4] Ejercicio / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher kommt der Vater?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "Wohin geht er?",
       "deContext": "Er geht in die Scheune.",
       "structureContext": "Section[4] Ejercicio / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin geht er?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "Wo spricht er mit den Holzhauern?",
       "deContext": "Er spricht in der Scheune mit den Holzhauern.",
       "structureContext": "Section[4] Ejercicio / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo spricht er mit den Holzhauern?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "Woher steigt der Mann?",
       "deContext": "Der Mann steigt von dem Berge.",
       "structureContext": "Section[4] Ejercicio / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher steigt der Mann?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "Wohin kommt er?",
       "deContext": "Er kommt auf den Hof.",
       "structureContext": "Section[4] Ejercicio / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin kommt er?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "Wo findet er den Vater?",
       "deContext": "Er findet den Vater auf dem Hof.",
       "structureContext": "Section[4] Ejercicio / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo findet er den Vater?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "Woher tritt die Mutter?",
       "deContext": "Die Mutter tritt aus dem Hause.",
       "structureContext": "Section[4] Ejercicio / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher tritt die Mutter?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "Wohin geht sie?",
       "deContext": "Sie geht auf den Hof.",
       "structureContext": "Section[4] Ejercicio / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin geht sie?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0105"
     },
     {
@@ -1390,8 +1390,8 @@
       "current": "Wo sieht sie den Mann?",
       "deContext": "Sie sieht den Mann auf dem Hof.",
       "structureContext": "Section[4] Ejercicio / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo sieht sie den Mann?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0106"
     },
     {
@@ -1403,8 +1403,8 @@
       "current": "Woher kommt die Magd?",
       "deContext": "Die Magd kommt aus der Küche.",
       "structureContext": "Section[4] Ejercicio / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher kommt die Magd?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0107"
     },
     {
@@ -1416,8 +1416,8 @@
       "current": "Wohin eilt sie?",
       "deContext": "Sie eilt in den Keller.",
       "structureContext": "Section[4] Ejercicio / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin eilt sie?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0108"
     },
     {
@@ -1429,8 +1429,8 @@
       "current": "Wo steht ein Eimer mit Milch?",
       "deContext": "Ein Eimer mit Milch steht im Keller.",
       "structureContext": "Section[4] Ejercicio / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo steht ein Eimer mit Milch?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0109"
     },
     {
@@ -1442,8 +1442,8 @@
       "current": "Woher steigt sie?",
       "deContext": "Sie steigt aus dem Keller.",
       "structureContext": "Section[4] Ejercicio / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Woher steigt sie?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0110"
     },
     {
@@ -1455,8 +1455,8 @@
       "current": "Wohin geht sie zurück?",
       "deContext": "Sie geht in die Küche zurück.",
       "structureContext": "Section[4] Ejercicio / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wohin geht sie zurück?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0111"
     },
     {
@@ -1468,8 +1468,8 @@
       "current": "Wo arbeitet sie fleißig?",
       "deContext": "Sie arbeitet fleißig in der Küche.",
       "structureContext": "Section[4] Ejercicio / card[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wo arbeitet sie fleißig?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0112"
     },
     {
@@ -1481,8 +1481,8 @@
       "current": "Todos los cuadernos están en la bolsa.",
       "deContext": "Alle Hefte sind in der Mappe.",
       "structureContext": "Section[5] Traducir / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Todos los cuadernos están en la bolsa.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0113"
     },
     {
@@ -1494,8 +1494,8 @@
       "current": "Saco los cuadernos de mi bolso.",
       "deContext": "Ich nehme die Hefte aus der Mappe.",
       "structureContext": "Section[5] Traducir / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Saco los cuadernos de mi bolso.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0114"
     },
     {
@@ -1507,8 +1507,8 @@
       "current": "Llevo un reloj en mi bolsillo.",
       "deContext": "Ich ziehe die Uhr aus der Tasche.",
       "structureContext": "Section[5] Traducir / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Llevo un reloj en mi bolsillo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0115"
     },
     {
@@ -1520,8 +1520,8 @@
       "current": "En el sótano hay un cubo de leche.",
       "deContext": "Ein Eimer mit Milch steht im Keller.",
       "structureContext": "Section[5] Traducir / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En el sótano hay un cubo de leche.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0116"
     },
     {
@@ -1533,8 +1533,8 @@
       "current": "Es nesu spaini no pagraba.",
       "deContext": "Ich trage den Eimer aus dem Keller.",
       "structureContext": "Section[5] Traducir / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Es nesu spaini no pagraba.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0117"
     },
     {
@@ -1546,8 +1546,8 @@
       "current": "Me quito el sombrero de la cabeza.",
       "deContext": "Ich nehme die Mütze vom Kopfe.",
       "structureContext": "Section[5] Traducir / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Me quito el sombrero de la cabeza.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0118"
     },
     {
@@ -1559,8 +1559,8 @@
       "current": "El cuadro cuelga de la pared.",
       "deContext": "Das Bild hängt an der Wand.",
       "structureContext": "Section[5] Traducir / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El cuadro cuelga de la pared.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0119"
     },
     {
@@ -1572,8 +1572,8 @@
       "current": "El padre quita el cuadro de la pared.",
       "deContext": "Der Vater nimmt das Bild von der Wand.",
       "structureContext": "Section[5] Traducir / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El padre quita el cuadro de la pared.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0120"
     },
     {
@@ -1585,8 +1585,8 @@
       "current": "La partitura está en el piano.",
       "deContext": "Die Noten liegen auf dem Klavier.",
       "structureContext": "Section[5] Traducir / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La partitura está en el piano.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0121"
     },
     {
@@ -1598,8 +1598,8 @@
       "current": "Saco las notas del piano.",
       "deContext": "Ich nehme die Noten vom Klavier.",
       "structureContext": "Section[5] Traducir / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Saco las notas del piano.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0122"
     },
     {
@@ -1611,8 +1611,8 @@
       "current": "Venimos de un amigo.",
       "deContext": "Wir kommen vom Freunde.",
       "structureContext": "Section[5] Traducir / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Venimos de un amigo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0123"
     },
     {
@@ -1624,8 +1624,8 @@
       "current": "Venimos de una novia.",
       "deContext": "Wir kommen von der Freundin.",
       "structureContext": "Section[5] Traducir / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Venimos de una novia.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0124"
     },
     {
@@ -1637,8 +1637,8 @@
       "current": "Venimos del maestro.",
       "deContext": "Wir kommen vom Lehrer.",
       "structureContext": "Section[5] Traducir / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Venimos del maestro.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0125"
     },
     {
@@ -1650,8 +1650,8 @@
       "current": "Todos vienen de un amigo, de una novia, de un profesor.",
       "deContext": "Alle kommen vom Freunde, von der Freundin, vom Lehrer.",
       "structureContext": "Section[5] Traducir / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Todos vienen de un amigo, de una novia, de un profesor.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0126"
     },
     {
@@ -1663,8 +1663,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Section raw title: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0127"
     },
     {
@@ -1676,8 +1676,8 @@
       "current": "Nombres",
       "deContext": "",
       "structureContext": "Section raw title: Nombres",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nombres",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0128"
     },
     {
@@ -1689,8 +1689,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Section raw title: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0129"
     },
     {
@@ -1702,8 +1702,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Section raw title: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0130"
     },
     {
@@ -1715,8 +1715,8 @@
       "current": "Ejercicio",
       "deContext": "",
       "structureContext": "Section raw title: Ejercicio",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0131"
     },
     {
@@ -1728,8 +1728,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Exercise flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0132"
     },
     {
@@ -1741,8 +1741,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0133"
     },
     {
@@ -1754,8 +1754,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0134"
     },
     {
@@ -1767,8 +1767,8 @@
       "current": "Ejercicio I — Usa la conjugación correcta",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio I — Usa la conjugación correcta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0135"
     },
     {
@@ -1780,8 +1780,8 @@
       "current": "¡Pon la conjugación correcta y hazlo en plural!",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Pon la conjugación correcta y hazlo en plural!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0136"
     },
     {
@@ -1793,8 +1793,8 @@
       "current": "Ahora responde en plural.",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ahora responde en plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0137"
     },
     {
@@ -1806,8 +1806,8 @@
       "current": "Ejercicio II — Traducir",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio II — Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0138"
     },
     {
@@ -1819,8 +1819,8 @@
       "current": "Forma 1/3: Tu (singular)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 1/3: du (singular)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-21-0139"
     },
     {
@@ -1832,8 +1832,8 @@
       "current": "Formulario 2/3: Tú (plural)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-21-0140"
     },
     {
@@ -1845,9 +1845,16 @@
       "current": "Formulario 3/3: Sie (forma decente)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-21-0141"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 141,
+    "LABOT": 9,
+    "NELABOT": 132,
+    "unresolved": 0
+  }
 }
