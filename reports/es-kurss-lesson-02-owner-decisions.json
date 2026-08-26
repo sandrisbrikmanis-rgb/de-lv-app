@@ -14,7 +14,7 @@
   },
   "lessonNumber": 2,
   "targetCount": 82,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 2,
@@ -25,8 +25,8 @@
       "current": "Lección 2",
       "deContext": "",
       "structureContext": "Lección 2 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 2",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Diálogos, palabras, pronunciación, gramática y traducción.",
       "deContext": "",
       "structureContext": "Lección 2 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diálogos, palabras, pronunciación, gramática y traducción.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Diálogos/oraciones",
       "deContext": "",
       "structureContext": "Legacy accordion summary",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diálogos/oraciones",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Spielst du?\nNein, ich spiele nicht, ich arbeite.",
       "deContext": "Spielst du?\nNein, ich spiele nicht, ich arbeite.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Spielst du?\nNein, ich spiele nicht, ich arbeite.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Paul fragt nicht, er arbeitet.",
       "deContext": "Paul fragt nicht, er arbeitet.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Paul fragt nicht, er arbeitet.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Arbeitest du?\nNein, ich arbeite nicht, ich singe.",
       "deContext": "Arbeitest du?\nNein, ich arbeite nicht, ich singe.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Arbeitest du?\nNein, ich arbeite nicht, ich singe.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Was tut Paul?\nEr spielt.",
       "deContext": "Was tut Paul?\nEr spielt.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was tut Paul?\nEr spielt.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Was tut Marie?\nSie singt.",
       "deContext": "Was tut Marie?\nSie singt.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was tut Marie?\nSie singt.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Paul spielt, aber Marie singt.",
       "deContext": "Paul spielt, aber Marie singt.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Paul spielt, aber Marie singt.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Singt ihr?\nNein, wir singen nicht, wir arbeiten.",
       "deContext": "Singt ihr?\nNein, wir singen nicht, wir arbeiten.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Singt ihr?\nNein, wir singen nicht, wir arbeiten.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Was tun Paul und Marie?\nSie fragen.\nSie antworten nicht.",
       "deContext": "Was tun Paul und Marie?\nSie fragen.\nSie antworten nicht.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was tun Paul und Marie?\nSie fragen.\nSie antworten nicht.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Wer arbeitet?\nWir arbeiten.\nWir rechnen und zeichnen.",
       "deContext": "Wer arbeitet?\nWir arbeiten.\nWir rechnen und zeichnen.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wer arbeitet?\nWir arbeiten.\nWir rechnen und zeichnen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.",
       "deContext": "Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sie kommen, sie fragen, sie antworten, sie arbeiten, sie spielen, sie singen, sie gehen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Palabras",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Palabras",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "spielen — jugar; jugar",
       "deContext": "spielen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "spielen — jugar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "nein — trabajar",
       "deContext": "nein",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nein — No",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "nicht — preguntar",
       "deContext": "nicht",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nicht — No",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "arbeiten — was tut er? ¿Qué está haciendo?",
       "deContext": "arbeiten",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "arbeiten — trabajar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "fragen — ¿qué hacen ellos?",
       "deContext": "fragen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "fragen — preguntar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "was tut er? — responder",
       "deContext": "was tut er?",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "was tut er? — responder",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "was tun sie? — calcular",
       "deContext": "was tun sie?",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "was tun sie? — calcular",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "aber — dibujar",
       "deContext": "aber",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "aber — pero",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "antworten — Marie",
       "deContext": "antworten",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "antworten — responder",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "nein - no",
       "deContext": "nein",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nein — No",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "nicht - no",
       "deContext": "nicht",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nicht — No",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "aber - pero",
       "deContext": "aber",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "aber — pero",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.",
       "deContext": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En las palabras arbeiten y zeichnen, el diptongo ei se pronuncia aproximadamente como «ai».",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).",
       "deContext": "Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Al inicio de una palabra o sílaba, sp se pronuncia «shp»: spielen (špīlen).",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "Darbības vārdā tun u izrunājams gari visās personās.",
       "deContext": "Darbības vārdā tun u izrunājams gari visās personās.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En el verbo tun, la u se pronuncia larga en todas las personas.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-02-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "ich arbeite",
       "deContext": "ich arbeite",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich arbeite",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "ich arbeite",
       "deContext": "ich arbeite",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich arbeite",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "du arbeite",
       "deContext": "du arbeite",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du arbeite",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "er Arbeit",
       "deContext": "er Arbeit",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er Arbeit",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "sie arbeit",
       "deContext": "sie arbeit",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie arbeit",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "wir arbeiten",
       "deContext": "wir arbeiten",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir arbeiten",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "mi arbeit",
       "deContext": "mi arbeit",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "mi arbeit",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "sie arbeiten",
       "deContext": "sie arbeiten",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie arbeiten",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "ich rechne",
       "deContext": "ich rechne",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich rechne",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "du rechnest",
       "deContext": "du rechnest",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du rechnest",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "er rechnet",
       "deContext": "er rechnet",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er rechnet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "sie rechnet",
       "deContext": "sie rechnet",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie rechnet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "nosotros rechnen",
       "deContext": "nosotros rechnen",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nosotros rechnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "ihr rechnet",
       "deContext": "ihr rechnet",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr rechnet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "sie rechnen",
       "deContext": "sie rechnen",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie rechnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "ich tue",
       "deContext": "ich tue",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich tue",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "du tust",
       "deContext": "du tust",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du tust",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "er tut",
       "deContext": "er tut",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er tut",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "sie tut",
       "deContext": "sie tut",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie tut",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "wir tun",
       "deContext": "wir tun",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir tun",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "ihr tut",
       "deContext": "ihr tut",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr tut",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "sie tun",
       "deContext": "sie tun",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie tun",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "¿Fue tust du? - ¿Qué estás haciendo?",
       "deContext": "¿Fue tust du?",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Fue tust du? - ¿Qué estás haciendo?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "Er kommt nicht. — No viene.",
       "deContext": "Er kommt nicht.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er kommt nicht. — No viene.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "Si la raíz del verbo termina en t, d, chn, entonces las terminaciones -st y -t están precedidas por e.",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si la raíz del verbo termina en t, d, chn, entonces las terminaciones -st y -t están precedidas por e.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "En oraciones interrogativas que comienzan con la palabra interrogativa, por ejemplo: ¿qué? ¿qué? ¿OMS? ¿por qué? ¿por qué? etc., el verbo está inmediatamente después de la palabra interrogativa.",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En oraciones interrogativas que comienzan con la palabra interrogativa, por ejemplo: ¿qué? ¿qué? ¿OMS? ¿por qué? ¿por qué? etc., el verbo está inmediatamente después de la palabra interrogativa.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "Si la negación nicht se refiere a un verbo, entonces la palabra negada viene después del verbo.",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si la negación nicht se refiere a un verbo, entonces la palabra negada viene después del verbo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "1Terminaciones con e",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "1Terminaciones con e",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "2Palabra en cuestión",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "2Palabra en cuestión",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "3Negación con nicht",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "3Negación con nicht",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "arbeiten",
       "deContext": "arbeiten",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "arbeiten",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "rechnen",
       "deContext": "rechnen",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "rechnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "tun",
       "deContext": "tun",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tun",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Legacy HTML hint placeholder 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "¿Quién pregunta?",
       "deContext": "Wer fragt?",
       "structureContext": "Lección 2 translate card 1/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién pregunta?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "pregunta Pablo.",
       "deContext": "Paul fragt.",
       "structureContext": "Lección 2 translate card 2/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "pregunta Pablo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "Preguntan.",
       "deContext": "Sie fragen.",
       "structureContext": "Lección 2 translate card 3/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Preguntan.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "¿Pablo responde?",
       "deContext": "Antwortet Paul?",
       "structureContext": "Lección 2 translate card 4/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Pablo responde?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "No, no responde, pregunta.",
       "deContext": "Nein, er antwortet nicht, er fragt.",
       "structureContext": "Lección 2 translate card 5/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No, no responde, pregunta.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "¿Están cantando Pablo y María?",
       "deContext": "Singen Paul und Marie?",
       "structureContext": "Lección 2 translate card 6/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Están cantando Pablo y María?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "No, no cantan, cuentan.",
       "deContext": "Nein, sie singen nicht, sie rechnen.",
       "structureContext": "Lección 2 translate card 7/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No, no cantan, cuentan.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "qué estás haciendo",
       "deContext": "Was tust du?",
       "structureContext": "Lección 2 translate card 8/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "qué estás haciendo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "Me paro y canto.",
       "deContext": "Ich stehe und singe.",
       "structureContext": "Lección 2 translate card 9/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Me paro y canto.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "¿Dibujas?",
       "deContext": "Zeichnet ihr?",
       "structureContext": "Lección 2 translate card 10/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Dibujas?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "Sí, empatamos, pero María juega.",
       "deContext": "Ja, wir zeichnen, aber Marie spielt.",
       "structureContext": "Lección 2 translate card 11/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sí, empatamos, pero María juega.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "qué estás haciendo",
       "deContext": "Was tut ihr?",
       "structureContext": "Lección 2 translate card 12/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "qué estás haciendo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "Venimos y respondemos.",
       "deContext": "Wir kommen und antworten.",
       "structureContext": "Lección 2 translate card 13/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Venimos y respondemos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "¿Qué está sucediendo?",
       "deContext": "Wer geht?",
       "structureContext": "Lección 2 translate card 14/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué está sucediendo?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "Nos vamos.",
       "deContext": "Wir gehen.",
       "structureContext": "Lección 2 translate card 15/15",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nos vamos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0081"
     },
     {
@@ -1078,9 +1078,16 @@
       "current": "Lección {lesson} · Traducir: {current} / {total}",
       "deContext": "",
       "structureContext": "Translate progress template",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-02-0082"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 82,
+    "LABOT": 13,
+    "NELABOT": 69,
+    "unresolved": 0
+  }
 }
