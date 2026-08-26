@@ -1,7 +1,7 @@
 # ES–DE B1 — audita kopsavilkums
 
 **Verdict:** **READY FOR OWNER REVIEW**
-**HEAD:** `59f439adc02fdf79dcda765e4871462866fbdaed`
+**HEAD:** `2cd83666`
 **MASTER:** `docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Kartītes:** 3367
 **Study:** 324 (standardStudy 323, minimalStudy 1)
