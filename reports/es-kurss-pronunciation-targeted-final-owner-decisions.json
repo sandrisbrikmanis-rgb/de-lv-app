@@ -1,12 +1,12 @@
 {
   "title": "ES Kurss Pronunciación — targeted final audit OWNER decisions",
-  "authority": "AUDIT",
+  "authority": "OWNER",
   "source": "reports/es-kurss-pronunciation-targeted-final-audit.json",
   "base": "cursor/es-kurss-pronunciation-owner-repair-3141",
   "master": "PROJECT_LANGUAGE_MASTER_STANDARD v1.9",
   "counts": {
-    "LABOT": 7,
-    "NELABOT": 0,
+    "LABOT": 6,
+    "NELABOT": 1,
     "UNRESOLVED": 0
   },
   "targets": [
@@ -21,7 +21,7 @@
       "status": "LABOT",
       "category": "PHONETIC_ERROR",
       "severity": "MEDIUM",
-      "reason": ""
+      "reason": "Transcripción fonética imprecisa respecto al alemán."
     },
     {
       "id": "ES-KURSS-FINAL-0002",
@@ -34,7 +34,7 @@
       "status": "LABOT",
       "category": "PHONETIC_ERROR",
       "severity": "MEDIUM",
-      "reason": ""
+      "reason": "Transcripción fonética imprecisa respecto al alemán."
     },
     {
       "id": "ES-KURSS-FINAL-0003",
@@ -47,7 +47,7 @@
       "status": "LABOT",
       "category": "PHONETIC_ERROR",
       "severity": "MEDIUM",
-      "reason": ""
+      "reason": "Transcripción fonética imprecisa respecto al alemán."
     },
     {
       "id": "ES-KURSS-FINAL-0004",
@@ -60,7 +60,7 @@
       "status": "LABOT",
       "category": "PHONETIC_ERROR",
       "severity": "MEDIUM",
-      "reason": ""
+      "reason": "Transcripción fonética imprecisa respecto al alemán."
     },
     {
       "id": "ES-KURSS-FINAL-0005",
@@ -73,7 +73,7 @@
       "status": "LABOT",
       "category": "PEDAGOGICAL_ISSUE",
       "severity": "HIGH",
-      "reason": ""
+      "reason": "Encabezado o explicación pedagógica incompleta."
     },
     {
       "id": "ES-KURSS-FINAL-0006",
@@ -86,7 +86,7 @@
       "status": "LABOT",
       "category": "PHONETIC_ERROR",
       "severity": "HIGH",
-      "reason": ""
+      "reason": "Transcripción fonética imprecisa respecto al alemán."
     },
     {
       "id": "ES-KURSS-FINAL-0007",
@@ -96,10 +96,12 @@
       "path": "COURSE_LESSON_HTML.kurssConsonantsLesson/section[7]/example[4]",
       "current": "Mythe (müte) — mito",
       "new": "Mythe (mūte) — mito",
-      "status": "LABOT",
+      "status": "NELABOT",
       "category": "PHONETIC_ERROR",
       "severity": "MEDIUM",
-      "reason": ""
+      "reason": "OWNER rejects Luna NEW: German ü = /yː/; macron ū would imply incorrect /uː/. Retain CURRENT Mythe (müte).",
+      "ownerResolution": "OWNER_ACCEPTED_NELABOT",
+      "rejectedProposal": "Mythe (mūte) — mito"
     }
   ]
 }

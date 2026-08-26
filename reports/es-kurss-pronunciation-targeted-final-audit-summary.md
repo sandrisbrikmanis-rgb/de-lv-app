@@ -8,7 +8,7 @@
 
 ## Verdict
 
-**NEEDS OWNER REPAIR**
+**PASS — ES KURSS PRONUNCIATION OWNER ACCEPTED / READY TO MERGE**
 
 ## Counts
 
@@ -16,7 +16,7 @@
 |--------|-------|
 | Audited units | 215 |
 | Luna coverage | 100% (cached) |
-| REAL findings | **7** |
+| REAL findings (post-OWNER) | **0** |
 | CRITICAL | 0 |
 | HIGH | 2 |
 | MEDIUM | 5 |
