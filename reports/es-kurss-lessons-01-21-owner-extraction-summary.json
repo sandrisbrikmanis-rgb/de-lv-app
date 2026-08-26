@@ -1,0 +1,113 @@
+{
+  "sourceMain": "fa211c9fac9a3689ef6a5c8185ac4f9ee42c18be",
+  "lessonCount": 21,
+  "totalTargets": 2951,
+  "files": [
+    {
+      "lesson": 1,
+      "path": "reports/es-kurss-lesson-01-owner-decisions.json",
+      "targets": 101
+    },
+    {
+      "lesson": 2,
+      "path": "reports/es-kurss-lesson-02-owner-decisions.json",
+      "targets": 82
+    },
+    {
+      "lesson": 3,
+      "path": "reports/es-kurss-lesson-03-owner-decisions.json",
+      "targets": 106
+    },
+    {
+      "lesson": 4,
+      "path": "reports/es-kurss-lesson-04-owner-decisions.json",
+      "targets": 98
+    },
+    {
+      "lesson": 5,
+      "path": "reports/es-kurss-lesson-05-owner-decisions.json",
+      "targets": 88
+    },
+    {
+      "lesson": 6,
+      "path": "reports/es-kurss-lesson-06-owner-decisions.json",
+      "targets": 130
+    },
+    {
+      "lesson": 7,
+      "path": "reports/es-kurss-lesson-07-owner-decisions.json",
+      "targets": 132
+    },
+    {
+      "lesson": 8,
+      "path": "reports/es-kurss-lesson-08-owner-decisions.json",
+      "targets": 154
+    },
+    {
+      "lesson": 9,
+      "path": "reports/es-kurss-lesson-09-owner-decisions.json",
+      "targets": 151
+    },
+    {
+      "lesson": 10,
+      "path": "reports/es-kurss-lesson-10-owner-decisions.json",
+      "targets": 155
+    },
+    {
+      "lesson": 11,
+      "path": "reports/es-kurss-lesson-11-owner-decisions.json",
+      "targets": 163
+    },
+    {
+      "lesson": 12,
+      "path": "reports/es-kurss-lesson-12-owner-decisions.json",
+      "targets": 151
+    },
+    {
+      "lesson": 13,
+      "path": "reports/es-kurss-lesson-13-owner-decisions.json",
+      "targets": 243
+    },
+    {
+      "lesson": 14,
+      "path": "reports/es-kurss-lesson-14-owner-decisions.json",
+      "targets": 143
+    },
+    {
+      "lesson": 15,
+      "path": "reports/es-kurss-lesson-15-owner-decisions.json",
+      "targets": 139
+    },
+    {
+      "lesson": 16,
+      "path": "reports/es-kurss-lesson-16-owner-decisions.json",
+      "targets": 180
+    },
+    {
+      "lesson": 17,
+      "path": "reports/es-kurss-lesson-17-owner-decisions.json",
+      "targets": 145
+    },
+    {
+      "lesson": 18,
+      "path": "reports/es-kurss-lesson-18-owner-decisions.json",
+      "targets": 144
+    },
+    {
+      "lesson": 19,
+      "path": "reports/es-kurss-lesson-19-owner-decisions.json",
+      "targets": 150
+    },
+    {
+      "lesson": 20,
+      "path": "reports/es-kurss-lesson-20-owner-decisions.json",
+      "targets": 155
+    },
+    {
+      "lesson": 21,
+      "path": "reports/es-kurss-lesson-21-owner-decisions.json",
+      "targets": 141
+    }
+  ],
+  "status": "READY FOR OWNER DECISIONS"
+}

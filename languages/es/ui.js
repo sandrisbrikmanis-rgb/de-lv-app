@@ -262,9 +262,9 @@ window.LANGUAGE_UI_STRINGS = {
       "chooseCasePlural": "¡Pon la conjugación correcta y hazlo en plural!",
       "answerPlural": "Ahora responde en plural.",
       "translate": "Ejercicio II — Traducir",
-      "formDu": "Forma 1/3: Tu (singular)",
+      "formDu": "Forma 1/3: du (singular)",
       "formIhr": "Formulario 2/3: Tú (plural)",
-      "formSie": "Formulario 3/3: Sie (forma decente)"
+      "formSie": "Forma 3/3: Sie (tratamiento formal)"
     },
     "lessonItems": {
       "1": {

@@ -1,0 +1,571 @@
+{
+  "generatedAt": "2026-08-26T16:59:12.371Z",
+  "branch": "cursor/es-kurss-lessons-01-21-owner-extract-3141",
+  "commit": "23e85adf",
+  "pr": 673,
+  "verdict": "PASS — ES KURSS LESSONS 01–21 OWNER ACCEPTED / READY TO MERGE",
+  "gates": {
+    "labotRetention": "PASS (421/421)",
+    "nelabotRetention": "PASS (2530/2530)",
+    "lessons": "PASS (21/21)",
+    "mirror": "PASS",
+    "syntax": "PASS",
+    "htmlStructure": "PASS",
+    "visual": "PASS",
+    "consoleErrors": "PASS (0)",
+    "deChanges": "PASS (0)",
+    "unexpectedProduction": "PASS (0)",
+    "applyLog": "PASS"
+  },
+  "retention": {
+    "pass": true,
+    "labot": {
+      "expected": 421,
+      "matched": 421,
+      "failures": []
+    },
+    "nelabot": {
+      "expected": 2530,
+      "matched": 2530,
+      "failures": []
+    }
+  },
+  "lessons": {
+    "pass": true,
+    "found": 21,
+    "expected": 21,
+    "rows": [
+      {
+        "lesson": 1,
+        "key": "kurssLesson1",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 2,
+        "key": "kurssLesson2",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 3,
+        "key": "kurssLesson3",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 4,
+        "key": "kurssLesson4",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 5,
+        "key": "kurssLesson5",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 6,
+        "key": "kurssLesson6",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 7,
+        "key": "kurssLesson7",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 8,
+        "key": "kurssLesson8",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 9,
+        "key": "kurssLesson9",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 10,
+        "key": "kurssLesson10",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 11,
+        "key": "kurssLesson11",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 12,
+        "key": "kurssLesson12",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 13,
+        "key": "kurssLesson13",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 14,
+        "key": "kurssLesson14",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 15,
+        "key": "kurssLesson15",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 16,
+        "key": "kurssLesson16",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 17,
+        "key": "kurssLesson17",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 18,
+        "key": "kurssLesson18",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 19,
+        "key": "kurssLesson19",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 20,
+        "key": "kurssLesson20",
+        "pass": true,
+        "issues": []
+      },
+      {
+        "lesson": 21,
+        "key": "kurssLesson21",
+        "pass": true,
+        "issues": []
+      }
+    ]
+  },
+  "mirrorSyntax": {
+    "pass": true,
+    "mirrorIssues": [],
+    "syntaxErrors": [],
+    "htmlStructure": {
+      "pass": true,
+      "issues": []
+    }
+  },
+  "deUnchanged": {
+    "pass": true,
+    "deSnapshotChanges": 0,
+    "deGitDiffBytes": 0,
+    "changes": []
+  },
+  "unexpectedProduction": {
+    "pass": true,
+    "changedProduction": [
+      "data/es/courseLessons.js",
+      "languages/es/ui.js",
+      "www/data/es/courseLessons.js",
+      "www/languages/es/ui.js"
+    ],
+    "unexpectedProduction": []
+  },
+  "applyLog": {
+    "pass": true,
+    "log": {
+      "generatedAt": "2026-08-26T16:50:40.727Z",
+      "requestedLabot": 421,
+      "uniqueApplies": 394,
+      "requestedNelabot": 2530,
+      "appliedVerified": 421,
+      "nelabotUnchanged": 2530,
+      "currentMismatch": 0,
+      "failed": 0,
+      "deChanges": 0,
+      "mirror": "PASS",
+      "syntax": "PASS",
+      "htmlStructure": "PASS",
+      "mismatchDetails": [],
+      "failures": [],
+      "pass": true
+    }
+  },
+  "prReadiness": {
+    "pass": false,
+    "error": "Command failed: gh pr checks 673 --json name,state\nno checks reported on the 'cursor/es-kurss-lessons-01-21-owner-extract-3141' branch\n"
+  },
+  "visual": {
+    "pass": true,
+    "results": [
+      {
+        "viewport": "desktop",
+        "check": "lessonsMenuButtons",
+        "pass": true,
+        "menuCount": 21
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 1,
+        "pass": true,
+        "visible": true,
+        "textLength": 1162,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 2,
+        "pass": true,
+        "visible": true,
+        "textLength": 615,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 3,
+        "pass": true,
+        "visible": true,
+        "textLength": 620,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 4,
+        "pass": true,
+        "visible": true,
+        "textLength": 859,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 5,
+        "pass": true,
+        "visible": true,
+        "textLength": 753,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 6,
+        "pass": true,
+        "visible": true,
+        "textLength": 1514,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 7,
+        "pass": true,
+        "visible": true,
+        "textLength": 1125,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 8,
+        "pass": true,
+        "visible": true,
+        "textLength": 1124,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 9,
+        "pass": true,
+        "visible": true,
+        "textLength": 700,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 10,
+        "pass": true,
+        "visible": true,
+        "textLength": 1211,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 11,
+        "pass": true,
+        "visible": true,
+        "textLength": 1378,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 12,
+        "pass": true,
+        "visible": true,
+        "textLength": 1160,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 13,
+        "pass": true,
+        "visible": true,
+        "textLength": 704,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 14,
+        "pass": true,
+        "visible": true,
+        "textLength": 1012,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 15,
+        "pass": true,
+        "visible": true,
+        "textLength": 1377,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 16,
+        "pass": true,
+        "visible": true,
+        "textLength": 816,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 17,
+        "pass": true,
+        "visible": true,
+        "textLength": 900,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 18,
+        "pass": true,
+        "visible": true,
+        "textLength": 759,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 19,
+        "pass": true,
+        "visible": true,
+        "textLength": 963,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 20,
+        "pass": true,
+        "visible": true,
+        "textLength": 993,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "desktop",
+        "lesson": 21,
+        "pass": true,
+        "visible": true,
+        "textLength": 956,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "check": "lessonsMenuButtons",
+        "pass": true,
+        "menuCount": 21
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 1,
+        "pass": true,
+        "visible": true,
+        "textLength": 1162,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 2,
+        "pass": true,
+        "visible": true,
+        "textLength": 615,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 3,
+        "pass": true,
+        "visible": true,
+        "textLength": 620,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 4,
+        "pass": true,
+        "visible": true,
+        "textLength": 859,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 5,
+        "pass": true,
+        "visible": true,
+        "textLength": 753,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 6,
+        "pass": true,
+        "visible": true,
+        "textLength": 1514,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 7,
+        "pass": true,
+        "visible": true,
+        "textLength": 1125,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 8,
+        "pass": true,
+        "visible": true,
+        "textLength": 1124,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 9,
+        "pass": true,
+        "visible": true,
+        "textLength": 700,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 10,
+        "pass": true,
+        "visible": true,
+        "textLength": 1211,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 11,
+        "pass": true,
+        "visible": true,
+        "textLength": 1378,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 12,
+        "pass": true,
+        "visible": true,
+        "textLength": 1160,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 13,
+        "pass": true,
+        "visible": true,
+        "textLength": 704,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 14,
+        "pass": true,
+        "visible": true,
+        "textLength": 1012,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 15,
+        "pass": true,
+        "visible": true,
+        "textLength": 1377,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 16,
+        "pass": true,
+        "visible": true,
+        "textLength": 816,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 17,
+        "pass": true,
+        "visible": true,
+        "textLength": 900,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 18,
+        "pass": true,
+        "visible": true,
+        "textLength": 759,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 19,
+        "pass": true,
+        "visible": true,
+        "textLength": 963,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 20,
+        "pass": true,
+        "visible": true,
+        "textLength": 993,
+        "horizontalOverflow": false
+      },
+      {
+        "viewport": "mobile",
+        "lesson": 21,
+        "pass": true,
+        "visible": true,
+        "textLength": 956,
+        "horizontalOverflow": false
+      }
+    ],
+    "pageErrors": [],
+    "consoleErrors": 0
+  },
+  "allPass": true
+}
