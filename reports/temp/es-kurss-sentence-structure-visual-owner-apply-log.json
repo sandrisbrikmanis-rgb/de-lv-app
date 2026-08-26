@@ -1,0 +1,21 @@
+{
+  "requested": 2,
+  "appliedVerified": 2,
+  "mismatch": 0,
+  "failed": 0,
+  "details": [
+    {
+      "id": "ES-KURSS-SENTENCE-STRUCTURE-0001",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssSentenceStructureLesson",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-SENTENCE-STRUCTURE-0002",
+      "file": "www/data/es/courseLessons.js",
+      "field": "COURSE_LESSON_HTML.kurssSentenceStructureLesson",
+      "status": "APPLIED_VERIFIED"
+    }
+  ],
+  "errors": []
+}
