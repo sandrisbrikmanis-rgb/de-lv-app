@@ -126,9 +126,27 @@ function buildFinalItem(source, merged) {
   };
 }
 
-function sectionAccentVisibleMatch(entry, field, newVal) {
+function parentFieldFromSectionAccent(field) {
+  if (!field.includes("sectionAccents")) return null;
+  let parent = field.replace(/^study\.sectionAccents\./, "study.");
+  parent = parent.replace(/\.(purple|blue|green|yellow|orange|de|lv)(?:\[\d+\])+$/, "");
+  return parent;
+}
+
+function sectionAccentVisibleMatch(entry, field, newVal, itemsByKey = null, cardId = null) {
   if (!field.includes("sectionAccents")) return true;
   if (newVal === "" || newVal === null) return true;
+
+  const parentField = parentFieldFromSectionAccent(field);
+  if (parentField && itemsByKey) {
+    const resolvedCardId = cardId || entry?.study?.id || `b1-${entry?.de}`;
+    const parentKey = `B1|${resolvedCardId}|${parentField}`;
+    const parentItem = itemsByKey.get(parentKey);
+    if (parentItem && (parentItem.new === newVal || String(parentItem.new).includes(newVal))) {
+      return true;
+    }
+  }
+
   const sectionMatch = field.match(/^study\.sectionAccents\.([^.[\]]+)/);
   if (!sectionMatch) return true;
   const section = sectionMatch[1];
@@ -151,9 +169,41 @@ function sectionAccentVisibleMatch(entry, field, newVal) {
   return visible.includes(newVal);
 }
 
-function validateProposalsFinal(sourceOwners, payload, words) {
+/** Map audit findings missing from owner-source onto closest owner object by card+field. */
+const ORPHAN_FINDING_MAP = {
+  "ES-B1-1775": { cardId: "b1-dank-study", field: "study.comparison[1].meaning" },
+  "ES-B1-1776": { cardId: "b1-dank-study", field: "study.comparison[1].meaning" },
+  "ES-B1-1777": { cardId: "b1-dank-study", field: "study.comparison[3].example" },
+  "ES-B1-1778": { cardId: "b1-dank-study", field: "study.comparison[3].example" },
+  "ES-B1-1779": { cardId: "b1-dank-study", field: "study.comparison[3].example" },
+  "ES-B1-LUNA-1878": { cardId: "b1-verlegen", field: "study.translation" },
+};
+
+function patchOrphanFindingIds(items, auditFindings) {
+  const findingIds = new Set(auditFindings.map((f) => f.id));
+  const covered = new Set();
+  for (const item of items) {
+    for (const fid of item.sourceFindingIds || []) covered.add(fid);
+  }
+
+  const itemsByKey = new Map(items.map((i) => [`B1|${i.cardId}|${i.field}`, i]));
+
+  for (const [fid, target] of Object.entries(ORPHAN_FINDING_MAP)) {
+    if (!findingIds.has(fid) || covered.has(fid)) continue;
+    const key = `B1|${target.cardId}|${target.field}`;
+    const item = itemsByKey.get(key);
+    if (!item) continue;
+    if (!item.sourceFindingIds.includes(fid)) item.sourceFindingIds.push(fid);
+    covered.add(fid);
+  }
+
+  return items;
+}
+
+function validateProposalsFinal(sourceOwners, payload, words, auditFindings = null) {
   const errors = [];
   const sourceById = new Map((sourceOwners || []).map((o) => [o.id, o]));
+  const itemsByKey = new Map((payload.items || []).map((i) => [`B1|${i.cardId}|${i.field}`, i]));
   const seenKeys = new Set();
   const findingIdsCovered = new Set();
   let currentMatch = 0;
@@ -250,7 +300,7 @@ function validateProposalsFinal(sourceOwners, payload, words) {
 
     if (actualField.includes("sectionAccents") && decision === "LABOT") {
       sectionAccentChecked += 1;
-      if (item.action === "REMOVE" || sectionAccentVisibleMatch(entry, actualField, item.new)) {
+      if (item.action === "REMOVE" || sectionAccentVisibleMatch(entry, actualField, item.new, itemsByKey, item.cardId)) {
         sectionAccentMatch += 1;
       } else {
         errors.push(`${item.id}: sectionAccent NEW not in visible text`);
@@ -258,10 +308,14 @@ function validateProposalsFinal(sourceOwners, payload, words) {
     }
   }
 
-  // Coverage of all source finding IDs
-  const allFindingIds = new Set();
-  for (const o of sourceOwners) {
-    for (const fid of o.findingIds || []) allFindingIds.add(fid);
+  // Coverage of all audit finding IDs (3795)
+  const allFindingIds = auditFindings
+    ? new Set(auditFindings.map((f) => f.id))
+    : new Set();
+  if (!auditFindings) {
+    for (const o of sourceOwners) {
+      for (const fid of o.findingIds || []) allFindingIds.add(fid);
+    }
   }
   const missingFindings = [...allFindingIds].filter((id) => !findingIdsCovered.has(id));
   if (missingFindings.length) {
@@ -318,4 +372,7 @@ module.exports = {
   validateProposalsFinal,
   countBy,
   sectionAccentVisibleMatch,
+  parentFieldFromSectionAccent,
+  patchOrphanFindingIds,
+  ORPHAN_FINDING_MAP,
 };

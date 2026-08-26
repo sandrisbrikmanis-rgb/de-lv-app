@@ -13,13 +13,15 @@ const { loadProductionCards } = require("./lib/es-b1-owner-context");
 const { validateProposalsFinal } = require("./lib/es-b1-owner-proposals-validate");
 
 const SOURCE_JSON = path.join(ROOT, "reports/es-de-b1-full-audit-owner-source.json");
+const AUDIT_JSON = path.join(ROOT, "reports/es-de-b1-full-audit.json");
 const PROPOSALS_JSON = path.join(ROOT, "reports/es-de-b1-owner-proposals-final.json");
 
 function main() {
   const source = JSON.parse(fs.readFileSync(SOURCE_JSON, "utf8"));
+  const audit = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
   const payload = JSON.parse(fs.readFileSync(PROPOSALS_JSON, "utf8"));
   const { esWords } = loadProductionCards();
-  const validation = validateProposalsFinal(source.ownerObjects, payload, esWords);
+  const validation = validateProposalsFinal(source.ownerObjects, payload, esWords, audit.findings);
 
   let syntaxPass = true;
   try {
