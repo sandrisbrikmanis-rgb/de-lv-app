@@ -14,7 +14,7 @@
   },
   "lessonNumber": 13,
   "targetCount": 243,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 13,
@@ -25,8 +25,8 @@
       "current": "Lección 13",
       "deContext": "",
       "structureContext": "Lección 13 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 13",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Der Körper, partes del cuerpo, turnen y jeder.",
       "deContext": "",
       "structureContext": "Lección 13 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Körper, partes del cuerpo, turnen y jeder.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Conferencia Trece: Der Körper, partes del cuerpo, ejercicio, verbos reflexivos y plural.",
       "deContext": "",
       "structureContext": "Lección 13 intro paragraph",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Conferencia Trece: Der Körper, partes del cuerpo, ejercicio, verbos reflexivos y plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Accordion section 1; raw: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
       "deContext": "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
       "structureContext": "Section[0] Texto / lectura / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Wie ist der Kopf? Der Kopf ist rund.",
       "deContext": "Wie ist der Kopf? Der Kopf ist rund.",
       "structureContext": "Section[0] Texto / lectura / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wie ist der Kopf? Der Kopf ist rund.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Der Hals ist kurz.",
       "deContext": "Der Hals ist kurz.",
       "structureContext": "Section[0] Texto / lectura / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Hals ist kurz.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Der Rumpf ist lang.",
       "deContext": "Der Rumpf ist lang.",
       "structureContext": "Section[0] Texto / lectura / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Rumpf ist lang.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Der Arm ist auch lang.",
       "deContext": "Der Arm ist auch lang.",
       "structureContext": "Section[0] Texto / lectura / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Arm ist auch lang.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Die Hand ist klein.",
       "deContext": "Die Hand ist klein.",
       "structureContext": "Section[0] Texto / lectura / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Hand ist klein.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Das Bein ist dick.",
       "deContext": "Das Bein ist dick.",
       "structureContext": "Section[0] Texto / lectura / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Das Bein ist dick.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Der Fuß ist dünn.",
       "deContext": "Der Fuß ist dünn.",
       "structureContext": "Section[0] Texto / lectura / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Der Fuß ist dünn.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Die Brust ist vorn, aber der Rücken ist hinten.",
       "deContext": "Die Brust ist vorn, aber der Rücken ist hinten.",
       "structureContext": "Section[0] Texto / lectura / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Die Brust ist vorn, aber der Rücken ist hinten.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Jede Hand hat fünf Finger.",
       "deContext": "Jede Hand hat fünf Finger.",
       "structureContext": "Section[0] Texto / lectura / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Jede Hand hat fünf Finger.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Beide Hände haben zehn Finger.",
       "deContext": "Beide Hände haben zehn Finger.",
       "structureContext": "Section[0] Texto / lectura / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Beide Hände haben zehn Finger.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Jeder Fuß hat fünf Zehen.",
       "deContext": "Jeder Fuß hat fünf Zehen.",
       "structureContext": "Section[0] Texto / lectura / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Jeder Fuß hat fünf Zehen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "Beide Füße haben zehn Zehen.",
       "deContext": "Beide Füße haben zehn Zehen.",
       "structureContext": "Section[0] Texto / lectura / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Beide Füße haben zehn Zehen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "Jeder Finger und jede Zehe haben einen Nagel.",
       "deContext": "Jeder Finger und jede Zehe haben einen Nagel.",
       "structureContext": "Section[0] Texto / lectura / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Jeder Finger und jede Zehe haben einen Nagel.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "Ich beschneide und reinige die Nägel oft.",
       "deContext": "Ich beschneide und reinige die Nägel oft.",
       "structureContext": "Section[0] Texto / lectura / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich beschneide und reinige die Nägel oft.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "der Körper — el cuerpo",
       "deContext": "der Körper",
       "structureContext": "Section[1] Nombres / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Körper — el cuerpo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "der Mensch — el ser humano",
       "deContext": "der Mensch",
       "structureContext": "Section[1] Nombres / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Mensch — el ser humano",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "der Kopf — galva",
       "deContext": "der Kopf",
       "structureContext": "Section[1] Nombres / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Kopf — galva",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "der Hals — kakls",
       "deContext": "der Hals",
       "structureContext": "Section[1] Nombres / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Hals — kakls",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "der Rumpf — rumpis",
       "deContext": "der Rumpf",
       "structureContext": "Section[1] Nombres / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Rumpf — rumpis",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "der Arm — roka",
       "deContext": "der Arm",
       "structureContext": "Section[1] Nombres / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Arm — roka",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "die Hand — plauksta",
       "deContext": "die Hand",
       "structureContext": "Section[1] Nombres / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Hand — plauksta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "die Hände — plaukstas",
       "deContext": "die Hände",
       "structureContext": "Section[1] Nombres / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Hände — plaukstas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "das Bein — pierna",
       "deContext": "das Bein",
       "structureContext": "Section[1] Nombres / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Bein — pierna",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "die Beine — piernas",
       "deContext": "die Beine",
       "structureContext": "Section[1] Nombres / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Beine — piernas",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "der Fuß — el pie del pie",
       "deContext": "der Fuß",
       "structureContext": "Section[1] Nombres / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Fuß — el pie del pie",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "die Füße — pies",
       "deContext": "die Füße",
       "structureContext": "Section[1] Nombres / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Füße — pies",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "rund — redondo",
       "deContext": "rund",
       "structureContext": "Section[1] Nombres / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "rund — redondo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "lang — largo",
       "deContext": "lang",
       "structureContext": "Section[1] Nombres / items[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "lang — largo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "kurz — corto",
       "deContext": "kurz",
       "structureContext": "Section[1] Nombres / items[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kurz — corto",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "klein — mazs",
       "deContext": "klein",
       "structureContext": "Section[1] Nombres / items[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "klein — mazs",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "groß — mentiras",
       "deContext": "groß",
       "structureContext": "Section[1] Nombres / items[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "groß — mentiras",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "dick — resns / biezs",
       "deContext": "dick",
       "structureContext": "Section[1] Nombres / items[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dick — resns / biezs",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "dünn — delgado / delgado",
       "deContext": "dünn",
       "structureContext": "Section[1] Nombres / items[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dünn — delgado / delgado",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "die Brust — el pecho",
       "deContext": "die Brust",
       "structureContext": "Section[1] Nombres / items[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Brust — el pecho",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "vorn — al frente",
       "deContext": "vorn",
       "structureContext": "Section[1] Nombres / items[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "vorn — al frente",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "der Rücken — mugura",
       "deContext": "der Rücken",
       "structureContext": "Section[1] Nombres / items[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Rücken — mugura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "hinten — detrás",
       "deContext": "hinten",
       "structureContext": "Section[1] Nombres / items[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hinten — detrás",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "jeder — katrs",
       "deContext": "jeder",
       "structureContext": "Section[1] Nombres / items[23]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jeder — katrs",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "jede — katra",
       "deContext": "jede",
       "structureContext": "Section[1] Nombres / items[24]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jede — katra",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "jedes — katrs",
       "deContext": "jedes",
       "structureContext": "Section[1] Nombres / items[25]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jedes — katrs",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "der Finger — pirksts",
       "deContext": "der Finger",
       "structureContext": "Section[1] Nombres / items[26]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Finger — pirksts",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "die Zehe — el dedo del pie",
       "deContext": "die Zehe",
       "structureContext": "Section[1] Nombres / items[27]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Zehe — el dedo del pie",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "beide — abi",
       "deContext": "beide",
       "structureContext": "Section[1] Nombres / items[28]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "beide — abi",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "der Nagel — regaños",
       "deContext": "der Nagel",
       "structureContext": "Section[1] Nombres / items[29]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Nagel — regaños",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "die Nägel — nagi",
       "deContext": "die Nägel",
       "structureContext": "Section[1] Nombres / items[30]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Nägel — nagi",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "beschneiden — apgriezt",
       "deContext": "beschneiden",
       "structureContext": "Section[1] Nombres / items[31]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "beschneiden — apgriezt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "reinigen — limpiar",
       "deContext": "reinigen",
       "structureContext": "Section[1] Nombres / items[32]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "reinigen — limpiar",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "turnen — vingrot",
       "deContext": "turnen",
       "structureContext": "Section[1] Nombres / items[33]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "turnen — vingrot",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "heben — celta",
       "deContext": "heben",
       "structureContext": "Section[1] Nombres / items[34]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "heben — celta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "machen — hacer / hacer",
       "deContext": "machen",
       "structureContext": "Section[1] Nombres / items[35]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "machen — hacer / hacer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "der Schritt — solís",
       "deContext": "der Schritt",
       "structureContext": "Section[1] Nombres / items[36]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Schritt — solís",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "bleiben — palikt",
       "deContext": "bleiben",
       "structureContext": "Section[1] Nombres / items[37]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "bleiben — palikt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "stehen — pararse",
       "deContext": "stehen",
       "structureContext": "Section[1] Nombres / items[38]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "stehen — pararse",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "sich umkehren — apgriezties",
       "deContext": "sich umkehren",
       "structureContext": "Section[1] Nombres / items[39]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sich umkehren — apgriezties",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "ausstrecken — izstiept",
       "deContext": "ausstrecken",
       "structureContext": "Section[1] Nombres / items[40]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ausstrecken — izstiept",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "senken — nolaist",
       "deContext": "senken",
       "structureContext": "Section[1] Nombres / items[41]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "senken — nolaist",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "drehen — griezt / pagriezt",
       "deContext": "drehen",
       "structureContext": "Section[1] Nombres / items[42]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "drehen — griezt / pagriezt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "nach links — pa kreisi",
       "deContext": "nach links",
       "structureContext": "Section[1] Nombres / items[43]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nach links — pa kreisi",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "nach rechts — pa labi",
       "deContext": "nach rechts",
       "structureContext": "Section[1] Nombres / items[44]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "nach rechts — a • después",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "halten — mantener",
       "deContext": "halten",
       "structureContext": "Section[1] Nombres / items[45]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "halten — mantener",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "gerade — taisni",
       "deContext": "gerade",
       "structureContext": "Section[1] Nombres / items[46]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "gerade — taisni",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "atmen — elpot",
       "deContext": "atmen",
       "structureContext": "Section[1] Nombres / items[47]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "atmen — elpot",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "tief — profundo",
       "deContext": "tief",
       "structureContext": "Section[1] Nombres / items[48]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tief — profundo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "Umlaut tagadnē",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Umlaut en presente",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "Algunos verbos con la vocal raíz a o au en la segunda y tercera persona del presente del singular tienen diéresis.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Algunos verbos con la vocal raíz a o au en la segunda y tercera persona del presente del singular tienen diéresis.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "halten — ich halte, du hältst, er hält",
       "deContext": "halten",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "halten — ich halte, du hältst, er hält",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "fallen — ich falle, du fällst, er fällt",
       "deContext": "fallen",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "fallen — ich falle, du fällst, er fällt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "tragen — ich trage, du trägst, er trägt",
       "deContext": "tragen",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "tragen — ich trage, du trägst, er trägt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "fangen — ich fange, du fängst, er fängt",
       "deContext": "fangen",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "fangen — ich fange, du fängst, er fängt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "fahren — ich fahre, du fährst, er fährt",
       "deContext": "fahren",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "fahren — ich fahre, du fährst, er fährt",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "laufen — ich laufe, du läufst, er läuft",
       "deContext": "laufen",
       "structureContext": "Section[2] Gramática / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "laufen — ich laufe, du läufst, er läuft",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "Atgriezeniskais darbības vārds",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbo reflexivo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "sich umkehren — apgriezties",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sich umkehren — apgriezties",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "ich kehre mich um",
       "deContext": "ich kehre mich um",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich kehre mich um",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "du kehrst dich um",
       "deContext": "du kehrst dich um",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du kehrst dich um",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "er/sie/es kehrt sich um",
       "deContext": "er/sie/es kehrt sich um",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er/sie/es kehrt sich um",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "wir kehren uns um",
       "deContext": "wir kehren uns um",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir kehren uns um",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "ihr kehrt euch um",
       "deContext": "ihr kehrt euch um",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr kehrt euch um",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "sie kehren sich um",
       "deContext": "sie kehren sich um",
       "structureContext": "Section[2] Gramática / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie kehren sich um",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "Pavēles forma ar sich umkehren",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Imperativo con sich umkehren",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "kehr(e) dich um!",
       "deContext": "kehr(e) dich um!",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kehr(e) dich um!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "kehrt euch um!",
       "deContext": "kehrt euch um!",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "kehrt euch um!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "Fräulein Müller, kehren Sie sich um!",
       "deContext": "Fräulein Müller, kehren Sie sich um!",
       "structureContext": "Section[2] Gramática / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Fräulein Müller, kehren Sie sich um!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "Darbības vārds atmen",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El verbo atmen",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "atmen — elpot",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "atmen — elpot",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "ich atme",
       "deContext": "ich atme",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ich atme",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "du atmest",
       "deContext": "du atmest",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du atmest",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "er/sie/es atmet",
       "deContext": "er/sie/es atmet",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "er/sie/es atmet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "wir atmen",
       "deContext": "wir atmen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wir atmen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "ihr atmet",
       "deContext": "ihr atmet",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ihr atmet",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "sie atmen",
       "deContext": "sie atmen",
       "structureContext": "Section[2] Gramática / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sie atmen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "Pavēles forma ar atmen",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Imperativo de atmen",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "Paul, atme tief!",
       "deContext": "Paul, atme tief!",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Paul, atme tief!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "Paul und Franz, atmet tief!",
       "deContext": "Paul und Franz, atmet tief!",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Paul und Franz, atmet tief!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "Fräulein Müller, atmen Sie tief!",
       "deContext": "Fräulein Müller, atmen Sie tief!",
       "structureContext": "Section[2] Gramática / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Fräulein Müller, atmen Sie tief!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "Saliktie darbības vārdi",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Verbos compuestos",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "Si la parte preposicional está acentuada, se separa en tiempo presente y va al final de la oración.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si la parte preposicional está acentuada, se separa en tiempo presente y va al final de la oración.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "ausstrecken: ich strecke einen Arm aus.",
       "deContext": "ausstrecken: ich strecke einen Arm aus.",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ausstrecken: ich strecke einen Arm aus.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "sich umkehren: ich kehre mich um.",
       "deContext": "sich umkehren: ich kehre mich um.",
       "structureContext": "Section[2] Gramática / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "sich umkehren: ich kehre mich um.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "Neatdalāmie priedēkļi",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Prefijos inseparables",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0105"
     },
     {
@@ -1390,8 +1390,8 @@
       "current": "Si el prefijo no está acentuado, no está acentuado.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Si el prefijo no está acentuado, no está acentuado.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0106"
     },
     {
@@ -1403,8 +1403,8 @@
       "current": "beschneiden: ich beschneide die Nägel.",
       "deContext": "beschneiden: ich beschneide die Nägel.",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "beschneiden: ich beschneide die Nägel.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0107"
     },
     {
@@ -1416,8 +1416,8 @@
       "current": "du beschneidest die Nägel.",
       "deContext": "du beschneidest die Nägel.",
       "structureContext": "Section[2] Gramática / items[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "du beschneidest die Nägel.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0108"
     },
     {
@@ -1429,8 +1429,8 @@
       "current": "Vietniekvārds jeder",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El pronombre jeder",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0109"
     },
     {
@@ -1442,8 +1442,8 @@
       "current": "El pronombre jeder va en círculos como los artículos der / die / das.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El pronombre jeder va en círculos como los artículos der / die / das.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0110"
     },
     {
@@ -1455,8 +1455,8 @@
       "current": "",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0111"
     },
     {
@@ -1468,8 +1468,8 @@
       "current": "Vīriešu",
       "deContext": "Vīriešu",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Masculino",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0112"
     },
     {
@@ -1481,8 +1481,8 @@
       "current": "Sieviešu",
       "deContext": "Sieviešu",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Femenino",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0113"
     },
     {
@@ -1494,8 +1494,8 @@
       "current": "Vidējā",
       "deContext": "Vidējā",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Neutro",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0114"
     },
     {
@@ -1507,8 +1507,8 @@
       "current": "Nominatīvs",
       "deContext": "Nominatīvs",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nominativo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0115"
     },
     {
@@ -1520,8 +1520,8 @@
       "current": "jeder Finger",
       "deContext": "jeder Finger",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jeder Finger",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0116"
     },
     {
@@ -1533,8 +1533,8 @@
       "current": "jede Hand",
       "deContext": "jede Hand",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jede Hand",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0117"
     },
     {
@@ -1546,8 +1546,8 @@
       "current": "jedes Bein",
       "deContext": "jedes Bein",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jedes Bein",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0118"
     },
     {
@@ -1559,8 +1559,8 @@
       "current": "Akuzatīvs",
       "deContext": "Akuzatīvs",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Acusativo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0119"
     },
     {
@@ -1572,8 +1572,8 @@
       "current": "jeden Finger",
       "deContext": "jeden Finger",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jeden Finger",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0120"
     },
     {
@@ -1585,8 +1585,8 @@
       "current": "jede Hand",
       "deContext": "jede Hand",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jede Hand",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0121"
     },
     {
@@ -1598,8 +1598,8 @@
       "current": "jedes Bein",
       "deContext": "jedes Bein",
       "structureContext": "Section[2] Gramática / items[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "jedes Bein",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0122"
     },
     {
@@ -1611,8 +1611,8 @@
       "current": "Daudzskaitlis bez galotnes",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Plural sin terminación",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0123"
     },
     {
@@ -1624,8 +1624,8 @@
       "current": "der Bruder — die Brüder",
       "deContext": "der Bruder",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Bruder — die Brüder",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0124"
     },
     {
@@ -1637,8 +1637,8 @@
       "current": "der Finger — die Finger",
       "deContext": "der Finger",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Finger — die Finger",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0125"
     },
     {
@@ -1650,8 +1650,8 @@
       "current": "der Körper — die Körper",
       "deContext": "der Körper",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Körper — die Körper",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0126"
     },
     {
@@ -1663,8 +1663,8 @@
       "current": "das Fenster — die Fenster",
       "deContext": "das Fenster",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Fenster — die Fenster",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0127"
     },
     {
@@ -1676,8 +1676,8 @@
       "current": "das Mädchen — die Mädchen",
       "deContext": "das Mädchen",
       "structureContext": "Section[2] Gramática / items[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Mädchen — die Mädchen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0128"
     },
     {
@@ -1689,8 +1689,8 @@
       "current": "Daudzskaitlis ar galotni -e",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Plural con la terminación -e",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0129"
     },
     {
@@ -1702,8 +1702,8 @@
       "current": "der Stuhl — die Stühle",
       "deContext": "der Stuhl",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Stuhl — die Stühle",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0130"
     },
     {
@@ -1715,8 +1715,8 @@
       "current": "der Kopf — die Köpfe",
       "deContext": "der Kopf",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Kopf — die Köpfe",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0131"
     },
     {
@@ -1728,8 +1728,8 @@
       "current": "der Arm — die Arme",
       "deContext": "der Arm",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Arm — die Arme",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0132"
     },
     {
@@ -1741,8 +1741,8 @@
       "current": "der Fuß — die Füße",
       "deContext": "der Fuß",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Fuß — die Füße",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0133"
     },
     {
@@ -1754,8 +1754,8 @@
       "current": "das Bein — die Beine",
       "deContext": "das Bein",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Bein — die Beine",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0134"
     },
     {
@@ -1767,8 +1767,8 @@
       "current": "die Hand — die Hände",
       "deContext": "die Hand",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Hand — die Hände",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0135"
     },
     {
@@ -1780,8 +1780,8 @@
       "current": "der Baum — die Bäume",
       "deContext": "der Baum",
       "structureContext": "Section[2] Gramática / items[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Baum — die Bäume",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0136"
     },
     {
@@ -1793,8 +1793,8 @@
       "current": "Daudzskaitlis ar galotni -en vai -n",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Plural con la terminación -en o -n",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0137"
     },
     {
@@ -1806,8 +1806,8 @@
       "current": "die Feder — die Federn",
       "deContext": "die Feder",
       "structureContext": "Section[2] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Feder — die Federn",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0138"
     },
     {
@@ -1819,8 +1819,8 @@
       "current": "die Karte — die Karten",
       "deContext": "die Karte",
       "structureContext": "Section[2] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Karte — die Karten",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0139"
     },
     {
@@ -1832,8 +1832,8 @@
       "current": "die Frau — die Frauen",
       "deContext": "die Frau",
       "structureContext": "Section[2] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Frau — die Frauen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0140"
     },
     {
@@ -1845,8 +1845,8 @@
       "current": "die Lehrerin — die Lehrerinnen",
       "deContext": "die Lehrerin",
       "structureContext": "Section[2] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Lehrerin — die Lehrerinnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0141"
     },
     {
@@ -1858,8 +1858,8 @@
       "current": "die Schülerin — die Schülerinnen",
       "deContext": "die Schülerin",
       "structureContext": "Section[2] Gramática / items[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Schülerin — die Schülerinnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0142"
     },
     {
@@ -1871,8 +1871,8 @@
       "current": "Daudzskaitlis ar galotni -er",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Plural con la terminación -er",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0143"
     },
     {
@@ -1884,8 +1884,8 @@
       "current": "das Buch — die Bücher",
       "deContext": "das Buch",
       "structureContext": "Section[2] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Buch — die Bücher",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0144"
     },
     {
@@ -1897,8 +1897,8 @@
       "current": "das Haus — die Häuser",
       "deContext": "das Haus",
       "structureContext": "Section[2] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Haus — die Häuser",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0145"
     },
     {
@@ -1910,8 +1910,8 @@
       "current": "das Kind — die Kinder",
       "deContext": "das Kind",
       "structureContext": "Section[2] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Kind — die Kinder",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0146"
     },
     {
@@ -1923,8 +1923,8 @@
       "current": "der Mann — die Männer",
       "deContext": "der Mann",
       "structureContext": "Section[2] Gramática / items[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Mann — die Männer",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0147"
     },
     {
@@ -1936,8 +1936,8 @@
       "current": "Sieviešu kārtas lietvārdi ar -in",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sustantivos femeninos con -in",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0148"
     },
     {
@@ -1949,8 +1949,8 @@
       "current": "Sustantivos femeninos formados con -in take -nen en plural.",
       "deContext": "",
       "structureContext": "Section[2] Gramática / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Los sustantivos femeninos formados con -in toman -nen en plural.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0149"
     },
     {
@@ -1962,8 +1962,8 @@
       "current": "der Lehrer — die Lehrerin — die Lehrerinnen",
       "deContext": "der Lehrer",
       "structureContext": "Section[2] Gramática / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Lehrer — die Lehrerin — die Lehrerinnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0150"
     },
     {
@@ -1975,8 +1975,8 @@
       "current": "der Schüler — die Schülerin — die Schülerinnen",
       "deContext": "der Schüler",
       "structureContext": "Section[2] Gramática / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Schüler — die Schülerin — die Schülerinnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0151"
     },
     {
@@ -1988,8 +1988,8 @@
       "current": "der Bauer — die Bäuerin — die Bäuerinnen",
       "deContext": "der Bauer",
       "structureContext": "Section[2] Gramática / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Bauer — die Bäuerin — die Bäuerinnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0152"
     },
     {
@@ -2001,8 +2001,8 @@
       "current": "der Arbeiter — die Arbeiterin — die Arbeiterinnen",
       "deContext": "der Arbeiter",
       "structureContext": "Section[2] Gramática / items[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Arbeiter — die Arbeiterin — die Arbeiterinnen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0153"
     },
     {
@@ -2014,8 +2014,8 @@
       "current": "h vārdā halten ir dzirdama skaņa.",
       "deContext": "h vārdā halten ir dzirdama skaņa.",
       "structureContext": "Section[3] Pronunciación / items[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En halten, la h se pronuncia.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0154"
     },
     {
@@ -2027,8 +2027,8 @@
       "current": "h vārdā fahren rāda patskaņa garumu.",
       "deContext": "h vārdā fahren rāda patskaņa garumu.",
       "structureContext": "Section[3] Pronunciación / items[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En fahren, la h indica que la vocal anterior es larga.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0155"
     },
     {
@@ -2040,8 +2040,8 @@
       "current": "a vārdā halten izrunā īsi: halten.",
       "deContext": "a vārdā halten izrunā īsi: halten.",
       "structureContext": "Section[3] Pronunciación / items[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En halten, la a se pronuncia corta.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0156"
     },
     {
@@ -2053,8 +2053,8 @@
       "current": "a vārdā tragen izrunā gari: tragen.",
       "deContext": "a vārdā tragen izrunā gari: tragen.",
       "structureContext": "Section[3] Pronunciación / items[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En tragen, la a se pronuncia larga.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0157"
     },
     {
@@ -2066,8 +2066,8 @@
       "current": "äu izrunā kā oi: du läufst, er läuft.",
       "deContext": "",
       "structureContext": "Section[3] Pronunciación / items[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "äu se pronuncia «oi»: du läufst, er läuft.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0158"
     },
     {
@@ -2079,8 +2079,8 @@
       "current": "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.",
       "deContext": "pf vārdā Kopf izrunā tā, ka abus līdzskaņus var sadzirdēt.",
       "structureContext": "Section[3] Pronunciación / items[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En Kopf se pronuncian las dos consonantes de pf.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0159"
     },
     {
@@ -2092,8 +2092,8 @@
       "current": "Ich hebe die Beine.",
       "deContext": "Ich hebe die Beine.",
       "structureContext": "Section[4] Ejercicio / card[0] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich hebe die Beine.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0160"
     },
     {
@@ -2105,8 +2105,8 @@
       "current": "Er hebt die Beine.",
       "deContext": "Er hebt die Beine.",
       "structureContext": "Section[4] Ejercicio / card[0] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er hebt die Beine.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0161"
     },
     {
@@ -2118,8 +2118,8 @@
       "current": "Wir heben die Beine.",
       "deContext": "Wir heben die Beine.",
       "structureContext": "Section[4] Ejercicio / card[0] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir heben die Beine.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0162"
     },
     {
@@ -2131,8 +2131,8 @@
       "current": "Ich hebe die Arme.",
       "deContext": "Ich hebe die Arme.",
       "structureContext": "Section[4] Ejercicio / card[1] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich hebe die Arme.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0163"
     },
     {
@@ -2144,8 +2144,8 @@
       "current": "Er hebt die Arme.",
       "deContext": "Er hebt die Arme.",
       "structureContext": "Section[4] Ejercicio / card[1] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er hebt die Arme.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0164"
     },
     {
@@ -2157,8 +2157,8 @@
       "current": "Wir heben die Arme.",
       "deContext": "Wir heben die Arme.",
       "structureContext": "Section[4] Ejercicio / card[1] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir heben die Arme.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0165"
     },
     {
@@ -2170,8 +2170,8 @@
       "current": "Ich mache zwei Schritte.",
       "deContext": "Ich mache zwei Schritte.",
       "structureContext": "Section[4] Ejercicio / card[2] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich mache zwei Schritte.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0166"
     },
     {
@@ -2183,8 +2183,8 @@
       "current": "Er macht zwei Schritte.",
       "deContext": "Er macht zwei Schritte.",
       "structureContext": "Section[4] Ejercicio / card[2] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er macht zwei Schritte.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0167"
     },
     {
@@ -2196,8 +2196,8 @@
       "current": "Wir machen dos Schritte.",
       "deContext": "Wir machen dos Schritte.",
       "structureContext": "Section[4] Ejercicio / card[2] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir machen dos Schritte.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0168"
     },
     {
@@ -2209,8 +2209,8 @@
       "current": "Ich bleibe stehen.",
       "deContext": "Ich bleibe stehen.",
       "structureContext": "Section[4] Ejercicio / card[3] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich bleibe stehen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0169"
     },
     {
@@ -2222,8 +2222,8 @@
       "current": "Er bleibt stehen.",
       "deContext": "Er bleibt stehen.",
       "structureContext": "Section[4] Ejercicio / card[3] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er bleibt stehen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0170"
     },
     {
@@ -2235,8 +2235,8 @@
       "current": "Wir bleiben stehen.",
       "deContext": "Wir bleiben stehen.",
       "structureContext": "Section[4] Ejercicio / card[3] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir bleiben stehen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0171"
     },
     {
@@ -2248,8 +2248,8 @@
       "current": "Ich kehre mich um.",
       "deContext": "Ich kehre mich um.",
       "structureContext": "Section[4] Ejercicio / card[4] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich kehre mich um.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0172"
     },
     {
@@ -2261,8 +2261,8 @@
       "current": "Er kehrt sich um.",
       "deContext": "Er kehrt sich um.",
       "structureContext": "Section[4] Ejercicio / card[4] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er kehrt sich um.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0173"
     },
     {
@@ -2274,8 +2274,8 @@
       "current": "Wir kehren uns um.",
       "deContext": "Wir kehren uns um.",
       "structureContext": "Section[4] Ejercicio / card[4] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir kehren uns um.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0174"
     },
     {
@@ -2287,8 +2287,8 @@
       "current": "Ich strecke einen Arm aus.",
       "deContext": "Ich strecke einen Arm aus.",
       "structureContext": "Section[4] Ejercicio / card[5] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich strecke einen Arm aus.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0175"
     },
     {
@@ -2300,8 +2300,8 @@
       "current": "Er streckt einen Arm aus.",
       "deContext": "Er streckt einen Arm aus.",
       "structureContext": "Section[4] Ejercicio / card[5] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er streckt einen Arm aus.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0176"
     },
     {
@@ -2313,8 +2313,8 @@
       "current": "Wir strecken einen Arm aus.",
       "deContext": "Wir strecken einen Arm aus.",
       "structureContext": "Section[4] Ejercicio / card[5] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir strecken einen Arm aus.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0177"
     },
     {
@@ -2326,8 +2326,8 @@
       "current": "Ich strecke beide Arme aus.",
       "deContext": "Ich strecke beide Arme aus.",
       "structureContext": "Section[4] Ejercicio / card[6] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich strecke beide Arme aus.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0178"
     },
     {
@@ -2339,8 +2339,8 @@
       "current": "Er streckt beide Arme aus.",
       "deContext": "Er streckt beide Arme aus.",
       "structureContext": "Section[4] Ejercicio / card[6] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er streckt beide Arme aus.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0179"
     },
     {
@@ -2352,8 +2352,8 @@
       "current": "Wir strecken beide Arme aus.",
       "deContext": "Wir strecken beide Arme aus.",
       "structureContext": "Section[4] Ejercicio / card[6] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir strecken beide Arme aus.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0180"
     },
     {
@@ -2365,8 +2365,8 @@
       "current": "Ich senske beide Arme.",
       "deContext": "Ich senske beide Arme.",
       "structureContext": "Section[4] Ejercicio / card[7] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich senske beide Arme.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0181"
     },
     {
@@ -2378,8 +2378,8 @@
       "current": "Er sentkt beide Arme.",
       "deContext": "Er sentkt beide Arme.",
       "structureContext": "Section[4] Ejercicio / card[7] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er sentkt beide Arme.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0182"
     },
     {
@@ -2391,8 +2391,8 @@
       "current": "Wir senten beide Arme.",
       "deContext": "Wir senten beide Arme.",
       "structureContext": "Section[4] Ejercicio / card[7] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir senten beide Arme.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0183"
     },
     {
@@ -2404,8 +2404,8 @@
       "current": "Ich drehe den Kopf nach links.",
       "deContext": "Ich drehe den Kopf nach links.",
       "structureContext": "Section[4] Ejercicio / card[8] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich drehe den Kopf nach links.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0184"
     },
     {
@@ -2417,8 +2417,8 @@
       "current": "Er dreht den Kopf nach enlaces.",
       "deContext": "Er dreht den Kopf nach enlaces.",
       "structureContext": "Section[4] Ejercicio / card[8] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er dreht den Kopf nach enlaces.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0185"
     },
     {
@@ -2430,8 +2430,8 @@
       "current": "Wir drehen den Kopf nach links.",
       "deContext": "Wir drehen den Kopf nach links.",
       "structureContext": "Section[4] Ejercicio / card[8] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir drehen den Kopf nach links.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0186"
     },
     {
@@ -2443,8 +2443,8 @@
       "current": "Ich drehe den Kopf nach rechts.",
       "deContext": "Ich drehe den Kopf nach rechts.",
       "structureContext": "Section[4] Ejercicio / card[9] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich drehe den Kopf nach rechts.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0187"
     },
     {
@@ -2456,8 +2456,8 @@
       "current": "Er dreht den Kopf nach rechts.",
       "deContext": "Er dreht den Kopf nach rechts.",
       "structureContext": "Section[4] Ejercicio / card[9] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er dreht den Kopf nach rechts.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0188"
     },
     {
@@ -2469,8 +2469,8 @@
       "current": "Wir drehen den Kopf nach rechts.",
       "deContext": "Wir drehen den Kopf nach rechts.",
       "structureContext": "Section[4] Ejercicio / card[9] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir drehen den Kopf nach rechts.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0189"
     },
     {
@@ -2482,8 +2482,8 @@
       "current": "Ich halte den Kopf gerade.",
       "deContext": "Ich halte den Kopf gerade.",
       "structureContext": "Section[4] Ejercicio / card[10] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich halte den Kopf gerade.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0190"
     },
     {
@@ -2495,8 +2495,8 @@
       "current": "Er hält den Kopf gerade.",
       "deContext": "Er hält den Kopf gerade.",
       "structureContext": "Section[4] Ejercicio / card[10] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er hält den Kopf gerade.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0191"
     },
     {
@@ -2508,8 +2508,8 @@
       "current": "Wir halten den Kopf gerade.",
       "deContext": "Wir halten den Kopf gerade.",
       "structureContext": "Section[4] Ejercicio / card[10] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir halten den Kopf gerade.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0192"
     },
     {
@@ -2521,8 +2521,8 @@
       "current": "Ich atme tief.",
       "deContext": "Ich atme tief.",
       "structureContext": "Section[4] Ejercicio / card[11] (ich)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ich atme tief.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0193"
     },
     {
@@ -2534,8 +2534,8 @@
       "current": "Er atmet tief.",
       "deContext": "Er atmet tief.",
       "structureContext": "Section[4] Ejercicio / card[11] (er)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Er atmet tief.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0194"
     },
     {
@@ -2547,8 +2547,8 @@
       "current": "Wir atmen tief.",
       "deContext": "Wir atmen tief.",
       "structureContext": "Section[4] Ejercicio / card[11] (wir)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wir atmen tief.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0195"
     },
     {
@@ -2560,8 +2560,8 @@
       "current": "¿Cuántas manos tiene una persona?",
       "deContext": "Wie viele Arme hat der Mensch?",
       "structureContext": "Section[5] Traducir / card[0]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cuántas manos tiene una persona?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0196"
     },
     {
@@ -2573,8 +2573,8 @@
       "current": "cuantas piernas tienes",
       "deContext": "Wie viele Beine hast du?",
       "structureContext": "Section[5] Traducir / card[1]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "cuantas piernas tienes",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0197"
     },
     {
@@ -2586,8 +2586,8 @@
       "current": "¿Cómo es la cabeza?",
       "deContext": "Wie ist der Kopf?",
       "structureContext": "Section[5] Traducir / card[2]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo es la cabeza?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0198"
     },
     {
@@ -2599,8 +2599,8 @@
       "current": "¿Cómo es el torso?",
       "deContext": "Wie ist der Rumpf?",
       "structureContext": "Section[5] Traducir / card[3]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo es el torso?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0199"
     },
     {
@@ -2612,8 +2612,8 @@
       "current": "¿Qué es una mano?",
       "deContext": "Wie ist der Arm?",
       "structureContext": "Section[5] Traducir / card[4]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué es una mano?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0200"
     },
     {
@@ -2625,8 +2625,8 @@
       "current": "¿Qué es la pierna?",
       "deContext": "Wie ist das Bein?",
       "structureContext": "Section[5] Traducir / card[5]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué es la pierna?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0201"
     },
     {
@@ -2638,8 +2638,8 @@
       "current": "La mano es pequeña, pero la pierna es grande.",
       "deContext": "Der Arm ist klein, aber das Bein ist groß.",
       "structureContext": "Section[5] Traducir / card[6]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La mano es pequeña, pero la pierna es grande.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0202"
     },
     {
@@ -2651,8 +2651,8 @@
       "current": "donde esta el cofre",
       "deContext": "Wo ist die Brust?",
       "structureContext": "Section[5] Traducir / card[7]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "donde esta el cofre",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0203"
     },
     {
@@ -2664,8 +2664,8 @@
       "current": "¿Kur ir mugura?",
       "deContext": "Wo ist der Rücken?",
       "structureContext": "Section[5] Traducir / card[8]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Kur ir mugura?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0204"
     },
     {
@@ -2677,8 +2677,8 @@
       "current": "El pecho está al frente, la espalda está atrás.",
       "deContext": "Die Brust ist vorn, der Rücken ist hinten.",
       "structureContext": "Section[5] Traducir / card[9]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El pecho está al frente, la espalda está atrás.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0205"
     },
     {
@@ -2690,8 +2690,8 @@
       "current": "¿Cik pirkstu ir plaukstai?",
       "deContext": "Wie viele Finger hat die Hand?",
       "structureContext": "Section[5] Traducir / card[10]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cik pirkstu ir plaukstai?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0206"
     },
     {
@@ -2703,8 +2703,8 @@
       "current": "Plaukstai ir pieci pirksti.",
       "deContext": "Die Hand hat fünf Finger.",
       "structureContext": "Section[5] Traducir / card[11]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Plaukstai ir pieci pirksti.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0207"
     },
     {
@@ -2716,8 +2716,8 @@
       "current": "¿Cuántos dedos tienen dos manos?",
       "deContext": "Wie viele Finger haben zwei Hände?",
       "structureContext": "Section[5] Traducir / card[12]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cuántos dedos tienen dos manos?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0208"
     },
     {
@@ -2729,8 +2729,8 @@
       "current": "Dos manos tienen diez dedos.",
       "deContext": "Zwei Hände haben zehn Finger.",
       "structureContext": "Section[5] Traducir / card[13]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dos manos tienen diez dedos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0209"
     },
     {
@@ -2742,8 +2742,8 @@
       "current": "¿Kas ir pirkstam?",
       "deContext": "Was hat der Finger?",
       "structureContext": "Section[5] Traducir / card[14]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Kas ir pirkstam?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0210"
     },
     {
@@ -2755,8 +2755,8 @@
       "current": "Pirkstam ir regaña.",
       "deContext": "Der Finger hat einen Nagel.",
       "structureContext": "Section[5] Traducir / card[15]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pirkstam ir regaña.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0211"
     },
     {
@@ -2768,8 +2768,8 @@
       "current": "¿Ko tu dari?",
       "deContext": "Was tust du?",
       "structureContext": "Section[5] Traducir / card[16]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Ko tu dari?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0212"
     },
     {
@@ -2781,8 +2781,8 @@
       "current": "Me corto y limpio las uñas.",
       "deContext": "Ich beschneide und reinige die Nägel.",
       "structureContext": "Section[5] Traducir / card[17]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Me corto y limpio las uñas.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0213"
     },
     {
@@ -2794,8 +2794,8 @@
       "current": "Ko Paul dara?",
       "deContext": "Was tut Paul?",
       "structureContext": "Section[5] Traducir / card[18]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ko Paul dara?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0214"
     },
     {
@@ -2807,8 +2807,8 @@
       "current": "Él hace ejercicio.",
       "deContext": "Er turnt.",
       "structureContext": "Section[5] Traducir / card[19]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Él hace ejercicio.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0215"
     },
     {
@@ -2820,8 +2820,8 @@
       "current": "¿Cómo hacen ejercicio?",
       "deContext": "Wie turnen sie?",
       "structureContext": "Section[5] Traducir / card[20]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo hacen ejercicio?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0216"
     },
     {
@@ -2833,8 +2833,8 @@
       "current": "Levantan las piernas y los brazos.",
       "deContext": "Sie heben die Beine und die Arme.",
       "structureContext": "Section[5] Traducir / card[21]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Levantan las piernas y los brazos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0217"
     },
     {
@@ -2846,8 +2846,8 @@
       "current": "Extienden ambas manos.",
       "deContext": "Sie strecken beide Arme aus.",
       "structureContext": "Section[5] Traducir / card[22]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Extienden ambas manos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0218"
     },
     {
@@ -2859,8 +2859,8 @@
       "current": "Dejan caer ambas manos.",
       "deContext": "Sie senken beide Arme.",
       "structureContext": "Section[5] Traducir / card[23]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Dejan caer ambas manos.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0219"
     },
     {
@@ -2872,8 +2872,8 @@
       "current": "Giran la cabeza hacia la derecha.",
       "deContext": "Sie drehen den Kopf nach rechts.",
       "structureContext": "Section[5] Traducir / card[24]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Giran la cabeza hacia la derecha.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0220"
     },
     {
@@ -2885,8 +2885,8 @@
       "current": "¿Quién respira profundamente?",
       "deContext": "Wer atmet tief?",
       "structureContext": "Section[5] Traducir / card[25]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién respira profundamente?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0221"
     },
     {
@@ -2898,8 +2898,8 @@
       "current": "Pedro y Anna respiran profundamente.",
       "deContext": "Peter und Anna atmen tief.",
       "structureContext": "Section[5] Traducir / card[26]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pedro y Anna respiran profundamente.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0222"
     },
     {
@@ -2911,8 +2911,8 @@
       "current": "¿Roberto también hace ejercicio?",
       "deContext": "Turnt Robert auch?",
       "structureContext": "Section[5] Traducir / card[27]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Roberto también hace ejercicio?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0223"
     },
     {
@@ -2924,8 +2924,8 @@
       "current": "No, Roberto y Juan no hacen ejercicio.",
       "deContext": "Nein, Robert und Johann turnen nicht.",
       "structureContext": "Section[5] Traducir / card[28]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No, Roberto y Juan no hacen ejercicio.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0224"
     },
     {
@@ -2937,8 +2937,8 @@
       "current": "Roberto, vingro!",
       "deContext": "Robert, turne!",
       "structureContext": "Section[5] Traducir / card[29]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Roberto, vingro!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0225"
     },
     {
@@ -2950,8 +2950,8 @@
       "current": "Roberto y Jāni, ¡hagan ejercicio!",
       "deContext": "Robert und Johann, turnt!",
       "structureContext": "Section[5] Traducir / card[30]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Robert y Johann, ¡haced gimnasia!",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0226"
     },
     {
@@ -2963,8 +2963,8 @@
       "current": "¡Müller jaunkundze, vingrojiet!",
       "deContext": "Fräulein Müller, turnen Sie!",
       "structureContext": "Section[5] Traducir / card[31]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Müller jaunkundze, vingrojiet!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0227"
     },
     {
@@ -2976,8 +2976,8 @@
       "current": "¡Da dos pasos y luego quédate de pie!",
       "deContext": "Machen Sie zwei Schritte, und dann bleiben Sie stehen!",
       "structureContext": "Section[5] Traducir / card[32]",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Da dos pasos y luego quédate de pie!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0228"
     },
     {
@@ -2989,8 +2989,8 @@
       "current": "Texto / lectura",
       "deContext": "",
       "structureContext": "Section raw title: Texto / Lectura",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Texto / lectura",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0229"
     },
     {
@@ -3002,8 +3002,8 @@
       "current": "Nombres",
       "deContext": "",
       "structureContext": "Section raw title: Nombres",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Nombres",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0230"
     },
     {
@@ -3015,8 +3015,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Section raw title: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0231"
     },
     {
@@ -3028,8 +3028,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Section raw title: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0232"
     },
     {
@@ -3041,8 +3041,8 @@
       "current": "Ejercicio",
       "deContext": "",
       "structureContext": "Section raw title: Ejercicio",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0233"
     },
     {
@@ -3054,8 +3054,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Exercise flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0234"
     },
     {
@@ -3067,8 +3067,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0235"
     },
     {
@@ -3080,8 +3080,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0236"
     },
     {
@@ -3093,8 +3093,8 @@
       "current": "Ejercicio I — Usa la conjugación correcta",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio I — Usa la conjugación correcta",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0237"
     },
     {
@@ -3106,8 +3106,8 @@
       "current": "¡Pon la conjugación correcta y hazlo en plural!",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¡Pon la conjugación correcta y hazlo en plural!",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0238"
     },
     {
@@ -3119,8 +3119,8 @@
       "current": "Ahora responde en plural.",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ahora responde en plural.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0239"
     },
     {
@@ -3132,8 +3132,8 @@
       "current": "Ejercicio II — Traducir",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Ejercicio II — Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0240"
     },
     {
@@ -3145,8 +3145,8 @@
       "current": "Forma 1/3: Tu (singular)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 1/3: du (singular)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0241"
     },
     {
@@ -3158,8 +3158,8 @@
       "current": "Formulario 2/3: Tú (plural)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-13-0242"
     },
     {
@@ -3171,9 +3171,16 @@
       "current": "Formulario 3/3: Sie (forma decente)",
       "deContext": "",
       "structureContext": "Exercise UI label (shown when relevant)",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-13-0243"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 243,
+    "LABOT": 29,
+    "NELABOT": 214,
+    "unresolved": 0
+  }
 }
