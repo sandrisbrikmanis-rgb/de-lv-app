@@ -1,0 +1,109 @@
+{
+  "batchKey": "narrow-0136-0150",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0136",
+    "ES-A1A2-MICRO-OWNER-0137",
+    "ES-A1A2-MICRO-OWNER-0138",
+    "ES-A1A2-MICRO-OWNER-0139",
+    "ES-A1A2-MICRO-OWNER-0140",
+    "ES-A1A2-MICRO-OWNER-0141",
+    "ES-A1A2-MICRO-OWNER-0142",
+    "ES-A1A2-MICRO-OWNER-0143",
+    "ES-A1A2-MICRO-OWNER-0144",
+    "ES-A1A2-MICRO-OWNER-0145",
+    "ES-A1A2-MICRO-OWNER-0146",
+    "ES-A1A2-MICRO-OWNER-0147",
+    "ES-A1A2-MICRO-OWNER-0148",
+    "ES-A1A2-MICRO-OWNER-0149",
+    "ES-A1A2-MICRO-OWNER-0150"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0145",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "eben",
+      "pairedDe": "Er war eben noch hier.",
+      "currentEs": "Él todavía estaba aquí.",
+      "proposedEs": "Él todavía estaba aquí hace un momento.",
+      "reason": "Falta el matiz temporal de eben: indica que estaba aquí hace un momento.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0136",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0137",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0138",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0139",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0140",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0141",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0142",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0143",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0144",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0145",
+      "field": "lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "eben",
+      "pairedDe": "Er war eben noch hier.",
+      "currentEs": "Él todavía estaba aquí.",
+      "proposedEs": "Él todavía estaba aquí hace un momento.",
+      "reason": "Falta el matiz temporal de eben: indica que estaba aquí hace un momento.",
+      "confidence": 0.96,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0146",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0147",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0148",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0149",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0150",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 14,
+  "completedAt": "2026-08-26T06:12:08.980Z"
+}

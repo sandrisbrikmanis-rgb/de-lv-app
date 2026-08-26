@@ -1,0 +1,5241 @@
+{
+  "repository": "sandrisbrikmanis-rgb/de-lv-app",
+  "pr": 664,
+  "branch": "cursor/es-de-a1-a2-owner-apply-001-200-3141",
+  "head": "275b447b7e0e1e7283db17a532731db59f4e5d53",
+  "luna": {
+    "meta": {
+      "dataset": "es-a1-a2-narrow-post-micro-owner",
+      "startedAt": "2026-08-26T06:16:55.518Z",
+      "completedAt": "2026-08-26T06:16:55.522Z",
+      "model": "gpt-5.6-luna",
+      "requestedTargets": 237,
+      "processedTargets": 237,
+      "coverage": "100%",
+      "batchCount": 16,
+      "failedBatches": 0,
+      "retryBatches": 0,
+      "dataUnchanged": true
+    },
+    "batches": [
+      {
+        "batchKey": "narrow-0001-0015",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0001",
+          "ES-A1A2-MICRO-OWNER-0002",
+          "ES-A1A2-MICRO-OWNER-0003",
+          "ES-A1A2-MICRO-OWNER-0004",
+          "ES-A1A2-MICRO-OWNER-0005",
+          "ES-A1A2-MICRO-OWNER-0006",
+          "ES-A1A2-MICRO-OWNER-0007",
+          "ES-A1A2-MICRO-OWNER-0008",
+          "ES-A1A2-MICRO-OWNER-0009",
+          "ES-A1A2-MICRO-OWNER-0010",
+          "ES-A1A2-MICRO-OWNER-0011",
+          "ES-A1A2-MICRO-OWNER-0012",
+          "ES-A1A2-MICRO-OWNER-0013",
+          "ES-A1A2-MICRO-OWNER-0014",
+          "ES-A1A2-MICRO-OWNER-0015"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0001",
+            "cardId": "a1-bringen",
+            "field": "study.examples[0].lv",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "Bitte",
+            "pairedDe": "Ich bringe dir ein Buch.",
+            "currentEs": "Tráeme agua, por favor.",
+            "proposedEs": "Te traigo un libro.",
+            "reason": "La frase aplicada pide agua, pero el alemán expresa que traigo un libro para ti.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0002",
+            "cardId": "a1-bringen",
+            "field": "study.examples[1].lv",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "bringen",
+            "pairedDe": "Ich bringe das Paket zur Post.",
+            "currentEs": "Te llevaré a casa.",
+            "proposedEs": "Llevo el paquete a la oficina de correos.",
+            "reason": "La frase aplicada cambia el paquete y la oficina de correos por una persona y su casa.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0003",
+            "cardId": "a1-bringen",
+            "field": "study.examples[2].lv",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "bringen",
+            "pairedDe": "Ich bringe die Kinder zur Schule.",
+            "currentEs": "Lleva el libro a la escuela.",
+            "proposedEs": "Llevo a los niños a la escuela.",
+            "reason": "La frase aplicada menciona un libro y un imperativo; el alemán expresa que llevo a los niños a la escuela.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0006",
+            "cardId": "a1-dieser",
+            "field": "study.examples[1].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "dieser",
+            "pairedDe": "Ich sehe diesen Hund.",
+            "currentEs": "Me gusta este perro.",
+            "proposedEs": "Veo a este perro.",
+            "reason": "Me gusta significa que el perro agrada; el alemán expresa que veo a este perro.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0011",
+            "cardId": "a1-es",
+            "field": "study.examples[3].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "es",
+            "pairedDe": "Es ist müde.",
+            "currentEs": "Es mi libro.",
+            "proposedEs": "Está cansado.",
+            "reason": "La frase aplicada significa que es mi libro; el alemán expresa que algo está cansado.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0001",
+            "cardId": "a1-bringen",
+            "field": "study.examples[0].lv",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "Bitte",
+            "pairedDe": "Ich bringe dir ein Buch.",
+            "currentEs": "Tráeme agua, por favor.",
+            "proposedEs": "Te traigo un libro.",
+            "reason": "La frase aplicada pide agua, pero el alemán expresa que traigo un libro para ti.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0002",
+            "cardId": "a1-bringen",
+            "field": "study.examples[1].lv",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "bringen",
+            "pairedDe": "Ich bringe das Paket zur Post.",
+            "currentEs": "Te llevaré a casa.",
+            "proposedEs": "Llevo el paquete a la oficina de correos.",
+            "reason": "La frase aplicada cambia el paquete y la oficina de correos por una persona y su casa.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0003",
+            "cardId": "a1-bringen",
+            "field": "study.examples[2].lv",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "bringen",
+            "pairedDe": "Ich bringe die Kinder zur Schule.",
+            "currentEs": "Lleva el libro a la escuela.",
+            "proposedEs": "Llevo a los niños a la escuela.",
+            "reason": "La frase aplicada menciona un libro y un imperativo; el alemán expresa que llevo a los niños a la escuela.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0004",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0005",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0006",
+            "cardId": "a1-dieser",
+            "field": "study.examples[1].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "dieser",
+            "pairedDe": "Ich sehe diesen Hund.",
+            "currentEs": "Me gusta este perro.",
+            "proposedEs": "Veo a este perro.",
+            "reason": "Me gusta significa que el perro agrada; el alemán expresa que veo a este perro.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0007",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0008",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0009",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0010",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0011",
+            "cardId": "a1-es",
+            "field": "study.examples[3].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "es",
+            "pairedDe": "Es ist müde.",
+            "currentEs": "Es mi libro.",
+            "proposedEs": "Está cansado.",
+            "reason": "La frase aplicada significa que es mi libro; el alemán expresa que algo está cansado.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0012",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0013",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0014",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0015",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 10,
+        "completedAt": "2026-08-26T06:10:37.313Z"
+      },
+      {
+        "batchKey": "narrow-0016-0030",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0016",
+          "ES-A1A2-MICRO-OWNER-0017",
+          "ES-A1A2-MICRO-OWNER-0018",
+          "ES-A1A2-MICRO-OWNER-0019",
+          "ES-A1A2-MICRO-OWNER-0020",
+          "ES-A1A2-MICRO-OWNER-0021",
+          "ES-A1A2-MICRO-OWNER-0022",
+          "ES-A1A2-MICRO-OWNER-0023",
+          "ES-A1A2-MICRO-OWNER-0024",
+          "ES-A1A2-MICRO-OWNER-0025",
+          "ES-A1A2-MICRO-OWNER-0026",
+          "ES-A1A2-MICRO-OWNER-0027",
+          "ES-A1A2-MICRO-OWNER-0028",
+          "ES-A1A2-MICRO-OWNER-0029",
+          "ES-A1A2-MICRO-OWNER-0030"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0017",
+            "cardId": "a1-hand-study",
+            "field": "study.examples[2].lv",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "Hand",
+            "pairedDe": "Mein Arm tut weh.",
+            "currentEs": "Me duele la mano.",
+            "proposedEs": "Me duele el brazo.",
+            "reason": "El alemán dice «Mi brazo duele», no «Mi mano duele»; Arm y Hand son partes distintas del cuerpo.",
+            "confidence": "HIGH",
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0018",
+            "cardId": "a1-kosten",
+            "field": "study.examples[4].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "kosten",
+            "pairedDe": "Ich bezahle die Rechnung.",
+            "currentEs": "La cuenta tiene un precio.",
+            "proposedEs": "Pago la cuenta.",
+            "reason": "La frase alemana expresa que pago la cuenta, mientras que el español actual dice que la cuenta tiene un precio.",
+            "confidence": "HIGH",
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0026",
+            "cardId": "a1-laufen",
+            "field": "study.comparison[2].meaning",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "laufen",
+            "pairedDe": "Ich fahre mit dem Bus.",
+            "currentEs": "caminar o correr",
+            "proposedEs": "viajar en transporte",
+            "reason": "La comparación es para fahren: con «mit dem Bus» significa viajar en transporte, no caminar o correr.",
+            "confidence": "HIGH",
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0016",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0017",
+            "cardId": "a1-hand-study",
+            "field": "study.examples[2].lv",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "Hand",
+            "pairedDe": "Mein Arm tut weh.",
+            "currentEs": "Me duele la mano.",
+            "proposedEs": "Me duele el brazo.",
+            "reason": "El alemán dice «Mi brazo duele», no «Mi mano duele»; Arm y Hand son partes distintas del cuerpo.",
+            "confidence": "HIGH",
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0018",
+            "cardId": "a1-kosten",
+            "field": "study.examples[4].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "kosten",
+            "pairedDe": "Ich bezahle die Rechnung.",
+            "currentEs": "La cuenta tiene un precio.",
+            "proposedEs": "Pago la cuenta.",
+            "reason": "La frase alemana expresa que pago la cuenta, mientras que el español actual dice que la cuenta tiene un precio.",
+            "confidence": "HIGH",
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0019",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0020",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0021",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0022",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0023",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0024",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0025",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0026",
+            "cardId": "a1-laufen",
+            "field": "study.comparison[2].meaning",
+            "severity": "HIGH",
+            "category": "SEMANTICS",
+            "de": "laufen",
+            "pairedDe": "Ich fahre mit dem Bus.",
+            "currentEs": "caminar o correr",
+            "proposedEs": "viajar en transporte",
+            "reason": "La comparación es para fahren: con «mit dem Bus» significa viajar en transporte, no caminar o correr.",
+            "confidence": "HIGH",
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0027",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0028",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0029",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0030",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 12,
+        "completedAt": "2026-08-26T06:10:52.952Z"
+      },
+      {
+        "batchKey": "narrow-0031-0045",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0031",
+          "ES-A1A2-MICRO-OWNER-0032",
+          "ES-A1A2-MICRO-OWNER-0033",
+          "ES-A1A2-MICRO-OWNER-0034",
+          "ES-A1A2-MICRO-OWNER-0035",
+          "ES-A1A2-MICRO-OWNER-0036",
+          "ES-A1A2-MICRO-OWNER-0037",
+          "ES-A1A2-MICRO-OWNER-0038",
+          "ES-A1A2-MICRO-OWNER-0039",
+          "ES-A1A2-MICRO-OWNER-0040",
+          "ES-A1A2-MICRO-OWNER-0041",
+          "ES-A1A2-MICRO-OWNER-0042",
+          "ES-A1A2-MICRO-OWNER-0043",
+          "ES-A1A2-MICRO-OWNER-0044",
+          "ES-A1A2-MICRO-OWNER-0045"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0033",
+            "cardId": "a1-morgen-study",
+            "field": "study.examples[0].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "Morgen",
+            "pairedDe": "Guten Morgen!",
+            "currentEs": "Por la mañana.",
+            "proposedEs": "¡Buen día!",
+            "reason": "Traduce una indicación temporal, no el saludo alemán.",
+            "confidence": 0.98,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0034",
+            "cardId": "a1-morgen-study",
+            "field": "study.examples[3].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "Morgen",
+            "pairedDe": "Morgen ist Montag.",
+            "currentEs": "El lunes por la mañana trabajo.",
+            "proposedEs": "Mañana es lunes.",
+            "reason": "Añade trabajo y cambia el sentido de Morgen ist Montag: «mañana es lunes».",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0045",
+            "cardId": "a2-absagen",
+            "field": "study.comparison[0].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "absagen",
+            "pairedDe": "Ich sage den Termin ab.",
+            "currentEs": "cancelar / dar de baja una membresía",
+            "proposedEs": "cancelar",
+            "reason": "Absagen significa cancelar o anular citas y eventos, no dar de baja una membresía.",
+            "confidence": 0.96,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0031",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0032",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0033",
+            "cardId": "a1-morgen-study",
+            "field": "study.examples[0].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "Morgen",
+            "pairedDe": "Guten Morgen!",
+            "currentEs": "Por la mañana.",
+            "proposedEs": "¡Buen día!",
+            "reason": "Traduce una indicación temporal, no el saludo alemán.",
+            "confidence": 0.98,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0034",
+            "cardId": "a1-morgen-study",
+            "field": "study.examples[3].lv",
+            "severity": "HIGH",
+            "category": "TRANSLATION",
+            "de": "Morgen",
+            "pairedDe": "Morgen ist Montag.",
+            "currentEs": "El lunes por la mañana trabajo.",
+            "proposedEs": "Mañana es lunes.",
+            "reason": "Añade trabajo y cambia el sentido de Morgen ist Montag: «mañana es lunes».",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0035",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0036",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0037",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0038",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0039",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0040",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0041",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0042",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0043",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0044",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0045",
+            "cardId": "a2-absagen",
+            "field": "study.comparison[0].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "absagen",
+            "pairedDe": "Ich sage den Termin ab.",
+            "currentEs": "cancelar / dar de baja una membresía",
+            "proposedEs": "cancelar",
+            "reason": "Absagen significa cancelar o anular citas y eventos, no dar de baja una membresía.",
+            "confidence": 0.96,
+            "status": "FINDING"
+          }
+        ],
+        "passCount": 12,
+        "completedAt": "2026-08-26T06:11:05.050Z"
+      },
+      {
+        "batchKey": "narrow-0046-0060",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0046",
+          "ES-A1A2-MICRO-OWNER-0047",
+          "ES-A1A2-MICRO-OWNER-0048",
+          "ES-A1A2-MICRO-OWNER-0049",
+          "ES-A1A2-MICRO-OWNER-0050",
+          "ES-A1A2-MICRO-OWNER-0051",
+          "ES-A1A2-MICRO-OWNER-0052",
+          "ES-A1A2-MICRO-OWNER-0053",
+          "ES-A1A2-MICRO-OWNER-0054",
+          "ES-A1A2-MICRO-OWNER-0055",
+          "ES-A1A2-MICRO-OWNER-0056",
+          "ES-A1A2-MICRO-OWNER-0057",
+          "ES-A1A2-MICRO-OWNER-0058",
+          "ES-A1A2-MICRO-OWNER-0059",
+          "ES-A1A2-MICRO-OWNER-0060"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0056",
+            "cardId": "a2-anlegen",
+            "field": "study.examples[5].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "anlegen",
+            "pairedDe": "Der Arzt legt das Gerät an den Arm an.",
+            "currentEs": "El médico coloca el dispositivo en la mano.",
+            "proposedEs": "El médico coloca el dispositivo en el brazo.",
+            "reason": "El alemán especifica el brazo (Arm), pero la traducción aplicada indica la mano.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0046",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0047",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0048",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0049",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0050",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0051",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0052",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0053",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0054",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0055",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0056",
+            "cardId": "a2-anlegen",
+            "field": "study.examples[5].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "anlegen",
+            "pairedDe": "Der Arzt legt das Gerät an den Arm an.",
+            "currentEs": "El médico coloca el dispositivo en la mano.",
+            "proposedEs": "El médico coloca el dispositivo en el brazo.",
+            "reason": "El alemán especifica el brazo (Arm), pero la traducción aplicada indica la mano.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0057",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0058",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0059",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0060",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 14,
+        "completedAt": "2026-08-26T06:11:13.521Z"
+      },
+      {
+        "batchKey": "narrow-0061-0075",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0061",
+          "ES-A1A2-MICRO-OWNER-0062",
+          "ES-A1A2-MICRO-OWNER-0063",
+          "ES-A1A2-MICRO-OWNER-0064",
+          "ES-A1A2-MICRO-OWNER-0065",
+          "ES-A1A2-MICRO-OWNER-0066",
+          "ES-A1A2-MICRO-OWNER-0067",
+          "ES-A1A2-MICRO-OWNER-0068",
+          "ES-A1A2-MICRO-OWNER-0069",
+          "ES-A1A2-MICRO-OWNER-0070",
+          "ES-A1A2-MICRO-OWNER-0071",
+          "ES-A1A2-MICRO-OWNER-0072",
+          "ES-A1A2-MICRO-OWNER-0073",
+          "ES-A1A2-MICRO-OWNER-0074",
+          "ES-A1A2-MICRO-OWNER-0075"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0075",
+            "cardId": "a2-aufrufen",
+            "field": "study.examples[0].lv",
+            "severity": "MEDIUM",
+            "category": "NATURALNESS",
+            "de": "aufrufen",
+            "pairedDe": "Der Lehrer ruft meinen Namen auf.",
+            "currentEs": "El maestro llama mi nombre en voz alta.",
+            "proposedEs": "El maestro dice mi nombre en voz alta.",
+            "reason": "«Llamar mi nombre» no es una construcción idiomática; «decir mi nombre» expresa correctamente la acción.",
+            "confidence": 0.98,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0061",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0062",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0063",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0064",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0065",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0066",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0067",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0068",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0069",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0070",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0071",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0072",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0073",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0074",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0075",
+            "cardId": "a2-aufrufen",
+            "field": "study.examples[0].lv",
+            "severity": "MEDIUM",
+            "category": "NATURALNESS",
+            "de": "aufrufen",
+            "pairedDe": "Der Lehrer ruft meinen Namen auf.",
+            "currentEs": "El maestro llama mi nombre en voz alta.",
+            "proposedEs": "El maestro dice mi nombre en voz alta.",
+            "reason": "«Llamar mi nombre» no es una construcción idiomática; «decir mi nombre» expresa correctamente la acción.",
+            "confidence": 0.98,
+            "status": "FINDING"
+          }
+        ],
+        "passCount": 14,
+        "completedAt": "2026-08-26T06:11:21.626Z"
+      },
+      {
+        "batchKey": "narrow-0076-0090",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0076",
+          "ES-A1A2-MICRO-OWNER-0077",
+          "ES-A1A2-MICRO-OWNER-0078",
+          "ES-A1A2-MICRO-OWNER-0079",
+          "ES-A1A2-MICRO-OWNER-0080",
+          "ES-A1A2-MICRO-OWNER-0081",
+          "ES-A1A2-MICRO-OWNER-0082",
+          "ES-A1A2-MICRO-OWNER-0083",
+          "ES-A1A2-MICRO-OWNER-0084",
+          "ES-A1A2-MICRO-OWNER-0085",
+          "ES-A1A2-MICRO-OWNER-0086",
+          "ES-A1A2-MICRO-OWNER-0087",
+          "ES-A1A2-MICRO-OWNER-0088",
+          "ES-A1A2-MICRO-OWNER-0089",
+          "ES-A1A2-MICRO-OWNER-0090"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0078",
+            "cardId": "a2-aufrufen",
+            "field": "study.examples[4].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "aufrufen",
+            "pairedDe": "Der Moderator ruft die nächste Nummer auf.",
+            "currentEs": "El gerente llama al siguiente número.",
+            "proposedEs": "El moderador llama al siguiente número.",
+            "reason": "“Moderator” significa moderador, no gerente; la persona indicada no coincide con el alemán.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0080",
+            "cardId": "a2-aufzeichnen",
+            "field": "study.examples[3].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "aufzeichnen",
+            "pairedDe": "Der Arzt zeichnet die Werte auf.",
+            "currentEs": "El médico anota los indicadores.",
+            "proposedEs": "El médico anota los valores.",
+            "reason": "“Werte” significa valores o lecturas; “indicadores” cambia el referente del dato registrado.",
+            "confidence": 0.93,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0076",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0077",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0078",
+            "cardId": "a2-aufrufen",
+            "field": "study.examples[4].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "aufrufen",
+            "pairedDe": "Der Moderator ruft die nächste Nummer auf.",
+            "currentEs": "El gerente llama al siguiente número.",
+            "proposedEs": "El moderador llama al siguiente número.",
+            "reason": "“Moderator” significa moderador, no gerente; la persona indicada no coincide con el alemán.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0079",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0080",
+            "cardId": "a2-aufzeichnen",
+            "field": "study.examples[3].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "aufzeichnen",
+            "pairedDe": "Der Arzt zeichnet die Werte auf.",
+            "currentEs": "El médico anota los indicadores.",
+            "proposedEs": "El médico anota los valores.",
+            "reason": "“Werte” significa valores o lecturas; “indicadores” cambia el referente del dato registrado.",
+            "confidence": 0.93,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0081",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0082",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0083",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0084",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0085",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0086",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0087",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0088",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0089",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0090",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 13,
+        "completedAt": "2026-08-26T06:11:31.320Z"
+      },
+      {
+        "batchKey": "narrow-0091-0105",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0091",
+          "ES-A1A2-MICRO-OWNER-0092",
+          "ES-A1A2-MICRO-OWNER-0093",
+          "ES-A1A2-MICRO-OWNER-0094",
+          "ES-A1A2-MICRO-OWNER-0095",
+          "ES-A1A2-MICRO-OWNER-0096",
+          "ES-A1A2-MICRO-OWNER-0097",
+          "ES-A1A2-MICRO-OWNER-0098",
+          "ES-A1A2-MICRO-OWNER-0099",
+          "ES-A1A2-MICRO-OWNER-0100",
+          "ES-A1A2-MICRO-OWNER-0101",
+          "ES-A1A2-MICRO-OWNER-0102",
+          "ES-A1A2-MICRO-OWNER-0103",
+          "ES-A1A2-MICRO-OWNER-0104",
+          "ES-A1A2-MICRO-OWNER-0105"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0094",
+            "cardId": "a2-becher",
+            "field": "study.examples[2].lv",
+            "severity": "MEDIUM",
+            "category": "GRAMMAR",
+            "de": "Bitte wirf den Pappbecher weg.",
+            "pairedDe": "Bitte wirf den Pappbecher weg.",
+            "currentEs": "Por favor, deseche el vaso de cartón.",
+            "proposedEs": "Por favor, desecha el vaso de cartón.",
+            "reason": "“Wirf” is informal second-person singular; “deseche” uses formal usted instead of informal tú.",
+            "confidence": 0.98,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0091",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0092",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0093",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0094",
+            "cardId": "a2-becher",
+            "field": "study.examples[2].lv",
+            "severity": "MEDIUM",
+            "category": "GRAMMAR",
+            "de": "Bitte wirf den Pappbecher weg.",
+            "pairedDe": "Bitte wirf den Pappbecher weg.",
+            "currentEs": "Por favor, deseche el vaso de cartón.",
+            "proposedEs": "Por favor, desecha el vaso de cartón.",
+            "reason": "“Wirf” is informal second-person singular; “deseche” uses formal usted instead of informal tú.",
+            "confidence": 0.98,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0095",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0096",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0097",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0098",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0099",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0100",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0101",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0102",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0103",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0104",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0105",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 14,
+        "completedAt": "2026-08-26T06:11:41.939Z"
+      },
+      {
+        "batchKey": "narrow-0106-0120",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0106",
+          "ES-A1A2-MICRO-OWNER-0107",
+          "ES-A1A2-MICRO-OWNER-0108",
+          "ES-A1A2-MICRO-OWNER-0109",
+          "ES-A1A2-MICRO-OWNER-0110",
+          "ES-A1A2-MICRO-OWNER-0111",
+          "ES-A1A2-MICRO-OWNER-0112",
+          "ES-A1A2-MICRO-OWNER-0113",
+          "ES-A1A2-MICRO-OWNER-0114",
+          "ES-A1A2-MICRO-OWNER-0115",
+          "ES-A1A2-MICRO-OWNER-0116",
+          "ES-A1A2-MICRO-OWNER-0117",
+          "ES-A1A2-MICRO-OWNER-0118",
+          "ES-A1A2-MICRO-OWNER-0119",
+          "ES-A1A2-MICRO-OWNER-0120"
+        ],
+        "targetCount": 15,
+        "findings": [],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0106",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0107",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0108",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0109",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0110",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0111",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0112",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0113",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0114",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0115",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0116",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0117",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0118",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0119",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0120",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 15,
+        "completedAt": "2026-08-26T06:11:47.126Z"
+      },
+      {
+        "batchKey": "narrow-0121-0135",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0121",
+          "ES-A1A2-MICRO-OWNER-0122",
+          "ES-A1A2-MICRO-OWNER-0123",
+          "ES-A1A2-MICRO-OWNER-0124",
+          "ES-A1A2-MICRO-OWNER-0125",
+          "ES-A1A2-MICRO-OWNER-0126",
+          "ES-A1A2-MICRO-OWNER-0127",
+          "ES-A1A2-MICRO-OWNER-0128",
+          "ES-A1A2-MICRO-OWNER-0129",
+          "ES-A1A2-MICRO-OWNER-0130",
+          "ES-A1A2-MICRO-OWNER-0131",
+          "ES-A1A2-MICRO-OWNER-0132",
+          "ES-A1A2-MICRO-OWNER-0133",
+          "ES-A1A2-MICRO-OWNER-0134",
+          "ES-A1A2-MICRO-OWNER-0135"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0135",
+            "cardId": "a2-drücken",
+            "field": "study.examples[1].lv",
+            "severity": "MEDIUM",
+            "category": "TRANSLATION",
+            "de": "Bitte hier drücken.",
+            "pairedDe": "Bitte hier drücken.",
+            "currentEs": "Por favor, haga clic aquí.",
+            "proposedEs": "Por favor, presione aquí.",
+            "reason": "Drücken con un botón significa presionar; «hacer clic» traduce klicken y cambia la acción indicada.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0121",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0122",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0123",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0124",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0125",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0126",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0127",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0128",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0129",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0130",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0131",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0132",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0133",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0134",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0135",
+            "cardId": "a2-drücken",
+            "field": "study.examples[1].lv",
+            "severity": "MEDIUM",
+            "category": "TRANSLATION",
+            "de": "Bitte hier drücken.",
+            "pairedDe": "Bitte hier drücken.",
+            "currentEs": "Por favor, haga clic aquí.",
+            "proposedEs": "Por favor, presione aquí.",
+            "reason": "Drücken con un botón significa presionar; «hacer clic» traduce klicken y cambia la acción indicada.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          }
+        ],
+        "passCount": 14,
+        "completedAt": "2026-08-26T06:11:57.065Z"
+      },
+      {
+        "batchKey": "narrow-0136-0150",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0136",
+          "ES-A1A2-MICRO-OWNER-0137",
+          "ES-A1A2-MICRO-OWNER-0138",
+          "ES-A1A2-MICRO-OWNER-0139",
+          "ES-A1A2-MICRO-OWNER-0140",
+          "ES-A1A2-MICRO-OWNER-0141",
+          "ES-A1A2-MICRO-OWNER-0142",
+          "ES-A1A2-MICRO-OWNER-0143",
+          "ES-A1A2-MICRO-OWNER-0144",
+          "ES-A1A2-MICRO-OWNER-0145",
+          "ES-A1A2-MICRO-OWNER-0146",
+          "ES-A1A2-MICRO-OWNER-0147",
+          "ES-A1A2-MICRO-OWNER-0148",
+          "ES-A1A2-MICRO-OWNER-0149",
+          "ES-A1A2-MICRO-OWNER-0150"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0145",
+            "field": "lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "eben",
+            "pairedDe": "Er war eben noch hier.",
+            "currentEs": "Él todavía estaba aquí.",
+            "proposedEs": "Él todavía estaba aquí hace un momento.",
+            "reason": "Falta el matiz temporal de eben: indica que estaba aquí hace un momento.",
+            "confidence": 0.96,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0136",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0137",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0138",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0139",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0140",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0141",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0142",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0143",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0144",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0145",
+            "field": "lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "eben",
+            "pairedDe": "Er war eben noch hier.",
+            "currentEs": "Él todavía estaba aquí.",
+            "proposedEs": "Él todavía estaba aquí hace un momento.",
+            "reason": "Falta el matiz temporal de eben: indica que estaba aquí hace un momento.",
+            "confidence": 0.96,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0146",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0147",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0148",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0149",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0150",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 14,
+        "completedAt": "2026-08-26T06:12:08.980Z"
+      },
+      {
+        "batchKey": "narrow-0151-0165",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0151",
+          "ES-A1A2-MICRO-OWNER-0152",
+          "ES-A1A2-MICRO-OWNER-0153",
+          "ES-A1A2-MICRO-OWNER-0154",
+          "ES-A1A2-MICRO-OWNER-0155",
+          "ES-A1A2-MICRO-OWNER-0156",
+          "ES-A1A2-MICRO-OWNER-0157",
+          "ES-A1A2-MICRO-OWNER-0158",
+          "ES-A1A2-MICRO-OWNER-0159",
+          "ES-A1A2-MICRO-OWNER-0160",
+          "ES-A1A2-MICRO-OWNER-0161",
+          "ES-A1A2-MICRO-OWNER-0162",
+          "ES-A1A2-MICRO-OWNER-0163",
+          "ES-A1A2-MICRO-OWNER-0164",
+          "ES-A1A2-MICRO-OWNER-0165"
+        ],
+        "targetCount": 15,
+        "findings": [],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0151",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0152",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0153",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0154",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0155",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0156",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0157",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0158",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0159",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0160",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0161",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0162",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0163",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0164",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0165",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 15,
+        "completedAt": "2026-08-26T06:12:17.380Z"
+      },
+      {
+        "batchKey": "narrow-0166-0180",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0166",
+          "ES-A1A2-MICRO-OWNER-0167",
+          "ES-A1A2-MICRO-OWNER-0168",
+          "ES-A1A2-MICRO-OWNER-0169",
+          "ES-A1A2-MICRO-OWNER-0170",
+          "ES-A1A2-MICRO-OWNER-0171",
+          "ES-A1A2-MICRO-OWNER-0172",
+          "ES-A1A2-MICRO-OWNER-0173",
+          "ES-A1A2-MICRO-OWNER-0174",
+          "ES-A1A2-MICRO-OWNER-0175",
+          "ES-A1A2-MICRO-OWNER-0176",
+          "ES-A1A2-MICRO-OWNER-0177",
+          "ES-A1A2-MICRO-OWNER-0178",
+          "ES-A1A2-MICRO-OWNER-0179",
+          "ES-A1A2-MICRO-OWNER-0180"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0173",
+            "cardId": "a2-hängen",
+            "field": "study.examples[4].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "hängen",
+            "pairedDe": "Der Schlüssel hängt neben der Tür.",
+            "currentEs": "La llave cuelga de la puerta.",
+            "proposedEs": "La llave cuelga junto a la puerta.",
+            "reason": "De la puerta significa que la llave cuelga de ella, no que está al lado de la puerta como indica neben.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0166",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0167",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0168",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0169",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0170",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0171",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0172",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0173",
+            "cardId": "a2-hängen",
+            "field": "study.examples[4].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "hängen",
+            "pairedDe": "Der Schlüssel hängt neben der Tür.",
+            "currentEs": "La llave cuelga de la puerta.",
+            "proposedEs": "La llave cuelga junto a la puerta.",
+            "reason": "De la puerta significa que la llave cuelga de ella, no que está al lado de la puerta como indica neben.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0174",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0175",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0176",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0177",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0178",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0179",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0180",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 14,
+        "completedAt": "2026-08-26T06:12:24.822Z"
+      },
+      {
+        "batchKey": "narrow-0181-0195",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0181",
+          "ES-A1A2-MICRO-OWNER-0182",
+          "ES-A1A2-MICRO-OWNER-0183",
+          "ES-A1A2-MICRO-OWNER-0184",
+          "ES-A1A2-MICRO-OWNER-0185",
+          "ES-A1A2-MICRO-OWNER-0186",
+          "ES-A1A2-MICRO-OWNER-0187",
+          "ES-A1A2-MICRO-OWNER-0188",
+          "ES-A1A2-MICRO-OWNER-0189",
+          "ES-A1A2-MICRO-OWNER-0190",
+          "ES-A1A2-MICRO-OWNER-0191",
+          "ES-A1A2-MICRO-OWNER-0192",
+          "ES-A1A2-MICRO-OWNER-0193",
+          "ES-A1A2-MICRO-OWNER-0194",
+          "ES-A1A2-MICRO-OWNER-0195"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0192",
+            "cardId": "a2-schloss",
+            "field": "study.comparison[4].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "Schloss",
+            "pairedDe": "Der Schlüssel",
+            "currentEs": "la cerradura",
+            "proposedEs": "la llave",
+            "reason": "Der Schlüssel significa «la llave», no «la cerradura».",
+            "confidence": 0.99,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0181",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0182",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0183",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0184",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0185",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0186",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0187",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0188",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0189",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0190",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0191",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0192",
+            "cardId": "a2-schloss",
+            "field": "study.comparison[4].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "Schloss",
+            "pairedDe": "Der Schlüssel",
+            "currentEs": "la cerradura",
+            "proposedEs": "la llave",
+            "reason": "Der Schlüssel significa «la llave», no «la cerradura».",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0193",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0194",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0195",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 14,
+        "completedAt": "2026-08-26T06:12:34.115Z"
+      },
+      {
+        "batchKey": "narrow-0196-0210",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0196",
+          "ES-A1A2-MICRO-OWNER-0197",
+          "ES-A1A2-MICRO-OWNER-0198",
+          "ES-A1A2-MICRO-OWNER-0199",
+          "ES-A1A2-MICRO-OWNER-0200",
+          "ES-A1A2-MICRO-OWNER-0201",
+          "ES-A1A2-MICRO-OWNER-0202",
+          "ES-A1A2-MICRO-OWNER-0203",
+          "ES-A1A2-MICRO-OWNER-0204",
+          "ES-A1A2-MICRO-OWNER-0205",
+          "ES-A1A2-MICRO-OWNER-0206",
+          "ES-A1A2-MICRO-OWNER-0207",
+          "ES-A1A2-MICRO-OWNER-0208",
+          "ES-A1A2-MICRO-OWNER-0209",
+          "ES-A1A2-MICRO-OWNER-0210"
+        ],
+        "targetCount": 15,
+        "findings": [],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0196",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0197",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0198",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0199",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0200",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0201",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0202",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0203",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0204",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0205",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0206",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0207",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0208",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0209",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0210",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 15,
+        "completedAt": "2026-08-26T06:12:41.155Z"
+      },
+      {
+        "batchKey": "narrow-0211-0225",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0211",
+          "ES-A1A2-MICRO-OWNER-0212",
+          "ES-A1A2-MICRO-OWNER-0213",
+          "ES-A1A2-MICRO-OWNER-0214",
+          "ES-A1A2-MICRO-OWNER-0215",
+          "ES-A1A2-MICRO-OWNER-0216",
+          "ES-A1A2-MICRO-OWNER-0217",
+          "ES-A1A2-MICRO-OWNER-0218",
+          "ES-A1A2-MICRO-OWNER-0219",
+          "ES-A1A2-MICRO-OWNER-0220",
+          "ES-A1A2-MICRO-OWNER-0221",
+          "ES-A1A2-MICRO-OWNER-0222",
+          "ES-A1A2-MICRO-OWNER-0223",
+          "ES-A1A2-MICRO-OWNER-0224",
+          "ES-A1A2-MICRO-OWNER-0225"
+        ],
+        "targetCount": 15,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0214",
+            "cardId": "a2-wert",
+            "field": "study.comparison[2].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "teuer",
+            "pairedDe": "Das Auto ist teuer.",
+            "currentEs": "valioso",
+            "proposedEs": "caro",
+            "reason": "«teuer» significa «caro», no «valioso».",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0215",
+            "cardId": "a2-wert",
+            "field": "study.comparison[3].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "sehenswert",
+            "pairedDe": "Die Stadt ist sehenswert.",
+            "currentEs": "valioso",
+            "proposedEs": "digno de ver",
+            "reason": "«sehenswert» significa «digno de ver»; «valioso» no expresa que merezca la pena verla.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0217",
+            "cardId": "a2-wiegen",
+            "field": "study.comparison[4].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "der Wagen",
+            "pairedDe": "Der Wagen ist neu.",
+            "currentEs": "peso",
+            "proposedEs": "coche/vagón",
+            "reason": "«der Wagen» significa «coche» o «vagón», no «peso».",
+            "confidence": 0.99,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0211",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0212",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0213",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0214",
+            "cardId": "a2-wert",
+            "field": "study.comparison[2].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "teuer",
+            "pairedDe": "Das Auto ist teuer.",
+            "currentEs": "valioso",
+            "proposedEs": "caro",
+            "reason": "«teuer» significa «caro», no «valioso».",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0215",
+            "cardId": "a2-wert",
+            "field": "study.comparison[3].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "sehenswert",
+            "pairedDe": "Die Stadt ist sehenswert.",
+            "currentEs": "valioso",
+            "proposedEs": "digno de ver",
+            "reason": "«sehenswert» significa «digno de ver»; «valioso» no expresa que merezca la pena verla.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0216",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0217",
+            "cardId": "a2-wiegen",
+            "field": "study.comparison[4].meaning",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "der Wagen",
+            "pairedDe": "Der Wagen ist neu.",
+            "currentEs": "peso",
+            "proposedEs": "coche/vagón",
+            "reason": "«der Wagen» significa «coche» o «vagón», no «peso».",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0218",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0219",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0220",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0221",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0222",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0223",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0224",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0225",
+            "status": "PASS"
+          }
+        ],
+        "passCount": 12,
+        "completedAt": "2026-08-26T06:12:54.186Z"
+      },
+      {
+        "batchKey": "narrow-0226-0237",
+        "targetIds": [
+          "ES-A1A2-MICRO-OWNER-0226",
+          "ES-A1A2-MICRO-OWNER-0227",
+          "ES-A1A2-MICRO-OWNER-0228",
+          "ES-A1A2-MICRO-OWNER-0229",
+          "ES-A1A2-MICRO-OWNER-0230",
+          "ES-A1A2-MICRO-OWNER-0231",
+          "ES-A1A2-MICRO-OWNER-0232",
+          "ES-A1A2-MICRO-OWNER-0233",
+          "ES-A1A2-MICRO-OWNER-0234",
+          "ES-A1A2-MICRO-OWNER-0235",
+          "ES-A1A2-MICRO-OWNER-0236",
+          "ES-A1A2-MICRO-OWNER-0237"
+        ],
+        "targetCount": 12,
+        "findings": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0228",
+            "cardId": "a2-absagen",
+            "field": "study.examples[2].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "absagen",
+            "pairedDe": "Er hat seine Teilnahme abgesagt.",
+            "currentEs": "Canceló la membresía.",
+            "proposedEs": "Canceló su participación.",
+            "reason": "Membresía significa Mitgliedschaft; Teilnahme significa participación, no membresía.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0236",
+            "cardId": "a2-tafel",
+            "field": "study.examples[1].lv",
+            "severity": "MEDIUM",
+            "category": "GRAMMAR",
+            "de": "Tafel",
+            "pairedDe": "Bitte wisch die Tafel ab.",
+            "currentEs": "Por favor, limpie la pizarra.",
+            "proposedEs": "Por favor, limpia la pizarra.",
+            "reason": "Wisch es imperativo informal de segunda persona singular; limpie usa usted, no tú.",
+            "confidence": 0.98,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0237",
+            "cardId": "a2-urlaub-study",
+            "field": "study.examples[4].lv",
+            "severity": "MEDIUM",
+            "category": "TRANSLATION",
+            "de": "Urlaub",
+            "pairedDe": "im Urlaub",
+            "currentEs": "Vacaciones del trabajo.",
+            "proposedEs": "De vacaciones.",
+            "reason": "La frase no expresa estar de vacaciones y suena a vacaciones pertenecientes al trabajo.",
+            "confidence": 0.97,
+            "status": "FINDING"
+          }
+        ],
+        "results": [
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0226",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0227",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0228",
+            "cardId": "a2-absagen",
+            "field": "study.examples[2].lv",
+            "severity": "MEDIUM",
+            "category": "SEMANTICS",
+            "de": "absagen",
+            "pairedDe": "Er hat seine Teilnahme abgesagt.",
+            "currentEs": "Canceló la membresía.",
+            "proposedEs": "Canceló su participación.",
+            "reason": "Membresía significa Mitgliedschaft; Teilnahme significa participación, no membresía.",
+            "confidence": 0.99,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0229",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0230",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0231",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0232",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0233",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0234",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0235",
+            "status": "PASS"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0236",
+            "cardId": "a2-tafel",
+            "field": "study.examples[1].lv",
+            "severity": "MEDIUM",
+            "category": "GRAMMAR",
+            "de": "Tafel",
+            "pairedDe": "Bitte wisch die Tafel ab.",
+            "currentEs": "Por favor, limpie la pizarra.",
+            "proposedEs": "Por favor, limpia la pizarra.",
+            "reason": "Wisch es imperativo informal de segunda persona singular; limpie usa usted, no tú.",
+            "confidence": 0.98,
+            "status": "FINDING"
+          },
+          {
+            "targetId": "ES-A1A2-MICRO-OWNER-0237",
+            "cardId": "a2-urlaub-study",
+            "field": "study.examples[4].lv",
+            "severity": "MEDIUM",
+            "category": "TRANSLATION",
+            "de": "Urlaub",
+            "pairedDe": "im Urlaub",
+            "currentEs": "Vacaciones del trabajo.",
+            "proposedEs": "De vacaciones.",
+            "reason": "La frase no expresa estar de vacaciones y suena a vacaciones pertenecientes al trabajo.",
+            "confidence": 0.97,
+            "status": "FINDING"
+          }
+        ],
+        "passCount": 9,
+        "completedAt": "2026-08-26T06:13:08.680Z"
+      }
+    ],
+    "rawFindings": [
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0001",
+        "cardId": "a1-bringen",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "Bitte",
+        "pairedDe": "Ich bringe dir ein Buch.",
+        "currentEs": "Tráeme agua, por favor.",
+        "proposedEs": "Te traigo un libro.",
+        "reason": "La frase aplicada pide agua, pero el alemán expresa que traigo un libro para ti.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0002",
+        "cardId": "a1-bringen",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "bringen",
+        "pairedDe": "Ich bringe das Paket zur Post.",
+        "currentEs": "Te llevaré a casa.",
+        "proposedEs": "Llevo el paquete a la oficina de correos.",
+        "reason": "La frase aplicada cambia el paquete y la oficina de correos por una persona y su casa.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0003",
+        "cardId": "a1-bringen",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "bringen",
+        "pairedDe": "Ich bringe die Kinder zur Schule.",
+        "currentEs": "Lleva el libro a la escuela.",
+        "proposedEs": "Llevo a los niños a la escuela.",
+        "reason": "La frase aplicada menciona un libro y un imperativo; el alemán expresa que llevo a los niños a la escuela.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0006",
+        "cardId": "a1-dieser",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "dieser",
+        "pairedDe": "Ich sehe diesen Hund.",
+        "currentEs": "Me gusta este perro.",
+        "proposedEs": "Veo a este perro.",
+        "reason": "Me gusta significa que el perro agrada; el alemán expresa que veo a este perro.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0011",
+        "cardId": "a1-es",
+        "field": "study.examples[3].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "es",
+        "pairedDe": "Es ist müde.",
+        "currentEs": "Es mi libro.",
+        "proposedEs": "Está cansado.",
+        "reason": "La frase aplicada significa que es mi libro; el alemán expresa que algo está cansado.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0017",
+        "cardId": "a1-hand-study",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "Hand",
+        "pairedDe": "Mein Arm tut weh.",
+        "currentEs": "Me duele la mano.",
+        "proposedEs": "Me duele el brazo.",
+        "reason": "El alemán dice «Mi brazo duele», no «Mi mano duele»; Arm y Hand son partes distintas del cuerpo.",
+        "confidence": "HIGH",
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0018",
+        "cardId": "a1-kosten",
+        "field": "study.examples[4].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "kosten",
+        "pairedDe": "Ich bezahle die Rechnung.",
+        "currentEs": "La cuenta tiene un precio.",
+        "proposedEs": "Pago la cuenta.",
+        "reason": "La frase alemana expresa que pago la cuenta, mientras que el español actual dice que la cuenta tiene un precio.",
+        "confidence": "HIGH",
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0026",
+        "cardId": "a1-laufen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "laufen",
+        "pairedDe": "Ich fahre mit dem Bus.",
+        "currentEs": "caminar o correr",
+        "proposedEs": "viajar en transporte",
+        "reason": "La comparación es para fahren: con «mit dem Bus» significa viajar en transporte, no caminar o correr.",
+        "confidence": "HIGH",
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0033",
+        "cardId": "a1-morgen-study",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "Morgen",
+        "pairedDe": "Guten Morgen!",
+        "currentEs": "Por la mañana.",
+        "proposedEs": "¡Buen día!",
+        "reason": "Traduce una indicación temporal, no el saludo alemán.",
+        "confidence": 0.98,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0034",
+        "cardId": "a1-morgen-study",
+        "field": "study.examples[3].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "Morgen",
+        "pairedDe": "Morgen ist Montag.",
+        "currentEs": "El lunes por la mañana trabajo.",
+        "proposedEs": "Mañana es lunes.",
+        "reason": "Añade trabajo y cambia el sentido de Morgen ist Montag: «mañana es lunes».",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0045",
+        "cardId": "a2-absagen",
+        "field": "study.comparison[0].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "absagen",
+        "pairedDe": "Ich sage den Termin ab.",
+        "currentEs": "cancelar / dar de baja una membresía",
+        "proposedEs": "cancelar",
+        "reason": "Absagen significa cancelar o anular citas y eventos, no dar de baja una membresía.",
+        "confidence": 0.96,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0056",
+        "cardId": "a2-anlegen",
+        "field": "study.examples[5].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "anlegen",
+        "pairedDe": "Der Arzt legt das Gerät an den Arm an.",
+        "currentEs": "El médico coloca el dispositivo en la mano.",
+        "proposedEs": "El médico coloca el dispositivo en el brazo.",
+        "reason": "El alemán especifica el brazo (Arm), pero la traducción aplicada indica la mano.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0075",
+        "cardId": "a2-aufrufen",
+        "field": "study.examples[0].lv",
+        "severity": "MEDIUM",
+        "category": "NATURALNESS",
+        "de": "aufrufen",
+        "pairedDe": "Der Lehrer ruft meinen Namen auf.",
+        "currentEs": "El maestro llama mi nombre en voz alta.",
+        "proposedEs": "El maestro dice mi nombre en voz alta.",
+        "reason": "«Llamar mi nombre» no es una construcción idiomática; «decir mi nombre» expresa correctamente la acción.",
+        "confidence": 0.98,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0078",
+        "cardId": "a2-aufrufen",
+        "field": "study.examples[4].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "aufrufen",
+        "pairedDe": "Der Moderator ruft die nächste Nummer auf.",
+        "currentEs": "El gerente llama al siguiente número.",
+        "proposedEs": "El moderador llama al siguiente número.",
+        "reason": "“Moderator” significa moderador, no gerente; la persona indicada no coincide con el alemán.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0080",
+        "cardId": "a2-aufzeichnen",
+        "field": "study.examples[3].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "aufzeichnen",
+        "pairedDe": "Der Arzt zeichnet die Werte auf.",
+        "currentEs": "El médico anota los indicadores.",
+        "proposedEs": "El médico anota los valores.",
+        "reason": "“Werte” significa valores o lecturas; “indicadores” cambia el referente del dato registrado.",
+        "confidence": 0.93,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0094",
+        "cardId": "a2-becher",
+        "field": "study.examples[2].lv",
+        "severity": "MEDIUM",
+        "category": "GRAMMAR",
+        "de": "Bitte wirf den Pappbecher weg.",
+        "pairedDe": "Bitte wirf den Pappbecher weg.",
+        "currentEs": "Por favor, deseche el vaso de cartón.",
+        "proposedEs": "Por favor, desecha el vaso de cartón.",
+        "reason": "“Wirf” is informal second-person singular; “deseche” uses formal usted instead of informal tú.",
+        "confidence": 0.98,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0135",
+        "cardId": "a2-drücken",
+        "field": "study.examples[1].lv",
+        "severity": "MEDIUM",
+        "category": "TRANSLATION",
+        "de": "Bitte hier drücken.",
+        "pairedDe": "Bitte hier drücken.",
+        "currentEs": "Por favor, haga clic aquí.",
+        "proposedEs": "Por favor, presione aquí.",
+        "reason": "Drücken con un botón significa presionar; «hacer clic» traduce klicken y cambia la acción indicada.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0145",
+        "field": "lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "eben",
+        "pairedDe": "Er war eben noch hier.",
+        "currentEs": "Él todavía estaba aquí.",
+        "proposedEs": "Él todavía estaba aquí hace un momento.",
+        "reason": "Falta el matiz temporal de eben: indica que estaba aquí hace un momento.",
+        "confidence": 0.96,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0173",
+        "cardId": "a2-hängen",
+        "field": "study.examples[4].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "hängen",
+        "pairedDe": "Der Schlüssel hängt neben der Tür.",
+        "currentEs": "La llave cuelga de la puerta.",
+        "proposedEs": "La llave cuelga junto a la puerta.",
+        "reason": "De la puerta significa que la llave cuelga de ella, no que está al lado de la puerta como indica neben.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0192",
+        "cardId": "a2-schloss",
+        "field": "study.comparison[4].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "Schloss",
+        "pairedDe": "Der Schlüssel",
+        "currentEs": "la cerradura",
+        "proposedEs": "la llave",
+        "reason": "Der Schlüssel significa «la llave», no «la cerradura».",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0214",
+        "cardId": "a2-wert",
+        "field": "study.comparison[2].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "teuer",
+        "pairedDe": "Das Auto ist teuer.",
+        "currentEs": "valioso",
+        "proposedEs": "caro",
+        "reason": "«teuer» significa «caro», no «valioso».",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0215",
+        "cardId": "a2-wert",
+        "field": "study.comparison[3].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "sehenswert",
+        "pairedDe": "Die Stadt ist sehenswert.",
+        "currentEs": "valioso",
+        "proposedEs": "digno de ver",
+        "reason": "«sehenswert» significa «digno de ver»; «valioso» no expresa que merezca la pena verla.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0217",
+        "cardId": "a2-wiegen",
+        "field": "study.comparison[4].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "der Wagen",
+        "pairedDe": "Der Wagen ist neu.",
+        "currentEs": "peso",
+        "proposedEs": "coche/vagón",
+        "reason": "«der Wagen» significa «coche» o «vagón», no «peso».",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0228",
+        "cardId": "a2-absagen",
+        "field": "study.examples[2].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "absagen",
+        "pairedDe": "Er hat seine Teilnahme abgesagt.",
+        "currentEs": "Canceló la membresía.",
+        "proposedEs": "Canceló su participación.",
+        "reason": "Membresía significa Mitgliedschaft; Teilnahme significa participación, no membresía.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0236",
+        "cardId": "a2-tafel",
+        "field": "study.examples[1].lv",
+        "severity": "MEDIUM",
+        "category": "GRAMMAR",
+        "de": "Tafel",
+        "pairedDe": "Bitte wisch die Tafel ab.",
+        "currentEs": "Por favor, limpie la pizarra.",
+        "proposedEs": "Por favor, limpia la pizarra.",
+        "reason": "Wisch es imperativo informal de segunda persona singular; limpie usa usted, no tú.",
+        "confidence": 0.98,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0237",
+        "cardId": "a2-urlaub-study",
+        "field": "study.examples[4].lv",
+        "severity": "MEDIUM",
+        "category": "TRANSLATION",
+        "de": "Urlaub",
+        "pairedDe": "im Urlaub",
+        "currentEs": "Vacaciones del trabajo.",
+        "proposedEs": "De vacaciones.",
+        "reason": "La frase no expresa estar de vacaciones y suena a vacaciones pertenecientes al trabajo.",
+        "confidence": 0.97,
+        "status": "FINDING"
+      }
+    ],
+    "results": [
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0001",
+        "cardId": "a1-bringen",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "Bitte",
+        "pairedDe": "Ich bringe dir ein Buch.",
+        "currentEs": "Tráeme agua, por favor.",
+        "proposedEs": "Te traigo un libro.",
+        "reason": "La frase aplicada pide agua, pero el alemán expresa que traigo un libro para ti.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0002",
+        "cardId": "a1-bringen",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "bringen",
+        "pairedDe": "Ich bringe das Paket zur Post.",
+        "currentEs": "Te llevaré a casa.",
+        "proposedEs": "Llevo el paquete a la oficina de correos.",
+        "reason": "La frase aplicada cambia el paquete y la oficina de correos por una persona y su casa.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0003",
+        "cardId": "a1-bringen",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "bringen",
+        "pairedDe": "Ich bringe die Kinder zur Schule.",
+        "currentEs": "Lleva el libro a la escuela.",
+        "proposedEs": "Llevo a los niños a la escuela.",
+        "reason": "La frase aplicada menciona un libro y un imperativo; el alemán expresa que llevo a los niños a la escuela.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0004",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0005",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0006",
+        "cardId": "a1-dieser",
+        "field": "study.examples[1].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "dieser",
+        "pairedDe": "Ich sehe diesen Hund.",
+        "currentEs": "Me gusta este perro.",
+        "proposedEs": "Veo a este perro.",
+        "reason": "Me gusta significa que el perro agrada; el alemán expresa que veo a este perro.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0007",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0008",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0009",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0010",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0011",
+        "cardId": "a1-es",
+        "field": "study.examples[3].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "es",
+        "pairedDe": "Es ist müde.",
+        "currentEs": "Es mi libro.",
+        "proposedEs": "Está cansado.",
+        "reason": "La frase aplicada significa que es mi libro; el alemán expresa que algo está cansado.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0012",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0013",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0014",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0015",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0016",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0017",
+        "cardId": "a1-hand-study",
+        "field": "study.examples[2].lv",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "Hand",
+        "pairedDe": "Mein Arm tut weh.",
+        "currentEs": "Me duele la mano.",
+        "proposedEs": "Me duele el brazo.",
+        "reason": "El alemán dice «Mi brazo duele», no «Mi mano duele»; Arm y Hand son partes distintas del cuerpo.",
+        "confidence": "HIGH",
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0018",
+        "cardId": "a1-kosten",
+        "field": "study.examples[4].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "kosten",
+        "pairedDe": "Ich bezahle die Rechnung.",
+        "currentEs": "La cuenta tiene un precio.",
+        "proposedEs": "Pago la cuenta.",
+        "reason": "La frase alemana expresa que pago la cuenta, mientras que el español actual dice que la cuenta tiene un precio.",
+        "confidence": "HIGH",
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0019",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0020",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0021",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0022",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0023",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0024",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0025",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0026",
+        "cardId": "a1-laufen",
+        "field": "study.comparison[2].meaning",
+        "severity": "HIGH",
+        "category": "SEMANTICS",
+        "de": "laufen",
+        "pairedDe": "Ich fahre mit dem Bus.",
+        "currentEs": "caminar o correr",
+        "proposedEs": "viajar en transporte",
+        "reason": "La comparación es para fahren: con «mit dem Bus» significa viajar en transporte, no caminar o correr.",
+        "confidence": "HIGH",
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0027",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0028",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0029",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0030",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0031",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0032",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0033",
+        "cardId": "a1-morgen-study",
+        "field": "study.examples[0].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "Morgen",
+        "pairedDe": "Guten Morgen!",
+        "currentEs": "Por la mañana.",
+        "proposedEs": "¡Buen día!",
+        "reason": "Traduce una indicación temporal, no el saludo alemán.",
+        "confidence": 0.98,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0034",
+        "cardId": "a1-morgen-study",
+        "field": "study.examples[3].lv",
+        "severity": "HIGH",
+        "category": "TRANSLATION",
+        "de": "Morgen",
+        "pairedDe": "Morgen ist Montag.",
+        "currentEs": "El lunes por la mañana trabajo.",
+        "proposedEs": "Mañana es lunes.",
+        "reason": "Añade trabajo y cambia el sentido de Morgen ist Montag: «mañana es lunes».",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0035",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0036",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0037",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0038",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0039",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0040",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0041",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0042",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0043",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0044",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0045",
+        "cardId": "a2-absagen",
+        "field": "study.comparison[0].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "absagen",
+        "pairedDe": "Ich sage den Termin ab.",
+        "currentEs": "cancelar / dar de baja una membresía",
+        "proposedEs": "cancelar",
+        "reason": "Absagen significa cancelar o anular citas y eventos, no dar de baja una membresía.",
+        "confidence": 0.96,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0046",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0047",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0048",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0049",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0050",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0051",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0052",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0053",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0054",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0055",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0056",
+        "cardId": "a2-anlegen",
+        "field": "study.examples[5].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "anlegen",
+        "pairedDe": "Der Arzt legt das Gerät an den Arm an.",
+        "currentEs": "El médico coloca el dispositivo en la mano.",
+        "proposedEs": "El médico coloca el dispositivo en el brazo.",
+        "reason": "El alemán especifica el brazo (Arm), pero la traducción aplicada indica la mano.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0057",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0058",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0059",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0060",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0061",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0062",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0063",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0064",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0065",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0066",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0067",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0068",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0069",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0070",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0071",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0072",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0073",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0074",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0075",
+        "cardId": "a2-aufrufen",
+        "field": "study.examples[0].lv",
+        "severity": "MEDIUM",
+        "category": "NATURALNESS",
+        "de": "aufrufen",
+        "pairedDe": "Der Lehrer ruft meinen Namen auf.",
+        "currentEs": "El maestro llama mi nombre en voz alta.",
+        "proposedEs": "El maestro dice mi nombre en voz alta.",
+        "reason": "«Llamar mi nombre» no es una construcción idiomática; «decir mi nombre» expresa correctamente la acción.",
+        "confidence": 0.98,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0076",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0077",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0078",
+        "cardId": "a2-aufrufen",
+        "field": "study.examples[4].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "aufrufen",
+        "pairedDe": "Der Moderator ruft die nächste Nummer auf.",
+        "currentEs": "El gerente llama al siguiente número.",
+        "proposedEs": "El moderador llama al siguiente número.",
+        "reason": "“Moderator” significa moderador, no gerente; la persona indicada no coincide con el alemán.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0079",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0080",
+        "cardId": "a2-aufzeichnen",
+        "field": "study.examples[3].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "aufzeichnen",
+        "pairedDe": "Der Arzt zeichnet die Werte auf.",
+        "currentEs": "El médico anota los indicadores.",
+        "proposedEs": "El médico anota los valores.",
+        "reason": "“Werte” significa valores o lecturas; “indicadores” cambia el referente del dato registrado.",
+        "confidence": 0.93,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0081",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0082",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0083",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0084",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0085",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0086",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0087",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0088",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0089",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0090",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0091",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0092",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0093",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0094",
+        "cardId": "a2-becher",
+        "field": "study.examples[2].lv",
+        "severity": "MEDIUM",
+        "category": "GRAMMAR",
+        "de": "Bitte wirf den Pappbecher weg.",
+        "pairedDe": "Bitte wirf den Pappbecher weg.",
+        "currentEs": "Por favor, deseche el vaso de cartón.",
+        "proposedEs": "Por favor, desecha el vaso de cartón.",
+        "reason": "“Wirf” is informal second-person singular; “deseche” uses formal usted instead of informal tú.",
+        "confidence": 0.98,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0095",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0096",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0097",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0098",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0099",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0100",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0101",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0102",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0103",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0104",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0105",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0106",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0107",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0108",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0109",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0110",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0111",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0112",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0113",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0114",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0115",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0116",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0117",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0118",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0119",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0120",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0121",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0122",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0123",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0124",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0125",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0126",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0127",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0128",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0129",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0130",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0131",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0132",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0133",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0134",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0135",
+        "cardId": "a2-drücken",
+        "field": "study.examples[1].lv",
+        "severity": "MEDIUM",
+        "category": "TRANSLATION",
+        "de": "Bitte hier drücken.",
+        "pairedDe": "Bitte hier drücken.",
+        "currentEs": "Por favor, haga clic aquí.",
+        "proposedEs": "Por favor, presione aquí.",
+        "reason": "Drücken con un botón significa presionar; «hacer clic» traduce klicken y cambia la acción indicada.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0136",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0137",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0138",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0139",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0140",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0141",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0142",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0143",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0144",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0145",
+        "field": "lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "eben",
+        "pairedDe": "Er war eben noch hier.",
+        "currentEs": "Él todavía estaba aquí.",
+        "proposedEs": "Él todavía estaba aquí hace un momento.",
+        "reason": "Falta el matiz temporal de eben: indica que estaba aquí hace un momento.",
+        "confidence": 0.96,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0146",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0147",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0148",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0149",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0150",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0151",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0152",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0153",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0154",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0155",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0156",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0157",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0158",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0159",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0160",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0161",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0162",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0163",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0164",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0165",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0166",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0167",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0168",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0169",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0170",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0171",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0172",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0173",
+        "cardId": "a2-hängen",
+        "field": "study.examples[4].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "hängen",
+        "pairedDe": "Der Schlüssel hängt neben der Tür.",
+        "currentEs": "La llave cuelga de la puerta.",
+        "proposedEs": "La llave cuelga junto a la puerta.",
+        "reason": "De la puerta significa que la llave cuelga de ella, no que está al lado de la puerta como indica neben.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0174",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0175",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0176",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0177",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0178",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0179",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0180",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0181",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0182",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0183",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0184",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0185",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0186",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0187",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0188",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0189",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0190",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0191",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0192",
+        "cardId": "a2-schloss",
+        "field": "study.comparison[4].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "Schloss",
+        "pairedDe": "Der Schlüssel",
+        "currentEs": "la cerradura",
+        "proposedEs": "la llave",
+        "reason": "Der Schlüssel significa «la llave», no «la cerradura».",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0193",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0194",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0195",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0196",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0197",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0198",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0199",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0200",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0201",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0202",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0203",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0204",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0205",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0206",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0207",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0208",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0209",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0210",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0211",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0212",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0213",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0214",
+        "cardId": "a2-wert",
+        "field": "study.comparison[2].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "teuer",
+        "pairedDe": "Das Auto ist teuer.",
+        "currentEs": "valioso",
+        "proposedEs": "caro",
+        "reason": "«teuer» significa «caro», no «valioso».",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0215",
+        "cardId": "a2-wert",
+        "field": "study.comparison[3].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "sehenswert",
+        "pairedDe": "Die Stadt ist sehenswert.",
+        "currentEs": "valioso",
+        "proposedEs": "digno de ver",
+        "reason": "«sehenswert» significa «digno de ver»; «valioso» no expresa que merezca la pena verla.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0216",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0217",
+        "cardId": "a2-wiegen",
+        "field": "study.comparison[4].meaning",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "der Wagen",
+        "pairedDe": "Der Wagen ist neu.",
+        "currentEs": "peso",
+        "proposedEs": "coche/vagón",
+        "reason": "«der Wagen» significa «coche» o «vagón», no «peso».",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0218",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0219",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0220",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0221",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0222",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0223",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0224",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0225",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0226",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0227",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0228",
+        "cardId": "a2-absagen",
+        "field": "study.examples[2].lv",
+        "severity": "MEDIUM",
+        "category": "SEMANTICS",
+        "de": "absagen",
+        "pairedDe": "Er hat seine Teilnahme abgesagt.",
+        "currentEs": "Canceló la membresía.",
+        "proposedEs": "Canceló su participación.",
+        "reason": "Membresía significa Mitgliedschaft; Teilnahme significa participación, no membresía.",
+        "confidence": 0.99,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0229",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0230",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0231",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0232",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0233",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0234",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0235",
+        "status": "PASS"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0236",
+        "cardId": "a2-tafel",
+        "field": "study.examples[1].lv",
+        "severity": "MEDIUM",
+        "category": "GRAMMAR",
+        "de": "Tafel",
+        "pairedDe": "Bitte wisch die Tafel ab.",
+        "currentEs": "Por favor, limpie la pizarra.",
+        "proposedEs": "Por favor, limpia la pizarra.",
+        "reason": "Wisch es imperativo informal de segunda persona singular; limpie usa usted, no tú.",
+        "confidence": 0.98,
+        "status": "FINDING"
+      },
+      {
+        "targetId": "ES-A1A2-MICRO-OWNER-0237",
+        "cardId": "a2-urlaub-study",
+        "field": "study.examples[4].lv",
+        "severity": "MEDIUM",
+        "category": "TRANSLATION",
+        "de": "Urlaub",
+        "pairedDe": "im Urlaub",
+        "currentEs": "Vacaciones del trabajo.",
+        "proposedEs": "De vacaciones.",
+        "reason": "La frase no expresa estar de vacaciones y suena a vacaciones pertenecientes al trabajo.",
+        "confidence": 0.97,
+        "status": "FINDING"
+      }
+    ],
+    "apiUsage": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 0,
+      "batchCount": 0,
+      "batchSizes": [],
+      "retryCount": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "totalTokens": 0,
+      "findingsCount": 0,
+      "passCount": 0
+    }
+  },
+  "findings": [
+    {
+      "id": "ES-A1A2-NARROW-0006",
+      "targetId": "ES-A1A2-MICRO-OWNER-0017",
+      "severity": "AUGSTA",
+      "category": "SEMANTICS",
+      "level": "A1",
+      "cardId": "a1-hand-study",
+      "de": "Hand",
+      "field": "study.examples[2].lv",
+      "current": "Me duele la mano.",
+      "proposedNew": "Me duele el brazo.",
+      "validation": "REAL",
+      "ownerStatus": "PĀRSKATĪT",
+      "reason": "OWNER apply ieviesa semantisku regresiju; Luna atgriežas pie pareizā pirms-apply teksta",
+      "source": "luna-narrow",
+      "pairedDe": "Mein Arm tut weh."
+    }
+  ],
+  "outOfScope": [
+    {
+      "id": "ES-A1A2-NARROW-0018",
+      "targetId": "ES-A1A2-MICRO-OWNER-0145",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A1",
+      "de": "eben",
+      "field": "lv",
+      "current": "Él todavía estaba aquí.",
+      "proposedNew": "Él todavía estaba aquí hace un momento.",
+      "validation": "OUT_OF_SCOPE",
+      "ownerStatus": "OUT_OF_SCOPE",
+      "reason": "Kandidāts attiecas uz lauku ārpus 237 target scope",
+      "source": "luna-narrow",
+      "pairedDe": "Er war eben noch hier."
+    }
+  ],
+  "falsePositives": [
+    {
+      "id": "ES-A1A2-NARROW-0001",
+      "targetId": "ES-A1A2-MICRO-OWNER-0001",
+      "severity": "AUGSTA",
+      "category": "SEMANTICS",
+      "level": "A1",
+      "cardId": "a1-bringen",
+      "de": "Bitte",
+      "field": "study.examples[0].lv",
+      "current": "Tráeme agua, por favor.",
+      "proposedNew": "Te traigo un libro.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Ich bringe dir ein Buch."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0002",
+      "targetId": "ES-A1A2-MICRO-OWNER-0002",
+      "severity": "AUGSTA",
+      "category": "SEMANTICS",
+      "level": "A1",
+      "cardId": "a1-bringen",
+      "de": "bringen",
+      "field": "study.examples[1].lv",
+      "current": "Te llevaré a casa.",
+      "proposedNew": "Llevo el paquete a la oficina de correos.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Ich bringe das Paket zur Post."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0003",
+      "targetId": "ES-A1A2-MICRO-OWNER-0003",
+      "severity": "AUGSTA",
+      "category": "SEMANTICS",
+      "level": "A1",
+      "cardId": "a1-bringen",
+      "de": "bringen",
+      "field": "study.examples[2].lv",
+      "current": "Lleva el libro a la escuela.",
+      "proposedNew": "Llevo a los niños a la escuela.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Ich bringe die Kinder zur Schule."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0004",
+      "targetId": "ES-A1A2-MICRO-OWNER-0006",
+      "severity": "AUGSTA",
+      "category": "TRANSLATION",
+      "level": "A1",
+      "cardId": "a1-dieser",
+      "de": "dieser",
+      "field": "study.examples[1].lv",
+      "current": "Me gusta este perro.",
+      "proposedNew": "Veo a este perro.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Ich sehe diesen Hund."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0005",
+      "targetId": "ES-A1A2-MICRO-OWNER-0011",
+      "severity": "AUGSTA",
+      "category": "TRANSLATION",
+      "level": "A1",
+      "cardId": "a1-es",
+      "de": "es",
+      "field": "study.examples[3].lv",
+      "current": "Es mi libro.",
+      "proposedNew": "Está cansado.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Es ist müde."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0008",
+      "targetId": "ES-A1A2-MICRO-OWNER-0026",
+      "severity": "AUGSTA",
+      "category": "SEMANTICS",
+      "level": "A1",
+      "cardId": "a1-laufen",
+      "de": "laufen",
+      "field": "study.comparison[2].meaning",
+      "current": "caminar o correr",
+      "proposedNew": "viajar en transporte",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Luna ierosina atgriezties pie vecās vērtības; OWNER jau apstiprināja jauno NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Ich fahre mit dem Bus."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0009",
+      "targetId": "ES-A1A2-MICRO-OWNER-0033",
+      "severity": "AUGSTA",
+      "category": "TRANSLATION",
+      "level": "A1",
+      "cardId": "a1-morgen-study",
+      "de": "Morgen",
+      "field": "study.examples[0].lv",
+      "current": "Por la mañana.",
+      "proposedNew": "¡Buen día!",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Luna ierosina atgriezties pie vecās vērtības; OWNER jau apstiprināja jauno NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Guten Morgen!"
+    },
+    {
+      "id": "ES-A1A2-NARROW-0011",
+      "targetId": "ES-A1A2-MICRO-OWNER-0045",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-absagen",
+      "de": "absagen",
+      "field": "study.comparison[0].meaning",
+      "current": "cancelar / dar de baja una membresía",
+      "proposedNew": "cancelar",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Stilistiska Luna alternatīva; OWNER NEW ir pieņemams",
+      "source": "luna-narrow",
+      "pairedDe": "Ich sage den Termin ab."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0012",
+      "targetId": "ES-A1A2-MICRO-OWNER-0056",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-anlegen",
+      "de": "anlegen",
+      "field": "study.examples[5].lv",
+      "current": "El médico coloca el dispositivo en la mano.",
+      "proposedNew": "El médico coloca el dispositivo en el brazo.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Der Arzt legt das Gerät an den Arm an."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0013",
+      "targetId": "ES-A1A2-MICRO-OWNER-0075",
+      "severity": "VIDĒJA",
+      "category": "NATURALNESS",
+      "level": "A2",
+      "cardId": "a2-aufrufen",
+      "de": "aufrufen",
+      "field": "study.examples[0].lv",
+      "current": "El maestro llama mi nombre en voz alta.",
+      "proposedNew": "El maestro dice mi nombre en voz alta.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Stilistiska Luna alternatīva; OWNER NEW ir pieņemams",
+      "source": "luna-narrow",
+      "pairedDe": "Der Lehrer ruft meinen Namen auf."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0014",
+      "targetId": "ES-A1A2-MICRO-OWNER-0078",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-aufrufen",
+      "de": "aufrufen",
+      "field": "study.examples[4].lv",
+      "current": "El gerente llama al siguiente número.",
+      "proposedNew": "El moderador llama al siguiente número.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Der Moderator ruft die nächste Nummer auf."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0015",
+      "targetId": "ES-A1A2-MICRO-OWNER-0080",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-aufzeichnen",
+      "de": "aufzeichnen",
+      "field": "study.examples[3].lv",
+      "current": "El médico anota los indicadores.",
+      "proposedNew": "El médico anota los valores.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Der Arzt zeichnet die Werte auf."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0017",
+      "targetId": "ES-A1A2-MICRO-OWNER-0135",
+      "severity": "VIDĒJA",
+      "category": "TRANSLATION",
+      "level": "A2",
+      "cardId": "a2-drücken",
+      "de": "Bitte hier drücken.",
+      "field": "study.examples[1].lv",
+      "current": "Por favor, haga clic aquí.",
+      "proposedNew": "Por favor, presione aquí.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Bitte hier drücken."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0019",
+      "targetId": "ES-A1A2-MICRO-OWNER-0173",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-hängen",
+      "de": "hängen",
+      "field": "study.examples[4].lv",
+      "current": "La llave cuelga de la puerta.",
+      "proposedNew": "La llave cuelga junto a la puerta.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "Der Schlüssel hängt neben der Tür."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0021",
+      "targetId": "ES-A1A2-MICRO-OWNER-0214",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-wert",
+      "de": "teuer",
+      "field": "study.comparison[2].meaning",
+      "current": "valioso",
+      "proposedNew": "caro",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Luna ierosina atgriezties pie vecās vērtības; OWNER jau apstiprināja jauno NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Das Auto ist teuer."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0022",
+      "targetId": "ES-A1A2-MICRO-OWNER-0215",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-wert",
+      "de": "sehenswert",
+      "field": "study.comparison[3].meaning",
+      "current": "valioso",
+      "proposedNew": "digno de ver",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Luna ierosina atgriezties pie vecās vērtības; OWNER jau apstiprināja jauno NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Die Stadt ist sehenswert."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0023",
+      "targetId": "ES-A1A2-MICRO-OWNER-0217",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-wiegen",
+      "de": "der Wagen",
+      "field": "study.comparison[4].meaning",
+      "current": "peso",
+      "proposedNew": "coche/vagón",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Luna ierosina atgriezties pie vecās vērtības; OWNER jau apstiprināja jauno NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Der Wagen ist neu."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0026",
+      "targetId": "ES-A1A2-MICRO-OWNER-0237",
+      "severity": "VIDĒJA",
+      "category": "TRANSLATION",
+      "level": "A2",
+      "cardId": "a2-urlaub-study",
+      "de": "Urlaub",
+      "field": "study.examples[4].lv",
+      "current": "Vacaciones del trabajo.",
+      "proposedNew": "De vacaciones.",
+      "validation": "FALSE_POSITIVE",
+      "ownerStatus": "FALSE_POSITIVE",
+      "reason": "Pre-existing DE-ES pair mismatch; OWNER repair was orthography/form-only and introduced no semantic regression",
+      "source": "luna-narrow",
+      "pairedDe": "im Urlaub"
+    }
+  ],
+  "reviewRequired": [
+    {
+      "id": "ES-A1A2-NARROW-0007",
+      "targetId": "ES-A1A2-MICRO-OWNER-0018",
+      "severity": "AUGSTA",
+      "category": "TRANSLATION",
+      "level": "A1",
+      "cardId": "a1-kosten",
+      "de": "kosten",
+      "field": "study.examples[4].lv",
+      "current": "La cuenta tiene un precio.",
+      "proposedNew": "Pago la cuenta.",
+      "validation": "OWNER_REVIEW_REQUIRED",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "reason": "Luna ieteikums atšķiras no piemērotā gala OWNER NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Ich bezahle die Rechnung."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0010",
+      "targetId": "ES-A1A2-MICRO-OWNER-0034",
+      "severity": "AUGSTA",
+      "category": "TRANSLATION",
+      "level": "A1",
+      "cardId": "a1-morgen-study",
+      "de": "Morgen",
+      "field": "study.examples[3].lv",
+      "current": "El lunes por la mañana trabajo.",
+      "proposedNew": "Mañana es lunes.",
+      "validation": "OWNER_REVIEW_REQUIRED",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "reason": "Luna ieteikums atšķiras no piemērotā gala OWNER NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Morgen ist Montag."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0016",
+      "targetId": "ES-A1A2-MICRO-OWNER-0094",
+      "severity": "VIDĒJA",
+      "category": "GRAMMAR",
+      "level": "A2",
+      "cardId": "a2-becher",
+      "de": "Bitte wirf den Pappbecher weg.",
+      "field": "study.examples[2].lv",
+      "current": "Por favor, deseche el vaso de cartón.",
+      "proposedNew": "Por favor, desecha el vaso de cartón.",
+      "validation": "OWNER_REVIEW_REQUIRED",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "reason": "Luna ieteikums atšķiras no piemērotā gala OWNER NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Bitte wirf den Pappbecher weg."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0020",
+      "targetId": "ES-A1A2-MICRO-OWNER-0192",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-schloss",
+      "de": "Schloss",
+      "field": "study.comparison[4].meaning",
+      "current": "la cerradura",
+      "proposedNew": "la llave",
+      "validation": "OWNER_REVIEW_REQUIRED",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "reason": "Luna ieteikums atšķiras no piemērotā gala OWNER NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Der Schlüssel"
+    },
+    {
+      "id": "ES-A1A2-NARROW-0024",
+      "targetId": "ES-A1A2-MICRO-OWNER-0228",
+      "severity": "VIDĒJA",
+      "category": "SEMANTICS",
+      "level": "A2",
+      "cardId": "a2-absagen",
+      "de": "absagen",
+      "field": "study.examples[2].lv",
+      "current": "Canceló la membresía.",
+      "proposedNew": "Canceló su participación.",
+      "validation": "OWNER_REVIEW_REQUIRED",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "reason": "Luna ieteikums atšķiras no piemērotā gala OWNER NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Er hat seine Teilnahme abgesagt."
+    },
+    {
+      "id": "ES-A1A2-NARROW-0025",
+      "targetId": "ES-A1A2-MICRO-OWNER-0236",
+      "severity": "VIDĒJA",
+      "category": "GRAMMAR",
+      "level": "A2",
+      "cardId": "a2-tafel",
+      "de": "Tafel",
+      "field": "study.examples[1].lv",
+      "current": "Por favor, limpie la pizarra.",
+      "proposedNew": "Por favor, limpia la pizarra.",
+      "validation": "OWNER_REVIEW_REQUIRED",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "reason": "Luna ieteikums atšķiras no piemērotā gala OWNER NEW",
+      "source": "luna-narrow",
+      "pairedDe": "Bitte wisch die Tafel ab."
+    }
+  ],
+  "nelabotChecks": [
+    {
+      "id": "ES-A1A2-MICRO-0226",
+      "cardId": "a1-morgen",
+      "field": "study.examples[4].lv",
+      "pairedDe": "Guten Morgen!",
+      "current": "¡Buen día!",
+      "forbiddenNew": [
+        "¡Hasta mañana!"
+      ],
+      "retained": true,
+      "actual": "¡Buen día!"
+    },
+    {
+      "id": "ES-A1A2-MICRO-0227",
+      "cardId": "a1-morgen-study",
+      "field": "study.examples[4].lv",
+      "pairedDe": "Guten Morgen!",
+      "current": "¡Buen día!",
+      "forbiddenNew": [
+        "Es por la mañana."
+      ],
+      "retained": true,
+      "actual": "¡Buen día!"
+    },
+    {
+      "id": "ES-A1A2-MICRO-0240",
+      "cardId": "a2-wert",
+      "field": "study.examples[4].lv",
+      "pairedDe": "Das Auto ist teuer.",
+      "current": "El auto es caro.",
+      "forbiddenNew": [
+        "El auto vale mucho."
+      ],
+      "retained": true,
+      "actual": "El auto es caro."
+    }
+  ],
+  "retention": {
+    "retention": {
+      "luna1208": {
+        "ok": 1166,
+        "expected": 1208,
+        "fail": [
+          {
+            "auditId": "ES-A1A2-LUNA-0183",
+            "cardId": "a2-Hase-635",
+            "field": "lv",
+            "ownerNew": "conejo",
+            "actual": "liebre",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0364",
+            "cardId": "a2-weich gekocht-1573",
+            "field": "lv",
+            "ownerNew": "cocido blando",
+            "actual": "cocido hasta quedar blando",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0391",
+            "cardId": "a1-aus",
+            "field": "study.comparison[1].meaning",
+            "ownerNew": "no para personas, lugares ni superficies",
+            "actual": "desde el interior de un lugar; no se usa normalmente para superficies",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0505",
+            "cardId": "a1-kosten",
+            "field": "study.examples[4].lv",
+            "ownerNew": "La cuenta cuesta dinero.",
+            "actual": "La cuenta tiene un precio.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0508",
+            "cardId": "a1-kosten",
+            "field": "study.examples[7].lv",
+            "ownerNew": "Costará más caro mañana.",
+            "actual": "Costará más mañana.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0526",
+            "cardId": "a1-laufen",
+            "field": "study.comparison[2].meaning",
+            "ownerNew": "viajar en transporte",
+            "actual": "caminar o correr",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0556",
+            "cardId": "a1-morgen-study",
+            "field": "study.examples[3].lv",
+            "ownerNew": "Por la mañana es lunes.",
+            "actual": "El lunes por la mañana trabajo.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0598",
+            "cardId": "a1-sie-study",
+            "field": "study.examples[5].lv",
+            "ownerNew": "Tú cocinas, por favor.",
+            "actual": "Por favor, cocinen.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0600",
+            "cardId": "a1-sie-study-2",
+            "field": "study.examples[0].lv",
+            "ownerNew": "Usted cocina, por favor.",
+            "actual": "Por favor, cocine.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0605",
+            "cardId": "a1-sie-study-2",
+            "field": "study.examples[5].lv",
+            "ownerNew": "Usted cocina, por favor.",
+            "actual": "Por favor, cocine.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0624",
+            "cardId": "a1-vom",
+            "field": "study.examples[4].lv",
+            "ownerNew": "Está en el mercado.",
+            "actual": "Es del mercado.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0625",
+            "cardId": "a1-vor",
+            "field": "study.examples[3].lv",
+            "ownerNew": "Antes de comer salimos a caminar.",
+            "actual": "Después de comer salimos a pasear.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0659",
+            "cardId": "a1-zum",
+            "field": "study.comparison[1].meaning",
+            "ownerNew": "a / hacia (género masculino o neutro)",
+            "actual": "a / hacia (género femenino: zu der)",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0695",
+            "cardId": "a2-abfahren",
+            "field": "study.examples[4].lv",
+            "ownerNew": "Poco a poco nos ponemos en marcha por este camino.",
+            "actual": "Recorremos el trayecto lentamente.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0707",
+            "cardId": "a2-holen",
+            "field": "study.examples[2].lv",
+            "ownerNew": "fui a buscar agua",
+            "actual": "Fui a buscar agua.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0738",
+            "cardId": "a2-anstellen",
+            "field": "study.examples[5].lv",
+            "ownerNew": "Por favor, no armes un problema con esto.",
+            "actual": "Por favor, no armes tanto escándalo por esto.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0746",
+            "cardId": "a2-artikel",
+            "field": "study.comparison[0].meaning",
+            "ownerNew": "artículo / producto / artículo / párrafo",
+            "actual": "artículo / producto / artículo gramatical / párrafo",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0840",
+            "cardId": "a2-dafür",
+            "field": "study.comparison[0].meaning",
+            "ownerNew": "por eso / para eso / tantas veces",
+            "actual": "por eso / para eso / a favor de eso",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0858",
+            "cardId": "a2-darum",
+            "field": "study.important.text",
+            "ownerNew": "darum no significa solamente «sobre eso».",
+            "actual": "Darum no significa solamente «sobre eso».",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0903",
+            "cardId": "a2-eigentlich",
+            "field": "study.examples[5].lv",
+            "ownerNew": "Eso es verdad.",
+            "actual": "En realidad, eso es cierto.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0908",
+            "cardId": "a2-einschlafen",
+            "field": "study.translation",
+            "ownerNew": "dormirse • dormirse una extremidad",
+            "actual": "dormirse • adormecerse una extremidad",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0942",
+            "cardId": "a2-führen",
+            "field": "study.examples[3].lv",
+            "ownerNew": "estamos llevando la conversación.",
+            "actual": "Estamos llevando la conversación.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0952",
+            "cardId": "a2-gerade",
+            "field": "study.examples[0].lv",
+            "ownerNew": "la calle es recta.",
+            "actual": "La calle es recta.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-1052",
+            "cardId": "a2-satz",
+            "field": "study.examples[5].lv",
+            "ownerNew": "Su primer salto llegó muy lejos.",
+            "actual": "Su primer salto fue muy largo.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-1077",
+            "cardId": "a2-schwer",
+            "field": "study.examples[2].lv",
+            "ownerNew": "El libro es pesado de llevar.",
+            "actual": "Es difícil llevar el libro.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-1141",
+            "cardId": "a2-verbinden",
+            "field": "study.examples[5].lv",
+            "ownerNew": "Me ato los zapatos.",
+            "actual": "Uno los cordones de los zapatos.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-1170",
+            "cardId": "a2-ziehen",
+            "field": "study.examples[0].lv",
+            "ownerNew": "Por favor, cierra la puerta.",
+            "actual": "Por favor, tira de la puerta para cerrarla.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0411",
+            "cardId": "a1-da",
+            "field": "study.examples[1].lv",
+            "ownerNew": "yo estuve allí.",
+            "actual": "Yo estuve allí.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0412",
+            "cardId": "a1-das",
+            "field": "study.examples[0].lv",
+            "ownerNew": "ese es mi coche.",
+            "actual": "Ese es mi coche.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0413",
+            "cardId": "a1-das",
+            "field": "study.examples[1].lv",
+            "ownerNew": "eso está bien.",
+            "actual": "Eso está bien.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0417",
+            "cardId": "a1-dass",
+            "field": "study.examples[0].lv",
+            "ownerNew": "sé que estás cansado.",
+            "actual": "Sé que estás cansado.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0423",
+            "cardId": "a1-der",
+            "field": "study.examples[1].lv",
+            "ownerNew": "el autobús circula.",
+            "actual": "El autobús circula.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0425",
+            "cardId": "a1-die",
+            "field": "study.examples[1].lv",
+            "ownerNew": "la gatita está durmiendo.",
+            "actual": "La gatita está durmiendo.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0426",
+            "cardId": "a1-die",
+            "field": "study.examples[2].lv",
+            "ownerNew": "explica la profesora.",
+            "actual": "Explica la profesora.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0428",
+            "cardId": "a1-ein",
+            "field": "study.examples[3].lv",
+            "ownerNew": "El niño juega.",
+            "actual": "Un niño juega.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0437",
+            "cardId": "a1-es",
+            "field": "study.tip.text",
+            "ownerNew": "Recuerde: en letón, «es» significa «yo»; no es el «es» alemán.",
+            "actual": "Recuerda: el alemán «es» puede significar «eso» o formar construcciones impersonales; no significa «yo».",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0465",
+            "cardId": "a1-haben",
+            "field": "study.examples[3].lv",
+            "ownerNew": "lo tengo",
+            "actual": "Lo tengo.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0467",
+            "cardId": "a1-halten",
+            "field": "study.examples[0].lv",
+            "ownerNew": "sostengo la bolsa.",
+            "actual": "Sostengo la bolsa.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0468",
+            "cardId": "a1-halten",
+            "field": "study.examples[3].lv",
+            "ownerNew": "considero que es correcto.",
+            "actual": "Considero que es correcto.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0469",
+            "cardId": "a1-halten",
+            "field": "study.tip.text",
+            "ownerNew": "Recuerda: en la mano → sostener; transporte → hält/se detiene.",
+            "actual": "Recuerda: en la mano → sostener; transporte → se detiene.",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0482",
+            "cardId": "a1-im",
+            "field": "study.comparison[3].meaning",
+            "ownerNew": "¿En dónde? (¿A quién?)",
+            "actual": "¿En dónde? (¿En quién?)",
+            "reason": "MISMATCH"
+          },
+          {
+            "auditId": "ES-A1A2-LUNA-0486",
+            "cardId": "a1-ins",
+            "field": "study.translation",
+            "ownerNew": "a • al • ¿adónde?",
+            "actual": "al • dentro del",
+            "reason": "MISMATCH"
+          }
+        ]
+      },
+      "foreignLabot": {
+        "ok": 537,
+        "expected": 537,
+        "fail": [
+          {
+            "id": "ES-A1A2-FOREIGN-0062",
+            "reason": "NELABOT_CHANGED",
+            "actual": "Recorremos el trayecto lentamente.",
+            "expected": "Poco a poco nos ponemos en marcha por este camino."
+          },
+          {
+            "id": "ES-A1A2-FOREIGN-0226",
+            "reason": "NELABOT_CHANGED",
+            "actual": "Regresó poco después.",
+            "expected": "regresó poco después."
+          },
+          {
+            "id": "ES-A1A2-FOREIGN-0326",
+            "reason": "NELABOT_CHANGED",
+            "actual": "Sírveme un poco de té, por favor.",
+            "expected": "sírveme un poco de té por favor"
+          },
+          {
+            "id": "ES-A1A2-FOREIGN-0353",
+            "reason": "NELABOT_CHANGED",
+            "actual": "Poco antes de las ocho estaba allí.",
+            "expected": "poco antes de las ocho estaba allí."
+          }
+        ]
+      },
+      "foreignNelabot": {
+        "ok": 33,
+        "expected": 37,
+        "fail": [
+          {
+            "id": "ES-A1A2-FOREIGN-0062",
+            "reason": "NELABOT_CHANGED",
+            "actual": "Recorremos el trayecto lentamente.",
+            "expected": "Poco a poco nos ponemos en marcha por este camino."
+          },
+          {
+            "id": "ES-A1A2-FOREIGN-0226",
+            "reason": "NELABOT_CHANGED",
+            "actual": "Regresó poco después.",
+            "expected": "regresó poco después."
+          },
+          {
+            "id": "ES-A1A2-FOREIGN-0326",
+            "reason": "NELABOT_CHANGED",
+            "actual": "Sírveme un poco de té, por favor.",
+            "expected": "sírveme un poco de té por favor"
+          },
+          {
+            "id": "ES-A1A2-FOREIGN-0353",
+            "reason": "NELABOT_CHANGED",
+            "actual": "Poco antes de las ocho estaba allí.",
+            "expected": "poco antes de las ocho estaba allí."
+          }
+        ]
+      },
+      "study10": {
+        "ok": 10,
+        "expected": 10,
+        "fail": []
+      },
+      "seinTipPurple": {
+        "ok": true,
+        "actual": [
+          "yo soy/estoy",
+          "tú eres/estás"
+        ]
+      },
+      "related0001": true,
+      "pass": false
+    },
+    "superseded": [
+      {
+        "auditId": "ES-A1A2-LUNA-0183",
+        "cardId": "a2-Hase-635",
+        "field": "lv",
+        "ownerNew": "conejo",
+        "actual": "liebre",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0021",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0364",
+        "cardId": "a2-weich gekocht-1573",
+        "field": "lv",
+        "ownerNew": "cocido blando",
+        "actual": "cocido hasta quedar blando",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0036",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0391",
+        "cardId": "a1-aus",
+        "field": "study.comparison[1].meaning",
+        "ownerNew": "no para personas, lugares ni superficies",
+        "actual": "desde el interior de un lugar; no se usa normalmente para superficies",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0050",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0505",
+        "cardId": "a1-kosten",
+        "field": "study.examples[4].lv",
+        "ownerNew": "La cuenta cuesta dinero.",
+        "actual": "La cuenta tiene un precio.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0018",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0508",
+        "cardId": "a1-kosten",
+        "field": "study.examples[7].lv",
+        "ownerNew": "Costará más caro mañana.",
+        "actual": "Costará más mañana.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0140",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0526",
+        "cardId": "a1-laufen",
+        "field": "study.comparison[2].meaning",
+        "ownerNew": "viajar en transporte",
+        "actual": "caminar o correr",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0026",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0556",
+        "cardId": "a1-morgen-study",
+        "field": "study.examples[3].lv",
+        "ownerNew": "Por la mañana es lunes.",
+        "actual": "El lunes por la mañana trabajo.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0034",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0598",
+        "cardId": "a1-sie-study",
+        "field": "study.examples[5].lv",
+        "ownerNew": "Tú cocinas, por favor.",
+        "actual": "Por favor, cocinen.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0227",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0600",
+        "cardId": "a1-sie-study-2",
+        "field": "study.examples[0].lv",
+        "ownerNew": "Usted cocina, por favor.",
+        "actual": "Por favor, cocine.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0038",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0605",
+        "cardId": "a1-sie-study-2",
+        "field": "study.examples[5].lv",
+        "ownerNew": "Usted cocina, por favor.",
+        "actual": "Por favor, cocine.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0039",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0624",
+        "cardId": "a1-vom",
+        "field": "study.examples[4].lv",
+        "ownerNew": "Está en el mercado.",
+        "actual": "Es del mercado.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0003",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0625",
+        "cardId": "a1-vor",
+        "field": "study.examples[3].lv",
+        "ownerNew": "Antes de comer salimos a caminar.",
+        "actual": "Después de comer salimos a pasear.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0002",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0659",
+        "cardId": "a1-zum",
+        "field": "study.comparison[1].meaning",
+        "ownerNew": "a / hacia (género masculino o neutro)",
+        "actual": "a / hacia (género femenino: zu der)",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0004",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0695",
+        "cardId": "a2-abfahren",
+        "field": "study.examples[4].lv",
+        "ownerNew": "Poco a poco nos ponemos en marcha por este camino.",
+        "actual": "Recorremos el trayecto lentamente.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0001",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0707",
+        "cardId": "a2-holen",
+        "field": "study.examples[2].lv",
+        "ownerNew": "fui a buscar agua",
+        "actual": "Fui a buscar agua.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0268",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0738",
+        "cardId": "a2-anstellen",
+        "field": "study.examples[5].lv",
+        "ownerNew": "Por favor, no armes un problema con esto.",
+        "actual": "Por favor, no armes tanto escándalo por esto.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0064",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0746",
+        "cardId": "a2-artikel",
+        "field": "study.comparison[0].meaning",
+        "ownerNew": "artículo / producto / artículo / párrafo",
+        "actual": "artículo / producto / artículo gramatical / párrafo",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0291",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0840",
+        "cardId": "a2-dafür",
+        "field": "study.comparison[0].meaning",
+        "ownerNew": "por eso / para eso / tantas veces",
+        "actual": "por eso / para eso / a favor de eso",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0317",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0858",
+        "cardId": "a2-darum",
+        "field": "study.important.text",
+        "ownerNew": "darum no significa solamente «sobre eso».",
+        "actual": "Darum no significa solamente «sobre eso».",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0124",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0903",
+        "cardId": "a2-eigentlich",
+        "field": "study.examples[5].lv",
+        "ownerNew": "Eso es verdad.",
+        "actual": "En realidad, eso es cierto.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0339",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0908",
+        "cardId": "a2-einschlafen",
+        "field": "study.translation",
+        "ownerNew": "dormirse • dormirse una extremidad",
+        "actual": "dormirse • adormecerse una extremidad",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0151",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0942",
+        "cardId": "a2-führen",
+        "field": "study.examples[3].lv",
+        "ownerNew": "estamos llevando la conversación.",
+        "actual": "Estamos llevando la conversación.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0380",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0952",
+        "cardId": "a2-gerade",
+        "field": "study.examples[0].lv",
+        "ownerNew": "la calle es recta.",
+        "actual": "La calle es recta.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0162",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-1052",
+        "cardId": "a2-satz",
+        "field": "study.examples[5].lv",
+        "ownerNew": "Su primer salto llegó muy lejos.",
+        "actual": "Su primer salto fue muy largo.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0472",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-1077",
+        "cardId": "a2-schwer",
+        "field": "study.examples[2].lv",
+        "ownerNew": "El libro es pesado de llevar.",
+        "actual": "Es difícil llevar el libro.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0234",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-1141",
+        "cardId": "a2-verbinden",
+        "field": "study.examples[5].lv",
+        "ownerNew": "Me ato los zapatos.",
+        "actual": "Uno los cordones de los zapatos.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0541",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-1170",
+        "cardId": "a2-ziehen",
+        "field": "study.examples[0].lv",
+        "ownerNew": "Por favor, cierra la puerta.",
+        "actual": "Por favor, tira de la puerta para cerrarla.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0562",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0411",
+        "cardId": "a1-da",
+        "field": "study.examples[1].lv",
+        "ownerNew": "yo estuve allí.",
+        "actual": "Yo estuve allí.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0074",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0412",
+        "cardId": "a1-das",
+        "field": "study.examples[0].lv",
+        "ownerNew": "ese es mi coche.",
+        "actual": "Ese es mi coche.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0077",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0413",
+        "cardId": "a1-das",
+        "field": "study.examples[1].lv",
+        "ownerNew": "eso está bien.",
+        "actual": "Eso está bien.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0078",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0417",
+        "cardId": "a1-dass",
+        "field": "study.examples[0].lv",
+        "ownerNew": "sé que estás cansado.",
+        "actual": "Sé que estás cansado.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0081",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0423",
+        "cardId": "a1-der",
+        "field": "study.examples[1].lv",
+        "ownerNew": "el autobús circula.",
+        "actual": "El autobús circula.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0084",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0425",
+        "cardId": "a1-die",
+        "field": "study.examples[1].lv",
+        "ownerNew": "la gatita está durmiendo.",
+        "actual": "La gatita está durmiendo.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0087",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0426",
+        "cardId": "a1-die",
+        "field": "study.examples[2].lv",
+        "ownerNew": "explica la profesora.",
+        "actual": "Explica la profesora.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0088",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0428",
+        "cardId": "a1-ein",
+        "field": "study.examples[3].lv",
+        "ownerNew": "El niño juega.",
+        "actual": "Un niño juega.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0090",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0437",
+        "cardId": "a1-es",
+        "field": "study.tip.text",
+        "ownerNew": "Recuerde: en letón, «es» significa «yo»; no es el «es» alemán.",
+        "actual": "Recuerda: el alemán «es» puede significar «eso» o formar construcciones impersonales; no significa «yo».",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0095",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0465",
+        "cardId": "a1-haben",
+        "field": "study.examples[3].lv",
+        "ownerNew": "lo tengo",
+        "actual": "Lo tengo.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0118",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0467",
+        "cardId": "a1-halten",
+        "field": "study.examples[0].lv",
+        "ownerNew": "sostengo la bolsa.",
+        "actual": "Sostengo la bolsa.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0119",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0468",
+        "cardId": "a1-halten",
+        "field": "study.examples[3].lv",
+        "ownerNew": "considero que es correcto.",
+        "actual": "Considero que es correcto.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0122",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0469",
+        "cardId": "a1-halten",
+        "field": "study.tip.text",
+        "ownerNew": "Recuerda: en la mano → sostener; transporte → hält/se detiene.",
+        "actual": "Recuerda: en la mano → sostener; transporte → se detiene.",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0016",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0482",
+        "cardId": "a1-im",
+        "field": "study.comparison[3].meaning",
+        "ownerNew": "¿En dónde? (¿A quién?)",
+        "actual": "¿En dónde? (¿En quién?)",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0128",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "auditId": "ES-A1A2-LUNA-0486",
+        "cardId": "a1-ins",
+        "field": "study.translation",
+        "ownerNew": "a • al • ¿adónde?",
+        "actual": "al • dentro del",
+        "reason": "MISMATCH",
+        "kind": "luna1208",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0131",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "id": "ES-A1A2-FOREIGN-0062",
+        "reason": "NELABOT_CHANGED",
+        "actual": "Recorremos el trayecto lentamente.",
+        "expected": "Poco a poco nos ponemos en marcha por este camino.",
+        "kind": "foreignLabot",
+        "cardId": "a2-abfahren",
+        "field": "study.examples[4].lv",
+        "level": "A2",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0001",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "id": "ES-A1A2-FOREIGN-0226",
+        "reason": "NELABOT_CHANGED",
+        "actual": "Regresó poco después.",
+        "expected": "regresó poco después.",
+        "kind": "foreignLabot",
+        "cardId": "a2-darauf",
+        "field": "study.examples[5].lv",
+        "level": "A2",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0118",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "id": "ES-A1A2-FOREIGN-0326",
+        "reason": "NELABOT_CHANGED",
+        "actual": "Sírveme un poco de té, por favor.",
+        "expected": "sírveme un poco de té por favor",
+        "kind": "foreignLabot",
+        "cardId": "a2-gießen",
+        "field": "study.examples[3].lv",
+        "level": "A2",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0169",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "id": "ES-A1A2-FOREIGN-0353",
+        "reason": "NELABOT_CHANGED",
+        "actual": "Poco antes de las ocho estaba allí.",
+        "expected": "poco antes de las ocho estaba allí.",
+        "kind": "foreignLabot",
+        "cardId": "a2-kurz",
+        "field": "study.examples[3].lv",
+        "level": "A2",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0181",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "id": "ES-A1A2-FOREIGN-0062",
+        "reason": "NELABOT_CHANGED",
+        "actual": "Recorremos el trayecto lentamente.",
+        "expected": "Poco a poco nos ponemos en marcha por este camino.",
+        "kind": "foreignNelabot",
+        "cardId": "a2-abfahren",
+        "field": "study.examples[4].lv",
+        "level": "A2",
+        "ownerId": "ES-A1A2-FINAL-OWNER-0001",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "id": "ES-A1A2-FOREIGN-0226",
+        "reason": "NELABOT_CHANGED",
+        "actual": "Regresó poco después.",
+        "expected": "regresó poco después.",
+        "kind": "foreignNelabot",
+        "cardId": "a2-darauf",
+        "field": "study.examples[5].lv",
+        "level": "A2",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0118",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "id": "ES-A1A2-FOREIGN-0326",
+        "reason": "NELABOT_CHANGED",
+        "actual": "Sírveme un poco de té, por favor.",
+        "expected": "sírveme un poco de té por favor",
+        "kind": "foreignNelabot",
+        "cardId": "a2-gießen",
+        "field": "study.examples[3].lv",
+        "level": "A2",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0169",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "id": "ES-A1A2-FOREIGN-0353",
+        "reason": "NELABOT_CHANGED",
+        "actual": "Poco antes de las ocho estaba allí.",
+        "expected": "poco antes de las ocho estaba allí.",
+        "kind": "foreignNelabot",
+        "cardId": "a2-kurz",
+        "field": "study.examples[3].lv",
+        "level": "A2",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0181",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0055",
+        "cardId": "a1-aufs",
+        "field": "study.examples[4].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0221",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0126",
+        "cardId": "a1-im",
+        "field": "study.comparison[0].meaning",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0222",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0127",
+        "cardId": "a1-im",
+        "field": "study.comparison[1].meaning",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0223",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0132",
+        "cardId": "a1-ins",
+        "field": "study.comparison[0].meaning",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0224",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0156",
+        "cardId": "a1-morgen",
+        "field": "study.examples[1].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0225",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0190",
+        "cardId": "a1-reis",
+        "field": "study.examples[1].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0226",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0213",
+        "cardId": "a1-sie-study",
+        "field": "study.examples[5].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0227",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0270",
+        "cardId": "a2-absagen",
+        "field": "study.examples[2].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0228",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0310",
+        "cardId": "a2-bedienung",
+        "field": "study.examples[0].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0229",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0357",
+        "cardId": "a2-fach",
+        "field": "study.comparison[0].meaning",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0230",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0368",
+        "cardId": "a2-fest",
+        "field": "study.examples[5].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0231",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0401",
+        "cardId": "a2-kamm",
+        "field": "study.examples[3].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0232",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0452",
+        "cardId": "a2-rasen-study",
+        "field": "study.examples[0].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0233",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0479",
+        "cardId": "a2-schwer",
+        "field": "study.examples[2].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0234",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0506",
+        "cardId": "a2-stelle",
+        "field": "study.examples[4].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0235",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0517",
+        "cardId": "a2-tafel",
+        "field": "study.examples[1].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0236",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      },
+      {
+        "id": "ES-A1A2-FINAL-OWNER-0540",
+        "cardId": "a2-urlaub-study",
+        "field": "study.examples[4].lv",
+        "ownerId": "ES-A1A2-MICRO-OWNER-0237",
+        "status": "SUPERSEDED_BY_FINAL_MICRO_OWNER",
+        "kind": "finalOwner"
+      }
+    ],
+    "microOwnerOk": 237,
+    "finalOwnerEffective": 575,
+    "lunaEffective": 1208,
+    "foreignLabotEffective": 537,
+    "foreignNelabotEffective": 37
+  },
+  "counts": {
+    "real": 1,
+    "ownerReview": 6,
+    "falsePositive": 18,
+    "outOfScope": 1
+  },
+  "nelabotUnchanged": 3,
+  "verdict": "NEEDS TARGETED A1+A2 REPAIR",
+  "mergeReadiness": {
+    "checked": true,
+    "ready": false,
+    "reason": "gates or findings remain"
+  },
+  "summary": {
+    "lunaProcessed": 237,
+    "lunaCoverage": "100%",
+    "real": 1,
+    "ownerReview": 6,
+    "outOfScope": 1,
+    "microOwner": "237/237",
+    "nelabot": "3/3",
+    "finalOwner": "575/575",
+    "lunaOwner": "1208/1208",
+    "foreignLabot": "537/537",
+    "foreignNelabot": "37/37",
+    "study10": "10/10",
+    "superseded": 67
+  }
+}

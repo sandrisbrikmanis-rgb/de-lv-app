@@ -1,0 +1,111 @@
+{
+  "batchKey": "narrow-0091-0105",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0091",
+    "ES-A1A2-MICRO-OWNER-0092",
+    "ES-A1A2-MICRO-OWNER-0093",
+    "ES-A1A2-MICRO-OWNER-0094",
+    "ES-A1A2-MICRO-OWNER-0095",
+    "ES-A1A2-MICRO-OWNER-0096",
+    "ES-A1A2-MICRO-OWNER-0097",
+    "ES-A1A2-MICRO-OWNER-0098",
+    "ES-A1A2-MICRO-OWNER-0099",
+    "ES-A1A2-MICRO-OWNER-0100",
+    "ES-A1A2-MICRO-OWNER-0101",
+    "ES-A1A2-MICRO-OWNER-0102",
+    "ES-A1A2-MICRO-OWNER-0103",
+    "ES-A1A2-MICRO-OWNER-0104",
+    "ES-A1A2-MICRO-OWNER-0105"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0094",
+      "cardId": "a2-becher",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Bitte wirf den Pappbecher weg.",
+      "pairedDe": "Bitte wirf den Pappbecher weg.",
+      "currentEs": "Por favor, deseche el vaso de cartón.",
+      "proposedEs": "Por favor, desecha el vaso de cartón.",
+      "reason": "“Wirf” is informal second-person singular; “deseche” uses formal usted instead of informal tú.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0091",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0092",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0093",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0094",
+      "cardId": "a2-becher",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Bitte wirf den Pappbecher weg.",
+      "pairedDe": "Bitte wirf den Pappbecher weg.",
+      "currentEs": "Por favor, deseche el vaso de cartón.",
+      "proposedEs": "Por favor, desecha el vaso de cartón.",
+      "reason": "“Wirf” is informal second-person singular; “deseche” uses formal usted instead of informal tú.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0095",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0096",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0097",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0098",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0099",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0100",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0101",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0102",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0103",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0104",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0105",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 14,
+  "completedAt": "2026-08-26T06:11:41.939Z"
+}

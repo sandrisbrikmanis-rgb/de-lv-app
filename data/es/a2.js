@@ -15,27 +15,27 @@ const A2_WORDS = [
         },
         {
           "de": "Er ruft mich ab und zu an.",
-          "lv": "él me llama a veces."
+          "lv": "Él me llama a veces."
         },
         {
           "de": "Ab und zu brauche ich Ruhe.",
-          "lv": "ik pa laikam man vajag mieru."
+          "lv": "De vez en cuando necesito tranquilidad."
         }
       ],
       "comparison": [
         {
           "word": "ab",
-          "meaning": "comenzando desde el punto/tiempo",
+          "meaning": "de vez en cuando",
           "example": "ab Montag – no pirmdienas"
         },
         {
           "word": "von",
-          "meaning": "de alguien/algo • origen",
+          "meaning": "ocasionalmente",
           "example": "von mir – no manis"
         },
         {
           "word": "aus",
-          "meaning": "afuera desde adentro",
+          "meaning": "a veces",
           "example": "aus dem Haus – desde la casa / fuera de la casa"
         }
       ],
@@ -136,7 +136,7 @@ const A2_WORDS = [
         ]
       },
       "tip": {
-        "text": "Recuerda: irregular → ab und zu."
+        "text": "Recuerda: significa «de vez en cuando»."
       },
       "important": [
         "ab und zu significa ocasionalmente, no con frecuencia o todos los días.",
@@ -148,22 +148,22 @@ const A2_WORDS = [
     "de": "Abenteuer",
     "de_article": "das",
     "de_plural": "die Abenteuer",
-    "lv": "aventura • asunto",
+    "lv": "aventura",
     "level": "A2"
   },
   {
     "de": "abfahren",
-    "lv": "dejar",
+    "lv": "salir • partir",
     "level": "A2",
     "study": {
       "id": "a2-abfahren",
       "layout": "standardStudy",
-      "translation": "dejar",
+      "translation": "salir • partir",
       "explanation": "Idea principal: abfahren significa salir, apartarse o conducir una distancia determinada, según el contexto. abfahren significa salir o partir. Para trenes, autobuses y tranvías, abfahren significa salir. Con una ruta o un tramo de la carretera, puede significar conducir por una ruta o tramo específico. La palabra suele aparecer junto a Uhr, Bahnhof, Zug o Bus. No es lo mismo que wegfahren, ya que abfahren a menudo enfatiza un momento específico de inicio o la salida del transporte.",
       "examples": [
         {
           "de": "Der Zug fährt um acht Uhr ab.",
-          "lv": "el tren sale a las ocho."
+          "lv": "El tren sale a las ocho."
         },
         {
           "de": "Wir fahren morgen früh ab.",
@@ -175,11 +175,11 @@ const A2_WORDS = [
         },
         {
           "de": "Wann fährt dein Zug ab?",
-          "lv": "kad atiet tavs vilciens?"
+          "lv": "¿Cuándo sale tu tren?"
         },
         {
           "de": "Wir fahren die Strecke langsam ab.",
-          "lv": "poco a poco vamos por este camino."
+          "lv": "Recorremos el trayecto lentamente."
         },
         {
           "de": "Die Reisegruppe fährt gleich ab.",
@@ -195,17 +195,17 @@ const A2_WORDS = [
         {
           "word": "wegfahren",
           "meaning": "ahuyentar",
-          "example": "Ich fahre morgen weg. = Es rīt aizbraucu prom."
+          "example": "Ich fahre morgen weg. – Mañana me voy."
         },
         {
           "word": "losfahren",
           "meaning": "empezar a conducir",
-          "example": "Wir fahren jetzt los. = Mēs tagad sākam braukt."
+          "example": "Wir fahren jetzt los. – Ahora nos vamos."
         },
         {
           "word": "abgehen",
-          "meaning": "atiet / noiet",
-          "example": "Der Bus geht gleich ab. = Autobuss tūlīt atiet."
+          "meaning": "salir / partir",
+          "example": "Der Bus geht gleich ab. – El autobús sale enseguida."
         },
         {
           "word": "fahren",
@@ -216,7 +216,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando se trata de horarios de tren o autobús, abfahren generalmente se traduce como licencia."
+            "text": "Cuando se trata de horarios de trenes o autobuses, abfahren generalmente se traduce como «salir» o «partir»."
           },
           {
             "text": "Cuando se habla de personas en viaje, abfahren a menudo significa irse o ponerse en marcha."
@@ -224,7 +224,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "abfahren nav “aizvest”.",
+        "text": "Abfahren no significa «llevar».",
         "example": "Der Zug fährt ab = el tren sale. Wir fahren ab = nos vamos. Eine Strecke abfahren = recorrer una ruta."
       },
       "sectionAccents": {
@@ -578,25 +578,25 @@ const A2_WORDS = [
   },
   {
     "de": "abgeben",
-    "lv": "entregar • regalar • enviar",
+    "lv": "entregar • regalar • presentar",
     "level": "A2",
     "study": {
       "id": "a2-abgeben",
       "layout": "standardStudy",
-      "translation": "entregar • regalar • enviar",
+      "translation": "entregar • regalar • presentar",
       "explanation": "Idea principal: abgeben significa dar o regalar algo a otro o a un lugar determinado. Se utiliza con documentos, llaves, pertenencias, aplicaciones y tareas. En la escuela o el trabajo, abgeben suele significar someterse. Vender e irradiar no son los principales significados A2 de esta carta.",
       "examples": [
         {
           "de": "Ich muss den Antrag morgen abgeben.",
-          "lv": "tengo que aplicar mañana."
+          "lv": "Tengo que entregar esto mañana."
         },
         {
           "de": "Bitte geben Sie den Schlüssel an der Rezeption ab.",
-          "lv": "por favor entregue la llave en la recepción."
+          "lv": "Por favor, entregue la llave en la recepción."
         },
         {
           "de": "Er hat seine Hausaufgaben nicht abgegeben.",
-          "lv": "no ha entregado su tarea."
+          "lv": "No ha entregado su tarea."
         },
         {
           "de": "Ich gebe das Paket bei der Post ab.",
@@ -614,18 +614,18 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "abgeben",
-          "meaning": "dar o dar a otro o a un lugar determinado",
+          "meaning": "dar o entregar a otra persona o en un lugar determinado",
           "example": "Ich gebe den Antrag ab. = Es iesniedzu pieteikumu."
         },
         {
           "word": "geben",
           "meaning": "dar",
-          "example": "Ich gebe dir den Schlüssel. = Es tev dodu atslēgu."
+          "example": "Ich gebe dir den Schlüssel. – Te doy la llave."
         },
         {
           "word": "zurückgeben",
           "meaning": "devolver",
-          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu atpakaļ."
+          "example": "Ich gebe das Buch zurück. – Devuelvo el libro."
         },
         {
           "word": "einreichen",
@@ -635,11 +635,11 @@ const A2_WORDS = [
         {
           "word": "verkaufen",
           "meaning": "vender",
-          "example": "Ich verkaufe mein Fahrrad. = Es pārdodu savu velosipēdu."
+          "example": "Ich verkaufe mein Fahrrad. – Vendo mi bicicleta."
         },
         {
           "word": "ausstrahlen",
-          "meaning": "irradiando",
+          "meaning": "emitir",
           "example": "Die Lampe strahlt Wärme aus. = Lampa izstaro siltumu."
         }
       ],
@@ -649,12 +649,12 @@ const A2_WORDS = [
             "text": "Si algo se regala o se entrega a otro o en un lugar determinado, se suele utilizar abgeben."
           },
           {
-            "text": "Cuando se trata de documentos, solicitudes o tareas, abgeben se suele traducir como \"enviar\"."
+            "text": "Cuando se trata de documentos, solicitudes o tareas, abgeben se suele traducir como «entregar» o «presentar»."
           }
         ]
       },
       "important": {
-        "text": "abgeben nav tas pats, kas verkaufen vai ausstrahlen.",
+        "text": "Abgeben no es lo mismo que verkaufen o ausstrahlen.",
         "example": "abgeben = entregar / dar / presentar. verkaufen = vender. ausstrahlen = emitir."
       },
       "sectionAccents": {
@@ -968,12 +968,12 @@ const A2_WORDS = [
   },
   {
     "de": "abholen",
-    "lv": "tomar • sacar",
+    "lv": "recoger • ir a buscar",
     "level": "A2",
     "study": {
       "id": "a2-abholen",
       "layout": "standardStudy",
-      "translation": "tomar • sacar",
+      "translation": "recoger • ir a buscar",
       "explanation": [
         "Idea principal: Ir tras y recoger a una persona o recoger un paquete/pedido.",
         "abholen básicamente significa: ir detrás y tomar/quitar de un lugar.",
@@ -983,7 +983,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich hole dich ab.",
-          "lv": "Yo te llevaré."
+          "lv": "Yo te recogeré."
         },
         {
           "de": "Kannst du mich vom Bahnhof abholen?",
@@ -991,7 +991,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "te llevaré"
+          "lv": "te recogeré"
         }
       ],
       "tip": [
@@ -1061,12 +1061,12 @@ const A2_WORDS = [
   },
   {
     "de": "holen",
-    "lv": "ir tras • buscar",
+    "lv": "buscar • ir a buscar",
     "level": "A2",
     "study": {
       "id": "a2-holen",
       "layout": "standardStudy",
-      "translation": "ir tras • buscar",
+      "translation": "buscar • ir a buscar",
       "explanation": [
         "Idea principal: Ve tras y trae algo.",
         "Holen significa principalmente: ve y busca.",
@@ -1076,15 +1076,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich hole Wasser.",
-          "lv": "Traje agua."
+          "lv": "Fui a buscar agua."
         },
         {
           "de": "Kannst du mich vom Bahnhof abholen?",
-          "lv": "¿Puedes recogerme en la estación?"
+          "lv": "¿Puedes ir a buscar agua?"
         },
         {
           "de": "Ich hole Wasser.",
-          "lv": "traje agua"
+          "lv": "Fui a buscar agua."
         }
       ],
       "tip": [
@@ -1277,12 +1277,12 @@ const A2_WORDS = [
   },
   {
     "de": "absagen",
-    "lv": "Cancelar",
+    "lv": "cancelar",
     "level": "A2",
     "study": {
       "id": "a2-absagen",
       "layout": "standardStudy",
-      "translation": "Cancelar",
+      "translation": "cancelar",
       "explanation": "Idea principal: absagen significa cancelar una cita o evento o rechazar la participación. absagen significa cancelar una reunión, evento o plan acordado. También puede significar negarse a participar o decir que no puedes venir. En Termin, Treffen, Konzert o Einladung el significado suele ser \"cancelar\" o \"rechazar\". No es lo mismo que nein sagen, porque absagen suele referirse a un asunto preestablecido. En español, deberías ver si el evento se cancela o si te niegas a participar.",
       "examples": [
         {
@@ -1291,50 +1291,50 @@ const A2_WORDS = [
         },
         {
           "de": "Das Konzert wurde abgesagt.",
-          "lv": "koncerts tika atcelts."
+          "lv": "El concierto fue cancelado."
         },
         {
           "de": "Er hat seine Teilnahme abgesagt.",
-          "lv": "rechazó la membresía."
+          "lv": "Canceló su participación."
         },
         {
           "de": "Sie sagt das Treffen ab.",
-          "lv": "ella cancela la reunión."
+          "lv": "Ella cancela la reunión."
         },
         {
           "de": "Ich muss leider absagen.",
-          "lv": "lamentablemente tengo que rechazarlo."
+          "lv": "Lamentablemente, tengo que rechazarlo."
         },
         {
           "de": "Die Firma hat die Reise abgesagt.",
-          "lv": "la empresa canceló el viaje."
+          "lv": "La empresa canceló el viaje."
         }
       ],
       "comparison": [
         {
           "word": "absagen",
-          "meaning": "cancelar / rechazar membresía",
-          "example": "Ich sage den Termin ab. = Es atceļu tikšanos."
+          "meaning": "cancelar / dar de baja una membresía",
+          "example": "Ich sage den Termin ab. – Cancelo la cita."
         },
         {
           "word": "ablehnen",
           "meaning": "rechazar / rechazar",
-          "example": "Ich lehne das Angebot ab. = Es noraidu piedāvājumu."
+          "example": "Ich lehne das Angebot ab. – Rechazo la oferta."
         },
         {
           "word": "kündigen",
           "meaning": "rescindir / cancelar el contrato",
-          "example": "Ich kündige den Vertrag. = Es uzteicu līgumu."
+          "example": "Ich kündige den Vertrag. – Rescindo el contrato."
         },
         {
           "word": "stornieren",
           "meaning": "cancelar / cancelar la reserva",
-          "example": "Ich storniere die Buchung. = Es atceļu rezervāciju."
+          "example": "Ich storniere die Buchung. – Cancelo la reserva."
         },
         {
           "word": "nein sagen",
           "meaning": "decir que no",
-          "example": "Er sagt nein. = Viņš saka nē."
+          "example": "Er sagt nein. – Él dice que no."
         }
       ],
       "tip": {
@@ -1393,8 +1393,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "rechazó",
-                "rechazó"
+                "Canceló",
+                "participación"
               ]
             }
           },
@@ -1690,21 +1690,21 @@ const A2_WORDS = [
   },
   {
     "de": "abschließen",
-    "lv": "bloquear • concluir • completar",
+    "lv": "cerrar con llave • concluir • completar",
     "level": "A2",
     "study": {
       "id": "a2-abschließen",
       "layout": "standardStudy",
-      "translation": "bloquear • concluir • completar",
+      "translation": "cerrar con llave • concluir • completar",
       "explanation": "Idea principal: abschließen significa cerrar, concluir o completar, según el objeto. Cuando se trata de una puerta o de un automóvil, significa \"cerrar\". Por contrato significa \"celebrar un acuerdo\". Con un trabajo, curso o proyecto, significa \"completar\". Por tanto, el significado cambia según el objeto: una puerta, un contrato o un trabajo.",
       "examples": [
         {
           "de": "Bitte schließ die Tür ab.",
-          "lv": "por favor cierra la puerta."
+          "lv": "Por favor, cierra la puerta con llave."
         },
         {
           "de": "Ich habe das Auto abgeschlossen.",
-          "lv": "Cerré el auto."
+          "lv": "Cerré el coche con llave."
         },
         {
           "de": "Wir schließen den Vertrag morgen ab.",
@@ -1712,11 +1712,11 @@ const A2_WORDS = [
         },
         {
           "de": "Sie hat ihre Ausbildung abgeschlossen.",
-          "lv": "ella ha completado su formación."
+          "lv": "Ella ha completado su formación."
         },
         {
           "de": "Das Projekt ist abgeschlossen.",
-          "lv": "projekts ir pabeigts."
+          "lv": "El proyecto está terminado."
         },
         {
           "de": "Er möchte das Kapitel abschließen.",
@@ -1727,7 +1727,7 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "cerrar / cerrar / completar",
-          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
+          "example": "Ich schließe die Tür ab. – Cierro la puerta con llave."
         },
         {
           "word": "schließen",
@@ -1742,13 +1742,13 @@ const A2_WORDS = [
         {
           "word": "unterschreiben",
           "meaning": "firmar",
-          "example": "Ich unterschreibe den Vertrag. = Es parakstu līgumu."
+          "example": "Ich unterschreibe den Vertrag. – Firmo el contrato."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si hay una clave, a menudo se necesitan abschließen, no sólo schließen."
+            "text": "Si se usa una llave, a menudo se necesita abschließen, no solo schließen."
           },
           {
             "text": "Abschließen significa \"concluir\" o \"completar\" cuando se trata de un contrato o proyecto."
@@ -2069,12 +2069,12 @@ const A2_WORDS = [
   },
   {
     "de": "abstellen",
-    "lv": "dejar • colocar • fuera",
+    "lv": "dejar • colocar • apagar",
     "level": "A2",
     "study": {
       "id": "a2-abstellen",
       "layout": "standardStudy",
-      "translation": "dejar • colocar • fuera",
+      "translation": "dejar • colocar • apagar",
       "explanation": [
         "Idea principal: el significado de abstellen está determinado por el objeto: estacionar el auto o la bolsa, cerrar el agua o la electricidad, apagar el motor, arreglar el problema.",
         "Con coche, bicicleta, bolso o caja, abstellen significa colocar o poner en un lugar determinado.",
@@ -2087,7 +2087,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich stelle das Fahrrad ab.",
-          "lv": "estaciono la bicicleta"
+          "lv": "Estaciono la bicicleta."
         },
         {
           "de": "Stell die Tasche bitte dort ab.",
@@ -2095,7 +2095,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Monteur stellt das Wasser ab.",
-          "lv": "el maestro cierra el agua."
+          "lv": "El técnico corta el agua."
         },
         {
           "de": "Wegen unbezahlter Rechnungen wurde der Strom abgestellt.",
@@ -2103,7 +2103,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er stellt den Motor ab.",
-          "lv": "apaga el motor."
+          "lv": "Apaga el motor."
         },
         {
           "de": "Wir müssen den Fehler abstellen.",
@@ -2114,27 +2114,27 @@ const A2_WORDS = [
         {
           "word": "abstellen",
           "meaning": "colocar/deshabilitar/apagar/prevenir dependiendo del objeto",
-          "example": "Ich stelle das Fahrrad ab. = Es novietoju velosipēdu."
+          "example": "Ich stelle das Fahrrad ab. – Dejo la bicicleta."
         },
         {
           "word": "ausschalten",
           "meaning": "Apague el dispositivo, la luz, el televisor o la computadora.",
-          "example": "Ich schalte den Computer aus. = Es izslēdzu datoru."
+          "example": "Ich schalte den Computer aus. – Apago el ordenador."
         },
         {
           "word": "anhalten",
           "meaning": "dejar de moverse / detenerse",
-          "example": "Der Bus hält an. = Autobuss apstājas."
+          "example": "Der Bus hält an. – El autobús se detiene."
         },
         {
           "word": "stoppen",
           "meaning": "detener / detener",
-          "example": "Der Fahrer stoppt das Auto. = Vadītājs aptur auto."
+          "example": "Der Fahrer stoppt das Auto. – El conductor detiene el coche."
         },
         {
           "word": "stellen",
-          "meaning": "nolikt / novietot",
-          "example": "Ich stelle die Tasche neben die Tür. = Es nolieku somu pie durvīm."
+          "meaning": "colocar / dejar",
+          "example": "Ich stelle die Tasche neben die Tür. – Dejo el bolso junto a la puerta."
         }
       ],
       "tip": {
@@ -2151,7 +2151,7 @@ const A2_WORDS = [
             "text": "Cuando se habla de un motor o un despertador, abstellen puede significar apagar."
           },
           {
-            "text": "Ja runa ir par TV, datoru vai gaismu, parasti lieto ausschalten."
+            "text": "Si se habla de un televisor, un ordenador o una luz, normalmente se usa ausschalten."
           }
         ]
       },
@@ -2523,14 +2523,14 @@ const A2_WORDS = [
   },
   {
     "de": "abtauen",
-    "lv": "deshielo",
+    "lv": "descongelar",
     "level": "A2"
   },
   {
     "de": "Abteil",
     "de_article": "das",
     "de_plural": "die Abteile",
-    "lv": "cupé",
+    "lv": "compartimento",
     "level": "A2"
   },
   {
@@ -2540,14 +2540,14 @@ const A2_WORDS = [
   },
   {
     "de": "abwesend",
-    "lv": "prometedor",
+    "lv": "ausente",
     "level": "A2"
   },
   {
     "de": "Achse",
     "de_article": "die",
     "de_plural": "die Achsen",
-    "lv": "culo",
+    "lv": "eje",
     "level": "A2"
   },
   {
@@ -2581,7 +2581,7 @@ const A2_WORDS = [
     "de": "Aerobic",
     "de_article": "die",
     "de_plural": null,
-    "lv": "aerobic",
+    "lv": "aeróbic",
     "level": "A2"
   },
   {
@@ -2637,7 +2637,7 @@ const A2_WORDS = [
     "de": "Änderung",
     "de_article": "die",
     "de_plural": "die Änderungen",
-    "lv": "cambios",
+    "lv": "cambio",
     "level": "A2"
   },
   {
@@ -2684,15 +2684,15 @@ const A2_WORDS = [
         },
         {
           "de": "Diese Methode wird angewandt.",
-          "lv": "se aplica este método."
+          "lv": "Se aplica este método."
         },
         {
           "de": "Das ist ein Beispiel für angewandte Wissenschaft.",
-          "lv": "es un ejemplo de ciencia aplicada."
+          "lv": "Es un ejemplo de ciencia aplicada."
         },
         {
           "de": "Die Regel wird hier nicht angewandt.",
-          "lv": "la regla no se aplica aquí."
+          "lv": "La regla no se aplica aquí."
         },
         {
           "de": "Der Kurs verbindet Theorie und angewandte Praxis.",
@@ -2703,12 +2703,12 @@ const A2_WORDS = [
         {
           "word": "angewandt",
           "meaning": "aplicado / aplicado",
-          "example": "Diese Methode wird angewandt. = Šī metode tiek pielietota."
+          "example": "Diese Methode wird angewandt. – Este método se aplica."
         },
         {
           "word": "praktisch",
           "meaning": "práctico",
-          "example": "Das ist eine praktische Lösung. = Tas ir praktisks risinājums."
+          "example": "Das ist eine praktische Lösung. – Esta es una solución práctica."
         },
         {
           "word": "verwenden",
@@ -2717,7 +2717,7 @@ const A2_WORDS = [
         },
         {
           "word": "anwenden",
-          "meaning": "pielietot",
+          "meaning": "aplicar",
           "example": "Ich wende die Regel an. = Es pielietoju noteikumu."
         }
       ],
@@ -3026,28 +3026,28 @@ const A2_WORDS = [
         {
           "word": "angreifen",
           "meaning": "atacar / criticar duramente",
-          "example": "Der Hund greift an. = Suns uzbrūk."
+          "example": "Der Hund greift an. – El perro ataca."
         },
         {
           "word": "attackieren",
           "meaning": "atacar",
-          "example": "Die Gruppe attackiert ihn. = Grupa viņam uzbrūk."
+          "example": "Die Gruppe attackiert ihn. – El grupo lo ataca."
         },
         {
           "word": "beleidigen",
-          "meaning": "apvainot / aizvainot",
-          "example": "Er beleidigt mich. = Viņš mani apvaino."
+          "meaning": "ofender / insultar",
+          "example": "Er beleidigt mich. – Él me insulta."
         },
         {
           "word": "kritisieren",
           "meaning": "criticar",
-          "example": "Sie kritisiert den Vorschlag. = Viņa kritizē priekšlikumu."
+          "example": "Sie kritisiert den Vorschlag. – Ella critica la propuesta."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si hay un ataque físico o directo se utiliza enojo."
+            "text": "Si hay un ataque físico o directo, se utiliza angreifen."
           },
           {
             "text": "Si alguien simplemente abusa verbalmente, la palabra más precisa suele ser beleidigen."
@@ -3055,7 +3055,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Enojarse no es simplemente \"ofender\". Esto suele implicar un ataque o una crítica muy dura.",
+        "text": "Atacar no es simplemente «ofender». Esto suele implicar un ataque o una crítica muy dura.",
         "example": "Jemanden ragifen = atacar a alguien. Jemanden beleidigen = insultar a alguien."
       },
       "accents": {
@@ -3168,7 +3168,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Auto zieht einen Anhänger.",
-          "lv": "auto velk piekabi."
+          "lv": "El coche tira de un remolque."
         },
         {
           "de": "Wir fahren mit einem Anhänger in den Urlaub.",
@@ -3180,7 +3180,7 @@ const A2_WORDS = [
         },
         {
           "de": "Viele Anhänger warten vor dem Stadion.",
-          "lv": "daudzi fani gaida pie stadiona."
+          "lv": "Muchos aficionados esperan delante del estadio."
         },
         {
           "de": "Sie trägt einen kleinen Anhänger an der Kette.",
@@ -3188,7 +3188,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Anhänger ist aus Silber.",
-          "lv": "kulons ir no sudraba."
+          "lv": "El colgante es de plata."
         }
       ],
       "comparison": [
@@ -3200,17 +3200,17 @@ const A2_WORDS = [
         {
           "word": "der Fan",
           "meaning": "un fan",
-          "example": "Er ist ein Fan der Mannschaft. = Viņš ir komandas fans."
+          "example": "Er ist ein Fan der Mannschaft. = Él es un fan del equipo."
         },
         {
           "word": "der Unterstützer",
           "meaning": "un partidario",
-          "example": "Sie hat viele Unterstützer. = Viņai ir daudz atbalstītāju."
+          "example": "Sie hat viele Unterstützer. = Ella tiene muchos seguidores."
         },
         {
           "word": "der Wohnwagen",
           "meaning": "caravana",
-          "example": "Der Wohnwagen steht am See. = Dzīvojamā piekabe stāv pie ezera."
+          "example": "Der Wohnwagen steht am See. = La caravana está junto al lago."
         }
       ],
       "tip": {
@@ -3224,7 +3224,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "No basta con aprender sólo el “trailer”. La misma palabra también puede referirse a una persona o a una joya.",
+        "text": "No basta con aprender sólo «remolque». La misma palabra también puede referirse a una persona o a una joya.",
         "example": "Autoanhänger = remolque. Anhänger einer Partei = seguidor del partido. Anhänger an der Kette = colgante."
       },
       "accents": {
@@ -3325,16 +3325,16 @@ const A2_WORDS = [
     "study": {
       "id": "a2-anheizen",
       "layout": "standardStudy",
-      "translation": "encender",
+      "translation": "calentar • avivar • incitar",
       "explanation": "Idea principal: anheizen significa comenzar a calentar o calentar las cosas. Con estufa o fuego, significa encender. Por argumento, atmósfera o debate, significa inflamar o agravar. La palabra suele ser figurativa. Esto no es lo mismo que simplemente \"calentar\" a Heizen.",
       "examples": [
         {
           "de": "Wir heizen den Ofen an.",
-          "lv": "encendemos el horno."
+          "lv": "Encendemos el horno."
         },
         {
           "de": "Er heizt das Feuer an.",
-          "lv": "él aviva el fuego."
+          "lv": "Él aviva el fuego."
         },
         {
           "de": "Die Rede heizte die Stimmung an.",
@@ -3342,27 +3342,27 @@ const A2_WORDS = [
         },
         {
           "de": "Die Medien heizen die Diskussion an.",
-          "lv": "mediji uzkurina diskusiju."
+          "lv": "Los medios de comunicación avivan el debate."
         },
         {
           "de": "Bitte heiz den Grill an.",
-          "lv": "por favor enciende la parrilla."
+          "lv": "Por favor, enciende la parrilla."
         },
         {
           "de": "Seine Worte haben den Streit angeheizt.",
-          "lv": "sus palabras intensificaron la discusión."
+          "lv": "Sus palabras intensificaron la discusión."
         }
       ],
       "comparison": [
         {
           "word": "anheizen",
           "meaning": "encender / encender",
-          "example": "Ich heize den Ofen an. = Es iekuru krāsni."
+          "example": "Ich heize den Ofen an. = Enciendo el horno."
         },
         {
           "word": "heizen",
           "meaning": "calentar / calentar",
-          "example": "Wir heizen die Wohnung. = Mēs apkurinām dzīvokli."
+          "example": "Wir heizen die Wohnung. = Calentamos la vivienda."
         },
         {
           "word": "anzünden",
@@ -3372,7 +3372,7 @@ const A2_WORDS = [
         {
           "word": "verschärfen",
           "meaning": "agravar",
-          "example": "Das verschärft den Streit. = Tas saasina strīdu."
+          "example": "Das verschärft den Streit. = Eso agrava la disputa."
         }
       ],
       "tip": {
@@ -3381,7 +3381,7 @@ const A2_WORDS = [
             "text": "En Ofen, Feuer o Grill, anheizen significa encender o calentar."
           },
           {
-            "text": "En el caso de Stimmung, Diskussion o Streit, esto a menudo significa agravar la situación."
+            "text": "En el caso del ánimo, el debate o la disputa, esto a menudo significa agravar la situación."
           }
         ]
       },
@@ -3529,59 +3529,59 @@ const A2_WORDS = [
     "de": "Anlass",
     "de_article": "der",
     "de_plural": "die Anlässe",
-    "lv": "razón • caso",
+    "lv": "ocasión",
     "level": "A2"
   },
   {
     "de": "anlässlich",
-    "lv": "debido a",
+    "lv": "con motivo de",
     "level": "A2"
   },
   {
     "de": "anlegen",
-    "lv": "adjuntar",
+    "lv": "ponerse • invertir • crear",
     "level": "A2",
     "study": {
       "id": "a2-anlegen",
       "layout": "standardStudy",
-      "translation": "adjuntar",
+      "translation": "ponerse • invertir • crear",
       "explanation": "Idea principal: anlegen significa ponerse, ponerse, invertir o crear según el objeto. anlegen es un verbo plural. Para ropa o cinturón de seguridad, puede significar \"ponerse\". Por dinero, significa \"invertir\". Para archivos, carpetas o un perfil, puede significar \"crear\". Con las manos o una herramienta, puede significar \"ponerse algo\".",
       "examples": [
         {
           "de": "Bitte legen Sie den Sicherheitsgurt an.",
-          "lv": "por favor abróchese el cinturón de seguridad."
+          "lv": "Por favor, abróchese el cinturón de seguridad."
         },
         {
           "de": "Er legt sein Geld gut an.",
-          "lv": "invierte bien su dinero."
+          "lv": "Invierte bien su dinero."
         },
         {
           "de": "Ich möchte ein neues Konto anlegen.",
-          "lv": "es gribu izveidot jaunu kontu."
+          "lv": "Quiero crear una cuenta nueva."
         },
         {
           "de": "Sie legt einen Verband an.",
-          "lv": "ella aplica un vendaje."
+          "lv": "Ella aplica un vendaje."
         },
         {
           "de": "Wir legen eine Datei an.",
-          "lv": "creamos un archivo."
+          "lv": "Creamos un archivo."
         },
         {
           "de": "Der Arzt legt das Gerät an den Arm an.",
-          "lv": "el médico coloca el dispositivo en la mano."
+          "lv": "El médico coloca el dispositivo en la mano."
         }
       ],
       "comparison": [
         {
           "word": "anlegen",
-          "meaning": "imponer / invertir / crear",
+          "meaning": "ponerse / invertir / crear",
           "example": "Ich lege Geld an. = Es ieguldu naudu."
         },
         {
           "word": "legen",
           "meaning": "acostarse",
-          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
+          "example": "Ich lege das Buch auf den Tisch. = Coloco el libro sobre la mesa."
         },
         {
           "word": "investieren",
@@ -3590,7 +3590,7 @@ const A2_WORDS = [
         },
         {
           "word": "erstellen",
-          "meaning": "izveidot",
+          "meaning": "crear",
           "example": "Ich erstelle ein Konto. = Es izveidoju kontu."
         }
       ],
@@ -3917,21 +3917,21 @@ const A2_WORDS = [
   },
   {
     "de": "anmelden",
-    "lv": "aplicar",
+    "lv": "registrarse • inscribirse • anunciar",
     "level": "A2",
     "study": {
       "id": "a2-anmelden",
       "layout": "standardStudy",
-      "translation": "aplicar",
+      "translation": "registrarse • inscribirse • anunciar",
       "explanation": "Idea principal: anmelden significa aplicar, registrar, anotar o anunciar en una situación oficial o práctica. anmelden significa solicitar o registrar una persona, cosa o membresía. Se utiliza para cursos, escuelas, eventos y sistemas. Anmelden al médico puede significar tomar nota o solicitar una visita. En una computadora o aplicación, sich anmelden significa iniciar sesión o registrarse. En algunos contextos, anmelden significa anunciar que viene alguien o que se está registrando algo.",
       "examples": [
         {
           "de": "Ich melde mich zum Kurs an.",
-          "lv": "es piesakos kursam."
+          "lv": "Me inscribo en el curso."
         },
         {
           "de": "Sie meldet ihr Kind in der Schule an.",
-          "lv": "ella registra al niño en la escuela."
+          "lv": "Ella registra al niño en la escuela."
         },
         {
           "de": "Kann ich mich beim Arzt anmelden?",
@@ -3939,42 +3939,42 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte melden Sie sich online an.",
-          "lv": "por favor regístrese en línea."
+          "lv": "Por favor, regístrese en línea."
         },
         {
           "de": "Er meldet den Besuch vorher an.",
-          "lv": "anuncia la visita con antelación."
+          "lv": "Anuncia la visita con antelación."
         },
         {
           "de": "Ich habe mich für den Test angemeldet.",
-          "lv": "es pieteicos testam."
+          "lv": "Me inscribo en el examen."
         }
       ],
       "comparison": [
         {
           "word": "anmelden",
-          "meaning": "aplicar / registrarse / anotar",
+          "meaning": "inscribirse / registrarse / anunciar",
           "example": "Ich melde mich an. = Es piesakos."
         },
         {
           "word": "sich anmelden",
-          "meaning": "aplicar / conectar",
-          "example": "Melden Sie sich bitte an. = Lūdzu, piesakieties."
+          "meaning": "inscribirse / iniciar sesión",
+          "example": "Melden Sie sich bitte an. = Regístrese, por favor."
         },
         {
           "word": "registrieren",
           "meaning": "registro",
-          "example": "Ich registriere mein Konto. = Es reģistrēju savu kontu."
+          "example": "Ich registriere mein Konto. = Registro mi cuenta."
         },
         {
           "word": "buchen",
           "meaning": "reservar",
-          "example": "Ich buche einen Termin. = Es rezervēju laiku."
+          "example": "Ich buche einen Termin. = Reservo una cita."
         },
         {
           "word": "melden",
           "meaning": "informar / notificar",
-          "example": "Ich melde das Problem. = Es ziņoju par problēmu."
+          "example": "Ich melde das Problem. = Informo sobre el problema."
         }
       ],
       "tip": {
@@ -3983,12 +3983,12 @@ const A2_WORDS = [
             "text": "Anmelden generalmente significa postularse para un curso, prueba o evento."
           },
           {
-            "text": "Con un médico o institución, anmelden a menudo significa registrarse o registrarse."
+            "text": "Con un médico o una institución, anmelden a menudo significa registrarse o inscribirse."
           }
         ]
       },
       "important": {
-        "text": "anmelden puede ser con o sin sic.",
+        "text": "anmelden puede ser con o sin sich.",
         "example": "Ich melde mich an = aplico. Ich melde mein Kind an = registré a un niño. Ich melde das Problem = informo de un problema."
       },
       "sectionAccents": {
@@ -4363,7 +4363,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie steckt das Mikrofon an.",
-          "lv": "ella corta el micrófono."
+          "lv": "Ella conecta el micrófono."
         },
         {
           "de": "Grippe steckt leicht an.",
@@ -4378,8 +4378,8 @@ const A2_WORDS = [
         },
         {
           "word": "stecken",
-          "meaning": "pinchar / ser",
-          "example": "Der Schlüssel steckt im Schloss. = Atslēga ir slēdzenē."
+          "meaning": "pinchar / infectar",
+          "example": "Der Schlüssel steckt im Schloss. = La llave está en la cerradura."
         },
         {
           "word": "anzünden",
@@ -4389,7 +4389,7 @@ const A2_WORDS = [
         {
           "word": "sich anstecken",
           "meaning": "contagiarse",
-          "example": "Ich habe mich angesteckt. = Es inficējos."
+          "example": "Ich habe mich angesteckt. = Me he contagiado."
         }
       ],
       "tip": {
@@ -4714,17 +4714,17 @@ const A2_WORDS = [
   },
   {
     "de": "anstellen",
-    "lv": "encender",
+    "lv": "contratar • encender • hacer cola",
     "level": "A2",
     "study": {
       "id": "a2-anstellen",
       "layout": "standardStudy",
-      "translation": "encender",
+      "translation": "contratar • encender • hacer cola",
       "explanation": "Idea principal: anstellen significa activar, contratar, alinear o hacer algo dependiendo del contexto. anstellen es un verbo muy versátil. Con una persona, puede significar \"reclutar\". Con electrodoméstico o calefacción, puede significar \"encender\". sich anstellen significa hacer cola. Coloquialmente, etwas anstellen significa hacer o hacer algo.",
       "examples": [
         {
           "de": "Die Firma stellt neue Mitarbeiter an.",
-          "lv": "la empresa está contratando nuevos empleados."
+          "lv": "La empresa está contratando nuevos empleados."
         },
         {
           "de": "Kannst du die Heizung anstellen?",
@@ -4732,41 +4732,41 @@ const A2_WORDS = [
         },
         {
           "de": "Wir stellen uns hinten an.",
-          "lv": "estamos al final de la línea."
+          "lv": "Estamos haciendo cola."
         },
         {
           "de": "Was hast du wieder angestellt?",
-          "lv": "¿Qué has hecho de nuevo?"
+          "lv": "¿Qué has hecho esta vez?"
         },
         {
           "de": "Er wurde als Fahrer angestellt.",
-          "lv": "fue contratado como conductor."
+          "lv": "Fue contratado como conductor."
         },
         {
           "de": "Stell dich bitte nicht so an.",
-          "lv": "por favor no hagas un problema con esto."
+          "lv": "Por favor, no armes tanto escándalo por esto."
         }
       ],
       "comparison": [
         {
           "word": "anstellen",
-          "meaning": "contratar / encender / hacer",
-          "example": "Die Firma stellt ihn an. = Firma viņu pieņem darbā."
+          "meaning": "contratar / encender / hacer cola",
+          "example": "Die Firma stellt ihn an. = La empresa lo contrata."
         },
         {
           "word": "einstellen",
           "meaning": "reclutar / establecer",
-          "example": "Wir stellen neue Leute ein. = Mēs pieņemam darbā jaunus cilvēkus."
+          "example": "Wir stellen neue Leute ein. = Contratamos a gente nueva."
         },
         {
           "word": "anschalten",
           "meaning": "encender",
-          "example": "Ich schalte das Licht an. = Es ieslēdzu gaismu."
+          "example": "Ich schalte das Licht an. = Enciendo la luz."
         },
         {
           "word": "sich anstellen",
           "meaning": "hacer fila",
-          "example": "Ich stelle mich an. = Es nostājos rindā."
+          "example": "Ich stelle mich an. = Me pongo en la cola."
         }
       ],
       "tip": {
@@ -5089,17 +5089,17 @@ const A2_WORDS = [
   },
   {
     "de": "anstreichen",
-    "lv": "color • subrayado",
+    "lv": "pintar",
     "level": "A2"
   },
   {
     "de": "anstrengend",
-    "lv": "agotador • tenso",
+    "lv": "agotador • estresante",
     "level": "A2",
     "study": {
       "id": "a2-anstrengend",
       "layout": "minimalStudy",
-      "translation": "agotador • tenso",
+      "translation": "agotador • estresante",
       "accent": "blue",
       "examples": [
         {
@@ -5164,7 +5164,7 @@ const A2_WORDS = [
   },
   {
     "de": "anzünden",
-    "lv": "incendiar",
+    "lv": "encender",
     "level": "A2"
   },
   {
@@ -5228,7 +5228,7 @@ const A2_WORDS = [
     "de": "Arm",
     "de_article": "der",
     "de_plural": "die Arme",
-    "lv": "mano",
+    "lv": "brazo",
     "level": "A2"
   },
   {
@@ -5249,12 +5249,12 @@ const A2_WORDS = [
     "de": "Art",
     "de_article": "die",
     "de_plural": "die Arten",
-    "lv": "forma",
+    "lv": "manera • tipo",
     "level": "A2",
     "study": {
       "id": "a2-art",
       "layout": "standardStudy",
-      "translation": "forma",
+      "translation": "manera • tipo",
       "explanation": "Idea principal: die Art en el nivel A2 suele significar tipografía. Se utiliza muy a menudo en las frases auf diese Art, auf welche Art, eine andere Art y welche Art. Con die Art, puedes preguntar a qué tipo de cosa, bebida, trabajo o solución se refiere. Sólo en determinados contextos el arte puede significar una especie o tipo. Estos significados son más raros que el tipo de significado principal.",
       "examples": [
         {
@@ -5267,7 +5267,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das ist eine andere Art von Problem.",
-          "lv": "es un tipo diferente de problema."
+          "lv": "Es un tipo diferente de problema."
         },
         {
           "de": "Ich mag diese Art von Musik.",
@@ -5279,21 +5279,21 @@ const A2_WORDS = [
         },
         {
           "de": "Diese Art lebt nur in warmen Ländern.",
-          "lv": "esta especie vive sólo en países cálidos."
+          "lv": "Esta especie vive solo en países cálidos."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si no estás seguro, casi siempre puedes pensar: die Art = way."
+            "text": "Si no estás seguro, casi siempre puedes pensar: die Art = manera o tipo."
           },
           {
-            "text": "Las frases auf diese Art, auf welche Art y eine andere Art casi siempre tratan sobre tipografía."
+            "text": "Las frases auf diese Art, auf welche Art y eine andere Art casi siempre expresan manera o tipo."
           }
         ]
       },
       "important": {
-        "text": "El significado principal es \"camino\".",
+        "text": "Los significados principales son «manera» y «tipo».",
         "example": "las especies y las especies dependen del contexto. Esta tarjeta A2 no necesita ningún extra raro."
       },
       "sectionAccents": {
@@ -5536,12 +5536,12 @@ const A2_WORDS = [
     "de": "Artikel",
     "de_article": "der",
     "de_plural": "die Artikel",
-    "lv": "el articulo",
+    "lv": "el artículo",
     "level": "A2",
     "study": {
       "id": "a2-artikel",
       "layout": "standardStudy",
-      "translation": "el articulo",
+      "translation": "el artículo",
       "explanation": "Idea principal: der Artikel significa artículo, artículo, artículo de gramática o artículo de ley según el campo. der Artikel puede significar un artículo en un periódico, Internet o revista. En tienda, Artikel significa producto o artículo. En gramática, Artikel es un artículo como der, die, das. En un texto legal, Artikel puede significar un artículo de ley. El significado suele ser determinado por el entorno: Zeitung, Geschäft, Grammatik o Gesetz. Por tanto, esta palabra debe leerse según el contexto.",
       "examples": [
         {
@@ -5554,15 +5554,15 @@ const A2_WORDS = [
         },
         {
           "de": "Dieser Artikel kostet zehn Euro.",
-          "lv": "este artículo cuesta diez euros."
+          "lv": "Este artículo cuesta diez euros."
         },
         {
           "de": "Der Artikel ist heute im Angebot.",
-          "lv": "este artículo está a la venta hoy."
+          "lv": "Este artículo está a la venta hoy."
         },
         {
           "de": "Der Artikel von „Haus“ ist „das“.",
-          "lv": "el artículo de la palabra \"Haus\" es \"das\"."
+          "lv": "El artículo de la palabra «Haus» es «das»."
         },
         {
           "de": "Artikel 5 steht im Gesetz.",
@@ -5572,28 +5572,28 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "der Artikel",
-          "meaning": "raksts / prece / artículo / pants",
-          "example": "Der Artikel ist kurz. = Raksts ir īss."
+          "meaning": "artículo / producto / artículo gramatical / párrafo",
+          "example": "Der Artikel ist kurz. = El artículo es corto."
         },
         {
           "word": "der Zeitungsartikel",
           "meaning": "artículo periodístico",
-          "example": "Der Zeitungsartikel ist neu. = Avīzes raksts ir jauns."
+          "example": "Der Zeitungsartikel ist neu. = El artículo del periódico es nuevo."
         },
         {
           "word": "die Ware",
           "meaning": "artículo",
-          "example": "Die Ware ist teuer. = Prece ir dārga."
+          "example": "Die Ware ist teuer. = La mercancía es cara."
         },
         {
           "word": "der bestimmte Artikel",
-          "meaning": "noteiktais artículo",
+          "meaning": "artículo definido",
           "example": "Der bestimmte Artikel ist „der“. = Noteiktais artikuls ir „der“."
         },
         {
           "word": "der Paragraph",
           "meaning": "párrafo / artículo",
-          "example": "Der Paragraph ist wichtig. = Pants ir svarīgs."
+          "example": "Der Paragraph ist wichtig. = El párrafo es importante."
         }
       ],
       "tip": {
@@ -6014,7 +6014,7 @@ const A2_WORDS = [
     "de": "Ast",
     "de_article": "der",
     "de_plural": "die Äste",
-    "lv": "una sucursal",
+    "lv": "rama",
     "level": "A2"
   },
   {
@@ -6058,7 +6058,7 @@ const A2_WORDS = [
   },
   {
     "de": "auf die Schulter klopfen",
-    "lv": "toque en el hombro",
+    "lv": "dar una palmada en el hombro",
     "level": "A2"
   },
   {
@@ -6068,7 +6068,7 @@ const A2_WORDS = [
   },
   {
     "de": "auf jeden Fall",
-    "lv": "en cada caso",
+    "lv": "en cualquier caso",
     "level": "A2"
   },
   {
@@ -6085,7 +6085,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufbrechen",
-    "lv": "poner en marcha • abrirse",
+    "lv": "ponerse en marcha",
     "level": "A2"
   },
   {
@@ -6102,7 +6102,7 @@ const A2_WORDS = [
     "de": "Aufenthalt",
     "de_article": "der",
     "de_plural": "die Aufenthalte",
-    "lv": "permanecer",
+    "lv": "estancia",
     "level": "A2"
   },
   {
@@ -6117,7 +6117,7 @@ const A2_WORDS = [
   },
   {
     "de": "auffordern",
-    "lv": "invitar",
+    "lv": "pedir",
     "level": "A2"
   },
   {
@@ -6139,17 +6139,17 @@ const A2_WORDS = [
   },
   {
     "de": "aufhalten",
-    "lv": "demora",
+    "lv": "detener",
     "level": "A2"
   },
   {
     "de": "aufheben",
-    "lv": "subir • cancelar • guardar",
+    "lv": "levantar • cancelar • guardar",
     "level": "A2",
     "study": {
       "id": "a2-aufheben",
       "layout": "standardStudy",
-      "translation": "subir • cancelar • guardar",
+      "translation": "levantar • cancelar • guardar",
       "explanation": "Idea principal: aufheben significa aumentar, cancelar o ahorrar dependiendo de lo que se esté haciendo. aufheben puede significar levantar algo del suelo. También puede significar revocar una norma, prohibición o decisión. Cada día, aufheben también puede significar guardar para más tarde. Estos significados son muy diferentes, por lo que la palabra debe verse en contexto. Es especialmente importante distinguir entre subir y cancelar.",
       "examples": [
         {
@@ -6162,11 +6162,11 @@ const A2_WORDS = [
         },
         {
           "de": "Das Gericht hebt das Urteil auf.",
-          "lv": "el tribunal anula la sentencia."
+          "lv": "El tribunal anula la sentencia."
         },
         {
           "de": "Die Regel wurde aufgehoben.",
-          "lv": "noteikums tika atcelts."
+          "lv": "La regla fue cancelada."
         },
         {
           "de": "Ich hebe die Rechnung auf.",
@@ -6174,24 +6174,24 @@ const A2_WORDS = [
         },
         {
           "de": "Heb das bitte für später auf.",
-          "lv": "por favor guárdelo para más tarde."
+          "lv": "Por favor, guárdelo para más tarde."
         }
       ],
       "comparison": [
         {
           "word": "aufheben",
           "meaning": "levantar / cancelar / guardar",
-          "example": "Ich hebe den Schlüssel auf. = Es paceļu atslēgu."
+          "example": "Ich hebe den Schlüssel auf. = Recojo la llave."
         },
         {
           "word": "heben",
           "meaning": "elevar",
-          "example": "Ich hebe die Hand. = Es paceļu roku."
+          "example": "Ich hebe die Hand. = Levanto la mano."
         },
         {
           "word": "absagen",
           "meaning": "cancelar el evento",
-          "example": "Wir sagen den Termin ab. = Mēs atceļam tikšanos."
+          "example": "Wir sagen den Termin ab. = Cancelamos la cita."
         },
         {
           "word": "behalten",
@@ -6528,7 +6528,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufklären",
-    "lv": "descubrir • explicar",
+    "lv": "aclarar",
     "level": "A2"
   },
   {
@@ -6592,17 +6592,17 @@ const A2_WORDS = [
         {
           "word": "die Auflage",
           "meaning": "circulación / edición / condición",
-          "example": "Die Auflage ist hoch. = Tirāža ir liela."
+          "example": "Die Auflage ist hoch. = La tirada es alta."
         },
         {
           "word": "die Ausgabe",
-          "meaning": "izdevums / numurs",
-          "example": "Die neue Ausgabe ist da. = Jaunais numurs ir klāt."
+          "meaning": "edición / número",
+          "example": "Die neue Ausgabe ist da. = La nueva edición ya está aquí."
         },
         {
           "word": "die Bedingung",
           "meaning": "condición",
-          "example": "Das ist eine Bedingung. = Tas ir nosacījums."
+          "example": "Das ist eine Bedingung. = Esta es una condición."
         },
         {
           "word": "die Voraussetzung",
@@ -6616,12 +6616,12 @@ const A2_WORDS = [
             "text": "Por Zeitung, Buch o Verlag die Auflage suele significar circulación o edición."
           },
           {
-            "text": "Por Genhemigung, Vertrag o Behörde puede significar una condición."
+            "text": "Por Genehmigung, Vertrag o Behörde puede significar una condición."
           }
         ]
       },
       "important": {
-        "text": "die Auflage no es sólo una \"edición\". En el idioma oficial, este puede ser un requisito a cumplir.",
+        "text": "die Auflage no es sólo una \"edición\". En el idioma oficial, esta puede ser un requisito a cumplir.",
         "example": "hohe Auflage = gran circulación. zweite Auflage = segunda edición. mit Auflagen = con condiciones."
       },
       "accents": {
@@ -6738,17 +6738,17 @@ const A2_WORDS = [
     "de": "Aufnahme",
     "de_article": "die",
     "de_plural": "die Aufnahmen",
-    "lv": "grabación • grabación • foto",
+    "lv": "foto • grabación • admisión",
     "level": "A2",
     "study": {
       "id": "a2-aufnahme",
       "layout": "standardStudy",
-      "translation": "grabación • grabación • foto",
+      "translation": "foto • grabación • admisión",
       "explanation": "Idea principal: die Aufnahme significa tomar, grabar o tomar una fotografía, según el contexto. Con foto o video, puede ser una foto o una grabación. En el caso de las personas, puede significar el ingreso a una escuela, hospital o grupo. Con sonido, es una grabación de audio. El contexto determina si se trata de una imagen, un sonido o una recepción humana.",
       "examples": [
         {
           "de": "Die Aufnahme ist sehr scharf.",
-          "lv": "la foto es muy nítida."
+          "lv": "La foto es muy nítida."
         },
         {
           "de": "Ich höre mir die Aufnahme noch einmal an.",
@@ -6760,11 +6760,11 @@ const A2_WORDS = [
         },
         {
           "de": "Die Band macht eine neue Aufnahme.",
-          "lv": "grupa veido jaunu ierakstu."
+          "lv": "El grupo está haciendo una nueva grabación."
         },
         {
           "de": "Diese Aufnahme zeigt den alten Bahnhof.",
-          "lv": "esta foto muestra la antigua estación."
+          "lv": "Esta foto muestra la antigua estación."
         },
         {
           "de": "Die Aufnahme in den Kurs ist nicht einfach.",
@@ -6785,17 +6785,17 @@ const A2_WORDS = [
         {
           "word": "das Bild",
           "meaning": "imagen",
-          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+          "example": "Das Bild hängt an der Wand. = La imagen cuelga en la pared."
         },
         {
           "word": "die Aufzeichnung",
-          "meaning": "ieraksts",
+          "meaning": "grabación",
           "example": "Die Aufzeichnung ist lang. = Ieraksts ir garš."
         },
         {
           "word": "die Aufnahmeprüfung",
           "meaning": "examen de ingreso",
-          "example": "Die Aufnahmeprüfung ist morgen. = Iestājpārbaudījums ir rīt."
+          "example": "Die Aufnahmeprüfung ist morgen. = El examen de admisión es mañana."
         }
       ],
       "tip": {
@@ -6809,7 +6809,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "die Aufnahme no es sólo una “fotografía”. También puede ser una grabación, una fotografía o un proceso de grabación.",
+        "text": "die Aufnahme no es sólo una “fotografía”. También puede ser una grabación, una fotografía o una admisión.",
         "example": "Fotoaufnahme = foto. Tonaufnahme = grabación de sonido. Aufnahme ins Krankenhaus = Ingreso hospitalario."
       },
       "accents": {
@@ -6913,12 +6913,12 @@ const A2_WORDS = [
     "study": {
       "id": "a2-aufnehmen",
       "layout": "standardStudy",
-      "translation": "admitir",
+      "translation": "grabar • admitir • absorber",
       "explanation": "Idea principal: aufnehmen significa recibir, registrar, aceptar o reanudar según el objeto. aufnehmen significa absorber o tomar algo dentro de uno mismo. Por foto, vídeo o sonido, se entiende grabar o grabar. Para una persona, esto puede significar aceptación en un grupo, escuela u hospital. Con trabajo o contacto, puede significar empezar o renovar. El significado cambia según el objeto: vídeo, persona, obra o información.",
       "examples": [
         {
           "de": "Ich nehme ein Video auf.",
-          "lv": "es ierakstu video."
+          "lv": "Estoy grabando un vídeo."
         },
         {
           "de": "Das Krankenhaus nimmt neue Patienten auf.",
@@ -6944,29 +6944,29 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "aufnehmen",
-          "meaning": "registrar / registrar / aceptar",
+          "meaning": "grabar / registrar / aceptar",
           "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         },
         {
           "word": "nehmen",
           "meaning": "tomar",
-          "example": "Ich nehme das Buch. = Es ņemu grāmatu."
+          "example": "Ich nehme das Buch. = Cojo el libro."
         },
         {
           "word": "annehmen",
           "meaning": "aceptar",
-          "example": "Ich nehme das Angebot an. = Es pieņemu piedāvājumu."
+          "example": "Ich nehme das Angebot an. = Acepto la oferta."
         },
         {
           "word": "beginnen",
-          "meaning": "para empezar",
-          "example": "Wir beginnen die Arbeit. = Mēs sākam darbu."
+          "meaning": "retomar / reanudar",
+          "example": "Wir beginnen die Arbeit. = Empezamos el trabajo."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "En el contexto de vídeo, audio y fotografías, aufnehmen suele significar grabar o grabar."
+            "text": "En el contexto de vídeo, audio y fotografías, aufnehmen suele significar grabar o registrar."
           },
           {
             "text": "En el caso de las personas, aufnehmen a menudo significa aceptar en un grupo, escuela u hospital."
@@ -7289,12 +7289,12 @@ const A2_WORDS = [
   },
   {
     "de": "aufräumen",
-    "lv": "arreglar",
+    "lv": "ordenar",
     "level": "A2"
   },
   {
     "de": "aufregen",
-    "lv": "preocuparse",
+    "lv": "alterar",
     "level": "A2"
   },
   {
@@ -7311,7 +7311,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-aufrichtig",
       "layout": "standardStudy",
-      "translation": "sincero • sincero • abierto",
+      "translation": "sincero • genuino • abierto",
       "explanation": "Idea principal: Aufrichtig significa sincero, sincero o abierto. Se utiliza para disculpas, simpatía, deseos o actitud de una persona. aufrichtig enfatiza que las palabras o los sentimientos provienen del corazón y no se actúan en consecuencia. No es la palabra clave \"honesto\" en el sentido fáctico; ehrlich se utiliza más comúnmente para esto. En comparación con ehrlich, herzlich y offen, hay que ver si no se trata de mentira, calidez o franqueza.",
       "examples": [
         {
@@ -7342,29 +7342,29 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "aufrichtig",
-          "meaning": "sincero / sincero / abierto",
-          "example": "Eine aufrichtige Entschuldigung. = Patiesa atvainošanās."
+          "meaning": "sincero / genuino / abierto",
+          "example": "Eine aufrichtige Entschuldigung. = Una disculpa sincera."
         },
         {
           "word": "ehrlich",
           "meaning": "honesto / no mientas",
-          "example": "Er ist ehrlich. = Viņš ir godīgs."
+          "example": "Er ist ehrlich. = Él es honesto."
         },
         {
           "word": "herzlich",
           "meaning": "sincero",
-          "example": "Herzliche Grüße. = Sirsnīgi sveicieni."
+          "example": "Herzliche Grüße. = Cordiales saludos."
         },
         {
           "word": "offen",
-          "meaning": "descubierto",
-          "example": "Sie spricht offen. = Viņa runā atklāti."
+          "meaning": "abierto",
+          "example": "Sie spricht offen. = Ella habla abiertamente."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "En el contexto de disculpas, condolencias o deseos, aufrichtig suele significar sincero o sincero."
+            "text": "En el contexto de disculpas, condolencias o deseos, aufrichtig suele significar sincero o genuino."
           },
           {
             "text": "Si quieres decir que una persona no miente, normalmente utilizas ehrlich."
@@ -7623,21 +7623,21 @@ const A2_WORDS = [
   },
   {
     "de": "aufrufen",
-    "lv": "llamar • abrir • invitar",
+    "lv": "llamar • abrir • pedir",
     "level": "A2",
     "study": {
       "id": "a2-aufrufen",
       "layout": "standardStudy",
-      "translation": "llamar • abrir • invitar",
+      "translation": "llamar • abrir • pedir",
       "explanation": "Idea principal: Llamar significa llamar a alguien, abrir algo en una computadora o llamar públicamente a la acción. En la escuela o en una reunión, significa decir un nombre. En una computadora, esto significa abrir una página o programa. En un texto público, puede significar pedirle a la gente que haga algo.",
       "examples": [
         {
           "de": "Der Lehrer ruft meinen Namen auf.",
-          "lv": "el maestro dice mi nombre."
+          "lv": "El maestro llama mi nombre en voz alta."
         },
         {
           "de": "Bitte rufen Sie die Webseite auf.",
-          "lv": "por favor abra la página web."
+          "lv": "Por favor, abra la página web."
         },
         {
           "de": "Die Polizei ruft zur Vorsicht auf.",
@@ -7645,11 +7645,11 @@ const A2_WORDS = [
         },
         {
           "de": "Ich kann die Datei nicht aufrufen.",
-          "lv": "no puedo abrir el archivo."
+          "lv": "No puedo abrir el archivo."
         },
         {
           "de": "Der Moderator ruft die nächste Nummer auf.",
-          "lv": "el gerente llama al siguiente número."
+          "lv": "El gerente llama al siguiente número."
         },
         {
           "de": "Die Organisation ruft zu Spenden auf.",
@@ -7659,7 +7659,7 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "aufrufen",
-          "meaning": "llamar / abrir / invitar",
+          "meaning": "llamar / abrir / pedir",
           "example": "Ich rufe die Seite auf. = Es atveru lapu."
         },
         {
@@ -7674,22 +7674,22 @@ const A2_WORDS = [
         },
         {
           "word": "auffordern",
-          "meaning": "invitar",
-          "example": "Er fordert uns auf. = Viņš mūs aicina."
+          "meaning": "pedir",
+          "example": "Er fordert uns auf. = Él nos lo pide."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Con Webseite, Datei o Programm aufrehen significa abrir."
+            "text": "Con Webseite, Datei o Programm, aufrufen significa abrir."
           },
           {
-            "text": "Por Namen o Nummer significa llamar; con zu + ¿para quién? a menudo significa invitar."
+            "text": "Por Namen o Nummer significa llamar; con zu + una acción a menudo significa pedir o instar."
           }
         ]
       },
       "important": {
-        "text": "auspending cambia el significado después del objeto.",
+        "text": "aufrufen cambia el significado según el objeto.",
         "example": "Namen auspehen = pronunciar un nombre. Webseite aufrehen = abrir la página. zu Hilfe aufrehen = pedir ayuda."
       },
       "accents": {
@@ -7805,29 +7805,29 @@ const A2_WORDS = [
   },
   {
     "de": "aufstellen",
-    "lv": "para instalar",
+    "lv": "instalar",
     "level": "A2"
   },
   {
     "de": "Aufstrich",
     "de_article": "der",
     "de_plural": "die Aufstriche",
-    "lv": "frotis",
+    "lv": "crema para untar",
     "level": "A2"
   },
   {
     "de": "auftauen",
-    "lv": "deshielo",
+    "lv": "descongelar",
     "level": "A2"
   },
   {
     "de": "auftragen",
-    "lv": "preguntar",
+    "lv": "encargar • aplicar • servir",
     "level": "A2",
     "study": {
       "id": "a2-auftragen",
       "layout": "standardStudy",
-      "translation": "preguntar",
+      "translation": "encargar • aplicar • servir",
       "explanation": "Idea principal: auftragen significa preguntar, aplicar o presentar, según el objeto. auftragen es un verbo con varios significados cotidianos. Puede significar asignar un trabajo o una tarea. Esto puede significar aplicar pintura, crema o pegamento a la superficie. En el contexto de un restaurante o celebración, puede significar servir comida. El significado lo determina el objeto: Aufgabe, Farbe, Creme o Essen. Por tanto, una simple traducción de “preguntar” no es suficiente.",
       "examples": [
         {
@@ -7858,29 +7858,29 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "auftragen",
-          "meaning": "preguntar / aplicar / presentar",
-          "example": "Der Lehrer trägt eine Aufgabe auf. = Skolotājs uzdod uzdevumu."
+          "meaning": "encargar / aplicar / servir",
+          "example": "Der Lehrer trägt eine Aufgabe auf. = El profesor encarga una tarea."
         },
         {
           "word": "geben",
           "meaning": "dar",
-          "example": "Ich gebe dir das Buch. = Es tev dodu grāmatu."
+          "example": "Ich gebe dir das Buch. = Te doy el libro."
         },
         {
           "word": "anstreichen",
           "meaning": "pintar la superficie",
-          "example": "Wir streichen die Wand an. = Mēs krāsojam sienu."
+          "example": "Wir streichen die Wand an. = Pintamos la pared."
         },
         {
           "word": "servieren",
           "meaning": "servir comida",
-          "example": "Der Kellner serviert das Essen. = Viesmīlis pasniedz ēdienu."
+          "example": "Der Kellner serviert das Essen. = El camarero sirve la comida."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Mire el objeto: Aufgabe significa preguntar y Creme/Farbe significa aplicar."
+            "text": "Mire el objeto: una Aufgabe significa encargar o asignar una tarea y Creme/Farbe indica aplicar."
           },
           {
             "text": "En el contexto de la comida, auftragen está más cerca de \"servir\" que de \"pedir\"."
@@ -8206,7 +8206,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-auftreten",
       "layout": "standardStudy",
-      "translation": "aparecer",
+      "translation": "aparecer • actuar • presentarse",
       "explanation": "Idea principal: aparecer significa aparecer, actuar o comportarse de una determinada manera. aufterten puede significar aparecer o surgir. Se utiliza cuando ocurre un problema, síntoma o error. También puede significar actuar en el escenario. En el contexto del comportamiento humano, significa comportarse de cierta manera. El significado está determinado por el contexto: Problem, Künstler o Verhalten. Por tanto, el significado único de \"aparecer\" no es suficiente.",
       "examples": [
         {
@@ -8238,31 +8238,31 @@ const A2_WORDS = [
         {
           "word": "auftreten",
           "meaning": "aparecer / actuar",
-          "example": "Ein Fehler tritt auf. = Parādās kļūda."
+          "example": "Ein Fehler tritt auf. = Aparece un error."
         },
         {
           "word": "erscheinen",
           "meaning": "aparecer / llegar",
-          "example": "Er erscheint um acht. = Viņš ierodas astoņos."
+          "example": "Er erscheint um acht. = Él llega a las ocho."
         },
         {
           "word": "spielen",
           "meaning": "jugar / desempeñar un papel",
-          "example": "Sie spielt im Theater. = Viņa spēlē teātrī."
+          "example": "Sie spielt im Theater. = Ella actúa en el teatro."
         },
         {
           "word": "sich verhalten",
           "meaning": "comportarse",
-          "example": "Er verhält sich ruhig. = Viņš izturas mierīgi."
+          "example": "Er verhält sich ruhig. = Él se comporta tranquilamente."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando se trata de un problema o síntoma, se utiliza muy a menudo aufterten."
+            "text": "Cuando se trata de un problema o síntoma, se utiliza muy a menudo auftreten."
           },
           {
-            "text": "Cuando se trata del escenario, aufterten significa actuar."
+            "text": "Cuando se trata del escenario, auftreten significa actuar."
           }
         ]
       },
@@ -8589,7 +8589,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wie viel Zeit hast du dafür aufgewendet?",
-          "lv": "¿cuanto tiempo le dedicaste?"
+          "lv": "¿Cuánto tiempo le dedicaste?"
         },
         {
           "de": "Der Aufwand hat sich gelohnt.",
@@ -8605,17 +8605,17 @@ const A2_WORDS = [
         {
           "word": "ausgeben",
           "meaning": "gastar dinero",
-          "example": "Ich gebe viel Geld aus. = Es iztērēju daudz naudas."
+          "example": "Ich gebe viel Geld aus. = Gasto mucho dinero."
         },
         {
           "word": "verbringen",
           "meaning": "pasar el tiempo",
-          "example": "Ich verbringe den Abend zu Hause. = Es pavadu vakaru mājās."
+          "example": "Ich verbringe den Abend zu Hause. = Paso la tarde en casa."
         },
         {
           "word": "investieren",
           "meaning": "invertir",
-          "example": "Wir investieren Zeit und Geld. = Mēs ieguldām laiku un naudu."
+          "example": "Wir investieren Zeit und Geld. = Invertimos tiempo y dinero."
         }
       ],
       "tip": {
@@ -8899,12 +8899,12 @@ const A2_WORDS = [
   },
   {
     "de": "aufzeichnen",
-    "lv": "registro",
+    "lv": "grabar",
     "level": "A2",
     "study": {
       "id": "a2-aufzeichnen",
       "layout": "standardStudy",
-      "translation": "registro",
+      "translation": "grabar • registrar • anotar",
       "explanation": "Idea principal: aufzeichnen significa grabar o grabar algo para poder verlo o escucharlo más tarde. Con video o sonido, significa grabar. Por dato, conversación o información, se entiende anotar o documentar. Dibujar como acción suele ser zeichnen, no aufzeichnen.",
       "examples": [
         {
@@ -8913,7 +8913,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Kamera zeichnet alles auf.",
-          "lv": "kamera visu ieraksta."
+          "lv": "La cámara lo graba todo."
         },
         {
           "de": "Kannst du die Sendung aufzeichnen?",
@@ -8921,7 +8921,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Arzt zeichnet die Werte auf.",
-          "lv": "el médico anota los indicadores."
+          "lv": "El médico anota los indicadores."
         },
         {
           "de": "Die App zeichnet meine Schritte auf.",
@@ -8929,7 +8929,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte zeichnen Sie die Ergebnisse auf.",
-          "lv": "por favor anota los resultados."
+          "lv": "Por favor, anota los resultados."
         }
       ],
       "comparison": [
@@ -8941,7 +8941,7 @@ const A2_WORDS = [
         {
           "word": "zeichnen",
           "meaning": "dibujar",
-          "example": "Das Kind zeichnet ein Haus. = Bērns zīmē māju."
+          "example": "Das Kind zeichnet ein Haus. = El niño dibuja una casa."
         },
         {
           "word": "notieren",
@@ -8950,14 +8950,14 @@ const A2_WORDS = [
         },
         {
           "word": "aufnehmen",
-          "meaning": "grabar / grabar",
+          "meaning": "grabar / registrar",
           "example": "Ich nehme ein Lied auf. = Es ierakstu dziesmu."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando se trata de vídeo, sonido o datos, aufzeichnen significa grabar o grabar."
+            "text": "Cuando se trata de vídeo, sonido o datos, aufzeichnen significa grabar o registrar."
           },
           {
             "text": "Cuando se trata de dibujar a mano, utilice zeichnen."
@@ -8965,7 +8965,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "aufzeichnen no es una carta normal y corriente.",
+        "text": "aufzeichnen no significa simplemente registrar; también puede significar grabar o anotar.",
         "example": "ein Video aufzeichnen = grabar un vídeo. etwas notieren = escribir. ein Bild zeichnen = hacer un dibujo."
       },
       "accents": {
@@ -9058,7 +9058,7 @@ const A2_WORDS = [
   },
   {
     "de": "aufziehen",
-    "lv": "mencionar • molestar",
+    "lv": "criar",
     "level": "A2"
   },
   {
@@ -9081,7 +9081,7 @@ const A2_WORDS = [
   },
   {
     "de": "ausbessern",
-    "lv": "corregir",
+    "lv": "reparar",
     "level": "A2"
   },
   {
@@ -9101,12 +9101,12 @@ const A2_WORDS = [
   },
   {
     "de": "aussteigen",
-    "lv": "bajarse • dejar de fumar",
+    "lv": "bajarse • retirarse",
     "level": "A2",
     "study": {
       "id": "a2-aussteigen",
       "layout": "standardStudy",
-      "translation": "bajarse • dejar de fumar",
+      "translation": "bajarse • retirarse",
       "explanation": "Idea principal: aussteigen significa salir de un vehículo o en sentido figurado salir. Se utiliza en coche, autobús, tren o tranvía. En sentido figurado, puede significar retirarse de un proyecto o dejar de participar. A menudo hay que mirar para ver si la oración tiene un vehículo o un grupo/proyecto abstracto. Por tanto, hay que distinguir entre “salir” y “retirarse”.",
       "examples": [
         {
@@ -9123,7 +9123,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er steigt aus dem Projekt aus.",
-          "lv": "se retira del proyecto."
+          "lv": "Se retira del proyecto."
         },
         {
           "de": "Viele Menschen steigen aus dem Vertrag aus.",
@@ -9138,22 +9138,22 @@ const A2_WORDS = [
         {
           "word": "aussteigen",
           "meaning": "bajarse / dejar",
-          "example": "Ich steige aus dem Bus aus. = Es izkāpju no autobusa."
+          "example": "Ich steige aus dem Bus aus. = Me bajo del autobús."
         },
         {
           "word": "einsteigen",
           "meaning": "entrar / involucrarse",
-          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
+          "example": "Ich steige in den Zug ein. = Subo al tren."
         },
         {
           "word": "umsteigen",
           "meaning": "cambiar de asiento",
-          "example": "Wir steigen in Berlin um. = Mēs pārsēžamies Berlīnē."
+          "example": "Wir steigen in Berlin um. = Cambiamos de tren en Berlín."
         },
         {
           "word": "verlassen",
           "meaning": "dejar",
-          "example": "Er verlässt die Firma. = Viņš atstāj firmu."
+          "example": "Er verlässt die Firma. = Él deja la empresa."
         }
       ],
       "tip": {
@@ -9460,7 +9460,7 @@ const A2_WORDS = [
   },
   {
     "de": "ausstrahlen",
-    "lv": "irradiando",
+    "lv": "irradiar",
     "level": "A2"
   },
   {
@@ -9477,7 +9477,7 @@ const A2_WORDS = [
     "de": "Ausverkauf",
     "de_article": "der",
     "de_plural": "die Ausverkäufe",
-    "lv": "venta",
+    "lv": "liquidación",
     "level": "A2"
   },
   {
@@ -9526,7 +9526,7 @@ const A2_WORDS = [
         {
           "word": "auswählen",
           "meaning": "elegir / seleccionar",
-          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
+          "example": "Ich wähle ein Bild aus. = Elijo una imagen."
         },
         {
           "word": "wählen",
@@ -9536,31 +9536,31 @@ const A2_WORDS = [
         {
           "word": "aussuchen",
           "meaning": "investigar / seleccionar",
-          "example": "Such dir ein Buch aus. = Izvēlies sev grāmatu."
+          "example": "Such dir ein Buch aus. = Elige un libro."
         },
         {
           "word": "entscheiden",
           "meaning": "decidir",
-          "example": "Ich entscheide morgen. = Es izlemšu rīt."
+          "example": "Ich entscheide morgen. = Decido mañana."
         },
         {
           "word": "markieren",
           "meaning": "marcar",
-          "example": "Markieren Sie die richtige Antwort. = Atzīmējiet pareizo atbildi."
+          "example": "Markieren Sie die richtige Antwort. = Marque la respuesta correcta."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si elige de una lista o menú, auschällen es una palabra muy apropiada."
+            "text": "Si elige de una lista o menú, auswählen es una palabra muy apropiada."
           },
           {
-            "text": "wählen también puede significar votar, por lo que en un contexto político no es lo mismo que vählen."
+            "text": "wählen también puede significar votar, por lo que en un contexto político no es lo mismo que auswählen."
           }
         ]
       },
       "important": {
-        "text": "auschällen normalmente significa elegir entre opciones dadas.",
+        "text": "auswählen normalmente significa elegir entre opciones dadas.",
         "example": "ein Foto auschällen = seleccionar una foto. eine Partei wählen = votar por el partido. sich entscheiden = decidir."
       },
       "sectionAccents": {
@@ -9891,42 +9891,42 @@ const A2_WORDS = [
   },
   {
     "de": "auswärts",
-    "lv": "lejos de casa • lejos",
+    "lv": "fuera",
     "level": "A2"
   },
   {
     "de": "Ausweis",
     "de_article": "der",
     "de_plural": "die Ausweise",
-    "lv": "certificado",
+    "lv": "documento de identidad",
     "level": "A2"
   },
   {
     "de": "auswendig",
-    "lv": "desde la cabeza",
+    "lv": "de memoria",
     "level": "A2"
   },
   {
     "de": "ausziehen",
-    "lv": "sacar • salir",
+    "lv": "quitarse • mudarse",
     "level": "A2",
     "study": {
       "id": "a2-ausziehen",
       "layout": "standardStudy",
-      "translation": "sacar • salir",
+      "translation": "quitarse • mudarse",
       "explanation": "Idea principal: ausziehen significa quitarse la ropa o mudarse de casa. ausziehen es una palabra muy común con dos significados principales. Con ropa, significa quitarse. Con un apartamento o una casa, significa mudarse. El significado lo determina el objeto: Schuhe, Jacke, Wohnung o Haus. Por lo tanto, se debe distinguir entre \"sacar\" y \"sacar\".",
       "examples": [
         {
           "de": "Zieh bitte die Schuhe aus.",
-          "lv": "Por favor, quítese sus zapatos."
+          "lv": "Por favor, quítese los zapatos."
         },
         {
           "de": "Ich ziehe meine Jacke aus.",
-          "lv": "es novelku jaku."
+          "lv": "Me quito la chaqueta."
         },
         {
           "de": "Sie zieht aus der Wohnung aus.",
-          "lv": "ella se muda del apartamento."
+          "lv": "Ella se muda del apartamento."
         },
         {
           "de": "Wir ziehen nächsten Monat aus.",
@@ -9934,7 +9934,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich ziehe die Mütze aus.",
-          "lv": "es novelku cepuri."
+          "lv": "Me quito el sombrero."
         },
         {
           "de": "Nach der Arbeit ziehe ich den Anzug aus.",
@@ -9955,12 +9955,12 @@ const A2_WORDS = [
         {
           "word": "umziehen",
           "meaning": "moverse / cambiarse de ropa",
-          "example": "Wir ziehen nach Riga um. = Mēs pārceļamies uz Rīgu."
+          "example": "Wir ziehen nach Riga um. = Nos mudamos a Riga."
         },
         {
           "word": "sich ausziehen",
           "meaning": "desnudo",
-          "example": "Das Kind zieht sich aus. = Bērns izģērbjas."
+          "example": "Das Kind zieht sich aus. = El niño se desnuda."
         }
       ],
       "tip": {
@@ -9974,7 +9974,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "ausziehen un umziehen nav viens un tas pats.",
+        "text": "ausziehen y umziehen no son lo mismo.",
         "example": "ausziehen = mudarse. umziehen = mudarse a otro lugar o cambiarse de ropa."
       },
       "sectionAccents": {
@@ -10277,7 +10277,7 @@ const A2_WORDS = [
     "de": "Autobahn",
     "de_article": "die",
     "de_plural": "die Autobahnen",
-    "lv": "carretera",
+    "lv": "autopista",
     "level": "A2"
   },
   {
@@ -10310,7 +10310,7 @@ const A2_WORDS = [
     "de": "Autopanne",
     "de_article": "die",
     "de_plural": "die Autopannen",
-    "lv": "daños al auto • falla",
+    "lv": "avería del coche",
     "level": "A2"
   },
   {
@@ -10378,7 +10378,7 @@ const A2_WORDS = [
     "de": "Badetuch",
     "de_article": "das",
     "de_plural": "die Badetücher",
-    "lv": "hoja de natación",
+    "lv": "toalla de baño",
     "level": "A2"
   },
   {
@@ -10401,7 +10401,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich fahre mit der Bahn.",
-          "lv": "es braucu ar vilcienu."
+          "lv": "Viajo en tren."
         },
         {
           "de": "Die Bahn ist heute sehr voll.",
@@ -10413,11 +10413,11 @@ const A2_WORDS = [
         },
         {
           "de": "Der Zug fährt um acht Uhr ab.",
-          "lv": "el tren sale a las ocho."
+          "lv": "El tren sale a las ocho."
         },
         {
           "de": "Der Bahnhof ist nicht weit.",
-          "lv": "la estación de tren no está lejos."
+          "lv": "La estación de tren no está lejos."
         },
         {
           "de": "Die Straßenbahn fährt durch die Stadt.",
@@ -10433,7 +10433,7 @@ const A2_WORDS = [
         {
           "word": "der Zug",
           "meaning": "un tren en particular",
-          "example": "Der Zug fährt um acht Uhr ab. = Vilciens atiet astoņos."
+          "example": "Der Zug fährt um acht Uhr ab. = El tren sale a las ocho."
         },
         {
           "word": "die Straßenbahn",
@@ -10443,11 +10443,11 @@ const A2_WORDS = [
         {
           "word": "der Bahnhof",
           "meaning": "estación de tren",
-          "example": "Wir treffen uns am Bahnhof. = Mēs tiekamies stacijā."
+          "example": "Wir treffen uns am Bahnhof. = Nos encontramos en la estación."
         },
         {
           "word": "das Gleis",
-          "meaning": "pista/plataforma",
+          "meaning": "vía/carril",
           "example": "Der Zug fährt von Gleis 3. = Vilciens atiet no 3. perona."
         }
       ],
@@ -10462,7 +10462,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "die Bahn no es simplemente lo mismo que en Zug. die Bahn es a menudo un sistema o modo de transporte, mientras que der Zug es un tren específico.",
+        "text": "die Bahn no es simplemente lo mismo que der Zug. die Bahn es a menudo un sistema o modo de transporte, mientras que der Zug es un tren específico.",
         "example": "mit der Bahn fahren = ir en tren. der Zug = el tren particular. die Straßenbahn = tranvía."
       },
       "sectionAccents": {
@@ -10741,7 +10741,7 @@ const A2_WORDS = [
     "de": "Bahngleis",
     "de_article": "das",
     "de_plural": "die Bahngleise",
-    "lv": "rieles",
+    "lv": "vía férrea",
     "level": "A2"
   },
   {
@@ -10755,7 +10755,7 @@ const A2_WORDS = [
     "de": "Bahnsteig",
     "de_article": "der",
     "de_plural": "die Bahnsteige",
-    "lv": "plataforma",
+    "lv": "andén",
     "level": "A2"
   },
   {
@@ -10802,7 +10802,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich binde das Band fest.",
-          "lv": "es stingri sasienu lenti."
+          "lv": "Ato la cinta con firmeza."
         },
         {
           "de": "Die Band spielt heute Abend.",
@@ -10812,15 +10812,15 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Ja artículo ir das, Band parasti ir lente, saite vai josla."
+            "text": "Si el artículo es das, Band suele significar cinta, lazo o banda."
           },
           {
-            "text": "Cuando el artículo es morir, Banda suele significar un grupo musical."
+            "text": "Cuando el artículo es die, Band suele significar un grupo musical."
           }
         ]
       },
       "important": {
-        "text": "das Band un die Band nav viens un tas pats.",
+        "text": "das Band y die Band no son lo mismo.",
         "example": "das Band = banda/enlace. die Band = grupo de música."
       },
       "sectionAccents": {
@@ -11087,7 +11087,7 @@ const A2_WORDS = [
     "de": "Bank",
     "de_article": "die",
     "de_plural": "die Banken",
-    "lv": "Banco",
+    "lv": "banco",
     "level": "A2",
     "study": {
       "id": "a2-bank",
@@ -11101,7 +11101,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Bank ist am Wochenende geschlossen.",
-          "lv": "el banco está cerrado los fines de semana."
+          "lv": "El banco está cerrado los fines de semana."
         },
         {
           "de": "Wir sitzen auf einer Bank im Park.",
@@ -11109,7 +11109,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die alte Bank steht unter dem Baum.",
-          "lv": "el viejo banco se encuentra debajo del árbol."
+          "lv": "El viejo banco se encuentra debajo del árbol."
         },
         {
           "de": "Das Boot liegt auf einer Sandbank.",
@@ -11133,33 +11133,33 @@ const A2_WORDS = [
         {
           "word": "die Bank (Sitzbank)",
           "meaning": "banco / banco",
-          "example": "Wir sitzen auf einer Bank. = Mēs sēžam uz soliņa. Plural: die Bänke."
+          "example": "Wir sitzen auf einer Bank. = Nos sentamos en un banco. Plural: die Bänke."
         },
         {
           "word": "die Bankfiliale",
           "meaning": "sucursal bancaria",
-          "example": "Die Bankfiliale ist geöffnet. = Bankas filiāle ir atvērta."
+          "example": "Die Bankfiliale ist geöffnet. = La sucursal bancaria está abierta."
         },
         {
           "word": "die Parkbank",
           "meaning": "banco del parque",
-          "example": "Wir sitzen auf der Parkbank. = Mēs sēžam uz parka soliņa."
+          "example": "Wir sitzen auf der Parkbank. = Nos sentamos en el banco del parque."
         },
         {
           "word": "die Sandbank",
           "meaning": "banco de arena",
-          "example": "Das Schiff steckt auf einer Sandbank. = Kuģis ir uzsēdies uz sēkļa."
+          "example": "Das Schiff steckt auf einer Sandbank. = El barco está encallado en un banco de arena."
         },
         {
           "word": "der Stuhl",
           "meaning": "una silla",
-          "example": "Ich sitze auf einem Stuhl. = Es sēžu uz krēsla."
+          "example": "Ich sitze auf einem Stuhl. = Estoy sentado en una silla."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando se trata de dinero, cuenta o pagos, Banco significa banco."
+            "text": "Cuando se trata de dinero, cuentas o pagos, banco significa banco."
           },
           {
             "text": "Cuando se trata de sentarse en un parque o en la calle, Bank significa banco; el plural es die Bänke."
@@ -11167,7 +11167,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Banco es una palabra de contexto con diferentes plurales.",
+        "text": "En alemán, Bank tiene diferentes plurales según el significado.",
         "example": "die Banken = bancos (finanzas). die Bänke = bancos. Banco de arena = banco de arena."
       },
       "sectionAccents": {
@@ -11488,7 +11488,7 @@ const A2_WORDS = [
   {
     "de": "Bargeld",
     "de_article": "das",
-    "lv": "dinero",
+    "lv": "dinero en efectivo",
     "level": "A2"
   },
   {
@@ -11522,7 +11522,7 @@ const A2_WORDS = [
   {
     "de": "Bauchweh",
     "de_article": "das",
-    "lv": "Dolor de estómago",
+    "lv": "dolor de estómago",
     "level": "A2"
   },
   {
@@ -11532,41 +11532,41 @@ const A2_WORDS = [
     "study": {
       "id": "a2-bauen",
       "layout": "standardStudy",
-      "translation": "construir · construir · hacer",
+      "translation": "construir · cultivar · hacer",
       "explanation": "Idea principal: bauen significa construir, construir o hacer algo práctico. Bauen no es sólo “construir una casa”. Se utiliza en la construcción o construcción de edificios y puentes. En la vida cotidiana, bauen también puede significar hacer o elaborar algo con las manos. En agricultura, bauen puede significar cultivar, por ejemplo, hortalizas. En frases con auf, puede significar apoyarse en algo o confiar en algo.",
       "examples": [
         {
           "de": "Wir bauen ein Haus.",
-          "lv": "estamos construyendo una casa."
+          "lv": "Estamos construyendo una casa."
         },
         {
           "de": "Die Firma baut eine Brücke.",
-          "lv": "la empresa está construyendo un puente."
+          "lv": "La empresa está construyendo un puente."
         },
         {
           "de": "Mein Bruder baut ein Regal.",
-          "lv": "mi hermano está haciendo un estante."
+          "lv": "Mi hermano está haciendo un estante."
         },
         {
           "de": "Die Bauern bauen Gemüse.",
-          "lv": "los agricultores cultivan hortalizas."
+          "lv": "Los agricultores cultivan hortalizas."
         },
         {
           "de": "Wir bauen auf Vertrauen.",
-          "lv": "estamos construidos sobre la confianza."
+          "lv": "Nos basamos en la confianza."
         },
         {
           "de": "Er baut ein Modellflugzeug.",
-          "lv": "él hace un modelo de avión."
+          "lv": "Él hace un modelo de avión."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando se refiere a un edificio, puente o estructura, bauen casi siempre significa construir o construir."
+            "text": "Cuando se refiere a un edificio, puente o estructura, bauen casi siempre significa construir o edificar."
           },
           {
-            "text": "Si ve auf + bauen, verifique si significa \"confiar en\" o \"confiar en\"."
+            "text": "Si ve auf + bauen, compruebe si significa «basarse en» o «construir sobre»."
           }
         ]
       },
@@ -11824,12 +11824,12 @@ const A2_WORDS = [
     "de": "Bauer",
     "de_article": "der",
     "de_plural": "die Bauern",
-    "lv": "un granjero",
+    "lv": "granjero • peón",
     "level": "A2",
     "study": {
       "id": "a2-bauer",
       "layout": "standardStudy",
-      "translation": "un granjero",
+      "translation": "granjero • peón",
       "explanation": "Idea principal: der Bauer suele significar peón, pero en ajedrez significa peón. En la vida cotidiana, der Bauer suele ser una persona que trabaja en la agricultura. En el contexto del ajedrez, der Bauer es una de las piezas. Granjero no es el significado principal de A2. El contexto suele dejar claro si se trata de una persona o de una pieza de ajedrez.",
       "examples": [
         {
@@ -11838,7 +11838,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Bauer hat viele Kühe.",
-          "lv": "zemniekam ir daudz govju."
+          "lv": "El granjero tiene muchas vacas."
         },
         {
           "de": "Meine Tante lebt auf einem Bauernhof.",
@@ -11860,28 +11860,28 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "der Bauer",
-          "meaning": "zemnieks / bandinieks",
-          "example": "Der Bauer arbeitet auf dem Feld. = Zemnieks strādā uz lauka."
+          "meaning": "granjero / peón",
+          "example": "Der Bauer arbeitet auf dem Feld. = El granjero trabaja en el campo."
         },
         {
           "word": "der Landwirt",
-          "meaning": "zemnieks / lauksaimnieks",
-          "example": "Der Landwirt führt einen Hof. = Lauksaimnieks vada saimniecību."
+          "meaning": "granjero / agricultor",
+          "example": "Der Landwirt führt einen Hof. = El agricultor dirige una granja."
         },
         {
           "word": "der Bauernhof",
           "meaning": "granja",
-          "example": "Wir besuchen einen Bauernhof. = Mēs apmeklējam lauku saimniecību."
+          "example": "Wir besuchen einen Bauernhof. = Visitamos una granja."
         },
         {
           "word": "die Figur",
           "meaning": "cifra",
-          "example": "Die Dame ist eine starke Figur. = Dāma ir spēcīga figūra."
+          "example": "Die Dame ist eine starke Figur. = La dama es una pieza fuerte."
         },
         {
           "word": "der Spielstein",
           "meaning": "los dados del juego",
-          "example": "Der Spielstein liegt auf dem Brett. = Spēles kauliņš atrodas uz galda."
+          "example": "Der Spielstein liegt auf dem Brett. = La ficha está en el tablero."
         }
       ],
       "tip": {
@@ -12166,7 +12166,7 @@ const A2_WORDS = [
     "de": "Bäuerin",
     "de_article": "die",
     "de_plural": "die Bäuerinnen",
-    "lv": "un granjero",
+    "lv": "agricultora",
     "level": "A2"
   },
   {
@@ -12199,11 +12199,11 @@ const A2_WORDS = [
         },
         {
           "de": "Der Becher ist aus Plastik.",
-          "lv": "el vaso está hecho de plástico."
+          "lv": "El vaso está hecho de plástico."
         },
         {
           "de": "Bitte wirf den Pappbecher weg.",
-          "lv": "por favor deseche el vaso de cartón."
+          "lv": "Por favor, desecha el vaso de cartón."
         },
         {
           "de": "Kinder trinken oft aus einem Becher.",
@@ -12211,7 +12211,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Glas steht auf dem Tisch.",
-          "lv": "el vaso está sobre la mesa."
+          "lv": "El vaso está sobre la mesa."
         },
         {
           "de": "Ich nehme eine Tasse Tee.",
@@ -12221,10 +12221,10 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "El café para llevar suele denominarse Becher en alemán, especialmente Pappbecher o Plastikbecher."
+            "text": "El vaso para café para llevar suele denominarse Becher en alemán, especialmente Pappbecher o Plastikbecher."
           },
           {
-            "text": "Si el envase es de vidrio se suele utilizar das Glas; si tiene asa, suele morir Tasse."
+            "text": "Si el envase es de vidrio se suele utilizar das Glas; si tiene asa, suele usarse Tasse."
           }
         ]
       },
@@ -12269,7 +12269,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "por"
+                "Por"
               ]
             }
           },
@@ -12435,12 +12435,12 @@ const A2_WORDS = [
   },
   {
     "de": "bedienen",
-    "lv": "servir",
+    "lv": "servir • usar",
     "level": "A2",
     "study": {
       "id": "a2-bedienen",
       "layout": "standardStudy",
-      "translation": "servir",
+      "translation": "servir • usar",
       "explanation": "Idea principal: bedienen significa servir a una persona o usar/operar un dispositivo. En un restaurante o tienda, esto significa atender a los clientes. Con una máquina, aparato o programa, significa saber utilizarlo u operarlo. bedienen no es lo mismo que helfen. servirien significa servir comida, pero no necesariamente servir en un sentido más amplio.",
       "examples": [
         {
@@ -12472,7 +12472,7 @@ const A2_WORDS = [
         {
           "word": "bedienen",
           "meaning": "servicio / uso del dispositivo",
-          "example": "Der Kellner bedient uns. = Viesmīlis mūs apkalpo."
+          "example": "Der Kellner bedient uns. = El camarero nos atiende."
         },
         {
           "word": "benutzen",
@@ -12482,17 +12482,17 @@ const A2_WORDS = [
         {
           "word": "helfen",
           "meaning": "para ayudar",
-          "example": "Kannst du mir helfen? = Vai vari man palīdzēt?"
+          "example": "Kannst du mir helfen? = ¿Puedes ayudarme?"
         },
         {
           "word": "servieren",
           "meaning": "servir comida",
-          "example": "Sie serviert das Essen. = Viņa pasniedz ēdienu."
+          "example": "Sie serviert das Essen. = Ella sirve la comida."
         },
         {
           "word": "steuern",
           "meaning": "liderar",
-          "example": "Er steuert das Auto. = Viņš vada auto."
+          "example": "Er steuert das Auto. = Él conduce el coche."
         }
       ],
       "tip": {
@@ -12788,21 +12788,21 @@ const A2_WORDS = [
     "de": "Bedienung",
     "de_article": "die",
     "de_plural": "die Bedienungen",
-    "lv": "servicio",
+    "lv": "servicio • camarero/a",
     "level": "A2",
     "study": {
       "id": "a2-bedienung",
       "layout": "standardStudy",
-      "translation": "servicio",
+      "translation": "servicio • camarero/a",
       "explanation": "Idea principal: die Bedienung puede significar servicio o persona que sirve. En un restaurante, a menudo puede ser un camarero o un camarero/camarera. En el caso de los electrodomésticos, die Bedienung también puede significar uso o control. Tripulación no es el significado principal de A2. El contexto determina si se trata de un proceso o de una persona.",
       "examples": [
         {
           "de": "Die Bedienung war sehr freundlich.",
-          "lv": "el servidor fue muy amable."
+          "lv": "El camarero fue muy amable."
         },
         {
           "de": "Die Bedienung im Restaurant war gut.",
-          "lv": "el servicio en el restaurante era bueno."
+          "lv": "El servicio en el restaurante era bueno."
         },
         {
           "de": "Wir warten auf die Bedienung.",
@@ -12810,7 +12810,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Service war schnell.",
-          "lv": "el servicio fue rápido."
+          "lv": "El servicio fue rápido."
         },
         {
           "de": "Die Bedienung des Geräts ist einfach.",
@@ -12818,24 +12818,24 @@ const A2_WORDS = [
         },
         {
           "de": "Das Personal ist sehr freundlich.",
-          "lv": "el personal es muy amable."
+          "lv": "El personal es muy amable."
         }
       ],
       "comparison": [
         {
           "word": "die Bedienung",
           "meaning": "servicio / asistente",
-          "example": "Die Bedienung ist freundlich. = Apkalpotājs ir laipns."
+          "example": "Die Bedienung ist freundlich. = El camarero es amable."
         },
         {
           "word": "der Kellner",
           "meaning": "mesero",
-          "example": "Der Kellner bringt die Rechnung. = Viesmīlis atnes rēķinu."
+          "example": "Der Kellner bringt die Rechnung. = El camarero trae la cuenta."
         },
         {
           "word": "die Kellnerin",
           "meaning": "la camarera",
-          "example": "Die Kellnerin fragt nach Getränken. = Viesmīle jautā par dzērieniem."
+          "example": "Die Kellnerin fragt nach Getränken. = La camarera pregunta por las bebidas."
         },
         {
           "word": "der Service",
@@ -12845,7 +12845,7 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "personal",
-          "example": "Das Personal hilft uns. = Personāls mums palīdz."
+          "example": "Das Personal hilft uns. = El personal nos ayuda."
         }
       ],
       "tip": {
@@ -12859,7 +12859,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "die Bedienung no es principalmente una tripulación. En el nivel A2, los significados más importantes son servicio y servidor.",
+        "text": "die Bedienung no es principalmente una tripulación. En el nivel A2, los significados más importantes son servicio y camarero/a.",
         "example": "freundliche Bedienung = servicio amable. gute Bedienung = buen servicio."
       },
       "sectionAccents": {
@@ -13136,7 +13136,7 @@ const A2_WORDS = [
     "de": "Beet",
     "de_article": "das",
     "de_plural": "die Beete",
-    "lv": "cama",
+    "lv": "parterre",
     "level": "A2"
   },
   {
@@ -13182,7 +13182,7 @@ const A2_WORDS = [
         },
         {
           "de": "Behalten Sie den Rest.",
-          "lv": "paturiet atlikumu."
+          "lv": "Quédese con el cambio."
         },
         {
           "de": "Ich kann mir die Nummer nicht behalten.",
@@ -13201,7 +13201,7 @@ const A2_WORDS = [
         {
           "word": "behalten",
           "meaning": "mantener / recordar",
-          "example": "Du kannst es behalten. = Tu vari to paturēt."
+          "example": "Du kannst es behalten. = Puedes quedártelo."
         },
         {
           "word": "halten",
@@ -13211,7 +13211,7 @@ const A2_WORDS = [
         {
           "word": "sich merken",
           "meaning": "memorizar / recordar",
-          "example": "Ich merke mir die Nummer. = Es iegaumēju numuru."
+          "example": "Ich merke mir die Nummer. = Recuerdo el número."
         },
         {
           "word": "erinnern",
@@ -13221,7 +13221,7 @@ const A2_WORDS = [
         {
           "word": "aufbewahren",
           "meaning": "mantener",
-          "example": "Ich bewahre die Quittung auf. = Es glabāju čeku."
+          "example": "Ich bewahre die Quittung auf. = Guardo el recibo."
         }
       ],
       "tip": {
@@ -13235,7 +13235,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "behalten no es simplemente detenido.",
+        "text": "behalten no significa simplemente sostener.",
         "example": "detener = sostener. behalten = mantener. sich merken = memorizar. im Kopf behalten = tener en cuenta."
       },
       "sectionAccents": {
@@ -13610,12 +13610,12 @@ const A2_WORDS = [
         {
           "word": "beinahe",
           "meaning": "casi / apenas",
-          "example": "Ich hätte beinahe gelacht. = Es gandrīz sāku smieties."
+          "example": "Ich hätte beinahe gelacht. = Casi me habría reído."
         },
         {
           "word": "fast",
           "meaning": "casi",
-          "example": "Ich bin fast fertig. = Es esmu gandrīz gatavs."
+          "example": "Ich bin fast fertig. = Estoy casi listo."
         },
         {
           "word": "knapp",
@@ -13624,13 +13624,13 @@ const A2_WORDS = [
         },
         {
           "word": "kaum",
-          "meaning": "diez vai / tikko",
+          "meaning": "casi / apenas",
           "example": "Ich kann kaum laufen. = Es tik tikko varu paiet."
         },
         {
           "word": "gerade noch",
           "meaning": "apenas",
-          "example": "Wir haben es gerade noch geschafft. = Mēs vēl tik tikko paspējām."
+          "example": "Wir haben es gerade noch geschafft. = Apenas lo conseguimos."
         }
       ],
       "tip": {
@@ -13639,7 +13639,7 @@ const A2_WORDS = [
             "text": "beinahe se usa cuando algo casi sucedió pero no sucedió."
           },
           {
-            "text": "rápido es una palabra más general para \"casi\", pero beinahe a menudo suena más emotivo."
+            "text": "fast es una palabra más general para «casi», pero beinahe a menudo suena más emotivo."
           }
         ]
       },
@@ -14019,27 +14019,27 @@ const A2_WORDS = [
         {
           "word": "bekannt",
           "meaning": "conocido / conocido",
-          "example": "Das ist bekannt. = Tas ir zināms."
+          "example": "Das ist bekannt. = Eso es conocido."
         },
         {
           "word": "berühmt",
           "meaning": "famoso",
-          "example": "Er ist berühmt. = Viņš ir slavens."
+          "example": "Er ist berühmt. = Él es famoso."
         },
         {
           "word": "vertraut",
           "meaning": "familiar / habitual",
-          "example": "Die Umgebung ist mir vertraut. = Apkārtne man ir pazīstama."
+          "example": "Die Umgebung ist mir vertraut. = El entorno me resulta familiar."
         },
         {
           "word": "befreundet",
           "meaning": "en amigos / relaciones amistosas",
-          "example": "Wir sind befreundet. = Mēs esam draugos."
+          "example": "Wir sind befreundet. = Somos amigos."
         },
         {
           "word": "unbekannt",
           "meaning": "desconocido",
-          "example": "Der Täter ist unbekannt. = Vainīgais ir nezināms."
+          "example": "Der Täter ist unbekannt. = El culpable es desconocido."
         }
       ],
       "tip": {
@@ -14053,7 +14053,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "bekannt nav tas pats, kas draugs.",
+        "text": "bekannt no es lo mismo que amigo.",
         "example": "bekannt = conocido/conocido. behrücht = famoso. befreundet = en amigos."
       },
       "sectionAccents": {
@@ -14401,7 +14401,7 @@ const A2_WORDS = [
   },
   {
     "de": "bellen",
-    "lv": "atardecer",
+    "lv": "ladrar",
     "level": "A2"
   },
   {
@@ -14422,7 +14422,7 @@ const A2_WORDS = [
   },
   {
     "de": "bequem",
-    "lv": "conveniente • práctico",
+    "lv": "cómodo • práctico",
     "level": "A2"
   },
   {
@@ -14456,7 +14456,7 @@ const A2_WORDS = [
   },
   {
     "de": "besitzen",
-    "lv": "pertenecer",
+    "lv": "poseer",
     "level": "A2"
   },
   {
@@ -14475,7 +14475,7 @@ const A2_WORDS = [
     "de": "Besteck",
     "de_article": "das",
     "de_plural": "die Bestecke",
-    "lv": "cuchillería",
+    "lv": "cubiertos",
     "level": "A2"
   },
   {
@@ -14506,7 +14506,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bestell deiner Mutter schöne Grüße.",
-          "lv": "nodod sveicienus savai mammai."
+          "lv": "Transmite saludos a tu madre."
         },
         {
           "de": "Hast du schon die Tickets bestellt?",
@@ -14517,17 +14517,17 @@ const A2_WORDS = [
         {
           "word": "bestellen",
           "meaning": "ordenar / reservar",
-          "example": "Ich bestelle Essen. = Es pasūtu ēdienu."
+          "example": "Ich bestelle Essen. = Pido comida."
         },
         {
           "word": "reservieren",
           "meaning": "reservar",
-          "example": "Ich reserviere einen Tisch. = Es rezervēju galdiņu."
+          "example": "Ich reserviere einen Tisch. = Reservo una mesa."
         },
         {
           "word": "kaufen",
           "meaning": "comprar",
-          "example": "Ich kaufe Brot. = Es pērku maizi."
+          "example": "Ich kaufe Brot. = Compro pan."
         },
         {
           "word": "grüßen",
@@ -14537,7 +14537,7 @@ const A2_WORDS = [
         {
           "word": "bearbeiten",
           "meaning": "proceso",
-          "example": "Ich bearbeite den Text. = Es apstrādāju tekstu."
+          "example": "Ich bearbeite den Text. = Edito el texto."
         }
       ],
       "tip": {
@@ -14546,7 +14546,7 @@ const A2_WORDS = [
             "text": "En un restaurante y en Internet, bestellen casi siempre significa pedir."
           },
           {
-            "text": "Tanto los bestellen como los reservieren son aptos para la mesa; reservieren es la palabra más clara para \"reserva\"."
+            "text": "Tanto pedir como reservar son apropiados para una mesa; reservar es la palabra más clara para expresar una reserva."
           }
         ]
       },
@@ -14855,7 +14855,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist bestimmt richtig.",
-          "lv": "tas noteikti ir pareizi."
+          "lv": "Eso definitivamente es correcto."
         },
         {
           "de": "Er kommt bestimmt.",
@@ -14892,17 +14892,17 @@ const A2_WORDS = [
         {
           "word": "konkret",
           "meaning": "específico",
-          "example": "Ich brauche ein konkretes Beispiel. = Man vajag konkrētu piemēru."
+          "example": "Ich brauche ein konkretes Beispiel. = Necesito un ejemplo concreto."
         },
         {
           "word": "fest",
-          "meaning": "stingrs / noteikts",
-          "example": "Wir haben einen festen Termin. = Mums ir noteikts termiņš."
+          "meaning": "firme / determinado",
+          "example": "Wir haben einen festen Termin. = Tenemos una cita fija."
         },
         {
           "word": "wahrscheinlich",
           "meaning": "probablemente / posiblemente",
-          "example": "Er kommt wahrscheinlich morgen. = Viņš droši vien atnāks rīt."
+          "example": "Er kommt wahrscheinlich morgen. = Probablemente viene mañana."
         }
       ],
       "tip": {
@@ -15196,7 +15196,7 @@ const A2_WORDS = [
   },
   {
     "de": "beten",
-    "lv": "orar a dios",
+    "lv": "orar a Dios",
     "level": "A2"
   },
   {
@@ -15218,7 +15218,7 @@ const A2_WORDS = [
   },
   {
     "de": "bewundern",
-    "lv": "admirativo",
+    "lv": "admirar",
     "level": "A2"
   },
   {
@@ -15251,21 +15251,21 @@ const A2_WORDS = [
     "de": "Birne",
     "de_article": "die",
     "de_plural": "die Birnen",
-    "lv": "pera • bulbo",
+    "lv": "pera • bombilla",
     "level": "A2",
     "study": {
       "id": "a2-birne",
       "layout": "standardStudy",
-      "translation": "pera • bulbo",
+      "translation": "pera • bombilla",
       "explanation": "Idea principal: Die Birne suele significar una pera, pero en la vida cotidiana también puede significar una bombilla. Para una fruta, el contexto es comer, una tienda o un árbol. Para una bombilla, el contexto es una lámpara, luz o electricidad. die Lampe es una lámpara, no el fruto en sí. Si tienes que ser muy preciso con la bombilla, también puedes utilizar die Glühbirne.",
       "examples": [
         {
           "de": "Ich esse eine Birne.",
-          "lv": "me como una pera"
+          "lv": "Me como una pera."
         },
         {
           "de": "Die Birne ist süß.",
-          "lv": "bumbieris ir salds."
+          "lv": "La pera es dulce."
         },
         {
           "de": "Wir kaufen Birnen auf dem Markt.",
@@ -15281,19 +15281,19 @@ const A2_WORDS = [
         },
         {
           "de": "Die Lampe steht auf dem Tisch.",
-          "lv": "la lámpara está sobre la mesa."
+          "lv": "La lámpara está sobre la mesa."
         }
       ],
       "comparison": [
         {
           "word": "die Birne",
-          "meaning": "bumbieris / spuldze",
-          "example": "Ich esse eine Birne. = Es ēdu bumbieri."
+          "meaning": "pera / bombilla",
+          "example": "Ich esse eine Birne. = Como una pera."
         },
         {
           "word": "die Glühbirne",
-          "meaning": "spuldze",
-          "example": "Die Glühbirne ist kaputt. = Spuldze ir saplīsusi."
+          "meaning": "bombilla",
+          "example": "Die Glühbirne ist kaputt. = La bombilla está rota."
         },
         {
           "word": "die Lampe",
@@ -15303,7 +15303,7 @@ const A2_WORDS = [
         {
           "word": "das Obst",
           "meaning": "frutas",
-          "example": "Birnen sind Obst. = Bumbieri ir augļi."
+          "example": "Birnen sind Obst. = Las peras son fruta."
         }
       ],
       "tip": {
@@ -15317,7 +15317,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "die Birne puede significar tanto fruto como bulbo. Se requiere contexto.",
+        "text": "die Birne puede significar tanto una fruta como una bombilla. Se requiere contexto.",
         "example": "eine Birne essen = come una pera. eine Birne wechseln = cambiar la bombilla."
       },
       "sectionAccents": {
@@ -15743,27 +15743,27 @@ const A2_WORDS = [
         {
           "word": "bitter",
           "meaning": "amargo / feroz / agudo",
-          "example": "Der Kaffee ist bitter. = Kafija ir rūgta."
+          "example": "Der Kaffee ist bitter. = El café es amargo."
         },
         {
           "word": "sauer",
           "meaning": "agrio",
-          "example": "Die Zitrone ist sauer. = Citrons ir skābs."
+          "example": "Die Zitrone ist sauer. = El limón está ácido."
         },
         {
           "word": "scharf",
-          "meaning": "ass / pikants",
+          "meaning": "picante / especiado",
           "example": "Die Suppe ist scharf. = Zupa ir asa."
         },
         {
           "word": "streng",
-          "meaning": "stingrs / ass",
-          "example": "Der Lehrer ist streng. = Skolotājs ir stingrs."
+          "meaning": "fuerte / picante",
+          "example": "Der Lehrer ist streng. = El profesor es estricto."
         },
         {
           "word": "unangenehm",
           "meaning": "desagradable",
-          "example": "Der Geruch ist unangenehm. = Smarža ir nepatīkama."
+          "example": "Der Geruch ist unangenehm. = El olor es desagradable."
         }
       ],
       "tip": {
@@ -16106,7 +16106,7 @@ const A2_WORDS = [
     "de": "Blick",
     "de_article": "der",
     "de_plural": "die Blicke",
-    "lv": "ver • vistazo",
+    "lv": "mirada",
     "level": "A2"
   },
   {
@@ -16118,7 +16118,7 @@ const A2_WORDS = [
     "de": "Blitz",
     "de_article": "der",
     "de_plural": "die Blitze",
-    "lv": "iluminación",
+    "lv": "relámpago",
     "level": "A2"
   },
   {
@@ -16185,7 +16185,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Glas fällt auf den Boden.",
-          "lv": "el vaso cae al suelo."
+          "lv": "El vaso cae al suelo."
         },
         {
           "de": "Bitte leg die Tasche auf den Boden.",
@@ -16193,7 +16193,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Boden im Garten ist trocken.",
-          "lv": "el suelo del jardín está seco."
+          "lv": "El suelo del jardín está seco."
         },
         {
           "de": "Fruchtbarer Boden ist wichtig für Pflanzen.",
@@ -16201,37 +16201,37 @@ const A2_WORDS = [
         },
         {
           "de": "Das steht auf festem Boden.",
-          "lv": "se encuentra sobre una base firme."
+          "lv": "Se encuentra sobre una base firme."
         },
         {
           "de": "Am Boden der Flasche ist noch Wasser.",
-          "lv": "todavía hay agua en el fondo de la botella."
+          "lv": "Todavía hay agua en el fondo de la botella."
         }
       ],
       "comparison": [
         {
           "word": "der Boden",
           "meaning": "suelo / tierra / suelo / fondo",
-          "example": "Die Tasche liegt auf dem Boden. = Soma atrodas uz grīdas."
+          "example": "Die Tasche liegt auf dem Boden. = El bolso está en el suelo."
         },
         {
           "word": "der Fußboden",
           "meaning": "piso en la habitación",
-          "example": "Der Fußboden ist sauber. = Grīda ir tīra."
+          "example": "Der Fußboden ist sauber. = El suelo está limpio."
         },
         {
           "word": "die Erde",
-          "meaning": "zeme / augsne",
+          "meaning": "tierra / suelo",
           "example": "Die Erde ist trocken. = Zeme ir sausa."
         },
         {
           "word": "der Grund",
-          "meaning": "pamats / grunts / iemesls",
-          "example": "Das Haus steht auf festem Grund. = Māja stāv uz stingra pamata."
+          "meaning": "base / terreno / motivo",
+          "example": "Das Haus steht auf festem Grund. = La casa está sobre un terreno firme."
         },
         {
           "word": "der Flaschenboden",
-          "meaning": "pudeles dibens",
+          "meaning": "fondo de la botella",
           "example": "Der Flaschenboden ist dick. = Pudeles dibens ir biezs."
         }
       ],
@@ -16657,12 +16657,12 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "pedir prestado / prestar",
-          "example": "Ich borge mir Geld. = Es aizņemos naudu."
+          "example": "Ich borge mir Geld. = Pido dinero prestado."
         },
         {
           "word": "leihen",
           "meaning": "prestar / pedir prestado",
-          "example": "Kannst du mir das Buch leihen? = Vai vari man aizdot grāmatu?"
+          "example": "Kannst du mir das Buch leihen? = ¿Puedes prestarme el libro?"
         },
         {
           "word": "geben",
@@ -16672,16 +16672,16 @@ const A2_WORDS = [
         {
           "word": "zurückgeben",
           "meaning": "devolver",
-          "example": "Ich gebe das Buch zurück. = Es atdodu grāmatu."
+          "example": "Ich gebe das Buch zurück. = Devuelvo el libro."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Mir Borgen a menudo significa pedir prestado para uno mismo."
+            "text": "«sich etwas borgen» a menudo significa pedir algo prestado para uno mismo."
           },
           {
-            "text": "dir/ihm borgen a menudo significa prestar a otro."
+            "text": "«jemandem etwas borgen» a menudo significa prestar algo a otra persona."
           }
         ]
       },
@@ -16975,17 +16975,17 @@ const A2_WORDS = [
   },
   {
     "de": "böse",
-    "lv": "significa • enojado",
+    "lv": "malo • enojado",
     "level": "A2",
     "study": {
       "id": "a2-böse",
       "layout": "standardStudy",
-      "translation": "significa • enojado",
+      "translation": "malo • enojado",
       "explanation": "Idea principal: böse significa malo o enojado según el contexto. Puede significar maldad sobre el carácter o las acciones de una persona. En una conversación cotidiana, böse auf jemanden sein significa estar enojado con alguien. Lo malo suele ser schlecht. La rabia es más precisamente zornig o muy enojado.",
       "examples": [
         {
           "de": "Der Hund ist nicht böse.",
-          "lv": "el perro no es malo."
+          "lv": "El perro no es malo."
         },
         {
           "de": "Das war eine böse Tat.",
@@ -16997,22 +16997,22 @@ const A2_WORDS = [
         },
         {
           "de": "Sie ist böse auf ihren Bruder.",
-          "lv": "ella está enojada con su hermano."
+          "lv": "Ella está enojada con su hermano."
         },
         {
           "de": "Das ist ein schlechter Film.",
-          "lv": "es una mala película."
+          "lv": "Es una mala película."
         },
         {
           "de": "Er ist sehr zornig.",
-          "lv": "está muy furioso."
+          "lv": "Está muy furioso."
         }
       ],
       "comparison": [
         {
           "word": "böse",
           "meaning": "malo / enojado",
-          "example": "Bist du böse auf mich? = Vai tu esi dusmīgs uz mani?"
+          "example": "Bist du böse auf mich? = ¿Estás enfadado conmigo?"
         },
         {
           "word": "schlecht",
@@ -17021,8 +17021,8 @@ const A2_WORDS = [
         },
         {
           "word": "zornig",
-          "meaning": "nikns",
-          "example": "Er ist zornig. = Viņš ir nikns."
+          "meaning": "furioso",
+          "example": "Er ist zornig. = Él está furioso."
         },
         {
           "word": "ärgerlich",
@@ -17032,7 +17032,7 @@ const A2_WORDS = [
         {
           "word": "sauer",
           "meaning": "enojado / amargo",
-          "example": "Ich bin sauer. = Es esmu dusmīgs."
+          "example": "Ich bin sauer. = Estoy enfadado."
         }
       ],
       "tip": {
@@ -17340,13 +17340,13 @@ const A2_WORDS = [
     "de": "Braten",
     "de_article": "der",
     "de_plural": "die Braten",
-    "lv": "asar",
+    "lv": "asado",
     "level": "A2"
   },
   {
     "de": "Bratkartoffeln",
     "de_article": "die",
-    "lv": "patatas fritas",
+    "lv": "patatas salteadas",
     "level": "A2"
   },
   {
@@ -17360,7 +17360,7 @@ const A2_WORDS = [
     "de": "Bräutigam",
     "de_article": "der",
     "de_plural": "die Bräutigame",
-    "lv": "acicalar",
+    "lv": "novio",
     "level": "A2"
   },
   {
@@ -17387,7 +17387,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sei brav!",
-          "lv": "¡sé ordenado!"
+          "lv": "¡Sé bueno!"
         },
         {
           "de": "Der Hund war heute brav.",
@@ -17395,7 +17395,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Kinder waren sehr brav.",
-          "lv": "Los niños estaban muy ordenados."
+          "lv": "Los niños se portaron muy bien."
         },
         {
           "de": "Er ist ein guter Mensch.",
@@ -17403,39 +17403,39 @@ const A2_WORDS = [
         },
         {
           "de": "Sie ist sehr freundlich.",
-          "lv": "ella es muy amigable."
+          "lv": "ella es muy buena."
         }
       ],
       "comparison": [
         {
           "word": "brav",
           "meaning": "obediente / ordenado / educado",
-          "example": "Das Kind ist brav. = Bērns ir paklausīgs."
+          "example": "Das Kind ist brav. = El niño es obediente."
         },
         {
           "word": "gut",
           "meaning": "bien",
-          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
+          "example": "Er ist ein guter Mensch. – Es una buena persona."
         },
         {
           "word": "nett",
-          "meaning": "lindo",
-          "example": "Sie ist nett. = Viņa ir jauka."
+          "meaning": "bueno",
+          "example": "Sie ist nett. – Ella es amable."
         },
         {
           "word": "freundlich",
           "meaning": "amigable / amable",
-          "example": "Der Verkäufer ist freundlich. = Pārdevējs ir laipns."
+          "example": "Der Verkäufer ist freundlich. – El vendedor es amable."
         },
         {
           "word": "artig",
           "meaning": "educado / de buenos modales",
-          "example": "Das Kind ist artig. = Bērns ir pieklājīgs."
+          "example": "Das Kind ist artig. – El niño es educado."
         },
         {
           "word": "gehorsam",
           "meaning": "obediente a la autoridad",
-          "example": "Der Hund ist gehorsam. = Suns ir paklausīgs."
+          "example": "Der Hund ist gehorsam. – El perro es obediente."
         }
       ],
       "tip": [
@@ -17775,14 +17775,14 @@ const A2_WORDS = [
     "de": "Brei",
     "de_article": "der",
     "de_plural": "die Breie",
-    "lv": "gachas de avena • gachas de avena",
+    "lv": "gachas • gachas",
     "level": "A2"
   },
   {
     "de": "Bremse",
     "de_article": "die",
     "de_plural": "die Bremsen",
-    "lv": "freno • golpe",
+    "lv": "freno",
     "level": "A2"
   },
   {
@@ -17809,7 +17809,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Feuer brennt.",
-          "lv": "uguns deg."
+          "lv": "El fuego arde."
         },
         {
           "de": "Meine Augen brennen.",
@@ -17817,25 +17817,25 @@ const A2_WORDS = [
         },
         {
           "de": "Das Licht brennt noch.",
-          "lv": "la luz sigue encendida."
+          "lv": "La luz sigue encendida."
         },
         {
           "de": "Ich brenne die Fotos auf eine CD.",
-          "lv": "grabo fotos en el disco."
+          "lv": "Grabo fotos en el disco."
         },
         {
           "de": "Die Kerze brennt auf dem Tisch.",
-          "lv": "svece deg uz galda."
+          "lv": "La vela arde sobre la mesa."
         },
         {
           "de": "Die Suppe brennt im Mund.",
-          "lv": "la sopa arde en la boca."
+          "lv": "La sopa arde en la boca."
         }
       ],
       "comparison": [
         {
           "word": "brennen",
-          "meaning": "quemar / quemar / lastimar ardientemente",
+          "meaning": "quemar / arder / escocer",
           "example": "Das Feuer brennt. = Uguns deg."
         },
         {
@@ -17846,12 +17846,12 @@ const A2_WORDS = [
         {
           "word": "verbrennen",
           "meaning": "quemar / quemar",
-          "example": "Ich habe mich verbrannt. = Es apdedzinājos."
+          "example": "Ich habe mich verbrannt. – Me he quemado."
         },
         {
           "word": "löschen",
-          "meaning": "borrar / eliminar",
-          "example": "Die Feuerwehr löscht das Feuer. = Ugunsdzēsēji dzēš uguni."
+          "meaning": "arder / quemar",
+          "example": "Die Feuerwehr löscht das Feuer. – Los bomberos apagan el fuego."
         },
         {
           "word": "aufnehmen",
@@ -18161,7 +18161,7 @@ const A2_WORDS = [
     "de": "Bügeleisen",
     "de_article": "das",
     "de_plural": "die Bügeleisen",
-    "lv": "hierro",
+    "lv": "plancha",
     "level": "A2"
   },
   {
@@ -18192,7 +18192,7 @@ const A2_WORDS = [
     "de": "Bürste",
     "de_article": "die",
     "de_plural": "die Bürsten",
-    "lv": "cepillar",
+    "lv": "cepillo",
     "level": "A2"
   },
   {
@@ -18213,7 +18213,7 @@ const A2_WORDS = [
     "de": "Chance",
     "de_article": "die",
     "de_plural": "die Chancen",
-    "lv": "oportunidad • prospecto • oportunidad",
+    "lv": "oportunidad",
     "level": "A2"
   },
   {
@@ -18240,14 +18240,14 @@ const A2_WORDS = [
     "de": "Cocktail",
     "de_article": "der",
     "de_plural": "die Cocktails",
-    "lv": "un coctel",
+    "lv": "un cóctel",
     "level": "A2"
   },
   {
     "de": "Comic",
     "de_article": "der",
     "de_plural": "die Comics",
-    "lv": "un comic",
+    "lv": "un cómic",
     "level": "A2"
   },
   {
@@ -18315,12 +18315,12 @@ const A2_WORDS = [
         {
           "word": "dabei",
           "meaning": "presente / con / además",
-          "example": "Ich habe den Schlüssel dabei. = Man ir līdzi atslēga."
+          "example": "Ich habe den Schlüssel dabei. – Tengo la llave conmigo."
         },
         {
           "word": "mit dabei",
           "meaning": "también presente / involucrado",
-          "example": "Bist du morgen mit dabei? = Vai tu rīt arī piedalīsies?"
+          "example": "Bist du morgen mit dabei? – ¿Te apuntas también mañana?"
         },
         {
           "word": "dort",
@@ -18330,12 +18330,12 @@ const A2_WORDS = [
         {
           "word": "außerdem",
           "meaning": "además",
-          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
+          "example": "Außerdem ist es teuer. – Además, es caro."
         },
         {
           "word": "trotzdem",
           "meaning": "sin embargo",
-          "example": "Trotzdem komme ich. = Tomēr es nākšu."
+          "example": "Trotzdem komme ich. – Aun así, vengo."
         }
       ],
       "tip": {
@@ -18349,7 +18349,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "dabei nav tas pats, kas tikai “da”.",
+        "text": "dabei no es lo mismo que simplemente «da».",
         "example": "Ich bin da = estoy aquí. Ich bin dabei = participo / estoy involucrado / estoy presente en el proceso. Ich habe es dabei = lo tengo conmigo."
       },
       "sectionAccents": {
@@ -18672,19 +18672,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich bin dafür.",
-          "lv": "es esmu par to."
+          "lv": "Estoy a favor de eso."
         },
         {
           "de": "Bist du dafür oder dagegen?",
-          "lv": "tu esi par to vai pret to?"
+          "lv": "¿Estás a favor o en contra?"
         },
         {
           "de": "Danke dafür.",
-          "lv": "paldies par to."
+          "lv": "Gracias por eso."
         },
         {
           "de": "Ich habe keine Zeit dafür.",
-          "lv": "man tam nav laika."
+          "lv": "No tengo tiempo para eso."
         },
         {
           "de": "Dafür brauche ich mehr Geld.",
@@ -18702,42 +18702,42 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "dafür",
-          "meaning": "par to / tam / toties",
+          "meaning": "por eso / para eso / a favor de eso",
           "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "darum",
           "meaning": "por lo tanto / por lo tanto",
-          "example": "Darum bleibe ich zu Hause. = Tāpēc es palieku mājās."
+          "example": "Darum bleibe ich zu Hause. – Por eso me quedo en casa."
         },
         {
           "word": "deshalb",
           "meaning": "por lo tanto",
-          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
+          "example": "Deshalb komme ich später. – Por eso llegaré más tarde."
         },
         {
           "word": "dagegen",
-          "meaning": "pret to",
-          "example": "Ich bin dagegen. = Es esmu pret to."
+          "meaning": "en contra de eso",
+          "example": "Ich bin dagegen. – Estoy en contra."
         },
         {
           "word": "für das",
           "meaning": "por eso / por eso",
-          "example": "Das ist für das Kind. = Tas ir bērnam."
+          "example": "Das ist für das Kind. – Eso es para el niño."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si puedes decir \"para ello\" en español, el alemán suele ser bueno."
+            "text": "Si puedes decir «para ello» en español, dafür suele ser la palabra alemana adecuada."
           },
           {
-            "text": "Cuando hay un opuesto en una oración, dafar suele significar \"sin embargo\"."
+            "text": "Cuando hay un opuesto en una oración, dafür suele significar \"sin embargo\"."
           }
         ]
       },
       "important": {
-        "text": "Dafar no es lo mismo que damit.",
+        "text": "Dafür no es lo mismo que damit.",
         "example": "dafür = para eso / para eso. damit = con eso o algo así. Ich bin dafür = Estoy a favor."
       },
       "sectionAccents": {
@@ -19075,7 +19075,7 @@ const A2_WORDS = [
         },
         {
           "de": "Was machst du damit?",
-          "lv": "ko tu ar to dari?"
+          "lv": "¿Qué haces con eso?"
         },
         {
           "de": "Ich habe damit kein Problem.",
@@ -19091,7 +19091,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich schreibe es auf, damit ich es nicht vergesse.",
-          "lv": "es to pierakstu, lai neaizmirstu."
+          "lv": "Lo anoto para no olvidarlo."
         },
         {
           "de": "Damit bin ich einverstanden.",
@@ -19101,8 +19101,8 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "damit",
-          "meaning": "ar to / lai",
-          "example": "Ich lerne, damit ich bestehe. = Es mācos, lai nokārtotu."
+          "meaning": "con eso / para que",
+          "example": "Ich lerne, damit ich bestehe. – Estudio para aprobar."
         },
         {
           "word": "mit dem",
@@ -19112,18 +19112,18 @@ const A2_WORDS = [
         {
           "word": "um ... zu",
           "meaning": "a + verbo",
-          "example": "Ich lerne, um zu bestehen. = Es mācos, lai nokārtotu."
+          "example": "Ich lerne, um zu bestehen. – Estudio para aprobar."
         },
         {
           "word": "deshalb",
           "meaning": "por lo tanto",
-          "example": "Deshalb bleibe ich hier. = Tāpēc es palieku šeit."
+          "example": "Deshalb bleibe ich hier. – Por eso me quedo aquí."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si el pensamiento es \"con esta cosa\", usa maldita sea."
+            "text": "Si el significado es «con esta cosa», usa damit."
           },
           {
             "text": "Si el pensamiento es el objetivo de \"hacer que algo suceda\", también se suele utilizar damit."
@@ -19131,7 +19131,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "damit como \"a\" cambia el orden de las palabras en la cláusula auxiliar.",
+        "text": "damit, como conjunción equivalente a «para que», introduce una oración subordinada.",
         "example": "Sprich langsam, damit ich dich verstehe. No confundas damit con dafür. dafür = para eso; damit = con eso / dejar."
       },
       "sectionAccents": {
@@ -19450,19 +19450,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Vielen Dank!",
-          "lv": "liels paldies!"
+          "lv": "¡Muchas gracias!"
         },
         {
           "de": "Herzlichen Dank!",
-          "lv": "¡muchas gracias!"
+          "lv": "¡Muchas gracias!"
         },
         {
           "de": "Danke schön!",
-          "lv": "liels paldies!"
+          "lv": "¡Muchas gracias!"
         },
         {
           "de": "Nein, danke.",
-          "lv": "no, gracias"
+          "lv": "No, gracias."
         },
         {
           "de": "Ich danke Ihnen für die Hilfe.",
@@ -19481,12 +19481,12 @@ const A2_WORDS = [
         {
           "word": "der Dank",
           "meaning": "gratitud (sustantivo)",
-          "example": "Herzlichen Dank! = Sirsnīgs paldies!"
+          "example": "Herzlichen Dank! – ¡Muchas gracias de corazón!"
         },
         {
           "word": "danke",
-          "meaning": "paldies (atbilde)",
-          "example": "Nein, danke. = Nē, paldies."
+          "meaning": "gracias (respuesta)",
+          "example": "Nein, danke. – No, gracias."
         },
         {
           "word": "danken",
@@ -19496,12 +19496,12 @@ const A2_WORDS = [
         {
           "word": "Vielen Dank",
           "meaning": "muchas gracias (frase)",
-          "example": "Vielen Dank für die Hilfe! = Liels paldies par palīdzību!"
+          "example": "Vielen Dank für die Hilfe! – ¡Muchas gracias por la ayuda!"
         },
         {
           "word": "bedanken (sich)",
           "meaning": "agradecer formalmente",
-          "example": "Ich bedanke mich bei Ihnen. = Es pateicos jums."
+          "example": "Ich bedanke mich bei Ihnen. – Le doy las gracias."
         }
       ],
       "tip": {
@@ -19816,12 +19816,12 @@ const A2_WORDS = [
   },
   {
     "de": "darauf",
-    "lv": "en él • en él • después de eso",
+    "lv": "en eso • en eso • después de eso",
     "level": "A2",
     "study": {
       "id": "a2-darauf",
       "layout": "standardStudy",
-      "translation": "en él • en él • después de eso",
+      "translation": "en eso • en eso • después de eso",
       "explanation": [
         "Idea principal: daraaf significa en eso, en aquello o después, según el contexto.",
         "Cuando se trata de la superficie, daraf significa sobre ella.",
@@ -19832,7 +19832,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich warte darauf.",
-          "lv": "es to gaidu."
+          "lv": "Estoy esperando eso."
         },
         {
           "de": "Darauf freue ich mich.",
@@ -19840,23 +19840,23 @@ const A2_WORDS = [
         },
         {
           "de": "Du kannst dich darauf verlassen.",
-          "lv": "puedes contar con ello."
+          "lv": "Puedes contar con ello."
         },
         {
           "de": "Ich habe keine Antwort darauf.",
-          "lv": "man nav atbildes uz to."
+          "lv": "No tengo respuesta para eso."
         },
         {
           "de": "Das Buch liegt darauf.",
-          "lv": "el libro está sobre eso."
+          "lv": "El libro está encima de eso."
         },
         {
           "de": "Kurz darauf kam er zurück.",
-          "lv": "regresó poco después."
+          "lv": "Regresó poco después."
         },
         {
           "de": "Achte darauf!",
-          "lv": "¡presta atención!"
+          "lv": "¡Presta atención!"
         }
       ],
       "comparison": [
@@ -19868,17 +19868,17 @@ const A2_WORDS = [
         {
           "word": "auf das",
           "meaning": "a ese caso particular",
-          "example": "Ich lege es auf das Buch. = Es lieku to uz grāmatas."
+          "example": "Ich lege es auf das Buch. – Lo pongo sobre el libro."
         },
         {
           "word": "danach",
           "meaning": "después",
-          "example": "Danach gehe ich nach Hause. = Pēc tam es eju mājās."
+          "example": "Danach gehe ich nach Hause. – Después me voy a casa."
         },
         {
           "word": "darüber",
           "meaning": "sobre eso / sobre eso",
-          "example": "Wir sprechen darüber. = Mēs runājam par to."
+          "example": "Wir sprechen darüber. – Hablamos de eso."
         }
       ],
       "tip": {
@@ -19892,7 +19892,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Darauf freue ich mich significa literalmente \"por eso me regocijo\".",
+        "text": "Darauf freue ich mich significa literalmente «me alegro de ello».",
         "example": "Significa: lo espero con ansias. Ich warte darauf = lo estoy esperando. Ich verlasse mich darauf = confío en ello."
       },
       "sectionAccents": {
@@ -20192,11 +20192,11 @@ const A2_WORDS = [
         },
         {
           "de": "Ich denke darüber nach.",
-          "lv": "lo pienso."
+          "lv": "Pienso en ello."
         },
         {
           "de": "Ich weiß nichts darüber.",
-          "lv": "es par to neko nezinu."
+          "lv": "No sé nada sobre eso."
         },
         {
           "de": "Darüber müssen wir noch reden.",
@@ -20204,27 +20204,27 @@ const A2_WORDS = [
         },
         {
           "de": "Die Lampe hängt darüber.",
-          "lv": "una lámpara cuelga encima."
+          "lv": "Una lámpara cuelga por encima de eso."
         },
         {
           "de": "Er springt darüber.",
-          "lv": "él salta sobre él."
+          "lv": "Él salta por encima de ello."
         },
         {
           "de": "Mach dir keine Sorgen darüber.",
-          "lv": "neuztraucies par to."
+          "lv": "No te preocupes por eso."
         }
       ],
       "comparison": [
         {
           "word": "darüber",
           "meaning": "sobre eso / sobre eso / sobre eso",
-          "example": "Wir sprechen darüber. = Mēs runājam par to."
+          "example": "Wir sprechen darüber. – Hablamos de eso."
         },
         {
           "word": "über das",
           "meaning": "para esa cosa en particular / encima de ella",
-          "example": "Wir sprechen über das Problem. = Mēs runājam par problēmu."
+          "example": "Wir sprechen über das Problem. – Hablamos del problema."
         },
         {
           "word": "darauf",
@@ -20234,7 +20234,7 @@ const A2_WORDS = [
         {
           "word": "davon",
           "meaning": "para ello / de ello",
-          "example": "Ich habe davon gehört. = Es par to dzirdēju."
+          "example": "Ich habe davon gehört. – He oído hablar de eso."
         }
       ],
       "tip": {
@@ -20243,7 +20243,7 @@ const A2_WORDS = [
             "text": "Si el verbo es sprechen über o reden über, la forma del pronombre suele ser darüber."
           },
           {
-            "text": "Cuando se trata de estar más arriba, darber significa \"por encima\"."
+            "text": "Cuando se trata de estar más arriba, darüber significa «por encima»."
           }
         ]
       },
@@ -20559,56 +20559,56 @@ const A2_WORDS = [
         },
         {
           "de": "Darum habe ich dich angerufen.",
-          "lv": "por eso te llamé."
+          "lv": "Por eso te llamé."
         },
         {
           "de": "Genau darum geht es.",
-          "lv": "de eso se trata exactamente."
+          "lv": "De eso se trata exactamente."
         },
         {
           "de": "Wir sitzen darum.",
-          "lv": "nos sentamos a su alrededor."
+          "lv": "Nos sentamos a su alrededor."
         },
         {
           "de": "Mach dir darum keine Sorgen.",
-          "lv": "par to neuztraucies."
+          "lv": "No te preocupes por eso."
         },
         {
           "de": "Darum geht es nicht.",
-          "lv": "par to nav runa."
+          "lv": "No se trata de eso."
         }
       ],
       "comparison": [
         {
           "word": "darum",
           "meaning": "por lo tanto / por lo tanto / alrededor de ello",
-          "example": "Darum bleibe ich hier. = Tāpēc es palieku šeit."
+          "example": "Darum bleibe ich hier. – Por eso me quedo aquí."
         },
         {
           "word": "deshalb",
           "meaning": "por lo tanto",
-          "example": "Deshalb komme ich später. = Tāpēc es nākšu vēlāk."
+          "example": "Deshalb komme ich später. – Por eso llegaré más tarde."
         },
         {
           "word": "deswegen",
           "meaning": "por lo tanto / por esta razón",
-          "example": "Deswegen bin ich müde. = Tāpēc esmu noguris."
+          "example": "Deswegen bin ich müde. – Por eso estoy cansado."
         },
         {
           "word": "um das",
           "meaning": "alrededor de esa cosa en particular",
-          "example": "Wir sitzen um das Feuer. = Mēs sēžam ap uguni."
+          "example": "Wir sitzen um das Feuer. – Nos sentamos alrededor del fuego."
         },
         {
           "word": "dafür",
-          "meaning": "par to / tam / toties",
+          "meaning": "por eso / para eso / sin embargo",
           "example": "Danke dafür. = Paldies par to."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando una oración explica una causa o un efecto, darum a menudo significa \"porque\"."
+            "text": "Cuando una oración explica una causa o un efecto, darum a menudo significa «por eso»."
           },
           {
             "text": "La expresión darum geht es significa \"de eso se trata\"."
@@ -20616,7 +20616,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "darum nav tikai “ap to”.",
+        "text": "Darum no significa solamente «sobre eso».",
         "example": "Darum bleibe ich zu Hause = Por eso me quedo en casa. Darum geht es = De eso se trata. Mach dir darum keine Sorgen = No te preocupes por eso."
       },
       "sectionAccents": {
@@ -20940,7 +20940,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich weiß nichts davon.",
-          "lv": "es par to neko nezinu."
+          "lv": "No sé nada sobre eso."
         },
         {
           "de": "Ein Teil davon ist kaputt.",
@@ -21158,12 +21158,12 @@ const A2_WORDS = [
   },
   {
     "de": "davor",
-    "lv": "Al frente",
+    "lv": "delante • antes de eso",
     "level": "A2",
     "study": {
       "id": "a2-davor",
       "layout": "standardStudy",
-      "translation": "Al frente",
+      "translation": "delante • antes de eso",
       "explanation": [
         "Idea principal: davor puede significar un lugar delante de, un tiempo antes o “de aquello” después de un miedo/advertencia.",
         "Espacialmente, davor significa delante de algo.",
@@ -21174,7 +21174,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Auto steht davor.",
-          "lv": "el coche está parado delante."
+          "lv": "El coche está parado delante."
         },
         {
           "de": "Kurz davor war alles ruhig.",
@@ -21186,11 +21186,11 @@ const A2_WORDS = [
         },
         {
           "de": "Er warnte mich davor.",
-          "lv": "me advirtió contra ello."
+          "lv": "Me advirtió contra ello."
         },
         {
           "de": "Die Tür ist davor.",
-          "lv": "la puerta está delante."
+          "lv": "La puerta está delante."
         },
         {
           "de": "Davor habe ich nichts gewusst.",
@@ -21201,17 +21201,17 @@ const A2_WORDS = [
         {
           "word": "davor",
           "meaning": "delante de / antes de eso / de eso",
-          "example": "Ich habe Angst davor. = Man ir bail no tā."
+          "example": "Ich habe Angst davor. – Tengo miedo de eso."
         },
         {
           "word": "vor dem",
           "meaning": "antes / frente a un particular",
-          "example": "Vor dem Haus steht ein Auto. = Mājas priekšā stāv auto."
+          "example": "Vor dem Haus steht ein Auto. – Delante de la casa hay un coche."
         },
         {
           "word": "danach",
           "meaning": "después",
-          "example": "Danach gehen wir. = Pēc tam mēs ejam."
+          "example": "Danach gehen wir. – Después nos vamos."
         },
         {
           "word": "darauf",
@@ -21469,12 +21469,12 @@ const A2_WORDS = [
   },
   {
     "de": "dazu",
-    "lv": "por eso",
+    "lv": "a eso • con eso • además",
     "level": "A2",
     "study": {
       "id": "a2-dazu",
       "layout": "standardStudy",
-      "translation": "por eso",
+      "translation": "a eso • con eso • además",
       "explanation": [
         "Idea principal: dazu significa \"a\", \"en\", \"presente\" o \"además\", según el contexto.",
         "dazu a menudo se refiere a la cosa o acción mencionada anteriormente.",
@@ -21485,23 +21485,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Was sagst du dazu?",
-          "lv": "ko tu par to saki?"
+          "lv": "¿Qué dices al respecto?"
         },
         {
           "de": "Ich nehme noch Brot dazu.",
-          "lv": "Traeré más pan."
+          "lv": "Traeré además pan."
         },
         {
           "de": "Dazu habe ich keine Zeit.",
-          "lv": "tam man nav laika."
+          "lv": "No tengo tiempo para eso."
         },
         {
           "de": "Dazu kommt noch ein Problem.",
-          "lv": "además viene otro problema."
+          "lv": "Además viene otro problema."
         },
         {
           "de": "Passt das dazu?",
-          "lv": "¿va con eso?"
+          "lv": "¿Va con eso?"
         },
         {
           "de": "Ich brauche Hilfe dazu.",
@@ -21511,23 +21511,23 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "dazu",
-          "meaning": "a eso / a eso / presente / además",
+          "meaning": "a eso / a eso / con eso / además",
           "example": "Was sagst du dazu? = Ko tu par to saki?"
         },
         {
           "word": "dafür",
-          "meaning": "par to / tam / toties",
+          "meaning": "por eso / para eso / tantas veces",
           "example": "Danke dafür. = Paldies par to."
         },
         {
           "word": "dabei",
-          "meaning": "presente / con / además",
-          "example": "Ich war dabei. = Es biju klāt."
+          "meaning": "a eso / con eso / además",
+          "example": "Ich war dabei. – Yo estaba allí."
         },
         {
           "word": "außerdem",
           "meaning": "además",
-          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
+          "example": "Außerdem ist es teuer. – Además, es caro."
         }
       ],
       "tip": [
@@ -21774,7 +21774,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-decke",
       "layout": "standardStudy",
-      "translation": "frazada",
+      "translation": "manta • techo",
       "explanation": [
         "Idea principal: die Decke puede significar manta o techo según el contexto.",
         "En el dormitorio, die Decke suele significar manta.",
@@ -21785,43 +21785,43 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Decke ist warm.",
-          "lv": "sega ir silta."
+          "lv": "La manta está caliente."
         },
         {
           "de": "Ich brauche eine Decke.",
-          "lv": "man vajag segu."
+          "lv": "Necesito la manta."
         },
         {
           "de": "Die Lampe hängt an der Decke.",
-          "lv": "una lámpara cuelga del techo."
+          "lv": "Una lámpara cuelga del techo."
         },
         {
           "de": "Die Decke ist weiß.",
-          "lv": "griesti ir balti."
+          "lv": "El techo es blanco."
         },
         {
           "de": "Die Bettdecke liegt auf dem Bett.",
-          "lv": "sega atrodas uz gultas."
+          "lv": "La manta está sobre la cama."
         },
         {
           "de": "Das Dach ist kaputt.",
-          "lv": "el techo está dañado."
+          "lv": "El techo está dañado."
         }
       ],
       "comparison": [
         {
           "word": "die Decke",
-          "meaning": "sega / griesti",
+          "meaning": "manta / techo",
           "example": "Die Decke ist warm. = Sega ir silta."
         },
         {
           "word": "die Bettdecke",
           "meaning": "una manta en la cama",
-          "example": "Die Bettdecke ist weich. = Sega ir mīksta."
+          "example": "Die Bettdecke ist weich. – El edredón es suave."
         },
         {
           "word": "die Zimmerdecke",
-          "meaning": "griesti",
+          "meaning": "techo",
           "example": "Die Zimmerdecke ist hoch. = Griesti ir augsti."
         },
         {
@@ -21832,7 +21832,7 @@ const A2_WORDS = [
         {
           "word": "die Wand",
           "meaning": "muro",
-          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+          "example": "Das Bild hängt an der Wand. – El cuadro cuelga en la pared."
         }
       ],
       "tip": [
@@ -22145,7 +22145,7 @@ const A2_WORDS = [
         },
         {
           "de": "Was machst du denn?",
-          "lv": "ko tad tu dari?"
+          "lv": "¿Qué haces entonces?"
         },
         {
           "de": "Warum denn?",
@@ -22157,11 +22157,11 @@ const A2_WORDS = [
         },
         {
           "de": "Wer ist denn das?",
-          "lv": "kas tad tas ir?"
+          "lv": "¿Qué es eso entonces?"
         },
         {
           "de": "Dann gehen wir nach Hause.",
-          "lv": "luego nos vamos a casa."
+          "lv": "Pues nos vamos a casa."
         }
       ],
       "comparison": [
@@ -22173,17 +22173,17 @@ const A2_WORDS = [
         {
           "word": "weil",
           "meaning": "porque / porque",
-          "example": "Ich bleibe, weil es regnet. = Es palieku, jo līst."
+          "example": "Ich bleibe, weil es regnet. – Me quedo porque llueve."
         },
         {
           "word": "dann",
           "meaning": "entonces",
-          "example": "Dann gehen wir. = Tad mēs ejam."
+          "example": "Dann gehen wir. – Entonces nos vamos."
         },
         {
           "word": "deshalb",
           "meaning": "por lo tanto",
-          "example": "Deshalb bleibe ich. = Tāpēc es palieku."
+          "example": "Deshalb bleibe ich. – Por eso me quedo."
         }
       ],
       "tip": [
@@ -22470,7 +22470,7 @@ const A2_WORDS = [
   },
   {
     "de": "deutlich",
-    "lv": "claro • claro • comprensible",
+    "lv": "claro",
     "level": "A2"
   },
   {
@@ -22495,7 +22495,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Jacke ist dick.",
-          "lv": "jaka ir bieza."
+          "lv": "La chaqueta es gruesa."
         },
         {
           "de": "Der Mann ist dick.",
@@ -22503,7 +22503,7 @@ const A2_WORDS = [
         },
         {
           "de": "Eine dicke Suppe.",
-          "lv": "bieza zupa."
+          "lv": "La sopa es espesa."
         },
         {
           "de": "Das Papier ist dünn.",
@@ -22511,24 +22511,24 @@ const A2_WORDS = [
         },
         {
           "de": "Die Straße ist breit.",
-          "lv": "iela ir plata."
+          "lv": "La calle es ancha."
         }
       ],
       "comparison": [
         {
           "word": "dick",
-          "meaning": "resns / biezs",
-          "example": "Das Buch ist dick. = Grāmata ir bieza."
+          "meaning": "delgado / grueso",
+          "example": "Das Buch ist dick. – El libro es grueso."
         },
         {
           "word": "fett",
-          "meaning": "trekns / resns",
-          "example": "Das Essen ist fett. = Ēdiens ir trekns."
+          "meaning": "gordo / delgado",
+          "example": "Das Essen ist fett. – La comida es grasa."
         },
         {
           "word": "dünn",
           "meaning": "delgado / delgado",
-          "example": "Das Papier ist dünn. = Papīrs ir plāns."
+          "example": "Das Papier ist dünn. – El papel es fino."
         },
         {
           "word": "breit",
@@ -22538,7 +22538,7 @@ const A2_WORDS = [
         {
           "word": "stark",
           "meaning": "fuerte",
-          "example": "Er ist stark. = Viņš ir stiprs."
+          "example": "Er ist stark. = Él es fuerte."
         }
       ],
       "tip": [
@@ -22864,15 +22864,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist doch klar.",
-          "lv": "eso esta claro."
+          "lv": "Eso está claro."
         },
         {
           "de": "Komm doch mit!",
-          "lv": "¡venir también!"
+          "lv": "¡Ven también!"
         },
         {
           "de": "Sprich doch!",
-          "lv": "¡Habla aunque! / ¡Habla!"
+          "lv": "¡Habla! / ¡Habla!"
         },
         {
           "de": "Ich habe doch keine Zeit.",
@@ -22880,11 +22880,11 @@ const A2_WORDS = [
         },
         {
           "de": "Er kommt doch heute.",
-          "lv": "Aunque vendrá hoy."
+          "lv": "Sin embargo, vendrá hoy."
         },
         {
           "de": "Bist du nicht müde? Doch.",
-          "lv": "vai tu neesi noguris? Esmu gan."
+          "lv": "¿No estás cansado? Sí, lo estoy."
         },
         {
           "de": "Du kennst ihn doch.",
@@ -22898,18 +22898,18 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "doch",
-          "meaning": "pero / sin embargo / ambos / jel",
-          "example": "Komm doch! = Nāc taču!"
+          "meaning": "pero / sin embargo / ambos / sí",
+          "example": "Komm doch! = ¡Ven!"
         },
         {
           "word": "aber",
           "meaning": "pero",
-          "example": "Ich will, aber ich kann nicht. = Es gribu, bet nevaru."
+          "example": "Ich will, aber ich kann nicht. = Quiero, pero no puedo."
         },
         {
           "word": "trotzdem",
           "meaning": "sin embargo / a pesar de eso",
-          "example": "Es regnet, trotzdem gehe ich. = Līst, tomēr es eju."
+          "example": "Es regnet, trotzdem gehe ich. = Llueve, sin embargo, voy."
         },
         {
           "word": "ja",
@@ -22919,13 +22919,13 @@ const A2_WORDS = [
         {
           "word": "nein",
           "meaning": "No",
-          "example": "Kommst du? Nein. = Vai tu nāksi? Nē."
+          "example": "Kommst du? Nein. = ¿Vienes? No."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Si doch suena como una emoción o énfasis en una oración alemana, el español suele usar \"taču\"."
+            "text": "Si «doch» expresa emoción o énfasis en una oración alemana, el español suele usar «pero» o una expresión equivalente."
           },
           {
             "text": "Cuando la pregunta es negativa y la respuesta es afirmativa, el alemán suele utilizar doch."
@@ -23347,27 +23347,27 @@ const A2_WORDS = [
         {
           "word": "der Doktor",
           "meaning": "doctor / coloquialmente doctor",
-          "example": "Ich gehe zum Doktor. = Es eju pie ārsta."
+          "example": "Ich gehe zum Doktor. = Voy al doctor."
         },
         {
           "word": "der Arzt",
           "meaning": "doctor",
-          "example": "Der Arzt hilft mir. = Ārsts man palīdz."
+          "example": "Der Arzt hilft mir. = El médico me ayuda."
         },
         {
           "word": "die Ärztin",
           "meaning": "un doctor",
-          "example": "Die Ärztin arbeitet hier. = Ārste strādā šeit."
+          "example": "Die Ärztin arbeitet hier. = La médica trabaja aquí."
         },
         {
           "word": "der Titel",
-          "meaning": "tituls",
+          "meaning": "título",
           "example": "Doktor ist ein Titel. = Doktors ir tituls."
         },
         {
           "word": "die Praxis",
-          "meaning": "practica medica",
-          "example": "Die Praxis ist offen. = Ārsta prakse ir atvērta."
+          "meaning": "práctica médica",
+          "example": "Die Praxis ist offen. = La consulta del médico está abierta."
         }
       ],
       "tip": [
@@ -23665,22 +23665,22 @@ const A2_WORDS = [
   },
   {
     "de": "dorthin",
-    "lv": "hasta allí • siguiente",
+    "lv": "hasta allí",
     "level": "A2"
   },
   {
     "de": "draußen",
-    "lv": "fuera • en el campo",
+    "lv": "fuera",
     "level": "A2"
   },
   {
     "de": "drehen",
-    "lv": "cortar",
+    "lv": "girar",
     "level": "A2",
     "study": {
       "id": "a2-drehen",
       "layout": "standardStudy",
-      "translation": "cortar",
+      "translation": "girar",
       "explanation": [
         "Idea principal: drehen significa girar o girar algo alrededor de un eje, no cortar con un cuchillo.",
         "Se utiliza cuando algo gira o se gira.",
@@ -23691,27 +23691,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Dreh den Schlüssel!",
-          "lv": "gira la llave!"
+          "lv": "¡Gira la llave!"
         },
         {
           "de": "Die Erde dreht sich.",
-          "lv": "la tierra gira."
+          "lv": "La Tierra gira."
         },
         {
           "de": "Er dreht den Kopf.",
-          "lv": "él gira la cabeza."
+          "lv": "Él gira la cabeza."
         },
         {
           "de": "Bitte nicht drehen!",
-          "lv": "¡Por favor no edites!"
+          "lv": "¡Por favor, no gires!"
         },
         {
           "de": "Ich schneide Brot.",
-          "lv": "Estoy cortando pan."
+          "lv": "Estoy girando el pan."
         },
         {
           "de": "Dreh dich um!",
-          "lv": "¡Giro de vuelta!"
+          "lv": "¡Date la vuelta!"
         }
       ],
       "tip": [
@@ -23944,12 +23944,12 @@ const A2_WORDS = [
     "de": "Drittel",
     "de_article": "das",
     "de_plural": "die Drittel",
-    "lv": "un tercero",
+    "lv": "un tercio",
     "level": "A2"
   },
   {
     "de": "drüben",
-    "lv": "en el otro lado • espera",
+    "lv": "al otro lado",
     "level": "A2"
   },
   {
@@ -23970,11 +23970,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Drück den Knopf!",
-          "lv": "nospied pogu!"
+          "lv": "¡Pulsa el botón!"
         },
         {
           "de": "Bitte hier drücken.",
-          "lv": "por favor haga clic aquí."
+          "lv": "Por favor, haga clic aquí."
         },
         {
           "de": "Er drückt die Tür auf.",
@@ -23982,15 +23982,15 @@ const A2_WORDS = [
         },
         {
           "de": "Das Kind drückt die Mutter.",
-          "lv": "el niño se aferra a la madre."
+          "lv": "El niño abraza a su madre."
         },
         {
           "de": "Ich drucke das Dokument.",
-          "lv": "Estoy imprimiendo un documento."
+          "lv": "Estoy presionando un botón."
         },
         {
           "de": "Klicken Sie hier.",
-          "lv": "haga clic aquí."
+          "lv": "Haga clic aquí."
         }
       ],
       "tip": [
@@ -24221,12 +24221,12 @@ const A2_WORDS = [
   },
   {
     "de": "dünn",
-    "lv": "plan",
+    "lv": "delgado",
     "level": "A2",
     "study": {
       "id": "a2-dünn",
       "layout": "standardStudy",
-      "translation": "plan",
+      "translation": "delgado",
       "explanation": [
         "Idea principal: El significado de dünn cambia según el caso: una persona es delgada, el papel es fino, el cabello puede ser escaso, la sopa puede estar líquida.",
         "Para una persona o un animal, dünn significa delgado.",
@@ -24237,39 +24237,39 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Papier ist dünn.",
-          "lv": "el papel es fino."
+          "lv": "El papel es fino."
         },
         {
           "de": "Er ist sehr dünn.",
-          "lv": "él es muy delgado."
+          "lv": "Él es muy delgado."
         },
         {
           "de": "Sie hat dünnes Haar.",
-          "lv": "ella tiene el pelo ralo."
+          "lv": "Ella tiene el pelo ralo."
         },
         {
           "de": "Die Suppe ist dünn.",
-          "lv": "la sopa está líquida."
+          "lv": "La sopa está líquida."
         },
         {
           "de": "Das Buch ist dick.",
-          "lv": "el libro es grueso."
+          "lv": "El libro es grueso."
         },
         {
           "de": "Die Straße ist schmal.",
-          "lv": "la calle es estrecha."
+          "lv": "La calle es estrecha."
         }
       ],
       "comparison": [
         {
           "word": "dünn",
           "meaning": "delgado / delgado / delgado / líquido",
-          "example": "Das Papier ist dünn. = Papīrs ir plāns."
+          "example": "Das Papier ist dünn. = El papel es fino."
         },
         {
           "word": "dick",
-          "meaning": "biezs / resns",
-          "example": "Das Buch ist dick. = Grāmata ir bieza."
+          "meaning": "grueso / gordo",
+          "example": "Das Buch ist dick. = El libro es grueso."
         },
         {
           "word": "schmal",
@@ -24278,13 +24278,13 @@ const A2_WORDS = [
         },
         {
           "word": "mager",
-          "meaning": "kalsns / liess",
-          "example": "Das Fleisch ist mager. = Gaļa ir liesa."
+          "meaning": "flaco / delgado",
+          "example": "Das Fleisch ist mager. = La carne es magra."
         },
         {
           "word": "flüssig",
           "meaning": "líquido",
-          "example": "Honig ist flüssig. = Medus ir šķidrs."
+          "example": "Honig ist flüssig. = La miel es líquida."
         }
       ],
       "tip": [
@@ -24593,7 +24593,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich komme mit dem Bus.",
-          "lv": "es braucu ar autobusu."
+          "lv": "Viajo en autobús."
         },
         {
           "de": "Wegen des Regens bleiben wir zu Hause.",
@@ -24844,23 +24844,23 @@ const A2_WORDS = [
         },
         {
           "de": "Die Straße ist eben.",
-          "lv": "la calle es plana."
+          "lv": "La calle es plana."
         },
         {
           "de": "Ich habe ihn eben gesehen.",
-          "lv": "acabo de verlo"
+          "lv": "Acabo de verlo."
         },
         {
           "de": "Er war eben noch hier.",
-          "lv": "él todavía estaba aquí."
+          "lv": "Él todavía estaba aquí."
         },
         {
           "de": "Das ist eben so.",
-          "lv": "así es como es."
+          "lv": "Así es como es."
         },
         {
           "de": "Dann warten wir eben.",
-          "lv": "entonces simplemente esperaremos."
+          "lv": "Entonces simplemente esperaremos."
         },
         {
           "de": "Ich kann eben nicht alles wissen.",
@@ -24875,28 +24875,28 @@ const A2_WORDS = [
         {
           "word": "eben",
           "meaning": "exactamente / justo / así es / plano",
-          "example": "Das ist eben so. = Tā tas vienkārši ir."
+          "example": "Das ist eben so. = Así son las cosas."
         },
         {
           "word": "gerade",
-          "meaning": "ahora mismo / derecho",
-          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
+          "meaning": "ahora mismo / plano",
+          "example": "Ich bin gerade zu Hause. = Ahora mismo estoy en casa."
         },
         {
           "word": "gerade eben",
-          "meaning": "tikko / nupat",
-          "example": "Ich habe ihn gerade eben gesehen. = Es viņu tikko redzēju."
+          "meaning": "justo ahora / hace un momento",
+          "example": "Ich habe ihn gerade eben gesehen. = Lo acabo de ver."
         },
         {
           "word": "flach",
-          "meaning": "departamento",
+          "meaning": "plano",
           "example": "Das Land ist flach. = Zeme ir plakana."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando eben va acompañado de un tiempo, a menudo significa \"justo ahora\" o \"justo ahora\"."
+            "text": "Cuando eben va acompañado de una expresión temporal, a menudo significa «justo ahora» o «hace un momento»."
           },
           {
             "text": "Si eben suena como una actitud, en español suele ser \"simplemente\", \"bueno, así es\" o \"pero\"."
@@ -25263,7 +25263,7 @@ const A2_WORDS = [
   },
   {
     "de": "egal",
-    "lv": "de todos modos",
+    "lv": "da igual",
     "level": "A2"
   },
   {
@@ -25314,7 +25314,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er ist nett.",
-          "lv": "el es agradable"
+          "lv": "Él es honesto."
         },
         {
           "de": "Das war eine aufrichtige Entschuldigung.",
@@ -25325,7 +25325,7 @@ const A2_WORDS = [
         {
           "word": "ehrlich",
           "meaning": "honesto / abierto",
-          "example": "Er ist ehrlich. = Viņš ir godīgs."
+          "example": "Er ist ehrlich. = Él es honesto."
         },
         {
           "word": "aufrichtig",
@@ -25334,13 +25334,13 @@ const A2_WORDS = [
         },
         {
           "word": "nett",
-          "meaning": "lindo",
-          "example": "Sie ist nett. = Viņa ir jauka."
+          "meaning": "sincero",
+          "example": "Sie ist nett. = Ella es amable."
         },
         {
           "word": "gut",
-          "meaning": "bien",
-          "example": "Er ist ein guter Mensch. = Viņš ir labs cilvēks."
+          "meaning": "honesto",
+          "example": "Er ist ein guter Mensch. = Él es una buena persona."
         }
       ],
       "tip": [
@@ -25617,7 +25617,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Eigentlich habe ich keine Zeit.",
-          "lv": "en realidad no tengo tiempo."
+          "lv": "En realidad no tengo tiempo."
         },
         {
           "de": "Was willst du eigentlich?",
@@ -25625,31 +25625,31 @@ const A2_WORDS = [
         },
         {
           "de": "Das ist der eigentliche Grund.",
-          "lv": "esta es la verdadera razón."
+          "lv": "Esta es la verdadera razón."
         },
         {
           "de": "Eigentlich ist das ganz einfach.",
-          "lv": "en realidad es bastante simple."
+          "lv": "En realidad es bastante simple."
         },
         {
           "de": "Das ist echt.",
-          "lv": "es real."
+          "lv": "En realidad, es así."
         },
         {
           "de": "Das ist wahr.",
-          "lv": "tas ir patiess."
+          "lv": "En realidad, eso es cierto."
         }
       ],
       "comparison": [
         {
           "word": "eigentlich",
           "meaning": "en realidad / en realidad / el real",
-          "example": "Eigentlich habe ich keine Zeit. = Patiesībā man nav laika."
+          "example": "Eigentlich habe ich keine Zeit. = En realidad no tengo tiempo."
         },
         {
           "word": "echt",
           "meaning": "real",
-          "example": "Das ist echt. = Tas ir īsts."
+          "example": "Das ist echt. = Eso es auténtico."
         },
         {
           "word": "wahr",
@@ -25659,7 +25659,7 @@ const A2_WORDS = [
         {
           "word": "wirklich",
           "meaning": "realmente / de hecho",
-          "example": "Das ist wirklich gut. = Tas tiešām ir labi."
+          "example": "Das ist wirklich gut. = Eso es realmente bueno."
         }
       ],
       "tip": [
@@ -25921,7 +25921,7 @@ const A2_WORDS = [
   {
     "de": "Eile",
     "de_article": "die",
-    "lv": "correr",
+    "lv": "prisa",
     "level": "A2"
   },
   {
@@ -25950,7 +25950,7 @@ const A2_WORDS = [
   },
   {
     "de": "einige",
-    "lv": "algunos • pocos",
+    "lv": "algunos",
     "level": "A2"
   },
   {
@@ -26011,23 +26011,23 @@ const A2_WORDS = [
         {
           "word": "laden",
           "meaning": "cargar / cargar",
-          "example": "Ich lade das Handy. = Es lādēju telefonu."
+          "example": "Ich lade das Handy. = Estoy cargando el móvil."
         },
         {
           "word": "besuchen",
-          "meaning": "visitar / visitar",
+          "meaning": "invitar / cargar",
           "example": "Ich besuche dich. = Es tevi apciemoju."
         },
         {
           "word": "mitbringen",
-          "meaning": "llévate contigo",
-          "example": "Bring bitte Brot mit. = Paņem līdzi maizi."
+          "meaning": "cargar",
+          "example": "Bring bitte Brot mit. = Trae pan, por favor."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "En el contexto de personas, einladen significa invitar o invitar."
+            "text": "Cuando se refiere a personas, «einladen» significa invitar."
           },
           {
             "text": "En el contexto de carga, einladen significa cargar."
@@ -26403,22 +26403,22 @@ const A2_WORDS = [
         {
           "word": "einschalten",
           "meaning": "encender / involucrar",
-          "example": "Ich schalte das Licht ein. = Es ieslēdzu gaismu."
+          "example": "Ich schalte das Licht ein. = Enciendo la luz."
         },
         {
           "word": "ausschalten",
           "meaning": "apagar",
-          "example": "Schalte den Computer aus. = Izslēdz datoru."
+          "example": "Schalte den Computer aus. = Apaga el ordenador."
         },
         {
           "word": "anmachen",
           "meaning": "encender (coloquial)",
-          "example": "Mach das Licht an. = Ieslēdz gaismu."
+          "example": "Mach das Licht an. = Enciende la luz."
         },
         {
           "word": "einbeziehen",
           "meaning": "involucrar",
-          "example": "Wir beziehen ihn ein. = Mēs viņu iesaistām."
+          "example": "Wir beziehen ihn ein. = Lo incluimos."
         }
       ],
       "tip": {
@@ -26432,7 +26432,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "einschalten y ausschalten son lo opuesto a dispositivos.",
+        "text": "«Einschalten» y «ausschalten» son opuestos cuando se habla de dispositivos.",
         "example": "Licht einschalten = enciende la luz. Licht ausschalten = apaga la luz."
       },
       "sectionAccents": {
@@ -26727,17 +26727,17 @@ const A2_WORDS = [
   },
   {
     "de": "einschenken",
-    "lv": "derramar",
+    "lv": "servir",
     "level": "A2"
   },
   {
     "de": "einschlafen",
-    "lv": "quedarse dormido • entumecido",
+    "lv": "dormirse • dormirse una extremidad",
     "level": "A2",
     "study": {
       "id": "a2-einschlafen",
       "layout": "standardStudy",
-      "translation": "quedarse dormido • entumecido",
+      "translation": "dormirse • adormecerse una extremidad",
       "explanation": "Idea principal: einschlafen significa quedarse dormido; para un brazo o una pierna significa entumecerse. En el caso de un humano, normalmente significa que alguien se queda dormido. Con una parte del cuerpo, einschlafen significa que se adormece. En español, \"dormir\" es sinónimo, pero el significado principal de A2 es \"quedarse dormido\". El contexto te dice si es sueño u hormigueo.",
       "examples": [
         {
@@ -26746,35 +26746,35 @@ const A2_WORDS = [
         },
         {
           "de": "Das Kind ist schon eingeschlafen.",
-          "lv": "el niño ya está dormido."
+          "lv": "El niño ya está dormido."
         },
         {
           "de": "Ich kann heute nicht einschlafen.",
-          "lv": "no puedo dormir hoy"
+          "lv": "Hoy no puedo dormirme."
         },
         {
           "de": "Mein Bein ist eingeschlafen.",
-          "lv": "mi pierna estaba entumecida."
+          "lv": "Se me durmió la pierna."
         },
         {
           "de": "Mir ist der Arm eingeschlafen.",
-          "lv": "man notirpa roka."
+          "lv": "Se me duerme la mano."
         },
         {
           "de": "Er schläft um zehn Uhr ein.",
-          "lv": "se queda dormido a las diez."
+          "lv": "Se queda dormido a las diez."
         }
       ],
       "comparison": [
         {
           "word": "einschlafen",
-          "meaning": "aizmigt / notirpt",
+          "meaning": "dormirse / dormirse una extremidad",
           "example": "Ich schlafe ein. = Es aizmiegu."
         },
         {
           "word": "schlafen",
           "meaning": "dormir",
-          "example": "Ich schlafe acht Stunden. = Es guļu astoņas stundas."
+          "example": "Ich schlafe acht Stunden. = Duermo ocho horas."
         },
         {
           "word": "aufwachen",
@@ -26784,7 +26784,7 @@ const A2_WORDS = [
         {
           "word": "taub werden",
           "meaning": "entumecerse",
-          "example": "Mein Bein wird taub. = Mana kāja kļūst nejutīga."
+          "example": "Mein Bein wird taub. = Mi pierna se queda entumecida."
         }
       ],
       "tip": [
@@ -27057,12 +27057,12 @@ const A2_WORDS = [
   },
   {
     "de": "einsteigen",
-    "lv": "Entra",
+    "lv": "subir • entrar",
     "level": "A2",
     "study": {
       "id": "a2-einsteigen",
       "layout": "standardStudy",
-      "translation": "Entra",
+      "translation": "subir • entrar",
       "explanation": "einsteigen significa subir a un vehículo. Se utiliza en autobús, tren, coche o avión. En sentido figurado, puede significar involucrarse en un proyecto, negocio o conversación. A veces significa empezar a participar en un proceso. El significado depende de si se trata de transporte o de una acción abstracta.",
       "examples": [
         {
@@ -27071,7 +27071,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte steigen Sie vorne ein.",
-          "lv": "por favor ponte al frente."
+          "lv": "Por favor, sube."
         },
         {
           "de": "Wir steigen in den Zug ein.",
@@ -27087,24 +27087,24 @@ const A2_WORDS = [
         },
         {
           "de": "Steig schnell ein!",
-          "lv": "¡entra rápido!"
+          "lv": "¡Sube rápido!"
         }
       ],
       "comparison": [
         {
           "word": "einsteigen",
           "meaning": "entrar / involucrarse",
-          "example": "Ich steige in den Zug ein. = Es iekāpju vilcienā."
+          "example": "Ich steige in den Zug ein. = Subo al tren."
         },
         {
           "word": "aussteigen",
           "meaning": "bajarse / dejar",
-          "example": "Ich steige hier aus. = Es šeit izkāpju."
+          "example": "Ich steige hier aus. = Me bajo aquí."
         },
         {
           "word": "umsteigen",
           "meaning": "cambiar de asiento",
-          "example": "Wir steigen um. = Mēs pārsēžamies."
+          "example": "Wir steigen um. = Hacemos transbordo."
         },
         {
           "word": "mitmachen",
@@ -27115,7 +27115,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "En transporte, einsteigen significa seguir adelante."
+            "text": "En transporte, einsteigen significa subir o entrar en un vehículo."
           },
           {
             "text": "En un proyecto o mercado, einsteigen significa involucrarse o comenzar a participar."
@@ -27428,11 +27428,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Eintritt kostet zehn Euro.",
-          "lv": "ieejas maksa ir desmit eiro."
+          "lv": "La entrada cuesta diez euros."
         },
         {
           "de": "Der Eintritt ist frei.",
-          "lv": "ieeja ir bez maksas."
+          "lv": "La entrada es gratuita."
         },
         {
           "de": "Kinder haben freien Eintritt.",
@@ -27444,7 +27444,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wo ist der Eingang?",
-          "lv": "kur ir ieeja?"
+          "lv": "¿Dónde está la entrada?"
         },
         {
           "de": "Ich kaufe eine Eintrittskarte.",
@@ -27459,18 +27459,18 @@ const A2_WORDS = [
         },
         {
           "word": "der Eingang",
-          "meaning": "fiziska ieeja",
+          "meaning": "entrada física",
           "example": "Der Eingang ist links. = Ieeja ir pa kreisi."
         },
         {
           "word": "die Eintrittskarte",
           "meaning": "boleto de entrada",
-          "example": "Ich habe eine Eintrittskarte. = Man ir ieejas biļete."
+          "example": "Ich habe eine Eintrittskarte. = Tengo una entrada."
         },
         {
           "word": "beitreten",
           "meaning": "únete a la organización",
-          "example": "Ich trete dem Verein bei. = Es iestājos biedrībā."
+          "example": "Ich trete dem Verein bei. = Me uno a la asociación."
         }
       ],
       "tip": [
@@ -27750,7 +27750,7 @@ const A2_WORDS = [
   },
   {
     "de": "einverstanden",
-    "lv": "con paz",
+    "lv": "de acuerdo",
     "level": "A2"
   },
   {
@@ -27783,7 +27783,7 @@ const A2_WORDS = [
     "de": "Eiskaffee",
     "de_article": "der",
     "de_plural": "die Eiskaffees",
-    "lv": "cafe con helado",
+    "lv": "café con helado",
     "level": "A2"
   },
   {
@@ -27817,7 +27817,7 @@ const A2_WORDS = [
   },
   {
     "de": "enden",
-    "lv": "sin",
+    "lv": "terminar",
     "level": "A2"
   },
   {
@@ -27842,7 +27842,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Straße ist sehr eng.",
-          "lv": "la calle es muy estrecha."
+          "lv": "La calle es muy estrecha."
         },
         {
           "de": "Die Hose ist mir zu eng.",
@@ -27850,19 +27850,19 @@ const A2_WORDS = [
         },
         {
           "de": "Wir sind enge Freunde.",
-          "lv": "somos amigos cercanos."
+          "lv": "Somos amigos cercanos."
         },
         {
           "de": "Der Raum ist eng.",
-          "lv": "la habitación es estrecha."
+          "lv": "La habitación es estrecha."
         },
         {
           "de": "Sie haben eine enge Beziehung.",
-          "lv": "tienen una relación cercana."
+          "lv": "Tienen una relación cercana."
         },
         {
           "de": "Der Weg wird enger.",
-          "lv": "el camino se hace más estrecho."
+          "lv": "El camino se hace más estrecho."
         }
       ],
       "tip": [
@@ -27985,7 +27985,7 @@ const A2_WORDS = [
   },
   {
     "de": "entdecken",
-    "lv": "revelar",
+    "lv": "descubrir",
     "level": "A2"
   },
   {
@@ -27997,34 +27997,34 @@ const A2_WORDS = [
   },
   {
     "de": "entlang",
-    "lv": "largo",
+    "lv": "a lo largo de",
     "level": "A2"
   },
   {
     "de": "entschuldigen",
-    "lv": "excusa • perdonar",
+    "lv": "disculpar",
     "level": "A2"
   },
   {
     "de": "entweder",
-    "lv": "cualquiera",
+    "lv": "o bien",
     "level": "A2"
   },
   {
     "de": "Erdgeschoss",
     "de_article": "das",
     "de_plural": "die Erdgeschosse",
-    "lv": "primer piso",
+    "lv": "planta baja",
     "level": "A2"
   },
   {
     "de": "erfahren",
-    "lv": "aprender • experimentar",
+    "lv": "enterarse • experimentar",
     "level": "A2",
     "study": {
       "id": "a2-erfahren",
       "layout": "standardStudy",
-      "translation": "aprender • experimentar",
+      "translation": "enterarse • experimentar",
       "explanation": "Idea principal: erfahren significa aprender información o experimentar algo. En la vida cotidiana, muy a menudo significa conocer una noticia, un hecho o una información nueva. En otro contexto, significa experimentar o experimentar una situación. erfahren no es lo mismo que wissen, porque wissen significa ya saber. Con humano, el adjetivo erfahren significa experimentado.",
       "examples": [
         {
@@ -28037,19 +28037,19 @@ const A2_WORDS = [
         },
         {
           "de": "Sie erfährt die Wahrheit.",
-          "lv": "ella aprende la verdad."
+          "lv": "Ella se entera de la verdad."
         },
         {
           "de": "Wir haben viel Unterstützung erfahren.",
-          "lv": "recibimos mucho apoyo."
+          "lv": "Recibimos mucho apoyo."
         },
         {
           "de": "Er ist ein erfahrener Arzt.",
-          "lv": "él es un médico experimentado."
+          "lv": "Él es un médico experimentado."
         },
         {
           "de": "Ich weiß die Antwort schon.",
-          "lv": "es jau zinu atbildi."
+          "lv": "Ya sé la respuesta."
         }
       ],
       "tip": [
@@ -28297,7 +28297,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich erinnere mich an dich.",
-          "lv": "es tevi atceros."
+          "lv": "Te recuerdo."
         },
         {
           "de": "Er erinnert sich nicht an den Namen.",
@@ -28305,14 +28305,14 @@ const A2_WORDS = [
         },
         {
           "de": "Wir erinnern uns an den Urlaub.",
-          "lv": "recordamos las vacaciones."
+          "lv": "Recordamos las vacaciones."
         }
       ],
       "comparison": [
         {
           "word": "erinnern",
           "meaning": "recordar",
-          "example": "Erinnere mich bitte daran. = Lūdzu, atgādini man to."
+          "example": "Erinnere mich bitte daran. = Por favor, recuérdamelo."
         },
         {
           "word": "sich erinnern",
@@ -28327,7 +28327,7 @@ const A2_WORDS = [
         {
           "word": "denken an",
           "meaning": "pensar en / recordar hacer",
-          "example": "Denk an den Schlüssel. = Atceries par atslēgu."
+          "example": "Denk an den Schlüssel. = Acuérdate de la llave."
         }
       ],
       "tip": [
@@ -28633,7 +28633,7 @@ const A2_WORDS = [
   },
   {
     "de": "erkennen",
-    "lv": "reconocer • comprender",
+    "lv": "reconocer",
     "level": "A2"
   },
   {
@@ -28669,7 +28669,7 @@ const A2_WORDS = [
   },
   {
     "de": "erwachsen",
-    "lv": "creciendo",
+    "lv": "adulto",
     "level": "A2"
   },
   {
@@ -28698,7 +28698,7 @@ const A2_WORDS = [
     "de": "Essbesteck",
     "de_article": "das",
     "de_plural": "die Essbestecke",
-    "lv": "cuchillería",
+    "lv": "cubiertos",
     "level": "A2"
   },
   {
@@ -28746,7 +28746,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das dauert etwa 20 Minuten.",
-          "lv": "tarda unos 20 minutos."
+          "lv": "Tarda unos 20 minutos."
         },
         {
           "de": "Wir brauchen etwa zwei Stunden.",
@@ -28754,37 +28754,37 @@ const A2_WORDS = [
         },
         {
           "de": "Hast du das etwa vergessen?",
-          "lv": "vai tad tu to aizmirsi?"
+          "lv": "¿Acaso lo olvidaste?"
         },
         {
           "de": "Bist du etwa krank?",
-          "lv": "vai tad tu esi slims?"
+          "lv": "¿Acaso estás enfermo?"
         },
         {
           "de": "Willst du etwa gehen?",
-          "lv": "vai tad tu gribi iet prom?"
+          "lv": "¿Acaso quieres irte?"
         }
       ],
       "comparison": [
         {
           "word": "etwa",
-          "meaning": "acerca de • en preguntas también o entonces / realmente",
-          "example": "Das dauert etwa 20 Minuten. = Tas ilgst apmēram 20 minūtes."
+          "meaning": "aproximadamente • en preguntas: ¿acaso? / ¿realmente?",
+          "example": "Das dauert etwa 20 Minuten. = Esto dura aproximadamente 20 minutos."
         },
         {
           "word": "ungefähr",
           "meaning": "aproximadamente / aproximadamente, neutral",
-          "example": "Das dauert ungefähr 20 Minuten. = Tas ilgst aptuveni 20 minūtes."
+          "example": "Das dauert ungefähr 20 Minuten. = Esto dura aproximadamente 20 minutos."
         },
         {
           "word": "etwa?",
-          "meaning": "o entonces / realmente en cuestión",
+          "meaning": "¿o acaso? / ¿realmente?",
           "example": "Hast du das etwa vergessen? = Vai tad tu to aizmirsi?"
         },
         {
           "word": "vielleicht",
           "meaning": "tal vez",
-          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
+          "example": "Vielleicht kommt er. = Quizá venga."
         }
       ],
       "tip": [
@@ -29108,12 +29108,12 @@ const A2_WORDS = [
     "de": "Fach",
     "de_article": "das",
     "de_plural": "die Fächer",
-    "lv": "compartimiento",
+    "lv": "asignatura • compartimento • especialidad",
     "level": "A2",
     "study": {
       "id": "a2-fach",
       "layout": "standardStudy",
-      "translation": "compartimiento",
+      "translation": "asignatura • compartimento • especialidad",
       "explanation": [
         "Idea principal: das Fach significa departamento, materia o rama profesional según el contexto.",
         "En un armario, bolso o estante, Fach significa compartimento.",
@@ -29133,7 +29133,7 @@ const A2_WORDS = [
         },
         {
           "de": "Deutsch ist ein wichtiges Fach.",
-          "lv": "El alemán es un tema importante."
+          "lv": "El alemán es una asignatura importante."
         },
         {
           "de": "Er arbeitet in diesem Fach seit Jahren.",
@@ -29141,44 +29141,44 @@ const A2_WORDS = [
         },
         {
           "de": "Sie ist vom Fach.",
-          "lv": "ella es una experta en este campo."
+          "lv": "Ella es una experta en este campo."
         },
         {
           "de": "Das Fach im Schrank ist leer.",
-          "lv": "el compartimento del armario está vacío."
+          "lv": "El compartimento del armario está vacío."
         }
       ],
       "comparison": [
         {
           "word": "das Fach",
-          "meaning": "departamento / tema / industria",
-          "example": "Das Fach ist leer. = Nodalījums ir tukšs."
+          "meaning": "campo / tema / especialidad",
+          "example": "Das Fach ist leer. = El compartimento está vacío."
         },
         {
           "word": "das Schulfach",
           "meaning": "tema de estudio",
-          "example": "Biologie ist ein Schulfach. = Bioloģija ir mācību priekšmets."
+          "example": "Biologie ist ein Schulfach. = La biología es una asignatura escolar."
         },
         {
           "word": "das Schrankfach",
           "meaning": "compartimento del gabinete",
-          "example": "Das Schrankfach ist klein. = Skapja nodalījums ir mazs."
+          "example": "Das Schrankfach ist klein. = El compartimento del armario es pequeño."
         },
         {
           "word": "das Fachgebiet",
           "meaning": "especialidad / industria",
-          "example": "Das ist mein Fachgebiet. = Tā ir mana specialitāte."
+          "example": "Das ist mein Fachgebiet. = Esa es mi especialidad."
         },
         {
           "word": "der Beruf",
           "meaning": "profesión",
-          "example": "Mein Beruf ist Lehrer. = Mana profesija ir skolotājs."
+          "example": "Mein Beruf ist Lehrer. = Soy profesor."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "En la escuela, Fach significa sujeto."
+            "text": "En la escuela, Fach significa asignatura o materia."
           },
           {
             "text": "En un armario, bolso o estante, Fach significa compartimento."
@@ -29561,7 +29561,7 @@ const A2_WORDS = [
     "de": "Fächer",
     "de_article": "der",
     "de_plural": "die Fächer",
-    "lv": "admirador",
+    "lv": "abanico",
     "level": "A2"
   },
   {
@@ -29582,14 +29582,14 @@ const A2_WORDS = [
     "de": "Fähre",
     "de_article": "die",
     "de_plural": "die Fähren",
-    "lv": "transportar",
+    "lv": "ferri",
     "level": "A2"
   },
   {
     "de": "Fahrer",
     "de_article": "der",
     "de_plural": "die Fahrer",
-    "lv": "gerente • conductor",
+    "lv": "conductor",
     "level": "A2"
   },
   {
@@ -29610,7 +29610,7 @@ const A2_WORDS = [
     "de": "Fahrt",
     "de_article": "die",
     "de_plural": "die Fahrten",
-    "lv": "viaje • vuelo",
+    "lv": "viaje",
     "level": "A2"
   },
   {
@@ -29648,23 +29648,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "In diesem Fall bleibe ich zu Hause.",
-          "lv": "en este caso me quedo en casa."
+          "lv": "En este caso me quedo en casa."
         },
         {
           "de": "Das ist ein besonderer Fall.",
-          "lv": "es un caso especial."
+          "lv": "Es un caso especial."
         },
         {
           "de": "Der Fall von der Treppe war gefährlich.",
-          "lv": "caer por las escaleras era peligroso."
+          "lv": "Caer por las escaleras era peligroso."
         },
         {
           "de": "Der Dativ ist ein Fall in der Grammatik.",
-          "lv": "El dativo es una inflexión en la gramática."
+          "lv": "El dativo es un caso gramatical."
         },
         {
           "de": "Der Fall kommt vor Gericht.",
-          "lv": "el caso llega a los tribunales."
+          "lv": "El caso llega a los tribunales."
         },
         {
           "de": "Auf keinen Fall mache ich das.",
@@ -29674,27 +29674,27 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "der Fall",
-          "meaning": "estuche / caída / plegado / estuche",
-          "example": "In diesem Fall komme ich. = Šajā gadījumā es nākšu."
+          "meaning": "caso / caída",
+          "example": "In diesem Fall komme ich. = En este caso, vendré."
         },
         {
           "word": "der Unfall",
           "meaning": "un accidente",
-          "example": "Der Unfall war schlimm. = Negadījums bija smags."
+          "example": "Der Unfall war schlimm. = El accidente fue grave."
         },
         {
           "word": "die Situation",
           "meaning": "la situación",
-          "example": "Die Situation ist schwierig. = Situācija ir grūta."
+          "example": "Die Situation ist schwierig. = La situación es difícil."
         },
         {
           "word": "der Kasus",
-          "meaning": "inflexión gramatical",
-          "example": "Der Kasus ist wichtig. = Locījums ir svarīgs."
+          "meaning": "caso gramatical",
+          "example": "Der Kasus ist wichtig. = El caso gramatical es importante."
         },
         {
           "word": "der Gerichtsfall",
-          "meaning": "tiesas lieta",
+          "meaning": "caso judicial",
           "example": "Der Gerichtsfall dauert lange. = Tiesas lieta ilgst ilgi."
         }
       ],
@@ -29704,12 +29704,12 @@ const A2_WORDS = [
             "text": "En este caso, Fall es una frase muy común y significa \"en este caso\"."
           },
           {
-            "text": "En un contexto gramatical, Fall casi siempre significa inflexión."
+            "text": "En un contexto gramatical, Fall significa «caso»."
           }
         ]
       },
       "important": {
-        "text": "El otoño puede ser tanto una situación cotidiana como un término gramatical.",
+        "text": "Fall puede referirse a una situación o a un caso gramatical.",
         "example": "en este caso Fall = en este caso. bueno para quien? inflexión = inflexión dativa. ein Fall vor Gericht = caso judicial."
       },
       "sectionAccents": {
@@ -30083,7 +30083,7 @@ const A2_WORDS = [
   {
     "de": "Familienstand",
     "de_article": "der",
-    "lv": "Estado civil",
+    "lv": "estado civil",
     "level": "A2"
   },
   {
@@ -30100,7 +30100,7 @@ const A2_WORDS = [
   },
   {
     "de": "färben",
-    "lv": "pintar • pintar",
+    "lv": "teñir",
     "level": "A2"
   },
   {
@@ -30138,12 +30138,12 @@ const A2_WORDS = [
   },
   {
     "de": "fehlen",
-    "lv": "desaparecido",
+    "lv": "faltar • hacer falta",
     "level": "A2",
     "study": {
       "id": "a2-fehlen",
       "layout": "standardStudy",
-      "translation": "desaparecido",
+      "translation": "faltar • hacer falta",
       "explanation": "Idea principal: fehlen significa faltar, faltar o estar ausente. Si falta un artículo o dinero, fehlen se traduce como falta o falta. Si una persona está ausente de la escuela o del trabajo, fehlen significa estar ausente. En la construcción mir fehlt etwas, el español suele decir \"Me falta algo\". No es lo mismo que brauchen, porque brauchen significa necesitar.",
       "examples": [
         {
@@ -30160,7 +30160,7 @@ const A2_WORDS = [
         },
         {
           "de": "Was fehlt dir?",
-          "lv": "¿qué sucede contigo?"
+          "lv": "¿Qué sucede contigo?"
         },
         {
           "de": "Du fehlst mir.",
@@ -30168,14 +30168,14 @@ const A2_WORDS = [
         },
         {
           "de": "Ich brauche Hilfe.",
-          "lv": "necesito ayuda"
+          "lv": "Necesito ayuda"
         }
       ],
       "comparison": [
         {
           "word": "fehlen",
           "meaning": "faltante / no presente",
-          "example": "Mir fehlt Geld. = Man trūkst naudas."
+          "example": "Mir fehlt Geld. = Me falta dinero."
         },
         {
           "word": "brauchen",
@@ -30185,12 +30185,12 @@ const A2_WORDS = [
         {
           "word": "vermissen",
           "meaning": "añorando/extrañando a una persona",
-          "example": "Ich vermisse dich. = Man tevis pietrūkst."
+          "example": "Ich vermisse dich. = Te echo de menos."
         },
         {
           "word": "abwesend sein",
           "meaning": "no estar presente",
-          "example": "Er ist abwesend. = Viņš nav klāt."
+          "example": "Er ist abwesend. = Está ausente."
         }
       ],
       "tip": [
@@ -30495,7 +30495,7 @@ const A2_WORDS = [
   },
   {
     "de": "feiern",
-    "lv": "para celebrar",
+    "lv": "celebrar",
     "level": "A2"
   },
   {
@@ -30528,14 +30528,14 @@ const A2_WORDS = [
     "de": "Fell",
     "de_article": "das",
     "de_plural": "die Felle",
-    "lv": "abrigo • piel",
+    "lv": "piel",
     "level": "A2"
   },
   {
     "de": "Fensterbrett",
     "de_article": "das",
     "de_plural": "die Fensterbretter",
-    "lv": "antepecho",
+    "lv": "alféizar",
     "level": "A2"
   },
   {
@@ -30564,21 +30564,21 @@ const A2_WORDS = [
   },
   {
     "de": "fest",
-    "lv": "duro",
+    "lv": "firme • fijo • apretado",
     "level": "A2",
     "study": {
       "id": "a2-fest",
       "layout": "standardStudy",
-      "translation": "duro",
+      "translation": "firme • fijo • apretado",
       "explanation": "fest puede significar sólido cuando se refiere a un material o superficie. Puede significar apretado o apretado, como un tornillo o un nudo. fest también suele significar fijo o determinado, como una fecha límite. Para un trabajo o una relación, puede significar permanente. Así que el festival no es sólo “duro”; a menudo significa estable o constante.",
       "examples": [
         {
           "de": "Der Boden ist fest.",
-          "lv": "zeme ir cieta."
+          "lv": "El suelo está duro."
         },
         {
           "de": "Zieh die Schraube fest.",
-          "lv": "apriete el tornillo firmemente."
+          "lv": "Apriete el tornillo firmemente."
         },
         {
           "de": "Ich habe einen festen Termin.",
@@ -30586,21 +30586,21 @@ const A2_WORDS = [
         },
         {
           "de": "Sie hat eine feste Arbeit.",
-          "lv": "ella tiene un trabajo estable."
+          "lv": "Ella tiene un trabajo estable."
         },
         {
           "de": "Ich brauche feste Schuhe.",
-          "lv": "man vajag stingrus apavus."
+          "lv": "Necesito zapatos resistentes."
         },
         {
           "de": "Der Deckel sitzt fest.",
-          "lv": "la tapa permanece apretada."
+          "lv": "La tapa está bien ajustada."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando se hace referencia a un perno, cubierta o nudo, fest a menudo significa apretado o apretado."
+            "text": "Cuando se refiere a un tornillo, tapa o nudo, fest suele significar apretado o bien sujeto."
           },
           {
             "text": "Cuando se hace referencia a un trabajo, plazo o plan, fest suele significar fijo o permanente."
@@ -30608,7 +30608,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "fest nav tikai “ciets”.",
+        "text": "fest no significa únicamente «duro».",
         "example": "ein fester Termin = plazo fijo. eine feste Arbeit = trabajo constante."
       },
       "sectionAccents": {
@@ -30852,32 +30852,32 @@ const A2_WORDS = [
     "de": "Fett",
     "de_article": "das",
     "de_plural": "die Fette",
-    "lv": "gordo",
+    "lv": "grasa",
     "level": "A2"
   },
   {
     "de": "Feuer",
     "de_article": "das",
     "de_plural": "die Feuer",
-    "lv": "fuego • fuego",
+    "lv": "fuego • incendio",
     "level": "A2",
     "study": {
       "id": "a2-feuer",
       "layout": "standardStudy",
-      "translation": "fuego • fuego",
+      "translation": "fuego • incendio",
       "explanation": "das Feuer puede significar un fuego controlado, como una hoguera o el fuego en una estufa. También puede significar un incendio si el incendio es peligroso o está fuera de control. Feuer se asocia a menudo con quemaduras y llamas. En Feuerwehr, a menudo significa un incendio que se apaga. En un contexto militar o policial, Feuer puede significar disparar o abrir fuego.",
       "examples": [
         {
           "de": "Mach bitte Feuer.",
-          "lv": "por favor enciende el fuego."
+          "lv": "Por favor, enciende el fuego."
         },
         {
           "de": "Das Feuer brennt.",
-          "lv": "uguns deg."
+          "lv": "El fuego arde."
         },
         {
           "de": "Im Haus ist Feuer.",
-          "lv": "hay un incendio en la casa."
+          "lv": "Hay un incendio en la casa."
         },
         {
           "de": "Die Feuerwehr löscht das Feuer.",
@@ -30885,11 +30885,11 @@ const A2_WORDS = [
         },
         {
           "de": "Wir sitzen am Feuer.",
-          "lv": "nos sentamos junto al fuego."
+          "lv": "Nos sentamos junto al fuego."
         },
         {
           "de": "Das Feuer ist gefährlich.",
-          "lv": "el fuego es peligroso."
+          "lv": "El fuego es peligroso."
         }
       ],
       "comparison": [
@@ -30901,7 +30901,7 @@ const A2_WORDS = [
         {
           "word": "der Brand",
           "meaning": "fuego",
-          "example": "Der Brand ist groß. = Ugunsgrēks ir liels."
+          "example": "Der Brand ist groß. = El incendio es grande."
         },
         {
           "word": "die Flamme",
@@ -30911,12 +30911,12 @@ const A2_WORDS = [
         {
           "word": "die Feuerwehr",
           "meaning": "bomberos",
-          "example": "Die Feuerwehr kommt. = Ugunsdzēsēji brauc."
+          "example": "Die Feuerwehr kommt. = Vienen los bomberos."
         },
         {
           "word": "Feuer geben",
           "meaning": "abrir fuego",
-          "example": "Die Soldaten geben Feuer. = Kareivji atklāj uguni."
+          "example": "Die Soldaten geben Feuer. = Los soldados abren fuego."
         }
       ],
       "tip": {
@@ -31308,7 +31308,7 @@ const A2_WORDS = [
     "de": "Fichte",
     "de_article": "die",
     "de_plural": "die Fichten",
-    "lv": "abeto",
+    "lv": "pícea",
     "level": "A2"
   },
   {
@@ -31321,7 +31321,7 @@ const A2_WORDS = [
     "de": "Figur",
     "de_article": "die",
     "de_plural": "die Figuren",
-    "lv": "figura • altura",
+    "lv": "figura",
     "level": "A2"
   },
   {
@@ -31383,14 +31383,14 @@ const A2_WORDS = [
     "de": "Fliege",
     "de_article": "die",
     "de_plural": "die Fliegen",
-    "lv": "mosca • mariposa",
+    "lv": "mosca",
     "level": "A2"
   },
   {
     "de": "Fliese",
     "de_article": "die",
     "de_plural": "die Fliesen",
-    "lv": "teja",
+    "lv": "baldosa",
     "level": "A2"
   },
   {
@@ -31418,7 +31418,7 @@ const A2_WORDS = [
     "de": "Flugplatz",
     "de_article": "der",
     "de_plural": "die Flugplätze",
-    "lv": "aeropuerto",
+    "lv": "aeródromo",
     "level": "A2"
   },
   {
@@ -31457,19 +31457,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Folgen Sie mir bitte.",
-          "lv": "por favor sígueme"
+          "lv": "Por favor, sígueme."
         },
         {
           "de": "Der Hund folgt dem Kind.",
-          "lv": "el perro sigue al niño."
+          "lv": "El perro sigue al niño."
         },
         {
           "de": "Ich folge deinem Rat.",
-          "lv": "es sekoju tavam padomam."
+          "lv": "Sigo tu consejo."
         },
         {
           "de": "Bitte folgen Sie den Anweisungen.",
-          "lv": "sigue las instrucciones."
+          "lv": "Sigue las instrucciones."
         },
         {
           "de": "Aus diesen Zahlen folgt ein Problem.",
@@ -31477,7 +31477,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Kind gehorcht den Eltern.",
-          "lv": "el niño escucha a los padres."
+          "lv": "El niño sigue a sus padres."
         }
       ],
       "comparison": [
@@ -31489,17 +31489,17 @@ const A2_WORDS = [
         {
           "word": "verfolgen",
           "meaning": "perseguir / seguir",
-          "example": "Die Polizei verfolgt den Täter. = Policija vajā vainīgo."
+          "example": "Die Polizei verfolgt den Täter. = La policía persigue al culpable."
         },
         {
           "word": "gehorchen",
           "meaning": "escuchar / obedecer",
-          "example": "Das Kind gehorcht. = Bērns klausa."
+          "example": "Das Kind gehorcht. = El niño obedece."
         },
         {
           "word": "befolgen",
           "meaning": "sigue las instrucciones",
-          "example": "Befolgen Sie die Regeln. = Ievērojiet noteikumus."
+          "example": "Befolgen Sie die Regeln. = Cumpla las reglas."
         }
       ],
       "tip": [
@@ -31795,7 +31795,7 @@ const A2_WORDS = [
     "de": "Formular",
     "de_article": "das",
     "de_plural": "die Formulare",
-    "lv": "forma",
+    "lv": "formulario",
     "level": "A2"
   },
   {
@@ -31890,7 +31890,7 @@ const A2_WORDS = [
   },
   {
     "de": "frieren",
-    "lv": "frío",
+    "lv": "tener frío",
     "level": "A2"
   },
   {
@@ -31902,7 +31902,7 @@ const A2_WORDS = [
   },
   {
     "de": "frisieren",
-    "lv": "hacer el pelo",
+    "lv": "arreglar el pelo",
     "level": "A2"
   },
   {
@@ -31945,7 +31945,7 @@ const A2_WORDS = [
   },
   {
     "de": "früher",
-    "lv": "anteriormente • ex",
+    "lv": "anteriormente",
     "level": "A2"
   },
   {
@@ -31972,19 +31972,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Weg führt zum Bahnhof.",
-          "lv": "el camino conduce a la estación."
+          "lv": "El camino conduce a la estación."
         },
         {
           "de": "Er führt die Gruppe durch die Stadt.",
-          "lv": "él lidera el grupo por la ciudad."
+          "lv": "Él lidera el grupo por la ciudad."
         },
         {
           "de": "Sie führt ein kleines Geschäft.",
-          "lv": "ella dirige una pequeña tienda."
+          "lv": "Ella dirige una pequeña tienda."
         },
         {
           "de": "Wir führen ein Gespräch.",
-          "lv": "estamos teniendo/resolvendo la conversación."
+          "lv": "Estamos llevando la conversación."
         },
         {
           "de": "Unsere Mannschaft führt zwei zu eins.",
@@ -31996,34 +31996,34 @@ const A2_WORDS = [
         },
         {
           "de": "Das kann zu Problemen führen.",
-          "lv": "esto puede causar problemas."
+          "lv": "Esto puede causar problemas."
         }
       ],
       "comparison": [
         {
           "word": "führen",
           "meaning": "liderar / liderar / ser guiado",
-          "example": "Der Weg führt zum Bahnhof. = Ceļš ved uz staciju."
+          "example": "Der Weg führt zum Bahnhof. = El camino lleva a la estación."
         },
         {
           "word": "leiten",
           "meaning": "gestionar la organización/proceso",
-          "example": "Sie leitet die Firma. = Viņa vada firmu."
+          "example": "Sie leitet die Firma. = Ella dirige la empresa."
         },
         {
           "word": "fahren",
-          "meaning": "braukt / vest ar transportu",
-          "example": "Ich fahre nach Hause. = Es braucu mājās."
+          "meaning": "conducir / llevar en un vehículo",
+          "example": "Ich fahre nach Hause. = Me voy a casa."
         },
         {
           "word": "bringen",
           "meaning": "traer / llevar a la meta",
-          "example": "Ich bringe dich nach Hause. = Es aizvedīšu tevi mājās."
+          "example": "Ich bringe dich nach Hause. = Te llevo a casa."
         },
         {
           "word": "führen zu",
-          "meaning": "novest pie",
-          "example": "Das führt zu Problemen. = Tas noved pie problēmām."
+          "meaning": "llevar a / conducir a",
+          "example": "Das führt zu Problemen. = Eso provoca problemas."
         }
       ],
       "tip": {
@@ -32402,12 +32402,12 @@ const A2_WORDS = [
     "de": "Füllfederhalter",
     "de_article": "der",
     "de_plural": "die Füllfederhalter",
-    "lv": "bolígrafo",
+    "lv": "pluma estilográfica",
     "level": "A2"
   },
   {
     "de": "funktionieren",
-    "lv": "operar • trabajar",
+    "lv": "funcionar",
     "level": "A2"
   },
   {
@@ -32419,7 +32419,7 @@ const A2_WORDS = [
     "de": "Fußballfeld",
     "de_article": "das",
     "de_plural": "die Fußballfelder",
-    "lv": "campo de futbol",
+    "lv": "campo de fútbol",
     "level": "A2"
   },
   {
@@ -32440,7 +32440,7 @@ const A2_WORDS = [
     "de": "Fußgänger",
     "de_article": "der",
     "de_plural": "die Fußgänger",
-    "lv": "peatonal",
+    "lv": "peatón",
     "level": "A2"
   },
   {
@@ -32466,12 +32466,12 @@ const A2_WORDS = [
     "de": "Gang",
     "de_article": "der",
     "de_plural": "die Gänge",
-    "lv": "corredor • curso • ronda de comida",
+    "lv": "pasillo • marcha • plato • velocidad",
     "level": "A2",
     "study": {
       "id": "a2-gang",
       "layout": "standardStudy",
-      "translation": "corredor • curso • ronda de comida",
+      "translation": "pasillo • marcha • plato • velocidad",
       "explanation": [
         "Idea principal: El significado de der Gang está determinado por el contexto: en una habitación es un pasillo, en movimiento es un plato, en un menú es un plato de comida.",
         "En una casa, escuela u hotel, Gang muy a menudo significa pasillo.",
@@ -32483,27 +32483,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Gang ist dunkel.",
-          "lv": "el pasillo está oscuro."
+          "lv": "El pasillo está oscuro."
         },
         {
           "de": "Die Toilette ist am Ende des Gangs.",
-          "lv": "el baño está al final del pasillo."
+          "lv": "El baño está al final del pasillo."
         },
         {
           "de": "Er hat einen sicheren Gang.",
-          "lv": "tiene un andar seguro."
+          "lv": "Tiene un andar seguro."
         },
         {
           "de": "Das Menü hat drei Gänge.",
-          "lv": "el menú tiene tres platos de comida."
+          "lv": "El menú tiene tres platos de comida."
         },
         {
           "de": "Der erste Gang war eine Suppe.",
-          "lv": "el primer plato de comida fue sopa."
+          "lv": "El primer plato de comida fue sopa."
         },
         {
           "de": "Der Wagen ist im ersten Gang.",
-          "lv": "el coche está en primera velocidad."
+          "lv": "El coche está en primera velocidad."
         }
       ],
       "tip": [
@@ -32718,12 +32718,12 @@ const A2_WORDS = [
   },
   {
     "de": "gar",
-    "lv": "en conjunto • en conjunto (en oraciones negativas)",
+    "lv": "incluso • en absoluto (en oraciones negativas)",
     "level": "A2",
     "study": {
       "id": "a2-gar",
       "layout": "minimalStudy",
-      "translation": "en conjunto • en conjunto (en oraciones negativas)",
+      "translation": "incluso • en absoluto (en oraciones negativas)",
       "accent": "blue",
       "tip": "Sólo se usa con negación (nicht, kein) para hacerlo más fuerte (\"en absoluto\", \"en absoluto\").",
       "examples": [
@@ -32733,7 +32733,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich habe gar kein Geld.",
-          "lv": "Man pavisam nav naudas (nemaz nav naudas)."
+          "lv": "No tengo dinero en absoluto."
         },
         {
           "de": "Er hat gar nichts gesagt.",
@@ -32774,7 +32774,7 @@ const A2_WORDS = [
     "de": "Gasse",
     "de_article": "die",
     "de_plural": "die Gassen",
-    "lv": "la calle",
+    "lv": "callejón",
     "level": "A2"
   },
   {
@@ -32848,17 +32848,17 @@ const A2_WORDS = [
     "de": "Gegenstand",
     "de_article": "der",
     "de_plural": "die Gegenstände",
-    "lv": "sujeto • cosa • tema",
+    "lv": "objeto",
     "level": "A2"
   },
   {
     "de": "gegenüber",
-    "lv": "en contra • versus • en comparación con",
+    "lv": "enfrente de • frente a • en comparación con",
     "level": "A2",
     "study": {
       "id": "a2-gegenüber",
       "layout": "standardStudy",
-      "translation": "en contra • versus • en comparación con",
+      "translation": "enfrente de • frente a • en comparación con",
       "explanation": [
         "Idea principal: gegenüber significa opuesto en lugar de actitud hacia alguien o comparación con algo.",
         "Lugar significa gegenüber significa opuesto o al otro lado.",
@@ -32870,15 +32870,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Apotheke ist dem Bahnhof gegenüber.",
-          "lv": "la farmacia está enfrente de la estación."
+          "lv": "La farmacia está enfrente de la estación."
         },
         {
           "de": "Er wohnt gegenüber.",
-          "lv": "él vive enfrente."
+          "lv": "Él vive enfrente."
         },
         {
           "de": "Sie ist Kindern gegenüber sehr freundlich.",
-          "lv": "ella es muy amigable con los niños."
+          "lv": "Ella es muy amigable con los niños."
         },
         {
           "de": "Gegenüber früher ist es heute leichter.",
@@ -33124,7 +33124,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das gehört nicht hierher.",
-          "lv": "aquí no cabe."
+          "lv": "aquí no encaja."
         },
         {
           "de": "Sport gehört zu einem gesunden Leben.",
@@ -33148,7 +33148,7 @@ const A2_WORDS = [
         {
           "word": "besitzen",
           "meaning": "poseer / estar en posesión de",
-          "example": "Er besitzt ein Auto. = Viņam pieder auto."
+          "example": "Er besitzt ein Auto. = Tiene un coche."
         },
         {
           "word": "passen",
@@ -33157,7 +33157,7 @@ const A2_WORDS = [
         },
         {
           "word": "brauchen",
-          "meaning": "necesitar",
+          "meaning": "ser apropiado / estar destinado a",
           "example": "Du brauchst Zeit. = Tev vajag laiku."
         }
       ],
@@ -33498,17 +33498,17 @@ const A2_WORDS = [
         {
           "word": "exakt",
           "meaning": "preciso / exacto",
-          "example": "Das ist exakt ein Meter. = Tas ir precīzi viens metrs."
+          "example": "Das ist exakt ein Meter. = Eso mide exactamente un metro."
         },
         {
           "word": "gerade",
           "meaning": "directamente / ahora mismo",
-          "example": "Ich bin gerade zu Hause. = Es tieši tagad esmu mājās."
+          "example": "Ich bin gerade zu Hause. = Estoy ahora mismo en casa."
         },
         {
           "word": "eben",
           "meaning": "justo / ahora mismo",
-          "example": "Er war eben hier. = Viņš tikko bija šeit."
+          "example": "Er war eben hier. = Él estuvo aquí hace un momento."
         }
       ],
       "tip": {
@@ -33639,12 +33639,12 @@ const A2_WORDS = [
   },
   {
     "de": "gerade",
-    "lv": "derecho",
+    "lv": "recto • justo ahora • recién • precisamente",
     "level": "A2",
     "study": {
       "id": "a2-gerade",
       "layout": "standardStudy",
-      "translation": "derecho",
+      "translation": "recto • justo ahora • recién • precisamente",
       "explanation": [
         "Idea principal: gerade puede describir una línea recta o significar ahora/justo ahora dependiendo de la oración.",
         "Como adjetivo, gerade significa recto.",
@@ -33656,7 +33656,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Straße ist gerade.",
-          "lv": "iela ir taisna."
+          "lv": "La calle es recta."
         },
         {
           "de": "Geh geradeaus!",
@@ -33664,26 +33664,26 @@ const A2_WORDS = [
         },
         {
           "de": "Ich bin gerade zu Hause.",
-          "lv": "estoy en casa ahora"
+          "lv": "Estoy en casa ahora"
         },
         {
           "de": "Ich habe gerade gegessen.",
-          "lv": "acabo de comer"
+          "lv": "Acabo de comer"
         },
         {
           "de": "Er ruft gerade an.",
-          "lv": "él está llamando ahora mismo."
+          "lv": "Él está llamando ahora mismo."
         },
         {
           "de": "Das ist genau richtig.",
-          "lv": "esto es absolutamente correcto."
+          "lv": "Esto es absolutamente correcto."
         }
       ],
       "comparison": [
         {
           "word": "gerade",
           "meaning": "directo / actualmente / justo ahora",
-          "example": "Ich komme gerade. = Es tieši tagad nāku."
+          "example": "Ich komme gerade. = Llego ahora mismo."
         },
         {
           "word": "geradeaus",
@@ -33697,7 +33697,7 @@ const A2_WORDS = [
         },
         {
           "word": "eben",
-          "meaning": "tikko / nupat",
+          "meaning": "justo ahora / recién",
           "example": "Ich war eben dort. = Es tikko tur biju."
         }
       ],
@@ -33988,7 +33988,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich gehe ins Geschäft.",
-          "lv": "es eju uz veikalu."
+          "lv": "voy a la tienda."
         },
         {
           "de": "Das Geschäft ist heute geschlossen.",
@@ -34008,7 +34008,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie hat viele Geschäfte in der Stadt.",
-          "lv": "ella tiene muchas tiendas • para hacer en la ciudad"
+          "lv": "ella tiene muchos recados que hacer en la ciudad."
         }
       ],
       "comparison": [
@@ -34030,12 +34030,12 @@ const A2_WORDS = [
         {
           "word": "das Unternehmen",
           "meaning": "compañía",
-          "example": "Das Unternehmen wächst. = Uzņēmums aug."
+          "example": "Das Unternehmen wächst. = La empresa crece."
         },
         {
           "word": "der Vertrag",
           "meaning": "contrato",
-          "example": "Wir schließen einen Vertrag. = Mēs slēdzam līgumu."
+          "example": "Wir schließen einen Vertrag. = Firmamos un contrato."
         }
       ],
       "tip": {
@@ -34380,7 +34380,7 @@ const A2_WORDS = [
   {
     "de": "Geschirr",
     "de_article": "das",
-    "lv": "platos",
+    "lv": "vajilla",
     "level": "A2"
   },
   {
@@ -34466,14 +34466,14 @@ const A2_WORDS = [
         },
         {
           "de": "Ich bekomme morgen das Paket.",
-          "lv": "Recibiré el paquete mañana."
+          "lv": "Ganaré el partido mañana."
         }
       ],
       "comparison": [
         {
           "word": "gewinnen",
           "meaning": "ganar/ganar/obtener",
-          "example": "Wir gewinnen das Spiel. = Mēs uzvaram spēlē."
+          "example": "Wir gewinnen das Spiel. = Ganamos el partido."
         },
         {
           "word": "siegen",
@@ -34483,12 +34483,12 @@ const A2_WORDS = [
         {
           "word": "bekommen",
           "meaning": "recibir / obtener",
-          "example": "Ich bekomme eine Nachricht. = Es saņemu ziņu."
+          "example": "Ich bekomme eine Nachricht. = Recibo un mensaje."
         },
         {
           "word": "verdienen",
           "meaning": "ganar",
-          "example": "Er verdient Geld. = Viņš pelna naudu."
+          "example": "Er verdient Geld. = Gana dinero."
         }
       ],
       "tip": [
@@ -34789,17 +34789,17 @@ const A2_WORDS = [
     "de": "Gewürz",
     "de_article": "das",
     "de_plural": "die Gewürze",
-    "lv": "condimentar",
+    "lv": "especia",
     "level": "A2"
   },
   {
     "de": "gießen",
-    "lv": "regar • encendido",
+    "lv": "regar • verter",
     "level": "A2",
     "study": {
       "id": "a2-gießen",
       "layout": "standardStudy",
-      "translation": "regar • encendido",
+      "translation": "regar • verter",
       "explanation": [
         "Idea principal: gießen significa regar las plantas o verter líquido.",
         "En flores, plantas y jardines, gießen suele significar regar.",
@@ -34815,45 +34815,45 @@ const A2_WORDS = [
         },
         {
           "de": "Kannst du bitte den Garten gießen?",
-          "lv": "¿Puedes regar el jardín por favor?"
+          "lv": "¿Puedes regar el jardín, por favor?"
         },
         {
           "de": "Sie gießt Wasser in die Kanne.",
-          "lv": "ella vierte agua en una jarra."
+          "lv": "Ella vierte agua en una jarra."
         },
         {
           "de": "Gieß mir bitte Tee ein.",
-          "lv": "sírveme un poco de té por favor"
+          "lv": "Sírveme un poco de té, por favor."
         },
         {
           "de": "Es regnet stark.",
-          "lv": "está lloviendo mucho."
+          "lv": "Está lloviendo mucho."
         },
         {
           "de": "Draußen gießt es.",
-          "lv": "se derrama como baldes."
+          "lv": "Llueve a cántaros."
         }
       ],
       "comparison": [
         {
           "word": "gießen",
-          "meaning": "regar / encendido",
-          "example": "Ich gieße die Blumen. = Es laistu puķes."
+          "meaning": "regar / verter",
+          "example": "Ich gieße die Blumen. = Riego las flores."
         },
         {
           "word": "einschenken",
           "meaning": "servir la bebida",
-          "example": "Ich schenke Tee ein. = Es ieleju tēju."
+          "example": "Ich schenke Tee ein. = Sirvo té."
         },
         {
           "word": "regnen",
           "meaning": "Está lloviendo",
-          "example": "Es regnet. = Līst."
+          "example": "Es regnet. = Llueve."
         },
         {
           "word": "schütten",
           "meaning": "verter / verter rápidamente",
-          "example": "Er schüttet Wasser aus. = Viņš izlej ūdeni."
+          "example": "Er schüttet Wasser aus. = Él vierte el agua."
         }
       ],
       "tip": [
@@ -35165,12 +35165,12 @@ const A2_WORDS = [
     "de": "Gott",
     "de_article": "der",
     "de_plural": "die Götter",
-    "lv": "dios",
+    "lv": "Dios",
     "level": "A2",
     "study": {
       "id": "a2-gott",
       "layout": "minimalStudy",
-      "translation": "dios",
+      "translation": "Dios",
       "accent": "blue",
       "variants": [
         {
@@ -35200,7 +35200,7 @@ const A2_WORDS = [
     "de": "Grenze",
     "de_article": "die",
     "de_plural": "die Grenzen",
-    "lv": "borde",
+    "lv": "frontera",
     "level": "A2"
   },
   {
@@ -35231,7 +35231,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Was ist der Grund?",
-          "lv": "cual es la razon"
+          "lv": "¿Cuál es la razón?"
         },
         {
           "de": "Aus diesem Grund bleibe ich zu Hause.",
@@ -35257,27 +35257,27 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "der Grund",
-          "meaning": "iemesls / pamats / grunts / dibens",
-          "example": "Aus diesem Grund komme ich nicht. = Šī iemesla dēļ es nenākšu."
+          "meaning": "razón / fundamento / terreno / fondo",
+          "example": "Aus diesem Grund komme ich nicht. = Por esta razón no vengo."
         },
         {
           "word": "die Ursache",
           "meaning": "causa",
-          "example": "Die Ursache ist unbekannt. = Cēlonis nav zināms."
+          "example": "Die Ursache ist unbekannt. = La causa es desconocida."
         },
         {
           "word": "der Anlass",
-          "meaning": "iemesls / notikuma pamats",
-          "example": "Der Anlass war ein Fest. = Iemesls bija svētki."
+          "meaning": "razón / base del acontecimiento",
+          "example": "Der Anlass war ein Fest. = El motivo fue una fiesta."
         },
         {
           "word": "der Boden",
           "meaning": "suelo / piso",
-          "example": "Der Boden ist nass. = Grīda ir slapja."
+          "example": "Der Boden ist nass. = El suelo está mojado."
         },
         {
           "word": "der Seegrund",
-          "meaning": "ezera dibens",
+          "meaning": "fondo del lago",
           "example": "Der Seegrund ist dunkel. = Ezera dibens ir tumšs."
         }
       ],
@@ -35292,7 +35292,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Grund nav tikai iemesls.",
+        "text": "Grund no es solo una razón.",
         "example": "Grund des Problems = la causa del problema. Fester Grund = base firme. Grund des Sees = fondo del lago."
       },
       "sectionAccents": {
@@ -35690,7 +35690,7 @@ const A2_WORDS = [
   {
     "de": "Gymnastik",
     "de_article": "die",
-    "lv": "ejercicio",
+    "lv": "gimnasia",
     "level": "A2"
   },
   {
@@ -35704,7 +35704,7 @@ const A2_WORDS = [
     "de": "Haarschnitt",
     "de_article": "der",
     "de_plural": "die Haarschnitte",
-    "lv": "corte de pelo • peinado",
+    "lv": "corte de pelo",
     "level": "A2"
   },
   {
@@ -35730,7 +35730,7 @@ const A2_WORDS = [
   {
     "de": "Haferflocken",
     "de_article": "die",
-    "lv": "avena",
+    "lv": "copos de avena",
     "level": "A2"
   },
   {
@@ -35777,7 +35777,7 @@ const A2_WORDS = [
   },
   {
     "de": "halt!",
-    "lv": "¡pararse!",
+    "lv": "¡alto!",
     "level": "A2"
   },
   {
@@ -35816,12 +35816,12 @@ const A2_WORDS = [
   },
   {
     "de": "hängen",
-    "lv": "colgar • ordenar",
+    "lv": "colgar",
     "level": "A2",
     "study": {
       "id": "a2-hängen",
       "layout": "standardStudy",
-      "translation": "colgar • ordenar",
+      "translation": "colgar",
       "explanation": [
         "Idea principal: hängen significa colgar o colgar algo en una pared, puerta u otro lugar.",
         "Si el objeto en sí está colgado en la pared o colgado de un gancho, en español se suele decir que está colgado.",
@@ -35832,7 +35832,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Bild hängt an der Wand.",
-          "lv": "el cuadro cuelga de la pared."
+          "lv": "El cuadro cuelga de la pared."
         },
         {
           "de": "Ich hänge die Jacke in den Schrank.",
@@ -35840,7 +35840,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "una lámpara cuelga encima de la mesa."
+          "lv": "Una lámpara cuelga encima de la mesa."
         },
         {
           "de": "Häng den Mantel bitte an den Haken.",
@@ -35848,14 +35848,14 @@ const A2_WORDS = [
         },
         {
           "de": "Der Schlüssel hängt neben der Tür.",
-          "lv": "la llave cuelga de la puerta."
+          "lv": "La llave cuelga de la puerta."
         }
       ],
       "comparison": [
         {
           "word": "hängen",
           "meaning": "colgar / ordenar",
-          "example": "Das Bild hängt an der Wand. = Attēls karājas pie sienas."
+          "example": "Das Bild hängt an der Wand. = El cuadro cuelga en la pared."
         },
         {
           "word": "stellen",
@@ -35865,12 +35865,12 @@ const A2_WORDS = [
         {
           "word": "legen",
           "meaning": "acostarse",
-          "example": "Ich lege das Buch auf den Tisch. = Es nolieku grāmatu uz galda."
+          "example": "Ich lege das Buch auf den Tisch. = Pongo el libro sobre la mesa."
         },
         {
           "word": "an die Wand hängen",
           "meaning": "colgar en la pared",
-          "example": "Wir hängen das Bild an die Wand. = Mēs piekaram attēlu pie sienas."
+          "example": "Wir hängen das Bild an die Wand. = Colgamos el cuadro en la pared."
         }
       ],
       "tip": [
@@ -36121,7 +36121,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Brot ist hart geworden.",
-          "lv": "maize ir palikusi cieta."
+          "lv": "El pan se ha quedado duro."
         },
         {
           "de": "Sie ist eine harte Chefin.",
@@ -36248,7 +36248,7 @@ const A2_WORDS = [
     "de": "Hase",
     "de_article": "der",
     "de_plural": "die Hasen",
-    "lv": "conejito",
+    "lv": "liebre",
     "level": "A2"
   },
   {
@@ -36284,7 +36284,7 @@ const A2_WORDS = [
     "de": "Hausarzt",
     "de_article": "der",
     "de_plural": "die Hausärzte",
-    "lv": "doctor familiar",
+    "lv": "médico de familia",
     "level": "A2"
   },
   {
@@ -36322,14 +36322,14 @@ const A2_WORDS = [
   },
   {
     "de": "heilen",
-    "lv": "tratar",
+    "lv": "curar",
     "level": "A2"
   },
   {
     "de": "Heim",
     "de_article": "das",
     "de_plural": "die Heime",
-    "lv": "alojamiento",
+    "lv": "hogar",
     "level": "A2"
   },
   {
@@ -36351,7 +36351,7 @@ const A2_WORDS = [
   },
   {
     "de": "her",
-    "lv": "aquí",
+    "lv": "hacia aquí",
     "level": "A2"
   },
   {
@@ -36363,7 +36363,7 @@ const A2_WORDS = [
     "de": "Herd",
     "de_article": "der",
     "de_plural": "die Herde",
-    "lv": "hogar",
+    "lv": "cocina",
     "level": "A2"
   },
   {
@@ -36407,7 +36407,7 @@ const A2_WORDS = [
   },
   {
     "de": "herzlich",
-    "lv": "sincero",
+    "lv": "cordial",
     "level": "A2"
   },
   {
@@ -36437,7 +36437,7 @@ const A2_WORDS = [
   },
   {
     "de": "hin",
-    "lv": "continuación",
+    "lv": "hacia allí",
     "level": "A2"
   },
   {
@@ -36452,7 +36452,7 @@ const A2_WORDS = [
   },
   {
     "de": "hineingehen",
-    "lv": "entra",
+    "lv": "entrar",
     "level": "A2"
   },
   {
@@ -36532,7 +36532,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Tisch ist aus Holz.",
-          "lv": "galds ir no koka."
+          "lv": "La mesa es de madera."
         },
         {
           "de": "Wir brauchen Holz für den Ofen.",
@@ -36540,15 +36540,15 @@ const A2_WORDS = [
         },
         {
           "de": "Trockenes Holz brennt gut.",
-          "lv": "sausa malka labi deg."
+          "lv": "La leña seca arde bien."
         },
         {
           "de": "Er schneidet Holz.",
-          "lv": "él está cortando leña."
+          "lv": "Él está cortando leña."
         },
         {
           "de": "Das Haus ist aus Holz gebaut.",
-          "lv": "la casa esta construida en madera."
+          "lv": "La casa está construida de madera."
         },
         {
           "de": "Im Wald stehen viele Bäume.",
@@ -36820,14 +36820,14 @@ const A2_WORDS = [
     "de": "Homepage",
     "de_article": "die",
     "de_plural": "die Homepages",
-    "lv": "pagina de inicio de internet",
+    "lv": "página de inicio de internet",
     "level": "A2"
   },
   {
     "de": "Hosenbein",
     "de_article": "das",
     "de_plural": "die Hosenbeine",
-    "lv": "viga del pantalón",
+    "lv": "pernera",
     "level": "A2"
   },
   {
@@ -36866,7 +36866,7 @@ const A2_WORDS = [
   {
     "de": "Hundegebell",
     "de_article": "das",
-    "lv": "el perro ladra",
+    "lv": "ladrido de perro",
     "level": "A2"
   },
   {
@@ -36879,14 +36879,14 @@ const A2_WORDS = [
     "de": "Hundehütte",
     "de_article": "die",
     "de_plural": "die Hundehütten",
-    "lv": "perrera",
+    "lv": "caseta para perros",
     "level": "A2"
   },
   {
     "de": "Hunderasse",
     "de_article": "die",
     "de_plural": "die Hunderassen",
-    "lv": "una especie de perro",
+    "lv": "raza de perro",
     "level": "A2"
   },
   {
@@ -36897,7 +36897,7 @@ const A2_WORDS = [
   },
   {
     "de": "hungern",
-    "lv": "hambriento",
+    "lv": "pasar hambre",
     "level": "A2"
   },
   {
@@ -36966,11 +36966,11 @@ const A2_WORDS = [
         },
         {
           "de": "Er spart Geld, indem er weniger kauft.",
-          "lv": "ahorra dinero comprando menos."
+          "lv": "Ahorra dinero comprando menos."
         },
         {
           "de": "Sie hilft mir, indem sie alles erklärt.",
-          "lv": "ella me ayuda explicándome todo."
+          "lv": "Ella me ayuda explicándome todo."
         },
         {
           "de": "Wir bleiben fit, indem wir viel laufen.",
@@ -36980,23 +36980,23 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "indem",
-          "meaning": "ar to, ka / darot kaut ko",
-          "example": "Ich lerne, indem ich übe. = Es mācos, trenējoties."
+          "meaning": "al hacerlo / haciendo algo",
+          "example": "Ich lerne, indem ich übe. = Aprendo practicando."
         },
         {
           "word": "während",
-          "meaning": "mientras / durante cuando",
-          "example": "Während ich koche, höre ich Musik. = Kamēr es gatavoju, klausos mūziku."
+          "meaning": "mientras / durante",
+          "example": "Während ich koche, höre ich Musik. = Mientras cocino, escucho música."
         },
         {
           "word": "damit",
-          "meaning": "lai",
-          "example": "Ich lerne, damit ich die Prüfung bestehe. = Es mācos, lai nokārtotu eksāmenu."
+          "meaning": "para",
+          "example": "Ich lerne, damit ich die Prüfung bestehe. = Estudio para aprobar el examen."
         },
         {
           "word": "weil",
           "meaning": "porque",
-          "example": "Ich lerne, weil ich Deutsch brauche. = Es mācos, jo man vajag vācu valodu."
+          "example": "Ich lerne, weil ich Deutsch brauche. = Estudio porque necesito alemán."
         }
       ],
       "tip": [
@@ -37203,7 +37203,7 @@ const A2_WORDS = [
     "de": "Insekt",
     "de_article": "das",
     "de_plural": "die Insekten",
-    "lv": "insecto • insecto",
+    "lv": "insecto",
     "level": "A2"
   },
   {
@@ -37215,7 +37215,7 @@ const A2_WORDS = [
   },
   {
     "de": "insgesamt",
-    "lv": "juntos",
+    "lv": "en total",
     "level": "A2"
   },
   {
@@ -37255,7 +37255,7 @@ const A2_WORDS = [
   },
   {
     "de": "irgendein",
-    "lv": "alguien",
+    "lv": "algún",
     "level": "A2"
   },
   {
@@ -37275,7 +37275,7 @@ const A2_WORDS = [
   },
   {
     "de": "irgendwohin",
-    "lv": "en algún lugar",
+    "lv": "a algún lugar",
     "level": "A2"
   },
   {
@@ -37305,12 +37305,12 @@ const A2_WORDS = [
   },
   {
     "de": "je",
-    "lv": "alguna vez • pa",
+    "lv": "alguna vez • por cada",
     "level": "A2",
     "study": {
       "id": "a2-je",
       "layout": "standardStudy",
-      "translation": "alguna vez • pa",
+      "translation": "alguna vez • por cada",
       "explanation": [
         "Idea principal: je cambia de significado según la forma de la oración y, a menudo, debe verse junto con otras palabras.",
         "En preguntas y negativas, je suele significar siempre.",
@@ -37329,11 +37329,11 @@ const A2_WORDS = [
         },
         {
           "de": "Je früher, desto besser.",
-          "lv": "cuanto antes, mejor."
+          "lv": "Cuanto antes, mejor."
         },
         {
           "de": "Ich habe das noch nie je gesehen.",
-          "lv": "nunca lo he visto."
+          "lv": "Nunca lo he visto."
         }
       ],
       "tip": [
@@ -37471,24 +37471,24 @@ const A2_WORDS = [
   },
   {
     "de": "jemanden baden",
-    "lv": "nadar • tomar un baño",
+    "lv": "bañar a alguien",
     "level": "A2"
   },
   {
     "de": "jener",
-    "lv": "eso",
+    "lv": "aquel",
     "level": "A2"
   },
   {
     "de": "jetzig",
-    "lv": "el presente",
+    "lv": "actual",
     "level": "A2"
   },
   {
     "de": "Job",
     "de_article": "der",
     "de_plural": "die Jobs",
-    "lv": "trabajo temporal",
+    "lv": "trabajo",
     "level": "A2"
   },
   {
@@ -37498,13 +37498,13 @@ const A2_WORDS = [
   },
   {
     "de": "joggen",
-    "lv": "corre despacio",
+    "lv": "correr",
     "level": "A2"
   },
   {
     "de": "Jogging",
     "de_article": "das",
-    "lv": "carrera lenta",
+    "lv": "trote",
     "level": "A2"
   },
   {
@@ -37552,7 +37552,7 @@ const A2_WORDS = [
     "de": "Kaffeeautomat",
     "de_article": "der",
     "de_plural": "die Kaffeeautomaten",
-    "lv": "maquina de cafe",
+    "lv": "máquina de café",
     "level": "A2"
   },
   {
@@ -37580,21 +37580,21 @@ const A2_WORDS = [
     "de": "Kaffeemaschine",
     "de_article": "die",
     "de_plural": "die Kaffeemaschinen",
-    "lv": "maquina de cafe",
+    "lv": "máquina de café",
     "level": "A2"
   },
   {
     "de": "Kaffeepulver",
     "de_article": "das",
     "de_plural": "die Kaffeepulver",
-    "lv": "café instantáneo",
+    "lv": "café molido",
     "level": "A2"
   },
   {
     "de": "Kaffeesatz",
     "de_article": "der",
     "de_plural": "die Kaffeesätze",
-    "lv": "posos de cafe",
+    "lv": "posos de café",
     "level": "A2"
   },
   {
@@ -37619,7 +37619,7 @@ const A2_WORDS = [
   {
     "de": "Kälte",
     "de_article": "die",
-    "lv": "el frio",
+    "lv": "el frío",
     "level": "A2"
   },
   {
@@ -37647,7 +37647,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Kamm des Hahns ist rot.",
-          "lv": "el sexto del gallo es rojo."
+          "lv": "La cresta del gallo es roja."
         },
         {
           "de": "Wir gehen auf dem Kamm des Berges.",
@@ -37655,15 +37655,15 @@ const A2_WORDS = [
         },
         {
           "de": "Sie kämmt sich mit dem Kamm.",
-          "lv": "ella peina con un peine."
+          "lv": "Ella se peina con un peine."
         },
         {
           "de": "Der Kamm liegt im Bad.",
-          "lv": "el peine está en el baño."
+          "lv": "El peine está en el baño."
         },
         {
           "de": "Der Bergkamm ist schmal.",
-          "lv": "la cresta de la montaña es estrecha."
+          "lv": "La cresta de la montaña es estrecha."
         }
       ],
       "tip": {
@@ -37672,7 +37672,7 @@ const A2_WORDS = [
             "text": "En la vida cotidiana, der Kamm casi siempre significa peine."
           },
           {
-            "text": "Con Hahn, Berg o Dach cerca, Kamm puede significar sexteto o coro."
+            "text": "Con Hahn, Berg o Dach cerca, Kamm puede significar cresta o cumbrera."
           }
         ]
       },
@@ -37905,7 +37905,7 @@ const A2_WORDS = [
     "de": "Kanne",
     "de_article": "die",
     "de_plural": "die Kannen",
-    "lv": "poder",
+    "lv": "jarra",
     "level": "A2"
   },
   {
@@ -37924,7 +37924,7 @@ const A2_WORDS = [
     "de": "Kappe",
     "de_article": "die",
     "de_plural": "die Kappen",
-    "lv": "sombrero con un clavo",
+    "lv": "gorra",
     "level": "A2"
   },
   {
@@ -37934,20 +37934,20 @@ const A2_WORDS = [
   },
   {
     "de": "kaputtgehen",
-    "lv": "romper",
+    "lv": "estropearse",
     "level": "A2"
   },
   {
     "de": "Karamelle",
     "de_article": "die",
     "de_plural": "die Karamellen",
-    "lv": "caramelos",
+    "lv": "caramelo",
     "level": "A2"
   },
   {
     "de": "Karate",
     "de_article": "das",
-    "lv": "en kárate",
+    "lv": "kárate",
     "level": "A2"
   },
   {
@@ -37968,7 +37968,7 @@ const A2_WORDS = [
     "de": "Kartoffelchips",
     "de_article": "die",
     "de_plural": "die Kartoffelchips",
-    "lv": "papas fritas",
+    "lv": "chips de papa",
     "level": "A2"
   },
   {
@@ -37982,7 +37982,7 @@ const A2_WORDS = [
     "de": "Käsekuchen",
     "de_article": "der",
     "de_plural": "die Käsekuchen",
-    "lv": "pan de requesón",
+    "lv": "tarta de queso",
     "level": "A2"
   },
   {
@@ -38024,7 +38024,7 @@ const A2_WORDS = [
     "de": "Katalog",
     "de_article": "der",
     "de_plural": "die Kataloge",
-    "lv": "catalogar",
+    "lv": "catálogo",
     "level": "A2"
   },
   {
@@ -38083,11 +38083,11 @@ const A2_WORDS = [
         },
         {
           "de": "Man kann ihn kaum verstehen.",
-          "lv": "difícilmente puedes entenderlo."
+          "lv": "Difícilmente puedes entenderlo."
         },
         {
           "de": "Sie ist kaum angekommen.",
-          "lv": "ella acaba de llegar."
+          "lv": "Ella apenas ha llegado."
         },
         {
           "de": "Kaum war er da, begann es zu regnen.",
@@ -38095,23 +38095,23 @@ const A2_WORDS = [
         },
         {
           "de": "Das ist kaum möglich.",
-          "lv": "es casi imposible."
+          "lv": "Es casi imposible."
         },
         {
           "de": "Das ist kaum zu glauben.",
-          "lv": "es difícil de creer."
+          "lv": "Es difícil de creer."
         }
       ],
       "comparison": [
         {
           "word": "kaum",
           "meaning": "casi nada / apenas",
-          "example": "Ich habe kaum Zeit. = Man gandrīz nav laika."
+          "example": "Ich habe kaum Zeit. = Apenas tengo tiempo."
         },
         {
           "word": "fast",
           "meaning": "casi",
-          "example": "Ich bin fast fertig. = Es gandrīz esmu gatavs."
+          "example": "Ich bin fast fertig. = Ya casi he terminado."
         },
         {
           "word": "gerade",
@@ -38121,7 +38121,7 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "tan pronto como",
-          "example": "Sobald ich Zeit habe, rufe ich dich an. = Tiklīdz man būs laiks, es tev piezvanīšu."
+          "example": "Sobald ich Zeit habe, rufe ich dich an. = En cuanto tenga tiempo, te llamaré."
         }
       ],
       "tip": [
@@ -38395,12 +38395,12 @@ const A2_WORDS = [
   },
   {
     "de": "kennen",
-    "lv": "saber",
+    "lv": "conocer",
     "level": "A2",
     "study": {
       "id": "a2-kennen",
       "layout": "standardStudy",
-      "translation": "saber",
+      "translation": "conocer",
       "explanation": [
         "Idea principal: Conocer a una persona, lugar o cosa por experiencia.",
         "Kennen significa principalmente: conocido personal.",
@@ -38426,13 +38426,13 @@ const A2_WORDS = [
         },
         {
           "de": "kennen",
-          "lv": "saber sabias"
+          "lv": "conocer, conocías"
         }
       ],
       "comparison": [
         {
           "word": "kennen",
-          "meaning": "saber (persona, lugar, cosa)",
+          "meaning": "conocer (persona, lugar, cosa)",
           "example": "Ich kenne ihn. – Lo conozco."
         },
         {
@@ -38551,11 +38551,11 @@ const A2_WORDS = [
         },
         {
           "de": "Woher wissen Sie das?",
-          "lv": "¿cómo sabes eso?"
+          "lv": "¿Cómo sabes eso?"
         },
         {
           "de": "Ich weiß die Antwort.",
-          "lv": "es zinu atbildi."
+          "lv": "Sé la respuesta."
         }
       ],
       "comparison": [
@@ -38566,7 +38566,7 @@ const A2_WORDS = [
         },
         {
           "word": "kennen",
-          "meaning": "saber (persona, lugar, cosa)",
+          "meaning": "conocer (persona, lugar, cosa)",
           "example": "Ich kenne die Stadt. – Conozco la ciudad."
         }
       ],
@@ -38723,12 +38723,12 @@ const A2_WORDS = [
   {
     "de": "Kinderfunk",
     "de_article": "der",
-    "lv": "programa para niños",
+    "lv": "radio infantil",
     "level": "A2",
     "study": {
       "id": "a2-kinderfunk",
       "layout": "minimalStudy",
-      "translation": "programa para niños",
+      "translation": "radio infantil",
       "accent": "blue",
       "variants": [
         {
@@ -38917,15 +38917,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ist das klar?",
-          "lv": "vai tas ir skaidrs?"
+          "lv": "¿Está claro?"
         },
         {
           "de": "Das Wasser ist klar.",
-          "lv": "el agua es clara."
+          "lv": "El agua es clara."
         },
         {
           "de": "Alles klar?",
-          "lv": "todo bien"
+          "lv": "Todo bien"
         },
         {
           "de": "Mir ist klar, was du meinst.",
@@ -38937,7 +38937,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Antwort ist klar.",
-          "lv": "atbilde ir skaidra."
+          "lv": "La respuesta está clara."
         }
       ],
       "tip": {
@@ -38946,7 +38946,7 @@ const A2_WORDS = [
             "text": "Cuando se refiere a un pensamiento o instrucción, klar suele significar claro o comprensible."
           },
           {
-            "text": "Coloquial Alles klar? a menudo significa \"¿estás bien?\" no simplemente \"¿está todo claro?\""
+            "text": "La expresión coloquial «Alles klar?» a menudo significa «¿estás bien?» y no simplemente «¿está todo claro?»"
           }
         ]
       },
@@ -39230,7 +39230,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando hay una persona haciendo algo en la oración, kleben a menudo significa quedarse."
+            "text": "Cuando una persona se queda pegada a algo, kleben suele significar quedarse pegado."
           },
           {
             "text": "Cuando el tema es una nota, un parche o los dedos, kleben a menudo describe el estado de pegado o pegajoso."
@@ -39238,7 +39238,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "El chisme puede ser tanto una acción como un estado.",
+        "text": "Kleben puede describir tanto una acción como un estado.",
         "example": "Das Pflaster klebt nicht significa que el parche no se pega. Der Zettel klebt an der Tür significa que el billete está atascado."
       },
       "sectionAccents": {
@@ -39476,33 +39476,33 @@ const A2_WORDS = [
   },
   {
     "de": "kleiden",
-    "lv": "disfrazarse",
+    "lv": "vestir(se)",
     "level": "A2",
     "study": {
       "id": "a2-kleiden",
       "layout": "standardStudy",
-      "translation": "disfrazarse",
+      "translation": "vestir(se)",
       "explanation": "kleiden puede significar vestir a otra persona. Con sich significa vestir o vestir con un estilo determinado. El \"ajuste\" es muy importante si la ropa o el color le quedan bien a la persona. La palabra es un poco más formal que la cotidiana anziehen. Por tanto, se debe prestar atención a si la oración contiene un sich o un objeto al que algo conviene.",
       "examples": [
         {
           "de": "Sie kleidet das Kind.",
-          "lv": "ella viste al niño."
+          "lv": "Ella viste al niño."
         },
         {
           "de": "Er kleidet sich elegant.",
-          "lv": "se viste elegantemente."
+          "lv": "Se viste elegantemente."
         },
         {
           "de": "Diese Farbe kleidet dich gut.",
-          "lv": "este color te queda bien."
+          "lv": "Este color te queda bien."
         },
         {
           "de": "Der Mantel kleidet sie.",
-          "lv": "el abrigo le sienta bien."
+          "lv": "El abrigo le sienta bien."
         },
         {
           "de": "Sie kleidet sich sehr modern.",
-          "lv": "ella viste muy a la moda."
+          "lv": "Ella se viste muy a la moda."
         },
         {
           "de": "Schwarz kleidet ihn gut.",
@@ -39513,17 +39513,17 @@ const A2_WORDS = [
         {
           "word": "kleiden",
           "meaning": "vestir",
-          "example": "Sie kleidet das Kind. = Viņa apģērbj bērnu."
+          "example": "Sie kleidet das Kind. = Ella viste al niño."
         },
         {
           "word": "sich kleiden",
           "meaning": "vestirse",
-          "example": "Er kleidet sich elegant. = Viņš ģērbjas eleganti."
+          "example": "Er kleidet sich elegant. = Él se viste elegantemente."
         },
         {
           "word": "kleidet jemanden",
-          "meaning": "se adapta a alguien",
-          "example": "Die Farbe kleidet dich. = Krāsa tev piestāv."
+          "meaning": "le sienta bien a alguien",
+          "example": "Die Farbe kleidet dich. = El color te sienta bien."
         },
         {
           "word": "anziehen",
@@ -39533,13 +39533,13 @@ const A2_WORDS = [
         {
           "word": "tragen",
           "meaning": "usar",
-          "example": "Sie trägt ein Kleid. = Viņa valkā kleitu."
+          "example": "Sie trägt ein Kleid. = Ella lleva un vestido."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "sich kleiden significa vestir, no vestir a otra persona."
+            "text": "sich kleiden significa vestirse, no vestir a otra persona."
           },
           {
             "text": "Cuando un vestido o un color es el sujeto de una oración, kleiden a menudo significa adaptarse."
@@ -39547,7 +39547,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Diese Farbe kleidet dich gut = este color te sienta bien.",
+        "text": "«Diese Farbe kleidet dich gut» significa «este color te sienta bien».",
         "example": "sich kleiden = vestirse. anziehen es una palabra más informal para vestirse."
       },
       "sectionAccents": {
@@ -39875,7 +39875,7 @@ const A2_WORDS = [
     "de": "Kleingarten",
     "de_article": "der",
     "de_plural": "die Kleingärten",
-    "lv": "pequeño jardín",
+    "lv": "huerto familiar",
     "level": "A2"
   },
   {
@@ -39899,12 +39899,12 @@ const A2_WORDS = [
     "de": "Klingel",
     "de_article": "die",
     "de_plural": "die Klingeln",
-    "lv": "llamar",
+    "lv": "timbre",
     "level": "A2"
   },
   {
     "de": "klingeln",
-    "lv": "llamar",
+    "lv": "sonar",
     "level": "A2"
   },
   {
@@ -39921,7 +39921,7 @@ const A2_WORDS = [
   },
   {
     "de": "knabbern",
-    "lv": "roer",
+    "lv": "mordisquear",
     "level": "A2"
   },
   {
@@ -40257,14 +40257,14 @@ const A2_WORDS = [
   },
   {
     "de": "kostenlos",
-    "lv": "en vano",
+    "lv": "gratis",
     "level": "A2"
   },
   {
     "de": "Kostüm",
     "de_article": "das",
     "de_plural": "die Kostüme",
-    "lv": "disfraz de mujer",
+    "lv": "disfraz",
     "level": "A2"
   },
   {
@@ -40276,7 +40276,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-kraft",
       "layout": "standardStudy",
-      "translation": "fortaleza",
+      "translation": "fuerza",
       "explanation": "Kraft suele significar fuerza o energía. Se utiliza para la fuerza física, el esfuerzo y la resistencia. En un contexto técnico, Kraft puede significar fuerza o energía. En la frase en Kraft, significa \"vigente\". En Fachkraft puede significar un trabajador cualificado o un especialista.",
       "examples": [
         {
@@ -40310,7 +40310,7 @@ const A2_WORDS = [
             "text": "Cuando se trata de esfuerzo, fatiga o destreza física, Kraft significa fuerza."
           },
           {
-            "text": "Siempre aprenda la frase en Kraft como una expresión separada: vigente."
+            "text": "Aprende las expresiones con Kraft por separado; en ciertos contextos puede significar «en virtud de» o «vigente»."
           }
         ]
       },
@@ -40613,7 +40613,7 @@ const A2_WORDS = [
     "de": "Kreis",
     "de_article": "der",
     "de_plural": "die Kreise",
-    "lv": "un circulo",
+    "lv": "un círculo",
     "level": "A2"
   },
   {
@@ -40634,7 +40634,7 @@ const A2_WORDS = [
     "de": "Kugel",
     "de_article": "die",
     "de_plural": "die Kugeln",
-    "lv": "bala",
+    "lv": "bola",
     "level": "A2"
   },
   {
@@ -40646,12 +40646,12 @@ const A2_WORDS = [
   },
   {
     "de": "kühl",
-    "lv": "Frío",
+    "lv": "frío",
     "level": "A2"
   },
   {
     "de": "kühlen",
-    "lv": "enfriarse",
+    "lv": "enfriar",
     "level": "A2"
   },
   {
@@ -40686,7 +40686,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Text ist kurz.",
-          "lv": "el texto es corto."
+          "lv": "El texto es corto."
         },
         {
           "de": "Ich mache eine kurze Pause.",
@@ -40694,11 +40694,11 @@ const A2_WORDS = [
         },
         {
           "de": "Komm bitte kurz her.",
-          "lv": "por favor ven un momento."
+          "lv": "Por favor, ven un momento."
         },
         {
           "de": "Kurz vor acht war er da.",
-          "lv": "poco antes de las ocho estaba allí."
+          "lv": "Poco antes de las ocho estaba allí."
         },
         {
           "de": "Kurz nach dem Essen gehen wir los.",
@@ -40709,27 +40709,27 @@ const A2_WORDS = [
         {
           "word": "kurz",
           "meaning": "corto / por un corto tiempo",
-          "example": "Der Text ist kurz. = Teksts ir īss."
+          "example": "Der Text ist kurz. = El texto es corto."
         },
         {
           "word": "kurz vor",
           "meaning": "poco antes",
-          "example": "kurz vor acht = īsi pirms astoņiem"
+          "example": "kurz vor acht = poco antes de las ocho"
         },
         {
           "word": "kurz nach",
           "meaning": "poco después",
-          "example": "kurz nach dem Essen = īsi pēc ēšanas"
+          "example": "kurz nach dem Essen = poco después de comer"
         },
         {
           "word": "bald",
           "meaning": "pronto",
-          "example": "Ich komme bald. = Es drīz nākšu."
+          "example": "Ich komme bald. = Vendré pronto."
         },
         {
           "word": "lang",
-          "meaning": "largo / largo",
-          "example": "Der Weg ist lang. = Ceļš ir garš."
+          "meaning": "largo / durante mucho tiempo",
+          "example": "Der Weg ist lang. = El camino es largo."
         }
       ],
       "tip": [
@@ -40738,7 +40738,7 @@ const A2_WORDS = [
       ],
       "important": [
         "Kurz por sí sola no es la palabra principal que significa pronto.",
-        "Al poco tiempo suele quedar calvo; kurz more significa corto o por un rato."
+        "Al poco tiempo suele quedarse calvo; kurz significa corto o por poco tiempo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -40820,9 +40820,7 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "poco después"
-              ]
+              "purple": []
             }
           }
         ],
@@ -40883,9 +40881,7 @@ const A2_WORDS = [
               "blue": [
                 "kurz nach"
               ],
-              "purple": [
-                "poco después"
-              ]
+              "purple": []
             }
           },
           {
@@ -40929,9 +40925,7 @@ const A2_WORDS = [
         "tip": [
           {
             "purple": [
-              "corto",
-              "poco antes",
-              "poco después"
+              "corto"
             ]
           }
         ],
@@ -40949,19 +40943,19 @@ const A2_WORDS = [
     "de": "Kuscheltier",
     "de_article": "das",
     "de_plural": "die Kuscheltiere",
-    "lv": "juguete suave",
+    "lv": "peluche",
     "level": "A2"
   },
   {
     "de": "Lage",
     "de_article": "die",
     "de_plural": "die Lagen",
-    "lv": "condición",
+    "lv": "situación • ubicación",
     "level": "A2",
     "study": {
       "id": "a2-lage",
       "layout": "standardStudy",
-      "translation": "condición",
+      "translation": "situación • ubicación",
       "explanation": [
         "Idea principal: die Lage suele significar situación o condición.",
         "Se utiliza cuando se habla de la situación del país, en el trabajo, en la familia o en algún momento en el tiempo.",
@@ -40972,7 +40966,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Lage ist schwierig.",
-          "lv": "la situación es complicada."
+          "lv": "La situación es complicada."
         },
         {
           "de": "Wir müssen die Lage prüfen.",
@@ -40988,29 +40982,29 @@ const A2_WORDS = [
         },
         {
           "de": "Eine Lage Papier liegt auf dem Tisch.",
-          "lv": "hay una hoja de papel sobre la mesa."
+          "lv": "Hay una hoja de papel sobre la mesa."
         }
       ],
       "comparison": [
         {
           "word": "die Lage",
           "meaning": "situación/condición",
-          "example": "Die Lage ist schwierig. = Situācija ir sarežģīta."
+          "example": "Die Lage ist schwierig. = La situación es difícil."
         },
         {
           "word": "die Situation",
           "meaning": "la situación",
-          "example": "Die Situation ist ernst. = Situācija ir nopietna."
+          "example": "Die Situation ist ernst. – La situación es grave."
         },
         {
           "word": "der Standort",
           "meaning": "ubicación",
-          "example": "Der Standort ist gut. = Atrašanās vieta ir laba."
+          "example": "Der Standort ist gut. – La ubicación es buena."
         },
         {
           "word": "die Schicht",
-          "meaning": "capa / capa",
-          "example": "eine Schicht Farbe = viena krāsas kārta"
+          "meaning": "capa",
+          "example": "eine Schicht Farbe – una capa de pintura"
         }
       ],
       "tip": [
@@ -41228,7 +41222,7 @@ const A2_WORDS = [
     "de": "Landkarte",
     "de_article": "die",
     "de_plural": "die Landkarten",
-    "lv": "mapa geografico",
+    "lv": "mapa geográfico",
     "level": "A2"
   },
   {
@@ -41246,7 +41240,7 @@ const A2_WORDS = [
   },
   {
     "de": "langweilen",
-    "lv": "aburrirse",
+    "lv": "aburrir",
     "level": "A2"
   },
   {
@@ -41264,7 +41258,7 @@ const A2_WORDS = [
   },
   {
     "de": "läuten",
-    "lv": "llamar",
+    "lv": "sonar",
     "level": "A2"
   },
   {
@@ -41276,7 +41270,7 @@ const A2_WORDS = [
     "de": "Lebensmittel",
     "de_article": "die",
     "de_plural": "die Lebensmittel",
-    "lv": "alimento",
+    "lv": "alimentos",
     "level": "A2"
   },
   {
@@ -41295,7 +41289,7 @@ const A2_WORDS = [
     "de": "Leder",
     "de_article": "das",
     "de_plural": "die Leder",
-    "lv": "cuero desarrollado",
+    "lv": "cuero",
     "level": "A2"
   },
   {
@@ -41305,7 +41299,7 @@ const A2_WORDS = [
   },
   {
     "de": "leeren",
-    "lv": "drenaje",
+    "lv": "vaciar",
     "level": "A2"
   },
   {
@@ -41367,17 +41361,17 @@ const A2_WORDS = [
         {
           "word": "leiden",
           "meaning": "sufrir",
-          "example": "Er leidet an Kopfschmerzen. = Viņš cieš no galvassāpēm."
+          "example": "Er leidet an Kopfschmerzen. – Sufre de dolor de cabeza."
         },
         {
           "word": "an etwas leiden",
-          "meaning": "slimot ar / ciest no",
-          "example": "Sie leidet an Asthma. = Viņa slimo ar astmu."
+          "meaning": "sufrir de / padecer",
+          "example": "Sie leidet an Asthma. – Sufre de asma."
         },
         {
           "word": "unter etwas leiden",
           "meaning": "sufrir de circunstancias",
-          "example": "Wir leiden unter der Hitze. = Mēs ciešam no karstuma."
+          "example": "Wir leiden unter der Hitze. – Sufrimos por el calor."
         },
         {
           "word": "nicht leiden können",
@@ -41387,7 +41381,7 @@ const A2_WORDS = [
         {
           "word": "krank sein",
           "meaning": "estar enfermo",
-          "example": "Er ist krank. = Viņš ir slims."
+          "example": "Er ist krank. – Está enfermo."
         }
       ],
       "tip": [
@@ -41618,7 +41612,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich leihe dir meinen Stift.",
-          "lv": "es tev aizdodu savu pildspalvu."
+          "lv": "Te presto mi bolígrafo."
         },
         {
           "de": "Sie leiht sich ein Buch aus der Bibliothek.",
@@ -41646,17 +41640,17 @@ const A2_WORDS = [
         {
           "word": "borgen",
           "meaning": "pedir prestado / prestar",
-          "example": "Ich borge mir Geld. = Es aizņemos naudu."
+          "example": "Ich borge mir Geld. – Pido dinero prestado."
         },
         {
           "word": "mieten",
           "meaning": "alquiler / arrendamiento por una tarifa",
-          "example": "Wir mieten ein Auto. = Mēs īrējam mašīnu."
+          "example": "Wir mieten ein Auto. – Alquilamos un coche."
         },
         {
           "word": "kaufen",
           "meaning": "comprar",
-          "example": "Ich kaufe das Buch. = Es pērku grāmatu."
+          "example": "Ich kaufe das Buch. – Compro el libro."
         }
       ],
       "tip": {
@@ -41670,7 +41664,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "leihen nav tas pats, kas kaufen.",
+        "text": "Pedir prestado no es lo mismo que comprar.",
         "example": "leihen = uz laiku. kaufen = nopirkt sev."
       },
       "sectionAccents": {
@@ -41971,12 +41965,12 @@ const A2_WORDS = [
     "de": "Leiter",
     "de_article": "der",
     "de_plural": "die Leiter",
-    "lv": "Jefe • Escalera",
+    "lv": "jefe • escalera",
     "level": "A2",
     "study": {
       "id": "a2-leiter",
       "layout": "standardStudy",
-      "translation": "Jefe • Escalera",
+      "translation": "jefe • escalera",
       "explanation": [
         "Idea principal: Leiter es un homónimo, que significa líder o escalador, según la familia.",
         "der Leiter (masculino) = líder, jefe; Plural: die Leiter.",
@@ -41986,7 +41980,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Leiter der Firma ist sehr nett.",
-          "lv": "el gerente de la empresa es muy agradable."
+          "lv": "El gerente de la empresa es muy agradable."
         },
         {
           "de": "Unser Abteilungsleiter kommt morgen.",
@@ -41994,15 +41988,15 @@ const A2_WORDS = [
         },
         {
           "de": "Ich steige auf die Leiter.",
-          "lv": "Voy a subir las escaleras."
+          "lv": "Voy a subir por la escalera."
         },
         {
           "de": "Die Leiter steht an der Wand.",
-          "lv": "la escalera está contra la pared."
+          "lv": "La escalera está contra la pared."
         },
         {
           "de": "Bring bitte die Leitern aus dem Keller.",
-          "lv": "Por favor, salga del sótano por las escaleras."
+          "lv": "Por favor, salga del sótano por la escalera."
         },
         {
           "de": "Der Projektleiter erklärt den Plan.",
@@ -42013,12 +42007,12 @@ const A2_WORDS = [
         {
           "word": "der Leiter",
           "meaning": "gerente",
-          "example": "Der Leiter der Firma. = Uzņēmuma vadītājs. Plural: die Leiter."
+          "example": "Der Leiter der Firma. – El director de la empresa. Plural: die Leiter."
         },
         {
           "word": "die Leiter",
           "meaning": "subir escaleras",
-          "example": "Ich steige auf die Leiter. = Es kāpju uz kāpnēm. Plural: die Leitern."
+          "example": "Ich steige auf die Leiter. – Subo a la escalera. Plural: die Leitern."
         },
         {
           "word": "der Abteilungsleiter",
@@ -42027,7 +42021,7 @@ const A2_WORDS = [
         },
         {
           "word": "die Treppe",
-          "meaning": "escaleras (permanente)",
+          "meaning": "escalera (portátil)",
           "example": "Wir gehen die Treppe hinauf."
         }
       ],
@@ -42152,7 +42146,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir haben eine schlechte Leitung.",
-          "lv": "mums ir slikts savienojums."
+          "lv": "Tenemos una mala conexión."
         },
         {
           "de": "Die Wasserleitung muss repariert werden.",
@@ -42162,28 +42156,28 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "die Leitung",
-          "meaning": "plomo / línea / alambre / tubería",
-          "example": "Die Leitung ist kaputt. = Līnija ir bojāta."
+          "meaning": "línea / cable / alambre / tubería",
+          "example": "Die Leitung ist kaputt. – La línea está averiada."
         },
         {
           "word": "die Führung",
           "meaning": "gestión",
-          "example": "Unter ihrer Führung läuft alles gut. = Viņas vadībā viss norit labi."
+          "example": "Unter ihrer Führung läuft alles gut. – Bajo su dirección, todo va bien."
         },
         {
           "word": "das Kabel",
-          "meaning": "kabelis / vads",
-          "example": "Das Kabel ist zu kurz. = Kabelis ir par īsu."
+          "meaning": "cable / alambre",
+          "example": "Das Kabel ist zu kurz. – El cable es demasiado corto."
         },
         {
           "word": "die Telefonleitung",
-          "meaning": "linea telefonica",
-          "example": "Die Telefonleitung ist frei. = Telefona līnija ir brīva."
+          "meaning": "línea telefónica",
+          "example": "Die Telefonleitung ist frei. – La línea telefónica está libre."
         },
         {
           "word": "die Wasserleitung",
           "meaning": "tubería de agua",
-          "example": "Die Wasserleitung tropft. = Ūdens caurule pil."
+          "example": "Die Wasserleitung tropft. – La tubería de agua gotea."
         }
       ],
       "tip": {
@@ -42596,7 +42590,7 @@ const A2_WORDS = [
     "de": "Liebling",
     "de_article": "der",
     "de_plural": "die Lieblinge",
-    "lv": "querida",
+    "lv": "favorito",
     "level": "A2"
   },
   {
@@ -42613,12 +42607,12 @@ const A2_WORDS = [
   },
   {
     "de": "liegen",
-    "lv": "dormir • estar",
+    "lv": "estar tumbado • estar situado",
     "level": "A2",
     "study": {
       "id": "a2-liegen",
       "layout": "standardStudy",
-      "translation": "dormir • estar",
+      "translation": "estar tumbado • estar situado",
       "explanation": [
         "Idea principal: Condición: Algo que ya esté acostado u horizontal.",
         "liegen significa principalmente: estado.",
@@ -42636,23 +42630,23 @@ const A2_WORDS = [
         },
         {
           "de": "Das Buch liegt hier.",
-          "lv": "el libro está aquí."
+          "lv": "El libro está aquí."
         }
       ],
       "comparison": [
         {
           "word": "legen",
-          "meaning": "acostarse (acción)",
+          "meaning": "estar tumbado (estado)",
           "example": "Ich lege das Buch hin. – Dejé el libro."
         },
         {
           "word": "liegen",
-          "meaning": "acostarse (posición)",
+          "meaning": "estar tumbado (posición)",
           "example": "Das Buch liegt hier. – El libro está aquí."
         },
         {
           "word": "stellen",
-          "meaning": "poner en pie (acción)",
+          "meaning": "poner de pie (acción)",
           "example": "Ich stelle die Flasche hin. – Puse la botella en posición vertical."
         },
         {
@@ -42662,7 +42656,7 @@ const A2_WORDS = [
         },
         {
           "word": "setzen",
-          "meaning": "asiento (acción)",
+          "meaning": "sentar (acción)",
           "example": "Ich setze das Kind hin. – Siento al niño."
         },
         {
@@ -42730,12 +42724,12 @@ const A2_WORDS = [
   },
   {
     "de": "legen",
-    "lv": "acostarse",
+    "lv": "poner • colocar",
     "level": "A2",
     "study": {
       "id": "a2-legen",
       "layout": "standardStudy",
-      "translation": "acostarse",
+      "translation": "poner • colocar",
       "explanation": [
         "Idea principal: Acción: Alguien coloca algo en posición horizontal u horizontal.",
         "legen significa principalmente: acción.",
@@ -42756,12 +42750,12 @@ const A2_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "acostarse (posición)",
+          "meaning": "estar tumbado (posición)",
           "example": "Das Buch liegt hier. – El libro está aquí."
         },
         {
           "word": "stellen",
-          "meaning": "poner en pie (acción)",
+          "meaning": "poner de pie (acción)",
           "example": "Ich stelle die Flasche hin. – Puse la botella en posición vertical."
         },
         {
@@ -42771,12 +42765,12 @@ const A2_WORDS = [
         },
         {
           "word": "setzen",
-          "meaning": "asiento (acción)",
+          "meaning": "sentar (acción)",
           "example": "Ich setze das Kind hin. – Siento al niño."
         },
         {
           "word": "sitzen",
-          "meaning": "sentarse (posición)",
+          "meaning": "estar sentado (posición)",
           "example": "Das Kind sitzt hier. – El niño está sentado aquí."
         }
       ],
@@ -42852,7 +42846,7 @@ const A2_WORDS = [
   },
   {
     "de": "loben",
-    "lv": "elogio",
+    "lv": "elogiar",
     "level": "A2"
   },
   {
@@ -42889,7 +42883,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Was ist los?",
-          "lv": "Kas notiek? (Kas vainas?)"
+          "lv": "¿Qué pasa? (¿Qué ocurre?)"
         },
         {
           "de": "Der Hund ist los.",
@@ -42904,7 +42898,7 @@ const A2_WORDS = [
   },
   {
     "de": "losfahren",
-    "lv": "empezar a conducir",
+    "lv": "salir",
     "level": "A2"
   },
   {
@@ -42923,7 +42917,7 @@ const A2_WORDS = [
     "de": "Lüge",
     "de_article": "die",
     "de_plural": "die Lügen",
-    "lv": "mentiras",
+    "lv": "mentira",
     "level": "A2"
   },
   {
@@ -42934,7 +42928,7 @@ const A2_WORDS = [
   {
     "de": "Lust",
     "de_article": "die",
-    "lv": "la elección",
+    "lv": "ganas",
     "level": "A2"
   },
   {
@@ -42955,7 +42949,7 @@ const A2_WORDS = [
     "de": "Make-up",
     "de_article": "das",
     "de_plural": "die Make-ups",
-    "lv": "constituir",
+    "lv": "maquillaje",
     "level": "A2"
   },
   {
@@ -42972,7 +42966,7 @@ const A2_WORDS = [
   },
   {
     "de": "männlich",
-    "lv": "de los hombres",
+    "lv": "masculino",
     "level": "A2"
   },
   {
@@ -43069,7 +43063,7 @@ const A2_WORDS = [
   {
     "de": "Medizin",
     "de_article": "die",
-    "lv": "medicamento",
+    "lv": "medicina",
     "level": "A2"
   },
   {
@@ -43094,11 +43088,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Was meinst du?",
-          "lv": "qué piensas"
+          "lv": "¿Qué piensas?"
         },
         {
           "de": "Ich meine, das ist richtig.",
-          "lv": "es uzskatu, ka tas ir pareizi."
+          "lv": "Creo que es correcto."
         },
         {
           "de": "Wen meinst du?",
@@ -43120,7 +43114,7 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "¿Qué quieres decir? es una frase muy común para pedir una opinión."
+            "text": "¿Qué quieres decir? Es una frase muy común para pedir una opinión."
           },
           {
             "text": "Ich meine das ernst significa \"lo digo en serio\"."
@@ -43333,7 +43327,7 @@ const A2_WORDS = [
   },
   {
     "de": "meist",
-    "lv": "más a menudo",
+    "lv": "por lo general",
     "level": "A2"
   },
   {
@@ -43350,7 +43344,7 @@ const A2_WORDS = [
   },
   {
     "de": "melden",
-    "lv": "anunciar",
+    "lv": "informar",
     "level": "A2"
   },
   {
@@ -43392,11 +43386,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich merke, dass du müde bist.",
-          "lv": "es pamanu, ka tu esi noguris."
+          "lv": "Me doy cuenta de que estás cansado."
         },
         {
           "de": "Hast du den Fehler gemerkt?",
-          "lv": "¿notaste el error?"
+          "lv": "¿Notaste el error?"
         },
         {
           "de": "Das muss ich mir merken.",
@@ -43415,27 +43409,27 @@ const A2_WORDS = [
         {
           "word": "merken",
           "meaning": "darse cuenta",
-          "example": "Ich merke den Fehler. = Es pamanu kļūdu."
+          "example": "Ich merke den Fehler. – Noto el error."
         },
         {
           "word": "sich merken",
           "meaning": "memorizar",
-          "example": "Merk dir das! = Iegaumē to!"
+          "example": "Merk dir das! – ¡Recuérdalo!"
         },
         {
           "word": "bemerken",
           "meaning": "notar / observar",
-          "example": "Ich bemerke den Fehler. = Es pamanu kļūdu."
+          "example": "Ich bemerke den Fehler. – Me doy cuenta del error."
         },
         {
           "word": "erinnern",
-          "meaning": "recordar / recordar",
+          "meaning": "recordar",
           "example": "Ich erinnere mich. = Es atceros."
         },
         {
           "word": "behalten",
           "meaning": "mantener / recordar",
-          "example": "Ich behalte die Nummer. = Es paturu numuru prātā."
+          "example": "Ich behalte die Nummer. – Me quedo con el número."
         }
       ],
       "tip": [
@@ -43662,7 +43656,7 @@ const A2_WORDS = [
     "de": "Miete",
     "de_article": "die",
     "de_plural": "die Mieten",
-    "lv": "alquilar",
+    "lv": "alquiler",
     "level": "A2"
   },
   {
@@ -43684,7 +43678,7 @@ const A2_WORDS = [
   },
   {
     "de": "mischen",
-    "lv": "confundir",
+    "lv": "mezclar",
     "level": "A2"
   },
   {
@@ -43701,7 +43695,7 @@ const A2_WORDS = [
   },
   {
     "de": "mitgehen",
-    "lv": "marcharse",
+    "lv": "ir con",
     "level": "A2"
   },
   {
@@ -43725,7 +43719,7 @@ const A2_WORDS = [
   },
   {
     "de": "mitteilen",
-    "lv": "anunciar",
+    "lv": "comunicar",
     "level": "A2"
   },
   {
@@ -43748,7 +43742,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist ein gutes Mittel gegen Husten.",
-          "lv": "es un buen remedio para la tos."
+          "lv": "Es un buen remedio para la tos."
         },
         {
           "de": "Wir brauchen ein Mittel gegen Flecken.",
@@ -43756,7 +43750,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Firma hat nicht genug Mittel.",
-          "lv": "la empresa no tiene fondos suficientes."
+          "lv": "La empresa no tiene fondos suficientes."
         },
         {
           "de": "Sport ist ein gutes Mittel gegen Stress.",
@@ -43764,24 +43758,24 @@ const A2_WORDS = [
         },
         {
           "de": "Dieses Mittel hilft schnell.",
-          "lv": "este remedio ayuda rápidamente."
+          "lv": "Este remedio ayuda rápidamente."
         }
       ],
       "comparison": [
         {
           "word": "das Mittel",
           "meaning": "recurso",
-          "example": "ein Mittel gegen Husten = līdzeklis pret klepu"
+          "example": "ein Mittel gegen Husten – un remedio contra la tos"
         },
         {
           "word": "das Medikament",
           "meaning": "medicina / droga",
-          "example": "Das Medikament hilft. = Medikaments palīdz."
+          "example": "Das Medikament hilft. – El medicamento ayuda."
         },
         {
           "word": "die Methode",
-          "meaning": "metode",
-          "example": "Diese Methode ist einfach. = Šī metode ir vienkārša."
+          "meaning": "método",
+          "example": "Diese Methode ist einfach. – Este método es sencillo."
         },
         {
           "word": "das Geld",
@@ -43791,7 +43785,7 @@ const A2_WORDS = [
         {
           "word": "die Mittel",
           "meaning": "medios/recursos",
-          "example": "finanzielle Mittel = finanšu līdzekļi"
+          "example": "finanzielle Mittel – recursos financieros"
         }
       ],
       "tip": [
@@ -44021,7 +44015,7 @@ const A2_WORDS = [
     "de": "Möbel",
     "de_article": "das",
     "de_plural": "die Möbel",
-    "lv": "muebles • muebles",
+    "lv": "muebles",
     "level": "A2"
   },
   {
@@ -44057,7 +44051,7 @@ const A2_WORDS = [
   },
   {
     "de": "monatlich",
-    "lv": "mensual-",
+    "lv": "mensual",
     "level": "A2"
   },
   {
@@ -44099,7 +44093,7 @@ const A2_WORDS = [
     "de": "Mühe",
     "de_article": "die",
     "de_plural": "die Mühen",
-    "lv": "esfuerzos",
+    "lv": "esfuerzo",
     "level": "A2"
   },
   {
@@ -44112,7 +44106,7 @@ const A2_WORDS = [
     "de": "Münze",
     "de_article": "die",
     "de_plural": "die Münzen",
-    "lv": "acuñar",
+    "lv": "moneda",
     "level": "A2"
   },
   {
@@ -44166,7 +44160,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Na gut, dann machen wir das.",
-          "lv": "ok entonces hagámoslo."
+          "lv": "OK, entonces hagámoslo."
         },
         {
           "de": "Na gut, ich komme mit.",
@@ -44174,7 +44168,7 @@ const A2_WORDS = [
         },
         {
           "de": "Na gut, du hast recht.",
-          "lv": "bueno, tienes razón."
+          "lv": "Bueno, tienes razón."
         }
       ],
       "comparison": [
@@ -44185,7 +44179,7 @@ const A2_WORDS = [
         },
         {
           "word": "gut",
-          "meaning": "labi",
+          "meaning": "vale",
           "example": "Das ist gut. – Tas ir labi."
         },
         {
@@ -44380,12 +44374,12 @@ const A2_WORDS = [
     "de": "Nagel",
     "de_article": "der",
     "de_plural": "die Nägel",
-    "lv": "uña del pie • uña",
+    "lv": "uña • clavo",
     "level": "A2",
     "study": {
       "id": "a2-nagel",
       "layout": "standardStudy",
-      "translation": "uña del pie • uña",
+      "translation": "uña • clavo",
       "explanation": [
         "Idea principal: der Nagel puede significar una uña o un clavo de metal; el contexto determina el significado.",
         "Cuando se habla de una parte del cuerpo, der Nagel = uña de la mano o del pie.",
@@ -44396,11 +44390,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich schneide mir die Nägel.",
-          "lv": "me corté las uñas"
+          "lv": "Me corté las uñas."
         },
         {
           "de": "Der Nagel ist im Finger eingewachsen.",
-          "lv": "la uña ha crecido hasta convertirse en el dedo."
+          "lv": "La uña ha crecido hasta clavarse en el dedo."
         },
         {
           "de": "Ich schlage einen Nagel in die Wand.",
@@ -44408,15 +44402,15 @@ const A2_WORDS = [
         },
         {
           "de": "Wo ist der Hammer und der Nagel?",
-          "lv": "¿Dónde está el martillo y el clavo?"
+          "lv": "¿Dónde están el martillo y el clavo?"
         },
         {
           "de": "Du hast den Nagel auf den Kopf getroffen.",
-          "lv": "diste en el clavo justo en la cabeza."
+          "lv": "Diste justo en el clavo."
         },
         {
           "de": "Ihre Nägel sind lackiert.",
-          "lv": "sus uñas están pintadas."
+          "lv": "Sus uñas están pintadas."
         }
       ],
       "tip": [
@@ -44549,7 +44543,7 @@ const A2_WORDS = [
   },
   {
     "de": "näher",
-    "lv": "íntimamente",
+    "lv": "más cerca",
     "level": "A2"
   },
   {
@@ -44572,7 +44566,7 @@ const A2_WORDS = [
   },
   {
     "de": "naschen",
-    "lv": "merendar",
+    "lv": "comer dulces",
     "level": "A2"
   },
   {
@@ -44659,7 +44653,7 @@ const A2_WORDS = [
   },
   {
     "de": "nicken",
-    "lv": "asiente con la cabeza",
+    "lv": "asentir con la cabeza",
     "level": "A2"
   },
   {
@@ -44712,19 +44706,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich habe eine gute Note bekommen.",
-          "lv": "obtuve una buena calificación."
+          "lv": "Obtuve una buena calificación."
         },
         {
           "de": "Welche Note hast du in Mathe?",
-          "lv": "¿cual es tu nota en matematicas?"
+          "lv": "¿Cuál es tu nota en matemáticas?"
         },
         {
           "de": "Der Musiker spielt eine hohe Note.",
-          "lv": "el músico toca una nota alta."
+          "lv": "El músico toca una nota alta."
         },
         {
           "de": "Diese Note klingt falsch.",
-          "lv": "esta nota suena mal."
+          "lv": "Esta nota suena mal."
         },
         {
           "de": "Ich habe nur eine Banknote dabei.",
@@ -44732,24 +44726,24 @@ const A2_WORDS = [
         },
         {
           "de": "Der Text hat eine traurige Note.",
-          "lv": "el texto tiene un trasfondo triste."
+          "lv": "El texto tiene un tono triste."
         }
       ],
       "comparison": [
         {
           "word": "die Note",
-          "meaning": "marca / nota / armónico",
-          "example": "Ich bekomme eine Note. = Es saņemu atzīmi."
+          "meaning": "marca / nota / matiz",
+          "example": "Ich bekomme eine Note. – Recibo una calificación."
         },
         {
           "word": "die Schulnote",
           "meaning": "grado escolar",
-          "example": "Die Schulnote ist gut. = Skolas atzīme ir laba."
+          "example": "Die Schulnote ist gut. – La calificación escolar es buena."
         },
         {
           "word": "die Musiknote",
           "meaning": "nota musical",
-          "example": "Die Musiknote ist hoch. = Mūzikas nots ir augsta."
+          "example": "Die Musiknote ist hoch. – La nota musical es alta."
         },
         {
           "word": "die Banknote",
@@ -45137,7 +45131,7 @@ const A2_WORDS = [
   },
   {
     "de": "notieren",
-    "lv": "escribir",
+    "lv": "anotar",
     "level": "A2"
   },
   {
@@ -45156,12 +45150,12 @@ const A2_WORDS = [
     "de": "Notizbuch",
     "de_article": "das",
     "de_plural": "die Notizbücher",
-    "lv": "computadora portátil",
+    "lv": "cuaderno",
     "level": "A2"
   },
   {
     "de": "nu",
-    "lv": "instantáneamente",
+    "lv": "ahora",
     "level": "A2"
   },
   {
@@ -45215,7 +45209,7 @@ const A2_WORDS = [
     "de": "Nuss",
     "de_article": "die",
     "de_plural": "die Nüsse",
-    "lv": "tuerca",
+    "lv": "nuez",
     "level": "A2"
   },
   {
@@ -45244,7 +45238,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das nutzt mir nichts.",
-          "lv": "tas man neko nedod."
+          "lv": "Eso no sirve de nada."
         },
         {
           "de": "Viele Leute nutzen das Internet.",
@@ -45268,13 +45262,13 @@ const A2_WORDS = [
         },
         {
           "word": "verwenden",
-          "meaning": "izmantot / pielietot",
-          "example": "Wir verwenden dieses Wort. = Mēs izmantojam šo vārdu."
+          "meaning": "utilizar / aplicar",
+          "example": "Wir verwenden dieses Wort. – Usamos esta palabra."
         },
         {
           "word": "die Chance nutzen",
           "meaning": "aprovecha la oportunidad",
-          "example": "Nutze die Chance! = Izmanto iespēju!"
+          "example": "Nutze die Chance! – ¡Aprovecha la oportunidad!"
         }
       ],
       "tip": [
@@ -45487,14 +45481,14 @@ const A2_WORDS = [
   },
   {
     "de": "obere",
-    "lv": "el superior",
+    "lv": "superior",
     "level": "A2"
   },
   {
     "de": "Obstbaum",
     "de_article": "der",
     "de_plural": "die Obstbäume",
-    "lv": "arbol frutal",
+    "lv": "árbol frutal",
     "level": "A2"
   },
   {
@@ -45534,19 +45528,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Tür ist offen.",
-          "lv": "la puerta está abierta."
+          "lv": "La puerta está abierta."
         },
         {
           "de": "Der Laden ist noch offen.",
-          "lv": "la tienda todavía está abierta."
+          "lv": "La tienda todavía está abierta."
         },
         {
           "de": "Sie spricht offen über das Problem.",
-          "lv": "ella es abierta sobre el problema."
+          "lv": "Ella habla abiertamente del problema."
         },
         {
           "de": "Die Frage bleibt offen.",
-          "lv": "la cuestión sigue abierta."
+          "lv": "La cuestión sigue abierta."
         },
         {
           "de": "Wir haben noch einen Platz offen.",
@@ -45557,22 +45551,22 @@ const A2_WORDS = [
         {
           "word": "offen",
           "meaning": "abierto / abierto",
-          "example": "Die Tür ist offen. = Durvis ir vaļā."
+          "example": "Die Tür ist offen. – La puerta está abierta."
         },
         {
           "word": "geöffnet",
           "meaning": "inaugurado oficialmente",
-          "example": "Das Museum ist geöffnet. = Muzejs ir atvērts."
+          "example": "Das Museum ist geöffnet. – El museo está abierto."
         },
         {
           "word": "ehrlich",
           "meaning": "honesto",
-          "example": "Er ist ehrlich. = Viņš ir godīgs."
+          "example": "Er ist ehrlich. – Él es sincero."
         },
         {
           "word": "frei",
-          "meaning": "gratis",
-          "example": "Der Platz ist frei. = Vieta ir brīva."
+          "meaning": "disponible",
+          "example": "Der Platz ist frei. – El lugar está libre."
         }
       ],
       "tip": [
@@ -45768,14 +45762,14 @@ const A2_WORDS = [
     "de": "Öffnungszeit",
     "de_article": "die",
     "de_plural": "die Öffnungszeiten",
-    "lv": "horas de trabajo",
+    "lv": "horario de apertura",
     "level": "A2"
   },
   {
     "de": "Öl",
     "de_article": "das",
     "de_plural": "die Öle",
-    "lv": "petróleo • petróleo",
+    "lv": "aceite • petróleo",
     "level": "A2"
   },
   {
@@ -45808,12 +45802,12 @@ const A2_WORDS = [
   },
   {
     "de": "ordentlich",
-    "lv": "limpio",
+    "lv": "ordenado",
     "level": "A2"
   },
   {
     "de": "ordnen",
-    "lv": "arreglar",
+    "lv": "ordenar",
     "level": "A2"
   },
   {
@@ -45859,7 +45853,7 @@ const A2_WORDS = [
     "de": "Packung",
     "de_article": "die",
     "de_plural": "die Packungen",
-    "lv": "embalaje",
+    "lv": "paquete",
     "level": "A2"
   },
   {
@@ -45880,12 +45874,12 @@ const A2_WORDS = [
     "de": "Parfüm",
     "de_article": "das",
     "de_plural": "die Parfüms",
-    "lv": "perfumes",
+    "lv": "perfume",
     "level": "A2"
   },
   {
     "de": "parken",
-    "lv": "para estacionar el auto",
+    "lv": "estacionar",
     "level": "A2"
   },
   {
@@ -45941,23 +45935,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Was ist passiert?",
-          "lv": "kas notika?"
+          "lv": "¿Qué pasó?"
         },
         {
           "de": "Das kann jedem passieren.",
-          "lv": "le puede pasar a cualquiera."
+          "lv": "Le puede pasar a cualquiera."
         },
         {
           "de": "Ein Unfall ist passiert.",
-          "lv": "ha ocurrido un accidente."
+          "lv": "Ha ocurrido un accidente."
         },
         {
           "de": "Mir ist ein Fehler passiert.",
-          "lv": "Tuve un error."
+          "lv": "Cometí un error."
         },
         {
           "de": "So etwas passiert manchmal.",
-          "lv": "sucede a veces."
+          "lv": "Sucede a veces."
         }
       ],
       "tip": [
@@ -46108,15 +46102,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Patient wartet im Wartezimmer.",
-          "lv": "el paciente está esperando en la sala de espera."
+          "lv": "El paciente está esperando en la sala de espera."
         },
         {
           "de": "Die Ärztin untersucht den Patienten.",
-          "lv": "el médico examina al paciente."
+          "lv": "El médico examina al paciente."
         },
         {
           "de": "Die Patientin fühlt sich besser.",
-          "lv": "el paciente se siente mejor."
+          "lv": "El paciente se siente mejor."
         }
       ],
       "comparison": [
@@ -46128,18 +46122,18 @@ const A2_WORDS = [
         {
           "word": "die Patientin",
           "meaning": "paciente",
-          "example": "Die Patientin ruht sich aus. = Paciente atpūšas."
+          "example": "Die Patientin ruht sich aus. – La paciente descansa."
         },
         {
           "word": "der Kranke",
-          "meaning": "slimnieks",
-          "example": "Der Kranke liegt im Bett. = Slimnieks guļ gultā."
+          "meaning": "paciente",
+          "example": "Der Kranke liegt im Bett. – El enfermo está tumbado en la cama."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "En un contexto médico, se utiliza Paciente/Paciente. Kranke es una palabra más general para una persona enferma."
+            "text": "En un contexto médico, se utilizan Patient/Patientin. Kranke es una palabra más general para una persona enferma."
           }
         ]
       },
@@ -46196,7 +46190,7 @@ const A2_WORDS = [
   {
     "de": "Pech",
     "de_article": "das",
-    "lv": "falla",
+    "lv": "mala suerte",
     "level": "A2"
   },
   {
@@ -46224,11 +46218,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Personal ist sehr freundlich.",
-          "lv": "el personal es muy amable."
+          "lv": "El personal es muy amable."
         },
         {
           "de": "Im Hotel arbeitet viel Personal.",
-          "lv": "el hotel tiene mucho personal."
+          "lv": "El hotel tiene mucho personal."
         },
         {
           "de": "Das Krankenhaus sucht neues Personal.",
@@ -46239,17 +46233,17 @@ const A2_WORDS = [
         {
           "word": "das Personal",
           "meaning": "personal (total)",
-          "example": "Das Personal hilft. = Personāls palīdz."
+          "example": "Das Personal hilft. – El personal ayuda."
         },
         {
           "word": "der Mitarbeiter",
           "meaning": "un empleado",
-          "example": "Der Mitarbeiter arbeitet hier. = Darbinieks šeit strādā."
+          "example": "Der Mitarbeiter arbeitet hier. – El empleado trabaja aquí."
         },
         {
           "word": "persönlich",
           "meaning": "personal",
-          "example": "Das ist persönlich. = Tas ir personīgi."
+          "example": "Das ist persönlich. – Eso es personal."
         }
       ],
       "tip": {
@@ -46339,7 +46333,7 @@ const A2_WORDS = [
     "de": "Pfannkuchen",
     "de_article": "der",
     "de_plural": "die Pfannkuchen",
-    "lv": "crepe",
+    "lv": "tortita",
     "level": "A2"
   },
   {
@@ -46388,11 +46382,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich brauche ein Pflaster.",
-          "lv": "necesito un parche."
+          "lv": "Necesito un parche."
         },
         {
           "de": "Das Pflaster klebt nicht.",
-          "lv": "el parche no se pega."
+          "lv": "El parche no se pega."
         },
         {
           "de": "Die Straße hat altes Pflaster.",
@@ -46405,7 +46399,7 @@ const A2_WORDS = [
             "text": "Cuando se refiere a una herida o piel, Pflaster significa parche."
           },
           {
-            "text": "Cuando se trata de calle, plaza o paseo, Pflaster significa acera."
+            "text": "Cuando se trata de una calle, plaza o paseo, Pflaster significa adoquines o pavimento."
           }
         ]
       },
@@ -46651,14 +46645,14 @@ const A2_WORDS = [
     "de": "Pilz",
     "de_article": "der",
     "de_plural": "die Pilze",
-    "lv": "champiñón",
+    "lv": "hongo",
     "level": "A2"
   },
   {
     "de": "Pinsel",
     "de_article": "der",
     "de_plural": "die Pinsel",
-    "lv": "cepillar",
+    "lv": "pincel",
     "level": "A2"
   },
   {
@@ -46719,7 +46713,7 @@ const A2_WORDS = [
     "de": "Politiker",
     "de_article": "der",
     "de_plural": "die Politiker",
-    "lv": "un politico",
+    "lv": "un político",
     "level": "A2"
   },
   {
@@ -46731,7 +46725,7 @@ const A2_WORDS = [
     "de": "Popcorn",
     "de_article": "das",
     "de_plural": "die Popcorns",
-    "lv": "Palomitas",
+    "lv": "palomitas",
     "level": "A2"
   },
   {
@@ -46743,7 +46737,7 @@ const A2_WORDS = [
     "de": "Portion",
     "de_article": "die",
     "de_plural": "die Portionen",
-    "lv": "parte",
+    "lv": "porción",
     "level": "A2"
   },
   {
@@ -46755,7 +46749,7 @@ const A2_WORDS = [
     "de": "Postamt",
     "de_article": "das",
     "de_plural": "die Postämter",
-    "lv": "correo",
+    "lv": "oficina de correos",
     "level": "A2"
   },
   {
@@ -46769,7 +46763,7 @@ const A2_WORDS = [
     "de": "Postleitzahl",
     "de_article": "die",
     "de_plural": "die Postleitzahlen",
-    "lv": "Código Postal",
+    "lv": "código postal",
     "level": "A2"
   },
   {
@@ -46830,7 +46824,7 @@ const A2_WORDS = [
     "de": "Putzfrau",
     "de_article": "die",
     "de_plural": "die Putzfrauen",
-    "lv": "el limpiador",
+    "lv": "la limpiadora",
     "level": "A2"
   },
   {
@@ -46880,7 +46874,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Rad ist kaputt.",
-          "lv": "ritenis ir salauzts."
+          "lv": "La bicicleta está rota."
         },
         {
           "de": "Mein Rad steht vor dem Haus.",
@@ -46888,15 +46882,15 @@ const A2_WORDS = [
         },
         {
           "de": "Das Auto hat vier Räder.",
-          "lv": "automašīnai ir četri riteņi."
+          "lv": "El coche tiene cuatro ruedas."
         },
         {
           "de": "Ich fahre mit dem Fahrrad zur Schule.",
-          "lv": "es braucu ar velosipēdu uz skolu."
+          "lv": "Voy en bicicleta a la escuela."
         },
         {
           "de": "Das Lenkrad ist schwarz.",
-          "lv": "el volante es negro."
+          "lv": "La rueda es negra."
         }
       ],
       "tip": [
@@ -46905,7 +46899,7 @@ const A2_WORDS = [
       ],
       "important": [
         "das Rad no siempre es una palabra completa para una bicicleta.",
-        "Velosipēds visprecīzāk ir das Fahrrad; Rad var būt īsā sarunvalodas forma."
+        "La bicicleta se dice das Fahrrad con mayor precisión; Rad puede ser una forma coloquial abreviada."
       ],
       "sectionAccents": {
         "explanation": {
@@ -46951,9 +46945,7 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "automašīnai"
-              ]
+              "purple": []
             }
           },
           {
@@ -47062,14 +47054,14 @@ const A2_WORDS = [
       "translation": "césped",
       "explanation": [
         "Idea principal: Rasen es un sustantivo con letra mayúscula y el artículo der es un césped, un prado (por ejemplo, en un jardín).",
-        "rasen ar mazo burtu ir verbo — joņot, traukties ļoti ātri.",
-        "der Rasen bieži attiecas uz kopto zālienu dārzā vai stadionā.",
+        "rasen con minúscula es un verbo: correr a toda velocidad, ir muy rápido.",
+        "der Rasen suele referirse al césped bien cuidado del jardín o del estadio.",
         "Plural: die Rasen."
       ],
       "examples": [
         {
           "de": "Der Rasen ist grün.",
-          "lv": "la hierba es verde."
+          "lv": "El césped es verde."
         },
         {
           "de": "Ich mähe den Rasen.",
@@ -47077,11 +47069,11 @@ const A2_WORDS = [
         },
         {
           "de": "Das Auto rast durch die Stadt.",
-          "lv": "el coche circula por la ciudad."
+          "lv": "El coche circula por el césped."
         },
         {
           "de": "Bitte den Rasen nicht betreten.",
-          "lv": "por favor no pise el césped."
+          "lv": "Por favor, no pise el césped."
         }
       ],
       "tip": [
@@ -47192,9 +47184,9 @@ const A2_WORDS = [
       "explanation": [
         "Idea principal: raten significa aconsejar o intentar adivinar.",
         "Cuando das consejos a alguien, en alemán sueles utilizar raten ¿con qué? forma.",
-        "Ja nezini atbildi un mēģini to trāpīt, raten significa uzminēt.",
-        "Frāze Ich rate dir... significa es tev iesaku.",
-        "Konteksts parāda, vai runa ir par padomu vai minēšanu."
+        "Si no sabes la respuesta e intentas adivinarla, raten significa adivinar.",
+        "La frase Ich rate dir... significa «te recomiendo».",
+        "El contexto muestra si se trata de dar un consejo o de adivinar."
       ],
       "examples": [
         {
@@ -47203,7 +47195,7 @@ const A2_WORDS = [
         },
         {
           "de": "Was rätst du mir?",
-          "lv": "ko tu man iesaki?"
+          "lv": "¿Qué me recomiendas?"
         },
         {
           "de": "Kannst du die Antwort raten?",
@@ -47211,11 +47203,11 @@ const A2_WORDS = [
         },
         {
           "de": "Er hat richtig geraten.",
-          "lv": "acertó."
+          "lv": "Acertó."
         },
         {
           "de": "Der Lehrer rät uns, mehr zu üben.",
-          "lv": "el profesor nos aconseja practicar más."
+          "lv": "El profesor nos aconseja practicar más."
         }
       ],
       "tip": [
@@ -47354,7 +47346,7 @@ const A2_WORDS = [
     "de": "Rathaus",
     "de_article": "das",
     "de_plural": "die Rathäuser",
-    "lv": "Ayuntamiento",
+    "lv": "ayuntamiento",
     "level": "A2"
   },
   {
@@ -47367,7 +47359,7 @@ const A2_WORDS = [
   {
     "de": "Rauch",
     "de_article": "der",
-    "lv": "fumar",
+    "lv": "humo",
     "level": "A2"
   },
   {
@@ -47391,7 +47383,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-rechnen",
       "layout": "standardStudy",
-      "translation": "contar",
+      "translation": "calcular • hacer cuentas",
       "explanation": [
         "Idea principal: rechnen significa contar o calcular.",
         "¿Con mit + kam? rechnen significa contar con algo o esperar algo.",
@@ -47406,11 +47398,11 @@ const A2_WORDS = [
         },
         {
           "de": "Die Kinder lernen rechnen.",
-          "lv": "los niños aprenden a contar."
+          "lv": "Los niños aprenden a hacer cuentas."
         },
         {
           "de": "Wir rechnen mit Regen.",
-          "lv": "mēs rēķināmies ar lietu."
+          "lv": "Contamos con que llueva."
         },
         {
           "de": "Damit habe ich nicht gerechnet.",
@@ -47418,7 +47410,7 @@ const A2_WORDS = [
         },
         {
           "de": "Du musst mit Problemen rechnen.",
-          "lv": "hay que esperar problemas."
+          "lv": "Hay que contar con problemas."
         }
       ],
       "tip": [
@@ -47477,9 +47469,7 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "mēs"
-              ]
+              "purple": []
             }
           },
           {
@@ -47566,13 +47556,13 @@ const A2_WORDS = [
     "de": "Recht",
     "de_article": "das",
     "de_plural": "die Rechte",
-    "lv": "derechos",
+    "lv": "derecho",
     "level": "A2"
   },
   {
     "de": "Rechte",
     "de_article": "die",
-    "lv": "derecha",
+    "lv": "derechos",
     "level": "A2"
   },
   {
@@ -47619,7 +47609,7 @@ const A2_WORDS = [
     "de": "Regentropfen",
     "de_article": "der",
     "de_plural": "die Regentropfen",
-    "lv": "gota de agua",
+    "lv": "gota de lluvia",
     "level": "A2"
   },
   {
@@ -47631,12 +47621,12 @@ const A2_WORDS = [
   },
   {
     "de": "reichen",
-    "lv": "suficiente • presente",
+    "lv": "bastar • alcanzar • pasar",
     "level": "A2",
     "study": {
       "id": "a2-reichen",
       "layout": "standardStudy",
-      "translation": "suficiente • presente",
+      "translation": "bastar • alcanzar • pasar",
       "explanation": [
         "Idea principal: reichen significa bastar o servir, según la sentencia.",
         "Cuando se trata de cantidad, tiempo o dinero, reichen suele significar suficiente.",
@@ -47647,27 +47637,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Geld reicht nicht.",
-          "lv": "naudas nepietiek."
+          "lv": "No hay suficiente dinero."
         },
         {
           "de": "Das reicht für heute.",
-          "lv": "suficiente por hoy."
+          "lv": "Es suficiente por hoy."
         },
         {
           "de": "Kannst du mir das Salz reichen?",
-          "lv": "¿Puedes darme un poco de sal?"
+          "lv": "¿Puedes pasarme un poco de sal?"
         },
         {
           "de": "Der Weg reicht bis zum Fluss.",
-          "lv": "el camino se extiende hasta el río."
+          "lv": "El camino se extiende hasta el río."
         },
         {
           "de": "Reicht dir eine Stunde?",
-          "lv": "vai tev pietiek ar vienu stundu?"
+          "lv": "¿Te basta una hora?"
         },
         {
           "de": "Das reicht.",
-          "lv": "pietiek."
+          "lv": "Basta."
         }
       ],
       "tip": [
@@ -47896,12 +47886,12 @@ const A2_WORDS = [
     "de": "Reparatur",
     "de_article": "die",
     "de_plural": "die Reparaturen",
-    "lv": "reparar",
+    "lv": "reparación",
     "level": "A2"
   },
   {
     "de": "reparieren",
-    "lv": "corregir",
+    "lv": "reparar",
     "level": "A2"
   },
   {
@@ -47925,7 +47915,7 @@ const A2_WORDS = [
   },
   {
     "de": "retten",
-    "lv": "ahorrar",
+    "lv": "salvar",
     "level": "A2"
   },
   {
@@ -47944,12 +47934,12 @@ const A2_WORDS = [
   },
   {
     "de": "riechen",
-    "lv": "oler • ost",
+    "lv": "oler",
     "level": "A2",
     "study": {
       "id": "a2-riechen",
       "layout": "standardStudy",
-      "translation": "oler • ost",
+      "translation": "oler",
       "explanation": [
         "Idea principal: riechen significa oler algo u oler algo.",
         "Cuando el sujeto es una cosa, riechen significa oler u ost.",
@@ -47960,15 +47950,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Blumen riechen gut.",
-          "lv": "las flores huelen bien."
+          "lv": "Las flores huelen bien."
         },
         {
           "de": "Es riecht nach Kaffee.",
-          "lv": "huele a café."
+          "lv": "Huele a café."
         },
         {
           "de": "Der Hund riecht an der Tasche.",
-          "lv": "suns osta somu."
+          "lv": "El perro huele la bolsa."
         },
         {
           "de": "Ich kann den Rauch riechen.",
@@ -47976,11 +47966,11 @@ const A2_WORDS = [
         },
         {
           "de": "Das Essen riecht lecker.",
-          "lv": "la comida huele deliciosa."
+          "lv": "La comida huele deliciosa."
         },
         {
           "de": "Das riecht gut.",
-          "lv": "huele bien."
+          "lv": "Huele bien."
         }
       ],
       "comparison": [
@@ -47997,7 +47987,7 @@ const A2_WORDS = [
         {
           "word": "nach etwas riechen",
           "meaning": "oliendo a algo",
-          "example": "Es riecht nach Kaffee. = Smaržo pēc kafijas."
+          "example": "Es riecht nach Kaffee. = Huele a café."
         },
         {
           "word": "duften",
@@ -48255,12 +48245,12 @@ const A2_WORDS = [
     "de": "Rock",
     "de_article": "der",
     "de_plural": "die Röcke",
-    "lv": "falda • chaqueta",
+    "lv": "falda",
     "level": "A2"
   },
   {
     "de": "rodeln",
-    "lv": "trineo cuesta abajo",
+    "lv": "montar en trineo",
     "level": "A2"
   },
   {
@@ -48279,25 +48269,25 @@ const A2_WORDS = [
     "de": "Rolle",
     "de_article": "die",
     "de_plural": "die Rollen",
-    "lv": "rol • rodar",
+    "lv": "rol • rollo",
     "level": "A2",
     "study": {
       "id": "a2-rolle",
       "layout": "standardStudy",
-      "translation": "rol • rodar",
+      "translation": "rol • rollo",
       "explanation": "die Rolle significa muy a menudo un papel en una película, obra o situación. La frase eine Rolle spielen significa desempeñar un papel o ser importante. Rolle también puede significar un rollo o rodillo, como por ejemplo un rollo de papel. En el contexto del teatro y el cine, un papel es un papel. En el contexto de los objetos, suele ser un rollo o un rodillo.",
       "examples": [
         {
           "de": "Sie spielt eine wichtige Rolle im Team.",
-          "lv": "ella juega un papel importante en el equipo."
+          "lv": "Ella juega un papel importante en el equipo."
         },
         {
           "de": "Geld spielt hier keine Rolle.",
-          "lv": "El dinero no importa aquí."
+          "lv": "El dinero no desempeña ningún papel aquí."
         },
         {
           "de": "Er hat die Hauptrolle im Film.",
-          "lv": "tiene un papel principal en la película."
+          "lv": "Tiene un papel principal en la película."
         },
         {
           "de": "Ich brauche eine Rolle Papier.",
@@ -48305,7 +48295,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Rolle liegt auf dem Tisch.",
-          "lv": "rullis atrodas uz galda."
+          "lv": "El rollo está sobre la mesa."
         },
         {
           "de": "Welche Rolle spielst du?",
@@ -48315,28 +48305,28 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "die Rolle",
-          "meaning": "loma / rullis",
-          "example": "Sie spielt eine Rolle. = Viņa spēlē lomu."
+          "meaning": "rol / rollo",
+          "example": "Sie spielt eine Rolle. = Ella desempeña un papel."
         },
         {
           "word": "die Hauptrolle",
           "meaning": "el papel principal",
-          "example": "Er hat die Hauptrolle. = Viņam ir galvenā loma."
+          "example": "Er hat die Hauptrolle. = Él tiene el papel principal."
         },
         {
           "word": "die Papierrolle",
           "meaning": "un rollo de papel",
-          "example": "Ich kaufe eine Papierrolle. = Es pērku papīra rulli."
+          "example": "Ich kaufe eine Papierrolle. = Compro un rollo de papel."
         },
         {
           "word": "die Bedeutung",
-          "meaning": "significado",
-          "example": "Das hat keine Bedeutung. = Tam nav nozīmes."
+          "meaning": "papel / función",
+          "example": "Das hat keine Bedeutung. = Eso no tiene importancia."
         },
         {
           "word": "der Teil",
           "meaning": "parte",
-          "example": "Das ist ein Teil der Arbeit. = Tā ir daļa no darba."
+          "example": "Das ist ein Teil der Arbeit. = Eso es una parte del trabajo."
         }
       ],
       "tip": {
@@ -48350,7 +48340,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Un rol es a menudo un significado abstracto, no sólo un objeto.",
+        "text": "Un rol suele referirse a una función o papel abstracto, no solo a un objeto.",
         "example": "eine wichtige Rolle spielen = desempeñar un papel importante. eine Rolle Papier = rollo de papel."
       },
       "sectionAccents": {
@@ -48710,7 +48700,7 @@ const A2_WORDS = [
     "de": "Roman",
     "de_article": "der",
     "de_plural": "die Romane",
-    "lv": "novedoso",
+    "lv": "novela",
     "level": "A2"
   },
   {
@@ -48737,12 +48727,12 @@ const A2_WORDS = [
   {
     "de": "Ruhe",
     "de_article": "die",
-    "lv": "paz",
+    "lv": "tranquilidad",
     "level": "A2"
   },
   {
     "de": "ruhig",
-    "lv": "calma",
+    "lv": "tranquilo",
     "level": "A2"
   },
   {
@@ -48765,14 +48755,14 @@ const A2_WORDS = [
     "de": "Saal",
     "de_article": "der",
     "de_plural": "die Säle",
-    "lv": "césped",
+    "lv": "sala",
     "level": "A2"
   },
   {
     "de": "Sack",
     "de_article": "der",
     "de_plural": "die Säcke",
-    "lv": "bolsa",
+    "lv": "saco",
     "level": "A2"
   },
   {
@@ -48792,12 +48782,12 @@ const A2_WORDS = [
     "de": "Saison",
     "de_article": "die",
     "de_plural": "die Saisons",
-    "lv": "algunos no. estación",
+    "lv": "temporada",
     "level": "A2"
   },
   {
     "de": "salzen",
-    "lv": "a la sal",
+    "lv": "salar",
     "level": "A2"
   },
   {
@@ -48818,7 +48808,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Er sammelt Briefmarken.",
-          "lv": "él colecciona sellos."
+          "lv": "Él colecciona sellos."
         },
         {
           "de": "Wir sammeln Pilze im Wald.",
@@ -48845,22 +48835,22 @@ const A2_WORDS = [
         {
           "word": "sammeln",
           "meaning": "recoger / acumular",
-          "example": "Briefmarken sammeln = krāt pastmarkas"
+          "example": "Briefmarken sammeln = coleccionar sellos"
         },
         {
           "word": "sich sammeln",
           "meaning": "recoger / limpiar",
-          "example": "Die Schüler sammeln sich. = Skolēni sapulcējas."
+          "example": "Die Schüler sammeln sich. = Los alumnos se reúnen."
         },
         {
           "word": "holen",
           "meaning": "ir tras / buscar",
-          "example": "Ich hole Wasser. = Es atnesu ūdeni."
+          "example": "Ich hole Wasser. = Traigo agua."
         },
         {
           "word": "aufheben",
           "meaning": "levantar / guardar",
-          "example": "Ich hebe den Zettel auf. = Es paceļu zīmīti."
+          "example": "Ich hebe den Zettel auf. = Recojo la nota."
         }
       ],
       "tip": [
@@ -49102,7 +49092,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Schreibe bitte einen deutschen Satz.",
-          "lv": "por favor escribe una oración en alemán."
+          "lv": "Por favor, escribe una oración en alemán."
         },
         {
           "de": "Dieser Satz ist zu lang.",
@@ -49114,32 +49104,32 @@ const A2_WORDS = [
         },
         {
           "de": "Der Zinssatz ist niedrig.",
-          "lv": "procentu likme ir zema."
+          "lv": "La tasa de interés es baja."
         },
         {
           "de": "Im Glas bleibt ein Satz Kaffee.",
-          "lv": "Quedan restos de café en el vaso."
+          "lv": "Quedan posos de café en el vaso."
         },
         {
           "de": "Sein erster Satz war sehr weit.",
-          "lv": "su primer salto fue muy lejos."
+          "lv": "Su primer salto fue muy largo."
         }
       ],
       "comparison": [
         {
           "word": "der Satz",
           "meaning": "frase / set / apuesta / salto",
-          "example": "Der Satz ist kurz. = Teikums ir īss."
+          "example": "Der Satz ist kurz. = La frase es corta."
         },
         {
           "word": "der deutsche Satz",
           "meaning": "frase alemana",
-          "example": "Der deutsche Satz ist richtig. = Vācu teikums ir pareizs."
+          "example": "Der deutsche Satz ist richtig. = La frase alemana es correcta."
         },
         {
           "word": "der Satz Reifen",
-          "meaning": "riepu komplekts",
-          "example": "Ein Satz Reifen ist teuer. = Riepu komplekts ir dārgs."
+          "meaning": "juego de neumáticos",
+          "example": "Ein Satz Reifen ist teuer. = Un juego de neumáticos es caro."
         },
         {
           "word": "der Zinssatz",
@@ -49148,8 +49138,8 @@ const A2_WORDS = [
         },
         {
           "word": "der Kaffeesatz",
-          "meaning": "kafijas biezumi / nogulsnes",
-          "example": "Der Kaffeesatz bleibt im Glas. = Kafijas biezumi paliek glāzē."
+          "meaning": "posos de café / sedimentos",
+          "example": "Der Kaffeesatz bleibt im Glas. = Los posos del café se quedan en el vaso."
         }
       ],
       "tip": {
@@ -49586,12 +49576,12 @@ const A2_WORDS = [
   {
     "de": "saure Sahne",
     "de_article": "die",
-    "lv": "cCrea agria",
+    "lv": "crema agria",
     "level": "A2"
   },
   {
     "de": "saurer Rahm",
-    "lv": "cCrea agria",
+    "lv": "crema agria",
     "level": "A2"
   },
   {
@@ -49609,7 +49599,7 @@ const A2_WORDS = [
   },
   {
     "de": "schade",
-    "lv": "Lo siento",
+    "lv": "qué pena",
     "level": "A2"
   },
   {
@@ -49626,7 +49616,7 @@ const A2_WORDS = [
   },
   {
     "de": "schälen",
-    "lv": "peladura",
+    "lv": "pelar",
     "level": "A2"
   },
   {
@@ -49651,19 +49641,19 @@ const A2_WORDS = [
         },
         {
           "de": "Ich schalte das Licht aus.",
-          "lv": "apagué la luz."
+          "lv": "Apagué la luz."
         },
         {
           "de": "Er schaltet in den dritten Gang.",
-          "lv": "cambia a tercera velocidad."
+          "lv": "Cambia a tercera velocidad."
         },
         {
           "de": "Kannst du bitte auf Kanal 2 schalten?",
-          "lv": "¿Puedes cambiar al canal 2 por favor?"
+          "lv": "¿Puedes cambiar al canal 2, por favor?"
         },
         {
           "de": "Die Ampel schaltet auf Grün.",
-          "lv": "el semáforo cambia a verde."
+          "lv": "El semáforo cambia a verde."
         }
       ],
       "tip": [
@@ -49783,12 +49773,12 @@ const A2_WORDS = [
   },
   {
     "de": "scharf",
-    "lv": "picante • picante",
+    "lv": "picante • nítido",
     "level": "A2",
     "study": {
       "id": "a2-scharf",
       "layout": "standardStudy",
-      "translation": "picante • picante",
+      "translation": "picante • nítido",
       "explanation": [
         "Idea principal: scharf significa picante o picante según el contexto.",
         "Para un cuchillo, tijeras o filo, scharf significa afilado.",
@@ -49799,19 +49789,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Messer ist scharf.",
-          "lv": "nazis ir ass."
+          "lv": "El cuchillo está afilado."
         },
         {
           "de": "Die Suppe ist sehr scharf.",
-          "lv": "la sopa es muy picante."
+          "lv": "La sopa es muy picante."
         },
         {
           "de": "Das Bild ist nicht scharf.",
-          "lv": "la imagen no es nítida."
+          "lv": "La imagen no es nítida."
         },
         {
           "de": "Pass auf, die Kante ist scharf.",
-          "lv": "uzmanies, mala ir asa."
+          "lv": "Cuidado, el cuchillo está afilado."
         },
         {
           "de": "Ich esse gern scharf.",
@@ -49991,7 +49981,7 @@ const A2_WORDS = [
     "de": "Schaukel",
     "de_article": "die",
     "de_plural": "die Schaukeln",
-    "lv": "balancearse",
+    "lv": "columpio",
     "level": "A2"
   },
   {
@@ -50052,7 +50042,7 @@ const A2_WORDS = [
         {
           "word": "scheinen",
           "meaning": "brillar / parecer",
-          "example": "Die Sonne scheint. = Saule spīd."
+          "example": "Die Sonne scheint. = El sol brilla."
         },
         {
           "word": "aussehen",
@@ -50062,12 +50052,12 @@ const A2_WORDS = [
         {
           "word": "wirken",
           "meaning": "impresionar",
-          "example": "Er wirkt ruhig. = Viņš šķiet mierīgs."
+          "example": "Er wirkt ruhig. = Él parece tranquilo."
         },
         {
           "word": "leuchten",
           "meaning": "brillar / brillar",
-          "example": "Die Lampe leuchtet. = Lampa spīd."
+          "example": "Die Lampe leuchtet. = La lámpara brilla."
         }
       ],
       "tip": {
@@ -50366,7 +50356,7 @@ const A2_WORDS = [
   },
   {
     "de": "schenken",
-    "lv": "dar",
+    "lv": "regalar",
     "level": "A2"
   },
   {
@@ -50422,7 +50412,7 @@ const A2_WORDS = [
   {
     "de": "Schlaf",
     "de_article": "der",
-    "lv": "dormir",
+    "lv": "sueño",
     "level": "A2"
   },
   {
@@ -50448,23 +50438,23 @@ const A2_WORDS = [
         },
         {
           "de": "Die Schlange ist lang.",
-          "lv": "rinda ir gara."
+          "lv": "La fila es larga."
         },
         {
           "de": "Wir stehen in der Schlange.",
-          "lv": "hacemos cola."
+          "lv": "Hacemos cola."
         },
         {
           "de": "Vor der Kasse ist eine lange Schlange.",
-          "lv": "pie kases ir gara rinda."
+          "lv": "Hay una fila larga en la taquilla."
         },
         {
           "de": "Hast du Angst vor Schlangen?",
-          "lv": "¿Le tienes miedo a las serpientes?"
+          "lv": "¿Les tienes miedo a las serpientes?"
         },
         {
           "de": "Die Kinder warten in der Schlange.",
-          "lv": "los niños están esperando en la fila."
+          "lv": "Los niños están esperando en la fila."
         }
       ],
       "comparison": [
@@ -50476,17 +50466,17 @@ const A2_WORDS = [
         {
           "word": "die Warteschlange",
           "meaning": "fila de espera",
-          "example": "Die Warteschlange ist lang. = Gaidīšanas rinda ir gara."
+          "example": "Die Warteschlange ist lang. = La fila de espera es larga."
         },
         {
           "word": "die Reihe",
           "meaning": "fila/secuencia",
-          "example": "Die Stühle stehen in einer Reihe. = Krēsli stāv rindā."
+          "example": "Die Stühle stehen in einer Reihe. = Las sillas están en una fila."
         },
         {
           "word": "das Reptil",
           "meaning": "reptil",
-          "example": "Eine Schlange ist ein Reptil. = Čūska ir rāpulis."
+          "example": "Eine Schlange ist ein Reptil. = Una serpiente es un reptil."
         }
       ],
       "tip": {
@@ -50832,15 +50822,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Bitte schließen Sie die Tür.",
-          "lv": "por favor cierra la puerta."
+          "lv": "Por favor, cierra la puerta."
         },
         {
           "de": "Das Geschäft schließt um acht.",
-          "lv": "la tienda cierra a las ocho."
+          "lv": "La tienda cierra a las ocho."
         },
         {
           "de": "Wir schließen einen Vertrag.",
-          "lv": "hacemos un contrato."
+          "lv": "Celebramos un contrato."
         },
         {
           "de": "Aus seinen Worten schließe ich, dass er müde ist.",
@@ -50864,7 +50854,7 @@ const A2_WORDS = [
         {
           "word": "abschließen",
           "meaning": "bloquear / completar",
-          "example": "Ich schließe die Tür ab. = Es aizslēdzu durvis."
+          "example": "Ich schließe die Tür ab. = Cierro la puerta con llave."
         },
         {
           "word": "zumachen",
@@ -50874,7 +50864,7 @@ const A2_WORDS = [
         {
           "word": "folgern",
           "meaning": "para concluir",
-          "example": "Daraus folgere ich etwas. = No tā es kaut ko secinu."
+          "example": "Daraus folgere ich etwas. = De ahí deduzco algo."
         }
       ],
       "tip": {
@@ -50883,12 +50873,12 @@ const A2_WORDS = [
             "text": "Puertas/ventanas + schließen significa cerrar."
           },
           {
-            "text": "Mit Schlüssel utiliza abschließen cuando se quiere enfatizar el cierre."
+            "text": "Con llave, se utiliza abschließen cuando se quiere enfatizar el cierre."
           }
         ]
       },
       "important": {
-        "text": "schließen un abschließen nav viens un tas pats.",
+        "text": "schließen y abschließen no significan exactamente lo mismo.",
         "example": "Tür schließen = cerrar la puerta. Tür abschließen = cerrar la puerta."
       },
       "sectionAccents": {
@@ -51201,7 +51191,7 @@ const A2_WORDS = [
     "de": "Schlips",
     "de_article": "der",
     "de_plural": "die Schlipse",
-    "lv": "atar",
+    "lv": "corbata",
     "level": "A2"
   },
   {
@@ -51215,7 +51205,7 @@ const A2_WORDS = [
     "de": "Schlittschuh",
     "de_article": "der",
     "de_plural": "die Schlittschuhe",
-    "lv": "patinar",
+    "lv": "patín de hielo",
     "level": "A2"
   },
   {
@@ -51240,7 +51230,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das Schloss an der Tür ist kaputt.",
-          "lv": "la cerradura de la puerta está rota."
+          "lv": "La cerradura de la puerta está rota."
         },
         {
           "de": "Ich brauche ein neues Fahrradschloss.",
@@ -51248,7 +51238,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Schlüssel passt nicht ins Schloss.",
-          "lv": "la llave no entra en la cerradura."
+          "lv": "La llave no entra en la cerradura."
         },
         {
           "de": "Im Schloss gibt es viele Zimmer.",
@@ -51263,23 +51253,23 @@ const A2_WORDS = [
         },
         {
           "word": "die Burg",
-          "meaning": "cietoksnis / pils",
-          "example": "Die Burg steht auf dem Berg. = Pils stāv kalnā."
+          "meaning": "fortaleza / palacio",
+          "example": "Die Burg steht auf dem Berg. = El castillo está en la montaña."
         },
         {
           "word": "das Türschloss",
           "meaning": "cerradura de puerta",
-          "example": "Das Türschloss ist kaputt. = Durvju slēdzene ir salūzusi."
+          "example": "Das Türschloss ist kaputt. = La cerradura de la puerta está rota."
         },
         {
           "word": "das Fahrradschloss",
           "meaning": "candado de bicicleta",
-          "example": "Ich kaufe ein Fahrradschloss. = Es pērku velosipēda slēdzeni."
+          "example": "Ich kaufe ein Fahrradschloss. = Compro un candado para bicicleta."
         },
         {
           "word": "der Schlüssel",
-          "meaning": "la clave",
-          "example": "Der Schlüssel ist weg. = Atslēga ir pazudusi."
+          "meaning": "la llave",
+          "example": "Der Schlüssel ist weg. = La llave se ha perdido."
         }
       ],
       "tip": {
@@ -51288,7 +51278,7 @@ const A2_WORDS = [
             "text": "En turismo, Schloss suele significar castillo."
           },
           {
-            "text": "Con puerta, llave o bicicleta, Schloss significa cerradura."
+            "text": "Con una puerta o una llave, Schloss significa cerradura; con una bicicleta, significa candado."
           }
         ]
       },
@@ -51513,7 +51503,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "la clave"
+                "la llave"
               ]
             },
             "example": {
@@ -51716,7 +51706,7 @@ const A2_WORDS = [
     "de": "Schnupfen",
     "de_article": "der",
     "de_plural": "die Schnupfen",
-    "lv": "rinorrea",
+    "lv": "resfriado",
     "level": "A2"
   },
   {
@@ -51773,7 +51763,7 @@ const A2_WORDS = [
     "de": "Schulbank",
     "de_article": "die",
     "de_plural": "die Schulbänke",
-    "lv": "banco de la escuela",
+    "lv": "pupitre",
     "level": "A2"
   },
   {
@@ -51790,7 +51780,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist nicht meine Schuld.",
-          "lv": "no es mi culpa."
+          "lv": "No es mi culpa."
         },
         {
           "de": "Wer hat Schuld?",
@@ -51802,42 +51792,42 @@ const A2_WORDS = [
         },
         {
           "de": "Sie trägt keine Schuld.",
-          "lv": "ella no tiene la culpa."
+          "lv": "Ella no tiene la culpa."
         },
         {
           "de": "Er hat viele Schulden.",
-          "lv": "tiene muchas deudas."
+          "lv": "Tiene muchas deudas."
         },
         {
           "de": "Die Schuld liegt nicht bei dir.",
-          "lv": "no es tu culpa."
+          "lv": "No es tu culpa."
         }
       ],
       "comparison": [
         {
           "word": "die Schuld",
           "meaning": "culpa / responsabilidad",
-          "example": "Das ist meine Schuld. = Tā ir mana vaina."
+          "example": "Das ist meine Schuld. = Es mi culpa."
         },
         {
           "word": "die Schulden",
           "meaning": "deuda",
-          "example": "Er hat Schulden. = Viņam ir parādi."
+          "example": "Er hat Schulden. = Tiene deudas."
         },
         {
           "word": "die Verantwortung",
           "meaning": "responsabilidad",
-          "example": "Ich trage Verantwortung. = Es nesu atbildību."
+          "example": "Ich trage Verantwortung. = Asumo la responsabilidad."
         },
         {
           "word": "der Fehler",
           "meaning": "error",
-          "example": "Das war ein Fehler. = Tā bija kļūda."
+          "example": "Das war ein Fehler. = Fue un error."
         },
         {
           "word": "schuld sein",
           "meaning": "ser culpable",
-          "example": "Ich bin schuld. = Es esmu vainīgs."
+          "example": "Ich bin schuld. = Tengo la culpa."
         }
       ],
       "tip": {
@@ -51851,7 +51841,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Schuld un Schulden nav viens un tas pats.",
+        "text": "Schuld y Schulden no significan lo mismo.",
         "example": "Ich habe Schuld = soy culpable. Ich habe Schulden = tengo deudas."
       },
       "sectionAccents": {
@@ -52216,7 +52206,7 @@ const A2_WORDS = [
   },
   {
     "de": "schwanger",
-    "lv": "una mujer embarazada",
+    "lv": "embarazada",
     "level": "A2"
   },
   {
@@ -52253,7 +52243,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Koffer ist sehr schwer.",
-          "lv": "la maleta es muy pesada."
+          "lv": "La maleta es muy pesada."
         },
         {
           "de": "Die Prüfung war schwer.",
@@ -52261,15 +52251,15 @@ const A2_WORDS = [
         },
         {
           "de": "Das Buch ist schwer zu tragen.",
-          "lv": "el libro es difícil (pesado) de llevar."
+          "lv": "Es difícil llevar el libro."
         },
         {
           "de": "Das ist eine schwere Frage.",
-          "lv": "es una pregunta difícil."
+          "lv": "Es una pregunta difícil."
         },
         {
           "de": "Wie schwer bist du?",
-          "lv": "cik tu svari?"
+          "lv": "¿Cuánto pesas?"
         },
         {
           "de": "Er hatte eine schwere Kindheit.",
@@ -52407,7 +52397,7 @@ const A2_WORDS = [
   },
   {
     "de": "schwitzen",
-    "lv": "transpiración",
+    "lv": "sudar",
     "level": "A2"
   },
   {
@@ -52449,7 +52439,7 @@ const A2_WORDS = [
   },
   {
     "de": "selten",
-    "lv": "extraño",
+    "lv": "poco frecuente",
     "level": "A2"
   },
   {
@@ -52480,7 +52470,7 @@ const A2_WORDS = [
   },
   {
     "de": "servieren",
-    "lv": "servir • servir",
+    "lv": "servir",
     "level": "A2"
   },
   {
@@ -52512,12 +52502,12 @@ const A2_WORDS = [
   },
   {
     "de": "sich auf den Weg machen",
-    "lv": "ir de viaje",
+    "lv": "ponerse en camino",
     "level": "A2"
   },
   {
     "de": "sich ausziehen",
-    "lv": "desnudo",
+    "lv": "desvestirse",
     "level": "A2"
   },
   {
@@ -52527,7 +52517,7 @@ const A2_WORDS = [
   },
   {
     "de": "sich beeilen",
-    "lv": "apresúrate",
+    "lv": "apresurarse",
     "level": "A2"
   },
   {
@@ -52542,54 +52532,54 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Hotel befindet sich im Zentrum.",
-          "lv": "el hotel está situado en el centro."
+          "lv": "El hotel está situado en el centro."
         },
         {
           "de": "Die Toilette befindet sich im ersten Stock.",
-          "lv": "el baño está en el primer piso."
+          "lv": "El baño está en el primer piso."
         },
         {
           "de": "Der Eingang befindet sich links.",
-          "lv": "ieeja atrodas pa kreisi."
+          "lv": "La entrada está a la izquierda."
         },
         {
           "de": "Die Schule befindet sich neben dem Park.",
-          "lv": "skola atrodas blakus parkam."
+          "lv": "La escuela está junto al parque."
         },
         {
           "de": "Ich fühle mich heute gut.",
-          "lv": "me siento bien hoy"
+          "lv": "La ciudad se encuentra aquí."
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "el libro está sobre la mesa."
+          "lv": "El libro está sobre la mesa."
         }
       ],
       "comparison": [
         {
           "word": "sich befinden",
           "meaning": "estar ubicado",
-          "example": "Das Büro befindet sich im zweiten Stock. = Birojs atrodas otrajā stāvā."
+          "example": "Das Büro befindet sich im zweiten Stock. = La oficina está en la segunda planta."
         },
         {
           "word": "sein",
-          "meaning": "ser / ser",
-          "example": "Das Büro ist oben. = Birojs ir augšā."
+          "meaning": "ser / estar",
+          "example": "Das Büro ist oben. = La oficina está arriba."
         },
         {
           "word": "liegen",
           "meaning": "estar / dormir",
-          "example": "Das Buch liegt auf dem Tisch. = Grāmata atrodas uz galda."
+          "example": "Das Buch liegt auf dem Tisch. = El libro está sobre la mesa."
         },
         {
           "word": "stehen",
           "meaning": "estar de pie / estar",
-          "example": "Das Auto steht vor dem Haus. = Auto stāv pie mājas."
+          "example": "Das Auto steht vor dem Haus. = El coche está delante de la casa."
         },
         {
           "word": "sich fühlen",
           "meaning": "sentir",
-          "example": "Ich fühle mich gut. = Es jūtos labi."
+          "example": "Ich fühle mich gut. = Me siento bien."
         }
       ],
       "tip": {
@@ -52891,12 +52881,12 @@ const A2_WORDS = [
   },
   {
     "de": "sich frisieren",
-    "lv": "hacer el pelo",
+    "lv": "peinarse",
     "level": "A2"
   },
   {
     "de": "sich fühlen",
-    "lv": "sentir",
+    "lv": "sentirse",
     "level": "A2"
   },
   {
@@ -52926,7 +52916,7 @@ const A2_WORDS = [
   },
   {
     "de": "sich üben",
-    "lv": "hacer ejercicio",
+    "lv": "practicar",
     "level": "A2"
   },
   {
@@ -52946,11 +52936,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Wir unterhalten uns über die Arbeit.",
-          "lv": "hablamos de trabajo."
+          "lv": "Hablamos de trabajo."
         },
         {
           "de": "Sie unterhalten sich auf Deutsch.",
-          "lv": "ellos hablan alemán."
+          "lv": "Ellos hablan alemán."
         },
         {
           "de": "Ich habe mich gut unterhalten.",
@@ -52962,33 +52952,33 @@ const A2_WORDS = [
         },
         {
           "de": "Worüber unterhaltet ihr euch?",
-          "lv": "¿de qué estás hablando?"
+          "lv": "¿De qué estás hablando?"
         },
         {
           "de": "Der Film hat uns gut unterhalten.",
-          "lv": "La película nos entretuvo bien."
+          "lv": "La película nos entretuvo mucho."
         }
       ],
       "comparison": [
         {
           "word": "sich unterhalten",
           "meaning": "hablar/divertirse",
-          "example": "Wir unterhalten uns. = Mēs sarunājamies."
+          "example": "Wir unterhalten uns. = Hablamos."
         },
         {
           "word": "sprechen",
           "meaning": "hablar",
-          "example": "Ich spreche Deutsch. = Es runāju vāciski."
+          "example": "Ich spreche Deutsch. = Hablo alemán."
         },
         {
           "word": "reden",
           "meaning": "hablar / hablar",
-          "example": "Wir reden viel. = Mēs daudz runājam."
+          "example": "Wir reden viel. = Hablamos mucho."
         },
         {
           "word": "sich amüsieren",
           "meaning": "divertirse",
-          "example": "Wir amüsieren uns. = Mēs izklaidējamies."
+          "example": "Wir amüsieren uns. = Nos divertimos."
         }
       ],
       "tip": {
@@ -53274,12 +53264,12 @@ const A2_WORDS = [
   },
   {
     "de": "sich verabreden",
-    "lv": "pedir hora",
+    "lv": "quedar",
     "level": "A2"
   },
   {
     "de": "sich verabschieden",
-    "lv": "decir adios",
+    "lv": "decir adiós",
     "level": "A2"
   },
   {
@@ -53299,7 +53289,7 @@ const A2_WORDS = [
   },
   {
     "de": "sich vorbereiten",
-    "lv": "preparar",
+    "lv": "prepararse",
     "level": "A2"
   },
   {
@@ -53359,12 +53349,12 @@ const A2_WORDS = [
   },
   {
     "de": "sitzen",
-    "lv": "sentarse",
+    "lv": "estar sentado",
     "level": "A2",
     "study": {
       "id": "a2-sitzen",
       "layout": "standardStudy",
-      "translation": "sentarse",
+      "translation": "estar sentado",
       "explanation": [
         "Idea principal: Situación: Alguien ya está sentado.",
         "sitzen significa básicamente: estado.",
@@ -53382,7 +53372,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Kinder sitzen im Wohnzimmer.",
-          "lv": "los niños están sentados en la sala de estar."
+          "lv": "Los niños están sentados en la sala de estar."
         },
         {
           "de": "Ich sitze am Tisch.",
@@ -53396,12 +53386,12 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "sitzen",
-          "meaning": "sentarse (posición)",
+          "meaning": "estar sentado (posición)",
           "example": "Das Kind sitzt hier. – El niño está sentado aquí."
         },
         {
           "word": "setzen",
-          "meaning": "asiento (acción)",
+          "meaning": "sentarse (acción)",
           "example": "Ich setze das Kind hin. – Siento al niño."
         },
         {
@@ -53508,12 +53498,12 @@ const A2_WORDS = [
   },
   {
     "de": "setzen",
-    "lv": "sentarse • hacer sentarse",
+    "lv": "sentar • colocar",
     "level": "A2",
     "study": {
       "id": "a2-setzen",
       "layout": "standardStudy",
-      "translation": "sentarse • hacer sentarse",
+      "translation": "sentar • colocar",
       "explanation": [
         "Idea principal: Acción: alguien se sienta o hace que alguien se siente.",
         "setzen significa principalmente: acción.",
@@ -53530,12 +53520,12 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "setzen",
-          "meaning": "asiento (acción)",
+          "meaning": "sentar (acción)",
           "example": "Ich setze das Kind hin. – Siento al niño."
         },
         {
           "word": "sitzen",
-          "meaning": "sentarse (posición)",
+          "meaning": "estar sentado (posición)",
           "example": "Das Kind sitzt hier. – El niño está sentado aquí."
         },
         {
@@ -53545,7 +53535,7 @@ const A2_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "acostarse (posición)",
+          "meaning": "estar acostado (posición)",
           "example": "Das Buch liegt hier. – El libro está aquí."
         },
         {
@@ -53617,7 +53607,7 @@ const A2_WORDS = [
   },
   {
     "de": "so viel",
-    "lv": "tanto • como",
+    "lv": "tanto",
     "level": "A2"
   },
   {
@@ -53627,7 +53617,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-sobald",
       "layout": "standardStudy",
-      "translation": "tan pronto como • tan pronto como",
+      "translation": "tan pronto como",
       "explanation": "tan pronto como o tan pronto como. Introduce una cláusula auxiliar y en alemán el verbo en esta cláusula auxiliar suele ir al final. tan pronto como muestra que una acción ocurre inmediatamente después de otra. No es lo mismo que wenn, porque wenn puede significar 'cuando' o 'si'. El español a menudo suena naturalmente como \"tan pronto como\".",
       "examples": [
         {
@@ -53648,7 +53638,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sobald du da bist, beginnen wir.",
-          "lv": "Tan pronto como estés allí comenzaremos."
+          "lv": "Tan pronto como estés allí, comenzaremos."
         },
         {
           "de": "Sie schreibt mir, sobald sie zu Hause ist.",
@@ -53659,33 +53649,33 @@ const A2_WORDS = [
         {
           "word": "sobald",
           "meaning": "tan pronto como",
-          "example": "Sobald er kommt, gehen wir. = Tiklīdz viņš atnāks, mēs iesim."
+          "example": "Sobald er kommt, gehen wir. = Tan pronto como venga, nos vamos."
         },
         {
           "word": "wenn",
-          "meaning": "kad / ja",
-          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
+          "meaning": "cuando / si",
+          "example": "Wenn ich Zeit habe, komme ich. = Cuando tenga tiempo, iré."
         },
         {
           "word": "als",
           "meaning": "cuando (una vez en el pasado)",
-          "example": "Als ich Kind war, spielte ich viel. = Kad biju bērns, daudz spēlējos."
+          "example": "Als ich Kind war, spielte ich viel. = Cuando era niño, jugaba mucho."
         },
         {
           "word": "bis",
           "meaning": "hasta",
-          "example": "Ich warte, bis du kommst. = Es gaidu, līdz tu atnāksi."
+          "example": "Ich warte, bis du kommst. = Espero hasta que vengas."
         },
         {
           "word": "nachdem",
-          "meaning": "después cuando",
-          "example": "Nachdem ich gegessen habe, gehe ich. = Pēc tam kad paēdu, es eju."
+          "meaning": "después de que",
+          "example": "Nachdem ich gegessen habe, gehe ich. = Después de comer, me voy."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "El verbo alemán suele aparecer al final de la cláusula auxiliar después de souft: souft er kommt."
+            "text": "El verbo alemán suele aparecer al final de la cláusula subordinada después de «sobald»: «sobald er kommt»."
           },
           {
             "text": "tan pronto como significa que la siguiente acción comienza inmediatamente después de que se cumpla la condición."
@@ -53693,7 +53683,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "soundt afecta la estructura de la oración alemana.",
+        "text": "sobald afecta a la estructura de la oración alemana.",
         "example": "Somant ich Zeit habe, rufe ich dich an. La palabra habe está al final de la cláusula auxiliar. tan pronto como / tan pronto como."
       },
       "sectionAccents": {
@@ -54068,7 +54058,7 @@ const A2_WORDS = [
   },
   {
     "de": "sondern",
-    "lv": "pero",
+    "lv": "sino",
     "level": "A2"
   },
   {
@@ -54120,42 +54110,42 @@ const A2_WORDS = [
         },
         {
           "de": "Sonst geht es mir gut.",
-          "lv": "por lo demás estoy bien."
+          "lv": "Por lo demás, estoy bien."
         },
         {
           "de": "Hast du sonst noch Fragen?",
-          "lv": "¿todavía tienes alguna pregunta?"
+          "lv": "¿Todavía tienes alguna pregunta?"
         },
         {
           "de": "Ich trinke sonst keinen Kaffee.",
-          "lv": "parasti es nedzeru kafiju."
+          "lv": "Normalmente no bebo café."
         }
       ],
       "comparison": [
         {
           "word": "sonst",
-          "meaning": "de otra manera / de otra manera / generalmente",
-          "example": "Komm jetzt, sonst ist es zu spät. = Nāc tagad, citādi būs par vēlu."
+          "meaning": "de otra manera / generalmente",
+          "example": "Komm jetzt, sonst ist es zu spät. = Ven ahora, si no, será demasiado tarde."
         },
         {
           "word": "ansonsten",
           "meaning": "de lo contrario / de otra manera",
-          "example": "Ansonsten ist alles gut. = Citādi viss ir labi."
+          "example": "Ansonsten ist alles gut. = Por lo demás, todo está bien."
         },
         {
           "word": "andernfalls",
           "meaning": "de lo contrario",
-          "example": "Andernfalls rufe ich an. = Pretējā gadījumā es zvanīšu."
+          "example": "Andernfalls rufe ich an. = En caso contrario, llamaré."
         },
         {
           "word": "normalerweise",
           "meaning": "generalmente",
-          "example": "Normalerweise bin ich zu Hause. = Parasti es esmu mājās."
+          "example": "Normalerweise bin ich zu Hause. = Normalmente estoy en casa."
         },
         {
           "word": "außerdem",
-          "meaning": "además / además",
-          "example": "Außerdem ist es teuer. = Turklāt tas ir dārgi."
+          "meaning": "además",
+          "example": "Außerdem ist es teuer. = Además, es caro."
         }
       ],
       "tip": {
@@ -54503,12 +54493,12 @@ const A2_WORDS = [
   },
   {
     "de": "sorgen",
-    "lv": "cuidarse",
+    "lv": "preocuparse",
     "level": "A2"
   },
   {
     "de": "sortieren",
-    "lv": "clasificación",
+    "lv": "clasificar",
     "level": "A2"
   },
   {
@@ -54532,12 +54522,12 @@ const A2_WORDS = [
   },
   {
     "de": "spannend",
-    "lv": "inquietante",
+    "lv": "emocionante",
     "level": "A2"
   },
   {
     "de": "sparen",
-    "lv": "guardar",
+    "lv": "ahorrar",
     "level": "A2"
   },
   {
@@ -54551,7 +54541,7 @@ const A2_WORDS = [
     "de": "Spaß",
     "de_article": "der",
     "de_plural": "die Späße",
-    "lv": "broma • diversión",
+    "lv": "diversión",
     "level": "A2"
   },
   {
@@ -54564,7 +54554,7 @@ const A2_WORDS = [
   {
     "de": "Speck",
     "de_article": "der",
-    "lv": "manteca de cerdo",
+    "lv": "tocino",
     "level": "A2"
   },
   {
@@ -54625,7 +54615,7 @@ const A2_WORDS = [
   {
     "de": "Sport",
     "de_article": "der",
-    "lv": "deportes",
+    "lv": "deporte",
     "level": "A2"
   },
   {
@@ -54656,7 +54646,7 @@ const A2_WORDS = [
     "de": "Staat",
     "de_article": "der",
     "de_plural": "die Staaten",
-    "lv": "país",
+    "lv": "estado",
     "level": "A2"
   },
   {
@@ -54670,12 +54660,12 @@ const A2_WORDS = [
     "de": "Start",
     "de_article": "der",
     "de_plural": "die Starts",
-    "lv": "comenzar",
+    "lv": "comienzo",
     "level": "A2"
   },
   {
     "de": "starten",
-    "lv": "para empezar",
+    "lv": "empezar",
     "level": "A2"
   },
   {
@@ -54717,14 +54707,14 @@ const A2_WORDS = [
   },
   {
     "de": "staunen",
-    "lv": "preguntarse",
+    "lv": "asombrarse",
     "level": "A2"
   },
   {
     "de": "Stecker",
     "de_article": "der",
     "de_plural": "die Stecker",
-    "lv": "enchufar",
+    "lv": "enchufe",
     "level": "A2"
   },
   {
@@ -54748,11 +54738,11 @@ const A2_WORDS = [
         },
         {
           "de": "Die Flasche steht auf dem Tisch.",
-          "lv": "la botella está sobre la mesa."
+          "lv": "La botella está sobre la mesa."
         },
         {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "el coche está aparcado delante de la casa."
+          "lv": "El coche está aparcado delante de la casa."
         }
       ],
       "comparison": [
@@ -54768,7 +54758,7 @@ const A2_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "acostarse (posición)",
+          "meaning": "estar acostado (posición)",
           "example": "Das Buch liegt hier. – El libro está aquí."
         },
         {
@@ -54778,12 +54768,12 @@ const A2_WORDS = [
         },
         {
           "word": "sitzen",
-          "meaning": "sentarse (posición)",
+          "meaning": "estar sentado (posición)",
           "example": "Das Kind sitzt hier. – El niño está sentado aquí."
         },
         {
           "word": "setzen",
-          "meaning": "asiento (acción)",
+          "meaning": "sentarse (acción)",
           "example": "Ich setze das Kind hin. – Siento al niño."
         }
       ],
@@ -54867,11 +54857,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich stelle die Flasche auf den Tisch.",
-          "lv": "Es nolieku pudeli uz galda."
+          "lv": "Pongo la botella sobre la mesa."
         },
         {
           "de": "Darf ich eine Frage stellen?",
-          "lv": "¿puedo hacer una pregunta?"
+          "lv": "¿Puedo hacer una pregunta?"
         },
         {
           "de": "Ich stelle die Flasche hin.",
@@ -54896,17 +54886,17 @@ const A2_WORDS = [
         },
         {
           "word": "liegen",
-          "meaning": "acostarse (posición)",
+          "meaning": "estar acostado (posición)",
           "example": "Das Buch liegt hier. – El libro está aquí."
         },
         {
           "word": "setzen",
-          "meaning": "asiento (acción)",
+          "meaning": "sentarse (acción)",
           "example": "Ich setze das Kind hin. – Siento al niño."
         },
         {
           "word": "sitzen",
-          "meaning": "sentarse (posición)",
+          "meaning": "estar sentado (posición)",
           "example": "Das Kind sitzt hier. – El niño está sentado aquí."
         }
       ],
@@ -54989,29 +54979,29 @@ const A2_WORDS = [
   },
   {
     "de": "steigen",
-    "lv": "subir • levantarse",
+    "lv": "subir • ascender",
     "level": "A2",
     "study": {
       "id": "a2-steigen",
       "layout": "standardStudy",
-      "translation": "subir • levantarse",
+      "translation": "subir • ascender",
       "explanation": "Idea principal: steigen significa escalar o levantarse. Se utiliza cuando una persona sube escaleras, una montaña o está en transporte. Con precios, números, temperatura o nivel del agua, steigen significa subir o subir. No es lo mismo que einsteigen, aussteigen o aufstehen.",
       "examples": [
         {
           "de": "Wir steigen die Treppe hinauf.",
-          "lv": "subimos las escaleras."
+          "lv": "Subimos las escaleras."
         },
         {
           "de": "Die Preise steigen.",
-          "lv": "los precios están subiendo."
+          "lv": "Los precios están subiendo."
         },
         {
           "de": "Die Temperatur steigt langsam.",
-          "lv": "la temperatura aumenta lentamente."
+          "lv": "La temperatura aumenta lentamente."
         },
         {
           "de": "Das Wasser steigt.",
-          "lv": "el nivel del agua sube."
+          "lv": "El nivel del agua sube."
         },
         {
           "de": "Ich steige in den Bus ein.",
@@ -55019,34 +55009,34 @@ const A2_WORDS = [
         },
         {
           "de": "An der nächsten Haltestelle steige ich aus.",
-          "lv": "Me bajaré en la siguiente parada."
+          "lv": "Subiré en la siguiente parada."
         }
       ],
       "comparison": [
         {
           "word": "steigen",
           "meaning": "subir / subir / subir",
-          "example": "Die Preise steigen. = Cenas ceļas."
+          "example": "Die Preise steigen. = Los precios suben."
         },
         {
           "word": "einsteigen",
           "meaning": "entrar en el transporte",
-          "example": "Ich steige in den Bus ein. = Es iekāpju autobusā."
+          "example": "Ich steige in den Bus ein. = Subo al autobús."
         },
         {
           "word": "aussteigen",
           "meaning": "bajarse del transporte",
-          "example": "Ich steige aus. = Es izkāpju."
+          "example": "Ich steige aus. = Me bajo."
         },
         {
           "word": "aufstehen",
           "meaning": "ponerse de pie",
-          "example": "Ich stehe um sieben auf. = Es pieceļos septiņos."
+          "example": "Ich stehe um sieben auf. = Me levanto a las siete."
         },
         {
           "word": "klettern",
           "meaning": "escalar / escalar con esfuerzo",
-          "example": "Das Kind klettert auf den Baum. = Bērns rāpjas kokā."
+          "example": "Das Kind klettert auf den Baum. = El niño trepa al árbol."
         }
       ],
       "tip": {
@@ -55060,7 +55050,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "steigen nav tas pats, kas aufstehen.",
+        "text": "steigen no es lo mismo que aufstehen.",
         "example": "Die Preise steigen = los precios están subiendo. Ich stehe auf = me levanto. Ich steige ein = entro."
       },
       "sectionAccents": {
@@ -55381,26 +55371,26 @@ const A2_WORDS = [
         },
         {
           "de": "Die Stelle ist gut bezahlt.",
-          "lv": "el trabajo esta bien remunerado."
+          "lv": "El trabajo está bien remunerado."
         },
         {
           "de": "Lies diese Stelle im Text noch einmal.",
-          "lv": "Lea este lugar en el texto nuevamente."
+          "lv": "Vuelva a leer este pasaje en el texto."
         },
         {
           "de": "An dieser Stelle tut es weh.",
-          "lv": "duele en este lugar."
+          "lv": "Me duele en este punto."
         },
         {
           "de": "Die offene Stelle ist im Internet ausgeschrieben.",
-          "lv": "la vacante se anuncia en Internet."
+          "lv": "La vacante se anuncia en Internet."
         }
       ],
       "comparison": [
         {
           "word": "die Stelle",
-          "meaning": "vieta / darba vieta / fragments",
-          "example": "Ich suche eine Stelle. = Es meklēju darba vietu."
+          "meaning": "lugar / puesto de trabajo / pasaje",
+          "example": "Ich suche eine Stelle. = Busco un puesto de trabajo."
         },
         {
           "word": "der Ort",
@@ -55409,18 +55399,18 @@ const A2_WORDS = [
         },
         {
           "word": "der Arbeitsplatz",
-          "meaning": "darba vieta",
+          "meaning": "puesto de trabajo",
           "example": "Mein Arbeitsplatz ist ruhig. = Mana darba vieta ir klusa."
         },
         {
           "word": "die Textstelle",
-          "meaning": "teksta vieta / fragments",
-          "example": "Diese Textstelle ist wichtig. = Šis teksta fragments ir svarīgs."
+          "meaning": "pasaje del texto / fragmento",
+          "example": "Diese Textstelle ist wichtig. = Este fragmento de texto es importante."
         },
         {
           "word": "die Wunde",
           "meaning": "una herida",
-          "example": "Die Wunde tut weh. = Brūce sāp."
+          "example": "Die Wunde tut weh. = La herida duele."
         }
       ],
       "tip": {
@@ -55784,7 +55774,7 @@ const A2_WORDS = [
     "de": "Stempel",
     "de_article": "der",
     "de_plural": "die Stempel",
-    "lv": "estampilla",
+    "lv": "sello",
     "level": "A2"
   },
   {
@@ -55794,7 +55784,7 @@ const A2_WORDS = [
   },
   {
     "de": "steuern",
-    "lv": "liderar",
+    "lv": "conducir",
     "level": "A2"
   },
   {
@@ -55813,7 +55803,7 @@ const A2_WORDS = [
   },
   {
     "de": "still",
-    "lv": "tranquilo • calma",
+    "lv": "tranquilo • silencioso",
     "level": "A2"
   },
   {
@@ -55830,28 +55820,28 @@ const A2_WORDS = [
     "study": {
       "id": "a2-stimmen",
       "layout": "standardStudy",
-      "translation": "estar de acuerdo • tener razón • votar",
+      "translation": "estar de acuerdo • tener razón • votar • afinar",
       "explanation": "Idea principal: stimmen significa que algo está de acuerdo o está bien; en otro contexto significa votar. \"Das stimmt\" = \"Es\" o \"Está bien\" es muy común en la vida cotidiana. En política o en un grupo, stimmen significa votar. Con un instrumento, stimmen significa afinar.",
       "examples": [
         {
           "de": "Das stimmt.",
-          "lv": "es verdad."
+          "lv": "Es verdad."
         },
         {
           "de": "Deine Antwort stimmt.",
-          "lv": "tava atbilde ir pareiza."
+          "lv": "Tu respuesta es correcta."
         },
         {
           "de": "Die Zahlen stimmen nicht.",
-          "lv": "los números no cuadran."
+          "lv": "Los números no cuadran."
         },
         {
           "de": "Wir stimmen über den Plan ab.",
-          "lv": "votamos por el plan."
+          "lv": "Votamos por el plan."
         },
         {
           "de": "Der Musiker stimmt die Gitarre.",
-          "lv": "el músico afina la guitarra."
+          "lv": "El músico afina la guitarra."
         },
         {
           "de": "Ich stimme dir zu.",
@@ -55862,33 +55852,33 @@ const A2_WORDS = [
         {
           "word": "stimmen",
           "meaning": "estar de acuerdo / tener razón / votar",
-          "example": "Das stimmt. = Tā ir / tas ir pareizi."
+          "example": "Das stimmt. = Eso es correcto."
         },
         {
           "word": "zustimmen",
           "meaning": "estar de acuerdo",
-          "example": "Ich stimme dir zu. = Es tev piekrītu."
+          "example": "Ich stimme dir zu. = Estoy de acuerdo contigo."
         },
         {
           "word": "abstimmen",
           "meaning": "votar / estar de acuerdo",
-          "example": "Wir stimmen darüber ab. = Mēs par to balsojam."
+          "example": "Wir stimmen darüber ab. = Votamos sobre eso."
         },
         {
           "word": "wählen",
           "meaning": "elegir / elegir",
-          "example": "Wir wählen den Präsidenten. = Mēs vēlējam prezidentu."
+          "example": "Wir wählen den Präsidenten. = Elegimos al presidente."
         },
         {
           "word": "passen",
           "meaning": "encajar / encajar",
-          "example": "Die Farbe passt. = Krāsa piestāv."
+          "example": "Die Farbe passt. = El color queda bien."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "La frase Das stimmt significa \"Es\" o \"Está bien\"."
+            "text": "La frase «Das stimmt» significa «Es correcto» o «Está bien»."
           },
           {
             "text": "Cuando se trata de una opinión, se suele utilizar zustimmen: Ich stimme dir zu."
@@ -56190,7 +56180,7 @@ const A2_WORDS = [
   },
   {
     "de": "stinken",
-    "lv": "oler",
+    "lv": "apestar",
     "level": "A2"
   },
   {
@@ -56221,11 +56211,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Stoff ist weich.",
-          "lv": "la tela es suave."
+          "lv": "La tela es suave."
         },
         {
           "de": "Ich brauche Stoff für ein Kleid.",
-          "lv": "man vajag audumu kleitai."
+          "lv": "Necesito tela para el vestido."
         },
         {
           "de": "Baumwolle ist ein natürlicher Stoff.",
@@ -56233,7 +56223,7 @@ const A2_WORDS = [
         },
         {
           "de": "Dieser Stoff ist giftig.",
-          "lv": "esta sustancia es venenosa."
+          "lv": "Esta sustancia es venenosa."
         },
         {
           "de": "Der Stoff für die Prüfung ist schwer.",
@@ -56248,26 +56238,26 @@ const A2_WORDS = [
         {
           "word": "der Stoff",
           "meaning": "tela / sustancia / material",
-          "example": "Der Stoff ist weich. = Audums ir mīksts."
+          "example": "Der Stoff ist weich. – La tela es suave."
         },
         {
           "word": "das Material",
           "meaning": "material",
-          "example": "Das Material ist stabil. = Materiāls ir izturīgs."
+          "example": "Das Material ist stabil. – El material es resistente."
         },
         {
           "word": "die Substanz",
-          "meaning": "viela / substance",
-          "example": "Die Substanz ist gefährlich. = Viela ir bīstama."
+          "meaning": "sustancia",
+          "example": "Die Substanz ist gefährlich. – La sustancia es peligrosa."
         },
         {
           "word": "der Unterrichtsstoff",
           "meaning": "material de estudio",
-          "example": "Der Unterrichtsstoff ist schwer. = Mācību viela ir grūta."
+          "example": "Der Unterrichtsstoff ist schwer. – El material de estudio es difícil."
         },
         {
           "word": "das Thema",
-          "meaning": "sujeto",
+          "meaning": "tema",
           "example": "Das Thema ist interessant. = Temats ir interesants."
         }
       ],
@@ -56282,7 +56272,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "der Stoff nav tikai audums.",
+        "text": "Stoff no significa solo tela.",
         "example": "Stoff für ein Kleid = tela para un vestido. ein poissenger Stoff = sustancia venenosa. Unterrichtsstoff = material didáctico."
       },
       "sectionAccents": {
@@ -56615,7 +56605,7 @@ const A2_WORDS = [
   {
     "de": "Straßenverkehr",
     "de_article": "der",
-    "lv": "tráfico en la calle",
+    "lv": "tráfico",
     "level": "A2"
   },
   {
@@ -56627,21 +56617,21 @@ const A2_WORDS = [
   },
   {
     "de": "streicheln",
-    "lv": "caricia",
+    "lv": "acariciar",
     "level": "A2"
   },
   {
     "de": "Streichholz",
     "de_article": "das",
     "de_plural": "die Streichhölzer",
-    "lv": "un partido",
+    "lv": "una cerilla",
     "level": "A2"
   },
   {
     "de": "Streit",
     "de_article": "der",
     "de_plural": "die Streite",
-    "lv": "disputar",
+    "lv": "discusión",
     "level": "A2"
   },
   {
@@ -56704,7 +56694,7 @@ const A2_WORDS = [
     "de": "Tabelle",
     "de_article": "die",
     "de_plural": "die Tabellen",
-    "lv": "mesa",
+    "lv": "tabla",
     "level": "A2"
   },
   {
@@ -56735,11 +56725,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Lehrer schreibt an die Tafel.",
-          "lv": "el maestro escribe en la pizarra."
+          "lv": "El maestro escribe en la pizarra."
         },
         {
           "de": "Bitte wisch die Tafel ab.",
-          "lv": "por favor limpie el tablero."
+          "lv": "Por favor, limpia la pizarra."
         },
         {
           "de": "Ich kaufe eine Tafel Schokolade.",
@@ -56747,48 +56737,48 @@ const A2_WORDS = [
         },
         {
           "de": "An der Wand hängt eine Informationstafel.",
-          "lv": "una placa informativa cuelga de la pared."
+          "lv": "Una placa informativa cuelga de la pared."
         },
         {
           "de": "Die Tabelle steht im Buch.",
-          "lv": "la tabla está en el libro."
+          "lv": "La tabla está en el libro."
         },
         {
           "de": "Die Speisekarte liegt auf dem Tisch.",
-          "lv": "el menú está sobre la mesa."
+          "lv": "El menú está sobre la mesa."
         }
       ],
       "comparison": [
         {
           "word": "die Tafel",
           "meaning": "pizarra / plato / pizarra",
-          "example": "Der Lehrer schreibt an die Tafel. = Skolotājs raksta uz tāfeles."
+          "example": "Der Lehrer schreibt an die Tafel. – El profesor escribe en la pizarra."
         },
         {
           "word": "die Tabelle",
-          "meaning": "tabula ar datiem",
-          "example": "Die Tabelle steht im Buch. = Tabula ir grāmatā."
+          "meaning": "tabla de datos",
+          "example": "Die Tabelle steht im Buch. – La tabla está en el libro."
         },
         {
           "word": "die Speisekarte",
           "meaning": "menú",
-          "example": "Die Speisekarte liegt auf dem Tisch. = Ēdienkarte ir uz galda."
+          "example": "Die Speisekarte liegt auf dem Tisch. – El menú está sobre la mesa."
         },
         {
           "word": "das Schild",
           "meaning": "letrero / placa",
-          "example": "Das Schild ist rot. = Zīme ir sarkana."
+          "example": "Das Schild ist rot. – El cartel es rojo."
         },
         {
           "word": "die Tafel Schokolade",
           "meaning": "barra de chocolate",
-          "example": "Eine Tafel Schokolade = šokolādes tāfelīte."
+          "example": "Eine Tafel Schokolade – Una tableta de chocolate."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "En la escuela, el die Tafel es casi siempre una pizarra."
+            "text": "En la escuela, la palabra alemana «die Tafel» casi siempre significa «pizarra»."
           },
           {
             "text": "Die Tabelle se utiliza para la tabla de datos y die Speisekarte se utiliza para el menú."
@@ -56824,7 +56814,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "por"
+                "Por"
               ]
             }
           },
@@ -57101,7 +57091,7 @@ const A2_WORDS = [
     "de": "Tankstelle",
     "de_article": "die",
     "de_plural": "die Tankstellen",
-    "lv": "tanque de gas",
+    "lv": "gasolinera",
     "level": "A2"
   },
   {
@@ -57115,14 +57105,14 @@ const A2_WORDS = [
     "de": "Tannenbaum",
     "de_article": "der",
     "de_plural": "die Tannenbäume",
-    "lv": "árbol de navidad • árbol de navidad",
+    "lv": "árbol de Navidad • árbol de Navidad",
     "level": "A2"
   },
   {
     "de": "Tanz",
     "de_article": "der",
     "de_plural": "die Tänze",
-    "lv": "bailar",
+    "lv": "baile",
     "level": "A2"
   },
   {
@@ -57155,7 +57145,7 @@ const A2_WORDS = [
     "de": "Taxistand",
     "de_article": "der",
     "de_plural": "die Taxistände",
-    "lv": "sitio de taxis",
+    "lv": "parada de taxis",
     "level": "A2"
   },
   {
@@ -57176,7 +57166,7 @@ const A2_WORDS = [
     "de": "Teekanne",
     "de_article": "die",
     "de_plural": "die Teekannen",
-    "lv": "pava",
+    "lv": "tetera",
     "level": "A2"
   },
   {
@@ -57193,15 +57183,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist nur ein Teil der Geschichte.",
-          "lv": "es sólo una parte de la historia."
+          "lv": "Es solo una parte de la historia."
         },
         {
           "de": "Ein Teil vom Auto ist kaputt.",
-          "lv": "una pieza del auto está rota."
+          "lv": "Una pieza del auto está rota."
         },
         {
           "de": "Ich brauche ein Ersatzteil.",
-          "lv": "necesito un repuesto."
+          "lv": "Necesito un repuesto."
         },
         {
           "de": "Dieses Teil gehört zur Maschine.",
@@ -57209,38 +57199,38 @@ const A2_WORDS = [
         },
         {
           "de": "Das ist ein schönes Teil.",
-          "lv": "es una pieza hermosa • artículo"
+          "lv": "Es una pieza hermosa."
         },
         {
           "de": "Ein Teil davon ist richtig.",
-          "lv": "algo de eso es correcto."
+          "lv": "Algo de eso es correcto."
         }
       ],
       "comparison": [
         {
           "word": "das Teil",
           "meaning": "parte / detalle / pieza",
-          "example": "Ein Teil fehlt. = Trūkst viena daļa."
+          "example": "Ein Teil fehlt. – Falta una pieza."
         },
         {
           "word": "der Teil",
           "meaning": "parte (gramaticalmente encaja)",
-          "example": "Der erste Teil ist leicht. = Pirmā daļa ir viegla."
+          "example": "Der erste Teil ist leicht. – La primera parte es fácil."
         },
         {
           "word": "das Ersatzteil",
           "meaning": "pieza de recambio",
-          "example": "Das Ersatzteil ist teuer. = Rezerves detaļa ir dārga."
+          "example": "Das Ersatzteil ist teuer. – La pieza de repuesto es cara."
         },
         {
           "word": "das Stück",
           "meaning": "pedazo",
-          "example": "Ich nehme ein Stück Kuchen. = Es ņemu kūkas gabalu."
+          "example": "Ich nehme ein Stück Kuchen. – Tomo un trozo de pastel."
         },
         {
           "word": "die Sache",
-          "meaning": "cosa/sujeto",
-          "example": "Das ist eine gute Sache. = Tā ir laba lieta."
+          "meaning": "cosa/objeto",
+          "example": "Das ist eine gute Sache. – Eso es algo bueno."
         }
       ],
       "tip": {
@@ -57674,12 +57664,12 @@ const A2_WORDS = [
     "de": "Termin",
     "de_article": "der",
     "de_plural": "die Termine",
-    "lv": "nombramiento acordado • plazo",
+    "lv": "cita acordada • plazo",
     "level": "A2",
     "study": {
       "id": "a2-termin",
       "layout": "standardStudy",
-      "translation": "nombramiento acordado • plazo",
+      "translation": "cita acordada • plazo",
       "explanation": "Idea principal: der Termin es un tiempo acordado en el médico, en una institución, en el trabajo o una fecha límite específica. En la vida cotidiana, esto suele significar una cita o una reunión a una hora determinada. Con documentos y escrituras, Termin puede significar fecha límite. No es lo mismo que das Treffen, porque Treffen es la reunión en sí, pero Termin es el momento acordado.",
       "examples": [
         {
@@ -57688,11 +57678,11 @@ const A2_WORDS = [
         },
         {
           "de": "Kann ich einen Termin machen?",
-          "lv": "¿Puedo iniciar sesión?"
+          "lv": "¿Puedo concertar una cita?"
         },
         {
           "de": "Der Termin ist um zehn Uhr.",
-          "lv": "La hora acordada son las diez."
+          "lv": "La hora acordada es a las diez."
         },
         {
           "de": "Wir müssen den Termin verschieben.",
@@ -57711,33 +57701,33 @@ const A2_WORDS = [
         {
           "word": "der Termin",
           "meaning": "hora acordada / cita / fecha límite",
-          "example": "Ich habe einen Termin. = Man ir pieraksts / norunāts laiks."
+          "example": "Ich habe einen Termin. – Tengo una cita."
         },
         {
           "word": "das Treffen",
           "meaning": "reunión",
-          "example": "Das Treffen war nett. = Tikšanās bija jauka."
+          "example": "Das Treffen war nett. – La reunión fue agradable."
         },
         {
           "word": "die Frist",
           "meaning": "una fecha límite para hacer algo",
-          "example": "Die Frist endet morgen. = Termiņš beidzas rīt."
+          "example": "Die Frist endet morgen. – El plazo termina mañana."
         },
         {
           "word": "die Verabredung",
           "meaning": "cita / reunión concertada",
-          "example": "Ich habe eine Verabredung. = Man ir sarunāta tikšanās."
+          "example": "Ich habe eine Verabredung. – Tengo una cita."
         },
         {
           "word": "der Zeitpunkt",
-          "meaning": "laika punkts",
-          "example": "Der Zeitpunkt ist wichtig. = Laika punkts ir svarīgs."
+          "meaning": "momento / plazo",
+          "example": "Der Zeitpunkt ist wichtig. – El momento es importante."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "En el médico, peluquero o institución der El término suele significar una cita."
+            "text": "En el médico, la peluquería o una institución, Termin suele significar una cita."
           },
           {
             "text": "Cuando se trata del momento de la transferencia, Termin puede significar una fecha límite."
@@ -57745,7 +57735,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "El mandato no es un nombramiento cualquiera.",
+        "text": "Termin no es una cita cualquiera.",
         "example": "einen Termin beim Arzt haben = tener una cita con un médico. ein Treffen haben = encontrarse. eine Frist haben = tener una fecha límite."
       },
       "sectionAccents": {
@@ -58045,7 +58035,7 @@ const A2_WORDS = [
     "de": "Thema",
     "de_article": "das",
     "de_plural": "die Themen",
-    "lv": "sujeto",
+    "lv": "tema",
     "level": "A2"
   },
   {
@@ -58074,38 +58064,38 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der See ist tief.",
-          "lv": "el lago es profundo."
+          "lv": "El lago es profundo."
         },
         {
           "de": "Das Loch ist sehr tief.",
-          "lv": "el agujero es muy profundo."
+          "lv": "El agujero es muy profundo."
         },
         {
           "de": "Er hat eine tiefe Stimme.",
-          "lv": "tiene una voz baja."
+          "lv": "Tiene una voz baja."
         },
         {
           "de": "Die Temperaturen sind tief.",
-          "lv": "la temperatura es baja."
+          "lv": "La temperatura es baja."
         },
         {
           "de": "Das Regal ist niedrig.",
-          "lv": "plaukts ir zems."
+          "lv": "La estantería está baja."
         },
         {
           "de": "Der Berg ist hoch.",
-          "lv": "kalns ir augsts."
+          "lv": "La montaña es alta."
         }
       ],
       "comparison": [
         {
           "word": "tief",
           "meaning": "profundo/bajo con voz, sonido, temperatura",
-          "example": "Der See ist tief. = Ezers ir dziļš."
+          "example": "Der See ist tief. – El lago es profundo."
         },
         {
           "word": "niedrig",
-          "meaning": "baja en altura o figura",
+          "meaning": "bajo en altura o en sentido figurado",
           "example": "Das Regal ist niedrig. = Plaukts ir zems."
         },
         {
@@ -58115,8 +58105,8 @@ const A2_WORDS = [
         },
         {
           "word": "flach",
-          "meaning": "sekls / plakans",
-          "example": "Das Wasser ist flach. = Ūdens ir sekls."
+          "meaning": "poco profundo / plano",
+          "example": "Das Wasser ist flach. – El agua es poco profunda."
         },
         {
           "word": "leise",
@@ -58468,7 +58458,7 @@ const A2_WORDS = [
     "study": {
       "id": "a2-toll",
       "layout": "standardStudy",
-      "translation": "genial • genial • maravilloso",
+      "translation": "genial • estupendo • maravilloso",
       "explanation": [
         "Idea principal: coloquialmente peaje significa genial, genial, maravilloso: una exclamación positiva.",
         "peaje se usa a menudo para expresar entusiasmo o admiración (Das ist toll! = ¡Eso es genial!).",
@@ -58478,7 +58468,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Konzert war toll!",
-          "lv": "koncerts bija lielisks!"
+          "lv": "¡El concierto fue genial!"
         },
         {
           "de": "Du siehst toll aus.",
@@ -58490,15 +58480,15 @@ const A2_WORDS = [
         },
         {
           "de": "Toll, dass du kommst!",
-          "lv": "genial que vengas!"
+          "lv": "¡Genial que vengas!"
         },
         {
           "de": "Er hat eine tolle Idee.",
-          "lv": "él tiene una gran idea."
+          "lv": "Él tiene una gran idea."
         },
         {
           "de": "Das Essen schmeckt toll.",
-          "lv": "la comida sabe muy bien."
+          "lv": "La comida sabe muy bien."
         }
       ],
       "tip": [
@@ -58617,7 +58607,7 @@ const A2_WORDS = [
     "de": "Top",
     "de_article": "das",
     "de_plural": "die Tops",
-    "lv": "la parte superior",
+    "lv": "top",
     "level": "A2"
   },
   {
@@ -58677,23 +58667,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Kannst du die Tasche tragen?",
-          "lv": "vai vari nest somu?"
+          "lv": "¿Puedes llevar la bolsa?"
         },
         {
           "de": "Er trägt das Kind auf dem Arm.",
-          "lv": "lleva al niño en brazos."
+          "lv": "Lleva al niño en brazos."
         },
         {
           "de": "Sie trägt eine blaue Jacke.",
-          "lv": "ella lleva una chaqueta azul."
+          "lv": "Ella lleva una chaqueta azul."
         },
         {
           "de": "Ich trage eine Brille.",
-          "lv": "uso gafas"
+          "lv": "Llevo gafas"
         },
         {
           "de": "Der Tisch trägt viel Gewicht.",
-          "lv": "galds iztur lielu svaru."
+          "lv": "La mesa soporta mucho peso."
         },
         {
           "de": "Was trägst du heute?",
@@ -58714,21 +58704,21 @@ const A2_WORDS = [
         {
           "word": "bringen",
           "meaning": "traer / entregar",
-          "example": "Ich bringe dir das Buch. = Es tev atnesu grāmatu."
+          "example": "Ich bringe dir das Buch. – Te traigo el libro."
         },
         {
           "word": "halten",
           "meaning": "sostener",
-          "example": "Ich halte das Kind. = Es turu bērnu."
+          "example": "Ich halte das Kind. – Sostengo al niño."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "La ropa a menudo se \"usa\" con tragen en alemán: eine Jacke tragen."
+            "text": "En alemán, tragen se usa a menudo para hablar de la ropa: eine Jacke tragen."
           },
           {
-            "text": "Ja gribi pateikt “uzvilkt”, lieto anziehen; ja “atnest”, lieto bringen."
+            "text": "Si quieres decir «ponerse», usa anziehen; si quieres decir «traer», usa bringen."
           }
         ]
       },
@@ -58848,7 +58838,7 @@ const A2_WORDS = [
     "de": "Training",
     "de_article": "das",
     "de_plural": "die Trainings",
-    "lv": "capacitación",
+    "lv": "entrenamiento",
     "level": "A2"
   },
   {
@@ -58869,7 +58859,7 @@ const A2_WORDS = [
     "de": "Traube",
     "de_article": "die",
     "de_plural": "die Trauben",
-    "lv": "uvas",
+    "lv": "una uva",
     "level": "A2"
   },
   {
@@ -58939,22 +58929,22 @@ const A2_WORDS = [
         {
           "word": "treffen",
           "meaning": "cumplir / golpear / aceptar",
-          "example": "Eine Entscheidung treffen = pieņemt lēmumu."
+          "example": "Eine Entscheidung treffen – Tomar una decisión."
         },
         {
           "word": "sich treffen",
           "meaning": "encontrarse",
-          "example": "Wir treffen uns. = Mēs tiekamies."
+          "example": "Wir treffen uns. – Nos encontramos."
         },
         {
           "word": "kennenlernen",
           "meaning": "familiarizarse",
-          "example": "Ich lerne ihn kennen. = Es ar viņu iepazīstos."
+          "example": "Ich lerne ihn kennen. – Lo conozco."
         },
         {
           "word": "erreichen",
           "meaning": "alcanzar / llamar",
-          "example": "Ich erreiche dich nicht. = Es nevaru tevi sazvanīt."
+          "example": "Ich erreiche dich nicht. – No consigo localizarte."
         },
         {
           "word": "passen",
@@ -58973,7 +58963,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Ich treffe dich = Es tevi satieku.",
+        "text": "Ich treffe dich = Me encuentro contigo.",
         "example": "Wir treffen uns = Nos encontramos. das Ziel treffen = dar en el blanco. eine Wahl treffen = tomar una decisión."
       },
       "sectionAccents": {
@@ -59336,7 +59326,7 @@ const A2_WORDS = [
     "de": "Trommel",
     "de_article": "die",
     "de_plural": "die Trommeln",
-    "lv": "batería",
+    "lv": "tambor",
     "level": "A2"
   },
   {
@@ -59350,7 +59340,7 @@ const A2_WORDS = [
     "de": "Tuch",
     "de_article": "das",
     "de_plural": "die Tücher",
-    "lv": "una bufanda",
+    "lv": "un paño",
     "level": "A2"
   },
   {
@@ -59383,7 +59373,7 @@ const A2_WORDS = [
     "de": "Tüte",
     "de_article": "die",
     "de_plural": "die Tüten",
-    "lv": "tuta",
+    "lv": "bolsa",
     "level": "A2"
   },
   {
@@ -59395,7 +59385,7 @@ const A2_WORDS = [
   },
   {
     "de": "üben",
-    "lv": "hacer ejercicio",
+    "lv": "practicar",
     "level": "A2"
   },
   {
@@ -59405,7 +59395,7 @@ const A2_WORDS = [
   },
   {
     "de": "überraschen",
-    "lv": "sorpresa",
+    "lv": "sorprender",
     "level": "A2"
   },
   {
@@ -59422,21 +59412,21 @@ const A2_WORDS = [
   },
   {
     "de": "übrig",
-    "lv": "izquierda • el resto",
+    "lv": "restante • el resto",
     "level": "A2",
     "study": {
       "id": "a2-übrig",
       "layout": "standardStudy",
-      "translation": "izquierda • el resto",
+      "translation": "restante • el resto",
       "explanation": "Idea principal: übrig significa sobrante o sobrante de algo que ya ha sido usado, hecho o tomado. Se usa a menudo con bleiben: übrig bleiben = quedarse a dormir. Cuando se trata de personas o cosas, die übrigen significa los demás. Esto no es lo mismo que unnötig “innecesario”.",
       "examples": [
         {
           "de": "Es ist noch etwas Geld übrig.",
-          "lv": "todavía le queda algo de dinero."
+          "lv": "Todavía le queda algo de dinero."
         },
         {
           "de": "Vom Essen ist viel übrig geblieben.",
-          "lv": "sobró mucha comida."
+          "lv": "Sobró mucha comida."
         },
         {
           "de": "Die übrigen Gäste kommen später.",
@@ -59444,15 +59434,15 @@ const A2_WORDS = [
         },
         {
           "de": "Hast du noch Zeit übrig?",
-          "lv": "¿todavía te queda tiempo?"
+          "lv": "¿Todavía te queda tiempo?"
         },
         {
           "de": "Der Rest bleibt übrig.",
-          "lv": "el saldo sobra."
+          "lv": "Queda saldo."
         },
         {
           "de": "Diese Frage ist unnötig.",
-          "lv": "esta pregunta es innecesaria."
+          "lv": "Todavía queda esta pregunta."
         }
       ],
       "comparison": [
@@ -59463,23 +59453,23 @@ const A2_WORDS = [
         },
         {
           "word": "übrig bleiben",
-          "meaning": "pasar la noche",
-          "example": "Viel Essen bleibt übrig. = Daudz ēdiena paliek pāri."
+          "meaning": "quedarse / permanecer",
+          "example": "Viel Essen bleibt übrig. – Queda mucha comida."
         },
         {
           "word": "der Rest",
-          "meaning": "atlikums",
-          "example": "Der Rest ist für morgen. = Atlikums ir rītdienai."
+          "meaning": "el resto",
+          "example": "Der Rest ist für morgen. – El resto es para mañana."
         },
         {
           "word": "die übrigen",
           "meaning": "los demás",
-          "example": "Die übrigen Gäste kommen später. = Pārējie viesi ieradīsies vēlāk."
+          "example": "Die übrigen Gäste kommen später. – Los demás invitados vienen más tarde."
         },
         {
           "word": "unnötig",
           "meaning": "innecesario",
-          "example": "Das ist unnötig. = Tas ir nevajadzīgi."
+          "example": "Das ist unnötig. – Eso no es necesario."
         }
       ],
       "tip": {
@@ -59488,7 +59478,7 @@ const A2_WORDS = [
             "text": "Si queda algo después del uso o la selección, se utiliza muy a menudo übrig."
           },
           {
-            "text": "La frase übrig bleiben significa quedarse a dormir."
+            "text": "La frase übrig bleiben significa quedar o sobrar."
           }
         ]
       },
@@ -59796,7 +59786,7 @@ const A2_WORDS = [
         },
         {
           "de": "Übung macht den Meister.",
-          "lv": "prakse dara meistaru."
+          "lv": "La práctica hace al maestro."
         },
         {
           "de": "Ich muss mehr üben.",
@@ -59810,8 +59800,8 @@ const A2_WORDS = [
       "comparison": [
         {
           "word": "die Übung",
-          "meaning": "ejercicio / practica",
-          "example": "Diese Übung ist leicht. = Šis vingrinājums ir viegls."
+          "meaning": "ejercicio / práctica",
+          "example": "Diese Übung ist leicht. – Este ejercicio es fácil."
         },
         {
           "word": "üben",
@@ -59821,17 +59811,17 @@ const A2_WORDS = [
         {
           "word": "das Training",
           "meaning": "capacitación",
-          "example": "Das Training beginnt um sechs. = Treniņš sākas sešos."
+          "example": "Das Training beginnt um sechs. – El entrenamiento empieza a las seis."
         },
         {
           "word": "die Aufgabe",
           "meaning": "tarea",
-          "example": "Die Aufgabe ist schwer. = Uzdevums ir grūts."
+          "example": "Die Aufgabe ist schwer. – La tarea es difícil."
         },
         {
           "word": "die Praxis",
-          "meaning": "prakse",
-          "example": "In der Praxis ist es anders. = Praksē tas ir citādi."
+          "meaning": "práctica",
+          "example": "In der Praxis ist es anders. – En la práctica es diferente."
         }
       ],
       "tip": {
@@ -60117,31 +60107,31 @@ const A2_WORDS = [
     "de": "Ufer",
     "de_article": "das",
     "de_plural": "die Ufer",
-    "lv": "costa",
+    "lv": "orilla",
     "level": "A2"
   },
   {
     "de": "umarmen",
-    "lv": "abrazo",
+    "lv": "abrazar",
     "level": "A2"
   },
   {
     "de": "umsonst",
-    "lv": "en vano • en vano",
+    "lv": "gratis • en vano",
     "level": "A2",
     "study": {
       "id": "a2-umsonst",
       "layout": "standardStudy",
-      "translation": "en vano • en vano",
+      "translation": "gratis • en vano",
       "explanation": "umsonst es una palabra muy importante con dos significados diferentes. Puede significar gratis o gratis. También puede significar en vano o sin resultado. El contexto muestra si se trata de un precio o de un resultado. kostenlos es una palabra más clara gratis. vergeblich es una palabra más clara que significa vano.",
       "examples": [
         {
           "de": "Der Eintritt ist umsonst.",
-          "lv": "ieeja ir par velti."
+          "lv": "La entrada es gratis."
         },
         {
           "de": "Das Essen war umsonst.",
-          "lv": "la comida fue en vano."
+          "lv": "La comida fue gratis."
         },
         {
           "de": "Ich habe umsonst gewartet.",
@@ -60149,11 +60139,11 @@ const A2_WORDS = [
         },
         {
           "de": "Alle Mühe war umsonst.",
-          "lv": "todos los esfuerzos fueron en vano."
+          "lv": "Todos los esfuerzos fueron en vano."
         },
         {
           "de": "Du bekommst das Ticket umsonst.",
-          "lv": "obtienes un boleto gratis."
+          "lv": "Obtienes un boleto gratis."
         },
         {
           "de": "Er hat umsonst angerufen.",
@@ -60164,22 +60154,22 @@ const A2_WORDS = [
         {
           "word": "umsonst",
           "meaning": "por nada / en vano",
-          "example": "Ich warte umsonst. = Es gaidu veltīgi."
+          "example": "Ich warte umsonst. – Espero en vano."
         },
         {
           "word": "kostenlos",
-          "meaning": "bez maksas",
+          "meaning": "gratis",
           "example": "Der Kurs ist kostenlos. = Kurss ir bez maksas."
         },
         {
           "word": "gratis",
           "meaning": "gratis",
-          "example": "Das ist gratis. = Tas ir par brīvu."
+          "example": "Das ist gratis. – Eso es gratis."
         },
         {
           "word": "vergeblich",
           "meaning": "en vano",
-          "example": "Ich suche vergeblich. = Es meklēju veltīgi."
+          "example": "Ich suche vergeblich. – Busco en vano."
         }
       ],
       "tip": {
@@ -60495,7 +60485,7 @@ const A2_WORDS = [
   },
   {
     "de": "umsteigen",
-    "lv": "cambiar de asiento",
+    "lv": "hacer transbordo",
     "level": "A2"
   },
   {
@@ -60505,7 +60495,7 @@ const A2_WORDS = [
   },
   {
     "de": "umziehen",
-    "lv": "moverse",
+    "lv": "mudarse",
     "level": "A2"
   },
   {
@@ -60581,7 +60571,7 @@ const A2_WORDS = [
   },
   {
     "de": "unterwegs",
-    "lv": "en camino • en camino",
+    "lv": "en camino",
     "level": "A2"
   },
   {
@@ -60607,7 +60597,7 @@ const A2_WORDS = [
         },
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "mi padre está de vacaciones."
+          "lv": "Mi padre está de vacaciones."
         },
         {
           "de": "Nächste Woche habe ich Urlaub.",
@@ -60619,18 +60609,18 @@ const A2_WORDS = [
         },
         {
           "de": "im Urlaub",
-          "lv": "de vacaciones (trabajo)."
+          "lv": "Vacaciones del trabajo."
         }
       ],
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "salir del trabajo (solo todos)",
+          "meaning": "permiso laboral (para todos)",
           "example": "Mein Vater ist im Urlaub. – Mi padre está de vacaciones."
         },
         {
           "word": "die Ferien",
-          "meaning": "vacaciones escolares/de estudio (solo dsk.)",
+          "meaning": "vacaciones escolares o de estudios (solo estudiantes)",
           "example": "Die Kinder haben Ferien. – Los niños tienen vacaciones."
         }
       ],
@@ -60746,11 +60736,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Die Brücke verbindet die zwei Stadtteile.",
-          "lv": "el puente conecta las dos partes de la ciudad."
+          "lv": "El puente conecta las dos partes de la ciudad."
         },
         {
           "de": "Kannst du mich mit dem Büro verbinden?",
-          "lv": "vai vari mani savienot ar biroju?"
+          "lv": "¿Puedes comunicarme con la oficina?"
         },
         {
           "de": "Diese Straße verbindet zwei Dörfer.",
@@ -60758,7 +60748,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Arzt verbindet die Wunde.",
-          "lv": "el médico venda la herida."
+          "lv": "El médico venda la herida."
         },
         {
           "de": "Ich verbinde Berlin mit guter Musik.",
@@ -60766,7 +60756,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich binde die Schuhe.",
-          "lv": "es sienu kurpes."
+          "lv": "Uno los cordones de los zapatos."
         }
       ],
       "comparison": [
@@ -60778,22 +60768,22 @@ const A2_WORDS = [
         {
           "word": "sich verbinden mit",
           "meaning": "relacionarse con",
-          "example": "Das verbindet sich mit Erinnerungen. = Tas saistās ar atmiņām."
+          "example": "Das verbindet sich mit Erinnerungen. – Se relaciona con los recuerdos."
         },
         {
           "word": "binden",
-          "meaning": "tamiz",
+          "meaning": "vendar",
           "example": "Ich binde die Schuhe. = Es sienu kurpes."
         },
         {
           "word": "anschließen",
           "meaning": "conectar",
-          "example": "Ich schließe den Drucker an. = Es pieslēdzu printeri."
+          "example": "Ich schließe den Drucker an. – Conecto la impresora."
         },
         {
           "word": "die Wunde verbinden",
           "meaning": "vendar la herida",
-          "example": "Der Arzt verbindet die Wunde. = Ārsts pārsien brūci."
+          "example": "Der Arzt verbindet die Wunde. – El médico venda la herida."
         }
       ],
       "tip": {
@@ -60807,7 +60797,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "verbinden nav tas pats, kas binden.",
+        "text": "verbinden no es lo mismo que binden.",
         "example": "verbinden = conectar o unir. enlazar = atar. eine Wunde verbinden = vendar la herida."
       },
       "sectionAccents": {
@@ -61117,7 +61107,7 @@ const A2_WORDS = [
   },
   {
     "de": "verbringen",
-    "lv": "acompañar",
+    "lv": "pasar",
     "level": "A2"
   },
   {
@@ -61166,7 +61156,7 @@ const A2_WORDS = [
         },
         {
           "de": "Die Firma hat viel Verkehr mit Kunden.",
-          "lv": "firmai ir daudz kontaktu ar klientiem."
+          "lv": "La empresa tiene muchos contactos con los clientes."
         },
         {
           "de": "Der Verkehr auf der Straße ist laut.",
@@ -61177,27 +61167,27 @@ const A2_WORDS = [
         {
           "word": "der Verkehr",
           "meaning": "tráfico / movimiento / comunicaciones",
-          "example": "Der Verkehr ist stark. = Satiksme ir intensīva."
+          "example": "Der Verkehr ist stark. – El tráfico es intenso."
         },
         {
           "word": "der Straßenverkehr",
           "meaning": "tráfico rodado",
-          "example": "Der Straßenverkehr ist gefährlich. = Ceļu satiksme ir bīstama."
+          "example": "Der Straßenverkehr ist gefährlich. – El tráfico por carretera es peligroso."
         },
         {
           "word": "der öffentliche Verkehr",
           "meaning": "transporte público",
-          "example": "Öffentlicher Verkehr ist praktisch. = Sabiedriskā satiksme ir praktiska."
+          "example": "Öffentlicher Verkehr ist praktisch. – El transporte público es práctico."
         },
         {
           "word": "der Kontakt",
-          "meaning": "kontakts / sakari",
+          "meaning": "contactos / comunicaciones",
           "example": "Wir haben Kontakt mit Kunden. = Mums ir kontakti ar klientiem."
         },
         {
           "word": "die Bewegung",
           "meaning": "movimiento",
-          "example": "Bewegung ist gesund. = Kustība ir veselīga."
+          "example": "Bewegung ist gesund. – El movimiento es saludable."
         }
       ],
       "tip": {
@@ -61211,7 +61201,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Verkehr nav tikai auto satiksme.",
+        "text": "Verkehr no significa solo tráfico de automóviles.",
         "example": "Verkehr más marcado = tráfico pesado. öffentlicher Verkehr = transporte público. Verkehr mit Kunden = contacto con los clientes."
       },
       "sectionAccents": {
@@ -61589,17 +61579,17 @@ const A2_WORDS = [
     "de": "Verkehrsmittel",
     "de_article": "das",
     "de_plural": "die Verkehrsmittel",
-    "lv": "vehículo",
+    "lv": "medio de transporte",
     "level": "A2"
   },
   {
     "de": "verlangen",
-    "lv": "requerir • demanda",
+    "lv": "exigir • pedir",
     "level": "A2",
     "study": {
       "id": "a2-verlangen",
       "layout": "minimalStudy",
-      "translation": "requerir • demanda",
+      "translation": "exigir • pedir",
       "accent": "blue",
       "forms": "verlangt, verlangte, hat verlangt",
       "tip": "Se utiliza cuando algo es estrictamente requerido (requisito, precio, ley). \"fragen\" se utiliza para preguntas cotidianas.",
@@ -61626,7 +61616,7 @@ const A2_WORDS = [
   },
   {
     "de": "verpassen",
-    "lv": "llegar tarde",
+    "lv": "perder",
     "level": "A2"
   },
   {
@@ -61641,7 +61631,7 @@ const A2_WORDS = [
   },
   {
     "de": "verschwinden",
-    "lv": "Piérdase",
+    "lv": "desaparecer",
     "level": "A2"
   },
   {
@@ -61653,7 +61643,7 @@ const A2_WORDS = [
   },
   {
     "de": "verstecken",
-    "lv": "esconderse",
+    "lv": "esconder",
     "level": "A2"
   },
   {
@@ -61685,7 +61675,7 @@ const A2_WORDS = [
         },
         {
           "de": "Es ist Viertel vor acht.",
-          "lv": "son las ocho menos cuarto."
+          "lv": "Son las ocho menos cuarto."
         },
         {
           "de": "Wir treffen uns um Viertel nach sieben.",
@@ -61697,14 +61687,14 @@ const A2_WORDS = [
         },
         {
           "de": "Dieses Viertel ist sehr alt.",
-          "lv": "Este bloque es muy antiguo."
+          "lv": "Este barrio es muy antiguo."
         }
       ],
       "comparison": [
         {
           "word": "das Viertel",
           "meaning": "cuarto / cuarto / cuarto",
-          "example": "Ein Viertel ist genug. = Ceturtdaļa ir pietiekami."
+          "example": "Ein Viertel ist genug. – Un cuarto es suficiente."
         },
         {
           "word": "die Hälfte",
@@ -61713,8 +61703,8 @@ const A2_WORDS = [
         },
         {
           "word": "das Drittel",
-          "meaning": "un tercero",
-          "example": "Ein Drittel bleibt. = Trešdaļa paliek."
+          "meaning": "un tercio",
+          "example": "Ein Drittel bleibt. – Un tercio permanece."
         },
         {
           "word": "der Stadtteil",
@@ -61723,14 +61713,14 @@ const A2_WORDS = [
         },
         {
           "word": "das Quartier",
-          "meaning": "cuadra / barrio",
-          "example": "Das Quartier ist ruhig. = Kvartāls ir kluss."
+          "meaning": "barrio / distrito",
+          "example": "Das Quartier ist ruhig. – El barrio está tranquilo."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Por cantidad, Viertel entiende una cuarta parte."
+            "text": "En cuanto a la cantidad, Viertel significa una cuarta parte."
           },
           {
             "text": "Con reloj o ciudad, Viertel significa un cuarto de hora o un distrito/cuarto."
@@ -62124,12 +62114,12 @@ const A2_WORDS = [
     "de": "Vollkornbrot",
     "de_article": "das",
     "de_plural": "die Vollkornbrote",
-    "lv": "pan de trigo entero",
+    "lv": "pan integral",
     "level": "A2"
   },
   {
     "de": "vorbei",
-    "lv": "extrañar",
+    "lv": "pasado",
     "level": "A2"
   },
   {
@@ -62151,7 +62141,7 @@ const A2_WORDS = [
   },
   {
     "de": "vorlesen",
-    "lv": "leer adelante",
+    "lv": "leer en voz alta",
     "level": "A2"
   },
   {
@@ -62228,7 +62218,7 @@ const A2_WORDS = [
         },
         {
           "de": "Stellen Sie sich bitte vor.",
-          "lv": "por favor da un paso adelante."
+          "lv": "Por favor, preséntate."
         },
         {
           "de": "Ich habe mir das anders vorgestellt.",
@@ -62239,33 +62229,33 @@ const A2_WORDS = [
         {
           "word": "vorstellen",
           "meaning": "presentar / presentar",
-          "example": "Ich stelle dir meinen Freund vor. = Es tevi iepazīstinu ar draugu."
+          "example": "Ich stelle dir meinen Freund vor. – Te presento a mi amigo."
         },
         {
           "word": "sich vorstellen",
-          "meaning": "pararse delante / imaginar",
-          "example": "Ich stelle mich vor. = Es stādos priekšā."
+          "meaning": "presentarse / imaginar",
+          "example": "Ich stelle mich vor. – Me presento."
         },
         {
           "word": "denken",
           "meaning": "pensar",
-          "example": "Ich denke an dich. = Es domāju par tevi."
+          "example": "Ich denke an dich. – Pienso en ti."
         },
         {
           "word": "meinen",
           "meaning": "pensar / considerar",
-          "example": "Was meinst du? = Ko tu domā?"
+          "example": "Was meinst du? – ¿Qué opinas?"
         },
         {
           "word": "präsentieren",
           "meaning": "presentar",
-          "example": "Ich präsentiere den Plan. = Es prezentēju plānu."
+          "example": "Ich präsentiere den Plan. – Presento el plan."
         }
       ],
       "tip": {
         "leftBlocks": [
           {
-            "text": "Cuando vorstellen está con sich y persona, a menudo significa estar delante de."
+            "text": "Cuando vorstellen aparece con sich y una persona, a menudo significa presentarse."
           },
           {
             "text": "Si hay sich etwas vorstellen, en español casi siempre será \"imaginar\"."
@@ -62273,7 +62263,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "Ich stelle mich vor = Estoy delante.",
+        "text": "Ich stelle mich vor = Me presento.",
         "example": "Ich stelle mir das vor = lo imaginé. Ich stelle dich vor = te presento. Der Plan wird vorgestellt = Se presenta el plan."
       },
       "sectionAccents": {
@@ -62644,7 +62634,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Wagen steht vor dem Haus.",
-          "lv": "el coche está aparcado delante de la casa."
+          "lv": "El coche está aparcado delante de la casa."
         },
         {
           "de": "Wir fahren mit dem Wagen zur Stadt.",
@@ -62652,24 +62642,24 @@ const A2_WORDS = [
         },
         {
           "de": "Der Güterwagen ist schwer beladen.",
-          "lv": "kravas vagons ir smagi noslogots."
+          "lv": "El vagón de mercancías está muy cargado."
         }
       ],
       "comparison": [
         {
           "word": "der Wagen",
           "meaning": "coche • vagón • carro",
-          "example": "Der Wagen ist neu. = Automašīna ir jauna."
+          "example": "Der Wagen ist neu. – El coche es nuevo."
         },
         {
           "word": "der Waggon",
-          "meaning": "vagons (vilciens)",
+          "meaning": "vagón (tren)",
           "example": "Der Waggon ist voll. = Vagons ir pilns."
         },
         {
           "word": "das Auto",
           "meaning": "auto",
-          "example": "Das Auto steht da. = Automašīna stāv tur."
+          "example": "Das Auto steht da. – El coche está ahí."
         },
         {
           "word": "wagen (Verb)",
@@ -62680,12 +62670,12 @@ const A2_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "der Wagen con el artículo der es un sustantivo: un vehículo. Wagen sin artículo es un verbo: atreverse."
+            "text": "der Wagen con el artículo der es un sustantivo: un vehículo. wagen sin artículo es un verbo: atreverse."
           }
         ]
       },
       "important": {
-        "text": "der Wagen = coche o vagón (die Wagen). Wagen = atreverse es otra palabra."
+        "text": "der Wagen = coche o vagón (die Wagen). wagen = atreverse es otra palabra."
       },
       "sectionAccents": {
         "explanation": {
@@ -62794,7 +62784,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich wähle ein Menü.",
-          "lv": "elijo menú • menú"
+          "lv": "Elijo un menú."
         },
         {
           "de": "Welche Farbe wählst du?",
@@ -62810,23 +62800,23 @@ const A2_WORDS = [
         },
         {
           "de": "Wählen Sie bitte die Nummer.",
-          "lv": "por favor marque el número."
+          "lv": "Por favor marque el número."
         },
         {
           "de": "Sie hat den falschen Kurs gewählt.",
-          "lv": "ella tomó el camino equivocado."
+          "lv": "Ella eligió el camino equivocado."
         }
       ],
       "comparison": [
         {
           "word": "wählen",
-          "meaning": "elegir/votar/componer",
-          "example": "Ich wähle eine Nummer. = Es sastādu numuru."
+          "meaning": "elegir/votar/marcar",
+          "example": "Ich wähle eine Nummer. – Marco un número."
         },
         {
           "word": "auswählen",
           "meaning": "para seleccionar / elegir",
-          "example": "Ich wähle ein Bild aus. = Es izvēlos attēlu."
+          "example": "Ich wähle ein Bild aus. – Selecciono una imagen."
         },
         {
           "word": "entscheiden",
@@ -62835,8 +62825,8 @@ const A2_WORDS = [
         },
         {
           "word": "abstimmen",
-          "meaning": "balsot",
-          "example": "Wir stimmen ab. = Mēs balsojam."
+          "meaning": "votar",
+          "example": "Wir stimmen ab. – Votamos."
         }
       ],
       "tip": {
@@ -63165,7 +63155,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Während des Tages arbeite ich.",
-          "lv": "durante el día trabajo."
+          "lv": "Durante el día trabajo."
         },
         {
           "de": "Während der Reise habe ich viel gelesen.",
@@ -63177,7 +63167,7 @@ const A2_WORDS = [
         },
         {
           "de": "Sie telefoniert, während sie wartet.",
-          "lv": "ella está hablando por teléfono mientras espera."
+          "lv": "Ella está hablando por teléfono mientras espera."
         },
         {
           "de": "Während des Films war es ruhig.",
@@ -63192,22 +63182,22 @@ const A2_WORDS = [
         {
           "word": "während",
           "meaning": "durante / mientras",
-          "example": "Während ich arbeite, ist es ruhig. = Kamēr es strādāju, ir kluss."
+          "example": "Während ich arbeite, ist es ruhig. – Mientras trabajo, todo está tranquilo."
         },
         {
           "word": "bei",
           "meaning": "en / durante ciertas condiciones",
-          "example": "Bei Regen bleiben wir zu Hause. = Lietus laikā paliekam mājās."
+          "example": "Bei Regen bleiben wir zu Hause. – Cuando llueve, nos quedamos en casa."
         },
         {
           "word": "wenn",
-          "meaning": "kad / ja",
-          "example": "Wenn ich Zeit habe, komme ich. = Ja man būs laiks, es nākšu."
+          "meaning": "cuando / si",
+          "example": "Wenn ich Zeit habe, komme ich. – Si tengo tiempo, voy."
         },
         {
           "word": "solange",
           "meaning": "mientras",
-          "example": "Solange du hier bist, bleibe ich. = Kamēr tu esi šeit, es palieku."
+          "example": "Solange du hier bist, bleibe ich. – Mientras estés aquí, me quedo."
         }
       ],
       "tip": {
@@ -63566,11 +63556,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Er kommt wahrscheinlich später.",
-          "lv": "probablemente vendrá más tarde."
+          "lv": "Probablemente vendrá más tarde."
         },
         {
           "de": "Das ist wahrscheinlich richtig.",
-          "lv": "probablemente esto sea correcto."
+          "lv": "Probablemente esto sea correcto."
         },
         {
           "de": "Wahrscheinlich regnet es morgen.",
@@ -63582,7 +63572,7 @@ const A2_WORDS = [
         },
         {
           "de": "Das ist sicher richtig.",
-          "lv": "tas noteikti ir pareizi."
+          "lv": "Eso definitivamente es correcto."
         },
         {
           "de": "Ich bin mir nicht sicher.",
@@ -63593,12 +63583,12 @@ const A2_WORDS = [
         {
           "word": "wahrscheinlich",
           "meaning": "probablemente / lo más probable",
-          "example": "Er kommt wahrscheinlich. = Viņš droši vien atnāks."
+          "example": "Er kommt wahrscheinlich. – Probablemente vendrá."
         },
         {
           "word": "vielleicht",
           "meaning": "tal vez",
-          "example": "Vielleicht kommt er. = Varbūt viņš atnāks."
+          "example": "Vielleicht kommt er. – Quizás venga."
         },
         {
           "word": "sicher",
@@ -63608,12 +63598,12 @@ const A2_WORDS = [
         {
           "word": "bestimmt",
           "meaning": "definitivamente",
-          "example": "Er kommt bestimmt. = Viņš noteikti atnāks."
+          "example": "Er kommt bestimmt. – Sin duda vendrá."
         },
         {
           "word": "möglich",
           "meaning": "posible",
-          "example": "Das ist möglich. = Tas ir iespējams."
+          "example": "Das ist möglich. – Es posible."
         }
       ],
       "tip": {
@@ -63909,7 +63899,7 @@ const A2_WORDS = [
     "de": "Ware",
     "de_article": "die",
     "de_plural": "die Waren",
-    "lv": "artículo",
+    "lv": "mercancía",
     "level": "A2"
   },
   {
@@ -63927,14 +63917,14 @@ const A2_WORDS = [
     "de": "Waschbecken",
     "de_article": "das",
     "de_plural": "die Waschbecken",
-    "lv": "hundir",
+    "lv": "lavabo",
     "level": "A2"
   },
   {
     "de": "Wäsche",
     "de_article": "die",
     "de_plural": null,
-    "lv": "lavadero",
+    "lv": "ropa sucia",
     "level": "A2"
   },
   {
@@ -63963,23 +63953,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich muss Geld wechseln.",
-          "lv": "necesito cambiar dinero."
+          "lv": "Necesito cambiar dinero."
         },
         {
           "de": "Sie wechselt die Schule.",
-          "lv": "ella está cambiando de escuela."
+          "lv": "Ella está cambiando de escuela."
         },
         {
           "de": "Ich wechsle das Hemd.",
-          "lv": "es nomainu kreklu."
+          "lv": "Me cambio de camisa."
         },
         {
           "de": "Wir wechseln das Thema.",
-          "lv": "cambiamos de tema."
+          "lv": "Cambiamos de tema."
         },
         {
           "de": "Ich steige in Berlin um.",
-          "lv": "Me trasladaré a Berlín."
+          "lv": "Cambiaré de tren en Berlín."
         },
         {
           "de": "Kann ich die Jacke umtauschen?",
@@ -64000,17 +63990,17 @@ const A2_WORDS = [
         {
           "word": "tauschen",
           "meaning": "cambio / intercambio",
-          "example": "Wir tauschen Plätze. = Mēs samaināmies vietām."
+          "example": "Wir tauschen Plätze. – Intercambiamos los sitios."
         },
         {
           "word": "umsteigen",
           "meaning": "traslado al transporte",
-          "example": "Ich steige um. = Es pārsēžos."
+          "example": "Ich steige um. – Cambio de tren."
         },
         {
           "word": "ändern",
           "meaning": "cambiar / cambiar",
-          "example": "Ich ändere den Plan. = Es mainu plānu."
+          "example": "Ich ändere den Plan. – Cambio el plan."
         }
       ],
       "tip": {
@@ -64347,7 +64337,7 @@ const A2_WORDS = [
   },
   {
     "de": "wegfahren",
-    "lv": "ahuyentar",
+    "lv": "irse en vehículo",
     "level": "A2"
   },
   {
@@ -64357,7 +64347,7 @@ const A2_WORDS = [
   },
   {
     "de": "wehtun",
-    "lv": "lastimar",
+    "lv": "doler",
     "level": "A2"
   },
   {
@@ -64367,7 +64357,7 @@ const A2_WORDS = [
   },
   {
     "de": "weich gekocht",
-    "lv": "hervido suave",
+    "lv": "cocido hasta quedar blando",
     "level": "A2"
   },
   {
@@ -64393,12 +64383,12 @@ const A2_WORDS = [
   },
   {
     "de": "weit",
-    "lv": "muy • ancho",
+    "lv": "lejos • amplio",
     "level": "A2",
     "study": {
       "id": "a2-weit",
       "layout": "standardStudy",
-      "translation": "muy • ancho",
+      "translation": "lejos • amplio",
       "explanation": [
         "Idea principal: weit por distancia significa lejos, por ancho o extensión significa ancho.",
         "Cuando se trata de distancia, weit = lejos (Die Schule ist weit. = La escuela está lejos).",
@@ -64416,11 +64406,11 @@ const A2_WORDS = [
         },
         {
           "de": "Das Feld ist sehr weit.",
-          "lv": "el campo es muy amplio."
+          "lv": "El campo es muy amplio."
         },
         {
           "de": "Der Rock ist zu weit.",
-          "lv": "la falda es demasiado ancha."
+          "lv": "La falda es demasiado ancha."
         },
         {
           "de": "Von weitem sieht man das Meer.",
@@ -64428,7 +64418,7 @@ const A2_WORDS = [
         },
         {
           "de": "Wir sind noch weit vom Ziel.",
-          "lv": "todavía estamos lejos de la meta."
+          "lv": "Todavía estamos lejos de la meta."
         }
       ],
       "tip": [
@@ -64543,7 +64533,7 @@ const A2_WORDS = [
   },
   {
     "de": "weiter",
-    "lv": "más",
+    "lv": "más adelante",
     "level": "A2"
   },
   {
@@ -64586,7 +64576,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das ist viel Geld wert.",
-          "lv": "vale mucho dinero."
+          "lv": "Vale mucho dinero."
         },
         {
           "de": "Ist das den Preis wert?",
@@ -64594,7 +64584,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Film ist sehenswert.",
-          "lv": "la película vale la pena verla."
+          "lv": "La película vale la pena verla."
         },
         {
           "de": "Dieses Bild ist 100 Euro wert.",
@@ -64602,38 +64592,38 @@ const A2_WORDS = [
         },
         {
           "de": "Das Auto ist teuer.",
-          "lv": "el auto es caro."
+          "lv": "El auto es caro."
         },
         {
           "de": "Der Wert des Hauses ist hoch.",
-          "lv": "el valor de la casa es alto."
+          "lv": "El valor de la casa es alto."
         }
       ],
       "comparison": [
         {
           "word": "wert",
           "meaning": "valer",
-          "example": "Das ist viel wert. = Tas ir daudz vērts."
+          "example": "Das ist viel wert. – Esto vale mucho."
         },
         {
           "word": "der Wert",
           "meaning": "valor",
-          "example": "Der Wert ist hoch. = Vērtība ir augsta."
+          "example": "Der Wert ist hoch. – El valor es alto."
         },
         {
           "word": "teuer",
-          "meaning": "caro",
-          "example": "Das Auto ist teuer. = Auto ir dārgs."
+          "meaning": "valioso",
+          "example": "Das Auto ist teuer. – El coche es caro."
         },
         {
           "word": "sehenswert",
-          "meaning": "digno de ver",
-          "example": "Die Stadt ist sehenswert. = Pilsētu ir vērts redzēt."
+          "meaning": "valioso",
+          "example": "Die Stadt ist sehenswert. – Merece la pena ver la ciudad."
         },
         {
           "word": "wichtig",
           "meaning": "importante",
-          "example": "Das ist wichtig. = Tas ir svarīgi."
+          "example": "Das ist wichtig. – Esto es importante."
         }
       ],
       "tip": {
@@ -64647,7 +64637,7 @@ const A2_WORDS = [
         ]
       },
       "important": {
-        "text": "wert nav tas pats, kas teuer.",
+        "text": "wert no es lo mismo que teuer.",
         "example": "Das ist viel wert = vale mucho. Das ist teuer = es caro."
       },
       "sectionAccents": {
@@ -64944,7 +64934,7 @@ const A2_WORDS = [
   {
     "de": "Wiedersehen",
     "de_article": "das",
-    "lv": "reunión",
+    "lv": "reencuentro",
     "level": "A2"
   },
   {
@@ -64959,27 +64949,27 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Paket wiegt zwei Kilo.",
-          "lv": "paka sver divus kilogramus."
+          "lv": "El paquete pesa dos kilogramos."
         },
         {
           "de": "Wie viel wiegst du?",
-          "lv": "cik tu sver?"
+          "lv": "¿Cuánto pesas?"
         },
         {
           "de": "Ich wiege das Mehl.",
-          "lv": "es nosveru miltus."
+          "lv": "Peso la harina."
         },
         {
           "de": "Der Arzt wiegt das Baby.",
-          "lv": "el médico pesa al bebé."
+          "lv": "El médico pesa al bebé."
         },
         {
           "de": "Die Waage zeigt 70 Kilo.",
-          "lv": "la balanza marca 70 kilogramos."
+          "lv": "La balanza marca 70 kilogramos."
         },
         {
           "de": "Der Wagen steht draußen.",
-          "lv": "el auto está estacionado afuera."
+          "lv": "El auto pesa mucho."
         }
       ],
       "comparison": [
@@ -64991,22 +64981,22 @@ const A2_WORDS = [
         {
           "word": "die Waage",
           "meaning": "balanza",
-          "example": "Die Waage steht im Bad. = Svari stāv vannasistabā."
+          "example": "Die Waage steht im Bad. – La báscula está en el baño."
         },
         {
           "word": "das Gewicht",
           "meaning": "peso",
-          "example": "Das Gewicht ist normal. = Svars ir normāls."
+          "example": "Das Gewicht ist normal. – El peso es normal."
         },
         {
           "word": "messen",
           "meaning": "medir",
-          "example": "Ich messe die Länge. = Es mēru garumu."
+          "example": "Ich messe die Länge. – Mido la longitud."
         },
         {
           "word": "der Wagen",
-          "meaning": "coche/vagón",
-          "example": "Der Wagen ist neu. = Automašīna ir jauna."
+          "meaning": "peso",
+          "example": "Der Wagen ist neu. – El coche es nuevo."
         }
       ],
       "tip": {
@@ -65015,7 +65005,7 @@ const A2_WORDS = [
             "text": "Cuando pregunte sobre el peso de un cuerpo o de un objeto, utilice wiegen."
           },
           {
-            "text": "El objeto con el que pesar es el Waage."
+            "text": "El objeto con el que se pesa es die Waage."
           }
         ]
       },
@@ -65335,7 +65325,7 @@ const A2_WORDS = [
   },
   {
     "de": "winken",
-    "lv": "asentir",
+    "lv": "hacer señas",
     "level": "A2"
   },
   {
@@ -65362,11 +65352,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Zieh bitte die Tür zu.",
-          "lv": "por favor cierra/cierra la puerta."
+          "lv": "Por favor, tira de la puerta para cerrarla."
         },
         {
           "de": "Er zieht den Wagen.",
-          "lv": "él tira del carro."
+          "lv": "Él tira del carro."
         },
         {
           "de": "Wir ziehen nächste Woche nach Berlin.",
@@ -65374,15 +65364,15 @@ const A2_WORDS = [
         },
         {
           "de": "Die Wolken ziehen nach Osten.",
-          "lv": "las nubes se mueven hacia el este."
+          "lv": "Las nubes se mueven hacia el este."
         },
         {
           "de": "Es zieht hier.",
-          "lv": "hay un borrador aquí."
+          "lv": "Hay corriente de aire aquí."
         },
         {
           "de": "Sie ziehen zwei Kinder groß.",
-          "lv": "crían dos hijos."
+          "lv": "Crían dos hijos."
         },
         {
           "de": "Daraus kann man einen Schluss ziehen.",
@@ -65393,12 +65383,12 @@ const A2_WORDS = [
         {
           "word": "ziehen",
           "meaning": "arrastrar / mover / mover",
-          "example": "Wir ziehen um. = Mēs pārvācamies."
+          "example": "Wir ziehen um. – Nos mudamos."
         },
         {
           "word": "umziehen",
           "meaning": "moverse / cambiarse de ropa",
-          "example": "Ich ziehe um. = Es pārvācos."
+          "example": "Ich ziehe um. – Me mudo."
         },
         {
           "word": "anziehen",
@@ -65413,7 +65403,7 @@ const A2_WORDS = [
         {
           "word": "ziehen lassen",
           "meaning": "dejar ir / atraer",
-          "example": "Den Tee ziehen lassen. = Ļaut tējai ievilkties."
+          "example": "Den Tee ziehen lassen. – Dejar reposar el té."
         }
       ],
       "tip": {
@@ -65422,12 +65412,12 @@ const A2_WORDS = [
             "text": "Cuando se trata de moverse, a menudo verás umziehen o ziehen nach."
           },
           {
-            "text": "Si ve es zieht, a menudo significa \"borrador\"."
+            "text": "Si ve es zieht, a menudo significa «hay corriente de aire»."
           }
         ]
       },
       "important": {
-        "text": "ziehen nav tikai fiziski “vilkt”.",
+        "text": "ziehen no significa solamente «tirar» físicamente.",
         "example": "Wir ziehen nach Berlin = Nos mudamos a Berlín. I zieht = Tirando de un borrador. einen Schluss ziehen = sacar una conclusión."
       },
       "sectionAccents": {
@@ -65865,12 +65855,12 @@ const A2_WORDS = [
   },
   {
     "de": "zunehmen",
-    "lv": "aumentar de peso",
+    "lv": "aumentar • ganar peso",
     "level": "A2",
     "study": {
       "id": "a2-zunehmen",
       "layout": "standardStudy",
-      "translation": "aumentar de peso",
+      "translation": "aumentar • ganar peso",
       "explanation": "zunehnem puede significar ganar peso. También puede significar aumentar o aumentar en número, intensidad o cantidad. Respecto al peso de las personas, zunehmen suele traducirse como aumento de peso. Por precio, viento, ruido o problema, significa aumentar o aumentar. A menudo ocurre lo contrario.",
       "examples": [
         {
@@ -65879,15 +65869,15 @@ const A2_WORDS = [
         },
         {
           "de": "Der Verkehr nimmt zu.",
-          "lv": "satiksme pieaug."
+          "lv": "El tráfico aumenta."
         },
         {
           "de": "Die Preise nehmen weiter zu.",
-          "lv": "cenas turpina pieaugt."
+          "lv": "Los precios siguen aumentando."
         },
         {
           "de": "Der Wind nimmt zu.",
-          "lv": "el viento se levanta."
+          "lv": "El viento se levanta."
         },
         {
           "de": "Die Zahl der Besucher hat zugenommen.",
@@ -65895,7 +65885,7 @@ const A2_WORDS = [
         },
         {
           "de": "Der Druck nimmt langsam zu.",
-          "lv": "la presión aumenta lentamente."
+          "lv": "La presión aumenta lentamente."
         }
       ],
       "comparison": [
@@ -65907,22 +65897,22 @@ const A2_WORDS = [
         {
           "word": "abnehmen",
           "meaning": "adelgazar / disminuir",
-          "example": "Ich nehme ab. = Es notievēju."
+          "example": "Ich nehme ab. – Pierdo peso."
         },
         {
           "word": "wachsen",
           "meaning": "crecer",
-          "example": "Die Stadt wächst. = Pilsēta aug."
+          "example": "Die Stadt wächst. – La ciudad crece."
         },
         {
           "word": "steigen",
           "meaning": "subir / subir",
-          "example": "Die Preise steigen. = Cenas kāpj."
+          "example": "Die Preise steigen. – Los precios suben."
         },
         {
           "word": "sich erhöhen",
           "meaning": "aumentar",
-          "example": "Die Kosten erhöhen sich. = Izmaksas palielinās."
+          "example": "Die Kosten erhöhen sich. – Los costes aumentan."
         }
       ],
       "tip": {
@@ -66295,7 +66285,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er ist zurzeit krank.",
-          "lv": "actualmente está enfermo."
+          "lv": "Actualmente está enfermo."
         },
         {
           "de": "Zurzeit lerne ich Deutsch.",
@@ -66310,7 +66300,7 @@ const A2_WORDS = [
         {
           "word": "zurzeit",
           "meaning": "actualmente / en este momento / actualmente",
-          "example": "Zurzeit bin ich beschäftigt. = Pašlaik esmu aizņemts."
+          "example": "Zurzeit bin ich beschäftigt. – Actualmente estoy ocupado."
         },
         {
           "word": "jetzt",
@@ -66320,17 +66310,17 @@ const A2_WORDS = [
         {
           "word": "im Moment",
           "meaning": "en este momento / actualmente",
-          "example": "Im Moment habe ich keine Zeit. = Šobrīd man nav laika."
+          "example": "Im Moment habe ich keine Zeit. – Actualmente no tengo tiempo."
         },
         {
           "word": "derzeit",
           "meaning": "actualmente / actualmente",
-          "example": "Derzeit ist das nicht möglich. = Pašlaik tas nav iespējams."
+          "example": "Derzeit ist das nicht möglich. – Actualmente no es posible."
         },
         {
           "word": "momentan",
           "meaning": "en este momento / actualmente",
-          "example": "Momentan bin ich krank. = Šobrīd esmu slims."
+          "example": "Momentan bin ich krank. – Actualmente estoy enfermo."
         }
       ],
       "tip": {
@@ -66714,12 +66704,12 @@ const A2_WORDS = [
     "de": "Zwilling",
     "de_article": "der",
     "de_plural": "die Zwillinge",
-    "lv": "mellizos",
+    "lv": "gemelo",
     "level": "A2",
     "study": {
       "id": "a2-zwilling",
       "layout": "minimalStudy",
-      "translation": "mellizos",
+      "translation": "gemelo",
       "accent": "blue",
       "variants": [
         {
@@ -66747,14 +66737,14 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich sehe dich.",
-          "lv": "es tevi redzu."
+          "lv": "Te veo."
         }
       ],
       "comparison": [
         {
           "word": "sehen",
           "meaning": "ver (sin intención)",
-          "example": "Ich sehe einen Vogel. – Es redzu putnu."
+          "example": "Ich sehe einen Vogel. – Veo un pájaro."
         },
         {
           "word": "schauen",
@@ -66784,9 +66774,7 @@ const A2_WORDS = [
               ]
             },
             "lv": {
-              "purple": [
-                "redzu"
-              ]
+              "purple": []
             }
           }
         ],
@@ -66824,15 +66812,15 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich schaue fern.",
-          "lv": "Es skatos televizoru."
+          "lv": "Veo la televisión."
         },
         {
           "de": "Wir schauen aus dem Fenster.",
-          "lv": "miramos por la ventana."
+          "lv": "Miramos por la ventana."
         },
         {
           "de": "Ich schaue fern.",
-          "lv": "es skatos televizoru."
+          "lv": "Veo la televisión."
         }
       ],
       "comparison": [
@@ -66844,7 +66832,7 @@ const A2_WORDS = [
         {
           "word": "sehen",
           "meaning": "ver (sin intención)",
-          "example": "Ich sehe dich. – Es tevi redzu."
+          "example": "Ich sehe dich. – Te veo."
         }
       ],
       "tip": [
@@ -67000,11 +66988,11 @@ const A2_WORDS = [
         },
         {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "los niños escuchan la historia."
+          "lv": "Los niños escuchan la historia."
         },
         {
           "de": "Ich höre dich.",
-          "lv": "es tevi dzirdu."
+          "lv": "Te oigo."
         }
       ],
       "tip": [
@@ -67088,7 +67076,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Was hast du gesagt?",
-          "lv": "ko tu pateici?"
+          "lv": "¿Qué dijiste?"
         }
       ],
       "comparison": [
@@ -67099,7 +67087,7 @@ const A2_WORDS = [
         },
         {
           "word": "sprechen",
-          "meaning": "hablar (idioma, hablar)",
+          "meaning": "hablar (un idioma)",
           "example": "Ich spreche Deutsch. – Hablo alemán."
         }
       ],
@@ -67165,7 +67153,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "hablo alemán"
+          "lv": "Hablo alemán."
         }
       ],
       "comparison": [
@@ -67269,15 +67257,15 @@ const A2_WORDS = [
         },
         {
           "de": "Das Haus ist groß.",
-          "lv": "la casa es grande."
+          "lv": "La casa es grande."
         },
         {
           "de": "Er ist groß.",
-          "lv": "el es alto."
+          "lv": "Él es alto."
         },
         {
           "de": "Das Zimmer ist groß.",
-          "lv": "istaba ir liela."
+          "lv": "La habitación es grande."
         }
       ],
       "tip": [
@@ -67381,23 +67369,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Kalns ir augsts."
+          "lv": "La montaña es alta."
         },
         {
           "de": "Der Berg ist hoch.",
-          "lv": "kalns ir augsts."
+          "lv": "La montaña es alta."
         },
         {
           "de": "Die Miete ist hoch.",
-          "lv": "el alquiler es alto."
+          "lv": "El alquiler es alto."
         },
         {
           "de": "Die Mauer ist hoch.",
-          "lv": "siena ir augsta."
+          "lv": "La pared es alta."
         },
         {
           "de": "Die Preise sind hoch.",
-          "lv": "cenas ir augstas."
+          "lv": "Los precios son altos."
         }
       ],
       "tip": [
@@ -67518,23 +67506,23 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "Istaba ir maza."
+          "lv": "La habitación es pequeña."
         },
         {
           "de": "Das Zimmer ist klein.",
-          "lv": "istaba ir maza."
+          "lv": "La habitación es pequeña."
         },
         {
           "de": "Das Kind ist noch klein.",
-          "lv": "el niño aún es pequeño."
+          "lv": "El niño aún es pequeño."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "man ir maza soma."
+          "lv": "Tengo un bolso pequeño."
         },
         {
           "de": "Das Kind ist klein.",
-          "lv": "el niño es pequeño."
+          "lv": "El niño es pequeño."
         }
       ],
       "tip": [
@@ -67638,12 +67626,12 @@ const A2_WORDS = [
   },
   {
     "de": "leise",
-    "lv": "tranquilo",
+    "lv": "silencioso",
     "level": "A2",
     "study": {
       "id": "a2-leise",
       "layout": "standardStudy",
-      "translation": "tranquilo",
+      "translation": "silencioso",
       "explanation": [
         "Idea principal: Silencio o bajo volumen.",
         "Leise básicamente significa: volumen bajo.",
@@ -67653,19 +67641,19 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "Por favor, cállate."
+          "lv": "Por favor, guarda silencio."
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "por favor guarda silencio"
+          "lv": "Por favor, guarda silencio."
         },
         {
           "de": "Die Musik ist leise.",
-          "lv": "la música es tranquila."
+          "lv": "La música está baja."
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "por favor habla en voz baja."
+          "lv": "Por favor, habla en voz baja."
         }
       ],
       "tip": [
@@ -67771,7 +67759,7 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "ya estoy en casa"
+          "lv": "Ya estoy en casa."
         }
       ],
       "tip": [
@@ -67841,11 +67829,11 @@ const A2_WORDS = [
         },
         {
           "de": "Ich bin noch zu Hause.",
-          "lv": "todavía estoy en casa"
+          "lv": "Todavía estoy en casa."
         },
         {
           "de": "Bist du noch da?",
-          "lv": "¿todavía estás aquí?"
+          "lv": "¿Todavía estás aquí?"
         }
       ],
       "tip": [
@@ -68056,11 +68044,11 @@ const A2_WORDS = [
       "examples": [
         {
           "de": "Ich habe nur zehn Euro.",
-          "lv": "Man ir tikai desmit eiro."
+          "lv": "Solo tengo diez euros."
         },
         {
           "de": "Ich habe nur zehn Euro.",
-          "lv": "man ir tikai desmit eiro."
+          "lv": "solo tengo diez euros."
         },
         {
           "de": "Nur du kannst mir helfen.",
@@ -68068,7 +68056,7 @@ const A2_WORDS = [
         },
         {
           "de": "Ich möchte nur Kaffee.",
-          "lv": "es gribu tikai kafiju."
+          "lv": "solo quiero café."
         },
         {
           "de": "Ich habe nur acht Euro.",
@@ -68200,12 +68188,12 @@ const A2_WORDS = [
   },
   {
     "de": "über",
-    "lv": "más de • más de • para",
+    "lv": "más de • encima de • sobre",
     "level": "A2",
     "study": {
       "id": "a2-ueber",
       "layout": "standardStudy",
-      "translation": "más de • más de • para",
+      "translation": "más de • encima de • sobre",
       "explanation": [
         "Idea principal: puede estar encima de algo, a través de algo o sobre un tema.",
         "über significa principalmente: encima de algo.",
@@ -68223,15 +68211,15 @@ const A2_WORDS = [
         },
         {
           "de": "Die Lampe hängt über dem Tisch.",
-          "lv": "una lámpara cuelga encima de la mesa."
+          "lv": "Una lámpara cuelga encima de la mesa."
         },
         {
           "de": "Wir gehen über die Straße.",
-          "lv": "cruzamos la calle."
+          "lv": "Cruzamos la calle."
         },
         {
           "de": "Er spricht über seine Arbeit.",
-          "lv": "habla de su trabajo."
+          "lv": "Habla de su trabajo."
         },
         {
           "de": "Wir sprechen über das Problem.",

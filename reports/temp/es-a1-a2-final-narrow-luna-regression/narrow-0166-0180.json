@@ -1,0 +1,111 @@
+{
+  "batchKey": "narrow-0166-0180",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0166",
+    "ES-A1A2-MICRO-OWNER-0167",
+    "ES-A1A2-MICRO-OWNER-0168",
+    "ES-A1A2-MICRO-OWNER-0169",
+    "ES-A1A2-MICRO-OWNER-0170",
+    "ES-A1A2-MICRO-OWNER-0171",
+    "ES-A1A2-MICRO-OWNER-0172",
+    "ES-A1A2-MICRO-OWNER-0173",
+    "ES-A1A2-MICRO-OWNER-0174",
+    "ES-A1A2-MICRO-OWNER-0175",
+    "ES-A1A2-MICRO-OWNER-0176",
+    "ES-A1A2-MICRO-OWNER-0177",
+    "ES-A1A2-MICRO-OWNER-0178",
+    "ES-A1A2-MICRO-OWNER-0179",
+    "ES-A1A2-MICRO-OWNER-0180"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0173",
+      "cardId": "a2-hängen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "hängen",
+      "pairedDe": "Der Schlüssel hängt neben der Tür.",
+      "currentEs": "La llave cuelga de la puerta.",
+      "proposedEs": "La llave cuelga junto a la puerta.",
+      "reason": "De la puerta significa que la llave cuelga de ella, no que está al lado de la puerta como indica neben.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0166",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0167",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0168",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0169",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0170",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0171",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0172",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0173",
+      "cardId": "a2-hängen",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "hängen",
+      "pairedDe": "Der Schlüssel hängt neben der Tür.",
+      "currentEs": "La llave cuelga de la puerta.",
+      "proposedEs": "La llave cuelga junto a la puerta.",
+      "reason": "De la puerta significa que la llave cuelga de ella, no que está al lado de la puerta como indica neben.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0174",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0175",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0176",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0177",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0178",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0179",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0180",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 14,
+  "completedAt": "2026-08-26T06:12:24.822Z"
+}

@@ -1,0 +1,144 @@
+{
+  "batchKey": "narrow-0226-0237",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0226",
+    "ES-A1A2-MICRO-OWNER-0227",
+    "ES-A1A2-MICRO-OWNER-0228",
+    "ES-A1A2-MICRO-OWNER-0229",
+    "ES-A1A2-MICRO-OWNER-0230",
+    "ES-A1A2-MICRO-OWNER-0231",
+    "ES-A1A2-MICRO-OWNER-0232",
+    "ES-A1A2-MICRO-OWNER-0233",
+    "ES-A1A2-MICRO-OWNER-0234",
+    "ES-A1A2-MICRO-OWNER-0235",
+    "ES-A1A2-MICRO-OWNER-0236",
+    "ES-A1A2-MICRO-OWNER-0237"
+  ],
+  "targetCount": 12,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0228",
+      "cardId": "a2-absagen",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "absagen",
+      "pairedDe": "Er hat seine Teilnahme abgesagt.",
+      "currentEs": "Canceló la membresía.",
+      "proposedEs": "Canceló su participación.",
+      "reason": "Membresía significa Mitgliedschaft; Teilnahme significa participación, no membresía.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0236",
+      "cardId": "a2-tafel",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Tafel",
+      "pairedDe": "Bitte wisch die Tafel ab.",
+      "currentEs": "Por favor, limpie la pizarra.",
+      "proposedEs": "Por favor, limpia la pizarra.",
+      "reason": "Wisch es imperativo informal de segunda persona singular; limpie usa usted, no tú.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0237",
+      "cardId": "a2-urlaub-study",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Urlaub",
+      "pairedDe": "im Urlaub",
+      "currentEs": "Vacaciones del trabajo.",
+      "proposedEs": "De vacaciones.",
+      "reason": "La frase no expresa estar de vacaciones y suena a vacaciones pertenecientes al trabajo.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0226",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0227",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0228",
+      "cardId": "a2-absagen",
+      "field": "study.examples[2].lv",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "absagen",
+      "pairedDe": "Er hat seine Teilnahme abgesagt.",
+      "currentEs": "Canceló la membresía.",
+      "proposedEs": "Canceló su participación.",
+      "reason": "Membresía significa Mitgliedschaft; Teilnahme significa participación, no membresía.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0229",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0230",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0231",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0232",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0233",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0234",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0235",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0236",
+      "cardId": "a2-tafel",
+      "field": "study.examples[1].lv",
+      "severity": "MEDIUM",
+      "category": "GRAMMAR",
+      "de": "Tafel",
+      "pairedDe": "Bitte wisch die Tafel ab.",
+      "currentEs": "Por favor, limpie la pizarra.",
+      "proposedEs": "Por favor, limpia la pizarra.",
+      "reason": "Wisch es imperativo informal de segunda persona singular; limpie usa usted, no tú.",
+      "confidence": 0.98,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0237",
+      "cardId": "a2-urlaub-study",
+      "field": "study.examples[4].lv",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "Urlaub",
+      "pairedDe": "im Urlaub",
+      "currentEs": "Vacaciones del trabajo.",
+      "proposedEs": "De vacaciones.",
+      "reason": "La frase no expresa estar de vacaciones y suena a vacaciones pertenecientes al trabajo.",
+      "confidence": 0.97,
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 9,
+  "completedAt": "2026-08-26T06:13:08.680Z"
+}

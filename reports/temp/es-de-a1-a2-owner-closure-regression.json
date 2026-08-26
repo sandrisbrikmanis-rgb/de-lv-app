@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "head": "6a03418760c281e799b34a4eebb8a8d058f2a589",
+    "ownerSources": 13,
+    "ownerTargets": 1208,
+    "expectedTargets": 1208,
+    "appliedVerified": 1208,
+    "notApplied": 0,
+    "cardNotFound": 0,
+    "deterministic": {
+      "a1Cards": 702,
+      "a2Cards": 1640,
+      "a1StudyGap": 0,
+      "a2StudyGap": 0,
+      "missingStudyTotal": 0,
+      "partialStudyTotal": 2,
+      "foreignRemnants": 573,
+      "semicolons": 0,
+      "germanIntegrity": 6,
+      "technical": 0,
+      "minimalStudyNoRenderable": 18,
+      "mirrorPass": true
+    },
+    "lunaQualityFindings": 1208,
+    "verdict": "PASS — ALL 1208 OWNER TARGETS APPLIED"
+  },
+  "notApplied": [],
+  "cardNotFound": [],
+  "deterministic": {
+    "a1Cards": 702,
+    "a2Cards": 1640,
+    "a1StudyGap": 0,
+    "a2StudyGap": 0,
+    "missingStudyTotal": 0,
+    "partialStudyTotal": 2,
+    "foreignRemnants": 573,
+    "semicolons": 0,
+    "germanIntegrity": 6,
+    "technical": 0,
+    "minimalStudyNoRenderable": 18,
+    "mirrorPass": true
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "batchKey": "narrow-0211-0225",
+  "targetIds": [
+    "ES-A1A2-MICRO-OWNER-0211",
+    "ES-A1A2-MICRO-OWNER-0212",
+    "ES-A1A2-MICRO-OWNER-0213",
+    "ES-A1A2-MICRO-OWNER-0214",
+    "ES-A1A2-MICRO-OWNER-0215",
+    "ES-A1A2-MICRO-OWNER-0216",
+    "ES-A1A2-MICRO-OWNER-0217",
+    "ES-A1A2-MICRO-OWNER-0218",
+    "ES-A1A2-MICRO-OWNER-0219",
+    "ES-A1A2-MICRO-OWNER-0220",
+    "ES-A1A2-MICRO-OWNER-0221",
+    "ES-A1A2-MICRO-OWNER-0222",
+    "ES-A1A2-MICRO-OWNER-0223",
+    "ES-A1A2-MICRO-OWNER-0224",
+    "ES-A1A2-MICRO-OWNER-0225"
+  ],
+  "targetCount": 15,
+  "findings": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0214",
+      "cardId": "a2-wert",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "teuer",
+      "pairedDe": "Das Auto ist teuer.",
+      "currentEs": "valioso",
+      "proposedEs": "caro",
+      "reason": "«teuer» significa «caro», no «valioso».",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0215",
+      "cardId": "a2-wert",
+      "field": "study.comparison[3].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "sehenswert",
+      "pairedDe": "Die Stadt ist sehenswert.",
+      "currentEs": "valioso",
+      "proposedEs": "digno de ver",
+      "reason": "«sehenswert» significa «digno de ver»; «valioso» no expresa que merezca la pena verla.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0217",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[4].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "der Wagen",
+      "pairedDe": "Der Wagen ist neu.",
+      "currentEs": "peso",
+      "proposedEs": "coche/vagón",
+      "reason": "«der Wagen» significa «coche» o «vagón», no «peso».",
+      "confidence": 0.99,
+      "status": "FINDING"
+    }
+  ],
+  "results": [
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0211",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0212",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0213",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0214",
+      "cardId": "a2-wert",
+      "field": "study.comparison[2].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "teuer",
+      "pairedDe": "Das Auto ist teuer.",
+      "currentEs": "valioso",
+      "proposedEs": "caro",
+      "reason": "«teuer» significa «caro», no «valioso».",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0215",
+      "cardId": "a2-wert",
+      "field": "study.comparison[3].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "sehenswert",
+      "pairedDe": "Die Stadt ist sehenswert.",
+      "currentEs": "valioso",
+      "proposedEs": "digno de ver",
+      "reason": "«sehenswert» significa «digno de ver»; «valioso» no expresa que merezca la pena verla.",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0216",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0217",
+      "cardId": "a2-wiegen",
+      "field": "study.comparison[4].meaning",
+      "severity": "MEDIUM",
+      "category": "SEMANTICS",
+      "de": "der Wagen",
+      "pairedDe": "Der Wagen ist neu.",
+      "currentEs": "peso",
+      "proposedEs": "coche/vagón",
+      "reason": "«der Wagen» significa «coche» o «vagón», no «peso».",
+      "confidence": 0.99,
+      "status": "FINDING"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0218",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0219",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0220",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0221",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0222",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0223",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0224",
+      "status": "PASS"
+    },
+    {
+      "targetId": "ES-A1A2-MICRO-OWNER-0225",
+      "status": "PASS"
+    }
+  ],
+  "passCount": 12,
+  "completedAt": "2026-08-26T06:12:54.186Z"
+}
