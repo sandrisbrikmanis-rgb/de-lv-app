@@ -1295,7 +1295,7 @@ const A2_WORDS = [
         },
         {
           "de": "Er hat seine Teilnahme abgesagt.",
-          "lv": "Canceló la membresía."
+          "lv": "Canceló su participación."
         },
         {
           "de": "Sie sagt das Treffen ab.",
@@ -1393,8 +1393,8 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "rechazó",
-                "rechazó"
+                "Canceló",
+                "participación"
               ]
             }
           },
@@ -12203,7 +12203,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte wirf den Pappbecher weg.",
-          "lv": "Por favor, deseche el vaso de cartón."
+          "lv": "Por favor, desecha el vaso de cartón."
         },
         {
           "de": "Kinder trinken oft aus einem Becher.",
@@ -12269,7 +12269,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "por"
+                "Por"
               ]
             }
           },
@@ -51268,7 +51268,7 @@ const A2_WORDS = [
         },
         {
           "word": "der Schlüssel",
-          "meaning": "la cerradura",
+          "meaning": "la llave",
           "example": "Der Schlüssel ist weg. = La llave se ha perdido."
         }
       ],
@@ -51503,7 +51503,7 @@ const A2_WORDS = [
             },
             "meaning": {
               "purple": [
-                "la clave"
+                "la llave"
               ]
             },
             "example": {
@@ -56729,7 +56729,7 @@ const A2_WORDS = [
         },
         {
           "de": "Bitte wisch die Tafel ab.",
-          "lv": "Por favor, limpie la pizarra."
+          "lv": "Por favor, limpia la pizarra."
         },
         {
           "de": "Ich kaufe eine Tafel Schokolade.",
@@ -56814,7 +56814,7 @@ const A2_WORDS = [
             },
             "lv": {
               "purple": [
-                "por"
+                "Por"
               ]
             }
           },

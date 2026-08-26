@@ -8630,7 +8630,7 @@ const A1_WORDS = [
         },
         {
           "de": "Mein Arm tut weh.",
-          "lv": "Me duele la mano."
+          "lv": "Me duele el brazo."
         }
       ],
       "comparison": [
@@ -11257,7 +11257,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bezahle die Rechnung.",
-          "lv": "La cuenta tiene un precio."
+          "lv": "Pago la cuenta."
         },
         {
           "de": "Kann ich bar bezahlen?",
@@ -11365,7 +11365,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pago"
+                "Pago"
               ]
             }
           },
@@ -14887,7 +14887,7 @@ const A1_WORDS = [
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "El lunes por la mañana trabajo."
+          "lv": "Mañana es lunes."
         },
         {
           "de": "Guten Morgen!",
@@ -14955,7 +14955,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "mañana"
+                "Mañana"
               ]
             }
           },
