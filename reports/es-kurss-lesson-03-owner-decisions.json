@@ -14,7 +14,7 @@
   },
   "lessonNumber": 3,
   "targetCount": 106,
-  "status": "READY FOR OWNER DECISIONS",
+  "status": "READY FOR COPY-ONLY APPLY",
   "targets": [
     {
       "lessonNumber": 3,
@@ -25,8 +25,8 @@
       "current": "Lección 3",
       "deContext": "",
       "structureContext": "Lección 3 header title",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección 3",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0001"
     },
     {
@@ -38,8 +38,8 @@
       "current": "Diálogos, palabras, pronunciación, gramática y traducción.",
       "deContext": "",
       "structureContext": "Lección 3 header subtitle",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diálogos, palabras, pronunciación, gramática y traducción.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0002"
     },
     {
@@ -51,8 +51,8 @@
       "current": "Diálogos/oraciones",
       "deContext": "",
       "structureContext": "Legacy accordion summary",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Diálogos/oraciones",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0003"
     },
     {
@@ -64,8 +64,8 @@
       "current": "Wer rechnet und zeichnet?\nWir rechnen und zeichnen.",
       "deContext": "Wer rechnet und zeichnet?\nWir rechnen und zeichnen.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wer rechnet und zeichnet?\nWir rechnen und zeichnen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0004"
     },
     {
@@ -77,8 +77,8 @@
       "current": "Wer kommt?\nPaul und Anna kommen.",
       "deContext": "Wer kommt?\nPaul und Anna kommen.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wer kommt?\nPaul und Anna kommen.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0005"
     },
     {
@@ -90,8 +90,8 @@
       "current": "Was steht hier?\nHier steht ein Tisch.",
       "deContext": "Was steht hier?\nHier steht ein Tisch.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was steht hier?\nHier steht ein Tisch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0006"
     },
     {
@@ -103,8 +103,8 @@
       "current": "Was steht dort?\nDort steht eine Bank.",
       "deContext": "Was steht dort?\nDort steht eine Bank.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was steht dort?\nDort steht eine Bank.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0007"
     },
     {
@@ -116,8 +116,8 @@
       "current": "Was liegt hier?\nHier liegt ein Buch.",
       "deContext": "Was liegt hier?\nHier liegt ein Buch.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was liegt hier?\nHier liegt ein Buch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0008"
     },
     {
@@ -129,8 +129,8 @@
       "current": "Was liegt dort?\nDort liegt ein Heft.",
       "deContext": "Was liegt dort?\nDort liegt ein Heft.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was liegt dort?\nDort liegt ein Heft.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0009"
     },
     {
@@ -142,8 +142,8 @@
       "current": "Was hängt hier?\nHier hängt ein Bild.",
       "deContext": "Was hängt hier?\nHier hängt ein Bild.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was hängt hier?\nHier hängt ein Bild.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0010"
     },
     {
@@ -155,8 +155,8 @@
       "current": "Was hängt dort?\nDort hängt eine Tafel.",
       "deContext": "Was hängt dort?\nDort hängt eine Tafel.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was hängt dort?\nDort hängt eine Tafel.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0011"
     },
     {
@@ -168,8 +168,8 @@
       "current": "Wie ist das Buch?\nDas Buch ist dick.",
       "deContext": "Wie ist das Buch?\nDas Buch ist dick.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wie ist das Buch?\nDas Buch ist dick.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0012"
     },
     {
@@ -181,8 +181,8 @@
       "current": "Wie ist das Heft?\nDas Heft ist dünn.",
       "deContext": "Wie ist das Heft?\nDas Heft ist dünn.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wie ist das Heft?\nDas Heft ist dünn.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0013"
     },
     {
@@ -194,8 +194,8 @@
       "current": "Wie ist die Bank?\nDie Bank ist niedrig.",
       "deContext": "Wie ist die Bank?\nDie Bank ist niedrig.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wie ist die Bank?\nDie Bank ist niedrig.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0014"
     },
     {
@@ -207,8 +207,8 @@
       "current": "Wie ist der Tisch?\nDer Tisch ist hoch.",
       "deContext": "Wie ist der Tisch?\nDer Tisch ist hoch.",
       "structureContext": "Diálogos/oraciones",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wie ist der Tisch?\nDer Tisch ist hoch.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0015"
     },
     {
@@ -220,8 +220,8 @@
       "current": "Palabras",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Palabras",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0016"
     },
     {
@@ -233,8 +233,8 @@
       "current": "wer — aquí",
       "deContext": "wer",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wer — aquí",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0017"
     },
     {
@@ -246,8 +246,8 @@
       "current": "was — allí",
       "deContext": "was",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "was — allí",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0018"
     },
     {
@@ -259,8 +259,8 @@
       "current": "hier — der Tisch table",
       "deContext": "hier",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hier — aquí",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0019"
     },
     {
@@ -272,8 +272,8 @@
       "current": "dort — mesa",
       "deContext": "dort",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dort — allá",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0020"
     },
     {
@@ -285,8 +285,8 @@
       "current": "der Tisch — banco",
       "deContext": "der Tisch",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Tisch — mesa",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0021"
     },
     {
@@ -298,8 +298,8 @@
       "current": "ein Tisch — banco",
       "deContext": "ein Tisch",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ein Tisch — mesa",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0022"
     },
     {
@@ -311,8 +311,8 @@
       "current": "die Bank — tumbado",
       "deContext": "die Bank",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Bank — banco",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0023"
     },
     {
@@ -324,8 +324,8 @@
       "current": "eine Bank — ¿hay/hay un libro aquí?",
       "deContext": "eine Bank",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "eine Bank — banco",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0024"
     },
     {
@@ -337,8 +337,8 @@
       "current": "liegen — un libro",
       "deContext": "liegen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "liegen — estar tumbado • estar situado",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0025"
     },
     {
@@ -350,8 +350,8 @@
       "current": "liegt hier ein Buch? — un libro",
       "deContext": "liegt hier ein Buch?",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "liegt hier ein Buch? — aquí",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0026"
     },
     {
@@ -363,8 +363,8 @@
       "current": "das Buch — hang",
       "deContext": "das Buch",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Buch — libro",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0027"
     },
     {
@@ -376,8 +376,8 @@
       "current": "ein Buch — imagen",
       "deContext": "ein Buch",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ein Buch — libro",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0028"
     },
     {
@@ -389,8 +389,8 @@
       "current": "hängen — imagen",
       "deContext": "hängen",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hängen — colgar",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0029"
     },
     {
@@ -402,8 +402,8 @@
       "current": "das Bild — pizarra",
       "deContext": "das Bild",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Bild — imagen",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0030"
     },
     {
@@ -415,8 +415,8 @@
       "current": "ein Bild — pizarra",
       "deContext": "ein Bild",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ein Bild — imagen",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0031"
     },
     {
@@ -428,8 +428,8 @@
       "current": "die Tafel — alguien, qué",
       "deContext": "die Tafel",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Tafel — pizarra • plato",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0032"
     },
     {
@@ -441,8 +441,8 @@
       "current": "eine Tafel — es",
       "deContext": "eine Tafel",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "eine Tafel — pizarra • plato",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0033"
     },
     {
@@ -454,8 +454,8 @@
       "current": "wie — grueso, gordo",
       "deContext": "wie",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wie — cómo • cuánto",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0034"
     },
     {
@@ -467,8 +467,8 @@
       "current": "ist — cuaderno",
       "deContext": "ist",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ist — cuaderno",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0035"
     },
     {
@@ -480,8 +480,8 @@
       "current": "dick — cuaderno",
       "deContext": "dick",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dick — grueso",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0036"
     },
     {
@@ -493,8 +493,8 @@
       "current": "das Heft — delgado, delgado",
       "deContext": "das Heft",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Heft — cuaderno",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0037"
     },
     {
@@ -506,8 +506,8 @@
       "current": "ein Heft — bajo",
       "deContext": "ein Heft",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ein Heft — cuaderno",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0038"
     },
     {
@@ -519,8 +519,8 @@
       "current": "dünn — alto",
       "deContext": "dünn",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "dünn — delgado",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0039"
     },
     {
@@ -532,8 +532,8 @@
       "current": "wer - qué",
       "deContext": "wer",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "wer - qué",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0040"
     },
     {
@@ -545,8 +545,8 @@
       "current": "era - qué",
       "deContext": "era",
       "structureContext": "Palabras",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "era - qué",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0041"
     },
     {
@@ -558,8 +558,8 @@
       "current": "Pronunciación",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Pronunciación",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0042"
     },
     {
@@ -571,8 +571,8 @@
       "current": "niedrig — El sonido ī largo en alemán está representado por ie: liegen (līgen), hier (hīr), wie (vī).",
       "deContext": "niedrig",
       "structureContext": "Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "niedrig — bajo",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0043"
     },
     {
@@ -584,8 +584,8 @@
       "current": "hoch — ck es doble k: dick (dikk).",
       "deContext": "hoch",
       "structureContext": "Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "hoch — alto",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0044"
     },
     {
@@ -597,8 +597,8 @@
       "current": "Garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī).",
       "deContext": "Garo ī skaņu vācu valodā apzīmē ar ie: liegen (līgen), hier (hīr), wie (vī).",
       "structureContext": "Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En alemán, el sonido i largo suele escribirse ie: liegen (līgen), hier (hīr), wie (vī).",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0045"
     },
     {
@@ -610,8 +610,8 @@
       "current": "ck ir divkāršs k: dick (dikk).",
       "deContext": "ck ir divkāršs k: dick (dikk).",
       "structureContext": "Pronunciación",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ck representa un sonido k breve tras una vocal corta: dick (dik).",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0046"
     },
     {
@@ -623,8 +623,8 @@
       "current": "Gramática",
       "deContext": "",
       "structureContext": "Legacy accordion; raw: Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Gramática",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0047"
     },
     {
@@ -636,8 +636,8 @@
       "current": "Īpašības un apstākļu vārdos galotne -¿Con wer? pregunta por personas.",
       "deContext": "Īpašības un apstākļu vārdos galotne",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Con wer? se pregunta por personas.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0048"
     },
     {
@@ -649,8 +649,8 @@
       "current": "Ja galotne -¿Ar qué? pregunta por temas.",
       "deContext": "Ja galotne",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Con was? se pregunta por cosas.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0049"
     },
     {
@@ -662,8 +662,8 @@
       "current": "Ar wer? jautā pēc personām.",
       "deContext": "Ar wer? jautā pēc personām.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Con wer? se pregunta por personas.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0050"
     },
     {
@@ -675,8 +675,8 @@
       "current": "Ar was? jautā pēc priekšmetiem.",
       "deContext": "Ar was? jautā pēc priekšmetiem.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Con was? se pregunta por cosas.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0051"
     },
     {
@@ -688,8 +688,8 @@
       "current": "Wer singt? — der",
       "deContext": "Wer singt?",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Wer singt? — der",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0052"
     },
     {
@@ -701,8 +701,8 @@
       "current": "Was liegt hier? — die",
       "deContext": "Was liegt hier?",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Was liegt hier? — die",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0053"
     },
     {
@@ -714,8 +714,8 @@
       "current": "vīriešu kārta — das",
       "deContext": "vīriešu kārta",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "género masculino — der",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0054"
     },
     {
@@ -727,8 +727,8 @@
       "current": "sieviešu kārta — Plural definido el article para las tres rondas es morir.",
       "deContext": "sieviešu kārta",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "género femenino — die",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0055"
     },
     {
@@ -740,8 +740,8 @@
       "current": "vidējā kārta — die Tische",
       "deContext": "vidējā kārta",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "género neutro — das",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0056"
     },
     {
@@ -753,8 +753,8 @@
       "current": "Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.",
       "deContext": "Daudzskaitlī noteiktais artikuls visām trim kārtām ir die.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En plural, el artículo definido de los tres géneros es die.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0057"
     },
     {
@@ -766,8 +766,8 @@
       "current": "der Tisch — die Hefte",
       "deContext": "der Tisch",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "der Tisch — mesa",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0058"
     },
     {
@@ -779,8 +779,8 @@
       "current": "die Bank — ein",
       "deContext": "die Bank",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "die Bank — banco",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0059"
     },
     {
@@ -792,8 +792,8 @@
       "current": "das Heft — eine",
       "deContext": "das Heft",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "das Heft — cuaderno",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0060"
     },
     {
@@ -805,8 +805,8 @@
       "current": "vīriešu kārta — ein",
       "deContext": "vīriešu kārta",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "género masculino — ein",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0061"
     },
     {
@@ -818,8 +818,8 @@
       "current": "sieviešu kārta — El indefinido el article no tiene plural.",
       "deContext": "sieviešu kārta",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "género femenino — eine",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0062"
     },
     {
@@ -831,8 +831,8 @@
       "current": "vidējā kārta — Tische",
       "deContext": "vidējā kārta",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "género neutro — ein",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0063"
     },
     {
@@ -844,8 +844,8 @@
       "current": "Nenoteiktajam artikulam daudzskaitļa nav.",
       "deContext": "Nenoteiktajam artikulam daudzskaitļa nav.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El artículo indefinido no tiene plural.",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0064"
     },
     {
@@ -857,8 +857,8 @@
       "current": "ein Tisch — Hans spielt, aber Marie singt.",
       "deContext": "ein Tisch",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ein Tisch — mesa",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0065"
     },
     {
@@ -870,8 +870,8 @@
       "current": "ein Heft — Hier hängt eine Karte.",
       "deContext": "ein Heft",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "ein Heft — cuaderno",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0066"
     },
     {
@@ -883,8 +883,8 @@
       "current": "Hans spielt, aber Marie singt.",
       "deContext": "Hans spielt, aber Marie singt.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hans spielt, aber Marie singt.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0067"
     },
     {
@@ -896,8 +896,8 @@
       "current": "Hier hängt eine Karte.",
       "deContext": "Hier hängt eine Karte.",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hier hängt eine Karte.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0068"
     },
     {
@@ -909,8 +909,8 @@
       "current": "Vāciski par priekšmetiem, kas stāv vertikāli, saka, ka priekšmets stāv:\nder Tisch steht\ndie Bank steht",
       "deContext": "Vāciski par priekšmetiem, kas stāv vertikāli, saka, ka priekšmets stāv:\nder Tisch steht\ndie Bank steht",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En alemán se usa stehen para objetos que están en posición vertical:\nder Tisch steht\ndie Bank steht",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0069"
     },
     {
@@ -922,8 +922,8 @@
       "current": "El sujeto de una oración en alemán responde a la pregunta wer? / ¿qué? y nominativo permanente.",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El sujeto de una oración en alemán responde a la pregunta wer? / ¿qué? y nominativo permanente.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0070"
     },
     {
@@ -935,8 +935,8 @@
       "current": "En el idioma alemán, el sustantivo tiene 3 casos: masculino, femenino y neutro. Los sustantivos suelen ir precedidos de una palabra llamada article. Esta palabra no está traducida.",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En el idioma alemán, el sustantivo tiene 3 casos: masculino, femenino y neutro. Los sustantivos suelen ir precedidos de una palabra llamada article. Esta palabra no está traducida.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0071"
     },
     {
@@ -948,8 +948,8 @@
       "current": "Sin artículos delante de nombres propios.",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sin artículos delante de nombres propios.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0072"
     },
     {
@@ -961,8 +961,8 @@
       "current": "En una oración narrativa, el verbo ocupa el segundo lugar.",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "En una oración narrativa, el verbo ocupa el segundo lugar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0073"
     },
     {
@@ -974,8 +974,8 @@
       "current": "1Sujeto de la oración",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "1Sujeto de la oración",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0074"
     },
     {
@@ -987,8 +987,8 @@
       "current": "2Artículos",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "2Artículos",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0075"
     },
     {
@@ -1000,8 +1000,8 @@
       "current": "3Sustantivos propios",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "3Sustantivos propios",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0076"
     },
     {
@@ -1013,8 +1013,8 @@
       "current": "4Lugar del verbo",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "4Lugar del verbo",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0077"
     },
     {
@@ -1026,8 +1026,8 @@
       "current": "5stehen / liegen / hängen",
       "deContext": "",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "5stehen / liegen / hängen",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0078"
     },
     {
@@ -1039,8 +1039,8 @@
       "current": "Noteiktais artikuls",
       "deContext": "Noteiktais artikuls",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Artículo definido",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0079"
     },
     {
@@ -1052,8 +1052,8 @@
       "current": "Nenoteiktais artikuls",
       "deContext": "Nenoteiktais artikuls",
       "structureContext": "Gramática",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Artículo indefinido",
+      "status": "LABOT",
       "id": "ES-KURSS-LESSON-03-0080"
     },
     {
@@ -1065,8 +1065,8 @@
       "current": "Toca la tarjeta para continuar.",
       "deContext": "",
       "structureContext": "Legacy HTML hint placeholder 1",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toca la tarjeta para continuar.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0081"
     },
     {
@@ -1078,8 +1078,8 @@
       "current": "¿cuentas?",
       "deContext": "Rechnest du?",
       "structureContext": "Lección 3 translate card 1/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿cuentas?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0082"
     },
     {
@@ -1091,8 +1091,8 @@
       "current": "No, no cuento, dibujo.",
       "deContext": "Nein, ich rechne nicht, ich zeichne.",
       "structureContext": "Lección 3 translate card 2/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No, no cuento, dibujo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0083"
     },
     {
@@ -1104,8 +1104,8 @@
       "current": "¿Quién está parado ahí?",
       "deContext": "Was steht dort?",
       "structureContext": "Lección 3 translate card 3/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién está parado ahí?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0084"
     },
     {
@@ -1117,8 +1117,8 @@
       "current": "Hay una mesa.",
       "deContext": "Dort steht ein Tisch.",
       "structureContext": "Lección 3 translate card 4/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hay una mesa.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0085"
     },
     {
@@ -1130,8 +1130,8 @@
       "current": "¿Quién está aquí?",
       "deContext": "Was liegt hier?",
       "structureContext": "Lección 3 translate card 5/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Quién está aquí?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0086"
     },
     {
@@ -1143,8 +1143,8 @@
       "current": "Aquí está el libro.",
       "deContext": "Hier liegt ein Buch.",
       "structureContext": "Lección 3 translate card 6/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Aquí está el libro.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0087"
     },
     {
@@ -1156,8 +1156,8 @@
       "current": "¿El libro es delgado?",
       "deContext": "Ist das Buch dünn?",
       "structureContext": "Lección 3 translate card 7/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿El libro es delgado?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0088"
     },
     {
@@ -1169,8 +1169,8 @@
       "current": "No, el libro es grueso.",
       "deContext": "Nein, das Buch ist dick.",
       "structureContext": "Lección 3 translate card 8/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No, el libro es grueso.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0089"
     },
     {
@@ -1182,8 +1182,8 @@
       "current": "¿Cuál es el plan?",
       "deContext": "Was ist dünn?",
       "structureContext": "Lección 3 translate card 9/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cuál es el plan?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0090"
     },
     {
@@ -1195,8 +1195,8 @@
       "current": "El buzón es delgado.",
       "deContext": "Das Heft ist dünn.",
       "structureContext": "Lección 3 translate card 10/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El buzón es delgado.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0091"
     },
     {
@@ -1208,8 +1208,8 @@
       "current": "¿Cómo es el banco?",
       "deContext": "Wie ist die Bank?",
       "structureContext": "Lección 3 translate card 11/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo es el banco?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0092"
     },
     {
@@ -1221,8 +1221,8 @@
       "current": "El banco es bajo.",
       "deContext": "Die Bank ist niedrig.",
       "structureContext": "Lección 3 translate card 12/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "El banco es bajo.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0093"
     },
     {
@@ -1234,8 +1234,8 @@
       "current": "¿Cómo es la mesa?",
       "deContext": "Wie ist der Tisch?",
       "structureContext": "Lección 3 translate card 13/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Cómo es la mesa?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0094"
     },
     {
@@ -1247,8 +1247,8 @@
       "current": "La mesa es alta.",
       "deContext": "Der Tisch ist hoch.",
       "structureContext": "Lección 3 translate card 14/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "La mesa es alta.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0095"
     },
     {
@@ -1260,8 +1260,8 @@
       "current": "¿Hay/hay un cuaderno?",
       "deContext": "Liegt dort ein Heft?",
       "structureContext": "Lección 3 translate card 15/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Hay/hay un cuaderno?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0096"
     },
     {
@@ -1273,8 +1273,8 @@
       "current": "Sí, hay un cuaderno.",
       "deContext": "Ja, dort liegt ein Heft.",
       "structureContext": "Lección 3 translate card 16/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Sí, hay un cuaderno.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0097"
     },
     {
@@ -1286,8 +1286,8 @@
       "current": "¿Viene Pablo?",
       "deContext": "Kommt Paul?",
       "structureContext": "Lección 3 translate card 17/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Viene Pablo?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0098"
     },
     {
@@ -1299,8 +1299,8 @@
       "current": "No, Pablo no viene, está de pie.",
       "deContext": "Nein, Paul kommt nicht, er steht.",
       "structureContext": "Lección 3 translate card 18/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "No, Pablo no viene, está de pie.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0099"
     },
     {
@@ -1312,8 +1312,8 @@
       "current": "¿Qué cuelga aquí?",
       "deContext": "Was hängt hier?",
       "structureContext": "Lección 3 translate card 19/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué cuelga aquí?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0100"
     },
     {
@@ -1325,8 +1325,8 @@
       "current": "Hay un cuadro colgado aquí.",
       "deContext": "Hier hängt ein Bild.",
       "structureContext": "Lección 3 translate card 20/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hay un cuadro colgado aquí.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0101"
     },
     {
@@ -1338,8 +1338,8 @@
       "current": "¿Qué cuelga ahí?",
       "deContext": "Was hängt dort?",
       "structureContext": "Lección 3 translate card 21/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "¿Qué cuelga ahí?",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0102"
     },
     {
@@ -1351,8 +1351,8 @@
       "current": "Hay una pizarra colgada allí.",
       "deContext": "Dort hängt eine Tafel.",
       "structureContext": "Lección 3 translate card 22/22",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Hay una pizarra colgada allí.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0103"
     },
     {
@@ -1364,8 +1364,8 @@
       "current": "Traducir",
       "deContext": "",
       "structureContext": "Section raw title: Traducir",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Traducir",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0104"
     },
     {
@@ -1377,8 +1377,8 @@
       "current": "Toque la tarjeta para ver la traducción al alemán.",
       "deContext": "",
       "structureContext": "Translate flashcard hint",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Toque la tarjeta para ver la traducción al alemán.",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0105"
     },
     {
@@ -1390,9 +1390,16 @@
       "current": "Lección {lesson} · Traducir: {current} / {total}",
       "deContext": "",
       "structureContext": "Translate progress template",
-      "new": null,
-      "status": "PĀRSKATĪT",
+      "new": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "NELABOT",
       "id": "ES-KURSS-LESSON-03-0106"
     }
-  ]
+  ],
+  "ownerDecisionMode": "FULL_OWNER_REVIEW",
+  "ownerDecisionCounts": {
+    "total": 106,
+    "LABOT": 44,
+    "NELABOT": 62,
+    "unresolved": 0
+  }
 }
