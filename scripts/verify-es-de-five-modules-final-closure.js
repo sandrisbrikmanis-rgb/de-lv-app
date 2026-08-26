@@ -322,12 +322,26 @@ function getPrMergeReadiness(gatesPass) {
   }
 }
 
+function isClosedOnMain(head, branch) {
+  if (branch === "main") return true;
+  try {
+    const raw = execSync(`gh pr view ${PR} --json state,mergeCommit`, { cwd: ROOT, encoding: "utf8" });
+    const pr = JSON.parse(raw);
+    return pr.state === "MERGED" && Boolean(pr.mergeCommit?.oid);
+  } catch {
+    return false;
+  }
+}
+
 function determineVerdict(ctx) {
   if (!ctx.totals.labotPass || !ctx.totals.nelabotPass || !ctx.totals.unresolvedPass) {
     return `FAIL — OWNER retention (LABOT ${ctx.totals.labotMatched}/${TOTAL_EXPECTED.labot}, NELABOT ${ctx.totals.nelabotMatched}/${TOTAL_EXPECTED.nelabot})`;
   }
   if (!ctx.allModulesPass) return "FAIL — module structure/apply checks";
   if (!ctx.changeBoundaries.pass) return "BLOCKED — unexpected production/DE changes";
+  if (ctx.closedOnMain) {
+    return "PASS — ES–DE B2/C1/C2/Teikumi/Darbības vārdi OWNER ACCEPTED / CLOSED ON MAIN";
+  }
   if (!ctx.prMergeReadiness.ready && !SKIP_PR_CHECK) {
     const r = ctx.prMergeReadiness;
     if (r.pr?.isDraft) return "BLOCKED — PR is draft";
@@ -344,7 +358,7 @@ function buildReportMd(ctx) {
     "# ES–DE B2/C1/C2/Teikumi/Darbības vārdi — deterministiskā final closure",
     "",
     `**HEAD:** \`${ctx.head}\``,
-    `**Branch:** \`${BRANCH}\``,
+    `**Branch:** \`${ctx.branch}\``,
     `**PR:** #${PR}`,
     `**MASTER:** \`${MASTER_FILE}\` v${MASTER_VERSION}`,
     "",
@@ -408,8 +422,10 @@ function buildReportMd(ctx) {
 
   lines.push(`## FINAL VERDICT: **${ctx.verdict}**`, "");
 
-  if (ctx.verdict.startsWith("PASS")) {
+  if (ctx.closedOnMain) {
     lines.push("**Status:** ES–DE B2/C1/C2/Teikumi/Darbības vārdi — OWNER ACCEPTED / CLOSED ON MAIN", "");
+  } else if (ctx.verdict.startsWith("PASS")) {
+    lines.push("**Status:** READY TO MERGE", "");
   }
 
   return lines.join("\n");
@@ -417,6 +433,7 @@ function buildReportMd(ctx) {
 
 function main() {
   const head = git("git rev-parse HEAD");
+  const branch = git("git branch --show-current");
   git("git fetch origin main 2>/dev/null || true");
 
   const modules = ALL_MODULE_KEYS.map((key) => ({
@@ -437,16 +454,18 @@ function main() {
   const allModulesPass = modules.every((m) => m.result.pass);
   const changeBoundaries = verifyChangeBoundaries();
   const gatesPass = totals.labotPass && totals.nelabotPass && totals.unresolvedPass && allModulesPass && changeBoundaries.pass;
-  const prMergeReadiness = getPrMergeReadiness(gatesPass);
+  const closedOnMain = isClosedOnMain(head, branch);
+  const prMergeReadiness = getPrMergeReadiness(gatesPass || closedOnMain);
   const verdict = determineVerdict({
     totals,
     allModulesPass,
     changeBoundaries,
     prMergeReadiness,
+    closedOnMain,
   });
 
   const payload = {
-    meta: { head, branch: BRANCH, pr: PR, timestamp: new Date().toISOString(), lunaUsed: false },
+    meta: { head, branch, pr: PR, prBranch: BRANCH, closedOnMain, timestamp: new Date().toISOString(), lunaUsed: false },
     totals,
     modules: modules.map((m) => ({ key: m.key, ...m.result })),
     changeBoundaries,
@@ -455,7 +474,10 @@ function main() {
   };
 
   fs.mkdirSync(path.dirname(REPORT_JSON), { recursive: true });
-  fs.writeFileSync(REPORT_MD, buildReportMd({ head, modules, totals, changeBoundaries, prMergeReadiness, verdict }));
+  fs.writeFileSync(
+    REPORT_MD,
+    buildReportMd({ head, branch, modules, totals, changeBoundaries, prMergeReadiness, verdict, closedOnMain }),
+  );
   fs.writeFileSync(REPORT_JSON, JSON.stringify(payload, null, 2) + "\n");
 
   if (JSON_OUT) console.log(JSON.stringify(payload, null, 2));

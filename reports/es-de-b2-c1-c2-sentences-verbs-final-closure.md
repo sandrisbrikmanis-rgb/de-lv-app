@@ -1,7 +1,7 @@
 # ES–DE B2/C1/C2/Teikumi/Darbības vārdi — deterministiskā final closure
 
-**HEAD:** `537806546b426647a4689eb4a2a5e65a9cfa4b15`
-**Branch:** `cursor/es-de-b2-c1-c2-sentences-verbs-full-audit-3141`
+**HEAD:** `ee2edb8827eb808d3c475415c391f8c8df39c4e9`
+**Branch:** `main`
 **PR:** #667
 **MASTER:** `docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 
@@ -36,28 +36,7 @@
 
 **Changed production files (vs main):**
 
-- `data/es/b2.js`
-- `data/es/c1.js`
-- `data/es/c2.js`
-- `data/es/sentences.js`
-- `data/es/verbs.js`
-- `www/data/es/b2.js`
-- `www/data/es/c1.js`
-- `www/data/es/c2.js`
-- `www/data/es/sentences.js`
-- `www/data/es/verbs.js`
 
-## PR #667 merge-readiness
-
-| Metrika | Rezultāts |
-|---------|----------:|
-| State | OPEN |
-| Draft | true |
-| Mergeable | MERGEABLE |
-| Merge state | CLEAN |
-| Failed checks | 0 |
-| Pending checks | 0 |
-
-## FINAL VERDICT: **PASS — ES–DE B2/C1/C2/Teikumi/Darbības vārdi OWNER ACCEPTED / READY TO MERGE**
+## FINAL VERDICT: **PASS — ES–DE B2/C1/C2/Teikumi/Darbības vārdi OWNER ACCEPTED / CLOSED ON MAIN**
 
 **Status:** ES–DE B2/C1/C2/Teikumi/Darbības vārdi — OWNER ACCEPTED / CLOSED ON MAIN

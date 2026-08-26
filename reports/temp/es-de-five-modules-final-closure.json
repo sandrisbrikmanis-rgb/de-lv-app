@@ -1,9 +1,11 @@
 {
   "meta": {
-    "head": "537806546b426647a4689eb4a2a5e65a9cfa4b15",
-    "branch": "cursor/es-de-b2-c1-c2-sentences-verbs-full-audit-3141",
+    "head": "ee2edb8827eb808d3c475415c391f8c8df39c4e9",
+    "branch": "main",
     "pr": 667,
-    "timestamp": "2026-08-26T11:36:03.050Z",
+    "prBranch": "cursor/es-de-b2-c1-c2-sentences-verbs-full-audit-3141",
+    "closedOnMain": true,
+    "timestamp": "2026-08-26T11:37:21.212Z",
     "lunaUsed": false
   },
   "totals": {
@@ -183,50 +185,16 @@
     }
   ],
   "changeBoundaries": {
-    "changedProductionFiles": [
-      "data/es/b2.js",
-      "data/es/c1.js",
-      "data/es/c2.js",
-      "data/es/sentences.js",
-      "data/es/verbs.js",
-      "www/data/es/b2.js",
-      "www/data/es/c1.js",
-      "www/data/es/c2.js",
-      "www/data/es/sentences.js",
-      "www/data/es/verbs.js"
-    ],
+    "changedProductionFiles": [],
     "unexpectedProductionFiles": [],
     "deMasterFilesChanged": [],
     "otherLangProductionFiles": [],
     "pass": true
   },
   "prMergeReadiness": {
-    "checked": true,
+    "checked": false,
     "ready": true,
-    "pr": {
-      "state": "OPEN",
-      "isDraft": true,
-      "baseRefName": "main",
-      "headRefName": "cursor/es-de-b2-c1-c2-sentences-verbs-full-audit-3141",
-      "headRefOid": "537806546b426647a4689eb4a2a5e65a9cfa4b15",
-      "mergeable": "MERGEABLE",
-      "mergeStateStatus": "CLEAN",
-      "failedChecks": 0,
-      "pendingChecks": 0,
-      "changedProductionFiles": [
-        "data/es/b2.js",
-        "data/es/c1.js",
-        "data/es/c2.js",
-        "data/es/sentences.js",
-        "data/es/verbs.js",
-        "www/data/es/b2.js",
-        "www/data/es/c1.js",
-        "www/data/es/c2.js",
-        "www/data/es/sentences.js",
-        "www/data/es/verbs.js"
-      ],
-      "unexpectedProductionFiles": []
-    }
+    "reason": "skipped"
   },
-  "verdict": "PASS — ES–DE B2/C1/C2/Teikumi/Darbības vārdi OWNER ACCEPTED / READY TO MERGE"
+  "verdict": "PASS — ES–DE B2/C1/C2/Teikumi/Darbības vārdi OWNER ACCEPTED / CLOSED ON MAIN"
 }
