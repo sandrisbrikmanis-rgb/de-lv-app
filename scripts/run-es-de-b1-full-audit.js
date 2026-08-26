@@ -27,6 +27,7 @@ const {
   mapCategory,
 } = require("./lib/es-b1-audit-helpers");
 const { classifyFindings, mapValidationStatus, NON_ERROR_CATEGORIES } = require("./lib/openai-es-b1-audit");
+const { getAt } = require("./lib/da-a1-owner-path");
 
 const SKIP_LUNA = process.argv.includes("--skip-luna");
 const TEST_LUNA = process.argv.includes("--test-luna");
@@ -62,20 +63,29 @@ function loadJson(p, fallback = null) {
   return JSON.parse(fs.readFileSync(p, "utf8"));
 }
 
+function resolveCard(words, cardId) {
+  let idx = words.findIndex((e, i) => entryId(e, i) === cardId || e.study?.id === cardId);
+  if (idx >= 0) return { entry: words[idx], cardId: words[idx].study?.id || entryId(words[idx], idx) };
+  const deGuess = String(cardId)
+    .replace(/^b1-/, "")
+    .replace(/-study.*$/i, "")
+    .replace(/-\d+$/, "");
+  idx = words.findIndex((e) => e.de === deGuess || e.de?.toLowerCase() === deGuess.toLowerCase());
+  if (idx >= 0) return { entry: words[idx], cardId: words[idx].study?.id || entryId(words[idx], idx) };
+  return { entry: null, cardId };
+}
+
+function normalizeFieldPath(field) {
+  if (!field) return "lv";
+  return String(field).replace(/^entry\[\d+\]\./, "");
+}
+
 function readCurrentFromWords(words, cardId, field) {
-  const idx = words.findIndex((e, i) => entryId(e, i) === cardId || e.study?.id === cardId);
-  if (idx < 0) return { entry: null, value: undefined };
-  const entry = words[idx];
-  if (field === "lv") return { entry, value: entry.lv };
-  if (!field.startsWith("study.")) return { entry, value: undefined };
-  const parts = field.replace(/^study\./, "").split(/\.|\[|\]/).filter((p) => p !== "");
-  let cur = entry.study;
-  for (const p of parts) {
-    if (cur == null) return { entry, value: undefined };
-    if (/^\d+$/.test(p)) cur = cur[parseInt(p, 10)];
-    else cur = cur[p];
-  }
-  return { entry, value: cur };
+  const { entry, cardId: resolvedId } = resolveCard(words, cardId);
+  if (!entry) return { entry: null, value: undefined, cardId: resolvedId };
+  const normField = normalizeFieldPath(field);
+  if (normField === "lv") return { entry, value: entry.lv, cardId: resolvedId };
+  return { entry, value: getAt(entry, normField), cardId: resolvedId };
 }
 
 function mergeDeterministicFindings(collect, validateStudy, words) {
@@ -106,14 +116,15 @@ function mergeDeterministicFindings(collect, validateStudy, words) {
 
   for (const issue of collect.lvRemnants?.issues || []) {
     const cardId = issue.id;
-    const { value } = readCurrentFromWords(words, cardId, issue.path?.replace(/^entry\[\d+\]\./, "study.") || "lv");
+    const field = normalizeFieldPath(issue.path);
+    const { value } = readCurrentFromWords(words, cardId, field);
     add({
       cardId,
-      field: issue.path || "lv",
+      field,
       severity: "HIGH",
       category: "FOREIGN_REMNANT",
-      pairedGermanText: "",
-      current: issue.text || value || "",
+      pairedGermanText: words.find((e, i) => entryId(e, i) === cardId || e.study?.id === cardId)?.de || "",
+      current: value !== undefined ? value : issue.text || "",
       proposedNew: "",
       reason: `Svešvalodas atlikums (${issue.kind || "LV"})`,
       validationStatus: "REAL",
@@ -121,13 +132,15 @@ function mergeDeterministicFindings(collect, validateStudy, words) {
   }
 
   for (const issue of collect.sectionAccents?.issues || []) {
+    const field = normalizeFieldPath(issue.path) || `study.sectionAccents.${issue.section || "?"}`;
+    const { value } = readCurrentFromWords(words, issue.id, field);
     add({
       cardId: issue.id,
-      field: issue.path || `study.sectionAccents.${issue.section || "?"}`,
+      field,
       severity: issue.severity === "high" ? "HIGH" : "MEDIUM",
       category: "SECTION_ACCENT",
       pairedGermanText: issue.de || "",
-      current: issue.term || issue.message,
+      current: value !== undefined ? (typeof value === "object" ? JSON.stringify(value) : value) : issue.term || issue.message,
       proposedNew: issue.suggested || "",
       reason: issue.message || "sectionAccents neatbilstība",
       validationStatus: "REAL",
@@ -150,13 +163,15 @@ function mergeDeterministicFindings(collect, validateStudy, words) {
   }
 
   for (const issue of collect.technical?.issues || []) {
+    const field = normalizeFieldPath(issue.path);
+    const { value } = readCurrentFromWords(words, issue.id, field);
     add({
       cardId: issue.id,
-      field: issue.path || "lv",
+      field,
       severity: issue.severity === "critical" ? "CRITICAL" : "HIGH",
       category: "ORTHOGRAPHY",
       pairedGermanText: "",
-      current: issue.text || "",
+      current: value !== undefined ? value : issue.text || "",
       proposedNew: "",
       reason: issue.message,
       validationStatus: "REAL",
@@ -164,6 +179,14 @@ function mergeDeterministicFindings(collect, validateStudy, words) {
   }
 
   return findings;
+}
+
+function normalizeLunaField(field, cardId) {
+  const f = String(field || "lv");
+  if (f === "esText" || f === "esMain") return "lv";
+  if (f.startsWith("study.")) return f;
+  if (f === "lv") return "lv";
+  return f;
 }
 
 function mergeLunaFindings(lunaData) {
@@ -174,12 +197,13 @@ function mergeLunaFindings(lunaData) {
     if (f.status === "PASS") continue;
     const validationStatus = mapValidationStatus(f);
     if (validationStatus === "FALSE_POSITIVE") continue;
+    const field = normalizeLunaField(f.field, f.cardId);
     findings.push({
       id: `ES-B1-LUNA-${String(seq++).padStart(4, "0")}`,
       source: "gpt-5.6-luna",
       level: "B1",
       cardId: f.cardId,
-      field: f.field || "lv",
+      field,
       severity: f.severity || "MEDIUM",
       category: mapCategory(f.category),
       pairedGermanText: f.pairedGermanText || f.de || "",
@@ -217,16 +241,18 @@ function consolidateOwnerObjects(findings, words) {
   const owners = [];
   let seq = 1;
   for (const [, row] of byTarget) {
-    const { value } = readCurrentFromWords(words, row.cardId, row.field);
+    const field = normalizeFieldPath(row.field);
+    const { value, entry, cardId } = readCurrentFromWords(words, row.cardId, field);
+    if (value === undefined && field !== "lv") continue;
     const current = value !== undefined ? value : row.current;
     owners.push({
       id: `ES-DE-B1-OWNER-${String(seq++).padStart(4, "0")}`,
       findingIds: row.findingIds,
       level: "B1",
-      cardId: row.cardId,
-      field: row.field,
+      cardId,
+      field,
       current: typeof current === "object" ? JSON.stringify(current) : String(current ?? ""),
-      pairedGermanText: row.pairedGermanText || "",
+      pairedGermanText: row.pairedGermanText || entry?.de || "",
       category: row.category,
       severity: mapSeverity(row.severity),
       reason: row.reason,

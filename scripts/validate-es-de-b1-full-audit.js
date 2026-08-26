@@ -6,26 +6,25 @@
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
-const vm = require("vm");
 const { ROOT, isSyncedWithWww } = require("./lib/audit-common");
 const { loadArray, entryId } = require("./lib/es-b1-audit-helpers");
 const { PRODUCTION_PATH } = require("./lib/es-b1-discovery-config");
+const { getAt } = require("./lib/da-a1-owner-path");
 
 const AUDIT_JSON = path.join(ROOT, "reports/es-de-b1-full-audit.json");
 const OWNER_JSON = path.join(ROOT, "reports/es-de-b1-full-audit-owner-source.json");
 
+function normalizeFieldPath(field) {
+  if (!field) return "lv";
+  return String(field).replace(/^entry\[\d+\]\./, "");
+}
+
 function readCurrent(cardId, field, words) {
-  const idx = words.findIndex((e, i) => entryId(e, i) === cardId || e.study?.id === cardId);
-  if (idx < 0) return undefined;
-  const entry = words[idx];
-  if (field === "lv") return entry.lv;
-  const parts = field.replace(/^study\./, "").split(/\.|\[|\]/).filter(Boolean);
-  let cur = entry.study;
-  for (const p of parts) {
-    if (cur == null) return undefined;
-    cur = cur[p];
-  }
-  return cur;
+  const entry = words.find((e, i) => entryId(e, i) === cardId || e.study?.id === cardId);
+  if (!entry) return undefined;
+  const normField = normalizeFieldPath(field);
+  if (normField === "lv") return entry.lv;
+  return getAt(entry, normField);
 }
 
 function main() {
@@ -44,8 +43,12 @@ function main() {
     if (ownerKeys.has(key)) errors.push(`duplicate owner ${key}`);
     ownerKeys.add(key);
     const actual = readCurrent(o.cardId, o.field, words);
-    if (String(actual) === String(o.current)) currentMatch += 1;
-    else errors.push(`CURRENT mismatch ${o.id}`);
+    const expected = o.current;
+    const match =
+      String(actual) === String(expected) ||
+      (typeof actual === "object" && JSON.stringify(actual) === expected);
+    if (match) currentMatch += 1;
+    else errors.push(`CURRENT mismatch ${o.id} field=${o.field}`);
   }
 
   if (currentMatch !== owner.ownerObjects.length) errors.push(`CURRENT match ${currentMatch}/${owner.ownerObjects.length}`);
@@ -60,11 +63,11 @@ function main() {
   const diff = execSync("git diff --name-only HEAD", { cwd: ROOT, encoding: "utf8" })
     .split("\n")
     .filter(Boolean)
-    .filter((f) => f.startsWith("data/") && !f.startsWith("reports/"));
+    .filter((f) => (f.startsWith("data/") || f.startsWith("www/data/")) && !f.startsWith("reports/"));
   if (diff.length) errors.push(`production changes: ${diff.join(",")}`);
 
   const pass = errors.length === 0;
-  console.log(JSON.stringify({ pass, errors, ownerCount: owner.ownerObjects.length, currentMatch }, null, 2));
+  console.log(JSON.stringify({ pass, errors: errors.slice(0, 20), errorCount: errors.length, ownerCount: owner.ownerObjects.length, currentMatch }, null, 2));
   if (!pass) process.exit(1);
 }
 
