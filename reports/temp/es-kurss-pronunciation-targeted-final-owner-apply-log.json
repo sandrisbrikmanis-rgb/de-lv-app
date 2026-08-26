@@ -1,0 +1,47 @@
+{
+  "requested": 6,
+  "appliedVerified": 6,
+  "nelabotUnchanged": 1,
+  "currentMismatch": 0,
+  "newMismatch": 0,
+  "failed": 0,
+  "details": [
+    {
+      "id": "ES-KURSS-FINAL-0001",
+      "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[1]/example[0]",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-FINAL-0002",
+      "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[2]/example[3]",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-FINAL-0003",
+      "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[9]/example[1]",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-FINAL-0004",
+      "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[9]/example[5]",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-FINAL-0005",
+      "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[10]/h4",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-FINAL-0006",
+      "field": "COURSE_LESSON_HTML.kurssConsonantsLesson/section[1]/example[8]",
+      "status": "APPLIED_VERIFIED"
+    },
+    {
+      "id": "ES-KURSS-FINAL-0007",
+      "field": "COURSE_LESSON_HTML.kurssConsonantsLesson/section[7]/example[4]",
+      "status": "NELABOT_UNCHANGED",
+      "note": "OWNER_ACCEPTED_NELABOT"
+    }
+  ],
+  "errors": []
+}

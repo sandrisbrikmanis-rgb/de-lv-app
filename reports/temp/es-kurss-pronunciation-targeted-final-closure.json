@@ -1,0 +1,252 @@
+{
+  "branch": "cursor/es-kurss-pronunciation-owner-repair-3141",
+  "pr": 668,
+  "generatedAt": "2026-08-26T12:45:04.489Z",
+  "verdict": "PASS — ES KURSS PRONUNCIATION OWNER ACCEPTED / READY TO MERGE",
+  "gates": {
+    "appliedVerified": "PASS (6/6)",
+    "nelabotUnchanged": "PASS (1/1)",
+    "currentMismatch": "PASS",
+    "newMismatch": "PASS",
+    "failed": "PASS",
+    "retention14": "PASS (14/14)",
+    "mirror": "PASS",
+    "syntax": "PASS",
+    "structure": "PASS",
+    "deUnchanged": "PASS",
+    "visual": "PASS",
+    "reconciliation": "PASS (REAL=0)"
+  },
+  "apply": {
+    "pass": true,
+    "requested": 6,
+    "appliedVerified": 6,
+    "nelabotUnchanged": 1,
+    "currentMismatch": 0,
+    "newMismatch": 0,
+    "failed": 0,
+    "details": [
+      {
+        "id": "ES-KURSS-FINAL-0001",
+        "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[1]/example[0]",
+        "status": "APPLIED_VERIFIED"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0002",
+        "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[2]/example[3]",
+        "status": "APPLIED_VERIFIED"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0003",
+        "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[9]/example[1]",
+        "status": "APPLIED_VERIFIED"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0004",
+        "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[9]/example[5]",
+        "status": "APPLIED_VERIFIED"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0005",
+        "field": "COURSE_LESSON_HTML.kurssPronunciationLesson/section[10]/h4",
+        "status": "APPLIED_VERIFIED"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0006",
+        "field": "COURSE_LESSON_HTML.kurssConsonantsLesson/section[1]/example[8]",
+        "status": "APPLIED_VERIFIED"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0007",
+        "field": "COURSE_LESSON_HTML.kurssConsonantsLesson/section[7]/example[4]",
+        "status": "NELABOT_UNCHANGED",
+        "note": "OWNER_ACCEPTED_NELABOT"
+      }
+    ],
+    "errors": []
+  },
+  "retention": {
+    "pass": true,
+    "matched": 14,
+    "total": 14,
+    "rows": [
+      {
+        "id": "ES-KURSS-PRON-001",
+        "field": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-002",
+        "field": "COURSE_LESSON_HTML.kurssPronunciationLesson",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-001",
+        "field": "kurss.vowelsSubtitle",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-003",
+        "field": "kurss.vowelsSubtitle",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-003",
+        "field": "kurss.consonantsSubtitle",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-005",
+        "field": "kurss.consonantsSubtitle",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-005",
+        "field": "kurss.vowelsTitle",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-007",
+        "field": "kurss.vowelsTitle",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-007",
+        "field": "kurss.consonantsTitle",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-009",
+        "field": "kurss.consonantsTitle",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-009",
+        "field": "kurss.consonantsDesc",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-PRON-UI-011",
+        "field": "kurss.consonantsDesc",
+        "ok": true,
+        "source": "pronunciation"
+      },
+      {
+        "id": "ES-KURSS-CONSONANTS-001",
+        "field": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+        "ok": true,
+        "source": "consonants"
+      },
+      {
+        "id": "ES-KURSS-CONSONANTS-002",
+        "field": "COURSE_LESSON_HTML.kurssConsonantsLesson",
+        "ok": true,
+        "source": "consonants"
+      }
+    ]
+  },
+  "structure": {
+    "pass": true,
+    "issues": [],
+    "pronSections": 15,
+    "consSections": 10
+  },
+  "mirrorSyntax": {
+    "pass": true,
+    "mirrorLessons": true,
+    "mirrorUi": true
+  },
+  "deUnchanged": {
+    "pass": true,
+    "diff": ""
+  },
+  "visual": {
+    "pass": true,
+    "results": [
+      {
+        "viewport": "desktop",
+        "panel": "#kurssPronunciationLesson",
+        "ok": true
+      },
+      {
+        "viewport": "desktop",
+        "panel": "#kurssConsonantsLesson",
+        "ok": true
+      },
+      {
+        "viewport": "mobile",
+        "panel": "#kurssPronunciationLesson",
+        "ok": true
+      },
+      {
+        "viewport": "mobile",
+        "panel": "#kurssConsonantsLesson",
+        "ok": true
+      }
+    ],
+    "pageErrors": []
+  },
+  "reconciliation": {
+    "auditRealCount": 7,
+    "unresolvedReal": 0,
+    "reconciledReal": 0,
+    "rows": [
+      {
+        "id": "ES-KURSS-FINAL-0001",
+        "resolution": "OWNER_LABOT_APPLIED",
+        "status": "CLOSED",
+        "expected": "Pilz (pilts) — hongo"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0002",
+        "resolution": "OWNER_LABOT_APPLIED",
+        "status": "CLOSED",
+        "expected": "Vogel (fōgel) — pájaro"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0003",
+        "resolution": "OWNER_LABOT_APPLIED",
+        "status": "CLOSED",
+        "expected": "kürzer (kürcer) — más corto"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0004",
+        "resolution": "OWNER_LABOT_APPLIED",
+        "status": "CLOSED",
+        "expected": "Mütter (müter) — madres"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0005",
+        "resolution": "OWNER_LABOT_APPLIED",
+        "status": "CLOSED",
+        "expected": "Diptongos: au y äu"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0006",
+        "resolution": "OWNER_LABOT_APPLIED",
+        "status": "CLOSED",
+        "expected": "Nacht (najt) — noche"
+      },
+      {
+        "id": "ES-KURSS-FINAL-0007",
+        "resolution": "OWNER_ACCEPTED_NELABOT",
+        "status": "CLOSED",
+        "retained": "Mythe (müte) — mito",
+        "rejectedProposal": "Mythe (mūte) — mito",
+        "reason": "OWNER rejects Luna NEW: German ü = /yː/; macron ū would imply incorrect /uː/. Retain CURRENT Mythe (müte)."
+      }
+    ],
+    "pass": true
+  }
+}
