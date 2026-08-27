@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.12\
+**Versija:** 1.13\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -1812,6 +1812,429 @@ Ja `MULTIPLE_TRANSLATIONS_DETECTED = true`:
 
 `OWNER_DECISION_REQUIRED` (sk. §1.1.3).
 
+## 7.26. Pilna audita definīcija — CARD vs FIELD coverage (v1.13)
+
+Pilns audits ir pabeigts tikai tad, ja izpildīti **abi** nosacījumi:
+
+1. pārbaudītas visas scope kartītes;
+2. pārbaudīti visi katras kartītes auditējamie lauki.
+
+Aizliegts interpretēt:
+
+```text
+CARD_COVERAGE = 100%
+```
+
+kā pierādījumu tam, ka pārbaudīti visi kartīšu lauki.
+
+Obligāti jāuzrāda atsevišķi:
+
+```text
+CARD_COVERAGE
+FIELD_COVERAGE
+STUDY_SECTION_COVERAGE
+```
+
+Šī prasība papildina §7.2, §7.19 un §7.10.4, bet tās neaizstāj.
+
+## 7.27. Deterministisks lauku inventārs (v1.13)
+
+Pirms Luna audita skriptam deterministiski jāizveido visu auditējamo objektu un
+lauku inventārs.
+
+Katram laukam obligāti jāsaglabā:
+
+```text
+Dataset
+Card number
+Card ID
+Card type
+Field/path
+CURRENT
+DE context
+Card context
+Study section
+Source file
+Production baseline SHA
+```
+
+Katram laukam jābūt stabilai unikālai atslēgai:
+
+```text
+(Dataset, Card ID, Field/path)
+```
+
+Ja viena atslēga atkārtojas:
+
+```text
+DUPLICATE_FIELD_KEY
+```
+
+un auditēšana nedrīkst tikt atzīta par pabeigtu.
+
+Inventārs ir obligāts avots `FIELD_COVERAGE` un batch `EXPECTED_FIELDS`
+aprēķinam.
+
+## 7.28. Precīzs Card ID un Field/path (v1.13)
+
+Katram findingam obligāti jānorāda:
+
+- precīzs production `Card ID`;
+- precīzs, tehniski atrisināms `Field/path`;
+- precīzs `CURRENT`;
+- atbilstošais DE teksts;
+- nepieciešamais kartītes vai Study konteksts.
+
+Aizliegti nenoteikti mērķi, piemēram:
+
+```text
+comparison[?]
+sectionAccents (examples)
+study field
+some example
+```
+
+Ja auditam nav iespējams noteikt precīzu lauku:
+
+```text
+NEEDS_SOURCE_REVIEW
+```
+
+vai:
+
+```text
+TECHNICAL_DEFER
+```
+
+Šādu rindu nedrīkst nodot COPY-ONLY apply kā `LABOT`.
+
+## 7.29. Obligāta pre-finding validācija (v1.13)
+
+Pirms findinga publicēšanas skriptam jāpārbauda:
+
+```text
+Card ID exists
+Field/path exists
+CURRENT === production value
+Card ID belongs to the actual target object
+Field belongs to the reported Card ID
+Finding is unique
+```
+
+Ja kāda pārbaude neizdodas, findings nedrīkst nonākt OWNER backlog kā
+apply-gatavs atradums.
+
+Statusi:
+
+```text
+INVALID_CARD_ID
+INVALID_FIELD
+CURRENT_VALUE_MISMATCH
+TARGET_OBJECT_MISMATCH
+DUPLICATE_FINDING
+```
+
+Šādi ieraksti jālabo audita slānī pirms OWNER faila publicēšanas.
+
+Šī prasība papildina §1.1.13 `INVALID AUDIT GATE` un §11.9 OWNER backlog
+validitāti.
+
+## 7.30. Obligāta lauku līmeņa Luna atbilde (v1.13)
+
+Luna jāatgriež rezultāts par **katru** inventārā iekļauto auditējamo lauku.
+
+Atļautie rezultāti:
+
+```text
+PASS
+FINDING
+NEEDS_SOURCE_REVIEW
+```
+
+Nedrīkst uzskatīt lauku par pārbaudītu, ja tam nav neviena no šiem
+rezultātiem.
+
+Katram batch obligāti jābūt:
+
+```text
+EXPECTED_FIELDS
+RETURNED_FIELD_RESULTS
+MISSING_FIELD_RESULTS
+DUPLICATE_FIELD_RESULTS
+```
+
+Batch ir `PASS` tikai tad, ja:
+
+```text
+EXPECTED_FIELDS === RETURNED_FIELD_RESULTS
+MISSING_FIELD_RESULTS = 0
+DUPLICATE_FIELD_RESULTS = 0
+```
+
+## 7.31. Obligāta audita sadalīšana — batch limiti (v1.13)
+
+Lielus valodas failus nedrīkst nosūtīt Luna kā vienu nedalītu audita bloku.
+
+Drošais noklusējuma sadalījums:
+
+| Kartītes tips     | Maksimālais apjoms vienā Luna pieprasījumā |
+| ----------------- | -----------------------------------------: |
+| Parastās kartītes |                                         25 |
+| `minimalStudy`    |                                         10 |
+| `standardStudy`   |                                          5 |
+
+Ja konkrētā datu struktūra ir īpaši liela vai sarežģīta, batch jāsamazina
+vēl vairāk.
+
+Batch palielināšana virs šīm robežām ir atļauta tikai ar dokumentētu
+pamatojumu un pierādītu pilnu `FIELD_COVERAGE`.
+
+Visu batchu rezultāti jāapvieno vienā kopējā auditā un vienā OWNER backlog.
+Batch sadalījums nedrīkst radīt vairākus neatkarīgus OWNER remonta procesus.
+
+## 7.32. Parasto kartīšu lauku audits (v1.13)
+
+Parastajai kartītei jāpārbauda visi faktiski eksistējošie auditējamie lauki,
+tostarp:
+
+- galvenais tulkojums;
+- papildteksts;
+- artikuls;
+- daudzskaitlis;
+- dzimte;
+- gramatiskā forma;
+- metadati;
+- redzamie paskaidrojumi;
+- atbilstība DE mērķvārdam;
+- Learning First Principle.
+
+Obligāti jāpārbauda, ka parastās kartītes galvenajā nozīmē nav:
+
+- `•`;
+- `/`;
+- komatu virknes;
+- vairākas savstarpēji atšķirīgas nozīmes;
+- paskaidrojuma teksta galvenās nozīmes vietā.
+
+Ja vajadzīgas vairākas nozīmes, jāizmanto `standardStudy`, nevis jāpārslogo
+parastā kartīte (sk. arī §1.1).
+
+## 7.33. Study kartīšu lauku audits (v1.13)
+
+Katram `minimalStudy` un `standardStudy` objektam jāizveido pilns tā faktiski
+eksistējošo lauku inventārs.
+
+`standardStudy` auditā atsevišķi jāpārbauda:
+
+- galvenā nozīme;
+- virsraksts un DE apakšvirsraksts;
+- Galvenā doma;
+- `explanation`;
+- visi `examples`;
+- visi `comparison` ieraksti;
+- `tip`;
+- `important`;
+- `sectionAccents`;
+- tulkojuma savstarpējā konsekvence;
+- DE–mērķvalodas semantiskā atbilstība;
+- kartītes iekšējā konsekvence.
+
+Katrs masīva elements jāuzskata par atsevišķu auditējamu lauku, piemēram:
+
+```text
+study.examples[0].lv
+study.examples[1].lv
+study.comparison[0].meaning
+study.comparison[0].example
+study.tip.text
+study.important[0]
+```
+
+Nedrīkst atskaitē apvienot vairākus laukus vienā rindā ar:
+
+```text
++N citi atradumi
+```
+
+Viena rinda ir viens precīzs:
+
+```text
+(Card ID, Field/path)
+```
+
+## 7.34. sectionAccents audits (v1.13)
+
+`sectionAccents` jāauditē kā atsevišķs strukturāls slānis pēc redzamā
+FR/mērķvalodas teksta pārbaudes (sk. arī §4).
+
+Katram akcenta terminam jāpierāda:
+
+- precīzs `sectionAccents` ceļš;
+- sadaļa, kurā termins jāatrod;
+- faktiskais sadaļas teksts;
+- vai termins tekstā eksistē;
+- vai reģistrs, diakritiskās zīmes un vārda forma atbilst.
+
+Automātiski nedrīkst pieņemt, ka:
+
+- mērķvalodas vārds Study tekstā ir `FOREIGN_REMNANT`;
+- vācu mērķvārds DE–mērķvalodas Study skaidrojumā ir kļūda;
+- `•` vai `/` Study salīdzinājumā vienmēr ir kļūda;
+- trūkstošs `sectionAccents` objekts automātiski nozīmē lingvistisku kļūdu.
+
+Ja akcenta termins ir novecojis, findings jānorāda ar precīzu masīva ceļu un
+vērtību.
+
+## 7.35. Trīs atsevišķi audita slāņi (v1.13)
+
+Katram batch jāveic trīs atsevišķi pārbaudes slāņi.
+
+### 7.35.1. Semantika un tulkojums
+
+Pārbaudīt:
+
+- mērķvalodas atbilstību DE vārdam;
+- piemēra atbilstību DE teikumam;
+- nepareizu nozīmi;
+- sajauktus salīdzinājuma vārdus;
+- nepareizu personu, dzimti, skaitli vai formalitāti;
+- nevajadzīgi pievienotu vai izlaistu informāciju.
+
+### 7.35.2. Gramatika un ortogrāfija
+
+Pārbaudīt:
+
+- gramatiskās formas;
+- artikulus;
+- dzimti un skaitli;
+- darbības vārdu formas;
+- pieturzīmes;
+- diakritiskās zīmes;
+- lielos un mazos burtus;
+- dabisku mērķvalodas formulējumu.
+
+### 7.35.3. Study struktūra un sectionAccents
+
+Pārbaudīt:
+
+- Study sadaļu pilnību;
+- piemēru un comparison savstarpējo atbilstību;
+- nepareizajā kartītē ievietotu Study saturu;
+- novecojušus akcenta terminus;
+- trūkstošus vai nepareizi kartētus laukus;
+- `minimalStudy` un `standardStudy` struktūras atbilstību.
+
+Findingus drīkst konsolidēt tikai pēc visu trīs slāņu pabeigšanas.
+
+## 7.36. Findingu kvalitātes vārti (v1.13)
+
+Pirms OWNER failu ģenerēšanas obligāti:
+
+```text
+INVALID_CARD_ID = 0
+INVALID_FIELD = 0
+TARGET_OBJECT_MISMATCH = 0
+CURRENT_VALUE_MISMATCH = 0
+DUPLICATE_FINDING = 0
+MISSING_REQUIRED_CONTEXT = 0
+```
+
+Ja kaut viens rādītājs nav nulle:
+
+```text
+AUDIT_ARTIFACTS_BLOCKED
+```
+
+OWNER backlog nedrīkst publicēt kā apply-gatavu.
+
+## 7.37. Obligātie gala audita rādītāji (v1.13)
+
+Pilna audita atskaitē obligāti jānorāda:
+
+```text
+CARD_COVERAGE = audited cards / expected cards
+FIELD_COVERAGE = returned field results / expected fields
+STUDY_SECTION_COVERAGE = audited Study sections / expected Study sections
+CURRENT_EXACT_MATCH = matched fields / checked fields
+DUPLICATES = 0
+MISSING_RESULTS = 0
+INVALID_CARD_ID = 0
+INVALID_FIELD = 0
+TARGET_OBJECT_MISMATCH = 0
+```
+
+Pilns audits ir `PASS` tikai tad, ja:
+
+```text
+CARD_COVERAGE = 100%
+FIELD_COVERAGE = 100%
+STUDY_SECTION_COVERAGE = 100%
+CURRENT_EXACT_MATCH = 100%
+DUPLICATES = 0
+MISSING_RESULTS = 0
+INVALID_CARD_ID = 0
+INVALID_FIELD = 0
+TARGET_OBJECT_MISMATCH = 0
+```
+
+## 7.38. OWNER backlog ģenerēšana — apply-gatavības noteikumi (v1.13)
+
+Vienā OWNER backlog drīkst iekļaut tikai validētus:
+
+```text
+FINDING
+NEEDS_SOURCE_REVIEW
+```
+
+Katram `FINDING` obligāti:
+
+```text
+Audit ID
+Card ID
+Field/path
+DE context
+CURRENT
+PROPOSED
+Severity
+Category
+Evidence
+OWNER STATUS
+OWNER NEW
+OWNER note
+```
+
+`PROPOSED` nav OWNER lēmums.
+
+Cursor nedrīkst izmantot audita `PROPOSED` kā remonta avotu, kamēr OWNER nav
+piešķīris:
+
+```text
+OWNER STATUS = LABOT
+OWNER NEW = precīza gala vērtība
+```
+
+Šī prasība papildina §7.6, §7.20 un §9 COPY-ONLY repair.
+
+## 7.39. Audita pabeigtības interpretācija (v1.13)
+
+Aizliegts atskaitē rakstīt:
+
+```text
+100% audit complete
+```
+
+tikai tāpēc, ka modelim nosūtītas visas kartītes.
+
+Atļauts rakstīt `100% audit complete` tikai tad, ja pierādīti visi:
+
+```text
+CARD_COVERAGE
+FIELD_COVERAGE
+STUDY_SECTION_COVERAGE
+BATCH_COMPLETENESS
+CURRENT_EXACT_MATCH
+```
+
 ------------------------------------------------------------------------
 # 8. OWNER REVIEW
 
@@ -2539,6 +2962,83 @@ Ja `MULTIPLE_MAIN_TRANSLATIONS_OWNER_UNRESOLVED > 0` vai
 `MAIN_TRANSLATION_COUNT_VIOLATIONS > 0` vai `UNMAPPED_MAIN_TRANSLATION_FIELDS > 0`
 vai `MAIN_TRANSLATION_FIELD_INVENTORY_COVERAGE < 100%` →
 `FINAL_CLOSED_ON_MAIN = BLOCKED`.
+
+## 11.16. Post-repair audits — v1.13 closure vārti
+
+Pēc OWNER COPY-ONLY apply obligāti jāveic:
+
+1. targeted regression visiem OWNER `LABOT`;
+2. pilns post-repair residual audits ar **to pašu** lauku inventāru un batch
+   metodiku (§7.27–§7.31).
+
+Targeted regression viena pati nav closure pierādījums (sk. arī §7.2.1 un
+§11.1).
+
+Post-repair audits jāsalīdzina ar sākotnējo inventāru un OWNER vēsturi.
+
+Closure ir atļauts tikai tad, ja:
+
+```text
+APPLIED_VERIFIED = 100%
+REPAIR_REGRESSION = 0
+NEW_VALIDATED_REAL_FINDINGS = 0
+CARD_COVERAGE = 100%
+FIELD_COVERAGE = 100%
+STUDY_SECTION_COVERAGE = 100%
+all technical gates = PASS
+```
+
+## 11.17. OWNER vēstures aizsardzība — FALSE_POSITIVE lock (v1.13)
+
+Pirms jauna findinga publicēšanas jāpārbauda iepriekšējā OWNER vēsture pēc:
+
+```text
+(Dataset, Card ID, Field/path, CURRENT)
+```
+
+Iepriekšējs:
+
+```text
+FALSE_POSITIVE
+NELABOT
+OWNER_ACCEPTED
+```
+
+nedrīkst tikt atkārtoti atvērts bez jauna konkrēta pierādījuma.
+
+Atkārtotai atvēršanai obligāti jānorāda:
+
+```text
+OWNER_DECISION_REOPEN_REQUIRED
+Previous OWNER status
+Previous OWNER value
+New evidence
+Why previous decision is no longer valid
+```
+
+Bez šiem laukiem iepriekšējais OWNER lēmums paliek spēkā.
+
+Šī prasība papildina §11.6, §11.8 un §11.9, bet tās neaizstāj.
+
+## 11.18. v1.13 closure metrics — field-level coverage hard gate
+
+Katras valodas/dataset gala closure atskaitē obligāti norādīt (papildus
+§11.15):
+
+```text
+FIELD_COVERAGE = 100%
+STUDY_SECTION_COVERAGE = 100%
+CURRENT_EXACT_MATCH = 100%
+MISSING_RESULTS = 0
+DUPLICATES = 0
+INVALID_CARD_ID = 0
+INVALID_FIELD = 0
+TARGET_OBJECT_MISMATCH = 0
+AUDIT_ARTIFACTS_BLOCKED = 0
+```
+
+Ja kāds no šiem rādītājiem nav izpildīts → `FINAL_CLOSED_ON_MAIN = BLOCKED`.
+
 ------------------------------------------------------------------------
 
 # 12. GIT / BRANCH MASTER PROTOKOLS
@@ -3165,6 +3665,40 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.13
+
+Pilna audita metodika — deterministisks lauku inventārs, lauku līmeņa
+`PASS`/`FINDING`/`NEEDS_SOURCE_REVIEW`, drošie Luna batch limiti 25/10/5,
+trīs audita slāņi, pre-finding Card ID/Field/CURRENT validācija, OWNER
+`FALSE_POSITIVE` vēstures aizsardzība un obligāts `FIELD_COVERAGE`
+closure vārts.
+
+Pievienots:
+
+- §7.26 pilna audita definīcija (`CARD_COVERAGE` ≠ `FIELD_COVERAGE`);
+- §7.27 deterministisks lauku inventārs un `DUPLICATE_FIELD_KEY`;
+- §7.28 precīzs `Card ID` / `Field/path`;
+- §7.29 pre-finding validācija (`INVALID_*`, `TARGET_OBJECT_MISMATCH`);
+- §7.30 lauku līmeņa Luna atbilde un batch completeness;
+- §7.31 obligāta audita sadalīšana (25/10/5);
+- §7.32 parasto kartīšu lauku audits;
+- §7.33 Study kartīšu lauku audits;
+- §7.34 `sectionAccents` audits;
+- §7.35 trīs audita slāņi;
+- §7.36 findingu kvalitātes vārti (`AUDIT_ARTIFACTS_BLOCKED`);
+- §7.37 obligātie gala audita rādītāji;
+- §7.38 OWNER backlog apply-gatavības noteikumi;
+- §7.39 audita pabeigtības interpretācija;
+- §11.16 post-repair audits ar lauku inventāru;
+- §11.17 OWNER vēstures aizsardzība;
+- §11.18 v1.13 field-level closure metrics.
+
+**FINAL v1.13 RULE:** `100% audit complete` nozīmē pierādītu kartīšu **un**
+lauku pārklājumu ar precīzu `Card ID`, `Field/path` un `CURRENT`; findings ar
+nepareizu mērķi nedrīkst nonākt apply-gatavā OWNER backlog.
+
+Version 1.12 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.13.
+
 ## Version 1.12
 
 Universal single main translation — viena kartīte = viena galvenā nozīme = viens
@@ -3405,4 +3939,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.12 --- END
+## MASTER 1.13 --- END
