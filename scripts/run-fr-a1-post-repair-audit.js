@@ -726,27 +726,17 @@ async function main() {
       path.join(ROOT, "reports/temp/fr-a1-post-repair-audit.json"),
       JSON.stringify({ ...payload, findings: ownerBacklogFinal, validatedFindings: ownerBacklogFinal, totalFindings: ownerBacklogFinal.length }, null, 2),
     );
-    const dryRun = process.argv.includes("--owner-publish-dry-run");
-    const ownerPublication = publishOwnerArtifacts({
-      moduleKey: "fr-a1",
+    run("node scripts/build-fr-a1-post-repair-owner-review.js");
+    ctx.verdict = resolveFinalVerdict({
       backlogCount: ownerBacklogFinal.length,
-      dryRun,
-      skipCommit: dryRun,
-      skipPush: dryRun,
+      baseVerdict: "NEEDS_OWNER_REVIEW",
+      publication: null,
     });
-    if (!ownerPublication.pass) {
-      ctx.verdict = ownerPublication.verdict || "BLOCKED_OWNER_ARTIFACT_PUBLICATION_FAILED";
-      console.error("\nSTOP:", ctx.verdict, "\n");
-      if (ownerPublication.coverage) console.error(JSON.stringify(ownerPublication.coverage, null, 2));
-      process.exit(9);
-    }
-    ctx.verdict = computeVerdict(classificationStats, ctx, ownerPublication);
     payload.meta.verdict = ctx.verdict;
-    payload.meta.ownerArtifactPublication = ownerPublication.publication?.ownerArtifactPublication || "PASS";
+    payload.meta.ownerArtifactPublication = "MANUAL_BUILD";
     fs.writeFileSync(OUT_JSON, JSON.stringify(payload, null, 2));
     fs.writeFileSync(OUT_JSON_PUBLISHED, JSON.stringify(payload, null, 2));
     fs.writeFileSync(OUT_MD, buildReport(ctx));
-    if (ownerPublication.responseText) console.log(ownerPublication.responseText);
   } else if (ownerBacklogFinal.length > 0 && !discoveryStability.gates.ownerBacklogAllowed) {
     console.error("\nSTOP: PRE_BACKLOG_HISTORY_GATE = FAIL — OWNER-PREP blocked (§7.18)\n");
   } else {
