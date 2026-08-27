@@ -22,7 +22,7 @@ window.lesson1TrainingCardsEs = [
     "back": "Gehen sie?"
   },
   {
-    "front": "Sí, van.",
+    "front": "Sí, se van.",
     "back": "Ja, sie gehen."
   },
   {
