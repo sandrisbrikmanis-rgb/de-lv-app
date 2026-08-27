@@ -1,6 +1,5 @@
 {
   "baseSha": "7d6447229755c46c2e2c77d9149997fe69d70dab",
-  "headSha": "7d6447229755c46c2e2c77d9149997fe69d70dab",
   "dryRun": false,
   "mode": "micro-only",
   "blockers": [],
