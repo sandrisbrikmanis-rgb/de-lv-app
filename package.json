@@ -18,7 +18,10 @@
     "test:openai-translate": "node scripts/test-openai-translate.js",
     "i18n:ui:export": "node scripts/export-ui-crowdin.js",
     "i18n:ui:import": "node scripts/import-ui-crowdin.js",
-    "i18n:ui:verify-roundtrip": "node scripts/verify-ui-crowdin-roundtrip.js"
+    "i18n:ui:verify-roundtrip": "node scripts/verify-ui-crowdin-roundtrip.js",
+    "i18n:ui:verify-merge": "node scripts/verify-ui-crowdin-import-merge.js",
+    "i18n:ui:verify-production": "node scripts/verify-ui-crowdin-production-unchanged.js",
+    "i18n:ui:verify": "npm run i18n:ui:verify-roundtrip && npm run i18n:ui:verify-merge && npm run i18n:ui:verify-production"
   },
   "keywords": [],
   "author": "",

@@ -4,8 +4,12 @@
 /**
  * Import crowdin/ui/{lang}.json → languages/{lang}/ui.js
  *
+ * Merges Crowdin keys onto the existing ui.js object so locale-only keys
+ * (e.g. EN/ES +7 not present in LV Crowdin source) are never deleted.
+ *
  * Default is --dry-run (no writes). Pass --write to update ui.js files.
- * Regenerates canonical JS (JSON.stringify); use only after Crowdin edits.
+ * Before --write, every locale is validated (placeholder multiset + HTML
+ * tag structure). Any failure aborts with no files written.
  */
 
 const fs = require("fs");
@@ -14,8 +18,12 @@ const {
   UI_LANGUAGES,
   UI_JS_REL,
   abs,
+  loadUiObject,
+  flattenUiStrings,
   parseCrowdinJson,
-  importCrowdinJsonToUi,
+  mergeCrowdinImport,
+  validateImportGuards,
+  assertKeysPreserved,
   serializeUiJs,
   ensureDir,
 } = require("./lib/ui-crowdin-bridge");
@@ -34,8 +42,8 @@ function parseArgs(argv) {
     } else if (argv[i] === "--help" || argv[i] === "-h") {
       console.log(`Usage: node scripts/import-ui-crowdin.js [--lang CODE] [--in DIR] [--write]
 
-Imports flat Crowdin JSON back to languages/{lang}/ui.js.
-Dry-run by default; pass --write to persist changes.
+Imports flat Crowdin JSON back to languages/{lang}/ui.js (merge, never drops keys).
+Dry-run by default; pass --write to persist after guard validation passes for all locales.
 `);
       process.exit(0);
     } else {
@@ -50,6 +58,39 @@ Dry-run by default; pass --write to persist changes.
   };
 }
 
+function prepareImport(lang, inDir) {
+  const jsonPath = path.join(inDir, `${lang}.json`);
+  if (!fs.existsSync(jsonPath)) {
+    throw new Error(`Missing JSON for ${lang}: ${jsonPath}`);
+  }
+  const { obj: existing } = loadUiObject(UI_JS_REL(lang));
+  const existingFlat = flattenUiStrings(existing);
+  const crowdinFlat = parseCrowdinJson(fs.readFileSync(jsonPath, "utf8"));
+  const guardErrors = validateImportGuards(existingFlat, crowdinFlat);
+  if (guardErrors.length) {
+    return { lang, ok: false, errors: guardErrors };
+  }
+  const merged = mergeCrowdinImport(existing, crowdinFlat, lang);
+  const mergedFlat = flattenUiStrings(merged);
+  const preserveErrors = assertKeysPreserved(existingFlat, mergedFlat, lang);
+  if (preserveErrors.length) {
+    return { lang, ok: false, errors: preserveErrors };
+  }
+  return {
+    lang,
+    ok: true,
+    existingFlat,
+    crowdinFlat,
+    mergedFlat,
+    merged,
+    jsText: serializeUiJs(merged),
+    outPath: abs(UI_JS_REL(lang)),
+    crowdinKeys: Object.keys(crowdinFlat).length,
+    preservedKeys: Object.keys(existingFlat).length,
+    mergedKeys: Object.keys(mergedFlat).length,
+  };
+}
+
 function main() {
   const { langs, inDir, write } = parseArgs(process.argv);
   if (!fs.existsSync(inDir)) {
@@ -57,42 +98,55 @@ function main() {
     process.exit(1);
   }
 
-  const summary = [];
   for (const lang of langs) {
     if (!UI_LANGUAGES.includes(lang)) {
       console.error(`Unknown UI language: ${lang}`);
       process.exit(1);
     }
-    const jsonPath = path.join(inDir, `${lang}.json`);
-    if (!fs.existsSync(jsonPath)) {
-      console.error(`Missing JSON for ${lang}: ${jsonPath}`);
-      process.exit(1);
-    }
-    const flat = parseCrowdinJson(fs.readFileSync(jsonPath, "utf8"));
-    const uiObj = importCrowdinJsonToUi(flat, lang);
-    const jsText = serializeUiJs(uiObj);
-    const outRel = UI_JS_REL(lang);
-    const outPath = abs(outRel);
-
-    if (write) {
-      ensureDir(path.dirname(outPath));
-      fs.writeFileSync(outPath, jsText, "utf8");
-    }
-
-    summary.push({
-      lang,
-      keys: Object.keys(flat).length,
-      outPath,
-      mode: write ? "written" : "dry-run",
-    });
   }
 
-  console.log(`${write ? "Imported" : "Validated import for"} ${summary.length} UI locale(s) from ${inDir}`);
-  for (const row of summary) {
-    console.log(`  ${row.lang}: ${row.keys} keys → ${row.outPath} (${row.mode})`);
+  const prepared = [];
+  const failures = [];
+
+  for (const lang of langs) {
+    try {
+      const result = prepareImport(lang, inDir);
+      if (!result.ok) {
+        failures.push(result);
+      } else {
+        prepared.push(result);
+      }
+    } catch (err) {
+      failures.push({ lang, ok: false, errors: [err.message] });
+    }
+  }
+
+  if (failures.length) {
+    console.error(`UI Crowdin import validation FAILED (${failures.length} locale(s)); nothing written:`);
+    for (const fail of failures) {
+      console.error(`  ${fail.lang}:`);
+      for (const msg of fail.errors) {
+        console.error(`    - ${msg}`);
+      }
+    }
+    process.exit(1);
+  }
+
+  if (write) {
+    for (const row of prepared) {
+      ensureDir(path.dirname(row.outPath));
+      fs.writeFileSync(row.outPath, row.jsText, "utf8");
+    }
+  }
+
+  console.log(`${write ? "Imported" : "Validated import for"} ${prepared.length} UI locale(s) from ${inDir}`);
+  for (const row of prepared) {
+    console.log(
+      `  ${row.lang}: crowdin ${row.crowdinKeys} keys merged → ${row.mergedKeys} total (${row.preservedKeys} preserved baseline) → ${row.outPath} (${write ? "written" : "dry-run"})`
+    );
   }
   if (!write) {
-    console.log("Dry-run only — pass --write to update languages/*/ui.js");
+    console.log("Dry-run only — pass --write to update languages/*/ui.js after guards pass");
   }
 }
 

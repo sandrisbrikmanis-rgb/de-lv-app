@@ -26,7 +26,20 @@ const UI_LANGUAGES = [
 const UI_JS_REL = (lang) => path.join("languages", lang, "ui.js");
 const UI_JSON_REL = (lang) => path.join("crowdin", "ui", `${lang}.json`);
 
+/** Crowdin source locale for UI string keys (305-key master set). */
+const CROWDIN_SOURCE_LANG = "lv";
+
+/**
+ * Mandatory Crowdin ↔ repo folder mappings (ISO / Crowdin code → repo dir).
+ * All others use the same code in Crowdin and languages/{code}/.
+ */
+const CROWDIN_LANGUAGE_MAP = {
+  el: "gr", // Greek: Crowdin `el` → repo `languages/gr/ui.js`
+};
+
 const METADATA_KEYS = new Set(["__langCode"]);
+const PLACEHOLDER_RE = /\{(\w+)\}/g;
+const HTML_TAG_RE = /<\/?([a-zA-Z][\w-]*)\b[^>]*>/g;
 
 function abs(relPath) {
   return path.join(ROOT, relPath);
@@ -128,6 +141,102 @@ function importCrowdinJsonToUi(flat, langCode) {
   return nested;
 }
 
+/**
+ * Overlay Crowdin flat keys onto an existing ui.js object.
+ * Keys present in the target but absent from Crowdin (e.g. EN/ES +7) are preserved.
+ */
+function mergeCrowdinImport(existingObj, crowdinFlat, langCode) {
+  if (!langCode || typeof langCode !== "string") {
+    throw new Error("langCode is required for merge import");
+  }
+  const existingFlat = flattenUiStrings(existingObj);
+  const mergedFlat = { ...existingFlat, ...crowdinFlat };
+  const nested = unflattenUiStrings(mergedFlat);
+  nested.__langCode = langCode;
+  return nested;
+}
+
+function extractPlaceholderMultiset(str) {
+  const counts = {};
+  if (typeof str !== "string") return counts;
+  for (const match of str.matchAll(PLACEHOLDER_RE)) {
+    const name = match[1];
+    counts[name] = (counts[name] || 0) + 1;
+  }
+  return counts;
+}
+
+function multisetEqual(a, b) {
+  const keys = new Set([...Object.keys(a), ...Object.keys(b)]);
+  for (const key of keys) {
+    if ((a[key] || 0) !== (b[key] || 0)) return false;
+  }
+  return true;
+}
+
+function extractHtmlTagStructure(str) {
+  if (typeof str !== "string" || !str.includes("<")) return "";
+  const tokens = [];
+  for (const match of str.matchAll(HTML_TAG_RE)) {
+    const full = match[0];
+    const name = match[1].toLowerCase();
+    tokens.push(full.startsWith("</") ? `/${name}` : name);
+  }
+  return tokens.join("|");
+}
+
+/**
+ * Guard imported Crowdin values before --write.
+ * For each overlapping key, placeholder multiset and HTML tag structure
+ * must match the existing target ui.js value.
+ */
+function validateImportGuards(existingFlat, crowdinFlat) {
+  const errors = [];
+  for (const key of Object.keys(crowdinFlat).sort()) {
+    const incoming = crowdinFlat[key];
+    const existing = existingFlat[key];
+    if (existing === undefined) {
+      continue;
+    }
+    const expectedPh = extractPlaceholderMultiset(existing);
+    const incomingPh = extractPlaceholderMultiset(incoming);
+    if (!multisetEqual(expectedPh, incomingPh)) {
+      errors.push(
+        `${key}: placeholder multiset mismatch (expected ${JSON.stringify(expectedPh)}, got ${JSON.stringify(incomingPh)})`
+      );
+    }
+    const expectedHtml = extractHtmlTagStructure(existing);
+    const incomingHtml = extractHtmlTagStructure(incoming);
+    if (expectedHtml !== incomingHtml) {
+      errors.push(
+        `${key}: HTML tag structure mismatch (expected "${expectedHtml}", got "${incomingHtml}")`
+      );
+    }
+  }
+  return errors;
+}
+
+function assertKeysPreserved(existingFlat, mergedFlat, label) {
+  const errors = [];
+  for (const key of Object.keys(existingFlat).sort()) {
+    if (!Object.prototype.hasOwnProperty.call(mergedFlat, key)) {
+      errors.push(`${label}: lost key ${key}`);
+    }
+  }
+  return errors;
+}
+
+function repoLangFromCrowdinCode(crowdinCode) {
+  return CROWDIN_LANGUAGE_MAP[crowdinCode] || crowdinCode;
+}
+
+function crowdinCodeFromRepoLang(repoLang) {
+  for (const [crowdinCode, mappedRepoLang] of Object.entries(CROWDIN_LANGUAGE_MAP)) {
+    if (mappedRepoLang === repoLang) return crowdinCode;
+  }
+  return repoLang;
+}
+
 function serializeUiJs(obj) {
   const sorted = sortObjectDeep(obj);
   return `window.LANGUAGE_UI_STRINGS = ${JSON.stringify(sorted, null, 2)};\n`;
@@ -192,6 +301,8 @@ module.exports = {
   UI_LANGUAGES,
   UI_JS_REL,
   UI_JSON_REL,
+  CROWDIN_SOURCE_LANG,
+  CROWDIN_LANGUAGE_MAP,
   METADATA_KEYS,
   abs,
   loadUiObject,
@@ -199,6 +310,13 @@ module.exports = {
   unflattenUiStrings,
   exportUiToCrowdinJson,
   importCrowdinJsonToUi,
+  mergeCrowdinImport,
+  extractPlaceholderMultiset,
+  extractHtmlTagStructure,
+  validateImportGuards,
+  assertKeysPreserved,
+  repoLangFromCrowdinCode,
+  crowdinCodeFromRepoLang,
   serializeUiJs,
   parseCrowdinJson,
   deepEqualSemantic,

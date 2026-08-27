@@ -13,5 +13,16 @@
 #     translation: /crowdin/ui/%two_letters_code%.json
 #     type: json
 #
-# Note: locale codes in this repo (gr, nb, nn, lb, …) may need Crowdin
-# language mapping overrides — verify in Crowdin project settings.
+# ---------------------------------------------------------------------------
+# MANDATORY Crowdin language mapping (Crowdin code → repo folder)
+# ---------------------------------------------------------------------------
+# Greek MUST map Crowdin `el` to repo directory `gr`:
+#   Crowdin locale: el
+#   Repo path:      languages/gr/ui.js
+#   Export file:    crowdin/ui/gr.json
+#
+# Configure in Crowdin: Project Settings → Languages → Custom language codes
+# or map `el` → `%two_letters_code%.json` with a custom export name override for gr.
+#
+# Other repo codes (nb, nn, lb, uk, …) use the same folder name in Crowdin unless
+# your project uses ISO overrides — verify mappings before first upload.
