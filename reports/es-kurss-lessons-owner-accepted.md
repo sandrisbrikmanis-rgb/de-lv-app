@@ -9,13 +9,13 @@ Findings: **993** ieraksti
 
 | # | Finding | Lesson | Path | DE_CONTEXT | ES_CURRENT | PROPOSED_ES | Severity | Statuss | OWNER_DECISION |
 |--:|--------:|--------|------|------------|------------|-------------|----------|---------|----------------|
-| 1 | ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | inline:8944 | (align with LV MASTER structure) | HIGH | LABOT | |
-| 2 | ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | inline:6561 | (align with LV MASTER structure) | HIGH | LABOT | |
-| 3 | ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | inline:7121 | (align with LV MASTER structure) | HIGH | LABOT | |
-| 4 | ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | inline:7423 | (align with LV MASTER structure) | HIGH | LABOT | |
-| 5 | ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | inline:6627 | (align with LV MASTER structure) | HIGH | LABOT | |
-| 6 | ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | inline:9069 | (align with LV MASTER structure) | HIGH | LABOT | |
-| 7 | ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | inline:6157 | (align with LV MASTER structure) | HIGH | LABOT | |
+| 1 | ES-KURSS-LESSONS-STR-L01 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | inline:8944 | (align with LV MASTER structure) | HIGH | LABOT | |
+| 2 | ES-KURSS-LESSONS-STR-L02 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | inline:6561 | (align with LV MASTER structure) | HIGH | LABOT | |
+| 3 | ES-KURSS-LESSONS-STR-L03 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | inline:7121 | (align with LV MASTER structure) | HIGH | LABOT | |
+| 4 | ES-KURSS-LESSONS-STR-L04 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | inline:7423 | (align with LV MASTER structure) | HIGH | LABOT | |
+| 5 | ES-KURSS-LESSONS-STR-L05 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | inline:6627 | (align with LV MASTER structure) | HIGH | LABOT | |
+| 6 | ES-KURSS-LESSONS-STR-L06 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` |  | inline:9069 | (align with LV MASTER structure) | HIGH | LABOT | |
+| 7 | ES-KURSS-LESSONS-STR-L07 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | inline:6157 | (align with LV MASTER structure) | HIGH | LABOT | |
 | 8 | ES-KURSS-LESSONS-DET-0001 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ellos / tú vienes | (OWNER_DECISION_REQUIRED: choose single main trans… | MEDIUM | LABOT | |
 | 9 | ES-KURSS-LESSONS-DET-0002 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ♟gehen | ♟gehen — go | (OWNER: Spanish replacement per DE/LV meaning) | MEDIUM | LABOT | |
 | 10 | ES-KURSS-LESSONS-DET-0003 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ellos / tú vas | (OWNER_DECISION_REQUIRED: choose single main trans… | MEDIUM | LABOT | |

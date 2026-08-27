@@ -68,16 +68,268 @@
   },
   "duplicateCount": 163,
   "comparison": {
-    "v1Findings": 993,
+    "v1Findings": 919,
     "v2Findings": 993,
-    "newInV2": 0,
-    "droppedFromV1": 0,
-    "newInV2Sample": [],
-    "droppedSample": []
+    "newInV2": 210,
+    "droppedFromV1": 136,
+    "newInV2Sample": [
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0023",
+        "category": "STRUCTURE",
+        "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[4]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0024",
+        "category": "STRUCTURE",
+        "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[5]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0025",
+        "category": "STRUCTURE",
+        "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[6]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0026",
+        "category": "STRUCTURE",
+        "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[7]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0036",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "lesson1TrainingCardsEs[5].front"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0051",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml → accordion[2]:Gramática → course-example[11]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0098",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → kurss-example[10]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0099",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → kurss-example[11]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0100",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → kurss-example[12]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0105",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → kurss-example[17]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0106",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → kurss-example[18]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0107",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → kurss-example[19]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0108",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → kurss-example[20]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0112",
+        "category": "ES_NATURALNESS",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → grammar-note[2]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0124",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "lesson3TrainingCardsEs[5].front"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0129",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[0]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0130",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[1]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0131",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[2]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0132",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[3]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0133",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[4]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0134",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[5]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0135",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[6]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0136",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[7]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0187",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "lesson4TrainingCardsEs[13].front"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0208",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "lesson5TrainingCardsEs[11].front"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0212",
+        "category": "ES_NATURALNESS",
+        "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[3]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0217",
+        "category": "TRANSLATION",
+        "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[20]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0287",
+        "category": "PEDAGOGICAL_ISSUE",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0293",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[28].lv"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-LV2-0298",
+        "category": "ES_NATURALNESS",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv"
+      }
+    ],
+    "droppedSample": [
+      {
+        "id": "ES-KURSS-LESSONS-L0032",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "lesson1TrainingCardsEs[1].front"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0046",
+        "category": "ES_ORTHOGRAPHY",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml → accordion[2]:Gramática → course-example[21]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0048",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml → accordion[2]:Gramática → grammar-note[2]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0054",
+        "category": "ES_ORTHOGRAPHY",
+        "path": "lesson2TrainingCardsEs[7].front"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0085",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[2]:Pronunciación → kurss-example[1]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0146",
+        "category": "TRANSLATION",
+        "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[2]:Pronunciación → kurss-example[1]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0188",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "lesson5TrainingCardsEs[8].front"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0191",
+        "category": "ES_NATURALNESS",
+        "path": "kurss.lessonItems.6.menuDesc (lesson header subtitle / menu)"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0194",
+        "category": "SEMANTIC_MISMATCH",
+        "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[4]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0212",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[3]:Gramática → kurss-example[4]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0251",
+        "category": "TRANSLATION",
+        "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[1]:Palabras → course-example[1]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0270",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].items[0]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0271",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].items[1]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0272",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].items[2]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0273",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].items[3]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0274",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].items[4]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0275",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].items[5]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0276",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].items[6]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0277",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].items[7]"
+      },
+      {
+        "id": "ES-KURSS-LESSONS-L0278",
+        "category": "FOREIGN_LEFTOVER",
+        "path": "COURSE_LESSON_DATA.kurssLesson8.sections[0].items[8]"
+      }
+    ]
   },
   "findings": [
     {
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L01",
       "severity": "HIGH",
       "lessonId": "lesson1",
       "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson1",
@@ -90,7 +342,7 @@
       "source": "structure"
     },
     {
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L02",
       "severity": "HIGH",
       "lessonId": "lesson2",
       "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson2",
@@ -103,7 +355,7 @@
       "source": "structure"
     },
     {
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L03",
       "severity": "HIGH",
       "lessonId": "lesson3",
       "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson3",
@@ -116,7 +368,7 @@
       "source": "structure"
     },
     {
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L04",
       "severity": "HIGH",
       "lessonId": "lesson4",
       "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson4",
@@ -129,7 +381,7 @@
       "source": "structure"
     },
     {
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L05",
       "severity": "HIGH",
       "lessonId": "lesson5",
       "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson5",
@@ -142,7 +394,7 @@
       "source": "structure"
     },
     {
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L06",
       "severity": "HIGH",
       "lessonId": "lesson6",
       "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson6",
@@ -155,7 +407,7 @@
       "source": "structure"
     },
     {
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L07",
       "severity": "HIGH",
       "lessonId": "lesson7",
       "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson7",

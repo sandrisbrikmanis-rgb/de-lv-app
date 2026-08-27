@@ -14,7 +14,7 @@ const { NON_ERROR_CATEGORIES } = require("./lib/openai-es-kurss-lessons-audit");
 const LUNA_V2_DIR = path.join(ROOT, "reports/temp/es-kurss-lessons-full-audit-luna-v2");
 const OUT_JSON = path.join(ROOT, "reports/temp/es-kurss-lessons-full-audit-v2.json");
 const OUT_MD = path.join(ROOT, "reports/es-kurss-lessons-full-audit-v2.md");
-const COVERAGE_JSON = path.join(ROOT, "reports/temp/es-kurss-lessons-luna-v2-coverage-proof.json");
+const V1_AUDIT_JSON = path.join(ROOT, "reports/temp/es-kurss-lessons-full-audit.json");
 
 const {
   scanDeterministic,
@@ -106,7 +106,7 @@ function main() {
     return acc;
   }, {});
 
-  const v1Audit = JSON.parse(fs.readFileSync(path.join(ROOT, "reports/temp/es-kurss-lessons-full-audit.json"), "utf8"));
+  const v1Audit = JSON.parse(fs.readFileSync(V1_AUDIT_JSON, "utf8"));
   const v1Keys = new Set((v1Audit.findings || []).map(dedupeKey));
   const v2Keys = new Set(merged.map(dedupeKey));
   const newInV2 = merged.filter((f) => !v1Keys.has(dedupeKey(f)));

@@ -14,7 +14,8 @@
       "newInV2": 210,
       "reEvaluated": 272,
       "unchanged": 511
-    }
+    },
+    "labotSameAsCurrent": 0
   },
   "comparison": {
     "new": [
@@ -2980,7 +2981,7 @@
   "decisions": [
     {
       "num": 1,
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L01",
       "lessonId": "lesson1",
       "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson1",
       "category": "STRUCTURE",
@@ -2999,7 +3000,7 @@
     },
     {
       "num": 2,
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L02",
       "lessonId": "lesson2",
       "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson2",
       "category": "STRUCTURE",
@@ -3018,7 +3019,7 @@
     },
     {
       "num": 3,
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L03",
       "lessonId": "lesson3",
       "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson3",
       "category": "STRUCTURE",
@@ -3037,7 +3038,7 @@
     },
     {
       "num": 4,
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L04",
       "lessonId": "lesson4",
       "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson4",
       "category": "STRUCTURE",
@@ -3056,7 +3057,7 @@
     },
     {
       "num": 5,
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L05",
       "lessonId": "lesson5",
       "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson5",
       "category": "STRUCTURE",
@@ -3075,7 +3076,7 @@
     },
     {
       "num": 6,
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L06",
       "lessonId": "lesson6",
       "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson6",
       "category": "STRUCTURE",
@@ -3094,7 +3095,7 @@
     },
     {
       "num": 7,
-      "id": "ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL",
+      "id": "ES-KURSS-LESSONS-STR-L07",
       "lessonId": "lesson7",
       "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson7",
       "category": "STRUCTURE",
@@ -4037,9 +4038,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "die Feder (dī fēder) — puntiagudo",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "die Feder (di feder) — puntiaguda",
+      "ownerDecision": "LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.",
+      "reason": "DE headword checked; prior gloss was semantically wrong or corrupted.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4265,9 +4266,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Lehrer (dēr lērer) — profesor",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Lehrer (der lerer) — profesor",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4322,9 +4323,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Schüler (šūler) — estudiante",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Schüler (shuler) — estudiante",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4607,9 +4608,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Schlüssel (šlūsel) — llave",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Schlüssel (shlusel) — llave",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4626,9 +4627,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "die Tafel (dī tāfel) — pizarra",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "die Tafel (di tafel) — pizarra",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4664,9 +4665,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Deckel (dēr dekel) — tapa",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Deckel (der dekel) — tapa",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4702,9 +4703,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "schwer (švēr) — pesado, difícil",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "schwer (shver) — pesado, difícil",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5139,9 +5140,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "das Lied (das līt) — jovencita",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "das Lied (das lit) — canción",
+      "ownerDecision": "LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.",
+      "reason": "DE headword checked; prior gloss was semantically wrong or corrupted.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5158,9 +5159,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Spiegel (špīgel) — escoba",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Spiegel (shpigel) — espejo",
+      "ownerDecision": "LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.",
+      "reason": "DE headword checked; prior gloss was semantically wrong or corrupted.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5177,9 +5178,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "die Schüssel — sp al principio de una palabra o sílaba se pronuncia como šp: der Spiegel (para špīgel).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "die Schüssel (di shusel) — cuenco",
+      "ownerDecision": "LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.",
+      "reason": "DE headword checked; prior gloss was semantically wrong or corrupted.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5652,9 +5653,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Bäcker (dēr beker) — panadero",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Bäcker (der beker) — panadero",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5671,9 +5672,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Schneider (dēr šneider) — sastre",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Schneider (der shneider) — sastre",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5690,9 +5691,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Gärtner (dēr gertner) — jardinero",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Gärtner (der gertner) — jardinero",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5728,9 +5729,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (dēr gertner).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (der gertner).",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6051,9 +6052,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Brief (dēr brīf) — carta",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Brief (der brif) — carta",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6222,9 +6223,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "ihr seid (īr zeit) — vosotros sois / estáis",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "ihr seid (ir zeit) — vosotros sois / estáis",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6241,9 +6242,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Knabe (dēr knābe) — un niño",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Knabe (der knabe) — un niño",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6260,9 +6261,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Großvater (dēr grōsfāter) — abuelo",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Großvater (der grosfater) — abuelo",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6298,9 +6299,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fogel), Schüler (shuler), Bücher (bucher).",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6317,9 +6318,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "Pronuncia correctamente: der Großvater (dēr grōsfāter).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "Pronuncia correctamente: der Großvater (der grosfater).",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6336,9 +6337,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "La e alemana puede ser cerrada o abierta: der Lehrer (dēr lērer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "La e alemana puede ser cerrada o abierta: der Lehrer (der lerer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6469,9 +6470,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Bruder (dēr brūder) — hermano",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Bruder (der bruder) — hermano",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6488,9 +6489,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Schreibtisch (dēr šreibtīš) — un escritorio",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Schreibtisch (der shreibtish) — un escritorio",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6526,9 +6527,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Freund (dēr froint) — amigo",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Freund (der froint) — amigo",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6545,9 +6546,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Stuhl (dēr štūl) — silla",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Stuhl (der shtul) — silla",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6564,9 +6565,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "die Landkarte (dī lantkarte) — mapa geográfico",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "die Landkarte (di lantkarte) — mapa geográfico",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6583,9 +6584,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "die Schwester (dī švester) — hermana",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "die Schwester (di shvester) — hermana",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6602,9 +6603,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "eu se pronuncia «oi»: der Freund (dēr froint), neun (noin).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "eu se pronuncia «oi»: der Freund (der froint), neun (noin).",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6621,9 +6622,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "A menudo, la h indica que la vocal anterior es larga: der Stuhl (dēr štūl), zehn (cēn).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "A menudo, la h indica que la vocal anterior es larga: der Stuhl (der shtul), zehn (cen).",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6868,9 +6869,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Vetter (dēr feter) — primo",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "der Vetter (der feter) — primo",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6887,9 +6888,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "das Gummi (das gumī) — goma",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "das Gummi (das gumi) — goma",
+      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
+      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
       "changeTag": "RE_EVALUATED"
     },
     {

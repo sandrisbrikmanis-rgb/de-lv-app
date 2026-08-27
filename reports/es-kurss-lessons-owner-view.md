@@ -12,7 +12,7 @@ Findings: **993** ieraksti
 ## Finding 1 (ES Kurss Lessons)
 
 **Finding:** 1
-**Audit ID:** ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL
+**Audit ID:** ES-KURSS-LESSONS-STR-L01
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson1`
 **Field type:** `structure`
@@ -33,7 +33,7 @@ Findings: **993** ieraksti
 ## Finding 2 (ES Kurss Lessons)
 
 **Finding:** 2
-**Audit ID:** ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL
+**Audit ID:** ES-KURSS-LESSONS-STR-L02
 **Lesson:** `lesson2`
 **Path:** `COURSE_LESSON_DATA.kurssLesson2.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson2`
 **Field type:** `structure`
@@ -54,7 +54,7 @@ Findings: **993** ieraksti
 ## Finding 3 (ES Kurss Lessons)
 
 **Finding:** 3
-**Audit ID:** ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL
+**Audit ID:** ES-KURSS-LESSONS-STR-L03
 **Lesson:** `lesson3`
 **Path:** `COURSE_LESSON_DATA.kurssLesson3.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson3`
 **Field type:** `structure`
@@ -75,7 +75,7 @@ Findings: **993** ieraksti
 ## Finding 4 (ES Kurss Lessons)
 
 **Finding:** 4
-**Audit ID:** ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL
+**Audit ID:** ES-KURSS-LESSONS-STR-L04
 **Lesson:** `lesson4`
 **Path:** `COURSE_LESSON_DATA.kurssLesson4.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson4`
 **Field type:** `structure`
@@ -96,7 +96,7 @@ Findings: **993** ieraksti
 ## Finding 5 (ES Kurss Lessons)
 
 **Finding:** 5
-**Audit ID:** ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL
+**Audit ID:** ES-KURSS-LESSONS-STR-L05
 **Lesson:** `lesson5`
 **Path:** `COURSE_LESSON_DATA.kurssLesson5.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson5`
 **Field type:** `structure`
@@ -117,7 +117,7 @@ Findings: **993** ieraksti
 ## Finding 6 (ES Kurss Lessons)
 
 **Finding:** 6
-**Audit ID:** ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL
+**Audit ID:** ES-KURSS-LESSONS-STR-L06
 **Lesson:** `lesson6`
 **Path:** `COURSE_LESSON_DATA.kurssLesson6.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson6`
 **Field type:** `structure`
@@ -138,7 +138,7 @@ Findings: **993** ieraksti
 ## Finding 7 (ES Kurss Lessons)
 
 **Finding:** 7
-**Audit ID:** ES-KURSS-LESSONS-STR-COURSE_LESSON_DATAkurssL
+**Audit ID:** ES-KURSS-LESSONS-STR-L07
 **Lesson:** `lesson7`
 **Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson7`
 **Field type:** `structure`

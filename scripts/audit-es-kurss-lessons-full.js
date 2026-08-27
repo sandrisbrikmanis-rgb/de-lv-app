@@ -427,8 +427,9 @@ function mergeFindings(detFindings, structIssues, driftIssues, syntaxIssues, mir
   }
 
   for (const issue of [...structIssues, ...driftIssues]) {
+    const lessonNum = String(issue.lessonId || "").replace(/^lesson/i, "") || "00";
     push({
-      id: `ES-KURSS-LESSONS-STR-${String(issue.path).replace(/\W/g, "").slice(0, 24)}`,
+      id: `ES-KURSS-LESSONS-STR-L${lessonNum.padStart(2, "0")}`,
       severity: issue.severity,
       lessonId: issue.lessonId,
       path: issue.path,
