@@ -449,7 +449,7 @@ const A1_WORDS = [
   },
   {
     "de": "ab",
-    "lv": "Depuis",
+    "lv": "À partir de",
     "level": "A1",
     "study": {
       "id": "a1-ab",
@@ -774,10 +774,7 @@ const A1_WORDS = [
             "green": [
               "aber"
             ],
-            "purple": [
-              "pretstats",
-              "iebilde"
-            ]
+            "purple": []
           }
         },
         "important": [
@@ -1239,7 +1236,7 @@ const A1_WORDS = [
         },
         {
           "word": "in",
-          "meaning": "Sur / à",
+          "meaning": "Dans ou vers l’intérieur",
           "example": "Ich lege das Buch in die Tasche. – J'ai mis le livre dans mon sac."
         }
       ],
@@ -3205,7 +3202,7 @@ const A1_WORDS = [
   },
   {
     "de": "bringen",
-    "lv": "À emporter • À emporter",
+    "lv": "Apporter",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
@@ -4223,7 +4220,7 @@ const A1_WORDS = [
         },
         {
           "de": "Die Lehrerin erklärt.",
-          "lv": "Le professeur explique."
+          "lv": "La professeure explique."
         }
       ],
       "tip": {
@@ -6526,7 +6523,7 @@ const A1_WORDS = [
   },
   {
     "de": "fünfzehnte",
-    "lv": "Le quinzième",
+    "lv": "Quinzième",
     "level": "A1"
   },
   {
@@ -6536,7 +6533,7 @@ const A1_WORDS = [
   },
   {
     "de": "fünfzigste",
-    "lv": "Le cinquantième",
+    "lv": "Cinquantième",
     "level": "A1"
   },
   {
@@ -6854,7 +6851,7 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "Prendre / prendre",
+          "meaning": "Prendre",
           "example": "Ich nehme das Buch."
         },
         {
@@ -8825,7 +8822,7 @@ const A1_WORDS = [
   },
   {
     "de": "hören",
-    "lv": "Entendre • Écouter",
+    "lv": "Entendre",
     "level": "A1",
     "study": {
       "id": "a1-hoeren-study",
@@ -8983,7 +8980,7 @@ const A1_WORDS = [
   },
   {
     "de": "ihr",
-    "lv": "Vous • Elle",
+    "lv": "Vous",
     "level": "A1",
     "study": {
       "id": "a1-ihr",
@@ -9137,7 +9134,7 @@ const A1_WORDS = [
   },
   {
     "de": "im",
-    "lv": "Dans • Où ?",
+    "lv": "Dans",
     "level": "A1",
     "study": {
       "id": "a1-im",
@@ -9578,7 +9575,7 @@ const A1_WORDS = [
   },
   {
     "de": "ins",
-    "lv": "Dans • Dans • Où ?",
+    "lv": "Dans",
     "level": "A1",
     "study": {
       "id": "a1-ins",
@@ -10845,7 +10842,7 @@ const A1_WORDS = [
         },
         {
           "word": "Was kostet...?",
-          "meaning": "Combien ça coûte...?",
+          "meaning": "Combien ça coûte ?",
           "example": "Was kostet das Buch? = Cik maksā grāmata?"
         }
       ],
@@ -12791,7 +12788,7 @@ const A1_WORDS = [
   },
   {
     "de": "leise",
-    "lv": "Calme",
+    "lv": "Silencieux",
     "level": "A1",
     "study": {
       "id": "a1-leise-study",
@@ -13264,7 +13261,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Was machst du?",
-          "lv": "Que fais-tu"
+          "lv": "Que fais-tu ?"
         },
         {
           "de": "Ich mache Hausaufgaben.",
@@ -13272,7 +13269,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir machen Pizza.",
-          "lv": "Nous faisons des pizzas."
+          "lv": "Nous faisons une pizza."
         },
         {
           "de": "Das macht Spaß.",
@@ -13443,7 +13440,7 @@ const A1_WORDS = [
         },
         {
           "de": "Noch ein Mal, bitte!",
-          "lv": "Encore une fois s'il vous plaît !"
+          "lv": "Encore une fois, s'il vous plaît !"
         }
       ],
       "tip": {
@@ -13800,7 +13797,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "Je viens avec toi"
+          "lv": "Je viens avec toi."
         },
         {
           "de": "Ich fahre mit dem Bus.",
@@ -14031,7 +14028,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "J'aime la musique"
+          "lv": "J'aime la musique."
         },
         {
           "de": "Magst du Kaffee?",
@@ -14043,7 +14040,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich möchte einen Kaffee.",
-          "lv": "Je voudrais du café"
+          "lv": "Je voudrais du café."
         }
       ],
       "comparison": [
@@ -14277,15 +14274,15 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Je viens demain"
+          "lv": "Je viens demain."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Demain c'est lundi"
+          "lv": "Demain, c'est lundi."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Bonjour!"
+          "lv": "Bonjour !"
         },
         {
           "de": "Der Morgen ist schön.",
@@ -14586,7 +14583,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich muss gehen.",
-          "lv": "Je dois y aller"
+          "lv": "Je dois y aller."
         },
         {
           "de": "Du musst warten.",
@@ -14598,7 +14595,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich muss heute arbeiten.",
-          "lv": "Je dois travailler aujourd'hui"
+          "lv": "Je dois travailler aujourd'hui."
         }
       ],
       "comparison": [
@@ -15077,7 +15074,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Kommst du mit? – Natürlich!",
-          "lv": "Viens-tu avec moi ? - bien sûr!"
+          "lv": "Viens-tu avec moi ? – Bien sûr !"
         },
         {
           "de": "Das ist eine natürliche Reaktion.",
@@ -15829,7 +15826,7 @@ const A1_WORDS = [
   },
   {
     "de": "nur",
-    "lv": "Seulement • Seulement",
+    "lv": "Seulement",
     "level": "A1",
     "study": {
       "id": "a1-nur-study",
@@ -16199,7 +16196,7 @@ const A1_WORDS = [
   },
   {
     "de": "oder",
-    "lv": "Ou • Ou",
+    "lv": "Ou",
     "level": "A1",
     "study": {
       "id": "a1-oder",
@@ -16769,7 +16766,7 @@ const A1_WORDS = [
   },
   {
     "de": "probieren",
-    "lv": "A essayer • A déguster",
+    "lv": "Essayer",
     "level": "A1",
     "study": {
       "id": "a1-probieren",
@@ -17844,7 +17841,7 @@ const A1_WORDS = [
         },
         {
           "de": "Siehst du das Auto?",
-          "lv": "Voyez-vous cette voiture"
+          "lv": "Vois-tu cette voiture ?"
         },
         {
           "de": "Ich sehe nichts.",
@@ -19354,7 +19351,7 @@ const A1_WORDS = [
   },
   {
     "de": "so",
-    "lv": "Donc",
+    "lv": "Ainsi",
     "level": "A1"
   },
   {
@@ -20148,7 +20145,7 @@ const A1_WORDS = [
         },
         {
           "word": "von",
-          "meaning": "De/à propos d'une source",
+          "meaning": "De ou à propos d'une source",
           "example": "Ich höre von dir."
         }
       ],
@@ -20370,7 +20367,7 @@ const A1_WORDS = [
         },
         {
           "word": "am",
-          "meaning": "Par jour / à",
+          "meaning": "Un jour ou à un endroit",
           "example": "Am Montag komme ich."
         },
         {
@@ -20838,11 +20835,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich verstehe dich.",
-          "lv": "Je te comprends"
+          "lv": "Je te comprends."
         },
         {
           "de": "Verstehst du Deutsch?",
-          "lv": "Comprenez-vous l'allemand"
+          "lv": "Comprenez-vous l'allemand ?"
         },
         {
           "de": "Ich verstehe das nicht.",
@@ -21158,12 +21155,12 @@ const A1_WORDS = [
         },
         {
           "word": "aus",
-          "meaning": "De l'intérieur / origine",
+          "meaning": "De l’intérieur ou d’origine",
           "example": "aus Deutschland – D'Allemagne"
         },
         {
           "word": "ab",
-          "meaning": "À partir de (heure/lieu)",
+          "meaning": "À partir d’une heure ou d’un lieu",
           "example": "ab Montag – A partir de lundi"
         },
         {
@@ -21425,7 +21422,7 @@ const A1_WORDS = [
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Après avoir mangé, nous partons nous promener."
+          "lv": "Avant de manger, nous partons nous promener."
         }
       ],
       "comparison": [
@@ -21680,7 +21677,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Was ist das?",
-          "lv": "Qu'est-ce que c'est?"
+          "lv": "Qu'est-ce que c'est ?"
         },
         {
           "de": "Was ist passiert?",
@@ -21688,11 +21685,11 @@ const A1_WORDS = [
         },
         {
           "de": "Was machst du gerade?",
-          "lv": "Que fais-tu en ce moment"
+          "lv": "Que fais-tu en ce moment ?"
         },
         {
           "de": "Was möchtest du trinken?",
-          "lv": "Que veux-tu boire"
+          "lv": "Que veux-tu boire ?"
         },
         {
           "de": "Was bedeutet dieses Wort?",
@@ -21915,7 +21912,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Wenn du Zeit hast, komm vorbei.",
-          "lv": "Si vous avez le temps, passez nous voir."
+          "lv": "Si tu as le temps, passe nous voir."
         },
         {
           "de": "Wenn es regnet, bleibe ich zu Hause.",
@@ -22789,7 +22786,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Wie geht es dir?",
-          "lv": "Comment vas-tu"
+          "lv": "Comment vas-tu ?"
         },
         {
           "de": "Wie heißt du?",
@@ -22797,15 +22794,15 @@ const A1_WORDS = [
         },
         {
           "de": "Wie viel kostet das?",
-          "lv": "Combien ça coûte"
+          "lv": "Combien ça coûte ?"
         },
         {
           "de": "Wie alt bist du?",
-          "lv": "Quel âge as-tu"
+          "lv": "Quel âge as-tu ?"
         },
         {
           "de": "Wie lange dauert der Film?",
-          "lv": "Combien de temps dure le film?"
+          "lv": "Combien de temps dure le film ?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
@@ -23007,17 +23004,17 @@ const A1_WORDS = [
         },
         {
           "word": "nach",
-          "meaning": "Vers avec les villes/pays",
+          "meaning": "Vers une ville ou un pays",
           "example": "Ich fahre nach Berlin."
         },
         {
           "word": "in",
-          "meaning": "Dans/vers un lieu",
+          "meaning": "Dans un lieu ou vers un lieu",
           "example": "Ich gehe in die Schule."
         },
         {
           "word": "bei",
-          "meaning": "Chez quelqu'un / au travail",
+          "meaning": "Chez quelqu’un ou au travail",
           "example": "Ich bin bei Anna."
         }
       ],
@@ -23214,7 +23211,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich fahre mit dem Zug.",
-          "lv": "Je voyage en train"
+          "lv": "Je voyage en train."
         },
         {
           "de": "Der Zug ist voll.",

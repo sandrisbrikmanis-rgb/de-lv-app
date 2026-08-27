@@ -2,7 +2,7 @@
 "use strict";
 /**
  * FR–DE A1 POST-REPAIR OWNER — COPY-ONLY micro-repair apply.
- * Usage: node scripts/apply-fr-a1-post-repair-owner-copy-only.js [--dry-run]
+ * Usage: node scripts/apply-fr-a1-post-repair-owner-copy-only.js [--dry-run] [--cycle=1|2]
  */
 const fs = require("fs");
 const path = require("path");
@@ -10,26 +10,40 @@ const vm = require("vm");
 const { execSync } = require("child_process");
 const { ROOT, isSyncedWithWww } = require("./lib/audit-common");
 
-const AUTH_FILE = path.join(ROOT, "reports/owner-authority/fr-a1-post-repair-owner-decisions-filled.md");
-const REPORT_MD = path.join(ROOT, "reports/fr-a1-post-repair-owner-copy-only-apply-report.md");
-const REPORT_JSON = path.join(ROOT, "reports/fr-a1-post-repair-owner-copy-only-apply-report.json");
+const CYCLE = (process.argv.find((a) => a.startsWith("--cycle=")) || "--cycle=1").split("=")[1];
+const CYCLE_CFG = {
+  "1": {
+    authFile: "fr-a1-post-repair-owner-decisions-filled.md",
+    reportMd: "fr-a1-post-repair-owner-copy-only-apply-report.md",
+    reportJson: "fr-a1-post-repair-owner-copy-only-apply-report.json",
+    expected: { rows: 159, labot: 138, falsePositive: 14, needsSourceReview: 7 },
+    skipLabot: new Set(["FR-A1-0474", "FR-A1-0475"]),
+    allowRebase: true,
+  },
+  "2": {
+    authFile: "fr-a1-post-repair-owner-decisions-cycle2-filled.md",
+    reportMd: "fr-a1-post-repair-owner-copy-only-apply-report-cycle2.md",
+    reportJson: "fr-a1-post-repair-owner-copy-only-apply-report-cycle2.json",
+    expected: { rows: 63, labot: 54, falsePositive: 9, needsSourceReview: 0 },
+    skipLabot: new Set(),
+    allowRebase: false,
+  },
+};
+const CFG = CYCLE_CFG[CYCLE] || CYCLE_CFG["1"];
+
+const AUTH_FILE = path.join(ROOT, "reports/owner-authority", CFG.authFile);
+const REPORT_MD = path.join(ROOT, "reports", CFG.reportMd);
+const REPORT_JSON = path.join(ROOT, "reports", CFG.reportJson);
 const DATA_REL = "data/fr/a1.js";
 const WWW_REL = "www/data/fr/a1.js";
 const DRY_RUN = process.argv.includes("--dry-run");
-
-const EXPECTED = {
-  rows: 159,
-  labot: 138,
-  falsePositive: 14,
-  needsSourceReview: 7,
-};
+const EXPECTED = CFG.expected;
+const SKIP_LABOT = CFG.skipLabot;
+const ALLOW_REBASE = CFG.allowRebase;
 
 const CARD_ALIASES = {
   "a1-klein": "a1-klein-study",
 };
-
-/** Audit CURRENT was wrong vs production; applying OWNER NEW would corrupt sein. */
-const SKIP_LABOT = new Set(["FR-A1-0474", "FR-A1-0475"]);
 
 function splitMdRow(line) {
   const cells = line.split("|");
@@ -299,6 +313,32 @@ function validatePrerequisites(rows) {
   return { errors, ...byStatus };
 }
 
+function resolveComparisonMeaningIndex(entry, current) {
+  const comp = entry.study?.comparison;
+  if (!Array.isArray(comp)) return -1;
+  return comp.findIndex((c) => exactEqual(c?.meaning, current));
+}
+
+function applyRowField(entry, row) {
+  const directActual = getFieldValue(entry, row.field);
+  if (exactEqual(directActual, row.current)) {
+    return { actual: directActual, field: row.field, set: (v) => setFieldValue(entry, row.field, v) };
+  }
+  const m = String(row.field || "").match(/^study\.comparison\[(\d+)\]\.meaning$/);
+  if (m) {
+    const idx = resolveComparisonMeaningIndex(entry, row.current);
+    if (idx >= 0) {
+      const resolved = `study.comparison[${idx}].meaning`;
+      return {
+        actual: getFieldValue(entry, resolved),
+        field: resolved,
+        set: (v) => setFieldValue(entry, resolved, v),
+      };
+    }
+  }
+  return { actual: directActual, field: row.field, set: (v) => setFieldValue(entry, row.field, v) };
+}
+
 function applyRows(words, labotRows, idIndex) {
   const applied = [];
   const mismatches = [];
@@ -343,35 +383,38 @@ function applyRows(words, labotRows, idIndex) {
       continue;
     }
 
-    const actual = getFieldValue(entry, row.field);
+    const { actual, field: resolvedField, set: setField } = applyRowField(entry, row);
     if (exactEqual(actual, row.ownerNew)) {
-      applied.push({ ...row, entryIndex: idx, result: "ALREADY_MATCHED", actual });
+      applied.push({ ...row, entryIndex: idx, result: "ALREADY_MATCHED", actual, field: resolvedField });
       continue;
     }
-    if (!exactEqual(actual, row.current)) {
-      // OWNER rebase: production differs from audit CURRENT — apply OWNER NEW to production.
-      if (!setFieldValue(entry, row.field, row.ownerNew)) {
-        mismatches.push({ ...row, result: "CURRENT_VALUE_MISMATCH", actual, rebase: true });
+    if (!ALLOW_REBASE && !exactEqual(actual, row.current)) {
+      mismatches.push({ ...row, result: "CURRENT_VALUE_MISMATCH", actual, field: resolvedField });
+      continue;
+    }
+    if (ALLOW_REBASE && !exactEqual(actual, row.current)) {
+      if (!setField(row.ownerNew)) {
+        mismatches.push({ ...row, result: "CURRENT_VALUE_MISMATCH", actual, rebase: true, field: resolvedField });
         continue;
       }
-      const verified = getFieldValue(entry, row.field);
+      const verified = getFieldValue(entry, resolvedField);
       if (!exactEqual(verified, row.ownerNew)) {
         failed.push({ ...row, result: "FAILED", reason: "verify_after_rebase", actualAfter: verified });
         continue;
       }
-      applied.push({ ...row, entryIndex: idx, result: "APPLIED_REBASED", actualBefore: actual });
+      applied.push({ ...row, entryIndex: idx, result: "APPLIED_REBASED", actualBefore: actual, field: resolvedField });
       continue;
     }
-    if (!setFieldValue(entry, row.field, row.ownerNew)) {
+    if (!setField(row.ownerNew)) {
       failed.push({ ...row, result: "FAILED", reason: "set_failed" });
       continue;
     }
-    const verified = getFieldValue(entry, row.field);
+    const verified = getFieldValue(entry, resolvedField);
     if (!exactEqual(verified, row.ownerNew)) {
       failed.push({ ...row, result: "FAILED", reason: "verify_after_set", actualAfter: verified });
       continue;
     }
-    applied.push({ ...row, entryIndex: idx, result: "APPLIED_VERIFIED" });
+    applied.push({ ...row, entryIndex: idx, result: "APPLIED_VERIFIED", field: resolvedField });
   }
 
   return { applied, mismatches, failed, skipped };
@@ -380,9 +423,9 @@ function applyRows(words, labotRows, idIndex) {
 function writeReport(log) {
   const s = log.summary;
   const lines = [
-    "# FR–DE A1 POST-REPAIR OWNER — COPY-ONLY apply report",
+    `# FR–DE A1 POST-REPAIR OWNER — COPY-ONLY apply report (cycle ${CYCLE})`,
     "",
-    `**Authority:** \`reports/owner-authority/fr-a1-post-repair-owner-decisions-filled.md\``,
+    `**Authority:** \`reports/owner-authority/${CFG.authFile}\``,
     "**DE:** STRICT READ-ONLY",
     `**BASE_SHA:** \`${log.baseSha}\``,
     `**HEAD_SHA:** \`${log.headSha || "pending"}\``,
@@ -392,12 +435,12 @@ function writeReport(log) {
     "",
     "| Vārts | Prasība | Rezultāts |",
     "|------|---------|----------:|",
-    `| OWNER rindas | 159/159 | ${s.ownerRows}/159 |`,
-    `| LABOT | 138 | ${s.labotRequested} |`,
-    `| FALSE_POSITIVE | 14 | ${s.falsePositive} |`,
-    `| NEEDS_SOURCE_REVIEW | 7 | ${s.needsSourceReview} |`,
-    `| APPLIED (136 LABOT + 2 skipped conflict) | 136/136 | ${s.appliedVerified}/${s.labotAppliedTarget} |`,
-    `| SKIPPED_CONFLICT | 2 | ${s.skippedConflict} |`,
+    `| OWNER rindas | ${EXPECTED.rows}/${EXPECTED.rows} | ${s.ownerRows}/${EXPECTED.rows} |`,
+    `| LABOT | ${EXPECTED.labot} | ${s.labotRequested} |`,
+    `| FALSE_POSITIVE | ${EXPECTED.falsePositive} | ${s.falsePositive} |`,
+    `| NEEDS_SOURCE_REVIEW | ${EXPECTED.needsSourceReview} | ${s.needsSourceReview} |`,
+    `| APPLIED | ${EXPECTED.labot}/${EXPECTED.labot} | ${s.appliedVerified}/${s.labotAppliedTarget} |`,
+    `| SKIPPED_CONFLICT | ${SKIP_LABOT.size} | ${s.skippedConflict} |`,
     `| CURRENT_VALUE_MISMATCH | 0 | ${s.currentValueMismatch ?? 0} |`,
     `| FAILED | 0 | ${s.failed} |`,
     `| DE izmaiņas | 0 | ${s.deChanges} |`,
