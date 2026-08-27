@@ -1,4 +1,4 @@
-# FR–DE A1 — OWNER DECISIONS (grupa 01, 1–50)
+# FR–DE A1 — OWNER DECISIONS (grupa 01, 1–40)
 
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.12
 **Audit PR:** [#683](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/683)
@@ -13,53 +13,43 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| FR-A1-0238 | a1-bitte | study.sectionAccents (examples) | Une | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0239 | a1-bleiben | study.sectionAccents (examples) | rentre | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0267 | a1-ins | study.sectionAccents (examples) | Viens | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0327 | a1-aber | study.sectionAccents.tip.left | pretstats | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0328 | a1-aber | study.sectionAccents.tip.left | iebilde | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0329 | a1-fünfzehnte-213 | frText | Le quinzième | Quinzième | MEDIUM | TRANSLATION | PENDING | | |
-| FR-A1-0330 | a1-fünfzigste-215 | frText | Le cinquantième | Cinquantième | MEDIUM | TRANSLATION | PENDING | | |
-| FR-A1-0332 | a1-so-559 | frText | Donc | Ainsi | MEDIUM | SEMANTICS | PENDING | | |
-| FR-A1-0333 | a1-Text-597 | frText | Texte | Texte | MEDIUM | GRAMMAR | PENDING | | |
-| FR-A1-0336 | a1-an | study.comparison[1].meaning | Sur une surface horizontale | À une surface verticale | HIGH | SEMANTICS | PENDING | | |
-| FR-A1-0337 | a1-an | study.comparison[2].meaning | À une personne ou à un lieu | À proximité d'une surface ou d'un bord | HIGH | SEMANTICS | PENDING | | |
-| FR-A1-0338 | a1-ab | frMain | Depuis | À partir de | MEDIUM | TRANSLATION | PENDING | | |
-| FR-A1-0343 | a1-auf | study.comparison[3].meaning | Sur / à | Sur une surface ou vers le haut | HIGH | SEMANTICS | PENDING | | |
-| FR-A1-0345 | a1-aus | study.comparison[1].meaning | De la personne, du lieu, de la surface | D'un lieu ou de l'intérieur d'une chose | HIGH | SEMANTICS | PENDING | | |
-| FR-A1-0349 | a1-aufs | study.comparison[3].meaning | Vers l'intérieur | Sur une surface ou vers le haut | HIGH | SEMANTICS | PENDING | | |
-| FR-A1-0351 | a1-baden | study.examples[2].lv | Il nage très bien. | Il se baigne très bien. | HIGH | TRANSLATION | PENDING | | |
-| FR-A1-0352 | a1-baden | study.comparison[2].meaning | Prendre une douche | Se baigner | HIGH | SEMANTICS | PENDING | | |
-| FR-A1-0357 | a1-bringen | frMain | À emporter • À emporter | Apporter | HIGH | TRANSLATION | PENDING | | |
-| FR-A1-0361 | a1-die | study.examples[2].lv | Le professeur explique. | La professeure explique. | MEDIUM | GRAMMAR | PENDING | | |
-| FR-A1-0369 | a1-geben | study.comparison[1].meaning | Prendre / prendre | Prendre | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0376 | a1-hoeren-study | frMain | Entendre • Écouter | Entendre | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0378 | a1-ihr | frMain | Vous • Elle | Vous • Lui | HIGH | TRANSLATION | PENDING | | |
-| FR-A1-0380 | a1-im | frMain | Dans • Où ? | Dans • Au | MEDIUM | TRANSLATION | PENDING | | |
-| FR-A1-0383 | a1-ins | frMain | Dans • Dans • Où ? | Dans • Vers l'intérieur | MEDIUM | TRANSLATION | PENDING | | |
-| FR-A1-0391 | a1-kosten | study.comparison[3].meaning | Combien ça coûte...? | Combien ça coûte ? | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0400 | a1-leise-study | frMain | Calme | Silencieux | MEDIUM | TRANSLATION | PENDING | | |
-| FR-A1-0401 | a1-lauten-study | study.translation | Le son | Le son | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0403 | a1-machen | study.examples[0].lv | Que fais-tu | Que fais-tu ? | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0404 | a1-machen | study.examples[2].lv | Nous faisons des pizzas. | Nous faisons une pizza. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0405 | a1-mal | study.examples[3].lv | Encore une fois s'il vous plaît ! | Encore une fois, s'il vous plaît ! | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0407 | a1-mit | study.examples[0].lv | Je viens avec toi | Je viens avec toi. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0408 | a1-mögen | study.examples[0].lv | J'aime la musique | J'aime la musique. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0409 | a1-mögen | study.examples[3].lv | Je voudrais du café | Je voudrais du café. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0410 | a1-morgen | study.examples[2].lv | Je viens demain | Je viens demain. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0411 | a1-morgen | study.examples[3].lv | Demain c'est lundi | Demain, c'est lundi. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0412 | a1-morgen | study.examples[4].lv | Bonjour! | Bonjour ! | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0413 | a1-morgen-study | study.translation | Le matin | Le matin | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0417 | a1-müssen | study.examples[0].lv | Je dois y aller | Je dois y aller. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0418 | a1-müssen | study.examples[3].lv | Je dois travailler aujourd'hui | Je dois travailler aujourd'hui. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0421 | a1-natuerlich | study.examples[0].lv | Viens-tu avec moi ? - bien sûr! | Viens-tu avec moi ? – Bien sûr ! | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0423 | a1-nur-study | frMain | Seulement • Seulement | Seulement | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0425 | a1-oder | frMain | Ou • Ou | Ou | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0428 | a1-probieren | frMain | A essayer • A déguster | À essayer • À déguster | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0431 | a1-sehen | study.examples[1].lv | Voyez-vous cette voiture | Vois-tu cette voiture ? | HIGH | SEMANTICS | PENDING | | |
-| FR-A1-0443 | a1-über | study.comparison[3].meaning | De/à propos d'une source | De ou à propos d'une source | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0446 | a1-um | study.comparison[1].meaning | Par jour / à | Par jour ou à | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0450 | a1-verstehen | study.examples[0].lv | Je te comprends | Je te comprends. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0451 | a1-verstehen | study.examples[1].lv | Comprenez-vous l'allemand | Comprenez-vous l'allemand ? | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0454 | a1-vom | study.comparison[2].meaning | De l'intérieur / origine | De l'intérieur ou origine | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0455 | a1-vom | study.comparison[3].meaning | À partir de (heure/lieu) | À partir de (heure ou lieu) | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0297 | a1-sehen | study.sectionAccents (examples) | Voyez | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
+| FR-A1-0313 | a1-vor | study.sectionAccents (examples) | Après | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
+| FR-A1-0315 | a1-wenn | study.sectionAccents (examples) | vous | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
+| FR-A1-0330 | a1-also | study.sectionAccents.tip.left | Rappelez | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
+| FR-A1-0331 | a1-auch | study.sectionAccents.examples.lv | viens | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
+| FR-A1-0332 | a1-telefonieren-594 | frText | Appeler au téléphone | Téléphoner | LOW | NATURALNESS | PENDING | | |
+| FR-A1-0345 | a1-bleiben | study.comparison[1].meaning | Aller/partir à pied | Aller ou partir à pied | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0346 | a1-bleiben | study.comparison[2].meaning | Conduire / partir en transport | Conduire ou partir en transport | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0360 | a1-fahren | study.comparison[4].meaning | Emportez avec vous | Emporter avec soi | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0364 | a1-ganz-study | study.examples[3].lv | Le repas est assez bon. | Le repas est tout à fait bon. | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0365 | a1-geben | study.examples[0].lv | Donne-moi le livre s'il te plaît | Donne-moi le livre, s'il te plaît. | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0366 | a1-geben | study.examples[1].lv | Je te donne mon numéro | Je te donne mon numéro. | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0369 | a1-geben | study.tip.text | Rappelez-vous : donner → geben • Prends pour toi → nehmen. |  | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0370 | a1-geschwister-study | study.examples[0].lv | J'ai deux frères et sœurs. | J'ai deux frères ou deux sœurs. | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0379 | a1-huebsch | study.tip.text | hübsch décrit surtout une jolie apparence ; nett décrit une personne aimable. | hübsch décrit surtout une jolie apparence ; gentil décrit une personne aimable. | HIGH | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0382 | a1-im | study.comparison[2].meaning | Dans / vers (pas d'article) | Dans ou vers, sans article | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0383 | a1-im | study.comparison[3].meaning | A, où ? (à qui ?) | À, où ? (à qui ?) | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0386 | a1-ins | study.comparison[2].meaning | In / to (avec article indépendant) | Dans ou vers, avec article indépendant | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0387 | a1-ins | study.comparison[4].meaning | À/chez (qui ?) | À ou chez (qui ?) | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0389 | a1-kennen-study | study.comparison[?].meaning | Connaître ; savoir | Connaître ou savoir | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0399 | a1-lassen | study.examples[3].lv | Laisse-moi tranquille! | Laisse-moi tranquille ! | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0402 | a1-laufen | study.comparison[2].meaning | Prendre le transport | Prendre les transports | LOW | NATURALNESS | PENDING | | |
+| FR-A1-0413 | a1-müssen | study.comparison[2].meaning | Je veux | Vouloir | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0417 | a1-nehmen | study.examples[2].lv | Je t'ai apporté un livre | Je t'ai apporté un livre. | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0418 | a1-nehmen | study.examples[3].lv | Je t'emmènerai | Je t'emmènerai. | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0419 | a1-nehmen | study.comparison[3].meaning | Emportez avec vous | Emporter avec soi | LOW | GRAMMAR | PENDING | | |
+| FR-A1-0420 | a1-neu | study.tip.text | Souvenez-vous : der Reis est au singulier en allemand, mais on dit généralement rīsi en letton. | Souvenez-vous : der Reis est au singulier en allemand, mais on dit généralement « riz » en français. | MEDIUM | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0434 | a1-sich | study.comparison[3].meaning | Lui | Lui-même | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0441 | a1-sollen | study.comparison[3].meaning | Je veux | Vouloir | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0448 | a1-verstehen | study.comparison[1].meaning | Pouvoir/savoir | Pouvoir ou savoir | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0451 | a1-vom | study.comparison[1].meaning | De (général) | De (en général) | LOW | NATURALNESS | PENDING | | |
+| FR-A1-0454 | a1-vor | study.comparison[0].meaning | Avant / devant | Avant ou devant | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0455 | a1-vor | study.comparison[1].meaning | Après / à | Après ou à | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0459 | a1-wenn | study.comparison[0].meaning | Si/quand | Si ou quand | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0460 | a1-wer | frMain | Qui • Qui | Qui | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0462 | a1-wer | study.examples[1].lv | Qui es-tu | Qui es-tu ? | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0463 | a1-wer | study.examples[3].lv | Qui est ton professeur | Qui est ton professeur ? | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0464 | a1-werden | study.comparison[3].meaning | Faire/faire | Faire / fabriquer | MEDIUM | NATURALNESS | PENDING | | |
+| FR-A1-0465 | a1-wie | frMain | Comment • Combien | Comment ou combien | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0472 | a1-zum | study.examples[3].lv | Venez manger ! | Viens manger ! | LOW | COMPARISON | PENDING | | |
