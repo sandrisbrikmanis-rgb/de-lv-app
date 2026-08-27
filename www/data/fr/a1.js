@@ -3438,7 +3438,7 @@ const A1_WORDS = [
     "de": "Butterbrot",
     "de_article": "das",
     "de_plural": "die Butterbrote",
-    "lv": "Un sandwich",
+    "lv": "Une tartine beurrée",
     "level": "A1"
   },
   {
@@ -4681,11 +4681,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "Je mange de la glace"
+          "lv": "Je mange de la glace."
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "Veux-tu de la glace"
+          "lv": "Veux-tu de la glace ?"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
@@ -5313,11 +5313,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "Je suis un peu fatigué"
+          "lv": "Je suis un peu fatigué."
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "J'ai quelque chose pour toi"
+          "lv": "J'ai quelque chose pour toi."
         },
         {
           "de": "Das ist etwas teuer.",
@@ -20871,7 +20871,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "N'oubliez pas : comprendre le texte/la personne → verstehen • Savoir comment faire quelque chose → können."
+        "text": "N'oubliez pas : comprendre un texte ou une personne → verstehen ; savoir faire quelque chose → können."
       },
       "important": [
         "Verstehen n'est pas la racine du mot « comprendre ».",
