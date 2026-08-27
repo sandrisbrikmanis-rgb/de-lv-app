@@ -1,0 +1,4427 @@
+{
+  "schemaVersion": 1,
+  "title": "ES Kurss — Lecciones 2–11 OWNER gala authority (COPY-ONLY apply)",
+  "baseSha": "0fe660d136136dd2d3a689f8c71b55242f9f5610",
+  "sources": [
+    "es-kurss-lekcija-02-owner-gala-lemumi.md",
+    "es-kurss-lekcija-03-owner-gala-lemumi.md",
+    "es-kurss-lekcija-04-owner-gala-lemumi.md",
+    "es-kurss-lekcija-05-owner-gala-lemumi.md",
+    "es-kurss-lekcija-06-owner-gala-lemumi.md",
+    "es-kurss-lekcija-07-owner-gala-lemumi.md",
+    "es-kurss-lekcija-08-owner-gala-lemumi.md",
+    "es-kurss-lekcija-09-owner-gala-lemumi.md",
+    "es-kurss-lekcija-10-owner-gala-lemumi.md",
+    "es-kurss-lekcija-11-owner-gala-lemumi.md"
+  ],
+  "summary": {
+    "lessons": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "totalLabot": 154,
+    "perLesson": {
+      "2": {
+        "labot": 11,
+        "nelabot": 12,
+        "falsePositive": 3,
+        "technicalDefer": 1,
+        "rebaseNelabot": 11
+      },
+      "3": {
+        "labot": 17,
+        "nelabot": 40,
+        "falsePositive": 12,
+        "technicalDefer": 1,
+        "rebaseNelabot": 37
+      },
+      "4": {
+        "labot": 27,
+        "nelabot": 22,
+        "falsePositive": 14,
+        "technicalDefer": 1,
+        "rebaseNelabot": 17
+      },
+      "5": {
+        "labot": 10,
+        "nelabot": 17,
+        "falsePositive": 4,
+        "technicalDefer": 1,
+        "rebaseNelabot": 9
+      },
+      "6": {
+        "labot": 14,
+        "nelabot": 35,
+        "falsePositive": 5,
+        "technicalDefer": 1,
+        "rebaseNelabot": 26
+      },
+      "7": {
+        "labot": 11,
+        "nelabot": 32,
+        "falsePositive": 2,
+        "technicalDefer": 1,
+        "rebaseNelabot": 23
+      },
+      "8": {
+        "labot": 14,
+        "nelabot": 15,
+        "falsePositive": 8,
+        "technicalDefer": 0,
+        "rebaseNelabot": 0
+      },
+      "9": {
+        "labot": 23,
+        "nelabot": 13,
+        "falsePositive": 11,
+        "technicalDefer": 0,
+        "rebaseNelabot": 0
+      },
+      "10": {
+        "labot": 7,
+        "nelabot": 13,
+        "falsePositive": 4,
+        "technicalDefer": 0,
+        "rebaseNelabot": 0
+      },
+      "11": {
+        "labot": 20,
+        "nelabot": 18,
+        "falsePositive": 45,
+        "technicalDefer": 0,
+        "rebaseNelabot": 0
+      }
+    },
+    "retain": {
+      "nelabot": 217,
+      "falsePositive": 108,
+      "technicalDefer": 6,
+      "rebaseNelabot": 123
+    }
+  },
+  "labotTargets": [
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0052",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml → accordion[2]:Gramática → grammar-note[1]",
+      "current": "En oraciones interrogativas que comienzan con la palabra interrogativa, por ejemplo: ¿qué? ¿qué? ¿OMS? ¿por qué? ¿por qué? etc., el verbo está inmediatamente después de la palabra interrogativa.",
+      "new": "En las oraciones interrogativas que comienzan con una palabra interrogativa, como «qué», «quién» o «por qué», el verbo va inmediatamente después de la palabra interrogativa.",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0053",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml → accordion[2]:Gramática → grammar-header[0]",
+      "current": "1Terminaciones con e",
+      "new": "1. Terminaciones con e",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0054",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml → accordion[2]:Gramática → grammar-header[1]",
+      "current": "2Palabra en cuestión",
+      "new": "2. Palabra interrogativa",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0055",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml → accordion[2]:Gramática → grammar-header[2]",
+      "current": "3Negación con nicht",
+      "new": "3. Negación con nicht",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0056",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson2TrainingCardsEs[1].front",
+      "path": "lesson2TrainingCardsEs[1].front",
+      "current": "pregunta Pablo.",
+      "new": "Pablo pregunta.",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0057",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson2TrainingCardsEs[6].front",
+      "path": "lesson2TrainingCardsEs[6].front",
+      "current": "No, no cantan, cuentan.",
+      "new": "No, no cantan, calculan.",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0058",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson2TrainingCardsEs[8].front",
+      "path": "lesson2TrainingCardsEs[8].front",
+      "current": "Me paro y canto.",
+      "new": "Estoy de pie y canto.",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0059",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson2TrainingCardsEs[9].front",
+      "path": "lesson2TrainingCardsEs[9].front",
+      "current": "¿Dibujas?",
+      "new": "¿Dibujan?",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0060",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson2TrainingCardsEs[10].front",
+      "path": "lesson2TrainingCardsEs[10].front",
+      "current": "Sí, empatamos, pero María juega.",
+      "new": "Sí, dibujamos, pero María juega.",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0061",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson2TrainingCardsEs[11].front",
+      "path": "lesson2TrainingCardsEs[11].front",
+      "current": "qué estás haciendo",
+      "new": "qué están haciendo",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0062",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson2TrainingCardsEs[13].front",
+      "path": "lesson2TrainingCardsEs[13].front",
+      "current": "¿Qué está sucediendo?",
+      "new": "¿Quién se va?",
+      "status": "LABOT",
+      "lessonNumber": 2
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0082",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[1]:Palabras → kurss-example[18]",
+      "current": "ist — cuaderno",
+      "new": "ist — es",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0111",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → grammar-note[1]",
+      "current": "En el idioma alemán, el sustantivo tiene 3 casos: masculino, femenino y neutro. Los sustantivos suelen ir precedidos de una palabra llamada article. Esta palabra no está traducida.",
+      "new": "En alemán, los sustantivos tienen tres géneros: masculino, femenino y neutro. Suelen ir precedidos de una palabra llamada artículo. Esta palabra no se traduce.",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0112",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → grammar-note[2]",
+      "current": "Sin artículos delante de nombres propios.",
+      "new": "No se usan artículos delante de los nombres propios.",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0113",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → grammar-note[3]",
+      "current": "En una oración narrativa, el verbo ocupa el segundo lugar.",
+      "new": "En una oración enunciativa, el verbo ocupa la segunda posición.",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0114",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → grammar-header[0]",
+      "current": "1Sujeto de la oración",
+      "new": "1. Sujeto de la oración",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0115",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → grammar-header[1]",
+      "current": "2Artículos",
+      "new": "2. Artículos",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0116",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → grammar-header[2]",
+      "current": "3Sustantivos propios",
+      "new": "3. Sustantivos propios",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0117",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → grammar-header[3]",
+      "current": "4Lugar del verbo",
+      "new": "4. Lugar del verbo",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0120",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson3TrainingCardsEs[0].front",
+      "path": "lesson3TrainingCardsEs[0].front",
+      "current": "¿cuentas?",
+      "new": "¿Cuentas?",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0121",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson3TrainingCardsEs[2].front",
+      "path": "lesson3TrainingCardsEs[2].front",
+      "current": "¿Quién está parado ahí?",
+      "new": "¿Qué hay ahí?",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0122",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson3TrainingCardsEs[3].front",
+      "path": "lesson3TrainingCardsEs[3].front",
+      "current": "Hay una mesa.",
+      "new": "Allí hay una mesa.",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0123",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson3TrainingCardsEs[4].front",
+      "path": "lesson3TrainingCardsEs[4].front",
+      "current": "¿Quién está aquí?",
+      "new": "¿Qué hay aquí?",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0124",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson3TrainingCardsEs[5].front",
+      "path": "lesson3TrainingCardsEs[5].front",
+      "current": "Aquí está el libro.",
+      "new": "Aquí hay un libro.",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0125",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson3TrainingCardsEs[8].front",
+      "path": "lesson3TrainingCardsEs[8].front",
+      "current": "¿Cuál es el plan?",
+      "new": "¿Qué es delgado?",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0126",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson3TrainingCardsEs[9].front",
+      "path": "lesson3TrainingCardsEs[9].front",
+      "current": "El buzón es delgado.",
+      "new": "El cuaderno es delgado.",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0127",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson3TrainingCardsEs[14].front",
+      "path": "lesson3TrainingCardsEs[14].front",
+      "current": "¿Hay/hay un cuaderno?",
+      "new": "¿Hay allí un cuaderno?",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0128",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson3TrainingCardsEs[15].front",
+      "path": "lesson3TrainingCardsEs[15].front",
+      "current": "Sí, hay un cuaderno.",
+      "new": "Sí, allí hay un cuaderno.",
+      "status": "LABOT",
+      "lessonNumber": 3
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0131",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[2]",
+      "current": "Er fragt: „Wie ist der Federhalter?“",
+      "new": "Él pregunta: «¿Cómo es el portaplumas?»",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0132",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[3]",
+      "current": "Olga antwortet: „Der Federhalter ist schwarz.“",
+      "new": "Olga responde: «El portaplumas es negro.»",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0135",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[6]",
+      "current": "Sie fragt: „Wie ist die Feder?“",
+      "new": "Ella pregunta: «¿Cómo es la pluma?»",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0136",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[0]:Diálogos/oraciones → kurss-example[7]",
+      "current": "Olga antwortet: „Die Feder ist spitz.“",
+      "new": "Olga responde: «La pluma es puntiaguda.»",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0147",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[1]:Palabras → kurss-example[3]",
+      "current": "einen Federhalter — negro",
+      "new": "einen Federhalter — un portaplumas",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0148",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[1]:Palabras → kurss-example[4]",
+      "current": "zeigen — blanco",
+      "new": "zeigen — mostrar",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0154",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[1]:Palabras → kurss-example[10]",
+      "current": "hinlegen — niña",
+      "new": "hinlegen — colocar",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0167",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → kurss-example[2]",
+      "current": "Nominativ: der Federhalter, die Feder, das Messer.",
+      "new": "Nominativo: der Federhalter, die Feder, das Messer.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0168",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → kurss-example[3]",
+      "current": "Akkusativ: den Federhalter, die Feder, das Messer.",
+      "new": "Acusativo: den Federhalter, die Feder, das Messer.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0169",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → kurss-example[4]",
+      "current": "Nominativ: ein Federhalter, eine Feder, ein Messer.",
+      "new": "Nominativo: ein Federhalter, eine Feder, ein Messer.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0170",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → kurss-example[5]",
+      "current": "Akkusativ: einen Federhalter, eine Feder, ein Messer.",
+      "new": "Acusativo: einen Federhalter, eine Feder, ein Messer.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0172",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → grammar-note[0]",
+      "current": "En femenino y neutro, el acusativo es igual al nominativo. Sólo los hombres cambian de ronda.",
+      "new": "En los géneros femenino y neutro, el acusativo es igual que el nominativo. Solo cambia el masculino.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0173",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → grammar-note[1]",
+      "current": "Si un adjetivo es un adjetivo en una oración, no cambia en orden ni número.",
+      "new": "Si un adjetivo forma parte del predicado de una oración, no cambia según el caso ni el número.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0174",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → grammar-note[2]",
+      "current": "Si nicht niega un adjetivo, se coloca delante de la palabra negativa.",
+      "new": "Si nicht niega un adjetivo, se coloca delante del adjetivo.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0175",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → grammar-header[0]",
+      "current": "1Acusativo",
+      "new": "1. Acusativo",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0176",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → grammar-header[1]",
+      "current": "2nehmen",
+      "new": "2. nehmen",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0177",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → grammar-header[2]",
+      "current": "3Pronombres",
+      "new": "3. Pronombres",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0178",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → grammar-header[3]",
+      "current": "4Verbos separables",
+      "new": "4. Verbos separables",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0179",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → grammar-header[4]",
+      "current": "5Adjetivos",
+      "new": "5. Adjetivos",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0180",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[3]:Gramática → grammar-header[5]",
+      "current": "6Negación con nicht",
+      "new": "6. Negación con nicht",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0182",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson4TrainingCardsEs[0].front",
+      "path": "lesson4TrainingCardsEs[0].front",
+      "current": "La niña toma un eje de plumas.",
+      "new": "La niña toma un portaplumas.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0183",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson4TrainingCardsEs[1].front",
+      "path": "lesson4TrainingCardsEs[1].front",
+      "current": "La pluma no es blanca, es negra.",
+      "new": "El portaplumas no es blanco, es negro.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0184",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson4TrainingCardsEs[3].front",
+      "path": "lesson4TrainingCardsEs[3].front",
+      "current": "¿Qué es una pluma?",
+      "new": "¿Cómo es la pluma?",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0185",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson4TrainingCardsEs[5].front",
+      "path": "lesson4TrainingCardsEs[5].front",
+      "current": "¿Lleva un cuchillo?",
+      "new": "¿Toma un cuchillo?",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0186",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson4TrainingCardsEs[9].front",
+      "path": "lesson4TrainingCardsEs[9].front",
+      "current": "No, es agudo.",
+      "new": "No, está afilado.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0187",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson4TrainingCardsEs[13].front",
+      "path": "lesson4TrainingCardsEs[13].front",
+      "current": "Olga muestra el libro.",
+      "new": "Olga muestra un libro.",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0188",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson4TrainingCardsEs[14].front",
+      "path": "lesson4TrainingCardsEs[14].front",
+      "current": "cual es el libro",
+      "new": "¿Cómo es el libro?",
+      "status": "LABOT",
+      "lessonNumber": 4
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0200",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml → accordion[3]:Gramática → grammar-note[0]",
+      "current": "En español, el nominativo responde a la pregunta ¿quién? y el acusativo responde a la pregunta ¿qué?.",
+      "new": "En español, el nominativo responde a la pregunta «¿quién?» y el acusativo responde a la pregunta «¿qué?»",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0201",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml → accordion[3]:Gramática → grammar-header[4]",
+      "current": "finalización -in",
+      "new": "Sufijo -in",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0202",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml → accordion[3]:Gramática → grammar-header[5]",
+      "current": "Lugar del verbo",
+      "new": "Posición del verbo",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0203",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson5TrainingCardsEs[0].front",
+      "path": "lesson5TrainingCardsEs[0].front",
+      "current": "¿Qué ama el padre?",
+      "new": "¿A quién ama el padre?",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0204",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson5TrainingCardsEs[1].front",
+      "path": "lesson5TrainingCardsEs[1].front",
+      "current": "¿Qué elogia el maestro?",
+      "new": "¿A quién elogia la maestra?",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0205",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson5TrainingCardsEs[2].front",
+      "path": "lesson5TrainingCardsEs[2].front",
+      "current": "que tomas",
+      "new": "¿Qué tomas?",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0206",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson5TrainingCardsEs[4].front",
+      "path": "lesson5TrainingCardsEs[4].front",
+      "current": "¿Qué gana un maestro?",
+      "new": "¿A quién reprende el maestro?",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0207",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson5TrainingCardsEs[10].front",
+      "path": "lesson5TrainingCardsEs[10].front",
+      "current": "La niña toma una pluma, una pluma y un cuchillo.",
+      "new": "La niña toma el portaplumas, la pluma y el cuchillo.",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0208",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson5TrainingCardsEs[11].front",
+      "path": "lesson5TrainingCardsEs[11].front",
+      "current": "Ella deja el cuchillo y la pluma.",
+      "new": "Ella deja el cuchillo y el portaplumas.",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0209",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson5TrainingCardsEs[14].front",
+      "path": "lesson5TrainingCardsEs[14].front",
+      "current": "El niño es hablador.",
+      "new": "El niño es bien educado.",
+      "status": "LABOT",
+      "lessonNumber": 5
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0210",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[0]",
+      "current": "liegt — es, es, mentiras",
+      "new": "liegt — está / se encuentra",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0212",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[3]",
+      "current": "hinlegen — poner abajo",
+      "new": "hinlegen — poner algo tumbado / dejar algo tumbado",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0218",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[21]",
+      "current": "die Hämmer — mazo",
+      "new": "die Hämmer — martillos",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0223",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[35]",
+      "current": "wieviel Nadeln — cuántos agujas",
+      "new": "wieviel Nadeln — cuántas agujas",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0244",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[2].front",
+      "path": "lesson6TrainingCardsEs[2].front",
+      "current": "Saca un balde.",
+      "new": "Dibuja un balde.",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0245",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[3].front",
+      "path": "lesson6TrainingCardsEs[3].front",
+      "current": "¿Quién tira el carro?",
+      "new": "¿Quién dibuja un carro?",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0246",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[7].front",
+      "path": "lesson6TrainingCardsEs[7].front",
+      "current": "¿Cuantos platos?",
+      "new": "¿Cuántos platos?",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0247",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[9].front",
+      "path": "lesson6TrainingCardsEs[9].front",
+      "current": "Dejé dos agujas.",
+      "new": "Coloco dos agujas.",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0248",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[11].front",
+      "path": "lesson6TrainingCardsEs[11].front",
+      "current": "Es una funda.",
+      "new": "Es una tapa.",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0249",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[12].front",
+      "path": "lesson6TrainingCardsEs[12].front",
+      "current": "Estas son las portadas.",
+      "new": "Estas son las tapas.",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0250",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[16].front",
+      "path": "lesson6TrainingCardsEs[16].front",
+      "current": "La maestra toma un cuchillo y afila un lápiz.",
+      "new": "El maestro toma un cuchillo y afila un lápiz.",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0251",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[18].front",
+      "path": "lesson6TrainingCardsEs[18].front",
+      "current": "Está emplumado.",
+      "new": "Es un portaplumas.",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0252",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[19].front",
+      "path": "lesson6TrainingCardsEs[19].front",
+      "current": "¿Qué es emplumado?",
+      "new": "¿Cómo es el portaplumas?",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0253",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson6TrainingCardsEs[20].front",
+      "path": "lesson6TrainingCardsEs[20].front",
+      "current": "La pluma es negra.",
+      "new": "El portaplumas es negro.",
+      "status": "LABOT",
+      "lessonNumber": 6
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0254",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[0]:Diálogos/oraciones → course-example[0]",
+      "current": "Hans, singe ein Lied! ¿Qué estás haciendo? Ich singe ein Lied.",
+      "new": "Hans, singe ein Lied! Was tust du? Ich singe ein Lied.",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0255",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[1]:Palabras → kurss-example[2]",
+      "current": "singe — canción",
+      "new": "singe — canta",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0256",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[1]:Palabras → kurss-example[3]",
+      "current": "singt — Tú",
+      "new": "singt — cantad (vosotros)",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0260",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[1]:Palabras → kurss-example[7]",
+      "current": "zählen — abierto",
+      "new": "zählen — contar",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0261",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[1]:Palabras → kurss-example[8]",
+      "current": "das Fräulein (froilein) — ventana",
+      "new": "das Fräulein (froilein) — la señorita",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0279",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[3]:Gramática → grammar-header[0]",
+      "current": "1Expresión de comandos",
+      "new": "1. Imperativo",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0280",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[3]:Gramática → grammar-header[1]",
+      "current": "2Comando plural",
+      "new": "2. Imperativo plural",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0281",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[3]:Gramática → grammar-header[3]",
+      "current": "4öffnen",
+      "new": "4. öffnen",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0282",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[2].lv",
+      "path": "lesson7ExerciseCardsEs[2].lv",
+      "current": "elogio",
+      "new": "elogiar",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0283",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[5].lv",
+      "path": "lesson7ExerciseCardsEs[5].lv",
+      "current": "espectáculo",
+      "new": "mostrar",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0284",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[7].lv",
+      "path": "lesson7ExerciseCardsEs[7].lv",
+      "current": "contar",
+      "new": "calcular",
+      "status": "LABOT",
+      "lessonNumber": 7
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0286",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[10]",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[10]",
+      "current": "setzt euch (zect oich) — ¡siéntate!",
+      "new": "setzt euch (zect oich) — ¡sentaos!",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0287",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[7]",
+      "current": "En el imperativo singular de estos verbos, la e también cambia a i o ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "new": "En el imperativo singular de estos verbos, la e cambia a i o ie: Paul, sprich! Lies! En plural: Paul und Hans, lest und sprecht!",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0288",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].description",
+      "current": "Übung I - Usa la conjugación correcta. Übung II - cards de traducción.",
+      "new": "Ejercicio I: usa la conjugación correcta. Ejercicio II: tarjetas de traducción.",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0289",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[18].lv",
+      "current": "¿Ko tu sveicini?",
+      "new": "¿A quién saludas?",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0293",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[28].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[28].lv",
+      "current": "¿Cómo habla?",
+      "new": "¿Cómo habla él?",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0294",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[31].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[31].lv",
+      "current": "El estudiante lee en voz alta y clara.",
+      "new": "La estudiante lee en voz alta y con claridad.",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0296",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[34].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[34].lv",
+      "current": "¡Lasiet labí!",
+      "new": "¡Leed bien!",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0298",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[37].lv",
+      "current": "Señor Maestro, ¡siéntese!",
+      "new": "Señor profesor, ¡siéntese, por favor!",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0299",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[0].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[0].lv",
+      "current": "Saludar al maestro y a la maestra.",
+      "new": "¡Saluda al profesor y a la profesora!",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0301",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[9].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[9].lv",
+      "current": "¿Cómo habla?",
+      "new": "¿Cómo habla él?",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0302",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[12].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[12].lv",
+      "current": "El estudiante lee en voz alta y clara.",
+      "new": "La estudiante lee en voz alta y con claridad.",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0304",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[15].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[15].lv",
+      "current": "¡Lasiet labí!",
+      "new": "¡Leed bien!",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0306",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[18].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[18].lv",
+      "current": "Señor Maestro, ¡siéntese!",
+      "new": "Señor profesor, ¡siéntese, por favor!",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0308",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "path": "kurss.exerciseMeta.chooseCasePlural",
+      "current": "¡Pon la conjugación correcta y hazlo en plural!",
+      "new": "¡Usa la forma correcta y forma el plural!",
+      "status": "LABOT",
+      "lessonNumber": 8
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0159",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[0].text",
+      "current": "Indique los pronombres dieser y jener como article definido.",
+      "new": "Indique los pronombres dieser y jener como artículo definido.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0160",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].text",
+      "current": "Si el sustantivo va precedido de un pronombre o una palabra numérica, no se utiliza el article.",
+      "new": "Si el sustantivo va precedido de un pronombre o una palabra numérica, no se utiliza el artículo.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0310",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.intro",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.intro",
+      "current": "Novena conferencia: plural de sustantivos, pronombres demostrativos dieser/jener, ejercicios y traducción.",
+      "new": "Novena lección: plural de sustantivos, pronombres demostrativos dieser/jener, ejercicios y traducción.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0311",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[9]",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[9]",
+      "current": "sitzen (zicen) — sentarse",
+      "new": "sitzen (zicen) — estar sentado",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0313",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[14]",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[14]",
+      "current": "die Briefe — letras",
+      "new": "die Briefe — cartas",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0317",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[0].task",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[0].task",
+      "current": "Cambia esta oración a 3ra persona del singular.",
+      "new": "Cambie esta oración a la tercera persona del singular.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0319",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[0].task",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[0].task",
+      "current": "Cambia esta oración a 3ra persona del singular.",
+      "new": "Cambie esta oración a la tercera persona del singular.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0321",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[0].task",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[0].task",
+      "current": "Cambia esta oración a 3ra persona del singular.",
+      "new": "Cambie esta oración a la tercera persona del singular.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0323",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[0].task",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[0].task",
+      "current": "Cambia esta oración a 3ra persona del singular.",
+      "new": "Cambie esta oración a la tercera persona del singular.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0325",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[0].task",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[0].task",
+      "current": "Cambia esta oración a 3ra persona del singular.",
+      "new": "Cambie esta oración a la tercera persona del singular.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0327",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[0].task",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[0].task",
+      "current": "Cambia esta oración a 3ra persona del singular.",
+      "new": "Cambie esta oración a la tercera persona del singular.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0329",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[0].task",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[0].task",
+      "current": "Cambia esta oración a 3ra persona del singular.",
+      "new": "Cambie esta oración a la tercera persona del singular.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0331",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[0].task",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[0].task",
+      "current": "Cambia esta oración a 3ra persona del singular.",
+      "new": "Cambie esta oración a la tercera persona del singular.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0333",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[0].task",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[0].task",
+      "current": "Cambia esta oración a 3ra persona del singular.",
+      "new": "Cambia esta oración a la tercera persona del singular.",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0335",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[3].lv",
+      "current": "qué estás haciendo",
+      "new": "¿Qué está haciendo usted?",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0336",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[6].lv",
+      "current": "¡Señor Maestro, siéntese y lea!",
+      "new": "¡Señor profesor, siéntese y lea!",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0337",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[10].lv",
+      "current": "¿Qué es este plato?",
+      "new": "¿Cómo es este plato?",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0338",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[12].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[12].lv",
+      "current": "¿Las letras son largas o cortas?",
+      "new": "¿Las cartas son largas o cortas?",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0339",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[13].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[13].lv",
+      "current": "¡Anna, afila ese lápiz!",
+      "new": "¡Anna, afila este lápiz!",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0340",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[14].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[14].lv",
+      "current": "¡Maestro, por favor afile este lápiz!",
+      "new": "¡Profesor, por favor, afile este lápiz!",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0341",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[15].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[15].lv",
+      "current": "¡Deja ese lápiz!",
+      "new": "¡Pon ese lápiz ahí!",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0342",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[16].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[16].lv",
+      "current": "¡Aiztaisi logu!",
+      "new": "¡Cierra la ventana!",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0344",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "path": "kurss.exerciseMeta.chooseCasePlural",
+      "current": "¡Pon la conjugación correcta y hazlo en plural!",
+      "new": "¡Usa la conjugación correcta y pon la frase en plural!",
+      "status": "LABOT",
+      "lessonNumber": 9
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0346",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.intro",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.intro",
+      "current": "Décima conferencia: sein, können, formas de mando, salud, edad y profesiones.",
+      "new": "Lección décima: sein, können, formas del imperativo, salud, edad y profesiones.",
+      "status": "LABOT",
+      "lessonNumber": 10
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0351",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[16]",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[16]",
+      "current": "die Frau — mujer / esposa",
+      "new": "die Frau — mujer o esposa, según el contexto",
+      "status": "LABOT",
+      "lessonNumber": 10
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0352",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[0].text",
+      "current": "Verbo auxiliar sein - estar desordenado. Por tanto, hay que aprenderlo bien.",
+      "new": "El verbo auxiliar sein («ser/estar») es irregular. Por tanto, hay que aprenderlo bien.",
+      "status": "LABOT",
+      "lessonNumber": 10
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0353",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[3].text",
+      "current": "Asimismo, el verbo auxiliar können (poder) tiene una declinación irregular.",
+      "new": "Asimismo, el verbo modal können («poder») tiene una conjugación irregular.",
+      "status": "LABOT",
+      "lessonNumber": 10
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0356",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[9].lv",
+      "current": "¿Cik vecs ir Adolfs?",
+      "new": "¿Cuántos años tiene Adolf?",
+      "status": "LABOT",
+      "lessonNumber": 10
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0357",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[11].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[11].lv",
+      "current": "¿Kas tu esi?",
+      "new": "¿Quién eres?",
+      "status": "LABOT",
+      "lessonNumber": 10
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0358",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "path": "kurss.exerciseMeta.chooseCasePlural",
+      "current": "¡Pon la conjugación correcta y hazlo en plural!",
+      "new": "¡Usa la conjugación correcta y transforma la frase al plural!",
+      "status": "LABOT",
+      "lessonNumber": 10
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0384",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[23]",
+      "current": "Anna schreibt und fragt: „Franz, schreibst du auch?“",
+      "new": "Anna escribe y pregunta: «Franz, ¿tú también escribes?»",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0385",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[24]",
+      "current": "Franz antwortet: „Ich kann nicht schreiben. Ich habe kein Heft, keine Feder und keinen Bleistift.“",
+      "new": "Franz responde: «No sé escribir. No tengo ningún cuaderno, ninguna pluma ni ningún lápiz».",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0386",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[25]",
+      "current": "Anna sagt: „Nimm dieses Heft und diesen Bleistift. Wir arbeiten zusammen.“",
+      "new": "Anna dice: «Coge este cuaderno y este lápiz. Trabajamos juntos».",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0396",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[3]",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[3]",
+      "current": "wir haben — mamás ir",
+      "new": "wir haben — nosotros tenemos",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0398",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[11]",
+      "current": "hell — brillante",
+      "new": "hell — luminoso",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0400",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[2]",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[2]",
+      "current": "La z suena como la c española: Franz (frans), das Zimmer (tsimer).",
+      "new": "La z suena como «ts»: Franz (frans), das Zimmer (tsimer).",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0401",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[0].text",
+      "current": "El verbo auxiliar haben en alemán expresa el concepto de pertenencia. En español, a menudo se expresa con: yo tengo, tú tienes, él tiene, etc. t. t.",
+      "new": "El verbo alemán haben expresa posesión. En español, suele traducirse como «tener»: yo tengo, tú tienes, él tiene, etc.",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0407",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[2].text",
+      "current": "En español, la persona a quien pertenece algo está en el caso dativo y el sujeto en el caso nominativo. En alemán, la persona está en el caso nominativo y el objeto poseído en el caso acusativo.",
+      "new": "En español, la persona que posee algo es el sujeto y lo poseído funciona como complemento directo. En alemán, la persona está en nominativo y el objeto poseído, en acusativo.",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0408",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].examples[1]",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[3].examples[1]",
+      "current": "Der Vater hat ein Buch — padre",
+      "new": "Der Vater hat ein Buch — El padre tiene un libro.",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0411",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].text",
+      "current": "El verbo haben debe aprenderse bien y utilizarse correctamente. También debes conocer las formas de comando.",
+      "new": "El verbo haben debe aprenderse bien y utilizarse correctamente. También debes conocer las formas del imperativo.",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0412",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[0]",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[0]",
+      "current": "habe Geduld! — ¡ten paciencia!",
+      "new": "habe Geduld! — ¡Ten paciencia!",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0413",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[1]",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[6].examples[1]",
+      "current": "habt Geduld! — ¡tened paciencia!",
+      "new": "habt Geduld! — ¡Tened paciencia!",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0414",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].text",
+      "current": "La doble negación de la lengua española no se expresa en alemán con la palabra negativa kein. La palabra negativa kein sólo se sitúa delante del sustantivo.",
+      "new": "La negación española con «no» y «ningún/ninguna» suele expresarse en alemán con kein. Kein es un determinante negativo que se coloca delante del sustantivo y se declina según el género, el número y el caso.",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0417",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[10].text",
+      "current": "Si la oración narrativa contiene la conjunción denn, el verbo permanece en 2ª posición. La conjunción denn no cuenta como miembro de la oración.",
+      "new": "Si la oración contiene la conjunción denn, el verbo permanece en segunda posición. La conjunción denn no cuenta como elemento de la oración.",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0418",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].text",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[12].text",
+      "current": "Los sustantivos compuestos van precedidos del article del último sustantivo. El énfasis está en la primera palabra del caso.",
+      "new": "Los sustantivos compuestos llevan el artículo del último sustantivo. El acento recae en la primera parte.",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0419",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[0].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[0].lv",
+      "current": "¿Kas tev ir?",
+      "new": "¿Qué tienes?",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0420",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[2].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[2].lv",
+      "current": "¿Cuáles son los libros?",
+      "new": "¿Cómo son los libros?",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0421",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[6].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[6].lv",
+      "current": "Franc no tiene bolígrafo ni lápiz.",
+      "new": "Franz no tiene pluma ni lápiz.",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0422",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[12].lv",
+      "path": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[12].lv",
+      "current": "La maestra tiene muchos libros y una estantería.",
+      "new": "El maestro tiene muchos libros y una estantería.",
+      "status": "LABOT",
+      "lessonNumber": 11
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0424",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
+      "path": "kurss.exerciseMeta.chooseCasePlural",
+      "current": "¡Pon la conjugación correcta y hazlo en plural!",
+      "new": "¡Escribe la forma conjugada correcta y ponla en plural!",
+      "status": "LABOT",
+      "lessonNumber": 11
+    }
+  ],
+  "retainTargets": [
+    {
+      "id": "ES-KURSS-LESSONS-STR-L02",
+      "file": "",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson2",
+      "current": "inline:6561",
+      "status": "TECHNICAL_DEFER",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0020",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "Diálogos/oraciones",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0021",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "spielen — jugar",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0022",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "En las palabras arbeiten y zeichnen, el diptongo ei se pronuncia aproximadamente como «ai».",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0023",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "Al inicio de una palabra o sílaba, sp se pronuncia «shp»: spielen (špīlen).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0024",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "En el verbo tun, la u se pronuncia larga en todas las personas.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0025",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "current": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0040",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "nein — No",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0041",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "nicht — No",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0042",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "arbeiten — trabajar",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0043",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "fragen — preguntar",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0044",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "was tut er? — ¿Qué hace él?",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0045",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "was tun sie? — ¿Qué hacen ellos?",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0046",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "aber — pero",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0047",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "antworten — responder",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0051",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson2.legacyHtml",
+      "current": "nosotros rechnen",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-STR-L03",
+      "file": "",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson3",
+      "current": "inline:7121",
+      "status": "TECHNICAL_DEFER",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0026",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "Diálogos/oraciones",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0027",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "eine Bank — banco",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0028",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "niedrig — bajo",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0029",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "En alemán, el sonido i largo suele escribirse ie: liegen (līgen), hier (hīr), wie (vī).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0030",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "ck representa un sonido k breve tras una vocal corta: dick (dik).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0031",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "Con wer? se pregunta por personas.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0032",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "Con wer? se pregunta por personas.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0033",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "Con was? se pregunta por cosas.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0034",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "género masculino — der",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0035",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "género femenino — die",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0037",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "género neutro — das",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0038",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "En plural, el artículo definido de los tres géneros es die.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0039",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "género masculino — ein",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0040",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "género femenino — eine",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0042",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "género neutro — ein",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0043",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "El artículo indefinido no tiene plural.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0044",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "En alemán se usa stehen para objetos que están en posición vertical:<br>der Tisch steht<br>die Bank steht",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0045",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "El sujeto de una oración en alemán responde a la pregunta wer? / ¿qué? y nominativo permanente.",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0046",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "5stehen / liegen / hängen",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0047",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "current": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0064",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "wer — quién",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0065",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "was — qué",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0066",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "hier — aquí",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0067",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "dort — allá",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0068",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "der Tisch — mesa",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0069",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "ein Tisch — mesa",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0070",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "die Bank — banco",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0072",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "liegen — estar tumbado",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0073",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "¿Hay un libro aquí?",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0074",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "das Buch — libro",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0075",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "ein Buch — libro",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0076",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "hängen — colgar",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0077",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "das Bild — imagen",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0078",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "ein Bild — imagen",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0079",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "die Tafel — pizarra",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0080",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "eine Tafel — una pizarra",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0081",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "wie — cómo",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0083",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "dick — grueso",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0084",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "das Heft — cuaderno",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0085",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "ein Heft — cuaderno",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0086",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "dünn — delgado",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0087",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "wer — quién",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0091",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "Con was? se pregunta por cosas.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0098",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "der Tisch — mesa",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0099",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "die Bank — banco",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0100",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "das Heft — cuaderno",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0105",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "ein Tisch — mesa",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0106",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "ein Heft — cuaderno",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0107",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "Hans spielt, aber Marie singt.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0108",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "Hier hängt eine Karte.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0118",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "Artículo definido",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0119",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson3.legacyHtml",
+      "current": "Artículo indefinido",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-STR-L04",
+      "file": "",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson4",
+      "current": "inline:7423",
+      "status": "TECHNICAL_DEFER",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0048",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Diálogos/oraciones",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0049",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "nehmen (nēmen) — tomar",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0050",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "der Federhalter (dēr fēderhalter) — portalápices",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0051",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "die Feder (dī fēder) — pluma",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0052",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "das Mädchen (mētchen) — chica",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0053",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "nehmen (nēmen) — tomar",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0054",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Las terminaciones -en, -er y -el suelen ser átonas y su e apenas se oye.",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0055",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "En alemán, la h puede representar un sonido o indicar que la vocal anterior es larga.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0056",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Cuando la h indica longitud vocálica, no se pronuncia: nehmen (nēmen).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0057",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Si a una vocal le sigue una sola consonante, normalmente se pronuncia larga: die (dī), Feder (fēder), den (dēn).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0058",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "plural — die Messer sind nicht scharf",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0059",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "7-chen / -lein",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0060",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "current": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0129",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Paul kommt und nimmt einen Federhalter.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0130",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Er zeigt den Federhalter.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0133",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Ist der Federhalter weiß? Nein, der Federhalter ist nicht weiß, er ist schwarz.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0134",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Marie kommt und nimmt eine Feder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0137",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Ist die Feder stumpf? Nein, die Feder ist nicht stumpf, sie ist spitz.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0138",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Was legt das Mädchen hin? Es legt die Feder hin.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0139",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Was nimmst du? Ich nehme ein Messer.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0140",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Wie ist das Messer? Das Messer ist scharf.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0141",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Ist das Messer stumpf? Nein, es ist nicht stumpf, es ist scharf.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0142",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Was legst du hin? Ich lege das Messer, die Feder und den Federhalter hin.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0143",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "Dann gehe ich hinaus und arbeite.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0145",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "er nimmt (nimt) — él toma",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0149",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "schwarz (švarc) — negro",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0150",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "weiß (veis) — blanco",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0152",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "eine Feder — pluma",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0153",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "spitz (špic) — puntiagudo",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0155",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "legt hin — coloca",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0157",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "das Messer — cuchillo",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0158",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "ein Messer — un cuchillo",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0159",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "scharf — afilado",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0160",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "stumpf (štumpf) — desafilado",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0161",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "dann — entonces",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0162",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson4.legacyHtml",
+      "current": "hinaus — afuera",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-STR-L05",
+      "file": "",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson5",
+      "current": "inline:6627",
+      "status": "TECHNICAL_DEFER",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0061",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "Diálogos/oraciones",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0062",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "fragen (frāgen) — preguntar",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0063",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "der Lehrer (dēr lērer) — el maestro",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0064",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "gut (gūt) — bien",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0065",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "wen (vēn) — a quién",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0066",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "der Schüler (šūler) — estudiante",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0067",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "artig (ārtich) — obediente",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0068",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "lieben (līben) — amar",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0069",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "der Vater (fāter) — padre",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0070",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "La combinación tz se pronuncia «ts»: sitzen (zitsen).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0071",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "En palabras alemanas, la v suele pronunciarse como f: der Vater (fāter).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0072",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "La letra ß se llama Eszett y se pronuncia como s: groß (grōs), weiß (vais).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0073",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "En nominativo se pregunta wer? por personas y was? por cosas.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0074",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "En acusativo se pregunta wen? por personas y was? por cosas.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0075",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "er/sie/es sitzt",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0076",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "Muchos sustantivos femeninos se forman con el sufijo -in: der Lehrer → die Lehrerin.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0077",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "En una oración enunciativa, el verbo conjugado ocupa la segunda posición.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0078",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "current": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0190",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "loben — elogiar",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0191",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "tadeln — reprender",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0192",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson5.legacyHtml",
+      "current": "oder (ōder) — o",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-STR-L06",
+      "file": "",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson6",
+      "current": "inline:9069",
+      "status": "TECHNICAL_DEFER",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0079",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Diálogos/oraciones",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0080",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "wieder (vīder) — de nuevo",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0081",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "der Schlüssel (šlūsel) — llave",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0082",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "die Tafel (dī tāfel) — pizarra",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0083",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "zählen (cēlen) — contar",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0084",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "der Deckel (dēr dekel) — tapa",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0085",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "leer (lēr) — vacío",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0086",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "schwer (švēr) — pesado",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0087",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "wieviel (vīfīl) — cuántos",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0088",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "hier (hīr) — aquí",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0089",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "La ä es la vocal modificada de a y se pronuncia como una e abierta, corta o larga.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0090",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Ejemplos: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0091",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "La ü es la vocal modificada de u. Para pronunciarla, redondea los labios e intenta decir i.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0092",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Ejemplos: fünf, der Schlüssel (šlūsel).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0093",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Para pronunciar ö, redondea los labios e intenta decir e: der Löffel.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0094",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Una vocal doble indica una vocal larga: leer (lēr).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0095",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "El diptongo eu se pronuncia «oi»: neun (noin).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0096",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "En presente, el prefijo separable acentuado se separa del verbo y va al final de la oración.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0097",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Ejemplo: hinlegen → er legt den Schlüssel hin.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0098",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "El numeral uno concuerda con el género del sustantivo: masculino ein, femenino eine y neutro ein.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0099",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Ejemplos: Das ist ein Schüler. Das ist ein Hammer. Das ist eine Nadel. Das sind Hämmer. Das sind Nadeln.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0100",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Números: eins, zwei, drei, vier (fīr), fünf, sechs (zeks), sieben (zīben), acht, neun (noin), zehn (cēn).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0101",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "El verbo copulativo concuerda en número: der Schüler ist klein; die Schüler sind klein.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0102",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Para identificar algo, en alemán se usa la forma invariable das: Das ist ein Hammer. Das sind Hämmer.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0103",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Ejemplos: Das ist ein Hammer. Das sind Hämmer.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0104",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Algunos sustantivos masculinos y neutros forman el plural con umlaut o con -er.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0105",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Ejemplos: der Hammer → die Hämmer; der Wagen → die Wagen; die Nadel → die Nadeln.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0106",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Muchos sustantivos femeninos forman el plural con -n o -en.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0107",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "current": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0211",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "einige (einige) — algunos",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0213",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "aufmachen — abrir",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0214",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "er macht auf — él abre",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0215",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "anspitzen (anšpicen) — sacar punta",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0216",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "er spitzt an — él saca punta",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0217",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "der Hammer — martillo",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0219",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "der Schlitten — trineo",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0220",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "wie sind die Dinge? — ¿cómo son las cosas?",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0221",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "voll (fōl) — lleno",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0227",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "A doubled eu se pronuncia como oi: neun (noin).",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0240",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson6.legacyHtml",
+      "current": "Der Wagen — coche",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-STR-L07",
+      "file": "",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml ↔ COURSE_LESSON_HTML.kurssLesson7",
+      "current": "inline:6157",
+      "status": "TECHNICAL_DEFER",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0108",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "Diálogos/oraciones",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0109",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "das Lied (das līt) — canción",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0110",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "der Spiegel (špīgel) — espejo",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0111",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "die Schüssel — cuenco",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0112",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "das Zimmer — habitación",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0113",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "das Ufer (ūfer) — orilla",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0114",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "Al inicio de una palabra o sílaba, sp se pronuncia «shp»: der Spiegel (dēr špīgel).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0115",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "sch se pronuncia como «sh»: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0116",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "El diptongo äu se pronuncia «oi»: das Fräulein (das froilein).",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0117",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "El imperativo de segunda persona singular se forma normalmente con la raíz verbal, sin el pronombre du.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0118",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "Ejemplos: antworte!, arbeite!, öffne!, zeichne!",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0119",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "Con frecuencia se añade -e al imperativo cuando la raíz termina en -t, -d o en un grupo consonántico.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0120",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "El imperativo de segunda persona plural coincide con la forma de ihr, pero se usa sin el pronombre.",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0121",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "Ejemplos: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0122",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[0].du",
+      "current": "frag! / frage!",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0123",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[2].du",
+      "current": "lob! / lobe!",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0124",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[3].du",
+      "current": "lieb! / liebe!",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0125",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[4].du",
+      "current": "zähl! / zähle!",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0126",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[5].du",
+      "current": "zeig! / zeige!",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0127",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[9].du",
+      "current": "komm! / komme!",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0128",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[10].du",
+      "current": "geh! / gehe!",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0129",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[11].du",
+      "current": "steh! / stehe!",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0130",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson7ExerciseCardsEs[13].du",
+      "current": "sing! / singe!",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0131",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.lessonProgress",
+      "current": "Lección {lesson} · Traducir: {current} / {total}",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0257",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "singen Sie — cante usted / canten ustedes",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0259",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "Sie — usted / ustedes / ellos / ellas",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0262",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "der Müller — el molinero",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0263",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "öffnen — abrir",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0264",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "das Fenster (fenster) — ventana",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0265",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "alle — todos",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0267",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "der Lappen — trapo",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0268",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "der Spaten — pala",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0269",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "der Besen — escoba",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0270",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson7.legacyHtml",
+      "current": "die Schaufel — pala",
+      "status": "NELABOT",
+      "rebaseNelabot": true
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0133",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.lessonItems.8.menuDesc",
+      "current": "Verbos reflexivos, e → i/ie cambio y acusativo.",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0134",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.sections.dialogues",
+      "current": "Diálogos / frases",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0135",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[16]",
+      "current": "sehr (zēr) — muy",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0136",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[27]",
+      "current": "erzählen (ercēlen) — contar",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0137",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[34]",
+      "current": "der Bäcker (dēr beker) — panadero",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0138",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[35]",
+      "current": "der Schneider (dēr šneider) — sastre",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0139",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[1].items[36]",
+      "current": "der Gärtner (dēr gertner) — jardinero",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0140",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[0]",
+      "current": "La ä puede pronunciarse como una e abierta, corta o larga. Ejemplos: der Bäcker (bēker), das Mädchen (mētchen).",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0141",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]",
+      "current": "La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (dēr gertner).",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0142",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]",
+      "current": "ie se pronuncia como una i larga: liest (līst).",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0143",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]",
+      "current": "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0144",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[35].lv",
+      "current": "Ansis raksta labi, apuesta Anna raksta slikti.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0145",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[16].lv",
+      "current": "Ansis raksta labi, apuesta Anna raksta slikti.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0146",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.sections.dialogues",
+      "current": "Diálogos / frases",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0147",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formDu",
+      "current": "Forma 1/3: du (singular)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0148",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "current": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0149",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "current": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0290",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[19].lv",
+      "current": "Es sveicinu jaunkundzi.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0291",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[20].lv",
+      "current": "Atveriet visus logus!",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0292",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[22].lv",
+      "current": "Vai tu atver logu?",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0295",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[32].lv",
+      "current": "Lasi labi!",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0300",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[1].lv",
+      "current": "Atveriet visus logus!",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0303",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[5].cards[13].lv",
+      "current": "Lasi labi!",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0150",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.sections.dialogues",
+      "current": "Diálogos / frases",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0151",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[0]",
+      "current": "mehrere (mērere) — varios",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0152",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[1]",
+      "current": "hier (hīr) — aquí",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0153",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[4]",
+      "current": "langsam (lankzām) — lento",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0154",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[6]",
+      "current": "mehr (mēr) — más",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0155",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[10]",
+      "current": "ruhig (rū-ich) — tranquilo",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0156",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[11]",
+      "current": "dieser (dīzer) — Éste",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0157",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[12]",
+      "current": "jener (jēner) — aquel",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0158",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[13]",
+      "current": "der Brief (dēr brīf) — carta",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0161",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.sections.dialogues",
+      "current": "Diálogos / frases",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0162",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formDu",
+      "current": "Forma 1/3: du (singular)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0163",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "current": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0164",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "current": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0315",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[2].items[3].heading",
+      "current": "Artikulu nelieto",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0318",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[0].forms[3].task",
+      "current": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0320",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[1].forms[3].task",
+      "current": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0322",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[2].forms[3].task",
+      "current": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0324",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[3].forms[3].task",
+      "current": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0326",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[4].forms[3].task",
+      "current": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0328",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[5].forms[3].task",
+      "current": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0330",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[6].forms[3].task",
+      "current": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0332",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[7].forms[3].task",
+      "current": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0334",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[3].cards[8].forms[3].task",
+      "current": "Listo. El siguiente clic muestra la siguiente card.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0343",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[4].cards[17].lv",
+      "current": "Ko meitene beidzot dara?",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0165",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.sections.dialogues",
+      "current": "Diálogos / frases",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0166",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[2]",
+      "current": "du bist — tú eres / estás",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0167",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[4]",
+      "current": "ihr seid (īr zeit) — vosotros sois / estáis",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0169",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[14]",
+      "current": "der Knabe (dēr knābe) — un niño",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0170",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[17]",
+      "current": "der Großvater (dēr grōsfāter) — abuelo",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0171",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[22]",
+      "current": "das Jahr (jār) — año",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0172",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[4]",
+      "current": "Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0173",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[7]",
+      "current": "Pronuncia correctamente: der Großvater (dēr grōsfāter).",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0174",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[2].items[9]",
+      "current": "La e alemana puede ser cerrada o abierta: der Lehrer (dēr lērer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0175",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.sections.dialogues",
+      "current": "Diálogos / frases",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0176",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formDu",
+      "current": "Forma 1/3: du (singular)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0177",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "current": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0178",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "current": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0349",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[11]",
+      "current": "sei gesund — esi vesels!",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0350",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[1].items[12]",
+      "current": "seid gesund — esiet veseli!",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0354",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[0].lv",
+      "current": "Vai tu esi vesels?",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0355",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[2].lv",
+      "current": "Vai Paul ir vasijas?",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0179",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.lessonItems.11.menuDesc",
+      "current": "Haben, kein/keine/keinen, sustantivos posesivos y compuestos.",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0180",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.sections.dialogues",
+      "current": "Diálogos / frases",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0181",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]",
+      "current": "der Bruder (dēr brūder) — hermano",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0182",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]",
+      "current": "der Schreibtisch (dēr šreibtīš) — un escritorio",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0183",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[16]",
+      "current": "zusammen (cuzāmen) — juntos",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0184",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]",
+      "current": "der Freund (dēr froint) — amigo",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0185",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]",
+      "current": "der Stuhl (dēr štūl) — silla",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0186",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]",
+      "current": "die Landkarte (dī lantkarte) — mapa geográfico",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0187",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]",
+      "current": "die Schwester (dī švester) — hermana",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0188",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]",
+      "current": "eu se pronuncia «oi»: der Freund (dēr froint), neun (noin).",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0189",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[2].items[1]",
+      "current": "A menudo, la h indica que la vocal anterior es larga: der Stuhl (dēr štūl), zehn (cēn).",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0190",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].table[2][0]",
+      "current": "er/sie/es hat",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0191",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].table[2][1]",
+      "current": "él/ella/ello tiene",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0192",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[0]",
+      "current": "krievu: я имею тетрадь; отец имеет книгу.",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0193",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[4].examples[1]",
+      "current": "inglés: I have a book; the father has a pencil.",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0194",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[7].heading",
+      "current": "Kein / keine / keinen",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0195",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.sections.dialogues",
+      "current": "Diálogos / frases",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0196",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formDu",
+      "current": "Forma 1/3: du (singular)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0197",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formIhr",
+      "current": "Formulario 2/3: Tú (plural)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0198",
+      "file": "languages/es/ui.js",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "current": "Forma 3/3: Sie (tratamiento formal)",
+      "status": "NELABOT",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0361",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[0]",
+      "current": "Ich habe einen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0362",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[1]",
+      "current": "Du hast einen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0363",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[2]",
+      "current": "Er hat einen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0364",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[3]",
+      "current": "Sie hat einen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0365",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[4]",
+      "current": "Es hat einen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0366",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[5]",
+      "current": "Wir haben einen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0367",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[6]",
+      "current": "Ihr habt einen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0368",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[7]",
+      "current": "Sie haben einen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0369",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[8]",
+      "current": "Ich habe keinen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0370",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[9]",
+      "current": "Du hast keinen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0371",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[10]",
+      "current": "Er hat keinen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0372",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[11]",
+      "current": "Sie hat keinen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0373",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[12]",
+      "current": "Es hat keinen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0374",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[13]",
+      "current": "Wir haben keinen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0375",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[14]",
+      "current": "Ihr habt keinen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0376",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[15]",
+      "current": "Sie haben keinen Bruder.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0377",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[16]",
+      "current": "Ich habe ein Zimmer.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0378",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[17]",
+      "current": "Das Zimmer ist nicht groß, aber es ist hell und warm.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0379",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[18]",
+      "current": "Das Zimmer hat ein Fenster.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0380",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[19]",
+      "current": "Das Fenster ist breit.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0381",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[20]",
+      "current": "Du hast einen Schreibtisch.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0382",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[21]",
+      "current": "Da liegen drei Bücher.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0383",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[22]",
+      "current": "Anna hat einen Federhalter, eine Feder und einen Bleistift.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0387",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[26]",
+      "current": "Anna und Franz arbeiten oft zusammen.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0388",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[27]",
+      "current": "Sie sind Freunde.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0389",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[28]",
+      "current": "Was hast du?",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0390",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[29]",
+      "current": "Ich habe einen Schrank, einen Tisch und zwei Stühle.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0391",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[30]",
+      "current": "Was habt ihr?",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0392",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[31]",
+      "current": "Wir haben eine Tischlampe, ein Bücherbrett und eine Landkarte.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0393",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[32]",
+      "current": "Wer ist glücklich?",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0394",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[33]",
+      "current": "Ich bin glücklich, denn ich habe einen Vater und eine Mutter.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0395",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[0].items[34]",
+      "current": "Wir sind glücklich, denn wir haben Brüder und Schwestern.",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0397",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[9]",
+      "current": "ist nicht — nav",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0399",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[1].items[15]",
+      "current": "kein, keine, kein — neviens, neviena, neviens",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0402",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].heading",
+      "current": "Haben — Präsens",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0403",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].table[0][1]",
+      "current": "man ir",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0404",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].table[1][1]",
+      "current": "tev ir",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0405",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].table[3][1]",
+      "current": "mums ir",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0406",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[1].table[4][1]",
+      "current": "jums ir",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0410",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[5].heading",
+      "current": "Imperativ",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0415",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[8].heading",
+      "current": "Kein — vienskaitlis",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0416",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[3].items[9].heading",
+      "current": "Kein — daudzskaitlis",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0423",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.sections[4].cards[15].lv",
+      "current": "Ko dara Anna?",
+      "status": "FALSE_POSITIVE",
+      "rebaseNelabot": false
+    }
+  ],
+  "rebaseNelabotIds": [
+    "ES-KURSS-LESSONS-DET-0022",
+    "ES-KURSS-LESSONS-DET-0023",
+    "ES-KURSS-LESSONS-DET-0024",
+    "ES-KURSS-LESSONS-LV2-0040",
+    "ES-KURSS-LESSONS-LV2-0041",
+    "ES-KURSS-LESSONS-LV2-0042",
+    "ES-KURSS-LESSONS-LV2-0043",
+    "ES-KURSS-LESSONS-LV2-0044",
+    "ES-KURSS-LESSONS-LV2-0045",
+    "ES-KURSS-LESSONS-LV2-0046",
+    "ES-KURSS-LESSONS-LV2-0047",
+    "ES-KURSS-LESSONS-DET-0028",
+    "ES-KURSS-LESSONS-DET-0029",
+    "ES-KURSS-LESSONS-DET-0030",
+    "ES-KURSS-LESSONS-DET-0031",
+    "ES-KURSS-LESSONS-DET-0032",
+    "ES-KURSS-LESSONS-DET-0033",
+    "ES-KURSS-LESSONS-DET-0034",
+    "ES-KURSS-LESSONS-DET-0035",
+    "ES-KURSS-LESSONS-DET-0037",
+    "ES-KURSS-LESSONS-DET-0038",
+    "ES-KURSS-LESSONS-DET-0039",
+    "ES-KURSS-LESSONS-DET-0040",
+    "ES-KURSS-LESSONS-DET-0042",
+    "ES-KURSS-LESSONS-DET-0043",
+    "ES-KURSS-LESSONS-DET-0044",
+    "ES-KURSS-LESSONS-LV2-0064",
+    "ES-KURSS-LESSONS-LV2-0065",
+    "ES-KURSS-LESSONS-LV2-0066",
+    "ES-KURSS-LESSONS-LV2-0067",
+    "ES-KURSS-LESSONS-LV2-0068",
+    "ES-KURSS-LESSONS-LV2-0069",
+    "ES-KURSS-LESSONS-LV2-0070",
+    "ES-KURSS-LESSONS-LV2-0072",
+    "ES-KURSS-LESSONS-LV2-0073",
+    "ES-KURSS-LESSONS-LV2-0075",
+    "ES-KURSS-LESSONS-LV2-0076",
+    "ES-KURSS-LESSONS-LV2-0077",
+    "ES-KURSS-LESSONS-LV2-0078",
+    "ES-KURSS-LESSONS-LV2-0079",
+    "ES-KURSS-LESSONS-LV2-0080",
+    "ES-KURSS-LESSONS-LV2-0081",
+    "ES-KURSS-LESSONS-LV2-0083",
+    "ES-KURSS-LESSONS-LV2-0084",
+    "ES-KURSS-LESSONS-LV2-0085",
+    "ES-KURSS-LESSONS-LV2-0086",
+    "ES-KURSS-LESSONS-LV2-0087",
+    "ES-KURSS-LESSONS-LV2-0091",
+    "ES-KURSS-LESSONS-DET-0050",
+    "ES-KURSS-LESSONS-DET-0051",
+    "ES-KURSS-LESSONS-DET-0055",
+    "ES-KURSS-LESSONS-DET-0056",
+    "ES-KURSS-LESSONS-DET-0057",
+    "ES-KURSS-LESSONS-DET-0058",
+    "ES-KURSS-LESSONS-LV2-0145",
+    "ES-KURSS-LESSONS-LV2-0149",
+    "ES-KURSS-LESSONS-LV2-0150",
+    "ES-KURSS-LESSONS-LV2-0152",
+    "ES-KURSS-LESSONS-LV2-0153",
+    "ES-KURSS-LESSONS-LV2-0155",
+    "ES-KURSS-LESSONS-LV2-0157",
+    "ES-KURSS-LESSONS-LV2-0158",
+    "ES-KURSS-LESSONS-LV2-0159",
+    "ES-KURSS-LESSONS-LV2-0160",
+    "ES-KURSS-LESSONS-LV2-0162",
+    "ES-KURSS-LESSONS-DET-0070",
+    "ES-KURSS-LESSONS-DET-0071",
+    "ES-KURSS-LESSONS-DET-0072",
+    "ES-KURSS-LESSONS-DET-0073",
+    "ES-KURSS-LESSONS-DET-0074",
+    "ES-KURSS-LESSONS-DET-0076",
+    "ES-KURSS-LESSONS-DET-0077",
+    "ES-KURSS-LESSONS-LV2-0190",
+    "ES-KURSS-LESSONS-LV2-0192",
+    "ES-KURSS-LESSONS-DET-0089",
+    "ES-KURSS-LESSONS-DET-0090",
+    "ES-KURSS-LESSONS-DET-0091",
+    "ES-KURSS-LESSONS-DET-0092",
+    "ES-KURSS-LESSONS-DET-0093",
+    "ES-KURSS-LESSONS-DET-0094",
+    "ES-KURSS-LESSONS-DET-0095",
+    "ES-KURSS-LESSONS-DET-0096",
+    "ES-KURSS-LESSONS-DET-0097",
+    "ES-KURSS-LESSONS-DET-0098",
+    "ES-KURSS-LESSONS-DET-0099",
+    "ES-KURSS-LESSONS-DET-0100",
+    "ES-KURSS-LESSONS-DET-0101",
+    "ES-KURSS-LESSONS-DET-0102",
+    "ES-KURSS-LESSONS-DET-0103",
+    "ES-KURSS-LESSONS-DET-0104",
+    "ES-KURSS-LESSONS-DET-0105",
+    "ES-KURSS-LESSONS-DET-0106",
+    "ES-KURSS-LESSONS-LV2-0213",
+    "ES-KURSS-LESSONS-LV2-0214",
+    "ES-KURSS-LESSONS-LV2-0215",
+    "ES-KURSS-LESSONS-LV2-0216",
+    "ES-KURSS-LESSONS-LV2-0217",
+    "ES-KURSS-LESSONS-LV2-0219",
+    "ES-KURSS-LESSONS-LV2-0220",
+    "ES-KURSS-LESSONS-LV2-0221",
+    "ES-KURSS-LESSONS-DET-0109",
+    "ES-KURSS-LESSONS-DET-0110",
+    "ES-KURSS-LESSONS-DET-0111",
+    "ES-KURSS-LESSONS-DET-0112",
+    "ES-KURSS-LESSONS-DET-0113",
+    "ES-KURSS-LESSONS-DET-0114",
+    "ES-KURSS-LESSONS-DET-0115",
+    "ES-KURSS-LESSONS-DET-0116",
+    "ES-KURSS-LESSONS-DET-0117",
+    "ES-KURSS-LESSONS-DET-0118",
+    "ES-KURSS-LESSONS-DET-0119",
+    "ES-KURSS-LESSONS-DET-0120",
+    "ES-KURSS-LESSONS-DET-0121",
+    "ES-KURSS-LESSONS-LV2-0257",
+    "ES-KURSS-LESSONS-LV2-0259",
+    "ES-KURSS-LESSONS-LV2-0262",
+    "ES-KURSS-LESSONS-LV2-0263",
+    "ES-KURSS-LESSONS-LV2-0264",
+    "ES-KURSS-LESSONS-LV2-0265",
+    "ES-KURSS-LESSONS-LV2-0267",
+    "ES-KURSS-LESSONS-LV2-0268",
+    "ES-KURSS-LESSONS-LV2-0269",
+    "ES-KURSS-LESSONS-LV2-0270"
+  ]
+}
