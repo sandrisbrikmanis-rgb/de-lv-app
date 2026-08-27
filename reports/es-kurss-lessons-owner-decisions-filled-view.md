@@ -312,11 +312,10 @@ Vai tu nāc?
 - **CURRENT:** Latviešu valodā:
 Tu nāc.
 Vai tu nāc?
-- **NEW:** En letón:
-Tu nāc.
-Vai tu nāc?
-- **OWNER_DECISION:** LABOT: Spanish rewrite of LV legacy prose (Luna translation).
-- **Pamatojums:** LV remnant replaced with natural Spanish; German examples preserved.
+- **NEW:** Du kommst. — Vienes.
+Kommst du? — ¿Vienes?
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -548,9 +547,9 @@ Vai tu nāc?
 - **Path:** `COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → kurss-example[7]`
 - **DE:** sieviešu kārta
 - **CURRENT:** sieviešu kārta — Plural definido el article para las tres rondas es morir.
-- **NEW:** sieviešu kārta — Plural definido el artículo para las tres rondas es morir.
-- **OWNER_DECISION:** LABOT: replace English 'article' with Spanish 'artículo' in grammar text.
-- **Pamatojums:** ES grammar terminology must use artículo, not English article.
+- **NEW:** femenino — die
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -600,9 +599,9 @@ Vai tu nāc?
 - **Path:** `COURSE_LESSON_DATA.kurssLesson3.legacyHtml → accordion[3]:Gramática → kurss-example[14]`
 - **DE:** sieviešu kārta
 - **CURRENT:** sieviešu kārta — El indefinido el article no tiene plural.
-- **NEW:** sieviešu kārta — El indefinido el artículo no tiene plural.
-- **OWNER_DECISION:** LABOT: replace English 'article' with Spanish 'artículo' in grammar text.
-- **Pamatojums:** ES grammar terminology must use artículo, not English article.
+- **NEW:** femenino — El artículo indefinido no tiene plural.
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -736,9 +735,9 @@ die Bank steht
 - **Path:** `COURSE_LESSON_DATA.kurssLesson4.legacyHtml → accordion[1]:Palabras → kurss-example[7]`
 - **DE:** die Feder (dī fēder)
 - **CURRENT:** die Feder (dī fēder) — puntiagudo
-- **NEW:** die Feder (di feder) — puntiaguda
-- **OWNER_DECISION:** LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.
-- **Pamatojums:** DE headword checked; prior gloss was semantically wrong or corrupted.
+- **NEW:** die Feder (dī fēder) — pluma
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -885,16 +884,16 @@ die Bank steht
 
 ---
 
-## #68 ES-KURSS-LESSONS-DET-0063 [LABOT]
+## #68 ES-KURSS-LESSONS-DET-0063 [NELABOT]
 
 - **Lesson:** lesson5
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson5.legacyHtml → accordion[1]:Palabras → kurss-example[2]`
 - **DE:** der Lehrer (dēr lērer)
 - **CURRENT:** der Lehrer (dēr lērer) — profesor
-- **NEW:** der Lehrer (der lerer) — profesor
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Lehrer (dēr lērer) — profesor
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -924,16 +923,16 @@ die Bank steht
 
 ---
 
-## #71 ES-KURSS-LESSONS-DET-0066 [LABOT]
+## #71 ES-KURSS-LESSONS-DET-0066 [NELABOT]
 
 - **Lesson:** lesson5
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson5.legacyHtml → accordion[1]:Palabras → kurss-example[6]`
 - **DE:** der Schüler (šūler)
 - **CURRENT:** der Schüler (šūler) — estudiante
-- **NEW:** der Schüler (shuler) — estudiante
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Schüler (šūler) — estudiante
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -1119,29 +1118,29 @@ die Bank steht
 
 ---
 
-## #86 ES-KURSS-LESSONS-DET-0081 [LABOT]
+## #86 ES-KURSS-LESSONS-DET-0081 [NELABOT]
 
 - **Lesson:** lesson6
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[12]`
 - **DE:** der Schlüssel (šlūsel)
 - **CURRENT:** der Schlüssel (šlūsel) — llave
-- **NEW:** der Schlüssel (shlusel) — llave
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Schlüssel (šlūsel) — llave
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #87 ES-KURSS-LESSONS-DET-0082 [LABOT]
+## #87 ES-KURSS-LESSONS-DET-0082 [NELABOT]
 
 - **Lesson:** lesson6
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[14]`
 - **DE:** die Tafel (dī tāfel)
 - **CURRENT:** die Tafel (dī tāfel) — pizarra
-- **NEW:** die Tafel (di tafel) — pizarra
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** die Tafel (dī tāfel) — pizarra
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -1158,16 +1157,16 @@ die Bank steht
 
 ---
 
-## #89 ES-KURSS-LESSONS-DET-0084 [LABOT]
+## #89 ES-KURSS-LESSONS-DET-0084 [NELABOT]
 
 - **Lesson:** lesson6
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[22]`
 - **DE:** der Deckel (dēr dekel)
 - **CURRENT:** der Deckel (dēr dekel) — tapa
-- **NEW:** der Deckel (der dekel) — tapa
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Deckel (dēr dekel) — tapa
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -1184,16 +1183,16 @@ die Bank steht
 
 ---
 
-## #91 ES-KURSS-LESSONS-DET-0086 [LABOT]
+## #91 ES-KURSS-LESSONS-DET-0086 [NELABOT]
 
 - **Lesson:** lesson6
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson6.legacyHtml → accordion[1]:Palabras → kurss-example[31]`
 - **DE:** schwer (švēr)
 - **CURRENT:** schwer (švēr) — pesado, difícil
-- **NEW:** schwer (shver) — pesado, difícil
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** schwer (švēr) — pesado, difícil
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -1490,9 +1489,9 @@ die Bank steht
 - **Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[1]:Palabras → kurss-example[5]`
 - **DE:** das Lied (das līt)
 - **CURRENT:** das Lied (das līt) — jovencita
-- **NEW:** das Lied (das lit) — canción
-- **OWNER_DECISION:** LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.
-- **Pamatojums:** DE headword checked; prior gloss was semantically wrong or corrupted.
+- **NEW:** das Lied (das līt) — canción
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -1503,9 +1502,9 @@ die Bank steht
 - **Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[1]:Palabras → kurss-example[13]`
 - **DE:** der Spiegel (špīgel)
 - **CURRENT:** der Spiegel (špīgel) — escoba
-- **NEW:** der Spiegel (shpigel) — espejo
-- **OWNER_DECISION:** LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.
-- **Pamatojums:** DE headword checked; prior gloss was semantically wrong or corrupted.
+- **NEW:** der Spiegel (špīgel) — espejo
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -1516,9 +1515,9 @@ die Bank steht
 - **Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[2]:Pronunciación → kurss-example[0]`
 - **DE:** die Schüssel
 - **CURRENT:** die Schüssel — sp al principio de una palabra o sílaba se pronuncia como šp: der Spiegel (para špīgel).
-- **NEW:** die Schüssel (di shusel) — cuenco
-- **OWNER_DECISION:** LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.
-- **Pamatojums:** DE headword checked; prior gloss was semantically wrong or corrupted.
+- **NEW:** sp al principio de una palabra o sílaba se pronuncia como šp: der Spiegel (dēr špīgel).
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -1529,9 +1528,9 @@ die Bank steht
 - **Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[2]:Pronunciación → kurss-example[1]`
 - **DE:** das Zimmer
 - **CURRENT:** das Zimmer — sch se pronuncia como letón š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).
-- **NEW:** das Zimmer — sch se pronuncia como la letra letona š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).
-- **OWNER_DECISION:** LABOT: Spanish rewrite of LV legacy prose (Luna translation).
-- **Pamatojums:** LV remnant replaced with natural Spanish; German examples preserved.
+- **NEW:** sch se pronuncia como š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -1542,9 +1541,9 @@ die Bank steht
 - **Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[2]:Pronunciación → kurss-example[2]`
 - **DE:** das Ufer (ūfer)
 - **CURRENT:** das Ufer (ūfer) — El diptongo äu se pronuncia como letón oi: das Fräulein (das froilein).
-- **NEW:** das Ufer (ūfer) — El diptongo äu se pronuncia como el diptongo letón oi: das Fräulein (das froilein).
-- **OWNER_DECISION:** LABOT: Spanish rewrite of LV legacy prose (Luna translation).
-- **Pamatojums:** LV remnant replaced with natural Spanish; German examples preserved.
+- **NEW:** El diptongo äu se pronuncia como oi: das Fräulein (das froilein).
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -1555,9 +1554,9 @@ die Bank steht
 - **Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[3]:Gramática → kurss-example[0]`
 - **DE:** sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).
 - **CURRENT:** sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).
-- **NEW:** sp al principio de una palabra o sílaba se pronuncia como el letón š: der Spiegel (dēr špīgel).
-- **OWNER_DECISION:** LABOT: Spanish rewrite of LV legacy prose (Luna translation).
-- **Pamatojums:** LV remnant replaced with natural Spanish; German examples preserved.
+- **NEW:** sp al principio de una palabra o sílaba se pronuncia como šp: der Spiegel (dēr špīgel).
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -1568,9 +1567,9 @@ die Bank steht
 - **Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[3]:Gramática → kurss-example[1]`
 - **DE:** sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).
 - **CURRENT:** sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).
-- **NEW:** sch se pronuncia como la letra letona š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).
-- **OWNER_DECISION:** LABOT: Spanish rewrite of LV legacy prose (Luna translation).
-- **Pamatojums:** LV remnant replaced with natural Spanish; German examples preserved.
+- **NEW:** sch se pronuncia como š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -1581,9 +1580,9 @@ die Bank steht
 - **Path:** `COURSE_LESSON_DATA.kurssLesson7.legacyHtml → accordion[3]:Gramática → kurss-example[2]`
 - **DE:** Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).
 - **CURRENT:** Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).
-- **NEW:** El diptongo äu se pronuncia como el diptongo letón oi: das Fräulein (das froilein).
-- **OWNER_DECISION:** LABOT: Spanish rewrite of LV legacy prose (Luna translation).
-- **Pamatojums:** LV remnant replaced with natural Spanish; German examples preserved.
+- **NEW:** El diptongo äu se pronuncia como oi: das Fräulein (das froilein).
+- **OWNER_DECISION:** LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.
+- **Pamatojums:** Semantic or pronunciation-section correction verified against DE/LV master.
 
 ---
 
@@ -1834,42 +1833,42 @@ die Bank steht
 
 ---
 
-## #141 ES-KURSS-LESSONS-DET-0137 [LABOT]
+## #141 ES-KURSS-LESSONS-DET-0137 [NELABOT]
 
 - **Lesson:** lesson8
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[1].items[34]`
 - **DE:** der Bäcker (dēr beker)
 - **CURRENT:** der Bäcker (dēr beker) — panadero
-- **NEW:** der Bäcker (der beker) — panadero
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Bäcker (dēr beker) — panadero
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #142 ES-KURSS-LESSONS-DET-0138 [LABOT]
+## #142 ES-KURSS-LESSONS-DET-0138 [NELABOT]
 
 - **Lesson:** lesson8
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[1].items[35]`
 - **DE:** der Schneider (dēr šneider)
 - **CURRENT:** der Schneider (dēr šneider) — sastre
-- **NEW:** der Schneider (der shneider) — sastre
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Schneider (dēr šneider) — sastre
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #143 ES-KURSS-LESSONS-DET-0139 [LABOT]
+## #143 ES-KURSS-LESSONS-DET-0139 [NELABOT]
 
 - **Lesson:** lesson8
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[1].items[36]`
 - **DE:** der Gärtner (dēr gertner)
 - **CURRENT:** der Gärtner (dēr gertner) — jardinero
-- **NEW:** der Gärtner (der gertner) — jardinero
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Gärtner (dēr gertner) — jardinero
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -1886,16 +1885,16 @@ die Bank steht
 
 ---
 
-## #145 ES-KURSS-LESSONS-DET-0141 [LABOT]
+## #145 ES-KURSS-LESSONS-DET-0141 [NELABOT]
 
 - **Lesson:** lesson8
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson8.sections[2].items[1]`
 - **DE:** La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (dēr gertner).
 - **CURRENT:** La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (dēr gertner).
-- **NEW:** La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (der gertner).
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (dēr gertner).
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -2107,16 +2106,16 @@ die Bank steht
 
 ---
 
-## #162 ES-KURSS-LESSONS-DET-0158 [LABOT]
+## #162 ES-KURSS-LESSONS-DET-0158 [NELABOT]
 
 - **Lesson:** lesson9
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson9.sections[1].items[13]`
 - **DE:** der Brief (dēr brīf)
 - **CURRENT:** der Brief (dēr brīf) — carta
-- **NEW:** der Brief (der brif) — carta
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Brief (dēr brīf) — carta
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -2224,42 +2223,42 @@ die Bank steht
 
 ---
 
-## #171 ES-KURSS-LESSONS-DET-0167 [LABOT]
+## #171 ES-KURSS-LESSONS-DET-0167 [NELABOT]
 
 - **Lesson:** lesson10
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[1].items[4]`
 - **DE:** ihr seid (īr zeit)
 - **CURRENT:** ihr seid (īr zeit) — vosotros sois / estáis
-- **NEW:** ihr seid (ir zeit) — vosotros sois / estáis
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** ihr seid (īr zeit) — vosotros sois / estáis
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #172 ES-KURSS-LESSONS-DET-0169 [LABOT]
+## #172 ES-KURSS-LESSONS-DET-0169 [NELABOT]
 
 - **Lesson:** lesson10
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[1].items[14]`
 - **DE:** der Knabe (dēr knābe)
 - **CURRENT:** der Knabe (dēr knābe) — un niño
-- **NEW:** der Knabe (der knabe) — un niño
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Knabe (dēr knābe) — un niño
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #173 ES-KURSS-LESSONS-DET-0170 [LABOT]
+## #173 ES-KURSS-LESSONS-DET-0170 [NELABOT]
 
 - **Lesson:** lesson10
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[1].items[17]`
 - **DE:** der Großvater (dēr grōsfāter)
 - **CURRENT:** der Großvater (dēr grōsfāter) — abuelo
-- **NEW:** der Großvater (der grosfater) — abuelo
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Großvater (dēr grōsfāter) — abuelo
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -2276,42 +2275,42 @@ die Bank steht
 
 ---
 
-## #175 ES-KURSS-LESSONS-DET-0172 [LABOT]
+## #175 ES-KURSS-LESSONS-DET-0172 [NELABOT]
 
 - **Lesson:** lesson10
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[2].items[4]`
 - **DE:** Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fōgel), Schüler (šūler), Bücher (būcher).
 - **CURRENT:** Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fōgel), Schüler (šūler), Bücher (būcher).
-- **NEW:** Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fogel), Schüler (shuler), Bücher (bucher).
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fōgel), Schüler (šūler), Bücher (būcher).
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #176 ES-KURSS-LESSONS-DET-0173 [LABOT]
+## #176 ES-KURSS-LESSONS-DET-0173 [NELABOT]
 
 - **Lesson:** lesson10
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[2].items[7]`
 - **DE:** Pronuncia correctamente: der Großvater (dēr grōsfāter).
 - **CURRENT:** Pronuncia correctamente: der Großvater (dēr grōsfāter).
-- **NEW:** Pronuncia correctamente: der Großvater (der grosfater).
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** Pronuncia correctamente: der Großvater (dēr grōsfāter).
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #177 ES-KURSS-LESSONS-DET-0174 [LABOT]
+## #177 ES-KURSS-LESSONS-DET-0174 [NELABOT]
 
 - **Lesson:** lesson10
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson10.sections[2].items[9]`
 - **DE:** La e alemana puede ser cerrada o abierta: der Lehrer (dēr lērer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.
 - **CURRENT:** La e alemana puede ser cerrada o abierta: der Lehrer (dēr lērer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.
-- **NEW:** La e alemana puede ser cerrada o abierta: der Lehrer (der lerer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** La e alemana puede ser cerrada o abierta: der Lehrer (dēr lērer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -2393,29 +2392,29 @@ die Bank steht
 
 ---
 
-## #184 ES-KURSS-LESSONS-DET-0181 [LABOT]
+## #184 ES-KURSS-LESSONS-DET-0181 [NELABOT]
 
 - **Lesson:** lesson11
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[1].items[6]`
 - **DE:** der Bruder (dēr brūder)
 - **CURRENT:** der Bruder (dēr brūder) — hermano
-- **NEW:** der Bruder (der bruder) — hermano
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Bruder (dēr brūder) — hermano
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #185 ES-KURSS-LESSONS-DET-0182 [LABOT]
+## #185 ES-KURSS-LESSONS-DET-0182 [NELABOT]
 
 - **Lesson:** lesson11
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[1].items[13]`
 - **DE:** der Schreibtisch (dēr šreibtīš)
 - **CURRENT:** der Schreibtisch (dēr šreibtīš) — un escritorio
-- **NEW:** der Schreibtisch (der shreibtish) — un escritorio
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Schreibtisch (dēr šreibtīš) — un escritorio
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -2432,81 +2431,81 @@ die Bank steht
 
 ---
 
-## #187 ES-KURSS-LESSONS-DET-0184 [LABOT]
+## #187 ES-KURSS-LESSONS-DET-0184 [NELABOT]
 
 - **Lesson:** lesson11
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[1].items[18]`
 - **DE:** der Freund (dēr froint)
 - **CURRENT:** der Freund (dēr froint) — amigo
-- **NEW:** der Freund (der froint) — amigo
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Freund (dēr froint) — amigo
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #188 ES-KURSS-LESSONS-DET-0185 [LABOT]
+## #188 ES-KURSS-LESSONS-DET-0185 [NELABOT]
 
 - **Lesson:** lesson11
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[1].items[21]`
 - **DE:** der Stuhl (dēr štūl)
 - **CURRENT:** der Stuhl (dēr štūl) — silla
-- **NEW:** der Stuhl (der shtul) — silla
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Stuhl (dēr štūl) — silla
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #189 ES-KURSS-LESSONS-DET-0186 [LABOT]
+## #189 ES-KURSS-LESSONS-DET-0186 [NELABOT]
 
 - **Lesson:** lesson11
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[1].items[25]`
 - **DE:** die Landkarte (dī lantkarte)
 - **CURRENT:** die Landkarte (dī lantkarte) — mapa geográfico
-- **NEW:** die Landkarte (di lantkarte) — mapa geográfico
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** die Landkarte (dī lantkarte) — mapa geográfico
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #190 ES-KURSS-LESSONS-DET-0187 [LABOT]
+## #190 ES-KURSS-LESSONS-DET-0187 [NELABOT]
 
 - **Lesson:** lesson11
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[1].items[28]`
 - **DE:** die Schwester (dī švester)
 - **CURRENT:** die Schwester (dī švester) — hermana
-- **NEW:** die Schwester (di shvester) — hermana
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** die Schwester (dī švester) — hermana
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #191 ES-KURSS-LESSONS-DET-0188 [LABOT]
+## #191 ES-KURSS-LESSONS-DET-0188 [NELABOT]
 
 - **Lesson:** lesson11
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[2].items[0]`
 - **DE:** eu se pronuncia «oi»: der Freund (dēr froint), neun (noin).
 - **CURRENT:** eu se pronuncia «oi»: der Freund (dēr froint), neun (noin).
-- **NEW:** eu se pronuncia «oi»: der Freund (der froint), neun (noin).
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** eu se pronuncia «oi»: der Freund (dēr froint), neun (noin).
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #192 ES-KURSS-LESSONS-DET-0189 [LABOT]
+## #192 ES-KURSS-LESSONS-DET-0189 [NELABOT]
 
 - **Lesson:** lesson11
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson11.sections[2].items[1]`
 - **DE:** A menudo, la h indica que la vocal anterior es larga: der Stuhl (dēr štūl), zehn (cēn).
 - **CURRENT:** A menudo, la h indica que la vocal anterior es larga: der Stuhl (dēr štūl), zehn (cēn).
-- **NEW:** A menudo, la h indica que la vocal anterior es larga: der Stuhl (der shtul), zehn (cen).
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** A menudo, la h indica que la vocal anterior es larga: der Stuhl (dēr štūl), zehn (cēn).
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
@@ -2666,29 +2665,29 @@ die Bank steht
 
 ---
 
-## #205 ES-KURSS-LESSONS-DET-0202 [LABOT]
+## #205 ES-KURSS-LESSONS-DET-0202 [NELABOT]
 
 - **Lesson:** lesson12
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[1].items[13]`
 - **DE:** der Vetter (dēr feter)
 - **CURRENT:** der Vetter (dēr feter) — primo
-- **NEW:** der Vetter (der feter) — primo
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** der Vetter (dēr feter) — primo
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 
-## #206 ES-KURSS-LESSONS-DET-0203 [LABOT]
+## #206 ES-KURSS-LESSONS-DET-0203 [NELABOT]
 
 - **Lesson:** lesson12
 - **Category:** FOREIGN_REMNANT · **Severity:** HIGH · **Source:** deterministic
 - **Path:** `COURSE_LESSON_DATA.kurssLesson12.sections[1].items[23]`
 - **DE:** das Gummi (das gumī)
 - **CURRENT:** das Gummi (das gumī) — goma
-- **NEW:** das Gummi (das gumi) — goma
-- **OWNER_DECISION:** LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.
-- **Pamatojums:** LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.
+- **NEW:** das Gummi (das gumī) — goma
+- **OWNER_DECISION:** NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.
+- **Pamatojums:** Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.
 
 ---
 

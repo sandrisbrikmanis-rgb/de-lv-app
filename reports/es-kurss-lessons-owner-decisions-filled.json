@@ -5,8 +5,8 @@
     "total": 993,
     "linguistic": 986,
     "technical": 7,
-    "labot": 547,
-    "nelabot": 191,
+    "labot": 520,
+    "nelabot": 218,
     "falsePositive": 248,
     "technicalDefer": 7,
     "labotMissingNew": 0,
@@ -3430,9 +3430,9 @@
       "problem": "Foreign/script: LV_DIAC, LV_WORD",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "En letón:\nTu nāc.\nVai tu nāc?",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "Du kommst. — Vienes.\nKommst du? — ¿Vienes?",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -3772,10 +3772,10 @@
       "problem": "Foreign/script: LV_DIAC, LV_WORD",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "sieviešu kārta — Plural definido el artículo para las tres rondas es morir.",
-      "ownerDecision": "LABOT: replace English 'article' with Spanish 'artículo' in grammar text.",
-      "reason": "ES grammar terminology must use artículo, not English article.",
-      "changeTag": "UNCHANGED"
+      "new": "femenino — die",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
+      "changeTag": "RE_EVALUATED"
     },
     {
       "num": 43,
@@ -3848,10 +3848,10 @@
       "problem": "Foreign/script: LV_DIAC, LV_WORD",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "sieviešu kārta — El indefinido el artículo no tiene plural.",
-      "ownerDecision": "LABOT: replace English 'article' with Spanish 'artículo' in grammar text.",
-      "reason": "ES grammar terminology must use artículo, not English article.",
-      "changeTag": "UNCHANGED"
+      "new": "femenino — El artículo indefinido no tiene plural.",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
+      "changeTag": "RE_EVALUATED"
     },
     {
       "num": 47,
@@ -4038,9 +4038,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "die Feder (di feder) — puntiaguda",
-      "ownerDecision": "LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.",
-      "reason": "DE headword checked; prior gloss was semantically wrong or corrupted.",
+      "new": "die Feder (dī fēder) — pluma",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4264,11 +4264,11 @@
       "current": "der Lehrer (dēr lērer) — profesor",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Lehrer (der lerer) — profesor",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Lehrer (dēr lērer) — profesor",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4321,11 +4321,11 @@
       "current": "der Schüler (šūler) — estudiante",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Schüler (shuler) — estudiante",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Schüler (šūler) — estudiante",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4606,11 +4606,11 @@
       "current": "der Schlüssel (šlūsel) — llave",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Schlüssel (shlusel) — llave",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Schlüssel (šlūsel) — llave",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4625,11 +4625,11 @@
       "current": "die Tafel (dī tāfel) — pizarra",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "die Tafel (di tafel) — pizarra",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "die Tafel (dī tāfel) — pizarra",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4663,11 +4663,11 @@
       "current": "der Deckel (dēr dekel) — tapa",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Deckel (der dekel) — tapa",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Deckel (dēr dekel) — tapa",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -4701,11 +4701,11 @@
       "current": "schwer (švēr) — pesado, difícil",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "schwer (shver) — pesado, difícil",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "schwer (švēr) — pesado, difícil",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5140,9 +5140,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "das Lied (das lit) — canción",
-      "ownerDecision": "LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.",
-      "reason": "DE headword checked; prior gloss was semantically wrong or corrupted.",
+      "new": "das Lied (das līt) — canción",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5159,9 +5159,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "der Spiegel (shpigel) — espejo",
-      "ownerDecision": "LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.",
-      "reason": "DE headword checked; prior gloss was semantically wrong or corrupted.",
+      "new": "der Spiegel (špīgel) — espejo",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5178,9 +5178,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "die Schüssel (di shusel) — cuenco",
-      "ownerDecision": "LABOT: correct scrambled ES gloss per DE source and lesson vocabulary.",
-      "reason": "DE headword checked; prior gloss was semantically wrong or corrupted.",
+      "new": "sp al principio de una palabra o sílaba se pronuncia como šp: der Spiegel (dēr špīgel).",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5197,9 +5197,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "das Zimmer — sch se pronuncia como la letra letona š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "sch se pronuncia como š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5216,9 +5216,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "das Ufer (ūfer) — El diptongo äu se pronuncia como el diptongo letón oi: das Fräulein (das froilein).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "El diptongo äu se pronuncia como oi: das Fräulein (das froilein).",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5235,9 +5235,9 @@
       "problem": "Foreign/script: LV_DIAC",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "sp al principio de una palabra o sílaba se pronuncia como el letón š: der Spiegel (dēr špīgel).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "sp al principio de una palabra o sílaba se pronuncia como šp: der Spiegel (dēr špīgel).",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5254,9 +5254,9 @@
       "problem": "Foreign/script: LV_DIAC, LV_WORD",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "sch se pronuncia como la letra letona š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "sch se pronuncia como š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5273,9 +5273,9 @@
       "problem": "Foreign/script: LV_DIAC, LV_WORD",
       "status": "LABOT",
       "track": "LINGUISTIC",
-      "new": "El diptongo äu se pronuncia como el diptongo letón oi: das Fräulein (das froilein).",
-      "ownerDecision": "LABOT: Spanish rewrite of LV legacy prose (Luna translation).",
-      "reason": "LV remnant replaced with natural Spanish; German examples preserved.",
+      "new": "El diptongo äu se pronuncia como oi: das Fräulein (das froilein).",
+      "ownerDecision": "LABOT: correct ES gloss / pronunciation rule per DE source and LV structural template.",
+      "reason": "Semantic or pronunciation-section correction verified against DE/LV master.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5651,11 +5651,11 @@
       "current": "der Bäcker (dēr beker) — panadero",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Bäcker (der beker) — panadero",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Bäcker (dēr beker) — panadero",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5670,11 +5670,11 @@
       "current": "der Schneider (dēr šneider) — sastre",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Schneider (der shneider) — sastre",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Schneider (dēr šneider) — sastre",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5689,11 +5689,11 @@
       "current": "der Gärtner (dēr gertner) — jardinero",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Gärtner (der gertner) — jardinero",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Gärtner (dēr gertner) — jardinero",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -5727,11 +5727,11 @@
       "current": "La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (dēr gertner).",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (der gertner).",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "La ä también puede sonar como una e más abierta, por ejemplo en der Gärtner (dēr gertner).",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6050,11 +6050,11 @@
       "current": "der Brief (dēr brīf) — carta",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Brief (der brif) — carta",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Brief (dēr brīf) — carta",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6221,11 +6221,11 @@
       "current": "ihr seid (īr zeit) — vosotros sois / estáis",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "ihr seid (ir zeit) — vosotros sois / estáis",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "ihr seid (īr zeit) — vosotros sois / estáis",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6240,11 +6240,11 @@
       "current": "der Knabe (dēr knābe) — un niño",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Knabe (der knabe) — un niño",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Knabe (dēr knābe) — un niño",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6259,11 +6259,11 @@
       "current": "der Großvater (dēr grōsfāter) — abuelo",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Großvater (der grosfater) — abuelo",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Großvater (dēr grōsfāter) — abuelo",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6297,11 +6297,11 @@
       "current": "Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fogel), Schüler (shuler), Bücher (bucher).",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "Si a la vocal le sigue una sola consonante, normalmente es larga: Vögel (fōgel), Schüler (šūler), Bücher (būcher).",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6316,11 +6316,11 @@
       "current": "Pronuncia correctamente: der Großvater (dēr grōsfāter).",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "Pronuncia correctamente: der Großvater (der grosfater).",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "Pronuncia correctamente: der Großvater (dēr grōsfāter).",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6335,11 +6335,11 @@
       "current": "La e alemana puede ser cerrada o abierta: der Lehrer (dēr lērer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "La e alemana puede ser cerrada o abierta: der Lehrer (der lerer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "La e alemana puede ser cerrada o abierta: der Lehrer (dēr lērer). La e de la raíz es larga y cerrada; la de la terminación, corta y abierta.",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6468,11 +6468,11 @@
       "current": "der Bruder (dēr brūder) — hermano",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Bruder (der bruder) — hermano",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Bruder (dēr brūder) — hermano",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6487,11 +6487,11 @@
       "current": "der Schreibtisch (dēr šreibtīš) — un escritorio",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Schreibtisch (der shreibtish) — un escritorio",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Schreibtisch (dēr šreibtīš) — un escritorio",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6525,11 +6525,11 @@
       "current": "der Freund (dēr froint) — amigo",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Freund (der froint) — amigo",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Freund (dēr froint) — amigo",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6544,11 +6544,11 @@
       "current": "der Stuhl (dēr štūl) — silla",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Stuhl (der shtul) — silla",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Stuhl (dēr štūl) — silla",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6563,11 +6563,11 @@
       "current": "die Landkarte (dī lantkarte) — mapa geográfico",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "die Landkarte (di lantkarte) — mapa geográfico",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "die Landkarte (dī lantkarte) — mapa geográfico",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6582,11 +6582,11 @@
       "current": "die Schwester (dī švester) — hermana",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "die Schwester (di shvester) — hermana",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "die Schwester (dī švester) — hermana",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6601,11 +6601,11 @@
       "current": "eu se pronuncia «oi»: der Freund (dēr froint), neun (noin).",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "eu se pronuncia «oi»: der Freund (der froint), neun (noin).",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "eu se pronuncia «oi»: der Freund (dēr froint), neun (noin).",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6620,11 +6620,11 @@
       "current": "A menudo, la h indica que la vocal anterior es larga: der Stuhl (dēr štūl), zehn (cēn).",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "A menudo, la h indica que la vocal anterior es larga: der Stuhl (der shtul), zehn (cen).",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "A menudo, la h indica que la vocal anterior es larga: der Stuhl (dēr štūl), zehn (cēn).",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6867,11 +6867,11 @@
       "current": "der Vetter (dēr feter) — primo",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "der Vetter (der feter) — primo",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "der Vetter (dēr feter) — primo",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
@@ -6886,11 +6886,11 @@
       "current": "das Gummi (das gumī) — goma",
       "proposedEs": "(OWNER: Spanish replacement per DE/LV meaning)",
       "problem": "Foreign/script: LV_DIAC",
-      "status": "LABOT",
+      "status": "NELABOT",
       "track": "LINGUISTIC",
-      "new": "das Gummi (das gumi) — goma",
-      "ownerDecision": "LABOT: normalize LV phonetic diacritics in parentheses to ASCII transcription.",
-      "reason": "LV diacritic phonetic notation replaced; Spanish gloss and DE examples preserved.",
+      "new": "das Gummi (das gumī) — goma",
+      "ownerDecision": "NELABOT: phonetic notation already follows ES Kurss standard (macron/š); FOREIGN_REMNANT was false positive.",
+      "reason": "Pedagogical transcription per kurssPronunciationLesson; no ES text change needed.",
       "changeTag": "RE_EVALUATED"
     },
     {
