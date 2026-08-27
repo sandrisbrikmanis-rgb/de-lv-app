@@ -7,8 +7,8 @@
 | **MASTER VERSION** | **1.12** |
 | **AUDIT MODE** | POST_REPAIR_FULL_DISCOVERY |
 | **ORIGIN_MAIN_SHA** | `a2a769e8600291411a7a66eab0483dd4659c9151` |
-| **DATASET_PRODUCTION_BLOB** | `ac6cdb404d7580efdab697559e344e1f9005a4d2` |
-| **WWW DATASET BLOB** | `ac6cdb404d7580efdab697559e344e1f9005a4d2` |
+| **DATASET_PRODUCTION_BLOB** | `c561ee4150f3c3dfdc3badd475d1bdba546e018c` |
+| **WWW DATASET BLOB** | `c561ee4150f3c3dfdc3badd475d1bdba546e018c` |
 | **LAST FINAL CLOSURE MAIN SHA** | `null` |
 | **LAST FINAL CLOSURE DATASET BLOB** | `null` |
 | **UNMERGED CLOSURE/REPAIR FOUND** | **0** |
@@ -36,15 +36,15 @@
 | Luna coverage | **100%** |
 | Study | **134/134** |
 | RAW findings | **505** |
-| NEW_VALIDATED_REAL_FINDINGS | **2** |
-| OWNER_BACKLOG_FINAL | **2** |
-| PREVIOUSLY_SEEN_RAW | **458** |
+| NEW_VALIDATED_REAL_FINDINGS | **6** |
+| OWNER_BACKLOG_FINAL | **6** |
+| PREVIOUSLY_SEEN_RAW | **451** |
 | PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW | **2** |
+| GENUINELY_NEW | **6** |
 | AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **YES** |
 | OBJECT_COVERAGE | **702/702 (100%)** |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
-| OWNER_DECISION_CONFIRMED | **45** |
+| OWNER_DECISION_CONFIRMED | **48** |
 | sectionAccents | **252** |
 | LV remnants | **226** |
 | Mirror | **PASS** |
@@ -57,13 +57,13 @@
 |------------|--------|
 | RAW LLM candidates | 115 |
 | Deterministic | 390 |
-| OWNER_DECISION_CONFIRMED | 45 |
-| OWNER_DECISION_REOPEN_REQUIRED | **9** |
+| OWNER_DECISION_CONFIRMED | 48 |
+| OWNER_DECISION_REOPEN_REQUIRED | **3** |
 | REPAIR_REGRESSION | **0** |
-| PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE | **458** |
+| PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE | **451** |
 | PRE_EXISTING_BUT_PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW_VALIDATED_REAL_FINDING | **2** |
-| OWNER_BACKLOG_FINAL | **2** |
+| GENUINELY_NEW_VALIDATED_REAL_FINDING | **6** |
+| OWNER_BACKLOG_FINAL | **6** |
 
 ## 2b. Discovery history gates (§7.12 / §7.18)
 
@@ -75,7 +75,7 @@
 
 ## 3. Validated findings
 
-CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
+CRITICAL: **0** · HIGH: **337** · MEDIUM: **95** · LOW: **25**
 
 #### FR-A1-0001
 **Card ID:** a1-bitte
@@ -4054,10 +4054,10 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Field:** study.translation
 **CURRENT:** À • À • Présent
 **PROPOSED_FR:** À
-**Problēma:** Le champ contient plusieurs traductions séparées par des puces et ajoute « Présent », qui ne correspond pas à an.
+**Problēma:** Distinct entries are combined; « Présent » is not a translation of German « an ».
 **LV etalons (konteksts):** pie
 **DE konteksts:** an
-**Smagums:** MEDIUM
+**Smagums:** HIGH
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
@@ -4066,8 +4066,8 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Card ID:** a1-ab
 **Field:** study.comparison[1].meaning
 **CURRENT:** De quelqu'un ou de quelque chose (origine)
-**PROPOSED_FR:** À partir d'un moment ou d'un point
-**Problēma:** ab exprime un point de départ, pas l'origine d'une personne ou d'une chose.
+**PROPOSED_FR:** À partir d'un point ou d'un moment
+**Problēma:** « De quelqu'un » expresses origin with « von/de », not the German preposition « ab ».
 **LV etalons (konteksts):** no kāda/kaut kā • izcelsme
 **DE konteksts:** ab
 **Smagums:** MEDIUM
@@ -4075,12 +4075,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0342
+#### FR-A1-0343
 **Card ID:** a1-auf
 **Field:** study.comparison[2].meaning
 **CURRENT:** Dans ou vers l’intérieur
-**PROPOSED_FR:** Sur une surface verticale
-**Problēma:** « Dans ou vers l'intérieur » correspond à in, pas à auf.
+**PROPOSED_FR:** Sur une surface ou vers une surface
+**Problēma:** « Dans/vers l'intérieur » corresponds to « in », not the core meaning of « auf ».
 **LV etalons (konteksts):** iekšā
 **DE konteksts:** auf
 **Smagums:** MEDIUM
@@ -4090,12 +4090,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
 **OWNER approved:** Sur / à
 **Statuss:** PENDING
-#### FR-A1-0343
+#### FR-A1-0344
 **Card ID:** a1-aus
 **Field:** study.translation
 **CURRENT:** De • Sortie
-**PROPOSED_FR:** De l'intérieur
-**Problēma:** Le champ contient plusieurs traductions séparées par une puce; une formulation française unique est requise.
+**PROPOSED_FR:** De
+**Problēma:** A translation and a noun label are combined as separate learner-facing entries.
 **LV etalons (konteksts):** no
 **DE konteksts:** aus
 **Smagums:** MEDIUM
@@ -4103,55 +4103,55 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0345
+#### FR-A1-0346
 **Card ID:** a1-aufs
 **Field:** study.translation
 **CURRENT:** Vers • Sur • Où ?
 **PROPOSED_FR:** Sur
-**Problēma:** Le champ contient plusieurs traductions et « Où ? » est incorrect: aufs indique une direction, donc « où aller ? ».
+**Problēma:** Several distinct translations plus an unrelated question word are combined in one field.
 **LV etalons (konteksts):** uz
+**DE konteksts:** aufs
+**Smagums:** HIGH
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0347
+**Card ID:** a1-aufs
+**Field:** study.comparison[1].meaning
+**CURRENT:** À la surface ou vers le haut
+**PROPOSED_FR:** Sur une surface
+**Problēma:** Two distinct meanings are combined with « ou » in one learner-facing field.
+**LV etalons (konteksts):** uz virsmu vai augšup
 **DE konteksts:** aufs
 **Smagums:** MEDIUM
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0348
+#### FR-A1-0350
 **Card ID:** a1-baden
 **Field:** study.examples[2].lv
 **CURRENT:** Il nage très bien.
 **PROPOSED_FR:** Il se baigne très bien.
-**Problēma:** « Nager » correspond à schwimmen; baden signifie se baigner ou prendre un bain.
+**Problēma:** « Nager » translates « schwimmen »; German « baden » means « se baigner » here.
 **LV etalons (konteksts):** viņš ļoti labi peld.
 **DE konteksts:** baden
-**Smagums:** MEDIUM
+**Smagums:** HIGH
 **Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0349
-**Card ID:** a1-baden
-**Field:** study.comparison[2].meaning
-**CURRENT:** Prendre une douche
-**PROPOSED_FR:** Prendre un bain
-**Problēma:** Prendre une douche correspond à se doucher; baden signifie prendre un bain ou se baigner.
-**LV etalons (konteksts):** mazgāties dušā
-**DE konteksts:** baden
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0352
+#### FR-A1-0353
 **Card ID:** a1-bringen
 **Field:** study.translation
 **CURRENT:** À emporter • À emporter
 **PROPOSED_FR:** Apporter
-**Problēma:** « À emporter » signifie à prendre avec soi, non apporter; la traduction est en plus dupliquée.
+**Problēma:** La traduction est dupliquée et « à emporter » signifie take away, pas apporter.
 **LV etalons (konteksts):** atnest
 **DE konteksts:** bringen
 **Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
@@ -4159,12 +4159,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Card ID:** a1-ein
 **Field:** study.translation
 **CURRENT:** Article indéfini • Un • Quelqu'un
-**PROPOSED_FR:** Article indéfini • Un
-**Problēma:** « Quelqu'un » signifie jemand, pas ein. La liste contient aussi plusieurs traductions à arbitrer.
+**PROPOSED_FR:** Article indéfini (ou un)
+**Problēma:** Le champ mélange plusieurs traductions et « quelqu'un » ne traduit pas normalement l'article allemand ein.
 **LV etalons (konteksts):** nenoteiktais artikuls
 **DE konteksts:** ein
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
@@ -4172,64 +4172,51 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Card ID:** a1-eis
 **Field:** study.translation
 **CURRENT:** Glace • Glace
-**PROPOSED_FR:** Glace (eau gelée) • Glace (dessert)
-**Problēma:** Les deux sens allemands sont distincts, mais la répétition de « glace » ne les différencie pas pour l'apprenant.
+**PROPOSED_FR:** Glace
+**Problēma:** La même traduction est répétée deux fois ; le français utilise « glace » pour les deux sens.
 **LV etalons (konteksts):** ledus • saldējums
 **DE konteksts:** Eis
-**Smagums:** MEDIUM
+**Smagums:** LOW
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0357
-**Card ID:** a1-erst
-**Field:** study.translation
-**CURRENT:** Premier • Seulement
-**PROPOSED_FR:** D'abord • Seulement
-**Problēma:** « Premier » est un adjectif ; erst se traduit ici par l'adverbe « d'abord » ou par « seulement ».
-**LV etalons (konteksts):** tikai
-**DE konteksts:** erst
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0358
-**Card ID:** a1-es
+**Card ID:** a1-erst
 **Field:** study.translation
-**CURRENT:** Il • Il • Forme impersonnelle
-**PROPOSED_FR:** Il (pronom) • Il (forme impersonnelle)
-**Problēma:** La répétition de « Il » ne distingue pas le pronom personnel de la forme impersonnelle.
-**LV etalons (konteksts):** tas
-**DE konteksts:** es
+**CURRENT:** Premier • Seulement
+**PROPOSED_FR:** D'abord • Seulement
+**Problēma:** « Premier » est un adjectif ; le sens adverbial de erst se traduit ici par « d'abord ».
+**LV etalons (konteksts):** tikai
+**DE konteksts:** erst
 **Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0360
-**Card ID:** a1-etwas
+#### FR-A1-0359
+**Card ID:** a1-es
 **Field:** study.translation
-**CURRENT:** Quelque chose • Un peu
-**PROPOSED_FR:** Quelque chose • Un peu
-**Problēma:** Le champ présente deux sens distincts séparés par un point médian ; une décision éditoriale est requise.
-**LV etalons (konteksts):** kaut kas
-**DE konteksts:** etwas
-**Smagums:** MEDIUM
+**CURRENT:** Il • Il • Forme impersonnelle
+**PROPOSED_FR:** Il (forme personnelle ou impersonnelle)
+**Problēma:** « Il » est répété et les sens sont présentés sans distinction claire.
+**LV etalons (konteksts):** tas
+**DE konteksts:** es
+**Smagums:** LOW
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0361
 **Card ID:** a1-etwas
-**Field:** study.comparison[0].meaning
-**CURRENT:** Quelque chose
-**PROPOSED_FR:** Quelque chose / un peu
-**Problēma:** La traduction française omet le second sens « nedaudz », qui signifie « un peu ».
-**LV etalons (konteksts):** kaut kas / nedaudz
+**Field:** study.translation
+**CURRENT:** Quelque chose • Un peu
+**PROPOSED_FR:** Quelque chose (ou un peu)
+**Problēma:** Le champ regroupe deux sens distincts séparés par un point médian ; une décision de présentation est nécessaire.
+**LV etalons (konteksts):** kaut kas
 **DE konteksts:** etwas
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Smagums:** LOW
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
@@ -4237,11 +4224,11 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Card ID:** a1-euch
 **Field:** study.translation
 **CURRENT:** Vous • Vous
-**PROPOSED_FR:** Vous (COD) • Vous (COI)
-**Problēma:** Les deux fonctions de euch sont distinctes, mais la répétition de « Vous » ne les explique pas.
+**PROPOSED_FR:** Vous
+**Problēma:** La traduction française identique est répétée ; la distinction allemande accusatif/datif doit être expliquée autrement.
 **LV etalons (konteksts):** jūs • jums
 **DE konteksts:** euch
-**Smagums:** MEDIUM
+**Smagums:** LOW
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
@@ -4250,12 +4237,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Card ID:** a1-fahren
 **Field:** study.translation
 **CURRENT:** Conduire • Diriger • Emporter
-**PROPOSED_FR:** Aller en véhicule • Conduire • Emmener
-**Problēma:** « Diriger » ne traduit pas fahren ; le verbe exprime un déplacement en véhicule ou le fait d'emmener quelqu'un.
+**PROPOSED_FR:** Conduire (ou aller en véhicule, emmener)
+**Problēma:** Le champ mélange plusieurs sens et « diriger » n'est pas le sens usuel de fahren ici.
 **LV etalons (konteksts):** braukt
 **DE konteksts:** fahren
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
@@ -4263,12 +4250,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Card ID:** a1-finden
 **Field:** study.translation
 **CURRENT:** Trouver • Considérer
-**PROPOSED_FR:** Trouver • Penser
-**Problēma:** Dans le sens d'une opinion, finden correspond à « penser » ou « trouver », non à « considérer » au niveau A1.
+**PROPOSED_FR:** Trouver (ou penser)
+**Problēma:** Le champ regroupe deux sens ; « penser » convient mieux que « considérer » dans l'expression d'une opinion.
 **LV etalons (konteksts):** atrast
 **DE konteksts:** finden
-**Smagums:** MEDIUM
-**Kategorija:** TRANSLATION
+**Smagums:** LOW
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
@@ -4276,11 +4263,11 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Card ID:** a1-frau
 **Field:** study.translation
 **CURRENT:** Femme • Épouse
-**PROPOSED_FR:** Femme (ou épouse selon le contexte)
-**Problēma:** Le champ regroupe deux sens distincts avec un séparateur ; une décision éditoriale est requise.
+**PROPOSED_FR:** Femme (ou épouse)
+**Problēma:** Le champ présente deux sens distincts séparés par un point médian ; une décision de présentation est nécessaire.
 **LV etalons (konteksts):** sieviete
 **DE konteksts:** Frau
-**Smagums:** MEDIUM
+**Smagums:** LOW
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
@@ -4289,8 +4276,8 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Card ID:** a1-fuer
 **Field:** study.translation
 **CURRENT:** Pour • Pour
-**PROPOSED_FR:** Pour (destinataire ou but)
-**Problēma:** La répétition de « Pour » ne distingue pas les fonctions illustrées dans les exemples.
+**PROPOSED_FR:** Pour
+**Problēma:** La même traduction est répétée deux fois sans apporter de distinction sémantique.
 **LV etalons (konteksts):** priekš
 **DE konteksts:** für
 **Smagums:** LOW
@@ -4299,56 +4286,11 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0367
-**Card ID:** a1-geben
-**Field:** study.examples[0].lv
-**CURRENT:** Donne-moi le livre, s'il te plaît.
-**PROPOSED_FR:** Donne-moi le livre, s’il te plaît.
-**Problēma:** Typographic apostrophe should be consistent with the rest of the French dataset.
-**LV etalons (konteksts):** iedod man, lūdzu, grāmatu.
-**DE konteksts:** geben
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
-**OWNER approved:** Donner
-**Statuss:** PENDING
-#### FR-A1-0368
-**Card ID:** a1-geben
-**Field:** study.examples[2].lv
-**CURRENT:** Je prends le livre
-**PROPOSED_FR:** Je prends le livre.
-**Problēma:** The French example lacks final punctuation.
-**LV etalons (konteksts):** es paņemu grāmatu.
-**DE konteksts:** geben
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
-**OWNER approved:** Donner
-**Statuss:** PENDING
-#### FR-A1-0369
-**Card ID:** a1-geben
-**Field:** study.examples[3].lv
-**CURRENT:** Je reçois un cadeau
-**PROPOSED_FR:** Je reçois un cadeau.
-**Problēma:** The French example lacks final punctuation.
-**LV etalons (konteksts):** es saņemu dāvanu.
-**DE konteksts:** geben
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
-**OWNER approved:** Donner
-**Statuss:** PENDING
-#### FR-A1-0370
 **Card ID:** a1-gleich
 **Field:** study.translation
 **CURRENT:** Immédiatement • Égal
-**PROPOSED_FR:** Égal
-**Problēma:** The learner-facing translation contains two distinct meanings; an owner must decide which sense is primary.
+**PROPOSED_FR:** Immédiatement ou égal
+**Problēma:** Deux sens distincts sont regroupés dans un seul champ; décision requise sur le sens à privilégier.
 **LV etalons (konteksts):** tūlīt
 **DE konteksts:** gleich
 **Smagums:** MEDIUM
@@ -4356,12 +4298,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0371
+#### FR-A1-0368
 **Card ID:** a1-halten
 **Field:** study.translation
 **CURRENT:** Maintenir • Arrêter
-**PROPOSED_FR:** Tenir
-**Problēma:** The learner-facing translation contains multiple distinct meanings and requires an owner decision.
+**PROPOSED_FR:** Tenir ou arrêter
+**Problēma:** Deux sens distincts sont regroupés dans un seul champ; décision requise sur le sens à privilégier.
 **LV etalons (konteksts):** turēt
 **DE konteksts:** halten
 **Smagums:** MEDIUM
@@ -4369,51 +4311,38 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0372
+#### FR-A1-0370
 **Card ID:** a1-halten
-**Field:** study.examples[0].lv
-**CURRENT:** Je tiens un sac
-**PROPOSED_FR:** Je tiens un sac.
-**Problēma:** The French example lacks final punctuation.
-**LV etalons (konteksts):** es turu somu.
+**Field:** study.comparison[3].meaning
+**CURRENT:** Penser
+**PROPOSED_FR:** Considérer
+**Problēma:** Dans « für richtig halten », halten signifie « considérer », non simplement « penser ».
+**LV etalons (konteksts):** domāt
 **DE konteksts:** halten
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0374
-**Card ID:** a1-hand-study
-**Field:** frMain
-**CURRENT:** Main (paume)
-**PROPOSED_FR:** Main
-**Problēma:** Paume means palm and incorrectly narrows the German noun Hand, which means hand.
-**LV etalons (konteksts):** plauksta
-**DE konteksts:** Hand
 **Smagums:** MEDIUM
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0375
+#### FR-A1-0371
 **Card ID:** a1-heißen
 **Field:** study.translation
 **CURRENT:** Être appelé • Moyen
-**PROPOSED_FR:** S'appeler • Signifier
-**Problēma:** Plusieurs sens sont séparés par • ; « Moyen » est incorrect pour le sens verbal « signifier ».
+**PROPOSED_FR:** S'appeler
+**Problēma:** « Moyen » ne correspond pas à heißen et la traduction naturelle de saukties est « s'appeler ».
 **LV etalons (konteksts):** saukties
 **DE konteksts:** heißen
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0377
+#### FR-A1-0373
 **Card ID:** a1-hoeren-study
 **Field:** study.translation
 **CURRENT:** Entendre • Écouter
 **PROPOSED_FR:** Entendre ou écouter
-**Problēma:** Le champ présente plusieurs traductions séparées par • ; une décision éditoriale est requise.
+**Problēma:** Deux traductions distinctes sont séparées par un point médian dans un champ destiné à l'apprenant.
 **LV etalons (konteksts):** dzirdēt • klausīties
 **DE konteksts:** hören
 **Smagums:** MEDIUM
@@ -4421,38 +4350,25 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0378
-**Card ID:** a1-huebsch
-**Field:** study.tip.text
-**CURRENT:** hübsch décrit surtout une jolie apparence ; nett décrit une personne aimable.
-**PROPOSED_FR:** hübsch décrit surtout une jolie apparence ; gentil décrit une personne aimable.
-**Problēma:** « nett » est un mot allemand restant dans le texte français ; il faut employer « gentil ».
-**LV etalons (konteksts):** Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos.
-**DE konteksts:** hübsch
-**Smagums:** MEDIUM
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0379
+#### FR-A1-0374
 **Card ID:** a1-ihr
 **Field:** study.translation
 **CURRENT:** Vous • Elle
-**PROPOSED_FR:** Vous • Lui • Son/Sa/Ses
-**Problēma:** Plusieurs sens sont séparés par • et « Elle » ne traduit pas le datif allemand ihr ; le pronom français est « lui ».
+**PROPOSED_FR:** Vous • Lui
+**Problēma:** Dans le sens datif de viņai, « ihr » correspond à « lui », et non au pronom sujet « elle ».
 **LV etalons (konteksts):** jūs • viņai
 **DE konteksts:** ihr
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0380
+#### FR-A1-0375
 **Card ID:** a1-im
 **Field:** study.translation
 **CURRENT:** Dans • Où ?
 **PROPOSED_FR:** Dans
-**Problēma:** « Où ? » est une question, pas une traduction de im ; le champ contient plusieurs éléments séparés par •.
+**Problēma:** « Où ? » est une question, pas une traduction de im, et les éléments sont séparés par un point médian.
 **LV etalons (konteksts):** iekšā (-ā) • kur?
 **DE konteksts:** im
 **Smagums:** MEDIUM
@@ -4460,7 +4376,7 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0382
+#### FR-A1-0376
 **Card ID:** a1-ins
 **Field:** study.translation
 **CURRENT:** Dans • Dans • Où ?
@@ -4473,25 +4389,25 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0383
+#### FR-A1-0377
 **Card ID:** a1-kein
 **Field:** study.translation
 **CURRENT:** Personne • Rien
-**PROPOSED_FR:** Aucun • Pas de
-**Problēma:** « Personne » et « rien » sont des pronoms, tandis que kein signifie généralement « aucun » ou « pas de ».
+**PROPOSED_FR:** Aucun / pas de
+**Problēma:** Kein signifie « aucun » ou « pas de » ; « personne » et « rien » correspondent à d'autres formes allemandes.
 **LV etalons (konteksts):** neviens • nekāds
 **DE konteksts:** kein
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0384
+#### FR-A1-0378
 **Card ID:** a1-können
 **Field:** study.translation
 **CURRENT:** Être capable de • Savoir
 **PROPOSED_FR:** Être capable de
-**Problēma:** Learner-facing field contains two distinct translations separated by •; owner decision is required.
+**Problēma:** Deux traductions distinctes sont séparées par • ; une décision éditoriale est requise pour le champ apprenant.
 **LV etalons (konteksts):** varēt • prast
 **DE konteksts:** können
 **Smagums:** LOW
@@ -4499,12 +4415,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0385
+#### FR-A1-0379
 **Card ID:** a1-kosten
 **Field:** study.examples[4].lv
 **CURRENT:** Je paie la facture
-**PROPOSED_FR:** La facture coûte cher.
-**Problēma:** Payer la facture does not express kosten; the German verb means coûter.
+**PROPOSED_FR:** La facture coûte de l'argent.
+**Problēma:** Je paie traduit payer, tandis que kosten signifie coûter ; l'exemple ne correspond pas au verbe allemand.
 **LV etalons (konteksts):** es maksāju rēķinu.
 **DE konteksts:** kosten
 **Smagums:** HIGH
@@ -4512,12 +4428,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0386
+#### FR-A1-0380
 **Card ID:** a1-kosten
 **Field:** study.examples[5].lv
 **CURRENT:** Puis-je payer en espèces
-**PROPOSED_FR:** Combien cela coûte-t-il en espèces ?
-**Problēma:** The French sentence means payer, not coûter, and is unrelated to German kosten.
+**PROPOSED_FR:** Combien cela coûte-t-il ?
+**Problēma:** La phrase française exprime payer, pas coûter, et ne correspond donc pas au verbe allemand kosten.
 **LV etalons (konteksts):** vai varu maksāt skaidrā naudā?
 **DE konteksts:** kosten
 **Smagums:** HIGH
@@ -4525,12 +4441,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0387
+#### FR-A1-0381
 **Card ID:** a1-kosten
 **Field:** study.examples[6].lv
 **CURRENT:** Il paie par carte.
-**PROPOSED_FR:** Cela coûte cher.
-**Problēma:** The French sentence means payer, whereas kosten means coûter.
+**PROPOSED_FR:** Cela coûte combien par carte ?
+**Problēma:** Il paie traduit une action de paiement, non le sens de kosten (« coûter »).
 **LV etalons (konteksts):** viņš maksā ar karti.
 **DE konteksts:** kosten
 **Smagums:** HIGH
@@ -4538,12 +4454,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0388
+#### FR-A1-0382
 **Card ID:** a1-kosten
 **Field:** study.examples[7].lv
 **CURRENT:** Je vais payer maintenant
-**PROPOSED_FR:** Cela coûtera cher.
-**Problēma:** The French sentence means payer, whereas kosten means coûter.
+**PROPOSED_FR:** Cela va coûter combien maintenant ?
+**Problēma:** La phrase française emploie payer, alors que le mot allemand signifie coûter.
 **LV etalons (konteksts):** es samaksāšu tūlīt.
 **DE konteksts:** kosten
 **Smagums:** HIGH
@@ -4551,25 +4467,25 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0392
+#### FR-A1-0386
 **Card ID:** a1-laden-study
 **Field:** study.examples[3].lv
 **CURRENT:** Je dois recharger mon téléphone.
-**PROPOSED_FR:** Le magasin est fermé.
-**Problēma:** This example describes charger un téléphone, not the noun Laden meaning magasin.
+**PROPOSED_FR:** Je vais au magasin.
+**Problēma:** Laden avec majuscule est le nom « magasin » ; recharger correspond au verbe allemand laden.
 **LV etalons (konteksts):** man jāuzlādē telefons.
 **DE konteksts:** Laden
-**Smagums:** HIGH
+**Smagums:** MEDIUM
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0393
+#### FR-A1-0387
 **Card ID:** a1-land
 **Field:** study.translation
 **CURRENT:** Pays • Terrain
 **PROPOSED_FR:** Pays
-**Problēma:** Learner-facing field contains two distinct translations separated by •; owner decision is required.
+**Problēma:** Deux traductions distinctes sont séparées par • dans un champ apprenant ; décision éditoriale requise.
 **LV etalons (konteksts):** valsts • zeme
 **DE konteksts:** Land
 **Smagums:** LOW
@@ -4577,25 +4493,25 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0395
+#### FR-A1-0389
 **Card ID:** a1-lang
 **Field:** study.translation
 **CURRENT:** Longue • Longue
-**PROPOSED_FR:** Long
-**Problēma:** Learner-facing field duplicates a translation and separates entries with •; owner decision is required.
+**PROPOSED_FR:** Long • Long
+**Problēma:** La forme de dictionnaire française est masculine ; « longue » est une forme féminine et le doublon est incorrect.
 **LV etalons (konteksts):** garš • ilgs
 **DE konteksts:** lang
-**Smagums:** LOW
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Smagums:** MEDIUM
+**Kategorija:** GRAMMAR
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0396
+#### FR-A1-0390
 **Card ID:** a1-lassen
 **Field:** study.translation
 **CURRENT:** Partir • Laisser
 **PROPOSED_FR:** Laisser • Permettre
-**Problēma:** Partir is only part of laisser partir; lassen means laisser or permettre in these senses.
+**Problēma:** Partir signifie quitter un lieu ; lassen correspond ici à laisser ou permettre.
 **LV etalons (konteksts):** atstāt • ļaut
 **DE konteksts:** lassen
 **Smagums:** MEDIUM
@@ -4603,126 +4519,68 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0398
+#### FR-A1-0391
 **Card ID:** a1-laufen
 **Field:** study.translation
 **CURRENT:** Exécuter • Utiliser
 **PROPOSED_FR:** Courir • Fonctionner
-**Problēma:** Exécuter and utiliser do not translate laufen in the running or operating senses shown.
+**Problēma:** Exécuter et utiliser ne traduisent pas les sens principaux de laufen indiqués par la source.
 **LV etalons (konteksts):** skriet • darboties
 **DE konteksts:** laufen
-**Smagums:** MEDIUM
+**Smagums:** HIGH
 **Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0399
+#### FR-A1-0393
 **Card ID:** a1-laut
 **Field:** study.examples[4].lv
 **CURRENT:** Le son est magnifique.
-**PROPOSED_FR:** Le son est très fort.
-**Problēma:** The French sentence describes a beautiful sound, not the adjective laut meaning loud.
+**PROPOSED_FR:** Le son est fort.
+**Problēma:** L'exemple ne présente pas le sens « bruyant/fort » de laut.
 **LV etalons (konteksts):** skaņa ir skaista.
 **DE konteksts:** laut
-**Smagums:** HIGH
+**Smagums:** MEDIUM
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
 **OWNER approved:** Fort
 **Statuss:** PENDING
-#### FR-A1-0400
+#### FR-A1-0394
 **Card ID:** a1-laut
 **Field:** study.examples[5].lv
 **CURRENT:** J'entends un son
-**PROPOSED_FR:** J'entends un son très fort.
-**Problēma:** The French sentence omits the meaning loud expressed by laut.
+**PROPOSED_FR:** J'entends un son fort.
+**Problēma:** La phrase indique seulement l'existence d'un son et n'illustre pas le sens « fort/bruyant » de laut.
 **LV etalons (konteksts):** es dzirdu kādu skaņu.
 **DE konteksts:** laut
-**Smagums:** HIGH
+**Smagums:** MEDIUM
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
 **OWNER approved:** Fort
 **Statuss:** PENDING
-#### FR-A1-0401
-**Card ID:** a1-laut-study
-**Field:** study.examples[1].lv
-**CURRENT:** La musique est forte.
-**PROPOSED_FR:** Le son de la musique est fort.
-**Problēma:** This example uses the adjective laut, not the noun Laut meaning son.
-**LV etalons (konteksts):** mūzika ir skaļa.
-**DE konteksts:** Laut
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
-**OWNER approved:** Le son
-**Statuss:** PENDING
-#### FR-A1-0402
-**Card ID:** a1-laut-study
-**Field:** study.examples[2].lv
-**CURRENT:** Ne parle pas si fort !
-**PROPOSED_FR:** Le son est fort.
-**Problēma:** This example uses the adjective laut, not the noun Laut meaning son.
-**LV etalons (konteksts):** nerunā tik skaļi!
-**DE konteksts:** Laut
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
-**OWNER approved:** Le son
-**Statuss:** PENDING
-#### FR-A1-0403
-**Card ID:** a1-laut-study
-**Field:** study.examples[3].lv
-**CURRENT:** C'est très bruyant.
-**PROPOSED_FR:** Le son est très fort.
-**Problēma:** This example uses the adjective laut, not the noun Laut meaning son.
-**LV etalons (konteksts):** tas ir ļoti skaļi.
-**DE konteksts:** Laut
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
-**OWNER approved:** Le son
-**Statuss:** PENDING
-#### FR-A1-0404
-**Card ID:** a1-legen
-**Field:** study.examples[3].lv
-**CURRENT:** Le livre est sur la table.
-**PROPOSED_FR:** Je pose le livre sur la table.
-**Problēma:** The French sentence describes liegen, while legen requires a placing action.
-**LV etalons (konteksts):** grāmata atrodas uz galda.
-**DE konteksts:** legen
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0405
+#### FR-A1-0396
 **Card ID:** a1-liegen
 **Field:** study.translation
 **CURRENT:** Être • Dormir
 **PROPOSED_FR:** Être allongé • Se trouver
-**Problēma:** Liegen means being situated or lying; dormir is not its direct meaning.
+**Problēma:** Dormir ne signifie pas liegen ; le verbe allemand décrit une position allongée ou une situation.
 **LV etalons (konteksts):** atrasties • gulēt
 **DE konteksts:** liegen
 **Smagums:** MEDIUM
-**Kategorija:** TRANSLATION
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0406
+#### FR-A1-0397
 **Card ID:** a1-liegen
 **Field:** study.examples[3].lv
 **CURRENT:** J'ai posé le livre sur la table.
 **PROPOSED_FR:** Le livre est sur la table.
-**Problēma:** The French sentence describes legen, a placing action, not liegen, a state or position.
+**Problēma:** Poser traduit legen, l'action causative ; liegen décrit ici l'état du livre déjà placé.
 **LV etalons (konteksts):** es nolieku grāmatu uz galda.
 **DE konteksts:** liegen
 **Smagums:** HIGH
@@ -4730,103 +4588,103 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0407
+#### FR-A1-0399
 **Card ID:** a1-machen
 **Field:** study.translation
 **CURRENT:** Faire • Faire
 **PROPOSED_FR:** Faire
-**Problēma:** La traduction est dupliquée inutilement.
+**Problēma:** Deux traductions identiques sont affichées; supprimer le doublon pour éviter une distinction artificielle.
 **LV etalons (konteksts):** darīt • taisīt
 **DE konteksts:** machen
 **Smagums:** LOW
-**Kategorija:** NATURALNESS
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0400
+**Card ID:** a1-mann
+**Field:** study.translation
+**CURRENT:** Homme • Mari
+**PROPOSED_FR:** Homme ou mari
+**Problēma:** Deux sens distincts sont séparés par un point médian; une décision éditoriale est requise sur la présentation.
+**LV etalons (konteksts):** vīrietis • vīrs
+**DE konteksts:** Mann
+**Smagums:** LOW
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0404
+**Card ID:** a1-nach
+**Field:** study.translation
+**CURRENT:** À • Après
+**PROPOSED_FR:** À ou après
+**Problēma:** Deux sens distincts sont séparés par un point médian; une décision éditoriale est requise sur la présentation.
+**LV etalons (konteksts):** uz • pēc
+**DE konteksts:** nach
+**Smagums:** LOW
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0405
+**Card ID:** a1-natuerlich
+**Field:** study.translation
+**CURRENT:** Bien sûr • Naturel
+**PROPOSED_FR:** Bien sûr ou naturel
+**Problēma:** Deux sens distincts sont séparés par un point médian; une décision éditoriale est requise sur la présentation.
+**LV etalons (konteksts):** protams • dabisks
+**DE konteksts:** natürlich
+**Smagums:** LOW
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0406
+**Card ID:** a1-nehmen
+**Field:** study.translation
+**CURRENT:** Prendre • Prendre
+**PROPOSED_FR:** Prendre
+**Problēma:** Les deux traductions françaises sont identiques; supprimer le doublon pour éviter une distinction artificielle.
+**LV etalons (konteksts):** ņemt • paņemt
+**DE konteksts:** nehmen
+**Smagums:** LOW
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0407
+**Card ID:** a1-nur-study
+**Field:** study.translation
+**CURRENT:** Seulement • Seulement
+**PROPOSED_FR:** Seulement
+**Problēma:** La traduction contient deux entrées identiques séparées par une puce; une seule traduction suffit.
+**LV etalons (konteksts):** tikai • vienīgi
+**DE konteksts:** nur
+**Smagums:** LOW
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0408
-**Card ID:** a1-mann
+**Card ID:** a1-oder
 **Field:** study.translation
-**CURRENT:** Homme • Mari
-**PROPOSED_FR:** Homme
-**Problēma:** Deux sens français distincts sont réunis dans un seul champ; le choix ou le découpage nécessite une décision éditoriale.
-**LV etalons (konteksts):** vīrietis • vīrs
-**DE konteksts:** Mann
-**Smagums:** MEDIUM
+**CURRENT:** Ou • Ou
+**PROPOSED_FR:** Ou
+**Problēma:** La traduction contient deux entrées identiques séparées par une puce; une seule traduction suffit.
+**LV etalons (konteksts):** vai • jeb
+**DE konteksts:** oder
+**Smagums:** LOW
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0409
-**Card ID:** a1-nach
-**Field:** study.translation
-**CURRENT:** À • Après
-**PROPOSED_FR:** À
-**Problēma:** Deux sens français distincts sont réunis dans un seul champ; le choix ou le découpage nécessite une décision éditoriale.
-**LV etalons (konteksts):** uz • pēc
-**DE konteksts:** nach
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0410
-**Card ID:** a1-natuerlich
-**Field:** study.translation
-**CURRENT:** Bien sûr • Naturel
-**PROPOSED_FR:** Bien sûr
-**Problēma:** Deux sens français distincts sont réunis dans un seul champ; le choix ou le découpage nécessite une décision éditoriale.
-**LV etalons (konteksts):** protams • dabisks
-**DE konteksts:** natürlich
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0411
-**Card ID:** a1-nehmen
-**Field:** study.translation
-**CURRENT:** Prendre • Prendre
-**PROPOSED_FR:** Prendre
-**Problēma:** La traduction est dupliquée inutilement.
-**LV etalons (konteksts):** ņemt • paņemt
-**DE konteksts:** nehmen
-**Smagums:** LOW
-**Kategorija:** NATURALNESS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0414
-**Card ID:** a1-nur-study
-**Field:** study.translation
-**CURRENT:** Seulement • Seulement
-**PROPOSED_FR:** Seulement
-**Problēma:** La traduction est répétée deux fois; une seule entrée française suffit.
-**LV etalons (konteksts):** tikai • vienīgi
-**DE konteksts:** nur
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0415
-**Card ID:** a1-oder
-**Field:** study.translation
-**CURRENT:** Ou • Ou
-**PROPOSED_FR:** Ou
-**Problēma:** La traduction est répétée deux fois; une seule entrée française suffit.
-**LV etalons (konteksts):** vai • jeb
-**DE konteksts:** oder
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0416
 **Card ID:** a1-passen
 **Field:** study.translation
 **CURRENT:** Ajustement • Ajustement
-**PROPOSED_FR:** Convenir
-**Problēma:** « Ajustement » est un nom et non la traduction du verbe « passen »; la traduction est aussi répétée.
+**PROPOSED_FR:** Convenir • Aller
+**Problēma:** « Ajustement » est un nom et ne traduit pas le verbe allemand; il faut des verbes français adaptés au contexte.
 **LV etalons (konteksts):** derēt • piestāvēt
 **DE konteksts:** passen
 **Smagums:** HIGH
@@ -4834,103 +4692,142 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0417
-**Card ID:** a1-passen
-**Field:** study.examples[1].lv
-**CURRENT:** La robe va bien.
-**PROPOSED_FR:** La robe me va bien.
-**Problēma:** Pour exprimer qu'un vêtement convient à une personne, le français précise généralement le bénéficiaire.
-**LV etalons (konteksts):** kleita labi der.
-**DE konteksts:** passen
-**Smagums:** MEDIUM
-**Kategorija:** NATURALNESS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0418
+#### FR-A1-0410
 **Card ID:** a1-probieren
 **Field:** study.translation
 **CURRENT:** A essayer • A déguster
-**PROPOSED_FR:** Essayer
-**Problēma:** Le champ juxtapose deux traductions; « Essayer » est la forme infinitive directe attendue pour le verbe allemand.
+**PROPOSED_FR:** Essayer • Goûter
+**Problēma:** Pour traduire l'infinitif, il faut employer les verbes « essayer » et « goûter », non « à essayer » et « à déguster ».
 **LV etalons (konteksts):** izmēģināt • nogaršot
 **DE konteksts:** probieren
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0411
+**Card ID:** a1-probieren
+**Field:** study.examples[0].lv
+**CURRENT:** Goûtez la soupe !
+**PROPOSED_FR:** Goûtez la soupe !
+**Problēma:** Aucune correction textuelle n'est nécessaire; le registre formel est acceptable en français.
+**LV etalons (konteksts):** pagaršo zupu!
+**DE konteksts:** probieren
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0412
+**Card ID:** a1-reis
+**Field:** study.examples[1].lv
+**CURRENT:** Je mange du riz
+**PROPOSED_FR:** Je mange du riz.
+**Problēma:** Il manque le point final à cette phrase complète, contrairement aux autres exemples de la carte.
+**LV etalons (konteksts):** es ēdu rīsus.
+**DE konteksts:** Reis
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0413
+**Card ID:** a1-seite
+**Field:** frMain
+**CURRENT:** Page • Côté
+**PROPOSED_FR:** Page / Côté
+**Problēma:** Le champ contient plusieurs traductions distinctes séparées par • ; une décision éditoriale est requise.
+**LV etalons (konteksts):** lappuse • puse
+**DE konteksts:** Seite
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0414
+**Card ID:** a1-seite
+**Field:** study.translation
+**CURRENT:** Page • Côté
+**PROPOSED_FR:** Page / Côté
+**Problēma:** Le champ contient plusieurs traductions distinctes séparées par • ; une décision éditoriale est requise.
+**LV etalons (konteksts):** lappuse • puse
+**DE konteksts:** Seite
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0415
+**Card ID:** a1-sich
+**Field:** study.translation
+**CURRENT:** Vous-même • Pour vous-même
+**PROPOSED_FR:** Soi-même / À soi-même
+**Problēma:** « Vous-même » ne correspond pas au pronom réfléchi allemand général sich ; plusieurs sens sont listés.
+**LV etalons (konteksts):** sevi • sev
+**DE konteksts:** sich
 **Smagums:** MEDIUM
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0419
-**Card ID:** a1-seite
+**Card ID:** a1-sicher
 **Field:** study.translation
-**CURRENT:** Page • Côté
-**PROPOSED_FR:** Page ou côté
-**Problēma:** Learner-facing field contains multiple distinct translations; owner decision is required on presentation.
-**LV etalons (konteksts):** lappuse • puse
-**DE konteksts:** Seite
-**Smagums:** LOW
+**CURRENT:** Sûr • Certainement
+**PROPOSED_FR:** Sûr / Certainement
+**Problēma:** Le champ contient plusieurs traductions distinctes séparées par • ; une décision éditoriale est requise.
+**LV etalons (konteksts):** drošs • noteikti
+**DE konteksts:** sicher
+**Smagums:** MEDIUM
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0420
-**Card ID:** a1-sich
-**Field:** study.translation
-**CURRENT:** Vous-même • Pour vous-même
-**PROPOSED_FR:** Se / soi-même
-**Problēma:** Sich is a reflexive pronoun, not specifically second-person vous; “pour vous-même” changes the meaning.
-**LV etalons (konteksts):** sevi • sev
-**DE konteksts:** sich
-**Smagums:** MEDIUM
+**Card ID:** a1-sie-study
+**Field:** frMain
+**CURRENT:** Elle
+**PROPOSED_FR:** Elle / Ils / Elles
+**Problēma:** Le sie allemand minuscule signifie « elle » ou « ils/elles », pas seulement « elle ».
+**LV etalons (konteksts):** viņi / viņas
+**DE konteksts:** sie
+**Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0424
-**Card ID:** a1-sich
-**Field:** study.comparison[3].meaning
-**CURRENT:** Lui
-**PROPOSED_FR:** Le / la
-**Problēma:** Latvian accusative “viņu” is him/her as a direct object; French “lui” is normally indirect or stressed.
-**LV etalons (konteksts):** viņu
-**DE konteksts:** sich
-**Smagums:** MEDIUM
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0425
-**Card ID:** a1-sicher
+#### FR-A1-0421
+**Card ID:** a1-sie-study
 **Field:** study.translation
-**CURRENT:** Sûr • Certainement
-**PROPOSED_FR:** Sûr ou certainement
-**Problēma:** Learner-facing field contains multiple distinct translations; owner decision is required on presentation.
-**LV etalons (konteksts):** drošs • noteikti
-**DE konteksts:** sicher
-**Smagums:** LOW
+**CURRENT:** Ils/elle
+**PROPOSED_FR:** Elle / Ils / Elles
+**Problēma:** La traduction est incomplète pour sie et sépare plusieurs sens sans espaces autour de la barre oblique.
+**LV etalons (konteksts):** viņi / viņas
+**DE konteksts:** sie
+**Smagums:** HIGH
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0426
-**Card ID:** a1-sie-study
-**Field:** study.translation
-**CURRENT:** Ils/elle
-**PROPOSED_FR:** Elle / ils / elles
-**Problēma:** Lowercase German “sie” means she or they; French omits elles and presents the forms inaccurately.
-**LV etalons (konteksts):** viņi / viņas
-**DE konteksts:** sie
-**Smagums:** MEDIUM
-**Kategorija:** TRANSLATION
+#### FR-A1-0422
+**Card ID:** a1-stehen
+**Field:** study.examples[0].lv
+**CURRENT:** Je me tiens à la porte.
+**PROPOSED_FR:** Je me tiens près de la porte.
+**Problēma:** « À la porte » est peu naturel ici et peut suggérer un appui ; « près de la porte » exprime mieux la position.
+**LV etalons (konteksts):** es stāvu pie durvīm.
+**DE konteksts:** stehen
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0431
+#### FR-A1-0424
 **Card ID:** a1-über
 **Field:** study.translation
 **CURRENT:** Fini • Pour
-**PROPOSED_FR:** Au-dessus • À propos de
-**Problēma:** “Fini” and “pour” do not translate the core meanings of German über in this card.
+**PROPOSED_FR:** Au-dessus / À propos de
+**Problēma:** « Fini » et « pour » ne traduisent pas les sens indiqués de über dans ces cartes.
 **LV etalons (konteksts):** virs • par
 **DE konteksts:** über
 **Smagums:** HIGH
@@ -4938,12 +4835,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0433
+#### FR-A1-0426
 **Card ID:** a1-um
 **Field:** study.translation
 **CURRENT:** Vers • Heures
-**PROPOSED_FR:** Autour de • À (une heure)
-**Problēma:** The translation omits the core sense “around” and “Heures” is not a usable French translation.
+**PROPOSED_FR:** À / Autour de
+**Problēma:** « Heures » est un nom et ne traduit pas la préposition um dans l'expression de l'heure.
 **LV etalons (konteksts):** ap • pulksten
 **DE konteksts:** um
 **Smagums:** HIGH
@@ -4951,25 +4848,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0435
-**Card ID:** a1-um
-**Field:** study.comparison[2].meaning
-**CURRENT:** Vers cette heure / contre
-**PROPOSED_FR:** Vers cette heure ou contre
-**Problēma:** Learner-facing field uses a slash to combine distinct meanings.
-**LV etalons (konteksts):** ap laiku / pret
-**DE konteksts:** um
-**Smagums:** LOW
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0436
+#### FR-A1-0431
 **Card ID:** a1-vor
 **Field:** study.translation
 **CURRENT:** Avant • Devant
-**PROPOSED_FR:** Avant
-**Problēma:** Le champ learner-facing contient deux traductions distinctes séparées par « • » ; décision de présentation nécessaire.
+**PROPOSED_FR:** Avant ou devant
+**Problēma:** Deux traductions distinctes sont séparées par un point médian ; une décision éditoriale est requise.
 **LV etalons (konteksts):** pirms • priekšā
 **DE konteksts:** vor
 **Smagums:** LOW
@@ -4977,12 +4861,25 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0437
+#### FR-A1-0432
+**Card ID:** a1-vor
+**Field:** study.examples[3].lv
+**CURRENT:** Avant de manger, nous partons nous promener.
+**PROPOSED_FR:** Après avoir mangé, nous partons nous promener.
+**Problēma:** La source indique après avoir mangé, mais le français indique avant de manger.
+**LV etalons (konteksts):** pēc ēšanas mēs ejam pastaigāties.
+**DE konteksts:** vor
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0433
 **Card ID:** a1-was
 **Field:** study.translation
 **CURRENT:** Qui • Quoi
 **PROPOSED_FR:** Quoi
-**Problēma:** Was signifie « quoi », pas « qui » ; la première traduction est incorrecte pour le mot allemand.
+**Problēma:** Was signifie « quoi », tandis que « qui » correspond à wer.
 **LV etalons (konteksts):** kas • ko
 **DE konteksts:** was
 **Smagums:** HIGH
@@ -4990,25 +4887,12 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0438
-**Card ID:** a1-was
-**Field:** study.examples[0].lv
-**CURRENT:** Qu'est-ce que c'est ?
-**PROPOSED_FR:** Qu'est-ce que c'est ?
-**Problēma:** La phrase française est correcte et rend « was » ; aucune correction nécessaire.
-**LV etalons (konteksts):** Kas tas ir?
-**DE konteksts:** was
-**Smagums:** HIGH
-**Kategorija:** TRANSLATION
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0439
+#### FR-A1-0434
 **Card ID:** a1-wenn
 **Field:** study.translation
 **CURRENT:** Si • Quand
-**PROPOSED_FR:** Si
-**Problēma:** Le champ learner-facing contient deux traductions distinctes séparées par « • » ; décision de présentation nécessaire.
+**PROPOSED_FR:** Si ou quand
+**Problēma:** Deux traductions distinctes sont séparées par un point médian ; une décision éditoriale est requise.
 **LV etalons (konteksts):** ja • kad
 **DE konteksts:** wenn
 **Smagums:** LOW
@@ -5016,12 +4900,25 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0440
+#### FR-A1-0435
+**Card ID:** a1-wer
+**Field:** study.translation
+**CURRENT:** Qui • Qui
+**PROPOSED_FR:** Qui
+**Problēma:** La traduction française est dupliquée dans le champ d'apprentissage.
+**LV etalons (konteksts):** kas • kurš
+**DE konteksts:** wer
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0436
 **Card ID:** a1-wie
 **Field:** study.translation
 **CURRENT:** Comment • Combien
-**PROPOSED_FR:** Comment
-**Problēma:** Le champ learner-facing contient deux traductions distinctes séparées par « • » ; décision de présentation nécessaire.
+**PROPOSED_FR:** Comment ou combien
+**Problēma:** Deux traductions distinctes sont séparées par un point médian ; une décision éditoriale est requise.
 **LV etalons (konteksts):** kā • cik
 **DE konteksts:** wie
 **Smagums:** LOW
@@ -5029,16 +4926,68 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0442
+#### FR-A1-0437
+**Card ID:** a1-zu
+**Field:** study.translation
+**CURRENT:** À • À
+**PROPOSED_FR:** À
+**Problēma:** La traduction française est dupliquée dans le champ d'apprentissage.
+**LV etalons (konteksts):** uz • pie
+**DE konteksts:** zu
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0438
+**Card ID:** a1-zug
+**Field:** study.examples[3].lv
+**CURRENT:** Le train arrive plus tard.
+**PROPOSED_FR:** Le bus arrive plus tard.
+**Problēma:** La source parle d'un autobus, mais le français parle d'un train.
+**LV etalons (konteksts):** autobuss pienāk vēlāk.
+**DE konteksts:** Zug
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0439
+**Card ID:** a1-zum
+**Field:** study.translation
+**CURRENT:** À • À
+**PROPOSED_FR:** À
+**Problēma:** La traduction française est répétée deux fois, ce qui crée une entrée mal structurée.
+**LV etalons (konteksts):** uz • pie
+**DE konteksts:** zum
+**Smagums:** LOW
+**Kategorija:** STRUCTURE
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0441
 **Card ID:** a1-essen-study
 **Field:** study.translation
 **CURRENT:** Alimentation • Repas
-**PROPOSED_FR:** Alimentation ou repas
-**Problēma:** Deux traductions distinctes sont séparées par un point médian; le propriétaire doit valider la formulation learner-facing.
+**PROPOSED_FR:** Nourriture
+**Problēma:** Deux traductions distinctes sont proposées avec une puce; une décision éditoriale est nécessaire pour le sens visé.
 **LV etalons (konteksts):** ēdiens • maltīte
 **DE konteksts:** Essen
-**Smagums:** LOW
+**Smagums:** MEDIUM
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0444
+**Card ID:** a1-urlaub
+**Field:** study.examples[4].lv
+**CURRENT:** En vacances (travail).
+**PROPOSED_FR:** En congé (professionnel).
+**Problēma:** « En vacances (travail) » est une formulation télégraphique et peu naturelle pour un congé professionnel.
+**LV etalons (konteksts):** atvaļinājumā (darbs).
+**DE konteksts:** Urlaub
+**Smagums:** LOW
+**Kategorija:** NATURALNESS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
@@ -5047,7 +4996,7 @@ CRITICAL: **0** · HIGH: **337** · MEDIUM: **105** · LOW: **18**
 **Field:** study.translation
 **CURRENT:** Une fois • Une fois
 **PROPOSED_FR:** Une fois
-**Problēma:** La traduction française est répétée à l’identique, ce qui crée un doublon inutile dans le champ d’étude.
+**Problēma:** The French translation is duplicated; the learner-facing field should contain it only once.
 **LV etalons (konteksts):** vienreiz • reiz
 **DE konteksts:** einmal
 **Smagums:** LOW

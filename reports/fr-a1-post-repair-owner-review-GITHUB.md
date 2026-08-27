@@ -4,7 +4,7 @@
 **Branch:** `cursor/fr-a1-owner-gala-copy-only-f5bc`
 **MAIN_BASE_SHA:** `a2a769e8600291411a7a66eab0483dd4659c9151`
 **Audit PR:** [#683](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/683)
-**Findings:** **2** · **STAGE RESULT:** NEEDS OWNER REVIEW
+**Findings:** **6** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
 
@@ -12,7 +12,7 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-review-README.md) | Workflow un kopsavilkums |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-audit.md) | 702/702 Luna · PR603 raw 19 · OWNER backlog **2** |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-audit.md) | 702/702 Luna · PR603 raw 19 · OWNER backlog **6** |
 | [OWNER apply report](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-owner-gala-copy-only-apply-report.md) | PR #683 COPY-ONLY · 423/423 LABOT |
 
 ## VIEW ↔ DECISIONS (viss komplekts)
@@ -28,7 +28,7 @@
 
 | Findings | VIEW | DECISIONS | Statuss |
 |----------|------|-----------|---------|
-| 1–2 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group01.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group01.md) | **PENDING** |
+| 1–6 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group01.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group01.md) | **PENDING** |
 
 ## Severity
 
@@ -36,16 +36,16 @@
 |----------|--------|
 | CRITICAL | **0** |
 | HIGH | **0** |
-| MEDIUM | **1** |
-| LOW | **1** |
+| MEDIUM | **2** |
+| LOW | **4** |
 
 ## §7.10.4 Coverage gate
 
 | Metrika | Vērtība |
 |---------|---------|
-| Validated findings | **2** |
-| OWNER VIEW findings | **2** |
-| OWNER DECISIONS findings | **2** |
+| Validated findings | **6** |
+| OWNER VIEW findings | **6** |
+| OWNER DECISIONS findings | **6** |
 | Missing in OWNER VIEW | **0** |
 | Missing in OWNER DECISIONS | **0** |
 | Duplicate Audit IDs | **0** |
@@ -56,12 +56,12 @@
 
 | Metrika | Vērtība |
 |---------|---------|
-| RAW_CANDIDATES | **460** |
-| SEMANTIC_DEDUPED | **360** |
-| PREVIOUS_RAW_MATCHES | **458** |
+| RAW_CANDIDATES | **457** |
+| SEMANTIC_DEDUPED | **361** |
+| PREVIOUS_RAW_MATCHES | **451** |
 | PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW | **2** |
-| OWNER_BACKLOG_FINAL | **2** |
+| GENUINELY_NEW | **6** |
+| OWNER_BACKLOG_FINAL | **6** |
 | PRE_BACKLOG_HISTORY_GATE | **PASS** |
 | AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **YES** |
 

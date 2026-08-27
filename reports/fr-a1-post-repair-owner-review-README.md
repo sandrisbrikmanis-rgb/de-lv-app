@@ -13,11 +13,11 @@ Avots: [fr-a1-post-repair-audit.md](https://github.com/sandrisbrikmanis-rgb/de-l
 | Kartītes audited | **702/702** (OBJECT_COVERAGE 100%) |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
 | Study | **134/134** |
-| Kopā findings | **2** |
+| Kopā findings | **6** |
 | CRITICAL | **0** |
 | HIGH | **0** |
-| MEDIUM | **1** |
-| LOW | **1** |
+| MEDIUM | **2** |
+| LOW | **4** |
 
 ## Faili (GitHub)
 
@@ -32,7 +32,7 @@ Avots: [fr-a1-post-repair-audit.md](https://github.com/sandrisbrikmanis-rgb/de-l
 
 | Findings | VIEW | DECISIONS |
 |----------|------|-----------|
-| 1–2 | [fr-a1-post-repair-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group01.md) | [fr-a1-post-repair-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group01.md) |
+| 1–6 | [fr-a1-post-repair-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group01.md) | [fr-a1-post-repair-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group01.md) |
 
 ## OWNER workflow
 

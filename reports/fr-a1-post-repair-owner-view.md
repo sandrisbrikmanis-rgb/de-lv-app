@@ -6,7 +6,7 @@
 **WORK_BRANCH:** `cursor/fr-a1-owner-gala-copy-only-f5bc`
 **Audit PR:** [#683](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/683)
 **SCOPE:** FR–DE A1 (`data/fr/a1.js`)
-**Findings:** **2** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
+**Findings:** **6** (OWNER_BACKLOG_FINAL after §7.11–§7.19 discovery-stability)
 
 > OBJECT_COVERAGE = 702/702 (100%). DISCOVERY_COMPLETENESS = NOT_GUARANTEED.
 > 702/702 does NOT mean all possible defects were found.
@@ -27,44 +27,116 @@
 
 | Grupa | Findings | VIEW | DECISIONS |
 |-------|----------|------|-----------|
-| 1–2 | 2 | [fr-a1-post-repair-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group01.md) | [fr-a1-post-repair-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group01.md) |
+| 1–6 | 6 | [fr-a1-post-repair-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group01.md) | [fr-a1-post-repair-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group01.md) |
 
 ## Īsais saraksts (visi findingi)
 
-- **FR-A1-0372** `a1-halten` · `study.examples[0].lv` · LOW · The French example lacks final punctuation.
-- **FR-A1-0374** `a1-hand-study` · `frMain` · MEDIUM · Paume means palm and incorrectly narrows the German noun Hand, which means hand.
+- **FR-A1-0347** `a1-aufs` · `study.comparison[1].meaning` · MEDIUM · Two distinct meanings are combined with « ou » in one learner-facing field.
+- **FR-A1-0370** `a1-halten` · `study.comparison[3].meaning` · MEDIUM · Dans « für richtig halten », halten signifie « considérer », non simplement « pe…
+- **FR-A1-0411** `a1-probieren` · `study.examples[0].lv` · LOW · Aucune correction textuelle n'est nécessaire; le registre formel est acceptable …
+- **FR-A1-0412** `a1-reis` · `study.examples[1].lv` · LOW · Il manque le point final à cette phrase complète, contrairement aux autres exemp…
+- **FR-A1-0422** `a1-stehen` · `study.examples[0].lv` · LOW · « À la porte » est peu naturel ici et peut suggérer un appui ; « près de la port…
+- **FR-A1-0444** `a1-urlaub` · `study.examples[4].lv` · LOW · « En vacances (travail) » est une formulation télégraphique et peu naturelle pou…
 
 ## Pilns findingu pārskats (visi findingi)
 
-## FR-A1-0372
-**Audit ID:** FR-A1-0372
-**Card ID:** `a1-halten`
-**Field/path:** `study.examples[0].lv`
+## FR-A1-0347
+**Audit ID:** FR-A1-0347
+**Card ID:** `a1-aufs`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** LOW
-**Category:** ORTHOGRAPHY
-**DE (read-only):** halten
-**LV MASTER reference:** es turu somu.
-**CURRENT:** Je tiens un sac
-**PROPOSED_ET (audit ieteikums):** Je tiens un sac.
-**Problēma:** The French example lacks final punctuation.
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** aufs
+**LV MASTER reference:** uz virsmu vai augšup
+**CURRENT:** À la surface ou vers le haut
+**PROPOSED_ET (audit ieteikums):** Sur une surface
+**Problēma:** Two distinct meanings are combined with « ou » in one learner-facing field.
 **Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0374
-**Audit ID:** FR-A1-0374
-**Card ID:** `a1-hand-study`
-**Field/path:** `frMain`
+## FR-A1-0370
+**Audit ID:** FR-A1-0370
+**Card ID:** `a1-halten`
+**Field/path:** `study.comparison[3].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** MEDIUM
 **Category:** SEMANTICS
-**DE (read-only):** Hand
-**LV MASTER reference:** plauksta
-**CURRENT:** Main (paume)
-**PROPOSED_ET (audit ieteikums):** Main
-**Problēma:** Paume means palm and incorrectly narrows the German noun Hand, which means hand.
+**DE (read-only):** halten
+**LV MASTER reference:** domāt
+**CURRENT:** Penser
+**PROPOSED_ET (audit ieteikums):** Considérer
+**Problēma:** Dans « für richtig halten », halten signifie « considérer », non simplement « penser ».
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0411
+**Audit ID:** FR-A1-0411
+**Card ID:** `a1-probieren`
+**Field/path:** `study.examples[0].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** probieren
+**LV MASTER reference:** pagaršo zupu!
+**CURRENT:** Goûtez la soupe !
+**PROPOSED_ET (audit ieteikums):** Goûtez la soupe !
+**Problēma:** Aucune correction textuelle n'est nécessaire; le registre formel est acceptable en français.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0412
+**Audit ID:** FR-A1-0412
+**Card ID:** `a1-reis`
+**Field/path:** `study.examples[1].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** Reis
+**LV MASTER reference:** es ēdu rīsus.
+**CURRENT:** Je mange du riz
+**PROPOSED_ET (audit ieteikums):** Je mange du riz.
+**Problēma:** Il manque le point final à cette phrase complète, contrairement aux autres exemples de la carte.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0422
+**Audit ID:** FR-A1-0422
+**Card ID:** `a1-stehen`
+**Field/path:** `study.examples[0].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** stehen
+**LV MASTER reference:** es stāvu pie durvīm.
+**CURRENT:** Je me tiens à la porte.
+**PROPOSED_ET (audit ieteikums):** Je me tiens près de la porte.
+**Problēma:** « À la porte » est peu naturel ici et peut suggérer un appui ; « près de la porte » exprime mieux la position.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0444
+**Audit ID:** FR-A1-0444
+**Card ID:** `a1-urlaub`
+**Field/path:** `study.examples[4].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** Urlaub
+**LV MASTER reference:** atvaļinājumā (darbs).
+**CURRENT:** En vacances (travail).
+**PROPOSED_ET (audit ieteikums):** En congé (professionnel).
+**Problēma:** « En vacances (travail) » est une formulation télégraphique et peu naturelle pour un congé professionnel.
 **Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
