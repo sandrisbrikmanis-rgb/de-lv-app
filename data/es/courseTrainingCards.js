@@ -2,7 +2,7 @@
 
 window.lesson1TrainingCardsEs = [
   {
-    "front": "¿vienes?",
+    "front": "¿Vienes?",
     "back": "Kommst du?"
   },
   {
@@ -22,7 +22,7 @@ window.lesson1TrainingCardsEs = [
     "back": "Gehen sie?"
   },
   {
-    "front": "Sí, van.",
+    "front": "Sí, se van.",
     "back": "Ja, sie gehen."
   },
   {
@@ -38,11 +38,11 @@ window.lesson1TrainingCardsEs = [
     "back": "Wir gehen."
   },
   {
-    "front": "Vas a ir",
+    "front": "¿Vais?",
     "back": "Geht ihr?"
   },
   {
-    "front": "Albert y Martha van y vienen.",
+    "front": "Albert y Marta van y vienen.",
     "back": "Albert und Marta kommen und gehen."
   }
 ];

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "title": "ES Kurss — Lección 1 OWNER gala authority (COPY-ONLY apply)",
+  "baseSha": "0fe660d136136dd2d3a689f8c71b55242f9f5610",
+  "sources": [
+    "es-kurss-lekcija-01-owner-gala-lemumi.md",
+    "es-kurss-lekcija-01-owner-pieradijums.md"
+  ],
+  "summary": {
+    "total": 45,
+    "labot": 14,
+    "nelabot": 23,
+    "falsePositive": 7,
+    "technicalDefer": 1,
+    "excludedFromApply": ["ES-KURSS-LESSONS-LV2-0036"]
+  },
+  "labotTargets": [
+    {
+      "id": "ES-KURSS-LESSONS-DET-0018",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson1TrainingCardsEs[10].front",
+      "path": "lesson1TrainingCardsEs[10].front",
+      "current": "Albert y Martha van y vienen.",
+      "new": "Albert y Marta van y vienen.",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0005",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[1].span[5]",
+      "current": "he / ella va",
+      "new": "él / ella va",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0015",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[1]:Palabras → lesson1-info[0]",
+      "current": "iEl La pronunciación aproximada de las palabras se da entre paréntesis con letras letonas.\nEsto también debería seguirse en futuras conferencias.",
+      "new": "La pronunciación aproximada de las palabras se indica entre paréntesis mediante una transcripción adaptada al español.\nEste criterio debe mantenerse también en las lecciones posteriores.",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0023",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[4]",
+      "current": "ich → -ich komme",
+      "new": "ich → ich komme",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0024",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[5]",
+      "current": "du → -du kommst",
+      "new": "du → du kommst",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0025",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[6]",
+      "current": "er / sie → -er kommt",
+      "new": "er / sie → er kommt",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0026",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[7]",
+      "current": "wir → -wir kommen",
+      "new": "wir → wir kommen",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0027",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[8]",
+      "current": "ihr → -En letón:",
+      "new": "ihr → ihr kommt",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0028",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[9]",
+      "current": "sie → -Alemán en:",
+      "new": "sie → sie kommen",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0030",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → grammar-header[1]",
+      "current": "♟Presente terminaciones",
+      "new": "♟ Terminaciones del presente",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0031",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → grammar-header[3]",
+      "current": "?Oraciones de preguntas",
+      "new": "?Oraciones interrogativas",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0032",
+      "file": "data/es/courseLessons.js",
+      "field": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml",
+      "path": "COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → grammar-header[4]",
+      "current": "♣Diferencia de persona",
+      "new": "♣Diferencias según la persona",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0035",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson1TrainingCardsEs[0].front",
+      "path": "lesson1TrainingCardsEs[0].front",
+      "current": "¿vienes?",
+      "new": "¿Vienes?",
+      "status": "LABOT"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-LV2-0037",
+      "file": "data/es/courseTrainingCards.js",
+      "field": "lesson1TrainingCardsEs[9].front",
+      "path": "lesson1TrainingCardsEs[9].front",
+      "current": "Vas a ir",
+      "new": "¿Vais?",
+      "status": "LABOT"
+    }
+  ],
+  "retainedNelabot": {
+    "id": "ES-KURSS-LESSONS-LV2-0036",
+    "file": "data/es/courseTrainingCards.js",
+    "field": "lesson1TrainingCardsEs[5].front",
+    "current": "Sí, van.",
+    "de": "Ja, sie gehen.",
+    "status": "NELABOT"
+  }
+}
