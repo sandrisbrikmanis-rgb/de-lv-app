@@ -472,7 +472,7 @@ const A1_WORDS = [
         },
         {
           "de": "ab Bahnhof",
-          "lv": "De la gare"
+          "lv": "À partir de la gare"
         }
       ],
       "comparison": [
@@ -625,7 +625,7 @@ const A1_WORDS = [
     "de": "Abend",
     "de_article": "der",
     "de_plural": "die Abende",
-    "lv": "Soirée",
+    "lv": "Soir",
     "level": "A1"
   },
   {
@@ -7315,7 +7315,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie sind gleich groß.",
-          "lv": "Ils ont la même hauteur."
+          "lv": "Ils ont la même taille."
         }
       ],
       "tip": [
@@ -9638,7 +9638,7 @@ const A1_WORDS = [
         },
         {
           "word": "aufs",
-          "meaning": "À la surface (Akk.)",
+          "meaning": "À la surface (accusatif)",
           "example": "aufs Dach – Sur le toit"
         },
         {
@@ -10578,7 +10578,7 @@ const A1_WORDS = [
         },
         {
           "de": "Kannst du mir helfen?",
-          "lv": "Pouvez-vous m'aider"
+          "lv": "Peux-tu m’aider ?"
         },
         {
           "de": "Wir können heute kommen.",
@@ -10795,7 +10795,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was kostet das?",
-          "lv": "Combien ça coûte"
+          "lv": "Combien ça coûte ?"
         },
         {
           "de": "Wie viel kostet der Pullover?",
@@ -11267,7 +11267,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich gehe in den Laden.",
-          "lv": "Je vais au magasin"
+          "lv": "Je vais au magasin."
         },
         {
           "de": "Der Laden ist geschlossen.",
@@ -11634,7 +11634,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie lange dauert es?",
-          "lv": "Combien de temps ça dure"
+          "lv": "Combien de temps ça dure ?"
         },
         {
           "de": "Sie hat lange Haare.",
@@ -21109,7 +21109,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich komme vom Bahnhof.",
-          "lv": "Je viens de la gare"
+          "lv": "Je viens de la gare."
         },
         {
           "de": "Das Geschenk ist vom Vater.",
@@ -21163,7 +21163,7 @@ const A1_WORDS = [
         },
         {
           "word": "zu",
-          "meaning": "Vers / à (direction opposée)",
+          "meaning": "Vers ou à (direction opposée)",
           "example": "zum Arzt – Au médecin"
         }
       ],
