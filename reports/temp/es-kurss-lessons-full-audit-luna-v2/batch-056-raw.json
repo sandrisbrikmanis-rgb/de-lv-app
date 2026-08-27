@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-056",
+  "cardIds": [
+    "ES-KURSS-LESSON-16-0165",
+    "ES-KURSS-LESSON-16-0166",
+    "ES-KURSS-LESSON-16-0167",
+    "ES-KURSS-LESSON-16-0168",
+    "ES-KURSS-LESSON-16-0169",
+    "ES-KURSS-LESSON-16-0170",
+    "ES-KURSS-LESSON-16-0171",
+    "ES-KURSS-LESSON-16-0172",
+    "ES-KURSS-LESSON-16-0173",
+    "ES-KURSS-LESSON-16-0174",
+    "ES-KURSS-LESSON-16-0175",
+    "ES-KURSS-LESSON-16-0176",
+    "ES-KURSS-LESSON-16-0177",
+    "ES-KURSS-LESSON-16-0178",
+    "ES-KURSS-LESSON-16-0179",
+    "ES-KURSS-LESSON-16-0180",
+    "ES-KURSS-LESSON-17-0001",
+    "ES-KURSS-LESSON-17-0002",
+    "ES-KURSS-LESSON-17-0003",
+    "ES-KURSS-LESSON-17-0004",
+    "ES-KURSS-LESSON-17-0005",
+    "ES-KURSS-LESSON-17-0006",
+    "ES-KURSS-LESSON-17-0007",
+    "ES-KURSS-LESSON-17-0008",
+    "ES-KURSS-LESSON-17-0009",
+    "ES-KURSS-LESSON-17-0010",
+    "ES-KURSS-LESSON-17-0011",
+    "ES-KURSS-LESSON-17-0012",
+    "ES-KURSS-LESSON-17-0013",
+    "ES-KURSS-LESSON-17-0014",
+    "ES-KURSS-LESSON-17-0015",
+    "ES-KURSS-LESSON-17-0016",
+    "ES-KURSS-LESSON-17-0017",
+    "ES-KURSS-LESSON-17-0018",
+    "ES-KURSS-LESSON-17-0019",
+    "ES-KURSS-LESSON-17-0020",
+    "ES-KURSS-LESSON-17-0021",
+    "ES-KURSS-LESSON-17-0022",
+    "ES-KURSS-LESSON-17-0023",
+    "ES-KURSS-LESSON-17-0024"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-16-0165\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0166\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0167\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0168\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0169\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0170\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0171\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0172\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0173\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"Toque la tarjeta para ver la traducción al alemán.\",\"proposedEs\":\"Toca la tarjeta para ver la traducción al alemán.\",\"reason\":\"El tratamiento formal «Toque» es inconsistente con el tono informal de la indicación relacionada «Toca la tarjeta».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0174\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Ejercicio I — Usa la conjugación correcta\",\"proposedEs\":\"Ejercicio I — Usa el caso correcto\",\"reason\":\"«Conjugación» se refiere a formas verbales; el contexto de la lección trata de casos gramaticales.\"},{\"cardId\":\"ES-KURSS-LESSON-16-0175\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"¡Pon la conjugación correcta y hazlo en plural!\",\"proposedEs\":\"¡Usa el caso correcto y ponlo en plural!\",\"reason\":\"«Conjugación» es un término incorrecto para el caso gramatical y «hazlo» resulta impreciso en esta instrucción.\"},{\"cardId\":\"ES-KURSS-LESSON-16-0176\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0177\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0178\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-16-0179\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Formulario 2/3: Tú (plural)\",\"proposedEs\":\"Forma 2/3: ihr (plural)\",\"reason\":\"«Formulario» no corresponde a una forma gramatical, y «Tú (plural)» no identifica correctamente el pronombre alemán «ihr».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0180\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0001\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0002\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"mit + Dativ, womit / mit wem y Umlaut.\",\"proposedEs\":\"mit + dativo, womit / mit wem y diéresis.\",\"reason\":\"«Dativ» y «Umlaut» son términos alemanes sin adaptar en un texto explicativo en español. Las formas alemanas «mit», «womit» y «mit wem» deben conservarse.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0003\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Decimoséptima conferencia: mit + Dativ, womit / mit wem y verbos con diéresis.\",\"proposedEs\":\"Lección 17: mit + dativo, womit / mit wem y verbos con diéresis.\",\"reason\":\"«Conferencia» no corresponde al sentido de una lección del curso; además, «Dativ» debería aparecer como «dativo» en el texto español.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0004\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0005\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0006\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0007\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0008\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0009\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0010\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0011\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0012\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0013\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0014\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0015\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0016\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0017\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0018\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0019\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0020\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0021\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0022\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0023\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0024\",\"status\":\"PASS\",\"field\":\"currentEs\"}]}",
+  "usage": {
+    "input_tokens": 3611,
+    "input_tokens_details": {
+      "cache_write_tokens": 3608,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2783,
+    "output_tokens_details": {
+      "reasoning_tokens": 1291
+    },
+    "total_tokens": 6394
+  },
+  "generatedAt": "2026-08-27T07:18:31.463Z"
+}

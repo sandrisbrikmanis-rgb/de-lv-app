@@ -1,0 +1,423 @@
+{
+  "batch": "batch-067",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-19-0136",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0137",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0138",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0139",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0140",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0141",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0142",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0143",
+      "field": "",
+      "severity": "LOW",
+      "category": "STYLE_ONLY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Toque la tarjeta para ver la traducción al alemán.",
+      "proposedEs": "Toca la tarjeta para ver la traducción al alemán.",
+      "reason": "El texto es correcto, pero usa el tratamiento formal «toque», en contraste con la instrucción informal «Toca la tarjeta» del campo relacionado.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0144",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ejercicio I — Usa la conjugación correcta",
+      "proposedEs": "Ejercicio I — Usa el caso correcto",
+      "reason": "«Conjugación» se refiere a verbos; el contexto indica que el ejercicio trabaja con casos gramaticales.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0145",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Elige el caso correcto y hazlo en plural!",
+      "reason": "«Conjugación» no es el término adecuado para un ejercicio de casos; «pon» también es menos claro que «elige» para una instrucción de selección.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0146",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0147",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0148",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0149",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: vosotros/vosotras (plural)",
+      "reason": "«Formulario» no corresponde a este significado y «tú» es singular. El pronombre alemán «ihr» corresponde a «vosotros/vosotras» en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0150",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0001",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0002",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Haus, Stockwerk, Dativ/Akkusativ y sustantivos compuestos.",
+      "proposedEs": "Casa, pisos, dativo/acusativo y sustantivos compuestos.",
+      "reason": "El subtítulo contiene términos alemanes no traducidos: «Haus», «Stockwerk», «Dativ» y «Akkusativ».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0003",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Vigésima conferencia: casa, pisos, Dativ/Akkusativ y sustantivos compuestos.",
+      "proposedEs": "Lección 20: casa, pisos, dativo/acusativo y sustantivos compuestos.",
+      "reason": "«Conferencia» no corresponde a una lección de curso. Además, «Dativ/Akkusativ» son términos alemanes que deben adaptarse al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0004",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0005",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Dieses Haus ist hoch.",
+      "proposedEs": "Esta casa es alta.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0006",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Es hat drei Stockwerke.",
+      "proposedEs": "Tiene tres pisos.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0007",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "In den Mauern sind Fenster und Türen.",
+      "proposedEs": "En los muros hay ventanas y puertas.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0008",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Die Mauern sind aus Stein.",
+      "proposedEs": "Los muros son de piedra.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0009",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Die Wände und Türen sind aus Holz.",
+      "proposedEs": "Las paredes y las puertas son de madera.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0010",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Die Fenster sind aus Glas.",
+      "proposedEs": "Las ventanas son de vidrio.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0011",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "In dem Hause sind zehn Wohnungen.",
+      "proposedEs": "En la casa hay diez viviendas.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0012",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Jede Wohnung hat drei Zimmer, ein Vorhaus und eine Küche.",
+      "proposedEs": "Cada vivienda tiene tres habitaciones, un vestíbulo y una cocina.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0013",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Unter dem Dache ist der Boden.",
+      "proposedEs": "Bajo el tejado está el desván.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0014",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Unter dem Hause ist der Keller.",
+      "proposedEs": "Debajo de la casa está el sótano.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0015",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Auf dem Dache sind drei Schornsteine.",
+      "proposedEs": "En el tejado hay tres chimeneas.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0016",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Der Schornsteinfeger steigt aufs Dach und reinigt die Schornsteine.",
+      "proposedEs": "El deshollinador sube al tejado y limpia las chimeneas.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0017",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Die Stadt hat viele Häuser.",
+      "proposedEs": "La ciudad tiene muchas casas.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0018",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "In den Häusern sind viele Wohnungen.",
+      "proposedEs": "En las casas hay muchas viviendas.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0019",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "In den Wohnungen leben viele Menschen.",
+      "proposedEs": "En las viviendas viven muchas personas.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0020",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Alle Menschen arbeiten.",
+      "proposedEs": "Todas las personas trabajan.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0021",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Alle Menschen müssen arbeiten.",
+      "proposedEs": "Todas las personas tienen que trabajar.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0022",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wir wohnen in dem vierten Stockwerk.",
+      "proposedEs": "Vivimos en el cuarto piso.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0023",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ich muss das Holz in das vierte Stockwerk tragen.",
+      "proposedEs": "Tengo que llevar la madera al cuarto piso.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0024",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ich bringe das Holz in die Küche.",
+      "proposedEs": "Llevo la madera a la cocina.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0025",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ich stecke das Holz in den Ofen.",
+      "proposedEs": "Meto la madera en el horno.",
+      "reason": "El campo visible para el usuario contiene la frase alemana sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:24:10.237Z"
+}

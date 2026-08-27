@@ -7,9 +7,9 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 
-const AUDIT_JSON = path.join(ROOT, "reports/temp/es-kurss-lessons-full-audit.json");
-const AUDITOR = "GPT-5.6 Luna + deterministic";
-const AUDIT_REPORT = "es-kurss-lessons-full-audit.md";
+const AUDIT_JSON = path.join(ROOT, "reports/temp/es-kurss-lessons-full-audit-v2.json");
+const AUDITOR = "GPT-5.6 Luna v2 + deterministic";
+const AUDIT_REPORT = "es-kurss-lessons-full-audit-v2.md";
 const REPO = "sandrisbrikmanis-rgb/de-lv-app";
 const BRANCH = process.env.WORK_BRANCH || "cursor/es-kurss-lessons-full-audit-3141";
 const GROUP_SIZE = 50;
@@ -114,7 +114,7 @@ function renderViewFile(findings, titleSuffix = "") {
     "",
     `**Auditors:** ${AUDITOR} (READ-ONLY)`,
     "**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9",
-    `Avots: \`reports/${AUDIT_REPORT}\` / \`reports/temp/es-kurss-lessons-full-audit.json\``,
+    `Avots: \`reports/${AUDIT_REPORT}\` / \`reports/temp/es-kurss-lessons-full-audit-v2.json\``,
     `Findings: **${findings.length}** ieraksti`,
     "",
     "> **PROPOSED_ES** ir auditora ieteikums — **nav** OWNER apstiprināts.",

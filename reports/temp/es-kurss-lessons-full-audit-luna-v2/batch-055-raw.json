@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-055",
+  "cardIds": [
+    "ES-KURSS-LESSON-16-0125",
+    "ES-KURSS-LESSON-16-0126",
+    "ES-KURSS-LESSON-16-0127",
+    "ES-KURSS-LESSON-16-0128",
+    "ES-KURSS-LESSON-16-0129",
+    "ES-KURSS-LESSON-16-0130",
+    "ES-KURSS-LESSON-16-0131",
+    "ES-KURSS-LESSON-16-0132",
+    "ES-KURSS-LESSON-16-0133",
+    "ES-KURSS-LESSON-16-0134",
+    "ES-KURSS-LESSON-16-0135",
+    "ES-KURSS-LESSON-16-0136",
+    "ES-KURSS-LESSON-16-0137",
+    "ES-KURSS-LESSON-16-0138",
+    "ES-KURSS-LESSON-16-0139",
+    "ES-KURSS-LESSON-16-0140",
+    "ES-KURSS-LESSON-16-0141",
+    "ES-KURSS-LESSON-16-0142",
+    "ES-KURSS-LESSON-16-0143",
+    "ES-KURSS-LESSON-16-0144",
+    "ES-KURSS-LESSON-16-0145",
+    "ES-KURSS-LESSON-16-0146",
+    "ES-KURSS-LESSON-16-0147",
+    "ES-KURSS-LESSON-16-0148",
+    "ES-KURSS-LESSON-16-0149",
+    "ES-KURSS-LESSON-16-0150",
+    "ES-KURSS-LESSON-16-0151",
+    "ES-KURSS-LESSON-16-0152",
+    "ES-KURSS-LESSON-16-0153",
+    "ES-KURSS-LESSON-16-0154",
+    "ES-KURSS-LESSON-16-0155",
+    "ES-KURSS-LESSON-16-0156",
+    "ES-KURSS-LESSON-16-0157",
+    "ES-KURSS-LESSON-16-0158",
+    "ES-KURSS-LESSON-16-0159",
+    "ES-KURSS-LESSON-16-0160",
+    "ES-KURSS-LESSON-16-0161",
+    "ES-KURSS-LESSON-16-0162",
+    "ES-KURSS-LESSON-16-0163",
+    "ES-KURSS-LESSON-16-0164"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-16-0125\",\"status\":\"PASS\",\"field\":\"grammarExample\"},{\"cardId\":\"ES-KURSS-LESSON-16-0126\",\"status\":\"PASS\",\"field\":\"grammarHeading\"},{\"cardId\":\"ES-KURSS-LESSON-16-0127\",\"status\":\"PASS\",\"field\":\"grammarExample\"},{\"cardId\":\"ES-KURSS-LESSON-16-0128\",\"status\":\"PASS\",\"field\":\"grammarExample\"},{\"cardId\":\"ES-KURSS-LESSON-16-0129\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Bez artikula\",\"proposedEs\":\"Sin artículo\",\"reason\":\"El encabezado contiene texto en lituano en lugar de español. Además, el término español correcto es «artículo».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0130\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Palabras que se utilizan a menudo sin el article: die Milch, das Brot.\",\"proposedEs\":\"Palabras que se utilizan a menudo sin el artículo: die Milch, das Brot.\",\"reason\":\"«article» es un resto de inglés; en español debe usarse «artículo».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0131\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0132\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0133\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0134\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0135\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0136\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0137\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0138\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0139\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0140\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0141\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0142\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0143\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0144\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0145\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0146\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0147\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0148\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0149\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0150\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0151\",\"status\":\"PASS\",\"field\":\"exerciseFillPrompt\"},{\"cardId\":\"ES-KURSS-LESSON-16-0152\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Cómo se llama el padre?\",\"proposedEs\":\"¿A quién llama el padre?\",\"reason\":\"La traducción actual pregunta por el nombre del padre, pero la frase alemana pregunta a quién llama el padre.\"},{\"cardId\":\"ES-KURSS-LESSON-16-0153\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-16-0154\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-16-0155\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-16-0156\",\"status\":\"FINDING\",\"severity\":\"CRITICAL\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Kam paklausa soles?\",\"proposedEs\":\"¿A quién obedece el perro?\",\"reason\":\"El texto está en lituano y no corresponde al español solicitado. La propuesta traduce el significado de la frase alemana.\"},{\"cardId\":\"ES-KURSS-LESSON-16-0157\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-16-0158\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"¿Cuantos perros tiene el cazador?\",\"proposedEs\":\"¿Cuántos perros tiene el cazador?\",\"reason\":\"Falta la tilde en el interrogativo «cuántos».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0159\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-16-0160\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-16-0161\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-16-0162\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-16-0163\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-16-0164\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Qué se acerca a los escolares y las niñas?\",\"proposedEs\":\"¿Quién se acerca a los alumnos y las alumnas?\",\"reason\":\"El alemán usa «Wer» («quién»), no «qué», porque pregunta por personas. «Escolares» también resulta menos preciso aquí que «alumnos y alumnas».\"}]}",
+  "usage": {
+    "input_tokens": 4136,
+    "input_tokens_details": {
+      "cache_write_tokens": 4133,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2447,
+    "output_tokens_details": {
+      "reasoning_tokens": 1034
+    },
+    "total_tokens": 6583
+  },
+  "generatedAt": "2026-08-27T07:17:47.696Z"
+}

@@ -1,0 +1,97 @@
+{
+  "batch": "batch-068",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-20-0032",
+      "field": "",
+      "severity": "LOW",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "das Holz — madera / leña",
+      "proposedEs": "das Holz — madera",
+      "reason": "La barra combina dos sentidos distintos. Para una ficha léxica básica conviene elegir una traducción principal; «leña» puede tratarse por separado si es el sentido contextual relevante.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0036",
+      "field": "",
+      "severity": "LOW",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "das Vorhaus — vestíbulo / pasillo",
+      "proposedEs": "das Vorhaus — vestíbulo",
+      "reason": "La barra combina dos traducciones distintas. Conviene seleccionar una equivalencia principal para evitar presentar alternativas no diferenciadas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0051",
+      "field": "",
+      "severity": "LOW",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "brennen — arder / quemar",
+      "proposedEs": "brennen — arder",
+      "reason": "La barra combina sentidos que dependen de la transitividad: «arder» y «quemar» no son equivalentes en todos los contextos. Debe seleccionarse un sentido principal o explicarse la diferencia.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0052",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "licht — luz",
+      "proposedEs": "licht — claro / luminoso",
+      "reason": "En el contexto «licht und hell», «licht» funciona como adjetivo y significa «claro» o «luminoso», no el sustantivo «luz».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0057",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Dativs ar wann?",
+      "proposedEs": "El dativo para expresar el tiempo",
+      "reason": "El encabezado no está en español y contiene una forma mal escrita o residual («Dativs ar wann?»). Debe sustituirse por un encabezado español claro.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0058",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Palabras de tráfico que responden a la pregunta ¿quieres? en las conferencias 19 y 20. —¿cuándo?, está junto al dativo. El dativo responde no sólo a wo? — ¿dónde?, pero también en wann? - ¿cuando?",
+      "proposedEs": "Las expresiones temporales que responden a la pregunta «¿cuándo?» en las lecciones 19 y 20 se construyen con dativo. El dativo responde no solo a «wo?» («¿dónde?»), sino también a «wann?» («¿cuándo?»).",
+      "reason": "El texto contiene varias traducciones erróneas o antinaturales («palabras de tráfico», «¿quieres?», «conferencias») y una construcción incomprensible. Además, «¿cuando?» debe llevar tilde; las formas alemanas «wo?» y «wann?» pueden mantenerse como terminología de la explicación.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0065",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Muchas preposiciones se unen al article.",
+      "proposedEs": "Muchas preposiciones se unen al artículo.",
+      "reason": "«article» es un residuo en inglés. El término gramatical correcto en español es «artículo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:24:42.777Z"
+}

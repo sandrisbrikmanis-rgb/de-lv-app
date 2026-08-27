@@ -1,0 +1,123 @@
+{
+  "batch": "batch-011",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-05-0021",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wen (vēn) — qué",
+      "proposedEs": "wen (vēn) — a quién",
+      "reason": "En alemán, wen es el acusativo de wer y se usa para preguntar por personas; «qué» corresponde a was.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-05-0022",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "loben — elogio",
+      "proposedEs": "loben — elogiar",
+      "reason": "«Loben» es un verbo («elogiar»), mientras que «elogio» es un sustantivo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-05-0029",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "tadeln — pelt",
+      "proposedEs": "tadeln — reprender",
+      "reason": "«pelt» no es español y parece un resto o error de traducción; «tadeln» significa «reprender» o «reprochar».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-05-0030",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "oder (ōder) — or",
+      "proposedEs": "oder (ōder) — o",
+      "reason": "«or» es inglés; la traducción española de «oder» es «o».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-05-0037",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).",
+      "proposedEs": "tz es una z doble y se pronuncia como z: sitzen (zicen).",
+      "reason": "El texto está en letón, no en español. Debe traducirse, manteniendo el ejemplo alemán sin cambios.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-05-0038",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "v vācu vārdos izrunā kā f: der Vater (fāter).",
+      "proposedEs": "La v en las palabras alemanas se pronuncia como f: der Vater (fāter).",
+      "reason": "El texto está en letón, no en español. Debe traducirse, manteniendo el ejemplo alemán sin cambios.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-05-0039",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).",
+      "proposedEs": "La ß se llama eszett y se pronuncia como la s: groß (grōs), weiß (veis).",
+      "reason": "El texto está en letón, no en español. Debe traducirse, manteniendo los ejemplos alemanes sin cambios.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-05-0041",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.",
+      "proposedEs": "En alemán, en nominativo, la pregunta es wer? para personas y was? para objetos.",
+      "reason": "El texto está en letón, no en español. Debe traducirse, conservando wer? y was? como formas alemanas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-05-0042",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.",
+      "proposedEs": "En acusativo, la pregunta es wen? para personas y was? para objetos.",
+      "reason": "El texto está en letón, no en español. Debe traducirse, conservando wen? y was? como formas alemanas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:54:51.981Z"
+}

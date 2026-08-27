@@ -1,8 +1,8 @@
 # ES–DE Kurss Lessons — OWNER VIEW (group 05: findings 201–250)
 
-**Auditors:** GPT-5.6 Luna + deterministic (READ-ONLY)
+**Auditors:** GPT-5.6 Luna v2 + deterministic (READ-ONLY)
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
-Avots: `reports/es-kurss-lessons-full-audit.md` / `reports/temp/es-kurss-lessons-full-audit.json`
+Avots: `reports/es-kurss-lessons-full-audit-v2.md` / `reports/temp/es-kurss-lessons-full-audit-v2.json`
 Findings: **50** ieraksti
 
 > **PROPOSED_ES** ir auditora ieteikums — **nav** OWNER apstiprināts.
@@ -26,7 +26,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -47,7 +47,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -68,7 +68,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -89,7 +89,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -110,7 +110,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -131,7 +131,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -152,7 +152,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -173,7 +173,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -194,7 +194,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -215,7 +215,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -236,7 +236,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -257,7 +257,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -278,7 +278,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -299,7 +299,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -320,7 +320,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -341,7 +341,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -362,7 +362,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -383,7 +383,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -404,7 +404,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -425,7 +425,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -446,7 +446,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -467,7 +467,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -488,7 +488,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -509,7 +509,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -530,7 +530,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -551,7 +551,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -572,7 +572,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -593,7 +593,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -614,7 +614,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -635,7 +635,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -656,7 +656,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -677,7 +677,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -698,7 +698,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -719,7 +719,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -740,7 +740,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -761,7 +761,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -782,7 +782,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -803,7 +803,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -824,7 +824,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -845,7 +845,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -866,7 +866,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -887,7 +887,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -908,7 +908,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -929,7 +929,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -950,7 +950,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -971,7 +971,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -992,7 +992,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -1013,7 +1013,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -1034,7 +1034,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -1055,6 +1055,6 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---

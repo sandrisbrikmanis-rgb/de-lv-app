@@ -1,0 +1,223 @@
+{
+  "batch": "batch-069",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-20-0066",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0067",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0068",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0069",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0070",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0071",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0072",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0073",
+      "status": "PASS",
+      "field": "grammarText"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0074",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0075",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0076",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0077",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0078",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0079",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los sustantivos compuestos suelen llevar el article de la última palabra.",
+      "proposedEs": "Los sustantivos compuestos suelen llevar el artículo de la última palabra.",
+      "reason": "«article» es un resto del inglés; el término español correcto es «artículo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0080",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0081",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0082",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0083",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0084",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0085",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0086",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0087",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0088",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0089",
+      "status": "PASS",
+      "field": "grammarText"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0090",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0091",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0092",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0093",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0094",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0095",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0096",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0097",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0098",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "En die Küche y die Dächer, ch se pronuncia como el ich-Laut alemán.",
+      "proposedEs": "En die Küche y die Dächer, ch se pronuncia como el sonido ich del alemán.",
+      "reason": "«ich-Laut» es una denominación alemana incrustada en una frase en español y resulta poco natural para el alumno; conviene expresar el término fonético en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0099",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0100",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0101",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0102",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0103",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0104",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0105",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:24:59.208Z"
+}

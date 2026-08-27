@@ -1,0 +1,97 @@
+{
+  "batch": "batch-048",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-14-0127",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Quién debería leer el libro?",
+      "proposedEs": "¿Quién tiene que leer el libro?",
+      "reason": "El alemán «muss» expresa obligación («tener que»), no una obligación hipotética o recomendación («debería»).",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0128",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "El hermano debe leer un libro.",
+      "proposedEs": "El hermano tiene que leer el libro.",
+      "reason": "El alemán usa «das Buch» («el libro»), mientras que «un libro» cambia el sentido; además, «muss» se traduce más precisamente como «tiene que» en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0129",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "No quiero cantar.",
+      "proposedEs": "No me gusta cantar.",
+      "reason": "«Ich mag nicht singen» significa que no gusta cantar, no que no se quiera cantar.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0130",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Papá tiene que comprar una mesa.",
+      "proposedEs": "El padre tiene que comprar una mesa.",
+      "reason": "El alemán «Der Vater» corresponde a «el padre»; «papá» añade un registro familiar que no está expresado en el original.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0138",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Escribe la conjugación correcta y pon la frase en plural!",
+      "reason": "«Pon la conjugación» y «hazlo» resultan poco naturales y ambiguos en una instrucción didáctica; conviene especificar que la frase debe ponerse en plural.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0142",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (plural)",
+      "reason": "«Formulario» es incorrecto en este contexto: debe ser «forma». Además, «tú» no es plural y no corresponde a la forma alemana «ihr».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0003",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Decimoquinta conferencia: sollen, dürfen, essen y palabras frutales.",
+      "proposedEs": "Decimoquinta lección: sollen, dürfen, essen y palabras sobre frutas.",
+      "reason": "«Conferencia» no corresponde al tipo de contenido y «palabras frutales» no es una expresión natural para referirse a vocabulario sobre frutas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:14:25.836Z"
+}

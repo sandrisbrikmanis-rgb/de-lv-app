@@ -1,0 +1,223 @@
+{
+  "batch": "batch-054",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-16-0085",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0086",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0087",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0088",
+      "field": "",
+      "severity": "LOW",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los sustantivos masculinos y neutros en dativo singular pueden llevar la terminación -e. Hoy en día, este final suele descartarse.",
+      "proposedEs": "Los sustantivos masculinos y neutros en dativo singular pueden llevar la terminación -e. Hoy en día, esta terminación suele omitirse.",
+      "reason": "«Este final» resulta poco natural y menos preciso en este contexto; «esta terminación» y «omitirse» son formulaciones más idiomáticas para describir una terminación gramatical.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0089",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0090",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0091",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0092",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0093",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0094",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0095",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0096",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0097",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0098",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0099",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0100",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0101",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0102",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0103",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0104",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0105",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0106",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "El article dativo plural y el sustantivo suelen tener la terminación -n.",
+      "proposedEs": "El artículo dativo plural y el sustantivo suelen tener la terminación -n.",
+      "reason": "«article» es un resto extranjero en inglés; el término correcto en español es «artículo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0107",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0108",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0109",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0110",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0111",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0112",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0113",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0114",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0115",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0116",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0117",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0118",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0119",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0120",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0121",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0122",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0123",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0124",
+      "status": "PASS",
+      "field": "currentEs"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:17:18.698Z"
+}

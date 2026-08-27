@@ -1,0 +1,50 @@
+{
+  "batchLabel": "batch-074",
+  "cardIds": [
+    "ES-KURSS-LESSON-21-0111",
+    "ES-KURSS-LESSON-21-0112",
+    "ES-KURSS-LESSON-21-0113",
+    "ES-KURSS-LESSON-21-0114",
+    "ES-KURSS-LESSON-21-0115",
+    "ES-KURSS-LESSON-21-0116",
+    "ES-KURSS-LESSON-21-0117",
+    "ES-KURSS-LESSON-21-0118",
+    "ES-KURSS-LESSON-21-0119",
+    "ES-KURSS-LESSON-21-0120",
+    "ES-KURSS-LESSON-21-0121",
+    "ES-KURSS-LESSON-21-0122",
+    "ES-KURSS-LESSON-21-0123",
+    "ES-KURSS-LESSON-21-0124",
+    "ES-KURSS-LESSON-21-0125",
+    "ES-KURSS-LESSON-21-0126",
+    "ES-KURSS-LESSON-21-0127",
+    "ES-KURSS-LESSON-21-0128",
+    "ES-KURSS-LESSON-21-0129",
+    "ES-KURSS-LESSON-21-0130",
+    "ES-KURSS-LESSON-21-0131",
+    "ES-KURSS-LESSON-21-0132",
+    "ES-KURSS-LESSON-21-0133",
+    "ES-KURSS-LESSON-21-0134",
+    "ES-KURSS-LESSON-21-0135",
+    "ES-KURSS-LESSON-21-0136",
+    "ES-KURSS-LESSON-21-0137",
+    "ES-KURSS-LESSON-21-0138",
+    "ES-KURSS-LESSON-21-0139",
+    "ES-KURSS-LESSON-21-0140",
+    "ES-KURSS-LESSON-21-0141"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0111\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Wohin geht sie zurück?\",\n      \"proposedEs\": \"¿Adónde vuelve ella?\",\n      \"reason\": \"El texto visible para el usuario está en alemán, no en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0112\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Wo arbeitet sie fleißig?\",\n      \"proposedEs\": \"¿Dónde trabaja diligentemente?\",\n      \"reason\": \"El texto visible para el usuario está en alemán, no en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0113\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Todos los cuadernos están en la bolsa.\",\n      \"proposedEs\": \"Todos los cuadernos están en la carpeta.\",\n      \"reason\": \"Mappe significa «carpeta» o «portafolios», no «bolsa».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0114\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Saco los cuadernos de mi bolso.\",\n      \"proposedEs\": \"Saco los cuadernos de la carpeta.\",\n      \"reason\": \"El alemán indica Mappe («carpeta»), no Tasche/bolso; además, «mi» no aparece en el contexto alemán.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0115\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Llevo un reloj en mi bolsillo.\",\n      \"proposedEs\": \"Saco el reloj del bolso.\",\n      \"reason\": \"El español actual expresa llevar un reloj en el bolsillo, mientras que el alemán expresa sacar el reloj de una Tasche.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0116\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"En el sótano hay un cubo de leche.\",\n      \"proposedEs\": \"En el sótano hay un cubo con leche.\",\n      \"reason\": \"Eimer mit Milch indica un cubo que contiene leche; «cubo de leche» puede interpretarse como un cubo destinado a la leche.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0117\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Es nesu spaini no pagraba.\",\n      \"proposedEs\": \"Llevo el cubo del sótano.\",\n      \"reason\": \"El texto está en letón, no en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0118\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Me quito el sombrero de la cabeza.\",\n      \"proposedEs\": \"Me quito el gorro de la cabeza.\",\n      \"reason\": \"Mütze corresponde a «gorro» o «gorra», no a «sombrero».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0119\",\n      \"status\": \"PASS\",\n      \"field\": \"prompt\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0120\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0121\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"La partitura está en el piano.\",\n      \"proposedEs\": \"Las partituras están sobre el piano.\",\n      \"reason\": \"Noten es plural y, en este contexto, se refiere a partituras o notas musicales colocadas sobre el piano.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0122\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0123\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0124\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0125\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0126\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0127\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0128\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0129\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0130\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0131\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0132\",\n      \"status\": \"PASS\",\n      \"field\": \"uiHint\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0133\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0134\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"STYLE_ONLY\",\n      \"currentEs\": \"Toque la tarjeta para ver la traducción al alemán.\",\n      \"proposedEs\": \"Toca la tarjeta para ver la traducción al alemán.\",\n      \"reason\": \"La forma formal «Toque» es gramaticalmente correcta, pero no es coherente con la forma informal «Toca» usada en la otra indicación equivalente.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0135\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Ejercicio I — Usa la conjugación correcta\",\n      \"proposedEs\": \"Ejercicio I — Usa el caso correcto\",\n      \"reason\": \"El campo fillCase se refiere al caso gramatical, no a la conjugación verbal.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0136\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"¡Pon la conjugación correcta y hazlo en plural!\",\n      \"proposedEs\": \"¡Pon el caso correcto y hazlo en plural!\",\n      \"reason\": \"La indicación se refiere al caso gramatical; «conjugación» es el término incorrecto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0137\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0138\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0139\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0140\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_GRAMMAR\",\n      \"currentEs\": \"Formulario 2/3: Tú (plural)\",\n      \"proposedEs\": \"Forma 2/3: ihr (vosotros/vosotras, plural)\",\n      \"reason\": \"«Formulario» no corresponde a este rótulo, y «tú» es singular, por lo que «tú (plural)» es gramaticalmente contradictorio. Debe identificarse la forma alemana ihr como plural informal.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0141\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 2837,
+    "input_tokens_details": {
+      "cache_write_tokens": 2834,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3686,
+    "output_tokens_details": {
+      "reasoning_tokens": 1525
+    },
+    "total_tokens": 6523
+  },
+  "generatedAt": "2026-08-27T07:27:01.913Z"
+}

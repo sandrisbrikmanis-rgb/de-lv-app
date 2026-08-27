@@ -1,0 +1,97 @@
+{
+  "batch": "batch-071",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-20-0149",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ejercicio I — Usa la conjugación correcta",
+      "proposedEs": "Ejercicio I — Usa el caso correcto",
+      "reason": "El identificador y el contexto indican que el ejercicio trata del caso gramatical, no de la conjugación verbal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0150",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Usa el caso correcto y ponlo en plural!",
+      "reason": "«Conjugación» no corresponde a un ejercicio de casos; además, la formulación propuesta expresa de forma más precisa la tarea.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0154",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (vosotros/vosotras, plural)",
+      "reason": "«Formulario» es una traducción incorrecta de «Forma» en este rótulo. Además, ihr corresponde a la segunda persona plural informal (vosotros/vosotras), no a «tú».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0002",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "woher / wohin / wo, von / aus / mit + Dativo.",
+      "proposedEs": "woher / wohin / wo, von / aus / mit + dativo.",
+      "reason": "El término gramatical español es «dativo», no el alemán «Dativ». Las formas alemanas woher, wohin, wo, von, aus y mit deben conservarse como ejemplos.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0003",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Vigésima primera conferencia: woher / wohin / wo, von / aus / mit + Dativ.",
+      "proposedEs": "Vigésima primera lección: woher / wohin / wo, von / aus / mit + dativo.",
+      "reason": "«Dativ» es el término alemán; en español debe decir «dativo». Además, «lección» corresponde mejor al contexto de un curso que «conferencia». Las formas alemanas deben permanecer en alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0029",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sägen — sierra",
+      "proposedEs": "sägen — serrar",
+      "reason": "«sägen» es un verbo alemán; «sierra» es un sustantivo español. La traducción verbal correcta en este contexto es «serrar».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0030",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "spalten — dividir",
+      "proposedEs": "spalten — partir",
+      "reason": "Aunque «dividir» puede ser una traducción general, para la acción de partir madera «partir» es la opción natural y precisa en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:25:46.281Z"
+}

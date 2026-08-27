@@ -84,8 +84,8 @@ const SCOPE_REGISTRY = {
     decisionsPath: "reports/es-kurss-lessons-owner-decisions.md",
     githubPath: "reports/es-kurss-lessons-owner-review-GITHUB.md",
     readmePath: "reports/es-kurss-lessons-owner-review-README.md",
-    auditReportPath: "reports/es-kurss-lessons-full-audit.md",
-    auditJsonPath: "reports/temp/es-kurss-lessons-full-audit.json",
+    auditReportPath: "reports/es-kurss-lessons-full-audit-v2.md",
+    auditJsonPath: "reports/temp/es-kurss-lessons-full-audit-v2.json",
     viewHeadingRegex: /^## Finding (\d+) \(ES Kurss Lessons\)/gm,
     decisionRowRegex: /^\| (\d+) \|/,
     commitPaths: [

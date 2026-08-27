@@ -1,0 +1,271 @@
+{
+  "batch": "batch-050",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-15-0064",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0065",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "du isst — usted come",
+      "proposedEs": "du isst — tú comes",
+      "reason": "«du» es el pronombre informal de segunda persona singular y corresponde a «tú», no a «usted».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0066",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0067",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0068",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "ihr esst — tú comes",
+      "proposedEs": "ihr esst — vosotros coméis",
+      "reason": "«ihr» es la segunda persona plural informal y corresponde a «vosotros», no a «tú».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0069",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0070",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0071",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Sollen significa necesitar en el sentido del deber.",
+      "proposedEs": "Sollen expresa deber u obligación, normalmente por indicación de otra persona.",
+      "reason": "«Sollen» no significa principalmente «necesitar»; esa traducción confunde el verbo modal con «müssen» y la redacción española resulta poco natural.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0072",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0073",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "müssen — tener que / deber",
+      "proposedEs": "müssen — tener que",
+      "reason": "El campo combina dos traducciones mediante «/». Según la regla de auditoría, las traducciones distintas deben separarse o reducirse a una; aquí «tener que» es la opción más clara.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0074",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_GRAMMAR",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sollen — debería",
+      "proposedEs": "sollen — deber",
+      "reason": "«Sollen» está en infinitivo, mientras que «debería» es una forma condicional de tercera persona singular. La traducción debe mantener la forma léxica del infinitivo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0075",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0076",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0077",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0078",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0079",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0080",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0081",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0082",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0083",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0084",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0085",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0086",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Dürfen significa estar permitido. En Dürfen, la vocal raíz es a en singular y ü en plural.",
+      "proposedEs": "Dürfen significa «tener permiso». En el verbo dürfen, la vocal del radical es a en singular y ü en plural.",
+      "reason": "«Vocal raíz» no es la formulación más precisa en terminología gramatical española; «vocal del radical» resulta más clara. Además, «tener permiso» es una explicación más natural de dürfen en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0087",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0088",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0089",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0090",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0091",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0092",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0093",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0094",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Essen es el siguiente.",
+      "proposedEs": "El verbo essen se conjuga así:",
+      "reason": "La frase actual es poco natural y no expresa claramente que a continuación se presenta la conjugación del verbo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0095",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0096",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0097",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0098",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0099",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0100",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0101",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0102",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Si el proyecto utiliza escritura moderna, puede escribir: du isst, er/sie/es isst, ihr esst.",
+      "proposedEs": "Con la ortografía moderna, se escriben las formas: du isst, er/sie/es isst, ihr esst.",
+      "reason": "«Si el proyecto utiliza escritura moderna» introduce innecesariamente un proyecto y suena poco natural. La redacción debe referirse directamente a la ortografía y presentar las formas como ejemplos.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0103",
+      "status": "PASS",
+      "field": "currentEs"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:15:31.197Z"
+}

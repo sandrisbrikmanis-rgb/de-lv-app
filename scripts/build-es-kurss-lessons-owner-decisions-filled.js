@@ -11,7 +11,12 @@ const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const { collectAllLessons } = require("./lib/es-kurss-lessons-owner-extract");
 
-const AUDIT_JSON = path.join(ROOT, "reports/temp/es-kurss-lessons-full-audit.json");
+const auditArg = process.argv.find((a) => a.startsWith("--audit="));
+const AUDIT_JSON = path.join(
+  ROOT,
+  auditArg ? auditArg.split("=")[1] : "reports/temp/es-kurss-lessons-full-audit.json",
+);
+const V1_DECISIONS = path.join(ROOT, "reports/es-kurss-lessons-owner-decisions-filled.json");
 const OUT_JSON = path.join(ROOT, "reports/es-kurss-lessons-owner-decisions-filled.json");
 const OUT_MD = path.join(ROOT, "reports/es-kurss-lessons-owner-decisions.md");
 const OUT_VIEW = path.join(ROOT, "reports/es-kurss-lessons-owner-decisions-filled-view.md");
@@ -552,12 +557,86 @@ function renderTechnicalTable(decisions) {
   return lines.join("\n");
 }
 
+function dedupeKey(d) {
+  return `${d.lessonId}|${d.path}|${String(d.current || d.esCurrent || "").slice(0, 120)}`;
+}
+
+function compareWithV1(decisions, v1Path) {
+  if (!fs.existsSync(v1Path)) return null;
+  const v1 = JSON.parse(fs.readFileSync(v1Path, "utf8"));
+  const v1ByKey = new Map(v1.decisions.map((d) => [dedupeKey(d), d]));
+  const comparison = { new: [], changed: [], unchanged: 0 };
+  for (const d of decisions) {
+    const key = dedupeKey(d);
+    const prev = v1ByKey.get(key);
+    if (!prev) {
+      comparison.new.push({ id: d.id, key, status: d.status });
+      d.changeTag = "NEW_IN_V2";
+      continue;
+    }
+    if (prev.status !== d.status || String(prev.new || "") !== String(d.new || "")) {
+      comparison.changed.push({
+        id: d.id,
+        key,
+        v1Status: prev.status,
+        v2Status: d.status,
+        v1New: prev.new,
+        v2New: d.new,
+      });
+      d.changeTag = "RE_EVALUATED";
+    } else {
+      comparison.unchanged++;
+      d.changeTag = "UNCHANGED";
+    }
+  }
+  return comparison;
+}
+
+function writeDecisionArtifacts(decisions, comparison) {
+  fs.writeFileSync(OUT_MD, renderLinguisticTable(decisions));
+  fs.writeFileSync(OUT_TECH_MD, renderTechnicalTable(decisions));
+  fs.writeFileSync(OUT_VIEW, renderFullView(decisions));
+  if (comparison) {
+    fs.writeFileSync(
+      path.join(ROOT, "reports/es-kurss-lessons-owner-decisions-v2-comparison.md"),
+      [
+        "# OWNER decisions v1 → v2 comparison",
+        "",
+        `- New findings in v2: **${comparison.new.length}**`,
+        `- Re-evaluated (status/NEW changed): **${comparison.changed.length}**`,
+        `- Unchanged: **${comparison.unchanged}**`,
+        "",
+        "## New in v2 (sample)",
+        ...comparison.new.slice(0, 30).map((n) => `- \`${n.id}\` ${n.status}: ${n.key.slice(0, 80)}`),
+        "",
+        "## Re-evaluated (sample)",
+        ...comparison.changed
+          .slice(0, 30)
+          .map((c) => `- \`${c.id}\` ${c.v1Status} → ${c.v2Status}`),
+        "",
+      ].join("\n"),
+    );
+  }
+}
+
+function renderFromFilledJson() {
+  const data = JSON.parse(fs.readFileSync(OUT_JSON, "utf8"));
+  writeDecisionArtifacts(data.decisions || [], data.comparison || null);
+  console.log(JSON.stringify({ renderOnly: true, total: data.decisions?.length || 0 }, null, 2));
+}
+
 function main() {
+  if (process.argv.includes("--render-only")) {
+    renderFromFilledJson();
+    return;
+  }
   const audit = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
   const findings = audit.findings || [];
   const fieldMap = loadFieldMap();
 
   const decisions = findings.map((f, i) => evaluateFinding(f, fieldMap, i));
+  const isV2 = AUDIT_JSON.includes("audit-v2");
+  const comparison = isV2 ? compareWithV1(decisions, V1_DECISIONS) : null;
 
   const summary = {
     total: decisions.length,
@@ -568,12 +647,20 @@ function main() {
     falsePositive: decisions.filter((d) => d.status === "FALSE_POSITIVE").length,
     technicalDefer: decisions.filter((d) => d.status === "TECHNICAL_DEFER").length,
     labotMissingNew: decisions.filter((d) => d.status === "LABOT" && (d.new === null || d.new === "")).length,
+    comparison: comparison
+      ? {
+          newInV2: comparison.new.length,
+          reEvaluated: comparison.changed.length,
+          unchanged: comparison.unchanged,
+        }
+      : null,
   };
 
-  fs.writeFileSync(OUT_JSON, JSON.stringify({ generatedAt: new Date().toISOString(), summary, decisions }, null, 2));
-  fs.writeFileSync(OUT_MD, renderLinguisticTable(decisions));
-  fs.writeFileSync(OUT_TECH_MD, renderTechnicalTable(decisions));
-  fs.writeFileSync(OUT_VIEW, renderFullView(decisions));
+  fs.writeFileSync(
+    OUT_JSON,
+    JSON.stringify({ generatedAt: new Date().toISOString(), auditSource: AUDIT_JSON, summary, comparison, decisions }, null, 2),
+  );
+  writeDecisionArtifacts(decisions, comparison);
 
   console.log(JSON.stringify(summary, null, 2));
 }

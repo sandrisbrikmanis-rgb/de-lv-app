@@ -1,0 +1,19 @@
+{
+  "batch": "batch-019",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-08-0002",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Verbos reflexivos, e → i/ie cambio y acusativo.",
+      "proposedEs": "Verbos reflexivos, cambio vocálico e → i/ie y acusativo.",
+      "reason": "La secuencia «e → i/ie cambio» no es una construcción natural en español; «cambio vocálico» expresa con claridad el fenómeno gramatical.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:59:07.029Z"
+}

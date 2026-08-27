@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-014",
+  "cardIds": [
+    "ES-KURSS-LESSON-06-0046",
+    "ES-KURSS-LESSON-06-0047",
+    "ES-KURSS-LESSON-06-0048",
+    "ES-KURSS-LESSON-06-0049",
+    "ES-KURSS-LESSON-06-0050",
+    "ES-KURSS-LESSON-06-0051",
+    "ES-KURSS-LESSON-06-0052",
+    "ES-KURSS-LESSON-06-0053",
+    "ES-KURSS-LESSON-06-0054",
+    "ES-KURSS-LESSON-06-0055",
+    "ES-KURSS-LESSON-06-0056",
+    "ES-KURSS-LESSON-06-0057",
+    "ES-KURSS-LESSON-06-0058",
+    "ES-KURSS-LESSON-06-0059",
+    "ES-KURSS-LESSON-06-0060",
+    "ES-KURSS-LESSON-06-0061",
+    "ES-KURSS-LESSON-06-0062",
+    "ES-KURSS-LESSON-06-0063",
+    "ES-KURSS-LESSON-06-0064",
+    "ES-KURSS-LESSON-06-0065",
+    "ES-KURSS-LESSON-06-0066",
+    "ES-KURSS-LESSON-06-0067",
+    "ES-KURSS-LESSON-06-0068",
+    "ES-KURSS-LESSON-06-0069",
+    "ES-KURSS-LESSON-06-0070",
+    "ES-KURSS-LESSON-06-0071",
+    "ES-KURSS-LESSON-06-0072",
+    "ES-KURSS-LESSON-06-0073",
+    "ES-KURSS-LESSON-06-0074",
+    "ES-KURSS-LESSON-06-0075",
+    "ES-KURSS-LESSON-06-0076",
+    "ES-KURSS-LESSON-06-0077",
+    "ES-KURSS-LESSON-06-0078",
+    "ES-KURSS-LESSON-06-0079",
+    "ES-KURSS-LESSON-06-0080",
+    "ES-KURSS-LESSON-06-0081",
+    "ES-KURSS-LESSON-06-0082",
+    "ES-KURSS-LESSON-06-0083",
+    "ES-KURSS-LESSON-06-0084",
+    "ES-KURSS-LESSON-06-0085"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-06-0046\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0047\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0048\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"TRANSLATION\",\"currentEs\":\"aufmachen — desatar\",\"proposedEs\":\"aufmachen — abrir\",\"reason\":\"aufmachen significa «abrir», no «desatar».\"},{\"cardId\":\"ES-KURSS-LESSON-06-0049\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"TRANSLATION\",\"currentEs\":\"er macht auf — desata\",\"proposedEs\":\"er macht auf — abre\",\"reason\":\"er macht auf significa «abre»; «desata» no corresponde al verbo alemán.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0050\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"TRANSLATION\",\"currentEs\":\"anspitzen (anšpicen) — escupir\",\"proposedEs\":\"anspitzen (anšpicen) — sacar punta\",\"reason\":\"anspitzen significa «sacar punta» o «afilar», no «escupir».\"},{\"cardId\":\"ES-KURSS-LESSON-06-0051\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"TRANSLATION\",\"currentEs\":\"er spitzt an — escupe\",\"proposedEs\":\"er spitzt an — saca punta\",\"reason\":\"er spitzt an significa «saca punta» o «afila», no «escupe».\"},{\"cardId\":\"ES-KURSS-LESSON-06-0052\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0053\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0054\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0055\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0056\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0057\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0058\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0059\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0060\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0061\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0062\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"TRANSLATION\",\"currentEs\":\"der Hammer — mazo\",\"proposedEs\":\"der Hammer — martillo\",\"reason\":\"La traducción general de der Hammer es «martillo»; «mazo» designa una herramienta más específica.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0063\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"TRANSLATION\",\"currentEs\":\"die Hämmer — mazo\",\"proposedEs\":\"die Hämmer — martillos\",\"reason\":\"El plural alemán requiere la traducción «martillos»; además, «mazo» no es la traducción general de Hammer.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0064\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0065\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0066\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0067\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"der Schlitten — trineo, trineo\",\"proposedEs\":\"der Schlitten — trineo\",\"reason\":\"La traducción «trineo» aparece duplicada.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0068\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0069\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0070\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"wie sind die Dinge? — ¿Cuáles son las cosas?\",\"proposedEs\":\"wie sind die Dinge? — ¿Cómo están las cosas?\",\"reason\":\"La pregunta alemana se refiere al estado o situación de las cosas («¿Cómo están las cosas?»), no a identificar cuáles son.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0071\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"voll (fōl) — full\",\"proposedEs\":\"voll (fōl) — lleno\",\"reason\":\"«full» es un resto de inglés; el texto visible debe estar en español.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0072\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0073\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"MULTIPLE_TRANSLATIONS\",\"currentEs\":\"schwer (švēr) — pesado, difícil\",\"proposedEs\":\"schwer (švēr) — pesado\",\"reason\":\"Se combinan dos sentidos distintos en una sola entrada sin contexto. Para este vocabulario conviene usar un único sentido o separarlos en entradas contextualizadas.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0074\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0075\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0076\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0077\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_GRAMMAR\",\"currentEs\":\"wieviel Nadeln — cuántos agujas\",\"proposedEs\":\"wieviel Nadeln — cuántas agujas\",\"reason\":\"Agujas es un sustantivo femenino plural, por lo que el interrogativo debe concordar como «cuántas».\"},{\"cardId\":\"ES-KURSS-LESSON-06-0078\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0079\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0080\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0081\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"ä ir patskaņa a pārskanojums, un to izrunā kā īso vai garo šauro e.\",\"proposedEs\":\"ä es una modificación de la vocal a y se pronuncia como una e cerrada breve o larga.\",\"reason\":\"El texto está en letón, no en español. Debe traducirse la explicación de pronunciación manteniendo el símbolo alemán ä.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0082\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Piemēri: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).\",\"proposedEs\":\"Ejemplos: das Mädchen (mētchen), die Bänke (dī benke), der Vater (dēr fāter), die Väter (dī fēter).\",\"reason\":\"La introducción está en letón. Los ejemplos alemanes deben conservarse como alemán, pero la etiqueta debe estar en español.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0083\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"ü ir patskaņa u pārskanojums. To izrunājot, lūpas ļoti jāapaļo un jāmēģina ar apaļi veidotām lūpām izrunāt i.\",\"proposedEs\":\"ü es una modificación de la vocal u. Para pronunciarla, hay que redondear mucho los labios e intentar pronunciar una i con los labios redondeados.\",\"reason\":\"El texto está en letón, no en español. Debe traducirse la explicación y conservarse el símbolo alemán ü.\"},{\"cardId\":\"ES-KURSS-LESSON-06-0084\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-06-0085\",\"status\":\"PASS\",\"field\":\"currentEs\"}]}",
+  "usage": {
+    "input_tokens": 3952,
+    "input_tokens_details": {
+      "cache_write_tokens": 3949,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2933,
+    "output_tokens_details": {
+      "reasoning_tokens": 933
+    },
+    "total_tokens": 6885
+  },
+  "generatedAt": "2026-08-27T06:56:11.656Z"
+}

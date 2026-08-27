@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-005",
+  "cardIds": [
+    "ES-KURSS-LESSON-02-0060",
+    "ES-KURSS-LESSON-02-0061",
+    "ES-KURSS-LESSON-02-0062",
+    "ES-KURSS-LESSON-02-0063",
+    "ES-KURSS-LESSON-02-0064",
+    "ES-KURSS-LESSON-02-0065",
+    "ES-KURSS-LESSON-02-0066",
+    "ES-KURSS-LESSON-02-0067",
+    "ES-KURSS-LESSON-02-0068",
+    "ES-KURSS-LESSON-02-0069",
+    "ES-KURSS-LESSON-02-0070",
+    "ES-KURSS-LESSON-02-0071",
+    "ES-KURSS-LESSON-02-0072",
+    "ES-KURSS-LESSON-02-0073",
+    "ES-KURSS-LESSON-02-0074",
+    "ES-KURSS-LESSON-02-0075",
+    "ES-KURSS-LESSON-02-0076",
+    "ES-KURSS-LESSON-02-0077",
+    "ES-KURSS-LESSON-02-0078",
+    "ES-KURSS-LESSON-02-0079",
+    "ES-KURSS-LESSON-02-0080",
+    "ES-KURSS-LESSON-02-0081",
+    "ES-KURSS-LESSON-02-0082",
+    "ES-KURSS-LESSON-03-0001",
+    "ES-KURSS-LESSON-03-0002",
+    "ES-KURSS-LESSON-03-0003",
+    "ES-KURSS-LESSON-03-0004",
+    "ES-KURSS-LESSON-03-0005",
+    "ES-KURSS-LESSON-03-0006",
+    "ES-KURSS-LESSON-03-0007",
+    "ES-KURSS-LESSON-03-0008",
+    "ES-KURSS-LESSON-03-0009",
+    "ES-KURSS-LESSON-03-0010",
+    "ES-KURSS-LESSON-03-0011",
+    "ES-KURSS-LESSON-03-0012",
+    "ES-KURSS-LESSON-03-0013",
+    "ES-KURSS-LESSON-03-0014",
+    "ES-KURSS-LESSON-03-0015",
+    "ES-KURSS-LESSON-03-0016",
+    "ES-KURSS-LESSON-03-0017"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-02-0060\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"3Negación con nicht\",\"proposedEs\":\"3. Negación con nicht\",\"reason\":\"Falta el espacio tras el número y la puntuación habitual de la numeración.\"},{\"cardId\":\"ES-KURSS-LESSON-02-0061\",\"status\":\"PASS\",\"field\":\"grammarSubtitle\"},{\"cardId\":\"ES-KURSS-LESSON-02-0062\",\"status\":\"PASS\",\"field\":\"grammarSubtitle\"},{\"cardId\":\"ES-KURSS-LESSON-02-0063\",\"status\":\"PASS\",\"field\":\"grammarSubtitle\"},{\"cardId\":\"ES-KURSS-LESSON-02-0064\",\"status\":\"PASS\",\"field\":\"uiHint\"},{\"cardId\":\"ES-KURSS-LESSON-02-0065\",\"status\":\"PASS\",\"field\":\"trainingTranslateFront\"},{\"cardId\":\"ES-KURSS-LESSON-02-0066\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"pregunta Pablo.\",\"proposedEs\":\"Pablo pregunta.\",\"reason\":\"El orden de palabras resulta poco natural en español y la oración comienza con minúscula.\"},{\"cardId\":\"ES-KURSS-LESSON-02-0067\",\"status\":\"PASS\",\"field\":\"trainingTranslateFront\"},{\"cardId\":\"ES-KURSS-LESSON-02-0068\",\"status\":\"PASS\",\"field\":\"trainingTranslateFront\"},{\"cardId\":\"ES-KURSS-LESSON-02-0069\",\"status\":\"PASS\",\"field\":\"trainingTranslateFront\"},{\"cardId\":\"ES-KURSS-LESSON-02-0070\",\"status\":\"PASS\",\"field\":\"trainingTranslateFront\"},{\"cardId\":\"ES-KURSS-LESSON-02-0071\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"No, no cantan, cuentan.\",\"proposedEs\":\"No, no cantan, calculan.\",\"reason\":\"El alemán «rechnen» significa «calcular» o «hacer cuentas», no «contar» en el sentido habitual de «cuentan».\"},{\"cardId\":\"ES-KURSS-LESSON-02-0072\",\"status\":\"PASS\",\"field\":\"trainingTranslateFront\"},{\"cardId\":\"ES-KURSS-LESSON-02-0073\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Me paro y canto.\",\"proposedEs\":\"Estoy de pie y canto.\",\"reason\":\"«Ich stehe» expresa estar de pie; «me paro» suele significar que me detengo o que me pongo de pie.\"},{\"cardId\":\"ES-KURSS-LESSON-02-0074\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Dibujas?\",\"proposedEs\":\"¿Dibujan?\",\"reason\":\"El alemán «ihr» se refiere a la segunda persona plural, no a «tú».\"},{\"cardId\":\"ES-KURSS-LESSON-02-0075\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Sí, empatamos, pero María juega.\",\"proposedEs\":\"Sí, dibujamos, pero María juega.\",\"reason\":\"«Zeichnen» significa «dibujar»; «empatamos» no corresponde al significado alemán.\"},{\"cardId\":\"ES-KURSS-LESSON-02-0076\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"qué estás haciendo\",\"proposedEs\":\"qué están haciendo\",\"reason\":\"El alemán «ihr» es segunda persona plural; «estás» es singular.\"},{\"cardId\":\"ES-KURSS-LESSON-02-0077\",\"status\":\"PASS\",\"field\":\"trainingTranslateFront\"},{\"cardId\":\"ES-KURSS-LESSON-02-0078\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Qué está sucediendo?\",\"proposedEs\":\"¿Quién se va?\",\"reason\":\"«Wer geht?» significa «¿Quién se va?» o «¿Quién va?», no «¿Qué está sucediendo?».\"},{\"cardId\":\"ES-KURSS-LESSON-02-0079\",\"status\":\"PASS\",\"field\":\"trainingTranslateFront\"},{\"cardId\":\"ES-KURSS-LESSON-02-0080\",\"status\":\"PASS\",\"field\":\"uiSectionTitle\"},{\"cardId\":\"ES-KURSS-LESSON-02-0081\",\"status\":\"PASS\",\"field\":\"uiHint\"},{\"cardId\":\"ES-KURSS-LESSON-02-0082\",\"status\":\"PASS\",\"field\":\"uiProgress\"},{\"cardId\":\"ES-KURSS-LESSON-03-0001\",\"status\":\"PASS\",\"field\":\"uiTitle\"},{\"cardId\":\"ES-KURSS-LESSON-03-0002\",\"status\":\"PASS\",\"field\":\"uiMenuDesc\"},{\"cardId\":\"ES-KURSS-LESSON-03-0003\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"MULTIPLE_TRANSLATIONS\",\"currentEs\":\"Diálogos/oraciones\",\"proposedEs\":\"Diálogos y oraciones\",\"reason\":\"La barra combina dos categorías distintas en un mismo rótulo; «y» resulta más natural y claro en español.\"},{\"cardId\":\"ES-KURSS-LESSON-03-0004\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0005\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0006\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0007\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0008\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0009\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0010\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0011\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0012\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0013\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0014\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0015\",\"status\":\"PASS\",\"field\":\"example\"},{\"cardId\":\"ES-KURSS-LESSON-03-0016\",\"status\":\"PASS\",\"field\":\"sectionTitle\"},{\"cardId\":\"ES-KURSS-LESSON-03-0017\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"wer — aquí\",\"proposedEs\":\"wer — quién\",\"reason\":\"El alemán «wer» significa «quién»; «aquí» corresponde a «hier» y no al término mostrado.\"}]}",
+  "usage": {
+    "input_tokens": 3641,
+    "input_tokens_details": {
+      "cache_write_tokens": 3638,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2688,
+    "output_tokens_details": {
+      "reasoning_tokens": 1122
+    },
+    "total_tokens": 6329
+  },
+  "generatedAt": "2026-08-27T06:50:54.628Z"
+}

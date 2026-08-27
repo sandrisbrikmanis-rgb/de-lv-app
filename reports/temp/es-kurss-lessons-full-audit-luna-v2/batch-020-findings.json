@@ -1,0 +1,19 @@
+{
+  "batch": "batch-020",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-08-0034",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "setzt euch (zect oich) — ¡siéntate!",
+      "proposedEs": "setzt euch (zect oich) — ¡sentaos!",
+      "reason": "El alemán es un imperativo plural informal dirigido a varias personas, mientras que «¡siéntate!» es singular.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:59:23.661Z"
+}

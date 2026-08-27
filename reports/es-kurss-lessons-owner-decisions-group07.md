@@ -1,6 +1,6 @@
 # ES–DE Kurss Lessons — OWNER decisions (group 07: findings 301–350)
 
-**Auditors:** GPT-5.6 Luna + deterministic (READ-ONLY)
+**Auditors:** GPT-5.6 Luna v2 + deterministic (READ-ONLY)
 Avots: `reports/es-kurss-lessons-owner-review.md`
 Findings: **50** ieraksti
 
@@ -43,28 +43,28 @@ Sākotnēji visi ieraksti: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.
 | 332 | ES-KURSS-LESSONS-DET-0329 | `lesson21` | `kurss.exerciseMeta.formDu` |  | Forma 1/3: du (singular) | (OWNER_DECISION_REQUIRED: choose single main trans… | MEDIUM | PENDING | |
 | 333 | ES-KURSS-LESSONS-DET-0330 | `lesson21` | `kurss.exerciseMeta.formIhr` |  | Formulario 2/3: Tú (plural) | (OWNER_DECISION_REQUIRED: choose single main trans… | MEDIUM | PENDING | |
 | 334 | ES-KURSS-LESSONS-DET-0331 | `lesson21` | `kurss.exerciseMeta.formSie` |  | Forma 3/3: Sie (tratamiento formal) | (OWNER_DECISION_REQUIRED: choose single main trans… | MEDIUM | PENDING | |
-| 335 | ES-KURSS-LESSONS-L0001 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | nosotros ven | nosotros venimos | HIGH | PENDING | |
-| 336 | ES-KURSS-LESSONS-L0002 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú vienes | vosotros venís | HIGH | PENDING | |
-| 337 | ES-KURSS-LESSONS-L0005 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | he / ella va | él / ella va | HIGH | PENDING | |
-| 338 | ES-KURSS-LESSONS-L0006 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú ejat | vosotros vais | CRITICAL | PENDING | |
-| 339 | ES-KURSS-LESSONS-L0008 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ♟stehen | ♟stehen — pararse | ♟stehen — estar de pie | MEDIUM | PENDING | |
-| 340 | ES-KURSS-LESSONS-L0009 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | I stand | yo estoy de pie | HIGH | PENDING | |
-| 341 | ES-KURSS-LESSONS-L0010 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú estás de pie | vosotros estáis de pie | HIGH | PENDING | |
-| 342 | ES-KURSS-LESSONS-L0012 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ♟singen | ♟singen — to canta | ♟singen — cantar | HIGH | PENDING | |
-| 343 | ES-KURSS-LESSONS-L0013 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú cantas | vosotros cantáis | HIGH | PENDING | |
-| 344 | ES-KURSS-LESSONS-L0015 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | iEl La pronunciación aproximada de las palabras se… | La pronunciación aproximada de las palabras se ind… | CRITICAL | PENDING | |
-| 345 | ES-KURSS-LESSONS-L0019 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | singen (zingen) | singen (zingen) — canta | singen (zingen) — cantar | MEDIUM | PENDING | |
-| 346 | ES-KURSS-LESSONS-L0023 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ihr → | ihr → -En letón: | ihr → -ihr kommt | HIGH | PENDING | |
-| 347 | ES-KURSS-LESSONS-L0024 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | sie → | sie → -Alemán en: | sie → -sie kommen | HIGH | PENDING | |
-| 348 | ES-KURSS-LESSONS-L0026 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ♟Presente terminaciones | ♟Terminaciones del presente | MEDIUM | PENDING | |
-| 349 | ES-KURSS-LESSONS-L0027 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ?Oraciones de preguntas | ?Oraciones interrogativas | MEDIUM | PENDING | |
-| 350 | ES-KURSS-LESSONS-L0028 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ♣Diferencia de persona | ♣Personas gramaticales | LOW | PENDING | |
+| 335 | ES-KURSS-LESSONS-LV2-0001 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | nosotros ven | nosotros venimos | HIGH | PENDING | |
+| 336 | ES-KURSS-LESSONS-LV2-0002 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú vienes | vosotros venís | HIGH | PENDING | |
+| 337 | ES-KURSS-LESSONS-LV2-0005 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | he / ella va | él / ella va | HIGH | PENDING | |
+| 338 | ES-KURSS-LESSONS-LV2-0006 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú ejat | vosotros vais | CRITICAL | PENDING | |
+| 339 | ES-KURSS-LESSONS-LV2-0008 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ♟stehen | ♟stehen — pararse | ♟stehen — estar de pie | MEDIUM | PENDING | |
+| 340 | ES-KURSS-LESSONS-LV2-0009 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | I stand | yo estoy de pie | CRITICAL | PENDING | |
+| 341 | ES-KURSS-LESSONS-LV2-0010 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú estás de pie | vosotros estáis de pie | HIGH | PENDING | |
+| 342 | ES-KURSS-LESSONS-LV2-0012 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ♟singen | ♟singen — to canta | ♟singen — cantar | CRITICAL | PENDING | |
+| 343 | ES-KURSS-LESSONS-LV2-0013 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú cantas | vosotros cantáis | HIGH | PENDING | |
+| 344 | ES-KURSS-LESSONS-LV2-0015 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | iEl La pronunciación aproximada de las palabras se… | La pronunciación aproximada de las palabras se ind… | HIGH | PENDING | |
+| 345 | ES-KURSS-LESSONS-LV2-0019 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | singen (zingen) | singen (zingen) — canta | singen (zingen) — cantar | MEDIUM | PENDING | |
+| 346 | ES-KURSS-LESSONS-LV2-0023 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ich → | ich → -ich komme | ich → ich komme | MEDIUM | PENDING | |
+| 347 | ES-KURSS-LESSONS-LV2-0024 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | du → | du → -du kommst | du → du kommst | MEDIUM | PENDING | |
+| 348 | ES-KURSS-LESSONS-LV2-0025 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | er / sie → | er / sie → -er kommt | er / sie → er kommt | MEDIUM | PENDING | |
+| 349 | ES-KURSS-LESSONS-LV2-0026 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | wir → | wir → -wir kommen | wir → wir kommen | MEDIUM | PENDING | |
+| 350 | ES-KURSS-LESSONS-LV2-0027 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ihr → | ihr → -En letón: | ihr → ihr kommt | CRITICAL | PENDING | |
 
 ## Kopsavilkums
 
 - findings: **50**
-- CRITICAL: **2**
-- HIGH: **11**
-- MEDIUM: **36**
-- LOW: **1**
+- CRITICAL: **4**
+- HIGH: **8**
+- MEDIUM: **38**
+- LOW: **0**
 - DE izmaiņas: **0**

@@ -1,0 +1,266 @@
+{
+  "batch": "batch-074",
+  "inputCount": 31,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-21-0111",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wohin geht sie zurück?",
+      "proposedEs": "¿Adónde vuelve ella?",
+      "reason": "El texto visible para el usuario está en alemán, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0112",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wo arbeitet sie fleißig?",
+      "proposedEs": "¿Dónde trabaja diligentemente?",
+      "reason": "El texto visible para el usuario está en alemán, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0113",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Todos los cuadernos están en la bolsa.",
+      "proposedEs": "Todos los cuadernos están en la carpeta.",
+      "reason": "Mappe significa «carpeta» o «portafolios», no «bolsa».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0114",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Saco los cuadernos de mi bolso.",
+      "proposedEs": "Saco los cuadernos de la carpeta.",
+      "reason": "El alemán indica Mappe («carpeta»), no Tasche/bolso; además, «mi» no aparece en el contexto alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0115",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Llevo un reloj en mi bolsillo.",
+      "proposedEs": "Saco el reloj del bolso.",
+      "reason": "El español actual expresa llevar un reloj en el bolsillo, mientras que el alemán expresa sacar el reloj de una Tasche.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0116",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "En el sótano hay un cubo de leche.",
+      "proposedEs": "En el sótano hay un cubo con leche.",
+      "reason": "Eimer mit Milch indica un cubo que contiene leche; «cubo de leche» puede interpretarse como un cubo destinado a la leche.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0117",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Es nesu spaini no pagraba.",
+      "proposedEs": "Llevo el cubo del sótano.",
+      "reason": "El texto está en letón, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0118",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Me quito el sombrero de la cabeza.",
+      "proposedEs": "Me quito el gorro de la cabeza.",
+      "reason": "Mütze corresponde a «gorro» o «gorra», no a «sombrero».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0119",
+      "status": "PASS",
+      "field": "prompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0120",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0121",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "La partitura está en el piano.",
+      "proposedEs": "Las partituras están sobre el piano.",
+      "reason": "Noten es plural y, en este contexto, se refiere a partituras o notas musicales colocadas sobre el piano.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0122",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0123",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0124",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0125",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0126",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0127",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0128",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0129",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0130",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0131",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0132",
+      "status": "PASS",
+      "field": "uiHint"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0133",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0134",
+      "field": "",
+      "severity": "LOW",
+      "category": "STYLE_ONLY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Toque la tarjeta para ver la traducción al alemán.",
+      "proposedEs": "Toca la tarjeta para ver la traducción al alemán.",
+      "reason": "La forma formal «Toque» es gramaticalmente correcta, pero no es coherente con la forma informal «Toca» usada en la otra indicación equivalente.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0135",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ejercicio I — Usa la conjugación correcta",
+      "proposedEs": "Ejercicio I — Usa el caso correcto",
+      "reason": "El campo fillCase se refiere al caso gramatical, no a la conjugación verbal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0136",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Pon el caso correcto y hazlo en plural!",
+      "reason": "La indicación se refiere al caso gramatical; «conjugación» es el término incorrecto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0137",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0138",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0139",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0140",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_GRAMMAR",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (vosotros/vosotras, plural)",
+      "reason": "«Formulario» no corresponde a este rótulo, y «tú» es singular, por lo que «tú (plural)» es gramaticalmente contradictorio. Debe identificarse la forma alemana ihr como plural informal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0141",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:27:01.913Z"
+}

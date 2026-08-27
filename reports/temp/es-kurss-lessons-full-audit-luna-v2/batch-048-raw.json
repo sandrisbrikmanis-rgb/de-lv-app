@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-048",
+  "cardIds": [
+    "ES-KURSS-LESSON-14-0127",
+    "ES-KURSS-LESSON-14-0128",
+    "ES-KURSS-LESSON-14-0129",
+    "ES-KURSS-LESSON-14-0130",
+    "ES-KURSS-LESSON-14-0131",
+    "ES-KURSS-LESSON-14-0132",
+    "ES-KURSS-LESSON-14-0133",
+    "ES-KURSS-LESSON-14-0134",
+    "ES-KURSS-LESSON-14-0135",
+    "ES-KURSS-LESSON-14-0136",
+    "ES-KURSS-LESSON-14-0137",
+    "ES-KURSS-LESSON-14-0138",
+    "ES-KURSS-LESSON-14-0139",
+    "ES-KURSS-LESSON-14-0140",
+    "ES-KURSS-LESSON-14-0141",
+    "ES-KURSS-LESSON-14-0142",
+    "ES-KURSS-LESSON-14-0143",
+    "ES-KURSS-LESSON-15-0001",
+    "ES-KURSS-LESSON-15-0002",
+    "ES-KURSS-LESSON-15-0003",
+    "ES-KURSS-LESSON-15-0004",
+    "ES-KURSS-LESSON-15-0005",
+    "ES-KURSS-LESSON-15-0006",
+    "ES-KURSS-LESSON-15-0007",
+    "ES-KURSS-LESSON-15-0008",
+    "ES-KURSS-LESSON-15-0009",
+    "ES-KURSS-LESSON-15-0010",
+    "ES-KURSS-LESSON-15-0011",
+    "ES-KURSS-LESSON-15-0012",
+    "ES-KURSS-LESSON-15-0013",
+    "ES-KURSS-LESSON-15-0014",
+    "ES-KURSS-LESSON-15-0015",
+    "ES-KURSS-LESSON-15-0016",
+    "ES-KURSS-LESSON-15-0017",
+    "ES-KURSS-LESSON-15-0018",
+    "ES-KURSS-LESSON-15-0019",
+    "ES-KURSS-LESSON-15-0020",
+    "ES-KURSS-LESSON-15-0021",
+    "ES-KURSS-LESSON-15-0022",
+    "ES-KURSS-LESSON-15-0023"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-14-0127\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Quién debería leer el libro?\",\"proposedEs\":\"¿Quién tiene que leer el libro?\",\"reason\":\"El alemán «muss» expresa obligación («tener que»), no una obligación hipotética o recomendación («debería»).\"},{\"cardId\":\"ES-KURSS-LESSON-14-0128\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"El hermano debe leer un libro.\",\"proposedEs\":\"El hermano tiene que leer el libro.\",\"reason\":\"El alemán usa «das Buch» («el libro»), mientras que «un libro» cambia el sentido; además, «muss» se traduce más precisamente como «tiene que» en este contexto.\"},{\"cardId\":\"ES-KURSS-LESSON-14-0129\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"No quiero cantar.\",\"proposedEs\":\"No me gusta cantar.\",\"reason\":\"«Ich mag nicht singen» significa que no gusta cantar, no que no se quiera cantar.\"},{\"cardId\":\"ES-KURSS-LESSON-14-0130\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Papá tiene que comprar una mesa.\",\"proposedEs\":\"El padre tiene que comprar una mesa.\",\"reason\":\"El alemán «Der Vater» corresponde a «el padre»; «papá» añade un registro familiar que no está expresado en el original.\"},{\"cardId\":\"ES-KURSS-LESSON-14-0131\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0132\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0133\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0134\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0135\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0136\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0137\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0138\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"¡Pon la conjugación correcta y hazlo en plural!\",\"proposedEs\":\"¡Escribe la conjugación correcta y pon la frase en plural!\",\"reason\":\"«Pon la conjugación» y «hazlo» resultan poco naturales y ambiguos en una instrucción didáctica; conviene especificar que la frase debe ponerse en plural.\"},{\"cardId\":\"ES-KURSS-LESSON-14-0139\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0140\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0141\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0142\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Formulario 2/3: Tú (plural)\",\"proposedEs\":\"Forma 2/3: ihr (plural)\",\"reason\":\"«Formulario» es incorrecto en este contexto: debe ser «forma». Además, «tú» no es plural y no corresponde a la forma alemana «ihr».\"},{\"cardId\":\"ES-KURSS-LESSON-14-0143\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0001\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0002\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0003\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"Decimoquinta conferencia: sollen, dürfen, essen y palabras frutales.\",\"proposedEs\":\"Decimoquinta lección: sollen, dürfen, essen y palabras sobre frutas.\",\"reason\":\"«Conferencia» no corresponde al tipo de contenido y «palabras frutales» no es una expresión natural para referirse a vocabulario sobre frutas.\"},{\"cardId\":\"ES-KURSS-LESSON-15-0004\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0005\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0006\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0007\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0008\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0009\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0010\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0011\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0012\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0013\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0014\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0015\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0016\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0017\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0018\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0019\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0020\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0021\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0022\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-15-0023\",\"status\":\"PASS\",\"field\":\"currentEs\"}]}",
+  "usage": {
+    "input_tokens": 3826,
+    "input_tokens_details": {
+      "cache_write_tokens": 3823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2427,
+    "output_tokens_details": {
+      "reasoning_tokens": 905
+    },
+    "total_tokens": 6253
+  },
+  "generatedAt": "2026-08-27T07:14:25.836Z"
+}

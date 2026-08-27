@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-051",
+  "cardIds": [
+    "ES-KURSS-LESSON-15-0104",
+    "ES-KURSS-LESSON-15-0105",
+    "ES-KURSS-LESSON-15-0106",
+    "ES-KURSS-LESSON-15-0107",
+    "ES-KURSS-LESSON-15-0108",
+    "ES-KURSS-LESSON-15-0109",
+    "ES-KURSS-LESSON-15-0110",
+    "ES-KURSS-LESSON-15-0111",
+    "ES-KURSS-LESSON-15-0112",
+    "ES-KURSS-LESSON-15-0113",
+    "ES-KURSS-LESSON-15-0114",
+    "ES-KURSS-LESSON-15-0115",
+    "ES-KURSS-LESSON-15-0116",
+    "ES-KURSS-LESSON-15-0117",
+    "ES-KURSS-LESSON-15-0118",
+    "ES-KURSS-LESSON-15-0119",
+    "ES-KURSS-LESSON-15-0120",
+    "ES-KURSS-LESSON-15-0121",
+    "ES-KURSS-LESSON-15-0122",
+    "ES-KURSS-LESSON-15-0123",
+    "ES-KURSS-LESSON-15-0124",
+    "ES-KURSS-LESSON-15-0125",
+    "ES-KURSS-LESSON-15-0126",
+    "ES-KURSS-LESSON-15-0127",
+    "ES-KURSS-LESSON-15-0128",
+    "ES-KURSS-LESSON-15-0129",
+    "ES-KURSS-LESSON-15-0130",
+    "ES-KURSS-LESSON-15-0131",
+    "ES-KURSS-LESSON-15-0132",
+    "ES-KURSS-LESSON-15-0133",
+    "ES-KURSS-LESSON-15-0134",
+    "ES-KURSS-LESSON-15-0135",
+    "ES-KURSS-LESSON-15-0136",
+    "ES-KURSS-LESSON-15-0137",
+    "ES-KURSS-LESSON-15-0138",
+    "ES-KURSS-LESSON-15-0139",
+    "ES-KURSS-LESSON-16-0001",
+    "ES-KURSS-LESSON-16-0002",
+    "ES-KURSS-LESSON-16-0003",
+    "ES-KURSS-LESSON-16-0004"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0104\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"En el verbo compuesto entzweischneiden, el énfasis está en el prefijo entzweí-, por lo que en tiempo presente el prefijo se separa y se coloca al final de la oración.\",\n      \"proposedEs\": \"En el verbo entzweischneiden, el énfasis recae en el prefijo separable entzwei-, por lo que, en presente, este se separa y se coloca al final de la oración.\",\n      \"reason\": \"«Entzweí-» altera incorrectamente la ortografía del elemento alemán «entzwei-». Además, «prefijo separable» es más preciso que «verbo compuesto» en este contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0105\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0106\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionItem\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0107\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionItem\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0108\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionItem\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0109\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionItem\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0110\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionItem\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0111\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0112\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0113\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0114\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0115\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0116\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"No, no hace falta que te comas las ciruelas, no han llegado.\",\n      \"proposedEs\": \"No, no debes comerte las ciruelas; están verdes.\",\n      \"reason\": \"«Sollst du nicht essen» expresa prohibición u obligación negativa («no debes comer»), no falta de necesidad. «Sie sind unreif» significa que están verdes o inmaduras, no que «no han llegado».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0117\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"¿Comiste una manzana o una pera?\",\n      \"proposedEs\": \"¿Comes una manzana o una pera?\",\n      \"reason\": \"«Isst du» está en presente, mientras que «comiste» está en pretérito.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0118\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0119\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0120\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0121\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"¿Quién necesita estudiar?\",\n      \"proposedEs\": \"¿Quién tiene que estudiar?\",\n      \"reason\": \"«Muss» expresa obligación («tener que»), mientras que «necesita» expresa necesidad y no reproduce con precisión el valor modal del alemán.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0122\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0123\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0124\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0125\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0126\",\n      \"status\": \"PASS\",\n      \"field\": \"translateCard\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0127\",\n      \"status\": \"PASS\",\n      \"field\": \"uiSectionTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0128\",\n      \"status\": \"PASS\",\n      \"field\": \"uiSectionTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0129\",\n      \"status\": \"PASS\",\n      \"field\": \"uiSectionTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0130\",\n      \"status\": \"PASS\",\n      \"field\": \"uiSectionTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0131\",\n      \"status\": \"PASS\",\n      \"field\": \"uiSectionTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0132\",\n      \"status\": \"PASS\",\n      \"field\": \"uiHint\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0133\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0134\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"¡Pon la conjugación correcta y hazlo en plural!\",\n      \"proposedEs\": \"¡Escribe la forma verbal correcta y úsala en plural!\",\n      \"reason\": \"«Pon la conjugación» y «hazlo» resultan poco naturales y ambiguos en una instrucción de ejercicio. La propuesta indica con claridad qué debe hacer el alumno.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0135\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0136\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0137\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0138\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Formulario 2/3: Tú (plural)\",\n      \"proposedEs\": \"Forma 2/3: ihr (plural)\",\n      \"reason\": \"«Formulario» no es el término adecuado para esta etiqueta, y «tú (plural)» es contradictorio: «tú» es singular. Debe identificarse la forma alemana «ihr» como plural.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0139\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0001\",\n      \"status\": \"PASS\",\n      \"field\": \"uiTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0002\",\n      \"status\": \"PASS\",\n      \"field\": \"uiMenuDesc\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0003\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Decimosexta conferencia: dativo, geben, sich nähern y ejercicios dativos.\",\n      \"proposedEs\": \"Decimosexta lección: el dativo, geben, sich nähern y ejercicios sobre el dativo.\",\n      \"reason\": \"«Conferencia» no corresponde a una unidad de curso y debe ser «lección». «Ejercicios dativos» es poco natural; «ejercicios sobre el dativo» expresa claramente el contenido.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0004\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionTitle\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3779,
+    "input_tokens_details": {
+      "cache_write_tokens": 3776,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4509,
+    "output_tokens_details": {
+      "reasoning_tokens": 2246
+    },
+    "total_tokens": 8288
+  },
+  "generatedAt": "2026-08-27T07:16:16.273Z"
+}

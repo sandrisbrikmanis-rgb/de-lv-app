@@ -1,0 +1,255 @@
+{
+  "batch": "batch-024",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-09-0030",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0031",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0032",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0033",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0034",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sitzen (zicen) — sentarse",
+      "proposedEs": "sitzen (zicen) — estar sentado",
+      "reason": "El verbo alemán sitzen significa «estar sentado»; «sentarse» corresponde normalmente a sich setzen.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0035",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0036",
+      "field": "",
+      "severity": "LOW",
+      "category": "ES_ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "dieser (dīzer) — Éste",
+      "proposedEs": "dieser (dīzer) — este",
+      "reason": "El demostrativo debe escribirse en minúscula en este contexto y actualmente no lleva tilde según la ortografía académica.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0037",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0038",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0039",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "die Briefe — letras",
+      "proposedEs": "die Briefe — cartas",
+      "reason": "Briefe es el plural de Brief, «carta»; «letras» se traduciría como Buchstaben.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0040",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0041",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0042",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0043",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0044",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Indique los pronombres dieser y jener como article definido.",
+      "proposedEs": "Indique los pronombres dieser y jener como artículos definidos.",
+      "reason": "«article» es un resto de inglés; el término correcto en español es «artículo». La forma plural concuerda mejor con los dos pronombres mencionados.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0045",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0046",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0047",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0048",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0049",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0050",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0051",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0052",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0053",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0054",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0055",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0056",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0057",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0058",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0059",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0060",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0061",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0062",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0063",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Artikulu nelieto",
+      "proposedEs": "No se utiliza el artículo",
+      "reason": "El encabezado está en letón, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0064",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Si el sustantivo va precedido de un pronombre o una palabra numérica, no se utiliza el article.",
+      "proposedEs": "Si el sustantivo va precedido de un pronombre o una palabra numérica, no se utiliza el artículo.",
+      "reason": "«article» es un resto de inglés; debe utilizarse el término español «artículo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0065",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0066",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0067",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0068",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0069",
+      "status": "PASS",
+      "field": "currentEs"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:01:25.908Z"
+}

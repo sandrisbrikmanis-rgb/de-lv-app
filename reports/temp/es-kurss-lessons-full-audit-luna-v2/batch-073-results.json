@@ -1,0 +1,215 @@
+{
+  "batch": "batch-073",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-21-0071",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0072",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Woher? — no kurienes?",
+      "proposedEs": "Woher? — ¿De dónde?",
+      "reason": "«kurienes» no es una palabra española y la pregunta carece de la puntuación interrogativa inicial.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0073",
+      "status": "PASS",
+      "field": "grammarText"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0074",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0075",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0076",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0077",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0078",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0079",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0080",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0081",
+      "status": "PASS",
+      "field": "grammarText"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0082",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0083",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0084",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0085",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0086",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0087",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0088",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0089",
+      "status": "PASS",
+      "field": "grammarText"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0090",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0091",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0092",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0093",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0094",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0095",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0096",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0097",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0098",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0099",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0100",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0101",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0102",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0103",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0104",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0105",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0106",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0107",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0108",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0109",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0110",
+      "status": "PASS",
+      "field": "exerciseFillPrompt"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:26:28.709Z"
+}

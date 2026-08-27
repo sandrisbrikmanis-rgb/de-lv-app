@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-034",
+  "cardIds": [
+    "ES-KURSS-LESSON-11-0124",
+    "ES-KURSS-LESSON-11-0125",
+    "ES-KURSS-LESSON-11-0126",
+    "ES-KURSS-LESSON-11-0127",
+    "ES-KURSS-LESSON-11-0128",
+    "ES-KURSS-LESSON-11-0129",
+    "ES-KURSS-LESSON-11-0130",
+    "ES-KURSS-LESSON-11-0131",
+    "ES-KURSS-LESSON-11-0132",
+    "ES-KURSS-LESSON-11-0133",
+    "ES-KURSS-LESSON-11-0134",
+    "ES-KURSS-LESSON-11-0135",
+    "ES-KURSS-LESSON-11-0136",
+    "ES-KURSS-LESSON-11-0137",
+    "ES-KURSS-LESSON-11-0138",
+    "ES-KURSS-LESSON-11-0139",
+    "ES-KURSS-LESSON-11-0140",
+    "ES-KURSS-LESSON-11-0141",
+    "ES-KURSS-LESSON-11-0142",
+    "ES-KURSS-LESSON-11-0143",
+    "ES-KURSS-LESSON-11-0144",
+    "ES-KURSS-LESSON-11-0145",
+    "ES-KURSS-LESSON-11-0146",
+    "ES-KURSS-LESSON-11-0147",
+    "ES-KURSS-LESSON-11-0148",
+    "ES-KURSS-LESSON-11-0149",
+    "ES-KURSS-LESSON-11-0150",
+    "ES-KURSS-LESSON-11-0151",
+    "ES-KURSS-LESSON-11-0152",
+    "ES-KURSS-LESSON-11-0153",
+    "ES-KURSS-LESSON-11-0154",
+    "ES-KURSS-LESSON-11-0155",
+    "ES-KURSS-LESSON-11-0156",
+    "ES-KURSS-LESSON-11-0157",
+    "ES-KURSS-LESSON-11-0158",
+    "ES-KURSS-LESSON-11-0159",
+    "ES-KURSS-LESSON-11-0160",
+    "ES-KURSS-LESSON-11-0161",
+    "ES-KURSS-LESSON-11-0162",
+    "ES-KURSS-LESSON-11-0163"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0124\",\n      \"status\": \"PASS\",\n      \"field\": \"heading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0125\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Los sustantivos compuestos van precedidos del article del último sustantivo. El énfasis está en la primera palabra del caso.\",\n      \"proposedEs\": \"Los sustantivos compuestos llevan el artículo del último sustantivo. El acento recae en la primera parte.\",\n      \"reason\": \"«article» es un término inglés y debe ser «artículo». Además, «del caso» no tiene sentido en este contexto; la idea es que el acento recae en el primer componente del sustantivo compuesto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0126\",\n      \"status\": \"PASS\",\n      \"field\": \"heading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0127\",\n      \"status\": \"PASS\",\n      \"field\": \"examples[0]\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0128\",\n      \"status\": \"PASS\",\n      \"field\": \"examples[1]\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0129\",\n      \"status\": \"PASS\",\n      \"field\": \"examples[2]\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0130\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"¿Kas tev ir?\",\n      \"proposedEs\": \"¿Qué tienes?\",\n      \"reason\": \"El texto está en letón, no en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0131\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0132\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"¿Cuáles son los libros?\",\n      \"proposedEs\": \"¿Cómo son los libros?\",\n      \"reason\": \"«Wie sind die Bücher?» pregunta por las características de los libros, no por cuáles son.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0133\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0134\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0135\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0136\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Franc no tiene bolígrafo ni lápiz.\",\n      \"proposedEs\": \"Franz no tiene pluma ni lápiz.\",\n      \"reason\": \"El nombre «Franc» no corresponde al nombre alemán «Franz» del contexto. Además, «Feder» se refiere aquí a una pluma, no a un bolígrafo.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0137\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0138\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0139\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0140\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0141\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0142\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"La maestra tiene muchos libros y una estantería.\",\n      \"proposedEs\": \"El maestro tiene muchos libros y una estantería.\",\n      \"reason\": \"El contexto alemán usa «der Lehrer», que corresponde a un maestro, no a una maestra.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0143\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0144\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0145\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Ko dara Anna?\",\n      \"proposedEs\": \"¿Qué hace Anna?\",\n      \"reason\": \"El texto está en letón, no en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0146\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0147\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0148\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0149\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0150\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0151\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0152\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0153\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0154\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0155\",\n      \"status\": \"PASS\",\n      \"field\": \"section title display\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0156\",\n      \"status\": \"PASS\",\n      \"field\": \"uiHint\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0157\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0158\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"¡Pon la conjugación correcta y hazlo en plural!\",\n      \"proposedEs\": \"¡Escribe la forma conjugada correcta y ponla en plural!\",\n      \"reason\": \"«Pon la conjugación» resulta poco natural en español y «hazlo» tiene un referente ambiguo. La recomendación hace explícita la acción solicitada.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0159\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0160\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0161\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0162\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Formulario 2/3: Tú (plural)\",\n      \"proposedEs\": \"Forma 2/3: ihr (plural informal)\",\n      \"reason\": \"«Formulario» no es la traducción adecuada de «form» en esta etiqueta. Además, «tú» es singular; el pronombre alemán «ihr» corresponde al plural informal.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0163\",\n      \"status\": \"PASS\",\n      \"field\": \"uiExerciseMeta\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3689,
+    "input_tokens_details": {
+      "cache_write_tokens": 3686,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3364,
+    "output_tokens_details": {
+      "reasoning_tokens": 1192
+    },
+    "total_tokens": 7053
+  },
+  "generatedAt": "2026-08-27T07:06:54.379Z"
+}

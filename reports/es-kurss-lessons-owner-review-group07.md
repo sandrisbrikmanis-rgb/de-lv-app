@@ -1,8 +1,8 @@
 # ES–DE Kurss Lessons — OWNER VIEW (group 07: findings 301–350)
 
-**Auditors:** GPT-5.6 Luna + deterministic (READ-ONLY)
+**Auditors:** GPT-5.6 Luna v2 + deterministic (READ-ONLY)
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
-Avots: `reports/es-kurss-lessons-full-audit.md` / `reports/temp/es-kurss-lessons-full-audit.json`
+Avots: `reports/es-kurss-lessons-full-audit-v2.md` / `reports/temp/es-kurss-lessons-full-audit-v2.json`
 Findings: **50** ieraksti
 
 > **PROPOSED_ES** ir auditora ieteikums — **nav** OWNER apstiprināts.
@@ -26,7 +26,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -47,7 +47,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -68,7 +68,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -89,7 +89,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -110,7 +110,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -131,7 +131,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -152,7 +152,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -173,7 +173,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -194,7 +194,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -215,7 +215,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -236,7 +236,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -257,7 +257,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -278,7 +278,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -299,7 +299,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -320,7 +320,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -341,7 +341,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -362,7 +362,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -383,7 +383,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -404,7 +404,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -425,7 +425,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -446,7 +446,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -467,7 +467,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -488,7 +488,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -509,7 +509,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -530,7 +530,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -551,7 +551,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -572,7 +572,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -593,7 +593,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -614,7 +614,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -635,7 +635,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -656,7 +656,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -677,7 +677,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -698,7 +698,7 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
@@ -719,14 +719,14 @@ Findings: **50** ieraksti
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · deterministic
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · deterministic
 
 ---
 
 ## Finding 335 (ES Kurss Lessons)
 
 **Finding:** 335
-**Audit ID:** ES-KURSS-LESSONS-L0001
+**Audit ID:** ES-KURSS-LESSONS-LV2-0001
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[0].span[7]`
 **Field type:** `verbCardGloss`
@@ -735,19 +735,19 @@ Findings: **50** ieraksti
 **PROPOSED_ES:** nosotros venimos
 **Severity:** HIGH
 **Category:** ES_GRAMMAR
-**Problem:** 
-**Reason:** 
+**Problem:** La forma verbal no concuerda con el sujeto «nosotros»; la primera persona plural de «venir» es «venimos».
+**Reason:** La forma verbal no concuerda con el sujeto «nosotros»; la primera persona plural de «venir» es «venimos».
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 336 (ES Kurss Lessons)
 
 **Finding:** 336
-**Audit ID:** ES-KURSS-LESSONS-L0002
+**Audit ID:** ES-KURSS-LESSONS-LV2-0002
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[0].span[9]`
 **Field type:** `verbCardGloss`
@@ -755,20 +755,20 @@ Findings: **50** ieraksti
 **CURRENT_ES:** tú vienes
 **PROPOSED_ES:** vosotros venís
 **Severity:** HIGH
-**Category:** ES_GRAMMAR
-**Problem:** 
-**Reason:** 
+**Category:** SEMANTIC_MISMATCH
+**Problem:** La forma corresponde a la segunda persona plural alemana (ihr), no a «tú»; además, esta entrada duplica la forma de la segunda persona singular.
+**Reason:** La forma corresponde a la segunda persona plural alemana (ihr), no a «tú»; además, esta entrada duplica la forma de la segunda persona singular.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 337 (ES Kurss Lessons)
 
 **Finding:** 337
-**Audit ID:** ES-KURSS-LESSONS-L0005
+**Audit ID:** ES-KURSS-LESSONS-LV2-0005
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[1].span[5]`
 **Field type:** `verbCardGloss`
@@ -777,19 +777,19 @@ Findings: **50** ieraksti
 **PROPOSED_ES:** él / ella va
 **Severity:** HIGH
 **Category:** ES_ORTHOGRAPHY
-**Problem:** 
-**Reason:** 
+**Problem:** «he» es un error ortográfico/ de texto; el pronombre masculino correcto es «él».
+**Reason:** «he» es un error ortográfico/ de texto; el pronombre masculino correcto es «él».
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 338 (ES Kurss Lessons)
 
 **Finding:** 338
-**Audit ID:** ES-KURSS-LESSONS-L0006
+**Audit ID:** ES-KURSS-LESSONS-LV2-0006
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[1].span[9]`
 **Field type:** `verbCardGloss`
@@ -798,19 +798,19 @@ Findings: **50** ieraksti
 **PROPOSED_ES:** vosotros vais
 **Severity:** CRITICAL
 **Category:** FOREIGN_LEFTOVER
-**Problem:** 
-**Reason:** 
+**Problem:** «ejat» no es una forma española y parece texto extranjero o corrupto. La entrada debe expresar la segunda persona plural correspondiente.
+**Reason:** «ejat» no es una forma española y parece texto extranjero o corrupto. La entrada debe expresar la segunda persona plural correspondiente.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 339 (ES Kurss Lessons)
 
 **Finding:** 339
-**Audit ID:** ES-KURSS-LESSONS-L0008
+**Audit ID:** ES-KURSS-LESSONS-LV2-0008
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[2].title`
 **Field type:** `verbCardTitle`
@@ -819,40 +819,40 @@ Findings: **50** ieraksti
 **PROPOSED_ES:** ♟stehen — estar de pie
 **Severity:** MEDIUM
 **Category:** SEMANTIC_MISMATCH
-**Problem:** 
-**Reason:** 
+**Problem:** «pararse» suele significar ponerse de pie o detenerse, mientras que «stehen» en este paradigma significa «estar de pie».
+**Reason:** «pararse» suele significar ponerse de pie o detenerse, mientras que «stehen» en este paradigma significa «estar de pie».
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 340 (ES Kurss Lessons)
 
 **Finding:** 340
-**Audit ID:** ES-KURSS-LESSONS-L0009
+**Audit ID:** ES-KURSS-LESSONS-LV2-0009
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[2].span[1]`
 **Field type:** `verbCardGloss`
 **DE (read-only):** —
 **CURRENT_ES:** I stand
 **PROPOSED_ES:** yo estoy de pie
-**Severity:** HIGH
+**Severity:** CRITICAL
 **Category:** FOREIGN_LEFTOVER
-**Problem:** 
-**Reason:** 
+**Problem:** El texto está en inglés, no en español. Debe usarse la traducción española correspondiente a la primera persona singular.
+**Reason:** El texto está en inglés, no en español. Debe usarse la traducción española correspondiente a la primera persona singular.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 341 (ES Kurss Lessons)
 
 **Finding:** 341
-**Audit ID:** ES-KURSS-LESSONS-L0010
+**Audit ID:** ES-KURSS-LESSONS-LV2-0010
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[2].span[9]`
 **Field type:** `verbCardGloss`
@@ -860,41 +860,41 @@ Findings: **50** ieraksti
 **CURRENT_ES:** tú estás de pie
 **PROPOSED_ES:** vosotros estáis de pie
 **Severity:** HIGH
-**Category:** ES_GRAMMAR
-**Problem:** 
-**Reason:** 
+**Category:** SEMANTIC_MISMATCH
+**Problem:** Esta posición corresponde a la segunda persona plural alemana (ihr), pero el texto usa el pronombre singular «tú».
+**Reason:** Esta posición corresponde a la segunda persona plural alemana (ihr), pero el texto usa el pronombre singular «tú».
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 342 (ES Kurss Lessons)
 
 **Finding:** 342
-**Audit ID:** ES-KURSS-LESSONS-L0012
+**Audit ID:** ES-KURSS-LESSONS-LV2-0012
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[3].title`
 **Field type:** `verbCardTitle`
 **DE (read-only):** ♟singen
 **CURRENT_ES:** ♟singen — to canta
 **PROPOSED_ES:** ♟singen — cantar
-**Severity:** HIGH
+**Severity:** CRITICAL
 **Category:** FOREIGN_LEFTOVER
-**Problem:** 
-**Reason:** 
+**Problem:** «to» es inglés y «canta» no es un infinitivo español. La traducción debe ser el infinitivo «cantar».
+**Reason:** «to» es inglés y «canta» no es un infinitivo español. La traducción debe ser el infinitivo «cantar».
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 343 (ES Kurss Lessons)
 
 **Finding:** 343
-**Audit ID:** ES-KURSS-LESSONS-L0013
+**Audit ID:** ES-KURSS-LESSONS-LV2-0013
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[0]:Verbos en presente → verbCard[3].span[9]`
 **Field type:** `verbCardGloss`
@@ -902,20 +902,20 @@ Findings: **50** ieraksti
 **CURRENT_ES:** tú cantas
 **PROPOSED_ES:** vosotros cantáis
 **Severity:** HIGH
-**Category:** ES_GRAMMAR
-**Problem:** 
-**Reason:** 
+**Category:** SEMANTIC_MISMATCH
+**Problem:** La forma corresponde a la segunda persona plural alemana (ihr), no a «tú»; «vosotros cantáis» mantiene la concordancia.
+**Reason:** La forma corresponde a la segunda persona plural alemana (ihr), no a «tú»; «vosotros cantáis» mantiene la concordancia.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 344 (ES Kurss Lessons)
 
 **Finding:** 344
-**Audit ID:** ES-KURSS-LESSONS-L0015
+**Audit ID:** ES-KURSS-LESSONS-LV2-0015
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[1]:Palabras → lesson1-info[0]`
 **Field type:** `info`
@@ -923,22 +923,22 @@ Findings: **50** ieraksti
 **CURRENT_ES:** iEl La pronunciación aproximada de las palabras se da entre paréntesis con letras letonas.
 Esto también debería seguirse en futuras conferencias.
 **PROPOSED_ES:** La pronunciación aproximada de las palabras se indica entre paréntesis con letras letonas.
-Esto también debería hacerse en las lecciones futuras.
-**Severity:** CRITICAL
-**Category:** FOREIGN_LEFTOVER
-**Problem:** 
-**Reason:** 
+Esto también debería seguirse en futuras lecciones.
+**Severity:** HIGH
+**Category:** ES_ORTHOGRAPHY
+**Problem:** Contiene el error tipográfico «iEl La» y «conferencias» no es natural en el contexto de un curso; debe decir «lecciones».
+**Reason:** Contiene el error tipográfico «iEl La» y «conferencias» no es natural en el contexto de un curso; debe decir «lecciones».
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 345 (ES Kurss Lessons)
 
 **Finding:** 345
-**Audit ID:** ES-KURSS-LESSONS-L0019
+**Audit ID:** ES-KURSS-LESSONS-LV2-0019
 **Lesson:** `lesson1`
 **Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[1]:Palabras → kurss-example[5]`
 **Field type:** `example`
@@ -946,117 +946,117 @@ Esto también debería hacerse en las lecciones futuras.
 **CURRENT_ES:** singen (zingen) — canta
 **PROPOSED_ES:** singen (zingen) — cantar
 **Severity:** MEDIUM
-**Category:** ES_GRAMMAR
-**Problem:** 
-**Reason:** 
+**Category:** ES_NATURALNESS
+**Problem:** Las demás entradas presentan los verbos en infinitivo; «canta» es una forma conjugada y rompe la coherencia terminológica.
+**Reason:** Las demás entradas presentan los verbos en infinitivo; «canta» es una forma conjugada y rompe la coherencia terminológica.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 346 (ES Kurss Lessons)
 
 **Finding:** 346
-**Audit ID:** ES-KURSS-LESSONS-L0023
+**Audit ID:** ES-KURSS-LESSONS-LV2-0023
 **Lesson:** `lesson1`
-**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[8]`
+**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[4]`
 **Field type:** `example`
-**DE (read-only):** ihr →
-**CURRENT_ES:** ihr → -En letón:
-**PROPOSED_ES:** ihr → -ihr kommt
-**Severity:** HIGH
-**Category:** SEMANTIC_MISMATCH
-**Problem:** 
-**Reason:** 
+**DE (read-only):** ich →
+**CURRENT_ES:** ich → -ich komme
+**PROPOSED_ES:** ich → ich komme
+**Severity:** MEDIUM
+**Category:** STRUCTURE
+**Problem:** Hay un guion espurio pegado al ejemplo alemán, que altera la presentación de la correspondencia.
+**Reason:** Hay un guion espurio pegado al ejemplo alemán, que altera la presentación de la correspondencia.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 347 (ES Kurss Lessons)
 
 **Finding:** 347
-**Audit ID:** ES-KURSS-LESSONS-L0024
+**Audit ID:** ES-KURSS-LESSONS-LV2-0024
 **Lesson:** `lesson1`
-**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[9]`
+**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[5]`
 **Field type:** `example`
-**DE (read-only):** sie →
-**CURRENT_ES:** sie → -Alemán en:
-**PROPOSED_ES:** sie → -sie kommen
-**Severity:** HIGH
-**Category:** SEMANTIC_MISMATCH
-**Problem:** 
-**Reason:** 
+**DE (read-only):** du →
+**CURRENT_ES:** du → -du kommst
+**PROPOSED_ES:** du → du kommst
+**Severity:** MEDIUM
+**Category:** STRUCTURE
+**Problem:** Hay un guion espurio pegado al ejemplo alemán.
+**Reason:** Hay un guion espurio pegado al ejemplo alemán.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 348 (ES Kurss Lessons)
 
 **Finding:** 348
-**Audit ID:** ES-KURSS-LESSONS-L0026
+**Audit ID:** ES-KURSS-LESSONS-LV2-0025
 **Lesson:** `lesson1`
-**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → grammar-header[1]`
-**Field type:** `grammarHeader`
-**DE (read-only):** —
-**CURRENT_ES:** ♟Presente terminaciones
-**PROPOSED_ES:** ♟Terminaciones del presente
+**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[6]`
+**Field type:** `example`
+**DE (read-only):** er / sie →
+**CURRENT_ES:** er / sie → -er kommt
+**PROPOSED_ES:** er / sie → er kommt
 **Severity:** MEDIUM
-**Category:** ES_NATURALNESS
-**Problem:** 
-**Reason:** 
+**Category:** STRUCTURE
+**Problem:** Hay un guion espurio pegado al ejemplo alemán.
+**Reason:** Hay un guion espurio pegado al ejemplo alemán.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 349 (ES Kurss Lessons)
 
 **Finding:** 349
-**Audit ID:** ES-KURSS-LESSONS-L0027
+**Audit ID:** ES-KURSS-LESSONS-LV2-0026
 **Lesson:** `lesson1`
-**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → grammar-header[3]`
-**Field type:** `grammarHeader`
-**DE (read-only):** —
-**CURRENT_ES:** ?Oraciones de preguntas
-**PROPOSED_ES:** ?Oraciones interrogativas
+**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[7]`
+**Field type:** `example`
+**DE (read-only):** wir →
+**CURRENT_ES:** wir → -wir kommen
+**PROPOSED_ES:** wir → wir kommen
 **Severity:** MEDIUM
-**Category:** ES_TERMINOLOGY
-**Problem:** 
-**Reason:** 
+**Category:** STRUCTURE
+**Problem:** Hay un guion espurio pegado al ejemplo alemán.
+**Reason:** Hay un guion espurio pegado al ejemplo alemán.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---
 
 ## Finding 350 (ES Kurss Lessons)
 
 **Finding:** 350
-**Audit ID:** ES-KURSS-LESSONS-L0028
+**Audit ID:** ES-KURSS-LESSONS-LV2-0027
 **Lesson:** `lesson1`
-**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → grammar-header[4]`
-**Field type:** `grammarHeader`
-**DE (read-only):** —
-**CURRENT_ES:** ♣Diferencia de persona
-**PROPOSED_ES:** ♣Personas gramaticales
-**Severity:** LOW
-**Category:** ES_TERMINOLOGY
-**Problem:** 
-**Reason:** 
+**Path:** `COURSE_LESSON_DATA.kurssLesson1.legacyHtml → accordion[3]:Gramática → kurss-example[8]`
+**Field type:** `example`
+**DE (read-only):** ihr →
+**CURRENT_ES:** ihr → -En letón:
+**PROPOSED_ES:** ihr → ihr kommt
+**Severity:** CRITICAL
+**Category:** FOREIGN_LEFTOVER
+**Problem:** Contiene el texto residual «En letón» y falta el ejemplo alemán correspondiente.
+**Reason:** Contiene el texto residual «En letón» y falta el ejemplo alemán correspondiente.
 **Statuss:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 
-**Avots:** GPT-5.6 Luna + deterministic audit (`reports/es-kurss-lessons-full-audit.md`) · luna
+**Avots:** GPT-5.6 Luna v2 + deterministic audit (`reports/es-kurss-lessons-full-audit-v2.md`) · luna-v2
 
 ---

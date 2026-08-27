@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-066",
+  "cardIds": [
+    "ES-KURSS-LESSON-19-0096",
+    "ES-KURSS-LESSON-19-0097",
+    "ES-KURSS-LESSON-19-0098",
+    "ES-KURSS-LESSON-19-0099",
+    "ES-KURSS-LESSON-19-0100",
+    "ES-KURSS-LESSON-19-0101",
+    "ES-KURSS-LESSON-19-0102",
+    "ES-KURSS-LESSON-19-0103",
+    "ES-KURSS-LESSON-19-0104",
+    "ES-KURSS-LESSON-19-0105",
+    "ES-KURSS-LESSON-19-0106",
+    "ES-KURSS-LESSON-19-0107",
+    "ES-KURSS-LESSON-19-0108",
+    "ES-KURSS-LESSON-19-0109",
+    "ES-KURSS-LESSON-19-0110",
+    "ES-KURSS-LESSON-19-0111",
+    "ES-KURSS-LESSON-19-0112",
+    "ES-KURSS-LESSON-19-0113",
+    "ES-KURSS-LESSON-19-0114",
+    "ES-KURSS-LESSON-19-0115",
+    "ES-KURSS-LESSON-19-0116",
+    "ES-KURSS-LESSON-19-0117",
+    "ES-KURSS-LESSON-19-0118",
+    "ES-KURSS-LESSON-19-0119",
+    "ES-KURSS-LESSON-19-0120",
+    "ES-KURSS-LESSON-19-0121",
+    "ES-KURSS-LESSON-19-0122",
+    "ES-KURSS-LESSON-19-0123",
+    "ES-KURSS-LESSON-19-0124",
+    "ES-KURSS-LESSON-19-0125",
+    "ES-KURSS-LESSON-19-0126",
+    "ES-KURSS-LESSON-19-0127",
+    "ES-KURSS-LESSON-19-0128",
+    "ES-KURSS-LESSON-19-0129",
+    "ES-KURSS-LESSON-19-0130",
+    "ES-KURSS-LESSON-19-0131",
+    "ES-KURSS-LESSON-19-0132",
+    "ES-KURSS-LESSON-19-0133",
+    "ES-KURSS-LESSON-19-0134",
+    "ES-KURSS-LESSON-19-0135"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0096\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0097\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0098\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0099\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0100\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0101\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0102\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0103\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Kopsavilkums: wo?\",\n      \"proposedEs\": \"Resumen: ¿dónde?\",\n      \"reason\": \"«Kopsavilkums» es una palabra letona y constituye un texto extranjero residual en la interfaz española.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0104\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"¿Quién? → Dativo\",\n      \"proposedEs\": \"¿Dónde? → Dativo\",\n      \"reason\": \"La pregunta alemana «wo?» significa «¿dónde?», no «¿quién?».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0105\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0106\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0107\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0108\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0109\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0110\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0111\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0112\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0113\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0114\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0115\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"gehen - ir cuando la acción significa caminar continuamente. treten - entrar, acercarse, pisar, si la caminata termina con una interrupción en la acción.\",\n      \"proposedEs\": \"gehen = ir, cuando la acción indica un desplazamiento continuo. treten = entrar, acercarse o pisar, cuando el desplazamiento termina con una interrupción de la acción.\",\n      \"reason\": \"La redacción es poco natural y presenta una construcción defectuosa («pisar, si...»). También conviene separar claramente las definiciones de ambos verbos.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0116\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0117\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0118\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0119\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0120\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0121\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0122\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0123\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0124\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"PEDAGOGICAL_ISSUE\",\n      \"currentEs\": \"En wachsen, ch se pronuncia como k.\",\n      \"proposedEs\": \"En wachsen, ch se pronuncia como la «j» española.\",\n      \"reason\": \"En «wachsen», la combinación «ch» no se pronuncia como «k»; corresponde al sonido fricativo velar alemán, que puede aproximarse a la «j» española.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0125\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0126\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0127\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0128\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Tiene una card en la mano.\",\n      \"proposedEs\": \"Tiene una tarjeta en la mano.\",\n      \"reason\": \"«card» es un resto de inglés en el texto español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0129\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0130\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Muestra a los niños y niñas muchas ciudades, tierras, montañas, lagos y ríos.\",\n      \"proposedEs\": \"Muestra a los alumnos y alumnas muchos países, ciudades, montañas, lagos y ríos.\",\n      \"reason\": \"«Länder» significa «países», no «tierras», y el orden de la enumeración alemana comienza por países. «Alumnos y alumnas» refleja mejor «Schülern und Schülerinnen» en este contexto escolar.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0131\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Luego el profesor llama al alumno.\",\n      \"proposedEs\": \"Luego el profesor llama a un alumno.\",\n      \"reason\": \"El alemán usa «einen Schüler», indefinido («a un alumno»), mientras que el texto español usa un referente definido.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0132\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Skolnieks pieiet pie kartes.\",\n      \"proposedEs\": \"El alumno se acerca al mapa.\",\n      \"reason\": \"El texto está en letón, no en español. Además, el significado del contexto alemán es que el alumno se acerca al mapa.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0133\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Él permanece de pie frente a la card.\",\n      \"proposedEs\": \"Él se queda de pie frente al mapa.\",\n      \"reason\": \"«card» es un resto de inglés. En este contexto, «Karte» se refiere al mapa, y «se queda de pie» resulta más natural que «permanece de pie».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0134\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"Nombra y muestra al maestro ciudades, montañas y ríos.\",\n      \"proposedEs\": \"Nombra las ciudades, las montañas y los ríos y se los muestra al profesor.\",\n      \"reason\": \"La construcción «muestra al maestro ciudades...» es poco natural y omite los artículos definidos presentes en el contexto alemán. La propuesta hace explícita la referencia de los pronombres.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0135\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Así trabaja un profesor en un aula.\",\n      \"proposedEs\": \"Así trabaja el profesor en el aula.\",\n      \"reason\": \"El alemán usa artículos definidos («der Lehrer», «der Klasse»); «un profesor en un aula» cambia el sentido a una referencia indefinida.\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 4180,
+    "input_tokens_details": {
+      "cache_write_tokens": 4177,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3529,
+    "output_tokens_details": {
+      "reasoning_tokens": 1034
+    },
+    "total_tokens": 7709
+  },
+  "generatedAt": "2026-08-27T07:23:37.845Z"
+}

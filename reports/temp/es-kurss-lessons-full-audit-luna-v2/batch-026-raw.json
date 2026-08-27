@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-026",
+  "cardIds": [
+    "ES-KURSS-LESSON-09-0110",
+    "ES-KURSS-LESSON-09-0111",
+    "ES-KURSS-LESSON-09-0112",
+    "ES-KURSS-LESSON-09-0113",
+    "ES-KURSS-LESSON-09-0114",
+    "ES-KURSS-LESSON-09-0115",
+    "ES-KURSS-LESSON-09-0116",
+    "ES-KURSS-LESSON-09-0117",
+    "ES-KURSS-LESSON-09-0118",
+    "ES-KURSS-LESSON-09-0119",
+    "ES-KURSS-LESSON-09-0120",
+    "ES-KURSS-LESSON-09-0121",
+    "ES-KURSS-LESSON-09-0122",
+    "ES-KURSS-LESSON-09-0123",
+    "ES-KURSS-LESSON-09-0124",
+    "ES-KURSS-LESSON-09-0125",
+    "ES-KURSS-LESSON-09-0126",
+    "ES-KURSS-LESSON-09-0127",
+    "ES-KURSS-LESSON-09-0128",
+    "ES-KURSS-LESSON-09-0129",
+    "ES-KURSS-LESSON-09-0130",
+    "ES-KURSS-LESSON-09-0131",
+    "ES-KURSS-LESSON-09-0132",
+    "ES-KURSS-LESSON-09-0133",
+    "ES-KURSS-LESSON-09-0134",
+    "ES-KURSS-LESSON-09-0135",
+    "ES-KURSS-LESSON-09-0136",
+    "ES-KURSS-LESSON-09-0137",
+    "ES-KURSS-LESSON-09-0138",
+    "ES-KURSS-LESSON-09-0139",
+    "ES-KURSS-LESSON-09-0140",
+    "ES-KURSS-LESSON-09-0141",
+    "ES-KURSS-LESSON-09-0142",
+    "ES-KURSS-LESSON-09-0143",
+    "ES-KURSS-LESSON-09-0144",
+    "ES-KURSS-LESSON-09-0145",
+    "ES-KURSS-LESSON-09-0146",
+    "ES-KURSS-LESSON-09-0147",
+    "ES-KURSS-LESSON-09-0148",
+    "ES-KURSS-LESSON-09-0149"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-09-0110\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0111\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0112\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Listo. El siguiente clic muestra la siguiente card.\",\"proposedEs\":\"Listo. Al hacer clic de nuevo, se muestra la siguiente tarjeta.\",\"reason\":\"«Card» es un resto del inglés; en español debe usarse «tarjeta».\"},{\"cardId\":\"ES-KURSS-LESSON-09-0113\",\"status\":\"PASS\",\"field\":\"exerciseMultiBase\"},{\"cardId\":\"ES-KURSS-LESSON-09-0114\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Cambia esta oración a 3ra persona del singular.\",\"proposedEs\":\"Cambia esta oración a la tercera persona del singular.\",\"reason\":\"La abreviatura «3ra» no es adecuada en este texto didáctico; debe escribirse «tercera».\"},{\"cardId\":\"ES-KURSS-LESSON-09-0115\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0116\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0117\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Listo. El siguiente clic muestra la siguiente card.\",\"proposedEs\":\"Listo. Al hacer clic de nuevo, se muestra la siguiente tarjeta.\",\"reason\":\"«Card» es un resto del inglés; en español debe usarse «tarjeta».\"},{\"cardId\":\"ES-KURSS-LESSON-09-0118\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0119\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0120\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0121\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"qué estás haciendo\",\"proposedEs\":\"¿Qué está haciendo usted?\",\"reason\":\"El alemán usa «Sie», tratamiento formal de segunda persona; «estás» corresponde al tratamiento informal de «tú».\"},{\"cardId\":\"ES-KURSS-LESSON-09-0122\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0123\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0124\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"¡Señor Maestro, siéntese y lea!\",\"proposedEs\":\"¡Señor profesor, siéntese y lea!\",\"reason\":\"«Señor Maestro» resulta poco natural como tratamiento en español; «señor profesor» es la formulación habitual.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0125\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0126\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0127\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0128\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Qué es este plato?\",\"proposedEs\":\"¿Cómo es este plato?\",\"reason\":\"«Wie ist» pregunta cómo es algo, no qué es; además, «Teller» significa «plato» en el sentido de vajilla, no una identificación del objeto.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0129\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0130\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Las letras son largas o cortas?\",\"proposedEs\":\"¿Las cartas son largas o cortas?\",\"reason\":\"«Briefe» significa «cartas» en este contexto; «letras» sería «Buchstaben» en alemán.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0131\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¡Anna, afila ese lápiz!\",\"proposedEs\":\"¡Anna, afila este lápiz!\",\"reason\":\"El demostrativo alemán «diesen» corresponde a «este», no a «ese».\"},{\"cardId\":\"ES-KURSS-LESSON-09-0132\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"¡Maestro, por favor afile este lápiz!\",\"proposedEs\":\"¡Profesor, por favor, afile este lápiz!\",\"reason\":\"«Maestro» como vocativo resulta menos natural en este contexto que «profesor»; también se recomienda la coma tras «por favor».\"},{\"cardId\":\"ES-KURSS-LESSON-09-0133\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"TRANSLATION\",\"currentEs\":\"¡Deja ese lápiz!\",\"proposedEs\":\"¡Pon ese lápiz ahí!\",\"reason\":\"«Leg ... hin» indica colocar o poner el lápiz, mientras que «deja ese lápiz» suele significar no tocarlo o abandonarlo.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0134\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"¡Aiztaisi logu!\",\"proposedEs\":\"¡Cierra la ventana!\",\"reason\":\"El texto está en letón, no en español, y no traduce el contenido alemán para el usuario.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0135\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ko meitene beidzot dara?\",\"proposedEs\":\"¿Qué hace finalmente la niña?\",\"reason\":\"El texto está en letón, no en español, y no traduce el contenido alemán para el usuario.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0136\",\"status\":\"PASS\",\"field\":\"translateCard\"},{\"cardId\":\"ES-KURSS-LESSON-09-0137\",\"status\":\"PASS\",\"field\":\"uiSectionTitle\"},{\"cardId\":\"ES-KURSS-LESSON-09-0138\",\"status\":\"PASS\",\"field\":\"uiSectionTitle\"},{\"cardId\":\"ES-KURSS-LESSON-09-0139\",\"status\":\"PASS\",\"field\":\"uiSectionTitle\"},{\"cardId\":\"ES-KURSS-LESSON-09-0140\",\"status\":\"PASS\",\"field\":\"uiSectionTitle\"},{\"cardId\":\"ES-KURSS-LESSON-09-0141\",\"status\":\"PASS\",\"field\":\"uiHint\"},{\"cardId\":\"ES-KURSS-LESSON-09-0142\",\"status\":\"PASS\",\"field\":\"uiSectionTitle\"},{\"cardId\":\"ES-KURSS-LESSON-09-0143\",\"status\":\"PASS\",\"field\":\"uiHint\"},{\"cardId\":\"ES-KURSS-LESSON-09-0144\",\"status\":\"PASS\",\"field\":\"uiHint\"},{\"cardId\":\"ES-KURSS-LESSON-09-0145\",\"status\":\"PASS\",\"field\":\"uiExerciseMeta\"},{\"cardId\":\"ES-KURSS-LESSON-09-0146\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"¡Pon la conjugación correcta y hazlo en plural!\",\"proposedEs\":\"¡Usa la conjugación correcta y pon la frase en plural!\",\"reason\":\"«Pon la conjugación» y «hazlo» resultan poco naturales y ambiguos en una instrucción didáctica.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0147\",\"status\":\"PASS\",\"field\":\"uiExerciseMeta\"},{\"cardId\":\"ES-KURSS-LESSON-09-0148\",\"status\":\"PASS\",\"field\":\"uiExerciseMeta\"},{\"cardId\":\"ES-KURSS-LESSON-09-0149\",\"status\":\"PASS\",\"field\":\"uiExerciseMeta\"}]}",
+  "usage": {
+    "input_tokens": 3717,
+    "input_tokens_details": {
+      "cache_write_tokens": 3714,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3436,
+    "output_tokens_details": {
+      "reasoning_tokens": 1552
+    },
+    "total_tokens": 7153
+  },
+  "generatedAt": "2026-08-27T07:02:29.918Z"
+}

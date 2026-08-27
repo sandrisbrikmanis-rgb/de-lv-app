@@ -1,9 +1,9 @@
 # ES–DE Kurss Lessons — OWNER review
 
-**Auditors:** GPT-5.6 Luna + deterministic (READ-ONLY)
+**Auditors:** GPT-5.6 Luna v2 + deterministic (READ-ONLY)
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 
-Avots: [es-kurss-lessons-full-audit.md](./es-kurss-lessons-full-audit.md) · [GitHub indekss](./es-kurss-lessons-owner-review-GITHUB.md)
+Avots: [es-kurss-lessons-full-audit-v2.md](./es-kurss-lessons-full-audit-v2.md) · [GitHub indekss](./es-kurss-lessons-owner-review-GITHUB.md)
 
 ## Kopsavilkums
 
@@ -11,11 +11,11 @@ Avots: [es-kurss-lessons-full-audit.md](./es-kurss-lessons-full-audit.md) · [Gi
 |---------|----------|
 | ES lauki audited | **2951** |
 | Lekcijas | **21/21** |
-| Kopā findings | **919** |
-| CRITICAL | **42** |
-| HIGH | **498** |
-| MEDIUM | **360** |
-| LOW | **19** |
+| Kopā findings | **993** |
+| CRITICAL | **22** |
+| HIGH | **562** |
+| MEDIUM | **380** |
+| LOW | **29** |
 
 ## Faili
 

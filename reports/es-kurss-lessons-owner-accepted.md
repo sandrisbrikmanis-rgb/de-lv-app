@@ -1,8 +1,8 @@
 # ES–DE Kurss Lessons — OWNER accepted (recommended LABOT track)
 
-**Auditors:** GPT-5.6 Luna + deterministic (READ-ONLY)
+**Auditors:** GPT-5.6 Luna v2 + deterministic (READ-ONLY)
 Avots: `reports/es-kurss-lessons-owner-review.md`
-Findings: **919** ieraksti
+Findings: **993** ieraksti
 
 **DE = STRICT READ-ONLY.**
 Šis fails ir **ieteicamais LABOT ceļš**, ja OWNER piekrīt auditora PROPOSED_ES.
@@ -343,597 +343,671 @@ Findings: **919** ieraksti
 | 332 | ES-KURSS-LESSONS-DET-0329 | `lesson21` | `kurss.exerciseMeta.formDu` |  | Forma 1/3: du (singular) | (OWNER_DECISION_REQUIRED: choose single main trans… | MEDIUM | LABOT | |
 | 333 | ES-KURSS-LESSONS-DET-0330 | `lesson21` | `kurss.exerciseMeta.formIhr` |  | Formulario 2/3: Tú (plural) | (OWNER_DECISION_REQUIRED: choose single main trans… | MEDIUM | LABOT | |
 | 334 | ES-KURSS-LESSONS-DET-0331 | `lesson21` | `kurss.exerciseMeta.formSie` |  | Forma 3/3: Sie (tratamiento formal) | (OWNER_DECISION_REQUIRED: choose single main trans… | MEDIUM | LABOT | |
-| 335 | ES-KURSS-LESSONS-L0001 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | nosotros ven | nosotros venimos | HIGH | LABOT | |
-| 336 | ES-KURSS-LESSONS-L0002 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú vienes | vosotros venís | HIGH | LABOT | |
-| 337 | ES-KURSS-LESSONS-L0005 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | he / ella va | él / ella va | HIGH | LABOT | |
-| 338 | ES-KURSS-LESSONS-L0006 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú ejat | vosotros vais | CRITICAL | LABOT | |
-| 339 | ES-KURSS-LESSONS-L0008 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ♟stehen | ♟stehen — pararse | ♟stehen — estar de pie | MEDIUM | LABOT | |
-| 340 | ES-KURSS-LESSONS-L0009 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | I stand | yo estoy de pie | HIGH | LABOT | |
-| 341 | ES-KURSS-LESSONS-L0010 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú estás de pie | vosotros estáis de pie | HIGH | LABOT | |
-| 342 | ES-KURSS-LESSONS-L0012 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ♟singen | ♟singen — to canta | ♟singen — cantar | HIGH | LABOT | |
-| 343 | ES-KURSS-LESSONS-L0013 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú cantas | vosotros cantáis | HIGH | LABOT | |
-| 344 | ES-KURSS-LESSONS-L0015 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | iEl La pronunciación aproximada de las palabras se… | La pronunciación aproximada de las palabras se ind… | CRITICAL | LABOT | |
-| 345 | ES-KURSS-LESSONS-L0019 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | singen (zingen) | singen (zingen) — canta | singen (zingen) — cantar | MEDIUM | LABOT | |
-| 346 | ES-KURSS-LESSONS-L0023 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ihr → | ihr → -En letón: | ihr → -ihr kommt | HIGH | LABOT | |
-| 347 | ES-KURSS-LESSONS-L0024 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | sie → | sie → -Alemán en: | sie → -sie kommen | HIGH | LABOT | |
-| 348 | ES-KURSS-LESSONS-L0026 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ♟Presente terminaciones | ♟Terminaciones del presente | MEDIUM | LABOT | |
-| 349 | ES-KURSS-LESSONS-L0027 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ?Oraciones de preguntas | ?Oraciones interrogativas | MEDIUM | LABOT | |
-| 350 | ES-KURSS-LESSONS-L0028 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ♣Diferencia de persona | ♣Personas gramaticales | LOW | LABOT | |
-| 351 | ES-KURSS-LESSONS-L0029 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | Eliminar -en de las formas base del verbo y agrega… | Elimina -en de la forma base del verbo y agrega la… | HIGH | LABOT | |
-| 352 | ES-KURSS-LESSONS-L0030 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | Eliminar -en de las formas base del verbo y agrega… | Elimina -en de la forma base del verbo y agrega la… | MEDIUM | LABOT | |
-| 353 | ES-KURSS-LESSONS-L0031 | `lesson1` | `lesson1TrainingCardsEs[0].front` | Kommst du? | ¿vienes? | ¿Vienes? | LOW | LABOT | |
-| 354 | ES-KURSS-LESSONS-L0032 | `lesson1` | `lesson1TrainingCardsEs[1].front` | Ja, ich komme. | Sí, ya voy. | Sí, voy. | MEDIUM | LABOT | |
-| 355 | ES-KURSS-LESSONS-L0033 | `lesson1` | `lesson1TrainingCardsEs[9].front` | Geht ihr? | Vas a ir | ¿Os vais? | HIGH | LABOT | |
-| 356 | ES-KURSS-LESSONS-L0035 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | nein | nein — trabajar | nein — no | HIGH | LABOT | |
-| 357 | ES-KURSS-LESSONS-L0036 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | nicht | nicht — preguntar | nicht — no | HIGH | LABOT | |
-| 358 | ES-KURSS-LESSONS-L0037 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | arbeiten | arbeiten — was tut er? ¿Qué está haciendo? | arbeiten — trabajar | HIGH | LABOT | |
-| 359 | ES-KURSS-LESSONS-L0038 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | fragen | fragen — ¿qué hacen ellos? | fragen — preguntar | HIGH | LABOT | |
-| 360 | ES-KURSS-LESSONS-L0039 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | was tut er? | was tut er? — responder | was tut er? — ¿qué hace él? | HIGH | LABOT | |
-| 361 | ES-KURSS-LESSONS-L0040 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | was tun sie? | was tun sie? — calcular | was tun sie? — ¿qué hacen ellos? | HIGH | LABOT | |
-| 362 | ES-KURSS-LESSONS-L0041 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | aber | aber — dibujar | aber — pero | HIGH | LABOT | |
-| 363 | ES-KURSS-LESSONS-L0042 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | antworten | antworten — Marie | antworten — responder | HIGH | LABOT | |
-| 364 | ES-KURSS-LESSONS-L0046 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | ¿Fue tust du? | ¿Fue tust du? - ¿Qué estás haciendo? | Was tust du? — ¿Qué estás haciendo? | HIGH | LABOT | |
-| 365 | ES-KURSS-LESSONS-L0047 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | En oraciones interrogativas que comienzan con la p… | En las oraciones interrogativas que comienzan con … | HIGH | LABOT | |
-| 366 | ES-KURSS-LESSONS-L0048 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | Si la negación nicht se refiere a un verbo, entonc… | Si la negación «nicht» se refiere a un verbo, «nic… | MEDIUM | LABOT | |
-| 367 | ES-KURSS-LESSONS-L0049 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | 1Terminaciones con e | 1. Terminaciones con e | MEDIUM | LABOT | |
-| 368 | ES-KURSS-LESSONS-L0050 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | 2Palabra en cuestión | 2. Palabras interrogativas | MEDIUM | LABOT | |
-| 369 | ES-KURSS-LESSONS-L0051 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | 3Negación con nicht | 3. Negación con «nicht» | MEDIUM | LABOT | |
-| 370 | ES-KURSS-LESSONS-L0052 | `lesson2` | `lesson2TrainingCardsEs[1].front` | Paul fragt. | pregunta Pablo. | Pregunta Pablo. | LOW | LABOT | |
-| 371 | ES-KURSS-LESSONS-L0053 | `lesson2` | `lesson2TrainingCardsEs[6].front` | Nein, sie singen nicht, sie rechnen. | No, no cantan, cuentan. | No, no cantan, calculan. | HIGH | LABOT | |
-| 372 | ES-KURSS-LESSONS-L0054 | `lesson2` | `lesson2TrainingCardsEs[7].front` | Was tust du? | qué estás haciendo | ¿Qué estás haciendo? | LOW | LABOT | |
-| 373 | ES-KURSS-LESSONS-L0055 | `lesson2` | `lesson2TrainingCardsEs[8].front` | Ich stehe und singe. | Me paro y canto. | Estoy de pie y canto. | MEDIUM | LABOT | |
-| 374 | ES-KURSS-LESSONS-L0056 | `lesson2` | `lesson2TrainingCardsEs[9].front` | Zeichnet ihr? | ¿Dibujas? | ¿Dibujáis? | MEDIUM | LABOT | |
-| 375 | ES-KURSS-LESSONS-L0057 | `lesson2` | `lesson2TrainingCardsEs[10].front` | Ja, wir zeichnen, aber Marie spielt. | Sí, empatamos, pero María juega. | Sí, dibujamos, pero María juega. | HIGH | LABOT | |
-| 376 | ES-KURSS-LESSONS-L0058 | `lesson2` | `lesson2TrainingCardsEs[11].front` | Was tut ihr? | qué estás haciendo | ¿Qué estáis haciendo? | LOW | LABOT | |
-| 377 | ES-KURSS-LESSONS-L0060 | `lesson2` | `lesson2TrainingCardsEs[13].front` | Wer geht? | ¿Qué está sucediendo? | ¿Quién se va? | HIGH | LABOT | |
-| 378 | ES-KURSS-LESSONS-L0061 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | wer | wer — aquí | wer — quién | HIGH | LABOT | |
-| 379 | ES-KURSS-LESSONS-L0062 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | was | was — allí | was — qué | HIGH | LABOT | |
-| 380 | ES-KURSS-LESSONS-L0063 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | hier | hier — der Tisch table | hier — aquí | HIGH | LABOT | |
-| 381 | ES-KURSS-LESSONS-L0064 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | dort | dort — mesa | dort — allí | HIGH | LABOT | |
-| 382 | ES-KURSS-LESSONS-L0065 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | der Tisch | der Tisch — banco | der Tisch — la mesa | HIGH | LABOT | |
-| 383 | ES-KURSS-LESSONS-L0066 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Tisch | ein Tisch — banco | ein Tisch — una mesa | HIGH | LABOT | |
-| 384 | ES-KURSS-LESSONS-L0067 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | die Bank | die Bank — tumbado | die Bank — el banco | HIGH | LABOT | |
-| 385 | ES-KURSS-LESSONS-L0069 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | liegen | liegen — un libro | liegen — estar tumbado | HIGH | LABOT | |
-| 386 | ES-KURSS-LESSONS-L0070 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | liegt hier ein Buch? | liegt hier ein Buch? — un libro | liegt hier ein Buch? — ¿Hay un libro aquí? | HIGH | LABOT | |
-| 387 | ES-KURSS-LESSONS-L0071 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | das Buch | das Buch — hang | das Buch — el libro | HIGH | LABOT | |
-| 388 | ES-KURSS-LESSONS-L0072 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Buch | ein Buch — imagen | ein Buch — un libro | HIGH | LABOT | |
-| 389 | ES-KURSS-LESSONS-L0073 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | hängen | hängen — imagen | hängen — estar colgado | HIGH | LABOT | |
-| 390 | ES-KURSS-LESSONS-L0074 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | das Bild | das Bild — pizarra | das Bild — la imagen | HIGH | LABOT | |
-| 391 | ES-KURSS-LESSONS-L0075 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Bild | ein Bild — pizarra | ein Bild — una imagen | HIGH | LABOT | |
-| 392 | ES-KURSS-LESSONS-L0076 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | die Tafel | die Tafel — alguien, qué | die Tafel — la pizarra | HIGH | LABOT | |
-| 393 | ES-KURSS-LESSONS-L0077 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | eine Tafel | eine Tafel — es | eine Tafel — una pizarra | HIGH | LABOT | |
-| 394 | ES-KURSS-LESSONS-L0078 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | wie | wie — grueso, gordo | wie — cómo | HIGH | LABOT | |
-| 395 | ES-KURSS-LESSONS-L0079 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ist | ist — cuaderno | ist — es, está | HIGH | LABOT | |
-| 396 | ES-KURSS-LESSONS-L0080 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | dick | dick — cuaderno | dick — grueso, gordo | HIGH | LABOT | |
-| 397 | ES-KURSS-LESSONS-L0081 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | das Heft | das Heft — delgado, delgado | das Heft — el cuaderno | HIGH | LABOT | |
-| 398 | ES-KURSS-LESSONS-L0082 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Heft | ein Heft — bajo | ein Heft — un cuaderno | HIGH | LABOT | |
-| 399 | ES-KURSS-LESSONS-L0083 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | dünn | dünn — alto | dünn — delgado | HIGH | LABOT | |
-| 400 | ES-KURSS-LESSONS-L0084 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | wer | wer - qué | wer — quién | HIGH | LABOT | |
-| 401 | ES-KURSS-LESSONS-L0085 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | hoch | hoch — ck es doble k: dick (dikk). | hoch — [explicación de pronunciación correspondien… | HIGH | LABOT | |
-| 402 | ES-KURSS-LESSONS-L0089 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | Ja galotne | Ja galotne -¿Ar qué? pregunta por temas. | ¿Con «was» se pregunta por cosas? | CRITICAL | LABOT | |
-| 403 | ES-KURSS-LESSONS-L0101 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | En el idioma alemán, el sustantivo tiene 3 casos: … | En alemán, los sustantivos tienen tres géneros: ma… | HIGH | LABOT | |
-| 404 | ES-KURSS-LESSONS-L0103 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | En una oración narrativa, el verbo ocupa el segund… | En una oración declarativa, el verbo ocupa el segu… | MEDIUM | LABOT | |
-| 405 | ES-KURSS-LESSONS-L0104 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | 1Sujeto de la oración | 1. Sujeto de la oración | MEDIUM | LABOT | |
-| 406 | ES-KURSS-LESSONS-L0105 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | 2Artículos | 2. Artículos | MEDIUM | LABOT | |
-| 407 | ES-KURSS-LESSONS-L0106 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | 3Sustantivos propios | 3. Sustantivos propios | MEDIUM | LABOT | |
-| 408 | ES-KURSS-LESSONS-L0107 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | 4Lugar del verbo | 4. Lugar del verbo | MEDIUM | LABOT | |
-| 409 | ES-KURSS-LESSONS-L0109 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | Noteiktais artikuls | Noteiktais artikuls | Artículo definido | HIGH | LABOT | |
-| 410 | ES-KURSS-LESSONS-L0110 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | Nenoteiktais artikuls | Nenoteiktais artikuls | Artículo indefinido | HIGH | LABOT | |
-| 411 | ES-KURSS-LESSONS-L0111 | `lesson3` | `lesson3TrainingCardsEs[0].front` | Rechnest du? | ¿cuentas? | ¿Calculas? | MEDIUM | LABOT | |
-| 412 | ES-KURSS-LESSONS-L0112 | `lesson3` | `lesson3TrainingCardsEs[2].front` | Was steht dort? | ¿Quién está parado ahí? | ¿Qué hay ahí? | HIGH | LABOT | |
-| 413 | ES-KURSS-LESSONS-L0113 | `lesson3` | `lesson3TrainingCardsEs[3].front` | Dort steht ein Tisch. | Hay una mesa. | Ahí hay una mesa. | MEDIUM | LABOT | |
-| 414 | ES-KURSS-LESSONS-L0114 | `lesson3` | `lesson3TrainingCardsEs[4].front` | Was liegt hier? | ¿Quién está aquí? | ¿Qué hay aquí? | HIGH | LABOT | |
-| 415 | ES-KURSS-LESSONS-L0115 | `lesson3` | `lesson3TrainingCardsEs[8].front` | Was ist dünn? | ¿Cuál es el plan? | ¿Qué es delgado? | CRITICAL | LABOT | |
-| 416 | ES-KURSS-LESSONS-L0116 | `lesson3` | `lesson3TrainingCardsEs[9].front` | Das Heft ist dünn. | El buzón es delgado. | El cuaderno es delgado. | CRITICAL | LABOT | |
-| 417 | ES-KURSS-LESSONS-L0117 | `lesson3` | `lesson3TrainingCardsEs[14].front` | Liegt dort ein Heft? | ¿Hay/hay un cuaderno? | ¿Hay un cuaderno ahí? | HIGH | LABOT | |
-| 418 | ES-KURSS-LESSONS-L0119 | `lesson3` | `lesson3TrainingCardsEs[15].front` | Ja, dort liegt ein Heft. | Sí, hay un cuaderno. | Sí, allí hay un cuaderno. | MEDIUM | LABOT | |
-| 419 | ES-KURSS-LESSONS-L0120 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Ist die Feder stumpf? Nein, die Feder ist nicht st… | Ist die Feder stumpf? Nein, die Feder ist nicht st… | ¿Está roma la pluma? No, la pluma no está roma; es… | HIGH | LABOT | |
-| 420 | ES-KURSS-LESSONS-L0121 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Was legt das Mädchen hin? Es legt die Feder hin. | Was legt das Mädchen hin? Es legt die Feder hin. | ¿Qué coloca la niña? Coloca la pluma. | HIGH | LABOT | |
-| 421 | ES-KURSS-LESSONS-L0122 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Was nimmst du? Ich nehme ein Messer. | Was nimmst du? Ich nehme ein Messer. | ¿Qué tomas? Tomo un cuchillo. | HIGH | LABOT | |
-| 422 | ES-KURSS-LESSONS-L0123 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Wie ist das Messer? Das Messer ist scharf. | Wie ist das Messer? Das Messer ist scharf. | ¿Cómo es el cuchillo? El cuchillo está afilado. | HIGH | LABOT | |
-| 423 | ES-KURSS-LESSONS-L0124 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Ist das Messer stumpf? Nein, es ist nicht stumpf, … | Ist das Messer stumpf? Nein, es ist nicht stumpf, … | ¿Está romo el cuchillo? No, no está romo; está afi… | HIGH | LABOT | |
-| 424 | ES-KURSS-LESSONS-L0125 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Was legst du hin? Ich lege das Messer, die Feder u… | Was legst du hin? Ich lege das Messer, die Feder u… | ¿Qué colocas? Coloco el cuchillo, la pluma y el po… | HIGH | LABOT | |
-| 425 | ES-KURSS-LESSONS-L0126 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Dann gehe ich hinaus und arbeite. | Dann gehe ich hinaus und arbeite. | Después salgo y trabajo. | HIGH | LABOT | |
-| 426 | ES-KURSS-LESSONS-L0128 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | er nimmt (nimt) | er nimmt (nimt) — emplumado | er nimmt (nimt) — toma | HIGH | LABOT | |
-| 427 | ES-KURSS-LESSONS-L0130 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | einen Federhalter | einen Federhalter — negro | einen Federhalter — un portaplumas | HIGH | LABOT | |
-| 428 | ES-KURSS-LESSONS-L0131 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | zeigen | zeigen — blanco | zeigen — mostrar | HIGH | LABOT | |
-| 429 | ES-KURSS-LESSONS-L0132 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | schwarz (švarc) | schwarz (švarc) — pluma | schwarz (švarc) — negro | HIGH | LABOT | |
-| 430 | ES-KURSS-LESSONS-L0133 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | weiß (veis) | weiß (veis) — pluma | weiß (veis) — blanco | HIGH | LABOT | |
-| 431 | ES-KURSS-LESSONS-L0135 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | eine Feder | eine Feder — dejar | eine Feder — una pluma | HIGH | LABOT | |
-| 432 | ES-KURSS-LESSONS-L0136 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | spitz (špic) | spitz (špic) — dejar | spitz (špic) — puntiagudo | HIGH | LABOT | |
-| 433 | ES-KURSS-LESSONS-L0137 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | hinlegen | hinlegen — niña | hinlegen — colocar | HIGH | LABOT | |
-| 434 | ES-KURSS-LESSONS-L0138 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | legt hin | legt hin — cuchillo | legt hin — coloca | HIGH | LABOT | |
-| 435 | ES-KURSS-LESSONS-L0140 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | das Messer | das Messer — agudo | das Messer — el cuchillo | HIGH | LABOT | |
-| 436 | ES-KURSS-LESSONS-L0141 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | ein Messer | ein Messer — contundente | ein Messer — un cuchillo | HIGH | LABOT | |
-| 437 | ES-KURSS-LESSONS-L0142 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | scharf | scharf — luego | scharf — afilado | HIGH | LABOT | |
-| 438 | ES-KURSS-LESSONS-L0143 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | stumpf (štumpf) | stumpf (štumpf) — afuera | stumpf (štumpf) — romo | HIGH | LABOT | |
-| 439 | ES-KURSS-LESSONS-L0144 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | dann | dann — sal, ve out | dann — después | CRITICAL | LABOT | |
-| 440 | ES-KURSS-LESSONS-L0145 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | hinaus | hinaus — en, -er, -el no están acentuadas, por lo … | hinaus — Las terminaciones -en, -er y -el no lleva… | MEDIUM | LABOT | |
-| 441 | ES-KURSS-LESSONS-L0146 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | hinausgehen | hinausgehen — h en alemán puede ser tanto un sonid… | hinausgehen — En alemán, la h puede representar un… | HIGH | LABOT | |
-| 442 | ES-KURSS-LESSONS-L0151 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Nominativ: der Federhalter, die Feder, das Messer. | Nominativ: der Federhalter, die Feder, das Messer. | Nominativo: der Federhalter, die Feder, das Messer… | MEDIUM | LABOT | |
-| 443 | ES-KURSS-LESSONS-L0152 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Akkusativ: den Federhalter, die Feder, das Messer. | Akkusativ: den Federhalter, die Feder, das Messer. | Acusativo: den Federhalter, die Feder, das Messer. | MEDIUM | LABOT | |
-| 444 | ES-KURSS-LESSONS-L0153 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Nominativ: ein Federhalter, eine Feder, ein Messer… | Nominativ: ein Federhalter, eine Feder, ein Messer… | Nominativo: ein Federhalter, eine Feder, ein Messe… | MEDIUM | LABOT | |
-| 445 | ES-KURSS-LESSONS-L0154 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Akkusativ: einen Federhalter, eine Feder, ein Mess… | Akkusativ: einen Federhalter, eine Feder, ein Mess… | Acusativo: einen Federhalter, eine Feder, ein Mess… | MEDIUM | LABOT | |
-| 446 | ES-KURSS-LESSONS-L0156 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | En femenino y neutro, el acusativo es igual al nom… | En femenino y neutro, el acusativo es igual al nom… | HIGH | LABOT | |
-| 447 | ES-KURSS-LESSONS-L0157 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | Si un adjetivo es un adjetivo en una oración, no c… | Si un adjetivo funciona como atributo predicativo … | HIGH | LABOT | |
-| 448 | ES-KURSS-LESSONS-L0158 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | Si nicht niega un adjetivo, se coloca delante de l… | Si nicht niega un adjetivo, se coloca delante del … | HIGH | LABOT | |
-| 449 | ES-KURSS-LESSONS-L0159 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 1Acusativo | 1. Acusativo | LOW | LABOT | |
-| 450 | ES-KURSS-LESSONS-L0160 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 2nehmen | 2. nehmen | LOW | LABOT | |
-| 451 | ES-KURSS-LESSONS-L0161 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 3Pronombres | 3. Pronombres | LOW | LABOT | |
-| 452 | ES-KURSS-LESSONS-L0162 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 4Verbos separables | 4. Verbos separables | LOW | LABOT | |
-| 453 | ES-KURSS-LESSONS-L0163 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 5Adjetivos | 5. Adjetivos | LOW | LABOT | |
-| 454 | ES-KURSS-LESSONS-L0164 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 6Negación con nicht | 6. Negación con nicht | LOW | LABOT | |
-| 455 | ES-KURSS-LESSONS-L0165 | `lesson4` | `lesson4TrainingCardsEs[0].front` | Das Mädchen nimmt einen Federhalter. | La niña toma un eje de plumas. | La niña toma un portaplumas. | HIGH | LABOT | |
-| 456 | ES-KURSS-LESSONS-L0166 | `lesson4` | `lesson4TrainingCardsEs[1].front` | Der Federhalter ist nicht weiß, er ist schwarz. | La pluma no es blanca, es negra. | El portaplumas no es blanco, es negro. | HIGH | LABOT | |
-| 457 | ES-KURSS-LESSONS-L0167 | `lesson4` | `lesson4TrainingCardsEs[3].front` | Wie ist die Feder? | ¿Qué es una pluma? | ¿Cómo es la pluma? | HIGH | LABOT | |
-| 458 | ES-KURSS-LESSONS-L0168 | `lesson4` | `lesson4TrainingCardsEs[5].front` | Nimmt er ein Messer? | ¿Lleva un cuchillo? | ¿Toma un cuchillo? | MEDIUM | LABOT | |
-| 459 | ES-KURSS-LESSONS-L0169 | `lesson4` | `lesson4TrainingCardsEs[9].front` | Nein, es ist scharf. | No, es agudo. | No, está afilado. | MEDIUM | LABOT | |
-| 460 | ES-KURSS-LESSONS-L0170 | `lesson4` | `lesson4TrainingCardsEs[14].front` | Wie ist das Buch? | cual es el libro | ¿Cómo es el libro? | HIGH | LABOT | |
-| 461 | ES-KURSS-LESSONS-L0172 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` | loben | loben — elogio | loben — elogiar | MEDIUM | LABOT | |
-| 462 | ES-KURSS-LESSONS-L0173 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` | tadeln | tadeln — pelt | tadeln — reprender | HIGH | LABOT | |
-| 463 | ES-KURSS-LESSONS-L0174 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` | oder (ōder) | oder (ōder) — or | oder (ōder) — o | HIGH | LABOT | |
-| 464 | ES-KURSS-LESSONS-L0181 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | En español, el nominativo responde a la pregunta ¿… | En español, el nominativo responde a la pregunta «… | MEDIUM | LABOT | |
-| 465 | ES-KURSS-LESSONS-L0182 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | finalización -in | Terminación -in | MEDIUM | LABOT | |
-| 466 | ES-KURSS-LESSONS-L0183 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | Lugar del verbo | Posición del verbo | LOW | LABOT | |
-| 467 | ES-KURSS-LESSONS-L0184 | `lesson5` | `lesson5TrainingCardsEs[0].front` | Wen liebt der Vater? | ¿Qué ama el padre? | ¿A quién ama el padre? | HIGH | LABOT | |
-| 468 | ES-KURSS-LESSONS-L0185 | `lesson5` | `lesson5TrainingCardsEs[1].front` | Wen lobt die Lehrerin? | ¿Qué elogia el maestro? | ¿A quién elogia la maestra? | HIGH | LABOT | |
-| 469 | ES-KURSS-LESSONS-L0186 | `lesson5` | `lesson5TrainingCardsEs[2].front` | Was nimmst du? | que tomas | ¿Qué tomas? | MEDIUM | LABOT | |
-| 470 | ES-KURSS-LESSONS-L0187 | `lesson5` | `lesson5TrainingCardsEs[4].front` | Wen tadelt der Lehrer? | ¿Qué gana un maestro? | ¿A quién reprende el maestro? | CRITICAL | LABOT | |
-| 471 | ES-KURSS-LESSONS-L0188 | `lesson5` | `lesson5TrainingCardsEs[8].front` | Antwortet die Schülerin schlecht? | ¿El estudiante responde mal? | ¿La estudiante responde mal? | MEDIUM | LABOT | |
-| 472 | ES-KURSS-LESSONS-L0189 | `lesson5` | `lesson5TrainingCardsEs[10].front` | Das Mädchen nimmt den Federhalter, die Feder und d… | La niña toma una pluma, una pluma y un cuchillo. | La niña toma un portaplumas, una pluma y un cuchil… | HIGH | LABOT | |
-| 473 | ES-KURSS-LESSONS-L0190 | `lesson5` | `lesson5TrainingCardsEs[14].front` | Das Kind ist artig. | El niño es hablador. | El niño es bien educado. | HIGH | LABOT | |
-| 474 | ES-KURSS-LESSONS-L0191 | `lesson6` | `kurss.lessonItems.6.menuDesc (lesson hea…` |  | Números, plurales, diéresis y formas plurales de s… | Números, plurales, diéresis y formación del plural… | LOW | LABOT | |
-| 475 | ES-KURSS-LESSONS-L0192 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | liegt | liegt — es, es, mentiras | está tumbado | HIGH | LABOT | |
-| 476 | ES-KURSS-LESSONS-L0193 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | einige (einige) | einige (einige) — some | algunos/algunas | MEDIUM | LABOT | |
-| 477 | ES-KURSS-LESSONS-L0194 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | legt hin | legt hin — dejar | pone (algo) abajo | MEDIUM | LABOT | |
-| 478 | ES-KURSS-LESSONS-L0195 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | aufmachen | aufmachen — desatar | abrir | MEDIUM | LABOT | |
-| 479 | ES-KURSS-LESSONS-L0196 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | er macht auf | er macht auf — desata | abre | MEDIUM | LABOT | |
-| 480 | ES-KURSS-LESSONS-L0197 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | anspitzen (anšpicen) | anspitzen (anšpicen) — escupir | sacar punta | HIGH | LABOT | |
-| 481 | ES-KURSS-LESSONS-L0198 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | er spitzt an | er spitzt an — escupe | saca punta | HIGH | LABOT | |
-| 482 | ES-KURSS-LESSONS-L0199 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | die Hämmer | die Hämmer — mazo | mazos | MEDIUM | LABOT | |
-| 483 | ES-KURSS-LESSONS-L0200 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | der Schlitten | der Schlitten — trineo, trineo | trineo | LOW | LABOT | |
-| 484 | ES-KURSS-LESSONS-L0201 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | wie sind die Dinge? | wie sind die Dinge? — ¿Cuáles son las cosas? | ¿Cómo son las cosas? | MEDIUM | LABOT | |
-| 485 | ES-KURSS-LESSONS-L0202 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | voll (fōl) | voll (fōl) — full | lleno | MEDIUM | LABOT | |
-| 486 | ES-KURSS-LESSONS-L0203 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | wieviel Nadeln | wieviel Nadeln — cuántos agujas | wieviel Nadeln — cuántas agujas | MEDIUM | LABOT | |
-| 487 | ES-KURSS-LESSONS-L0207 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | A doubled eu se pronuncia como oi: neun (noin). | A doubled eu se pronuncia como oi: neun (noin). | El diptongo eu se pronuncia como oi: neun (noin). | HIGH | LABOT | |
-| 488 | ES-KURSS-LESSONS-L0212 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | Salikta darbības vārda uzsvērtais priedēklis tagad… | Salikta darbības vārda uzsvērtā priedēklis tagadnē… | En presente, el prefijo separable acentuado de un … | HIGH | LABOT | |
-| 489 | ES-KURSS-LESSONS-L0220 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | Der Wagen | Der Wagen — die Nadeln; morir Feder - morir Federn… | Ejemplos: der Wagen — die Nadeln; die Feder — die … | HIGH | LABOT | |
-| 490 | ES-KURSS-LESSONS-L0224 | `lesson6` | `lesson6TrainingCardsEs[2].front` | Er zeichnet einen Eimer. | Saca un balde. | Dibuja un balde. | HIGH | LABOT | |
-| 491 | ES-KURSS-LESSONS-L0225 | `lesson6` | `lesson6TrainingCardsEs[3].front` | Wer zeichnet einen Wagen? | ¿Quién tira el carro? | ¿Quién dibuja un carro? | HIGH | LABOT | |
-| 492 | ES-KURSS-LESSONS-L0226 | `lesson6` | `lesson6TrainingCardsEs[7].front` | Wieviel Teller? | ¿Cuantos platos? | ¿Cuántos platos? | MEDIUM | LABOT | |
-| 493 | ES-KURSS-LESSONS-L0227 | `lesson6` | `lesson6TrainingCardsEs[9].front` | Ich lege zwei Nadeln hin. | Dejé dos agujas. | Dejo dos agujas. | MEDIUM | LABOT | |
-| 494 | ES-KURSS-LESSONS-L0228 | `lesson6` | `lesson6TrainingCardsEs[11].front` | Das ist ein Deckel. | Es una funda. | Es una tapa. | MEDIUM | LABOT | |
-| 495 | ES-KURSS-LESSONS-L0229 | `lesson6` | `lesson6TrainingCardsEs[12].front` | Das sind Deckel. | Estas son las portadas. | Estas son las tapas. | HIGH | LABOT | |
-| 496 | ES-KURSS-LESSONS-L0230 | `lesson6` | `lesson6TrainingCardsEs[16].front` | Der Lehrer nimmt ein Messer und spitzt den Bleisti… | La maestra toma un cuchillo y afila un lápiz. | El maestro toma un cuchillo y afila el lápiz. | MEDIUM | LABOT | |
-| 497 | ES-KURSS-LESSONS-L0231 | `lesson6` | `lesson6TrainingCardsEs[18].front` | Das ist ein Federhalter. | Está emplumado. | Es un portaplumas. | HIGH | LABOT | |
-| 498 | ES-KURSS-LESSONS-L0232 | `lesson6` | `lesson6TrainingCardsEs[19].front` | Wie ist der Federhalter? | ¿Qué es emplumado? | ¿Cómo es el portaplumas? | HIGH | LABOT | |
-| 499 | ES-KURSS-LESSONS-L0233 | `lesson6` | `lesson6TrainingCardsEs[20].front` | Der Federhalter ist schwarz. | La pluma es negra. | El portaplumas es negro. | HIGH | LABOT | |
-| 500 | ES-KURSS-LESSONS-L0234 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | Hans, singe ein Lied! ¿Qué estás haciendo? Ich sin… | Hans, singe ein Lied! ¿Qué estás haciendo? Ich sin… | Hans, singe ein Lied! Was tust du? Ich singe ein L… | HIGH | LABOT | |
-| 501 | ES-KURSS-LESSONS-L0235 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | singe | singe — canción | singe — canta | HIGH | LABOT | |
-| 502 | ES-KURSS-LESSONS-L0236 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | singt | singt — Tú | singt — cantad / canten | HIGH | LABOT | |
-| 503 | ES-KURSS-LESSONS-L0237 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | singen Sie | singen Sie — conde | singen Sie — cante usted | HIGH | LABOT | |
-| 504 | ES-KURSS-LESSONS-L0239 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | Sie | Sie — molinero | Sie — usted | HIGH | LABOT | |
-| 505 | ES-KURSS-LESSONS-L0240 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | zählen | zählen — abierto | zählen — contar | HIGH | LABOT | |
-| 506 | ES-KURSS-LESSONS-L0241 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | das Fräulein (froilein) | das Fräulein (froilein) — ventana | das Fräulein (froilein) — señorita | HIGH | LABOT | |
-| 507 | ES-KURSS-LESSONS-L0242 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | der Müller | der Müller — todos | der Müller — molinero | HIGH | LABOT | |
-| 508 | ES-KURSS-LESSONS-L0243 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | öffnen | öffnen — espejo | öffnen — abrir | HIGH | LABOT | |
-| 509 | ES-KURSS-LESSONS-L0244 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | das Fenster (fenster) | das Fenster (fenster) — trapo, fregona | das Fenster (fenster) — ventana | HIGH | LABOT | |
-| 510 | ES-KURSS-LESSONS-L0245 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | alle | alle — pala | alle — todos / todas | HIGH | LABOT | |
-| 511 | ES-KURSS-LESSONS-L0247 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | der Lappen | der Lappen — pala | der Lappen — trapo | HIGH | LABOT | |
-| 512 | ES-KURSS-LESSONS-L0248 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | der Spaten | der Spaten — cuenco | der Spaten — pala | HIGH | LABOT | |
-| 513 | ES-KURSS-LESSONS-L0249 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | der Besen | der Besen — habitación | der Besen — escoba | HIGH | LABOT | |
-| 514 | ES-KURSS-LESSONS-L0250 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | die Schaufel | die Schaufel — orilla | die Schaufel — pala | HIGH | LABOT | |
-| 515 | ES-KURSS-LESSONS-L0251 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | singe | singe — cantar | singe — canta | MEDIUM | LABOT | |
-| 516 | ES-KURSS-LESSONS-L0263 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | 1Expresión de comandos | 1 Expresión del imperativo | LOW | LABOT | |
-| 517 | ES-KURSS-LESSONS-L0264 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | 2Comando plural | 2 Imperativo plural | MEDIUM | LABOT | |
-| 518 | ES-KURSS-LESSONS-L0265 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | 4öffnen | 4 öffnen | LOW | LABOT | |
-| 519 | ES-KURSS-LESSONS-L0266 | `lesson7` | `lesson7ExerciseCardsEs[2].lv` | loben | elogio | elogiar | HIGH | LABOT | |
-| 520 | ES-KURSS-LESSONS-L0267 | `lesson7` | `lesson7ExerciseCardsEs[5].lv` | zeigen | espectáculo | mostrar | HIGH | LABOT | |
-| 521 | ES-KURSS-LESSONS-L0268 | `lesson7` | `lesson7ExerciseCardsEs[7].lv` | rechnen | contar | calcular | HIGH | LABOT | |
-| 522 | ES-KURSS-LESSONS-L0270 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Guten Morgen, Herr Lehrer! | Der Lehrer kommt. Alle Schüler stehen auf und grüß… | El profesor llega. Todos los alumnos se ponen de p… | HIGH | LABOT | |
-| 523 | ES-KURSS-LESSONS-L0271 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Kinder, setzt euch! | Der Lehrer grüßt die Schüler und sagt: „Kinder, se… | El profesor saluda a los alumnos y dice: «¡Niños, … | HIGH | LABOT | |
-| 524 | ES-KURSS-LESSONS-L0272 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Die Schüler setzen sich und nehmen die Bücher und … | Die Schüler setzen sich und nehmen die Bücher und … | Los alumnos se sientan y cogen los libros y los cu… | HIGH | LABOT | |
-| 525 | ES-KURSS-LESSONS-L0273 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Der Lehrer fragt die Schüler, Paul spricht aber se… | Der Lehrer fragt die Schüler, Paul spricht aber se… | El profesor pregunta a los alumnos, pero Paul habl… | HIGH | LABOT | |
-| 526 | ES-KURSS-LESSONS-L0274 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Paul, sprich nicht leise, sprich laut! | Der Lehrer sagt: „Paul, sprich nicht leise, sprich… | El profesor dice: «¡Paul, no hables en voz baja, h… | HIGH | LABOT | |
-| 527 | ES-KURSS-LESSONS-L0275 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Paul spricht jetzt laut, alle Schüler sprechen lau… | Paul spricht jetzt laut, alle Schüler sprechen lau… | Ahora Paul habla alto; todos los alumnos hablan al… | HIGH | LABOT | |
-| 528 | ES-KURSS-LESSONS-L0276 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Hans, nimm das Buch und lies! | Der Lehrer sagt: „Hans, nimm das Buch und lies!“ | El profesor dice: «¡Hans, coge el libro y lee!» | HIGH | LABOT | |
-| 529 | ES-KURSS-LESSONS-L0277 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Hans liest nicht gut, er liest schlecht. | Hans liest nicht gut, er liest schlecht. | Hans no lee bien; lee mal. | HIGH | LABOT | |
-| 530 | ES-KURSS-LESSONS-L0278 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Zwei Schüler lesen nicht laut. Sie lesen leise. | Zwei Schüler lesen nicht laut. Sie lesen leise. | Dos alumnos no leen en voz alta. Leen en voz baja. | HIGH | LABOT | |
-| 531 | ES-KURSS-LESSONS-L0279 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lest laut und deutlich! | Der Lehrer sagt: „Lest laut und deutlich!“ | El profesor dice: «¡Leed alto y con claridad!» | HIGH | LABOT | |
-| 532 | ES-KURSS-LESSONS-L0280 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Alle Schüler lesen jetzt laut und deutlich. | Alle Schüler lesen jetzt laut und deutlich. | Todos los alumnos leen ahora en voz alta y con cla… | HIGH | LABOT | |
-| 533 | ES-KURSS-LESSONS-L0281 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Dann schreiben die Schüler. | Dann schreiben die Schüler. | Después, los alumnos escriben. | HIGH | LABOT | |
-| 534 | ES-KURSS-LESSONS-L0282 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Endlich erzählt der Lehrer, und die Schüler hören … | Endlich erzählt der Lehrer, und die Schüler hören … | Finalmente, el profesor cuenta algo y los alumnos … | HIGH | LABOT | |
-| 535 | ES-KURSS-LESSONS-L0283 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Das ist der Arbeiter. Das sind zwei Arbeiter. | Das ist der Arbeiter. Das sind zwei Arbeiter. | Este es el obrero. Estos son dos obreros. | HIGH | LABOT | |
-| 536 | ES-KURSS-LESSONS-L0284 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Das ist der Müller. Das sind drei Müller. | Das ist der Müller. Das sind drei Müller. | Este es el molinero. Estos son tres molineros. | HIGH | LABOT | |
-| 537 | ES-KURSS-LESSONS-L0285 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Das ist der Tischler. Das sind einige Tischler. | Das ist der Tischler. Das sind einige Tischler. | Este es el carpintero. Estos son varios carpintero… | HIGH | LABOT | |
-| 538 | ES-KURSS-LESSONS-L0286 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Das ist der Bäcker. Das sind viele Bäcker. | Das ist der Bäcker. Das sind viele Bäcker. | Este es el panadero. Estos son muchos panaderos. | HIGH | LABOT | |
-| 539 | ES-KURSS-LESSONS-L0287 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Das ist der Schneider. Das sind die Schneider. | Das ist der Schneider. Das sind die Schneider. | Este es el sastre. Estos son los sastres. | HIGH | LABOT | |
-| 540 | ES-KURSS-LESSONS-L0288 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Das ist der Gärtner. Das sind die Gärtner. | Das ist der Gärtner. Das sind die Gärtner. | Este es el jardinero. Estos son los jardineros. | HIGH | LABOT | |
-| 541 | ES-KURSS-LESSONS-L0289 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Das ist ein Schuster. Das sind Schuster. | Das ist ein Schuster. Das sind Schuster. | Este es un zapatero. Estos son zapateros. | HIGH | LABOT | |
-| 542 | ES-KURSS-LESSONS-L0290 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | setzt euch (zect oich) | setzt euch (zect oich) — ¡siéntate! | ¡Sentaos! | HIGH | LABOT | |
-| 543 | ES-KURSS-LESSONS-L0291 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | laut | laut — alto | en voz alta | MEDIUM | LABOT | |
-| 544 | ES-KURSS-LESSONS-L0292 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | lies! | lies! — ¡lasi! | lies! — ¡lee! | HIGH | LABOT | |
-| 545 | ES-KURSS-LESSONS-L0294 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Übung I - Usa la conjugación correcta. Übung II - … | Ejercicio I: usa la conjugación correcta. Ejercici… | MEDIUM | LABOT | |
-| 546 | ES-KURSS-LESSONS-L0295 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Wen grüßt du? | ¿Ko tu sveicini? | ¿A quién saludas? | HIGH | LABOT | |
-| 547 | ES-KURSS-LESSONS-L0296 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Ich grüße das Fräulein. | Es sveicinu jaunkundzi. | Saludo a la señorita. | HIGH | LABOT | |
-| 548 | ES-KURSS-LESSONS-L0297 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Öffnet alle Fenster! | Atveriet visus logus! | ¡Abrid todas las ventanas! | HIGH | LABOT | |
-| 549 | ES-KURSS-LESSONS-L0298 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Öffnest du das Fenster? | Vai tu atver logu? | ¿Abres la ventana? | HIGH | LABOT | |
-| 550 | ES-KURSS-LESSONS-L0299 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Die Schülerin liest laut und deutlich. | El estudiante lee en voz alta y clara. | La estudiante lee en voz alta y con claridad. | MEDIUM | LABOT | |
-| 551 | ES-KURSS-LESSONS-L0300 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lies gut! | Lasi labi! | ¡Lee bien! | HIGH | LABOT | |
-| 552 | ES-KURSS-LESSONS-L0301 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lest gut! | ¡Lasiet labí! | ¡Leed bien! | CRITICAL | LABOT | |
-| 553 | ES-KURSS-LESSONS-L0303 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Öffnet alle Fenster! | Atveriet visus logus! | ¡Abrid todas las ventanas! | CRITICAL | LABOT | |
-| 554 | ES-KURSS-LESSONS-L0304 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Die Schülerin liest laut und deutlich. | El estudiante lee en voz alta y clara. | La estudiante lee en voz alta y con claridad. | HIGH | LABOT | |
-| 555 | ES-KURSS-LESSONS-L0305 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lies gut! | Lasi labi! | ¡Lee bien! | CRITICAL | LABOT | |
-| 556 | ES-KURSS-LESSONS-L0306 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lest gut! | ¡Lasiet labí! | ¡Leed bien! | CRITICAL | LABOT | |
-| 557 | ES-KURSS-LESSONS-L0308 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Herr Lehrer, bitte, setzen Sie sich! | Señor Maestro, ¡siéntese! | Señor profesor, ¡siéntese, por favor! | MEDIUM | LABOT | |
-| 558 | ES-KURSS-LESSONS-L0310 | `lesson8` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Escribe la forma verbal correcta y pásala al plur… | MEDIUM | LABOT | |
-| 559 | ES-KURSS-LESSONS-L0312 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.intro` |  | Novena conferencia: plural de sustantivos, pronomb… | Novena lección: plural de los sustantivos, pronomb… | MEDIUM | LABOT | |
-| 560 | ES-KURSS-LESSONS-L0313 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich spitze den Bleistift an. | Ich spitze den Bleistift an. | Afilo el lápiz. | HIGH | LABOT | |
-| 561 | ES-KURSS-LESSONS-L0314 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich setze mich und schreibe langsam. | Ich setze mich und schreibe langsam. | Me siento y escribo despacio. | HIGH | LABOT | |
-| 562 | ES-KURSS-LESSONS-L0315 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich schreibe schnell. | Ich schreibe schnell. | Escribo rápido. | HIGH | LABOT | |
-| 563 | ES-KURSS-LESSONS-L0316 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich schreibe nicht mehr. | Ich schreibe nicht mehr. | Ya no escribo. | HIGH | LABOT | |
-| 564 | ES-KURSS-LESSONS-L0317 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich mache das Heft zu. | Ich mache das Heft zu. | Cierro el cuaderno. | HIGH | LABOT | |
-| 565 | ES-KURSS-LESSONS-L0318 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich lege den Bleistift hin. | Ich lege den Bleistift hin. | Dejo el lápiz. | HIGH | LABOT | |
-| 566 | ES-KURSS-LESSONS-L0319 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich sitze ruhig. | Ich sitze ruhig. | Estoy sentado tranquilamente. | HIGH | LABOT | |
-| 567 | ES-KURSS-LESSONS-L0320 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Dieser Brief ist lang. | Dieser Brief ist lang. | Esta carta es larga. | HIGH | LABOT | |
-| 568 | ES-KURSS-LESSONS-L0321 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Dieses Buch ist dick. | Dieses Buch ist dick. | Este libro es grueso. | HIGH | LABOT | |
-| 569 | ES-KURSS-LESSONS-L0322 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Diese Schüssel ist rein. | Diese Schüssel ist rein. | Este cuenco está limpio. | HIGH | LABOT | |
-| 570 | ES-KURSS-LESSONS-L0323 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Diese Briefe sind lang. | Diese Briefe sind lang. | Estas cartas son largas. | HIGH | LABOT | |
-| 571 | ES-KURSS-LESSONS-L0324 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Jener Brief ist kurz. | Jener Brief ist kurz. | Aquella carta es corta. | HIGH | LABOT | |
-| 572 | ES-KURSS-LESSONS-L0325 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Jenes Buch ist dünn. | Jenes Buch ist dünn. | Aquel libro es delgado. | HIGH | LABOT | |
-| 573 | ES-KURSS-LESSONS-L0326 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Jene Schüssel ist schmutzig. | Jene Schüssel ist schmutzig. | Aquel cuenco está sucio. | HIGH | LABOT | |
-| 574 | ES-KURSS-LESSONS-L0327 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Jene Briefe sind kurz. | Jene Briefe sind kurz. | Aquellas cartas son cortas. | HIGH | LABOT | |
-| 575 | ES-KURSS-LESSONS-L0328 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | sitzen (zicen) | sitzen (zicen) — sentarse | sitzen (zicen) — estar sentado | MEDIUM | LABOT | |
-| 576 | ES-KURSS-LESSONS-L0330 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | die Briefe | die Briefe — letras | die Briefe — las cartas | HIGH | LABOT | |
-| 577 | ES-KURSS-LESSONS-L0333 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Artikulu nelieto | No se utiliza el artículo | HIGH | LABOT | |
-| 578 | ES-KURSS-LESSONS-L0335 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich nehme ein Heft. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
-| 579 | ES-KURSS-LESSONS-L0336 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich nehme Hefte. | Listo. El siguiente clic muestra la siguiente card… | Listo. Al hacer clic, se muestra la siguiente tarj… | MEDIUM | LABOT | |
-| 580 | ES-KURSS-LESSONS-L0337 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich öffne das Heft. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
-| 581 | ES-KURSS-LESSONS-L0338 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich öffne die Hefte. | Listo. El siguiente clic muestra la siguiente card… | Listo. Al hacer clic, se muestra la siguiente tarj… | MEDIUM | LABOT | |
-| 582 | ES-KURSS-LESSONS-L0339 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich nehme auch einen Bleistift. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
-| 583 | ES-KURSS-LESSONS-L0340 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich nehme auch Bleistifte. | Listo. El siguiente clic muestra la siguiente card… | Listo. Al hacer clic, se muestra la siguiente tarj… | MEDIUM | LABOT | |
-| 584 | ES-KURSS-LESSONS-L0341 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich spitze den Bleistift an. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
-| 585 | ES-KURSS-LESSONS-L0342 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich spitze die Bleistifte an. | Listo. El siguiente clic muestra la siguiente card… | Listo. Al hacer clic, se muestra la siguiente tarj… | MEDIUM | LABOT | |
-| 586 | ES-KURSS-LESSONS-L0343 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich setze mich und schreibe langsam. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
-| 587 | ES-KURSS-LESSONS-L0344 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich setze mich und schreibe langsam. | Listo. El siguiente clic muestra la siguiente card… | Listo. Al hacer clic, se muestra la siguiente tarj… | MEDIUM | LABOT | |
-| 588 | ES-KURSS-LESSONS-L0345 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich schreibe schnell. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
-| 589 | ES-KURSS-LESSONS-L0346 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich schreibe schnell. | Listo. El siguiente clic muestra la siguiente card… | Listo. Al hacer clic, se muestra la siguiente tarj… | MEDIUM | LABOT | |
-| 590 | ES-KURSS-LESSONS-L0347 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich mache das Heft zu. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
-| 591 | ES-KURSS-LESSONS-L0348 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich mache die Hefte zu. | Listo. El siguiente clic muestra la siguiente card… | Listo. Al hacer clic, se muestra la siguiente tarj… | MEDIUM | LABOT | |
-| 592 | ES-KURSS-LESSONS-L0349 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich lege den Bleistift hin. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
-| 593 | ES-KURSS-LESSONS-L0350 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich lege die Bleistifte hin. | Listo. El siguiente clic muestra la siguiente card… | Listo. El siguiente clic muestra la siguiente tarj… | MEDIUM | LABOT | |
-| 594 | ES-KURSS-LESSONS-L0351 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich sitze ruhig. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
-| 595 | ES-KURSS-LESSONS-L0352 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich sitze ruhig. | Listo. El siguiente clic muestra la siguiente card… | Listo. El siguiente clic muestra la siguiente tarj… | MEDIUM | LABOT | |
-| 596 | ES-KURSS-LESSONS-L0353 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Was machen Sie? | qué estás haciendo | ¿Qué hace usted? | HIGH | LABOT | |
-| 597 | ES-KURSS-LESSONS-L0354 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Herr Lehrer, setzen Sie sich und lesen Sie! | ¡Señor Maestro, siéntese y lea! | ¡Señor profesor, siéntese y lea! | MEDIUM | LABOT | |
-| 598 | ES-KURSS-LESSONS-L0355 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Wie ist dieser Teller? | ¿Qué es este plato? | ¿Cómo es este plato? | HIGH | LABOT | |
-| 599 | ES-KURSS-LESSONS-L0356 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Sind die Briefe lang oder kurz? | ¿Las letras son largas o cortas? | ¿Las cartas son largas o cortas? | HIGH | LABOT | |
-| 600 | ES-KURSS-LESSONS-L0357 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Anna, spitz diesen Bleistift an! | ¡Anna, afila ese lápiz! | ¡Anna, afila este lápiz! | MEDIUM | LABOT | |
-| 601 | ES-KURSS-LESSONS-L0358 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Mach das Fenster zu! | ¡Aiztaisi logu! | ¡Cierra la ventana! | CRITICAL | LABOT | |
-| 602 | ES-KURSS-LESSONS-L0359 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Was macht das Mädchen endlich? | Ko meitene beidzot dara? | ¿Qué hace finalmente la niña? | CRITICAL | LABOT | |
-| 603 | ES-KURSS-LESSONS-L0360 | `lesson9` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Elige la conjugación correcta y úsala en plural! | MEDIUM | LABOT | |
-| 604 | ES-KURSS-LESSONS-L0362 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.intro` |  | Décima conferencia: sein, können, formas de mando,… | Décima lección: sein, können, formas del imperativ… | MEDIUM | LABOT | |
-| 605 | ES-KURSS-LESSONS-L0363 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Es ist gesund. | Es ist gesund. | Está sano. | HIGH | LABOT | |
-| 606 | ES-KURSS-LESSONS-L0364 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wir sind gesund. | Wir sind gesund. | Estamos sanos. | HIGH | LABOT | |
-| 607 | ES-KURSS-LESSONS-L0365 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ihr seid gesund. | Ihr seid gesund. | Vosotros estáis sanos. | HIGH | LABOT | |
-| 608 | ES-KURSS-LESSONS-L0366 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie sind gesund. | Sie sind gesund. | Ustedes están sanos. | HIGH | LABOT | |
-| 609 | ES-KURSS-LESSONS-L0367 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ich kann arbeiten. | Ich kann arbeiten. | Puedo trabajar. | HIGH | LABOT | |
-| 610 | ES-KURSS-LESSONS-L0368 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Du kannst arbeiten. | Du kannst arbeiten. | Puedes trabajar. | HIGH | LABOT | |
-| 611 | ES-KURSS-LESSONS-L0369 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Er kann arbeiten. | Er kann arbeiten. | Él puede trabajar. | HIGH | LABOT | |
-| 612 | ES-KURSS-LESSONS-L0370 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie kann arbeiten. | Sie kann arbeiten. | Ella puede trabajar. | HIGH | LABOT | |
-| 613 | ES-KURSS-LESSONS-L0371 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Es kann arbeiten. | Es kann arbeiten. | Puede trabajar. | HIGH | LABOT | |
-| 614 | ES-KURSS-LESSONS-L0372 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wir können arbeiten. | Wir können arbeiten. | Podemos trabajar. | HIGH | LABOT | |
-| 615 | ES-KURSS-LESSONS-L0373 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ihr könnt arbeiten. | Ihr könnt arbeiten. | Vosotros podéis trabajar. | HIGH | LABOT | |
-| 616 | ES-KURSS-LESSONS-L0374 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie können arbeiten. | Sie können arbeiten. | Ustedes pueden trabajar. | HIGH | LABOT | |
-| 617 | ES-KURSS-LESSONS-L0375 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Otto, sei gesund! | Otto, sei gesund! | ¡Otto, ponte bien! | HIGH | LABOT | |
-| 618 | ES-KURSS-LESSONS-L0376 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Otto und Franz, seid gesund! | Otto und Franz, seid gesund! | ¡Otto y Franz, poneos bien! | HIGH | LABOT | |
-| 619 | ES-KURSS-LESSONS-L0377 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Fräulein Müller, seien Sie gesund! | Fräulein Müller, seien Sie gesund! | ¡Señorita Müller, póngase bien! | HIGH | LABOT | |
-| 620 | ES-KURSS-LESSONS-L0378 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ich bin ein Knabe. | Ich bin ein Knabe. | Soy un niño. | HIGH | LABOT | |
-| 621 | ES-KURSS-LESSONS-L0379 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Du bist ein Mädchen. | Du bist ein Mädchen. | Eres una niña. | HIGH | LABOT | |
-| 622 | ES-KURSS-LESSONS-L0380 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Er ist ein Schüler. | Er ist ein Schüler. | Él es alumno. | HIGH | LABOT | |
-| 623 | ES-KURSS-LESSONS-L0381 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie ist eine Schülerin. | Sie ist eine Schülerin. | Ella es alumna. | HIGH | LABOT | |
-| 624 | ES-KURSS-LESSONS-L0382 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Was ist der Lehrer? | Was ist der Lehrer? | ¿Qué es el profesor? | HIGH | LABOT | |
-| 625 | ES-KURSS-LESSONS-L0383 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Der Lehrer ist ein Mann. | Der Lehrer ist ein Mann. | El profesor es un hombre. | HIGH | LABOT | |
-| 626 | ES-KURSS-LESSONS-L0384 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wer ist ein Mann? | Wer ist ein Mann? | ¿Quién es un hombre? | HIGH | LABOT | |
-| 627 | ES-KURSS-LESSONS-L0385 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Der Lehrer ist ein Mann. | Der Lehrer ist ein Mann. | El profesor es un hombre. | HIGH | LABOT | |
-| 628 | ES-KURSS-LESSONS-L0386 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Was ist die Lehrerin? | Was ist die Lehrerin? | ¿Qué es la profesora? | HIGH | LABOT | |
-| 629 | ES-KURSS-LESSONS-L0387 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Die Lehrerin ist eine Frau. | Die Lehrerin ist eine Frau. | La profesora es una mujer. | HIGH | LABOT | |
-| 630 | ES-KURSS-LESSONS-L0388 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wer ist eine Frau? | Wer ist eine Frau? | ¿Quién es una mujer? | HIGH | LABOT | |
-| 631 | ES-KURSS-LESSONS-L0389 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Die Lehrerin ist eine Frau. | Die Lehrerin ist eine Frau. | La profesora es una mujer. | HIGH | LABOT | |
-| 632 | ES-KURSS-LESSONS-L0390 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wer ist gesund? | Wer ist gesund? | ¿Quién está sano? | HIGH | LABOT | |
-| 633 | ES-KURSS-LESSONS-L0391 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ich bin gesund. | Ich bin gesund. | Estoy sano. | HIGH | LABOT | |
-| 634 | ES-KURSS-LESSONS-L0392 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wir sind gesund. | Wir sind gesund. | Estamos sanos. | HIGH | LABOT | |
-| 635 | ES-KURSS-LESSONS-L0393 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ist der Großvater gesund? | Ist der Großvater gesund? | ¿Está sano el abuelo? | HIGH | LABOT | |
-| 636 | ES-KURSS-LESSONS-L0394 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Nein, der Großvater ist krank. | Nein, der Großvater ist krank. | No, el abuelo está enfermo. | HIGH | LABOT | |
-| 637 | ES-KURSS-LESSONS-L0395 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Er kann nicht arbeiten. | Er kann nicht arbeiten. | No puede trabajar. | HIGH | LABOT | |
-| 638 | ES-KURSS-LESSONS-L0396 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Die Großmutter ist gesund. | Die Großmutter ist gesund. | La abuela está sana. | HIGH | LABOT | |
-| 639 | ES-KURSS-LESSONS-L0397 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie kann arbeiten. | Sie kann arbeiten. | Ella puede trabajar. | HIGH | LABOT | |
-| 640 | ES-KURSS-LESSONS-L0398 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Hans und Franz, seid ihr gesund? | Hans und Franz, seid ihr gesund? | Hans y Franz, ¿estáis sanos? | HIGH | LABOT | |
-| 641 | ES-KURSS-LESSONS-L0399 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ja, wir sind gesund. | Ja, wir sind gesund. | Sí, estamos sanos. | HIGH | LABOT | |
-| 642 | ES-KURSS-LESSONS-L0400 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wir können fleißig lernen. | Wir können fleißig lernen. | Podemos estudiar mucho. | HIGH | LABOT | |
-| 643 | ES-KURSS-LESSONS-L0401 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Alle Kinder sind gesund. | Alle Kinder sind gesund. | Todos los niños están sanos. | HIGH | LABOT | |
-| 644 | ES-KURSS-LESSONS-L0402 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie können fleißig lernen. | Sie können fleißig lernen. | Pueden estudiar mucho. | HIGH | LABOT | |
-| 645 | ES-KURSS-LESSONS-L0403 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Adolf, wie alt bist du? | Adolf, wie alt bist du? | Adolf, ¿cuántos años tienes? | HIGH | LABOT | |
-| 646 | ES-KURSS-LESSONS-L0404 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ich bin zehn Jahre alt. | Ich bin zehn Jahre alt. | Tengo diez años. | HIGH | LABOT | |
-| 647 | ES-KURSS-LESSONS-L0405 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wie alt ist Anna? | Wie alt ist Anna? | ¿Cuántos años tiene Anna? | HIGH | LABOT | |
-| 648 | ES-KURSS-LESSONS-L0406 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Anna ist acht Jahre alt. | Anna ist acht Jahre alt. | Anna tiene ocho años. | HIGH | LABOT | |
-| 649 | ES-KURSS-LESSONS-L0409 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | sei gesund | sei gesund — esi vesels! | sei gesund — ¡mantente sano! | HIGH | LABOT | |
-| 650 | ES-KURSS-LESSONS-L0410 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | seid gesund | seid gesund — esiet veseli! | seid gesund — ¡manteneos sanos! | HIGH | LABOT | |
-| 651 | ES-KURSS-LESSONS-L0411 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | die Frau | die Frau — mujer / esposa | die Frau — la mujer / la esposa | MEDIUM | LABOT | |
-| 652 | ES-KURSS-LESSONS-L0412 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Verbo auxiliar sein - estar desordenado. Por tanto… | El verbo sein (ser/estar) es irregular. Por tanto,… | HIGH | LABOT | |
-| 653 | ES-KURSS-LESSONS-L0413 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Sein — Präsens | Sein — presente | MEDIUM | LABOT | |
-| 654 | ES-KURSS-LESSONS-L0414 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Sein — Imperativ | Sein — imperativo | MEDIUM | LABOT | |
-| 655 | ES-KURSS-LESSONS-L0415 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Asimismo, el verbo auxiliar können (poder) tiene u… | Asimismo, el verbo modal können (poder) tiene una … | HIGH | LABOT | |
-| 656 | ES-KURSS-LESSONS-L0416 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Bist du gesund? | Vai tu esi vesels? | ¿Estás sano? | HIGH | LABOT | |
-| 657 | ES-KURSS-LESSONS-L0417 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ist Paul gesund? | Vai Paul ir vasijas? | ¿Está Paul sano? | HIGH | LABOT | |
-| 658 | ES-KURSS-LESSONS-L0418 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wie alt ist Adolf? | ¿Cik vecs ir Adolfs? | ¿Qué edad tiene Adolf? | HIGH | LABOT | |
-| 659 | ES-KURSS-LESSONS-L0419 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wer bist du? | ¿Kas tu esi? | ¿Quién eres? | HIGH | LABOT | |
-| 660 | ES-KURSS-LESSONS-L0420 | `lesson10` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Escribe la conjugación correcta y forma la frase … | MEDIUM | LABOT | |
-| 661 | ES-KURSS-LESSONS-L0423 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | wir haben | wir haben — mamás ir | wir haben — tenemos | CRITICAL | LABOT | |
-| 662 | ES-KURSS-LESSONS-L0424 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | ist nicht | ist nicht — nav | ist nicht — no es / no está | HIGH | LABOT | |
-| 663 | ES-KURSS-LESSONS-L0425 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | hell | hell — brillante | hell — luminoso | MEDIUM | LABOT | |
-| 664 | ES-KURSS-LESSONS-L0426 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | kein, keine, kein | kein, keine, kein — neviens, neviena, neviens | kein, keine, kein — ningún, ninguna, ninguno | HIGH | LABOT | |
-| 665 | ES-KURSS-LESSONS-L0428 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | El verbo auxiliar haben en alemán expresa el conce… | El verbo haben en alemán expresa posesión. En espa… | MEDIUM | LABOT | |
-| 666 | ES-KURSS-LESSONS-L0429 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Haben — Präsens | Haben — presente | MEDIUM | LABOT | |
-| 667 | ES-KURSS-LESSONS-L0430 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | man ir | man ir | tengo | HIGH | LABOT | |
-| 668 | ES-KURSS-LESSONS-L0431 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | tev ir | tev ir | tienes | HIGH | LABOT | |
-| 669 | ES-KURSS-LESSONS-L0432 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | mums ir | mums ir | tenemos | HIGH | LABOT | |
-| 670 | ES-KURSS-LESSONS-L0433 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | jums ir | jums ir | tenéis | HIGH | LABOT | |
-| 671 | ES-KURSS-LESSONS-L0434 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | En español, la persona a quien pertenece algo está… | En español, la persona que posee algo se expresa n… | HIGH | LABOT | |
-| 672 | ES-KURSS-LESSONS-L0435 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Der Vater hat ein Buch | Der Vater hat ein Buch — padre | Der Vater hat ein Buch — El padre tiene un libro. | MEDIUM | LABOT | |
-| 673 | ES-KURSS-LESSONS-L0437 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Imperativ | Imperativo | MEDIUM | LABOT | |
-| 674 | ES-KURSS-LESSONS-L0438 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | El verbo haben debe aprenderse bien y utilizarse c… | El verbo haben debe aprenderse bien y utilizarse c… | MEDIUM | LABOT | |
-| 675 | ES-KURSS-LESSONS-L0439 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Kein — vienskaitlis | Kein — singular | HIGH | LABOT | |
-| 676 | ES-KURSS-LESSONS-L0440 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Kein — daudzskaitlis | Kein — plural | HIGH | LABOT | |
-| 677 | ES-KURSS-LESSONS-L0441 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Si la oración narrativa contiene la conjunción den… | Si la oración enunciativa contiene la conjunción d… | MEDIUM | LABOT | |
-| 678 | ES-KURSS-LESSONS-L0442 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Los sustantivos compuestos van precedidos del arti… | Los sustantivos compuestos llevan el artículo del … | HIGH | LABOT | |
-| 679 | ES-KURSS-LESSONS-L0443 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Was hast du? | ¿Kas tev ir? | ¿Qué tienes? | HIGH | LABOT | |
-| 680 | ES-KURSS-LESSONS-L0444 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wie sind die Bücher? | ¿Cuáles son los libros? | ¿Cómo son los libros? | HIGH | LABOT | |
-| 681 | ES-KURSS-LESSONS-L0445 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Franz hat keine Feder und keinen Bleistift. | Franc no tiene bolígrafo ni lápiz. | Francisco no tiene bolígrafo ni lápiz. | MEDIUM | LABOT | |
-| 682 | ES-KURSS-LESSONS-L0446 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Der Lehrer hat viele Bücher und ein Bücherbrett. | La maestra tiene muchos libros y una estantería. | El maestro tiene muchos libros y una estantería. | HIGH | LABOT | |
-| 683 | ES-KURSS-LESSONS-L0447 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Was tut Anna? | Ko dara Anna? | ¿Qué hace Anna? | HIGH | LABOT | |
-| 684 | ES-KURSS-LESSONS-L0448 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Nein, Franz schreibt nicht, er zeichnet. | No, Francisco no escribe, dibuja. | No, Francisco no escribe, sino que dibuja. | MEDIUM | LABOT | |
-| 685 | ES-KURSS-LESSONS-L0449 | `lesson11` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa la forma correcta y ponla en plural! | MEDIUM | LABOT | |
-| 686 | ES-KURSS-LESSONS-L0451 | `lesson12` | `kurss.lessonItems.12.menuDesc (lesson he…` |  | Calidades comparables, también, edad y colores. | Grados comparativos, als/wie, edad y colores. | HIGH | LABOT | |
-| 687 | ES-KURSS-LESSONS-L0454 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | wieviel | wieviel — cik | wieviel — cuánto | HIGH | LABOT | |
-| 688 | ES-KURSS-LESSONS-L0455 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Max (maks) | Max (maks) — Maksis | Max (pronunciado «maks») — Max | HIGH | LABOT | |
-| 689 | ES-KURSS-LESSONS-L0456 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | alt | alt — viejo | alt — mayor / viejo | MEDIUM | LABOT | |
-| 690 | ES-KURSS-LESSONS-L0457 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | so alt wie | so alt wie — tan viejo como | so alt wie — tan mayor como | MEDIUM | LABOT | |
-| 691 | ES-KURSS-LESSONS-L0458 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | wie | wie — cómo | wie — como | MEDIUM | LABOT | |
-| 692 | ES-KURSS-LESSONS-L0459 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | am jüngsten | am jüngsten — el más reciente | am jüngsten — el más joven / la más joven | HIGH | LABOT | |
-| 693 | ES-KURSS-LESSONS-L0460 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | La mayoría de los adjetivos monosilábicos con la v… | La mayoría de los adjetivos monosilábicos cuya voc… | HIGH | LABOT | |
-| 694 | ES-KURSS-LESSONS-L0461 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | hoch (augsts) | hoch (augsts) | hoch (alto) | HIGH | LABOT | |
-| 695 | ES-KURSS-LESSONS-L0462 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | gut (labs) | gut (labs) | gut (bueno) | HIGH | LABOT | |
-| 696 | ES-KURSS-LESSONS-L0463 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | viel (daudz) | viel (daudz) | viel (mucho) | HIGH | LABOT | |
-| 697 | ES-KURSS-LESSONS-L0464 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wer ist am ältesten? | ¿Quién es el mayor? | ¿Quién es el más mayor? | MEDIUM | LABOT | |
-| 698 | ES-KURSS-LESSONS-L0465 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie heißen Sie? | ¿Cómo te llamas? | ¿Cómo se llama? | HIGH | LABOT | |
-| 699 | ES-KURSS-LESSONS-L0466 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Ich bin zwanzig Jahre alt. | Es esmu 20 gadus vecs. | Tengo veinte años. | CRITICAL | LABOT | |
-| 700 | ES-KURSS-LESSONS-L0467 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Ist Max groß? | ¿Vai Maksis son mentiras? | ¿Es Max alto? | CRITICAL | LABOT | |
-| 701 | ES-KURSS-LESSONS-L0468 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Nein, Max ist nicht groß, Rudolf ist größer. | No, Max no es grande, Rudolph es más grande. | No, Max no es alto, Rudolf es más alto. | MEDIUM | LABOT | |
-| 702 | ES-KURSS-LESSONS-L0469 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wer ist am größten? | ¿Cuál es el mayor? | ¿Quién es el más alto? | HIGH | LABOT | |
-| 703 | ES-KURSS-LESSONS-L0470 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Franz ist am größten. | Francisco es el más grande. | Francisco es el más alto. | MEDIUM | LABOT | |
-| 704 | ES-KURSS-LESSONS-L0471 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie heißen sie? | ¿Cuáles son sus nombres? | ¿Cómo se llaman? | MEDIUM | LABOT | |
-| 705 | ES-KURSS-LESSONS-L0472 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wieviel Brüder haben Sie? | ¿Cuantos hermanos tienes? | ¿Cuántos hermanos tiene? | HIGH | LABOT | |
-| 706 | ES-KURSS-LESSONS-L0473 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie ist die Tinte? | ¿Qué es la tinta? | ¿Cómo es la tinta? | HIGH | LABOT | |
-| 707 | ES-KURSS-LESSONS-L0474 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Sie ist schwarz. | Es negro. | Es negra. | HIGH | LABOT | |
-| 708 | ES-KURSS-LESSONS-L0475 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie ist die Kreide? | ¿Qué es la tiza? | ¿Cómo es la tiza? | HIGH | LABOT | |
-| 709 | ES-KURSS-LESSONS-L0476 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Sie ist weiß. | Tas ir balts. | Es blanca. | CRITICAL | LABOT | |
-| 710 | ES-KURSS-LESSONS-L0477 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie sind die Blumen? | ¿Qué son las flores? | ¿Cómo son las flores? | HIGH | LABOT | |
-| 711 | ES-KURSS-LESSONS-L0478 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Sind Sie glücklich? | ¿Estás feliz? | ¿Está feliz? | HIGH | LABOT | |
-| 712 | ES-KURSS-LESSONS-L0480 | `lesson12` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | HIGH | LABOT | |
-| 713 | ES-KURSS-LESSONS-L0481 | `lesson12` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Elige el caso correcto y úsalo en plural! | HIGH | LABOT | |
-| 714 | ES-KURSS-LESSONS-L0483 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.intro` |  | Conferencia Trece: Der Körper, partes del cuerpo, … | Lección 13: Der Körper, partes del cuerpo, hacer g… | MEDIUM | LABOT | |
-| 715 | ES-KURSS-LESSONS-L0484 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | die Brust | die Brust — mama | die Brust — pecho | MEDIUM | LABOT | |
-| 716 | ES-KURSS-LESSONS-L0485 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | jede | jede — katra | jede — cada | HIGH | LABOT | |
-| 717 | ES-KURSS-LESSONS-L0486 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | jedes | jedes — katrs | jedes — cada | HIGH | LABOT | |
-| 718 | ES-KURSS-LESSONS-L0487 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | der Nagel | der Nagel — uña / clavo | der Nagel — uña | MEDIUM | LABOT | |
-| 719 | ES-KURSS-LESSONS-L0488 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | die Nägel | die Nägel — uñas / clavos | die Nägel — uñas | MEDIUM | LABOT | |
-| 720 | ES-KURSS-LESSONS-L0489 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | beschneiden | beschneiden — apgriezt | beschneiden — cortar | HIGH | LABOT | |
-| 721 | ES-KURSS-LESSONS-L0490 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Verbos compuestos | Verbos separables | MEDIUM | LABOT | |
-| 722 | ES-KURSS-LESSONS-L0491 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Si la parte preposicional está acentuada, se separ… | Si el prefijo está acentuado, se separa en present… | HIGH | LABOT | |
-| 723 | ES-KURSS-LESSONS-L0492 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Si el prefijo no está acentuado, no está acentuado… | Si el prefijo no está acentuado, no se separa. | HIGH | LABOT | |
-| 724 | ES-KURSS-LESSONS-L0493 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | El pronombre jeder va en círculos como los artícul… | El pronombre jeder se declina como los artículos d… | HIGH | LABOT | |
-| 725 | ES-KURSS-LESSONS-L0494 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir machen dos Schritte. | Wir machen dos Schritte. | Wir machen zwei Schritte. | HIGH | LABOT | |
-| 726 | ES-KURSS-LESSONS-L0495 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich senske beide Arme. | Ich senske beide Arme. | Ich senke beide Arme. | HIGH | LABOT | |
-| 727 | ES-KURSS-LESSONS-L0496 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er sentkt beide Arme. | Er sentkt beide Arme. | Er senkt beide Arme. | HIGH | LABOT | |
-| 728 | ES-KURSS-LESSONS-L0497 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir senten beide Arme. | Wir senten beide Arme. | Wir senken beide Arme. | HIGH | LABOT | |
-| 729 | ES-KURSS-LESSONS-L0498 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er dreht den Kopf nach enlaces. | Er dreht den Kopf nach enlaces. | Er dreht den Kopf nach links. | HIGH | LABOT | |
-| 730 | ES-KURSS-LESSONS-L0499 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie viele Arme hat der Mensch? | ¿Cuántas manos tiene una persona? | ¿Cuántos brazos tiene una persona? | HIGH | LABOT | |
-| 731 | ES-KURSS-LESSONS-L0500 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie viele Beine hast du? | cuantas piernas tienes | ¿Cuántas piernas tienes? | MEDIUM | LABOT | |
-| 732 | ES-KURSS-LESSONS-L0501 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie ist der Arm? | ¿Qué es una mano? | ¿Cómo es el brazo? | HIGH | LABOT | |
-| 733 | ES-KURSS-LESSONS-L0502 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie ist das Bein? | ¿Qué es la pierna? | ¿Cómo es la pierna? | HIGH | LABOT | |
-| 734 | ES-KURSS-LESSONS-L0503 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Der Arm ist klein, aber das Bein ist groß. | La mano es pequeña, pero la pierna es grande. | El brazo es pequeño, pero la pierna es grande. | HIGH | LABOT | |
-| 735 | ES-KURSS-LESSONS-L0504 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wo ist die Brust? | donde esta el cofre | ¿Dónde está el pecho? | CRITICAL | LABOT | |
-| 736 | ES-KURSS-LESSONS-L0505 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie viele Finger hat die Hand? | ¿Cik pirkstu ir plaukstai? | ¿Cuántos dedos tiene la mano? | CRITICAL | LABOT | |
-| 737 | ES-KURSS-LESSONS-L0506 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Die Hand hat fünf Finger. | Plaukstai ir pieci pirksti. | La mano tiene cinco dedos. | CRITICAL | LABOT | |
-| 738 | ES-KURSS-LESSONS-L0507 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Was hat der Finger? | ¿Kas ir pirkstam? | ¿Qué tiene el dedo? | CRITICAL | LABOT | |
-| 739 | ES-KURSS-LESSONS-L0508 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Der Finger hat einen Nagel. | Pirkstam ir regaña. | El dedo tiene una uña. | CRITICAL | LABOT | |
-| 740 | ES-KURSS-LESSONS-L0509 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Was tust du? | ¿Ko tu dari? | ¿Qué haces? | CRITICAL | LABOT | |
-| 741 | ES-KURSS-LESSONS-L0510 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Was tut Paul? | Ko Paul dara? | ¿Qué hace Paul? | CRITICAL | LABOT | |
-| 742 | ES-KURSS-LESSONS-L0511 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Sie strecken beide Arme aus. | Extienden ambas manos. | Extienden ambos brazos. | HIGH | LABOT | |
-| 743 | ES-KURSS-LESSONS-L0512 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Sie senken beide Arme. | Dejan caer ambas manos. | Bajan ambos brazos. | HIGH | LABOT | |
-| 744 | ES-KURSS-LESSONS-L0513 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Fräulein Müller, turnen Sie! | ¡Müller jaunkundze, vingrojiet! | ¡Señorita Müller, haga gimnasia! | CRITICAL | LABOT | |
-| 745 | ES-KURSS-LESSONS-L0514 | `lesson13` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Escribe la conjugación correcta en plural! | MEDIUM | LABOT | |
-| 746 | ES-KURSS-LESSONS-L0516 | `lesson14` | `kurss.lessonItems.14.menuDesc (lesson he…` |  | Verbos müssen, wollen, mögen y modales. | Verbos modales: müssen, wollen y mögen. | MEDIUM | LABOT | |
-| 747 | ES-KURSS-LESSONS-L0517 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.intro` |  | Lección Catorce: Verbos modales müssen, wollen y m… | Lección catorce: verbos modales müssen, wollen y m… | MEDIUM | LABOT | |
-| 748 | ES-KURSS-LESSONS-L0531 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | wir mögen | wir mögen — queremos | nos gusta | HIGH | LABOT | |
-| 749 | ES-KURSS-LESSONS-L0532 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | ihr mögt | ihr mögt — quieres | os gusta | HIGH | LABOT | |
-| 750 | ES-KURSS-LESSONS-L0534 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | munden | munden — para saber bien | saber bien | MEDIUM | LABOT | |
-| 751 | ES-KURSS-LESSONS-L0535 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | mir | mir — hombre | a mí | HIGH | LABOT | |
-| 752 | ES-KURSS-LESSONS-L0536 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | dir | dir — tev | a ti | HIGH | LABOT | |
-| 753 | ES-KURSS-LESSONS-L0537 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | ihr | ihr — ustedes | a vosotros | MEDIUM | LABOT | |
-| 754 | ES-KURSS-LESSONS-L0538 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | uns | uns — mamás | a nosotros | HIGH | LABOT | |
-| 755 | ES-KURSS-LESSONS-L0540 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | En presente singular, la 1ª y 3ª personas son igua… | En el presente, las formas de la 1.ª y 3.ª persona… | MEDIUM | LABOT | |
-| 756 | ES-KURSS-LESSONS-L0542 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Wollen significa querer hacer algo deliberadamente… | Wollen expresa la voluntad o intención de hacer al… | MEDIUM | LABOT | |
-| 757 | ES-KURSS-LESSONS-L0543 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Del mismo modo, en español la g ante s en «signos»… | Del mismo modo, en español la g ante s en «signos»… | En español, en «signos», la g va seguida de n, no … | HIGH | LABOT | |
-| 758 | ES-KURSS-LESSONS-L0544 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wer will fleißig lernen? | ¿Quién quiere estudiar mucho? | ¿Quién quiere estudiar con diligencia? | MEDIUM | LABOT | |
-| 759 | ES-KURSS-LESSONS-L0545 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Alle Schüler wollen fleißig lernen. | Todos los estudiantes quieren estudiar mucho. | Todos los estudiantes quieren estudiar con diligen… | MEDIUM | LABOT | |
-| 760 | ES-KURSS-LESSONS-L0546 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wer muss heute kommen? | ¿Quién debería venir hoy? | ¿Quién tiene que venir hoy? | HIGH | LABOT | |
-| 761 | ES-KURSS-LESSONS-L0547 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Du musst den Brief schreiben. | Tienes que escribir una carta. | Tienes que escribir la carta. | MEDIUM | LABOT | |
-| 762 | ES-KURSS-LESSONS-L0548 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wer muss fleißig lernen? | ¿Quién necesita estudiar mucho? | ¿Quién tiene que estudiar con diligencia? | HIGH | LABOT | |
-| 763 | ES-KURSS-LESSONS-L0549 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Die Schüler müssen fleißig lernen. | Los estudiantes deben estudiar mucho. | Los estudiantes tienen que estudiar con diligencia… | MEDIUM | LABOT | |
-| 764 | ES-KURSS-LESSONS-L0550 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wer will die Suppe essen? | ¿Quién quiere comer sopa? | ¿Quién quiere comer sopa con ganas? | MEDIUM | LABOT | |
-| 765 | ES-KURSS-LESSONS-L0551 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wer muss das Buch lesen? | ¿Quién debería leer el libro? | ¿Quién tiene que leer el libro? | HIGH | LABOT | |
-| 766 | ES-KURSS-LESSONS-L0552 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Der Bruder muss das Buch lesen. | El hermano debe leer un libro. | El hermano tiene que leer el libro. | MEDIUM | LABOT | |
-| 767 | ES-KURSS-LESSONS-L0553 | `lesson14` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Escribe la conjugación correcta y ponla en plural… | LOW | LABOT | |
-| 768 | ES-KURSS-LESSONS-L0555 | `lesson15` | `kurss.lessonItems.15.menuDesc (lesson he…` |  | sollen, dürfen, essen y frutas. | sollen, dürfen, essen y vocabulario sobre frutas. | MEDIUM | LABOT | |
-| 769 | ES-KURSS-LESSONS-L0556 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.intro` |  | Decimoquinta conferencia: sollen, dürfen, essen y … | Lección decimoquinta: sollen, dürfen, essen y voca… | HIGH | LABOT | |
-| 770 | ES-KURSS-LESSONS-L0557 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | sollen | sollen — debería | sollen — deber | HIGH | LABOT | |
-| 771 | ES-KURSS-LESSONS-L0564 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | du darfst | du darfst — usted puede | du darfst — tú puedes | HIGH | LABOT | |
-| 772 | ES-KURSS-LESSONS-L0565 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | ihr dürft | ihr dürft — usted puede | ihr dürft — vosotros podéis | HIGH | LABOT | |
-| 773 | ES-KURSS-LESSONS-L0567 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | entzweischneiden | entzweischneiden — cortado por la mitad | entzweischneiden — cortar por la mitad | HIGH | LABOT | |
-| 774 | ES-KURSS-LESSONS-L0569 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | du isst | du isst — usted come | tú comes | HIGH | LABOT | |
-| 775 | ES-KURSS-LESSONS-L0570 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | ihr esst | ihr esst — tú comes | vosotros coméis | HIGH | LABOT | |
-| 776 | ES-KURSS-LESSONS-L0571 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Sollen significa necesitar en el sentido del deber… | Sollen significa deber, en el sentido de una oblig… | HIGH | LABOT | |
-| 777 | ES-KURSS-LESSONS-L0573 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | sollen | sollen — debería | sollen — deber | HIGH | LABOT | |
-| 778 | ES-KURSS-LESSONS-L0574 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Essen es el siguiente. | La conjugación de «essen» es la siguiente. | MEDIUM | LABOT | |
-| 779 | ES-KURSS-LESSONS-L0575 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Si el proyecto utiliza escritura moderna, puede es… | Si se utiliza la ortografía moderna, se escriben a… | MEDIUM | LABOT | |
-| 780 | ES-KURSS-LESSONS-L0576 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | En el verbo compuesto entzweischneiden, el énfasis… | En el verbo compuesto entzweischneiden, el énfasis… | HIGH | LABOT | |
-| 781 | ES-KURSS-LESSONS-L0577 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | Nein, der Großvater darf nicht arbeiten, denn er i… | No, el abuelo no puede trabajar porque está enferm… | No, el abuelo no tiene permitido trabajar porque e… | HIGH | LABOT | |
-| 782 | ES-KURSS-LESSONS-L0578 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | Nein, die Pflaumen sollst du nicht essen, sie sind… | No, no hace falta que te comas las ciruelas, no ha… | No, no debes comerte las ciruelas; están verdes. | HIGH | LABOT | |
-| 783 | ES-KURSS-LESSONS-L0579 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | Isst du einen Apfel oder eine Birne? | ¿Comiste una manzana o una pera? | ¿Comes una manzana o una pera? | MEDIUM | LABOT | |
-| 784 | ES-KURSS-LESSONS-L0580 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | Darf das Kind das Messer nehmen? | ¿Puede un niño coger un cuchillo? | ¿Puede el niño coger el cuchillo? | MEDIUM | LABOT | |
-| 785 | ES-KURSS-LESSONS-L0581 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | Das Kind soll das Messer nicht nehmen, denn das Me… | Un niño no debe coger un cuchillo porque está afil… | El niño no debe coger el cuchillo porque está afil… | MEDIUM | LABOT | |
-| 786 | ES-KURSS-LESSONS-L0582 | `lesson15` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Escribe la forma correcta y hazlo en plural! | MEDIUM | LABOT | |
-| 787 | ES-KURSS-LESSONS-L0584 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.intro` |  | Decimosexta conferencia: dativo, geben, sich näher… | Lección decimosexta: dativo, geben, sich nähern y … | HIGH | LABOT | |
-| 788 | ES-KURSS-LESSONS-L0585 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | wem | wem — kam? | wem — a quién | HIGH | LABOT | |
-| 789 | ES-KURSS-LESSONS-L0586 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | die Felder | die Felder — campos / campos | die Felder — campos | MEDIUM | LABOT | |
-| 790 | ES-KURSS-LESSONS-L0587 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Dativs | Dativo | MEDIUM | LABOT | |
-| 791 | ES-KURSS-LESSONS-L0588 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | El dativo responde a la pregunta: ¿wem? - ¿A quien… | El dativo responde a la pregunta: ¿wem? — ¿A quién… | MEDIUM | LABOT | |
-| 792 | ES-KURSS-LESSONS-L0589 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Nominativ | Nominativ | Nominativo | MEDIUM | LABOT | |
-| 793 | ES-KURSS-LESSONS-L0590 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Dativ | Dativ | Dativo | MEDIUM | LABOT | |
-| 794 | ES-KURSS-LESSONS-L0591 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Akkusativ | Akkusativ | Acusativo | MEDIUM | LABOT | |
-| 795 | ES-KURSS-LESSONS-L0592 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Nominativ | Nominativ | Nominativo | MEDIUM | LABOT | |
-| 796 | ES-KURSS-LESSONS-L0593 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Dativ | Dativ | Dativo | MEDIUM | LABOT | |
-| 797 | ES-KURSS-LESSONS-L0594 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Akkusativ | Akkusativ | Acusativo | MEDIUM | LABOT | |
-| 798 | ES-KURSS-LESSONS-L0596 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Bez artikula | Sin artículo | HIGH | LABOT | |
-| 799 | ES-KURSS-LESSONS-L0598 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Der Vater ruft die Männer, die Frauen, die Kinder,… | Der Vater ruft den Mann, die Frau, das Kind, den S… | Der Vater ruft die Männer, die Frauen, die Kinder,… | HIGH | LABOT | |
-| 800 | ES-KURSS-LESSONS-L0599 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Der Vater nähert sich den Knechten, den Töchtern, … | Der Vater nähert sich dem Knechte, der Tochter, de… | Der Vater nähert sich den Knechten, den Töchtern, … | HIGH | LABOT | |
-| 801 | ES-KURSS-LESSONS-L0600 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wen ruft der Vater? | ¿Cómo se llama el padre? | ¿A quién llama el padre? | HIGH | LABOT | |
-| 802 | ES-KURSS-LESSONS-L0601 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wem gehorcht der Hund? | Kam paklausa soles? | ¿A quién obedece el perro? | CRITICAL | LABOT | |
-| 803 | ES-KURSS-LESSONS-L0602 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wieviel Hunde hat der Jäger? | ¿Cuantos perros tiene el cazador? | ¿Cuántos perros tiene el cazador? | MEDIUM | LABOT | |
-| 804 | ES-KURSS-LESSONS-L0603 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wer nähert sich den Schülern und Schülerinnen? | ¿Qué se acerca a los escolares y las niñas? | ¿Quién se acerca a los escolares y las alumnas? | HIGH | LABOT | |
-| 805 | ES-KURSS-LESSONS-L0604 | `lesson16` | `kurss.sections.names (section title disp…` |  | Nombres | Sustantivos | MEDIUM | LABOT | |
-| 806 | ES-KURSS-LESSONS-L0605 | `lesson16` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | HIGH | LABOT | |
-| 807 | ES-KURSS-LESSONS-L0606 | `lesson16` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Elige el caso correcto y escribe la forma plural! | HIGH | LABOT | |
-| 808 | ES-KURSS-LESSONS-L0611 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | womit | womit — ar ko? | womit — ¿con qué? | HIGH | LABOT | |
-| 809 | ES-KURSS-LESSONS-L0613 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | der Schuldiener | der Schuldiener — asistente de escuela | der Schuldiener — conserje de la escuela | MEDIUM | LABOT | |
-| 810 | ES-KURSS-LESSONS-L0614 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | die Diele | die Diele — piso | die Diele — recibidor / vestíbulo | HIGH | LABOT | |
-| 811 | ES-KURSS-LESSONS-L0616 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | abwischen | abwischen — limpiar | abwischen — limpiar pasando un paño / quitar limpi… | MEDIUM | LABOT | |
-| 812 | ES-KURSS-LESSONS-L0618 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Los verbos graben, fangen, auffangen tienen diéres… | En la 2.ª y 3.ª persona del singular, la vocal a d… | MEDIUM | LABOT | |
-| 813 | ES-KURSS-LESSONS-L0619 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Los verbos compuestos auffangen y abwischen llevan… | Los verbos compuestos auffangen y abwischen llevan… | HIGH | LABOT | |
-| 814 | ES-KURSS-LESSONS-L0620 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Fegen y wischen significan barrer, pero el uso es … | Fegen significa «barrer», mientras que wischen sig… | MEDIUM | LABOT | |
-| 815 | ES-KURSS-LESSONS-L0621 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Was wischt das Mädchen ab? | ¿Ko meitene noslauka? | ¿Qué limpia la niña? | CRITICAL | LABOT | |
-| 816 | ES-KURSS-LESSONS-L0622 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Womit arbeiten wir? | ¿Con quién trabajamos? | ¿Con qué trabajamos? | HIGH | LABOT | |
-| 817 | ES-KURSS-LESSONS-L0623 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Mit wem geht der Bruder? | ¿Con qué va el hermano? | ¿Con quién va el hermano? | HIGH | LABOT | |
-| 818 | ES-KURSS-LESSONS-L0624 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Bruder geht mit dem Vater, mit der Mutter, mit… | Un hermano va con su padre, con su madre, con su m… | El hermano va con el padre, con la madre, con el m… | HIGH | LABOT | |
-| 819 | ES-KURSS-LESSONS-L0625 | `lesson17` | `kurss.hints.tapToRevealGerman` |  | Toque la tarjeta para ver la traducción al alemán. | Toca la tarjeta para ver la traducción al alemán. | LOW | LABOT | |
-| 820 | ES-KURSS-LESSONS-L0626 | `lesson17` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | Escribe la conjugación correcta y ponla en plural. | MEDIUM | LABOT | |
-| 821 | ES-KURSS-LESSONS-L0631 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | wohin | wohin — kurp? | wohin — adónde | HIGH | LABOT | |
-| 822 | ES-KURSS-LESSONS-L0633 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | wo | wo — kur? | wo — dónde | HIGH | LABOT | |
-| 823 | ES-KURSS-LESSONS-L0635 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | das Körbchen | das Körbchen — una cesta | das Körbchen — cestita | MEDIUM | LABOT | |
-| 824 | ES-KURSS-LESSONS-L0637 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | die Diele | die Diele — piso | die Diele — recibidor / pasillo | HIGH | LABOT | |
-| 825 | ES-KURSS-LESSONS-L0638 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Las preposiciones an, in, auf pueden acompañar tan… | Las preposiciones an, in y auf pueden regir tanto … | MEDIUM | LABOT | |
-| 826 | ES-KURSS-LESSONS-L0639 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Si la acción indica un cambio de dirección o de lu… | Si la acción indica un cambio de dirección o de lu… | HIGH | LABOT | |
-| 827 | ES-KURSS-LESSONS-L0640 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Ich gehe an den Tisch. | Ich gehe an den Tisch. — Es eju pie galda. | Ich gehe an den Tisch. — Voy a la mesa. | CRITICAL | LABOT | |
-| 828 | ES-KURSS-LESSONS-L0641 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Ich stelle den Korb auf die Bank. | Ich stelle den Korb auf die Bank. — Es nolieku gro… | Ich stelle den Korb auf die Bank. — Coloco la cest… | CRITICAL | LABOT | |
-| 829 | ES-KURSS-LESSONS-L0642 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Estos verbos suelen indicar dirección y por tanto … | Estos verbos suelen indicar dirección y, por tanto… | MEDIUM | LABOT | |
-| 830 | ES-KURSS-LESSONS-L0643 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | gehen | gehen — iet | gehen — ir | CRITICAL | LABOT | |
-| 831 | ES-KURSS-LESSONS-L0644 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | fahren | fahren — braukt | fahren — desplazarse / ir en vehículo | CRITICAL | LABOT | |
-| 832 | ES-KURSS-LESSONS-L0645 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | laufen | laufen — skriet | laufen — correr | CRITICAL | LABOT | |
-| 833 | ES-KURSS-LESSONS-L0646 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | fliegen | fliegen — lidot | fliegen — volar | CRITICAL | LABOT | |
-| 834 | ES-KURSS-LESSONS-L0648 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Estos verbos suelen indicar ubicación o estado y p… | Estos verbos suelen indicar ubicación o estado y, … | MEDIUM | LABOT | |
-| 835 | ES-KURSS-LESSONS-L0649 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | sich befinden | sich befinden — atrasties | sich befinden — encontrarse / estar situado | CRITICAL | LABOT | |
-| 836 | ES-KURSS-LESSONS-L0650 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | sitzen | sitzen — sentarse | sitzen — estar sentado | HIGH | LABOT | |
-| 837 | ES-KURSS-LESSONS-L0651 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | finden | finden — atrast | finden — encontrar | CRITICAL | LABOT | |
-| 838 | ES-KURSS-LESSONS-L0652 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Los sustantivos suelen aparecer sin article. | Los sustantivos suelen aparecer sin artículo. | HIGH | LABOT | |
-| 839 | ES-KURSS-LESSONS-L0653 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Ich trinke Milch. | Ich trinke Milch. — Es dzeru pienu. | Ich trinke Milch. — Bebo leche. | HIGH | LABOT | |
-| 840 | ES-KURSS-LESSONS-L0655 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | in + vieta | in + lugar | HIGH | LABOT | |
-| 841 | ES-KURSS-LESSONS-L0656 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Si la preposición in no se traduce como "en", pero… | Si la preposición in no se traduce como «en», pero… | MEDIUM | LABOT | |
-| 842 | ES-KURSS-LESSONS-L0657 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Wohin kommt der Diener? | ¿De dónde viene el servidor? | ¿Adónde viene el sirviente? | HIGH | LABOT | |
-| 843 | ES-KURSS-LESSONS-L0658 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Wo arbeitet er? | donde trabaja | ¿Dónde trabaja? | MEDIUM | LABOT | |
-| 844 | ES-KURSS-LESSONS-L0659 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Sie suchen Beeren in dem Walde. | Recogen bayas en el bosque. | Buscan bayas en el bosque. | MEDIUM | LABOT | |
-| 845 | ES-KURSS-LESSONS-L0660 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Der Schüler legt die Hefte in die Mappe. | El estudiante pone los cuadernos en la bolsa. | El estudiante pone los cuadernos en la carpeta. | MEDIUM | LABOT | |
-| 846 | ES-KURSS-LESSONS-L0661 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Die Hefte sind jetzt in der Mappe. | Las cartas ya están en la bolsa. | Los cuadernos están ahora en la carpeta. | HIGH | LABOT | |
-| 847 | ES-KURSS-LESSONS-L0662 | `lesson18` | `kurss.sections.names (section title disp…` |  | Nombres | Sustantivos | MEDIUM | LABOT | |
-| 848 | ES-KURSS-LESSONS-L0663 | `lesson18` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa la declinación correcta | MEDIUM | LABOT | |
-| 849 | ES-KURSS-LESSONS-L0664 | `lesson18` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa la declinación correcta y escribe las formas … | MEDIUM | LABOT | |
-| 850 | ES-KURSS-LESSONS-L0666 | `lesson19` | `kurss.lessonItems.19.menuDesc (lesson he…` |  | Wechselpräpositionen: vor, hinder, unter, über, ne… | Preposiciones de doble régimen: vor, hinter, unter… | HIGH | LABOT | |
-| 851 | ES-KURSS-LESSONS-L0667 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.intro` |  | Decimonovena Conferencia: vor, hinder, unter, über… | Lección decimonovena: vor, hinter, unter, über, ne… | HIGH | LABOT | |
-| 852 | ES-KURSS-LESSONS-L0668 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | vor | vor — antes | vor — delante de | MEDIUM | LABOT | |
-| 853 | ES-KURSS-LESSONS-L0669 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | die Scheune | die Scheune — cobertizo | der Scheune — granero | MEDIUM | LABOT | |
-| 854 | ES-KURSS-LESSONS-L0670 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | das Land | das Land — país / tierra | das Land — país | MEDIUM | LABOT | |
-| 855 | ES-KURSS-LESSONS-L0671 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Wechselpräpositionen | Preposiciones de doble régimen | HIGH | LABOT | |
-| 856 | ES-KURSS-LESSONS-L0672 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | En esta conferencia, continuamos con preposiciones… | En esta lección, continuamos con las preposiciones… | MEDIUM | LABOT | |
-| 857 | ES-KURSS-LESSONS-L0674 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Si hay una ubicación, la pregunta es ¿wo? y utiliz… | Si se indica una ubicación, la pregunta es «¿dónde… | MEDIUM | LABOT | |
-| 858 | ES-KURSS-LESSONS-L0676 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kopsavilkums: wohin? | Resumen: wohin? | HIGH | LABOT | |
-| 859 | ES-KURSS-LESSONS-L0677 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | ¿Quién? → Ackusativo | ¿Adónde? → acusativo | CRITICAL | LABOT | |
-| 860 | ES-KURSS-LESSONS-L0679 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kopsavilkums: wo? | Resumen: wo? | HIGH | LABOT | |
-| 861 | ES-KURSS-LESSONS-L0680 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | ¿Quién? → Dativo | ¿Dónde? → Dativo | HIGH | LABOT | |
-| 862 | ES-KURSS-LESSONS-L0681 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | gehen - ir cuando la acción significa caminar cont… | gehen = ir o caminar cuando se expresa un desplaza… | MEDIUM | LABOT | |
-| 863 | ES-KURSS-LESSONS-L0682 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | En hinter, la h se pronuncia y la e es abierta. | En hinter, la h se pronuncia y la e es abierta. | En hinter, la h se pronuncia y la e es átona. | MEDIUM | LABOT | |
-| 864 | ES-KURSS-LESSONS-L0683 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | En wachsen, ch se pronuncia como k. | En wachsen, ch se pronuncia como k. | En wachsen, ch se pronuncia junto con la s como [k… | HIGH | LABOT | |
-| 865 | ES-KURSS-LESSONS-L0684 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er hat eine Karte in der Hand. | Tiene una card en la mano. | Tiene una tarjeta en la mano. | HIGH | LABOT | |
-| 866 | ES-KURSS-LESSONS-L0685 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er zeigt den Schülern und Schülerinnen viele Lände… | Muestra a los niños y niñas muchas ciudades, tierr… | Muestra a los alumnos y alumnas muchos países, ciu… | MEDIUM | LABOT | |
-| 867 | ES-KURSS-LESSONS-L0686 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Dann ruft der Lehrer einen Schüler auf. | Luego el profesor llama al alumno. | Luego el profesor llama a un alumno. | MEDIUM | LABOT | |
-| 868 | ES-KURSS-LESSONS-L0687 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Der Schüler tritt an die Karte. | Skolnieks pieiet pie kartes. | El alumno se acerca al mapa. | CRITICAL | LABOT | |
-| 869 | ES-KURSS-LESSONS-L0688 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er bleibt vor der Karte stehen. | Él permanece de pie frente a la card. | Él permanece de pie frente a la tarjeta. | HIGH | LABOT | |
-| 870 | ES-KURSS-LESSONS-L0689 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | So arbeitet der Lehrer in der Klasse. | Así trabaja un profesor en un aula. | Así trabaja el profesor en el aula. | MEDIUM | LABOT | |
-| 871 | ES-KURSS-LESSONS-L0690 | `lesson19` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | HIGH | LABOT | |
-| 872 | ES-KURSS-LESSONS-L0691 | `lesson19` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa el caso correcto y ponlo en plural! | HIGH | LABOT | |
-| 873 | ES-KURSS-LESSONS-L0694 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | das Holz | das Holz — madera / leña | das Holz — madera | MEDIUM | LABOT | |
-| 874 | ES-KURSS-LESSONS-L0695 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | das Vorhaus | das Vorhaus — vestíbulo / pasillo | das Vorhaus — vestíbulo | LOW | LABOT | |
-| 875 | ES-KURSS-LESSONS-L0696 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | der Boden | der Boden — el piso | der Boden — el suelo | MEDIUM | LABOT | |
-| 876 | ES-KURSS-LESSONS-L0697 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | brennen | brennen — arder / quemar | brennen — arder | MEDIUM | LABOT | |
-| 877 | ES-KURSS-LESSONS-L0698 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Dativs ar wann? | El dativo: ¿cuándo? | HIGH | LABOT | |
-| 878 | ES-KURSS-LESSONS-L0699 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Palabras de tráfico que responden a la pregunta ¿q… | Las preposiciones temporales que responden a la pr… | CRITICAL | LABOT | |
-| 879 | ES-KURSS-LESSONS-L0700 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Muchas preposiciones se unen al article. | Muchas preposiciones se unen al artículo. | HIGH | LABOT | |
-| 880 | ES-KURSS-LESSONS-L0702 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was ist hoch? | ¿Kas ir aumenta? | ¿Qué es alto? | CRITICAL | LABOT | |
-| 881 | ES-KURSS-LESSONS-L0703 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wieviel Stockwerke hat das Haus? | ¿Cuantos pisos tiene la casa? | ¿Cuántos pisos tiene la casa? | HIGH | LABOT | |
-| 882 | ES-KURSS-LESSONS-L0704 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was tut er? | ¿Qué está haciendo? | ¿Qué hace? | MEDIUM | LABOT | |
-| 883 | ES-KURSS-LESSONS-L0705 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was hat die Stadt? | ¿Cuál es la ciudad? | ¿Qué tiene la ciudad? | HIGH | LABOT | |
-| 884 | ES-KURSS-LESSONS-L0706 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wer muss arbeiten? | ¿Quién necesita trabajar? | ¿Quién tiene que trabajar? | MEDIUM | LABOT | |
-| 885 | ES-KURSS-LESSONS-L0707 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wohin musst du das Holz tragen? | ¿Dónde necesitas llevar leña? | ¿Adónde necesitas llevar la leña? | HIGH | LABOT | |
-| 886 | ES-KURSS-LESSONS-L0708 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wohin steckst du das Holz? | Kurp tu liec malku? | ¿Adónde metes la leña? | CRITICAL | LABOT | |
-| 887 | ES-KURSS-LESSONS-L0709 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was zündest du an? | ¿Ko tu aizdedzini? | ¿Qué enciendes? | CRITICAL | LABOT | |
-| 888 | ES-KURSS-LESSONS-L0710 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was brennt hell? | ¿Qué arde intensamente? | ¿Qué arde con brillo? | MEDIUM | LABOT | |
-| 889 | ES-KURSS-LESSONS-L0711 | `lesson20` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Completa con el caso correcto | HIGH | LABOT | |
-| 890 | ES-KURSS-LESSONS-L0712 | `lesson20` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Elige el caso correcto y forma el plural! | HIGH | LABOT | |
-| 891 | ES-KURSS-LESSONS-L0716 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | sägen | sägen — sierra | sägen — serrar | HIGH | LABOT | |
-| 892 | ES-KURSS-LESSONS-L0717 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | spalten | spalten — dividir | spalten — partir (madera) | MEDIUM | LABOT | |
-| 893 | ES-KURSS-LESSONS-L0720 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | aus | aus — no / iz | aus — de / desde; fuera de | HIGH | LABOT | |
-| 894 | ES-KURSS-LESSONS-L0722 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` |  | Woher? — no kurienes? | Woher? — ¿De dónde? | HIGH | LABOT | |
-| 895 | ES-KURSS-LESSONS-L0723 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Die Fenster sind aus Glas. | Die Fenster sind aus Glas. | Las ventanas son de vidrio. | HIGH | LABOT | |
-| 896 | ES-KURSS-LESSONS-L0724 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Die Kissen sind aus Federn. | Die Kissen sind aus Federn. | Las almohadas son de plumas. | HIGH | LABOT | |
-| 897 | ES-KURSS-LESSONS-L0725 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Man macht aus Wolle Kleider. | Man macht aus Wolle Kleider. | Se hacen vestidos de lana. | HIGH | LABOT | |
-| 898 | ES-KURSS-LESSONS-L0726 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | En arbeiten, das Beil y steigen, ei se pronuncia «… | En arbeiten, das Beil y steigen, ei se pronuncia «… | En das Beil y steigen, la combinación ei se pronun… | MEDIUM | LABOT | |
-| 899 | ES-KURSS-LESSONS-L0727 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Der Vater kommt von dem Felde. | Woher kommt der Vater? | ¿De dónde viene el padre? | HIGH | LABOT | |
-| 900 | ES-KURSS-LESSONS-L0728 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Er geht in die Scheune. | Wohin geht er? | ¿Adónde va? | HIGH | LABOT | |
-| 901 | ES-KURSS-LESSONS-L0729 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Er spricht in der Scheune mit den Holzhauern. | Wo spricht er mit den Holzhauern? | ¿Dónde habla con los leñadores? | HIGH | LABOT | |
-| 902 | ES-KURSS-LESSONS-L0730 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Der Mann steigt von dem Berge. | Woher steigt der Mann? | ¿De dónde baja el hombre? | HIGH | LABOT | |
-| 903 | ES-KURSS-LESSONS-L0731 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Er kommt auf den Hof. | Wohin kommt er? | ¿Adónde llega? | HIGH | LABOT | |
-| 904 | ES-KURSS-LESSONS-L0732 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Er findet den Vater auf dem Hof. | Wo findet er den Vater? | ¿Dónde encuentra al padre? | HIGH | LABOT | |
-| 905 | ES-KURSS-LESSONS-L0733 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Die Mutter tritt aus dem Hause. | Woher tritt die Mutter? | ¿De dónde sale la madre? | HIGH | LABOT | |
-| 906 | ES-KURSS-LESSONS-L0734 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Sie geht auf den Hof. | Wohin geht sie? | ¿Adónde va? | HIGH | LABOT | |
-| 907 | ES-KURSS-LESSONS-L0735 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Sie sieht den Mann auf dem Hof. | Wo sieht sie den Mann? | ¿Dónde ve al hombre? | HIGH | LABOT | |
-| 908 | ES-KURSS-LESSONS-L0736 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Die Magd kommt aus der Küche. | Woher kommt die Magd? | ¿De dónde viene la criada? | HIGH | LABOT | |
-| 909 | ES-KURSS-LESSONS-L0737 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Sie eilt in den Keller. | Wohin eilt sie? | ¿Adónde corre? | HIGH | LABOT | |
-| 910 | ES-KURSS-LESSONS-L0738 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ein Eimer mit Milch steht im Keller. | Wo steht ein Eimer mit Milch? | ¿Dónde hay un cubo de leche? | HIGH | LABOT | |
-| 911 | ES-KURSS-LESSONS-L0739 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Sie steigt aus dem Keller. | Woher steigt sie? | ¿De dónde sale? | HIGH | LABOT | |
-| 912 | ES-KURSS-LESSONS-L0740 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Sie geht in die Küche zurück. | Wohin geht sie zurück? | ¿Adónde vuelve? | HIGH | LABOT | |
-| 913 | ES-KURSS-LESSONS-L0741 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Sie arbeitet fleißig in der Küche. | Wo arbeitet sie fleißig? | ¿Dónde trabaja con diligencia? | HIGH | LABOT | |
-| 914 | ES-KURSS-LESSONS-L0742 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ich nehme die Hefte aus der Mappe. | Saco los cuadernos de mi bolso. | Saco los cuadernos de la carpeta. | MEDIUM | LABOT | |
-| 915 | ES-KURSS-LESSONS-L0743 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ich ziehe die Uhr aus der Tasche. | Llevo un reloj en mi bolsillo. | Saco el reloj de la bolsa. | HIGH | LABOT | |
-| 916 | ES-KURSS-LESSONS-L0744 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ich trage den Eimer aus dem Keller. | Es nesu spaini no pagraba. | Llevo el cubo desde el sótano. | CRITICAL | LABOT | |
-| 917 | ES-KURSS-LESSONS-L0745 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ich nehme die Mütze vom Kopfe. | Me quito el sombrero de la cabeza. | Me quito el gorro de la cabeza. | MEDIUM | LABOT | |
-| 918 | ES-KURSS-LESSONS-L0746 | `lesson21` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | MEDIUM | LABOT | |
-| 919 | ES-KURSS-LESSONS-L0747 | `lesson21` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa el caso correcto y forma el plural! | MEDIUM | LABOT | |
+| 335 | ES-KURSS-LESSONS-LV2-0001 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | nosotros ven | nosotros venimos | HIGH | LABOT | |
+| 336 | ES-KURSS-LESSONS-LV2-0002 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú vienes | vosotros venís | HIGH | LABOT | |
+| 337 | ES-KURSS-LESSONS-LV2-0005 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | he / ella va | él / ella va | HIGH | LABOT | |
+| 338 | ES-KURSS-LESSONS-LV2-0006 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú ejat | vosotros vais | CRITICAL | LABOT | |
+| 339 | ES-KURSS-LESSONS-LV2-0008 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ♟stehen | ♟stehen — pararse | ♟stehen — estar de pie | MEDIUM | LABOT | |
+| 340 | ES-KURSS-LESSONS-LV2-0009 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | I stand | yo estoy de pie | CRITICAL | LABOT | |
+| 341 | ES-KURSS-LESSONS-LV2-0010 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú estás de pie | vosotros estáis de pie | HIGH | LABOT | |
+| 342 | ES-KURSS-LESSONS-LV2-0012 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ♟singen | ♟singen — to canta | ♟singen — cantar | CRITICAL | LABOT | |
+| 343 | ES-KURSS-LESSONS-LV2-0013 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | tú cantas | vosotros cantáis | HIGH | LABOT | |
+| 344 | ES-KURSS-LESSONS-LV2-0015 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | iEl La pronunciación aproximada de las palabras se… | La pronunciación aproximada de las palabras se ind… | HIGH | LABOT | |
+| 345 | ES-KURSS-LESSONS-LV2-0019 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | singen (zingen) | singen (zingen) — canta | singen (zingen) — cantar | MEDIUM | LABOT | |
+| 346 | ES-KURSS-LESSONS-LV2-0023 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ich → | ich → -ich komme | ich → ich komme | MEDIUM | LABOT | |
+| 347 | ES-KURSS-LESSONS-LV2-0024 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | du → | du → -du kommst | du → du kommst | MEDIUM | LABOT | |
+| 348 | ES-KURSS-LESSONS-LV2-0025 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | er / sie → | er / sie → -er kommt | er / sie → er kommt | MEDIUM | LABOT | |
+| 349 | ES-KURSS-LESSONS-LV2-0026 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | wir → | wir → -wir kommen | wir → wir kommen | MEDIUM | LABOT | |
+| 350 | ES-KURSS-LESSONS-LV2-0027 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | ihr → | ihr → -En letón: | ihr → ihr kommt | CRITICAL | LABOT | |
+| 351 | ES-KURSS-LESSONS-LV2-0028 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` | sie → | sie → -Alemán en: | sie → sie kommen | CRITICAL | LABOT | |
+| 352 | ES-KURSS-LESSONS-LV2-0030 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ♟Presente terminaciones | ♟ Terminaciones del presente | MEDIUM | LABOT | |
+| 353 | ES-KURSS-LESSONS-LV2-0031 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ?Oraciones de preguntas | ?Oraciones interrogativas | MEDIUM | LABOT | |
+| 354 | ES-KURSS-LESSONS-LV2-0032 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | ♣Diferencia de persona | ♣Diferencias según la persona | MEDIUM | LABOT | |
+| 355 | ES-KURSS-LESSONS-LV2-0033 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | Eliminar -en de las formas base del verbo y agrega… | Eliminar -en de la forma básica del verbo y añadir… | HIGH | LABOT | |
+| 356 | ES-KURSS-LESSONS-LV2-0034 | `lesson1` | `COURSE_LESSON_DATA.kurssLesson1.legacyHt…` |  | Eliminar -en de las formas base del verbo y agrega… | Eliminar -en de la forma básica del verbo y añadir… | MEDIUM | LABOT | |
+| 357 | ES-KURSS-LESSONS-LV2-0035 | `lesson1` | `lesson1TrainingCardsEs[0].front` | Kommst du? | ¿vienes? | ¿Vienes? | LOW | LABOT | |
+| 358 | ES-KURSS-LESSONS-LV2-0036 | `lesson1` | `lesson1TrainingCardsEs[5].front` | Ja, sie gehen. | Sí, van. | Sí, se van. | MEDIUM | LABOT | |
+| 359 | ES-KURSS-LESSONS-LV2-0037 | `lesson1` | `lesson1TrainingCardsEs[9].front` | Geht ihr? | Vas a ir | ¿Vais? | HIGH | LABOT | |
+| 360 | ES-KURSS-LESSONS-LV2-0040 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | nein | nein — trabajar | nein — no | HIGH | LABOT | |
+| 361 | ES-KURSS-LESSONS-LV2-0041 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | nicht | nicht — preguntar | nicht — no | HIGH | LABOT | |
+| 362 | ES-KURSS-LESSONS-LV2-0042 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | arbeiten | arbeiten — was tut er? ¿Qué está haciendo? | arbeiten — trabajar | HIGH | LABOT | |
+| 363 | ES-KURSS-LESSONS-LV2-0043 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | fragen | fragen — ¿qué hacen ellos? | fragen — preguntar | HIGH | LABOT | |
+| 364 | ES-KURSS-LESSONS-LV2-0044 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | was tut er? | was tut er? — responder | was tut er? — ¿qué hace él? | HIGH | LABOT | |
+| 365 | ES-KURSS-LESSONS-LV2-0045 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | was tun sie? | was tun sie? — calcular | was tun sie? — ¿qué hacen ellos? | HIGH | LABOT | |
+| 366 | ES-KURSS-LESSONS-LV2-0046 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | aber | aber — dibujar | aber — pero | HIGH | LABOT | |
+| 367 | ES-KURSS-LESSONS-LV2-0047 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | antworten | antworten — Marie | antworten — responder | HIGH | LABOT | |
+| 368 | ES-KURSS-LESSONS-LV2-0051 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` | nosotros rechnen | nosotros rechnen | wir rechnen | HIGH | LABOT | |
+| 369 | ES-KURSS-LESSONS-LV2-0052 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | En oraciones interrogativas que comienzan con la p… | En las oraciones interrogativas que comienzan con … | HIGH | LABOT | |
+| 370 | ES-KURSS-LESSONS-LV2-0053 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | 1Terminaciones con e | 1. Terminaciones con e | MEDIUM | LABOT | |
+| 371 | ES-KURSS-LESSONS-LV2-0054 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | 2Palabra en cuestión | 2. Palabra interrogativa | MEDIUM | LABOT | |
+| 372 | ES-KURSS-LESSONS-LV2-0055 | `lesson2` | `COURSE_LESSON_DATA.kurssLesson2.legacyHt…` |  | 3Negación con nicht | 3. Negación con nicht | MEDIUM | LABOT | |
+| 373 | ES-KURSS-LESSONS-LV2-0056 | `lesson2` | `lesson2TrainingCardsEs[1].front` | Paul fragt. | pregunta Pablo. | Pablo pregunta. | MEDIUM | LABOT | |
+| 374 | ES-KURSS-LESSONS-LV2-0057 | `lesson2` | `lesson2TrainingCardsEs[6].front` | Nein, sie singen nicht, sie rechnen. | No, no cantan, cuentan. | No, no cantan, calculan. | HIGH | LABOT | |
+| 375 | ES-KURSS-LESSONS-LV2-0058 | `lesson2` | `lesson2TrainingCardsEs[8].front` | Ich stehe und singe. | Me paro y canto. | Estoy de pie y canto. | MEDIUM | LABOT | |
+| 376 | ES-KURSS-LESSONS-LV2-0059 | `lesson2` | `lesson2TrainingCardsEs[9].front` | Zeichnet ihr? | ¿Dibujas? | ¿Dibujan? | HIGH | LABOT | |
+| 377 | ES-KURSS-LESSONS-LV2-0060 | `lesson2` | `lesson2TrainingCardsEs[10].front` | Ja, wir zeichnen, aber Marie spielt. | Sí, empatamos, pero María juega. | Sí, dibujamos, pero María juega. | HIGH | LABOT | |
+| 378 | ES-KURSS-LESSONS-LV2-0061 | `lesson2` | `lesson2TrainingCardsEs[11].front` | Was tut ihr? | qué estás haciendo | qué están haciendo | HIGH | LABOT | |
+| 379 | ES-KURSS-LESSONS-LV2-0062 | `lesson2` | `lesson2TrainingCardsEs[13].front` | Wer geht? | ¿Qué está sucediendo? | ¿Quién se va? | HIGH | LABOT | |
+| 380 | ES-KURSS-LESSONS-LV2-0064 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | wer | wer — aquí | wer — quién | HIGH | LABOT | |
+| 381 | ES-KURSS-LESSONS-LV2-0065 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | was | was — allí | was — qué | HIGH | LABOT | |
+| 382 | ES-KURSS-LESSONS-LV2-0066 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | hier | hier — der Tisch table | hier — aquí | HIGH | LABOT | |
+| 383 | ES-KURSS-LESSONS-LV2-0067 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | dort | dort — mesa | dort — allí | HIGH | LABOT | |
+| 384 | ES-KURSS-LESSONS-LV2-0068 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | der Tisch | der Tisch — banco | der Tisch — la mesa | HIGH | LABOT | |
+| 385 | ES-KURSS-LESSONS-LV2-0069 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Tisch | ein Tisch — banco | ein Tisch — una mesa | HIGH | LABOT | |
+| 386 | ES-KURSS-LESSONS-LV2-0070 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | die Bank | die Bank — tumbado | die Bank — el banco | HIGH | LABOT | |
+| 387 | ES-KURSS-LESSONS-LV2-0072 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | liegen | liegen — un libro | liegen — estar tumbado | HIGH | LABOT | |
+| 388 | ES-KURSS-LESSONS-LV2-0073 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | liegt hier ein Buch? | liegt hier ein Buch? — un libro | liegt hier ein Buch? — ¿Hay un libro aquí? | HIGH | LABOT | |
+| 389 | ES-KURSS-LESSONS-LV2-0074 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | das Buch | das Buch — hang | das Buch — el libro | HIGH | LABOT | |
+| 390 | ES-KURSS-LESSONS-LV2-0075 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Buch | ein Buch — imagen | ein Buch — un libro | HIGH | LABOT | |
+| 391 | ES-KURSS-LESSONS-LV2-0076 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | hängen | hängen — imagen | hängen — estar colgado | HIGH | LABOT | |
+| 392 | ES-KURSS-LESSONS-LV2-0077 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | das Bild | das Bild — pizarra | das Bild — la imagen | HIGH | LABOT | |
+| 393 | ES-KURSS-LESSONS-LV2-0078 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Bild | ein Bild — pizarra | ein Bild — una imagen | HIGH | LABOT | |
+| 394 | ES-KURSS-LESSONS-LV2-0079 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | die Tafel | die Tafel — alguien, qué | die Tafel — la pizarra | HIGH | LABOT | |
+| 395 | ES-KURSS-LESSONS-LV2-0080 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | eine Tafel | eine Tafel — es | eine Tafel — una pizarra | HIGH | LABOT | |
+| 396 | ES-KURSS-LESSONS-LV2-0081 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | wie | wie — grueso, gordo | wie — cómo | HIGH | LABOT | |
+| 397 | ES-KURSS-LESSONS-LV2-0082 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ist | ist — cuaderno | ist — es | HIGH | LABOT | |
+| 398 | ES-KURSS-LESSONS-LV2-0083 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | dick | dick — cuaderno | dick — grueso | HIGH | LABOT | |
+| 399 | ES-KURSS-LESSONS-LV2-0084 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | das Heft | das Heft — delgado, delgado | das Heft — el cuaderno | HIGH | LABOT | |
+| 400 | ES-KURSS-LESSONS-LV2-0085 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Heft | ein Heft — bajo | ein Heft — un cuaderno | HIGH | LABOT | |
+| 401 | ES-KURSS-LESSONS-LV2-0086 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | dünn | dünn — alto | dünn — delgado | HIGH | LABOT | |
+| 402 | ES-KURSS-LESSONS-LV2-0087 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | wer | wer - qué | wer — quién | HIGH | LABOT | |
+| 403 | ES-KURSS-LESSONS-LV2-0091 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | Ja galotne | Ja galotne -¿Ar qué? pregunta por temas. | Si la terminación es -… | HIGH | LABOT | |
+| 404 | ES-KURSS-LESSONS-LV2-0098 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | der Tisch | der Tisch — die Hefte | la mesa — los cuadernos | HIGH | LABOT | |
+| 405 | ES-KURSS-LESSONS-LV2-0099 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | die Bank | die Bank — ein | el banco — un | HIGH | LABOT | |
+| 406 | ES-KURSS-LESSONS-LV2-0100 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | das Heft | das Heft — eine | el cuaderno — una | HIGH | LABOT | |
+| 407 | ES-KURSS-LESSONS-LV2-0105 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Tisch | ein Tisch — Hans spielt, aber Marie singt. | una mesa — Hans juega, pero Marie canta. | HIGH | LABOT | |
+| 408 | ES-KURSS-LESSONS-LV2-0106 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | ein Heft | ein Heft — Hier hängt eine Karte. | un cuaderno — Aquí cuelga un mapa. | HIGH | LABOT | |
+| 409 | ES-KURSS-LESSONS-LV2-0107 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | Hans spielt, aber Marie singt. | Hans spielt, aber Marie singt. | Hans juega, pero Marie canta. | HIGH | LABOT | |
+| 410 | ES-KURSS-LESSONS-LV2-0108 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | Hier hängt eine Karte. | Hier hängt eine Karte. | Aquí cuelga un mapa. | HIGH | LABOT | |
+| 411 | ES-KURSS-LESSONS-LV2-0111 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | En el idioma alemán, el sustantivo tiene 3 casos: … | En alemán, los sustantivos tienen tres géneros: ma… | HIGH | LABOT | |
+| 412 | ES-KURSS-LESSONS-LV2-0112 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | Sin artículos delante de nombres propios. | No se usan artículos delante de los nombres propio… | LOW | LABOT | |
+| 413 | ES-KURSS-LESSONS-LV2-0113 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | En una oración narrativa, el verbo ocupa el segund… | En una oración enunciativa, el verbo ocupa la segu… | MEDIUM | LABOT | |
+| 414 | ES-KURSS-LESSONS-LV2-0114 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | 1Sujeto de la oración | 1. Sujeto de la oración | LOW | LABOT | |
+| 415 | ES-KURSS-LESSONS-LV2-0115 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | 2Artículos | 2. Artículos | LOW | LABOT | |
+| 416 | ES-KURSS-LESSONS-LV2-0116 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | 3Sustantivos propios | 3. Sustantivos propios | LOW | LABOT | |
+| 417 | ES-KURSS-LESSONS-LV2-0117 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` |  | 4Lugar del verbo | 4. Lugar del verbo | LOW | LABOT | |
+| 418 | ES-KURSS-LESSONS-LV2-0118 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | Noteiktais artikuls | Noteiktais artikuls | Artículo definido | HIGH | LABOT | |
+| 419 | ES-KURSS-LESSONS-LV2-0119 | `lesson3` | `COURSE_LESSON_DATA.kurssLesson3.legacyHt…` | Nenoteiktais artikuls | Nenoteiktais artikuls | Artículo indefinido | HIGH | LABOT | |
+| 420 | ES-KURSS-LESSONS-LV2-0120 | `lesson3` | `lesson3TrainingCardsEs[0].front` | Rechnest du? | ¿cuentas? | ¿Cuentas? | LOW | LABOT | |
+| 421 | ES-KURSS-LESSONS-LV2-0121 | `lesson3` | `lesson3TrainingCardsEs[2].front` | Was steht dort? | ¿Quién está parado ahí? | ¿Qué hay ahí? | HIGH | LABOT | |
+| 422 | ES-KURSS-LESSONS-LV2-0122 | `lesson3` | `lesson3TrainingCardsEs[3].front` | Dort steht ein Tisch. | Hay una mesa. | Allí hay una mesa. | MEDIUM | LABOT | |
+| 423 | ES-KURSS-LESSONS-LV2-0123 | `lesson3` | `lesson3TrainingCardsEs[4].front` | Was liegt hier? | ¿Quién está aquí? | ¿Qué hay aquí? | HIGH | LABOT | |
+| 424 | ES-KURSS-LESSONS-LV2-0124 | `lesson3` | `lesson3TrainingCardsEs[5].front` | Hier liegt ein Buch. | Aquí está el libro. | Aquí hay un libro. | MEDIUM | LABOT | |
+| 425 | ES-KURSS-LESSONS-LV2-0125 | `lesson3` | `lesson3TrainingCardsEs[8].front` | Was ist dünn? | ¿Cuál es el plan? | ¿Qué es delgado? | HIGH | LABOT | |
+| 426 | ES-KURSS-LESSONS-LV2-0126 | `lesson3` | `lesson3TrainingCardsEs[9].front` | Das Heft ist dünn. | El buzón es delgado. | El cuaderno es delgado. | HIGH | LABOT | |
+| 427 | ES-KURSS-LESSONS-LV2-0127 | `lesson3` | `lesson3TrainingCardsEs[14].front` | Liegt dort ein Heft? | ¿Hay/hay un cuaderno? | ¿Hay allí un cuaderno? | HIGH | LABOT | |
+| 428 | ES-KURSS-LESSONS-LV2-0128 | `lesson3` | `lesson3TrainingCardsEs[15].front` | Ja, dort liegt ein Heft. | Sí, hay un cuaderno. | Sí, allí hay un cuaderno. | MEDIUM | LABOT | |
+| 429 | ES-KURSS-LESSONS-LV2-0129 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Paul kommt und nimmt einen Federhalter. | Paul kommt und nimmt einen Federhalter. | Paul viene y toma un portaplumas. | HIGH | LABOT | |
+| 430 | ES-KURSS-LESSONS-LV2-0130 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Er zeigt den Federhalter. | Er zeigt den Federhalter. | Él muestra el portaplumas. | HIGH | LABOT | |
+| 431 | ES-KURSS-LESSONS-LV2-0131 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Wie ist der Federhalter? | Er fragt: „Wie ist der Federhalter?“ | Él pregunta: «¿Cómo es el portaplumas?» | HIGH | LABOT | |
+| 432 | ES-KURSS-LESSONS-LV2-0132 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Der Federhalter ist schwarz. | Olga antwortet: „Der Federhalter ist schwarz.“ | Olga responde: «El portaplumas es negro.» | HIGH | LABOT | |
+| 433 | ES-KURSS-LESSONS-LV2-0133 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Ist der Federhalter weiß? Nein, der Federhalter is… | Ist der Federhalter weiß? Nein, der Federhalter is… | ¿Es blanco el portaplumas? No, el portaplumas no e… | HIGH | LABOT | |
+| 434 | ES-KURSS-LESSONS-LV2-0134 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Marie kommt und nimmt eine Feder. | Marie kommt und nimmt eine Feder. | Marie viene y toma una pluma. | HIGH | LABOT | |
+| 435 | ES-KURSS-LESSONS-LV2-0135 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Wie ist die Feder? | Sie fragt: „Wie ist die Feder?“ | Ella pregunta: «¿Cómo es la pluma?» | HIGH | LABOT | |
+| 436 | ES-KURSS-LESSONS-LV2-0136 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Die Feder ist spitz. | Olga antwortet: „Die Feder ist spitz.“ | Olga responde: «La pluma es puntiaguda.» | HIGH | LABOT | |
+| 437 | ES-KURSS-LESSONS-LV2-0137 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Ist die Feder stumpf? Nein, die Feder ist nicht st… | Ist die Feder stumpf? Nein, die Feder ist nicht st… | ¿Es roma la pluma? No, la pluma no es roma, es pun… | HIGH | LABOT | |
+| 438 | ES-KURSS-LESSONS-LV2-0138 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Was legt das Mädchen hin? Es legt die Feder hin. | Was legt das Mädchen hin? Es legt die Feder hin. | ¿Qué coloca la niña? Coloca la pluma. | HIGH | LABOT | |
+| 439 | ES-KURSS-LESSONS-LV2-0139 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Was nimmst du? Ich nehme ein Messer. | Was nimmst du? Ich nehme ein Messer. | ¿Qué tomas? Tomo un cuchillo. | HIGH | LABOT | |
+| 440 | ES-KURSS-LESSONS-LV2-0140 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Wie ist das Messer? Das Messer ist scharf. | Wie ist das Messer? Das Messer ist scharf. | ¿Cómo es el cuchillo? El cuchillo está afilado. | HIGH | LABOT | |
+| 441 | ES-KURSS-LESSONS-LV2-0141 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Ist das Messer stumpf? Nein, es ist nicht stumpf, … | Ist das Messer stumpf? Nein, es ist nicht stumpf, … | ¿Está romo el cuchillo? No, no está romo, está afi… | HIGH | LABOT | |
+| 442 | ES-KURSS-LESSONS-LV2-0142 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Was legst du hin? Ich lege das Messer, die Feder u… | Was legst du hin? Ich lege das Messer, die Feder u… | ¿Qué colocas? Coloco el cuchillo, la pluma y el po… | HIGH | LABOT | |
+| 443 | ES-KURSS-LESSONS-LV2-0143 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Dann gehe ich hinaus und arbeite. | Dann gehe ich hinaus und arbeite. | Después salgo y trabajo. | HIGH | LABOT | |
+| 444 | ES-KURSS-LESSONS-LV2-0145 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | er nimmt (nimt) | er nimmt (nimt) — emplumado | er nimmt (nimt) — él toma | HIGH | LABOT | |
+| 445 | ES-KURSS-LESSONS-LV2-0147 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | einen Federhalter | einen Federhalter — negro | einen Federhalter — un portaplumas | HIGH | LABOT | |
+| 446 | ES-KURSS-LESSONS-LV2-0148 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | zeigen | zeigen — blanco | zeigen — mostrar | HIGH | LABOT | |
+| 447 | ES-KURSS-LESSONS-LV2-0149 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | schwarz (švarc) | schwarz (švarc) — pluma | schwarz (švarc) — negro | HIGH | LABOT | |
+| 448 | ES-KURSS-LESSONS-LV2-0150 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | weiß (veis) | weiß (veis) — pluma | weiß (veis) — blanco | HIGH | LABOT | |
+| 449 | ES-KURSS-LESSONS-LV2-0152 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | eine Feder | eine Feder — dejar | eine Feder — una pluma | HIGH | LABOT | |
+| 450 | ES-KURSS-LESSONS-LV2-0153 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | spitz (špic) | spitz (špic) — dejar | spitz (špic) — puntiagudo | HIGH | LABOT | |
+| 451 | ES-KURSS-LESSONS-LV2-0154 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | hinlegen | hinlegen — niña | hinlegen — colocar | HIGH | LABOT | |
+| 452 | ES-KURSS-LESSONS-LV2-0155 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | legt hin | legt hin — cuchillo | legt hin — coloca | HIGH | LABOT | |
+| 453 | ES-KURSS-LESSONS-LV2-0157 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | das Messer | das Messer — agudo | das Messer — cuchillo | HIGH | LABOT | |
+| 454 | ES-KURSS-LESSONS-LV2-0158 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | ein Messer | ein Messer — contundente | ein Messer — un cuchillo | HIGH | LABOT | |
+| 455 | ES-KURSS-LESSONS-LV2-0159 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | scharf | scharf — luego | scharf — agudo | HIGH | LABOT | |
+| 456 | ES-KURSS-LESSONS-LV2-0160 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | stumpf (štumpf) | stumpf (štumpf) — afuera | stumpf (štumpf) — contundente | HIGH | LABOT | |
+| 457 | ES-KURSS-LESSONS-LV2-0161 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | dann | dann — sal, ve out | dann — entonces | HIGH | LABOT | |
+| 458 | ES-KURSS-LESSONS-LV2-0162 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | hinaus | hinaus — en, -er, -el no están acentuadas, por lo … | hinaus — Las terminaciones -en, -er y -el no lleva… | MEDIUM | LABOT | |
+| 459 | ES-KURSS-LESSONS-LV2-0167 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Nominativ: der Federhalter, die Feder, das Messer. | Nominativ: der Federhalter, die Feder, das Messer. | Nominativo: der Federhalter, die Feder, das Messer… | MEDIUM | LABOT | |
+| 460 | ES-KURSS-LESSONS-LV2-0168 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Akkusativ: den Federhalter, die Feder, das Messer. | Akkusativ: den Federhalter, die Feder, das Messer. | Acusativo: den Federhalter, die Feder, das Messer. | MEDIUM | LABOT | |
+| 461 | ES-KURSS-LESSONS-LV2-0169 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Nominativ: ein Federhalter, eine Feder, ein Messer… | Nominativ: ein Federhalter, eine Feder, ein Messer… | Nominativo: ein Federhalter, eine Feder, ein Messe… | MEDIUM | LABOT | |
+| 462 | ES-KURSS-LESSONS-LV2-0170 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` | Akkusativ: einen Federhalter, eine Feder, ein Mess… | Akkusativ: einen Federhalter, eine Feder, ein Mess… | Acusativo: einen Federhalter, eine Feder, ein Mess… | MEDIUM | LABOT | |
+| 463 | ES-KURSS-LESSONS-LV2-0172 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | En femenino y neutro, el acusativo es igual al nom… | En los géneros femenino y neutro, el acusativo es … | HIGH | LABOT | |
+| 464 | ES-KURSS-LESSONS-LV2-0173 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | Si un adjetivo es un adjetivo en una oración, no c… | Si un adjetivo forma parte del predicado de una or… | HIGH | LABOT | |
+| 465 | ES-KURSS-LESSONS-LV2-0174 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | Si nicht niega un adjetivo, se coloca delante de l… | Si nicht niega un adjetivo, se coloca delante del … | MEDIUM | LABOT | |
+| 466 | ES-KURSS-LESSONS-LV2-0175 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 1Acusativo | 1. Acusativo | LOW | LABOT | |
+| 467 | ES-KURSS-LESSONS-LV2-0176 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 2nehmen | 2. nehmen | LOW | LABOT | |
+| 468 | ES-KURSS-LESSONS-LV2-0177 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 3Pronombres | 3. Pronombres | LOW | LABOT | |
+| 469 | ES-KURSS-LESSONS-LV2-0178 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 4Verbos separables | 4. Verbos separables | LOW | LABOT | |
+| 470 | ES-KURSS-LESSONS-LV2-0179 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 5Adjetivos | 5. Adjetivos | LOW | LABOT | |
+| 471 | ES-KURSS-LESSONS-LV2-0180 | `lesson4` | `COURSE_LESSON_DATA.kurssLesson4.legacyHt…` |  | 6Negación con nicht | 6. Negación con nicht | LOW | LABOT | |
+| 472 | ES-KURSS-LESSONS-LV2-0182 | `lesson4` | `lesson4TrainingCardsEs[0].front` | Das Mädchen nimmt einen Federhalter. | La niña toma un eje de plumas. | La niña toma un portaplumas. | HIGH | LABOT | |
+| 473 | ES-KURSS-LESSONS-LV2-0183 | `lesson4` | `lesson4TrainingCardsEs[1].front` | Der Federhalter ist nicht weiß, er ist schwarz. | La pluma no es blanca, es negra. | El portaplumas no es blanco, es negro. | HIGH | LABOT | |
+| 474 | ES-KURSS-LESSONS-LV2-0184 | `lesson4` | `lesson4TrainingCardsEs[3].front` | Wie ist die Feder? | ¿Qué es una pluma? | ¿Cómo es la pluma? | HIGH | LABOT | |
+| 475 | ES-KURSS-LESSONS-LV2-0185 | `lesson4` | `lesson4TrainingCardsEs[5].front` | Nimmt er ein Messer? | ¿Lleva un cuchillo? | ¿Toma un cuchillo? | HIGH | LABOT | |
+| 476 | ES-KURSS-LESSONS-LV2-0186 | `lesson4` | `lesson4TrainingCardsEs[9].front` | Nein, es ist scharf. | No, es agudo. | No, está afilado. | MEDIUM | LABOT | |
+| 477 | ES-KURSS-LESSONS-LV2-0187 | `lesson4` | `lesson4TrainingCardsEs[13].front` | Olga zeigt ein Buch. | Olga muestra el libro. | Olga muestra un libro. | MEDIUM | LABOT | |
+| 478 | ES-KURSS-LESSONS-LV2-0188 | `lesson4` | `lesson4TrainingCardsEs[14].front` | Wie ist das Buch? | cual es el libro | ¿Cómo es el libro? | HIGH | LABOT | |
+| 479 | ES-KURSS-LESSONS-LV2-0190 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` | loben | loben — elogio | loben — elogiar | MEDIUM | LABOT | |
+| 480 | ES-KURSS-LESSONS-LV2-0191 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` | tadeln | tadeln — pelt | tadeln — reprender | HIGH | LABOT | |
+| 481 | ES-KURSS-LESSONS-LV2-0192 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` | oder (ōder) | oder (ōder) — or | oder (ōder) — o | HIGH | LABOT | |
+| 482 | ES-KURSS-LESSONS-LV2-0200 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | En español, el nominativo responde a la pregunta ¿… | En español, el nominativo responde a la pregunta «… | LOW | LABOT | |
+| 483 | ES-KURSS-LESSONS-LV2-0201 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | finalización -in | Sufijo -in | LOW | LABOT | |
+| 484 | ES-KURSS-LESSONS-LV2-0202 | `lesson5` | `COURSE_LESSON_DATA.kurssLesson5.legacyHt…` |  | Lugar del verbo | Posición del verbo | LOW | LABOT | |
+| 485 | ES-KURSS-LESSONS-LV2-0203 | `lesson5` | `lesson5TrainingCardsEs[0].front` | Wen liebt der Vater? | ¿Qué ama el padre? | ¿A quién ama el padre? | HIGH | LABOT | |
+| 486 | ES-KURSS-LESSONS-LV2-0204 | `lesson5` | `lesson5TrainingCardsEs[1].front` | Wen lobt die Lehrerin? | ¿Qué elogia el maestro? | ¿A quién elogia la maestra? | HIGH | LABOT | |
+| 487 | ES-KURSS-LESSONS-LV2-0205 | `lesson5` | `lesson5TrainingCardsEs[2].front` | Was nimmst du? | que tomas | ¿Qué tomas? | MEDIUM | LABOT | |
+| 488 | ES-KURSS-LESSONS-LV2-0206 | `lesson5` | `lesson5TrainingCardsEs[4].front` | Wen tadelt der Lehrer? | ¿Qué gana un maestro? | ¿A quién reprende el maestro? | HIGH | LABOT | |
+| 489 | ES-KURSS-LESSONS-LV2-0207 | `lesson5` | `lesson5TrainingCardsEs[10].front` | Das Mädchen nimmt den Federhalter, die Feder und d… | La niña toma una pluma, una pluma y un cuchillo. | La niña toma el portaplumas, la pluma y el cuchill… | MEDIUM | LABOT | |
+| 490 | ES-KURSS-LESSONS-LV2-0208 | `lesson5` | `lesson5TrainingCardsEs[11].front` | Sie legt das Messer und den Federhalter hin. | Ella deja el cuchillo y la pluma. | Ella deja el cuchillo y el portaplumas. | MEDIUM | LABOT | |
+| 491 | ES-KURSS-LESSONS-LV2-0209 | `lesson5` | `lesson5TrainingCardsEs[14].front` | Das Kind ist artig. | El niño es hablador. | El niño es bien educado. | HIGH | LABOT | |
+| 492 | ES-KURSS-LESSONS-LV2-0210 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | liegt | liegt — es, es, mentiras | liegt — está / se encuentra | HIGH | LABOT | |
+| 493 | ES-KURSS-LESSONS-LV2-0211 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | einige (einige) | einige (einige) — some | einige (einige) — algunos, algunas | MEDIUM | LABOT | |
+| 494 | ES-KURSS-LESSONS-LV2-0212 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | hinlegen | hinlegen — poner abajo | hinlegen — poner algo tumbado / dejar algo tumbado | MEDIUM | LABOT | |
+| 495 | ES-KURSS-LESSONS-LV2-0213 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | aufmachen | aufmachen — desatar | aufmachen — abrir | HIGH | LABOT | |
+| 496 | ES-KURSS-LESSONS-LV2-0214 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | er macht auf | er macht auf — desata | er macht auf — abre | HIGH | LABOT | |
+| 497 | ES-KURSS-LESSONS-LV2-0215 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | anspitzen (anšpicen) | anspitzen (anšpicen) — escupir | anspitzen (anšpicen) — sacar punta | HIGH | LABOT | |
+| 498 | ES-KURSS-LESSONS-LV2-0216 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | er spitzt an | er spitzt an — escupe | er spitzt an — saca punta | HIGH | LABOT | |
+| 499 | ES-KURSS-LESSONS-LV2-0217 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | der Hammer | der Hammer — mazo | der Hammer — martillo | MEDIUM | LABOT | |
+| 500 | ES-KURSS-LESSONS-LV2-0218 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | die Hämmer | die Hämmer — mazo | die Hämmer — martillos | MEDIUM | LABOT | |
+| 501 | ES-KURSS-LESSONS-LV2-0219 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | der Schlitten | der Schlitten — trineo, trineo | der Schlitten — trineo | LOW | LABOT | |
+| 502 | ES-KURSS-LESSONS-LV2-0220 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | wie sind die Dinge? | wie sind die Dinge? — ¿Cuáles son las cosas? | wie sind die Dinge? — ¿Cómo están las cosas? | HIGH | LABOT | |
+| 503 | ES-KURSS-LESSONS-LV2-0221 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | voll (fōl) | voll (fōl) — full | voll (fōl) — lleno | HIGH | LABOT | |
+| 504 | ES-KURSS-LESSONS-LV2-0223 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | wieviel Nadeln | wieviel Nadeln — cuántos agujas | wieviel Nadeln — cuántas agujas | HIGH | LABOT | |
+| 505 | ES-KURSS-LESSONS-LV2-0227 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | A doubled eu se pronuncia como oi: neun (noin). | A doubled eu se pronuncia como oi: neun (noin). | El diptongo eu se pronuncia como «oi»: neun (noin)… | MEDIUM | LABOT | |
+| 506 | ES-KURSS-LESSONS-LV2-0240 | `lesson6` | `COURSE_LESSON_DATA.kurssLesson6.legacyHt…` | Der Wagen | Der Wagen — die Nadeln; morir Feder - morir Federn… | Der Wagen; die Nadeln; die Feder — die Federn. | HIGH | LABOT | |
+| 507 | ES-KURSS-LESSONS-LV2-0244 | `lesson6` | `lesson6TrainingCardsEs[2].front` | Er zeichnet einen Eimer. | Saca un balde. | Dibuja un balde. | MEDIUM | LABOT | |
+| 508 | ES-KURSS-LESSONS-LV2-0245 | `lesson6` | `lesson6TrainingCardsEs[3].front` | Wer zeichnet einen Wagen? | ¿Quién tira el carro? | ¿Quién dibuja un carro? | MEDIUM | LABOT | |
+| 509 | ES-KURSS-LESSONS-LV2-0246 | `lesson6` | `lesson6TrainingCardsEs[7].front` | Wieviel Teller? | ¿Cuantos platos? | ¿Cuántos platos? | MEDIUM | LABOT | |
+| 510 | ES-KURSS-LESSONS-LV2-0247 | `lesson6` | `lesson6TrainingCardsEs[9].front` | Ich lege zwei Nadeln hin. | Dejé dos agujas. | Coloco dos agujas. | MEDIUM | LABOT | |
+| 511 | ES-KURSS-LESSONS-LV2-0248 | `lesson6` | `lesson6TrainingCardsEs[11].front` | Das ist ein Deckel. | Es una funda. | Es una tapa. | MEDIUM | LABOT | |
+| 512 | ES-KURSS-LESSONS-LV2-0249 | `lesson6` | `lesson6TrainingCardsEs[12].front` | Das sind Deckel. | Estas son las portadas. | Estas son las tapas. | MEDIUM | LABOT | |
+| 513 | ES-KURSS-LESSONS-LV2-0250 | `lesson6` | `lesson6TrainingCardsEs[16].front` | Der Lehrer nimmt ein Messer und spitzt den Bleisti… | La maestra toma un cuchillo y afila un lápiz. | El maestro toma un cuchillo y afila un lápiz. | MEDIUM | LABOT | |
+| 514 | ES-KURSS-LESSONS-LV2-0251 | `lesson6` | `lesson6TrainingCardsEs[18].front` | Das ist ein Federhalter. | Está emplumado. | Es un portaplumas. | HIGH | LABOT | |
+| 515 | ES-KURSS-LESSONS-LV2-0252 | `lesson6` | `lesson6TrainingCardsEs[19].front` | Wie ist der Federhalter? | ¿Qué es emplumado? | ¿Cómo es el portaplumas? | HIGH | LABOT | |
+| 516 | ES-KURSS-LESSONS-LV2-0253 | `lesson6` | `lesson6TrainingCardsEs[20].front` | Der Federhalter ist schwarz. | La pluma es negra. | El portaplumas es negro. | HIGH | LABOT | |
+| 517 | ES-KURSS-LESSONS-LV2-0254 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | Hans, singe ein Lied! ¿Qué estás haciendo? Ich sin… | Hans, singe ein Lied! ¿Qué estás haciendo? Ich sin… | Hans, singe ein Lied! Was tust du? Ich singe ein L… | HIGH | LABOT | |
+| 518 | ES-KURSS-LESSONS-LV2-0255 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | singe | singe — canción | singe — canta | HIGH | LABOT | |
+| 519 | ES-KURSS-LESSONS-LV2-0256 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | singt | singt — Tú | singt — cantad (vosotros) | HIGH | LABOT | |
+| 520 | ES-KURSS-LESSONS-LV2-0257 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | singen Sie | singen Sie — conde | singen Sie — cante usted | HIGH | LABOT | |
+| 521 | ES-KURSS-LESSONS-LV2-0259 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | Sie | Sie — molinero | Sie — usted (forma formal) | HIGH | LABOT | |
+| 522 | ES-KURSS-LESSONS-LV2-0260 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | zählen | zählen — abierto | zählen — contar | HIGH | LABOT | |
+| 523 | ES-KURSS-LESSONS-LV2-0261 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | das Fräulein (froilein) | das Fräulein (froilein) — ventana | das Fräulein (froilein) — la señorita | HIGH | LABOT | |
+| 524 | ES-KURSS-LESSONS-LV2-0262 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | der Müller | der Müller — todos | der Müller — Müller (apellido) | HIGH | LABOT | |
+| 525 | ES-KURSS-LESSONS-LV2-0263 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | öffnen | öffnen — espejo | öffnen — abrir | HIGH | LABOT | |
+| 526 | ES-KURSS-LESSONS-LV2-0264 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | das Fenster (fenster) | das Fenster (fenster) — trapo, fregona | das Fenster (fenster) — la ventana | HIGH | LABOT | |
+| 527 | ES-KURSS-LESSONS-LV2-0265 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | alle | alle — pala | alle — todos/todas | HIGH | LABOT | |
+| 528 | ES-KURSS-LESSONS-LV2-0267 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | der Lappen | der Lappen — pala | der Lappen — trapo | HIGH | LABOT | |
+| 529 | ES-KURSS-LESSONS-LV2-0268 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | der Spaten | der Spaten — cuenco | der Spaten — pala | HIGH | LABOT | |
+| 530 | ES-KURSS-LESSONS-LV2-0269 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | der Besen | der Besen — habitación | der Besen — escoba | HIGH | LABOT | |
+| 531 | ES-KURSS-LESSONS-LV2-0270 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` | die Schaufel | die Schaufel — orilla | die Schaufel — pala | HIGH | LABOT | |
+| 532 | ES-KURSS-LESSONS-LV2-0279 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | 1Expresión de comandos | 1. Imperativo | MEDIUM | LABOT | |
+| 533 | ES-KURSS-LESSONS-LV2-0280 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | 2Comando plural | 2. Imperativo plural | MEDIUM | LABOT | |
+| 534 | ES-KURSS-LESSONS-LV2-0281 | `lesson7` | `COURSE_LESSON_DATA.kurssLesson7.legacyHt…` |  | 4öffnen | 4. öffnen | MEDIUM | LABOT | |
+| 535 | ES-KURSS-LESSONS-LV2-0282 | `lesson7` | `lesson7ExerciseCardsEs[2].lv` | loben | elogio | elogiar | MEDIUM | LABOT | |
+| 536 | ES-KURSS-LESSONS-LV2-0283 | `lesson7` | `lesson7ExerciseCardsEs[5].lv` | zeigen | espectáculo | mostrar | HIGH | LABOT | |
+| 537 | ES-KURSS-LESSONS-LV2-0284 | `lesson7` | `lesson7ExerciseCardsEs[7].lv` | rechnen | contar | calcular | HIGH | LABOT | |
+| 538 | ES-KURSS-LESSONS-LV2-0286 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | setzt euch (zect oich) | setzt euch (zect oich) — ¡siéntate! | setzt euch (zect oich) — ¡sentaos! | HIGH | LABOT | |
+| 539 | ES-KURSS-LESSONS-LV2-0287 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | En el imperativo singular de estos verbos, la e ta… | En el imperativo singular de estos verbos, la e ta… | En el imperativo singular de estos verbos, la e ca… | MEDIUM | LABOT | |
+| 540 | ES-KURSS-LESSONS-LV2-0288 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` |  | Übung I - Usa la conjugación correcta. Übung II - … | Ejercicio I: usa la conjugación correcta. Ejercici… | HIGH | LABOT | |
+| 541 | ES-KURSS-LESSONS-LV2-0289 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Wen grüßt du? | ¿Ko tu sveicini? | ¿A quién saludas? | HIGH | LABOT | |
+| 542 | ES-KURSS-LESSONS-LV2-0290 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Ich grüße das Fräulein. | Es sveicinu jaunkundzi. | Saludo a la señorita. | HIGH | LABOT | |
+| 543 | ES-KURSS-LESSONS-LV2-0291 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Öffnet alle Fenster! | Atveriet visus logus! | ¡Abrid todas las ventanas! | HIGH | LABOT | |
+| 544 | ES-KURSS-LESSONS-LV2-0292 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Öffnest du das Fenster? | Vai tu atver logu? | ¿Abres la ventana? | HIGH | LABOT | |
+| 545 | ES-KURSS-LESSONS-LV2-0293 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Wie spricht er? | ¿Cómo habla? | ¿Cómo habla él? | MEDIUM | LABOT | |
+| 546 | ES-KURSS-LESSONS-LV2-0294 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Die Schülerin liest laut und deutlich. | El estudiante lee en voz alta y clara. | La estudiante lee en voz alta y con claridad. | MEDIUM | LABOT | |
+| 547 | ES-KURSS-LESSONS-LV2-0295 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lies gut! | Lasi labi! | ¡Lee bien! | HIGH | LABOT | |
+| 548 | ES-KURSS-LESSONS-LV2-0296 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lest gut! | ¡Lasiet labí! | ¡Leed bien! | HIGH | LABOT | |
+| 549 | ES-KURSS-LESSONS-LV2-0298 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Herr Lehrer, bitte, setzen Sie sich! | Señor Maestro, ¡siéntese! | Señor profesor, ¡siéntese, por favor! | MEDIUM | LABOT | |
+| 550 | ES-KURSS-LESSONS-LV2-0299 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Grüße den Lehrer und die Lehrerin! | Saludar al maestro y a la maestra. | ¡Saluda al profesor y a la profesora! | MEDIUM | LABOT | |
+| 551 | ES-KURSS-LESSONS-LV2-0300 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Öffnet alle Fenster! | Atveriet visus logus! | ¡Abrid todas las ventanas! | HIGH | LABOT | |
+| 552 | ES-KURSS-LESSONS-LV2-0301 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Wie spricht er? | ¿Cómo habla? | ¿Cómo habla él? | MEDIUM | LABOT | |
+| 553 | ES-KURSS-LESSONS-LV2-0302 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Die Schülerin liest laut und deutlich. | El estudiante lee en voz alta y clara. | La estudiante lee en voz alta y con claridad. | MEDIUM | LABOT | |
+| 554 | ES-KURSS-LESSONS-LV2-0303 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lies gut! | Lasi labi! | ¡Lee bien! | HIGH | LABOT | |
+| 555 | ES-KURSS-LESSONS-LV2-0304 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Lest gut! | ¡Lasiet labí! | ¡Leed bien! | HIGH | LABOT | |
+| 556 | ES-KURSS-LESSONS-LV2-0306 | `lesson8` | `COURSE_LESSON_DATA.kurssLesson8.sections…` | Herr Lehrer, bitte, setzen Sie sich! | Señor Maestro, ¡siéntese! | Señor profesor, ¡siéntese, por favor! | MEDIUM | LABOT | |
+| 557 | ES-KURSS-LESSONS-LV2-0308 | `lesson8` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa la forma correcta y forma el plural! | MEDIUM | LABOT | |
+| 558 | ES-KURSS-LESSONS-LV2-0310 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.intro` |  | Novena conferencia: plural de sustantivos, pronomb… | Novena lección: plural de sustantivos, pronombres … | HIGH | LABOT | |
+| 559 | ES-KURSS-LESSONS-LV2-0311 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | sitzen (zicen) | sitzen (zicen) — sentarse | sitzen (zicen) — estar sentado | MEDIUM | LABOT | |
+| 560 | ES-KURSS-LESSONS-LV2-0313 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | die Briefe | die Briefe — letras | die Briefe — cartas | HIGH | LABOT | |
+| 561 | ES-KURSS-LESSONS-LV2-0315 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` |  | Artikulu nelieto | No se utiliza el artículo | HIGH | LABOT | |
+| 562 | ES-KURSS-LESSONS-LV2-0317 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich nehme ein Heft. | Cambia esta oración a 3ra persona del singular. | Cambie esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
+| 563 | ES-KURSS-LESSONS-LV2-0318 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich nehme Hefte. | Listo. El siguiente clic muestra la siguiente card… | Listo. Haga clic para mostrar la siguiente tarjeta… | MEDIUM | LABOT | |
+| 564 | ES-KURSS-LESSONS-LV2-0319 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich öffne das Heft. | Cambia esta oración a 3ra persona del singular. | Cambie esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
+| 565 | ES-KURSS-LESSONS-LV2-0320 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich öffne die Hefte. | Listo. El siguiente clic muestra la siguiente card… | Listo. Haga clic para mostrar la siguiente tarjeta… | MEDIUM | LABOT | |
+| 566 | ES-KURSS-LESSONS-LV2-0321 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich nehme auch einen Bleistift. | Cambia esta oración a 3ra persona del singular. | Cambie esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
+| 567 | ES-KURSS-LESSONS-LV2-0322 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich nehme auch Bleistifte. | Listo. El siguiente clic muestra la siguiente card… | Listo. Haga clic para mostrar la siguiente tarjeta… | MEDIUM | LABOT | |
+| 568 | ES-KURSS-LESSONS-LV2-0323 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich spitze den Bleistift an. | Cambia esta oración a 3ra persona del singular. | Cambie esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
+| 569 | ES-KURSS-LESSONS-LV2-0324 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich spitze die Bleistifte an. | Listo. El siguiente clic muestra la siguiente card… | Listo. Haga clic para mostrar la siguiente tarjeta… | MEDIUM | LABOT | |
+| 570 | ES-KURSS-LESSONS-LV2-0325 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich setze mich und schreibe langsam. | Cambia esta oración a 3ra persona del singular. | Cambie esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
+| 571 | ES-KURSS-LESSONS-LV2-0326 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich setze mich und schreibe langsam. | Listo. El siguiente clic muestra la siguiente card… | Listo. Haga clic para mostrar la siguiente tarjeta… | MEDIUM | LABOT | |
+| 572 | ES-KURSS-LESSONS-LV2-0327 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich schreibe schnell. | Cambia esta oración a 3ra persona del singular. | Cambie esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
+| 573 | ES-KURSS-LESSONS-LV2-0328 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich schreibe schnell. | Listo. El siguiente clic muestra la siguiente card… | Listo. Haga clic para mostrar la siguiente tarjeta… | MEDIUM | LABOT | |
+| 574 | ES-KURSS-LESSONS-LV2-0329 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich mache das Heft zu. | Cambia esta oración a 3ra persona del singular. | Cambie esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
+| 575 | ES-KURSS-LESSONS-LV2-0330 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich mache die Hefte zu. | Listo. El siguiente clic muestra la siguiente card… | Listo. Haga clic para mostrar la siguiente tarjeta… | MEDIUM | LABOT | |
+| 576 | ES-KURSS-LESSONS-LV2-0331 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich lege den Bleistift hin. | Cambia esta oración a 3ra persona del singular. | Cambie esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
+| 577 | ES-KURSS-LESSONS-LV2-0332 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich lege die Bleistifte hin. | Listo. El siguiente clic muestra la siguiente card… | Listo. Al hacer clic de nuevo, se muestra la sigui… | MEDIUM | LABOT | |
+| 578 | ES-KURSS-LESSONS-LV2-0333 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich sitze ruhig. | Cambia esta oración a 3ra persona del singular. | Cambia esta oración a la tercera persona del singu… | MEDIUM | LABOT | |
+| 579 | ES-KURSS-LESSONS-LV2-0334 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Ich sitze ruhig. | Listo. El siguiente clic muestra la siguiente card… | Listo. Al hacer clic de nuevo, se muestra la sigui… | MEDIUM | LABOT | |
+| 580 | ES-KURSS-LESSONS-LV2-0335 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Was machen Sie? | qué estás haciendo | ¿Qué está haciendo usted? | HIGH | LABOT | |
+| 581 | ES-KURSS-LESSONS-LV2-0336 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Herr Lehrer, setzen Sie sich und lesen Sie! | ¡Señor Maestro, siéntese y lea! | ¡Señor profesor, siéntese y lea! | MEDIUM | LABOT | |
+| 582 | ES-KURSS-LESSONS-LV2-0337 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Wie ist dieser Teller? | ¿Qué es este plato? | ¿Cómo es este plato? | MEDIUM | LABOT | |
+| 583 | ES-KURSS-LESSONS-LV2-0338 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Sind die Briefe lang oder kurz? | ¿Las letras son largas o cortas? | ¿Las cartas son largas o cortas? | HIGH | LABOT | |
+| 584 | ES-KURSS-LESSONS-LV2-0339 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Anna, spitz diesen Bleistift an! | ¡Anna, afila ese lápiz! | ¡Anna, afila este lápiz! | MEDIUM | LABOT | |
+| 585 | ES-KURSS-LESSONS-LV2-0340 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Herr Lehrer, bitte spitzen Sie diesen Bleistift an… | ¡Maestro, por favor afile este lápiz! | ¡Profesor, por favor, afile este lápiz! | MEDIUM | LABOT | |
+| 586 | ES-KURSS-LESSONS-LV2-0341 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Leg jenen Bleistift hin! | ¡Deja ese lápiz! | ¡Pon ese lápiz ahí! | MEDIUM | LABOT | |
+| 587 | ES-KURSS-LESSONS-LV2-0342 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Mach das Fenster zu! | ¡Aiztaisi logu! | ¡Cierra la ventana! | HIGH | LABOT | |
+| 588 | ES-KURSS-LESSONS-LV2-0343 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Was macht das Mädchen endlich? | Ko meitene beidzot dara? | ¿Qué hace finalmente la niña? | HIGH | LABOT | |
+| 589 | ES-KURSS-LESSONS-LV2-0344 | `lesson9` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa la conjugación correcta y pon la frase en plu… | MEDIUM | LABOT | |
+| 590 | ES-KURSS-LESSONS-LV2-0346 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.intro` |  | Décima conferencia: sein, können, formas de mando,… | Lección décima: sein, können, formas del imperativ… | HIGH | LABOT | |
+| 591 | ES-KURSS-LESSONS-LV2-0349 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | sei gesund | sei gesund — esi vesels! | sei gesund — ¡mantente sano! | HIGH | LABOT | |
+| 592 | ES-KURSS-LESSONS-LV2-0350 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | seid gesund | seid gesund — esiet veseli! | seid gesund — ¡manteneos sanos! | HIGH | LABOT | |
+| 593 | ES-KURSS-LESSONS-LV2-0351 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | die Frau | die Frau — mujer / esposa | die Frau — mujer o esposa, según el contexto | MEDIUM | LABOT | |
+| 594 | ES-KURSS-LESSONS-LV2-0352 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Verbo auxiliar sein - estar desordenado. Por tanto… | El verbo auxiliar sein («ser/estar») es irregular.… | HIGH | LABOT | |
+| 595 | ES-KURSS-LESSONS-LV2-0353 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` |  | Asimismo, el verbo auxiliar können (poder) tiene u… | Asimismo, el verbo modal können («poder») tiene un… | MEDIUM | LABOT | |
+| 596 | ES-KURSS-LESSONS-LV2-0354 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Bist du gesund? | Vai tu esi vesels? | ¿Estás sano? | CRITICAL | LABOT | |
+| 597 | ES-KURSS-LESSONS-LV2-0355 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ist Paul gesund? | Vai Paul ir vasijas? | ¿Está Paul sano? | CRITICAL | LABOT | |
+| 598 | ES-KURSS-LESSONS-LV2-0356 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wie alt ist Adolf? | ¿Cik vecs ir Adolfs? | ¿Cuántos años tiene Adolf? | CRITICAL | LABOT | |
+| 599 | ES-KURSS-LESSONS-LV2-0357 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wer bist du? | ¿Kas tu esi? | ¿Quién eres? | CRITICAL | LABOT | |
+| 600 | ES-KURSS-LESSONS-LV2-0358 | `lesson10` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa la conjugación correcta y transforma la frase… | MEDIUM | LABOT | |
+| 601 | ES-KURSS-LESSONS-LV2-0361 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich habe einen Bruder. | Ich habe einen Bruder. | Tengo un hermano. | HIGH | LABOT | |
+| 602 | ES-KURSS-LESSONS-LV2-0362 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Du hast einen Bruder. | Du hast einen Bruder. | Tienes un hermano. | HIGH | LABOT | |
+| 603 | ES-KURSS-LESSONS-LV2-0363 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Er hat einen Bruder. | Er hat einen Bruder. | Él tiene un hermano. | HIGH | LABOT | |
+| 604 | ES-KURSS-LESSONS-LV2-0364 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie hat einen Bruder. | Sie hat einen Bruder. | Ella tiene un hermano. | HIGH | LABOT | |
+| 605 | ES-KURSS-LESSONS-LV2-0365 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Es hat einen Bruder. | Es hat einen Bruder. | Tiene un hermano. | HIGH | LABOT | |
+| 606 | ES-KURSS-LESSONS-LV2-0366 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wir haben einen Bruder. | Wir haben einen Bruder. | Tenemos un hermano. | HIGH | LABOT | |
+| 607 | ES-KURSS-LESSONS-LV2-0367 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ihr habt einen Bruder. | Ihr habt einen Bruder. | Tenéis un hermano. | HIGH | LABOT | |
+| 608 | ES-KURSS-LESSONS-LV2-0368 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie haben einen Bruder. | Sie haben einen Bruder. | Ustedes tienen un hermano. | HIGH | LABOT | |
+| 609 | ES-KURSS-LESSONS-LV2-0369 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich habe keinen Bruder. | Ich habe keinen Bruder. | No tengo ningún hermano. | HIGH | LABOT | |
+| 610 | ES-KURSS-LESSONS-LV2-0370 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Du hast keinen Bruder. | Du hast keinen Bruder. | No tienes ningún hermano. | HIGH | LABOT | |
+| 611 | ES-KURSS-LESSONS-LV2-0371 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Er hat keinen Bruder. | Er hat keinen Bruder. | Él no tiene ningún hermano. | HIGH | LABOT | |
+| 612 | ES-KURSS-LESSONS-LV2-0372 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie hat keinen Bruder. | Sie hat keinen Bruder. | Ella no tiene ningún hermano. | HIGH | LABOT | |
+| 613 | ES-KURSS-LESSONS-LV2-0373 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Es hat keinen Bruder. | Es hat keinen Bruder. | No tiene ningún hermano. | HIGH | LABOT | |
+| 614 | ES-KURSS-LESSONS-LV2-0374 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wir haben keinen Bruder. | Wir haben keinen Bruder. | No tenemos ningún hermano. | HIGH | LABOT | |
+| 615 | ES-KURSS-LESSONS-LV2-0375 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ihr habt keinen Bruder. | Ihr habt keinen Bruder. | No tenéis ningún hermano. | HIGH | LABOT | |
+| 616 | ES-KURSS-LESSONS-LV2-0376 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie haben keinen Bruder. | Sie haben keinen Bruder. | Ustedes no tienen ningún hermano. | HIGH | LABOT | |
+| 617 | ES-KURSS-LESSONS-LV2-0377 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich habe ein Zimmer. | Ich habe ein Zimmer. | Tengo una habitación. | HIGH | LABOT | |
+| 618 | ES-KURSS-LESSONS-LV2-0378 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Das Zimmer ist nicht groß, aber es ist hell und wa… | Das Zimmer ist nicht groß, aber es ist hell und wa… | La habitación no es grande, pero es luminosa y cál… | HIGH | LABOT | |
+| 619 | ES-KURSS-LESSONS-LV2-0379 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Das Zimmer hat ein Fenster. | Das Zimmer hat ein Fenster. | La habitación tiene una ventana. | HIGH | LABOT | |
+| 620 | ES-KURSS-LESSONS-LV2-0380 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Das Fenster ist breit. | Das Fenster ist breit. | La ventana es ancha. | HIGH | LABOT | |
+| 621 | ES-KURSS-LESSONS-LV2-0381 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Du hast einen Schreibtisch. | Du hast einen Schreibtisch. | Tienes un escritorio. | HIGH | LABOT | |
+| 622 | ES-KURSS-LESSONS-LV2-0382 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Da liegen drei Bücher. | Da liegen drei Bücher. | Allí hay tres libros. | HIGH | LABOT | |
+| 623 | ES-KURSS-LESSONS-LV2-0383 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Anna hat einen Federhalter, eine Feder und einen B… | Anna hat einen Federhalter, eine Feder und einen B… | Anna tiene un portaplumas, una pluma y un lápiz. | HIGH | LABOT | |
+| 624 | ES-KURSS-LESSONS-LV2-0384 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Franz, schreibst du auch? | Anna schreibt und fragt: „Franz, schreibst du auch… | Anna escribe y pregunta: «Franz, ¿tú también escri… | HIGH | LABOT | |
+| 625 | ES-KURSS-LESSONS-LV2-0385 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich kann nicht schreiben. Ich habe kein Heft, kein… | Franz antwortet: „Ich kann nicht schreiben. Ich ha… | Franz responde: «No sé escribir. No tengo ningún c… | HIGH | LABOT | |
+| 626 | ES-KURSS-LESSONS-LV2-0386 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Nimm dieses Heft und diesen Bleistift. Wir arbeite… | Anna sagt: „Nimm dieses Heft und diesen Bleistift.… | Anna dice: «Coge este cuaderno y este lápiz. Traba… | HIGH | LABOT | |
+| 627 | ES-KURSS-LESSONS-LV2-0387 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Anna und Franz arbeiten oft zusammen. | Anna und Franz arbeiten oft zusammen. | Anna y Franz trabajan juntos a menudo. | HIGH | LABOT | |
+| 628 | ES-KURSS-LESSONS-LV2-0388 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie sind Freunde. | Sie sind Freunde. | Son amigos. | HIGH | LABOT | |
+| 629 | ES-KURSS-LESSONS-LV2-0389 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Was hast du? | Was hast du? | ¿Qué tienes? | HIGH | LABOT | |
+| 630 | ES-KURSS-LESSONS-LV2-0390 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich habe einen Schrank, einen Tisch und zwei Stühl… | Ich habe einen Schrank, einen Tisch und zwei Stühl… | Tengo un armario, una mesa y dos sillas. | HIGH | LABOT | |
+| 631 | ES-KURSS-LESSONS-LV2-0391 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Was habt ihr? | Was habt ihr? | ¿Qué tenéis? | HIGH | LABOT | |
+| 632 | ES-KURSS-LESSONS-LV2-0392 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wir haben eine Tischlampe, ein Bücherbrett und ein… | Wir haben eine Tischlampe, ein Bücherbrett und ein… | Tenemos una lámpara de mesa, un estante para libro… | HIGH | LABOT | |
+| 633 | ES-KURSS-LESSONS-LV2-0393 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wer ist glücklich? | Wer ist glücklich? | ¿Quién es feliz? | HIGH | LABOT | |
+| 634 | ES-KURSS-LESSONS-LV2-0394 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich bin glücklich, denn ich habe einen Vater und e… | Ich bin glücklich, denn ich habe einen Vater und e… | Soy feliz porque tengo un padre y una madre. | HIGH | LABOT | |
+| 635 | ES-KURSS-LESSONS-LV2-0395 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wir sind glücklich, denn wir haben Brüder und Schw… | Wir sind glücklich, denn wir haben Brüder und Schw… | Somos felices porque tenemos hermanos y hermanas. | HIGH | LABOT | |
+| 636 | ES-KURSS-LESSONS-LV2-0396 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | wir haben | wir haben — mamás ir | wir haben — nosotros tenemos | HIGH | LABOT | |
+| 637 | ES-KURSS-LESSONS-LV2-0397 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | ist nicht | ist nicht — nav | ist nicht — no es | HIGH | LABOT | |
+| 638 | ES-KURSS-LESSONS-LV2-0398 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | hell | hell — brillante | hell — luminoso | LOW | LABOT | |
+| 639 | ES-KURSS-LESSONS-LV2-0399 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | kein, keine, kein | kein, keine, kein — neviens, neviena, neviens | kein, keine, kein — ningún, ninguna, ningún | HIGH | LABOT | |
+| 640 | ES-KURSS-LESSONS-LV2-0400 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | La z suena como la c española: Franz (frans), das … | La z suena como la c española: Franz (frans), das … | La z suena como «ts»: Franz (frans), das Zimmer (t… | MEDIUM | LABOT | |
+| 641 | ES-KURSS-LESSONS-LV2-0401 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | El verbo auxiliar haben en alemán expresa el conce… | El verbo alemán haben expresa posesión. En español… | HIGH | LABOT | |
+| 642 | ES-KURSS-LESSONS-LV2-0402 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Haben — Präsens | Haben — presente | MEDIUM | LABOT | |
+| 643 | ES-KURSS-LESSONS-LV2-0403 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | man ir | man ir | uno tiene | HIGH | LABOT | |
+| 644 | ES-KURSS-LESSONS-LV2-0404 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | tev ir | tev ir | tú tienes | HIGH | LABOT | |
+| 645 | ES-KURSS-LESSONS-LV2-0405 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | mums ir | mums ir | nosotros tenemos | HIGH | LABOT | |
+| 646 | ES-KURSS-LESSONS-LV2-0406 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | jums ir | jums ir | vosotros tenéis | HIGH | LABOT | |
+| 647 | ES-KURSS-LESSONS-LV2-0407 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | En español, la persona a quien pertenece algo está… | En español, la persona que posee algo es el sujeto… | HIGH | LABOT | |
+| 648 | ES-KURSS-LESSONS-LV2-0408 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Der Vater hat ein Buch | Der Vater hat ein Buch — padre | Der Vater hat ein Buch — El padre tiene un libro. | MEDIUM | LABOT | |
+| 649 | ES-KURSS-LESSONS-LV2-0410 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Imperativ | Imperativo | HIGH | LABOT | |
+| 650 | ES-KURSS-LESSONS-LV2-0411 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | El verbo haben debe aprenderse bien y utilizarse c… | El verbo haben debe aprenderse bien y utilizarse c… | MEDIUM | LABOT | |
+| 651 | ES-KURSS-LESSONS-LV2-0412 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | habe Geduld! | habe Geduld! — ¡ten paciencia! | habe Geduld! — ¡Ten paciencia! | LOW | LABOT | |
+| 652 | ES-KURSS-LESSONS-LV2-0413 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | habt Geduld! | habt Geduld! — ¡tened paciencia! | habt Geduld! — ¡Tened paciencia! | LOW | LABOT | |
+| 653 | ES-KURSS-LESSONS-LV2-0414 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | La doble negación de la lengua española no se expr… | La negación española con «no» y «ningún/ninguna» s… | MEDIUM | LABOT | |
+| 654 | ES-KURSS-LESSONS-LV2-0415 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Kein — vienskaitlis | Kein — singular | HIGH | LABOT | |
+| 655 | ES-KURSS-LESSONS-LV2-0416 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Kein — daugiskaitlis | Kein — plural | HIGH | LABOT | |
+| 656 | ES-KURSS-LESSONS-LV2-0417 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Si la oración narrativa contiene la conjunción den… | Si la oración contiene la conjunción denn, el verb… | MEDIUM | LABOT | |
+| 657 | ES-KURSS-LESSONS-LV2-0418 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Los sustantivos compuestos van precedidos del arti… | Los sustantivos compuestos llevan el artículo del … | HIGH | LABOT | |
+| 658 | ES-KURSS-LESSONS-LV2-0419 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Was hast du? | ¿Kas tev ir? | ¿Qué tienes? | CRITICAL | LABOT | |
+| 659 | ES-KURSS-LESSONS-LV2-0420 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wie sind die Bücher? | ¿Cuáles son los libros? | ¿Cómo son los libros? | HIGH | LABOT | |
+| 660 | ES-KURSS-LESSONS-LV2-0421 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Franz hat keine Feder und keinen Bleistift. | Franc no tiene bolígrafo ni lápiz. | Franz no tiene pluma ni lápiz. | MEDIUM | LABOT | |
+| 661 | ES-KURSS-LESSONS-LV2-0422 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Der Lehrer hat viele Bücher und ein Bücherbrett. | La maestra tiene muchos libros y una estantería. | El maestro tiene muchos libros y una estantería. | HIGH | LABOT | |
+| 662 | ES-KURSS-LESSONS-LV2-0423 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Was tut Anna? | Ko dara Anna? | ¿Qué hace Anna? | CRITICAL | LABOT | |
+| 663 | ES-KURSS-LESSONS-LV2-0424 | `lesson11` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Escribe la forma conjugada correcta y ponla en pl… | MEDIUM | LABOT | |
+| 664 | ES-KURSS-LESSONS-LV2-0426 | `lesson12` | `kurss.lessonItems.12.menuDesc (lesson he…` |  | Calidades comparables, también, edad y colores. | Grados comparativos, als/wie, edad y colores. | HIGH | LABOT | |
+| 665 | ES-KURSS-LESSONS-LV2-0429 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | wieviel | wieviel — cik | wieviel — cuánto/cuántos | HIGH | LABOT | |
+| 666 | ES-KURSS-LESSONS-LV2-0430 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Max (maks) | Max (maks) — Maksis | Max (maks) — Max | HIGH | LABOT | |
+| 667 | ES-KURSS-LESSONS-LV2-0431 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | alt | alt — viejo | alt — mayor (al hablar de la edad) | MEDIUM | LABOT | |
+| 668 | ES-KURSS-LESSONS-LV2-0432 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | so alt wie | so alt wie — tan viejo como | so alt wie — de la misma edad que | MEDIUM | LABOT | |
+| 669 | ES-KURSS-LESSONS-LV2-0433 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | wie | wie — cómo | wie — como | HIGH | LABOT | |
+| 670 | ES-KURSS-LESSONS-LV2-0434 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | am jüngsten | am jüngsten — el más reciente | am jüngsten — el más joven | HIGH | LABOT | |
+| 671 | ES-KURSS-LESSONS-LV2-0435 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Komparativ | Comparativo | MEDIUM | LABOT | |
+| 672 | ES-KURSS-LESSONS-LV2-0436 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | La mayoría de los adjetivos monosilábicos con la v… | La mayoría de los adjetivos monosilábicos cuya voc… | HIGH | LABOT | |
+| 673 | ES-KURSS-LESSONS-LV2-0437 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` |  | Superlativ | Superlativo | MEDIUM | LABOT | |
+| 674 | ES-KURSS-LESSONS-LV2-0438 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | nah (tuvs) | nah (tuvs) | nah (cerca) | HIGH | LABOT | |
+| 675 | ES-KURSS-LESSONS-LV2-0439 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | hoch (augsts) | hoch (augsts) | hoch (alto) | HIGH | LABOT | |
+| 676 | ES-KURSS-LESSONS-LV2-0440 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | gut (labs) | gut (labs) | gut (bueno) | HIGH | LABOT | |
+| 677 | ES-KURSS-LESSONS-LV2-0441 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | viel (daudz) | viel (daudz) | viel (mucho) | HIGH | LABOT | |
+| 678 | ES-KURSS-LESSONS-LV2-0442 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie heißen Sie? | ¿Cómo te llamas? | ¿Cómo se llama usted? | MEDIUM | LABOT | |
+| 679 | ES-KURSS-LESSONS-LV2-0443 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Ich bin zwanzig Jahre alt. | Es esmu 20 gadus vecs. | Tengo 20 años. | CRITICAL | LABOT | |
+| 680 | ES-KURSS-LESSONS-LV2-0444 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Ist Max groß? | ¿Vai Maksis son mentiras? | ¿Es Max alto? | CRITICAL | LABOT | |
+| 681 | ES-KURSS-LESSONS-LV2-0445 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wer ist am größten? | ¿Cuál es el mayor? | ¿Cuál es el más grande? | MEDIUM | LABOT | |
+| 682 | ES-KURSS-LESSONS-LV2-0446 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wieviel Brüder haben Sie? | ¿Cuantos hermanos tienes? | ¿Cuántos hermanos tiene? | MEDIUM | LABOT | |
+| 683 | ES-KURSS-LESSONS-LV2-0447 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie ist die Tinte? | ¿Qué es la tinta? | ¿Cómo es la tinta? | MEDIUM | LABOT | |
+| 684 | ES-KURSS-LESSONS-LV2-0448 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Sie ist schwarz. | Es negro. | Es negra. | MEDIUM | LABOT | |
+| 685 | ES-KURSS-LESSONS-LV2-0449 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie ist die Kreide? | ¿Qué es la tiza? | ¿Cómo es la tiza? | MEDIUM | LABOT | |
+| 686 | ES-KURSS-LESSONS-LV2-0450 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Sie ist weiß. | Tas ir balts. | Es blanca. | HIGH | LABOT | |
+| 687 | ES-KURSS-LESSONS-LV2-0451 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Wie sind die Blumen? | ¿Qué son las flores? | ¿Cómo son las flores? | MEDIUM | LABOT | |
+| 688 | ES-KURSS-LESSONS-LV2-0452 | `lesson12` | `COURSE_LESSON_DATA.kurssLesson12.section…` | Sind Sie glücklich? | ¿Estás feliz? | ¿Está feliz? | MEDIUM | LABOT | |
+| 689 | ES-KURSS-LESSONS-LV2-0453 | `lesson12` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa la conjugación correcta y ponlo en plural! | LOW | LABOT | |
+| 690 | ES-KURSS-LESSONS-LV2-0455 | `lesson13` | `kurss.lessonItems.13.menuDesc (lesson he…` |  | Der Körper, partes del cuerpo, turnen y jeder. | El cuerpo («Der Körper»), partes del cuerpo, gimna… | MEDIUM | LABOT | |
+| 691 | ES-KURSS-LESSONS-LV2-0456 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.intro` |  | Conferencia Trece: Der Körper, partes del cuerpo, … | Lección 13: «Der Körper», partes del cuerpo, gimna… | MEDIUM | LABOT | |
+| 692 | ES-KURSS-LESSONS-LV2-0457 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Der Mensch hat einen Kopf, einen Hals, einen Rumpf… | Der Mensch hat einen Kopf, einen Hals, einen Rumpf… | El ser humano tiene una cabeza, un cuello, un tron… | HIGH | LABOT | |
+| 693 | ES-KURSS-LESSONS-LV2-0458 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie ist der Kopf? Der Kopf ist rund. | Wie ist der Kopf? Der Kopf ist rund. | ¿Cómo es la cabeza? La cabeza es redonda. | HIGH | LABOT | |
+| 694 | ES-KURSS-LESSONS-LV2-0459 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Der Hals ist kurz. | Der Hals ist kurz. | El cuello es corto. | HIGH | LABOT | |
+| 695 | ES-KURSS-LESSONS-LV2-0460 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Der Rumpf ist lang. | Der Rumpf ist lang. | El tronco es largo. | HIGH | LABOT | |
+| 696 | ES-KURSS-LESSONS-LV2-0461 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Der Arm ist auch lang. | Der Arm ist auch lang. | El brazo también es largo. | HIGH | LABOT | |
+| 697 | ES-KURSS-LESSONS-LV2-0462 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Die Hand ist klein. | Die Hand ist klein. | La mano es pequeña. | HIGH | LABOT | |
+| 698 | ES-KURSS-LESSONS-LV2-0463 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Das Bein ist dick. | Das Bein ist dick. | La pierna es gruesa. | HIGH | LABOT | |
+| 699 | ES-KURSS-LESSONS-LV2-0464 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Der Fuß ist dünn. | Der Fuß ist dünn. | El pie es delgado. | HIGH | LABOT | |
+| 700 | ES-KURSS-LESSONS-LV2-0465 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Die Brust ist vorn, aber der Rücken ist hinten. | Die Brust ist vorn, aber der Rücken ist hinten. | El pecho está delante, pero la espalda está detrás… | HIGH | LABOT | |
+| 701 | ES-KURSS-LESSONS-LV2-0466 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Jede Hand hat fünf Finger. | Jede Hand hat fünf Finger. | Cada mano tiene cinco dedos. | HIGH | LABOT | |
+| 702 | ES-KURSS-LESSONS-LV2-0467 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Beide Hände haben zehn Finger. | Beide Hände haben zehn Finger. | Ambas manos tienen diez dedos. | HIGH | LABOT | |
+| 703 | ES-KURSS-LESSONS-LV2-0468 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Jeder Fuß hat fünf Zehen. | Jeder Fuß hat fünf Zehen. | Cada pie tiene cinco dedos del pie. | HIGH | LABOT | |
+| 704 | ES-KURSS-LESSONS-LV2-0469 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Beide Füße haben zehn Zehen. | Beide Füße haben zehn Zehen. | Ambos pies tienen diez dedos del pie. | HIGH | LABOT | |
+| 705 | ES-KURSS-LESSONS-LV2-0470 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Jeder Finger und jede Zehe haben einen Nagel. | Jeder Finger und jede Zehe haben einen Nagel. | Cada dedo y cada dedo del pie tienen una uña. | HIGH | LABOT | |
+| 706 | ES-KURSS-LESSONS-LV2-0471 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich beschneide und reinige die Nägel oft. | Ich beschneide und reinige die Nägel oft. | Recorto y limpio las uñas a menudo. | HIGH | LABOT | |
+| 707 | ES-KURSS-LESSONS-LV2-0472 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | jede | jede — katra | jede — cada una | HIGH | LABOT | |
+| 708 | ES-KURSS-LESSONS-LV2-0473 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | jedes | jedes — katrs | jedes — cada uno | HIGH | LABOT | |
+| 709 | ES-KURSS-LESSONS-LV2-0474 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | der Nagel | der Nagel — uña / clavo | der Nagel — uña | MEDIUM | LABOT | |
+| 710 | ES-KURSS-LESSONS-LV2-0475 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | die Nägel | die Nägel — uñas / clavos | die Nägel — uñas | MEDIUM | LABOT | |
+| 711 | ES-KURSS-LESSONS-LV2-0476 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | beschneiden | beschneiden — apgriezt | beschneiden — recortar | HIGH | LABOT | |
+| 712 | ES-KURSS-LESSONS-LV2-0477 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Algunos verbos con la vocal raíz a o au en la segu… | Algunos verbos cuya raíz contiene a o au cambian e… | MEDIUM | LABOT | |
+| 713 | ES-KURSS-LESSONS-LV2-0478 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Verbos compuestos | Verbos separables | HIGH | LABOT | |
+| 714 | ES-KURSS-LESSONS-LV2-0479 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Si la parte preposicional está acentuada, se separ… | Si el prefijo está acentuado, se separa en present… | HIGH | LABOT | |
+| 715 | ES-KURSS-LESSONS-LV2-0480 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | Si el prefijo no está acentuado, no está acentuado… | Si el prefijo no está acentuado, no se separa. | CRITICAL | LABOT | |
+| 716 | ES-KURSS-LESSONS-LV2-0481 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` |  | El pronombre jeder va en círculos como los artícul… | El pronombre «jeder» se declina como los artículos… | HIGH | LABOT | |
+| 717 | ES-KURSS-LESSONS-LV2-0482 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir machen dos Schritte. | Wir machen dos Schritte. | Wir machen zwei Schritte. | MEDIUM | LABOT | |
+| 718 | ES-KURSS-LESSONS-LV2-0483 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er bleibt stehen. | Er bleibt stehen. | Él se queda de pie. | HIGH | LABOT | |
+| 719 | ES-KURSS-LESSONS-LV2-0484 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir bleiben stehen. | Wir bleiben stehen. | Nos quedamos de pie. | HIGH | LABOT | |
+| 720 | ES-KURSS-LESSONS-LV2-0485 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich kehre mich um. | Ich kehre mich um. | Me doy la vuelta. | HIGH | LABOT | |
+| 721 | ES-KURSS-LESSONS-LV2-0486 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er kehrt sich um. | Er kehrt sich um. | Él se da la vuelta. | HIGH | LABOT | |
+| 722 | ES-KURSS-LESSONS-LV2-0487 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir kehren uns um. | Wir kehren uns um. | Nos damos la vuelta. | HIGH | LABOT | |
+| 723 | ES-KURSS-LESSONS-LV2-0488 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich strecke einen Arm aus. | Ich strecke einen Arm aus. | Extiendo un brazo. | HIGH | LABOT | |
+| 724 | ES-KURSS-LESSONS-LV2-0489 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er streckt einen Arm aus. | Er streckt einen Arm aus. | Él extiende un brazo. | HIGH | LABOT | |
+| 725 | ES-KURSS-LESSONS-LV2-0490 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir strecken einen Arm aus. | Wir strecken einen Arm aus. | Extendemos un brazo. | HIGH | LABOT | |
+| 726 | ES-KURSS-LESSONS-LV2-0491 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich strecke beide Arme aus. | Ich strecke beide Arme aus. | Extiendo ambos brazos. | HIGH | LABOT | |
+| 727 | ES-KURSS-LESSONS-LV2-0492 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er streckt beide Arme aus. | Er streckt beide Arme aus. | Él extiende ambos brazos. | HIGH | LABOT | |
+| 728 | ES-KURSS-LESSONS-LV2-0493 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir strecken beide Arme aus. | Wir strecken beide Arme aus. | Extendemos ambos brazos. | HIGH | LABOT | |
+| 729 | ES-KURSS-LESSONS-LV2-0494 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich senske beide Arme. | Ich senske beide Arme. | Bajo ambos brazos. | HIGH | LABOT | |
+| 730 | ES-KURSS-LESSONS-LV2-0495 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er sentkt beide Arme. | Er sentkt beide Arme. | Él baja ambos brazos. | HIGH | LABOT | |
+| 731 | ES-KURSS-LESSONS-LV2-0496 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir senten beide Arme. | Wir senten beide Arme. | Bajamos ambos brazos. | HIGH | LABOT | |
+| 732 | ES-KURSS-LESSONS-LV2-0497 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich drehe den Kopf nach links. | Ich drehe den Kopf nach links. | Giro la cabeza hacia la izquierda. | HIGH | LABOT | |
+| 733 | ES-KURSS-LESSONS-LV2-0498 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er dreht den Kopf nach enlaces. | Er dreht den Kopf nach enlaces. | Él gira la cabeza hacia la izquierda. | HIGH | LABOT | |
+| 734 | ES-KURSS-LESSONS-LV2-0499 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir drehen den Kopf nach links. | Wir drehen den Kopf nach links. | Giramos la cabeza hacia la izquierda. | HIGH | LABOT | |
+| 735 | ES-KURSS-LESSONS-LV2-0500 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich drehe den Kopf nach rechts. | Ich drehe den Kopf nach rechts. | Giro la cabeza hacia la derecha. | HIGH | LABOT | |
+| 736 | ES-KURSS-LESSONS-LV2-0501 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er dreht den Kopf nach rechts. | Er dreht den Kopf nach rechts. | Él gira la cabeza hacia la derecha. | HIGH | LABOT | |
+| 737 | ES-KURSS-LESSONS-LV2-0502 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir drehen den Kopf nach rechts. | Wir drehen den Kopf nach rechts. | Giramos la cabeza hacia la derecha. | HIGH | LABOT | |
+| 738 | ES-KURSS-LESSONS-LV2-0503 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich halte den Kopf gerade. | Ich halte den Kopf gerade. | Mantengo la cabeza recta. | HIGH | LABOT | |
+| 739 | ES-KURSS-LESSONS-LV2-0504 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er hält den Kopf gerade. | Er hält den Kopf gerade. | Él mantiene la cabeza recta. | HIGH | LABOT | |
+| 740 | ES-KURSS-LESSONS-LV2-0505 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir halten den Kopf gerade. | Wir halten den Kopf gerade. | Mantenemos la cabeza recta. | HIGH | LABOT | |
+| 741 | ES-KURSS-LESSONS-LV2-0506 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich atme tief. | Ich atme tief. | Respiro profundamente. | HIGH | LABOT | |
+| 742 | ES-KURSS-LESSONS-LV2-0507 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Er atmet tief. | Er atmet tief. | Él respira profundamente. | HIGH | LABOT | |
+| 743 | ES-KURSS-LESSONS-LV2-0508 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wir atmen tief. | Wir atmen tief. | Respiramos profundamente. | HIGH | LABOT | |
+| 744 | ES-KURSS-LESSONS-LV2-0509 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie viele Arme hat der Mensch? | ¿Cuántas manos tiene una persona? | ¿Cuántos brazos tiene una persona? | HIGH | LABOT | |
+| 745 | ES-KURSS-LESSONS-LV2-0510 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie viele Beine hast du? | cuantas piernas tienes | ¿Cuántas piernas tienes? | MEDIUM | LABOT | |
+| 746 | ES-KURSS-LESSONS-LV2-0511 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie ist der Arm? | ¿Qué es una mano? | ¿Cómo es el brazo? | HIGH | LABOT | |
+| 747 | ES-KURSS-LESSONS-LV2-0512 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie ist das Bein? | ¿Qué es la pierna? | ¿Cómo es la pierna? | HIGH | LABOT | |
+| 748 | ES-KURSS-LESSONS-LV2-0513 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Der Arm ist klein, aber das Bein ist groß. | La mano es pequeña, pero la pierna es grande. | El brazo es pequeño, pero la pierna es grande. | HIGH | LABOT | |
+| 749 | ES-KURSS-LESSONS-LV2-0514 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wo ist die Brust? | donde esta el cofre | ¿Dónde está el pecho? | MEDIUM | LABOT | |
+| 750 | ES-KURSS-LESSONS-LV2-0515 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Wie viele Finger hat die Hand? | ¿Cik pirkstu ir plaukstai? | ¿Cuántos dedos tiene la mano? | HIGH | LABOT | |
+| 751 | ES-KURSS-LESSONS-LV2-0516 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Die Hand hat fünf Finger. | Plaukstai ir pieci pirksti. | La mano tiene cinco dedos. | HIGH | LABOT | |
+| 752 | ES-KURSS-LESSONS-LV2-0517 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Was hat der Finger? | ¿Kas ir pirkstam? | ¿Qué le pasa al dedo? | HIGH | LABOT | |
+| 753 | ES-KURSS-LESSONS-LV2-0518 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Der Finger hat einen Nagel. | Pirkstam ir regaña. | El dedo tiene una uña. | CRITICAL | LABOT | |
+| 754 | ES-KURSS-LESSONS-LV2-0519 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Was tust du? | ¿Ko tu dari? | ¿Qué haces? | HIGH | LABOT | |
+| 755 | ES-KURSS-LESSONS-LV2-0520 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Ich beschneide und reinige die Nägel. | Me corto y limpio las uñas. | Me corto las uñas y las limpio. | MEDIUM | LABOT | |
+| 756 | ES-KURSS-LESSONS-LV2-0521 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Was tut Paul? | Ko Paul dara? | ¿Qué hace Paul? | HIGH | LABOT | |
+| 757 | ES-KURSS-LESSONS-LV2-0522 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Sie strecken beide Arme aus. | Extienden ambas manos. | Extienden ambos brazos. | MEDIUM | LABOT | |
+| 758 | ES-KURSS-LESSONS-LV2-0523 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Sie senken beide Arme. | Dejan caer ambas manos. | Bajan ambos brazos. | MEDIUM | LABOT | |
+| 759 | ES-KURSS-LESSONS-LV2-0524 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Robert, turne! | Roberto, vingro! | ¡Roberto, haz gimnasia! | HIGH | LABOT | |
+| 760 | ES-KURSS-LESSONS-LV2-0525 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Fräulein Müller, turnen Sie! | ¡Müller jaunkundze, vingrojiet! | ¡Señorita Müller, haga gimnasia! | CRITICAL | LABOT | |
+| 761 | ES-KURSS-LESSONS-LV2-0526 | `lesson13` | `COURSE_LESSON_DATA.kurssLesson13.section…` | Machen Sie zwei Schritte, und dann bleiben Sie ste… | ¡Da dos pasos y luego quédate de pie! | ¡Dé dos pasos y luego quédese de pie! | MEDIUM | LABOT | |
+| 762 | ES-KURSS-LESSONS-LV2-0527 | `lesson13` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Escribe la forma correcta y ponla en plural! | MEDIUM | LABOT | |
+| 763 | ES-KURSS-LESSONS-LV2-0529 | `lesson14` | `kurss.lessonItems.14.menuDesc (lesson he…` |  | Verbos müssen, wollen, mögen y modales. | Verbos modales müssen, wollen y mögen. | MEDIUM | LABOT | |
+| 764 | ES-KURSS-LESSONS-LV2-0530 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Er muss lernen, denn er will vorwärts kommen. | Er muss lernen, denn er will vorwärts kommen. | Él tiene que estudiar porque quiere salir adelante… | HIGH | LABOT | |
+| 765 | ES-KURSS-LESSONS-LV2-0531 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Sie muss lernen, denn sie will vorwärts kommen. | Sie muss lernen, denn sie will vorwärts kommen. | Ella tiene que estudiar porque quiere salir adelan… | HIGH | LABOT | |
+| 766 | ES-KURSS-LESSONS-LV2-0532 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Es muss lernen, denn es will vorwärts kommen. | Es muss lernen, denn es will vorwärts kommen. | Tiene que estudiar porque quiere salir adelante. | HIGH | LABOT | |
+| 767 | ES-KURSS-LESSONS-LV2-0533 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wir müssen lernen, denn wir wollen vorwärts kommen… | Wir müssen lernen, denn wir wollen vorwärts kommen… | Tenemos que estudiar porque queremos salir adelant… | HIGH | LABOT | |
+| 768 | ES-KURSS-LESSONS-LV2-0534 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Ihr müsst lernen, denn ihr wollt vorwärts kommen. | Ihr müsst lernen, denn ihr wollt vorwärts kommen. | Tenéis que estudiar porque queréis salir adelante. | HIGH | LABOT | |
+| 769 | ES-KURSS-LESSONS-LV2-0535 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Sie müssen lernen, denn sie wollen vorwärts kommen… | Sie müssen lernen, denn sie wollen vorwärts kommen… | Tienen que estudiar porque quieren salir adelante. | HIGH | LABOT | |
+| 770 | ES-KURSS-LESSONS-LV2-0536 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Ich mag die Suppe nicht essen, denn sie mundet mir… | Ich mag die Suppe nicht essen, denn sie mundet mir… | No me gusta comer la sopa porque no me sabe bien. | HIGH | LABOT | |
+| 771 | ES-KURSS-LESSONS-LV2-0537 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Du magst die Suppe nicht essen, denn sie mundet di… | Du magst die Suppe nicht essen, denn sie mundet di… | No te gusta comer la sopa porque no te sabe bien. | HIGH | LABOT | |
+| 772 | ES-KURSS-LESSONS-LV2-0538 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Er mag die Suppe nicht essen, denn sie mundet ihm … | Er mag die Suppe nicht essen, denn sie mundet ihm … | No le gusta comer la sopa porque no le sabe bien. | HIGH | LABOT | |
+| 773 | ES-KURSS-LESSONS-LV2-0539 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Sie mag die Suppe nicht essen, denn sie mundet ihr… | Sie mag die Suppe nicht essen, denn sie mundet ihr… | No le gusta comer la sopa porque no le sabe bien. | HIGH | LABOT | |
+| 774 | ES-KURSS-LESSONS-LV2-0540 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Es mag die Suppe nicht essen, denn sie mundet ihm … | Es mag die Suppe nicht essen, denn sie mundet ihm … | No le gusta comer la sopa porque no le sabe bien. | HIGH | LABOT | |
+| 775 | ES-KURSS-LESSONS-LV2-0541 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wir mögen die Suppe nicht essen, denn sie mundet u… | Wir mögen die Suppe nicht essen, denn sie mundet u… | No nos gusta comer la sopa porque no nos sabe bien… | HIGH | LABOT | |
+| 776 | ES-KURSS-LESSONS-LV2-0542 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Ihr mögt die Suppe nicht essen, denn sie mundet eu… | Ihr mögt die Suppe nicht essen, denn sie mundet eu… | No os gusta comer la sopa porque no os sabe bien. | HIGH | LABOT | |
+| 777 | ES-KURSS-LESSONS-LV2-0543 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Sie mögen die Suppe nicht essen, denn sie mundet i… | Sie mögen die Suppe nicht essen, denn sie mundet i… | No les gusta comer la sopa porque no les sabe bien… | HIGH | LABOT | |
+| 778 | ES-KURSS-LESSONS-LV2-0552 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | es will | es will — ello quiere | es will — quiere | LOW | LABOT | |
+| 779 | ES-KURSS-LESSONS-LV2-0559 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | wir mögen | wir mögen — queremos | wir mögen — nos gusta | HIGH | LABOT | |
+| 780 | ES-KURSS-LESSONS-LV2-0560 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | ihr mögt | ihr mögt — quieres | ihr mögt — os gusta | HIGH | LABOT | |
+| 781 | ES-KURSS-LESSONS-LV2-0562 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | munden | munden — para saber bien | munden — saber bien | HIGH | LABOT | |
+| 782 | ES-KURSS-LESSONS-LV2-0563 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | mir | mir — hombre | mir — a mí | HIGH | LABOT | |
+| 783 | ES-KURSS-LESSONS-LV2-0564 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | dir | dir — tev | dir — a ti | HIGH | LABOT | |
+| 784 | ES-KURSS-LESSONS-LV2-0565 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | ihr | ihr — ustedes | ihr — a ella | HIGH | LABOT | |
+| 785 | ES-KURSS-LESSONS-LV2-0566 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | uns | uns — mamás | uns — a nosotros | HIGH | LABOT | |
+| 786 | ES-KURSS-LESSONS-LV2-0568 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | En presente singular, la 1ª y 3ª personas son igua… | En presente, las formas de la 1.ª y 3.ª persona de… | MEDIUM | LABOT | |
+| 787 | ES-KURSS-LESSONS-LV2-0570 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Wollen significa querer hacer algo deliberadamente… | Wollen expresa la voluntad o la intención de hacer… | MEDIUM | LABOT | |
+| 788 | ES-KURSS-LESSONS-LV2-0571 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` |  | Mögen expresa un deseo o agrado. | Mögen expresa agrado o preferencia. | MEDIUM | LABOT | |
+| 789 | ES-KURSS-LESSONS-LV2-0572 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Ich mag die Suppe nicht essen. | Ich mag die Suppe nicht essen. — No quiero comer l… | Ich mag die Suppe nicht essen. — No me gusta comer… | MEDIUM | LABOT | |
+| 790 | ES-KURSS-LESSONS-LV2-0573 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Del mismo modo, en español la g ante s en «signos»… | Del mismo modo, en español la g ante s en «signos»… | Del mismo modo, en español, la g de «signos» puede… | MEDIUM | LABOT | |
+| 791 | ES-KURSS-LESSONS-LV2-0574 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wer will fleißig lernen? | ¿Quién quiere estudiar mucho? | ¿Quién quiere estudiar con mucho empeño? | MEDIUM | LABOT | |
+| 792 | ES-KURSS-LESSONS-LV2-0575 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Alle Schüler wollen fleißig lernen. | Todos los estudiantes quieren estudiar mucho. | Todos los estudiantes quieren estudiar con mucho e… | MEDIUM | LABOT | |
+| 793 | ES-KURSS-LESSONS-LV2-0576 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wer muss heute kommen? | ¿Quién debería venir hoy? | ¿Quién tiene que venir hoy? | MEDIUM | LABOT | |
+| 794 | ES-KURSS-LESSONS-LV2-0577 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Du musst den Brief schreiben. | Tienes que escribir una carta. | Tienes que escribir la carta. | MEDIUM | LABOT | |
+| 795 | ES-KURSS-LESSONS-LV2-0578 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wer muss fleißig lernen? | ¿Quién necesita estudiar mucho? | ¿Quién tiene que estudiar con mucho empeño? | MEDIUM | LABOT | |
+| 796 | ES-KURSS-LESSONS-LV2-0579 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Die Schüler müssen fleißig lernen. | Los estudiantes deben estudiar mucho. | Los estudiantes tienen que estudiar con mucho empe… | MEDIUM | LABOT | |
+| 797 | ES-KURSS-LESSONS-LV2-0580 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Wer muss das Buch lesen? | ¿Quién debería leer el libro? | ¿Quién tiene que leer el libro? | HIGH | LABOT | |
+| 798 | ES-KURSS-LESSONS-LV2-0581 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Der Bruder muss das Buch lesen. | El hermano debe leer un libro. | El hermano tiene que leer el libro. | MEDIUM | LABOT | |
+| 799 | ES-KURSS-LESSONS-LV2-0582 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Ich mag nicht singen. | No quiero cantar. | No me gusta cantar. | MEDIUM | LABOT | |
+| 800 | ES-KURSS-LESSONS-LV2-0583 | `lesson14` | `COURSE_LESSON_DATA.kurssLesson14.section…` | Der Vater muss einen Tisch kaufen. | Papá tiene que comprar una mesa. | El padre tiene que comprar una mesa. | MEDIUM | LABOT | |
+| 801 | ES-KURSS-LESSONS-LV2-0584 | `lesson14` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Escribe la conjugación correcta y pon la frase en… | MEDIUM | LABOT | |
+| 802 | ES-KURSS-LESSONS-LV2-0586 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.intro` |  | Decimoquinta conferencia: sollen, dürfen, essen y … | Decimoquinta lección: sollen, dürfen, essen y pala… | MEDIUM | LABOT | |
+| 803 | ES-KURSS-LESSONS-LV2-0587 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | sollen | sollen — debería | sollen — deber | MEDIUM | LABOT | |
+| 804 | ES-KURSS-LESSONS-LV2-0594 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | du darfst | du darfst — usted puede | du darfst — tú puedes | HIGH | LABOT | |
+| 805 | ES-KURSS-LESSONS-LV2-0595 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | ihr dürft | ihr dürft — usted puede | ihr dürft — vosotros podéis | HIGH | LABOT | |
+| 806 | ES-KURSS-LESSONS-LV2-0597 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | entzweischneiden | entzweischneiden — cortado por la mitad | entzweischneiden — cortar por la mitad | MEDIUM | LABOT | |
+| 807 | ES-KURSS-LESSONS-LV2-0599 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | du isst | du isst — usted come | du isst — tú comes | HIGH | LABOT | |
+| 808 | ES-KURSS-LESSONS-LV2-0600 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | ihr esst | ihr esst — tú comes | ihr esst — vosotros coméis | HIGH | LABOT | |
+| 809 | ES-KURSS-LESSONS-LV2-0601 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Sollen significa necesitar en el sentido del deber… | Sollen expresa deber u obligación, normalmente por… | HIGH | LABOT | |
+| 810 | ES-KURSS-LESSONS-LV2-0603 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | sollen | sollen — debería | sollen — deber | MEDIUM | LABOT | |
+| 811 | ES-KURSS-LESSONS-LV2-0604 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Dürfen significa estar permitido. En Dürfen, la vo… | Dürfen significa «tener permiso». En el verbo dürf… | MEDIUM | LABOT | |
+| 812 | ES-KURSS-LESSONS-LV2-0605 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Essen es el siguiente. | El verbo essen se conjuga así: | MEDIUM | LABOT | |
+| 813 | ES-KURSS-LESSONS-LV2-0606 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | Si el proyecto utiliza escritura moderna, puede es… | Con la ortografía moderna, se escriben las formas:… | MEDIUM | LABOT | |
+| 814 | ES-KURSS-LESSONS-LV2-0607 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` |  | En el verbo compuesto entzweischneiden, el énfasis… | En el verbo entzweischneiden, el énfasis recae en … | MEDIUM | LABOT | |
+| 815 | ES-KURSS-LESSONS-LV2-0608 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | Nein, die Pflaumen sollst du nicht essen, sie sind… | No, no hace falta que te comas las ciruelas, no ha… | No, no debes comerte las ciruelas; están verdes. | HIGH | LABOT | |
+| 816 | ES-KURSS-LESSONS-LV2-0609 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | Isst du einen Apfel oder eine Birne? | ¿Comiste una manzana o una pera? | ¿Comes una manzana o una pera? | HIGH | LABOT | |
+| 817 | ES-KURSS-LESSONS-LV2-0610 | `lesson15` | `COURSE_LESSON_DATA.kurssLesson15.section…` | Wer muss lernen? | ¿Quién necesita estudiar? | ¿Quién tiene que estudiar? | MEDIUM | LABOT | |
+| 818 | ES-KURSS-LESSONS-LV2-0611 | `lesson15` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Escribe la forma verbal correcta y úsala en plura… | MEDIUM | LABOT | |
+| 819 | ES-KURSS-LESSONS-LV2-0613 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.intro` |  | Decimosexta conferencia: dativo, geben, sich näher… | Decimosexta lección: el dativo, geben, sich nähern… | HIGH | LABOT | |
+| 820 | ES-KURSS-LESSONS-LV2-0614 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wem schenkt der Vater ein Buch? | Wem schenkt der Vater ein Buch? | ¿A quién le regala el padre un libro? | HIGH | LABOT | |
+| 821 | ES-KURSS-LESSONS-LV2-0615 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Der Vater schenkt dem Sohne ein Buch. | Der Vater schenkt dem Sohne ein Buch. | El padre le regala un libro al hijo. | HIGH | LABOT | |
+| 822 | ES-KURSS-LESSONS-LV2-0616 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Der Vater schenkt den Söhnen Bücher. | Der Vater schenkt den Söhnen Bücher. | El padre les regala libros a los hijos. | HIGH | LABOT | |
+| 823 | ES-KURSS-LESSONS-LV2-0617 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wem nähert sich die Mutter? | Wem nähert sich die Mutter? | ¿A quién se acerca la madre? | HIGH | LABOT | |
+| 824 | ES-KURSS-LESSONS-LV2-0618 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Die Mutter nähert sich der Tochter. | Die Mutter nähert sich der Tochter. | La madre se acerca a la hija. | HIGH | LABOT | |
+| 825 | ES-KURSS-LESSONS-LV2-0619 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Die Mutter nähert sich den Töchtern. | Die Mutter nähert sich den Töchtern. | La madre se acerca a las hijas. | HIGH | LABOT | |
+| 826 | ES-KURSS-LESSONS-LV2-0620 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wem gibt die Magd Brot und Milch? | Wem gibt die Magd Brot und Milch? | ¿A quién le da la criada pan y leche? | HIGH | LABOT | |
+| 827 | ES-KURSS-LESSONS-LV2-0621 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Die Magd gibt dem Kinde Brot und Milch. | Die Magd gibt dem Kinde Brot und Milch. | La criada le da pan y leche al niño. | HIGH | LABOT | |
+| 828 | ES-KURSS-LESSONS-LV2-0622 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Die Magd gibt den Kindern Brot und Milch. | Die Magd gibt den Kindern Brot und Milch. | La criada les da pan y leche a los niños. | HIGH | LABOT | |
+| 829 | ES-KURSS-LESSONS-LV2-0623 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wem gehorchen die Kinder? | Wem gehorchen die Kinder? | ¿A quién obedecen los niños? | HIGH | LABOT | |
+| 830 | ES-KURSS-LESSONS-LV2-0624 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Sie gehorchen den Eltern. | Sie gehorchen den Eltern. | Obedecen a sus padres. | HIGH | LABOT | |
+| 831 | ES-KURSS-LESSONS-LV2-0625 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wem gehorcht der Hund? | Wem gehorcht der Hund? | ¿A quién obedece el perro? | HIGH | LABOT | |
+| 832 | ES-KURSS-LESSONS-LV2-0626 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Der Hund gehorcht dem Knechte. | Der Hund gehorcht dem Knechte. | El perro obedece al criado. | HIGH | LABOT | |
+| 833 | ES-KURSS-LESSONS-LV2-0627 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wem gehören die Felder, die Wiesen und die Wälder? | Wem gehören die Felder, die Wiesen und die Wälder? | ¿A quién pertenecen los campos, los prados y los b… | HIGH | LABOT | |
+| 834 | ES-KURSS-LESSONS-LV2-0628 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Die Felder, die Wiesen und die Wälder gehören den … | Die Felder, die Wiesen und die Wälder gehören den … | Los campos, los prados y los bosques pertenecen a … | HIGH | LABOT | |
+| 835 | ES-KURSS-LESSONS-LV2-0629 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wem folgt der Hund? | Wem folgt der Hund? | ¿A quién sigue el perro? | HIGH | LABOT | |
+| 836 | ES-KURSS-LESSONS-LV2-0630 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Der Hund folgt dem Jäger. | Der Hund folgt dem Jäger. | El perro sigue al cazador. | HIGH | LABOT | |
+| 837 | ES-KURSS-LESSONS-LV2-0631 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Der Hund ist dem Jäger treu. | Der Hund ist dem Jäger treu. | El perro es fiel al cazador. | HIGH | LABOT | |
+| 838 | ES-KURSS-LESSONS-LV2-0632 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | wem | wem — kam? | wem — ¿a quién? | HIGH | LABOT | |
+| 839 | ES-KURSS-LESSONS-LV2-0633 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | die Felder | die Felder — campos / campos | die Felder — campos | MEDIUM | LABOT | |
+| 840 | ES-KURSS-LESSONS-LV2-0634 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Dativs | Dativo | MEDIUM | LABOT | |
+| 841 | ES-KURSS-LESSONS-LV2-0635 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | El dativo responde a la pregunta: ¿wem? - ¿A quien… | El dativo responde a la pregunta: ¿wem? — ¿A quién… | MEDIUM | LABOT | |
+| 842 | ES-KURSS-LESSONS-LV2-0636 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Nominativ | Nominativ | Nominativo | MEDIUM | LABOT | |
+| 843 | ES-KURSS-LESSONS-LV2-0637 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Dativ | Dativ | Dativo | MEDIUM | LABOT | |
+| 844 | ES-KURSS-LESSONS-LV2-0638 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Akkusativ | Akkusativ | Acusativo | MEDIUM | LABOT | |
+| 845 | ES-KURSS-LESSONS-LV2-0639 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Nominativ | Nominativ | Nominativo | MEDIUM | LABOT | |
+| 846 | ES-KURSS-LESSONS-LV2-0640 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Dativ | Dativ | Dativo | MEDIUM | LABOT | |
+| 847 | ES-KURSS-LESSONS-LV2-0641 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Akkusativ | Akkusativ | Acusativo | MEDIUM | LABOT | |
+| 848 | ES-KURSS-LESSONS-LV2-0642 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Los sustantivos masculinos y neutros en dativo sin… | Los sustantivos masculinos y neutros en dativo sin… | LOW | LABOT | |
+| 849 | ES-KURSS-LESSONS-LV2-0644 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` |  | Bez artikula | Sin artículo | HIGH | LABOT | |
+| 850 | ES-KURSS-LESSONS-LV2-0646 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wen ruft der Vater? | ¿Cómo se llama el padre? | ¿A quién llama el padre? | HIGH | LABOT | |
+| 851 | ES-KURSS-LESSONS-LV2-0647 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wem gehorcht der Hund? | Kam paklausa soles? | ¿A quién obedece el perro? | CRITICAL | LABOT | |
+| 852 | ES-KURSS-LESSONS-LV2-0648 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wieviel Hunde hat der Jäger? | ¿Cuantos perros tiene el cazador? | ¿Cuántos perros tiene el cazador? | MEDIUM | LABOT | |
+| 853 | ES-KURSS-LESSONS-LV2-0649 | `lesson16` | `COURSE_LESSON_DATA.kurssLesson16.section…` | Wer nähert sich den Schülern und Schülerinnen? | ¿Qué se acerca a los escolares y las niñas? | ¿Quién se acerca a los alumnos y las alumnas? | HIGH | LABOT | |
+| 854 | ES-KURSS-LESSONS-LV2-0650 | `lesson16` | `kurss.hints.tapToRevealGerman` |  | Toque la tarjeta para ver la traducción al alemán. | Toca la tarjeta para ver la traducción al alemán. | MEDIUM | LABOT | |
+| 855 | ES-KURSS-LESSONS-LV2-0651 | `lesson16` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | HIGH | LABOT | |
+| 856 | ES-KURSS-LESSONS-LV2-0652 | `lesson16` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa el caso correcto y ponlo en plural! | HIGH | LABOT | |
+| 857 | ES-KURSS-LESSONS-LV2-0656 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | womit | womit — ar ko? | womit — ¿con qué? | HIGH | LABOT | |
+| 858 | ES-KURSS-LESSONS-LV2-0658 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | der Schuldiener | der Schuldiener — asistente de escuela | der Schuldiener — conserje de la escuela | MEDIUM | LABOT | |
+| 859 | ES-KURSS-LESSONS-LV2-0659 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | die Diele | die Diele — piso | die Diele — vestíbulo | HIGH | LABOT | |
+| 860 | ES-KURSS-LESSONS-LV2-0662 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Los verbos graben, fangen, auffangen tienen diéres… | En graben, fangen y auffangen, la vocal de la raíz… | HIGH | LABOT | |
+| 861 | ES-KURSS-LESSONS-LV2-0663 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Los verbos compuestos auffangen y abwischen llevan… | Los verbos compuestos auffangen y abwischen tienen… | HIGH | LABOT | |
+| 862 | ES-KURSS-LESSONS-LV2-0664 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` |  | Fegen y wischen significan barrer, pero el uso es … | Fegen significa «barrer», mientras que wischen sig… | HIGH | LABOT | |
+| 863 | ES-KURSS-LESSONS-LV2-0666 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | En wieder, la e final es abierta. | En wieder, la e final es abierta. | En wieder, la e final se pronuncia como una vocal … | MEDIUM | LABOT | |
+| 864 | ES-KURSS-LESSONS-LV2-0667 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Knecht hilft diesem Tischler, jener Frau, dem … | Wem hilft der Knecht? (dieser Tischler, jene Frau,… | ¿A quién ayuda el criado? (este carpintero, esa mu… | HIGH | LABOT | |
+| 865 | ES-KURSS-LESSONS-LV2-0668 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Was wischt das Mädchen ab? | ¿Ko meitene noslauka? | ¿Qué limpia la niña? | HIGH | LABOT | |
+| 866 | ES-KURSS-LESSONS-LV2-0669 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Spricht sie mit dem Freunde? | ¿Está hablando con una amiga? | ¿Está hablando con un amigo? | MEDIUM | LABOT | |
+| 867 | ES-KURSS-LESSONS-LV2-0670 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Ich halte den Spaten mit der Hand. | Estoy sosteniendo una pala con la mano. | Sostengo la pala con la mano. | MEDIUM | LABOT | |
+| 868 | ES-KURSS-LESSONS-LV2-0671 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Womit arbeiten wir? | ¿Con quién trabajamos? | ¿Con qué trabajamos? | HIGH | LABOT | |
+| 869 | ES-KURSS-LESSONS-LV2-0672 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Mit wem geht der Bruder? | ¿Con qué va el hermano? | ¿Con quién va el hermano? | HIGH | LABOT | |
+| 870 | ES-KURSS-LESSONS-LV2-0673 | `lesson17` | `COURSE_LESSON_DATA.kurssLesson17.section…` | Der Bruder geht mit dem Vater, mit der Mutter, mit… | Un hermano va con su padre, con su madre, con su m… | El hermano va con su padre, con su madre, con su m… | HIGH | LABOT | |
+| 871 | ES-KURSS-LESSONS-LV2-0674 | `lesson17` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | MEDIUM | LABOT | |
+| 872 | ES-KURSS-LESSONS-LV2-0675 | `lesson17` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa el caso correcto y ponlo en plural! | MEDIUM | LABOT | |
+| 873 | ES-KURSS-LESSONS-LV2-0679 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | wohin | wohin — kurp? | wohin — adónde | HIGH | LABOT | |
+| 874 | ES-KURSS-LESSONS-LV2-0680 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | wo | wo — kur? | wo — dónde | HIGH | LABOT | |
+| 875 | ES-KURSS-LESSONS-LV2-0681 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | das Körbchen | das Körbchen — una cesta | das Körbchen — cestita | MEDIUM | LABOT | |
+| 876 | ES-KURSS-LESSONS-LV2-0683 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | die Diele | die Diele — piso | die Diele — recibidor | HIGH | LABOT | |
+| 877 | ES-KURSS-LESSONS-LV2-0684 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Las preposiciones an, in, auf pueden acompañar tan… | Las preposiciones an, in y auf pueden acompañar ta… | MEDIUM | LABOT | |
+| 878 | ES-KURSS-LESSONS-LV2-0685 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Si la acción indica un cambio de dirección o de lu… | Si la acción indica un cambio de dirección o de lu… | HIGH | LABOT | |
+| 879 | ES-KURSS-LESSONS-LV2-0686 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Ich gehe an den Tisch. | Ich gehe an den Tisch. — Es eju pie galda. | Ich gehe an den Tisch. — Voy a la mesa. | HIGH | LABOT | |
+| 880 | ES-KURSS-LESSONS-LV2-0687 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Ich stelle den Korb auf die Bank. | Ich stelle den Korb auf die Bank. — Es nolieku gro… | Ich stelle den Korb auf die Bank. — Coloco la cest… | HIGH | LABOT | |
+| 881 | ES-KURSS-LESSONS-LV2-0688 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Estos verbos suelen indicar dirección y por tanto … | Estos verbos suelen indicar dirección y, por tanto… | LOW | LABOT | |
+| 882 | ES-KURSS-LESSONS-LV2-0689 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | gehen | gehen — iet | gehen — ir | HIGH | LABOT | |
+| 883 | ES-KURSS-LESSONS-LV2-0690 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | fahren | fahren — braukt | fahren — desplazarse en vehículo | HIGH | LABOT | |
+| 884 | ES-KURSS-LESSONS-LV2-0691 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | laufen | laufen — skriet | laufen — correr | HIGH | LABOT | |
+| 885 | ES-KURSS-LESSONS-LV2-0692 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | fliegen | fliegen — lidot | fliegen — volar | HIGH | LABOT | |
+| 886 | ES-KURSS-LESSONS-LV2-0694 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Estos verbos suelen indicar ubicación o estado y p… | Estos verbos suelen indicar ubicación o estado y, … | LOW | LABOT | |
+| 887 | ES-KURSS-LESSONS-LV2-0695 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | sich befinden | sich befinden — atrasties | sich befinden — encontrarse | HIGH | LABOT | |
+| 888 | ES-KURSS-LESSONS-LV2-0697 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | sitzen | sitzen — sentarse | sitzen — estar sentado | MEDIUM | LABOT | |
+| 889 | ES-KURSS-LESSONS-LV2-0698 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | finden | finden — atrast | finden — encontrar | HIGH | LABOT | |
+| 890 | ES-KURSS-LESSONS-LV2-0699 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Los sustantivos suelen aparecer sin article. | Los sustantivos suelen aparecer sin artículo. | HIGH | LABOT | |
+| 891 | ES-KURSS-LESSONS-LV2-0700 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Ich trinke Milch. | Ich trinke Milch. — Es dzeru pienu. | Ich trinke Milch. — Bebo leche. | HIGH | LABOT | |
+| 892 | ES-KURSS-LESSONS-LV2-0702 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | in + vieta | in + ubicación | HIGH | LABOT | |
+| 893 | ES-KURSS-LESSONS-LV2-0703 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` |  | Si la preposición in no se traduce como "en", pero… | Si la preposición in no se traduce como «en», sino… | HIGH | LABOT | |
+| 894 | ES-KURSS-LESSONS-LV2-0704 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Wohin kommt der Diener? | ¿De dónde viene el servidor? | ¿Adónde va el criado? | HIGH | LABOT | |
+| 895 | ES-KURSS-LESSONS-LV2-0705 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Wo arbeitet er? | donde trabaja | ¿Dónde trabaja? | MEDIUM | LABOT | |
+| 896 | ES-KURSS-LESSONS-LV2-0706 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Sie suchen Beeren in dem Walde. | Recogen bayas en el bosque. | Buscan bayas en el bosque. | MEDIUM | LABOT | |
+| 897 | ES-KURSS-LESSONS-LV2-0707 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Die Mutter stellt den Korb auf den Schrank. | La madre pone la cesta en el armario. | La madre pone la cesta sobre el armario. | MEDIUM | LABOT | |
+| 898 | ES-KURSS-LESSONS-LV2-0708 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Der Schüler legt die Hefte in die Mappe. | El estudiante pone los cuadernos en la bolsa. | El estudiante pone los cuadernos en la carpeta. | MEDIUM | LABOT | |
+| 899 | ES-KURSS-LESSONS-LV2-0709 | `lesson18` | `COURSE_LESSON_DATA.kurssLesson18.section…` | Die Hefte sind jetzt in der Mappe. | Las cartas ya están en la bolsa. | Los cuadernos ya están en la carpeta. | HIGH | LABOT | |
+| 900 | ES-KURSS-LESSONS-LV2-0710 | `lesson18` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | HIGH | LABOT | |
+| 901 | ES-KURSS-LESSONS-LV2-0711 | `lesson18` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa el caso correcto y escribe la respuesta en pl… | HIGH | LABOT | |
+| 902 | ES-KURSS-LESSONS-LV2-0713 | `lesson19` | `kurss.lessonItems.19.menuDesc (lesson he…` |  | Wechselpräpositionen: vor, hinder, unter, über, ne… | Wechselpräpositionen: vor, hinter, unter, über, ne… | MEDIUM | LABOT | |
+| 903 | ES-KURSS-LESSONS-LV2-0714 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.intro` |  | Decimonovena Conferencia: vor, hinder, unter, über… | Lección 19: vor, hinter, unter, über, neben y zwis… | MEDIUM | LABOT | |
+| 904 | ES-KURSS-LESSONS-LV2-0715 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Der Eimer steht unter der Bank. | Der Eimer steht unter der Bank. | El cubo está debajo del banco. | HIGH | LABOT | |
+| 905 | ES-KURSS-LESSONS-LV2-0716 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Wohin hängt der Vater das Bild? | Wohin hängt der Vater das Bild? | ¿Dónde cuelga el padre el cuadro? | HIGH | LABOT | |
+| 906 | ES-KURSS-LESSONS-LV2-0717 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er hängt das Bild über das Klavier. | Er hängt das Bild über das Klavier. | Cuelga el cuadro encima del piano. | HIGH | LABOT | |
+| 907 | ES-KURSS-LESSONS-LV2-0718 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Wo hängt das Bild? | Wo hängt das Bild? | ¿Dónde está colgado el cuadro? | HIGH | LABOT | |
+| 908 | ES-KURSS-LESSONS-LV2-0719 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Das Bild hängt über dem Klavier. | Das Bild hängt über dem Klavier. | El cuadro está colgado encima del piano. | HIGH | LABOT | |
+| 909 | ES-KURSS-LESSONS-LV2-0720 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Wohin setzt sich der Knabe? | Wohin setzt sich der Knabe? | ¿Dónde se sienta el muchacho? | HIGH | LABOT | |
+| 910 | ES-KURSS-LESSONS-LV2-0721 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er setzt sich neben den Großvater und die Großmutt… | Er setzt sich neben den Großvater und die Großmutt… | Se sienta al lado del abuelo y de la abuela. | HIGH | LABOT | |
+| 911 | ES-KURSS-LESSONS-LV2-0722 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Wo sitzt er? | Wo sitzt er? | ¿Dónde está sentado? | HIGH | LABOT | |
+| 912 | ES-KURSS-LESSONS-LV2-0723 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er sitzt neben dem Großvater und der Großmutter. | Er sitzt neben dem Großvater und der Großmutter. | Está sentado al lado del abuelo y de la abuela. | HIGH | LABOT | |
+| 913 | ES-KURSS-LESSONS-LV2-0724 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Wohin stellt die Magd den Stuhl? | Wohin stellt die Magd den Stuhl? | ¿Dónde coloca la criada la silla? | HIGH | LABOT | |
+| 914 | ES-KURSS-LESSONS-LV2-0725 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Sie stellt den Stuhl zwischen das Klavier und den … | Sie stellt den Stuhl zwischen das Klavier und den … | Coloca la silla entre el piano y el espejo. | HIGH | LABOT | |
+| 915 | ES-KURSS-LESSONS-LV2-0726 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Wo steht der Stuhl? | Wo steht der Stuhl? | ¿Dónde está la silla? | HIGH | LABOT | |
+| 916 | ES-KURSS-LESSONS-LV2-0727 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Der Stuhl steht zwischen dem Klavier und dem Spieg… | Der Stuhl steht zwischen dem Klavier und dem Spieg… | La silla está entre el piano y el espejo. | HIGH | LABOT | |
+| 917 | ES-KURSS-LESSONS-LV2-0728 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | vor | vor — antes | vor — delante de | HIGH | LABOT | |
+| 918 | ES-KURSS-LESSONS-LV2-0729 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | das Land | das Land — país / tierra | das Land — país | MEDIUM | LABOT | |
+| 919 | ES-KURSS-LESSONS-LV2-0730 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Wechselpräpositionen | Preposiciones de doble régimen | HIGH | LABOT | |
+| 920 | ES-KURSS-LESSONS-LV2-0731 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | En esta conferencia, continuamos con preposiciones… | En esta lección, continuamos con las preposiciones… | MEDIUM | LABOT | |
+| 921 | ES-KURSS-LESSONS-LV2-0733 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Si hay una ubicación, la pregunta es ¿wo? y utiliz… | Si se indica una ubicación, la pregunta es «¿dónde… | HIGH | LABOT | |
+| 922 | ES-KURSS-LESSONS-LV2-0735 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kopsavilkums: wohin? | Resumen: ¿adónde? | HIGH | LABOT | |
+| 923 | ES-KURSS-LESSONS-LV2-0736 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | ¿Quién? → Ackusativo | ¿Adónde? → Acusativo | HIGH | LABOT | |
+| 924 | ES-KURSS-LESSONS-LV2-0737 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | Kopsavilkums: wo? | Resumen: ¿dónde? | HIGH | LABOT | |
+| 925 | ES-KURSS-LESSONS-LV2-0738 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | ¿Quién? → Dativo | ¿Dónde? → Dativo | HIGH | LABOT | |
+| 926 | ES-KURSS-LESSONS-LV2-0739 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` |  | gehen - ir cuando la acción significa caminar cont… | gehen = ir, cuando la acción indica un desplazamie… | HIGH | LABOT | |
+| 927 | ES-KURSS-LESSONS-LV2-0740 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | En wachsen, ch se pronuncia como k. | En wachsen, ch se pronuncia como k. | En wachsen, ch se pronuncia como la «j» española. | HIGH | LABOT | |
+| 928 | ES-KURSS-LESSONS-LV2-0741 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er hat eine Karte in der Hand. | Tiene una card en la mano. | Tiene una tarjeta en la mano. | HIGH | LABOT | |
+| 929 | ES-KURSS-LESSONS-LV2-0742 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er zeigt den Schülern und Schülerinnen viele Lände… | Muestra a los niños y niñas muchas ciudades, tierr… | Muestra a los alumnos y alumnas muchos países, ciu… | HIGH | LABOT | |
+| 930 | ES-KURSS-LESSONS-LV2-0743 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Dann ruft der Lehrer einen Schüler auf. | Luego el profesor llama al alumno. | Luego el profesor llama a un alumno. | MEDIUM | LABOT | |
+| 931 | ES-KURSS-LESSONS-LV2-0744 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Der Schüler tritt an die Karte. | Skolnieks pieiet pie kartes. | El alumno se acerca al mapa. | CRITICAL | LABOT | |
+| 932 | ES-KURSS-LESSONS-LV2-0745 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er bleibt vor der Karte stehen. | Él permanece de pie frente a la card. | Él se queda de pie frente al mapa. | HIGH | LABOT | |
+| 933 | ES-KURSS-LESSONS-LV2-0746 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | Er nennt und zeigt dem Lehrer die Städte, die Berg… | Nombra y muestra al maestro ciudades, montañas y r… | Nombra las ciudades, las montañas y los ríos y se … | MEDIUM | LABOT | |
+| 934 | ES-KURSS-LESSONS-LV2-0747 | `lesson19` | `COURSE_LESSON_DATA.kurssLesson19.section…` | So arbeitet der Lehrer in der Klasse. | Así trabaja un profesor en un aula. | Así trabaja el profesor en el aula. | MEDIUM | LABOT | |
+| 935 | ES-KURSS-LESSONS-LV2-0748 | `lesson19` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | MEDIUM | LABOT | |
+| 936 | ES-KURSS-LESSONS-LV2-0749 | `lesson19` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Elige el caso correcto y hazlo en plural! | MEDIUM | LABOT | |
+| 937 | ES-KURSS-LESSONS-LV2-0753 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Dieses Haus ist hoch. | Dieses Haus ist hoch. | Esta casa es alta. | HIGH | LABOT | |
+| 938 | ES-KURSS-LESSONS-LV2-0754 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Es hat drei Stockwerke. | Es hat drei Stockwerke. | Tiene tres pisos. | HIGH | LABOT | |
+| 939 | ES-KURSS-LESSONS-LV2-0755 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | In den Mauern sind Fenster und Türen. | In den Mauern sind Fenster und Türen. | En los muros hay ventanas y puertas. | HIGH | LABOT | |
+| 940 | ES-KURSS-LESSONS-LV2-0756 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Die Mauern sind aus Stein. | Die Mauern sind aus Stein. | Los muros son de piedra. | HIGH | LABOT | |
+| 941 | ES-KURSS-LESSONS-LV2-0757 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Die Wände und Türen sind aus Holz. | Die Wände und Türen sind aus Holz. | Las paredes y las puertas son de madera. | HIGH | LABOT | |
+| 942 | ES-KURSS-LESSONS-LV2-0758 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Die Fenster sind aus Glas. | Die Fenster sind aus Glas. | Las ventanas son de vidrio. | HIGH | LABOT | |
+| 943 | ES-KURSS-LESSONS-LV2-0759 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | In dem Hause sind zehn Wohnungen. | In dem Hause sind zehn Wohnungen. | En la casa hay diez viviendas. | HIGH | LABOT | |
+| 944 | ES-KURSS-LESSONS-LV2-0760 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Jede Wohnung hat drei Zimmer, ein Vorhaus und eine… | Jede Wohnung hat drei Zimmer, ein Vorhaus und eine… | Cada vivienda tiene tres habitaciones, un vestíbul… | HIGH | LABOT | |
+| 945 | ES-KURSS-LESSONS-LV2-0761 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Unter dem Dache ist der Boden. | Unter dem Dache ist der Boden. | Bajo el tejado está el desván. | HIGH | LABOT | |
+| 946 | ES-KURSS-LESSONS-LV2-0762 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Unter dem Hause ist der Keller. | Unter dem Hause ist der Keller. | Debajo de la casa está el sótano. | HIGH | LABOT | |
+| 947 | ES-KURSS-LESSONS-LV2-0763 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Auf dem Dache sind drei Schornsteine. | Auf dem Dache sind drei Schornsteine. | En el tejado hay tres chimeneas. | HIGH | LABOT | |
+| 948 | ES-KURSS-LESSONS-LV2-0764 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Der Schornsteinfeger steigt aufs Dach und reinigt … | Der Schornsteinfeger steigt aufs Dach und reinigt … | El deshollinador sube al tejado y limpia las chime… | HIGH | LABOT | |
+| 949 | ES-KURSS-LESSONS-LV2-0765 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Die Stadt hat viele Häuser. | Die Stadt hat viele Häuser. | La ciudad tiene muchas casas. | HIGH | LABOT | |
+| 950 | ES-KURSS-LESSONS-LV2-0766 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | In den Häusern sind viele Wohnungen. | In den Häusern sind viele Wohnungen. | En las casas hay muchas viviendas. | HIGH | LABOT | |
+| 951 | ES-KURSS-LESSONS-LV2-0767 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | In den Wohnungen leben viele Menschen. | In den Wohnungen leben viele Menschen. | En las viviendas viven muchas personas. | HIGH | LABOT | |
+| 952 | ES-KURSS-LESSONS-LV2-0768 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Alle Menschen arbeiten. | Alle Menschen arbeiten. | Todas las personas trabajan. | HIGH | LABOT | |
+| 953 | ES-KURSS-LESSONS-LV2-0769 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Alle Menschen müssen arbeiten. | Alle Menschen müssen arbeiten. | Todas las personas tienen que trabajar. | HIGH | LABOT | |
+| 954 | ES-KURSS-LESSONS-LV2-0770 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wir wohnen in dem vierten Stockwerk. | Wir wohnen in dem vierten Stockwerk. | Vivimos en el cuarto piso. | HIGH | LABOT | |
+| 955 | ES-KURSS-LESSONS-LV2-0771 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Ich muss das Holz in das vierte Stockwerk tragen. | Ich muss das Holz in das vierte Stockwerk tragen. | Tengo que llevar la madera al cuarto piso. | HIGH | LABOT | |
+| 956 | ES-KURSS-LESSONS-LV2-0772 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Ich bringe das Holz in die Küche. | Ich bringe das Holz in die Küche. | Llevo la madera a la cocina. | HIGH | LABOT | |
+| 957 | ES-KURSS-LESSONS-LV2-0773 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Ich stecke das Holz in den Ofen. | Ich stecke das Holz in den Ofen. | Meto la madera en el horno. | HIGH | LABOT | |
+| 958 | ES-KURSS-LESSONS-LV2-0774 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | das Holz | das Holz — madera / leña | das Holz — madera | LOW | LABOT | |
+| 959 | ES-KURSS-LESSONS-LV2-0775 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | das Vorhaus | das Vorhaus — vestíbulo / pasillo | das Vorhaus — vestíbulo | LOW | LABOT | |
+| 960 | ES-KURSS-LESSONS-LV2-0776 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | brennen | brennen — arder / quemar | brennen — arder | LOW | LABOT | |
+| 961 | ES-KURSS-LESSONS-LV2-0777 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | licht | licht — luz | licht — claro / luminoso | MEDIUM | LABOT | |
+| 962 | ES-KURSS-LESSONS-LV2-0778 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Dativs ar wann? | El dativo para expresar el tiempo | HIGH | LABOT | |
+| 963 | ES-KURSS-LESSONS-LV2-0779 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Palabras de tráfico que responden a la pregunta ¿q… | Las expresiones temporales que responden a la preg… | HIGH | LABOT | |
+| 964 | ES-KURSS-LESSONS-LV2-0780 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` |  | Muchas preposiciones se unen al article. | Muchas preposiciones se unen al artículo. | MEDIUM | LABOT | |
+| 965 | ES-KURSS-LESSONS-LV2-0782 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | En die Küche y die Dächer, ch se pronuncia como el… | En die Küche y die Dächer, ch se pronuncia como el… | En die Küche y die Dächer, ch se pronuncia como el… | MEDIUM | LABOT | |
+| 966 | ES-KURSS-LESSONS-LV2-0783 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was ist hoch? | ¿Kas ir aumenta? | ¿Qué es alto? | CRITICAL | LABOT | |
+| 967 | ES-KURSS-LESSONS-LV2-0784 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wieviel Stockwerke hat das Haus? | ¿Cuantos pisos tiene la casa? | ¿Cuántos pisos tiene la casa? | MEDIUM | LABOT | |
+| 968 | ES-KURSS-LESSONS-LV2-0785 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Woraus sind die Türen? | ¿De qué está hecha la puerta? | ¿De qué están hechas las puertas? | HIGH | LABOT | |
+| 969 | ES-KURSS-LESSONS-LV2-0786 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wo sind zehn Wohnungen? | ¿Dónde están los diez apartamentos? | ¿Dónde hay diez apartamentos? | MEDIUM | LABOT | |
+| 970 | ES-KURSS-LESSONS-LV2-0787 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was hat jede Wohnung? | ¿Qué hay en cada apartamento? | ¿Qué tiene cada apartamento? | LOW | LABOT | |
+| 971 | ES-KURSS-LESSONS-LV2-0788 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wohin steigt der Schornsteinfeger? | ¿Adónde va el deshollinador? | ¿Adónde sube el deshollinador? | MEDIUM | LABOT | |
+| 972 | ES-KURSS-LESSONS-LV2-0789 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was hat die Stadt? | ¿Cuál es la ciudad? | ¿Qué tiene la ciudad? | HIGH | LABOT | |
+| 973 | ES-KURSS-LESSONS-LV2-0790 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wer muss arbeiten? | ¿Quién necesita trabajar? | ¿Quién tiene que trabajar? | MEDIUM | LABOT | |
+| 974 | ES-KURSS-LESSONS-LV2-0791 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Wohin steckst du das Holz? | Kurp tu liec malku? | ¿Adónde metes la leña? | CRITICAL | LABOT | |
+| 975 | ES-KURSS-LESSONS-LV2-0792 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was zündest du an? | ¿Ko tu aizdedzini? | ¿Qué enciendes? | CRITICAL | LABOT | |
+| 976 | ES-KURSS-LESSONS-LV2-0793 | `lesson20` | `COURSE_LESSON_DATA.kurssLesson20.section…` | Was brennt hell? | ¿Qué arde intensamente? | ¿Qué arde con fuerza? | MEDIUM | LABOT | |
+| 977 | ES-KURSS-LESSONS-LV2-0794 | `lesson20` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | HIGH | LABOT | |
+| 978 | ES-KURSS-LESSONS-LV2-0795 | `lesson20` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Usa el caso correcto y ponlo en plural! | HIGH | LABOT | |
+| 979 | ES-KURSS-LESSONS-LV2-0799 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | sägen | sägen — sierra | sägen — serrar | HIGH | LABOT | |
+| 980 | ES-KURSS-LESSONS-LV2-0800 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | spalten | spalten — dividir | spalten — partir | MEDIUM | LABOT | |
+| 981 | ES-KURSS-LESSONS-LV2-0804 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | aus | aus — no / iz | aus — de / desde | CRITICAL | LABOT | |
+| 982 | ES-KURSS-LESSONS-LV2-0806 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` |  | Woher? — no kurienes? | Woher? — ¿De dónde? | HIGH | LABOT | |
+| 983 | ES-KURSS-LESSONS-LV2-0807 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Sie geht in die Küche zurück. | Wohin geht sie zurück? | ¿Adónde vuelve ella? | HIGH | LABOT | |
+| 984 | ES-KURSS-LESSONS-LV2-0808 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Sie arbeitet fleißig in der Küche. | Wo arbeitet sie fleißig? | ¿Dónde trabaja diligentemente? | HIGH | LABOT | |
+| 985 | ES-KURSS-LESSONS-LV2-0809 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Alle Hefte sind in der Mappe. | Todos los cuadernos están en la bolsa. | Todos los cuadernos están en la carpeta. | MEDIUM | LABOT | |
+| 986 | ES-KURSS-LESSONS-LV2-0810 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ich nehme die Hefte aus der Mappe. | Saco los cuadernos de mi bolso. | Saco los cuadernos de la carpeta. | MEDIUM | LABOT | |
+| 987 | ES-KURSS-LESSONS-LV2-0811 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ich ziehe die Uhr aus der Tasche. | Llevo un reloj en mi bolsillo. | Saco el reloj del bolso. | HIGH | LABOT | |
+| 988 | ES-KURSS-LESSONS-LV2-0812 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ein Eimer mit Milch steht im Keller. | En el sótano hay un cubo de leche. | En el sótano hay un cubo con leche. | MEDIUM | LABOT | |
+| 989 | ES-KURSS-LESSONS-LV2-0813 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ich trage den Eimer aus dem Keller. | Es nesu spaini no pagraba. | Llevo el cubo del sótano. | HIGH | LABOT | |
+| 990 | ES-KURSS-LESSONS-LV2-0814 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Ich nehme die Mütze vom Kopfe. | Me quito el sombrero de la cabeza. | Me quito el gorro de la cabeza. | MEDIUM | LABOT | |
+| 991 | ES-KURSS-LESSONS-LV2-0815 | `lesson21` | `COURSE_LESSON_DATA.kurssLesson21.section…` | Die Noten liegen auf dem Klavier. | La partitura está en el piano. | Las partituras están sobre el piano. | MEDIUM | LABOT | |
+| 992 | ES-KURSS-LESSONS-LV2-0816 | `lesson21` | `kurss.exerciseMeta.fillCase` |  | Ejercicio I — Usa la conjugación correcta | Ejercicio I — Usa el caso correcto | HIGH | LABOT | |
+| 993 | ES-KURSS-LESSONS-LV2-0817 | `lesson21` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Pon el caso correcto y hazlo en plural! | HIGH | LABOT | |
 
 ## Kopsavilkums
 
-- findings: **919**
-- CRITICAL: **42**
-- HIGH: **498**
-- MEDIUM: **360**
-- LOW: **19**
+- findings: **993**
+- CRITICAL: **22**
+- HIGH: **562**
+- MEDIUM: **380**
+- LOW: **29**
 - DE izmaiņas: **0**

@@ -1,9 +1,9 @@
 # ES–DE Kurss Lessons — GitHub atvēršanas indekss
 
-**Auditors:** GPT-5.6 Luna + deterministic (READ-ONLY)
+**Auditors:** GPT-5.6 Luna v2 + deterministic (READ-ONLY)
 **Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.9
 **Branch:** `cursor/es-kurss-lessons-full-audit-3141`
-**Findings:** **919** · **Verdict:** NEEDS OWNER REVIEW
+**Findings:** **993** · **Verdict:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
 
@@ -11,7 +11,7 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-review-README.md) | Workflow, kopsavilkums |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-full-audit.md) | 2951 lauki · MASTER v1.9 |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-full-audit-v2.md) | 2951 lauki · MASTER v1.9 |
 
 ## Preview ↔ Decisions ↔ Accepted
 
@@ -43,15 +43,16 @@
 | 751–800 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-review-group16.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-decisions-group16.md) | **PENDING** |
 | 801–850 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-review-group17.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-decisions-group17.md) | **PENDING** |
 | 851–900 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-review-group18.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-decisions-group18.md) | **PENDING** |
-| 901–919 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-review-group19.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-decisions-group19.md) | **PENDING** |
+| 901–950 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-review-group19.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-decisions-group19.md) | **PENDING** |
+| 951–993 | [Preview](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-review-group20.md) | [Decisions](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/es-kurss-lessons-full-audit-3141/reports/es-kurss-lessons-owner-decisions-group20.md) | **PENDING** |
 
 ## Kopsavilkums
 
 | Severity | Skaits |
 |----------|--------|
-| CRITICAL | **42** |
-| HIGH | **498** |
-| MEDIUM | **360** |
-| LOW | **19** |
+| CRITICAL | **22** |
+| HIGH | **562** |
+| MEDIUM | **380** |
+| LOW | **29** |
 
 **Production changes = 0 · DE changes = 0**

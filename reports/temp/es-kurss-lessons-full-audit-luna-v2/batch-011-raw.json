@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-011",
+  "cardIds": [
+    "ES-KURSS-LESSON-05-0014",
+    "ES-KURSS-LESSON-05-0015",
+    "ES-KURSS-LESSON-05-0016",
+    "ES-KURSS-LESSON-05-0017",
+    "ES-KURSS-LESSON-05-0018",
+    "ES-KURSS-LESSON-05-0019",
+    "ES-KURSS-LESSON-05-0020",
+    "ES-KURSS-LESSON-05-0021",
+    "ES-KURSS-LESSON-05-0022",
+    "ES-KURSS-LESSON-05-0023",
+    "ES-KURSS-LESSON-05-0024",
+    "ES-KURSS-LESSON-05-0025",
+    "ES-KURSS-LESSON-05-0026",
+    "ES-KURSS-LESSON-05-0027",
+    "ES-KURSS-LESSON-05-0028",
+    "ES-KURSS-LESSON-05-0029",
+    "ES-KURSS-LESSON-05-0030",
+    "ES-KURSS-LESSON-05-0031",
+    "ES-KURSS-LESSON-05-0032",
+    "ES-KURSS-LESSON-05-0033",
+    "ES-KURSS-LESSON-05-0034",
+    "ES-KURSS-LESSON-05-0035",
+    "ES-KURSS-LESSON-05-0036",
+    "ES-KURSS-LESSON-05-0037",
+    "ES-KURSS-LESSON-05-0038",
+    "ES-KURSS-LESSON-05-0039",
+    "ES-KURSS-LESSON-05-0040",
+    "ES-KURSS-LESSON-05-0041",
+    "ES-KURSS-LESSON-05-0042",
+    "ES-KURSS-LESSON-05-0043",
+    "ES-KURSS-LESSON-05-0044",
+    "ES-KURSS-LESSON-05-0045",
+    "ES-KURSS-LESSON-05-0046",
+    "ES-KURSS-LESSON-05-0047",
+    "ES-KURSS-LESSON-05-0048",
+    "ES-KURSS-LESSON-05-0049",
+    "ES-KURSS-LESSON-05-0050",
+    "ES-KURSS-LESSON-05-0051",
+    "ES-KURSS-LESSON-05-0052",
+    "ES-KURSS-LESSON-05-0053"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0014\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0015\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0016\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0017\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0018\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0019\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0020\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0021\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"wen (vēn) — qué\",\n      \"proposedEs\": \"wen (vēn) — a quién\",\n      \"reason\": \"En alemán, wen es el acusativo de wer y se usa para preguntar por personas; «qué» corresponde a was.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0022\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"TRANSLATION\",\n      \"currentEs\": \"loben — elogio\",\n      \"proposedEs\": \"loben — elogiar\",\n      \"reason\": \"«Loben» es un verbo («elogiar»), mientras que «elogio» es un sustantivo.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0023\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0024\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0025\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0026\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0027\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0028\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0029\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"tadeln — pelt\",\n      \"proposedEs\": \"tadeln — reprender\",\n      \"reason\": \"«pelt» no es español y parece un resto o error de traducción; «tadeln» significa «reprender» o «reprochar».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0030\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"oder (ōder) — or\",\n      \"proposedEs\": \"oder (ōder) — o\",\n      \"reason\": \"«or» es inglés; la traducción española de «oder» es «o».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0031\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0032\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0033\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0034\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0035\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0036\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0037\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"tz ir dubultots z skanis un izrunājams kā z: sitzen (zicen).\",\n      \"proposedEs\": \"tz es una z doble y se pronuncia como z: sitzen (zicen).\",\n      \"reason\": \"El texto está en letón, no en español. Debe traducirse, manteniendo el ejemplo alemán sin cambios.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0038\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"v vācu vārdos izrunā kā f: der Vater (fāter).\",\n      \"proposedEs\": \"La v en las palabras alemanas se pronuncia como f: der Vater (fāter).\",\n      \"reason\": \"El texto está en letón, no en español. Debe traducirse, manteniendo el ejemplo alemán sin cambios.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0039\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"ß sauc par escet un izrunā kā latviešu s: groß (grōs), weiß (veis).\",\n      \"proposedEs\": \"La ß se llama eszett y se pronuncia como la s: groß (grōs), weiß (veis).\",\n      \"reason\": \"El texto está en letón, no en español. Debe traducirse, manteniendo los ejemplos alemanes sin cambios.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0040\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0041\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Vācu valodā nominatīvā jautājums ir wer? personām un was? priekšmetiem.\",\n      \"proposedEs\": \"En alemán, en nominativo, la pregunta es wer? para personas y was? para objetos.\",\n      \"reason\": \"El texto está en letón, no en español. Debe traducirse, conservando wer? y was? como formas alemanas.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0042\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Akuzatīvā jautājums ir wen? personām un was? priekšmetiem.\",\n      \"proposedEs\": \"En acusativo, la pregunta es wen? para personas y was? para objetos.\",\n      \"reason\": \"El texto está en letón, no en español. Debe traducirse, conservando wen? y was? como formas alemanas.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0043\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0044\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0045\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0046\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0047\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0048\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0049\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0050\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0051\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0052\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0053\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3996,
+    "input_tokens_details": {
+      "cache_write_tokens": 3993,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2887,
+    "output_tokens_details": {
+      "reasoning_tokens": 576
+    },
+    "total_tokens": 6883
+  },
+  "generatedAt": "2026-08-27T06:54:51.980Z"
+}

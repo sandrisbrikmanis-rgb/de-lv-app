@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-072",
+  "cardIds": [
+    "ES-KURSS-LESSON-21-0031",
+    "ES-KURSS-LESSON-21-0032",
+    "ES-KURSS-LESSON-21-0033",
+    "ES-KURSS-LESSON-21-0034",
+    "ES-KURSS-LESSON-21-0035",
+    "ES-KURSS-LESSON-21-0036",
+    "ES-KURSS-LESSON-21-0037",
+    "ES-KURSS-LESSON-21-0038",
+    "ES-KURSS-LESSON-21-0039",
+    "ES-KURSS-LESSON-21-0040",
+    "ES-KURSS-LESSON-21-0041",
+    "ES-KURSS-LESSON-21-0042",
+    "ES-KURSS-LESSON-21-0043",
+    "ES-KURSS-LESSON-21-0044",
+    "ES-KURSS-LESSON-21-0045",
+    "ES-KURSS-LESSON-21-0046",
+    "ES-KURSS-LESSON-21-0047",
+    "ES-KURSS-LESSON-21-0048",
+    "ES-KURSS-LESSON-21-0049",
+    "ES-KURSS-LESSON-21-0050",
+    "ES-KURSS-LESSON-21-0051",
+    "ES-KURSS-LESSON-21-0052",
+    "ES-KURSS-LESSON-21-0053",
+    "ES-KURSS-LESSON-21-0054",
+    "ES-KURSS-LESSON-21-0055",
+    "ES-KURSS-LESSON-21-0056",
+    "ES-KURSS-LESSON-21-0057",
+    "ES-KURSS-LESSON-21-0058",
+    "ES-KURSS-LESSON-21-0059",
+    "ES-KURSS-LESSON-21-0060",
+    "ES-KURSS-LESSON-21-0061",
+    "ES-KURSS-LESSON-21-0062",
+    "ES-KURSS-LESSON-21-0063",
+    "ES-KURSS-LESSON-21-0064",
+    "ES-KURSS-LESSON-21-0065",
+    "ES-KURSS-LESSON-21-0066",
+    "ES-KURSS-LESSON-21-0067",
+    "ES-KURSS-LESSON-21-0068",
+    "ES-KURSS-LESSON-21-0069",
+    "ES-KURSS-LESSON-21-0070"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0031\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0032\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0033\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"aus — de / desde\",\n      \"proposedEs\": \"aus — de (procedencia); desde (punto de partida)\",\n      \"reason\": \"Combina dos traducciones distintas mediante una barra, sin aclarar suficientemente el contexto de uso.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0034\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0035\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0036\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"treten — pisar / dar un paso\",\n      \"proposedEs\": \"treten — pisar; dar un paso\",\n      \"reason\": \"El campo combina dos sentidos diferentes mediante una barra. Conviene presentarlos como sentidos diferenciados.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0037\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0038\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"er tritt — va / da un paso\",\n      \"proposedEs\": \"er tritt — da un paso\",\n      \"reason\": \"Combina traducciones distintas y «va» no es una equivalencia clara de esta forma verbal alemana sin contexto adicional.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0039\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0040\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0041\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0042\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0043\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0044\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0045\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0046\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0047\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0048\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0049\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0050\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0051\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0052\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0053\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0054\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0055\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0056\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0057\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0058\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0059\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0060\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0061\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0062\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0063\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"aus — no / iz\",\n      \"proposedEs\": \"aus — de / desde\",\n      \"reason\": \"La traducción contiene texto corrupto o restos no españoles («no / iz») y no transmite el significado de la preposición alemana.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0064\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0065\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0066\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0067\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0068\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"La preposición von puede fusionarse con el article.\",\n      \"proposedEs\": \"La preposición von puede fusionarse con el artículo.\",\n      \"reason\": \"«article» es un término inglés; en español debe emplearse «artículo».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0069\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-21-0070\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3705,
+    "input_tokens_details": {
+      "cache_write_tokens": 3702,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2641,
+    "output_tokens_details": {
+      "reasoning_tokens": 754
+    },
+    "total_tokens": 6346
+  },
+  "generatedAt": "2026-08-27T07:26:08.596Z"
+}

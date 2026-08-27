@@ -1,6 +1,6 @@
 # ES–DE Kurss Lessons — OWNER decisions (group 13: findings 601–650)
 
-**Auditors:** GPT-5.6 Luna + deterministic (READ-ONLY)
+**Auditors:** GPT-5.6 Luna v2 + deterministic (READ-ONLY)
 Avots: `reports/es-kurss-lessons-owner-review.md`
 Findings: **50** ieraksti
 
@@ -9,62 +9,62 @@ Sākotnēji visi ieraksti: **Statuss: PENDING**, **OWNER_DECISION:** tukšs.
 
 | # | Finding | Lesson | Path | DE_CONTEXT | ES_CURRENT | PROPOSED_ES | Severity | Statuss | OWNER_DECISION |
 |--:|--------:|--------|------|------------|------------|-------------|----------|---------|----------------|
-| 601 | ES-KURSS-LESSONS-L0358 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Mach das Fenster zu! | ¡Aiztaisi logu! | ¡Cierra la ventana! | CRITICAL | PENDING | |
-| 602 | ES-KURSS-LESSONS-L0359 | `lesson9` | `COURSE_LESSON_DATA.kurssLesson9.sections…` | Was macht das Mädchen endlich? | Ko meitene beidzot dara? | ¿Qué hace finalmente la niña? | CRITICAL | PENDING | |
-| 603 | ES-KURSS-LESSONS-L0360 | `lesson9` | `kurss.exerciseMeta.chooseCasePlural` |  | ¡Pon la conjugación correcta y hazlo en plural! | ¡Elige la conjugación correcta y úsala en plural! | MEDIUM | PENDING | |
-| 604 | ES-KURSS-LESSONS-L0362 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.intro` |  | Décima conferencia: sein, können, formas de mando,… | Décima lección: sein, können, formas del imperativ… | MEDIUM | PENDING | |
-| 605 | ES-KURSS-LESSONS-L0363 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Es ist gesund. | Es ist gesund. | Está sano. | HIGH | PENDING | |
-| 606 | ES-KURSS-LESSONS-L0364 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wir sind gesund. | Wir sind gesund. | Estamos sanos. | HIGH | PENDING | |
-| 607 | ES-KURSS-LESSONS-L0365 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ihr seid gesund. | Ihr seid gesund. | Vosotros estáis sanos. | HIGH | PENDING | |
-| 608 | ES-KURSS-LESSONS-L0366 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie sind gesund. | Sie sind gesund. | Ustedes están sanos. | HIGH | PENDING | |
-| 609 | ES-KURSS-LESSONS-L0367 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ich kann arbeiten. | Ich kann arbeiten. | Puedo trabajar. | HIGH | PENDING | |
-| 610 | ES-KURSS-LESSONS-L0368 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Du kannst arbeiten. | Du kannst arbeiten. | Puedes trabajar. | HIGH | PENDING | |
-| 611 | ES-KURSS-LESSONS-L0369 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Er kann arbeiten. | Er kann arbeiten. | Él puede trabajar. | HIGH | PENDING | |
-| 612 | ES-KURSS-LESSONS-L0370 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie kann arbeiten. | Sie kann arbeiten. | Ella puede trabajar. | HIGH | PENDING | |
-| 613 | ES-KURSS-LESSONS-L0371 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Es kann arbeiten. | Es kann arbeiten. | Puede trabajar. | HIGH | PENDING | |
-| 614 | ES-KURSS-LESSONS-L0372 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wir können arbeiten. | Wir können arbeiten. | Podemos trabajar. | HIGH | PENDING | |
-| 615 | ES-KURSS-LESSONS-L0373 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ihr könnt arbeiten. | Ihr könnt arbeiten. | Vosotros podéis trabajar. | HIGH | PENDING | |
-| 616 | ES-KURSS-LESSONS-L0374 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie können arbeiten. | Sie können arbeiten. | Ustedes pueden trabajar. | HIGH | PENDING | |
-| 617 | ES-KURSS-LESSONS-L0375 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Otto, sei gesund! | Otto, sei gesund! | ¡Otto, ponte bien! | HIGH | PENDING | |
-| 618 | ES-KURSS-LESSONS-L0376 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Otto und Franz, seid gesund! | Otto und Franz, seid gesund! | ¡Otto y Franz, poneos bien! | HIGH | PENDING | |
-| 619 | ES-KURSS-LESSONS-L0377 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Fräulein Müller, seien Sie gesund! | Fräulein Müller, seien Sie gesund! | ¡Señorita Müller, póngase bien! | HIGH | PENDING | |
-| 620 | ES-KURSS-LESSONS-L0378 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ich bin ein Knabe. | Ich bin ein Knabe. | Soy un niño. | HIGH | PENDING | |
-| 621 | ES-KURSS-LESSONS-L0379 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Du bist ein Mädchen. | Du bist ein Mädchen. | Eres una niña. | HIGH | PENDING | |
-| 622 | ES-KURSS-LESSONS-L0380 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Er ist ein Schüler. | Er ist ein Schüler. | Él es alumno. | HIGH | PENDING | |
-| 623 | ES-KURSS-LESSONS-L0381 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie ist eine Schülerin. | Sie ist eine Schülerin. | Ella es alumna. | HIGH | PENDING | |
-| 624 | ES-KURSS-LESSONS-L0382 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Was ist der Lehrer? | Was ist der Lehrer? | ¿Qué es el profesor? | HIGH | PENDING | |
-| 625 | ES-KURSS-LESSONS-L0383 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Der Lehrer ist ein Mann. | Der Lehrer ist ein Mann. | El profesor es un hombre. | HIGH | PENDING | |
-| 626 | ES-KURSS-LESSONS-L0384 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wer ist ein Mann? | Wer ist ein Mann? | ¿Quién es un hombre? | HIGH | PENDING | |
-| 627 | ES-KURSS-LESSONS-L0385 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Der Lehrer ist ein Mann. | Der Lehrer ist ein Mann. | El profesor es un hombre. | HIGH | PENDING | |
-| 628 | ES-KURSS-LESSONS-L0386 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Was ist die Lehrerin? | Was ist die Lehrerin? | ¿Qué es la profesora? | HIGH | PENDING | |
-| 629 | ES-KURSS-LESSONS-L0387 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Die Lehrerin ist eine Frau. | Die Lehrerin ist eine Frau. | La profesora es una mujer. | HIGH | PENDING | |
-| 630 | ES-KURSS-LESSONS-L0388 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wer ist eine Frau? | Wer ist eine Frau? | ¿Quién es una mujer? | HIGH | PENDING | |
-| 631 | ES-KURSS-LESSONS-L0389 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Die Lehrerin ist eine Frau. | Die Lehrerin ist eine Frau. | La profesora es una mujer. | HIGH | PENDING | |
-| 632 | ES-KURSS-LESSONS-L0390 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wer ist gesund? | Wer ist gesund? | ¿Quién está sano? | HIGH | PENDING | |
-| 633 | ES-KURSS-LESSONS-L0391 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ich bin gesund. | Ich bin gesund. | Estoy sano. | HIGH | PENDING | |
-| 634 | ES-KURSS-LESSONS-L0392 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wir sind gesund. | Wir sind gesund. | Estamos sanos. | HIGH | PENDING | |
-| 635 | ES-KURSS-LESSONS-L0393 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ist der Großvater gesund? | Ist der Großvater gesund? | ¿Está sano el abuelo? | HIGH | PENDING | |
-| 636 | ES-KURSS-LESSONS-L0394 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Nein, der Großvater ist krank. | Nein, der Großvater ist krank. | No, el abuelo está enfermo. | HIGH | PENDING | |
-| 637 | ES-KURSS-LESSONS-L0395 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Er kann nicht arbeiten. | Er kann nicht arbeiten. | No puede trabajar. | HIGH | PENDING | |
-| 638 | ES-KURSS-LESSONS-L0396 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Die Großmutter ist gesund. | Die Großmutter ist gesund. | La abuela está sana. | HIGH | PENDING | |
-| 639 | ES-KURSS-LESSONS-L0397 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie kann arbeiten. | Sie kann arbeiten. | Ella puede trabajar. | HIGH | PENDING | |
-| 640 | ES-KURSS-LESSONS-L0398 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Hans und Franz, seid ihr gesund? | Hans und Franz, seid ihr gesund? | Hans y Franz, ¿estáis sanos? | HIGH | PENDING | |
-| 641 | ES-KURSS-LESSONS-L0399 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ja, wir sind gesund. | Ja, wir sind gesund. | Sí, estamos sanos. | HIGH | PENDING | |
-| 642 | ES-KURSS-LESSONS-L0400 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wir können fleißig lernen. | Wir können fleißig lernen. | Podemos estudiar mucho. | HIGH | PENDING | |
-| 643 | ES-KURSS-LESSONS-L0401 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Alle Kinder sind gesund. | Alle Kinder sind gesund. | Todos los niños están sanos. | HIGH | PENDING | |
-| 644 | ES-KURSS-LESSONS-L0402 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Sie können fleißig lernen. | Sie können fleißig lernen. | Pueden estudiar mucho. | HIGH | PENDING | |
-| 645 | ES-KURSS-LESSONS-L0403 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Adolf, wie alt bist du? | Adolf, wie alt bist du? | Adolf, ¿cuántos años tienes? | HIGH | PENDING | |
-| 646 | ES-KURSS-LESSONS-L0404 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Ich bin zehn Jahre alt. | Ich bin zehn Jahre alt. | Tengo diez años. | HIGH | PENDING | |
-| 647 | ES-KURSS-LESSONS-L0405 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Wie alt ist Anna? | Wie alt ist Anna? | ¿Cuántos años tiene Anna? | HIGH | PENDING | |
-| 648 | ES-KURSS-LESSONS-L0406 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | Anna ist acht Jahre alt. | Anna ist acht Jahre alt. | Anna tiene ocho años. | HIGH | PENDING | |
-| 649 | ES-KURSS-LESSONS-L0409 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | sei gesund | sei gesund — esi vesels! | sei gesund — ¡mantente sano! | HIGH | PENDING | |
-| 650 | ES-KURSS-LESSONS-L0410 | `lesson10` | `COURSE_LESSON_DATA.kurssLesson10.section…` | seid gesund | seid gesund — esiet veseli! | seid gesund — ¡manteneos sanos! | HIGH | PENDING | |
+| 601 | ES-KURSS-LESSONS-LV2-0361 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich habe einen Bruder. | Ich habe einen Bruder. | Tengo un hermano. | HIGH | PENDING | |
+| 602 | ES-KURSS-LESSONS-LV2-0362 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Du hast einen Bruder. | Du hast einen Bruder. | Tienes un hermano. | HIGH | PENDING | |
+| 603 | ES-KURSS-LESSONS-LV2-0363 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Er hat einen Bruder. | Er hat einen Bruder. | Él tiene un hermano. | HIGH | PENDING | |
+| 604 | ES-KURSS-LESSONS-LV2-0364 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie hat einen Bruder. | Sie hat einen Bruder. | Ella tiene un hermano. | HIGH | PENDING | |
+| 605 | ES-KURSS-LESSONS-LV2-0365 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Es hat einen Bruder. | Es hat einen Bruder. | Tiene un hermano. | HIGH | PENDING | |
+| 606 | ES-KURSS-LESSONS-LV2-0366 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wir haben einen Bruder. | Wir haben einen Bruder. | Tenemos un hermano. | HIGH | PENDING | |
+| 607 | ES-KURSS-LESSONS-LV2-0367 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ihr habt einen Bruder. | Ihr habt einen Bruder. | Tenéis un hermano. | HIGH | PENDING | |
+| 608 | ES-KURSS-LESSONS-LV2-0368 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie haben einen Bruder. | Sie haben einen Bruder. | Ustedes tienen un hermano. | HIGH | PENDING | |
+| 609 | ES-KURSS-LESSONS-LV2-0369 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich habe keinen Bruder. | Ich habe keinen Bruder. | No tengo ningún hermano. | HIGH | PENDING | |
+| 610 | ES-KURSS-LESSONS-LV2-0370 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Du hast keinen Bruder. | Du hast keinen Bruder. | No tienes ningún hermano. | HIGH | PENDING | |
+| 611 | ES-KURSS-LESSONS-LV2-0371 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Er hat keinen Bruder. | Er hat keinen Bruder. | Él no tiene ningún hermano. | HIGH | PENDING | |
+| 612 | ES-KURSS-LESSONS-LV2-0372 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie hat keinen Bruder. | Sie hat keinen Bruder. | Ella no tiene ningún hermano. | HIGH | PENDING | |
+| 613 | ES-KURSS-LESSONS-LV2-0373 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Es hat keinen Bruder. | Es hat keinen Bruder. | No tiene ningún hermano. | HIGH | PENDING | |
+| 614 | ES-KURSS-LESSONS-LV2-0374 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wir haben keinen Bruder. | Wir haben keinen Bruder. | No tenemos ningún hermano. | HIGH | PENDING | |
+| 615 | ES-KURSS-LESSONS-LV2-0375 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ihr habt keinen Bruder. | Ihr habt keinen Bruder. | No tenéis ningún hermano. | HIGH | PENDING | |
+| 616 | ES-KURSS-LESSONS-LV2-0376 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie haben keinen Bruder. | Sie haben keinen Bruder. | Ustedes no tienen ningún hermano. | HIGH | PENDING | |
+| 617 | ES-KURSS-LESSONS-LV2-0377 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich habe ein Zimmer. | Ich habe ein Zimmer. | Tengo una habitación. | HIGH | PENDING | |
+| 618 | ES-KURSS-LESSONS-LV2-0378 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Das Zimmer ist nicht groß, aber es ist hell und wa… | Das Zimmer ist nicht groß, aber es ist hell und wa… | La habitación no es grande, pero es luminosa y cál… | HIGH | PENDING | |
+| 619 | ES-KURSS-LESSONS-LV2-0379 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Das Zimmer hat ein Fenster. | Das Zimmer hat ein Fenster. | La habitación tiene una ventana. | HIGH | PENDING | |
+| 620 | ES-KURSS-LESSONS-LV2-0380 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Das Fenster ist breit. | Das Fenster ist breit. | La ventana es ancha. | HIGH | PENDING | |
+| 621 | ES-KURSS-LESSONS-LV2-0381 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Du hast einen Schreibtisch. | Du hast einen Schreibtisch. | Tienes un escritorio. | HIGH | PENDING | |
+| 622 | ES-KURSS-LESSONS-LV2-0382 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Da liegen drei Bücher. | Da liegen drei Bücher. | Allí hay tres libros. | HIGH | PENDING | |
+| 623 | ES-KURSS-LESSONS-LV2-0383 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Anna hat einen Federhalter, eine Feder und einen B… | Anna hat einen Federhalter, eine Feder und einen B… | Anna tiene un portaplumas, una pluma y un lápiz. | HIGH | PENDING | |
+| 624 | ES-KURSS-LESSONS-LV2-0384 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Franz, schreibst du auch? | Anna schreibt und fragt: „Franz, schreibst du auch… | Anna escribe y pregunta: «Franz, ¿tú también escri… | HIGH | PENDING | |
+| 625 | ES-KURSS-LESSONS-LV2-0385 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich kann nicht schreiben. Ich habe kein Heft, kein… | Franz antwortet: „Ich kann nicht schreiben. Ich ha… | Franz responde: «No sé escribir. No tengo ningún c… | HIGH | PENDING | |
+| 626 | ES-KURSS-LESSONS-LV2-0386 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Nimm dieses Heft und diesen Bleistift. Wir arbeite… | Anna sagt: „Nimm dieses Heft und diesen Bleistift.… | Anna dice: «Coge este cuaderno y este lápiz. Traba… | HIGH | PENDING | |
+| 627 | ES-KURSS-LESSONS-LV2-0387 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Anna und Franz arbeiten oft zusammen. | Anna und Franz arbeiten oft zusammen. | Anna y Franz trabajan juntos a menudo. | HIGH | PENDING | |
+| 628 | ES-KURSS-LESSONS-LV2-0388 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Sie sind Freunde. | Sie sind Freunde. | Son amigos. | HIGH | PENDING | |
+| 629 | ES-KURSS-LESSONS-LV2-0389 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Was hast du? | Was hast du? | ¿Qué tienes? | HIGH | PENDING | |
+| 630 | ES-KURSS-LESSONS-LV2-0390 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich habe einen Schrank, einen Tisch und zwei Stühl… | Ich habe einen Schrank, einen Tisch und zwei Stühl… | Tengo un armario, una mesa y dos sillas. | HIGH | PENDING | |
+| 631 | ES-KURSS-LESSONS-LV2-0391 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Was habt ihr? | Was habt ihr? | ¿Qué tenéis? | HIGH | PENDING | |
+| 632 | ES-KURSS-LESSONS-LV2-0392 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wir haben eine Tischlampe, ein Bücherbrett und ein… | Wir haben eine Tischlampe, ein Bücherbrett und ein… | Tenemos una lámpara de mesa, un estante para libro… | HIGH | PENDING | |
+| 633 | ES-KURSS-LESSONS-LV2-0393 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wer ist glücklich? | Wer ist glücklich? | ¿Quién es feliz? | HIGH | PENDING | |
+| 634 | ES-KURSS-LESSONS-LV2-0394 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Ich bin glücklich, denn ich habe einen Vater und e… | Ich bin glücklich, denn ich habe einen Vater und e… | Soy feliz porque tengo un padre y una madre. | HIGH | PENDING | |
+| 635 | ES-KURSS-LESSONS-LV2-0395 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Wir sind glücklich, denn wir haben Brüder und Schw… | Wir sind glücklich, denn wir haben Brüder und Schw… | Somos felices porque tenemos hermanos y hermanas. | HIGH | PENDING | |
+| 636 | ES-KURSS-LESSONS-LV2-0396 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | wir haben | wir haben — mamás ir | wir haben — nosotros tenemos | HIGH | PENDING | |
+| 637 | ES-KURSS-LESSONS-LV2-0397 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | ist nicht | ist nicht — nav | ist nicht — no es | HIGH | PENDING | |
+| 638 | ES-KURSS-LESSONS-LV2-0398 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | hell | hell — brillante | hell — luminoso | LOW | PENDING | |
+| 639 | ES-KURSS-LESSONS-LV2-0399 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | kein, keine, kein | kein, keine, kein — neviens, neviena, neviens | kein, keine, kein — ningún, ninguna, ningún | HIGH | PENDING | |
+| 640 | ES-KURSS-LESSONS-LV2-0400 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | La z suena como la c española: Franz (frans), das … | La z suena como la c española: Franz (frans), das … | La z suena como «ts»: Franz (frans), das Zimmer (t… | MEDIUM | PENDING | |
+| 641 | ES-KURSS-LESSONS-LV2-0401 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | El verbo auxiliar haben en alemán expresa el conce… | El verbo alemán haben expresa posesión. En español… | HIGH | PENDING | |
+| 642 | ES-KURSS-LESSONS-LV2-0402 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Haben — Präsens | Haben — presente | MEDIUM | PENDING | |
+| 643 | ES-KURSS-LESSONS-LV2-0403 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | man ir | man ir | uno tiene | HIGH | PENDING | |
+| 644 | ES-KURSS-LESSONS-LV2-0404 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | tev ir | tev ir | tú tienes | HIGH | PENDING | |
+| 645 | ES-KURSS-LESSONS-LV2-0405 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | mums ir | mums ir | nosotros tenemos | HIGH | PENDING | |
+| 646 | ES-KURSS-LESSONS-LV2-0406 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | jums ir | jums ir | vosotros tenéis | HIGH | PENDING | |
+| 647 | ES-KURSS-LESSONS-LV2-0407 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | En español, la persona a quien pertenece algo está… | En español, la persona que posee algo es el sujeto… | HIGH | PENDING | |
+| 648 | ES-KURSS-LESSONS-LV2-0408 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` | Der Vater hat ein Buch | Der Vater hat ein Buch — padre | Der Vater hat ein Buch — El padre tiene un libro. | MEDIUM | PENDING | |
+| 649 | ES-KURSS-LESSONS-LV2-0410 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | Imperativ | Imperativo | HIGH | PENDING | |
+| 650 | ES-KURSS-LESSONS-LV2-0411 | `lesson11` | `COURSE_LESSON_DATA.kurssLesson11.section…` |  | El verbo haben debe aprenderse bien y utilizarse c… | El verbo haben debe aprenderse bien y utilizarse c… | MEDIUM | PENDING | |
 
 ## Kopsavilkums
 
 - findings: **50**
-- CRITICAL: **2**
-- HIGH: **46**
-- MEDIUM: **2**
-- LOW: **0**
+- CRITICAL: **0**
+- HIGH: **45**
+- MEDIUM: **4**
+- LOW: **1**
 - DE izmaiņas: **0**

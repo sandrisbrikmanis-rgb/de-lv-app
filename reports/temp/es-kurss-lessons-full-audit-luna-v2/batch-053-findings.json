@@ -1,0 +1,110 @@
+{
+  "batch": "batch-053",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-16-0051",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Dativs",
+      "proposedEs": "Dativo",
+      "reason": "El encabezado usa el término alemán «Dativs» en lugar del término gramatical español «dativo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0052",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "El dativo responde a la pregunta: ¿wem? - ¿A quien?",
+      "proposedEs": "El dativo responde a la pregunta: ¿wem? — ¿A quién?",
+      "reason": "Falta la tilde en «quién». Se conserva «wem?» porque es el ejemplo alemán que se está explicando.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0058",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Nominativ",
+      "proposedEs": "Nominativo",
+      "reason": "Es el término alemán; en una tabla gramatical en español debe usarse «nominativo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0062",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Dativ",
+      "proposedEs": "Dativo",
+      "reason": "Es el término alemán; en una tabla gramatical en español debe usarse «dativo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0066",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Akkusativ",
+      "proposedEs": "Acusativo",
+      "reason": "Es el término alemán; en una tabla gramatical en español debe usarse «acusativo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0075",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Nominativ",
+      "proposedEs": "Nominativo",
+      "reason": "Es el término alemán; en una tabla gramatical en español debe usarse «nominativo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0079",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Dativ",
+      "proposedEs": "Dativo",
+      "reason": "Es el término alemán; en una tabla gramatical en español debe usarse «dativo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0083",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Akkusativ",
+      "proposedEs": "Acusativo",
+      "reason": "Es el término alemán; en una tabla gramatical en español debe usarse «acusativo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:16:59.706Z"
+}

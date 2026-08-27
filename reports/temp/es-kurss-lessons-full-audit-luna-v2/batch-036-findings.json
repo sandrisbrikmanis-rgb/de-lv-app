@@ -1,0 +1,71 @@
+{
+  "batch": "batch-036",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-12-0044",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wie — cómo",
+      "proposedEs": "wie — como",
+      "reason": "En este contexto de comparación, wie significa «como», no «cómo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0045",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "am jüngsten — el más reciente",
+      "proposedEs": "am jüngsten — el más joven",
+      "reason": "am jüngsten es el superlativo de jung y significa «el más joven»; «el más reciente» corresponde a otra acepción.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0066",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Komparativ",
+      "proposedEs": "Comparativo",
+      "reason": "El encabezado está completamente en alemán, aunque el contenido visible para el usuario debe estar en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0072",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "La mayoría de los adjetivos monosilábicos con la vocal raíz a, o, u tienen una diéresis en el grado superlativo.",
+      "proposedEs": "La mayoría de los adjetivos monosilábicos cuya vocal raíz es a, o, u tienen una diéresis en el comparativo.",
+      "reason": "La regla descrita corresponde al comparativo, no al superlativo. Además, «cuya vocal raíz es» resulta más natural y preciso que «con la vocal raíz».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0080",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Superlativ",
+      "proposedEs": "Superlativo",
+      "reason": "El encabezado está completamente en alemán, aunque el contenido visible para el usuario debe estar en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:08:02.717Z"
+}

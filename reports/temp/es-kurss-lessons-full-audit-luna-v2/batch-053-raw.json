@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-053",
+  "cardIds": [
+    "ES-KURSS-LESSON-16-0045",
+    "ES-KURSS-LESSON-16-0046",
+    "ES-KURSS-LESSON-16-0047",
+    "ES-KURSS-LESSON-16-0048",
+    "ES-KURSS-LESSON-16-0049",
+    "ES-KURSS-LESSON-16-0050",
+    "ES-KURSS-LESSON-16-0051",
+    "ES-KURSS-LESSON-16-0052",
+    "ES-KURSS-LESSON-16-0053",
+    "ES-KURSS-LESSON-16-0054",
+    "ES-KURSS-LESSON-16-0055",
+    "ES-KURSS-LESSON-16-0056",
+    "ES-KURSS-LESSON-16-0057",
+    "ES-KURSS-LESSON-16-0058",
+    "ES-KURSS-LESSON-16-0059",
+    "ES-KURSS-LESSON-16-0060",
+    "ES-KURSS-LESSON-16-0061",
+    "ES-KURSS-LESSON-16-0062",
+    "ES-KURSS-LESSON-16-0063",
+    "ES-KURSS-LESSON-16-0064",
+    "ES-KURSS-LESSON-16-0065",
+    "ES-KURSS-LESSON-16-0066",
+    "ES-KURSS-LESSON-16-0067",
+    "ES-KURSS-LESSON-16-0068",
+    "ES-KURSS-LESSON-16-0069",
+    "ES-KURSS-LESSON-16-0070",
+    "ES-KURSS-LESSON-16-0071",
+    "ES-KURSS-LESSON-16-0072",
+    "ES-KURSS-LESSON-16-0073",
+    "ES-KURSS-LESSON-16-0074",
+    "ES-KURSS-LESSON-16-0075",
+    "ES-KURSS-LESSON-16-0076",
+    "ES-KURSS-LESSON-16-0077",
+    "ES-KURSS-LESSON-16-0078",
+    "ES-KURSS-LESSON-16-0079",
+    "ES-KURSS-LESSON-16-0080",
+    "ES-KURSS-LESSON-16-0081",
+    "ES-KURSS-LESSON-16-0082",
+    "ES-KURSS-LESSON-16-0083",
+    "ES-KURSS-LESSON-16-0084"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-16-0045\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0046\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0047\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0048\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0049\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0050\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-16-0051\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Dativs\",\"proposedEs\":\"Dativo\",\"reason\":\"El encabezado usa el término alemán «Dativs» en lugar del término gramatical español «dativo».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0052\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"El dativo responde a la pregunta: ¿wem? - ¿A quien?\",\"proposedEs\":\"El dativo responde a la pregunta: ¿wem? — ¿A quién?\",\"reason\":\"Falta la tilde en «quién». Se conserva «wem?» porque es el ejemplo alemán que se está explicando.\"},{\"cardId\":\"ES-KURSS-LESSON-16-0053\",\"status\":\"PASS\",\"field\":\"grammarHeading\"},{\"cardId\":\"ES-KURSS-LESSON-16-0054\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0055\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0056\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0057\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0058\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Nominativ\",\"proposedEs\":\"Nominativo\",\"reason\":\"Es el término alemán; en una tabla gramatical en español debe usarse «nominativo».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0059\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0060\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0061\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0062\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Dativ\",\"proposedEs\":\"Dativo\",\"reason\":\"Es el término alemán; en una tabla gramatical en español debe usarse «dativo».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0063\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0064\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0065\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0066\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Akkusativ\",\"proposedEs\":\"Acusativo\",\"reason\":\"Es el término alemán; en una tabla gramatical en español debe usarse «acusativo».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0067\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0068\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0069\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0070\",\"status\":\"PASS\",\"field\":\"grammarHeading\"},{\"cardId\":\"ES-KURSS-LESSON-16-0071\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0072\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0073\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0074\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0075\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Nominativ\",\"proposedEs\":\"Nominativo\",\"reason\":\"Es el término alemán; en una tabla gramatical en español debe usarse «nominativo».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0076\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0077\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0078\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0079\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Dativ\",\"proposedEs\":\"Dativo\",\"reason\":\"Es el término alemán; en una tabla gramatical en español debe usarse «dativo».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0080\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0081\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0082\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-16-0083\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Akkusativ\",\"proposedEs\":\"Acusativo\",\"reason\":\"Es el término alemán; en una tabla gramatical en español debe usarse «acusativo».\"},{\"cardId\":\"ES-KURSS-LESSON-16-0084\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"}]}",
+  "usage": {
+    "input_tokens": 3793,
+    "input_tokens_details": {
+      "cache_write_tokens": 3790,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2174,
+    "output_tokens_details": {
+      "reasoning_tokens": 710
+    },
+    "total_tokens": 5967
+  },
+  "generatedAt": "2026-08-27T07:16:59.706Z"
+}

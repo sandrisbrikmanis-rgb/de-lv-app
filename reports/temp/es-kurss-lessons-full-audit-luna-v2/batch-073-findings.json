@@ -1,0 +1,19 @@
+{
+  "batch": "batch-073",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-21-0072",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Woher? — no kurienes?",
+      "proposedEs": "Woher? — ¿De dónde?",
+      "reason": "«kurienes» no es una palabra española y la pregunta carece de la puntuación interrogativa inicial.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:26:28.710Z"
+}

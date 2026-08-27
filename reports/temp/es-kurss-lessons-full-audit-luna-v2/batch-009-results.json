@@ -1,0 +1,359 @@
+{
+  "batch": "batch-009",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-04-0032",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "das Mädchen (mētchen) — cuchillo",
+      "proposedEs": "das Mädchen (mētchen) — niña",
+      "reason": "«das Mädchen» significa «la niña», no «cuchillo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0033",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "das Messer — agudo",
+      "proposedEs": "das Messer — cuchillo",
+      "reason": "«das Messer» significa «el cuchillo»; «agudo» corresponde a «scharf» en otro registro.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0034",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "ein Messer — contundente",
+      "proposedEs": "ein Messer — un cuchillo",
+      "reason": "«ein Messer» significa «un cuchillo», no «contundente».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0035",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "scharf — luego",
+      "proposedEs": "scharf — agudo",
+      "reason": "En este contexto, «scharf» significa «agudo» o «afilado», no «luego».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0036",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "stumpf (štumpf) — afuera",
+      "proposedEs": "stumpf (štumpf) — contundente",
+      "reason": "«stumpf» significa «contundente» o «romo», no «afuera».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0037",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "dann — sal, ve out",
+      "proposedEs": "dann — entonces",
+      "reason": "La traducción contiene texto extraño y el resto inglés («out»); «dann» significa «entonces».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0038",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0039",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0040",
+      "status": "PASS",
+      "field": "sectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0041",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "hinaus — en, -er, -el no están acentuadas, por lo que la e en estos extremos es apenas audible: kommen, nehmen, der Federhalter.",
+      "proposedEs": "hinaus — Las terminaciones -en, -er y -el no llevan acento, por lo que la e en estas terminaciones apenas se oye: kommen, nehmen, der Federhalter.",
+      "reason": "«Estos extremos» es una traducción poco natural; conviene hablar de terminaciones. También falta concordancia clara con el sustantivo implícito «terminaciones».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0042",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0043",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Galotnes -Si h es un marcador de longitud, no se pronuncia como un sonido: nehmen (nēmen).",
+      "proposedEs": "Terminaciones — Si la h es un marcador de longitud, no se pronuncia como un sonido: nehmen (nēmen).",
+      "reason": "«Galotnes» es una palabra letona que quedó sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0044",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "h vācu valodā var būt gan skaņa, gan garumzīme iepriekšējam patskanim.",
+      "proposedEs": "En alemán, la h puede ser tanto un sonido como un marcador de longitud de la vocal anterior.",
+      "reason": "El campo está completamente en letón, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0045",
+      "status": "PASS",
+      "field": "sectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0046",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ja h ir garumzīme, to neizrunā kā skaņu: nehmen (nēmen).",
+      "proposedEs": "Si la h es un marcador de longitud, no se pronuncia como un sonido: nehmen (nēmen).",
+      "reason": "La explicación está en letón; solo el ejemplo alemán debe permanecer en alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0047",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ja patskanim seko tikai viens līdzskanis, patskani izrunā gari: die (dī) Feder (fēder), den (dēn).",
+      "proposedEs": "Si a la vocal le sigue una sola consonante, la vocal se pronuncia larga: die (dī), Feder (fēder), den (dēn).",
+      "reason": "La explicación está en letón. Los ejemplos alemanes deben conservarse como ejemplos alemanes.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0048",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Nominativ: der Federhalter, die Feder, das Messer.",
+      "proposedEs": "Nominativo: der Federhalter, die Feder, das Messer.",
+      "reason": "El nombre del caso debe aparecer en español como «nominativo»; los ejemplos alemanes se mantienen sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0049",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Akkusativ: den Federhalter, die Feder, das Messer.",
+      "proposedEs": "Acusativo: den Federhalter, die Feder, das Messer.",
+      "reason": "El término alemán del caso debe traducirse al español como «acusativo»; los ejemplos alemanes se mantienen sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0050",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Nominativ: ein Federhalter, eine Feder, ein Messer.",
+      "proposedEs": "Nominativo: ein Federhalter, eine Feder, ein Messer.",
+      "reason": "El nombre del caso debe aparecer en español como «nominativo»; los ejemplos alemanes se mantienen sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0051",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Akkusativ: einen Federhalter, eine Feder, ein Messer.",
+      "proposedEs": "Acusativo: einen Federhalter, eine Feder, ein Messer.",
+      "reason": "El término alemán del caso debe traducirse al español como «acusativo»; los ejemplos alemanes se mantienen sin traducir.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0052",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0053",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0054",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0055",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0056",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0057",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0058",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0059",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0060",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0061",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "daudzskaitlī — das Messer ist nicht scharf",
+      "proposedEs": "en plural — das Messer ist nicht scharf",
+      "reason": "«daudzskaitlī» es letón y debe traducirse al español. El ejemplo alemán se conserva tal como está; además, parece estar en singular pese a la etiqueta «en plural», lo que puede requerir revisión de la fuente alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0062",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0063",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0064",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0065",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0066",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0067",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0068",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0069",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "En femenino y neutro, el acusativo es igual al nominativo. Sólo los hombres cambian de ronda.",
+      "proposedEs": "En los géneros femenino y neutro, el acusativo es igual que el nominativo. Solo cambia el masculino.",
+      "reason": "«Los hombres» y «cambian de ronda» son traducciones erróneas y alteran el sentido gramatical; debe hablarse del género masculino y del cambio de forma.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0070",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_GRAMMAR",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Si un adjetivo es un adjetivo en una oración, no cambia en orden ni número.",
+      "proposedEs": "Si un adjetivo forma parte del predicado de una oración, no cambia según el caso ni el número.",
+      "reason": "La formulación actual es tautológica y «en orden» no expresa el concepto gramatical previsto. La redacción propuesta es clara y natural.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-04-0071",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Si nicht niega un adjetivo, se coloca delante de la palabra negativa.",
+      "proposedEs": "Si nicht niega un adjetivo, se coloca delante del adjetivo.",
+      "reason": "«La palabra negativa» es impreciso y parece indicar que nicht va delante de una palabra que ya es negativa; debe mencionarse directamente el adjetivo negado.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:53:46.497Z"
+}

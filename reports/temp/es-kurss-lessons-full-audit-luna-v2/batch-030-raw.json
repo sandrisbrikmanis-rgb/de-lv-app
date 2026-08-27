@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-030",
+  "cardIds": [
+    "ES-KURSS-LESSON-10-0119",
+    "ES-KURSS-LESSON-10-0120",
+    "ES-KURSS-LESSON-10-0121",
+    "ES-KURSS-LESSON-10-0122",
+    "ES-KURSS-LESSON-10-0123",
+    "ES-KURSS-LESSON-10-0124",
+    "ES-KURSS-LESSON-10-0125",
+    "ES-KURSS-LESSON-10-0126",
+    "ES-KURSS-LESSON-10-0127",
+    "ES-KURSS-LESSON-10-0128",
+    "ES-KURSS-LESSON-10-0129",
+    "ES-KURSS-LESSON-10-0130",
+    "ES-KURSS-LESSON-10-0131",
+    "ES-KURSS-LESSON-10-0132",
+    "ES-KURSS-LESSON-10-0133",
+    "ES-KURSS-LESSON-10-0134",
+    "ES-KURSS-LESSON-10-0135",
+    "ES-KURSS-LESSON-10-0136",
+    "ES-KURSS-LESSON-10-0137",
+    "ES-KURSS-LESSON-10-0138",
+    "ES-KURSS-LESSON-10-0139",
+    "ES-KURSS-LESSON-10-0140",
+    "ES-KURSS-LESSON-10-0141",
+    "ES-KURSS-LESSON-10-0142",
+    "ES-KURSS-LESSON-10-0143",
+    "ES-KURSS-LESSON-10-0144",
+    "ES-KURSS-LESSON-10-0145",
+    "ES-KURSS-LESSON-10-0146",
+    "ES-KURSS-LESSON-10-0147",
+    "ES-KURSS-LESSON-10-0148",
+    "ES-KURSS-LESSON-10-0149",
+    "ES-KURSS-LESSON-10-0150",
+    "ES-KURSS-LESSON-10-0151",
+    "ES-KURSS-LESSON-10-0152",
+    "ES-KURSS-LESSON-10-0153",
+    "ES-KURSS-LESSON-10-0154",
+    "ES-KURSS-LESSON-10-0155",
+    "ES-KURSS-LESSON-11-0001",
+    "ES-KURSS-LESSON-11-0002",
+    "ES-KURSS-LESSON-11-0003"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0119\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].table[4][1]\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0120\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].table[5][0]\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0121\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].table[5][1]\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0122\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Vai tu esi vesels?\",\n      \"proposedEs\": \"¿Estás sano?\",\n      \"reason\": \"El texto está en letón, no en español. Además, no traduce al español la pregunta alemana.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0123\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[1].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0124\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Vai Paul ir vasijas?\",\n      \"proposedEs\": \"¿Está Paul sano?\",\n      \"reason\": \"El texto está en letón, no en español. Debe traducirse al español la pregunta alemana.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0125\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[3].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0126\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[4].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0127\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[5].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0128\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[6].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0129\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[7].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0130\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[8].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0131\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"¿Cik vecs ir Adolfs?\",\n      \"proposedEs\": \"¿Cuántos años tiene Adolf?\",\n      \"reason\": \"La pregunta está en letón, no en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0132\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[10].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0133\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"¿Kas tu esi?\",\n      \"proposedEs\": \"¿Quién eres?\",\n      \"reason\": \"La pregunta está en letón, no en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0134\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[12].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0135\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[13].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0136\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[14].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0137\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SOURCE_DE_ISSUE\",\n      \"currentEs\": \"¿Quién es un maestro?\",\n      \"proposedEs\": \"Mantener el español y revisar el emparejamiento con el alemán.\",\n      \"reason\": \"El alemán «Was ist der Lehrer?» significa «¿Qué es el profesor?» y no corresponde a la pregunta española, que parece traducir otra frase alemana («Wer ist ein Lehrer?»). No se recomienda modificar el español sin resolver primero el problema del texto alemán.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0138\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[16].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0139\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SOURCE_DE_ISSUE\",\n      \"currentEs\": \"¿Quién es un maestro?\",\n      \"proposedEs\": \"Mantener el español y revisar el emparejamiento con el alemán.\",\n      \"reason\": \"El alemán «Was ist die Lehrerin?» significa «¿Qué es la maestra?» y además es femenino, mientras que el español usa «Quién» y «maestro». El español parece corresponder a otra frase alemana; debe revisarse el origen alemán antes de cambiar la traducción.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0140\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[18].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0141\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[19].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0142\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[20].lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0143\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.sections.dialogues (section title display)\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0144\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.sections.words (section title display)\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0145\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.pronunciation (section title display)\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0146\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.sections.grammar (section title display)\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0147\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.sections.translate (section title display)\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0148\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.hints.tapToRevealGerman\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0149\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.exerciseMeta.fillCase\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0150\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"¡Pon la conjugación correcta y hazlo en plural!\",\n      \"proposedEs\": \"¡Usa la conjugación correcta y transforma la frase al plural!\",\n      \"reason\": \"«Pon la conjugación» y, especialmente, «hazlo» resultan poco naturales y vagos en una instrucción didáctica.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0151\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.exerciseMeta.answerPlural\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0152\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.exerciseMeta.translate\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0153\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.exerciseMeta.formDu\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0154\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Formulario 2/3: Tú (plural)\",\n      \"proposedEs\": \"Forma 2/3: ihr (plural informal)\",\n      \"reason\": \"«Formulario» no es la denominación adecuada para una forma gramatical. Además, «tú (plural)» es contradictorio: el plural informal corresponde a «vosotros/vosotras», mientras que «ihr» debe conservarse como forma alemana.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0155\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.exerciseMeta.formSie\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0001\",\n      \"status\": \"PASS\",\n      \"field\": \"kurss.lessonItems.11.title (lesson header / menu)\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0002\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Haben, kein/keine/keinen, sustantivos posesivos y compuestos.\",\n      \"proposedEs\": \"Haben, kein/keine/keinen, posesión y sustantivos compuestos.\",\n      \"reason\": \"«Sustantivos posesivos» no es un término natural ni claro en este contexto y puede confundirse con una clase de sustantivos. «Posesión» expresa correctamente el tema gramatical.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-11-0003\",\n      \"status\": \"PASS\",\n      \"field\": \"COURSE_LESSON_DATA.kurssLesson11.intro\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3581,
+    "input_tokens_details": {
+      "cache_write_tokens": 3578,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4605,
+    "output_tokens_details": {
+      "reasoning_tokens": 1894
+    },
+    "total_tokens": 8186
+  },
+  "generatedAt": "2026-08-27T07:04:29.513Z"
+}

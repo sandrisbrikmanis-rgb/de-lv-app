@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-064",
+  "cardIds": [
+    "ES-KURSS-LESSON-19-0016",
+    "ES-KURSS-LESSON-19-0017",
+    "ES-KURSS-LESSON-19-0018",
+    "ES-KURSS-LESSON-19-0019",
+    "ES-KURSS-LESSON-19-0020",
+    "ES-KURSS-LESSON-19-0021",
+    "ES-KURSS-LESSON-19-0022",
+    "ES-KURSS-LESSON-19-0023",
+    "ES-KURSS-LESSON-19-0024",
+    "ES-KURSS-LESSON-19-0025",
+    "ES-KURSS-LESSON-19-0026",
+    "ES-KURSS-LESSON-19-0027",
+    "ES-KURSS-LESSON-19-0028",
+    "ES-KURSS-LESSON-19-0029",
+    "ES-KURSS-LESSON-19-0030",
+    "ES-KURSS-LESSON-19-0031",
+    "ES-KURSS-LESSON-19-0032",
+    "ES-KURSS-LESSON-19-0033",
+    "ES-KURSS-LESSON-19-0034",
+    "ES-KURSS-LESSON-19-0035",
+    "ES-KURSS-LESSON-19-0036",
+    "ES-KURSS-LESSON-19-0037",
+    "ES-KURSS-LESSON-19-0038",
+    "ES-KURSS-LESSON-19-0039",
+    "ES-KURSS-LESSON-19-0040",
+    "ES-KURSS-LESSON-19-0041",
+    "ES-KURSS-LESSON-19-0042",
+    "ES-KURSS-LESSON-19-0043",
+    "ES-KURSS-LESSON-19-0044",
+    "ES-KURSS-LESSON-19-0045",
+    "ES-KURSS-LESSON-19-0046",
+    "ES-KURSS-LESSON-19-0047",
+    "ES-KURSS-LESSON-19-0048",
+    "ES-KURSS-LESSON-19-0049",
+    "ES-KURSS-LESSON-19-0050",
+    "ES-KURSS-LESSON-19-0051",
+    "ES-KURSS-LESSON-19-0052",
+    "ES-KURSS-LESSON-19-0053",
+    "ES-KURSS-LESSON-19-0054",
+    "ES-KURSS-LESSON-19-0055"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-19-0016\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Der Eimer steht unter der Bank.\",\"proposedEs\":\"El cubo está debajo del banco.\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0017\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wohin hängt der Vater das Bild?\",\"proposedEs\":\"¿Dónde cuelga el padre el cuadro?\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0018\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er hängt das Bild über das Klavier.\",\"proposedEs\":\"Cuelga el cuadro encima del piano.\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0019\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wo hängt das Bild?\",\"proposedEs\":\"¿Dónde está colgado el cuadro?\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0020\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Das Bild hängt über dem Klavier.\",\"proposedEs\":\"El cuadro está colgado encima del piano.\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0021\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wohin setzt sich der Knabe?\",\"proposedEs\":\"¿Dónde se sienta el muchacho?\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0022\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er setzt sich neben den Großvater und die Großmutter.\",\"proposedEs\":\"Se sienta al lado del abuelo y de la abuela.\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0023\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wo sitzt er?\",\"proposedEs\":\"¿Dónde está sentado?\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0024\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er sitzt neben dem Großvater und der Großmutter.\",\"proposedEs\":\"Está sentado al lado del abuelo y de la abuela.\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0025\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wohin stellt die Magd den Stuhl?\",\"proposedEs\":\"¿Dónde coloca la criada la silla?\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0026\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Sie stellt den Stuhl zwischen das Klavier und den Spiegel.\",\"proposedEs\":\"Coloca la silla entre el piano y el espejo.\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0027\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wo steht der Stuhl?\",\"proposedEs\":\"¿Dónde está la silla?\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0028\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Der Stuhl steht zwischen dem Klavier und dem Spiegel.\",\"proposedEs\":\"La silla está entre el piano y el espejo.\",\"reason\":\"El campo visible está completamente en alemán en lugar de estar traducido al español.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0029\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"vor — antes\",\"proposedEs\":\"vor — delante de\",\"reason\":\"En este contexto espacial, vor significa «delante de», no «antes».\"},{\"cardId\":\"ES-KURSS-LESSON-19-0030\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0031\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0032\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0033\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0034\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0035\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0036\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0037\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0038\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0039\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0040\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0041\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0042\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0043\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0044\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0045\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0046\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0047\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0048\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0049\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0050\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0051\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0052\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0053\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0054\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0055\",\"status\":\"PASS\",\"field\":\"currentEs\"}]}",
+  "usage": {
+    "input_tokens": 3790,
+    "input_tokens_details": {
+      "cache_write_tokens": 3787,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2783,
+    "output_tokens_details": {
+      "reasoning_tokens": 1028
+    },
+    "total_tokens": 6573
+  },
+  "generatedAt": "2026-08-27T07:22:40.061Z"
+}

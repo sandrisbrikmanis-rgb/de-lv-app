@@ -1,0 +1,84 @@
+{
+  "batch": "batch-060",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-18-0002",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wohin / wo, Akkusativ o Dativ con / in / auf.",
+      "proposedEs": "wohin / wo: acusativo o dativo con an / in / auf.",
+      "reason": "Los nombres de los casos deben estar en español («acusativo», «dativo») y falta la preposición alemana «an»; «con» no corresponde al ejemplo alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-18-0003",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Decimoctava conferencia: wohin / wo, Akkusativ o Dativ con an / in / auf.",
+      "proposedEs": "Lección decimoctava: wohin / wo, acusativo o dativo con an / in / auf.",
+      "reason": "«Conferencia» no es una denominación natural para una lección de curso. Además, los nombres de los casos deben traducirse al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-18-0026",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wohin — kurp?",
+      "proposedEs": "wohin — adónde",
+      "reason": "«kurp» es un resto extranjero que no pertenece al español. La traducción española de «wohin» es «adónde».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-18-0027",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wo — kur?",
+      "proposedEs": "wo — dónde",
+      "reason": "«kur» es un resto extranjero que no pertenece al español. La traducción española de «wo» es «dónde».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-18-0034",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "das Körbchen — una cesta",
+      "proposedEs": "das Körbchen — cestita",
+      "reason": "«Körbchen» es un diminutivo; «una cesta» omite ese matiz y además introduce un artículo innecesario en una entrada de vocabulario.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-18-0038",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "gießen — verter / regar",
+      "proposedEs": "gießen — verter",
+      "reason": "La barra combina dos significados distintos en una única traducción para el contexto de la lección. Aquí, por el agua que se vierte en una jarra, corresponde «verter».",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:20:35.455Z"
+}

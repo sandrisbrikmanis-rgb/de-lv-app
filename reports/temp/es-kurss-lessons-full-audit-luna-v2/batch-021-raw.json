@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-021",
+  "cardIds": [
+    "ES-KURSS-LESSON-08-0064",
+    "ES-KURSS-LESSON-08-0065",
+    "ES-KURSS-LESSON-08-0066",
+    "ES-KURSS-LESSON-08-0067",
+    "ES-KURSS-LESSON-08-0068",
+    "ES-KURSS-LESSON-08-0069",
+    "ES-KURSS-LESSON-08-0070",
+    "ES-KURSS-LESSON-08-0071",
+    "ES-KURSS-LESSON-08-0072",
+    "ES-KURSS-LESSON-08-0073",
+    "ES-KURSS-LESSON-08-0074",
+    "ES-KURSS-LESSON-08-0075",
+    "ES-KURSS-LESSON-08-0076",
+    "ES-KURSS-LESSON-08-0077",
+    "ES-KURSS-LESSON-08-0078",
+    "ES-KURSS-LESSON-08-0079",
+    "ES-KURSS-LESSON-08-0080",
+    "ES-KURSS-LESSON-08-0081",
+    "ES-KURSS-LESSON-08-0082",
+    "ES-KURSS-LESSON-08-0083",
+    "ES-KURSS-LESSON-08-0084",
+    "ES-KURSS-LESSON-08-0085",
+    "ES-KURSS-LESSON-08-0086",
+    "ES-KURSS-LESSON-08-0087",
+    "ES-KURSS-LESSON-08-0088",
+    "ES-KURSS-LESSON-08-0089",
+    "ES-KURSS-LESSON-08-0090",
+    "ES-KURSS-LESSON-08-0091",
+    "ES-KURSS-LESSON-08-0092",
+    "ES-KURSS-LESSON-08-0093",
+    "ES-KURSS-LESSON-08-0094",
+    "ES-KURSS-LESSON-08-0095",
+    "ES-KURSS-LESSON-08-0096",
+    "ES-KURSS-LESSON-08-0097",
+    "ES-KURSS-LESSON-08-0098",
+    "ES-KURSS-LESSON-08-0099",
+    "ES-KURSS-LESSON-08-0100",
+    "ES-KURSS-LESSON-08-0101",
+    "ES-KURSS-LESSON-08-0102",
+    "ES-KURSS-LESSON-08-0103"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-08-0064\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[2].items[2]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0065\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[2].items[3]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0066\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[2].items[4]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0067\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[2].items[5]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0068\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[0]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0069\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[1]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0070\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[2]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0071\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[3]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0072\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[4]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0073\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[5]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0074\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[6]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0075\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"PEDAGOGICAL_ISSUE\",\"currentEs\":\"En el imperativo singular de estos verbos, la e también cambia a i o ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!\",\"proposedEs\":\"En el imperativo singular de estos verbos, la e cambia a i o ie: Paul, sprich! Lies! En plural: Paul und Hans, lest und sprecht!\",\"reason\":\"La explicación se refiere al imperativo singular, pero después mezcla ejemplos del imperativo plural. Esto puede confundir al estudiante sobre qué formas presentan el cambio vocálico.\"},{\"cardId\":\"ES-KURSS-LESSON-08-0076\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[8]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0077\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[9]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0078\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[3].items[10]\"},{\"cardId\":\"ES-KURSS-LESSON-08-0079\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Übung I - Usa la conjugación correcta. Übung II - cards de traducción.\",\"proposedEs\":\"Ejercicio I: usa la conjugación correcta. Ejercicio II: tarjetas de traducción.\",\"reason\":\"El texto contiene el término alemán «Übung» y el término inglés «cards» en una instrucción que debe estar íntegramente en español.\"},{\"cardId\":\"ES-KURSS-LESSON-08-0080\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[0].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0081\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[1].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0082\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[2].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0083\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[3].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0084\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[4].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0085\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[5].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0086\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[6].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0087\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[7].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0088\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[8].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0089\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[9].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0090\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[10].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0091\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[11].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0092\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[12].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0093\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[13].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0094\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[14].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0095\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[15].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0096\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[16].prompt\"},{\"cardId\":\"ES-KURSS-LESSON-08-0097\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[17].lv\"},{\"cardId\":\"ES-KURSS-LESSON-08-0098\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"¿Ko tu sveicini?\",\"proposedEs\":\"¿A quién saludas?\",\"reason\":\"El texto está en letón, no en español. Además, no presenta la traducción española de la pregunta alemana.\"},{\"cardId\":\"ES-KURSS-LESSON-08-0099\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Es sveicinu jaunkundzi.\",\"proposedEs\":\"Saludo a la señorita.\",\"reason\":\"El texto está en letón, no en español, y debe sustituirse por la traducción española correspondiente.\"},{\"cardId\":\"ES-KURSS-LESSON-08-0100\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Atveriet visus logus!\",\"proposedEs\":\"¡Abrid todas las ventanas!\",\"reason\":\"El texto está en letón, no en español. La traducción alemana corresponde a una orden dirigida a varias personas.\"},{\"cardId\":\"ES-KURSS-LESSON-08-0101\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[21].lv\"},{\"cardId\":\"ES-KURSS-LESSON-08-0102\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Vai tu atver logu?\",\"proposedEs\":\"¿Abres la ventana?\",\"reason\":\"El texto está en letón, no en español, y debe sustituirse por la traducción española de la pregunta alemana.\"},{\"cardId\":\"ES-KURSS-LESSON-08-0103\",\"status\":\"PASS\",\"field\":\"COURSE_LESSON_DATA.kurssLesson8.sections[4].cards[23].lv\"}]}",
+  "usage": {
+    "input_tokens": 4130,
+    "input_tokens_details": {
+      "cache_write_tokens": 4127,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3013,
+    "output_tokens_details": {
+      "reasoning_tokens": 952
+    },
+    "total_tokens": 7143
+  },
+  "generatedAt": "2026-08-27T06:59:51.650Z"
+}

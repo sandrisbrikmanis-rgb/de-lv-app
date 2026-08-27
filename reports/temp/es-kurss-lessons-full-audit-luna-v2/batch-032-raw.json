@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-032",
+  "cardIds": [
+    "ES-KURSS-LESSON-11-0044",
+    "ES-KURSS-LESSON-11-0045",
+    "ES-KURSS-LESSON-11-0046",
+    "ES-KURSS-LESSON-11-0047",
+    "ES-KURSS-LESSON-11-0048",
+    "ES-KURSS-LESSON-11-0049",
+    "ES-KURSS-LESSON-11-0050",
+    "ES-KURSS-LESSON-11-0051",
+    "ES-KURSS-LESSON-11-0052",
+    "ES-KURSS-LESSON-11-0053",
+    "ES-KURSS-LESSON-11-0054",
+    "ES-KURSS-LESSON-11-0055",
+    "ES-KURSS-LESSON-11-0056",
+    "ES-KURSS-LESSON-11-0057",
+    "ES-KURSS-LESSON-11-0058",
+    "ES-KURSS-LESSON-11-0059",
+    "ES-KURSS-LESSON-11-0060",
+    "ES-KURSS-LESSON-11-0061",
+    "ES-KURSS-LESSON-11-0062",
+    "ES-KURSS-LESSON-11-0063",
+    "ES-KURSS-LESSON-11-0064",
+    "ES-KURSS-LESSON-11-0065",
+    "ES-KURSS-LESSON-11-0066",
+    "ES-KURSS-LESSON-11-0067",
+    "ES-KURSS-LESSON-11-0068",
+    "ES-KURSS-LESSON-11-0069",
+    "ES-KURSS-LESSON-11-0070",
+    "ES-KURSS-LESSON-11-0071",
+    "ES-KURSS-LESSON-11-0072",
+    "ES-KURSS-LESSON-11-0073",
+    "ES-KURSS-LESSON-11-0074",
+    "ES-KURSS-LESSON-11-0075",
+    "ES-KURSS-LESSON-11-0076",
+    "ES-KURSS-LESSON-11-0077",
+    "ES-KURSS-LESSON-11-0078",
+    "ES-KURSS-LESSON-11-0079",
+    "ES-KURSS-LESSON-11-0080",
+    "ES-KURSS-LESSON-11-0081",
+    "ES-KURSS-LESSON-11-0082",
+    "ES-KURSS-LESSON-11-0083"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-11-0044\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0045\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0046\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0047\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0048\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0049\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"ist nicht — nav\",\"proposedEs\":\"ist nicht — no es\",\"reason\":\"«nav» está en letón, no en español. La traducción española de «ist nicht» en este contexto es «no es».\"},{\"cardId\":\"ES-KURSS-LESSON-11-0050\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0051\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"hell — brillante\",\"proposedEs\":\"hell — luminoso\",\"reason\":\"«Brillante» es posible, pero para describir una habitación o un espacio «luminoso» es la traducción más natural de «hell».\"},{\"cardId\":\"ES-KURSS-LESSON-11-0052\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0053\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0054\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0055\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"kein, keine, kein — neviens, neviena, neviens\",\"proposedEs\":\"kein, keine, kein — ningún, ninguna, ningún\",\"reason\":\"Las tres glosas están en letón («neviens, neviena, neviens»), no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-11-0056\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0057\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0058\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0059\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0060\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0061\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0062\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0063\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0064\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0065\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0066\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0067\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0068\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0069\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0070\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0071\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-11-0072\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"PEDAGOGICAL_ISSUE\",\"currentEs\":\"La z suena como la c española: Franz (frans), das Zimmer (tsimer).\",\"proposedEs\":\"La z suena como «ts»: Franz (frans), das Zimmer (tsimer).\",\"reason\":\"La z alemana representa normalmente el sonido /ts/, que no equivale al sonido de la c española. La formulación actual puede inducir a una pronunciación incorrecta.\"},{\"cardId\":\"ES-KURSS-LESSON-11-0073\",\"status\":\"PASS\",\"field\":\"grammarHeading\"},{\"cardId\":\"ES-KURSS-LESSON-11-0074\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"El verbo auxiliar haben en alemán expresa el concepto de pertenencia. En español, a menudo se expresa con: yo tengo, tú tienes, él tiene, etc. t. t.\",\"proposedEs\":\"El verbo alemán haben expresa posesión. En español, suele traducirse como «tener»: yo tengo, tú tienes, él tiene, etc.\",\"reason\":\"En este uso, «haben» no es un verbo auxiliar y expresa posesión, no «pertenencia». Además, «t. t.» es texto espurio y debe eliminarse.\"},{\"cardId\":\"ES-KURSS-LESSON-11-0075\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Haben — Präsens\",\"proposedEs\":\"Haben — presente\",\"reason\":\"«Präsens» es el término alemán y queda como texto no localizado en un encabezado español. «Haben» puede conservarse porque es el verbo alemán que se está conjugando.\"},{\"cardId\":\"ES-KURSS-LESSON-11-0076\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-11-0077\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"man ir\",\"proposedEs\":\"uno tiene\",\"reason\":\"«man ir» está en letón, no en español. La traducción correspondiente a «man» en esta tabla es «uno tiene».\"},{\"cardId\":\"ES-KURSS-LESSON-11-0078\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-11-0079\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"tev ir\",\"proposedEs\":\"tú tienes\",\"reason\":\"«tev ir» está en letón, no en español. Debe traducirse como «tú tienes».\"},{\"cardId\":\"ES-KURSS-LESSON-11-0080\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-11-0081\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-11-0082\",\"status\":\"PASS\",\"field\":\"grammarTableCell\"},{\"cardId\":\"ES-KURSS-LESSON-11-0083\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"mums ir\",\"proposedEs\":\"nosotros tenemos\",\"reason\":\"«mums ir» está en letón, no en español. Debe traducirse como «nosotros tenemos».\"}]}",
+  "usage": {
+    "input_tokens": 3952,
+    "input_tokens_details": {
+      "cache_write_tokens": 3949,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3052,
+    "output_tokens_details": {
+      "reasoning_tokens": 1400
+    },
+    "total_tokens": 7004
+  },
+  "generatedAt": "2026-08-27T07:05:34.305Z"
+}

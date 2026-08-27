@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-020",
+  "cardIds": [
+    "ES-KURSS-LESSON-08-0024",
+    "ES-KURSS-LESSON-08-0025",
+    "ES-KURSS-LESSON-08-0026",
+    "ES-KURSS-LESSON-08-0027",
+    "ES-KURSS-LESSON-08-0028",
+    "ES-KURSS-LESSON-08-0029",
+    "ES-KURSS-LESSON-08-0030",
+    "ES-KURSS-LESSON-08-0031",
+    "ES-KURSS-LESSON-08-0032",
+    "ES-KURSS-LESSON-08-0033",
+    "ES-KURSS-LESSON-08-0034",
+    "ES-KURSS-LESSON-08-0035",
+    "ES-KURSS-LESSON-08-0036",
+    "ES-KURSS-LESSON-08-0037",
+    "ES-KURSS-LESSON-08-0038",
+    "ES-KURSS-LESSON-08-0039",
+    "ES-KURSS-LESSON-08-0040",
+    "ES-KURSS-LESSON-08-0041",
+    "ES-KURSS-LESSON-08-0042",
+    "ES-KURSS-LESSON-08-0043",
+    "ES-KURSS-LESSON-08-0044",
+    "ES-KURSS-LESSON-08-0045",
+    "ES-KURSS-LESSON-08-0046",
+    "ES-KURSS-LESSON-08-0047",
+    "ES-KURSS-LESSON-08-0048",
+    "ES-KURSS-LESSON-08-0049",
+    "ES-KURSS-LESSON-08-0050",
+    "ES-KURSS-LESSON-08-0051",
+    "ES-KURSS-LESSON-08-0052",
+    "ES-KURSS-LESSON-08-0053",
+    "ES-KURSS-LESSON-08-0054",
+    "ES-KURSS-LESSON-08-0055",
+    "ES-KURSS-LESSON-08-0056",
+    "ES-KURSS-LESSON-08-0057",
+    "ES-KURSS-LESSON-08-0058",
+    "ES-KURSS-LESSON-08-0059",
+    "ES-KURSS-LESSON-08-0060",
+    "ES-KURSS-LESSON-08-0061",
+    "ES-KURSS-LESSON-08-0062",
+    "ES-KURSS-LESSON-08-0063"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-08-0024\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0025\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0026\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0027\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0028\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0029\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0030\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0031\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0032\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0033\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0034\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"setzt euch (zect oich) — ¡siéntate!\",\"proposedEs\":\"setzt euch (zect oich) — ¡sentaos!\",\"reason\":\"El alemán es un imperativo plural informal dirigido a varias personas, mientras que «¡siéntate!» es singular.\"},{\"cardId\":\"ES-KURSS-LESSON-08-0035\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0036\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0037\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0038\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0039\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0040\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0041\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0042\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0043\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0044\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0045\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0046\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0047\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0048\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0049\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0050\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0051\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0052\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0053\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0054\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0055\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0056\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0057\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0058\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0059\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0060\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0061\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0062\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-08-0063\",\"status\":\"PASS\",\"field\":\"currentEs\"}]}",
+  "usage": {
+    "input_tokens": 3854,
+    "input_tokens_details": {
+      "cache_write_tokens": 3851,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1604,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 5458
+  },
+  "generatedAt": "2026-08-27T06:59:23.661Z"
+}

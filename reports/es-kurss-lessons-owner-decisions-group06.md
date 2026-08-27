@@ -1,6 +1,6 @@
 # ES–DE Kurss Lessons — OWNER decisions (group 06: findings 251–300)
 
-**Auditors:** GPT-5.6 Luna + deterministic (READ-ONLY)
+**Auditors:** GPT-5.6 Luna v2 + deterministic (READ-ONLY)
 Avots: `reports/es-kurss-lessons-owner-review.md`
 Findings: **50** ieraksti
 

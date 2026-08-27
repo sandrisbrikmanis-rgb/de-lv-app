@@ -1,0 +1,19 @@
+{
+  "batch": "batch-042",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-13-0168",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wir machen dos Schritte.",
+      "proposedEs": "Wir machen zwei Schritte.",
+      "reason": "El ejemplo alemán contiene la palabra española «dos»; debe conservarse íntegramente en alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:10:56.301Z"
+}

@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-041",
+  "cardIds": [
+    "ES-KURSS-LESSON-13-0090",
+    "ES-KURSS-LESSON-13-0091",
+    "ES-KURSS-LESSON-13-0092",
+    "ES-KURSS-LESSON-13-0093",
+    "ES-KURSS-LESSON-13-0094",
+    "ES-KURSS-LESSON-13-0095",
+    "ES-KURSS-LESSON-13-0096",
+    "ES-KURSS-LESSON-13-0097",
+    "ES-KURSS-LESSON-13-0098",
+    "ES-KURSS-LESSON-13-0099",
+    "ES-KURSS-LESSON-13-0100",
+    "ES-KURSS-LESSON-13-0101",
+    "ES-KURSS-LESSON-13-0102",
+    "ES-KURSS-LESSON-13-0103",
+    "ES-KURSS-LESSON-13-0104",
+    "ES-KURSS-LESSON-13-0105",
+    "ES-KURSS-LESSON-13-0106",
+    "ES-KURSS-LESSON-13-0107",
+    "ES-KURSS-LESSON-13-0108",
+    "ES-KURSS-LESSON-13-0109",
+    "ES-KURSS-LESSON-13-0110",
+    "ES-KURSS-LESSON-13-0111",
+    "ES-KURSS-LESSON-13-0112",
+    "ES-KURSS-LESSON-13-0113",
+    "ES-KURSS-LESSON-13-0114",
+    "ES-KURSS-LESSON-13-0115",
+    "ES-KURSS-LESSON-13-0116",
+    "ES-KURSS-LESSON-13-0117",
+    "ES-KURSS-LESSON-13-0118",
+    "ES-KURSS-LESSON-13-0119",
+    "ES-KURSS-LESSON-13-0120",
+    "ES-KURSS-LESSON-13-0121",
+    "ES-KURSS-LESSON-13-0122",
+    "ES-KURSS-LESSON-13-0123",
+    "ES-KURSS-LESSON-13-0124",
+    "ES-KURSS-LESSON-13-0125",
+    "ES-KURSS-LESSON-13-0126",
+    "ES-KURSS-LESSON-13-0127",
+    "ES-KURSS-LESSON-13-0128",
+    "ES-KURSS-LESSON-13-0129"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0090\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarText\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0091\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0092\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0093\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0094\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0095\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0096\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0097\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0098\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0099\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0100\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0101\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Verbos compuestos\",\n      \"proposedEs\": \"Verbos separables\",\n      \"reason\": \"La sección trata de verbos con prefijo separable, como «ausstrecken» y «umkehren», no de verbos compuestos en general. «Verbos separables» es el término gramatical preciso en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0102\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Si la parte preposicional está acentuada, se separa en tiempo presente y va al final de la oración.\",\n      \"proposedEs\": \"Si el prefijo está acentuado, se separa en presente y se coloca al final de la oración.\",\n      \"reason\": \"«Parte preposicional» no es el término adecuado para esta explicación: se trata del prefijo de un verbo separable. «En tiempo presente» resulta menos natural que «en presente».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0103\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0104\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0105\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0106\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"ES_GRAMMAR\",\n      \"currentEs\": \"Si el prefijo no está acentuado, no está acentuado.\",\n      \"proposedEs\": \"Si el prefijo no está acentuado, no se separa.\",\n      \"reason\": \"La segunda parte repite «no está acentuado» y no expresa la regla gramatical. La explicación debe indicar que el prefijo permanece unido al verbo.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0107\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0108\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0109\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0110\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"El pronombre jeder va en círculos como los artículos der / die / das.\",\n      \"proposedEs\": \"El pronombre «jeder» se declina como los artículos «der», «die» y «das».\",\n      \"reason\": \"«Va en círculos» es una traducción no idiomática y no transmite el concepto de declinación. Además, conviene conservar los términos alemanes entre comillas para identificar las formas.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0111\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0112\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0113\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0114\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0115\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0116\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0117\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0118\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0119\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0120\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0121\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0122\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarTableCell\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0123\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0124\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0125\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0126\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0127\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0128\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-13-0129\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeading\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3865,
+    "input_tokens_details": {
+      "cache_write_tokens": 3862,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2480,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 6345
+  },
+  "generatedAt": "2026-08-27T07:10:42.702Z"
+}

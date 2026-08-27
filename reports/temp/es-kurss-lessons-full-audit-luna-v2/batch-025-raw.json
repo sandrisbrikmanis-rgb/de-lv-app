@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-025",
+  "cardIds": [
+    "ES-KURSS-LESSON-09-0070",
+    "ES-KURSS-LESSON-09-0071",
+    "ES-KURSS-LESSON-09-0072",
+    "ES-KURSS-LESSON-09-0073",
+    "ES-KURSS-LESSON-09-0074",
+    "ES-KURSS-LESSON-09-0075",
+    "ES-KURSS-LESSON-09-0076",
+    "ES-KURSS-LESSON-09-0077",
+    "ES-KURSS-LESSON-09-0078",
+    "ES-KURSS-LESSON-09-0079",
+    "ES-KURSS-LESSON-09-0080",
+    "ES-KURSS-LESSON-09-0081",
+    "ES-KURSS-LESSON-09-0082",
+    "ES-KURSS-LESSON-09-0083",
+    "ES-KURSS-LESSON-09-0084",
+    "ES-KURSS-LESSON-09-0085",
+    "ES-KURSS-LESSON-09-0086",
+    "ES-KURSS-LESSON-09-0087",
+    "ES-KURSS-LESSON-09-0088",
+    "ES-KURSS-LESSON-09-0089",
+    "ES-KURSS-LESSON-09-0090",
+    "ES-KURSS-LESSON-09-0091",
+    "ES-KURSS-LESSON-09-0092",
+    "ES-KURSS-LESSON-09-0093",
+    "ES-KURSS-LESSON-09-0094",
+    "ES-KURSS-LESSON-09-0095",
+    "ES-KURSS-LESSON-09-0096",
+    "ES-KURSS-LESSON-09-0097",
+    "ES-KURSS-LESSON-09-0098",
+    "ES-KURSS-LESSON-09-0099",
+    "ES-KURSS-LESSON-09-0100",
+    "ES-KURSS-LESSON-09-0101",
+    "ES-KURSS-LESSON-09-0102",
+    "ES-KURSS-LESSON-09-0103",
+    "ES-KURSS-LESSON-09-0104",
+    "ES-KURSS-LESSON-09-0105",
+    "ES-KURSS-LESSON-09-0106",
+    "ES-KURSS-LESSON-09-0107",
+    "ES-KURSS-LESSON-09-0108",
+    "ES-KURSS-LESSON-09-0109"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-09-0070\",\"status\":\"PASS\",\"field\":\"grammarExample\"},{\"cardId\":\"ES-KURSS-LESSON-09-0071\",\"status\":\"PASS\",\"field\":\"grammarExample\"},{\"cardId\":\"ES-KURSS-LESSON-09-0072\",\"status\":\"PASS\",\"field\":\"grammarExample\"},{\"cardId\":\"ES-KURSS-LESSON-09-0073\",\"status\":\"PASS\",\"field\":\"exerciseMultiBase\"},{\"cardId\":\"ES-KURSS-LESSON-09-0074\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Cambia esta oración a 3ra persona del singular.\",\"proposedEs\":\"Cambie esta oración a la tercera persona del singular.\",\"reason\":\"«3ra» no es la forma recomendada para expresar el ordinal en español; además, conviene mantener el tratamiento formal usado en las instrucciones siguientes.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0075\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0076\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0077\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Listo. El siguiente clic muestra la siguiente card.\",\"proposedEs\":\"Listo. Haga clic para mostrar la siguiente tarjeta.\",\"reason\":\"«card» es un resto del inglés en un texto visible para el usuario; «tarjeta» es el término español adecuado.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0078\",\"status\":\"PASS\",\"field\":\"exerciseMultiBase\"},{\"cardId\":\"ES-KURSS-LESSON-09-0079\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Cambia esta oración a 3ra persona del singular.\",\"proposedEs\":\"Cambie esta oración a la tercera persona del singular.\",\"reason\":\"«3ra» no es la forma recomendada para expresar el ordinal en español; además, conviene mantener el tratamiento formal usado en las instrucciones siguientes.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0080\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0081\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0082\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Listo. El siguiente clic muestra la siguiente card.\",\"proposedEs\":\"Listo. Haga clic para mostrar la siguiente tarjeta.\",\"reason\":\"«card» es un resto del inglés en un texto visible para el usuario; «tarjeta» es el término español adecuado.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0083\",\"status\":\"PASS\",\"field\":\"exerciseMultiBase\"},{\"cardId\":\"ES-KURSS-LESSON-09-0084\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Cambia esta oración a 3ra persona del singular.\",\"proposedEs\":\"Cambie esta oración a la tercera persona del singular.\",\"reason\":\"«3ra» no es la forma recomendada para expresar el ordinal en español; además, conviene mantener el tratamiento formal usado en las instrucciones siguientes.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0085\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0086\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0087\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Listo. El siguiente clic muestra la siguiente card.\",\"proposedEs\":\"Listo. Haga clic para mostrar la siguiente tarjeta.\",\"reason\":\"«card» es un resto del inglés en un texto visible para el usuario; «tarjeta» es el término español adecuado.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0088\",\"status\":\"PASS\",\"field\":\"exerciseMultiBase\"},{\"cardId\":\"ES-KURSS-LESSON-09-0089\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Cambia esta oración a 3ra persona del singular.\",\"proposedEs\":\"Cambie esta oración a la tercera persona del singular.\",\"reason\":\"«3ra» no es la forma recomendada para expresar el ordinal en español; además, conviene mantener el tratamiento formal usado en las instrucciones siguientes.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0090\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0091\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0092\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Listo. El siguiente clic muestra la siguiente card.\",\"proposedEs\":\"Listo. Haga clic para mostrar la siguiente tarjeta.\",\"reason\":\"«card» es un resto del inglés en un texto visible para el usuario; «tarjeta» es el término español adecuado.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0093\",\"status\":\"PASS\",\"field\":\"exerciseMultiBase\"},{\"cardId\":\"ES-KURSS-LESSON-09-0094\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Cambia esta oración a 3ra persona del singular.\",\"proposedEs\":\"Cambie esta oración a la tercera persona del singular.\",\"reason\":\"«3ra» no es la forma recomendada para expresar el ordinal en español; además, conviene mantener el tratamiento formal usado en las instrucciones siguientes.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0095\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0096\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0097\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Listo. El siguiente clic muestra la siguiente card.\",\"proposedEs\":\"Listo. Haga clic para mostrar la siguiente tarjeta.\",\"reason\":\"«card» es un resto del inglés en un texto visible para el usuario; «tarjeta» es el término español adecuado.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0098\",\"status\":\"PASS\",\"field\":\"exerciseMultiBase\"},{\"cardId\":\"ES-KURSS-LESSON-09-0099\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Cambia esta oración a 3ra persona del singular.\",\"proposedEs\":\"Cambie esta oración a la tercera persona del singular.\",\"reason\":\"«3ra» no es la forma recomendada para expresar el ordinal en español; además, conviene mantener el tratamiento formal usado en las instrucciones siguientes.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0100\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0101\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0102\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Listo. El siguiente clic muestra la siguiente card.\",\"proposedEs\":\"Listo. Haga clic para mostrar la siguiente tarjeta.\",\"reason\":\"«card» es un resto del inglés en un texto visible para el usuario; «tarjeta» es el término español adecuado.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0103\",\"status\":\"PASS\",\"field\":\"exerciseMultiBase\"},{\"cardId\":\"ES-KURSS-LESSON-09-0104\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Cambia esta oración a 3ra persona del singular.\",\"proposedEs\":\"Cambie esta oración a la tercera persona del singular.\",\"reason\":\"«3ra» no es la forma recomendada para expresar el ordinal en español; además, conviene mantener el tratamiento formal usado en las instrucciones siguientes.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0105\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0106\",\"status\":\"PASS\",\"field\":\"exerciseFormTask\"},{\"cardId\":\"ES-KURSS-LESSON-09-0107\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Listo. El siguiente clic muestra la siguiente card.\",\"proposedEs\":\"Listo. Haga clic para mostrar la siguiente tarjeta.\",\"reason\":\"«card» es un resto del inglés en un texto visible para el usuario; «tarjeta» es el término español adecuado.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0108\",\"status\":\"PASS\",\"field\":\"exerciseMultiBase\"},{\"cardId\":\"ES-KURSS-LESSON-09-0109\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Cambia esta oración a 3ra persona del singular.\",\"proposedEs\":\"Cambie esta oración a la tercera persona del singular.\",\"reason\":\"«3ra» no es la forma recomendada para expresar el ordinal en español; además, conviene mantener el tratamiento formal usado en las instrucciones siguientes.\"}]}",
+  "usage": {
+    "input_tokens": 4142,
+    "input_tokens_details": {
+      "cache_write_tokens": 4139,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2912,
+    "output_tokens_details": {
+      "reasoning_tokens": 808
+    },
+    "total_tokens": 7054
+  },
+  "generatedAt": "2026-08-27T07:01:53.404Z"
+}

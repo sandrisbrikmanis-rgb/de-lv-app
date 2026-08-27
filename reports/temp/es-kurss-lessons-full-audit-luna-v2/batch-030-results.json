@@ -1,0 +1,279 @@
+{
+  "batch": "batch-030",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-10-0119",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].table[4][1]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0120",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].table[5][0]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0121",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[3].items[4].table[5][1]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0122",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Vai tu esi vesels?",
+      "proposedEs": "¿Estás sano?",
+      "reason": "El texto está en letón, no en español. Además, no traduce al español la pregunta alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0123",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[1].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0124",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Vai Paul ir vasijas?",
+      "proposedEs": "¿Está Paul sano?",
+      "reason": "El texto está en letón, no en español. Debe traducirse al español la pregunta alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0125",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[3].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0126",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[4].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0127",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[5].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0128",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[6].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0129",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[7].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0130",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[8].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0131",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Cik vecs ir Adolfs?",
+      "proposedEs": "¿Cuántos años tiene Adolf?",
+      "reason": "La pregunta está en letón, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0132",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[10].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0133",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Kas tu esi?",
+      "proposedEs": "¿Quién eres?",
+      "reason": "La pregunta está en letón, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0134",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[12].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0135",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[13].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0136",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[14].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0137",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Quién es un maestro?",
+      "proposedEs": "Mantener el español y revisar el emparejamiento con el alemán.",
+      "reason": "El alemán «Was ist der Lehrer?» significa «¿Qué es el profesor?» y no corresponde a la pregunta española, que parece traducir otra frase alemana («Wer ist ein Lehrer?»). No se recomienda modificar el español sin resolver primero el problema del texto alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0138",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[16].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0139",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Quién es un maestro?",
+      "proposedEs": "Mantener el español y revisar el emparejamiento con el alemán.",
+      "reason": "El alemán «Was ist die Lehrerin?» significa «¿Qué es la maestra?» y además es femenino, mientras que el español usa «Quién» y «maestro». El español parece corresponder a otra frase alemana; debe revisarse el origen alemán antes de cambiar la traducción.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0140",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[18].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0141",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[19].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0142",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson10.sections[4].cards[20].lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0143",
+      "status": "PASS",
+      "field": "kurss.sections.dialogues (section title display)"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0144",
+      "status": "PASS",
+      "field": "kurss.sections.words (section title display)"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0145",
+      "status": "PASS",
+      "field": "kurss.pronunciation (section title display)"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0146",
+      "status": "PASS",
+      "field": "kurss.sections.grammar (section title display)"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0147",
+      "status": "PASS",
+      "field": "kurss.sections.translate (section title display)"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0148",
+      "status": "PASS",
+      "field": "kurss.hints.tapToRevealGerman"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0149",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.fillCase"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0150",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Usa la conjugación correcta y transforma la frase al plural!",
+      "reason": "«Pon la conjugación» y, especialmente, «hazlo» resultan poco naturales y vagos en una instrucción didáctica.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0151",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.answerPlural"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0152",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.translate"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0153",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.formDu"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0154",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (plural informal)",
+      "reason": "«Formulario» no es la denominación adecuada para una forma gramatical. Además, «tú (plural)» es contradictorio: el plural informal corresponde a «vosotros/vosotras», mientras que «ihr» debe conservarse como forma alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0155",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.formSie"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0001",
+      "status": "PASS",
+      "field": "kurss.lessonItems.11.title (lesson header / menu)"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0002",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Haben, kein/keine/keinen, sustantivos posesivos y compuestos.",
+      "proposedEs": "Haben, kein/keine/keinen, posesión y sustantivos compuestos.",
+      "reason": "«Sustantivos posesivos» no es un término natural ni claro en este contexto y puede confundirse con una clase de sustantivos. «Posesión» expresa correctamente el tema gramatical.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0003",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson11.intro"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:04:29.513Z"
+}

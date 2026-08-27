@@ -1,0 +1,84 @@
+{
+  "batch": "batch-021",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-08-0075",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "PEDAGOGICAL_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "En el imperativo singular de estos verbos, la e también cambia a i o ie: Paul, sprich! Lies! Paul und Hans, lest und sprecht!",
+      "proposedEs": "En el imperativo singular de estos verbos, la e cambia a i o ie: Paul, sprich! Lies! En plural: Paul und Hans, lest und sprecht!",
+      "reason": "La explicación se refiere al imperativo singular, pero después mezcla ejemplos del imperativo plural. Esto puede confundir al estudiante sobre qué formas presentan el cambio vocálico.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0079",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Übung I - Usa la conjugación correcta. Übung II - cards de traducción.",
+      "proposedEs": "Ejercicio I: usa la conjugación correcta. Ejercicio II: tarjetas de traducción.",
+      "reason": "El texto contiene el término alemán «Übung» y el término inglés «cards» en una instrucción que debe estar íntegramente en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0098",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Ko tu sveicini?",
+      "proposedEs": "¿A quién saludas?",
+      "reason": "El texto está en letón, no en español. Además, no presenta la traducción española de la pregunta alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0099",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Es sveicinu jaunkundzi.",
+      "proposedEs": "Saludo a la señorita.",
+      "reason": "El texto está en letón, no en español, y debe sustituirse por la traducción española correspondiente.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0100",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Atveriet visus logus!",
+      "proposedEs": "¡Abrid todas las ventanas!",
+      "reason": "El texto está en letón, no en español. La traducción alemana corresponde a una orden dirigida a varias personas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0102",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Vai tu atver logu?",
+      "proposedEs": "¿Abres la ventana?",
+      "reason": "El texto está en letón, no en español, y debe sustituirse por la traducción española de la pregunta alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:59:51.651Z"
+}

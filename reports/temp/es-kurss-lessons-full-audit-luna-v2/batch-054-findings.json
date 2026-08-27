@@ -1,0 +1,32 @@
+{
+  "batch": "batch-054",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-16-0088",
+      "field": "",
+      "severity": "LOW",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los sustantivos masculinos y neutros en dativo singular pueden llevar la terminación -e. Hoy en día, este final suele descartarse.",
+      "proposedEs": "Los sustantivos masculinos y neutros en dativo singular pueden llevar la terminación -e. Hoy en día, esta terminación suele omitirse.",
+      "reason": "«Este final» resulta poco natural y menos preciso en este contexto; «esta terminación» y «omitirse» son formulaciones más idiomáticas para describir una terminación gramatical.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0106",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "El article dativo plural y el sustantivo suelen tener la terminación -n.",
+      "proposedEs": "El artículo dativo plural y el sustantivo suelen tener la terminación -n.",
+      "reason": "«article» es un resto extranjero en inglés; el término correcto en español es «artículo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:17:18.698Z"
+}

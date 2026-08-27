@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-019",
+  "cardIds": [
+    "ES-KURSS-LESSON-07-0116",
+    "ES-KURSS-LESSON-07-0117",
+    "ES-KURSS-LESSON-07-0118",
+    "ES-KURSS-LESSON-07-0119",
+    "ES-KURSS-LESSON-07-0120",
+    "ES-KURSS-LESSON-07-0121",
+    "ES-KURSS-LESSON-07-0122",
+    "ES-KURSS-LESSON-07-0123",
+    "ES-KURSS-LESSON-07-0124",
+    "ES-KURSS-LESSON-07-0125",
+    "ES-KURSS-LESSON-07-0126",
+    "ES-KURSS-LESSON-07-0127",
+    "ES-KURSS-LESSON-07-0128",
+    "ES-KURSS-LESSON-07-0129",
+    "ES-KURSS-LESSON-07-0130",
+    "ES-KURSS-LESSON-07-0131",
+    "ES-KURSS-LESSON-07-0132",
+    "ES-KURSS-LESSON-08-0001",
+    "ES-KURSS-LESSON-08-0002",
+    "ES-KURSS-LESSON-08-0003",
+    "ES-KURSS-LESSON-08-0004",
+    "ES-KURSS-LESSON-08-0005",
+    "ES-KURSS-LESSON-08-0006",
+    "ES-KURSS-LESSON-08-0007",
+    "ES-KURSS-LESSON-08-0008",
+    "ES-KURSS-LESSON-08-0009",
+    "ES-KURSS-LESSON-08-0010",
+    "ES-KURSS-LESSON-08-0011",
+    "ES-KURSS-LESSON-08-0012",
+    "ES-KURSS-LESSON-08-0013",
+    "ES-KURSS-LESSON-08-0014",
+    "ES-KURSS-LESSON-08-0015",
+    "ES-KURSS-LESSON-08-0016",
+    "ES-KURSS-LESSON-08-0017",
+    "ES-KURSS-LESSON-08-0018",
+    "ES-KURSS-LESSON-08-0019",
+    "ES-KURSS-LESSON-08-0020",
+    "ES-KURSS-LESSON-08-0021",
+    "ES-KURSS-LESSON-08-0022",
+    "ES-KURSS-LESSON-08-0023"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0116\",\n      \"status\": \"PASS\",\n      \"field\": \"sie\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0117\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0118\",\n      \"status\": \"PASS\",\n      \"field\": \"du\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0119\",\n      \"status\": \"PASS\",\n      \"field\": \"ihr\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0120\",\n      \"status\": \"PASS\",\n      \"field\": \"sie\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0121\",\n      \"status\": \"PASS\",\n      \"field\": \"lv\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0122\",\n      \"status\": \"PASS\",\n      \"field\": \"du\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0123\",\n      \"status\": \"PASS\",\n      \"field\": \"ihr\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0124\",\n      \"status\": \"PASS\",\n      \"field\": \"sie\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0125\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0126\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0127\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0128\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0129\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0130\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0131\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-07-0132\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0001\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0002\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"Verbos reflexivos, e → i/ie cambio y acusativo.\",\n      \"proposedEs\": \"Verbos reflexivos, cambio vocálico e → i/ie y acusativo.\",\n      \"reason\": \"La secuencia «e → i/ie cambio» no es una construcción natural en español; «cambio vocálico» expresa con claridad el fenómeno gramatical.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0003\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0004\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0005\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0006\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0007\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0008\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0009\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0010\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0011\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0012\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0013\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0014\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0015\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0016\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0017\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0018\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0019\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0020\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0021\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0022\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-08-0023\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3701,
+    "input_tokens_details": {
+      "cache_write_tokens": 3698,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2436,
+    "output_tokens_details": {
+      "reasoning_tokens": 806
+    },
+    "total_tokens": 6137
+  },
+  "generatedAt": "2026-08-27T06:59:07.029Z"
+}

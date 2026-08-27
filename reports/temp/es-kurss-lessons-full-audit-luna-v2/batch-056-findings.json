@@ -1,0 +1,84 @@
+{
+  "batch": "batch-056",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-16-0173",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Toque la tarjeta para ver la traducción al alemán.",
+      "proposedEs": "Toca la tarjeta para ver la traducción al alemán.",
+      "reason": "El tratamiento formal «Toque» es inconsistente con el tono informal de la indicación relacionada «Toca la tarjeta».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0174",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ejercicio I — Usa la conjugación correcta",
+      "proposedEs": "Ejercicio I — Usa el caso correcto",
+      "reason": "«Conjugación» se refiere a formas verbales; el contexto de la lección trata de casos gramaticales.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0175",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Usa el caso correcto y ponlo en plural!",
+      "reason": "«Conjugación» es un término incorrecto para el caso gramatical y «hazlo» resulta impreciso en esta instrucción.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0179",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (plural)",
+      "reason": "«Formulario» no corresponde a una forma gramatical, y «Tú (plural)» no identifica correctamente el pronombre alemán «ihr».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0002",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "mit + Dativ, womit / mit wem y Umlaut.",
+      "proposedEs": "mit + dativo, womit / mit wem y diéresis.",
+      "reason": "«Dativ» y «Umlaut» son términos alemanes sin adaptar en un texto explicativo en español. Las formas alemanas «mit», «womit» y «mit wem» deben conservarse.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0003",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Decimoséptima conferencia: mit + Dativ, womit / mit wem y verbos con diéresis.",
+      "proposedEs": "Lección 17: mit + dativo, womit / mit wem y verbos con diéresis.",
+      "reason": "«Conferencia» no corresponde al sentido de una lección del curso; además, «Dativ» debería aparecer como «dativo» en el texto español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:18:31.463Z"
+}
