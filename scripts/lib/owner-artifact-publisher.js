@@ -76,6 +76,29 @@ const SCOPE_REGISTRY = {
       "reports/da-kurss-owner-decisions-group*.md",
     ],
   },
+  "es-kurss-lessons-full": {
+    scope: "es-kurss-lessons",
+    builders: ["build-es-kurss-lessons-owner-review.js"],
+    viewPath: "reports/es-kurss-lessons-owner-view.md",
+    legacyViewPath: "reports/es-kurss-lessons-owner-review.md",
+    decisionsPath: "reports/es-kurss-lessons-owner-decisions.md",
+    githubPath: "reports/es-kurss-lessons-owner-review-GITHUB.md",
+    readmePath: "reports/es-kurss-lessons-owner-review-README.md",
+    auditReportPath: "reports/es-kurss-lessons-full-audit.md",
+    auditJsonPath: "reports/temp/es-kurss-lessons-full-audit.json",
+    viewHeadingRegex: /^## Finding (\d+) \(ES Kurss Lessons\)/gm,
+    decisionRowRegex: /^\| (\d+) \|/,
+    commitPaths: [
+      "reports/es-kurss-lessons-owner-view.md",
+      "reports/es-kurss-lessons-owner-review.md",
+      "reports/es-kurss-lessons-owner-decisions.md",
+      "reports/es-kurss-lessons-owner-accepted.md",
+      "reports/es-kurss-lessons-owner-review-GITHUB.md",
+      "reports/es-kurss-lessons-owner-review-README.md",
+      "reports/es-kurss-lessons-owner-review-group*.md",
+      "reports/es-kurss-lessons-owner-decisions-group*.md",
+    ],
+  },
 };
 
 function git(cmd) {

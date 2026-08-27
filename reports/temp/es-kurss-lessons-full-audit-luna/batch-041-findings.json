@@ -1,0 +1,123 @@
+{
+  "batch": "batch-041",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-15-0104",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "En el verbo compuesto entzweischneiden, el énfasis está en el prefijo entzweí-, por lo que en tiempo presente el prefijo se separa y se coloca al final de la oración.",
+      "proposedEs": "En el verbo compuesto entzweischneiden, el énfasis está en el prefijo entzwei-, por lo que en presente el prefijo se separa y se coloca al final de la oración.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0114",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "No, el abuelo no puede trabajar porque está enfermo.",
+      "proposedEs": "No, el abuelo no tiene permitido trabajar porque está enfermo.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0116",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "No, no hace falta que te comas las ciruelas, no han llegado.",
+      "proposedEs": "No, no debes comerte las ciruelas; están verdes.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0117",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Comiste una manzana o una pera?",
+      "proposedEs": "¿Comes una manzana o una pera?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0125",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Puede un niño coger un cuchillo?",
+      "proposedEs": "¿Puede el niño coger el cuchillo?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0126",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Un niño no debe coger un cuchillo porque está afilado.",
+      "proposedEs": "El niño no debe coger el cuchillo porque está afilado.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0134",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Escribe la forma correcta y hazlo en plural!",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0138",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: vosotros/vosotras (plural informal)",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0003",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Decimosexta conferencia: dativo, geben, sich nähern y ejercicios dativos.",
+      "proposedEs": "Lección decimosexta: dativo, geben, sich nähern y ejercicios de dativo.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:27:15.437Z"
+}

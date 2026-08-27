@@ -1,0 +1,97 @@
+{
+  "batch": "batch-023",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-10-0064",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "sei gesund — ¡mantente sano!",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0065",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "seid gesund — ¡manteneos sanos!",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0069",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "die Frau — la mujer / la esposa",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0089",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "El verbo sein (ser/estar) es irregular. Por tanto, hay que aprenderlo bien.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0090",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Sein — presente",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0103",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Sein — imperativo",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0108",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Asimismo, el verbo modal können (poder) tiene una conjugación irregular.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:03:06.183Z"
+}

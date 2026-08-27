@@ -1,0 +1,71 @@
+{
+  "batch": "batch-046",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-17-0037",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "die Diele — piso",
+      "proposedEs": "die Diele — recibidor / vestíbulo",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0039",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wischen — limpiar / limpiar",
+      "proposedEs": "wischen — limpiar / fregar",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0040",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "PEDAGOGICAL_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "abwischen — limpiar",
+      "proposedEs": "abwischen — limpiar pasando un paño / quitar limpiando",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0055",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "ES_GRAMMAR",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "La pregunta alemana \"¿con qué?\" expresado de dos maneras: mit wem? — ¿Sobre las personas, mujer? — sobre cosas/temas.",
+      "proposedEs": "Las preguntas alemanas «¿con quién?» y «¿con qué?» se expresan de dos maneras: «mit wem?» para personas y «womit?» para cosas o temas.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0071",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "PEDAGOGICAL_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los verbos graben, fangen, auffangen tienen diéresis en la 2ª y 3ª persona del singular.",
+      "proposedEs": "En la 2.ª y 3.ª persona del singular, la vocal a de graben, fangen y auffangen cambia a ä.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:29:13.304Z"
+}

@@ -1,0 +1,58 @@
+{
+  "batch": "batch-033",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-13-0101",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Verbos separables",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0102",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Si el prefijo está acentuado, se separa en presente y va al final de la oración.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0106",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Si el prefijo no está acentuado, no se separa.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0110",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "El pronombre jeder se declina como los artículos der/die/das.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:22:44.930Z"
+}

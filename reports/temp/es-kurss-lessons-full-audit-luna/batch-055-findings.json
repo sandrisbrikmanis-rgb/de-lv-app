@@ -1,0 +1,84 @@
+{
+  "batch": "batch-055",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-20-0051",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "brennen — arder / quemar",
+      "proposedEs": "brennen — arder",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0052",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "licht — luz",
+      "proposedEs": "licht — luz",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0057",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Dativs ar wann?",
+      "proposedEs": "El dativo: ¿cuándo?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0058",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Palabras de tráfico que responden a la pregunta ¿quieres? en las conferencias 19 y 20. —¿cuándo?, está junto al dativo. El dativo responde no sólo a wo? — ¿dónde?, pero también en wann? - ¿cuando?",
+      "proposedEs": "Las preposiciones temporales que responden a la pregunta «¿cuándo?» en las lecciones 19 y 20 rigen el dativo. El dativo no solo responde a wo? —¿dónde?, sino también a wann? —¿cuándo?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0065",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Muchas preposiciones se unen al article.",
+      "proposedEs": "Muchas preposiciones se unen al artículo.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-20-0079",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los sustantivos compuestos suelen llevar el article de la última palabra.",
+      "proposedEs": "Los sustantivos compuestos suelen llevar el artículo de la última palabra.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:33:39.283Z"
+}

@@ -1,0 +1,99 @@
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+  luna batch-001: 50 fields, findings=19, pass=31, tokens=7761
+  luna batch-002: 50 fields, findings=14, pass=36, tokens=6883
+  luna batch-003: 50 fields, findings=18, pass=32, tokens=7547
+  luna batch-004: 50 fields, findings=16, pass=35, tokens=7363
+  luna batch-005: 50 fields, findings=38, pass=12, tokens=9010
+  luna batch-006: 50 fields, findings=21, pass=31, tokens=8398
+  luna batch-007: 50 fields, findings=36, pass=14, tokens=10479
+  luna batch-008: 50 fields, findings=15, pass=35, tokens=7059
+  luna batch-009: 50 fields, findings=11, pass=39, tokens=6679
+  luna batch-010: 50 fields, findings=11, pass=39, tokens=7030
+  luna batch-011: 50 fields, findings=11, pass=39, tokens=6422
+  luna batch-012: 50 fields, findings=29, pass=21, tokens=9577
+  luna batch-013: 50 fields, findings=22, pass=28, tokens=7205
+  luna batch-014: 50 fields, findings=15, pass=35, tokens=7603
+  luna batch-015: 50 fields, findings=11, pass=39, tokens=5773
+  luna batch-016: 50 fields, findings=13, pass=37, tokens=7582
+  luna batch-017: 50 fields, findings=8, pass=42, tokens=7086
+  luna batch-018: 50 fields, findings=12, pass=38, tokens=6796
+  luna batch-019: 50 fields, findings=21, pass=30, tokens=7262
+  luna batch-020: 50 fields, findings=19, pass=33, tokens=7657
+  luna batch-021: 50 fields, findings=13, pass=37, tokens=6581
+  luna batch-022: 50 fields, findings=46, pass=4, tokens=8026
+  luna batch-023: 50 fields, findings=7, pass=43, tokens=6566
+Luna batch batch-024 failed: terminated
+{
+  "totalFields": 2951,
+  "bySev": {
+    "CRITICAL": 13,
+    "HIGH": 359,
+    "MEDIUM": 267,
+    "LOW": 16
+  },
+  "findings": 655,
+  "deterministic": 331,
+  "luna": 415,
+  "lunaBatches": 60,
+  "lunaLoaded": false,
+  "pass": false,
+  "verdict": "NEEDS OWNER REVIEW — Luna batches pending completion.",
+  "report": "/workspace/reports/es-kurss-lessons-full-audit.md"
+}
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+  luna batch-024: 50 fields, findings=9, pass=41, tokens=6609
+  luna batch-025: 50 fields, findings=3, pass=47, tokens=6259
+  luna batch-026: 50 fields, findings=13, pass=37, tokens=7897
+  luna batch-027: 50 fields, findings=10, pass=40, tokens=7047
+  luna batch-028: 50 fields, findings=9, pass=41, tokens=6435
+  luna batch-029: 50 fields, findings=3, pass=47, tokens=6453
+  luna batch-030: 50 fields, findings=19, pass=31, tokens=7485
+  luna batch-031: 50 fields, findings=5, pass=45, tokens=6451
+  luna batch-032: 50 fields, findings=5, pass=45, tokens=5584
+  luna batch-033: 50 fields, findings=4, pass=46, tokens=5920
+  luna batch-034: 50 fields, findings=5, pass=45, tokens=5725
+  luna batch-035: 50 fields, findings=17, pass=33, tokens=7184
+  luna batch-036: 50 fields, findings=24, pass=26, tokens=9494
+  luna batch-037: 50 fields, findings=11, pass=39, tokens=7327
+  luna batch-038: 50 fields, findings=16, pass=34, tokens=8007
+  luna batch-039: 50 fields, findings=12, pass=38, tokens=8194
+  luna batch-040: 50 fields, findings=8, pass=42, tokens=6192
+  luna batch-041: 50 fields, findings=9, pass=41, tokens=6466
+  luna batch-042: 50 fields, findings=6, pass=44, tokens=6120
+  luna batch-043: 50 fields, findings=5, pass=45, tokens=6060
+  luna batch-044: 50 fields, findings=9, pass=41, tokens=7462
+  luna batch-045: 50 fields, findings=11, pass=39, tokens=6642
+  luna batch-046: 50 fields, findings=5, pass=45, tokens=6225
+  luna batch-047: 50 fields, findings=7, pass=43, tokens=7228
+  luna batch-048: 50 fields, findings=12, pass=41, tokens=6504
+  luna batch-049: 50 fields, findings=15, pass=35, tokens=7968
+  luna batch-050: 50 fields, findings=13, pass=37, tokens=8089
+  luna batch-051: 50 fields, findings=4, pass=46, tokens=6058
+  luna batch-052: 50 fields, findings=23, pass=28, tokens=7457
+  luna batch-053: 50 fields, findings=13, pass=37, tokens=7629
+  luna batch-054: 50 fields, findings=5, pass=45, tokens=6108
+  luna batch-055: 50 fields, findings=6, pass=44, tokens=7138
+  luna batch-056: 50 fields, findings=10, pass=40, tokens=7262
+  luna batch-057: 50 fields, findings=9, pass=41, tokens=6939
+  luna batch-058: 50 fields, findings=3, pass=47, tokens=5340
+  luna batch-059: 50 fields, findings=26, pass=24, tokens=7503
+  luna batch-060: 1 fields, findings=0, pass=1, tokens=494
+{
+  "totalFields": 2951,
+  "bySev": {
+    "CRITICAL": 42,
+    "HIGH": 498,
+    "MEDIUM": 360,
+    "LOW": 19
+  },
+  "findings": 919,
+  "deterministic": 331,
+  "luna": 748,
+  "lunaBatches": 60,
+  "lunaLoaded": true,
+  "pass": false,
+  "verdict": "NEEDS OWNER REVIEW — atlikuši validated findings.",
+  "report": "/workspace/reports/es-kurss-lessons-full-audit.md"
+}

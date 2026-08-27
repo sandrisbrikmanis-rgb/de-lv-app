@@ -1,0 +1,110 @@
+{
+  "batch": "batch-040",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-15-0058",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "inmaduro",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0065",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "tú comes",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0068",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "vosotros coméis",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0071",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Sollen significa deber, en el sentido de una obligación o indicación externa.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0073",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "müssen — tener que",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0074",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "sollen — deber",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0094",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "La conjugación de «essen» es la siguiente.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0102",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Si se utiliza la ortografía moderna, se escriben así: du isst, er/sie/es isst, ihr esst.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:26:50.158Z"
+}

@@ -1,0 +1,45 @@
+{
+  "batch": "batch-025",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-11-0043",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "wir haben — tenemos",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0049",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "ist nicht — no es / no está",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0051",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "hell — luminoso",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:19:02.105Z"
+}

@@ -1,0 +1,110 @@
+{
+  "batch": "batch-017",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-08-0077",
+      "field": "",
+      "severity": "LOW",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Präsens: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "proposedEs": "Presente: ich setze mich, du setzt dich, er/sie/es setzt sich, wir setzen uns, ihr setzt euch, sie setzen sich.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0079",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Übung I - Usa la conjugación correcta. Übung II - cards de traducción.",
+      "proposedEs": "Ejercicio I: usa la conjugación correcta. Ejercicio II: tarjetas de traducción.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0098",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Ko tu sveicini?",
+      "proposedEs": "¿A quién saludas?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0099",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Es sveicinu jaunkundzi.",
+      "proposedEs": "Saludo a la señorita.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0100",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Atveriet visus logus!",
+      "proposedEs": "¡Abrid todas las ventanas!",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0102",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Vai tu atver logu?",
+      "proposedEs": "¿Abres la ventana?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0111",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "El estudiante lee en voz alta y clara.",
+      "proposedEs": "La estudiante lee en voz alta y con claridad.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0112",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Lasi labi!",
+      "proposedEs": "¡Lee bien!",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:00:17.866Z"
+}

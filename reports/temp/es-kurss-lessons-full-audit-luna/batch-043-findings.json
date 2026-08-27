@@ -1,0 +1,71 @@
+{
+  "batch": "batch-043",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-16-0066",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Acusativo",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0075",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Nominativo",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0079",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Dativo",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0083",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Acusativo",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0106",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "El artículo del dativo plural y el sustantivo suelen terminar en -n.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:27:53.931Z"
+}

@@ -1,0 +1,71 @@
+{
+  "batch": "batch-031",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-12-0145",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ejercicio I — Usa la conjugación correcta",
+      "proposedEs": "Ejercicio I — Usa el caso correcto",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0146",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Elige el caso correcto y úsalo en plural!",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0150",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (plural informal)",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0003",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Conferencia Trece: Der Körper, partes del cuerpo, ejercicio, verbos reflexivos y plural.",
+      "proposedEs": "Lección 13: Der Körper, partes del cuerpo, hacer gimnasia, verbos reflexivos y plural.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0039",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "die Brust — mama",
+      "proposedEs": "die Brust — pecho",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:22:14.184Z"
+}
