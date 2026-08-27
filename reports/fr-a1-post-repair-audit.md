@@ -7,8 +7,8 @@
 | **MASTER VERSION** | **1.12** |
 | **AUDIT MODE** | POST_REPAIR_FULL_DISCOVERY |
 | **ORIGIN_MAIN_SHA** | `a2a769e8600291411a7a66eab0483dd4659c9151` |
-| **DATASET_PRODUCTION_BLOB** | `7699b058a6bf3f5fa6cbbb8c7829b2553fdd1226` |
-| **WWW DATASET BLOB** | `7699b058a6bf3f5fa6cbbb8c7829b2553fdd1226` |
+| **DATASET_PRODUCTION_BLOB** | `6fb54c40c58ff2a7588523ca671d108c4017d3e5` |
+| **WWW DATASET BLOB** | `6fb54c40c58ff2a7588523ca671d108c4017d3e5` |
 | **LAST FINAL CLOSURE MAIN SHA** | `null` |
 | **LAST FINAL CLOSURE DATASET BLOB** | `null` |
 | **UNMERGED CLOSURE/REPAIR FOUND** | **0** |
@@ -36,16 +36,16 @@
 | Luna coverage | **100%** |
 | Study | **134/134** |
 | RAW findings | **502** |
-| NEW_VALIDATED_REAL_FINDINGS | **11** |
-| OWNER_BACKLOG_FINAL | **11** |
-| PREVIOUSLY_SEEN_RAW | **441** |
+| NEW_VALIDATED_REAL_FINDINGS | **6** |
+| OWNER_BACKLOG_FINAL | **6** |
+| PREVIOUSLY_SEEN_RAW | **453** |
 | PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW | **11** |
+| GENUINELY_NEW | **6** |
 | AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **YES** |
 | OBJECT_COVERAGE | **702/702 (100%)** |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
-| OWNER_DECISION_CONFIRMED | **50** |
-| sectionAccents | **250** |
+| OWNER_DECISION_CONFIRMED | **43** |
+| sectionAccents | **251** |
 | LV remnants | **226** |
 | Mirror | **PASS** |
 
@@ -55,15 +55,15 @@
 
 | Kategorija | Skaits |
 |------------|--------|
-| RAW LLM candidates | 114 |
-| Deterministic | 388 |
-| OWNER_DECISION_CONFIRMED | 50 |
-| OWNER_DECISION_REOPEN_REQUIRED | **1** |
+| RAW LLM candidates | 113 |
+| Deterministic | 389 |
+| OWNER_DECISION_CONFIRMED | 43 |
+| OWNER_DECISION_REOPEN_REQUIRED | **9** |
 | REPAIR_REGRESSION | **0** |
-| PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE | **441** |
+| PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE | **453** |
 | PRE_EXISTING_BUT_PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW_VALIDATED_REAL_FINDING | **11** |
-| OWNER_BACKLOG_FINAL | **11** |
+| GENUINELY_NEW_VALIDATED_REAL_FINDING | **6** |
+| OWNER_BACKLOG_FINAL | **6** |
 
 ## 2b. Discovery history gates (§7.12 / §7.18)
 
@@ -75,7 +75,7 @@
 
 ## 3. Validated findings
 
-CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
+CRITICAL: **0** · HIGH: **327** · MEDIUM: **117** · LOW: **15**
 
 #### FR-A1-0001
 **Card ID:** a1-bitte
@@ -3306,6 +3306,18 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
 #### FR-A1-0272
+**Card ID:** a1-können
+**Field:** study.sectionAccents (examples)
+**CURRENT:** Pouvez
+**PROPOSED_FR:** (termins no FR teksta)
+**Problēma:** Accent term not found in section text
+**DE konteksts:** —
+**Smagums:** MEDIUM
+**Kategorija:** SECTIONACCENTS_LANGUAGE
+**Avots:** deterministic
+**Klasifikācija:** DETERMINISTIC_FINDING
+**Statuss:** PENDING
+#### FR-A1-0273
 **Card ID:** a1-laden-study
 **Field:** study.sectionAccents (?)
 **CURRENT:** die Läden
@@ -3317,7 +3329,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0273
+#### FR-A1-0274
 **Card ID:** a1-laufen
 **Field:** study.sectionAccents (?)
 **CURRENT:** läuft
@@ -3329,7 +3341,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0274
+#### FR-A1-0275
 **Card ID:** a1-liegen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** phone
@@ -3341,7 +3353,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0275
+#### FR-A1-0276
 **Card ID:** a1-liegen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** dort
@@ -3353,7 +3365,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0276
+#### FR-A1-0277
 **Card ID:** a1-mögen
 **Field:** study.sectionAccents (?)
 **CURRENT:** mögen
@@ -3365,7 +3377,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0277
+#### FR-A1-0278
 **Card ID:** a1-mögen
 **Field:** study.sectionAccents (?)
 **CURRENT:** möchte
@@ -3377,7 +3389,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0278
+#### FR-A1-0279
 **Card ID:** a1-mögen
 **Field:** study.sectionAccents (?)
 **CURRENT:** Mögen
@@ -3389,7 +3401,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0279
+#### FR-A1-0280
 **Card ID:** a1-mögen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Aimez
@@ -3401,22 +3413,10 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0280
-**Card ID:** a1-müssen
-**Field:** study.sectionAccents (?)
-**CURRENT:** müssen
-**PROPOSED_FR:** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**DE konteksts:** —
-**Smagums:** HIGH
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
 #### FR-A1-0281
 **Card ID:** a1-müssen
 **Field:** study.sectionAccents (?)
-**CURRENT:** können
+**CURRENT:** müssen
 **PROPOSED_FR:** (termins no FR teksta)
 **Problēma:** LV remnant in sectionAccents
 **DE konteksts:** —
@@ -3428,7 +3428,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 #### FR-A1-0282
 **Card ID:** a1-müssen
 **Field:** study.sectionAccents (?)
-**CURRENT:** dürfen
+**CURRENT:** können
 **PROPOSED_FR:** (termins no FR teksta)
 **Problēma:** LV remnant in sectionAccents
 **DE konteksts:** —
@@ -3440,7 +3440,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 #### FR-A1-0283
 **Card ID:** a1-müssen
 **Field:** study.sectionAccents (?)
-**CURRENT:** Müssen
+**CURRENT:** dürfen
 **PROPOSED_FR:** (termins no FR teksta)
 **Problēma:** LV remnant in sectionAccents
 **DE konteksts:** —
@@ -3450,6 +3450,18 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
 #### FR-A1-0284
+**Card ID:** a1-müssen
+**Field:** study.sectionAccents (?)
+**CURRENT:** Müssen
+**PROPOSED_FR:** (termins no FR teksta)
+**Problēma:** LV remnant in sectionAccents
+**DE konteksts:** —
+**Smagums:** HIGH
+**Kategorija:** SECTIONACCENTS_LANGUAGE
+**Avots:** deterministic
+**Klasifikācija:** DETERMINISTIC_FINDING
+**Statuss:** PENDING
+#### FR-A1-0285
 **Card ID:** a1-müssen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Vous
@@ -3461,7 +3473,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0285
+#### FR-A1-0286
 **Card ID:** a1-natuerlich
 **Field:** study.sectionAccents (?)
 **CURRENT:** natürlich
@@ -3473,7 +3485,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0286
+#### FR-A1-0287
 **Card ID:** a1-neu
 **Field:** study.sectionAccents (explanation)
 **CURRENT:** Main
@@ -3485,7 +3497,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0287
+#### FR-A1-0288
 **Card ID:** a1-neu
 **Field:** study.sectionAccents (examples)
 **CURRENT:** phone
@@ -3497,7 +3509,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0288
+#### FR-A1-0289
 **Card ID:** a1-nur-study
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Vous
@@ -3509,7 +3521,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0289
+#### FR-A1-0290
 **Card ID:** a1-nur-study
 **Field:** study.sectionAccents (examples)
 **CURRENT:** just
@@ -3521,7 +3533,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0290
+#### FR-A1-0291
 **Card ID:** a1-ob
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Vous
@@ -3533,7 +3545,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0291
+#### FR-A1-0292
 **Card ID:** a1-oder
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Vous
@@ -3545,7 +3557,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0292
+#### FR-A1-0293
 **Card ID:** a1-probieren
 **Field:** study.sectionAccents (?)
 **CURRENT:** prüfen
@@ -3557,7 +3569,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0293
+#### FR-A1-0294
 **Card ID:** a1-probieren
 **Field:** study.sectionAccents (?)
 **CURRENT:** prüfe
@@ -3569,7 +3581,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0294
+#### FR-A1-0295
 **Card ID:** a1-sehen
 **Field:** study.sectionAccents (?)
 **CURRENT:** hören
@@ -3581,7 +3593,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0295
+#### FR-A1-0296
 **Card ID:** a1-sehen
 **Field:** study.sectionAccents (?)
 **CURRENT:** höre
@@ -3593,7 +3605,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0296
+#### FR-A1-0297
 **Card ID:** a1-sehen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Voyez
@@ -3605,7 +3617,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0297
+#### FR-A1-0298
 **Card ID:** a1-sein
 **Field:** study.sectionAccents (?)
 **CURRENT:** es esmu
@@ -3617,7 +3629,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0298
+#### FR-A1-0299
 **Card ID:** a1-sich
 **Field:** study.sectionAccents (examples)
 **CURRENT:** prend
@@ -3629,20 +3641,8 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0299
-**Card ID:** a1-sie-study
-**Field:** study.sectionAccents (examples)
-**CURRENT:** cuisines
-**PROPOSED_FR:** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**DE konteksts:** —
-**Smagums:** MEDIUM
-**Kategorija:** SECTIONACCENTS_LANGUAGE
-**Avots:** deterministic
-**Klasifikācija:** DETERMINISTIC_FINDING
-**Statuss:** PENDING
 #### FR-A1-0300
-**Card ID:** a1-sie-study-2
+**Card ID:** a1-sie-study
 **Field:** study.sectionAccents (examples)
 **CURRENT:** cuisines
 **PROPOSED_FR:** (termins no FR teksta)
@@ -3654,6 +3654,18 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
 #### FR-A1-0301
+**Card ID:** a1-sie-study-2
+**Field:** study.sectionAccents (examples)
+**CURRENT:** cuisines
+**PROPOSED_FR:** (termins no FR teksta)
+**Problēma:** Accent term not found in section text
+**DE konteksts:** —
+**Smagums:** MEDIUM
+**Kategorija:** SECTIONACCENTS_LANGUAGE
+**Avots:** deterministic
+**Klasifikācija:** DETERMINISTIC_FINDING
+**Statuss:** PENDING
+#### FR-A1-0302
 **Card ID:** a1-sollen
 **Field:** study.sectionAccents (?)
 **CURRENT:** müssen
@@ -3665,7 +3677,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0302
+#### FR-A1-0303
 **Card ID:** a1-sollen
 **Field:** study.sectionAccents (?)
 **CURRENT:** können
@@ -3677,7 +3689,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0303
+#### FR-A1-0304
 **Card ID:** a1-über
 **Field:** study.sectionAccents (?)
 **CURRENT:** über
@@ -3689,7 +3701,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0304
+#### FR-A1-0305
 **Card ID:** a1-über
 **Field:** study.sectionAccents (?)
 **CURRENT:** Über
@@ -3701,7 +3713,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0305
+#### FR-A1-0306
 **Card ID:** a1-über
 **Field:** study.sectionAccents (examples)
 **CURRENT:** lamp
@@ -3713,7 +3725,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0306
+#### FR-A1-0307
 **Card ID:** a1-um
 **Field:** study.sectionAccents (?)
 **CURRENT:** für
@@ -3725,7 +3737,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0307
+#### FR-A1-0308
 **Card ID:** a1-um
 **Field:** study.sectionAccents (examples)
 **CURRENT:** fait
@@ -3737,7 +3749,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0308
+#### FR-A1-0309
 **Card ID:** a1-unter
 **Field:** study.sectionAccents (?)
 **CURRENT:** über
@@ -3749,7 +3761,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0309
+#### FR-A1-0310
 **Card ID:** a1-unter
 **Field:** study.sectionAccents (examples)
 **CURRENT:** lamp
@@ -3761,7 +3773,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0310
+#### FR-A1-0311
 **Card ID:** a1-verstehen
 **Field:** study.sectionAccents (?)
 **CURRENT:** können
@@ -3773,7 +3785,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0311
+#### FR-A1-0312
 **Card ID:** a1-verstehen
 **Field:** study.sectionAccents (examples)
 **CURRENT:** peux
@@ -3785,7 +3797,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0312
+#### FR-A1-0313
 **Card ID:** a1-vor
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Après
@@ -3797,7 +3809,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0313
+#### FR-A1-0314
 **Card ID:** a1-was
 **Field:** study.sectionAccents (?)
 **CURRENT:** was für
@@ -3809,7 +3821,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0314
+#### FR-A1-0315
 **Card ID:** a1-wenn
 **Field:** study.sectionAccents (examples)
 **CURRENT:** vous
@@ -3821,7 +3833,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0315
+#### FR-A1-0316
 **Card ID:** a1-wer
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Qu'est
@@ -3833,7 +3845,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0316
+#### FR-A1-0317
 **Card ID:** a1-wer
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Lequel
@@ -3845,7 +3857,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0317
+#### FR-A1-0318
 **Card ID:** a1-werden
 **Field:** study.sectionAccents (examples)
 **CURRENT:** fait
@@ -3857,7 +3869,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0318
+#### FR-A1-0319
 **Card ID:** a1-werden
 **Field:** study.sectionAccents (examples)
 **CURRENT:** suis
@@ -3869,7 +3881,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0319
+#### FR-A1-0320
 **Card ID:** a1-wetter
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Quelle
@@ -3881,7 +3893,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0320
+#### FR-A1-0321
 **Card ID:** a1-wie
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Quel
@@ -3893,7 +3905,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0321
+#### FR-A1-0322
 **Card ID:** a1-zum
 **Field:** study.sectionAccents (examples)
 **CURRENT:** are
@@ -3905,7 +3917,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0322
+#### FR-A1-0323
 **Card ID:** a1-zum
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Venez
@@ -3917,7 +3929,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0323
+#### FR-A1-0324
 **Card ID:** a1-obst
 **Field:** study.sectionAccents (examples)
 **CURRENT:** fruit
@@ -3929,7 +3941,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0324
+#### FR-A1-0325
 **Card ID:** a1-urlaub
 **Field:** study.sectionAccents (examples)
 **CURRENT:** J'ai
@@ -3941,7 +3953,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0325
+#### FR-A1-0326
 **Card ID:** a1-uhr
 **Field:** study.sectionAccents (examples)
 **CURRENT:** Appareil/heure
@@ -3953,7 +3965,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0326
+#### FR-A1-0327
 **Card ID:** a1-einmal
 **Field:** study.sectionAccents (examples)
 **CURRENT:** J'étais
@@ -3965,7 +3977,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** deterministic
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0327
+#### FR-A1-0328
 **Card ID:** a1-klein
 **Field:** study.sectionAccents.examples.lv
 **CURRENT:** pièce
@@ -3977,7 +3989,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** validate-study-design
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0328
+#### FR-A1-0329
 **Card ID:** a1-klein
 **Field:** study.sectionAccents.examples.lv
 **CURRENT:** L'enfant
@@ -3989,7 +4001,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** validate-study-design
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0329
+#### FR-A1-0330
 **Card ID:** a1-an
 **Field:** study.sectionAccents.tip.left
 **CURRENT:** Atceries
@@ -4001,7 +4013,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** validate-study-design
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0330
+#### FR-A1-0331
 **Card ID:** a1-auch
 **Field:** study.sectionAccents.examples.lv
 **CURRENT:** viens
@@ -4013,7 +4025,7 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** validate-study-design
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0331
+#### FR-A1-0332
 **Card ID:** a1-auch
 **Field:** study.sectionAccents.examples.lv
 **CURRENT:** Elle
@@ -4025,37 +4037,12 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** validate-study-design
 **Klasifikācija:** DETERMINISTIC_FINDING
 **Statuss:** PENDING
-#### FR-A1-0332
-**Card ID:** a1-Abend-18
-**Field:** frText
-**CURRENT:** Soirée
-**PROPOSED_FR:** Soir
-**Problēma:** Pour le nom allemand « Abend », « soir » est l’équivalent usuel ; « soirée » désigne plutôt une période ou un événement.
-**LV etalons (konteksts):** vakars
-**DE konteksts:** Abend
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
 #### FR-A1-0333
-**Card ID:** a1-Kamera-332
-**Field:** frText
-**CURRENT:** Caméra
-**PROPOSED_FR:** Appareil photo
-**Problēma:** « Caméra » désigne surtout un appareil vidéo; l’allemand « Kamera » correspond ici à « appareil photo ».
-**LV etalons (konteksts):** kamera
-**DE konteksts:** Kamera
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0334
 **Card ID:** a1-an
 **Field:** study.translation
 **CURRENT:** À • À • Présent
-**Problēma:** Plusieurs traductions sont séparées par des puces; « Présent » ne correspond pas au sens de « an ».
+**PROPOSED_FR:** À
+**Problēma:** Le champ contient plusieurs traductions et « Présent » ne correspond pas au sens de la préposition allemande « an ».
 **LV etalons (konteksts):** pie
 **DE konteksts:** an
 **Smagums:** MEDIUM
@@ -4063,37 +4050,66 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0336
+#### FR-A1-0335
 **Card ID:** a1-ab
-**Field:** study.examples[3].lv
-**CURRENT:** De la gare
-**PROPOSED_FR:** À partir de la gare
-**Problēma:** « De la gare » traduit une origine, tandis que « ab » indique un point de départ à partir de.
-**LV etalons (konteksts):** no stacijas
+**Field:** study.comparison[1].meaning
+**CURRENT:** De quelqu'un ou de quelque chose (origine)
+**PROPOSED_FR:** À partir d'un point de départ
+**Problēma:** « Ab » exprime un point de départ, pas l'origine au sens général de « de » ou « von ».
+**LV etalons (konteksts):** no kāda/kaut kā • izcelsme
 **DE konteksts:** ab
-**Smagums:** HIGH
+**Smagums:** MEDIUM
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0337
-**Card ID:** a1-ab
-**Field:** study.comparison[1].meaning
-**CURRENT:** De quelqu'un ou de quelque chose (origine)
-**PROPOSED_FR:** À partir de quelqu'un ou de quelque chose
-**Problēma:** Le sens d'origine correspond à « de », pas à « ab », qui marque le point de départ.
-**LV etalons (konteksts):** no kāda/kaut kā • izcelsme
-**DE konteksts:** ab
+**Card ID:** a1-also
+**Field:** study.examples[0].lv
+**CURRENT:** Il pleut donc je reste à la maison.
+**PROPOSED_FR:** Il pleut, donc je reste à la maison.
+**Problēma:** Une virgule est nécessaire entre les deux propositions reliées par « donc ».
+**LV etalons (konteksts):** līst lietus, tāpēc es palieku mājās.
+**DE konteksts:** also
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0338
+**Card ID:** a1-also
+**Field:** study.examples[1].lv
+**CURRENT:** Vous êtes malade alors n'allez pas travailler.
+**PROPOSED_FR:** Tu es malade, alors ne va pas travailler.
+**Problēma:** Le français passe de « tu » à « vous » et l'impératif doit correspondre au tutoiement de la source.
+**LV etalons (konteksts):** tu esi slims, tāpēc neej uz darbu.
+**DE konteksts:** also
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0341
+**Card ID:** a1-auf
+**Field:** study.comparison[2].meaning
+**CURRENT:** Dans ou vers l’intérieur
+**PROPOSED_FR:** Sur une surface
+**Problēma:** « Dans ou vers l'intérieur » traduit plutôt « in » ; « auf » renvoie à une surface ou au dessus.
+**LV etalons (konteksts):** iekšā
+**DE konteksts:** auf
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Sur / à
 **Statuss:** PENDING
 #### FR-A1-0342
 **Card ID:** a1-aus
 **Field:** study.translation
 **CURRENT:** De • Sortie
-**Problēma:** Plusieurs équivalents sont séparés par une puce; décision éditoriale nécessaire pour la carte d'étude.
+**PROPOSED_FR:** De
+**Problēma:** Le champ contient deux traductions séparées par une puce ; une seule formulation doit être retenue.
 **LV etalons (konteksts):** no
 **DE konteksts:** aus
 **Smagums:** MEDIUM
@@ -4103,9 +4119,23 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Statuss:** PENDING
 #### FR-A1-0344
 **Card ID:** a1-aufs
+**Field:** frMain
+**CURRENT:** Vers
+**PROPOSED_FR:** Sur
+**Problēma:** « Aufs » signifie « auf das » et indique principalement un déplacement vers une surface, rendu ici par « sur ».
+**LV etalons (konteksts):** uz
+**DE konteksts:** aufs
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0345
+**Card ID:** a1-aufs
 **Field:** study.translation
 **CURRENT:** Vers • Sur • Où ?
-**Problēma:** Plusieurs équivalents sont séparés par des puces, et « Où ? » est une question, pas une traduction.
+**PROPOSED_FR:** Sur
+**Problēma:** Le champ mélange plusieurs traductions et « Où ? », qui est une question et non une traduction de « aufs ».
 **LV etalons (konteksts):** uz
 **DE konteksts:** aufs
 **Smagums:** MEDIUM
@@ -4113,26 +4143,13 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0347
+#### FR-A1-0348
 **Card ID:** a1-baden
 **Field:** study.examples[2].lv
 **CURRENT:** Il nage très bien.
 **PROPOSED_FR:** Il se baigne très bien.
-**Problēma:** « Nager » traduit « schwimmen »; « baden » signifie se baigner ou prendre un bain.
-**LV etalons (konteksts):** viņš ļoti labi peld
-**DE konteksts:** baden
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0349
-**Card ID:** a1-baden
-**Field:** study.comparison[2].meaning
-**CURRENT:** Prendre une douche
-**PROPOSED_FR:** Prendre un bain
-**Problēma:** « Baden » signifie prendre un bain ou se baigner; prendre une douche correspond à une autre action.
-**LV etalons (konteksts):** mazgāties dušā
+**Problēma:** « Nager » correspond à « schwimmen » ; « baden » signifie se baigner.
+**LV etalons (konteksts):** viņš ļoti labi peld.
 **DE konteksts:** baden
 **Smagums:** HIGH
 **Kategorija:** SEMANTICS
@@ -4140,24 +4157,52 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0352
+**Card ID:** a1-bleiben
+**Field:** study.examples[0].lv
+**CURRENT:** Je reste à la maison
+**PROPOSED_FR:** Je reste à la maison.
+**Problēma:** L'exemple français doit se terminer par un signe de ponctuation.
+**LV etalons (konteksts):** es palieku mājās.
+**DE konteksts:** bleiben
+**Smagums:** LOW
+**Kategorija:** ORTHOGRAPHY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Rester
+**Statuss:** PENDING
+#### FR-A1-0353
 **Card ID:** a1-bringen
 **Field:** study.translation
 **CURRENT:** À emporter • À emporter
 **PROPOSED_FR:** Apporter
-**Problēma:** La traduction est dupliquée et « à emporter » signifie emporter, non apporter.
+**Problēma:** « À emporter » signifie à prendre avec soi et ne traduit pas bringen ; la traduction correcte est « apporter ».
 **LV etalons (konteksts):** atnest
 **DE konteksts:** bringen
 **Smagums:** HIGH
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0356
+#### FR-A1-0354
+**Card ID:** a1-dass
+**Field:** study.examples[2].lv
+**CURRENT:** Je pense que c'est vrai.
+**PROPOSED_FR:** Je pense que c'est correct.
+**Problēma:** « Pareizi » signifie « correct », tandis que « vrai » signifie « vrai » et change le sens.
+**LV etalons (konteksts):** es domāju, ka tas ir pareizi.
+**DE konteksts:** dass
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0355
 **Card ID:** a1-ein
 **Field:** study.translation
 **CURRENT:** Article indéfini • Un • Quelqu'un
-**PROPOSED_FR:** Article indéfini • Un
-**Problēma:** Trois traductions sont proposées ; « quelqu'un » ne traduit pas l'article allemand « ein ». Validation des sens multiples requise.
+**PROPOSED_FR:** Article indéfini, un
+**Problēma:** Le champ contient plusieurs traductions séparées par des puces; « quelqu'un » ne correspond pas à « ein ».
 **LV etalons (konteksts):** nenoteiktais artikuls
 **DE konteksts:** ein
 **Smagums:** MEDIUM
@@ -4165,16 +4210,16 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0357
+#### FR-A1-0356
 **Card ID:** a1-eis
 **Field:** study.translation
 **CURRENT:** Glace • Glace
-**PROPOSED_FR:** Glace (eau gelée) • Glace (dessert)
-**Problēma:** Les deux sens allemands sont distincts, mais la traduction française répétée est ambiguë sans précision.
+**PROPOSED_FR:** Glace
+**Problēma:** La même traduction française est répétée; une seule occurrence suffit pour les deux sens.
 **LV etalons (konteksts):** ledus • saldējums
 **DE konteksts:** Eis
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Smagums:** LOW
+**Kategorija:** STRUCTURE
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
@@ -4182,21 +4227,47 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Card ID:** a1-erst
 **Field:** study.translation
 **CURRENT:** Premier • Seulement
-**PROPOSED_FR:** D'abord • Seulement
-**Problēma:** « Premier » est adjectif ; « erst » signifie ici « d'abord » ou « seulement ». Deux sens exigent validation.
+**PROPOSED_FR:** D'abord, seulement
+**Problēma:** « Premier » est un adjectif; l'adverbe allemand « erst » se traduit ici par « d'abord ».
 **LV etalons (konteksts):** tikai
+**DE konteksts:** erst
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0359
+**Card ID:** a1-erst
+**Field:** study.comparison[0].meaning
+**CURRENT:** D'abord • Seulement
+**PROPOSED_FR:** D'abord, seulement
+**Problēma:** Le champ contient deux sens learner-facing séparés par une puce.
+**LV etalons (konteksts):** vispirms • tikai
 **DE konteksts:** erst
 **Smagums:** MEDIUM
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0359
+#### FR-A1-0360
+**Card ID:** a1-erst
+**Field:** study.comparison[1].meaning
+**CURRENT:** D'abord • Au début
+**PROPOSED_FR:** D'abord, au début
+**Problēma:** Le champ contient plusieurs traductions séparées par une puce.
+**LV etalons (konteksts):** vispirms • sākumā
+**DE konteksts:** erst
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0361
 **Card ID:** a1-es
 **Field:** study.translation
 **CURRENT:** Il • Il • Forme impersonnelle
-**PROPOSED_FR:** Il • Forme impersonnelle
-**Problēma:** La traduction contient une répétition et sépare plusieurs sens ; le format actuel doit être validé pour l'apprenant.
+**PROPOSED_FR:** Il, forme impersonnelle
+**Problēma:** « Il » est répété; les sens peuvent être présentés sans doublon.
 **LV etalons (konteksts):** tas
 **DE konteksts:** es
 **Smagums:** MEDIUM
@@ -4204,12 +4275,12 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0361
+#### FR-A1-0364
 **Card ID:** a1-etwas
 **Field:** study.translation
 **CURRENT:** Quelque chose • Un peu
-**PROPOSED_FR:** Quelque chose • Un peu
-**Problēma:** Deux sens distincts sont séparés par une puce ; une validation propriétaire est requise pour les traductions multiples.
+**PROPOSED_FR:** Quelque chose, un peu
+**Problēma:** Le champ contient plusieurs sens learner-facing séparés par une puce.
 **LV etalons (konteksts):** kaut kas
 **DE konteksts:** etwas
 **Smagums:** MEDIUM
@@ -4217,38 +4288,51 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0362
+#### FR-A1-0365
 **Card ID:** a1-etwas
 **Field:** study.comparison[0].meaning
 **CURRENT:** Quelque chose
-**PROPOSED_FR:** Quelque chose / un peu
-**Problēma:** La source présente deux sens, mais la traduction française n'en rend qu'un seul.
+**PROPOSED_FR:** Quelque chose, un peu
+**Problēma:** La source distingue deux sens, mais le français n'en donne qu'un seul.
 **LV etalons (konteksts):** kaut kas / nedaudz
 **DE konteksts:** etwas
 **Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0363
-**Card ID:** a1-fahren
-**Field:** study.translation
-**CURRENT:** Conduire • Diriger • Emporter
-**PROPOSED_FR:** Conduire • Aller en véhicule • Emmener
-**Problēma:** « Diriger » et « emporter » sont inadéquats ici ; plusieurs sens distincts sont proposés et doivent être validés.
-**LV etalons (konteksts):** braukt
-**DE konteksts:** fahren
-**Smagums:** HIGH
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0364
+#### FR-A1-0366
+**Card ID:** a1-euch
+**Field:** study.translation
+**CURRENT:** Vous • Vous
+**PROPOSED_FR:** Vous
+**Problēma:** La traduction française est répétée; les fonctions grammaticale et syntaxique peuvent être expliquées séparément.
+**LV etalons (konteksts):** jūs • jums
+**DE konteksts:** euch
+**Smagums:** LOW
+**Kategorija:** STRUCTURE
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0368
+**Card ID:** a1-fahren
+**Field:** study.translation
+**CURRENT:** Conduire • Diriger • Emporter
+**PROPOSED_FR:** Conduire, voyager, emmener
+**Problēma:** « Diriger » et « emporter » ne rendent pas les sens usuels de « fahren » dans ces exemples.
+**LV etalons (konteksts):** braukt
+**DE konteksts:** fahren
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0369
 **Card ID:** a1-finden
 **Field:** study.translation
 **CURRENT:** Trouver • Considérer
-**PROPOSED_FR:** Trouver • Considérer
-**Problēma:** Deux traductions distinctes sont séparées par une puce ; une validation propriétaire est requise pour les sens multiples.
+**PROPOSED_FR:** Trouver, penser
+**Problēma:** Le champ contient plusieurs traductions séparées par une puce.
 **LV etalons (konteksts):** atrast
 **DE konteksts:** finden
 **Smagums:** MEDIUM
@@ -4256,12 +4340,25 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0365
+#### FR-A1-0370
+**Card ID:** a1-finden
+**Field:** study.comparison[0].meaning
+**CURRENT:** Trouver / penser
+**PROPOSED_FR:** Trouver, penser
+**Problēma:** Le champ contient plusieurs traductions séparées par une barre oblique.
+**LV etalons (konteksts):** atrast / uzskatīt
+**DE konteksts:** finden
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0371
 **Card ID:** a1-frau
 **Field:** study.translation
 **CURRENT:** Femme • Épouse
-**PROPOSED_FR:** Femme • Épouse
-**Problēma:** Deux sens distincts sont séparés par une puce ; une validation propriétaire est requise pour les traductions multiples.
+**PROPOSED_FR:** Femme, épouse
+**Problēma:** Le champ contient plusieurs sens learner-facing séparés par une puce.
 **LV etalons (konteksts):** sieviete
 **DE konteksts:** Frau
 **Smagums:** MEDIUM
@@ -4269,11 +4366,55 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0366
+#### FR-A1-0372
+**Card ID:** a1-fuer
+**Field:** study.translation
+**CURRENT:** Pour • Pour
+**PROPOSED_FR:** Pour
+**Problēma:** La traduction française est répétée sans distinction de sens.
+**LV etalons (konteksts):** priekš
+**DE konteksts:** für
+**Smagums:** LOW
+**Kategorija:** STRUCTURE
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0373
+**Card ID:** a1-geben
+**Field:** study.examples[2].lv
+**CURRENT:** Je prends le livre
+**PROPOSED_FR:** Je donne le livre.
+**Problēma:** Le français traduit «prendre», mais l'allemand cible geben signifie «donner».
+**LV etalons (konteksts):** es paņemu grāmatu.
+**DE konteksts:** geben
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Donner
+**Statuss:** PENDING
+#### FR-A1-0374
+**Card ID:** a1-geben
+**Field:** study.examples[3].lv
+**CURRENT:** Je reçois un cadeau
+**PROPOSED_FR:** Je donne un cadeau.
+**Problēma:** Le français traduit «recevoir», mais l'allemand cible geben signifie «donner».
+**LV etalons (konteksts):** es saņemu dāvanu.
+**DE konteksts:** geben
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Donner
+**Statuss:** PENDING
+#### FR-A1-0375
 **Card ID:** a1-gleich
 **Field:** study.translation
 **CURRENT:** Immédiatement • Égal
-**Problēma:** Deux sens distincts sont réunis dans un même champ ; une décision est nécessaire sur la présentation des sens.
+**PROPOSED_FR:** Immédiatement
+**Problēma:** Le champ learner-facing contient deux traductions distinctes séparées par • ; le choix d'une entrée nécessite validation.
 **LV etalons (konteksts):** tūlīt
 **DE konteksts:** gleich
 **Smagums:** MEDIUM
@@ -4281,24 +4422,25 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0367
-**Card ID:** a1-gleich
-**Field:** study.examples[5].lv
-**CURRENT:** Ils ont la même hauteur.
-**PROPOSED_FR:** Ils ont la même taille.
-**Problēma:** Pour parler de personnes, « avoir la même taille » est l'expression française naturelle.
-**LV etalons (konteksts):** viņi ir vienāda auguma.
-**DE konteksts:** gleich
-**Smagums:** LOW
-**Kategorija:** NATURALNESS
+#### FR-A1-0376
+**Card ID:** a1-gut-study
+**Field:** study.examples[3].lv
+**CURRENT:** Bonjour!
+**PROPOSED_FR:** C'est bon !
+**Problēma:** «Bonjour !» signifie une salutation, pas l'adjectif/adverbe allemand gut.
+**LV etalons (konteksts):** labrīt!
+**DE konteksts:** gut
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0368
+#### FR-A1-0377
 **Card ID:** a1-halten
 **Field:** study.translation
 **CURRENT:** Maintenir • Arrêter
-**Problēma:** Deux sens distincts sont réunis dans un même champ ; une décision est nécessaire sur la présentation des sens.
+**PROPOSED_FR:** Tenir
+**Problēma:** Le champ learner-facing contient deux traductions distinctes séparées par • ; le choix d'une entrée nécessite validation.
 **LV etalons (konteksts):** turēt
 **DE konteksts:** halten
 **Smagums:** MEDIUM
@@ -4306,25 +4448,25 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0371
+#### FR-A1-0380
 **Card ID:** a1-heißen
 **Field:** study.translation
 **CURRENT:** Être appelé • Moyen
 **PROPOSED_FR:** S'appeler • Signifier
-**Problēma:** « Moyen » signifie average/medium, pas le verbe allemand heißen au sens de « signifier ».
+**Problēma:** « Moyen » signifie medium, pas « signifier » ; « s'appeler » est la traduction naturelle de heißen pour un nom.
 **LV etalons (konteksts):** saukties
 **DE konteksts:** heißen
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0373
+#### FR-A1-0383
 **Card ID:** a1-hoeren-study
 **Field:** study.translation
 **CURRENT:** Entendre • Écouter
 **PROPOSED_FR:** Entendre ou écouter
-**Problēma:** Deux traductions distinctes sont juxtaposées dans le champ learner-facing ; décision nécessaire sur le format.
+**Problēma:** Deux traductions distinctes sont séparées par « • » ; validation du format learner-facing requise.
 **LV etalons (konteksts):** dzirdēt • klausīties
 **DE konteksts:** hören
 **Smagums:** LOW
@@ -4332,77 +4474,77 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0374
+#### FR-A1-0384
 **Card ID:** a1-ihr
 **Field:** study.translation
 **CURRENT:** Vous • Elle
-**PROPOSED_FR:** Vous • Lui / Son, sa, ses
-**Problēma:** « Elle » est le pronom sujet ; le datif allemand ihr se traduit par « lui », et le possessif par « son/sa/ses ».
+**PROPOSED_FR:** Vous • Lui • Sa, son ou ses
+**Problēma:** « Elle » est un pronom sujet ; ihr peut signifier « lui » ou être possessif « sa/son/ses ».
 **LV etalons (konteksts):** jūs • viņai
 **DE konteksts:** ihr
-**Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Smagums:** HIGH
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0375
+#### FR-A1-0385
 **Card ID:** a1-im
 **Field:** study.translation
 **CURRENT:** Dans • Où ?
-**PROPOSED_FR:** Dans le • Au / À la / En
-**Problēma:** « Où ? » est une question, pas une traduction de im ; im correspond à la contraction de in dem.
+**PROPOSED_FR:** Dans
+**Problēma:** « Où ? » est un adverbe interrogatif, pas une traduction de im.
 **LV etalons (konteksts):** iekšā (-ā) • kur?
 **DE konteksts:** im
 **Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0377
+#### FR-A1-0387
 **Card ID:** a1-ins
 **Field:** study.translation
 **CURRENT:** Dans • Dans • Où ?
-**PROPOSED_FR:** Dans le • Au • À l'
-**Problēma:** « Où ? » est une question, et la répétition de « Dans » ne rend pas clairement la contraction in das.
+**PROPOSED_FR:** Dans • Vers l'intérieur
+**Problēma:** « Où ? » ne traduit pas ins et la répétition de « Dans » ne rend pas le mouvement vers l'intérieur.
 **LV etalons (konteksts):** iekšā • uz iekšu • kurp?
 **DE konteksts:** ins
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0388
+**Card ID:** a1-kein
+**Field:** study.translation
+**CURRENT:** Personne • Rien
+**PROPOSED_FR:** Aucun(e)
+**Problēma:** Kein signifie principalement « aucun(e) » ou « pas de », pas directement « personne » ou « rien ».
+**LV etalons (konteksts):** neviens • nekāds
+**DE konteksts:** kein
+**Smagums:** MEDIUM
+**Kategorija:** TRANSLATION
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0389
+**Card ID:** a1-kennen-study
+**Field:** study.examples[2].lv
+**CURRENT:** Où vous êtes-vous rencontrés ?
+**PROPOSED_FR:** Connaissez-vous cette personne ?
+**Problēma:** La phrase française signifie se rencontrer, alors que kennen signifie connaître ; le contexte LV ne correspond pas au DE.
+**LV etalons (konteksts):** kur jūs iepazināties?
+**DE konteksts:** kennen
 **Smagums:** MEDIUM
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0378
-**Card ID:** a1-ins
-**Field:** study.comparison[3].meaning
-**CURRENT:** À la surface (Akk.)
-**PROPOSED_FR:** À la surface (accusatif)
-**Problēma:** « Akk. » est une abréviation allemande ; le champ français emploie ailleurs « accusatif ».
-**LV etalons (konteksts):** uz virsmu (Akk.)
-**DE konteksts:** ins
-**Smagums:** LOW
-**Kategorija:** FOREIGN_REMNANT
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0379
-**Card ID:** a1-kein
-**Field:** study.translation
-**CURRENT:** Personne • Rien
-**PROPOSED_FR:** Aucun • Pas de
-**Problēma:** « Personne » et « rien » traduisent niemand et nichts ; kein signifie « aucun » ou « pas de » devant un nom.
-**LV etalons (konteksts):** neviens • nekāds
-**DE konteksts:** kein
-**Smagums:** HIGH
-**Kategorija:** SEMANTICS
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0380
+#### FR-A1-0390
 **Card ID:** a1-können
 **Field:** study.translation
 **CURRENT:** Être capable de • Savoir
 **PROPOSED_FR:** Pouvoir
-**Problēma:** Deux traductions distinctes sont proposées dans un champ destiné à l'apprenant; une traduction principale doit être choisie.
+**Problēma:** Deux traductions distinctes sont présentées dans un seul champ learner-facing; une décision éditoriale est requise.
 **LV etalons (konteksts):** varēt • prast
 **DE konteksts:** können
 **Smagums:** MEDIUM
@@ -4410,90 +4552,25 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0381
-**Card ID:** a1-können
-**Field:** study.examples[1].lv
-**CURRENT:** Pouvez-vous m'aider
-**PROPOSED_FR:** Pouvez-vous m'aider ?
-**Problēma:** La phrase interrogative doit se terminer par un point d'interrogation.
-**LV etalons (konteksts):** vai tu vari man palīdzēt?
-**DE konteksts:** können
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0382
-**Card ID:** a1-kosten
-**Field:** study.examples[1].lv
-**CURRENT:** Combien ça coûte
-**PROPOSED_FR:** Combien ça coûte ?
-**Problēma:** La phrase interrogative doit se terminer par un point d'interrogation.
-**LV etalons (konteksts):** cik tas maksā?
-**DE konteksts:** kosten
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0383
-**Card ID:** a1-kosten
-**Field:** study.examples[4].lv
-**CURRENT:** Je paie la facture
-**PROPOSED_FR:** Je paie la facture.
-**Problēma:** La phrase doit être ponctuée par un point final.
-**LV etalons (konteksts):** es maksāju rēķinu.
-**DE konteksts:** kosten
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0384
-**Card ID:** a1-kosten
-**Field:** study.examples[5].lv
-**CURRENT:** Puis-je payer en espèces
-**PROPOSED_FR:** Puis-je payer en espèces ?
-**Problēma:** La phrase interrogative doit se terminer par un point d'interrogation.
-**LV etalons (konteksts):** vai varu maksāt skaidrā naudā?
-**DE konteksts:** kosten
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0385
-**Card ID:** a1-kosten
-**Field:** study.examples[7].lv
-**CURRENT:** Je vais payer maintenant
-**PROPOSED_FR:** Je vais payer maintenant.
-**Problēma:** La phrase doit être ponctuée par un point final.
-**LV etalons (konteksts):** es samaksāšu tūlīt.
-**DE konteksts:** kosten
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0389
+#### FR-A1-0391
 **Card ID:** a1-laden-study
-**Field:** study.examples[0].lv
-**CURRENT:** Je vais au magasin
+**Field:** study.examples[3].lv
+**CURRENT:** Je dois recharger mon téléphone.
 **PROPOSED_FR:** Je vais au magasin.
-**Problēma:** La phrase doit être ponctuée par un point final.
-**LV etalons (konteksts):** es eju uz veikalu.
+**Problēma:** L'exemple traduit le verbe allemand « laden », alors que le mot étudié « Laden » est le nom « magasin ».
+**LV etalons (konteksts):** man jāuzlādē telefons.
 **DE konteksts:** Laden
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0390
+#### FR-A1-0392
 **Card ID:** a1-land
 **Field:** study.translation
 **CURRENT:** Pays • Terrain
-**PROPOSED_FR:** Pays • Terre
-**Problēma:** Deux traductions sont séparées par une puce; « terre » rend mieux le sens général de Land que « terrain ».
+**PROPOSED_FR:** Pays
+**Problēma:** Deux traductions distinctes sont proposées dans un seul champ; une décision éditoriale est requise.
 **LV etalons (konteksts):** valsts • zeme
 **DE konteksts:** Land
 **Smagums:** MEDIUM
@@ -4501,29 +4578,16 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0392
+#### FR-A1-0393
 **Card ID:** a1-lang
 **Field:** study.translation
 **CURRENT:** Longue • Longue
-**PROPOSED_FR:** Long
-**Problēma:** La forme masculine de citation est requise et deux sens distincts sont proposés dans le même champ.
+**PROPOSED_FR:** Long • Longue
+**Problēma:** La forme masculine manque et la même forme féminine est répétée; la traduction doit présenter les deux genres.
 **LV etalons (konteksts):** garš • ilgs
 **DE konteksts:** lang
 **Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0393
-**Card ID:** a1-lang
-**Field:** study.examples[2].lv
-**CURRENT:** Combien de temps ça dure
-**PROPOSED_FR:** Combien de temps ça dure ?
-**Problēma:** La phrase interrogative doit se terminer par un point d'interrogation.
-**LV etalons (konteksts):** cik ilgi tas ilgst?
-**DE konteksts:** lang
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
+**Kategorija:** GRAMMAR
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
@@ -4531,62 +4595,148 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Card ID:** a1-lassen
 **Field:** study.translation
 **CURRENT:** Partir • Laisser
-**PROPOSED_FR:** Laisser • Permettre
-**Problēma:** « Partir » ne traduit pas le sens autonome de lassen; il faut exprimer laisser ou permettre.
+**PROPOSED_FR:** Laisser
+**Problēma:** Deux traductions distinctes sont présentées dans un seul champ; une décision éditoriale est requise.
 **LV etalons (konteksts):** atstāt • ļaut
 **DE konteksts:** lassen
 **Smagums:** MEDIUM
-**Kategorija:** SEMANTICS
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0395
+**Card ID:** a1-laufen
+**Field:** study.translation
+**CURRENT:** Exécuter • Utiliser
+**PROPOSED_FR:** Courir
+**Problēma:** Deux traductions distinctes sont présentées dans un seul champ; une décision éditoriale est requise.
+**LV etalons (konteksts):** skriet • darboties
+**DE konteksts:** laufen
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0396
-**Card ID:** a1-laufen
-**Field:** study.translation
-**CURRENT:** Exécuter • Utiliser
-**PROPOSED_FR:** Courir • Fonctionner
-**Problēma:** « Exécuter » et « utiliser » ne rendent pas les sens courants de laufen indiqués par la source.
-**LV etalons (konteksts):** skriet • darboties
-**DE konteksts:** laufen
+**Card ID:** a1-laut
+**Field:** study.examples[4].lv
+**CURRENT:** Le son est magnifique.
+**PROPOSED_FR:** Le son est très fort.
+**Problēma:** L'exemple décrit la beauté du son, pas son volume sonore, contrairement à l'adjectif allemand « laut ».
+**LV etalons (konteksts):** skaņa ir skaista.
+**DE konteksts:** laut
 **Smagums:** MEDIUM
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Fort
 **Statuss:** PENDING
 #### FR-A1-0397
 **Card ID:** a1-laut
 **Field:** study.examples[5].lv
 **CURRENT:** J'entends un son
-**PROPOSED_FR:** J'entends un son.
-**Problēma:** La phrase doit être ponctuée par un point final.
+**PROPOSED_FR:** J'entends un son fort.
+**Problēma:** L'exemple mentionne seulement un son, sans exprimer le sens « fort/bruyant » de « laut ».
 **LV etalons (konteksts):** es dzirdu kādu skaņu.
 **DE konteksts:** laut
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
 **OWNER approved:** Fort
 **Statuss:** PENDING
 #### FR-A1-0398
-**Card ID:** a1-liegen
-**Field:** study.translation
-**CURRENT:** Être • Dormir
-**PROPOSED_FR:** Être allongé • Être situé
-**Problēma:** Liegen signifie être allongé ou se trouver, mais pas « dormir » en français.
-**LV etalons (konteksts):** atrasties • gulēt
-**DE konteksts:** liegen
+**Card ID:** a1-laut-study
+**Field:** study.examples[1].lv
+**CURRENT:** La musique est forte.
+**PROPOSED_FR:** La musique produit un son.
+**Problēma:** La phrase française traduit l'adjectif « laut » (« bruyant »), alors que « Laut » est ici le nom « son »; le champ est incohérent.
+**LV etalons (konteksts):** mūzika ir skaļa.
+**DE konteksts:** Laut
 **Smagums:** MEDIUM
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Le son
 **Statuss:** PENDING
 #### FR-A1-0399
+**Card ID:** a1-laut-study
+**Field:** study.examples[2].lv
+**CURRENT:** Ne parle pas si fort !
+**PROPOSED_FR:** Ne fais pas tant de bruit !
+**Problēma:** La phrase française emploie « fort » comme adjectif, tandis que le mot étudié « Laut » est le nom « son/bruit ».
+**LV etalons (konteksts):** nerunā tik skaļi!
+**DE konteksts:** Laut
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Le son
+**Statuss:** PENDING
+#### FR-A1-0400
+**Card ID:** a1-laut-study
+**Field:** study.examples[3].lv
+**CURRENT:** C'est très bruyant.
+**PROPOSED_FR:** C'est un bruit très fort.
+**Problēma:** « Brûyant » traduit l'adjectif « laut », pas le nom allemand « Laut » présenté par la carte.
+**LV etalons (konteksts):** tas ir ļoti skaļi.
+**DE konteksts:** Laut
+**Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**OWNER history:** OWNER_DECISION_REOPEN_REQUIRED
+**OWNER approved:** Le son
+**Statuss:** PENDING
+#### FR-A1-0401
+**Card ID:** a1-liegen
+**Field:** study.translation
+**CURRENT:** Être • Dormir
+**PROPOSED_FR:** Être allongé
+**Problēma:** Deux traductions distinctes sont présentées dans un seul champ; une décision éditoriale est requise.
+**LV etalons (konteksts):** atrasties • gulēt
+**DE konteksts:** liegen
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0402
+**Card ID:** a1-liegen
+**Field:** study.examples[3].lv
+**CURRENT:** J'ai posé le livre sur la table.
+**PROPOSED_FR:** Le livre est posé sur la table.
+**Problēma:** « J'ai posé » décrit l'action « legen », tandis que « liegen » décrit la position résultante.
+**LV etalons (konteksts):** es nolieku grāmatu uz galda.
+**DE konteksts:** liegen
+**Smagums:** HIGH
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0403
+**Card ID:** a1-machen
+**Field:** study.translation
+**CURRENT:** Faire • Faire
+**PROPOSED_FR:** Faire
+**Problēma:** The same French translation is duplicated; the learner-facing entry should contain it once.
+**LV etalons (konteksts):** darīt • taisīt
+**DE konteksts:** machen
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0405
 **Card ID:** a1-mann
 **Field:** study.translation
 **CURRENT:** Homme • Mari
-**PROPOSED_FR:** Homme
-**Problēma:** The learner-facing translation lists two distinct meanings separated by •; an owner must decide whether to keep one or both.
+**PROPOSED_FR:** Homme ou mari selon le contexte
+**Problēma:** Two context-dependent translations are presented with a separator; the entry should clarify their contextual use.
 **LV etalons (konteksts):** vīrietis • vīrs
 **DE konteksts:** Mann
 **Smagums:** MEDIUM
@@ -4594,12 +4744,12 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0400
+#### FR-A1-0410
 **Card ID:** a1-nach
 **Field:** study.translation
 **CURRENT:** À • Après
-**PROPOSED_FR:** À
-**Problēma:** The learner-facing translation lists two distinct meanings separated by •; an owner must decide whether to keep one or both.
+**PROPOSED_FR:** À pour une destination, après pour le temps
+**Problēma:** Two distinct translations are separated by a bullet in a learner-facing field; the contexts should be clarified.
 **LV etalons (konteksts):** uz • pēc
 **DE konteksts:** nach
 **Smagums:** MEDIUM
@@ -4607,12 +4757,12 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0401
+#### FR-A1-0411
 **Card ID:** a1-natuerlich
 **Field:** study.translation
 **CURRENT:** Bien sûr • Naturel
-**PROPOSED_FR:** Bien sûr
-**Problēma:** The learner-facing translation lists two distinct meanings separated by •; an owner must decide whether to keep one or both.
+**PROPOSED_FR:** Bien sûr ou naturel selon le contexte
+**Problēma:** Two distinct meanings are separated by a bullet; the learner-facing entry should clarify their contextual use.
 **LV etalons (konteksts):** protams • dabisks
 **DE konteksts:** natürlich
 **Smagums:** MEDIUM
@@ -4620,38 +4770,51 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0402
+#### FR-A1-0412
+**Card ID:** a1-nehmen
+**Field:** study.translation
+**CURRENT:** Prendre • Prendre
+**PROPOSED_FR:** Prendre
+**Problēma:** The same French translation is duplicated; the learner-facing entry should contain it once.
+**LV etalons (konteksts):** ņemt • paņemt
+**DE konteksts:** nehmen
+**Smagums:** MEDIUM
+**Kategorija:** STUDY
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0415
 **Card ID:** a1-nur-study
 **Field:** study.translation
 **CURRENT:** Seulement • Seulement
 **PROPOSED_FR:** Seulement
-**Problēma:** La même traduction est répétée deux fois au lieu de présenter une seule équivalence française.
+**Problēma:** The learner-facing field repeats the same translation with a separator; use one preferred gloss.
 **LV etalons (konteksts):** tikai • vienīgi
 **DE konteksts:** nur
-**Smagums:** LOW
-**Kategorija:** TRANSLATION
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0403
+#### FR-A1-0416
 **Card ID:** a1-oder
 **Field:** study.translation
 **CURRENT:** Ou • Ou
 **PROPOSED_FR:** Ou
-**Problēma:** La même traduction est répétée deux fois au lieu de présenter une seule équivalence française.
+**Problēma:** The learner-facing field repeats the same translation with a separator; use one preferred gloss.
 **LV etalons (konteksts):** vai • jeb
 **DE konteksts:** oder
-**Smagums:** LOW
-**Kategorija:** TRANSLATION
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0404
+#### FR-A1-0417
 **Card ID:** a1-passen
 **Field:** study.translation
 **CURRENT:** Ajustement • Ajustement
-**PROPOSED_FR:** Convenir • Aller
-**Problēma:** « Ajustement » est un nom et ne traduit pas le verbe allemand « passen » dans ces deux sens.
+**PROPOSED_FR:** Convenir
+**Problēma:** Ajustement is a noun and does not translate the verb passen; the field also repeats the same incorrect gloss.
 **LV etalons (konteksts):** derēt • piestāvēt
 **DE konteksts:** passen
 **Smagums:** HIGH
@@ -4659,12 +4822,12 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0405
+#### FR-A1-0418
 **Card ID:** a1-probieren
 **Field:** study.translation
 **CURRENT:** A essayer • A déguster
 **PROPOSED_FR:** Essayer • Goûter
-**Problēma:** Les équivalents doivent être des infinitifs français, comme le mot allemand « probieren ».
+**Problēma:** The French glosses are awkward and unnecessarily use à; infinitive translations should be Essayer and Goûter.
 **LV etalons (konteksts):** izmēģināt • nogaršot
 **DE konteksts:** probieren
 **Smagums:** MEDIUM
@@ -4672,12 +4835,12 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0406
+#### FR-A1-0419
 **Card ID:** a1-seite
 **Field:** study.translation
 **CURRENT:** Page • Côté
-**PROPOSED_FR:** Page, côté
-**Problēma:** Deux traductions distinctes sont présentées avec un séparateur ; décision éditoriale requise.
+**PROPOSED_FR:** Page • Côté
+**Problēma:** Le champ contient plusieurs traductions séparées par • ; décision de présentation requise.
 **LV etalons (konteksts):** lappuse • puse
 **DE konteksts:** Seite
 **Smagums:** LOW
@@ -4685,25 +4848,25 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0407
+#### FR-A1-0420
 **Card ID:** a1-sich
 **Field:** study.translation
 **CURRENT:** Vous-même • Pour vous-même
-**PROPOSED_FR:** Se, soi-même
-**Problēma:** « Vous-même » impose la deuxième personne ; sich est un pronom réfléchi variable selon la personne.
+**PROPOSED_FR:** Soi-même • À soi-même
+**Problēma:** Sich est un pronom réfléchi générique, pas une forme spécifique de politesse en vous.
 **LV etalons (konteksts):** sevi • sev
 **DE konteksts:** sich
-**Smagums:** HIGH
+**Smagums:** MEDIUM
 **Kategorija:** SEMANTICS
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0411
+#### FR-A1-0424
 **Card ID:** a1-sich
 **Field:** study.comparison[3].meaning
 **CURRENT:** Lui
-**PROPOSED_FR:** Lui-même ou elle-même
-**Problēma:** « Viņu » correspond à un pronom objet de troisième personne, pas uniquement à « lui ».
+**PROPOSED_FR:** Le / La
+**Problēma:** Lui est un pronom indirect ; pour l’objet direct correspondant, il faut le ou la.
 **LV etalons (konteksts):** viņu
 **DE konteksts:** sich
 **Smagums:** MEDIUM
@@ -4711,12 +4874,12 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0412
+#### FR-A1-0425
 **Card ID:** a1-sicher
 **Field:** study.translation
 **CURRENT:** Sûr • Certainement
-**PROPOSED_FR:** Sûr, certainement
-**Problēma:** Adjectif et adverbe sont présentés avec un séparateur ; décision éditoriale requise.
+**PROPOSED_FR:** Sûr • Certainement
+**Problēma:** Le champ contient plusieurs traductions séparées par • ; décision de présentation requise.
 **LV etalons (konteksts):** drošs • noteikti
 **DE konteksts:** sicher
 **Smagums:** LOW
@@ -4724,25 +4887,25 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0413
+#### FR-A1-0426
 **Card ID:** a1-sie-study
 **Field:** study.translation
 **CURRENT:** Ils/elle
-**PROPOSED_FR:** Elle, ils/elles
-**Problēma:** La forme actuelle mélange le pluriel masculin et le singulier féminin sans accord cohérent.
+**PROPOSED_FR:** Elle • Ils/Elles
+**Problēma:** Le champ contient plusieurs sens séparés par / et ne distingue pas clairement elles au pluriel.
 **LV etalons (konteksts):** viņi / viņas
 **DE konteksts:** sie
-**Smagums:** HIGH
-**Kategorija:** GRAMMAR
+**Smagums:** LOW
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0418
+#### FR-A1-0427
 **Card ID:** a1-über
 **Field:** study.translation
 **CURRENT:** Fini • Pour
-**PROPOSED_FR:** Au-dessus, à propos de, à travers
-**Problēma:** « Fini » et « pour » ne traduisent pas les sens principaux de über dans les exemples.
+**PROPOSED_FR:** Au-dessus • À propos de
+**Problēma:** Fini et pour ne correspondent pas aux sens spatiaux et thématiques de über dans la source allemande.
 **LV etalons (konteksts):** virs • par
 **DE konteksts:** über
 **Smagums:** HIGH
@@ -4750,12 +4913,12 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0420
+#### FR-A1-0429
 **Card ID:** a1-um
 **Field:** study.translation
 **CURRENT:** Vers • Heures
-**PROPOSED_FR:** À, autour de, pour
-**Problēma:** « Heures » n'est pas une traduction française de la préposition um ; les sens sont à, autour de et pour.
+**PROPOSED_FR:** Autour • À (une heure)
+**Problēma:** Heures n'est pas une traduction française du sens temporel de um.
 **LV etalons (konteksts):** ap • pulksten
 **DE konteksts:** um
 **Smagums:** MEDIUM
@@ -4763,12 +4926,12 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0422
+#### FR-A1-0431
 **Card ID:** a1-um
 **Field:** study.comparison[2].meaning
 **CURRENT:** Vers cette heure / contre
-**PROPOSED_FR:** Vers cette heure, contre
-**Problēma:** Deux sens distincts sont séparés par une barre oblique ; décision éditoriale requise.
+**PROPOSED_FR:** Vers cette heure / contre
+**Problēma:** Le champ contient plusieurs traductions séparées par / ; décision de présentation requise.
 **LV etalons (konteksts):** ap laiku / pret
 **DE konteksts:** um
 **Smagums:** LOW
@@ -4776,159 +4939,107 @@ CRITICAL: **0** · HIGH: **330** · MEDIUM: **103** · LOW: **19**
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0426
-**Card ID:** a1-vom
-**Field:** study.examples[0].lv
-**CURRENT:** Je viens de la gare
-**PROPOSED_FR:** Je viens de la gare.
-**Problēma:** Le point final manque dans cette phrase française.
-**LV etalons (konteksts):** es nāku no stacijas.
-**DE konteksts:** vom
-**Smagums:** LOW
-**Kategorija:** ORTHOGRAPHY
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0427
-**Card ID:** a1-vom
-**Field:** study.comparison[4].meaning
-**CURRENT:** Vers / à (direction opposée)
-**PROPOSED_FR:** Vers, à (direction opposée)
-**Problēma:** Le champ learner-facing sépare deux traductions par une barre oblique.
-**LV etalons (konteksts):** uz / pie (pretēja virzienam)
-**DE konteksts:** vom
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0428
+#### FR-A1-0433
 **Card ID:** a1-vor
-**Field:** study.translation
-**CURRENT:** Avant • Devant
-**PROPOSED_FR:** Avant, devant
-**Problēma:** Le champ learner-facing sépare plusieurs traductions par une puce.
+**Field:** frMain
+**CURRENT:** Devant
+**PROPOSED_FR:** Avant ou devant
+**Problēma:** Vor has both temporal and spatial meanings; Devant omits the temporal meaning.
 **LV etalons (konteksts):** pirms • priekšā
 **DE konteksts:** vor
 **Smagums:** MEDIUM
+**Kategorija:** SEMANTICS
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0434
+**Card ID:** a1-vor
+**Field:** study.translation
+**CURRENT:** Avant • Devant
+**PROPOSED_FR:** Avant ou devant
+**Problēma:** Learner-facing field uses a bullet to separate distinct translations; owner decision is required.
+**LV etalons (konteksts):** pirms • priekšā
+**DE konteksts:** vor
+**Smagums:** LOW
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0429
+#### FR-A1-0435
 **Card ID:** a1-was
 **Field:** study.translation
 **CURRENT:** Qui • Quoi
 **PROPOSED_FR:** Quoi
-**Problēma:** « Qui » est une traduction de wer, pas de was; le champ contient aussi plusieurs traductions séparées.
+**Problēma:** Was means quoi; qui corresponds to wer and is an incorrect additional translation here.
 **LV etalons (konteksts):** kas • ko
-**DE konteksts:** was
-**Smagums:** HIGH
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0430
-**Card ID:** a1-was
-**Field:** study.examples[0].lv
-**CURRENT:** Qui est-ce ?
-**PROPOSED_FR:** Qu'est-ce que c'est ?
-**Problēma:** La question porte sur une chose (« quoi »), pas sur une personne (« qui »).
-**LV etalons (konteksts):** Kas tas ir?
 **DE konteksts:** was
 **Smagums:** HIGH
 **Kategorija:** TRANSLATION
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0431
+#### FR-A1-0436
 **Card ID:** a1-wenn
 **Field:** study.translation
 **CURRENT:** Si • Quand
-**PROPOSED_FR:** Si, quand
-**Problēma:** Le champ learner-facing sépare plusieurs traductions par une puce.
+**PROPOSED_FR:** Si ou quand
+**Problēma:** Learner-facing field uses a bullet to separate distinct translations; owner decision is required.
 **LV etalons (konteksts):** ja • kad
 **DE konteksts:** wenn
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0432
-**Card ID:** a1-wer
-**Field:** study.translation
-**CURRENT:** Qui • Qui
-**PROPOSED_FR:** Qui
-**Problēma:** Le champ learner-facing répète une traduction et utilise une puce pour séparer les éléments.
-**LV etalons (konteksts):** kas • kurš
-**DE konteksts:** wer
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0433
-**Card ID:** a1-wie
-**Field:** study.translation
-**CURRENT:** Comment • Combien
-**PROPOSED_FR:** Comment, combien
-**Problēma:** Le champ learner-facing sépare plusieurs traductions par une puce.
-**LV etalons (konteksts):** kā • cik
-**DE konteksts:** wie
-**Smagums:** MEDIUM
-**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0434
-**Card ID:** a1-zu
-**Field:** study.translation
-**CURRENT:** À • À
-**PROPOSED_FR:** À, chez, trop, à + infinitif
-**Problēma:** Le champ répète « à » et omet plusieurs sens essentiels de zu; les traductions sont séparées par des puces.
-**LV etalons (konteksts):** uz • pie
-**DE konteksts:** zu
-**Smagums:** HIGH
+**Smagums:** LOW
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
 #### FR-A1-0437
-**Card ID:** a1-zum
+**Card ID:** a1-wer
 **Field:** study.translation
-**CURRENT:** À • À
-**PROPOSED_FR:** À
-**Problēma:** La traduction française est dupliquée inutilement dans le champ d’étude.
-**LV etalons (konteksts):** uz • pie
-**DE konteksts:** zum
+**CURRENT:** Qui • Qui
+**PROPOSED_FR:** Qui
+**Problēma:** Learner-facing field uses a bullet and repeats the same translation; owner decision is required.
+**LV etalons (konteksts):** kas • kurš
+**DE konteksts:** wer
 **Smagums:** LOW
-**Kategorija:** STRUCTURE
-**Avots:** gpt-5.6-luna
-**Klasifikācija:** VALIDATED_REAL_FINDING
-**Statuss:** PENDING
-#### FR-A1-0439
-**Card ID:** a1-essen-study
-**Field:** study.translation
-**CURRENT:** Alimentation • Repas
-**PROPOSED_FR:** Nourriture
-**Problēma:** Le champ learner-facing présente deux sens distincts séparés par une puce; une décision éditoriale est nécessaire.
-**LV etalons (konteksts):** ēdiens • maltīte
-**DE konteksts:** Essen
-**Smagums:** MEDIUM
 **Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
-#### FR-A1-0445
-**Card ID:** a1-einmal
+#### FR-A1-0438
+**Card ID:** a1-wie
 **Field:** study.translation
-**CURRENT:** Une fois • Une fois
-**PROPOSED_FR:** Une fois
-**Problēma:** La traduction française est répétée deux fois dans le même champ.
-**LV etalons (konteksts):** vienreiz • reiz
-**DE konteksts:** einmal
+**CURRENT:** Comment • Combien
+**PROPOSED_FR:** Comment ou combien
+**Problēma:** Learner-facing field uses a bullet to separate distinct translations; owner decision is required.
+**LV etalons (konteksts):** kā • cik
+**DE konteksts:** wie
 **Smagums:** LOW
-**Kategorija:** STRUCTURE
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0439
+**Card ID:** a1-zu
+**Field:** study.translation
+**CURRENT:** À • À
+**PROPOSED_FR:** À ou chez
+**Problēma:** Learner-facing field uses a bullet and presents duplicate French translations; owner decision is required.
+**LV etalons (konteksts):** uz • pie
+**DE konteksts:** zu
+**Smagums:** LOW
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
+**Avots:** gpt-5.6-luna
+**Klasifikācija:** VALIDATED_REAL_FINDING
+**Statuss:** PENDING
+#### FR-A1-0441
+**Card ID:** a1-essen-study
+**Field:** study.translation
+**CURRENT:** Alimentation • Repas
+**PROPOSED_FR:** Repas
+**Problēma:** Le champ learner-facing contient plusieurs traductions séparées par • ; une décision de propriétaire est requise.
+**LV etalons (konteksts):** ēdiens • maltīte
+**DE konteksts:** Essen
+**Smagums:** MEDIUM
+**Kategorija:** MULTIPLE_TRANSLATIONS_DETECTED
 **Avots:** gpt-5.6-luna
 **Klasifikācija:** VALIDATED_REAL_FINDING
 **Statuss:** PENDING
