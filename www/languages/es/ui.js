@@ -259,7 +259,7 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "exerciseMeta": {
       "fillCase": "Ejercicio I — Usa la conjugación correcta",
-      "chooseCasePlural": "¡Pon la conjugación correcta y hazlo en plural!",
+      "chooseCasePlural": "¡Escribe la forma conjugada correcta y ponla en plural!",
       "answerPlural": "Ahora responde en plural.",
       "translate": "Ejercicio II — Traducir",
       "formDu": "Forma 1/3: du (singular)",
