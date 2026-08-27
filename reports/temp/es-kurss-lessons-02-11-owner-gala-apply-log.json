@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-27T10:08:00.807Z",
+  "generatedAt": "2026-08-27T10:25:42.620Z",
   "baseSha": "0fe660d136136dd2d3a689f8c71b55242f9f5610",
   "applyHead": "0fe660d136136dd2d3a689f8c71b55242f9f5610",
   "requestedLabot": 154,
-  "processed": 154,
-  "appliedVerified": 154,
+  "processed": 151,
+  "appliedVerified": 151,
   "currentMismatch": 0,
   "failed": 0,
   "perLessonVerified": {
@@ -14,10 +14,10 @@
     "5": 10,
     "6": 14,
     "7": 11,
-    "8": 14,
-    "9": 23,
-    "10": 7,
-    "11": 20
+    "8": 13,
+    "9": 22,
+    "10": 6,
+    "11": 19
   },
   "nelabotTotal": 217,
   "nelabotUnchanged": 217,
@@ -1049,10 +1049,19 @@
       "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.chooseCasePlural",
       "path": "kurss.exerciseMeta.chooseCasePlural",
       "current": "¡Pon la conjugación correcta y hazlo en plural!",
-      "new": "¡Usa la forma correcta y forma el plural!",
+      "new": "¡Pon la palabra en el caso correcto y forma el plural!",
       "status": "LABOT",
       "lessonNumber": 8,
-      "result": "APPLIED_VERIFIED"
+      "result": "APPLIED_VERIFIED",
+      "scope": "SHARED_UI",
+      "sourceOwnerIds": [
+        "ES-KURSS-LESSONS-LV2-0308",
+        "ES-KURSS-LESSONS-LV2-0344",
+        "ES-KURSS-LESSONS-LV2-0358",
+        "ES-KURSS-LESSONS-LV2-0424"
+      ],
+      "microRepairApplied": true,
+      "microRepairFrom": "¡Escribe la forma conjugada correcta y ponla en plural!"
     },
     {
       "id": "ES-KURSS-LESSONS-LV2-0294",
@@ -1316,7 +1325,8 @@
       "new": "¡Usa la conjugación correcta y pon la frase en plural!",
       "status": "LABOT",
       "lessonNumber": 9,
-      "result": "APPLIED_VERIFIED"
+      "result": "SUPERSEDED_SHARED_TARGET",
+      "supersededBy": "ES-KURSS-LESSONS-LV2-0308"
     },
     {
       "id": "ES-KURSS-LESSONS-LV2-0340",
@@ -1470,7 +1480,8 @@
       "new": "¡Usa la conjugación correcta y transforma la frase al plural!",
       "status": "LABOT",
       "lessonNumber": 10,
-      "result": "APPLIED_VERIFIED"
+      "result": "SUPERSEDED_SHARED_TARGET",
+      "supersededBy": "ES-KURSS-LESSONS-LV2-0308"
     },
     {
       "id": "ES-KURSS-LESSONS-LV2-0351",
@@ -1635,7 +1646,8 @@
       "new": "¡Escribe la forma conjugada correcta y ponla en plural!",
       "status": "LABOT",
       "lessonNumber": 11,
-      "result": "APPLIED_VERIFIED"
+      "result": "SUPERSEDED_SHARED_TARGET",
+      "supersededBy": "ES-KURSS-LESSONS-LV2-0308"
     },
     {
       "id": "ES-KURSS-LESSONS-LV2-0421",
@@ -1733,5 +1745,18 @@
   "mirror": "PASS",
   "syntax": "PASS",
   "htmlStructure": "PASS",
-  "pass": true
+  "pass": true,
+  "microRepair": {
+    "type": "SHARED_UI_CONFLICT",
+    "commitNote": "PR #680 shared UI micro-repair",
+    "prCurrentBeforeRepair": "¡Escribe la forma conjugada correcta y ponla en plural!",
+    "canonicalNew": "¡Pon la palabra en el caso correcto y forma el plural!",
+    "currentValueMismatch": 0,
+    "sharedUiCanonicalPass": true
+  },
+  "sourceOwnerLabot": 154,
+  "duplicateSharedSuperseded": 3,
+  "uniqueProductionTargets": 151,
+  "uniqueTargetsProcessed": 151,
+  "sharedUiCanonicalVerified": 1
 }
