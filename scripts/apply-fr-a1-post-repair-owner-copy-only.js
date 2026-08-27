@@ -2,7 +2,7 @@
 "use strict";
 /**
  * FR–DE A1 POST-REPAIR OWNER — COPY-ONLY micro-repair apply.
- * Usage: node scripts/apply-fr-a1-post-repair-owner-copy-only.js [--dry-run] [--cycle=1|2|3]
+ * Usage: node scripts/apply-fr-a1-post-repair-owner-copy-only.js [--dry-run] [--cycle=1|2|3|4]
  */
 const fs = require("fs");
 const path = require("path");
@@ -33,6 +33,14 @@ const CYCLE_CFG = {
     reportMd: "fr-a1-post-repair-owner-copy-only-apply-report-cycle3.md",
     reportJson: "fr-a1-post-repair-owner-copy-only-apply-report-cycle3.json",
     expected: { rows: 40, labot: 36, falsePositive: 4, needsSourceReview: 0 },
+    skipLabot: new Set(),
+    allowRebase: false,
+  },
+  "4": {
+    authFile: "fr-a1-post-repair-owner-decisions-cycle4-filled.md",
+    reportMd: "fr-a1-post-repair-owner-copy-only-apply-report-cycle4.md",
+    reportJson: "fr-a1-post-repair-owner-copy-only-apply-report-cycle4.json",
+    expected: { rows: 22, labot: 18, falsePositive: 4, needsSourceReview: 0 },
     skipLabot: new Set(),
     allowRebase: false,
   },

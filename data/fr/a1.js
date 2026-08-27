@@ -478,7 +478,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ab",
-          "meaning": "À partir du point/heure",
+          "meaning": "À partir d'un point ou d'une heure",
           "example": "ab Montag – A partir de lundi"
         },
         {
@@ -1200,7 +1200,7 @@ const A1_WORDS = [
   },
   {
     "de": "auf",
-    "lv": "À",
+    "lv": "Sur",
     "level": "A1",
     "study": {
       "id": "a1-auf",
@@ -1239,7 +1239,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Rappelez-vous : en surface/au-dessus → auf."
+        "text": "À retenir : sur une surface ou au-dessus → auf."
       },
       "sectionAccents": {
         "examples": [
@@ -6496,7 +6496,7 @@ const A1_WORDS = [
   },
   {
     "de": "frühstücken",
-    "lv": "Prendre le petit déjeuner",
+    "lv": "Prendre le petit-déjeuner",
     "level": "A1"
   },
   {
@@ -8427,7 +8427,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Quel est ton nom"
+          "lv": "Quel est ton nom ?"
         },
         {
           "de": "Wie heißt das auf Deutsch?",
@@ -8435,7 +8435,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was heißt das?",
-          "lv": "Qu'est-ce que cela signifie"
+          "lv": "Qu'est-ce que cela signifie ?"
         }
       ],
       "comparison": [
@@ -8446,7 +8446,7 @@ const A1_WORDS = [
         },
         {
           "word": "nennen",
-          "meaning": "Appeler / nommer",
+          "meaning": "Appeler ou nommer",
           "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
         },
         {
@@ -8843,7 +8843,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich höre dich.",
-          "lv": "Je t'entends"
+          "lv": "Je t'entends."
         }
       ],
       "tip": [
@@ -9148,7 +9148,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin im Park.",
-          "lv": "Je suis dans le parc"
+          "lv": "Je suis dans le parc."
         },
         {
           "de": "Wir wohnen im Zentrum.",
@@ -9448,11 +9448,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin in Berlin.",
-          "lv": "Je suis à Berlin"
+          "lv": "Je suis à Berlin."
         },
         {
           "de": "Ich gehe in die Schule.",
-          "lv": "Je vais à l'école"
+          "lv": "Je vais à l'école."
         },
         {
           "de": "Das Buch ist in der Tasche.",
@@ -9913,7 +9913,7 @@ const A1_WORDS = [
   },
   {
     "de": "jung",
-    "lv": "Jeune (à propos des gens)",
+    "lv": "Jeune",
     "level": "A1",
     "study": {
       "id": "a1-jung",
@@ -10308,7 +10308,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich kenne ihn.",
-          "lv": "Je le connais"
+          "lv": "Je le connais."
         },
         {
           "de": "kennen",
@@ -13799,7 +13799,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "Je pars en bus"
+          "lv": "Je pars en bus."
         },
         {
           "de": "Sie schreibt mit dem Stift.",
@@ -14422,7 +14422,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Guten Morgen!",
-          "lv": "Bonjour!"
+          "lv": "Bonjour !"
         },
         {
           "de": "Bis morgen!",
@@ -14438,7 +14438,7 @@ const A1_WORDS = [
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Bonjour!"
+          "lv": "Bonjour !"
         },
         {
           "de": "Der Morgen ist schön.",
@@ -19131,7 +19131,7 @@ const A1_WORDS = [
   },
   {
     "de": "sitzen",
-    "lv": "S'asseoir",
+    "lv": "Être assis",
     "level": "A1",
     "study": {
       "id": "a1-sitzen",
@@ -23217,7 +23217,7 @@ const A1_WORDS = [
         },
         {
           "de": "Der Bus kommt später.",
-          "lv": "Le bus arrive plus tard."
+          "lv": "Le train arrive plus tard."
         }
       ],
       "comparison": [
