@@ -1,3 +1,3 @@
 files:
-  - source: /languages/lv/ui.js
-    translation: /languages/%two_letters_code%/ui.js
+  - source: /crowdin/ui/lv.json
+    translation: /crowdin/ui/%two_letters_code%.json
