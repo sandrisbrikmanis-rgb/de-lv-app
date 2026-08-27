@@ -103,6 +103,12 @@ const HOOKS = {
     github: "reports/da-kurss-owner-review-final-post-repair-GITHUB.md",
     readme: "reports/da-kurss-owner-review-final-post-repair-README.md",
   },
+  "fr-a1-post-repair": {
+    label: "FR–DE A1 post-repair audit (PR #683)",
+    scripts: ["build-fr-a1-post-repair-owner-review.js"],
+    github: "reports/fr-a1-post-repair-owner-review-GITHUB.md",
+    readme: "reports/fr-a1-post-repair-owner-review-README.md",
+  },
 };
 
 function skipOwnerReview(argv = process.argv.slice(2)) {
