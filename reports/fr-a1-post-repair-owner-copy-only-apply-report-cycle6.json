@@ -1,0 +1,91 @@
+{
+  "baseSha": "8a6d23246181bf7aa4f1e49bbc59ed0c5bb347ac",
+  "headSha": "8a6d23246181bf7aa4f1e49bbc59ed0c5bb347ac",
+  "dryRun": false,
+  "blockers": [],
+  "mismatches": [],
+  "failed": [],
+  "applied": [
+    {
+      "num": 1,
+      "auditId": "FR-A1-0272",
+      "cardId": "a1-können",
+      "field": "study.sectionAccents (examples)",
+      "current": "Pouvez",
+      "status": "LABOT",
+      "ownerNew": "REMOVE_STALE_ACCENT_TERM: Pouvez",
+      "note": "OWNER precizēts pēc faktiskā DE piemēra un FR konteksta.",
+      "entryIndex": 319,
+      "result": "ALREADY_ABSENT",
+      "removeTerm": "Pouvez",
+      "beforePaths": []
+    },
+    {
+      "num": 2,
+      "auditId": "FR-A1-0337",
+      "cardId": "a1-also",
+      "field": "study.examples[0].lv",
+      "current": "Il pleut donc je reste à la maison.",
+      "status": "LABOT",
+      "ownerNew": "Il pleut, donc je reste à la maison.",
+      "note": "Audita ieteikums pārbaudīts pret DE, LV etalonu un FR kontekstu; OWNER apstiprināts.",
+      "entryIndex": 26,
+      "result": "APPLIED_VERIFIED"
+    },
+    {
+      "num": 3,
+      "auditId": "FR-A1-0338",
+      "cardId": "a1-also",
+      "field": "study.examples[1].lv",
+      "current": "Vous êtes malade alors n'allez pas travailler.",
+      "status": "LABOT",
+      "ownerNew": "Tu es malade, alors ne va pas travailler.",
+      "note": "Audita ieteikums pārbaudīts pret DE, LV etalonu un FR kontekstu; OWNER apstiprināts.",
+      "entryIndex": 26,
+      "result": "APPLIED_VERIFIED"
+    },
+    {
+      "num": 4,
+      "auditId": "FR-A1-0352",
+      "cardId": "a1-bleiben",
+      "field": "study.examples[0].lv",
+      "current": "Je reste à la maison",
+      "status": "LABOT",
+      "ownerNew": "Je reste à la maison.",
+      "note": "Audita ieteikums pārbaudīts pret DE, LV etalonu un FR kontekstu; OWNER apstiprināts.",
+      "entryIndex": 101,
+      "result": "APPLIED_VERIFIED"
+    },
+    {
+      "num": 6,
+      "auditId": "FR-A1-0376",
+      "cardId": "a1-gut-study",
+      "field": "study.examples[3].lv",
+      "current": "Bonjour!",
+      "status": "LABOT",
+      "ownerNew": "Bonjour !",
+      "note": "OWNER precizēts pēc faktiskā DE piemēra un FR konteksta.",
+      "entryIndex": 259,
+      "result": "APPLIED_VERIFIED"
+    }
+  ],
+  "skipped": [],
+  "summary": {
+    "ownerRows": 6,
+    "labotRequested": 5,
+    "falsePositive": 1,
+    "needsSourceReview": 0,
+    "skippedConflict": 0,
+    "appliedVerified": 5,
+    "labotAppliedTarget": 5,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "deChanges": 0,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "frStudyCount": 134,
+    "lvStudyCount": 134,
+    "studyParityPass": true,
+    "finalVerdict": "FR–DE A1 POST-REPAIR COPY-ONLY APPLY — PASS"
+  }
+}

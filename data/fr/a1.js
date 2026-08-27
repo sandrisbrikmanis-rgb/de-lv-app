@@ -832,11 +832,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Es regnet, also bleibe ich zu Hause.",
-          "lv": "Il pleut donc je reste à la maison."
+          "lv": "Il pleut, donc je reste à la maison."
         },
         {
           "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "Vous êtes malade alors n'allez pas travailler."
+          "lv": "Tu es malade, alors ne va pas travailler."
         },
         {
           "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
@@ -2947,7 +2947,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bleibe zu Hause.",
-          "lv": "Je reste à la maison"
+          "lv": "Je reste à la maison."
         },
         {
           "de": "Bleib hier!",
@@ -7703,7 +7703,7 @@ const A1_WORDS = [
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Bonjour!"
+          "lv": "Bonjour !"
         },
         {
           "de": "Das ist eine gute Idee.",
