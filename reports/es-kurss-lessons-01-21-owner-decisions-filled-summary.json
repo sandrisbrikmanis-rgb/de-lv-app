@@ -1,0 +1,341 @@
+{
+  "sourceMain": "8667069a3e04581be529b9c8bfda832647e90930",
+  "aggregateAuthority": "reports/es-kurss-lessons-owner-decisions-filled.json",
+  "aggregateGeneratedAt": "2026-08-27T07:29:30.006Z",
+  "lessonCount": 21,
+  "totalDecisions": 993,
+  "aggregateSummary": {
+    "total": 993,
+    "linguistic": 986,
+    "technical": 7,
+    "labot": 520,
+    "nelabot": 218,
+    "falsePositive": 248,
+    "technicalDefer": 7,
+    "labotMissingNew": 0,
+    "comparison": {
+      "newInV2": 210,
+      "reEvaluated": 272,
+      "unchanged": 511
+    },
+    "labotSameAsCurrent": 0
+  },
+  "files": [
+    {
+      "lessonNumber": 1,
+      "jsonPath": "reports/es-kurss-lesson-01-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-01-owner-decisions-filled.md",
+      "decisionCount": 45,
+      "targetCount": 44,
+      "summary": {
+        "total": 45,
+        "labot": 30,
+        "nelabot": 7,
+        "falsePositive": 7,
+        "technicalDefer": 1,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 2,
+      "jsonPath": "reports/es-kurss-lesson-02-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-02-owner-decisions-filled.md",
+      "decisionCount": 27,
+      "targetCount": 26,
+      "summary": {
+        "total": 27,
+        "labot": 22,
+        "nelabot": 1,
+        "falsePositive": 3,
+        "technicalDefer": 1,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 3,
+      "jsonPath": "reports/es-kurss-lesson-03-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-03-owner-decisions-filled.md",
+      "decisionCount": 70,
+      "targetCount": 69,
+      "summary": {
+        "total": 70,
+        "labot": 54,
+        "nelabot": 3,
+        "falsePositive": 12,
+        "technicalDefer": 1,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 4,
+      "jsonPath": "reports/es-kurss-lesson-04-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-04-owner-decisions-filled.md",
+      "decisionCount": 64,
+      "targetCount": 63,
+      "summary": {
+        "total": 64,
+        "labot": 44,
+        "nelabot": 5,
+        "falsePositive": 14,
+        "technicalDefer": 1,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 5,
+      "jsonPath": "reports/es-kurss-lesson-05-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-05-owner-decisions-filled.md",
+      "decisionCount": 32,
+      "targetCount": 31,
+      "summary": {
+        "total": 32,
+        "labot": 19,
+        "nelabot": 8,
+        "falsePositive": 4,
+        "technicalDefer": 1,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 6,
+      "jsonPath": "reports/es-kurss-lesson-06-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-06-owner-decisions-filled.md",
+      "decisionCount": 55,
+      "targetCount": 54,
+      "summary": {
+        "total": 55,
+        "labot": 40,
+        "nelabot": 9,
+        "falsePositive": 5,
+        "technicalDefer": 1,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 7,
+      "jsonPath": "reports/es-kurss-lesson-07-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-07-owner-decisions-filled.md",
+      "decisionCount": 46,
+      "targetCount": 45,
+      "summary": {
+        "total": 46,
+        "labot": 34,
+        "nelabot": 9,
+        "falsePositive": 2,
+        "technicalDefer": 1,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 8,
+      "jsonPath": "reports/es-kurss-lesson-08-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-08-owner-decisions-filled.md",
+      "decisionCount": 37,
+      "targetCount": 37,
+      "summary": {
+        "total": 37,
+        "labot": 14,
+        "nelabot": 15,
+        "falsePositive": 8,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 9,
+      "jsonPath": "reports/es-kurss-lesson-09-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-09-owner-decisions-filled.md",
+      "decisionCount": 47,
+      "targetCount": 47,
+      "summary": {
+        "total": 47,
+        "labot": 23,
+        "nelabot": 13,
+        "falsePositive": 11,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 10,
+      "jsonPath": "reports/es-kurss-lesson-10-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-10-owner-decisions-filled.md",
+      "decisionCount": 24,
+      "targetCount": 24,
+      "summary": {
+        "total": 24,
+        "labot": 7,
+        "nelabot": 13,
+        "falsePositive": 4,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 11,
+      "jsonPath": "reports/es-kurss-lesson-11-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-11-owner-decisions-filled.md",
+      "decisionCount": 83,
+      "targetCount": 83,
+      "summary": {
+        "total": 83,
+        "labot": 20,
+        "nelabot": 18,
+        "falsePositive": 45,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 12,
+      "jsonPath": "reports/es-kurss-lesson-12-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-12-owner-decisions-filled.md",
+      "decisionCount": 35,
+      "targetCount": 35,
+      "summary": {
+        "total": 35,
+        "labot": 16,
+        "nelabot": 9,
+        "falsePositive": 10,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 13,
+      "jsonPath": "reports/es-kurss-lesson-13-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-13-owner-decisions-filled.md",
+      "decisionCount": 81,
+      "targetCount": 81,
+      "summary": {
+        "total": 81,
+        "labot": 36,
+        "nelabot": 6,
+        "falsePositive": 39,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 14,
+      "jsonPath": "reports/es-kurss-lesson-14-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-14-owner-decisions-filled.md",
+      "decisionCount": 65,
+      "targetCount": 65,
+      "summary": {
+        "total": 65,
+        "labot": 24,
+        "nelabot": 23,
+        "falsePositive": 18,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 15,
+      "jsonPath": "reports/es-kurss-lesson-15-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-15-owner-decisions-filled.md",
+      "decisionCount": 34,
+      "targetCount": 34,
+      "summary": {
+        "total": 34,
+        "labot": 17,
+        "nelabot": 14,
+        "falsePositive": 3,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 16,
+      "jsonPath": "reports/es-kurss-lesson-16-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-16-owner-decisions-filled.md",
+      "decisionCount": 51,
+      "targetCount": 51,
+      "summary": {
+        "total": 51,
+        "labot": 37,
+        "nelabot": 11,
+        "falsePositive": 3,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 17,
+      "jsonPath": "reports/es-kurss-lesson-17-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-17-owner-decisions-filled.md",
+      "decisionCount": 31,
+      "targetCount": 31,
+      "summary": {
+        "total": 31,
+        "labot": 14,
+        "nelabot": 14,
+        "falsePositive": 3,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 18,
+      "jsonPath": "reports/es-kurss-lesson-18-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-18-owner-decisions-filled.md",
+      "decisionCount": 42,
+      "targetCount": 42,
+      "summary": {
+        "total": 42,
+        "labot": 19,
+        "nelabot": 11,
+        "falsePositive": 12,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 19,
+      "jsonPath": "reports/es-kurss-lesson-19-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-19-owner-decisions-filled.md",
+      "decisionCount": 43,
+      "targetCount": 43,
+      "summary": {
+        "total": 43,
+        "labot": 17,
+        "nelabot": 8,
+        "falsePositive": 18,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 20,
+      "jsonPath": "reports/es-kurss-lesson-20-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-20-owner-decisions-filled.md",
+      "decisionCount": 53,
+      "targetCount": 53,
+      "summary": {
+        "total": 53,
+        "labot": 20,
+        "nelabot": 10,
+        "falsePositive": 23,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    },
+    {
+      "lessonNumber": 21,
+      "jsonPath": "reports/es-kurss-lesson-21-owner-decisions-filled.json",
+      "mdPath": "reports/es-kurss-lesson-21-owner-decisions-filled.md",
+      "decisionCount": 28,
+      "targetCount": 28,
+      "summary": {
+        "total": 28,
+        "labot": 13,
+        "nelabot": 11,
+        "falsePositive": 4,
+        "technicalDefer": 0,
+        "labotMissingNew": 0
+      }
+    }
+  ],
+  "status": "OWNER_FILLED_PER_LESSON"
+}
