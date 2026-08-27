@@ -2,7 +2,7 @@
 "use strict";
 /**
  * FR–DE A1 POST-REPAIR OWNER — COPY-ONLY micro-repair apply.
- * Usage: node scripts/apply-fr-a1-post-repair-owner-copy-only.js [--dry-run] [--cycle=1|2]
+ * Usage: node scripts/apply-fr-a1-post-repair-owner-copy-only.js [--dry-run] [--cycle=1|2|3]
  */
 const fs = require("fs");
 const path = require("path");
@@ -28,6 +28,14 @@ const CYCLE_CFG = {
     skipLabot: new Set(),
     allowRebase: false,
   },
+  "3": {
+    authFile: "fr-a1-post-repair-owner-decisions-cycle3-filled.md",
+    reportMd: "fr-a1-post-repair-owner-copy-only-apply-report-cycle3.md",
+    reportJson: "fr-a1-post-repair-owner-copy-only-apply-report-cycle3.json",
+    expected: { rows: 40, labot: 36, falsePositive: 4, needsSourceReview: 0 },
+    skipLabot: new Set(),
+    allowRebase: false,
+  },
 };
 const CFG = CYCLE_CFG[CYCLE] || CYCLE_CFG["1"];
 
@@ -43,6 +51,7 @@ const ALLOW_REBASE = CFG.allowRebase;
 
 const CARD_ALIASES = {
   "a1-klein": "a1-klein-study",
+  "a1-auch": "a1-auch-study",
 };
 
 function splitMdRow(line) {
@@ -76,10 +85,25 @@ function parsePath(fieldPath) {
 }
 
 function parseFilledTable(text) {
+  const extended = /OWNER mērķa Card ID/i.test(text);
   const rows = [];
   for (const line of text.split("\n")) {
     if (!line.startsWith("|") || line.includes("Audit ID") || /^\|[-:\s|]+\|$/.test(line)) continue;
     const p = splitMdRow(line);
+    if (extended) {
+      if (p.length < 9) continue;
+      rows.push({
+        num: Number(p[0]),
+        auditId: p[1],
+        cardId: normalizeCardId(p[3]),
+        field: p[4],
+        current: p[5].replace(/\*\*/g, ""),
+        status: p[6].replace(/\*\*/g, "").toUpperCase(),
+        ownerNew: p[7].replace(/\*\*/g, ""),
+        note: p[8] || "",
+      });
+      continue;
+    }
     if (p.length < 8) continue;
     rows.push({
       num: Number(p[0]),

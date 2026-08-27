@@ -951,9 +951,7 @@ const A1_WORDS = [
         ],
         "tip": {
           "left": {
-            "green": [
-              "Rappelez"
-            ],
+            "green": [],
             "purple": [
               "conclusion"
             ]
@@ -2972,12 +2970,12 @@ const A1_WORDS = [
         },
         {
           "word": "gehen",
-          "meaning": "Aller/partir à pied",
+          "meaning": "Aller ou partir à pied",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "fahren",
-          "meaning": "Conduire / partir en transport",
+          "meaning": "Conduire ou partir en transport",
           "example": "Ich fahre nach Hause."
         },
         {
@@ -5664,7 +5662,7 @@ const A1_WORDS = [
         },
         {
           "word": "mitnehmen",
-          "meaning": "Emportez avec vous",
+          "meaning": "Emporter avec soi",
           "example": "Ich nehme dich mit."
         }
       ],
@@ -6828,11 +6826,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Gib mir bitte das Buch.",
-          "lv": "Donne-moi le livre s'il te plaît"
+          "lv": "Donne-moi le livre, s'il te plaît."
         },
         {
           "de": "Ich gebe dir meine Nummer.",
-          "lv": "Je te donne mon numéro"
+          "lv": "Je te donne mon numéro."
         },
         {
           "de": "Ich nehme das Buch.",
@@ -6866,7 +6864,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Rappelez-vous : donner → geben • Prends pour toi → nehmen."
+        "text": "Rappelez-vous : donner → geben ; prendre pour soi → nehmen."
       },
       "important": [
         "Geben et nehmen sont des directions opposées.",
@@ -9194,12 +9192,12 @@ const A1_WORDS = [
         },
         {
           "word": "in",
-          "meaning": "Dans / vers (pas d'article)",
+          "meaning": "Dans ou vers, sans article",
           "example": "in Berlin – À Berlin"
         },
         {
           "word": "am",
-          "meaning": "A, où ? (à qui ?)",
+          "meaning": "À, où ? (à qui ?)",
           "example": "am Fenster – A la fenêtre"
         },
         {
@@ -9635,7 +9633,7 @@ const A1_WORDS = [
         },
         {
           "word": "in",
-          "meaning": "In / to (avec article indépendant)",
+          "meaning": "Dans ou vers, avec article indépendant",
           "example": "in die Stadt – À la ville"
         },
         {
@@ -9645,7 +9643,7 @@ const A1_WORDS = [
         },
         {
           "word": "zum",
-          "meaning": "À/chez (qui ?)",
+          "meaning": "À ou chez (qui ?)",
           "example": "zum Arzt – Au médecin"
         }
       ],
@@ -10314,7 +10312,7 @@ const A1_WORDS = [
         },
         {
           "de": "kennen",
-          "lv": "Connaître ; savoir"
+          "lv": "Connaître"
         }
       ],
       "comparison": [
@@ -11805,7 +11803,7 @@ const A1_WORDS = [
         },
         {
           "de": "Lass mich in Ruhe!",
-          "lv": "Laisse-moi tranquille!"
+          "lv": "Laisse-moi tranquille !"
         }
       ],
       "comparison": [
@@ -12032,7 +12030,7 @@ const A1_WORDS = [
         },
         {
           "word": "fahren",
-          "meaning": "Prendre le transport",
+          "meaning": "Prendre les transports",
           "example": "Ich fahre mit dem Bus."
         },
         {
@@ -14611,7 +14609,7 @@ const A1_WORDS = [
         },
         {
           "word": "wollen",
-          "meaning": "Je veux",
+          "meaning": "Vouloir",
           "example": "Ich will nach Hause."
         },
         {
@@ -15239,11 +15237,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bringe dir das Buch.",
-          "lv": "Je t'ai apporté un livre"
+          "lv": "Je t'ai apporté un livre."
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "Je t'emmènerai"
+          "lv": "Je t'emmènerai."
         }
       ],
       "comparison": [
@@ -15264,7 +15262,7 @@ const A1_WORDS = [
         },
         {
           "word": "mitnehmen",
-          "meaning": "Emportez avec vous",
+          "meaning": "Emporter avec soi",
           "example": "Ich nehme dich mit."
         }
       ],
@@ -17100,7 +17098,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Souvenez-vous : der Reis est au singulier en allemand, mais on dit généralement rīsi en letton."
+        "text": "Souvenez-vous : der Reis est au singulier en allemand, mais on dit généralement « riz » en français."
       },
       "important": [
         "Der Reis - en allemand uniquement au singulier (Der Reis ist..., nicht *sind).",
@@ -19430,7 +19428,7 @@ const A1_WORDS = [
         },
         {
           "word": "wollen",
-          "meaning": "Je veux",
+          "meaning": "Vouloir",
           "example": "Ich will bleiben."
         }
       ],
@@ -20007,7 +20005,7 @@ const A1_WORDS = [
   },
   {
     "de": "telefonieren",
-    "lv": "Appeler au téléphone",
+    "lv": "Téléphoner",
     "level": "A1"
   },
   {
@@ -20858,7 +20856,7 @@ const A1_WORDS = [
         },
         {
           "word": "können",
-          "meaning": "Pouvoir/savoir",
+          "meaning": "Pouvoir ou savoir",
           "example": "Ich kann schwimmen."
         },
         {
@@ -21150,7 +21148,7 @@ const A1_WORDS = [
         },
         {
           "word": "von",
-          "meaning": "De (général)",
+          "meaning": "De (en général)",
           "example": "von mir – De moi"
         },
         {
@@ -21428,12 +21426,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "vor",
-          "meaning": "Avant / devant",
+          "meaning": "Avant ou devant",
           "example": "Vor dem Essen..."
         },
         {
           "word": "nach",
-          "meaning": "Après / à",
+          "meaning": "Après ou à",
           "example": "Nach dem Essen..."
         },
         {
@@ -21930,7 +21928,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "wenn",
-          "meaning": "Si/quand",
+          "meaning": "Si ou quand",
           "example": "Wenn du Zeit hast..."
         },
         {
@@ -22123,7 +22121,7 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "Qui • Qui",
+    "lv": "Qui",
     "level": "A1",
     "study": {
       "id": "a1-wer",
@@ -22144,7 +22142,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wer bist du?",
-          "lv": "Qui es-tu"
+          "lv": "Qui es-tu ?"
         },
         {
           "de": "Wer kommt heute?",
@@ -22152,7 +22150,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wer ist deine Lehrerin?",
-          "lv": "Qui est ton professeur"
+          "lv": "Qui est ton professeur ?"
         },
         {
           "de": "Wer von euch spricht Deutsch?",
@@ -22357,7 +22355,7 @@ const A1_WORDS = [
         },
         {
           "word": "machen",
-          "meaning": "Faire/faire",
+          "meaning": "Faire / fabriquer",
           "example": "Ich mache das."
         }
       ],
@@ -22770,7 +22768,7 @@ const A1_WORDS = [
   },
   {
     "de": "wie",
-    "lv": "Comment • Combien",
+    "lv": "Comment",
     "level": "A1",
     "study": {
       "id": "a1-wie",
@@ -23430,7 +23428,7 @@ const A1_WORDS = [
         },
         {
           "de": "Komm zum Essen!",
-          "lv": "Venez manger !"
+          "lv": "Viens manger !"
         },
         {
           "de": "Er fährt zum Flughafen.",
