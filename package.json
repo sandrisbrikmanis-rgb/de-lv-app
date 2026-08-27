@@ -15,7 +15,10 @@
     "cap:ios": "npx cap open ios",
     "build:release": "powershell -ExecutionPolicy Bypass -File ./scripts/build-release-aab.ps1",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:openai-translate": "node scripts/test-openai-translate.js"
+    "test:openai-translate": "node scripts/test-openai-translate.js",
+    "i18n:ui:export": "node scripts/export-ui-crowdin.js",
+    "i18n:ui:import": "node scripts/import-ui-crowdin.js",
+    "i18n:ui:verify-roundtrip": "node scripts/verify-ui-crowdin-roundtrip.js"
   },
   "keywords": [],
   "author": "",
