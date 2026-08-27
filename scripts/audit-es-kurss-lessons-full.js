@@ -31,8 +31,6 @@ const {
 const REPORT = path.join(ROOT, "reports/es-kurss-lessons-full-audit.md");
 const SUMMARY = path.join(ROOT, "reports/es-kurss-lessons-full-audit-summary.md");
 const JSON_OUT = path.join(ROOT, "reports/temp/es-kurss-lessons-full-audit.json");
-const LUNA_DIR = path.join(ROOT, "reports/temp/es-kurss-lessons-full-audit-luna");
-const PROGRESS = path.join(ROOT, "scripts/.es-kurss-lessons-full-audit-luna-progress.json");
 const BASELINE_REF = process.env.ES_KURSS_BASELINE || "main";
 const MASTER_VERSION = "1.9";
 
@@ -40,7 +38,21 @@ const SKIP_LUNA = process.argv.includes("--skip-luna");
 const EXPORT_ONLY = process.argv.includes("--export-only");
 const RESUME = process.argv.includes("--resume");
 const TEST_LUNA = process.argv.includes("--test-luna");
-const BATCH_SIZE = TEST_LUNA ? 10 : 50;
+const LUNA_V2 = process.argv.includes("--luna-v2");
+const FRESH_LUNA = process.argv.includes("--fresh-luna");
+const ALLOW_SYNTHETIC_PASS = process.argv.includes("--allow-synthetic-pass");
+const BATCH_SIZE = TEST_LUNA ? 10 : LUNA_V2 ? 40 : 50;
+
+const LUNA_DIR = path.join(
+  ROOT,
+  LUNA_V2 ? "reports/temp/es-kurss-lessons-full-audit-luna-v2" : "reports/temp/es-kurss-lessons-full-audit-luna",
+);
+const PROGRESS = path.join(
+  ROOT,
+  LUNA_V2
+    ? "scripts/.es-kurss-lessons-full-audit-luna-v2-progress.json"
+    : "scripts/.es-kurss-lessons-full-audit-luna-progress.json",
+);
 
 const LV_DIAC = /[āēīūģķļņĀĒĪŪĢĶĻŅ]/;
 const LV_WORDS =
@@ -139,14 +151,25 @@ async function runLunaBatches(fields, batchPaths) {
   const progress = loadProgress();
   const completed = new Set(progress.completedBatches || []);
 
+  if (FRESH_LUNA && fs.existsSync(LUNA_DIR)) {
+    for (const f of fs.readdirSync(LUNA_DIR)) {
+      if (f.endsWith("-results.json") || f.endsWith("-findings.json") || f.endsWith("-raw.json")) {
+        fs.unlinkSync(path.join(LUNA_DIR, f));
+      }
+    }
+    completed.clear();
+    saveProgress({ completedBatches: [] });
+  }
+
   for (let i = 0; i < batchPaths.length; i++) {
     const batchPath = batchPaths[i];
     const label = path.basename(batchPath, ".json");
+    const resultsPath = path.join(LUNA_DIR, `${label}-results.json`);
     const findingsPath = path.join(LUNA_DIR, `${label}-findings.json`);
 
-    if (completed.has(label) && fs.existsSync(findingsPath)) {
-      const data = JSON.parse(fs.readFileSync(findingsPath, "utf8"));
-      for (const item of data.findings || []) {
+    if (completed.has(label) && fs.existsSync(resultsPath)) {
+      const data = JSON.parse(fs.readFileSync(resultsPath, "utf8"));
+      for (const item of data.results || []) {
         if (String(item.status || "").toUpperCase() === "PASS") continue;
         const cat = String(item.category || "").toUpperCase();
         if (NON_ERROR_CATEGORIES.has(cat)) continue;
@@ -166,28 +189,49 @@ async function runLunaBatches(fields, batchPaths) {
       structureContext: f.structureContext,
     }));
 
-    try {
-      const { findings } = await auditCardsBatch({
-        cards,
-        stats,
-        batchLabel: label,
-      });
-      fs.writeFileSync(
-        findingsPath,
-        JSON.stringify({ batch: label, findings, generatedAt: new Date().toISOString() }, null, 2),
-      );
-      for (const item of findings) {
-        if (String(item.status || "").toUpperCase() === "PASS") continue;
-        const cat = String(item.category || "").toUpperCase();
-        if (NON_ERROR_CATEGORIES.has(cat)) continue;
-        allFindings.push(item);
+    let attempts = 0;
+    while (attempts < 3) {
+      attempts++;
+      try {
+        const { results, findings } = await auditCardsBatch({
+          cards,
+          stats,
+          batchLabel: label,
+          allowSyntheticPass: ALLOW_SYNTHETIC_PASS && !LUNA_V2,
+          saveRawPath: path.join(LUNA_DIR, `${label}-raw.json`),
+        });
+        fs.writeFileSync(
+          resultsPath,
+          JSON.stringify(
+            {
+              batch: label,
+              inputCount: cards.length,
+              results,
+              generatedAt: new Date().toISOString(),
+            },
+            null,
+            2,
+          ),
+        );
+        fs.writeFileSync(
+          findingsPath,
+          JSON.stringify({ batch: label, findings, generatedAt: new Date().toISOString() }, null, 2),
+        );
+        for (const item of findings) {
+          if (String(item.status || "").toUpperCase() === "PASS") continue;
+          const cat = String(item.category || "").toUpperCase();
+          if (NON_ERROR_CATEGORIES.has(cat)) continue;
+          allFindings.push(item);
+        }
+        completed.add(label);
+        progress.completedBatches = [...completed];
+        saveProgress(progress);
+        break;
+      } catch (err) {
+        console.error(`Luna batch ${label} attempt ${attempts} failed: ${err.message}`);
+        if (attempts >= 3) throw err;
+        await new Promise((r) => setTimeout(r, 4000 * attempts));
       }
-      completed.add(label);
-      progress.completedBatches = [...completed];
-      saveProgress(progress);
-    } catch (err) {
-      console.error(`Luna batch ${label} failed: ${err.message}`);
-      break;
     }
   }
 
@@ -456,6 +500,14 @@ async function main() {
   const detFindings = scanDeterministic(fields);
 
   const fieldMap = new Map(fields.map((f) => [fieldId(f), f]));
+  if (FRESH_LUNA && fs.existsSync(LUNA_DIR)) {
+    for (const f of fs.readdirSync(LUNA_DIR)) {
+      if (f.endsWith("-results.json") || f.endsWith("-findings.json") || f.endsWith("-raw.json")) {
+        fs.unlinkSync(path.join(LUNA_DIR, f));
+      }
+    }
+    saveProgress({ completedBatches: [] });
+  }
   const lunaBatches = exportLunaBatches(fields);
 
   if (EXPORT_ONLY) {

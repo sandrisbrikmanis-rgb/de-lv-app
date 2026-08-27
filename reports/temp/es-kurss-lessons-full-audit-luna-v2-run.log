@@ -1,0 +1,6 @@
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+  luna batch-001: 40 fields, findings=14, pass=26, synthetic=0, tokens=6465
+  luna batch-002: 40 fields, findings=16, pass=24, synthetic=0, tokens=7768
+  luna batch-003: 40 fields, findings=13, pass=27, synthetic=0, tokens=7789
+  luna batch-004: 40 fields, findings=16, pass=24, synthetic=0, tokens=7057

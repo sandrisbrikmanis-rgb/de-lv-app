@@ -18,7 +18,11 @@ const SYSTEM_PROMPT = [
   "MULTIPLE_TRANSLATIONS if learner-facing field has • / ; combining distinct meanings.",
   "Severity: CRITICAL | HIGH | MEDIUM | LOW.",
   "proposedEs = audit recommendation only, NOT OWNER NEW.",
-  "Return JSON { items: [...] } with cardId matching input fieldId.",
+  "Return JSON { items: [...] } with EXACTLY one item per input cardId.",
+  "HARD RULE: every input cardId MUST appear exactly once in items[].",
+  "For correct fields: { cardId, status: \"PASS\", field }.",
+  "For issues: { cardId, status: \"FINDING\", severity, category, currentEs, proposedEs, reason }.",
+  "Do NOT omit cardIds. Do NOT return only findings — PASS entries are mandatory.",
 ].join("\n");
 
 const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
@@ -71,7 +75,7 @@ function normalizeItem(item) {
   };
 }
 
-function parseLunaResponse(raw, cardIds) {
+function parseLunaResponse(raw, cardIds, { allowSyntheticPass = false } = {}) {
   if (!raw || typeof raw !== "string") throw new Error("Luna audit: tukša atbilde.");
   let parsed;
   try {
@@ -87,15 +91,29 @@ function parseLunaResponse(raw, cardIds) {
   for (const item of items) {
     const normalized = normalizeItem(item);
     if (!normalized) continue;
+    if (responded.has(normalized.cardId)) {
+      throw new Error(`Luna audit: duplicate cardId ${normalized.cardId}`);
+    }
     responded.add(normalized.cardId);
     results.push(normalized);
   }
-  for (const cardId of cardIds) {
-    if (!responded.has(cardId)) results.push({ cardId, status: "PASS", field: "" });
+
+  const missing = cardIds.filter((id) => !responded.has(id));
+  if (missing.length && !allowSyntheticPass) {
+    throw new Error(
+      `Luna audit: incomplete response (${responded.size}/${cardIds.length}); missing ${missing.length} cardIds e.g. ${missing.slice(0, 3).join(", ")}`,
+    );
   }
+  if (allowSyntheticPass) {
+    for (const cardId of missing) {
+      results.push({ cardId, status: "PASS", field: "", syntheticPass: true });
+    }
+  }
+
   const findings = results.filter((r) => r.status === "FINDING");
   const passCount = results.filter((r) => r.status === "PASS").length;
-  return { results, findings, passCount };
+  const syntheticPassCount = results.filter((r) => r.syntheticPass).length;
+  return { results, findings, passCount, syntheticPassCount, missing };
 }
 
 async function auditCardsBatch(options) {
@@ -107,6 +125,8 @@ async function auditCardsBatch(options) {
     auditType = "es_kurss_lessons_full",
     dataset = "kurss_lessons_01_21",
     instructions = SYSTEM_PROMPT,
+    allowSyntheticPass = false,
+    saveRawPath = null,
   } = options;
 
   if (!Array.isArray(cards) || cards.length === 0) {
@@ -117,7 +137,7 @@ async function auditCardsBatch(options) {
   const cardIds = cards.map((c) => c.cardId);
   const payload = { auditType, dataset, cards };
   const input = [
-    "Full ES-DE Kurss Lessons audit. Return JSON items array. PASS for correct fields; findings only for real issues.",
+    `Full ES-DE Kurss Lessons audit. Input has ${cards.length} fields. Return JSON items array with EXACTLY ${cards.length} entries — one per cardId. Every cardId must have status PASS or FINDING.`,
     JSON.stringify(payload),
   ].join("\n");
 
@@ -128,7 +148,31 @@ async function auditCardsBatch(options) {
     text: { format: { type: "json_object" } },
   });
 
-  const { results, findings, passCount } = parseLunaResponse(response.output_text, cardIds);
+  if (saveRawPath) {
+    const fs = require("fs");
+    const path = require("path");
+    fs.mkdirSync(path.dirname(saveRawPath), { recursive: true });
+    fs.writeFileSync(
+      saveRawPath,
+      JSON.stringify(
+        {
+          batchLabel,
+          cardIds,
+          outputText: response.output_text,
+          usage: response.usage || null,
+          generatedAt: new Date().toISOString(),
+        },
+        null,
+        2,
+      ),
+    );
+  }
+
+  const { results, findings, passCount, syntheticPassCount } = parseLunaResponse(
+    response.output_text,
+    cardIds,
+    { allowSyntheticPass },
+  );
 
   if (stats) {
     stats.requestCount += 1;
@@ -139,12 +183,12 @@ async function auditCardsBatch(options) {
     addUsage(stats, response.usage);
     if (batchLabel) {
       process.stdout.write(
-        `  luna ${batchLabel}: ${cards.length} fields, findings=${findings.length}, pass=${passCount}, tokens=${response.usage?.total_tokens || 0}\n`,
+        `  luna ${batchLabel}: ${cards.length} fields, findings=${findings.length}, pass=${passCount}, synthetic=${syntheticPassCount || 0}, tokens=${response.usage?.total_tokens || 0}\n`,
       );
     }
   }
 
-  return { results, findings, passCount, usage: response.usage || null };
+  return { results, findings, passCount, syntheticPassCount, usage: response.usage || null };
 }
 
 const NON_ERROR_CATEGORIES = new Set([
