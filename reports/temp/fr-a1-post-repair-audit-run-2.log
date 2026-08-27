@@ -1,0 +1,194 @@
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+
+=== FR–DE A1 POST-REPAIR FULL_DISCOVERY — MASTER v1.12 · PR #683 ===
+
+{
+  "auditMode": "POST_REPAIR_FULL_DISCOVERY",
+  "masterVersion": "1.12",
+  "originMainSha": "a2a769e8600291411a7a66eab0483dd4659c9151",
+  "applyBaseSha": "a2a769e8600291411a7a66eab0483dd4659c9151",
+  "datasetProductionSha": "c191724a8aa642e97b17ff881f7ccfb0b6d5c361",
+  "datasetProductionBlobSha": "c191724a8aa642e97b17ff881f7ccfb0b6d5c361",
+  "wwwDatasetBlobSha": "c191724a8aa642e97b17ff881f7ccfb0b6d5c361",
+  "lastFinalClosureMainSha": null,
+  "lastFinalClosureDatasetBlobSha": null,
+  "unmergedRepairBranchesFound": [],
+  "baselineStatus": "POST_REPAIR_PR683",
+  "ownerHistoryLoaded": "YES (904 entries)",
+  "deReadOnly": "PASS",
+  "blocked": false
+}
+
+$ node scripts/audit-fr-a1-collect.js
+
+Wrote /workspace/reports/temp/fr-a1-audit-data.json
+{
+  "structural": false,
+  "german": false,
+  "technical": true,
+  "lvRemnants": false,
+  "sectionAccents": false,
+  "layerIdentity": true,
+  "mainSummary": {
+    "OK": 29,
+    "WARNING": 673,
+    "ERROR": 0
+  },
+  "counts": {
+    "sectionAccentsIssues": 113,
+    "studyIssues": 1
+  }
+}
+
+$ node --check data/fr/a1.js
+
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+FR A1 Luna audit: 702 entries (568 simple, 134 study)
+  luna simple-001-050: 50 cards, findings=0, pass=50, tokens=4545
+  luna simple-051-100: 50 cards, findings=0, pass=50, tokens=4660
+  luna simple-101-150: 50 cards, findings=0, pass=50, tokens=4351
+  luna simple-151-200: 50 cards, findings=2, pass=48, tokens=5168
+  luna simple-201-250: 50 cards, findings=0, pass=50, tokens=4750
+  luna simple-251-300: 50 cards, findings=0, pass=50, tokens=4315
+  luna simple-301-350: 50 cards, findings=1, pass=49, tokens=4538
+  luna simple-351-400: 50 cards, findings=0, pass=50, tokens=4411
+  luna simple-401-450: 50 cards, findings=0, pass=50, tokens=4332
+  luna simple-451-500: 50 cards, findings=2, pass=48, tokens=4593
+  luna simple-501-550: 50 cards, findings=0, pass=50, tokens=4350
+  luna simple-551-568: 18 cards, findings=0, pass=18, tokens=2004
+  luna study-001-012: 12 cards, findings=22, pass=5, tokens=9850
+  luna study-013-024: 12 cards, findings=6, pass=9, tokens=7911
+  luna study-025-036: 12 cards, findings=10, pass=6, tokens=7748
+  luna study-037-048: 12 cards, findings=6, pass=9, tokens=6598
+  luna study-049-060: 12 cards, findings=19, pass=4, tokens=8623
+  luna study-061-072: 12 cards, findings=17, pass=4, tokens=8673
+  luna study-073-084: 12 cards, findings=21, pass=1, tokens=7775
+  luna study-085-096: 12 cards, findings=11, pass=7, tokens=7770
+  luna study-097-108: 12 cards, findings=17, pass=5, tokens=9762
+  luna study-109-120: 12 cards, findings=28, pass=2, tokens=10061
+  luna study-121-132: 12 cards, findings=10, pass=8, tokens=8660
+  luna study-133-134: 2 cards, findings=1, pass=1, tokens=1276
+{
+  "cardsAudited": 702,
+  "totalCards": 702,
+  "findings": 158,
+  "severity": {
+    "CRITICAL": 0,
+    "HIGH": 44,
+    "MEDIUM": 74,
+    "LOW": 55
+  },
+  "nonError": {},
+  "stats": {
+    "model": "gpt-5.6-luna",
+    "requestCount": 24,
+    "batchCount": 24,
+    "batchSizes": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      18,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      2
+    ],
+    "retryCount": 0,
+    "inputTokens": 86308,
+    "outputTokens": 60416,
+    "totalTokens": 146724,
+    "findingsCount": 173,
+    "passCount": 624
+  }
+}
+
+$ node scripts/build-fr-a1-post-repair-owner-review.js
+
+{
+  "findings": 63,
+  "view": "/workspace/reports/fr-a1-post-repair-owner-view.md",
+  "decisions": "/workspace/reports/fr-a1-post-repair-owner-decisions.md",
+  "readme": "/workspace/reports/fr-a1-post-repair-owner-review-README.md",
+  "github": "/workspace/reports/fr-a1-post-repair-owner-review-GITHUB.md",
+  "groups": 2,
+  "coverage": {
+    "validatedFindings": 63,
+    "ownerViewFindings": 63,
+    "ownerDecisionsFindings": 63,
+    "missingInOwnerView": 0,
+    "extraInOwnerView": 0,
+    "missingInOwnerDecisions": 0,
+    "duplicateAuditIds": 0,
+    "invalidCardOrField": 0,
+    "ownerReviewArtifactCoverage": "100%",
+    "pass": true
+  }
+}
+
+Wrote /workspace/reports/fr-a1-post-repair-audit.md
+
+VERDICT: BLOCKED_OWNER_ARTIFACT_PUBLICATION_FAILED
+{
+  "classification": {
+    "rawLlmCandidates": 158,
+    "deterministicFindings": 385,
+    "validatedRealFindings": 489,
+    "ownerHistoryMatch": 54,
+    "ownerDecisionConfirmed": 54,
+    "ownerDecisionReopenRequired": 1,
+    "repairRegression": 0,
+    "falsePositiveOrStyleOnly": 0,
+    "needsSourceReview": 0,
+    "newValidatedRealFindings": 63
+  },
+  "verdict": "BLOCKED_OWNER_ARTIFACT_PUBLICATION_FAILED"
+}
+
+=== OWNER review pack (FR–DE A1 post-repair audit (PR #683)) ===
+
+
+=== build-fr-a1-post-repair-owner-review.js ===
+
+{
+  "findings": 63,
+  "view": "/workspace/reports/fr-a1-post-repair-owner-view.md",
+  "decisions": "/workspace/reports/fr-a1-post-repair-owner-decisions.md",
+  "readme": "/workspace/reports/fr-a1-post-repair-owner-review-README.md",
+  "github": "/workspace/reports/fr-a1-post-repair-owner-review-GITHUB.md",
+  "groups": 2,
+  "coverage": {
+    "validatedFindings": 63,
+    "ownerViewFindings": 63,
+    "ownerDecisionsFindings": 63,
+    "missingInOwnerView": 0,
+    "extraInOwnerView": 0,
+    "missingInOwnerDecisions": 0,
+    "duplicateAuditIds": 0,
+    "invalidCardOrField": 0,
+    "ownerReviewArtifactCoverage": "100%",
+    "pass": true
+  }
+}
+
+=== OWNER review outputs ===
+
+  reports/fr-a1-post-repair-owner-review-README.md
+  reports/fr-a1-post-repair-owner-review-GITHUB.md
+

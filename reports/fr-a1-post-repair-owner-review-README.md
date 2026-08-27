@@ -13,11 +13,11 @@ Avots: [fr-a1-post-repair-audit.md](https://github.com/sandrisbrikmanis-rgb/de-l
 | Kartītes audited | **702/702** (OBJECT_COVERAGE 100%) |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
 | Study | **134/134** |
-| Kopā findings | **159** |
+| Kopā findings | **63** |
 | CRITICAL | **0** |
-| HIGH | **42** |
-| MEDIUM | **95** |
-| LOW | **22** |
+| HIGH | **11** |
+| MEDIUM | **22** |
+| LOW | **30** |
 
 ## Faili (GitHub)
 
@@ -33,9 +33,7 @@ Avots: [fr-a1-post-repair-audit.md](https://github.com/sandrisbrikmanis-rgb/de-l
 | Findings | VIEW | DECISIONS |
 |----------|------|-----------|
 | 1–50 | [fr-a1-post-repair-owner-view-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group01.md) | [fr-a1-post-repair-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group01.md) |
-| 51–100 | [fr-a1-post-repair-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group02.md) | [fr-a1-post-repair-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group02.md) |
-| 101–150 | [fr-a1-post-repair-owner-view-group03.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group03.md) | [fr-a1-post-repair-owner-decisions-group03.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group03.md) |
-| 151–159 | [fr-a1-post-repair-owner-view-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group04.md) | [fr-a1-post-repair-owner-decisions-group04.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group04.md) |
+| 51–63 | [fr-a1-post-repair-owner-view-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view-group02.md) | [fr-a1-post-repair-owner-decisions-group02.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group02.md) |
 
 ## OWNER workflow
 
