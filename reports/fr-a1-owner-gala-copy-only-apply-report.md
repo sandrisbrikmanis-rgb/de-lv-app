@@ -3,7 +3,7 @@
 **Authority:** `reports/owner-authority/fr-a1-owner-decisions-*-filled.md` (7 files)
 **DE:** STRICT READ-ONLY
 **BASE_SHA:** `a2a769e8600291411a7a66eab0483dd4659c9151`
-**HEAD_SHA:** `c1c41750326d63cf047b9b23b49316aa1536ec36`
+**HEAD_SHA:** `ddfd30f65cf7526d024e5072ab945e15a677f732`
 **Dry run:** no
 
 ## Obligātie vārti
