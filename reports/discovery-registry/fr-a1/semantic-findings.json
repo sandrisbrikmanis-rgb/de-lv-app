@@ -1,0 +1,4352 @@
+{
+  "version": 1,
+  "meta": {
+    "dataset": "fr-a1",
+    "auditRunId": "run-240e1431-2026-08-27",
+    "mainSha": "a2a769e8600291411a7a66eab0483dd4659c9151",
+    "productionBlob": "2ca27679188b52f50c5f4ebb335bac743fc6482c",
+    "masterVersion": "1.12",
+    "model": "gpt-5.6-luna",
+    "updatedAt": "2026-08-27T11:25:32.752Z"
+  },
+  "entries": [
+    {
+      "semanticSignature": "STRUCT|count|study count mismatch lv=134 fr=124",
+      "pathFamilySignature": "STRUCT|count",
+      "dataset": "fr-a1",
+      "cardId": "STRUCT",
+      "fieldFamily": "count",
+      "pedagogicalMeaning": "study count mismatch lv=134 fr=124",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "STRUCT|count|124"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.750Z"
+    },
+    {
+      "semanticSignature": "a1-Besuch-87|study|trūkst study objekta vārdam besuch",
+      "pathFamilySignature": "a1-Besuch-87|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-Besuch-87",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam besuch",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-Besuch-87|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.750Z"
+    },
+    {
+      "semanticSignature": "a1-besuchen-89|study|trūkst study objekta vārdam besuchen",
+      "pathFamilySignature": "a1-besuchen-89|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-besuchen-89",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam besuchen",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-besuchen-89|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.750Z"
+    },
+    {
+      "semanticSignature": "a1-bitte|tip.text|trūkst study.tip.text salīdzinājumā ar lv etalonu",
+      "pathFamilySignature": "a1-bitte|tip.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte",
+      "fieldFamily": "tip.text",
+      "pedagogicalMeaning": "trūkst study.tip.text salīdzinājumā ar lv etalonu",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte|tip.text|(tukšs)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.750Z"
+    },
+    {
+      "semanticSignature": "a1-bitte-study|tip.text|trūkst study.tip.text salīdzinājumā ar lv etalonu",
+      "pathFamilySignature": "a1-bitte-study|tip.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte-study",
+      "fieldFamily": "tip.text",
+      "pedagogicalMeaning": "trūkst study.tip.text salīdzinājumā ar lv etalonu",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte-study|tip.text|(tukšs)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.750Z"
+    },
+    {
+      "semanticSignature": "a1-Fußball-218|study|trūkst study objekta vārdam fußball",
+      "pathFamilySignature": "a1-Fußball-218|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-Fußball-218",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam fußball",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-Fußball-218|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.750Z"
+    },
+    {
+      "semanticSignature": "a1-ganz-219|study|trūkst study objekta vārdam ganz",
+      "pathFamilySignature": "a1-ganz-219|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-ganz-219",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam ganz",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ganz-219|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.750Z"
+    },
+    {
+      "semanticSignature": "a1-gefallen-225|study|trūkst study objekta vārdam gefallen",
+      "pathFamilySignature": "a1-gefallen-225|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-gefallen-225",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam gefallen",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-gefallen-225|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.750Z"
+    },
+    {
+      "semanticSignature": "a1-Geschichte-233|study|trūkst study objekta vārdam geschichte",
+      "pathFamilySignature": "a1-Geschichte-233|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-Geschichte-233",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam geschichte",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-Geschichte-233|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.750Z"
+    },
+    {
+      "semanticSignature": "a1-Geschwister-234|study|trūkst study objekta vārdam geschwister",
+      "pathFamilySignature": "a1-Geschwister-234|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-Geschwister-234",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam geschwister",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-Geschwister-234|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-Großeltern-251|study|trūkst study objekta vārdam großeltern",
+      "pathFamilySignature": "a1-Großeltern-251|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-Großeltern-251",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam großeltern",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-Großeltern-251|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-Hand-267|study|trūkst study objekta vārdam hand",
+      "pathFamilySignature": "a1-Hand-267|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-Hand-267",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam hand",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-Hand-267|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-hübsch-288|study|trūkst study objekta vārdam hübsch",
+      "pathFamilySignature": "a1-hübsch-288|study",
+      "dataset": "fr-a1",
+      "cardId": "a1-hübsch-288",
+      "fieldFamily": "study",
+      "pedagogicalMeaning": "trūkst study objekta vārdam hübsch",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hübsch-288|study|(nav study objekta)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sprechen-study|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sprechen-study|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-sprechen-study",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sprechen-study|entry[5].study.comparison[0].example|wir sprechen über die arbeit. – nous parlons de travail."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-aber|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-aber|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-aber",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-aber|entry[21].study.comparison[0].example|ich komme, aber später. – je viendrai, mais plus tard."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-auch-study|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-auch-study|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-auch-study",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-auch-study|entry[48].study.important[0]|ich auch wünsche ihnen n’est pas le bon ordre des mots."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-auf|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-auf|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-auf",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-auf|entry[49].study.comparison[1].example|ich hänge das bild an die wand. – j'accroche le tableau au mur."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bei|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bei|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-bei",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bei|entry[78].study.comparison[1].example|das bild hängt an der wand. – le tableau est accroché au mur."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte|entry[93].study.explanation[5]|bitte avec une lettre minuscule est un mot poli - cela signifie s'il vous plaît (bitte schön !, eine tasse kaffee, bitte)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte|entry[].study.tip[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte",
+      "fieldFamily": "entry[].study.tip[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte|entry[93].study.tip[0]|petite bouchée = s'il te plaît (bitte schön!, kaffee, bitte). die bitte avec une majuscule = demande (eine bitte, meine bitte)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte|entry[93].study.important[3]|nepareizi : die bitte schön ! → pareizi : bitte schön !"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte|entry[].study.comparison[].meaning|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte|entry[].study.comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte",
+      "fieldFamily": "entry[].study.comparison[].meaning",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte|entry[93].study.comparison[0].meaning|lūdzu",
+        "a1-bitte|entry[93].study.comparison[1].meaning|lūgums"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte|entry[93].study.comparison[0].example|komm bitte herein. – lūdzu, nāc iekšā.",
+        "a1-bitte|entry[93].study.comparison[1].example|ich habe eine bitte. – man ir lūgums."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte-study|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte-study",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte-study|entry[94].study.explanation[5]|bitte avec une lettre minuscule est un mot poli - cela signifie s'il vous plaît (bitte schön !, eine tasse kaffee, bitte)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte-study|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte-study|entry[].study.tip[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte-study",
+      "fieldFamily": "entry[].study.tip[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte-study|entry[94].study.tip[0]|petite bouchée = s'il te plaît (bitte schön!, kaffee, bitte). die bitte avec une majuscule = demande (eine bitte, meine bitte)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte-study|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte-study|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte-study",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte-study|entry[94].study.important[3]|nepareizi : die bitte schön ! → pareizi : bitte schön !"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte-study|entry[].study.comparison[].meaning|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte-study|entry[].study.comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte-study",
+      "fieldFamily": "entry[].study.comparison[].meaning",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte-study|entry[94].study.comparison[0].meaning|lūgums",
+        "a1-bitte-study|entry[94].study.comparison[1].meaning|lūdzu"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bitte-study|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bitte-study|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-bitte-study",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bitte-study|entry[94].study.comparison[0].example|ich habe eine bitte. – man ir lūgums.",
+        "a1-bitte-study|entry[94].study.comparison[1].example|komm bitte herein. – lūdzu, nāc iekšā."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bringen|entry[].study.comparison[].meaning|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bringen|entry[].study.comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-bringen",
+      "fieldFamily": "entry[].study.comparison[].meaning",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bringen|entry[111].study.comparison[4].meaning|paņemt"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-bringen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-bringen|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-bringen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bringen|entry[111].study.comparison[4].example|ich nehme das buch. – es paņemu grāmatu."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-ein|entry[].study.examples[].lv|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-ein|entry[].study.examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-ein",
+      "fieldFamily": "entry[].study.examples[].lv",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ein|entry[154].study.examples[3].lv|bērns spēlējas."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-ein|entry[].study.comparison[].meaning|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-ein|entry[].study.comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-ein",
+      "fieldFamily": "entry[].study.comparison[].meaning",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ein|entry[154].study.comparison[0].meaning|vīriešu dzimte",
+        "a1-ein|entry[154].study.comparison[1].meaning|sieviešu dzimte",
+        "a1-ein|entry[154].study.comparison[3].meaning|akuzatīvs"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-eis|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-eis|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-eis",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-eis|entry[157].study.comparison[0].example|ich esse ein eis. = es ēdu saldējumu.",
+        "a1-eis|entry[157].study.comparison[2].example|das wasser ist kalt. = ūdens ir auksts.",
+        "a1-eis|entry[157].study.comparison[3].example|eis ist ein dessert. = saldējums ir deserts."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-erst|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-erst|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-erst",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-erst|entry[165].study.comparison[1].example|zuerst frühstücken wir. = vispirms mēs brokastojam.",
+        "a1-erst|entry[165].study.comparison[2].example|ich habe nur 5 euro. = man ir tikai 5 eiro.",
+        "a1-erst|entry[165].study.comparison[3].example|dann gehen wir nach hause. = tad mēs ejam mājās."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-es|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-es|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-es",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-es|entry[167].study.comparison[0].example|es regnet. – līst.",
+        "a1-es|entry[167].study.comparison[1].example|ich lerne deutsch. – es mācos vācu valodu."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-etwas|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-etwas|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-etwas",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-etwas|entry[169].study.explanation[4]|le plus important est de distinguer : etwas kaufen = acheter quelque chose, etwas müde = un peu fatigué."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-etwas|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-etwas|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-etwas",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-etwas|entry[169].study.comparison[0].example|ich brauche etwas. = man kaut kas vajadzīgs.",
+        "a1-etwas|entry[169].study.comparison[2].example|ich bin ein bisschen müde. = es esmu mazliet noguris."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-euch|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-euch|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-euch",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-euch|entry[170].study.comparison[0].example|ihr seid freundlich. = jūs esat draudzīgi.",
+        "a1-euch|entry[170].study.comparison[1].example|ich helfe euch. = es jums palīdzu.",
+        "a1-euch|entry[170].study.comparison[2].example|das ist euer haus. = tā ir jūsu māja."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-euch|entry[].study.info[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-euch|entry[].study.info[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-euch",
+      "fieldFamily": "entry[].study.info[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-euch|entry[170].study.info[0]|ihr = you (subject form of the sentence)",
+        "a1-euch|entry[170].study.info[1]|euch = you (where? form) / you (whom? form)",
+        "a1-euch|entry[170].study.info[2]|euer = your (possessive form)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-euch|entry[].study.tip.example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-euch|entry[].study.tip.example",
+      "dataset": "fr-a1",
+      "cardId": "a1-euch",
+      "fieldFamily": "entry[].study.tip.example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-euch|entry[170].study.tip.example|i help you. = ich helfe euch. i see you = ich sehe euch. i'm telling you. = ich erzähle euch."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fahren|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|entry[172].study.comparison[2].example|er läuft schnell."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|entry[].study.important.text|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fahren|entry[].study.important.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "entry[].study.important.text",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|entry[172].study.important.text|fahren ≠ tikai « braukt »"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|entry[].study.important.example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fahren|entry[].study.important.example",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "entry[].study.important.example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|entry[172].study.important.example|in german, the same verb often means: to drive • to drive • to take away depending on the context."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|entry[].study.accents.purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fahren|entry[].study.accents.purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "entry[].study.accents.purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|entry[172].study.accents.purple[0]|braukt",
+        "a1-fahren|entry[172].study.accents.purple[2]|vest",
+        "a1-fahren|entry[172].study.accents.purple[4]|aizvest"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|entry[].study.sectionaccents.comparison[].example.yellow[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fahren|entry[].study.sectionaccents.comparison[].example.yellow[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].example.yellow[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|entry[172].study.sectionaccents.comparison[2].example.yellow[0]|läuft"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|entry[].study.sectionaccents.important[].text.purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fahren|entry[].study.sectionaccents.important[].text.purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "entry[].study.sectionaccents.important[].text.purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|entry[172].study.sectionaccents.important[0].text.purple[0]|braukt"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|entry[].study.sectionaccents.important[].example.purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fahren|entry[].study.sectionaccents.important[].example.purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "entry[].study.sectionaccents.important[].example.purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|entry[172].study.sectionaccents.important[0].example.purple[0]|braukt"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-finden|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-finden|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-finden",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-finden|entry[187].study.comparison[0].example|ich finde das gut. = man tas šķiet labi.",
+        "a1-finden|entry[187].study.comparison[1].example|ich suche den schlüssel. = je cherche la clé."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fuer|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fuer|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-fuer",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fuer|entry[216].study.explanation[0]|idée principale : für est une préposition qui régit toujours l'accusatif - généralement pour ou pour en letton.",
+        "a1-fuer|entry[216].study.explanation[1]|lorsqu'on parle de destinataire ou d'intention, für = pour (für dich = pour vous).",
+        "a1-fuer|entry[216].study.explanation[2]|lorsqu'on parle d'échange, de frais ou de motif, für = for (danke für das geschenk = merci pour le cadeau).",
+        "a1-fuer|entry[216].study.explanation[3]|für nécessite toujours l'accusatif, quelle que soit sa signification."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fuer|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fuer|entry[].study.tip[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-fuer",
+      "fieldFamily": "entry[].study.tip[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fuer|entry[216].study.tip[0]|für toujours + accusatif - quel que soit le sens."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fuer|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fuer|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-fuer",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fuer|entry[216].study.important[0]|für + akkusativ toujours, par exemple für mich, für dich, für das kind.",
+        "a1-fuer|entry[216].study.important[1]|danke für / bezahlen für = 'pour', pas 'avant'."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fuer|entry[].study.sectionaccents.tip[].purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fuer|entry[].study.sectionaccents.tip[].purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-fuer",
+      "fieldFamily": "entry[].study.sectionaccents.tip[].purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fuer|entry[216].study.sectionaccents.tip[0].purple[0]|für"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fuer|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fuer|entry[].study.sectionaccents.important[].purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-fuer",
+      "fieldFamily": "entry[].study.sectionaccents.important[].purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fuer|entry[216].study.sectionaccents.important[0].purple[0]|für"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-haben|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-haben|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-haben",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-haben|entry[261].study.comparison[0].example|ich habe zeit. = man ir laiks.",
+        "a1-haben|entry[261].study.comparison[1].example|ich bin hier. = es esmu šeit.",
+        "a1-haben|entry[261].study.comparison[2].example|ich bekomme ein geschenk. = es saņemu dāvanu."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-haben|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-haben|entry[].study.tip.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-haben",
+      "fieldFamily": "entry[].study.tip.text",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-haben|entry[261].study.tip.text|atceries : ich habe → man ir."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-haben|entry[].study.sectionaccents.tip.left.purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-haben|entry[].study.sectionaccents.tip.left.purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-haben",
+      "fieldFamily": "entry[].study.sectionaccents.tip.left.purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-haben|entry[261].study.sectionaccents.tip.left.purple[0]|man ir"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-halten|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-halten|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|entry[265].study.explanation[3]|dans l'expression d'opinion, je halte das für..., cela signifie considérer comme."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-halten|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-halten|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|entry[265].study.comparison[0].example|der bus hält. = autobuss pietur.",
+        "a1-halten|entry[265].study.comparison[1].example|ich nehme die tasche. = es ņemu somu.",
+        "a1-halten|entry[265].study.comparison[2].example|bitte halten sie an. = lūdzu, apstājieties.",
+        "a1-halten|entry[265].study.comparison[3].example|ich denke, das ist richtig. = es domāju, ka tas ir pareizi."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-halten|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-halten|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|entry[265].study.important[1]|ich halte das für... est une expression d'opinion : \"je le considère comme...\"."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-halten|entry[].study.sectionaccents.comparison[].example.blue[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-halten|entry[].study.sectionaccents.comparison[].example.blue[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].example.blue[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|entry[265].study.sectionaccents.comparison[0].example.blue[0]|hält"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-halten|entry[].study.sectionaccents.tip.left.blue[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-halten|entry[].study.sectionaccents.tip.left.blue[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "entry[].study.sectionaccents.tip.left.blue[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|entry[265].study.sectionaccents.tip.left.blue[1]|hält"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-heißen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-heißen|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-heißen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-heißen|entry[276].study.comparison[1].example|er nennt mich tom. = viņš mani sauc par tomu.",
+        "a1-heißen|entry[276].study.comparison[2].example|was bedeutet das? = ko tas nozīmē?"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-heißen|entry[].study.comparison[].meaning|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-heißen|entry[].study.comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-heißen",
+      "fieldFamily": "entry[].study.comparison[].meaning",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-heißen|entry[276].study.comparison[4].meaning|zvanīt"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-hoeren-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-hoeren-study|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-hoeren-study",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hoeren-study|entry[287].study.explanation[1]|hören signifie avant tout : percevoir le son.",
+        "a1-hoeren-study|entry[287].study.explanation[3]|hören est utilisé pour les sons, la musique et ce qui est entendu."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-hoeren-study|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-hoeren-study|entry[].study.tip[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-hoeren-study",
+      "fieldFamily": "entry[].study.tip[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hoeren-study|entry[287].study.tip[1]|utilisez hören lorsque le contexte correspond à ce sens."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-hoeren-study|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-hoeren-study|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-hoeren-study",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hoeren-study|entry[287].study.important[0]|hören = entendre/écouter un son."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-hoeren-study|entry[].study.sectionaccents.important[].blue[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-hoeren-study|entry[].study.sectionaccents.important[].blue[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-hoeren-study",
+      "fieldFamily": "entry[].study.sectionaccents.important[].blue[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hoeren-study|entry[287].study.sectionaccents.important[0].blue[0]|hören"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-im|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-im|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-im",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-im|entry[293].study.important[2]|avec des mois et des saisons : im märz, im herbst."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-können|entry[].study.id|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-können|entry[].study.id",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "entry[].study.id",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|entry[319].study.id|a1-können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-können|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-können|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|entry[319].study.explanation[0]|idée principale : können signifie pouvoir ou savoir faire quelque chose.",
+        "a1-können|entry[319].study.explanation[3]|können est un verbe modal, donc le deuxième verbe vient généralement à la fin."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-können|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-können|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|entry[319].study.comparison[0].word|können",
+        "a1-können|entry[319].study.comparison[1].word|dürfen",
+        "a1-können|entry[319].study.comparison[2].word|müssen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-können|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-können|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|entry[319].study.comparison[0].example|ich kann schwimmen. = es protu peldēt.",
+        "a1-können|entry[319].study.comparison[1].example|darf ich gehen? = vai drīkstu iet?",
+        "a1-können|entry[319].study.comparison[2].example|ich muss lernen. = man jāmācās."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-können|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-können|entry[].study.tip.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "entry[].study.tip.text",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|entry[319].study.tip.text|rappelez-vous : compétence/capacité → können."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-können|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-können|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|entry[319].study.important[0]|können n'est pas la même chose que dürfen. können = pouvoir/savoir, dürfen = être autorisé.",
+        "a1-können|entry[319].study.important[1]|dans une phrase avec können, le deuxième verbe vient souvent à la fin : ich kann schwimmen."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-können|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-können|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|entry[319].study.sectionaccents.comparison[0].word.green[0]|können",
+        "a1-können|entry[319].study.sectionaccents.comparison[1].word.green[0]|dürfen",
+        "a1-können|entry[319].study.sectionaccents.comparison[2].word.green[0]|müssen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-können|entry[].study.sectionaccents.tip.left.blue[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-können|entry[].study.sectionaccents.tip.left.blue[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "entry[].study.sectionaccents.tip.left.blue[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|entry[319].study.sectionaccents.tip.left.blue[0]|können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-können|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-können|entry[].study.sectionaccents.important[].purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "entry[].study.sectionaccents.important[].purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|entry[319].study.sectionaccents.important[0].purple[0]|können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-kosten|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-kosten|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-kosten",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-kosten|entry[320].study.comparison[0].example|das kostet 5 euro. = tas maksā 5 eiro.",
+        "a1-kosten|entry[320].study.comparison[1].example|ich bezahle die rechnung. = es maksāju rēķinu.",
+        "a1-kosten|entry[320].study.comparison[2].example|kann ich bar zahlen? = vai varu maksāt skaidrā naudā?",
+        "a1-kosten|entry[320].study.comparison[3].example|was kostet das buch? = cik maksā grāmata?"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-laden-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-laden-study|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-laden-study",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laden-study|entry[349].study.explanation[3]|pluriel : die läden."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-laden-study|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-laden-study|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-laden-study",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laden-study|entry[349].study.important[2]|pluriel : die läden."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-laden-study|entry[].study.sectionaccents.important[].blue[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-laden-study|entry[].study.sectionaccents.important[].blue[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-laden-study",
+      "fieldFamily": "entry[].study.sectionaccents.important[].blue[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laden-study|entry[349].study.sectionaccents.important[2].blue[0]|die läden"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-laufen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-laufen|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-laufen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laufen|entry[357].study.comparison[0].example|er läuft schnell."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-laufen|entry[].study.sectionaccents.comparison[].example.blue[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-laufen|entry[].study.sectionaccents.comparison[].example.blue[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-laufen",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].example.blue[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laufen|entry[357].study.sectionaccents.comparison[0].example.blue[0]|läuft"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-laut|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-laut|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-laut",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laut|entry[358].study.explanation[6]|der laut avec une majuscule et l'article der est un nom - cela signifie le son en tant que chose ou signal (der laut ist schön = le son est beau)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-laut-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-laut-study|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-laut-study",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laut-study|entry[359].study.explanation[6]|der laut avec une majuscule et l'article der est un nom - cela signifie le son en tant que chose ou signal (der laut ist schön = le son est beau)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mann|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mann|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-mann",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mann|entry[394].study.explanation[4]|pluriel : die männer."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mann|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mann|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-mann",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mann|entry[394].study.important[2]|pluriel : die männer."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mögen|entry[].study.id|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mögen|entry[].study.id",
+      "dataset": "fr-a1",
+      "cardId": "a1-mögen",
+      "fieldFamily": "entry[].study.id",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mögen|entry[413].study.id|a1-mögen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mögen|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mögen|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-mögen",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mögen|entry[413].study.explanation[0]|idée principale : mögen signifie le plus souvent aimer quelque chose.",
+        "a1-mögen|entry[413].study.explanation[2]|möchte est une autre forme utilisée pour le désir poli : je voudrais."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mögen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mögen|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-mögen",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mögen|entry[413].study.comparison[0].word|mögen",
+        "a1-mögen|entry[413].study.comparison[1].word|möchte"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mögen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mögen|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-mögen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mögen|entry[413].study.comparison[1].example|ich möchte kaffee."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mögen|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mögen|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-mögen",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mögen|entry[413].study.important[0]|mögen n'est pas un nom pour poli « je voudrais ». möchte est généralement utilisé pour cela."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mögen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mögen|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-mögen",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mögen|entry[413].study.sectionaccents.comparison[0].word.green[0]|mögen",
+        "a1-mögen|entry[413].study.sectionaccents.comparison[1].word.green[0]|möchte"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mögen|entry[].study.sectionaccents.comparison[].example.red[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mögen|entry[].study.sectionaccents.comparison[].example.red[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-mögen",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].example.red[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mögen|entry[413].study.sectionaccents.comparison[1].example.red[0]|möchte"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-mögen|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-mögen|entry[].study.sectionaccents.important[].purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-mögen",
+      "fieldFamily": "entry[].study.sectionaccents.important[].purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mögen|entry[413].study.sectionaccents.important[0].purple[0]|mögen",
+        "a1-mögen|entry[413].study.sectionaccents.important[0].purple[1]|mögen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-müssen|entry[].study.id|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-müssen|entry[].study.id",
+      "dataset": "fr-a1",
+      "cardId": "a1-müssen",
+      "fieldFamily": "entry[].study.id",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-müssen|entry[423].study.id|a1-müssen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-müssen|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-müssen|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-müssen",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-müssen|entry[423].study.explanation[0]|idée principale : müssen signifie faire quelque chose.",
+        "a1-müssen|entry[423].study.explanation[1]|en letton, müssen est souvent traduit par « moi oui… », « toi oui… », « nous oui… »."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-müssen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-müssen|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-müssen",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-müssen|entry[423].study.comparison[0].word|müssen",
+        "a1-müssen|entry[423].study.comparison[1].word|können",
+        "a1-müssen|entry[423].study.comparison[3].word|dürfen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-müssen|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-müssen|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-müssen",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-müssen|entry[423].study.important[0]|müssen est un verbe modal."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-müssen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-müssen|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-müssen",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-müssen|entry[423].study.sectionaccents.comparison[0].word.green[0]|müssen",
+        "a1-müssen|entry[423].study.sectionaccents.comparison[1].word.green[0]|können",
+        "a1-müssen|entry[423].study.sectionaccents.comparison[3].word.green[0]|dürfen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-müssen|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-müssen|entry[].study.sectionaccents.important[].purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-müssen",
+      "fieldFamily": "entry[].study.sectionaccents.important[].purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-müssen|entry[423].study.sectionaccents.important[0].purple[0]|müssen",
+        "a1-müssen|entry[423].study.sectionaccents.important[0].purple[1]|müssen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-nach|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-nach|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-nach",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-nach|entry[426].study.comparison[3].example|vor dem essen wasche ich die hände."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-natuerlich|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-natuerlich|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-natuerlich",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-natuerlich|entry[433].study.explanation[0]|idée principale : natürlich comme adverbe signifie bien sûr, comme adjectif cela signifie naturel.",
+        "a1-natuerlich|entry[433].study.explanation[1]|dans une conversation, confirmant quelque chose, natürlich = bien sûr (kommst du mit ? – natürlich ! = vous venez ? – bien sûr !).",
+        "a1-natuerlich|entry[433].study.explanation[2]|lorsqu'on parle de nature, d'origine ou de qualités, natürlich = naturel (natürliche schönheit = beauté naturelle)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-natuerlich|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-natuerlich|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-natuerlich",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-natuerlich|entry[433].study.important[0]|natürlich = bien sûr (adverbe, affirmation) ou naturel (adjectif)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-natuerlich|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-natuerlich|entry[].study.sectionaccents.important[].purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-natuerlich",
+      "fieldFamily": "entry[].study.sectionaccents.important[].purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-natuerlich|entry[433].study.sectionaccents.important[0].purple[0]|natürlich",
+        "a1-natuerlich|entry[433].study.sectionaccents.important[0].purple[1]|natürlich"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-oder|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-oder|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-oder",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-oder|entry[459].study.comparison[3].example|ich komme, aber später."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-probieren|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-probieren|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-probieren",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-probieren|entry[482].study.explanation[3]|ce n’est pas la même chose que prüfen, ce qui signifie vérifier plus attentivement."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-probieren|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-probieren|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-probieren",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-probieren|entry[482].study.comparison[2].word|prüfen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-probieren|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-probieren|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-probieren",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-probieren|entry[482].study.comparison[2].example|ich prüfe die rechnung."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-probieren|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-probieren|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-probieren",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-probieren|entry[482].study.important[1]|vérifier un document ou une facture est généralement prüfen."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-probieren|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-probieren|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-probieren",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-probieren|entry[482].study.sectionaccents.comparison[2].word.green[0]|prüfen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-probieren|entry[].study.sectionaccents.comparison[].example.red[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-probieren|entry[].study.sectionaccents.comparison[].example.red[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-probieren",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].example.red[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-probieren|entry[482].study.sectionaccents.comparison[2].example.red[0]|prüfe"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-schon-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-schon-study|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-schon-study",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-schon-study|entry[521].study.explanation[1]|schön signifie principalement : quelque chose s'est déjà produit ou est en cours."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sehen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sehen|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-sehen",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sehen|entry[539].study.comparison[3].word|hören"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sehen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sehen|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-sehen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sehen|entry[539].study.comparison[3].example|ich höre musik."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sehen|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sehen|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sehen",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sehen|entry[539].study.important[1]|ich sehe dich = es tevi redzu • ich schaue den film = es skatos filmu."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sehen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sehen|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sehen",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sehen|entry[539].study.sectionaccents.comparison[3].word.green[0]|hören"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sehen|entry[].study.sectionaccents.comparison[].example.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sehen|entry[].study.sectionaccents.comparison[].example.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sehen",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].example.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sehen|entry[539].study.sectionaccents.comparison[3].example.green[0]|höre"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sein|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sein|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-sein",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sein|entry[542].study.comparison[2].example|ich werde müde."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sein|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sein|entry[].study.tip.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-sein",
+      "fieldFamily": "entry[].study.tip.text",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sein|entry[542].study.tip.text|atceries : ich bin = es esmu • du bist = tu esi."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sein|entry[].study.sectionaccents.tip.left.purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sein|entry[].study.sectionaccents.tip.left.purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sein",
+      "fieldFamily": "entry[].study.sectionaccents.tip.left.purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sein|entry[542].study.sectionaccents.tip.left.purple[0]|es esmu"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sich|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sich|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sich",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sich|entry[547].study.explanation[3]|important à noter au niveau a1 : ich wasche mich, er wäscht sich."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sich|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sich|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-sich",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sich|entry[547].study.comparison[0].example|er wäscht sich.",
+        "a1-sich|entry[547].study.comparison[2].example|du wäschst dich."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sitzen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sitzen|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-sitzen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sitzen|entry[558].study.comparison[1].example|er steht an der tür."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sollen|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sollen|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sollen",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sollen|entry[564].study.explanation[2]|ce n'est pas aussi fort que le müssen."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sollen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sollen|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-sollen",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sollen|entry[564].study.comparison[1].word|müssen",
+        "a1-sollen|entry[564].study.comparison[2].word|können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sollen|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sollen|entry[].study.tip.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-sollen",
+      "fieldFamily": "entry[].study.tip.text",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sollen|entry[564].study.tip.text|rappelez-vous : quelqu'un dit quoi faire → sollen • doit être fait → müssen."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sollen|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sollen|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sollen",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sollen|entry[564].study.important[1]|sollen et müssen ne sont pas exactement les mêmes."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sollen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sollen|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sollen",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sollen|entry[564].study.sectionaccents.comparison[1].word.green[0]|müssen",
+        "a1-sollen|entry[564].study.sectionaccents.comparison[2].word.green[0]|können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sollen|entry[].study.sectionaccents.tip.left.red[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sollen|entry[].study.sectionaccents.tip.left.red[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sollen",
+      "fieldFamily": "entry[].study.sectionaccents.tip.left.red[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sollen|entry[564].study.sectionaccents.tip.left.red[0]|müssen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-sollen|entry[].study.sectionaccents.important[].red[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-sollen|entry[].study.sectionaccents.important[].red[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-sollen",
+      "fieldFamily": "entry[].study.sectionaccents.important[].red[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sollen|entry[564].study.sectionaccents.important[1].red[0]|müssen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.id|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.id",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.id",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.id|a1-über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.explanation[0]|idée principale : über signifie au-dessus ou environ selon le contexte.",
+        "a1-über|entry[608].study.explanation[1]|lorsqu'il s'agit d'emplacement, über signifie souvent au-dessus.",
+        "a1-über|entry[608].study.explanation[2]|lorsqu'il s'agit d'une conversation, d'un texte ou d'un sujet, über signifie environ.",
+        "a1-über|entry[608].study.explanation[3]|en mouvement, über peut signifier fini."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.comparison[0].word|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.comparison[0].example|wir sprechen über das wetter.",
+        "a1-über|entry[608].study.comparison[3].example|ich höre von dir."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.tip.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.tip.text",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.tip.text|rappelez-vous : sujet de conversation → über • au-dessus du tableau → über."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.important[0]|über n'est pas seulement un nom de lieu.",
+        "a1-über|entry[608].study.important[1]|sprechen über signifie « parler de »."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.sectionaccents.comparison[0].word.green[0]|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.sectionaccents.comparison[].example.blue[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.sectionaccents.comparison[].example.blue[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].example.blue[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.sectionaccents.comparison[0].example.blue[0]|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.sectionaccents.tip.left.blue[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.sectionaccents.tip.left.blue[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.sectionaccents.tip.left.blue[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.sectionaccents.tip.left.blue[0]|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-über|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-über|entry[].study.sectionaccents.important[].purple[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "entry[].study.sectionaccents.important[].purple[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|entry[608].study.sectionaccents.important[0].purple[0]|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-um|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-um|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-um",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-um|entry[611].study.comparison[3].word|für"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-um|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-um|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-um",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-um|entry[611].study.comparison[3].example|das ist für dich."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-um|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-um|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-um",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-um|entry[611].study.sectionaccents.comparison[3].word.green[0]|für"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-um|entry[].study.sectionaccents.comparison[].example.red[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-um|entry[].study.sectionaccents.comparison[].example.red[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-um",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].example.red[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-um|entry[611].study.sectionaccents.comparison[3].example.red[0]|für"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-unter|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-unter|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-unter",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-unter|entry[615].study.explanation[3]|c'est l'opposé d'über lorsqu'il s'agit de la direction haut/bas."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-unter|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-unter|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-unter",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-unter|entry[615].study.comparison[1].word|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-unter|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-unter|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-unter",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-unter|entry[615].study.comparison[1].example|die lampe hängt über dem tisch.",
+        "a1-unter|entry[615].study.comparison[2].example|zwischen den häusern."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-unter|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-unter|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-unter",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-unter|entry[615].study.important[1]|unter et über sont souvent opposés dans le sens du lieu."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-unter|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-unter|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-unter",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-unter|entry[615].study.sectionaccents.comparison[1].word.green[0]|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-unter|entry[].study.sectionaccents.comparison[].example.red[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-unter|entry[].study.sectionaccents.comparison[].example.red[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-unter",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].example.red[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-unter|entry[615].study.sectionaccents.comparison[1].example.red[0]|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-verstehen|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-verstehen|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-verstehen",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-verstehen|entry[621].study.explanation[2]|ici, vous n'avez généralement pas besoin de « connaître » ou d'« enseigner » le letton. • ils sont plus souvent können."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-verstehen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-verstehen|entry[].study.comparison[].word",
+      "dataset": "fr-a1",
+      "cardId": "a1-verstehen",
+      "fieldFamily": "entry[].study.comparison[].word",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-verstehen|entry[621].study.comparison[1].word|können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-verstehen|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-verstehen|entry[].study.tip.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-verstehen",
+      "fieldFamily": "entry[].study.tip.text",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-verstehen|entry[621].study.tip.text|n'oubliez pas : comprendre le texte/la personne → verstehen • savoir comment faire quelque chose → können."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-verstehen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-verstehen|entry[].study.sectionaccents.comparison[].word.green[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-verstehen",
+      "fieldFamily": "entry[].study.sectionaccents.comparison[].word.green[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-verstehen|entry[621].study.sectionaccents.comparison[1].word.green[0]|können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-verstehen|entry[].study.sectionaccents.tip.left.red[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-verstehen|entry[].study.sectionaccents.tip.left.red[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-verstehen",
+      "fieldFamily": "entry[].study.sectionaccents.tip.left.red[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-verstehen|entry[621].study.sectionaccents.tip.left.red[0]|können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-vor|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-vor|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-vor",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-vor|entry[636].study.explanation[3]|en temps d'horloge, vor signifie « jusqu'à », par exemple fünf vor acht."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-was|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-was|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-was",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-was|entry[644].study.important[2]|was für (ein/eine) signifie quelqu'un/et demande une qualité ou un type (was für ein film ist das ? = de quel genre de film s'agit-il ?)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-was|entry[].study.sectionaccents.important[].blue[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-was|entry[].study.sectionaccents.important[].blue[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-was",
+      "fieldFamily": "entry[].study.sectionaccents.important[].blue[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-was|entry[644].study.sectionaccents.important[2].blue[0]|was für"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-werden|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-werden|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-werden",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-werden|entry[657].study.explanation[3]|au niveau a1, la phrase la plus importante est ich werde müde. = je commence à être fatigué."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-werden|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-werden|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-werden",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-werden|entry[657].study.comparison[0].example|ich werde müde.",
+        "a1-werden|entry[657].study.comparison[1].example|ich bin müde."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-werden|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-werden|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-werden",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-werden|entry[657].study.important[1]|ich werde müde = je suis fatigué • ich bin müde = je suis fatigué."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-wetter|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-wetter|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-wetter",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-wetter|entry[658].study.comparison[0].example|das wetter ist schön."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-fernsehen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-fernsehen|entry[].study.comparison[].example",
+      "dataset": "fr-a1",
+      "cardId": "a1-fernsehen",
+      "fieldFamily": "entry[].study.comparison[].example",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fernsehen|entry[687].study.comparison[0].example|ich sehe fern. = es skatos televīziju.",
+        "a1-fernsehen|entry[687].study.comparison[1].example|im fernsehen läuft ein film. = televīzijā rāda filmu.",
+        "a1-fernsehen|entry[687].study.comparison[2].example|ich sehe einen film. = es redzu filmu."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-gemuese|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-gemuese|entry[].study.explanation[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-gemuese",
+      "fieldFamily": "entry[].study.explanation[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-gemuese|entry[692].study.explanation[0]|idée principale : les légumes en général. l'allemand n'a pas de forme plurielle pour *die gemüse.",
+        "a1-gemuese|entry[692].study.explanation[1]|das gemüse signifie principalement : les légumes en général."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.751Z"
+    },
+    {
+      "semanticSignature": "a1-gemuese|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-gemuese|entry[].study.tip[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-gemuese",
+      "fieldFamily": "entry[].study.tip[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-gemuese|entry[692].study.tip[0]|das gemüse = légumes",
+        "a1-gemuese|entry[692].study.tip[1]|utilisez das gemüse lorsque le contexte correspond à ce sens."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-gemuese|entry[].study.important[]|lv/atlikušā valoda fr laukā",
+      "pathFamilySignature": "a1-gemuese|entry[].study.important[]",
+      "dataset": "fr-a1",
+      "cardId": "a1-gemuese",
+      "fieldFamily": "entry[].study.important[]",
+      "pedagogicalMeaning": "lv/atlikušā valoda fr laukā",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-gemuese|entry[692].study.important[0]|nav pareizi : die gemüse, die obsts.",
+        "a1-gemuese|entry[692].study.important[1]|nepareizi : die gemüse → pareizi : das gemüse",
+        "a1-gemuese|entry[692].study.important[2]|das gemüse = légumes (en général)."
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-es|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-es|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-es",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-es|sectionaccents (examples)|ich",
+        "a1-es|sectionaccents (examples)|er",
+        "a1-es|sectionaccents (examples)|sie",
+        "a1-es|sectionaccents (examples)|das"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-fahren|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|sectionaccents (?)|läuft",
+        "a1-fahren|sectionaccents (?)|braukt"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-fuer|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-fuer|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-fuer",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fuer|sectionaccents (?)|für"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-fuer|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-fuer|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-fuer",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fuer|sectionaccents (examples)|pay"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-gross-study|sectionaccents (explanation)|accent term not found in section text",
+      "pathFamilySignature": "a1-gross-study|sectionaccents (explanation)",
+      "dataset": "fr-a1",
+      "cardId": "a1-gross-study",
+      "fieldFamily": "sectionaccents (explanation)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-gross-study|sectionaccents (explanation)|main"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-haben|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-haben|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-haben",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-haben|sectionaccents (?)|man ir"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-halten|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-halten|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|sectionaccents (?)|hält"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-halten|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-halten|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|sectionaccents (examples)|consider"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-hoeren-study|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-hoeren-study|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-hoeren-study",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hoeren-study|sectionaccents (?)|hören"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-kein|sectionaccents (explanation)|accent term not found in section text",
+      "pathFamilySignature": "a1-kein|sectionaccents (explanation)",
+      "dataset": "fr-a1",
+      "cardId": "a1-kein",
+      "fieldFamily": "sectionaccents (explanation)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-kein|sectionaccents (explanation)|main"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-können|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-können|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|sectionaccents (?)|können",
+        "a1-können|sectionaccents (?)|dürfen",
+        "a1-können|sectionaccents (?)|müssen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-laden-study|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-laden-study|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-laden-study",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laden-study|sectionaccents (?)|die läden"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-lang|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-lang|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-lang",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-lang|sectionaccents (examples)|long"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-laufen|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-laufen|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-laufen",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laufen|sectionaccents (?)|läuft"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-liegen|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-liegen|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-liegen",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-liegen|sectionaccents (examples)|phone"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-mögen|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-mögen|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-mögen",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mögen|sectionaccents (?)|mögen",
+        "a1-mögen|sectionaccents (?)|möchte"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-müssen|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-müssen|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-müssen",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-müssen|sectionaccents (?)|müssen",
+        "a1-müssen|sectionaccents (?)|können",
+        "a1-müssen|sectionaccents (?)|dürfen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-natuerlich|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-natuerlich|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-natuerlich",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-natuerlich|sectionaccents (?)|natürlich"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-neu|sectionaccents (explanation)|accent term not found in section text",
+      "pathFamilySignature": "a1-neu|sectionaccents (explanation)",
+      "dataset": "fr-a1",
+      "cardId": "a1-neu",
+      "fieldFamily": "sectionaccents (explanation)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-neu|sectionaccents (explanation)|main"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-neu|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-neu|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-neu",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-neu|sectionaccents (examples)|phone"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-nur-study|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-nur-study|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-nur-study",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-nur-study|sectionaccents (examples)|just"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-probieren|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-probieren|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-probieren",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-probieren|sectionaccents (?)|prüfen",
+        "a1-probieren|sectionaccents (?)|prüfe"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-sehen|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-sehen|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-sehen",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sehen|sectionaccents (?)|hören",
+        "a1-sehen|sectionaccents (?)|höre"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-sein|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-sein|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-sein",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sein|sectionaccents (?)|es esmu"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-sollen|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-sollen|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-sollen",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sollen|sectionaccents (?)|müssen",
+        "a1-sollen|sectionaccents (?)|können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-über|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-über|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|sectionaccents (?)|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-über|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-über|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|sectionaccents (examples)|lamp"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-um|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-um|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-um",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-um|sectionaccents (?)|für"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-unter|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-unter|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-unter",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-unter|sectionaccents (?)|über"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-unter|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-unter|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-unter",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-unter|sectionaccents (examples)|lamp"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-verstehen|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-verstehen|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-verstehen",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-verstehen|sectionaccents (?)|können"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-was|sectionaccents (?)|lv remnant in sectionaccents",
+      "pathFamilySignature": "a1-was|sectionaccents (?)",
+      "dataset": "fr-a1",
+      "cardId": "a1-was",
+      "fieldFamily": "sectionaccents (?)",
+      "pedagogicalMeaning": "lv remnant in sectionaccents",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-was|sectionaccents (?)|was für"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-zum|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-zum|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-zum",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-zum|sectionaccents (examples)|are"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-obst|sectionaccents (examples)|accent term not found in section text",
+      "pathFamilySignature": "a1-obst|sectionaccents (examples)",
+      "dataset": "fr-a1",
+      "cardId": "a1-obst",
+      "fieldFamily": "sectionaccents (examples)",
+      "pedagogicalMeaning": "accent term not found in section text",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-obst|sectionaccents (examples)|fruit"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-bis|sectionaccents.comparison.example|sectionaccents termins \"bis dass\" nav atrodams sadaļā comparison",
+      "pathFamilySignature": "a1-bis|sectionaccents.comparison.example",
+      "dataset": "fr-a1",
+      "cardId": "a1-bis",
+      "fieldFamily": "sectionaccents.comparison.example",
+      "pedagogicalMeaning": "sectionaccents termins \"bis dass\" nav atrodams sadaļā comparison",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bis|sectionaccents.comparison.example|bis dass"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-bringen|sectionaccents.examples.de|sectionaccents termins \"wasser\" nav atrodams sadaļā examples",
+      "pathFamilySignature": "a1-bringen|sectionaccents.examples.de",
+      "dataset": "fr-a1",
+      "cardId": "a1-bringen",
+      "fieldFamily": "sectionaccents.examples.de",
+      "pedagogicalMeaning": "sectionaccents termins \"wasser\" nav atrodams sadaļā examples",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bringen|sectionaccents.examples.de|wasser"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-bringen|sectionaccents.examples.de|sectionaccents termins \"dich\" nav atrodams sadaļā examples",
+      "pathFamilySignature": "a1-bringen|sectionaccents.examples.de",
+      "dataset": "fr-a1",
+      "cardId": "a1-bringen",
+      "fieldFamily": "sectionaccents.examples.de",
+      "pedagogicalMeaning": "sectionaccents termins \"dich\" nav atrodams sadaļā examples",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bringen|sectionaccents.examples.de|dich"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-bringen|sectionaccents.examples.de|sectionaccents termins \"bringt\" nav atrodams sadaļā examples",
+      "pathFamilySignature": "a1-bringen|sectionaccents.examples.de",
+      "dataset": "fr-a1",
+      "cardId": "a1-bringen",
+      "fieldFamily": "sectionaccents.examples.de",
+      "pedagogicalMeaning": "sectionaccents termins \"bringt\" nav atrodams sadaļā examples",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bringen|sectionaccents.examples.de|bringt"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-bringen|sectionaccents.examples.de|sectionaccents termins \"buch\" nav atrodams sadaļā examples",
+      "pathFamilySignature": "a1-bringen|sectionaccents.examples.de",
+      "dataset": "fr-a1",
+      "cardId": "a1-bringen",
+      "fieldFamily": "sectionaccents.examples.de",
+      "pedagogicalMeaning": "sectionaccents termins \"buch\" nav atrodams sadaļā examples",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bringen|sectionaccents.examples.de|buch"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-an|translation|main translation field shows 3 learner-facing candidates (à | à | présent)",
+      "pathFamilySignature": "a1-an|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-an",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 3 learner-facing candidates (à | à | présent)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-an|translation|à • à • présent"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-aus|translation|main translation field shows 2 learner-facing candidates (de | sortie)",
+      "pathFamilySignature": "a1-aus|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-aus",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (de | sortie)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-aus|translation|de • sortie"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-aufs|translation|main translation field shows 3 learner-facing candidates (vers | sur | où ?)",
+      "pathFamilySignature": "a1-aufs|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-aufs",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 3 learner-facing candidates (vers | sur | où ?)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-aufs|translation|vers • sur • où ?"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-besuchen-89|lv|main translation field shows 2 learner-facing candidates (pour assister | pour visiter)",
+      "pathFamilySignature": "a1-besuchen-89|lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-besuchen-89",
+      "fieldFamily": "lv",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (pour assister | pour visiter)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-besuchen-89|lv|pour assister • pour visiter"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-bringen|translation|main translation field shows 2 learner-facing candidates (à emporter | à emporter)",
+      "pathFamilySignature": "a1-bringen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-bringen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (à emporter | à emporter)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bringen|translation|à emporter • à emporter"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-ein|translation|main translation field shows 3 learner-facing candidates (article indéfini | un | quelqu'un)",
+      "pathFamilySignature": "a1-ein|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-ein",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 3 learner-facing candidates (article indéfini | un | quelqu'un)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ein|translation|article indéfini • un • quelqu'un"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-eis|translation|main translation field shows 2 learner-facing candidates (glace | glace)",
+      "pathFamilySignature": "a1-eis|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-eis",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (glace | glace)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-eis|translation|glace • glace"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-erst|translation|main translation field shows 2 learner-facing candidates (premier | seulement)",
+      "pathFamilySignature": "a1-erst|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-erst",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (premier | seulement)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-erst|translation|premier • seulement"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-es|translation|main translation field shows 3 learner-facing candidates (il | il | forme impersonnelle)",
+      "pathFamilySignature": "a1-es|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-es",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 3 learner-facing candidates (il | il | forme impersonnelle)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-es|translation|il • il • forme impersonnelle"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-etwas|translation|main translation field shows 2 learner-facing candidates (quelque chose | un peu)",
+      "pathFamilySignature": "a1-etwas|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-etwas",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (quelque chose | un peu)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-etwas|translation|quelque chose • un peu"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-euch|translation|main translation field shows 2 learner-facing candidates (vous | vous)",
+      "pathFamilySignature": "a1-euch|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-euch",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (vous | vous)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-euch|translation|vous • vous"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|translation|main translation field shows 3 learner-facing candidates (conduire | diriger | emporter)",
+      "pathFamilySignature": "a1-fahren|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 3 learner-facing candidates (conduire | diriger | emporter)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|translation|conduire • diriger • emporter"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-finden|translation|main translation field shows 2 learner-facing candidates (trouver | considérer)",
+      "pathFamilySignature": "a1-finden|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-finden",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (trouver | considérer)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-finden|translation|trouver • considérer"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-frau|translation|main translation field shows 2 learner-facing candidates (femme | épouse)",
+      "pathFamilySignature": "a1-frau|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-frau",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (femme | épouse)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-frau|translation|femme • épouse"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-fuer|translation|main translation field shows 2 learner-facing candidates (pour | pour)",
+      "pathFamilySignature": "a1-fuer|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-fuer",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (pour | pour)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fuer|translation|pour • pour"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-Geschichte-233|lv|main translation field shows 2 learner-facing candidates (histoire | histoire)",
+      "pathFamilySignature": "a1-Geschichte-233|lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-Geschichte-233",
+      "fieldFamily": "lv",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (histoire | histoire)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-Geschichte-233|lv|histoire • histoire"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-gleich|translation|main translation field shows 2 learner-facing candidates (immédiatement | égal)",
+      "pathFamilySignature": "a1-gleich|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-gleich",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (immédiatement | égal)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-gleich|translation|immédiatement • égal"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-halten|translation|main translation field shows 2 learner-facing candidates (maintenir | arrêter)",
+      "pathFamilySignature": "a1-halten|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (maintenir | arrêter)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|translation|maintenir • arrêter"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-heißen|translation|main translation field shows 2 learner-facing candidates (être appelé | moyen)",
+      "pathFamilySignature": "a1-heißen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-heißen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (être appelé | moyen)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-heißen|translation|être appelé • moyen"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-hoeren-study|translation|main translation field shows 2 learner-facing candidates (entendre | écouter)",
+      "pathFamilySignature": "a1-hoeren-study|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-hoeren-study",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (entendre | écouter)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hoeren-study|translation|entendre • écouter"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-hübsch-288|lv|main translation field shows 2 learner-facing candidates (propre | agréable)",
+      "pathFamilySignature": "a1-hübsch-288|lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-hübsch-288",
+      "fieldFamily": "lv",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (propre | agréable)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hübsch-288|lv|propre • agréable"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-ihr|translation|main translation field shows 2 learner-facing candidates (vous | elle)",
+      "pathFamilySignature": "a1-ihr|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-ihr",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (vous | elle)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ihr|translation|vous • elle"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-im|translation|main translation field shows 2 learner-facing candidates (dans | où ?)",
+      "pathFamilySignature": "a1-im|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-im",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (dans | où ?)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-im|translation|dans • où ?"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-ins|translation|main translation field shows 3 learner-facing candidates (dans | dans | où ?)",
+      "pathFamilySignature": "a1-ins|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-ins",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 3 learner-facing candidates (dans | dans | où ?)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ins|translation|dans • dans • où ?"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-jetzt-302|lv|main translation field shows 2 learner-facing candidates (maintenant | actuellement)",
+      "pathFamilySignature": "a1-jetzt-302|lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-jetzt-302",
+      "fieldFamily": "lv",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (maintenant | actuellement)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-jetzt-302|lv|maintenant • actuellement"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-kein|translation|main translation field shows 2 learner-facing candidates (personne | rien)",
+      "pathFamilySignature": "a1-kein|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-kein",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (personne | rien)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-kein|translation|personne • rien"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-können|translation|main translation field shows 2 learner-facing candidates (être capable de | savoir)",
+      "pathFamilySignature": "a1-können|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (être capable de | savoir)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|translation|être capable de • savoir"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-land|translation|main translation field shows 2 learner-facing candidates (pays | terrain)",
+      "pathFamilySignature": "a1-land|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-land",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (pays | terrain)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-land|translation|pays • terrain"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-lang|translation|main translation field shows 2 learner-facing candidates (longue | longue)",
+      "pathFamilySignature": "a1-lang|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-lang",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (longue | longue)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-lang|translation|longue • longue"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-lassen|translation|main translation field shows 2 learner-facing candidates (partir | laisser)",
+      "pathFamilySignature": "a1-lassen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-lassen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (partir | laisser)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-lassen|translation|partir • laisser"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-laufen|translation|main translation field shows 2 learner-facing candidates (exécuter | utiliser)",
+      "pathFamilySignature": "a1-laufen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-laufen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (exécuter | utiliser)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laufen|translation|exécuter • utiliser"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-liegen|translation|main translation field shows 2 learner-facing candidates (être | dormir)",
+      "pathFamilySignature": "a1-liegen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-liegen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (être | dormir)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-liegen|translation|être • dormir"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-links-380|lv|main translation field shows 2 learner-facing candidates (gauche | gauche)",
+      "pathFamilySignature": "a1-links-380|lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-links-380",
+      "fieldFamily": "lv",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (gauche | gauche)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-links-380|lv|gauche • gauche"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-machen|translation|main translation field shows 2 learner-facing candidates (faire | faire)",
+      "pathFamilySignature": "a1-machen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-machen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (faire | faire)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-machen|translation|faire • faire"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-malen-391|lv|main translation field shows 2 learner-facing candidates (peindre | peindre)",
+      "pathFamilySignature": "a1-malen-391|lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-malen-391",
+      "fieldFamily": "lv",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (peindre | peindre)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-malen-391|lv|peindre • peindre"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-mann|translation|main translation field shows 2 learner-facing candidates (homme | mari)",
+      "pathFamilySignature": "a1-mann|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-mann",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (homme | mari)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mann|translation|homme • mari"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-nach|translation|main translation field shows 2 learner-facing candidates (à | après)",
+      "pathFamilySignature": "a1-nach|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-nach",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (à | après)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-nach|translation|à • après"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-natuerlich|translation|main translation field shows 2 learner-facing candidates (bien sûr | naturel)",
+      "pathFamilySignature": "a1-natuerlich|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-natuerlich",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (bien sûr | naturel)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-natuerlich|translation|bien sûr • naturel"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-nehmen|translation|main translation field shows 2 learner-facing candidates (prendre | prendre)",
+      "pathFamilySignature": "a1-nehmen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-nehmen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (prendre | prendre)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-nehmen|translation|prendre • prendre"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-nur-study|translation|main translation field shows 2 learner-facing candidates (seulement | seulement)",
+      "pathFamilySignature": "a1-nur-study|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-nur-study",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (seulement | seulement)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-nur-study|translation|seulement • seulement"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-oder|translation|main translation field shows 2 learner-facing candidates (ou | ou)",
+      "pathFamilySignature": "a1-oder|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-oder",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (ou | ou)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-oder|translation|ou • ou"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-passen|translation|main translation field shows 2 learner-facing candidates (ajustement | ajustement)",
+      "pathFamilySignature": "a1-passen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-passen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (ajustement | ajustement)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-passen|translation|ajustement • ajustement"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-probieren|translation|main translation field shows 2 learner-facing candidates (a essayer | a déguster)",
+      "pathFamilySignature": "a1-probieren|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-probieren",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (a essayer | a déguster)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-probieren|translation|a essayer • a déguster"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-rechts-491|lv|main translation field shows 2 learner-facing candidates (à droite | la droite)",
+      "pathFamilySignature": "a1-rechts-491|lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-rechts-491",
+      "fieldFamily": "lv",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (à droite | la droite)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-rechts-491|lv|à droite • la droite"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-seite|translation|main translation field shows 2 learner-facing candidates (page | côté)",
+      "pathFamilySignature": "a1-seite|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-seite",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (page | côté)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-seite|translation|page • côté"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-sich|translation|main translation field shows 2 learner-facing candidates (vous-même | pour vous-même)",
+      "pathFamilySignature": "a1-sich|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-sich",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (vous-même | pour vous-même)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sich|translation|vous-même • pour vous-même"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-sicher|translation|main translation field shows 2 learner-facing candidates (sûr | certainement)",
+      "pathFamilySignature": "a1-sicher|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-sicher",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (sûr | certainement)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sicher|translation|sûr • certainement"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-sie-study|translation|main translation field shows 2 learner-facing candidates (ils | elle)",
+      "pathFamilySignature": "a1-sie-study|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-sie-study",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (ils | elle)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sie-study|translation|ils/elle"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-über|translation|main translation field shows 2 learner-facing candidates (fini | pour)",
+      "pathFamilySignature": "a1-über|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (fini | pour)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|translation|fini • pour"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-um|translation|main translation field shows 2 learner-facing candidates (vers | heures)",
+      "pathFamilySignature": "a1-um|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-um",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (vers | heures)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-um|translation|vers • heures"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-vor|translation|main translation field shows 2 learner-facing candidates (avant | devant)",
+      "pathFamilySignature": "a1-vor|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-vor",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (avant | devant)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-vor|translation|avant • devant"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-was|translation|main translation field shows 2 learner-facing candidates (qui | quoi)",
+      "pathFamilySignature": "a1-was|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-was",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (qui | quoi)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-was|translation|qui • quoi"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-wenn|translation|main translation field shows 2 learner-facing candidates (si | quand)",
+      "pathFamilySignature": "a1-wenn|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-wenn",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (si | quand)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-wenn|translation|si • quand"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-wer|translation|main translation field shows 2 learner-facing candidates (qui | qui)",
+      "pathFamilySignature": "a1-wer|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-wer",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (qui | qui)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-wer|translation|qui • qui"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-wie|translation|main translation field shows 2 learner-facing candidates (comment | combien)",
+      "pathFamilySignature": "a1-wie|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-wie",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (comment | combien)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-wie|translation|comment • combien"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-zu|translation|main translation field shows 2 learner-facing candidates (à | à)",
+      "pathFamilySignature": "a1-zu|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-zu",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (à | à)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-zu|translation|à • à"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-zum|translation|main translation field shows 2 learner-facing candidates (à | à)",
+      "pathFamilySignature": "a1-zum|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-zum",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (à | à)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-zum|translation|à • à"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-essen-study|translation|main translation field shows 2 learner-facing candidates (alimentation | repas)",
+      "pathFamilySignature": "a1-essen-study|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-essen-study",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (alimentation | repas)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-essen-study|translation|alimentation • repas"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-zeit|translation|main translation field shows 2 learner-facing candidates (temps (instant | période de temps))",
+      "pathFamilySignature": "a1-zeit|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-zeit",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (temps (instant | période de temps))",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-zeit|translation|temps (instant / période de temps)"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    },
+    {
+      "semanticSignature": "a1-einmal|translation|main translation field shows 2 learner-facing candidates (une fois | une fois)",
+      "pathFamilySignature": "a1-einmal|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-einmal",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "main translation field shows 2 learner-facing candidates (une fois | une fois)",
+      "auditRunIds": [
+        "run-a2a769e8-2026-08-27",
+        "run-240e1431-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-einmal|translation|une fois • une fois"
+      ],
+      "lastSeenAt": "2026-08-27T11:25:32.752Z"
+    }
+  ]
+}
