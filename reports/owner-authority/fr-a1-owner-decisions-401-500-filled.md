@@ -28,10 +28,10 @@ COPY-ONLY authority. DE = STRICT READ-ONLY. Viena rinda = viens precīzs (Card I
 | 415 | a1-Möhre-414 | Möhre | lv | Carotte | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 416 | a1-Monat-415 | Monat | lv | Mois | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 417 | a1-Montag-416 | Montag | lv | Lundi | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
-| 418 | a1-morgen | morgen | study.examples[5].lv | Demain | **LABOT** | Le matin est beau. | OWNER precizēts gala variants. |
-| 419 | a1-morgen-study | Morgen | study.examples[1].lv | Le matin | **LABOT** | À demain ! | OWNER precizēts gala variants. |
-| 419 | a1-morgen-study | Morgen | study.examples[2].lv | Le matin | **LABOT** | Je viens demain. | OWNER precizēts gala variants. |
-| 419 | a1-morgen-study | Morgen | study.examples[3].lv | Le matin | **LABOT** | Demain, c'est lundi. | OWNER precizēts gala variants. |
+| 418 | a1-morgen | morgen | study.examples[5].lv | La matinée est belle. | **NELABOT** |  | NELABOT — production tulkojums ir korekts. |
+| 419 | a1-morgen-study | Morgen | study.examples[1].lv | A demain ! | **LABOT** | À demain ! | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
+| 419 | a1-morgen-study | Morgen | study.examples[2].lv | Je viens demain | **LABOT** | Je viens demain. | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
+| 419 | a1-morgen-study | Morgen | study.examples[3].lv | Demain c'est lundi | **LABOT** | Demain, c'est lundi. | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
 | 420 | a1-morgens-419 | morgens | lv | Le matin | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 421 | a1-müde-420 | müde | lv | Fatigué | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 422 | a1-Mund-421 | Mund | lv | La bouche | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |

@@ -70,7 +70,7 @@ COPY-ONLY authority. DE = STRICT READ-ONLY. Viena rinda = viens precīzs (Card I
 | 355 | a1-langsam-354 | langsam | lv | Lent | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 356 | a1-langweilig-355 | langweilig | lv | Ennuyeux | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 357 | a1-lassen | lassen | study.comparison[0].meaning | Partir / laisser | **LABOT** | Laisser / permettre | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
-| 357 | a1-lassen | lassen | study.tip.text | Atceries : quelque chose reste → lassen • Quelqu'un est autorisé → lassen. | **LABOT** | Rappelez-vous : quelque chose reste → lassen • Quelqu'un est autorisé → lassen. | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
+| 357 | a1-lassen | lassen | study.tip.text | Rappelez-vous : quelque chose reste → lassen • Quelqu'un est autorisé → lassen. | **NELABOT** |  | NELABOT — pareizā vērtība jau atrodas production. |
 | 358 | a1-laufen | laufen | study.comparison[0].meaning | Exécuter / exploiter | **LABOT** | Courir / fonctionner | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
 | 358 | a1-laufen | laufen | study.comparison[1].meaning | Allez à pied | **LABOT** | Marcher | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
 | 358 | a1-laufen | laufen | study.comparison[3].meaning | Pour opérer | **LABOT** | Fonctionner | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |

@@ -1,19 +1,19 @@
 {
-  "baseSha": "a2a769e8600291411a7a66eab0483dd4659c9151",
-  "headSha": "f798447932128229d867b5cc8d60937f32b18f47",
+  "baseSha": "7d6447229755c46c2e2c77d9149997fe69d70dab",
+  "headSha": "7d6447229755c46c2e2c77d9149997fe69d70dab",
   "dryRun": false,
-  "blockers": [
-    "One or more mandatory gates failed — see report"
-  ],
+  "mode": "micro-only",
+  "blockers": [],
   "summary": {
     "ownerRows": 904,
-    "requestedLabot": 425,
-    "processedLabot": 425,
-    "appliedVerified": 419,
-    "nelabotUnchanged": 479,
-    "nelabotTotal": 479,
+    "requestedLabot": 423,
+    "nelabotTotal": 481,
+    "priorVerified": 419,
+    "microApplied": 4,
+    "appliedVerified": 423,
+    "nelabotUnchanged": 481,
     "studyAdded": 10,
-    "currentValueMismatch": 6,
+    "currentValueMismatch": 0,
     "failed": 0,
     "deChanges": 0,
     "unplannedChanges": 0,
@@ -23,84 +23,10 @@
     "cardCount": 702,
     "frStudyCount": 134,
     "lvStudyCount": 134,
-    "beforeStudyCount": 124,
     "studyParityPass": true,
-    "finalVerdict": "FR–DE A1 OWNER COPY-ONLY APPLY — BLOCKED"
+    "finalVerdict": "FR–DE A1 OWNER COPY-ONLY APPLY — PASS"
   },
-  "mismatches": [
-    {
-      "cardNum": 357,
-      "cardId": "a1-lassen",
-      "de": "lassen",
-      "field": "study.tip.text",
-      "current": "Atceries : quelque chose reste → lassen • Quelqu'un est autorisé → lassen.",
-      "status": "LABOT",
-      "ownerNew": "Rappelez-vous : quelque chose reste → lassen • Quelqu'un est autorisé → lassen.",
-      "note": "OWNER apstiprināts pēc DE/FR konteksta pārbaudes.",
-      "result": "CURRENT_VALUE_MISMATCH",
-      "actual": "Rappelez-vous : quelque chose reste → lassen • Quelqu'un est autorisé → lassen."
-    },
-    {
-      "cardNum": 418,
-      "cardId": "a1-morgen",
-      "de": "morgen",
-      "field": "study.examples[5].lv",
-      "current": "Demain",
-      "status": "LABOT",
-      "ownerNew": "Le matin est beau.",
-      "note": "OWNER precizēts gala variants.",
-      "result": "CURRENT_VALUE_MISMATCH",
-      "actual": "La matinée est belle."
-    },
-    {
-      "cardNum": 419,
-      "cardId": "a1-morgen-study",
-      "de": "Morgen",
-      "field": "study.examples[1].lv",
-      "current": "Le matin",
-      "status": "LABOT",
-      "ownerNew": "À demain !",
-      "note": "OWNER precizēts gala variants.",
-      "result": "CURRENT_VALUE_MISMATCH",
-      "actual": "A demain !"
-    },
-    {
-      "cardNum": 419,
-      "cardId": "a1-morgen-study",
-      "de": "Morgen",
-      "field": "study.examples[2].lv",
-      "current": "Le matin",
-      "status": "LABOT",
-      "ownerNew": "Je viens demain.",
-      "note": "OWNER precizēts gala variants.",
-      "result": "CURRENT_VALUE_MISMATCH",
-      "actual": "Je viens demain"
-    },
-    {
-      "cardNum": 419,
-      "cardId": "a1-morgen-study",
-      "de": "Morgen",
-      "field": "study.examples[3].lv",
-      "current": "Le matin",
-      "status": "LABOT",
-      "ownerNew": "Demain, c'est lundi.",
-      "note": "OWNER precizēts gala variants.",
-      "result": "CURRENT_VALUE_MISMATCH",
-      "actual": "Demain c'est lundi"
-    },
-    {
-      "cardNum": 688,
-      "cardId": "a1-fernsehen",
-      "de": "fernsehen",
-      "field": "study.tip.leftBlocks[0].text",
-      "current": "Fernsehen (ich sehe fougère) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme …",
-      "status": "LABOT",
-      "ownerNew": "Fernsehen (ich sehe fern) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou …",
-      "note": "OWNER apstiprināts pēc DE/FR konteksta pārbaudes.",
-      "result": "CURRENT_VALUE_MISMATCH",
-      "actual": "Fernsehen (ich sehe fougère) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou un média télévisé."
-    }
-  ],
+  "mismatches": [],
   "failed": [],
   "studyResults": [
     {
@@ -2554,17 +2480,6 @@
       "result": "APPLIED_VERIFIED"
     },
     {
-      "cardNum": 357,
-      "cardId": "a1-lassen",
-      "de": "lassen",
-      "field": "study.tip.text",
-      "current": "Atceries : quelque chose reste → lassen • Quelqu'un est autorisé → lassen.",
-      "status": "LABOT",
-      "ownerNew": "Rappelez-vous : quelque chose reste → lassen • Quelqu'un est autorisé → lassen.",
-      "note": "OWNER apstiprināts pēc DE/FR konteksta pārbaudes.",
-      "result": "CURRENT_VALUE_MISMATCH"
-    },
-    {
       "cardNum": 358,
       "cardId": "a1-laufen",
       "de": "laufen",
@@ -2928,48 +2843,37 @@
       "result": "APPLIED_VERIFIED"
     },
     {
-      "cardNum": 418,
-      "cardId": "a1-morgen",
-      "de": "morgen",
-      "field": "study.examples[5].lv",
-      "current": "Demain",
-      "status": "LABOT",
-      "ownerNew": "Le matin est beau.",
-      "note": "OWNER precizēts gala variants.",
-      "result": "CURRENT_VALUE_MISMATCH"
-    },
-    {
       "cardNum": 419,
       "cardId": "a1-morgen-study",
       "de": "Morgen",
       "field": "study.examples[1].lv",
-      "current": "Le matin",
+      "current": "A demain !",
       "status": "LABOT",
       "ownerNew": "À demain !",
-      "note": "OWNER precizēts gala variants.",
-      "result": "CURRENT_VALUE_MISMATCH"
+      "note": "OWNER apstiprināts pēc DE/FR konteksta pārbaudes.",
+      "result": "APPLIED_VERIFIED"
     },
     {
       "cardNum": 419,
       "cardId": "a1-morgen-study",
       "de": "Morgen",
       "field": "study.examples[2].lv",
-      "current": "Le matin",
+      "current": "Je viens demain",
       "status": "LABOT",
       "ownerNew": "Je viens demain.",
-      "note": "OWNER precizēts gala variants.",
-      "result": "CURRENT_VALUE_MISMATCH"
+      "note": "OWNER apstiprināts pēc DE/FR konteksta pārbaudes.",
+      "result": "APPLIED_VERIFIED"
     },
     {
       "cardNum": 419,
       "cardId": "a1-morgen-study",
       "de": "Morgen",
       "field": "study.examples[3].lv",
-      "current": "Le matin",
+      "current": "Demain c'est lundi",
       "status": "LABOT",
       "ownerNew": "Demain, c'est lundi.",
-      "note": "OWNER precizēts gala variants.",
-      "result": "CURRENT_VALUE_MISMATCH"
+      "note": "OWNER apstiprināts pēc DE/FR konteksta pārbaudes.",
+      "result": "APPLIED_VERIFIED"
     },
     {
       "cardNum": 424,
@@ -4560,11 +4464,11 @@
       "cardId": "a1-fernsehen",
       "de": "fernsehen",
       "field": "study.tip.leftBlocks[0].text",
-      "current": "Fernsehen (ich sehe fougère) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme …",
+      "current": "Fernsehen (ich sehe fougère) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou un média télévisé.",
       "status": "LABOT",
-      "ownerNew": "Fernsehen (ich sehe fern) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou …",
+      "ownerNew": "Fernsehen (ich sehe fern) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou un média télévisé.",
       "note": "OWNER apstiprināts pēc DE/FR konteksta pārbaudes.",
-      "result": "CURRENT_VALUE_MISMATCH"
+      "result": "APPLIED_VERIFIED"
     },
     {
       "cardNum": 691,

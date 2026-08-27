@@ -14435,15 +14435,15 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "A demain !"
+          "lv": "À demain !"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Je viens demain"
+          "lv": "Je viens demain."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Demain c'est lundi"
+          "lv": "Demain, c'est lundi."
         },
         {
           "de": "Guten Morgen!",
@@ -23826,7 +23826,7 @@ const A1_WORDS = [
       "tip": {
         "leftBlocks": [
           {
-            "text": "Fernsehen (ich sehe fougère) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou un média télévisé."
+            "text": "Fernsehen (ich sehe fern) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou un média télévisé."
           }
         ]
       },

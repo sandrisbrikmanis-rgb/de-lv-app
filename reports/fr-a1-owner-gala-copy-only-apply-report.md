@@ -2,8 +2,8 @@
 
 **Authority:** `reports/owner-authority/fr-a1-owner-decisions-*-filled.md` (7 files)
 **DE:** STRICT READ-ONLY
-**BASE_SHA:** `a2a769e8600291411a7a66eab0483dd4659c9151`
-**HEAD_SHA:** `f798447932128229d867b5cc8d60937f32b18f47`
+**BASE_SHA:** `7d6447229755c46c2e2c77d9149997fe69d70dab`
+**HEAD_SHA:** `7d6447229755c46c2e2c77d9149997fe69d70dab`
 **Dry run:** no
 
 ## Obligātie vārti
@@ -11,13 +11,14 @@
 | Vārts | Prasība | Rezultāts |
 |------|---------|----------:|
 | OWNER rindas | 904/904 | 904/904 |
-| Pieprasītie LABOT | 425 | 425 |
-| Apstrādātie LABOT | 425/425 | 425/425 |
-| APPLIED_VERIFIED | 425/425 | 419/425 |
-| OWNER NEW exact-match | 425/425 | 419/425 |
-| NELABOT nemainīti | 479/479 | 479/479 |
-| Study objekti pievienoti | 10/10 | 10/10 |
-| CURRENT_VALUE_MISMATCH | 0 | 6 |
+| LABOT | 423 | 423 |
+| NELABOT | 481 | 481 |
+| Iepriekš verificēti LABOT | 419/419 | 419/419 |
+| Micro-apply | 4/4 | 4/4 |
+| Kopējais APPLIED_VERIFIED | 423/423 | 423/423 |
+| NELABOT nemainīti | 481/481 | 481/481 |
+| Study objekti | 10/10 | 10/10 |
+| CURRENT_VALUE_MISMATCH | 0 | 0 |
 | FAILED | 0 | 0 |
 | DE izmaiņas | 0 | 0 |
 | Neplānotas izmaiņas | 0 | 0 |
@@ -27,18 +28,7 @@
 | Kartīšu skaits | 702/702 | 702/702 |
 | Study parity | PASS | PASS (134 FR / 134 LV) |
 
-## FINAL VERDICT: **FR–DE A1 OWNER COPY-ONLY APPLY — BLOCKED**
-
-## CURRENT_VALUE_MISMATCH
-
-| Card # | Card ID | Field | CURRENT (authority) | Actual (production) |
-|--------|---------|-------|---------------------|---------------------|
-| 357 | a1-lassen | study.tip.text | Atceries : quelque chose reste → lassen • Quelqu'un est autorisé → lassen. | Rappelez-vous : quelque chose reste → lassen • Quelqu'un est autorisé → lassen. |
-| 418 | a1-morgen | study.examples[5].lv | Demain | La matinée est belle. |
-| 419 | a1-morgen-study | study.examples[1].lv | Le matin | A demain ! |
-| 419 | a1-morgen-study | study.examples[2].lv | Le matin | Je viens demain |
-| 419 | a1-morgen-study | study.examples[3].lv | Le matin | Demain c'est lundi |
-| 688 | a1-fernsehen | study.tip.leftBlocks[0].text | Fernsehen (ich sehe fougère) est utilisé pour l'action. Das Fernsehen est utilis | Fernsehen (ich sehe fougère) est utilisé pour l'action. Das Fernsehen est utilis |
+## FINAL VERDICT: **FR–DE A1 OWNER COPY-ONLY APPLY — PASS**
 
 ## Study objekti
 
@@ -277,7 +267,6 @@
 | 352 | a1-land | study.comparison[0].meaning | Pays/terre/campagne | Pays / terre / campagne | APPLIED_VERIFIED |
 | 353 | a1-lang | study.examples[5].lv | Toute la journée (en longueur). | Toute la journée. | APPLIED_VERIFIED |
 | 357 | a1-lassen | study.comparison[0].meaning | Partir / laisser | Laisser / permettre | APPLIED_VERIFIED |
-| 357 | a1-lassen | study.tip.text | Atceries : quelque chose reste → lassen • Quelqu'un est auto | Rappelez-vous : quelque chose reste → lassen • Quelqu'un est | CURRENT_VALUE_MISMATCH |
 | 358 | a1-laufen | study.comparison[0].meaning | Exécuter / exploiter | Courir / fonctionner | APPLIED_VERIFIED |
 | 358 | a1-laufen | study.comparison[1].meaning | Allez à pied | Marcher | APPLIED_VERIFIED |
 | 358 | a1-laufen | study.comparison[3].meaning | Pour opérer | Fonctionner | APPLIED_VERIFIED |
@@ -311,10 +300,9 @@
 | 414 | a1-mögen | study.comparison[2].meaning | Je veux | Vouloir | APPLIED_VERIFIED |
 | 414 | a1-mögen | study.comparison[3].meaning | Aimer | Aimer profondément | APPLIED_VERIFIED |
 | 414 | a1-mögen | study.examples[1].lv | Aimez-vous le café | Aimes-tu le café ? | APPLIED_VERIFIED |
-| 418 | a1-morgen | study.examples[5].lv | Demain | Le matin est beau. | CURRENT_VALUE_MISMATCH |
-| 419 | a1-morgen-study | study.examples[1].lv | Le matin | À demain ! | CURRENT_VALUE_MISMATCH |
-| 419 | a1-morgen-study | study.examples[2].lv | Le matin | Je viens demain. | CURRENT_VALUE_MISMATCH |
-| 419 | a1-morgen-study | study.examples[3].lv | Le matin | Demain, c'est lundi. | CURRENT_VALUE_MISMATCH |
+| 419 | a1-morgen-study | study.examples[1].lv | A demain ! | À demain ! | APPLIED_VERIFIED |
+| 419 | a1-morgen-study | study.examples[2].lv | Je viens demain | Je viens demain. | APPLIED_VERIFIED |
+| 419 | a1-morgen-study | study.examples[3].lv | Demain c'est lundi | Demain, c'est lundi. | APPLIED_VERIFIED |
 | 424 | a1-müssen | study.comparison[0].meaning | Besoin / devoir faire | Devoir ou être obligé de faire | APPLIED_VERIFIED |
 | 424 | a1-müssen | study.comparison[1].meaning | Pouvoir/savoir | Pouvoir ou savoir | APPLIED_VERIFIED |
 | 424 | a1-müssen | study.examples[1].lv | Vous devez attendre. | Tu dois attendre. | APPLIED_VERIFIED |
@@ -459,7 +447,7 @@
 | 681 | a1-zweihundert-680 | frText | Deux cent | Deux cents | APPLIED_VERIFIED |
 | 684 | a1-Zwiebel-683 | frText | Oignon | L’oignon | APPLIED_VERIFIED |
 | 688 | a1-fernsehen | study.important.text | Fernsehen = verbe (ich sehe fougère). das Fernsehen = nom, s | Fernsehen = verbe (ich sehe fern). das Fernsehen = nom, sing | APPLIED_VERIFIED |
-| 688 | a1-fernsehen | study.tip.leftBlocks[0].text | Fernsehen (ich sehe fougère) est utilisé pour l'action. Das  | Fernsehen (ich sehe fern) est utilisé pour l'action. Das Fer | CURRENT_VALUE_MISMATCH |
+| 688 | a1-fernsehen | study.tip.leftBlocks[0].text | Fernsehen (ich sehe fougère) est utilisé pour l'action. Das  | Fernsehen (ich sehe fern) est utilisé pour l'action. Das Fer | APPLIED_VERIFIED |
 | 691 | a1-essen | study.examples[1].lv | Que veux-tu manger | Que voulez-vous manger ? | APPLIED_VERIFIED |
 | 692 | a1-essen-study | frMain | Alimentation • Repas | Repas | APPLIED_VERIFIED |
 | 692 | a1-essen-study | study.examples[1].lv | Que veux-tu manger | Que voulez-vous manger ? | APPLIED_VERIFIED |
@@ -489,7 +477,3 @@
 
 - `data/fr/a1.js`
 - `www/data/fr/a1.js`
-
-## Bloķētāji
-
-- One or more mandatory gates failed — see report

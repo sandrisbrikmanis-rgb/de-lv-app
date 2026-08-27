@@ -115,7 +115,7 @@ COPY-ONLY authority. DE = STRICT READ-ONLY. Viena rinda = viens precīzs (Card I
 | 686 | a1-zwölf-685 | zwölf | lv | Douze | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 687 | a1-zwölfte-686 | zwölfte | lv | Le douzième | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 688 | a1-fernsehen | fernsehen | study.important.text | Fernsehen = verbe (ich sehe fougère). das Fernsehen = nom, singulier seulement. | **LABOT** | Fernsehen = verbe (ich sehe fern). das Fernsehen = nom, singulier seulement. | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
-| 688 | a1-fernsehen | fernsehen | study.tip.leftBlocks[0].text | Fernsehen (ich sehe fougère) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme … | **LABOT** | Fernsehen (ich sehe fern) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou … | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
+| 688 | a1-fernsehen | fernsehen | study.tip.leftBlocks[0].text | Fernsehen (ich sehe fougère) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou un média télévisé. | **LABOT** | Fernsehen (ich sehe fern) est utilisé pour l'action. Das Fernsehen est utilisé pour un programme ou un média télévisé. | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |
 | 689 | a1-fernsehen-study | Fernsehen | lv | Télévision | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 690 | a1-appetit | Appetit | lv | Appétit | **NELABOT** |  | Kartīte pārbaudīta; CURRENT ir korekts. |
 | 691 | a1-essen | essen | study.examples[1].lv | Que veux-tu manger | **LABOT** | Que voulez-vous manger ? | OWNER apstiprināts pēc DE/FR konteksta pārbaudes. |

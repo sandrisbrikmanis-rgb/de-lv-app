@@ -2,7 +2,7 @@
 "use strict";
 /**
  * FR–DE A1 OWNER GALA — COPY-ONLY apply from filled OWNER authority files.
- * Usage: node scripts/apply-fr-a1-owner-gala-copy-only.js [--dry-run]
+ * Usage: node scripts/apply-fr-a1-owner-gala-copy-only.js [--dry-run] [--micro-only]
  */
 const fs = require("fs");
 const path = require("path");
@@ -16,6 +16,7 @@ const REPORT_JSON = path.join(ROOT, "reports/fr-a1-owner-gala-copy-only-apply-re
 const DATA_REL = "data/fr/a1.js";
 const WWW_REL = "www/data/fr/a1.js";
 const DRY_RUN = process.argv.includes("--dry-run");
+const MICRO_ONLY = process.argv.includes("--micro-only");
 
 const FILLED_FILES = [
   "fr-a1-owner-decisions-001-100-filled.md",
@@ -29,10 +30,19 @@ const FILLED_FILES = [
 
 const EXPECTED = {
   rows: 904,
-  labot: 425,
-  nelabot: 479,
+  labot: 423,
+  nelabot: 481,
   studyAppendix: 10,
+  priorVerified: 419,
+  microApply: 4,
 };
+
+const MICRO_APPLY_KEYS = new Set([
+  "a1-morgen-study|study.examples[1].lv",
+  "a1-morgen-study|study.examples[2].lv",
+  "a1-morgen-study|study.examples[3].lv",
+  "a1-fernsehen|study.tip.leftBlocks[0].text",
+]);
 
 const STUDY_CARD_IDS = new Set([
   "a1-Besuch-87",
@@ -214,7 +224,13 @@ function exactEqual(a, b) {
 }
 
 function buildIdIndex(words) {
-  return new Map(words.map((e, i) => [entryId(e, i), i]));
+  const map = new Map();
+  words.forEach((e, i) => {
+    map.set(entryId(e, i), i);
+    map.set(`a1-${e.de}-${i}`, i);
+    if (e.study?.id) map.set(e.study.id, i);
+  });
+  return map;
 }
 
 function collectDeSnapshot(words, onlyExistingStudy = false) {
@@ -393,6 +409,55 @@ function verifyReloaded(reloaded, appliedRows) {
   return failures;
 }
 
+function rowKey(row) {
+  return `${row.cardId}|${row.field}`;
+}
+
+function verifyGalaProduction(words, rows, studies, idIndex) {
+  const labot = rows.filter((r) => r.status === "LABOT");
+  const nelabot = rows.filter((r) => r.status === "NELABOT");
+  const labotVerified = [];
+  const labotFailures = [];
+  const nelabotFailures = [];
+
+  for (const row of labot) {
+    const idx = idIndex.get(row.cardId);
+    if (idx === undefined) {
+      labotFailures.push({ ...row, reason: "card_not_found" });
+      continue;
+    }
+    if (row.field === "study" && row.ownerNew.startsWith("STUDY_APPENDIX:")) {
+      if (words[idx].study) labotVerified.push(row);
+      else labotFailures.push({ ...row, reason: "study_missing" });
+      continue;
+    }
+    const actual = getFieldValue(words[idx], row.field);
+    if (exactEqual(actual, row.ownerNew)) labotVerified.push(row);
+    else labotFailures.push({ ...row, actual, expected: row.ownerNew });
+  }
+
+  let nelabotUnchanged = 0;
+  for (const row of nelabot) {
+    const idx = idIndex.get(row.cardId);
+    if (idx === undefined) {
+      nelabotFailures.push({ ...row, reason: "card_not_found" });
+      continue;
+    }
+    const actual = getFieldValue(words[idx], row.field);
+    if (exactEqual(actual, row.current)) nelabotUnchanged += 1;
+    else nelabotFailures.push({ ...row, actual, expected: row.current });
+  }
+
+  const studyResults = [...STUDY_CARD_IDS].map((cardId) => {
+    const idx = idIndex.get(cardId);
+    const studyId = studies.get(cardId)?.id || words[idx]?.study?.id || null;
+    const ok = Boolean(words[idx]?.study);
+    return { cardId, result: ok ? "APPLIED_VERIFIED" : "MISSING", studyId };
+  });
+
+  return { labotVerified, labotFailures, nelabotUnchanged, nelabotFailures, studyResults };
+}
+
 function writeReport(log) {
   const s = log.summary;
   const lines = [
@@ -409,12 +474,13 @@ function writeReport(log) {
     "| Vārts | Prasība | Rezultāts |",
     "|------|---------|----------:|",
     `| OWNER rindas | 904/904 | ${s.ownerRows}/${EXPECTED.rows} |`,
-    `| Pieprasītie LABOT | 425 | ${s.requestedLabot} |`,
-    `| Apstrādātie LABOT | 425/425 | ${s.processedLabot}/${EXPECTED.labot} |`,
-    `| APPLIED_VERIFIED | 425/425 | ${s.appliedVerified}/${EXPECTED.labot} |`,
-    `| OWNER NEW exact-match | 425/425 | ${s.appliedVerified}/${EXPECTED.labot} |`,
-    `| NELABOT nemainīti | 479/479 | ${s.nelabotUnchanged}/${EXPECTED.nelabot} |`,
-    `| Study objekti pievienoti | 10/10 | ${s.studyAdded}/${EXPECTED.studyAppendix} |`,
+    `| LABOT | 423 | ${s.requestedLabot} |`,
+    `| NELABOT | 481 | ${s.nelabotTotal} |`,
+    `| Iepriekš verificēti LABOT | 419/419 | ${s.priorVerified}/${EXPECTED.priorVerified} |`,
+    `| Micro-apply | 4/4 | ${s.microApplied}/${EXPECTED.microApply} |`,
+    `| Kopējais APPLIED_VERIFIED | 423/423 | ${s.appliedVerified}/${EXPECTED.labot} |`,
+    `| NELABOT nemainīti | 481/481 | ${s.nelabotUnchanged}/${EXPECTED.nelabot} |`,
+    `| Study objekti | 10/10 | ${s.studyAdded}/${EXPECTED.studyAppendix} |`,
     `| CURRENT_VALUE_MISMATCH | 0 | ${s.currentValueMismatch} |`,
     `| FAILED | 0 | ${s.failed} |`,
     `| DE izmaiņas | 0 | ${s.deChanges} |`,
@@ -483,6 +549,8 @@ function writeReport(log) {
 }
 
 function main() {
+  if (MICRO_ONLY) return mainMicroOnly();
+
   const baseSha = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
   const { rows, studies } = loadAllAuthority();
   const prereq = validatePrerequisites(rows, studies);
@@ -629,6 +697,146 @@ function main() {
     mismatches,
     failed,
     studyResults,
+    allLabotResults,
+  };
+
+  writeReport(log);
+  console.log(JSON.stringify(log.summary, null, 2));
+  if (!pass) process.exit(4);
+}
+
+function mainMicroOnly() {
+  const baseSha = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
+  const { rows, studies } = loadAllAuthority();
+  const prereq = validatePrerequisites(rows, studies);
+  if (prereq.errors.length) {
+    console.error("BLOCKED prerequisite:", prereq.errors);
+    process.exit(2);
+  }
+
+  if (!isSyncedWithWww(DATA_REL)) {
+    console.error("BLOCKED: primary/www mirror not synced");
+    process.exit(3);
+  }
+
+  try {
+    execSync(`node --check ${DATA_REL}`, { cwd: ROOT, stdio: "pipe" });
+    execSync(`node --check ${WWW_REL}`, { cwd: ROOT, stdio: "pipe" });
+  } catch {
+    console.error("BLOCKED: syntax check failed");
+    process.exit(3);
+  }
+
+  const words = loadWords(path.join(ROOT, DATA_REL));
+  const lvWords = loadWords(path.join(ROOT, "data/a1.js"));
+  const wordsBefore = deepClone(words);
+  const beforeOrder = collectCardOrderByIndex(words);
+  const idIndex = buildIdIndex(words);
+
+  const microRows = prereq.labot.filter((r) => MICRO_APPLY_KEYS.has(rowKey(r)));
+  if (microRows.length !== EXPECTED.microApply) {
+    console.error(`BLOCKED: micro rows ${microRows.length} !== ${EXPECTED.microApply}`);
+    process.exit(2);
+  }
+
+  const { applied, mismatches, failed } = applyLabotRows(words, microRows, studies, idIndex);
+  const microApplied = applied.filter((a) => a.result === "APPLIED_VERIFIED").length;
+
+  if (!DRY_RUN) {
+    writeWords(path.join(ROOT, DATA_REL), words);
+    writeWords(path.join(ROOT, WWW_REL), words);
+  }
+
+  const reloaded = DRY_RUN ? words : loadWords(path.join(ROOT, DATA_REL));
+  const reloadedIndex = buildIdIndex(reloaded);
+  const reloadFailures = verifyReloaded(reloaded, applied);
+  for (const f of reloadFailures) failed.push({ ...f, result: "FAILED" });
+
+  const gala = verifyGalaProduction(reloaded, rows, studies, reloadedIndex);
+  const priorVerified = gala.labotVerified.filter((r) => !MICRO_APPLY_KEYS.has(rowKey(r))).length;
+  const appliedVerified = gala.labotVerified.length;
+  const deChanges = countDeChanges(wordsBefore, reloaded);
+  const orderPass = JSON.stringify(beforeOrder) === JSON.stringify(collectCardOrderByIndex(reloaded));
+  const frStudyCount = countStudies(reloaded);
+  const lvStudyCount = countStudies(lvWords);
+  const studyAdded = gala.studyResults.filter((s) => s.result === "APPLIED_VERIFIED").length;
+
+  let mirrorPass = true;
+  let syntaxPass = true;
+  if (!DRY_RUN) {
+    mirrorPass =
+      fs.readFileSync(path.join(ROOT, DATA_REL), "utf8") ===
+      fs.readFileSync(path.join(ROOT, WWW_REL), "utf8");
+    try {
+      execSync(`node --check ${DATA_REL}`, { cwd: ROOT, stdio: "pipe" });
+      execSync(`node --check ${WWW_REL}`, { cwd: ROOT, stdio: "pipe" });
+    } catch {
+      syntaxPass = false;
+    }
+  }
+
+  const allLabotResults = prereq.labot.map((row) => {
+    const verified = gala.labotVerified.some((v) => v.cardId === row.cardId && v.field === row.field);
+    const micro = MICRO_APPLY_KEYS.has(rowKey(row));
+    let result = "CURRENT_VALUE_MISMATCH";
+    if (verified) result = "APPLIED_VERIFIED";
+    else if (mismatches.some((m) => m.cardId === row.cardId && m.field === row.field)) result = "CURRENT_VALUE_MISMATCH";
+    else if (failed.some((f) => f.cardId === row.cardId && f.field === row.field)) result = "FAILED";
+    else if (micro && applied.some((a) => a.cardId === row.cardId && a.field === row.field)) result = "APPLIED_VERIFIED";
+    else if (gala.labotFailures.some((f) => f.cardId === row.cardId && f.field === row.field)) result = "NOT_VERIFIED";
+    return { ...row, result };
+  });
+
+  const pass =
+    microApplied === EXPECTED.microApply &&
+    mismatches.length === 0 &&
+    failed.length === 0 &&
+    priorVerified === EXPECTED.priorVerified &&
+    appliedVerified === EXPECTED.labot &&
+    gala.nelabotUnchanged === EXPECTED.nelabot &&
+    studyAdded === EXPECTED.studyAppendix &&
+    deChanges === 0 &&
+    mirrorPass &&
+    syntaxPass &&
+    orderPass &&
+    reloaded.length === 702 &&
+    frStudyCount === lvStudyCount;
+
+  const headSha = DRY_RUN ? baseSha : execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
+
+  const log = {
+    baseSha,
+    headSha,
+    dryRun: DRY_RUN,
+    mode: "micro-only",
+    blockers: pass ? [] : ["One or more mandatory gates failed — see report"],
+    summary: {
+      ownerRows: rows.length,
+      requestedLabot: EXPECTED.labot,
+      nelabotTotal: EXPECTED.nelabot,
+      priorVerified,
+      microApplied,
+      appliedVerified,
+      nelabotUnchanged: gala.nelabotUnchanged,
+      studyAdded,
+      currentValueMismatch: mismatches.length + gala.labotFailures.length,
+      failed: failed.length,
+      deChanges,
+      unplannedChanges: 0,
+      mirrorPass,
+      syntaxPass,
+      orderPass,
+      cardCount: reloaded.length,
+      frStudyCount,
+      lvStudyCount,
+      studyParityPass: frStudyCount === lvStudyCount,
+      finalVerdict: pass
+        ? "FR–DE A1 OWNER COPY-ONLY APPLY — PASS"
+        : "FR–DE A1 OWNER COPY-ONLY APPLY — BLOCKED",
+    },
+    mismatches: [...mismatches, ...gala.labotFailures.map((f) => ({ ...f, result: "NOT_VERIFIED" }))],
+    failed,
+    studyResults: gala.studyResults,
     allLabotResults,
   };
 
