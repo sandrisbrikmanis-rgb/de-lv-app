@@ -245,7 +245,7 @@ window.LANGUAGE_UI_STRINGS = {
     "hints": {
       "tapToRevealAnswer": "Toca la tarjeta para ver la respuesta.",
       "tapToContinue": "Toca la tarjeta para continuar.",
-      "tapToRevealGerman": "Toque la tarjeta para ver la traducción al alemán.",
+      "tapToRevealGerman": "Toca la tarjeta para ver la traducción al alemán.",
       "tapNextStep": "Toque la tarjeta para ir al siguiente paso.",
       "exerciseCardAria": "{title} tarjeta de ejercicio"
     },
@@ -258,7 +258,7 @@ window.LANGUAGE_UI_STRINGS = {
       "transformFirstPlural": "Cambia la oración a 1ª persona del plural."
     },
     "exerciseMeta": {
-      "fillCase": "Ejercicio I — Usa la conjugación correcta",
+      "fillCase": "Ejercicio I — Usa el caso correcto",
       "chooseCasePlural": "¡Pon la palabra en el caso correcto y forma el plural!",
       "answerPlural": "Ahora responde en plural.",
       "translate": "Ejercicio II — Traducir",
@@ -313,15 +313,15 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "12": {
         "title": "Lección 12",
-        "menuDesc": "Calidades comparables, también, edad y colores."
+        "menuDesc": "Grados comparativos, als/wie, edad y colores."
       },
       "13": {
         "title": "Lección 13",
-        "menuDesc": "Der Körper, partes del cuerpo, turnen y jeder."
+        "menuDesc": "El cuerpo («Der Körper»), partes del cuerpo, gimnasia («turnen») y «jeder»."
       },
       "14": {
         "title": "Lección 14",
-        "menuDesc": "Verbos müssen, wollen, mögen y modales."
+        "menuDesc": "Verbos modales müssen, wollen y mögen."
       },
       "15": {
         "title": "Lección 15",
@@ -341,7 +341,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "19": {
         "title": "Lección 19",
-        "menuDesc": "Wechselpräpositionen: vor, hinder, unter, über, neben, zwischen."
+        "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
         "title": "Lección 20",
