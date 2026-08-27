@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 "use strict";
 /**
- * Build FR–DE A1 OWNER decision files for all 702 cards (100 per file, last 102).
+ * Build FR–DE A1 OWNER decision files for all 702 cards (7 files by card range).
+ * One table row = one exact (Card ID, Field) finding; NO_FINDING cards get one review row.
  * Usage: node scripts/build-fr-a1-owner-decisions-all-cards.js
  */
 const fs = require("fs");
@@ -23,7 +24,18 @@ const CHUNKS = [
   [601, 702],
 ];
 
-const SEV_RANK = { CRITICAL: 0, HIGH: 1, MEDIUM: 2, LOW: 3 };
+const MISSING_STUDY_DE = [
+  "Besuch",
+  "besuchen",
+  "Fußball",
+  "ganz",
+  "gefallen",
+  "Geschichte",
+  "Geschwister",
+  "Großeltern",
+  "Hand",
+  "hübsch",
+];
 
 function gh(relPath) {
   return `https://github.com/${REPO}/blob/${BRANCH}/${relPath}`;
@@ -42,6 +54,10 @@ function entryId(entry, index) {
   return entry.study?.id || `a1-${entry.de}-${index}`;
 }
 
+function findingKey(f) {
+  return `${String(f.cardId || "").trim()}|${String(f.field || "").trim()}`;
+}
+
 function loadCards() {
   const code = fs.readFileSync(path.join(ROOT, "data/fr/a1.js"), "utf8");
   const ctx = { window: {} };
@@ -50,83 +66,121 @@ function loadCards() {
   return ctx.window.A1_WORDS;
 }
 
-function loadFindingsByCard() {
-  const byCard = new Map();
-  if (!fs.existsSync(AUDIT_JSON)) return byCard;
+function loadAuditFindings() {
+  if (!fs.existsSync(AUDIT_JSON)) {
+    console.error(`Missing ${AUDIT_JSON}`);
+    process.exit(1);
+  }
   const audit = JSON.parse(fs.readFileSync(AUDIT_JSON, "utf8"));
-  const findings = audit.ownerBacklogFinal || audit.validatedFindings || audit.findings?.filter((f) => f.validatedReal !== false) || [];
+  const backlog = audit.ownerBacklogFinal || [];
+  const allFindings = audit.findings || [];
+
+  const missingStudy = allFindings.filter(
+    (f) =>
+      f.field === "study" &&
+      f.validatedReal !== false &&
+      String(f.reason || "").includes("Study objekta"),
+  );
+
+  const byKey = new Map();
+  for (const f of backlog) {
+    if (!f.cardId || !f.field) continue;
+    byKey.set(findingKey(f), f);
+  }
+
+  for (const f of missingStudy) {
+    const key = findingKey(f);
+    if (!byKey.has(key)) byKey.set(key, f);
+  }
+
+  return {
+    audit,
+    backlog,
+    missingStudy,
+    mergedFindings: [...byKey.values()],
+  };
+}
+
+function groupFindingsByCard(findings) {
+  const byCard = new Map();
   for (const f of findings) {
     if (!f.cardId) continue;
     if (!byCard.has(f.cardId)) byCard.set(f.cardId, []);
     byCard.get(f.cardId).push(f);
   }
+  for (const list of byCard.values()) {
+    list.sort((a, b) => String(a.field).localeCompare(String(b.field)));
+  }
   return byCard;
 }
 
-function pickPrimaryFinding(findings) {
-  if (!findings?.length) return null;
-  const lvField = findings.find((f) => {
-    const field = String(f.field || "");
-    return field === "lv" || field === "frText" || field === "entry.lv";
-  });
-  if (lvField) return lvField;
-  return [...findings].sort((a, b) => {
-    const sa = SEV_RANK[String(a.severity || "MEDIUM").toUpperCase()] ?? 9;
-    const sb = SEV_RANK[String(b.severity || "MEDIUM").toUpperCase()] ?? 9;
-    return sa - sb;
-  })[0];
-}
+function buildOwnerRows(cards, findingsByCard) {
+  const rows = [];
 
-function buildCardRows(cards, findingsByCard) {
-  return cards.map((entry, index) => {
+  cards.forEach((entry, index) => {
+    const cardNum = index + 1;
     const cardId = entryId(entry, index);
     const cardFindings = findingsByCard.get(cardId) || [];
-    const primary = pickPrimaryFinding(cardFindings);
-    const extraCount = cardFindings.length > 1 ? cardFindings.length - 1 : 0;
-    const note =
-      extraCount > 0
-        ? `+${extraCount} cits atradums (${cardFindings.filter((f) => f !== primary).map((f) => f.field).slice(0, 3).join(", ")}${extraCount > 3 ? "…" : ""})`
-        : primary
-          ? ""
-          : "Nav audit atraduma — apstiprināt CURRENT vai norādīt NEW";
 
-    return {
-      seq: index + 1,
-      cardId,
-      de: entry.de || "",
-      deArticle: entry.de_article || "",
-      field: primary?.field || "lv",
-      current: primary ? primary.currentFr || primary.currentEt || entry.lv : entry.lv,
-      proposed: primary?.proposedFr || primary?.proposedEt || "",
-      severity: primary?.severity || "—",
-      category: primary?.category || (cardFindings.length ? "—" : "NO_FINDING"),
-      auditId: primary?.findingId || "—",
-      reason: primary?.reason || "",
-      findingCount: cardFindings.length,
-      note,
-      hasStudy: Boolean(entry.study),
-    };
+    if (cardFindings.length === 0) {
+      rows.push({
+        cardNum,
+        cardId,
+        de: entry.de || "",
+        field: "lv",
+        current: entry.lv || "",
+        proposed: "",
+        severity: "—",
+        category: "NO_FINDING",
+        auditId: "—",
+        note: "Nav audit atraduma — apstiprināt CURRENT vai norādīt NEW",
+        rowKind: "NO_FINDING",
+      });
+      return;
+    }
+
+    for (const f of cardFindings) {
+      rows.push({
+        cardNum,
+        cardId,
+        de: f.de || entry.de || "",
+        field: f.field || "",
+        current: f.currentFr || f.currentEt || entry.lv || "",
+        proposed: f.proposedFr || f.proposedEt || "",
+        severity: f.severity || "—",
+        category: f.category || "—",
+        auditId: f.findingId || "—",
+        note: f.reason ? truncate(f.reason, 160) : "",
+        rowKind: "FINDING",
+      });
+    }
   });
+
+  return rows;
 }
 
 function fileRange(start, end) {
   return `${String(start).padStart(3, "0")}-${String(end).padStart(3, "0")}`;
 }
 
-function buildFileContent(rows, start, end, fileName) {
+function buildFileContent(rows, start, end, fileName, cardCount) {
   const rel = `reports/${fileName}`;
+  const findingRows = rows.filter((r) => r.rowKind === "FINDING");
+  const noFindingRows = rows.filter((r) => r.rowKind === "NO_FINDING");
+  const cardsWithFindings = new Set(findingRows.map((r) => r.cardId)).size;
+
   const lines = [
     `# FR–DE A1 — OWNER DECISIONS (${start}–${end})`,
     "",
     "**Standard:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` v1.12",
-    `**Kartītes:** **${rows.length}** (no **702** kopā)`,
+    `**Kartītes:** **${cardCount}** (no **702** kopā) · **Rindas:** **${rows.length}**`,
     `**WORK_BRANCH:** \`${BRANCH}\``,
     `**Audita avots:** [fr-a1-full-audit.md](${gh("reports/fr-a1-full-audit.md")})`,
     "**DE:** STRICT READ-ONLY",
     "",
     "Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE_REVIEW**",
     "",
-    "> Viena rinda = viena A1 kartīte. Ja kartei ir vairāki audit atradumi, tabulā ir galvenais; pārējie — kolonnā Piezīme / pilns audits.",
+    "> Viena rinda = viens precīzs **(Card ID, Field)** atradums. Kartei ar vairākiem atradumiem — vairākas rindas.",
     "",
     "## GitHub",
     "",
@@ -137,44 +191,95 @@ function buildFileContent(rows, start, end, fileName) {
     "",
     "## Tabula",
     "",
-    "| # | Card ID | DE | Field | CURRENT | PROPOSED_FR | Severity | Category | Audit ID | OWNER STATUS | OWNER NEW | Piezīme |",
-    "|---|---------|----|-------|---------|-------------|----------|----------|----------|--------------|-----------|---------|",
+    "| Card # | Card ID | DE | Field | CURRENT | PROPOSED_FR | Severity | Category | Audit ID | OWNER STATUS | OWNER NEW | Piezīme |",
+    "|--------|---------|----|-------|---------|-------------|----------|----------|----------|--------------|-----------|---------|",
   ];
 
   for (const row of rows) {
     lines.push(
-      `| ${row.seq} | ${escapePipe(row.cardId)} | ${escapePipe(row.de)} | ${escapePipe(row.field)} | ${escapePipe(truncate(row.current, 100))} | ${escapePipe(truncate(row.proposed, 100))} | ${row.severity} | ${row.category} | ${row.auditId} | PENDING | | ${escapePipe(row.note)} |`,
+      `| ${row.cardNum} | ${escapePipe(row.cardId)} | ${escapePipe(row.de)} | ${escapePipe(row.field)} | ${escapePipe(truncate(row.current, 100))} | ${escapePipe(truncate(row.proposed, 100))} | ${row.severity} | ${row.category} | ${row.auditId} | | | ${escapePipe(row.note)} |`,
     );
   }
 
   lines.push("");
-  lines.push("## Detalizēti (ar DE artikulu un iemeslu)");
+  lines.push("## Lokālais kopsavilkums");
   lines.push("");
-
-  for (const row of rows) {
-    lines.push(`### ${row.seq}. \`${row.cardId}\` — ${row.de}`);
-    lines.push("");
-    lines.push(`| Lauks | Vērtība |`);
-    lines.push(`|-------|---------|`);
-    lines.push(`| DE | ${escapePipe(row.de)} (${escapePipe(row.deArticle) || "—"}) |`);
-    lines.push(`| Field | \`${row.field}\` |`);
-    lines.push(`| CURRENT | ${escapePipe(row.current)} |`);
-    lines.push(`| PROPOSED_FR (audits) | ${escapePipe(row.proposed) || "—"} |`);
-    lines.push(`| Audit ID | ${row.auditId} |`);
-    lines.push(`| Severity / Category | ${row.severity} / ${row.category} |`);
-    if (row.reason) lines.push(`| Problēma | ${escapePipe(row.reason)} |`);
-    lines.push(`| Study | ${row.hasStudy ? "Jā" : "Nē"} |`);
-    lines.push(`| Atradumi kartei | ${row.findingCount} |`);
-    lines.push(`| **OWNER STATUS** | **PENDING** |`);
-    lines.push(`| **OWNER NEW** | |`);
-    if (row.note) lines.push(`| Piezīme | ${escapePipe(row.note)} |`);
-    lines.push("");
-  }
+  lines.push("| Metrika | Skaits |");
+  lines.push("|---------|--------|");
+  lines.push(`| Kartītes diapazonā | ${cardCount} |`);
+  lines.push(`| Rindas kopā | ${rows.length} |`);
+  lines.push(`| Atradumu rindas | ${findingRows.length} |`);
+  lines.push(`| NO_FINDING rindas | ${noFindingRows.length} |`);
+  lines.push(`| Kartītes ar atradumiem | ${cardsWithFindings} |`);
+  lines.push("");
+  lines.push("> Aizpildiet kolonnas **OWNER STATUS** un **OWNER NEW**. PROPOSED_FR nav automātisks OWNER lēmums.");
 
   return lines.join("\n");
 }
 
-function buildIndex(files) {
+function validate(rows, cards, backlog, missingStudy, mergedFindings) {
+  const findingRows = rows.filter((r) => r.rowKind === "FINDING");
+  const noFindingRows = rows.filter((r) => r.rowKind === "NO_FINDING");
+  const cardsWithFindings = new Set(findingRows.map((r) => r.cardId));
+
+  const rowKeys = new Set();
+  let duplicateRows = 0;
+  for (const row of findingRows) {
+    const key = `${row.cardId}|${row.field}`;
+    if (rowKeys.has(key)) duplicateRows += 1;
+    else rowKeys.add(key);
+  }
+
+  const backlogKeys = new Set(backlog.map(findingKey));
+  const mergedKeys = new Set(mergedFindings.map(findingKey));
+  let missingFindings = 0;
+  for (const key of mergedKeys) {
+    if (!rowKeys.has(key)) missingFindings += 1;
+  }
+
+  let missingBacklog = 0;
+  for (const key of backlogKeys) {
+    if (!rowKeys.has(key)) missingBacklog += 1;
+  }
+
+  const backlogCardIds = new Set(backlog.map((f) => f.cardId));
+  const missingStudyRows = findingRows.filter(
+    (r) => r.field === "study" && MISSING_STUDY_DE.includes(r.de),
+  );
+  const missingStudyDeFound = new Set(missingStudyRows.map((r) => r.de));
+  const studyOnlyCardIds = new Set(
+    missingStudy.filter((f) => !backlogCardIds.has(f.cardId)).map((f) => f.cardId),
+  );
+
+  return {
+    cardsTotal: cards.length,
+    cardsWithFindings: cardsWithFindings.size,
+    cardsWithBacklogFindings: backlogCardIds.size,
+    cardsNoFinding: noFindingRows.length,
+    cardsNoBacklogFindings: cards.length - backlogCardIds.size,
+    findingRows: findingRows.length,
+    backlogRows: backlog.length,
+    missingStudyExpected: missingStudy.length,
+    missingStudyIncluded: missingStudyDeFound.size,
+    studyOnlyCards: studyOnlyCardIds.size,
+    uniqueCardField: rowKeys.size,
+    duplicateRows,
+    missingFindings,
+    missingBacklog,
+    pass:
+      cards.length === 702 &&
+      duplicateRows === 0 &&
+      missingFindings === 0 &&
+      missingBacklog === 0 &&
+      rowKeys.size === mergedKeys.size &&
+      missingStudyDeFound.size === MISSING_STUDY_DE.length &&
+      backlog.length === 412 &&
+      backlogCardIds.size === 215 &&
+      cards.length - backlogCardIds.size === 487,
+  };
+}
+
+function buildIndex(files, validation) {
   const lines = [
     "# FR–DE A1 — OWNER DECISIONS (702 kartītes)",
     "",
@@ -182,24 +287,37 @@ function buildIndex(files) {
     `**WORK_BRANCH:** \`${BRANCH}\``,
     "**Kartītes:** **702** · **7 faili** (6×100 + 1×102)",
     "",
-    "| Diapazons | Kartītes | Fails | GitHub |",
-    "|-----------|----------|-------|--------|",
+    "| Diapazons | Kartītes | Rindas | Fails | GitHub |",
+    "|-----------|----------|--------|-------|--------|",
   ];
   for (const f of files) {
     lines.push(
-      `| ${f.start}–${f.end} | ${f.count} | [${f.name}](${gh(`reports/${f.name}`)}) | [rediģēt](https://github.com/${REPO}/edit/${BRANCH}/reports/${f.name}) |`,
+      `| ${f.start}–${f.end} | ${f.cardCount} | ${f.rowCount} | [${f.name}](${gh(`reports/${f.name}`)}) | [rediģēt](https://github.com/${REPO}/edit/${BRANCH}/reports/${f.name}) |`,
     );
   }
   lines.push("");
-  lines.push("## Kopsavilkums");
+  lines.push("## Validācijas kopsavilkums");
   lines.push("");
   lines.push("| Metrika | Skaits |");
   lines.push("|---------|--------|");
-  lines.push("| Kopā kartītes | 702 |");
-  lines.push(`| Ar audit atradumu | ${files.reduce((s, f) => s + f.withFindings, 0)} |`);
-  lines.push(`| Bez audit atraduma | ${702 - files.reduce((s, f) => s + f.withFindings, 0)} |`);
+  lines.push(`| Kartītes | **${validation.cardsTotal}/702** |`);
+  lines.push(`| Kartītes ar atradumiem | **${validation.cardsWithBacklogFindings}** |`);
+  lines.push(`| OWNER atradumu rindas (OWNER_BACKLOG_FINAL) | **${validation.backlogRows}/${validation.backlogRows}** |`);
+  lines.push(`| Trūkstošie Study objekti | **${validation.missingStudyIncluded}/${validation.missingStudyExpected}** |`);
+  lines.push(`| OWNER atradumu rindas (kopā tabulā) | **${validation.findingRows}/${validation.findingRows}** |`);
+  lines.push(`| NO_FINDING kartītes (tabulā) | **${validation.cardsNoFinding}/${validation.cardsNoBacklogFindings - validation.studyOnlyCards}** |`);
+  lines.push(`| NO_FINDING kartītes (bez OWNER_BACKLOG atradumiem) | **${validation.cardsNoBacklogFindings}/${validation.cardsNoBacklogFindings}** |`);
+  lines.push(`| Unikāli (Card ID, Field) | **${validation.uniqueCardField}** |`);
+  lines.push(`| Pazuduši atradumi | **${validation.missingFindings}** |`);
+  lines.push(`| Dublikāti | **${validation.duplicateRows}** |`);
   lines.push("");
-  lines.push("> Aizpildiet kolonnas **OWNER STATUS** un **OWNER NEW** katrā failā. PROPOSED_FR nav automātisks OWNER lēmums.");
+  lines.push(
+    validation.pass
+      ? "**Validācija:** ✅ PASS"
+      : "**Validācija:** ❌ FAIL — pārbaudiet skaitļus un avotu",
+  );
+  lines.push("");
+  lines.push("> Viena tabulas rinda = viens **(Card ID, Field)** atradums. **OWNER STATUS** un **OWNER NEW** aizpilda OWNER.");
   return lines.join("\n");
 }
 
@@ -210,35 +328,35 @@ function main() {
     process.exit(1);
   }
 
-  const findingsByCard = loadFindingsByCard();
-  const rows = buildCardRows(cards, findingsByCard);
+  const { backlog, missingStudy, mergedFindings } = loadAuditFindings();
+  const findingsByCard = groupFindingsByCard(mergedFindings);
+  const allRows = buildOwnerRows(cards, findingsByCard);
+  const validation = validate(allRows, cards, backlog, missingStudy, mergedFindings);
 
   const fileMeta = [];
   for (const [start, end] of CHUNKS) {
-    const slice = rows.slice(start - 1, end);
+    const cardSlice = cards.slice(start - 1, end);
+    const cardIdsInRange = new Set(cardSlice.map((e, i) => entryId(e, start - 1 + i)));
+    const slice = allRows.filter((r) => cardIdsInRange.has(r.cardId));
     const name = `fr-a1-owner-decisions-${fileRange(start, end)}.md`;
-    const content = buildFileContent(slice, start, end, name);
+    const content = buildFileContent(slice, start, end, name, cardSlice.length);
     fs.writeFileSync(path.join(ROOT, "reports", name), content);
     fileMeta.push({
       name,
       start,
       end,
-      count: slice.length,
-      withFindings: slice.filter((r) => r.findingCount > 0).length,
+      cardCount: cardSlice.length,
+      rowCount: slice.length,
     });
-    console.log(`Wrote reports/${name} (${slice.length} cards, ${slice.filter((r) => r.findingCount > 0).length} with findings)`);
+    console.log(`Wrote reports/${name} (${cardSlice.length} cards, ${slice.length} rows)`);
   }
 
   const indexPath = path.join(ROOT, "reports/fr-a1-owner-decisions-702-INDEX.md");
-  fs.writeFileSync(indexPath, buildIndex(fileMeta));
+  fs.writeFileSync(indexPath, buildIndex(fileMeta, validation));
   console.log(`Wrote reports/fr-a1-owner-decisions-702-INDEX.md`);
 
-  console.log(JSON.stringify({
-    totalCards: 702,
-    files: fileMeta.length,
-    cardsWithFindings: rows.filter((r) => r.findingCount > 0).length,
-    cardsWithoutFindings: rows.filter((r) => r.findingCount === 0).length,
-  }, null, 2));
+  console.log(JSON.stringify(validation, null, 2));
+  if (!validation.pass) process.exit(2);
 }
 
 main();
