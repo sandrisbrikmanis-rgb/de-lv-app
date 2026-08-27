@@ -1,7 +1,7 @@
 {
-  "baseSha": "de7db44358e4048d7d9a148e36f3e761d709d0db",
-  "headSha": "de7db44358e4048d7d9a148e36f3e761d709d0db",
-  "dryRun": false,
+  "baseSha": "ab141c1b5810d0d80aa8cee343f84e829bfbf685",
+  "headSha": "ab141c1b5810d0d80aa8cee343f84e829bfbf685",
+  "dryRun": true,
   "blockers": [],
   "mismatches": [],
   "failed": [],
@@ -548,11 +548,9 @@
       "ownerNew": "REMOVE_STALE_ACCENT_TERM: sienas",
       "note": "Noņemt tikai norādīto novecojušo akcenta terminu; FR/DE redzamo tekstu nemainīt.",
       "entryIndex": 12,
-      "result": "APPLIED_VERIFIED",
+      "result": "ALREADY_ABSENT",
       "removeTerm": "sienas",
-      "beforePaths": [
-        "tip.left.green"
-      ]
+      "beforePaths": []
     },
     {
       "num": 57,
@@ -564,11 +562,9 @@
       "ownerNew": "REMOVE_STALE_ACCENT_TERM: loga",
       "note": "Noņemt tikai norādīto novecojušo akcenta terminu; FR/DE redzamo tekstu nemainīt.",
       "entryIndex": 12,
-      "result": "APPLIED_VERIFIED",
+      "result": "ALREADY_ABSENT",
       "removeTerm": "loga",
-      "beforePaths": [
-        "tip.left.green"
-      ]
+      "beforePaths": []
     },
     {
       "num": 58,
@@ -580,11 +576,9 @@
       "ownerNew": "REMOVE_STALE_ACCENT_TERM: malas",
       "note": "Noņemt tikai norādīto novecojušo akcenta terminu; FR/DE redzamo tekstu nemainīt.",
       "entryIndex": 12,
-      "result": "APPLIED_VERIFIED",
+      "result": "ALREADY_ABSENT",
       "removeTerm": "malas",
-      "beforePaths": [
-        "tip.left.green"
-      ]
+      "beforePaths": []
     },
     {
       "num": 59,
@@ -596,7 +590,8 @@
       "ownerNew": "Tu",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 149,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Tu"
     },
     {
       "num": 60,
@@ -608,7 +603,8 @@
       "ownerNew": "Stylo-feutre",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 186,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Stylo-feutre"
     },
     {
       "num": 61,
@@ -620,7 +616,8 @@
       "ownerNew": "À",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 12,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "À"
     },
     {
       "num": 62,
@@ -632,7 +629,8 @@
       "ownerNew": "De quelqu'un ou de quelque chose (origine)",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 17,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "De quelqu'un ou de quelque chose (origine)"
     },
     {
       "num": 63,
@@ -644,7 +642,8 @@
       "ownerNew": "De",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 57,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "De"
     },
     {
       "num": 64,
@@ -656,7 +655,8 @@
       "ownerNew": "Vers",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 60,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Vers"
     },
     {
       "num": 65,
@@ -668,7 +668,8 @@
       "ownerNew": "Il monte sur le cheval.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 60,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Il monte sur le cheval."
     },
     {
       "num": 66,
@@ -680,7 +681,8 @@
       "ownerNew": "Se baigner",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 68,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Se baigner"
     },
     {
       "num": 67,
@@ -692,7 +694,8 @@
       "ownerNew": "Aller nager",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 68,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Aller nager"
     },
     {
       "num": 68,
@@ -704,7 +707,8 @@
       "ownerNew": "Chez",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 78,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Chez"
     },
     {
       "num": 69,
@@ -716,7 +720,8 @@
       "ownerNew": "S'il vous plaît !",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 93,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "S'il vous plaît !"
     },
     {
       "num": 70,
@@ -728,7 +733,8 @@
       "ownerNew": "Je reste à la maison.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 101,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Je reste à la maison."
     },
     {
       "num": 71,
@@ -740,7 +746,8 @@
       "ownerNew": "J'étais là.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 126,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "J'étais là."
     },
     {
       "num": 72,
@@ -752,7 +759,8 @@
       "ownerNew": "Parce que",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 130,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Parce que"
     },
     {
       "num": 73,
@@ -764,7 +772,8 @@
       "ownerNew": "Article indéfini",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 154,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Article indéfini"
     },
     {
       "num": 74,
@@ -776,7 +785,8 @@
       "ownerNew": "Glace",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 157,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Glace"
     },
     {
       "num": 75,
@@ -788,7 +798,8 @@
       "ownerNew": "Neige",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 157,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Neige"
     },
     {
       "num": 76,
@@ -800,7 +811,8 @@
       "ownerNew": "D'abord • Seulement",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 165,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "D'abord • Seulement"
     },
     {
       "num": 77,
@@ -812,7 +824,8 @@
       "ownerNew": "D'abord • Au début",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 165,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "D'abord • Au début"
     },
     {
       "num": 78,
@@ -824,7 +837,8 @@
       "ownerNew": "Il • Forme impersonnelle",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 167,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Il • Forme impersonnelle"
     },
     {
       "num": 79,
@@ -836,7 +850,8 @@
       "ownerNew": "As-tu un peu de temps ?",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 169,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "As-tu un peu de temps ?"
     },
     {
       "num": 80,
@@ -848,7 +863,8 @@
       "ownerNew": "Rappelez-vous : chose → quelque chose • Degré → un peu.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 169,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Rappelez-vous : chose → quelque chose • Degré → un peu."
     },
     {
       "num": 81,
@@ -860,7 +876,8 @@
       "ownerNew": "Quelque chose",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 169,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Quelque chose"
     },
     {
       "num": 82,
@@ -872,7 +889,8 @@
       "ownerNew": "Conduire",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 172,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Conduire"
     },
     {
       "num": 83,
@@ -884,7 +902,8 @@
       "ownerNew": "Voyager en véhicule",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 172,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Voyager en véhicule"
     },
     {
       "num": 84,
@@ -896,7 +915,8 @@
       "ownerNew": "Aller à pied",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 172,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Aller à pied"
     },
     {
       "num": 85,
@@ -908,7 +928,8 @@
       "ownerNew": "Courir / marcher",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 172,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Courir / marcher"
     },
     {
       "num": 86,
@@ -920,7 +941,8 @@
       "ownerNew": "Emmener",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 172,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Emmener"
     },
     {
       "num": 87,
@@ -932,7 +954,8 @@
       "ownerNew": "Trouver",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 187,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Trouver"
     },
     {
       "num": 88,
@@ -944,7 +967,8 @@
       "ownerNew": "Trouver / penser",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 187,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Trouver / penser"
     },
     {
       "num": 89,
@@ -956,7 +980,8 @@
       "ownerNew": "Combien paies-tu pour une voiture ?",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 216,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Combien paies-tu pour une voiture ?"
     },
     {
       "num": 90,
@@ -968,7 +993,8 @@
       "ownerNew": "Recevoir ou obtenir",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 223,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Recevoir ou obtenir"
     },
     {
       "num": 91,
@@ -980,7 +1006,8 @@
       "ownerNew": "Apporter ou livrer",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 223,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Apporter ou livrer"
     },
     {
       "num": 92,
@@ -992,7 +1019,8 @@
       "ownerNew": "J'ai mal à la main.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 267,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "J'ai mal à la main."
     },
     {
       "num": 93,
@@ -1004,7 +1032,8 @@
       "ownerNew": "Entre dans la maison !",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 296,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Entre dans la maison !"
     },
     {
       "num": 94,
@@ -1016,7 +1045,8 @@
       "ownerNew": "Connaître",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 310,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Connaître"
     },
     {
       "num": 95,
@@ -1028,7 +1058,8 @@
       "ownerNew": "Où vous êtes-vous rencontrés ?",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 310,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Où vous êtes-vous rencontrés ?"
     },
     {
       "num": 96,
@@ -1040,7 +1071,8 @@
       "ownerNew": "Comment le savez-vous ?",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 311,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Comment le savez-vous ?"
     },
     {
       "num": 97,
@@ -1052,7 +1084,8 @@
       "ownerNew": "Pouvoir",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 319,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Pouvoir"
     },
     {
       "num": 98,
@@ -1064,7 +1097,8 @@
       "ownerNew": "Pouvoir",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 319,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Pouvoir"
     },
     {
       "num": 99,
@@ -1076,7 +1110,8 @@
       "ownerNew": "Coûter",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 320,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Coûter"
     },
     {
       "num": 100,
@@ -1088,7 +1123,8 @@
       "ownerNew": "Magasin",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 349,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Magasin"
     },
     {
       "num": 101,
@@ -1100,7 +1136,8 @@
       "ownerNew": "Pays",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 351,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Pays"
     },
     {
       "num": 102,
@@ -1112,7 +1149,8 @@
       "ownerNew": "Terre",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 351,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Terre"
     },
     {
       "num": 103,
@@ -1124,7 +1162,8 @@
       "ownerNew": "Long",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 352,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Long"
     },
     {
       "num": 104,
@@ -1136,7 +1175,8 @@
       "ownerNew": "Laisser",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 356,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Laisser"
     },
     {
       "num": 105,
@@ -1148,7 +1188,8 @@
       "ownerNew": "Courir",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 357,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Courir"
     },
     {
       "num": 109,
@@ -1160,7 +1201,8 @@
       "ownerNew": "S'il te plaît, reste silencieux.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 368,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "S'il te plaît, reste silencieux."
     },
     {
       "num": 110,
@@ -1172,7 +1214,8 @@
       "ownerNew": "Être allongé",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 377,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Être allongé"
     },
     {
       "num": 112,
@@ -1184,7 +1227,8 @@
       "ownerNew": "Faire",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 386,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Faire"
     },
     {
       "num": 113,
@@ -1196,7 +1240,8 @@
       "ownerNew": "Fois",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 390,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Fois"
     },
     {
       "num": 114,
@@ -1208,7 +1253,8 @@
       "ownerNew": "À demain !",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 417,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "À demain !"
     },
     {
       "num": 115,
@@ -1220,7 +1266,8 @@
       "ownerNew": "Devoir",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 423,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Devoir"
     },
     {
       "num": 116,
@@ -1232,7 +1279,8 @@
       "ownerNew": "À",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 426,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "À"
     },
     {
       "num": 117,
@@ -1244,7 +1292,8 @@
       "ownerNew": "Bien sûr",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 433,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Bien sûr"
     },
     {
       "num": 118,
@@ -1256,7 +1305,8 @@
       "ownerNew": "C'est tout à fait naturel.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 433,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "C'est tout à fait naturel."
     },
     {
       "num": 119,
@@ -1268,7 +1318,8 @@
       "ownerNew": "Prendre",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 435,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Prendre"
     },
     {
       "num": 120,
@@ -1280,7 +1331,8 @@
       "ownerNew": "Je suis toujours à la maison.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 451,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Je suis toujours à la maison."
     },
     {
       "num": 121,
@@ -1292,7 +1344,8 @@
       "ownerNew": "Es-tu toujours là ?",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 451,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Es-tu toujours là ?"
     },
     {
       "num": 122,
@@ -1304,7 +1357,8 @@
       "ownerNew": "Si",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 457,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Si"
     },
     {
       "num": 123,
@@ -1316,7 +1370,8 @@
       "ownerNew": "Si",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 457,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Si"
     },
     {
       "num": 124,
@@ -1328,7 +1383,8 @@
       "ownerNew": "Ou dans un choix",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 459,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Ou dans un choix"
     },
     {
       "num": 125,
@@ -1340,7 +1396,8 @@
       "ownerNew": "Convenir",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 471,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Convenir"
     },
     {
       "num": 126,
@@ -1352,7 +1409,8 @@
       "ownerNew": "Puis-je essayer la veste ?",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 482,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Puis-je essayer la veste ?"
     },
     {
       "num": 127,
@@ -1364,7 +1422,8 @@
       "ownerNew": "Goûter",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 482,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Goûter"
     },
     {
       "num": 128,
@@ -1376,7 +1435,8 @@
       "ownerNew": "Regarder",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 510,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Regarder"
     },
     {
       "num": 129,
@@ -1388,7 +1448,8 @@
       "ownerNew": "Je regarde la télé.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 510,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Je regarde la télé."
     },
     {
       "num": 130,
@@ -1400,7 +1461,8 @@
       "ownerNew": "Je suis déjà à la maison.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 521,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Je suis déjà à la maison."
     },
     {
       "num": 131,
@@ -1412,7 +1474,8 @@
       "ownerNew": "J'aime nager.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 531,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "J'aime nager."
     },
     {
       "num": 132,
@@ -1424,7 +1487,8 @@
       "ownerNew": "Je vais nager.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 531,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Je vais nager."
     },
     {
       "num": 133,
@@ -1436,7 +1500,8 @@
       "ownerNew": "Nager",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 531,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Nager"
     },
     {
       "num": 136,
@@ -1461,7 +1526,8 @@
       "ownerNew": "Soi-même",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 547,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Soi-même"
     },
     {
       "num": 138,
@@ -1473,7 +1539,8 @@
       "ownerNew": "Elle se réjouit.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 547,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Elle se réjouit."
     },
     {
       "num": 139,
@@ -1485,7 +1552,8 @@
       "ownerNew": "Sûr",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 548,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Sûr"
     },
     {
       "num": 140,
@@ -1497,7 +1565,8 @@
       "ownerNew": "Elle",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 549,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Elle"
     },
     {
       "num": 141,
@@ -1509,7 +1578,8 @@
       "ownerNew": "Vous",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 550,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Vous"
     },
     {
       "num": 142,
@@ -1521,7 +1591,8 @@
       "ownerNew": "Vous cuisinez, s'il vous plaît.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 550,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Vous cuisinez, s'il vous plaît."
     },
     {
       "num": 143,
@@ -1533,7 +1604,8 @@
       "ownerNew": "Vous cuisinez.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 550,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Vous cuisinez."
     },
     {
       "num": 144,
@@ -1545,7 +1617,8 @@
       "ownerNew": "Vous mangez.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 550,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Vous mangez."
     },
     {
       "num": 145,
@@ -1557,7 +1630,8 @@
       "ownerNew": "Vous cuisinez.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 550,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Vous cuisinez."
     },
     {
       "num": 146,
@@ -1569,7 +1643,8 @@
       "ownerNew": "Vous jouez au football.",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 550,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Vous jouez au football."
     },
     {
       "num": 147,
@@ -1581,7 +1656,8 @@
       "ownerNew": "Devoir",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 564,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Devoir"
     },
     {
       "num": 148,
@@ -1593,7 +1669,8 @@
       "ownerNew": "Au-dessus",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 608,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Au-dessus"
     },
     {
       "num": 149,
@@ -1605,7 +1682,8 @@
       "ownerNew": "Autour",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 611,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Autour"
     },
     {
       "num": 150,
@@ -1617,7 +1695,8 @@
       "ownerNew": "Vers cette heure / contre",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 611,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Vers cette heure / contre"
     },
     {
       "num": 151,
@@ -1629,8 +1708,8 @@
       "ownerNew": "En faveur de",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 611,
-      "result": "APPLIED_REBASED",
-      "actualBefore": "Pour / en faveur de"
+      "result": "ALREADY_MATCHED",
+      "actual": "En faveur de"
     },
     {
       "num": 152,
@@ -1642,7 +1721,8 @@
       "ownerNew": "Comprendre",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 621,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Comprendre"
     },
     {
       "num": 153,
@@ -1654,7 +1734,8 @@
       "ownerNew": "Comprendre",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 621,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Comprendre"
     },
     {
       "num": 154,
@@ -1666,7 +1747,8 @@
       "ownerNew": "Du",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 634,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Du"
     },
     {
       "num": 155,
@@ -1678,7 +1760,8 @@
       "ownerNew": "De (une chose précise, de qui ?)",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 634,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "De (une chose précise, de qui ?)"
     },
     {
       "num": 156,
@@ -1690,7 +1773,8 @@
       "ownerNew": "Devant",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 636,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Devant"
     },
     {
       "num": 157,
@@ -1702,7 +1786,8 @@
       "ownerNew": "Quoi",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 644,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Quoi"
     },
     {
       "num": 158,
@@ -1714,7 +1799,8 @@
       "ownerNew": "Si",
       "note": "OWNER precizēts variants atbilstoši vienas galvenās nozīmes noteikumam un DE jēgai.",
       "entryIndex": 655,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Si"
     },
     {
       "num": 159,
@@ -1726,7 +1812,8 @@
       "ownerNew": "Télévision (média)",
       "note": "Auditā ieteiktais variants lingvistiski apstiprināts.",
       "entryIndex": 687,
-      "result": "APPLIED_VERIFIED"
+      "result": "ALREADY_MATCHED",
+      "actual": "Télévision (média)"
     }
   ],
   "skipped": [

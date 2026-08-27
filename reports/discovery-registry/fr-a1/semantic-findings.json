@@ -2,12 +2,12 @@
   "version": 1,
   "meta": {
     "dataset": "fr-a1",
-    "auditRunId": "run-e7820afd-2026-08-27",
+    "auditRunId": "run-be8f671e-2026-08-27",
     "mainSha": "a2a769e8600291411a7a66eab0483dd4659c9151",
-    "productionBlob": "64f871449c7fe76734298f834cafeaf819d603e3",
+    "productionBlob": "ac6cdb404d7580efdab697559e344e1f9005a4d2",
     "masterVersion": "1.12",
     "model": "gpt-5.6-luna",
-    "updatedAt": "2026-08-27T16:38:26.767Z"
+    "updatedAt": "2026-08-27T17:00:12.907Z"
   },
   "entries": [
     {
@@ -78,12 +78,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte|tip.text|(tukšs)"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.765Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bitte-study|tip.text|trūkst study.tip.text salīdzinājumā ar lv etalonu",
@@ -102,12 +103,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte-study|tip.text|(tukšs)"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.765Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-Fußball-218|study|trūkst study objekta vārdam fußball",
@@ -262,12 +264,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sprechen-study|entry[5].study.comparison[0].example|wir sprechen über die arbeit. – nous parlons de travail."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.765Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-aber|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -286,12 +289,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-aber|entry[21].study.comparison[0].example|ich komme, aber später. – je viendrai, mais plus tard."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-auch-study|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -310,12 +314,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-auch-study|entry[48].study.important[0]|ich auch wünsche ihnen n’est pas le bon ordre des mots."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-auf|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -334,12 +339,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-auf|entry[49].study.comparison[1].example|ich hänge das bild an die wand. – j'accroche le tableau au mur."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bei|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -358,12 +364,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bei|entry[78].study.comparison[1].example|das bild hängt an der wand. – le tableau est accroché au mur."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bitte|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -382,12 +389,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte|entry[93].study.explanation[5]|bitte avec une lettre minuscule est un mot poli - cela signifie s'il vous plaît (bitte schön !, eine tasse kaffee, bitte)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bitte|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
@@ -406,12 +414,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte|entry[93].study.tip[0]|petite bouchée = s'il te plaît (bitte schön!, kaffee, bitte). die bitte avec une majuscule = demande (eine bitte, meine bitte)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bitte|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -430,12 +439,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte|entry[93].study.important[3]|nepareizi : die bitte schön ! → pareizi : bitte schön !"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bitte|entry[].study.comparison[].meaning|lv/atlikušā valoda fr laukā",
@@ -472,13 +482,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte|entry[93].study.comparison[0].example|komm bitte herein. – lūdzu, nāc iekšā.",
         "a1-bitte|entry[93].study.comparison[1].example|ich habe eine bitte. – man ir lūgums."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bitte-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -497,12 +508,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte-study|entry[94].study.explanation[5]|bitte avec une lettre minuscule est un mot poli - cela signifie s'il vous plaît (bitte schön !, eine tasse kaffee, bitte)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bitte-study|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
@@ -521,12 +533,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte-study|entry[94].study.tip[0]|petite bouchée = s'il te plaît (bitte schön!, kaffee, bitte). die bitte avec une majuscule = demande (eine bitte, meine bitte)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bitte-study|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -545,12 +558,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte-study|entry[94].study.important[3]|nepareizi : die bitte schön ! → pareizi : bitte schön !"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bitte-study|entry[].study.comparison[].meaning|lv/atlikušā valoda fr laukā",
@@ -587,13 +601,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte-study|entry[94].study.comparison[0].example|ich habe eine bitte. – man ir lūgums.",
         "a1-bitte-study|entry[94].study.comparison[1].example|komm bitte herein. – lūdzu, nāc iekšā."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-bringen|entry[].study.comparison[].meaning|lv/atlikušā valoda fr laukā",
@@ -629,12 +644,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bringen|entry[111].study.comparison[4].example|ich nehme das buch. – es paņemu grāmatu."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-ein|entry[].study.examples[].lv|lv/atlikušā valoda fr laukā",
@@ -689,14 +705,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-eis|entry[157].study.comparison[0].example|ich esse ein eis. = es ēdu saldējumu.",
         "a1-eis|entry[157].study.comparison[2].example|das wasser ist kalt. = ūdens ir auksts.",
         "a1-eis|entry[157].study.comparison[3].example|eis ist ein dessert. = saldējums ir deserts."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-erst|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -715,14 +732,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-erst|entry[165].study.comparison[1].example|zuerst frühstücken wir. = vispirms mēs brokastojam.",
         "a1-erst|entry[165].study.comparison[2].example|ich habe nur 5 euro. = man ir tikai 5 eiro.",
         "a1-erst|entry[165].study.comparison[3].example|dann gehen wir nach hause. = tad mēs ejam mājās."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-es|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -741,13 +759,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-es|entry[167].study.comparison[0].example|es regnet. – līst.",
         "a1-es|entry[167].study.comparison[1].example|ich lerne deutsch. – es mācos vācu valodu."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-etwas|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -766,12 +785,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-etwas|entry[169].study.explanation[4]|le plus important est de distinguer : etwas kaufen = acheter quelque chose, etwas müde = un peu fatigué."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-etwas|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -790,13 +810,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-etwas|entry[169].study.comparison[0].example|ich brauche etwas. = man kaut kas vajadzīgs.",
         "a1-etwas|entry[169].study.comparison[2].example|ich bin ein bisschen müde. = es esmu mazliet noguris."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-euch|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -815,14 +836,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-euch|entry[170].study.comparison[0].example|ihr seid freundlich. = jūs esat draudzīgi.",
         "a1-euch|entry[170].study.comparison[1].example|ich helfe euch. = es jums palīdzu.",
         "a1-euch|entry[170].study.comparison[2].example|das ist euer haus. = tā ir jūsu māja."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-euch|entry[].study.info[]|lv/atlikušā valoda fr laukā",
@@ -841,14 +863,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-euch|entry[170].study.info[0]|ihr = you (subject form of the sentence)",
         "a1-euch|entry[170].study.info[1]|euch = you (where? form) / you (whom? form)",
         "a1-euch|entry[170].study.info[2]|euer = your (possessive form)"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-euch|entry[].study.tip.example|lv/atlikušā valoda fr laukā",
@@ -867,12 +890,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-euch|entry[170].study.tip.example|i help you. = ich helfe euch. i see you = ich sehe euch. i'm telling you. = ich erzähle euch."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fahren|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -891,12 +915,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fahren|entry[172].study.comparison[2].example|er läuft schnell."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fahren|entry[].study.important.text|lv/atlikušā valoda fr laukā",
@@ -932,12 +957,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fahren|entry[172].study.important.example|in german, the same verb often means: to drive • to drive • to take away depending on the context."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fahren|entry[].study.accents.purple[]|lv/atlikušā valoda fr laukā",
@@ -956,14 +982,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fahren|entry[172].study.accents.purple[0]|braukt",
         "a1-fahren|entry[172].study.accents.purple[2]|vest",
         "a1-fahren|entry[172].study.accents.purple[4]|aizvest"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fahren|entry[].study.sectionaccents.comparison[].example.yellow[]|lv/atlikušā valoda fr laukā",
@@ -982,12 +1009,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fahren|entry[172].study.sectionaccents.comparison[2].example.yellow[0]|läuft"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fahren|entry[].study.sectionaccents.important[].text.purple[]|lv/atlikušā valoda fr laukā",
@@ -1006,12 +1034,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fahren|entry[172].study.sectionaccents.important[0].text.purple[0]|braukt"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fahren|entry[].study.sectionaccents.important[].example.purple[]|lv/atlikušā valoda fr laukā",
@@ -1030,12 +1059,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fahren|entry[172].study.sectionaccents.important[0].example.purple[0]|braukt"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-finden|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -1054,13 +1084,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-finden|entry[187].study.comparison[0].example|ich finde das gut. = man tas šķiet labi.",
         "a1-finden|entry[187].study.comparison[1].example|ich suche den schlüssel. = je cherche la clé."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fuer|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -1079,7 +1110,8 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fuer|entry[216].study.explanation[0]|idée principale : für est une préposition qui régit toujours l'accusatif - généralement pour ou pour en letton.",
@@ -1087,7 +1119,7 @@
         "a1-fuer|entry[216].study.explanation[2]|lorsqu'on parle d'échange, de frais ou de motif, für = for (danke für das geschenk = merci pour le cadeau).",
         "a1-fuer|entry[216].study.explanation[3]|für nécessite toujours l'accusatif, quelle que soit sa signification."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fuer|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
@@ -1106,12 +1138,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fuer|entry[216].study.tip[0]|für toujours + accusatif - quel que soit le sens."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fuer|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -1130,13 +1163,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fuer|entry[216].study.important[0]|für + akkusativ toujours, par exemple für mich, für dich, für das kind.",
         "a1-fuer|entry[216].study.important[1]|danke für / bezahlen für = 'pour', pas 'avant'."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fuer|entry[].study.sectionaccents.tip[].purple[]|lv/atlikušā valoda fr laukā",
@@ -1155,12 +1189,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fuer|entry[216].study.sectionaccents.tip[0].purple[0]|für"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fuer|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
@@ -1179,12 +1214,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fuer|entry[216].study.sectionaccents.important[0].purple[0]|für"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-haben|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -1203,14 +1239,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-haben|entry[261].study.comparison[0].example|ich habe zeit. = man ir laiks.",
         "a1-haben|entry[261].study.comparison[1].example|ich bin hier. = es esmu šeit.",
         "a1-haben|entry[261].study.comparison[2].example|ich bekomme ein geschenk. = es saņemu dāvanu."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-haben|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
@@ -1246,12 +1283,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-haben|entry[261].study.sectionaccents.tip.left.purple[0]|man ir"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-halten|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -1270,12 +1308,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-halten|entry[265].study.explanation[3]|dans l'expression d'opinion, je halte das für..., cela signifie considérer comme."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-halten|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -1294,7 +1333,8 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-halten|entry[265].study.comparison[0].example|der bus hält. = autobuss pietur.",
@@ -1302,7 +1342,7 @@
         "a1-halten|entry[265].study.comparison[2].example|bitte halten sie an. = lūdzu, apstājieties.",
         "a1-halten|entry[265].study.comparison[3].example|ich denke, das ist richtig. = es domāju, ka tas ir pareizi."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-halten|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -1321,12 +1361,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-halten|entry[265].study.important[1]|ich halte das für... est une expression d'opinion : \"je le considère comme...\"."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-halten|entry[].study.sectionaccents.comparison[].example.blue[]|lv/atlikušā valoda fr laukā",
@@ -1345,12 +1386,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-halten|entry[265].study.sectionaccents.comparison[0].example.blue[0]|hält"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-halten|entry[].study.sectionaccents.tip.left.blue[]|lv/atlikušā valoda fr laukā",
@@ -1369,12 +1411,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-halten|entry[265].study.sectionaccents.tip.left.blue[1]|hält"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-heißen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -1393,13 +1436,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-heißen|entry[276].study.comparison[1].example|er nennt mich tom. = viņš mani sauc par tomu.",
         "a1-heißen|entry[276].study.comparison[2].example|was bedeutet das? = ko tas nozīmē?"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-heißen|entry[].study.comparison[].meaning|lv/atlikušā valoda fr laukā",
@@ -1435,13 +1479,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-hoeren-study|entry[287].study.explanation[1]|hören signifie avant tout : percevoir le son.",
         "a1-hoeren-study|entry[287].study.explanation[3]|hören est utilisé pour les sons, la musique et ce qui est entendu."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-hoeren-study|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
@@ -1460,12 +1505,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-hoeren-study|entry[287].study.tip[1]|utilisez hören lorsque le contexte correspond à ce sens."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-hoeren-study|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -1484,12 +1530,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-hoeren-study|entry[287].study.important[0]|hören = entendre/écouter un son."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-hoeren-study|entry[].study.sectionaccents.important[].blue[]|lv/atlikušā valoda fr laukā",
@@ -1508,12 +1555,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-hoeren-study|entry[287].study.sectionaccents.important[0].blue[0]|hören"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-im|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -1532,12 +1580,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-im|entry[293].study.important[2]|avec des mois et des saisons : im märz, im herbst."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-können|entry[].study.id|lv/atlikušā valoda fr laukā",
@@ -1556,12 +1605,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|entry[319].study.id|a1-können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-können|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -1580,13 +1630,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|entry[319].study.explanation[0]|idée principale : können signifie pouvoir ou savoir faire quelque chose.",
         "a1-können|entry[319].study.explanation[3]|können est un verbe modal, donc le deuxième verbe vient généralement à la fin."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-können|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -1605,14 +1656,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|entry[319].study.comparison[0].word|können",
         "a1-können|entry[319].study.comparison[1].word|dürfen",
         "a1-können|entry[319].study.comparison[2].word|müssen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-können|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -1631,14 +1683,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|entry[319].study.comparison[0].example|ich kann schwimmen. = es protu peldēt.",
         "a1-können|entry[319].study.comparison[1].example|darf ich gehen? = vai drīkstu iet?",
         "a1-können|entry[319].study.comparison[2].example|ich muss lernen. = man jāmācās."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-können|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
@@ -1657,12 +1710,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|entry[319].study.tip.text|rappelez-vous : compétence/capacité → können."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-können|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -1681,13 +1735,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|entry[319].study.important[0]|können n'est pas la même chose que dürfen. können = pouvoir/savoir, dürfen = être autorisé.",
         "a1-können|entry[319].study.important[1]|dans une phrase avec können, le deuxième verbe vient souvent à la fin : ich kann schwimmen."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-können|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -1706,14 +1761,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|entry[319].study.sectionaccents.comparison[0].word.green[0]|können",
         "a1-können|entry[319].study.sectionaccents.comparison[1].word.green[0]|dürfen",
         "a1-können|entry[319].study.sectionaccents.comparison[2].word.green[0]|müssen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-können|entry[].study.sectionaccents.tip.left.blue[]|lv/atlikušā valoda fr laukā",
@@ -1732,12 +1788,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|entry[319].study.sectionaccents.tip.left.blue[0]|können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-können|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
@@ -1756,12 +1813,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|entry[319].study.sectionaccents.important[0].purple[0]|können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-kosten|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -1780,7 +1838,8 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-kosten|entry[320].study.comparison[0].example|das kostet 5 euro. = tas maksā 5 eiro.",
@@ -1788,7 +1847,7 @@
         "a1-kosten|entry[320].study.comparison[2].example|kann ich bar zahlen? = vai varu maksāt skaidrā naudā?",
         "a1-kosten|entry[320].study.comparison[3].example|was kostet das buch? = cik maksā grāmata?"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-laden-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -1807,12 +1866,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-laden-study|entry[349].study.explanation[3]|pluriel : die läden."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-laden-study|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -1831,12 +1891,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-laden-study|entry[349].study.important[2]|pluriel : die läden."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-laden-study|entry[].study.sectionaccents.important[].blue[]|lv/atlikušā valoda fr laukā",
@@ -1855,12 +1916,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-laden-study|entry[349].study.sectionaccents.important[2].blue[0]|die läden"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-laufen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -1879,12 +1941,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-laufen|entry[357].study.comparison[0].example|er läuft schnell."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-laufen|entry[].study.sectionaccents.comparison[].example.blue[]|lv/atlikušā valoda fr laukā",
@@ -1903,12 +1966,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-laufen|entry[357].study.sectionaccents.comparison[0].example.blue[0]|läuft"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-laut|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -1927,12 +1991,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-laut|entry[358].study.explanation[6]|der laut avec une majuscule et l'article der est un nom - cela signifie le son en tant que chose ou signal (der laut ist schön = le son est beau)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-laut-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -1951,12 +2016,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-laut-study|entry[359].study.explanation[6]|der laut avec une majuscule et l'article der est un nom - cela signifie le son en tant que chose ou signal (der laut ist schön = le son est beau)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mann|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -1975,12 +2041,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mann|entry[394].study.explanation[4]|pluriel : die männer."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mann|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -1999,12 +2066,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mann|entry[394].study.important[2]|pluriel : die männer."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mögen|entry[].study.id|lv/atlikušā valoda fr laukā",
@@ -2023,12 +2091,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|entry[413].study.id|a1-mögen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mögen|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -2047,13 +2116,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|entry[413].study.explanation[0]|idée principale : mögen signifie le plus souvent aimer quelque chose.",
         "a1-mögen|entry[413].study.explanation[2]|möchte est une autre forme utilisée pour le désir poli : je voudrais."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mögen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -2072,13 +2142,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|entry[413].study.comparison[0].word|mögen",
         "a1-mögen|entry[413].study.comparison[1].word|möchte"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mögen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -2097,12 +2168,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|entry[413].study.comparison[1].example|ich möchte kaffee."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mögen|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -2121,12 +2193,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|entry[413].study.important[0]|mögen n'est pas un nom pour poli « je voudrais ». möchte est généralement utilisé pour cela."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mögen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -2145,13 +2218,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|entry[413].study.sectionaccents.comparison[0].word.green[0]|mögen",
         "a1-mögen|entry[413].study.sectionaccents.comparison[1].word.green[0]|möchte"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mögen|entry[].study.sectionaccents.comparison[].example.red[]|lv/atlikušā valoda fr laukā",
@@ -2170,12 +2244,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|entry[413].study.sectionaccents.comparison[1].example.red[0]|möchte"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-mögen|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
@@ -2194,13 +2269,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|entry[413].study.sectionaccents.important[0].purple[0]|mögen",
         "a1-mögen|entry[413].study.sectionaccents.important[0].purple[1]|mögen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-müssen|entry[].study.id|lv/atlikušā valoda fr laukā",
@@ -2219,12 +2295,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-müssen|entry[423].study.id|a1-müssen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-müssen|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -2243,13 +2320,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-müssen|entry[423].study.explanation[0]|idée principale : müssen signifie faire quelque chose.",
         "a1-müssen|entry[423].study.explanation[1]|en letton, müssen est souvent traduit par « moi oui… », « toi oui… », « nous oui… »."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-müssen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -2268,14 +2346,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-müssen|entry[423].study.comparison[0].word|müssen",
         "a1-müssen|entry[423].study.comparison[1].word|können",
         "a1-müssen|entry[423].study.comparison[3].word|dürfen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-müssen|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -2294,12 +2373,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-müssen|entry[423].study.important[0]|müssen est un verbe modal."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-müssen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -2318,14 +2398,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-müssen|entry[423].study.sectionaccents.comparison[0].word.green[0]|müssen",
         "a1-müssen|entry[423].study.sectionaccents.comparison[1].word.green[0]|können",
         "a1-müssen|entry[423].study.sectionaccents.comparison[3].word.green[0]|dürfen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-müssen|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
@@ -2344,13 +2425,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-müssen|entry[423].study.sectionaccents.important[0].purple[0]|müssen",
         "a1-müssen|entry[423].study.sectionaccents.important[0].purple[1]|müssen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-nach|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -2369,12 +2451,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-nach|entry[426].study.comparison[3].example|vor dem essen wasche ich die hände."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-natuerlich|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -2393,14 +2476,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-natuerlich|entry[433].study.explanation[0]|idée principale : natürlich comme adverbe signifie bien sûr, comme adjectif cela signifie naturel.",
         "a1-natuerlich|entry[433].study.explanation[1]|dans une conversation, confirmant quelque chose, natürlich = bien sûr (kommst du mit ? – natürlich ! = vous venez ? – bien sûr !).",
         "a1-natuerlich|entry[433].study.explanation[2]|lorsqu'on parle de nature, d'origine ou de qualités, natürlich = naturel (natürliche schönheit = beauté naturelle)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-natuerlich|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -2419,12 +2503,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-natuerlich|entry[433].study.important[0]|natürlich = bien sûr (adverbe, affirmation) ou naturel (adjectif)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-natuerlich|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
@@ -2443,13 +2528,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-natuerlich|entry[433].study.sectionaccents.important[0].purple[0]|natürlich",
         "a1-natuerlich|entry[433].study.sectionaccents.important[0].purple[1]|natürlich"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-oder|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -2468,12 +2554,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-oder|entry[459].study.comparison[3].example|ich komme, aber später."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-probieren|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -2492,12 +2579,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-probieren|entry[482].study.explanation[3]|ce n’est pas la même chose que prüfen, ce qui signifie vérifier plus attentivement."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-probieren|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -2516,12 +2604,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-probieren|entry[482].study.comparison[2].word|prüfen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-probieren|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -2540,12 +2629,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-probieren|entry[482].study.comparison[2].example|ich prüfe die rechnung."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-probieren|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -2564,12 +2654,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-probieren|entry[482].study.important[1]|vérifier un document ou une facture est généralement prüfen."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-probieren|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -2588,12 +2679,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-probieren|entry[482].study.sectionaccents.comparison[2].word.green[0]|prüfen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-probieren|entry[].study.sectionaccents.comparison[].example.red[]|lv/atlikušā valoda fr laukā",
@@ -2612,12 +2704,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-probieren|entry[482].study.sectionaccents.comparison[2].example.red[0]|prüfe"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-schon-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -2636,12 +2729,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-schon-study|entry[521].study.explanation[1]|schön signifie principalement : quelque chose s'est déjà produit ou est en cours."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sehen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -2660,12 +2754,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sehen|entry[539].study.comparison[3].word|hören"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sehen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -2684,12 +2779,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sehen|entry[539].study.comparison[3].example|ich höre musik."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sehen|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -2708,12 +2804,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sehen|entry[539].study.important[1]|ich sehe dich = es tevi redzu • ich schaue den film = es skatos filmu."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sehen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -2732,12 +2829,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sehen|entry[539].study.sectionaccents.comparison[3].word.green[0]|hören"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sehen|entry[].study.sectionaccents.comparison[].example.green[]|lv/atlikušā valoda fr laukā",
@@ -2756,12 +2854,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sehen|entry[539].study.sectionaccents.comparison[3].example.green[0]|höre"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sein|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -2780,12 +2879,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sein|entry[542].study.comparison[2].example|ich werde müde."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sein|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
@@ -2821,12 +2921,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sein|entry[542].study.sectionaccents.tip.left.purple[0]|es esmu"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sich|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -2845,12 +2946,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sich|entry[547].study.explanation[3]|important à noter au niveau a1 : ich wasche mich, er wäscht sich."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sich|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -2869,13 +2971,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sich|entry[547].study.comparison[0].example|er wäscht sich.",
         "a1-sich|entry[547].study.comparison[2].example|du wäschst dich."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sitzen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -2894,12 +2997,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sitzen|entry[558].study.comparison[1].example|er steht an der tür."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sollen|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -2918,12 +3022,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sollen|entry[564].study.explanation[2]|ce n'est pas aussi fort que le müssen."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sollen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -2942,13 +3047,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sollen|entry[564].study.comparison[1].word|müssen",
         "a1-sollen|entry[564].study.comparison[2].word|können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sollen|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
@@ -2967,12 +3073,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sollen|entry[564].study.tip.text|rappelez-vous : quelqu'un dit quoi faire → sollen • doit être fait → müssen."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sollen|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -2991,12 +3098,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sollen|entry[564].study.important[1]|sollen et müssen ne sont pas exactement les mêmes."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sollen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -3015,13 +3123,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sollen|entry[564].study.sectionaccents.comparison[1].word.green[0]|müssen",
         "a1-sollen|entry[564].study.sectionaccents.comparison[2].word.green[0]|können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sollen|entry[].study.sectionaccents.tip.left.red[]|lv/atlikušā valoda fr laukā",
@@ -3040,12 +3149,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sollen|entry[564].study.sectionaccents.tip.left.red[0]|müssen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-sollen|entry[].study.sectionaccents.important[].red[]|lv/atlikušā valoda fr laukā",
@@ -3064,12 +3174,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sollen|entry[564].study.sectionaccents.important[1].red[0]|müssen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-über|entry[].study.id|lv/atlikušā valoda fr laukā",
@@ -3088,12 +3199,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|entry[608].study.id|a1-über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-über|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -3112,7 +3224,8 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|entry[608].study.explanation[0]|idée principale : über signifie au-dessus ou environ selon le contexte.",
@@ -3120,7 +3233,7 @@
         "a1-über|entry[608].study.explanation[2]|lorsqu'il s'agit d'une conversation, d'un texte ou d'un sujet, über signifie environ.",
         "a1-über|entry[608].study.explanation[3]|en mouvement, über peut signifier fini."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-über|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -3139,12 +3252,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|entry[608].study.comparison[0].word|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-über|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -3163,13 +3277,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|entry[608].study.comparison[0].example|wir sprechen über das wetter.",
         "a1-über|entry[608].study.comparison[3].example|ich höre von dir."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-über|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
@@ -3205,13 +3320,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|entry[608].study.important[0]|über n'est pas seulement un nom de lieu.",
         "a1-über|entry[608].study.important[1]|sprechen über signifie « parler de »."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-über|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -3230,12 +3346,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|entry[608].study.sectionaccents.comparison[0].word.green[0]|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-über|entry[].study.sectionaccents.comparison[].example.blue[]|lv/atlikušā valoda fr laukā",
@@ -3254,12 +3371,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|entry[608].study.sectionaccents.comparison[0].example.blue[0]|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-über|entry[].study.sectionaccents.tip.left.blue[]|lv/atlikušā valoda fr laukā",
@@ -3278,12 +3396,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|entry[608].study.sectionaccents.tip.left.blue[0]|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-über|entry[].study.sectionaccents.important[].purple[]|lv/atlikušā valoda fr laukā",
@@ -3302,12 +3421,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|entry[608].study.sectionaccents.important[0].purple[0]|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-um|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -3326,12 +3446,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-um|entry[611].study.comparison[3].word|für"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-um|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -3350,12 +3471,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-um|entry[611].study.comparison[3].example|das ist für dich."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-um|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -3374,12 +3496,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-um|entry[611].study.sectionaccents.comparison[3].word.green[0]|für"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-um|entry[].study.sectionaccents.comparison[].example.red[]|lv/atlikušā valoda fr laukā",
@@ -3398,12 +3521,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-um|entry[611].study.sectionaccents.comparison[3].example.red[0]|für"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-unter|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -3422,12 +3546,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-unter|entry[615].study.explanation[3]|c'est l'opposé d'über lorsqu'il s'agit de la direction haut/bas."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-unter|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -3446,12 +3571,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-unter|entry[615].study.comparison[1].word|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-unter|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -3470,13 +3596,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-unter|entry[615].study.comparison[1].example|die lampe hängt über dem tisch.",
         "a1-unter|entry[615].study.comparison[2].example|zwischen den häusern."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-unter|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -3495,12 +3622,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-unter|entry[615].study.important[1]|unter et über sont souvent opposés dans le sens du lieu."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-unter|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -3519,12 +3647,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-unter|entry[615].study.sectionaccents.comparison[1].word.green[0]|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-unter|entry[].study.sectionaccents.comparison[].example.red[]|lv/atlikušā valoda fr laukā",
@@ -3543,12 +3672,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-unter|entry[615].study.sectionaccents.comparison[1].example.red[0]|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-verstehen|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -3567,12 +3697,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-verstehen|entry[621].study.explanation[2]|ici, vous n'avez généralement pas besoin de « connaître » ou d'« enseigner » le letton. • ils sont plus souvent können."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-verstehen|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -3591,12 +3722,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-verstehen|entry[621].study.comparison[1].word|können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-verstehen|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
@@ -3615,12 +3747,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
-        "a1-verstehen|entry[621].study.tip.text|n'oubliez pas : comprendre le texte/la personne → verstehen • savoir comment faire quelque chose → können."
+        "a1-verstehen|entry[621].study.tip.text|n'oubliez pas : comprendre le texte/la personne → verstehen • savoir comment faire quelque chose → können.",
+        "a1-verstehen|entry[621].study.tip.text|n'oubliez pas : comprendre un texte ou une personne → verstehen ; savoir faire quelque chose → können."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-verstehen|entry[].study.sectionaccents.comparison[].word.green[]|lv/atlikušā valoda fr laukā",
@@ -3639,12 +3773,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-verstehen|entry[621].study.sectionaccents.comparison[1].word.green[0]|können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-verstehen|entry[].study.sectionaccents.tip.left.red[]|lv/atlikušā valoda fr laukā",
@@ -3663,12 +3798,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-verstehen|entry[621].study.sectionaccents.tip.left.red[0]|können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-vor|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -3687,12 +3823,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-vor|entry[636].study.explanation[3]|en temps d'horloge, vor signifie « jusqu'à », par exemple fünf vor acht."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-was|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -3711,12 +3848,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-was|entry[644].study.important[2]|was für (ein/eine) signifie quelqu'un/et demande une qualité ou un type (was für ein film ist das ? = de quel genre de film s'agit-il ?)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-was|entry[].study.sectionaccents.important[].blue[]|lv/atlikušā valoda fr laukā",
@@ -3735,12 +3873,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-was|entry[644].study.sectionaccents.important[2].blue[0]|was für"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-werden|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -3759,12 +3898,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-werden|entry[657].study.explanation[3]|au niveau a1, la phrase la plus importante est ich werde müde. = je commence à être fatigué."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-werden|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -3783,13 +3923,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-werden|entry[657].study.comparison[0].example|ich werde müde.",
         "a1-werden|entry[657].study.comparison[1].example|ich bin müde."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-werden|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -3808,12 +3949,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-werden|entry[657].study.important[1]|ich werde müde = je suis fatigué • ich bin müde = je suis fatigué."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-wetter|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -3832,12 +3974,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-wetter|entry[658].study.comparison[0].example|das wetter ist schön."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-fernsehen|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -3856,14 +3999,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fernsehen|entry[687].study.comparison[0].example|ich sehe fern. = es skatos televīziju.",
         "a1-fernsehen|entry[687].study.comparison[1].example|im fernsehen läuft ein film. = televīzijā rāda filmu.",
         "a1-fernsehen|entry[687].study.comparison[2].example|ich sehe einen film. = es redzu filmu."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-gemuese|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -3882,13 +4026,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-gemuese|entry[692].study.explanation[0]|idée principale : les légumes en général. l'allemand n'a pas de forme plurielle pour *die gemüse.",
         "a1-gemuese|entry[692].study.explanation[1]|das gemüse signifie principalement : les légumes en général."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-gemuese|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
@@ -3907,13 +4052,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-gemuese|entry[692].study.tip[0]|das gemüse = légumes",
         "a1-gemuese|entry[692].study.tip[1]|utilisez das gemüse lorsque le contexte correspond à ce sens."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-gemuese|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -3932,14 +4078,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-gemuese|entry[692].study.important[0]|nav pareizi : die gemüse, die obsts.",
         "a1-gemuese|entry[692].study.important[1]|nepareizi : die gemüse → pareizi : das gemüse",
         "a1-gemuese|entry[692].study.important[2]|das gemüse = légumes (en général)."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-es|sectionaccents (examples)|accent term not found in section text",
@@ -3958,7 +4105,8 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-es|sectionaccents (examples)|ich",
@@ -3966,7 +4114,7 @@
         "a1-es|sectionaccents (examples)|sie",
         "a1-es|sectionaccents (examples)|das"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-fahren|sectionaccents (?)|lv remnant in sectionaccents",
@@ -3985,13 +4133,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fahren|sectionaccents (?)|läuft",
         "a1-fahren|sectionaccents (?)|braukt"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-fuer|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4010,12 +4159,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fuer|sectionaccents (?)|für"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-fuer|sectionaccents (examples)|accent term not found in section text",
@@ -4034,12 +4184,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fuer|sectionaccents (examples)|pay"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-gross-study|sectionaccents (explanation)|accent term not found in section text",
@@ -4058,12 +4209,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-gross-study|sectionaccents (explanation)|main"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-haben|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4082,12 +4234,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-haben|sectionaccents (?)|man ir"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-halten|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4106,12 +4259,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-halten|sectionaccents (?)|hält"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-halten|sectionaccents (examples)|accent term not found in section text",
@@ -4130,12 +4284,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-halten|sectionaccents (examples)|consider"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-hoeren-study|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4154,12 +4309,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-hoeren-study|sectionaccents (?)|hören"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-kein|sectionaccents (explanation)|accent term not found in section text",
@@ -4178,12 +4334,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-kein|sectionaccents (explanation)|main"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-können|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4202,14 +4359,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|sectionaccents (?)|können",
         "a1-können|sectionaccents (?)|dürfen",
         "a1-können|sectionaccents (?)|müssen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-laden-study|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4228,12 +4386,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-laden-study|sectionaccents (?)|die läden"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-lang|sectionaccents (examples)|accent term not found in section text",
@@ -4270,12 +4429,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-laufen|sectionaccents (?)|läuft"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-liegen|sectionaccents (examples)|accent term not found in section text",
@@ -4294,13 +4454,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-liegen|sectionaccents (examples)|phone",
         "a1-liegen|sectionaccents (examples)|dort"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-mögen|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4319,13 +4480,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|sectionaccents (?)|mögen",
         "a1-mögen|sectionaccents (?)|möchte"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-müssen|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4344,14 +4506,15 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-müssen|sectionaccents (?)|müssen",
         "a1-müssen|sectionaccents (?)|können",
         "a1-müssen|sectionaccents (?)|dürfen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-natuerlich|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4370,12 +4533,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-natuerlich|sectionaccents (?)|natürlich"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-neu|sectionaccents (explanation)|accent term not found in section text",
@@ -4394,12 +4558,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-neu|sectionaccents (explanation)|main"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-neu|sectionaccents (examples)|accent term not found in section text",
@@ -4418,12 +4583,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-neu|sectionaccents (examples)|phone"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-nur-study|sectionaccents (examples)|accent term not found in section text",
@@ -4442,13 +4608,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-nur-study|sectionaccents (examples)|just",
         "a1-nur-study|sectionaccents (examples)|vous"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-probieren|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4467,13 +4634,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-probieren|sectionaccents (?)|prüfen",
         "a1-probieren|sectionaccents (?)|prüfe"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-sehen|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4492,13 +4660,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sehen|sectionaccents (?)|hören",
         "a1-sehen|sectionaccents (?)|höre"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-sein|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4517,12 +4686,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sein|sectionaccents (?)|es esmu"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-sollen|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4541,13 +4711,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sollen|sectionaccents (?)|müssen",
         "a1-sollen|sectionaccents (?)|können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-über|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4566,12 +4737,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|sectionaccents (?)|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-über|sectionaccents (examples)|accent term not found in section text",
@@ -4590,12 +4762,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-über|sectionaccents (examples)|lamp"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-um|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4614,12 +4787,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-um|sectionaccents (?)|für"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-unter|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4638,12 +4812,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-unter|sectionaccents (?)|über"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-unter|sectionaccents (examples)|accent term not found in section text",
@@ -4662,12 +4837,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-unter|sectionaccents (examples)|lamp"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-verstehen|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4686,12 +4862,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-verstehen|sectionaccents (?)|können"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-was|sectionaccents (?)|lv remnant in sectionaccents",
@@ -4710,12 +4887,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-was|sectionaccents (?)|was für"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-zum|sectionaccents (examples)|accent term not found in section text",
@@ -4734,13 +4912,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-zum|sectionaccents (examples)|are",
         "a1-zum|sectionaccents (examples)|venez"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-obst|sectionaccents (examples)|accent term not found in section text",
@@ -4759,12 +4938,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-obst|sectionaccents (examples)|fruit"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-bis|sectionaccents.comparison.example|sectionaccents termins \"bis dass\" nav atrodams sadaļā comparison",
@@ -5784,12 +5964,13 @@
         "run-f02ac870-2026-08-27",
         "run-54114465-2026-08-27",
         "run-5b9d0a0d-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-wer|translation|qui • qui"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.767Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-wie|translation|main translation field shows 2 learner-facing candidates (comment | combien)",
@@ -5821,12 +6002,13 @@
         "run-a2a769e8-2026-08-27",
         "run-240e1431-2026-08-27",
         "run-5b9d0a0d-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-zu|translation|à • à"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.767Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-zum|translation|main translation field shows 2 learner-facing candidates (à | à)",
@@ -5840,12 +6022,13 @@
         "run-240e1431-2026-08-27",
         "run-f02ac870-2026-08-27",
         "run-5b9d0a0d-2026-08-27",
-        "run-7eb94257-2026-08-27"
+        "run-7eb94257-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-zum|translation|à • à"
       ],
-      "lastSeenAt": "2026-08-27T16:14:12.762Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-essen-study|translation|main translation field shows 2 learner-facing candidates (alimentation | repas)",
@@ -5880,12 +6063,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-zeit|translation|temps (instant / période de temps)"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.767Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-einmal|translation|main translation field shows 2 learner-facing candidates (une fois | une fois)",
@@ -12465,12 +12649,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-besuch|entry[87].study.comparison[0].example|danke für deinen besuch. – merci pour ta visite."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fussball-study|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -12486,12 +12671,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fussball-study|entry[218].study.explanation[2]|die fußbälle désigne des ballons de football."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-fussball-study|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -12507,12 +12693,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fussball-study|entry[218].study.important[0]|die fußbälle = ballons de football."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-gefallen-study|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -12528,12 +12715,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-gefallen-study|entry[225].study.comparison[0].example|das gefällt mir. – cela me plaît."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-gefallen-study|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -12549,12 +12737,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-gefallen-study|entry[225].study.comparison[1].word|mögen"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-gefallen-study|entry[].study.tip[]|lv/atlikušā valoda fr laukā",
@@ -12570,12 +12759,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-gefallen-study|entry[225].study.tip[0]|à retenir : das gefällt mir."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-huebsch|entry[].study.explanation[]|lv/atlikušā valoda fr laukā",
@@ -12591,13 +12781,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-huebsch|entry[288].study.explanation[0]|idée principale : hübsch signifie joli ou agréable à regarder.",
         "a1-huebsch|entry[288].study.explanation[1]|hübsch décrit souvent l'apparence."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-huebsch|entry[].study.comparison[].word|lv/atlikušā valoda fr laukā",
@@ -12613,13 +12804,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-huebsch|entry[288].study.comparison[0].word|hübsch",
         "a1-huebsch|entry[288].study.comparison[1].word|schön"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-huebsch|entry[].study.comparison[].example|lv/atlikušā valoda fr laukā",
@@ -12635,13 +12827,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-huebsch|entry[288].study.comparison[0].example|das ist ein hübsches kleid. – c'est une jolie robe.",
         "a1-huebsch|entry[288].study.comparison[1].example|der garten ist schön. – le jardin est beau."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-huebsch|entry[].study.tip.text|lv/atlikušā valoda fr laukā",
@@ -12657,12 +12850,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-huebsch|entry[288].study.tip.text|hübsch décrit surtout une jolie apparence ; nett décrit une personne aimable."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-huebsch|entry[].study.important[]|lv/atlikušā valoda fr laukā",
@@ -12678,12 +12872,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-huebsch|entry[288].study.important[0]|hübsch n'est pas une traduction universelle de gentil."
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.906Z"
     },
     {
       "semanticSignature": "a1-klein-study|sectionaccents (examples)|accent term not found in section text",
@@ -12699,13 +12894,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-klein-study|sectionaccents (examples)|pièce",
         "a1-klein-study|sectionaccents (examples)|l'enfant"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-auch-study|sectionaccents (examples)|accent term not found in section text",
@@ -12721,13 +12917,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-auch-study|sectionaccents (examples)|viens",
         "a1-auch-study|sectionaccents (examples)|elle"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-aufs|sectionaccents (examples)|accent term not found in section text",
@@ -12743,12 +12940,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-aufs|sectionaccents (examples)|venez"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-baden|sectionaccents (examples)|accent term not found in section text",
@@ -12764,12 +12962,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-baden|sectionaccents (examples)|vais"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-besuch|sectionaccents (?)|missing sectionaccents present in lv",
@@ -12785,12 +12984,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-besuch|sectionaccents (?)|missing sectionaccents present in lv"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-besuchen|sectionaccents (?)|missing sectionaccents present in lv",
@@ -12806,12 +13006,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-besuchen|sectionaccents (?)|missing sectionaccents present in lv"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-bringen|sectionaccents (examples)|accent term not found in section text",
@@ -12827,13 +13028,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bringen|sectionaccents (examples)|apportez",
         "a1-bringen|sectionaccents (examples)|ramènerai"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-da|sectionaccents (examples)|accent term not found in section text",
@@ -12849,12 +13051,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-da|sectionaccents (examples)|venez"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-dieser|sectionaccents (examples)|accent term not found in section text",
@@ -12870,12 +13073,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-dieser|sectionaccents (examples)|j'aime"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-fahren|sectionaccents (examples)|accent term not found in section text",
@@ -12891,12 +13095,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-fahren|sectionaccents (examples)|ramènerai"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-finden|sectionaccents (examples)|accent term not found in section text",
@@ -12912,13 +13117,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-finden|sectionaccents (examples)|avez",
         "a1-finden|sectionaccents (examples)|cela"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-gross-study|sectionaccents (examples)|accent term not found in section text",
@@ -12934,12 +13140,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-gross-study|sectionaccents (examples)|maison"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-hoch-study|sectionaccents (examples)|accent term not found in section text",
@@ -12955,12 +13162,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-hoch-study|sectionaccents (examples)|montagne"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-huebsch|sectionaccents (?)|missing sectionaccents present in lv",
@@ -12976,12 +13184,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-huebsch|sectionaccents (?)|missing sectionaccents present in lv"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-ihr|sectionaccents (examples)|accent term not found in section text",
@@ -12997,13 +13206,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-ihr|sectionaccents (examples)|viens",
         "a1-ihr|sectionaccents (examples)|habites"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-im|sectionaccents (examples)|accent term not found in section text",
@@ -13019,12 +13229,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-im|sectionaccents (examples)|suis"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-mögen|sectionaccents (examples)|accent term not found in section text",
@@ -13040,12 +13251,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-mögen|sectionaccents (examples)|aimez"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-müssen|sectionaccents (examples)|accent term not found in section text",
@@ -13061,12 +13273,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-müssen|sectionaccents (examples)|vous"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-ob|sectionaccents (examples)|accent term not found in section text",
@@ -13082,12 +13295,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-ob|sectionaccents (examples)|vous"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-oder|sectionaccents (examples)|accent term not found in section text",
@@ -13103,12 +13317,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-oder|sectionaccents (examples)|vous"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-sich|sectionaccents (examples)|accent term not found in section text",
@@ -13124,12 +13339,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sich|sectionaccents (examples)|prend"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-sie-study|sectionaccents (examples)|accent term not found in section text",
@@ -13145,12 +13361,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sie-study|sectionaccents (examples)|cuisines"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-sie-study-2|sectionaccents (examples)|accent term not found in section text",
@@ -13166,12 +13383,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sie-study-2|sectionaccents (examples)|cuisines"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-um|sectionaccents (examples)|accent term not found in section text",
@@ -13187,12 +13405,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-um|sectionaccents (examples)|fait"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-verstehen|sectionaccents (examples)|accent term not found in section text",
@@ -13208,12 +13427,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-verstehen|sectionaccents (examples)|peux"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-wer|sectionaccents (examples)|accent term not found in section text",
@@ -13229,13 +13449,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-wer|sectionaccents (examples)|qu'est",
         "a1-wer|sectionaccents (examples)|lequel"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-werden|sectionaccents (examples)|accent term not found in section text",
@@ -13251,13 +13472,14 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-werden|sectionaccents (examples)|fait",
         "a1-werden|sectionaccents (examples)|suis"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-wetter|sectionaccents (examples)|accent term not found in section text",
@@ -13273,12 +13495,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-wetter|sectionaccents (examples)|quelle"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-wie|sectionaccents (examples)|accent term not found in section text",
@@ -13294,12 +13517,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-wie|sectionaccents (examples)|quel"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-urlaub|sectionaccents (examples)|accent term not found in section text",
@@ -13315,12 +13539,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-urlaub|sectionaccents (examples)|j'ai"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-uhr|sectionaccents (examples)|accent term not found in section text",
@@ -13336,12 +13561,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-uhr|sectionaccents (examples)|appareil/heure"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-einmal|sectionaccents (examples)|accent term not found in section text",
@@ -13357,12 +13583,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-einmal|sectionaccents (examples)|j'étais"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-klein|sectionaccents.examples.lv|sectionaccents termins \"pièce\" nav atrodams sadaļā examples",
@@ -13378,12 +13605,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-klein|sectionaccents.examples.lv|pièce"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-klein|sectionaccents.examples.lv|sectionaccents termins \"l'enfant\" nav atrodams sadaļā examples",
@@ -13399,12 +13627,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-klein|sectionaccents.examples.lv|l'enfant"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-an|sectionaccents.tip.left|sectionaccents termins \"sienas\" nav atrodams sadaļā tip",
@@ -15693,12 +15922,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bitte|sectionaccents (examples)|une"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-bleiben|sectionaccents (examples)|accent term not found in section text",
@@ -15713,12 +15943,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-bleiben|sectionaccents (examples)|rentre"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-ins|sectionaccents (examples)|accent term not found in section text",
@@ -15733,12 +15964,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-ins|sectionaccents (examples)|viens"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-an|sectionaccents.tip.left|sectionaccents termins \"atceries\" nav atrodams sadaļā tip",
@@ -15753,12 +15985,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-an|sectionaccents.tip.left|atceries"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.767Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-aber|sectionaccents.tip.left|sectionaccents termins \"pretstats\" nav atrodams sadaļā tip",
@@ -17383,12 +17616,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-sehen|sectionaccents (examples)|voyez"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-vor|sectionaccents (examples)|accent term not found in section text",
@@ -17402,12 +17636,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-vor|sectionaccents (examples)|après"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-wenn|sectionaccents (examples)|accent term not found in section text",
@@ -17421,12 +17656,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-wenn|sectionaccents (examples)|vous"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-also|sectionaccents.tip.left|sectionaccents termins \"rappelez\" nav atrodams sadaļā tip",
@@ -17455,12 +17691,13 @@
         "run-06b152a4-2026-08-27",
         "run-e9c4286d-2026-08-27",
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-auch|sectionaccents.examples.lv|viens"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.767Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-telefonieren-594|frtext|« appeler au téléphone » est compréhensible mais peu idiomatique comme équivalent lexical de « telefonieren ».",
@@ -20543,12 +20780,13 @@
       "pedagogicalMeaning": "accent term not found in section text",
       "auditRunIds": [
         "run-7eb94257-2026-08-27",
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-können|sectionaccents (examples)|pouvez"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-an|translation|le champ contient plusieurs traductions et « présent » ne correspond pas au sens de la préposition allemande « an ».",
@@ -21698,12 +21936,13 @@
       "fieldFamily": "sectionaccents (examples)",
       "pedagogicalMeaning": "accent term not found in section text",
       "auditRunIds": [
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-also|sectionaccents (examples)|vous"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.766Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-also|sectionaccents.examples.lv|sectionaccents termins \"vous\" nav atrodams sadaļā examples",
@@ -21713,12 +21952,13 @@
       "fieldFamily": "sectionaccents.examples.lv",
       "pedagogicalMeaning": "sectionaccents termins \"vous\" nav atrodams sadaļā examples",
       "auditRunIds": [
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-also|sectionaccents.examples.lv|vous"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.767Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-Butterbrot-112|frtext|«butterbrot» désigne du pain beurré, pas nécessairement un sandwich avec une garniture.",
@@ -21773,12 +22013,13 @@
       "fieldFamily": "comparison[].meaning",
       "pedagogicalMeaning": "« dans ou vers l'intérieur » correspond à in, pas à auf.",
       "auditRunIds": [
-        "run-e7820afd-2026-08-27"
+        "run-e7820afd-2026-08-27",
+        "run-be8f671e-2026-08-27"
       ],
       "problemSignatures": [
         "a1-auf|comparison[2].meaning|dans ou vers l’intérieur"
       ],
-      "lastSeenAt": "2026-08-27T16:38:26.767Z"
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     },
     {
       "semanticSignature": "a1-aus|translation|le champ contient plusieurs traductions distinctes séparées par une puce.",
@@ -22771,6 +23012,1075 @@
         "a1-einmal|translation|une fois • une fois"
       ],
       "lastSeenAt": "2026-08-27T16:38:26.767Z"
+    },
+    {
+      "semanticSignature": "a1-an|translation|le champ contient plusieurs traductions séparées par des puces et ajoute « présent », qui ne correspond pas à an.",
+      "pathFamilySignature": "a1-an|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-an",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ contient plusieurs traductions séparées par des puces et ajoute « présent », qui ne correspond pas à an.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-an|translation|à • à • présent"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-ab|comparison[].meaning|ab exprime un point de départ, pas l'origine d'une personne ou d'une chose.",
+      "pathFamilySignature": "a1-ab|comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-ab",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "ab exprime un point de départ, pas l'origine d'une personne ou d'une chose.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ab|comparison[1].meaning|de quelqu'un ou de quelque chose (origine)"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-aus|translation|le champ contient plusieurs traductions séparées par une puce; une formulation française unique est requise.",
+      "pathFamilySignature": "a1-aus|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-aus",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ contient plusieurs traductions séparées par une puce; une formulation française unique est requise.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-aus|translation|de • sortie"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-aufs|translation|le champ contient plusieurs traductions et « où ? » est incorrect: aufs indique une direction, donc « où aller ? ».",
+      "pathFamilySignature": "a1-aufs|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-aufs",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ contient plusieurs traductions et « où ? » est incorrect: aufs indique une direction, donc « où aller ? ».",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-aufs|translation|vers • sur • où ?"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-baden|examples[].lv|« nager » correspond à schwimmen; baden signifie se baigner ou prendre un bain.",
+      "pathFamilySignature": "a1-baden|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-baden",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "« nager » correspond à schwimmen; baden signifie se baigner ou prendre un bain.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-baden|examples[2].lv|il nage très bien."
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-baden|comparison[].meaning|prendre une douche correspond à se doucher; baden signifie prendre un bain ou se baigner.",
+      "pathFamilySignature": "a1-baden|comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-baden",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "prendre une douche correspond à se doucher; baden signifie prendre un bain ou se baigner.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-baden|comparison[2].meaning|prendre une douche"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-bringen|translation|« à emporter » signifie à prendre avec soi, non apporter; la traduction est en plus dupliquée.",
+      "pathFamilySignature": "a1-bringen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-bringen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "« à emporter » signifie à prendre avec soi, non apporter; la traduction est en plus dupliquée.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-bringen|translation|à emporter • à emporter"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-ein|translation|« quelqu'un » signifie jemand, pas ein. la liste contient aussi plusieurs traductions à arbitrer.",
+      "pathFamilySignature": "a1-ein|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-ein",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "« quelqu'un » signifie jemand, pas ein. la liste contient aussi plusieurs traductions à arbitrer.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ein|translation|article indéfini • un • quelqu'un"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-eis|translation|les deux sens allemands sont distincts, mais la répétition de « glace » ne les différencie pas pour l'apprenant.",
+      "pathFamilySignature": "a1-eis|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-eis",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "les deux sens allemands sont distincts, mais la répétition de « glace » ne les différencie pas pour l'apprenant.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-eis|translation|glace • glace"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-erst|translation|« premier » est un adjectif ; erst se traduit ici par l'adverbe « d'abord » ou par « seulement ».",
+      "pathFamilySignature": "a1-erst|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-erst",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "« premier » est un adjectif ; erst se traduit ici par l'adverbe « d'abord » ou par « seulement ».",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-erst|translation|premier • seulement"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-es|translation|la répétition de « il » ne distingue pas le pronom personnel de la forme impersonnelle.",
+      "pathFamilySignature": "a1-es|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-es",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "la répétition de « il » ne distingue pas le pronom personnel de la forme impersonnelle.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-es|translation|il • il • forme impersonnelle"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-etwas|translation|le champ présente deux sens distincts séparés par un point médian ; une décision éditoriale est requise.",
+      "pathFamilySignature": "a1-etwas|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-etwas",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ présente deux sens distincts séparés par un point médian ; une décision éditoriale est requise.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-etwas|translation|quelque chose • un peu"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-etwas|comparison[].meaning|la traduction française omet le second sens « nedaudz », qui signifie « un peu ».",
+      "pathFamilySignature": "a1-etwas|comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-etwas",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "la traduction française omet le second sens « nedaudz », qui signifie « un peu ».",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-etwas|comparison[0].meaning|quelque chose"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-euch|translation|les deux fonctions de euch sont distinctes, mais la répétition de « vous » ne les explique pas.",
+      "pathFamilySignature": "a1-euch|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-euch",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "les deux fonctions de euch sont distinctes, mais la répétition de « vous » ne les explique pas.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-euch|translation|vous • vous"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-fahren|translation|« diriger » ne traduit pas fahren ; le verbe exprime un déplacement en véhicule ou le fait d'emmener quelqu'un.",
+      "pathFamilySignature": "a1-fahren|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-fahren",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "« diriger » ne traduit pas fahren ; le verbe exprime un déplacement en véhicule ou le fait d'emmener quelqu'un.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fahren|translation|conduire • diriger • emporter"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-finden|translation|dans le sens d'une opinion, finden correspond à « penser » ou « trouver », non à « considérer » au niveau a1.",
+      "pathFamilySignature": "a1-finden|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-finden",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "dans le sens d'une opinion, finden correspond à « penser » ou « trouver », non à « considérer » au niveau a1.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-finden|translation|trouver • considérer"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-frau|translation|le champ regroupe deux sens distincts avec un séparateur ; une décision éditoriale est requise.",
+      "pathFamilySignature": "a1-frau|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-frau",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ regroupe deux sens distincts avec un séparateur ; une décision éditoriale est requise.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-frau|translation|femme • épouse"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-fuer|translation|la répétition de « pour » ne distingue pas les fonctions illustrées dans les exemples.",
+      "pathFamilySignature": "a1-fuer|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-fuer",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "la répétition de « pour » ne distingue pas les fonctions illustrées dans les exemples.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-fuer|translation|pour • pour"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-geben|examples[].lv|typographic apostrophe should be consistent with the rest of the french dataset.",
+      "pathFamilySignature": "a1-geben|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-geben",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "typographic apostrophe should be consistent with the rest of the french dataset.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-geben|examples[0].lv|donne-moi le livre, s'il te plaît."
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-geben|examples[].lv|the french example lacks final punctuation.",
+      "pathFamilySignature": "a1-geben|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-geben",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the french example lacks final punctuation.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-geben|examples[2].lv|je prends le livre",
+        "a1-geben|examples[3].lv|je reçois un cadeau"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-gleich|translation|the learner-facing translation contains two distinct meanings; an owner must decide which sense is primary.",
+      "pathFamilySignature": "a1-gleich|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-gleich",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "the learner-facing translation contains two distinct meanings; an owner must decide which sense is primary.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-gleich|translation|immédiatement • égal"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-halten|translation|the learner-facing translation contains multiple distinct meanings and requires an owner decision.",
+      "pathFamilySignature": "a1-halten|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "the learner-facing translation contains multiple distinct meanings and requires an owner decision.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|translation|maintenir • arrêter"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-halten|examples[].lv|the french example lacks final punctuation.",
+      "pathFamilySignature": "a1-halten|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-halten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the french example lacks final punctuation.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-halten|examples[0].lv|je tiens un sac"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-hand-study|frmain|paume means palm and incorrectly narrows the german noun hand, which means hand.",
+      "pathFamilySignature": "a1-hand-study|frmain",
+      "dataset": "fr-a1",
+      "cardId": "a1-hand-study",
+      "fieldFamily": "frmain",
+      "pedagogicalMeaning": "paume means palm and incorrectly narrows the german noun hand, which means hand.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hand-study|frmain|main (paume)"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-heißen|translation|plusieurs sens sont séparés par • ; « moyen » est incorrect pour le sens verbal « signifier ».",
+      "pathFamilySignature": "a1-heißen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-heißen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "plusieurs sens sont séparés par • ; « moyen » est incorrect pour le sens verbal « signifier ».",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-heißen|translation|être appelé • moyen"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-hoeren-study|translation|le champ présente plusieurs traductions séparées par • ; une décision éditoriale est requise.",
+      "pathFamilySignature": "a1-hoeren-study|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-hoeren-study",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ présente plusieurs traductions séparées par • ; une décision éditoriale est requise.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-hoeren-study|translation|entendre • écouter"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-huebsch|tip.text|« nett » est un mot allemand restant dans le texte français ; il faut employer « gentil ».",
+      "pathFamilySignature": "a1-huebsch|tip.text",
+      "dataset": "fr-a1",
+      "cardId": "a1-huebsch",
+      "fieldFamily": "tip.text",
+      "pedagogicalMeaning": "« nett » est un mot allemand restant dans le texte français ; il faut employer « gentil ».",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-huebsch|tip.text|hübsch décrit surtout une jolie apparence ; nett décrit une personne aimable."
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-ihr|translation|plusieurs sens sont séparés par • et « elle » ne traduit pas le datif allemand ihr ; le pronom français est « lui ».",
+      "pathFamilySignature": "a1-ihr|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-ihr",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "plusieurs sens sont séparés par • et « elle » ne traduit pas le datif allemand ihr ; le pronom français est « lui ».",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ihr|translation|vous • elle"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-im|translation|« où ? » est une question, pas une traduction de im ; le champ contient plusieurs éléments séparés par •.",
+      "pathFamilySignature": "a1-im|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-im",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "« où ? » est une question, pas une traduction de im ; le champ contient plusieurs éléments séparés par •.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-im|translation|dans • où ?"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-ins|translation|la traduction est dupliquée et « où ? » est une question, non une traduction de ins.",
+      "pathFamilySignature": "a1-ins|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-ins",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "la traduction est dupliquée et « où ? » est une question, non une traduction de ins.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-ins|translation|dans • dans • où ?"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-kein|translation|« personne » et « rien » sont des pronoms, tandis que kein signifie généralement « aucun » ou « pas de ».",
+      "pathFamilySignature": "a1-kein|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-kein",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "« personne » et « rien » sont des pronoms, tandis que kein signifie généralement « aucun » ou « pas de ».",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-kein|translation|personne • rien"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-können|translation|learner-facing field contains two distinct translations separated by •; owner decision is required.",
+      "pathFamilySignature": "a1-können|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-können",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "learner-facing field contains two distinct translations separated by •; owner decision is required.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-können|translation|être capable de • savoir"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-kosten|examples[].lv|payer la facture does not express kosten; the german verb means coûter.",
+      "pathFamilySignature": "a1-kosten|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-kosten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "payer la facture does not express kosten; the german verb means coûter.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-kosten|examples[4].lv|je paie la facture"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-kosten|examples[].lv|the french sentence means payer, not coûter, and is unrelated to german kosten.",
+      "pathFamilySignature": "a1-kosten|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-kosten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the french sentence means payer, not coûter, and is unrelated to german kosten.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-kosten|examples[5].lv|puis-je payer en espèces"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-kosten|examples[].lv|the french sentence means payer, whereas kosten means coûter.",
+      "pathFamilySignature": "a1-kosten|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-kosten",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the french sentence means payer, whereas kosten means coûter.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-kosten|examples[6].lv|il paie par carte.",
+        "a1-kosten|examples[7].lv|je vais payer maintenant"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-laden-study|examples[].lv|this example describes charger un téléphone, not the noun laden meaning magasin.",
+      "pathFamilySignature": "a1-laden-study|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-laden-study",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "this example describes charger un téléphone, not the noun laden meaning magasin.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laden-study|examples[3].lv|je dois recharger mon téléphone."
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-land|translation|learner-facing field contains two distinct translations separated by •; owner decision is required.",
+      "pathFamilySignature": "a1-land|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-land",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "learner-facing field contains two distinct translations separated by •; owner decision is required.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-land|translation|pays • terrain"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-lang|translation|learner-facing field duplicates a translation and separates entries with •; owner decision is required.",
+      "pathFamilySignature": "a1-lang|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-lang",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "learner-facing field duplicates a translation and separates entries with •; owner decision is required.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-lang|translation|longue • longue"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-lassen|translation|partir is only part of laisser partir; lassen means laisser or permettre in these senses.",
+      "pathFamilySignature": "a1-lassen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-lassen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "partir is only part of laisser partir; lassen means laisser or permettre in these senses.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-lassen|translation|partir • laisser"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-laufen|translation|exécuter and utiliser do not translate laufen in the running or operating senses shown.",
+      "pathFamilySignature": "a1-laufen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-laufen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "exécuter and utiliser do not translate laufen in the running or operating senses shown.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laufen|translation|exécuter • utiliser"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-laut|examples[].lv|the french sentence describes a beautiful sound, not the adjective laut meaning loud.",
+      "pathFamilySignature": "a1-laut|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-laut",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the french sentence describes a beautiful sound, not the adjective laut meaning loud.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laut|examples[4].lv|le son est magnifique."
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-laut|examples[].lv|the french sentence omits the meaning loud expressed by laut.",
+      "pathFamilySignature": "a1-laut|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-laut",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the french sentence omits the meaning loud expressed by laut.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laut|examples[5].lv|j'entends un son"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-laut-study|examples[].lv|this example uses the adjective laut, not the noun laut meaning son.",
+      "pathFamilySignature": "a1-laut-study|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-laut-study",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "this example uses the adjective laut, not the noun laut meaning son.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-laut-study|examples[1].lv|la musique est forte.",
+        "a1-laut-study|examples[2].lv|ne parle pas si fort !",
+        "a1-laut-study|examples[3].lv|c'est très bruyant."
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-legen|examples[].lv|the french sentence describes liegen, while legen requires a placing action.",
+      "pathFamilySignature": "a1-legen|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-legen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the french sentence describes liegen, while legen requires a placing action.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-legen|examples[3].lv|le livre est sur la table."
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-liegen|translation|liegen means being situated or lying; dormir is not its direct meaning.",
+      "pathFamilySignature": "a1-liegen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-liegen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "liegen means being situated or lying; dormir is not its direct meaning.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-liegen|translation|être • dormir"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-liegen|examples[].lv|the french sentence describes legen, a placing action, not liegen, a state or position.",
+      "pathFamilySignature": "a1-liegen|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-liegen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "the french sentence describes legen, a placing action, not liegen, a state or position.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-liegen|examples[3].lv|j'ai posé le livre sur la table."
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-machen|translation|la traduction est dupliquée inutilement.",
+      "pathFamilySignature": "a1-machen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-machen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "la traduction est dupliquée inutilement.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-machen|translation|faire • faire"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-mann|translation|deux sens français distincts sont réunis dans un seul champ; le choix ou le découpage nécessite une décision éditoriale.",
+      "pathFamilySignature": "a1-mann|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-mann",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "deux sens français distincts sont réunis dans un seul champ; le choix ou le découpage nécessite une décision éditoriale.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-mann|translation|homme • mari"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-nach|translation|deux sens français distincts sont réunis dans un seul champ; le choix ou le découpage nécessite une décision éditoriale.",
+      "pathFamilySignature": "a1-nach|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-nach",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "deux sens français distincts sont réunis dans un seul champ; le choix ou le découpage nécessite une décision éditoriale.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-nach|translation|à • après"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-natuerlich|translation|deux sens français distincts sont réunis dans un seul champ; le choix ou le découpage nécessite une décision éditoriale.",
+      "pathFamilySignature": "a1-natuerlich|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-natuerlich",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "deux sens français distincts sont réunis dans un seul champ; le choix ou le découpage nécessite une décision éditoriale.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-natuerlich|translation|bien sûr • naturel"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-nehmen|translation|la traduction est dupliquée inutilement.",
+      "pathFamilySignature": "a1-nehmen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-nehmen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "la traduction est dupliquée inutilement.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-nehmen|translation|prendre • prendre"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-nur-study|translation|la traduction est répétée deux fois; une seule entrée française suffit.",
+      "pathFamilySignature": "a1-nur-study|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-nur-study",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "la traduction est répétée deux fois; une seule entrée française suffit.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-nur-study|translation|seulement • seulement"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-oder|translation|la traduction est répétée deux fois; une seule entrée française suffit.",
+      "pathFamilySignature": "a1-oder|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-oder",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "la traduction est répétée deux fois; une seule entrée française suffit.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-oder|translation|ou • ou"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-passen|translation|« ajustement » est un nom et non la traduction du verbe « passen »; la traduction est aussi répétée.",
+      "pathFamilySignature": "a1-passen|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-passen",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "« ajustement » est un nom et non la traduction du verbe « passen »; la traduction est aussi répétée.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-passen|translation|ajustement • ajustement"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-passen|examples[].lv|pour exprimer qu'un vêtement convient à une personne, le français précise généralement le bénéficiaire.",
+      "pathFamilySignature": "a1-passen|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-passen",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "pour exprimer qu'un vêtement convient à une personne, le français précise généralement le bénéficiaire.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-passen|examples[1].lv|la robe va bien."
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-probieren|translation|le champ juxtapose deux traductions; « essayer » est la forme infinitive directe attendue pour le verbe allemand.",
+      "pathFamilySignature": "a1-probieren|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-probieren",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ juxtapose deux traductions; « essayer » est la forme infinitive directe attendue pour le verbe allemand.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-probieren|translation|a essayer • a déguster"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-seite|translation|learner-facing field contains multiple distinct translations; owner decision is required on presentation.",
+      "pathFamilySignature": "a1-seite|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-seite",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "learner-facing field contains multiple distinct translations; owner decision is required on presentation.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-seite|translation|page • côté"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-sich|translation|sich is a reflexive pronoun, not specifically second-person vous; “pour vous-même” changes the meaning.",
+      "pathFamilySignature": "a1-sich|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-sich",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "sich is a reflexive pronoun, not specifically second-person vous; “pour vous-même” changes the meaning.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sich|translation|vous-même • pour vous-même"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-sich|comparison[].meaning|latvian accusative “viņu” is him/her as a direct object; french “lui” is normally indirect or stressed.",
+      "pathFamilySignature": "a1-sich|comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-sich",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "latvian accusative “viņu” is him/her as a direct object; french “lui” is normally indirect or stressed.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sich|comparison[3].meaning|lui"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-sicher|translation|learner-facing field contains multiple distinct translations; owner decision is required on presentation.",
+      "pathFamilySignature": "a1-sicher|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-sicher",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "learner-facing field contains multiple distinct translations; owner decision is required on presentation.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sicher|translation|sûr • certainement"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-sie-study|translation|lowercase german “sie” means she or they; french omits elles and presents the forms inaccurately.",
+      "pathFamilySignature": "a1-sie-study|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-sie-study",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "lowercase german “sie” means she or they; french omits elles and presents the forms inaccurately.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-sie-study|translation|ils/elle"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-über|translation|“fini” and “pour” do not translate the core meanings of german über in this card.",
+      "pathFamilySignature": "a1-über|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-über",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "“fini” and “pour” do not translate the core meanings of german über in this card.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-über|translation|fini • pour"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-um|translation|the translation omits the core sense “around” and “heures” is not a usable french translation.",
+      "pathFamilySignature": "a1-um|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-um",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "the translation omits the core sense “around” and “heures” is not a usable french translation.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-um|translation|vers • heures"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-um|comparison[].meaning|learner-facing field uses a slash to combine distinct meanings.",
+      "pathFamilySignature": "a1-um|comparison[].meaning",
+      "dataset": "fr-a1",
+      "cardId": "a1-um",
+      "fieldFamily": "comparison[].meaning",
+      "pedagogicalMeaning": "learner-facing field uses a slash to combine distinct meanings.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-um|comparison[2].meaning|vers cette heure / contre"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-vor|translation|le champ learner-facing contient deux traductions distinctes séparées par « • » ; décision de présentation nécessaire.",
+      "pathFamilySignature": "a1-vor|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-vor",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ learner-facing contient deux traductions distinctes séparées par « • » ; décision de présentation nécessaire.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-vor|translation|avant • devant"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-was|translation|was signifie « quoi », pas « qui » ; la première traduction est incorrecte pour le mot allemand.",
+      "pathFamilySignature": "a1-was|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-was",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "was signifie « quoi », pas « qui » ; la première traduction est incorrecte pour le mot allemand.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-was|translation|qui • quoi"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-was|examples[].lv|la phrase française est correcte et rend « was » ; aucune correction nécessaire.",
+      "pathFamilySignature": "a1-was|examples[].lv",
+      "dataset": "fr-a1",
+      "cardId": "a1-was",
+      "fieldFamily": "examples[].lv",
+      "pedagogicalMeaning": "la phrase française est correcte et rend « was » ; aucune correction nécessaire.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-was|examples[0].lv|qu'est-ce que c'est ?"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-wenn|translation|le champ learner-facing contient deux traductions distinctes séparées par « • » ; décision de présentation nécessaire.",
+      "pathFamilySignature": "a1-wenn|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-wenn",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ learner-facing contient deux traductions distinctes séparées par « • » ; décision de présentation nécessaire.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-wenn|translation|si • quand"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-wie|translation|le champ learner-facing contient deux traductions distinctes séparées par « • » ; décision de présentation nécessaire.",
+      "pathFamilySignature": "a1-wie|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-wie",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "le champ learner-facing contient deux traductions distinctes séparées par « • » ; décision de présentation nécessaire.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-wie|translation|comment • combien"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-essen-study|translation|deux traductions distinctes sont séparées par un point médian; le propriétaire doit valider la formulation learner-facing.",
+      "pathFamilySignature": "a1-essen-study|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-essen-study",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "deux traductions distinctes sont séparées par un point médian; le propriétaire doit valider la formulation learner-facing.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-essen-study|translation|alimentation • repas"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
+    },
+    {
+      "semanticSignature": "a1-einmal|translation|la traduction française est répétée à l’identique, ce qui crée un doublon inutile dans le champ d’étude.",
+      "pathFamilySignature": "a1-einmal|translation",
+      "dataset": "fr-a1",
+      "cardId": "a1-einmal",
+      "fieldFamily": "translation",
+      "pedagogicalMeaning": "la traduction française est répétée à l’identique, ce qui crée un doublon inutile dans le champ d’étude.",
+      "auditRunIds": [
+        "run-be8f671e-2026-08-27"
+      ],
+      "problemSignatures": [
+        "a1-einmal|translation|une fois • une fois"
+      ],
+      "lastSeenAt": "2026-08-27T17:00:12.907Z"
     }
   ]
 }

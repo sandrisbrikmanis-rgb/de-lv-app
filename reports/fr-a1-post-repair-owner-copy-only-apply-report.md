@@ -1,9 +1,9 @@
-# FR–DE A1 POST-REPAIR OWNER — COPY-ONLY apply report (cycle 5)
+# FR–DE A1 POST-REPAIR OWNER — COPY-ONLY apply report (cycle 7)
 
 **Authority:** `reports/owner-authority/fr-a1-post-repair-owner-decisions-filled.md`
 **DE:** STRICT READ-ONLY
-**BASE_SHA:** `0b46c6c694496f6f14017c6e099e87627a7a4a73`
-**HEAD_SHA:** `0b46c6c694496f6f14017c6e099e87627a7a4a73`
+**BASE_SHA:** `ab141c1b5810d0d80aa8cee343f84e829bfbf685`
+**HEAD_SHA:** `ab141c1b5810d0d80aa8cee343f84e829bfbf685`
 **Dry run:** yes
 
 ## Obligātie vārti

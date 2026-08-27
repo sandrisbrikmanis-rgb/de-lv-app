@@ -4,7 +4,7 @@
 **MAIN_BASE_SHA:** `a2a769e8600291411a7a66eab0483dd4659c9151`
 **WORK_BRANCH:** `cursor/fr-a1-owner-gala-copy-only-f5bc`
 **Audit PR:** [#683](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/683)
-**Findings:** **10** · sākotnēji visi **PENDING**
+**Findings:** **2** · sākotnēji visi **PENDING**
 
 Filtrēts pēc [fr-a1-pr603-owner-history-validation.md](fr-a1-pr603-owner-history-validation.md): tikai **NEW_VALIDATED_REAL_FINDINGS** (16/19).
 
@@ -18,18 +18,10 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 |-------|--------|
 | GitHub indekss | [fr-a1-post-repair-owner-review-GITHUB.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-review-GITHUB.md) |
 | OWNER VIEW | [fr-a1-post-repair-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-view.md) |
-| Decisions grupa 1–10 | [fr-a1-post-repair-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group01.md) |
+| Decisions grupa 1–2 | [fr-a1-post-repair-owner-decisions-group01.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-a1-owner-gala-copy-only-f5bc/reports/fr-a1-post-repair-owner-decisions-group01.md) |
 
 ## Pilna tabula (visi findingi)
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| FR-A1-0231 | a1-also | study.sectionAccents (examples) | Vous | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0332 | a1-also | study.sectionAccents.examples.lv | Vous | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0334 | a1-Butterbrot-112 | frText | Un sandwich | Une tartine beurrée | MEDIUM | SEMANTICS | PENDING | | |
-| FR-A1-0361 | a1-eis | study.examples[0].lv | Je mange de la glace | Je mange de la glace. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0362 | a1-eis | study.examples[1].lv | Veux-tu de la glace | Veux-tu de la glace ? | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0367 | a1-erst | study.comparison[2].meaning | Seulement | Seulement | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0370 | a1-etwas | study.examples[2].lv | Je suis un peu fatigué | Je suis un peu fatigué. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0371 | a1-etwas | study.examples[3].lv | J'ai quelque chose pour toi | J'ai quelque chose pour toi. | LOW | ORTHOGRAPHY | PENDING | | |
-| FR-A1-0417 | a1-passen | study.examples[1].lv | La robe va bien. | La robe me va bien. | MEDIUM | NATURALNESS | PENDING | | |
-| FR-A1-0433 | a1-verstehen | study.tip.text | N'oubliez pas : comprendre le texte/la personne → verstehen • Savoir comment faire quelque chose → können. | N'oubliez pas : comprendre le texte/la personne → verstehen ; savoir faire quelque chose → können. | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0372 | a1-halten | study.examples[0].lv | Je tiens un sac | Je tiens un sac. | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0374 | a1-hand-study | frMain | Main (paume) | Main | MEDIUM | SEMANTICS | PENDING | | |
