@@ -272,7 +272,7 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "À • À • Présent",
+    "lv": "À",
     "level": "A1",
     "study": {
       "id": "a1-an",
@@ -405,11 +405,7 @@ const A1_WORDS = [
             "purple": [
               "Atceries"
             ],
-            "green": [
-              "sienas",
-              "loga",
-              "malas"
-            ]
+            "green": []
           }
         },
         "important": [
@@ -487,7 +483,7 @@ const A1_WORDS = [
         },
         {
           "word": "von",
-          "meaning": "De quelqu'un/quelque chose • Origine",
+          "meaning": "De quelqu'un ou de quelque chose (origine)",
           "example": "von mir – De moi"
         },
         {
@@ -1403,7 +1399,7 @@ const A1_WORDS = [
   },
   {
     "de": "aus",
-    "lv": "De • Sortie",
+    "lv": "De",
     "level": "A1",
     "study": {
       "id": "a1-aus",
@@ -1567,7 +1563,7 @@ const A1_WORDS = [
   },
   {
     "de": "aufs",
-    "lv": "Vers • Sur • Où ?",
+    "lv": "Vers",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
@@ -1599,7 +1595,7 @@ const A1_WORDS = [
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Il monte à cheval."
+          "lv": "Il monte sur le cheval."
         },
         {
           "de": "Leg das Buch aufs Regal.",
@@ -1914,7 +1910,7 @@ const A1_WORDS = [
   },
   {
     "de": "baden",
-    "lv": "Nager",
+    "lv": "Se baigner",
     "level": "A1",
     "study": {
       "id": "a1-baden",
@@ -1962,7 +1958,7 @@ const A1_WORDS = [
         },
         {
           "word": "schwimmen gehen",
-          "meaning": "Allez nager",
+          "meaning": "Aller nager",
           "example": "Ich gehe heute schwimmen."
         }
       ],
@@ -2189,7 +2185,7 @@ const A1_WORDS = [
   },
   {
     "de": "bei",
-    "lv": "À",
+    "lv": "Chez",
     "level": "A1",
     "study": {
       "id": "a1-bei",
@@ -2668,7 +2664,7 @@ const A1_WORDS = [
         },
         {
           "de": "Bitte schön!",
-          "lv": "Une tasse de café, s'il vous plaît."
+          "lv": "S'il vous plaît !"
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -2968,7 +2964,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "Je rentre à la maison"
+          "lv": "Je reste à la maison."
         }
       ],
       "comparison": [
@@ -3561,7 +3557,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich war da.",
-          "lv": "J'étais là"
+          "lv": "J'étais là."
         },
         {
           "de": "Da kommt er.",
@@ -3950,7 +3946,7 @@ const A1_WORDS = [
         },
         {
           "word": "weil",
-          "meaning": "Parce que • Parce que",
+          "meaning": "Parce que",
           "example": "Ich bleibe zu Hause, weil es regnet. – Je reste à la maison parce qu'il pleut."
         },
         {
@@ -4474,7 +4470,7 @@ const A1_WORDS = [
   },
   {
     "de": "du",
-    "lv": "Toi",
+    "lv": "Tu",
     "level": "A1"
   },
   {
@@ -4505,7 +4501,7 @@ const A1_WORDS = [
   },
   {
     "de": "ein",
-    "lv": "Article indéfini • Un • Quelqu'un",
+    "lv": "Article indéfini",
     "level": "A1",
     "study": {
       "id": "a1-ein",
@@ -4712,12 +4708,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "das Eis",
-          "meaning": "Glace / glace",
+          "meaning": "Glace",
           "example": "Ich esse ein Eis. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
-          "meaning": "Il va neiger",
+          "meaning": "Neige",
           "example": "Der Schnee ist weiß. = Sniegs ir balts."
         },
         {
@@ -4982,12 +4978,12 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "erst",
-          "meaning": "Premier • Seulement",
+          "meaning": "D'abord • Seulement",
           "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Travaillez d’abord, puis faites une pause."
         },
         {
           "word": "zuerst",
-          "meaning": "Premièrement • Au début",
+          "meaning": "D'abord • Au début",
           "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
         },
         {
@@ -5139,7 +5135,7 @@ const A1_WORDS = [
   },
   {
     "de": "es",
-    "lv": "Il • Il • Forme impersonnelle",
+    "lv": "Il • Forme impersonnelle",
     "level": "A1",
     "study": {
       "id": "a1-es",
@@ -5318,7 +5314,7 @@ const A1_WORDS = [
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "As-tu du temps"
+          "lv": "As-tu un peu de temps ?"
         },
         {
           "de": "Ich bin etwas müde.",
@@ -5336,7 +5332,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "etwas",
-          "meaning": "Quelque chose / un peu",
+          "meaning": "Quelque chose",
           "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
         },
         {
@@ -5356,7 +5352,7 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Rappelez-vous : chose → quelque chose • Degré → légèrement."
+        "text": "Rappelez-vous : chose → quelque chose • Degré → un peu."
       },
       "important": [
         "Etwas n'est pas la même chose que nichts : etwas signifie quelque chose, mais nichts ne veut rien dire.",
@@ -5614,7 +5610,7 @@ const A1_WORDS = [
   },
   {
     "de": "fahren",
-    "lv": "Conduire • Diriger • Emporter",
+    "lv": "Conduire",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
@@ -5651,22 +5647,22 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "fahren",
-          "meaning": "Prendre le transport",
+          "meaning": "Voyager en véhicule",
           "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "gehen",
-          "meaning": "Allez à pied",
+          "meaning": "Aller à pied",
           "example": "Ich gehe nach Hause."
         },
         {
           "word": "laufen",
-          "meaning": "Courir / partir",
+          "meaning": "Courir / marcher",
           "example": "Er läuft schnell."
         },
         {
           "word": "bringen",
-          "meaning": "Apporter/livrer",
+          "meaning": "Emmener",
           "example": "Ich bringe das Buch."
         },
         {
@@ -6010,12 +6006,12 @@ const A1_WORDS = [
     "de": "Filzstift",
     "de_article": "der",
     "de_plural": "die Filzstifte",
-    "lv": "Stylo feutre",
+    "lv": "Stylo-feutre",
     "level": "A1"
   },
   {
     "de": "finden",
-    "lv": "Trouver • Considérer",
+    "lv": "Trouver",
     "level": "A1",
     "study": {
       "id": "a1-finden",
@@ -6048,7 +6044,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "finden",
-          "meaning": "Trouver / considérer",
+          "meaning": "Trouver / penser",
           "example": "Ich finde das gut. = Man tas šķiet labi."
         },
         {
@@ -6572,7 +6568,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was bezahlst du für das Auto?",
-          "lv": "Combien payez-vous pour une voiture ?"
+          "lv": "Combien paies-tu pour une voiture ?"
         },
         {
           "de": "Das Buch ist für Kinder.",
@@ -6863,12 +6859,12 @@ const A1_WORDS = [
         },
         {
           "word": "bekommen",
-          "meaning": "Recevoir/obtenir",
+          "meaning": "Recevoir ou obtenir",
           "example": "Ich bekomme ein Geschenk."
         },
         {
           "word": "bringen",
-          "meaning": "Apporter/livrer",
+          "meaning": "Apporter ou livrer",
           "example": "Ich bringe dir das Buch."
         }
       ],
@@ -8339,7 +8335,7 @@ const A1_WORDS = [
         },
         {
           "de": "Mein Arm tut weh.",
-          "lv": "J'ai mal au bras."
+          "lv": "J'ai mal à la main."
         }
       ],
       "comparison": [
@@ -9610,7 +9606,7 @@ const A1_WORDS = [
         },
         {
           "de": "Komm ins Haus!",
-          "lv": "Viens à la maison !"
+          "lv": "Entre dans la maison !"
         },
         {
           "de": "Er steckt das Geld in den Geldbeutel.",
@@ -10289,7 +10285,7 @@ const A1_WORDS = [
   },
   {
     "de": "kennen",
-    "lv": "Savoir",
+    "lv": "Connaître",
     "level": "A1",
     "id": "a1-kennen",
     "study": {
@@ -10313,7 +10309,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wo habt ihr euch kennengelernt?",
-          "lv": "Où vous êtes-vous rencontré ?"
+          "lv": "Où vous êtes-vous rencontrés ?"
         },
         {
           "de": "Ich kenne ihn.",
@@ -10447,7 +10443,7 @@ const A1_WORDS = [
         },
         {
           "de": "Woher wissen Sie das?",
-          "lv": "Comment tu sais ça ?"
+          "lv": "Comment le savez-vous ?"
         },
         {
           "de": "Ich weiß die Antwort.",
@@ -10568,7 +10564,7 @@ const A1_WORDS = [
   },
   {
     "de": "können",
-    "lv": "Être capable de • Savoir",
+    "lv": "Pouvoir",
     "level": "A1",
     "study": {
       "id": "a1-können",
@@ -10601,7 +10597,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "können",
-          "meaning": "Pouvoir/savoir",
+          "meaning": "Pouvoir",
           "example": "Ich kann schwimmen. = Es protu peldēt."
         },
         {
@@ -10784,7 +10780,7 @@ const A1_WORDS = [
   },
   {
     "de": "kosten",
-    "lv": "Payer",
+    "lv": "Coûter",
     "level": "A1",
     "study": {
       "id": "a1-kosten",
@@ -11261,7 +11257,7 @@ const A1_WORDS = [
     "de": "Laden",
     "de_article": "der",
     "de_plural": "die Läden",
-    "lv": "Boutique",
+    "lv": "Magasin",
     "level": "A1",
     "study": {
       "id": "a1-laden-study",
@@ -11399,7 +11395,7 @@ const A1_WORDS = [
     "de": "Land",
     "de_article": "das",
     "de_plural": "die Länder",
-    "lv": "Pays • Terrain",
+    "lv": "Pays",
     "level": "A1",
     "study": {
       "id": "a1-land",
@@ -11447,7 +11443,7 @@ const A1_WORDS = [
         },
         {
           "word": "die Erde",
-          "meaning": "Terre / planète",
+          "meaning": "Terre",
           "example": "Die Erde ist rund."
         }
       ],
@@ -11619,7 +11615,7 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Longue • Longue",
+    "lv": "Long",
     "level": "A1",
     "study": {
       "id": "a1-lang",
@@ -11785,7 +11781,7 @@ const A1_WORDS = [
   },
   {
     "de": "lassen",
-    "lv": "Partir • Laisser",
+    "lv": "Laisser",
     "level": "A1",
     "study": {
       "id": "a1-lassen",
@@ -11996,7 +11992,7 @@ const A1_WORDS = [
   },
   {
     "de": "laufen",
-    "lv": "Exécuter • Utiliser",
+    "lv": "Courir",
     "level": "A1",
     "study": {
       "id": "a1-laufen",
@@ -12810,7 +12806,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "S'il vous plaît, restez silencieux."
+          "lv": "S'il te plaît, reste silencieux."
         },
         {
           "de": "Bitte sei leise.",
@@ -12959,7 +12955,7 @@ const A1_WORDS = [
   },
   {
     "de": "liegen",
-    "lv": "Être • Dormir",
+    "lv": "Être allongé",
     "level": "A1",
     "study": {
       "id": "a1-liegen",
@@ -13253,7 +13249,7 @@ const A1_WORDS = [
   },
   {
     "de": "machen",
-    "lv": "Faire • Faire",
+    "lv": "Faire",
     "level": "A1",
     "study": {
       "id": "a1-machen",
@@ -13420,7 +13416,7 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Temps",
+    "lv": "Fois",
     "level": "A1",
     "study": {
       "id": "a1-mal",
@@ -14277,7 +14273,7 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "A demain !"
+          "lv": "À demain !"
         },
         {
           "de": "Ich komme morgen.",
@@ -14575,7 +14571,7 @@ const A1_WORDS = [
   },
   {
     "de": "müssen",
-    "lv": "Avoir besoin",
+    "lv": "Devoir",
     "level": "A1",
     "study": {
       "id": "a1-müssen",
@@ -14806,7 +14802,7 @@ const A1_WORDS = [
   },
   {
     "de": "nach",
-    "lv": "À • Après",
+    "lv": "À",
     "level": "A1",
     "study": {
       "id": "a1-nach",
@@ -15066,7 +15062,7 @@ const A1_WORDS = [
   },
   {
     "de": "natürlich",
-    "lv": "Bien sûr • Naturel",
+    "lv": "Bien sûr",
     "level": "A1",
     "study": {
       "id": "a1-natuerlich",
@@ -15101,7 +15097,7 @@ const A1_WORDS = [
         },
         {
           "de": "Das ist ganz natürlich.",
-          "lv": "C'est tout à fait naturel/normal."
+          "lv": "C'est tout à fait naturel."
         }
       ],
       "tip": [
@@ -15223,7 +15219,7 @@ const A1_WORDS = [
   },
   {
     "de": "nehmen",
-    "lv": "Prendre • Prendre",
+    "lv": "Prendre",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
@@ -15727,11 +15723,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bin noch zu Hause.",
-          "lv": "Je suis toujours à la maison"
+          "lv": "Je suis toujours à la maison."
         },
         {
           "de": "Bist du noch da?",
-          "lv": "Es-tu toujours là"
+          "lv": "Es-tu toujours là ?"
         }
       ],
       "tip": [
@@ -15975,7 +15971,7 @@ const A1_WORDS = [
   },
   {
     "de": "ob",
-    "lv": "Ou",
+    "lv": "Si",
     "level": "A1",
     "study": {
       "id": "a1-ob",
@@ -16018,7 +16014,7 @@ const A1_WORDS = [
         },
         {
           "word": "wenn",
-          "meaning": "Si/quand",
+          "meaning": "Si",
           "example": "Wenn du Zeit hast..."
         },
         {
@@ -16236,7 +16232,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "oder",
-          "meaning": "Ou choisissez",
+          "meaning": "Ou dans un choix",
           "example": "Kaffee oder Tee?"
         },
         {
@@ -16487,7 +16483,7 @@ const A1_WORDS = [
   },
   {
     "de": "passen",
-    "lv": "Ajustement • Ajustement",
+    "lv": "Convenir",
     "level": "A1",
     "study": {
       "id": "a1-passen",
@@ -16800,13 +16796,13 @@ const A1_WORDS = [
         },
         {
           "de": "Kann ich die Jacke anprobieren?",
-          "lv": "Puis-je essayer la veste"
+          "lv": "Puis-je essayer la veste ?"
         }
       ],
       "comparison": [
         {
           "word": "probieren",
-          "meaning": "Essayer / goûter",
+          "meaning": "Goûter",
           "example": "Probier mal die Suppe!"
         },
         {
@@ -17298,7 +17294,7 @@ const A1_WORDS = [
   },
   {
     "de": "schauen",
-    "lv": "Montre",
+    "lv": "Regarder",
     "level": "A1",
     "study": {
       "id": "a1-schauen-study",
@@ -17321,7 +17317,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich schaue fern.",
-          "lv": "Je regarde la télé"
+          "lv": "Je regarde la télé."
         }
       ],
       "comparison": [
@@ -17469,7 +17465,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich bin schon zu Hause.",
-          "lv": "Je suis déjà à la maison"
+          "lv": "Je suis déjà à la maison."
         }
       ],
       "tip": [
@@ -17592,7 +17588,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich schwimme gern.",
-          "lv": "J'aime nager"
+          "lv": "J'aime nager."
         },
         {
           "de": "Er schwimmt sehr gut.",
@@ -17604,13 +17600,13 @@ const A1_WORDS = [
         },
         {
           "de": "Ich gehe baden.",
-          "lv": "Je vais nager"
+          "lv": "Je vais nager."
         }
       ],
       "comparison": [
         {
           "word": "schwimmen",
-          "meaning": "Nager comme mouvement ou sport",
+          "meaning": "Nager",
           "example": "Er schwimmt sehr gut."
         },
         {
@@ -18430,7 +18426,7 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "Vous-même • Pour vous-même",
+    "lv": "Soi-même",
     "level": "A1",
     "study": {
       "id": "a1-sich",
@@ -18453,7 +18449,7 @@ const A1_WORDS = [
         },
         {
           "de": "Sie freut sich.",
-          "lv": "Elle est heureuse."
+          "lv": "Elle se réjouit."
         },
         {
           "de": "Ich wasche das Auto.",
@@ -18660,7 +18656,7 @@ const A1_WORDS = [
   },
   {
     "de": "sicher",
-    "lv": "Sûr • Certainement",
+    "lv": "Sûr",
     "level": "A1",
     "study": {
       "id": "a1-sicher",
@@ -18812,7 +18808,7 @@ const A1_WORDS = [
   },
   {
     "de": "sie",
-    "lv": "Ils/elle",
+    "lv": "Elle",
     "level": "A1",
     "study": {
       "id": "a1-sie-study",
@@ -18964,7 +18960,7 @@ const A1_WORDS = [
   },
   {
     "de": "Sie",
-    "lv": "Toi",
+    "lv": "Vous",
     "level": "A1",
     "study": {
       "id": "a1-sie-study-2",
@@ -18983,23 +18979,23 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Cuisinez, s'il vous plaît."
+          "lv": "Vous cuisinez, s'il vous plaît."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Elle cuisine."
+          "lv": "Vous cuisinez."
         },
         {
           "de": "Sie isst.",
-          "lv": "Elle mange"
+          "lv": "Vous mangez."
         },
         {
           "de": "Sie kochen.",
-          "lv": "Ils cuisinent."
+          "lv": "Vous cuisinez."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "Ils jouent au football."
+          "lv": "Vous jouez au football."
         },
         {
           "de": "Sie kochen, bitte.",
@@ -19389,7 +19385,7 @@ const A1_WORDS = [
   },
   {
     "de": "sollen",
-    "lv": "Devrait",
+    "lv": "Devoir",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
@@ -20104,7 +20100,7 @@ const A1_WORDS = [
   },
   {
     "de": "über",
-    "lv": "Fini • Pour",
+    "lv": "Au-dessus",
     "level": "A1",
     "study": {
       "id": "a1-über",
@@ -20336,7 +20332,7 @@ const A1_WORDS = [
   },
   {
     "de": "um",
-    "lv": "Vers • Heures",
+    "lv": "Autour",
     "level": "A1",
     "study": {
       "id": "a1-um",
@@ -20379,12 +20375,12 @@ const A1_WORDS = [
         },
         {
           "word": "gegen",
-          "meaning": "Autour du temps / contre",
+          "meaning": "Vers cette heure / contre",
           "example": "Ich komme gegen acht."
         },
         {
           "word": "für",
-          "meaning": "Pour / en faveur de",
+          "meaning": "En faveur de",
           "example": "Das ist für dich."
         }
       ],
@@ -20827,7 +20823,7 @@ const A1_WORDS = [
   },
   {
     "de": "verstehen",
-    "lv": "Pour comprendre",
+    "lv": "Comprendre",
     "level": "A1",
     "study": {
       "id": "a1-verstehen",
@@ -20860,7 +20856,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "verstehen",
-          "meaning": "Pour comprendre",
+          "meaning": "Comprendre",
           "example": "Ich verstehe dich."
         },
         {
@@ -21102,7 +21098,7 @@ const A1_WORDS = [
   },
   {
     "de": "vom",
-    "lv": "Depuis",
+    "lv": "Du",
     "level": "A1",
     "study": {
       "id": "a1-vom",
@@ -21152,7 +21148,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "vom",
-          "meaning": "De (une chose précise, pour qui ?)",
+          "meaning": "De (une chose précise, de qui ?)",
           "example": "vom Bahnhof – De la gare"
         },
         {
@@ -21402,7 +21398,7 @@ const A1_WORDS = [
   },
   {
     "de": "vor",
-    "lv": "Avant • Devant",
+    "lv": "Devant",
     "level": "A1",
     "study": {
       "id": "a1-vor",
@@ -21667,7 +21663,7 @@ const A1_WORDS = [
   },
   {
     "de": "was",
-    "lv": "Qui • Quoi",
+    "lv": "Quoi",
     "level": "A1",
     "study": {
       "id": "a1-was",
@@ -21904,7 +21900,7 @@ const A1_WORDS = [
   },
   {
     "de": "wenn",
-    "lv": "Si • Quand",
+    "lv": "Si",
     "level": "A1",
     "study": {
       "id": "a1-wenn",
@@ -23814,7 +23810,7 @@ const A1_WORDS = [
         },
         {
           "word": "das Fernsehen",
-          "meaning": "Télévision (médias)",
+          "meaning": "Télévision (média)",
           "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
         },
         {
