@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.13\
+**Versija:** 1.14\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -556,6 +556,9 @@ Katram `legacyHtml` laukam deterministiskais slānis obligāti:
 
 Plašs parent finding par visu `legacyHtml` lauku nedrīkst aizstāt
 granular residual scan.
+
+Pilna Kurss/Lessons audita metodika (deterministisks inventārs, dialogu
+konteksts, shared UI konflikti, closure vārti): sk. **§7.40–§7.64**.
 
 ------------------------------------------------------------------------
 
@@ -2235,8 +2238,719 @@ BATCH_COMPLETENESS
 CURRENT_EXACT_MATCH
 ```
 
+## 7.40. KURSS / LESSONS FULL AUDIT STANDARD — piemērošanas joma (v1.14)
+
+Kurss audits ir **atsevišķs** pilna valodas audita modulis.
+
+To nedrīkst aizstāt ar A1–C2:
+
+- parasto kartīšu auditu;
+- `minimalStudy` auditu;
+- `standardStudy` auditu;
+- vienkāršu Card ID paritātes pārbaudi.
+
+Kurss audits aptver:
+
+- visas 21 lekcijas;
+- L1–6 legacy struktūru;
+- L7 atsevišķo deck struktūru;
+- L8–21 flashcard/training-card struktūru;
+- dialogus;
+- vārdu un frāžu sarakstus;
+- gramatikas skaidrojumus;
+- piemērus;
+- vingrinājumus;
+- jautājumu un atbilžu pārus;
+- training cards;
+- lesson flashcards;
+- koplietotās UI atslēgas;
+- Kurss HTML un renderer struktūru;
+- primary/`www` spoguļus;
+- LV fallback kontroli;
+- vizuālo un funkcionālo paritāti.
+
+Šī sadaļa papildina §5 Kurss master noteikumus un §7.26–§7.39 vispārējo
+audita metodiku, bet tās neaizstāj.
+
+## 7.41. LV Kurss etalona loma (v1.14)
+
+LV Kurss ir obligātais etalons:
+
+- lekciju skaitam;
+- sadaļu secībai;
+- sadaļu tipiem;
+- objektu skaitam;
+- Card ID;
+- funkcionālajai uzvedībai;
+- renderer darbībai;
+- progress loģikai;
+- flip/next darbībai;
+- training režīmiem;
+- vizuālajai struktūrai;
+- pedagoģiskajai loģikai.
+
+LV teksts **nav** automātisks mērķvalodas tulkojuma avots.
+
+Aizliegts:
+
+- automātiski kopēt LV tekstu uz mērķvalodu;
+- burtiski pārtulkot LV tekstu bez DE konteksta;
+- izmantot LV `CURRENT` kā mērķvalodas `OWNER NEW`;
+- mainīt DE tekstu, lai tas atbilstu kļūdainam LV vai mērķvalodas tekstam.
+
+Mērķvalodas lingvistiskā vērtība jāpārbauda pret:
+
+1. DE saturu;
+2. konkrētās lekcijas kontekstu;
+3. mērķvalodas gramatiku un dabiskumu;
+4. LV pedagoģisko un strukturālo etalonu.
+
+## 7.42. Kurss DE STRICT READ-ONLY (v1.14)
+
+Kurss audita un remonta laikā DE ir:
+
+```text
+STRICT READ-ONLY
+```
+
+Bez atsevišķa OWNER avota lēmuma aizliegts mainīt:
+
+- DE dialogus;
+- DE kartīšu aizmugures;
+- DE piemērus;
+- DE vingrinājumu tekstus;
+- DE gramatikas skaidrojumus;
+- DE metadatus;
+- DE UI virknes.
+
+Katras Kurss verifikācijas atskaitē obligāti:
+
+```text
+DE_UNAUTHORIZED_CHANGES = 0
+```
+
+## 7.43. Deterministisks Kurss inventārs (v1.14)
+
+Pirms Luna audita skriptam jāizveido visu Kurss objektu un auditējamo lauku
+inventārs (papildina §7.27).
+
+Katram laukam obligāti:
+
+```text
+Language
+Lesson number
+Lesson ID
+Section number
+Section type
+Object/Card ID
+Object type
+Field/path
+CURRENT
+DE reference
+LV structural reference
+Adjacent context
+Source file
+Mirror file
+Production baseline SHA
+```
+
+Unikālā atslēga:
+
+```text
+(Language, Lesson number, Section type, Object/Card ID, Field/path)
+```
+
+Koplietotajiem UI laukiem papildus jāveido atsevišķa unikālā atslēga:
+
+```text
+(Language, File, Shared field/path)
+```
+
+## 7.44. Kurss objektu tipi (v1.14)
+
+Inventārā atsevišķi jāklasificē:
+
+```text
+LESSON_TITLE
+SECTION_TITLE
+DIALOGUE_BLOCK
+DIALOGUE_LINE
+PERSON_NAME
+VOCABULARY_ITEM
+GRAMMAR_EXPLANATION
+INFO_TEXT
+EXAMPLE
+EXERCISE_INSTRUCTION
+EXERCISE_ITEM
+QUESTION
+ANSWER
+TRAINING_CARD
+FLASHCARD_FRONT
+FLASHCARD_BACK
+SHARED_UI_KEY
+HTML_STRUCTURE
+RENDERER_BINDING
+PROGRESS_BINDING
+```
+
+Nevienu objektu nedrīkst uzskatīt par pārbaudītu tikai tāpēc, ka pārbaudīta
+visa lekcija kopumā.
+
+## 7.45. Obligātais Kurss pārklājums (v1.14)
+
+Kurss pilna audita atskaitē obligāti jānorāda:
+
+```text
+LESSON_COVERAGE
+SECTION_COVERAGE
+OBJECT_COVERAGE
+FIELD_COVERAGE
+DIALOGUE_COVERAGE
+EXERCISE_COVERAGE
+TRAINING_CARD_COVERAGE
+FLASHCARD_COVERAGE
+SHARED_UI_KEY_COVERAGE
+HTML_STRUCTURE_COVERAGE
+VISUAL_VIEW_COVERAGE
+```
+
+Nepietiek tikai ar:
+
+```text
+LESSON_COVERAGE = 21/21
+```
+
+`21/21` pierāda tikai to, ka auditam nodotas visas lekcijas. Tas **nepierāda**
+visu sadaļu, objektu un lauku pārbaudi (sk. arī §7.26).
+
+## 7.46. Kurss batch sadalījums (v1.14)
+
+Ieteicamais drošais sadalījums:
+
+| Saturs                          | Maksimālais apjoms vienā Luna batch |
+| ------------------------------- | ----------------------------------: |
+| Parasta lekcija                 |                           1 lekcija |
+| Liela lekcija                   |                            1 sadaļa |
+| Dialogi                         |                     1 pilns dialogs |
+| Training cards                  |                         25 kartītes |
+| Flashcards                      |                         25 kartītes |
+| Gramatikas skaidrojumi          |                          10 objekti |
+| Vingrinājumu jautājumi/atbildes |                       20 pilni pāri |
+| Koplietotās UI atslēgas         |        viens kopīgs globālais batch |
+
+Ja viena lekcija satur pārāk daudz lauku, tā jāsadala pa sadaļām.
+
+Aizliegts sadalīt:
+
+- vienu dialogu tā, ka jautājums un atbilde nonāk dažādos batch;
+- savstarpēji saistītas training cards bez blakus konteksta;
+- vienas koplietotas UI atslēgas lietojumus dažādos neatkarīgos OWNER
+  lēmumos.
+
+Visu batch rezultāti jāapvieno vienā Kurss OWNER backlog.
+
+## 7.47. Kurss lauku līmeņa rezultāts (v1.14)
+
+Katram inventāra laukam Luna obligāti jāatgriež (sk. §7.30):
+
+```text
+PASS
+FINDING
+NEEDS_SOURCE_REVIEW
+```
+
+Katram batch obligāti:
+
+```text
+EXPECTED_FIELDS
+RETURNED_FIELD_RESULTS
+MISSING_FIELD_RESULTS
+DUPLICATE_FIELD_RESULTS
+```
+
+Batch ir `PASS` tikai tad, ja:
+
+```text
+EXPECTED_FIELDS === RETURNED_FIELD_RESULTS
+MISSING_FIELD_RESULTS = 0
+DUPLICATE_FIELD_RESULTS = 0
+```
+
+## 7.48. Dialogu audits (v1.14)
+
+Dialogi jāauditē kā veseli sarunas bloki.
+
+Katram dialogam jāpārbauda:
+
+- runātāju secība;
+- personvārdi;
+- dzimums;
+- personas loma;
+- formalitāte;
+- jautājuma un atbildes savstarpējā atbilstība;
+- vietniekvārdi;
+- darbības vārdu personas;
+- refleksīvās formas;
+- laiks;
+- noliegums;
+- semantiskā saikne ar iepriekšējo un nākamo rindu.
+
+Dialoga rindu nedrīkst vērtēt tikai izolēti pret vienu DE teikumu.
+
+Obligātais konteksts:
+
+```text
+Previous dialogue line
+Current dialogue line
+Next dialogue line
+Speaker
+DE line
+Target-language line
+```
+
+## 7.49. Jautājumu–atbilžu un training card audits (v1.14)
+
+Saistītas kartītes jāauditē kopā.
+
+Katram pārim vai blokam jāpārbauda:
+
+```text
+Previous card
+Question/front
+Answer/front
+DE back
+Next card
+Lesson context
+Verb identity
+Reflexive/non-reflexive form
+Person and number
+```
+
+Piemērs:
+
+```text
+¿Se van? → Sí, se van.
+```
+
+Atbildi nedrīkst pārrakstīt uz:
+
+```text
+Sí, van.
+```
+
+tikai tāpēc, ka izolētais DE teikums ir:
+
+```text
+Ja, sie gehen.
+```
+
+Dialoga vai blakus kartītes konteksts ir obligāts OWNER lēmuma pierādījums.
+
+## 7.50. Personvārdu un personu lomu audits (v1.14)
+
+Kurss personvārdi mērķvalodā drīkst būt lokalizēti, ja saglabāti:
+
+- dzimums;
+- runātāja loma;
+- attiecības;
+- personas identitāte dialoga ietvaros;
+- vienāds vārds visos saistītajos laukos.
+
+Personvārdu atšķirība no LV nav automātiska kļūda.
+
+Kļūda ir:
+
+- viena persona nosaukta dažādi vienā dialogā;
+- mainīts dzimums;
+- sajauktas lomas;
+- jautājumā un atbildē izmantotas dažādas personas;
+- mērķvalodai nedabisks vai nepareizi locīts vārds.
+
+## 7.51. Gramatikas un info tekstu audits (v1.14)
+
+Katram gramatikas vai info laukam jāpārbauda:
+
+- valodas pareizība;
+- atbilstība DE mācību mērķim;
+- piemēru atbilstība skaidrojumam;
+- terminoloģijas konsekvence;
+- personas, skaitļa un laika konsekvence;
+- jautājuma zīmes un citas valodas specifiskās pieturzīmes;
+- vai tekstā nav palicis LV, EN vai citas valodas fragments;
+- vai nav novecojis skaidrojums pēc iepriekšējiem kartīšu labojumiem.
+
+Gramatikas tekstu nedrīkst vērtēt tikai pēc atsevišķa teikuma. Jāpievieno
+visa attiecīgā gramatikas bloka konteksts.
+
+## 7.52. Vingrinājumu audits (v1.14)
+
+Katram vingrinājumam jāpārbauda kopā:
+
+```text
+Instruction
+Prompt
+Expected answer
+Displayed answer
+DE reference
+Exercise type
+Lesson grammar target
+```
+
+Obligāti jāpārbauda:
+
+- instrukcija atbilst faktiskajai darbībai;
+- vienskaitļa/daudzskaitļa prasība;
+- locījums;
+- konjugācija;
+- persona;
+- vārdu secība;
+- pareizās atbildes variants;
+- jautājuma un atbildes semantika.
+
+Globālu UI instrukciju nedrīkst pielāgot vienai lekcijai, ja to izmanto
+vairākas lekcijas ar atšķirīgiem mērķiem.
+
+## 7.53. Koplietoto UI atslēgu audits (v1.14)
+
+Visas Kurss koplietotās UI atslēgas jāauditē vienā globālā batch.
+
+Pirms OWNER failu publicēšanas findings jāgrupē pēc:
+
+```text
+(File, Field/path)
+```
+
+Ja vienam production mērķim ir vairāki atšķirīgi `PROPOSED` vai OWNER `NEW`:
+
+```text
+SHARED_TARGET_CONFLICT
+```
+
+Šādā gadījumā apply ir bloķēts līdz vienas kanoniskas vērtības
+apstiprināšanai.
+
+OWNER authority jānorāda:
+
+```text
+Shared target
+All source Audit IDs
+All lessons using the target
+Canonical CURRENT
+Canonical OWNER NEW
+Superseded proposals
+OWNER justification
+```
+
+Vienu globālu lauku nedrīkst secīgi pārrakstīt ar katras lekcijas atšķirīgu
+`NEW`.
+
+## 7.54. Shared target deduplikācija (v1.14)
+
+Pirms COPY-ONLY apply visi Kurss `LABOT` jādublē pēc faktiskā production
+mērķa:
+
+```text
+(File, exact Field/path)
+```
+
+Obligātie rādītāji:
+
+```text
+SOURCE_OWNER_LABOT
+DUPLICATE_SHARED_TARGETS
+SUPERSEDED_DECISIONS
+UNIQUE_PRODUCTION_TARGETS
+SHARED_TARGET_CONFLICTS
+```
+
+Apply atļauts tikai unikālajiem production mērķiem pēc OWNER konflikta
+atrisināšanas.
+
+## 7.55. Kurss pre-finding validācija (v1.14)
+
+Pirms Kurss findinga publicēšanas skriptam jāpārbauda (papildina §7.29):
+
+```text
+Lesson exists
+Section exists
+Object/Card ID exists
+Field/path exists
+CURRENT === production
+Object belongs to reported lesson
+Field belongs to reported object
+DE context belongs to the same object
+Adjacent context belongs to the same dialogue/card block
+Shared target mapping is correct
+```
+
+Ja validācija neizdodas:
+
+```text
+INVALID_LESSON
+INVALID_SECTION
+INVALID_CARD_ID
+INVALID_FIELD
+CURRENT_VALUE_MISMATCH
+TARGET_OBJECT_MISMATCH
+CONTEXT_MISMATCH
+SHARED_TARGET_CONFLICT
+```
+
+Šādu findingu nedrīkst publicēt kā apply-gatavu `LABOT`.
+
+## 7.56. Kurss audita slāņi (v1.14)
+
+Katrs Kurss batch jāpārbauda vismaz trīs slāņos (papildina §7.35).
+
+### 7.56.1. Lingvistika un semantika
+
+- DE–mērķvalodas nozīme;
+- dialogs;
+- jautājums–atbilde;
+- darbības vārds;
+- persona;
+- skaitlis;
+- dzimte;
+- formalitāte;
+- refleksivitāte;
+- gramatika;
+- ortogrāfija;
+- dabiskums.
+
+### 7.56.2. Pedagoģija un struktūra
+
+- LV Kurss etalona sadaļu secība;
+- mācību mērķis;
+- piemēru atbilstība;
+- vingrinājuma darbība;
+- question/answer saistība;
+- training-card secība;
+- flashcard front/back saistība;
+- trūkstoši vai lieki objekti.
+
+### 7.56.3. Tehnika un vizuālā paritāte
+
+- renderer;
+- HTML struktūra;
+- CSS klases;
+- progress;
+- flip;
+- next;
+- audio;
+- primary/`www` spogulis;
+- LV fallback;
+- vizuālā paritāte;
+- koplietotās UI atslēgas.
+
+Findingus drīkst konsolidēt tikai pēc visu slāņu pabeigšanas.
+
+## 7.57. L1–6, L7 un L8–21 atsevišķā kontrole (v1.14)
+
+Audita atskaitē obligāti jāuzrāda atsevišķi:
+
+```text
+L1_6_LEGACY_COVERAGE
+L7_DECK_COVERAGE
+L8_21_FLASHCARD_COVERAGE
+```
+
+Nevienu no šīm grupām nedrīkst uzskatīt par pārbaudītu pēc citas grupas
+struktūras.
+
+Obligāti jāpārbauda:
+
+- L1–6 legacy deck renderēšana;
+- L7 deck Card ID un secība;
+- L8–21 flashcards un training cards;
+- lokalizētie nosaukumi;
+- pogu teksti;
+- sadaļu virsraksti;
+- fallback neesamība.
+
+## 7.58. Primary/`www` spoguļa kontrole (v1.14)
+
+Katram Kurss production failam ar `www` spoguli obligāti:
+
+```text
+PRIMARY_WWW_MIRROR = PASS
+```
+
+Pārbaudīt vismaz:
+
+- faila saturu;
+- Card ID;
+- objektu secību;
+- lauku vērtības;
+- shared UI vērtības;
+- sintaksi.
+
+Primary un `www` neatbilstība bloķē audit closure.
+
+## 7.59. HTML un vizuālā paritāte (v1.14)
+
+Kurss pilnais audits nav tikai datu audits (papildina §5.3).
+
+Obligāti jāpārbauda:
+
+- visas 21 lekcijas;
+- visi Kurss skati;
+- desktop un mobile;
+- priekšpuse un aizmugure;
+- training un flashcard režīmi;
+- sadaļu virsraksti;
+- kartīšu izmērs un izvietojums;
+- pogas;
+- audio kontroles;
+- progress indikācija;
+- tekstu pārplūde;
+- LV etalona funkcionālā paritāte.
+
+Obligātie rezultāti:
+
+```text
+HTML_STRUCTURE = PASS
+VISUAL_PARITY = PASS
+CONSOLE_ERRORS = 0
+LV_FALLBACK = 0
+```
+
+## 7.60. Kurss OWNER backlog (v1.14)
+
+Katram validētam Kurss findingam OWNER failā obligāti:
+
+```text
+Audit ID
+Lesson
+Section
+Object/Card ID
+Object type
+File
+Field/path
+DE context
+LV structural context
+Adjacent context
+CURRENT
+PROPOSED
+Severity
+Category
+Shared target status
+OWNER STATUS
+OWNER NEW
+OWNER note
+```
+
+`PROPOSED` nav OWNER lēmums.
+
+Apply atļauts tikai tad, ja:
+
+```text
+OWNER STATUS = LABOT
+OWNER NEW = precīza gala vērtība
+CURRENT = production exact-match
+```
+
+## 7.61. OWNER pierādījuma faili (v1.14)
+
+Katrai lekcijai vai vienotajam Kurss OWNER ciklam jāizveido Markdown
+pierādījums.
+
+Katram lēmumam:
+
+```text
+1. Oriģinālais teksts
+2. Veiktās izmaiņas
+3. Gala rezultāts
+```
+
+Papildus:
+
+```text
+Lesson
+Card/Object ID
+Field/path
+DE context
+Adjacent context
+OWNER status
+OWNER justification
+```
+
+Pierādījumam 1:1 jāatbilst OWNER authority failam.
+
+## 7.62. Kurss COPY-ONLY apply (v1.14)
+
+Kurss remonts jāveic saskaņā ar `REPAIR_APPLY_SAFETY_STANDARD.md` un §9.
+
+Obligāti:
+
+- OWNER mapping ir vienīgais avots;
+- tikai `LABOT`;
+- precīzs Card/Object ID;
+- precīzs Field/path;
+- CURRENT exact-match;
+- mismatch → SKIP tikai konkrēto rindu;
+- OWNER NEW jākopē precīzi;
+- DE nemainīt;
+- blakus laukus nemainīt;
+- shared targets iepriekš deduplicēt (§7.54);
+- pēc ieraksta pārbaudīt NEW exact-match.
+
+## 7.63. Post-repair Kurss audits (v1.14)
+
+Pēc OWNER apply obligāti:
+
+1. targeted regression visiem unikālajiem OWNER mērķiem;
+2. pilns Kurss residual audits ar to pašu inventāru (§7.43);
+3. shared UI konfliktu atkārtota pārbaude (§7.53–§7.54);
+4. visu 21 lekciju strukturālā un vizuālā pārbaude (§7.59).
+
+Targeted regression viena pati nav closure pierādījums (sk. §11.16).
+
+## 7.64. Kurss closure vārti (v1.14)
+
+Kurss ir `OWNER ACCEPTED / CLOSED` tikai tad, ja:
+
+```text
+LESSON_COVERAGE = 21/21
+SECTION_COVERAGE = 100%
+OBJECT_COVERAGE = 100%
+FIELD_COVERAGE = 100%
+DIALOGUE_COVERAGE = 100%
+EXERCISE_COVERAGE = 100%
+TRAINING_CARD_COVERAGE = 100%
+FLASHCARD_COVERAGE = 100%
+SHARED_UI_KEY_COVERAGE = 100%
+L1_6_LEGACY_COVERAGE = 100%
+L7_DECK_COVERAGE = 100%
+L8_21_FLASHCARD_COVERAGE = 100%
+CURRENT_EXACT_MATCH = 100%
+APPLIED_VERIFIED = 100%
+NEW_VALIDATED_REAL_FINDINGS = 0
+REPAIR_REGRESSION = 0
+SHARED_TARGET_CONFLICTS = 0
+INVALID_LESSON = 0
+INVALID_SECTION = 0
+INVALID_CARD_ID = 0
+INVALID_FIELD = 0
+TARGET_OBJECT_MISMATCH = 0
+CONTEXT_MISMATCH = 0
+MISSING_RESULTS = 0
+DUPLICATES = 0
+LV_FALLBACK = 0
+DE_UNAUTHORIZED_CHANGES = 0
+PRIMARY_WWW_MIRROR = PASS
+JAVASCRIPT_SYNTAX = PASS
+HTML_STRUCTURE = PASS
+VISUAL_PARITY = PASS
+CONSOLE_ERRORS = 0
+```
+
+Ja kaut viens vārts nav izpildīts:
+
+```text
+KURSS_CLOSURE_BLOCKED
+```
+
 ------------------------------------------------------------------------
-# 8. OWNER REVIEW
 
 Pēc audita visi reālie findings tiek nodoti OWNER review, izmantojot
 AUDIT stage jau sagatavotos `OWNER VIEW` un `OWNER DECISIONS` failus.
@@ -3665,6 +4379,40 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.14
+
+Atsevišķs Kurss/Lessons pilnā audita standarts — deterministisks lekciju,
+sadaļu, objektu un lauku inventārs; dialogu un jautājumu–atbilžu konteksta
+audits; L1–6/L7/L8–21 atsevišķa kontrole; shared UI mērķu konfliktu
+noteikšana un deduplikācija; OWNER pierādījuma faili; HTML, vizuālās
+paritātes un Kurss closure vārti.
+
+Pievienots:
+
+- §7.40–§7.64 KURSS / LESSONS FULL AUDIT STANDARD;
+- §5 atsauce uz Kurss pilno auditu (§7.40–§7.64);
+- deterministisks Kurss inventārs un objektu tipi;
+- obligātais Kurss pārklājums (`LESSON_COVERAGE` ≠ pilns audits);
+- Kurss batch sadalījums un lauku līmeņa rezultāti;
+- dialogu, jautājumu–atbilžu un training card konteksta audits;
+- personvārdu un personu lomu audits;
+- gramatikas, info un vingrinājumu audits;
+- koplietoto UI atslēgu audits un `SHARED_TARGET_CONFLICT`;
+- shared target deduplikācija pirms COPY-ONLY apply;
+- Kurss pre-finding validācija;
+- trīs Kurss audita slāņi;
+- L1–6, L7 un L8–21 atsevišķā kontrole;
+- primary/`www` spoguļa, HTML un vizuālās paritātes vārti;
+- Kurss OWNER backlog, pierādījuma faili un post-repair audits;
+- Kurss closure vārti (`KURSS_CLOSURE_BLOCKED`).
+
+**FINAL v1.14 RULE:** Kurss pilns audits nav aizstājams ar A1–C2 kartīšu,
+Study vai Card ID paritātes pārbaudi; closure pieļauts tikai ar pierādītu
+100% lekciju, sadaļu, objektu un lauku pārklājumu plus `PRIMARY_WWW_MIRROR`,
+`HTML_STRUCTURE`, `VISUAL_PARITY` un `DE_UNAUTHORIZED_CHANGES = 0`.
+
+Version 1.13 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.14.
+
 ## Version 1.13
 
 Pilna audita metodika — deterministisks lauku inventārs, lauku līmeņa
@@ -3939,4 +4687,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.13 --- END
+## MASTER 1.14 --- END
