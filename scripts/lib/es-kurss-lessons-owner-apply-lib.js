@@ -222,6 +222,163 @@ function replaceDecodedSubstringInHtml(html, current, next) {
   return null;
 }
 
+const EXAMPLE_CLASSES = ["kurss-example", "course-example", "curso-example", "curso-ejemplo"];
+
+function parseLegacyTargetPath(pathLabel) {
+  const parts = String(pathLabel || "").split(" → ").map((p) => p.trim());
+  if (parts.length < 2) return null;
+  const acc = parts[1].match(/^accordion\[(\d+)\]:(.+)$/);
+  if (!acc) {
+    if (/\(summary title\)$/.test(parts[1])) {
+      return { kind: "summaryTitle", accordionIndex: null, tail: parts.slice(1) };
+    }
+    return null;
+  }
+  const tail = parts.slice(2);
+  return { kind: "accordion", accordionIndex: Number(acc[1]), accordionTitle: acc[2], tail };
+}
+
+function readFragmentAtLegacyPath(fullHtml, pathLabel) {
+  const parsed = parseLegacyTargetPath(pathLabel);
+  if (!parsed || typeof fullHtml !== "string") return undefined;
+
+  if (parsed.kind === "summaryTitle") {
+    const accordions = [...fullHtml.matchAll(/<details class="lesson1-accordion"[^>]*>[\s\S]*?<summary>[\s\S]*?<span[^>]*>\d+\.<\/span>\s*<span>([^<]*)<\/span>/gi)];
+    for (const m of accordions) {
+      const title = decodeHtmlText(m[1]);
+      if (parsed.tail[0]?.includes(title)) return title;
+    }
+    return undefined;
+  }
+
+  const accordions = [...fullHtml.matchAll(/<details class="lesson1-accordion"[^>]*>([\s\S]*?)<\/details>/gi)];
+  const acc = accordions[parsed.accordionIndex];
+  if (!acc) return undefined;
+  const accHtml = acc[1];
+  const tail = parsed.tail[0] || "";
+
+  let m;
+  if ((m = tail.match(/^lesson1-info\[(\d+)\]$/))) {
+    const blocks = [...accHtml.matchAll(/<div class="lesson1-info[^"]*">([\s\S]*?)<\/div>/gi)];
+    return decodeHtmlText(blocks[Number(m[1])]?.[1] || "");
+  }
+  if ((m = tail.match(/^verbCard\[(\d+)\]\.title$/))) {
+    const cards = [...accHtml.matchAll(/<article class="lesson1-verb-card">([\s\S]*?)<\/article>/gi)];
+    const h4 = cards[Number(m[1])]?.[1]?.match(/<h4[^>]*>([\s\S]*?)<\/h4>/i);
+    return h4 ? decodeHtmlText(h4[1]) : undefined;
+  }
+  if ((m = tail.match(/^verbCard\[(\d+)\]\.span\[(\d+)\]$/))) {
+    const cards = [...accHtml.matchAll(/<article class="lesson1-verb-card">([\s\S]*?)<\/article>/gi)];
+    const spans = [...(cards[Number(m[1])]?.[1]?.matchAll(/<span>([^<]*)<\/span>/gi) || [])]
+      .map((s) => s[1].trim())
+      .filter(Boolean);
+    return spans[Number(m[2])];
+  }
+  for (const cls of EXAMPLE_CLASSES) {
+    const ex = tail.match(new RegExp(`^${cls}\\[(\\d+)\\]$`));
+    if (!ex) continue;
+    const re = new RegExp(`<div class="${cls}"[^>]*>([\\s\\S]*?)<\\/div>`, "gi");
+    let hit;
+    let ei = 0;
+    while ((hit = re.exec(accHtml)) !== null) {
+      if (ei === Number(ex[1])) return decodeHtmlText(hit[1]);
+      ei++;
+    }
+    return undefined;
+  }
+  if ((m = tail.match(/^grammar-note\[(\d+)\]$/))) {
+    const blocks = [...accHtml.matchAll(/<div class="lesson1-grammar-note">([\s\S]*?)<\/div>/gi)];
+    return decodeHtmlText(blocks[Number(m[1])]?.[1] || "");
+  }
+  if ((m = tail.match(/^grammar-header\[(\d+)\]$/))) {
+    const blocks = [...accHtml.matchAll(/<h[45][^>]*class="lesson1-grammar-header"[^>]*>([\s\S]*?)<\/h[45]>/gi)];
+    return decodeHtmlText(blocks[Number(m[1])]?.[1] || "");
+  }
+  if ((m = tail.match(/^lesson2-subtitle\[(\d+)\]$/))) {
+    const blocks = [...accHtml.matchAll(/<h5 class="lesson2-subtitle">([\s\S]*?)<\/h5>/gi)];
+    return decodeHtmlText(blocks[Number(m[1])]?.[1] || "");
+  }
+  if ((m = tail.match(/^subtitle\[(\d+)\]$/))) {
+    const blocks = [...accHtml.matchAll(/<h5 class="lesson2-subtitle">([\s\S]*?)<\/h5>/gi)];
+    return decodeHtmlText(blocks[Number(m[1])]?.[1] || "");
+  }
+  if ((m = tail.match(/^ending-info\[(\d+)\]$/))) {
+    const blocks = [...accHtml.matchAll(/<div class="lesson1-ending-info-body">([\s\S]*?)<\/div>/gi)];
+    return decodeHtmlText(blocks[Number(m[1])]?.[1] || "");
+  }
+  if ((m = tail.match(/^p\[(\d+)\]$/))) {
+    const blocks = [...accHtml.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)];
+    return decodeHtmlText(blocks[Number(m[1])]?.[1] || "");
+  }
+  if ((m = tail.match(/^ending-info\[(\d+)\]$/))) {
+    const blocks = [...accHtml.matchAll(/<div class="lesson1-ending-info-body">([\s\S]*?)<\/div>/gi)];
+    return decodeHtmlText(blocks[Number(m[1])]?.[1] || "");
+  }
+  return undefined;
+}
+
+function replaceFragmentAtLegacyPath(fullHtml, pathLabel, current, next) {
+  const parsed = parseLegacyTargetPath(pathLabel);
+  if (!parsed || typeof fullHtml !== "string") return null;
+
+  const accordions = [...fullHtml.matchAll(/<details class="lesson1-accordion"[^>]*>([\s\S]*?)<\/details>/gi)];
+  const acc = accordions[parsed.accordionIndex];
+  if (!acc) return null;
+  const accStart = acc.index;
+  const accEnd = accStart + acc[0].length;
+  const accHtml = acc[1];
+  const tail = parsed.tail[0] || "";
+
+  const accInnerOffset = acc[0].indexOf(accHtml);
+  const replaceAtOffset = (hitIndex, hitLength, replacedSlice) => {
+    const globalStart = accStart + accInnerOffset + hitIndex;
+    const globalEnd = globalStart + hitLength;
+    return fullHtml.slice(0, globalStart) + replacedSlice + fullHtml.slice(globalEnd);
+  };
+
+  for (const cls of EXAMPLE_CLASSES) {
+    const ex = tail.match(new RegExp(`^${cls}\\[(\\d+)\\]$`));
+    if (!ex) continue;
+    const re = new RegExp(`(<div class="${cls}"[^>]*>)([\\s\\S]*?)(<\\/div>)`, "gi");
+    let hit;
+    let ei = 0;
+    while ((hit = re.exec(accHtml)) !== null) {
+      if (ei !== Number(ex[1])) {
+        ei++;
+        continue;
+      }
+      const inner = hit[2];
+      if (normalizeCompare(decodeHtmlText(inner)) !== normalizeCompare(current)) return null;
+      const insert = formatNewForHtmlMatch(inner, next);
+      const replaced = hit[1] + insert + hit[3];
+      return replaceAtOffset(hit.index, hit[0].length, replaced);
+    }
+    return null;
+  }
+
+  const genericPatterns = [
+    { re: /<p[^>]*>([\s\S]*?)<\/p>/gi, tail: /^p\[(\d+)\]$/ },
+    { re: /<div class="lesson1-info[^"]*">([\s\S]*?)<\/div>/gi, tail: /^lesson1-info\[(\d+)\]$/ },
+    { re: /<div class="lesson1-grammar-note">([\s\S]*?)<\/div>/gi, tail: /^grammar-note\[(\d+)\]$/ },
+    { re: /<div class="lesson1-ending-info-body">([\s\S]*?)<\/div>/gi, tail: /^ending-info\[(\d+)\]$/ },
+    { re: /<h5 class="lesson2-subtitle">([\s\S]*?)<\/h5>/gi, tail: /^lesson2-subtitle\[(\d+)\]$/ },
+    { re: /<h[45][^>]*class="lesson1-grammar-header"[^>]*>([\s\S]*?)<\/h[45]>/gi, tail: /^grammar-header\[(\d+)\]$/ },
+  ];
+  for (const { re, tail: tailRe } of genericPatterns) {
+    const m = tail.match(tailRe);
+    if (!m) continue;
+    const blocks = [...accHtml.matchAll(re)];
+    const block = blocks[Number(m[1])];
+    if (!block) return null;
+    if (normalizeCompare(decodeHtmlText(block[1])) !== normalizeCompare(current)) return null;
+    const insert = formatNewForHtmlMatch(block[1], next);
+    const replaced = block[0].replace(block[1], insert);
+    return replaceAtOffset(block.index, block[0].length, replaced);
+  }
+
+  return replaceDisplayTextInHtml(fullHtml, current, next, pathLabel);
+}
+
 function replaceDisplayTextInHtml(html, current, next, targetPath) {
   if (html.includes(current)) {
     return html.replace(current, formatNewForHtmlMatch(current, next));
@@ -261,6 +418,10 @@ function readActual(target, data, html, ui, training) {
     const lessonKey = legacyLessonKeyFromField(target.field);
     const full = getLegacyHtml(data, html, lessonKey);
     if (typeof full !== "string") return undefined;
+    if (target.path) {
+      const atPath = readFragmentAtLegacyPath(full, target.path);
+      if (atPath != null && atPath !== "") return atPath;
+    }
     return htmlContainsDisplayText(full, target.current) ? target.current : undefined;
   }
   return undefined;
@@ -286,7 +447,9 @@ function applyTarget(target, data, html, ui, training) {
     const lessonKey = legacyLessonKeyFromField(target.field);
     const full = getLegacyHtml(data, html, lessonKey);
     if (typeof full !== "string") return false;
-    const updated = replaceDisplayTextInHtml(full, target.current, target.new, target.path);
+    const updated =
+      (target.path ? replaceFragmentAtLegacyPath(full, target.path, target.current, target.new) : null) ||
+      replaceDisplayTextInHtml(full, target.current, target.new, target.path);
     if (updated == null) return false;
     return setLegacyHtml(data, html, lessonKey, updated);
   }
@@ -303,6 +466,10 @@ function verifyNew(target, data, html, ui, training) {
   if (kind === "legacyHtml") {
     const lessonKey = legacyLessonKeyFromField(target.field);
     const full = getLegacyHtml(data, html, lessonKey);
+    if (target.path) {
+      const atPath = readFragmentAtLegacyPath(full, target.path);
+      if (normalizeCompare(atPath) === normalizeCompare(target.new)) return true;
+    }
     return htmlContainsDisplayText(full, target.new);
   }
   return false;
@@ -326,6 +493,35 @@ function isDeOnlyString(text) {
   if (/[āēīūģķļņĀĒĪŪĢĶĻŅ]/.test(t)) return false;
   if (/[áéíóúñüÁÉÍÓÚÑ¿¡]/.test(t)) return false;
   return /^[\s"„"'«»A-Za-zÄÖÜäöüß.,!?;:()0-9]+$/.test(t.replace(/<[^>]+>/g, " "));
+}
+
+function extractCanonicalDeSnapshots(data) {
+  const fields = [];
+  const keys = ["de", "back", "answer", "infinitive"];
+  for (const [lessonKey, lesson] of Object.entries(data || {})) {
+    if (!lesson?.sections) continue;
+    lesson.sections.forEach((section, si) => {
+      if (!Array.isArray(section.cards)) return;
+      section.cards.forEach((card, ci) => {
+        for (const key of keys) {
+          if (typeof card[key] === "string" && card[key].trim()) {
+            fields.push({ loc: `${lessonKey}.sections[${si}].cards[${ci}].${key}`, value: card[key] });
+          }
+        }
+      });
+    });
+  }
+  return fields;
+}
+
+function compareCanonicalDeSnapshots(before, after) {
+  const beforeMap = new Map(before.map((e) => [e.loc, e.value]));
+  const changes = [];
+  for (const [loc, value] of beforeMap) {
+    const afterVal = after.find((e) => e.loc === loc)?.value;
+    if (afterVal !== value) changes.push({ loc, before: value, after: afterVal });
+  }
+  return changes;
 }
 
 function extractDeSnapshots(data, html) {
@@ -428,10 +624,14 @@ module.exports = {
   applyTarget,
   verifyNew,
   extractDeSnapshots,
+  extractCanonicalDeSnapshots,
   compareDeSnapshots,
+  compareCanonicalDeSnapshots,
   verifyHtmlStructure,
   sortLabotTargets,
   dedupeLabotTargets,
   htmlContainsDisplayText,
+  readFragmentAtLegacyPath,
+  replaceFragmentAtLegacyPath,
   normalizeCompare,
 };

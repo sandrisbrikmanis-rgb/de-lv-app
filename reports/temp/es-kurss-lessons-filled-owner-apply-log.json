@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-08-27T08:31:21.221Z",
+  "runtimeCurrentRefresh": 169,
+  "runtimeRefreshSample": [
+    {
+      "id": "ES-KURSS-LESSONS-DET-0001",
+      "before": "ellos / tú vienes",
+      "after": "ellos / ellas vienen"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0002",
+      "before": "♟gehen — go",
+      "after": "♟gehen — ir"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0003",
+      "before": "ellos / tú vas",
+      "after": "ellos / ellas van"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0004",
+      "before": "ellos / Tú estás",
+      "after": "ellos / ellas están de pie"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0005",
+      "before": "ellos / tú cantas",
+      "after": "ellos / ellas cantan"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0006",
+      "before": "wir (vīr) — we",
+      "after": "wir (vīr) — nosotros"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0007",
+      "before": "Vārdā “wir” burts i tiek izrunāts gari.",
+      "after": "En la palabra «wir», la vocal i se pronuncia larga."
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0008",
+      "before": "gehen (gē-en) - ir",
+      "after": "gehen (gē-en) — ir"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0009",
+      "before": "stehen (štē-en) - stand",
+      "after": "stehen (štē-en) — estar de pie"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0013",
+      "before": "wer (vēr) — ¿qué?",
+      "after": "wer (vēr) — ¿quién?"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0014",
+      "before": "ja (jā) — sí",
+      "after": "ja (jā) — Sí"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0015",
+      "before": "Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.",
+      "after": "En las lecciones se indica la pronunciación aproximada de las palabras entre par"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0016",
+      "before": "Wir (vīr) — nosotros La palabra wir siempre se pronuncia larga.",
+      "after": "wir (vīr) — nosotros"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0017",
+      "before": "Latviešu valodā:\nTu nāc.\nVai tu nāc?",
+      "after": "En español:\nTú vienes.\n¿Vienes?"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0021",
+      "before": "spielen — jugar; jugar",
+      "after": "spielen — jugar"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0022",
+      "before": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, ",
+      "after": "En las palabras arbeiten y zeichnen, el diptongo ei se pronuncia aproximadamente"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0023",
+      "before": "Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).",
+      "after": "Al inicio de una palabra o sílaba, sp se pronuncia «shp»: spielen (špīlen)."
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0024",
+      "before": "Darbības vārdā tun u izrunājams gari visās personās.",
+      "after": "En el verbo tun, la u se pronuncia larga en todas las personas."
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0027",
+      "before": "eine Bank — ¿hay/hay un libro aquí?",
+      "after": "eine Bank — banco"
+    },
+    {
+      "id": "ES-KURSS-LESSONS-DET-0028",
+      "before": "niedrig — El sonido ī largo en alemán está representado por ie: liegen (līgen), ",
+      "after": "niedrig — bajo"
+    }
+  ],
+  "requestedLabot": 520,
+  "uniqueApplies": 498,
+  "requestedNelabot": 218,
+  "requestedFalsePositive": 248,
+  "appliedVerified": 520,
+  "nelabotUnchanged": 218,
+  "falsePositiveUnchanged": 248,
+  "currentMismatch": 0,
+  "failed": 0,
+  "deChanges": 0,
+  "mirror": "PASS",
+  "syntax": "PASS",
+  "htmlStructure": "PASS",
+  "mismatchDetails": [],
+  "failures": [],
+  "pass": true
+}
