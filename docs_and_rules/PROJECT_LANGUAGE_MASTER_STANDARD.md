@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.15\
+**Versija:** 1.16\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -391,6 +391,10 @@ comparisonStudy kartītes.
 Pilna Teikumu/Sätze audita metodika (deterministisks inventārs, obligāti
 25 teikumi vienā Luna batch, blakus konteksts, closure vārti): sk.
 **§7.65–§7.90**.
+
+Pilna Verbs/Verben audita metodika (deterministisks inventārs, obligāti
+10 pilni verba objekti vienā Luna batch, visu formu kopīga pārbaude,
+closure vārti): sk. **§7.91–§7.120**.
 
 ## 2.2. Saglabājamā struktūra
 
@@ -3613,6 +3617,763 @@ Ja kaut viens vārts nav izpildīts:
 SENTENCES_CLOSURE_BLOCKED
 ```
 
+## 7.91. VERBS / VERBEN FULL AUDIT STANDARD — piemērošanas joma (v1.16)
+
+Darbības vārdu sadaļas audits ir **atsevišķs** pilna valodas audita modulis.
+
+To nedrīkst aizstāt ar:
+
+- A1–C2 parasto kartīšu auditu;
+- `minimalStudy` auditu;
+- `standardStudy` auditu;
+- Sentences/Sätze auditu;
+- Kurss/Lessons auditu;
+- tikai infinitīvu pārbaudi;
+- tikai kartīšu vai formu skaita paritāti.
+
+Standarts attiecas uz visiem Verbs/Verben objektiem un visām to formām.
+
+## 7.92. Verbu DE STRICT READ-ONLY (v1.16)
+
+Visi DE darbības vārdi un to formas ir:
+
+```text
+STRICT READ-ONLY
+```
+
+Bez atsevišķa OWNER avota lēmuma aizliegts mainīt:
+
+- DE infinitīvu;
+- DE `Präteritum`;
+- DE `Partizip II`;
+- DE trešās personas tagadnes formu;
+- DE palīgdarbības vārdu;
+- DE refleksīvo vietniekvārdu;
+- DE atdalāmo priedēkli;
+- DE piemērus;
+- DE ID;
+- DE secību;
+- DE metadatus.
+
+Katrā audita, remonta un closure atskaitē obligāti:
+
+```text
+DE_UNAUTHORIZED_CHANGES = 0
+```
+
+## 7.93. Darbības vārda objekts (v1.16)
+
+Viens darbības vārda objekts ir nedalāma audita vienība.
+
+Objektā obligāti jāpārbauda visas faktiski eksistējošās formas, tostarp:
+
+```text
+Infinitiv
+Präteritum
+Partizip II
+3. Person Präsens
+Hilfsverb
+```
+
+Ja production struktūrā ir papildu lauki, jāpārbauda arī:
+
+```text
+Reflexive form
+Separable prefix
+Non-separable prefix
+Target-language main meaning
+Examples
+Grammar notes
+Metadata
+Audio mapping
+```
+
+Nevienu formu nedrīkst auditēt izolēti no pārējā verba objekta.
+
+## 7.94. Obligātais batch lielums — 10 verba objekti (v1.16)
+
+Darbības vārdu audits obligāti jāsadala:
+
+```text
+10 darbības vārdu objekti vienā Luna batch
+```
+
+Tas parasti nozīmē:
+
+```text
+10 verbi × 5 formas = 50 savstarpēji saistītas formas
+```
+
+Atļauts mazāks pēdējais batch.
+
+189 verbu datu kopai:
+
+```text
+18 batch × 10 verbi
+1 batch × 9 verbi
+Kopā: 19 batch
+```
+
+Aizliegts:
+
+- vienā batch dot vairāk par 10 verbu objektiem;
+- sadalīt viena verba formas pa dažādiem batch;
+- auditēt visas 945 formas vienā pieprasījumā;
+- vienā batch skaitīt 10 formas, nevis 10 pilnus verbu objektus;
+- palielināt batch tikai ātruma vai izmaksu dēļ.
+
+Ja viens verba objekts ir īpaši apjomīgs, batch drīkst samazināt zem 10.
+
+## 7.95. Deterministisks verbu inventārs (v1.16)
+
+Pirms Luna audita skriptam deterministiski jāizveido visu verba objektu un
+lauku inventārs.
+
+Katram verbam obligāti:
+
+```text
+Language
+Verb number
+Verb ID
+Object index
+DE infinitive
+Target-language main meaning
+Verb class
+Reflexive status
+Separable-prefix status
+Hilfsverb
+Source file
+Mirror file
+Production baseline SHA
+```
+
+Katram formas laukam obligāti:
+
+```text
+Verb ID
+Form type
+Field/path
+CURRENT
+DE reference form
+Target-language context
+```
+
+Unikālā lauka atslēga:
+
+```text
+(Language, Verb ID, Form type, Field/path)
+```
+
+Unikālā objekta atslēga:
+
+```text
+(Language, Verb ID)
+```
+
+## 7.96. Verbu klasifikācija (v1.16)
+
+Pirms lingvistiskā audita katrs verbs jāklasificē, ja dati to ļauj:
+
+```text
+WEAK
+STRONG
+MIXED
+MODAL
+AUXILIARY
+REFLEXIVE
+SEPARABLE
+INSEPARABLE
+IRREGULAR
+```
+
+Vienam verbam var būt vairāki klasifikācijas statusi, piemēram:
+
+```text
+STRONG + SEPARABLE
+WEAK + REFLEXIVE
+MODAL + IRREGULAR
+```
+
+Klasifikācija jāizmanto formu savstarpējā pārbaudē.
+
+## 7.97. Formu līmeņa rezultāts (v1.16)
+
+Luna jāatgriež atsevišķs rezultāts par katru formas lauku:
+
+```text
+PASS
+FINDING
+NEEDS_SOURCE_REVIEW
+```
+
+Katram formas rezultātam obligāti:
+
+```text
+Verb ID
+Form type
+Field/path
+DE form
+CURRENT
+Result
+Evidence
+```
+
+Forma nav pārbaudīta, ja tai nav viena no trim atļautajiem rezultātiem.
+
+## 7.98. Objekta līmeņa rezultāts (v1.16)
+
+Pēc visu formu pārbaudes katram verbam obligāti jāpiešķir viens kopējais
+statuss:
+
+```text
+VERB_OBJECT_CONSISTENT
+VERB_OBJECT_INCONSISTENT
+NEEDS_SOURCE_REVIEW
+```
+
+`VERB_OBJECT_CONSISTENT` atļauts tikai tad, ja:
+
+- visas paredzētās formas eksistē;
+- visas formas ir auditētas;
+- visas formas pieder vienam DE infinitīvam;
+- mērķvalodas pamatnozīme ir konsekventa;
+- palīgdarbības vārds ir pārbaudīts;
+- `Partizip II` ir pārbaudīts;
+- refleksivitāte un priedēkļi ir konsekventi.
+
+## 7.99. Verbu batch pilnības kontrole (v1.16)
+
+Katram batch obligāti jāuzrāda:
+
+```text
+BATCH_ID
+EXPECTED_VERB_OBJECTS
+RETURNED_VERB_OBJECT_RESULTS
+EXPECTED_FORMS
+RETURNED_FORM_RESULTS
+EXPECTED_FIELDS
+RETURNED_FIELD_RESULTS
+MISSING_VERB_RESULTS
+MISSING_FORM_RESULTS
+MISSING_FIELD_RESULTS
+DUPLICATE_VERB_RESULTS
+DUPLICATE_FORM_RESULTS
+DUPLICATE_FIELD_RESULTS
+```
+
+Batch ir `PASS` tikai tad, ja:
+
+```text
+EXPECTED_VERB_OBJECTS = RETURNED_VERB_OBJECT_RESULTS
+EXPECTED_FORMS = RETURNED_FORM_RESULTS
+EXPECTED_FIELDS = RETURNED_FIELD_RESULTS
+MISSING_VERB_RESULTS = 0
+MISSING_FORM_RESULTS = 0
+MISSING_FIELD_RESULTS = 0
+DUPLICATE_VERB_RESULTS = 0
+DUPLICATE_FORM_RESULTS = 0
+DUPLICATE_FIELD_RESULTS = 0
+```
+
+## 7.100. Infinitīva audits (v1.16)
+
+Katram infinitīvam jāpārbauda:
+
+- precīza DE forma;
+- pilna verba identitāte;
+- refleksīvais vietniekvārds;
+- atdalāmais priedēklis;
+- neatdalāmais priedēklis;
+- pareizrakstība;
+- Card/Verb ID atbilstība;
+- mērķvalodas viena galvenā nozīme.
+
+Refleksīvu verbu nedrīkst auditēt kā nerefleksīvu verbu, ja tas maina
+nozīmi.
+
+## 7.101. Trešās personas tagadnes audits (v1.16)
+
+`3. Person Präsens` jāpārbauda:
+
+- personas galotne;
+- saknes patskaņa maiņa;
+- umlauts;
+- līdzskaņu maiņa;
+- atdalāmā priedēkļa novietojums;
+- refleksīvais vietniekvārds;
+- neregulārā forma.
+
+Piemēri, kas obligāti jāatpazīst:
+
+```text
+fahren → er fährt
+lesen → er liest
+sprechen → er spricht
+nehmen → er nimmt
+laufen → er läuft
+```
+
+## 7.102. Präteritum audits (v1.16)
+
+`Präteritum` jāpārbauda:
+
+- vai forma pieder pareizajam infinitīvam;
+- stiprā verba saknes maiņa;
+- vājā verba `-te` forma;
+- jauktā verba forma;
+- modālā verba forma;
+- refleksīvais vietniekvārds, ja tas tiek glabāts;
+- pareizrakstība.
+
+Nedrīkst secināt formas pareizību tikai pēc līdzības ar infinitīvu.
+
+## 7.103. Partizip II audits (v1.16)
+
+`Partizip II` jāpārbauda:
+
+- `ge-` lietojums;
+- atdalāma priedēkļa struktūra;
+- neatdalāma priedēkļa forma bez `ge-`;
+- verba galotne;
+- stiprā vai vājā forma;
+- jauktā forma;
+- refleksīvais statuss;
+- piederība pareizajam infinitīvam.
+
+Piemēri:
+
+```text
+machen → gemacht
+gehen → gegangen
+mitkommen → mitgekommen
+besuchen → besucht
+studieren → studiert
+```
+
+## 7.104. Palīgdarbības vārda audits (v1.16)
+
+Katram verbam jāpārbauda `Hilfsverb`:
+
+```text
+haben
+sein
+haben/sein
+```
+
+Jāņem vērā:
+
+- kustība;
+- stāvokļa maiņa;
+- nepārejošs/pārejošs lietojums;
+- refleksīvs lietojums;
+- reģionāli vai kontekstuāli varianti.
+
+Ja verbs var lietot gan `haben`, gan `sein`, nedrīkst automātiski izvēlēties
+vienu bez konteksta.
+
+Šādam gadījumam jāizmanto:
+
+```text
+NEEDS_SOURCE_REVIEW
+```
+
+vai OWNER apstiprināts precīzs variants.
+
+## 7.105. Atdalāmo priedēkļu audits (v1.16)
+
+Atdalāmajiem verbiem jāpārbauda:
+
+- pilns infinitīvs;
+- priedēklis;
+- tagadnes formas vārdu secība;
+- `Präteritum`;
+- `Partizip II`;
+- formas piederība vienam verbam.
+
+Piemēram:
+
+```text
+aufstehen
+er steht auf
+stand auf
+ist aufgestanden
+```
+
+Priedēkli nedrīkst pazaudēt nevienā formā.
+
+## 7.106. Neatdalāmo priedēkļu audits (v1.16)
+
+Neatdalāmajiem verbiem jāpārbauda:
+
+- priedēkļa saglabāšana;
+- `Partizip II` bez nepareiza `ge-`;
+- formas pareizrakstība;
+- verbs nav kļūdaini klasificēts kā atdalāms.
+
+Īpaši pārbaudīt priedēkļus:
+
+```text
+be-
+emp-
+ent-
+er-
+ge-
+miss-
+ver-
+zer-
+```
+
+## 7.107. Refleksīvo verbu audits (v1.16)
+
+Refleksīvam verbam jāpārbauda:
+
+- `sich` infinitīvā;
+- vietniekvārda forma;
+- vai refleksivitāte maina nozīmi;
+- vai mērķvalodas tulkojumā saglabāta refleksivitāte;
+- vai visas formas pieder refleksīvajam lietojumam.
+
+Aizliegts automātiski noņemt refleksīvo elementu tikai tāpēc, ka izolēts
+DE vai mērķvalodas teikums iespējams arī bez tā.
+
+## 7.108. Modālo verbu audits (v1.16)
+
+Modālajiem verbiem jāpārbauda:
+
+- neregulārā tagadnes forma;
+- `Präteritum`;
+- `Partizip II`, ja tas ietilpst datu modelī;
+- galvenā nozīme;
+- modalitātes veids;
+- atšķirība starp:
+  - iespēju;
+  - prasmi;
+  - atļauju;
+  - pienākumu;
+  - vajadzību;
+  - nodomu;
+  - ieteikumu.
+
+Īpaši auditēt:
+
+```text
+können
+dürfen
+müssen
+sollen
+wollen
+mögen
+```
+
+## 7.109. Mērķvalodas nozīmes audits (v1.16)
+
+Katram verba objektam jāpārbauda:
+
+- viena galvenā nozīme;
+- atbilstība DE infinitīvam;
+- vienāda pamatnozīme visās formās;
+- refleksivitāte;
+- pārejošs/nepārejošs lietojums;
+- reģistrs;
+- dabiskums;
+- vai nav sajaukts ar līdzīgu verbu.
+
+Parastajā verba kartītē galvenajā nozīmē aizliegts:
+
+```text
+•
+/
+komatu virknes
+vairāki nesaistīti tulkojumi
+```
+
+Ja vajadzīgas vairākas nozīmes, tās jāizskaidro Study struktūrā.
+
+## 7.110. Piemēru un piezīmju audits (v1.16)
+
+Ja verba objektā ir piemēri vai paskaidrojumi, jāpārbauda:
+
+- piemērs izmanto pareizo verbu;
+- piemērs izmanto pareizo formu;
+- teikuma nozīme atbilst DE;
+- persona un laiks atbilst;
+- refleksivitāte saglabāta;
+- palīgdarbības vārds ir pareizs;
+- paskaidrojums nav sajaukts ar citu verbu;
+- nav LV vai citas valodas atlikumu;
+- nav novecojušu formu pēc iepriekšējiem labojumiem.
+
+## 7.111. Dublikātu un sajauktu objektu kontrole (v1.16)
+
+Deterministiski jāpārbauda:
+
+```text
+DUPLICATE_VERB_ID
+DUPLICATE_INFINITIVE
+SAME_ID_DIFFERENT_INFINITIVE
+SAME_INFINITIVE_DIFFERENT_FORMS
+FORM_ASSIGNED_TO_WRONG_VERB
+MIXED_VERB_OBJECT
+```
+
+Vienādas formas dažādiem verbiem nav automātiska kļūda. Jāpārbauda pilns
+verba objekts un konteksts.
+
+## 7.112. Verbu pre-finding validācija (v1.16)
+
+Pirms findinga publicēšanas skriptam jāpārbauda:
+
+```text
+Verb ID exists
+Verb object exists
+Form type exists
+Field/path exists
+Field belongs to reported Verb ID
+CURRENT === production value
+DE form belongs to the same infinitive
+Finding is unique
+```
+
+Ja validācija neizdodas:
+
+```text
+INVALID_VERB_ID
+INVALID_FORM_TYPE
+INVALID_FIELD
+TARGET_OBJECT_MISMATCH
+CURRENT_VALUE_MISMATCH
+FORM_OBJECT_MISMATCH
+DUPLICATE_FINDING
+```
+
+Šādu ierakstu nedrīkst publicēt OWNER backlog kā apply-gatavu `FINDING`.
+
+## 7.113. Verbu OWNER vēstures aizsardzība (v1.16)
+
+Pirms jauna findinga publicēšanas jāpārbauda OWNER vēsture pēc:
+
+```text
+(Language, Verb ID, Form type, Field/path, CURRENT)
+```
+
+Iepriekšējs:
+
+```text
+FALSE_POSITIVE
+NELABOT
+OWNER_ACCEPTED
+```
+
+nedrīkst tikt atkārtoti atvērts bez:
+
+```text
+OWNER_DECISION_REOPEN_REQUIRED
+Previous OWNER status
+Previous OWNER value
+New evidence
+Reason for reopening
+```
+
+## 7.114. Verbu OWNER backlog (v1.16)
+
+Katram validētam findingam obligāti:
+
+```text
+Audit ID
+Batch ID
+Verb number
+Verb ID
+DE infinitive
+Form type
+Field/path
+DE form
+CURRENT
+PROPOSED
+Verb object context
+Severity
+Category
+Evidence
+OWNER STATUS
+OWNER NEW
+OWNER note
+```
+
+`PROPOSED` nav OWNER lēmums.
+
+Cursor nedrīkst izmantot `PROPOSED`, kamēr nav:
+
+```text
+OWNER STATUS = LABOT
+OWNER NEW = precīza gala vērtība
+```
+
+## 7.115. Verbu OWNER pierādījuma fails (v1.16)
+
+Katram OWNER lēmumam pierādījuma `.md` failā obligāti:
+
+```text
+1. Oriģinālais teksts
+2. Veiktās izmaiņas
+3. Gala rezultāts
+```
+
+Papildus:
+
+```text
+Verb ID
+DE infinitive
+Form type
+Field/path
+DE form
+Verb object context
+OWNER status
+OWNER justification
+```
+
+Pierādījuma failam 1:1 jāatbilst OWNER authority failam.
+
+## 7.116. Verbu COPY-ONLY apply (v1.16)
+
+Verbu remontam obligāti piemērot `REPAIR_APPLY_SAFETY_STANDARD.md`.
+
+Atļauts mainīt tikai rindas ar:
+
+```text
+OWNER STATUS = LABOT
+Verb ID = precīzs
+Form type = precīzs
+Field/path = precīzs
+CURRENT = production exact-match
+OWNER NEW = precīza gala vērtība
+```
+
+Ja CURRENT nesakrīt:
+
+```text
+CURRENT_VALUE_MISMATCH
+SKIP
+```
+
+Aizliegts:
+
+- pašam ģenerēt formas;
+- pašam labot līdzīgus verbus;
+- mainīt visu paradigmu bez OWNER rindām;
+- veikt globālu search/replace;
+- mainīt DE;
+- mainīt blakus verbu;
+- mainīt ID vai secību;
+- veikt papildu cleanup.
+
+## 7.117. Verbu targeted regression (v1.16)
+
+Pēc apply jāpārbauda:
+
+- visi OWNER `LABOT`;
+- visi skartie verba objekti;
+- visas viena skartā verba piecas formas;
+- palīgdarbības vārds;
+- refleksivitāte;
+- priedēkļi;
+- primary/`www` spogulis.
+
+Obligāti:
+
+```text
+REQUESTED
+PROCESSED
+APPLIED_VERIFIED
+VERB_OBJECTS_RECHECKED
+FORM_OBJECTS_RECHECKED
+CURRENT_VALUE_MISMATCH
+FAILED
+UNEXPECTED_CHANGES
+DE_CHANGES
+```
+
+## 7.118. Pilns post-repair Verbs audits (v1.16)
+
+Pēc targeted regression obligāti atkārtot pilnu Verbs/Verben auditu:
+
+- ar to pašu deterministisko inventāru;
+- ar tiem pašiem 10 verbu batch;
+- ar formu līmeņa rezultātiem;
+- ar objekta līmeņa konsekvences rezultātiem;
+- ar OWNER vēstures aizsardzību.
+
+Targeted regression viena pati nav closure pierādījums.
+
+## 7.119. Verbu gala audita vārti (v1.16)
+
+Pilna Verbs/Verben audita atskaitē obligāti:
+
+```text
+VERB_COVERAGE = audited verb objects / expected verb objects
+FORM_COVERAGE = audited forms / expected forms
+FIELD_COVERAGE = returned field results / expected fields
+VERB_OBJECT_CONSISTENCY = consistent objects / expected objects
+BATCH_COVERAGE = completed batches / expected batches
+HELPER_VERB_VALIDATION = 100%
+PARTICIPLE_VALIDATION = 100%
+PRESENT_FORM_VALIDATION = 100%
+PRETERITE_VALIDATION = 100%
+CURRENT_EXACT_MATCH = 100%
+MISSING_VERB_RESULTS = 0
+MISSING_FORM_RESULTS = 0
+MISSING_FIELD_RESULTS = 0
+DUPLICATE_VERB_ID = 0
+INVALID_VERB_ID = 0
+INVALID_FORM_TYPE = 0
+INVALID_FIELD = 0
+TARGET_OBJECT_MISMATCH = 0
+FORM_OBJECT_MISMATCH = 0
+DE_UNAUTHORIZED_CHANGES = 0
+PRIMARY_WWW_MIRROR = PASS
+ID_ORDER = PASS
+```
+
+## 7.120. Verbu closure vārti (v1.16)
+
+Verbs/Verben sadaļa ir:
+
+```text
+OWNER ACCEPTED / CLOSED
+```
+
+tikai tad, ja:
+
+```text
+VERB_COVERAGE = 100%
+FORM_COVERAGE = 100%
+FIELD_COVERAGE = 100%
+VERB_OBJECT_CONSISTENCY = 100%
+BATCH_COVERAGE = 100%
+HELPER_VERB_VALIDATION = 100%
+PARTICIPLE_VALIDATION = 100%
+PRESENT_FORM_VALIDATION = 100%
+PRETERITE_VALIDATION = 100%
+APPLIED_VERIFIED = 100%
+CURRENT_EXACT_MATCH = 100%
+NEW_VALIDATED_REAL_FINDINGS = 0
+REPAIR_REGRESSION = 0
+MISSING_RESULTS = 0
+DUPLICATES = 0
+INVALID_VERB_ID = 0
+INVALID_FORM_TYPE = 0
+INVALID_FIELD = 0
+TARGET_OBJECT_MISMATCH = 0
+FORM_OBJECT_MISMATCH = 0
+DE_UNAUTHORIZED_CHANGES = 0
+PRIMARY_WWW_MIRROR = PASS
+ID_ORDER = PASS
+```
+
+Ja kaut viens vārts nav izpildīts:
+
+```text
+VERBS_CLOSURE_BLOCKED
+```
+
 ------------------------------------------------------------------------
 
 Pēc audita visi reālie findings tiek nodoti OWNER review, izmantojot
@@ -5042,6 +5803,46 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.16
+
+Atsevišķs Verbs/Verben pilnā audita standarts — deterministisks verbu, formu
+un lauku inventārs; obligāti 10 pilni verba objekti vienā Luna batch; visu
+piecu formu kopīga pārbaude; formu un objekta līmeņa rezultāti; stipro, vājo,
+jaukto, modālo, refleksīvo un priedēkļu verbu kontrole; Hilfsverb, Partizip
+II, Präteritum un 3. Person Präsens validācija; OWNER vēstures aizsardzība
+un pilni closure vārti.
+
+Pievienots:
+
+- §7.91–§7.120 VERBS / VERBEN FULL AUDIT STANDARD;
+- §2.1 atsauce uz Verbs pilno auditu (§7.91–§7.120);
+- darbības vārda objekts kā nedalāma audita vienība;
+- deterministisks verbu inventārs un verb/form/field atslēgas;
+- obligātais batch lielums: maksimums **10 pilni verba objekti** vienā Luna
+  batch;
+- verbu klasifikācija (WEAK/STRONG/MIXED/MODAL/AUXILIARY/REFLEXIVE/SEPARABLE/
+  INSEPARABLE/IRREGULAR);
+- formu līmeņa `PASS`/`FINDING`/`NEEDS_SOURCE_REVIEW`;
+- objekta līmeņa `VERB_OBJECT_CONSISTENT`/`VERB_OBJECT_INCONSISTENT`;
+- batch pilnības kontrole (verb/form/field metrikas);
+- Infinitiv, 3. Person Präsens, Präteritum, Partizip II, Hilfsverb audits;
+- atdalāmo/neatdalāmo priedēkļu, refleksīvo un modālo verbu audits;
+- mērķvalodas nozīmes un piemēru/piezīmju audits;
+- dublikātu un sajauktu objektu kontrole;
+- pre-finding validācija un OWNER vēstures aizsardzība;
+- Verbu OWNER backlog, pierādījuma faili, COPY-ONLY apply;
+- targeted regression un pilns post-repair audits;
+- Verbu gala audita un closure vārti (`VERBS_CLOSURE_BLOCKED`).
+
+**FINAL v1.16 RULE:** Verbs/Verben pilns audits nav aizstājams ar A1–C2
+kartīšu, Study, Sentences, Kurss vai infinitīvu/skaita paritātes pārbaudi;
+Luna batch nedrīkst pārsniegt 10 pilnus verba objektus un nedrīkst sadalīt
+vienu verba formu pa batch; closure pieļauts tikai ar pierādītu 100% verbu,
+formu un lauku pārklājumu plus `VERB_OBJECT_CONSISTENCY = 100%` un
+`DE_UNAUTHORIZED_CHANGES = 0`.
+
+Version 1.15 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.16.
+
 ## Version 1.15
 
 Atsevišķs Sentences/Sätze pilnā audita standarts — deterministisks teikumu
@@ -5384,4 +6185,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.15 --- END
+## MASTER 1.16 --- END
