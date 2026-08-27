@@ -3,6 +3,8 @@
 # Copy to crowdin.yml and set CROWDIN_PROJECT_ID when ready to integrate.
 # Source of truth remains languages/{lang}/ui.js; use npm run i18n:ui:export
 # before uploading and npm run i18n:ui:import -- --write after download.
+# Export includes only the LV 305-key source set (locale-only EN/ES keys stay in ui.js only).
+# Import patches only changed string values in place (no full-file reformat on --write).
 #
 # project_id_env: CROWDIN_PROJECT_ID
 # base_path: .

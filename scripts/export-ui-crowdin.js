@@ -13,9 +13,10 @@ const {
   UI_JS_REL,
   UI_JSON_REL,
   abs,
+  getLvSourceKeySet,
   loadUiObject,
   exportUiToCrowdinJson,
-  flattenUiStrings,
+  parseCrowdinJson,
   ensureDir,
 } = require("./lib/ui-crowdin-bridge");
 
@@ -48,6 +49,7 @@ function main() {
   const { langs, outDir } = parseArgs(process.argv);
   ensureDir(outDir);
 
+  const lvSourceKeys = getLvSourceKeySet();
   const summary = [];
   for (const lang of langs) {
     if (!UI_LANGUAGES.includes(lang)) {
@@ -55,10 +57,11 @@ function main() {
       process.exit(1);
     }
     const { obj } = loadUiObject(UI_JS_REL(lang));
-    const json = exportUiToCrowdinJson(obj);
+    const json = exportUiToCrowdinJson(obj, { lvSourceKeys });
     const outPath = path.join(outDir, `${lang}.json`);
     fs.writeFileSync(outPath, json, "utf8");
-    summary.push({ lang, keys: Object.keys(flattenUiStrings(obj)).length, outPath });
+    const exportedKeys = Object.keys(parseCrowdinJson(json)).length;
+    summary.push({ lang, keys: exportedKeys, outPath });
   }
 
   console.log(`Exported ${summary.length} UI locale(s) to ${outDir}`);

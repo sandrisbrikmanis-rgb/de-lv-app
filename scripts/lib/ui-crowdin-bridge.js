@@ -40,6 +40,9 @@ const CROWDIN_LANGUAGE_MAP = {
 const METADATA_KEYS = new Set(["__langCode"]);
 const PLACEHOLDER_RE = /\{(\w+)\}/g;
 const HTML_TAG_RE = /<\/?([a-zA-Z][\w-]*)\b[^>]*>/g;
+const UI_ROOT_MARKER = "window.LANGUAGE_UI_STRINGS";
+
+let lvSourceKeyCache = null;
 
 function abs(relPath) {
   return path.join(ROOT, relPath);
@@ -124,9 +127,13 @@ function sortObjectDeep(obj) {
 }
 
 function exportUiToCrowdinJson(obj, options = {}) {
+  const lvSourceKeys = options.lvSourceKeys || null;
   const flat = flattenUiStrings(obj, options);
   const sortedFlat = {};
   for (const key of Object.keys(flat).sort()) {
+    if (lvSourceKeys && !lvSourceKeys.has(key)) {
+      continue;
+    }
     sortedFlat[key] = flat[key];
   }
   return `${JSON.stringify(sortedFlat, null, 2)}\n`;
@@ -190,6 +197,205 @@ function extractHtmlTagStructure(str) {
  * For each overlapping key, placeholder multiset and HTML tag structure
  * must match the existing target ui.js value.
  */
+function getLvSourceKeySet() {
+  if (!lvSourceKeyCache) {
+    const { obj } = loadUiObject(UI_JS_REL(CROWDIN_SOURCE_LANG));
+    lvSourceKeyCache = new Set(Object.keys(flattenUiStrings(obj)));
+  }
+  return lvSourceKeyCache;
+}
+
+function validateCrowdinKeySet(crowdinFlat, lvSourceKeys = getLvSourceKeySet()) {
+  const errors = [];
+  for (const key of Object.keys(crowdinFlat).sort()) {
+    if (!lvSourceKeys.has(key)) {
+      errors.push(`Unknown Crowdin key not in LV ${lvSourceKeys.size}-key source set: ${key}`);
+    }
+  }
+  return errors;
+}
+
+function skipWs(source, index) {
+  while (index < source.length && /\s/.test(source[index])) {
+    index++;
+  }
+  return index;
+}
+
+function readJsStringLiteral(source, index) {
+  const quote = source[index];
+  if (quote !== '"') {
+    throw new Error(`Expected double-quoted string at ${index}, got ${JSON.stringify(source[index])}`);
+  }
+  const start = index;
+  index++;
+  while (index < source.length) {
+    const ch = source[index];
+    if (ch === "\\") {
+      index += 2;
+      continue;
+    }
+    if (ch === quote) {
+      const literal = source.slice(start, index + 1);
+      return { start, end: index + 1, value: JSON.parse(literal), literal };
+    }
+    index++;
+  }
+  throw new Error(`Unterminated string literal at ${start}`);
+}
+
+function readJsKey(source, index) {
+  index = skipWs(source, index);
+  const start = index;
+  let key;
+  let end;
+  const ch = source[index];
+  if (ch === '"') {
+    const parsed = readJsStringLiteral(source, index);
+    key = parsed.value;
+    end = parsed.end;
+  } else if (ch === "'") {
+    throw new Error(`Single-quoted property keys are not supported at ${index}`);
+  } else if (/[a-zA-Z_$]/.test(ch)) {
+    while (index < source.length && /[a-zA-Z0-9_$]/.test(source[index])) {
+      index++;
+    }
+    key = source.slice(start, index);
+    end = index;
+  } else if (/[0-9]/.test(ch)) {
+    while (index < source.length && /[0-9]/.test(source[index])) {
+      index++;
+    }
+    key = source.slice(start, index);
+    end = index;
+  } else {
+    throw new Error(`Unexpected property key at ${index}: ${JSON.stringify(ch)}`);
+  }
+  index = skipWs(source, end);
+  if (source[index] !== ":") {
+    throw new Error(`Expected ':' after key ${key} at ${index}`);
+  }
+  const valueStart = skipWs(source, index + 1);
+  return { key, valueStart };
+}
+
+function skipPropertyValue(source, valueStart) {
+  let index = valueStart;
+  const ch = source[index];
+  if (ch === '"') {
+    return readJsStringLiteral(source, index).end;
+  }
+  if (ch === "{") {
+    return skipObjectLiteral(source, index);
+  }
+  throw new Error(`Unsupported value type at ${index}: ${JSON.stringify(ch)}`);
+}
+
+function skipObjectLiteral(source, startIndex) {
+  let index = startIndex + 1;
+  index = skipWs(source, index);
+  while (index < source.length) {
+    const ch = source[index];
+    if (ch === "}") {
+      return index + 1;
+    }
+    const keyInfo = readJsKey(source, index);
+    index = skipPropertyValue(source, keyInfo.valueStart);
+    index = skipWs(source, index);
+    if (source[index] === ",") {
+      index++;
+    }
+    index = skipWs(source, index);
+  }
+  throw new Error(`Unterminated object literal at ${startIndex}`);
+}
+
+function findUiRootObjectStart(source) {
+  const markerIndex = source.indexOf(UI_ROOT_MARKER);
+  if (markerIndex === -1) {
+    throw new Error(`Missing ${UI_ROOT_MARKER} assignment`);
+  }
+  let index = markerIndex + UI_ROOT_MARKER.length;
+  index = skipWs(source, index);
+  if (source[index] !== "=") {
+    throw new Error(`Expected '=' after ${UI_ROOT_MARKER}`);
+  }
+  index = skipWs(source, index + 1);
+  if (source[index] !== "{") {
+    throw new Error(`Expected '{' after ${UI_ROOT_MARKER} =`);
+  }
+  return index;
+}
+
+function locateStringLiteralAtPath(source, dotPath) {
+  const parts = dotPath.split(".");
+  function walk(objectStart, partIndex) {
+    let index = objectStart + 1;
+    index = skipWs(source, index);
+    while (index < source.length) {
+      const ch = source[index];
+      if (ch === "}") {
+        break;
+      }
+      const keyInfo = readJsKey(source, index);
+      if (keyInfo.key !== parts[partIndex]) {
+        index = skipPropertyValue(source, keyInfo.valueStart);
+        index = skipWs(source, index);
+        if (source[index] === ",") {
+          index++;
+        }
+        index = skipWs(source, index);
+        continue;
+      }
+      const valueStart = keyInfo.valueStart;
+      if (partIndex === parts.length - 1) {
+        if (source[valueStart] !== '"') {
+          throw new Error(`Expected string value for ${dotPath} at ${valueStart}`);
+        }
+        return readJsStringLiteral(source, valueStart);
+      }
+      if (source[valueStart] !== "{") {
+        throw new Error(`Expected nested object for ${parts.slice(0, partIndex + 1).join(".")} at ${valueStart}`);
+      }
+      return walk(valueStart, partIndex + 1);
+    }
+    throw new Error(`Path not found in ui.js source: ${dotPath}`);
+  }
+  return walk(findUiRootObjectStart(source), 0);
+}
+
+/**
+ * Replace only string values whose Crowdin JSON differs from the current ui.js.
+ * Preserves file formatting, key order, and quoting style (no full re-serialize).
+ */
+function applySurgicalCrowdinPatch(sourceCode, existingFlat, crowdinFlat) {
+  const replacements = [];
+  for (const key of Object.keys(crowdinFlat).sort()) {
+    const oldValue = existingFlat[key];
+    const newValue = crowdinFlat[key];
+    if (oldValue === undefined) {
+      throw new Error(`Crowdin key ${key} not present in target ui.js`);
+    }
+    if (newValue === oldValue) {
+      continue;
+    }
+    const literal = locateStringLiteralAtPath(sourceCode, key);
+    if (literal.value !== oldValue) {
+      throw new Error(
+        `Source literal mismatch for ${key}: file has ${JSON.stringify(literal.value)}, expected ${JSON.stringify(oldValue)}`
+      );
+    }
+    const newLiteral = JSON.stringify(newValue);
+    replacements.push({ key, start: literal.start, end: literal.end, newLiteral, oldValue, newValue });
+  }
+  replacements.sort((a, b) => b.start - a.start);
+  let content = sourceCode;
+  for (const repl of replacements) {
+    content = content.slice(0, repl.start) + repl.newLiteral + content.slice(repl.end);
+  }
+  return { content, changes: replacements, changed: replacements.length > 0 };
+}
+
 function validateImportGuards(existingFlat, crowdinFlat) {
   const errors = [];
   for (const key of Object.keys(crowdinFlat).sort()) {
@@ -284,12 +490,86 @@ function deepEqualSemantic(a, b, path = "") {
 }
 
 function roundTripUiObject(original) {
-  const flat = flattenUiStrings(original);
-  const json = exportUiToCrowdinJson(original);
+  const lvSourceKeys = getLvSourceKeySet();
+  const json = exportUiToCrowdinJson(original, { lvSourceKeys });
   const parsedFlat = parseCrowdinJson(json);
   const langCode = original.__langCode;
-  const reimported = importCrowdinJsonToUi(parsedFlat, langCode);
-  return { flat, json, reimported };
+  const reimported = mergeCrowdinImport(original, parsedFlat, langCode);
+  return { flat: parsedFlat, json, reimported };
+}
+
+function prepareUiCrowdinImport(lang, options = {}) {
+  const root = options.root || ROOT;
+  const inDir = options.inDir || path.join(root, "crowdin", "ui");
+  const jsonPath = path.join(inDir, `${lang}.json`);
+  if (!fs.existsSync(jsonPath)) {
+    throw new Error(`Missing JSON for ${lang}: ${jsonPath}`);
+  }
+  const rel = UI_JS_REL(lang);
+  const filePath = path.join(root, rel);
+  const code = fs.readFileSync(filePath, "utf8");
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  vm.runInContext(code, ctx);
+  const existing = ctx.window.LANGUAGE_UI_STRINGS;
+  if (!existing || typeof existing !== "object") {
+    throw new Error(`Missing window.LANGUAGE_UI_STRINGS in ${rel}`);
+  }
+  const existingFlat = flattenUiStrings(existing);
+  const crowdinFlat = parseCrowdinJson(fs.readFileSync(jsonPath, "utf8"));
+  const lvSourceKeys = getLvSourceKeySet();
+
+  const keyErrors = validateCrowdinKeySet(crowdinFlat, lvSourceKeys);
+  if (keyErrors.length) {
+    return { lang, ok: false, errors: keyErrors };
+  }
+  const guardErrors = validateImportGuards(existingFlat, crowdinFlat);
+  if (guardErrors.length) {
+    return { lang, ok: false, errors: guardErrors };
+  }
+  const merged = mergeCrowdinImport(existing, crowdinFlat, lang);
+  const mergedFlat = flattenUiStrings(merged);
+  const preserveErrors = assertKeysPreserved(existingFlat, mergedFlat, lang);
+  if (preserveErrors.length) {
+    return { lang, ok: false, errors: preserveErrors };
+  }
+  const patch = applySurgicalCrowdinPatch(code, existingFlat, crowdinFlat);
+  if (patch.content !== code) {
+    const reparsed = loadUiObjectFromCode(patch.content);
+    const reparsedFlat = flattenUiStrings(reparsed);
+    const mergedDiff = deepEqualSemantic(mergedFlat, reparsedFlat);
+    if (mergedDiff) {
+      return {
+        lang,
+        ok: false,
+        errors: [`Surgical patch semantic mismatch after write preview: ${mergedDiff}`],
+      };
+    }
+  }
+  return {
+    lang,
+    ok: true,
+    existingFlat,
+    crowdinFlat,
+    mergedFlat,
+    patch,
+    outPath: filePath,
+    crowdinKeys: Object.keys(crowdinFlat).length,
+    preservedKeys: Object.keys(existingFlat).length,
+    mergedKeys: Object.keys(mergedFlat).length,
+    changedKeys: patch.changes.length,
+  };
+}
+
+function loadUiObjectFromCode(code) {
+  const ctx = { window: {} };
+  vm.createContext(ctx);
+  vm.runInContext(code, ctx);
+  const obj = ctx.window.LANGUAGE_UI_STRINGS;
+  if (!obj || typeof obj !== "object") {
+    throw new Error("Missing window.LANGUAGE_UI_STRINGS in patched code");
+  }
+  return obj;
 }
 
 function ensureDir(dirPath) {
@@ -311,6 +591,12 @@ module.exports = {
   exportUiToCrowdinJson,
   importCrowdinJsonToUi,
   mergeCrowdinImport,
+  getLvSourceKeySet,
+  validateCrowdinKeySet,
+  applySurgicalCrowdinPatch,
+  locateStringLiteralAtPath,
+  prepareUiCrowdinImport,
+  loadUiObjectFromCode,
   extractPlaceholderMultiset,
   extractHtmlTagStructure,
   validateImportGuards,

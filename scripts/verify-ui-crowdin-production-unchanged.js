@@ -19,9 +19,9 @@ const {
   loadUiObject,
   flattenUiStrings,
   parseCrowdinJson,
-  mergeCrowdinImport,
   validateImportGuards,
-  deepEqualSemantic,
+  validateCrowdinKeySet,
+  prepareUiCrowdinImport,
 } = require("./lib/ui-crowdin-bridge");
 
 function loadCrowdinFlat(lang) {
@@ -37,15 +37,27 @@ function main() {
     const { obj: original } = loadUiObject(UI_JS_REL(lang));
     const existingFlat = flattenUiStrings(original);
     const crowdinFlat = loadCrowdinFlat(lang);
+    const keyErrors = validateCrowdinKeySet(crowdinFlat);
+    if (keyErrors.length) {
+      failures.push(`${lang}: ${keyErrors[0]}`);
+      continue;
+    }
     const guardErrors = validateImportGuards(existingFlat, crowdinFlat);
     if (guardErrors.length) {
       failures.push(`${lang}: guard validation failed: ${guardErrors[0]}`);
       continue;
     }
-    const merged = mergeCrowdinImport(original, crowdinFlat, lang);
-    const diff = deepEqualSemantic(original, merged);
-    if (diff) {
-      failures.push(`${lang}: merge import changed semantic content at ${diff}`);
+    const prepared = prepareUiCrowdinImport(lang);
+    if (!prepared.ok) {
+      failures.push(`${lang}: prepare import failed: ${prepared.errors[0]}`);
+      continue;
+    }
+    if (prepared.changedKeys !== 0) {
+      failures.push(`${lang}: expected 0 changed keys for current Crowdin JSON, got ${prepared.changedKeys}`);
+      continue;
+    }
+    if (prepared.patch.content !== fs.readFileSync(prepared.outPath, "utf8")) {
+      failures.push(`${lang}: identical Crowdin JSON would alter ui.js bytes`);
       continue;
     }
     passed++;

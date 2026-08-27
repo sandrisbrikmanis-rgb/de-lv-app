@@ -18,6 +18,7 @@ const {
   mergeCrowdinImport,
   assertKeysPreserved,
   validateImportGuards,
+  validateCrowdinKeySet,
 } = require("./lib/ui-crowdin-bridge");
 
 const TARGETS = ["en", "es"];
@@ -115,6 +116,15 @@ function main() {
     failures.push(`guard test: expected HTML structure failure, got ${JSON.stringify(htmlErrors)}`);
   } else {
     console.log("OK guards: HTML tag structure mismatch detected");
+  }
+
+  const lvKeys = new Set(Object.keys(lvFlat));
+  const unknownKeyFlat = { ...lvFlat, "menu.learningModes": "Learning modes" };
+  const unknownErrors = validateCrowdinKeySet(unknownKeyFlat, lvKeys);
+  if (unknownErrors.length !== 1 || !unknownErrors[0].includes("Unknown Crowdin key")) {
+    failures.push(`unknown-key test: expected failure, got ${JSON.stringify(unknownErrors)}`);
+  } else {
+    console.log("OK unknown-key: locale-only Crowdin key rejected against LV source set");
   }
 
   if (failures.length) {

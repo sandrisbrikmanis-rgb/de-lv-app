@@ -4,45 +4,43 @@
 /**
  * Import crowdin/ui/{lang}.json → languages/{lang}/ui.js
  *
- * Merges Crowdin keys onto the existing ui.js object so locale-only keys
- * (e.g. EN/ES +7 not present in LV Crowdin source) are never deleted.
+ * Surgical write: only string values that differ in Crowdin JSON are patched in
+ * place. No key reorder, no full-file reformat, no quote style changes.
  *
- * Default is --dry-run (no writes). Pass --write to update ui.js files.
- * Before --write, every locale is validated (placeholder multiset + HTML
- * tag structure). Any failure aborts with no files written.
+ * Crowdin JSON keys must be a subset of the LV source key set (305 keys).
+ * Locale-only target keys (e.g. EN/ES +7) are preserved untouched.
+ *
+ * Default is --dry-run (no writes). Pass --write to persist after all guards pass.
+ * Any validation failure aborts with no files written.
  */
 
 const fs = require("fs");
 const path = require("path");
 const {
+  ROOT,
   UI_LANGUAGES,
-  UI_JS_REL,
-  abs,
-  loadUiObject,
-  flattenUiStrings,
-  parseCrowdinJson,
-  mergeCrowdinImport,
-  validateImportGuards,
-  assertKeysPreserved,
-  serializeUiJs,
+  prepareUiCrowdinImport,
   ensureDir,
 } = require("./lib/ui-crowdin-bridge");
 
 function parseArgs(argv) {
   const langs = [];
-  let inDir = abs(path.join("crowdin", "ui"));
+  let root = ROOT;
+  let inDir = null;
   let write = false;
   for (let i = 2; i < argv.length; i++) {
-    if (argv[i] === "--in" && argv[i + 1]) {
+    if (argv[i] === "--root" && argv[i + 1]) {
+      root = path.resolve(argv[++i]);
+    } else if (argv[i] === "--in" && argv[i + 1]) {
       inDir = path.resolve(argv[++i]);
     } else if (argv[i] === "--lang" && argv[i + 1]) {
       langs.push(argv[++i]);
     } else if (argv[i] === "--write") {
       write = true;
     } else if (argv[i] === "--help" || argv[i] === "-h") {
-      console.log(`Usage: node scripts/import-ui-crowdin.js [--lang CODE] [--in DIR] [--write]
+      console.log(`Usage: node scripts/import-ui-crowdin.js [--lang CODE] [--in DIR] [--root DIR] [--write]
 
-Imports flat Crowdin JSON back to languages/{lang}/ui.js (merge, never drops keys).
+Imports flat Crowdin JSON back to languages/{lang}/ui.js using surgical in-place patches.
 Dry-run by default; pass --write to persist after guard validation passes for all locales.
 `);
       process.exit(0);
@@ -53,46 +51,14 @@ Dry-run by default; pass --write to persist after guard validation passes for al
   }
   return {
     langs: langs.length ? langs : UI_LANGUAGES,
-    inDir,
+    root,
+    inDir: inDir || path.join(root, "crowdin", "ui"),
     write,
   };
 }
 
-function prepareImport(lang, inDir) {
-  const jsonPath = path.join(inDir, `${lang}.json`);
-  if (!fs.existsSync(jsonPath)) {
-    throw new Error(`Missing JSON for ${lang}: ${jsonPath}`);
-  }
-  const { obj: existing } = loadUiObject(UI_JS_REL(lang));
-  const existingFlat = flattenUiStrings(existing);
-  const crowdinFlat = parseCrowdinJson(fs.readFileSync(jsonPath, "utf8"));
-  const guardErrors = validateImportGuards(existingFlat, crowdinFlat);
-  if (guardErrors.length) {
-    return { lang, ok: false, errors: guardErrors };
-  }
-  const merged = mergeCrowdinImport(existing, crowdinFlat, lang);
-  const mergedFlat = flattenUiStrings(merged);
-  const preserveErrors = assertKeysPreserved(existingFlat, mergedFlat, lang);
-  if (preserveErrors.length) {
-    return { lang, ok: false, errors: preserveErrors };
-  }
-  return {
-    lang,
-    ok: true,
-    existingFlat,
-    crowdinFlat,
-    mergedFlat,
-    merged,
-    jsText: serializeUiJs(merged),
-    outPath: abs(UI_JS_REL(lang)),
-    crowdinKeys: Object.keys(crowdinFlat).length,
-    preservedKeys: Object.keys(existingFlat).length,
-    mergedKeys: Object.keys(mergedFlat).length,
-  };
-}
-
 function main() {
-  const { langs, inDir, write } = parseArgs(process.argv);
+  const { langs, root, inDir, write } = parseArgs(process.argv);
   if (!fs.existsSync(inDir)) {
     console.error(`Input directory not found: ${inDir}`);
     process.exit(1);
@@ -110,7 +76,7 @@ function main() {
 
   for (const lang of langs) {
     try {
-      const result = prepareImport(lang, inDir);
+      const result = prepareUiCrowdinImport(lang, { root, inDir });
       if (!result.ok) {
         failures.push(result);
       } else {
@@ -134,19 +100,21 @@ function main() {
 
   if (write) {
     for (const row of prepared) {
-      ensureDir(path.dirname(row.outPath));
-      fs.writeFileSync(row.outPath, row.jsText, "utf8");
+      if (row.patch.changed) {
+        ensureDir(path.dirname(row.outPath));
+        fs.writeFileSync(row.outPath, row.patch.content, "utf8");
+      }
     }
   }
 
   console.log(`${write ? "Imported" : "Validated import for"} ${prepared.length} UI locale(s) from ${inDir}`);
   for (const row of prepared) {
     console.log(
-      `  ${row.lang}: crowdin ${row.crowdinKeys} keys merged → ${row.mergedKeys} total (${row.preservedKeys} preserved baseline) → ${row.outPath} (${write ? "written" : "dry-run"})`
+      `  ${row.lang}: crowdin ${row.crowdinKeys} keys, ${row.changedKeys} changed, ${row.mergedKeys} total → ${row.outPath} (${write ? "written" : "dry-run"})`
     );
   }
   if (!write) {
-    console.log("Dry-run only — pass --write to update languages/*/ui.js after guards pass");
+    console.log("Dry-run only — pass --write to patch changed string values in languages/{lang}/ui.js");
   }
 }
 
