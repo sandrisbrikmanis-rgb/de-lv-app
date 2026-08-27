@@ -8092,7 +8092,7 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich halte die Tasche.",
-          "lv": "Je tiens un sac"
+          "lv": "Je tiens un sac."
         },
         {
           "de": "Der Bus hält hier.",
@@ -8308,7 +8308,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Main (paume)",
+    "lv": "Main",
     "level": "A1",
     "study": {
       "id": "a1-hand-study",
