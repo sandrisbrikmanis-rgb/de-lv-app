@@ -13,53 +13,53 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| FR-A1-0101 | a1-können | entry[319].study.explanation[3] | Können est un verbe modal, donc le deuxième verbe vient généralement à la fin. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0102 | a1-können | entry[319].study.comparison[0].word | können | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0103 | a1-können | entry[319].study.comparison[0].example | Ich kann schwimmen. = Es protu peldēt. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0104 | a1-können | entry[319].study.comparison[1].word | dürfen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0105 | a1-können | entry[319].study.comparison[1].example | Darf ich gehen? = Vai drīkstu iet? | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0106 | a1-können | entry[319].study.comparison[2].word | müssen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0107 | a1-können | entry[319].study.comparison[2].example | Ich muss lernen. = Man jāmācās. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0108 | a1-können | entry[319].study.tip.text | Rappelez-vous : compétence/capacité → können. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0109 | a1-können | entry[319].study.important[0] | Können n'est pas la même chose que dürfen. können = pouvoir/savoir, dürfen = être autorisé. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0110 | a1-können | entry[319].study.important[1] | Dans une phrase avec können, le deuxième verbe vient souvent à la fin : Ich kann schwimmen. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0111 | a1-können | entry[319].study.sectionAccents.comparison[0].word.green[0] | können | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0112 | a1-können | entry[319].study.sectionAccents.comparison[1].word.green[0] | dürfen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0113 | a1-können | entry[319].study.sectionAccents.comparison[2].word.green[0] | müssen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0114 | a1-können | entry[319].study.sectionAccents.tip.left.blue[0] | können | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0115 | a1-können | entry[319].study.sectionAccents.important[0].purple[0] | Können | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0116 | a1-kosten | entry[320].study.comparison[0].example | Das kostet 5 Euro. = Tas maksā 5 eiro. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0117 | a1-kosten | entry[320].study.comparison[1].example | Ich bezahle die Rechnung. = Es maksāju rēķinu. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0118 | a1-kosten | entry[320].study.comparison[2].example | Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā? | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0119 | a1-kosten | entry[320].study.comparison[3].example | Was kostet das Buch? = Cik maksā grāmata? | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0120 | a1-laden-study | entry[349].study.explanation[3] | Pluriel : die Läden. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0121 | a1-laden-study | entry[349].study.important[2] | Pluriel : die Läden. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0122 | a1-laden-study | entry[349].study.sectionAccents.important[2].blue[0] | die Läden | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0123 | a1-laufen | entry[357].study.comparison[0].example | Er läuft schnell. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0124 | a1-laufen | entry[357].study.sectionAccents.comparison[0].example.blue[0] | läuft | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0125 | a1-laut | entry[358].study.explanation[6] | Der Laut avec une majuscule et l'article der est un nom - cela signifie le son en tant que chose ou signal (Der Laut ist… | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0126 | a1-laut-study | entry[359].study.explanation[6] | Der Laut avec une majuscule et l'article der est un nom - cela signifie le son en tant que chose ou signal (Der Laut ist… | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0127 | a1-mann | entry[394].study.explanation[4] | Pluriel : die Männer. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0128 | a1-mann | entry[394].study.important[2] | Pluriel : die Männer. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0129 | a1-mögen | entry[413].study.id | a1-mögen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0130 | a1-mögen | entry[413].study.explanation[0] | Idée principale : mögen signifie le plus souvent aimer quelque chose. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0131 | a1-mögen | entry[413].study.explanation[2] | Möchte est une autre forme utilisée pour le désir poli : je voudrais. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0132 | a1-mögen | entry[413].study.comparison[0].word | mögen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0133 | a1-mögen | entry[413].study.comparison[1].word | möchte | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0134 | a1-mögen | entry[413].study.comparison[1].example | Ich möchte Kaffee. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0135 | a1-mögen | entry[413].study.important[0] | Mögen n'est pas un nom pour poli « je voudrais ». Möchte est généralement utilisé pour cela. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0136 | a1-mögen | entry[413].study.sectionAccents.comparison[0].word.green[0] | mögen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0137 | a1-mögen | entry[413].study.sectionAccents.comparison[1].word.green[0] | möchte | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0138 | a1-mögen | entry[413].study.sectionAccents.comparison[1].example.red[0] | möchte | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0139 | a1-mögen | entry[413].study.sectionAccents.important[0].purple[0] | Mögen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0140 | a1-mögen | entry[413].study.sectionAccents.important[0].purple[1] | Mögen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0141 | a1-müssen | entry[423].study.id | a1-müssen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0142 | a1-müssen | entry[423].study.explanation[0] | Idée principale : müssen signifie faire quelque chose. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0143 | a1-müssen | entry[423].study.explanation[1] | En letton, müssen est souvent traduit par « moi oui… », « toi oui… », « nous oui… ». | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0144 | a1-müssen | entry[423].study.comparison[0].word | müssen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0145 | a1-müssen | entry[423].study.comparison[1].word | können | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0146 | a1-müssen | entry[423].study.comparison[3].word | dürfen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0147 | a1-müssen | entry[423].study.important[0] | Müssen est un verbe modal. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0148 | a1-müssen | entry[423].study.sectionAccents.comparison[0].word.green[0] | müssen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0149 | a1-müssen | entry[423].study.sectionAccents.comparison[1].word.green[0] | können | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0150 | a1-müssen | entry[423].study.sectionAccents.comparison[3].word.green[0] | dürfen | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0394 | a1-zumachen-673 | frText | Gros plan | Fermer | CRITICAL | TRANSLATION | PENDING | | |
+| FR-A1-0395 | a1-zurück-674 | frText | Dos | En arrière | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0396 | a1-zweihundert-680 | frText | Deux cent | Deux cents | MEDIUM | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0397 | a1-Zwiebel-683 | frText | Oignon | L’oignon | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0398 | a1-Stadt-696 | frText | Ville | La ville | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0399 | a1-Staat-697 | frText | Pays | L’État | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0400 | a1-sprechen-study | study.examples[2].lv | Je parle allemand | Elle parle avec son professeur. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0401 | a1-sprechen-study | study.comparison[1].meaning | Raconter (un texte spécifique) | Dire (un texte précis) | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0402 | a1-klein-study | study.examples[1].lv | La pièce est petite. | L'enfant est encore petit. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0403 | a1-klein-study | study.examples[2].lv | L'enfant est encore petit. | J'ai un petit sac. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0405 | a1-an | study.examples[0].lv | Sur le mur / sur le mur | Au mur / sur le mur | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0406 | a1-an | study.examples[1].lv | A la fenêtre | À la fenêtre | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0407 | a1-an | study.tip.text | Atceries : tarte sienas/loga/malas → an. | À retenir : au mur/à la fenêtre/au bord → an. | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0408 | a1-ab | study.translation | Depuis | À partir de | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0409 | a1-ab | study.examples[0].lv | A partir d'aujourd'hui | À partir d'aujourd'hui | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0410 | a1-ab | study.examples[1].lv | A partir de lundi | À partir de lundi | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0411 | a1-ab | study.examples[2].lv | À partir de 8 | À partir de 8 h | LOW | NATURALNESS | PENDING | | |
+| FR-A1-0412 | a1-ab | study.comparison[2].meaning | De l'intérieur | À partir de l'intérieur | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0413 | a1-aber | study.comparison[0].meaning | Contraire • Objection • Cependant | Cependant | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0414 | a1-aber | study.comparison[1].meaning | Non • Mais | Pas…, mais… | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0415 | a1-aber | study.tip.text | Atceries : pretstats/iebilde → aber. | À retenir : opposition/objection → aber. | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0416 | a1-also | study.comparison[0].meaning | Alors • Donc | Donc | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0417 | a1-also | study.comparison[1].meaning | Aussi | Également | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0418 | a1-also | study.tip.text | Rappelez-vous : conclusion → aussi. | À retenir : conclusion → donc. | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0419 | a1-auch-study | study.examples[1].lv | Je viens aussi | Elle travaille aussi ici. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0420 | a1-auch-study | study.examples[2].lv | Elle travaille également ici. | Je vous souhaite aussi une bonne journée. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0421 | a1-auf | study.translation | À | Sur / à | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0422 | a1-auf | study.comparison[0].meaning | Vers (surface ou vers le haut) | Sur / vers le haut | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0423 | a1-auf | study.comparison[1].meaning | À (surface verticale) | Sur (surface verticale) | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0424 | a1-auf | study.comparison[2].meaning | À l'intérieur | Sur / à | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0426 | a1-aus | study.comparison[2].meaning | À partir d'un point ou d'une heure | À partir d'un point ou d'un moment | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0428 | a1-aufs | study.examples[6].lv | Venez vite au bateau ! | Montez vite sur le bateau ! | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0429 | a1-aufs | study.comparison[0].meaning | À un cas précis (Akk.) | Vers une chose précise (accusatif) | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0430 | a1-aufs | study.comparison[2].meaning | Sur une surface verticale | Près d'une surface verticale | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0431 | a1-aufs | study.comparison[4].meaning | À/chez (qui ?) | Vers / chez quelqu'un | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0432 | a1-baden | study.translation | Nager | Se baigner | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0433 | a1-baden | study.examples[0].lv | Je vais nager | Je vais me baigner. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0434 | a1-baden | study.examples[1].lv | Nous allons nager dans le lac. | Nous allons nous baigner dans le lac. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0435 | a1-baden | study.examples[3].lv | Je vais nager tous les lundis. | Je me baigne tous les lundis. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0436 | a1-baden | study.comparison[0].meaning | Nager / être dans l'eau / se laver | Se baigner / être dans l'eau / se laver | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0437 | a1-baden | study.tip.text | N'oubliez pas : reposez-vous dans l'eau → baden • Mouvement de nage → schwimmen. | À retenir : se baigner dans l'eau → baden • Mouvement de nage → nager. | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0438 | a1-bei | study.translation | À | Chez / auprès de | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0439 | a1-bei | study.comparison[1].meaning | Au mur, au bord, au rivage, au bord de la surface | Près du mur, au bord, près du rivage, au bord de la surface | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0440 | a1-bei | study.comparison[2].meaning | Qui va (direction) | Aller chez quelqu'un (direction) | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0441 | a1-bei | study.tip.text | N'oubliez pas : à personne/lieu/entreprise → bei. | À retenir : chez une personne, dans un lieu ou auprès d'une entreprise → bei. | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0442 | a1-bis | study.examples[0].lv | J'attends votre arrivée. | J'attends ton arrivée. | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0443 | a1-bis | study.examples[3].lv | Pour l'instant je n'ai rien compris. | Jusqu'à présent, je n'ai rien compris. | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0444 | a1-bitte | study.examples[0].lv | S'il te plaît! | Une tasse de café, s'il vous plaît. | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0445 | a1-bitte | study.examples[1].lv | S'il te plaît! | Entrez, s'il vous plaît. | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0446 | a1-bitte | study.comparison[0].meaning | lūdzu | S'il vous plaît | CRITICAL | FOREIGN_REMNANT | PENDING | | |

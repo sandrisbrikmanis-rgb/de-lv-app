@@ -13,802 +13,852 @@
 
 Avots: [fr-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-full-audit.md)
 
-## FR-A1-0101
-**Audit ID:** FR-A1-0101
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.explanation[3]`
+## FR-A1-0394
+**Audit ID:** FR-A1-0394
+**Card ID:** `a1-zumachen-673`
+**Field/path:** `frText`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Können est un verbe modal, donc le deuxième verbe vient généralement à la fin.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** CRITICAL
+**Category:** TRANSLATION
+**DE (read-only):** zumachen
+**LV MASTER reference:** aiztaisīt
+**CURRENT:** Gros plan
+**PROPOSED_ET (audit ieteikums):** Fermer
+**Problēma:** « Gros plan » signifie close-up; zumachen signifie fermer.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0102
-**Audit ID:** FR-A1-0102
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.comparison[0].word`
+## FR-A1-0395
+**Audit ID:** FR-A1-0395
+**Card ID:** `a1-zurück-674`
+**Field/path:** `frText`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** können
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** zurück
+**LV MASTER reference:** atpakaļ
+**CURRENT:** Dos
+**PROPOSED_ET (audit ieteikums):** En arrière
+**Problēma:** « Dos » est le nom d’une partie du corps; zurück est un adverbe signifiant en arrière.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0103
-**Audit ID:** FR-A1-0103
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.comparison[0].example`
+## FR-A1-0396
+**Audit ID:** FR-A1-0396
+**Card ID:** `a1-zweihundert-680`
+**Field/path:** `frText`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich kann schwimmen. = Es protu peldēt.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** ORTHOGRAPHY
+**DE (read-only):** zweihundert
+**LV MASTER reference:** divsimt
+**CURRENT:** Deux cent
+**PROPOSED_ET (audit ieteikums):** Deux cents
+**Problēma:** « Cent » prend un s dans « deux cents » lorsqu’il n’est pas suivi d’un autre nombre.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0104
-**Audit ID:** FR-A1-0104
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.comparison[1].word`
+## FR-A1-0397
+**Audit ID:** FR-A1-0397
+**Card ID:** `a1-Zwiebel-683`
+**Field/path:** `frText`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** dürfen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** Zwiebel
+**LV MASTER reference:** sīpols
+**CURRENT:** Oignon
+**PROPOSED_ET (audit ieteikums):** L’oignon
+**Problēma:** Le nom français doit normalement être présenté avec son article dans cette fiche de vocabulaire.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0105
-**Audit ID:** FR-A1-0105
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.comparison[1].example`
+## FR-A1-0398
+**Audit ID:** FR-A1-0398
+**Card ID:** `a1-Stadt-696`
+**Field/path:** `frText`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Darf ich gehen? = Vai drīkstu iet?
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** Stadt
+**LV MASTER reference:** pilsēta
+**CURRENT:** Ville
+**PROPOSED_ET (audit ieteikums):** La ville
+**Problēma:** Le nom français doit normalement être présenté avec son article dans cette fiche de vocabulaire.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0106
-**Audit ID:** FR-A1-0106
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.comparison[2].word`
+## FR-A1-0399
+**Audit ID:** FR-A1-0399
+**Card ID:** `a1-Staat-697`
+**Field/path:** `frText`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** müssen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** Staat
+**LV MASTER reference:** valsts
+**CURRENT:** Pays
+**PROPOSED_ET (audit ieteikums):** L’État
+**Problēma:** Staat signifie « État »; « pays » correspond plutôt à Land ou Staat dans un autre sens contextuel.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0107
-**Audit ID:** FR-A1-0107
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.comparison[2].example`
+## FR-A1-0400
+**Audit ID:** FR-A1-0400
+**Card ID:** `a1-sprechen-study`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich muss lernen. = Man jāmācās.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** sprechen
+**LV MASTER reference:** Viņa runā ar savu skolotāju.
+**CURRENT:** Je parle allemand
+**PROPOSED_ET (audit ieteikums):** Elle parle avec son professeur.
+**Problēma:** La phrase française ne correspond ni au sujet ni au complément de la source.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0108
-**Audit ID:** FR-A1-0108
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.tip.text`
+## FR-A1-0401
+**Audit ID:** FR-A1-0401
+**Card ID:** `a1-sprechen-study`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Rappelez-vous : compétence/capacité → können.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** sprechen
+**LV MASTER reference:** pasacīt (konkrētu tekstu)
+**CURRENT:** Raconter (un texte spécifique)
+**PROPOSED_ET (audit ieteikums):** Dire (un texte précis)
+**Problēma:** Raconter signifie narrer; le contraste attendu est dire, non raconter.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0109
-**Audit ID:** FR-A1-0109
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.important[0]`
+## FR-A1-0402
+**Audit ID:** FR-A1-0402
+**Card ID:** `a1-klein-study`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Können n'est pas la même chose que dürfen. können = pouvoir/savoir, dürfen = être autorisé.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** klein
+**LV MASTER reference:** Bērns vēl ir mazs.
+**CURRENT:** La pièce est petite.
+**PROPOSED_ET (audit ieteikums):** L'enfant est encore petit.
+**Problēma:** La traduction reprend la phrase précédente au lieu de traduire l'enfant.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0110
-**Audit ID:** FR-A1-0110
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.important[1]`
+## FR-A1-0403
+**Audit ID:** FR-A1-0403
+**Card ID:** `a1-klein-study`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Dans une phrase avec können, le deuxième verbe vient souvent à la fin : Ich kann schwimmen.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** klein
+**LV MASTER reference:** Man ir maza soma.
+**CURRENT:** L'enfant est encore petit.
+**PROPOSED_ET (audit ieteikums):** J'ai un petit sac.
+**Problēma:** La traduction correspond à l'exemple précédent, pas au sac.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0111
-**Audit ID:** FR-A1-0111
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.sectionAccents.comparison[0].word.green[0]`
+## FR-A1-0405
+**Audit ID:** FR-A1-0405
+**Card ID:** `a1-an`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** können
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** an
+**LV MASTER reference:** pie sienas / uz sienas
+**CURRENT:** Sur le mur / sur le mur
+**PROPOSED_ET (audit ieteikums):** Au mur / sur le mur
+**Problēma:** Deux formulations distinctes sont séparées par une barre et la répétition semble accidentelle.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0112
-**Audit ID:** FR-A1-0112
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.sectionAccents.comparison[1].word.green[0]`
+## FR-A1-0406
+**Audit ID:** FR-A1-0406
+**Card ID:** `a1-an`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** dürfen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** an
+**LV MASTER reference:** pie loga
+**CURRENT:** A la fenêtre
+**PROPOSED_ET (audit ieteikums):** À la fenêtre
+**Problēma:** La préposition française prend un accent grave.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0113
-**Audit ID:** FR-A1-0113
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.sectionAccents.comparison[2].word.green[0]`
+## FR-A1-0407
+**Audit ID:** FR-A1-0407
+**Card ID:** `a1-an`
+**Field/path:** `study.tip.text`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
+**Severity:** CRITICAL
 **Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** müssen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**DE (read-only):** an
+**LV MASTER reference:** Atceries: pie sienas/loga/malas → an.
+**CURRENT:** Atceries : tarte sienas/loga/malas → an.
+**PROPOSED_ET (audit ieteikums):** À retenir : au mur/à la fenêtre/au bord → an.
+**Problēma:** Le texte contient du letton et « tarte », qui n'est pas une traduction française correcte.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0114
-**Audit ID:** FR-A1-0114
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.sectionAccents.tip.left.blue[0]`
+## FR-A1-0408
+**Audit ID:** FR-A1-0408
+**Card ID:** `a1-ab`
+**Field/path:** `study.translation`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** können
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** ab
+**LV MASTER reference:** no
+**CURRENT:** Depuis
+**PROPOSED_ET (audit ieteikums):** À partir de
+**Problēma:** Ab indique un point de départ; depuis exprime généralement une durée écoulée.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0115
-**Audit ID:** FR-A1-0115
-**Card ID:** `a1-können`
-**Field/path:** `entry[319].study.sectionAccents.important[0].purple[0]`
+## FR-A1-0409
+**Audit ID:** FR-A1-0409
+**Card ID:** `a1-ab`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Können
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** ab
+**LV MASTER reference:** no šodienas
+**CURRENT:** A partir d'aujourd'hui
+**PROPOSED_ET (audit ieteikums):** À partir d'aujourd'hui
+**Problēma:** La préposition À doit porter un accent grave.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0116
-**Audit ID:** FR-A1-0116
-**Card ID:** `a1-kosten`
-**Field/path:** `entry[320].study.comparison[0].example`
+## FR-A1-0410
+**Audit ID:** FR-A1-0410
+**Card ID:** `a1-ab`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Das kostet 5 Euro. = Tas maksā 5 eiro.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** ORTHOGRAPHY
+**DE (read-only):** ab
+**LV MASTER reference:** no pirmdienas
+**CURRENT:** A partir de lundi
+**PROPOSED_ET (audit ieteikums):** À partir de lundi
+**Problēma:** La préposition À doit porter un accent grave.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0117
-**Audit ID:** FR-A1-0117
-**Card ID:** `a1-kosten`
-**Field/path:** `entry[320].study.comparison[1].example`
+## FR-A1-0411
+**Audit ID:** FR-A1-0411
+**Card ID:** `a1-ab`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich bezahle die Rechnung. = Es maksāju rēķinu.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** ab
+**LV MASTER reference:** no plkst. 8
+**CURRENT:** À partir de 8
+**PROPOSED_ET (audit ieteikums):** À partir de 8 h
+**Problēma:** L'heure est incomplète en français sans indication temporelle.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0118
-**Audit ID:** FR-A1-0118
-**Card ID:** `a1-kosten`
-**Field/path:** `entry[320].study.comparison[2].example`
+## FR-A1-0412
+**Audit ID:** FR-A1-0412
+**Card ID:** `a1-ab`
+**Field/path:** `study.comparison[2].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** ab
+**LV MASTER reference:** ārā no iekšienes
+**CURRENT:** De l'intérieur
+**PROPOSED_ET (audit ieteikums):** À partir de l'intérieur
+**Problēma:** La formulation actuelle traduit plutôt aus; elle ne présente pas le point de départ de ab.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0119
-**Audit ID:** FR-A1-0119
-**Card ID:** `a1-kosten`
-**Field/path:** `entry[320].study.comparison[3].example`
+## FR-A1-0413
+**Audit ID:** FR-A1-0413
+**Card ID:** `a1-aber`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Was kostet das Buch? = Cik maksā grāmata?
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** aber
+**LV MASTER reference:** pretstats • iebilde • tomēr
+**CURRENT:** Contraire • Objection • Cependant
+**PROPOSED_ET (audit ieteikums):** Cependant
+**Problēma:** Le champ learner-facing contient plusieurs équivalents séparés par des puces.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0120
-**Audit ID:** FR-A1-0120
-**Card ID:** `a1-laden-study`
-**Field/path:** `entry[349].study.explanation[3]`
+## FR-A1-0414
+**Audit ID:** FR-A1-0414
+**Card ID:** `a1-aber`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Pluriel : die Läden.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** aber
+**LV MASTER reference:** nevis • bet gan
+**CURRENT:** Non • Mais
+**PROPOSED_ET (audit ieteikums):** Pas…, mais…
+**Problēma:** La structure française est incomplète et plusieurs éléments sont séparés par une puce.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0121
-**Audit ID:** FR-A1-0121
-**Card ID:** `a1-laden-study`
-**Field/path:** `entry[349].study.important[2]`
+## FR-A1-0415
+**Audit ID:** FR-A1-0415
+**Card ID:** `a1-aber`
+**Field/path:** `study.tip.text`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
+**Severity:** CRITICAL
 **Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Pluriel : die Läden.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**DE (read-only):** aber
+**LV MASTER reference:** Atceries: pretstats/iebilde → aber.
+**CURRENT:** Atceries : pretstats/iebilde → aber.
+**PROPOSED_ET (audit ieteikums):** À retenir : opposition/objection → aber.
+**Problēma:** Le texte du champ français est entièrement en letton.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0122
-**Audit ID:** FR-A1-0122
-**Card ID:** `a1-laden-study`
-**Field/path:** `entry[349].study.sectionAccents.important[2].blue[0]`
+## FR-A1-0416
+**Audit ID:** FR-A1-0416
+**Card ID:** `a1-also`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** die Läden
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** also
+**LV MASTER reference:** tātad • līdz ar to
+**CURRENT:** Alors • Donc
+**PROPOSED_ET (audit ieteikums):** Donc
+**Problēma:** Le champ learner-facing contient plusieurs traductions séparées par une puce.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0123
-**Audit ID:** FR-A1-0123
-**Card ID:** `a1-laufen`
-**Field/path:** `entry[357].study.comparison[0].example`
+## FR-A1-0417
+**Audit ID:** FR-A1-0417
+**Card ID:** `a1-also`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Er läuft schnell.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** also
+**LV MASTER reference:** arī
+**CURRENT:** Aussi
+**PROPOSED_ET (audit ieteikums):** Également
+**Problēma:** Aussi en français signifie généralement auch; ce sens ne correspond pas à also allemand.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0124
-**Audit ID:** FR-A1-0124
-**Card ID:** `a1-laufen`
-**Field/path:** `entry[357].study.sectionAccents.comparison[0].example.blue[0]`
+## FR-A1-0418
+**Audit ID:** FR-A1-0418
+**Card ID:** `a1-also`
+**Field/path:** `study.tip.text`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** läuft
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** also
+**LV MASTER reference:** Atceries: secinājums → also.
+**CURRENT:** Rappelez-vous : conclusion → aussi.
+**PROPOSED_ET (audit ieteikums):** À retenir : conclusion → donc.
+**Problēma:** Le mot français « aussi » correspond à auch, pas à also dans ce contexte.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0125
-**Audit ID:** FR-A1-0125
-**Card ID:** `a1-laut`
-**Field/path:** `entry[358].study.explanation[6]`
+## FR-A1-0419
+**Audit ID:** FR-A1-0419
+**Card ID:** `a1-auch-study`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Laut avec une majuscule et l'article der est un nom - cela signifie le son en tant que chose ou signal (Der Laut ist schön = le son est beau).
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** auch
+**LV MASTER reference:** Viņa arī strādā šeit.
+**CURRENT:** Je viens aussi
+**PROPOSED_ET (audit ieteikums):** Elle travaille aussi ici.
+**Problēma:** La traduction ne correspond ni au sujet ni au verbe de la source.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0126
-**Audit ID:** FR-A1-0126
-**Card ID:** `a1-laut-study`
-**Field/path:** `entry[359].study.explanation[6]`
+## FR-A1-0420
+**Audit ID:** FR-A1-0420
+**Card ID:** `a1-auch-study`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Der Laut avec une majuscule et l'article der est un nom - cela signifie le son en tant que chose ou signal (Der Laut ist schön = le son est beau).
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** auch
+**LV MASTER reference:** Es arī novēlu jums jauku dienu.
+**CURRENT:** Elle travaille également ici.
+**PROPOSED_ET (audit ieteikums):** Je vous souhaite aussi une bonne journée.
+**Problēma:** La phrase française traduit l'exemple précédent, pas le souhait de bonne journée.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0127
-**Audit ID:** FR-A1-0127
-**Card ID:** `a1-mann`
-**Field/path:** `entry[394].study.explanation[4]`
+## FR-A1-0421
+**Audit ID:** FR-A1-0421
+**Card ID:** `a1-auf`
+**Field/path:** `study.translation`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Pluriel : die Männer.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** auf
+**LV MASTER reference:** uz
+**CURRENT:** À
+**PROPOSED_ET (audit ieteikums):** Sur / à
+**Problēma:** Auf exprime notamment sur et certains déplacements vers; « à » seul est trop limité.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0128
-**Audit ID:** FR-A1-0128
-**Card ID:** `a1-mann`
-**Field/path:** `entry[394].study.important[2]`
+## FR-A1-0422
+**Audit ID:** FR-A1-0422
+**Card ID:** `a1-auf`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Pluriel : die Männer.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** auf
+**LV MASTER reference:** uz (virsmas vai augšup)
+**CURRENT:** Vers (surface ou vers le haut)
+**PROPOSED_ET (audit ieteikums):** Sur / vers le haut
+**Problēma:** La formulation mélange deux valeurs et ne rend pas clairement la valeur de surface.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0129
-**Audit ID:** FR-A1-0129
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.id`
+## FR-A1-0423
+**Audit ID:** FR-A1-0423
+**Card ID:** `a1-auf`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** a1-mögen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** auf
+**LV MASTER reference:** pie (vertikālas virsmas)
+**CURRENT:** À (surface verticale)
+**PROPOSED_ET (audit ieteikums):** Sur (surface verticale)
+**Problēma:** Pour une surface, le français emploie sur, non à.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0130
-**Audit ID:** FR-A1-0130
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.explanation[0]`
+## FR-A1-0424
+**Audit ID:** FR-A1-0424
+**Card ID:** `a1-auf`
+**Field/path:** `study.comparison[2].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Idée principale : mögen signifie le plus souvent aimer quelque chose.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** auf
+**LV MASTER reference:** iekšā
+**CURRENT:** À l'intérieur
+**PROPOSED_ET (audit ieteikums):** Sur / à
+**Problēma:** « À l'intérieur » correspond plutôt à in; auf exprime une surface ou une direction selon le contexte.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0131
-**Audit ID:** FR-A1-0131
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.explanation[2]`
+## FR-A1-0426
+**Audit ID:** FR-A1-0426
+**Card ID:** `a1-aus`
+**Field/path:** `study.comparison[2].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Möchte est une autre forme utilisée pour le désir poli : je voudrais.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** aus
+**LV MASTER reference:** sākot no punkta vai laika
+**CURRENT:** À partir d'un point ou d'une heure
+**PROPOSED_ET (audit ieteikums):** À partir d'un point ou d'un moment
+**Problēma:** Cette définition correspond à ab, non à aus.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0132
-**Audit ID:** FR-A1-0132
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.comparison[0].word`
+## FR-A1-0428
+**Audit ID:** FR-A1-0428
+**Card ID:** `a1-aufs`
+**Field/path:** `study.examples[6].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** mögen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** aufs
+**LV MASTER reference:** Kāp ātri laivā!
+**CURRENT:** Venez vite au bateau !
+**PROPOSED_ET (audit ieteikums):** Montez vite sur le bateau !
+**Problēma:** Aufs Boot indique le mouvement vers le bateau ou à bord, pas simplement « au bateau ».
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0133
-**Audit ID:** FR-A1-0133
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.comparison[1].word`
+## FR-A1-0429
+**Audit ID:** FR-A1-0429
+**Card ID:** `a1-aufs`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** möchte
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** aufs
+**LV MASTER reference:** uz konkrētu lietu (Akk.)
+**CURRENT:** À un cas précis (Akk.)
+**PROPOSED_ET (audit ieteikums):** Vers une chose précise (accusatif)
+**Problēma:** Un cas grammatical n'est pas une chose; la définition doit expliquer la destination.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0134
-**Audit ID:** FR-A1-0134
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.comparison[1].example`
+## FR-A1-0430
+**Audit ID:** FR-A1-0430
+**Card ID:** `a1-aufs`
+**Field/path:** `study.comparison[2].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Ich möchte Kaffee.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** aufs
+**LV MASTER reference:** pie vertikālas virsmas
+**CURRENT:** Sur une surface verticale
+**PROPOSED_ET (audit ieteikums):** Près d'une surface verticale
+**Problēma:** Une surface verticale relève plutôt de an; aufs exprime une destination sur une surface.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0135
-**Audit ID:** FR-A1-0135
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.important[0]`
+## FR-A1-0431
+**Audit ID:** FR-A1-0431
+**Card ID:** `a1-aufs`
+**Field/path:** `study.comparison[4].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Mögen n'est pas un nom pour poli « je voudrais ». Möchte est généralement utilisé pour cela.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** aufs
+**LV MASTER reference:** uz / pie (kam?)
+**CURRENT:** À/chez (qui ?)
+**PROPOSED_ET (audit ieteikums):** Vers / chez quelqu'un
+**Problēma:** Le champ contient plusieurs équivalents séparés par une barre.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0136
-**Audit ID:** FR-A1-0136
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.sectionAccents.comparison[0].word.green[0]`
+## FR-A1-0432
+**Audit ID:** FR-A1-0432
+**Card ID:** `a1-baden`
+**Field/path:** `study.translation`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** mögen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** baden
+**LV MASTER reference:** peldēties
+**CURRENT:** Nager
+**PROPOSED_ET (audit ieteikums):** Se baigner
+**Problēma:** Baden signifie se baigner; nager correspond principalement à schwimmen.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0137
-**Audit ID:** FR-A1-0137
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.sectionAccents.comparison[1].word.green[0]`
+## FR-A1-0433
+**Audit ID:** FR-A1-0433
+**Card ID:** `a1-baden`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** möchte
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** baden
+**LV MASTER reference:** es eju peldēties.
+**CURRENT:** Je vais nager
+**PROPOSED_ET (audit ieteikums):** Je vais me baigner.
+**Problēma:** La traduction française emploie nager au lieu de se baigner.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0138
-**Audit ID:** FR-A1-0138
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.sectionAccents.comparison[1].example.red[0]`
+## FR-A1-0434
+**Audit ID:** FR-A1-0434
+**Card ID:** `a1-baden`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** möchte
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** baden
+**LV MASTER reference:** mēs ejam peldēties ezerā.
+**CURRENT:** Nous allons nager dans le lac.
+**PROPOSED_ET (audit ieteikums):** Nous allons nous baigner dans le lac.
+**Problēma:** Le sens de baden est se baigner, non pratiquer la nage.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0139
-**Audit ID:** FR-A1-0139
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.sectionAccents.important[0].purple[0]`
+## FR-A1-0435
+**Audit ID:** FR-A1-0435
+**Card ID:** `a1-baden`
+**Field/path:** `study.examples[3].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Mögen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** baden
+**LV MASTER reference:** Es peldu katru pirmdienu.
+**CURRENT:** Je vais nager tous les lundis.
+**PROPOSED_ET (audit ieteikums):** Je me baigne tous les lundis.
+**Problēma:** Le champ est rattaché à baden; la traduction doit employer se baigner.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0140
-**Audit ID:** FR-A1-0140
-**Card ID:** `a1-mögen`
-**Field/path:** `entry[413].study.sectionAccents.important[0].purple[1]`
+## FR-A1-0436
+**Audit ID:** FR-A1-0436
+**Card ID:** `a1-baden`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Mögen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** baden
+**LV MASTER reference:** peldēties / atrasties ūdenī / mazgāties
+**CURRENT:** Nager / être dans l'eau / se laver
+**PROPOSED_ET (audit ieteikums):** Se baigner / être dans l'eau / se laver
+**Problēma:** Le premier équivalent français traduit schwimmen, pas baden.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0141
-**Audit ID:** FR-A1-0141
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.id`
+## FR-A1-0437
+**Audit ID:** FR-A1-0437
+**Card ID:** `a1-baden`
+**Field/path:** `study.tip.text`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
+**Severity:** CRITICAL
 **Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** a1-müssen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**DE (read-only):** baden
+**LV MASTER reference:** Atceries: atpūta ūdenī → baden; peldēšanas kustība → schwimmen.
+**CURRENT:** N'oubliez pas : reposez-vous dans l'eau → baden • Mouvement de nage → schwimmen.
+**PROPOSED_ET (audit ieteikums):** À retenir : se baigner dans l'eau → baden • Mouvement de nage → nager.
+**Problēma:** Le mot allemand schwimmen reste dans le texte français et « reposez-vous » ne signifie pas se baigner.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0142
-**Audit ID:** FR-A1-0142
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.explanation[0]`
+## FR-A1-0438
+**Audit ID:** FR-A1-0438
+**Card ID:** `a1-bei`
+**Field/path:** `study.translation`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Idée principale : müssen signifie faire quelque chose.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** bei
+**LV MASTER reference:** pie
+**CURRENT:** À
+**PROPOSED_ET (audit ieteikums):** Chez / auprès de
+**Problēma:** Bei se traduit selon le contexte par chez ou auprès de; « à » seul est trop vague.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0143
-**Audit ID:** FR-A1-0143
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.explanation[1]`
+## FR-A1-0439
+**Audit ID:** FR-A1-0439
+**Card ID:** `a1-bei`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** En letton, müssen est souvent traduit par « moi oui… », « toi oui… », « nous oui… ».
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** bei
+**LV MASTER reference:** pie sienas, malas, krasta, virsmas malas
+**CURRENT:** Au mur, au bord, au rivage, au bord de la surface
+**PROPOSED_ET (audit ieteikums):** Près du mur, au bord, près du rivage, au bord de la surface
+**Problēma:** Au mur signifie généralement sur le mur; bei exprime ici la proximité.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0144
-**Audit ID:** FR-A1-0144
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.comparison[0].word`
+## FR-A1-0440
+**Audit ID:** FR-A1-0440
+**Card ID:** `a1-bei`
+**Field/path:** `study.comparison[2].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** müssen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** bei
+**LV MASTER reference:** pie kāda dodas (virziens)
+**CURRENT:** Qui va (direction)
+**PROPOSED_ET (audit ieteikums):** Aller chez quelqu'un (direction)
+**Problēma:** La formulation actuelle est agrammaticale et ne rend pas le sens directionnel.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0145
-**Audit ID:** FR-A1-0145
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.comparison[1].word`
+## FR-A1-0441
+**Audit ID:** FR-A1-0441
+**Card ID:** `a1-bei`
+**Field/path:** `study.tip.text`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** können
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** bei
+**LV MASTER reference:** Atceries: pie cilvēka/vietas/uzņēmuma → bei.
+**CURRENT:** N'oubliez pas : à personne/lieu/entreprise → bei.
+**PROPOSED_ET (audit ieteikums):** À retenir : chez une personne, dans un lieu ou auprès d'une entreprise → bei.
+**Problēma:** La suite « à personne/lieu/entreprise » est agrammaticale et trop elliptique.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0146
-**Audit ID:** FR-A1-0146
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.comparison[3].word`
+## FR-A1-0442
+**Audit ID:** FR-A1-0442
+**Card ID:** `a1-bis`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** dürfen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** bis
+**LV MASTER reference:** Es gaidu tavu ierašanos.
+**CURRENT:** J'attends votre arrivée.
+**PROPOSED_ET (audit ieteikums):** J'attends ton arrivée.
+**Problēma:** Le letton emploie le possessif informel « ta », mais le français utilise le vouvoiement.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0147
-**Audit ID:** FR-A1-0147
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.important[0]`
+## FR-A1-0443
+**Audit ID:** FR-A1-0443
+**Card ID:** `a1-bis`
+**Field/path:** `study.examples[3].lv`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** Müssen est un verbe modal.
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** bis
+**LV MASTER reference:** līdz šim es neko neesmu sapratis.
+**CURRENT:** Pour l'instant je n'ai rien compris.
+**PROPOSED_ET (audit ieteikums):** Jusqu'à présent, je n'ai rien compris.
+**Problēma:** « Līdz šim » signifie « jusqu'à présent », et non « pour l'instant ».
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0148
-**Audit ID:** FR-A1-0148
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.sectionAccents.comparison[0].word.green[0]`
+## FR-A1-0444
+**Audit ID:** FR-A1-0444
+**Card ID:** `a1-bitte`
+**Field/path:** `study.examples[0].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** müssen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** bitte
+**LV MASTER reference:** Vienu tasi kafijas, lūdzu.
+**CURRENT:** S'il te plaît!
+**PROPOSED_ET (audit ieteikums):** Une tasse de café, s'il vous plaît.
+**Problēma:** La phrase française omet la demande de café présente dans la source.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0149
-**Audit ID:** FR-A1-0149
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.sectionAccents.comparison[1].word.green[0]`
+## FR-A1-0445
+**Audit ID:** FR-A1-0445
+**Card ID:** `a1-bitte`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** können
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**Category:** SEMANTICS
+**DE (read-only):** bitte
+**LV MASTER reference:** Lūdzu, nāc iekšā.
+**CURRENT:** S'il te plaît!
+**PROPOSED_ET (audit ieteikums):** Entrez, s'il vous plaît.
+**Problēma:** La traduction omet l'instruction « entrez » présente dans la source.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0150
-**Audit ID:** FR-A1-0150
-**Card ID:** `a1-müssen`
-**Field/path:** `entry[423].study.sectionAccents.comparison[3].word.green[0]`
+## FR-A1-0446
+**Audit ID:** FR-A1-0446
+**Card ID:** `a1-bitte`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
+**Severity:** CRITICAL
 **Category:** FOREIGN_REMNANT
-**DE (read-only):** —
-**CURRENT:** dürfen
-**PROPOSED_ET (audit ieteikums):** (FR tulkojums)
-**Problēma:** LV/atlikušā valoda FR laukā
-**Avots:** deterministic
+**DE (read-only):** bitte
+**LV MASTER reference:** lūdzu
+**CURRENT:** lūdzu
+**PROPOSED_ET (audit ieteikums):** S'il vous plaît
+**Problēma:** Le champ français contient un mot letton au lieu de sa traduction française.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.

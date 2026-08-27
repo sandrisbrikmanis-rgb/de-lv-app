@@ -13,802 +13,844 @@
 
 Avots: [fr-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-full-audit.md)
 
-## FR-A1-0251
-**Audit ID:** FR-A1-0251
-**Card ID:** `a1-hoeren-study`
-**Field/path:** `study.sectionAccents (?)`
+## FR-A1-0564
+**Audit ID:** FR-A1-0564
+**Card ID:** `a1-können`
+**Field/path:** `study.comparison[2].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** hören
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** können
+**LV MASTER reference:** vajadzēt / būt jā-
+**CURRENT:** Besoin / être oui-
+**PROPOSED_ET (audit ieteikums):** Devoir
+**Problēma:** « Besoin / être oui- » est incompréhensible et ne traduit pas le verbe modal correspondant.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0252
-**Audit ID:** FR-A1-0252
-**Card ID:** `a1-kein`
-**Field/path:** `study.sectionAccents (explanation)`
+## FR-A1-0565
+**Audit ID:** FR-A1-0565
+**Card ID:** `a1-kosten`
+**Field/path:** `study.translation`
+**Production file:** `data/fr/a1.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** kosten
+**LV MASTER reference:** maksāt
+**CURRENT:** Payer
+**PROPOSED_ET (audit ieteikums):** Coûter
+**Problēma:** « Kosten » signifie coûter ; « payer » correspond à « bezahlen ».
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0566
+**Audit ID:** FR-A1-0566
+**Card ID:** `a1-kosten`
+**Field/path:** `study.comparison[0].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** HIGH
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** kosten
+**LV MASTER reference:** maksāt (cenu) • cik maksā
+**CURRENT:** Payer (prix) • Combien
+**PROPOSED_ET (audit ieteikums):** Coûter (un prix) • Combien ça coûte
+**Problēma:** La traduction principale est erronée et deux sens sont séparés par « • » ; décision éditoriale requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0567
+**Audit ID:** FR-A1-0567
+**Card ID:** `a1-kosten`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** Main
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** kosten
+**LV MASTER reference:** maksāt • samaksāt (naudu)
+**CURRENT:** Payer • Payer (argent)
+**PROPOSED_ET (audit ieteikums):** Coûter • Payer (de l’argent)
+**Problēma:** Deux traductions distinctes sont séparées par « • » et le contraste coûter/payer est absent.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0253
-**Audit ID:** FR-A1-0253
-**Card ID:** `a1-können`
-**Field/path:** `study.sectionAccents (?)`
+## FR-A1-0568
+**Audit ID:** FR-A1-0568
+**Card ID:** `a1-kosten`
+**Field/path:** `study.comparison[2].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** können
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** kosten
+**LV MASTER reference:** maksāt • samaksāt
+**CURRENT:** Payer • Payer
+**PROPOSED_ET (audit ieteikums):** Coûter • Payer
+**Problēma:** Deux sens distincts sont séparés par « • », mais les deux entrées françaises sont identiques.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0254
-**Audit ID:** FR-A1-0254
-**Card ID:** `a1-können`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** dürfen
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0255
-**Audit ID:** FR-A1-0255
-**Card ID:** `a1-können`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** müssen
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0256
-**Audit ID:** FR-A1-0256
-**Card ID:** `a1-können`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** Können
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0257
-**Audit ID:** FR-A1-0257
+## FR-A1-0569
+**Audit ID:** FR-A1-0569
 **Card ID:** `a1-laden-study`
-**Field/path:** `study.sectionAccents (?)`
+**Field/path:** `study.translation`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** die Läden
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** Laden
+**LV MASTER reference:** veikals
+**CURRENT:** Boutique
+**PROPOSED_ET (audit ieteikums):** Magasin
+**Problēma:** « Laden » signifie généralement « magasin » ; « boutique » est plus spécifique et plus étroit.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0258
-**Audit ID:** FR-A1-0258
+## FR-A1-0571
+**Audit ID:** FR-A1-0571
+**Card ID:** `a1-land`
+**Field/path:** `study.comparison[0].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** Land
+**LV MASTER reference:** valsts / zeme / lauki
+**CURRENT:** Pays/terre/campagne
+**PROPOSED_ET (audit ieteikums):** Pays / terre / campagne
+**Problēma:** Plusieurs sens distincts sont réunis dans un champ séparé par des barres obliques ; décision éditoriale requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0573
+**Audit ID:** FR-A1-0573
 **Card ID:** `a1-lang`
-**Field/path:** `study.sectionAccents (examples)`
+**Field/path:** `study.examples[5].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** long
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
+**Category:** NATURALNESS
+**DE (read-only):** lang
+**LV MASTER reference:** visu dienu (garumā).
+**CURRENT:** Toute la journée (en longueur).
+**PROPOSED_ET (audit ieteikums):** Toute la journée.
+**Problēma:** « En longueur » est un calque maladroit ; « toute la journée » exprime naturellement le sens.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0259
-**Audit ID:** FR-A1-0259
+## FR-A1-0575
+**Audit ID:** FR-A1-0575
+**Card ID:** `a1-lassen`
+**Field/path:** `study.comparison[0].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** lassen
+**LV MASTER reference:** atstāt / ļaut
+**CURRENT:** Partir / laisser
+**PROPOSED_ET (audit ieteikums):** Laisser / permettre
+**Problēma:** « Partir » est erroné dans cette opposition et deux sens sont séparés par une barre oblique.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0576
+**Audit ID:** FR-A1-0576
+**Card ID:** `a1-lassen`
+**Field/path:** `study.tip.text`
+**Production file:** `data/fr/a1.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** lassen
+**LV MASTER reference:** Atceries: kaut kas paliek → lassen; kādam atļauj → lassen.
+**CURRENT:** Atceries : quelque chose reste → lassen • Quelqu'un est autorisé → lassen.
+**PROPOSED_ET (audit ieteikums):** Rappelez-vous : quelque chose reste → lassen • Quelqu'un est autorisé → lassen.
+**Problēma:** « Atceries » est un mot letton resté dans le texte français.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0578
+**Audit ID:** FR-A1-0578
 **Card ID:** `a1-laufen`
-**Field/path:** `study.sectionAccents (?)`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** läuft
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** laufen
+**LV MASTER reference:** skriet / darboties
+**CURRENT:** Exécuter / exploiter
+**PROPOSED_ET (audit ieteikums):** Courir / fonctionner
+**Problēma:** Les deux sens sont séparés par une barre oblique et les traductions actuelles sont inadaptées.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0260
-**Audit ID:** FR-A1-0260
+## FR-A1-0579
+**Audit ID:** FR-A1-0579
+**Card ID:** `a1-laufen`
+**Field/path:** `study.comparison[1].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** laufen
+**LV MASTER reference:** iet kājām
+**CURRENT:** Allez à pied
+**PROPOSED_ET (audit ieteikums):** Marcher
+**Problēma:** Une entrée lexicale doit être à l’infinitif ; « allez » est une forme impérative et change le registre.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0580
+**Audit ID:** FR-A1-0580
+**Card ID:** `a1-laufen`
+**Field/path:** `study.comparison[3].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** NATURALNESS
+**DE (read-only):** laufen
+**LV MASTER reference:** darboties
+**CURRENT:** Pour opérer
+**PROPOSED_ET (audit ieteikums):** Fonctionner
+**Problēma:** « Pour opérer » est une formulation maladroite et ne donne pas le lemme français attendu.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0581
+**Audit ID:** FR-A1-0581
+**Card ID:** `a1-legen`
+**Field/path:** `study.comparison[1].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** legen
+**LV MASTER reference:** atrasties / gulēt
+**CURRENT:** Être / dormir
+**PROPOSED_ET (audit ieteikums):** Se trouver / être allongé
+**Problēma:** « Liegen » signifie se trouver ou être allongé, pas nécessairement dormir.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0582
+**Audit ID:** FR-A1-0582
+**Card ID:** `a1-legen`
+**Field/path:** `study.comparison[3].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** HIGH
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** legen
+**LV MASTER reference:** nosēdināt / apsēsties
+**CURRENT:** Asseyez-vous / asseyez-vous
+**PROPOSED_ET (audit ieteikums):** Faire asseoir / s’asseoir
+**Problēma:** Les deux sens sont identiques dans le texte actuel et sont séparés par une barre oblique.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0583
+**Audit ID:** FR-A1-0583
+**Card ID:** `a1-legen`
+**Field/path:** `study.tip.text`
+**Production file:** `data/fr/a1.js`
+**Severity:** HIGH
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** legen
+**LV MASTER reference:** Atceries: tu noliec → legen; lieta jau atrodas → liegen.
+**CURRENT:** Atceries : tu noliec → legen • Lieta jau atrodas → liegen.
+**PROPOSED_ET (audit ieteikums):** Rappelez-vous : vous posez → legen • L’objet est déjà posé → liegen.
+**Problēma:** Le champ contient plusieurs segments lettons non traduits en français.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0584
+**Audit ID:** FR-A1-0584
+**Card ID:** `a1-leise-study`
+**Field/path:** `study.translation`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** leise
+**LV MASTER reference:** kluss
+**CURRENT:** Calme
+**PROPOSED_ET (audit ieteikums):** Silencieux
+**Problēma:** « Leise » signifie silencieux ou doucement, tandis que « calme » signifie surtout tranquille.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0585
+**Audit ID:** FR-A1-0585
+**Card ID:** `a1-leise-study`
+**Field/path:** `study.examples[1].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** SEMANTICS
+**DE (read-only):** leise
+**LV MASTER reference:** lūdzu, esi kluss.
+**CURRENT:** S'il te plaît, tais-toi
+**PROPOSED_ET (audit ieteikums):** S'il te plaît, parle moins fort.
+**Problēma:** « Tais-toi » signifie « shut up » et ne traduit pas une demande de parler doucement.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0586
+**Audit ID:** FR-A1-0586
+**Card ID:** `a1-leise-study`
+**Field/path:** `study.examples[2].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** NATURALNESS
+**DE (read-only):** leise
+**LV MASTER reference:** mūzika ir klusa.
+**CURRENT:** La musique est calme.
+**PROPOSED_ET (audit ieteikums):** La musique est douce.
+**Problēma:** Pour une musique « leise », « douce » est plus naturel que « calme ».
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0588
+**Audit ID:** FR-A1-0588
 **Card ID:** `a1-liegen`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** phone
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0261
-**Audit ID:** FR-A1-0261
-**Card ID:** `a1-mögen`
-**Field/path:** `study.sectionAccents (?)`
+**Field/path:** `study.examples[2].lv`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** mögen
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** liegen
+**LV MASTER reference:** viņš guļ gultā.
+**CURRENT:** Il dort au lit.
+**PROPOSED_ET (audit ieteikums):** Il est couché dans son lit.
+**Problēma:** « Liegen » signifie être allongé, non dormir; le français actuel suit le sens letton plutôt que l'allemand.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0262
-**Audit ID:** FR-A1-0262
-**Card ID:** `a1-mögen`
-**Field/path:** `study.sectionAccents (?)`
+## FR-A1-0589
+**Audit ID:** FR-A1-0589
+**Card ID:** `a1-liegen`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** möchte
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** liegen
+**LV MASTER reference:** atrasties / gulēt
+**CURRENT:** Être / dormir
+**PROPOSED_ET (audit ieteikums):** Être situé ou dormir
+**Problēma:** Deux traductions distinctes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0263
-**Audit ID:** FR-A1-0263
-**Card ID:** `a1-mögen`
-**Field/path:** `study.sectionAccents (?)`
+## FR-A1-0590
+**Audit ID:** FR-A1-0590
+**Card ID:** `a1-liegen`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** Mögen
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** liegen
+**LV MASTER reference:** nolikt
+**CURRENT:** Déposer
+**PROPOSED_ET (audit ieteikums):** Déposer
+**Problēma:** Le champ comporte une structure de comparaison à traductions multiples; vérification éditoriale requise.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0264
-**Audit ID:** FR-A1-0264
-**Card ID:** `a1-müssen`
-**Field/path:** `study.sectionAccents (?)`
+## FR-A1-0591
+**Audit ID:** FR-A1-0591
+**Card ID:** `a1-liegen`
+**Field/path:** `study.comparison[2].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** müssen
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** liegen
+**LV MASTER reference:** stāvēt / atrasties stāvus
+**CURRENT:** Se tenir debout/être debout
+**PROPOSED_ET (audit ieteikums):** Se tenir debout ou être debout
+**Problēma:** Deux traductions distinctes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0265
-**Audit ID:** FR-A1-0265
-**Card ID:** `a1-müssen`
-**Field/path:** `study.sectionAccents (?)`
+## FR-A1-0592
+**Audit ID:** FR-A1-0592
+**Card ID:** `a1-liegen`
+**Field/path:** `study.comparison[3].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** können
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** liegen
+**LV MASTER reference:** būt
+**CURRENT:** Être
+**PROPOSED_ET (audit ieteikums):** Être
+**Problēma:** Le champ comporte une structure de comparaison à traductions multiples; vérification éditoriale requise.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0266
-**Audit ID:** FR-A1-0266
-**Card ID:** `a1-müssen`
-**Field/path:** `study.sectionAccents (?)`
+## FR-A1-0594
+**Audit ID:** FR-A1-0594
+**Card ID:** `a1-machen`
+**Field/path:** `study.tip.text`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** dürfen
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
+**Severity:** CRITICAL
+**Category:** FOREIGN_REMNANT
+**DE (read-only):** machen
+**LV MASTER reference:** Atceries: Was machst du? = Ko tu dari?
+**CURRENT:** Atceries : Était-ce machst du ? = Ko tu dari ?
+**PROPOSED_ET (audit ieteikums):** Rappelez-vous : Was machst du ? = Que fais-tu ?
+**Problēma:** Le champ contient du letton et la question allemande est mal traduite en français.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0267
-**Audit ID:** FR-A1-0267
-**Card ID:** `a1-müssen`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** Müssen
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0268
-**Audit ID:** FR-A1-0268
-**Card ID:** `a1-natuerlich`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** natürlich
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0269
-**Audit ID:** FR-A1-0269
-**Card ID:** `a1-neu`
-**Field/path:** `study.sectionAccents (explanation)`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** Main
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0270
-**Audit ID:** FR-A1-0270
-**Card ID:** `a1-neu`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** phone
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0271
-**Audit ID:** FR-A1-0271
-**Card ID:** `a1-nur-study`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** just
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0272
-**Audit ID:** FR-A1-0272
-**Card ID:** `a1-probieren`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** prüfen
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0273
-**Audit ID:** FR-A1-0273
-**Card ID:** `a1-probieren`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** prüfe
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0274
-**Audit ID:** FR-A1-0274
-**Card ID:** `a1-sehen`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** hören
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0275
-**Audit ID:** FR-A1-0275
-**Card ID:** `a1-sehen`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** höre
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0276
-**Audit ID:** FR-A1-0276
-**Card ID:** `a1-sein`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** es esmu
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0277
-**Audit ID:** FR-A1-0277
-**Card ID:** `a1-sollen`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** müssen
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0278
-**Audit ID:** FR-A1-0278
-**Card ID:** `a1-sollen`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** können
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0279
-**Audit ID:** FR-A1-0279
-**Card ID:** `a1-über`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** über
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0280
-**Audit ID:** FR-A1-0280
-**Card ID:** `a1-über`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** Über
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0281
-**Audit ID:** FR-A1-0281
-**Card ID:** `a1-über`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** lamp
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0282
-**Audit ID:** FR-A1-0282
-**Card ID:** `a1-um`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** für
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0283
-**Audit ID:** FR-A1-0283
-**Card ID:** `a1-unter`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** über
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0284
-**Audit ID:** FR-A1-0284
-**Card ID:** `a1-unter`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** lamp
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0285
-**Audit ID:** FR-A1-0285
-**Card ID:** `a1-verstehen`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** können
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0286
-**Audit ID:** FR-A1-0286
-**Card ID:** `a1-was`
-**Field/path:** `study.sectionAccents (?)`
-**Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** was für
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** LV remnant in sectionAccents
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0287
-**Audit ID:** FR-A1-0287
-**Card ID:** `a1-zum`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** are
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0288
-**Audit ID:** FR-A1-0288
-**Card ID:** `a1-obst`
-**Field/path:** `study.sectionAccents (examples)`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** —
-**CURRENT:** fruit
-**PROPOSED_ET (audit ieteikums):** (termins no FR teksta)
-**Problēma:** Accent term not found in section text
-**Avots:** deterministic
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0289
-**Audit ID:** FR-A1-0289
-**Card ID:** `a1-bis`
-**Field/path:** `study.sectionAccents.comparison.example`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** bis
-**CURRENT:** bis dass
-**PROPOSED_ET (audit ieteikums):** (termins no attiecīgā FR teksta)
-**Problēma:** sectionAccents termins "bis dass" nav atrodams sadaļā comparison
-**Avots:** validate-study-design
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0290
-**Audit ID:** FR-A1-0290
-**Card ID:** `a1-bringen`
-**Field/path:** `study.sectionAccents.examples.de`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** bringen
-**CURRENT:** Wasser
-**PROPOSED_ET (audit ieteikums):** (termins no attiecīgā FR teksta)
-**Problēma:** sectionAccents termins "Wasser" nav atrodams sadaļā examples
-**Avots:** validate-study-design
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0291
-**Audit ID:** FR-A1-0291
-**Card ID:** `a1-bringen`
-**Field/path:** `study.sectionAccents.examples.de`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** bringen
-**CURRENT:** dich
-**PROPOSED_ET (audit ieteikums):** (termins no attiecīgā FR teksta)
-**Problēma:** sectionAccents termins "dich" nav atrodams sadaļā examples
-**Avots:** validate-study-design
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0292
-**Audit ID:** FR-A1-0292
-**Card ID:** `a1-bringen`
-**Field/path:** `study.sectionAccents.examples.de`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** bringen
-**CURRENT:** bringt
-**PROPOSED_ET (audit ieteikums):** (termins no attiecīgā FR teksta)
-**Problēma:** sectionAccents termins "bringt" nav atrodams sadaļā examples
-**Avots:** validate-study-design
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0293
-**Audit ID:** FR-A1-0293
-**Card ID:** `a1-bringen`
-**Field/path:** `study.sectionAccents.examples.de`
-**Production file:** `data/fr/a1.js`
-**Severity:** MEDIUM
-**Category:** SECTIONACCENTS_LANGUAGE
-**DE (read-only):** bringen
-**CURRENT:** Buch
-**PROPOSED_ET (audit ieteikums):** (termins no attiecīgā FR teksta)
-**Problēma:** sectionAccents termins "Buch" nav atrodams sadaļā examples
-**Avots:** validate-study-design
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** [nav aizpildīts]
-> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
----
-## FR-A1-0294
-**Audit ID:** FR-A1-0294
-**Card ID:** `a1-an`
+## FR-A1-0595
+**Audit ID:** FR-A1-0595
+**Card ID:** `a1-mal`
 **Field/path:** `study.translation`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** Mal
+**LV MASTER reference:** reize
+**CURRENT:** Temps
+**PROPOSED_ET (audit ieteikums):** Fois
+**Problēma:** Le nom allemand « Mal » se traduit ici par « fois », pas « temps ».
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0596
+**Audit ID:** FR-A1-0596
+**Card ID:** `a1-mal`
+**Field/path:** `study.tip.text`
+**Production file:** `data/fr/a1.js`
+**Severity:** HIGH
+**Category:** TRANSLATION
+**DE (read-only):** Mal
+**LV MASTER reference:** das Mal = reize
+**CURRENT:** Rappelez-vous : das Mal = temps (nom) • Mal sans article = particule familière.
+**PROPOSED_ET (audit ieteikums):** Rappelez-vous : das Mal = fois (nom) • Mal sans article = particule familière.
+**Problēma:** « Das Mal » signifie « la fois »; « temps » est une traduction erronée dans ce contexte.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0598
+**Audit ID:** FR-A1-0598
+**Card ID:** `a1-mit`
+**Field/path:** `study.comparison[0].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
 **Category:** MULTIPLE_TRANSLATIONS_DETECTED
-**DE (read-only):** an
-**CURRENT:** À • À • Présent
+**DE (read-only):** mit
+**LV MASTER reference:** ar / kopā ar
+**CURRENT:** Avec / avec
+**PROPOSED_ET (audit ieteikums):** Avec
+**Problēma:** Deux variantes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0599
+**Audit ID:** FR-A1-0599
+**Card ID:** `a1-mit`
+**Field/path:** `study.comparison[1].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** mit
+**LV MASTER reference:** bez
+**CURRENT:** Sans
+**PROPOSED_ET (audit ieteikums):** Sans
+**Problēma:** Le champ comporte une structure de comparaison à traductions multiples; vérification éditoriale requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0600
+**Audit ID:** FR-A1-0600
+**Card ID:** `a1-mit`
+**Field/path:** `study.comparison[2].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** mit
+**LV MASTER reference:** pie / pie kāda
+**CURRENT:** Chez / chez quelqu'un
+**PROPOSED_ET (audit ieteikums):** Chez quelqu'un
+**Problēma:** Deux variantes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0601
+**Audit ID:** FR-A1-0601
+**Card ID:** `a1-mit`
+**Field/path:** `study.comparison[3].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** mit
+**LV MASTER reference:** uz / pie
+**CURRENT:** À / à
 **PROPOSED_ET (audit ieteikums):** À
-**Problēma:** Main translation field shows 3 learner-facing candidates (À | À | Présent)
-**Avots:** deterministic
+**Problēma:** Deux variantes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0295
-**Audit ID:** FR-A1-0295
-**Card ID:** `a1-aus`
+## FR-A1-0602
+**Audit ID:** FR-A1-0602
+**Card ID:** `a1-mögen`
+**Field/path:** `study.examples[1].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** mögen
+**LV MASTER reference:** vai tev garšo kafija?
+**CURRENT:** Aimez-vous le café
+**PROPOSED_ET (audit ieteikums):** Aimes-tu le café ?
+**Problēma:** Le letton emploie le singulier informel « tev »; « vous » ne correspond pas, et le point d'interrogation manque.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0603
+**Audit ID:** FR-A1-0603
+**Card ID:** `a1-mögen`
+**Field/path:** `study.comparison[0].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** mögen
+**LV MASTER reference:** patikt
+**CURRENT:** Aimer
+**PROPOSED_ET (audit ieteikums):** Aimer
+**Problēma:** Le champ comporte une structure de comparaison à traductions multiples; vérification éditoriale requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0604
+**Audit ID:** FR-A1-0604
+**Card ID:** `a1-mögen`
+**Field/path:** `study.comparison[1].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** mögen
+**LV MASTER reference:** gribētu
+**CURRENT:** Voudrais
+**PROPOSED_ET (audit ieteikums):** Voudrais
+**Problēma:** Le champ comporte une structure de comparaison à traductions multiples; vérification éditoriale requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0605
+**Audit ID:** FR-A1-0605
+**Card ID:** `a1-mögen`
+**Field/path:** `study.comparison[2].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** mögen
+**LV MASTER reference:** gribēt
+**CURRENT:** Je veux
+**PROPOSED_ET (audit ieteikums):** Je veux
+**Problēma:** Le champ comporte une structure de comparaison à traductions multiples; vérification éditoriale requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0606
+**Audit ID:** FR-A1-0606
+**Card ID:** `a1-mögen`
+**Field/path:** `study.comparison[3].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** mögen
+**LV MASTER reference:** mīlēt
+**CURRENT:** Aimer
+**PROPOSED_ET (audit ieteikums):** Aimer
+**Problēma:** Le champ comporte une structure de comparaison à traductions multiples; vérification éditoriale requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0607
+**Audit ID:** FR-A1-0607
+**Card ID:** `a1-morgen`
+**Field/path:** `study.examples[5].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** —
+**CURRENT:** 
+**Problēma:** —
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0608
+**Audit ID:** FR-A1-0608
+**Card ID:** `a1-morgen-study`
+**Field/path:** `study.examples[1].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** —
+**CURRENT:** 
+**Problēma:** —
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0609
+**Audit ID:** FR-A1-0609
+**Card ID:** `a1-morgen-study`
+**Field/path:** `study.examples[2].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** —
+**CURRENT:** 
+**Problēma:** —
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0610
+**Audit ID:** FR-A1-0610
+**Card ID:** `a1-morgen-study`
+**Field/path:** `study.examples[3].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** —
+**CURRENT:** 
+**Problēma:** —
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0611
+**Audit ID:** FR-A1-0611
+**Card ID:** `a1-müssen`
 **Field/path:** `study.translation`
 **Production file:** `data/fr/a1.js`
 **Severity:** HIGH
-**Category:** MULTIPLE_TRANSLATIONS_DETECTED
-**DE (read-only):** aus
-**CURRENT:** De • Sortie
-**PROPOSED_ET (audit ieteikums):** De
-**Problēma:** Main translation field shows 2 learner-facing candidates (De | Sortie)
-**Avots:** deterministic
+**Category:** TRANSLATION
+**DE (read-only):** müssen
+**LV MASTER reference:** vajadzēt
+**CURRENT:** Avoir besoin
+**PROPOSED_ET (audit ieteikums):** Devoir
+**Problēma:** « Müssen » exprime l'obligation et se traduit par « devoir », non « avoir besoin ».
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0296
-**Audit ID:** FR-A1-0296
-**Card ID:** `a1-aufs`
-**Field/path:** `study.translation`
+## FR-A1-0612
+**Audit ID:** FR-A1-0612
+**Card ID:** `a1-müssen`
+**Field/path:** `study.examples[1].lv`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** MULTIPLE_TRANSLATIONS_DETECTED
-**DE (read-only):** aufs
-**CURRENT:** Vers • Sur • Où ?
-**PROPOSED_ET (audit ieteikums):** Vers
-**Problēma:** Main translation field shows 3 learner-facing candidates (Vers | Sur | Où ?)
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** GRAMMAR
+**DE (read-only):** müssen
+**LV MASTER reference:** tev jāgaida.
+**CURRENT:** Vous devez attendre.
+**PROPOSED_ET (audit ieteikums):** Tu dois attendre.
+**Problēma:** Le letton utilise le singulier informel « tev »; le pronom français devrait être « tu ».
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0297
-**Audit ID:** FR-A1-0297
-**Card ID:** `a1-besuchen-89`
-**Field/path:** `lv`
+## FR-A1-0613
+**Audit ID:** FR-A1-0613
+**Card ID:** `a1-müssen`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
-**Category:** MULTIPLE_TRANSLATIONS_DETECTED
-**DE (read-only):** besuchen
-**CURRENT:** Pour assister • Pour visiter
-**PROPOSED_ET (audit ieteikums):** Pour assister
-**Problēma:** Main translation field shows 2 learner-facing candidates (Pour assister | Pour visiter)
-**Avots:** deterministic
+**Severity:** MEDIUM
+**Category:** TRANSLATION
+**DE (read-only):** müssen
+**LV MASTER reference:** vajadzēt / būt jādara
+**CURRENT:** Besoin / devoir faire
+**PROPOSED_ET (audit ieteikums):** Devoir ou être obligé de faire
+**Problēma:** « Besoin » ne traduit pas l'obligation exprimée par « müssen ».
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0298
-**Audit ID:** FR-A1-0298
-**Card ID:** `a1-bringen`
-**Field/path:** `study.translation`
+## FR-A1-0614
+**Audit ID:** FR-A1-0614
+**Card ID:** `a1-müssen`
+**Field/path:** `study.comparison[1].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
+**Severity:** LOW
 **Category:** MULTIPLE_TRANSLATIONS_DETECTED
-**DE (read-only):** bringen
-**CURRENT:** À emporter • À emporter
-**PROPOSED_ET (audit ieteikums):** À emporter
-**Problēma:** Main translation field shows 2 learner-facing candidates (À emporter | À emporter)
-**Avots:** deterministic
+**DE (read-only):** müssen
+**LV MASTER reference:** varēt / prast
+**CURRENT:** Pouvoir/savoir
+**PROPOSED_ET (audit ieteikums):** Pouvoir ou savoir
+**Problēma:** Deux traductions distinctes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0299
-**Audit ID:** FR-A1-0299
-**Card ID:** `a1-ein`
-**Field/path:** `study.translation`
+## FR-A1-0615
+**Audit ID:** FR-A1-0615
+**Card ID:** `a1-müssen`
+**Field/path:** `study.comparison[3].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
+**Severity:** LOW
 **Category:** MULTIPLE_TRANSLATIONS_DETECTED
-**DE (read-only):** ein
-**CURRENT:** Article indéfini • Un • Quelqu'un
-**PROPOSED_ET (audit ieteikums):** Article indéfini
-**Problēma:** Main translation field shows 3 learner-facing candidates (Article indéfini | Un | Quelqu'un)
-**Avots:** deterministic
+**DE (read-only):** müssen
+**LV MASTER reference:** drīkstēt
+**CURRENT:** Être autorisé
+**PROPOSED_ET (audit ieteikums):** Être autorisé
+**Problēma:** Le champ comporte une structure de comparaison à traductions multiples; vérification éditoriale requise.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
 ---
-## FR-A1-0300
-**Audit ID:** FR-A1-0300
-**Card ID:** `a1-eis`
-**Field/path:** `study.translation`
+## FR-A1-0617
+**Audit ID:** FR-A1-0617
+**Card ID:** `a1-nach`
+**Field/path:** `study.comparison[0].meaning`
 **Production file:** `data/fr/a1.js`
-**Severity:** HIGH
+**Severity:** LOW
 **Category:** MULTIPLE_TRANSLATIONS_DETECTED
-**DE (read-only):** Eis
-**CURRENT:** Glace • Glace
-**PROPOSED_ET (audit ieteikums):** Glace
-**Problēma:** Main translation field shows 2 learner-facing candidates (Glace | Glace)
-**Avots:** deterministic
+**DE (read-only):** nach
+**LV MASTER reference:** uz / pēc
+**CURRENT:** À / après
+**PROPOSED_ET (audit ieteikums):** À ou après
+**Problēma:** Deux traductions distinctes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0618
+**Audit ID:** FR-A1-0618
+**Card ID:** `a1-nach`
+**Field/path:** `study.comparison[1].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** nach
+**LV MASTER reference:** uz / pie
+**CURRENT:** À / à
+**PROPOSED_ET (audit ieteikums):** À
+**Problēma:** Deux variantes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0619
+**Audit ID:** FR-A1-0619
+**Card ID:** `a1-nach`
+**Field/path:** `study.comparison[2].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** nach
+**LV MASTER reference:** iekšā / uz vietu ar artikulu
+**CURRENT:** Dans / vers le lieu avec l'article
+**PROPOSED_ET (audit ieteikums):** Dans ou vers le lieu avec l'article
+**Problēma:** Deux traductions distinctes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0620
+**Audit ID:** FR-A1-0620
+**Card ID:** `a1-nach`
+**Field/path:** `study.comparison[3].meaning`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** MULTIPLE_TRANSLATIONS_DETECTED
+**DE (read-only):** nach
+**LV MASTER reference:** pirms / priekšā
+**CURRENT:** Avant / devant
+**PROPOSED_ET (audit ieteikums):** Avant ou devant
+**Problēma:** Deux traductions distinctes sont séparées par « / »; une décision éditoriale est requise.
+**Avots:** gpt-5.6-luna
+**OWNER STATUS:** PENDING
+**OWNER_DECISION:** [nav aizpildīts]
+> PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.
+---
+## FR-A1-0622
+**Audit ID:** FR-A1-0622
+**Card ID:** `a1-natuerlich`
+**Field/path:** `study.examples[2].lv`
+**Production file:** `data/fr/a1.js`
+**Severity:** LOW
+**Category:** SEMANTICS
+**DE (read-only):** natürlich
+**LV MASTER reference:** protams, es tev palīdzēšu.
+**CURRENT:** Bien sûr, je vais vous aider.
+**PROPOSED_ET (audit ieteikums):** Bien sûr, je vais t'aider.
+**Problēma:** Le letton emploie le tutoiement tev, mais la traduction française emploie vous.
+**Avots:** gpt-5.6-luna
 **OWNER STATUS:** PENDING
 **OWNER_DECISION:** [nav aizpildīts]
 > PROPOSED_ET nav OWNER apstiprināts. DE lauki nemainīt.

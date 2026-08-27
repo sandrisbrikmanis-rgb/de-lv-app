@@ -13,11 +13,11 @@ Avots: [fr-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 | Kartītes audited | **702/702** (OBJECT_COVERAGE 100%) |
 | DISCOVERY_COMPLETENESS | **NOT_GUARANTEED** |
 | Study | **134/134** |
-| Kopā findings | **353** |
-| CRITICAL | **1** |
-| HIGH | **330** |
-| MEDIUM | **22** |
-| LOW | **0** |
+| Kopā findings | **412** |
+| CRITICAL | **32** |
+| HIGH | **156** |
+| MEDIUM | **165** |
+| LOW | **59** |
 
 ## Faili (GitHub)
 
@@ -39,7 +39,8 @@ Avots: [fr-a1-full-audit.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/b
 | 201–250 | [fr-a1-owner-view-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group05.md) | [fr-a1-owner-decisions-group05.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group05.md) |
 | 251–300 | [fr-a1-owner-view-group06.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group06.md) | [fr-a1-owner-decisions-group06.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group06.md) |
 | 301–350 | [fr-a1-owner-view-group07.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group07.md) | [fr-a1-owner-decisions-group07.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group07.md) |
-| 351–353 | [fr-a1-owner-view-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group08.md) | [fr-a1-owner-decisions-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group08.md) |
+| 351–400 | [fr-a1-owner-view-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group08.md) | [fr-a1-owner-decisions-group08.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group08.md) |
+| 401–412 | [fr-a1-owner-view-group09.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group09.md) | [fr-a1-owner-decisions-group09.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group09.md) |
 
 ## OWNER workflow
 

@@ -13,53 +13,53 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| FR-A1-0051 | a1-euch | entry[170].study.comparison[1].example | Ich helfe euch. = Es jums palīdzu. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0052 | a1-euch | entry[170].study.comparison[2].example | Das ist euer Haus. = Tā ir jūsu māja. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0053 | a1-euch | entry[170].study.info[0] | ihr = you (subject form of the sentence) | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0054 | a1-euch | entry[170].study.info[1] | euch = you (where? form) / you (whom? form) | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0055 | a1-euch | entry[170].study.info[2] | euer = your (possessive form) | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0056 | a1-euch | entry[170].study.tip.example | I help you. = Ich helfe euch. i see you = Ich sehe euch. I'm telling you. = Ich erzähle euch. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0057 | a1-fahren | entry[172].study.comparison[2].example | Er läuft schnell. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0058 | a1-fahren | entry[172].study.important.text | Fahren ≠ tikai « braukt » | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0059 | a1-fahren | entry[172].study.important.example | In German, the same verb often means: to drive • to drive • to take away depending on the context. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0060 | a1-fahren | entry[172].study.accents.purple[0] | braukt | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0061 | a1-fahren | entry[172].study.accents.purple[2] | vest | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0062 | a1-fahren | entry[172].study.accents.purple[4] | aizvest | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0063 | a1-fahren | entry[172].study.sectionAccents.comparison[2].example.yellow[0] | läuft | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0064 | a1-fahren | entry[172].study.sectionAccents.important[0].text.purple[0] | braukt | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0065 | a1-fahren | entry[172].study.sectionAccents.important[0].example.purple[0] | braukt | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0066 | a1-finden | entry[187].study.comparison[0].example | Ich finde das gut. = Man tas šķiet labi. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0067 | a1-finden | entry[187].study.comparison[1].example | Ich suche den Schlüssel. = Je cherche la clé. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0068 | a1-fuer | entry[216].study.explanation[0] | Idée principale : für est une préposition qui régit toujours l'accusatif - généralement pour ou pour en letton. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0069 | a1-fuer | entry[216].study.explanation[1] | Lorsqu'on parle de destinataire ou d'intention, für = pour (für dich = pour vous). | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0070 | a1-fuer | entry[216].study.explanation[2] | Lorsqu'on parle d'échange, de frais ou de motif, für = for (danke für das Geschenk = merci pour le cadeau). | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0071 | a1-fuer | entry[216].study.explanation[3] | Für nécessite toujours l'accusatif, quelle que soit sa signification. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0072 | a1-fuer | entry[216].study.tip[0] | Für toujours + accusatif - quel que soit le sens. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0073 | a1-fuer | entry[216].study.important[0] | Für + Akkusativ toujours, par exemple für mich, für dich, für das Kind. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0074 | a1-fuer | entry[216].study.important[1] | Danke für / bezahlen für = 'pour', pas 'avant'. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0075 | a1-fuer | entry[216].study.sectionAccents.tip[0].purple[0] | Für | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0076 | a1-fuer | entry[216].study.sectionAccents.important[0].purple[0] | für | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0077 | a1-haben | entry[261].study.comparison[0].example | Ich habe Zeit. = Man ir laiks. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0078 | a1-haben | entry[261].study.comparison[1].example | Ich bin hier. = Es esmu šeit. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0079 | a1-haben | entry[261].study.comparison[2].example | Ich bekomme ein Geschenk. = Es saņemu dāvanu. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0080 | a1-haben | entry[261].study.tip.text | Atceries : Ich habe → man ir. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0081 | a1-haben | entry[261].study.sectionAccents.tip.left.purple[0] | man ir | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0082 | a1-halten | entry[265].study.explanation[3] | Dans l'expression d'opinion, je halte das für..., cela signifie considérer comme. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0083 | a1-halten | entry[265].study.comparison[0].example | Der Bus hält. = Autobuss pietur. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0084 | a1-halten | entry[265].study.comparison[1].example | Ich nehme die Tasche. = Es ņemu somu. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0085 | a1-halten | entry[265].study.comparison[2].example | Bitte halten Sie an. = Lūdzu, apstājieties. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0086 | a1-halten | entry[265].study.comparison[3].example | Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0087 | a1-halten | entry[265].study.important[1] | Ich halte das für... est une expression d'opinion : "Je le considère comme...". | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0088 | a1-halten | entry[265].study.sectionAccents.comparison[0].example.blue[0] | hält | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0089 | a1-halten | entry[265].study.sectionAccents.tip.left.blue[1] | hält | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0090 | a1-heißen | entry[276].study.comparison[1].example | Er nennt mich Tom. = Viņš mani sauc par Tomu. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0091 | a1-heißen | entry[276].study.comparison[2].example | Was bedeutet das? = Ko tas nozīmē? | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0092 | a1-heißen | entry[276].study.comparison[4].meaning | zvanīt | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0093 | a1-hoeren-study | entry[287].study.explanation[1] | Hören signifie avant tout : percevoir le son. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0094 | a1-hoeren-study | entry[287].study.explanation[3] | Hören est utilisé pour les sons, la musique et ce qui est entendu. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0095 | a1-hoeren-study | entry[287].study.tip[1] | Utilisez hören lorsque le contexte correspond à ce sens. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0096 | a1-hoeren-study | entry[287].study.important[0] | Hören = entendre/écouter un son. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0097 | a1-hoeren-study | entry[287].study.sectionAccents.important[0].blue[0] | hören | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0098 | a1-im | entry[293].study.important[2] | Avec des mois et des saisons : im März, im Herbst. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0099 | a1-können | entry[319].study.id | a1-können | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
-| FR-A1-0100 | a1-können | entry[319].study.explanation[0] | Idée principale : können signifie pouvoir ou savoir faire quelque chose. | (FR tulkojums) | HIGH | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0344 | a1-Honig-324 | frText | Chéri | Miel | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0345 | a1-Koch-340 | frText | Cuisiner | Cuisinier | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0346 | a1-Köchin-341 | frText | Cuisiner | Cuisinière | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0347 | a1-Lehrerin-365 | frText | Un professeur | Une professeure | HIGH | GRAMMAR | PENDING | | |
+| FR-A1-0348 | a1-lesen-369 | frText | A lire | Lire | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0349 | a1-links-380 | frText | Gauche • Gauche | Gauche | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0350 | a1-Mai-389 | frText | Peut | Mai | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0351 | a1-malen-391 | frText | Peindre • Peindre | Peindre | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0352 | a1-Mandarine-393 | frText | Mandarin | Mandarine | HIGH | GRAMMAR | PENDING | | |
+| FR-A1-0353 | a1-mein-401 | frText | Le mien | Mon | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0354 | a1-mitnehmen-409 | frText | Emportez avec vous | Emporter | HIGH | GRAMMAR | PENDING | | |
+| FR-A1-0355 | a1-Mittag-410 | frText | Déjeuner | Midi | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0356 | a1-Mütze-425 | frText | Chapeau | Bonnet | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0357 | a1-Natur-432 | frText | N | Nature | HIGH | STRUCTURE | PENDING | | |
+| FR-A1-0358 | a1-neben-434 | frText | Près de | À côté de | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0359 | a1-nennen-437 | frText | Pour nommer | Nommer | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0360 | a1-nett-438 | frText | Bon | Gentil | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0361 | a1-nicht-447 | frText | Non | Ne... pas | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0362 | a1-normal-452 | frText | Normale | Normal | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0363 | a1-Nummer-455 | frText | Nombre | Numéro | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0364 | a1-oben-458 | frText | Au-dessus de | En haut | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0365 | a1-öffnen-460 | frText | Pour ouvrir | Ouvrir | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0366 | a1-Pflanze-475 | frText | Usine | Plante | CRITICAL | SEMANTICS | PENDING | | |
+| FR-A1-0367 | a1-Post-480 | frText | E-mail | Poste | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0368 | a1-Punkt-486 | frText | Indiquer | Point | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0369 | a1-putzen-487 | frText | Pour nettoyer | Nettoyer | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0370 | a1-rechts-491 | frText | À droite • La droite | À droite | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0371 | a1-regnen-495 | frText | Il pleut | Pleuvoir | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0372 | a1-rufen-500 | frText | Pour appeler | Appeler | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0373 | a1-sauber-508 | frText | Faire le ménage | Propre | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0374 | a1-schicken-511 | frText | Pour envoyer | Envoyer | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0375 | a1-schmecken-515 | frText | A déguster | Avoir bon goût | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0376 | a1-Schnee-517 | frText | Il va neiger | Neige | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0377 | a1-schneien-518 | frText | Il neige | Neiger | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0378 | a1-Schüler-527 | frText | Un étudiant | Élève | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0379 | a1-spät-569 | frText | En retard | Tard | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0380 | a1-spielen-572 | frText | Pour jouer | Jouer | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0381 | a1-suchen-584 | frText | Pour rechercher | Chercher | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0382 | a1-Teller-595 | frText | Plaque | Assiette | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0383 | a1-Tisch-599 | frText | Tableau | Table | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0384 | a1-Treppe-603 | frText | Escaliers | Escalier | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0385 | a1-versuchen-622 | frText | Pour essayer | Essayer | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0386 | a1-vielleicht-624 | frText | Peut être | Peut-être | MEDIUM | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0387 | a1-von-635 | frText | Depuis | De | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0388 | a1-Vorname-637 | frText | Mot | Prénom | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0389 | a1-waschen-645 | frText | Se laver | Laver | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0390 | a1-welcher-652 | frText | OMS | Lequel | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0391 | a1-Zimmer-665 | frText | Chambre | La chambre | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0392 | a1-Zitrone-666 | frText | Citron | Le citron | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0393 | a1-Zucker-669 | frText | Sucre | Le sucre | MEDIUM | GRAMMAR | PENDING | | |

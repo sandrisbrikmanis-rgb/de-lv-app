@@ -13,53 +13,53 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| FR-A1-0301 | a1-erst | study.translation | Premier • Seulement | Premier | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0302 | a1-es | study.translation | Il • Il • Forme impersonnelle | Il | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0303 | a1-etwas | study.translation | Quelque chose • Un peu | Quelque chose | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0304 | a1-euch | study.translation | Vous • Vous | Vous | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0305 | a1-fahren | study.translation | Conduire • Diriger • Emporter | Conduire | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0306 | a1-finden | study.translation | Trouver • Considérer | Trouver | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0307 | a1-frau | study.translation | Femme • Épouse | Femme | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0308 | a1-fuer | study.translation | Pour • Pour | Pour | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0309 | a1-Geschichte-233 | lv | Histoire • Histoire | Histoire | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0310 | a1-gleich | study.translation | Immédiatement • Égal | Immédiatement | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0311 | a1-halten | study.translation | Maintenir • Arrêter | Maintenir | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0312 | a1-heißen | study.translation | Être appelé • Moyen | Être appelé | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0313 | a1-hoeren-study | study.translation | Entendre • Écouter | Entendre | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0314 | a1-hübsch-288 | lv | Propre • Agréable | Propre | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0315 | a1-ihr | study.translation | Vous • Elle | Vous | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0316 | a1-im | study.translation | Dans • Où ? | Dans | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0317 | a1-ins | study.translation | Dans • Dans • Où ? | Dans | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0318 | a1-jetzt-302 | lv | Maintenant • Actuellement | Maintenant | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0319 | a1-kein | study.translation | Personne • Rien | Personne | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0320 | a1-können | study.translation | Être capable de • Savoir | Être capable de | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0321 | a1-land | study.translation | Pays • Terrain | Pays | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0322 | a1-lang | study.translation | Longue • Longue | Longue | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0323 | a1-lassen | study.translation | Partir • Laisser | Partir | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0324 | a1-laufen | study.translation | Exécuter • Utiliser | Exécuter | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0325 | a1-liegen | study.translation | Être • Dormir | Être | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0326 | a1-links-380 | lv | Gauche • Gauche | Gauche | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0327 | a1-machen | study.translation | Faire • Faire | Faire | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0328 | a1-malen-391 | lv | Peindre • Peindre | Peindre | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0329 | a1-mann | study.translation | Homme • Mari | Homme | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0330 | a1-nach | study.translation | À • Après | À | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0331 | a1-natuerlich | study.translation | Bien sûr • Naturel | Bien sûr | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0332 | a1-nehmen | study.translation | Prendre • Prendre | Prendre | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0333 | a1-nur-study | study.translation | Seulement • Seulement | Seulement | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0334 | a1-oder | study.translation | Ou • Ou | Ou | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0335 | a1-passen | study.translation | Ajustement • Ajustement | Ajustement | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0336 | a1-probieren | study.translation | A essayer • A déguster | A essayer | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0337 | a1-rechts-491 | lv | À droite • La droite | À droite | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0338 | a1-seite | study.translation | Page • Côté | Page | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0339 | a1-sich | study.translation | Vous-même • Pour vous-même | Vous-même | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0340 | a1-sicher | study.translation | Sûr • Certainement | Sûr | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0341 | a1-sie-study | study.translation | Ils/elle | Ils | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0342 | a1-über | study.translation | Fini • Pour | Fini | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0343 | a1-um | study.translation | Vers • Heures | Vers | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0344 | a1-vor | study.translation | Avant • Devant | Avant | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0345 | a1-was | study.translation | Qui • Quoi | Qui | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0346 | a1-wenn | study.translation | Si • Quand | Si | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0347 | a1-wer | study.translation | Qui • Qui | Qui | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0348 | a1-wie | study.translation | Comment • Combien | Comment | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0349 | a1-zu | study.translation | À • À | À | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0350 | a1-zum | study.translation | À • À | À | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0623 | a1-nehmen | study.examples[0].lv | Je pars en bus | Je prends le bus. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0624 | a1-nehmen | study.comparison[0].meaning | Prendre / prendre | Prendre / prendre | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0625 | a1-nehmen | study.comparison[1].meaning | Apporter/prendre/livrer | Apporter / emporter / livrer | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0626 | a1-nehmen | study.comparison[2].meaning | Poursuivre/aller chercher | Aller chercher / apporter | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0627 | a1-nehmen | study.tip.text | Rappelez-vous : prenez pour vous → nehmen • Amener quelqu'un → amener. | Souviens-toi : prends pour toi → nehmen • apporte à quelqu'un → bringen. | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0628 | a1-neu | study.examples[6].lv | Quoi de neuf | Quoi de neuf ? | LOW | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0629 | a1-nur-study | study.examples[2].lv | Vous seul pouvez m'aider. | Toi seul peux m'aider. | LOW | SEMANTICS | PENDING | | |
+| FR-A1-0630 | a1-ob | study.translation | Ou | Si | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0631 | a1-ob | study.examples[3].lv | Vous venez aujourd'hui ou demain ? | Tu viens aujourd'hui ou demain ? | LOW | SEMANTICS | PENDING | | |
+| FR-A1-0632 | a1-ob | study.comparison[0].meaning | Ou dans une question indirecte | Si dans une question indirecte | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0633 | a1-ob | study.comparison[1].meaning | Ou choisissez entre les options | Ou dans un choix entre plusieurs options | MEDIUM | NATURALNESS | PENDING | | |
+| FR-A1-0634 | a1-oder | study.examples[2].lv | Voulez-vous une pizza ou une salade | Tu veux une pizza ou une salade ? | LOW | SEMANTICS | PENDING | | |
+| FR-A1-0635 | a1-oder | study.examples[3].lv | Vous viendrez, n'est-ce pas ? | Tu viendras, n'est-ce pas ? | LOW | SEMANTICS | PENDING | | |
+| FR-A1-0636 | a1-oder | study.comparison[1].meaning | Ou dans une question indirecte | Si dans une question indirecte | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0638 | a1-passen | study.comparison[0].meaning | Ajustement / ajustement | Aller / aller à quelqu'un | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0639 | a1-passen | study.comparison[1].meaning | Se tenir debout / se tenir debout | Aller à quelqu'un / être debout | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0640 | a1-passen | study.comparison[3].meaning | Pour opérer | Fonctionner | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0641 | a1-passen | study.tip.text | Atceries: Das passé. = Tas der. | Souviens-toi : Das passt. = Ça va. | HIGH | ORTHOGRAPHY | PENDING | | |
+| FR-A1-0643 | a1-probieren | study.comparison[1].meaning | Pour essayer | Essayer | LOW | GRAMMAR | PENDING | | |
+| FR-A1-0644 | a1-probieren | study.comparison[2].meaning | Pour vérifier | Vérifier | LOW | GRAMMAR | PENDING | | |
+| FR-A1-0645 | a1-probieren | study.comparison[3].meaning | A essayer | Essayer | LOW | GRAMMAR | PENDING | | |
+| FR-A1-0646 | a1-reis | study.examples[2].lv | Cuisinez-vous du riz ? | Tu cuisines du riz ? | LOW | SEMANTICS | PENDING | | |
+| FR-A1-0647 | a1-reis | study.tip.text | N'oubliez pas : der Reis est au singulier en allemand, mais généralement riz en letton. | Souvenez-vous : der Reis est au singulier en allemand, mais on dit généralement rīsi en letton. | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0648 | a1-sagen-study | study.examples[0].lv | Qu'est-ce que vous avez dit | Qu'est-ce que tu as dit ? | LOW | SEMANTICS | PENDING | | |
+| FR-A1-0649 | a1-sagen-study | study.comparison[0].meaning | Raconter (un texte spécifique) | Dire (un texte précis) | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0650 | a1-sagen-study | study.comparison[1].meaning | Parler (langage, parler) | Parler (une langue, converser) | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0651 | a1-schauen-study | study.translation | Montre | Regarder | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0652 | a1-schwimmen | study.comparison[1].meaning | Nager / être dans l'eau | Nager / être dans l'eau | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0653 | a1-schwimmen | study.comparison[2].meaning | Allez nager | Aller nager | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0654 | a1-sehen | study.comparison[1].meaning | Montre | Regarder | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0655 | a1-sehen | study.comparison[2].meaning | Voir / regarder | Voir / regarder | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0656 | a1-sehen | study.comparison[3].meaning | Pour entendre | Entendre | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0657 | a1-sein | study.tip.text | Atceries : ich bin = es esmu • Du bist = tu esi. | Rappelez-vous : ich bin = je suis • du bist = tu es. | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0660 | a1-sich | study.examples[0].lv | Il prend un bain. | Il se lave. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0661 | a1-sich | study.comparison[0].meaning | Moi/moi-même | Soi-même / à soi-même | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0662 | a1-sich | study.comparison[1].meaning | Moi / moi-même à ich | Me / moi-même avec ich | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0663 | a1-sich | study.comparison[2].meaning | Toi/moi-même à du | Te / toi-même avec du | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0665 | a1-sicher | study.examples[1].lv | Vous venez demain - définitivement ! | Vous venez demain ? — Certainement ! | MEDIUM | NATURALNESS | PENDING | | |
+| FR-A1-0667 | a1-sie-study | study.examples[5].lv | Tu cuisines s'il te plaît | Ils cuisinent, s'il vous plaît. | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0668 | a1-sie-study-2 | study.translation | Toi | Vous | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0669 | a1-sie-study-2 | study.examples[5].lv | Tu cuisines s'il te plaît | Vous cuisinez, s'il vous plaît. | HIGH | SEMANTICS | PENDING | | |
+| FR-A1-0670 | a1-sitzen | study.translation | S'asseoir | Être assis | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0671 | a1-sitzen | study.comparison[0].meaning | S'asseoir | Être assis | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0672 | a1-sitzen | study.comparison[2].meaning | Dormir / s'allonger | Dormir / être couché | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0673 | a1-sitzen | study.comparison[3].meaning | S'asseoir / s'asseoir | S'asseoir / faire asseoir | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0674 | a1-sollen | study.translation | Devrait | Devoir | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0675 | a1-sollen | study.comparison[0].meaning | Devrait/devrait faire comme indiqué | Devoir selon une consigne | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0676 | a1-stehen | study.comparison[0].meaning | Se tenir debout/être debout | Se tenir debout / être debout | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0677 | a1-stehen | study.comparison[1].meaning | S'asseoir | Être assis | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0678 | a1-stehen | study.comparison[2].meaning | Dormir / s'allonger | Dormir / être couché | MEDIUM | TRANSLATION | PENDING | | |

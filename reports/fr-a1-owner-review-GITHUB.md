@@ -4,7 +4,7 @@
 **Branch:** `cursor/fr-de-a1-full-audit-f5bc`
 **MAIN_BASE_SHA:** `a2a769e8600291411a7a66eab0483dd4659c9151`
 **Audit PR:** [#603](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/603)
-**Findings:** **353** · **STAGE RESULT:** NEEDS OWNER REVIEW
+**Findings:** **412** · **STAGE RESULT:** NEEDS OWNER REVIEW
 
 ## Sākt šeit
 
@@ -12,8 +12,8 @@
 |-------|----------|
 | [OWNER README](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-review-README.md) | Workflow un kopsavilkums |
 | [Šis indekss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-review-GITHUB.md) | Visas GitHub saites |
-| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-full-audit.md) | 702/702 Luna · PR603 raw 19 · OWNER backlog **353** |
-| [History validation](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-pr603-owner-history-validation.md) | 3 confirmed excluded · 353 NEW backlog |
+| [Pilns audits](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-full-audit.md) | 702/702 Luna · PR603 raw 19 · OWNER backlog **412** |
+| [History validation](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-pr603-owner-history-validation.md) | 3 confirmed excluded · 412 NEW backlog |
 
 ## VIEW ↔ DECISIONS (viss komplekts)
 
@@ -35,24 +35,25 @@
 | 201–250 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group05.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group05.md) | **PENDING** |
 | 251–300 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group06.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group06.md) | **PENDING** |
 | 301–350 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group07.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group07.md) | **PENDING** |
-| 351–353 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group08.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group08.md) | **PENDING** |
+| 351–400 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group08.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group08.md) | **PENDING** |
+| 401–412 | [VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-view-group09.md) | [DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/fr-de-a1-full-audit-f5bc/reports/fr-a1-owner-decisions-group09.md) | **PENDING** |
 
 ## Severity
 
 | Severity | Skaits |
 |----------|--------|
-| CRITICAL | **1** |
-| HIGH | **330** |
-| MEDIUM | **22** |
-| LOW | **0** |
+| CRITICAL | **32** |
+| HIGH | **156** |
+| MEDIUM | **165** |
+| LOW | **59** |
 
 ## §7.10.4 Coverage gate
 
 | Metrika | Vērtība |
 |---------|---------|
-| Validated findings | **353** |
-| OWNER VIEW findings | **353** |
-| OWNER DECISIONS findings | **353** |
+| Validated findings | **412** |
+| OWNER VIEW findings | **412** |
+| OWNER DECISIONS findings | **412** |
 | Missing in OWNER VIEW | **0** |
 | Missing in OWNER DECISIONS | **0** |
 | Duplicate Audit IDs | **0** |
@@ -63,12 +64,12 @@
 
 | Metrika | Vērtība |
 |---------|---------|
-| RAW_CANDIDATES | **353** |
-| SEMANTIC_DEDUPED | **266** |
-| PREVIOUS_RAW_MATCHES | **353** |
+| RAW_CANDIDATES | **808** |
+| SEMANTIC_DEDUPED | **701** |
+| PREVIOUS_RAW_MATCHES | **396** |
 | PREVIOUSLY_MISSED | **0** |
-| GENUINELY_NEW | **0** |
-| OWNER_BACKLOG_FINAL | **0** |
+| GENUINELY_NEW | **412** |
+| OWNER_BACKLOG_FINAL | **412** |
 | PRE_BACKLOG_HISTORY_GATE | **PASS** |
 | AUDIT_DISCOVERY_NON_REPRODUCIBILITY | **YES** |
 

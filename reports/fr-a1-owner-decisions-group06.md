@@ -13,53 +13,53 @@ Atļautie statusi: **LABOT** | **NELABOT** | **FALSE_POSITIVE** | **NEEDS_SOURCE
 
 | Audit ID | Card ID | Field | CURRENT | PROPOSED_ET | Severity | Category | OWNER STATUS | OWNER_DECISION | Piezīme |
 |----------|---------|-------|---------|-------------|----------|----------|--------------|----------------|---------|
-| FR-A1-0251 | a1-hoeren-study | study.sectionAccents (?) | hören | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0252 | a1-kein | study.sectionAccents (explanation) | Main | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0253 | a1-können | study.sectionAccents (?) | können | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0254 | a1-können | study.sectionAccents (?) | dürfen | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0255 | a1-können | study.sectionAccents (?) | müssen | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0256 | a1-können | study.sectionAccents (?) | Können | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0257 | a1-laden-study | study.sectionAccents (?) | die Läden | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0258 | a1-lang | study.sectionAccents (examples) | long | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0259 | a1-laufen | study.sectionAccents (?) | läuft | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0260 | a1-liegen | study.sectionAccents (examples) | phone | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0261 | a1-mögen | study.sectionAccents (?) | mögen | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0262 | a1-mögen | study.sectionAccents (?) | möchte | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0263 | a1-mögen | study.sectionAccents (?) | Mögen | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0264 | a1-müssen | study.sectionAccents (?) | müssen | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0265 | a1-müssen | study.sectionAccents (?) | können | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0266 | a1-müssen | study.sectionAccents (?) | dürfen | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0267 | a1-müssen | study.sectionAccents (?) | Müssen | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0268 | a1-natuerlich | study.sectionAccents (?) | natürlich | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0269 | a1-neu | study.sectionAccents (explanation) | Main | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0270 | a1-neu | study.sectionAccents (examples) | phone | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0271 | a1-nur-study | study.sectionAccents (examples) | just | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0272 | a1-probieren | study.sectionAccents (?) | prüfen | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0273 | a1-probieren | study.sectionAccents (?) | prüfe | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0274 | a1-sehen | study.sectionAccents (?) | hören | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0275 | a1-sehen | study.sectionAccents (?) | höre | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0276 | a1-sein | study.sectionAccents (?) | es esmu | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0277 | a1-sollen | study.sectionAccents (?) | müssen | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0278 | a1-sollen | study.sectionAccents (?) | können | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0279 | a1-über | study.sectionAccents (?) | über | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0280 | a1-über | study.sectionAccents (?) | Über | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0281 | a1-über | study.sectionAccents (examples) | lamp | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0282 | a1-um | study.sectionAccents (?) | für | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0283 | a1-unter | study.sectionAccents (?) | über | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0284 | a1-unter | study.sectionAccents (examples) | lamp | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0285 | a1-verstehen | study.sectionAccents (?) | können | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0286 | a1-was | study.sectionAccents (?) | was für | (termins no FR teksta) | HIGH | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0287 | a1-zum | study.sectionAccents (examples) | are | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0288 | a1-obst | study.sectionAccents (examples) | fruit | (termins no FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0289 | a1-bis | study.sectionAccents.comparison.example | bis dass | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0290 | a1-bringen | study.sectionAccents.examples.de | Wasser | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0291 | a1-bringen | study.sectionAccents.examples.de | dich | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0292 | a1-bringen | study.sectionAccents.examples.de | bringt | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0293 | a1-bringen | study.sectionAccents.examples.de | Buch | (termins no attiecīgā FR teksta) | MEDIUM | SECTIONACCENTS_LANGUAGE | PENDING | | |
-| FR-A1-0294 | a1-an | study.translation | À • À • Présent | À | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0295 | a1-aus | study.translation | De • Sortie | De | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0296 | a1-aufs | study.translation | Vers • Sur • Où ? | Vers | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0297 | a1-besuchen-89 | lv | Pour assister • Pour visiter | Pour assister | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0298 | a1-bringen | study.translation | À emporter • À emporter | À emporter | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0299 | a1-ein | study.translation | Article indéfini • Un • Quelqu'un | Article indéfini | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
-| FR-A1-0300 | a1-eis | study.translation | Glace • Glace | Glace | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0564 | a1-können | study.comparison[2].meaning | Besoin / être oui- | Devoir | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0565 | a1-kosten | study.translation | Payer | Coûter | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0566 | a1-kosten | study.comparison[0].meaning | Payer (prix) • Combien | Coûter (un prix) • Combien ça coûte | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0567 | a1-kosten | study.comparison[1].meaning | Payer • Payer (argent) | Coûter • Payer (de l’argent) | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0568 | a1-kosten | study.comparison[2].meaning | Payer • Payer | Coûter • Payer | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0569 | a1-laden-study | study.translation | Boutique | Magasin | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0571 | a1-land | study.comparison[0].meaning | Pays/terre/campagne | Pays / terre / campagne | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0573 | a1-lang | study.examples[5].lv | Toute la journée (en longueur). | Toute la journée. | MEDIUM | NATURALNESS | PENDING | | |
+| FR-A1-0575 | a1-lassen | study.comparison[0].meaning | Partir / laisser | Laisser / permettre | MEDIUM | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0576 | a1-lassen | study.tip.text | Atceries : quelque chose reste → lassen • Quelqu'un est autorisé → lassen. | Rappelez-vous : quelque chose reste → lassen • Quelqu'un est autorisé → lassen. | HIGH | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0578 | a1-laufen | study.comparison[0].meaning | Exécuter / exploiter | Courir / fonctionner | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0579 | a1-laufen | study.comparison[1].meaning | Allez à pied | Marcher | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0580 | a1-laufen | study.comparison[3].meaning | Pour opérer | Fonctionner | MEDIUM | NATURALNESS | PENDING | | |
+| FR-A1-0581 | a1-legen | study.comparison[1].meaning | Être / dormir | Se trouver / être allongé | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0582 | a1-legen | study.comparison[3].meaning | Asseyez-vous / asseyez-vous | Faire asseoir / s’asseoir | HIGH | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0583 | a1-legen | study.tip.text | Atceries : tu noliec → legen • Lieta jau atrodas → liegen. | Rappelez-vous : vous posez → legen • L’objet est déjà posé → liegen. | HIGH | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0584 | a1-leise-study | study.translation | Calme | Silencieux | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0585 | a1-leise-study | study.examples[1].lv | S'il te plaît, tais-toi | S'il te plaît, parle moins fort. | MEDIUM | SEMANTICS | PENDING | | |
+| FR-A1-0586 | a1-leise-study | study.examples[2].lv | La musique est calme. | La musique est douce. | LOW | NATURALNESS | PENDING | | |
+| FR-A1-0588 | a1-liegen | study.examples[2].lv | Il dort au lit. | Il est couché dans son lit. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0589 | a1-liegen | study.comparison[0].meaning | Être / dormir | Être situé ou dormir | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0590 | a1-liegen | study.comparison[1].meaning | Déposer | Déposer | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0591 | a1-liegen | study.comparison[2].meaning | Se tenir debout/être debout | Se tenir debout ou être debout | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0592 | a1-liegen | study.comparison[3].meaning | Être | Être | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0594 | a1-machen | study.tip.text | Atceries : Était-ce machst du ? = Ko tu dari ? | Rappelez-vous : Was machst du ? = Que fais-tu ? | CRITICAL | FOREIGN_REMNANT | PENDING | | |
+| FR-A1-0595 | a1-mal | study.translation | Temps | Fois | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0596 | a1-mal | study.tip.text | Rappelez-vous : das Mal = temps (nom) • Mal sans article = particule familière. | Rappelez-vous : das Mal = fois (nom) • Mal sans article = particule familière. | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0598 | a1-mit | study.comparison[0].meaning | Avec / avec | Avec | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0599 | a1-mit | study.comparison[1].meaning | Sans | Sans | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0600 | a1-mit | study.comparison[2].meaning | Chez / chez quelqu'un | Chez quelqu'un | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0601 | a1-mit | study.comparison[3].meaning | À / à | À | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0602 | a1-mögen | study.examples[1].lv | Aimez-vous le café | Aimes-tu le café ? | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0603 | a1-mögen | study.comparison[0].meaning | Aimer | Aimer | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0604 | a1-mögen | study.comparison[1].meaning | Voudrais | Voudrais | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0605 | a1-mögen | study.comparison[2].meaning | Je veux | Je veux | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0606 | a1-mögen | study.comparison[3].meaning | Aimer | Aimer | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0607 | a1-morgen | study.examples[5].lv |  |  | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0608 | a1-morgen-study | study.examples[1].lv |  |  | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0609 | a1-morgen-study | study.examples[2].lv |  |  | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0610 | a1-morgen-study | study.examples[3].lv |  |  | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0611 | a1-müssen | study.translation | Avoir besoin | Devoir | HIGH | TRANSLATION | PENDING | | |
+| FR-A1-0612 | a1-müssen | study.examples[1].lv | Vous devez attendre. | Tu dois attendre. | MEDIUM | GRAMMAR | PENDING | | |
+| FR-A1-0613 | a1-müssen | study.comparison[0].meaning | Besoin / devoir faire | Devoir ou être obligé de faire | MEDIUM | TRANSLATION | PENDING | | |
+| FR-A1-0614 | a1-müssen | study.comparison[1].meaning | Pouvoir/savoir | Pouvoir ou savoir | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0615 | a1-müssen | study.comparison[3].meaning | Être autorisé | Être autorisé | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0617 | a1-nach | study.comparison[0].meaning | À / après | À ou après | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0618 | a1-nach | study.comparison[1].meaning | À / à | À | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0619 | a1-nach | study.comparison[2].meaning | Dans / vers le lieu avec l'article | Dans ou vers le lieu avec l'article | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0620 | a1-nach | study.comparison[3].meaning | Avant / devant | Avant ou devant | LOW | MULTIPLE_TRANSLATIONS_DETECTED | PENDING | | |
+| FR-A1-0622 | a1-natuerlich | study.examples[2].lv | Bien sûr, je vais vous aider. | Bien sûr, je vais t'aider. | LOW | SEMANTICS | PENDING | | |
