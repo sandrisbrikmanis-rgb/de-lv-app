@@ -1,6 +1,6 @@
 # PROJECT LANGUAGE MASTER STANDARD
 
-**Versija:** 1.14\
+**Versija:** 1.15\
 **Statuss:** AUTHORITATIVE / OBLIGĀTS\
 **Mērķis:** viens vienots projekta standarts jaunu valodu izveidei,
 auditam, OWNER lēmumiem, COPY-ONLY remontam, regresijas pārbaudei, Git
@@ -387,6 +387,10 @@ A1--C2, `sentences.js`, `verbs.js`, `courseLessons.js`, course training
 cards, noun articles un dialogue ID map, ja attiecas,
 `languages/{lang}/ui.js`, manifests/registry/data routing, Study un
 comparisonStudy kartītes.
+
+Pilna Teikumu/Sätze audita metodika (deterministisks inventārs, obligāti
+25 teikumi vienā Luna batch, blakus konteksts, closure vārti): sk.
+**§7.65–§7.90**.
 
 ## 2.2. Saglabājamā struktūra
 
@@ -2950,6 +2954,665 @@ Ja kaut viens vārts nav izpildīts:
 KURSS_CLOSURE_BLOCKED
 ```
 
+## 7.65. SENTENCES / SÄTZE FULL AUDIT STANDARD — piemērošanas joma (v1.15)
+
+Teikumu sadaļas audits ir **atsevišķs** pilna valodas audita modulis.
+
+To nedrīkst aizstāt ar:
+
+- A1–C2 parasto kartīšu auditu;
+- `minimalStudy` auditu;
+- `standardStudy` auditu;
+- Kurss/Lessons auditu;
+- vienkāršu ID vai teikumu skaita paritātes pārbaudi;
+- tikai deterministisku svešvalodu atlikumu meklēšanu.
+
+Standarts attiecas uz visu mērķvalodu Teikumu/Sätze datu kopu.
+
+## 7.66. Teikumu DE STRICT READ-ONLY (v1.15)
+
+DE teikumi ir:
+
+```text
+STRICT READ-ONLY
+```
+
+Bez atsevišķa OWNER avota lēmuma aizliegts mainīt:
+
+- DE teikuma tekstu;
+- DE pieturzīmes;
+- DE teikuma ID;
+- DE secību;
+- DE gramatiku;
+- DE audio sasaisti;
+- DE metadatus.
+
+Katrā audita, remonta un closure atskaitē obligāti:
+
+```text
+DE_UNAUTHORIZED_CHANGES = 0
+```
+
+## 7.67. Deterministisks teikumu inventārs (v1.15)
+
+Pirms Luna audita skriptam deterministiski jāizveido visu Teikumu objektu
+un auditējamo lauku inventārs.
+
+Katram teikumam obligāti jāsaglabā:
+
+```text
+Language
+Sentence number
+Sentence ID
+Object index
+Object type
+Field/path
+DE sentence
+CURRENT target sentence
+Previous sentence ID
+Previous DE sentence
+Previous target sentence
+Next sentence ID
+Next DE sentence
+Next target sentence
+Theme/block
+Grammar context
+Source file
+Mirror file
+Production baseline SHA
+```
+
+Unikālā atslēga:
+
+```text
+(Language, Sentence ID, Field/path)
+```
+
+Ja `Sentence ID` nav pieejams, pirms audita jāizveido stabila tehniskā
+atslēga no production struktūras. Mainīgs masīva indekss viens pats nav
+pietiekams OWNER mērķis.
+
+## 7.68. Obligātais batch lielums — 25 teikumi (v1.15)
+
+Teikumu audits obligāti jāsadala šādi:
+
+```text
+25 teikumi vienā Luna batch
+```
+
+Atļauts mazāks pēdējais batch, ja datu kopas atlikums ir mazāks par 25.
+
+Piemērs datu kopai ar 796 teikumiem:
+
+```text
+31 batch × 25 teikumi
+1 batch × 21 teikums
+Kopā: 32 batch
+```
+
+Aizliegts:
+
+- nosūtīt vairāk par 25 teikumiem vienā Luna batch;
+- nosūtīt visu Teikumu failu vienā pieprasījumā;
+- palielināt batch līdz 50 tikai ātruma dēļ;
+- apvienot vairākus batch bez atsevišķas rezultātu validācijas;
+- sadalīt vienu dialogu vai cieši saistītu teikumu bloku tā, ka zūd
+  nepieciešamais konteksts.
+
+Ja 25 teikumu robeža pārgriež dialogu vai cieši saistītu konteksta bloku,
+batch robeža jāpārvieto tā, lai:
+
+- vienā batch nebūtu vairāk par 25 auditējamiem teikumiem;
+- saistītie teikumi paliktu kopā;
+- trūkstošais konteksts tiktu pievienots kā read-only konteksts, nevis
+  papildu auditējami teikumi.
+
+## 7.69. Teikumu batch konteksts (v1.15)
+
+Katram auditējamam teikumam Luna obligāti jāsaņem:
+
+```text
+Sentence ID
+Field/path
+DE sentence
+CURRENT target sentence
+Previous DE/target sentence
+Next DE/target sentence
+Theme or grammar block
+```
+
+Iepriekšējais un nākamais teikums ir konteksts, nevis automātisks remonta
+mērķis.
+
+Blakus teikumu nedrīkst mainīt, ja tam nav atsevišķa validēta findinga
+un OWNER `LABOT`.
+
+## 7.70. Teikumu lauku līmeņa rezultāts (v1.15)
+
+Luna jāatgriež atsevišķs rezultāts par katru auditējamo teikumu un katru
+tā auditējamo lauku.
+
+Atļautie rezultāti:
+
+```text
+PASS
+FINDING
+NEEDS_SOURCE_REVIEW
+```
+
+Katram batch obligāti jāuzrāda:
+
+```text
+BATCH_ID
+EXPECTED_SENTENCES
+RETURNED_SENTENCE_RESULTS
+EXPECTED_FIELDS
+RETURNED_FIELD_RESULTS
+MISSING_SENTENCE_RESULTS
+MISSING_FIELD_RESULTS
+DUPLICATE_SENTENCE_RESULTS
+DUPLICATE_FIELD_RESULTS
+```
+
+Batch ir `PASS` tikai tad, ja:
+
+```text
+EXPECTED_SENTENCES = RETURNED_SENTENCE_RESULTS
+EXPECTED_FIELDS = RETURNED_FIELD_RESULTS
+MISSING_SENTENCE_RESULTS = 0
+MISSING_FIELD_RESULTS = 0
+DUPLICATE_SENTENCE_RESULTS = 0
+DUPLICATE_FIELD_RESULTS = 0
+```
+
+## 7.71. Semantikas un tulkojuma audits (v1.15)
+
+Katram teikumam jāpārbauda:
+
+- pilna DE pamatnozīme;
+- darbības vārda nozīme;
+- subjekts;
+- objekts;
+- persona;
+- skaitlis;
+- dzimte;
+- darbības laiks;
+- modalitāte;
+- noliegums;
+- refleksivitāte;
+- atdalāmais darbības vārds;
+- vietniekvārdu atsauce;
+- virziens;
+- vieta;
+- laiks;
+- cēlonis;
+- nosacījums;
+- jautājuma funkcija;
+- pievienota informācija;
+- izlaista informācija.
+
+Mērķvalodas teikums nedrīkst būt tikai tematiski līdzīgs. Tam semantiski
+jāatbilst konkrētajam DE teikumam.
+
+## 7.72. Teikumu gramatikas audits (v1.15)
+
+Katram teikumam jāpārbauda:
+
+- darbības vārda forma;
+- personas un skaitļa saskaņa;
+- lietvārdu dzimte;
+- artikuli;
+- vietniekvārdi;
+- īpašības vārdu formas;
+- prievārdi;
+- locījumi;
+- vārdu secība;
+- jautājuma struktūra;
+- nolieguma vieta;
+- pagātnes, tagadnes un nākotnes forma;
+- formālā un neformālā uzruna;
+- refleksīvās konstrukcijas.
+
+Gramatiski pareizs, bet DE nozīmei neatbilstošs teikums joprojām ir
+`FINDING`.
+
+## 7.73. Ortogrāfijas un punktuācijas audits (v1.15)
+
+Katram teikumam jāpārbauda:
+
+- lielie un mazie burti;
+- diakritiskās zīmes;
+- apostrofi;
+- defises;
+- komati;
+- punkti;
+- jautājuma zīmes;
+- izsaukuma zīmes;
+- pēdiņas;
+- mērķvalodas atstarpju noteikumi;
+- valodai specifiskās pieturzīmes.
+
+Piemēram, franču valodā jāpārbauda pareizās atstarpes pirms:
+
+```text
+!
+?
+:
+;
+```
+
+## 7.74. Dabiskuma audits (v1.15)
+
+Katram teikumam atsevišķi jānovērtē:
+
+- vai tas skan dabiski mērķvalodā;
+- vai nav burtisks DE kalks;
+- vai nav burtisks LV kalks;
+- vai izmantotais vārds atbilst situācijai;
+- vai reģistrs atbilst kontekstam;
+- vai formalitāte ir konsekventa;
+- vai teikums nav gramatisks, bet nedabisks.
+
+`NATURALNESS` findingam obligāti jāpievieno konkrēts lingvistisks
+pamatojums. Tikai subjektīvs apgalvojums "varētu skanēt labāk" nav
+validēts findings.
+
+## 7.75. Dialogu un saistīto teikumu kontrole (v1.15)
+
+Ja Teikumu sadaļā vairāki ieraksti veido dialogu vai konteksta ķēdi,
+jāpārbauda:
+
+- runātāju secība;
+- jautājuma un atbildes atbilstība;
+- vietniekvārdu atsauces;
+- personas dzimums;
+- formalitāte;
+- laika konsekvence;
+- noliegums;
+- refleksivitāte;
+- notikumu secība.
+
+Saistītu teikumu nedrīkst auditēt pilnīgi izolēti.
+
+Tomēr katram findingam joprojām jābūt vienam precīzam:
+
+```text
+(Sentence ID, Field/path)
+```
+
+## 7.76. Viena rinda = viens findings (v1.15)
+
+OWNER backlog viena rinda drīkst attiekties tikai uz vienu:
+
+```text
+(Sentence ID, Field/path)
+```
+
+Aizliegts:
+
+```text
++N citi atradumi
+multiple sentences
+several fields
+all similar entries
+```
+
+Ja viena un tā pati problēma atkārtojas vairākos teikumos, katram
+teikumam jāizveido atsevišķs findings.
+
+## 7.77. Teikumu dublikātu audits (v1.15)
+
+Teikumu datu kopai deterministiski jāpārbauda:
+
+```text
+EXACT_DE_DUPLICATES
+EXACT_TARGET_DUPLICATES
+NORMALIZED_DE_DUPLICATES
+NORMALIZED_TARGET_DUPLICATES
+SAME_DE_DIFFERENT_TARGET
+DIFFERENT_DE_SAME_TARGET
+DUPLICATE_SENTENCE_ID
+```
+
+Dublikāts nav automātiski kļūda.
+
+Pirms findinga jāizvērtē:
+
+- vai teikumi atrodas dažādos tematiskos blokos;
+- vai tulkojuma atšķirība ir kontekstuāli pamatota;
+- vai vienāds mērķvalodas teikums korekti tulko vairākus līdzīgus DE
+  teikumus;
+- vai dublikāts ir pedagoģiski apzināts.
+
+## 7.78. Teikumu svešvalodu atlikumu audits (v1.15)
+
+Jāpārbauda, vai mērķvalodas laukos nav palicis:
+
+- LV teksts;
+- EN teksts;
+- citas mērķvalodas teksts;
+- tehniska placeholder vērtība;
+- nepārtulkots paskaidrojums;
+- sajaukta rakstība.
+
+DE vārds vai frāze nav automātisks `FOREIGN_REMNANT`, ja tas apzināti
+izmantots kā mācību objekts vai skaidrojuma piemērs.
+
+## 7.79. Teikumu audio kontrole (v1.15)
+
+Ja Teikumu sadaļai ir audio, obligāti jāpārbauda:
+
+```text
+AUDIO_FILE_EXISTS
+AUDIO_ID_MATCH
+TEXT_AUDIO_MAPPING
+NO_ORPHAN_AUDIO
+NO_MISSING_AUDIO
+NO_DUPLICATE_AUDIO_MAPPING
+```
+
+Ja iespējama audio satura lingvistiska pārbaude, papildus:
+
+```text
+AUDIO_LANGUAGE_MATCH
+AUDIO_TEXT_MATCH
+AUDIO_PRONUNCIATION_REVIEW
+```
+
+Audio faila eksistence pati par sevi nepierāda, ka audio atbilst
+teikumam.
+
+## 7.80. ID un secības kontrole (v1.15)
+
+Obligāti jāpārbauda:
+
+```text
+Sentence ID uniqueness
+Sentence count
+Sentence order
+Primary/mirror order
+Missing IDs
+Unexpected IDs
+Object index consistency
+```
+
+Obligātie rezultāti:
+
+```text
+DUPLICATE_SENTENCE_ID = 0
+MISSING_SENTENCE_ID = 0
+UNEXPECTED_SENTENCE_ID = 0
+ID_ORDER = PASS
+```
+
+## 7.81. Teikumu primary/`www` spoguļa kontrole (v1.15)
+
+Ja Teikumu production failam ir `www` spogulis:
+
+```text
+PRIMARY_WWW_MIRROR = PASS
+```
+
+Jāsalīdzina:
+
+- teikumu skaits;
+- ID;
+- secība;
+- DE lauki;
+- mērķvalodas lauki;
+- metadati;
+- audio mapping;
+- faila sintakse.
+
+Spoguļa neatbilstība bloķē closure.
+
+## 7.82. Teikumu pre-finding validācija (v1.15)
+
+Pirms findinga publicēšanas skriptam obligāti jāpārbauda:
+
+```text
+Sentence ID exists
+Field/path exists
+Field belongs to reported Sentence ID
+CURRENT === production value
+DE context belongs to the same Sentence ID
+Previous/next context is correctly mapped
+Finding is unique
+```
+
+Ja validācija neizdodas:
+
+```text
+INVALID_SENTENCE_ID
+INVALID_FIELD
+TARGET_OBJECT_MISMATCH
+CURRENT_VALUE_MISMATCH
+CONTEXT_MISMATCH
+DUPLICATE_FINDING
+```
+
+Šādu ierakstu nedrīkst publicēt OWNER backlog kā apply-gatavu `FINDING`.
+
+## 7.83. Teikumu OWNER vēstures aizsardzība (v1.15)
+
+Pirms jauna findinga publicēšanas jāpārbauda iepriekšējā OWNER vēsture
+pēc:
+
+```text
+(Language, Sentence ID, Field/path, CURRENT)
+```
+
+Iepriekšējs:
+
+```text
+FALSE_POSITIVE
+NELABOT
+OWNER_ACCEPTED
+```
+
+nedrīkst tikt atkārtoti atvērts bez:
+
+```text
+OWNER_DECISION_REOPEN_REQUIRED
+Previous OWNER status
+Previous OWNER value
+New evidence
+Reason for reopening
+```
+
+## 7.84. Teikumu OWNER backlog (v1.15)
+
+Katram validētam findingam obligāti:
+
+```text
+Audit ID
+Batch ID
+Sentence number
+Sentence ID
+Field/path
+DE sentence
+Previous context
+Next context
+CURRENT
+PROPOSED
+Severity
+Category
+Evidence
+OWNER STATUS
+OWNER NEW
+OWNER note
+```
+
+`PROPOSED` nav OWNER lēmums.
+
+Cursor nedrīkst izmantot `PROPOSED`, kamēr nav:
+
+```text
+OWNER STATUS = LABOT
+OWNER NEW = precīza gala vērtība
+```
+
+## 7.85. Teikumu OWNER pierādījuma fails (v1.15)
+
+Katram OWNER lēmumam pierādījuma `.md` failā obligāti:
+
+```text
+1. Oriģinālais teksts
+2. Veiktās izmaiņas
+3. Gala rezultāts
+```
+
+Papildus:
+
+```text
+Sentence ID
+Field/path
+DE sentence
+Relevant context
+OWNER status
+OWNER justification
+```
+
+Pierādījuma failam 1:1 jāatbilst OWNER authority failam.
+
+## 7.86. Teikumu COPY-ONLY apply (v1.15)
+
+Teikumu remontam obligāti piemērot `REPAIR_APPLY_SAFETY_STANDARD.md`.
+
+Atļauts mainīt tikai rindas ar:
+
+```text
+OWNER STATUS = LABOT
+Sentence ID = precīzs
+Field/path = precīzs
+CURRENT = production exact-match
+OWNER NEW = precīza gala vērtība
+```
+
+Ja CURRENT nesakrīt:
+
+```text
+CURRENT_VALUE_MISMATCH
+SKIP
+```
+
+Aizliegts:
+
+- pašam tulkot;
+- pārfrāzēt OWNER NEW;
+- mainīt līdzīgu teikumu;
+- veikt globālu search/replace;
+- mainīt DE;
+- mainīt blakus teikumu;
+- mainīt secību vai ID;
+- veikt papildu cleanup.
+
+## 7.87. Teikumu targeted regression (v1.15)
+
+Pēc apply jāpārbauda visi OWNER `LABOT`.
+
+Obligāti:
+
+```text
+REQUESTED
+PROCESSED
+APPLIED_VERIFIED
+CURRENT_VALUE_MISMATCH
+FAILED
+UNEXPECTED_CHANGES
+DE_CHANGES
+```
+
+Targeted regression ir `PASS` tikai tad, ja:
+
+```text
+APPLIED_VERIFIED = 100%
+CURRENT_VALUE_MISMATCH = 0
+FAILED = 0
+UNEXPECTED_CHANGES = 0
+DE_CHANGES = 0
+```
+
+## 7.88. Pilns post-repair Teikumu audits (v1.15)
+
+Pēc targeted regression obligāti atkārtot pilnu Teikumu auditu:
+
+- ar to pašu deterministisko inventāru;
+- ar tiem pašiem 25 teikumu batch;
+- ar visiem audita slāņiem;
+- ar pilnu lauku līmeņa uzskaiti;
+- ar OWNER vēstures aizsardzību.
+
+Targeted regression viena pati nav closure pierādījums.
+
+## 7.89. Teikumu gala audita vārti (v1.15)
+
+Teikumu pilnā audita atskaitē obligāti:
+
+```text
+SENTENCE_COVERAGE = audited sentences / expected sentences
+FIELD_COVERAGE = returned field results / expected fields
+SEMANTIC_COVERAGE = 100%
+GRAMMAR_COVERAGE = 100%
+ORTHOGRAPHY_COVERAGE = 100%
+NATURALNESS_COVERAGE = 100%
+BATCH_COVERAGE = completed batches / expected batches
+CURRENT_EXACT_MATCH = 100%
+MISSING_SENTENCE_RESULTS = 0
+MISSING_FIELD_RESULTS = 0
+DUPLICATE_RESULTS = 0
+INVALID_SENTENCE_ID = 0
+INVALID_FIELD = 0
+TARGET_OBJECT_MISMATCH = 0
+CONTEXT_MISMATCH = 0
+DUPLICATE_SENTENCE_ID = 0
+MISSING_SENTENCE_ID = 0
+DE_UNAUTHORIZED_CHANGES = 0
+PRIMARY_WWW_MIRROR = PASS
+ID_ORDER = PASS
+AUDIO_MAPPING = PASS
+```
+
+## 7.90. Teikumu closure vārti (v1.15)
+
+Teikumu sadaļa ir:
+
+```text
+OWNER ACCEPTED / CLOSED
+```
+
+tikai tad, ja:
+
+```text
+SENTENCE_COVERAGE = 100%
+FIELD_COVERAGE = 100%
+SEMANTIC_COVERAGE = 100%
+GRAMMAR_COVERAGE = 100%
+ORTHOGRAPHY_COVERAGE = 100%
+NATURALNESS_COVERAGE = 100%
+BATCH_COVERAGE = 100%
+APPLIED_VERIFIED = 100%
+CURRENT_EXACT_MATCH = 100%
+NEW_VALIDATED_REAL_FINDINGS = 0
+REPAIR_REGRESSION = 0
+MISSING_RESULTS = 0
+DUPLICATES = 0
+INVALID_SENTENCE_ID = 0
+INVALID_FIELD = 0
+TARGET_OBJECT_MISMATCH = 0
+CONTEXT_MISMATCH = 0
+DE_UNAUTHORIZED_CHANGES = 0
+PRIMARY_WWW_MIRROR = PASS
+ID_ORDER = PASS
+AUDIO_MAPPING = PASS
+```
+
+Ja kaut viens vārts nav izpildīts:
+
+```text
+SENTENCES_CLOSURE_BLOCKED
+```
+
 ------------------------------------------------------------------------
 
 Pēc audita visi reālie findings tiek nodoti OWNER review, izmantojot
@@ -4379,6 +5042,40 @@ ar MASTER.
 
 # 20. VERSION CHANGELOG
 
+## Version 1.15
+
+Atsevišķs Sentences/Sätze pilnā audita standarts — deterministisks teikumu
+un lauku inventārs; obligāti 25 teikumi vienā Luna batch; lauku līmeņa
+`PASS`/`FINDING`/`NEEDS_SOURCE_REVIEW`; semantikas, gramatikas, ortogrāfijas
+un dabiskuma slāņi; blakus konteksta kontrole; dublikātu, audio, ID/secības
+un OWNER vēstures pārbaude; targeted regression un pilns post-repair audits.
+
+Pievienots:
+
+- §7.65–§7.90 SENTENCES / SÄTZE FULL AUDIT STANDARD;
+- §2.1 atsauce uz Teikumu pilno auditu (§7.65–§7.90);
+- deterministisks teikumu inventārs un stabila `Sentence ID` atslēga;
+- obligātais batch lielums: maksimums **25 teikumi** vienā Luna batch;
+- batch konteksts (previous/next teikumi kā read-only konteksts);
+- lauku līmeņa batch completeness metrikas;
+- semantikas, gramatikas, ortogrāfijas un dabiskuma audits;
+- dialogu un saistīto teikumu kontrole;
+- viena rinda = viens `(Sentence ID, Field/path)` findings;
+- dublikātu, svešvalodu atlikumu un audio mapping audits;
+- ID/secības un primary/`www` spoguļa kontrole;
+- pre-finding validācija un OWNER vēstures aizsardzība;
+- Teikumu OWNER backlog, pierādījuma faili, COPY-ONLY apply;
+- targeted regression un pilns post-repair audits;
+- Teikumu gala audita un closure vārti (`SENTENCES_CLOSURE_BLOCKED`).
+
+**FINAL v1.15 RULE:** Teikumu pilns audits nav aizstājams ar A1–C2 kartīšu,
+Study, Kurss vai vienkāršu ID/skaita paritātes pārbaudi; Luna batch
+nedrīkst pārsniegt 25 auditējamos teikumus; closure pieļauts tikai ar
+pierādītu 100% teikumu un lauku pārklājumu plus `DE_UNAUTHORIZED_CHANGES = 0`,
+`PRIMARY_WWW_MIRROR = PASS`, `ID_ORDER = PASS` un `AUDIO_MAPPING = PASS`.
+
+Version 1.14 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.15.
+
 ## Version 1.14
 
 Atsevišķs Kurss/Lessons pilnā audita standarts — deterministisks lekciju,
@@ -4687,4 +5384,4 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
-## MASTER 1.14 --- END
+## MASTER 1.15 --- END
