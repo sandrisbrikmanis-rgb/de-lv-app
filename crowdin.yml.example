@@ -1,0 +1,30 @@
+# Crowdin UI bridge — TEMPLATE ONLY (not connected automatically)
+#
+# Copy to crowdin.yml and set CROWDIN_PROJECT_ID when ready to integrate.
+# Source of truth remains languages/{lang}/ui.js; use npm run i18n:ui:export
+# before uploading and npm run i18n:ui:import -- --write after download.
+# Export includes only the LV 305-key source set (locale-only EN/ES keys stay in ui.js only).
+# Import patches only changed string values in place (no full-file reformat on --write).
+#
+# project_id_env: CROWDIN_PROJECT_ID
+# base_path: .
+# preserve_hierarchy: true
+#
+# files:
+#   - source: /crowdin/ui/lv.json
+#     translation: /crowdin/ui/%two_letters_code%.json
+#     type: json
+#
+# ---------------------------------------------------------------------------
+# MANDATORY Crowdin language mapping (Crowdin code → repo folder)
+# ---------------------------------------------------------------------------
+# Greek MUST map Crowdin `el` to repo directory `gr`:
+#   Crowdin locale: el
+#   Repo path:      languages/gr/ui.js
+#   Export file:    crowdin/ui/gr.json
+#
+# Configure in Crowdin: Project Settings → Languages → Custom language codes
+# or map `el` → `%two_letters_code%.json` with a custom export name override for gr.
+#
+# Other repo codes (nb, nn, lb, uk, …) use the same folder name in Crowdin unless
+# your project uses ISO overrides — verify mappings before first upload.
