@@ -11,17 +11,27 @@ const {
 } = require("./git-baseline");
 
 function runBaselineGate() {
-  const originMainSha = resolveOriginMainSha();
-  const headSha = git("git rev-parse HEAD");
+  const origin = resolveOriginMainSha();
+  const originMainSha = origin.sha;
+  const headResult = git("git rev-parse HEAD");
+  const headSha = headResult.ok ? headResult.stdout : null;
   const deDiffResult = gitDeDiffAgainstBaseline(originMainSha);
-  const deDiff = deDiffResult.changed;
+  const deDiff = deDiffResult.error ? [] : deDiffResult.changed;
   const blockers = [];
 
-  if (!originMainSha) {
-    blockers.push({ code: "BLOCKED_NO_ORIGIN_MAIN", message: "Could not resolve origin/main" });
+  if (origin.error || !originMainSha) {
+    blockers.push({
+      code: "BLOCKED_NO_ORIGIN_MAIN",
+      message: origin.error || "Could not resolve origin/main",
+    });
   }
 
-  if (deDiff.length > 0) {
+  if (deDiffResult.error) {
+    blockers.push({
+      code: "BLOCKED_GIT_DIFF_FAILED",
+      message: `DE baseline git diff failed: ${deDiffResult.error}`,
+    });
+  } else if (deDiff.length > 0) {
     blockers.push({
       code: "DE_CHANGES_ON_BRANCH",
       message: `DE paths modified vs origin/main (${originMainSha}...HEAD): ${deDiff.join(", ")}`,
@@ -29,11 +39,27 @@ function runBaselineGate() {
     });
   }
 
-  const unmerged = git("git branch -r --no-merged origin/main").split("\n").filter((b) => {
-    const name = b.trim();
-    return name && /closure|repair|audit/i.test(name);
-  });
-  if (unmerged.length > 0) {
+  if (!headResult.ok) {
+    blockers.push({
+      code: "BLOCKED_GIT_HEAD_FAILED",
+      message: headResult.stderr || headResult.error || "git rev-parse HEAD failed",
+    });
+  }
+
+  const unmergedResult = git("git branch -r --no-merged origin/main");
+  const unmerged = unmergedResult.ok
+    ? unmergedResult.stdout.split("\n").filter((b) => {
+        const name = b.trim();
+        return name && /closure|repair|audit/i.test(name);
+      })
+    : [];
+  if (!unmergedResult.ok) {
+    blockers.push({
+      code: "BLOCKED_GIT_UNMERGED_FAILED",
+      message: unmergedResult.stderr || unmergedResult.error || "git branch --no-merged failed",
+      severity: "WARNING",
+    });
+  } else if (unmerged.length > 0) {
     blockers.push({
       code: "BLOCKED_UNMERGED_CLOSURE_CANDIDATES",
       message: `Remote branches not merged to main (sample): ${unmerged.slice(0, 5).join(", ")}`,
@@ -47,7 +73,8 @@ function runBaselineGate() {
     originMainSha,
     headSha,
     deChanges: deDiff,
-    deDiffBaseline: `${originMainSha}...HEAD`,
+    deDiffBaseline: originMainSha ? `${originMainSha}...HEAD` : null,
+    deDiffError: deDiffResult.error || null,
     datasetBlobs: {},
     verdict: blockers.some((b) => b.severity !== "WARNING") ? "BLOCKED" : "PASS",
     blockers,

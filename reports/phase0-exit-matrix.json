@@ -1,7 +1,7 @@
 {
   "status": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
   "verdict": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
-  "generatedAt": "2026-08-28T18:02:58.419Z",
+  "generatedAt": "2026-08-28T18:07:36.635Z",
   "masterVersion": "1.12",
   "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
   "gates": {
@@ -13,8 +13,26 @@
     },
     "F0_2_export_dry_run": {
       "pass": true,
-      "note": "export-content-crowdin.js dry-run by default; writes only to crowdin/ with --write",
-      "issues": []
+      "note": "export-content-crowdin.js dry-run enforced; --write only under crowdin/ (execution verified)",
+      "issues": [],
+      "tests": [
+        {
+          "name": "out_without_write_exit",
+          "exitCode": 0
+        },
+        {
+          "name": "default_dry_run_exit",
+          "exitCode": 0
+        },
+        {
+          "name": "write_outside_crowdin_exit",
+          "exitCode": 1
+        },
+        {
+          "name": "write_under_crowdin_exit",
+          "exitCode": 0
+        }
+      ]
     },
     "F0_3_roundtrip": {
       "pass": true,
@@ -50,7 +68,8 @@
       "pass": true,
       "baselineVerdict": "PASS",
       "deDiffBaseline": "93c372824359b00bd73d37ae3193bdf587118e75...HEAD",
-      "deChanges": []
+      "deChanges": [],
+      "deDiffError": null
     },
     "F0_6_deterministic_collectors": {
       "pass": true,
@@ -90,7 +109,8 @@
         "languages"
       ],
       "productionDiff": "(clean)",
-      "changedCount": 0
+      "changedCount": 0,
+      "error": null
     },
     "F0_8_all_groups_coverage": {
       "pass": true,

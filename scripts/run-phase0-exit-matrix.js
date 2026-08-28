@@ -81,7 +81,7 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
   );
   const structuralCoverage = evaluateStructuralScopeCoverage(discovery, expectedScopes);
   const trainingCoverage = summarizeTrainingRoundTrip(roundTrips);
-  const productionClean = productionDiffResult.clean === true;
+  const productionClean = productionDiffResult.clean === true && !productionDiffResult.error;
 
   const matrix = {
     status: "PHASE_0_INCOMPLETE",
@@ -110,10 +110,11 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
         executedScopes: discovery?.summary?.length || 0,
       },
       F0_5_baseline_header: {
-        pass: discovery?.baselineVerdict !== "BLOCKED",
+        pass: discovery?.baselineVerdict === "PASS",
         baselineVerdict: discovery?.baselineVerdict,
         deDiffBaseline: discovery?.baseline?.deDiffBaseline,
         deChanges: discovery?.baseline?.deChanges || [],
+        deDiffError: discovery?.baseline?.deDiffError || null,
       },
       F0_6_deterministic_collectors: {
         pass: structuralCoverage.pass,
@@ -126,6 +127,7 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
         paths: ["data", "www/data", "languages"],
         productionDiff: productionClean ? "(clean)" : productionDiffResult.changed,
         changedCount: productionDiffResult.changed?.length || 0,
+        error: productionDiffResult.error || null,
       },
       F0_8_all_groups_coverage: {
         pass: roundTripGate.pass && structuralCoverage.pass && productionClean,

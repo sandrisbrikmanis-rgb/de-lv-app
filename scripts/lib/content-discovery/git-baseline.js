@@ -9,10 +9,25 @@ const DE_DIFF_PATHS = ["data/de", "www/data/de", "languages/de"];
 
 function git(cmd) {
   try {
-    return execSync(cmd, { cwd: ROOT, encoding: "utf8" }).trim();
+    const stdout = execSync(cmd, { cwd: ROOT, encoding: "utf8" }).trim();
+    return { ok: true, stdout };
   } catch (e) {
-    return (e.stdout || "").trim() || "";
+    return {
+      ok: false,
+      stdout: (e.stdout || "").toString().trim(),
+      stderr: (e.stderr || "").toString().trim(),
+      error: e.message || "git command failed",
+    };
   }
+}
+
+function gitStdout(cmd) {
+  const result = git(cmd);
+  if (!result.ok) {
+    const detail = result.stderr || result.error || "unknown git error";
+    throw new Error(`${cmd} — ${detail}`);
+  }
+  return result.stdout;
 }
 
 function fetchOriginMain() {
@@ -21,22 +36,40 @@ function fetchOriginMain() {
 
 function resolveOriginMainSha() {
   fetchOriginMain();
-  return git("git rev-parse origin/main") || null;
+  const result = git("git rev-parse origin/main");
+  if (!result.ok) {
+    return {
+      sha: null,
+      error: result.stderr || result.error || "GIT_REV_PARSE_ORIGIN_MAIN_FAILED",
+    };
+  }
+  if (!result.stdout) {
+    return { sha: null, error: "GIT_REV_PARSE_ORIGIN_MAIN_EMPTY" };
+  }
+  return { sha: result.stdout, error: null };
 }
 
 function fileBlobSha(relPath) {
-  const out = git(`git hash-object "${relPath}"`);
-  return out || null;
+  const result = git(`git hash-object "${relPath}"`);
+  return result.ok && result.stdout ? result.stdout : null;
 }
 
 function gitDiffAgainstBaseline(originMainSha, pathArgs) {
   if (!originMainSha) {
-    return { changed: [], error: "BLOCKED_NO_ORIGIN_MAIN_SHA" };
+    return { changed: [], clean: false, error: "BLOCKED_NO_ORIGIN_MAIN_SHA" };
   }
   const paths = pathArgs.join(" ");
-  const out = git(`git diff --name-only ${originMainSha}...HEAD -- ${paths}`);
-  const changed = out ? out.split("\n").filter(Boolean) : [];
-  return { changed, clean: changed.length === 0, originMainSha };
+  const result = git(`git diff --name-only ${originMainSha}...HEAD -- ${paths}`);
+  if (!result.ok) {
+    return {
+      changed: [],
+      clean: false,
+      error: result.stderr || result.error || "GIT_DIFF_FAILED",
+      originMainSha,
+    };
+  }
+  const changed = result.stdout ? result.stdout.split("\n").filter(Boolean) : [];
+  return { changed, clean: changed.length === 0, originMainSha, error: null };
 }
 
 function gitProductionDiffAgainstBaseline(originMainSha) {
@@ -51,6 +84,7 @@ module.exports = {
   PRODUCTION_DIFF_PATHS,
   DE_DIFF_PATHS,
   git,
+  gitStdout,
   fetchOriginMain,
   resolveOriginMainSha,
   gitDiffAgainstBaseline,
