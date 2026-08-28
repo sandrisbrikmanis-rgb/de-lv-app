@@ -1,39 +1,31 @@
 #!/usr/bin/env node
 "use strict";
 
-const { execSync } = require("child_process");
 const { ROOT } = require("../audit-common");
 const { MASTER_VERSION, G2_LEVELS } = require("../content-crowdin-bridge/constants");
-
-function git(cmd) {
-  try {
-    return execSync(cmd, { cwd: ROOT, encoding: "utf8" }).trim();
-  } catch (e) {
-    return (e.stdout || "").trim() || "";
-  }
-}
-
-function fileBlobSha(relPath) {
-  const out = git(`git hash-object "${relPath}"`);
-  return out || null;
-}
+const {
+  git,
+  resolveOriginMainSha,
+  gitDeDiffAgainstBaseline,
+  fileBlobSha,
+} = require("./git-baseline");
 
 function runBaselineGate() {
-  git("git fetch origin");
-
-  const originMainSha = git("git rev-parse origin/main");
+  const originMainSha = resolveOriginMainSha();
   const headSha = git("git rev-parse HEAD");
-  const deDiff = git("git diff --name-only HEAD -- data/de www/data/de languages/de");
+  const deDiffResult = gitDeDiffAgainstBaseline(originMainSha);
+  const deDiff = deDiffResult.changed;
   const blockers = [];
 
   if (!originMainSha) {
     blockers.push({ code: "BLOCKED_NO_ORIGIN_MAIN", message: "Could not resolve origin/main" });
   }
 
-  if (deDiff) {
+  if (deDiff.length > 0) {
     blockers.push({
       code: "DE_CHANGES_ON_BRANCH",
-      message: `DE paths modified on branch: ${deDiff.split("\n").filter(Boolean).join(", ")}`,
+      message: `DE paths modified vs origin/main (${originMainSha}...HEAD): ${deDiff.join(", ")}`,
+      paths: deDiff,
     });
   }
 
@@ -54,7 +46,8 @@ function runBaselineGate() {
     generatedAt: new Date().toISOString(),
     originMainSha,
     headSha,
-    deChanges: deDiff ? deDiff.split("\n").filter(Boolean) : [],
+    deChanges: deDiff,
+    deDiffBaseline: `${originMainSha}...HEAD`,
     datasetBlobs: {},
     verdict: blockers.some((b) => b.severity !== "WARNING") ? "BLOCKED" : "PASS",
     blockers,
@@ -73,6 +66,4 @@ function runBaselineGate() {
 
 module.exports = {
   runBaselineGate,
-  git,
-  fileBlobSha,
 };

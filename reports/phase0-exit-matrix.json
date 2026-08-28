@@ -1,16 +1,20 @@
 {
   "status": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
   "verdict": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
-  "generatedAt": "2026-08-28T17:56:31.873Z",
+  "generatedAt": "2026-08-28T18:02:58.419Z",
   "masterVersion": "1.12",
+  "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
   "gates": {
     "F0_1_bridge_library": {
       "pass": true,
-      "note": "content-crowdin-bridge modules present"
+      "note": "content-crowdin-bridge modules present and smoke round-trip OK",
+      "modules": 10,
+      "exports": 6
     },
     "F0_2_export_dry_run": {
       "pass": true,
-      "note": "export-content-crowdin.js dry-run only by default"
+      "note": "export-content-crowdin.js dry-run by default; writes only to crowdin/ with --write",
+      "issues": []
     },
     "F0_3_roundtrip": {
       "pass": true,
@@ -18,67 +22,57 @@
       "failed": 0,
       "skipped": 1,
       "total": 320,
+      "allowedSkips": [
+        {
+          "key": "g1-training/et",
+          "lang": "et",
+          "group": "g1-training",
+          "reason": "training cards missing",
+          "status": "EXPECTED_NOT_APPLICABLE"
+        }
+      ],
+      "unexpectedSkips": [],
       "trainingCoverage": {
         "total": 32,
         "applicable": 31,
-        "skipped": [
-          {
-            "group": "g1-training",
-            "dataset": "training",
-            "lang": "et",
-            "pass": false,
-            "reason": "training cards missing",
-            "keyCount": 0,
-            "skipped": true
-          }
-        ],
         "lesson7Verified": 31,
-        "lesson7Failures": [],
-        "expectedSkipped": [
-          {
-            "lang": "et",
-            "reason": "training cards missing",
-            "status": "EXPECTED_NOT_APPLICABLE"
-          }
-        ]
-      }
+        "lesson7Failures": []
+      },
+      "note": "Only g1-training/et may skip round-trip (EXPECTED_NOT_APPLICABLE)"
     },
     "F0_4_discovery_orchestrator": {
       "pass": true,
-      "note": "run-content-discovery.js with collectors"
+      "note": "run-content-discovery.js with collectors for full scope",
+      "expectedScopes": 320,
+      "executedScopes": 320
     },
     "F0_5_baseline_header": {
       "pass": true,
-      "baselineVerdict": "PASS"
+      "baselineVerdict": "PASS",
+      "deDiffBaseline": "93c372824359b00bd73d37ae3193bdf587118e75...HEAD",
+      "deChanges": []
     },
     "F0_6_deterministic_collectors": {
       "pass": true,
-      "note": "structural parity for G1/G2/G3 + de-compliance, multi-translation, mojibake, mirror, remnants",
+      "note": "structural parity executed for every group × dataset × lang scope",
       "structuralCoverage": {
         "pass": true,
-        "required": [
-          "g2",
-          "g1-sentences",
-          "g1-verbs",
-          "g1-training",
-          "g3-courseLessons"
-        ],
-        "ran": [
-          "g1-sentences",
-          "g1-training",
-          "g1-verbs",
-          "g2",
-          "g3-courseLessons"
-        ],
+        "expectedCount": 320,
+        "executedCount": 320,
         "missing": [],
+        "missingCount": 0,
+        "wrongCollector": [],
+        "wrongCollectorCount": 0,
         "expectedNotApplicable": [
           {
+            "key": "g1/training/lv",
             "group": "g1",
             "dataset": "training",
             "lang": "lv",
             "note": "lv: no courseTrainingCards.js (LV embedded / ET absent)"
           },
           {
+            "key": "g1/training/et",
             "group": "g1",
             "dataset": "training",
             "lang": "et",
@@ -89,7 +83,14 @@
     },
     "F0_7_production_diff_zero": {
       "pass": true,
-      "productionDiff": "(clean)"
+      "baseline": "93c372824359b00bd73d37ae3193bdf587118e75...HEAD",
+      "paths": [
+        "data",
+        "www/data",
+        "languages"
+      ],
+      "productionDiff": "(clean)",
+      "changedCount": 0
     },
     "F0_8_all_groups_coverage": {
       "pass": true,
@@ -111,15 +112,10 @@
       "langs": 32,
       "roundTripPassed": 319,
       "roundTripFailed": 0,
-      "roundTripSkippedMissingDataset": 1,
-      "note": "Skipped g1-training = EXPECTED_NOT_APPLICABLE for lv/et (no courseTrainingCards.js)",
-      "expectedNotApplicable": [
-        {
-          "lang": "et",
-          "reason": "training cards missing",
-          "status": "EXPECTED_NOT_APPLICABLE"
-        }
-      ]
+      "roundTripSkipped": 1,
+      "roundTripUnexpectedSkips": 0,
+      "structuralMissingScopes": 0,
+      "note": "Full group coverage with baseline-clean production paths"
     }
   },
   "roundTripFailures": [],

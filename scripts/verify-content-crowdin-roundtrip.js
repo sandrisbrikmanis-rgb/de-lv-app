@@ -15,6 +15,7 @@ const {
   G2_LEVELS,
   verifyRoundTrip,
 } = require("./lib/content-crowdin-bridge");
+const { isAllowedRoundTripSkip } = require("./lib/content-discovery/discovery-scope");
 
 const G1_GROUPS = ["g1-sentences", "g1-verbs", "g1-training"];
 
@@ -68,6 +69,7 @@ function main() {
   const { langs, groups, levels } = parseArgs(process.argv);
   const failures = [];
   const skipped = [];
+  const unexpectedSkips = [];
   let passed = 0;
 
   for (const group of groups) {
@@ -85,6 +87,9 @@ function main() {
           const result = verifyRoundTrip({ group, lang, level });
           if (result.skipped) {
             skipped.push(`${group}/${level}/${lang}: ${result.reason}`);
+            if (!isAllowedRoundTripSkip({ group, lang, skipped: true })) {
+              unexpectedSkips.push(`${group}/${level}/${lang}: ${result.reason}`);
+            }
             continue;
           }
           if (!result.pass) {
@@ -100,6 +105,9 @@ function main() {
         const result = verifyRoundTrip({ group, lang });
         if (result.skipped) {
           skipped.push(`${group}/${lang}: ${result.reason}`);
+          if (!isAllowedRoundTripSkip({ group, lang, skipped: true })) {
+            unexpectedSkips.push(`${group}/${lang}: ${result.reason}`);
+          }
           continue;
         }
         if (!result.pass) {
@@ -114,6 +122,12 @@ function main() {
 
   console.log("");
   console.log(`Passed: ${passed} | Failed: ${failures.length} | Skipped: ${skipped.length}`);
+
+  if (unexpectedSkips.length) {
+    console.error("\nContent Crowdin round-trip: unexpected SKIPPED cases (only g1-training/et allowed):");
+    for (const msg of unexpectedSkips) console.error(`  - ${msg}`);
+    process.exit(1);
+  }
 
   if (failures.length) {
     console.error("\nContent Crowdin round-trip FAILED:");

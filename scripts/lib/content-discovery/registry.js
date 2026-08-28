@@ -3,7 +3,6 @@
 
 const fs = require("fs");
 const path = require("path");
-const { execSync } = require("child_process");
 const { ROOT } = require("../audit-common");
 const {
   CONTENT_LANGUAGES,
@@ -11,6 +10,7 @@ const {
   G2_LEVELS,
 } = require("../content-crowdin-bridge/constants");
 const { runBaselineGate } = require("./baseline-gate");
+const { gitProductionDiffAgainstBaseline } = require("./git-baseline");
 const { collectG2Structural, collectG1SentencesStructural, collectG1VerbsStructural, collectG1TrainingStructural, collectG3CourseLessonsStructural } = require("./collectors/structural");
 const { collectG2DeCompliance } = require("./collectors/de-compliance");
 const { collectG2MultiTranslation, collectG1SentencesMultiTranslation } = require("./collectors/multi-translation");
@@ -190,6 +190,8 @@ function runContentDiscovery(options = {}) {
           group,
           dataset,
           lang,
+          scopeKey: `${group}/${dataset}/${lang}`,
+          scopeExecuted: true,
           ...stats,
           findings: scoped.length,
           critical,
@@ -253,12 +255,8 @@ function writeDiscoveryReports(matrix, options = {}) {
   return { outJson, outMd };
 }
 
-function gitProductionDiff() {
-  try {
-    return execSync("git diff --name-only HEAD -- data www/data", { cwd: ROOT, encoding: "utf8" }).trim();
-  } catch {
-    return "";
-  }
+function gitProductionDiff(originMainSha) {
+  return gitProductionDiffAgainstBaseline(originMainSha);
 }
 
 module.exports = {
