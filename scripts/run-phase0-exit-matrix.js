@@ -120,7 +120,7 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
           discovery?.baseline?.revParseStatus === "PASS" &&
           !discovery?.baseline?.deDiffError &&
           Boolean(discovery?.originMainSha) &&
-          (discovery?.baseline?.unmergedClosureCount ?? 0) === 0,
+          (discovery?.baseline?.activeUnmergedClosureCount ?? 0) === 0,
         baselineVerdict: discovery?.baselineVerdict,
         fetchStatus: discovery?.baseline?.fetchStatus || null,
         fetchError: discovery?.baseline?.fetchError || null,
@@ -129,8 +129,12 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
         deDiffBaseline: discovery?.baseline?.deDiffBaseline,
         deChanges: discovery?.baseline?.deChanges || [],
         deDiffError: discovery?.baseline?.deDiffError || null,
-        unmergedClosureCount: discovery?.baseline?.unmergedClosureCount ?? 0,
-        unmergedClosureCandidates: (discovery?.baseline?.unmergedClosureCandidates || []).slice(0, 20),
+        unmergedClosureCountRaw: discovery?.baseline?.unmergedClosureCountRaw ?? 0,
+        unmergedClosureClassification: discovery?.baseline?.unmergedClosureClassification || null,
+        activeUnmergedClosureCount: discovery?.baseline?.activeUnmergedClosureCount ?? 0,
+        needsOwnerReviewCount: discovery?.baseline?.needsOwnerReviewCount ?? 0,
+        activeUnmergedClosureCandidates: discovery?.baseline?.activeUnmergedClosureCandidates || [],
+        classificationReport: discovery?.baseline?.classificationReportMd || null,
       },
       F0_6_deterministic_collectors: {
         pass: structuralCoverage.pass,
@@ -216,7 +220,7 @@ function main() {
     console.log(`Unexpected skips: ${exitMatrix.gates.F0_3_roundtrip.unexpectedSkips.length}`);
   }
   console.log(`F0-6 structural scopes: ${exitMatrix.gates.F0_6_deterministic_collectors.pass ? "PASS" : "FAIL"} (${exitMatrix.gates.F0_6_deterministic_collectors.structuralCoverage.executedCount}/${exitMatrix.gates.F0_6_deterministic_collectors.structuralCoverage.expectedCount})`);
-  console.log(`F0-5 baseline: ${exitMatrix.gates.F0_5_baseline_header.pass ? "PASS" : "FAIL"} (unmergedClosure=${exitMatrix.gates.F0_5_baseline_header.unmergedClosureCount})`);
+  console.log(`F0-5 baseline: ${exitMatrix.gates.F0_5_baseline_header.pass ? "PASS" : "FAIL"} (raw=${exitMatrix.gates.F0_5_baseline_header.unmergedClosureCountRaw}, active=${exitMatrix.gates.F0_5_baseline_header.activeUnmergedClosureCount}, ownerReview=${exitMatrix.gates.F0_5_baseline_header.needsOwnerReviewCount})`);
   console.log(`Production diff (${exitMatrix.gates.F0_7_production_diff_zero.baseline}): ${exitMatrix.gates.F0_7_production_diff_zero.pass ? "CLEAN" : exitMatrix.gates.F0_7_production_diff_zero.changedCount + " files"}`);
   console.log(`Discovery: ${outJson}`);
   console.log(`Exit matrix: ${outExit}`);

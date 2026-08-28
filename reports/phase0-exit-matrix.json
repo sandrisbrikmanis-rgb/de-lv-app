@@ -1,7 +1,7 @@
 {
   "status": "PHASE_0_INCOMPLETE",
   "verdict": "MERGE_BLOCKED — PHASE_0_INCOMPLETE",
-  "generatedAt": "2026-08-28T18:15:11.169Z",
+  "generatedAt": "2026-08-28T18:23:22.641Z",
   "masterVersion": "1.12",
   "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
   "gates": {
@@ -74,29 +74,54 @@
       "deDiffBaseline": "93c372824359b00bd73d37ae3193bdf587118e75...HEAD",
       "deChanges": [],
       "deDiffError": null,
-      "unmergedClosureCount": 90,
-      "unmergedClosureCandidates": [
-        "origin/codex/es-kurss-pronunciation-owner-repair",
-        "origin/cursor/audit-kurss-content-5a8d",
-        "origin/cursor/bs-a2-final-audit-c1b5",
-        "origin/cursor/bs-a2-full-audit-c1b5",
-        "origin/cursor/bs-c2-full-linguistic-audit-c1b5",
-        "origin/cursor/bs-c2-linguistic-audit-only-c1b5",
-        "origin/cursor/bs-c2-targeted-regression-audit-c1b5",
-        "origin/cursor/cs-a1-critical-final-repair-6ea4",
-        "origin/cursor/cs-a1-final-702-audit-on-main-6ea4",
-        "origin/cursor/cs-a1-final-audit-on-main-6ea4",
-        "origin/cursor/cs-a1-final-closure-audit-on-main-6ea4",
-        "origin/cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
-        "origin/cursor/cs-a1-final-main-repair-batch101-150-6ea4",
-        "origin/cursor/cs-a1-final-main-repair-batch51-100-6ea4",
-        "origin/cursor/cs-a1-final-missing-study-parity-repair-6ea4",
-        "origin/cursor/cs-a1-final-post-repair-audit-6ea4",
-        "origin/cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
-        "origin/cursor/cs-a1-full-review-repair-block01-6ea4",
-        "origin/cursor/cs-a1-full-review-repair-block02-6ea4",
-        "origin/cursor/cs-a1-full-review-repair-block03-6ea4"
-      ]
+      "unmergedClosureCountRaw": 90,
+      "unmergedClosureClassification": {
+        "INTEGRATED_HISTORICAL": 37,
+        "CLOSED_SUPERSEDED": 0,
+        "ACTIVE_UNMERGED_CLOSURE": 2,
+        "NEEDS_OWNER_REVIEW": 51
+      },
+      "activeUnmergedClosureCount": 2,
+      "needsOwnerReviewCount": 51,
+      "activeUnmergedClosureCandidates": [
+        {
+          "ref": "origin/cursor/cs-kurs-articles-full-audit-6850",
+          "headRefName": "cursor/cs-kurs-articles-full-audit-6850",
+          "tipSha": "fd2178e22676bfedcc1b482ff7a1dd55323455be",
+          "category": "ACTIVE_UNMERGED_CLOSURE",
+          "reason": "Open non-draft PR #528 with production content not on origin/main",
+          "productionContentDiffFiles": [
+            "data/cs/courseLessons.js",
+            "www/data/cs/courseLessons.js"
+          ],
+          "pr": {
+            "number": 528,
+            "state": "OPEN",
+            "isDraft": false,
+            "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528",
+            "title": "CS–DE Kurss Členy: full audit + OWNER review complete (#001–#315)"
+          }
+        },
+        {
+          "ref": "origin/cursor/en-b1-critical-repair-6850",
+          "headRefName": "cursor/en-b1-critical-repair-6850",
+          "tipSha": "272319f03e6db693db5bd0fdffe8e959b43acc79",
+          "category": "ACTIVE_UNMERGED_CLOSURE",
+          "reason": "Open non-draft PR #343 with production content not on origin/main",
+          "productionContentDiffFiles": [
+            "data/en/b1.js",
+            "www/data/en/b1.js"
+          ],
+          "pr": {
+            "number": 343,
+            "state": "OPEN",
+            "isDraft": false,
+            "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343",
+            "title": "fix(en-b1): CRITICAL cycle closed — ready for HIGH owner review"
+          }
+        }
+      ],
+      "classificationReport": "/workspace/reports/unmerged-closure-classification-READONLY.md"
     },
     "F0_6_deterministic_collectors": {
       "pass": false,

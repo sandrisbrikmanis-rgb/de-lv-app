@@ -236,12 +236,27 @@ function writeDiscoveryReports(matrix, options = {}) {
     `**Mode:** ${matrix.mode}`,
     `**Production changes:** ${matrix.productionChanges}`,
     `**Verdict:** ${matrix.verdict}`,
+  ];
+
+  const closure = matrix.baseline;
+  if (closure?.unmergedClosureCountRaw != null) {
+    lines.push(
+      `**Unmerged closure (raw):** ${closure.unmergedClosureCountRaw}`,
+      `**Active D1 blockers:** ${closure.activeUnmergedClosureCount ?? 0}`,
+      `**Needs OWNER review:** ${closure.needsOwnerReviewCount ?? 0}`,
+    );
+    if (closure.classificationReportMd) {
+      lines.push(`**Classification report:** \`${path.basename(closure.classificationReportMd)}\``);
+    }
+  }
+
+  lines.push(
     "",
     "## Summary",
     "",
     "| Group | Dataset | Lang | Findings | Critical | High | Verdict |",
     "|-------|---------|------|----------|----------|------|---------|",
-  ];
+  );
 
   for (const row of matrix.summary) {
     lines.push(

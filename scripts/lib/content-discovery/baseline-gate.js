@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
+const path = require("path");
 const { ROOT } = require("../audit-common");
 const { MASTER_VERSION, G2_LEVELS } = require("../content-crowdin-bridge/constants");
 const {
@@ -9,6 +10,10 @@ const {
   gitDeDiffAgainstBaseline,
   fileBlobSha,
 } = require("./git-baseline");
+const {
+  classifyUnmergedClosureCandidates,
+  writeClassificationReports,
+} = require("./unmerged-closure-classifier");
 
 function runBaselineGate() {
   const origin = resolveOriginMainSha();
@@ -58,28 +63,49 @@ function runBaselineGate() {
     });
   }
 
+  let closureClassification = null;
+  let classificationReports = null;
+
+  if (origin.fetchStatus === "PASS" && origin.revParseStatus === "PASS") {
+    closureClassification = classifyUnmergedClosureCandidates();
+    classificationReports = writeClassificationReports(closureClassification, {
+      outJson: path.join(ROOT, "reports", "unmerged-closure-classification-READONLY.json"),
+      outMd: path.join(ROOT, "reports", "unmerged-closure-classification-READONLY.md"),
+    });
+
+    if (!closureClassification.ok) {
+      blockers.push({
+        code: "BLOCKED_UNMERGED_CLOSURE_CLASSIFICATION_FAILED",
+        message: closureClassification.error || "Could not classify unmerged closure candidates",
+      });
+    } else if (closureClassification.ghPrLookupError) {
+      blockers.push({
+        code: "BLOCKED_GH_PR_LOOKUP_FAILED",
+        message: closureClassification.ghPrLookupError,
+      });
+    } else if (closureClassification.activeUnmergedClosureCount > 0) {
+      blockers.push({
+        code: "BLOCKED_UNMERGED_CLOSURE",
+        message: `${closureClassification.activeUnmergedClosureCount} active unmerged closure branch(es) with production content not on origin/main`,
+        active: closureClassification.activeUnmergedClosureCandidates.map((c) => ({
+          ref: c.ref,
+          pr: c.pr?.number,
+          url: c.pr?.url,
+          files: c.productionContentDiffFiles,
+        })),
+        count: closureClassification.activeUnmergedClosureCount,
+      });
+    }
+  }
+
   const unmergedResult =
     origin.fetchStatus === "PASS" ? git("git branch -r --no-merged origin/main") : { ok: false, stdout: "" };
-  const unmergedClosureCandidates = unmergedResult.ok
+  const unmergedClosureCandidatesRaw = unmergedResult.ok
     ? unmergedResult.stdout
         .split("\n")
         .map((b) => b.trim())
         .filter((name) => name && /closure|repair|audit/i.test(name))
     : [];
-
-  if (!unmergedResult.ok && origin.fetchStatus === "PASS") {
-    blockers.push({
-      code: "BLOCKED_GIT_UNMERGED_FAILED",
-      message: unmergedResult.stderr || unmergedResult.error || "git branch --no-merged failed",
-    });
-  } else if (unmergedClosureCandidates.length > 0) {
-    blockers.push({
-      code: "BLOCKED_UNMERGED_CLOSURE_CANDIDATES",
-      message: `Remote closure/repair/audit branches not merged to origin/main: ${unmergedClosureCandidates.length} found`,
-      branches: unmergedClosureCandidates.slice(0, 20),
-      count: unmergedClosureCandidates.length,
-    });
-  }
 
   const header = {
     masterStandardVersion: MASTER_VERSION,
@@ -94,8 +120,15 @@ function runBaselineGate() {
     deChanges: deDiff,
     deDiffBaseline: originMainSha ? `${originMainSha}...HEAD` : null,
     deDiffError: deDiffResult.error || null,
-    unmergedClosureCandidates,
-    unmergedClosureCount: unmergedClosureCandidates.length,
+    unmergedClosureCandidatesRaw,
+    unmergedClosureCountRaw: unmergedClosureCandidatesRaw.length,
+    unmergedClosureClassification: closureClassification?.summary || null,
+    activeUnmergedClosureCount: closureClassification?.activeUnmergedClosureCount ?? null,
+    needsOwnerReviewCount: closureClassification?.needsOwnerReviewCount ?? null,
+    activeUnmergedClosureCandidates: closureClassification?.activeUnmergedClosureCandidates || [],
+    needsOwnerReviewSample: (closureClassification?.needsOwnerReviewCandidates || []).slice(0, 20),
+    classificationReportJson: classificationReports?.outJson || null,
+    classificationReportMd: classificationReports?.outMd || null,
     datasetBlobs: {},
     verdict: blockers.length > 0 ? "BLOCKED" : "PASS",
     blockers,
