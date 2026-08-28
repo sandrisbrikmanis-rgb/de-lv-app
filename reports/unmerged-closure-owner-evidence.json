@@ -9730,7 +9730,7 @@
     "MERGE": "FORBIDDEN"
   },
   "supersededValidation": {
-    "generatedAt": "2026-08-28T18:54:50.801Z",
+    "generatedAt": "2026-08-28T19:04:54.403Z",
     "summary": {
       "evidence": {
         "EVIDENCE_SUFFICIENT": 12,
@@ -9773,5 +9773,16 @@
     },
     "reportJson": "/workspace/reports/unmerged-closure-superseded-validation.json",
     "reportMd": "/workspace/reports/unmerged-closure-superseded-validation.md"
+  },
+  "ownerReviewPackage": {
+    "generatedAt": "2026-08-28T19:04:49.520Z",
+    "ownerAutoAccepted": "0/53",
+    "ownerPending": "53/53",
+    "recommendedCategorySummary": {
+      "NEEDS_SOURCE_REVIEW": 40,
+      "CLOSED_SUPERSEDED": 12,
+      "BLOCKED_OWNER_DECISION": 1
+    },
+    "packageJson": "/workspace/reports/unmerged-closure-owner-review-package.json"
   }
 }

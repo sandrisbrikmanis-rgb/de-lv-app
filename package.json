@@ -30,6 +30,8 @@
     "i18n:content:unmerged-closure-classify": "node scripts/run-unmerged-closure-classification.js",
     "i18n:content:unmerged-closure-owner-prep": "node scripts/run-unmerged-closure-owner-prep-audit.js",
     "i18n:content:unmerged-closure-superseded-validate": "node scripts/run-unmerged-closure-superseded-validation.js",
+    "i18n:content:unmerged-closure-owner-decision-prep": "node scripts/run-unmerged-closure-owner-decision-prep.js",
+    "i18n:content:unmerged-closure-owner-review-package": "node scripts/run-unmerged-closure-owner-review-package.js",
     "i18n:content:phase0-exit": "node scripts/run-phase0-exit-matrix.js"
   },
   "keywords": [],

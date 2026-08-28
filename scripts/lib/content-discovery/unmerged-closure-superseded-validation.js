@@ -655,50 +655,63 @@ function mergeValidationIntoArtifacts(validationResult, options = {}) {
     git("git rev-parse --abbrev-ref HEAD").stdout || "cursor/phase0-content-bridge-ab00";
   const base = `https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/${branch}`;
 
-  const viewHeader = [
-    "# Unmerged closure — OWNER view (53/53 READ-ONLY prep + validation)",
-    "",
-    `**Updated:** ${new Date().toISOString()}`,
-    `**ORIGIN_MAIN_SHA:** \`${validationResult.baseline.originMainSha}\``,
-    `**Validation:** EVIDENCE_SUFFICIENT=${validationResult.summary.evidence.EVIDENCE_SUFFICIENT || 0}, EVIDENCE_INSUFFICIENT=${validationResult.summary.evidence.EVIDENCE_INSUFFICIENT || 0}`,
-    `**OWNER decisions:** 0/53 (resolvedCategory remains null)`,
-    "",
-    "See `reports/unmerged-closure-superseded-validation.md` for full A→B→C field validation.",
-    "",
-  ].join("\n");
-
-  let viewBody = "";
-  if (fs.existsSync(viewPath)) {
-    const existing = fs.readFileSync(viewPath, "utf8");
-    const idx = existing.indexOf("## PROPOSED summary");
-    viewBody = idx >= 0 ? existing.slice(idx) : existing;
+  const reviewPackagePath = path.join(ROOT, "reports", "unmerged-closure-owner-review-package.json");
+  let hasReviewPackage = false;
+  if (fs.existsSync(reviewPackagePath)) {
+    try {
+      const pkg = JSON.parse(fs.readFileSync(reviewPackagePath, "utf8"));
+      hasReviewPackage = pkg.mode === "OWNER_REVIEW_PACKAGE_READY";
+    } catch {
+      hasReviewPackage = false;
+    }
   }
-  fs.writeFileSync(viewPath, `${viewHeader}${viewBody}`, "utf8");
 
-  const githubLines = [
-    "# Unmerged closure — GitHub OWNER index (53/53)",
-    "",
-    `**PR #693:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/693`,
-    "",
-    "## Artefacts",
-    "",
-    `| Artefact | Link |`,
-    `|----------|------|`,
-    `| Superseded validation MD | [unmerged-closure-superseded-validation.md](${base}/reports/unmerged-closure-superseded-validation.md) |`,
-    `| Superseded validation JSON | [unmerged-closure-superseded-validation.json](${base}/reports/unmerged-closure-superseded-validation.json) |`,
-    `| OWNER view | [unmerged-closure-owner-view.md](${base}/reports/unmerged-closure-owner-view.md) |`,
-    `| Evidence JSON | [unmerged-closure-owner-evidence.json](${base}/reports/unmerged-closure-owner-evidence.json) |`,
-    `| Decisions template | [unmerged-closure-owner-decisions.json](${base}/reports/unmerged-closure-owner-decisions.json) |`,
-    "",
-    "## Priority PRs",
-    "",
-    "- [#343 EN B1](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343)",
-    "- [#528 CS Kurss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528)",
-    "",
-  ];
-  fs.writeFileSync(githubPath, `${githubLines.join("\n")}\n`, "utf8");
+  if (!hasReviewPackage) {
+    const viewHeader = [
+      "# Unmerged closure — OWNER view (53/53 READ-ONLY prep + validation)",
+      "",
+      `**Updated:** ${new Date().toISOString()}`,
+      `**ORIGIN_MAIN_SHA:** \`${validationResult.baseline.originMainSha}\``,
+      `**Validation:** EVIDENCE_SUFFICIENT=${validationResult.summary.evidence.EVIDENCE_SUFFICIENT || 0}, EVIDENCE_INSUFFICIENT=${validationResult.summary.evidence.EVIDENCE_INSUFFICIENT || 0}`,
+      `**OWNER decisions:** 0/53 (resolvedCategory remains null)`,
+      "",
+      "See `reports/unmerged-closure-superseded-validation.md` for full A→B→C field validation.",
+      "",
+    ].join("\n");
 
-  return { decisionsPath, evidencePath, viewPath, githubPath };
+    let viewBody = "";
+    if (fs.existsSync(viewPath)) {
+      const existing = fs.readFileSync(viewPath, "utf8");
+      const idx = existing.indexOf("## PROPOSED summary");
+      viewBody = idx >= 0 ? existing.slice(idx) : existing;
+    }
+    fs.writeFileSync(viewPath, `${viewHeader}${viewBody}`, "utf8");
+
+    const githubLines = [
+      "# Unmerged closure — GitHub OWNER index (53/53)",
+      "",
+      `**PR #693:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/693`,
+      "",
+      "## Artefacts",
+      "",
+      `| Artefact | Link |`,
+      `|----------|------|`,
+      `| Superseded validation MD | [unmerged-closure-superseded-validation.md](${base}/reports/unmerged-closure-superseded-validation.md) |`,
+      `| Superseded validation JSON | [unmerged-closure-superseded-validation.json](${base}/reports/unmerged-closure-superseded-validation.json) |`,
+      `| OWNER view | [unmerged-closure-owner-view.md](${base}/reports/unmerged-closure-owner-view.md) |`,
+      `| Evidence JSON | [unmerged-closure-owner-evidence.json](${base}/reports/unmerged-closure-owner-evidence.json) |`,
+      `| Decisions template | [unmerged-closure-owner-decisions.json](${base}/reports/unmerged-closure-owner-decisions.json) |`,
+      "",
+      "## Priority PRs",
+      "",
+      "- [#343 EN B1](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343)",
+      "- [#528 CS Kurss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528)",
+      "",
+    ];
+    fs.writeFileSync(githubPath, `${githubLines.join("\n")}\n`, "utf8");
+  }
+
+  return { decisionsPath, evidencePath, viewPath, githubPath, skippedViewGithub: hasReviewPackage };
 }
 
 module.exports = {
