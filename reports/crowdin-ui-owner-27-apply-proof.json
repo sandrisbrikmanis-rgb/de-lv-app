@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-08-28T13:25:58.170Z",
+    "generatedAt": "2026-08-28T13:28:07.576Z",
     "projectId": 923473,
     "sourceFilePath": "/main/crowdin/ui/lv.json",
     "REQUESTED": 27,
@@ -12,6 +12,7 @@
     "NELABOT_CHANGED": 0,
     "SOURCE_TEXTS_CHANGED": 0,
     "TOKEN_EXPOSED": "NO",
+    "idempotentRerunVerified": true,
     "result": "PASS"
   },
   "entries": [

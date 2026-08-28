@@ -1,6 +1,6 @@
 # Crowdin UI — OWNER 27 LABOT apply proof
 
-**Generated:** 2026-08-28T13:25:58.170Z  
+**Generated:** 2026-08-28T13:28:07.576Z  
 **Project ID:** 923473  
 **Source file:** `/main/crowdin/ui/lv.json`  
 **LABOT manifest:** `reports/crowdin-ui-intentional-same-owner-decisions.json` (NEW values)  

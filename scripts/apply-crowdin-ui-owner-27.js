@@ -282,6 +282,7 @@ async function main() {
     NELABOT_CHANGED: 0,
     SOURCE_TEXTS_CHANGED: 0,
     TOKEN_EXPOSED: "NO",
+    idempotentRerunVerified: false,
     result: "PENDING",
   };
 
@@ -591,6 +592,8 @@ async function main() {
     summary.NELABOT_CHANGED === 0 &&
     summary.SOURCE_TEXTS_CHANGED === 0 &&
     summary.TOKEN_EXPOSED === "NO";
+
+  summary.idempotentRerunVerified = summary.APPLIED === 0 && summary.ALREADY_APPLIED === 27;
 
   summary.result = pass ? "PASS" : "FAIL";
   entries.sort((a, b) => `${a.language}\t${a.key}`.localeCompare(`${b.language}\t${b.key}`));
