@@ -1,30 +1,19 @@
 # Unmerged closure — GitHub OWNER index (53/53)
 
-**PR #693:** [Phase 0 content bridge](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/693)
-**Branch:** `cursor/phase0-content-bridge-ab00`
+**PR #693:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/693
 
-## OWNER artefacts
+## Artefacts
 
 | Artefact | Link |
 |----------|------|
-| OWNER view (53/53) | [unmerged-closure-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/phase0-content-bridge-ab00/reports/unmerged-closure-owner-view.md) |
+| Superseded validation MD | [unmerged-closure-superseded-validation.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/phase0-content-bridge-ab00/reports/unmerged-closure-superseded-validation.md) |
+| Superseded validation JSON | [unmerged-closure-superseded-validation.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/phase0-content-bridge-ab00/reports/unmerged-closure-superseded-validation.json) |
+| OWNER view | [unmerged-closure-owner-view.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/phase0-content-bridge-ab00/reports/unmerged-closure-owner-view.md) |
 | Evidence JSON | [unmerged-closure-owner-evidence.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/phase0-content-bridge-ab00/reports/unmerged-closure-owner-evidence.json) |
-| Decisions template (null OWNER fields) | [unmerged-closure-owner-decisions.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/phase0-content-bridge-ab00/reports/unmerged-closure-owner-decisions.json) |
-| Classification source | [unmerged-closure-classification-READONLY.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/phase0-content-bridge-ab00/reports/unmerged-closure-classification-READONLY.json) |
-| Prep README | [unmerged-closure-owner-review-README.md](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/phase0-content-bridge-ab00/reports/unmerged-closure-owner-review-README.md) |
+| Decisions template | [unmerged-closure-owner-decisions.json](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/phase0-content-bridge-ab00/reports/unmerged-closure-owner-decisions.json) |
 
 ## Priority PRs
 
-| PR | Branch | GitHub |
-|----|--------|--------|
-| [#343](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343) | `cursor/en-b1-critical-repair-6850` | EN–DE B1 |
-| [#528](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528) | `cursor/cs-kurs-articles-full-audit-6850` | CS–DE Kurss |
-
-## Verification
-
-```bash
-npm run i18n:content:unmerged-closure-owner-prep
-npm run i18n:content:unmerged-closure-classify
-npm run i18n:content:phase0-exit
-```
+- [#343 EN B1](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343)
+- [#528 CS Kurss](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528)
 

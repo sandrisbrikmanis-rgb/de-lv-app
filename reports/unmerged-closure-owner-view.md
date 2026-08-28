@@ -1,13 +1,11 @@
-# Unmerged closure — OWNER view (53/53 READ-ONLY prep)
+# Unmerged closure — OWNER view (53/53 READ-ONLY prep + validation)
 
-**Generated:** 2026-08-28T18:44:36.001Z
-**MASTER:** 1.12
+**Updated:** 2026-08-28T18:54:50.816Z
 **ORIGIN_MAIN_SHA:** `93c372824359b00bd73d37ae3193bdf587118e75`
-**PR #693 HEAD:** `7dd4d243ce81aa8762e4ee6d0dbd538a663b944f`
-**Scope:** 53/53 · duplicates 0 · missing 0
-**OWNER decisions:** 0/53 (all `resolvedCategory` null)
-**Verdict:** NEEDS_OWNER_REVIEW
+**Validation:** EVIDENCE_SUFFICIENT=12, EVIDENCE_INSUFFICIENT=41
+**OWNER decisions:** 0/53 (resolvedCategory remains null)
 
+See `reports/unmerged-closure-superseded-validation.md` for full A→B→C field validation.
 ## PROPOSED summary (not OWNER decisions)
 
 | PROPOSED_CATEGORY | Count |
