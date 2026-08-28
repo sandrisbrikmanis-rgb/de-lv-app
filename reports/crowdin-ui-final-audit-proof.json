@@ -1,0 +1,2006 @@
+{
+  "summary": {
+    "generatedAt": "2026-08-28T14:34:16.011Z",
+    "auditCommit": "2e8899cc1b31fe8b78c2d6e3e4f26164ee610256",
+    "pullRequest": 691,
+    "branch": "cursor/crowdin-ui-untranslated-audit-06ff",
+    "mode": "READ-ONLY",
+    "before": {
+      "auditCommit": "cf262998",
+      "lbRealUntranslated": 202,
+      "globalRealUntranslated": 202,
+      "globalNeedsOwnerReview": 194
+    },
+    "after": {
+      "lbRealUntranslated": 0,
+      "globalRealUntranslated": 0,
+      "globalNeedsOwnerReview": 194,
+      "globalIntentionalSame": 165,
+      "placeholderErrors": 0,
+      "htmlErrors": 0,
+      "missingKeys": 0,
+      "extraKeys": 0,
+      "emptyValues": 0
+    },
+    "delta": {
+      "lbRealUntranslated": "202 → 0",
+      "globalRealUntranslated": "202 → 0",
+      "globalNeedsOwnerReview": "194 → 194"
+    },
+    "checks": {
+      "lbRealUntranslatedZero": true,
+      "globalRealUntranslatedZero": true,
+      "placeholderErrorsZero": true,
+      "htmlErrorsZero": true,
+      "structuralKeysZero": true,
+      "i18nVerifyPass": true,
+      "languagesParsed32": true,
+      "nelabotUnchanged": true,
+      "lbRepo202Matched": true,
+      "crowdinLb202Matched": true,
+      "lockLabelsOn7Keys": true
+    },
+    "nelabot": {
+      "requested": 165,
+      "unchanged": 165,
+      "mismatch": 0
+    },
+    "lbRepo202": {
+      "requested": 202,
+      "matched": 202,
+      "mismatch": 0,
+      "failures": []
+    },
+    "crowdin": {
+      "labelTitle": "owner-lock-no-auto-translate",
+      "labelsRequested": 7,
+      "labelsVerified": 7,
+      "labelResults": [
+        {
+          "key": "direction.deToNative",
+          "string_id": 106,
+          "labeled": true
+        },
+        {
+          "key": "direction.nativeToDe",
+          "string_id": 108,
+          "labeled": true
+        },
+        {
+          "key": "kurss.lessonItems.19.menuDesc",
+          "string_id": 256,
+          "labeled": true
+        },
+        {
+          "key": "kurss.lessonItems.21.menuDesc",
+          "string_id": 268,
+          "labeled": true
+        },
+        {
+          "key": "study.table.german",
+          "string_id": 556,
+          "labeled": true
+        },
+        {
+          "key": "verb.hintSessionProgress",
+          "string_id": 584,
+          "labeled": true
+        },
+        {
+          "key": "verb.infinitiv",
+          "string_id": 594,
+          "labeled": true
+        }
+      ],
+      "lbRequested": 202,
+      "lbCrowdinMatched": 202,
+      "lbCrowdinMismatch": 0,
+      "lbFailures": []
+    },
+    "remainingWork": {
+      "total": 194,
+      "byCategory": {
+        "NEEDS_OWNER_REVIEW": 194
+      }
+    },
+    "prReadyForOwnerReview": true,
+    "result": "PASS"
+  },
+  "remainingWork": [
+    {
+      "language": "lt",
+      "key": "card.sessionLabel",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Sesija",
+      "current": "Sesija",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lt",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lt",
+      "key": "kurss.sections.grammar",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Gramatika",
+      "current": "Gramatika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lt",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "pl",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "et",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "et",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.1.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.10.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.11.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.12.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.13.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.14.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.15.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.16.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.17.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.18.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.19.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.2.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.20.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.21.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.3.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.4.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.5.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.6.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.7.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.8.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sl",
+      "key": "kurss.lessonItems.9.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "card.sessionLabel",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Sesija",
+      "current": "Sesija",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.1.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.10.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.11.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.12.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.13.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.14.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.15.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.16.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Dativs, geben, sich nähern.",
+      "current": "Dativs, geben, sich nähern.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.16.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.17.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.18.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.19.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.2.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.20.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.21.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.3.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.4.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.5.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.6.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.7.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.8.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.lessonItems.9.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "bs",
+      "key": "kurss.sections.grammar",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Gramatika",
+      "current": "Gramatika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.1.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.10.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.11.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.12.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.13.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.14.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.15.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.16.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.17.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.18.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.19.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.2.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.20.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.21.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.3.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.4.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.5.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.6.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.7.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.8.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sr",
+      "key": "kurss.lessonItems.9.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.1.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.10.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.11.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.12.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.13.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.14.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.15.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.16.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.17.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.18.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.19.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.2.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.20.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.21.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.3.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.4.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.5.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.6.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.7.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.8.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "hr",
+      "key": "kurss.lessonItems.9.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sk",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "cs",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "cs",
+      "key": "kurss.sections.grammar",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Gramatika",
+      "current": "Gramatika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "fi",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "fi",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sv",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "sv",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "nb",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "nb",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "nn",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "nn",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "nl",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "nl",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "buttons.extraOptions",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Papildu opcijas",
+      "current": "Papildu opcijas",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "buttons.extraOptionsClose",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Papildu opcijas ▲",
+      "current": "Papildu opcijas ▲",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "buttons.extraOptionsOpen",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Papildu opcijas ▼",
+      "current": "Papildu opcijas ▼",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "buttons.restore",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Atgriezt",
+      "current": "Atgriezt",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "buttons.restoreAll",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Atgriezt visu",
+      "current": "Atgriezt visu",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "card.answerPrefix",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Atbilde:",
+      "current": "Atbilde:",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "card.pluralLabel",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Daudzsk.",
+      "current": "Daudzsk.",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "card.sessionComplete",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Sesija pabeigta!",
+      "current": "Sesija pabeigta!",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "card.sessionLabel",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Sesija",
+      "current": "Sesija",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "info.answersTitle",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Atbildes",
+      "current": "Atbildes",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "info.directionTitle",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Tulkojuma virziens",
+      "current": "Tulkojuma virziens",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "info.extraTitle",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Papildu opcijas",
+      "current": "Papildu opcijas",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.articles",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Artikuli",
+      "current": "Artikuli",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.back",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "‹ Kurss",
+      "current": "‹ Kurss",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.exerciseMeta.formDu",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Forma 1/3: Tu (vienskaitlis)",
+      "current": "Forma 1/3: Tu (vienskaitlis)",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.exerciseMeta.translate",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Übung II — tulko",
+      "current": "Übung II — tulko",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.1.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš.",
+      "current": "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.1.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.10.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Sein, können, veselība, vecums un profesijas.",
+      "current": "Sein, können, veselība, vecums un profesijas.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.10.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.11.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi.",
+      "current": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.11.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.12.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Salīdzināmās pakāpes, als/wie, vecums un krāsas.",
+      "current": "Salīdzināmās pakāpes, als/wie, vecums un krāsas.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.12.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.13.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Der Körper, ķermeņa daļas, turnen un jeder.",
+      "current": "Der Körper, ķermeņa daļas, turnen un jeder.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.13.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.14.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "müssen, wollen, mögen un modālie darbības vārdi.",
+      "current": "müssen, wollen, mögen un modālie darbības vārdi.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.14.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.15.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "sollen, dürfen, essen un augļi.",
+      "current": "sollen, dürfen, essen un augļi.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.15.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.16.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Dativs, geben, sich nähern.",
+      "current": "Dativs, geben, sich nähern.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.16.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.17.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.18.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.19.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.2.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "current": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.2.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.20.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi.",
+      "current": "Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.20.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.21.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.3.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "current": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.3.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.4.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi.",
+      "current": "Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.4.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.5.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Wen?, akuzatīvs, sitzen, fragen un -in galotne.",
+      "current": "Wen?, akuzatīvs, sitzen, fragen un -in galotne.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.5.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.6.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas.",
+      "current": "Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.6.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.7.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
+      "current": "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.7.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.8.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
+      "current": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.8.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.9.menuDesc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis.",
+      "current": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis.",
+      "detail": "Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.9.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessons",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lekcijas",
+      "current": "Lekcijas",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.panelLabel",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Kurss",
+      "current": "Kurss",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.pronunciation",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Izruna",
+      "current": "Izruna",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.sections.grammar",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Gramatika",
+      "current": "Gramatika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.tipTitle",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Padoms",
+      "current": "Padoms",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.title",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Kurss",
+      "current": "Kurss",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "menu.course",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Kurss",
+      "current": "Kurss",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "modes.easy",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Viegls",
+      "current": "Viegls",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "progress.courseHeading",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Kurss",
+      "current": "Kurss",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "settings.appLanguage",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Lietotnes valoda",
+      "current": "Lietotnes valoda",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "spelling.writeAnswer",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Ieraksti atbildi",
+      "current": "Ieraksti atbildi",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "study.minimal.formsLabel",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Formas:",
+      "current": "Formas:",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "study.minimal.pluralLabel",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "DAUDZSK.",
+      "current": "DAUDZSK.",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "study.minimal.tipLabel",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Padoms:",
+      "current": "Padoms:",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "study.sections.explanation",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Skaidrojums",
+      "current": "Skaidrojums",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "study.sections.remember",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Atceries",
+      "current": "Atceries",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "study.sections.tip",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Padoms",
+      "current": "Padoms",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "study.table.describes",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Raksturo",
+      "current": "Raksturo",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "study.table.translation",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Tulkojums",
+      "current": "Tulkojums",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "lb",
+      "key": "tools.spellingShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Rakst.",
+      "current": "Rakst.",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "verb.guessImperfect",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Uzmini imperfektu",
+      "current": "Uzmini imperfektu",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "verb.present",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Tagadne",
+      "current": "Tagadne",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "verb.translationPrefix",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Tulkojums:",
+      "current": "Tulkojums:",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "lb",
+      "key": "verb.writeImperfect",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Uzraksti imperfektu",
+      "current": "Uzraksti imperfektu",
+      "detail": "Nav droši klasificējams automātiski"
+    },
+    {
+      "language": "it",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "it",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "es",
+      "key": "study.minimal.formsLabel",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Formas:",
+      "current": "Formas:",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "es",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "is",
+      "key": "extra.statistics",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    },
+    {
+      "language": "is",
+      "key": "tools.problemShort",
+      "category": "NEEDS_OWNER_REVIEW",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "detail": "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam"
+    }
+  ],
+  "byLanguage": {
+    "lt": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 4,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "ru": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "pl": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 1,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "uk": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "et": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "en": {
+      "INTENTIONAL_SAME": 5,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "ro": {
+      "INTENTIONAL_SAME": 7,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "bg": {
+      "INTENTIONAL_SAME": 3,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "tr": {
+      "INTENTIONAL_SAME": 5,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "gr": {
+      "INTENTIONAL_SAME": 5,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "sq": {
+      "INTENTIONAL_SAME": 5,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "mk": {
+      "INTENTIONAL_SAME": 3,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "sl": {
+      "INTENTIONAL_SAME": 3,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 21,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "bs": {
+      "INTENTIONAL_SAME": 7,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 25,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "sr": {
+      "INTENTIONAL_SAME": 3,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 21,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "hr": {
+      "INTENTIONAL_SAME": 3,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 21,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "sk": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 1,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "cs": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "fi": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "sv": {
+      "INTENTIONAL_SAME": 7,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "nb": {
+      "INTENTIONAL_SAME": 7,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "nn": {
+      "INTENTIONAL_SAME": 7,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "da": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "nl": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "lb": {
+      "INTENTIONAL_SAME": 7,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 80,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "fr": {
+      "INTENTIONAL_SAME": 2,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "it": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "es": {
+      "INTENTIONAL_SAME": 5,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "pt": {
+      "INTENTIONAL_SAME": 4,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "hu": {
+      "INTENTIONAL_SAME": 5,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 0,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    },
+    "is": {
+      "INTENTIONAL_SAME": 6,
+      "REAL_UNTRANSLATED": 0,
+      "NEEDS_OWNER_REVIEW": 2,
+      "PLACEHOLDER_ERROR": 0,
+      "HTML_ERROR": 0,
+      "missing": 0,
+      "extra": 0,
+      "empty": 0,
+      "keys": 305
+    }
+  }
+}
