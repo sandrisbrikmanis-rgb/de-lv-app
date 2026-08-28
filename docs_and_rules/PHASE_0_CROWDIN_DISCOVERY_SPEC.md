@@ -394,9 +394,30 @@ Katram findingam (§7.4):
 - Crowdin SaaS integrācija (API push) — tikai lokāls JSON formāts `crowdin/content/{group}/{lang}.json`
 - Production import/write
 - OWNER decisions / apply
-- Kurss HTML export
-- LIVE browser tests (G3 — vēlāk)
+- Kurss HTML (`legacyHtml`) Crowdin eksports — atsevišķs G3 posms
+- Luna 100% linguistic audits — Fāze 1
 
 ------------------------------------------------------------------------
 
-**Nākamais solis pēc Fāzes 0 implementācijas:** Fāze 1 pilns READ-ONLY discovery ar Luna + OWNER apjoma apstiprinājums (sk. `MASTER_1.12_BINDING_WORK_AGREEMENT.md` §D).
+## 10. Fāzes 0 statusa definīcijas
+
+| Statuss | Nozīme |
+|---------|--------|
+| `PHASE_0_IN_PROGRESS` | Infrastruktūra tiek būvēta; F0 vārti vēl nav pilni |
+| `PHASE_0_TECHNICAL_PASS` | F0-1…F0-8 PASS uz branch; gaida merge uz `origin/main` |
+| `PHASE_0_COMPLETE` | F0 PASS + post-merge verification uz `main` (A7) |
+| `NEEDS_PHASE_0_COMPLETION` | Trūkst bridge/collectors/coverage; Fāze 1 aizliegta |
+
+**A7 / Master §7.9:** `Branch PASS ≠ MAIN PASS`. F0 PASS uz feature branch
+nav pietiekams, lai sāktu Fāzi 1, kamēr nav `POST_MERGE_MAIN_VERIFICATION`.
+
+Pārbaudes komanda:
+
+```bash
+npm run i18n:content:verify-roundtrip   # 32 langs × g2 a1-c2 + g1 + g3
+npm run i18n:content:phase0-exit          # F0-1…F0-8 matrica
+```
+
+------------------------------------------------------------------------
+
+**Nākamais solis pēc Fāzes 0 merge uz main:** Fāze 1 pilns READ-ONLY discovery ar Luna + OWNER apjoma apstiprinājums (sk. `MASTER_1.12_BINDING_WORK_AGREEMENT.md` §D).

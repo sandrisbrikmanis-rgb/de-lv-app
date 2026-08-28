@@ -1,0 +1,413 @@
+{
+  "status": "PHASE_0_INCOMPLETE",
+  "verdict": "MERGE_BLOCKED — PHASE_0_INCOMPLETE",
+  "generatedAt": "2026-08-28T18:29:38.782Z",
+  "masterVersion": "1.12",
+  "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
+  "gates": {
+    "F0_1_bridge_library": {
+      "pass": true,
+      "note": "content-crowdin-bridge modules present and smoke round-trip OK",
+      "modules": 10,
+      "exports": 6
+    },
+    "F0_2_export_dry_run": {
+      "pass": true,
+      "note": "export-content-crowdin.js dry-run enforced; --write only under crowdin/ (execution verified)",
+      "issues": [],
+      "tests": [
+        {
+          "name": "out_without_write_exit",
+          "exitCode": 0
+        },
+        {
+          "name": "default_dry_run_exit",
+          "exitCode": 0
+        },
+        {
+          "name": "write_outside_crowdin_exit",
+          "exitCode": 1
+        },
+        {
+          "name": "write_under_crowdin_exit",
+          "exitCode": 0
+        }
+      ]
+    },
+    "F0_3_roundtrip": {
+      "pass": true,
+      "passed": 319,
+      "failed": 0,
+      "skipped": 1,
+      "total": 320,
+      "allowedSkips": [
+        {
+          "key": "g1-training/et",
+          "lang": "et",
+          "group": "g1-training",
+          "reason": "training cards missing",
+          "status": "EXPECTED_NOT_APPLICABLE"
+        }
+      ],
+      "unexpectedSkips": [],
+      "trainingCoverage": {
+        "total": 32,
+        "applicable": 31,
+        "lesson7Verified": 31,
+        "lesson7Failures": []
+      },
+      "note": "Only g1-training/et may skip round-trip (EXPECTED_NOT_APPLICABLE)"
+    },
+    "F0_4_discovery_orchestrator": {
+      "pass": false,
+      "note": "run-content-discovery.js with collectors for full scope",
+      "expectedScopes": 320,
+      "executedScopes": 0
+    },
+    "F0_5_baseline_header": {
+      "pass": false,
+      "baselineVerdict": "BLOCKED",
+      "fetchStatus": "PASS",
+      "fetchError": null,
+      "revParseStatus": "PASS",
+      "revParseError": null,
+      "deDiffBaseline": "93c372824359b00bd73d37ae3193bdf587118e75...HEAD",
+      "deChanges": [],
+      "deDiffError": null,
+      "unmergedClosureCountRaw": 90,
+      "unmergedClosureClassification": {
+        "INTEGRATED_HISTORICAL": 37,
+        "CLOSED_SUPERSEDED": 0,
+        "ACTIVE_UNMERGED_CLOSURE": 2,
+        "NEEDS_OWNER_REVIEW": 51
+      },
+      "activeUnmergedClosureCount": 2,
+      "needsOwnerReviewCount": 51,
+      "unresolvedOwnerReviewCount": 51,
+      "ownerDecisionsApplied": 0,
+      "ownerDecisionsPath": "/workspace/reports/unmerged-closure-owner-decisions.json",
+      "activeUnmergedClosureCandidates": [
+        {
+          "ref": "origin/cursor/cs-kurs-articles-full-audit-6850",
+          "headRefName": "cursor/cs-kurs-articles-full-audit-6850",
+          "tipSha": "fd2178e22676bfedcc1b482ff7a1dd55323455be",
+          "category": "ACTIVE_UNMERGED_CLOSURE",
+          "reason": "Open non-draft PR #528 with production content not on origin/main",
+          "productionContentDiffFiles": [
+            "data/cs/courseLessons.js",
+            "www/data/cs/courseLessons.js"
+          ],
+          "pr": {
+            "number": 528,
+            "state": "OPEN",
+            "isDraft": false,
+            "mergeable": "CONFLICTING",
+            "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528",
+            "title": "CS–DE Kurss Členy: full audit + OWNER review complete (#001–#315)"
+          },
+          "ownerDecision": null,
+          "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
+        },
+        {
+          "ref": "origin/cursor/en-b1-critical-repair-6850",
+          "headRefName": "cursor/en-b1-critical-repair-6850",
+          "tipSha": "272319f03e6db693db5bd0fdffe8e959b43acc79",
+          "category": "ACTIVE_UNMERGED_CLOSURE",
+          "reason": "Open non-draft PR #343 with production content not on origin/main",
+          "productionContentDiffFiles": [
+            "data/en/b1.js",
+            "www/data/en/b1.js"
+          ],
+          "pr": {
+            "number": 343,
+            "state": "OPEN",
+            "isDraft": false,
+            "mergeable": "CONFLICTING",
+            "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343",
+            "title": "fix(en-b1): CRITICAL cycle closed — ready for HIGH owner review"
+          },
+          "ownerDecision": null,
+          "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
+        }
+      ],
+      "classificationReport": "/workspace/reports/unmerged-closure-classification-READONLY.md"
+    },
+    "F0_6_deterministic_collectors": {
+      "pass": false,
+      "note": "structural parity executed for every group × dataset × lang scope",
+      "structuralCoverage": {
+        "pass": false,
+        "expectedCount": 320,
+        "executedCount": 0,
+        "missing": [
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "lv",
+            "key": "g2/a1/lv",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "lt",
+            "key": "g2/a1/lt",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "ru",
+            "key": "g2/a1/ru",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "pl",
+            "key": "g2/a1/pl",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "uk",
+            "key": "g2/a1/uk",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "et",
+            "key": "g2/a1/et",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "en",
+            "key": "g2/a1/en",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "ro",
+            "key": "g2/a1/ro",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "bg",
+            "key": "g2/a1/bg",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "tr",
+            "key": "g2/a1/tr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "gr",
+            "key": "g2/a1/gr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sq",
+            "key": "g2/a1/sq",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "mk",
+            "key": "g2/a1/mk",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sl",
+            "key": "g2/a1/sl",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "bs",
+            "key": "g2/a1/bs",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sr",
+            "key": "g2/a1/sr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "hr",
+            "key": "g2/a1/hr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sk",
+            "key": "g2/a1/sk",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "cs",
+            "key": "g2/a1/cs",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "fi",
+            "key": "g2/a1/fi",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sv",
+            "key": "g2/a1/sv",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "nb",
+            "key": "g2/a1/nb",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "nn",
+            "key": "g2/a1/nn",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "da",
+            "key": "g2/a1/da",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "nl",
+            "key": "g2/a1/nl",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "lb",
+            "key": "g2/a1/lb",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "fr",
+            "key": "g2/a1/fr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "it",
+            "key": "g2/a1/it",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "es",
+            "key": "g2/a1/es",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "pt",
+            "key": "g2/a1/pt",
+            "structuralCollector": "g2"
+          }
+        ],
+        "missingCount": 320,
+        "wrongCollector": [],
+        "wrongCollectorCount": 0,
+        "expectedNotApplicable": []
+      }
+    },
+    "F0_7_production_diff_zero": {
+      "pass": true,
+      "baseline": "93c372824359b00bd73d37ae3193bdf587118e75...HEAD",
+      "paths": [
+        "data",
+        "www/data",
+        "languages"
+      ],
+      "productionDiff": "(clean)",
+      "changedCount": 0,
+      "error": null,
+      "fetchStatus": "PASS",
+      "revParseStatus": "PASS"
+    },
+    "F0_8_all_groups_coverage": {
+      "pass": false,
+      "groups": [
+        "g1-sentences",
+        "g1-verbs",
+        "g1-training",
+        "g2",
+        "g3"
+      ],
+      "g2Levels": [
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c1",
+        "c2"
+      ],
+      "langs": 32,
+      "roundTripPassed": 319,
+      "roundTripFailed": 0,
+      "roundTripSkipped": 1,
+      "roundTripUnexpectedSkips": 0,
+      "structuralMissingScopes": 320,
+      "note": "Full group coverage with baseline-clean production paths"
+    }
+  },
+  "roundTripFailures": [],
+  "roundTripSkipped": [
+    {
+      "group": "g1-training",
+      "dataset": "training",
+      "lang": "et",
+      "pass": false,
+      "reason": "training cards missing",
+      "keyCount": 0,
+      "skipped": true
+    }
+  ],
+  "note": "One or more F0 gates failed. Merge and Phase 1 are not allowed."
+}

@@ -1,0 +1,2786 @@
+{
+  "ok": true,
+  "generatedAt": "2026-08-28T18:29:38.698Z",
+  "mode": "READ_ONLY",
+  "ghPrLookupError": null,
+  "unmergedClosureCountRaw": 90,
+  "autoSummary": {
+    "INTEGRATED_HISTORICAL": 37,
+    "CLOSED_SUPERSEDED": 0,
+    "ACTIVE_UNMERGED_CLOSURE": 2,
+    "NEEDS_OWNER_REVIEW": 51
+  },
+  "summary": {
+    "INTEGRATED_HISTORICAL": 37,
+    "CLOSED_SUPERSEDED": 0,
+    "ACTIVE_UNMERGED_CLOSURE": 2,
+    "NEEDS_OWNER_REVIEW": 51
+  },
+  "activeUnmergedClosureCount": 2,
+  "needsOwnerReviewCount": 51,
+  "activeUnmergedClosureCandidates": [
+    {
+      "ref": "origin/cursor/cs-kurs-articles-full-audit-6850",
+      "headRefName": "cursor/cs-kurs-articles-full-audit-6850",
+      "tipSha": "fd2178e22676bfedcc1b482ff7a1dd55323455be",
+      "category": "ACTIVE_UNMERGED_CLOSURE",
+      "reason": "Open non-draft PR #528 with production content not on origin/main",
+      "productionContentDiffFiles": [
+        "data/cs/courseLessons.js",
+        "www/data/cs/courseLessons.js"
+      ],
+      "pr": {
+        "number": 528,
+        "state": "OPEN",
+        "isDraft": false,
+        "mergeable": "CONFLICTING",
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528",
+        "title": "CS–DE Kurss Členy: full audit + OWNER review complete (#001–#315)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
+    },
+    {
+      "ref": "origin/cursor/en-b1-critical-repair-6850",
+      "headRefName": "cursor/en-b1-critical-repair-6850",
+      "tipSha": "272319f03e6db693db5bd0fdffe8e959b43acc79",
+      "category": "ACTIVE_UNMERGED_CLOSURE",
+      "reason": "Open non-draft PR #343 with production content not on origin/main",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 343,
+        "state": "OPEN",
+        "isDraft": false,
+        "mergeable": "CONFLICTING",
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343",
+        "title": "fix(en-b1): CRITICAL cycle closed — ready for HIGH owner review"
+      },
+      "ownerDecision": null,
+      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
+    }
+  ],
+  "needsOwnerReviewCandidates": [
+    {
+      "ref": "origin/cursor/audit-kurss-content-5a8d",
+      "headRefName": "cursor/audit-kurss-content-5a8d",
+      "tipSha": "bac9ca1ae442de030c959d6c571eaee9ca6b0eee",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #123 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/courseLessons.js",
+        "www/data/courseLessons.js"
+      ],
+      "pr": {
+        "number": 123,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/123",
+        "title": "Audit Kurss section: orthography, LV style, and translation fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-critical-final-repair-6ea4",
+      "headRefName": "cursor/cs-a1-critical-final-repair-6ea4",
+      "tipSha": "fb84f93b62cee22d47987c3295cd539d30d6883d",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #423 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 423,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/423",
+        "title": "CS A1 critical final repair: 33/33 OWNER fields"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
+      "headRefName": "cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
+      "tipSha": "cb5d5de485bbff7be410695bf12bd19631b9beb8",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #456 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 456,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/456",
+        "title": "CS-DE A1 final repair block 04 (last 10 fields, 160/160 reconciliation)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-main-repair-batch101-150-6ea4",
+      "headRefName": "cursor/cs-a1-final-main-repair-batch101-150-6ea4",
+      "tipSha": "5cefdabe19428e5cb4e23c773e81f5319a87f74e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #455 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 455,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/455",
+        "title": "CS-DE A1 final main repair batch 101-150 (50 fields)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-main-repair-batch51-100-6ea4",
+      "headRefName": "cursor/cs-a1-final-main-repair-batch51-100-6ea4",
+      "tipSha": "41e6db4c08a24432ed613315afb85ae939191fb8",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #454 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 454,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/454",
+        "title": "CS-DE A1 final main repair batch 51-100 (50 fields)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-missing-study-parity-repair-6ea4",
+      "headRefName": "cursor/cs-a1-final-missing-study-parity-repair-6ea4",
+      "tipSha": "39fed3ce220e3f1a05f0401058f6f4ba85aa3d3e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #458 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 458,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/458",
+        "title": "CS-DE A1 MISSING_STUDY_PARITY repair (14/14)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-post-repair-audit-6ea4",
+      "headRefName": "cursor/cs-a1-final-post-repair-audit-6ea4",
+      "tipSha": "d672651215eba6fb1b05c8046d38092a0591b7bf",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #452 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 452,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/452",
+        "title": "CS–DE A1 final post-repair full audit (702/702, NOT CLOSED)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
+      "headRefName": "cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
+      "tipSha": "698277bf7fe1ebc369155e2c419b5555173f91da",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #459 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 459,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/459",
+        "title": "CS-DE A1 study parity sectionAccents micro-repair (10/10)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block01-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block01-6ea4",
+      "tipSha": "08e9a8626b70832c81cb1fa6df36c73eb98ca284",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #438 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 438,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/438",
+        "title": "CS–DE A1 full review repair block 01: 20/20 csText fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block02-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block02-6ea4",
+      "tipSha": "c09c4a763b07e37848908ae8d893e649ecc257ac",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #439 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 439,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/439",
+        "title": "CS–DE A1 full review repair block 02: 16/17 csText fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block03-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block03-6ea4",
+      "tipSha": "5035ec4f992cd6788c153bfaf59a104b92b8268c",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #440 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 440,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/440",
+        "title": "CS–DE A1 full review repair block 03 (findings 101–150)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block04-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block04-6ea4",
+      "tipSha": "5245080aa16ce6a65674b84b1ce726a7aa9ca940",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #441 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 441,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/441",
+        "title": "CS–DE A1 full review repair block 04 (findings 151–200)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block05-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block05-6ea4",
+      "tipSha": "665a5d15f280e9dd592137092157926d5c94caf7",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #442 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 442,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/442",
+        "title": "CS–DE A1 full review repair block 05 (findings 201–250)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block06-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block06-6ea4",
+      "tipSha": "a84489535295850d300c047826ee593c7aaf51a0",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #443 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 443,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/443",
+        "title": "CS–DE A1 full review repair block 06 (findings 251–300)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block07-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block07-6ea4",
+      "tipSha": "3e5f40273fe74caed18b2355955fec4fdcc06e16",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #444 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 444,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/444",
+        "title": "CS–DE A1 full review repair block 07 (findings 301–350)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block08-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block08-6ea4",
+      "tipSha": "bddf580440055e033568ccc4695ab52f6af8f75b",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #445 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 445,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/445",
+        "title": "CS–DE A1 full review repair block 08 (findings 351–400)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block09-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block09-6ea4",
+      "tipSha": "2df1f0cf2c317b5916e4d75aba5b5f40202cd17e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #446 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 446,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/446",
+        "title": "CS–DE A1 full review repair block 09 (findings 401–450)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block10-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block10-6ea4",
+      "tipSha": "1108ea918a656631a01e7293ed8c8c810747f544",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #447 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 447,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/447",
+        "title": "CS–DE A1 Full Review Repair — Block 10 (Findings 451–500)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block11-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block11-6ea4",
+      "tipSha": "9b59589c394d96a69c59abfb0b6eb33f310c3743",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #448 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 448,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/448",
+        "title": "CS–DE A1 Full Review Repair — Block 11 (Findings 501–550)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block12-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block12-6ea4",
+      "tipSha": "c559de98fb43547408813969da4e67374bc11109",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #449 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 449,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/449",
+        "title": "CS–DE A1 Full Review Repair — Block 12 (Findings 551–600)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-final-closure-check-6ea4",
+      "headRefName": "cursor/cs-a1-high-final-closure-check-6ea4",
+      "tipSha": "9b3ebe3fd1c7d5a3268e02ba37376e85304016cb",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #436 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 436,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/436",
+        "title": "CS–DE A1 HIGH final closure check: CLOSED"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-final-micro-repair-02-6ea4",
+      "headRefName": "cursor/cs-a1-high-final-micro-repair-02-6ea4",
+      "tipSha": "51b11f6951bc6270764100297984d747ad4af9b6",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #435 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 435,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/435",
+        "title": "CS–DE A1 HIGH final micro-repair #2: apply 2/2 OWNER fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-post-repair-audit-6ea4",
+      "headRefName": "cursor/cs-a1-high-post-repair-audit-6ea4",
+      "tipSha": "9c2947c86ae7d37454d46ebd8657aee16ffaa3d7",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #432 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 432,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/432",
+        "title": "CS–DE A1 HIGH post-repair audit (read-only) — NOT CLOSED"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-regression-final-repair-6ea4",
+      "headRefName": "cursor/cs-a1-high-regression-final-repair-6ea4",
+      "tipSha": "c14e9211244564860c08888a3c8ea37cbcc1ecfc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #433 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 433,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/433",
+        "title": "CS–DE A1 HIGH regression gala repair (17/18 applied)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block01-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block01-6ea4",
+      "tipSha": "26138f92f0379cffaa93844aa258b83a418bed45",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #426 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 426,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/426",
+        "title": "CS A1 HIGH repair block 1/6: 50 csText fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block02-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block02-6ea4",
+      "tipSha": "8dc45cfc8eca72f6e33307d5f8076039ac9b33fc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #427 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 427,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/427",
+        "title": "CS–DE A1 HIGH repair block 2/6 (findings 51–100)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block03-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block03-6ea4",
+      "tipSha": "a4fe739b08f270ef53ff50192a90e7729eacd43e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #428 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 428,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/428",
+        "title": "CS–DE A1 HIGH repair block 3/6 (findings 101–150)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block04-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block04-6ea4",
+      "tipSha": "b320920c298758f1b727e4905b3cf3450453b427",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #429 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 429,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/429",
+        "title": "CS–DE A1 HIGH repair block 4/6 (findings 151–200)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block05-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block05-6ea4",
+      "tipSha": "1c813d16320e79bc39e4fe320740a137aece0ec5",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #430 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 430,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/430",
+        "title": "CS–DE A1 HIGH repair block 5/6 (findings 201–250)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block06-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block06-6ea4",
+      "tipSha": "3d134c9cb25625dfd3eb73800996630cff2aa826",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #431 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 431,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/431",
+        "title": "CS–DE A1 HIGH repair block 6/6 — final 36 + gala coverage (287/287)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-post-repair-audit-6ea4",
+      "headRefName": "cursor/cs-a1-post-repair-audit-6ea4",
+      "tipSha": "563b193f79d170bfc8039578d50597a9b55de3c2",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #421 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 421,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/421",
+        "title": "CS A1 post-repair full audit (702/702, read-only)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
+      "headRefName": "cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
+      "tipSha": "566c275c4d4c28d107eda97c70007b6cdbd0bf1c",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #502 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b1.js",
+        "www/data/cs/b1.js"
+      ],
+      "pr": {
+        "number": 502,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/502",
+        "title": "CS-DE B1: final 2-card micro-repair apply (2/2)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b1-final-micro-regression-closure-6ea4",
+      "headRefName": "cursor/cs-b1-final-micro-regression-closure-6ea4",
+      "tipSha": "f45f531eee7956310a2de262249592c23eab63e6",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #503 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b1.js",
+        "www/data/cs/b1.js"
+      ],
+      "pr": {
+        "number": 503,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/503",
+        "title": "CS-DE B1: final micro-regression closure — OWNER ACCEPTED / CLOSED"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b2-final-closure-audit-6ea4",
+      "headRefName": "cursor/cs-b2-final-closure-audit-6ea4",
+      "tipSha": "6f798efc6781a0d7b76907fda52b8c76d0fb00a7",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #508 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b2.js",
+        "www/data/cs/b2.js"
+      ],
+      "pr": {
+        "number": 508,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/508",
+        "title": "CS–DE B2 final closure audit — OWNER ACCEPTED / CLOSED"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b2-owner-copy-only-repair-6ea4",
+      "headRefName": "cursor/cs-b2-owner-copy-only-repair-6ea4",
+      "tipSha": "35e1301425f3800fdaceca7810c6c8af5b9d98f1",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #506 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b2.js",
+        "www/data/cs/b2.js"
+      ],
+      "pr": {
+        "number": 506,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/506",
+        "title": "fix(cs-b2): apply owner-approved copy-only repair mappings (944/969)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b2-targeted-regression-audit-6ea4",
+      "headRefName": "cursor/cs-b2-targeted-regression-audit-6ea4",
+      "tipSha": "e276650a10b556812483568c47a755657ccfae87",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #507 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b2.js",
+        "www/data/cs/b2.js"
+      ],
+      "pr": {
+        "number": 507,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/507",
+        "title": "CS–DE B2 targeted regression audit (GPT-5.6 Luna)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-full-luna-audit-fffe",
+      "headRefName": "cursor/da-kurss-full-luna-audit-fffe",
+      "tipSha": "be850b4fef08b4bbb07c5238223dc73a2a71eeef",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #579 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/courseLessons.js",
+        "data/da/courseTrainingCards.js",
+        "languages/da/ui.js",
+        "www/data/da/courseLessons.js",
+        "www/data/da/courseTrainingCards.js"
+      ],
+      "pr": {
+        "number": 579,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/579",
+        "title": "DA Kurss full Luna audit (1264 fields, 77 findings)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-post-luna-owner-repair-fffe",
+      "headRefName": "cursor/da-kurss-post-luna-owner-repair-fffe",
+      "tipSha": "222daa5f9849614ed366d3650ce55d9b3aa27007",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #581 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/courseLessons.js",
+        "data/da/courseTrainingCards.js",
+        "www/data/da/courseLessons.js",
+        "www/data/da/courseTrainingCards.js"
+      ],
+      "pr": {
+        "number": 581,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/581",
+        "title": "Apply DA Kurss post-Luna OWNER decisions (41 LABOT)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-post-luna-reaudit-fffe",
+      "headRefName": "cursor/da-kurss-post-luna-reaudit-fffe",
+      "tipSha": "38bb8af57f7cb5b50328001ef1d752bfdac890b0",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #580 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/courseLessons.js",
+        "data/da/courseTrainingCards.js",
+        "languages/da/ui.js",
+        "www/data/da/courseLessons.js",
+        "www/data/da/courseTrainingCards.js"
+      ],
+      "pr": {
+        "number": 580,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/580",
+        "title": "DA–DE Kurss post-repair full Luna re-audit (1280 fields)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-post-repair-full-luna-audit-fffe",
+      "headRefName": "cursor/da-kurss-post-repair-full-luna-audit-fffe",
+      "tipSha": "6b43a6f87b2683f14fa5db41cf13a8412fdf33f3",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #582 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/courseLessons.js",
+        "data/da/courseTrainingCards.js",
+        "www/data/da/courseLessons.js",
+        "www/data/da/courseTrainingCards.js"
+      ],
+      "pr": {
+        "number": 582,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/582",
+        "title": "DA–DE Kurss post-repair full Luna audit (1266 fields, 121 findings)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/da-verbs-final-post-repair-owner-repair-fffe",
+      "headRefName": "cursor/da-verbs-final-post-repair-owner-repair-fffe",
+      "tipSha": "c7e6e8a1fbcf87ca99a1e64b56843e8332756765",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #564 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/verbs.js",
+        "www/data/da/verbs.js"
+      ],
+      "pr": {
+        "number": 564,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/564",
+        "title": "Apply DA–DE verbs final post-repair OWNER repairs (63 COPY-ONLY)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-01-6850",
+      "headRefName": "cursor/en-b1-high-repair-01-6850",
+      "tipSha": "48fbfa8ce6ffbc6414c9f877f3787f8342523976",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #345 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 345,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/345",
+        "title": "EN–DE B1 HIGH REPAIR #1 — 25 owner-reviewed cards"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-02-6850",
+      "headRefName": "cursor/en-b1-high-repair-02-6850",
+      "tipSha": "51a9d9af34fa9c197358ce08dcb1b9e4cf36453d",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #347 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 347,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/347",
+        "title": "EN–DE B1 HIGH REPAIR #2 — 25 owner-reviewed cards"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-03-6850",
+      "headRefName": "cursor/en-b1-high-repair-03-6850",
+      "tipSha": "45f51dac4e189424fd633683c7ef983538c20a50",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #349 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 349,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/349",
+        "title": "fix(en-b1): HIGH repair #3 — 25 normal card lv fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-04-6850",
+      "headRefName": "cursor/en-b1-high-repair-04-6850",
+      "tipSha": "adaf8c60b2c6ed6497d61c9e28601e1c0d303c7e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #351 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 351,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/351",
+        "title": "fix(en-b1): HIGH repair #4 — 25 normal card lv fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-05-6850",
+      "headRefName": "cursor/en-b1-high-repair-05-6850",
+      "tipSha": "45f5464bdb548df6cb3acf0e5f083653a091e810",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #353 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 353,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/353",
+        "title": "fix(en-b1): HIGH repair #5 — 24 lv fixes, Gen NELABOT"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/es-kurss-articles-visual-repair-3141",
+      "headRefName": "cursor/es-kurss-articles-visual-repair-3141",
+      "tipSha": "6388b04780fb239db216ab12754bcd08a6066096",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #669 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/es/courseLessons.js",
+        "www/data/es/courseLessons.js"
+      ],
+      "pr": {
+        "number": 669,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/669",
+        "title": "ES Kurss Artículos — visual COPY-ONLY repair (19 OWNER targets)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/es-kurss-pronouns-visual-repair-3141",
+      "headRefName": "cursor/es-kurss-pronouns-visual-repair-3141",
+      "tipSha": "a984da86998a916138874ac37de13900bd2f7296",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #670 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/es/courseLessons.js",
+        "languages/es/ui.js",
+        "www/data/es/courseLessons.js"
+      ],
+      "pr": {
+        "number": 670,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/670",
+        "title": "ES Kurss Pronombres visual COPY-ONLY repair (35 LABOT + 1 NELABOT)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/es-kurss-sentence-structure-visual-repair-3141",
+      "headRefName": "cursor/es-kurss-sentence-structure-visual-repair-3141",
+      "tipSha": "d8486d170d0ff6eda635a6d50ac01e030f10e80c",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #672 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/es/courseLessons.js",
+        "www/data/es/courseLessons.js"
+      ],
+      "pr": {
+        "number": 672,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/672",
+        "title": "ES Kurss Sentence structure visual COPY-ONLY repair (2 LABOT)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/es-kurss-verb-basics-visual-repair-3141",
+      "headRefName": "cursor/es-kurss-verb-basics-visual-repair-3141",
+      "tipSha": "4c0dd5cecff198d60860f40de30fa1683ee1cb63",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #671 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/es/courseLessons.js",
+        "languages/es/ui.js",
+        "www/data/es/courseLessons.js"
+      ],
+      "pr": {
+        "number": 671,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/671",
+        "title": "ES Kurss Verb basics visual COPY-ONLY repair (6 LABOT)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/et-de-a1-full-audit-ba9e",
+      "headRefName": "cursor/et-de-a1-full-audit-ba9e",
+      "tipSha": "ef3e74c46f4cf1570f0c79f235dc2431796ef670",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #586 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/et/a1.js",
+        "www/data/et/a1.js"
+      ],
+      "pr": {
+        "number": 586,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/586",
+        "title": "ET-DE A1 pilns READ-ONLY audits (GPT-5.6 Luna)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    }
+  ],
+  "candidates": [
+    {
+      "ref": "origin/codex/es-kurss-pronunciation-owner-repair",
+      "headRefName": "codex/es-kurss-pronunciation-owner-repair",
+      "tipSha": "32dea61921bd8d3205e79de140885a6d062a4983",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/audit-kurss-content-5a8d",
+      "headRefName": "cursor/audit-kurss-content-5a8d",
+      "tipSha": "bac9ca1ae442de030c959d6c571eaee9ca6b0eee",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #123 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/courseLessons.js",
+        "www/data/courseLessons.js"
+      ],
+      "pr": {
+        "number": 123,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/123",
+        "title": "Audit Kurss section: orthography, LV style, and translation fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/bs-a2-final-audit-c1b5",
+      "headRefName": "cursor/bs-a2-final-audit-c1b5",
+      "tipSha": "9e23b698fd9c7ae8d6201312d78bcb7162848b89",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 292,
+        "state": "CLOSED",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/292"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/bs-a2-full-audit-c1b5",
+      "headRefName": "cursor/bs-a2-full-audit-c1b5",
+      "tipSha": "7d13855f7dc346b625bb7c06dc7a424070de6a4d",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 290,
+        "state": "CLOSED",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/290"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/bs-c2-full-linguistic-audit-c1b5",
+      "headRefName": "cursor/bs-c2-full-linguistic-audit-c1b5",
+      "tipSha": "db7e5e87b41293d7dd155ae53c7dfbcc63e17ba3",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/bs-c2-linguistic-audit-only-c1b5",
+      "headRefName": "cursor/bs-c2-linguistic-audit-only-c1b5",
+      "tipSha": "04729089d2bb46ac4ac2e2c7a2b37cb13a790a3b",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 322,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/322"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/bs-c2-targeted-regression-audit-c1b5",
+      "headRefName": "cursor/bs-c2-targeted-regression-audit-c1b5",
+      "tipSha": "b580c9d7f6da5c404fcdf66ecb4ae8e086f3fcf6",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 324,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/324"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-critical-final-repair-6ea4",
+      "headRefName": "cursor/cs-a1-critical-final-repair-6ea4",
+      "tipSha": "fb84f93b62cee22d47987c3295cd539d30d6883d",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #423 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 423,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/423",
+        "title": "CS A1 critical final repair: 33/33 OWNER fields"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-702-audit-on-main-6ea4",
+      "headRefName": "cursor/cs-a1-final-702-audit-on-main-6ea4",
+      "tipSha": "c0c3b95c660f002ec4197e5deff0d6f209c29b0e",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 460,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/460"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-audit-on-main-6ea4",
+      "headRefName": "cursor/cs-a1-final-audit-on-main-6ea4",
+      "tipSha": "9f78aa6d64c8a06058c654449e9c2f48c10d4265",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 453,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/453"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-closure-audit-on-main-6ea4",
+      "headRefName": "cursor/cs-a1-final-closure-audit-on-main-6ea4",
+      "tipSha": "f4f2a0254ee963776bc52b37a19bec8460b1f107",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 465,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/465"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
+      "headRefName": "cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
+      "tipSha": "cb5d5de485bbff7be410695bf12bd19631b9beb8",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #456 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 456,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/456",
+        "title": "CS-DE A1 final repair block 04 (last 10 fields, 160/160 reconciliation)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-main-repair-batch101-150-6ea4",
+      "headRefName": "cursor/cs-a1-final-main-repair-batch101-150-6ea4",
+      "tipSha": "5cefdabe19428e5cb4e23c773e81f5319a87f74e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #455 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 455,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/455",
+        "title": "CS-DE A1 final main repair batch 101-150 (50 fields)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-main-repair-batch51-100-6ea4",
+      "headRefName": "cursor/cs-a1-final-main-repair-batch51-100-6ea4",
+      "tipSha": "41e6db4c08a24432ed613315afb85ae939191fb8",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #454 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 454,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/454",
+        "title": "CS-DE A1 final main repair batch 51-100 (50 fields)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-missing-study-parity-repair-6ea4",
+      "headRefName": "cursor/cs-a1-final-missing-study-parity-repair-6ea4",
+      "tipSha": "39fed3ce220e3f1a05f0401058f6f4ba85aa3d3e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #458 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 458,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/458",
+        "title": "CS-DE A1 MISSING_STUDY_PARITY repair (14/14)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-post-repair-audit-6ea4",
+      "headRefName": "cursor/cs-a1-final-post-repair-audit-6ea4",
+      "tipSha": "d672651215eba6fb1b05c8046d38092a0591b7bf",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #452 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 452,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/452",
+        "title": "CS–DE A1 final post-repair full audit (702/702, NOT CLOSED)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
+      "headRefName": "cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
+      "tipSha": "698277bf7fe1ebc369155e2c419b5555173f91da",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #459 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 459,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/459",
+        "title": "CS-DE A1 study parity sectionAccents micro-repair (10/10)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block01-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block01-6ea4",
+      "tipSha": "08e9a8626b70832c81cb1fa6df36c73eb98ca284",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #438 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 438,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/438",
+        "title": "CS–DE A1 full review repair block 01: 20/20 csText fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block02-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block02-6ea4",
+      "tipSha": "c09c4a763b07e37848908ae8d893e649ecc257ac",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #439 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 439,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/439",
+        "title": "CS–DE A1 full review repair block 02: 16/17 csText fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block03-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block03-6ea4",
+      "tipSha": "5035ec4f992cd6788c153bfaf59a104b92b8268c",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #440 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 440,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/440",
+        "title": "CS–DE A1 full review repair block 03 (findings 101–150)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block04-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block04-6ea4",
+      "tipSha": "5245080aa16ce6a65674b84b1ce726a7aa9ca940",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #441 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 441,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/441",
+        "title": "CS–DE A1 full review repair block 04 (findings 151–200)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block05-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block05-6ea4",
+      "tipSha": "665a5d15f280e9dd592137092157926d5c94caf7",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #442 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 442,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/442",
+        "title": "CS–DE A1 full review repair block 05 (findings 201–250)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block06-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block06-6ea4",
+      "tipSha": "a84489535295850d300c047826ee593c7aaf51a0",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #443 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 443,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/443",
+        "title": "CS–DE A1 full review repair block 06 (findings 251–300)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block07-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block07-6ea4",
+      "tipSha": "3e5f40273fe74caed18b2355955fec4fdcc06e16",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #444 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 444,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/444",
+        "title": "CS–DE A1 full review repair block 07 (findings 301–350)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block08-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block08-6ea4",
+      "tipSha": "bddf580440055e033568ccc4695ab52f6af8f75b",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #445 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 445,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/445",
+        "title": "CS–DE A1 full review repair block 08 (findings 351–400)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block09-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block09-6ea4",
+      "tipSha": "2df1f0cf2c317b5916e4d75aba5b5f40202cd17e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #446 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 446,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/446",
+        "title": "CS–DE A1 full review repair block 09 (findings 401–450)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block10-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block10-6ea4",
+      "tipSha": "1108ea918a656631a01e7293ed8c8c810747f544",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #447 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 447,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/447",
+        "title": "CS–DE A1 Full Review Repair — Block 10 (Findings 451–500)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block11-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block11-6ea4",
+      "tipSha": "9b59589c394d96a69c59abfb0b6eb33f310c3743",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #448 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 448,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/448",
+        "title": "CS–DE A1 Full Review Repair — Block 11 (Findings 501–550)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-full-review-repair-block12-6ea4",
+      "headRefName": "cursor/cs-a1-full-review-repair-block12-6ea4",
+      "tipSha": "c559de98fb43547408813969da4e67374bc11109",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #449 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 449,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/449",
+        "title": "CS–DE A1 Full Review Repair — Block 12 (Findings 551–600)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-final-closure-check-6ea4",
+      "headRefName": "cursor/cs-a1-high-final-closure-check-6ea4",
+      "tipSha": "9b3ebe3fd1c7d5a3268e02ba37376e85304016cb",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #436 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 436,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/436",
+        "title": "CS–DE A1 HIGH final closure check: CLOSED"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-final-micro-repair-02-6ea4",
+      "headRefName": "cursor/cs-a1-high-final-micro-repair-02-6ea4",
+      "tipSha": "51b11f6951bc6270764100297984d747ad4af9b6",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #435 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 435,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/435",
+        "title": "CS–DE A1 HIGH final micro-repair #2: apply 2/2 OWNER fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-post-repair-audit-6ea4",
+      "headRefName": "cursor/cs-a1-high-post-repair-audit-6ea4",
+      "tipSha": "9c2947c86ae7d37454d46ebd8657aee16ffaa3d7",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #432 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 432,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/432",
+        "title": "CS–DE A1 HIGH post-repair audit (read-only) — NOT CLOSED"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-regression-final-repair-6ea4",
+      "headRefName": "cursor/cs-a1-high-regression-final-repair-6ea4",
+      "tipSha": "c14e9211244564860c08888a3c8ea37cbcc1ecfc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #433 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 433,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/433",
+        "title": "CS–DE A1 HIGH regression gala repair (17/18 applied)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block01-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block01-6ea4",
+      "tipSha": "26138f92f0379cffaa93844aa258b83a418bed45",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #426 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 426,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/426",
+        "title": "CS A1 HIGH repair block 1/6: 50 csText fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block02-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block02-6ea4",
+      "tipSha": "8dc45cfc8eca72f6e33307d5f8076039ac9b33fc",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #427 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 427,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/427",
+        "title": "CS–DE A1 HIGH repair block 2/6 (findings 51–100)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block03-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block03-6ea4",
+      "tipSha": "a4fe739b08f270ef53ff50192a90e7729eacd43e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #428 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 428,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/428",
+        "title": "CS–DE A1 HIGH repair block 3/6 (findings 101–150)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block04-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block04-6ea4",
+      "tipSha": "b320920c298758f1b727e4905b3cf3450453b427",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #429 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 429,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/429",
+        "title": "CS–DE A1 HIGH repair block 4/6 (findings 151–200)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block05-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block05-6ea4",
+      "tipSha": "1c813d16320e79bc39e4fe320740a137aece0ec5",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #430 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 430,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/430",
+        "title": "CS–DE A1 HIGH repair block 5/6 (findings 201–250)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-high-repair-block06-6ea4",
+      "headRefName": "cursor/cs-a1-high-repair-block06-6ea4",
+      "tipSha": "3d134c9cb25625dfd3eb73800996630cff2aa826",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #431 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 431,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/431",
+        "title": "CS–DE A1 HIGH repair block 6/6 — final 36 + gala coverage (287/287)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-a1-post-repair-audit-6ea4",
+      "headRefName": "cursor/cs-a1-post-repair-audit-6ea4",
+      "tipSha": "563b193f79d170bfc8039578d50597a9b55de3c2",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #421 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "pr": {
+        "number": 421,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/421",
+        "title": "CS A1 post-repair full audit (702/702, read-only)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
+      "headRefName": "cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
+      "tipSha": "566c275c4d4c28d107eda97c70007b6cdbd0bf1c",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #502 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b1.js",
+        "www/data/cs/b1.js"
+      ],
+      "pr": {
+        "number": 502,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/502",
+        "title": "CS-DE B1: final 2-card micro-repair apply (2/2)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b1-final-micro-regression-closure-6ea4",
+      "headRefName": "cursor/cs-b1-final-micro-regression-closure-6ea4",
+      "tipSha": "f45f531eee7956310a2de262249592c23eab63e6",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #503 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b1.js",
+        "www/data/cs/b1.js"
+      ],
+      "pr": {
+        "number": 503,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/503",
+        "title": "CS-DE B1: final micro-regression closure — OWNER ACCEPTED / CLOSED"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b1-final-targeted-closure-audit-6ea4",
+      "headRefName": "cursor/cs-b1-final-targeted-closure-audit-6ea4",
+      "tipSha": "5987de73e5c4fa9c1d3359f83265431f9e3e0aa8",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 501,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/501"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/cs-b1-full-audit-reconciliation-6ea4",
+      "headRefName": "cursor/cs-b1-full-audit-reconciliation-6ea4",
+      "tipSha": "f6942f1b92ecbdcc45d93bc474405c4e4b945198",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 497,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/497"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/cs-b2-final-closure-audit-6ea4",
+      "headRefName": "cursor/cs-b2-final-closure-audit-6ea4",
+      "tipSha": "6f798efc6781a0d7b76907fda52b8c76d0fb00a7",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #508 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b2.js",
+        "www/data/cs/b2.js"
+      ],
+      "pr": {
+        "number": 508,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/508",
+        "title": "CS–DE B2 final closure audit — OWNER ACCEPTED / CLOSED"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b2-owner-copy-only-repair-6ea4",
+      "headRefName": "cursor/cs-b2-owner-copy-only-repair-6ea4",
+      "tipSha": "35e1301425f3800fdaceca7810c6c8af5b9d98f1",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #506 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b2.js",
+        "www/data/cs/b2.js"
+      ],
+      "pr": {
+        "number": 506,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/506",
+        "title": "fix(cs-b2): apply owner-approved copy-only repair mappings (944/969)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-b2-repair-source-complete-6ea4",
+      "headRefName": "cursor/cs-b2-repair-source-complete-6ea4",
+      "tipSha": "5647ccf1999725672b5ceee448f37be208d32342",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 505,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/505"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/cs-b2-targeted-regression-audit-6ea4",
+      "headRefName": "cursor/cs-b2-targeted-regression-audit-6ea4",
+      "tipSha": "e276650a10b556812483568c47a755657ccfae87",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #507 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/cs/b2.js",
+        "www/data/cs/b2.js"
+      ],
+      "pr": {
+        "number": 507,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/507",
+        "title": "CS–DE B2 targeted regression audit (GPT-5.6 Luna)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/cs-de-a1a2-full-audit-f3c4",
+      "headRefName": "cursor/cs-de-a1a2-full-audit-f3c4",
+      "tipSha": "5f5353a1858b577deb0cfd244634a6ec9e6828b3",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 403,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/403"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/cs-de-full-audit-6ea4",
+      "headRefName": "cursor/cs-de-full-audit-6ea4",
+      "tipSha": "ad11ed47000a24dc111e6586ef7fb41c4b4e197d",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 404,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/404"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/cs-kurs-articles-full-audit-6850",
+      "headRefName": "cursor/cs-kurs-articles-full-audit-6850",
+      "tipSha": "fd2178e22676bfedcc1b482ff7a1dd55323455be",
+      "category": "ACTIVE_UNMERGED_CLOSURE",
+      "reason": "Open non-draft PR #528 with production content not on origin/main",
+      "productionContentDiffFiles": [
+        "data/cs/courseLessons.js",
+        "www/data/cs/courseLessons.js"
+      ],
+      "pr": {
+        "number": 528,
+        "state": "OPEN",
+        "isDraft": false,
+        "mergeable": "CONFLICTING",
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528",
+        "title": "CS–DE Kurss Členy: full audit + OWNER review complete (#001–#315)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-audit-collect-3fda",
+      "headRefName": "cursor/da-kurss-audit-collect-3fda",
+      "tipSha": "3168d80acaaa79e3ac8cf4b2b765325ee4210fb5",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-final-closure-reaudit-fffe",
+      "headRefName": "cursor/da-kurss-final-closure-reaudit-fffe",
+      "tipSha": "80b9cc651c641d8608638a97c002a100f43a42e3",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-full-audit-fffe",
+      "headRefName": "cursor/da-kurss-full-audit-fffe",
+      "tipSha": "aea60f7a7d8bf7be4b7e941686c5ae1e4a335e2b",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 566,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/566"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-full-luna-audit-fffe",
+      "headRefName": "cursor/da-kurss-full-luna-audit-fffe",
+      "tipSha": "be850b4fef08b4bbb07c5238223dc73a2a71eeef",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #579 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/courseLessons.js",
+        "data/da/courseTrainingCards.js",
+        "languages/da/ui.js",
+        "www/data/da/courseLessons.js",
+        "www/data/da/courseTrainingCards.js"
+      ],
+      "pr": {
+        "number": 579,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/579",
+        "title": "DA Kurss full Luna audit (1264 fields, 77 findings)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-post-luna-owner-repair-fffe",
+      "headRefName": "cursor/da-kurss-post-luna-owner-repair-fffe",
+      "tipSha": "222daa5f9849614ed366d3650ce55d9b3aa27007",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #581 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/courseLessons.js",
+        "data/da/courseTrainingCards.js",
+        "www/data/da/courseLessons.js",
+        "www/data/da/courseTrainingCards.js"
+      ],
+      "pr": {
+        "number": 581,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/581",
+        "title": "Apply DA Kurss post-Luna OWNER decisions (41 LABOT)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-post-luna-reaudit-fffe",
+      "headRefName": "cursor/da-kurss-post-luna-reaudit-fffe",
+      "tipSha": "38bb8af57f7cb5b50328001ef1d752bfdac890b0",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #580 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/courseLessons.js",
+        "data/da/courseTrainingCards.js",
+        "languages/da/ui.js",
+        "www/data/da/courseLessons.js",
+        "www/data/da/courseTrainingCards.js"
+      ],
+      "pr": {
+        "number": 580,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/580",
+        "title": "DA–DE Kurss post-repair full Luna re-audit (1280 fields)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/da-kurss-post-repair-full-luna-audit-fffe",
+      "headRefName": "cursor/da-kurss-post-repair-full-luna-audit-fffe",
+      "tipSha": "6b43a6f87b2683f14fa5db41cf13a8412fdf33f3",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #582 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/courseLessons.js",
+        "data/da/courseTrainingCards.js",
+        "www/data/da/courseLessons.js",
+        "www/data/da/courseTrainingCards.js"
+      ],
+      "pr": {
+        "number": 582,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/582",
+        "title": "DA–DE Kurss post-repair full Luna audit (1266 fields, 121 findings)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/da-verbs-final-post-repair-audit-fffe",
+      "headRefName": "cursor/da-verbs-final-post-repair-audit-fffe",
+      "tipSha": "b9e68645f3fd1c753c3ac17ae2c1ee721675cb36",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [
+        "data/da/verbs.js",
+        "www/data/da/verbs.js"
+      ],
+      "pr": {
+        "number": 563,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/563"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/da-verbs-final-post-repair-owner-repair-fffe",
+      "headRefName": "cursor/da-verbs-final-post-repair-owner-repair-fffe",
+      "tipSha": "c7e6e8a1fbcf87ca99a1e64b56843e8332756765",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #564 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/da/verbs.js",
+        "www/data/da/verbs.js"
+      ],
+      "pr": {
+        "number": 564,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/564",
+        "title": "Apply DA–DE verbs final post-repair OWNER repairs (63 COPY-ONLY)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-critical-repair-6850",
+      "headRefName": "cursor/en-b1-critical-repair-6850",
+      "tipSha": "272319f03e6db693db5bd0fdffe8e959b43acc79",
+      "category": "ACTIVE_UNMERGED_CLOSURE",
+      "reason": "Open non-draft PR #343 with production content not on origin/main",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 343,
+        "state": "OPEN",
+        "isDraft": false,
+        "mergeable": "CONFLICTING",
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343",
+        "title": "fix(en-b1): CRITICAL cycle closed — ready for HIGH owner review"
+      },
+      "ownerDecision": null,
+      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
+    },
+    {
+      "ref": "origin/cursor/en-b1-full-audit-6850",
+      "headRefName": "cursor/en-b1-full-audit-6850",
+      "tipSha": "deaa31230f1fba084a45ad7d11be91d4a62f2d63",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 342,
+        "state": "OPEN",
+        "isDraft": false,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/342"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-01-6850",
+      "headRefName": "cursor/en-b1-high-repair-01-6850",
+      "tipSha": "48fbfa8ce6ffbc6414c9f877f3787f8342523976",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #345 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 345,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/345",
+        "title": "EN–DE B1 HIGH REPAIR #1 — 25 owner-reviewed cards"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-02-6850",
+      "headRefName": "cursor/en-b1-high-repair-02-6850",
+      "tipSha": "51a9d9af34fa9c197358ce08dcb1b9e4cf36453d",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #347 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 347,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/347",
+        "title": "EN–DE B1 HIGH REPAIR #2 — 25 owner-reviewed cards"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-03-6850",
+      "headRefName": "cursor/en-b1-high-repair-03-6850",
+      "tipSha": "45f51dac4e189424fd633683c7ef983538c20a50",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #349 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 349,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/349",
+        "title": "fix(en-b1): HIGH repair #3 — 25 normal card lv fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-04-6850",
+      "headRefName": "cursor/en-b1-high-repair-04-6850",
+      "tipSha": "adaf8c60b2c6ed6497d61c9e28601e1c0d303c7e",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #351 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 351,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/351",
+        "title": "fix(en-b1): HIGH repair #4 — 25 normal card lv fixes"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-high-repair-05-6850",
+      "headRefName": "cursor/en-b1-high-repair-05-6850",
+      "tipSha": "45f5464bdb548df6cb3acf0e5f083653a091e810",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #353 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/en/b1.js",
+        "www/data/en/b1.js"
+      ],
+      "pr": {
+        "number": 353,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/353",
+        "title": "fix(en-b1): HIGH repair #5 — 24 lv fixes, Gen NELABOT"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/en-b1-main-reconciliation-audit-6850",
+      "headRefName": "cursor/en-b1-main-reconciliation-audit-6850",
+      "tipSha": "b5e4dcc90ddac648b52fdcafe24e79cbc8ea6e01",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 370,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/370"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/en-sentences-luna-audit-6850",
+      "headRefName": "cursor/en-sentences-luna-audit-6850",
+      "tipSha": "b56db624b65df0f26549d22834b72caf70b83c25",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 384,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/384"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/en-verbs-luna-audit-6850",
+      "headRefName": "cursor/en-verbs-luna-audit-6850",
+      "tipSha": "fcce4b6303d1623a30e28c3369a4662e9d9bf877",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 391,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/391"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/es-de-a1-a2-full-audit-3141",
+      "headRefName": "cursor/es-de-a1-a2-full-audit-3141",
+      "tipSha": "e8e8dc6933f006fdd7fe66ac4ecada2530e81e99",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 663,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/663"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/es-fr-de-full-audit-12b5",
+      "headRefName": "cursor/es-fr-de-full-audit-12b5",
+      "tipSha": "1b327f1dc82667f82c8f909be5b632a6de11e63f",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/es-kurss-articles-visual-repair-3141",
+      "headRefName": "cursor/es-kurss-articles-visual-repair-3141",
+      "tipSha": "6388b04780fb239db216ab12754bcd08a6066096",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #669 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/es/courseLessons.js",
+        "www/data/es/courseLessons.js"
+      ],
+      "pr": {
+        "number": 669,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/669",
+        "title": "ES Kurss Artículos — visual COPY-ONLY repair (19 OWNER targets)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/es-kurss-lessons-full-audit-3141",
+      "headRefName": "cursor/es-kurss-lessons-full-audit-3141",
+      "tipSha": "22f20b64896fdc37e27618722cf7ab42cdf72461",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 676,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/676"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/es-kurss-pronouns-visual-repair-3141",
+      "headRefName": "cursor/es-kurss-pronouns-visual-repair-3141",
+      "tipSha": "a984da86998a916138874ac37de13900bd2f7296",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #670 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/es/courseLessons.js",
+        "languages/es/ui.js",
+        "www/data/es/courseLessons.js"
+      ],
+      "pr": {
+        "number": 670,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/670",
+        "title": "ES Kurss Pronombres visual COPY-ONLY repair (35 LABOT + 1 NELABOT)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/es-kurss-sentence-structure-visual-repair-3141",
+      "headRefName": "cursor/es-kurss-sentence-structure-visual-repair-3141",
+      "tipSha": "d8486d170d0ff6eda635a6d50ac01e030f10e80c",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #672 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/es/courseLessons.js",
+        "www/data/es/courseLessons.js"
+      ],
+      "pr": {
+        "number": 672,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/672",
+        "title": "ES Kurss Sentence structure visual COPY-ONLY repair (2 LABOT)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/es-kurss-verb-basics-visual-repair-3141",
+      "headRefName": "cursor/es-kurss-verb-basics-visual-repair-3141",
+      "tipSha": "4c0dd5cecff198d60860f40de30fa1683ee1cb63",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #671 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/es/courseLessons.js",
+        "languages/es/ui.js",
+        "www/data/es/courseLessons.js"
+      ],
+      "pr": {
+        "number": 671,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/671",
+        "title": "ES Kurss Verb basics visual COPY-ONLY repair (6 LABOT)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/et-de-a1-full-audit-ba9e",
+      "headRefName": "cursor/et-de-a1-full-audit-ba9e",
+      "tipSha": "ef3e74c46f4cf1570f0c79f235dc2431796ef670",
+      "category": "NEEDS_OWNER_REVIEW",
+      "reason": "Open draft PR #586 with production content diff — OWNER review required",
+      "productionContentDiffFiles": [
+        "data/et/a1.js",
+        "www/data/et/a1.js"
+      ],
+      "pr": {
+        "number": 586,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/586",
+        "title": "ET-DE A1 pilns READ-ONLY audits (GPT-5.6 Luna)"
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
+    },
+    {
+      "ref": "origin/cursor/et-de-a1-full-audit-post-closure-ba9e",
+      "headRefName": "cursor/et-de-a1-full-audit-post-closure-ba9e",
+      "tipSha": "de13bd03b0b62246e9f504de4ed00ec123c7ba8f",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 595,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/595"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/et-de-a1-full-audit-v13-ba9e",
+      "headRefName": "cursor/et-de-a1-full-audit-v13-ba9e",
+      "tipSha": "35a84b9c335445b8f86492e2846689cf3f26a895",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 589,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/589"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/et-de-a1-full-audit-v15-ba9e",
+      "headRefName": "cursor/et-de-a1-full-audit-v15-ba9e",
+      "tipSha": "1a1bcd5581d3a166ae37a5d4340cb46866af09d4",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 593,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/593"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/et-de-a1-full-audit-v17-ba9e",
+      "headRefName": "cursor/et-de-a1-full-audit-v17-ba9e",
+      "tipSha": "579c7eaee3876feba07e4b3c65f62a6bf17bb259",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 600,
+        "state": "OPEN",
+        "isDraft": false,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/600"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/et-de-a1-full-audit-v17-post603-ba9e",
+      "headRefName": "cursor/et-de-a1-full-audit-v17-post603-ba9e",
+      "tipSha": "5637d9445d82bb6fe6a8f0df9bae41d51c631cfd",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 604,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/604"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/et-de-b2-full-audit-4a7c",
+      "headRefName": "cursor/et-de-b2-full-audit-4a7c",
+      "tipSha": "0738a1311098e35164de22d61c280a0a3c0e1834",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 628,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/628"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/et-de-c1c2-teikumi-full-audit-4a7c",
+      "headRefName": "cursor/et-de-c1c2-teikumi-full-audit-4a7c",
+      "tipSha": "3ea9678ac616f010ec0a14fa8605ea40d5dc4321",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 622,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/622"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/et-de-kurss-full-audit-4a7c",
+      "headRefName": "cursor/et-de-kurss-full-audit-4a7c",
+      "tipSha": "c6d21dbb394125a2b5f717b129db2d10b9c8afbb",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 636,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/636"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/et-de-kurss-live-runtime-reopen-audit-4a7c",
+      "headRefName": "cursor/et-de-kurss-live-runtime-reopen-audit-4a7c",
+      "tipSha": "4f83d7119a0d1abc6dbf95ff53634e4cd7cf7cb3",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 639,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/639"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/et-de-kurss-v111-full-module-audit-4a7c",
+      "headRefName": "cursor/et-de-kurss-v111-full-module-audit-4a7c",
+      "tipSha": "da17fae71d424acae53dce49c50eb7597d290056",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 644,
+        "state": "OPEN",
+        "isDraft": false,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/644"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/fr-de-a1-full-audit-f5bc",
+      "headRefName": "cursor/fr-de-a1-full-audit-f5bc",
+      "tipSha": "6496a6c74b8681b141adc21521d1399ef362ad03",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 682,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/682"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/global-main-integration-reconciliation-audit-6850",
+      "headRefName": "cursor/global-main-integration-reconciliation-audit-6850",
+      "tipSha": "dc1b89cc4c22d07bc71a0444937913c1613baef9",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 373,
+        "state": "OPEN",
+        "isDraft": false,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/373"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    }
+  ],
+  "ownerDecisionsPath": "/workspace/reports/unmerged-closure-owner-decisions.json",
+  "ownerDecisionsCount": 0,
+  "ownerDecisionsApplied": 0,
+  "unresolvedOwnerReviewCount": 51
+}
