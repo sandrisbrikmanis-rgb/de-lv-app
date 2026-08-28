@@ -2,7 +2,7 @@
 
 **Generated:** 2026-08-28T15:26:39.705Z  
 **Commit before:** `6005e342f1d1fa10bfb37a3cc3674dad36e38ec7`  
-**Commit after:** `pending`  
+**Commit after:** `8f672243`  
 **Authority:** `reports/crowdin-ui-needs-owner-review-decisions.json`  
 **Project ID:** 923473
 

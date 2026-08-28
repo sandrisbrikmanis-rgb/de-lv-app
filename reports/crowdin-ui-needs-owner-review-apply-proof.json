@@ -2,7 +2,7 @@
   "summary": {
     "generatedAt": "2026-08-28T15:26:39.705Z",
     "commitBefore": "6005e342f1d1fa10bfb37a3cc3674dad36e38ec7",
-    "commitAfter": null,
+    "commitAfter": "8f672243f1d1fa10bfb37a3cc3674dad36e38ec7",
     "projectId": 923473,
     "authority": "reports/crowdin-ui-needs-owner-review-decisions.json",
     "REQUESTED": 78,
