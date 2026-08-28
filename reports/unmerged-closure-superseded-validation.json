@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-28T19:05:37.485Z",
+  "generatedAt": "2026-08-28T19:20:01.169Z",
   "mode": "READ_ONLY_SUPERSEDED_VALIDATION",
   "baseline": {
     "masterStandardVersion": "1.12",
     "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
-    "pr693HeadSha": "e8bcf52acde9d37ce6eb020c511a1fb71f1624e0",
+    "pr693HeadSha": "a8b884df288293c118047d6c82788798c36ef048",
     "fetchStatus": "PASS",
     "revParseStatus": "PASS",
     "productionDiffPr693": [],
@@ -50,7 +50,7 @@
     "NOT_PRESENT_ON_MAIN_TOTAL": 178,
     "CONFLICTING_WITH_MAIN_TOTAL": 670,
     "UNRESOLVED_TOTAL": 0,
-    "OWNER_DECISIONS_FILLED": "0/53",
+    "OWNER_DECISIONS_FILLED": "53/53",
     "PRODUCTION_CHANGES": 0,
     "DE_CHANGES": 0,
     "PR_MERGES": 0,
@@ -58,7 +58,7 @@
     "BRANCH_DELETIONS": 0,
     "APPLY": "NOT_STARTED",
     "PHASE_1": "NOT_STARTED",
-    "VERDICT": "NEEDS_OWNER_REVIEW",
+    "VERDICT": "OWNER_DECISIONS_COMPLETE",
     "MERGE": "FORBIDDEN"
   },
   "validations": [

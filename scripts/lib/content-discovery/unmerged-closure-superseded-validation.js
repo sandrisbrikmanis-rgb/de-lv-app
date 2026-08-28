@@ -527,6 +527,9 @@ function runSupersededValidation(options = {}) {
   const validations = decisions.map((d) => validateCandidate(d, baseline.originMainSha));
   const summary = summarize(validations);
 
+  const ownerFilled = decisions.filter((d) => d.resolvedCategory && d.ownerDecision).length;
+  const ownerDecisionsComplete = decisionsDoc.verdict === "OWNER_DECISIONS_COMPLETE" && ownerFilled === 53;
+
   const validationReport = {
     generatedAt: new Date().toISOString(),
     mode: "READ_ONLY_SUPERSEDED_VALIDATION",
@@ -546,7 +549,7 @@ function runSupersededValidation(options = {}) {
       NOT_PRESENT_ON_MAIN_TOTAL: summary.notPresent,
       CONFLICTING_WITH_MAIN_TOTAL: summary.conflicting,
       UNRESOLVED_TOTAL: summary.unresolved,
-      OWNER_DECISIONS_FILLED: "0/53",
+      OWNER_DECISIONS_FILLED: `${ownerFilled}/53`,
       PRODUCTION_CHANGES: baseline.productionDiffPr693.length,
       DE_CHANGES: baseline.deChangesPr693.length,
       PR_MERGES: 0,
@@ -554,7 +557,7 @@ function runSupersededValidation(options = {}) {
       BRANCH_DELETIONS: 0,
       APPLY: "NOT_STARTED",
       PHASE_1: "NOT_STARTED",
-      VERDICT: "NEEDS_OWNER_REVIEW",
+      VERDICT: ownerDecisionsComplete ? "OWNER_DECISIONS_COMPLETE" : "NEEDS_OWNER_REVIEW",
       MERGE: "FORBIDDEN",
     },
     validations,
@@ -598,26 +601,31 @@ function mergeValidationIntoArtifacts(validationResult, options = {}) {
     validationResult.validations.map((v) => [`${v.headRefName}|${v.tipSha}|${v.prNumber}`, v]),
   );
 
+  const ownerDecisionsComplete = decisionsDoc.verdict === "OWNER_DECISIONS_COMPLETE";
+
   decisionsDoc.generatedAt = new Date().toISOString();
   decisionsDoc.supersededValidationAt = validationResult.validation?.generatedAt || new Date().toISOString();
   decisionsDoc.decisions = decisionsDoc.decisions.map((row) => {
     const v = byKey.get(`${row.headRefName}|${row.tipSha}|${row.prNumber}`);
-    return {
+    const merged = {
       ...row,
-      resolvedCategory: null,
-      ownerReason: null,
-      ownerDecisionDate: null,
-      evidenceVerdict: v?.evidenceVerdict || null,
-      validatedProposedCategory: v?.validatedProposedCategory || null,
-      branchDeltaFieldCount: v?.branchDeltaFieldCount ?? null,
-      retainedOnMainCount: v?.retainedOnMainCount ?? null,
-      intentionallyReplacedCount: v?.intentionallyReplacedCount ?? null,
-      notPresentOnMainCount: v?.notPresentOnMainCount ?? null,
-      conflictingWithMainCount: v?.conflictingWithMainCount ?? null,
-      unresolvedCount: v?.unresolvedCount ?? null,
-      laterClosureEvidence: v?.laterClosureEvidence || [],
-      baseSha: v?.baseSha || null,
+      evidenceVerdict: v?.evidenceVerdict || row.evidenceVerdict || null,
+      validatedProposedCategory: v?.validatedProposedCategory || row.validatedProposedCategory || null,
+      branchDeltaFieldCount: v?.branchDeltaFieldCount ?? row.branchDeltaFieldCount ?? null,
+      retainedOnMainCount: v?.retainedOnMainCount ?? row.retainedOnMainCount ?? null,
+      intentionallyReplacedCount: v?.intentionallyReplacedCount ?? row.intentionallyReplacedCount ?? null,
+      notPresentOnMainCount: v?.notPresentOnMainCount ?? row.notPresentOnMainCount ?? null,
+      conflictingWithMainCount: v?.conflictingWithMainCount ?? row.conflictingWithMainCount ?? null,
+      unresolvedCount: v?.unresolvedCount ?? row.unresolvedCount ?? null,
+      laterClosureEvidence: v?.laterClosureEvidence || row.laterClosureEvidence || [],
+      baseSha: v?.baseSha || row.baseSha || null,
     };
+    if (!ownerDecisionsComplete) {
+      merged.resolvedCategory = null;
+      merged.ownerReason = null;
+      merged.ownerDecisionDate = null;
+    }
+    return merged;
   });
 
   let evidenceDoc = fs.existsSync(evidencePath)
@@ -656,17 +664,19 @@ function mergeValidationIntoArtifacts(validationResult, options = {}) {
   const base = `https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/${branch}`;
 
   const reviewPackagePath = path.join(ROOT, "reports", "unmerged-closure-owner-review-package.json");
-  let hasReviewPackage = false;
-  if (fs.existsSync(reviewPackagePath)) {
-    try {
-      const pkg = JSON.parse(fs.readFileSync(reviewPackagePath, "utf8"));
-      hasReviewPackage = pkg.mode === "OWNER_REVIEW_PACKAGE_READY";
-    } catch {
-      hasReviewPackage = false;
-    }
-  }
+  const hasReviewPackage =
+    fs.existsSync(reviewPackagePath) &&
+    (() => {
+      try {
+        const pkg = JSON.parse(fs.readFileSync(reviewPackagePath, "utf8"));
+        return pkg.mode === "OWNER_REVIEW_PACKAGE_READY";
+      } catch {
+        return false;
+      }
+    })();
+  const hasOwnerFinalDecisions = decisionsDoc.verdict === "OWNER_DECISIONS_COMPLETE";
 
-  if (!hasReviewPackage) {
+  if (!hasReviewPackage && !hasOwnerFinalDecisions) {
     const viewHeader = [
       "# Unmerged closure — OWNER view (53/53 READ-ONLY prep + validation)",
       "",
