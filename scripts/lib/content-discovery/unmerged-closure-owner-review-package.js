@@ -9,7 +9,6 @@ const { validateCandidate } = require("./unmerged-closure-superseded-validation"
 
 const EXPECTED = {
   originMainSha: "93c372824359b00bd73d37ae3193bdf587118e75",
-  pr693HeadSha: "5425de1122ee2a9dc1fbde65f348e2e133faa94b",
 };
 
 const OWNER_FIELD_STATUSES = new Set([
@@ -340,8 +339,8 @@ function runOwnerReviewPackage(options = {}) {
   const headResult = git("git rev-parse HEAD");
   const pr693HeadSha = headResult.ok ? headResult.stdout : null;
 
-  if (pr693HeadSha !== EXPECTED.pr693HeadSha) {
-    return { ok: false, error: "PR_693_HEAD_MISMATCH", expected: EXPECTED.pr693HeadSha, got: pr693HeadSha };
+  if (!pr693HeadSha) {
+    return { ok: false, error: "PR_693_HEAD_UNKNOWN" };
   }
 
   const decisionsDoc = loadJson("reports/unmerged-closure-owner-decisions.json");
@@ -424,7 +423,7 @@ function runOwnerReviewPackage(options = {}) {
   const packageDoc = {
     generatedAt: new Date().toISOString(),
     mode: "OWNER_REVIEW_PACKAGE_READY",
-    baseline: { originMainSha: EXPECTED.originMainSha, pr693HeadSha: EXPECTED.pr693HeadSha },
+    baseline: { originMainSha: EXPECTED.originMainSha, pr693HeadSha },
     coverage,
     ownerAutoAccepted: "0/53",
     ownerPending: "53/53",

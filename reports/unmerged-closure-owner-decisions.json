@@ -3,9 +3,9 @@
   "module": "unmerged-closure-d1",
   "decidedBy": "OWNER",
   "description": "OWNER-PREP manifest — 53/53 candidates. Cursor fills evidence fields only; resolvedCategory/ownerReason/ownerDecisionDate remain null until OWNER decides.",
-  "generatedAt": "2026-08-28T19:04:54.401Z",
+  "generatedAt": "2026-08-28T19:05:37.625Z",
   "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
-  "pr693HeadSha": "5425de1122ee2a9dc1fbde65f348e2e133faa94b",
+  "pr693HeadSha": "e8bcf52acde9d37ce6eb020c511a1fb71f1624e0",
   "expectedCandidates": 53,
   "decisions": [
     {
@@ -145761,8 +145761,8 @@
       "baseSha": "8c82df0454dad44636830145e26e5b8e52aa4184"
     }
   ],
-  "supersededValidationAt": "2026-08-28T19:04:54.401Z",
-  "ownerReviewPackageAt": "2026-08-28T19:04:49.520Z",
+  "supersededValidationAt": "2026-08-28T19:05:37.625Z",
+  "ownerReviewPackageAt": "2026-08-28T19:05:32.658Z",
   "ownerAutoAccepted": "0/53",
   "ownerPending": "53/53",
   "verdict": "OWNER_REVIEW_PACKAGE_READY"

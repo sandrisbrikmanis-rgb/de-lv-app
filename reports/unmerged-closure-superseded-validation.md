@@ -1,9 +1,9 @@
 # Unmerged closure — superseded evidence validation (53/53 READ-ONLY)
 
-**Generated:** 2026-08-28T19:04:54.259Z
+**Generated:** 2026-08-28T19:05:37.485Z
 **MASTER:** 1.12
 **ORIGIN_MAIN_SHA:** `93c372824359b00bd73d37ae3193bdf587118e75`
-**PR #693 HEAD:** `5425de1122ee2a9dc1fbde65f348e2e133faa94b`
+**PR #693 HEAD:** `e8bcf52acde9d37ce6eb020c511a1fb71f1624e0`
 **Scope:** 53/53
 
 ## Validation summary

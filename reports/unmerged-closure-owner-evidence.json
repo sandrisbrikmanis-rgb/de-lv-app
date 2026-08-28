@@ -9730,7 +9730,7 @@
     "MERGE": "FORBIDDEN"
   },
   "supersededValidation": {
-    "generatedAt": "2026-08-28T19:04:54.403Z",
+    "generatedAt": "2026-08-28T19:05:37.627Z",
     "summary": {
       "evidence": {
         "EVIDENCE_SUFFICIENT": 12,
@@ -9775,7 +9775,7 @@
     "reportMd": "/workspace/reports/unmerged-closure-superseded-validation.md"
   },
   "ownerReviewPackage": {
-    "generatedAt": "2026-08-28T19:04:49.520Z",
+    "generatedAt": "2026-08-28T19:05:32.659Z",
     "ownerAutoAccepted": "0/53",
     "ownerPending": "53/53",
     "recommendedCategorySummary": {
