@@ -171,7 +171,7 @@ function auditAllLanguages() {
       }
 
       if (target !== source) continue;
-      const [status] = classifySameRow(key, source);
+      const [status] = classifySameRow(key, source, repoLang);
       langCounts[status] = (langCounts[status] || 0) + 1;
       totals.sameRows += 1;
       if (status === "INTENTIONAL_SAME") totals.intentionalSame += 1;
@@ -185,7 +185,7 @@ function auditAllLanguages() {
           category: status,
           lvSource: source,
           current: target,
-          detail: classifySameRow(key, source)[1],
+          detail: classifySameRow(key, source, repoLang)[1],
         });
       }
     }

@@ -19,10 +19,10 @@
 | Atslēgas uz valodu | **305** |
 | Kopā pārbaudīto atslēgu salīdzinājumu | **9455** (31 × 305) |
 | Valodu ar 305/305 atslēgām | **31/31** |
-| Kopējais `target === LV source` rindu skaits | **359** |
-| INTENTIONAL_SAME | **165** |
+| Kopējais `target === LV source` rindu skaits | **281** |
+| INTENTIONAL_SAME | **281** |
 | REAL_UNTRANSLATED | **0** |
-| NEEDS_OWNER_REVIEW | **194** |
+| NEEDS_OWNER_REVIEW | **0** |
 | Placeholder kļūdas | **0** |
 | HTML struktūras kļūdas | **0** |
 | Trūkstošas atslēgas | **0** |
@@ -33,11 +33,11 @@
 
 | Valoda | Atslēgas | target===source | LV vārdu skaits | INTENTIONAL_SAME | REAL_UNTRANSLATED | NEEDS_OWNER_REVIEW | Placeholder | HTML | Trūkst | Liekas | Tukšas |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| lt | 305/305 | 10 | 33 | 6 | 0 | 4 | 0 | 0 | 0 | 0 | 0 |
+| lt | 305/305 | 10 | 33 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ru | 305/305 | 6 | 29 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| pl | 305/305 | 7 | 30 | 6 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| pl | 305/305 | 7 | 30 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | uk | 305/305 | 6 | 29 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| et | 305/305 | 8 | 31 | 6 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| et | 305/305 | 8 | 31 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | en | 305/305 | 5 | 17 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ro | 305/305 | 7 | 30 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | bg | 305/305 | 3 | 13 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -45,25 +45,25 @@
 | gr (Crowdin: `el`) | 305/305 | 5 | 17 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | sq | 305/305 | 5 | 17 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | mk | 305/305 | 3 | 13 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| sl | 305/305 | 24 | 55 | 3 | 0 | 21 | 0 | 0 | 0 | 0 | 0 |
-| bs | 305/305 | 32 | 79 | 7 | 0 | 25 | 0 | 0 | 0 | 0 | 0 |
-| sr | 305/305 | 24 | 55 | 3 | 0 | 21 | 0 | 0 | 0 | 0 | 0 |
-| hr | 305/305 | 24 | 55 | 3 | 0 | 21 | 0 | 0 | 0 | 0 | 0 |
-| sk | 305/305 | 7 | 30 | 6 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-| cs | 305/305 | 8 | 20 | 6 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
-| fi | 305/305 | 8 | 31 | 6 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
-| sv | 305/305 | 9 | 32 | 7 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
-| nb | 305/305 | 9 | 32 | 7 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
-| nn | 305/305 | 9 | 32 | 7 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| sl | 305/305 | 24 | 55 | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| bs | 305/305 | 31 | 75 | 31 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sr | 305/305 | 24 | 55 | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| hr | 305/305 | 24 | 55 | 24 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sk | 305/305 | 7 | 30 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| cs | 305/305 | 8 | 20 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| fi | 305/305 | 8 | 31 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sv | 305/305 | 9 | 32 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| nb | 305/305 | 9 | 32 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| nn | 305/305 | 9 | 32 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | da | 305/305 | 6 | 23 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| nl | 305/305 | 8 | 31 | 6 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
-| lb | 305/305 | 87 | 242 | 7 | 0 | 80 | 0 | 0 | 0 | 0 | 0 |
+| nl | 305/305 | 8 | 31 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| lb | 305/305 | 10 | 33 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | fr | 305/305 | 2 | 4 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| it | 305/305 | 8 | 31 | 6 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
-| es | 305/305 | 7 | 19 | 5 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| it | 305/305 | 8 | 31 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| es | 305/305 | 7 | 19 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | pt | 305/305 | 4 | 21 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hu | 305/305 | 5 | 17 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| is | 305/305 | 8 | 31 | 6 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| is | 305/305 | 8 | 31 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Satura rādītājs (GitHub)
 
@@ -82,7 +82,7 @@
 | sq | 5 | 0 | [sq](#lang-sq) |
 | mk | 3 | 0 | [mk](#lang-mk) |
 | sl | 24 | 0 | [sl](#lang-sl) |
-| bs | 32 | 0 | [bs](#lang-bs) |
+| bs | 31 | 0 | [bs](#lang-bs) |
 | sr | 24 | 0 | [sr](#lang-sr) |
 | hr | 24 | 0 | [hr](#lang-hr) |
 | sk | 7 | 0 | [sk](#lang-sk) |
@@ -93,7 +93,7 @@
 | nn | 9 | 0 | [nn](#lang-nn) |
 | da | 6 | 0 | [da](#lang-da) |
 | nl | 8 | 0 | [nl](#lang-nl) |
-| lb | 87 | 0 | [lb](#lang-lb) |
+| lb | 10 | 0 | [lb](#lang-lb) |
 | fr | 2 | 0 | [fr](#lang-fr) |
 | it | 8 | 0 | [it](#lang-it) |
 | es | 7 | 0 | [es](#lang-es) |
@@ -110,9 +110,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 10
 - **Šo rindu LV avota vārdu skaits:** 33
-- **INTENTIONAL_SAME:** 6
+- **INTENTIONAL_SAME:** 10
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 4
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -123,15 +123,15 @@
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
-| lt | `card.sessionLabel` | Sesija | Sesija | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| lt | `card.sessionLabel` | Sesija | Sesija | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | lt | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | lt | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| lt | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| lt | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | lt | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | lt | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| lt | `kurss.sections.grammar` | Gramatika | Gramatika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| lt | `kurss.sections.grammar` | Gramatika | Gramatika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | lt | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| lt | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| lt | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | lt | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
@@ -172,9 +172,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 7
 - **Šo rindu LV avota vārdu skaits:** 30
-- **INTENTIONAL_SAME:** 6
+- **INTENTIONAL_SAME:** 7
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 1
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -190,7 +190,7 @@
 | pl | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | pl | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | pl | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| pl | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| pl | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | pl | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
@@ -231,9 +231,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 8
 - **Šo rindu LV avota vārdu skaits:** 31
-- **INTENTIONAL_SAME:** 6
+- **INTENTIONAL_SAME:** 8
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -246,11 +246,11 @@
 |---|---|---|---|---|---|
 | et | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | et | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| et | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| et | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | et | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | et | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | et | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| et | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| et | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | et | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
@@ -456,9 +456,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 24
 - **Šo rindu LV avota vārdu skaits:** 55
-- **INTENTIONAL_SAME:** 3
+- **INTENTIONAL_SAME:** 24
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 21
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -473,28 +473,28 @@
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
 | sl | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| sl | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.12.title` | Lekcija 12 | Lekcija 12 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.13.title` | Lekcija 13 | Lekcija 13 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.14.title` | Lekcija 14 | Lekcija 14 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.15.title` | Lekcija 15 | Lekcija 15 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.16.title` | Lekcija 16 | Lekcija 16 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.17.title` | Lekcija 17 | Lekcija 17 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.18.title` | Lekcija 18 | Lekcija 18 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| sl | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.12.title` | Lekcija 12 | Lekcija 12 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.13.title` | Lekcija 13 | Lekcija 13 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.14.title` | Lekcija 14 | Lekcija 14 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.15.title` | Lekcija 15 | Lekcija 15 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.16.title` | Lekcija 16 | Lekcija 16 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.17.title` | Lekcija 17 | Lekcija 17 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.18.title` | Lekcija 18 | Lekcija 18 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | sl | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| sl | `kurss.lessonItems.19.title` | Lekcija 19 | Lekcija 19 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.2.title` | Lekcija 2 | Lekcija 2 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.20.title` | Lekcija 20 | Lekcija 20 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.21.title` | Lekcija 21 | Lekcija 21 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.3.title` | Lekcija 3 | Lekcija 3 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.4.title` | Lekcija 4 | Lekcija 4 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.5.title` | Lekcija 5 | Lekcija 5 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.6.title` | Lekcija 6 | Lekcija 6 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sl | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| sl | `kurss.lessonItems.19.title` | Lekcija 19 | Lekcija 19 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.2.title` | Lekcija 2 | Lekcija 2 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.20.title` | Lekcija 20 | Lekcija 20 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.21.title` | Lekcija 21 | Lekcija 21 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.3.title` | Lekcija 3 | Lekcija 3 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.4.title` | Lekcija 4 | Lekcija 4 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.5.title` | Lekcija 5 | Lekcija 5 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.6.title` | Lekcija 6 | Lekcija 6 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sl | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | sl | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 </details>
@@ -506,11 +506,11 @@
 ## bs
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 32
-- **Šo rindu LV avota vārdu skaits:** 79
-- **INTENTIONAL_SAME:** 7
+- **target === source rindas:** 31
+- **Šo rindu LV avota vārdu skaits:** 75
+- **INTENTIONAL_SAME:** 31
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 25
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -520,39 +520,38 @@
 ### target === source tabula
 
 <details>
-<summary><strong>target === source tabula</strong> (32 rindas — noklikšķini, lai izvērstu)</summary>
+<summary><strong>target === source tabula</strong> (31 rindas — noklikšķini, lai izvērstu)</summary>
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
-| bs | `card.sessionLabel` | Sesija | Sesija | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| bs | `card.sessionLabel` | Sesija | Sesija | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | bs | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | bs | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| bs | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.12.title` | Lekcija 12 | Lekcija 12 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.13.title` | Lekcija 13 | Lekcija 13 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.14.title` | Lekcija 14 | Lekcija 14 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.15.title` | Lekcija 15 | Lekcija 15 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.16.menuDesc` | Dativs, geben, sich nähern. | Dativs, geben, sich nähern. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| bs | `kurss.lessonItems.16.title` | Lekcija 16 | Lekcija 16 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.17.title` | Lekcija 17 | Lekcija 17 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.18.title` | Lekcija 18 | Lekcija 18 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| bs | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.12.title` | Lekcija 12 | Lekcija 12 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.13.title` | Lekcija 13 | Lekcija 13 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.14.title` | Lekcija 14 | Lekcija 14 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.15.title` | Lekcija 15 | Lekcija 15 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.16.title` | Lekcija 16 | Lekcija 16 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.17.title` | Lekcija 17 | Lekcija 17 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.18.title` | Lekcija 18 | Lekcija 18 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | bs | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| bs | `kurss.lessonItems.19.title` | Lekcija 19 | Lekcija 19 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.2.title` | Lekcija 2 | Lekcija 2 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.20.title` | Lekcija 20 | Lekcija 20 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| bs | `kurss.lessonItems.19.title` | Lekcija 19 | Lekcija 19 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.2.title` | Lekcija 2 | Lekcija 2 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.20.title` | Lekcija 20 | Lekcija 20 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | bs | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| bs | `kurss.lessonItems.21.title` | Lekcija 21 | Lekcija 21 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.3.title` | Lekcija 3 | Lekcija 3 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.4.title` | Lekcija 4 | Lekcija 4 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.5.title` | Lekcija 5 | Lekcija 5 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.6.title` | Lekcija 6 | Lekcija 6 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| bs | `kurss.sections.grammar` | Gramatika | Gramatika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| bs | `kurss.lessonItems.21.title` | Lekcija 21 | Lekcija 21 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.3.title` | Lekcija 3 | Lekcija 3 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.4.title` | Lekcija 4 | Lekcija 4 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.5.title` | Lekcija 5 | Lekcija 5 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.6.title` | Lekcija 6 | Lekcija 6 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| bs | `kurss.sections.grammar` | Gramatika | Gramatika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | bs | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
 | bs | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 | bs | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
@@ -568,9 +567,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 24
 - **Šo rindu LV avota vārdu skaits:** 55
-- **INTENTIONAL_SAME:** 3
+- **INTENTIONAL_SAME:** 24
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 21
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -585,28 +584,28 @@
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
 | sr | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| sr | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.12.title` | Lekcija 12 | Lekcija 12 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.13.title` | Lekcija 13 | Lekcija 13 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.14.title` | Lekcija 14 | Lekcija 14 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.15.title` | Lekcija 15 | Lekcija 15 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.16.title` | Lekcija 16 | Lekcija 16 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.17.title` | Lekcija 17 | Lekcija 17 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.18.title` | Lekcija 18 | Lekcija 18 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| sr | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.12.title` | Lekcija 12 | Lekcija 12 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.13.title` | Lekcija 13 | Lekcija 13 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.14.title` | Lekcija 14 | Lekcija 14 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.15.title` | Lekcija 15 | Lekcija 15 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.16.title` | Lekcija 16 | Lekcija 16 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.17.title` | Lekcija 17 | Lekcija 17 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.18.title` | Lekcija 18 | Lekcija 18 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | sr | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| sr | `kurss.lessonItems.19.title` | Lekcija 19 | Lekcija 19 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.2.title` | Lekcija 2 | Lekcija 2 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.20.title` | Lekcija 20 | Lekcija 20 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.21.title` | Lekcija 21 | Lekcija 21 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.3.title` | Lekcija 3 | Lekcija 3 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.4.title` | Lekcija 4 | Lekcija 4 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.5.title` | Lekcija 5 | Lekcija 5 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.6.title` | Lekcija 6 | Lekcija 6 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| sr | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| sr | `kurss.lessonItems.19.title` | Lekcija 19 | Lekcija 19 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.2.title` | Lekcija 2 | Lekcija 2 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.20.title` | Lekcija 20 | Lekcija 20 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.21.title` | Lekcija 21 | Lekcija 21 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.3.title` | Lekcija 3 | Lekcija 3 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.4.title` | Lekcija 4 | Lekcija 4 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.5.title` | Lekcija 5 | Lekcija 5 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.6.title` | Lekcija 6 | Lekcija 6 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| sr | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | sr | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 </details>
@@ -620,9 +619,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 24
 - **Šo rindu LV avota vārdu skaits:** 55
-- **INTENTIONAL_SAME:** 3
+- **INTENTIONAL_SAME:** 24
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 21
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -637,28 +636,28 @@
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
 | hr | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| hr | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.12.title` | Lekcija 12 | Lekcija 12 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.13.title` | Lekcija 13 | Lekcija 13 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.14.title` | Lekcija 14 | Lekcija 14 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.15.title` | Lekcija 15 | Lekcija 15 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.16.title` | Lekcija 16 | Lekcija 16 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.17.title` | Lekcija 17 | Lekcija 17 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.18.title` | Lekcija 18 | Lekcija 18 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| hr | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.12.title` | Lekcija 12 | Lekcija 12 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.13.title` | Lekcija 13 | Lekcija 13 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.14.title` | Lekcija 14 | Lekcija 14 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.15.title` | Lekcija 15 | Lekcija 15 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.16.title` | Lekcija 16 | Lekcija 16 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.17.title` | Lekcija 17 | Lekcija 17 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.18.title` | Lekcija 18 | Lekcija 18 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | hr | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| hr | `kurss.lessonItems.19.title` | Lekcija 19 | Lekcija 19 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.2.title` | Lekcija 2 | Lekcija 2 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.20.title` | Lekcija 20 | Lekcija 20 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.21.title` | Lekcija 21 | Lekcija 21 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.3.title` | Lekcija 3 | Lekcija 3 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.4.title` | Lekcija 4 | Lekcija 4 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.5.title` | Lekcija 5 | Lekcija 5 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.6.title` | Lekcija 6 | Lekcija 6 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| hr | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| hr | `kurss.lessonItems.19.title` | Lekcija 19 | Lekcija 19 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.2.title` | Lekcija 2 | Lekcija 2 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.20.title` | Lekcija 20 | Lekcija 20 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.21.title` | Lekcija 21 | Lekcija 21 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.3.title` | Lekcija 3 | Lekcija 3 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.4.title` | Lekcija 4 | Lekcija 4 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.5.title` | Lekcija 5 | Lekcija 5 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.6.title` | Lekcija 6 | Lekcija 6 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
+| hr | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | hr | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 </details>
@@ -672,9 +671,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 7
 - **Šo rindu LV avota vārdu skaits:** 30
-- **INTENTIONAL_SAME:** 6
+- **INTENTIONAL_SAME:** 7
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 1
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -690,7 +689,7 @@
 | sk | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | sk | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | sk | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| sk | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| sk | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | sk | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
@@ -702,9 +701,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 8
 - **Šo rindu LV avota vārdu skaits:** 20
-- **INTENTIONAL_SAME:** 6
+- **INTENTIONAL_SAME:** 8
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -717,9 +716,9 @@
 |---|---|---|---|---|---|
 | cs | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | cs | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| cs | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| cs | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | cs | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| cs | `kurss.sections.grammar` | Gramatika | Gramatika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| cs | `kurss.sections.grammar` | Gramatika | Gramatika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | cs | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
 | cs | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 | cs | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
@@ -733,9 +732,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 8
 - **Šo rindu LV avota vārdu skaits:** 31
-- **INTENTIONAL_SAME:** 6
+- **INTENTIONAL_SAME:** 8
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -748,11 +747,11 @@
 |---|---|---|---|---|---|
 | fi | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | fi | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| fi | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| fi | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | fi | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | fi | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | fi | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| fi | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| fi | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | fi | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
@@ -764,9 +763,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 9
 - **Šo rindu LV avota vārdu skaits:** 32
-- **INTENTIONAL_SAME:** 7
+- **INTENTIONAL_SAME:** 9
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -779,11 +778,11 @@
 |---|---|---|---|---|---|
 | sv | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | sv | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| sv | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| sv | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | sv | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | sv | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | sv | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| sv | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| sv | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | sv | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 | sv | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
@@ -796,9 +795,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 9
 - **Šo rindu LV avota vārdu skaits:** 32
-- **INTENTIONAL_SAME:** 7
+- **INTENTIONAL_SAME:** 9
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -811,11 +810,11 @@
 |---|---|---|---|---|---|
 | nb | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | nb | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| nb | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| nb | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | nb | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | nb | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | nb | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| nb | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| nb | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | nb | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 | nb | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
@@ -828,9 +827,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 9
 - **Šo rindu LV avota vārdu skaits:** 32
-- **INTENTIONAL_SAME:** 7
+- **INTENTIONAL_SAME:** 9
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -843,11 +842,11 @@
 |---|---|---|---|---|---|
 | nn | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | nn | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| nn | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| nn | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | nn | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | nn | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | nn | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| nn | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| nn | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | nn | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 | nn | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
@@ -889,9 +888,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 8
 - **Šo rindu LV avota vārdu skaits:** 31
-- **INTENTIONAL_SAME:** 6
+- **INTENTIONAL_SAME:** 8
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -904,11 +903,11 @@
 |---|---|---|---|---|---|
 | nl | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | nl | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| nl | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| nl | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | nl | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | nl | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | nl | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| nl | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| nl | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | nl | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
@@ -918,11 +917,11 @@
 ## lb
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 87
-- **Šo rindu LV avota vārdu skaits:** 242
-- **INTENTIONAL_SAME:** 7
+- **target === source rindas:** 10
+- **Šo rindu LV avota vārdu skaits:** 33
+- **INTENTIONAL_SAME:** 10
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 80
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -931,100 +930,18 @@
 
 ### target === source tabula
 
-<details>
-<summary><strong>target === source tabula</strong> (87 rindas — noklikšķini, lai izvērstu)</summary>
-
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
-| lb | `buttons.extraOptions` | Papildu opcijas | Papildu opcijas | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `buttons.extraOptionsClose` | Papildu opcijas ▲ | Papildu opcijas ▲ | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `buttons.extraOptionsOpen` | Papildu opcijas ▼ | Papildu opcijas ▼ | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `buttons.restore` | Atgriezt | Atgriezt | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `buttons.restoreAll` | Atgriezt visu | Atgriezt visu | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `card.answerPrefix` | Atbilde: | Atbilde: | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `card.pluralLabel` | Daudzsk. | Daudzsk. | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `card.sessionComplete` | Sesija pabeigta! | Sesija pabeigta! | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `card.sessionLabel` | Sesija | Sesija | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | lb | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | lb | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| lb | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `info.answersTitle` | Atbildes | Atbildes | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `info.directionTitle` | Tulkojuma virziens | Tulkojuma virziens | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `info.extraTitle` | Papildu opcijas | Papildu opcijas | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `kurss.articles` | Artikuli | Artikuli | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `kurss.back` | ‹ Kurss | ‹ Kurss | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `kurss.exerciseMeta.formDu` | Forma 1/3: Tu (vienskaitlis) | Forma 1/3: Tu (vienskaitlis) | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `kurss.exerciseMeta.translate` | Übung II — tulko | Übung II — tulko | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `kurss.lessonItems.1.menuDesc` | Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš. | Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.10.menuDesc` | Sein, können, veselība, vecums un profesijas. | Sein, können, veselība, vecums un profesijas. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.11.menuDesc` | Haben, kein/keine/keinen, piederība un saliktie lietvārdi. | Haben, kein/keine/keinen, piederība un saliktie lietvārdi. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.12.menuDesc` | Salīdzināmās pakāpes, als/wie, vecums un krāsas. | Salīdzināmās pakāpes, als/wie, vecums un krāsas. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.12.title` | Lekcija 12 | Lekcija 12 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.13.menuDesc` | Der Körper, ķermeņa daļas, turnen un jeder. | Der Körper, ķermeņa daļas, turnen un jeder. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.13.title` | Lekcija 13 | Lekcija 13 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.14.menuDesc` | müssen, wollen, mögen un modālie darbības vārdi. | müssen, wollen, mögen un modālie darbības vārdi. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.14.title` | Lekcija 14 | Lekcija 14 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.15.menuDesc` | sollen, dürfen, essen un augļi. | sollen, dürfen, essen un augļi. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.15.title` | Lekcija 15 | Lekcija 15 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.16.menuDesc` | Dativs, geben, sich nähern. | Dativs, geben, sich nähern. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.16.title` | Lekcija 16 | Lekcija 16 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.17.title` | Lekcija 17 | Lekcija 17 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.18.title` | Lekcija 18 | Lekcija 18 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| lb | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | lb | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| lb | `kurss.lessonItems.19.title` | Lekcija 19 | Lekcija 19 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.2.menuDesc` | Dialogi, vārdi, izruna, gramatika un pārtulkošana. | Dialogi, vārdi, izruna, gramatika un pārtulkošana. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.2.title` | Lekcija 2 | Lekcija 2 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.20.menuDesc` | Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi. | Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.20.title` | Lekcija 20 | Lekcija 20 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | lb | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| lb | `kurss.lessonItems.21.title` | Lekcija 21 | Lekcija 21 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.3.menuDesc` | Dialogi, vārdi, izruna, gramatika un pārtulkošana. | Dialogi, vārdi, izruna, gramatika un pārtulkošana. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.3.title` | Lekcija 3 | Lekcija 3 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.4.menuDesc` | Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi. | Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.4.title` | Lekcija 4 | Lekcija 4 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.5.menuDesc` | Wen?, akuzatīvs, sitzen, fragen un -in galotne. | Wen?, akuzatīvs, sitzen, fragen un -in galotne. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.5.title` | Lekcija 5 | Lekcija 5 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.6.menuDesc` | Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas. | Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.6.title` | Lekcija 6 | Lekcija 6 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.7.menuDesc` | Pavēles izteiksme, uzrunas forma un daudzskaitlis. | Pavēles izteiksme, uzrunas forma un daudzskaitlis. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.8.menuDesc` | Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs. | Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessonItems.9.menuDesc` | Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis. | Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis. | NEEDS_OWNER_REVIEW | Jaukts LV + DE mācību apraksts — nepieciešams OWNER vērtējums |
-| lb | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.lessons` | Lekcijas | Lekcijas | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `kurss.panelLabel` | Kurss | Kurss | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `kurss.pronunciation` | Izruna | Izruna | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `kurss.sections.grammar` | Gramatika | Gramatika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `kurss.tipTitle` | Padoms | Padoms | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `kurss.title` | Kurss | Kurss | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `menu.course` | Kurss | Kurss | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `modes.easy` | Viegls | Viegls | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `progress.courseHeading` | Kurss | Kurss | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `settings.appLanguage` | Lietotnes valoda | Lietotnes valoda | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `spelling.writeAnswer` | Ieraksti atbildi | Ieraksti atbildi | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `study.minimal.formsLabel` | Formas: | Formas: | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `study.minimal.pluralLabel` | DAUDZSK. | DAUDZSK. | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `study.minimal.tipLabel` | Padoms: | Padoms: | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `study.sections.explanation` | Skaidrojums | Skaidrojums | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `study.sections.remember` | Atceries | Atceries | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `study.sections.tip` | Padoms | Padoms | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `study.table.describes` | Raksturo | Raksturo | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
+| lb | `kurss.sections.grammar` | Gramatika | Gramatika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | lb | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| lb | `study.table.translation` | Tulkojums | Tulkojums | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
-| lb | `tools.spellingShort` | Rakst. | Rakst. | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `verb.guessImperfect` | Uzmini imperfektu | Uzmini imperfektu | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
+| lb | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | lb | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 | lb | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
-| lb | `verb.present` | Tagadne | Tagadne | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `verb.translationPrefix` | Tulkojums: | Tulkojums: | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-| lb | `verb.writeImperfect` | Uzraksti imperfektu | Uzraksti imperfektu | NEEDS_OWNER_REVIEW | Nav droši klasificējams automātiski |
-
-</details>
 
 ---
 
@@ -1060,9 +977,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 8
 - **Šo rindu LV avota vārdu skaits:** 31
-- **INTENTIONAL_SAME:** 6
+- **INTENTIONAL_SAME:** 8
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -1075,11 +992,11 @@
 |---|---|---|---|---|---|
 | it | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | it | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| it | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| it | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | it | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | it | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | it | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| it | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| it | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | it | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
@@ -1091,9 +1008,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 7
 - **Šo rindu LV avota vārdu skaits:** 19
-- **INTENTIONAL_SAME:** 5
+- **INTENTIONAL_SAME:** 7
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -1107,9 +1024,9 @@
 | es | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | es | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | es | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
-| es | `study.minimal.formsLabel` | Formas: | Formas: | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| es | `study.minimal.formsLabel` | Formas: | Formas: | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | es | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| es | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| es | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | es | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
@@ -1176,9 +1093,9 @@
 - **Atslēgas:** 305/305
 - **target === source rindas:** 8
 - **Šo rindu LV avota vārdu skaits:** 31
-- **INTENTIONAL_SAME:** 6
+- **INTENTIONAL_SAME:** 8
 - **REAL_UNTRANSLATED:** 0
-- **NEEDS_OWNER_REVIEW:** 2
+- **NEEDS_OWNER_REVIEW:** 0
 - **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
@@ -1191,11 +1108,11 @@
 |---|---|---|---|---|---|
 | is | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | is | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
-| is | `extra.statistics` | Statistika | Statistika | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| is | `extra.statistics` | Statistika | Statistika | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | is | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | is | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | is | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
-| is | `tools.problemShort` | Probl. | Probl. | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| is | `tools.problemShort` | Probl. | Probl. | INTENTIONAL_SAME | OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums |
 | is | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---

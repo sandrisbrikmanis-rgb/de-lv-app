@@ -338,7 +338,7 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "16": {
         "title": "Lekcija 16",
-        "menuDesc": "Dativs, geben, sich nähern."
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
         "title": "Lekcija 17",

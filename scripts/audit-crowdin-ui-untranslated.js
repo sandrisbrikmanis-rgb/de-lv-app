@@ -93,7 +93,7 @@ function auditLanguage(repoLang, lvFlat, lvKeys) {
   for (const key of lvKeys) {
     if (!targetKeys.has(key)) continue;
     if (targetFlat[key] !== lvFlat[key]) continue;
-    const [status, rationale] = classifySameRow(key, lvFlat[key]);
+    const [status, rationale] = classifySameRow(key, lvFlat[key], repoLang);
     sameRows.push({
       language: repoLang,
       key,

@@ -14,7 +14,7 @@ Atver šo failu GitHub (PR vai branch), tad izmanto saites uz pilno auditu un ko
 
 ## Kopsavilkums
 
-- **target === LV source rindas:** 359
+- **target === LV source rindas:** 281
 - **REAL_UNTRANSLATED:** 0
 - **Placeholder kļūdas:** 0
 

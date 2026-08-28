@@ -1,6 +1,16 @@
 #!/usr/bin/env node
 "use strict";
 
+const fs = require("fs");
+const path = require("path");
+
+const ROOT = path.resolve(__dirname, "..", "..");
+const OWNER_NELABOT_DECISIONS = path.join(
+  ROOT,
+  "reports",
+  "crowdin-ui-needs-owner-review-decisions.json"
+);
+
 const LV_DIACRITICS_RE = /[āčēģīķļņšūžĀČĒĢĪĶĻŅŠŪŽ]/;
 const LATVIAN_HINT_RE =
   /\b(un|vārdu|vārdi|vārdus|iemācī|Pārbaud|Atcelt|Turpin|Izvēl|Klikšķ|Nospied|Rādām|Turpinām|Šonedēļ|Šomēnes|Nezinu|Zinu|Darbības|Teikumi|Galvenā|Problemātisk|Nevajadzīg|pareizrakstīb|mācīšanās|sesij|kartīt|līmenis|pārskat)\b/i;
@@ -28,6 +38,26 @@ const COGNATE_REVIEW_KEYS = new Set([
   "study.minimal.formsLabel",
   "tools.problemShort",
 ]);
+
+/** OWNER_ACCEPTED NELABOT rows — closed as intentional cognates (language:key). */
+const OWNER_NELABOT_LOCK = new Set();
+try {
+  const ownerDecisions = JSON.parse(fs.readFileSync(OWNER_NELABOT_DECISIONS, "utf8"));
+  if (ownerDecisions.ownerApproval?.status === "OWNER_ACCEPTED") {
+    for (const row of ownerDecisions.rows || []) {
+      if (row.ownerStatus === "NELABOT" && row.ownerApproved === true) {
+        OWNER_NELABOT_LOCK.add(`${row.language}:${row.key}`);
+      }
+    }
+  }
+} catch {
+  // decisions file optional until OWNER review complete
+}
+
+function isOwnerAcceptedNelabot(repoLang, key) {
+  if (!repoLang) return false;
+  return OWNER_NELABOT_LOCK.has(`${repoLang}:${key}`);
+}
 
 function hasLatvianDiacritics(value) {
   return LV_DIACRITICS_RE.test(value);
@@ -79,7 +109,7 @@ function reasonCategoryForIntentional(key, lvValue, rationale) {
   return "INTENTIONAL_OTHER";
 }
 
-function classifySameRow(key, lvValue) {
+function classifySameRow(key, lvValue, repoLang = null) {
   if (INTENTIONAL_KEYS.has(key)) {
     if (key === "study.table.german") {
       return ["INTENTIONAL_SAME", "DE kolonnas kods"];
@@ -106,6 +136,12 @@ function classifySameRow(key, lvValue) {
   }
 
   if (isCognateReviewKey(key)) {
+    if (isOwnerAcceptedNelabot(repoLang, key)) {
+      return [
+        "INTENTIONAL_SAME",
+        "OWNER NELABOT — apzināts kognāts vai DE pedagoģijas saīsinājums",
+      ];
+    }
     return [
       "NEEDS_OWNER_REVIEW",
       "Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam",
@@ -129,4 +165,5 @@ function classifySameRow(key, lvValue) {
 module.exports = {
   classifySameRow,
   reasonCategoryForIntentional,
+  OWNER_NELABOT_LOCK,
 };

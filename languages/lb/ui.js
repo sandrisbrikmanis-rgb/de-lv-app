@@ -15,7 +15,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "menu": {
     "mainNav": "Haaptmenü",
-    "course": "Kurss",
+    "course": "Cours",
     "sentences": "Sätz",
     "verbs": "Verben",
     "chooseGroup": "Wiel eng Grupp"
@@ -38,11 +38,11 @@ window.LANGUAGE_UI_STRINGS = {
     "close": "Zoumaachen",
     "delete": "Läschen",
     "cancel": "Ofbriechen",
-    "restore": "Atgriezt",
-    "restoreAll": "Atgriezt visu",
-    "extraOptions": "Papildu opcijas",
-    "extraOptionsOpen": "Papildu opcijas ▼",
-    "extraOptionsClose": "Papildu opcijas ▲",
+    "restore": "Zeréckhuelen",
+    "restoreAll": "Alles zeréckhuelen",
+    "extraOptions": "Zousätzlech Optiounen",
+    "extraOptionsOpen": "Zousätzlech Optiounen ▼",
+    "extraOptionsClose": "Zousätzlech Optiounen ▲",
     "weeklyReview": "Wocheniwwersiicht",
     "monthlyReview": "Mountsiwwersiicht",
     "unwantedWords": "Net gebraucht Wierder",
@@ -70,11 +70,11 @@ window.LANGUAGE_UI_STRINGS = {
     "problemShort": "Probl.",
     "problemFull": "Problemwierder",
     "problemWithCount": "Problemwierder ({count})",
-    "spellingShort": "Rakst.",
+    "spellingShort": "Schreiw.",
     "spellingFull": "Rechtschreiwung"
   },
   "modes": {
-    "easy": "Viegls",
+    "easy": "Liicht",
     "normal": "Normal",
     "intense": "Intensiv"
   },
@@ -89,13 +89,13 @@ window.LANGUAGE_UI_STRINGS = {
     "trainingCard": "Übungskaart: {title}"
   },
   "card": {
-    "pluralLabel": "Daudzsk.",
+    "pluralLabel": "Plural",
     "spelling": "Rechtschreiwung",
     "spellingVerbs": "Rechtschreiwung · Verben",
     "verbsShuffleTraining": "Verben · Gemëschten Training",
-    "answerPrefix": "Atbilde:",
-    "sessionComplete": "Sesija pabeigta!",
-    "sessionLabel": "Sesija",
+    "answerPrefix": "Äntwert:",
+    "sessionComplete": "Sessioun ofgeschloss!",
+    "sessionLabel": "Sessioun",
     "lastSessionLabel": "Lescht Sessioun",
     "problemLabel": "Problemwierder",
     "levelCompleteTitle": "Exzellent! Niveau {label} ass ofgeschloss! 🎉",
@@ -106,18 +106,18 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "verb": {
     "infinitive": "Infinitiv",
-    "present": "Tagadne",
+    "present": "Géigenwart",
     "imperfectIndicative": "Imperfekt – Indikativ",
     "imperfectSubjunctive": "Imperfekt – Konjunktiv",
     "pastParticiple": "Partizip II",
     "infinitiv": "Infinitiv",
     "writeInfinitive": "Schreif den Infinitiv",
     "guessInfinitive": "Erréit den Infinitiv",
-    "writeImperfect": "Uzraksti imperfektu",
-    "guessImperfect": "Uzmini imperfektu",
+    "writeImperfect": "Imperfekt schreiwen",
+    "guessImperfect": "Imperfekt erraten",
     "writePastParticiple": "Schreif de Partizip II",
     "guessPastParticiple": "Erréit de Partizip II",
-    "translationPrefix": "Tulkojums:",
+    "translationPrefix": "Iwwersetzung:",
     "hintTapAnswer": "Klick op d'Kaart, fir d'Äntwert ze gesinn.",
     "hintTapSwitch": "Klick op d'Kaart, fir d'Form ze wiesselen.",
     "hintSessionProgress": "{label}: {current} / {total}. {tap}",
@@ -187,7 +187,7 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "info": {
     "title": "Wéi funktionéiert et?",
-    "directionTitle": "Tulkojuma virziens",
+    "directionTitle": "Iwwersetzungsrichtung",
     "directionBody": "Klick, fir tëscht <strong>DE→{code}</strong> an <strong>{code}→DE</strong> ze wiesselen.",
     "problemTitle": "Problemwierder",
     "problemBody": "Klick op <strong>Probl.</strong>, fir Wierder ze léieren, bei deenen s du Feeler gemaach hues. Am normale Modus füügt «Ech weess et net» d'Wuert hei derbäi; hei reduzéiert «Ech weess et» de Feelergrad.",
@@ -199,9 +199,9 @@ window.LANGUAGE_UI_STRINGS = {
     "listeningBody": "Klick op d'Lautsprecher-Symbol op der Kaart, fir d'Aussprooch ze lauschteren.",
     "unwantedTitle": "Net gebraucht Wierder",
     "unwantedBody": "Klick op dat duerchgestrachent A am Eck vun der Kaart — d'Wuert verschwënnt aus dem Léierlaf. Du kanns et ënner Zousätzlech Optiounen zerécksetzen.",
-    "answersTitle": "Atbildes",
+    "answersTitle": "Äntwerten",
     "answersBody": "<strong>Ech weess et</strong> — du kenns d'Äntwert. <strong>Ech weess et net</strong> — hëlleft beim Erënneren a füügt d'Wuert bei d'Problemwierder derbäi. <strong>Nächst Wuert</strong> — iwwerspréngt ouni Bewäertung.",
-    "extraTitle": "Papildu opcijas",
+    "extraTitle": "Zousätzlech Optiounen",
     "extraBody": "Maach <strong>Zousätzlech Optiounen</strong> op, fir d'Wochen- a Mountsiwwersiicht, déi bekannt Wierder an déi verstoppte Wierder ze gesinn."
   },
   "extra": {
@@ -210,24 +210,24 @@ window.LANGUAGE_UI_STRINGS = {
     "settings": "Astellungen"
   },
   "settings": {
-    "appLanguage": "Lietotnes valoda"
+    "appLanguage": "App-Sprooch"
   },
   "kurss": {
-    "panelLabel": "Kurss",
-    "title": "Kurss",
+    "panelLabel": "Cours",
+    "title": "Cours",
     "subtitle": "Grondlage vun der däitscher Sprooch, Schrëtt fir Schrëtt",
-    "back": "‹ Kurss",
+    "back": "‹ Cours",
     "closeCourse": "Cours zoumaachen",
     "backToMain": "Zeréck op den Haaptbildschierm",
-    "tipTitle": "Padoms",
+    "tipTitle": "Tipp",
     "tipBody": "Lauschter, widderhuel a vergläich. Däin Ouer ass dee beschte Léiermeeschter!",
-    "pronunciation": "Izruna",
+    "pronunciation": "Aussprooch",
     "pronunciationDesc": "Däitsch Lauter an d'Grondlage vun der Aussprooch.",
-    "articles": "Artikuli",
+    "articles": "Artikelen",
     "articlesDesc": "Grondlage vum Gebrauch vun der, die an das.",
     "pronouns": "Pronomen",
     "pronounsDesc": "Nominativ-, Akkusativ- an Dativformen.",
-    "lessons": "Lekcijas",
+    "lessons": "Lektiounen",
     "lessonsDesc": "Léierlektionen an der Reiefolleg vun 1 bis 21.",
     "verbBasics": "Grondlage vun de Verben",
     "verbBasicsDesc": "Persounen, Formen an déi heefegst Verben.",
@@ -270,94 +270,94 @@ window.LANGUAGE_UI_STRINGS = {
       "fillCase": "Übung I — benotz de richtege Kasus",
       "chooseCasePlural": "Setz de richtege Kasus a bild d'Méizuel!",
       "answerPlural": "Äntwert elo an der Méizuel.",
-      "translate": "Übung II — tulko",
-      "formDu": "Forma 1/3: Tu (vienskaitlis)",
+      "translate": "Übung II — iwwersetzen",
+      "formDu": "Form 1/3: Du (eenzel)",
       "formIhr": "Form 2/3: dir (Méizuel)",
       "formSie": "Form 3/3: Sie (Héiflechkeetsform)"
     },
     "lessonItems": {
       "1": {
-        "title": "Lekcija 1",
-        "menuDesc": "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš."
+        "title": "Lektioun 1",
+        "menuDesc": "Verben am Present, kleng Wierder, Grammatik an Training."
       },
       "2": {
-        "title": "Lekcija 2",
-        "menuDesc": "Dialogi, vārdi, izruna, gramatika un pārtulkošana."
+        "title": "Lektioun 2",
+        "menuDesc": "Dialoger, Wierder, Aussprooch, Grammatik an Iwwersetzen."
       },
       "3": {
-        "title": "Lekcija 3",
-        "menuDesc": "Dialogi, vārdi, izruna, gramatika un pārtulkošana."
+        "title": "Lektioun 3",
+        "menuDesc": "Dialoger, Wierder, Aussprooch, Grammatik an Iwwersetzen."
       },
       "4": {
-        "title": "Lekcija 4",
-        "menuDesc": "Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi."
+        "title": "Lektioun 4",
+        "menuDesc": "Akkusativ, nehmen, hinlegen, hinausgehen an Adjektiver."
       },
       "5": {
-        "title": "Lekcija 5",
-        "menuDesc": "Wen?, akuzatīvs, sitzen, fragen un -in galotne."
+        "title": "Lektioun 5",
+        "menuDesc": "Wen?, Akkusativ, sitzen, fragen an -in Endung."
       },
       "6": {
-        "title": "Lekcija 6",
-        "menuDesc": "Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas."
+        "title": "Lektioun 6",
+        "menuDesc": "Zuelen, Plural, Umlauter an Pluralformen vun Nomen."
       },
       "7": {
-        "title": "Lekcija 7",
-        "menuDesc": "Pavēles izteiksme, uzrunas forma un daudzskaitlis."
+        "title": "Lektioun 7",
+        "menuDesc": "Imperativ, Uriedsform an Plural."
       },
       "8": {
-        "title": "Lekcija 8",
-        "menuDesc": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs."
+        "title": "Lektioun 8",
+        "menuDesc": "Reflexivverben, e → i/ie Wechsel an Akkusativ."
       },
       "9": {
-        "title": "Lekcija 9",
-        "menuDesc": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis."
+        "title": "Lektioun 9",
+        "menuDesc": "Méi Subjekter, dieser/jener, Singular an Plural."
       },
       "10": {
-        "title": "Lekcija 10",
-        "menuDesc": "Sein, können, veselība, vecums un profesijas."
+        "title": "Lektioun 10",
+        "menuDesc": "Sein, können, Gesondheet, Alter an Beruffer."
       },
       "11": {
-        "title": "Lekcija 11",
-        "menuDesc": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi."
+        "title": "Lektioun 11",
+        "menuDesc": "Haben, kein/keine/keinen, Besëtz an zesummegesate Nomen."
       },
       "12": {
-        "title": "Lekcija 12",
-        "menuDesc": "Salīdzināmās pakāpes, als/wie, vecums un krāsas."
+        "title": "Lektioun 12",
+        "menuDesc": "Vergläichsformen, als/wie, Alter an Faarwen."
       },
       "13": {
-        "title": "Lekcija 13",
-        "menuDesc": "Der Körper, ķermeņa daļas, turnen un jeder."
+        "title": "Lektioun 13",
+        "menuDesc": "Der Körper, Kierperdeeler, turnen an jeder."
       },
       "14": {
-        "title": "Lekcija 14",
-        "menuDesc": "müssen, wollen, mögen un modālie darbības vārdi."
+        "title": "Lektioun 14",
+        "menuDesc": "müssen, wollen, mögen an modal Verben."
       },
       "15": {
-        "title": "Lekcija 15",
-        "menuDesc": "sollen, dürfen, essen un augļi."
+        "title": "Lektioun 15",
+        "menuDesc": "sollen, dürfen, essen an Uebst."
       },
       "16": {
-        "title": "Lekcija 16",
-        "menuDesc": "Dativs, geben, sich nähern."
+        "title": "Lektioun 16",
+        "menuDesc": "Dativ, geben, sich nähern."
       },
       "17": {
-        "title": "Lekcija 17",
+        "title": "Lektioun 17",
         "menuDesc": "mit + Dativ, womit / mit wem an Umlaut."
       },
       "18": {
-        "title": "Lekcija 18",
+        "title": "Lektioun 18",
         "menuDesc": "wohin / wo, Akkusativ oder Dativ mat an / in / auf."
       },
       "19": {
-        "title": "Lekcija 19",
+        "title": "Lektioun 19",
         "menuDesc": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen."
       },
       "20": {
-        "title": "Lekcija 20",
-        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi."
+        "title": "Lektioun 20",
+        "menuDesc": "Haus, Stockwerk, Dativ/Akkusativ an zesummegesate Nomen."
       },
       "21": {
-        "title": "Lekcija 21",
+        "title": "Lektioun 21",
         "menuDesc": "woher / wohin / wo, von / aus / mit + Dativ."
       }
     }
@@ -374,12 +374,12 @@ window.LANGUAGE_UI_STRINGS = {
     "incorrect": "Falsch",
     "expectedLabel": "Richteg:",
     "noVerbTask": "Et gëtt keng Rechtschreiwungsübung fir dëst Verb.",
-    "writeAnswer": "Ieraksti atbildi",
+    "writeAnswer": "Gëff d'Äntwert an",
     "missingChar": "feelt: {char}"
   },
   "progress": {
     "verbsHeading": "Verben",
-    "courseHeading": "Kurss"
+    "courseHeading": "Cours"
   },
   "study": {
     "hints": {
@@ -388,13 +388,13 @@ window.LANGUAGE_UI_STRINGS = {
     },
     "sections": {
       "mainIdea": "Haaptiddi",
-      "explanation": "Skaidrojums",
+      "explanation": "Erklärung",
       "examples": "Beispiller",
       "comparison": "Verglach",
-      "tip": "Padoms",
+      "tip": "Tipp",
       "important": "Wichteg",
       "mistakes": "Typesch Feeler",
-      "remember": "Atceries",
+      "remember": "Denk drun",
       "comparisonFocus": "Wichtege Verglach",
       "comparisonBadge": "VERGLÄICHSKAART"
     },
@@ -405,13 +405,13 @@ window.LANGUAGE_UI_STRINGS = {
       "native": "LB",
       "german": "DE",
       "mainMeaning": "Haaptbedeitung",
-      "describes": "Raksturo",
-      "translation": "Tulkojums"
+      "describes": "Beschreift",
+      "translation": "Iwwersetzung"
     },
     "minimal": {
-      "tipLabel": "Padoms:",
-      "pluralLabel": "DAUDZSK.",
-      "formsLabel": "Formas:",
+      "tipLabel": "Tipp:",
+      "pluralLabel": "PLURAL",
+      "formsLabel": "Formen:",
       "noteLabel": "Hiweis:"
     }
   }
