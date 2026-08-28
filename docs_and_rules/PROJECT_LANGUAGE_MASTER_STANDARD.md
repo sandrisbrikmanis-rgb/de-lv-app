@@ -3405,4 +3405,20 @@ Version 1.1 prasības paliek spēkā, ja tās nav tieši precizētas ar v1.2.
 
 ------------------------------------------------------------------------
 
+## 18. SAISTOŠAIS DARBA LĪGUMS UN FĀZE 0 SPEC (Crowdin / visu valodu saturs)
+
+Papildus šim MASTER dokumentam obligāti piemērojami:
+
+1. **`MASTER_1.12_BINDING_WORK_AGREEMENT.md`** — saistošais izpildes līgums
+   visiem A1–C2, Teikumi, Verbi, Kurss un Crowdin darbiem; konfliktu
+   protokols (pretruna → STOP → OWNER apstiprinājums).
+2. **`PHASE_0_CROWDIN_DISCOVERY_SPEC.md`** — Fāze 0 tehniskā specifikācija
+   (bridge atslēgu shēma, discovery orchestrator, READ-ONLY, bez apply).
+
+Ja šo dokumentu prasības ir pretrunā ar iepriekšējām MASTER sadaļām, spēkā
+ir šis MASTER dokuments. Saistītie dokumenti precizē **procesa secību un
+Crowdin integrāciju**, nevis atceļ §1.1, §7, §9, §11 vai §17 prasības.
+
+------------------------------------------------------------------------
+
 ## MASTER 1.12 --- END
