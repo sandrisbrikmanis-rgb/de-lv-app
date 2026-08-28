@@ -1,8 +1,14 @@
 {
-  "generatedAt": "2026-08-28T11:11:39.326Z",
+  "generatedAt": "2026-08-28T11:19:57.030Z",
+  "baselineCommit": "3812d92b",
+  "baselineCount": 170,
   "total": 192,
-  "ownerStatus": "NELABOT",
+  "deltaCount": 22,
+  "ownerReviewRequired": 22,
+  "nelabotCandidates": 170,
   "crowdinLock": "YES",
+  "lockEnforced": "NO",
+  "crowdinProtection": "PENDING",
   "apply": false,
   "rows": [
     {
@@ -11,11 +17,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lt",
@@ -23,11 +33,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lt",
@@ -35,11 +49,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lt",
@@ -47,11 +65,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lt",
@@ -59,11 +81,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lt",
@@ -71,11 +97,15 @@
       "lvSource": "Sprache wählen",
       "current": "Sprache wählen",
       "uiCurrent": "Sprache wählen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lt",
@@ -83,11 +113,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lt",
@@ -95,11 +129,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lt",
@@ -107,11 +145,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lt",
@@ -119,11 +161,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -131,11 +177,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -143,11 +193,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -155,11 +209,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -167,11 +225,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -179,11 +241,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -191,11 +257,15 @@
       "lvSource": "Sprache wählen",
       "current": "Sprache wählen",
       "uiCurrent": "Sprache wählen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -203,11 +273,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -215,11 +289,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -227,11 +305,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ru",
@@ -239,11 +321,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -251,11 +337,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -263,11 +353,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -275,11 +369,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -287,11 +385,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -299,11 +401,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -311,11 +417,15 @@
       "lvSource": "Sprache wählen",
       "current": "Sprache wählen",
       "uiCurrent": "Sprache wählen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -323,11 +433,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -335,11 +449,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -347,11 +465,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pl",
@@ -359,11 +481,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -371,11 +497,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -383,11 +513,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -395,11 +529,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -407,11 +545,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -419,11 +561,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -431,11 +577,15 @@
       "lvSource": "Sprache wählen",
       "current": "Sprache wählen",
       "uiCurrent": "Sprache wählen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -443,11 +593,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -455,11 +609,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -467,11 +625,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "uk",
@@ -479,11 +641,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -491,11 +657,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -503,11 +673,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -515,11 +689,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -527,11 +705,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -539,11 +721,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -551,11 +737,15 @@
       "lvSource": "Sprache wählen",
       "current": "Sprache wählen",
       "uiCurrent": "Sprache wählen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -563,11 +753,15 @@
       "lvSource": "Deutsch lernen",
       "current": "Deutsch lernen",
       "uiCurrent": "Deutsch lernen",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_BRAND",
       "reason": "Vācu zīmola / palaišanas virkne",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -575,11 +769,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -587,11 +785,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "et",
@@ -599,11 +801,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "en",
@@ -611,11 +817,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "en",
@@ -623,11 +833,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "en",
@@ -635,11 +849,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "en",
@@ -647,11 +865,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "en",
@@ -659,11 +881,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ro",
@@ -671,11 +897,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ro",
@@ -683,11 +913,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "ro",
@@ -695,11 +929,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ro",
@@ -707,11 +945,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ro",
@@ -719,11 +961,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "ro",
@@ -731,11 +977,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "ro",
@@ -743,11 +993,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "bg",
@@ -755,11 +1009,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "bg",
@@ -767,11 +1025,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "bg",
@@ -779,11 +1041,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "tr",
@@ -791,11 +1057,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "tr",
@@ -803,11 +1073,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "tr",
@@ -815,11 +1089,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "tr",
@@ -827,11 +1105,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "tr",
@@ -839,11 +1121,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "gr",
@@ -851,11 +1137,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "gr",
@@ -863,11 +1153,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "gr",
@@ -875,11 +1169,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "gr",
@@ -887,11 +1185,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "gr",
@@ -899,11 +1201,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "sq",
@@ -911,11 +1217,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sq",
@@ -923,11 +1233,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sq",
@@ -935,11 +1249,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sq",
@@ -947,11 +1265,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sq",
@@ -959,11 +1281,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "mk",
@@ -971,11 +1297,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "mk",
@@ -983,11 +1313,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "mk",
@@ -995,11 +1329,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "sl",
@@ -1007,11 +1345,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "sl",
@@ -1019,11 +1361,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sl",
@@ -1031,11 +1377,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "bs",
@@ -1043,11 +1393,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "bs",
@@ -1055,11 +1409,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "bs",
@@ -1067,11 +1425,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "bs",
@@ -1079,11 +1441,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "bs",
@@ -1091,11 +1457,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "bs",
@@ -1103,11 +1473,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "bs",
@@ -1115,11 +1489,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sr",
@@ -1127,11 +1505,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "sr",
@@ -1139,11 +1521,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sr",
@@ -1151,11 +1537,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "hr",
@@ -1163,11 +1553,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "hr",
@@ -1175,11 +1569,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "hr",
@@ -1187,11 +1585,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "sk",
@@ -1199,11 +1601,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sk",
@@ -1211,11 +1617,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sk",
@@ -1223,11 +1633,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sk",
@@ -1235,11 +1649,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sk",
@@ -1247,11 +1665,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sk",
@@ -1259,11 +1681,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sk",
@@ -1271,11 +1697,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "cs",
@@ -1283,11 +1713,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "cs",
@@ -1295,11 +1729,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "cs",
@@ -1307,11 +1745,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "cs",
@@ -1319,11 +1761,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "cs",
@@ -1331,11 +1777,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "cs",
@@ -1343,11 +1793,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "fi",
@@ -1355,11 +1809,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "fi",
@@ -1367,11 +1825,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "fi",
@@ -1379,11 +1841,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "fi",
@@ -1391,11 +1857,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "fi",
@@ -1403,11 +1873,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "fi",
@@ -1415,11 +1889,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "fi",
@@ -1427,11 +1905,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sv",
@@ -1439,11 +1921,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sv",
@@ -1451,11 +1937,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sv",
@@ -1463,11 +1953,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sv",
@@ -1475,11 +1969,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sv",
@@ -1487,11 +1985,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sv",
@@ -1499,11 +2001,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "sv",
@@ -1511,11 +2017,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nb",
@@ -1523,11 +2033,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nb",
@@ -1535,11 +2049,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nb",
@@ -1547,11 +2065,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nb",
@@ -1559,11 +2081,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nb",
@@ -1571,11 +2097,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nb",
@@ -1583,11 +2113,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nb",
@@ -1595,11 +2129,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nn",
@@ -1607,11 +2145,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nn",
@@ -1619,11 +2161,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nn",
@@ -1631,11 +2177,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nn",
@@ -1643,11 +2193,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nn",
@@ -1655,11 +2209,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nn",
@@ -1667,11 +2225,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nn",
@@ -1679,11 +2241,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "da",
@@ -1691,11 +2257,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "da",
@@ -1703,11 +2273,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "da",
@@ -1715,11 +2289,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "da",
@@ -1727,11 +2305,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "da",
@@ -1739,11 +2321,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "da",
@@ -1751,11 +2337,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nl",
@@ -1763,11 +2353,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nl",
@@ -1775,11 +2369,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nl",
@@ -1787,11 +2385,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nl",
@@ -1799,11 +2401,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nl",
@@ -1811,11 +2417,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nl",
@@ -1823,11 +2433,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "nl",
@@ -1835,11 +2449,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lb",
@@ -1847,11 +2465,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lb",
@@ -1859,11 +2481,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lb",
@@ -1871,11 +2497,15 @@
       "lvSource": "mit + Dativ, womit / mit wem un Umlaut.",
       "current": "mit + Dativ, womit / mit wem un Umlaut.",
       "uiCurrent": "mit + Dativ, womit / mit wem un Umlaut.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lb",
@@ -1883,11 +2513,15 @@
       "lvSource": "wohin / wo, Akkusativ vai Dativ ar an / in / auf.",
       "current": "wohin / wo, Akkusativ vai Dativ ar an / in / auf.",
       "uiCurrent": "wohin / wo, Akkusativ vai Dativ ar an / in / auf.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lb",
@@ -1895,11 +2529,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lb",
@@ -1907,11 +2545,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lb",
@@ -1919,11 +2561,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lb",
@@ -1931,11 +2577,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "lb",
@@ -1943,11 +2593,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "fr",
@@ -1955,11 +2609,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "fr",
@@ -1967,11 +2625,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "it",
@@ -1979,11 +2641,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "it",
@@ -1991,11 +2657,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "it",
@@ -2003,11 +2673,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "it",
@@ -2015,11 +2689,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "it",
@@ -2027,11 +2705,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "it",
@@ -2039,11 +2721,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "it",
@@ -2051,11 +2737,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "es",
@@ -2063,11 +2753,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "es",
@@ -2075,11 +2769,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "es",
@@ -2087,11 +2785,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "es",
@@ -2099,11 +2801,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "es",
@@ -2111,11 +2817,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pt",
@@ -2123,11 +2833,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "pt",
@@ -2135,11 +2849,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "pt",
@@ -2147,11 +2865,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "pt",
@@ -2159,11 +2881,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "hu",
@@ -2171,11 +2897,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "hu",
@@ -2183,11 +2913,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "hu",
@@ -2195,11 +2929,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "hu",
@@ -2207,11 +2945,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "hu",
@@ -2219,11 +2961,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "OWNER_REVIEW_REQUIRED",
+      "ownerReviewRequired": "YES",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": false
     },
     {
       "language": "is",
@@ -2231,11 +2977,15 @@
       "lvSource": "🔄 DE ➔ {code}",
       "current": "🔄 DE ➔ {code}",
       "uiCurrent": "🔄 DE ➔ {code}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "is",
@@ -2243,11 +2993,15 @@
       "lvSource": "🔄 {code} ➔ DE",
       "current": "🔄 {code} ➔ DE",
       "uiCurrent": "🔄 {code} ➔ DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "Virziena indikators ar DE kodu un placeholder {code}",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "is",
@@ -2255,11 +3009,15 @@
       "lvSource": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "current": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
       "uiCurrent": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "is",
@@ -2267,11 +3025,15 @@
       "lvSource": "woher / wohin / wo, von / aus / mit + Dativ.",
       "current": "woher / wohin / wo, von / aus / mit + Dativ.",
       "uiCurrent": "woher / wohin / wo, von / aus / mit + Dativ.",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "GERMAN_PEDAGOGY",
       "reason": "Apzināti saglabāts vācu mācību apraksts",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "is",
@@ -2279,11 +3041,15 @@
       "lvSource": "DE",
       "current": "DE",
       "uiCurrent": "DE",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "DE_CODE",
       "reason": "DE kolonnas kods",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "is",
@@ -2291,11 +3057,15 @@
       "lvSource": "{label}: {current} / {total}. {tap}",
       "current": "{label}: {current} / {total}. {tap}",
       "uiCurrent": "{label}: {current} / {total}. {tap}",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "PLACEHOLDER",
       "reason": "Placeholder struktūra identiska avotam",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     },
     {
       "language": "is",
@@ -2303,11 +3073,15 @@
       "lvSource": "Infinitiv",
       "current": "Infinitiv",
       "uiCurrent": "Infinitiv",
-      "ownerStatus": "NELABOT",
+      "ownerStatus": "NELABOT_CANDIDATE",
+      "ownerReviewRequired": "NO",
       "crowdinLock": "YES",
+      "lockEnforced": "NO",
+      "crowdinProtection": "PENDING",
       "reasonCategory": "LATIN_GRAMMAR",
       "reason": "Latīņu gramatikas termins",
-      "jsonUiMatch": true
+      "jsonUiMatch": true,
+      "baselineIncluded": true
     }
   ]
 }

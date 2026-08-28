@@ -11,18 +11,15 @@ const fs = require("fs");
 const path = require("path");
 const {
   ROOT,
-  UI_LANGUAGES,
-  CROWDIN_SOURCE_LANG,
   crowdinCodeFromRepoLang,
-  parseCrowdinJson,
-  flattenUiStrings,
-  loadUiObject,
-  UI_JS_REL,
 } = require("./lib/ui-crowdin-bridge");
 const {
-  classifySameRow,
-  reasonCategoryForIntentional,
-} = require("./lib/crowdin-ui-untranslated-classify");
+  BASELINE_AUDIT_COMMIT,
+  computeDelta,
+  collectIntentionalSameRows,
+  enrichLockRows,
+  rowId,
+} = require("./lib/crowdin-ui-intentional-lock-core");
 
 const REPORT_MD = path.join(ROOT, "reports", "crowdin-ui-intentional-same-lock-owner.md");
 const REPORT_JSON = path.join(ROOT, "reports", "crowdin-ui-intentional-same-lock-owner.json");
@@ -36,47 +33,12 @@ function langLabel(repoLang) {
   return crowdin !== repoLang ? `${repoLang} (Crowdin: \`${crowdin}\`)` : repoLang;
 }
 
-function collectIntentionalSameRows() {
-  const lvFlat = parseCrowdinJson(
-    fs.readFileSync(path.join(ROOT, "crowdin", "ui", `${CROWDIN_SOURCE_LANG}.json`), "utf8")
-  );
-  const lvKeys = Object.keys(lvFlat).sort();
-  const rows = [];
-
-  for (const lang of UI_LANGUAGES.filter((code) => code !== CROWDIN_SOURCE_LANG)) {
-    const jsonFlat = parseCrowdinJson(
-      fs.readFileSync(path.join(ROOT, "crowdin", "ui", `${lang}.json`), "utf8")
-    );
-    const uiFlat = flattenUiStrings(loadUiObject(UI_JS_REL(lang)).obj);
-
-    for (const key of lvKeys) {
-      if (jsonFlat[key] !== lvFlat[key]) continue;
-      const [status, rationale] = classifySameRow(key, lvFlat[key]);
-      if (status !== "INTENTIONAL_SAME") continue;
-
-      const jsonCurrent = jsonFlat[key];
-      const uiCurrent = uiFlat[key];
-      rows.push({
-        language: lang,
-        key,
-        lvSource: lvFlat[key],
-        current: jsonCurrent,
-        uiCurrent,
-        ownerStatus: "NELABOT",
-        crowdinLock: "YES",
-        reasonCategory: reasonCategoryForIntentional(key, lvFlat[key], rationale),
-        reason: rationale,
-        jsonUiMatch: jsonCurrent === uiCurrent,
-      });
-    }
-  }
-
-  return rows;
-}
-
-function renderMarkdown(rows) {
+function renderMarkdown(rows, delta) {
   const byLang = {};
   const byCategory = {};
+  const ownerReviewRequired = rows.filter((row) => row.ownerReviewRequired === "YES").length;
+  const nelabotCandidates = rows.filter((row) => row.ownerStatus === "NELABOT_CANDIDATE").length;
+
   for (const row of rows) {
     byLang[row.language] = (byLang[row.language] || 0) + 1;
     byCategory[row.reasonCategory] = (byCategory[row.reasonCategory] || 0) + 1;
@@ -86,8 +48,8 @@ function renderMarkdown(rows) {
     "# Crowdin UI — INTENTIONAL_SAME bloķēšanas saraksts (OWNER)",
     "",
     `**Datums:** ${new Date().toISOString().slice(0, 10)}  `,
-    "**Avots:** `reports/crowdin-ui-untranslated-audit.md`  ",
-    "**Mērķis:** bloķēt apzināti identiskas rindas pret nejaušu Auto-Translate  ",
+    "**Avots:** `reports/crowdin-ui-untranslated-audit.md` + delta `reports/crowdin-ui-intentional-same-lock-delta.md`  ",
+    "**Mērķis:** OWNER nodoms bloķēt apzināti identiskas rindas (Crowdin aizsardzība vēl PENDING)  ",
     "**Apply:** **NĒ** — tikai OWNER mapping  ",
     "**Greek kartējums:** Crowdin `el` → repo `gr`",
     "",
@@ -95,9 +57,14 @@ function renderMarkdown(rows) {
     "",
     "| Metrika | Vērtība |",
     "|---|---:|",
-    `| INTENTIONAL_SAME rindas | **${rows.length}** |`,
-    `| OWNER_STATUS | **NELABOT** (${rows.length}/${rows.length}) |`,
-    `| crowdin_lock | **YES** (${rows.length}/${rows.length}) |`,
+    `| BASELINE INTENTIONAL_SAME (\`${BASELINE_AUDIT_COMMIT}\`) | **${delta.baselineCount}** |`,
+    `| CANDIDATES (pašreiz) | **${rows.length}** |`,
+    `| DELTA (jauni kandidāti) | **${delta.added.length}** |`,
+    `| NELABOT_CANDIDATE (baseline) | **${nelabotCandidates}** |`,
+    `| OWNER_REVIEW_REQUIRED (delta) | **${ownerReviewRequired}** |`,
+    `| crowdin_lock (OWNER nodoms) | **${rows.length}/${rows.length}** |`,
+    `| lock_enforced | **NO** (${rows.length}/${rows.length}) |`,
+    `| crowdin_protection | **PENDING** (${rows.length}/${rows.length}) |`,
     `| JSON ↔ ui.js neatbilstības | **${rows.filter((row) => !row.jsonUiMatch).length}** |`,
     "",
     "### Pēc reason kategorijas",
@@ -119,20 +86,23 @@ function renderMarkdown(rows) {
     "",
     "## Lēmumu noteikumi",
     "",
-    "- `OWNER_STATUS = NELABOT` — šīs rindas **nedrīkst** tulkot/atšķirt no LV avota.",
-    "- `crowdin_lock = YES` — Crowdin/Auto-Translate šai atslēgai jāuzskata par aizsargātu.",
+    "- `crowdin_lock = YES` — **OWNER nodoms** aizsargāt rindu (vēl nav Crowdin enforcement).",
+    "- `lock_enforced = NO` — faktiskā Crowdin bloķēšana nav aktivizēta.",
+    "- `crowdin_protection = PENDING` — gaida OWNER apstiprinājumu un Crowdin apply.",
+    "- `OWNER_STATUS = NELABOT_CANDIDATE` — baseline 170 rindas (pirms delta).",
+    "- `OWNER_STATUS = OWNER_REVIEW_REQUIRED` — delta 22 rindas; **nedrīkst** automātiski apstiprināt kā `NELABOT`.",
     "- `CURRENT` = faktiskā vērtība `crowdin/ui/{lang}.json` (un `languages/{lang}/ui.js`).",
     "- Apply šajā posmā **netiek veikts**.",
     "",
     "## Pilna tabula",
     "",
-    "| language | key | LV source | CURRENT | OWNER_STATUS | crowdin_lock | reason_category | reason |",
-    "|---|---|---|---|---|---|---|---|"
+    "| language | key | LV source | CURRENT | OWNER_STATUS | OWNER_REVIEW_REQUIRED | crowdin_lock | lock_enforced | crowdin_protection | reason_category | reason |",
+    "|---|---|---|---|---|---|---|---|---|---|---|"
   );
 
   for (const row of rows) {
     lines.push(
-      `| ${escapeTableCell(row.language)} | \`${escapeTableCell(row.key)}\` | ${escapeTableCell(row.lvSource)} | ${escapeTableCell(row.current)} | ${row.ownerStatus} | ${row.crowdinLock} | ${row.reasonCategory} | ${escapeTableCell(row.reason)} |`
+      `| ${escapeTableCell(row.language)} | \`${escapeTableCell(row.key)}\` | ${escapeTableCell(row.lvSource)} | ${escapeTableCell(row.current)} | ${row.ownerStatus} | ${row.ownerReviewRequired} | ${row.crowdinLock} | ${row.lockEnforced} | ${row.crowdinProtection} | ${row.reasonCategory} | ${escapeTableCell(row.reason)} |`
     );
   }
 
@@ -141,7 +111,11 @@ function renderMarkdown(rows) {
 }
 
 function main() {
-  const rows = collectIntentionalSameRows();
+  const delta = computeDelta(BASELINE_AUDIT_COMMIT);
+  const currentRows = collectIntentionalSameRows("HEAD");
+  const deltaIds = new Set(delta.added.map((row) => rowId(row.language, row.key)));
+  const rows = enrichLockRows(currentRows, deltaIds);
+
   if (!rows.length) {
     console.error("No INTENTIONAL_SAME rows found");
     process.exit(1);
@@ -157,15 +131,21 @@ function main() {
   }
 
   fs.mkdirSync(path.dirname(REPORT_MD), { recursive: true });
-  fs.writeFileSync(REPORT_MD, renderMarkdown(rows), "utf8");
+  fs.writeFileSync(REPORT_MD, renderMarkdown(rows, delta), "utf8");
   fs.writeFileSync(
     REPORT_JSON,
     `${JSON.stringify(
       {
         generatedAt: new Date().toISOString(),
+        baselineCommit: BASELINE_AUDIT_COMMIT,
+        baselineCount: delta.baselineCount,
         total: rows.length,
-        ownerStatus: "NELABOT",
+        deltaCount: delta.added.length,
+        ownerReviewRequired: rows.filter((row) => row.ownerReviewRequired === "YES").length,
+        nelabotCandidates: rows.filter((row) => row.ownerStatus === "NELABOT_CANDIDATE").length,
         crowdinLock: "YES",
+        lockEnforced: "NO",
+        crowdinProtection: "PENDING",
         apply: false,
         rows,
       },
@@ -177,7 +157,19 @@ function main() {
 
   console.log(`Wrote ${REPORT_MD}`);
   console.log(`Wrote ${REPORT_JSON}`);
-  console.log(JSON.stringify({ total: rows.length }, null, 2));
+  console.log(
+    JSON.stringify(
+      {
+        baseline: delta.baselineCount,
+        candidates: rows.length,
+        delta: delta.added.length,
+        ownerReviewRequired: rows.filter((row) => row.ownerReviewRequired === "YES").length,
+        nelabotCandidates: rows.filter((row) => row.ownerStatus === "NELABOT_CANDIDATE").length,
+      },
+      null,
+      2
+    )
+  );
 }
 
 main();

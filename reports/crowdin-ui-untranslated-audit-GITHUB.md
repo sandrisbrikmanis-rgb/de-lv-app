@@ -21,8 +21,8 @@ Atver šo failu GitHub (PR vai branch), tad izmanto saites uz pilno auditu un ko
 ## Ātrās saites — pilns audits
 
 - [Atvērt pilnu auditu](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/crowdin-ui-untranslated-audit-06ff/reports/crowdin-ui-untranslated-audit.md)
-- [Gala kopsavilkums](#gala-kopsavilkums)(https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/crowdin-ui-untranslated-audit-06ff/reports/crowdin-ui-untranslated-audit.md)
-- [Satura rādītājs](#satura-rādītājs-github)(https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/crowdin-ui-untranslated-audit-06ff/reports/crowdin-ui-untranslated-audit.md)
+- [Gala kopsavilkums](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/crowdin-ui-untranslated-audit-06ff/reports/crowdin-ui-untranslated-audit.md#gala-kopsavilkums)
+- [Satura rādītājs](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/crowdin-ui-untranslated-audit-06ff/reports/crowdin-ui-untranslated-audit.md#satura-rādītājs-github)
 
 ## Valodu sadaļas
 

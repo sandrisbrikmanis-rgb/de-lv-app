@@ -22,7 +22,8 @@
     "i18n:ui:verify-merge": "node scripts/verify-ui-crowdin-import-merge.js",
     "i18n:ui:verify-production": "node scripts/verify-ui-crowdin-production-unchanged.js",
     "i18n:ui:verify-write-safe": "node scripts/verify-ui-crowdin-import-write-safe.js",
-    "i18n:ui:verify": "npm run i18n:ui:verify-roundtrip && npm run i18n:ui:verify-merge && npm run i18n:ui:verify-production && npm run i18n:ui:verify-write-safe"
+    "i18n:ui:verify-intentional-locks": "node scripts/verify-ui-crowdin-intentional-locks.js",
+    "i18n:ui:verify": "npm run i18n:ui:verify-roundtrip && npm run i18n:ui:verify-merge && npm run i18n:ui:verify-production && npm run i18n:ui:verify-write-safe && npm run i18n:ui:verify-intentional-locks"
   },
   "keywords": [],
   "author": "",
