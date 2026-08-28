@@ -25,8 +25,9 @@
     "i18n:ui:verify-intentional-locks": "node scripts/verify-ui-crowdin-intentional-locks.js",
     "i18n:ui:verify": "npm run i18n:ui:verify-roundtrip && npm run i18n:ui:verify-merge && npm run i18n:ui:verify-production && npm run i18n:ui:verify-write-safe && npm run i18n:ui:verify-intentional-locks",
     "i18n:content:export": "node scripts/export-content-crowdin.js",
-    "i18n:content:verify-roundtrip": "node scripts/verify-content-crowdin-roundtrip.js",
-    "i18n:content:discovery": "node scripts/run-content-discovery.js --group g2 --dataset a1 --langs et,da,cs"
+    "i18n:content:verify-roundtrip": "node scripts/verify-content-crowdin-roundtrip.js --all-groups --all-levels --all-langs",
+    "i18n:content:discovery": "node scripts/run-content-discovery.js --all-groups --dataset all --all-langs",
+    "i18n:content:phase0-exit": "node scripts/run-phase0-exit-matrix.js"
   },
   "keywords": [],
   "author": "",

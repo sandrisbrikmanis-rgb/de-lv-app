@@ -1,0 +1,84 @@
+{
+  "status": "PHASE_0_TECHNICAL_PASS",
+  "verdict": "PHASE_0_TECHNICAL_PASS",
+  "generatedAt": "2026-08-28T17:42:19.824Z",
+  "masterVersion": "1.12",
+  "gates": {
+    "F0_1_bridge_library": {
+      "pass": true,
+      "note": "content-crowdin-bridge modules present"
+    },
+    "F0_2_export_dry_run": {
+      "pass": true,
+      "note": "export-content-crowdin.js dry-run only by default"
+    },
+    "F0_3_roundtrip": {
+      "pass": true,
+      "passed": 318,
+      "failed": 0,
+      "skipped": 2,
+      "total": 320
+    },
+    "F0_4_discovery_orchestrator": {
+      "pass": true,
+      "note": "run-content-discovery.js with collectors"
+    },
+    "F0_5_baseline_header": {
+      "pass": true,
+      "baselineVerdict": "PASS"
+    },
+    "F0_6_deterministic_collectors": {
+      "pass": true,
+      "note": "structural, de-compliance, multi-translation, mojibake, mirror, remnants"
+    },
+    "F0_7_production_diff_zero": {
+      "pass": true,
+      "productionDiff": "(clean)"
+    },
+    "F0_8_all_groups_coverage": {
+      "pass": true,
+      "groups": [
+        "g1-sentences",
+        "g1-verbs",
+        "g1-training",
+        "g2",
+        "g3"
+      ],
+      "g2Levels": [
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c1",
+        "c2"
+      ],
+      "langs": 32,
+      "roundTripPassed": 318,
+      "roundTripFailed": 0,
+      "roundTripSkippedMissingDataset": 2,
+      "note": "Skipped = dataset file absent for lang (e.g. g1-training lv/et); not a bridge failure"
+    }
+  },
+  "roundTripFailures": [],
+  "roundTripSkipped": [
+    {
+      "group": "g1-training",
+      "dataset": "training",
+      "lang": "lv",
+      "pass": false,
+      "reason": "training cards missing",
+      "keyCount": 0,
+      "skipped": true
+    },
+    {
+      "group": "g1-training",
+      "dataset": "training",
+      "lang": "et",
+      "pass": false,
+      "reason": "training cards missing",
+      "keyCount": 0,
+      "skipped": true
+    }
+  ],
+  "note": "Branch-level F0 gates PASS. MAIN verification (A7) still required before Phase 1."
+}

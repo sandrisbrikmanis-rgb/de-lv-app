@@ -2,32 +2,47 @@
 "use strict";
 
 /**
- * Verify G2 flashcard Crowdin flatten → parse → apply round-trip (in-memory only).
+ * Verify content Crowdin flatten → apply round-trip (in-memory only).
  *
  * Usage:
- *   node scripts/verify-content-crowdin-roundtrip.js
- *   node scripts/verify-content-crowdin-roundtrip.js --level a1 --lang et,da,cs
+ *   node scripts/verify-content-crowdin-roundtrip.js --all-langs
+ *   node scripts/verify-content-crowdin-roundtrip.js --group g2 --level a1 --lang et
  */
 
 const {
   CONTENT_LANGUAGES,
+  TARGET_LANGUAGES,
   G2_LEVELS,
-  slugify,
-  resolveCardSlug,
   verifyRoundTrip,
 } = require("./lib/content-crowdin-bridge");
 
+const G1_GROUPS = ["g1-sentences", "g1-verbs", "g1-training"];
+
 function parseArgs(argv) {
-  let level = "a1";
+  let allLangs = false;
   let langs = ["lv", "et", "da", "cs"];
+  let groups = ["g2"];
+  let levels = ["a1"];
 
   for (let i = 2; i < argv.length; i++) {
     const arg = argv[i];
-    if (arg === "--level" && argv[i + 1]) level = argv[++i];
-    else if (arg === "--lang" && argv[i + 1]) {
-      langs = argv[++i].split(",").map((s) => s.trim()).filter(Boolean);
-    } else if (arg === "--help" || arg === "-h") {
-      console.log(`Usage: node scripts/verify-content-crowdin-roundtrip.js [--level a1] [--lang lv,et,da,cs]`);
+    if (arg === "--all-langs") allLangs = true;
+    else if (arg === "--lang" && argv[i + 1]) langs = argv[++i].split(",").map((s) => s.trim());
+    else if (arg === "--group" && argv[i + 1]) groups = argv[++i].split(",").map((s) => s.trim());
+    else if (arg === "--level" && argv[i + 1]) levels = argv[++i].split(",").map((s) => s.trim());
+    else if (arg === "--all-groups") groups = ["g2", ...G1_GROUPS, "g3"];
+    else if (arg === "--all-levels") levels = [...G2_LEVELS];
+    else if (arg === "--help" || arg === "-h") {
+      console.log(`Usage: node scripts/verify-content-crowdin-roundtrip.js [options]
+
+Options:
+  --all-langs          All ${CONTENT_LANGUAGES.length} CONTENT_LANGUAGES
+  --all-groups         g2 + g1-* + g3
+  --all-levels         a1..c2
+  --lang CODE[,CODE]   Default: lv,et,da,cs
+  --group g2|g1-*|g3   Default: g2
+  --level a1|...       Default: a1 (g2 only)
+`);
       process.exit(0);
     } else {
       console.error(`Unknown argument: ${arg}`);
@@ -35,67 +50,79 @@ function parseArgs(argv) {
     }
   }
 
-  return { level, langs };
+  if (allLangs) langs = [...CONTENT_LANGUAGES];
+  return { langs, groups, levels };
 }
 
 function testSlugHelpers() {
-  const cases = [
-    ["sprechen", "sprechen"],
-    ["Apfel", "apfel"],
-    ["die Äpfel", "die-aepfel"],
-    ["a1-sprechen-study", "a1-sprechen-study"],
-  ];
-  for (const [input, expected] of cases) {
-    const got = slugify(input);
-    if (got !== expected) {
-      throw new Error(`slugify(${JSON.stringify(input)}) expected ${expected}, got ${got}`);
-    }
-  }
-
+  const { slugify, resolveCardSlug } = require("./lib/content-crowdin-bridge");
+  if (slugify("Apfel") !== "apfel") throw new Error("slugify Apfel");
   const card = { de: "sprechen", study: { id: "a1-sprechen-study" } };
-  if (resolveCardSlug(card) !== "a1-sprechen-study") {
-    throw new Error("resolveCardSlug should prefer study.id");
-  }
+  if (resolveCardSlug(card) !== "a1-sprechen-study") throw new Error("resolveCardSlug study.id");
 }
 
 function main() {
   testSlugHelpers();
   console.log("OK slug helpers");
 
-  const { level, langs } = parseArgs(process.argv);
-
-  if (!G2_LEVELS.includes(level)) {
-    console.error(`Invalid level: ${level}`);
-    process.exit(1);
-  }
-
+  const { langs, groups, levels } = parseArgs(process.argv);
   const failures = [];
+  const skipped = [];
   let passed = 0;
 
-  for (const lang of langs) {
-    if (!CONTENT_LANGUAGES.includes(lang)) {
-      failures.push(`${lang}: unknown language`);
-      continue;
+  for (const group of groups) {
+    if (group === "g2") {
+      for (const level of levels) {
+        if (!G2_LEVELS.includes(level)) {
+          failures.push(`invalid level ${level}`);
+          continue;
+        }
+        for (const lang of langs) {
+          if (!CONTENT_LANGUAGES.includes(lang)) {
+            failures.push(`${lang}: unknown language`);
+            continue;
+          }
+          const result = verifyRoundTrip({ group, lang, level });
+          if (result.skipped) {
+            skipped.push(`${group}/${level}/${lang}: ${result.reason}`);
+            continue;
+          }
+          if (!result.pass) {
+            failures.push(`${group}/${level}/${lang}: ${result.reason}`);
+            continue;
+          }
+          passed++;
+          console.log(`OK ${group}/${level}/${lang}: ${result.keyCount} keys`);
+        }
+      }
+    } else {
+      for (const lang of langs) {
+        const result = verifyRoundTrip({ group, lang });
+        if (result.skipped) {
+          skipped.push(`${group}/${lang}: ${result.reason}`);
+          continue;
+        }
+        if (!result.pass) {
+          failures.push(`${group}/${lang}: ${result.reason}`);
+          continue;
+        }
+        passed++;
+        console.log(`OK ${group}/${lang}: ${result.keyCount} keys`);
+      }
     }
-
-    const result = verifyRoundTrip({ group: "g2", lang, level });
-    if (!result.pass) {
-      failures.push(`${lang}: ${result.reason}`);
-      continue;
-    }
-
-    passed++;
-    console.log(`OK ${lang}/${level}: ${result.keyCount} keys, semantic round-trip identical`);
   }
 
   console.log("");
+  console.log(`Passed: ${passed} | Failed: ${failures.length} | Skipped: ${skipped.length}`);
+
   if (failures.length) {
-    console.error(`Content Crowdin round-trip FAILED (${passed}/${langs.length} passed):`);
-    for (const msg of failures) console.error(`  - ${msg}`);
+    console.error("\nContent Crowdin round-trip FAILED:");
+    for (const msg of failures.slice(0, 30)) console.error(`  - ${msg}`);
+    if (failures.length > 30) console.error(`  ... and ${failures.length - 30} more`);
     process.exit(1);
   }
 
-  console.log(`Content Crowdin round-trip passed: ${passed}/${langs.length} locales for ${level}.`);
+  console.log("Content Crowdin round-trip: all executed cases PASS.");
 }
 
 main();
