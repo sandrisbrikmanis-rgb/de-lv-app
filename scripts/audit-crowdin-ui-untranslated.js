@@ -21,6 +21,8 @@ const {
 } = require("./lib/ui-crowdin-bridge");
 
 const REPORT_PATH = path.join(ROOT, "reports", "crowdin-ui-untranslated-audit.md");
+const GITHUB_INDEX_SCRIPT = path.join(ROOT, "scripts", "build-crowdin-ui-untranslated-audit-github.js");
+const COLLAPSE_TABLE_ROWS = 15;
 const LV_DIACRITICS_RE = /[āčēģīķļņšūžĀČĒĢĪĶĻŅŠŪŽ]/;
 const LATVIAN_HINT_RE =
   /\b(un|vārdu|vārdi|vārdus|iemācī|Pārbaud|Atcelt|Turpin|Izvēl|Klikšķ|Nospied|Rādām|Turpinām|Šonedēļ|Šomēnes|Nezinu|Zinu|Darbības|Teikumi|Galvenā|Problemātisk|Nevajadzīg|pareizrakstīb|mācīšanās|sesij|kartīt|līmenis|pārskat)\b/i;
@@ -232,20 +234,56 @@ function auditLanguage(repoLang, lvFlat, lvKeys) {
   };
 }
 
-function renderSameTable(rows) {
+function langSlug(repoLang) {
+  const crowdin = crowdinCodeFromRepoLang(repoLang);
+  return crowdin !== repoLang ? `lang-${repoLang}-crowdin-${crowdin}` : `lang-${repoLang}`;
+}
+
+function renderGitHubToc(results) {
+  const lines = [
+    "## Satura rādītājs (GitHub)",
+    "",
+    "| Valoda | target===source | REAL_UNTRANSLATED | Sadaļa |",
+    "|---|---:|---:|---|",
+  ];
+  for (const result of results) {
+    const label = langLabel(result.repoLang);
+    const anchor = langSlug(result.repoLang);
+    lines.push(
+      `| ${label} | ${result.sameCount} | ${result.statusCounts.REAL_UNTRANSLATED} | [${result.repoLang}](#${anchor}) |`
+    );
+  }
+  lines.push("");
+  return lines.join("\n");
+}
+
+function renderSameTable(rows, options = {}) {
+  const { collapsible = false } = options;
   if (!rows.length) {
     return "_Nav rindu, kur `target === LV source`._\n";
   }
-  const lines = [
+  const tableLines = [
     "| language | key | LV source | current target | status | pamatojums |",
     "|---|---|---|---|---|---|",
   ];
   for (const row of rows) {
-    lines.push(
+    tableLines.push(
       `| ${escapeTableCell(row.language)} | \`${escapeTableCell(row.key)}\` | ${escapeTableCell(row.lvSource)} | ${escapeTableCell(row.currentTarget)} | ${row.status} | ${escapeTableCell(row.rationale)} |`
     );
   }
-  return `${lines.join("\n")}\n`;
+  const table = `${tableLines.join("\n")}\n`;
+  if (!collapsible || rows.length <= COLLAPSE_TABLE_ROWS) {
+    return table;
+  }
+  return [
+    "<details>",
+    `<summary><strong>target === source tabula</strong> (${rows.length} rindas — noklikšķini, lai izvērstu)</summary>`,
+    "",
+    table.trimEnd(),
+    "",
+    "</details>",
+    "",
+  ].join("\n");
 }
 
 function renderStructuralIssues(label, items, formatter) {
@@ -308,11 +346,13 @@ function main() {
     "# Crowdin UI — netulkoto / identisko rindu audits",
     "",
     `**Datums:** ${now}  `,
-    "**Režīms:** READ-ONLY  ",
+    "**Režīms:** READ-ONLY (ģenerēts no \`crowdin/ui/*.json\`)  ",
+    "**GitHub atvēršana:** [crowdin-ui-untranslated-audit-GITHUB.md](./crowdin-ui-untranslated-audit-GITHUB.md)  ",
     `**LV avots:** \`crowdin/ui/lv.json\` — **${lvKeys.length}** atslēgas  `,
     "**Mērķis:** visas **31** mērķvaloda pret LV avotu  ",
     "**Greek kartējums:** Crowdin \`el\` → repo \`gr\`  ",
-    "**Production izmaiņas:** **0** (nav mainīti \`crowdin/ui/*.json\`, \`languages/**\`, \`data/**\`, \`www/**\`)",
+    "**Placeholder remonts:** [crowdin-ui-placeholder-repair-owner.md](./crowdin-ui-placeholder-repair-owner.md) (55/55)  ",
+    "**Šis audits:** salīdzina pašreizējo stāvokli; placeholder kļūdas pēc remonta = **0**.",
     "",
     "---",
     "",
@@ -333,7 +373,6 @@ function main() {
     `| Trūkstošas atslēgas | **${totals.missingKeys}** |`,
     `| Liekas atslēgas | **${totals.extraKeys}** |`,
     `| Tukšas vērtības | **${totals.emptyValues}** |`,
-    `| Production izmaiņas | **0** |`,
     "",
     "### Valodu kopsavilkuma tabula",
     "",
@@ -347,9 +386,10 @@ function main() {
     );
   }
 
-  lines.push("", "---", "");
+  lines.push("", renderGitHubToc(results), "---", "");
 
   for (const result of results) {
+    lines.push(`<a id="${langSlug(result.repoLang)}"></a>`, "");
     lines.push(`## ${langLabel(result.repoLang)}`, "");
     lines.push(
       `- **Atslēgas:** ${result.keyCount}/305`,
@@ -385,12 +425,23 @@ function main() {
     }
 
     lines.push("### target === source tabula", "");
-    lines.push(renderSameTable(result.sameRows).trimEnd());
+    lines.push(
+      renderSameTable(result.sameRows, {
+        collapsible: result.sameRows.length > COLLAPSE_TABLE_ROWS,
+      }).trimEnd()
+    );
     lines.push("", "---", "");
   }
 
   fs.mkdirSync(path.dirname(REPORT_PATH), { recursive: true });
   fs.writeFileSync(REPORT_PATH, `${lines.join("\n")}\n`, "utf8");
+
+  if (fs.existsSync(GITHUB_INDEX_SCRIPT)) {
+    require("child_process").execSync(`node "${GITHUB_INDEX_SCRIPT}"`, {
+      cwd: ROOT,
+      stdio: "inherit",
+    });
+  }
 
   console.log(`Wrote ${REPORT_PATH}`);
   console.log(

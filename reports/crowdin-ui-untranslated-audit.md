@@ -1,11 +1,13 @@
 # Crowdin UI — netulkoto / identisko rindu audits
 
 **Datums:** 2026-08-28  
-**Režīms:** READ-ONLY  
+**Režīms:** READ-ONLY (ģenerēts no `crowdin/ui/*.json`)  
+**GitHub atvēršana:** [crowdin-ui-untranslated-audit-GITHUB.md](./crowdin-ui-untranslated-audit-GITHUB.md)  
 **LV avots:** `crowdin/ui/lv.json` — **305** atslēgas  
 **Mērķis:** visas **31** mērķvaloda pret LV avotu  
 **Greek kartējums:** Crowdin `el` → repo `gr`  
-**Production izmaiņas:** **0** (nav mainīti `crowdin/ui/*.json`, `languages/**`, `data/**`, `www/**`)
+**Placeholder remonts:** [crowdin-ui-placeholder-repair-owner.md](./crowdin-ui-placeholder-repair-owner.md) (55/55)  
+**Šis audits:** salīdzina pašreizējo stāvokli; placeholder kļūdas pēc remonta = **0**.
 
 ---
 
@@ -26,7 +28,6 @@
 | Trūkstošas atslēgas | **0** |
 | Liekas atslēgas | **0** |
 | Tukšas vērtības | **0** |
-| Production izmaiņas | **0** |
 
 ### Valodu kopsavilkuma tabula
 
@@ -64,7 +65,45 @@
 | hu | 305/305 | 5 | 17 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | is | 305/305 | 9 | 32 | 7 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 
+## Satura rādītājs (GitHub)
+
+| Valoda | target===source | REAL_UNTRANSLATED | Sadaļa |
+|---|---:|---:|---|
+| lt | 14 | 0 | [lt](#lang-lt) |
+| ru | 10 | 0 | [ru](#lang-ru) |
+| pl | 11 | 0 | [pl](#lang-pl) |
+| uk | 10 | 0 | [uk](#lang-uk) |
+| et | 12 | 0 | [et](#lang-et) |
+| en | 5 | 0 | [en](#lang-en) |
+| ro | 7 | 0 | [ro](#lang-ro) |
+| bg | 3 | 0 | [bg](#lang-bg) |
+| tr | 5 | 0 | [tr](#lang-tr) |
+| gr (Crowdin: `el`) | 5 | 0 | [gr](#lang-gr-crowdin-el) |
+| sq | 5 | 0 | [sq](#lang-sq) |
+| mk | 3 | 0 | [mk](#lang-mk) |
+| sl | 24 | 0 | [sl](#lang-sl) |
+| bs | 32 | 0 | [bs](#lang-bs) |
+| sr | 24 | 0 | [sr](#lang-sr) |
+| hr | 24 | 0 | [hr](#lang-hr) |
+| sk | 8 | 0 | [sk](#lang-sk) |
+| cs | 8 | 0 | [cs](#lang-cs) |
+| fi | 9 | 0 | [fi](#lang-fi) |
+| sv | 9 | 0 | [sv](#lang-sv) |
+| nb | 9 | 0 | [nb](#lang-nb) |
+| nn | 9 | 0 | [nn](#lang-nn) |
+| da | 6 | 0 | [da](#lang-da) |
+| nl | 9 | 0 | [nl](#lang-nl) |
+| lb | 291 | 202 | [lb](#lang-lb) |
+| fr | 2 | 0 | [fr](#lang-fr) |
+| it | 9 | 0 | [it](#lang-it) |
+| es | 7 | 0 | [es](#lang-es) |
+| pt | 4 | 0 | [pt](#lang-pt) |
+| hu | 5 | 0 | [hu](#lang-hu) |
+| is | 9 | 0 | [is](#lang-is) |
+
 ---
+
+<a id="lang-lt"></a>
 
 ## lt
 
@@ -101,6 +140,8 @@
 
 ---
 
+<a id="lang-ru"></a>
+
 ## ru
 
 - **Atslēgas:** 305/305
@@ -131,6 +172,8 @@
 | ru | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
 ---
+
+<a id="lang-pl"></a>
 
 ## pl
 
@@ -164,6 +207,8 @@
 
 ---
 
+<a id="lang-uk"></a>
+
 ## uk
 
 - **Atslēgas:** 305/305
@@ -194,6 +239,8 @@
 | uk | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
 ---
+
+<a id="lang-et"></a>
 
 ## et
 
@@ -228,6 +275,8 @@
 
 ---
 
+<a id="lang-en"></a>
+
 ## en
 
 - **Atslēgas:** 305/305
@@ -253,6 +302,8 @@
 | en | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
+
+<a id="lang-ro"></a>
 
 ## ro
 
@@ -282,6 +333,8 @@
 
 ---
 
+<a id="lang-bg"></a>
+
 ## bg
 
 - **Atslēgas:** 305/305
@@ -305,6 +358,8 @@
 | bg | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
+
+<a id="lang-tr"></a>
 
 ## tr
 
@@ -332,6 +387,8 @@
 
 ---
 
+<a id="lang-gr-crowdin-el"></a>
+
 ## gr (Crowdin: `el`)
 
 - **Atslēgas:** 305/305
@@ -357,6 +414,8 @@
 | gr | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
+
+<a id="lang-sq"></a>
 
 ## sq
 
@@ -384,6 +443,8 @@
 
 ---
 
+<a id="lang-mk"></a>
+
 ## mk
 
 - **Atslēgas:** 305/305
@@ -408,6 +469,8 @@
 
 ---
 
+<a id="lang-sl"></a>
+
 ## sl
 
 - **Atslēgas:** 305/305
@@ -423,6 +486,9 @@
 - **Tukšas vērtības:** 0
 
 ### target === source tabula
+
+<details>
+<summary><strong>target === source tabula</strong> (24 rindas — noklikšķini, lai izvērstu)</summary>
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
@@ -451,7 +517,11 @@
 | sl | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sl | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
+</details>
+
 ---
+
+<a id="lang-bs"></a>
 
 ## bs
 
@@ -468,6 +538,9 @@
 - **Tukšas vērtības:** 0
 
 ### target === source tabula
+
+<details>
+<summary><strong>target === source tabula</strong> (32 rindas — noklikšķini, lai izvērstu)</summary>
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
@@ -504,7 +577,11 @@
 | bs | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 | bs | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
+</details>
+
 ---
+
+<a id="lang-sr"></a>
 
 ## sr
 
@@ -521,6 +598,9 @@
 - **Tukšas vērtības:** 0
 
 ### target === source tabula
+
+<details>
+<summary><strong>target === source tabula</strong> (24 rindas — noklikšķini, lai izvērstu)</summary>
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
@@ -549,7 +629,11 @@
 | sr | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sr | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
+</details>
+
 ---
+
+<a id="lang-hr"></a>
 
 ## hr
 
@@ -566,6 +650,9 @@
 - **Tukšas vērtības:** 0
 
 ### target === source tabula
+
+<details>
+<summary><strong>target === source tabula</strong> (24 rindas — noklikšķini, lai izvērstu)</summary>
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
@@ -594,7 +681,11 @@
 | hr | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | hr | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
+</details>
+
 ---
+
+<a id="lang-sk"></a>
 
 ## sk
 
@@ -625,6 +716,8 @@
 
 ---
 
+<a id="lang-cs"></a>
+
 ## cs
 
 - **Atslēgas:** 305/305
@@ -653,6 +746,8 @@
 | cs | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
 ---
+
+<a id="lang-fi"></a>
 
 ## fi
 
@@ -684,6 +779,8 @@
 
 ---
 
+<a id="lang-sv"></a>
+
 ## sv
 
 - **Atslēgas:** 305/305
@@ -713,6 +810,8 @@
 | sv | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
 ---
+
+<a id="lang-nb"></a>
 
 ## nb
 
@@ -744,6 +843,8 @@
 
 ---
 
+<a id="lang-nn"></a>
+
 ## nn
 
 - **Atslēgas:** 305/305
@@ -774,6 +875,8 @@
 
 ---
 
+<a id="lang-da"></a>
+
 ## da
 
 - **Atslēgas:** 305/305
@@ -800,6 +903,8 @@
 | da | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
 ---
+
+<a id="lang-nl"></a>
 
 ## nl
 
@@ -831,6 +936,8 @@
 
 ---
 
+<a id="lang-lb"></a>
+
 ## lb
 
 - **Atslēgas:** 305/305
@@ -846,6 +953,9 @@
 - **Tukšas vērtības:** 0
 
 ### target === source tabula
+
+<details>
+<summary><strong>target === source tabula</strong> (291 rindas — noklikšķini, lai izvērstu)</summary>
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
@@ -1141,7 +1251,11 @@
 | lb | `verb.writeInfinitive` | Uzraksti infinitīvu | Uzraksti infinitīvu | REAL_UNTRANSLATED | LV avota teksts nav iztulkots mērķvalodā |
 | lb | `verb.writePastParticiple` | Uzraksti pagātnes divdabi | Uzraksti pagātnes divdabi | REAL_UNTRANSLATED | LV avota teksts nav iztulkots mērķvalodā |
 
+</details>
+
 ---
+
+<a id="lang-fr"></a>
 
 ## fr
 
@@ -1165,6 +1279,8 @@
 | fr | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
 
 ---
+
+<a id="lang-it"></a>
 
 ## it
 
@@ -1196,6 +1312,8 @@
 
 ---
 
+<a id="lang-es"></a>
+
 ## es
 
 - **Atslēgas:** 305/305
@@ -1224,6 +1342,8 @@
 
 ---
 
+<a id="lang-pt"></a>
+
 ## pt
 
 - **Atslēgas:** 305/305
@@ -1248,6 +1368,8 @@
 | pt | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
+
+<a id="lang-hu"></a>
 
 ## hu
 
@@ -1274,6 +1396,8 @@
 | hu | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
+
+<a id="lang-is"></a>
 
 ## is
 
