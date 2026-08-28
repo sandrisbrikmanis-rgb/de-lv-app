@@ -15,28 +15,40 @@ function runBaselineGate() {
   const originMainSha = origin.sha;
   const headResult = git("git rev-parse HEAD");
   const headSha = headResult.ok ? headResult.stdout : null;
-  const deDiffResult = gitDeDiffAgainstBaseline(originMainSha);
+  const deDiffResult =
+    origin.fetchStatus === "PASS" && origin.revParseStatus === "PASS"
+      ? gitDeDiffAgainstBaseline(originMainSha)
+      : { changed: [], clean: false, error: "SKIPPED_BASELINE_FETCH_OR_REVPARSE_FAILED" };
   const deDiff = deDiffResult.error ? [] : deDiffResult.changed;
   const blockers = [];
 
-  if (origin.error || !originMainSha) {
+  if (origin.fetchStatus !== "PASS") {
     blockers.push({
-      code: "BLOCKED_NO_ORIGIN_MAIN",
-      message: origin.error || "Could not resolve origin/main",
+      code: "BLOCKED_GIT_FETCH_FAILED",
+      message: origin.fetchError || "git fetch origin failed",
     });
   }
 
-  if (deDiffResult.error) {
+  if (origin.revParseStatus === "FAIL" || (!originMainSha && origin.fetchStatus === "PASS")) {
     blockers.push({
-      code: "BLOCKED_GIT_DIFF_FAILED",
-      message: `DE baseline git diff failed: ${deDiffResult.error}`,
+      code: "BLOCKED_NO_ORIGIN_MAIN",
+      message: origin.error || origin.revParseError || "Could not resolve origin/main",
     });
-  } else if (deDiff.length > 0) {
-    blockers.push({
-      code: "DE_CHANGES_ON_BRANCH",
-      message: `DE paths modified vs origin/main (${originMainSha}...HEAD): ${deDiff.join(", ")}`,
-      paths: deDiff,
-    });
+  }
+
+  if (origin.fetchStatus === "PASS" && origin.revParseStatus === "PASS") {
+    if (deDiffResult.error) {
+      blockers.push({
+        code: "BLOCKED_GIT_DIFF_FAILED",
+        message: `DE baseline git diff failed: ${deDiffResult.error}`,
+      });
+    } else if (deDiff.length > 0) {
+      blockers.push({
+        code: "DE_CHANGES_ON_BRANCH",
+        message: `DE paths modified vs origin/main (${originMainSha}...HEAD): ${deDiff.join(", ")}`,
+        paths: deDiff,
+      });
+    }
   }
 
   if (!headResult.ok) {
@@ -46,14 +58,15 @@ function runBaselineGate() {
     });
   }
 
-  const unmergedResult = git("git branch -r --no-merged origin/main");
+  const unmergedResult =
+    origin.fetchStatus === "PASS" ? git("git branch -r --no-merged origin/main") : { ok: false, stdout: "" };
   const unmerged = unmergedResult.ok
     ? unmergedResult.stdout.split("\n").filter((b) => {
         const name = b.trim();
         return name && /closure|repair|audit/i.test(name);
       })
     : [];
-  if (!unmergedResult.ok) {
+  if (!unmergedResult.ok && origin.fetchStatus === "PASS") {
     blockers.push({
       code: "BLOCKED_GIT_UNMERGED_FAILED",
       message: unmergedResult.stderr || unmergedResult.error || "git branch --no-merged failed",
@@ -72,6 +85,11 @@ function runBaselineGate() {
     generatedAt: new Date().toISOString(),
     originMainSha,
     headSha,
+    fetchStatus: origin.fetchStatus,
+    fetchError: origin.fetchError || null,
+    fetchCommand: origin.fetchCommand || null,
+    revParseStatus: origin.revParseStatus,
+    revParseError: origin.revParseError || null,
     deChanges: deDiff,
     deDiffBaseline: originMainSha ? `${originMainSha}...HEAD` : null,
     deDiffError: deDiffResult.error || null,

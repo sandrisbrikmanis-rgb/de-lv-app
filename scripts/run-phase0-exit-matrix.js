@@ -81,7 +81,11 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
   );
   const structuralCoverage = evaluateStructuralScopeCoverage(discovery, expectedScopes);
   const trainingCoverage = summarizeTrainingRoundTrip(roundTrips);
-  const productionClean = productionDiffResult.clean === true && !productionDiffResult.error;
+  const productionClean =
+    productionDiffResult.clean === true &&
+    !productionDiffResult.error &&
+    discovery?.baseline?.fetchStatus === "PASS" &&
+    discovery?.baseline?.revParseStatus === "PASS";
 
   const matrix = {
     status: "PHASE_0_INCOMPLETE",
@@ -110,8 +114,17 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
         executedScopes: discovery?.summary?.length || 0,
       },
       F0_5_baseline_header: {
-        pass: discovery?.baselineVerdict === "PASS",
+        pass:
+          discovery?.baselineVerdict === "PASS" &&
+          discovery?.baseline?.fetchStatus === "PASS" &&
+          discovery?.baseline?.revParseStatus === "PASS" &&
+          !discovery?.baseline?.deDiffError &&
+          Boolean(discovery?.originMainSha),
         baselineVerdict: discovery?.baselineVerdict,
+        fetchStatus: discovery?.baseline?.fetchStatus || null,
+        fetchError: discovery?.baseline?.fetchError || null,
+        revParseStatus: discovery?.baseline?.revParseStatus || null,
+        revParseError: discovery?.baseline?.revParseError || null,
         deDiffBaseline: discovery?.baseline?.deDiffBaseline,
         deChanges: discovery?.baseline?.deChanges || [],
         deDiffError: discovery?.baseline?.deDiffError || null,
@@ -128,6 +141,8 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
         productionDiff: productionClean ? "(clean)" : productionDiffResult.changed,
         changedCount: productionDiffResult.changed?.length || 0,
         error: productionDiffResult.error || null,
+        fetchStatus: discovery?.baseline?.fetchStatus || null,
+        revParseStatus: discovery?.baseline?.revParseStatus || null,
       },
       F0_8_all_groups_coverage: {
         pass: roundTripGate.pass && structuralCoverage.pass && productionClean,

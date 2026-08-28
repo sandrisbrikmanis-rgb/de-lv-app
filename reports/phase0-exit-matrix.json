@@ -1,7 +1,7 @@
 {
   "status": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
   "verdict": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
-  "generatedAt": "2026-08-28T18:07:36.635Z",
+  "generatedAt": "2026-08-28T18:10:14.763Z",
   "masterVersion": "1.12",
   "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
   "gates": {
@@ -67,6 +67,10 @@
     "F0_5_baseline_header": {
       "pass": true,
       "baselineVerdict": "PASS",
+      "fetchStatus": "PASS",
+      "fetchError": null,
+      "revParseStatus": "PASS",
+      "revParseError": null,
       "deDiffBaseline": "93c372824359b00bd73d37ae3193bdf587118e75...HEAD",
       "deChanges": [],
       "deDiffError": null
@@ -110,7 +114,9 @@
       ],
       "productionDiff": "(clean)",
       "changedCount": 0,
-      "error": null
+      "error": null,
+      "fetchStatus": "PASS",
+      "revParseStatus": "PASS"
     },
     "F0_8_all_groups_coverage": {
       "pass": true,

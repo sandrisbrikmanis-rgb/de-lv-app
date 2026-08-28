@@ -31,22 +31,75 @@ function gitStdout(cmd) {
 }
 
 function fetchOriginMain() {
-  git("git fetch origin main 2>/dev/null || git fetch origin");
+  const mainFetch = git("git fetch origin main");
+  if (mainFetch.ok) {
+    return { ok: true, status: "PASS", command: "git fetch origin main" };
+  }
+
+  const originFetch = git("git fetch origin");
+  if (originFetch.ok) {
+    return {
+      ok: true,
+      status: "PASS",
+      command: "git fetch origin",
+      fallback: true,
+      mainFetchError: mainFetch.stderr || mainFetch.error || null,
+    };
+  }
+
+  return {
+    ok: false,
+    status: "FAIL",
+    error:
+      originFetch.stderr ||
+      originFetch.error ||
+      mainFetch.stderr ||
+      mainFetch.error ||
+      "GIT_FETCH_FAILED",
+    commands: ["git fetch origin main", "git fetch origin"],
+  };
 }
 
 function resolveOriginMainSha() {
-  fetchOriginMain();
+  const fetch = fetchOriginMain();
+  if (!fetch.ok) {
+    return {
+      sha: null,
+      error: "BLOCKED_GIT_FETCH_FAILED",
+      fetchStatus: "FAIL",
+      fetchError: fetch.error,
+      revParseStatus: "SKIPPED",
+    };
+  }
+
   const result = git("git rev-parse origin/main");
   if (!result.ok) {
     return {
       sha: null,
       error: result.stderr || result.error || "GIT_REV_PARSE_ORIGIN_MAIN_FAILED",
+      fetchStatus: "PASS",
+      fetchCommand: fetch.command,
+      revParseStatus: "FAIL",
+      revParseError: result.stderr || result.error || null,
     };
   }
   if (!result.stdout) {
-    return { sha: null, error: "GIT_REV_PARSE_ORIGIN_MAIN_EMPTY" };
+    return {
+      sha: null,
+      error: "GIT_REV_PARSE_ORIGIN_MAIN_EMPTY",
+      fetchStatus: "PASS",
+      fetchCommand: fetch.command,
+      revParseStatus: "FAIL",
+    };
   }
-  return { sha: result.stdout, error: null };
+
+  return {
+    sha: result.stdout,
+    error: null,
+    fetchStatus: "PASS",
+    fetchCommand: fetch.command,
+    revParseStatus: "PASS",
+  };
 }
 
 function fileBlobSha(relPath) {
