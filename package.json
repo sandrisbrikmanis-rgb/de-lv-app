@@ -28,6 +28,7 @@
     "i18n:content:verify-roundtrip": "node scripts/verify-content-crowdin-roundtrip.js --all-groups --all-levels --all-langs",
     "i18n:content:discovery": "node scripts/run-content-discovery.js --all-groups --dataset all --all-langs",
     "i18n:content:unmerged-closure-classify": "node scripts/run-unmerged-closure-classification.js",
+    "i18n:content:unmerged-closure-owner-prep": "node scripts/run-unmerged-closure-owner-prep-audit.js",
     "i18n:content:phase0-exit": "node scripts/run-phase0-exit-matrix.js"
   },
   "keywords": [],
