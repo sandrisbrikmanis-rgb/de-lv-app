@@ -79,8 +79,8 @@ window.LANGUAGE_UI_STRINGS = {
     "intense": "Εντονος"
   },
   "direction": {
-    "deToNative": "🔄 DE ➔ GR",
-    "nativeToDe": "🔄 GR ➔ DE"
+    "deToNative": "🔄 DE ➔ {code}",
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Κάντε κλικ στην κάρτα για να δείτε τη μετάφραση.",
@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Μετάφραση:",
     "hintTapAnswer": "Κάντε κλικ στην κάρτα για να δείτε την απάντηση.",
     "hintTapSwitch": "Κάντε κλικ στην κάρτα για να αλλάξετε το σχήμα.",
-    "hintSessionProgress": "{label}: {current} / {total}. {γίνομαι}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Αυτό το ρήμα δεν έχει αρκετούς τύπους για ανάμειξη."
   },
   "notices": {
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Μακρά και βραχέα φωνήεντα με παραδείγματα.",
     "consonantsTitle": "Συνδυασμοί συμφώνων και γραμμάτων",
     "consonantsDesc": "Οι πιο σημαντικοί σύμφωνοι ήχοι για τον αρχάριο.",
-    "lessonProgress": "Διάλεξη {μάθημα} · Μετάφραση: {current} / {total}",
-    "exerciseProgress": "Διάλεξη {μάθημα} · Άσκηση",
+    "lessonProgress": "Διάλεξη {lesson} · Μετάφραση: {current} / {total}",
+    "exerciseProgress": "Διάλεξη {lesson} · Άσκηση",
     "sections": {
       "grammar": "Γραμματική",
       "exercise": "Ασκηση",

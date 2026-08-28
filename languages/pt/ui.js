@@ -55,12 +55,12 @@ window.LANGUAGE_UI_STRINGS = {
     "chooseAnotherGroup": "Válido para este grupo",
     "listen": "kula",
     "listenPlural": "kuula mitmust",
-    "listenWithWord": "Kuula: {palavra}",
+    "listenWithWord": "Kuula: {word}",
     "autoplayOn": "Esitus automático ve",
     "autoplayOff": "Automaatne estado valjas",
     "autoplayLabel": "Estado automático",
     "autoplayAriaOn": "{label} (automático)",
-    "autoplayAriaOff": "{tag} (valores automáticos)",
+    "autoplayAriaOff": "{label} (valores automáticos)",
     "disableAutoplay": "Lülita automaatne esitus valja",
     "enableAutoplay": "Lülita automaatne esitus sisse",
     "markUnwanted": "Märgi ebavajalikuks",
@@ -79,14 +79,14 @@ window.LANGUAGE_UI_STRINGS = {
     "intense": "Intensivo"
   },
   "direction": {
-    "deToNative": "As filas:",
-    "nativeToDe": "🔄 {código} ➔ DE"
+    "deToNative": "🔄 DE ➔ {code}",
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Klõpsa kaardil, et näha tõlget.",
     "chooseNextStep": "Vali, meça edasi teha.",
     "chooseModeOrReturn": "Vali teine ​​​​​​​​režiim või tule hiljem ülevaatamiseks tagasi.",
-    "trainingCard": "Harjutuse kaart {título}"
+    "trainingCard": "Harjutuse kaart {title}"
   },
   "card": {
     "pluralLabel": "Mitm.",
@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Dica:",
     "hintTapAnswer": "Puuduta kaarti, et näha Vastust.",
     "hintTapSwitch": "Puuduta kaarti, et vahetada vormi.",
-    "hintSessionProgress": "{tag}: {atual} / {total}. {tocar}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Sellel tegusõnal ei ole segamiseks piisavalt vorme."
   },
   "notices": {
@@ -151,8 +151,8 @@ window.LANGUAGE_UI_STRINGS = {
     "returnedToStudy": "Tagasi õpperežiimi.",
     "leftInProblems": "Grupos problemáticos Jäeti.",
     "leftForReview": "Jäeti ülevaatamiseks.",
-    "showingTimeReview": "Naitame: {tag}.",
-    "continueTimeReview": "Jatkame: {tag}.",
+    "showingTimeReview": "Naitame: {label}.",
+    "continueTimeReview": "Jatkame: {label}.",
     "enterAnswerFirst": "Sisesta esmalte õige vasto ja vajuta Kontrolli.",
     "noCardForMastered": "Pole kaarti, meça 100% tuntud hulka.",
     "addedMastered": "Parece 100% hulka tuntud.",
@@ -169,11 +169,11 @@ window.LANGUAGE_UI_STRINGS = {
     "weekLabel": "Nädala ülevaade",
     "weekEmpty": "Nädala ülevaateks pole õptitud sõnu.",
     "weekDone": "Nädala ülevaade on lõpetatud.",
-    "weekCount": "Sel nädalal õpitude: {contar} {palavras}",
+    "weekCount": "Sel nädalal õpitude: {count} {words}",
     "monthLabel": "Kuu ülevaade",
     "monthEmpty": "Kuu ülevaateks pole õptitud sõnu.",
     "monthDone": "Kuu ülevaade on lõpetatud.",
-    "monthCount": "Sel kuul õptitud : {contar} {palavras}",
+    "monthCount": "Sel kuul õptitud : {count} {words}",
     "knownReviewDone": "Tuntud sõnade ülevaatus on lõpetatud."
   },
   "lists": {
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Pikad ja lühikesed täishäälikud näidetega.",
     "consonantsTitle": "Kaashäälikud e tähekombinatsioonid",
     "consonantsDesc": "Olulisemad kaashäälikuhelid algajale.",
-    "lessonProgress": "Õppetund {lição} · Tõlgi: {atual} / {total}",
-    "exerciseProgress": "Õppetund {lição} · Harjutus",
+    "lessonProgress": "Õppetund {lesson} · Tõlgi: {current} / {total}",
+    "exerciseProgress": "Õppetund {lesson} · Harjutus",
     "sections": {
       "grammar": "gramática",
       "exercise": "harjutus",

@@ -17,11 +17,11 @@
 | Atslēgas uz valodu | **305** |
 | Kopā pārbaudīto atslēgu salīdzinājumu | **9455** (31 × 305) |
 | Valodu ar 305/305 atslēgām | **31/31** |
-| Kopējais `target === LV source` rindu skaits | **566** |
-| INTENTIONAL_SAME | **170** |
+| Kopējais `target === LV source` rindu skaits | **588** |
+| INTENTIONAL_SAME | **192** |
 | REAL_UNTRANSLATED | **202** |
 | NEEDS_OWNER_REVIEW | **194** |
-| Placeholder kļūdas | **55** |
+| Placeholder kļūdas | **0** |
 | HTML struktūras kļūdas | **0** |
 | Trūkstošas atslēgas | **0** |
 | Liekas atslēgas | **0** |
@@ -38,16 +38,16 @@
 | uk | 305/305 | 10 | 36 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | et | 305/305 | 12 | 38 | 10 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 | en | 305/305 | 5 | 17 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| ro | 305/305 | 5 | 24 | 5 | 0 | 0 | 6 | 0 | 0 | 0 | 0 |
-| bg | 305/305 | 1 | 7 | 1 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
-| tr | 305/305 | 5 | 26 | 5 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| gr (Crowdin: `el`) | 305/305 | 2 | 8 | 2 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
-| sq | 305/305 | 4 | 14 | 4 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| mk | 305/305 | 1 | 7 | 1 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
-| sl | 305/305 | 22 | 49 | 1 | 0 | 21 | 5 | 0 | 0 | 0 | 0 |
+| ro | 305/305 | 7 | 30 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| bg | 305/305 | 3 | 13 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| tr | 305/305 | 5 | 26 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| gr (Crowdin: `el`) | 305/305 | 5 | 17 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sq | 305/305 | 5 | 17 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| mk | 305/305 | 3 | 13 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| sl | 305/305 | 24 | 55 | 3 | 0 | 21 | 0 | 0 | 0 | 0 | 0 |
 | bs | 305/305 | 32 | 79 | 7 | 0 | 25 | 0 | 0 | 0 | 0 | 0 |
-| sr | 305/305 | 22 | 49 | 1 | 0 | 21 | 5 | 0 | 0 | 0 | 0 |
-| hr | 305/305 | 22 | 49 | 1 | 0 | 21 | 5 | 0 | 0 | 0 | 0 |
+| sr | 305/305 | 24 | 55 | 3 | 0 | 21 | 0 | 0 | 0 | 0 | 0 |
+| hr | 305/305 | 24 | 55 | 3 | 0 | 21 | 0 | 0 | 0 | 0 | 0 |
 | sk | 305/305 | 8 | 31 | 7 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | cs | 305/305 | 8 | 20 | 6 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 | fi | 305/305 | 9 | 32 | 7 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
@@ -60,8 +60,8 @@
 | fr | 305/305 | 2 | 4 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | it | 305/305 | 9 | 32 | 7 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 | es | 305/305 | 7 | 19 | 5 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
-| pt | 305/305 | 1 | 12 | 1 | 0 | 0 | 12 | 0 | 0 | 0 | 0 |
-| hu | 305/305 | 2 | 8 | 2 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
+| pt | 305/305 | 4 | 21 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| hu | 305/305 | 5 | 17 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | is | 305/305 | 9 | 32 | 7 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 
 ---
@@ -257,34 +257,27 @@
 ## ro
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 5
-- **Šo rindu LV avota vārdu skaits:** 24
-- **INTENTIONAL_SAME:** 5
+- **target === source rindas:** 7
+- **Šo rindu LV avota vārdu skaits:** 30
+- **INTENTIONAL_SAME:** 7
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 0
-- **Placeholder kļūdas:** 6
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
-
-**Placeholder kļūdas:** 6
-
-- `direction.nativeToDe` — sagaidīts {"code":1}, faktiski {"cod":1}
-- `hints.trainingCard` — sagaidīts {"title":1}, faktiski {"titlu":1}
-- `kurss.exerciseProgress` — sagaidīts {"lesson":1}, faktiski {}
-- `kurss.hints.exerciseCardAria` — sagaidīts {"title":1}, faktiski {"titlu":1}
-- `kurss.lessonProgress` — sagaidīts {"lesson":1,"current":1,"total":1}, faktiski {"current":1,"total":1}
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1,"current":1,"total":1,"robinet":1}
 
 ### target === source tabula
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
 | ro | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
+| ro | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | ro | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | ro | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | ro | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
+| ro | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 | ro | `verb.infinitiv` | Infinitiv | Infinitiv | INTENTIONAL_SAME | Latīņu gramatikas termins |
 
 ---
@@ -292,30 +285,24 @@
 ## bg
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 1
-- **Šo rindu LV avota vārdu skaits:** 7
-- **INTENTIONAL_SAME:** 1
+- **target === source rindas:** 3
+- **Šo rindu LV avota vārdu skaits:** 13
+- **INTENTIONAL_SAME:** 3
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 0
-- **Placeholder kļūdas:** 5
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
 
-**Placeholder kļūdas:** 5
-
-- `direction.deToNative` — sagaidīts {"code":1}, faktiski {}
-- `direction.nativeToDe` — sagaidīts {"code":1}, faktiski {}
-- `kurss.exerciseProgress` — sagaidīts {"lesson":1}, faktiski {}
-- `kurss.lessonProgress` — sagaidīts {"lesson":1,"current":1,"total":1}, faktiski {}
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1,"current":1,"total":1}
-
 ### target === source tabula
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
+| bg | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | bg | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
+| bg | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
 
@@ -327,15 +314,11 @@
 - **INTENTIONAL_SAME:** 5
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 0
-- **Placeholder kļūdas:** 1
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
-
-**Placeholder kļūdas:** 1
-
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1,"tap":1}
 
 ### target === source tabula
 
@@ -352,51 +335,42 @@
 ## gr (Crowdin: `el`)
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 2
-- **Šo rindu LV avota vārdu skaits:** 8
-- **INTENTIONAL_SAME:** 2
+- **target === source rindas:** 5
+- **Šo rindu LV avota vārdu skaits:** 17
+- **INTENTIONAL_SAME:** 5
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 0
-- **Placeholder kļūdas:** 5
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
 
-**Placeholder kļūdas:** 5
-
-- `direction.deToNative` — sagaidīts {"code":1}, faktiski {}
-- `direction.nativeToDe` — sagaidīts {"code":1}, faktiski {}
-- `kurss.exerciseProgress` — sagaidīts {"lesson":1}, faktiski {}
-- `kurss.lessonProgress` — sagaidīts {"lesson":1,"current":1,"total":1}, faktiski {"current":1,"total":1}
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1,"current":1,"total":1}
-
 ### target === source tabula
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
+| gr | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
+| gr | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | gr | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | gr | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
+| gr | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
 
 ## sq
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 4
-- **Šo rindu LV avota vārdu skaits:** 14
-- **INTENTIONAL_SAME:** 4
+- **target === source rindas:** 5
+- **Šo rindu LV avota vārdu skaits:** 17
+- **INTENTIONAL_SAME:** 5
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 0
-- **Placeholder kļūdas:** 1
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
-
-**Placeholder kļūdas:** 1
-
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1,"current":1,"total":1,"faucet":1}
 
 ### target === source tabula
 
@@ -406,65 +380,53 @@
 | sq | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | sq | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | sq | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
+| sq | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
 
 ## mk
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 1
-- **Šo rindu LV avota vārdu skaits:** 7
-- **INTENTIONAL_SAME:** 1
+- **target === source rindas:** 3
+- **Šo rindu LV avota vārdu skaits:** 13
+- **INTENTIONAL_SAME:** 3
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 0
-- **Placeholder kļūdas:** 5
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
 
-**Placeholder kļūdas:** 5
-
-- `direction.deToNative` — sagaidīts {"code":1}, faktiski {}
-- `direction.nativeToDe` — sagaidīts {"code":1}, faktiski {}
-- `kurss.exerciseProgress` — sagaidīts {"lesson":1}, faktiski {}
-- `kurss.lessonProgress` — sagaidīts {"lesson":1,"current":1,"total":1}, faktiski {}
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1}
-
 ### target === source tabula
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
+| mk | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | mk | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
+| mk | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
 
 ## sl
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 22
-- **Šo rindu LV avota vārdu skaits:** 49
-- **INTENTIONAL_SAME:** 1
+- **target === source rindas:** 24
+- **Šo rindu LV avota vārdu skaits:** 55
+- **INTENTIONAL_SAME:** 3
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 21
-- **Placeholder kļūdas:** 5
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
 
-**Placeholder kļūdas:** 5
-
-- `direction.deToNative` — sagaidīts {"code":1}, faktiski {"koda":1}
-- `direction.nativeToDe` — sagaidīts {"code":1}, faktiski {"koda":1}
-- `kurss.exerciseProgress` — sagaidīts {"lesson":1}, faktiski {"lekcija":1}
-- `kurss.lessonProgress` — sagaidīts {"lesson":1,"current":1,"total":1}, faktiski {"lekcija":1,"trenutno":1}
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1,"trenutno":1,"skupaj":1,"tap":1}
-
 ### target === source tabula
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
+| sl | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | sl | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sl | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sl | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
@@ -487,6 +449,7 @@
 | sl | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sl | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sl | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| sl | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
 
@@ -546,29 +509,22 @@
 ## sr
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 22
-- **Šo rindu LV avota vārdu skaits:** 49
-- **INTENTIONAL_SAME:** 1
+- **target === source rindas:** 24
+- **Šo rindu LV avota vārdu skaits:** 55
+- **INTENTIONAL_SAME:** 3
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 21
-- **Placeholder kļūdas:** 5
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
 
-**Placeholder kļūdas:** 5
-
-- `direction.deToNative` — sagaidīts {"code":1}, faktiski {"koda":1}
-- `direction.nativeToDe` — sagaidīts {"code":1}, faktiski {"koda":1}
-- `kurss.exerciseProgress` — sagaidīts {"lesson":1}, faktiski {"lekcija":1}
-- `kurss.lessonProgress` — sagaidīts {"lesson":1,"current":1,"total":1}, faktiski {"lekcija":1,"trenutno":1}
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1,"trenutno":1,"skupaj":1,"tap":1}
-
 ### target === source tabula
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
+| sr | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | sr | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sr | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sr | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
@@ -591,35 +547,29 @@
 | sr | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sr | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | sr | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| sr | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
 
 ## hr
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 22
-- **Šo rindu LV avota vārdu skaits:** 49
-- **INTENTIONAL_SAME:** 1
+- **target === source rindas:** 24
+- **Šo rindu LV avota vārdu skaits:** 55
+- **INTENTIONAL_SAME:** 3
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 21
-- **Placeholder kļūdas:** 5
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
 
-**Placeholder kļūdas:** 5
-
-- `direction.deToNative` — sagaidīts {"code":1}, faktiski {"koda":1}
-- `direction.nativeToDe` — sagaidīts {"code":1}, faktiski {"koda":1}
-- `kurss.exerciseProgress` — sagaidīts {"lesson":1}, faktiski {"lekcija":1}
-- `kurss.lessonProgress` — sagaidīts {"lesson":1,"current":1,"total":1}, faktiski {"lekcija":1,"trenutno":1}
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1,"trenutno":1,"skupaj":1,"tap":1}
-
 ### target === source tabula
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
+| hr | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | hr | `kurss.lessonItems.1.title` | Lekcija 1 | Lekcija 1 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | hr | `kurss.lessonItems.10.title` | Lekcija 10 | Lekcija 10 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | hr | `kurss.lessonItems.11.title` | Lekcija 11 | Lekcija 11 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
@@ -642,6 +592,7 @@
 | hr | `kurss.lessonItems.7.title` | Lekcija 7 | Lekcija 7 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | hr | `kurss.lessonItems.8.title` | Lekcija 8 | Lekcija 8 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
 | hr | `kurss.lessonItems.9.title` | Lekcija 9 | Lekcija 9 | NEEDS_OWNER_REVIEW | Kognāts vai saīsinājums — iespējams pareizs mērķvalodā, bet identisks LV avotam |
+| hr | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
 
@@ -1276,68 +1227,51 @@
 ## pt
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 1
-- **Šo rindu LV avota vārdu skaits:** 12
-- **INTENTIONAL_SAME:** 1
+- **target === source rindas:** 4
+- **Šo rindu LV avota vārdu skaits:** 21
+- **INTENTIONAL_SAME:** 4
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 0
-- **Placeholder kļūdas:** 12
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
 
-**Placeholder kļūdas:** 12
-
-- `buttons.autoplayAriaOff` — sagaidīts {"label":1}, faktiski {"tag":1}
-- `buttons.listenWithWord` — sagaidīts {"word":1}, faktiski {"palavra":1}
-- `direction.deToNative` — sagaidīts {"code":1}, faktiski {}
-- `direction.nativeToDe` — sagaidīts {"code":1}, faktiski {}
-- `hints.trainingCard` — sagaidīts {"title":1}, faktiski {}
-- `kurss.exerciseProgress` — sagaidīts {"lesson":1}, faktiski {}
-- `kurss.lessonProgress` — sagaidīts {"lesson":1,"current":1,"total":1}, faktiski {"atual":1,"total":1}
-- `notices.continueTimeReview` — sagaidīts {"label":1}, faktiski {"tag":1}
-- `notices.showingTimeReview` — sagaidīts {"label":1}, faktiski {"tag":1}
-- `review.monthCount` — sagaidīts {"count":1,"words":1}, faktiski {"contar":1,"palavras":1}
-- `review.weekCount` — sagaidīts {"count":1,"words":1}, faktiski {"contar":1,"palavras":1}
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"tag":1,"atual":1,"total":1,"tocar":1}
-
 ### target === source tabula
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
+| pt | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
+| pt | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | pt | `kurss.lessonItems.21.menuDesc` | woher / wohin / wo, von / aus / mit + Dativ. | woher / wohin / wo, von / aus / mit + Dativ. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
+| pt | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
 
 ## hu
 
 - **Atslēgas:** 305/305
-- **target === source rindas:** 2
-- **Šo rindu LV avota vārdu skaits:** 8
-- **INTENTIONAL_SAME:** 2
+- **target === source rindas:** 5
+- **Šo rindu LV avota vārdu skaits:** 17
+- **INTENTIONAL_SAME:** 5
 - **REAL_UNTRANSLATED:** 0
 - **NEEDS_OWNER_REVIEW:** 0
-- **Placeholder kļūdas:** 5
+- **Placeholder kļūdas:** 0
 - **HTML struktūras kļūdas:** 0
 - **Trūkstošas atslēgas:** 0
 - **Liekas atslēgas:** 0
 - **Tukšas vērtības:** 0
 
-**Placeholder kļūdas:** 5
-
-- `direction.deToNative` — sagaidīts {"code":1}, faktiski {}
-- `direction.nativeToDe` — sagaidīts {"code":1}, faktiski {}
-- `kurss.exerciseProgress` — sagaidīts {"lesson":1}, faktiski {"lecke":1}
-- `kurss.lessonProgress` — sagaidīts {"lesson":1,"current":1,"total":1}, faktiski {"lecke":1,"current":1,"total":1}
-- `verb.hintSessionProgress` — sagaidīts {"label":1,"current":1,"total":1,"tap":1}, faktiski {"label":1,"current":1,"total":1}
-
 ### target === source tabula
 
 | language | key | LV source | current target | status | pamatojums |
 |---|---|---|---|---|---|
+| hu | `direction.deToNative` | 🔄 DE ➔ {code} | 🔄 DE ➔ {code} | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
+| hu | `direction.nativeToDe` | 🔄 {code} ➔ DE | 🔄 {code} ➔ DE | INTENTIONAL_SAME | Virziena indikators ar DE kodu un placeholder {code} |
 | hu | `kurss.lessonItems.19.menuDesc` | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen. | INTENTIONAL_SAME | Apzināti saglabāts vācu mācību apraksts |
 | hu | `study.table.german` | DE | DE | INTENTIONAL_SAME | DE kolonnas kods |
+| hu | `verb.hintSessionProgress` | {label}: {current} / {total}. {tap} | {label}: {current} / {total}. {tap} | INTENTIONAL_SAME | Placeholder struktūra identiska avotam |
 
 ---
 

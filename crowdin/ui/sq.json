@@ -290,7 +290,7 @@
   "verb.guessImperfect": "Supozo kohën e kaluar",
   "verb.guessInfinitive": "Gjeje infinitivin",
   "verb.guessPastParticiple": "Supozo pjesëmarrjen e kaluar",
-  "verb.hintSessionProgress": "{label}: {current} / {total}. {faucet}",
+  "verb.hintSessionProgress": "{label}: {current} / {total}. {tap}",
   "verb.hintTapAnswer": "Kliko në kartë për të parë përgjigjen.",
   "verb.hintTapSwitch": "Klikoni në kartë për të ndryshuar formularin.",
   "verb.imperfectIndicative": "E kaluar - Ticker",
