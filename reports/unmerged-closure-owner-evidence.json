@@ -9730,7 +9730,7 @@
     "MERGE": "FORBIDDEN"
   },
   "supersededValidation": {
-    "generatedAt": "2026-08-28T19:20:01.323Z",
+    "generatedAt": "2026-08-28T19:32:37.877Z",
     "summary": {
       "evidence": {
         "EVIDENCE_SUFFICIENT": 12,
@@ -9761,7 +9761,7 @@
       "CONFLICTING_WITH_MAIN_TOTAL": 670,
       "UNRESOLVED_TOTAL": 0,
       "OWNER_DECISIONS_FILLED": "53/53",
-      "PRODUCTION_CHANGES": 0,
+      "PRODUCTION_CHANGES": 4,
       "DE_CHANGES": 0,
       "PR_MERGES": 0,
       "PR_CLOSES": 0,

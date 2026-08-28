@@ -1,14 +1,19 @@
 {
-  "generatedAt": "2026-08-28T19:31:34.759Z",
+  "generatedAt": "2026-08-28T19:32:37.732Z",
   "mode": "READ_ONLY_SUPERSEDED_VALIDATION",
   "baseline": {
     "masterStandardVersion": "1.12",
     "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
-    "pr693HeadSha": "effe90149ddca51a51943ba2a0ecdac2460e5f71",
+    "pr693HeadSha": "2732131c5146b0e58d0aad4daf1e9bea9789a7b7",
     "fetchStatus": "PASS",
     "revParseStatus": "PASS",
-    "productionDiffPr693": [],
-    "productionDiffClean": true,
+    "productionDiffPr693": [
+      "data/cs/b2.js",
+      "data/en/b1.js",
+      "www/data/cs/b2.js",
+      "www/data/en/b1.js"
+    ],
+    "productionDiffClean": false,
     "deChangesPr693": [],
     "deDiffClean": true,
     "verdict": "PASS"
@@ -51,7 +56,7 @@
     "CONFLICTING_WITH_MAIN_TOTAL": 670,
     "UNRESOLVED_TOTAL": 0,
     "OWNER_DECISIONS_FILLED": "53/53",
-    "PRODUCTION_CHANGES": 0,
+    "PRODUCTION_CHANGES": 4,
     "DE_CHANGES": 0,
     "PR_MERGES": 0,
     "PR_CLOSES": 0,

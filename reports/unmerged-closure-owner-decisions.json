@@ -3,7 +3,7 @@
   "module": "unmerged-closure-d1",
   "decidedBy": "OWNER",
   "description": "OWNER-PREP manifest — 53/53 candidates. Cursor fills evidence fields only; resolvedCategory/ownerReason/ownerDecisionDate remain null until OWNER decides.",
-  "generatedAt": "2026-08-28T19:31:34.917Z",
+  "generatedAt": "2026-08-28T19:32:37.875Z",
   "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
   "pr693HeadSha": "a8b884df288293c118047d6c82788798c36ef048",
   "expectedCandidates": 53,
@@ -166760,7 +166760,7 @@
       "baseSha": "8c82df0454dad44636830145e26e5b8e52aa4184"
     }
   ],
-  "supersededValidationAt": "2026-08-28T19:31:34.917Z",
+  "supersededValidationAt": "2026-08-28T19:32:37.875Z",
   "ownerReviewPackageAt": "2026-08-28T19:05:32.658Z",
   "ownerAutoAccepted": "0/53",
   "ownerPending": "0/53",
@@ -166785,6 +166785,6 @@
     "verdict": "OWNER_DECISIONS_COMPLETE"
   },
   "applyStatus": "APPLIED_VERIFIED",
-  "appliedAtCommit": "effe90149ddca51a51943ba2a0ecdac2460e5f71",
+  "appliedAtCommit": "2732131c5146b0e58d0aad4daf1e9bea9789a7b7",
   "applyReportJson": "/workspace/reports/unmerged-closure-copy-only-apply.json"
 }
