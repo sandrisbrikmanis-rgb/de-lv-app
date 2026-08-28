@@ -1,0 +1,2043 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "path": "reports/crowdin-ui-lb-202-owner-input.json",
+    "pullRequest": 691,
+    "branch": "cursor/crowdin-ui-untranslated-audit-06ff"
+  },
+  "summary": {
+    "requested": 202,
+    "reviewed": 202,
+    "decisions": {
+      "LABOT": 202
+    },
+    "duplicateKeys": 0,
+    "missingKeys": 0,
+    "currentMismatch": 0,
+    "placeholderErrors": 0,
+    "htmlErrors": 0,
+    "applyPerformed": false
+  },
+  "rows": [
+    {
+      "sequence": 1,
+      "language": "lb",
+      "key": "buttons.autoplayAriaOff",
+      "lvSource": "{label} (automātiski izslēgts)",
+      "current": "{label} (automātiski izslēgts)",
+      "ownerStatus": "LABOT",
+      "newValue": "{label} (automatesch ausgeschalt)",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 2,
+      "language": "lb",
+      "key": "buttons.autoplayAriaOn",
+      "lvSource": "{label} (automātiski ieslēgts)",
+      "current": "{label} (automātiski ieslēgts)",
+      "ownerStatus": "LABOT",
+      "newValue": "{label} (automatesch ageschalt)",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 3,
+      "language": "lb",
+      "key": "buttons.autoplayLabel",
+      "lvSource": "Automātiska izruna",
+      "current": "Automātiska izruna",
+      "ownerStatus": "LABOT",
+      "newValue": "Automatesch Aussprooch",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 4,
+      "language": "lb",
+      "key": "buttons.autoplayOff",
+      "lvSource": "Automātiska izruna izslēgta",
+      "current": "Automātiska izruna izslēgta",
+      "ownerStatus": "LABOT",
+      "newValue": "Automatesch Aussprooch ausgeschalt",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 5,
+      "language": "lb",
+      "key": "buttons.autoplayOn",
+      "lvSource": "Automātiska izruna ieslēgta",
+      "current": "Automātiska izruna ieslēgta",
+      "ownerStatus": "LABOT",
+      "newValue": "Automatesch Aussprooch ageschalt",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 6,
+      "language": "lb",
+      "key": "buttons.cancel",
+      "lvSource": "Atcelt",
+      "current": "Atcelt",
+      "ownerStatus": "LABOT",
+      "newValue": "Ofbriechen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 7,
+      "language": "lb",
+      "key": "buttons.check",
+      "lvSource": "Pārbaudīt",
+      "current": "Pārbaudīt",
+      "ownerStatus": "LABOT",
+      "newValue": "Iwwerpréiwen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 8,
+      "language": "lb",
+      "key": "buttons.chooseAnotherGroup",
+      "lvSource": "Izvēlēties citu grupu",
+      "current": "Izvēlēties citu grupu",
+      "ownerStatus": "LABOT",
+      "newValue": "Eng aner Grupp auswielen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 9,
+      "language": "lb",
+      "key": "buttons.close",
+      "lvSource": "Aizvērt",
+      "current": "Aizvērt",
+      "ownerStatus": "LABOT",
+      "newValue": "Zoumaachen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 10,
+      "language": "lb",
+      "key": "buttons.continue",
+      "lvSource": "Turpināt",
+      "current": "Turpināt",
+      "ownerStatus": "LABOT",
+      "newValue": "Weider",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 11,
+      "language": "lb",
+      "key": "buttons.delete",
+      "lvSource": "Dzēst",
+      "current": "Dzēst",
+      "ownerStatus": "LABOT",
+      "newValue": "Läschen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 12,
+      "language": "lb",
+      "key": "buttons.disableAutoplay",
+      "lvSource": "Izslēgt automātisko izrunu",
+      "current": "Izslēgt automātisko izrunu",
+      "ownerStatus": "LABOT",
+      "newValue": "Automatesch Aussprooch ausschalten",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 13,
+      "language": "lb",
+      "key": "buttons.enableAutoplay",
+      "lvSource": "Ieslēgt automātisko izrunu",
+      "current": "Ieslēgt automātisko izrunu",
+      "ownerStatus": "LABOT",
+      "newValue": "Automatesch Aussprooch aschalten",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 14,
+      "language": "lb",
+      "key": "buttons.known",
+      "lvSource": "Zinu pareizi",
+      "current": "Zinu pareizi",
+      "ownerStatus": "LABOT",
+      "newValue": "Ech weess et",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 15,
+      "language": "lb",
+      "key": "buttons.knownWithCount",
+      "lvSource": "Zināmi ({count})",
+      "current": "Zināmi ({count})",
+      "ownerStatus": "LABOT",
+      "newValue": "Bekannt ({count})",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 16,
+      "language": "lb",
+      "key": "buttons.knownWords",
+      "lvSource": "Zināmi",
+      "current": "Zināmi",
+      "ownerStatus": "LABOT",
+      "newValue": "Bekannt",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 17,
+      "language": "lb",
+      "key": "buttons.listen",
+      "lvSource": "Klausīties",
+      "current": "Klausīties",
+      "ownerStatus": "LABOT",
+      "newValue": "Lauschteren",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 18,
+      "language": "lb",
+      "key": "buttons.listenPlural",
+      "lvSource": "Klausīties daudzskaitli",
+      "current": "Klausīties daudzskaitli",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Méizuel lauschteren",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 19,
+      "language": "lb",
+      "key": "buttons.listenWithWord",
+      "lvSource": "Klausīties: {word}",
+      "current": "Klausīties: {word}",
+      "ownerStatus": "LABOT",
+      "newValue": "Lauschteren: {word}",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 20,
+      "language": "lb",
+      "key": "buttons.markMastered",
+      "lvSource": "100% zinu",
+      "current": "100% zinu",
+      "ownerStatus": "LABOT",
+      "newValue": "Ech kann et zu 100 %",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 21,
+      "language": "lb",
+      "key": "buttons.markSessionLearned",
+      "lvSource": "🏅 Atzīmēt sesiju kā iemācītu",
+      "current": "🏅 Atzīmēt sesiju kā iemācītu",
+      "ownerStatus": "LABOT",
+      "newValue": "🏅 Sessioun als geléiert markéieren",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 22,
+      "language": "lb",
+      "key": "buttons.markUnwanted",
+      "lvSource": "Atzīmēt kā nevajadzīgu",
+      "current": "Atzīmēt kā nevajadzīgu",
+      "ownerStatus": "LABOT",
+      "newValue": "Als net gebraucht markéieren",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 23,
+      "language": "lb",
+      "key": "buttons.masteredWords",
+      "lvSource": "100% zināmi",
+      "current": "100% zināmi",
+      "ownerStatus": "LABOT",
+      "newValue": "Zu 100 % bekannt",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 24,
+      "language": "lb",
+      "key": "buttons.monthlyReview",
+      "lvSource": "Mēneša pārskats",
+      "current": "Mēneša pārskats",
+      "ownerStatus": "LABOT",
+      "newValue": "Mountsiwwersiicht",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 25,
+      "language": "lb",
+      "key": "buttons.restartSession",
+      "lvSource": "🔄 Pārskatīt sesiju no jauna",
+      "current": "🔄 Pārskatīt sesiju no jauna",
+      "ownerStatus": "LABOT",
+      "newValue": "🔄 D'Sessioun nach eng Kéier iwwerpréiwen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 26,
+      "language": "lb",
+      "key": "buttons.shuffleVerbs",
+      "lvSource": "Jaukt darbības vārdus",
+      "current": "Jaukt darbības vārdus",
+      "ownerStatus": "LABOT",
+      "newValue": "Verbe mëschen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 27,
+      "language": "lb",
+      "key": "buttons.unknown",
+      "lvSource": "Nezinu",
+      "current": "Nezinu",
+      "ownerStatus": "LABOT",
+      "newValue": "Ech weess et net",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 28,
+      "language": "lb",
+      "key": "buttons.unwantedWords",
+      "lvSource": "Nevajadzīgie vārdi",
+      "current": "Nevajadzīgie vārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Net gebraucht Wierder",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 29,
+      "language": "lb",
+      "key": "buttons.weeklyReview",
+      "lvSource": "Nedēļas pārskats",
+      "current": "Nedēļas pārskats",
+      "ownerStatus": "LABOT",
+      "newValue": "Wocheniwwersiicht",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 30,
+      "language": "lb",
+      "key": "card.cardNotFound",
+      "lvSource": "Kartīte netika atrasta",
+      "current": "Kartīte netika atrasta",
+      "ownerStatus": "LABOT",
+      "newValue": "Kaart net fonnt",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 31,
+      "language": "lb",
+      "key": "card.lastSessionLabel",
+      "lvSource": "Pēdējā sesija",
+      "current": "Pēdējā sesija",
+      "ownerStatus": "LABOT",
+      "newValue": "Lescht Sessioun",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 32,
+      "language": "lb",
+      "key": "card.levelCompleteDesc",
+      "lvSource": "Tu esi apguvis visus šīs grupas vārdus. Laiks spert nākamo soli!",
+      "current": "Tu esi apguvis visus šīs grupas vārdus. Laiks spert nākamo soli!",
+      "ownerStatus": "LABOT",
+      "newValue": "Du hues all d'Wierder aus dëser Grupp geléiert. Zäit fir den nächste Schrëtt!",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 33,
+      "language": "lb",
+      "key": "card.levelCompleteTitle",
+      "lvSource": "Izcili! {label} līmenis ir pabeigts! 🎉",
+      "current": "Izcili! {label} līmenis ir pabeigts! 🎉",
+      "ownerStatus": "LABOT",
+      "newValue": "Exzellent! Niveau {label} ass ofgeschloss! 🎉",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 34,
+      "language": "lb",
+      "key": "card.noActiveWords",
+      "lvSource": "Šajā grupā nav aktīvu vārdu.",
+      "current": "Šajā grupā nav aktīvu vārdu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng aktiv Wierder an dëser Grupp.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 35,
+      "language": "lb",
+      "key": "card.noCardsInSession",
+      "lvSource": "Šajā sesijā nav kartīšu.",
+      "current": "Šajā sesijā nav kartīšu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng Kaarten an dëser Sessioun.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 36,
+      "language": "lb",
+      "key": "card.problemLabel",
+      "lvSource": "Problemātiskie",
+      "current": "Problemātiskie",
+      "ownerStatus": "LABOT",
+      "newValue": "Problemwierder",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 37,
+      "language": "lb",
+      "key": "card.spelling",
+      "lvSource": "Pareizrakstība",
+      "current": "Pareizrakstība",
+      "ownerStatus": "LABOT",
+      "newValue": "Rechtschreiwung",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 38,
+      "language": "lb",
+      "key": "card.spellingVerbs",
+      "lvSource": "Pareizrakstība · Darbības vārdi",
+      "current": "Pareizrakstība · Darbības vārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Rechtschreiwung · Verben",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 39,
+      "language": "lb",
+      "key": "card.verbsShuffleTraining",
+      "lvSource": "Darbības vārdi · Jaukts treniņš",
+      "current": "Darbības vārdi · Jaukts treniņš",
+      "ownerStatus": "LABOT",
+      "newValue": "Verben · Gemëschten Training",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 40,
+      "language": "lb",
+      "key": "extra.settings",
+      "lvSource": "Iestatījumi",
+      "current": "Iestatījumi",
+      "ownerStatus": "LABOT",
+      "newValue": "Astellungen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 41,
+      "language": "lb",
+      "key": "extra.wordManagement",
+      "lvSource": "Vārdu pārvaldība",
+      "current": "Vārdu pārvaldība",
+      "ownerStatus": "LABOT",
+      "newValue": "Wierder verwalten",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 42,
+      "language": "lb",
+      "key": "groups.sentences",
+      "lvSource": "Teikumi",
+      "current": "Teikumi",
+      "ownerStatus": "LABOT",
+      "newValue": "Sätz",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 43,
+      "language": "lb",
+      "key": "hints.chooseModeOrReturn",
+      "lvSource": "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.",
+      "current": "Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.",
+      "ownerStatus": "LABOT",
+      "newValue": "Wiel en anere Modus oder komm méi spéit fir d'Iwwerpréiwung zeréck.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 44,
+      "language": "lb",
+      "key": "hints.chooseNextStep",
+      "lvSource": "Izvēlies, ko darīt tālāk.",
+      "current": "Izvēlies, ko darīt tālāk.",
+      "ownerStatus": "LABOT",
+      "newValue": "Wiel, wat s du als Nächst maache wëlls.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 45,
+      "language": "lb",
+      "key": "hints.tapToReveal",
+      "lvSource": "Klikšķini uz kartītes, lai redzētu tulkojumu.",
+      "current": "Klikšķini uz kartītes, lai redzētu tulkojumu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Kaart, fir d'Iwwersetzung ze gesinn.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 46,
+      "language": "lb",
+      "key": "hints.trainingCard",
+      "lvSource": "{title} vingrinājuma kartīte",
+      "current": "{title} vingrinājuma kartīte",
+      "ownerStatus": "LABOT",
+      "newValue": "Übungskaart: {title}",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 47,
+      "language": "lb",
+      "key": "info.answersBody",
+      "lvSource": "<strong>Zinu pareizi</strong> — zini atbildi. <strong>Nezinu</strong> — palīdz atcerēties un pievieno problemātiskajiem. <strong>Nākamais vārds</strong> — izlaiž bez vērtējuma.",
+      "current": "<strong>Zinu pareizi</strong> — zini atbildi. <strong>Nezinu</strong> — palīdz atcerēties un pievieno problemātiskajiem. <strong>Nākamais vārds</strong> — izlaiž bez vērtējuma.",
+      "ownerStatus": "LABOT",
+      "newValue": "<strong>Ech weess et</strong> — du kenns d'Äntwert. <strong>Ech weess et net</strong> — hëlleft beim Erënneren a füügt d'Wuert bei d'Problemwierder derbäi. <strong>Nächst Wuert</strong> — iwwerspréngt ouni Bewäertung.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 48,
+      "language": "lb",
+      "key": "info.directionBody",
+      "lvSource": "Nospied, lai pārslēgtu starp <strong>DE→{code}</strong> un <strong>{code}→DE</strong>.",
+      "current": "Nospied, lai pārslēgtu starp <strong>DE→{code}</strong> un <strong>{code}→DE</strong>.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick, fir tëscht <strong>DE→{code}</strong> an <strong>{code}→DE</strong> ze wiesselen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 49,
+      "language": "lb",
+      "key": "info.extraBody",
+      "lvSource": "Atver <strong>Papildu opcijas</strong>, lai skatītu nedēļas un mēneša pārskatu, Zināmos vārdus un atgrieztu paslēptos.",
+      "current": "Atver <strong>Papildu opcijas</strong>, lai skatītu nedēļas un mēneša pārskatu, Zināmos vārdus un atgrieztu paslēptos.",
+      "ownerStatus": "LABOT",
+      "newValue": "Maach <strong>Zousätzlech Optiounen</strong> op, fir d'Wochen- a Mountsiwwersiicht, déi bekannt Wierder an déi verstoppte Wierder ze gesinn.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 50,
+      "language": "lb",
+      "key": "info.intensityBody",
+      "lvSource": "Izvēlies, cik vārdu mācīties vienā sesijā: <strong>Viegls · 10</strong>, <strong>Normāls · 20</strong> vai <strong>Intensīvs · 30</strong>.",
+      "current": "Izvēlies, cik vārdu mācīties vienā sesijā: <strong>Viegls · 10</strong>, <strong>Normāls · 20</strong> vai <strong>Intensīvs · 30</strong>.",
+      "ownerStatus": "LABOT",
+      "newValue": "Wiel, wéi vill Wierder s du an enger Sessioun léiere wëlls: <strong>Liicht · 10</strong>, <strong>Normal · 20</strong> oder <strong>Intensiv · 30</strong>.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 51,
+      "language": "lb",
+      "key": "info.intensityTitle",
+      "lvSource": "Sesijas intensitāte",
+      "current": "Sesijas intensitāte",
+      "ownerStatus": "LABOT",
+      "newValue": "Intensitéit vun der Sessioun",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 52,
+      "language": "lb",
+      "key": "info.listeningBody",
+      "lvSource": "Nospied skaļruņa ikonu kartītē, lai noklausītos izrunu.",
+      "current": "Nospied skaļruņa ikonu kartītē, lai noklausītos izrunu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Lautsprecher-Symbol op der Kaart, fir d'Aussprooch ze lauschteren.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 53,
+      "language": "lb",
+      "key": "info.listeningTitle",
+      "lvSource": "Klausīšanās",
+      "current": "Klausīšanās",
+      "ownerStatus": "LABOT",
+      "newValue": "Lauschteren",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 54,
+      "language": "lb",
+      "key": "info.problemBody",
+      "lvSource": "Nospied <strong>Probl.</strong>, lai mācītos vārdus, ar kuriem esi kļūdījies. Parastajā plūsmā «Nezinu» pievieno vārdu šeit; šeit «Zinu pareizi» samazina kļūdu pakāpi.",
+      "current": "Nospied <strong>Probl.</strong>, lai mācītos vārdus, ar kuriem esi kļūdījies. Parastajā plūsmā «Nezinu» pievieno vārdu šeit; šeit «Zinu pareizi» samazina kļūdu pakāpi.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op <strong>Probl.</strong>, fir Wierder ze léieren, bei deenen s du Feeler gemaach hues. Am normale Modus füügt «Ech weess et net» d'Wuert hei derbäi; hei reduzéiert «Ech weess et» de Feelergrad.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 55,
+      "language": "lb",
+      "key": "info.problemTitle",
+      "lvSource": "Problemātiskie vārdi",
+      "current": "Problemātiskie vārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Problemwierder",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 56,
+      "language": "lb",
+      "key": "info.spellingBody",
+      "lvSource": "Nospied <strong>Rakst.</strong>, lai pirms atbildes jāieraksta vārds ar roku.",
+      "current": "Nospied <strong>Rakst.</strong>, lai pirms atbildes jāieraksta vārds ar roku.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op <strong>Schreiwen</strong>, fir d'Wuert virun der Äntwert selwer anzeginn.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 57,
+      "language": "lb",
+      "key": "info.spellingTitle",
+      "lvSource": "Pareizrakstība",
+      "current": "Pareizrakstība",
+      "ownerStatus": "LABOT",
+      "newValue": "Rechtschreiwung",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 58,
+      "language": "lb",
+      "key": "info.title",
+      "lvSource": "Kā tas strādā?",
+      "current": "Kā tas strādā?",
+      "ownerStatus": "LABOT",
+      "newValue": "Wéi funktionéiert et?",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 59,
+      "language": "lb",
+      "key": "info.unwantedBody",
+      "lvSource": "Nospied pārsvītroto aci kartītes stūrī — vārds pazudīs no plūsmas. Atgriezt vari sadaļā Papildu opcijas.",
+      "current": "Nospied pārsvītroto aci kartītes stūrī — vārds pazudīs no plūsmas. Atgriezt vari sadaļā Papildu opcijas.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op dat duerchgestrachent A am Eck vun der Kaart — d'Wuert verschwënnt aus dem Léierlaf. Du kanns et ënner Zousätzlech Optiounen zerécksetzen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 60,
+      "language": "lb",
+      "key": "info.unwantedTitle",
+      "lvSource": "Nevajadzīgie vārdi",
+      "current": "Nevajadzīgie vārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Net gebraucht Wierder",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 61,
+      "language": "lb",
+      "key": "kurss.articlesDesc",
+      "lvSource": "Der, die, das un lietojuma pamati.",
+      "current": "Der, die, das un lietojuma pamati.",
+      "ownerStatus": "LABOT",
+      "newValue": "Grondlage vum Gebrauch vun der, die an das.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 62,
+      "language": "lb",
+      "key": "kurss.articlesSubtitle",
+      "lvSource": "Der, die, das un lietojuma pamati.",
+      "current": "Der, die, das un lietojuma pamati.",
+      "ownerStatus": "LABOT",
+      "newValue": "Grondlage vum Gebrauch vun der, die an das.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 63,
+      "language": "lb",
+      "key": "kurss.backToMain",
+      "lvSource": "Atgriezties uz galveno ekrānu",
+      "current": "Atgriezties uz galveno ekrānu",
+      "ownerStatus": "LABOT",
+      "newValue": "Zeréck op den Haaptbildschierm",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 64,
+      "language": "lb",
+      "key": "kurss.closeCourse",
+      "lvSource": "Aizvērt kursu",
+      "current": "Aizvērt kursu",
+      "ownerStatus": "LABOT",
+      "newValue": "Cours zoumaachen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 65,
+      "language": "lb",
+      "key": "kurss.consonantsDesc",
+      "lvSource": "Svarīgākās līdzskaņu skaņas iesācējam.",
+      "current": "Svarīgākās līdzskaņu skaņas iesācējam.",
+      "ownerStatus": "LABOT",
+      "newValue": "Déi wichtegst Konsonantelaute fir Ufänger.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 66,
+      "language": "lb",
+      "key": "kurss.consonantsSubtitle",
+      "lvSource": "Līdzskaņi un burtu savienojumi",
+      "current": "Līdzskaņi un burtu savienojumi",
+      "ownerStatus": "LABOT",
+      "newValue": "Konsonanten a Buschtawekombinatiounen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 67,
+      "language": "lb",
+      "key": "kurss.consonantsTitle",
+      "lvSource": "Līdzskaņi un burtu savienojumi",
+      "current": "Līdzskaņi un burtu savienojumi",
+      "ownerStatus": "LABOT",
+      "newValue": "Konsonanten a Buschtawekombinatiounen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 68,
+      "language": "lb",
+      "key": "kurss.cta.tapContinue",
+      "lvSource": "Pieskaries turpināt",
+      "current": "Pieskaries turpināt",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op Weider",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 69,
+      "language": "lb",
+      "key": "kurss.cta.tapNextCard",
+      "lvSource": "Pieskaries nākamajai kartītei",
+      "current": "Pieskaries nākamajai kartītei",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op déi nächst Kaart",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 70,
+      "language": "lb",
+      "key": "kurss.cta.tapToRevealAnswer",
+      "lvSource": "Pieskaries, lai redzētu atbildi",
+      "current": "Pieskaries, lai redzētu atbildi",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick, fir d'Äntwert ze gesinn",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 71,
+      "language": "lb",
+      "key": "kurss.cta.transformFirstPlural",
+      "lvSource": "Pārveido teikumu 1. personā daudzskaitlī.",
+      "current": "Pārveido teikumu 1. personā daudzskaitlī.",
+      "ownerStatus": "LABOT",
+      "newValue": "Form de Saz an déi 1. Persoun Méizuel ëm.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 72,
+      "language": "lb",
+      "key": "kurss.cta.transformSentence",
+      "lvSource": "Pārveido teikumu.",
+      "current": "Pārveido teikumu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Form de Saz ëm.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 73,
+      "language": "lb",
+      "key": "kurss.cta.transformThirdSingular",
+      "lvSource": "Pārveido teikumu 3. personā vienskaitlī.",
+      "current": "Pārveido teikumu 3. personā vienskaitlī.",
+      "ownerStatus": "LABOT",
+      "newValue": "Form de Saz an déi 3. Persoun Eenzuel ëm.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 74,
+      "language": "lb",
+      "key": "kurss.exerciseMeta.answerPlural",
+      "lvSource": "Tagad atbildi daudzskaitlī.",
+      "current": "Tagad atbildi daudzskaitlī.",
+      "ownerStatus": "LABOT",
+      "newValue": "Äntwert elo an der Méizuel.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 75,
+      "language": "lb",
+      "key": "kurss.exerciseMeta.chooseCasePlural",
+      "lvSource": "Liec pareizo locījumu un darini daudzskaitli!",
+      "current": "Liec pareizo locījumu un darini daudzskaitli!",
+      "ownerStatus": "LABOT",
+      "newValue": "Setz de richtege Kasus a bild d'Méizuel!",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 76,
+      "language": "lb",
+      "key": "kurss.exerciseMeta.fillCase",
+      "lvSource": "Übung I — lieto pareizo locījumu",
+      "current": "Übung I — lieto pareizo locījumu",
+      "ownerStatus": "LABOT",
+      "newValue": "Übung I — benotz de richtege Kasus",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 77,
+      "language": "lb",
+      "key": "kurss.exerciseMeta.formIhr",
+      "lvSource": "Forma 2/3: Jūs (daudzskaitlis)",
+      "current": "Forma 2/3: Jūs (daudzskaitlis)",
+      "ownerStatus": "LABOT",
+      "newValue": "Form 2/3: dir (Méizuel)",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 78,
+      "language": "lb",
+      "key": "kurss.exerciseMeta.formSie",
+      "lvSource": "Forma 3/3: Sie (pieklājīgā forma)",
+      "current": "Forma 3/3: Sie (pieklājīgā forma)",
+      "ownerStatus": "LABOT",
+      "newValue": "Form 3/3: Sie (Héiflechkeetsform)",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 79,
+      "language": "lb",
+      "key": "kurss.exerciseProgress",
+      "lvSource": "Lekcija {lesson} · Vingrinājums",
+      "current": "Lekcija {lesson} · Vingrinājums",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun {lesson} · Übung",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 80,
+      "language": "lb",
+      "key": "kurss.hints.exerciseCardAria",
+      "lvSource": "{title} vingrinājuma kartīte",
+      "current": "{title} vingrinājuma kartīte",
+      "ownerStatus": "LABOT",
+      "newValue": "Übungskaart: {title}",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 81,
+      "language": "lb",
+      "key": "kurss.hints.tapNextStep",
+      "lvSource": "Pieskaries kartītei, lai pārietu uz nākamo soli.",
+      "current": "Pieskaries kartītei, lai pārietu uz nākamo soli.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Kaart, fir bei den nächste Schrëtt ze goen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 82,
+      "language": "lb",
+      "key": "kurss.hints.tapToContinue",
+      "lvSource": "Pieskaries kartītei, lai turpinātu.",
+      "current": "Pieskaries kartītei, lai turpinātu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Kaart, fir weiderzefueren.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 83,
+      "language": "lb",
+      "key": "kurss.hints.tapToRevealAnswer",
+      "lvSource": "Pieskaries kartītei, lai redzētu atbildi.",
+      "current": "Pieskaries kartītei, lai redzētu atbildi.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Kaart, fir d'Äntwert ze gesinn.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 84,
+      "language": "lb",
+      "key": "kurss.hints.tapToRevealGerman",
+      "lvSource": "Pieskaries kartītei, lai redzētu vācu tulkojumu.",
+      "current": "Pieskaries kartītei, lai redzētu vācu tulkojumu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Kaart, fir déi däitsch Iwwersetzung ze gesinn.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 85,
+      "language": "lb",
+      "key": "kurss.lessonProgress",
+      "lvSource": "Lekcija {lesson} · Pārtulko: {current} / {total}",
+      "current": "Lekcija {lesson} · Pārtulko: {current} / {total}",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun {lesson} · Iwwersat: {current} / {total}",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 86,
+      "language": "lb",
+      "key": "kurss.lessonsDesc",
+      "lvSource": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "current": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "ownerStatus": "LABOT",
+      "newValue": "Léierlektionen an der Reiefolleg vun 1 bis 21.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 87,
+      "language": "lb",
+      "key": "kurss.lessonsSubtitle",
+      "lvSource": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "current": "Mācību lekcijas secīgā kārtībā no 1 līdz 21.",
+      "ownerStatus": "LABOT",
+      "newValue": "Léierlektionen an der Reiefolleg vun 1 bis 21.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 88,
+      "language": "lb",
+      "key": "kurss.pronouns",
+      "lvSource": "Vietniekvārdi",
+      "current": "Vietniekvārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Pronomen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 89,
+      "language": "lb",
+      "key": "kurss.pronounsDesc",
+      "lvSource": "Nominativ, Akkusativ un Dativ formas.",
+      "current": "Nominativ, Akkusativ un Dativ formas.",
+      "ownerStatus": "LABOT",
+      "newValue": "Nominativ-, Akkusativ- an Dativformen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 90,
+      "language": "lb",
+      "key": "kurss.pronounsSubtitle",
+      "lvSource": "Nominativ, Akkusativ un Dativ — vietniekvārdu formas.",
+      "current": "Nominativ, Akkusativ un Dativ — vietniekvārdu formas.",
+      "ownerStatus": "LABOT",
+      "newValue": "Nominativ, Akkusativ an Dativ — Pronomeformen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 91,
+      "language": "lb",
+      "key": "kurss.pronunciationDesc",
+      "lvSource": "Vācu valodas skaņas un izrunas pamati.",
+      "current": "Vācu valodas skaņas un izrunas pamati.",
+      "ownerStatus": "LABOT",
+      "newValue": "Däitsch Lauter an d'Grondlage vun der Aussprooch.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 92,
+      "language": "lb",
+      "key": "kurss.pronunciationSubtitle",
+      "lvSource": "Vācu valodas skaņas un izrunas pamati",
+      "current": "Vācu valodas skaņas un izrunas pamati",
+      "ownerStatus": "LABOT",
+      "newValue": "Däitsch Lauter an d'Grondlage vun der Aussprooch",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 93,
+      "language": "lb",
+      "key": "kurss.sections.exercise",
+      "lvSource": "Vingrinājums",
+      "current": "Vingrinājums",
+      "ownerStatus": "LABOT",
+      "newValue": "Übung",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 94,
+      "language": "lb",
+      "key": "kurss.sections.exerciseCombined",
+      "lvSource": "Übung / Vingrinājums",
+      "current": "Übung / Vingrinājums",
+      "ownerStatus": "LABOT",
+      "newValue": "Übung / Übung",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 95,
+      "language": "lb",
+      "key": "kurss.sections.translate",
+      "lvSource": "Pārtulko",
+      "current": "Pārtulko",
+      "ownerStatus": "LABOT",
+      "newValue": "Iwwersetzen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 96,
+      "language": "lb",
+      "key": "kurss.sentenceStructure",
+      "lvSource": "Teikumu uzbūve",
+      "current": "Teikumu uzbūve",
+      "ownerStatus": "LABOT",
+      "newValue": "Sazstruktur",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 97,
+      "language": "lb",
+      "key": "kurss.sentenceStructureDesc",
+      "lvSource": "Vienkārša vārdu secība vācu teikumos.",
+      "current": "Vienkārša vārdu secība vācu teikumos.",
+      "ownerStatus": "LABOT",
+      "newValue": "Einfach Wuertstellung an däitsche Sätz.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 98,
+      "language": "lb",
+      "key": "kurss.subtitle",
+      "lvSource": "Vācu valodas pamati soli pa solim",
+      "current": "Vācu valodas pamati soli pa solim",
+      "ownerStatus": "LABOT",
+      "newValue": "Grondlage vun der däitscher Sprooch, Schrëtt fir Schrëtt",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 99,
+      "language": "lb",
+      "key": "kurss.tipBody",
+      "lvSource": "Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!",
+      "current": "Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!",
+      "ownerStatus": "LABOT",
+      "newValue": "Lauschter, widderhuel a vergläich. Däin Ouer ass dee beschte Léiermeeschter!",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 100,
+      "language": "lb",
+      "key": "kurss.verbBasics",
+      "lvSource": "Darbības vārdu pamati",
+      "current": "Darbības vārdu pamati",
+      "ownerStatus": "LABOT",
+      "newValue": "Grondlage vun de Verben",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 101,
+      "language": "lb",
+      "key": "kurss.verbBasicsDesc",
+      "lvSource": "Personas, formas un biežākie darbības vārdi.",
+      "current": "Personas, formas un biežākie darbības vārdi.",
+      "ownerStatus": "LABOT",
+      "newValue": "Persounen, Formen an déi heefegst Verben.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 102,
+      "language": "lb",
+      "key": "kurss.vowelsDesc",
+      "lvSource": "Garie un īsie patskaņi ar piemēriem.",
+      "current": "Garie un īsie patskaņi ar piemēriem.",
+      "ownerStatus": "LABOT",
+      "newValue": "Laang a kuerz Vokaler mat Beispiller.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 103,
+      "language": "lb",
+      "key": "kurss.vowelsSubtitle",
+      "lvSource": "Patskaņi — garš un īss",
+      "current": "Patskaņi — garš un īss",
+      "ownerStatus": "LABOT",
+      "newValue": "Vokaler — laang a kuerz",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 104,
+      "language": "lb",
+      "key": "kurss.vowelsTitle",
+      "lvSource": "Patskaņi — garš un īss",
+      "current": "Patskaņi — garš un īss",
+      "ownerStatus": "LABOT",
+      "newValue": "Vokaler — laang a kuerz",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 105,
+      "language": "lb",
+      "key": "lists.noLearned",
+      "lvSource": "Nav iemācīto vārdu.",
+      "current": "Nav iemācīto vārdu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng geléiert Wierder.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 106,
+      "language": "lb",
+      "key": "lists.noMastered",
+      "lvSource": "Nav 100% zināmo vārdu.",
+      "current": "Nav 100% zināmo vārdu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng zu 100 % bekannte Wierder.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 107,
+      "language": "lb",
+      "key": "lists.noUnwanted",
+      "lvSource": "Nav nevajadzīgo vārdu.",
+      "current": "Nav nevajadzīgo vārdu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng net gebraucht Wierder.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 108,
+      "language": "lb",
+      "key": "menu.chooseGroup",
+      "lvSource": "Izvēlies grupu",
+      "current": "Izvēlies grupu",
+      "ownerStatus": "LABOT",
+      "newValue": "Wiel eng Grupp",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 109,
+      "language": "lb",
+      "key": "menu.mainNav",
+      "lvSource": "Galvenā izvēlne",
+      "current": "Galvenā izvēlne",
+      "ownerStatus": "LABOT",
+      "newValue": "Haaptmenü",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 110,
+      "language": "lb",
+      "key": "menu.sentences",
+      "lvSource": "Teikumi",
+      "current": "Teikumi",
+      "ownerStatus": "LABOT",
+      "newValue": "Sätz",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 111,
+      "language": "lb",
+      "key": "menu.verbs",
+      "lvSource": "Darbības vārdi",
+      "current": "Darbības vārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Verben",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 112,
+      "language": "lb",
+      "key": "modes.intense",
+      "lvSource": "Intensīvs",
+      "current": "Intensīvs",
+      "ownerStatus": "LABOT",
+      "newValue": "Intensiv",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 113,
+      "language": "lb",
+      "key": "modes.normal",
+      "lvSource": "Normāls",
+      "current": "Normāls",
+      "ownerStatus": "LABOT",
+      "newValue": "Normal",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 114,
+      "language": "lb",
+      "key": "nav.backHome",
+      "lvSource": "Atgriezties galvenajā izvēlnē",
+      "current": "Atgriezties galvenajā izvēlnē",
+      "ownerStatus": "LABOT",
+      "newValue": "Zeréck an den Haaptmenü",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 115,
+      "language": "lb",
+      "key": "nav.changeLanguage",
+      "lvSource": "Mainīt dzimto valodu",
+      "current": "Mainīt dzimto valodu",
+      "ownerStatus": "LABOT",
+      "newValue": "Mammesprooch änneren",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 116,
+      "language": "lb",
+      "key": "nav.howItWorks",
+      "lvSource": "Kā tas strādā?",
+      "current": "Kā tas strādā?",
+      "ownerStatus": "LABOT",
+      "newValue": "Wéi funktionéiert et?",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 117,
+      "language": "lb",
+      "key": "nav.quickTools",
+      "lvSource": "Ātrie rīki",
+      "current": "Ātrie rīki",
+      "ownerStatus": "LABOT",
+      "newValue": "Schnellwierkzeugen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 118,
+      "language": "lb",
+      "key": "notices.addedMastered",
+      "lvSource": "Vārds pievienots 100% zināmajiem.",
+      "current": "Vārds pievienots 100% zināmajiem.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Wuert gouf bei déi zu 100 % bekannte Wierder derbäigesat.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 119,
+      "language": "lb",
+      "key": "notices.alreadyMastered",
+      "lvSource": "Vārds jau ir 100% zināmo sarakstā.",
+      "current": "Vārds jau ir 100% zināmo sarakstā.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Wuert ass schonn an der Lëscht vun de zu 100 % bekannte Wierder.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 120,
+      "language": "lb",
+      "key": "notices.answerRevealed",
+      "lvSource": "Atbilde atklāta. Vārds paliek sesijā.",
+      "current": "Atbilde atklāta. Vārds paliek sesijā.",
+      "ownerStatus": "LABOT",
+      "newValue": "Äntwert ugewisen. D'Wuert bleift an der Sessioun.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 121,
+      "language": "lb",
+      "key": "notices.chooseNextGroup",
+      "lvSource": "Izvēlies nākamo grupu galvenajā izvēlnē.",
+      "current": "Izvēlies nākamo grupu galvenajā izvēlnē.",
+      "ownerStatus": "LABOT",
+      "newValue": "Wiel déi nächst Grupp am Haaptmenü.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 122,
+      "language": "lb",
+      "key": "notices.continueKnownReview",
+      "lvSource": "Turpinām zināmo vārdu pārskatīšanu.",
+      "current": "Turpinām zināmo vārdu pārskatīšanu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Mir fuere mat der Iwwerpréiwung vun de bekannte Wierder weider.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 123,
+      "language": "lb",
+      "key": "notices.continueLastSession",
+      "lvSource": "Turpinām pēdējās sesijas pārskatīšanu.",
+      "current": "Turpinām pēdējās sesijas pārskatīšanu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Mir fuere mat der Iwwerpréiwung vun der leschter Sessioun weider.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 124,
+      "language": "lb",
+      "key": "notices.continueTimeReview",
+      "lvSource": "Turpinām: {label}.",
+      "current": "Turpinām: {label}.",
+      "ownerStatus": "LABOT",
+      "newValue": "Mir fuere weider: {label}.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 125,
+      "language": "lb",
+      "key": "notices.enterAnswerFirst",
+      "lvSource": "Vispirms ievadi pareizu atbildi un nospied Pārbaudīt.",
+      "current": "Vispirms ievadi pareizu atbildi un nospied Pārbaudīt.",
+      "ownerStatus": "LABOT",
+      "newValue": "Gëff fir d'éischt déi richteg Äntwert an a klick op Iwwerpréiwen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 126,
+      "language": "lb",
+      "key": "notices.errorLevelReduced",
+      "lvSource": "Kļūdu pakāpe samazināta.",
+      "current": "Kļūdu pakāpe samazināta.",
+      "ownerStatus": "LABOT",
+      "newValue": "De Feelergrad gouf reduzéiert.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 127,
+      "language": "lb",
+      "key": "notices.knownReviewDone",
+      "lvSource": "Zināmo vārdu pārskatīšana pabeigta.",
+      "current": "Zināmo vārdu pārskatīšana pabeigta.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Iwwerpréiwung vun de bekannte Wierder ass ofgeschloss.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 128,
+      "language": "lb",
+      "key": "notices.lastSessionDone",
+      "lvSource": "Pēdējās sesijas pārskatīšana pabeigta.",
+      "current": "Pēdējās sesijas pārskatīšana pabeigta.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Iwwerpréiwung vun der leschter Sessioun ass ofgeschloss.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 129,
+      "language": "lb",
+      "key": "notices.leftForReview",
+      "lvSource": "Atstāts pārskatīšanai.",
+      "current": "Atstāts pārskatīšanai.",
+      "ownerStatus": "LABOT",
+      "newValue": "Fir d'Iwwerpréiwung gelooss.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 130,
+      "language": "lb",
+      "key": "notices.leftInProblems",
+      "lvSource": "Atstāts problemātiskajā grupā.",
+      "current": "Atstāts problemātiskajā grupā.",
+      "ownerStatus": "LABOT",
+      "newValue": "An der Grupp vun de Problemwierder gelooss.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 131,
+      "language": "lb",
+      "key": "notices.loadFailed",
+      "lvSource": "Neizdevās ielādēt kartītes. Pārlādē lapu vai pārbaudi, vai visi datu faili ir pieejami.",
+      "current": "Neizdevās ielādēt kartītes. Pārlādē lapu vai pārbaudi, vai visi datu faili ir pieejami.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Kaarte konnten net geluede ginn. Luet d'Säit nei oder kontrolléier, ob all Dateie verfügbar sinn.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 132,
+      "language": "lb",
+      "key": "notices.markedKnown",
+      "lvSource": "Atzīmēts kā zināms.",
+      "current": "Atzīmēts kā zināms.",
+      "ownerStatus": "LABOT",
+      "newValue": "Als bekannt markéiert.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 133,
+      "language": "lb",
+      "key": "notices.markedUnwanted",
+      "lvSource": "Vārds atzīmēts kā nevajadzīgs.",
+      "current": "Vārds atzīmēts kā nevajadzīgs.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Wuert gouf als net gebraucht markéiert.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 134,
+      "language": "lb",
+      "key": "notices.movedToKnown",
+      "lvSource": "Vārds pārvietots uz Zināmi!",
+      "current": "Vārds pārvietots uz Zināmi!",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Wuert gouf bei Bekannt geréckelt!",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 135,
+      "language": "lb",
+      "key": "notices.noCard",
+      "lvSource": "Nav kartītes, ko atzīmēt.",
+      "current": "Nav kartītes, ko atzīmēt.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng Kaart fir ze markéieren.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 136,
+      "language": "lb",
+      "key": "notices.noCardForMastered",
+      "lvSource": "Nav kartītes, ko pievienot 100% zināmajiem.",
+      "current": "Nav kartītes, ko pievienot 100% zināmajiem.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng Kaart fir bei déi zu 100 % bekannte Wierder derbäizesetzen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 137,
+      "language": "lb",
+      "key": "notices.noCardForUnwanted",
+      "lvSource": "Nav kartītes, ko atzīmēt kā nevajadzīgu.",
+      "current": "Nav kartītes, ko atzīmēt kā nevajadzīgu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng Kaart fir als net gebraucht ze markéieren.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 138,
+      "language": "lb",
+      "key": "notices.noCardToMark",
+      "lvSource": "Nav kartīšu, ko atzīmēt.",
+      "current": "Nav kartīšu, ko atzīmēt.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng Kaarte fir ze markéieren.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 139,
+      "language": "lb",
+      "key": "notices.noCompletedSession",
+      "lvSource": "Nav pabeigtas sesijas, ko pārskatīt.",
+      "current": "Nav pabeigtas sesijas, ko pārskatīt.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng ofgeschloss Sessioun fir z'iwwerpréiwen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 140,
+      "language": "lb",
+      "key": "notices.noProblems",
+      "lvSource": "Nav problemātisko vārdu.",
+      "current": "Nav problemātisko vārdu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng Problemwierder.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 141,
+      "language": "lb",
+      "key": "notices.noVerbToMark",
+      "lvSource": "Nav darbības vārdu, ko atzīmēt.",
+      "current": "Nav darbības vārdu, ko atzīmēt.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt kee Verb fir ze markéieren.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 142,
+      "language": "lb",
+      "key": "notices.problemModeOff",
+      "lvSource": "Problemātisko vārdu režīms izslēgts.",
+      "current": "Problemātisko vārdu režīms izslēgts.",
+      "ownerStatus": "LABOT",
+      "newValue": "De Modus fir Problemwierder ass ausgeschalt.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 143,
+      "language": "lb",
+      "key": "notices.problemsFinishedMoved",
+      "lvSource": "Problemātiskie vārdi izmācīti. Vārds pārvietots uz Zināmi!",
+      "current": "Problemātiskie vārdi izmācīti. Vārds pārvietots uz Zināmi!",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Problemwierder si geléiert. D'Wuert gouf bei Bekannt geréckelt!",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 144,
+      "language": "lb",
+      "key": "notices.returnedToStudy",
+      "lvSource": "Atgriezts mācīšanās režīmā.",
+      "current": "Atgriezts mācīšanās režīmā.",
+      "ownerStatus": "LABOT",
+      "newValue": "Zeréck an de Léiermodus gesat.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 145,
+      "language": "lb",
+      "key": "notices.sessionArchived",
+      "lvSource": "Pēdējā sesija atzīmēta kā iemācīta.",
+      "current": "Pēdējā sesija atzīmēta kā iemācīta.",
+      "ownerStatus": "LABOT",
+      "newValue": "Déi lescht Sessioun gouf als geléiert markéiert.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 146,
+      "language": "lb",
+      "key": "notices.sessionArchivedNext",
+      "lvSource": "Pēdējā sesija atzīmēta kā iemācīta. Ielādēta nākamā sesija.",
+      "current": "Pēdējā sesija atzīmēta kā iemācīta. Ielādēta nākamā sesija.",
+      "ownerStatus": "LABOT",
+      "newValue": "Déi lescht Sessioun gouf als geléiert markéiert. Déi nächst Sessioun gouf gelueden.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 147,
+      "language": "lb",
+      "key": "notices.sessionMovedToKnown",
+      "lvSource": "Sesijas vārdi pārvietoti uz zināmajiem.",
+      "current": "Sesijas vārdi pārvietoti uz zināmajiem.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Wierder aus der Sessioun goufen bei déi bekannt Wierder geréckelt.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 148,
+      "language": "lb",
+      "key": "notices.sessionReloaded",
+      "lvSource": "Sesija ielādēta no jauna ar jauktu secību.",
+      "current": "Sesija ielādēta no jauna ar jauktu secību.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Sessioun gouf an enger gemëschter Reiefolleg nei gelueden.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 149,
+      "language": "lb",
+      "key": "notices.showingKnown",
+      "lvSource": "Rādām zināmās kartītes.",
+      "current": "Rādām zināmās kartītes.",
+      "ownerStatus": "LABOT",
+      "newValue": "Déi bekannt Kaarte ginn ugewisen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 150,
+      "language": "lb",
+      "key": "notices.showingLastSession",
+      "lvSource": "Rādām pēdējo pabeigto sesiju.",
+      "current": "Rādām pēdējo pabeigto sesiju.",
+      "ownerStatus": "LABOT",
+      "newValue": "Déi lescht ofgeschloss Sessioun gëtt ugewisen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 151,
+      "language": "lb",
+      "key": "notices.showingProblems",
+      "lvSource": "Rādām problemātiskos vārdus.",
+      "current": "Rādām problemātiskos vārdus.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Problemwierder ginn ugewisen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 152,
+      "language": "lb",
+      "key": "notices.showingTimeReview",
+      "lvSource": "Rādām: {label}.",
+      "current": "Rādām: {label}.",
+      "ownerStatus": "LABOT",
+      "newValue": "Ugewisen: {label}.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 153,
+      "language": "lb",
+      "key": "notices.spellingOff",
+      "lvSource": "Pareizrakstības režīms izslēgts.",
+      "current": "Pareizrakstības režīms izslēgts.",
+      "ownerStatus": "LABOT",
+      "newValue": "De Rechtschreiwungsmodus ass ausgeschalt.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 154,
+      "language": "lb",
+      "key": "notices.spellingOn",
+      "lvSource": "Pareizrakstības režīms ieslēgts.",
+      "current": "Pareizrakstības režīms ieslēgts.",
+      "ownerStatus": "LABOT",
+      "newValue": "De Rechtschreiwungsmodus ass ageschalt.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 155,
+      "language": "lb",
+      "key": "notices.verbMarkedKnown",
+      "lvSource": "Darbības vārds atzīmēts kā zināms.",
+      "current": "Darbības vārds atzīmēts kā zināms.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Verb gouf als bekannt markéiert.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 156,
+      "language": "lb",
+      "key": "notices.verbShuffleOff",
+      "lvSource": "Darbības vārdu jaukšana izslēgta.",
+      "current": "Darbības vārdu jaukšana izslēgta.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Mësche vun de Verben ass ausgeschalt.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 157,
+      "language": "lb",
+      "key": "notices.verbShuffleOn",
+      "lvSource": "Darbības vārdu jaukšana ieslēgta.",
+      "current": "Darbības vārdu jaukšana ieslēgta.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Mësche vun de Verben ass ageschalt.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 158,
+      "language": "lb",
+      "key": "plural.wordOne",
+      "lvSource": "vārds",
+      "current": "vārds",
+      "ownerStatus": "LABOT",
+      "newValue": "Wuert",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 159,
+      "language": "lb",
+      "key": "plural.wordsFew",
+      "lvSource": "vārdi",
+      "current": "vārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Wierder",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 160,
+      "language": "lb",
+      "key": "plural.wordsMany",
+      "lvSource": "vārdi",
+      "current": "vārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Wierder",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 161,
+      "language": "lb",
+      "key": "progress.verbsHeading",
+      "lvSource": "Darbības vārdi",
+      "current": "Darbības vārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Verben",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 162,
+      "language": "lb",
+      "key": "restore.ariaLabel",
+      "lvSource": "Apstiprināt visu progressa dzēšanu",
+      "current": "Apstiprināt visu progressa dzēšanu",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Läsche vum ganze Fortschrëtt bestätegen",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 163,
+      "language": "lb",
+      "key": "restore.warning",
+      "lvSource": "Uzmanību! Viss iemācītais progress un vārdu vēsture tiks pilnībā nodzēsta pa nullēm.",
+      "current": "Uzmanību! Viss iemācītais progress un vārdu vēsture tiks pilnībā nodzēsta pa nullēm.",
+      "ownerStatus": "LABOT",
+      "newValue": "Opgepasst! De ganze Léierfortschrëtt an d'Geschicht vun de Wierder ginn definitiv geläscht an op null zeréckgesat.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 164,
+      "language": "lb",
+      "key": "review.knownReviewDone",
+      "lvSource": "Zināmo vārdu pārskatīšana pabeigta.",
+      "current": "Zināmo vārdu pārskatīšana pabeigta.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Iwwerpréiwung vun de bekannte Wierder ass ofgeschloss.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 165,
+      "language": "lb",
+      "key": "review.monthCount",
+      "lvSource": "Šomēnes iemācīti: {count} {words}",
+      "current": "Šomēnes iemācīti: {count} {words}",
+      "ownerStatus": "LABOT",
+      "newValue": "Dëse Mount geléiert: {count} {words}",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 166,
+      "language": "lb",
+      "key": "review.monthDone",
+      "lvSource": "Mēneša pārskats pabeigts.",
+      "current": "Mēneša pārskats pabeigts.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Mountsiwwersiicht ass ofgeschloss.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 167,
+      "language": "lb",
+      "key": "review.monthEmpty",
+      "lvSource": "Nav iemācītu vārdu mēneša pārskatam.",
+      "current": "Nav iemācītu vārdu mēneša pārskatam.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng geléiert Wierder fir d'Mountsiwwersiicht.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 168,
+      "language": "lb",
+      "key": "review.monthLabel",
+      "lvSource": "Mēneša pārskats",
+      "current": "Mēneša pārskats",
+      "ownerStatus": "LABOT",
+      "newValue": "Mountsiwwersiicht",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 169,
+      "language": "lb",
+      "key": "review.weekCount",
+      "lvSource": "Šonedēļ iemācīti: {count} {words}",
+      "current": "Šonedēļ iemācīti: {count} {words}",
+      "ownerStatus": "LABOT",
+      "newValue": "Dës Woch geléiert: {count} {words}",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 170,
+      "language": "lb",
+      "key": "review.weekDone",
+      "lvSource": "Nedēļas pārskats pabeigts.",
+      "current": "Nedēļas pārskats pabeigts.",
+      "ownerStatus": "LABOT",
+      "newValue": "D'Wocheniwwersiicht ass ofgeschloss.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 171,
+      "language": "lb",
+      "key": "review.weekEmpty",
+      "lvSource": "Nav iemācītu vārdu nedēļas pārskatam.",
+      "current": "Nav iemācītu vārdu nedēļas pārskatam.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng geléiert Wierder fir d'Wocheniwwersiicht.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 172,
+      "language": "lb",
+      "key": "review.weekLabel",
+      "lvSource": "Nedēļas pārskats",
+      "current": "Nedēļas pārskats",
+      "ownerStatus": "LABOT",
+      "newValue": "Wocheniwwersiicht",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 173,
+      "language": "lb",
+      "key": "spelling.missingChar",
+      "lvSource": "trūkst: {char}",
+      "current": "trūkst: {char}",
+      "ownerStatus": "LABOT",
+      "newValue": "feelt: {char}",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 174,
+      "language": "lb",
+      "key": "spelling.noVerbTask",
+      "lvSource": "Šim darbības vārdam nav pareizrakstības uzdevuma.",
+      "current": "Šim darbības vārdam nav pareizrakstības uzdevuma.",
+      "ownerStatus": "LABOT",
+      "newValue": "Et gëtt keng Rechtschreiwungsübung fir dëst Verb.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 175,
+      "language": "lb",
+      "key": "study.hints.tapToOpenExplanation",
+      "lvSource": "Klikšķini uz kartītes, lai atvērtu skaidrojumu.",
+      "current": "Klikšķini uz kartītes, lai atvērtu skaidrojumu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Kaart, fir d'Erklärung opzemaachen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 176,
+      "language": "lb",
+      "key": "study.hints.tapToRevealGerman",
+      "lvSource": "Klikšķini uz kartītes, lai redzētu vācu vārdu.",
+      "current": "Klikšķini uz kartītes, lai redzētu vācu vārdu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Kaart, fir dat däitscht Wuert ze gesinn.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 177,
+      "language": "lb",
+      "key": "study.minimal.noteLabel",
+      "lvSource": "Norāde:",
+      "current": "Norāde:",
+      "ownerStatus": "LABOT",
+      "newValue": "Hiweis:",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 178,
+      "language": "lb",
+      "key": "study.sections.comparison",
+      "lvSource": "Salīdzinājums",
+      "current": "Salīdzinājums",
+      "ownerStatus": "LABOT",
+      "newValue": "Verglach",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 179,
+      "language": "lb",
+      "key": "study.sections.comparisonBadge",
+      "lvSource": "SALĪDZINĀJUMA KARTĪTE",
+      "current": "SALĪDZINĀJUMA KARTĪTE",
+      "ownerStatus": "LABOT",
+      "newValue": "VERGLÄICHSKAART",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 180,
+      "language": "lb",
+      "key": "study.sections.comparisonFocus",
+      "lvSource": "Svarīgs salīdzinājums",
+      "current": "Svarīgs salīdzinājums",
+      "ownerStatus": "LABOT",
+      "newValue": "Wichtege Verglach",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 181,
+      "language": "lb",
+      "key": "study.sections.examples",
+      "lvSource": "Piemēri",
+      "current": "Piemēri",
+      "ownerStatus": "LABOT",
+      "newValue": "Beispiller",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 182,
+      "language": "lb",
+      "key": "study.sections.important",
+      "lvSource": "Svarīgi",
+      "current": "Svarīgi",
+      "ownerStatus": "LABOT",
+      "newValue": "Wichteg",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 183,
+      "language": "lb",
+      "key": "study.sections.mainIdea",
+      "lvSource": "Galvenā doma",
+      "current": "Galvenā doma",
+      "ownerStatus": "LABOT",
+      "newValue": "Haaptiddi",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 184,
+      "language": "lb",
+      "key": "study.sections.mistakes",
+      "lvSource": "Tipiskās kļūdas",
+      "current": "Tipiskās kļūdas",
+      "ownerStatus": "LABOT",
+      "newValue": "Typesch Feeler",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 185,
+      "language": "lb",
+      "key": "study.table.example",
+      "lvSource": "Piemērs",
+      "current": "Piemērs",
+      "ownerStatus": "LABOT",
+      "newValue": "Beispill",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 186,
+      "language": "lb",
+      "key": "study.table.mainMeaning",
+      "lvSource": "Galvenā nozīme",
+      "current": "Galvenā nozīme",
+      "ownerStatus": "LABOT",
+      "newValue": "Haaptbedeitung",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 187,
+      "language": "lb",
+      "key": "study.table.meaning",
+      "lvSource": "Nozīme",
+      "current": "Nozīme",
+      "ownerStatus": "LABOT",
+      "newValue": "Bedeitung",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 188,
+      "language": "lb",
+      "key": "study.table.word",
+      "lvSource": "Vārds",
+      "current": "Vārds",
+      "ownerStatus": "LABOT",
+      "newValue": "Wuert",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 189,
+      "language": "lb",
+      "key": "tools.problemFull",
+      "lvSource": "Problemātiskie vārdi",
+      "current": "Problemātiskie vārdi",
+      "ownerStatus": "LABOT",
+      "newValue": "Problemwierder",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 190,
+      "language": "lb",
+      "key": "tools.problemWithCount",
+      "lvSource": "Problemātiskie vārdi ({count})",
+      "current": "Problemātiskie vārdi ({count})",
+      "ownerStatus": "LABOT",
+      "newValue": "Problemwierder ({count})",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 191,
+      "language": "lb",
+      "key": "tools.spellingFull",
+      "lvSource": "Pareizrakstība",
+      "current": "Pareizrakstība",
+      "ownerStatus": "LABOT",
+      "newValue": "Rechtschreiwung",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 192,
+      "language": "lb",
+      "key": "verb.guessInfinitive",
+      "lvSource": "Uzmini infinitīvu",
+      "current": "Uzmini infinitīvu",
+      "ownerStatus": "LABOT",
+      "newValue": "Erréit den Infinitiv",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 193,
+      "language": "lb",
+      "key": "verb.guessPastParticiple",
+      "lvSource": "Uzmini pagātnes divdabi",
+      "current": "Uzmini pagātnes divdabi",
+      "ownerStatus": "LABOT",
+      "newValue": "Erréit de Partizip II",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 194,
+      "language": "lb",
+      "key": "verb.hintTapAnswer",
+      "lvSource": "Klikšķini uz kartītes, lai redzētu atbildi.",
+      "current": "Klikšķini uz kartītes, lai redzētu atbildi.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Kaart, fir d'Äntwert ze gesinn.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 195,
+      "language": "lb",
+      "key": "verb.hintTapSwitch",
+      "lvSource": "Klikšķini uz kartītes, lai pārslēgtu formu.",
+      "current": "Klikšķini uz kartītes, lai pārslēgtu formu.",
+      "ownerStatus": "LABOT",
+      "newValue": "Klick op d'Kaart, fir d'Form ze wiesselen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 196,
+      "language": "lb",
+      "key": "verb.imperfectIndicative",
+      "lvSource": "Imperfekts - Indikatīvs",
+      "current": "Imperfekts - Indikatīvs",
+      "ownerStatus": "LABOT",
+      "newValue": "Imperfekt – Indikativ",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 197,
+      "language": "lb",
+      "key": "verb.imperfectSubjunctive",
+      "lvSource": "Imperfekts - Konjunktīvs",
+      "current": "Imperfekts - Konjunktīvs",
+      "ownerStatus": "LABOT",
+      "newValue": "Imperfekt – Konjunktiv",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 198,
+      "language": "lb",
+      "key": "verb.infinitive",
+      "lvSource": "Infinitīvs",
+      "current": "Infinitīvs",
+      "ownerStatus": "LABOT",
+      "newValue": "Infinitiv",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 199,
+      "language": "lb",
+      "key": "verb.noShuffleForms",
+      "lvSource": "Šim darbības vārdam nav pietiekami daudz formu jaukšanai.",
+      "current": "Šim darbības vārdam nav pietiekami daudz formu jaukšanai.",
+      "ownerStatus": "LABOT",
+      "newValue": "Dëst Verb huet net genuch Forme fir ze mëschen.",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 200,
+      "language": "lb",
+      "key": "verb.pastParticiple",
+      "lvSource": "Pagātnes divdabis",
+      "current": "Pagātnes divdabis",
+      "ownerStatus": "LABOT",
+      "newValue": "Partizip II",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 201,
+      "language": "lb",
+      "key": "verb.writeInfinitive",
+      "lvSource": "Uzraksti infinitīvu",
+      "current": "Uzraksti infinitīvu",
+      "ownerStatus": "LABOT",
+      "newValue": "Schreif den Infinitiv",
+      "reason": "REAL_UNTRANSLATED"
+    },
+    {
+      "sequence": 202,
+      "language": "lb",
+      "key": "verb.writePastParticiple",
+      "lvSource": "Uzraksti pagātnes divdabi",
+      "current": "Uzraksti pagātnes divdabi",
+      "ownerStatus": "LABOT",
+      "newValue": "Schreif de Partizip II",
+      "reason": "REAL_UNTRANSLATED"
+    }
+  ]
+}
