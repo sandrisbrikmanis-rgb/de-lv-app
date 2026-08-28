@@ -1,7 +1,7 @@
 {
-  "status": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
-  "verdict": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
-  "generatedAt": "2026-08-28T18:10:14.763Z",
+  "status": "PHASE_0_INCOMPLETE",
+  "verdict": "MERGE_BLOCKED — PHASE_0_INCOMPLETE",
+  "generatedAt": "2026-08-28T18:15:11.169Z",
   "masterVersion": "1.12",
   "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
   "gates": {
@@ -59,49 +59,268 @@
       "note": "Only g1-training/et may skip round-trip (EXPECTED_NOT_APPLICABLE)"
     },
     "F0_4_discovery_orchestrator": {
-      "pass": true,
+      "pass": false,
       "note": "run-content-discovery.js with collectors for full scope",
       "expectedScopes": 320,
-      "executedScopes": 320
+      "executedScopes": 0
     },
     "F0_5_baseline_header": {
-      "pass": true,
-      "baselineVerdict": "PASS",
+      "pass": false,
+      "baselineVerdict": "BLOCKED",
       "fetchStatus": "PASS",
       "fetchError": null,
       "revParseStatus": "PASS",
       "revParseError": null,
       "deDiffBaseline": "93c372824359b00bd73d37ae3193bdf587118e75...HEAD",
       "deChanges": [],
-      "deDiffError": null
+      "deDiffError": null,
+      "unmergedClosureCount": 90,
+      "unmergedClosureCandidates": [
+        "origin/codex/es-kurss-pronunciation-owner-repair",
+        "origin/cursor/audit-kurss-content-5a8d",
+        "origin/cursor/bs-a2-final-audit-c1b5",
+        "origin/cursor/bs-a2-full-audit-c1b5",
+        "origin/cursor/bs-c2-full-linguistic-audit-c1b5",
+        "origin/cursor/bs-c2-linguistic-audit-only-c1b5",
+        "origin/cursor/bs-c2-targeted-regression-audit-c1b5",
+        "origin/cursor/cs-a1-critical-final-repair-6ea4",
+        "origin/cursor/cs-a1-final-702-audit-on-main-6ea4",
+        "origin/cursor/cs-a1-final-audit-on-main-6ea4",
+        "origin/cursor/cs-a1-final-closure-audit-on-main-6ea4",
+        "origin/cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
+        "origin/cursor/cs-a1-final-main-repair-batch101-150-6ea4",
+        "origin/cursor/cs-a1-final-main-repair-batch51-100-6ea4",
+        "origin/cursor/cs-a1-final-missing-study-parity-repair-6ea4",
+        "origin/cursor/cs-a1-final-post-repair-audit-6ea4",
+        "origin/cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
+        "origin/cursor/cs-a1-full-review-repair-block01-6ea4",
+        "origin/cursor/cs-a1-full-review-repair-block02-6ea4",
+        "origin/cursor/cs-a1-full-review-repair-block03-6ea4"
+      ]
     },
     "F0_6_deterministic_collectors": {
-      "pass": true,
+      "pass": false,
       "note": "structural parity executed for every group × dataset × lang scope",
       "structuralCoverage": {
-        "pass": true,
+        "pass": false,
         "expectedCount": 320,
-        "executedCount": 320,
-        "missing": [],
-        "missingCount": 0,
-        "wrongCollector": [],
-        "wrongCollectorCount": 0,
-        "expectedNotApplicable": [
+        "executedCount": 0,
+        "missing": [
           {
-            "key": "g1/training/lv",
-            "group": "g1",
-            "dataset": "training",
+            "group": "g2",
+            "dataset": "a1",
             "lang": "lv",
-            "note": "lv: no courseTrainingCards.js (LV embedded / ET absent)"
+            "key": "g2/a1/lv",
+            "structuralCollector": "g2"
           },
           {
-            "key": "g1/training/et",
-            "group": "g1",
-            "dataset": "training",
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "lt",
+            "key": "g2/a1/lt",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "ru",
+            "key": "g2/a1/ru",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "pl",
+            "key": "g2/a1/pl",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "uk",
+            "key": "g2/a1/uk",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
             "lang": "et",
-            "note": "et: no courseTrainingCards.js (LV embedded / ET absent)"
+            "key": "g2/a1/et",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "en",
+            "key": "g2/a1/en",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "ro",
+            "key": "g2/a1/ro",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "bg",
+            "key": "g2/a1/bg",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "tr",
+            "key": "g2/a1/tr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "gr",
+            "key": "g2/a1/gr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sq",
+            "key": "g2/a1/sq",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "mk",
+            "key": "g2/a1/mk",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sl",
+            "key": "g2/a1/sl",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "bs",
+            "key": "g2/a1/bs",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sr",
+            "key": "g2/a1/sr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "hr",
+            "key": "g2/a1/hr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sk",
+            "key": "g2/a1/sk",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "cs",
+            "key": "g2/a1/cs",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "fi",
+            "key": "g2/a1/fi",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "sv",
+            "key": "g2/a1/sv",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "nb",
+            "key": "g2/a1/nb",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "nn",
+            "key": "g2/a1/nn",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "da",
+            "key": "g2/a1/da",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "nl",
+            "key": "g2/a1/nl",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "lb",
+            "key": "g2/a1/lb",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "fr",
+            "key": "g2/a1/fr",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "it",
+            "key": "g2/a1/it",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "es",
+            "key": "g2/a1/es",
+            "structuralCollector": "g2"
+          },
+          {
+            "group": "g2",
+            "dataset": "a1",
+            "lang": "pt",
+            "key": "g2/a1/pt",
+            "structuralCollector": "g2"
           }
-        ]
+        ],
+        "missingCount": 320,
+        "wrongCollector": [],
+        "wrongCollectorCount": 0,
+        "expectedNotApplicable": []
       }
     },
     "F0_7_production_diff_zero": {
@@ -119,7 +338,7 @@
       "revParseStatus": "PASS"
     },
     "F0_8_all_groups_coverage": {
-      "pass": true,
+      "pass": false,
       "groups": [
         "g1-sentences",
         "g1-verbs",
@@ -140,7 +359,7 @@
       "roundTripFailed": 0,
       "roundTripSkipped": 1,
       "roundTripUnexpectedSkips": 0,
-      "structuralMissingScopes": 0,
+      "structuralMissingScopes": 320,
       "note": "Full group coverage with baseline-clean production paths"
     }
   },
@@ -156,5 +375,5 @@
       "skipped": true
     }
   ],
-  "note": "Branch-level F0 gates PASS. Awaiting OWNER review / merge approval. MAIN verification (A7) still required before Phase 1."
+  "note": "One or more F0 gates failed. Merge and Phase 1 are not allowed."
 }

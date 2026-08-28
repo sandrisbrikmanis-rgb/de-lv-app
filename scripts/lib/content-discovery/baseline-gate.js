@@ -60,23 +60,24 @@ function runBaselineGate() {
 
   const unmergedResult =
     origin.fetchStatus === "PASS" ? git("git branch -r --no-merged origin/main") : { ok: false, stdout: "" };
-  const unmerged = unmergedResult.ok
-    ? unmergedResult.stdout.split("\n").filter((b) => {
-        const name = b.trim();
-        return name && /closure|repair|audit/i.test(name);
-      })
+  const unmergedClosureCandidates = unmergedResult.ok
+    ? unmergedResult.stdout
+        .split("\n")
+        .map((b) => b.trim())
+        .filter((name) => name && /closure|repair|audit/i.test(name))
     : [];
+
   if (!unmergedResult.ok && origin.fetchStatus === "PASS") {
     blockers.push({
       code: "BLOCKED_GIT_UNMERGED_FAILED",
       message: unmergedResult.stderr || unmergedResult.error || "git branch --no-merged failed",
-      severity: "WARNING",
     });
-  } else if (unmerged.length > 0) {
+  } else if (unmergedClosureCandidates.length > 0) {
     blockers.push({
       code: "BLOCKED_UNMERGED_CLOSURE_CANDIDATES",
-      message: `Remote branches not merged to main (sample): ${unmerged.slice(0, 5).join(", ")}`,
-      severity: "WARNING",
+      message: `Remote closure/repair/audit branches not merged to origin/main: ${unmergedClosureCandidates.length} found`,
+      branches: unmergedClosureCandidates.slice(0, 20),
+      count: unmergedClosureCandidates.length,
     });
   }
 
@@ -93,8 +94,10 @@ function runBaselineGate() {
     deChanges: deDiff,
     deDiffBaseline: originMainSha ? `${originMainSha}...HEAD` : null,
     deDiffError: deDiffResult.error || null,
+    unmergedClosureCandidates,
+    unmergedClosureCount: unmergedClosureCandidates.length,
     datasetBlobs: {},
-    verdict: blockers.some((b) => b.severity !== "WARNING") ? "BLOCKED" : "PASS",
+    verdict: blockers.length > 0 ? "BLOCKED" : "PASS",
     blockers,
   };
 

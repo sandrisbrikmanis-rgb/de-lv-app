@@ -119,7 +119,8 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
           discovery?.baseline?.fetchStatus === "PASS" &&
           discovery?.baseline?.revParseStatus === "PASS" &&
           !discovery?.baseline?.deDiffError &&
-          Boolean(discovery?.originMainSha),
+          Boolean(discovery?.originMainSha) &&
+          (discovery?.baseline?.unmergedClosureCount ?? 0) === 0,
         baselineVerdict: discovery?.baselineVerdict,
         fetchStatus: discovery?.baseline?.fetchStatus || null,
         fetchError: discovery?.baseline?.fetchError || null,
@@ -128,6 +129,8 @@ function evaluateExitCriteria({ roundTrips, discovery, productionDiffResult, bri
         deDiffBaseline: discovery?.baseline?.deDiffBaseline,
         deChanges: discovery?.baseline?.deChanges || [],
         deDiffError: discovery?.baseline?.deDiffError || null,
+        unmergedClosureCount: discovery?.baseline?.unmergedClosureCount ?? 0,
+        unmergedClosureCandidates: (discovery?.baseline?.unmergedClosureCandidates || []).slice(0, 20),
       },
       F0_6_deterministic_collectors: {
         pass: structuralCoverage.pass,
@@ -213,6 +216,7 @@ function main() {
     console.log(`Unexpected skips: ${exitMatrix.gates.F0_3_roundtrip.unexpectedSkips.length}`);
   }
   console.log(`F0-6 structural scopes: ${exitMatrix.gates.F0_6_deterministic_collectors.pass ? "PASS" : "FAIL"} (${exitMatrix.gates.F0_6_deterministic_collectors.structuralCoverage.executedCount}/${exitMatrix.gates.F0_6_deterministic_collectors.structuralCoverage.expectedCount})`);
+  console.log(`F0-5 baseline: ${exitMatrix.gates.F0_5_baseline_header.pass ? "PASS" : "FAIL"} (unmergedClosure=${exitMatrix.gates.F0_5_baseline_header.unmergedClosureCount})`);
   console.log(`Production diff (${exitMatrix.gates.F0_7_production_diff_zero.baseline}): ${exitMatrix.gates.F0_7_production_diff_zero.pass ? "CLEAN" : exitMatrix.gates.F0_7_production_diff_zero.changedCount + " files"}`);
   console.log(`Discovery: ${outJson}`);
   console.log(`Exit matrix: ${outExit}`);
