@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "module": "unmerged-closure-d1",
+  "decidedBy": "OWNER",
+  "description": "Per-branch OWNER decisions for D1 unmerged closure gate. Each unresolved candidate in reports/unmerged-closure-classification-READONLY.json requires one entry here before F0-5 can PASS.",
+  "allowedResolvedCategories": [
+    "INTEGRATED_HISTORICAL",
+    "CLOSED_SUPERSEDED",
+    "ACTIVE_UNMERGED_CLOSURE",
+    "DOCUMENTED_EXCEPTION"
+  ],
+  "decisions": []
+}

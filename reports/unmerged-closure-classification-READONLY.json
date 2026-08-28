@@ -1,9 +1,15 @@
 {
   "ok": true,
-  "generatedAt": "2026-08-28T18:23:22.558Z",
+  "generatedAt": "2026-08-28T18:29:38.698Z",
   "mode": "READ_ONLY",
   "ghPrLookupError": null,
   "unmergedClosureCountRaw": 90,
+  "autoSummary": {
+    "INTEGRATED_HISTORICAL": 37,
+    "CLOSED_SUPERSEDED": 0,
+    "ACTIVE_UNMERGED_CLOSURE": 2,
+    "NEEDS_OWNER_REVIEW": 51
+  },
   "summary": {
     "INTEGRATED_HISTORICAL": 37,
     "CLOSED_SUPERSEDED": 0,
@@ -27,9 +33,12 @@
         "number": 528,
         "state": "OPEN",
         "isDraft": false,
+        "mergeable": "CONFLICTING",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528",
         "title": "CS–DE Kurss Členy: full audit + OWNER review complete (#001–#315)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
     },
     {
       "ref": "origin/cursor/en-b1-critical-repair-6850",
@@ -45,9 +54,12 @@
         "number": 343,
         "state": "OPEN",
         "isDraft": false,
+        "mergeable": "CONFLICTING",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343",
         "title": "fix(en-b1): CRITICAL cycle closed — ready for HIGH owner review"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
     }
   ],
   "needsOwnerReviewCandidates": [
@@ -67,7 +79,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/123",
         "title": "Audit Kurss section: orthography, LV style, and translation fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-critical-final-repair-6ea4",
@@ -85,7 +99,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/423",
         "title": "CS A1 critical final repair: 33/33 OWNER fields"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
@@ -103,7 +119,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/456",
         "title": "CS-DE A1 final repair block 04 (last 10 fields, 160/160 reconciliation)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-main-repair-batch101-150-6ea4",
@@ -121,7 +139,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/455",
         "title": "CS-DE A1 final main repair batch 101-150 (50 fields)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-main-repair-batch51-100-6ea4",
@@ -139,7 +159,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/454",
         "title": "CS-DE A1 final main repair batch 51-100 (50 fields)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-missing-study-parity-repair-6ea4",
@@ -157,7 +179,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/458",
         "title": "CS-DE A1 MISSING_STUDY_PARITY repair (14/14)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-post-repair-audit-6ea4",
@@ -175,7 +199,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/452",
         "title": "CS–DE A1 final post-repair full audit (702/702, NOT CLOSED)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
@@ -193,7 +219,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/459",
         "title": "CS-DE A1 study parity sectionAccents micro-repair (10/10)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block01-6ea4",
@@ -211,7 +239,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/438",
         "title": "CS–DE A1 full review repair block 01: 20/20 csText fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block02-6ea4",
@@ -229,7 +259,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/439",
         "title": "CS–DE A1 full review repair block 02: 16/17 csText fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block03-6ea4",
@@ -247,7 +279,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/440",
         "title": "CS–DE A1 full review repair block 03 (findings 101–150)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block04-6ea4",
@@ -265,7 +299,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/441",
         "title": "CS–DE A1 full review repair block 04 (findings 151–200)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block05-6ea4",
@@ -283,7 +319,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/442",
         "title": "CS–DE A1 full review repair block 05 (findings 201–250)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block06-6ea4",
@@ -301,7 +339,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/443",
         "title": "CS–DE A1 full review repair block 06 (findings 251–300)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block07-6ea4",
@@ -319,7 +359,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/444",
         "title": "CS–DE A1 full review repair block 07 (findings 301–350)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block08-6ea4",
@@ -337,7 +379,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/445",
         "title": "CS–DE A1 full review repair block 08 (findings 351–400)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block09-6ea4",
@@ -355,7 +399,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/446",
         "title": "CS–DE A1 full review repair block 09 (findings 401–450)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block10-6ea4",
@@ -373,7 +419,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/447",
         "title": "CS–DE A1 Full Review Repair — Block 10 (Findings 451–500)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block11-6ea4",
@@ -391,7 +439,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/448",
         "title": "CS–DE A1 Full Review Repair — Block 11 (Findings 501–550)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block12-6ea4",
@@ -409,7 +459,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/449",
         "title": "CS–DE A1 Full Review Repair — Block 12 (Findings 551–600)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-final-closure-check-6ea4",
@@ -427,7 +479,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/436",
         "title": "CS–DE A1 HIGH final closure check: CLOSED"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-final-micro-repair-02-6ea4",
@@ -445,7 +499,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/435",
         "title": "CS–DE A1 HIGH final micro-repair #2: apply 2/2 OWNER fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-post-repair-audit-6ea4",
@@ -463,7 +519,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/432",
         "title": "CS–DE A1 HIGH post-repair audit (read-only) — NOT CLOSED"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-regression-final-repair-6ea4",
@@ -481,7 +539,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/433",
         "title": "CS–DE A1 HIGH regression gala repair (17/18 applied)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block01-6ea4",
@@ -499,7 +559,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/426",
         "title": "CS A1 HIGH repair block 1/6: 50 csText fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block02-6ea4",
@@ -517,7 +579,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/427",
         "title": "CS–DE A1 HIGH repair block 2/6 (findings 51–100)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block03-6ea4",
@@ -535,7 +599,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/428",
         "title": "CS–DE A1 HIGH repair block 3/6 (findings 101–150)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block04-6ea4",
@@ -553,7 +619,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/429",
         "title": "CS–DE A1 HIGH repair block 4/6 (findings 151–200)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block05-6ea4",
@@ -571,7 +639,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/430",
         "title": "CS–DE A1 HIGH repair block 5/6 (findings 201–250)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block06-6ea4",
@@ -589,7 +659,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/431",
         "title": "CS–DE A1 HIGH repair block 6/6 — final 36 + gala coverage (287/287)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-post-repair-audit-6ea4",
@@ -607,7 +679,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/421",
         "title": "CS A1 post-repair full audit (702/702, read-only)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
@@ -625,7 +699,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/502",
         "title": "CS-DE B1: final 2-card micro-repair apply (2/2)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b1-final-micro-regression-closure-6ea4",
@@ -643,7 +719,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/503",
         "title": "CS-DE B1: final micro-regression closure — OWNER ACCEPTED / CLOSED"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b2-final-closure-audit-6ea4",
@@ -661,7 +739,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/508",
         "title": "CS–DE B2 final closure audit — OWNER ACCEPTED / CLOSED"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b2-owner-copy-only-repair-6ea4",
@@ -679,7 +759,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/506",
         "title": "fix(cs-b2): apply owner-approved copy-only repair mappings (944/969)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b2-targeted-regression-audit-6ea4",
@@ -697,7 +779,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/507",
         "title": "CS–DE B2 targeted regression audit (GPT-5.6 Luna)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/da-kurss-full-luna-audit-fffe",
@@ -718,7 +802,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/579",
         "title": "DA Kurss full Luna audit (1264 fields, 77 findings)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/da-kurss-post-luna-owner-repair-fffe",
@@ -738,7 +824,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/581",
         "title": "Apply DA Kurss post-Luna OWNER decisions (41 LABOT)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/da-kurss-post-luna-reaudit-fffe",
@@ -759,7 +847,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/580",
         "title": "DA–DE Kurss post-repair full Luna re-audit (1280 fields)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/da-kurss-post-repair-full-luna-audit-fffe",
@@ -779,7 +869,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/582",
         "title": "DA–DE Kurss post-repair full Luna audit (1266 fields, 121 findings)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/da-verbs-final-post-repair-owner-repair-fffe",
@@ -797,7 +889,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/564",
         "title": "Apply DA–DE verbs final post-repair OWNER repairs (63 COPY-ONLY)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-01-6850",
@@ -815,7 +909,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/345",
         "title": "EN–DE B1 HIGH REPAIR #1 — 25 owner-reviewed cards"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-02-6850",
@@ -833,7 +929,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/347",
         "title": "EN–DE B1 HIGH REPAIR #2 — 25 owner-reviewed cards"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-03-6850",
@@ -851,7 +949,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/349",
         "title": "fix(en-b1): HIGH repair #3 — 25 normal card lv fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-04-6850",
@@ -869,7 +969,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/351",
         "title": "fix(en-b1): HIGH repair #4 — 25 normal card lv fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-05-6850",
@@ -887,7 +989,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/353",
         "title": "fix(en-b1): HIGH repair #5 — 24 lv fixes, Gen NELABOT"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/es-kurss-articles-visual-repair-3141",
@@ -905,7 +1009,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/669",
         "title": "ES Kurss Artículos — visual COPY-ONLY repair (19 OWNER targets)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/es-kurss-pronouns-visual-repair-3141",
@@ -924,7 +1030,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/670",
         "title": "ES Kurss Pronombres visual COPY-ONLY repair (35 LABOT + 1 NELABOT)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/es-kurss-sentence-structure-visual-repair-3141",
@@ -942,7 +1050,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/672",
         "title": "ES Kurss Sentence structure visual COPY-ONLY repair (2 LABOT)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/es-kurss-verb-basics-visual-repair-3141",
@@ -961,7 +1071,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/671",
         "title": "ES Kurss Verb basics visual COPY-ONLY repair (6 LABOT)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/et-de-a1-full-audit-ba9e",
@@ -979,7 +1091,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/586",
         "title": "ET-DE A1 pilns READ-ONLY audits (GPT-5.6 Luna)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     }
   ],
   "candidates": [
@@ -991,7 +1105,9 @@
       "reason": "No production content blob diff vs origin/main",
       "productionContentDiffFiles": [],
       "productionCandidateFiles": [],
-      "pr": null
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/audit-kurss-content-5a8d",
@@ -1009,7 +1125,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/123",
         "title": "Audit Kurss section: orthography, LV style, and translation fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/bs-a2-final-audit-c1b5",
@@ -1024,7 +1142,9 @@
         "state": "CLOSED",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/292"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/bs-a2-full-audit-c1b5",
@@ -1039,7 +1159,9 @@
         "state": "CLOSED",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/290"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/bs-c2-full-linguistic-audit-c1b5",
@@ -1049,7 +1171,9 @@
       "reason": "No production content blob diff vs origin/main",
       "productionContentDiffFiles": [],
       "productionCandidateFiles": [],
-      "pr": null
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/bs-c2-linguistic-audit-only-c1b5",
@@ -1064,7 +1188,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/322"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/bs-c2-targeted-regression-audit-c1b5",
@@ -1079,7 +1205,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/324"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/cs-a1-critical-final-repair-6ea4",
@@ -1097,7 +1225,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/423",
         "title": "CS A1 critical final repair: 33/33 OWNER fields"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-702-audit-on-main-6ea4",
@@ -1112,7 +1242,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/460"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/cs-a1-final-audit-on-main-6ea4",
@@ -1127,7 +1259,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/453"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/cs-a1-final-closure-audit-on-main-6ea4",
@@ -1142,7 +1276,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/465"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
@@ -1160,7 +1296,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/456",
         "title": "CS-DE A1 final repair block 04 (last 10 fields, 160/160 reconciliation)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-main-repair-batch101-150-6ea4",
@@ -1178,7 +1316,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/455",
         "title": "CS-DE A1 final main repair batch 101-150 (50 fields)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-main-repair-batch51-100-6ea4",
@@ -1196,7 +1336,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/454",
         "title": "CS-DE A1 final main repair batch 51-100 (50 fields)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-missing-study-parity-repair-6ea4",
@@ -1214,7 +1356,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/458",
         "title": "CS-DE A1 MISSING_STUDY_PARITY repair (14/14)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-post-repair-audit-6ea4",
@@ -1232,7 +1376,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/452",
         "title": "CS–DE A1 final post-repair full audit (702/702, NOT CLOSED)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
@@ -1250,7 +1396,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/459",
         "title": "CS-DE A1 study parity sectionAccents micro-repair (10/10)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block01-6ea4",
@@ -1268,7 +1416,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/438",
         "title": "CS–DE A1 full review repair block 01: 20/20 csText fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block02-6ea4",
@@ -1286,7 +1436,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/439",
         "title": "CS–DE A1 full review repair block 02: 16/17 csText fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block03-6ea4",
@@ -1304,7 +1456,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/440",
         "title": "CS–DE A1 full review repair block 03 (findings 101–150)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block04-6ea4",
@@ -1322,7 +1476,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/441",
         "title": "CS–DE A1 full review repair block 04 (findings 151–200)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block05-6ea4",
@@ -1340,7 +1496,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/442",
         "title": "CS–DE A1 full review repair block 05 (findings 201–250)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block06-6ea4",
@@ -1358,7 +1516,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/443",
         "title": "CS–DE A1 full review repair block 06 (findings 251–300)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block07-6ea4",
@@ -1376,7 +1536,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/444",
         "title": "CS–DE A1 full review repair block 07 (findings 301–350)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block08-6ea4",
@@ -1394,7 +1556,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/445",
         "title": "CS–DE A1 full review repair block 08 (findings 351–400)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block09-6ea4",
@@ -1412,7 +1576,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/446",
         "title": "CS–DE A1 full review repair block 09 (findings 401–450)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block10-6ea4",
@@ -1430,7 +1596,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/447",
         "title": "CS–DE A1 Full Review Repair — Block 10 (Findings 451–500)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block11-6ea4",
@@ -1448,7 +1616,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/448",
         "title": "CS–DE A1 Full Review Repair — Block 11 (Findings 501–550)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block12-6ea4",
@@ -1466,7 +1636,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/449",
         "title": "CS–DE A1 Full Review Repair — Block 12 (Findings 551–600)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-final-closure-check-6ea4",
@@ -1484,7 +1656,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/436",
         "title": "CS–DE A1 HIGH final closure check: CLOSED"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-final-micro-repair-02-6ea4",
@@ -1502,7 +1676,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/435",
         "title": "CS–DE A1 HIGH final micro-repair #2: apply 2/2 OWNER fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-post-repair-audit-6ea4",
@@ -1520,7 +1696,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/432",
         "title": "CS–DE A1 HIGH post-repair audit (read-only) — NOT CLOSED"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-regression-final-repair-6ea4",
@@ -1538,7 +1716,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/433",
         "title": "CS–DE A1 HIGH regression gala repair (17/18 applied)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block01-6ea4",
@@ -1556,7 +1736,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/426",
         "title": "CS A1 HIGH repair block 1/6: 50 csText fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block02-6ea4",
@@ -1574,7 +1756,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/427",
         "title": "CS–DE A1 HIGH repair block 2/6 (findings 51–100)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block03-6ea4",
@@ -1592,7 +1776,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/428",
         "title": "CS–DE A1 HIGH repair block 3/6 (findings 101–150)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block04-6ea4",
@@ -1610,7 +1796,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/429",
         "title": "CS–DE A1 HIGH repair block 4/6 (findings 151–200)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block05-6ea4",
@@ -1628,7 +1816,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/430",
         "title": "CS–DE A1 HIGH repair block 5/6 (findings 201–250)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block06-6ea4",
@@ -1646,7 +1836,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/431",
         "title": "CS–DE A1 HIGH repair block 6/6 — final 36 + gala coverage (287/287)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-a1-post-repair-audit-6ea4",
@@ -1664,7 +1856,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/421",
         "title": "CS A1 post-repair full audit (702/702, read-only)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
@@ -1682,7 +1876,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/502",
         "title": "CS-DE B1: final 2-card micro-repair apply (2/2)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b1-final-micro-regression-closure-6ea4",
@@ -1700,7 +1896,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/503",
         "title": "CS-DE B1: final micro-regression closure — OWNER ACCEPTED / CLOSED"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b1-final-targeted-closure-audit-6ea4",
@@ -1715,7 +1913,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/501"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/cs-b1-full-audit-reconciliation-6ea4",
@@ -1730,7 +1930,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/497"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/cs-b2-final-closure-audit-6ea4",
@@ -1748,7 +1950,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/508",
         "title": "CS–DE B2 final closure audit — OWNER ACCEPTED / CLOSED"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b2-owner-copy-only-repair-6ea4",
@@ -1766,7 +1970,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/506",
         "title": "fix(cs-b2): apply owner-approved copy-only repair mappings (944/969)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-b2-repair-source-complete-6ea4",
@@ -1781,7 +1987,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/505"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/cs-b2-targeted-regression-audit-6ea4",
@@ -1799,7 +2007,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/507",
         "title": "CS–DE B2 targeted regression audit (GPT-5.6 Luna)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/cs-de-a1a2-full-audit-f3c4",
@@ -1814,7 +2024,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/403"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/cs-de-full-audit-6ea4",
@@ -1829,7 +2041,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/404"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/cs-kurs-articles-full-audit-6850",
@@ -1845,9 +2059,12 @@
         "number": 528,
         "state": "OPEN",
         "isDraft": false,
+        "mergeable": "CONFLICTING",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528",
         "title": "CS–DE Kurss Členy: full audit + OWNER review complete (#001–#315)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
     },
     {
       "ref": "origin/cursor/da-kurss-audit-collect-3fda",
@@ -1857,7 +2074,9 @@
       "reason": "No production content blob diff vs origin/main",
       "productionContentDiffFiles": [],
       "productionCandidateFiles": [],
-      "pr": null
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/da-kurss-final-closure-reaudit-fffe",
@@ -1867,7 +2086,9 @@
       "reason": "No production content blob diff vs origin/main",
       "productionContentDiffFiles": [],
       "productionCandidateFiles": [],
-      "pr": null
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/da-kurss-full-audit-fffe",
@@ -1882,7 +2103,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/566"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/da-kurss-full-luna-audit-fffe",
@@ -1903,7 +2126,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/579",
         "title": "DA Kurss full Luna audit (1264 fields, 77 findings)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/da-kurss-post-luna-owner-repair-fffe",
@@ -1923,7 +2148,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/581",
         "title": "Apply DA Kurss post-Luna OWNER decisions (41 LABOT)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/da-kurss-post-luna-reaudit-fffe",
@@ -1944,7 +2171,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/580",
         "title": "DA–DE Kurss post-repair full Luna re-audit (1280 fields)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/da-kurss-post-repair-full-luna-audit-fffe",
@@ -1964,7 +2193,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/582",
         "title": "DA–DE Kurss post-repair full Luna audit (1266 fields, 121 findings)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/da-verbs-final-post-repair-audit-fffe",
@@ -1982,7 +2213,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/563"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/da-verbs-final-post-repair-owner-repair-fffe",
@@ -2000,7 +2233,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/564",
         "title": "Apply DA–DE verbs final post-repair OWNER repairs (63 COPY-ONLY)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-critical-repair-6850",
@@ -2016,9 +2251,12 @@
         "number": 343,
         "state": "OPEN",
         "isDraft": false,
+        "mergeable": "CONFLICTING",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343",
         "title": "fix(en-b1): CRITICAL cycle closed — ready for HIGH owner review"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
     },
     {
       "ref": "origin/cursor/en-b1-full-audit-6850",
@@ -2033,7 +2271,9 @@
         "state": "OPEN",
         "isDraft": false,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/342"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-01-6850",
@@ -2051,7 +2291,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/345",
         "title": "EN–DE B1 HIGH REPAIR #1 — 25 owner-reviewed cards"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-02-6850",
@@ -2069,7 +2311,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/347",
         "title": "EN–DE B1 HIGH REPAIR #2 — 25 owner-reviewed cards"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-03-6850",
@@ -2087,7 +2331,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/349",
         "title": "fix(en-b1): HIGH repair #3 — 25 normal card lv fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-04-6850",
@@ -2105,7 +2351,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/351",
         "title": "fix(en-b1): HIGH repair #4 — 25 normal card lv fixes"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-05-6850",
@@ -2123,7 +2371,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/353",
         "title": "fix(en-b1): HIGH repair #5 — 24 lv fixes, Gen NELABOT"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/en-b1-main-reconciliation-audit-6850",
@@ -2138,7 +2388,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/370"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/en-sentences-luna-audit-6850",
@@ -2153,7 +2405,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/384"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/en-verbs-luna-audit-6850",
@@ -2168,7 +2422,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/391"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/es-de-a1-a2-full-audit-3141",
@@ -2183,7 +2439,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/663"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/es-fr-de-full-audit-12b5",
@@ -2193,7 +2451,9 @@
       "reason": "No production content blob diff vs origin/main",
       "productionContentDiffFiles": [],
       "productionCandidateFiles": [],
-      "pr": null
+      "pr": null,
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/es-kurss-articles-visual-repair-3141",
@@ -2211,7 +2471,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/669",
         "title": "ES Kurss Artículos — visual COPY-ONLY repair (19 OWNER targets)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/es-kurss-lessons-full-audit-3141",
@@ -2226,7 +2488,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/676"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/es-kurss-pronouns-visual-repair-3141",
@@ -2245,7 +2509,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/670",
         "title": "ES Kurss Pronombres visual COPY-ONLY repair (35 LABOT + 1 NELABOT)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/es-kurss-sentence-structure-visual-repair-3141",
@@ -2263,7 +2529,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/672",
         "title": "ES Kurss Sentence structure visual COPY-ONLY repair (2 LABOT)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/es-kurss-verb-basics-visual-repair-3141",
@@ -2282,7 +2550,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/671",
         "title": "ES Kurss Verb basics visual COPY-ONLY repair (6 LABOT)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/et-de-a1-full-audit-ba9e",
@@ -2300,7 +2570,9 @@
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/586",
         "title": "ET-DE A1 pilns READ-ONLY audits (GPT-5.6 Luna)"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "NEEDS_OWNER_REVIEW"
     },
     {
       "ref": "origin/cursor/et-de-a1-full-audit-post-closure-ba9e",
@@ -2315,7 +2587,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/595"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/et-de-a1-full-audit-v13-ba9e",
@@ -2330,7 +2604,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/589"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/et-de-a1-full-audit-v15-ba9e",
@@ -2345,7 +2621,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/593"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/et-de-a1-full-audit-v17-ba9e",
@@ -2360,7 +2638,9 @@
         "state": "OPEN",
         "isDraft": false,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/600"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/et-de-a1-full-audit-v17-post603-ba9e",
@@ -2375,7 +2655,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/604"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/et-de-b2-full-audit-4a7c",
@@ -2390,7 +2672,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/628"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/et-de-c1c2-teikumi-full-audit-4a7c",
@@ -2405,7 +2689,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/622"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/et-de-kurss-full-audit-4a7c",
@@ -2420,7 +2706,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/636"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/et-de-kurss-live-runtime-reopen-audit-4a7c",
@@ -2435,7 +2723,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/639"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/et-de-kurss-v111-full-module-audit-4a7c",
@@ -2450,7 +2740,9 @@
         "state": "OPEN",
         "isDraft": false,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/644"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/fr-de-a1-full-audit-f5bc",
@@ -2465,7 +2757,9 @@
         "state": "OPEN",
         "isDraft": true,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/682"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     },
     {
       "ref": "origin/cursor/global-main-integration-reconciliation-audit-6850",
@@ -2480,7 +2774,13 @@
         "state": "OPEN",
         "isDraft": false,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/373"
-      }
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
     }
-  ]
+  ],
+  "ownerDecisionsPath": "/workspace/reports/unmerged-closure-owner-decisions.json",
+  "ownerDecisionsCount": 0,
+  "ownerDecisionsApplied": 0,
+  "unresolvedOwnerReviewCount": 51
 }

@@ -1,7 +1,7 @@
 {
   "status": "PHASE_0_INCOMPLETE",
   "verdict": "MERGE_BLOCKED — PHASE_0_INCOMPLETE",
-  "generatedAt": "2026-08-28T18:23:22.641Z",
+  "generatedAt": "2026-08-28T18:29:38.782Z",
   "masterVersion": "1.12",
   "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
   "gates": {
@@ -83,6 +83,9 @@
       },
       "activeUnmergedClosureCount": 2,
       "needsOwnerReviewCount": 51,
+      "unresolvedOwnerReviewCount": 51,
+      "ownerDecisionsApplied": 0,
+      "ownerDecisionsPath": "/workspace/reports/unmerged-closure-owner-decisions.json",
       "activeUnmergedClosureCandidates": [
         {
           "ref": "origin/cursor/cs-kurs-articles-full-audit-6850",
@@ -98,9 +101,12 @@
             "number": 528,
             "state": "OPEN",
             "isDraft": false,
+            "mergeable": "CONFLICTING",
             "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528",
             "title": "CS–DE Kurss Členy: full audit + OWNER review complete (#001–#315)"
-          }
+          },
+          "ownerDecision": null,
+          "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
         },
         {
           "ref": "origin/cursor/en-b1-critical-repair-6850",
@@ -116,9 +122,12 @@
             "number": 343,
             "state": "OPEN",
             "isDraft": false,
+            "mergeable": "CONFLICTING",
             "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343",
             "title": "fix(en-b1): CRITICAL cycle closed — ready for HIGH owner review"
-          }
+          },
+          "ownerDecision": null,
+          "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
         }
       ],
       "classificationReport": "/workspace/reports/unmerged-closure-classification-READONLY.md"

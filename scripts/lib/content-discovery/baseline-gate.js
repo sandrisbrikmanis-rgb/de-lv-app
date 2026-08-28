@@ -78,23 +78,52 @@ function runBaselineGate() {
         code: "BLOCKED_UNMERGED_CLOSURE_CLASSIFICATION_FAILED",
         message: closureClassification.error || "Could not classify unmerged closure candidates",
       });
+    } else if (closureClassification.ownerDecisionsErrors?.length) {
+      blockers.push({
+        code: "BLOCKED_UNMERGED_CLOSURE_OWNER_DECISIONS_INVALID",
+        message: closureClassification.ownerDecisionsErrors.join("; "),
+        path: closureClassification.ownerDecisionsPath,
+      });
     } else if (closureClassification.ghPrLookupError) {
       blockers.push({
         code: "BLOCKED_GH_PR_LOOKUP_FAILED",
         message: closureClassification.ghPrLookupError,
       });
-    } else if (closureClassification.activeUnmergedClosureCount > 0) {
-      blockers.push({
-        code: "BLOCKED_UNMERGED_CLOSURE",
-        message: `${closureClassification.activeUnmergedClosureCount} active unmerged closure branch(es) with production content not on origin/main`,
-        active: closureClassification.activeUnmergedClosureCandidates.map((c) => ({
-          ref: c.ref,
-          pr: c.pr?.number,
-          url: c.pr?.url,
-          files: c.productionContentDiffFiles,
-        })),
-        count: closureClassification.activeUnmergedClosureCount,
-      });
+    } else {
+      const unresolved =
+        closureClassification.unresolvedOwnerReviewCount ??
+        closureClassification.needsOwnerReviewCount ??
+        0;
+
+      if (closureClassification.activeUnmergedClosureCount > 0) {
+        blockers.push({
+          code: "BLOCKED_UNMERGED_CLOSURE",
+          message: `${closureClassification.activeUnmergedClosureCount} active unmerged closure branch(es) with production content not on origin/main`,
+          active: closureClassification.activeUnmergedClosureCandidates.map((c) => ({
+            ref: c.ref,
+            pr: c.pr?.number,
+            url: c.pr?.url,
+            mergeable: c.pr?.mergeable ?? null,
+            files: c.productionContentDiffFiles,
+            ownerDecision: c.ownerDecision?.resolvedCategory || null,
+          })),
+          count: closureClassification.activeUnmergedClosureCount,
+        });
+      }
+
+      if (unresolved > 0) {
+        blockers.push({
+          code: "BLOCKED_UNMERGED_CLOSURE_OWNER_REVIEW_PENDING",
+          message: `${unresolved} unmerged closure candidate(s) lack OWNER decision (NEEDS_OWNER_REVIEW)`,
+          unresolved,
+          ownerDecisionsPath: closureClassification.ownerDecisionsPath,
+          sample: closureClassification.needsOwnerReviewCandidates.slice(0, 10).map((c) => ({
+            ref: c.ref,
+            pr: c.pr?.number,
+            reason: c.reason,
+          })),
+        });
+      }
     }
   }
 
@@ -123,8 +152,12 @@ function runBaselineGate() {
     unmergedClosureCandidatesRaw,
     unmergedClosureCountRaw: unmergedClosureCandidatesRaw.length,
     unmergedClosureClassification: closureClassification?.summary || null,
+    unmergedClosureAutoClassification: closureClassification?.autoSummary || null,
     activeUnmergedClosureCount: closureClassification?.activeUnmergedClosureCount ?? null,
     needsOwnerReviewCount: closureClassification?.needsOwnerReviewCount ?? null,
+    unresolvedOwnerReviewCount: closureClassification?.unresolvedOwnerReviewCount ?? null,
+    ownerDecisionsPath: closureClassification?.ownerDecisionsPath || null,
+    ownerDecisionsApplied: closureClassification?.ownerDecisionsApplied ?? null,
     activeUnmergedClosureCandidates: closureClassification?.activeUnmergedClosureCandidates || [],
     needsOwnerReviewSample: (closureClassification?.needsOwnerReviewCandidates || []).slice(0, 20),
     classificationReportJson: classificationReports?.outJson || null,

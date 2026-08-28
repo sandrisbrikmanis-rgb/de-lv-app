@@ -6,6 +6,7 @@ const path = require("path");
 const { execSync } = require("child_process");
 const { ROOT } = require("../audit-common");
 const { git } = require("./git-baseline");
+const { applyOwnerDecisions } = require("./unmerged-closure-owner-decisions");
 
 const PRODUCTION_PATHS = ["data", "www/data", "languages"];
 const CLOSURE_BRANCH_RE = /closure|repair|audit/i;
@@ -28,7 +29,7 @@ function loadPullRequestsByHead() {
   const repo = repoSlugFromOrigin();
   try {
     const raw = execSync(
-      `gh pr list --repo ${repo} --state all --limit 1000 --json number,state,mergedAt,closedAt,headRefName,isDraft,title,url`,
+      `gh pr list --repo ${repo} --state all --limit 1000 --json number,state,mergedAt,closedAt,headRefName,isDraft,title,url,mergeable`,
       { cwd: ROOT, encoding: "utf8", stdio: "pipe" },
     );
     const prs = JSON.parse(raw);
@@ -165,14 +166,22 @@ function classifyBranchRef(ref, prByHead) {
   }
 
   if (pr?.state === "OPEN" && !pr.isDraft) {
+    const mergeableNote = pr.mergeable === false ? " (mergeable: false)" : "";
     return {
       ref,
       headRefName,
       tipSha,
       category: CATEGORIES.ACTIVE_UNMERGED_CLOSURE,
-      reason: `Open non-draft PR #${pr.number} with production content not on origin/main`,
+      reason: `Open non-draft PR #${pr.number} with production content not on origin/main${mergeableNote}`,
       productionContentDiffFiles: contentDiffFiles,
-      pr: { number: pr.number, state: pr.state, isDraft: false, url: pr.url, title: pr.title },
+      pr: {
+        number: pr.number,
+        state: pr.state,
+        isDraft: false,
+        mergeable: pr.mergeable ?? null,
+        url: pr.url,
+        title: pr.title,
+      },
     };
   }
 
@@ -197,7 +206,7 @@ function classifyBranchRef(ref, prByHead) {
 
 /**
  * READ-ONLY classification of remote closure/repair/audit branches not merged to origin/main.
- * Only ACTIVE_UNMERGED_CLOSURE should block D1 baseline.
+ * D1 blocks when final active > 0 OR unresolved NEEDS_OWNER_REVIEW > 0 (after OWNER decisions).
  */
 function classifyUnmergedClosureCandidates(options = {}) {
   const raw = listRawClosureCandidates();
@@ -234,12 +243,13 @@ function classifyUnmergedClosureCandidates(options = {}) {
   const active = candidates.filter((c) => c.category === CATEGORIES.ACTIVE_UNMERGED_CLOSURE);
   const needsOwner = candidates.filter((c) => c.category === CATEGORIES.NEEDS_OWNER_REVIEW);
 
-  return {
+  const autoClassification = {
     ok: true,
     generatedAt: new Date().toISOString(),
     mode: "READ_ONLY",
     ghPrLookupError: ghError,
     unmergedClosureCountRaw: candidates.length,
+    autoSummary: { ...summary },
     summary,
     activeUnmergedClosureCount: active.length,
     needsOwnerReviewCount: needsOwner.length,
@@ -247,6 +257,8 @@ function classifyUnmergedClosureCandidates(options = {}) {
     needsOwnerReviewCandidates: needsOwner,
     candidates,
   };
+
+  return applyOwnerDecisions(autoClassification, options);
 }
 
 function writeClassificationReports(classification, options = {}) {
@@ -265,18 +277,19 @@ function writeClassificationReports(classification, options = {}) {
     `**Mode:** ${classification.mode}`,
     `**Raw candidates:** ${classification.unmergedClosureCountRaw}`,
     `**ACTIVE (D1 blocker):** ${classification.activeUnmergedClosureCount}`,
-    `**NEEDS OWNER REVIEW:** ${classification.needsOwnerReviewCount}`,
+    `**Unresolved NEEDS_OWNER_REVIEW (D1 blocker):** ${classification.unresolvedOwnerReviewCount ?? classification.needsOwnerReviewCount}`,
+    `**OWNER decisions applied:** ${classification.ownerDecisionsApplied ?? 0}`,
     "",
-    "## Summary",
+    "## Summary (after OWNER decisions)",
     "",
     "| Category | Count | D1 blocks? |",
     "|----------|------:|------------|",
     `| INTEGRATED_HISTORICAL | ${classification.summary.INTEGRATED_HISTORICAL || 0} | no |`,
     `| CLOSED_SUPERSEDED | ${classification.summary.CLOSED_SUPERSEDED || 0} | no |`,
     `| ACTIVE_UNMERGED_CLOSURE | ${classification.summary.ACTIVE_UNMERGED_CLOSURE || 0} | **yes** |`,
-    `| NEEDS_OWNER_REVIEW | ${classification.summary.NEEDS_OWNER_REVIEW || 0} | no (OWNER) |`,
+    `| NEEDS_OWNER_REVIEW (unresolved) | ${classification.summary.NEEDS_OWNER_REVIEW || 0} | **yes** |`,
     "",
-    "## Rules (deterministic)",
+    "## Rules (deterministic auto-classification)",
     "",
     "1. PR merged → INTEGRATED_HISTORICAL",
     "2. Branch tip ancestor of origin/main → INTEGRATED_HISTORICAL",
@@ -285,7 +298,32 @@ function writeClassificationReports(classification, options = {}) {
     "5. Open non-draft PR with production blob diff → ACTIVE_UNMERGED_CLOSURE",
     "6. Otherwise (draft PR, no PR, ambiguous) → NEEDS_OWNER_REVIEW",
     "",
+    "## F0-5 D1 gate (fail-closed)",
+    "",
+    "PASS only when `activeUnmergedClosureCount === 0` **and** `unresolvedOwnerReviewCount === 0`.",
+    "Each unresolved candidate requires an OWNER decision in",
+    "`reports/unmerged-closure-owner-decisions.json` with one of:",
+    "`INTEGRATED_HISTORICAL`, `CLOSED_SUPERSEDED`, `ACTIVE_UNMERGED_CLOSURE`, `DOCUMENTED_EXCEPTION`.",
+    "",
   ];
+
+  if (classification.ownerDecisionsPath) {
+    lines.push(`**OWNER decisions file:** \`${path.basename(classification.ownerDecisionsPath)}\``, "");
+  }
+
+  if (classification.autoSummary) {
+    lines.push(
+      "## Auto-classification (before OWNER decisions)",
+      "",
+      `| Category | Count |`,
+      `|----------|------:|`,
+      `| INTEGRATED_HISTORICAL | ${classification.autoSummary.INTEGRATED_HISTORICAL || 0} |`,
+      `| CLOSED_SUPERSEDED | ${classification.autoSummary.CLOSED_SUPERSEDED || 0} |`,
+      `| ACTIVE_UNMERGED_CLOSURE | ${classification.autoSummary.ACTIVE_UNMERGED_CLOSURE || 0} |`,
+      `| NEEDS_OWNER_REVIEW | ${classification.autoSummary.NEEDS_OWNER_REVIEW || 0} |`,
+      "",
+    );
+  }
 
   if (classification.ghPrLookupError) {
     lines.push(`**GitHub PR lookup warning:** ${classification.ghPrLookupError}`, "");
@@ -296,6 +334,7 @@ function writeClassificationReports(classification, options = {}) {
     for (const row of classification.activeUnmergedClosureCandidates) {
       lines.push(`- \`${row.ref}\` — ${row.reason}`);
       if (row.pr?.url) lines.push(`  - PR: ${row.pr.url}`);
+      if (row.pr?.mergeable === false) lines.push(`  - mergeable: false`);
       if (row.productionContentDiffFiles?.length) {
         lines.push(`  - Production files: ${row.productionContentDiffFiles.join(", ")}`);
       }
@@ -304,7 +343,7 @@ function writeClassificationReports(classification, options = {}) {
   }
 
   if (classification.needsOwnerReviewCandidates?.length) {
-    lines.push("## NEEDS OWNER REVIEW (sample)", "");
+    lines.push("## Unresolved NEEDS_OWNER_REVIEW (D1 blockers until decided)", "");
     for (const row of classification.needsOwnerReviewCandidates.slice(0, 25)) {
       lines.push(`- \`${row.ref}\` — ${row.reason}`);
     }

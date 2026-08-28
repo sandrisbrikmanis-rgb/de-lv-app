@@ -243,7 +243,8 @@ function writeDiscoveryReports(matrix, options = {}) {
     lines.push(
       `**Unmerged closure (raw):** ${closure.unmergedClosureCountRaw}`,
       `**Active D1 blockers:** ${closure.activeUnmergedClosureCount ?? 0}`,
-      `**Needs OWNER review:** ${closure.needsOwnerReviewCount ?? 0}`,
+      `**Unresolved OWNER review:** ${closure.unresolvedOwnerReviewCount ?? closure.needsOwnerReviewCount ?? 0}`,
+      `**OWNER decisions applied:** ${closure.ownerDecisionsApplied ?? 0}`,
     );
     if (closure.classificationReportMd) {
       lines.push(`**Classification report:** \`${path.basename(closure.classificationReportMd)}\``);

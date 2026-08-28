@@ -26,7 +26,8 @@ function main() {
   console.log(`INTEGRATED_HISTORICAL: ${classification.summary?.INTEGRATED_HISTORICAL || 0}`);
   console.log(`CLOSED_SUPERSEDED: ${classification.summary?.CLOSED_SUPERSEDED || 0}`);
   console.log(`ACTIVE_UNMERGED_CLOSURE: ${classification.activeUnmergedClosureCount}`);
-  console.log(`NEEDS_OWNER_REVIEW: ${classification.needsOwnerReviewCount}`);
+  console.log(`Unresolved NEEDS_OWNER_REVIEW: ${classification.unresolvedOwnerReviewCount ?? classification.needsOwnerReviewCount}`);
+  console.log(`OWNER decisions applied: ${classification.ownerDecisionsApplied ?? 0}`);
   console.log(`JSON: ${outJson}`);
   console.log(`MD: ${outMd}`);
   console.log("");
@@ -39,6 +40,14 @@ function main() {
   if (classification.activeUnmergedClosureCount > 0) {
     console.log("D1: ACTIVE unmerged closures found — baseline would BLOCK.");
     process.exit(2);
+  }
+
+  const unresolved =
+    classification.unresolvedOwnerReviewCount ?? classification.needsOwnerReviewCount ?? 0;
+  if (unresolved > 0) {
+    console.log("D1: Unresolved NEEDS_OWNER_REVIEW candidates — baseline would BLOCK.");
+    console.log(`Add decisions to: ${classification.ownerDecisionsPath || "reports/unmerged-closure-owner-decisions.json"}`);
+    process.exit(3);
   }
 
   console.log("D1: No active unmerged closures. Baseline closure gate would PASS.");
