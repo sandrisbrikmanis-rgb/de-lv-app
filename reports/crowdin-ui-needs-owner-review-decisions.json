@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": {
     "path": "reports/crowdin-ui-final-audit-proof.json",
     "auditCommit": "2e8899cc1b31fe8b78c2d6e3e4f26164ee610256",
@@ -18,7 +18,9 @@
     "placeholderErrors": 0,
     "htmlErrors": 0,
     "productionFilesChanged": 0,
-    "crowdinChanged": 0
+    "crowdinChanged": 0,
+    "OWNER_ACCEPTED": 194,
+    "ownerCorrectedNewValues": 8
   },
   "linguisticEvidence": {
     "bs": {
@@ -381,7 +383,9 @@
       "newValue": null,
       "reason": "Sesija ir standarta kognāts mērķvalodā (lt/bs) — apzināta sakritība ar LV, nevis neiztulkots teksts.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 2,
@@ -393,7 +397,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 3,
@@ -405,7 +411,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 4,
@@ -417,7 +425,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 5,
@@ -429,7 +439,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 6,
@@ -441,7 +453,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 7,
@@ -453,7 +467,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 8,
@@ -465,7 +481,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 9,
@@ -477,7 +495,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 10,
@@ -489,7 +509,9 @@
       "newValue": "Dativ, geben, sich nähern.",
       "reason": "Dativs ir latviešu gramatikas forma — mērķvalodā jāizmanto DE pedagoģijas termins Dativ.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 11,
@@ -501,7 +523,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 12,
@@ -513,7 +537,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 13,
@@ -525,7 +551,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 14,
@@ -537,7 +565,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 15,
@@ -549,7 +579,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 16,
@@ -561,7 +593,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 17,
@@ -573,7 +607,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 18,
@@ -585,7 +621,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 19,
@@ -597,7 +635,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 20,
@@ -609,7 +649,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 21,
@@ -621,7 +663,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 22,
@@ -633,7 +677,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 23,
@@ -645,7 +691,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 24,
@@ -657,7 +705,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 25,
@@ -669,7 +719,9 @@
       "newValue": null,
       "reason": "Gramatika ir pareizs kognāts mērķvalodā — apzināta sakritība ar LV gramatikas terminu.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 26,
@@ -681,7 +733,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 27,
@@ -693,7 +747,9 @@
       "newValue": null,
       "reason": "Gramatika ir pareizs kognāts mērķvalodā — apzināta sakritība ar LV gramatikas terminu.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 28,
@@ -705,7 +761,9 @@
       "newValue": null,
       "reason": "Formas: ir pareizs es mērķvalodas tulkojums (formas = formas) — apzināta sakritība ar LV struktūru.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 29,
@@ -717,7 +775,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 30,
@@ -729,7 +789,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 31,
@@ -741,7 +803,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 32,
@@ -753,7 +817,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 33,
@@ -765,7 +831,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 34,
@@ -777,7 +845,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 35,
@@ -789,7 +859,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 36,
@@ -801,7 +873,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 37,
@@ -813,7 +887,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 38,
@@ -825,7 +901,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 39,
@@ -837,7 +915,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 40,
@@ -849,7 +929,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 41,
@@ -861,7 +943,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 42,
@@ -873,7 +957,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 43,
@@ -885,7 +971,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 44,
@@ -897,7 +985,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 45,
@@ -909,7 +999,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 46,
@@ -921,7 +1013,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 47,
@@ -933,7 +1027,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 48,
@@ -945,7 +1041,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 49,
@@ -957,7 +1055,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 50,
@@ -969,7 +1069,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 51,
@@ -981,7 +1083,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 52,
@@ -993,7 +1097,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 53,
@@ -1005,7 +1111,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 54,
@@ -1017,7 +1125,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 55,
@@ -1029,7 +1139,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 56,
@@ -1041,7 +1153,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 57,
@@ -1053,7 +1167,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 58,
@@ -1065,7 +1181,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 59,
@@ -1077,7 +1195,9 @@
       "newValue": "Zousätzlech Optiounen",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 60,
@@ -1089,7 +1209,9 @@
       "newValue": "Zousätzlech Optiounen ▲",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 61,
@@ -1101,7 +1223,9 @@
       "newValue": "Zousätzlech Optiounen ▼",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 62,
@@ -1110,10 +1234,12 @@
       "lvSource": "Atgriezt",
       "current": "Atgriezt",
       "ownerStatus": "LABOT",
-      "newValue": "Zrécksetzen",
-      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "newValue": "Zeréckhuelen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme). OWNER precizējums: terminoloģiski un semantiski izlabots NEW.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 63,
@@ -1122,10 +1248,12 @@
       "lvSource": "Atgriezt visu",
       "current": "Atgriezt visu",
       "ownerStatus": "LABOT",
-      "newValue": "Alles zrécksetzen",
-      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "newValue": "Alles zeréckhuelen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme). OWNER precizējums: terminoloģiski un semantiski izlabots NEW.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 64,
@@ -1137,7 +1265,9 @@
       "newValue": "Äntwert:",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 65,
@@ -1149,7 +1279,9 @@
       "newValue": "Plural",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 66,
@@ -1161,7 +1293,9 @@
       "newValue": "Sessioun ofgeschloss!",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 67,
@@ -1173,7 +1307,9 @@
       "newValue": "Sessioun",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 68,
@@ -1185,7 +1321,9 @@
       "newValue": null,
       "reason": "Statistika ir LB/DE pedagoģijas kognāts — apzināta sakritība ar LV, nevis neiztulkots UI.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 69,
@@ -1197,7 +1335,9 @@
       "newValue": "Äntwerten",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 70,
@@ -1209,7 +1349,9 @@
       "newValue": "Iwwersetzungsrichtung",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 71,
@@ -1221,7 +1363,9 @@
       "newValue": "Zousätzlech Optiounen",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 72,
@@ -1233,7 +1377,9 @@
       "newValue": "Artikelen",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 73,
@@ -1245,7 +1391,9 @@
       "newValue": "‹ Cours",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 74,
@@ -1257,7 +1405,9 @@
       "newValue": "Form 1/3: Du (eenzel)",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 75,
@@ -1269,7 +1419,9 @@
       "newValue": "Übung II — iwwersetzen",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 76,
@@ -1281,7 +1433,9 @@
       "newValue": "Verben am Present, kleng Wierder, Grammatik an Training.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 77,
@@ -1293,7 +1447,9 @@
       "newValue": "Lektioun 1",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 78,
@@ -1305,7 +1461,9 @@
       "newValue": "Sein, können, Gesondheet, Alter an Beruffer.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 79,
@@ -1317,7 +1475,9 @@
       "newValue": "Lektioun 10",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 80,
@@ -1326,10 +1486,12 @@
       "lvSource": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi.",
       "current": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi.",
       "ownerStatus": "LABOT",
-      "newValue": "Haben, kein/keine/keinen, Besëtzen an zesummegesate Nomen.",
-      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "newValue": "Haben, kein/keine/keinen, Besëtz an zesummegesate Nomen.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an). OWNER precizējums: terminoloģiski un semantiski izlabots NEW.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 81,
@@ -1341,7 +1503,9 @@
       "newValue": "Lektioun 11",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 82,
@@ -1353,7 +1517,9 @@
       "newValue": "Vergläichsformen, als/wie, Alter an Faarwen.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 83,
@@ -1365,7 +1531,9 @@
       "newValue": "Lektioun 12",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 84,
@@ -1374,10 +1542,12 @@
       "lvSource": "Der Körper, ķermeņa daļas, turnen un jeder.",
       "current": "Der Körper, ķermeņa daļas, turnen un jeder.",
       "ownerStatus": "LABOT",
-      "newValue": "Der Körper, Kéierdeelen, turnen an jeder.",
-      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "newValue": "Der Körper, Kierperdeeler, turnen an jeder.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an). OWNER precizējums: terminoloģiski un semantiski izlabots NEW.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 85,
@@ -1389,7 +1559,9 @@
       "newValue": "Lektioun 13",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 86,
@@ -1401,7 +1573,9 @@
       "newValue": "müssen, wollen, mögen an modal Verben.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 87,
@@ -1413,7 +1587,9 @@
       "newValue": "Lektioun 14",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 88,
@@ -1422,10 +1598,12 @@
       "lvSource": "sollen, dürfen, essen un augļi.",
       "current": "sollen, dürfen, essen un augļi.",
       "ownerStatus": "LABOT",
-      "newValue": "sollen, dürfen, essen an Fruucht.",
-      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "newValue": "sollen, dürfen, essen an Uebst.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an). OWNER precizējums: terminoloģiski un semantiski izlabots NEW.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 89,
@@ -1437,7 +1615,9 @@
       "newValue": "Lektioun 15",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 90,
@@ -1449,7 +1629,9 @@
       "newValue": "Dativ, geben, sich nähern.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 91,
@@ -1461,7 +1643,9 @@
       "newValue": "Lektioun 16",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 92,
@@ -1473,7 +1657,9 @@
       "newValue": "Lektioun 17",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 93,
@@ -1485,7 +1671,9 @@
       "newValue": "Lektioun 18",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 94,
@@ -1497,7 +1685,9 @@
       "newValue": "Lektioun 19",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 95,
@@ -1509,7 +1699,9 @@
       "newValue": "Dialoger, Wierder, Aussprooch, Grammatik an Iwwersetzen.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 96,
@@ -1521,7 +1713,9 @@
       "newValue": "Lektioun 2",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 97,
@@ -1533,7 +1727,9 @@
       "newValue": "Haus, Stockwerk, Dativ/Akkusativ an zesummegesate Nomen.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 98,
@@ -1545,7 +1741,9 @@
       "newValue": "Lektioun 20",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 99,
@@ -1557,7 +1755,9 @@
       "newValue": "Lektioun 21",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 100,
@@ -1569,7 +1769,9 @@
       "newValue": "Dialoger, Wierder, Aussprooch, Grammatik an Iwwersetzen.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 101,
@@ -1581,7 +1783,9 @@
       "newValue": "Lektioun 3",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 102,
@@ -1593,7 +1797,9 @@
       "newValue": "Akkusativ, nehmen, hinlegen, hinausgehen an Adjektiver.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 103,
@@ -1605,7 +1811,9 @@
       "newValue": "Lektioun 4",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 104,
@@ -1617,7 +1825,9 @@
       "newValue": "Wen?, Akkusativ, sitzen, fragen an -in Endung.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 105,
@@ -1629,7 +1839,9 @@
       "newValue": "Lektioun 5",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 106,
@@ -1641,7 +1853,9 @@
       "newValue": "Zuelen, Plural, Umlauter an Pluralformen vun Nomen.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 107,
@@ -1653,7 +1867,9 @@
       "newValue": "Lektioun 6",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 108,
@@ -1662,10 +1878,12 @@
       "lvSource": "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
       "current": "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
       "ownerStatus": "LABOT",
-      "newValue": "Imperativ, Ussproochform an Plural.",
-      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "newValue": "Imperativ, Uriedsform an Plural.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an). OWNER precizējums: terminoloģiski un semantiski izlabots NEW.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 109,
@@ -1677,7 +1895,9 @@
       "newValue": "Lektioun 7",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 110,
@@ -1689,7 +1909,9 @@
       "newValue": "Reflexivverben, e → i/ie Wechsel an Akkusativ.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 111,
@@ -1701,7 +1923,9 @@
       "newValue": "Lektioun 8",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 112,
@@ -1713,7 +1937,9 @@
       "newValue": "Méi Subjekter, dieser/jener, Singular an Plural.",
       "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 113,
@@ -1725,7 +1951,9 @@
       "newValue": "Lektioun 9",
       "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 114,
@@ -1737,7 +1965,9 @@
       "newValue": "Lektiounen",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 115,
@@ -1749,7 +1979,9 @@
       "newValue": "Cours",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 116,
@@ -1761,7 +1993,9 @@
       "newValue": "Aussprooch",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 117,
@@ -1773,7 +2007,9 @@
       "newValue": null,
       "reason": "Gramatika ir LB/DE pedagoģijas kognāts — apzināta sakiritība ar LV gramatikas terminu.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 118,
@@ -1785,7 +2021,9 @@
       "newValue": "Tipp",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 119,
@@ -1797,7 +2035,9 @@
       "newValue": "Cours",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 120,
@@ -1809,7 +2049,9 @@
       "newValue": "Cours",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 121,
@@ -1821,7 +2063,9 @@
       "newValue": "Liicht",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 122,
@@ -1833,7 +2077,9 @@
       "newValue": "Cours",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 123,
@@ -1845,7 +2091,9 @@
       "newValue": "App-Sprooch",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 124,
@@ -1854,10 +2102,12 @@
       "lvSource": "Ieraksti atbildi",
       "current": "Ieraksti atbildi",
       "ownerStatus": "LABOT",
-      "newValue": "Äntwert antippen",
-      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "newValue": "Gëff d'Äntwert an",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme). OWNER precizējums: terminoloģiski un semantiski izlabots NEW.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 125,
@@ -1869,7 +2119,9 @@
       "newValue": "Formen:",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 126,
@@ -1881,7 +2133,9 @@
       "newValue": "PLURAL",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 127,
@@ -1893,7 +2147,9 @@
       "newValue": "Tipp:",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 128,
@@ -1905,7 +2161,9 @@
       "newValue": "Erklärung",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 129,
@@ -1914,10 +2172,12 @@
       "lvSource": "Atceries",
       "current": "Atceries",
       "ownerStatus": "LABOT",
-      "newValue": "Verhaalen",
-      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "newValue": "Denk drun",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme). OWNER precizējums: terminoloģiski un semantiski izlabots NEW.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 130,
@@ -1929,7 +2189,9 @@
       "newValue": "Tipp",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 131,
@@ -1941,7 +2203,9 @@
       "newValue": "Beschreift",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 132,
@@ -1953,7 +2217,9 @@
       "newValue": "Iwwersetzung",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 133,
@@ -1965,7 +2231,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums — pareizs LB kontekstā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 134,
@@ -1977,7 +2245,9 @@
       "newValue": "Schreiw.",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 135,
@@ -1989,7 +2259,9 @@
       "newValue": "Imperfekt erraten",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 136,
@@ -2001,7 +2273,9 @@
       "newValue": "Géigenwart",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 137,
@@ -2013,7 +2287,9 @@
       "newValue": "Iwwersetzung:",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 138,
@@ -2025,7 +2301,9 @@
       "newValue": "Imperfekt schreiwen",
       "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "LABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 139,
@@ -2037,7 +2315,9 @@
       "newValue": null,
       "reason": "Sesija ir standarta kognāts mērķvalodā (lt/bs) — apzināta sakritība ar LV, nevis neiztulkots teksts.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 140,
@@ -2049,7 +2329,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 141,
@@ -2061,7 +2343,9 @@
       "newValue": null,
       "reason": "Gramatika ir pareizs kognāts mērķvalodā — apzināta sakritība ar LV gramatikas terminu.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 142,
@@ -2073,7 +2357,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 143,
@@ -2085,7 +2371,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 144,
@@ -2097,7 +2385,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 145,
@@ -2109,7 +2399,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 146,
@@ -2121,7 +2413,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 147,
@@ -2133,7 +2427,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 148,
@@ -2145,7 +2441,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 149,
@@ -2157,7 +2455,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 150,
@@ -2169,7 +2469,9 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 151,
@@ -2181,7 +2483,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 152,
@@ -2193,7 +2497,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 153,
@@ -2205,7 +2511,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 154,
@@ -2217,7 +2525,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 155,
@@ -2229,7 +2539,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 156,
@@ -2241,7 +2553,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 157,
@@ -2253,7 +2567,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 158,
@@ -2265,7 +2581,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 159,
@@ -2277,7 +2595,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 160,
@@ -2289,7 +2609,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 161,
@@ -2301,7 +2623,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 162,
@@ -2313,7 +2637,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 163,
@@ -2325,7 +2651,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 164,
@@ -2337,7 +2665,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 165,
@@ -2349,7 +2679,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 166,
@@ -2361,7 +2693,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 167,
@@ -2373,7 +2707,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 168,
@@ -2385,7 +2721,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 169,
@@ -2397,7 +2735,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 170,
@@ -2409,7 +2749,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 171,
@@ -2421,7 +2763,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 172,
@@ -2433,7 +2777,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 173,
@@ -2445,7 +2791,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 174,
@@ -2457,7 +2805,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 175,
@@ -2469,7 +2819,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 176,
@@ -2481,7 +2833,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 177,
@@ -2493,7 +2847,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 178,
@@ -2505,7 +2861,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 179,
@@ -2517,7 +2875,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 180,
@@ -2529,7 +2889,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 181,
@@ -2541,7 +2903,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 182,
@@ -2553,7 +2917,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 183,
@@ -2565,7 +2931,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 184,
@@ -2577,7 +2945,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 185,
@@ -2589,7 +2959,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 186,
@@ -2601,7 +2973,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 187,
@@ -2613,7 +2987,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 188,
@@ -2625,7 +3001,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 189,
@@ -2637,7 +3015,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 190,
@@ -2649,7 +3029,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 191,
@@ -2661,7 +3043,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 192,
@@ -2673,7 +3057,9 @@
       "newValue": null,
       "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 193,
@@ -2685,7 +3071,9 @@
       "newValue": null,
       "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     },
     {
       "sequence": 194,
@@ -2697,7 +3085,16 @@
       "newValue": null,
       "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
       "placeholderTokens": [],
-      "htmlTags": []
+      "htmlTags": [],
+      "ownerDecision": "NELABOT",
+      "ownerApproved": true
     }
-  ]
+  ],
+  "ownerApproval": {
+    "status": "OWNER_ACCEPTED",
+    "scope": "194/194 NEEDS_OWNER_REVIEW rows",
+    "approvedAt": "2026-08-28",
+    "applyAuthorized": false,
+    "note": "OWNER lēmumi ir pieņemti; production/Crowdin apply nav veikts ar šo artefaktu."
+  }
 }

@@ -1,8 +1,10 @@
 # Crowdin UI NEEDS_OWNER_REVIEW — OWNER decisions (194 rindas)
 
-Ģenerēts: 2026-08-28T14:48:54.942Z
+Ģenerēts: 2026-08-28T15:19:00Z
 Avots: `reports/crowdin-ui-final-audit-proof.json` (audit 2e8899cc1b31fe8b78c2d6e3e4f26164ee610256)
 PR: **#691** (Draft) — **nav apply, nav Crowdin, nav production izmaiņu**
+**OWNER status:** OWNER_ACCEPTED (194/194) · **ownerCorrectedNewValues:** 8
+**Luna pārbaude:** `reports/crowdin-ui-needs-owner-review-decisions-verification.md` — **PASS**
 
 ## Vārti
 
@@ -51,8 +53,8 @@ PR: **#691** (Draft) — **nav apply, nav Crowdin, nav production izmaiņu**
 | lb | buttons.extraOptions | Papildu opcijas → Zousätzlech Optiounen |
 | lb | buttons.extraOptionsClose | Papildu opcijas ▲ → Zousätzlech Optiounen ▲ |
 | lb | buttons.extraOptionsOpen | Papildu opcijas ▼ → Zousätzlech Optiounen ▼ |
-| lb | buttons.restore | Atgriezt → Zrécksetzen |
-| lb | buttons.restoreAll | Atgriezt visu → Alles zrécksetzen |
+| lb | buttons.restore | Atgriezt → Zeréckhuelen |
+| lb | buttons.restoreAll | Atgriezt visu → Alles zeréckhuelen |
 | lb | card.answerPrefix | Atbilde: → Äntwert: |
 | lb | card.pluralLabel | Daudzsk. → Plural |
 | lb | card.sessionComplete | Sesija pabeigta! → Sessioun ofgeschloss! |
@@ -68,15 +70,15 @@ PR: **#691** (Draft) — **nav apply, nav Crowdin, nav production izmaiņu**
 | lb | kurss.lessonItems.1.title | Lekcija 1 → Lektioun 1 |
 | lb | kurss.lessonItems.10.menuDesc | Sein, können, veselība, vecums un profesijas. → Sein, können, Gesondheet, Alter an Beruffer. |
 | lb | kurss.lessonItems.10.title | Lekcija 10 → Lektioun 10 |
-| lb | kurss.lessonItems.11.menuDesc | Haben, kein/keine/keinen, piederība un saliktie lietvārdi. → Haben, kein/keine/keinen, Besëtzen an zesummegesate Nomen. |
+| lb | kurss.lessonItems.11.menuDesc | Haben, kein/keine/keinen, piederība un saliktie lietvārdi. → Haben, kein/keine/keinen, Besëtz an zesummegesate Nomen. |
 | lb | kurss.lessonItems.11.title | Lekcija 11 → Lektioun 11 |
 | lb | kurss.lessonItems.12.menuDesc | Salīdzināmās pakāpes, als/wie, vecums un krāsas. → Vergläichsformen, als/wie, Alter an Faarwen. |
 | lb | kurss.lessonItems.12.title | Lekcija 12 → Lektioun 12 |
-| lb | kurss.lessonItems.13.menuDesc | Der Körper, ķermeņa daļas, turnen un jeder. → Der Körper, Kéierdeelen, turnen an jeder. |
+| lb | kurss.lessonItems.13.menuDesc | Der Körper, ķermeņa daļas, turnen un jeder. → Der Körper, Kierperdeeler, turnen an jeder. |
 | lb | kurss.lessonItems.13.title | Lekcija 13 → Lektioun 13 |
 | lb | kurss.lessonItems.14.menuDesc | müssen, wollen, mögen un modālie darbības vārdi. → müssen, wollen, mögen an modal Verben. |
 | lb | kurss.lessonItems.14.title | Lekcija 14 → Lektioun 14 |
-| lb | kurss.lessonItems.15.menuDesc | sollen, dürfen, essen un augļi. → sollen, dürfen, essen an Fruucht. |
+| lb | kurss.lessonItems.15.menuDesc | sollen, dürfen, essen un augļi. → sollen, dürfen, essen an Uebst. |
 | lb | kurss.lessonItems.15.title | Lekcija 15 → Lektioun 15 |
 | lb | kurss.lessonItems.16.menuDesc | Dativs, geben, sich nähern. → Dativ, geben, sich nähern. |
 | lb | kurss.lessonItems.16.title | Lekcija 16 → Lektioun 16 |
@@ -96,7 +98,7 @@ PR: **#691** (Draft) — **nav apply, nav Crowdin, nav production izmaiņu**
 | lb | kurss.lessonItems.5.title | Lekcija 5 → Lektioun 5 |
 | lb | kurss.lessonItems.6.menuDesc | Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas. → Zuelen, Plural, Umlauter an Pluralformen vun Nomen. |
 | lb | kurss.lessonItems.6.title | Lekcija 6 → Lektioun 6 |
-| lb | kurss.lessonItems.7.menuDesc | Pavēles izteiksme, uzrunas forma un daudzskaitlis. → Imperativ, Ussproochform an Plural. |
+| lb | kurss.lessonItems.7.menuDesc | Pavēles izteiksme, uzrunas forma un daudzskaitlis. → Imperativ, Uriedsform an Plural. |
 | lb | kurss.lessonItems.7.title | Lekcija 7 → Lektioun 7 |
 | lb | kurss.lessonItems.8.menuDesc | Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs. → Reflexivverben, e → i/ie Wechsel an Akkusativ. |
 | lb | kurss.lessonItems.8.title | Lekcija 8 → Lektioun 8 |
@@ -111,12 +113,12 @@ PR: **#691** (Draft) — **nav apply, nav Crowdin, nav production izmaiņu**
 | lb | modes.easy | Viegls → Liicht |
 | lb | progress.courseHeading | Kurss → Cours |
 | lb | settings.appLanguage | Lietotnes valoda → App-Sprooch |
-| lb | spelling.writeAnswer | Ieraksti atbildi → Äntwert antippen |
+| lb | spelling.writeAnswer | Ieraksti atbildi → Gëff d'Äntwert an |
 | lb | study.minimal.formsLabel | Formas: → Formen: |
 | lb | study.minimal.pluralLabel | DAUDZSK. → PLURAL |
 | lb | study.minimal.tipLabel | Padoms: → Tipp: |
 | lb | study.sections.explanation | Skaidrojums → Erklärung |
-| lb | study.sections.remember | Atceries → Verhaalen |
+| lb | study.sections.remember | Atceries → Denk drun |
 | lb | study.sections.tip | Padoms → Tipp |
 | lb | study.table.describes | Raksturo → Beschreift |
 | lb | study.table.translation | Tulkojums → Iwwersetzung |
