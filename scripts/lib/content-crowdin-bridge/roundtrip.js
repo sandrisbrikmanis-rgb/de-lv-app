@@ -10,6 +10,8 @@ const {
   loadTrainingCardsByLesson,
   flattenG1TrainingCards,
   applyG1TrainingFlat,
+  trainingCardsRel,
+  TRAINING_NOT_APPLICABLE_LANGS,
 } = require("./flatten-g1-training");
 const { flattenG3CourseLessons, applyG3CourseLessonsFlat } = require("./flatten-g3-lessons");
 const { exportFlatToJson, parseCrowdinJson } = require("./guards");
@@ -82,6 +84,20 @@ function roundTripGroup({ group, lang, level }) {
   }
   if (group === "g1-training" && Object.keys(original).length === 0) {
     return { pass: false, reason: "training cards missing", keyCount: 0, skipped: true };
+  }
+  if (group === "g1-training" && !TRAINING_NOT_APPLICABLE_LANGS.has(lang)) {
+    const rel = trainingCardsRel(lang);
+    if (rel && fileExists(rel)) {
+      const lesson7 = original.lesson7;
+      if (!Array.isArray(lesson7) || lesson7.length === 0) {
+        return {
+          pass: false,
+          reason: "lesson7ExerciseCards missing or empty",
+          keyCount: 0,
+          lesson7Missing: true,
+        };
+      }
+    }
   }
 
   const flat = flattenGroup({ group, lang, level, data: original });

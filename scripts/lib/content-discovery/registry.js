@@ -11,7 +11,7 @@ const {
   G2_LEVELS,
 } = require("../content-crowdin-bridge/constants");
 const { runBaselineGate } = require("./baseline-gate");
-const { collectG2Structural } = require("./collectors/structural");
+const { collectG2Structural, collectG1SentencesStructural, collectG1VerbsStructural, collectG1TrainingStructural, collectG3CourseLessonsStructural } = require("./collectors/structural");
 const { collectG2DeCompliance } = require("./collectors/de-compliance");
 const { collectG2MultiTranslation, collectG1SentencesMultiTranslation } = require("./collectors/multi-translation");
 const { collectMojibake, collectMirrorSync } = require("./collectors/mojibake-mirror");
@@ -88,20 +88,15 @@ function collectForScope({ group, dataset, lang }) {
     findings.push(...mirror.findings);
   }
 
-  if (group === "g1" && dataset === "sentences" && lang !== "lv") {
-    const multi = collectG1SentencesMultiTranslation({ lang, idPrefix });
-    findings.push(...multi.findings);
-    stats.multiTranslationRaw = multi.stats.candidatesRaw;
-    const files = g1Files(lang, dataset);
-    const moji = collectMojibake({ lang, files, idPrefix, group: "g1", dataset });
-    findings.push(...moji.findings);
-    const mirror = collectMirrorSync({ lang, files, idPrefix, group: "g1", dataset });
-    findings.push(...mirror.findings);
-  }
-
-  if (group === "g1" && (dataset === "verbs" || dataset === "training") && lang !== "lv") {
-    const files = g1Files(lang, dataset);
-    if (files.length) {
+  if (group === "g1" && dataset === "sentences") {
+    const structural = collectG1SentencesStructural({ lang, idPrefix });
+    findings.push(...structural.findings);
+    Object.assign(stats, structural.stats);
+    if (lang !== "lv") {
+      const multi = collectG1SentencesMultiTranslation({ lang, idPrefix });
+      findings.push(...multi.findings);
+      stats.multiTranslationRaw = multi.stats.candidatesRaw;
+      const files = g1Files(lang, dataset);
       const moji = collectMojibake({ lang, files, idPrefix, group: "g1", dataset });
       findings.push(...moji.findings);
       const mirror = collectMirrorSync({ lang, files, idPrefix, group: "g1", dataset });
@@ -109,12 +104,43 @@ function collectForScope({ group, dataset, lang }) {
     }
   }
 
-  if (group === "g3" && lang !== "lv") {
-    const files = g3Files(lang);
-    const moji = collectMojibake({ lang, files, idPrefix, group: "g3", dataset });
-    findings.push(...moji.findings);
-    const mirror = collectMirrorSync({ lang, files, idPrefix, group: "g3", dataset });
-    findings.push(...mirror.findings);
+  if (group === "g1" && dataset === "verbs") {
+    const structural = collectG1VerbsStructural({ lang, idPrefix });
+    findings.push(...structural.findings);
+    Object.assign(stats, structural.stats);
+    if (lang !== "lv") {
+      const files = g1Files(lang, dataset);
+      const moji = collectMojibake({ lang, files, idPrefix, group: "g1", dataset });
+      findings.push(...moji.findings);
+      const mirror = collectMirrorSync({ lang, files, idPrefix, group: "g1", dataset });
+      findings.push(...mirror.findings);
+    }
+  }
+
+  if (group === "g1" && dataset === "training") {
+    const structural = collectG1TrainingStructural({ lang, idPrefix });
+    findings.push(...structural.findings);
+    Object.assign(stats, structural.stats);
+    if (lang !== "lv" && g1Files(lang, dataset).length) {
+      const files = g1Files(lang, dataset);
+      const moji = collectMojibake({ lang, files, idPrefix, group: "g1", dataset });
+      findings.push(...moji.findings);
+      const mirror = collectMirrorSync({ lang, files, idPrefix, group: "g1", dataset });
+      findings.push(...mirror.findings);
+    }
+  }
+
+  if (group === "g3") {
+    const structural = collectG3CourseLessonsStructural({ lang, idPrefix });
+    findings.push(...structural.findings);
+    Object.assign(stats, structural.stats);
+    if (lang !== "lv") {
+      const files = g3Files(lang);
+      const moji = collectMojibake({ lang, files, idPrefix, group: "g3", dataset });
+      findings.push(...moji.findings);
+      const mirror = collectMirrorSync({ lang, files, idPrefix, group: "g3", dataset });
+      findings.push(...mirror.findings);
+    }
   }
 
   return { findings, stats };

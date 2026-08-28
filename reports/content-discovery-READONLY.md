@@ -1,7 +1,7 @@
 # Content discovery — READ-ONLY (Phase 0)
 
 **Status:** PHASE_0_IN_PROGRESS
-**Generated:** 2026-08-28T17:42:10.648Z
+**Generated:** 2026-08-28T17:56:23.467Z
 **MASTER:** 1.12
 **ORIGIN_MAIN_SHA:** `93c372824359b00bd73d37ae3193bdf587118e75`
 **Baseline:** PASS
@@ -13,6 +13,7 @@
 
 | Group | Dataset | Lang | Findings | Critical | High | Verdict |
 |-------|---------|------|----------|----------|------|---------|
+| g2 | a1 | lv | 0 | 0 | 0 | PASS |
 | g2 | a1 | lt | 78 | 0 | 71 | NEEDS_OWNER_REVIEW |
 | g2 | a1 | ru | 68 | 0 | 68 | NEEDS_OWNER_REVIEW |
 | g2 | a1 | pl | 70 | 0 | 70 | NEEDS_OWNER_REVIEW |
@@ -44,6 +45,7 @@
 | g2 | a1 | pt | 73 | 0 | 68 | NEEDS_OWNER_REVIEW |
 | g2 | a1 | hu | 68 | 0 | 68 | NEEDS_OWNER_REVIEW |
 | g2 | a1 | is | 69 | 0 | 69 | NEEDS_OWNER_REVIEW |
+| g2 | a2 | lv | 0 | 0 | 0 | PASS |
 | g2 | a2 | lt | 240 | 0 | 235 | NEEDS_OWNER_REVIEW |
 | g2 | a2 | ru | 231 | 0 | 231 | NEEDS_OWNER_REVIEW |
 | g2 | a2 | pl | 235 | 0 | 234 | NEEDS_OWNER_REVIEW |
@@ -75,6 +77,7 @@
 | g2 | a2 | pt | 240 | 0 | 233 | NEEDS_OWNER_REVIEW |
 | g2 | a2 | hu | 234 | 0 | 234 | NEEDS_OWNER_REVIEW |
 | g2 | a2 | is | 235 | 0 | 235 | NEEDS_OWNER_REVIEW |
+| g2 | b1 | lv | 0 | 0 | 0 | PASS |
 | g2 | b1 | lt | 29 | 0 | 27 | NEEDS_OWNER_REVIEW |
 | g2 | b1 | ru | 24 | 0 | 24 | NEEDS_OWNER_REVIEW |
 | g2 | b1 | pl | 24 | 0 | 24 | NEEDS_OWNER_REVIEW |
@@ -106,6 +109,7 @@
 | g2 | b1 | pt | 30 | 0 | 23 | NEEDS_OWNER_REVIEW |
 | g2 | b1 | hu | 24 | 0 | 24 | NEEDS_OWNER_REVIEW |
 | g2 | b1 | is | 21 | 0 | 21 | NEEDS_OWNER_REVIEW |
+| g2 | b2 | lv | 0 | 0 | 0 | PASS |
 | g2 | b2 | lt | 915 | 0 | 911 | NEEDS_OWNER_REVIEW |
 | g2 | b2 | ru | 876 | 0 | 876 | NEEDS_OWNER_REVIEW |
 | g2 | b2 | pl | 905 | 0 | 903 | NEEDS_OWNER_REVIEW |
@@ -137,6 +141,7 @@
 | g2 | b2 | pt | 909 | 0 | 899 | NEEDS_OWNER_REVIEW |
 | g2 | b2 | hu | 898 | 0 | 898 | NEEDS_OWNER_REVIEW |
 | g2 | b2 | is | 806 | 0 | 806 | NEEDS_OWNER_REVIEW |
+| g2 | c1 | lv | 0 | 0 | 0 | PASS |
 | g2 | c1 | lt | 135 | 0 | 134 | NEEDS_OWNER_REVIEW |
 | g2 | c1 | ru | 129 | 0 | 129 | NEEDS_OWNER_REVIEW |
 | g2 | c1 | pl | 133 | 0 | 133 | NEEDS_OWNER_REVIEW |
@@ -168,6 +173,7 @@
 | g2 | c1 | pt | 137 | 0 | 133 | NEEDS_OWNER_REVIEW |
 | g2 | c1 | hu | 133 | 0 | 133 | NEEDS_OWNER_REVIEW |
 | g2 | c1 | is | 104 | 0 | 104 | NEEDS_OWNER_REVIEW |
+| g2 | c2 | lv | 0 | 0 | 0 | PASS |
 | g2 | c2 | lt | 22 | 0 | 21 | NEEDS_OWNER_REVIEW |
 | g2 | c2 | ru | 21 | 0 | 21 | NEEDS_OWNER_REVIEW |
 | g2 | c2 | pl | 21 | 0 | 21 | NEEDS_OWNER_REVIEW |
@@ -199,6 +205,7 @@
 | g2 | c2 | pt | 21 | 0 | 21 | NEEDS_OWNER_REVIEW |
 | g2 | c2 | hu | 20 | 0 | 20 | NEEDS_OWNER_REVIEW |
 | g2 | c2 | is | 18 | 0 | 18 | NEEDS_OWNER_REVIEW |
+| g1 | sentences | lv | 0 | 0 | 0 | PASS |
 | g1 | sentences | lt | 47 | 0 | 47 | NEEDS_OWNER_REVIEW |
 | g1 | sentences | ru | 47 | 0 | 47 | NEEDS_OWNER_REVIEW |
 | g1 | sentences | pl | 47 | 0 | 47 | NEEDS_OWNER_REVIEW |
@@ -230,6 +237,7 @@
 | g1 | sentences | pt | 47 | 0 | 47 | NEEDS_OWNER_REVIEW |
 | g1 | sentences | hu | 47 | 0 | 47 | NEEDS_OWNER_REVIEW |
 | g1 | sentences | is | 47 | 0 | 47 | NEEDS_OWNER_REVIEW |
+| g1 | verbs | lv | 0 | 0 | 0 | PASS |
 | g1 | verbs | lt | 0 | 0 | 0 | PASS |
 | g1 | verbs | ru | 0 | 0 | 0 | PASS |
 | g1 | verbs | pl | 0 | 0 | 0 | PASS |
@@ -261,6 +269,7 @@
 | g1 | verbs | pt | 0 | 0 | 0 | PASS |
 | g1 | verbs | hu | 0 | 0 | 0 | PASS |
 | g1 | verbs | is | 0 | 0 | 0 | PASS |
+| g1 | training | lv | 0 | 0 | 0 | PASS |
 | g1 | training | lt | 0 | 0 | 0 | PASS |
 | g1 | training | ru | 0 | 0 | 0 | PASS |
 | g1 | training | pl | 0 | 0 | 0 | PASS |
@@ -292,6 +301,7 @@
 | g1 | training | pt | 0 | 0 | 0 | PASS |
 | g1 | training | hu | 0 | 0 | 0 | PASS |
 | g1 | training | is | 0 | 0 | 0 | PASS |
+| g3 | courseLessons | lv | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | lt | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | ru | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | pl | 0 | 0 | 0 | PASS |
@@ -309,7 +319,7 @@
 | g3 | courseLessons | sr | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | hr | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | sk | 0 | 0 | 0 | PASS |
-| g3 | courseLessons | cs | 0 | 0 | 0 | PASS |
+| g3 | courseLessons | cs | 21 | 21 | 0 | NEEDS_OWNER_REVIEW |
 | g3 | courseLessons | fi | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | sv | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | nb | 0 | 0 | 0 | PASS |
@@ -319,7 +329,7 @@
 | g3 | courseLessons | lb | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | fr | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | it | 0 | 0 | 0 | PASS |
-| g3 | courseLessons | es | 0 | 0 | 0 | PASS |
+| g3 | courseLessons | es | 8 | 8 | 0 | NEEDS_OWNER_REVIEW |
 | g3 | courseLessons | pt | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | hu | 0 | 0 | 0 | PASS |
 | g3 | courseLessons | is | 0 | 0 | 0 | PASS |

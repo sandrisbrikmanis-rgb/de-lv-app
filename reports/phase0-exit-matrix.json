@@ -1,7 +1,7 @@
 {
-  "status": "PHASE_0_TECHNICAL_PASS",
-  "verdict": "PHASE_0_TECHNICAL_PASS",
-  "generatedAt": "2026-08-28T17:42:19.824Z",
+  "status": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
+  "verdict": "PHASE_0_TECHNICAL_PASS_CANDIDATE",
+  "generatedAt": "2026-08-28T17:56:31.873Z",
   "masterVersion": "1.12",
   "gates": {
     "F0_1_bridge_library": {
@@ -14,10 +14,34 @@
     },
     "F0_3_roundtrip": {
       "pass": true,
-      "passed": 318,
+      "passed": 319,
       "failed": 0,
-      "skipped": 2,
-      "total": 320
+      "skipped": 1,
+      "total": 320,
+      "trainingCoverage": {
+        "total": 32,
+        "applicable": 31,
+        "skipped": [
+          {
+            "group": "g1-training",
+            "dataset": "training",
+            "lang": "et",
+            "pass": false,
+            "reason": "training cards missing",
+            "keyCount": 0,
+            "skipped": true
+          }
+        ],
+        "lesson7Verified": 31,
+        "lesson7Failures": [],
+        "expectedSkipped": [
+          {
+            "lang": "et",
+            "reason": "training cards missing",
+            "status": "EXPECTED_NOT_APPLICABLE"
+          }
+        ]
+      }
     },
     "F0_4_discovery_orchestrator": {
       "pass": true,
@@ -29,7 +53,39 @@
     },
     "F0_6_deterministic_collectors": {
       "pass": true,
-      "note": "structural, de-compliance, multi-translation, mojibake, mirror, remnants"
+      "note": "structural parity for G1/G2/G3 + de-compliance, multi-translation, mojibake, mirror, remnants",
+      "structuralCoverage": {
+        "pass": true,
+        "required": [
+          "g2",
+          "g1-sentences",
+          "g1-verbs",
+          "g1-training",
+          "g3-courseLessons"
+        ],
+        "ran": [
+          "g1-sentences",
+          "g1-training",
+          "g1-verbs",
+          "g2",
+          "g3-courseLessons"
+        ],
+        "missing": [],
+        "expectedNotApplicable": [
+          {
+            "group": "g1",
+            "dataset": "training",
+            "lang": "lv",
+            "note": "lv: no courseTrainingCards.js (LV embedded / ET absent)"
+          },
+          {
+            "group": "g1",
+            "dataset": "training",
+            "lang": "et",
+            "note": "et: no courseTrainingCards.js (LV embedded / ET absent)"
+          }
+        ]
+      }
     },
     "F0_7_production_diff_zero": {
       "pass": true,
@@ -53,23 +109,21 @@
         "c2"
       ],
       "langs": 32,
-      "roundTripPassed": 318,
+      "roundTripPassed": 319,
       "roundTripFailed": 0,
-      "roundTripSkippedMissingDataset": 2,
-      "note": "Skipped = dataset file absent for lang (e.g. g1-training lv/et); not a bridge failure"
+      "roundTripSkippedMissingDataset": 1,
+      "note": "Skipped g1-training = EXPECTED_NOT_APPLICABLE for lv/et (no courseTrainingCards.js)",
+      "expectedNotApplicable": [
+        {
+          "lang": "et",
+          "reason": "training cards missing",
+          "status": "EXPECTED_NOT_APPLICABLE"
+        }
+      ]
     }
   },
   "roundTripFailures": [],
   "roundTripSkipped": [
-    {
-      "group": "g1-training",
-      "dataset": "training",
-      "lang": "lv",
-      "pass": false,
-      "reason": "training cards missing",
-      "keyCount": 0,
-      "skipped": true
-    },
     {
       "group": "g1-training",
       "dataset": "training",
@@ -80,5 +134,5 @@
       "skipped": true
     }
   ],
-  "note": "Branch-level F0 gates PASS. MAIN verification (A7) still required before Phase 1."
+  "note": "Branch-level F0 gates PASS. Awaiting OWNER review / merge approval. MAIN verification (A7) still required before Phase 1."
 }
