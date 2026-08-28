@@ -1,0 +1,763 @@
+{
+  "generatedAt": "2026-08-28T19:41:40.525Z",
+  "verdict": "READY_FOR_MERGE",
+  "MERGE": "NOT_PERFORMED",
+  "PHASE_1": "FORBIDDEN",
+  "baseline": {
+    "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
+    "originMainShaMatchesBaseline": true,
+    "prHeadSha": "b789acf2289042ba390130210bfd03dae24a7869",
+    "prHeadMatchesExpected": true,
+    "preApplyHead": "effe90149ddca51a51943ba2a0ecdac2460e5f71",
+    "applyCommitSha": "2732131c5146b0e58d0aad4daf1e9bea9789a7b7"
+  },
+  "pr": {
+    "number": 693,
+    "state": "OPEN",
+    "baseRefName": "main",
+    "headRefOid": "b789acf2289042ba390130210bfd03dae24a7869",
+    "mergeable": "MERGEABLE",
+    "mergeStateStatus": "CLEAN",
+    "mergeConflicts": 0,
+    "isDraft": true,
+    "failingChecks": 0,
+    "pendingChecks": 0,
+    "reviewDecision": ""
+  },
+  "inventory": {
+    "files": [
+      {
+        "status": "M",
+        "path": "data/cs/b2.js"
+      },
+      {
+        "status": "M",
+        "path": "data/en/b1.js"
+      },
+      {
+        "status": "M",
+        "path": "docs_and_rules/PHASE_0_CROWDIN_DISCOVERY_SPEC.md"
+      },
+      {
+        "status": "M",
+        "path": "package.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/.gitignore"
+      },
+      {
+        "status": "A",
+        "path": "reports/content-discovery-READONLY.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/phase0-exit-matrix.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-classification-READONLY.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-classification-READONLY.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-copy-only-apply.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-copy-only-apply.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-decisions.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-evidence.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-final-decisions.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-repair-mapping.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-review-GITHUB.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-review-README.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-review-package.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-view.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-pr343-field-level.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-pr528-field-level.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-superseded-validation.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-superseded-validation.md"
+      },
+      {
+        "status": "A",
+        "path": "scripts/export-content-crowdin.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/constants.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g1-sentences.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g1-training.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g1-verbs.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g2-flashcards.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g3-lessons.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/guards.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/index.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/roundtrip.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/slug.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/baseline-gate.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/de-compliance.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/mojibake-mirror.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/multi-translation.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/remnants.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/structural.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/discovery-scope.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/git-baseline.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/phase0-gates.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/registry.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-classifier.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-copy-only-apply.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-decision-prep.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-decisions.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-final-decisions.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-prep.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-review-package.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-superseded-validation.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-content-discovery.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-phase0-exit-matrix.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-classification.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-copy-only-apply.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-owner-decision-prep.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-owner-final-decisions.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-owner-prep-audit.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-owner-review-package.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-superseded-validation.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/verify-content-crowdin-roundtrip.js"
+      },
+      {
+        "status": "M",
+        "path": "www/data/cs/b2.js"
+      },
+      {
+        "status": "M",
+        "path": "www/data/en/b1.js"
+      }
+    ],
+    "production": [
+      {
+        "status": "M",
+        "path": "data/cs/b2.js"
+      },
+      {
+        "status": "M",
+        "path": "data/en/b1.js"
+      },
+      {
+        "status": "M",
+        "path": "www/data/cs/b2.js"
+      },
+      {
+        "status": "M",
+        "path": "www/data/en/b1.js"
+      }
+    ],
+    "reports": [
+      {
+        "status": "A",
+        "path": "reports/.gitignore"
+      },
+      {
+        "status": "A",
+        "path": "reports/content-discovery-READONLY.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/phase0-exit-matrix.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-classification-READONLY.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-classification-READONLY.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-copy-only-apply.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-copy-only-apply.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-decisions.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-evidence.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-final-decisions.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-repair-mapping.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-review-GITHUB.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-review-README.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-review-package.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-owner-view.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-pr343-field-level.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-pr528-field-level.md"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-superseded-validation.json"
+      },
+      {
+        "status": "A",
+        "path": "reports/unmerged-closure-superseded-validation.md"
+      }
+    ],
+    "scripts": [
+      {
+        "status": "A",
+        "path": "scripts/export-content-crowdin.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/constants.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g1-sentences.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g1-training.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g1-verbs.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g2-flashcards.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/flatten-g3-lessons.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/guards.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/index.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/roundtrip.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-crowdin-bridge/slug.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/baseline-gate.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/de-compliance.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/mojibake-mirror.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/multi-translation.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/remnants.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/collectors/structural.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/discovery-scope.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/git-baseline.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/phase0-gates.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/registry.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-classifier.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-copy-only-apply.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-decision-prep.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-decisions.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-final-decisions.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-prep.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-owner-review-package.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/lib/content-discovery/unmerged-closure-superseded-validation.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-content-discovery.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-phase0-exit-matrix.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-classification.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-copy-only-apply.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-owner-decision-prep.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-owner-final-decisions.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-owner-prep-audit.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-owner-review-package.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/run-unmerged-closure-superseded-validation.js"
+      },
+      {
+        "status": "A",
+        "path": "scripts/verify-content-crowdin-roundtrip.js"
+      }
+    ],
+    "packageJson": [
+      {
+        "status": "M",
+        "path": "package.json"
+      }
+    ],
+    "docs": [
+      {
+        "status": "M",
+        "path": "docs_and_rules/PHASE_0_CROWDIN_DISCOVERY_SPEC.md"
+      }
+    ],
+    "other": []
+  },
+  "productionScope": {
+    "changedFiles": [
+      "data/cs/b2.js",
+      "data/en/b1.js",
+      "www/data/cs/b2.js",
+      "www/data/en/b1.js"
+    ],
+    "unexpectedProductionFiles": 0,
+    "unexpectedProductionFilesList": [],
+    "unexpectedProductionFields": 0,
+    "structure": {
+      "data/en/b1.js": {
+        "cardAdditions": 0,
+        "cardDeletions": 0,
+        "orderChanges": 0,
+        "deChanges": 0,
+        "unexpectedFields": 0,
+        "unexpectedSamples": []
+      },
+      "data/cs/b2.js": {
+        "cardAdditions": 0,
+        "cardDeletions": 0,
+        "orderChanges": 0,
+        "deChanges": 0,
+        "unexpectedFields": 0,
+        "unexpectedSamples": []
+      }
+    },
+    "deChanges": 0,
+    "cardAdditions": 0,
+    "cardDeletions": 0,
+    "orderChanges": 0
+  },
+  "apply": {
+    "rawMappingRows": 2937,
+    "uniqueTargetFields": 963,
+    "appliedVerified": 963,
+    "rawMappingVerified": 2937,
+    "finalValueMismatch": 0,
+    "failed": 0,
+    "enB1Unique": 16,
+    "csB2Unique": 947,
+    "verifyFailures": []
+  },
+  "gates": {
+    "MIRROR_EN_B1": "PASS",
+    "MIRROR_CS_B2": "PASS",
+    "MIRROR_MISMATCH": 0,
+    "SYNTAX": "PASS",
+    "IMPORT_LOAD": "PASS",
+    "ID_UNIQUENESS": "PASS",
+    "ID_ORDER": "PASS",
+    "STRUCTURE": "PASS",
+    "EN_PARITY": "PASS",
+    "CS_PARITY": "PASS",
+    "STUDY": "PASS",
+    "PLACEHOLDERS": "NOT_APPLICABLE",
+    "HTML": "NOT_APPLICABLE"
+  },
+  "study": {
+    "status": "PASS",
+    "studyFieldsInScope": 63,
+    "nonStudyFieldsInScope": 900,
+    "parseOk": 63,
+    "issues": [],
+    "issueCount": 0
+  },
+  "placeholders": {
+    "status": "NOT_APPLICABLE",
+    "fieldsWithPlaceholders": 0,
+    "issues": [],
+    "issueCount": 0
+  },
+  "html": {
+    "status": "NOT_APPLICABLE",
+    "fieldsWithHtml": 0,
+    "issues": [],
+    "issueCount": 0
+  },
+  "samples": {
+    "fressen.lv": {
+      "expected": "Eat (of animals)",
+      "actual": "Eat (of animals)",
+      "pass": true
+    },
+    "widersprechen.lv": {
+      "expected": "Odporovat",
+      "actual": "Odporovat",
+      "pass": true
+    },
+    "fressen.sectionAccents.explanation.purple": {
+      "expected": [
+        "animals eating",
+        "gobble"
+      ],
+      "actual": [
+        "animals eating",
+        "gobble"
+      ],
+      "pass": true
+    },
+    "fressen.purple[2]": {
+      "expected": "NOT_PRESENT",
+      "pass": true
+    },
+    "Baumstumpf_OWNER_NEW": [
+      {
+        "fieldPath": "card.Baumstumpf.lv",
+        "ownerNew": "Tree stump",
+        "actual": "Tree stump",
+        "pass": true
+      }
+    ],
+    "Tau_OWNER_NEW": [
+      {
+        "fieldPath": "card.Tau.study.explanation",
+        "ownerNew": "Main Idea: das Tau means ship's tow or strong rope. The plural is die Taue. Der Tau, on the other hand, means dew and is used only in the singular.",
+        "actual": "Main Idea: das Tau means ship's tow or strong rope. The plural is die Taue. Der Tau, on the other hand, means dew and is used only in the singular.",
+        "pass": true
+      },
+      {
+        "fieldPath": "card.Tau.study.examples[1].lv",
+        "ownerNew": "The ropes are tied tightly.",
+        "actual": "The ropes are tied tightly.",
+        "pass": true
+      },
+      {
+        "fieldPath": "card.Tau.study.tip.leftBlocks[0].text",
+        "ownerNew": "For tying up a ship and for ropes — das Tau. For dew on the grass — der Tau.",
+        "actual": "For tying up a ship and for ropes — das Tau. For dew on the grass — der Tau.",
+        "pass": true
+      }
+    ],
+    "verfolgen_OWNER_NEW": [
+      {
+        "fieldPath": "card.verfolgen.study.explanation",
+        "ownerNew": "Main idea: verfolgen means to follow, chase, or pursue. The meaning becomes stronger when the object is a person.",
+        "actual": "Main idea: verfolgen means to follow, chase, or pursue. The meaning becomes stronger when the object is a person.",
+        "pass": true
+      },
+      {
+        "fieldPath": "card.verfolgen.study.tip.leftBlocks[0].text",
+        "ownerNew": "You can follow the news; you can chase or pursue a person: verfolgen.",
+        "actual": "You can follow the news; you can chase or pursue a person: verfolgen.",
+        "pass": true
+      },
+      {
+        "fieldPath": "card.verfolgen.study.important.text",
+        "ownerNew": "verfolgen with a person often means to chase rather than to follow calmly.",
+        "actual": "verfolgen with a person often means to chase rather than to follow calmly.",
+        "pass": true
+      },
+      {
+        "fieldPath": "card.verfolgen.study.sectionAccents.comparison[1].meaning.purple",
+        "ownerNew": "follow",
+        "actual": "follow",
+        "pass": true
+      }
+    ]
+  },
+  "csB2Fields": {
+    "total": 947,
+    "lvTotal": 898,
+    "studyTotal": 49,
+    "verified": 947,
+    "failures": [],
+    "failureCount": 0,
+    "currentRemnants": 0,
+    "pass": true
+  },
+  "owner": {
+    "OWNER_DECISIONS_FILLED": "53/53",
+    "OWNER_PENDING": 0,
+    "CLOSED_SUPERSEDED": 43,
+    "NEEDS_REPAIR": 9,
+    "FALSE_POSITIVE": 1,
+    "verdict": "OWNER_DECISIONS_COMPLETE"
+  },
+  "git": {
+    "status": "CLEAN",
+    "dirtyFiles": []
+  },
+  "criteria": {
+    "PR_HEAD_VERIFIED": "PASS",
+    "BASE_BRANCH": "PASS",
+    "MERGE_CONFLICTS": 0,
+    "MERGEABLE": "MERGEABLE",
+    "RAW_MAPPING_ROWS": 2937,
+    "UNIQUE_TARGET_FIELDS": 963,
+    "APPLIED_VERIFIED": "963/963",
+    "RAW_MAPPING_VERIFIED": "2937/2937",
+    "FINAL_VALUE_MISMATCH": 0,
+    "FAILED": 0,
+    "EN_B1_UNIQUE": 16,
+    "CS_B2_UNIQUE": 947,
+    "DE_CHANGES": 0,
+    "UNEXPECTED_PRODUCTION_FILES": 0,
+    "UNEXPECTED_PRODUCTION_FIELDS": 0,
+    "CARD_ADDITIONS": 0,
+    "CARD_DELETIONS": 0,
+    "ORDER_CHANGES": 0,
+    "OWNER_REVIEWED": "53/53",
+    "OWNER_PENDING": 0,
+    "GIT_STATUS": "CLEAN",
+    "FAILING_CHECKS": 0,
+    "PR_MERGES": 0,
+    "PR_CLOSES": 0,
+    "BRANCH_DELETIONS": 0
+  }
+}
