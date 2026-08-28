@@ -1,0 +1,160 @@
+{
+  "summary": {
+    "generatedAt": "2026-08-28T15:19:00.907Z",
+    "reviewer": "GPT-5.6-Luna (linguistic + technical READ-ONLY)",
+    "authority": {
+      "decisionsJsonSha": "f875793fe9eb",
+      "decisionsCsvSha": "afa0c92fd013",
+      "schemaVersion": 2,
+      "ownerApproval": "OWNER_ACCEPTED"
+    },
+    "requested": 194,
+    "reviewed": 194,
+    "decisions": {
+      "LABOT": 78,
+      "NELABOT": 116
+    },
+    "ownerCorrectedNewValues": 8,
+    "technical": {
+      "duplicateKeys": 0,
+      "missingKeys": 0,
+      "currentMismatch": 0,
+      "placeholderErrors": 0,
+      "htmlErrors": 0,
+      "labotEmptyNew": 0,
+      "nelabotWithNew": 0,
+      "jsonCsvMismatch": 0,
+      "lvSourceConflicts": 0,
+      "ownerDecisionMismatch": 0,
+      "ownerApprovedMissing": 0,
+      "pass": true
+    },
+    "linguistic": {
+      "flaggedRows": 0,
+      "errorFlags": 0,
+      "warningFlags": 0,
+      "pass": true
+    },
+    "applyPerformed": false,
+    "productionFilesChanged": 0,
+    "crowdinChanged": 0,
+    "result": "PASS"
+  },
+  "ownerCorrectedKeys": [
+    {
+      "language": "lb",
+      "key": "buttons.restore",
+      "newValue": "Zeréckhuelen"
+    },
+    {
+      "language": "lb",
+      "key": "buttons.restoreAll",
+      "newValue": "Alles zeréckhuelen"
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.11.menuDesc",
+      "newValue": "Haben, kein/keine/keinen, Besëtz an zesummegesate Nomen."
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.13.menuDesc",
+      "newValue": "Der Körper, Kierperdeeler, turnen an jeder."
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.15.menuDesc",
+      "newValue": "sollen, dürfen, essen an Uebst."
+    },
+    {
+      "language": "lb",
+      "key": "kurss.lessonItems.7.menuDesc",
+      "newValue": "Imperativ, Uriedsform an Plural."
+    },
+    {
+      "language": "lb",
+      "key": "spelling.writeAnswer",
+      "newValue": "Gëff d'Äntwert an"
+    },
+    {
+      "language": "lb",
+      "key": "study.sections.remember",
+      "newValue": "Denk drun"
+    }
+  ],
+  "findings": [],
+  "linguisticEvidence": {
+    "bs": {
+      "LABOT": 1,
+      "NELABOT": 24
+    },
+    "cs": {
+      "LABOT": 0,
+      "NELABOT": 2
+    },
+    "es": {
+      "LABOT": 0,
+      "NELABOT": 2
+    },
+    "et": {
+      "LABOT": 0,
+      "NELABOT": 2
+    },
+    "fi": {
+      "LABOT": 0,
+      "NELABOT": 2
+    },
+    "hr": {
+      "LABOT": 0,
+      "NELABOT": 21
+    },
+    "is": {
+      "LABOT": 0,
+      "NELABOT": 2
+    },
+    "it": {
+      "LABOT": 0,
+      "NELABOT": 2
+    },
+    "lb": {
+      "LABOT": 77,
+      "NELABOT": 3
+    },
+    "lt": {
+      "LABOT": 0,
+      "NELABOT": 4
+    },
+    "nb": {
+      "LABOT": 0,
+      "NELABOT": 2
+    },
+    "nl": {
+      "LABOT": 0,
+      "NELABOT": 2
+    },
+    "nn": {
+      "LABOT": 0,
+      "NELABOT": 2
+    },
+    "pl": {
+      "LABOT": 0,
+      "NELABOT": 1
+    },
+    "sk": {
+      "LABOT": 0,
+      "NELABOT": 1
+    },
+    "sl": {
+      "LABOT": 0,
+      "NELABOT": 21
+    },
+    "sr": {
+      "LABOT": 0,
+      "NELABOT": 21
+    },
+    "sv": {
+      "LABOT": 0,
+      "NELABOT": 2
+    }
+  }
+}
