@@ -3,7 +3,7 @@
   "module": "unmerged-closure-d1",
   "decidedBy": "OWNER",
   "description": "OWNER-PREP manifest — 53/53 candidates. Cursor fills evidence fields only; resolvedCategory/ownerReason/ownerDecisionDate remain null until OWNER decides.",
-  "generatedAt": "2026-08-28T19:20:01.321Z",
+  "generatedAt": "2026-08-28T19:31:34.917Z",
   "originMainSha": "93c372824359b00bd73d37ae3193bdf587118e75",
   "pr693HeadSha": "a8b884df288293c118047d6c82788798c36ef048",
   "expectedCandidates": 53,
@@ -3740,7 +3740,9 @@
           "file": "data/en/b1.js"
         }
       ],
-      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6"
+      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6",
+      "applyStatus": "APPLIED_VERIFIED",
+      "finalValueVerified": true
     },
     {
       "headRefName": "cursor/audit-kurss-content-5a8d",
@@ -111701,7 +111703,9 @@
           "file": "data/cs/b2.js"
         }
       ],
-      "baseSha": "8400573aa829dff8ce953cb6e84526b6e550dcf6"
+      "baseSha": "8400573aa829dff8ce953cb6e84526b6e550dcf6",
+      "applyStatus": "APPLIED_VERIFIED",
+      "finalValueVerified": true
     },
     {
       "headRefName": "cursor/cs-b2-owner-copy-only-repair-6ea4",
@@ -125011,7 +125015,9 @@
           "file": "data/cs/b2.js"
         }
       ],
-      "baseSha": "8400573aa829dff8ce953cb6e84526b6e550dcf6"
+      "baseSha": "8400573aa829dff8ce953cb6e84526b6e550dcf6",
+      "applyStatus": "APPLIED_VERIFIED",
+      "finalValueVerified": true
     },
     {
       "headRefName": "cursor/cs-b2-targeted-regression-audit-6ea4",
@@ -138321,7 +138327,9 @@
           "file": "data/cs/b2.js"
         }
       ],
-      "baseSha": "8400573aa829dff8ce953cb6e84526b6e550dcf6"
+      "baseSha": "8400573aa829dff8ce953cb6e84526b6e550dcf6",
+      "applyStatus": "APPLIED_VERIFIED",
+      "finalValueVerified": true
     },
     {
       "headRefName": "cursor/da-kurss-full-luna-audit-fffe",
@@ -142287,7 +142295,9 @@
           "file": "data/en/b1.js"
         }
       ],
-      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6"
+      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6",
+      "applyStatus": "APPLIED_VERIFIED",
+      "finalValueVerified": true
     },
     {
       "headRefName": "cursor/en-b1-high-repair-02-6850",
@@ -145619,7 +145629,9 @@
           "file": "data/en/b1.js"
         }
       ],
-      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6"
+      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6",
+      "applyStatus": "APPLIED_VERIFIED",
+      "finalValueVerified": true
     },
     {
       "headRefName": "cursor/en-b1-high-repair-03-6850",
@@ -149301,7 +149313,9 @@
           "file": "data/en/b1.js"
         }
       ],
-      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6"
+      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6",
+      "applyStatus": "APPLIED_VERIFIED",
+      "finalValueVerified": true
     },
     {
       "headRefName": "cursor/en-b1-high-repair-04-6850",
@@ -153333,7 +153347,9 @@
           "file": "data/en/b1.js"
         }
       ],
-      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6"
+      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6",
+      "applyStatus": "APPLIED_VERIFIED",
+      "finalValueVerified": true
     },
     {
       "headRefName": "cursor/en-b1-high-repair-05-6850",
@@ -157701,7 +157717,9 @@
           "file": "data/en/b1.js"
         }
       ],
-      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6"
+      "baseSha": "ee99e64ea571b6d8ffff38bc6530ce7815ceeeb6",
+      "applyStatus": "APPLIED_VERIFIED",
+      "finalValueVerified": true
     },
     {
       "headRefName": "cursor/es-kurss-articles-visual-repair-3141",
@@ -166742,7 +166760,7 @@
       "baseSha": "8c82df0454dad44636830145e26e5b8e52aa4184"
     }
   ],
-  "supersededValidationAt": "2026-08-28T19:20:01.321Z",
+  "supersededValidationAt": "2026-08-28T19:31:34.917Z",
   "ownerReviewPackageAt": "2026-08-28T19:05:32.658Z",
   "ownerAutoAccepted": "0/53",
   "ownerPending": "0/53",
@@ -166765,5 +166783,8 @@
     },
     "repairRows": 2937,
     "verdict": "OWNER_DECISIONS_COMPLETE"
-  }
+  },
+  "applyStatus": "APPLIED_VERIFIED",
+  "appliedAtCommit": "effe90149ddca51a51943ba2a0ecdac2460e5f71",
+  "applyReportJson": "/workspace/reports/unmerged-closure-copy-only-apply.json"
 }

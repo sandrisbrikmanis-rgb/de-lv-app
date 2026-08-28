@@ -1,0 +1,64 @@
+# Unmerged closure — COPY-ONLY apply report
+
+**Generated:** 2026-08-28T19:32:15.888Z
+**PRE_APPLY_HEAD:** `effe90149ddca51a51943ba2a0ecdac2460e5f71`
+**APPLY_COMMIT_SHA:** `(pending commit)`
+**ORIGIN_MAIN_SHA:** `93c372824359b00bd73d37ae3193bdf587118e75`
+**VERDICT:** READY_FOR_PRE_MERGE_REVIEW
+
+## Preflight
+
+| Metric | Value |
+|--------|------:|
+| RAW_MAPPING_ROWS | 2937 |
+| IDENTICAL_DUPLICATE_ROWS | 1974 |
+| CURRENT_CONFLICT | 0 |
+| NEW_CONFLICT | 0 |
+| TARGET_CONFLICT | 0 |
+| MALFORMED_MAPPING | 0 |
+| UNIQUE_TARGET_FIELDS | 963 |
+| CURRENT_EXACT_MATCH | 0 |
+| ALREADY_EQUALS_NEW | 963 |
+| EN_B1_UNIQUE | 16 |
+| CS_B2_UNIQUE | 947 |
+| VERIFY_ONLY | true |
+
+## Apply results
+
+| REQUESTED_UNIQUE | 963 |
+| APPLIED_VERIFIED | 963/963 |
+| ALREADY_EQUALS_NEW | 963 |
+| FINAL_VALUE_MISMATCH | 0 |
+| RAW_MAPPING_VERIFIED | 2937/2937 |
+
+## Technical gates
+
+- SYNTAX: PASS
+- MIRROR_EN_B1: PASS
+- MIRROR_CS_B2: PASS
+- ID_UNIQUENESS: PASS
+- ID_ORDER: PASS
+- STRUCTURE: PASS
+- CS_PARITY: PASS
+- STUDY: COMMAND_NOT_AVAILABLE
+- PLACEHOLDERS: COMMAND_NOT_AVAILABLE
+- HTML: COMMAND_NOT_AVAILABLE
+- DE_CHANGES: 0
+- UNEXPECTED_CHANGED_FILES: 0
+- OWNER_MAPPING_VERIFY: PASS
+
+## Changed files
+
+- data/cs/b2.js
+- data/en/b1.js
+- www/data/cs/b2.js
+- www/data/en/b1.js
+
+## PR #343 purple[2]
+
+- Status: **NOT_APPLIED** (optional accent; excluded from repair mapping)
+
+## PR #528 / #564 production changes
+
+- PR #528: 0
+- PR #564: 0
