@@ -1,0 +1,2703 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "path": "reports/crowdin-ui-final-audit-proof.json",
+    "auditCommit": "2e8899cc1b31fe8b78c2d6e3e4f26164ee610256",
+    "pullRequest": 691,
+    "branch": "cursor/crowdin-ui-untranslated-audit-06ff",
+    "mode": "READ-ONLY"
+  },
+  "summary": {
+    "REQUESTED": 194,
+    "REVIEWED": 194,
+    "LABOT": 78,
+    "NELABOT": 116,
+    "PENDING": 0,
+    "duplicateKeys": 0,
+    "currentMismatch": 0,
+    "placeholderErrors": 0,
+    "htmlErrors": 0,
+    "productionFilesChanged": 0,
+    "crowdinChanged": 0
+  },
+  "linguisticEvidence": {
+    "bs": {
+      "LABOT": 1,
+      "NELABOT": 24,
+      "samples": [
+        {
+          "key": "card.sessionLabel",
+          "ownerStatus": "NELABOT",
+          "current": "Sesija",
+          "newValue": null
+        },
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "kurss.lessonItems.1.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 1",
+          "newValue": null
+        }
+      ]
+    },
+    "cs": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "kurss.sections.grammar",
+          "ownerStatus": "NELABOT",
+          "current": "Gramatika",
+          "newValue": null
+        }
+      ]
+    },
+    "es": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "study.minimal.formsLabel",
+          "ownerStatus": "NELABOT",
+          "current": "Formas:",
+          "newValue": null
+        },
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "et": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "fi": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "hr": {
+      "LABOT": 0,
+      "NELABOT": 21,
+      "samples": [
+        {
+          "key": "kurss.lessonItems.1.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 1",
+          "newValue": null
+        },
+        {
+          "key": "kurss.lessonItems.10.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 10",
+          "newValue": null
+        },
+        {
+          "key": "kurss.lessonItems.11.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 11",
+          "newValue": null
+        }
+      ]
+    },
+    "is": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "it": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "lb": {
+      "LABOT": 77,
+      "NELABOT": 3,
+      "samples": [
+        {
+          "key": "buttons.extraOptions",
+          "ownerStatus": "LABOT",
+          "current": "Papildu opcijas",
+          "newValue": "Zousätzlech Optiounen"
+        },
+        {
+          "key": "buttons.extraOptionsClose",
+          "ownerStatus": "LABOT",
+          "current": "Papildu opcijas ▲",
+          "newValue": "Zousätzlech Optiounen ▲"
+        },
+        {
+          "key": "buttons.extraOptionsOpen",
+          "ownerStatus": "LABOT",
+          "current": "Papildu opcijas ▼",
+          "newValue": "Zousätzlech Optiounen ▼"
+        }
+      ]
+    },
+    "lt": {
+      "LABOT": 0,
+      "NELABOT": 4,
+      "samples": [
+        {
+          "key": "card.sessionLabel",
+          "ownerStatus": "NELABOT",
+          "current": "Sesija",
+          "newValue": null
+        },
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "kurss.sections.grammar",
+          "ownerStatus": "NELABOT",
+          "current": "Gramatika",
+          "newValue": null
+        }
+      ]
+    },
+    "nb": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "nl": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "nn": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "pl": {
+      "LABOT": 0,
+      "NELABOT": 1,
+      "samples": [
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "sk": {
+      "LABOT": 0,
+      "NELABOT": 1,
+      "samples": [
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    },
+    "sl": {
+      "LABOT": 0,
+      "NELABOT": 21,
+      "samples": [
+        {
+          "key": "kurss.lessonItems.1.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 1",
+          "newValue": null
+        },
+        {
+          "key": "kurss.lessonItems.10.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 10",
+          "newValue": null
+        },
+        {
+          "key": "kurss.lessonItems.11.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 11",
+          "newValue": null
+        }
+      ]
+    },
+    "sr": {
+      "LABOT": 0,
+      "NELABOT": 21,
+      "samples": [
+        {
+          "key": "kurss.lessonItems.1.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 1",
+          "newValue": null
+        },
+        {
+          "key": "kurss.lessonItems.10.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 10",
+          "newValue": null
+        },
+        {
+          "key": "kurss.lessonItems.11.title",
+          "ownerStatus": "NELABOT",
+          "current": "Lekcija 11",
+          "newValue": null
+        }
+      ]
+    },
+    "sv": {
+      "LABOT": 0,
+      "NELABOT": 2,
+      "samples": [
+        {
+          "key": "extra.statistics",
+          "ownerStatus": "NELABOT",
+          "current": "Statistika",
+          "newValue": null
+        },
+        {
+          "key": "tools.problemShort",
+          "ownerStatus": "NELABOT",
+          "current": "Probl.",
+          "newValue": null
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "sequence": 1,
+      "language": "bs",
+      "key": "card.sessionLabel",
+      "lvSource": "Sesija",
+      "current": "Sesija",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Sesija ir standarta kognāts mērķvalodā (lt/bs) — apzināta sakritība ar LV, nevis neiztulkots teksts.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 2,
+      "language": "bs",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 3,
+      "language": "bs",
+      "key": "kurss.lessonItems.1.title",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 4,
+      "language": "bs",
+      "key": "kurss.lessonItems.10.title",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 5,
+      "language": "bs",
+      "key": "kurss.lessonItems.11.title",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 6,
+      "language": "bs",
+      "key": "kurss.lessonItems.12.title",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 7,
+      "language": "bs",
+      "key": "kurss.lessonItems.13.title",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 8,
+      "language": "bs",
+      "key": "kurss.lessonItems.14.title",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 9,
+      "language": "bs",
+      "key": "kurss.lessonItems.15.title",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 10,
+      "language": "bs",
+      "key": "kurss.lessonItems.16.menuDesc",
+      "lvSource": "Dativs, geben, sich nähern.",
+      "current": "Dativs, geben, sich nähern.",
+      "ownerStatus": "LABOT",
+      "newValue": "Dativ, geben, sich nähern.",
+      "reason": "Dativs ir latviešu gramatikas forma — mērķvalodā jāizmanto DE pedagoģijas termins Dativ.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 11,
+      "language": "bs",
+      "key": "kurss.lessonItems.16.title",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 12,
+      "language": "bs",
+      "key": "kurss.lessonItems.17.title",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 13,
+      "language": "bs",
+      "key": "kurss.lessonItems.18.title",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 14,
+      "language": "bs",
+      "key": "kurss.lessonItems.19.title",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 15,
+      "language": "bs",
+      "key": "kurss.lessonItems.2.title",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 16,
+      "language": "bs",
+      "key": "kurss.lessonItems.20.title",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 17,
+      "language": "bs",
+      "key": "kurss.lessonItems.21.title",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 18,
+      "language": "bs",
+      "key": "kurss.lessonItems.3.title",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 19,
+      "language": "bs",
+      "key": "kurss.lessonItems.4.title",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 20,
+      "language": "bs",
+      "key": "kurss.lessonItems.5.title",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 21,
+      "language": "bs",
+      "key": "kurss.lessonItems.6.title",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 22,
+      "language": "bs",
+      "key": "kurss.lessonItems.7.title",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 23,
+      "language": "bs",
+      "key": "kurss.lessonItems.8.title",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 24,
+      "language": "bs",
+      "key": "kurss.lessonItems.9.title",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 25,
+      "language": "bs",
+      "key": "kurss.sections.grammar",
+      "lvSource": "Gramatika",
+      "current": "Gramatika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Gramatika ir pareizs kognāts mērķvalodā — apzināta sakritība ar LV gramatikas terminu.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 26,
+      "language": "cs",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 27,
+      "language": "cs",
+      "key": "kurss.sections.grammar",
+      "lvSource": "Gramatika",
+      "current": "Gramatika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Gramatika ir pareizs kognāts mērķvalodā — apzināta sakritība ar LV gramatikas terminu.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 28,
+      "language": "es",
+      "key": "study.minimal.formsLabel",
+      "lvSource": "Formas:",
+      "current": "Formas:",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Formas: ir pareizs es mērķvalodas tulkojums (formas = formas) — apzināta sakritība ar LV struktūru.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 29,
+      "language": "es",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 30,
+      "language": "et",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 31,
+      "language": "et",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 32,
+      "language": "fi",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 33,
+      "language": "fi",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 34,
+      "language": "hr",
+      "key": "kurss.lessonItems.1.title",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 35,
+      "language": "hr",
+      "key": "kurss.lessonItems.10.title",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 36,
+      "language": "hr",
+      "key": "kurss.lessonItems.11.title",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 37,
+      "language": "hr",
+      "key": "kurss.lessonItems.12.title",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 38,
+      "language": "hr",
+      "key": "kurss.lessonItems.13.title",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 39,
+      "language": "hr",
+      "key": "kurss.lessonItems.14.title",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 40,
+      "language": "hr",
+      "key": "kurss.lessonItems.15.title",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 41,
+      "language": "hr",
+      "key": "kurss.lessonItems.16.title",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 42,
+      "language": "hr",
+      "key": "kurss.lessonItems.17.title",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 43,
+      "language": "hr",
+      "key": "kurss.lessonItems.18.title",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 44,
+      "language": "hr",
+      "key": "kurss.lessonItems.19.title",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 45,
+      "language": "hr",
+      "key": "kurss.lessonItems.2.title",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 46,
+      "language": "hr",
+      "key": "kurss.lessonItems.20.title",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 47,
+      "language": "hr",
+      "key": "kurss.lessonItems.21.title",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 48,
+      "language": "hr",
+      "key": "kurss.lessonItems.3.title",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 49,
+      "language": "hr",
+      "key": "kurss.lessonItems.4.title",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 50,
+      "language": "hr",
+      "key": "kurss.lessonItems.5.title",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 51,
+      "language": "hr",
+      "key": "kurss.lessonItems.6.title",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 52,
+      "language": "hr",
+      "key": "kurss.lessonItems.7.title",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 53,
+      "language": "hr",
+      "key": "kurss.lessonItems.8.title",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 54,
+      "language": "hr",
+      "key": "kurss.lessonItems.9.title",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 55,
+      "language": "is",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 56,
+      "language": "is",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 57,
+      "language": "it",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 58,
+      "language": "it",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 59,
+      "language": "lb",
+      "key": "buttons.extraOptions",
+      "lvSource": "Papildu opcijas",
+      "current": "Papildu opcijas",
+      "ownerStatus": "LABOT",
+      "newValue": "Zousätzlech Optiounen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 60,
+      "language": "lb",
+      "key": "buttons.extraOptionsClose",
+      "lvSource": "Papildu opcijas ▲",
+      "current": "Papildu opcijas ▲",
+      "ownerStatus": "LABOT",
+      "newValue": "Zousätzlech Optiounen ▲",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 61,
+      "language": "lb",
+      "key": "buttons.extraOptionsOpen",
+      "lvSource": "Papildu opcijas ▼",
+      "current": "Papildu opcijas ▼",
+      "ownerStatus": "LABOT",
+      "newValue": "Zousätzlech Optiounen ▼",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 62,
+      "language": "lb",
+      "key": "buttons.restore",
+      "lvSource": "Atgriezt",
+      "current": "Atgriezt",
+      "ownerStatus": "LABOT",
+      "newValue": "Zrécksetzen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 63,
+      "language": "lb",
+      "key": "buttons.restoreAll",
+      "lvSource": "Atgriezt visu",
+      "current": "Atgriezt visu",
+      "ownerStatus": "LABOT",
+      "newValue": "Alles zrécksetzen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 64,
+      "language": "lb",
+      "key": "card.answerPrefix",
+      "lvSource": "Atbilde:",
+      "current": "Atbilde:",
+      "ownerStatus": "LABOT",
+      "newValue": "Äntwert:",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 65,
+      "language": "lb",
+      "key": "card.pluralLabel",
+      "lvSource": "Daudzsk.",
+      "current": "Daudzsk.",
+      "ownerStatus": "LABOT",
+      "newValue": "Plural",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 66,
+      "language": "lb",
+      "key": "card.sessionComplete",
+      "lvSource": "Sesija pabeigta!",
+      "current": "Sesija pabeigta!",
+      "ownerStatus": "LABOT",
+      "newValue": "Sessioun ofgeschloss!",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 67,
+      "language": "lb",
+      "key": "card.sessionLabel",
+      "lvSource": "Sesija",
+      "current": "Sesija",
+      "ownerStatus": "LABOT",
+      "newValue": "Sessioun",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 68,
+      "language": "lb",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir LB/DE pedagoģijas kognāts — apzināta sakritība ar LV, nevis neiztulkots UI.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 69,
+      "language": "lb",
+      "key": "info.answersTitle",
+      "lvSource": "Atbildes",
+      "current": "Atbildes",
+      "ownerStatus": "LABOT",
+      "newValue": "Äntwerten",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 70,
+      "language": "lb",
+      "key": "info.directionTitle",
+      "lvSource": "Tulkojuma virziens",
+      "current": "Tulkojuma virziens",
+      "ownerStatus": "LABOT",
+      "newValue": "Iwwersetzungsrichtung",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 71,
+      "language": "lb",
+      "key": "info.extraTitle",
+      "lvSource": "Papildu opcijas",
+      "current": "Papildu opcijas",
+      "ownerStatus": "LABOT",
+      "newValue": "Zousätzlech Optiounen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 72,
+      "language": "lb",
+      "key": "kurss.articles",
+      "lvSource": "Artikuli",
+      "current": "Artikuli",
+      "ownerStatus": "LABOT",
+      "newValue": "Artikelen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 73,
+      "language": "lb",
+      "key": "kurss.back",
+      "lvSource": "‹ Kurss",
+      "current": "‹ Kurss",
+      "ownerStatus": "LABOT",
+      "newValue": "‹ Cours",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 74,
+      "language": "lb",
+      "key": "kurss.exerciseMeta.formDu",
+      "lvSource": "Forma 1/3: Tu (vienskaitlis)",
+      "current": "Forma 1/3: Tu (vienskaitlis)",
+      "ownerStatus": "LABOT",
+      "newValue": "Form 1/3: Du (eenzel)",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 75,
+      "language": "lb",
+      "key": "kurss.exerciseMeta.translate",
+      "lvSource": "Übung II — tulko",
+      "current": "Übung II — tulko",
+      "ownerStatus": "LABOT",
+      "newValue": "Übung II — iwwersetzen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 76,
+      "language": "lb",
+      "key": "kurss.lessonItems.1.menuDesc",
+      "lvSource": "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš.",
+      "current": "Darbības vārdi tagadnē, vārdiņi, gramatika un treniņš.",
+      "ownerStatus": "LABOT",
+      "newValue": "Verben am Present, kleng Wierder, Grammatik an Training.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 77,
+      "language": "lb",
+      "key": "kurss.lessonItems.1.title",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 1",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 78,
+      "language": "lb",
+      "key": "kurss.lessonItems.10.menuDesc",
+      "lvSource": "Sein, können, veselība, vecums un profesijas.",
+      "current": "Sein, können, veselība, vecums un profesijas.",
+      "ownerStatus": "LABOT",
+      "newValue": "Sein, können, Gesondheet, Alter an Beruffer.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 79,
+      "language": "lb",
+      "key": "kurss.lessonItems.10.title",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 10",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 80,
+      "language": "lb",
+      "key": "kurss.lessonItems.11.menuDesc",
+      "lvSource": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi.",
+      "current": "Haben, kein/keine/keinen, piederība un saliktie lietvārdi.",
+      "ownerStatus": "LABOT",
+      "newValue": "Haben, kein/keine/keinen, Besëtzen an zesummegesate Nomen.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 81,
+      "language": "lb",
+      "key": "kurss.lessonItems.11.title",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 11",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 82,
+      "language": "lb",
+      "key": "kurss.lessonItems.12.menuDesc",
+      "lvSource": "Salīdzināmās pakāpes, als/wie, vecums un krāsas.",
+      "current": "Salīdzināmās pakāpes, als/wie, vecums un krāsas.",
+      "ownerStatus": "LABOT",
+      "newValue": "Vergläichsformen, als/wie, Alter an Faarwen.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 83,
+      "language": "lb",
+      "key": "kurss.lessonItems.12.title",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 12",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 84,
+      "language": "lb",
+      "key": "kurss.lessonItems.13.menuDesc",
+      "lvSource": "Der Körper, ķermeņa daļas, turnen un jeder.",
+      "current": "Der Körper, ķermeņa daļas, turnen un jeder.",
+      "ownerStatus": "LABOT",
+      "newValue": "Der Körper, Kéierdeelen, turnen an jeder.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 85,
+      "language": "lb",
+      "key": "kurss.lessonItems.13.title",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 13",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 86,
+      "language": "lb",
+      "key": "kurss.lessonItems.14.menuDesc",
+      "lvSource": "müssen, wollen, mögen un modālie darbības vārdi.",
+      "current": "müssen, wollen, mögen un modālie darbības vārdi.",
+      "ownerStatus": "LABOT",
+      "newValue": "müssen, wollen, mögen an modal Verben.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 87,
+      "language": "lb",
+      "key": "kurss.lessonItems.14.title",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 14",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 88,
+      "language": "lb",
+      "key": "kurss.lessonItems.15.menuDesc",
+      "lvSource": "sollen, dürfen, essen un augļi.",
+      "current": "sollen, dürfen, essen un augļi.",
+      "ownerStatus": "LABOT",
+      "newValue": "sollen, dürfen, essen an Fruucht.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 89,
+      "language": "lb",
+      "key": "kurss.lessonItems.15.title",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 15",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 90,
+      "language": "lb",
+      "key": "kurss.lessonItems.16.menuDesc",
+      "lvSource": "Dativs, geben, sich nähern.",
+      "current": "Dativs, geben, sich nähern.",
+      "ownerStatus": "LABOT",
+      "newValue": "Dativ, geben, sich nähern.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 91,
+      "language": "lb",
+      "key": "kurss.lessonItems.16.title",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 16",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 92,
+      "language": "lb",
+      "key": "kurss.lessonItems.17.title",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 17",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 93,
+      "language": "lb",
+      "key": "kurss.lessonItems.18.title",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 18",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 94,
+      "language": "lb",
+      "key": "kurss.lessonItems.19.title",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 19",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 95,
+      "language": "lb",
+      "key": "kurss.lessonItems.2.menuDesc",
+      "lvSource": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "current": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "ownerStatus": "LABOT",
+      "newValue": "Dialoger, Wierder, Aussprooch, Grammatik an Iwwersetzen.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 96,
+      "language": "lb",
+      "key": "kurss.lessonItems.2.title",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 2",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 97,
+      "language": "lb",
+      "key": "kurss.lessonItems.20.menuDesc",
+      "lvSource": "Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi.",
+      "current": "Haus, Stockwerk, Dativ/Akkusativ un saliktie lietvārdi.",
+      "ownerStatus": "LABOT",
+      "newValue": "Haus, Stockwerk, Dativ/Akkusativ an zesummegesate Nomen.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 98,
+      "language": "lb",
+      "key": "kurss.lessonItems.20.title",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 20",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 99,
+      "language": "lb",
+      "key": "kurss.lessonItems.21.title",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 21",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 100,
+      "language": "lb",
+      "key": "kurss.lessonItems.3.menuDesc",
+      "lvSource": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "current": "Dialogi, vārdi, izruna, gramatika un pārtulkošana.",
+      "ownerStatus": "LABOT",
+      "newValue": "Dialoger, Wierder, Aussprooch, Grammatik an Iwwersetzen.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 101,
+      "language": "lb",
+      "key": "kurss.lessonItems.3.title",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 3",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 102,
+      "language": "lb",
+      "key": "kurss.lessonItems.4.menuDesc",
+      "lvSource": "Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi.",
+      "current": "Akuzatīvs, nehmen, hinlegen, hinausgehen un īpašības vārdi.",
+      "ownerStatus": "LABOT",
+      "newValue": "Akkusativ, nehmen, hinlegen, hinausgehen an Adjektiver.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 103,
+      "language": "lb",
+      "key": "kurss.lessonItems.4.title",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 4",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 104,
+      "language": "lb",
+      "key": "kurss.lessonItems.5.menuDesc",
+      "lvSource": "Wen?, akuzatīvs, sitzen, fragen un -in galotne.",
+      "current": "Wen?, akuzatīvs, sitzen, fragen un -in galotne.",
+      "ownerStatus": "LABOT",
+      "newValue": "Wen?, Akkusativ, sitzen, fragen an -in Endung.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 105,
+      "language": "lb",
+      "key": "kurss.lessonItems.5.title",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 5",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 106,
+      "language": "lb",
+      "key": "kurss.lessonItems.6.menuDesc",
+      "lvSource": "Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas.",
+      "current": "Skaitļi, daudzskaitlis, umlauti un lietvārdu daudzskaitļa formas.",
+      "ownerStatus": "LABOT",
+      "newValue": "Zuelen, Plural, Umlauter an Pluralformen vun Nomen.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 107,
+      "language": "lb",
+      "key": "kurss.lessonItems.6.title",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 6",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 108,
+      "language": "lb",
+      "key": "kurss.lessonItems.7.menuDesc",
+      "lvSource": "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
+      "current": "Pavēles izteiksme, uzrunas forma un daudzskaitlis.",
+      "ownerStatus": "LABOT",
+      "newValue": "Imperativ, Ussproochform an Plural.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 109,
+      "language": "lb",
+      "key": "kurss.lessonItems.7.title",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 7",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 110,
+      "language": "lb",
+      "key": "kurss.lessonItems.8.menuDesc",
+      "lvSource": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
+      "current": "Refleksīvie darbības vārdi, e → i/ie maiņa un akuzatīvs.",
+      "ownerStatus": "LABOT",
+      "newValue": "Reflexivverben, e → i/ie Wechsel an Akkusativ.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 111,
+      "language": "lb",
+      "key": "kurss.lessonItems.8.title",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 8",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 112,
+      "language": "lb",
+      "key": "kurss.lessonItems.9.menuDesc",
+      "lvSource": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis.",
+      "current": "Vairāki priekšmeti, dieser/jener, vienskaitlis un daudzskaitlis.",
+      "ownerStatus": "LABOT",
+      "newValue": "Méi Subjekter, dieser/jener, Singular an Plural.",
+      "reason": "Jaukts LV+DE menuDesc — LB tulkojums ar DE pedagoģijas terminiem un LB saikņiem (an).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 113,
+      "language": "lb",
+      "key": "kurss.lessonItems.9.title",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektioun 9",
+      "reason": "Lekcija → Lektioun: LB lekcijas nosaukums, ne LV identiskums.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 114,
+      "language": "lb",
+      "key": "kurss.lessons",
+      "lvSource": "Lekcijas",
+      "current": "Lekcijas",
+      "ownerStatus": "LABOT",
+      "newValue": "Lektiounen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 115,
+      "language": "lb",
+      "key": "kurss.panelLabel",
+      "lvSource": "Kurss",
+      "current": "Kurss",
+      "ownerStatus": "LABOT",
+      "newValue": "Cours",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 116,
+      "language": "lb",
+      "key": "kurss.pronunciation",
+      "lvSource": "Izruna",
+      "current": "Izruna",
+      "ownerStatus": "LABOT",
+      "newValue": "Aussprooch",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 117,
+      "language": "lb",
+      "key": "kurss.sections.grammar",
+      "lvSource": "Gramatika",
+      "current": "Gramatika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Gramatika ir LB/DE pedagoģijas kognāts — apzināta sakiritība ar LV gramatikas terminu.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 118,
+      "language": "lb",
+      "key": "kurss.tipTitle",
+      "lvSource": "Padoms",
+      "current": "Padoms",
+      "ownerStatus": "LABOT",
+      "newValue": "Tipp",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 119,
+      "language": "lb",
+      "key": "kurss.title",
+      "lvSource": "Kurss",
+      "current": "Kurss",
+      "ownerStatus": "LABOT",
+      "newValue": "Cours",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 120,
+      "language": "lb",
+      "key": "menu.course",
+      "lvSource": "Kurss",
+      "current": "Kurss",
+      "ownerStatus": "LABOT",
+      "newValue": "Cours",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 121,
+      "language": "lb",
+      "key": "modes.easy",
+      "lvSource": "Viegls",
+      "current": "Viegls",
+      "ownerStatus": "LABOT",
+      "newValue": "Liicht",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 122,
+      "language": "lb",
+      "key": "progress.courseHeading",
+      "lvSource": "Kurss",
+      "current": "Kurss",
+      "ownerStatus": "LABOT",
+      "newValue": "Cours",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 123,
+      "language": "lb",
+      "key": "settings.appLanguage",
+      "lvSource": "Lietotnes valoda",
+      "current": "Lietotnes valoda",
+      "ownerStatus": "LABOT",
+      "newValue": "App-Sprooch",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 124,
+      "language": "lb",
+      "key": "spelling.writeAnswer",
+      "lvSource": "Ieraksti atbildi",
+      "current": "Ieraksti atbildi",
+      "ownerStatus": "LABOT",
+      "newValue": "Äntwert antippen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 125,
+      "language": "lb",
+      "key": "study.minimal.formsLabel",
+      "lvSource": "Formas:",
+      "current": "Formas:",
+      "ownerStatus": "LABOT",
+      "newValue": "Formen:",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 126,
+      "language": "lb",
+      "key": "study.minimal.pluralLabel",
+      "lvSource": "DAUDZSK.",
+      "current": "DAUDZSK.",
+      "ownerStatus": "LABOT",
+      "newValue": "PLURAL",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 127,
+      "language": "lb",
+      "key": "study.minimal.tipLabel",
+      "lvSource": "Padoms:",
+      "current": "Padoms:",
+      "ownerStatus": "LABOT",
+      "newValue": "Tipp:",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 128,
+      "language": "lb",
+      "key": "study.sections.explanation",
+      "lvSource": "Skaidrojums",
+      "current": "Skaidrojums",
+      "ownerStatus": "LABOT",
+      "newValue": "Erklärung",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 129,
+      "language": "lb",
+      "key": "study.sections.remember",
+      "lvSource": "Atceries",
+      "current": "Atceries",
+      "ownerStatus": "LABOT",
+      "newValue": "Verhaalen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 130,
+      "language": "lb",
+      "key": "study.sections.tip",
+      "lvSource": "Padoms",
+      "current": "Padoms",
+      "ownerStatus": "LABOT",
+      "newValue": "Tipp",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 131,
+      "language": "lb",
+      "key": "study.table.describes",
+      "lvSource": "Raksturo",
+      "current": "Raksturo",
+      "ownerStatus": "LABOT",
+      "newValue": "Beschreift",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 132,
+      "language": "lb",
+      "key": "study.table.translation",
+      "lvSource": "Tulkojums",
+      "current": "Tulkojums",
+      "ownerStatus": "LABOT",
+      "newValue": "Iwwersetzung",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 133,
+      "language": "lb",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums — pareizs LB kontekstā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 134,
+      "language": "lb",
+      "key": "tools.spellingShort",
+      "lvSource": "Rakst.",
+      "current": "Rakst.",
+      "ownerStatus": "LABOT",
+      "newValue": "Schreiw.",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 135,
+      "language": "lb",
+      "key": "verb.guessImperfect",
+      "lvSource": "Uzmini imperfektu",
+      "current": "Uzmini imperfektu",
+      "ownerStatus": "LABOT",
+      "newValue": "Imperfekt erraten",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 136,
+      "language": "lb",
+      "key": "verb.present",
+      "lvSource": "Tagadne",
+      "current": "Tagadne",
+      "ownerStatus": "LABOT",
+      "newValue": "Géigenwart",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 137,
+      "language": "lb",
+      "key": "verb.translationPrefix",
+      "lvSource": "Tulkojums:",
+      "current": "Tulkojums:",
+      "ownerStatus": "LABOT",
+      "newValue": "Iwwersetzung:",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 138,
+      "language": "lb",
+      "key": "verb.writeImperfect",
+      "lvSource": "Uzraksti imperfektu",
+      "current": "Uzraksti imperfektu",
+      "ownerStatus": "LABOT",
+      "newValue": "Imperfekt schreiwen",
+      "reason": "LV UI teksts — LB tulkojums saskaņā ar lb 202 OWNER stilu (DE/FR ietekme).",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 139,
+      "language": "lt",
+      "key": "card.sessionLabel",
+      "lvSource": "Sesija",
+      "current": "Sesija",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Sesija ir standarta kognāts mērķvalodā (lt/bs) — apzināta sakritība ar LV, nevis neiztulkots teksts.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 140,
+      "language": "lt",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 141,
+      "language": "lt",
+      "key": "kurss.sections.grammar",
+      "lvSource": "Gramatika",
+      "current": "Gramatika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Gramatika ir pareizs kognāts mērķvalodā — apzināta sakritība ar LV gramatikas terminu.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 142,
+      "language": "lt",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 143,
+      "language": "nb",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 144,
+      "language": "nb",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 145,
+      "language": "nl",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 146,
+      "language": "nl",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 147,
+      "language": "nn",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 148,
+      "language": "nn",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 149,
+      "language": "pl",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 150,
+      "language": "sk",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 151,
+      "language": "sl",
+      "key": "kurss.lessonItems.1.title",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 152,
+      "language": "sl",
+      "key": "kurss.lessonItems.10.title",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 153,
+      "language": "sl",
+      "key": "kurss.lessonItems.11.title",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 154,
+      "language": "sl",
+      "key": "kurss.lessonItems.12.title",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 155,
+      "language": "sl",
+      "key": "kurss.lessonItems.13.title",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 156,
+      "language": "sl",
+      "key": "kurss.lessonItems.14.title",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 157,
+      "language": "sl",
+      "key": "kurss.lessonItems.15.title",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 158,
+      "language": "sl",
+      "key": "kurss.lessonItems.16.title",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 159,
+      "language": "sl",
+      "key": "kurss.lessonItems.17.title",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 160,
+      "language": "sl",
+      "key": "kurss.lessonItems.18.title",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 161,
+      "language": "sl",
+      "key": "kurss.lessonItems.19.title",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 162,
+      "language": "sl",
+      "key": "kurss.lessonItems.2.title",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 163,
+      "language": "sl",
+      "key": "kurss.lessonItems.20.title",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 164,
+      "language": "sl",
+      "key": "kurss.lessonItems.21.title",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 165,
+      "language": "sl",
+      "key": "kurss.lessonItems.3.title",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 166,
+      "language": "sl",
+      "key": "kurss.lessonItems.4.title",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 167,
+      "language": "sl",
+      "key": "kurss.lessonItems.5.title",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 168,
+      "language": "sl",
+      "key": "kurss.lessonItems.6.title",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 169,
+      "language": "sl",
+      "key": "kurss.lessonItems.7.title",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 170,
+      "language": "sl",
+      "key": "kurss.lessonItems.8.title",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 171,
+      "language": "sl",
+      "key": "kurss.lessonItems.9.title",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 172,
+      "language": "sr",
+      "key": "kurss.lessonItems.1.title",
+      "lvSource": "Lekcija 1",
+      "current": "Lekcija 1",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 173,
+      "language": "sr",
+      "key": "kurss.lessonItems.10.title",
+      "lvSource": "Lekcija 10",
+      "current": "Lekcija 10",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 174,
+      "language": "sr",
+      "key": "kurss.lessonItems.11.title",
+      "lvSource": "Lekcija 11",
+      "current": "Lekcija 11",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 175,
+      "language": "sr",
+      "key": "kurss.lessonItems.12.title",
+      "lvSource": "Lekcija 12",
+      "current": "Lekcija 12",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 176,
+      "language": "sr",
+      "key": "kurss.lessonItems.13.title",
+      "lvSource": "Lekcija 13",
+      "current": "Lekcija 13",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 177,
+      "language": "sr",
+      "key": "kurss.lessonItems.14.title",
+      "lvSource": "Lekcija 14",
+      "current": "Lekcija 14",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 178,
+      "language": "sr",
+      "key": "kurss.lessonItems.15.title",
+      "lvSource": "Lekcija 15",
+      "current": "Lekcija 15",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 179,
+      "language": "sr",
+      "key": "kurss.lessonItems.16.title",
+      "lvSource": "Lekcija 16",
+      "current": "Lekcija 16",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 180,
+      "language": "sr",
+      "key": "kurss.lessonItems.17.title",
+      "lvSource": "Lekcija 17",
+      "current": "Lekcija 17",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 181,
+      "language": "sr",
+      "key": "kurss.lessonItems.18.title",
+      "lvSource": "Lekcija 18",
+      "current": "Lekcija 18",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 182,
+      "language": "sr",
+      "key": "kurss.lessonItems.19.title",
+      "lvSource": "Lekcija 19",
+      "current": "Lekcija 19",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 183,
+      "language": "sr",
+      "key": "kurss.lessonItems.2.title",
+      "lvSource": "Lekcija 2",
+      "current": "Lekcija 2",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 184,
+      "language": "sr",
+      "key": "kurss.lessonItems.20.title",
+      "lvSource": "Lekcija 20",
+      "current": "Lekcija 20",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 185,
+      "language": "sr",
+      "key": "kurss.lessonItems.21.title",
+      "lvSource": "Lekcija 21",
+      "current": "Lekcija 21",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 186,
+      "language": "sr",
+      "key": "kurss.lessonItems.3.title",
+      "lvSource": "Lekcija 3",
+      "current": "Lekcija 3",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 187,
+      "language": "sr",
+      "key": "kurss.lessonItems.4.title",
+      "lvSource": "Lekcija 4",
+      "current": "Lekcija 4",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 188,
+      "language": "sr",
+      "key": "kurss.lessonItems.5.title",
+      "lvSource": "Lekcija 5",
+      "current": "Lekcija 5",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 189,
+      "language": "sr",
+      "key": "kurss.lessonItems.6.title",
+      "lvSource": "Lekcija 6",
+      "current": "Lekcija 6",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 190,
+      "language": "sr",
+      "key": "kurss.lessonItems.7.title",
+      "lvSource": "Lekcija 7",
+      "current": "Lekcija 7",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 191,
+      "language": "sr",
+      "key": "kurss.lessonItems.8.title",
+      "lvSource": "Lekcija 8",
+      "current": "Lekcija 8",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 192,
+      "language": "sr",
+      "key": "kurss.lessonItems.9.title",
+      "lvSource": "Lekcija 9",
+      "current": "Lekcija 9",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Lekcija N ir pareizs slāvu mērķvalodas kognāts lekcijas numerācijai — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 193,
+      "language": "sv",
+      "key": "extra.statistics",
+      "lvSource": "Statistika",
+      "current": "Statistika",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Statistika ir pareizs kognāts mērķvalodā (skandināvu/baltu/slāvu u.c.) — apzināta sakritība ar LV.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    },
+    {
+      "sequence": 194,
+      "language": "sv",
+      "key": "tools.problemShort",
+      "lvSource": "Probl.",
+      "current": "Probl.",
+      "ownerStatus": "NELABOT",
+      "newValue": null,
+      "reason": "Probl. ir apzināts DE mācību UI saīsinājums (Problematisch) — pareizs mērķvalodā, identisks LV avotam.",
+      "placeholderTokens": [],
+      "htmlTags": []
+    }
+  ]
+}
