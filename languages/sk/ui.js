@@ -110,7 +110,7 @@ window.LANGUAGE_UI_STRINGS = {
     "imperfectIndicative": "Przeszły - Indykatyw",
     "imperfectSubjunctive": "Przeszły - Tryb łączący",
     "pastParticiple": "Imiesłów przeszły",
-    "infinitiv": "Infinitiv",
+    "infinitiv": "Infinitív",
     "writeInfinitive": "Napíšte infinitív",
     "guessInfinitive": "Hádaj infinitív",
     "writeImperfect": "Napíšte minulý čas",

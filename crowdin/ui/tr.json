@@ -290,7 +290,7 @@
   "verb.guessImperfect": "Geçmiş zamanı tahmin edin",
   "verb.guessInfinitive": "Sonsuz olanı tahmin edin",
   "verb.guessPastParticiple": "Katılımcının geçtiğini tahmin et",
-  "verb.hintSessionProgress": "{label}: {current }/{ total}. {tap}",
+  "verb.hintSessionProgress": "{label}: {current}/{total}. {tap}",
   "verb.hintTapAnswer": "Cevabı görmek için sekmeye tıklayın.",
   "verb.hintTapSwitch": "Formu değiştirmek için karta tıklayın.",
   "verb.imperfectIndicative": "Geçmiş - Gösterge",

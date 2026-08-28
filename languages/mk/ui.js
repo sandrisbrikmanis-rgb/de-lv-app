@@ -79,8 +79,8 @@ window.LANGUAGE_UI_STRINGS = {
     "intense": "Интензивна"
   },
   "direction": {
-    "deToNative": "🔄 ОД ➔ {шифра}",
-    "nativeToDe": "🔄 {шифра} ➔ DE"
+    "deToNative": "🔄 ОД ➔ {code}",
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Кликнете на јазичето за да го видите преводот.",
@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Превод:",
     "hintTapAnswer": "Кликнете на картичката за да го видите одговорот.",
     "hintTapSwitch": "Кликнете на мапата за да го промените форматот.",
-    "hintSessionProgress": "{label}: {тековно} / {вкупно}. {допрете}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Овој глагол нема доволно форми за цртање."
   },
   "notices": {
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Долги и кратки самогласки со примери.",
     "consonantsTitle": "Согласки и комбинации на букви",
     "consonantsDesc": "Најважните согласки за почетници.",
-    "lessonProgress": "Лекција {лекција} · Преведувач: {тековен} / {општо}",
-    "exerciseProgress": "Лекција {лекција} · Вежба",
+    "lessonProgress": "Лекција {lesson} · Преведувач: {current} / {total}",
+    "exerciseProgress": "Лекција {lesson} · Вежба",
     "sections": {
       "grammar": "Граматика",
       "exercise": "Вежбајте",

@@ -110,7 +110,7 @@ window.LANGUAGE_UI_STRINGS = {
     "imperfectIndicative": "Minevik - Indikatiiv",
     "imperfectSubjunctive": "Minevik - Konjunktiiv",
     "pastParticiple": "Mineviku osavõte",
-    "infinitiv": "Infinitiv",
+    "infinitiv": "Infinitief",
     "writeInfinitive": "Kirjuta infinitiiv",
     "guessInfinitive": "Arva infinitiiv",
     "writeImperfect": "Kirjuta imperfekt",

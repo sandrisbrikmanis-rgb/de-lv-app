@@ -79,8 +79,8 @@ window.LANGUAGE_UI_STRINGS = {
     "intense": "Интензивен"
   },
   "direction": {
-    "deToNative": "🔄 ОТ ➔ {код}",
-    "nativeToDe": "🔄 {код} ➔ DE"
+    "deToNative": "🔄 ОТ ➔ {code}",
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Кликнете върху раздела, за да видите превода.",
@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Превод:",
     "hintTapAnswer": "Кликнете върху картата, за да видите отговора.",
     "hintTapSwitch": "Кликнете върху картата, за да промените формата.",
-    "hintSessionProgress": "{label}: {current} / {total}. {докоснете}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Този глагол няма достатъчно форми за рисуване."
   },
   "notices": {
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Дълги и кратки гласни с примери.",
     "consonantsTitle": "Съгласни и буквосъчетания",
     "consonantsDesc": "Най-важните съгласни звуци за начинаещи.",
-    "lessonProgress": "Урок {урок} · Преводач: {текущо} / {общо}",
-    "exerciseProgress": "Урок {урок} · Упражнение",
+    "lessonProgress": "Урок {lesson} · Преводач: {current} / {total}",
+    "exerciseProgress": "Урок {lesson} · Упражнение",
     "sections": {
       "grammar": "Граматика",
       "exercise": "Упражнение",

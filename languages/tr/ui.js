@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Çeviri",
     "hintTapAnswer": "Cevabı görmek için sekmeye tıklayın.",
     "hintTapSwitch": "Formu değiştirmek için karta tıklayın.",
-    "hintSessionProgress": "{label}: {current }/{ total}. {tap}",
+    "hintSessionProgress": "{label}: {current}/{total}. {tap}",
     "noShuffleForms": "Bu fiilin çizmek için yeterli formu yok."
   },
   "notices": {

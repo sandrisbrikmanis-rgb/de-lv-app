@@ -1,0 +1,91 @@
+{
+  "summary": {
+    "generatedAt": "2026-08-28T12:50:18.901Z",
+    "projectId": 923473,
+    "sourceFilePath": "/main/crowdin/ui/lv.json",
+    "label": "owner-lock-no-auto-translate",
+    "OWNER_NELABOT_ROWS": 165,
+    "UNIQUE_KEYS_REQUESTED": 7,
+    "MATCHED": 7,
+    "LABELED": 7,
+    "ALREADY_LABELED": 0,
+    "FAILED": 0,
+    "TRANSLATIONS_CHANGED": 0,
+    "SOURCE_TEXTS_CHANGED": 0,
+    "TOKEN_EXPOSED": "NO",
+    "result": "PASS",
+    "idempotentRerunVerified": true
+  },
+  "entries": [
+    {
+      "key": "direction.deToNative",
+      "string_id": 106,
+      "source_text": "🔄 DE ➔ {code}",
+      "label": "owner-lock-no-auto-translate",
+      "before": "unlabeled",
+      "after": "labeled",
+      "api_status": "labeled",
+      "verification_status": "pass"
+    },
+    {
+      "key": "direction.nativeToDe",
+      "string_id": 108,
+      "source_text": "🔄 {code} ➔ DE",
+      "label": "owner-lock-no-auto-translate",
+      "before": "unlabeled",
+      "after": "labeled",
+      "api_status": "labeled",
+      "verification_status": "pass"
+    },
+    {
+      "key": "kurss.lessonItems.19.menuDesc",
+      "string_id": 256,
+      "source_text": "Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",
+      "label": "owner-lock-no-auto-translate",
+      "before": "unlabeled",
+      "after": "labeled",
+      "api_status": "labeled",
+      "verification_status": "pass"
+    },
+    {
+      "key": "kurss.lessonItems.21.menuDesc",
+      "string_id": 268,
+      "source_text": "woher / wohin / wo, von / aus / mit + Dativ.",
+      "label": "owner-lock-no-auto-translate",
+      "before": "unlabeled",
+      "after": "labeled",
+      "api_status": "labeled",
+      "verification_status": "pass"
+    },
+    {
+      "key": "study.table.german",
+      "string_id": 556,
+      "source_text": "DE",
+      "label": "owner-lock-no-auto-translate",
+      "before": "unlabeled",
+      "after": "labeled",
+      "api_status": "labeled",
+      "verification_status": "pass"
+    },
+    {
+      "key": "verb.hintSessionProgress",
+      "string_id": 584,
+      "source_text": "{label}: {current} / {total}. {tap}",
+      "label": "owner-lock-no-auto-translate",
+      "before": "unlabeled",
+      "after": "labeled",
+      "api_status": "labeled",
+      "verification_status": "pass"
+    },
+    {
+      "key": "verb.infinitiv",
+      "string_id": 594,
+      "source_text": "Infinitiv",
+      "label": "owner-lock-no-auto-translate",
+      "before": "unlabeled",
+      "after": "labeled",
+      "api_status": "labeled",
+      "verification_status": "pass"
+    }
+  ]
+}

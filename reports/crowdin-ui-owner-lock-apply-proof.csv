@@ -1,0 +1,8 @@
+key,string_id,source_text,label,before,after,api_status,verification_status
+direction.deToNative,106,🔄 DE ➔ {code},owner-lock-no-auto-translate,unlabeled,labeled,labeled,pass
+direction.nativeToDe,108,🔄 {code} ➔ DE,owner-lock-no-auto-translate,unlabeled,labeled,labeled,pass
+kurss.lessonItems.19.menuDesc,256,"Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.",owner-lock-no-auto-translate,unlabeled,labeled,labeled,pass
+kurss.lessonItems.21.menuDesc,268,"woher / wohin / wo, von / aus / mit + Dativ.",owner-lock-no-auto-translate,unlabeled,labeled,labeled,pass
+study.table.german,556,DE,owner-lock-no-auto-translate,unlabeled,labeled,labeled,pass
+verb.hintSessionProgress,584,{label}: {current} / {total}. {tap},owner-lock-no-auto-translate,unlabeled,labeled,labeled,pass
+verb.infinitiv,594,Infinitiv,owner-lock-no-auto-translate,unlabeled,labeled,labeled,pass

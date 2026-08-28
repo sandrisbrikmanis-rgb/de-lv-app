@@ -79,8 +79,8 @@ window.LANGUAGE_UI_STRINGS = {
     "intense": "Intenzivno"
   },
   "direction": {
-    "deToNative": "🔄 OD ➔ {koda}",
-    "nativeToDe": "🔄 {koda} ➔ DE"
+    "deToNative": "🔄 OD ➔ {code}",
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Kliknite zavihek za ogled prevoda.",
@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Prevod:",
     "hintTapAnswer": "Kliknite na kartico, da vidite odgovor.",
     "hintTapSwitch": "Kliknite na zemljevid, da spremenite obliko.",
-    "hintSessionProgress": "{label}: {trenutno} / {skupaj}. {tap}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Ta glagol nima dovolj oblik za risanje."
   },
   "notices": {
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Dolgi in kratki samoglasniki s primeri.",
     "consonantsTitle": "Soglasniki in črkovne kombinacije",
     "consonantsDesc": "Najpomembnejši soglasniki za začetnike.",
-    "lessonProgress": "Lekcija {lekcija} · Prevajalec: {trenutno} / {splošno}",
-    "exerciseProgress": "Lekcija {lekcija} · Vaja",
+    "lessonProgress": "Lekcija {lesson} · Prevajalec: {current} / {total}",
+    "exerciseProgress": "Lekcija {lesson} · Vaja",
     "sections": {
       "grammar": "Slovnica",
       "exercise": "telovadba",

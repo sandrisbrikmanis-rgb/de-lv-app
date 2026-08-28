@@ -79,8 +79,8 @@ window.LANGUAGE_UI_STRINGS = {
     "intense": "Erős"
   },
   "direction": {
-    "deToNative": "🔄 DE ➔ {kód}",
-    "nativeToDe": "🔄 {kód} ➔ DE"
+    "deToNative": "🔄 DE ➔ {code}",
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Kattintson a kártyára a fordítás megtekintéséhez.",
@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Fordítás:",
     "hintTapAnswer": "Kattintson a kártyára a válasz megtekintéséhez.",
     "hintTapSwitch": "Kattintson a kártyára az alakzat váltásához.",
-    "hintSessionProgress": "{label}: {current} / {total}. {válik}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Ennek az igének nincs elég alakja a keveréshez."
   },
   "notices": {
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Hosszú és rövid magánhangzók példákkal.",
     "consonantsTitle": "Mássalhangzók és betűkombinációk",
     "consonantsDesc": "A kezdők számára a legfontosabb mássalhangzók.",
-    "lessonProgress": "{lecke} előadás · Fordította: {current} / {total}",
-    "exerciseProgress": "Előadás {lecke} · Gyakorlat",
+    "lessonProgress": "{lesson} előadás · Fordította: {current} / {total}",
+    "exerciseProgress": "Előadás {lesson} · Gyakorlat",
     "sections": {
       "grammar": "Nyelvtan",
       "exercise": "Gyakorlat",

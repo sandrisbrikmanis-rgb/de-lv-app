@@ -80,13 +80,13 @@ window.LANGUAGE_UI_STRINGS = {
   },
   "direction": {
     "deToNative": "🔄 DE ➔ {code}",
-    "nativeToDe": "🔄 {cod} ➔ DE"
+    "nativeToDe": "🔄 {code} ➔ DE"
   },
   "hints": {
     "tapToReveal": "Faceți clic pe filă pentru a vedea traducerea.",
     "chooseNextStep": "Alegeți ce să faceți în continuare.",
     "chooseModeOrReturn": "Alegeți un alt mod sau reveniți la reluare mai târziu.",
-    "trainingCard": "Fișă de exerciții {titlu}"
+    "trainingCard": "Fișă de exerciții {title}"
   },
   "card": {
     "pluralLabel": "Lm.",
@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "Traducere:",
     "hintTapAnswer": "Faceți clic pe card pentru a vedea răspunsul.",
     "hintTapSwitch": "Faceți clic pe card pentru a schimba formularul.",
-    "hintSessionProgress": "{label}: {current} / {total}. {robinet}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Acest verb nu are suficiente forme pentru a desena."
   },
   "notices": {
@@ -243,8 +243,8 @@ window.LANGUAGE_UI_STRINGS = {
     "vowelsDesc": "Vocale lungi și scurte cu exemple.",
     "consonantsTitle": "Consoane și combinații de litere",
     "consonantsDesc": "Cele mai importante sunete consoane pentru începători.",
-    "lessonProgress": "Lecția {lecție} · Traducător: {current} / {total}",
-    "exerciseProgress": "Lecția {lecția} · Exercițiu",
+    "lessonProgress": "Lecția {lesson} · Traducător: {current} / {total}",
+    "exerciseProgress": "Lecția {lesson} · Exercițiu",
     "sections": {
       "grammar": "Gramatică",
       "exercise": "Exercita",
@@ -256,7 +256,7 @@ window.LANGUAGE_UI_STRINGS = {
       "tapToContinue": "Atingeți un card pentru a continua.",
       "tapToRevealGerman": "Atingeți cardul pentru a vedea traducerea în germană.",
       "tapNextStep": "Atingeți cardul pentru a trece la pasul următor.",
-      "exerciseCardAria": "Fișă de exerciții {titlu}"
+      "exerciseCardAria": "Fișă de exerciții {title}"
     },
     "cta": {
       "tapNextCard": "Atinge fila următoare",

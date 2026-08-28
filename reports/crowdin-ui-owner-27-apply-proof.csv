@@ -1,0 +1,28 @@
+language,crowdin_language,key,string_id,translation_id,CURRENT,NEW,BEFORE,AFTER,api_status,verification_status
+et,et,languageSelect.footer,352,17816,Deutsch lernen,Õpi saksa keelt,Õpi saksa keelt,Õpi saksa keelt,already_applied,already_pass
+et,et,languageSelect.title,354,17818,Sprache wählen,Vali keel,Vali keel,Vali keel,already_applied,already_pass
+et,et,splash.subtitle,516,17820,Deutsch lernen,Õpi saksa keelt,Õpi saksa keelt,Õpi saksa keelt,already_applied,already_pass
+et,et,verb.infinitiv,594,17822,Infinitiv,Infinitiiv,Infinitiiv,Infinitiiv,already_applied,already_pass
+fi,fi,verb.infinitiv,594,17826,Infinitiv,Infinitiivi,Infinitiivi,Infinitiivi,already_applied,already_pass
+is,is,verb.infinitiv,594,17836,Infinitiv,Nafnháttur,Nafnháttur,Nafnháttur,already_applied,already_pass
+it,it,verb.infinitiv,594,17834,Infinitiv,Infinito,Infinito,Infinito,already_applied,already_pass
+lb,lb,kurss.lessonItems.17.menuDesc,248,17830,"mit + Dativ, womit / mit wem un Umlaut.","mit + Dativ, womit / mit wem an Umlaut.","mit + Dativ, womit / mit wem an Umlaut.","mit + Dativ, womit / mit wem an Umlaut.",already_applied,already_pass
+lb,lb,kurss.lessonItems.18.menuDesc,252,17832,"wohin / wo, Akkusativ vai Dativ ar an / in / auf.","wohin / wo, Akkusativ oder Dativ mat an / in / auf.","wohin / wo, Akkusativ oder Dativ mat an / in / auf.","wohin / wo, Akkusativ oder Dativ mat an / in / auf.",already_applied,already_pass
+lt,lt,languageSelect.footer,352,17784,Deutsch lernen,Mokykitės vokiečių kalbos,Mokykitės vokiečių kalbos,Mokykitės vokiečių kalbos,already_applied,already_pass
+lt,lt,languageSelect.title,354,17786,Sprache wählen,Pasirinkite kalbą,Pasirinkite kalbą,Pasirinkite kalbą,already_applied,already_pass
+lt,lt,splash.subtitle,516,17788,Deutsch lernen,Mokykitės vokiečių kalbos,Mokykitės vokiečių kalbos,Mokykitės vokiečių kalbos,already_applied,already_pass
+lt,lt,verb.infinitiv,594,17790,Infinitiv,Bendratis,Bendratis,Bendratis,already_applied,already_pass
+nl,nl,verb.infinitiv,594,17828,Infinitiv,Infinitief,Infinitief,Infinitief,already_applied,already_pass
+pl,pl,languageSelect.footer,352,17800,Deutsch lernen,Ucz się niemieckiego,Ucz się niemieckiego,Ucz się niemieckiego,already_applied,already_pass
+pl,pl,languageSelect.title,354,17802,Sprache wählen,Wybierz język,Wybierz język,Wybierz język,already_applied,already_pass
+pl,pl,splash.subtitle,516,17804,Deutsch lernen,Ucz się niemieckiego,Ucz się niemieckiego,Ucz się niemieckiego,already_applied,already_pass
+pl,pl,verb.infinitiv,594,17806,Infinitiv,Bezokolicznik,Bezokolicznik,Bezokolicznik,already_applied,already_pass
+ru,ru,languageSelect.footer,352,17792,Deutsch lernen,Учите немецкий,Учите немецкий,Учите немецкий,already_applied,already_pass
+ru,ru,languageSelect.title,354,17794,Sprache wählen,Выберите язык,Выберите язык,Выберите язык,already_applied,already_pass
+ru,ru,splash.subtitle,516,17796,Deutsch lernen,Учите немецкий,Учите немецкий,Учите немецкий,already_applied,already_pass
+ru,ru,verb.infinitiv,594,17798,Infinitiv,Инфинитив,Инфинитив,Инфинитив,already_applied,already_pass
+sk,sk,verb.infinitiv,594,17824,Infinitiv,Infinitív,Infinitív,Infinitív,already_applied,already_pass
+uk,uk,languageSelect.footer,352,17808,Deutsch lernen,Вивчайте німецьку,Вивчайте німецьку,Вивчайте німецьку,already_applied,already_pass
+uk,uk,languageSelect.title,354,17810,Sprache wählen,Виберіть мову,Виберіть мову,Виберіть мову,already_applied,already_pass
+uk,uk,splash.subtitle,516,17812,Deutsch lernen,Вивчайте німецьку,Вивчайте німецьку,Вивчайте німецьку,already_applied,already_pass
+uk,uk,verb.infinitiv,594,17814,Infinitiv,Інфінітив,Інфінітив,Інфінітив,already_applied,already_pass

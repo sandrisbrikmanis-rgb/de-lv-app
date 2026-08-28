@@ -1,0 +1,113 @@
+---
+description: Universal gate — agent must not claim OWNER readiness without audit-post-run, 100% coverage, and verify PASS. OWNER artifacts must be script-generated, never hand-copied.
+globs:
+  - reports/**/*owner*
+  - reports/**/*OWNER*
+  - scripts/**/audit-*.js
+  - scripts/**/run-*-audit*.js
+  - scripts/**/build-*-owner*.js
+  - scripts/**/verify-*-owner*.js
+  - scripts/lib/audit-post-run.js
+  - scripts/lib/owner-artifact-publisher.js
+alwaysApply: true
+---
+
+# OWNER readiness gate (universal — all modules)
+
+## Core rule
+
+**The agent must NOT claim OWNER artifacts are ready, complete, published, or reviewable unless ALL of the following are true in the same run:**
+
+1. **Post-audit hook executed** — `scripts/lib/audit-post-run.js` (or the module orchestrator that calls `publishOwnerArtifacts()`).
+2. **Coverage = 100%** — `ownerArtifactCoverage === "100%"` / `coverage.pass === true` (MASTER v1.9 §7.20.5).
+3. **Verify PASS** — module-specific `node scripts/verify-*` or `npm run *:verify*` exits **0**.
+
+If any gate fails → report **BLOCKED** / **NOT READY**. Never substitute a prose summary for missing gates.
+
+## OWNER artifacts are outputs, not prose
+
+| Allowed | Forbidden |
+|---|---|
+| Run `node scripts/build-*-owner-*.js` and commit generated files | Hand-write or edit `reports/*-owner-*.md` without running the builder |
+| Regenerate from audit JSON / live source data | Copy-paste OWNER tables from another module, PR, or prior audit |
+| Report counts from command stdout / JSON gates | Invent or round counts in the final message |
+| Cite `exit 0` + printed gate JSON | Say “OWNER review prepared” when builders/verify were not run |
+
+**Golden rule:** if the agent did not execute the generator + verifier in the shell, it did not prepare OWNER artifacts.
+
+## Required pipeline (MASTER v1.9 modules)
+
+For DA/ET/Kurss audits with `SCOPE_REGISTRY` coverage:
+
+```
+audit orchestrator
+  → publishOwnerArtifacts() / audit-post-run
+  → build-*-owner-review.js (auto via publisher)
+  → validateMonolithicCoverage(backlogCount)
+  → commit + push artifact paths
+  → verifyGithubBlobOnBranch (when not dry-run)
+  → resolveFinalVerdict()
+```
+
+**Readiness requires:**
+
+| Check | Pass condition |
+|---|---|
+| `OWNER_BACKLOG_FINAL` | equals audit finding count |
+| `OWNER_VIEW_FINDINGS` | equals backlog |
+| `OWNER_DECISIONS_FINDINGS` | equals backlog |
+| `ownerArtifactCoverage` | `"100%"` |
+| `duplicateAuditIdsView/Decisions` | `0` |
+| `unexpectedProduction` | empty (`data/**`, `www/data/**` unchanged unless explicitly tasked) |
+| `resolveFinalVerdict()` | not `BLOCKED_OWNER_*` |
+
+Use `--skip-owner-review` **only** when a second pass is planned (document why in the PR).
+
+## Module-specific verify (examples)
+
+When no `SCOPE_REGISTRY` entry exists, the module must define its own verify script. Examples:
+
+| Module | Generator | Verify |
+|---|---|---|
+| Crowdin UI INTENTIONAL_SAME | `build-crowdin-ui-intentional-same-lock-owner.js` | `npm run i18n:ui:verify-intentional-locks` |
+| Crowdin UI (full) | `audit-crowdin-ui-untranslated.js` | `npm run i18n:ui:verify` |
+| MASTER v1.9 publisher | `publishOwnerArtifacts()` | `node scripts/test-owner-artifact-publisher.js` (tooling) |
+
+**Pattern for new modules:** add `scripts/build-<module>-owner-*.js` + `scripts/verify-<module>-owner-*.js` (or npm script) before claiming readiness.
+
+## What the agent may say in the final summary
+
+Only after gates pass, include **evidence**:
+
+- commands run (exact `node` / `npm` invocations)
+- printed gate JSON or key counts (`BASELINE`, `CANDIDATES`, `DELTA`, `OWNER_REVIEW_REQUIRED`, etc.)
+- `ownerArtifactCoverage: 100%` or equivalent
+- `exit 0` on verify
+- paths to generated artifacts under `reports/`
+
+If `OWNER_REVIEW_REQUIRED > 0` → state **PR stays Draft**; do not claim OWNER closure.
+
+## Blocked verdicts (never report as ready)
+
+- `BLOCKED_OWNER_ARTIFACT_PUBLICATION_FAILED`
+- `BLOCKED_OWNER_ARTIFACT_COVERAGE_FAIL`
+- `BLOCKED_UNEXPECTED_PRODUCTION_CHANGE`
+- `BLOCKED_OWNER_MAPPING_MISMATCH`
+- Any verify script `exit 1`
+
+## Anti-pattern: “completion theater”
+
+These are **automatic failures** — stop and fix, do not hand-wave:
+
+1. OWNER markdown exists on disk but builder was not run this session.
+2. Row counts in OWNER files ≠ audit backlog.
+3. Agent summary says “done” but shell shows no `audit-post-run` / verify output.
+4. Delta/explanation copied from narrative instead of computed (`git show`, `computeDelta()`, audit JSON).
+5. `OWNER_STATUS = NELABOT` applied to rows marked `OWNER_REVIEW_REQUIRED`.
+
+## Relation to other rules
+
+- `da-audit-owner-review-auto.mdc` — **when** to run post-audit OWNER generation (DA modules).
+- **This rule** — **when the agent may claim** OWNER readiness (all modules).
+
+Both apply. Generation without verification is insufficient; verification without generation is insufficient.

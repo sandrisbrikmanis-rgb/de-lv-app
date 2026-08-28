@@ -120,7 +120,7 @@ window.LANGUAGE_UI_STRINGS = {
     "translationPrefix": "OriLindi Përshtati:",
     "hintTapAnswer": "Kliko në kartë për të parë përgjigjen.",
     "hintTapSwitch": "Klikoni në kartë për të ndryshuar formularin.",
-    "hintSessionProgress": "{label}: {current} / {total}. {faucet}",
+    "hintSessionProgress": "{label}: {current} / {total}. {tap}",
     "noShuffleForms": "Kjo folje nuk ka forma të mjaftueshme për të vizatuar."
   },
   "notices": {
