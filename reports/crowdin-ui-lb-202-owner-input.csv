@@ -1,0 +1,203 @@
+sequence,language,key,lvSource,current,newValue,ownerStatus,placeholderTokens,htmlTags,reason
+1,lb,buttons.autoplayAriaOff,{label} (automātiski izslēgts),{label} (automātiski izslēgts),,PENDING,label,,REAL_UNTRANSLATED
+2,lb,buttons.autoplayAriaOn,{label} (automātiski ieslēgts),{label} (automātiski ieslēgts),,PENDING,label,,REAL_UNTRANSLATED
+3,lb,buttons.autoplayLabel,Automātiska izruna,Automātiska izruna,,PENDING,,,REAL_UNTRANSLATED
+4,lb,buttons.autoplayOff,Automātiska izruna izslēgta,Automātiska izruna izslēgta,,PENDING,,,REAL_UNTRANSLATED
+5,lb,buttons.autoplayOn,Automātiska izruna ieslēgta,Automātiska izruna ieslēgta,,PENDING,,,REAL_UNTRANSLATED
+6,lb,buttons.cancel,Atcelt,Atcelt,,PENDING,,,REAL_UNTRANSLATED
+7,lb,buttons.check,Pārbaudīt,Pārbaudīt,,PENDING,,,REAL_UNTRANSLATED
+8,lb,buttons.chooseAnotherGroup,Izvēlēties citu grupu,Izvēlēties citu grupu,,PENDING,,,REAL_UNTRANSLATED
+9,lb,buttons.close,Aizvērt,Aizvērt,,PENDING,,,REAL_UNTRANSLATED
+10,lb,buttons.continue,Turpināt,Turpināt,,PENDING,,,REAL_UNTRANSLATED
+11,lb,buttons.delete,Dzēst,Dzēst,,PENDING,,,REAL_UNTRANSLATED
+12,lb,buttons.disableAutoplay,Izslēgt automātisko izrunu,Izslēgt automātisko izrunu,,PENDING,,,REAL_UNTRANSLATED
+13,lb,buttons.enableAutoplay,Ieslēgt automātisko izrunu,Ieslēgt automātisko izrunu,,PENDING,,,REAL_UNTRANSLATED
+14,lb,buttons.known,Zinu pareizi,Zinu pareizi,,PENDING,,,REAL_UNTRANSLATED
+15,lb,buttons.knownWithCount,Zināmi ({count}),Zināmi ({count}),,PENDING,count,,REAL_UNTRANSLATED
+16,lb,buttons.knownWords,Zināmi,Zināmi,,PENDING,,,REAL_UNTRANSLATED
+17,lb,buttons.listen,Klausīties,Klausīties,,PENDING,,,REAL_UNTRANSLATED
+18,lb,buttons.listenPlural,Klausīties daudzskaitli,Klausīties daudzskaitli,,PENDING,,,REAL_UNTRANSLATED
+19,lb,buttons.listenWithWord,Klausīties: {word},Klausīties: {word},,PENDING,word,,REAL_UNTRANSLATED
+20,lb,buttons.markMastered,100% zinu,100% zinu,,PENDING,,,REAL_UNTRANSLATED
+21,lb,buttons.markSessionLearned,🏅 Atzīmēt sesiju kā iemācītu,🏅 Atzīmēt sesiju kā iemācītu,,PENDING,,,REAL_UNTRANSLATED
+22,lb,buttons.markUnwanted,Atzīmēt kā nevajadzīgu,Atzīmēt kā nevajadzīgu,,PENDING,,,REAL_UNTRANSLATED
+23,lb,buttons.masteredWords,100% zināmi,100% zināmi,,PENDING,,,REAL_UNTRANSLATED
+24,lb,buttons.monthlyReview,Mēneša pārskats,Mēneša pārskats,,PENDING,,,REAL_UNTRANSLATED
+25,lb,buttons.restartSession,🔄 Pārskatīt sesiju no jauna,🔄 Pārskatīt sesiju no jauna,,PENDING,,,REAL_UNTRANSLATED
+26,lb,buttons.shuffleVerbs,Jaukt darbības vārdus,Jaukt darbības vārdus,,PENDING,,,REAL_UNTRANSLATED
+27,lb,buttons.unknown,Nezinu,Nezinu,,PENDING,,,REAL_UNTRANSLATED
+28,lb,buttons.unwantedWords,Nevajadzīgie vārdi,Nevajadzīgie vārdi,,PENDING,,,REAL_UNTRANSLATED
+29,lb,buttons.weeklyReview,Nedēļas pārskats,Nedēļas pārskats,,PENDING,,,REAL_UNTRANSLATED
+30,lb,card.cardNotFound,Kartīte netika atrasta,Kartīte netika atrasta,,PENDING,,,REAL_UNTRANSLATED
+31,lb,card.lastSessionLabel,Pēdējā sesija,Pēdējā sesija,,PENDING,,,REAL_UNTRANSLATED
+32,lb,card.levelCompleteDesc,Tu esi apguvis visus šīs grupas vārdus. Laiks spert nākamo soli!,Tu esi apguvis visus šīs grupas vārdus. Laiks spert nākamo soli!,,PENDING,,,REAL_UNTRANSLATED
+33,lb,card.levelCompleteTitle,Izcili! {label} līmenis ir pabeigts! 🎉,Izcili! {label} līmenis ir pabeigts! 🎉,,PENDING,label,,REAL_UNTRANSLATED
+34,lb,card.noActiveWords,Šajā grupā nav aktīvu vārdu.,Šajā grupā nav aktīvu vārdu.,,PENDING,,,REAL_UNTRANSLATED
+35,lb,card.noCardsInSession,Šajā sesijā nav kartīšu.,Šajā sesijā nav kartīšu.,,PENDING,,,REAL_UNTRANSLATED
+36,lb,card.problemLabel,Problemātiskie,Problemātiskie,,PENDING,,,REAL_UNTRANSLATED
+37,lb,card.spelling,Pareizrakstība,Pareizrakstība,,PENDING,,,REAL_UNTRANSLATED
+38,lb,card.spellingVerbs,Pareizrakstība · Darbības vārdi,Pareizrakstība · Darbības vārdi,,PENDING,,,REAL_UNTRANSLATED
+39,lb,card.verbsShuffleTraining,Darbības vārdi · Jaukts treniņš,Darbības vārdi · Jaukts treniņš,,PENDING,,,REAL_UNTRANSLATED
+40,lb,extra.settings,Iestatījumi,Iestatījumi,,PENDING,,,REAL_UNTRANSLATED
+41,lb,extra.wordManagement,Vārdu pārvaldība,Vārdu pārvaldība,,PENDING,,,REAL_UNTRANSLATED
+42,lb,groups.sentences,Teikumi,Teikumi,,PENDING,,,REAL_UNTRANSLATED
+43,lb,hints.chooseModeOrReturn,Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.,Izvēlies citu režīmu vai atgriezies vēlāk pārskatīšanai.,,PENDING,,,REAL_UNTRANSLATED
+44,lb,hints.chooseNextStep,"Izvēlies, ko darīt tālāk.","Izvēlies, ko darīt tālāk.",,PENDING,,,REAL_UNTRANSLATED
+45,lb,hints.tapToReveal,"Klikšķini uz kartītes, lai redzētu tulkojumu.","Klikšķini uz kartītes, lai redzētu tulkojumu.",,PENDING,,,REAL_UNTRANSLATED
+46,lb,hints.trainingCard,{title} vingrinājuma kartīte,{title} vingrinājuma kartīte,,PENDING,title,,REAL_UNTRANSLATED
+47,lb,info.answersBody,<strong>Zinu pareizi</strong> — zini atbildi. <strong>Nezinu</strong> — palīdz atcerēties un pievieno problemātiskajiem. <strong>Nākamais vārds</strong> — izlaiž bez vērtējuma.,<strong>Zinu pareizi</strong> — zini atbildi. <strong>Nezinu</strong> — palīdz atcerēties un pievieno problemātiskajiem. <strong>Nākamais vārds</strong> — izlaiž bez vērtējuma.,,PENDING,,strong|/strong|strong|/strong|strong|/strong,REAL_UNTRANSLATED
+48,lb,info.directionBody,"Nospied, lai pārslēgtu starp <strong>DE→{code}</strong> un <strong>{code}→DE</strong>.","Nospied, lai pārslēgtu starp <strong>DE→{code}</strong> un <strong>{code}→DE</strong>.",,PENDING,code,strong|/strong|strong|/strong,REAL_UNTRANSLATED
+49,lb,info.extraBody,"Atver <strong>Papildu opcijas</strong>, lai skatītu nedēļas un mēneša pārskatu, Zināmos vārdus un atgrieztu paslēptos.","Atver <strong>Papildu opcijas</strong>, lai skatītu nedēļas un mēneša pārskatu, Zināmos vārdus un atgrieztu paslēptos.",,PENDING,,strong|/strong,REAL_UNTRANSLATED
+50,lb,info.intensityBody,"Izvēlies, cik vārdu mācīties vienā sesijā: <strong>Viegls · 10</strong>, <strong>Normāls · 20</strong> vai <strong>Intensīvs · 30</strong>.","Izvēlies, cik vārdu mācīties vienā sesijā: <strong>Viegls · 10</strong>, <strong>Normāls · 20</strong> vai <strong>Intensīvs · 30</strong>.",,PENDING,,strong|/strong|strong|/strong|strong|/strong,REAL_UNTRANSLATED
+51,lb,info.intensityTitle,Sesijas intensitāte,Sesijas intensitāte,,PENDING,,,REAL_UNTRANSLATED
+52,lb,info.listeningBody,"Nospied skaļruņa ikonu kartītē, lai noklausītos izrunu.","Nospied skaļruņa ikonu kartītē, lai noklausītos izrunu.",,PENDING,,,REAL_UNTRANSLATED
+53,lb,info.listeningTitle,Klausīšanās,Klausīšanās,,PENDING,,,REAL_UNTRANSLATED
+54,lb,info.problemBody,"Nospied <strong>Probl.</strong>, lai mācītos vārdus, ar kuriem esi kļūdījies. Parastajā plūsmā «Nezinu» pievieno vārdu šeit; šeit «Zinu pareizi» samazina kļūdu pakāpi.","Nospied <strong>Probl.</strong>, lai mācītos vārdus, ar kuriem esi kļūdījies. Parastajā plūsmā «Nezinu» pievieno vārdu šeit; šeit «Zinu pareizi» samazina kļūdu pakāpi.",,PENDING,,strong|/strong,REAL_UNTRANSLATED
+55,lb,info.problemTitle,Problemātiskie vārdi,Problemātiskie vārdi,,PENDING,,,REAL_UNTRANSLATED
+56,lb,info.spellingBody,"Nospied <strong>Rakst.</strong>, lai pirms atbildes jāieraksta vārds ar roku.","Nospied <strong>Rakst.</strong>, lai pirms atbildes jāieraksta vārds ar roku.",,PENDING,,strong|/strong,REAL_UNTRANSLATED
+57,lb,info.spellingTitle,Pareizrakstība,Pareizrakstība,,PENDING,,,REAL_UNTRANSLATED
+58,lb,info.title,Kā tas strādā?,Kā tas strādā?,,PENDING,,,REAL_UNTRANSLATED
+59,lb,info.unwantedBody,Nospied pārsvītroto aci kartītes stūrī — vārds pazudīs no plūsmas. Atgriezt vari sadaļā Papildu opcijas.,Nospied pārsvītroto aci kartītes stūrī — vārds pazudīs no plūsmas. Atgriezt vari sadaļā Papildu opcijas.,,PENDING,,,REAL_UNTRANSLATED
+60,lb,info.unwantedTitle,Nevajadzīgie vārdi,Nevajadzīgie vārdi,,PENDING,,,REAL_UNTRANSLATED
+61,lb,kurss.articlesDesc,"Der, die, das un lietojuma pamati.","Der, die, das un lietojuma pamati.",,PENDING,,,REAL_UNTRANSLATED
+62,lb,kurss.articlesSubtitle,"Der, die, das un lietojuma pamati.","Der, die, das un lietojuma pamati.",,PENDING,,,REAL_UNTRANSLATED
+63,lb,kurss.backToMain,Atgriezties uz galveno ekrānu,Atgriezties uz galveno ekrānu,,PENDING,,,REAL_UNTRANSLATED
+64,lb,kurss.closeCourse,Aizvērt kursu,Aizvērt kursu,,PENDING,,,REAL_UNTRANSLATED
+65,lb,kurss.consonantsDesc,Svarīgākās līdzskaņu skaņas iesācējam.,Svarīgākās līdzskaņu skaņas iesācējam.,,PENDING,,,REAL_UNTRANSLATED
+66,lb,kurss.consonantsSubtitle,Līdzskaņi un burtu savienojumi,Līdzskaņi un burtu savienojumi,,PENDING,,,REAL_UNTRANSLATED
+67,lb,kurss.consonantsTitle,Līdzskaņi un burtu savienojumi,Līdzskaņi un burtu savienojumi,,PENDING,,,REAL_UNTRANSLATED
+68,lb,kurss.cta.tapContinue,Pieskaries turpināt,Pieskaries turpināt,,PENDING,,,REAL_UNTRANSLATED
+69,lb,kurss.cta.tapNextCard,Pieskaries nākamajai kartītei,Pieskaries nākamajai kartītei,,PENDING,,,REAL_UNTRANSLATED
+70,lb,kurss.cta.tapToRevealAnswer,"Pieskaries, lai redzētu atbildi","Pieskaries, lai redzētu atbildi",,PENDING,,,REAL_UNTRANSLATED
+71,lb,kurss.cta.transformFirstPlural,Pārveido teikumu 1. personā daudzskaitlī.,Pārveido teikumu 1. personā daudzskaitlī.,,PENDING,,,REAL_UNTRANSLATED
+72,lb,kurss.cta.transformSentence,Pārveido teikumu.,Pārveido teikumu.,,PENDING,,,REAL_UNTRANSLATED
+73,lb,kurss.cta.transformThirdSingular,Pārveido teikumu 3. personā vienskaitlī.,Pārveido teikumu 3. personā vienskaitlī.,,PENDING,,,REAL_UNTRANSLATED
+74,lb,kurss.exerciseMeta.answerPlural,Tagad atbildi daudzskaitlī.,Tagad atbildi daudzskaitlī.,,PENDING,,,REAL_UNTRANSLATED
+75,lb,kurss.exerciseMeta.chooseCasePlural,Liec pareizo locījumu un darini daudzskaitli!,Liec pareizo locījumu un darini daudzskaitli!,,PENDING,,,REAL_UNTRANSLATED
+76,lb,kurss.exerciseMeta.fillCase,Übung I — lieto pareizo locījumu,Übung I — lieto pareizo locījumu,,PENDING,,,REAL_UNTRANSLATED
+77,lb,kurss.exerciseMeta.formIhr,Forma 2/3: Jūs (daudzskaitlis),Forma 2/3: Jūs (daudzskaitlis),,PENDING,,,REAL_UNTRANSLATED
+78,lb,kurss.exerciseMeta.formSie,Forma 3/3: Sie (pieklājīgā forma),Forma 3/3: Sie (pieklājīgā forma),,PENDING,,,REAL_UNTRANSLATED
+79,lb,kurss.exerciseProgress,Lekcija {lesson} · Vingrinājums,Lekcija {lesson} · Vingrinājums,,PENDING,lesson,,REAL_UNTRANSLATED
+80,lb,kurss.hints.exerciseCardAria,{title} vingrinājuma kartīte,{title} vingrinājuma kartīte,,PENDING,title,,REAL_UNTRANSLATED
+81,lb,kurss.hints.tapNextStep,"Pieskaries kartītei, lai pārietu uz nākamo soli.","Pieskaries kartītei, lai pārietu uz nākamo soli.",,PENDING,,,REAL_UNTRANSLATED
+82,lb,kurss.hints.tapToContinue,"Pieskaries kartītei, lai turpinātu.","Pieskaries kartītei, lai turpinātu.",,PENDING,,,REAL_UNTRANSLATED
+83,lb,kurss.hints.tapToRevealAnswer,"Pieskaries kartītei, lai redzētu atbildi.","Pieskaries kartītei, lai redzētu atbildi.",,PENDING,,,REAL_UNTRANSLATED
+84,lb,kurss.hints.tapToRevealGerman,"Pieskaries kartītei, lai redzētu vācu tulkojumu.","Pieskaries kartītei, lai redzētu vācu tulkojumu.",,PENDING,,,REAL_UNTRANSLATED
+85,lb,kurss.lessonProgress,Lekcija {lesson} · Pārtulko: {current} / {total},Lekcija {lesson} · Pārtulko: {current} / {total},,PENDING,current|lesson|total,,REAL_UNTRANSLATED
+86,lb,kurss.lessonsDesc,Mācību lekcijas secīgā kārtībā no 1 līdz 21.,Mācību lekcijas secīgā kārtībā no 1 līdz 21.,,PENDING,,,REAL_UNTRANSLATED
+87,lb,kurss.lessonsSubtitle,Mācību lekcijas secīgā kārtībā no 1 līdz 21.,Mācību lekcijas secīgā kārtībā no 1 līdz 21.,,PENDING,,,REAL_UNTRANSLATED
+88,lb,kurss.pronouns,Vietniekvārdi,Vietniekvārdi,,PENDING,,,REAL_UNTRANSLATED
+89,lb,kurss.pronounsDesc,"Nominativ, Akkusativ un Dativ formas.","Nominativ, Akkusativ un Dativ formas.",,PENDING,,,REAL_UNTRANSLATED
+90,lb,kurss.pronounsSubtitle,"Nominativ, Akkusativ un Dativ — vietniekvārdu formas.","Nominativ, Akkusativ un Dativ — vietniekvārdu formas.",,PENDING,,,REAL_UNTRANSLATED
+91,lb,kurss.pronunciationDesc,Vācu valodas skaņas un izrunas pamati.,Vācu valodas skaņas un izrunas pamati.,,PENDING,,,REAL_UNTRANSLATED
+92,lb,kurss.pronunciationSubtitle,Vācu valodas skaņas un izrunas pamati,Vācu valodas skaņas un izrunas pamati,,PENDING,,,REAL_UNTRANSLATED
+93,lb,kurss.sections.exercise,Vingrinājums,Vingrinājums,,PENDING,,,REAL_UNTRANSLATED
+94,lb,kurss.sections.exerciseCombined,Übung / Vingrinājums,Übung / Vingrinājums,,PENDING,,,REAL_UNTRANSLATED
+95,lb,kurss.sections.translate,Pārtulko,Pārtulko,,PENDING,,,REAL_UNTRANSLATED
+96,lb,kurss.sentenceStructure,Teikumu uzbūve,Teikumu uzbūve,,PENDING,,,REAL_UNTRANSLATED
+97,lb,kurss.sentenceStructureDesc,Vienkārša vārdu secība vācu teikumos.,Vienkārša vārdu secība vācu teikumos.,,PENDING,,,REAL_UNTRANSLATED
+98,lb,kurss.subtitle,Vācu valodas pamati soli pa solim,Vācu valodas pamati soli pa solim,,PENDING,,,REAL_UNTRANSLATED
+99,lb,kurss.tipBody,"Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!","Klausies, atkārto un salīdzini. Tava auss ir labākais skolotājs!",,PENDING,,,REAL_UNTRANSLATED
+100,lb,kurss.verbBasics,Darbības vārdu pamati,Darbības vārdu pamati,,PENDING,,,REAL_UNTRANSLATED
+101,lb,kurss.verbBasicsDesc,"Personas, formas un biežākie darbības vārdi.","Personas, formas un biežākie darbības vārdi.",,PENDING,,,REAL_UNTRANSLATED
+102,lb,kurss.vowelsDesc,Garie un īsie patskaņi ar piemēriem.,Garie un īsie patskaņi ar piemēriem.,,PENDING,,,REAL_UNTRANSLATED
+103,lb,kurss.vowelsSubtitle,Patskaņi — garš un īss,Patskaņi — garš un īss,,PENDING,,,REAL_UNTRANSLATED
+104,lb,kurss.vowelsTitle,Patskaņi — garš un īss,Patskaņi — garš un īss,,PENDING,,,REAL_UNTRANSLATED
+105,lb,lists.noLearned,Nav iemācīto vārdu.,Nav iemācīto vārdu.,,PENDING,,,REAL_UNTRANSLATED
+106,lb,lists.noMastered,Nav 100% zināmo vārdu.,Nav 100% zināmo vārdu.,,PENDING,,,REAL_UNTRANSLATED
+107,lb,lists.noUnwanted,Nav nevajadzīgo vārdu.,Nav nevajadzīgo vārdu.,,PENDING,,,REAL_UNTRANSLATED
+108,lb,menu.chooseGroup,Izvēlies grupu,Izvēlies grupu,,PENDING,,,REAL_UNTRANSLATED
+109,lb,menu.mainNav,Galvenā izvēlne,Galvenā izvēlne,,PENDING,,,REAL_UNTRANSLATED
+110,lb,menu.sentences,Teikumi,Teikumi,,PENDING,,,REAL_UNTRANSLATED
+111,lb,menu.verbs,Darbības vārdi,Darbības vārdi,,PENDING,,,REAL_UNTRANSLATED
+112,lb,modes.intense,Intensīvs,Intensīvs,,PENDING,,,REAL_UNTRANSLATED
+113,lb,modes.normal,Normāls,Normāls,,PENDING,,,REAL_UNTRANSLATED
+114,lb,nav.backHome,Atgriezties galvenajā izvēlnē,Atgriezties galvenajā izvēlnē,,PENDING,,,REAL_UNTRANSLATED
+115,lb,nav.changeLanguage,Mainīt dzimto valodu,Mainīt dzimto valodu,,PENDING,,,REAL_UNTRANSLATED
+116,lb,nav.howItWorks,Kā tas strādā?,Kā tas strādā?,,PENDING,,,REAL_UNTRANSLATED
+117,lb,nav.quickTools,Ātrie rīki,Ātrie rīki,,PENDING,,,REAL_UNTRANSLATED
+118,lb,notices.addedMastered,Vārds pievienots 100% zināmajiem.,Vārds pievienots 100% zināmajiem.,,PENDING,,,REAL_UNTRANSLATED
+119,lb,notices.alreadyMastered,Vārds jau ir 100% zināmo sarakstā.,Vārds jau ir 100% zināmo sarakstā.,,PENDING,,,REAL_UNTRANSLATED
+120,lb,notices.answerRevealed,Atbilde atklāta. Vārds paliek sesijā.,Atbilde atklāta. Vārds paliek sesijā.,,PENDING,,,REAL_UNTRANSLATED
+121,lb,notices.chooseNextGroup,Izvēlies nākamo grupu galvenajā izvēlnē.,Izvēlies nākamo grupu galvenajā izvēlnē.,,PENDING,,,REAL_UNTRANSLATED
+122,lb,notices.continueKnownReview,Turpinām zināmo vārdu pārskatīšanu.,Turpinām zināmo vārdu pārskatīšanu.,,PENDING,,,REAL_UNTRANSLATED
+123,lb,notices.continueLastSession,Turpinām pēdējās sesijas pārskatīšanu.,Turpinām pēdējās sesijas pārskatīšanu.,,PENDING,,,REAL_UNTRANSLATED
+124,lb,notices.continueTimeReview,Turpinām: {label}.,Turpinām: {label}.,,PENDING,label,,REAL_UNTRANSLATED
+125,lb,notices.enterAnswerFirst,Vispirms ievadi pareizu atbildi un nospied Pārbaudīt.,Vispirms ievadi pareizu atbildi un nospied Pārbaudīt.,,PENDING,,,REAL_UNTRANSLATED
+126,lb,notices.errorLevelReduced,Kļūdu pakāpe samazināta.,Kļūdu pakāpe samazināta.,,PENDING,,,REAL_UNTRANSLATED
+127,lb,notices.knownReviewDone,Zināmo vārdu pārskatīšana pabeigta.,Zināmo vārdu pārskatīšana pabeigta.,,PENDING,,,REAL_UNTRANSLATED
+128,lb,notices.lastSessionDone,Pēdējās sesijas pārskatīšana pabeigta.,Pēdējās sesijas pārskatīšana pabeigta.,,PENDING,,,REAL_UNTRANSLATED
+129,lb,notices.leftForReview,Atstāts pārskatīšanai.,Atstāts pārskatīšanai.,,PENDING,,,REAL_UNTRANSLATED
+130,lb,notices.leftInProblems,Atstāts problemātiskajā grupā.,Atstāts problemātiskajā grupā.,,PENDING,,,REAL_UNTRANSLATED
+131,lb,notices.loadFailed,"Neizdevās ielādēt kartītes. Pārlādē lapu vai pārbaudi, vai visi datu faili ir pieejami.","Neizdevās ielādēt kartītes. Pārlādē lapu vai pārbaudi, vai visi datu faili ir pieejami.",,PENDING,,,REAL_UNTRANSLATED
+132,lb,notices.markedKnown,Atzīmēts kā zināms.,Atzīmēts kā zināms.,,PENDING,,,REAL_UNTRANSLATED
+133,lb,notices.markedUnwanted,Vārds atzīmēts kā nevajadzīgs.,Vārds atzīmēts kā nevajadzīgs.,,PENDING,,,REAL_UNTRANSLATED
+134,lb,notices.movedToKnown,Vārds pārvietots uz Zināmi!,Vārds pārvietots uz Zināmi!,,PENDING,,,REAL_UNTRANSLATED
+135,lb,notices.noCard,"Nav kartītes, ko atzīmēt.","Nav kartītes, ko atzīmēt.",,PENDING,,,REAL_UNTRANSLATED
+136,lb,notices.noCardForMastered,"Nav kartītes, ko pievienot 100% zināmajiem.","Nav kartītes, ko pievienot 100% zināmajiem.",,PENDING,,,REAL_UNTRANSLATED
+137,lb,notices.noCardForUnwanted,"Nav kartītes, ko atzīmēt kā nevajadzīgu.","Nav kartītes, ko atzīmēt kā nevajadzīgu.",,PENDING,,,REAL_UNTRANSLATED
+138,lb,notices.noCardToMark,"Nav kartīšu, ko atzīmēt.","Nav kartīšu, ko atzīmēt.",,PENDING,,,REAL_UNTRANSLATED
+139,lb,notices.noCompletedSession,"Nav pabeigtas sesijas, ko pārskatīt.","Nav pabeigtas sesijas, ko pārskatīt.",,PENDING,,,REAL_UNTRANSLATED
+140,lb,notices.noProblems,Nav problemātisko vārdu.,Nav problemātisko vārdu.,,PENDING,,,REAL_UNTRANSLATED
+141,lb,notices.noVerbToMark,"Nav darbības vārdu, ko atzīmēt.","Nav darbības vārdu, ko atzīmēt.",,PENDING,,,REAL_UNTRANSLATED
+142,lb,notices.problemModeOff,Problemātisko vārdu režīms izslēgts.,Problemātisko vārdu režīms izslēgts.,,PENDING,,,REAL_UNTRANSLATED
+143,lb,notices.problemsFinishedMoved,Problemātiskie vārdi izmācīti. Vārds pārvietots uz Zināmi!,Problemātiskie vārdi izmācīti. Vārds pārvietots uz Zināmi!,,PENDING,,,REAL_UNTRANSLATED
+144,lb,notices.returnedToStudy,Atgriezts mācīšanās režīmā.,Atgriezts mācīšanās režīmā.,,PENDING,,,REAL_UNTRANSLATED
+145,lb,notices.sessionArchived,Pēdējā sesija atzīmēta kā iemācīta.,Pēdējā sesija atzīmēta kā iemācīta.,,PENDING,,,REAL_UNTRANSLATED
+146,lb,notices.sessionArchivedNext,Pēdējā sesija atzīmēta kā iemācīta. Ielādēta nākamā sesija.,Pēdējā sesija atzīmēta kā iemācīta. Ielādēta nākamā sesija.,,PENDING,,,REAL_UNTRANSLATED
+147,lb,notices.sessionMovedToKnown,Sesijas vārdi pārvietoti uz zināmajiem.,Sesijas vārdi pārvietoti uz zināmajiem.,,PENDING,,,REAL_UNTRANSLATED
+148,lb,notices.sessionReloaded,Sesija ielādēta no jauna ar jauktu secību.,Sesija ielādēta no jauna ar jauktu secību.,,PENDING,,,REAL_UNTRANSLATED
+149,lb,notices.showingKnown,Rādām zināmās kartītes.,Rādām zināmās kartītes.,,PENDING,,,REAL_UNTRANSLATED
+150,lb,notices.showingLastSession,Rādām pēdējo pabeigto sesiju.,Rādām pēdējo pabeigto sesiju.,,PENDING,,,REAL_UNTRANSLATED
+151,lb,notices.showingProblems,Rādām problemātiskos vārdus.,Rādām problemātiskos vārdus.,,PENDING,,,REAL_UNTRANSLATED
+152,lb,notices.showingTimeReview,Rādām: {label}.,Rādām: {label}.,,PENDING,label,,REAL_UNTRANSLATED
+153,lb,notices.spellingOff,Pareizrakstības režīms izslēgts.,Pareizrakstības režīms izslēgts.,,PENDING,,,REAL_UNTRANSLATED
+154,lb,notices.spellingOn,Pareizrakstības režīms ieslēgts.,Pareizrakstības režīms ieslēgts.,,PENDING,,,REAL_UNTRANSLATED
+155,lb,notices.verbMarkedKnown,Darbības vārds atzīmēts kā zināms.,Darbības vārds atzīmēts kā zināms.,,PENDING,,,REAL_UNTRANSLATED
+156,lb,notices.verbShuffleOff,Darbības vārdu jaukšana izslēgta.,Darbības vārdu jaukšana izslēgta.,,PENDING,,,REAL_UNTRANSLATED
+157,lb,notices.verbShuffleOn,Darbības vārdu jaukšana ieslēgta.,Darbības vārdu jaukšana ieslēgta.,,PENDING,,,REAL_UNTRANSLATED
+158,lb,plural.wordOne,vārds,vārds,,PENDING,,,REAL_UNTRANSLATED
+159,lb,plural.wordsFew,vārdi,vārdi,,PENDING,,,REAL_UNTRANSLATED
+160,lb,plural.wordsMany,vārdi,vārdi,,PENDING,,,REAL_UNTRANSLATED
+161,lb,progress.verbsHeading,Darbības vārdi,Darbības vārdi,,PENDING,,,REAL_UNTRANSLATED
+162,lb,restore.ariaLabel,Apstiprināt visu progressa dzēšanu,Apstiprināt visu progressa dzēšanu,,PENDING,,,REAL_UNTRANSLATED
+163,lb,restore.warning,Uzmanību! Viss iemācītais progress un vārdu vēsture tiks pilnībā nodzēsta pa nullēm.,Uzmanību! Viss iemācītais progress un vārdu vēsture tiks pilnībā nodzēsta pa nullēm.,,PENDING,,,REAL_UNTRANSLATED
+164,lb,review.knownReviewDone,Zināmo vārdu pārskatīšana pabeigta.,Zināmo vārdu pārskatīšana pabeigta.,,PENDING,,,REAL_UNTRANSLATED
+165,lb,review.monthCount,Šomēnes iemācīti: {count} {words},Šomēnes iemācīti: {count} {words},,PENDING,count|words,,REAL_UNTRANSLATED
+166,lb,review.monthDone,Mēneša pārskats pabeigts.,Mēneša pārskats pabeigts.,,PENDING,,,REAL_UNTRANSLATED
+167,lb,review.monthEmpty,Nav iemācītu vārdu mēneša pārskatam.,Nav iemācītu vārdu mēneša pārskatam.,,PENDING,,,REAL_UNTRANSLATED
+168,lb,review.monthLabel,Mēneša pārskats,Mēneša pārskats,,PENDING,,,REAL_UNTRANSLATED
+169,lb,review.weekCount,Šonedēļ iemācīti: {count} {words},Šonedēļ iemācīti: {count} {words},,PENDING,count|words,,REAL_UNTRANSLATED
+170,lb,review.weekDone,Nedēļas pārskats pabeigts.,Nedēļas pārskats pabeigts.,,PENDING,,,REAL_UNTRANSLATED
+171,lb,review.weekEmpty,Nav iemācītu vārdu nedēļas pārskatam.,Nav iemācītu vārdu nedēļas pārskatam.,,PENDING,,,REAL_UNTRANSLATED
+172,lb,review.weekLabel,Nedēļas pārskats,Nedēļas pārskats,,PENDING,,,REAL_UNTRANSLATED
+173,lb,spelling.missingChar,trūkst: {char},trūkst: {char},,PENDING,char,,REAL_UNTRANSLATED
+174,lb,spelling.noVerbTask,Šim darbības vārdam nav pareizrakstības uzdevuma.,Šim darbības vārdam nav pareizrakstības uzdevuma.,,PENDING,,,REAL_UNTRANSLATED
+175,lb,study.hints.tapToOpenExplanation,"Klikšķini uz kartītes, lai atvērtu skaidrojumu.","Klikšķini uz kartītes, lai atvērtu skaidrojumu.",,PENDING,,,REAL_UNTRANSLATED
+176,lb,study.hints.tapToRevealGerman,"Klikšķini uz kartītes, lai redzētu vācu vārdu.","Klikšķini uz kartītes, lai redzētu vācu vārdu.",,PENDING,,,REAL_UNTRANSLATED
+177,lb,study.minimal.noteLabel,Norāde:,Norāde:,,PENDING,,,REAL_UNTRANSLATED
+178,lb,study.sections.comparison,Salīdzinājums,Salīdzinājums,,PENDING,,,REAL_UNTRANSLATED
+179,lb,study.sections.comparisonBadge,SALĪDZINĀJUMA KARTĪTE,SALĪDZINĀJUMA KARTĪTE,,PENDING,,,REAL_UNTRANSLATED
+180,lb,study.sections.comparisonFocus,Svarīgs salīdzinājums,Svarīgs salīdzinājums,,PENDING,,,REAL_UNTRANSLATED
+181,lb,study.sections.examples,Piemēri,Piemēri,,PENDING,,,REAL_UNTRANSLATED
+182,lb,study.sections.important,Svarīgi,Svarīgi,,PENDING,,,REAL_UNTRANSLATED
+183,lb,study.sections.mainIdea,Galvenā doma,Galvenā doma,,PENDING,,,REAL_UNTRANSLATED
+184,lb,study.sections.mistakes,Tipiskās kļūdas,Tipiskās kļūdas,,PENDING,,,REAL_UNTRANSLATED
+185,lb,study.table.example,Piemērs,Piemērs,,PENDING,,,REAL_UNTRANSLATED
+186,lb,study.table.mainMeaning,Galvenā nozīme,Galvenā nozīme,,PENDING,,,REAL_UNTRANSLATED
+187,lb,study.table.meaning,Nozīme,Nozīme,,PENDING,,,REAL_UNTRANSLATED
+188,lb,study.table.word,Vārds,Vārds,,PENDING,,,REAL_UNTRANSLATED
+189,lb,tools.problemFull,Problemātiskie vārdi,Problemātiskie vārdi,,PENDING,,,REAL_UNTRANSLATED
+190,lb,tools.problemWithCount,Problemātiskie vārdi ({count}),Problemātiskie vārdi ({count}),,PENDING,count,,REAL_UNTRANSLATED
+191,lb,tools.spellingFull,Pareizrakstība,Pareizrakstība,,PENDING,,,REAL_UNTRANSLATED
+192,lb,verb.guessInfinitive,Uzmini infinitīvu,Uzmini infinitīvu,,PENDING,,,REAL_UNTRANSLATED
+193,lb,verb.guessPastParticiple,Uzmini pagātnes divdabi,Uzmini pagātnes divdabi,,PENDING,,,REAL_UNTRANSLATED
+194,lb,verb.hintTapAnswer,"Klikšķini uz kartītes, lai redzētu atbildi.","Klikšķini uz kartītes, lai redzētu atbildi.",,PENDING,,,REAL_UNTRANSLATED
+195,lb,verb.hintTapSwitch,"Klikšķini uz kartītes, lai pārslēgtu formu.","Klikšķini uz kartītes, lai pārslēgtu formu.",,PENDING,,,REAL_UNTRANSLATED
+196,lb,verb.imperfectIndicative,Imperfekts - Indikatīvs,Imperfekts - Indikatīvs,,PENDING,,,REAL_UNTRANSLATED
+197,lb,verb.imperfectSubjunctive,Imperfekts - Konjunktīvs,Imperfekts - Konjunktīvs,,PENDING,,,REAL_UNTRANSLATED
+198,lb,verb.infinitive,Infinitīvs,Infinitīvs,,PENDING,,,REAL_UNTRANSLATED
+199,lb,verb.noShuffleForms,Šim darbības vārdam nav pietiekami daudz formu jaukšanai.,Šim darbības vārdam nav pietiekami daudz formu jaukšanai.,,PENDING,,,REAL_UNTRANSLATED
+200,lb,verb.pastParticiple,Pagātnes divdabis,Pagātnes divdabis,,PENDING,,,REAL_UNTRANSLATED
+201,lb,verb.writeInfinitive,Uzraksti infinitīvu,Uzraksti infinitīvu,,PENDING,,,REAL_UNTRANSLATED
+202,lb,verb.writePastParticiple,Uzraksti pagātnes divdabi,Uzraksti pagātnes divdabi,,PENDING,,,REAL_UNTRANSLATED
