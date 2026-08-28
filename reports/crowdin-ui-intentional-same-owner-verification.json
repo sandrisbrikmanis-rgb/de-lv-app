@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "evidenceType": "OWNER_REVIEW_VERIFICATION",
+  "source": {
+    "repository": "sandrisbrikmanis-rgb/de-lv-app",
+    "pullRequest": 691,
+    "branch": "cursor/crowdin-ui-untranslated-audit-06ff",
+    "manifestPath": "reports/crowdin-ui-intentional-same-lock-owner.json",
+    "manifestSha": "c3afa66c77b4cc8c72edaf76716c030476e71235"
+  },
+  "artifacts": [
+    {
+      "file": "intentional-same-owner-decisions.json",
+      "bytes": 129018,
+      "sha256": "24ca07f14ba27d55cc467b69c6f6337290e411875d9fdbd0c8086b2c5f6fc069",
+      "records": 192
+    },
+    {
+      "file": "intentional-same-owner-decisions.csv",
+      "bytes": 58107,
+      "sha256": "3c1744c9aab1b671c85ee5f27b9616c7ab6310945e9a9c0098bed9ace0a5cd54",
+      "records": 192
+    }
+  ],
+  "checks": [
+    {
+      "check": "REQUESTED_ROWS",
+      "expected": 192,
+      "actual": 192,
+      "status": "PASS"
+    },
+    {
+      "check": "REVIEWED_ROWS",
+      "expected": 192,
+      "actual": 192,
+      "status": "PASS"
+    },
+    {
+      "check": "UNIQUE_LANGUAGE_KEY",
+      "expected": 192,
+      "actual": 192,
+      "status": "PASS"
+    },
+    {
+      "check": "JSON_RECORDS",
+      "expected": 192,
+      "actual": 192,
+      "status": "PASS"
+    },
+    {
+      "check": "CSV_DATA_ROWS",
+      "expected": 192,
+      "actual": 192,
+      "status": "PASS"
+    },
+    {
+      "check": "JSON_CSV_RECORD_COUNT_IDENTITY",
+      "expected": 192,
+      "actual": 192,
+      "status": "PASS"
+    },
+    {
+      "check": "OWNER_NELABOT",
+      "expected": 165,
+      "actual": 165,
+      "status": "PASS"
+    },
+    {
+      "check": "OWNER_LABOT",
+      "expected": 27,
+      "actual": 27,
+      "status": "PASS"
+    },
+    {
+      "check": "LABOT_WITH_EXACT_NEW",
+      "expected": 27,
+      "actual": 27,
+      "status": "PASS"
+    },
+    {
+      "check": "INVALID_DECISIONS",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "UNRESOLVED",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "SOURCE_JSON_UI_MISMATCH",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "PRODUCTION_CHANGES_BY_OWNER_REVIEW",
+      "expected": 0,
+      "actual": 0,
+      "status": "PASS"
+    }
+  ],
+  "result": "PASS"
+}
+

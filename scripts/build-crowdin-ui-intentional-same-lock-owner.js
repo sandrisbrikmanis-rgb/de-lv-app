@@ -23,6 +23,7 @@ const {
 
 const REPORT_MD = path.join(ROOT, "reports", "crowdin-ui-intentional-same-lock-owner.md");
 const REPORT_JSON = path.join(ROOT, "reports", "crowdin-ui-intentional-same-lock-owner.json");
+const DECISIONS_JSON = path.join(ROOT, "reports", "crowdin-ui-intentional-same-owner-decisions.json");
 
 function escapeTableCell(value) {
   return String(value).replace(/\|/g, "\\|").replace(/\n/g, " ");
@@ -31,6 +32,30 @@ function escapeTableCell(value) {
 function langLabel(repoLang) {
   const crowdin = crowdinCodeFromRepoLang(repoLang);
   return crowdin !== repoLang ? `${repoLang} (Crowdin: \`${crowdin}\`)` : repoLang;
+}
+
+function applyConfirmedOwnerStatuses(rows) {
+  if (!fs.existsSync(DECISIONS_JSON)) return rows;
+  const decisions = JSON.parse(fs.readFileSync(DECISIONS_JSON, "utf8"));
+  const byId = new Map(
+    (decisions.rows || []).map((row) => [`${row.language}\t${row.key}`, row])
+  );
+  return rows.map((row) => {
+    const decision = byId.get(`${row.language}\t${row.key}`);
+    if (!decision) return row;
+    if (decision.ownerStatus === "NELABOT") {
+      return {
+        ...row,
+        ownerStatus: "NELABOT",
+        ownerReviewRequired: "NO",
+        crowdinLock: "YES",
+        lockEnforced: "NO",
+        crowdinProtection: "PENDING",
+        reason: decision.ownerReason || row.reason,
+      };
+    }
+    return row;
+  }).filter((row) => row.ownerStatus !== "LABOT");
 }
 
 function renderMarkdown(rows, delta) {
@@ -61,7 +86,8 @@ function renderMarkdown(rows, delta) {
     `| CANDIDATES (pašreiz) | **${rows.length}** |`,
     `| DELTA (jauni kandidāti) | **${delta.added.length}** |`,
     `| NELABOT_CANDIDATE (baseline) | **${nelabotCandidates}** |`,
-    `| OWNER_REVIEW_REQUIRED (delta) | **${ownerReviewRequired}** |`,
+    `| OWNER_REVIEW_REQUIRED | **${ownerReviewRequired}** |`,
+    `| OWNER NELABOT (confirmed) | **${rows.filter((row) => row.ownerStatus === "NELABOT").length}** |`,
     `| crowdin_lock (OWNER nodoms) | **${rows.length}/${rows.length}** |`,
     `| lock_enforced | **NO** (${rows.length}/${rows.length}) |`,
     `| crowdin_protection | **PENDING** (${rows.length}/${rows.length}) |`,
@@ -114,7 +140,7 @@ function main() {
   const delta = computeDelta(BASELINE_AUDIT_COMMIT);
   const currentRows = collectIntentionalSameRows("HEAD");
   const deltaIds = new Set(delta.added.map((row) => rowId(row.language, row.key)));
-  const rows = enrichLockRows(currentRows, deltaIds);
+  const rows = applyConfirmedOwnerStatuses(enrichLockRows(currentRows, deltaIds));
 
   if (!rows.length) {
     console.error("No INTENTIONAL_SAME rows found");
@@ -142,11 +168,12 @@ function main() {
         total: rows.length,
         deltaCount: delta.added.length,
         ownerReviewRequired: rows.filter((row) => row.ownerReviewRequired === "YES").length,
+        ownerConfirmed: rows.filter((row) => row.ownerStatus === "NELABOT").length,
         nelabotCandidates: rows.filter((row) => row.ownerStatus === "NELABOT_CANDIDATE").length,
         crowdinLock: "YES",
         lockEnforced: "NO",
         crowdinProtection: "PENDING",
-        apply: false,
+        apply: rows.every((row) => row.ownerStatus === "NELABOT"),
         rows,
       },
       null,

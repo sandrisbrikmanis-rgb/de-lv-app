@@ -1,7 +1,7 @@
 window.LANGUAGE_UI_STRINGS = {
   __langCode: "uk",
-  splash: { title: "Німецька мова", subtitle: "Deutsch lernen" },
-  languageSelect: { title: "Sprache wählen", footer: "Deutsch lernen" },
+  splash: { title: "Німецька мова", subtitle: "Вивчайте німецьку" },
+  languageSelect: { title: "Виберіть мову", footer: "Вивчайте німецьку" },
   app: {
     title: "Німецька мова • UK-DE",
     subtitle: "Ваш розумний провідник німецькою за рівнями",
@@ -95,7 +95,7 @@ window.LANGUAGE_UI_STRINGS = {
     imperfectIndicative: "Минулий - Індикатив",
     imperfectSubjunctive: "Минулий - Суб'юнктив",
     pastParticiple: "Дієприкметник минулого часу",
-    infinitiv: "Infinitiv",
+    infinitiv: "Інфінітив",
     writeInfinitive: "Напишіть інфінітив",
     guessInfinitive: "Вгадайте інфінітив",
     writeImperfect: "Напишіть минулий час",

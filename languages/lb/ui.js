@@ -342,11 +342,11 @@ window.LANGUAGE_UI_STRINGS = {
       },
       "17": {
         "title": "Lekcija 17",
-        "menuDesc": "mit + Dativ, womit / mit wem un Umlaut."
+        "menuDesc": "mit + Dativ, womit / mit wem an Umlaut."
       },
       "18": {
         "title": "Lekcija 18",
-        "menuDesc": "wohin / wo, Akkusativ vai Dativ ar an / in / auf."
+        "menuDesc": "wohin / wo, Akkusativ oder Dativ mat an / in / auf."
       },
       "19": {
         "title": "Lekcija 19",

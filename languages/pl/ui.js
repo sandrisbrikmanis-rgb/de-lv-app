@@ -1,7 +1,7 @@
 window.LANGUAGE_UI_STRINGS = {
   __langCode: "pl",
-  splash: { title: "Język niemiecki", subtitle: "Deutsch lernen" },
-  languageSelect: { title: "Sprache wählen", footer: "Deutsch lernen" },
+  splash: { title: "Język niemiecki", subtitle: "Ucz się niemieckiego" },
+  languageSelect: { title: "Wybierz język", footer: "Ucz się niemieckiego" },
   app: {
     title: "Język niemiecki • PL-DE",
     subtitle: "Twój inteligentny przewodnik po niemieckim według poziomów",
@@ -95,7 +95,7 @@ window.LANGUAGE_UI_STRINGS = {
     imperfectIndicative: "Przeszły - Indykatyw",
     imperfectSubjunctive: "Przeszły - Tryb łączący",
     pastParticiple: "Imiesłów przeszły",
-    infinitiv: "Infinitiv",
+    infinitiv: "Bezokolicznik",
     writeInfinitive: "Napisz bezokolicznik",
     guessInfinitive: "Zgadnij bezokolicznik",
     writeImperfect: "Napisz czas przeszły",

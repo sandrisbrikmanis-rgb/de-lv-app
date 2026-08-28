@@ -2,11 +2,11 @@ window.LANGUAGE_UI_STRINGS = {
   "__langCode": "et",
   "splash": {
     "title": "Saksa keel",
-    "subtitle": "Deutsch lernen"
+    "subtitle": "Õpi saksa keelt"
   },
   "languageSelect": {
-    "title": "Sprache wählen",
-    "footer": "Deutsch lernen"
+    "title": "Vali keel",
+    "footer": "Õpi saksa keelt"
   },
   "app": {
     "title": "Saksa keel • ET-DE",
@@ -110,7 +110,7 @@ window.LANGUAGE_UI_STRINGS = {
     "imperfectIndicative": "Minevik - Indikatiiv",
     "imperfectSubjunctive": "Minevik - Konjunktiiv",
     "pastParticiple": "Mineviku osavõte",
-    "infinitiv": "Infinitiv",
+    "infinitiv": "Infinitiiv",
     "writeInfinitive": "Kirjuta infinitiiv",
     "guessInfinitive": "Arva infinitiiv",
     "writeImperfect": "Kirjuta imperfekt",

@@ -1,7 +1,7 @@
 window.LANGUAGE_UI_STRINGS = {
   __langCode: "lt",
-  splash: { title: "Vokiečių kalba", subtitle: "Deutsch lernen" },
-  languageSelect: { title: "Sprache wählen", footer: "Deutsch lernen" },
+  splash: { title: "Vokiečių kalba", subtitle: "Mokykitės vokiečių kalbos" },
+  languageSelect: { title: "Pasirinkite kalbą", footer: "Mokykitės vokiečių kalbos" },
   app: {
     title: "Vokiečių kalba • LT-DE",
     subtitle: "Tavo išmanus vokiečių kalbos vadovas pagal lygius",
@@ -95,7 +95,7 @@ window.LANGUAGE_UI_STRINGS = {
     imperfectIndicative: "Būtasis - Indikatyvas",
     imperfectSubjunctive: "Būtasis - Subjunktyvas",
     pastParticiple: "Būtojo laiko dalyvis",
-    infinitiv: "Infinitiv",
+    infinitiv: "Bendratis",
     writeInfinitive: "Parašykite bendratį",
     guessInfinitive: "Atspėkite bendratį",
     writeImperfect: "Parašykite būtąjį laiką",

@@ -35,7 +35,10 @@ function countProductionChanges() {
 }
 
 function isProtectedOwnerRow(row) {
-  return row.crowdinLock === "YES" && row.ownerStatus === "NELABOT_CANDIDATE";
+  return (
+    row.crowdinLock === "YES" &&
+    (row.ownerStatus === "NELABOT" || row.ownerStatus === "NELABOT_CANDIDATE")
+  );
 }
 
 function main() {
