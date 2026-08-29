@@ -4,7 +4,9 @@
 **Branch:** `cursor/f0-comp-infrastructure-ab00`  
 **PR:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/698  
 **Repair baseline HEAD:** `2bbe006247525133d28d6f836876dda288c8833d`  
-**Repair commit HEAD:** `41bb6747` (full R-001…R-011 repair)  
+**Repair commit HEAD:** `41bb6747852665f6bd3f02e020bb5fb1002733f4` (full R-001…R-011 repair)  
+**R-012 repair baseline HEAD:** `ea576a892fa3e518578f8c29bfeb5a6e7475d7e0` (post-repair OWNER review)  
+**R-012 repair commit HEAD:** *(see `reports/phase0-infrastructure-r012-repair-evidence.md` §9)*  
 **Base (`origin/main`):** `1d878da08830f0412af722829d98d2f4b574095c`  
 **Authoritative refs:** MASTER v1.17, `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` §10
 
@@ -30,7 +32,9 @@
 | `scripts/lib/content-discovery/inventory-metrics.js` | R-001 invariant + gate helpers |
 | `scripts/lib/content-discovery/g3-inventory-schema.js` | R-006 G3 structured inventory |
 | `scripts/lib/content-discovery/phase1-semantic-dedup.js` | R-005 semantic registry step |
-| `scripts/lib/content-discovery/phase1-owner-prep.js` | R-007 PRE_BACKLOG + OWNER-PREP |
+| `scripts/build-phase1-owner-review.js` | R-012 §8.2 owner view + decisions |
+| `scripts/build-phase1-github-index.js` | R-012 §8.2 GitHub index |
+| `scripts/lib/content-discovery/phase1-owner-prep.js` | R-007/R-012 PRE_BACKLOG + OWNER-PREP |
 | `scripts/lib/content-discovery/phase1-collect.js` | R-001/R-004 inventory + multi-scan |
 | `scripts/lib/content-discovery/phase1-findings-dedup.js` | R-005 semantic dedup wiring |
 | `scripts/lib/content-discovery/phase1-findings-validation.js` | R-007/R-010 G3 cardId normalize |
@@ -47,12 +51,13 @@
 | `scripts/lib/luna-g1-verbs.js` | R-002 adapter |
 | `scripts/lib/luna-g1-training.js` | R-002 adapter |
 | `scripts/lib/luna-g3-lessons.js` | R-002 adapter |
-| `scripts/run-phase1-discovery.js` | R-003/R-007/R-009/R-010 orchestrator |
-| `scripts/test-phase1-f0-comp.js` | R-001…R-011 integration tests |
+| `scripts/run-phase1-discovery.js` | R-003/R-007/R-009/R-010/R-012 orchestrator |
+| `scripts/test-phase1-f0-comp.js` | R-001…R-012 integration tests |
 | `scripts/test-phase1-coverage-gates.js` | R-001/R-004 negative gates |
 | `scripts/test-phase1-findings-validation.js` | R-005 semantic fixtures |
 | `reports/phase0-infrastructure-completion.md` | R-011 (this file) |
 | `reports/phase0-infrastructure-completion-owner-review.md` | Repair mapping appendix |
+| `reports/phase0-infrastructure-r012-repair-evidence.md` | R-012 targeted repair evidence |
 
 ------------------------------------------------------------------------
 
@@ -72,7 +77,7 @@
 | **10** Luna adapters | **IMPLEMENTED** | 5 adapters + batch/retry mock transport |
 | **11** Orchestrator | **IMPLEMENTED** | Luna wiring, PRE_BACKLOG, OWNER-PREP, CLI |
 | **12** Exit matrix | **IMPLEMENTED** | `i18n:content:phase1-exit` ×2 PASS |
-| **13** OWNER-PREP | **IMPLEMENTED** | 3 files after gate PASS only |
+| **13** OWNER-PREP | **IMPLEMENTED** | §8.2: `phase1-full-owner-view.md`, `phase1-full-owner-decisions.md`, `phase1-full-owner-review-GITHUB.md` after gate PASS (`testOwnerPrepOrchestratorR012`) |
 | **14** npm scripts | **IMPLEMENTED** | unchanged + tests |
 | **15** F0 completion smoke | **IMPLEMENTED** | Full verification below |
 
@@ -90,13 +95,14 @@
 | **R-004** | **REPAIRED** | G1 sentences `multiScanObjectsExpected/Scanned = fieldsScanned` (796) |
 | **R-005** | **REPAIRED** | `applySemanticRegistryDedup` in dedup pipeline |
 | **R-006** | **REPAIRED** | `g3-inventory-schema.js` unknown path → unmapped > 0 |
-| **R-007** | **REPAIRED** | collect→validate→dedup→PRE_BACKLOG→OWNER-PREP→reports |
+| **R-007** | **REPAIRED** | collect→validate→dedup→PRE_BACKLOG→OWNER-PREP→reports; §8.2 files via `build-phase1-owner-review.js` + `build-phase1-github-index.js` (orchestrator integration test PASS) |
 | **R-008** | **REPAIRED** | `g3-legacy-html.js` text-node fallback; ERROR not root |
 | **R-009** | **REPAIRED** | `writeReportAtomic` for all Phase 1 reports |
 | **R-010** | **REPAIRED** | Unknown CLI arg: exit 1, no stack (unless `--debug`) |
-| **R-011** | **REPAIRED** | This unified implementation report |
+| **R-011** | **REPAIRED** | This unified implementation report (R-012 correction applied post integration-test PASS) |
+| **R-012** | **REPAIRED** | OWNER-PREP generates §8.2 three files only when validated findings > 0 and PRE_BACKLOG PASS; `ownerPrepGenerated=false` otherwise |
 
-**Repairs:** 11/11 **REPAIRED**
+**Repairs:** 12/12 **REPAIRED** (R-001…R-012)
 
 ------------------------------------------------------------------------
 
@@ -105,7 +111,7 @@
 ```bash
 npm run test:phase1-findings-validation          # PASS
 npm run test:phase1-coverage-gates               # PASS
-npm run test:phase1-f0-comp                      # PASS (R-001…R-011 integration)
+npm run test:phase1-f0-comp                      # PASS (R-001…R-012 integration incl. OWNER-PREP orchestrator)
 npm run i18n:content:phase0-exit                 # PASS
 npm run i18n:content:phase1-discovery -- --help  # PASS
 npm run i18n:content:phase1-discovery -- --skip-luna --all-groups --dataset all --all-langs  # PASS exit 0
@@ -130,7 +136,7 @@ npm run i18n:content:phase1-exit                 # PASS (×2 deterministic)
 | LUNA_ORCHESTRATOR_WIRING | **PASS** | `lunaMockIntegration` + coverage mismatch FAIL |
 | LUNA_REAL_CALLS | **0** | `constraints.lunaCalls=0` |
 | LUNA_FIXTURE_COVERAGE | **318/318** | fixture evaluator |
-| PRE_BACKLOG/OWNER_PREP_WIRING | **PASS** | gate FAIL blocks; smoke `ownerPrepGenerated=false` |
+| PRE_BACKLOG/OWNER_PREP_WIRING | **PASS** | gate FAIL blocks; §8.2 files on PASS; smoke `ownerPrepGenerated=false` |
 | ATOMIC_REPORT_WRITES | **PASS** | temp→rename test |
 | PHASE_0_REGRESSION | **PASS** | `i18n:content:phase0-exit` |
 | DETERMINISM | **PASS** | phase1-exit ×2 identical gates |
@@ -149,7 +155,8 @@ npm run i18n:content:phase1-exit                 # PASS (×2 deterministic)
 | G3 unknown path fixture | unmapped > 0 | ✓ `test-phase1-f0-comp` |
 | Semantic registry conflict | FAIL | ✓ `test-phase1-f0-comp` |
 | Luna partial/coverage mismatch | FAIL | ✓ `test-phase1-f0-comp` |
-| PRE_BACKLOG FAIL → no OWNER-PREP | skip/FAIL | ✓ `test-phase1-f0-comp` |
+| PRE_BACKLOG FAIL → no OWNER-PREP | skip/FAIL | ✓ `testOwnerPrepOrchestratorR012` |
+| §8.2 OWNER files on PASS | 3 files + PENDING | ✓ `testOwnerPrepOrchestratorR012` |
 | `--bogus-flag` | exit 1, no stack | ✓ `test-phase1-f0-comp` |
 | Malformed legacyHtml (no granular nodes) | ERROR not root | ✓ `test-phase1-f0-comp` |
 | Interrupted atomic write cleanup | no stale `.tmp` | ✓ `test-phase1-f0-comp` |
@@ -183,12 +190,12 @@ npm run i18n:content:phase1-exit                 # PASS (×2 deterministic)
 
 ```
 PHASE_0_INFRASTRUCTURE_REPAIR = COMPLETE
-R-001…R-011 = 11/11 REPAIRED
+R-001…R-012 = 12/12 REPAIRED
 F0-COMP-1…15 = 15/15 IMPLEMENTED
 SMOKE_VERDICT = INFRASTRUCTURE_SMOKE_PASS
 ```
 
-**Note:** Independent post-repair OWNER review required before merge. Original `OWNER_REVIEW_NEEDS_REPAIR` verdict unchanged until separate review pass.
+**Note:** Independent post-repair OWNER review (`reports/phase0-infrastructure-post-repair-owner-review.md`) recorded **NEEDS_REPAIR** at baseline `ea576a89` (R-012 blocker). That historical verdict is unchanged; R-012 repair evidence is in `reports/phase0-infrastructure-r012-repair-evidence.md`. Re-review required before merge.
 
 ------------------------------------------------------------------------
 

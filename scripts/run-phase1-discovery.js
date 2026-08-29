@@ -265,8 +265,11 @@ async function runPhase1Discovery(options = {}) {
     },
   );
 
-  const validatedFindings = dedup.findings.filter((f) =>
-    ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
+  const validatedFindings = (
+    options.ownerPrepFixtureFindings ||
+    dedup.findings.filter((f) =>
+      ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
+    )
   );
 
   const historyGateInput = {
@@ -285,8 +288,8 @@ async function runPhase1Discovery(options = {}) {
   ) {
     ownerPrep = generateOwnerPrep(
       validatedFindings,
-      validatedFindings[0]?.scopeId || "aggregate",
-      path.join(ROOT, "reports", "phase1-owner-prep"),
+      options.ownerPrepOutDir || path.join(ROOT, "reports", "phase1-owner-prep"),
+      { branch: options.ownerPrepBranch },
     );
   }
 
@@ -302,7 +305,11 @@ async function runPhase1Discovery(options = {}) {
     ).length,
   };
   matrix.validation = {
-    pass: validation.pass && dedup.pass && preBacklogGate.status !== "FAIL",
+    pass:
+      validation.pass &&
+      dedup.pass &&
+      preBacklogGate.status !== "FAIL" &&
+      (validatedFindings.length === 0 || historyGate.PRE_BACKLOG_HISTORY_GATE === "PASS"),
     schemaErrors: validation.schemaErrors,
     dedupConflicts: dedup.conflicts,
     preBacklogGate,

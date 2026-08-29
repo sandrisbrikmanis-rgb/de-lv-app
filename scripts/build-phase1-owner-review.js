@@ -4,42 +4,100 @@
 const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
+const { writeReportAtomic } = require("./lib/content-discovery/report-builder");
 
-function buildPhase1OwnerReview(findings = [], options = {}) {
-  const validated = findings.filter((f) =>
-    ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED", "NEEDS_REVIEW"].includes(
-      f.classificationStatus,
-    ),
-  );
+const PHASE1_OWNER_PREP_DIR = "reports/phase1-owner-prep";
+const PHASE1_OWNER_VIEW_FILE = "phase1-full-owner-view.md";
+const PHASE1_OWNER_DECISIONS_FILE = "phase1-full-owner-decisions.md";
 
+function ownerPrepDir(root = ROOT) {
+  return path.join(root, PHASE1_OWNER_PREP_DIR);
+}
+
+function normalizeOwnerPrepFindings(findings = []) {
+  return findings.map((f) => ({
+    ...f,
+    ownerStatus: "PENDING",
+    proposed: f.proposed || f.findingType || null,
+  }));
+}
+
+function buildPhase1OwnerView(findings = [], options = {}) {
+  const rows = normalizeOwnerPrepFindings(findings);
   const lines = [
     "# Phase 1 — OWNER preview (phase1-full)",
     "",
-    `**Findings:** ${validated.length}`,
-    `**Generated:** ${new Date().toISOString()}`,
+    `**Findings:** ${rows.length}`,
+    `**Generated:** ${options.generatedAt || new Date().toISOString()}`,
     "",
-    "> Mock/fixture generated for F0-COMP infrastructure verification only.",
-    "",
-  ];
+    options.mockNote ? `> ${options.mockNote}` : "",
+    options.mockNote ? "" : null,
+  ].filter((line) => line !== null);
 
-  validated.forEach((finding, index) => {
+  rows.forEach((finding, index) => {
     lines.push(
       `## Finding ${index + 1}`,
       "",
-      `**Scope:** \`${finding.scopeId}\``,
-      `**Card:** \`${finding.cardId}\``,
-      `**Field:** \`${finding.fieldPath}\``,
-      `**Category:** ${finding.category}`,
-      `**Severity:** ${finding.severity}`,
+      `**Audit ID:** \`${finding.auditId || "—"}\``,
+      `**Finding Stable ID:** \`${finding.findingStableId || "—"}\``,
+      `**Dedup key:** \`${finding.dedupKey || "—"}\``,
+      `**Scope:** \`${finding.scopeId || "—"}\``,
+      `**Card:** \`${finding.cardId || "—"}\``,
+      `**Field:** \`${finding.fieldPath || "—"}\``,
+      `**Category:** ${finding.category || "—"}`,
+      `**Severity:** ${finding.severity || "—"}`,
+      `**Source:** ${finding.source || "—"}`,
       `**Current:** ${finding.current || "—"}`,
-      `**Statuss:** PENDING`,
+      `**Proposed:** ${finding.proposed || "—"}`,
+      `**OWNER STATUS:** PENDING`,
       "",
       "---",
       "",
     );
   });
 
-  return lines.join("\n");
+  return `${lines.join("\n")}\n`;
+}
+
+function buildPhase1OwnerDecisions(findings = []) {
+  const rows = normalizeOwnerPrepFindings(findings);
+  const lines = [
+    "# Phase 1 OWNER decisions",
+    "",
+    "| Audit ID | Finding Stable ID | Dedup key | Card | Field | Category | Severity | CURRENT | Source | OWNER STATUS |",
+    "|----------|-------------------|-----------|------|-------|----------|----------|---------|--------|--------------|",
+  ];
+
+  for (const f of rows) {
+    lines.push(
+      `| ${f.auditId || "—"} | ${f.findingStableId || "—"} | ${f.dedupKey || "—"} | ${f.cardId || "—"} | ${f.fieldPath || "—"} | ${f.category || "—"} | ${f.severity || "—"} | ${String(f.current || "").replace(/\|/g, "\\|")} | ${f.source || "—"} | PENDING |`,
+    );
+  }
+
+  return `${lines.join("\n")}\n`;
+}
+
+function writePhase1OwnerPrepReviewFiles(findings = [], options = {}) {
+  const root = options.root || ROOT;
+  const outDir = options.outDir || ownerPrepDir(root);
+  fs.mkdirSync(outDir, { recursive: true });
+
+  const viewPath = path.join(outDir, PHASE1_OWNER_VIEW_FILE);
+  const decisionsPath = path.join(outDir, PHASE1_OWNER_DECISIONS_FILE);
+
+  writeReportAtomic(viewPath, buildPhase1OwnerView(findings, options));
+  writeReportAtomic(decisionsPath, buildPhase1OwnerDecisions(findings));
+
+  return {
+    outDir,
+    viewPath,
+    decisionsPath,
+    files: [
+      path.relative(root, viewPath).replace(/\\/g, "/"),
+      path.relative(root, decisionsPath).replace(/\\/g, "/"),
+    ],
+    count: findings.length,
+  };
 }
 
 function main() {
@@ -49,25 +107,16 @@ function main() {
     ? JSON.parse(fs.readFileSync(inputPath, "utf8")).findings || []
     : [];
 
-  const outDir = path.join(ROOT, "reports", "phase1-owner-prep");
-  fs.mkdirSync(outDir, { recursive: true });
-
-  const reviewPath = path.join(outDir, "phase1-full-owner-view.md");
-  const decisionsPath = path.join(outDir, "phase1-full-owner-decisions.md");
-
-  fs.writeFileSync(reviewPath, `${buildPhase1OwnerReview(findings)}\n`, "utf8");
-  fs.writeFileSync(
-    decisionsPath,
-    "# Phase 1 OWNER decisions\n\n| Finding | Decision |\n|---------|----------|\n",
-    "utf8",
-  );
+  const result = writePhase1OwnerPrepReviewFiles(findings, {
+    mockNote: "Mock/fixture generated for F0-COMP infrastructure verification only.",
+  });
 
   console.log(
     JSON.stringify(
       {
-        review: "reports/phase1-owner-prep/phase1-full-owner-view.md",
-        decisions: "reports/phase1-owner-prep/phase1-full-owner-decisions.md",
-        findings: findings.length,
+        review: result.files[0],
+        decisions: result.files[1],
+        findings: result.count,
       },
       null,
       2,
@@ -79,4 +128,14 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { buildPhase1OwnerReview };
+module.exports = {
+  PHASE1_OWNER_PREP_DIR,
+  PHASE1_OWNER_VIEW_FILE,
+  PHASE1_OWNER_DECISIONS_FILE,
+  ownerPrepDir,
+  buildPhase1OwnerReview: buildPhase1OwnerView,
+  buildPhase1OwnerView,
+  buildPhase1OwnerDecisions,
+  writePhase1OwnerPrepReviewFiles,
+  normalizeOwnerPrepFindings,
+};

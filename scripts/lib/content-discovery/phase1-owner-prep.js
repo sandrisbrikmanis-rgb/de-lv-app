@@ -1,69 +1,64 @@
-/**
- * F0-COMP-13/14 — OWNER-PREP generation after PRE_BACKLOG_HISTORY_GATE PASS.
- */
-const fs = require('fs');
-const path = require('path');
-const { writeReportAtomic } = require('./report-builder');
+#!/usr/bin/env node
+"use strict";
+
+const path = require("path");
+const { ROOT } = require("../audit-common");
+const {
+  PHASE1_OWNER_VIEW_FILE,
+  PHASE1_OWNER_DECISIONS_FILE,
+  ownerPrepDir,
+  writePhase1OwnerPrepReviewFiles,
+} = require("../../build-phase1-owner-review");
+const {
+  PHASE1_OWNER_GITHUB_FILE,
+  writePhase1GithubIndex,
+} = require("../../build-phase1-github-index");
 
 const OWNER_PREP_FILES = [
-  'owner-prep-findings.json',
-  'owner-prep-summary.md',
-  'owner-prep-status.json',
+  PHASE1_OWNER_VIEW_FILE,
+  PHASE1_OWNER_DECISIONS_FILE,
+  PHASE1_OWNER_GITHUB_FILE,
 ];
 
 function runPreBacklogHistoryGate(validatedFindings, registry = {}) {
   if (!validatedFindings.length) {
-    return { status: 'SKIP', reason: 'VALIDATED_FINDINGS_ZERO' };
+    return { status: "SKIP", reason: "VALIDATED_FINDINGS_ZERO" };
   }
   const conflicts = validatedFindings.filter((f) => f.registryConflict);
   if (conflicts.length) {
-    return { status: 'FAIL', reason: 'REGISTRY_CONFLICT', conflicts };
+    return { status: "FAIL", reason: "REGISTRY_CONFLICT", conflicts };
   }
-  const unresolved = validatedFindings.filter((f) => f.semanticMatch === 'NEEDS_REVIEW');
+  const unresolved = validatedFindings.filter((f) => f.semanticMatch === "NEEDS_REVIEW");
   if (unresolved.length) {
-    return { status: 'FAIL', reason: 'SEMANTIC_NEEDS_REVIEW', unresolved };
+    return { status: "FAIL", reason: "SEMANTIC_NEEDS_REVIEW", unresolved };
   }
-  return { status: 'PASS', registrySize: Object.keys(registry).length };
+  return { status: "PASS", registrySize: Object.keys(registry).length };
 }
 
-function generateOwnerPrep(validatedFindings, scopeId, reportsDir) {
-  const scopeDir = path.join(reportsDir, scopeId.replace(/\//g, '_'));
-  fs.mkdirSync(scopeDir, { recursive: true });
-
-  const findings = validatedFindings.map((f) => ({
-    ...f,
-    ownerStatus: 'PENDING',
-    proposed: f.proposed || f.findingType,
-  }));
-
-  writeReportAtomic(path.join(scopeDir, OWNER_PREP_FILES[0]), {
-    scopeId,
-    findings,
-    generatedAt: new Date().toISOString(),
+function generateOwnerPrep(validatedFindings, reportsDir = ownerPrepDir(ROOT), options = {}) {
+  const review = writePhase1OwnerPrepReviewFiles(validatedFindings, {
+    outDir: reportsDir,
+    root: options.root || ROOT,
+    generatedAt: options.generatedAt,
+  });
+  const github = writePhase1GithubIndex({
+    outDir: reportsDir,
+    root: options.root || ROOT,
+    branch: options.branch,
+    repoUrl: options.repoUrl,
   });
 
-  const summary = [
-    `# OWNER-PREP ${scopeId}`,
-    '',
-    `Findings: ${findings.length}`,
-    `Status: PENDING`,
-    '',
-    ...findings.map((f) => `- ${f.findingType || f.type}: ${f.fieldPath || f.path || 'n/a'} [PENDING]`),
-  ].join('\n');
-  writeReportAtomic(path.join(scopeDir, OWNER_PREP_FILES[1]), summary);
-
-  writeReportAtomic(path.join(scopeDir, OWNER_PREP_FILES[2]), {
-    scopeId,
-    ownerStatus: 'PENDING',
-    count: findings.length,
-    files: OWNER_PREP_FILES,
-  });
-
-  return { files: OWNER_PREP_FILES.map((f) => path.join(scopeDir, f)), count: findings.length };
+  return {
+    outDir: reportsDir,
+    files: [...review.files, github.file],
+    count: validatedFindings.length,
+    ownerStatus: "PENDING",
+  };
 }
 
 module.exports = {
   runPreBacklogHistoryGate,
   generateOwnerPrep,
   OWNER_PREP_FILES,
+  ownerPrepDir,
 };

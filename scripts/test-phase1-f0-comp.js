@@ -24,10 +24,12 @@ const { runLunaForScope } = require("./lib/luna-orchestrator");
 const { createMockLunaTransport } = require("./lib/luna-transport");
 const { runBatchedAdapter } = require("./lib/luna-adapter-runner");
 const { runPhase1Discovery } = require("./run-phase1-discovery");
+const { OWNER_PREP_FILES } = require("./lib/content-discovery/phase1-owner-prep");
 const {
-  runPreBacklogHistoryGate,
-  generateOwnerPrep,
-} = require("./lib/content-discovery/phase1-owner-prep");
+  PHASE1_OWNER_VIEW_FILE,
+  PHASE1_OWNER_DECISIONS_FILE,
+} = require("./build-phase1-owner-review");
+const { PHASE1_OWNER_GITHUB_FILE } = require("./build-phase1-github-index");
 const { validateHistoryGates } = require("./lib/discovery-stability");
 const { evaluateLunaCoverage } = require("./lib/content-discovery/phase1-coverage-gates");
 const { collectG1SentencesMultiTranslation } = require("./lib/content-discovery/collectors/multi-translation");
@@ -188,7 +190,77 @@ async function testLunaRetryTimeoutContract() {
   assert(result.stats.retries >= 1, "retry stats recorded");
 }
 
+function sampleValidatedFinding() {
+  return {
+    auditId: "TEST-0001",
+    findingStableId: "g2/a1/et|sprechen|lv|MULTIPLE_TRANSLATIONS_DETECTED|deterministic/test",
+    dedupKey: "g2|a1|sprechen|lv|MULTIPLE_TRANSLATIONS_DETECTED",
+    scopeId: "g2/a1/et",
+    group: "g2",
+    dataset: "a1",
+    lang: "et",
+    cardId: "sprechen",
+    fieldPath: "lv",
+    severity: "HIGH",
+    category: "MULTIPLE_TRANSLATIONS_DETECTED",
+    classificationStatus: "VALIDATED_REAL_FINDING",
+    current: "a • b",
+    source: "deterministic/multi-translation-scan",
+    proposed: null,
+  };
+}
+
+async function testOwnerPrepOrchestratorR012() {
+  const prepDir = fs.mkdtempSync(path.join(os.tmpdir(), "phase1-owner-prep-"));
+  const singleScope = {
+    groups: ["g2"],
+    datasetsByGroup: { g2: ["a1"], g1: [], g3: [] },
+    langs: ["et"],
+    skipLuna: true,
+    allowWithLuna: false,
+    preBacklogReady: true,
+    ownerPrepOutDir: prepDir,
+  };
+
+  const pass = await runPhase1Discovery({
+    ...singleScope,
+    ownerPrepFixtureFindings: [sampleValidatedFinding()],
+  });
+  assert(pass.ownerPrep, "orchestrator owner prep generated");
+  assert(pass.matrix.gates.ownerPrepGenerated, "ownerPrepGenerated true");
+  for (const fileName of OWNER_PREP_FILES) {
+    const filePath = path.join(prepDir, fileName);
+    assert(fs.existsSync(filePath), `§8.2 file exists: ${fileName}`);
+  }
+  const viewContent = fs.readFileSync(path.join(prepDir, PHASE1_OWNER_VIEW_FILE), "utf8");
+  const decisionsContent = fs.readFileSync(path.join(prepDir, PHASE1_OWNER_DECISIONS_FILE), "utf8");
+  const githubContent = fs.readFileSync(path.join(prepDir, PHASE1_OWNER_GITHUB_FILE), "utf8");
+  assert(viewContent.includes("PENDING"), `${PHASE1_OWNER_VIEW_FILE} contains PENDING status`);
+  assert(decisionsContent.includes("PENDING"), `${PHASE1_OWNER_DECISIONS_FILE} contains PENDING status`);
+  assert(githubContent.includes("phase1-full-owner-view.md"), `${PHASE1_OWNER_GITHUB_FILE} links owner view`);
+  assert(githubContent.includes("phase1-full-owner-decisions.md"), `${PHASE1_OWNER_GITHUB_FILE} links owner decisions`);
+  assert(
+    !fs.existsSync(path.join(prepDir, "owner-prep-findings.json")),
+    "legacy owner-prep-findings.json not generated",
+  );
+
+  const zero = await runPhase1Discovery({ ...singleScope });
+  assert(!zero.ownerPrep, "zero validated findings skips owner prep");
+  assert(!zero.matrix.gates.ownerPrepGenerated, "ownerPrepGenerated false");
+
+  const gateFail = await runPhase1Discovery({
+    ...singleScope,
+    ownerPrepFixtureFindings: [sampleValidatedFinding()],
+    preBacklogReady: false,
+  });
+  assert(!gateFail.ownerPrep, "PRE_BACKLOG FAIL blocks owner prep");
+  assert(!gateFail.matrix.gates.ownerPrepGenerated, "ownerPrepGenerated false on gate fail");
+  assert(gateFail.matrix.gates.PRE_BACKLOG_HISTORY_GATE === "FAIL", "PRE_BACKLOG history gate FAIL");
+  assert(!gateFail.matrix.validation.pass, "pipeline validation FAIL on PRE_BACKLOG gate fail");
+}
+
 async function testOwnerPrepWiring() {
+  const { runPreBacklogHistoryGate, generateOwnerPrep } = require("./lib/content-discovery/phase1-owner-prep");
   const skip = runPreBacklogHistoryGate([]);
   assert(skip.status === "SKIP", "zero validated findings skips owner prep");
 
@@ -205,35 +277,15 @@ async function testOwnerPrepWiring() {
   });
   assert(gateFail.PRE_BACKLOG_HISTORY_GATE === "FAIL", "pre backlog gate fail");
 
-  const pass = runPreBacklogHistoryGate(
-    [
-      {
-        classificationStatus: "VALIDATED_REAL_FINDING",
-        scopeId: "g2/a1/et",
-        findingType: "TEST",
-        fieldPath: "lv",
-      },
-    ],
-    {},
-  );
+  const pass = runPreBacklogHistoryGate([sampleValidatedFinding()], {});
   assert(pass.status === "PASS", "pre backlog pass with findings");
 
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-prep-"));
-  const prep = generateOwnerPrep(
-    [
-      {
-        classificationStatus: "VALIDATED_REAL_FINDING",
-        scopeId: "g2/a1/et",
-        findingType: "TEST",
-        fieldPath: "lv",
-        proposed: "TEST",
-      },
-    ],
-    "g2/a1/et",
-    dir,
-  );
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-prep-unit-"));
+  const prep = generateOwnerPrep([sampleValidatedFinding()], dir);
   assert(prep.count === 1, "owner prep generates files");
-  assert(fs.existsSync(path.join(dir, "g2_a1_et", "owner-prep-status.json")), "owner prep status file");
+  assert(fs.existsSync(path.join(dir, OWNER_PREP_FILES[0])), "owner view file");
+  assert(fs.existsSync(path.join(dir, OWNER_PREP_FILES[1])), "owner decisions file");
+  assert(fs.existsSync(path.join(dir, OWNER_PREP_FILES[2])), "owner github index file");
 }
 
 async function testOrchestratorMockLuna() {
@@ -290,6 +342,7 @@ async function run() {
   await testAtomicWrites();
   await testLunaAdapters();
   await testLunaRetryTimeoutContract();
+  await testOwnerPrepOrchestratorR012();
   await testOwnerPrepWiring();
   await testOrchestratorMockLuna();
   await testOrchestratorCoverageMismatchFail();
