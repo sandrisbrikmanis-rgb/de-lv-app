@@ -1,0 +1,110 @@
+{
+  "batch": "batch-065",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-19-0059",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "das Land — país / tierra",
+      "proposedEs": "das Land — país",
+      "reason": "La barra combina dos significados distintos en un campo destinado a una equivalencia léxica. En este contexto, «país» es la traducción adecuada; «tierra» corresponde a otro uso.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0067",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wechselpräpositionen",
+      "proposedEs": "Preposiciones de doble régimen",
+      "reason": "El encabezado está completamente en alemán y no ofrece una traducción visible para el alumno.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0068",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "En esta conferencia, continuamos con preposiciones que pueden ir tanto con Akkusativ como con Dativo.",
+      "proposedEs": "En esta lección, continuamos con las preposiciones que pueden regir tanto acusativo como dativo.",
+      "reason": "«Conferencia» resulta poco natural para una unidad de un curso. Además, «regir acusativo o dativo» es una formulación gramatical más precisa en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0070",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Si hay una dirección/movimiento hacia algún lugar, la pregunta es ¿quién? y utiliza Akkusativ.",
+      "proposedEs": "Si hay una dirección o un movimiento hacia algún lugar, la pregunta es «¿adónde?» y se utiliza el acusativo.",
+      "reason": "«Wohin?» significa «¿adónde?», no «¿quién?». La forma «Akkusativ» también deja el término gramatical en alemán en un texto español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0078",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Si hay una ubicación, la pregunta es ¿wo? y utiliza el dativo.",
+      "proposedEs": "Si se indica una ubicación, la pregunta es «¿dónde?» y se utiliza el dativo.",
+      "reason": "«Wo?» es una palabra alemana que quedó sin traducir; en español corresponde a «¿dónde?».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0089",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "über — sobre / encima de",
+      "proposedEs": "über — encima de",
+      "reason": "La barra presenta dos equivalencias en un único campo. Para este bloque de relaciones espaciales, «encima de» es una traducción clara y suficiente.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0092",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Kopsavilkums: wohin?",
+      "proposedEs": "Resumen: ¿adónde?",
+      "reason": "«Kopsavilkums» es un texto residual en letón y «wohin?» permanece en alemán. El encabezado debe estar completamente en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0093",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Quién? → Ackusativo",
+      "proposedEs": "¿Adónde? → Acusativo",
+      "reason": "La pregunta está mal traducida: «wohin?» significa «¿adónde?», no «¿quién?». «Ackusativo» además contiene una grafía incorrecta y no es la denominación española.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:23:07.337Z"
+}

@@ -1,0 +1,215 @@
+{
+  "batch": "batch-042",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-13-0130",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0131",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0132",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0133",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0134",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0135",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0136",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0137",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0138",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0139",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0140",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0141",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0142",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0143",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0144",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0145",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0146",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0147",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0148",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0149",
+      "status": "PASS",
+      "field": "grammarText"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0150",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0151",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0152",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0153",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0154",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0155",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0156",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0157",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0158",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0159",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0160",
+      "status": "PASS",
+      "field": "exerciseConjugation"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0161",
+      "status": "PASS",
+      "field": "exerciseConjugation"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0162",
+      "status": "PASS",
+      "field": "exerciseConjugation"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0163",
+      "status": "PASS",
+      "field": "exerciseConjugation"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0164",
+      "status": "PASS",
+      "field": "exerciseConjugation"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0165",
+      "status": "PASS",
+      "field": "exerciseConjugation"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0166",
+      "status": "PASS",
+      "field": "exerciseConjugation"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0167",
+      "status": "PASS",
+      "field": "exerciseConjugation"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0168",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wir machen dos Schritte.",
+      "proposedEs": "Wir machen zwei Schritte.",
+      "reason": "El ejemplo alemán contiene la palabra española «dos»; debe conservarse íntegramente en alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0169",
+      "status": "PASS",
+      "field": "exerciseConjugation"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:10:56.301Z"
+}

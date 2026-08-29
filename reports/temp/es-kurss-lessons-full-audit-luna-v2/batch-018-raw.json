@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-018",
+  "cardIds": [
+    "ES-KURSS-LESSON-07-0076",
+    "ES-KURSS-LESSON-07-0077",
+    "ES-KURSS-LESSON-07-0078",
+    "ES-KURSS-LESSON-07-0079",
+    "ES-KURSS-LESSON-07-0080",
+    "ES-KURSS-LESSON-07-0081",
+    "ES-KURSS-LESSON-07-0082",
+    "ES-KURSS-LESSON-07-0083",
+    "ES-KURSS-LESSON-07-0084",
+    "ES-KURSS-LESSON-07-0085",
+    "ES-KURSS-LESSON-07-0086",
+    "ES-KURSS-LESSON-07-0087",
+    "ES-KURSS-LESSON-07-0088",
+    "ES-KURSS-LESSON-07-0089",
+    "ES-KURSS-LESSON-07-0090",
+    "ES-KURSS-LESSON-07-0091",
+    "ES-KURSS-LESSON-07-0092",
+    "ES-KURSS-LESSON-07-0093",
+    "ES-KURSS-LESSON-07-0094",
+    "ES-KURSS-LESSON-07-0095",
+    "ES-KURSS-LESSON-07-0096",
+    "ES-KURSS-LESSON-07-0097",
+    "ES-KURSS-LESSON-07-0098",
+    "ES-KURSS-LESSON-07-0099",
+    "ES-KURSS-LESSON-07-0100",
+    "ES-KURSS-LESSON-07-0101",
+    "ES-KURSS-LESSON-07-0102",
+    "ES-KURSS-LESSON-07-0103",
+    "ES-KURSS-LESSON-07-0104",
+    "ES-KURSS-LESSON-07-0105",
+    "ES-KURSS-LESSON-07-0106",
+    "ES-KURSS-LESSON-07-0107",
+    "ES-KURSS-LESSON-07-0108",
+    "ES-KURSS-LESSON-07-0109",
+    "ES-KURSS-LESSON-07-0110",
+    "ES-KURSS-LESSON-07-0111",
+    "ES-KURSS-LESSON-07-0112",
+    "ES-KURSS-LESSON-07-0113",
+    "ES-KURSS-LESSON-07-0114",
+    "ES-KURSS-LESSON-07-0115"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-07-0076\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0077\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-07-0078\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0079\",\"status\":\"PASS\",\"field\":\"ihr\"},{\"cardId\":\"ES-KURSS-LESSON-07-0080\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0081\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"espectáculo\",\"proposedEs\":\"mostrar\",\"reason\":\"«Espectáculo» es un sustantivo y no corresponde al verbo alemán «zeigen», que significa «mostrar».\"},{\"cardId\":\"ES-KURSS-LESSON-07-0082\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0083\",\"status\":\"PASS\",\"field\":\"ihr\"},{\"cardId\":\"ES-KURSS-LESSON-07-0084\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0085\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-07-0086\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0087\",\"status\":\"PASS\",\"field\":\"ihr\"},{\"cardId\":\"ES-KURSS-LESSON-07-0088\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0089\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"contar\",\"proposedEs\":\"calcular\",\"reason\":\"«Contar» corresponde normalmente a «zählen», mientras que el verbo alemán «rechnen» significa «calcular» o «hacer cuentas».\"},{\"cardId\":\"ES-KURSS-LESSON-07-0090\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0091\",\"status\":\"PASS\",\"field\":\"ihr\"},{\"cardId\":\"ES-KURSS-LESSON-07-0092\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0093\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-07-0094\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0095\",\"status\":\"PASS\",\"field\":\"ihr\"},{\"cardId\":\"ES-KURSS-LESSON-07-0096\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0097\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-07-0098\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0099\",\"status\":\"PASS\",\"field\":\"ihr\"},{\"cardId\":\"ES-KURSS-LESSON-07-0100\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0101\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-07-0102\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0103\",\"status\":\"PASS\",\"field\":\"ihr\"},{\"cardId\":\"ES-KURSS-LESSON-07-0104\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0105\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-07-0106\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0107\",\"status\":\"PASS\",\"field\":\"ihr\"},{\"cardId\":\"ES-KURSS-LESSON-07-0108\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0109\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-07-0110\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0111\",\"status\":\"PASS\",\"field\":\"ihr\"},{\"cardId\":\"ES-KURSS-LESSON-07-0112\",\"status\":\"PASS\",\"field\":\"sie\"},{\"cardId\":\"ES-KURSS-LESSON-07-0113\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-07-0114\",\"status\":\"PASS\",\"field\":\"du\"},{\"cardId\":\"ES-KURSS-LESSON-07-0115\",\"status\":\"PASS\",\"field\":\"ihr\"}]}",
+  "usage": {
+    "input_tokens": 3174,
+    "input_tokens_details": {
+      "cache_write_tokens": 3171,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1376,
+    "output_tokens_details": {
+      "reasoning_tokens": 282
+    },
+    "total_tokens": 4550
+  },
+  "generatedAt": "2026-08-27T06:58:40.338Z"
+}

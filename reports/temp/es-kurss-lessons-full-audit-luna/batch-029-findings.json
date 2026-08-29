@@ -1,0 +1,45 @@
+{
+  "batch": "batch-029",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-12-0044",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "wie — como",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0045",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "am jüngsten — el más joven / la más joven",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0072",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "La mayoría de los adjetivos monosilábicos cuya vocal de la raíz es a, o o u llevan diéresis en el comparativo y el superlativo.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:20:58.104Z"
+}

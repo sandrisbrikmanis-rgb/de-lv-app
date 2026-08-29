@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-035",
+  "cardIds": [
+    "ES-KURSS-LESSON-12-0001",
+    "ES-KURSS-LESSON-12-0002",
+    "ES-KURSS-LESSON-12-0003",
+    "ES-KURSS-LESSON-12-0004",
+    "ES-KURSS-LESSON-12-0005",
+    "ES-KURSS-LESSON-12-0006",
+    "ES-KURSS-LESSON-12-0007",
+    "ES-KURSS-LESSON-12-0008",
+    "ES-KURSS-LESSON-12-0009",
+    "ES-KURSS-LESSON-12-0010",
+    "ES-KURSS-LESSON-12-0011",
+    "ES-KURSS-LESSON-12-0012",
+    "ES-KURSS-LESSON-12-0013",
+    "ES-KURSS-LESSON-12-0014",
+    "ES-KURSS-LESSON-12-0015",
+    "ES-KURSS-LESSON-12-0016",
+    "ES-KURSS-LESSON-12-0017",
+    "ES-KURSS-LESSON-12-0018",
+    "ES-KURSS-LESSON-12-0019",
+    "ES-KURSS-LESSON-12-0020",
+    "ES-KURSS-LESSON-12-0021",
+    "ES-KURSS-LESSON-12-0022",
+    "ES-KURSS-LESSON-12-0023",
+    "ES-KURSS-LESSON-12-0024",
+    "ES-KURSS-LESSON-12-0025",
+    "ES-KURSS-LESSON-12-0026",
+    "ES-KURSS-LESSON-12-0027",
+    "ES-KURSS-LESSON-12-0028",
+    "ES-KURSS-LESSON-12-0029",
+    "ES-KURSS-LESSON-12-0030",
+    "ES-KURSS-LESSON-12-0031",
+    "ES-KURSS-LESSON-12-0032",
+    "ES-KURSS-LESSON-12-0033",
+    "ES-KURSS-LESSON-12-0034",
+    "ES-KURSS-LESSON-12-0035",
+    "ES-KURSS-LESSON-12-0036",
+    "ES-KURSS-LESSON-12-0037",
+    "ES-KURSS-LESSON-12-0038",
+    "ES-KURSS-LESSON-12-0039",
+    "ES-KURSS-LESSON-12-0040"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-12-0001\",\"status\":\"PASS\",\"field\":\"uiTitle\"},{\"cardId\":\"ES-KURSS-LESSON-12-0002\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Calidades comparables, también, edad y colores.\",\"proposedEs\":\"Grados comparativos, als/wie, edad y colores.\",\"reason\":\"«Calidades comparables» no traduce correctamente el tema de los grados comparativos, y «también» sustituye indebidamente los términos alemanes als/wie.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0003\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"Conferencia duodécima: grados comparativos, als/wie, edad, adjetivos y colores.\",\"proposedEs\":\"Lección 12: grados comparativos, als/wie, edad, adjetivos y colores.\",\"reason\":\"«Conferencia duodécima» es una formulación poco natural y no corresponde al encabezado de una lección; «Lección 12» es la denominación adecuada.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0004\",\"status\":\"PASS\",\"field\":\"sectionTitle\"},{\"cardId\":\"ES-KURSS-LESSON-12-0005\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0006\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0007\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0008\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0009\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0010\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0011\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0012\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0013\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0014\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0015\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0016\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0017\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0018\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0019\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0020\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0021\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0022\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0023\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0024\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0025\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0026\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0027\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0028\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"MULTIPLE_TRANSLATIONS\",\"currentEs\":\"heißen — llamarse / significar\",\"proposedEs\":\"Separar en dos entradas: «llamarse» y «significar».\",\"reason\":\"La barra combina dos significados distintos en un único campo de vocabulario; deben presentarse como entradas separadas o desambiguarse según el uso.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0029\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0030\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0031\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0032\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"wieviel — cik\",\"proposedEs\":\"wieviel — cuánto/cuántos\",\"reason\":\"«cik» no es español y constituye un resto de otra lengua.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0033\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Max (maks) — Maksis\",\"proposedEs\":\"Max (maks) — Max\",\"reason\":\"«Maksis» es un resto extranjero y no corresponde al nombre propio Max en español.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0034\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0035\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0036\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0037\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"PEDAGOGICAL_ISSUE\",\"currentEs\":\"alt — viejo\",\"proposedEs\":\"alt — mayor (al hablar de la edad)\",\"reason\":\"«Viejo» es posible en otros contextos, pero en esta lección sobre la edad puede inducir a traducir de forma poco natural las expresiones personales de edad.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0038\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0039\",\"status\":\"PASS\",\"field\":\"sectionItem\"},{\"cardId\":\"ES-KURSS-LESSON-12-0040\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"so alt wie — tan viejo como\",\"proposedEs\":\"so alt wie — de la misma edad que\",\"reason\":\"«Tan viejo como» suena despectivo o se refiere a objetos envejecidos; para personas y edades, «de la misma edad que» es más natural y preciso.\"}]}",
+  "usage": {
+    "input_tokens": 4044,
+    "input_tokens_details": {
+      "cache_write_tokens": 4041,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2825,
+    "output_tokens_details": {
+      "reasoning_tokens": 1307
+    },
+    "total_tokens": 6869
+  },
+  "generatedAt": "2026-08-27T07:07:39.667Z"
+}

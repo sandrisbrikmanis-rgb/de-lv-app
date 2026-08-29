@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-063",
+  "cardIds": [
+    "ES-KURSS-LESSON-18-0120",
+    "ES-KURSS-LESSON-18-0121",
+    "ES-KURSS-LESSON-18-0122",
+    "ES-KURSS-LESSON-18-0123",
+    "ES-KURSS-LESSON-18-0124",
+    "ES-KURSS-LESSON-18-0125",
+    "ES-KURSS-LESSON-18-0126",
+    "ES-KURSS-LESSON-18-0127",
+    "ES-KURSS-LESSON-18-0128",
+    "ES-KURSS-LESSON-18-0129",
+    "ES-KURSS-LESSON-18-0130",
+    "ES-KURSS-LESSON-18-0131",
+    "ES-KURSS-LESSON-18-0132",
+    "ES-KURSS-LESSON-18-0133",
+    "ES-KURSS-LESSON-18-0134",
+    "ES-KURSS-LESSON-18-0135",
+    "ES-KURSS-LESSON-18-0136",
+    "ES-KURSS-LESSON-18-0137",
+    "ES-KURSS-LESSON-18-0138",
+    "ES-KURSS-LESSON-18-0139",
+    "ES-KURSS-LESSON-18-0140",
+    "ES-KURSS-LESSON-18-0141",
+    "ES-KURSS-LESSON-18-0142",
+    "ES-KURSS-LESSON-18-0143",
+    "ES-KURSS-LESSON-18-0144",
+    "ES-KURSS-LESSON-19-0001",
+    "ES-KURSS-LESSON-19-0002",
+    "ES-KURSS-LESSON-19-0003",
+    "ES-KURSS-LESSON-19-0004",
+    "ES-KURSS-LESSON-19-0005",
+    "ES-KURSS-LESSON-19-0006",
+    "ES-KURSS-LESSON-19-0007",
+    "ES-KURSS-LESSON-19-0008",
+    "ES-KURSS-LESSON-19-0009",
+    "ES-KURSS-LESSON-19-0010",
+    "ES-KURSS-LESSON-19-0011",
+    "ES-KURSS-LESSON-19-0012",
+    "ES-KURSS-LESSON-19-0013",
+    "ES-KURSS-LESSON-19-0014",
+    "ES-KURSS-LESSON-19-0015"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-18-0120\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0121\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"La madre pone la cesta en el armario.\",\"proposedEs\":\"La madre pone la cesta sobre el armario.\",\"reason\":\"El alemán indica que la cesta se coloca encima del armario (auf den Schrank), no dentro del armario.\"},{\"cardId\":\"ES-KURSS-LESSON-18-0122\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0123\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"El estudiante pone los cuadernos en la bolsa.\",\"proposedEs\":\"El estudiante pone los cuadernos en la carpeta.\",\"reason\":\"Mappe significa «carpeta» o «portafolios» en este contexto, no «bolsa».\"},{\"cardId\":\"ES-KURSS-LESSON-18-0124\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0125\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Las cartas ya están en la bolsa.\",\"proposedEs\":\"Los cuadernos ya están en la carpeta.\",\"reason\":\"El ejemplo alemán habla de cuadernos (Hefte) que están en una carpeta (Mappe); «cartas» y «bolsa» cambian ambos significados.\"},{\"cardId\":\"ES-KURSS-LESSON-18-0126\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0127\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0128\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0129\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0130\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0131\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0132\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0133\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0134\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0135\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0136\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0137\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"STYLE_ONLY\",\"currentEs\":\"Toque la tarjeta para ver la traducción al alemán.\",\"proposedEs\":\"Toca la tarjeta para ver la traducción al alemán.\",\"reason\":\"El texto es gramaticalmente correcto, pero usa tratamiento formal («Toque») mientras que la indicación equivalente usa el tratamiento informal («Toca»).\"},{\"cardId\":\"ES-KURSS-LESSON-18-0138\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Ejercicio I — Usa la conjugación correcta\",\"proposedEs\":\"Ejercicio I — Usa el caso correcto\",\"reason\":\"El ejercicio trata de casos gramaticales alemanes, no de conjugación verbal. En español, el término adecuado es «caso».\"},{\"cardId\":\"ES-KURSS-LESSON-18-0139\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"¡Pon la conjugación correcta y hazlo en plural!\",\"proposedEs\":\"¡Usa el caso correcto y escribe la respuesta en plural!\",\"reason\":\"«Conjugación» es un término incorrecto para la selección del caso gramatical; además, «hazlo» resulta impreciso en esta instrucción.\"},{\"cardId\":\"ES-KURSS-LESSON-18-0140\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0141\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0142\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-18-0143\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Formulario 2/3: Tú (plural)\",\"proposedEs\":\"Forma 2/3: ihr (plural)\",\"reason\":\"«Formulario» no corresponde a una forma gramatical y «tú (plural)» es contradictorio. La forma alemana ihr corresponde a la segunda persona plural, no a tú.\"},{\"cardId\":\"ES-KURSS-LESSON-18-0144\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0001\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0002\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"Wechselpräpositionen: vor, hinder, unter, über, neben, zwischen.\",\"proposedEs\":\"Wechselpräpositionen: vor, hinter, unter, über, neben, zwischen.\",\"reason\":\"La preposición alemana «hinter» aparece escrita incorrectamente como «hinder».\"},{\"cardId\":\"ES-KURSS-LESSON-19-0003\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"TRANSLATION\",\"currentEs\":\"Decimonovena Conferencia: vor, hinder, unter, über, neben, zwischen con Akkusativ o Dativ.\",\"proposedEs\":\"Lección 19: vor, hinter, unter, über, neben y zwischen con acusativo o dativo.\",\"reason\":\"«Conferencia» no es natural para una lección del curso; «Akkusativ» y «Dativ» son términos alemanes que deben traducirse como «acusativo» y «dativo». Además, «hinder» contiene un error ortográfico.\"},{\"cardId\":\"ES-KURSS-LESSON-19-0004\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0005\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0006\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0007\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0008\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0009\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0010\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0011\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0012\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0013\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0014\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-19-0015\",\"status\":\"PASS\",\"field\":\"currentEs\"}]}",
+  "usage": {
+    "input_tokens": 3571,
+    "input_tokens_details": {
+      "cache_write_tokens": 3568,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2752,
+    "output_tokens_details": {
+      "reasoning_tokens": 1034
+    },
+    "total_tokens": 6323
+  },
+  "generatedAt": "2026-08-27T07:22:15.805Z"
+}

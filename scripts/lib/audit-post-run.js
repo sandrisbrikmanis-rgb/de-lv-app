@@ -103,6 +103,13 @@ const HOOKS = {
     github: "reports/da-kurss-owner-review-final-post-repair-GITHUB.md",
     readme: "reports/da-kurss-owner-review-final-post-repair-README.md",
   },
+  "es-kurss-lessons-full": {
+    label: "ES–DE Kurss Lessons full audit",
+    scopeKey: "es-kurss-lessons-full",
+    scripts: ["build-es-kurss-lessons-owner-review.js"],
+    github: "reports/es-kurss-lessons-owner-review-GITHUB.md",
+    readme: "reports/es-kurss-lessons-owner-review-README.md",
+  },
 };
 
 function skipOwnerReview(argv = process.argv.slice(2)) {

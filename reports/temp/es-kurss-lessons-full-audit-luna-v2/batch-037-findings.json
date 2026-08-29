@@ -1,0 +1,110 @@
+{
+  "batch": "batch-037",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-12-0088",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "nah (tuvs)",
+      "proposedEs": "nah (cerca)",
+      "reason": "La aclaración entre paréntesis está en letón («tuvs»), no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0091",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "hoch (augsts)",
+      "proposedEs": "hoch (alto)",
+      "reason": "La aclaración entre paréntesis está en letón («augsts»), no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0094",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "gut (labs)",
+      "proposedEs": "gut (bueno)",
+      "reason": "La aclaración entre paréntesis está en letón («labs»), no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0097",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "viel (daudz)",
+      "proposedEs": "viel (mucho)",
+      "reason": "La aclaración entre paréntesis está en letón («daudz»), no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0114",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Cómo te llamas?",
+      "proposedEs": "¿Cómo se llama usted?",
+      "reason": "El español usa el trato informal («te»), mientras que el contexto alemán usa la forma formal «Sie».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0116",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Es esmu 20 gadus vecs.",
+      "proposedEs": "Tengo 20 años.",
+      "reason": "El campo está completamente en letón, no en español; además, no es comprensible para un usuario hispanohablante.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0117",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Vai Maksis son mentiras?",
+      "proposedEs": "¿Es Max alto?",
+      "reason": "La frase contiene texto letón («Vai Maksis») y una traducción española sin sentido («son mentiras»). El contexto alemán pregunta si Max es alto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0119",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Cuál es el mayor?",
+      "proposedEs": "¿Cuál es el más grande?",
+      "reason": "En este contexto, «größten» significa «más grande», no «mayor», que normalmente se interpreta como de más edad.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:08:36.357Z"
+}

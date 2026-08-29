@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-010",
+  "cardIds": [
+    "ES-KURSS-LESSON-04-0072",
+    "ES-KURSS-LESSON-04-0073",
+    "ES-KURSS-LESSON-04-0074",
+    "ES-KURSS-LESSON-04-0075",
+    "ES-KURSS-LESSON-04-0076",
+    "ES-KURSS-LESSON-04-0077",
+    "ES-KURSS-LESSON-04-0078",
+    "ES-KURSS-LESSON-04-0079",
+    "ES-KURSS-LESSON-04-0080",
+    "ES-KURSS-LESSON-04-0081",
+    "ES-KURSS-LESSON-04-0082",
+    "ES-KURSS-LESSON-04-0083",
+    "ES-KURSS-LESSON-04-0084",
+    "ES-KURSS-LESSON-04-0085",
+    "ES-KURSS-LESSON-04-0086",
+    "ES-KURSS-LESSON-04-0087",
+    "ES-KURSS-LESSON-04-0088",
+    "ES-KURSS-LESSON-04-0089",
+    "ES-KURSS-LESSON-04-0090",
+    "ES-KURSS-LESSON-04-0091",
+    "ES-KURSS-LESSON-04-0092",
+    "ES-KURSS-LESSON-04-0093",
+    "ES-KURSS-LESSON-04-0094",
+    "ES-KURSS-LESSON-04-0095",
+    "ES-KURSS-LESSON-04-0096",
+    "ES-KURSS-LESSON-04-0097",
+    "ES-KURSS-LESSON-04-0098",
+    "ES-KURSS-LESSON-05-0001",
+    "ES-KURSS-LESSON-05-0002",
+    "ES-KURSS-LESSON-05-0003",
+    "ES-KURSS-LESSON-05-0004",
+    "ES-KURSS-LESSON-05-0005",
+    "ES-KURSS-LESSON-05-0006",
+    "ES-KURSS-LESSON-05-0007",
+    "ES-KURSS-LESSON-05-0008",
+    "ES-KURSS-LESSON-05-0009",
+    "ES-KURSS-LESSON-05-0010",
+    "ES-KURSS-LESSON-05-0011",
+    "ES-KURSS-LESSON-05-0012",
+    "ES-KURSS-LESSON-05-0013"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0072\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"1Acusativo\",\n      \"proposedEs\": \"1. Acusativo\",\n      \"reason\": \"Falta separación entre el número y el título; la presentación resulta difícil de leer.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0073\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"2nehmen\",\n      \"proposedEs\": \"2. nehmen\",\n      \"reason\": \"Falta separación entre el número y el término alemán.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0074\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"3Pronombres\",\n      \"proposedEs\": \"3. Pronombres\",\n      \"reason\": \"Falta separación entre el número y el título.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0075\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"4Verbos separables\",\n      \"proposedEs\": \"4. Verbos separables\",\n      \"reason\": \"Falta separación entre el número y el título.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0076\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"5Adjetivos\",\n      \"proposedEs\": \"5. Adjetivos\",\n      \"reason\": \"Falta separación entre el número y el título.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0077\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"6Negación con nicht\",\n      \"proposedEs\": \"6. Negación con nicht\",\n      \"reason\": \"Falta separación entre el número y el título; «nicht» puede conservarse como término gramatical alemán.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0078\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"7-chen / -lein\",\n      \"proposedEs\": \"7. -chen / -lein\",\n      \"reason\": \"Falta separación entre el número y la etiqueta gramatical.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0079\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0080\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"La niña toma un eje de plumas.\",\n      \"proposedEs\": \"La niña toma un portaplumas.\",\n      \"reason\": \"«Eje de plumas» no corresponde a «Federhalter», que significa «portaplumas» o «portalápices» según el contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0081\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"La pluma no es blanca, es negra.\",\n      \"proposedEs\": \"El portaplumas no es blanco, es negro.\",\n      \"reason\": \"El alemán se refiere a un «Federhalter», no a una pluma; también deben concordar el género y el adjetivo.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0082\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0083\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"¿Qué es una pluma?\",\n      \"proposedEs\": \"¿Cómo es la pluma?\",\n      \"reason\": \"«Wie ist die Feder?» pregunta por las características de la pluma («cómo es»), no por su identidad o definición.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0084\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0085\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"¿Lleva un cuchillo?\",\n      \"proposedEs\": \"¿Toma un cuchillo?\",\n      \"reason\": \"«Nimmt» significa «toma», no «lleva» en este contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0086\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0087\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0088\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0089\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"No, es agudo.\",\n      \"proposedEs\": \"No, está afilado.\",\n      \"reason\": \"Para un cuchillo, «afilado» es la expresión natural en español; «agudo» no es la opción idiomática habitual en este contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0090\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0091\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0092\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0093\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Olga muestra el libro.\",\n      \"proposedEs\": \"Olga muestra un libro.\",\n      \"reason\": \"El alemán usa el artículo indefinido («ein Buch»), mientras que la traducción usa el definido («el libro»).\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0094\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_GRAMMAR\",\n      \"currentEs\": \"cual es el libro\",\n      \"proposedEs\": \"¿Cómo es el libro?\",\n      \"reason\": \"Faltan los signos de interrogación y la tilde de «cuál», pero además «cuál» no traduce «Wie ist»; la pregunta debe ser «¿Cómo es el libro?».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0095\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0096\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0097\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-04-0098\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0001\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0002\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0003\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0004\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0005\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0006\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0007\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0008\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0009\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0010\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0011\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0012\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-05-0013\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3659,
+    "input_tokens_details": {
+      "cache_write_tokens": 3656,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3922,
+    "output_tokens_details": {
+      "reasoning_tokens": 1498
+    },
+    "total_tokens": 7581
+  },
+  "generatedAt": "2026-08-27T06:54:25.271Z"
+}

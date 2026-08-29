@@ -1,0 +1,84 @@
+{
+  "batch": "batch-057",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-17-0028",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "womit — ar ko?",
+      "proposedEs": "womit — ¿con qué?",
+      "reason": "La traducción contiene texto letón («ar ko?») en lugar de español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0032",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "auffangen — atrapar / atrapar",
+      "proposedEs": "auffangen — atrapar al vuelo",
+      "reason": "La traducción repite «atrapar» y no aporta una distinción o matiz útil.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0034",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "der Schuldiener — asistente de escuela",
+      "proposedEs": "der Schuldiener — conserje de la escuela",
+      "reason": "«Asistente de escuela» resulta poco natural y no refleja bien el sentido habitual de Schuldiener en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0037",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "die Diele — piso",
+      "proposedEs": "die Diele — vestíbulo",
+      "reason": "Die Diele se refiere normalmente a un vestíbulo, recibidor o pasillo de entrada; «piso» no corresponde a ese significado en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0039",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wischen — limpiar / limpiar",
+      "proposedEs": "wischen — pasar un paño",
+      "reason": "La traducción repite «limpiar» y no ofrece una formulación diferenciada o suficientemente precisa.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0055",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "La pregunta alemana \"¿con qué?\" expresado de dos maneras: mit wem? — ¿Sobre las personas, mujer? — sobre cosas/temas.",
+      "proposedEs": "La pregunta alemana «¿con qué?» puede expresarse de dos maneras: mit wem? — «¿con quién?» para personas; womit? — «¿con qué?» para cosas o temas.",
+      "reason": "El texto tiene un error de concordancia («expresado»), incluye «mujer» sin sentido en este contexto, omite la traducción de mit wem? y presenta de forma confusa la oposición entre personas y cosas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:18:59.662Z"
+}

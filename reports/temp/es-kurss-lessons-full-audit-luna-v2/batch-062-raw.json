@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-062",
+  "cardIds": [
+    "ES-KURSS-LESSON-18-0080",
+    "ES-KURSS-LESSON-18-0081",
+    "ES-KURSS-LESSON-18-0082",
+    "ES-KURSS-LESSON-18-0083",
+    "ES-KURSS-LESSON-18-0084",
+    "ES-KURSS-LESSON-18-0085",
+    "ES-KURSS-LESSON-18-0086",
+    "ES-KURSS-LESSON-18-0087",
+    "ES-KURSS-LESSON-18-0088",
+    "ES-KURSS-LESSON-18-0089",
+    "ES-KURSS-LESSON-18-0090",
+    "ES-KURSS-LESSON-18-0091",
+    "ES-KURSS-LESSON-18-0092",
+    "ES-KURSS-LESSON-18-0093",
+    "ES-KURSS-LESSON-18-0094",
+    "ES-KURSS-LESSON-18-0095",
+    "ES-KURSS-LESSON-18-0096",
+    "ES-KURSS-LESSON-18-0097",
+    "ES-KURSS-LESSON-18-0098",
+    "ES-KURSS-LESSON-18-0099",
+    "ES-KURSS-LESSON-18-0100",
+    "ES-KURSS-LESSON-18-0101",
+    "ES-KURSS-LESSON-18-0102",
+    "ES-KURSS-LESSON-18-0103",
+    "ES-KURSS-LESSON-18-0104",
+    "ES-KURSS-LESSON-18-0105",
+    "ES-KURSS-LESSON-18-0106",
+    "ES-KURSS-LESSON-18-0107",
+    "ES-KURSS-LESSON-18-0108",
+    "ES-KURSS-LESSON-18-0109",
+    "ES-KURSS-LESSON-18-0110",
+    "ES-KURSS-LESSON-18-0111",
+    "ES-KURSS-LESSON-18-0112",
+    "ES-KURSS-LESSON-18-0113",
+    "ES-KURSS-LESSON-18-0114",
+    "ES-KURSS-LESSON-18-0115",
+    "ES-KURSS-LESSON-18-0116",
+    "ES-KURSS-LESSON-18-0117",
+    "ES-KURSS-LESSON-18-0118",
+    "ES-KURSS-LESSON-18-0119"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0080\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0081\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"sich befinden — atrasties\",\n      \"proposedEs\": \"sich befinden — encontrarse\",\n      \"reason\": \"«atrasties» es letón, no español. La traducción española adecuada es «encontrarse» o «estar situado».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0082\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0083\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"liegen — estar tumbado / estar situado\",\n      \"proposedEs\": \"liegen — estar tumbado\",\n      \"reason\": \"La barra combina dos significados distintos en un único campo de traducción. Deben separarse por contexto o conservarse solo el significado trabajado aquí.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0084\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"sitzen — sentarse\",\n      \"proposedEs\": \"sitzen — estar sentado\",\n      \"reason\": \"«Sitzen» describe estar sentado; «sentarse» expresa la acción de adoptar esa posición.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0085\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0086\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"finden — atrast\",\n      \"proposedEs\": \"finden — encontrar\",\n      \"reason\": \"«atrast» es letón, no español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0087\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0088\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0089\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0090\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Los sustantivos suelen aparecer sin article.\",\n      \"proposedEs\": \"Los sustantivos suelen aparecer sin artículo.\",\n      \"reason\": \"«Article» es un resto del inglés. El término gramatical en español es «artículo».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0091\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Ich trinke Milch. — Es dzeru pienu.\",\n      \"proposedEs\": \"Ich trinke Milch. — Bebo leche.\",\n      \"reason\": \"La traducción visible está en letón («Es dzeru pienu»), no en español. El ejemplo alemán debe conservarse sin cambios.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0092\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0093\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0094\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Si la sustancia se menciona en una determinada cantidad o en un determinado lugar, entonces se utiliza el article.\",\n      \"proposedEs\": \"Si la sustancia se menciona en una determinada cantidad o en un determinado lugar, entonces se utiliza el artículo.\",\n      \"reason\": \"«Article» es un resto del inglés. El término gramatical correcto en español es «artículo».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0095\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0096\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"in + vieta\",\n      \"proposedEs\": \"in + ubicación\",\n      \"reason\": \"«vieta» es letón, no español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0097\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Si la preposición in no se traduce como \\\"en\\\", pero expresa una ubicación, se puede traducir con el locativo.\",\n      \"proposedEs\": \"Si la preposición in no se traduce como «en», sino que expresa una ubicación, se utiliza el dativo.\",\n      \"reason\": \"En alemán, la ubicación estática con «in» se construye con dativo; «locativo» no es el caso gramatical pertinente en esta explicación.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0098\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0099\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0100\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0101\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0102\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0103\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0104\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0105\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0106\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0107\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0108\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0109\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0110\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0111\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0112\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"¿De dónde viene el servidor?\",\n      \"proposedEs\": \"¿Adónde va el criado?\",\n      \"reason\": \"La pregunta alemana «Wohin kommt der Diener?» pregunta por el destino, no por el origen. Además, «Diener» corresponde aquí a «criado» o «sirviente», no necesariamente a «servidor».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0113\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0114\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"donde trabaja\",\n      \"proposedEs\": \"¿Dónde trabaja?\",\n      \"reason\": \"El alemán «Wo arbeitet er?» es una pregunta directa. La versión actual es una subordinada relativa y omite los signos de interrogación.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0115\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0116\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0117\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0118\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0119\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Recogen bayas en el bosque.\",\n      \"proposedEs\": \"Buscan bayas en el bosque.\",\n      \"reason\": \"«Suchen» significa «buscar», no «recoger». La traducción actual cambia la acción descrita.\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 4206,
+    "input_tokens_details": {
+      "cache_write_tokens": 4203,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3914,
+    "output_tokens_details": {
+      "reasoning_tokens": 1462
+    },
+    "total_tokens": 8120
+  },
+  "generatedAt": "2026-08-27T07:21:48.825Z"
+}

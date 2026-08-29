@@ -1,0 +1,71 @@
+{
+  "batch": "batch-058",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-17-0071",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los verbos graben, fangen, auffangen tienen diéresis en la 2ª y 3ª persona del singular.",
+      "proposedEs": "En graben, fangen y auffangen, la vocal de la raíz cambia a ä en la 2.ª y 3.ª persona del singular.",
+      "reason": "«Diéresis» no describe correctamente el cambio vocálico alemán en ä; además, no son los verbos en sí los que llevan el cambio, sino determinadas formas conjugadas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0087",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los verbos compuestos auffangen y abwischen llevan tilde en el prefijo. Por tanto, el prefijo presente se separa y se coloca al final de la frase.",
+      "proposedEs": "Los verbos compuestos auffangen y abwischen tienen un prefijo separable. Por tanto, el prefijo verbal se separa y se coloca al final de la oración.",
+      "reason": "Los prefijos auf y ab no llevan tilde; «tilde» es un término ortográfico español y describe incorrectamente el fenómeno alemán. «Prefijo presente» tampoco es una formulación adecuada en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0091",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Fegen y wischen significan barrer, pero el uso es diferente.",
+      "proposedEs": "Fegen significa «barrer», mientras que wischen significa «limpiar o pasar un paño»; su uso es diferente.",
+      "reason": "wischen no significa «barrer»; se refiere a limpiar pasando un paño, una mopa u otra superficie de limpieza.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0094",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wischen / abwischen — limpiar con un paño / quitar el polvo",
+      "proposedEs": "wischen — limpiar o pasar un paño; abwischen — quitar o limpiar algo pasando un paño.",
+      "reason": "El campo combina dos verbos y sus significados mediante barras, lo que dificulta identificar qué traducción corresponde a cada verbo. Deben presentarse como entradas diferenciadas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0098",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "En wieder, la e final es abierta.",
+      "proposedEs": "En wieder, la e final se pronuncia como una vocal neutra o reducida [ə].",
+      "reason": "La e final de wieder no es una e abierta [ɛ], sino una vocal átona reducida, normalmente transcrita [ə].",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:19:30.623Z"
+}

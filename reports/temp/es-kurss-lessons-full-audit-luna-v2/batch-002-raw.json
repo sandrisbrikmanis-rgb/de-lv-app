@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-002",
+  "cardIds": [
+    "ES-KURSS-LESSON-01-0041",
+    "ES-KURSS-LESSON-01-0042",
+    "ES-KURSS-LESSON-01-0043",
+    "ES-KURSS-LESSON-01-0044",
+    "ES-KURSS-LESSON-01-0045",
+    "ES-KURSS-LESSON-01-0046",
+    "ES-KURSS-LESSON-01-0047",
+    "ES-KURSS-LESSON-01-0048",
+    "ES-KURSS-LESSON-01-0049",
+    "ES-KURSS-LESSON-01-0050",
+    "ES-KURSS-LESSON-01-0051",
+    "ES-KURSS-LESSON-01-0052",
+    "ES-KURSS-LESSON-01-0053",
+    "ES-KURSS-LESSON-01-0054",
+    "ES-KURSS-LESSON-01-0055",
+    "ES-KURSS-LESSON-01-0056",
+    "ES-KURSS-LESSON-01-0057",
+    "ES-KURSS-LESSON-01-0058",
+    "ES-KURSS-LESSON-01-0059",
+    "ES-KURSS-LESSON-01-0060",
+    "ES-KURSS-LESSON-01-0061",
+    "ES-KURSS-LESSON-01-0062",
+    "ES-KURSS-LESSON-01-0063",
+    "ES-KURSS-LESSON-01-0064",
+    "ES-KURSS-LESSON-01-0065",
+    "ES-KURSS-LESSON-01-0066",
+    "ES-KURSS-LESSON-01-0067",
+    "ES-KURSS-LESSON-01-0068",
+    "ES-KURSS-LESSON-01-0069",
+    "ES-KURSS-LESSON-01-0070",
+    "ES-KURSS-LESSON-01-0071",
+    "ES-KURSS-LESSON-01-0072",
+    "ES-KURSS-LESSON-01-0073",
+    "ES-KURSS-LESSON-01-0074",
+    "ES-KURSS-LESSON-01-0075",
+    "ES-KURSS-LESSON-01-0076",
+    "ES-KURSS-LESSON-01-0077",
+    "ES-KURSS-LESSON-01-0078",
+    "ES-KURSS-LESSON-01-0079",
+    "ES-KURSS-LESSON-01-0080"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0041\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_ORTHOGRAPHY\",\n      \"currentEs\": \"iEl La pronunciación aproximada de las palabras se da entre paréntesis con letras letonas.\\nEsto también debería seguirse en futuras conferencias.\",\n      \"proposedEs\": \"La pronunciación aproximada de las palabras se indica entre paréntesis con letras letonas.\\nEsto también debería seguirse en futuras lecciones.\",\n      \"reason\": \"Contiene el error tipográfico «iEl La» y «conferencias» no es natural en el contexto de un curso; debe decir «lecciones».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0042\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"wir (vīr) — we\",\n      \"proposedEs\": \"wir (vīr) — nosotros\",\n      \"reason\": \"La traducción visible está en inglés; debe estar en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0043\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Vārdā “wir” burts i tiek izrunāts gari.\",\n      \"proposedEs\": \"En la palabra «wir», la letra i se pronuncia larga.\",\n      \"reason\": \"El texto está completamente en letón, no en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0044\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0045\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0046\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"stehen (štē-en) - stand\",\n      \"proposedEs\": \"stehen (štē-en) — estar de pie\",\n      \"reason\": \"«stand» está en inglés y no es una traducción española.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0047\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"singen (zingen) — canta\",\n      \"proposedEs\": \"singen (zingen) — cantar\",\n      \"reason\": \"Las demás entradas presentan los verbos en infinitivo; «canta» es una forma conjugada y rompe la coherencia terminológica.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0048\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0049\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0050\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0051\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"wer (vēr) — ¿qué?\",\n      \"proposedEs\": \"wer (vēr) — ¿quién?\",\n      \"reason\": \"El pronombre interrogativo alemán «wer» significa «quién», no «qué».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0052\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0053\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0054\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Vārdu pareiza izruna, apzīmēta latviešu burtiem, ir dota lekcijās.\",\n      \"proposedEs\": \"La pronunciación correcta de las palabras, indicada con letras letonas, se incluye en las lecciones.\",\n      \"reason\": \"El texto está en letón, no en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0055\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_ORTHOGRAPHY\",\n      \"currentEs\": \"Wir (vīr) — nosotros La palabra wir siempre se pronuncia larga.\",\n      \"proposedEs\": \"Wir (vīr) — nosotros. La palabra «wir» siempre se pronuncia con una vocal larga.\",\n      \"reason\": \"Falta puntuación entre el ejemplo y la explicación, y «se pronuncia larga» es una formulación poco natural.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0056\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0057\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0058\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0059\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0060\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0061\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"ich → -ich komme\",\n      \"proposedEs\": \"ich → ich komme\",\n      \"reason\": \"Hay un guion espurio pegado al ejemplo alemán, que altera la presentación de la correspondencia.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0062\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"du → -du kommst\",\n      \"proposedEs\": \"du → du kommst\",\n      \"reason\": \"Hay un guion espurio pegado al ejemplo alemán.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0063\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"er / sie → -er kommt\",\n      \"proposedEs\": \"er / sie → er kommt\",\n      \"reason\": \"Hay un guion espurio pegado al ejemplo alemán.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0064\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"STRUCTURE\",\n      \"currentEs\": \"wir → -wir kommen\",\n      \"proposedEs\": \"wir → wir kommen\",\n      \"reason\": \"Hay un guion espurio pegado al ejemplo alemán.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0065\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"ihr → -En letón:\",\n      \"proposedEs\": \"ihr → ihr kommt\",\n      \"reason\": \"Contiene el texto residual «En letón» y falta el ejemplo alemán correspondiente.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0066\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"sie → -Alemán en:\",\n      \"proposedEs\": \"sie → sie kommen\",\n      \"reason\": \"Contiene texto residual («Alemán en») en lugar del ejemplo alemán esperado.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0067\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0068\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0069\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0070\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0071\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Latviešu valodā:\\nTu nāc.\\nVai tu nāc?\",\n      \"proposedEs\": \"En letón:\\nTú vienes.\\n¿Vienes tú?\",\n      \"reason\": \"El texto está en letón y no ofrece contenido comprensible para el usuario en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0072\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0073\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0074\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0075\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0076\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0077\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0078\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0079\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0080\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"♟Presente terminaciones\",\n      \"proposedEs\": \"♟ Terminaciones del presente\",\n      \"reason\": \"El orden de las palabras no es natural en español; debe decir «Terminaciones del presente».\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3776,
+    "input_tokens_details": {
+      "cache_write_tokens": 3773,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3992,
+    "output_tokens_details": {
+      "reasoning_tokens": 1316
+    },
+    "total_tokens": 7768
+  },
+  "generatedAt": "2026-08-27T06:49:17.425Z"
+}

@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-054",
+  "cardIds": [
+    "ES-KURSS-LESSON-16-0085",
+    "ES-KURSS-LESSON-16-0086",
+    "ES-KURSS-LESSON-16-0087",
+    "ES-KURSS-LESSON-16-0088",
+    "ES-KURSS-LESSON-16-0089",
+    "ES-KURSS-LESSON-16-0090",
+    "ES-KURSS-LESSON-16-0091",
+    "ES-KURSS-LESSON-16-0092",
+    "ES-KURSS-LESSON-16-0093",
+    "ES-KURSS-LESSON-16-0094",
+    "ES-KURSS-LESSON-16-0095",
+    "ES-KURSS-LESSON-16-0096",
+    "ES-KURSS-LESSON-16-0097",
+    "ES-KURSS-LESSON-16-0098",
+    "ES-KURSS-LESSON-16-0099",
+    "ES-KURSS-LESSON-16-0100",
+    "ES-KURSS-LESSON-16-0101",
+    "ES-KURSS-LESSON-16-0102",
+    "ES-KURSS-LESSON-16-0103",
+    "ES-KURSS-LESSON-16-0104",
+    "ES-KURSS-LESSON-16-0105",
+    "ES-KURSS-LESSON-16-0106",
+    "ES-KURSS-LESSON-16-0107",
+    "ES-KURSS-LESSON-16-0108",
+    "ES-KURSS-LESSON-16-0109",
+    "ES-KURSS-LESSON-16-0110",
+    "ES-KURSS-LESSON-16-0111",
+    "ES-KURSS-LESSON-16-0112",
+    "ES-KURSS-LESSON-16-0113",
+    "ES-KURSS-LESSON-16-0114",
+    "ES-KURSS-LESSON-16-0115",
+    "ES-KURSS-LESSON-16-0116",
+    "ES-KURSS-LESSON-16-0117",
+    "ES-KURSS-LESSON-16-0118",
+    "ES-KURSS-LESSON-16-0119",
+    "ES-KURSS-LESSON-16-0120",
+    "ES-KURSS-LESSON-16-0121",
+    "ES-KURSS-LESSON-16-0122",
+    "ES-KURSS-LESSON-16-0123",
+    "ES-KURSS-LESSON-16-0124"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0085\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0086\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0087\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0088\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"Los sustantivos masculinos y neutros en dativo singular pueden llevar la terminación -e. Hoy en día, este final suele descartarse.\",\n      \"proposedEs\": \"Los sustantivos masculinos y neutros en dativo singular pueden llevar la terminación -e. Hoy en día, esta terminación suele omitirse.\",\n      \"reason\": \"«Este final» resulta poco natural y menos preciso en este contexto; «esta terminación» y «omitirse» son formulaciones más idiomáticas para describir una terminación gramatical.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0089\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0090\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0091\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0092\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0093\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0094\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0095\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0096\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0097\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0098\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0099\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0100\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0101\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0102\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0103\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0104\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0105\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0106\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"El article dativo plural y el sustantivo suelen tener la terminación -n.\",\n      \"proposedEs\": \"El artículo dativo plural y el sustantivo suelen tener la terminación -n.\",\n      \"reason\": \"«article» es un resto extranjero en inglés; el término correcto en español es «artículo».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0107\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0108\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0109\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0110\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0111\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0112\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0113\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0114\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0115\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0116\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0117\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0118\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0119\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0120\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0121\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0122\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0123\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-16-0124\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3824,
+    "input_tokens_details": {
+      "cache_write_tokens": 3821,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2201,
+    "output_tokens_details": {
+      "reasoning_tokens": 442
+    },
+    "total_tokens": 6025
+  },
+  "generatedAt": "2026-08-27T07:17:18.698Z"
+}

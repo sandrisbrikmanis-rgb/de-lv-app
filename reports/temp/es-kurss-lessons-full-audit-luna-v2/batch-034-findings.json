@@ -1,0 +1,110 @@
+{
+  "batch": "batch-034",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-11-0125",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los sustantivos compuestos van precedidos del article del último sustantivo. El énfasis está en la primera palabra del caso.",
+      "proposedEs": "Los sustantivos compuestos llevan el artículo del último sustantivo. El acento recae en la primera parte.",
+      "reason": "«article» es un término inglés y debe ser «artículo». Además, «del caso» no tiene sentido en este contexto; la idea es que el acento recae en el primer componente del sustantivo compuesto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0130",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Kas tev ir?",
+      "proposedEs": "¿Qué tienes?",
+      "reason": "El texto está en letón, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0132",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Cuáles son los libros?",
+      "proposedEs": "¿Cómo son los libros?",
+      "reason": "«Wie sind die Bücher?» pregunta por las características de los libros, no por cuáles son.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0136",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Franc no tiene bolígrafo ni lápiz.",
+      "proposedEs": "Franz no tiene pluma ni lápiz.",
+      "reason": "El nombre «Franc» no corresponde al nombre alemán «Franz» del contexto. Además, «Feder» se refiere aquí a una pluma, no a un bolígrafo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0142",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "La maestra tiene muchos libros y una estantería.",
+      "proposedEs": "El maestro tiene muchos libros y una estantería.",
+      "reason": "El contexto alemán usa «der Lehrer», que corresponde a un maestro, no a una maestra.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0145",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ko dara Anna?",
+      "proposedEs": "¿Qué hace Anna?",
+      "reason": "El texto está en letón, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0158",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Escribe la forma conjugada correcta y ponla en plural!",
+      "reason": "«Pon la conjugación» resulta poco natural en español y «hazlo» tiene un referente ambiguo. La recomendación hace explícita la acción solicitada.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0162",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (plural informal)",
+      "reason": "«Formulario» no es la traducción adecuada de «form» en esta etiqueta. Además, «tú» es singular; el pronombre alemán «ihr» corresponde al plural informal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:06:54.380Z"
+}

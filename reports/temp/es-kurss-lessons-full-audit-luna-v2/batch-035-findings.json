@@ -1,0 +1,97 @@
+{
+  "batch": "batch-035",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-12-0002",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Calidades comparables, también, edad y colores.",
+      "proposedEs": "Grados comparativos, als/wie, edad y colores.",
+      "reason": "«Calidades comparables» no traduce correctamente el tema de los grados comparativos, y «también» sustituye indebidamente los términos alemanes als/wie.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0003",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Conferencia duodécima: grados comparativos, als/wie, edad, adjetivos y colores.",
+      "proposedEs": "Lección 12: grados comparativos, als/wie, edad, adjetivos y colores.",
+      "reason": "«Conferencia duodécima» es una formulación poco natural y no corresponde al encabezado de una lección; «Lección 12» es la denominación adecuada.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0028",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "heißen — llamarse / significar",
+      "proposedEs": "Separar en dos entradas: «llamarse» y «significar».",
+      "reason": "La barra combina dos significados distintos en un único campo de vocabulario; deben presentarse como entradas separadas o desambiguarse según el uso.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0032",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wieviel — cik",
+      "proposedEs": "wieviel — cuánto/cuántos",
+      "reason": "«cik» no es español y constituye un resto de otra lengua.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0033",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Max (maks) — Maksis",
+      "proposedEs": "Max (maks) — Max",
+      "reason": "«Maksis» es un resto extranjero y no corresponde al nombre propio Max en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0037",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "PEDAGOGICAL_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "alt — viejo",
+      "proposedEs": "alt — mayor (al hablar de la edad)",
+      "reason": "«Viejo» es posible en otros contextos, pero en esta lección sobre la edad puede inducir a traducir de forma poco natural las expresiones personales de edad.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0040",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "so alt wie — tan viejo como",
+      "proposedEs": "so alt wie — de la misma edad que",
+      "reason": "«Tan viejo como» suena despectivo o se refiere a objetos envejecidos; para personas y edades, «de la misma edad que» es más natural y preciso.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:07:39.667Z"
+}

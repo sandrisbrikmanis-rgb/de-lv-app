@@ -1,0 +1,19 @@
+{
+  "auditType": "es_kurss_lessons_full",
+  "batch": "batch-060",
+  "instructions": "GPT-5.6 Luna READ-ONLY audit. Compare ES vs DE. LV MASTER for meaning only. Flag real Spanish issues, foreign remnants, renderer mismatches. Do NOT suggest DE changes.",
+  "fields": [
+    {
+      "cardId": "ES-KURSS-LESSON-21-0141",
+      "lessonId": "lesson21",
+      "lessonNumber": 21,
+      "path": "kurss.exerciseMeta.formSie",
+      "field": "LANGUAGE_UI_STRINGS.kurss.exerciseMeta.formSie",
+      "fieldType": "uiExerciseMeta",
+      "currentEs": "Forma 3/3: Sie (tratamiento formal)",
+      "deContext": "",
+      "structureContext": "Exercise UI label (shown when relevant)",
+      "source": "ui"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-059",
+  "cardIds": [
+    "ES-KURSS-LESSON-17-0105",
+    "ES-KURSS-LESSON-17-0106",
+    "ES-KURSS-LESSON-17-0107",
+    "ES-KURSS-LESSON-17-0108",
+    "ES-KURSS-LESSON-17-0109",
+    "ES-KURSS-LESSON-17-0110",
+    "ES-KURSS-LESSON-17-0111",
+    "ES-KURSS-LESSON-17-0112",
+    "ES-KURSS-LESSON-17-0113",
+    "ES-KURSS-LESSON-17-0114",
+    "ES-KURSS-LESSON-17-0115",
+    "ES-KURSS-LESSON-17-0116",
+    "ES-KURSS-LESSON-17-0117",
+    "ES-KURSS-LESSON-17-0118",
+    "ES-KURSS-LESSON-17-0119",
+    "ES-KURSS-LESSON-17-0120",
+    "ES-KURSS-LESSON-17-0121",
+    "ES-KURSS-LESSON-17-0122",
+    "ES-KURSS-LESSON-17-0123",
+    "ES-KURSS-LESSON-17-0124",
+    "ES-KURSS-LESSON-17-0125",
+    "ES-KURSS-LESSON-17-0126",
+    "ES-KURSS-LESSON-17-0127",
+    "ES-KURSS-LESSON-17-0128",
+    "ES-KURSS-LESSON-17-0129",
+    "ES-KURSS-LESSON-17-0130",
+    "ES-KURSS-LESSON-17-0131",
+    "ES-KURSS-LESSON-17-0132",
+    "ES-KURSS-LESSON-17-0133",
+    "ES-KURSS-LESSON-17-0134",
+    "ES-KURSS-LESSON-17-0135",
+    "ES-KURSS-LESSON-17-0136",
+    "ES-KURSS-LESSON-17-0137",
+    "ES-KURSS-LESSON-17-0138",
+    "ES-KURSS-LESSON-17-0139",
+    "ES-KURSS-LESSON-17-0140",
+    "ES-KURSS-LESSON-17-0141",
+    "ES-KURSS-LESSON-17-0142",
+    "ES-KURSS-LESSON-17-0143",
+    "ES-KURSS-LESSON-17-0144"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-17-0105\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wem hilft der Knecht? (dieser Tischler, jene Frau, das Fräulein)\",\"proposedEs\":\"¿A quién ayuda el criado? (este carpintero, esa mujer, la señorita)\",\"reason\":\"El campo visible contiene alemán en lugar de español.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0106\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0107\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0108\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"¿Ko meitene noslauka?\",\"proposedEs\":\"¿Qué limpia la niña?\",\"reason\":\"El texto está en letón, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0109\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0110\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0111\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0112\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0113\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Está hablando con una amiga?\",\"proposedEs\":\"¿Está hablando con un amigo?\",\"reason\":\"El alemán usa «dem Freunde», que se refiere a un amigo masculino; el español actual indica una amiga. El ejemplo alemán se conserva tal como está para esta auditoría.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0114\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0115\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0116\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0117\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0118\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0119\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0120\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0121\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0122\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Estoy sosteniendo una pala con la mano.\",\"proposedEs\":\"Sostengo la pala con la mano.\",\"reason\":\"El alemán expresa una acción habitual o presente («Ich halte») y se refiere a la pala determinada («den Spaten»), mientras que el español usa una perífrasis progresiva y un artículo indefinido.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0123\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Con quién trabajamos?\",\"proposedEs\":\"¿Con qué trabajamos?\",\"reason\":\"«Womit» significa «con qué», no «con quién».\"},{\"cardId\":\"ES-KURSS-LESSON-17-0124\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0125\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0126\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0127\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0128\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0129\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Con qué va el hermano?\",\"proposedEs\":\"¿Con quién va el hermano?\",\"reason\":\"«Mit wem» significa «con quién», no «con qué».\"},{\"cardId\":\"ES-KURSS-LESSON-17-0130\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Un hermano va con su padre, con su madre, con su maestra, con su tío, con su prima, con su prima.\",\"proposedEs\":\"El hermano va con su padre, con su madre, con su maestro, con su tío, con su primo y con su prima.\",\"reason\":\"Hay varios desajustes: «Der Bruder» es «el hermano», «der Lehrer» es masculino («el maestro»), y «der Vetter» y «die Base» corresponden a «el primo» y «la prima». Además, la traducción repite «prima» y pierde la distinción del alemán.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0131\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0132\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0133\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0134\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0135\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0136\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0137\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0138\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"STYLE_ONLY\",\"currentEs\":\"Toque la tarjeta para ver la traducción al alemán.\",\"proposedEs\":\"Toca la tarjeta para ver la traducción al alemán.\",\"reason\":\"El tratamiento formal «Toque» es correcto, pero no es coherente con «Toca» usado en la indicación relacionada.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0139\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Ejercicio I — Usa la conjugación correcta\",\"proposedEs\":\"Ejercicio I — Usa el caso correcto\",\"reason\":\"«Conjugación» se refiere a verbos; el identificador del ejercicio indica que aquí se trabaja el caso gramatical.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0140\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"¡Pon la conjugación correcta y hazlo en plural!\",\"proposedEs\":\"¡Usa el caso correcto y ponlo en plural!\",\"reason\":\"«Conjugación» es terminología incorrecta para un ejercicio de casos, y la redacción propuesta hace explícito el contenido gramatical.\"},{\"cardId\":\"ES-KURSS-LESSON-17-0141\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0142\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0143\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-17-0144\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Formulario 2/3: Tú (plural)\",\"proposedEs\":\"Forma 2/3: ihr (plural)\",\"reason\":\"«Formulario» no es el término adecuado para una forma gramatical, y «ihr» corresponde a la segunda persona plural, no a «tú (plural)».\"}]}",
+  "usage": {
+    "input_tokens": 3736,
+    "input_tokens_details": {
+      "cache_write_tokens": 3733,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3370,
+    "output_tokens_details": {
+      "reasoning_tokens": 1552
+    },
+    "total_tokens": 7106
+  },
+  "generatedAt": "2026-08-27T07:20:04.614Z"
+}

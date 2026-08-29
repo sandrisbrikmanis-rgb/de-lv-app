@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-057",
+  "cardIds": [
+    "ES-KURSS-LESSON-17-0025",
+    "ES-KURSS-LESSON-17-0026",
+    "ES-KURSS-LESSON-17-0027",
+    "ES-KURSS-LESSON-17-0028",
+    "ES-KURSS-LESSON-17-0029",
+    "ES-KURSS-LESSON-17-0030",
+    "ES-KURSS-LESSON-17-0031",
+    "ES-KURSS-LESSON-17-0032",
+    "ES-KURSS-LESSON-17-0033",
+    "ES-KURSS-LESSON-17-0034",
+    "ES-KURSS-LESSON-17-0035",
+    "ES-KURSS-LESSON-17-0036",
+    "ES-KURSS-LESSON-17-0037",
+    "ES-KURSS-LESSON-17-0038",
+    "ES-KURSS-LESSON-17-0039",
+    "ES-KURSS-LESSON-17-0040",
+    "ES-KURSS-LESSON-17-0041",
+    "ES-KURSS-LESSON-17-0042",
+    "ES-KURSS-LESSON-17-0043",
+    "ES-KURSS-LESSON-17-0044",
+    "ES-KURSS-LESSON-17-0045",
+    "ES-KURSS-LESSON-17-0046",
+    "ES-KURSS-LESSON-17-0047",
+    "ES-KURSS-LESSON-17-0048",
+    "ES-KURSS-LESSON-17-0049",
+    "ES-KURSS-LESSON-17-0050",
+    "ES-KURSS-LESSON-17-0051",
+    "ES-KURSS-LESSON-17-0052",
+    "ES-KURSS-LESSON-17-0053",
+    "ES-KURSS-LESSON-17-0054",
+    "ES-KURSS-LESSON-17-0055",
+    "ES-KURSS-LESSON-17-0056",
+    "ES-KURSS-LESSON-17-0057",
+    "ES-KURSS-LESSON-17-0058",
+    "ES-KURSS-LESSON-17-0059",
+    "ES-KURSS-LESSON-17-0060",
+    "ES-KURSS-LESSON-17-0061",
+    "ES-KURSS-LESSON-17-0062",
+    "ES-KURSS-LESSON-17-0063",
+    "ES-KURSS-LESSON-17-0064"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0025\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0026\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0027\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0028\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"womit — ar ko?\",\n      \"proposedEs\": \"womit — ¿con qué?\",\n      \"reason\": \"La traducción contiene texto letón («ar ko?») en lugar de español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0029\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0030\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0031\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0032\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"auffangen — atrapar / atrapar\",\n      \"proposedEs\": \"auffangen — atrapar al vuelo\",\n      \"reason\": \"La traducción repite «atrapar» y no aporta una distinción o matiz útil.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0033\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0034\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"der Schuldiener — asistente de escuela\",\n      \"proposedEs\": \"der Schuldiener — conserje de la escuela\",\n      \"reason\": \"«Asistente de escuela» resulta poco natural y no refleja bien el sentido habitual de Schuldiener en este contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0035\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0036\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0037\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"die Diele — piso\",\n      \"proposedEs\": \"die Diele — vestíbulo\",\n      \"reason\": \"Die Diele se refiere normalmente a un vestíbulo, recibidor o pasillo de entrada; «piso» no corresponde a ese significado en este contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0038\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0039\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"wischen — limpiar / limpiar\",\n      \"proposedEs\": \"wischen — pasar un paño\",\n      \"reason\": \"La traducción repite «limpiar» y no ofrece una formulación diferenciada o suficientemente precisa.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0040\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0041\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0042\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0043\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0044\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0045\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0046\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0047\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0048\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0049\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0050\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0051\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0052\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0053\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0054\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0055\",\n      \"status\": \"FINDING\",\n      \"severity\": \"CRITICAL\",\n      \"category\": \"TRANSLATION\",\n      \"currentEs\": \"La pregunta alemana \\\"¿con qué?\\\" expresado de dos maneras: mit wem? — ¿Sobre las personas, mujer? — sobre cosas/temas.\",\n      \"proposedEs\": \"La pregunta alemana «¿con qué?» puede expresarse de dos maneras: mit wem? — «¿con quién?» para personas; womit? — «¿con qué?» para cosas o temas.\",\n      \"reason\": \"El texto tiene un error de concordancia («expresado»), incluye «mujer» sin sentido en este contexto, omite la traducción de mit wem? y presenta de forma confusa la oposición entre personas y cosas.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0056\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0057\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0058\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0059\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0060\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0061\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0062\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0063\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0064\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3746,
+    "input_tokens_details": {
+      "cache_write_tokens": 3743,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2830,
+    "output_tokens_details": {
+      "reasoning_tokens": 791
+    },
+    "total_tokens": 6576
+  },
+  "generatedAt": "2026-08-27T07:18:59.662Z"
+}

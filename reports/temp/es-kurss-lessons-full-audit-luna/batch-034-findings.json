@@ -1,0 +1,71 @@
+{
+  "batch": "batch-034",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-13-0168",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Wir machen zwei Schritte.",
+      "reason": "El ejemplo alemán contiene la palabra española «dos»; debe mantenerse íntegramente en alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0181",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Ich senke beide Arme.",
+      "reason": "El ejemplo alemán está mal formado («senske»). La forma correcta de la primera persona es «senke».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0182",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Er senkt beide Arme.",
+      "reason": "El ejemplo alemán está mal formado («sentkt»). La forma correcta de la tercera persona singular es «senkt».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0183",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Wir senken beide Arme.",
+      "reason": "El ejemplo alemán está mal formado («senten»). La forma correcta de la primera persona plural es «senken».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0185",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Er dreht den Kopf nach links.",
+      "reason": "El ejemplo alemán contiene la palabra española «enlaces»; debe mantenerse íntegramente en alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:22:57.129Z"
+}

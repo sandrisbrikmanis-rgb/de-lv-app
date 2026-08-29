@@ -1,0 +1,45 @@
+{
+  "batch": "batch-058",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-21-0063",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "aus — no / iz",
+      "proposedEs": "aus — de / desde; fuera de",
+      "reason": "La traducción contiene texto ajeno al español («no / iz») y no traduce correctamente aus.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0068",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "La preposición von puede fusionarse con el article.",
+      "proposedEs": "La preposición von puede fusionarse con el artículo.",
+      "reason": "En español, el término gramatical es «artículo», no «article».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0072",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Woher? — no kurienes?",
+      "proposedEs": "Woher? — ¿De dónde?",
+      "reason": "La traducción contiene una forma corrupta y carece de la formulación correcta en español, incluidos los signos de interrogación.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:34:48.527Z"
+}

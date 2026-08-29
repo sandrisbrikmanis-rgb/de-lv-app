@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-049",
+  "cardIds": [
+    "ES-KURSS-LESSON-15-0024",
+    "ES-KURSS-LESSON-15-0025",
+    "ES-KURSS-LESSON-15-0026",
+    "ES-KURSS-LESSON-15-0027",
+    "ES-KURSS-LESSON-15-0028",
+    "ES-KURSS-LESSON-15-0029",
+    "ES-KURSS-LESSON-15-0030",
+    "ES-KURSS-LESSON-15-0031",
+    "ES-KURSS-LESSON-15-0032",
+    "ES-KURSS-LESSON-15-0033",
+    "ES-KURSS-LESSON-15-0034",
+    "ES-KURSS-LESSON-15-0035",
+    "ES-KURSS-LESSON-15-0036",
+    "ES-KURSS-LESSON-15-0037",
+    "ES-KURSS-LESSON-15-0038",
+    "ES-KURSS-LESSON-15-0039",
+    "ES-KURSS-LESSON-15-0040",
+    "ES-KURSS-LESSON-15-0041",
+    "ES-KURSS-LESSON-15-0042",
+    "ES-KURSS-LESSON-15-0043",
+    "ES-KURSS-LESSON-15-0044",
+    "ES-KURSS-LESSON-15-0045",
+    "ES-KURSS-LESSON-15-0046",
+    "ES-KURSS-LESSON-15-0047",
+    "ES-KURSS-LESSON-15-0048",
+    "ES-KURSS-LESSON-15-0049",
+    "ES-KURSS-LESSON-15-0050",
+    "ES-KURSS-LESSON-15-0051",
+    "ES-KURSS-LESSON-15-0052",
+    "ES-KURSS-LESSON-15-0053",
+    "ES-KURSS-LESSON-15-0054",
+    "ES-KURSS-LESSON-15-0055",
+    "ES-KURSS-LESSON-15-0056",
+    "ES-KURSS-LESSON-15-0057",
+    "ES-KURSS-LESSON-15-0058",
+    "ES-KURSS-LESSON-15-0059",
+    "ES-KURSS-LESSON-15-0060",
+    "ES-KURSS-LESSON-15-0061",
+    "ES-KURSS-LESSON-15-0062",
+    "ES-KURSS-LESSON-15-0063"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0024\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0025\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0026\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0027\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0028\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0029\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0030\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"sollen — debería\",\n      \"proposedEs\": \"sollen — deber\",\n      \"reason\": \"La forma de diccionario sollen se traduce aquí como «deber» o «tener que»; «debería» es una forma condicional y no corresponde a la entrada del verbo.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0031\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"ich soll — necesito / tengo que hacer\",\n      \"proposedEs\": \"ich soll — debo\",\n      \"reason\": \"La barra combina traducciones distintas y «necesito» no expresa correctamente sollen en este contexto. Además, «hacer» añade un complemento que no aparece en la expresión alemana.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0032\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"du sollst — necesitas / debes hacer\",\n      \"proposedEs\": \"du sollst — debes\",\n      \"reason\": \"La barra combina traducciones distintas y «necesitas» no es la traducción adecuada de sollen. «Hacer» también añade un significado no presente en la expresión alemana.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0033\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"er soll — él necesita / tiene que\",\n      \"proposedEs\": \"er soll — él debe\",\n      \"reason\": \"«Necesita» traduce brauchen, no sollen. La barra también mezcla dos alternativas en el campo de aprendizaje.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0034\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"wir sollen — necesitamos / tenemos que hacer\",\n      \"proposedEs\": \"wir sollen — debemos\",\n      \"reason\": \"La barra combina traducciones distintas; «necesitamos» no corresponde a sollen y «hacer» añade un complemento que no figura en el alemán.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0035\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"ihr sollt — necesitas / deberías\",\n      \"proposedEs\": \"ihr sollt — debéis\",\n      \"reason\": \"La barra combina traducciones distintas. Además, ihr es la segunda persona plural informal, por lo que «necesitas» y «deberías» están en singular y no corresponden a la forma alemana.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0036\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"sie sollen — ellos / ellos necesitan\",\n      \"proposedEs\": \"sie sollen — ellos deben\",\n      \"reason\": \"La traducción está duplicada y la segunda alternativa («necesitan») no corresponde a sollen. Debe expresarse también el significado modal de obligación.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0037\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0038\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0039\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"du darfst — usted puede\",\n      \"proposedEs\": \"du darfst — tú puedes\",\n      \"reason\": \"du corresponde a «tú», no a «usted». La traducción actual cambia la persona y el registro del pronombre.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0040\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0041\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0042\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"ihr dürft — usted puede\",\n      \"proposedEs\": \"ihr dürft — vosotros podéis\",\n      \"reason\": \"ihr es la segunda persona plural informal y no corresponde a «usted», que es singular y formal.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0043\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"sie dürfen — ellos / ellos pueden\",\n      \"proposedEs\": \"sie dürfen — ellos pueden\",\n      \"reason\": \"La primera alternativa («ellos») está incompleta y la barra combina una etiqueta pronominal con una traducción verbal. Debe darse una traducción completa y no duplicada.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0044\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0045\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0046\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0047\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0048\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0049\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"entzweischneiden — cortado por la mitad\",\n      \"proposedEs\": \"entzweischneiden — cortar por la mitad\",\n      \"reason\": \"La entrada alemana es un infinitivo; la traducción española debe mantener el infinitivo. «Cortado» es un participio.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0050\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0051\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0052\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0053\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0054\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0055\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0056\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0057\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0058\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"unreif — no entres / no madures\",\n      \"proposedEs\": \"unreif — inmaduro\",\n      \"reason\": \"La traducción actual es incorrecta: unreif significa «inmaduro» o «no maduro», no una prohibición («no entres») ni una forma verbal («no madures»). Además, la barra combina significados distintos.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0059\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0060\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0061\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0062\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-15-0063\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3785,
+    "input_tokens_details": {
+      "cache_write_tokens": 3782,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3413,
+    "output_tokens_details": {
+      "reasoning_tokens": 921
+    },
+    "total_tokens": 7198
+  },
+  "generatedAt": "2026-08-27T07:14:58.606Z"
+}

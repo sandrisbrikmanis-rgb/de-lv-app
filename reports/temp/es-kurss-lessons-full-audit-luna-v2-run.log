@@ -1,0 +1,131 @@
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+  luna batch-001: 40 fields, findings=14, pass=26, synthetic=0, tokens=6465
+  luna batch-002: 40 fields, findings=16, pass=24, synthetic=0, tokens=7768
+  luna batch-003: 40 fields, findings=13, pass=27, synthetic=0, tokens=7789
+  luna batch-004: 40 fields, findings=16, pass=24, synthetic=0, tokens=7057
+  luna batch-005: 40 fields, findings=10, pass=30, synthetic=0, tokens=6329
+  luna batch-006: 40 fields, findings=34, pass=6, synthetic=0, tokens=9606
+  luna batch-007: 40 fields, findings=31, pass=9, synthetic=0, tokens=8464
+  luna batch-008: 40 fields, findings=27, pass=13, synthetic=0, tokens=8107
+  luna batch-009: 40 fields, findings=19, pass=21, synthetic=0, tokens=8251
+  luna batch-010: 40 fields, findings=14, pass=26, synthetic=0, tokens=7581
+  luna batch-011: 40 fields, findings=9, pass=31, synthetic=0, tokens=6883
+  luna batch-012: 40 fields, findings=12, pass=28, synthetic=0, tokens=6863
+  luna batch-013: 40 fields, findings=3, pass=37, synthetic=0, tokens=6333
+  luna batch-014: 40 fields, findings=14, pass=26, synthetic=0, tokens=6885
+  luna batch-015: 40 fields, findings=25, pass=15, synthetic=0, tokens=10449
+  luna batch-016: 40 fields, findings=14, pass=26, synthetic=0, tokens=7172
+  luna batch-017: 40 fields, findings=17, pass=23, synthetic=0, tokens=8828
+  luna batch-018: 40 fields, findings=2, pass=38, synthetic=0, tokens=4550
+  luna batch-019: 40 fields, findings=1, pass=39, synthetic=0, tokens=6137
+  luna batch-020: 40 fields, findings=1, pass=39, synthetic=0, tokens=5458
+  luna batch-021: 40 fields, findings=6, pass=34, synthetic=0, tokens=7143
+  luna batch-022: 40 fields, findings=14, pass=26, synthetic=0, tokens=7427
+  luna batch-023: 40 fields, findings=4, pass=36, synthetic=0, tokens=6480
+  luna batch-024: 40 fields, findings=6, pass=34, synthetic=0, tokens=6141
+  luna batch-025: 40 fields, findings=15, pass=25, synthetic=0, tokens=7054
+  luna batch-026: 40 fields, findings=13, pass=27, synthetic=0, tokens=7153
+  luna batch-027: 40 fields, findings=2, pass=38, synthetic=0, tokens=5894
+  luna batch-028: 40 fields, findings=5, pass=35, synthetic=0, tokens=6895
+  luna batch-029: 40 fields, findings=2, pass=38, synthetic=0, tokens=5727
+  luna batch-030: 40 fields, findings=9, pass=31, synthetic=0, tokens=8186
+  luna batch-031: 40 fields, findings=36, pass=4, synthetic=0, tokens=7251
+  luna batch-032: 40 fields, findings=9, pass=31, synthetic=0, tokens=7004
+  luna batch-033: 40 fields, findings=12, pass=28, synthetic=0, tokens=8669
+  luna batch-034: 40 fields, findings=8, pass=32, synthetic=0, tokens=7053
+  luna batch-035: 40 fields, findings=7, pass=33, synthetic=0, tokens=6869
+  luna batch-036: 40 fields, findings=5, pass=35, synthetic=0, tokens=5938
+  luna batch-037: 40 fields, findings=8, pass=32, synthetic=0, tokens=7012
+  luna batch-038: 40 fields, findings=16, pass=24, synthetic=0, tokens=7750
+  luna batch-039: 40 fields, findings=13, pass=27, synthetic=0, tokens=7132
+  luna batch-040: 40 fields, findings=3, pass=37, synthetic=0, tokens=5883
+  luna batch-041: 40 fields, findings=4, pass=36, synthetic=0, tokens=6345
+  luna batch-042: 40 fields, findings=1, pass=39, synthetic=0, tokens=5399
+  luna batch-043: 40 fields, findings=34, pass=6, synthetic=0, tokens=7592
+  luna batch-044: 40 fields, findings=14, pass=26, synthetic=0, tokens=6920
+  luna batch-045: 40 fields, findings=28, pass=12, synthetic=0, tokens=8405
+  luna batch-046: 40 fields, findings=11, pass=29, synthetic=0, tokens=6382
+  luna batch-047: 40 fields, findings=11, pass=29, synthetic=0, tokens=7661
+  luna batch-048: 40 fields, findings=7, pass=33, synthetic=0, tokens=6253
+  luna batch-049: 40 fields, findings=12, pass=28, synthetic=0, tokens=7198
+  luna batch-050: 40 fields, findings=8, pass=32, synthetic=0, tokens=6685
+  luna batch-051: 40 fields, findings=7, pass=33, synthetic=0, tokens=8288
+  luna batch-052: 40 fields, findings=20, pass=20, synthetic=0, tokens=6909
+  luna batch-053: 40 fields, findings=8, pass=32, synthetic=0, tokens=5967
+  luna batch-054: 40 fields, findings=2, pass=38, synthetic=0, tokens=6025
+  luna batch-055: 40 fields, findings=6, pass=34, synthetic=0, tokens=6583
+  luna batch-056: 40 fields, findings=6, pass=34, synthetic=0, tokens=6394
+  luna batch-057: 40 fields, findings=6, pass=34, synthetic=0, tokens=6576
+  luna batch-058: 40 fields, findings=5, pass=35, synthetic=0, tokens=7328
+  luna batch-059: 40 fields, findings=11, pass=29, synthetic=0, tokens=7106
+  luna batch-060: 40 fields, findings=6, pass=34, synthetic=0, tokens=6967
+  luna batch-061: 40 fields, findings=12, pass=28, synthetic=0, tokens=7693
+  luna batch-062: 40 fields, findings=12, pass=28, synthetic=0, tokens=8120
+  luna batch-063: 40 fields, findings=9, pass=31, synthetic=0, tokens=6323
+  luna batch-064: 40 fields, findings=14, pass=26, synthetic=0, tokens=6573
+  luna batch-065: 40 fields, findings=8, pass=32, synthetic=0, tokens=6858
+  luna batch-066: 40 fields, findings=11, pass=29, synthetic=0, tokens=7709
+  luna batch-067: 40 fields, findings=27, pass=13, synthetic=0, tokens=7985
+  luna batch-068: 40 fields, findings=7, pass=33, synthetic=0, tokens=6951
+  luna batch-069: 40 fields, findings=2, pass=38, synthetic=0, tokens=5902
+  luna batch-070: 40 fields, findings=11, pass=29, synthetic=0, tokens=6564
+  luna batch-071: 40 fields, findings=7, pass=33, synthetic=0, tokens=6092
+  luna batch-072: 40 fields, findings=5, pass=35, synthetic=0, tokens=6346
+  luna batch-073: 40 fields, findings=1, pass=39, synthetic=0, tokens=6403
+  luna batch-074: 31 fields, findings=13, pass=18, synthetic=0, tokens=6523
+{
+  "totalFields": 2951,
+  "bySev": {
+    "CRITICAL": 22,
+    "HIGH": 562,
+    "MEDIUM": 380,
+    "LOW": 29
+  },
+  "findings": 993,
+  "deterministic": 331,
+  "luna": 818,
+  "lunaBatches": 74,
+  "lunaLoaded": true,
+  "pass": false,
+  "verdict": "NEEDS OWNER REVIEW — atlikuši validated findings.",
+  "report": "/workspace/reports/es-kurss-lessons-full-audit.md"
+}
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+{
+  "totalFields": 2951,
+  "bySev": {
+    "CRITICAL": 22,
+    "HIGH": 562,
+    "MEDIUM": 380,
+    "LOW": 29
+  },
+  "findings": 993,
+  "deterministic": 331,
+  "luna": 818,
+  "lunaBatches": 74,
+  "lunaLoaded": true,
+  "pass": false,
+  "verdict": "NEEDS OWNER REVIEW — atlikuši validated findings.",
+  "report": "/workspace/reports/es-kurss-lessons-full-audit.md"
+}
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+{
+  "totalFields": 2951,
+  "bySev": {
+    "CRITICAL": 22,
+    "HIGH": 562,
+    "MEDIUM": 380,
+    "LOW": 29
+  },
+  "findings": 993,
+  "deterministic": 331,
+  "luna": 818,
+  "lunaBatches": 74,
+  "lunaLoaded": true,
+  "pass": false,
+  "verdict": "NEEDS OWNER REVIEW — atlikuši validated findings.",
+  "report": "/workspace/reports/es-kurss-lessons-full-audit.md"
+}

@@ -1,0 +1,58 @@
+{
+  "batch": "batch-051",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-18-0143",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (vosotros/vosotras, plural)",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0002",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wechselpräpositionen: vor, hinder, unter, über, neben, zwischen.",
+      "proposedEs": "Preposiciones de doble régimen: vor, hinter, unter, über, neben, zwischen.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0003",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Decimonovena Conferencia: vor, hinder, unter, über, neben, zwischen con Akkusativ o Dativ.",
+      "proposedEs": "Lección decimonovena: vor, hinter, unter, über, neben y zwischen, con acusativo o dativo.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-19-0029",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "vor — antes",
+      "proposedEs": "vor — delante de",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:31:42.711Z"
+}

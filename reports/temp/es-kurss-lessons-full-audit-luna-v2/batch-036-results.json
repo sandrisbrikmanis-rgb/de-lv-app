@@ -1,0 +1,247 @@
+{
+  "batch": "batch-036",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-12-0041",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0042",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0043",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0044",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wie — cómo",
+      "proposedEs": "wie — como",
+      "reason": "En este contexto de comparación, wie significa «como», no «cómo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0045",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "am jüngsten — el más reciente",
+      "proposedEs": "am jüngsten — el más joven",
+      "reason": "am jüngsten es el superlativo de jung y significa «el más joven»; «el más reciente» corresponde a otra acepción.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0046",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0047",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0048",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0049",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0050",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0051",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0052",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0053",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0054",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0055",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0056",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0057",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0058",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0059",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0060",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0061",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0062",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0063",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0064",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0065",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0066",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Komparativ",
+      "proposedEs": "Comparativo",
+      "reason": "El encabezado está completamente en alemán, aunque el contenido visible para el usuario debe estar en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0067",
+      "status": "PASS",
+      "field": "grammarText"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0068",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0069",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0070",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0071",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0072",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "La mayoría de los adjetivos monosilábicos con la vocal raíz a, o, u tienen una diéresis en el grado superlativo.",
+      "proposedEs": "La mayoría de los adjetivos monosilábicos cuya vocal raíz es a, o, u tienen una diéresis en el comparativo.",
+      "reason": "La regla descrita corresponde al comparativo, no al superlativo. Además, «cuya vocal raíz es» resulta más natural y preciso que «con la vocal raíz».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0073",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0074",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0075",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0076",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0077",
+      "status": "PASS",
+      "field": "grammarText"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0078",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0079",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-12-0080",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Superlativ",
+      "proposedEs": "Superlativo",
+      "reason": "El encabezado está completamente en alemán, aunque el contenido visible para el usuario debe estar en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:08:02.717Z"
+}

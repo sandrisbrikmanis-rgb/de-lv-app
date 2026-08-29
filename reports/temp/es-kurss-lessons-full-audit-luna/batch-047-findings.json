@@ -1,0 +1,97 @@
+{
+  "batch": "batch-047",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-17-0087",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los verbos compuestos auffangen y abwischen llevan tilde en el prefijo. Por tanto, el prefijo presente se separa y se coloca al final de la frase.",
+      "proposedEs": "Los verbos compuestos auffangen y abwischen llevan el acento tónico en el prefijo. Por tanto, el prefijo se separa y se coloca al final de la oración.",
+      "reason": "En español, «llevar tilde» se refiere a una marca ortográfica escrita, no al acento prosódico del prefijo. «Prefijo presente» también es una formulación antinatural en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0091",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Fegen y wischen significan barrer, pero el uso es diferente.",
+      "proposedEs": "Fegen significa «barrer», mientras que wischen significa «limpiar» o «pasar un paño»; su uso es diferente.",
+      "reason": "wischen no significa «barrer»; describe limpiar o pasar un paño.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0108",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Ko meitene noslauka?",
+      "proposedEs": "¿Qué limpia la niña?",
+      "reason": "El texto está en letón, no en español. Además, debe corresponder a la pregunta alemana sobre qué limpia la niña.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0113",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Está hablando con una amiga?",
+      "proposedEs": "",
+      "reason": "El español es correcto, pero el contexto alemán «Spricht sie mit dem Freunde?» no corresponde a «una amiga» y contiene una forma alemana anómala. Es un problema de la fuente alemana; no se propone modificar el alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0123",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Con quién trabajamos?",
+      "proposedEs": "¿Con qué trabajamos?",
+      "reason": "El español pregunta «con quién», pero el contexto alemán «Womit arbeiten wir?» pregunta «con qué».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0129",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Con qué va el hermano?",
+      "proposedEs": "¿Con quién va el hermano?",
+      "reason": "El contexto alemán «Mit wem geht der Bruder?» pregunta por una persona, por lo que corresponde «con quién», no «con qué».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-17-0130",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Un hermano va con su padre, con su madre, con su maestra, con su tío, con su prima, con su prima.",
+      "proposedEs": "El hermano va con el padre, con la madre, con el maestro, con el tío, con el primo y con la prima.",
+      "reason": "La traducción no corresponde al alemán: «der Bruder» es «el hermano», «der Lehrer» es «el maestro», «der Vetter» es «el primo» y «die Base» es «la prima». Además, se repite «prima» y se omite uno de los acompañantes.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:29:40.090Z"
+}

@@ -1,0 +1,311 @@
+{
+  "batch": "batch-003",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-01-0081",
+      "status": "PASS",
+      "field": "grammarHeader"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0082",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "?Oraciones de preguntas",
+      "proposedEs": "?Oraciones interrogativas",
+      "reason": "«Oraciones de preguntas» es comprensible, pero no es la denominación gramatical natural en español; «oraciones interrogativas» es el término estándar.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0083",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "♣Diferencia de persona",
+      "proposedEs": "♣Diferencias según la persona",
+      "reason": "«Diferencia de persona» suena poco natural y ambiguo como encabezado gramatical.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0084",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_GRAMMAR",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Eliminar -en de las formas base del verbo y agrega la terminación.\nEjemplo: kommen → komm + terminación\nkommenforma base",
+      "proposedEs": "Eliminar -en de la forma básica del verbo y añadir la terminación.\nEjemplo: kommen → komm + terminación\nkommen: forma básica",
+      "reason": "La instrucción mezcla infinitivo («Eliminar») con imperativo («agrega»), «formas base» no es la formulación más natural y la última línea carece de espacio y separador.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0085",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_GRAMMAR",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Eliminar -en de las formas base del verbo y agrega la terminación.",
+      "proposedEs": "Eliminar -en de la forma básica del verbo y añadir la terminación.",
+      "reason": "La instrucción mezcla infinitivo («Eliminar») con imperativo («agrega»); además, «forma básica» es más natural que «formas base» en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0086",
+      "status": "PASS",
+      "field": "paragraph"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0087",
+      "status": "PASS",
+      "field": "uiHint"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0088",
+      "field": "",
+      "severity": "LOW",
+      "category": "ES_ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿vienes?",
+      "proposedEs": "¿Vienes?",
+      "reason": "Como oración independiente, debe escribirse con mayúscula inicial.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0089",
+      "status": "PASS",
+      "field": "trainingTranslateFront"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0090",
+      "status": "PASS",
+      "field": "trainingTranslateFront"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0091",
+      "status": "PASS",
+      "field": "trainingTranslateFront"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0092",
+      "status": "PASS",
+      "field": "trainingTranslateFront"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0093",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Sí, van.",
+      "proposedEs": "Sí, se van.",
+      "reason": "La respuesta no conserva el valor pronominal de «Se van?»; «Sí, van» sugiere que van a algún lugar, no necesariamente que se marchan.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0094",
+      "status": "PASS",
+      "field": "trainingTranslateFront"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0095",
+      "status": "PASS",
+      "field": "trainingTranslateFront"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0096",
+      "status": "PASS",
+      "field": "trainingTranslateFront"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0097",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Vas a ir",
+      "proposedEs": "¿Vais?",
+      "reason": "El texto actual es una afirmación en segunda persona singular y expresa una perífrasis de futuro, mientras que el contexto alemán es una pregunta dirigida a varias personas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0098",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Albert y Martha van y vienen.",
+      "proposedEs": "Albert y Marta vienen y van.",
+      "reason": "El orden de los verbos en español invierte la secuencia del ejemplo alemán; además, «Marta» es la forma habitual en español del nombre.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0099",
+      "status": "PASS",
+      "field": "uiSectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0100",
+      "status": "PASS",
+      "field": "uiHint"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-01-0101",
+      "status": "PASS",
+      "field": "uiProgress"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0001",
+      "status": "PASS",
+      "field": "uiTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0002",
+      "status": "PASS",
+      "field": "uiMenuDesc"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0003",
+      "status": "PASS",
+      "field": "sectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0004",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0005",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0006",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0007",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0008",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0009",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0010",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0011",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0012",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0013",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0014",
+      "status": "PASS",
+      "field": "sectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0015",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "spielen — jugar; jugar",
+      "proposedEs": "spielen — jugar",
+      "reason": "La traducción española aparece duplicada mediante un punto y coma.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0016",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "nein — trabajar",
+      "proposedEs": "nein — no",
+      "reason": "«nein» significa «no», no «trabajar».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0017",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "nicht — preguntar",
+      "proposedEs": "nicht — no",
+      "reason": "«nicht» es el adverbio alemán de negación «no», mientras que «preguntar» corresponde a «fragen».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0018",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "arbeiten — was tut er? ¿Qué está haciendo?",
+      "proposedEs": "arbeiten — trabajar",
+      "reason": "El campo contiene una frase alemana no traducida («was tut er?») y añade una pregunta ajena al significado de la palabra «arbeiten».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0019",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "fragen — ¿qué hacen ellos?",
+      "proposedEs": "fragen — preguntar",
+      "reason": "«fragen» significa «preguntar»; «¿qué hacen ellos?» corresponde a otra expresión alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:49:55.073Z"
+}

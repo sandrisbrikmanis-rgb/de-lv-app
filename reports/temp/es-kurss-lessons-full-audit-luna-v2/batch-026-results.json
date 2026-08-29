@@ -1,0 +1,311 @@
+{
+  "batch": "batch-026",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-09-0110",
+      "status": "PASS",
+      "field": "exerciseFormTask"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0111",
+      "status": "PASS",
+      "field": "exerciseFormTask"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0112",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Listo. El siguiente clic muestra la siguiente card.",
+      "proposedEs": "Listo. Al hacer clic de nuevo, se muestra la siguiente tarjeta.",
+      "reason": "«Card» es un resto del inglés; en español debe usarse «tarjeta».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0113",
+      "status": "PASS",
+      "field": "exerciseMultiBase"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0114",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Cambia esta oración a 3ra persona del singular.",
+      "proposedEs": "Cambia esta oración a la tercera persona del singular.",
+      "reason": "La abreviatura «3ra» no es adecuada en este texto didáctico; debe escribirse «tercera».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0115",
+      "status": "PASS",
+      "field": "exerciseFormTask"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0116",
+      "status": "PASS",
+      "field": "exerciseFormTask"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0117",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Listo. El siguiente clic muestra la siguiente card.",
+      "proposedEs": "Listo. Al hacer clic de nuevo, se muestra la siguiente tarjeta.",
+      "reason": "«Card» es un resto del inglés; en español debe usarse «tarjeta».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0118",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0119",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0120",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0121",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "qué estás haciendo",
+      "proposedEs": "¿Qué está haciendo usted?",
+      "reason": "El alemán usa «Sie», tratamiento formal de segunda persona; «estás» corresponde al tratamiento informal de «tú».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0122",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0123",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0124",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Señor Maestro, siéntese y lea!",
+      "proposedEs": "¡Señor profesor, siéntese y lea!",
+      "reason": "«Señor Maestro» resulta poco natural como tratamiento en español; «señor profesor» es la formulación habitual.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0125",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0126",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0127",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0128",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Qué es este plato?",
+      "proposedEs": "¿Cómo es este plato?",
+      "reason": "«Wie ist» pregunta cómo es algo, no qué es; además, «Teller» significa «plato» en el sentido de vajilla, no una identificación del objeto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0129",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0130",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Las letras son largas o cortas?",
+      "proposedEs": "¿Las cartas son largas o cortas?",
+      "reason": "«Briefe» significa «cartas» en este contexto; «letras» sería «Buchstaben» en alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0131",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Anna, afila ese lápiz!",
+      "proposedEs": "¡Anna, afila este lápiz!",
+      "reason": "El demostrativo alemán «diesen» corresponde a «este», no a «ese».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0132",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Maestro, por favor afile este lápiz!",
+      "proposedEs": "¡Profesor, por favor, afile este lápiz!",
+      "reason": "«Maestro» como vocativo resulta menos natural en este contexto que «profesor»; también se recomienda la coma tras «por favor».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0133",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Deja ese lápiz!",
+      "proposedEs": "¡Pon ese lápiz ahí!",
+      "reason": "«Leg ... hin» indica colocar o poner el lápiz, mientras que «deja ese lápiz» suele significar no tocarlo o abandonarlo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0134",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Aiztaisi logu!",
+      "proposedEs": "¡Cierra la ventana!",
+      "reason": "El texto está en letón, no en español, y no traduce el contenido alemán para el usuario.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0135",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ko meitene beidzot dara?",
+      "proposedEs": "¿Qué hace finalmente la niña?",
+      "reason": "El texto está en letón, no en español, y no traduce el contenido alemán para el usuario.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0136",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0137",
+      "status": "PASS",
+      "field": "uiSectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0138",
+      "status": "PASS",
+      "field": "uiSectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0139",
+      "status": "PASS",
+      "field": "uiSectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0140",
+      "status": "PASS",
+      "field": "uiSectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0141",
+      "status": "PASS",
+      "field": "uiHint"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0142",
+      "status": "PASS",
+      "field": "uiSectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0143",
+      "status": "PASS",
+      "field": "uiHint"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0144",
+      "status": "PASS",
+      "field": "uiHint"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0145",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0146",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Usa la conjugación correcta y pon la frase en plural!",
+      "reason": "«Pon la conjugación» y «hazlo» resultan poco naturales y ambiguos en una instrucción didáctica.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0147",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0148",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0149",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:02:29.919Z"
+}

@@ -1,0 +1,32 @@
+{
+  "batch": "batch-018",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-07-0081",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "espectáculo",
+      "proposedEs": "mostrar",
+      "reason": "«Espectáculo» es un sustantivo y no corresponde al verbo alemán «zeigen», que significa «mostrar».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0089",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "contar",
+      "proposedEs": "calcular",
+      "reason": "«Contar» corresponde normalmente a «zählen», mientras que el verbo alemán «rechnen» significa «calcular» o «hacer cuentas».",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:58:40.339Z"
+}

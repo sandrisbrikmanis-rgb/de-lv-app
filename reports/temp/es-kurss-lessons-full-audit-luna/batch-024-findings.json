@@ -1,0 +1,123 @@
+{
+  "batch": "batch-024",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-10-0122",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "¿Estás sano?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0124",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "¿Está Paul sano?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0131",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "¿Qué edad tiene Adolf?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0133",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "¿Quién eres?",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0137",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0139",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0150",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "¡Escribe la conjugación correcta y forma la frase en plural!",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0154",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Forma 2/3: ihr (vosotros/vosotras)",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0002",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "",
+      "proposedEs": "Haben, kein/keine/keinen, posesión y sustantivos compuestos.",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:18:41.348Z"
+}

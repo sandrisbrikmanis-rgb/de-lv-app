@@ -1,0 +1,431 @@
+{
+  "batch": "batch-045",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-14-0007",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Er muss lernen, denn er will vorwärts kommen.",
+      "proposedEs": "Él tiene que estudiar porque quiere salir adelante.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0008",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Sie muss lernen, denn sie will vorwärts kommen.",
+      "proposedEs": "Ella tiene que estudiar porque quiere salir adelante.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0009",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Es muss lernen, denn es will vorwärts kommen.",
+      "proposedEs": "Tiene que estudiar porque quiere salir adelante.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0010",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wir müssen lernen, denn wir wollen vorwärts kommen.",
+      "proposedEs": "Tenemos que estudiar porque queremos salir adelante.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0011",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ihr müsst lernen, denn ihr wollt vorwärts kommen.",
+      "proposedEs": "Tenéis que estudiar porque queréis salir adelante.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0012",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Sie müssen lernen, denn sie wollen vorwärts kommen.",
+      "proposedEs": "Tienen que estudiar porque quieren salir adelante.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0013",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ich mag die Suppe nicht essen, denn sie mundet mir nicht.",
+      "proposedEs": "No me gusta comer la sopa porque no me sabe bien.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0014",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Du magst die Suppe nicht essen, denn sie mundet dir nicht.",
+      "proposedEs": "No te gusta comer la sopa porque no te sabe bien.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0015",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Er mag die Suppe nicht essen, denn sie mundet ihm nicht.",
+      "proposedEs": "No le gusta comer la sopa porque no le sabe bien.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0016",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Sie mag die Suppe nicht essen, denn sie mundet ihr nicht.",
+      "proposedEs": "No le gusta comer la sopa porque no le sabe bien.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0017",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Es mag die Suppe nicht essen, denn sie mundet ihm nicht.",
+      "proposedEs": "No le gusta comer la sopa porque no le sabe bien.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español. Además, el referente de ihm en el ejemplo alemán no concuerda claramente con es; se conserva una traducción neutral sin proponer cambios al alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0018",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wir mögen die Suppe nicht essen, denn sie mundet uns nicht.",
+      "proposedEs": "No nos gusta comer la sopa porque no nos sabe bien.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0019",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ihr mögt die Suppe nicht essen, denn sie mundet euch nicht.",
+      "proposedEs": "No os gusta comer la sopa porque no os sabe bien.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0020",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Sie mögen die Suppe nicht essen, denn sie mundet ihnen nicht.",
+      "proposedEs": "No les gusta comer la sopa porque no les sabe bien.",
+      "reason": "El campo contiene íntegramente el texto alemán en lugar de una traducción al español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0021",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0022",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "ich muss — necesito / tengo que hacer",
+      "proposedEs": "ich muss — tengo que",
+      "reason": "La barra combina traducciones distintas y hacer añade un complemento que no aparece en el fragmento alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0023",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "du musst — necesitas / debes hacer",
+      "proposedEs": "du musst — tienes que",
+      "reason": "La barra combina traducciones distintas y hacer añade un complemento que no aparece en el fragmento alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0024",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "er muss — él necesita / tiene que",
+      "proposedEs": "er muss — él tiene que",
+      "reason": "La barra combina dos equivalentes distintos para una entrada de vocabulario.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0025",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sie muss — ella necesita / tiene que",
+      "proposedEs": "sie muss — ella tiene que",
+      "reason": "La barra combina dos equivalentes distintos para una entrada de vocabulario.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0026",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "es muss — necesita / tiene que hacer",
+      "proposedEs": "es muss — tiene que",
+      "reason": "La barra combina traducciones distintas y hacer añade un complemento que no aparece en el fragmento alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0027",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wir müssen — necesitamos / tenemos que hacer",
+      "proposedEs": "wir müssen — tenemos que",
+      "reason": "La barra combina traducciones distintas y hacer añade un complemento que no aparece en el fragmento alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0028",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "ihr müsst — necesitas / debes",
+      "proposedEs": "ihr müsst — tenéis que",
+      "reason": "ihr es la segunda persona plural; la traducción actual usa la segunda persona singular y además combina equivalentes.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0029",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sie müssen — ellos / ellos necesitan",
+      "proposedEs": "sie müssen — tienen que",
+      "reason": "La barra combina el pronombre con una traducción verbal distinta, repite ellos y no ofrece una equivalencia única y clara.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0030",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0031",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0032",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0033",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0034",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0035",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0036",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0037",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0038",
+      "field": "",
+      "severity": "LOW",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "es will — ello quiere",
+      "proposedEs": "es will — quiere",
+      "reason": "Ello resulta poco natural e innecesario como sujeto en español en esta entrada verbal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0039",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0040",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0041",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sie wollen — ellos / ellas quieren",
+      "proposedEs": "sie wollen — quieren",
+      "reason": "La barra combina dos variantes de género en una misma traducción; el verbo español permite omitir el pronombre.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0042",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0043",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "ich mag — quiero / me gusta",
+      "proposedEs": "ich mag — me gusta",
+      "reason": "La barra combina dos significados distintos. Para esta entrada léxica, me gusta es la equivalencia directa y coherente con el ejemplo de la lección.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0044",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "du magst — quieres / te gusta",
+      "proposedEs": "du magst — te gusta",
+      "reason": "La barra combina dos significados distintos; debe ofrecerse una equivalencia única.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0045",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "er mag — él quiere / le gusta",
+      "proposedEs": "er mag — le gusta",
+      "reason": "La barra combina dos significados distintos y el pronombre él no es necesario en la traducción de esta construcción.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0046",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sie mag — ella quiere / le gusta",
+      "proposedEs": "sie mag — le gusta",
+      "reason": "La barra combina dos significados distintos y el pronombre ella no es necesario en la traducción de esta construcción.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:12:57.997Z"
+}

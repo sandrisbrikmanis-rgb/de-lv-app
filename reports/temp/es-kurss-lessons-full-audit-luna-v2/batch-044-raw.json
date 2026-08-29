@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-044",
+  "cardIds": [
+    "ES-KURSS-LESSON-13-0210",
+    "ES-KURSS-LESSON-13-0211",
+    "ES-KURSS-LESSON-13-0212",
+    "ES-KURSS-LESSON-13-0213",
+    "ES-KURSS-LESSON-13-0214",
+    "ES-KURSS-LESSON-13-0215",
+    "ES-KURSS-LESSON-13-0216",
+    "ES-KURSS-LESSON-13-0217",
+    "ES-KURSS-LESSON-13-0218",
+    "ES-KURSS-LESSON-13-0219",
+    "ES-KURSS-LESSON-13-0220",
+    "ES-KURSS-LESSON-13-0221",
+    "ES-KURSS-LESSON-13-0222",
+    "ES-KURSS-LESSON-13-0223",
+    "ES-KURSS-LESSON-13-0224",
+    "ES-KURSS-LESSON-13-0225",
+    "ES-KURSS-LESSON-13-0226",
+    "ES-KURSS-LESSON-13-0227",
+    "ES-KURSS-LESSON-13-0228",
+    "ES-KURSS-LESSON-13-0229",
+    "ES-KURSS-LESSON-13-0230",
+    "ES-KURSS-LESSON-13-0231",
+    "ES-KURSS-LESSON-13-0232",
+    "ES-KURSS-LESSON-13-0233",
+    "ES-KURSS-LESSON-13-0234",
+    "ES-KURSS-LESSON-13-0235",
+    "ES-KURSS-LESSON-13-0236",
+    "ES-KURSS-LESSON-13-0237",
+    "ES-KURSS-LESSON-13-0238",
+    "ES-KURSS-LESSON-13-0239",
+    "ES-KURSS-LESSON-13-0240",
+    "ES-KURSS-LESSON-13-0241",
+    "ES-KURSS-LESSON-13-0242",
+    "ES-KURSS-LESSON-13-0243",
+    "ES-KURSS-LESSON-14-0001",
+    "ES-KURSS-LESSON-14-0002",
+    "ES-KURSS-LESSON-14-0003",
+    "ES-KURSS-LESSON-14-0004",
+    "ES-KURSS-LESSON-14-0005",
+    "ES-KURSS-LESSON-14-0006"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-13-0210\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"¿Kas ir pirkstam?\",\"proposedEs\":\"¿Qué le pasa al dedo?\",\"reason\":\"El texto está en letón, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0211\",\"status\":\"FINDING\",\"severity\":\"CRITICAL\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Pirkstam ir regaña.\",\"proposedEs\":\"El dedo tiene una uña.\",\"reason\":\"Contiene texto letón («Pirkstam ir») y «regaña» no corresponde al significado del ejemplo alemán.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0212\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"¿Ko tu dari?\",\"proposedEs\":\"¿Qué haces?\",\"reason\":\"El texto está en letón, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0213\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Me corto y limpio las uñas.\",\"proposedEs\":\"Me corto las uñas y las limpio.\",\"reason\":\"«Me corto» sin objeto significa que me corto a mí mismo; además, falta especificar que se cortan las uñas.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0214\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ko Paul dara?\",\"proposedEs\":\"¿Qué hace Paul?\",\"reason\":\"La pregunta está en letón, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0215\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0216\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0217\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0218\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Extienden ambas manos.\",\"proposedEs\":\"Extienden ambos brazos.\",\"reason\":\"El ejemplo alemán se refiere a los brazos, no a las manos.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0219\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Dejan caer ambas manos.\",\"proposedEs\":\"Bajan ambos brazos.\",\"reason\":\"El ejemplo alemán se refiere a bajar los brazos; «dejar caer las manos» cambia el significado.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0220\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0221\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0222\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0223\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0224\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0225\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Roberto, vingro!\",\"proposedEs\":\"¡Roberto, haz gimnasia!\",\"reason\":\"«vingro» es letón y no debe aparecer en el texto español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0226\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0227\",\"status\":\"FINDING\",\"severity\":\"CRITICAL\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"¡Müller jaunkundze, vingrojiet!\",\"proposedEs\":\"¡Señorita Müller, haga gimnasia!\",\"reason\":\"La frase está en letón, salvo el apellido, y no está traducida al español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0228\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_GRAMMAR\",\"currentEs\":\"¡Da dos pasos y luego quédate de pie!\",\"proposedEs\":\"¡Dé dos pasos y luego quédese de pie!\",\"reason\":\"El ejemplo usa tratamiento formal («Sie»), pero el español mezcla el imperativo de tú con el contexto formal.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0229\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0230\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0231\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0232\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0233\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0234\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0235\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0236\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"STYLE_ONLY\",\"currentEs\":\"Toque la tarjeta para ver la traducción al alemán.\",\"proposedEs\":\"Toca la tarjeta para ver la traducción al alemán.\",\"reason\":\"La forma formal es correcta, pero resulta inconsistente con el tratamiento informal usado en la indicación equivalente.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0237\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0238\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"¡Pon la conjugación correcta y hazlo en plural!\",\"proposedEs\":\"¡Escribe la forma correcta y ponla en plural!\",\"reason\":\"«Poner la conjugación» y «hazlo» resultan poco naturales y vagos en una instrucción de ejercicio.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0239\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0240\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0241\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0242\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Formulario 2/3: Tú (plural)\",\"proposedEs\":\"Forma 2/3: ihr (plural)\",\"reason\":\"«Formulario» no es el término adecuado para una forma gramatical y «tú» es singular; la forma alemana indicada corresponde al plural.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0243\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0001\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0002\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"Verbos müssen, wollen, mögen y modales.\",\"proposedEs\":\"Verbos modales müssen, wollen y mögen.\",\"reason\":\"La formulación actual es redundante y poco natural: presenta los verbos como «modales» y vuelve a añadir «modales» al final.\"},{\"cardId\":\"ES-KURSS-LESSON-14-0003\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0004\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0005\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-14-0006\",\"status\":\"PASS\",\"field\":\"currentEs\"}]}",
+  "usage": {
+    "input_tokens": 3549,
+    "input_tokens_details": {
+      "cache_write_tokens": 3546,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3371,
+    "output_tokens_details": {
+      "reasoning_tokens": 1552
+    },
+    "total_tokens": 6920
+  },
+  "generatedAt": "2026-08-27T07:12:13.147Z"
+}

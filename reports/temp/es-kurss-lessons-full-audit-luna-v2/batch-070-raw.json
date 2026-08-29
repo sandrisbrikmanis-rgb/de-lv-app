@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-070",
+  "cardIds": [
+    "ES-KURSS-LESSON-20-0106",
+    "ES-KURSS-LESSON-20-0107",
+    "ES-KURSS-LESSON-20-0108",
+    "ES-KURSS-LESSON-20-0109",
+    "ES-KURSS-LESSON-20-0110",
+    "ES-KURSS-LESSON-20-0111",
+    "ES-KURSS-LESSON-20-0112",
+    "ES-KURSS-LESSON-20-0113",
+    "ES-KURSS-LESSON-20-0114",
+    "ES-KURSS-LESSON-20-0115",
+    "ES-KURSS-LESSON-20-0116",
+    "ES-KURSS-LESSON-20-0117",
+    "ES-KURSS-LESSON-20-0118",
+    "ES-KURSS-LESSON-20-0119",
+    "ES-KURSS-LESSON-20-0120",
+    "ES-KURSS-LESSON-20-0121",
+    "ES-KURSS-LESSON-20-0122",
+    "ES-KURSS-LESSON-20-0123",
+    "ES-KURSS-LESSON-20-0124",
+    "ES-KURSS-LESSON-20-0125",
+    "ES-KURSS-LESSON-20-0126",
+    "ES-KURSS-LESSON-20-0127",
+    "ES-KURSS-LESSON-20-0128",
+    "ES-KURSS-LESSON-20-0129",
+    "ES-KURSS-LESSON-20-0130",
+    "ES-KURSS-LESSON-20-0131",
+    "ES-KURSS-LESSON-20-0132",
+    "ES-KURSS-LESSON-20-0133",
+    "ES-KURSS-LESSON-20-0134",
+    "ES-KURSS-LESSON-20-0135",
+    "ES-KURSS-LESSON-20-0136",
+    "ES-KURSS-LESSON-20-0137",
+    "ES-KURSS-LESSON-20-0138",
+    "ES-KURSS-LESSON-20-0139",
+    "ES-KURSS-LESSON-20-0140",
+    "ES-KURSS-LESSON-20-0141",
+    "ES-KURSS-LESSON-20-0142",
+    "ES-KURSS-LESSON-20-0143",
+    "ES-KURSS-LESSON-20-0144",
+    "ES-KURSS-LESSON-20-0145"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-20-0106\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0107\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0108\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0109\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0110\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0111\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0112\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0113\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0114\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0115\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0116\",\"status\":\"PASS\",\"field\":\"prompt\"},{\"cardId\":\"ES-KURSS-LESSON-20-0117\",\"status\":\"FINDING\",\"severity\":\"CRITICAL\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"¿Kas ir aumenta?\",\"proposedEs\":\"¿Qué es alto?\",\"reason\":\"Contiene texto letón («Kas ir») mezclado con español y no expresa correctamente la pregunta alemana «Was ist hoch?».\"},{\"cardId\":\"ES-KURSS-LESSON-20-0118\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"¿Cuantos pisos tiene la casa?\",\"proposedEs\":\"¿Cuántos pisos tiene la casa?\",\"reason\":\"Falta la tilde en el interrogativo «cuántos».\"},{\"cardId\":\"ES-KURSS-LESSON-20-0119\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0120\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0121\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿De qué está hecha la puerta?\",\"proposedEs\":\"¿De qué están hechas las puertas?\",\"reason\":\"El alemán usa plural («die Türen»), mientras que el español usa singular («la puerta»).\"},{\"cardId\":\"ES-KURSS-LESSON-20-0122\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0123\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Dónde están los diez apartamentos?\",\"proposedEs\":\"¿Dónde hay diez apartamentos?\",\"reason\":\"El artículo definido «los» añade una referencia específica que no aparece en el alemán «zehn Wohnungen».\"},{\"cardId\":\"ES-KURSS-LESSON-20-0124\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"TRANSLATION\",\"currentEs\":\"¿Qué hay en cada apartamento?\",\"proposedEs\":\"¿Qué tiene cada apartamento?\",\"reason\":\"La formulación actual pregunta qué hay dentro de cada apartamento; el alemán «Was hat jede Wohnung?» pregunta qué tiene cada apartamento.\"},{\"cardId\":\"ES-KURSS-LESSON-20-0125\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0126\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0127\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0128\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Adónde va el deshollinador?\",\"proposedEs\":\"¿Adónde sube el deshollinador?\",\"reason\":\"«Steigt» expresa subir o trepar, no simplemente ir; la traducción actual pierde ese matiz.\"},{\"cardId\":\"ES-KURSS-LESSON-20-0129\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0130\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0131\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Cuál es la ciudad?\",\"proposedEs\":\"¿Qué tiene la ciudad?\",\"reason\":\"«¿Cuál es la ciudad?» significa «Which is the city?» y no corresponde a «Was hat die Stadt?» («¿Qué tiene la ciudad?»).\"},{\"cardId\":\"ES-KURSS-LESSON-20-0132\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0133\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0134\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0135\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Quién necesita trabajar?\",\"proposedEs\":\"¿Quién tiene que trabajar?\",\"reason\":\"«Muss arbeiten» expresa obligación («tener que trabajar»), no necesidad personal («necesitar trabajar»).\"},{\"cardId\":\"ES-KURSS-LESSON-20-0136\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0137\",\"status\":\"PASS\",\"field\":\"lv\"},{\"cardId\":\"ES-KURSS-LESSON-20-0138\",\"status\":\"FINDING\",\"severity\":\"CRITICAL\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Kurp tu liec malku?\",\"proposedEs\":\"¿Adónde metes la leña?\",\"reason\":\"El texto está en letón, no en español, y debe traducirse para el usuario hispanohablante.\"},{\"cardId\":\"ES-KURSS-LESSON-20-0139\",\"status\":\"FINDING\",\"severity\":\"CRITICAL\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"¿Ko tu aizdedzini?\",\"proposedEs\":\"¿Qué enciendes?\",\"reason\":\"La palabra «Ko» y el resto de la frase pertenecen al letón; no es texto español.\"},{\"cardId\":\"ES-KURSS-LESSON-20-0140\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Qué arde intensamente?\",\"proposedEs\":\"¿Qué arde con fuerza?\",\"reason\":\"El alemán «brennt hell» se refiere a arder brillantemente o con una llama viva; «intensamente» no reproduce exactamente ese matiz.\"},{\"cardId\":\"ES-KURSS-LESSON-20-0141\",\"status\":\"PASS\",\"field\":\"section title display\"},{\"cardId\":\"ES-KURSS-LESSON-20-0142\",\"status\":\"PASS\",\"field\":\"section title display\"},{\"cardId\":\"ES-KURSS-LESSON-20-0143\",\"status\":\"PASS\",\"field\":\"section title display\"},{\"cardId\":\"ES-KURSS-LESSON-20-0144\",\"status\":\"PASS\",\"field\":\"section title display\"},{\"cardId\":\"ES-KURSS-LESSON-20-0145\",\"status\":\"PASS\",\"field\":\"section title display\"}]}",
+  "usage": {
+    "input_tokens": 3871,
+    "input_tokens_details": {
+      "cache_write_tokens": 3868,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2693,
+    "output_tokens_details": {
+      "reasoning_tokens": 1030
+    },
+    "total_tokens": 6564
+  },
+  "generatedAt": "2026-08-27T07:25:24.962Z"
+}

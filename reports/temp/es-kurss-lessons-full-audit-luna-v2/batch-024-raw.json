@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-024",
+  "cardIds": [
+    "ES-KURSS-LESSON-09-0030",
+    "ES-KURSS-LESSON-09-0031",
+    "ES-KURSS-LESSON-09-0032",
+    "ES-KURSS-LESSON-09-0033",
+    "ES-KURSS-LESSON-09-0034",
+    "ES-KURSS-LESSON-09-0035",
+    "ES-KURSS-LESSON-09-0036",
+    "ES-KURSS-LESSON-09-0037",
+    "ES-KURSS-LESSON-09-0038",
+    "ES-KURSS-LESSON-09-0039",
+    "ES-KURSS-LESSON-09-0040",
+    "ES-KURSS-LESSON-09-0041",
+    "ES-KURSS-LESSON-09-0042",
+    "ES-KURSS-LESSON-09-0043",
+    "ES-KURSS-LESSON-09-0044",
+    "ES-KURSS-LESSON-09-0045",
+    "ES-KURSS-LESSON-09-0046",
+    "ES-KURSS-LESSON-09-0047",
+    "ES-KURSS-LESSON-09-0048",
+    "ES-KURSS-LESSON-09-0049",
+    "ES-KURSS-LESSON-09-0050",
+    "ES-KURSS-LESSON-09-0051",
+    "ES-KURSS-LESSON-09-0052",
+    "ES-KURSS-LESSON-09-0053",
+    "ES-KURSS-LESSON-09-0054",
+    "ES-KURSS-LESSON-09-0055",
+    "ES-KURSS-LESSON-09-0056",
+    "ES-KURSS-LESSON-09-0057",
+    "ES-KURSS-LESSON-09-0058",
+    "ES-KURSS-LESSON-09-0059",
+    "ES-KURSS-LESSON-09-0060",
+    "ES-KURSS-LESSON-09-0061",
+    "ES-KURSS-LESSON-09-0062",
+    "ES-KURSS-LESSON-09-0063",
+    "ES-KURSS-LESSON-09-0064",
+    "ES-KURSS-LESSON-09-0065",
+    "ES-KURSS-LESSON-09-0066",
+    "ES-KURSS-LESSON-09-0067",
+    "ES-KURSS-LESSON-09-0068",
+    "ES-KURSS-LESSON-09-0069"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-09-0030\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0031\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0032\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0033\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0034\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"sitzen (zicen) — sentarse\",\"proposedEs\":\"sitzen (zicen) — estar sentado\",\"reason\":\"El verbo alemán sitzen significa «estar sentado»; «sentarse» corresponde normalmente a sich setzen.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0035\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0036\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"dieser (dīzer) — Éste\",\"proposedEs\":\"dieser (dīzer) — este\",\"reason\":\"El demostrativo debe escribirse en minúscula en este contexto y actualmente no lleva tilde según la ortografía académica.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0037\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0038\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0039\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"die Briefe — letras\",\"proposedEs\":\"die Briefe — cartas\",\"reason\":\"Briefe es el plural de Brief, «carta»; «letras» se traduciría como Buchstaben.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0040\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0041\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0042\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0043\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0044\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Indique los pronombres dieser y jener como article definido.\",\"proposedEs\":\"Indique los pronombres dieser y jener como artículos definidos.\",\"reason\":\"«article» es un resto de inglés; el término correcto en español es «artículo». La forma plural concuerda mejor con los dos pronombres mencionados.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0045\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0046\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0047\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0048\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0049\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0050\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0051\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0052\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0053\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0054\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0055\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0056\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0057\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0058\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0059\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0060\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0061\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0062\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0063\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Artikulu nelieto\",\"proposedEs\":\"No se utiliza el artículo\",\"reason\":\"El encabezado está en letón, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-09-0064\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Si el sustantivo va precedido de un pronombre o una palabra numérica, no se utiliza el article.\",\"proposedEs\":\"Si el sustantivo va precedido de un pronombre o una palabra numérica, no se utiliza el artículo.\",\"reason\":\"«article» es un resto de inglés; debe utilizarse el término español «artículo».\"},{\"cardId\":\"ES-KURSS-LESSON-09-0065\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0066\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0067\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0068\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-09-0069\",\"status\":\"PASS\",\"field\":\"currentEs\"}]}",
+  "usage": {
+    "input_tokens": 3858,
+    "input_tokens_details": {
+      "cache_write_tokens": 3855,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2283,
+    "output_tokens_details": {
+      "reasoning_tokens": 880
+    },
+    "total_tokens": 6141
+  },
+  "generatedAt": "2026-08-27T07:01:25.908Z"
+}

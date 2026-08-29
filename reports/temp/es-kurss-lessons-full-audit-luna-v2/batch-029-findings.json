@@ -1,0 +1,32 @@
+{
+  "batch": "batch-029",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-10-0089",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Verbo auxiliar sein - estar desordenado. Por tanto, hay que aprenderlo bien.",
+      "proposedEs": "El verbo auxiliar sein («ser/estar») es irregular. Por tanto, hay que aprenderlo bien.",
+      "reason": "«Desordenado» no significa «irregular» en este contexto y además falta indicar el significado básico de sein como «ser/estar».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0108",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Asimismo, el verbo auxiliar können (poder) tiene una declinación irregular.",
+      "proposedEs": "Asimismo, el verbo modal können («poder») tiene una conjugación irregular.",
+      "reason": "Los verbos se «conjugan», no se «declinan». Además, können se clasifica normalmente como verbo modal, no como verbo auxiliar.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:03:39.423Z"
+}

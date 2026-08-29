@@ -1,0 +1,58 @@
+{
+  "batch": "batch-041",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-13-0101",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Verbos compuestos",
+      "proposedEs": "Verbos separables",
+      "reason": "La sección trata de verbos con prefijo separable, como «ausstrecken» y «umkehren», no de verbos compuestos en general. «Verbos separables» es el término gramatical preciso en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0102",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Si la parte preposicional está acentuada, se separa en tiempo presente y va al final de la oración.",
+      "proposedEs": "Si el prefijo está acentuado, se separa en presente y se coloca al final de la oración.",
+      "reason": "«Parte preposicional» no es el término adecuado para esta explicación: se trata del prefijo de un verbo separable. «En tiempo presente» resulta menos natural que «en presente».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0106",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "ES_GRAMMAR",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Si el prefijo no está acentuado, no está acentuado.",
+      "proposedEs": "Si el prefijo no está acentuado, no se separa.",
+      "reason": "La segunda parte repite «no está acentuado» y no expresa la regla gramatical. La explicación debe indicar que el prefijo permanece unido al verbo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0110",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "El pronombre jeder va en círculos como los artículos der / die / das.",
+      "proposedEs": "El pronombre «jeder» se declina como los artículos «der», «die» y «das».",
+      "reason": "«Va en círculos» es una traducción no idiomática y no transmite el concepto de declinación. Además, conviene conservar los términos alemanes entre comillas para identificar las formas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:10:42.702Z"
+}

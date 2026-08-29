@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-061",
+  "cardIds": [
+    "ES-KURSS-LESSON-18-0040",
+    "ES-KURSS-LESSON-18-0041",
+    "ES-KURSS-LESSON-18-0042",
+    "ES-KURSS-LESSON-18-0043",
+    "ES-KURSS-LESSON-18-0044",
+    "ES-KURSS-LESSON-18-0045",
+    "ES-KURSS-LESSON-18-0046",
+    "ES-KURSS-LESSON-18-0047",
+    "ES-KURSS-LESSON-18-0048",
+    "ES-KURSS-LESSON-18-0049",
+    "ES-KURSS-LESSON-18-0050",
+    "ES-KURSS-LESSON-18-0051",
+    "ES-KURSS-LESSON-18-0052",
+    "ES-KURSS-LESSON-18-0053",
+    "ES-KURSS-LESSON-18-0054",
+    "ES-KURSS-LESSON-18-0055",
+    "ES-KURSS-LESSON-18-0056",
+    "ES-KURSS-LESSON-18-0057",
+    "ES-KURSS-LESSON-18-0058",
+    "ES-KURSS-LESSON-18-0059",
+    "ES-KURSS-LESSON-18-0060",
+    "ES-KURSS-LESSON-18-0061",
+    "ES-KURSS-LESSON-18-0062",
+    "ES-KURSS-LESSON-18-0063",
+    "ES-KURSS-LESSON-18-0064",
+    "ES-KURSS-LESSON-18-0065",
+    "ES-KURSS-LESSON-18-0066",
+    "ES-KURSS-LESSON-18-0067",
+    "ES-KURSS-LESSON-18-0068",
+    "ES-KURSS-LESSON-18-0069",
+    "ES-KURSS-LESSON-18-0070",
+    "ES-KURSS-LESSON-18-0071",
+    "ES-KURSS-LESSON-18-0072",
+    "ES-KURSS-LESSON-18-0073",
+    "ES-KURSS-LESSON-18-0074",
+    "ES-KURSS-LESSON-18-0075",
+    "ES-KURSS-LESSON-18-0076",
+    "ES-KURSS-LESSON-18-0077",
+    "ES-KURSS-LESSON-18-0078",
+    "ES-KURSS-LESSON-18-0079"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0040\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0041\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0042\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0043\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0044\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0045\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0046\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0047\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"die Diele — piso\",\n      \"proposedEs\": \"die Diele — recibidor\",\n      \"reason\": \"Diele significa «recibidor» o «vestíbulo», no «piso» en este contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0048\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0049\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0050\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Las preposiciones an, in, auf pueden acompañar tanto a Akkusativ como a Dativo.\",\n      \"proposedEs\": \"Las preposiciones an, in y auf pueden acompañar tanto al acusativo como al dativo.\",\n      \"reason\": \"En el texto explicativo en español deben emplearse los nombres españoles de los casos: «acusativo» y «dativo».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0051\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0052\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Si la acción indica un cambio de dirección o de lugar, se utiliza Akkusativ. Pregunta: ¿quién? - ¿dónde?\",\n      \"proposedEs\": \"Si la acción indica un cambio de dirección o de lugar, se utiliza el acusativo. Pregunta: ¿adónde?\",\n      \"reason\": \"¿Quién? significa «who» y ¿dónde? significa «where»; la pregunta correspondiente a wohin? es «¿adónde?».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0053\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Ich gehe an den Tisch. — Es eju pie galda.\",\n      \"proposedEs\": \"Ich gehe an den Tisch. — Voy a la mesa.\",\n      \"reason\": \"La traducción después del guion está en letón, no en español. El ejemplo alemán debe conservarse tal como está.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0054\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Ich stelle den Korb auf die Bank. — Es nolieku grozu uz sola.\",\n      \"proposedEs\": \"Ich stelle den Korb auf die Bank. — Coloco la cesta sobre el banco.\",\n      \"reason\": \"La traducción después del guion está en letón, no en español. El ejemplo alemán debe conservarse tal como está.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0055\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0056\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0057\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0058\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0059\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0060\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0061\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0062\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0063\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0064\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"ES_ORTHOGRAPHY\",\n      \"currentEs\": \"Estos verbos suelen indicar dirección y por tanto responden a la pregunta ¿wohin?.\",\n      \"proposedEs\": \"Estos verbos suelen indicar dirección y, por tanto, responden a la pregunta ¿wohin?\",\n      \"reason\": \"No debe añadirse un punto después del signo de cierre de interrogación; también se recomienda delimitar «por tanto» con comas.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0065\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"gehen — iet\",\n      \"proposedEs\": \"gehen — ir\",\n      \"reason\": \"Iet es letón y constituye un resto de otra lengua en el campo español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0066\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0067\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"fahren — braukt\",\n      \"proposedEs\": \"fahren — desplazarse en vehículo\",\n      \"reason\": \"Braukt es letón y constituye un resto de otra lengua en el campo español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0068\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"laufen — skriet\",\n      \"proposedEs\": \"laufen — correr\",\n      \"reason\": \"Skriet es letón y constituye un resto de otra lengua en el campo español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0069\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"fliegen — lidot\",\n      \"proposedEs\": \"fliegen — volar\",\n      \"reason\": \"Lidot es letón y constituye un resto de otra lengua en el campo español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0070\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0071\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0072\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0073\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0074\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0075\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"sich stellen — ponerse de pie / colocarse\",\n      \"proposedEs\": \"sich stellen — colocarse\",\n      \"reason\": \"La barra combina dos significados distintos en un único campo de traducción; debe seleccionarse el sentido pertinente para este apartado.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0076\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0077\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0078\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-18-0079\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"ES_ORTHOGRAPHY\",\n      \"currentEs\": \"Estos verbos suelen indicar ubicación o estado y por tanto responden a la pregunta ¿wo?.\",\n      \"proposedEs\": \"Estos verbos suelen indicar ubicación o estado y, por tanto, responden a la pregunta ¿wo?\",\n      \"reason\": \"No debe añadirse un punto después del signo de cierre de interrogación; también se recomienda delimitar «por tanto» con comas.\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3932,
+    "input_tokens_details": {
+      "cache_write_tokens": 3929,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3761,
+    "output_tokens_details": {
+      "reasoning_tokens": 1271
+    },
+    "total_tokens": 7693
+  },
+  "generatedAt": "2026-08-27T07:21:10.977Z"
+}

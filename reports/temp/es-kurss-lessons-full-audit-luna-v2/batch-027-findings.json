@@ -1,0 +1,32 @@
+{
+  "batch": "batch-027",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-09-0150",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: vosotros (plural)",
+      "reason": "«Tú» es un pronombre singular, por lo que «Tú (plural)» es contradictorio. La forma alemana «Ihr» corresponde a la segunda persona del plural informal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-10-0003",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Décima conferencia: sein, können, formas de mando, salud, edad y profesiones.",
+      "proposedEs": "Lección décima: sein, können, formas del imperativo, salud, edad y profesiones.",
+      "reason": "«Conferencia» no corresponde al contexto de una lección y «formas de mando» es una traducción poco natural e imprecisa de las formas del imperativo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:02:52.709Z"
+}

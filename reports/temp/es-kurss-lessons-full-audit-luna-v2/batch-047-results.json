@@ -1,0 +1,295 @@
+{
+  "batch": "batch-047",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-14-0087",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0088",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0089",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0090",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0091",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0092",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0093",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0094",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0095",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0096",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0097",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Müssen significa necesitar/ser necesitado.",
+      "proposedEs": "Müssen significa «tener que» o «deber».",
+      "reason": "El verbo alemán müssen expresa obligación o necesidad, no «ser necesitado». «Necesitar» tampoco es la equivalencia principal que se presenta en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0098",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0099",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0100",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Wollen significa querer hacer algo deliberadamente.",
+      "proposedEs": "Wollen expresa la voluntad o la intención de hacer algo.",
+      "reason": "«Hacer algo deliberadamente» introduce un matiz de acción intencionada que no corresponde necesariamente a wollen y hace que la explicación suene poco natural.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0101",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0102",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0103",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "PEDAGOGICAL_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Mögen expresa un deseo o agrado.",
+      "proposedEs": "Mögen expresa agrado o preferencia.",
+      "reason": "Mögen se usa principalmente para expresar que algo gusta o resulta agradable. Presentarlo como expresión de «deseo» puede confundirlo con wollen o con möchte.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0104",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ich mag die Suppe nicht essen. — No quiero comer la sopa.",
+      "proposedEs": "Ich mag die Suppe nicht essen. — No me gusta comer la sopa.",
+      "reason": "La traducción «no quiero» presenta mögen como equivalente directo de wollen. En este ejemplo, mögen expresa que no gusta comer la sopa, aunque la frase alemana puede implicar reticencia.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0105",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0106",
+      "status": "PASS",
+      "field": "grammarHeading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0107",
+      "status": "PASS",
+      "field": "grammarText"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0108",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0109",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0110",
+      "status": "PASS",
+      "field": "grammarExample"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0111",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0112",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0113",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0114",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0115",
+      "status": "PASS",
+      "field": "sectionItem"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0116",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "PEDAGOGICAL_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Del mismo modo, en español la g ante s en «signos» suena más cercana a una k.",
+      "proposedEs": "Del mismo modo, en español, la g de «signos» puede sonar más cercana a una k.",
+      "reason": "En «signos», la g no está ante s, sino ante n. La formulación actual describe incorrectamente la posición de la letra y puede inducir a una regla fonética equivocada.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0117",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Quién quiere estudiar mucho?",
+      "proposedEs": "¿Quién quiere estudiar con mucho empeño?",
+      "reason": "Fleißig significa «con diligencia», «con empeño» o «aplicadamente», no simplemente «mucho», que expresa cantidad.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0118",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Todos los estudiantes quieren estudiar mucho.",
+      "proposedEs": "Todos los estudiantes quieren estudiar con mucho empeño.",
+      "reason": "La traducción de fleißig como «mucho» pierde el sentido de estudiar diligentemente o con empeño.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0119",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Quién debería venir hoy?",
+      "proposedEs": "¿Quién tiene que venir hoy?",
+      "reason": "Muss expresa obligación («tener que»), mientras que «debería» suele expresar recomendación, posibilidad o una obligación atenuada.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0120",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0121",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Tienes que escribir una carta.",
+      "proposedEs": "Tienes que escribir la carta.",
+      "reason": "El alemán usa el artículo definido den. «Una carta» cambia la referencia de una carta concreta a cualquier carta.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0122",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Quién necesita estudiar mucho?",
+      "proposedEs": "¿Quién tiene que estudiar con mucho empeño?",
+      "reason": "Muss expresa obligación («tener que»), no únicamente necesidad. Además, fleißig indica diligencia o empeño, no cantidad de estudio.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0123",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los estudiantes deben estudiar mucho.",
+      "proposedEs": "Los estudiantes tienen que estudiar con mucho empeño.",
+      "reason": "«Deben» puede ser una traducción válida de müssen, pero «mucho» no reproduce fleißig, que significa «con diligencia» o «con empeño».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0124",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0125",
+      "status": "PASS",
+      "field": "translateCard"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-14-0126",
+      "status": "PASS",
+      "field": "translateCard"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:14:03.524Z"
+}

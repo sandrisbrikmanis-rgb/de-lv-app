@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-058",
+  "cardIds": [
+    "ES-KURSS-LESSON-17-0065",
+    "ES-KURSS-LESSON-17-0066",
+    "ES-KURSS-LESSON-17-0067",
+    "ES-KURSS-LESSON-17-0068",
+    "ES-KURSS-LESSON-17-0069",
+    "ES-KURSS-LESSON-17-0070",
+    "ES-KURSS-LESSON-17-0071",
+    "ES-KURSS-LESSON-17-0072",
+    "ES-KURSS-LESSON-17-0073",
+    "ES-KURSS-LESSON-17-0074",
+    "ES-KURSS-LESSON-17-0075",
+    "ES-KURSS-LESSON-17-0076",
+    "ES-KURSS-LESSON-17-0077",
+    "ES-KURSS-LESSON-17-0078",
+    "ES-KURSS-LESSON-17-0079",
+    "ES-KURSS-LESSON-17-0080",
+    "ES-KURSS-LESSON-17-0081",
+    "ES-KURSS-LESSON-17-0082",
+    "ES-KURSS-LESSON-17-0083",
+    "ES-KURSS-LESSON-17-0084",
+    "ES-KURSS-LESSON-17-0085",
+    "ES-KURSS-LESSON-17-0086",
+    "ES-KURSS-LESSON-17-0087",
+    "ES-KURSS-LESSON-17-0088",
+    "ES-KURSS-LESSON-17-0089",
+    "ES-KURSS-LESSON-17-0090",
+    "ES-KURSS-LESSON-17-0091",
+    "ES-KURSS-LESSON-17-0092",
+    "ES-KURSS-LESSON-17-0093",
+    "ES-KURSS-LESSON-17-0094",
+    "ES-KURSS-LESSON-17-0095",
+    "ES-KURSS-LESSON-17-0096",
+    "ES-KURSS-LESSON-17-0097",
+    "ES-KURSS-LESSON-17-0098",
+    "ES-KURSS-LESSON-17-0099",
+    "ES-KURSS-LESSON-17-0100",
+    "ES-KURSS-LESSON-17-0101",
+    "ES-KURSS-LESSON-17-0102",
+    "ES-KURSS-LESSON-17-0103",
+    "ES-KURSS-LESSON-17-0104"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0065\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0066\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0067\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0068\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0069\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0070\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0071\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Los verbos graben, fangen, auffangen tienen diéresis en la 2ª y 3ª persona del singular.\",\n      \"proposedEs\": \"En graben, fangen y auffangen, la vocal de la raíz cambia a ä en la 2.ª y 3.ª persona del singular.\",\n      \"reason\": \"«Diéresis» no describe correctamente el cambio vocálico alemán en ä; además, no son los verbos en sí los que llevan el cambio, sino determinadas formas conjugadas.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0072\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0073\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0074\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0075\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0076\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0077\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0078\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0079\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarText\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0080\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0081\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0082\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0083\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0084\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0085\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0086\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0087\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"Los verbos compuestos auffangen y abwischen llevan tilde en el prefijo. Por tanto, el prefijo presente se separa y se coloca al final de la frase.\",\n      \"proposedEs\": \"Los verbos compuestos auffangen y abwischen tienen un prefijo separable. Por tanto, el prefijo verbal se separa y se coloca al final de la oración.\",\n      \"reason\": \"Los prefijos auf y ab no llevan tilde; «tilde» es un término ortográfico español y describe incorrectamente el fenómeno alemán. «Prefijo presente» tampoco es una formulación adecuada en este contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0088\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0089\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0090\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeading\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0091\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Fegen y wischen significan barrer, pero el uso es diferente.\",\n      \"proposedEs\": \"Fegen significa «barrer», mientras que wischen significa «limpiar o pasar un paño»; su uso es diferente.\",\n      \"reason\": \"wischen no significa «barrer»; se refiere a limpiar pasando un paño, una mopa u otra superficie de limpieza.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0092\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0093\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0094\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"wischen / abwischen — limpiar con un paño / quitar el polvo\",\n      \"proposedEs\": \"wischen — limpiar o pasar un paño; abwischen — quitar o limpiar algo pasando un paño.\",\n      \"reason\": \"El campo combina dos verbos y sus significados mediante barras, lo que dificulta identificar qué traducción corresponde a cada verbo. Deben presentarse como entradas diferenciadas.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0095\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0096\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarExample\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0097\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionItem\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0098\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"En wieder, la e final es abierta.\",\n      \"proposedEs\": \"En wieder, la e final se pronuncia como una vocal neutra o reducida [ə].\",\n      \"reason\": \"La e final de wieder no es una e abierta [ɛ], sino una vocal átona reducida, normalmente transcrita [ə].\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0099\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionItem\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0100\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionItem\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0101\",\n      \"status\": \"PASS\",\n      \"field\": \"exerciseFillPrompt\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0102\",\n      \"status\": \"PASS\",\n      \"field\": \"exerciseFillPrompt\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0103\",\n      \"status\": \"PASS\",\n      \"field\": \"exerciseFillPrompt\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-17-0104\",\n      \"status\": \"PASS\",\n      \"field\": \"exerciseFillPrompt\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 4033,
+    "input_tokens_details": {
+      "cache_write_tokens": 4030,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3295,
+    "output_tokens_details": {
+      "reasoning_tokens": 1177
+    },
+    "total_tokens": 7328
+  },
+  "generatedAt": "2026-08-27T07:19:30.622Z"
+}

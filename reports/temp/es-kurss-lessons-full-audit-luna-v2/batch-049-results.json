@@ -1,0 +1,303 @@
+{
+  "batch": "batch-049",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-15-0024",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0025",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0026",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0027",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0028",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0029",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0030",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sollen — debería",
+      "proposedEs": "sollen — deber",
+      "reason": "La forma de diccionario sollen se traduce aquí como «deber» o «tener que»; «debería» es una forma condicional y no corresponde a la entrada del verbo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0031",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "ich soll — necesito / tengo que hacer",
+      "proposedEs": "ich soll — debo",
+      "reason": "La barra combina traducciones distintas y «necesito» no expresa correctamente sollen en este contexto. Además, «hacer» añade un complemento que no aparece en la expresión alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0032",
+      "field": "",
+      "severity": "HIGH",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "du sollst — necesitas / debes hacer",
+      "proposedEs": "du sollst — debes",
+      "reason": "La barra combina traducciones distintas y «necesitas» no es la traducción adecuada de sollen. «Hacer» también añade un significado no presente en la expresión alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0033",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "er soll — él necesita / tiene que",
+      "proposedEs": "er soll — él debe",
+      "reason": "«Necesita» traduce brauchen, no sollen. La barra también mezcla dos alternativas en el campo de aprendizaje.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0034",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "wir sollen — necesitamos / tenemos que hacer",
+      "proposedEs": "wir sollen — debemos",
+      "reason": "La barra combina traducciones distintas; «necesitamos» no corresponde a sollen y «hacer» añade un complemento que no figura en el alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0035",
+      "field": "",
+      "severity": "HIGH",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "ihr sollt — necesitas / deberías",
+      "proposedEs": "ihr sollt — debéis",
+      "reason": "La barra combina traducciones distintas. Además, ihr es la segunda persona plural informal, por lo que «necesitas» y «deberías» están en singular y no corresponden a la forma alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0036",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sie sollen — ellos / ellos necesitan",
+      "proposedEs": "sie sollen — ellos deben",
+      "reason": "La traducción está duplicada y la segunda alternativa («necesitan») no corresponde a sollen. Debe expresarse también el significado modal de obligación.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0037",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0038",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0039",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "du darfst — usted puede",
+      "proposedEs": "du darfst — tú puedes",
+      "reason": "du corresponde a «tú», no a «usted». La traducción actual cambia la persona y el registro del pronombre.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0040",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0041",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0042",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "ihr dürft — usted puede",
+      "proposedEs": "ihr dürft — vosotros podéis",
+      "reason": "ihr es la segunda persona plural informal y no corresponde a «usted», que es singular y formal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0043",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sie dürfen — ellos / ellos pueden",
+      "proposedEs": "sie dürfen — ellos pueden",
+      "reason": "La primera alternativa («ellos») está incompleta y la barra combina una etiqueta pronominal con una traducción verbal. Debe darse una traducción completa y no duplicada.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0044",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0045",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0046",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0047",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0048",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0049",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "entzweischneiden — cortado por la mitad",
+      "proposedEs": "entzweischneiden — cortar por la mitad",
+      "reason": "La entrada alemana es un infinitivo; la traducción española debe mantener el infinitivo. «Cortado» es un participio.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0050",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0051",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0052",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0053",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0054",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0055",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0056",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0057",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0058",
+      "field": "",
+      "severity": "HIGH",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "unreif — no entres / no madures",
+      "proposedEs": "unreif — inmaduro",
+      "reason": "La traducción actual es incorrecta: unreif significa «inmaduro» o «no maduro», no una prohibición («no entres») ni una forma verbal («no madures»). Además, la barra combina significados distintos.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0059",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0060",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0061",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0062",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0063",
+      "status": "PASS",
+      "field": "currentEs"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:14:58.606Z"
+}

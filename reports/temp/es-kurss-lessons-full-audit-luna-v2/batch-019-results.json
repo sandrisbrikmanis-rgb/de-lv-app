@@ -1,0 +1,215 @@
+{
+  "batch": "batch-019",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-07-0116",
+      "status": "PASS",
+      "field": "sie"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0117",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0118",
+      "status": "PASS",
+      "field": "du"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0119",
+      "status": "PASS",
+      "field": "ihr"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0120",
+      "status": "PASS",
+      "field": "sie"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0121",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0122",
+      "status": "PASS",
+      "field": "du"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0123",
+      "status": "PASS",
+      "field": "ihr"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0124",
+      "status": "PASS",
+      "field": "sie"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0125",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0126",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0127",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0128",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0129",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0130",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0131",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0132",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0001",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0002",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Verbos reflexivos, e → i/ie cambio y acusativo.",
+      "proposedEs": "Verbos reflexivos, cambio vocálico e → i/ie y acusativo.",
+      "reason": "La secuencia «e → i/ie cambio» no es una construcción natural en español; «cambio vocálico» expresa con claridad el fenómeno gramatical.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0003",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0004",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0005",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0006",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0007",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0008",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0009",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0010",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0011",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0012",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0013",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0014",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0015",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0016",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0017",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0018",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0019",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0020",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0021",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0022",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0023",
+      "status": "PASS",
+      "field": "currentEs"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:59:07.029Z"
+}

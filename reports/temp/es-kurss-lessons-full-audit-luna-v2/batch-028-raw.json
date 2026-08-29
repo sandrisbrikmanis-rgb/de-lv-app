@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-028",
+  "cardIds": [
+    "ES-KURSS-LESSON-10-0039",
+    "ES-KURSS-LESSON-10-0040",
+    "ES-KURSS-LESSON-10-0041",
+    "ES-KURSS-LESSON-10-0042",
+    "ES-KURSS-LESSON-10-0043",
+    "ES-KURSS-LESSON-10-0044",
+    "ES-KURSS-LESSON-10-0045",
+    "ES-KURSS-LESSON-10-0046",
+    "ES-KURSS-LESSON-10-0047",
+    "ES-KURSS-LESSON-10-0048",
+    "ES-KURSS-LESSON-10-0049",
+    "ES-KURSS-LESSON-10-0050",
+    "ES-KURSS-LESSON-10-0051",
+    "ES-KURSS-LESSON-10-0052",
+    "ES-KURSS-LESSON-10-0053",
+    "ES-KURSS-LESSON-10-0054",
+    "ES-KURSS-LESSON-10-0055",
+    "ES-KURSS-LESSON-10-0056",
+    "ES-KURSS-LESSON-10-0057",
+    "ES-KURSS-LESSON-10-0058",
+    "ES-KURSS-LESSON-10-0059",
+    "ES-KURSS-LESSON-10-0060",
+    "ES-KURSS-LESSON-10-0061",
+    "ES-KURSS-LESSON-10-0062",
+    "ES-KURSS-LESSON-10-0063",
+    "ES-KURSS-LESSON-10-0064",
+    "ES-KURSS-LESSON-10-0065",
+    "ES-KURSS-LESSON-10-0066",
+    "ES-KURSS-LESSON-10-0067",
+    "ES-KURSS-LESSON-10-0068",
+    "ES-KURSS-LESSON-10-0069",
+    "ES-KURSS-LESSON-10-0070",
+    "ES-KURSS-LESSON-10-0071",
+    "ES-KURSS-LESSON-10-0072",
+    "ES-KURSS-LESSON-10-0073",
+    "ES-KURSS-LESSON-10-0074",
+    "ES-KURSS-LESSON-10-0075",
+    "ES-KURSS-LESSON-10-0076",
+    "ES-KURSS-LESSON-10-0077",
+    "ES-KURSS-LESSON-10-0078"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0039\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0040\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0041\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0042\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0043\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0044\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0045\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0046\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0047\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0048\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0049\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0050\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0051\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0052\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0053\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0054\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0055\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"du bist — tú eres / estás\",\n      \"proposedEs\": \"du bist — tú eres o tú estás, según el contexto\",\n      \"reason\": \"La barra combina dos significados distintos en una misma traducción; conviene aclarar que la traducción depende del contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0056\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0057\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"ihr seid (īr zeit) — vosotros sois / estáis\",\n      \"proposedEs\": \"ihr seid (īr zeit) — vosotros sois o vosotros estáis, según el contexto\",\n      \"reason\": \"La barra combina dos significados distintos en una misma traducción; conviene aclarar que la traducción depende del contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0058\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0059\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0060\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0061\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0062\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0063\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0064\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"sei gesund — esi vesels!\",\n      \"proposedEs\": \"sei gesund — ¡mantente sano!\",\n      \"reason\": \"La traducción contiene texto letón («esi vesels!») en lugar de español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0065\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"seid gesund — esiet veseli!\",\n      \"proposedEs\": \"seid gesund — ¡manteneos sanos!\",\n      \"reason\": \"La traducción contiene texto letón («esiet veseli!») en lugar de español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0066\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0067\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0068\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0069\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"die Frau — mujer / esposa\",\n      \"proposedEs\": \"die Frau — mujer o esposa, según el contexto\",\n      \"reason\": \"La barra combina dos significados distintos sin indicar que la elección depende del contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0070\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0071\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0072\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0073\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0074\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0075\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0076\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0077\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-10-0078\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3835,
+    "input_tokens_details": {
+      "cache_write_tokens": 3832,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3060,
+    "output_tokens_details": {
+      "reasoning_tokens": 1164
+    },
+    "total_tokens": 6895
+  },
+  "generatedAt": "2026-08-27T07:03:23.582Z"
+}

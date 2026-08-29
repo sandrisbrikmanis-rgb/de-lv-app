@@ -1,0 +1,97 @@
+{
+  "batch": "batch-051",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-15-0104",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "En el verbo compuesto entzweischneiden, el énfasis está en el prefijo entzweí-, por lo que en tiempo presente el prefijo se separa y se coloca al final de la oración.",
+      "proposedEs": "En el verbo entzweischneiden, el énfasis recae en el prefijo separable entzwei-, por lo que, en presente, este se separa y se coloca al final de la oración.",
+      "reason": "«Entzweí-» altera incorrectamente la ortografía del elemento alemán «entzwei-». Además, «prefijo separable» es más preciso que «verbo compuesto» en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0116",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "No, no hace falta que te comas las ciruelas, no han llegado.",
+      "proposedEs": "No, no debes comerte las ciruelas; están verdes.",
+      "reason": "«Sollst du nicht essen» expresa prohibición u obligación negativa («no debes comer»), no falta de necesidad. «Sie sind unreif» significa que están verdes o inmaduras, no que «no han llegado».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0117",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Comiste una manzana o una pera?",
+      "proposedEs": "¿Comes una manzana o una pera?",
+      "reason": "«Isst du» está en presente, mientras que «comiste» está en pretérito.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0121",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Quién necesita estudiar?",
+      "proposedEs": "¿Quién tiene que estudiar?",
+      "reason": "«Muss» expresa obligación («tener que»), mientras que «necesita» expresa necesidad y no reproduce con precisión el valor modal del alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0134",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Escribe la forma verbal correcta y úsala en plural!",
+      "reason": "«Pon la conjugación» y «hazlo» resultan poco naturales y ambiguos en una instrucción de ejercicio. La propuesta indica con claridad qué debe hacer el alumno.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-15-0138",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (plural)",
+      "reason": "«Formulario» no es el término adecuado para esta etiqueta, y «tú (plural)» es contradictorio: «tú» es singular. Debe identificarse la forma alemana «ihr» como plural.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0003",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Decimosexta conferencia: dativo, geben, sich nähern y ejercicios dativos.",
+      "proposedEs": "Decimosexta lección: el dativo, geben, sich nähern y ejercicios sobre el dativo.",
+      "reason": "«Conferencia» no corresponde a una unidad de curso y debe ser «lección». «Ejercicios dativos» es poco natural; «ejercicios sobre el dativo» expresa claramente el contenido.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:16:16.273Z"
+}

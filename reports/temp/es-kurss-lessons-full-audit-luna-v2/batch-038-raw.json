@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-038",
+  "cardIds": [
+    "ES-KURSS-LESSON-12-0121",
+    "ES-KURSS-LESSON-12-0122",
+    "ES-KURSS-LESSON-12-0123",
+    "ES-KURSS-LESSON-12-0124",
+    "ES-KURSS-LESSON-12-0125",
+    "ES-KURSS-LESSON-12-0126",
+    "ES-KURSS-LESSON-12-0127",
+    "ES-KURSS-LESSON-12-0128",
+    "ES-KURSS-LESSON-12-0129",
+    "ES-KURSS-LESSON-12-0130",
+    "ES-KURSS-LESSON-12-0131",
+    "ES-KURSS-LESSON-12-0132",
+    "ES-KURSS-LESSON-12-0133",
+    "ES-KURSS-LESSON-12-0134",
+    "ES-KURSS-LESSON-12-0135",
+    "ES-KURSS-LESSON-12-0136",
+    "ES-KURSS-LESSON-12-0137",
+    "ES-KURSS-LESSON-12-0138",
+    "ES-KURSS-LESSON-12-0139",
+    "ES-KURSS-LESSON-12-0140",
+    "ES-KURSS-LESSON-12-0141",
+    "ES-KURSS-LESSON-12-0142",
+    "ES-KURSS-LESSON-12-0143",
+    "ES-KURSS-LESSON-12-0144",
+    "ES-KURSS-LESSON-12-0145",
+    "ES-KURSS-LESSON-12-0146",
+    "ES-KURSS-LESSON-12-0147",
+    "ES-KURSS-LESSON-12-0148",
+    "ES-KURSS-LESSON-12-0149",
+    "ES-KURSS-LESSON-12-0150",
+    "ES-KURSS-LESSON-12-0151",
+    "ES-KURSS-LESSON-13-0001",
+    "ES-KURSS-LESSON-13-0002",
+    "ES-KURSS-LESSON-13-0003",
+    "ES-KURSS-LESSON-13-0004",
+    "ES-KURSS-LESSON-13-0005",
+    "ES-KURSS-LESSON-13-0006",
+    "ES-KURSS-LESSON-13-0007",
+    "ES-KURSS-LESSON-13-0008",
+    "ES-KURSS-LESSON-13-0009"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-12-0121\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0122\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0123\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0124\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0125\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0126\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0127\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"¿Cuantos hermanos tienes?\",\"proposedEs\":\"¿Cuántos hermanos tiene?\",\"reason\":\"Falta la tilde en «Cuántos». Además, el alemán usa el tratamiento formal «Sie», por lo que «tiene» refleja mejor el contexto.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0128\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0129\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Qué es la tinta?\",\"proposedEs\":\"¿Cómo es la tinta?\",\"reason\":\"«Wie ist die Tinte?» pregunta por cómo es la tinta, no por qué es o qué es.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0130\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"Es negro.\",\"proposedEs\":\"Es negra.\",\"reason\":\"«Sie» se refiere a «die Tinte», que es un sustantivo femenino en español: «la tinta».\"},{\"cardId\":\"ES-KURSS-LESSON-12-0131\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Qué es la tiza?\",\"proposedEs\":\"¿Cómo es la tiza?\",\"reason\":\"«Wie ist die Kreide?» pregunta por una característica de la tiza, no por su identidad o definición.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0132\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Tas ir balts.\",\"proposedEs\":\"Es blanca.\",\"reason\":\"El texto está en letón, no en español. Además, la tiza («die Kreide» / «la tiza») es femenina en español.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0133\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Qué son las flores?\",\"proposedEs\":\"¿Cómo son las flores?\",\"reason\":\"«Wie sind die Blumen?» pregunta por las características de las flores, no por qué son o qué son.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0134\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0135\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0136\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0137\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Estás feliz?\",\"proposedEs\":\"¿Está feliz?\",\"reason\":\"El alemán usa «Sie», tratamiento formal singular en este contexto; «estás» corresponde al tratamiento informal «du».\"},{\"cardId\":\"ES-KURSS-LESSON-12-0138\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0139\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0140\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0141\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0142\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0143\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0144\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0145\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0146\",\"status\":\"FINDING\",\"severity\":\"LOW\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"¡Pon la conjugación correcta y hazlo en plural!\",\"proposedEs\":\"¡Usa la conjugación correcta y ponlo en plural!\",\"reason\":\"«Pon la conjugación» resulta poco natural en español; normalmente se «usa» o se «escribe» una conjugación, mientras que lo que se pone en plural es la respuesta o la forma.\"},{\"cardId\":\"ES-KURSS-LESSON-12-0147\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0148\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0149\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-12-0150\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Formulario 2/3: Tú (plural)\",\"proposedEs\":\"Forma 2/3: ihr (vosotros/vosotras, plural informal)\",\"reason\":\"«Formulario» no corresponde a «forma» en esta etiqueta gramatical. Además, «ihr» es la segunda persona plural informal, equivalente a «vosotros/vosotras», no a «tú (plural)».\"},{\"cardId\":\"ES-KURSS-LESSON-12-0151\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0001\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0002\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_NATURALNESS\",\"currentEs\":\"Der Körper, partes del cuerpo, turnen y jeder.\",\"proposedEs\":\"El cuerpo («Der Körper»), partes del cuerpo, gimnasia («turnen») y «jeder».\",\"reason\":\"El texto mezcla alemán y español sin marcar claramente qué términos son vocabulario alemán y presenta una enumeración poco natural. La propuesta conserva los términos alemanes como contenido pedagógico, pero aclara su función.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0003\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_TERMINOLOGY\",\"currentEs\":\"Conferencia Trece: Der Körper, partes del cuerpo, ejercicio, verbos reflexivos y plural.\",\"proposedEs\":\"Lección 13: «Der Körper», partes del cuerpo, gimnasia, verbos reflexivos y plural.\",\"reason\":\"«Conferencia Trece» no es una denominación natural para el encabezado de una lección y «Trece» debería seguir el formato numérico del resto del curso. «Der Körper» puede conservarse como término alemán de la lección, pero debe distinguirse del texto español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0004\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0005\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Der Mensch hat einen Kopf, einen Hals, einen Rumpf, zwei Arme, zwei Hände, zwei Beine und zwei Füße.\",\"proposedEs\":\"El ser humano tiene una cabeza, un cuello, un tronco, dos brazos, dos manos, dos piernas y dos pies.\",\"reason\":\"El campo visible para español contiene íntegramente el ejemplo alemán en lugar de su traducción al español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0006\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wie ist der Kopf? Der Kopf ist rund.\",\"proposedEs\":\"¿Cómo es la cabeza? La cabeza es redonda.\",\"reason\":\"El campo visible para español contiene íntegramente el diálogo alemán en lugar de su traducción al español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0007\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Der Hals ist kurz.\",\"proposedEs\":\"El cuello es corto.\",\"reason\":\"El campo visible para español contiene íntegramente la oración alemana en lugar de su traducción al español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0008\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Der Rumpf ist lang.\",\"proposedEs\":\"El tronco es largo.\",\"reason\":\"El campo visible para español contiene íntegramente la oración alemana en lugar de su traducción al español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0009\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Der Arm ist auch lang.\",\"proposedEs\":\"El brazo también es largo.\",\"reason\":\"El campo visible para español contiene íntegramente la oración alemana en lugar de su traducción al español.\"}]}",
+  "usage": {
+    "input_tokens": 3630,
+    "input_tokens_details": {
+      "cache_write_tokens": 3627,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4120,
+    "output_tokens_details": {
+      "reasoning_tokens": 1984
+    },
+    "total_tokens": 7750
+  },
+  "generatedAt": "2026-08-27T07:09:21.622Z"
+}

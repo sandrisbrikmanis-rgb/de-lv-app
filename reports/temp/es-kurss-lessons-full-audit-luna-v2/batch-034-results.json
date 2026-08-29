@@ -1,0 +1,271 @@
+{
+  "batch": "batch-034",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-11-0124",
+      "status": "PASS",
+      "field": "heading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0125",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Los sustantivos compuestos van precedidos del article del último sustantivo. El énfasis está en la primera palabra del caso.",
+      "proposedEs": "Los sustantivos compuestos llevan el artículo del último sustantivo. El acento recae en la primera parte.",
+      "reason": "«article» es un término inglés y debe ser «artículo». Además, «del caso» no tiene sentido en este contexto; la idea es que el acento recae en el primer componente del sustantivo compuesto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0126",
+      "status": "PASS",
+      "field": "heading"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0127",
+      "status": "PASS",
+      "field": "examples[0]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0128",
+      "status": "PASS",
+      "field": "examples[1]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0129",
+      "status": "PASS",
+      "field": "examples[2]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0130",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Kas tev ir?",
+      "proposedEs": "¿Qué tienes?",
+      "reason": "El texto está en letón, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0131",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0132",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Cuáles son los libros?",
+      "proposedEs": "¿Cómo son los libros?",
+      "reason": "«Wie sind die Bücher?» pregunta por las características de los libros, no por cuáles son.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0133",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0134",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0135",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0136",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Franc no tiene bolígrafo ni lápiz.",
+      "proposedEs": "Franz no tiene pluma ni lápiz.",
+      "reason": "El nombre «Franc» no corresponde al nombre alemán «Franz» del contexto. Además, «Feder» se refiere aquí a una pluma, no a un bolígrafo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0137",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0138",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0139",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0140",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0141",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0142",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "La maestra tiene muchos libros y una estantería.",
+      "proposedEs": "El maestro tiene muchos libros y una estantería.",
+      "reason": "El contexto alemán usa «der Lehrer», que corresponde a un maestro, no a una maestra.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0143",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0144",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0145",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ko dara Anna?",
+      "proposedEs": "¿Qué hace Anna?",
+      "reason": "El texto está en letón, no en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0146",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0147",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0148",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0149",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0150",
+      "status": "PASS",
+      "field": "lv"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0151",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0152",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0153",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0154",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0155",
+      "status": "PASS",
+      "field": "section title display"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0156",
+      "status": "PASS",
+      "field": "uiHint"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0157",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0158",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Escribe la forma conjugada correcta y ponla en plural!",
+      "reason": "«Pon la conjugación» resulta poco natural en español y «hazlo» tiene un referente ambiguo. La recomendación hace explícita la acción solicitada.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0159",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0160",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0161",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0162",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (plural informal)",
+      "reason": "«Formulario» no es la traducción adecuada de «form» en esta etiqueta. Además, «tú» es singular; el pronombre alemán «ihr» corresponde al plural informal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-11-0163",
+      "status": "PASS",
+      "field": "uiExerciseMeta"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:06:54.380Z"
+}

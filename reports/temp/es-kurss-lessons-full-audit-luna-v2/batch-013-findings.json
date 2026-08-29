@@ -1,0 +1,45 @@
+{
+  "batch": "batch-013",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-06-0042",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "liegt — es, es, mentiras",
+      "proposedEs": "liegt — está / se encuentra",
+      "reason": "La glosa española está corrompida: mezcla repeticiones de «es» con «mentiras» y no traduce correctamente el verbo alemán «liegt» en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0044",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "einige (einige) — some",
+      "proposedEs": "einige (einige) — algunos, algunas",
+      "reason": "«some» es un resto en inglés en un campo español; debe sustituirse por la traducción española correspondiente.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0045",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "hinlegen — poner abajo",
+      "proposedEs": "hinlegen — poner algo tumbado / dejar algo tumbado",
+      "reason": "«Poner abajo» es una traducción literal poco natural y no expresa bien el sentido de «hinlegen», que consiste en colocar o dejar algo en posición horizontal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:55:44.399Z"
+}

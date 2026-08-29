@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-043",
+  "cardIds": [
+    "ES-KURSS-LESSON-13-0170",
+    "ES-KURSS-LESSON-13-0171",
+    "ES-KURSS-LESSON-13-0172",
+    "ES-KURSS-LESSON-13-0173",
+    "ES-KURSS-LESSON-13-0174",
+    "ES-KURSS-LESSON-13-0175",
+    "ES-KURSS-LESSON-13-0176",
+    "ES-KURSS-LESSON-13-0177",
+    "ES-KURSS-LESSON-13-0178",
+    "ES-KURSS-LESSON-13-0179",
+    "ES-KURSS-LESSON-13-0180",
+    "ES-KURSS-LESSON-13-0181",
+    "ES-KURSS-LESSON-13-0182",
+    "ES-KURSS-LESSON-13-0183",
+    "ES-KURSS-LESSON-13-0184",
+    "ES-KURSS-LESSON-13-0185",
+    "ES-KURSS-LESSON-13-0186",
+    "ES-KURSS-LESSON-13-0187",
+    "ES-KURSS-LESSON-13-0188",
+    "ES-KURSS-LESSON-13-0189",
+    "ES-KURSS-LESSON-13-0190",
+    "ES-KURSS-LESSON-13-0191",
+    "ES-KURSS-LESSON-13-0192",
+    "ES-KURSS-LESSON-13-0193",
+    "ES-KURSS-LESSON-13-0194",
+    "ES-KURSS-LESSON-13-0195",
+    "ES-KURSS-LESSON-13-0196",
+    "ES-KURSS-LESSON-13-0197",
+    "ES-KURSS-LESSON-13-0198",
+    "ES-KURSS-LESSON-13-0199",
+    "ES-KURSS-LESSON-13-0200",
+    "ES-KURSS-LESSON-13-0201",
+    "ES-KURSS-LESSON-13-0202",
+    "ES-KURSS-LESSON-13-0203",
+    "ES-KURSS-LESSON-13-0204",
+    "ES-KURSS-LESSON-13-0205",
+    "ES-KURSS-LESSON-13-0206",
+    "ES-KURSS-LESSON-13-0207",
+    "ES-KURSS-LESSON-13-0208",
+    "ES-KURSS-LESSON-13-0209"
+  ],
+  "outputText": "{\"items\":[{\"cardId\":\"ES-KURSS-LESSON-13-0170\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er bleibt stehen.\",\"proposedEs\":\"Él se queda de pie.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0171\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wir bleiben stehen.\",\"proposedEs\":\"Nos quedamos de pie.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0172\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ich kehre mich um.\",\"proposedEs\":\"Me doy la vuelta.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0173\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er kehrt sich um.\",\"proposedEs\":\"Él se da la vuelta.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0174\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wir kehren uns um.\",\"proposedEs\":\"Nos damos la vuelta.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0175\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ich strecke einen Arm aus.\",\"proposedEs\":\"Extiendo un brazo.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0176\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er streckt einen Arm aus.\",\"proposedEs\":\"Él extiende un brazo.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0177\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wir strecken einen Arm aus.\",\"proposedEs\":\"Extendemos un brazo.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0178\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ich strecke beide Arme aus.\",\"proposedEs\":\"Extiendo ambos brazos.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0179\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er streckt beide Arme aus.\",\"proposedEs\":\"Él extiende ambos brazos.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0180\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wir strecken beide Arme aus.\",\"proposedEs\":\"Extendemos ambos brazos.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0181\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ich senske beide Arme.\",\"proposedEs\":\"Bajo ambos brazos.\",\"reason\":\"El texto visible está en alemán y contiene además una forma alemana aparentemente mal escrita; el campo español debe traducirse.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0182\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er sentkt beide Arme.\",\"proposedEs\":\"Él baja ambos brazos.\",\"reason\":\"El texto visible está en alemán y contiene además una forma alemana aparentemente mal escrita; el campo español debe traducirse.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0183\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wir senten beide Arme.\",\"proposedEs\":\"Bajamos ambos brazos.\",\"reason\":\"El texto visible está en alemán y contiene además una forma alemana aparentemente mal escrita; el campo español debe traducirse.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0184\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ich drehe den Kopf nach links.\",\"proposedEs\":\"Giro la cabeza hacia la izquierda.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0185\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er dreht den Kopf nach enlaces.\",\"proposedEs\":\"Él gira la cabeza hacia la izquierda.\",\"reason\":\"El campo visible está en alemán y contiene el fragmento español «enlaces»; además, el contexto alemán está mezclado y no debe sustituirse por español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0186\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wir drehen den Kopf nach links.\",\"proposedEs\":\"Giramos la cabeza hacia la izquierda.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0187\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ich drehe den Kopf nach rechts.\",\"proposedEs\":\"Giro la cabeza hacia la derecha.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0188\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er dreht den Kopf nach rechts.\",\"proposedEs\":\"Él gira la cabeza hacia la derecha.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0189\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wir drehen den Kopf nach rechts.\",\"proposedEs\":\"Giramos la cabeza hacia la derecha.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0190\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ich halte den Kopf gerade.\",\"proposedEs\":\"Mantengo la cabeza recta.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0191\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er hält den Kopf gerade.\",\"proposedEs\":\"Él mantiene la cabeza recta.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0192\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wir halten den Kopf gerade.\",\"proposedEs\":\"Mantenemos la cabeza recta.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0193\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Ich atme tief.\",\"proposedEs\":\"Respiro profundamente.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0194\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Er atmet tief.\",\"proposedEs\":\"Él respira profundamente.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0195\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Wir atmen tief.\",\"proposedEs\":\"Respiramos profundamente.\",\"reason\":\"El texto visible está en alemán, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0196\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Cuántas manos tiene una persona?\",\"proposedEs\":\"¿Cuántos brazos tiene una persona?\",\"reason\":\"«Arme» significa «brazos», no «manos».\"},{\"cardId\":\"ES-KURSS-LESSON-13-0197\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"ES_ORTHOGRAPHY\",\"currentEs\":\"cuantas piernas tienes\",\"proposedEs\":\"¿Cuántas piernas tienes?\",\"reason\":\"Faltan la mayúscula inicial, la tilde de «cuántas» y los signos de interrogación.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0198\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0199\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0200\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Qué es una mano?\",\"proposedEs\":\"¿Cómo es el brazo?\",\"reason\":\"El alemán pregunta «Wie ist der Arm?»; «Arm» significa «brazo» y «Wie ist» corresponde a «¿Cómo es?».\"},{\"cardId\":\"ES-KURSS-LESSON-13-0201\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"¿Qué es la pierna?\",\"proposedEs\":\"¿Cómo es la pierna?\",\"reason\":\"«Wie ist das Bein?» significa «¿Cómo es la pierna?», no «¿Qué es la pierna?».\"},{\"cardId\":\"ES-KURSS-LESSON-13-0202\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"La mano es pequeña, pero la pierna es grande.\",\"proposedEs\":\"El brazo es pequeño, pero la pierna es grande.\",\"reason\":\"«Der Arm» significa «el brazo», no «la mano».\"},{\"cardId\":\"ES-KURSS-LESSON-13-0203\",\"status\":\"FINDING\",\"severity\":\"MEDIUM\",\"category\":\"SEMANTIC_MISMATCH\",\"currentEs\":\"donde esta el cofre\",\"proposedEs\":\"¿Dónde está el pecho?\",\"reason\":\"«Brust» se refiere al pecho en este contexto, no a un cofre. También faltan tildes, mayúscula y signos de interrogación.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0204\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0205\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0206\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"¿Cik pirkstu ir plaukstai?\",\"proposedEs\":\"¿Cuántos dedos tiene la mano?\",\"reason\":\"El texto visible está en letón, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0207\",\"status\":\"FINDING\",\"severity\":\"HIGH\",\"category\":\"FOREIGN_LEFTOVER\",\"currentEs\":\"Plaukstai ir pieci pirksti.\",\"proposedEs\":\"La mano tiene cinco dedos.\",\"reason\":\"El texto visible está en letón, no en español.\"},{\"cardId\":\"ES-KURSS-LESSON-13-0208\",\"status\":\"PASS\",\"field\":\"currentEs\"},{\"cardId\":\"ES-KURSS-LESSON-13-0209\",\"status\":\"PASS\",\"field\":\"currentEs\"}]}",
+  "usage": {
+    "input_tokens": 4014,
+    "input_tokens_details": {
+      "cache_write_tokens": 4011,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3578,
+    "output_tokens_details": {
+      "reasoning_tokens": 946
+    },
+    "total_tokens": 7592
+  },
+  "generatedAt": "2026-08-27T07:11:34.236Z"
+}

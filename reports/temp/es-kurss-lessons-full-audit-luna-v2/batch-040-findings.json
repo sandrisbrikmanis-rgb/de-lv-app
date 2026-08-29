@@ -1,0 +1,45 @@
+{
+  "batch": "batch-040",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-13-0050",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "die Nägel — uñas / clavos",
+      "proposedEs": "die Nägel — uñas",
+      "reason": "Combina dos traducciones distintas en un mismo campo mediante una barra. Debe seleccionarse la acepción correspondiente al contexto o separarse en entradas distintas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0051",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "beschneiden — apgriezt",
+      "proposedEs": "beschneiden — recortar",
+      "reason": "«apgriezt» no es español; es un resto de otro idioma.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-13-0070",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_GRAMMAR",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Algunos verbos con la vocal raíz a o au en la segunda y tercera persona del presente del singular tienen diéresis.",
+      "proposedEs": "Algunos verbos cuya raíz contiene a o au cambian estas vocales por ä o äu en la segunda y tercera persona del presente de indicativo singular.",
+      "reason": "La formulación «con la vocal raíz a o au» es poco natural y «tienen diéresis» describe de forma imprecisa el fenómeno: las vocales cambian a ä o äu en determinadas personas.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:10:19.730Z"
+}

@@ -1,0 +1,231 @@
+{
+  "batch": "batch-013",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-06-0006",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0007",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0008",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0009",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0010",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0011",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0012",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0013",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0014",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0015",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0016",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0017",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0018",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0019",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0020",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0021",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0022",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0023",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0024",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0025",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0026",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0027",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0028",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0029",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0030",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0031",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0032",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0033",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0034",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0035",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0036",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0037",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0038",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0039",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0040",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0041",
+      "status": "PASS",
+      "field": "sectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0042",
+      "field": "",
+      "severity": "HIGH",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "liegt — es, es, mentiras",
+      "proposedEs": "liegt — está / se encuentra",
+      "reason": "La glosa española está corrompida: mezcla repeticiones de «es» con «mentiras» y no traduce correctamente el verbo alemán «liegt» en este contexto.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0043",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0044",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "einige (einige) — some",
+      "proposedEs": "einige (einige) — algunos, algunas",
+      "reason": "«some» es un resto en inglés en un campo español; debe sustituirse por la traducción española correspondiente.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-06-0045",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "hinlegen — poner abajo",
+      "proposedEs": "hinlegen — poner algo tumbado / dejar algo tumbado",
+      "reason": "«Poner abajo» es una traducción literal poco natural y no expresa bien el sentido de «hinlegen», que consiste en colocar o dejar algo en posición horizontal.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:55:44.399Z"
+}

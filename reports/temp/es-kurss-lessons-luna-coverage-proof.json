@@ -1,0 +1,408 @@
+{
+  "generatedAt": "2026-08-27T06:49:52.734Z",
+  "lunaDir": "reports/temp/es-kurss-lessons-full-audit-luna",
+  "totalFields": 2951,
+  "coveredFields": 0,
+  "missingFields": 2951,
+  "explicitPass": 0,
+  "explicitFinding": 0,
+  "syntheticPass": 0,
+  "batches": 0,
+  "batchesComplete": 0,
+  "batchesAllExplicit": 0,
+  "pass": false,
+  "verdict": "FAIL — 2951 fields missing Luna response",
+  "v1Legacy": {
+    "version": "v1_legacy",
+    "input": 2951,
+    "lunaReturnedFindingsOnly": 790,
+    "syntheticPassInferred": 2161,
+    "proven": false,
+    "perBatch": [
+      {
+        "batch": "batch-001",
+        "input": 50,
+        "lunaReturned": 19,
+        "syntheticPassInferred": 31
+      },
+      {
+        "batch": "batch-002",
+        "input": 50,
+        "lunaReturned": 14,
+        "syntheticPassInferred": 36
+      },
+      {
+        "batch": "batch-003",
+        "input": 50,
+        "lunaReturned": 18,
+        "syntheticPassInferred": 32
+      },
+      {
+        "batch": "batch-004",
+        "input": 50,
+        "lunaReturned": 16,
+        "syntheticPassInferred": 34
+      },
+      {
+        "batch": "batch-005",
+        "input": 50,
+        "lunaReturned": 38,
+        "syntheticPassInferred": 12
+      },
+      {
+        "batch": "batch-006",
+        "input": 50,
+        "lunaReturned": 21,
+        "syntheticPassInferred": 29
+      },
+      {
+        "batch": "batch-007",
+        "input": 50,
+        "lunaReturned": 36,
+        "syntheticPassInferred": 14
+      },
+      {
+        "batch": "batch-008",
+        "input": 50,
+        "lunaReturned": 15,
+        "syntheticPassInferred": 35
+      },
+      {
+        "batch": "batch-009",
+        "input": 50,
+        "lunaReturned": 11,
+        "syntheticPassInferred": 39
+      },
+      {
+        "batch": "batch-010",
+        "input": 50,
+        "lunaReturned": 11,
+        "syntheticPassInferred": 39
+      },
+      {
+        "batch": "batch-011",
+        "input": 50,
+        "lunaReturned": 11,
+        "syntheticPassInferred": 39
+      },
+      {
+        "batch": "batch-012",
+        "input": 50,
+        "lunaReturned": 29,
+        "syntheticPassInferred": 21
+      },
+      {
+        "batch": "batch-013",
+        "input": 50,
+        "lunaReturned": 22,
+        "syntheticPassInferred": 28
+      },
+      {
+        "batch": "batch-014",
+        "input": 50,
+        "lunaReturned": 15,
+        "syntheticPassInferred": 35
+      },
+      {
+        "batch": "batch-015",
+        "input": 50,
+        "lunaReturned": 11,
+        "syntheticPassInferred": 39
+      },
+      {
+        "batch": "batch-016",
+        "input": 50,
+        "lunaReturned": 13,
+        "syntheticPassInferred": 37
+      },
+      {
+        "batch": "batch-017",
+        "input": 50,
+        "lunaReturned": 8,
+        "syntheticPassInferred": 42
+      },
+      {
+        "batch": "batch-018",
+        "input": 50,
+        "lunaReturned": 12,
+        "syntheticPassInferred": 38
+      },
+      {
+        "batch": "batch-019",
+        "input": 50,
+        "lunaReturned": 21,
+        "syntheticPassInferred": 29
+      },
+      {
+        "batch": "batch-020",
+        "input": 50,
+        "lunaReturned": 19,
+        "syntheticPassInferred": 31
+      },
+      {
+        "batch": "batch-021",
+        "input": 50,
+        "lunaReturned": 13,
+        "syntheticPassInferred": 37
+      },
+      {
+        "batch": "batch-022",
+        "input": 50,
+        "lunaReturned": 46,
+        "syntheticPassInferred": 4
+      },
+      {
+        "batch": "batch-023",
+        "input": 50,
+        "lunaReturned": 7,
+        "syntheticPassInferred": 43
+      },
+      {
+        "batch": "batch-024",
+        "input": 50,
+        "lunaReturned": 9,
+        "syntheticPassInferred": 41
+      },
+      {
+        "batch": "batch-025",
+        "input": 50,
+        "lunaReturned": 3,
+        "syntheticPassInferred": 47
+      },
+      {
+        "batch": "batch-026",
+        "input": 50,
+        "lunaReturned": 13,
+        "syntheticPassInferred": 37
+      },
+      {
+        "batch": "batch-027",
+        "input": 50,
+        "lunaReturned": 10,
+        "syntheticPassInferred": 40
+      },
+      {
+        "batch": "batch-028",
+        "input": 50,
+        "lunaReturned": 9,
+        "syntheticPassInferred": 41
+      },
+      {
+        "batch": "batch-029",
+        "input": 50,
+        "lunaReturned": 3,
+        "syntheticPassInferred": 47
+      },
+      {
+        "batch": "batch-030",
+        "input": 50,
+        "lunaReturned": 19,
+        "syntheticPassInferred": 31
+      },
+      {
+        "batch": "batch-031",
+        "input": 50,
+        "lunaReturned": 5,
+        "syntheticPassInferred": 45
+      },
+      {
+        "batch": "batch-032",
+        "input": 50,
+        "lunaReturned": 5,
+        "syntheticPassInferred": 45
+      },
+      {
+        "batch": "batch-033",
+        "input": 50,
+        "lunaReturned": 4,
+        "syntheticPassInferred": 46
+      },
+      {
+        "batch": "batch-034",
+        "input": 50,
+        "lunaReturned": 5,
+        "syntheticPassInferred": 45
+      },
+      {
+        "batch": "batch-035",
+        "input": 50,
+        "lunaReturned": 17,
+        "syntheticPassInferred": 33
+      },
+      {
+        "batch": "batch-036",
+        "input": 50,
+        "lunaReturned": 24,
+        "syntheticPassInferred": 26
+      },
+      {
+        "batch": "batch-037",
+        "input": 50,
+        "lunaReturned": 11,
+        "syntheticPassInferred": 39
+      },
+      {
+        "batch": "batch-038",
+        "input": 50,
+        "lunaReturned": 16,
+        "syntheticPassInferred": 34
+      },
+      {
+        "batch": "batch-039",
+        "input": 50,
+        "lunaReturned": 12,
+        "syntheticPassInferred": 38
+      },
+      {
+        "batch": "batch-040",
+        "input": 50,
+        "lunaReturned": 8,
+        "syntheticPassInferred": 42
+      },
+      {
+        "batch": "batch-041",
+        "input": 50,
+        "lunaReturned": 9,
+        "syntheticPassInferred": 41
+      },
+      {
+        "batch": "batch-042",
+        "input": 50,
+        "lunaReturned": 6,
+        "syntheticPassInferred": 44
+      },
+      {
+        "batch": "batch-043",
+        "input": 50,
+        "lunaReturned": 5,
+        "syntheticPassInferred": 45
+      },
+      {
+        "batch": "batch-044",
+        "input": 50,
+        "lunaReturned": 9,
+        "syntheticPassInferred": 41
+      },
+      {
+        "batch": "batch-045",
+        "input": 50,
+        "lunaReturned": 11,
+        "syntheticPassInferred": 39
+      },
+      {
+        "batch": "batch-046",
+        "input": 50,
+        "lunaReturned": 5,
+        "syntheticPassInferred": 45
+      },
+      {
+        "batch": "batch-047",
+        "input": 50,
+        "lunaReturned": 7,
+        "syntheticPassInferred": 43
+      },
+      {
+        "batch": "batch-048",
+        "input": 50,
+        "lunaReturned": 12,
+        "syntheticPassInferred": 38
+      },
+      {
+        "batch": "batch-049",
+        "input": 50,
+        "lunaReturned": 15,
+        "syntheticPassInferred": 35
+      },
+      {
+        "batch": "batch-050",
+        "input": 50,
+        "lunaReturned": 13,
+        "syntheticPassInferred": 37
+      },
+      {
+        "batch": "batch-051",
+        "input": 50,
+        "lunaReturned": 4,
+        "syntheticPassInferred": 46
+      },
+      {
+        "batch": "batch-052",
+        "input": 50,
+        "lunaReturned": 23,
+        "syntheticPassInferred": 27
+      },
+      {
+        "batch": "batch-053",
+        "input": 50,
+        "lunaReturned": 13,
+        "syntheticPassInferred": 37
+      },
+      {
+        "batch": "batch-054",
+        "input": 50,
+        "lunaReturned": 5,
+        "syntheticPassInferred": 45
+      },
+      {
+        "batch": "batch-055",
+        "input": 50,
+        "lunaReturned": 6,
+        "syntheticPassInferred": 44
+      },
+      {
+        "batch": "batch-056",
+        "input": 50,
+        "lunaReturned": 10,
+        "syntheticPassInferred": 40
+      },
+      {
+        "batch": "batch-057",
+        "input": 50,
+        "lunaReturned": 9,
+        "syntheticPassInferred": 41
+      },
+      {
+        "batch": "batch-058",
+        "input": 50,
+        "lunaReturned": 3,
+        "syntheticPassInferred": 47
+      },
+      {
+        "batch": "batch-059",
+        "input": 50,
+        "lunaReturned": 26,
+        "syntheticPassInferred": 24
+      },
+      {
+        "batch": "batch-060",
+        "input": 1,
+        "lunaReturned": 0,
+        "syntheticPassInferred": 1
+      }
+    ],
+    "note": "v1 parser assigned PASS to cardIds absent from Luna response — NOT proof of per-field evaluation"
+  },
+  "missingSample": [
+    "ES-KURSS-LESSON-01-0001",
+    "ES-KURSS-LESSON-01-0002",
+    "ES-KURSS-LESSON-01-0003",
+    "ES-KURSS-LESSON-01-0004",
+    "ES-KURSS-LESSON-01-0005",
+    "ES-KURSS-LESSON-01-0006",
+    "ES-KURSS-LESSON-01-0007",
+    "ES-KURSS-LESSON-01-0008",
+    "ES-KURSS-LESSON-01-0009",
+    "ES-KURSS-LESSON-01-0010",
+    "ES-KURSS-LESSON-01-0011",
+    "ES-KURSS-LESSON-01-0012",
+    "ES-KURSS-LESSON-01-0013",
+    "ES-KURSS-LESSON-01-0014",
+    "ES-KURSS-LESSON-01-0015",
+    "ES-KURSS-LESSON-01-0016",
+    "ES-KURSS-LESSON-01-0017",
+    "ES-KURSS-LESSON-01-0018",
+    "ES-KURSS-LESSON-01-0019",
+    "ES-KURSS-LESSON-01-0020"
+  ],
+  "perBatch": []
+}

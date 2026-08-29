@@ -1,0 +1,343 @@
+{
+  "batch": "batch-017",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-07-0036",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "der Spiegel (špīgel) — escoba",
+      "proposedEs": "der Spiegel (špīgel) — espejo",
+      "reason": "«Der Spiegel» significa «el espejo», no «la escoba».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0037",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "der Lappen — pala",
+      "proposedEs": "der Lappen — trapo",
+      "reason": "«Der Lappen» significa «el trapo», no «la pala».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0038",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "der Spaten — cuenco",
+      "proposedEs": "der Spaten — pala",
+      "reason": "«Der Spaten» significa «la pala», no «el cuenco».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0039",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "der Besen — habitación",
+      "proposedEs": "der Besen — escoba",
+      "reason": "«Der Besen» significa «la escoba», no «la habitación».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0040",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "die Schaufel — orilla",
+      "proposedEs": "die Schaufel — pala",
+      "reason": "«Die Schaufel» significa «la pala», no «la orilla».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0041",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0042",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0043",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0044",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0045",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0046",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0047",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0048",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sp vārda vai zilbes sākumā izrunā kā šp: der Spiegel (dēr špīgel).",
+      "proposedEs": "sp al principio de una palabra o sílaba se pronuncia como «šp»: der Spiegel (dēr špīgel).",
+      "reason": "El campo contiene texto letón en lugar de español. El ejemplo alemán debe conservarse.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0049",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sch izrunā kā latviešu š: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "proposedEs": "sch se pronuncia como la «š» letona: die Schaufel (dī šaufel), die Schüssel (dī šūsel).",
+      "reason": "La explicación está en letón y no en español. Los ejemplos alemanes deben conservarse.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0050",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Divskani äu izrunā kā latviešu oi: das Fräulein (das froilein).",
+      "proposedEs": "El diptongo äu se pronuncia como la «oi» letona: das Fräulein (das froilein).",
+      "reason": "La explicación está en letón y no en español. El ejemplo alemán debe conservarse.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0051",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Pavēles izteiksme vienskaitļa 2. personā atbilst darbības vārda 2. personai vienskaitlī bez personu galotnes -La forma del comando en la segunda persona del plural es similar a la segunda persona del presente plural, pero se usa sin pronombre.",
+      "proposedEs": "El imperativo de la segunda persona del singular coincide con la segunda persona del singular del verbo, sin la terminación personal.",
+      "reason": "El campo mezcla letón y español, y la parte española cambia «singular» por «plural», contradiciendo el contenido de alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0052",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Piemēri: antworte!, arbeite!, öffne!, zeichne!",
+      "proposedEs": "Ejemplos: antworte!, arbeite!, öffne!, zeichne!",
+      "reason": "«Piemēri» es letón y debe traducirse al español. Las formas verbales alemanas deben conservarse.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0053",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Ļoti bieži galotne -La forma de tratamiento con \"Usted\" se parece a la tercera persona del plural. El pronombre Sie es escrito con mayúscula y después del verbo.",
+      "proposedEs": "La forma de tratamiento con «Usted» se parece a la tercera persona del plural. El pronombre «Sie» se escribe con mayúscula y va después del verbo.",
+      "reason": "El campo contiene un fragmento letón concatenado con español. Además, «es escrito» resulta poco natural en esta explicación.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0054",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Pavēles forma 2. personā daudzskaitlī līdzinās tagadnes daudzskaitļa 2. personai, bet tiek lietota bez vietniekvārda.",
+      "proposedEs": "La forma del imperativo en la segunda persona del plural se parece a la segunda persona del plural del presente, pero se usa sin pronombre.",
+      "reason": "La frase está íntegramente en letón y no es texto español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0055",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Piemēri: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
+      "proposedEs": "Ejemplos: antwortet!, arbeitet!, öffnet!, zeichnet!, geht!, steht!, tut!",
+      "reason": "«Piemēri» es letón y debe traducirse al español. Las formas alemanas deben permanecer sin cambios.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0056",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "STRUCTURE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "1Expresión de comandos",
+      "proposedEs": "1. Imperativo",
+      "reason": "Falta un separador entre el número y el título; además, «imperativo» es el término gramatical más preciso.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0057",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "STRUCTURE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "2Comando plural",
+      "proposedEs": "2. Imperativo plural",
+      "reason": "Falta un separador entre el número y el título, y «imperativo plural» es una denominación gramatical más natural que «comando plural».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0058",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0059",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "STRUCTURE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "4öffnen",
+      "proposedEs": "4. öffnen",
+      "reason": "Falta un separador entre el número y el ejemplo alemán. El término alemán debe conservarse.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0060",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0061",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0062",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0063",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0064",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0065",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0066",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0067",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0068",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0069",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "elogio",
+      "proposedEs": "elogiar",
+      "reason": "El alemán «loben» es un infinitivo que significa «elogiar»; «elogio» es un sustantivo.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0070",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0071",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0072",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0073",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0074",
+      "status": "PASS",
+      "field": "currentEs"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-07-0075",
+      "status": "PASS",
+      "field": "currentEs"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:58:28.917Z"
+}

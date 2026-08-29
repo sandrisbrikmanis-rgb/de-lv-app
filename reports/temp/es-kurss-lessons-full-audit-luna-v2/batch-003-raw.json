@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-003",
+  "cardIds": [
+    "ES-KURSS-LESSON-01-0081",
+    "ES-KURSS-LESSON-01-0082",
+    "ES-KURSS-LESSON-01-0083",
+    "ES-KURSS-LESSON-01-0084",
+    "ES-KURSS-LESSON-01-0085",
+    "ES-KURSS-LESSON-01-0086",
+    "ES-KURSS-LESSON-01-0087",
+    "ES-KURSS-LESSON-01-0088",
+    "ES-KURSS-LESSON-01-0089",
+    "ES-KURSS-LESSON-01-0090",
+    "ES-KURSS-LESSON-01-0091",
+    "ES-KURSS-LESSON-01-0092",
+    "ES-KURSS-LESSON-01-0093",
+    "ES-KURSS-LESSON-01-0094",
+    "ES-KURSS-LESSON-01-0095",
+    "ES-KURSS-LESSON-01-0096",
+    "ES-KURSS-LESSON-01-0097",
+    "ES-KURSS-LESSON-01-0098",
+    "ES-KURSS-LESSON-01-0099",
+    "ES-KURSS-LESSON-01-0100",
+    "ES-KURSS-LESSON-01-0101",
+    "ES-KURSS-LESSON-02-0001",
+    "ES-KURSS-LESSON-02-0002",
+    "ES-KURSS-LESSON-02-0003",
+    "ES-KURSS-LESSON-02-0004",
+    "ES-KURSS-LESSON-02-0005",
+    "ES-KURSS-LESSON-02-0006",
+    "ES-KURSS-LESSON-02-0007",
+    "ES-KURSS-LESSON-02-0008",
+    "ES-KURSS-LESSON-02-0009",
+    "ES-KURSS-LESSON-02-0010",
+    "ES-KURSS-LESSON-02-0011",
+    "ES-KURSS-LESSON-02-0012",
+    "ES-KURSS-LESSON-02-0013",
+    "ES-KURSS-LESSON-02-0014",
+    "ES-KURSS-LESSON-02-0015",
+    "ES-KURSS-LESSON-02-0016",
+    "ES-KURSS-LESSON-02-0017",
+    "ES-KURSS-LESSON-02-0018",
+    "ES-KURSS-LESSON-02-0019"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0081\",\n      \"status\": \"PASS\",\n      \"field\": \"grammarHeader\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0082\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_TERMINOLOGY\",\n      \"currentEs\": \"?Oraciones de preguntas\",\n      \"proposedEs\": \"?Oraciones interrogativas\",\n      \"reason\": \"«Oraciones de preguntas» es comprensible, pero no es la denominación gramatical natural en español; «oraciones interrogativas» es el término estándar.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0083\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"♣Diferencia de persona\",\n      \"proposedEs\": \"♣Diferencias según la persona\",\n      \"reason\": \"«Diferencia de persona» suena poco natural y ambiguo como encabezado gramatical.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0084\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"ES_GRAMMAR\",\n      \"currentEs\": \"Eliminar -en de las formas base del verbo y agrega la terminación.\\nEjemplo: kommen → komm + terminación\\nkommenforma base\",\n      \"proposedEs\": \"Eliminar -en de la forma básica del verbo y añadir la terminación.\\nEjemplo: kommen → komm + terminación\\nkommen: forma básica\",\n      \"reason\": \"La instrucción mezcla infinitivo («Eliminar») con imperativo («agrega»), «formas base» no es la formulación más natural y la última línea carece de espacio y separador.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0085\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_GRAMMAR\",\n      \"currentEs\": \"Eliminar -en de las formas base del verbo y agrega la terminación.\",\n      \"proposedEs\": \"Eliminar -en de la forma básica del verbo y añadir la terminación.\",\n      \"reason\": \"La instrucción mezcla infinitivo («Eliminar») con imperativo («agrega»); además, «forma básica» es más natural que «formas base» en este contexto.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0086\",\n      \"status\": \"PASS\",\n      \"field\": \"paragraph\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0087\",\n      \"status\": \"PASS\",\n      \"field\": \"uiHint\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0088\",\n      \"status\": \"FINDING\",\n      \"severity\": \"LOW\",\n      \"category\": \"ES_ORTHOGRAPHY\",\n      \"currentEs\": \"¿vienes?\",\n      \"proposedEs\": \"¿Vienes?\",\n      \"reason\": \"Como oración independiente, debe escribirse con mayúscula inicial.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0089\",\n      \"status\": \"PASS\",\n      \"field\": \"trainingTranslateFront\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0090\",\n      \"status\": \"PASS\",\n      \"field\": \"trainingTranslateFront\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0091\",\n      \"status\": \"PASS\",\n      \"field\": \"trainingTranslateFront\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0092\",\n      \"status\": \"PASS\",\n      \"field\": \"trainingTranslateFront\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0093\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Sí, van.\",\n      \"proposedEs\": \"Sí, se van.\",\n      \"reason\": \"La respuesta no conserva el valor pronominal de «Se van?»; «Sí, van» sugiere que van a algún lugar, no necesariamente que se marchan.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0094\",\n      \"status\": \"PASS\",\n      \"field\": \"trainingTranslateFront\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0095\",\n      \"status\": \"PASS\",\n      \"field\": \"trainingTranslateFront\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0096\",\n      \"status\": \"PASS\",\n      \"field\": \"trainingTranslateFront\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0097\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Vas a ir\",\n      \"proposedEs\": \"¿Vais?\",\n      \"reason\": \"El texto actual es una afirmación en segunda persona singular y expresa una perífrasis de futuro, mientras que el contexto alemán es una pregunta dirigida a varias personas.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0098\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Albert y Martha van y vienen.\",\n      \"proposedEs\": \"Albert y Marta vienen y van.\",\n      \"reason\": \"El orden de los verbos en español invierte la secuencia del ejemplo alemán; además, «Marta» es la forma habitual en español del nombre.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0099\",\n      \"status\": \"PASS\",\n      \"field\": \"uiSectionTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0100\",\n      \"status\": \"PASS\",\n      \"field\": \"uiHint\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-01-0101\",\n      \"status\": \"PASS\",\n      \"field\": \"uiProgress\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0001\",\n      \"status\": \"PASS\",\n      \"field\": \"uiTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0002\",\n      \"status\": \"PASS\",\n      \"field\": \"uiMenuDesc\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0003\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0004\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0005\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0006\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0007\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0008\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0009\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0010\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0011\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0012\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0013\",\n      \"status\": \"PASS\",\n      \"field\": \"example\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0014\",\n      \"status\": \"PASS\",\n      \"field\": \"sectionTitle\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0015\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"spielen — jugar; jugar\",\n      \"proposedEs\": \"spielen — jugar\",\n      \"reason\": \"La traducción española aparece duplicada mediante un punto y coma.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0016\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"TRANSLATION\",\n      \"currentEs\": \"nein — trabajar\",\n      \"proposedEs\": \"nein — no\",\n      \"reason\": \"«nein» significa «no», no «trabajar».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0017\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"TRANSLATION\",\n      \"currentEs\": \"nicht — preguntar\",\n      \"proposedEs\": \"nicht — no\",\n      \"reason\": \"«nicht» es el adverbio alemán de negación «no», mientras que «preguntar» corresponde a «fragen».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0018\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"arbeiten — was tut er? ¿Qué está haciendo?\",\n      \"proposedEs\": \"arbeiten — trabajar\",\n      \"reason\": \"El campo contiene una frase alemana no traducida («was tut er?») y añade una pregunta ajena al significado de la palabra «arbeiten».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-02-0019\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"TRANSLATION\",\n      \"currentEs\": \"fragen — ¿qué hacen ellos?\",\n      \"proposedEs\": \"fragen — preguntar\",\n      \"reason\": \"«fragen» significa «preguntar»; «¿qué hacen ellos?» corresponde a otra expresión alemana.\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3687,
+    "input_tokens_details": {
+      "cache_write_tokens": 3684,
+      "cached_tokens": 0
+    },
+    "output_tokens": 4102,
+    "output_tokens_details": {
+      "reasoning_tokens": 1614
+    },
+    "total_tokens": 7789
+  },
+  "generatedAt": "2026-08-27T06:49:55.073Z"
+}

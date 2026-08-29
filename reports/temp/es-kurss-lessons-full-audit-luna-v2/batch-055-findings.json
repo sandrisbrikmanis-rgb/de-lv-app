@@ -1,0 +1,84 @@
+{
+  "batch": "batch-055",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-16-0129",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Bez artikula",
+      "proposedEs": "Sin artículo",
+      "reason": "El encabezado contiene texto en lituano en lugar de español. Además, el término español correcto es «artículo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0130",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Palabras que se utilizan a menudo sin el article: die Milch, das Brot.",
+      "proposedEs": "Palabras que se utilizan a menudo sin el artículo: die Milch, das Brot.",
+      "reason": "«article» es un resto de inglés; en español debe usarse «artículo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0152",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Cómo se llama el padre?",
+      "proposedEs": "¿A quién llama el padre?",
+      "reason": "La traducción actual pregunta por el nombre del padre, pero la frase alemana pregunta a quién llama el padre.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0156",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Kam paklausa soles?",
+      "proposedEs": "¿A quién obedece el perro?",
+      "reason": "El texto está en lituano y no corresponde al español solicitado. La propuesta traduce el significado de la frase alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0158",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Cuantos perros tiene el cazador?",
+      "proposedEs": "¿Cuántos perros tiene el cazador?",
+      "reason": "Falta la tilde en el interrogativo «cuántos».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-16-0164",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Qué se acerca a los escolares y las niñas?",
+      "proposedEs": "¿Quién se acerca a los alumnos y las alumnas?",
+      "reason": "El alemán usa «Wer» («quién»), no «qué», porque pregunta por personas. «Escolares» también resulta menos preciso aquí que «alumnos y alumnas».",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:17:47.696Z"
+}

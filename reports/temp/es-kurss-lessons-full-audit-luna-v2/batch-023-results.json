@@ -1,0 +1,239 @@
+{
+  "batch": "batch-023",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-08-0144",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Übung I - Usa la conjugación correcta. Übung II - cards de traducción.",
+      "proposedEs": "Ejercicio I: Usa la conjugación correcta. Ejercicio II: Tarjetas de traducción.",
+      "reason": "El texto contiene restos en alemán («Übung») e inglés («cards») dentro de un campo dirigido a usuarios en español.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0145",
+      "status": "PASS",
+      "field": "kurss.sections.translate (section title display)"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0146",
+      "status": "PASS",
+      "field": "kurss.hints.tapToRevealGerman"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0147",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson8.sections[5].description"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0148",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.fillCase"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0149",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¡Pon la conjugación correcta y hazlo en plural!",
+      "proposedEs": "¡Usa la forma correcta y forma el plural!",
+      "reason": "«Poner la conjugación» y «hazlo en plural» resultan poco naturales y ambiguos en una instrucción de ejercicio.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0150",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.answerPlural"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0151",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.translate"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0152",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.formDu"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0153",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Formulario 2/3: Tú (plural)",
+      "proposedEs": "Forma 2/3: ihr (vosotros/vosotras, plural)",
+      "reason": "«Formulario» no corresponde a una forma gramatical, y «tú (plural)» es contradictorio: tú es singular. La forma alemana ihr corresponde a la segunda persona plural.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-08-0154",
+      "status": "PASS",
+      "field": "kurss.exerciseMeta.formSie"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0001",
+      "status": "PASS",
+      "field": "kurss.lessonItems.9.title (lesson header / menu)"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0002",
+      "status": "PASS",
+      "field": "kurss.lessonItems.9.menuDesc (lesson header subtitle / menu)"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0003",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Novena conferencia: plural de sustantivos, pronombres demostrativos dieser/jener, ejercicios y traducción.",
+      "proposedEs": "Novena lección: plural de sustantivos, pronombres demostrativos dieser/jener, ejercicios y traducción.",
+      "reason": "«Conferencia» significa lecture/conference, no una unidad de un curso. El contexto identifica este contenido como la novena lección.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0004",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].title → kurss.sections.dialogues"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0005",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[0]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0006",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[1]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0007",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[2]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0008",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[3]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0009",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[4]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0010",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[5]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0011",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[6]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0012",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[7]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0013",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[8]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0014",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[9]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0015",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[10]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0016",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[11]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0017",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[12]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0018",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[13]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0019",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[14]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0020",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[15]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0021",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[16]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0022",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[17]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0023",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[18]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0024",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[0].items[19]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0025",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[0]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0026",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[1]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0027",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[2]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0028",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[3]"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-09-0029",
+      "status": "PASS",
+      "field": "COURSE_LESSON_DATA.kurssLesson9.sections[1].items[4]}]} 乐彩? Total 40? Let's recount output: 11 + 29 yes. JSON valid. Ensure no issue "
+    }
+  ],
+  "generatedAt": "2026-08-27T07:00:59.376Z"
+}

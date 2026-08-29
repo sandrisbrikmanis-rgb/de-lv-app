@@ -1,0 +1,335 @@
+{
+  "batch": "batch-004",
+  "inputCount": 40,
+  "results": [
+    {
+      "cardId": "ES-KURSS-LESSON-02-0020",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "was tut er? — responder",
+      "proposedEs": "was tut er? — ¿qué hace él?",
+      "reason": "«Was tut er?» significa «¿qué hace él?», no «responder».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0021",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "was tun sie? — calcular",
+      "proposedEs": "was tun sie? — ¿qué hacen ellos?",
+      "reason": "«Was tun sie?» significa «¿qué hacen ellos?», no «calcular».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0022",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "aber — dibujar",
+      "proposedEs": "aber — pero",
+      "reason": "«Aber» significa «pero»; «dibujar» no corresponde.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0023",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SEMANTIC_MISMATCH",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "antworten — Marie",
+      "proposedEs": "antworten — responder",
+      "reason": "«Marie» no es la traducción de «antworten»; el verbo significa «responder».",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0024",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0025",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0026",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0027",
+      "status": "PASS",
+      "field": "sectionTitle"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0028",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Vārdos arbeiten, zeichnen divskani ei izrunā apmēram kā latviešu plato e skaņu, kam seko i.",
+      "proposedEs": "En las palabras arbeiten y zeichnen, el diptongo ei se pronuncia aproximadamente como el sonido de una e abierta seguido de i.",
+      "reason": "El texto visible está en letón, no en español. Debe traducirse al español, conservando los ejemplos alemanes.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0029",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Līdzskaņu kopojumu sp izrunā kā šp: spielen (špīlen).",
+      "proposedEs": "El grupo de consonantes sp se pronuncia como «šp»: spielen («špīlen»).",
+      "reason": "El texto visible está en letón, no en español. El ejemplo alemán debe permanecer en alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0030",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "Darbības vārdā tun u izrunājams gari visās personās.",
+      "proposedEs": "En el verbo tun, la u se pronuncia larga en todas las personas.",
+      "reason": "El texto visible está en letón, no en español; además, «tun» debe conservarse como ejemplo alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0031",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0032",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0033",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "du arbeite",
+      "proposedEs": "Revisar el ejemplo alemán en la fuente; no requiere un cambio de español.",
+      "reason": "El ejemplo alemán es incorrecto o está incompleto («du arbeite»). No se propone modificar el alemán desde la auditoría ES.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0034",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "er Arbeit",
+      "proposedEs": "Revisar el ejemplo alemán en la fuente; no requiere un cambio de español.",
+      "reason": "«Arbeit» es un sustantivo y no corresponde como forma verbal en esta tabla. No se propone modificar el alemán desde la auditoría ES.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0035",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "sie arbeit",
+      "proposedEs": "Revisar el ejemplo alemán en la fuente; no requiere un cambio de español.",
+      "reason": "La forma alemana «sie arbeit» es incorrecta o está incompleta. No se propone modificar el alemán desde la auditoría ES.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0036",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0037",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "mi arbeit",
+      "proposedEs": "Revisar el ejemplo alemán en la fuente; no requiere un cambio de español.",
+      "reason": "El campo mezcla español («mi») con una forma alemana incorrecta y no presenta un ejemplo alemán válido. No se propone modificar el alemán desde la auditoría ES.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0038",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0039",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0040",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0041",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0042",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0043",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "nosotros rechnen",
+      "proposedEs": "wir rechnen",
+      "reason": "El pronombre español «nosotros» sustituye indebidamente al pronombre alemán. Los ejemplos alemanes deben permanecer íntegramente en alemán.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0044",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0045",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0046",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0047",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0048",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0049",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0050",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0051",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0052",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0053",
+      "field": "",
+      "severity": "HIGH",
+      "category": "SOURCE_DE_ISSUE",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "¿Fue tust du? - ¿Qué estás haciendo?",
+      "proposedEs": "Revisar el ejemplo alemán en la fuente; conservar la traducción española «¿Qué estás haciendo?»",
+      "reason": "La pregunta alemana contiene «Fue», una palabra española, y no es un ejemplo alemán válido. La traducción española sí es adecuada; no se propone modificar el alemán desde la auditoría ES.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0054",
+      "status": "PASS",
+      "field": "example"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0055",
+      "status": "PASS",
+      "field": "grammarNote"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0056",
+      "field": "",
+      "severity": "HIGH",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "En oraciones interrogativas que comienzan con la palabra interrogativa, por ejemplo: ¿qué? ¿qué? ¿OMS? ¿por qué? ¿por qué? etc., el verbo está inmediatamente después de la palabra interrogativa.",
+      "proposedEs": "En las oraciones interrogativas que comienzan con una palabra interrogativa, como «qué», «quién» o «por qué», el verbo va inmediatamente después de la palabra interrogativa.",
+      "reason": "Hay repeticiones erróneas («¿qué?» y «¿por qué?») y «OMS» es un resto extranjero o una traducción incorrecta. La redacción también necesita naturalidad y puntuación.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0057",
+      "status": "PASS",
+      "field": "grammarNote"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0058",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ORTHOGRAPHY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "1Terminaciones con e",
+      "proposedEs": "1. Terminaciones con e",
+      "reason": "Falta un espacio o signo de puntuación entre el número y el encabezado.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-02-0059",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "ES_NATURALNESS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "2Palabra en cuestión",
+      "proposedEs": "2. Palabra interrogativa",
+      "reason": "Falta separación después del número y «palabra en cuestión» no es una denominación natural ni precisa para este concepto gramatical.",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T06:50:27.245Z"
+}

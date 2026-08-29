@@ -1,0 +1,59 @@
+{
+  "batchLabel": "batch-065",
+  "cardIds": [
+    "ES-KURSS-LESSON-19-0056",
+    "ES-KURSS-LESSON-19-0057",
+    "ES-KURSS-LESSON-19-0058",
+    "ES-KURSS-LESSON-19-0059",
+    "ES-KURSS-LESSON-19-0060",
+    "ES-KURSS-LESSON-19-0061",
+    "ES-KURSS-LESSON-19-0062",
+    "ES-KURSS-LESSON-19-0063",
+    "ES-KURSS-LESSON-19-0064",
+    "ES-KURSS-LESSON-19-0065",
+    "ES-KURSS-LESSON-19-0066",
+    "ES-KURSS-LESSON-19-0067",
+    "ES-KURSS-LESSON-19-0068",
+    "ES-KURSS-LESSON-19-0069",
+    "ES-KURSS-LESSON-19-0070",
+    "ES-KURSS-LESSON-19-0071",
+    "ES-KURSS-LESSON-19-0072",
+    "ES-KURSS-LESSON-19-0073",
+    "ES-KURSS-LESSON-19-0074",
+    "ES-KURSS-LESSON-19-0075",
+    "ES-KURSS-LESSON-19-0076",
+    "ES-KURSS-LESSON-19-0077",
+    "ES-KURSS-LESSON-19-0078",
+    "ES-KURSS-LESSON-19-0079",
+    "ES-KURSS-LESSON-19-0080",
+    "ES-KURSS-LESSON-19-0081",
+    "ES-KURSS-LESSON-19-0082",
+    "ES-KURSS-LESSON-19-0083",
+    "ES-KURSS-LESSON-19-0084",
+    "ES-KURSS-LESSON-19-0085",
+    "ES-KURSS-LESSON-19-0086",
+    "ES-KURSS-LESSON-19-0087",
+    "ES-KURSS-LESSON-19-0088",
+    "ES-KURSS-LESSON-19-0089",
+    "ES-KURSS-LESSON-19-0090",
+    "ES-KURSS-LESSON-19-0091",
+    "ES-KURSS-LESSON-19-0092",
+    "ES-KURSS-LESSON-19-0093",
+    "ES-KURSS-LESSON-19-0094",
+    "ES-KURSS-LESSON-19-0095"
+  ],
+  "outputText": "{\n  \"items\": [\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0056\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0057\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0058\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0059\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"das Land — país / tierra\",\n      \"proposedEs\": \"das Land — país\",\n      \"reason\": \"La barra combina dos significados distintos en un campo destinado a una equivalencia léxica. En este contexto, «país» es la traducción adecuada; «tierra» corresponde a otro uso.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0060\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0061\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0062\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0063\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0064\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0065\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0066\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0067\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Wechselpräpositionen\",\n      \"proposedEs\": \"Preposiciones de doble régimen\",\n      \"reason\": \"El encabezado está completamente en alemán y no ofrece una traducción visible para el alumno.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0068\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"ES_NATURALNESS\",\n      \"currentEs\": \"En esta conferencia, continuamos con preposiciones que pueden ir tanto con Akkusativ como con Dativo.\",\n      \"proposedEs\": \"En esta lección, continuamos con las preposiciones que pueden regir tanto acusativo como dativo.\",\n      \"reason\": \"«Conferencia» resulta poco natural para una unidad de un curso. Además, «regir acusativo o dativo» es una formulación gramatical más precisa en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0069\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0070\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Si hay una dirección/movimiento hacia algún lugar, la pregunta es ¿quién? y utiliza Akkusativ.\",\n      \"proposedEs\": \"Si hay una dirección o un movimiento hacia algún lugar, la pregunta es «¿adónde?» y se utiliza el acusativo.\",\n      \"reason\": \"«Wohin?» significa «¿adónde?», no «¿quién?». La forma «Akkusativ» también deja el término gramatical en alemán en un texto español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0071\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0072\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0073\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0074\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0075\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0076\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0077\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0078\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"Si hay una ubicación, la pregunta es ¿wo? y utiliza el dativo.\",\n      \"proposedEs\": \"Si se indica una ubicación, la pregunta es «¿dónde?» y se utiliza el dativo.\",\n      \"reason\": \"«Wo?» es una palabra alemana que quedó sin traducir; en español corresponde a «¿dónde?».\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0079\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0080\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0081\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0082\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0083\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0084\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0085\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0086\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0087\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0088\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0089\",\n      \"status\": \"FINDING\",\n      \"severity\": \"MEDIUM\",\n      \"category\": \"MULTIPLE_TRANSLATIONS\",\n      \"currentEs\": \"über — sobre / encima de\",\n      \"proposedEs\": \"über — encima de\",\n      \"reason\": \"La barra presenta dos equivalencias en un único campo. Para este bloque de relaciones espaciales, «encima de» es una traducción clara y suficiente.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0090\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0091\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0092\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"FOREIGN_LEFTOVER\",\n      \"currentEs\": \"Kopsavilkums: wohin?\",\n      \"proposedEs\": \"Resumen: ¿adónde?\",\n      \"reason\": \"«Kopsavilkums» es un texto residual en letón y «wohin?» permanece en alemán. El encabezado debe estar completamente en español.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0093\",\n      \"status\": \"FINDING\",\n      \"severity\": \"HIGH\",\n      \"category\": \"SEMANTIC_MISMATCH\",\n      \"currentEs\": \"¿Quién? → Ackusativo\",\n      \"proposedEs\": \"¿Adónde? → Acusativo\",\n      \"reason\": \"La pregunta está mal traducida: «wohin?» significa «¿adónde?», no «¿quién?». «Ackusativo» además contiene una grafía incorrecta y no es la denominación española.\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0094\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    },\n    {\n      \"cardId\": \"ES-KURSS-LESSON-19-0095\",\n      \"status\": \"PASS\",\n      \"field\": \"currentEs\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 3852,
+    "input_tokens_details": {
+      "cache_write_tokens": 3849,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3006,
+    "output_tokens_details": {
+      "reasoning_tokens": 751
+    },
+    "total_tokens": 6858
+  },
+  "generatedAt": "2026-08-27T07:23:07.337Z"
+}

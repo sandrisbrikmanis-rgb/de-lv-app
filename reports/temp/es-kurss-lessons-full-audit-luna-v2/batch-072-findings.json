@@ -1,0 +1,71 @@
+{
+  "batch": "batch-072",
+  "findings": [
+    {
+      "cardId": "ES-KURSS-LESSON-21-0033",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "aus — de / desde",
+      "proposedEs": "aus — de (procedencia); desde (punto de partida)",
+      "reason": "Combina dos traducciones distintas mediante una barra, sin aclarar suficientemente el contexto de uso.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0036",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "treten — pisar / dar un paso",
+      "proposedEs": "treten — pisar; dar un paso",
+      "reason": "El campo combina dos sentidos diferentes mediante una barra. Conviene presentarlos como sentidos diferenciados.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0038",
+      "field": "",
+      "severity": "MEDIUM",
+      "category": "MULTIPLE_TRANSLATIONS",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "er tritt — va / da un paso",
+      "proposedEs": "er tritt — da un paso",
+      "reason": "Combina traducciones distintas y «va» no es una equivalencia clara de esta forma verbal alemana sin contexto adicional.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0063",
+      "field": "",
+      "severity": "CRITICAL",
+      "category": "FOREIGN_LEFTOVER",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "aus — no / iz",
+      "proposedEs": "aus — de / desde",
+      "reason": "La traducción contiene texto corrupto o restos no españoles («no / iz») y no transmite el significado de la preposición alemana.",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "ES-KURSS-LESSON-21-0068",
+      "field": "",
+      "severity": "HIGH",
+      "category": "ES_TERMINOLOGY",
+      "de": "",
+      "lvReference": "",
+      "currentEs": "La preposición von puede fusionarse con el article.",
+      "proposedEs": "La preposición von puede fusionarse con el artículo.",
+      "reason": "«article» es un término inglés; en español debe emplearse «artículo».",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "generatedAt": "2026-08-27T07:26:08.597Z"
+}
