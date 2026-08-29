@@ -28,7 +28,13 @@
 | Head branch | **cursor/f0-comp-infrastructure-ab00** ✓ |
 | Review performed on latest PR code HEAD | **6ce6d33028b0922309127bc79463d3afa9d73d71** ✓ |
 
-**Note:** This review commit will add only this report file. After commit: `REVIEWED_CODE_SHA` = `6ce6d33028b0922309127bc79463d3afa9d73d71`; `REPORT_COMMIT_SHA` and `FINAL_PR_HEAD_SHA` will be recorded post-commit.
+**Note:** Report-only commit added after code review.
+
+| Field | Full SHA (40 chars) |
+|-------|---------------------|
+| `REVIEWED_CODE_SHA` | `6ce6d33028b0922309127bc79463d3afa9d73d71` |
+| `REPORT_COMMIT_SHA` | `bd713ccece50edc9ad3e15e27925f2516c9df6fd` |
+| `FINAL_PR_HEAD_SHA` | `bd713ccece50edc9ad3e15e27925f2516c9df6fd` |
 
 ------------------------------------------------------------------------
 
