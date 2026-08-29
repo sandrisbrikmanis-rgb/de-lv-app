@@ -13,8 +13,8 @@
 | Field | Full SHA (40 chars) |
 |-------|---------------------|
 | `BASELINE_SHA` | `f933a854211997df6bd9328018d549afeebd2673` |
-| `IMPLEMENTATION_SHA` | *(set at commit)* |
-| `FINAL_PR_HEAD_SHA` | *(set after push)* |
+| `IMPLEMENTATION_SHA` | `e829b0e63c042579176b40f6a807f63789ad54b2` |
+| `FINAL_PR_HEAD_SHA` | `e829b0e63c042579176b40f6a807f63789ad54b2` |
 
 ------------------------------------------------------------------------
 
