@@ -432,6 +432,158 @@ VERDICT = OWNER_REVIEW_NEEDS_SPEC_REPAIR
 
 ---
 
+**Spec repair:** §17 mapping | **Phase alignment:** §18
+
+---
+
+## 19. Post-repair OWNER review (2026-08-29)
+
+**Type:** Pilns READ-ONLY pēclabojumu review (vienots)  
+**Document reviewed:** `docs_and_rules/PHASE_1_READ_ONLY_DISCOVERY_SPEC.md`  
+**Historical verdict (§14):** `OWNER_REVIEW_NEEDS_SPEC_REPAIR` — **nemainīts**
+
+### 19.1 Review baseline
+
+| Item | Value | Status |
+|------|-------|--------|
+| `ORIGIN_MAIN_SHA` | `0bf5767b0c667dbf56874e7027a5319d7c7fba90` | ✓ |
+| `PR_695_HEAD_SHA` (reviewed) | `14b303eabc2b680d43eaa3f799dea18ef1833009` | ✓ |
+| Branch | `cursor/phase1-discovery-spec-ab00` | ✓ |
+| Base | `main` | ✓ |
+| Spec lines | 1046 | ✓ |
+| Production diff (`data/`, `www/data/`, `languages/`, `crowdin/content/`) | **0** | ✓ |
+
+Scope counts verified via `buildExpectedDiscoveryScopes()`:
+
+```text
+EXPECTED_SCOPE = 320
+NOT_APPLICABLE = 2
+LUNA_APPLICABLE = 318
+INVENTORY_APPLICABLE = 309
+MULTI_SCAN_APPLICABLE = 309
+```
+
+### 19.2 Finding resolution matrix (`20/20`)
+
+| ID | Sev. | Original issue | Post-repair status | Spec evidence |
+|----|------|----------------|:------------------:|---------------|
+| R-001 | CRITICAL | Scope denominator confusion (318 vs 309) | **RESOLVED** | §1.2, §2.4 — atsevišķi skaitītāji; aizliegts jaukt |
+| R-002 | CRITICAL | F1-6 validation schema missing | **RESOLVED** | §4.4 — pilna shēma; `UNCLASSIFIED` → F1-6 FAIL |
+| R-003 | CRITICAL | Luna failure/retry gate undefined | **RESOLVED** | §5.4, §5.5, §1.4 F1-5 |
+| R-004 | HIGH | G3 `legacyHtml` scan absent | **RESOLVED** | §3.1, §4.1, §4.7, F0-COMP-2 |
+| R-005 | HIGH | OWNER-PREP on `TOTAL_FINDINGS` | **RESOLVED** | §8.1 — `VALIDATED_FINDINGS > 0` |
+| R-006 | HIGH | `phase1-full` OWNER-PREP schema incomplete | **RESOLVED** | §8.2–8.4 — MASTER §7.6 lauki |
+| R-007 | HIGH | No dedup policy | **RESOLVED** | §4.3, §4.5 — stable ID, dedupKey, merge rules |
+| R-008 | HIGH | G1 verbs inventory paths missing | **RESOLVED** | §4.6 — 5 verb forms × slug |
+| R-009 | HIGH | F1-7 paths not enumerated | **RESOLVED** | §9.1 — 4 aizliegtie ceļi |
+| R-010 | HIGH | GAP-09…15 bez impl soļiem | **RESOLVED** | §4.2, §10 F0-COMP-1…15 |
+| R-011 | MEDIUM | F1-2 318+2 vs 320 ambiguity | **RESOLVED** | §1.4 F1-2 `PROCESSED=320`; N/A matricā |
+| R-012 | MEDIUM | Batch size not normative | **RESOLVED** | §5.3 — G2=25, G1=50, G3=20 (R-019) |
+| R-013 | MEDIUM | Luna re-run acceptance undefined | **RESOLVED** | §5.9 — deterministic gated; Luna churn logged |
+| R-014 | MEDIUM | Crowdin export scope creep | **RESOLVED** | §14 — opcionāls, nav F1 exit vārts |
+| R-015 | MEDIUM | scope inventory not in impl plan | **RESOLVED** | §2.5, F0-COMP-7 |
+| R-016 | LOW | Status header inconsistency | **RESOLVED** | §13 statusi; `PHASE_1_NOT_STARTED` + F0 gate (§1 priekšnosacījums) |
+| R-017 | LOW | `scopeKey` vs `scopeId` | **RESOLVED** | §2.2, §5.3 — tikai `scopeId` |
+| R-018 | OWNER | G3 LIVE/runtime scope | **RESOLVED** | §3.1 — OUT OF PHASE 1; closure Phase 3 |
+| R-019 | OWNER | Luna batch size policy | **RESOLVED** | §5.3 — per-group defaults + batch metadata |
+| R-020 | OWNER | Implicit PASS for missing Luna items | **RESOLVED** | §5.5 — explicit rezultāts obligāts |
+| R-021 | OWNER | Timeout/retry values | **RESOLVED** | §5.4 — 180s, 3 attempts, 5s/15s, 10min |
+
+**Resolution summary:** `20/20 RESOLVED` | **OPEN:** `0` (CRITICAL/HIGH/MEDIUM/LOW)
+
+### 19.3 OWNER decisions verification (`4/4`)
+
+| ID | Decision | Spec location | Verified |
+|----|----------|---------------|:--------:|
+| R-018 | G3 LIVE/runtime **OUT OF PHASE 1**; `legacyHtml` + `COURSE_LESSON_DATA` **IN** | §3.1, §12 | ✓ |
+| R-019 | Per-group batch: G2=25, G1=50, G3=20; batch metadata obligāts | §5.3 | ✓ |
+| R-020 | **IMPLICIT PASS AIZLIEGTS**; coverage mismatch → retry → FAIL | §5.5, §1.4 F1-5 | ✓ |
+| R-021 | Timeout 180s; max 3; backoff 5s/15s; wall-clock 10min | §5.4 | ✓ |
+
+**OWNER decisions:** `4/4 ACCEPTED AND VERIFIED`
+
+### 19.4 F1 gate completeness (F1-1…F1-9)
+
+| Gate | Denominator | PASS/FAIL definēts | Implicit PASS aizliegts | Status |
+|------|-------------|:------------------:|:-----------------------:|:------:|
+| F1-1 | Baseline | ✓ | n/a | **PASS** |
+| F1-2 | 320 | ✓ | n/a | **PASS** |
+| F1-3 | 309 | ✓ | n/a | **PASS** |
+| F1-4 | 309 | ✓ | n/a | **PASS** |
+| F1-5 | 318 | ✓ | ✓ §5.5 | **PASS** |
+| F1-6 | All findings | ✓ | ✓ `UNCLASSIFIED` aizliegts | **PASS** |
+| F1-7 | Production paths | ✓ | n/a | **PASS** |
+| F1-8 | `VALIDATED_FINDINGS` | ✓ | ✓ ne `TOTAL_FINDINGS` | **PASS** |
+| F1-9 | F1-1…F1-8 | ✓ | n/a | **PASS** |
+
+### 19.5 MASTER 1.12 compliance matrix
+
+| MASTER | Requirement | Spec alignment | Conflicts |
+|--------|-------------|:--------------:|:---------:|
+| **§0** Konfliktu protokols | Stop on conflict | Spec nekonfliktē | **0** |
+| **§C** Fāze 0 infrastruktūra | Bridge, inventory, multi-scan, orchestrators | F0-COMP-1…15 (§10) | **0** |
+| **§D** Fāze 1 discovery | READ-ONLY, 100% coverage, production=0 | §1, §6, F1-1…F1-9 | **0** |
+| **§I** Izpildes secība | F0 → F1 → F2 | §1 priekšnosacījums, §10→§6 | **0** |
+| **§J** Aizliegumi | Nav apply/import/DE/repair | §9, §14 | **0** |
+| **§7.6** OWNER-PREP | 3 faili, lauki, GitHub indekss | §8.2–8.4 | **0** |
+| **§7.18** PRE_BACKLOG | Pirms OWNER-PREP | §8.5, F0-COMP-6 | **0** |
+| **§5.3/§11.12** G3 LIVE | Closure only, ne discovery | §3.1 OUT OF PHASE 1 | **0** |
+
+**MASTER conflicts:** `0`
+
+### 19.6 F0-COMP / Fāzes 1 robeža
+
+| Check | Result |
+|-------|--------|
+| `F0-COMP-1…15` definēti | **15/15** (§10.1–10.15) |
+| `P1-IMPL-` atlikumi specifikācijā | **0** |
+| Tehniskais saturs saglabāts (faili/tests/PASS/FAIL/fail-safe) | **15/15** ✓ |
+| F0-COMP = Fāzes 0 infrastructure completion | ✓ §10, §4.2, §18 |
+| `PHASE_0_INFRASTRUCTURE_COMPLETION` obligāts pirms F1 | ✓ §1, §6.2, §10 |
+| Fāze 1 = READ-ONLY discovery tikai | ✓ §1, §9, §14 |
+| Tulkošana / Crowdin import / apply | **Nav autorizēts** ✓ |
+| G3 LIVE runtime Phase 1 | **OUT** ✓; obligāts G3 closure (MASTER §11.12) |
+
+**F0-COMP / Fāzes 1 robeža:** **PASS**
+
+### 19.7 Production diff proof
+
+```bash
+git diff --name-only origin/main...HEAD -- data www/data languages crowdin/content
+# (empty)
+
+git diff --stat origin/main...HEAD
+# docs_and_rules/PHASE_1_READ_ONLY_DISCOVERY_SPEC.md | 1046 +++++
+# reports/phase1-read-only-discovery-spec-owner-review.md | 437 +++++
+```
+
+**PRODUCTION_DIFF = 0** ✓
+
+### 19.8 Post-repair verdict
+
+```
+VERDICT = OWNER_REVIEW_PASS
+```
+
+| Criterion | Result |
+|-----------|--------|
+| `20/20` findings RESOLVED | ✓ |
+| `4/4` OWNER ACCEPTED AND VERIFIED | ✓ |
+| MASTER conflicts | **0** |
+| Unresolved CRITICAL/HIGH/MEDIUM/LOW | **0** |
+| F0-COMP/Fāzes 1 boundary | **PASS** |
+| Production diff = 0 | ✓ |
+| Spec implementable without contradiction | ✓ |
+
+**Authorized by this review:**
+
+- Specifikācija ir gatava **F0-COMP-1…15** implementācijas uzdevumam (atsevišķs OWNER uzdevums).
+- **Nav autorizēts:** F0-COMP izpilde, Fāzes 1 discovery, Luna API, production izmaiņas, PR merge.
+
+**Nav autorizēts automātiski:** F0-COMP implementācija — vajadzīgs atsevišķs OWNER uzdevums.
+
+---
+
 **Review file:** `reports/phase1-read-only-discovery-spec-owner-review.md`  
 **Draft PR:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/695  
-**Spec repair:** §17 mapping | **Phase alignment:** §18
+**Post-repair verdict:** §19 — `OWNER_REVIEW_PASS`
