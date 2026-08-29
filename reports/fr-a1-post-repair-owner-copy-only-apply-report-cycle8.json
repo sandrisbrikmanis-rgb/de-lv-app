@@ -1,0 +1,53 @@
+{
+  "baseSha": "3df1da137594992119321654890c20ef47b997b9",
+  "headSha": "3df1da137594992119321654890c20ef47b997b9",
+  "dryRun": false,
+  "blockers": [],
+  "mismatches": [],
+  "failed": [],
+  "applied": [
+    {
+      "num": 1,
+      "auditId": "FR-A1-0372",
+      "cardId": "a1-halten",
+      "field": "study.examples[0].lv",
+      "current": "Je tiens un sac",
+      "status": "LABOT",
+      "ownerNew": "Je tiens un sac.",
+      "note": "Pilnam FR teikumam trūkst noslēguma punkta.",
+      "entryIndex": 265,
+      "result": "APPLIED_VERIFIED"
+    },
+    {
+      "num": 2,
+      "auditId": "FR-A1-0374",
+      "cardId": "a1-hand-study",
+      "field": "frMain",
+      "current": "Main (paume)",
+      "status": "LABOT",
+      "ownerNew": "Main",
+      "note": "DE « Hand » nozīmē roku/plaukstu kopumā; FR « paume » apzīmē tikai plaukstas iekšpusi un nepamatoti sašaurina nozīmi.",
+      "entryIndex": 267,
+      "result": "APPLIED_VERIFIED"
+    }
+  ],
+  "skipped": [],
+  "summary": {
+    "ownerRows": 2,
+    "labotRequested": 2,
+    "falsePositive": 0,
+    "needsSourceReview": 0,
+    "skippedConflict": 0,
+    "appliedVerified": 2,
+    "labotAppliedTarget": 2,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "deChanges": 0,
+    "mirrorPass": true,
+    "syntaxPass": true,
+    "frStudyCount": 134,
+    "lvStudyCount": 134,
+    "studyParityPass": true,
+    "finalVerdict": "FR–DE A1 POST-REPAIR COPY-ONLY APPLY — PASS"
+  }
+}
