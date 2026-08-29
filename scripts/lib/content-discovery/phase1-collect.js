@@ -66,48 +66,65 @@ function annotateFindings(findings, scopeMeta) {
 }
 
 function collectInventoryStats({ group, dataset, lang }) {
+  const scopeId = `${group}/${dataset}/${lang}`;
   if (lang === "lv") {
     return {
       inventoryCoverage: 1,
       unmappedMainTranslationFields: 0,
       inventoryObjectsExpected: 0,
       inventoryObjectsScanned: 0,
+      inventoryFieldsDiscovered: 0,
+      inventoryFieldsMapped: 0,
+      inventoryFieldsUnmapped: 0,
     };
   }
 
   if (group === "g2") {
-    const cards = loadArrayDataset(dataRel(lang, `${dataset}.js`)) || [];
-    const scan = scanDatasetMainTranslations(cards, entryId);
+    const productionFile = dataRel(lang, `${dataset}.js`);
+    const cards = loadArrayDataset(productionFile) || [];
+    const scan = scanDatasetMainTranslations(cards, entryId, { productionFile, scopeId });
     return {
-      inventoryCoverage: 1,
-      unmappedMainTranslationFields: scan.unmappedMainTranslationFields || 0,
-      inventoryObjectsExpected: scan.fieldsScanned || 0,
-      inventoryObjectsScanned: scan.fieldsScanned || 0,
+      inventoryCoverage: scan.inventoryCoverage,
+      unmappedMainTranslationFields: scan.unmappedMainTranslationFields,
+      inventoryObjectsExpected: scan.inventoryObjectsExpected || scan.fieldsScanned || 0,
+      inventoryObjectsScanned: scan.inventoryFieldsMapped || scan.fieldsScanned || 0,
+      inventoryFieldsDiscovered: scan.inventoryFieldsDiscovered || scan.fieldsScanned || 0,
+      inventoryFieldsMapped: scan.inventoryFieldsMapped || scan.fieldsScanned || 0,
+      inventoryFieldsUnmapped: scan.inventoryFieldsUnmapped || 0,
     };
   }
 
   if (group === "g1" && dataset === "sentences") {
-    const cards = loadArrayDataset(dataRel(lang, "sentences.js")) || [];
+    const productionFile = dataRel(lang, "sentences.js");
+    const cards = loadArrayDataset(productionFile) || [];
     const scan = scanDatasetMainTranslations(
       cards.map((c) => ({ ...c, study: null })),
       (e, i) => e.de || `sentence-${i}`,
+      { productionFile, scopeId },
     );
     return {
-      inventoryCoverage: 1,
-      unmappedMainTranslationFields: scan.unmappedMainTranslationFields || 0,
-      inventoryObjectsExpected: scan.fieldsScanned || 0,
-      inventoryObjectsScanned: scan.fieldsScanned || 0,
+      inventoryCoverage: scan.inventoryCoverage,
+      unmappedMainTranslationFields: scan.unmappedMainTranslationFields,
+      inventoryObjectsExpected: scan.inventoryObjectsExpected || scan.fieldsScanned || 0,
+      inventoryObjectsScanned: scan.inventoryFieldsMapped || scan.fieldsScanned || 0,
+      inventoryFieldsDiscovered: scan.inventoryFieldsDiscovered || scan.fieldsScanned || 0,
+      inventoryFieldsMapped: scan.inventoryFieldsMapped || scan.fieldsScanned || 0,
+      inventoryFieldsUnmapped: scan.inventoryFieldsUnmapped || 0,
     };
   }
 
   if (group === "g1" && dataset === "verbs") {
-    const cards = loadArrayDataset(dataRel(lang, "verbs.js")) || [];
-    const scan = scanG1VerbsInventory(cards);
+    const productionFile = dataRel(lang, "verbs.js");
+    const cards = loadArrayDataset(productionFile) || [];
+    const scan = scanG1VerbsInventory(cards, { productionFile });
     return {
       inventoryCoverage: scan.inventoryCoverage,
       unmappedMainTranslationFields: scan.unmappedMainTranslationFields,
-      inventoryObjectsExpected: scan.fieldsExpected || 0,
-      inventoryObjectsScanned: scan.fieldsMapped || 0,
+      inventoryObjectsExpected: scan.inventoryObjectsExpected || scan.fieldsExpected || 0,
+      inventoryObjectsScanned: scan.inventoryFieldsMapped || scan.fieldsMapped || 0,
+      inventoryFieldsDiscovered: scan.inventoryFieldsDiscovered || scan.fieldsExpected || 0,
+      inventoryFieldsMapped: scan.inventoryFieldsMapped || scan.fieldsMapped || 0,
+      inventoryFieldsUnmapped: scan.inventoryFieldsUnmapped || scan.unmapped.length || 0,
       emptyByDesign: scan.emptyByDesign || 0,
     };
   }
@@ -120,26 +137,37 @@ function collectInventoryStats({ group, dataset, lang }) {
         unmappedMainTranslationFields: 0,
         inventoryObjectsExpected: 0,
         inventoryObjectsScanned: 0,
+        inventoryFieldsDiscovered: 0,
+        inventoryFieldsMapped: 0,
+        inventoryFieldsUnmapped: 0,
       };
     }
-    const cards = loadArrayDataset(files[0]) || [];
-    const scan = scanG1TrainingInventory(cards);
+    const productionFile = files[0];
+    const cards = loadArrayDataset(productionFile) || [];
+    const scan = scanG1TrainingInventory(cards, { productionFile, scopeId });
     return {
-      inventoryCoverage: 1,
-      unmappedMainTranslationFields: scan.unmappedMainTranslationFields || 0,
-      inventoryObjectsExpected: scan.fieldsScanned || 0,
-      inventoryObjectsScanned: scan.fieldsScanned || 0,
+      inventoryCoverage: scan.inventoryCoverage,
+      unmappedMainTranslationFields: scan.unmappedMainTranslationFields,
+      inventoryObjectsExpected: scan.inventoryObjectsExpected || scan.fieldsScanned || 0,
+      inventoryObjectsScanned: scan.inventoryFieldsMapped || scan.fieldsScanned || 0,
+      inventoryFieldsDiscovered: scan.inventoryFieldsDiscovered || scan.fieldsScanned || 0,
+      inventoryFieldsMapped: scan.inventoryFieldsMapped || scan.fieldsScanned || 0,
+      inventoryFieldsUnmapped: scan.inventoryFieldsUnmapped || 0,
     };
   }
 
   if (group === "g3") {
-    const globals = loadWindowGlobals(g3Files(lang)[0]);
-    const scan = scanG3CourseLessonsInventory(globals.COURSE_LESSON_DATA || {});
+    const productionFile = g3Files(lang)[0];
+    const globals = loadWindowGlobals(productionFile);
+    const scan = scanG3CourseLessonsInventory(globals.COURSE_LESSON_DATA || {}, { productionFile });
     return {
       inventoryCoverage: scan.inventoryCoverage,
       unmappedMainTranslationFields: scan.unmappedMainTranslationFields,
-      inventoryObjectsExpected: scan.fieldsExpected || 0,
-      inventoryObjectsScanned: scan.fieldsMapped || 0,
+      inventoryObjectsExpected: scan.inventoryObjectsExpected || scan.fieldsExpected || 0,
+      inventoryObjectsScanned: scan.inventoryFieldsMapped || scan.fieldsMapped || 0,
+      inventoryFieldsDiscovered: scan.inventoryFieldsDiscovered || scan.fieldsExpected || 0,
+      inventoryFieldsMapped: scan.inventoryFieldsMapped || scan.fieldsMapped || 0,
+      inventoryFieldsUnmapped: scan.inventoryFieldsUnmapped || 0,
       emptyByDesign: scan.emptyByDesign || 0,
     };
   }
@@ -149,6 +177,9 @@ function collectInventoryStats({ group, dataset, lang }) {
     unmappedMainTranslationFields: 0,
     inventoryObjectsExpected: 0,
     inventoryObjectsScanned: 0,
+    inventoryFieldsDiscovered: 0,
+    inventoryFieldsMapped: 0,
+    inventoryFieldsUnmapped: 0,
   };
 }
 
@@ -204,19 +235,24 @@ function collectPhase1Scope({ group, dataset, lang }) {
 
   if (group === "g2" && lang !== "lv") {
     const multi = collectG2MultiTranslation({ lang, level: dataset, idPrefix });
+    findings.push(...annotateFindings(multi.findings, scopeMeta));
     Object.assign(stats, {
-      multiScanObjectsExpected: multi.stats.fieldsScanned || multi.stats.candidatesRaw || 0,
-      multiScanObjectsScanned: multi.stats.fieldsScanned || multi.stats.candidatesRaw || 0,
-      multiScanCoverage: 1,
+      multiScanObjectsExpected: multi.stats.fieldsScanned || 0,
+      multiScanObjectsScanned: multi.stats.fieldsScanned || 0,
+      multiScanCoverage:
+        multi.stats.fieldsScanned > 0 && multi.stats.fieldsScanned === multi.stats.fieldsScanned ? 1 : 0,
     });
   }
 
   if (group === "g1" && dataset === "sentences" && lang !== "lv") {
     const multi = collectG1SentencesMultiTranslation({ lang, idPrefix });
+    findings.push(...annotateFindings(multi.findings, scopeMeta));
     Object.assign(stats, {
-      multiScanObjectsExpected: multi.stats.candidatesRaw || 0,
-      multiScanObjectsScanned: multi.stats.candidatesRaw || 0,
-      multiScanCoverage: 1,
+      multiScanObjectsExpected: multi.stats.fieldsScanned || 0,
+      multiScanObjectsScanned: multi.stats.fieldsScanned || 0,
+      multiScanCoverage:
+        multi.stats.fieldsScanned > 0 && multi.stats.fieldsScanned === multi.stats.fieldsScanned ? 1 : 0,
+      candidatesRaw: multi.stats.candidatesRaw || 0,
     });
   }
 

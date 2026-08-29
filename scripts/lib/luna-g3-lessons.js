@@ -1,15 +1,24 @@
 #!/usr/bin/env node
 "use strict";
 
-const { getBatchLimit, chunkArray, runMockLunaAdapter } = require("./luna-phase1-core");
+const { createLunaAdapter } = require("./luna-adapter-runner");
+const { getBatchLimit } = require("./luna-phase1-core");
+const { loadG3LessonObjects } = require("./luna-object-loaders");
 
-async function auditG3Lessons({ lang, objects = [], mock = true }) {
-  const batchSize = getBatchLimit("g3", "courseLessons");
-  const batches = chunkArray(objects, batchSize);
-  if (mock) {
-    return runMockLunaAdapter({ objects, scopeId: `g3/courseLessons/${lang}` });
-  }
-  throw new Error("Live Luna not allowed during F0-COMP");
+function serializeG3Lesson(obj) {
+  return { id: obj.id, lessonKey: obj.lessonKey, native: obj.native, productionFile: obj.productionFile };
 }
 
-module.exports = { auditG3Lessons, getBatchLimit, chunkArray };
+async function auditG3Lessons({ lang, scopeId, transport, options = {} }) {
+  const id = scopeId || `g3/courseLessons/${lang}`;
+  const adapter = createLunaAdapter({
+    name: "g3-lessons",
+    loadObjects: () => loadG3LessonObjects(lang),
+    getId: (obj) => obj.id,
+    serialize: serializeG3Lesson,
+    batchSize: getBatchLimit("g3", "courseLessons"),
+  });
+  return adapter(id, { transport, ...options });
+}
+
+module.exports = { auditG3Lessons, serializeG3Lesson };

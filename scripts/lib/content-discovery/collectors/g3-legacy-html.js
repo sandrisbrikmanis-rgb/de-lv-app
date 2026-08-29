@@ -15,6 +15,26 @@ function stripHtmlTags(html) {
     .trim();
 }
 
+function extractTextNodeFallback(html, lessonKey) {
+  const nodes = [];
+  const source = String(html || "");
+  const textNodeRegex = />([^<]+)</g;
+  let match;
+  let index = 0;
+  while ((match = textNodeRegex.exec(source)) !== null) {
+    const text = stripHtmlTags(match[1]);
+    if (!text) continue;
+    nodes.push({
+      lessonKey,
+      nodePath: `text[${index}]`,
+      fieldPath: `legacyHtml.${lessonKey}.text[${index}]`,
+      text,
+    });
+    index += 1;
+  }
+  return nodes;
+}
+
 function extractLegacyHtmlNodes(html, lessonKey) {
   const nodes = [];
   const source = String(html || "");
@@ -50,15 +70,13 @@ function extractLegacyHtmlNodes(html, lessonKey) {
   }
 
   if (nodes.length === 0) {
-    const fallback = stripHtmlTags(source);
-    if (fallback) {
-      nodes.push({
-        lessonKey,
-        nodePath: "root",
-        fieldPath: `legacyHtml.${lessonKey}.root`,
-        text: fallback,
-      });
-    }
+    const fallbackNodes = extractTextNodeFallback(source, lessonKey);
+    if (fallbackNodes.length) return fallbackNodes;
+    return {
+      error: "LEGACY_HTML_GRANULARITY_UNAVAILABLE",
+      lessonKey,
+      fieldPath: `legacyHtml.${lessonKey}`,
+    };
   }
 
   return nodes;
@@ -136,11 +154,16 @@ function collectG3LegacyHtml({ lang, idPrefix }) {
   const courseLessonData = globals.COURSE_LESSON_DATA || {};
   const seqRef = { value: 0 };
   let nodesScanned = 0;
+  const errors = [];
 
   for (const [lessonKey, lesson] of Object.entries(courseLessonData)) {
     const legacyHtml = lesson?.legacyHtml;
     if (!legacyHtml || typeof legacyHtml !== "string") continue;
     const nodes = extractLegacyHtmlNodes(legacyHtml, lessonKey);
+    if (nodes && nodes.error) {
+      errors.push(nodes);
+      continue;
+    }
     nodesScanned += nodes.length;
     for (const node of nodes) {
       findings.push(
@@ -160,11 +183,14 @@ function collectG3LegacyHtml({ lang, idPrefix }) {
     stats: {
       legacyHtmlNodesScanned: nodesScanned,
       legacyHtmlFindings: findings.length,
+      legacyHtmlScan: errors.length ? "ERROR" : "PASS",
+      legacyHtmlErrors: errors,
     },
   };
 }
 
 module.exports = {
   extractLegacyHtmlNodes,
+  extractTextNodeFallback,
   collectG3LegacyHtml,
 };

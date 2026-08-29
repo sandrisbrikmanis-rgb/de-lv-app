@@ -8,6 +8,7 @@ const {
   evaluateLunaCoverage,
 } = require("./lib/content-discovery/phase1-coverage-gates");
 const { buildPhase1ScopeInventory } = require("./lib/content-discovery/phase1-scope-inventory");
+const { buildInventoryFromScan } = require("./lib/main-translation-field-inventory");
 
 function assert(condition, message) {
   if (!condition) {
@@ -47,5 +48,26 @@ assert(lunaFixture.pass, "luna fixture 318/318 pass");
 
 const lunaNotRun = evaluateLunaCoverage([], { mode: "NOT_RUN" });
 assert(lunaNotRun.status === "NOT_RUN", "luna NOT_RUN during F0");
+
+const badInventory = evaluateInventoryCoverage([
+  {
+    scopeId: "g2/a1/et",
+    inventoryApplicable: true,
+    inventoryCoverage: 0.5,
+    unmappedMainTranslationFields: 3,
+  },
+]);
+assert(!badInventory.pass, "inventory gate fails on unmapped/hardcoded mismatch");
+
+const badMulti = evaluateMultiScanCoverage([
+  {
+    scopeId: "g1/sentences/da",
+    multiScanApplicable: true,
+    multiScanCoverage: 1,
+    multiScanObjectsExpected: 796,
+    multiScanObjectsScanned: 97,
+  },
+]);
+assert(!badMulti.pass, "multi-scan gate fails when scanned != expected");
 
 console.log("PASS: phase1 coverage gate tests");

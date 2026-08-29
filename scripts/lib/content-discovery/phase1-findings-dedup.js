@@ -2,6 +2,7 @@
 "use strict";
 
 const { buildDedupKey, normalizeFinding } = require("./phase1-findings-validation");
+const { applySemanticRegistryDedup } = require("./phase1-semantic-dedup");
 
 function normalizeFieldPath(fieldPath) {
   return String(fieldPath || "")
@@ -68,13 +69,31 @@ function deduplicateFindings(findings = [], options = {}) {
     }
   }
 
+  const semanticRegistry = options.registry instanceof Map ? options.registry : new Map();
+  const semantic = applySemanticRegistryDedup(merged, semanticRegistry, {
+    strictConflict: options.strictConflict || false,
+  });
+
+  if (!semantic.pass) {
+    conflicts.push(
+      ...semantic.conflicts.map((c) => ({
+        dedupKey: c.signature,
+        findingA: c.findingA,
+        findingB: c.findingB,
+        type: "SEMANTIC_REGISTRY_CONFLICT",
+      })),
+    );
+  }
+
   const pass = conflicts.length === 0;
   return {
     pass,
     conflicts,
-    findings: merged,
-    dedupedCount: merged.length,
+    findings: semantic.findings,
+    dedupedCount: semantic.findings.length,
     inputCount: normalized.length,
+    semanticRegistry: semantic.registry,
+    semanticConflicts: semantic.conflicts,
   };
 }
 

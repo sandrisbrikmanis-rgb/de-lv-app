@@ -278,5 +278,27 @@ OWNER_REVIEW_VERDICT = OWNER_REVIEW_NEEDS_REPAIR
 
 ------------------------------------------------------------------------
 
+## 12. Repair mapping (R-001…R-011) — implementation trace
+
+> **Note:** This appendix documents the repair pass executed after the original review. It does **not** supersede §11 `OWNER_REVIEW_NEEDS_REPAIR` — a separate post-repair OWNER review is required.
+
+| ID | Files | Tests / verification |
+|----|-------|---------------------|
+| **R-001** | `inventory-metrics.js`, `main-translation-field-inventory.js`, `phase1-collect.js` | `test-phase1-f0-comp` inventory computed; `test-phase1-coverage-gates` negative unmapped |
+| **R-002** | `luna-adapter-runner.js`, `luna-transport.js`, `luna-object-loaders.js`, `luna-g2-reuse.js`, `luna-g1-*.js`, `luna-g3-lessons.js` | `test-phase1-f0-comp` adapter reachability + retry contract |
+| **R-003** | `luna-orchestrator.js`, `run-phase1-discovery.js` | `test-phase1-f0-comp` orchestrator mock Luna + coverage mismatch FAIL |
+| **R-004** | `phase1-collect.js`, `collectors/multi-translation.js` | `test-phase1-f0-comp` `g1/sentences/da` fieldsScanned=796; coverage gate negative |
+| **R-005** | `phase1-semantic-dedup.js`, `phase1-findings-dedup.js` | `test-phase1-findings-validation` + `test-phase1-f0-comp` PASS/conflict fixtures |
+| **R-006** | `g3-inventory-schema.js`, `main-translation-field-inventory.js` | `test-phase1-f0-comp` unknown G3 path fixture unmapped>0 |
+| **R-007** | `phase1-owner-prep.js`, `run-phase1-discovery.js` | `test-phase1-f0-comp` PRE_BACKLOG skip/FAIL/PASS; smoke `ownerPrepGenerated=false` |
+| **R-008** | `collectors/g3-legacy-html.js` | `test-phase1-f0-comp` malformed HTML + text-node fallback |
+| **R-009** | `report-builder.js` (`writeReportAtomic`), `run-phase1-discovery.js` | `test-phase1-f0-comp` atomic write + cleanup |
+| **R-010** | `run-phase1-discovery.js` | `test-phase1-f0-comp` `--bogus-flag` exit 1 without stack |
+| **R-011** | `reports/phase0-infrastructure-completion.md` | Full verification matrix in implementation report |
+
+**Implementation report:** `reports/phase0-infrastructure-completion.md`
+
+------------------------------------------------------------------------
+
 **Review file:** `reports/phase0-infrastructure-completion-owner-review.md`  
 **PR #698:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/698

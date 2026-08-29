@@ -44,6 +44,14 @@ function normalizeFinding(finding, index = 0) {
     classificationStatus: finding.classificationStatus || "NEEDS_REVIEW",
   };
   if (normalized.current === undefined) normalized.current = "";
+  if (!normalized.cardId && normalized.group === "g3" && normalized.fieldPath) {
+    const lessonKey = String(normalized.fieldPath).split(".")[0];
+    if (lessonKey && !lessonKey.startsWith("legacyHtml")) normalized.cardId = lessonKey;
+  }
+  if (!normalized.cardId && String(normalized.fieldPath || "").startsWith("legacyHtml.")) {
+    const parts = String(normalized.fieldPath).split(".");
+    if (parts.length >= 2) normalized.cardId = parts[1];
+  }
   normalized.findingStableId = finding.findingStableId || buildFindingStableId(normalized);
   normalized.dedupKey = finding.dedupKey || buildDedupKey(normalized);
   if (!normalized.auditId) {

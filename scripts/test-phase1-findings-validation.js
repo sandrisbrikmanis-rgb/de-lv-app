@@ -6,6 +6,7 @@ const {
   normalizeFinding,
 } = require("./lib/content-discovery/phase1-findings-validation");
 const { deduplicateFindings } = require("./lib/content-discovery/phase1-findings-dedup");
+const { applySemanticRegistryDedup } = require("./lib/content-discovery/phase1-semantic-dedup");
 
 function assert(condition, message) {
   if (!condition) {
@@ -51,5 +52,23 @@ const conflict = deduplicateFindings([
   { ...validFinding, auditId: "TEST-0004", classificationStatus: "VALIDATED_REAL_FINDING", source: "deterministic/other" },
 ]);
 assert(!conflict.pass, "duplicate validated findings should conflict");
+
+const lunaFinding = {
+  ...validFinding,
+  auditId: "TEST-0005",
+  source: "gpt-5.6-luna",
+  classificationStatus: "VALIDATED_REAL_FINDING",
+  reason: "same semantic issue",
+};
+const semanticPass = applySemanticRegistryDedup([lunaFinding], new Map());
+assert(semanticPass.pass, "semantic registry pass fixture");
+const semanticSeen = applySemanticRegistryDedup(
+  [{ ...lunaFinding, auditId: "TEST-0006", findingStableId: "f2", dedupKey: "k2" }],
+  semanticPass.registry,
+);
+assert(
+  semanticSeen.findings[0].classificationStatus === "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE",
+  "semantic non-match marks previously seen",
+);
 
 console.log("PASS: phase1 findings validation + dedup tests");

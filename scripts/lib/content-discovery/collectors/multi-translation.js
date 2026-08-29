@@ -79,7 +79,7 @@ function collectG1SentencesMultiTranslation({ lang, idPrefix }) {
       candidates: v.candidates,
     });
   }
-  return { findings, stats: { candidatesRaw: scan.rawCandidates } };
+  return { findings, stats: { candidatesRaw: scan.rawCandidates, fieldsScanned: scan.fieldsScanned } };
 }
 
 function collectG1VerbsMultiTranslation({ lang, idPrefix }) {

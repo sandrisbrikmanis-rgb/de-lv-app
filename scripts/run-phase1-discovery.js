@@ -25,10 +25,16 @@ const {
   normalizeOperationalPaths,
   buildPhase1MatrixSkeleton,
   toRepoRelativePath,
+  writeReportAtomic,
 } = require("./lib/content-discovery/report-builder");
 const { validateHistoryGates } = require("./lib/discovery-stability");
 const { CONTENT_LANGUAGES } = require("./lib/content-crowdin-bridge/constants");
 const { parseDatasetsArg } = require("./lib/content-discovery/registry");
+const { runLunaForScope } = require("./lib/luna-orchestrator");
+const {
+  runPreBacklogHistoryGate,
+  generateOwnerPrep,
+} = require("./lib/content-discovery/phase1-owner-prep");
 
 function parseLangsArg(value) {
   if (!value || value === "all") return [...CONTENT_LANGUAGES];
@@ -46,6 +52,7 @@ Options:
   --lang <code|all>     Limit language(s)
   --all-langs           All target languages
   --all-groups          g2 + g1 + g3
+  --debug               Show stack traces on errors
   --help                Show help
 `);
 }
@@ -58,11 +65,13 @@ function parseArgs(argv) {
     langs: null,
     datasetsByGroup: { ...PHASE1_DATASETS_BY_GROUP },
     help: false,
+    debug: false,
   };
 
   for (let i = 2; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === "--help" || arg === "-h") args.help = true;
+    else if (arg === "--debug") args.debug = true;
     else if (arg === "--skip-luna") {
       args.skipLuna = true;
       args.withLuna = false;
@@ -78,7 +87,11 @@ function parseArgs(argv) {
         args.datasetsByGroup[group] = parseDatasetsArg(group, value);
       }
     } else if (arg === "--lang") args.langs = parseLangsArg(argv[++i]);
-    else throw new Error(`Unknown argument: ${arg}`);
+    else {
+      const err = new Error(`Unknown argument: ${arg}`);
+      err.code = "UNKNOWN_CLI_ARG";
+      throw err;
+    }
   }
 
   if (!args.langs) args.langs = parseLangsArg("all");
@@ -104,7 +117,7 @@ function writePhase1Reports(matrix) {
   const outMd = path.join(reportsDir, "phase1-discovery-READONLY.md");
   const outLuna = path.join(reportsDir, "phase1-luna-stats.json");
 
-  fs.writeFileSync(outJson, `${JSON.stringify(normalized, null, 2)}\n`, "utf8");
+  writeReportAtomic(outJson, normalized);
 
   const lines = [
     "# Phase 1 discovery — READ-ONLY",
@@ -131,8 +144,8 @@ function writePhase1Reports(matrix) {
   }
   lines.push("", "## Notes", "", "- READ-ONLY discovery — no apply.", "");
 
-  fs.writeFileSync(outMd, `${lines.join("\n")}\n`, "utf8");
-  fs.writeFileSync(outLuna, `${JSON.stringify(normalized.lunaStats, null, 2)}\n`, "utf8");
+  writeReportAtomic(outMd, `${lines.join("\n")}\n`);
+  writeReportAtomic(outLuna, normalized.lunaStats);
 
   return {
     outJson: toRepoRelativePath(outJson),
@@ -174,6 +187,14 @@ async function runPhase1Discovery(options = {}) {
 
   const findings = [];
   const summary = [];
+  const lunaAggregate = {
+    lunaScopesExpected: 0,
+    lunaScopesProcessed: 0,
+    lunaCalls: 0,
+    lunaSuccessfulBatches: 0,
+    lunaRetryAttempts: 0,
+    failures: [],
+  };
 
   for (const scope of scopes) {
     const { findings: scopedFindings, stats } = collectPhase1Scope({
@@ -186,7 +207,7 @@ async function runPhase1Discovery(options = {}) {
     const critical = scopedFindings.filter((f) => f.severity === "CRITICAL").length;
     const high = scopedFindings.filter((f) => f.severity === "HIGH").length;
 
-    summary.push({
+    const row = {
       ...stats,
       scopeId: scope.scopeId,
       group: scope.group,
@@ -198,56 +219,117 @@ async function runPhase1Discovery(options = {}) {
       findingsDeterministic: scopedFindings.length,
       findingsLuna: 0,
       findingsValidated: 0,
-    });
+      lunaProcessed: false,
+      lunaObjectsExpected: 0,
+      lunaObjectsReturned: 0,
+      lunaStatus: stats.lunaApplicable ? "NOT_RUN" : "NOT_APPLICABLE",
+    };
+
+    const shouldRunLuna =
+      stats.lunaApplicable &&
+      (options.lunaMockIntegration || (options.withLuna && !options.skipLuna));
+
+    if (shouldRunLuna) {
+      const lunaResult = await runLunaForScope(scope, {
+        transport: options.lunaTransport,
+        fixtureMap: options.lunaFixtureMap,
+      });
+      if (!lunaResult.skipped) {
+        lunaAggregate.lunaScopesExpected += 1;
+        lunaAggregate.lunaScopesProcessed += 1;
+        lunaAggregate.lunaCalls += lunaResult.stats?.realCalls || 0;
+        lunaAggregate.lunaSuccessfulBatches += lunaResult.stats?.batches || 0;
+        lunaAggregate.lunaRetryAttempts += lunaResult.stats?.retries || 0;
+        if (!lunaResult.ok) {
+          lunaAggregate.failures.push({ scopeId: scope.scopeId, reason: lunaResult.reason });
+        }
+        row.lunaProcessed = true;
+        row.lunaObjectsExpected = lunaResult.lunaObjectsExpected || 0;
+        row.lunaObjectsReturned = lunaResult.lunaObjectsReturned || 0;
+        row.lunaStatus = lunaResult.lunaStatus;
+        row.findingsLuna = 0;
+      }
+    }
+
+    summary.push(row);
   }
 
   const validation = validateFindings(findings);
-  const dedup = deduplicateFindings(validation.findings);
+  const dedup = deduplicateFindings(validation.findings, { registry: options.semanticRegistry });
   const coverage = evaluateAllCoverageGates(
     { summary },
-    { luna: { mode: options.withLuna ? "LIVE" : "NOT_RUN" } },
+    {
+      luna: options.lunaMockIntegration
+        ? { mode: "LIVE" }
+        : { mode: options.withLuna ? "LIVE" : "NOT_RUN", fixture: options.lunaFixture },
+    },
   );
 
-  const historyGate = validateHistoryGates({
-    rawHistoryLoaded: true,
-    ownerHistoryLoaded: true,
-    preBacklogReady: true,
-  });
+  const validatedFindings = dedup.findings.filter((f) =>
+    ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
+  );
+
+  const historyGateInput = {
+    rawHistoryLoaded: options.rawHistoryLoaded !== false,
+    ownerHistoryLoaded: options.ownerHistoryLoaded !== false,
+    preBacklogReady: options.preBacklogReady !== false,
+  };
+  const historyGate = validateHistoryGates(historyGateInput);
+  const preBacklogGate = runPreBacklogHistoryGate(validatedFindings, options.registry || {});
+
+  let ownerPrep = null;
+  if (
+    validatedFindings.length > 0 &&
+    historyGate.PRE_BACKLOG_HISTORY_GATE === "PASS" &&
+    preBacklogGate.status === "PASS"
+  ) {
+    ownerPrep = generateOwnerPrep(
+      validatedFindings,
+      validatedFindings[0]?.scopeId || "aggregate",
+      path.join(ROOT, "reports", "phase1-owner-prep"),
+    );
+  }
 
   matrix.summary = summary;
   matrix.findings = dedup.findings;
   matrix.totals = {
     findingsRaw: findings.length,
-    findingsValidated: dedup.findings.filter((f) =>
-      ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED", "NEEDS_REVIEW"].includes(
+    findingsValidated: validatedFindings.length,
+    findingsExcluded: dedup.findings.filter((f) =>
+      ["FALSE_POSITIVE", "STYLE_ONLY", "PROJECT_CONVENTION", "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"].includes(
         f.classificationStatus,
       ),
     ).length,
-    findingsExcluded: dedup.findings.filter((f) =>
-      ["FALSE_POSITIVE", "STYLE_ONLY", "PROJECT_CONVENTION"].includes(f.classificationStatus),
-    ).length,
   };
   matrix.validation = {
-    pass: validation.pass && dedup.pass,
+    pass: validation.pass && dedup.pass && preBacklogGate.status !== "FAIL",
     schemaErrors: validation.schemaErrors,
     dedupConflicts: dedup.conflicts,
+    preBacklogGate,
   };
   matrix.coverage = coverage;
   matrix.gates = {
     PRE_BACKLOG_HISTORY_GATE: historyGate.PRE_BACKLOG_HISTORY_GATE,
+    PRE_BACKLOG_SEMANTIC_GATE: preBacklogGate.status,
+    ownerPrepGenerated: Boolean(ownerPrep),
   };
+  matrix.ownerPrep = ownerPrep;
   matrix.scope.processed = summary.length;
   matrix.scope.notApplicable = summary.filter((r) => r.applicability === "EXPECTED_NOT_APPLICABLE").length;
-  matrix.constraints.lunaCalls = 0;
+  matrix.constraints.lunaCalls = lunaAggregate.lunaCalls;
   matrix.lunaStats = {
-    lunaScopesExpected: options.withLuna ? summarizeApplicability().lunaApplicable : 0,
-    lunaScopesProcessed: 0,
-    lunaCalls: 0,
-    lunaSuccessfulBatches: 0,
-    lunaRetryAttempts: 0,
-    status: options.withLuna ? "LIVE" : "NOT_RUN",
+    lunaScopesExpected: options.withLuna || options.lunaMockIntegration ? summarizeApplicability().lunaApplicable : 0,
+    lunaScopesProcessed: lunaAggregate.lunaScopesProcessed,
+    lunaCalls: lunaAggregate.lunaCalls,
+    lunaSuccessfulBatches: lunaAggregate.lunaSuccessfulBatches,
+    lunaRetryAttempts: lunaAggregate.lunaRetryAttempts,
+    failures: lunaAggregate.failures,
+    status: options.withLuna || options.lunaMockIntegration ? "MOCK" : "NOT_RUN",
   };
-  matrix.verdict = validation.pass && dedup.pass ? "INFRASTRUCTURE_SMOKE_PASS" : "NEEDS_REPAIR";
+  matrix.verdict =
+    validation.pass && dedup.pass && preBacklogGate.status !== "FAIL" && lunaAggregate.failures.length === 0
+      ? "INFRASTRUCTURE_SMOKE_PASS"
+      : "NEEDS_REPAIR";
   matrix.status = options.withLuna ? "PHASE_1_IN_PROGRESS" : "PHASE_0_INFRASTRUCTURE_COMPLETION";
 
   const reports = writePhase1Reports(matrix);
@@ -259,11 +341,25 @@ async function runPhase1Discovery(options = {}) {
     productionDiff,
     inventory: inventoryWrite.inventory,
     blocked: false,
+    ownerPrep,
+    preBacklogGate,
+    lunaAggregate,
   };
 }
 
 async function main() {
-  const args = parseArgs(process.argv);
+  let args;
+  try {
+    args = parseArgs(process.argv);
+  } catch (error) {
+    if (error.code === "UNKNOWN_CLI_ARG") {
+      console.error(`ERROR: ${error.message}`);
+      console.error("Use --help for usage.");
+      process.exit(1);
+    }
+    throw error;
+  }
+
   if (args.help) {
     printHelp();
     process.exit(0);
@@ -299,7 +395,11 @@ async function main() {
     if (!result.matrix.validation.pass) process.exit(1);
     process.exit(0);
   } catch (error) {
-    console.error(error.message || error);
+    if (args.debug) {
+      console.error(error.stack || error);
+    } else {
+      console.error(error.message || error);
+    }
     process.exit(1);
   }
 }

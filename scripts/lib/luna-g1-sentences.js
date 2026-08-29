@@ -1,15 +1,24 @@
 #!/usr/bin/env node
 "use strict";
 
-const { getBatchLimit, chunkArray, runMockLunaAdapter } = require("./luna-phase1-core");
+const { createLunaAdapter } = require("./luna-adapter-runner");
+const { getBatchLimit } = require("./luna-phase1-core");
+const { loadG1SentencesObjects } = require("./luna-object-loaders");
 
-async function auditG1Sentences({ lang, objects = [], mock = true }) {
-  const batchSize = getBatchLimit("g1", "sentences");
-  const batches = chunkArray(objects, batchSize);
-  if (mock) {
-    return runMockLunaAdapter({ objects, scopeId: `g1/sentences/${lang}` });
-  }
-  throw new Error("Live Luna not allowed during F0-COMP");
+function serializeG1Sentence(obj) {
+  return { id: obj.id, de: obj.de, lv: obj.lv, productionFile: obj.productionFile };
 }
 
-module.exports = { auditG1Sentences, getBatchLimit, chunkArray };
+async function auditG1Sentences({ lang, scopeId, transport, options = {} }) {
+  const id = scopeId || `g1/sentences/${lang}`;
+  const adapter = createLunaAdapter({
+    name: "g1-sentences",
+    loadObjects: () => loadG1SentencesObjects(lang),
+    getId: (obj) => obj.id,
+    serialize: serializeG1Sentence,
+    batchSize: getBatchLimit("g1", "sentences"),
+  });
+  return adapter(id, { transport, ...options });
+}
+
+module.exports = { auditG1Sentences, serializeG1Sentence };

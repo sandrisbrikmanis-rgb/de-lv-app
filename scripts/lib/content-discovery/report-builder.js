@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
+const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("../audit-common");
 
@@ -75,6 +76,37 @@ function findAbsoluteOperationalPaths(value, hits = [], keyPath = "") {
   return hits;
 }
 
+function writeReportAtomic(targetPath, data) {
+  const dir = path.dirname(targetPath);
+  fs.mkdirSync(dir, { recursive: true });
+  const payload = typeof data === "string" ? data : `${JSON.stringify(data, null, 2)}\n`;
+  const tempPath = path.join(dir, `.${path.basename(targetPath)}.${process.pid}.tmp`);
+  let fd;
+  try {
+    fd = fs.openSync(tempPath, "w");
+    fs.writeSync(fd, payload, "utf8");
+    fs.fsyncSync(fd);
+    fs.closeSync(fd);
+    fd = null;
+    fs.renameSync(tempPath, targetPath);
+  } catch (error) {
+    if (fd != null) {
+      try {
+        fs.closeSync(fd);
+      } catch (_) {
+        /* ignore */
+      }
+    }
+    try {
+      if (fs.existsSync(tempPath)) fs.unlinkSync(tempPath);
+    } catch (_) {
+      /* ignore */
+    }
+    throw error;
+  }
+  return targetPath;
+}
+
 function buildPhase1MatrixSkeleton({ originMainSha, masterVersion, status, mode = "READ_ONLY" }) {
   return {
     phase: 1,
@@ -123,5 +155,6 @@ module.exports = {
   isAbsoluteOperationalPath,
   normalizeOperationalPaths,
   findAbsoluteOperationalPaths,
+  writeReportAtomic,
   buildPhase1MatrixSkeleton,
 };
