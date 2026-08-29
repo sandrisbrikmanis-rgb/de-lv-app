@@ -34,7 +34,7 @@
 |-------|---------------------|
 | `REVIEWED_CODE_SHA` | `6ce6d33028b0922309127bc79463d3afa9d73d71` |
 | `REPORT_COMMIT_SHA` | `bd713ccece50edc9ad3e15e27925f2516c9df6fd` |
-| `FINAL_PR_HEAD_SHA` | `bd713ccece50edc9ad3e15e27925f2516c9df6fd` |
+| `FINAL_PR_HEAD_SHA` | `7ba9a1a79d0ae2c3467bfe7c3895db97d30e9f7c` |
 
 ------------------------------------------------------------------------
 
