@@ -24,8 +24,8 @@
 
 | Field | SHA |
 |-------|-----|
-| **REPORT_COMMIT_SHA** | `4ffa275f` (report-only commit on branch) |
-| **FINAL_PR_HEAD_SHA** | `4ffa275f` |
+| **REPORT_COMMIT_SHA** | `b35f944f` (report-only commit on branch) |
+| **FINAL_PR_HEAD_SHA** | `b35f944f` |
 
 ---
 
@@ -263,8 +263,8 @@ PR #700 real Luna infrastructure is approved for merge consideration. PR remains
 {
   "ORIGIN_MAIN_SHA": "f933a854211997df6bd9328018d549afeebd2673",
   "REVIEWED_CODE_SHA": "e6f3f239ab321940db764793f0fc951ac1eb8db4",
-  "REPORT_COMMIT_SHA": "4ffa275f",
-  "FINAL_PR_HEAD_SHA": "4ffa275f",
+  "REPORT_COMMIT_SHA": "b35f944f",
+  "FINAL_PR_HEAD_SHA": "b35f944f",
   "realTransportStatus": "FUNCTIONAL",
   "mockRealSeparationStatus": "PASS",
   "cliGateStatus": "PASS",
