@@ -13,7 +13,7 @@
 |-------|---------------------|
 | `REPAIR_BASELINE_SHA` | `ea576a892fa3e518578f8c29bfeb5a6e7475d7e0` |
 | `IMPLEMENTATION_COMMIT_SHA` | `cf725c15496326240877c784e265acc690a18e62` |
-| `FINAL_PR_HEAD_SHA` | `cf725c15496326240877c784e265acc690a18e62` |
+| `FINAL_PR_HEAD_SHA` | `e601ff5240550e9f3d5e102ba7a3cf83e448dd2b` |
 | `ORIGIN_MAIN_SHA` | `1d878da08830f0412af722829d98d2f4b574095c` |
 
 ------------------------------------------------------------------------
@@ -137,7 +137,7 @@ This R-012 repair does **not** rewrite those documents.
 | Field | Value |
 |-------|-------|
 | `IMPLEMENTATION_COMMIT_SHA` | `cf725c15496326240877c784e265acc690a18e62` |
-| `FINAL_PR_HEAD_SHA` | `cf725c15496326240877c784e265acc690a18e62` |
+| `FINAL_PR_HEAD_SHA` | `e601ff5240550e9f3d5e102ba7a3cf83e448dd2b` |
 
 ------------------------------------------------------------------------
 
