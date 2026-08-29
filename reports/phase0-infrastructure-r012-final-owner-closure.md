@@ -18,8 +18,8 @@
 | `REVIEWED_CODE_SHA` | `55146b1fc95b343ba0bec77875d642cbdcf1b277` |
 | `R-012_IMPLEMENTATION_SHA` | `cf725c15496326240877c784e265acc690a18e62` |
 | `POST_REPAIR_OWNER_REVIEW_SHA` | `ea576a892fa3e518578f8c29bfeb5a6e7475d7e0` |
-| `REPORT_COMMIT_SHA` | *(set after this report commit — see §10)* |
-| `FINAL_PR_HEAD_SHA` | *(set after push — see §10)* |
+| `REPORT_COMMIT_SHA` | `90acb1a0f97f60f343f6e4a621d740fc73b431d6` |
+| `FINAL_PR_HEAD_SHA` | `90acb1a0f97f60f343f6e4a621d740fc73b431d6` |
 
 **Fetch confirmation (this review session):**
 
