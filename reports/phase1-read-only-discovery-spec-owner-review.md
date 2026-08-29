@@ -587,3 +587,28 @@ VERDICT = OWNER_REVIEW_PASS
 **Review file:** `reports/phase1-read-only-discovery-spec-owner-review.md`  
 **Draft PR:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/695  
 **Post-repair verdict:** §19 — `OWNER_REVIEW_PASS`
+
+---
+
+## 20. OWNER batch hierarhijas precizējums (post-#688, F-007…F-009)
+
+**Date:** 2026-08-29  
+**Scope:** Saskaņošana starp MASTER `§7.31` un Phase 1 `§5.3` pēc PR #688 repair.
+
+| Item | OWNER position |
+|------|----------------|
+| **R-019 (vēsturiskais)** | **Paliek nemainīts** — per-group defaults apstiprināti 2026-08-29 |
+| **F-007…F-009** | **OWNER ACCEPTED** — normatīvā Luna batch hierarhija |
+| **G2** | ordinary=25, `minimalStudy`=10, `standardStudy`=5 |
+| **G1 sentences** | 25 pilni teikumu objekti |
+| **G1 verbs** | 10 pilni verba objekti (5 formas nedalāmas) |
+| **G1 courseTrainingCards** | 50 pilni training-card objekti |
+| **G3 courseLessons** | 20 pilni lesson objekti |
+| **Prioritāte** | Dataset-specific limits > grupas limits |
+| **Vēsturiskie verdicti** | §14 un §19 **nemainīti** |
+
+**Avots:** `PROJECT_LANGUAGE_MASTER_STANDARD.md` §7.31; `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` §5.3.
+
+---
+
+**Post-repair verdict:** §19 — `OWNER_REVIEW_PASS` | **Batch alignment:** §20
