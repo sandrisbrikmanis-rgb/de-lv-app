@@ -392,18 +392,18 @@ VERDICT = OWNER_REVIEW_NEEDS_SPEC_REPAIR
 | R-001 | **MAPPED** | §1.2 Scope skaitītāji; §2.4 Scope klases; §1.4 F1-3/F1-4 denominatori |
 | R-002 | **MAPPED** | §4.4 F1-6 findings validācijas shēma; §1.4 F1-6 |
 | R-003 | **MAPPED** | §5.4 Timeout/retry/FAIL; §1.4 F1-5; §5.5 explicit coverage |
-| R-004 | **MAPPED** | §3.1 G3 Phase 1 apjoms; §4.1 `legacyHtml` kolektors; §4.7; P1-IMPL-2 |
+| R-004 | **MAPPED** | §3.1 G3 Phase 1 apjoms; §4.1 `legacyHtml` kolektors; §4.7; F0-COMP-2 |
 | R-005 | **MAPPED** | §8.1 `VALIDATED_FINDINGS > 0`; §1.4 F1-8 |
 | R-006 | **MAPPED** | §8.2–8.4 `phase1-full` OWNER-PREP shēma (MASTER §7.6) |
 | R-007 | **MAPPED** | §4.3 Stable ID/dedupKey; §4.5 deduplikācija |
-| R-008 | **MAPPED** | §4.6 G1 verbs inventory/multi-scan ceļi; P1-IMPL-3 |
+| R-008 | **MAPPED** | §4.6 G1 verbs inventory/multi-scan ceļi; F0-COMP-3 |
 | R-009 | **MAPPED** | §9.1 F1-7 aizliegtie ceļi; §1.4 F1-7 |
-| R-010 | **MAPPED** | §4.2 gaps → P1-IMPL; §10 P1-IMPL-1…15 (GAP-09…15) |
+| R-010 | **MAPPED** | §4.2 gaps → F0-COMP; §10 F0-COMP-1…15 (GAP-09…15) |
 | R-011 | **MAPPED** | §1.2, §1.4 F1-2 `PROCESSED=320`; §7.2 matrica |
 | R-012 | **MAPPED** | §5.3 batch politika (R-019 OWNER defaults) |
 | R-013 | **MAPPED** | §5.9 Luna atkārtotas izpildes variance |
 | R-014 | **MAPPED** | §14 Crowdin export = opcionāls, nav F1 exit vārts |
-| R-015 | **MAPPED** | §2.5 scope inventārs; P1-IMPL-7 |
+| R-015 | **MAPPED** | §2.5 scope inventārs; F0-COMP-7 |
 | R-016 | **MAPPED** | Header statuss `PHASE_1_NOT_STARTED`; §13 |
 | R-017 | **MAPPED** | §2.2 `scopeId` vienots; §5.3 progress faili |
 | R-018 | **MAPPED** | §3.1 G3 LIVE OUT OF PHASE 1; §12 MASTER karte |
@@ -415,6 +415,23 @@ VERDICT = OWNER_REVIEW_NEEDS_SPEC_REPAIR
 
 ---
 
+## 18. OWNER phase alignment (MASTER §C–D)
+
+**Date:** 2026-08-29  
+**Scope:** Posmu salāgojums specifikācijā pēc repair; **ne** jauns review verdict.
+
+| Item | OWNER position |
+|------|----------------|
+| **R-018…R-021** | **4/4 OWNER ACCEPTED** (skat. §16) |
+| **Infrastruktūras soļi** | Bijušie `P1-IMPL-1…15` pārklasificēti par **`F0-COMP-1…15`** spec §10 |
+| **Klasifikācija** | **Fāzes 0 infrastruktūras completion** pirms Fāzes 1 READ-ONLY discovery |
+| **Atcelšana** | **Nekas nav atcelts** — visi 15 tehniskie darbi saglabāti (faili, testi, PASS/FAIL, fail-safe) |
+| **MASTER §C–D** | Posmu konflikts **novērsts**: §C infrastruktūra = F0-COMP; §D discovery = Fāze 1 pēc `PHASE_0_INFRASTRUCTURE_COMPLETION = PASS` |
+| **Fāze 1 režīms** | **READ-ONLY** nemainīts |
+| **Vēsturiskais verdict** | `OWNER_REVIEW_NEEDS_SPEC_REPAIR` (§14) **paliek nemainīts** |
+
+---
+
 **Review file:** `reports/phase1-read-only-discovery-spec-owner-review.md`  
 **Draft PR:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/695  
-**Spec repair:** applied in same commit (§17 mapping)
+**Spec repair:** §17 mapping | **Phase alignment:** §18
