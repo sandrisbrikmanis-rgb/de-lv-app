@@ -305,3 +305,111 @@ git diff --name-only origin/main...cd91afd2 -- data www/data languages crowdin/c
 **Review branch PR:** (Draft PR from `cursor/pr-685-688-consolidated-review-ab00`)  
 **PR #695 merge commit:** `2bb48787999ee8746c473c70aad3fb04a3254027`  
 **Review base `ORIGIN_MAIN_SHA`:** `2bb48787999ee8746c473c70aad3fb04a3254027`
+
+---
+
+## 10. Post-repair review — PR #688 (2026-08-29)
+
+**Type:** Pilns READ-ONLY pēclabojumu review pēc F-001…F-009 repair  
+**Historical verdicts (§8, §1–§9):** **nemainīti**
+
+### 10.1 PR #688 repair baseline
+
+| Item | Before repair | After repair | Status |
+|------|---------------|--------------|--------|
+| PR #688 HEAD SHA | `cd91afd22e6294110cd05b66dfe09de6aa5d3aed` | `e227171cad517e947e17d3546515cf95509fcd4c` | ✓ |
+| Repair commit SHA | — | `e227171cad517e947e17d3546515cf95509fcd4c` | ✓ |
+| Backup ref | — | `backup/pr-688-pre-repair-cd91afd2` | ✓ |
+| Rebase base | `a2a769e8` (stale) | `origin/main` `2bb48787` | ✓ |
+| `merge-base` with `origin/main` | — | `2bb48787999ee8746c473c70aad3fb04a3254027` | ✓ |
+| Push method | — | `--force-with-lease` | ✓ |
+| PR #688 Draft | ✓ | ✓ (unchanged) | ✓ |
+
+### 10.2 F-001…F-009 resolution matrix
+
+| ID | Issue | Status | Evidence |
+|----|-------|--------|----------|
+| F-001 | `§18` SAISTOŠAIS DARBA LĪGUMS trūkst | **RESOLVED** | `## 18. SAISTOŠAIS...` ×1; 3 binding refs |
+| F-002 | `# 8. OWNER REVIEW` trūkst | **RESOLVED** | `# 8. OWNER REVIEW` ×1 |
+| F-003 | v1.13 versiju izsekojamība | **RESOLVED** | `**Versiju ķēde:** v1.13 → … → v1.17` header |
+| F-004 | Rebase + Phase 1 atsauce | **RESOLVED** | merge-base = main; `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` in §18 |
+| F-005 | `§7.5`/`§7.6` secība | **RESOLVED** | `§7.5` precedes `§7.6` |
+| F-006 | `# 11.6` numerācija | **RESOLVED** | `## 11.6` (0× `# 11.6`) |
+| F-007 | G2 batch 25/10/5 | **RESOLVED** | MASTER `§7.31` + Phase 1 `§5.3` |
+| F-008 | G1 sentences batch 25 | **RESOLVED** | MASTER `§7.68` + Phase 1 `§5.3` |
+| F-009 | G1 verbs batch 10 | **RESOLVED** | MASTER `§7.94` + Phase 1 `§5.3` |
+
+**Repair summary:** `9/9 RESOLVED` | **OPEN:** `0`
+
+### 10.3 OWNER batch decisions (F-007…F-009)
+
+| Decision | Applied | MASTER | Phase 1 §5.3 |
+|----------|:-------:|:------:|:------------:|
+| G2 ordinary=25, minimalStudy=10, standardStudy=5 | ✓ | `§7.31` | ✓ |
+| G1 sentences=25 | ✓ | `§7.31`, `§7.68` | ✓ |
+| G1 verbs=10 (5 formas nedalāmas) | ✓ | `§7.31`, `§7.94` | ✓ |
+| G1 courseTrainingCards=50 | ✓ | `§7.31` | ✓ |
+| G3 courseLessons=20 | ✓ | `§7.31` | ✓ |
+
+**OWNER decisions:** `3/3 ACCEPTED AND VERIFIED`
+
+### 10.4 MASTER / Phase 1 batch parity
+
+| Check | MASTER `§7.31` | Phase 1 `§5.3` | Match |
+|-------|:--------------:|:--------------:|:-----:|
+| G2 ordinary | 25 | 25 | ✓ |
+| G2 minimalStudy | 10 | 10 | ✓ |
+| G2 standardStudy | 5 | 5 | ✓ |
+| G1 sentences | 25 | 25 | ✓ |
+| G1 verbs | 10 | 10 | ✓ |
+| G1 courseTrainingCards | 50 | 50 | ✓ |
+| G3 courseLessons | 20 | 20 | ✓ |
+
+**Batch parity:** **PASS**
+
+### 10.5 Post-repair compliance
+
+| Check | Result |
+|-------|--------|
+| MASTER header/footer/changelog | v1.17 ✓ |
+| v1.13–v1.17 kumulatīvs saturs | saglabāts ✓ |
+| PR #695 Phase 1 docs on branch | saglabāti (rebase) ✓ |
+| MASTER conflicts vs binding / Phase 1 | **0** |
+| Production diff | **0** |
+| DE changes | **0** |
+| #685–#687 modified | **NO** |
+| F0-COMP / discovery / Luna | not started ✓ |
+
+### 10.6 Updated per-PR verdicts
+
+| PR | Pre-repair | Post-repair |
+|----|------------|-------------|
+| **#685** | SUPERSEDED | SUPERSEDED (unchanged) |
+| **#686** | SUPERSEDED | SUPERSEDED (unchanged) |
+| **#687** | SUPERSEDED | SUPERSEDED (unchanged) |
+| **#688** | NEEDS_REPAIR | **`REVIEW_PASS`** |
+
+### 10.7 Post-repair integration verdict
+
+```
+INTEGRATION_VERDICT = REVIEW_PASS
+```
+
+| Criterion | Result |
+|-----------|--------|
+| `9/9` findings RESOLVED | ✓ |
+| `3/3` OWNER VERIFIED | ✓ |
+| MASTER conflicts | **0** |
+| Production diff | **0** |
+| #688 cumulative v1.13–v1.17 + main content | ✓ |
+
+**Recommended next step:** merge **#688 only** (after undraft + final OWNER approval); close **#685–#687** as SUPERSEDED.
+
+**Not authorized:** automatic merge, F0-COMP, Phase 1 discovery, Luna API.
+
+---
+
+**Review file:** `reports/pr-685-688-consolidated-owner-review.md`  
+**Draft PR #696:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/696  
+**PR #688 (repaired):** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/688  
+**Post-repair verdict:** §10 — `REVIEW_PASS` (#688)
