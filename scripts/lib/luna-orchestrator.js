@@ -62,7 +62,11 @@ async function runLunaForScope(scope, options = {}) {
     };
   }
 
-  const transport = options.transport || createLunaTransport({ mock: true, fixtureMap: options.fixtureMap });
+  const transport =
+    options.transport ||
+    (options.useRealTransport
+      ? createLunaTransport({ mode: "real" })
+      : createLunaTransport({ mode: "mock", fixtureMap: options.fixtureMap }));
   const result = await runner({
     ...scope,
     scopeId: scopeMeta.scopeId,

@@ -31,6 +31,9 @@ const { validateHistoryGates } = require("./lib/discovery-stability");
 const { CONTENT_LANGUAGES } = require("./lib/content-crowdin-bridge/constants");
 const { parseDatasetsArg } = require("./lib/content-discovery/registry");
 const { runLunaForScope } = require("./lib/luna-orchestrator");
+const { createLunaTransport } = require("./lib/luna-transport");
+const { authorizeWithLunaDiscovery } = require("./lib/phase1-luna-authorize");
+const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
 const {
   runPreBacklogHistoryGate,
   generateOwnerPrep,
@@ -193,6 +196,7 @@ async function runPhase1Discovery(options = {}) {
     lunaCalls: 0,
     lunaSuccessfulBatches: 0,
     lunaRetryAttempts: 0,
+    tokensUsed: 0,
     failures: [],
   };
 
@@ -230,9 +234,15 @@ async function runPhase1Discovery(options = {}) {
       (options.lunaMockIntegration || (options.withLuna && !options.skipLuna));
 
     if (shouldRunLuna) {
+      const lunaTransport =
+        options.lunaTransport ||
+        (options.withLuna
+          ? createLunaTransport({ mode: "real" })
+          : createLunaTransport({ mode: "mock", fixtureMap: options.lunaFixtureMap }));
       const lunaResult = await runLunaForScope(scope, {
-        transport: options.lunaTransport,
+        transport: lunaTransport,
         fixtureMap: options.lunaFixtureMap,
+        lunaObjectLimit: options.lunaObjectLimit,
       });
       if (!lunaResult.skipped) {
         lunaAggregate.lunaScopesExpected += 1;
@@ -240,6 +250,7 @@ async function runPhase1Discovery(options = {}) {
         lunaAggregate.lunaCalls += lunaResult.stats?.realCalls || 0;
         lunaAggregate.lunaSuccessfulBatches += lunaResult.stats?.batches || 0;
         lunaAggregate.lunaRetryAttempts += lunaResult.stats?.retries || 0;
+        lunaAggregate.tokensUsed += lunaResult.stats?.tokensUsed || 0;
         if (!lunaResult.ok) {
           lunaAggregate.failures.push({ scopeId: scope.scopeId, reason: lunaResult.reason });
         }
@@ -331,7 +342,10 @@ async function runPhase1Discovery(options = {}) {
     lunaSuccessfulBatches: lunaAggregate.lunaSuccessfulBatches,
     lunaRetryAttempts: lunaAggregate.lunaRetryAttempts,
     failures: lunaAggregate.failures,
-    status: options.withLuna || options.lunaMockIntegration ? "MOCK" : "NOT_RUN",
+    transport: options.withLuna ? "REAL" : options.lunaMockIntegration ? "MOCK" : "NOT_RUN",
+    status: options.withLuna ? "REAL" : options.lunaMockIntegration ? "MOCK" : "NOT_RUN",
+    model: options.withLuna ? DEFAULT_MODEL : undefined,
+    tokensUsed: lunaAggregate.tokensUsed || 0,
   };
   matrix.verdict =
     validation.pass && dedup.pass && preBacklogGate.status !== "FAIL" && lunaAggregate.failures.length === 0
@@ -373,10 +387,21 @@ async function main() {
   }
 
   try {
+    if (args.withLuna) {
+      const auth = authorizeWithLunaDiscovery();
+      if (!auth.pass) {
+        const first = auth.blockers[0];
+        console.error(`BLOCKED: ${first.code}`);
+        console.error(first.message);
+        process.exit(1);
+      }
+    }
+
     const result = await runPhase1Discovery({
       ...args,
       skipLuna: !args.withLuna,
-      allowWithLuna: false,
+      allowWithLuna: args.withLuna,
+      lunaTransport: args.withLuna ? createLunaTransport({ mode: "real" }) : undefined,
     });
 
     if (result.blocked) {

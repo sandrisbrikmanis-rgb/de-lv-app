@@ -320,21 +320,12 @@ function writePhase0ExitReports(exitMatrix) {
   return { outJson, outMd, outMatrix };
 }
 
-function main() {
-  console.log("\n=== Phase 0 exit matrix (F0-1…F0-8) ===\n");
-
+function runPhase0ExitEvaluation(options = {}) {
   const scopeInventory = buildScopeInventory(DISCOVERY_SCOPE.langs, DISCOVERY_SCOPE.datasetsByGroup);
   const bridgeGate = verifyBridgeLibrary();
   const exportGate = verifyExportDryRunOnly();
   const roundTrips = runRoundTripMatrix();
-
   const discovery = runContentDiscovery(DISCOVERY_SCOPE);
-
-  const { outJson, outMd } = writeDiscoveryReports(discovery, {
-    outJson: path.join(ROOT, "reports", "content-discovery-matrix.json"),
-    outMd: path.join(ROOT, "reports", "content-discovery-READONLY.md"),
-  });
-
   const productionDiffResult = gitProductionDiff(discovery.originMainSha);
   const exitMatrix = evaluateExitCriteria({
     roundTrips,
@@ -344,9 +335,21 @@ function main() {
     exportGate,
     scopeInventory,
   });
+  if (options.writeReports !== false) {
+    writeDiscoveryReports(discovery, {
+      outJson: path.join(ROOT, "reports", "content-discovery-matrix.json"),
+      outMd: path.join(ROOT, "reports", "content-discovery-READONLY.md"),
+    });
+    writePhase0ExitReports(exitMatrix);
+  }
+  return exitMatrix;
+}
 
-  const { outJson: exitJson, outMd: exitMd, outMatrix } = writePhase0ExitReports(exitMatrix);
+function main() {
+  console.log("\n=== Phase 0 exit matrix (F0-1…F0-8) ===\n");
 
+  const exitMatrix = runPhase0ExitEvaluation({ writeReports: true });
+  const scopeInventory = exitMatrix.scopeInventory;
   const g = exitMatrix.gates;
   console.log(`Status: ${exitMatrix.status}`);
   console.log(`Verdict: ${exitMatrix.verdict}`);
@@ -370,10 +373,10 @@ function main() {
   );
   console.log(`F0-8 all-groups: ${gateLabel(g.F0_8_all_groups_coverage.pass)}`);
   console.log(`Scope inventory: ${scopeInventory.expectedScope} expected, ${scopeInventory.uniqueScopeIds} unique`);
-  console.log(`Discovery: ${outJson}`);
-  console.log(`Exit report: ${exitJson}`);
-  console.log(`Exit MD: ${exitMd}`);
-  console.log(`Exit matrix: ${outMatrix}`);
+  console.log(`Discovery: ${path.join(ROOT, "reports", "content-discovery-matrix.json")}`);
+  console.log(`Exit report: ${path.join(ROOT, "reports", "phase0-exit.json")}`);
+  console.log(`Exit MD: ${path.join(ROOT, "reports", "phase0-exit.md")}`);
+  console.log(`Exit matrix: ${path.join(ROOT, "reports", "phase0-exit-matrix.json")}`);
   console.log("");
 
   if (!exitMatrix.phase0Complete) {
@@ -381,4 +384,12 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  runPhase0ExitEvaluation,
+  evaluateExitCriteria,
+  buildScopeInventory,
+};

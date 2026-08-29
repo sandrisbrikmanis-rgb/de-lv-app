@@ -39,6 +39,12 @@ function validateBatchResponse(batch, response, getId) {
   const returnedIds = items.map((item) => getId(item));
   const missingIds = expectedIds.filter((id) => !returnedIds.includes(id));
   if (missingIds.length) issues.push('PARTIAL_RESPONSE');
+  const idCounts = {};
+  for (const id of returnedIds) {
+    idCounts[id] = (idCounts[id] || 0) + 1;
+  }
+  const duplicateIds = Object.keys(idCounts).filter((id) => idCounts[id] > 1);
+  if (duplicateIds.length) issues.push('DUPLICATE_IDS');
   const extra = returnedIds.filter((id) => !expectedIds.includes(id));
   if (extra.length) issues.push('UNEXPECTED_IDS');
   return {
@@ -141,14 +147,21 @@ async function runBatchedAdapter({
 
 function createLunaAdapter({ name, loadObjects, getId, serialize, batchSize }) {
   return async function runAdapter(scopeId, options = {}) {
-    const transport = options.transport || createLunaTransport();
-    const objects = loadObjects(scopeId, options);
+    const transport =
+      options.transport ||
+      (options.useRealTransport
+        ? require("./luna-transport").createLunaTransport({ mode: "real" })
+        : require("./luna-transport").createLunaTransport({ mode: "mock" }));
+    let objects = loadObjects(scopeId, options);
+    if (options.lunaObjectLimit && options.lunaObjectLimit > 0) {
+      objects = objects.slice(0, options.lunaObjectLimit);
+    }
     return runBatchedAdapter({
       transport,
       objects,
       getId,
       serialize,
-      batchSize,
+      batchSize: options.batchSize || batchSize,
       scopeId,
       adapterName: name,
     });
