@@ -269,10 +269,10 @@ Dedup: MASTER §7.13 path-family dedup; spec must reference it.
 | R-015 | **MEDIUM** | §2.4, P1-IMPL | `phase1-scope-inventory.json` not in impl plan | Missing artifact | Add to P1-IMPL-4 or P1-IMPL-5 | OPEN |
 | R-016 | **LOW** | §13 | Status definitions vs header "AWAITING IMPLEMENTATION" | Documentation noise | Align header with `PHASE_1_NOT_STARTED` | OPEN |
 | R-017 | **LOW** | §5.3 | `scopeKey` vs `scopeId` naming inconsistency | Parser confusion | Unify on `scopeId` format `g1/training/et` | OPEN |
-| R-018 | **OWNER_DECISION** | §8.3 G3 LIVE | Phase 1 G3 LIVE/runtime scope | Over- or under-scoping | Explicitly IN or OUT of Phase 1 with MASTER cite | **PENDING OWNER** |
-| R-019 | **OWNER_DECISION** | §5.3 | Luna batch size policy | Cost/coverage tradeoff | Choose per-group defaults (see §7) | **PENDING OWNER** |
-| R-020 | **OWNER_DECISION** | F1-5 | Implicit PASS for cards absent from Luna response | Coverage vs cost | Allow (current lib) or require explicit PASS per card | **PENDING OWNER** |
-| R-021 | **OWNER_DECISION** | §5.3 | Luna timeout / max retry values | API cost, wall time | Define N, backoff, wall-clock limit | **PENDING OWNER** |
+| R-018 | **OWNER_DECISION** | §8.3 G3 LIVE | Phase 1 G3 LIVE/runtime scope | Over- or under-scoping | Explicitly IN or OUT of Phase 1 with MASTER cite | **OWNER ACCEPTED** |
+| R-019 | **OWNER_DECISION** | §5.3 | Luna batch size policy | Cost/coverage tradeoff | Choose per-group defaults (see §7) | **OWNER ACCEPTED** |
+| R-020 | **OWNER_DECISION** | F1-5 | Implicit PASS for cards absent from Luna response | Coverage vs cost | Allow (current lib) or require explicit PASS per card | **OWNER ACCEPTED** |
+| R-021 | **OWNER_DECISION** | §5.3 | Luna timeout / max retry values | API cost, wall time | Define N, backoff, wall-clock limit | **OWNER ACCEPTED** |
 
 ---
 
@@ -371,6 +371,50 @@ VERDICT = OWNER_REVIEW_NEEDS_SPEC_REPAIR
 
 ---
 
+## 16. OWNER decisions applied (R-018…R-021)
+
+| ID | Status | OWNER decision (binding) |
+|----|--------|--------------------------|
+| **R-018** | **OWNER ACCEPTED: OUT OF PHASE 1** | Phase 1 ietver deterministisku `COURSE_LESSON_DATA` discovery un pilnu G3 `legacyHtml` teksta mezglu skenēšanu (MASTER §5.4). Phase 1 **neietver** G3 LIVE/runtime testus, browser closure, FLIP/NEXT/runtime smoke vārtus — atlikts uz Phase 3 / G3 closure (MASTER §5.3, §11.12). |
+| **R-019** | **OWNER ACCEPTED: PER-GROUP DEFAULTS** | Normatīvie noklusējumi: G2=`25`, G1=`50`, G3=`20`. Katram batch obligāti: `scopeId`, `batchId`, `batchSizeConfigured`, `objectsExpected`, `objectsReturned`, `attemptCount`. Batch izmēru nedrīkst mainīt izpildes laikā bez OWNER lēmuma. |
+| **R-020** | **OWNER ACCEPTED: IMPLICIT PASS AIZLIEGTS** | Katram Luna objektam obligāts explicit rezultāts. Ja `objectsReturned !== objectsExpected` vai trūkst ID → batch nederīgs, retry (R-021), pēc izsmelšanas scope=`FAIL`, F1-5=`FAIL`. Trūkstošus objektus nedrīkst klasificēt kā PASS. |
+| **R-021** | **OWNER ACCEPTED** | Timeout 180s; max 3 mēģinājumi/batch; retry ≤2 pēc sākotnējā; backoff 5s/15s; batch wall-clock 10min; malformed JSON/timeout/API/partial/coverage mismatch → retry; pēc 3. neveiksmes batch+scope=`FAIL`, F1-5=`FAIL`; aizliegts Phase 1 PASS ar nepilnu Luna coverage. |
+
+---
+
+## 17. Spec repair mapping (post-repair)
+
+**Repair target:** `docs_and_rules/PHASE_1_READ_ONLY_DISCOVERY_SPEC.md`  
+**Historical verdict:** `OWNER_REVIEW_NEEDS_SPEC_REPAIR` (§14) — **nemainīts**.
+
+| Review ID | Repair status | Repaired spec section(s) |
+|-----------|:-------------:|--------------------------|
+| R-001 | **MAPPED** | §1.2 Scope skaitītāji; §2.4 Scope klases; §1.4 F1-3/F1-4 denominatori |
+| R-002 | **MAPPED** | §4.4 F1-6 findings validācijas shēma; §1.4 F1-6 |
+| R-003 | **MAPPED** | §5.4 Timeout/retry/FAIL; §1.4 F1-5; §5.5 explicit coverage |
+| R-004 | **MAPPED** | §3.1 G3 Phase 1 apjoms; §4.1 `legacyHtml` kolektors; §4.7; P1-IMPL-2 |
+| R-005 | **MAPPED** | §8.1 `VALIDATED_FINDINGS > 0`; §1.4 F1-8 |
+| R-006 | **MAPPED** | §8.2–8.4 `phase1-full` OWNER-PREP shēma (MASTER §7.6) |
+| R-007 | **MAPPED** | §4.3 Stable ID/dedupKey; §4.5 deduplikācija |
+| R-008 | **MAPPED** | §4.6 G1 verbs inventory/multi-scan ceļi; P1-IMPL-3 |
+| R-009 | **MAPPED** | §9.1 F1-7 aizliegtie ceļi; §1.4 F1-7 |
+| R-010 | **MAPPED** | §4.2 gaps → P1-IMPL; §10 P1-IMPL-1…15 (GAP-09…15) |
+| R-011 | **MAPPED** | §1.2, §1.4 F1-2 `PROCESSED=320`; §7.2 matrica |
+| R-012 | **MAPPED** | §5.3 batch politika (R-019 OWNER defaults) |
+| R-013 | **MAPPED** | §5.9 Luna atkārtotas izpildes variance |
+| R-014 | **MAPPED** | §14 Crowdin export = opcionāls, nav F1 exit vārts |
+| R-015 | **MAPPED** | §2.5 scope inventārs; P1-IMPL-7 |
+| R-016 | **MAPPED** | Header statuss `PHASE_1_NOT_STARTED`; §13 |
+| R-017 | **MAPPED** | §2.2 `scopeId` vienots; §5.3 progress faili |
+| R-018 | **MAPPED** | §3.1 G3 LIVE OUT OF PHASE 1; §12 MASTER karte |
+| R-019 | **MAPPED** | §5.3 per-group batch defaults + batch metadata |
+| R-020 | **MAPPED** | §5.5 explicit rezultāts; §5.2 coverage; §1.4 F1-5 |
+| R-021 | **MAPPED** | §5.4 timeout/retry/backoff/wall-clock; §1.4 F1-5 |
+
+**Repair mapping summary:** `20/20 MAPPED` | **OWNER decisions applied:** `4/4` | **Unresolved:** `0`
+
+---
+
 **Review file:** `reports/phase1-read-only-discovery-spec-owner-review.md`  
 **Draft PR:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/695  
-**Spec unchanged in this task:** ✓
+**Spec repair:** applied in same commit (§17 mapping)
