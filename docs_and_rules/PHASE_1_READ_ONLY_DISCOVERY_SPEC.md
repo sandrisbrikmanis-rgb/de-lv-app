@@ -714,12 +714,30 @@ npm run i18n:content:phase1-discovery -- --with-luna
   "constraints": {
     "productionChanges": 0,
     "deChanges": 0,
-    "lunaCalls": 318,
     "crowdinProductionImport": 0,
     "translationApply": 0
+  },
+  "lunaStats": {
+    "lunaScopesExpected": 318,
+    "lunaScopesProcessed": 318,
+    "lunaCalls": 891,
+    "lunaSuccessfulBatches": 847,
+    "lunaRetryAttempts": 44
   }
 }
 ```
+
+`lunaStats` lauki (Piemērs B):
+
+| Lauks | Nozīme |
+|-------|--------|
+| `lunaScopesExpected` | Luna-applicable scope skaits (`318`) |
+| `lunaScopesProcessed` | Veiksmīgi apstrādātie scope (`318` pie `F1-5=PASS`) |
+| `lunaCalls` | Faktiskais Luna API mēģinājumu skaits (**> 0**; **≠** scope skaits — batch/retry dēļ) |
+| `lunaSuccessfulBatches` | Veiksmīgo batch skaits |
+| `lunaRetryAttempts` | Faktiskais retry skaits |
+
+Pilna statistika arī `reports/phase1-luna-stats.json`.
 
 ### 7.3 Ceļu portabilitāte
 

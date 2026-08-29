@@ -627,7 +627,7 @@ VERDICT = OWNER_REVIEW_PASS
 | **F0-COMP-15 laikā** | `LUNA_CALLS = 0`; `F1-5 = NOT_RUN`; `LUNA_AUDIT_SCOPE_COVERAGE = NOT_RUN`; `PHASE_1_DISCOVERY = NOT_STARTED` |
 | **`--with-luna`** | Tikai pēc `PHASE_0_COMPLETION_PASS`, atsevišķā Fāzes 1 uzdevumā |
 | **Statusu secība** | `PHASE_0_INFRASTRUCTURE_COMPLETION_REQUIRED` → `PHASE_0_COMPLETION_PASS` → `PHASE_1_NOT_STARTED` → `PHASE_1_IN_PROGRESS` |
-| **Exit JSON** | F0 completion piemērs: `F1-5=NOT_RUN`, `lunaAudit=NOT_RUN`, `lunaCalls=0`; Phase 1 complete piemērs: `F1-5=PASS`, `lunaAudit=318/318`, `lunaCalls > 0` |
+| **Exit JSON** | F0 completion piemērs: `F1-5=NOT_RUN`, `lunaAudit=NOT_RUN`, `lunaCalls=0`; Phase 1 complete piemērs: `F1-5=PASS`, `lunaAudit=318/318`, `lunaStats` ar `lunaScopesExpected/Processed=318`, `lunaCalls>0` (API mēģinājumi ≠ scope skaits), `lunaSuccessfulBatches`, `lunaRetryAttempts` |
 | **Vēsturiskie verdicti** | §14, §19, §20 **nemainīti** |
 
 **Avots:** `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` §6.1, §7.2, §10.15, §13.
