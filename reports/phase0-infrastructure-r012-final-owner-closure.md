@@ -236,8 +236,8 @@ OWNER_VERDICT = OWNER_ACCEPTED
 | Field | Value |
 |-------|-------|
 | `REVIEWED_CODE_SHA` | `55146b1fc95b343ba0bec77875d642cbdcf1b277` |
-| `REPORT_COMMIT_SHA` | *(filled after commit)* |
-| `FINAL_PR_HEAD_SHA` | *(filled after push)* |
+| `REPORT_COMMIT_SHA` | `90acb1a0f97f60f343f6e4a621d740fc73b431d6` |
+| `FINAL_PR_HEAD_SHA` | `90acb1a0f97f60f343f6e4a621d740fc73b431d6` |
 
 ------------------------------------------------------------------------
 
