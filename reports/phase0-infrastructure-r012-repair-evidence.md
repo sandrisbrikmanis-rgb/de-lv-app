@@ -12,8 +12,8 @@
 | Field | Full SHA (40 chars) |
 |-------|---------------------|
 | `REPAIR_BASELINE_SHA` | `ea576a892fa3e518578f8c29bfeb5a6e7475d7e0` |
-| `IMPLEMENTATION_COMMIT_SHA` | *(set at commit — see §9)* |
-| `FINAL_PR_HEAD_SHA` | *(set after push — see §9)* |
+| `IMPLEMENTATION_COMMIT_SHA` | `cf725c15496326240877c784e265acc690a18e62` |
+| `FINAL_PR_HEAD_SHA` | `cf725c15496326240877c784e265acc690a18e62` |
 | `ORIGIN_MAIN_SHA` | `1d878da08830f0412af722829d98d2f4b574095c` |
 
 ------------------------------------------------------------------------
@@ -136,8 +136,8 @@ This R-012 repair does **not** rewrite those documents.
 
 | Field | Value |
 |-------|-------|
-| `IMPLEMENTATION_COMMIT_SHA` | *(filled after commit)* |
-| `FINAL_PR_HEAD_SHA` | *(filled after push)* |
+| `IMPLEMENTATION_COMMIT_SHA` | `cf725c15496326240877c784e265acc690a18e62` |
+| `FINAL_PR_HEAD_SHA` | `cf725c15496326240877c784e265acc690a18e62` |
 
 ------------------------------------------------------------------------
 

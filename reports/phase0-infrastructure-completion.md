@@ -6,7 +6,7 @@
 **Repair baseline HEAD:** `2bbe006247525133d28d6f836876dda288c8833d`  
 **Repair commit HEAD:** `41bb6747852665f6bd3f02e020bb5fb1002733f4` (full R-001…R-011 repair)  
 **R-012 repair baseline HEAD:** `ea576a892fa3e518578f8c29bfeb5a6e7475d7e0` (post-repair OWNER review)  
-**R-012 repair commit HEAD:** *(see `reports/phase0-infrastructure-r012-repair-evidence.md` §9)*  
+**R-012 repair commit HEAD:** `cf725c15496326240877c784e265acc690a18e62`  
 **Base (`origin/main`):** `1d878da08830f0412af722829d98d2f4b574095c`  
 **Authoritative refs:** MASTER v1.17, `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` §10
 
