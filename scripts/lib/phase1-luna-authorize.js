@@ -2,26 +2,20 @@
 "use strict";
 
 const { runBaselineGate } = require("./content-discovery/baseline-gate");
-const { gitProductionDiffAgainstBaseline } = require("./content-discovery/git-baseline");
 const { isApiKeyConfigured } = require("./luna-phase1-openai");
 const { runPhase0ExitEvaluation } = require("../run-phase0-exit-matrix");
-
-const EXPECTED_BASELINE_SHA = "f933a854211997df6bd9328018d549afeebd2673";
+const { resolvePhase1GitIdentity } = require("./phase1-git-identity");
 
 function authorizeWithLunaDiscovery(options = {}) {
   const blockers = [];
-  const baseline = runBaselineGate();
 
-  if (options.requireBaselineSha !== false) {
-    const sha = baseline.originMainSha || "";
-    if (sha !== EXPECTED_BASELINE_SHA && !options.allowAnyBaselineSha) {
-      blockers.push({
-        code: "BASELINE_SHA_MISMATCH",
-        message: `origin/main SHA ${sha} does not match expected ${EXPECTED_BASELINE_SHA}`,
-      });
-    }
+  const identity =
+    options.gitIdentity || resolvePhase1GitIdentity(options.gitIdentityDeps || {});
+  if (!identity.pass) {
+    blockers.push(...identity.blockers);
   }
 
+  const baseline = options.baseline || runBaselineGate();
   if (baseline.verdict !== "PASS") {
     blockers.push({
       code: "BASELINE_GATE_FAIL",
@@ -29,23 +23,17 @@ function authorizeWithLunaDiscovery(options = {}) {
     });
   }
 
-  if (!options.skipApiKeyCheck && !isApiKeyConfigured()) {
-    blockers.push({
-      code: "OPENAI_API_KEY_MISSING",
-      message: "OPENAI_API_KEY is not configured",
-    });
-  }
-
-  const productionDiff = gitProductionDiffAgainstBaseline(baseline.originMainSha);
-  if (!productionDiff.clean) {
-    blockers.push({
-      code: "PRODUCTION_DIFF_NONZERO",
-      message: "Production diff is not clean",
-    });
-  }
-
   if (!options.skipPhase0Check) {
-    const phase0 = options.phase0Matrix || runPhase0ExitEvaluation({ writeReports: false });
+    const phase0 =
+      options.phase0Matrix ||
+      runPhase0ExitEvaluation({ writeReports: false, git: options.gitIdentityDeps?.git });
+    const evaluatedHeadSha = phase0.evaluatedHeadSha || null;
+    if (evaluatedHeadSha && identity.headSha && evaluatedHeadSha !== identity.headSha) {
+      blockers.push({
+        code: "PHASE_0_HEAD_SHA_MISMATCH",
+        message: `Phase 0 evaluated at ${evaluatedHeadSha} but authorization HEAD is ${identity.headSha}`,
+      });
+    }
     if (!phase0.phase0Complete) {
       blockers.push({
         code: "PHASE_0_EXIT_FAIL",
@@ -62,6 +50,15 @@ function authorizeWithLunaDiscovery(options = {}) {
     }
   }
 
+  if (!options.skipApiKeyCheck && !isApiKeyConfigured()) {
+    blockers.push({
+      code: "OPENAI_API_KEY_MISSING",
+      message: "OPENAI_API_KEY is not configured",
+    });
+  }
+
+  const productionDiff = options.productionDiff || identity.productionDiff || { clean: false, changed: [] };
+
   return {
     pass: blockers.length === 0,
     blockers,
@@ -69,11 +66,11 @@ function authorizeWithLunaDiscovery(options = {}) {
     message: blockers[0]?.message || null,
     baseline,
     productionDiff,
+    gitIdentity: identity,
     transport: "REAL",
   };
 }
 
 module.exports = {
-  EXPECTED_BASELINE_SHA,
   authorizeWithLunaDiscovery,
 };

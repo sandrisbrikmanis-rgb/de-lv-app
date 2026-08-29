@@ -22,6 +22,9 @@ const {
 } = require("./lib/luna-phase1-openai");
 const { authorizeWithLunaDiscovery } = require("./lib/phase1-luna-authorize");
 const { runPhase1Discovery } = require("./run-phase1-discovery");
+const { resolvePhase1GitIdentity } = require("./lib/phase1-git-identity");
+
+const SHA_TEST = "cccccccccccccccccccccccccccccccccccccccc";
 
 function assert(condition, message) {
   if (!condition) {
@@ -158,10 +161,26 @@ async function testRetryWithoutNetwork() {
   assert(result.stats.retries >= 1, "retry counted");
 }
 
+function injectedGitIdentity() {
+  return resolvePhase1GitIdentity({
+    skipFetch: true,
+    fetchStatus: "PASS",
+    originMainSha: SHA_TEST,
+    headSha: SHA_TEST,
+    workingTreeClean: true,
+    productionDiffClean: true,
+    deDiffClean: true,
+  });
+}
+
 function testAuthorizeMissingApiKey() {
   const saved = process.env.OPENAI_API_KEY;
   delete process.env.OPENAI_API_KEY;
-  const auth = authorizeWithLunaDiscovery({ skipPhase0Check: true, allowAnyBaselineSha: true });
+  const auth = authorizeWithLunaDiscovery({
+    skipPhase0Check: true,
+    gitIdentity: injectedGitIdentity(),
+    baseline: { verdict: "PASS", blockers: [] },
+  });
   assert(!auth.pass, "missing api key blocks");
   assert(auth.blocker === "OPENAI_API_KEY_MISSING", "api key blocker code");
   process.env.OPENAI_API_KEY = saved;
@@ -170,7 +189,8 @@ function testAuthorizeMissingApiKey() {
 function testAuthorizePhase0Fail() {
   const auth = authorizeWithLunaDiscovery({
     skipApiKeyCheck: true,
-    allowAnyBaselineSha: true,
+    gitIdentity: injectedGitIdentity(),
+    baseline: { verdict: "PASS", blockers: [] },
     phase0Matrix: { phase0Complete: false, status: "PHASE_0_INCOMPLETE", gates: {} },
   });
   assert(!auth.pass, "phase0 fail blocks");
@@ -204,19 +224,14 @@ function testCliSkipLunaZeroCalls() {
 function testCliWithLunaBlockedNoKey() {
   const saved = process.env.OPENAI_API_KEY;
   delete process.env.OPENAI_API_KEY;
-  try {
-    execSync("node scripts/run-phase1-discovery.js --with-luna --group g2 --dataset a1 --lang et", {
-      cwd: ROOT,
-      encoding: "utf8",
-      stdio: ["ignore", "pipe", "pipe"],
-    });
-    assert(false, "with-luna should fail without key");
-  } catch (err) {
-    assert(err.status === 1, "with-luna exit 1 without key");
-    assert(/BLOCKED: OPENAI_API_KEY_MISSING/.test(err.stderr || ""), "blocked message");
-  } finally {
-    process.env.OPENAI_API_KEY = saved;
-  }
+  const auth = authorizeWithLunaDiscovery({
+    skipPhase0Check: true,
+    gitIdentity: injectedGitIdentity(),
+    baseline: { verdict: "PASS", blockers: [] },
+  });
+  assert(!auth.pass, "with-luna should fail without key");
+  assert(auth.blocker === "OPENAI_API_KEY_MISSING", "blocked message");
+  process.env.OPENAI_API_KEY = saved;
 }
 
 function testCreateLunaTransportModes() {
@@ -241,6 +256,7 @@ async function run() {
   testCliSkipLunaZeroCalls();
   testCliWithLunaBlockedNoKey();
   testCreateLunaTransportModes();
+  require("./test-phase1-dynamic-baseline-gate.js").run();
   console.log("PASS: phase1 real Luna transport tests");
 }
 

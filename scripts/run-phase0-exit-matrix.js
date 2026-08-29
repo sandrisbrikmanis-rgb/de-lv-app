@@ -321,6 +321,10 @@ function writePhase0ExitReports(exitMatrix) {
 }
 
 function runPhase0ExitEvaluation(options = {}) {
+  const gitFn = options.git || require("./lib/content-discovery/git-baseline").git;
+  const headResult = gitFn("git rev-parse HEAD");
+  const evaluatedHeadSha = headResult.ok && headResult.stdout ? headResult.stdout : null;
+
   const scopeInventory = buildScopeInventory(DISCOVERY_SCOPE.langs, DISCOVERY_SCOPE.datasetsByGroup);
   const bridgeGate = verifyBridgeLibrary();
   const exportGate = verifyExportDryRunOnly();
@@ -342,7 +346,10 @@ function runPhase0ExitEvaluation(options = {}) {
     });
     writePhase0ExitReports(exitMatrix);
   }
-  return exitMatrix;
+  return {
+    ...exitMatrix,
+    evaluatedHeadSha,
+  };
 }
 
 function main() {
