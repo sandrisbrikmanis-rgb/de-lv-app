@@ -402,15 +402,28 @@ Luna obligāti katram **LUNA_APPLICABLE** scope (318), izņemot `EXPECTED_NOT_AP
 
 **MASTER §7.14:** Luna coverage = 100% nozīmē, ka visi objekti tika **nosūtīti** un **katram ir explicit rezultāts** atbildē.
 
-### 5.3 Batch politika (OWNER lēmums R-019)
+### 5.3 Batch politika (OWNER lēmums R-019; precizēts post-#688)
 
-**Normatīvie noklusējumi (nedrīkst mainīt izpildes laikā bez OWNER lēmuma):**
+**Normatīvā Luna batch hierarhija** (saskaņota ar MASTER `§7.31`; dataset-specific limits prioritāri pār grupas limitu; nedrīkst mainīt izpildes laikā bez OWNER lēmuma):
 
-| Grupa | `batchSizeConfigured` |
-|-------|----------------------:|
-| G2 | 25 |
-| G1 | 50 |
-| G3 | 20 |
+| Scope / dataset | `batchSizeConfigured` | Objekta vienība |
+| ----------------- | --------------------: | ---------------- |
+| G2 ordinary cards | 25 | viena flashcard |
+| G2 `minimalStudy` | 10 | viens Study objekts (nedalāms) |
+| G2 `standardStudy` | 5 | viens Study objekts (nedalāms) |
+| G1 `sentences` | 25 | pilns teikuma objekts |
+| G1 `verbs` | 10 | pilns verba objekts (5 formas kopā) |
+| G1 `courseTrainingCards` | 50 | pilns training-card objekts |
+| G3 `courseLessons` | 20 | pilns lesson objekts |
+
+**Noteikumi:**
+
+- specifiskais dataset limits vienmēr ir prioritārs pār vispārīgu grupas limitu;
+- verba objekta piecas formas nedrīkst sadalīt starp batchiem;
+- Study objekts nedrīkst tikt sadalīts starp batchiem;
+- mazāks pēdējais batch ir atļauts;
+- lielāks batch par tabulā noteikto ir **aizliegts**;
+- batch limits **nemaina** prasību auditēt 100% objektu.
 
 Katram scope un batch obligāti ierakstīt matricā:
 
