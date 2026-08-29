@@ -103,6 +103,13 @@ const HOOKS = {
     github: "reports/da-kurss-owner-review-final-post-repair-GITHUB.md",
     readme: "reports/da-kurss-owner-review-final-post-repair-README.md",
   },
+  "phase1-full": {
+    label: "Phase 1 READ-ONLY discovery (phase1-full)",
+    moduleKey: "phase1-full",
+    scripts: ["build-phase1-owner-review.js", "build-phase1-github-index.js"],
+    github: "reports/phase1-owner-prep/phase1-full-owner-review-GITHUB.md",
+    readme: "reports/phase1-owner-prep/phase1-full-owner-view.md",
+  },
 };
 
 function skipOwnerReview(argv = process.argv.slice(2)) {

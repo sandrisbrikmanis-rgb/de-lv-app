@@ -267,6 +267,206 @@ function runRegressionFixtures() {
   };
 }
 
+const { VERB_FORMS } = require("./content-crowdin-bridge/flatten-g1-verbs");
+const { slugify } = require("./content-crowdin-bridge/slug");
+
+function isNonEmptyString(value) {
+  return typeof value === "string" && value.trim().length > 0;
+}
+
+function scanG1VerbsInventory(entries = []) {
+  let fieldsExpected = 0;
+  let fieldsMapped = 0;
+  let emptyByDesign = 0;
+  const unmapped = [];
+
+  for (const entry of entries) {
+    const inf = entry?.infinitiv?.de;
+    if (!isNonEmptyString(inf)) continue;
+    const cardId = slugify(inf);
+    const hasAnyLv = VERB_FORMS.some((form) => isNonEmptyString(entry[form]?.lv));
+    if (!hasAnyLv) continue;
+
+    for (const form of VERB_FORMS) {
+      fieldsExpected++;
+      const slot = entry[form];
+      const fieldPath = `${form}.lv`;
+      if (!slot || slot.lv === undefined || slot.lv === null) {
+        unmapped.push({ cardId, fieldPath, reason: "missing slot" });
+        continue;
+      }
+      if (!String(slot.lv).trim()) {
+        emptyByDesign++;
+        fieldsMapped++;
+        continue;
+      }
+      fieldsMapped++;
+    }
+  }
+
+  return {
+    violations: [],
+    fieldsExpected,
+    fieldsMapped,
+    emptyByDesign,
+    unmappedMainTranslationFields: unmapped.length,
+    inventoryCoverage: fieldsExpected === 0 ? 1 : fieldsMapped / fieldsExpected,
+    unmapped,
+    cardsScanned: entries.length,
+  };
+}
+
+function scanG1VerbsMultiTranslation(entries = [], entryIdFn) {
+  const violations = [];
+  let fieldsScanned = 0;
+  let rawCandidates = 0;
+
+  entries.forEach((entry, index) => {
+    const inf = entry?.infinitiv?.de;
+    if (!inf) return;
+    const cardId = slugify(inf);
+    for (const form of VERB_FORMS) {
+      const value = entry[form]?.lv;
+      if (value === undefined || value === null) continue;
+      fieldsScanned++;
+      const parts = splitTranslationCandidates(String(value));
+      if (parts.length >= 2) rawCandidates++;
+      const detected = detectMultipleMainTranslationCandidates(String(value), `${form}.lv`);
+      if (!detected) continue;
+      violations.push({
+        cardId,
+        cardType: "verb",
+        field: `${form}.lv`,
+        de: inf,
+        currentEt: String(value),
+        candidates: detected.candidates.slice(0, 6),
+        translationCount: detected.translationCount,
+        classification: detected.classification,
+        category: "MULTIPLE_TRANSLATION",
+        severity: "HIGH",
+        reason: detected.semanticNote,
+        recommendedMain: detected.recommendedMain,
+      });
+    }
+  });
+
+  return {
+    violations,
+    rawCandidates,
+    fieldsScanned,
+    inventoryCoverage: 1,
+    unmappedMainTranslationFields: 0,
+    cardsScanned: entries.length,
+  };
+}
+
+const G3_NATIVE_SCALAR_KEYS = new Set([
+  "title",
+  "subtitle",
+  "description",
+  "label",
+  "task",
+  "hint",
+  "progressLabel",
+]);
+
+function walkG3NativeInventory(value, path, stats) {
+  if (value === null || value === undefined) return;
+  if (typeof value === "string") return;
+  if (Array.isArray(value)) {
+    value.forEach((item, i) => walkG3NativeInventory(item, `${path}[${i}]`, stats));
+    return;
+  }
+  if (typeof value !== "object") return;
+
+  for (const [key, child] of Object.entries(value)) {
+    if (key === "legacyHtml") continue;
+    const childPath = path ? `${path}.${key}` : key;
+    if (key === "lv" && typeof child === "string") {
+      stats.fieldsExpected++;
+      stats.fieldsMapped++;
+      if (!child.trim()) stats.emptyByDesign++;
+      continue;
+    }
+    if (G3_NATIVE_SCALAR_KEYS.has(key) && typeof child === "string") {
+      stats.fieldsExpected++;
+      stats.fieldsMapped++;
+      if (!child.trim()) stats.emptyByDesign++;
+      continue;
+    }
+    walkG3NativeInventory(child, childPath, stats);
+  }
+}
+
+function scanG3CourseLessonsInventory(courseLessonData = {}) {
+  const stats = { fieldsExpected: 0, fieldsMapped: 0, emptyByDesign: 0 };
+  for (const [lessonKey, lesson] of Object.entries(courseLessonData)) {
+    walkG3NativeInventory(lesson, lessonKey, stats);
+  }
+  return {
+    violations: [],
+    ...stats,
+    unmappedMainTranslationFields: 0,
+    inventoryCoverage: stats.fieldsExpected === 0 ? 1 : stats.fieldsMapped / stats.fieldsExpected,
+    cardsScanned: Object.keys(courseLessonData).length,
+  };
+}
+
+function walkG3NativeMulti(value, path, violations, lessonKey) {
+  if (value === null || value === undefined) return;
+  if (typeof value === "string") return;
+  if (Array.isArray(value)) {
+    value.forEach((item, i) => walkG3NativeMulti(item, `${path}[${i}]`, violations, lessonKey));
+    return;
+  }
+  if (typeof value !== "object") return;
+
+  for (const [key, child] of Object.entries(value)) {
+    if (key === "legacyHtml") continue;
+    const childPath = path ? `${path}.${key}` : key;
+    if ((key === "lv" || G3_NATIVE_SCALAR_KEYS.has(key)) && typeof child === "string") {
+      const detected = detectMultipleMainTranslationCandidates(child, childPath);
+      if (detected) {
+        violations.push({
+          cardId: lessonKey,
+          field: childPath,
+          de: "",
+          currentEt: child,
+          candidates: detected.candidates.slice(0, 6),
+          translationCount: detected.translationCount,
+          classification: detected.classification,
+          category: "MULTIPLE_TRANSLATION",
+          severity: "HIGH",
+          reason: detected.semanticNote,
+        });
+      }
+      continue;
+    }
+    walkG3NativeMulti(child, childPath, violations, lessonKey);
+  }
+}
+
+function scanG3CourseLessonsMultiTranslation(courseLessonData = {}) {
+  const violations = [];
+  let fieldsScanned = 0;
+  for (const [lessonKey, lesson] of Object.entries(courseLessonData)) {
+    walkG3NativeMulti(lesson, lessonKey, violations, lessonKey);
+    fieldsScanned++;
+  }
+  return {
+    violations,
+    rawCandidates: violations.length,
+    fieldsScanned,
+    inventoryCoverage: 1,
+    unmappedMainTranslationFields: 0,
+    cardsScanned: Object.keys(courseLessonData).length,
+  };
+}
+
+function scanG1TrainingInventory(entries = []) {
+  return scanDatasetMainTranslations(entries, (entry, index) => entry.de || entry.id || `training-${index}`);
+}
+
 module.exports = {
   INVENTORY_FIELD_PATHS,
   cardHasRenderableStudy,
@@ -277,6 +477,11 @@ module.exports = {
   detectMultipleMainTranslationCandidates,
   scanEntryMainTranslations,
   scanDatasetMainTranslations,
+  scanG1VerbsInventory,
+  scanG1VerbsMultiTranslation,
+  scanG3CourseLessonsInventory,
+  scanG3CourseLessonsMultiTranslation,
+  scanG1TrainingInventory,
   runRegressionFixtures,
   REGRESSION_FIXTURES,
 };
