@@ -25,7 +25,7 @@
 | Field | SHA |
 |-------|-----|
 | **REPORT_COMMIT_SHA** | `b35f944f` (report-only commit on branch) |
-| **FINAL_PR_HEAD_SHA** | `01e03760` |
+| **FINAL_PR_HEAD_SHA** | `9112ba38` |
 
 ---
 
