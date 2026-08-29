@@ -1,46 +1,121 @@
-/**
- * Dependency-injected Luna transport — mock by default (realCalls = 0 in F0).
- */
+#!/usr/bin/env node
+"use strict";
+
+const path = require("path");
+const { ROOT } = require("./audit-common");
+const {
+  DEFAULT_MODEL,
+  auditObjectsBatch,
+  redactSecrets,
+} = require("./luna-phase1-openai");
+
 function createMockLunaTransport(fixtureMap = {}) {
-  let realCalls = 0;
   return {
-  get realCallsDelta() {
-    return 0;
-  },
-  async call(payload) {
-    const key = `${payload.adapter}:${payload.scopeId}`;
-    const fixture = fixtureMap[key] || fixtureMap[payload.adapter] || fixtureMap.default;
-    if (!fixture) {
+    mode: "MOCK",
+    transport: "MOCK",
+    get realCallsDelta() {
+      return 0;
+    },
+    getRealCalls() {
+      return 0;
+    },
+    async call(payload) {
+      const key = `${payload.adapter}:${payload.scopeId}`;
+      const fixture = fixtureMap[key] || fixtureMap[payload.adapter] || fixtureMap.default;
+      if (!fixture) {
+        return {
+          items: payload.objects.map((obj, idx) => ({
+            ...obj,
+            id: obj.id || `mock-${idx}`,
+            status: "PASS",
+          })),
+          tokensUsed: 0,
+        };
+      }
+      if (fixture.error) throw new Error(fixture.error);
+      if (fixture.malformed) return fixture.malformed;
+      if (fixture.duplicate) {
+        const first = payload.objects[0];
+        return {
+          items: [first, first].map((obj) => ({ ...obj, id: obj.id, status: "PASS" })),
+          tokensUsed: 0,
+        };
+      }
+      if (fixture.partial) {
+        return {
+          items: payload.objects.slice(0, Math.max(0, payload.objects.length - 1)).map((obj) => ({
+            ...obj,
+            id: obj.id,
+            status: "PASS",
+          })),
+          tokensUsed: 0,
+        };
+      }
       return {
-        items: payload.objects.map((obj, idx) => ({
-          ...obj,
-          id: obj.id || `mock-${idx}`,
-        })),
-        tokensUsed: 0,
+        items: payload.objects.map((obj) => ({ ...obj, id: obj.id, status: "PASS", lunaProcessed: true })),
+        tokensUsed: fixture.tokensUsed || 0,
       };
-    }
-    if (fixture.error) throw new Error(fixture.error);
-    if (fixture.malformed) return fixture.malformed;
-    if (fixture.partial) {
-      return {
-        items: payload.objects.slice(0, Math.max(0, payload.objects.length - 1)),
-        tokensUsed: 0,
-      };
-    }
-    return {
-      items: payload.objects.map((obj) => ({ ...obj, lunaProcessed: true })),
-      tokensUsed: fixture.tokensUsed || 0,
-    };
-  },
-  getRealCalls() {
-    return realCalls;
-  },
-};
+    },
+  };
+}
+
+function createRealLunaTransport(options = {}) {
+  let totalRealCalls = 0;
+  let pendingDelta = 0;
+  const model = options.model || DEFAULT_MODEL;
+
+  return {
+    mode: "REAL",
+    transport: "REAL",
+    model,
+    get realCallsDelta() {
+      const delta = pendingDelta;
+      pendingDelta = 0;
+      return delta;
+    },
+    getRealCalls() {
+      return totalRealCalls;
+    },
+    async call(payload) {
+      pendingDelta = 1;
+      totalRealCalls += 1;
+      try {
+        const batchId = `batch-${totalRealCalls}`;
+        const rawPath = options.writeRaw
+          ? path.join(
+              ROOT,
+              "reports",
+              "temp",
+              "phase1-luna",
+              String(payload.scopeId || "unknown").replace(/\//g, "_"),
+              `raw-${batchId}.json`,
+            )
+          : null;
+        const result = await auditObjectsBatch({
+          adapter: payload.adapter,
+          scopeId: payload.scopeId,
+          objects: payload.objects,
+          model,
+          writeRawPath: rawPath,
+          client: options.client,
+        });
+        return {
+          items: result.items,
+          tokensUsed: result.tokensUsed,
+          usage: result.usage,
+          model: result.model,
+        };
+      } catch (error) {
+        throw new Error(redactSecrets(error.message || String(error)));
+      }
+    },
+  };
 }
 
 function createLunaTransport(options = {}) {
-  if (options.mock || process.env.LUNA_MOCK !== '0') {
-    return createMockLunaTransport(options.fixtureMap || {});
+  const mode = options.mode || (options.mock ? "mock" : "mock");
+  if (mode === "real" || mode === "REAL") {
+    return createRealLunaTransport(options);
   }
   return createMockLunaTransport(options.fixtureMap || {});
 }
@@ -48,4 +123,5 @@ function createLunaTransport(options = {}) {
 module.exports = {
   createLunaTransport,
   createMockLunaTransport,
+  createRealLunaTransport,
 };
