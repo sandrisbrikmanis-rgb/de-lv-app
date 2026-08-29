@@ -2,7 +2,12 @@
 
 **Statuss:** `PHASE_1_NOT_STARTED` — spec apstiprināta, implementācija/nav runs  
 **Saistīts ar:** `MASTER_1.12_BINDING_WORK_AGREEMENT.md` §D, §I, §J  
-**Priekšnosacījums:** `PHASE_0_COMPLETE` uz `origin/main` (F0-1…F0-8 PASS)  
+**Priekšnosacījums (secīgi):**
+
+1. `PHASE_0_COMPLETE` uz `origin/main` (F0-1…F0-8 PASS — bridge u.c.)
+2. `PHASE_0_INFRASTRUCTURE_COMPLETION` (F0-COMP-1…F0-COMP-15 PASS — §10)
+3. Tikai tad — Fāzes 1 READ-ONLY discovery izpilde
+
 **Režīms:** READ-ONLY — bez production apply, bez Crowdin import uz `data/` vai `www/`, bez repair
 
 ------------------------------------------------------------------------
@@ -76,7 +81,7 @@ LUNA_APPLICABLE      = 320 − 2 (NOT_APPLICABLE)
 | **F1-1** | `origin/main`, branch HEAD | Baseline PASS (F0-5): DE diff = 0, active unmerged closure = 0 | Jebkurš F0-5 baseline check FAIL |
 | **F1-2** | `EXPECTED_SCOPE = 320` | `PROCESSED = 320`; katrs `scopeId` ir `summary[]` rindā; 2 rindas ar `applicability = EXPECTED_NOT_APPLICABLE` | `PROCESSED < 320`, trūkstošs `scopeId`, vai N/A nav matricā |
 | **F1-3** | `INVENTORY_APPLICABLE = 309` | Katram applicable scope: `inventoryCoverage = 1.0` un `unmappedMainTranslationFields = 0` | Jebkurš applicable scope ar `inventoryCoverage < 1.0` vai `unmappedMainTranslationFields > 0`; `lang=lv` scope netiek skaitīts pret 309 |
-| **F1-4** | `MULTI_SCAN_APPLICABLE = 309` | Katram applicable scope: `multiScanCoverage = 1.0` un `multiScanObjectsScanned = multiScanObjectsExpected` | Jebkurš applicable scope ar nepilnu multi-scan; G1 verbs / G3 bez implementācijas |
+| **F1-4** | `MULTI_SCAN_APPLICABLE = 309` | Katram applicable scope: `multiScanCoverage = 1.0` un `multiScanObjectsScanned = multiScanObjectsExpected` | Jebkurš applicable scope ar nepilnu multi-scan; G1 verbs / G3 bez F0-COMP |
 | **F1-5** | `LUNA_APPLICABLE = 318` | Katram applicable scope: `lunaStatus = PASS`, `objectsReturned = objectsExpected`, `attemptCount ≤ 3` | Jebkurš batch ar izsmeltiem retry; partial response; implicit PASS; `objectsReturned ≠ objectsExpected` |
 | **F1-6** | Visi raw findings | `schemaValid = 100%`, `classificationStatus` definēts visiem, `unclassifiedCount = 0` | Jebkurš schema-invalid vai neklasificēts finding; dedup konflikts bez rezolūcijas |
 | **F1-7** | Branch vs `origin/main` | `git diff` tukšs visos aizliegtajos ceļos (§9.1) | Jebkura izmaiņa `data/`, `www/data/`, `languages/`, `crowdin/content/` |
@@ -137,7 +142,7 @@ Abas rindas **obligāti** ir F1-2 matricā ar `applicability = EXPECTED_NOT_APPL
 
 ### 2.5 Scope inventāra fails (mašīnlasāms)
 
-Implementācijā ģenerēt (P1-IMPL-7):
+Implementācijā ģenerēt (F0-COMP-7):
 
 `reports/phase1-scope-inventory.json`
 
@@ -215,23 +220,25 @@ Atsauce: MASTER §5.3, §11.12 — LIVE obligāts tikai Kurss **closure**, ne §
 † Tikai ja `courseTrainingCards.js` eksistē  
 ‡ G1 verbs — paplašināts inventory/multi-scan (§4.6)
 
-### 4.2 Fāzes 0 → Fāzes 1 infrastruktūras gaps
+### 4.2 Fāzes 0 completion — infrastruktūras gaps (pirms Fāzes 1)
 
-| Gap | Pašreizējais stāvoklis | Fāze 1 prasība | P1-IMPL |
-|-----|------------------------|----------------|---------|
-| G1 verbs multi-translation | Nav `collectG1VerbsMultiTranslation` | Implementēt, 32 scope | P1-IMPL-1 |
-| G3 multi-translation + inventory | Nav G3 inventory scan | `collectG3MultiTranslation` | P1-IMPL-1 |
-| G1 training inventory (30 lang) | Tikai structural | Inventory + multi-scan kur fails eksistē | P1-IMPL-1 |
-| G3 `legacyHtml` scan | Structural izslēdz `legacyHtml` | Pilns text-node scan §5.4 | P1-IMPL-2 |
-| G1 verbs inventory paths | G2/sentence-oriented | Verb form paths §4.6 | P1-IMPL-3 |
-| F1-6 validation module | Nav | `phase1-findings-validation.js` | P1-IMPL-4 |
-| Dedup policy | Nav | §4.5 | P1-IMPL-5 |
-| PRE_BACKLOG_HISTORY_GATE | Tikai dataset auditos | Phase 1 integrācija | P1-IMPL-6 |
-| `phase1-scope-inventory.json` | Nav ģeneratora | §2.5 | P1-IMPL-7 |
-| Coverage gates | Nav | `evaluateInventoryCoverage()`, `evaluateLunaCoverage()` | P1-IMPL-8 |
-| Luna integrācija | Nav `run-content-discovery.js` | `--with-luna` + adapters | P1-IMPL-10 |
-| Phase 1 exit script | Nav | `run-phase1-exit-matrix.js` | P1-IMPL-12 |
-| OWNER-PREP module key | Nav `phase1-full` hook | `audit-post-run.js` + publisher | P1-IMPL-13 |
+Šie gaps nav Fāzes 1 implementācija — tie ir **Fāzes 0 infrastructure completion** (§10, `F0-COMP-1…15`).
+
+| Gap | Pašreizējais stāvoklis | F0 completion prasība | F0-COMP |
+|-----|------------------------|----------------------|---------|
+| G1 verbs multi-translation | Nav `collectG1VerbsMultiTranslation` | Implementēt, 32 scope | F0-COMP-1 |
+| G3 multi-translation + inventory | Nav G3 inventory scan | `collectG3MultiTranslation` | F0-COMP-1 |
+| G1 training inventory (30 lang) | Tikai structural | Inventory + multi-scan kur fails eksistē | F0-COMP-1 |
+| G3 `legacyHtml` scan | Structural izslēdz `legacyHtml` | Pilns text-node scan §5.4 | F0-COMP-2 |
+| G1 verbs inventory paths | G2/sentence-oriented | Verb form paths §4.6 | F0-COMP-3 |
+| F1-6 validation module | Nav | `phase1-findings-validation.js` | F0-COMP-4 |
+| Dedup policy | Nav | §4.5 | F0-COMP-5 |
+| PRE_BACKLOG_HISTORY_GATE | Tikai dataset auditos | Phase 1 orchestrator integrācija | F0-COMP-6 |
+| `phase1-scope-inventory.json` | Nav ģeneratora | §2.5 | F0-COMP-7 |
+| Coverage gates | Nav | `evaluateInventoryCoverage()`, `evaluateLunaCoverage()` | F0-COMP-8 |
+| Luna integrācija | Nav `run-content-discovery.js` | `--with-luna` + adapters | F0-COMP-10 |
+| Phase 1 exit script | Nav | `run-phase1-exit-matrix.js` | F0-COMP-12 |
+| OWNER-PREP module key | Nav `phase1-full` hook | `audit-post-run.js` + publisher | F0-COMP-13 |
 
 ### 4.3 Finding formāts (vienots)
 
@@ -527,6 +534,8 @@ node scripts/run-phase1-discovery.js --skip-luna
 
 ### 6.2 Izpildes secība
 
+**Priekšnosacījums:** `PHASE_0_INFRASTRUCTURE_COMPLETION = PASS` (§10, F0-COMP-1…15).
+
 ```text
 1. git fetch origin
 2. BASELINE GATE (mantot F0-5)
@@ -766,11 +775,30 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 
 ------------------------------------------------------------------------
 
-## 10. Implementācijas secība (izstrāde, ne izpilde)
+## 10. Fāzes 0 completion — infrastruktūra pirms Fāzes 1 (`F0-COMP-1…15`)
 
-Šī secība ir **infrastruktūras būve**, ne discovery izpilde. Discovery drīkst sākt tikai pēc šīs spec apstiprināšanas un F1 exit skripta gatavības.
+**Klasifikācija (MASTER 1.12 saskaņošana):** visi šie soļi ir **PHASE 0 INFRASTRUCTURE COMPLETION BEFORE PHASE 1**, ne Fāzes 1 implementācija un ne Fāzes 1 discovery izpilde.
 
-### P1-IMPL-1 — G1 verbs + G3 + G1 training collectors
+```text
+Fāzes 0 completion
+  → visi F0-COMP-1…15 izpildīti un verificēti
+  → production changes = 0
+  → Fāzes 0 completion PASS
+  → tikai tad Fāzes 1 READ-ONLY discovery
+```
+
+**F0 completion PASS kritēriji:**
+
+| Metrika | Prasība |
+|---------|---------|
+| `F0-COMP-1…15` | Visi soļi PASS (§10.1–10.15) |
+| `PRODUCTION_DIFF` | 0 |
+| `DE_CHANGES` | 0 |
+| F0 regression | `npm run i18n:content:phase0-exit` joprojām PASS |
+
+**Aizliegts** sākt pilnu 320 scope + Luna discovery, kamēr `PHASE_0_INFRASTRUCTURE_COMPLETION ≠ PASS`.
+
+### 10.1 F0-COMP-1 — G1 verbs + G3 + G1 training collectors
 
 | | |
 |---|---|
@@ -780,7 +808,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Missing collector export; 0 objects scanned where file exists |
 | **Fail-safe** | `--skip-luna` partial scope; exit 1 ar skaidru gap ziņu |
 
-### P1-IMPL-2 — G3 `legacyHtml` text-node collector
+### 10.2 F0-COMP-2 — G3 `legacyHtml` text-node collector
 
 | | |
 |---|---|
@@ -790,7 +818,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Parent-only finding bez node paths |
 | **Fail-safe** | Collector error → scope row `legacyHtmlScan = ERROR`, F1-2/F1-4 FAIL |
 
-### P1-IMPL-3 — G1 verbs inventory field paths
+### 10.3 F0-COMP-3 — G1 verbs inventory field paths
 
 | | |
 |---|---|
@@ -800,7 +828,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Uses G2 `entry.lv` only; misses inflected forms |
 | **Fail-safe** | Log unmapped paths; do not silent PASS |
 
-### P1-IMPL-4 — F1-6 findings validation module
+### 10.4 F0-COMP-4 — F1-6 findings validation module
 
 | | |
 |---|---|
@@ -810,7 +838,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Missing mandatory field passes through |
 | **Fail-safe** | Return `{ valid: false, errors[] }`; orchestrator exit 1 |
 
-### P1-IMPL-5 — Deterministic + Luna deduplication
+### 10.5 F0-COMP-5 — Deterministic + Luna deduplication
 
 | | |
 |---|---|
@@ -820,7 +848,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Duplicate `VALIDATED_REAL_FINDING` in output |
 | **Fail-safe** | Dedup conflict → F1-6 FAIL with conflict list |
 
-### P1-IMPL-6 — PRE_BACKLOG_HISTORY_GATE integration
+### 10.6 F0-COMP-6 — PRE_BACKLOG_HISTORY_GATE integration
 
 | | |
 |---|---|
@@ -830,7 +858,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | OWNER-PREP generated when gate FAIL |
 | **Fail-safe** | `BLOCKED: PRE_BACKLOG_HISTORY_GATE` stderr message |
 
-### P1-IMPL-7 — `phase1-scope-inventory.json` generator
+### 10.7 F0-COMP-7 — `phase1-scope-inventory.json` generator
 
 | | |
 |---|---|
@@ -840,7 +868,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Count mismatch vs `discovery-scope.js` |
 | **Fail-safe** | Exit 1 before discovery loop |
 
-### P1-IMPL-8 — Coverage gate evaluators
+### 10.8 F0-COMP-8 — Coverage gate evaluators
 
 | | |
 |---|---|
@@ -850,7 +878,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Uses 318 for inventory or mixes LV |
 | **Fail-safe** | Return `{ pass: false, failures[] }` |
 
-### P1-IMPL-9 — Repo-relative report paths
+### 10.9 F0-COMP-9 — Repo-relative report paths
 
 | | |
 |---|---|
@@ -860,7 +888,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Absolute VM paths in matrix |
 | **Fail-safe** | Path normalizer in report-builder |
 
-### P1-IMPL-10 — Luna adapters (G2 reuse, G1/G3 jauni)
+### 10.10 F0-COMP-10 — Luna adapters (G2 reuse, G1/G3 jauni)
 
 | | |
 |---|---|
@@ -870,17 +898,17 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Implicit PASS; wrong batch size at runtime |
 | **Fail-safe** | `--skip-luna` bypass for infra-only runs |
 
-### P1-IMPL-11 — `run-phase1-discovery.js` orchestrator
+### 10.11 F0-COMP-11 — `run-phase1-discovery.js` orchestrator
 
 | | |
 |---|---|
 | **Faili** | `scripts/run-phase1-discovery.js` |
 | **Tests** | `node scripts/run-phase1-discovery.js --skip-luna --lang da` (smoke) |
-| **PASS** | §6.2 sequence; all P1-IMPL-1…10 wired |
+| **PASS** | §6.2 sequence; all F0-COMP-1…10 wired |
 | **FAIL** | Missing step; wrong scope order |
 | **Fail-safe** | `--skip-luna`, `--group`, `--lang` filters |
 
-### P1-IMPL-12 — `run-phase1-exit-matrix.js` (F1-1…F1-9)
+### 10.12 F0-COMP-12 — `run-phase1-exit-matrix.js` (F1-1…F1-9)
 
 | | |
 |---|---|
@@ -890,7 +918,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Partial gate set; wrong denominator |
 | **Fail-safe** | Exit 1 with gate failure table |
 
-### P1-IMPL-13 — OWNER-PREP `phase1-full` + audit-post-run hook
+### 10.13 F0-COMP-13 — OWNER-PREP `phase1-full` + audit-post-run hook
 
 | | |
 |---|---|
@@ -900,7 +928,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Missing `owner-decisions.md`; wrong trigger (`TOTAL_FINDINGS`) |
 | **Fail-safe** | Skip when `VALIDATED_FINDINGS = 0` |
 
-### P1-IMPL-14 — `package.json` npm scripts
+### 10.14 F0-COMP-14 — `package.json` npm scripts
 
 | | |
 |---|---|
@@ -910,7 +938,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Missing script entry |
 | **Fail-safe** | — |
 
-### P1-IMPL-15 — Verification runs
+### 10.15 F0-COMP-15 — F0 completion verification runs
 
 | | |
 |---|---|
@@ -919,7 +947,7 @@ Jebkura izmaiņa šajos ceļos → **F1-7 FAIL**.
 | **FAIL** | Any gate FAIL; exit JSON differs (deterministic fields) |
 | **Fail-safe** | Document API key requirement; `--skip-luna` for CI without Luna |
 
-**Fāzes 1 discovery izpilde** (320 scope + Luna) = atsevišķs uzdevums pēc spec review.
+Pēc F0-COMP-15 PASS → `PHASE_0_INFRASTRUCTURE_COMPLETION = PASS` → atļauta **Fāzes 1 discovery izpilde** (320 scope + Luna) kā atsevišķs uzdevums.
 
 ------------------------------------------------------------------------
 
@@ -939,16 +967,17 @@ Fāze 1 **neatceļ** F0 rezultātus — paplašina ar inventory 100%, multi-scan
 
 ## 12. MASTER 1.12 atbilstības karte
 
-| MASTER | Fāze 1 implementācija |
-|--------|----------------------|
+| MASTER | Fāze 1 / F0 completion |
+|--------|------------------------|
+| §C Fāze 0 infrastruktūra | F0-COMP-1…15 (§10) |
 | §D Discovery exit | F1-1…F1-9 vārti |
 | §1.1.10 MAIN_TRANSLATION_FIELD_INVENTORY | F1-3, 309/309 |
 | §1.1.11 MULTI_TRANSLATION_SCAN | F1-4, 309/309 |
-| §5.4 `legacyHtml` scan | P1-IMPL-2, §4.7 |
+| §5.4 `legacyHtml` scan | F0-COMP-2, §4.7 |
 | §5.3 LIVE/runtime | **OUT OF PHASE 1** → Phase 3 |
 | §7.6 OWNER-PREP | F1-8, `phase1-full` |
 | §7.13 Semantic dedup | §4.5 |
-| §7.18 PRE_BACKLOG_HISTORY_GATE | P1-IMPL-6, §8.5 |
+| §7.18 PRE_BACKLOG_HISTORY_GATE | F0-COMP-6, §8.5 |
 | §7.25 MULTI_TRANSLATION_SCAN | 100% applicable scope |
 | §11.12 G3 LIVE closure | Phase 3, ne Phase 1 |
 | §A4 Luna ≠ OWNER | §4.4, §5.6 |
@@ -960,13 +989,15 @@ Fāze 1 **neatceļ** F0 rezultātus — paplašina ar inventory 100%, multi-scan
 
 | Statuss | Nozīme |
 |---------|--------|
-| `PHASE_1_NOT_STARTED` | Spec apstiprināta, implementācija/nav runs |
+| `PHASE_0_INFRASTRUCTURE_COMPLETION` | F0-COMP-1…15 izpilde/verifikācija (§10) |
+| `PHASE_0_COMPLETION_PASS` | F0-COMP-1…15 PASS + `PRODUCTION_DIFF = 0` |
+| `PHASE_1_NOT_STARTED` | F0 completion PASS, bet discovery vēl nav sākts |
 | `PHASE_1_IN_PROGRESS` | Discovery/Luna runs aktīvi |
 | `PHASE_1_TECHNICAL_PASS` | F1 vārti PASS branch; gaida review |
 | `PHASE_1_COMPLETE` | F1 PASS + post-merge uz `main` (A7) |
 | `NEEDS_PHASE_1_COMPLETION` | Trūkst coverage/Luna/OWNER-PREP |
 
-**Pašreizējais statuss:** `PHASE_1_NOT_STARTED`.
+**Pašreizējais statuss:** `PHASE_1_NOT_STARTED` (gaida `PHASE_0_INFRASTRUCTURE_COMPLETION`).
 
 ------------------------------------------------------------------------
 
@@ -987,18 +1018,18 @@ Fāze 1 **neatceļ** F0 rezultātus — paplašina ar inventory 100%, multi-scan
 
 ------------------------------------------------------------------------
 
-## 15. Pārbaudes komandas (pēc implementācijas)
+## 15. Pārbaudes komandas
 
 ```bash
-# Baseline + F0 regression (joprojām obligāts)
+# F0 regression (joprojām obligāts)
 npm run i18n:content:phase0-exit
 
-# Phase 1 pilns discovery
-npm run i18n:content:phase1-discovery
+# F0 completion verification (F0-COMP-15; pēc F0-COMP-1…14)
+npm run i18n:content:phase1-discovery -- --skip-luna   # 320/320
+npm run i18n:content:phase1-exit                       # 2× determinisms
 
-# Phase 1 exit matrix (2× determinisms)
-npm run i18n:content:phase1-exit
-npm run i18n:content:phase1-exit
+# Fāzes 1 pilns discovery (tikai pēc PHASE_0_INFRASTRUCTURE_COMPLETION = PASS)
+npm run i18n:content:phase1-discovery -- --with-luna
 
 # Production diff pierādījums
 git diff --name-only origin/main...HEAD -- data www/data languages crowdin/content
@@ -1006,10 +1037,10 @@ git diff --name-only origin/main...HEAD -- data www/data languages crowdin/conte
 
 ------------------------------------------------------------------------
 
-**Nākamais solis pēc šīs specifikācijas OWNER review:**
+**Nākamais solis (secība):**
 
 1. Apstiprināt spec (vai norādīt labojumus)
-2. Implementēt P1-IMPL-1…P1-IMPL-15
-3. Tikai tad — pilns 320 scope discovery + Luna izpilde
+2. Izpildīt F0-COMP-1…F0-COMP-15 → `PHASE_0_INFRASTRUCTURE_COMPLETION = PASS`
+3. Tikai tad — pilns 320 scope Fāzes 1 READ-ONLY discovery + Luna izpilde
 
 **Discovery izpilde šajā posmā nav sākta.**
