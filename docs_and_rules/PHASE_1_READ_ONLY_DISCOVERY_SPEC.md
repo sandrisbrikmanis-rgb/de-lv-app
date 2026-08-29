@@ -1,6 +1,6 @@
 # Fāze 1 — Pilns READ-ONLY Discovery (320 scope)
 
-**Statuss:** `PHASE_1_NOT_STARTED` — spec apstiprināta, implementācija/nav runs  
+**Statuss:** `PHASE_0_INFRASTRUCTURE_COMPLETION_REQUIRED` — spec apstiprināta; F0-COMP-1…15 nav izpildīts; Fāze 1 discovery nav sākts  
 **Saistīts ar:** `MASTER_1.12_BINDING_WORK_AGREEMENT.md` §D, §I, §J  
 **Priekšnosacījums (secīgi):**
 
@@ -531,18 +531,18 @@ Phase 1 exit **nedrīkst** būt atkarīgs no Luna finding skaita stabilitātes s
 ### 6.1 Entry point
 
 ```bash
-# Pilns Phase 1 discovery (deterministic + Luna)
-npm run i18n:content:phase1-discovery
+# F0 completion / infrastruktūras smoke (F0-COMP-15; bez Luna API)
+npm run i18n:content:phase1-discovery -- --skip-luna
 
 # Ekvivalents:
 node scripts/run-phase1-discovery.js \
   --all-groups \
   --dataset all \
   --all-langs \
-  --with-luna
+  --skip-luna
 
-# Tikai deterministika (diagnostika):
-node scripts/run-phase1-discovery.js --skip-luna
+# Pilns Phase 1 discovery (deterministic + Luna) — TIKAI pēc PHASE_0_COMPLETION_PASS
+npm run i18n:content:phase1-discovery -- --with-luna
 ```
 
 ### 6.2 Izpildes secība
@@ -592,6 +592,72 @@ node scripts/run-phase1-discovery.js --skip-luna
 | `reports/phase1-owner-prep/` | OWNER-PREP pakotne (ja `VALIDATED_FINDINGS > 0`) |
 
 ### 7.2 Matricas shēma (paplašinājums pret F0)
+
+**Piemērs A — F0 completion (`PHASE_0_COMPLETION_PASS`; F0-COMP-15 smoke ar `--skip-luna`):**
+
+```json
+{
+  "phase": 1,
+  "status": "PHASE_0_COMPLETION_PASS",
+  "originMainSha": "...",
+  "masterVersion": "1.12",
+  "ownerDecisionRef": "OWNER-APPROVED-2026-08-29",
+  "scope": {
+    "expected": 320,
+    "processed": 320,
+    "notApplicable": 2,
+    "lunaApplicable": 318,
+    "inventoryApplicable": 309,
+    "multiScanApplicable": 309
+  },
+  "gates": {
+    "F1-1": "PASS",
+    "F1-2": "PASS",
+    "F1-3": "PASS",
+    "F1-4": "PASS",
+    "F1-5": "NOT_RUN",
+    "F1-6": "NOT_RUN",
+    "F1-7": "PASS",
+    "F1-8": "NOT_RUN",
+    "F1-9": "PASS"
+  },
+  "coverage": {
+    "deterministic": "320/320",
+    "mainTranslationFieldInventory": "309/309",
+    "multiTranslationScan": "309/309",
+    "lunaAudit": "NOT_RUN"
+  },
+  "summary": [{
+    "scopeId": "g2/a1/et",
+    "applicability": "APPLICABLE",
+    "structuralIssues": 0,
+    "inventoryCoverage": 1.0,
+    "unmappedMainTranslationFields": 0,
+    "multiScanCoverage": 1.0,
+    "lunaProcessed": false,
+    "lunaObjectsExpected": 0,
+    "lunaObjectsReturned": 0,
+    "findingsDeterministic": 42,
+    "findingsLuna": 0,
+    "findingsValidated": 0,
+    "verdict": "INFRASTRUCTURE_SMOKE_PASS"
+  }],
+  "totals": {
+    "findingsRaw": 42125,
+    "findingsValidated": 0,
+    "findingsExcluded": 0
+  },
+  "constraints": {
+    "productionChanges": 0,
+    "deChanges": 0,
+    "lunaCalls": 0,
+    "crowdinProductionImport": 0,
+    "translationApply": 0
+  }
+}
+```
+
+**Piemērs B — pabeigta Fāze 1 (`PHASE_1_COMPLETE`; pēc `--with-luna` discovery):**
 
 ```json
 {
@@ -648,7 +714,7 @@ node scripts/run-phase1-discovery.js --skip-luna
   "constraints": {
     "productionChanges": 0,
     "deChanges": 0,
-    "lunaCalls": 0,
+    "lunaCalls": 318,
     "crowdinProductionImport": 0,
     "translationApply": 0
   }
@@ -886,7 +952,7 @@ Fāzes 0 completion
 | | |
 |---|---|
 | **Faili** | `scripts/lib/content-discovery/phase1-coverage-gates.js` |
-| **Tests** | `evaluateInventoryCoverage(matrix)` → 309/309; `evaluateLunaCoverage` → 318/318 |
+| **Tests** | `evaluateInventoryCoverage(matrix)` → 309/309; `evaluateLunaCoverage(syntheticFixture)` → 318/318 (sintētiska fixture, bez Luna API) |
 | **PASS** | Correct denominators per §1.2 |
 | **FAIL** | Uses 318 for inventory or mixes LV |
 | **Fail-safe** | Return `{ pass: false, failures[] }` |
@@ -953,14 +1019,30 @@ Fāzes 0 completion
 
 ### 10.15 F0-COMP-15 — F0 completion verification runs
 
+**Robeža:** F0-COMP-15 **nedrīkst** veikt reālus Luna API izsaukumus vai pilno Fāzes 1 discovery. F0-COMP-15 ir infrastruktūras smoke un determinisma verifikācija.
+
 | | |
 |---|---|
-| **Komandas** | `npm run i18n:content:phase1-discovery -- --skip-luna` → 320/320; `--with-luna` → 318/318; `npm run i18n:content:phase1-exit` ×2 |
-| **PASS** | F1-2 320/320; F1-3 309/309; F1-4 309/309; F1-5 318/318; 2× exit determinism (skip-luna) |
-| **FAIL** | Any gate FAIL; exit JSON differs (deterministic fields) |
-| **Fail-safe** | Document API key requirement; `--skip-luna` for CI without Luna |
+| **Atļautās komandas** | `npm run i18n:content:phase1-discovery -- --skip-luna` → 320/320; `npm run i18n:content:phase1-exit` ×2 (determinisms); `npm run i18n:content:phase0-exit` (regression) |
+| **Atļautie testi** | Deterministiskie kolektori 320/320; inventory 309/309; multi-scan 309/309; Luna adapteru mock/dry-run testi; `evaluateLunaCoverage()` ar sintētisku 318/318 fixture; exit determinisma tests bez Luna API |
+| **PASS** | F1-2 320/320; F1-3 309/309; F1-4 309/309; F1-7 PASS; F1-9 PASS; 2× exit determinism (`--skip-luna`); Phase 0 regression PASS; `PRODUCTION_DIFF = 0` |
+| **FAIL** | Jebkurš deterministiskais vārts FAIL; exit JSON atšķiras (deterministic fields); reāli Luna API izsaukumi (`LUNA_CALLS > 0`) |
+| **Fail-safe** | `--skip-luna` obligāts; bez `OPENAI_API_KEY` prasības F0-COMP-15 laikā |
 
-Pēc F0-COMP-15 PASS → `PHASE_0_INFRASTRUCTURE_COMPLETION = PASS` → atļauta **Fāzes 1 discovery izpilde** (320 scope + Luna) kā atsevišķs uzdevums.
+**F0-COMP-15 laikā obligāti:**
+
+| Metrika | Vērtība |
+|---------|---------|
+| `LUNA_CALLS` | **0** |
+| `F1-5` | **NOT_RUN** |
+| `LUNA_AUDIT_SCOPE_COVERAGE` | **NOT_RUN** |
+| `PHASE_1_DISCOVERY` | **NOT_STARTED** |
+
+**Aizliegts F0-COMP-15 laikā:** `npm run i18n:content:phase1-discovery -- --with-luna` (reālais Luna discovery).
+
+Reālais `npm run i18n:content:phase1-discovery -- --with-luna` paliek atļauts **tikai pēc** `PHASE_0_COMPLETION_PASS` un **tikai** atsevišķā Fāzes 1 uzdevumā (§6.1, §15).
+
+Pēc F0-COMP-15 PASS → `PHASE_0_COMPLETION_PASS` → `PHASE_0_INFRASTRUCTURE_COMPLETION = PASS` → atļauta **Fāzes 1 discovery izpilde** (320 scope + Luna) kā atsevišķs uzdevums.
 
 ------------------------------------------------------------------------
 
@@ -1002,7 +1084,8 @@ Fāze 1 **neatceļ** F0 rezultātus — paplašina ar inventory 100%, multi-scan
 
 | Statuss | Nozīme |
 |---------|--------|
-| `PHASE_0_INFRASTRUCTURE_COMPLETION` | F0-COMP-1…15 izpilde/verifikācija (§10) |
+| `PHASE_0_INFRASTRUCTURE_COMPLETION_REQUIRED` | Spec apstiprināta; F0-COMP-1…15 nav izpildīts |
+| `PHASE_0_INFRASTRUCTURE_COMPLETION` | F0-COMP-1…15 izpilde/verifikācija notiek (§10) |
 | `PHASE_0_COMPLETION_PASS` | F0-COMP-1…15 PASS + `PRODUCTION_DIFF = 0` |
 | `PHASE_1_NOT_STARTED` | F0 completion PASS, bet discovery vēl nav sākts |
 | `PHASE_1_IN_PROGRESS` | Discovery/Luna runs aktīvi |
@@ -1010,7 +1093,19 @@ Fāze 1 **neatceļ** F0 rezultātus — paplašina ar inventory 100%, multi-scan
 | `PHASE_1_COMPLETE` | F1 PASS + post-merge uz `main` (A7) |
 | `NEEDS_PHASE_1_COMPLETION` | Trūkst coverage/Luna/OWNER-PREP |
 
-**Pašreizējais statuss:** `PHASE_1_NOT_STARTED` (gaida `PHASE_0_INFRASTRUCTURE_COMPLETION`).
+**Obligātā secība:**
+
+```text
+PHASE_0_INFRASTRUCTURE_COMPLETION_REQUIRED
+  → PHASE_0_COMPLETION_PASS
+  → PHASE_1_NOT_STARTED
+  → PHASE_1_IN_PROGRESS
+  → PHASE_1_TECHNICAL_PASS / PHASE_1_COMPLETE
+```
+
+`PHASE_1_NOT_STARTED` drīkst iestāties **tikai pēc** `PHASE_0_COMPLETION_PASS`.
+
+**Pašreizējais statuss:** `PHASE_0_INFRASTRUCTURE_COMPLETION_REQUIRED`.
 
 ------------------------------------------------------------------------
 
@@ -1053,7 +1148,7 @@ git diff --name-only origin/main...HEAD -- data www/data languages crowdin/conte
 **Nākamais solis (secība):**
 
 1. Apstiprināt spec (vai norādīt labojumus)
-2. Izpildīt F0-COMP-1…F0-COMP-15 → `PHASE_0_INFRASTRUCTURE_COMPLETION = PASS`
-3. Tikai tad — pilns 320 scope Fāzes 1 READ-ONLY discovery + Luna izpilde
+2. Izpildīt F0-COMP-1…F0-COMP-15 → `PHASE_0_COMPLETION_PASS` (`PHASE_0_INFRASTRUCTURE_COMPLETION = PASS`)
+3. Tikai tad — pilns 320 scope Fāzes 1 READ-ONLY discovery + Luna izpilde (`--with-luna`)
 
 **Discovery izpilde šajā posmā nav sākta.**

@@ -612,3 +612,22 @@ VERDICT = OWNER_REVIEW_PASS
 ---
 
 **Post-repair verdict:** §19 — `OWNER_REVIEW_PASS` | **Batch alignment:** §20
+
+---
+
+## 21. OWNER tehniskais precizējums — F0-COMP-15 / Luna robeža
+
+**Date:** 2026-08-29  
+**Scope:** Iekšējo pretrunu novēršana starp F0 completion (F0-COMP-15) un Fāzes 1 discovery.
+
+| Item | OWNER position |
+|------|----------------|
+| **F0-COMP-15** | Infrastruktūras smoke **bez** reāliem Luna API izsaukumiem |
+| **Atļauts F0-COMP-15** | `--skip-luna` 320/320; inventory 309/309; multi-scan 309/309; adapteru mock/dry-run; `evaluateLunaCoverage()` ar sintētisku fixture; exit determinisms; Phase 0 regression |
+| **F0-COMP-15 laikā** | `LUNA_CALLS = 0`; `F1-5 = NOT_RUN`; `LUNA_AUDIT_SCOPE_COVERAGE = NOT_RUN`; `PHASE_1_DISCOVERY = NOT_STARTED` |
+| **`--with-luna`** | Tikai pēc `PHASE_0_COMPLETION_PASS`, atsevišķā Fāzes 1 uzdevumā |
+| **Statusu secība** | `PHASE_0_INFRASTRUCTURE_COMPLETION_REQUIRED` → `PHASE_0_COMPLETION_PASS` → `PHASE_1_NOT_STARTED` → `PHASE_1_IN_PROGRESS` |
+| **Exit JSON** | F0 completion piemērs: `F1-5=NOT_RUN`, `lunaAudit=NOT_RUN`, `lunaCalls=0`; Phase 1 complete piemērs: `F1-5=PASS`, `lunaAudit=318/318`, `lunaCalls > 0` |
+| **Vēsturiskie verdicti** | §14, §19, §20 **nemainīti** |
+
+**Avots:** `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` §6.1, §7.2, §10.15, §13.
