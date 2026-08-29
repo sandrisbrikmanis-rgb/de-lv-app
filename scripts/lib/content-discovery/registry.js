@@ -10,6 +10,7 @@ const {
   G2_LEVELS,
 } = require("../content-crowdin-bridge/constants");
 const { runBaselineGate } = require("./baseline-gate");
+const { expectedStructuralCollector } = require("./discovery-scope");
 const { gitProductionDiffAgainstBaseline } = require("./git-baseline");
 const { collectG2Structural, collectG1SentencesStructural, collectG1VerbsStructural, collectG1TrainingStructural, collectG3CourseLessonsStructural } = require("./collectors/structural");
 const { collectG2DeCompliance } = require("./collectors/de-compliance");
@@ -192,6 +193,10 @@ function runContentDiscovery(options = {}) {
           lang,
           scopeKey: `${group}/${dataset}/${lang}`,
           scopeExecuted: true,
+          structuralCollector:
+            stats.structuralCollector || expectedStructuralCollector(group, dataset),
+          applicability: stats.applicability || "APPLICABLE",
+          note: stats.note || null,
           ...stats,
           findings: scoped.length,
           critical,

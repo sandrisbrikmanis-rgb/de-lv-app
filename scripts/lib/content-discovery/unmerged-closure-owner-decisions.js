@@ -21,7 +21,30 @@ const RESOLVED_CATEGORIES = new Set([
   CATEGORY_CLOSED,
   CATEGORY_ACTIVE,
   "DOCUMENTED_EXCEPTION",
+  "NEEDS_REPAIR",
+  "FALSE_POSITIVE",
 ]);
+
+/** Map OWNER resolved categories to D1 gate categories (non-blocking when closed). */
+const FINAL_CATEGORY_MAP = {
+  DOCUMENTED_EXCEPTION: CATEGORY_INTEGRATED,
+  INTEGRATED_HISTORICAL: CATEGORY_INTEGRATED,
+  CLOSED_SUPERSEDED: CATEGORY_CLOSED,
+  NEEDS_REPAIR: CATEGORY_CLOSED,
+  FALSE_POSITIVE: CATEGORY_CLOSED,
+  ACTIVE_UNMERGED_CLOSURE: CATEGORY_ACTIVE,
+};
+
+function ownerEvidenceText(row, parsed) {
+  const rationale = row?.ownerRationale?.trim();
+  const note = row?.ownerNote?.trim();
+  if (rationale) return rationale;
+  if (note) return note;
+  if (row?.ownerDecision && row?.evidenceRefs?.length) {
+    return `OWNER ${row.ownerDecision} (${row.evidenceRefs.length} evidence ref(s))`;
+  }
+  return null;
+}
 
 function loadOwnerDecisions(options = {}) {
   const decisionsPath = options.decisionsPath || DEFAULT_DECISIONS_PATH;
@@ -52,12 +75,13 @@ function loadOwnerDecisions(options = {}) {
 
   const decisions = Array.isArray(parsed?.decisions) ? parsed.decisions : [];
   const byHeadRef = new Map();
+  const byPrNumber = new Map();
   const errors = [];
 
   for (const [index, row] of decisions.entries()) {
     const headRefName = row?.headRefName?.trim();
     const resolvedCategory = row?.resolvedCategory?.trim();
-    const ownerNote = row?.ownerNote?.trim();
+    const ownerText = ownerEvidenceText(row, parsed);
 
     if (!headRefName) {
       errors.push(`decisions[${index}]: missing headRefName`);
@@ -69,8 +93,10 @@ function loadOwnerDecisions(options = {}) {
       );
       continue;
     }
-    if (!ownerNote) {
-      errors.push(`decisions[${index}] (${headRefName}): missing ownerNote`);
+    if (!ownerText) {
+      errors.push(
+        `decisions[${index}] (${headRefName}): missing ownerRationale/ownerNote (or ownerDecision+evidenceRefs)`,
+      );
       continue;
     }
     if (byHeadRef.has(headRefName)) {
@@ -78,15 +104,26 @@ function loadOwnerDecisions(options = {}) {
       continue;
     }
 
-    byHeadRef.set(headRefName, {
+    const entry = {
       headRefName,
       resolvedCategory,
-      ownerNote,
+      ownerNote: row?.ownerNote?.trim() || null,
+      ownerRationale: row?.ownerRationale?.trim() || null,
+      ownerDecision: row?.ownerDecision?.trim() || null,
+      ownerText,
       baselineComparison: row?.baselineComparison?.trim() || null,
       decidedAt: row?.decidedAt || null,
       decidedBy: row?.decidedBy || parsed?.decidedBy || "OWNER",
       prNumber: row?.prNumber ?? null,
-    });
+    };
+    byHeadRef.set(headRefName, entry);
+    if (row?.prNumber != null) {
+      if (byPrNumber.has(row.prNumber)) {
+        errors.push(`decisions[${index}] (PR #${row.prNumber}): duplicate prNumber`);
+        continue;
+      }
+      byPrNumber.set(row.prNumber, entry);
+    }
   }
 
   return {
@@ -95,8 +132,10 @@ function loadOwnerDecisions(options = {}) {
     exists: true,
     schemaVersion: parsed?.schemaVersion ?? null,
     module: parsed?.module ?? null,
+    verdict: parsed?.verdict ?? null,
     decisions,
     byHeadRef,
+    byPrNumber,
     errors,
   };
 }
@@ -118,15 +157,15 @@ function applyOwnerDecisions(classification, options = {}) {
   }
 
   const candidates = (classification.candidates || []).map((row) => {
-    const decision = ownerLoad.byHeadRef.get(row.headRefName);
+    const decision =
+      ownerLoad.byHeadRef.get(row.headRefName) ||
+      (row.pr?.number != null ? ownerLoad.byPrNumber.get(row.pr.number) : null);
     if (!decision) {
       return { ...row, ownerDecision: null, finalCategory: row.category };
     }
 
     const finalCategory =
-      decision.resolvedCategory === "DOCUMENTED_EXCEPTION"
-        ? CATEGORY_INTEGRATED
-        : decision.resolvedCategory;
+      FINAL_CATEGORY_MAP[decision.resolvedCategory] ?? decision.resolvedCategory;
 
     return {
       ...row,
@@ -134,7 +173,7 @@ function applyOwnerDecisions(classification, options = {}) {
       ownerDecision: decision,
       category: finalCategory,
       finalCategory,
-      reason: `${row.reason} → OWNER: ${decision.resolvedCategory} (${decision.ownerNote})`,
+      reason: `${row.reason} → OWNER: ${decision.resolvedCategory} (${decision.ownerText})`,
     };
   });
 
@@ -174,6 +213,7 @@ function applyOwnerDecisions(classification, options = {}) {
 module.exports = {
   DEFAULT_DECISIONS_PATH,
   RESOLVED_CATEGORIES,
+  FINAL_CATEGORY_MAP,
   loadOwnerDecisions,
   applyOwnerDecisions,
 };

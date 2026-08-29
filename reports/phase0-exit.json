@@ -1,0 +1,2483 @@
+{
+  "status": "PHASE_0_COMPLETE",
+  "verdict": "READY_FOR_PHASE_0_PRE_MERGE_REVIEW",
+  "generatedAt": "2026-08-29T05:49:08.573Z",
+  "masterVersion": "1.12",
+  "originMainSha": "a0ed44630493562d4d2b03ca53a1802a743e5416",
+  "scopeInventory": {
+    "expectedScope": 320,
+    "uniqueScopeIds": 320,
+    "duplicates": 0,
+    "byGroup": {
+      "g1": 96,
+      "g2": 192,
+      "g3": 32
+    },
+    "byLang": {
+      "lv": 10,
+      "lt": 10,
+      "ru": 10,
+      "pl": 10,
+      "uk": 10,
+      "et": 10,
+      "en": 10,
+      "ro": 10,
+      "bg": 10,
+      "tr": 10,
+      "gr": 10,
+      "sq": 10,
+      "mk": 10,
+      "sl": 10,
+      "bs": 10,
+      "sr": 10,
+      "hr": 10,
+      "sk": 10,
+      "cs": 10,
+      "fi": 10,
+      "sv": 10,
+      "nb": 10,
+      "nn": 10,
+      "da": 10,
+      "nl": 10,
+      "lb": 10,
+      "fr": 10,
+      "it": 10,
+      "es": 10,
+      "pt": 10,
+      "hu": 10,
+      "is": 10
+    },
+    "byDataset": {
+      "g2/a1": 32,
+      "g2/a2": 32,
+      "g2/b1": 32,
+      "g2/b2": 32,
+      "g2/c1": 32,
+      "g2/c2": 32,
+      "g1/sentences": 32,
+      "g1/verbs": 32,
+      "g1/training": 32,
+      "g3/courseLessons": 32
+    },
+    "scopes": [
+      {
+        "scopeId": "g2/a1/lv",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "lv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/lt",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "lt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/ru",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "ru",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/pl",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "pl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/uk",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "uk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/et",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "et",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/en",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "en",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/ro",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "ro",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/bg",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "bg",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/tr",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "tr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/gr",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "gr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/sq",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "sq",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/mk",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "mk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/sl",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "sl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/bs",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "bs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/sr",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "sr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/hr",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "hr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/sk",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "sk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/cs",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "cs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/fi",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "fi",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/sv",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "sv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/nb",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "nb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/nn",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "nn",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/da",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "da",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/nl",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "nl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/lb",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "lb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/fr",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "fr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/it",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "it",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/es",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "es",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/pt",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "pt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/hu",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "hu",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a1/is",
+        "group": "g2",
+        "dataset": "a1",
+        "lang": "is",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/lv",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "lv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/lt",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "lt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/ru",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "ru",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/pl",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "pl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/uk",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "uk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/et",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "et",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/en",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "en",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/ro",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "ro",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/bg",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "bg",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/tr",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "tr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/gr",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "gr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/sq",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "sq",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/mk",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "mk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/sl",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "sl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/bs",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "bs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/sr",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "sr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/hr",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "hr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/sk",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "sk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/cs",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "cs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/fi",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "fi",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/sv",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "sv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/nb",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "nb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/nn",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "nn",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/da",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "da",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/nl",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "nl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/lb",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "lb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/fr",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "fr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/it",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "it",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/es",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "es",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/pt",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "pt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/hu",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "hu",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/a2/is",
+        "group": "g2",
+        "dataset": "a2",
+        "lang": "is",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/lv",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "lv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/lt",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "lt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/ru",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "ru",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/pl",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "pl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/uk",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "uk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/et",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "et",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/en",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "en",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/ro",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "ro",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/bg",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "bg",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/tr",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "tr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/gr",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "gr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/sq",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "sq",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/mk",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "mk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/sl",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "sl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/bs",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "bs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/sr",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "sr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/hr",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "hr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/sk",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "sk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/cs",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "cs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/fi",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "fi",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/sv",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "sv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/nb",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "nb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/nn",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "nn",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/da",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "da",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/nl",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "nl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/lb",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "lb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/fr",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "fr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/it",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "it",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/es",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "es",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/pt",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "pt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/hu",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "hu",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b1/is",
+        "group": "g2",
+        "dataset": "b1",
+        "lang": "is",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/lv",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "lv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/lt",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "lt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/ru",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "ru",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/pl",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "pl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/uk",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "uk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/et",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "et",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/en",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "en",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/ro",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "ro",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/bg",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "bg",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/tr",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "tr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/gr",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "gr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/sq",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "sq",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/mk",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "mk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/sl",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "sl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/bs",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "bs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/sr",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "sr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/hr",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "hr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/sk",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "sk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/cs",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "cs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/fi",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "fi",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/sv",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "sv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/nb",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "nb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/nn",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "nn",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/da",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "da",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/nl",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "nl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/lb",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "lb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/fr",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "fr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/it",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "it",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/es",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "es",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/pt",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "pt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/hu",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "hu",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/b2/is",
+        "group": "g2",
+        "dataset": "b2",
+        "lang": "is",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/lv",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "lv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/lt",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "lt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/ru",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "ru",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/pl",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "pl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/uk",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "uk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/et",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "et",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/en",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "en",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/ro",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "ro",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/bg",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "bg",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/tr",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "tr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/gr",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "gr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/sq",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "sq",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/mk",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "mk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/sl",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "sl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/bs",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "bs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/sr",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "sr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/hr",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "hr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/sk",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "sk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/cs",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "cs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/fi",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "fi",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/sv",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "sv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/nb",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "nb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/nn",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "nn",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/da",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "da",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/nl",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "nl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/lb",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "lb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/fr",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "fr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/it",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "it",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/es",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "es",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/pt",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "pt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/hu",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "hu",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c1/is",
+        "group": "g2",
+        "dataset": "c1",
+        "lang": "is",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/lv",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "lv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/lt",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "lt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/ru",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "ru",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/pl",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "pl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/uk",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "uk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/et",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "et",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/en",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "en",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/ro",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "ro",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/bg",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "bg",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/tr",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "tr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/gr",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "gr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/sq",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "sq",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/mk",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "mk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/sl",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "sl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/bs",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "bs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/sr",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "sr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/hr",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "hr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/sk",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "sk",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/cs",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "cs",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/fi",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "fi",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/sv",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "sv",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/nb",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "nb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/nn",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "nn",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/da",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "da",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/nl",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "nl",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/lb",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "lb",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/fr",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "fr",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/it",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "it",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/es",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "es",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/pt",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "pt",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/hu",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "hu",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g2/c2/is",
+        "group": "g2",
+        "dataset": "c2",
+        "lang": "is",
+        "structuralCollector": "g2"
+      },
+      {
+        "scopeId": "g1/sentences/lv",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "lv",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/lt",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "lt",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/ru",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "ru",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/pl",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "pl",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/uk",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "uk",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/et",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "et",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/en",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "en",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/ro",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "ro",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/bg",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "bg",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/tr",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "tr",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/gr",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "gr",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/sq",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "sq",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/mk",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "mk",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/sl",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "sl",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/bs",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "bs",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/sr",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "sr",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/hr",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "hr",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/sk",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "sk",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/cs",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "cs",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/fi",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "fi",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/sv",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "sv",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/nb",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "nb",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/nn",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "nn",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/da",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "da",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/nl",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "nl",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/lb",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "lb",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/fr",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "fr",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/it",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "it",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/es",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "es",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/pt",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "pt",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/hu",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "hu",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/sentences/is",
+        "group": "g1",
+        "dataset": "sentences",
+        "lang": "is",
+        "structuralCollector": "g1-sentences"
+      },
+      {
+        "scopeId": "g1/verbs/lv",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "lv",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/lt",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "lt",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/ru",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "ru",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/pl",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "pl",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/uk",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "uk",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/et",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "et",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/en",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "en",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/ro",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "ro",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/bg",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "bg",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/tr",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "tr",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/gr",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "gr",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/sq",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "sq",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/mk",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "mk",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/sl",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "sl",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/bs",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "bs",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/sr",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "sr",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/hr",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "hr",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/sk",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "sk",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/cs",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "cs",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/fi",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "fi",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/sv",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "sv",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/nb",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "nb",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/nn",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "nn",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/da",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "da",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/nl",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "nl",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/lb",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "lb",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/fr",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "fr",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/it",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "it",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/es",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "es",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/pt",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "pt",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/hu",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "hu",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/verbs/is",
+        "group": "g1",
+        "dataset": "verbs",
+        "lang": "is",
+        "structuralCollector": "g1-verbs"
+      },
+      {
+        "scopeId": "g1/training/lv",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "lv",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/lt",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "lt",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/ru",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "ru",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/pl",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "pl",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/uk",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "uk",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/et",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "et",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/en",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "en",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/ro",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "ro",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/bg",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "bg",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/tr",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "tr",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/gr",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "gr",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/sq",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "sq",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/mk",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "mk",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/sl",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "sl",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/bs",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "bs",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/sr",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "sr",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/hr",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "hr",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/sk",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "sk",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/cs",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "cs",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/fi",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "fi",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/sv",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "sv",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/nb",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "nb",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/nn",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "nn",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/da",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "da",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/nl",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "nl",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/lb",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "lb",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/fr",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "fr",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/it",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "it",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/es",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "es",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/pt",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "pt",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/hu",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "hu",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g1/training/is",
+        "group": "g1",
+        "dataset": "training",
+        "lang": "is",
+        "structuralCollector": "g1-training"
+      },
+      {
+        "scopeId": "g3/courseLessons/lv",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "lv",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/lt",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "lt",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/ru",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "ru",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/pl",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "pl",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/uk",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "uk",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/et",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "et",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/en",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "en",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/ro",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "ro",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/bg",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "bg",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/tr",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "tr",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/gr",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "gr",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/sq",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "sq",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/mk",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "mk",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/sl",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "sl",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/bs",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "bs",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/sr",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "sr",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/hr",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "hr",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/sk",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "sk",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/cs",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "cs",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/fi",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "fi",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/sv",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "sv",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/nb",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "nb",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/nn",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "nn",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/da",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "da",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/nl",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "nl",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/lb",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "lb",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/fr",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "fr",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/it",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "it",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/es",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "es",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/pt",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "pt",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/hu",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "hu",
+        "structuralCollector": "g3-courseLessons"
+      },
+      {
+        "scopeId": "g3/courseLessons/is",
+        "group": "g3",
+        "dataset": "courseLessons",
+        "lang": "is",
+        "structuralCollector": "g3-courseLessons"
+      }
+    ]
+  },
+  "discovery": {
+    "expectedScope": 320,
+    "processed": 320,
+    "notApplicable": 2,
+    "missing": 0,
+    "duplicates": 0,
+    "blocked": 0,
+    "discoveryErrors": 0
+  },
+  "gates": {
+    "F0_1_bridge_library": {
+      "pass": true,
+      "note": "content-crowdin-bridge modules present and smoke round-trip OK",
+      "modules": 10,
+      "exports": 6
+    },
+    "F0_2_export_dry_run": {
+      "pass": true,
+      "note": "export-content-crowdin.js dry-run enforced; --write only under crowdin/ (execution verified)",
+      "issues": [],
+      "tests": [
+        {
+          "name": "out_without_write_exit",
+          "exitCode": 0
+        },
+        {
+          "name": "default_dry_run_exit",
+          "exitCode": 0
+        },
+        {
+          "name": "write_outside_crowdin_exit",
+          "exitCode": 1
+        },
+        {
+          "name": "write_under_crowdin_exit",
+          "exitCode": 0
+        }
+      ]
+    },
+    "F0_3_roundtrip": {
+      "pass": true,
+      "passed": 319,
+      "failed": 0,
+      "skipped": 1,
+      "total": 320,
+      "allowedSkips": [
+        {
+          "key": "g1-training/et",
+          "lang": "et",
+          "group": "g1-training",
+          "reason": "training cards missing",
+          "status": "EXPECTED_NOT_APPLICABLE"
+        }
+      ],
+      "unexpectedSkips": [],
+      "trainingCoverage": {
+        "total": 32,
+        "applicable": 31,
+        "lesson7Verified": 31,
+        "lesson7Failures": []
+      },
+      "note": "Only g1-training/et may skip round-trip (EXPECTED_NOT_APPLICABLE)"
+    },
+    "F0_4_discovery_orchestrator": {
+      "pass": true,
+      "note": "run-content-discovery.js with collectors for full scope",
+      "expectedScopes": 320,
+      "executedScopes": 320,
+      "notApplicable": 2
+    },
+    "F0_5_baseline_header": {
+      "pass": true,
+      "baselineVerdict": "PASS",
+      "fetchStatus": "PASS",
+      "fetchError": null,
+      "revParseStatus": "PASS",
+      "revParseError": null,
+      "deDiffBaseline": "a0ed44630493562d4d2b03ca53a1802a743e5416...HEAD",
+      "deChanges": [],
+      "deDiffError": null,
+      "unmergedClosureCountRaw": 90,
+      "unmergedClosureClassification": {
+        "INTEGRATED_HISTORICAL": 37,
+        "CLOSED_SUPERSEDED": 53,
+        "ACTIVE_UNMERGED_CLOSURE": 0,
+        "NEEDS_OWNER_REVIEW": 0
+      },
+      "activeUnmergedClosureCount": 0,
+      "needsOwnerReviewCount": 0,
+      "unresolvedOwnerReviewCount": 0,
+      "ownerDecisionsApplied": 53,
+      "ownerDecisionsPath": "/workspace/reports/unmerged-closure-owner-decisions.json",
+      "activeUnmergedClosureCandidates": [],
+      "classificationReport": "/workspace/reports/unmerged-closure-classification-READONLY.md"
+    },
+    "F0_6_deterministic_collectors": {
+      "pass": true,
+      "note": "structural parity executed for every group × dataset × lang scope",
+      "structuralCoverage": {
+        "pass": true,
+        "expectedCount": 320,
+        "executedCount": 320,
+        "missing": [],
+        "missingCount": 0,
+        "wrongCollector": [],
+        "wrongCollectorCount": 0,
+        "expectedNotApplicable": [
+          {
+            "key": "g1/training/lv",
+            "group": "g1",
+            "dataset": "training",
+            "lang": "lv",
+            "note": "lv: no courseTrainingCards.js (LV embedded / ET absent)"
+          },
+          {
+            "key": "g1/training/et",
+            "group": "g1",
+            "dataset": "training",
+            "lang": "et",
+            "note": "et: no courseTrainingCards.js (LV embedded / ET absent)"
+          }
+        ]
+      }
+    },
+    "F0_7_production_diff_zero": {
+      "pass": true,
+      "baseline": "a0ed44630493562d4d2b03ca53a1802a743e5416...HEAD",
+      "paths": [
+        "data",
+        "www/data",
+        "languages"
+      ],
+      "productionDiff": "(clean)",
+      "changedCount": 0,
+      "error": null,
+      "fetchStatus": "PASS",
+      "revParseStatus": "PASS"
+    },
+    "F0_8_all_groups_coverage": {
+      "pass": true,
+      "groups": [
+        "g1-sentences",
+        "g1-verbs",
+        "g1-training",
+        "g2",
+        "g3"
+      ],
+      "g2Levels": [
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c1",
+        "c2"
+      ],
+      "langs": 32,
+      "roundTripPassed": 319,
+      "roundTripFailed": 0,
+      "roundTripSkipped": 1,
+      "roundTripUnexpectedSkips": 0,
+      "structuralMissingScopes": 0,
+      "note": "Full group coverage with baseline-clean production paths"
+    }
+  },
+  "roundTripFailures": [],
+  "roundTripSkipped": [
+    {
+      "group": "g1-training",
+      "dataset": "training",
+      "lang": "et",
+      "pass": false,
+      "reason": "training cards missing",
+      "keyCount": 0,
+      "skipped": true
+    }
+  ],
+  "phase0Complete": true,
+  "note": "All F0-1…F0-8 gates PASS. Production diff = 0. Phase 1 not started."
+}

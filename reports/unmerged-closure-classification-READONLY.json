@@ -1,1101 +1,25 @@
 {
   "ok": true,
-  "generatedAt": "2026-08-28T18:29:38.698Z",
+  "generatedAt": "2026-08-29T05:49:34.990Z",
   "mode": "READ_ONLY",
   "ghPrLookupError": null,
   "unmergedClosureCountRaw": 90,
   "autoSummary": {
     "INTEGRATED_HISTORICAL": 37,
-    "CLOSED_SUPERSEDED": 0,
-    "ACTIVE_UNMERGED_CLOSURE": 2,
-    "NEEDS_OWNER_REVIEW": 51
+    "CLOSED_SUPERSEDED": 53,
+    "ACTIVE_UNMERGED_CLOSURE": 0,
+    "NEEDS_OWNER_REVIEW": 0
   },
   "summary": {
     "INTEGRATED_HISTORICAL": 37,
-    "CLOSED_SUPERSEDED": 0,
-    "ACTIVE_UNMERGED_CLOSURE": 2,
-    "NEEDS_OWNER_REVIEW": 51
+    "CLOSED_SUPERSEDED": 53,
+    "ACTIVE_UNMERGED_CLOSURE": 0,
+    "NEEDS_OWNER_REVIEW": 0
   },
-  "activeUnmergedClosureCount": 2,
-  "needsOwnerReviewCount": 51,
-  "activeUnmergedClosureCandidates": [
-    {
-      "ref": "origin/cursor/cs-kurs-articles-full-audit-6850",
-      "headRefName": "cursor/cs-kurs-articles-full-audit-6850",
-      "tipSha": "fd2178e22676bfedcc1b482ff7a1dd55323455be",
-      "category": "ACTIVE_UNMERGED_CLOSURE",
-      "reason": "Open non-draft PR #528 with production content not on origin/main",
-      "productionContentDiffFiles": [
-        "data/cs/courseLessons.js",
-        "www/data/cs/courseLessons.js"
-      ],
-      "pr": {
-        "number": 528,
-        "state": "OPEN",
-        "isDraft": false,
-        "mergeable": "CONFLICTING",
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528",
-        "title": "CS–DE Kurss Členy: full audit + OWNER review complete (#001–#315)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
-    },
-    {
-      "ref": "origin/cursor/en-b1-critical-repair-6850",
-      "headRefName": "cursor/en-b1-critical-repair-6850",
-      "tipSha": "272319f03e6db693db5bd0fdffe8e959b43acc79",
-      "category": "ACTIVE_UNMERGED_CLOSURE",
-      "reason": "Open non-draft PR #343 with production content not on origin/main",
-      "productionContentDiffFiles": [
-        "data/en/b1.js",
-        "www/data/en/b1.js"
-      ],
-      "pr": {
-        "number": 343,
-        "state": "OPEN",
-        "isDraft": false,
-        "mergeable": "CONFLICTING",
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343",
-        "title": "fix(en-b1): CRITICAL cycle closed — ready for HIGH owner review"
-      },
-      "ownerDecision": null,
-      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
-    }
-  ],
-  "needsOwnerReviewCandidates": [
-    {
-      "ref": "origin/cursor/audit-kurss-content-5a8d",
-      "headRefName": "cursor/audit-kurss-content-5a8d",
-      "tipSha": "bac9ca1ae442de030c959d6c571eaee9ca6b0eee",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #123 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/courseLessons.js",
-        "www/data/courseLessons.js"
-      ],
-      "pr": {
-        "number": 123,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/123",
-        "title": "Audit Kurss section: orthography, LV style, and translation fixes"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-critical-final-repair-6ea4",
-      "headRefName": "cursor/cs-a1-critical-final-repair-6ea4",
-      "tipSha": "fb84f93b62cee22d47987c3295cd539d30d6883d",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #423 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 423,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/423",
-        "title": "CS A1 critical final repair: 33/33 OWNER fields"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
-      "headRefName": "cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
-      "tipSha": "cb5d5de485bbff7be410695bf12bd19631b9beb8",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #456 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 456,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/456",
-        "title": "CS-DE A1 final repair block 04 (last 10 fields, 160/160 reconciliation)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-final-main-repair-batch101-150-6ea4",
-      "headRefName": "cursor/cs-a1-final-main-repair-batch101-150-6ea4",
-      "tipSha": "5cefdabe19428e5cb4e23c773e81f5319a87f74e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #455 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 455,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/455",
-        "title": "CS-DE A1 final main repair batch 101-150 (50 fields)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-final-main-repair-batch51-100-6ea4",
-      "headRefName": "cursor/cs-a1-final-main-repair-batch51-100-6ea4",
-      "tipSha": "41e6db4c08a24432ed613315afb85ae939191fb8",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #454 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 454,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/454",
-        "title": "CS-DE A1 final main repair batch 51-100 (50 fields)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-final-missing-study-parity-repair-6ea4",
-      "headRefName": "cursor/cs-a1-final-missing-study-parity-repair-6ea4",
-      "tipSha": "39fed3ce220e3f1a05f0401058f6f4ba85aa3d3e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #458 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 458,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/458",
-        "title": "CS-DE A1 MISSING_STUDY_PARITY repair (14/14)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-final-post-repair-audit-6ea4",
-      "headRefName": "cursor/cs-a1-final-post-repair-audit-6ea4",
-      "tipSha": "d672651215eba6fb1b05c8046d38092a0591b7bf",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #452 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 452,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/452",
-        "title": "CS–DE A1 final post-repair full audit (702/702, NOT CLOSED)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
-      "headRefName": "cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
-      "tipSha": "698277bf7fe1ebc369155e2c419b5555173f91da",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #459 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 459,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/459",
-        "title": "CS-DE A1 study parity sectionAccents micro-repair (10/10)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block01-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block01-6ea4",
-      "tipSha": "08e9a8626b70832c81cb1fa6df36c73eb98ca284",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #438 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 438,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/438",
-        "title": "CS–DE A1 full review repair block 01: 20/20 csText fixes"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block02-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block02-6ea4",
-      "tipSha": "c09c4a763b07e37848908ae8d893e649ecc257ac",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #439 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 439,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/439",
-        "title": "CS–DE A1 full review repair block 02: 16/17 csText fixes"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block03-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block03-6ea4",
-      "tipSha": "5035ec4f992cd6788c153bfaf59a104b92b8268c",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #440 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 440,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/440",
-        "title": "CS–DE A1 full review repair block 03 (findings 101–150)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block04-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block04-6ea4",
-      "tipSha": "5245080aa16ce6a65674b84b1ce726a7aa9ca940",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #441 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 441,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/441",
-        "title": "CS–DE A1 full review repair block 04 (findings 151–200)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block05-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block05-6ea4",
-      "tipSha": "665a5d15f280e9dd592137092157926d5c94caf7",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #442 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 442,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/442",
-        "title": "CS–DE A1 full review repair block 05 (findings 201–250)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block06-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block06-6ea4",
-      "tipSha": "a84489535295850d300c047826ee593c7aaf51a0",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #443 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 443,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/443",
-        "title": "CS–DE A1 full review repair block 06 (findings 251–300)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block07-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block07-6ea4",
-      "tipSha": "3e5f40273fe74caed18b2355955fec4fdcc06e16",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #444 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 444,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/444",
-        "title": "CS–DE A1 full review repair block 07 (findings 301–350)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block08-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block08-6ea4",
-      "tipSha": "bddf580440055e033568ccc4695ab52f6af8f75b",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #445 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 445,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/445",
-        "title": "CS–DE A1 full review repair block 08 (findings 351–400)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block09-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block09-6ea4",
-      "tipSha": "2df1f0cf2c317b5916e4d75aba5b5f40202cd17e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #446 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 446,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/446",
-        "title": "CS–DE A1 full review repair block 09 (findings 401–450)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block10-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block10-6ea4",
-      "tipSha": "1108ea918a656631a01e7293ed8c8c810747f544",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #447 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 447,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/447",
-        "title": "CS–DE A1 Full Review Repair — Block 10 (Findings 451–500)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block11-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block11-6ea4",
-      "tipSha": "9b59589c394d96a69c59abfb0b6eb33f310c3743",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #448 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 448,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/448",
-        "title": "CS–DE A1 Full Review Repair — Block 11 (Findings 501–550)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-full-review-repair-block12-6ea4",
-      "headRefName": "cursor/cs-a1-full-review-repair-block12-6ea4",
-      "tipSha": "c559de98fb43547408813969da4e67374bc11109",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #449 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 449,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/449",
-        "title": "CS–DE A1 Full Review Repair — Block 12 (Findings 551–600)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-final-closure-check-6ea4",
-      "headRefName": "cursor/cs-a1-high-final-closure-check-6ea4",
-      "tipSha": "9b3ebe3fd1c7d5a3268e02ba37376e85304016cb",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #436 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 436,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/436",
-        "title": "CS–DE A1 HIGH final closure check: CLOSED"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-final-micro-repair-02-6ea4",
-      "headRefName": "cursor/cs-a1-high-final-micro-repair-02-6ea4",
-      "tipSha": "51b11f6951bc6270764100297984d747ad4af9b6",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #435 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 435,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/435",
-        "title": "CS–DE A1 HIGH final micro-repair #2: apply 2/2 OWNER fixes"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-post-repair-audit-6ea4",
-      "headRefName": "cursor/cs-a1-high-post-repair-audit-6ea4",
-      "tipSha": "9c2947c86ae7d37454d46ebd8657aee16ffaa3d7",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #432 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 432,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/432",
-        "title": "CS–DE A1 HIGH post-repair audit (read-only) — NOT CLOSED"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-regression-final-repair-6ea4",
-      "headRefName": "cursor/cs-a1-high-regression-final-repair-6ea4",
-      "tipSha": "c14e9211244564860c08888a3c8ea37cbcc1ecfc",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #433 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 433,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/433",
-        "title": "CS–DE A1 HIGH regression gala repair (17/18 applied)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-repair-block01-6ea4",
-      "headRefName": "cursor/cs-a1-high-repair-block01-6ea4",
-      "tipSha": "26138f92f0379cffaa93844aa258b83a418bed45",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #426 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 426,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/426",
-        "title": "CS A1 HIGH repair block 1/6: 50 csText fixes"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-repair-block02-6ea4",
-      "headRefName": "cursor/cs-a1-high-repair-block02-6ea4",
-      "tipSha": "8dc45cfc8eca72f6e33307d5f8076039ac9b33fc",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #427 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 427,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/427",
-        "title": "CS–DE A1 HIGH repair block 2/6 (findings 51–100)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-repair-block03-6ea4",
-      "headRefName": "cursor/cs-a1-high-repair-block03-6ea4",
-      "tipSha": "a4fe739b08f270ef53ff50192a90e7729eacd43e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #428 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 428,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/428",
-        "title": "CS–DE A1 HIGH repair block 3/6 (findings 101–150)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-repair-block04-6ea4",
-      "headRefName": "cursor/cs-a1-high-repair-block04-6ea4",
-      "tipSha": "b320920c298758f1b727e4905b3cf3450453b427",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #429 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 429,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/429",
-        "title": "CS–DE A1 HIGH repair block 4/6 (findings 151–200)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-repair-block05-6ea4",
-      "headRefName": "cursor/cs-a1-high-repair-block05-6ea4",
-      "tipSha": "1c813d16320e79bc39e4fe320740a137aece0ec5",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #430 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 430,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/430",
-        "title": "CS–DE A1 HIGH repair block 5/6 (findings 201–250)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-high-repair-block06-6ea4",
-      "headRefName": "cursor/cs-a1-high-repair-block06-6ea4",
-      "tipSha": "3d134c9cb25625dfd3eb73800996630cff2aa826",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #431 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 431,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/431",
-        "title": "CS–DE A1 HIGH repair block 6/6 — final 36 + gala coverage (287/287)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-a1-post-repair-audit-6ea4",
-      "headRefName": "cursor/cs-a1-post-repair-audit-6ea4",
-      "tipSha": "563b193f79d170bfc8039578d50597a9b55de3c2",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #421 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/a1.js",
-        "www/data/cs/a1.js"
-      ],
-      "pr": {
-        "number": 421,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/421",
-        "title": "CS A1 post-repair full audit (702/702, read-only)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
-      "headRefName": "cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
-      "tipSha": "566c275c4d4c28d107eda97c70007b6cdbd0bf1c",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #502 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/b1.js",
-        "www/data/cs/b1.js"
-      ],
-      "pr": {
-        "number": 502,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/502",
-        "title": "CS-DE B1: final 2-card micro-repair apply (2/2)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-b1-final-micro-regression-closure-6ea4",
-      "headRefName": "cursor/cs-b1-final-micro-regression-closure-6ea4",
-      "tipSha": "f45f531eee7956310a2de262249592c23eab63e6",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #503 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/b1.js",
-        "www/data/cs/b1.js"
-      ],
-      "pr": {
-        "number": 503,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/503",
-        "title": "CS-DE B1: final micro-regression closure — OWNER ACCEPTED / CLOSED"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-b2-final-closure-audit-6ea4",
-      "headRefName": "cursor/cs-b2-final-closure-audit-6ea4",
-      "tipSha": "6f798efc6781a0d7b76907fda52b8c76d0fb00a7",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #508 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/b2.js",
-        "www/data/cs/b2.js"
-      ],
-      "pr": {
-        "number": 508,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/508",
-        "title": "CS–DE B2 final closure audit — OWNER ACCEPTED / CLOSED"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-b2-owner-copy-only-repair-6ea4",
-      "headRefName": "cursor/cs-b2-owner-copy-only-repair-6ea4",
-      "tipSha": "35e1301425f3800fdaceca7810c6c8af5b9d98f1",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #506 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/b2.js",
-        "www/data/cs/b2.js"
-      ],
-      "pr": {
-        "number": 506,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/506",
-        "title": "fix(cs-b2): apply owner-approved copy-only repair mappings (944/969)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/cs-b2-targeted-regression-audit-6ea4",
-      "headRefName": "cursor/cs-b2-targeted-regression-audit-6ea4",
-      "tipSha": "e276650a10b556812483568c47a755657ccfae87",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #507 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/cs/b2.js",
-        "www/data/cs/b2.js"
-      ],
-      "pr": {
-        "number": 507,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/507",
-        "title": "CS–DE B2 targeted regression audit (GPT-5.6 Luna)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/da-kurss-full-luna-audit-fffe",
-      "headRefName": "cursor/da-kurss-full-luna-audit-fffe",
-      "tipSha": "be850b4fef08b4bbb07c5238223dc73a2a71eeef",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #579 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/da/courseLessons.js",
-        "data/da/courseTrainingCards.js",
-        "languages/da/ui.js",
-        "www/data/da/courseLessons.js",
-        "www/data/da/courseTrainingCards.js"
-      ],
-      "pr": {
-        "number": 579,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/579",
-        "title": "DA Kurss full Luna audit (1264 fields, 77 findings)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/da-kurss-post-luna-owner-repair-fffe",
-      "headRefName": "cursor/da-kurss-post-luna-owner-repair-fffe",
-      "tipSha": "222daa5f9849614ed366d3650ce55d9b3aa27007",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #581 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/da/courseLessons.js",
-        "data/da/courseTrainingCards.js",
-        "www/data/da/courseLessons.js",
-        "www/data/da/courseTrainingCards.js"
-      ],
-      "pr": {
-        "number": 581,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/581",
-        "title": "Apply DA Kurss post-Luna OWNER decisions (41 LABOT)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/da-kurss-post-luna-reaudit-fffe",
-      "headRefName": "cursor/da-kurss-post-luna-reaudit-fffe",
-      "tipSha": "38bb8af57f7cb5b50328001ef1d752bfdac890b0",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #580 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/da/courseLessons.js",
-        "data/da/courseTrainingCards.js",
-        "languages/da/ui.js",
-        "www/data/da/courseLessons.js",
-        "www/data/da/courseTrainingCards.js"
-      ],
-      "pr": {
-        "number": 580,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/580",
-        "title": "DA–DE Kurss post-repair full Luna re-audit (1280 fields)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/da-kurss-post-repair-full-luna-audit-fffe",
-      "headRefName": "cursor/da-kurss-post-repair-full-luna-audit-fffe",
-      "tipSha": "6b43a6f87b2683f14fa5db41cf13a8412fdf33f3",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #582 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/da/courseLessons.js",
-        "data/da/courseTrainingCards.js",
-        "www/data/da/courseLessons.js",
-        "www/data/da/courseTrainingCards.js"
-      ],
-      "pr": {
-        "number": 582,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/582",
-        "title": "DA–DE Kurss post-repair full Luna audit (1266 fields, 121 findings)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/da-verbs-final-post-repair-owner-repair-fffe",
-      "headRefName": "cursor/da-verbs-final-post-repair-owner-repair-fffe",
-      "tipSha": "c7e6e8a1fbcf87ca99a1e64b56843e8332756765",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #564 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/da/verbs.js",
-        "www/data/da/verbs.js"
-      ],
-      "pr": {
-        "number": 564,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/564",
-        "title": "Apply DA–DE verbs final post-repair OWNER repairs (63 COPY-ONLY)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/en-b1-high-repair-01-6850",
-      "headRefName": "cursor/en-b1-high-repair-01-6850",
-      "tipSha": "48fbfa8ce6ffbc6414c9f877f3787f8342523976",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #345 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/en/b1.js",
-        "www/data/en/b1.js"
-      ],
-      "pr": {
-        "number": 345,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/345",
-        "title": "EN–DE B1 HIGH REPAIR #1 — 25 owner-reviewed cards"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/en-b1-high-repair-02-6850",
-      "headRefName": "cursor/en-b1-high-repair-02-6850",
-      "tipSha": "51a9d9af34fa9c197358ce08dcb1b9e4cf36453d",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #347 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/en/b1.js",
-        "www/data/en/b1.js"
-      ],
-      "pr": {
-        "number": 347,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/347",
-        "title": "EN–DE B1 HIGH REPAIR #2 — 25 owner-reviewed cards"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/en-b1-high-repair-03-6850",
-      "headRefName": "cursor/en-b1-high-repair-03-6850",
-      "tipSha": "45f51dac4e189424fd633683c7ef983538c20a50",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #349 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/en/b1.js",
-        "www/data/en/b1.js"
-      ],
-      "pr": {
-        "number": 349,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/349",
-        "title": "fix(en-b1): HIGH repair #3 — 25 normal card lv fixes"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/en-b1-high-repair-04-6850",
-      "headRefName": "cursor/en-b1-high-repair-04-6850",
-      "tipSha": "adaf8c60b2c6ed6497d61c9e28601e1c0d303c7e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #351 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/en/b1.js",
-        "www/data/en/b1.js"
-      ],
-      "pr": {
-        "number": 351,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/351",
-        "title": "fix(en-b1): HIGH repair #4 — 25 normal card lv fixes"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/en-b1-high-repair-05-6850",
-      "headRefName": "cursor/en-b1-high-repair-05-6850",
-      "tipSha": "45f5464bdb548df6cb3acf0e5f083653a091e810",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #353 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/en/b1.js",
-        "www/data/en/b1.js"
-      ],
-      "pr": {
-        "number": 353,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/353",
-        "title": "fix(en-b1): HIGH repair #5 — 24 lv fixes, Gen NELABOT"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/es-kurss-articles-visual-repair-3141",
-      "headRefName": "cursor/es-kurss-articles-visual-repair-3141",
-      "tipSha": "6388b04780fb239db216ab12754bcd08a6066096",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #669 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/es/courseLessons.js",
-        "www/data/es/courseLessons.js"
-      ],
-      "pr": {
-        "number": 669,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/669",
-        "title": "ES Kurss Artículos — visual COPY-ONLY repair (19 OWNER targets)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/es-kurss-pronouns-visual-repair-3141",
-      "headRefName": "cursor/es-kurss-pronouns-visual-repair-3141",
-      "tipSha": "a984da86998a916138874ac37de13900bd2f7296",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #670 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/es/courseLessons.js",
-        "languages/es/ui.js",
-        "www/data/es/courseLessons.js"
-      ],
-      "pr": {
-        "number": 670,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/670",
-        "title": "ES Kurss Pronombres visual COPY-ONLY repair (35 LABOT + 1 NELABOT)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/es-kurss-sentence-structure-visual-repair-3141",
-      "headRefName": "cursor/es-kurss-sentence-structure-visual-repair-3141",
-      "tipSha": "d8486d170d0ff6eda635a6d50ac01e030f10e80c",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #672 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/es/courseLessons.js",
-        "www/data/es/courseLessons.js"
-      ],
-      "pr": {
-        "number": 672,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/672",
-        "title": "ES Kurss Sentence structure visual COPY-ONLY repair (2 LABOT)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/es-kurss-verb-basics-visual-repair-3141",
-      "headRefName": "cursor/es-kurss-verb-basics-visual-repair-3141",
-      "tipSha": "4c0dd5cecff198d60860f40de30fa1683ee1cb63",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #671 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/es/courseLessons.js",
-        "languages/es/ui.js",
-        "www/data/es/courseLessons.js"
-      ],
-      "pr": {
-        "number": 671,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/671",
-        "title": "ES Kurss Verb basics visual COPY-ONLY repair (6 LABOT)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    },
-    {
-      "ref": "origin/cursor/et-de-a1-full-audit-ba9e",
-      "headRefName": "cursor/et-de-a1-full-audit-ba9e",
-      "tipSha": "ef3e74c46f4cf1570f0c79f235dc2431796ef670",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #586 with production content diff — OWNER review required",
-      "productionContentDiffFiles": [
-        "data/et/a1.js",
-        "www/data/et/a1.js"
-      ],
-      "pr": {
-        "number": 586,
-        "state": "OPEN",
-        "isDraft": true,
-        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/586",
-        "title": "ET-DE A1 pilns READ-ONLY audits (GPT-5.6 Luna)"
-      },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
-    }
-  ],
+  "activeUnmergedClosureCount": 0,
+  "needsOwnerReviewCount": 0,
+  "activeUnmergedClosureCandidates": [],
+  "needsOwnerReviewCandidates": [],
   "candidates": [
     {
       "ref": "origin/codex/es-kurss-pronunciation-owner-repair",
@@ -1113,21 +37,33 @@
       "ref": "origin/cursor/audit-kurss-content-5a8d",
       "headRefName": "cursor/audit-kurss-content-5a8d",
       "tipSha": "bac9ca1ae442de030c959d6c571eaee9ca6b0eee",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #123 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #123 closed without merge → OWNER: CLOSED_SUPERSEDED (All 65/65 fields reviewed. 47 RETAINED on main (B=C); 14 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/audit-kurss-content-5a8d no longer needed.)",
       "productionContentDiffFiles": [
         "data/courseLessons.js",
         "www/data/courseLessons.js"
       ],
       "pr": {
         "number": 123,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:52:09Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/123",
         "title": "Audit Kurss section: orthography, LV style, and translation fixes"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/audit-kurss-content-5a8d",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 65/65 fields reviewed. 47 RETAINED on main (B=C); 14 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/audit-kurss-content-5a8d no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 65/65 fields reviewed. 47 RETAINED on main (B=C); 14 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/audit-kurss-content-5a8d no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 123
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/bs-a2-final-audit-c1b5",
@@ -1213,21 +149,33 @@
       "ref": "origin/cursor/cs-a1-critical-final-repair-6ea4",
       "headRefName": "cursor/cs-a1-critical-final-repair-6ea4",
       "tipSha": "fb84f93b62cee22d47987c3295cd539d30d6883d",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #423 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #423 closed without merge → OWNER: CLOSED_SUPERSEDED (All 45/45 fields reviewed. 37 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 8 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-critical-final-repair-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 423,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:56:47Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/423",
         "title": "CS A1 critical final repair: 33/33 OWNER fields"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-critical-final-repair-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 45/45 fields reviewed. 37 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 8 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-critical-final-repair-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 45/45 fields reviewed. 37 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 8 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-critical-final-repair-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 423
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-final-702-audit-on-main-6ea4",
@@ -1284,621 +232,993 @@
       "ref": "origin/cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
       "headRefName": "cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
       "tipSha": "cb5d5de485bbff7be410695bf12bd19631b9beb8",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #456 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #456 closed without merge → OWNER: CLOSED_SUPERSEDED (All 116/116 fields reviewed. 112 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 3 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-main-repair-batch04-final10-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 456,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:25Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/456",
         "title": "CS-DE A1 final repair block 04 (last 10 fields, 160/160 reconciliation)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-final-main-repair-batch04-final10-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 116/116 fields reviewed. 112 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 3 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-main-repair-batch04-final10-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 116/116 fields reviewed. 112 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 3 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-main-repair-batch04-final10-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 456
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-final-main-repair-batch101-150-6ea4",
       "headRefName": "cursor/cs-a1-final-main-repair-batch101-150-6ea4",
       "tipSha": "5cefdabe19428e5cb4e23c773e81f5319a87f74e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #455 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #455 closed without merge → OWNER: CLOSED_SUPERSEDED (All 106/106 fields reviewed. 105 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-main-repair-batch101-150-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 455,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:25Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/455",
         "title": "CS-DE A1 final main repair batch 101-150 (50 fields)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-final-main-repair-batch101-150-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 106/106 fields reviewed. 105 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-main-repair-batch101-150-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 106/106 fields reviewed. 105 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-main-repair-batch101-150-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 455
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-final-main-repair-batch51-100-6ea4",
       "headRefName": "cursor/cs-a1-final-main-repair-batch51-100-6ea4",
       "tipSha": "41e6db4c08a24432ed613315afb85ae939191fb8",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #454 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #454 closed without merge → OWNER: CLOSED_SUPERSEDED (All 56/56 fields reviewed. 55 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-main-repair-batch51-100-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 454,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:25Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/454",
         "title": "CS-DE A1 final main repair batch 51-100 (50 fields)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-final-main-repair-batch51-100-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 56/56 fields reviewed. 55 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-main-repair-batch51-100-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 56/56 fields reviewed. 55 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-main-repair-batch51-100-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 454
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-final-missing-study-parity-repair-6ea4",
       "headRefName": "cursor/cs-a1-final-missing-study-parity-repair-6ea4",
       "tipSha": "39fed3ce220e3f1a05f0401058f6f4ba85aa3d3e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #458 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #458 closed without merge → OWNER: CLOSED_SUPERSEDED (All 589/589 fields reviewed. 573 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 15 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-missing-study-parity-repair-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 458,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:25Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/458",
         "title": "CS-DE A1 MISSING_STUDY_PARITY repair (14/14)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-final-missing-study-parity-repair-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 589/589 fields reviewed. 573 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 15 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-missing-study-parity-repair-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 589/589 fields reviewed. 573 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 15 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-missing-study-parity-repair-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 458
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-final-post-repair-audit-6ea4",
       "headRefName": "cursor/cs-a1-final-post-repair-audit-6ea4",
       "tipSha": "d672651215eba6fb1b05c8046d38092a0591b7bf",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #452 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #452 closed without merge → OWNER: CLOSED_SUPERSEDED (All 301/301 fields reviewed. 281 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 13 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-post-repair-audit-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 452,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:01Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/452",
         "title": "CS–DE A1 final post-repair full audit (702/702, NOT CLOSED)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-final-post-repair-audit-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 301/301 fields reviewed. 281 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 13 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-post-repair-audit-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 301/301 fields reviewed. 281 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 13 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-post-repair-audit-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 452
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
       "headRefName": "cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
       "tipSha": "698277bf7fe1ebc369155e2c419b5555173f91da",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #459 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #459 closed without merge → OWNER: CLOSED_SUPERSEDED (All 596/596 fields reviewed. 580 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 15 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 459,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:25Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/459",
         "title": "CS-DE A1 study parity sectionAccents micro-repair (10/10)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 596/596 fields reviewed. 580 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 15 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 596/596 fields reviewed. 580 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 15 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-final-study-parity-sectionaccents-micro-repair-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 459
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block01-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block01-6ea4",
       "tipSha": "08e9a8626b70832c81cb1fa6df36c73eb98ca284",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #438 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #438 closed without merge → OWNER: CLOSED_SUPERSEDED (All 20/20 fields reviewed. 20 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block01-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 438,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:57:35Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/438",
         "title": "CS–DE A1 full review repair block 01: 20/20 csText fixes"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block01-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 20/20 fields reviewed. 20 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block01-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 20/20 fields reviewed. 20 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block01-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 438
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block02-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block02-6ea4",
       "tipSha": "c09c4a763b07e37848908ae8d893e649ecc257ac",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #439 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #439 closed without merge → OWNER: CLOSED_SUPERSEDED (All 36/36 fields reviewed. 35 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block02-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 439,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:57:35Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/439",
         "title": "CS–DE A1 full review repair block 02: 16/17 csText fixes"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block02-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 36/36 fields reviewed. 35 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block02-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 36/36 fields reviewed. 35 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block02-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 439
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block03-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block03-6ea4",
       "tipSha": "5035ec4f992cd6788c153bfaf59a104b92b8268c",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #440 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #440 closed without merge → OWNER: CLOSED_SUPERSEDED (All 67/67 fields reviewed. 65 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 1 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block03-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 440,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:57:35Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/440",
         "title": "CS–DE A1 full review repair block 03 (findings 101–150)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block03-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 67/67 fields reviewed. 65 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 1 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block03-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 67/67 fields reviewed. 65 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 1 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block03-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 440
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block04-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block04-6ea4",
       "tipSha": "5245080aa16ce6a65674b84b1ce726a7aa9ca940",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #441 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #441 closed without merge → OWNER: CLOSED_SUPERSEDED (All 80/80 fields reviewed. 77 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 2 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block04-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 441,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:57:35Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/441",
         "title": "CS–DE A1 full review repair block 04 (findings 151–200)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block04-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 80/80 fields reviewed. 77 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 2 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block04-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 80/80 fields reviewed. 77 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 2 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block04-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 441
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block05-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block05-6ea4",
       "tipSha": "665a5d15f280e9dd592137092157926d5c94caf7",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #442 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #442 closed without merge → OWNER: CLOSED_SUPERSEDED (All 99/99 fields reviewed. 94 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block05-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 442,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:57:35Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/442",
         "title": "CS–DE A1 full review repair block 05 (findings 201–250)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block05-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 99/99 fields reviewed. 94 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block05-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 99/99 fields reviewed. 94 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block05-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 442
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block06-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block06-6ea4",
       "tipSha": "a84489535295850d300c047826ee593c7aaf51a0",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #443 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #443 closed without merge → OWNER: CLOSED_SUPERSEDED (All 123/123 fields reviewed. 118 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block06-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 443,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:01Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/443",
         "title": "CS–DE A1 full review repair block 06 (findings 251–300)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block06-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 123/123 fields reviewed. 118 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block06-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 123/123 fields reviewed. 118 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block06-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 443
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block07-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block07-6ea4",
       "tipSha": "3e5f40273fe74caed18b2355955fec4fdcc06e16",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #444 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #444 closed without merge → OWNER: CLOSED_SUPERSEDED (All 149/149 fields reviewed. 144 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block07-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 444,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:01Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/444",
         "title": "CS–DE A1 full review repair block 07 (findings 301–350)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block07-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 149/149 fields reviewed. 144 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block07-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 149/149 fields reviewed. 144 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 4 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block07-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 444
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block08-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block08-6ea4",
       "tipSha": "bddf580440055e033568ccc4695ab52f6af8f75b",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #445 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #445 closed without merge → OWNER: CLOSED_SUPERSEDED (All 188/188 fields reviewed. 176 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block08-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 445,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:01Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/445",
         "title": "CS–DE A1 full review repair block 08 (findings 351–400)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block08-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 188/188 fields reviewed. 176 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block08-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 188/188 fields reviewed. 176 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block08-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 445
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block09-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block09-6ea4",
       "tipSha": "2df1f0cf2c317b5916e4d75aba5b5f40202cd17e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #446 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #446 closed without merge → OWNER: CLOSED_SUPERSEDED (All 215/215 fields reviewed. 203 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block09-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 446,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:01Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/446",
         "title": "CS–DE A1 full review repair block 09 (findings 401–450)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block09-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 215/215 fields reviewed. 203 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block09-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 215/215 fields reviewed. 203 RETAINED on main (B=C); 1 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block09-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 446
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block10-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block10-6ea4",
       "tipSha": "1108ea918a656631a01e7293ed8c8c810747f544",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #447 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #447 closed without merge → OWNER: CLOSED_SUPERSEDED (All 248/248 fields reviewed. 231 RETAINED on main (B=C); 5 intentionally replaced by closure (C=A or later OWNER mapping). 12 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block10-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 447,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:01Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/447",
         "title": "CS–DE A1 Full Review Repair — Block 10 (Findings 451–500)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block10-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 248/248 fields reviewed. 231 RETAINED on main (B=C); 5 intentionally replaced by closure (C=A or later OWNER mapping). 12 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block10-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 248/248 fields reviewed. 231 RETAINED on main (B=C); 5 intentionally replaced by closure (C=A or later OWNER mapping). 12 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block10-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 447
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block11-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block11-6ea4",
       "tipSha": "9b59589c394d96a69c59abfb0b6eb33f310c3743",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #448 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #448 closed without merge → OWNER: CLOSED_SUPERSEDED (All 277/277 fields reviewed. 259 RETAINED on main (B=C); 6 intentionally replaced by closure (C=A or later OWNER mapping). 12 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block11-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 448,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:01Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/448",
         "title": "CS–DE A1 Full Review Repair — Block 11 (Findings 501–550)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block11-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 277/277 fields reviewed. 259 RETAINED on main (B=C); 6 intentionally replaced by closure (C=A or later OWNER mapping). 12 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block11-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 277/277 fields reviewed. 259 RETAINED on main (B=C); 6 intentionally replaced by closure (C=A or later OWNER mapping). 12 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block11-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 448
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-full-review-repair-block12-6ea4",
       "headRefName": "cursor/cs-a1-full-review-repair-block12-6ea4",
       "tipSha": "c559de98fb43547408813969da4e67374bc11109",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #449 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #449 closed without merge → OWNER: CLOSED_SUPERSEDED (All 301/301 fields reviewed. 281 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 13 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block12-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 449,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:01Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/449",
         "title": "CS–DE A1 Full Review Repair — Block 12 (Findings 551–600)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-full-review-repair-block12-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 301/301 fields reviewed. 281 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 13 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block12-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 301/301 fields reviewed. 281 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 13 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-full-review-repair-block12-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 449
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-final-closure-check-6ea4",
       "headRefName": "cursor/cs-a1-high-final-closure-check-6ea4",
       "tipSha": "9b3ebe3fd1c7d5a3268e02ba37376e85304016cb",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #436 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #436 closed without merge → OWNER: CLOSED_SUPERSEDED (All 356/356 fields reviewed. 326 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 30 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-final-closure-check-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 436,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:57:35Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/436",
         "title": "CS–DE A1 HIGH final closure check: CLOSED"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-final-closure-check-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 356/356 fields reviewed. 326 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 30 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-final-closure-check-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 356/356 fields reviewed. 326 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 30 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-final-closure-check-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 436
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-final-micro-repair-02-6ea4",
       "headRefName": "cursor/cs-a1-high-final-micro-repair-02-6ea4",
       "tipSha": "51b11f6951bc6270764100297984d747ad4af9b6",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #435 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #435 closed without merge → OWNER: CLOSED_SUPERSEDED (All 356/356 fields reviewed. 326 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 30 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-final-micro-repair-02-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 435,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:57:35Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/435",
         "title": "CS–DE A1 HIGH final micro-repair #2: apply 2/2 OWNER fixes"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-final-micro-repair-02-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 356/356 fields reviewed. 326 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 30 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-final-micro-repair-02-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 356/356 fields reviewed. 326 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 30 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-final-micro-repair-02-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 435
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-post-repair-audit-6ea4",
       "headRefName": "cursor/cs-a1-high-post-repair-audit-6ea4",
       "tipSha": "9c2947c86ae7d37454d46ebd8657aee16ffaa3d7",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #432 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #432 closed without merge → OWNER: CLOSED_SUPERSEDED (All 338/338 fields reviewed. 307 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 31 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-post-repair-audit-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 432,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:56:47Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/432",
         "title": "CS–DE A1 HIGH post-repair audit (read-only) — NOT CLOSED"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-post-repair-audit-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 338/338 fields reviewed. 307 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 31 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-post-repair-audit-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 338/338 fields reviewed. 307 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 31 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-post-repair-audit-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 432
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-regression-final-repair-6ea4",
       "headRefName": "cursor/cs-a1-high-regression-final-repair-6ea4",
       "tipSha": "c14e9211244564860c08888a3c8ea37cbcc1ecfc",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #433 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #433 closed without merge → OWNER: CLOSED_SUPERSEDED (All 354/354 fields reviewed. 324 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 30 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-regression-final-repair-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 433,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:57:35Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/433",
         "title": "CS–DE A1 HIGH regression gala repair (17/18 applied)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-regression-final-repair-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 354/354 fields reviewed. 324 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 30 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-regression-final-repair-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 354/354 fields reviewed. 324 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 30 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-regression-final-repair-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 433
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block01-6ea4",
       "headRefName": "cursor/cs-a1-high-repair-block01-6ea4",
       "tipSha": "26138f92f0379cffaa93844aa258b83a418bed45",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #426 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #426 closed without merge → OWNER: CLOSED_SUPERSEDED (All 95/95 fields reviewed. 86 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 9 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block01-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 426,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:56:47Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/426",
         "title": "CS A1 HIGH repair block 1/6: 50 csText fixes"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-repair-block01-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 95/95 fields reviewed. 86 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 9 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block01-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 95/95 fields reviewed. 86 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 9 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block01-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 426
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block02-6ea4",
       "headRefName": "cursor/cs-a1-high-repair-block02-6ea4",
       "tipSha": "8dc45cfc8eca72f6e33307d5f8076039ac9b33fc",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #427 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #427 closed without merge → OWNER: CLOSED_SUPERSEDED (All 145/145 fields reviewed. 133 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 12 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block02-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 427,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:56:47Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/427",
         "title": "CS–DE A1 HIGH repair block 2/6 (findings 51–100)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-repair-block02-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 145/145 fields reviewed. 133 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 12 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block02-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 145/145 fields reviewed. 133 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 12 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block02-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 427
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block03-6ea4",
       "headRefName": "cursor/cs-a1-high-repair-block03-6ea4",
       "tipSha": "a4fe739b08f270ef53ff50192a90e7729eacd43e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #428 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #428 closed without merge → OWNER: CLOSED_SUPERSEDED (All 195/195 fields reviewed. 176 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 19 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block03-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 428,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:56:47Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/428",
         "title": "CS–DE A1 HIGH repair block 3/6 (findings 101–150)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-repair-block03-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 195/195 fields reviewed. 176 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 19 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block03-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 195/195 fields reviewed. 176 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 19 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block03-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 428
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block04-6ea4",
       "headRefName": "cursor/cs-a1-high-repair-block04-6ea4",
       "tipSha": "b320920c298758f1b727e4905b3cf3450453b427",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #429 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #429 closed without merge → OWNER: CLOSED_SUPERSEDED (All 245/245 fields reviewed. 225 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 20 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block04-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 429,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:56:47Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/429",
         "title": "CS–DE A1 HIGH repair block 4/6 (findings 151–200)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-repair-block04-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 245/245 fields reviewed. 225 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 20 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block04-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 245/245 fields reviewed. 225 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 20 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block04-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 429
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block05-6ea4",
       "headRefName": "cursor/cs-a1-high-repair-block05-6ea4",
       "tipSha": "1c813d16320e79bc39e4fe320740a137aece0ec5",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #430 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #430 closed without merge → OWNER: CLOSED_SUPERSEDED (All 296/296 fields reviewed. 268 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 28 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block05-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 430,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:56:47Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/430",
         "title": "CS–DE A1 HIGH repair block 5/6 (findings 201–250)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-repair-block05-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 296/296 fields reviewed. 268 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 28 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block05-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 296/296 fields reviewed. 268 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 28 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block05-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 430
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-high-repair-block06-6ea4",
       "headRefName": "cursor/cs-a1-high-repair-block06-6ea4",
       "tipSha": "3d134c9cb25625dfd3eb73800996630cff2aa826",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #431 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #431 closed without merge → OWNER: CLOSED_SUPERSEDED (All 338/338 fields reviewed. 307 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 31 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block06-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 431,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:56:47Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/431",
         "title": "CS–DE A1 HIGH repair block 6/6 — final 36 + gala coverage (287/287)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-high-repair-block06-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 338/338 fields reviewed. 307 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 31 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block06-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 338/338 fields reviewed. 307 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 31 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-high-repair-block06-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 431
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-a1-post-repair-audit-6ea4",
       "headRefName": "cursor/cs-a1-post-repair-audit-6ea4",
       "tipSha": "563b193f79d170bfc8039578d50597a9b55de3c2",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #421 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #421 closed without merge → OWNER: CLOSED_SUPERSEDED (All 6/6 fields reviewed. 6 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-post-repair-audit-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/a1.js",
         "www/data/cs/a1.js"
       ],
       "pr": {
         "number": 421,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:52:52Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/421",
         "title": "CS A1 post-repair full audit (702/702, read-only)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-a1-post-repair-audit-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 6/6 fields reviewed. 6 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-post-repair-audit-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 6/6 fields reviewed. 6 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-a1-post-repair-audit-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 421
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
       "headRefName": "cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
       "tipSha": "566c275c4d4c28d107eda97c70007b6cdbd0bf1c",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #502 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #502 closed without merge → OWNER: CLOSED_SUPERSEDED (All 63/63 fields reviewed. 62 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 1 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-b1-final-2card-micro-repair-apply-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/b1.js",
         "www/data/cs/b1.js"
       ],
       "pr": {
         "number": 502,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:25Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/502",
         "title": "CS-DE B1: final 2-card micro-repair apply (2/2)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-b1-final-2card-micro-repair-apply-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 63/63 fields reviewed. 62 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 1 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-b1-final-2card-micro-repair-apply-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 63/63 fields reviewed. 62 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 1 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-b1-final-2card-micro-repair-apply-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 502
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-b1-final-micro-regression-closure-6ea4",
       "headRefName": "cursor/cs-b1-final-micro-regression-closure-6ea4",
       "tipSha": "f45f531eee7956310a2de262249592c23eab63e6",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #503 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #503 closed without merge → OWNER: CLOSED_SUPERSEDED (All 63/63 fields reviewed. 62 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 1 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-b1-final-micro-regression-closure-6ea4 no longer needed.)",
       "productionContentDiffFiles": [
         "data/cs/b1.js",
         "www/data/cs/b1.js"
       ],
       "pr": {
         "number": 503,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:25Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/503",
         "title": "CS-DE B1: final micro-regression closure — OWNER ACCEPTED / CLOSED"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-b1-final-micro-regression-closure-6ea4",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 63/63 fields reviewed. 62 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 1 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-b1-final-micro-regression-closure-6ea4 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 63/63 fields reviewed. 62 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 1 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/cs-b1-final-micro-regression-closure-6ea4 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 503
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-b1-final-targeted-closure-audit-6ea4",
@@ -1938,41 +1258,65 @@
       "ref": "origin/cursor/cs-b2-final-closure-audit-6ea4",
       "headRefName": "cursor/cs-b2-final-closure-audit-6ea4",
       "tipSha": "6f798efc6781a0d7b76907fda52b8c76d0fb00a7",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #508 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #508 closed without merge → OWNER: NEEDS_REPAIR (All 947/947 fields reviewed. CS B2 main retains wrong top-level lv translations (e.g. widersprechen→\"Objekt\", Akt→\"Jednat • Dokument\"); branch proposed correct Czech for all 947 delta fields. 947 COPY-ONLY repairs required.)",
       "productionContentDiffFiles": [
         "data/cs/b2.js",
         "www/data/cs/b2.js"
       ],
       "pr": {
         "number": 508,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:45Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/508",
         "title": "CS–DE B2 final closure audit — OWNER ACCEPTED / CLOSED"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-b2-final-closure-audit-6ea4",
+        "resolvedCategory": "NEEDS_REPAIR",
+        "ownerNote": null,
+        "ownerRationale": "All 947/947 fields reviewed. CS B2 main retains wrong top-level lv translations (e.g. widersprechen→\"Objekt\", Akt→\"Jednat • Dokument\"); branch proposed correct Czech for all 947 delta fields. 947 COPY-ONLY repairs required.",
+        "ownerDecision": "LABOT",
+        "ownerText": "All 947/947 fields reviewed. CS B2 main retains wrong top-level lv translations (e.g. widersprechen→\"Objekt\", Akt→\"Jednat • Dokument\"); branch proposed correct Czech for all 947 delta fields. 947 COPY-ONLY repairs required.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 508
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-b2-owner-copy-only-repair-6ea4",
       "headRefName": "cursor/cs-b2-owner-copy-only-repair-6ea4",
       "tipSha": "35e1301425f3800fdaceca7810c6c8af5b9d98f1",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #506 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #506 closed without merge → OWNER: NEEDS_REPAIR (All 947/947 fields reviewed. CS B2 main retains wrong top-level lv translations (e.g. widersprechen→\"Objekt\", Akt→\"Jednat • Dokument\"); branch proposed correct Czech for all 947 delta fields. 947 COPY-ONLY repairs required.)",
       "productionContentDiffFiles": [
         "data/cs/b2.js",
         "www/data/cs/b2.js"
       ],
       "pr": {
         "number": 506,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:25Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/506",
         "title": "fix(cs-b2): apply owner-approved copy-only repair mappings (944/969)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-b2-owner-copy-only-repair-6ea4",
+        "resolvedCategory": "NEEDS_REPAIR",
+        "ownerNote": null,
+        "ownerRationale": "All 947/947 fields reviewed. CS B2 main retains wrong top-level lv translations (e.g. widersprechen→\"Objekt\", Akt→\"Jednat • Dokument\"); branch proposed correct Czech for all 947 delta fields. 947 COPY-ONLY repairs required.",
+        "ownerDecision": "LABOT",
+        "ownerText": "All 947/947 fields reviewed. CS B2 main retains wrong top-level lv translations (e.g. widersprechen→\"Objekt\", Akt→\"Jednat • Dokument\"); branch proposed correct Czech for all 947 delta fields. 947 COPY-ONLY repairs required.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 506
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-b2-repair-source-complete-6ea4",
@@ -1995,21 +1339,33 @@
       "ref": "origin/cursor/cs-b2-targeted-regression-audit-6ea4",
       "headRefName": "cursor/cs-b2-targeted-regression-audit-6ea4",
       "tipSha": "e276650a10b556812483568c47a755657ccfae87",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #507 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #507 closed without merge → OWNER: NEEDS_REPAIR (All 947/947 fields reviewed. CS B2 main retains wrong top-level lv translations (e.g. widersprechen→\"Objekt\", Akt→\"Jednat • Dokument\"); branch proposed correct Czech for all 947 delta fields. 947 COPY-ONLY repairs required.)",
       "productionContentDiffFiles": [
         "data/cs/b2.js",
         "www/data/cs/b2.js"
       ],
       "pr": {
         "number": 507,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:45Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/507",
         "title": "CS–DE B2 targeted regression audit (GPT-5.6 Luna)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-b2-targeted-regression-audit-6ea4",
+        "resolvedCategory": "NEEDS_REPAIR",
+        "ownerNote": null,
+        "ownerRationale": "All 947/947 fields reviewed. CS B2 main retains wrong top-level lv translations (e.g. widersprechen→\"Objekt\", Akt→\"Jednat • Dokument\"); branch proposed correct Czech for all 947 delta fields. 947 COPY-ONLY repairs required.",
+        "ownerDecision": "LABOT",
+        "ownerText": "All 947/947 fields reviewed. CS B2 main retains wrong top-level lv translations (e.g. widersprechen→\"Objekt\", Akt→\"Jednat • Dokument\"); branch proposed correct Czech for all 947 delta fields. 947 COPY-ONLY repairs required.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 507
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/cs-de-a1a2-full-audit-f3c4",
@@ -2049,22 +1405,33 @@
       "ref": "origin/cursor/cs-kurs-articles-full-audit-6850",
       "headRefName": "cursor/cs-kurs-articles-full-audit-6850",
       "tipSha": "fd2178e22676bfedcc1b482ff7a1dd55323455be",
-      "category": "ACTIVE_UNMERGED_CLOSURE",
-      "reason": "Open non-draft PR #528 with production content not on origin/main",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #528 closed without merge → OWNER: CLOSED_SUPERSEDED (All 234/234 fields reviewed. 42 RETAINED (B=C), 31 REPLACED (closure baseline), 161 CONFLICTING: main CS Kurss carries authoritative Czech closure content; A/B snapshots contained LV contamination or intermediate audit HTML. No repair — main is linguistically correct.)",
       "productionContentDiffFiles": [
         "data/cs/courseLessons.js",
         "www/data/cs/courseLessons.js"
       ],
       "pr": {
         "number": 528,
-        "state": "OPEN",
-        "isDraft": false,
-        "mergeable": "CONFLICTING",
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:45Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/528",
         "title": "CS–DE Kurss Členy: full audit + OWNER review complete (#001–#315)"
       },
-      "ownerDecision": null,
-      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/cs-kurs-articles-full-audit-6850",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 234/234 fields reviewed. 42 RETAINED (B=C), 31 REPLACED (closure baseline), 161 CONFLICTING: main CS Kurss carries authoritative Czech closure content; A/B snapshots contained LV contamination or intermediate audit HTML. No repair — main is linguistically correct.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 234/234 fields reviewed. 42 RETAINED (B=C), 31 REPLACED (closure baseline), 161 CONFLICTING: main CS Kurss carries authoritative Czech closure content; A/B snapshots contained LV contamination or intermediate audit HTML. No repair — main is linguistically correct.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 528
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/da-kurss-audit-collect-3fda",
@@ -2111,8 +1478,8 @@
       "ref": "origin/cursor/da-kurss-full-luna-audit-fffe",
       "headRefName": "cursor/da-kurss-full-luna-audit-fffe",
       "tipSha": "be850b4fef08b4bbb07c5238223dc73a2a71eeef",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #579 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #579 closed without merge → OWNER: CLOSED_SUPERSEDED (All 18/18 fields reviewed. 0 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-full-luna-audit-fffe no longer needed.)",
       "productionContentDiffFiles": [
         "data/da/courseLessons.js",
         "data/da/courseTrainingCards.js",
@@ -2122,20 +1489,32 @@
       ],
       "pr": {
         "number": 579,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:45Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/579",
         "title": "DA Kurss full Luna audit (1264 fields, 77 findings)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/da-kurss-full-luna-audit-fffe",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 18/18 fields reviewed. 0 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-full-luna-audit-fffe no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 18/18 fields reviewed. 0 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-full-luna-audit-fffe no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 579
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/da-kurss-post-luna-owner-repair-fffe",
       "headRefName": "cursor/da-kurss-post-luna-owner-repair-fffe",
       "tipSha": "222daa5f9849614ed366d3650ce55d9b3aa27007",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #581 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #581 closed without merge → OWNER: CLOSED_SUPERSEDED (All 28/28 fields reviewed. 1 RETAINED on main (B=C); 21 intentionally replaced by closure (C=A or later OWNER mapping). 6 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-post-luna-owner-repair-fffe no longer needed.)",
       "productionContentDiffFiles": [
         "data/da/courseLessons.js",
         "data/da/courseTrainingCards.js",
@@ -2144,20 +1523,32 @@
       ],
       "pr": {
         "number": 581,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:45Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/581",
         "title": "Apply DA Kurss post-Luna OWNER decisions (41 LABOT)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/da-kurss-post-luna-owner-repair-fffe",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 28/28 fields reviewed. 1 RETAINED on main (B=C); 21 intentionally replaced by closure (C=A or later OWNER mapping). 6 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-post-luna-owner-repair-fffe no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 28/28 fields reviewed. 1 RETAINED on main (B=C); 21 intentionally replaced by closure (C=A or later OWNER mapping). 6 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-post-luna-owner-repair-fffe no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 581
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/da-kurss-post-luna-reaudit-fffe",
       "headRefName": "cursor/da-kurss-post-luna-reaudit-fffe",
       "tipSha": "38bb8af57f7cb5b50328001ef1d752bfdac890b0",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #580 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #580 closed without merge → OWNER: CLOSED_SUPERSEDED (All 18/18 fields reviewed. 0 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-post-luna-reaudit-fffe no longer needed.)",
       "productionContentDiffFiles": [
         "data/da/courseLessons.js",
         "data/da/courseTrainingCards.js",
@@ -2167,20 +1558,32 @@
       ],
       "pr": {
         "number": 580,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:45Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/580",
         "title": "DA–DE Kurss post-repair full Luna re-audit (1280 fields)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/da-kurss-post-luna-reaudit-fffe",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 18/18 fields reviewed. 0 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-post-luna-reaudit-fffe no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 18/18 fields reviewed. 0 RETAINED on main (B=C); 7 intentionally replaced by closure (C=A or later OWNER mapping). 11 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-post-luna-reaudit-fffe no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 580
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/da-kurss-post-repair-full-luna-audit-fffe",
       "headRefName": "cursor/da-kurss-post-repair-full-luna-audit-fffe",
       "tipSha": "6b43a6f87b2683f14fa5db41cf13a8412fdf33f3",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #582 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #582 closed without merge → OWNER: CLOSED_SUPERSEDED (All 28/28 fields reviewed. 1 RETAINED on main (B=C); 21 intentionally replaced by closure (C=A or later OWNER mapping). 6 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-post-repair-full-luna-audit-fffe no longer needed.)",
       "productionContentDiffFiles": [
         "data/da/courseLessons.js",
         "data/da/courseTrainingCards.js",
@@ -2189,13 +1592,25 @@
       ],
       "pr": {
         "number": 582,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:45Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/582",
         "title": "DA–DE Kurss post-repair full Luna audit (1266 fields, 121 findings)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/da-kurss-post-repair-full-luna-audit-fffe",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 28/28 fields reviewed. 1 RETAINED on main (B=C); 21 intentionally replaced by closure (C=A or later OWNER mapping). 6 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-post-repair-full-luna-audit-fffe no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 28/28 fields reviewed. 1 RETAINED on main (B=C); 21 intentionally replaced by closure (C=A or later OWNER mapping). 6 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/da-kurss-post-repair-full-luna-audit-fffe no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 582
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/da-verbs-final-post-repair-audit-fffe",
@@ -2221,42 +1636,65 @@
       "ref": "origin/cursor/da-verbs-final-post-repair-owner-repair-fffe",
       "headRefName": "cursor/da-verbs-final-post-repair-owner-repair-fffe",
       "tipSha": "c7e6e8a1fbcf87ca99a1e64b56843e8332756765",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #564 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #564 closed without merge → OWNER: FALSE_POSITIVE (PR #564 branch tip has 0 field-level production delta vs merge-base A; DA verbs final post-repair was applied on main via commits cb1456f576d6 (verb-119 Han skrev) and 64d6749a1c9b (63 COPY-ONLY repairs). Candidate is a classification artifact — no unmerged content remains.)",
       "productionContentDiffFiles": [
         "data/da/verbs.js",
         "www/data/da/verbs.js"
       ],
       "pr": {
         "number": 564,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:58:45Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/564",
         "title": "Apply DA–DE verbs final post-repair OWNER repairs (63 COPY-ONLY)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/da-verbs-final-post-repair-owner-repair-fffe",
+        "resolvedCategory": "FALSE_POSITIVE",
+        "ownerNote": null,
+        "ownerRationale": "PR #564 branch tip has 0 field-level production delta vs merge-base A; DA verbs final post-repair was applied on main via commits cb1456f576d6 (verb-119 Han skrev) and 64d6749a1c9b (63 COPY-ONLY repairs). Candidate is a classification artifact — no unmerged content remains.",
+        "ownerDecision": "NELABOT",
+        "ownerText": "PR #564 branch tip has 0 field-level production delta vs merge-base A; DA verbs final post-repair was applied on main via commits cb1456f576d6 (verb-119 Han skrev) and 64d6749a1c9b (63 COPY-ONLY repairs). Candidate is a classification artifact — no unmerged content remains.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 564
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/en-b1-critical-repair-6850",
       "headRefName": "cursor/en-b1-critical-repair-6850",
       "tipSha": "272319f03e6db693db5bd0fdffe8e959b43acc79",
-      "category": "ACTIVE_UNMERGED_CLOSURE",
-      "reason": "Open non-draft PR #343 with production content not on origin/main",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #343 closed without merge → OWNER: NEEDS_REPAIR (All 17/17 fields reviewed. Main retains EN B1 copy errors on fressen (lv/translation \"Tomorrow\", wrong sectionAccents), Baumstumpf (\"Strain\"), Tau (dew/race confusion), verfolgen (verförchen/verschreibung/persehen typos). Branch B had correct fixes; 16 fields require COPY-ONLY repair. purple[2] \"wolf down\" optional — not repaired.)",
       "productionContentDiffFiles": [
         "data/en/b1.js",
         "www/data/en/b1.js"
       ],
       "pr": {
         "number": 343,
-        "state": "OPEN",
-        "isDraft": false,
-        "mergeable": "CONFLICTING",
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:52:52Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/343",
         "title": "fix(en-b1): CRITICAL cycle closed — ready for HIGH owner review"
       },
-      "ownerDecision": null,
-      "finalCategory": "ACTIVE_UNMERGED_CLOSURE"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/en-b1-critical-repair-6850",
+        "resolvedCategory": "NEEDS_REPAIR",
+        "ownerNote": null,
+        "ownerRationale": "All 17/17 fields reviewed. Main retains EN B1 copy errors on fressen (lv/translation \"Tomorrow\", wrong sectionAccents), Baumstumpf (\"Strain\"), Tau (dew/race confusion), verfolgen (verförchen/verschreibung/persehen typos). Branch B had correct fixes; 16 fields require COPY-ONLY repair. purple[2] \"wolf down\" optional — not repaired.",
+        "ownerDecision": "LABOT",
+        "ownerText": "All 17/17 fields reviewed. Main retains EN B1 copy errors on fressen (lv/translation \"Tomorrow\", wrong sectionAccents), Baumstumpf (\"Strain\"), Tau (dew/race confusion), verfolgen (verförchen/verschreibung/persehen typos). Branch B had correct fixes; 16 fields require COPY-ONLY repair. purple[2] \"wolf down\" optional — not repaired.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 343
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/en-b1-full-audit-6850",
@@ -2279,101 +1717,161 @@
       "ref": "origin/cursor/en-b1-high-repair-01-6850",
       "headRefName": "cursor/en-b1-high-repair-01-6850",
       "tipSha": "48fbfa8ce6ffbc6414c9f877f3787f8342523976",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #345 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #345 closed without merge → OWNER: NEEDS_REPAIR (All 159/159 fields reviewed. 76 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 32 CONFLICTING fields: main closure C accepted.)",
       "productionContentDiffFiles": [
         "data/en/b1.js",
         "www/data/en/b1.js"
       ],
       "pr": {
         "number": 345,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:52:52Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/345",
         "title": "EN–DE B1 HIGH REPAIR #1 — 25 owner-reviewed cards"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/en-b1-high-repair-01-6850",
+        "resolvedCategory": "NEEDS_REPAIR",
+        "ownerNote": null,
+        "ownerRationale": "All 159/159 fields reviewed. 76 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 32 CONFLICTING fields: main closure C accepted.",
+        "ownerDecision": "LABOT",
+        "ownerText": "All 159/159 fields reviewed. 76 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 32 CONFLICTING fields: main closure C accepted.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 345
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-02-6850",
       "headRefName": "cursor/en-b1-high-repair-02-6850",
       "tipSha": "51a9d9af34fa9c197358ce08dcb1b9e4cf36453d",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #347 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #347 closed without merge → OWNER: NEEDS_REPAIR (All 230/230 fields reviewed. 104 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.)",
       "productionContentDiffFiles": [
         "data/en/b1.js",
         "www/data/en/b1.js"
       ],
       "pr": {
         "number": 347,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:52:52Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/347",
         "title": "EN–DE B1 HIGH REPAIR #2 — 25 owner-reviewed cards"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/en-b1-high-repair-02-6850",
+        "resolvedCategory": "NEEDS_REPAIR",
+        "ownerNote": null,
+        "ownerRationale": "All 230/230 fields reviewed. 104 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.",
+        "ownerDecision": "LABOT",
+        "ownerText": "All 230/230 fields reviewed. 104 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 347
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-03-6850",
       "headRefName": "cursor/en-b1-high-repair-03-6850",
       "tipSha": "45f51dac4e189424fd633683c7ef983538c20a50",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #349 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #349 closed without merge → OWNER: NEEDS_REPAIR (All 255/255 fields reviewed. 129 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.)",
       "productionContentDiffFiles": [
         "data/en/b1.js",
         "www/data/en/b1.js"
       ],
       "pr": {
         "number": 349,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:52:52Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/349",
         "title": "fix(en-b1): HIGH repair #3 — 25 normal card lv fixes"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/en-b1-high-repair-03-6850",
+        "resolvedCategory": "NEEDS_REPAIR",
+        "ownerNote": null,
+        "ownerRationale": "All 255/255 fields reviewed. 129 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.",
+        "ownerDecision": "LABOT",
+        "ownerText": "All 255/255 fields reviewed. 129 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 349
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-04-6850",
       "headRefName": "cursor/en-b1-high-repair-04-6850",
       "tipSha": "adaf8c60b2c6ed6497d61c9e28601e1c0d303c7e",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #351 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #351 closed without merge → OWNER: NEEDS_REPAIR (All 280/280 fields reviewed. 153 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.)",
       "productionContentDiffFiles": [
         "data/en/b1.js",
         "www/data/en/b1.js"
       ],
       "pr": {
         "number": 351,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:52:52Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/351",
         "title": "fix(en-b1): HIGH repair #4 — 25 normal card lv fixes"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/en-b1-high-repair-04-6850",
+        "resolvedCategory": "NEEDS_REPAIR",
+        "ownerNote": null,
+        "ownerRationale": "All 280/280 fields reviewed. 153 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.",
+        "ownerDecision": "LABOT",
+        "ownerText": "All 280/280 fields reviewed. 153 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 351
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/en-b1-high-repair-05-6850",
       "headRefName": "cursor/en-b1-high-repair-05-6850",
       "tipSha": "45f5464bdb548df6cb3acf0e5f083653a091e810",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #353 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #353 closed without merge → OWNER: NEEDS_REPAIR (All 304/304 fields reviewed. 176 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.)",
       "productionContentDiffFiles": [
         "data/en/b1.js",
         "www/data/en/b1.js"
       ],
       "pr": {
         "number": 353,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:52:52Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/353",
         "title": "fix(en-b1): HIGH repair #5 — 24 lv fixes, Gen NELABOT"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/en-b1-high-repair-05-6850",
+        "resolvedCategory": "NEEDS_REPAIR",
+        "ownerNote": null,
+        "ownerRationale": "All 304/304 fields reviewed. 176 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.",
+        "ownerDecision": "LABOT",
+        "ownerText": "All 304/304 fields reviewed. 176 RETAINED on main; 16 fields still carry EN B1 corruption (fressen/Baumstumpf/verfolgen/Tau pattern) where branch B had correct copy — COPY-ONLY repair required. 33 CONFLICTING fields: main closure C accepted.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 353
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/en-b1-main-reconciliation-audit-6850",
@@ -2459,21 +1957,33 @@
       "ref": "origin/cursor/es-kurss-articles-visual-repair-3141",
       "headRefName": "cursor/es-kurss-articles-visual-repair-3141",
       "tipSha": "6388b04780fb239db216ab12754bcd08a6066096",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #669 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #669 closed without merge → OWNER: CLOSED_SUPERSEDED (All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-articles-visual-repair-3141 no longer needed.)",
       "productionContentDiffFiles": [
         "data/es/courseLessons.js",
         "www/data/es/courseLessons.js"
       ],
       "pr": {
         "number": 669,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:59:02Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/669",
         "title": "ES Kurss Artículos — visual COPY-ONLY repair (19 OWNER targets)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/es-kurss-articles-visual-repair-3141",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-articles-visual-repair-3141 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-articles-visual-repair-3141 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 669
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/es-kurss-lessons-full-audit-3141",
@@ -2496,8 +2006,8 @@
       "ref": "origin/cursor/es-kurss-pronouns-visual-repair-3141",
       "headRefName": "cursor/es-kurss-pronouns-visual-repair-3141",
       "tipSha": "a984da86998a916138874ac37de13900bd2f7296",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #670 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #670 closed without merge → OWNER: CLOSED_SUPERSEDED (All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-pronouns-visual-repair-3141 no longer needed.)",
       "productionContentDiffFiles": [
         "data/es/courseLessons.js",
         "languages/es/ui.js",
@@ -2505,40 +2015,64 @@
       ],
       "pr": {
         "number": 670,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:59:02Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/670",
         "title": "ES Kurss Pronombres visual COPY-ONLY repair (35 LABOT + 1 NELABOT)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/es-kurss-pronouns-visual-repair-3141",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-pronouns-visual-repair-3141 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-pronouns-visual-repair-3141 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 670
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/es-kurss-sentence-structure-visual-repair-3141",
       "headRefName": "cursor/es-kurss-sentence-structure-visual-repair-3141",
       "tipSha": "d8486d170d0ff6eda635a6d50ac01e030f10e80c",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #672 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #672 closed without merge → OWNER: CLOSED_SUPERSEDED (All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-sentence-structure-visual-repair-3141 no longer needed.)",
       "productionContentDiffFiles": [
         "data/es/courseLessons.js",
         "www/data/es/courseLessons.js"
       ],
       "pr": {
         "number": 672,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:59:02Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/672",
         "title": "ES Kurss Sentence structure visual COPY-ONLY repair (2 LABOT)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/es-kurss-sentence-structure-visual-repair-3141",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-sentence-structure-visual-repair-3141 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-sentence-structure-visual-repair-3141 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 672
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/es-kurss-verb-basics-visual-repair-3141",
       "headRefName": "cursor/es-kurss-verb-basics-visual-repair-3141",
       "tipSha": "4c0dd5cecff198d60860f40de30fa1683ee1cb63",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #671 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #671 closed without merge → OWNER: CLOSED_SUPERSEDED (All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-verb-basics-visual-repair-3141 no longer needed.)",
       "productionContentDiffFiles": [
         "data/es/courseLessons.js",
         "languages/es/ui.js",
@@ -2546,33 +2080,57 @@
       ],
       "pr": {
         "number": 671,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:59:02Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/671",
         "title": "ES Kurss Verb basics visual COPY-ONLY repair (6 LABOT)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/es-kurss-verb-basics-visual-repair-3141",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-verb-basics-visual-repair-3141 no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 1/1 fields reviewed. 1 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 0 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/es-kurss-verb-basics-visual-repair-3141 no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 671
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/et-de-a1-full-audit-ba9e",
       "headRefName": "cursor/et-de-a1-full-audit-ba9e",
       "tipSha": "ef3e74c46f4cf1570f0c79f235dc2431796ef670",
-      "category": "NEEDS_OWNER_REVIEW",
-      "reason": "Open draft PR #586 with production content diff — OWNER review required",
+      "category": "CLOSED_SUPERSEDED",
+      "reason": "PR #586 closed without merge → OWNER: CLOSED_SUPERSEDED (All 609/609 fields reviewed. 596 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 13 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/et-de-a1-full-audit-ba9e no longer needed.)",
       "productionContentDiffFiles": [
         "data/et/a1.js",
         "www/data/et/a1.js"
       ],
       "pr": {
         "number": 586,
-        "state": "OPEN",
-        "isDraft": true,
+        "state": "CLOSED",
+        "closedAt": "2026-08-28T19:59:02Z",
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/586",
         "title": "ET-DE A1 pilns READ-ONLY audits (GPT-5.6 Luna)"
       },
-      "ownerDecision": null,
-      "finalCategory": "NEEDS_OWNER_REVIEW"
+      "autoCategory": "CLOSED_SUPERSEDED",
+      "ownerDecision": {
+        "headRefName": "cursor/et-de-a1-full-audit-ba9e",
+        "resolvedCategory": "CLOSED_SUPERSEDED",
+        "ownerNote": null,
+        "ownerRationale": "All 609/609 fields reviewed. 596 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 13 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/et-de-a1-full-audit-ba9e no longer needed.",
+        "ownerDecision": "APSTIPRINĀT",
+        "ownerText": "All 609/609 fields reviewed. 596 RETAINED on main (B=C); 0 intentionally replaced by closure (C=A or later OWNER mapping). 13 former CONFLICTING/NOT_PRESENT fields: main closure value verified as linguistically correct. Branch cursor/et-de-a1-full-audit-ba9e no longer needed.",
+        "baselineComparison": null,
+        "decidedAt": null,
+        "decidedBy": "OWNER",
+        "prNumber": 586
+      },
+      "finalCategory": "CLOSED_SUPERSEDED"
     },
     {
       "ref": "origin/cursor/et-de-a1-full-audit-post-closure-ba9e",
@@ -2780,7 +2338,7 @@
     }
   ],
   "ownerDecisionsPath": "/workspace/reports/unmerged-closure-owner-decisions.json",
-  "ownerDecisionsCount": 0,
-  "ownerDecisionsApplied": 0,
-  "unresolvedOwnerReviewCount": 51
+  "ownerDecisionsCount": 53,
+  "ownerDecisionsApplied": 53,
+  "unresolvedOwnerReviewCount": 0
 }
