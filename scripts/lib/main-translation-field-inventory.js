@@ -9,12 +9,37 @@
 const MULTI_SEP = /[•/;]|\n/;
 const MULTI_COMMA = /,\s*(?=[A-Za-zÕÄÖÜõäöü])/;
 
+const { finalizeInventoryMetrics } = require("./content-discovery/inventory-metrics");
+const { scanG3StructuredInventory } = require("./content-discovery/g3-inventory-schema");
+
 /** All learner-facing main translation field paths covered by renderer logic. */
 const INVENTORY_FIELD_PATHS = [
   "lv",
   "study.translation",
   "study.title",
 ];
+
+const KNOWN_STUDY_TRANSLATION_KEYS = new Set([
+  "translation",
+  "title",
+  "note",
+  "forms",
+  "tip",
+  "examples",
+  "words",
+  "items",
+  "terms",
+  "comparison",
+  "comparisonTable",
+  "subtitle",
+  "subtitleText",
+  "lead",
+  "question",
+  "explanation",
+  "explanationLines",
+  "important",
+  "info",
+]);
 
 function hasStudyFieldContent(value) {
   if (value === undefined || value === null) return false;
@@ -160,6 +185,82 @@ function detectMultipleMainTranslationCandidates(text, fieldPath) {
   };
 }
 
+function isKnownInventoryFieldPath(fieldPath) {
+  if (!fieldPath) return false;
+  if (INVENTORY_FIELD_PATHS.includes(fieldPath)) return true;
+  if (fieldPath.startsWith("study.") && KNOWN_STUDY_TRANSLATION_KEYS.has(fieldPath.slice(6))) return true;
+  return false;
+}
+
+function discoverEntryNativeTranslationFields(entry, cardId, productionFile, scopeId = null) {
+  const hits = [];
+  const unmappedDetails = [];
+
+  const targets = getMainTranslationScanTargets(entry);
+  for (const target of targets) {
+    hits.push({ cardId, fieldPath: target.field, current: target.value });
+    if (!isKnownInventoryFieldPath(target.field)) {
+      unmappedDetails.push({
+        scopeId,
+        cardId,
+        fieldPath: target.field,
+        current: target.value,
+        productionFile,
+        reason: "unknown_native_translation_field",
+      });
+    }
+  }
+
+  if (entry.study && typeof entry.study === "object") {
+    for (const [key, value] of Object.entries(entry.study)) {
+      if (typeof value !== "string") continue;
+      if (!KNOWN_STUDY_TRANSLATION_KEYS.has(key)) continue;
+      const fieldPath = `study.${key}`;
+      if (targets.some((t) => t.field === fieldPath)) continue;
+      hits.push({ cardId, fieldPath, current: value });
+      if (!isKnownInventoryFieldPath(fieldPath)) {
+        unmappedDetails.push({
+          scopeId,
+          cardId,
+          fieldPath,
+          current: value,
+          productionFile,
+          reason: "unknown_native_translation_field",
+        });
+      }
+    }
+  }
+
+  return { hits, unmappedDetails };
+}
+
+function buildInventoryFromScan(entries, entryIdFn, productionFile = null, scopeId = null) {
+  const discovered = [];
+  const unmappedDetails = [];
+
+  entries.forEach((entry, index) => {
+    const cardId = entryIdFn(entry, index);
+    const { hits, unmappedDetails: localUnmapped } = discoverEntryNativeTranslationFields(
+      entry,
+      cardId,
+      productionFile,
+      scopeId,
+    );
+    discovered.push(...hits);
+    unmappedDetails.push(...localUnmapped);
+  });
+
+  const mapped = discovered.length - unmappedDetails.length;
+  return finalizeInventoryMetrics({
+    inventoryObjectsExpected: discovered.length,
+    inventoryFieldsDiscovered: discovered.length,
+    inventoryFieldsMapped: mapped,
+    inventoryFieldsUnmapped: unmappedDetails.length,
+    unmappedDetails,
+    productionFile,
+  });
+}
+
 function scanEntryMainTranslations(entry, entryId, index) {
   const cardType = getCardType(entry);
   const targets = getMainTranslationScanTargets(entry);
@@ -185,7 +286,7 @@ function scanEntryMainTranslations(entry, entryId, index) {
   return violations;
 }
 
-function scanDatasetMainTranslations(entries, entryIdFn) {
+function scanDatasetMainTranslations(entries, entryIdFn, options = {}) {
   const violations = [];
   let rawCandidates = 0;
   let fieldsScanned = 0;
@@ -198,13 +299,24 @@ function scanDatasetMainTranslations(entries, entryIdFn) {
     }
     violations.push(...scanEntryMainTranslations(entry, entryIdFn, index));
   });
+  const inventory = buildInventoryFromScan(
+    entries,
+    entryIdFn,
+    options.productionFile || null,
+    options.scopeId || null,
+  );
   return {
     violations,
     rawCandidates,
     fieldsScanned,
     inventory: INVENTORY_FIELD_PATHS,
-    inventoryCoverage: "100%",
-    unmappedMainTranslationFields: 0,
+    inventoryCoverage: inventory.inventoryCoverage,
+    unmappedMainTranslationFields: inventory.unmappedMainTranslationFields,
+    inventoryObjectsExpected: inventory.inventoryObjectsExpected,
+    inventoryFieldsDiscovered: inventory.inventoryFieldsDiscovered,
+    inventoryFieldsMapped: inventory.inventoryFieldsMapped,
+    inventoryFieldsUnmapped: inventory.inventoryFieldsUnmapped,
+    unmappedDetails: inventory.unmappedDetails,
     cardsScanned: entries.length,
   };
 }
@@ -267,8 +379,234 @@ function runRegressionFixtures() {
   };
 }
 
+const { VERB_FORMS } = require("./content-crowdin-bridge/flatten-g1-verbs");
+const { slugify } = require("./content-crowdin-bridge/slug");
+
+function isNonEmptyString(value) {
+  return typeof value === "string" && value.trim().length > 0;
+}
+
+function scanG1VerbsInventory(entries = [], options = {}) {
+  let fieldsExpected = 0;
+  let fieldsMapped = 0;
+  let emptyByDesign = 0;
+  const unmapped = [];
+
+  for (const entry of entries) {
+    const inf = entry?.infinitiv?.de;
+    if (!isNonEmptyString(inf)) continue;
+    const cardId = slugify(inf);
+    const hasAnyLv = VERB_FORMS.some((form) => isNonEmptyString(entry[form]?.lv));
+    if (!hasAnyLv) continue;
+
+    for (const form of VERB_FORMS) {
+      fieldsExpected++;
+      const slot = entry[form];
+      const fieldPath = `${form}.lv`;
+      if (!slot || slot.lv === undefined || slot.lv === null) {
+        unmapped.push({ cardId, fieldPath, reason: "missing slot", productionFile: options.productionFile || null });
+        continue;
+      }
+      if (!String(slot.lv).trim()) {
+        emptyByDesign++;
+        fieldsMapped++;
+        continue;
+      }
+      fieldsMapped++;
+    }
+  }
+
+  const inventory = finalizeInventoryMetrics({
+    inventoryObjectsExpected: fieldsExpected,
+    inventoryFieldsDiscovered: fieldsExpected,
+    inventoryFieldsMapped: fieldsMapped,
+    inventoryFieldsUnmapped: unmapped.length,
+    unmappedDetails: unmapped,
+    productionFile: options.productionFile || null,
+  });
+
+  return {
+    violations: [],
+    fieldsExpected,
+    fieldsMapped,
+    emptyByDesign,
+    unmappedMainTranslationFields: inventory.unmappedMainTranslationFields,
+    inventoryCoverage: inventory.inventoryCoverage,
+    inventoryObjectsExpected: inventory.inventoryObjectsExpected,
+    inventoryFieldsDiscovered: inventory.inventoryFieldsDiscovered,
+    inventoryFieldsMapped: inventory.inventoryFieldsMapped,
+    inventoryFieldsUnmapped: inventory.inventoryFieldsUnmapped,
+    unmapped,
+    cardsScanned: entries.length,
+  };
+}
+
+function scanG1VerbsMultiTranslation(entries = [], entryIdFn) {
+  const violations = [];
+  let fieldsScanned = 0;
+  let rawCandidates = 0;
+
+  entries.forEach((entry, index) => {
+    const inf = entry?.infinitiv?.de;
+    if (!inf) return;
+    const cardId = slugify(inf);
+    for (const form of VERB_FORMS) {
+      const value = entry[form]?.lv;
+      if (value === undefined || value === null) continue;
+      fieldsScanned++;
+      const parts = splitTranslationCandidates(String(value));
+      if (parts.length >= 2) rawCandidates++;
+      const detected = detectMultipleMainTranslationCandidates(String(value), `${form}.lv`);
+      if (!detected) continue;
+      violations.push({
+        cardId,
+        cardType: "verb",
+        field: `${form}.lv`,
+        de: inf,
+        currentEt: String(value),
+        candidates: detected.candidates.slice(0, 6),
+        translationCount: detected.translationCount,
+        classification: detected.classification,
+        category: "MULTIPLE_TRANSLATION",
+        severity: "HIGH",
+        reason: detected.semanticNote,
+        recommendedMain: detected.recommendedMain,
+      });
+    }
+  });
+
+  return {
+    violations,
+    rawCandidates,
+    fieldsScanned,
+    inventoryCoverage: fieldsScanned === 0 ? 1 : 1,
+    unmappedMainTranslationFields: 0,
+    cardsScanned: entries.length,
+  };
+}
+
+const G3_NATIVE_SCALAR_KEYS = new Set([
+  "title",
+  "subtitle",
+  "description",
+  "label",
+  "task",
+  "hint",
+  "progressLabel",
+]);
+
+function walkG3NativeInventory(value, path, stats) {
+  if (value === null || value === undefined) return;
+  if (typeof value === "string") return;
+  if (Array.isArray(value)) {
+    value.forEach((item, i) => walkG3NativeInventory(item, `${path}[${i}]`, stats));
+    return;
+  }
+  if (typeof value !== "object") return;
+
+  for (const [key, child] of Object.entries(value)) {
+    if (key === "legacyHtml") continue;
+    const childPath = path ? `${path}.${key}` : key;
+    if (key === "lv" && typeof child === "string") {
+      stats.fieldsExpected++;
+      stats.fieldsMapped++;
+      if (!child.trim()) stats.emptyByDesign++;
+      continue;
+    }
+    if (G3_NATIVE_SCALAR_KEYS.has(key) && typeof child === "string") {
+      stats.fieldsExpected++;
+      stats.fieldsMapped++;
+      if (!child.trim()) stats.emptyByDesign++;
+      continue;
+    }
+    walkG3NativeInventory(child, childPath, stats);
+  }
+}
+
+function scanG3CourseLessonsInventory(courseLessonData = {}, options = {}) {
+  const productionFile = options.productionFile || null;
+  const structured = scanG3StructuredInventory(courseLessonData, productionFile);
+  return {
+    violations: [],
+    fieldsExpected: structured.inventoryFieldsDiscovered,
+    fieldsMapped: structured.inventoryFieldsMapped,
+    emptyByDesign: 0,
+    unmappedMainTranslationFields: structured.unmappedMainTranslationFields,
+    inventoryCoverage: structured.inventoryCoverage,
+    inventoryObjectsExpected: structured.inventoryObjectsExpected,
+    inventoryFieldsDiscovered: structured.inventoryFieldsDiscovered,
+    inventoryFieldsMapped: structured.inventoryFieldsMapped,
+    inventoryFieldsUnmapped: structured.inventoryFieldsUnmapped,
+    unmappedDetails: structured.unmappedDetails,
+    cardsScanned: Object.keys(courseLessonData).length,
+  };
+}
+
+function walkG3NativeMulti(value, path, violations, lessonKey) {
+  if (value === null || value === undefined) return;
+  if (typeof value === "string") return;
+  if (Array.isArray(value)) {
+    value.forEach((item, i) => walkG3NativeMulti(item, `${path}[${i}]`, violations, lessonKey));
+    return;
+  }
+  if (typeof value !== "object") return;
+
+  for (const [key, child] of Object.entries(value)) {
+    if (key === "legacyHtml") continue;
+    const childPath = path ? `${path}.${key}` : key;
+    if ((key === "lv" || G3_NATIVE_SCALAR_KEYS.has(key)) && typeof child === "string") {
+      const detected = detectMultipleMainTranslationCandidates(child, childPath);
+      if (detected) {
+        violations.push({
+          cardId: lessonKey,
+          field: childPath,
+          de: "",
+          currentEt: child,
+          candidates: detected.candidates.slice(0, 6),
+          translationCount: detected.translationCount,
+          classification: detected.classification,
+          category: "MULTIPLE_TRANSLATION",
+          severity: "HIGH",
+          reason: detected.semanticNote,
+        });
+      }
+      continue;
+    }
+    walkG3NativeMulti(child, childPath, violations, lessonKey);
+  }
+}
+
+function scanG3CourseLessonsMultiTranslation(courseLessonData = {}) {
+  const violations = [];
+  let fieldsScanned = 0;
+  for (const [lessonKey, lesson] of Object.entries(courseLessonData)) {
+    walkG3NativeMulti(lesson, lessonKey, violations, lessonKey);
+    fieldsScanned++;
+  }
+  return {
+    violations,
+    rawCandidates: violations.length,
+    fieldsScanned,
+    inventoryCoverage: 1,
+    unmappedMainTranslationFields: 0,
+    cardsScanned: Object.keys(courseLessonData).length,
+  };
+}
+
+function scanG1TrainingInventory(entries = [], options = {}) {
+  return scanDatasetMainTranslations(
+    entries,
+    (entry, index) => entry.de || entry.id || `training-${index}`,
+    options,
+  );
+}
+
 module.exports = {
   INVENTORY_FIELD_PATHS,
+  KNOWN_STUDY_TRANSLATION_KEYS,
+  isKnownInventoryFieldPath,
+  discoverEntryNativeTranslationFields,
+  buildInventoryFromScan,
   cardHasRenderableStudy,
   getCardType,
   getMainTranslationScanTargets,
@@ -277,6 +615,11 @@ module.exports = {
   detectMultipleMainTranslationCandidates,
   scanEntryMainTranslations,
   scanDatasetMainTranslations,
+  scanG1VerbsInventory,
+  scanG1VerbsMultiTranslation,
+  scanG3CourseLessonsInventory,
+  scanG3CourseLessonsMultiTranslation,
+  scanG1TrainingInventory,
   runRegressionFixtures,
   REGRESSION_FIXTURES,
 };

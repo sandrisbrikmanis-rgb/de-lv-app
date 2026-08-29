@@ -91,7 +91,8 @@ function normalizeItem(item) {
   };
 }
 
-function parseLunaFullAuditResponse(raw, cardIds) {
+function parseLunaFullAuditResponse(raw, cardIds, options = {}) {
+  const strictMode = options.strictMode === true;
   if (!raw || typeof raw !== "string") {
     throw new Error("Luna audit kļūda: tukša atbilde.");
   }
@@ -115,10 +116,18 @@ function parseLunaFullAuditResponse(raw, cardIds) {
     results.push(normalized);
   }
 
-  // Cards absent from response assumed PASS (compact mode).
-  for (const cardId of cardIds) {
-    if (!responded.has(cardId)) {
-      results.push({ cardId, status: "PASS", field: "lv" });
+  // Cards absent from response assumed PASS (compact mode) — disabled in Phase 1 strict mode.
+  if (!strictMode) {
+    for (const cardId of cardIds) {
+      if (!responded.has(cardId)) {
+        results.push({ cardId, status: "PASS", field: "lv" });
+      }
+    }
+  } else {
+    for (const cardId of cardIds) {
+      if (!responded.has(cardId)) {
+        results.push({ cardId, status: "MISSING", field: "lv", missing: true });
+      }
     }
   }
 
