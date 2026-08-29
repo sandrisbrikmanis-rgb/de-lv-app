@@ -11,7 +11,8 @@
 | Item | Value |
 |------|-------|
 | ORIGIN_MAIN_SHA | `a0ed44630493562d4d2b03ca53a1802a743e5416` |
-| PR #694 HEAD | `82f3f8d190ece0baf334e39b6b41596b56b9f375` |
+| PR #694 HEAD | `bc54e0e2c9d6cbcc4f268776faccbdb2f7e38eac` |
+| Infra commit (gates verified) | `82f3f8d190ece0baf334e39b6b41596b56b9f375` |
 | Branch | `cursor/phase0-complete-exit-ab00` |
 | Base | `main` |
 | PR state | OPEN (draft=true) |
