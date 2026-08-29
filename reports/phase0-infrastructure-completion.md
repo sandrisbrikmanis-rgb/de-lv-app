@@ -4,6 +4,7 @@
 **Branch:** `cursor/f0-comp-infrastructure-ab00`  
 **PR:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/698  
 **Repair baseline HEAD:** `2bbe006247525133d28d6f836876dda288c8833d`  
+**Repair commit HEAD:** `41bb6747` (full R-001…R-011 repair)  
 **Base (`origin/main`):** `1d878da08830f0412af722829d98d2f4b574095c`  
 **Authoritative refs:** MASTER v1.17, `PHASE_1_READ_ONLY_DISCOVERY_SPEC.md` §10
 
