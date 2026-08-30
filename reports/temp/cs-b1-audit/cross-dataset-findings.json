@@ -1,0 +1,211 @@
+[
+  {
+    "de": "Weise",
+    "variants": [
+      "cesta",
+      "chytrý"
+    ],
+    "locations": [
+      "a2:a2-Weise-1575",
+      "b1:b1-Weise-3228",
+      "b2:b2-Weise-2046"
+    ],
+    "locationCount": 3,
+    "severity": "HIGH"
+  },
+  {
+    "de": "da",
+    "variants": [
+      "tam",
+      "protože • za kolik"
+    ],
+    "locations": [
+      "a1:a1-da",
+      "b1:b1-da"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "Mal",
+    "variants": [
+      "čas",
+      "znamení"
+    ],
+    "locations": [
+      "a1:a1-mal",
+      "b1:b1-Mal-1826"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "holen",
+    "variants": [
+      "jít za • aportovat",
+      "přinést"
+    ],
+    "locations": [
+      "a2:a2-holen",
+      "b1:b1-holen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "Leid",
+    "variants": [
+      "utrpení • žal",
+      "utrpení"
+    ],
+    "locations": [
+      "a2:a2-Leid-876",
+      "b1:b1-Leid-1755"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "obwohl",
+    "variants": [
+      "ačkoli",
+      "i když • ačkoli"
+    ],
+    "locations": [
+      "a2:a2-obwohl-1035",
+      "b1:b1-obwohl"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "Rennen",
+    "variants": [
+      "závod • závod",
+      "závod"
+    ],
+    "locations": [
+      "a2:a2-Rennen-1154",
+      "b1:b1-Rennen-2291"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "Schuld",
+    "variants": [
+      "vina • dluh • odpovědnost",
+      "být vinen"
+    ],
+    "locations": [
+      "a2:a2-schuld",
+      "b1:b1-Schuld-2526"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "sich erholen",
+    "variants": [
+      "odpočívat • zotavit se",
+      "odpočívat"
+    ],
+    "locations": [
+      "a2:a2-sich erholen-1293",
+      "b1:b1-sich erholen-3349"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "bieten",
+    "variants": [
+      "nabídnout",
+      "nabídnout • poskytnout"
+    ],
+    "locations": [
+      "b1:b1-bieten",
+      "b2:b2-bieten"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "Einschreiben",
+    "variants": [
+      "doporučený dopis",
+      "doporučený dopis nebo balík"
+    ],
+    "locations": [
+      "b1:b1-Einschreiben-705",
+      "b2:b2-Einschreiben-577"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "fordern",
+    "variants": [
+      "požádat",
+      "vyžadovat • vyžadovat"
+    ],
+    "locations": [
+      "b1:b1-fordern-931",
+      "b2:b2-fordern"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "fördern",
+    "variants": [
+      "podporovat",
+      "podporovat • podporovat"
+    ],
+    "locations": [
+      "b1:b1-fördern",
+      "b2:b2-foerdern"
+    ],
+    "locationCount": 2,
+    "severity": "MEDIUM"
+  },
+  {
+    "de": "Verdienst",
+    "variants": [
+      "zisk",
+      "zásluhy"
+    ],
+    "locations": [
+      "b1:b1-Verdienst-3059",
+      "b2:b2-Verdienst-1876"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "sich verlaufen",
+    "variants": [
+      "konat",
+      "zmizte"
+    ],
+    "locations": [
+      "b1:b1-sich verlaufen-3087",
+      "b2:b2-sich-verlaufen"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  },
+  {
+    "de": "sich entschließen",
+    "variants": [
+      "rozhodnout",
+      "rozhodnout se • rozhodnout"
+    ],
+    "locations": [
+      "b1:b1-sich entschließen-3346",
+      "c1:c1-sich entschließen-299"
+    ],
+    "locationCount": 2,
+    "severity": "HIGH"
+  }
+]
