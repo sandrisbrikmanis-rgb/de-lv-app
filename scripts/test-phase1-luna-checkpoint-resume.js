@@ -384,11 +384,71 @@ async function testDeterministicRestarts() {
   fs.rmSync(tmp, { recursive: true, force: true });
 }
 
+function testTamperedCheckpointBlocksResumePrep() {
+  const tmp = patchRunsRoot(tempRunsRoot());
+  const { initFreshRun, finalizeRun } = require("./lib/phase1-luna-checkpoint/runner");
+  const { prepareResumeContext } = require("./lib/phase1-luna-checkpoint/resume");
+  const { stableBatchId } = require("./lib/phase1-luna-checkpoint/batch-checkpoint");
+  const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
+  const constants = require("./lib/phase1-luna-checkpoint/constants");
+
+  const scope = { scopeId: "g2/a1/et", group: "g2", dataset: "a1", lang: "et", lunaApplicable: true };
+  const scopes = [scope];
+  const cliScope = { groups: ["g2"], datasetsByGroup: { g2: ["a1"] }, langs: ["et"] };
+  const baseline = { originMainSha: SHA_TEST, verdict: "PASS" };
+  const gitIdentity = injectedGitIdentity();
+  const fresh = initFreshRun({
+    scopes,
+    cliScope,
+    transport: "MOCK",
+    baseline,
+    gitIdentity,
+    model: DEFAULT_MODEL,
+  });
+
+  const cpDir = constants.checkpointDir(fresh.runId, scope.scopeId);
+  fs.mkdirSync(cpDir, { recursive: true });
+  const ids = ["obj-1", "obj-2", "obj-3"];
+  const batchId = stableBatchId(scope.scopeId, 0, ids);
+  fs.writeFileSync(
+    path.join(cpDir, `${batchId}.json`),
+    JSON.stringify({
+      schemaVersion: "1.0.0",
+      status: "PASS",
+      runId: fresh.runId,
+      scopeId: scope.scopeId,
+      batchId,
+      batchIndex: 0,
+      expectedObjectIds: ids,
+      expectedIdsHash: "tampered-hash",
+      returnedObjectIds: ids,
+      requestInputHash: "tampered-request",
+      rawResult: { items: ids.map((id) => ({ id, status: "PASS" })) },
+    }),
+  );
+
+  const resume = prepareResumeContext({
+    runId: fresh.runId,
+    scopes,
+    cliScope,
+    transport: "MOCK",
+    model: DEFAULT_MODEL,
+    options: { skipApiKeyCheck: true, skipPhase0Check: true, gitIdentity, baseline },
+  });
+  assert(!resume.ok, "tampered checkpoint blocks resume prep");
+  assert(resume.code === "CHECKPOINT_CORRUPT", "tampered checkpoint code CHECKPOINT_CORRUPT");
+  assert(resume.realCalls === 0, "tampered checkpoint realCalls 0");
+
+  finalizeRun(fresh.runId, "COMPLETED");
+  fs.rmSync(tmp, { recursive: true, force: true });
+}
+
 async function run() {
   await testAtomicBatchCheckpoint();
   const resumeStats = await testInterruptResumeDeterminism();
   assert(resumeStats.resumedCalls === 0, "resumed API calls 0");
   testFailClosedIdentityWrapper();
+  testTamperedCheckpointBlocksResumePrep();
   testLockMechanism();
   await testDeterministicRestarts();
 

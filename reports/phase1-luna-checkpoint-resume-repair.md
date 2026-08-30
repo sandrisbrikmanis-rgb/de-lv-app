@@ -1,8 +1,8 @@
 # Phase 1 Luna Checkpoint / Resume — Infrastructure Repair Report
 
-**Verdict:** `PHASE1_CHECKPOINT_RESUME_READY_FOR_OWNER_REVIEW`  
-**Date:** 2026-08-30  
-**Branch:** `cursor/phase1-luna-checkpoint-resume`
+**Branch:** `cursor/phase1-luna-checkpoint-resume`  
+**PR:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/702  
+**Date:** 2026-08-30
 
 ---
 
@@ -10,187 +10,163 @@
 
 | Field | Value |
 |-------|-------|
-| `REPAIR_BASELINE_SHA` | `fc822e8db76af40740073d90cc51873c80037354` |
-| `origin/main` at repair start | `fc822e8db76af40740073d90cc51873c80037354` |
-| `IMPLEMENTATION_SHA` | _(set at commit — see PR head)_ |
-| Working tree at start | clean |
+| `REPAIR_BASELINE_SHA` / `ORIGIN_MAIN_SHA` | `fc822e8db76af40740073d90cc51873c80037354` |
+| `INITIAL_IMPLEMENTATION_SHA` | `90a2c2854d5a938aa0682de1671f7691b23b2f06` |
+| `OWNER_REVIEW_SHA` | `cef6e8dd2452b220e69f3ecb57094190c9d1af16` |
+| `R-CKPT-002_REPAIR_START_SHA` | `cef6e8dd2452b220e69f3ecb57094190c9d1af16` |
+| `R-CKPT-002_REPAIR_END_SHA` | _(set at commit — see PR head)_ |
 
 ---
 
-## 2. BEFORE → AFTER problem mapping
+## 2. R-CKPT-002 root cause and repair
 
-| Problem (before) | Root cause | After |
-|------------------|------------|-------|
-| Batch results only in process memory | `runBatchedAdapter` had no persistence | Atomic per-batch checkpoints under `reports/temp/phase1-luna-runs/{runId}/checkpoints/` |
-| Final reports written only at run end | `writePhase1Reports()` at orchestrator exit | Deterministic reconstruction from validated checkpoints via `reconstructFromCheckpoints()` |
-| Process interrupt loses completed batches | No resume state | `--resume-luna` + `--resume-run-id` skips PASS checkpoints (0 API calls) |
-| No run identity binding | No manifest | Immutable `run-manifest.json` with scope/object/prompt hashes |
-| Parallel full runs possible | No lock | `.active-lock.json` with PID, hostname, heartbeat — `PHASE1_RUN_ALREADY_ACTIVE` |
-| `--fresh-luna` could overwrite evidence | Not implemented safely | `--fresh-luna` creates new `runId` + directory; old runs preserved |
-| Progress not measurable mid-run | No progress file | Atomic `progress.json` with scopes/batches/objects/realCalls/tokens |
-| Heartbeat missing during long API calls | No heartbeat | 15s heartbeat during batch wait + lock touch |
+### Root cause
 
-### Pre-repair flow (memory-only Luna path)
+`validateCheckpointIntegrity()` in `scripts/lib/phase1-luna-checkpoint/resume.js` only verified:
 
-```
-scope → batch → Luna request → validateBatchResponse (in-memory)
-  → results[] in process → final matrix at end only
-```
+- JSON parse success
+- `status === "PASS"`
 
-**Lost on interrupt:** in-flight batch, uncommitted `results[]`, aggregate stats.  
-**Spec-defined but not wired:** `scripts/.phase1-luna-{scopeId}-progress.json`, `--resume-luna`, `--fresh-luna` (§5.3, §5.8).
+It did **not** invoke `validateBatchCheckpoint()` with full hash/ID/schema checks. Tampered checkpoint files with `status: "PASS"` but wrong `expectedIdsHash`, missing returned IDs, or schema mismatch passed `prepareResumeContext()` (`ok: true`, `realCalls: 0`) — violating fail-closed §9.
 
-**Reusable resume patterns elsewhere:** ET/ES/CS audit scripts (`--resume`, progress JSON under `scripts/.{module}-luna-progress.json`).
+### Repair (R-CKPT-002)
+
+`validateCheckpointIntegrity()` now:
+
+1. Reads each checkpoint file from disk
+2. Runs full `validateBatchCheckpoint()` with `expectedRunId`, `scopeId`, `batchIndex`, `expectedObjectIds`, `requestInputHash`
+3. Detects duplicate `batchId` per scope (`DUPLICATE_BATCH_CHECKPOINT`)
+4. Returns `CHECKPOINT_CORRUPT` with issue list — `prepareResumeContext` blocks with `realCalls: 0`
+
+### Changed files (R-CKPT-002 repair pass)
+
+| File | Change |
+|------|--------|
+| `scripts/lib/phase1-luna-checkpoint/resume.js` | Full checkpoint validation in `validateCheckpointIntegrity` |
+| `scripts/test-phase1-luna-checkpoint-resume.js` | Added `testTamperedCheckpointBlocksResumePrep` |
+| `reports/phase1-luna-checkpoint-resume-repair.md` | This update |
+
+### BEFORE → AFTER (R-CKPT-002)
+
+| Scenario | BEFORE | AFTER |
+|----------|--------|-------|
+| Tampered PASS + wrong hash | `prepareResumeContext` → `ok: true` | `CHECKPOINT_CORRUPT`, `realCalls: 0` |
+| Missing returned ID in checkpoint | `ok: true` | `CHECKPOINT_CORRUPT`, `realCalls: 0` |
+| Schema version mismatch | `ok: true` | `CHECKPOINT_CORRUPT`, `realCalls: 0` |
+| Invalid JSON on disk | `CHECKPOINT_CORRUPT` | `CHECKPOINT_CORRUPT` (unchanged) |
+| Valid checkpoint only | `ok: true` | `ok: true` (unchanged) |
+| Temp file without rename | ignored (not listed) | ignored (not listed) |
 
 ---
 
-## 3. Changed files
+## 3. Corrupted checkpoint test table
+
+`prepareResumeContext` results (isolated harness, `realCalls` per scenario):
+
+| Scenario | `prepareResumeContext` code | `ok` | `realCalls` |
+|----------|----------------------------|------|-------------|
+| Invalid JSON | `CHECKPOINT_CORRUPT` | false | **0** |
+| Truncated file | `CHECKPOINT_CORRUPT` | false | **0** |
+| Wrong `expectedIdsHash` | `CHECKPOINT_CORRUPT` | false | **0** |
+| Missing returned ID | `CHECKPOINT_CORRUPT` | false | **0** |
+| Schema version mismatch | `CHECKPOINT_CORRUPT` | false | **0** |
+| `status !== PASS` | `CHECKPOINT_CORRUPT` | false | **0** |
+| Temp without atomic rename | `OK` | true | **0** (file not listed) |
+| Valid checkpoint only | `OK` | true | **0** |
+| Tampered hash (unit test) | `CHECKPOINT_CORRUPT` | false | **0** |
+
+---
+
+## 4. Open repair items status
+
+| ID | Status | Notes |
+|----|--------|-------|
+| **R-CKPT-002** | **REPAIRED_AND_VERIFIED** | Full `validateBatchCheckpoint` at resume prep; 34 test assertions PASS |
+| **R-CKPT-001** | **OPEN (non-blocking)** | No disk read-back after atomic rename; in-memory post-write validation only |
+| **R-CKPT-003** | **OPEN (non-blocking)** | `batchesExpected`/`objectsExpected`/`resumedBatches` not fully populated in progress |
+
+---
+
+## 5. Mandatory command exit codes
+
+| Command | Exit |
+|---------|------|
+| `npm run test:phase1-luna-checkpoint-resume` | **0** (34 assertions) |
+| `npm run test:phase1-findings-validation` | **0** |
+| `npm run test:phase1-coverage-gates` | **0** |
+| `npm run test:phase1-f0-comp` | **0** |
+| `npm run test:phase1-real-luna-transport` | **0** |
+| `npm run test:phase1-dynamic-baseline-gate` | **0** |
+| `npm run i18n:content:phase0-exit` | **0** |
+| `npm run i18n:content:phase1-discovery -- --help` | **0** |
+| `npm run i18n:content:phase1-discovery -- --skip-luna --all-groups --dataset all --all-langs` | **0**, `lunaCalls: 0` |
+| `npm run i18n:content:phase1-exit` (run 1) | **0** |
+| `npm run i18n:content:phase1-exit` (run 2) | **0** |
+| Phase 1 exit determinism (`diff` run1 vs run2) | **0** (identical) |
+
+---
+
+## 6. Safety gates
+
+| Check | Result |
+|-------|--------|
+| Production diff (`data`, `www/data`, `languages`, `crowdin/content`) | **0** |
+| DE changes | **0** |
+| Translation/content changes | **0** |
+| Unexpected changes | **0** |
+| Secrets in diff | **0** |
+| PR #699 changes | **0** |
+| Real-Luna calls | **0** |
+| Terra calls | **0** |
+| Full 318-scope discovery | **NOT RUN** |
+| Hardcoded baseline SHA in `scripts/**` | **0** |
+
+---
+
+## 7. Original infrastructure (initial repair pass)
+
+### Problem mapping (memory-only → checkpoint/resume)
+
+| Problem | After |
+|---------|-------|
+| Batch results only in memory | Atomic checkpoints under `reports/temp/phase1-luna-runs/{runId}/` |
+| No resume | `--resume-luna` / `--resume-run-id` |
+| No run identity | `run-manifest.json` with scope/object/prompt hashes |
+| Parallel runs | `.active-lock.json` → `PHASE1_RUN_ALREADY_ACTIVE` |
+| Fresh run overwrites | `--fresh-luna` creates new `runId`; old runs preserved |
+
+### Full changed file list (cumulative PR)
 
 | Path | Role |
 |------|------|
 | `scripts/lib/phase1-luna-checkpoint/*` | Checkpoint store, manifest, lock, progress, resume, reconstruct |
-| `scripts/lib/luna-adapter-runner.js` | Checkpoint hooks, skip confirmed batches, heartbeat, interrupt |
-| `scripts/run-phase1-discovery.js` | `--fresh-luna`, `--resume-luna`, `--resume-run-id`, checkpoint integration |
-| `scripts/test-phase1-luna-checkpoint-resume.js` | Isolated tests A–D |
-| `package.json` | `test:phase1-luna-checkpoint-resume` |
-| `.gitignore` | `reports/temp/phase1-luna-runs/`, `scripts/.phase1-luna-*-progress.json` |
+| `scripts/lib/luna-adapter-runner.js` | Checkpoint hooks, skip, heartbeat |
+| `scripts/run-phase1-discovery.js` | CLI integration |
+| `scripts/test-phase1-luna-checkpoint-resume.js` | Isolated tests |
+| `package.json`, `.gitignore` | Test script + ignore paths |
+| `reports/phase1-luna-checkpoint-resume-repair.md` | This report |
+| `reports/phase1-luna-checkpoint-resume-owner-review.md` | Prior OWNER review (needs repeat) |
 
 ---
 
-## 4. Checkpoint storage
+## 8. Gala verdikts (repair pass)
 
-**Root:** `reports/temp/phase1-luna-runs/{runId}/`
+| Field | Value |
+|-------|-------|
+| `R-CKPT-002` | **REPAIRED_AND_VERIFIED** |
+| `CODE_REPAIR_VERDICT` | **READY_FOR_REPEAT_OWNER_REVIEW** |
+| `OPERATIONAL_VERDICT` | **BLOCKED_PENDING_OWNER_REVIEW** |
+| `PR_STATUS` | **DRAFT** |
+| `LUNA_CALLS` | **0** |
+| `FULL_DISCOVERY` | **NOT_RUN** |
 
-```
-{runId}/
-  run-manifest.json      # immutable identity
-  progress.json          # atomic run progress
-  checkpoints/
-    {scopeId_escaped}/
-      batch-{index}-{hash16}.json
-```
-
-**Lock:** `reports/temp/phase1-luna-runs/.active-lock.json`
+**Note:** `OWNER_ACCEPTED_FOR_MERGE` requires a new independent OWNER review against the post-repair PR HEAD. Not self-granted.
 
 ---
 
-## 5. Run manifest schema (v1.0.0)
+## 9. Next steps
 
-Required fields: `runId`, `schemaVersion`, `discoveryBaselineSha`, `headSha`, `originMainSha`, `model`, `transport`, `cliScope`, `expectedScopeIds`, `scopeHash`, `objectIdsHash`, `objectCount`, `batchingConfig`, `promptSchemaHash`, `startedAt`, `status`.
-
-Resume allowed only when all identity fields match → else `RESUME_IDENTITY_MISMATCH` (fail-closed, 0 Luna calls).
-
----
-
-## 6. Batch checkpoint schema (v1.0.0)
-
-`runId`, `scopeId`, `batchId`, `batchIndex`, `expectedObjectIds`, `expectedIdsHash`, `requestInputHash`, `returnedObjectIds`, `rawResult`, `normalizedFindings`, `attemptCount`, `tokensUsed`, `startedAt`, `endedAt`, `model`, `transport`, `status: PASS`.
-
-**Write pattern:** temp file → fsync → atomic rename → post-write validation. Partial `.tmp` never promoted.
-
----
-
-## 7. Lock mechanism
-
-Fields: `runId`, `pid`, `hostname`, `runnerId`, `startedAt`, `heartbeatAt`, `baselineSha`, `command`.
-
-Stale detection: PID alive **and** heartbeat &lt; 5 min **and** manifest `IN_PROGRESS`/`INTERRUPTED`. Uncertain → fail-closed.
-
----
-
-## 8. Resume validation sequence
-
-1. Dynamic `origin/main` fetch (via `resolvePhase1GitIdentity`)
-2. HEAD === origin/main
-3. Clean working tree
-4. Production diff 0 / DE diff 0
-5. Phase 0 PASS + evaluatedHeadSha match
-6. Load + validate manifest
-7. Checkpoint integrity scan
-8. Identity hash compare (baseline, model, transport, scope, objects, prompt/batching)
-9. Skip PASS batches only; continue first incomplete batch
-
----
-
-## 9. Fail-closed scenarios (tested)
-
-| Scenario | Code | Luna calls |
-|----------|------|------------|
-| HEAD ≠ origin/main | `HEAD_NOT_AT_ORIGIN_MAIN` | 0 |
-| Baseline drift | `RESUME_IDENTITY_MISMATCH` | 0 |
-| Model mismatch | `RESUME_IDENTITY_MISMATCH` | 0 |
-| Transport mismatch | `RESUME_IDENTITY_MISMATCH` | 0 |
-| Scope hash mismatch | `RESUME_IDENTITY_MISMATCH` | 0 |
-| Object ID hash mismatch | `RESUME_IDENTITY_MISMATCH` | 0 |
-| Prompt/schema mismatch | `RESUME_IDENTITY_MISMATCH` | 0 |
-| Dirty working tree | `WORKING_TREE_DIRTY` | 0 |
-| Active lock | `PHASE1_RUN_ALREADY_ACTIVE` | 0 |
-| Corrupt checkpoint | `CHECKPOINT_CORRUPT` | 0 |
-
----
-
-## 10. Test results
-
-### A. Batch checkpoint — PASS
-- Atomic save + post-write validation
-- Partial/malformed/duplicate responses not saved as PASS
-
-### B. Interrupt / resume — PASS
-- Confirmed batches skipped (`repeatedBatches = 0`, resumed API calls = 0)
-- `duplicateFindings = 0`
-
-### C. Fail-closed identity — PASS
-
-### D. Restart determinism — PASS
-- Continuous vs interrupted reconstruction: same `objectsProcessed`, same findings keys
-
-### E. Regressions — PASS
-
-| Command | Result |
-|---------|--------|
-| `npm run test:phase1-findings-validation` | PASS |
-| `npm run test:phase1-coverage-gates` | PASS |
-| `npm run test:phase1-f0-comp` | PASS |
-| `npm run test:phase1-real-luna-transport` | PASS |
-| `npm run test:phase1-dynamic-baseline-gate` | PASS |
-| `npm run test:phase1-luna-checkpoint-resume` | PASS (31 assertions) |
-| `npm run i18n:content:phase0-exit` | PASS |
-| `npm run i18n:content:phase1-discovery -- --help` | PASS (new flags present) |
-| `npm run i18n:content:phase1-discovery -- --skip-luna --all-groups --dataset all --all-langs` | PASS, `lunaCalls: 0` |
-| `npm run i18n:content:phase1-exit` ×2 | PASS, deterministic |
-
----
-
-## 11. Safety gates
-
-| Check | Result |
-|-------|--------|
-| Production diff | 0 |
-| DE changes | 0 |
-| Translation/content changes | 0 |
-| Secrets committed | 0 |
-| Full-discovery real Luna calls (this branch) | 0 |
-| Terra calls | 0 |
-| Hardcoded baseline SHA in `scripts/**` | 0 |
-
----
-
-## 12. Known remaining risks
-
-1. **Full 318-scope run not executed** on this branch (by design). Post-merge single-object real-Luna smoke still required.
-2. **Lock on shared runner:** if host crashes without signal handler, operator must verify manifest/heartbeat before manual lock removal.
-3. **`lunaObjectLimit` test slices** change batch composition — production full runs must use full object sets for identity hashes.
-4. **OWNER review + merge** required before restarting full discovery.
-
----
-
-## 13. Next steps (out of scope for this PR)
-
-1. OWNER review of this infrastructure PR  
-2. Merge to `main`  
-3. Post-merge controlled real-Luna smoke (1 object)  
-4. Only then: full 318-scope discovery with `--with-luna`
-
----
-
-**Gala verdikts:** `PHASE1_CHECKPOINT_RESUME_READY_FOR_OWNER_REVIEW`
+1. Independent repeat OWNER review on updated PR HEAD  
+2. If PASS → merge  
+3. Post-merge single-object real-Luna smoke  
+4. Only then — full 318-scope discovery

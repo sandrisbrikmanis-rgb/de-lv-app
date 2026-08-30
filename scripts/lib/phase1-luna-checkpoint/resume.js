@@ -14,6 +14,7 @@ const {
   computeScopeIdentity,
 } = require("./manifest");
 const { readJsonFile, readJsonFileIfExists, listCheckpointFiles } = require("./atomic-io");
+const { validateBatchCheckpoint } = require("./batch-checkpoint");
 
 function manifestPathFor(runId) {
   return require("./constants").manifestPath(runId);
@@ -71,20 +72,61 @@ function validateManifestForResume(manifest, expectedIdentity) {
 
 function validateCheckpointIntegrity(runId, scopeIds) {
   const corrupt = [];
+  const seenBatchIds = new Map();
+
   for (const scopeId of scopeIds) {
     const dir = checkpointDirFor(runId, scopeId);
     const files = listCheckpointFiles(dir);
+
     for (const file of files) {
+      let cp;
       try {
-        const cp = readJsonFile(file);
-        if (!cp || cp.status !== "PASS") {
-          corrupt.push({ file, reason: "NOT_PASS" });
-        }
+        cp = readJsonFile(file);
       } catch (error) {
-        corrupt.push({ file, reason: "CORRUPT", message: error.message });
+        corrupt.push({ file, scopeId, reason: "CORRUPT", issues: ["JSON_PARSE_FAILED"], message: error.message });
+        continue;
       }
+
+      if (!cp || typeof cp !== "object") {
+        corrupt.push({ file, scopeId, reason: "CORRUPT", issues: ["CHECKPOINT_MISSING_OR_INVALID"] });
+        continue;
+      }
+
+      const validation = validateBatchCheckpoint(cp, {
+        expectedRunId: runId,
+        scopeId,
+        batchIndex: cp.batchIndex,
+        expectedIds: cp.expectedObjectIds,
+        requestInputHash: cp.requestInputHash,
+      });
+
+      if (!validation.ok) {
+        corrupt.push({
+          file,
+          scopeId,
+          batchId: cp.batchId || null,
+          reason: "CHECKPOINT_VALIDATION_FAILED",
+          issues: validation.issues,
+        });
+        continue;
+      }
+
+      const batchKey = `${scopeId}|${cp.batchId}`;
+      if (seenBatchIds.has(batchKey)) {
+        corrupt.push({
+          file,
+          scopeId,
+          batchId: cp.batchId,
+          reason: "DUPLICATE_BATCH_CHECKPOINT",
+          issues: ["DUPLICATE_BATCH_CHECKPOINT"],
+          priorFile: seenBatchIds.get(batchKey),
+        });
+        continue;
+      }
+      seenBatchIds.set(batchKey, file);
     }
   }
+
   if (corrupt.length) {
     return { ok: false, code: "CHECKPOINT_CORRUPT", corrupt };
   }
