@@ -111,3 +111,5 @@ scripts/.es-pt-training-cache.json
 scripts/.es-pl-training-cache.json
 *.sk-*-cache.json
 scripts/.et-a1-luna-progress.json
+reports/temp/phase1-luna-runs/
+scripts/.phase1-luna-*-progress.json
