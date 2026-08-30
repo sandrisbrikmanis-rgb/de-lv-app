@@ -1,28 +1,29 @@
-# Phase 1 Luna Checkpoint/Resume — Repeat Independent OWNER Review
+# Phase 1 Luna Checkpoint/Resume — Final Repeat OWNER Review
 
 **PR:** https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/702  
 **Review date:** 2026-08-30  
-**Review type:** Repeat independent OWNER review (read-only; no production/repair code changes)  
+**Review type:** Final independent OWNER review (read-only; report-only commit)  
 **Branch:** `cursor/phase1-luna-checkpoint-resume`
 
 ---
 
-## 1. SHA identity gates (verified before review)
+## 1. SHA identity gates
 
 | Field | Expected | Actual | Match |
 |-------|----------|--------|-------|
-| `HEAD` / `EXPECTED_PR_HEAD_SHA` | `381c4e1bcfbe092b302fb8af6dedee09f54be349` | `381c4e1bcfbe092b302fb8af6dedee09f54be349` | ✓ |
+| `HEAD` / `REVIEWED_CODE_SHA` / `FINAL_PR_HEAD_SHA` | `18b069f8377fa30771bc1a7e7d22dc9e9ddb8041` | `18b069f8377fa30771bc1a7e7d22dc9e9ddb8041` | ✓ |
 | `origin/main` / `BASE_SHA` | `fc822e8db76af40740073d90cc51873c80037354` | `fc822e8db76af40740073d90cc51873c80037354` | ✓ |
-| `REPAIR_CODE_SHA` (reference) | `d9303fe8d2e2c09ebe25ab2a0812fdb494a59474` | present in PR history | ✓ |
 | Branch | `cursor/phase1-luna-checkpoint-resume` | `cursor/phase1-luna-checkpoint-resume` | ✓ |
 | Worktree | CLEAN | CLEAN | ✓ |
 
-No `BLOCKED_SHA_DRIFT`. Review executed against exact PR head.
+No `BLOCKED_SHA_DRIFT`.
 
 | Field | Value |
 |-------|-------|
-| `REVIEWED_CODE_SHA` | `381c4e1bcfbe092b302fb8af6dedee09f54be349` |
-| `REPORT_COMMIT_SHA` | `76b7978764c386e5a4807f27fdf48b94dbd8e797` |
+| `REVIEWED_CODE_SHA` | `18b069f8377fa30771bc1a7e7d22dc9e9ddb8041` |
+| `FINAL_PR_HEAD_SHA` | `18b069f8377fa30771bc1a7e7d22dc9e9ddb8041` |
+| `R-CKPT-002_SECOND_REPAIR_END_SHA` | `44988cfb8703da476b11b5800e10412bc387fdb4` |
+| `REPORT_COMMIT_SHA` | *(set at commit)* |
 
 ---
 
@@ -33,152 +34,142 @@ No `BLOCKED_SHA_DRIFT`. Review executed against exact PR head.
 | Production diff (`data`, `www/data`, `languages`, `crowdin/content`) | **0** |
 | DE changes | **0** |
 | Translation/content changes | **0** |
-| Secrets in PR diff | **0** (only `skipApiKeyCheck` option wiring) |
+| Secrets in PR diff | **0** |
 | PR #699 changes | **0** |
 | Real-Luna calls (this review session) | **0** |
 | Terra calls | **0** |
 | Full 318-scope discovery | **NOT_RUN** |
-| PR modified in review | **owner report only** (`reports/phase1-luna-checkpoint-resume-owner-review.md`) |
+| Files modified in this review | **owner report only** |
 
 ---
 
-## 3. Code trace: validation reference sources
+## 3. Code trace — runner ↔ resume plan parity
 
-### Call chain
+### Call chain (verified at `18b069f8`)
 
 ```
+runBatchedAdapter (luna-adapter-runner.js)
+  → splitObjectsIntoBatches (batch-split.js)
+  → payload { scopeId, adapter, objects: batch.map(serialize) }
+  → createCheckpointHooks.shouldSkipBatch (runner.js)
+      → validateBatchCheckpoint with loop batchIndex + batch.map(getId) + hashRequestInput(payload)
+  → buildBatchCheckpoint → saveBatchCheckpoint
+
 prepareResumeContext (resume.js)
-  → validateCheckpointIntegrity (resume.js)
-      → listCheckpointFiles + readJsonFile per file
-      → validateBatchCheckpoint (batch-checkpoint.js)  [per checkpoint]
-  → (on success) resume proceeds with realCalls=0
-
-createCheckpointHooks → shouldSkipBatch (runner.js)
-  → loadConfirmedCheckpoints (batch-checkpoint.js)
-      → validateBatchCheckpoint with cp-derived refs [self-referential at load]
-  → shouldSkipBatch re-validates with independent refs (runner.js)
+  → validateManifestForResume (identity: scopeHash, objectIdsHash, batchingConfig, …)
+  → buildExpectedBatchPlanForScopes (batch-plan.js)
+      → loadObjectsForScope + getBatchSizeForScope + splitObjectsIntoBatches
+  → validateCheckpointIntegrity
+      → map cp.batchId → independent expected batch
+      → validateBatchCheckpoint with plan-derived refs only
 ```
 
-### Reference value provenance
+### Shared canonical inputs (runner execution ≡ resume validation)
 
-| Field | `validateCheckpointIntegrity` (resume prep) | `shouldSkipBatch` (runtime skip) |
-|-------|---------------------------------------------|----------------------------------|
-| `expectedRunId` | **Independent** — `runId` argument | **Independent** — `runId` |
-| `scopeId` | **Independent** — loop `scopeIds` | **Independent** — `scope.scopeId` |
-| `batchIndex` | **Self-referential** — `cp.batchIndex` | **Independent** — loop `batchIndex` |
-| `expectedIds` | **Self-referential** — `cp.expectedObjectIds` | **Independent** — `batch.map(getId)` |
-| `expectedIdsHash` | Derived inside validator from `expectedIds` passed in | Derived from independent `expectedIds` |
-| `requestInputHash` | **Self-referential** — `cp.requestInputHash` | **Independent** — `hashRequestInput(requestPayload)` |
-| `batchId` | Not cross-checked vs filename or manifest batch plan | **Independent** — `stableBatchId(scopeId, batchIndex, expectedIds)` |
-| `returnedObjectIds` | Compared only against `expectedIds` passed in (self-ref) | Same when skip path runs |
+| Dimension | Runner source | Resume/batch-plan source | Match |
+|-----------|---------------|--------------------------|-------|
+| Object order | `loadObjectsForScope(scope)` | `loadObjectsForScope(scope)` | ✓ |
+| Batch size | `getBatchSizeForScope(scope)` | `getBatchSizeForScope(scope)` | ✓ |
+| Split algorithm | `splitObjectsIntoBatches` | `splitObjectsIntoBatches` | ✓ |
+| `adapterName` | `adapterKey(group, dataset)` | `adapterKey(group, dataset)` | ✓ |
+| Serialization | `(obj) => obj` | `(obj) => obj` | ✓ |
+| Request payload | `{ scopeId, adapter, objects }` | `buildRequestPayload(...)` identical shape | ✓ |
+| `getId` | `getObjectId` | `getObjectId` | ✓ |
+| `stableBatchId` | `hash.js` | `hash.js` | ✓ |
+| `requestInputHash` | `hashRequestInput(payload)` | `hashRequestInput(requestPayload)` | ✓ |
 
-**Conclusion:** At `prepareResumeContext` time, checkpoint files are validated for **internal consistency**, not against **independently reconstructed batch identity** from manifest/scope/object inventory. A checkpoint can be fully self-consistent while describing a batch that never existed in the run's expected object universe.
-
-`shouldSkipBatch` does use independent references at runtime, but that does **not** close the resume-prep fail-closed gap: `prepareResumeContext` can return `ok: true` while corrupt or substituted checkpoint files remain on disk.
-
-### Key code (reviewed SHA)
-
-```95:101:scripts/lib/phase1-luna-checkpoint/resume.js
-      const validation = validateBatchCheckpoint(cp, {
-        expectedRunId: runId,
-        scopeId,
-        batchIndex: cp.batchIndex,
-        expectedIds: cp.expectedObjectIds,
-        requestInputHash: cp.requestInputHash,
-      });
-```
-
-```92:105:scripts/lib/phase1-luna-checkpoint/runner.js
-    shouldSkipBatch({ batchIndex, batch, getId, requestPayload }) {
-      ...
-      const expectedIds = batch.map(getId);
-      ...
-      const validation = require("./batch-checkpoint").validateBatchCheckpoint(existing, {
-        expectedRunId: runId,
-        scopeId: scope.scopeId,
-        batchIndex,
-        expectedIds,
-        requestInputHash: requestHash,
-      });
-```
+**Independent plan alignment test** (`g2/a1/et`, 702 objects, 29 batches): `aligned: true`, `mismatches: []`.
 
 ---
 
-## 4. Independent R-CKPT-002 reproduction harness
+## 4. Checkpoint field reference provenance
 
-**Harness:** `/tmp/owner-rckpt002-independent-harness.js` (isolated; not committed)  
-**Method:** Each scenario calls `prepareResumeContext` via fresh `initFreshRun` + injected checkpoint file(s).  
-**Reviewed code SHA:** `381c4e1bcfbe092b302fb8af6dedee09f54be349`
+Resume-prep validation compares checkpoint fields **against** independent plan; never **from** checkpoint.
 
-### Corrupted-checkpoint matrix
+| Checkpoint field | Reference source | Uses `cp.*` as reference? |
+|------------------|------------------|---------------------------|
+| `runId` | Verified manifest (`manifest.runId`) | **No** |
+| `scopeId` | Active Luna scope + plan (`expectedBatch.scopeId`) | **No** |
+| `batchIndex` | Reconstructed batch plan | **No** |
+| `expectedObjectIds` | Production object inventory via plan | **No** |
+| `expectedIdsHash` | `hashSortedList(plan.expectedObjectIds)` | **No** |
+| `requestInputHash` | `hashRequestInput(plan.requestPayload)` | **No** |
+| `batchId` | `stableBatchId` from independent plan | **No** |
+| Filename | `expectedBatch.expectedFilename` (`{batchId}.json`) | **No** |
 
-| Scenario | Expected | `ok` | `code` | `realCalls` | Pass? |
-|----------|----------|------|--------|-------------|-------|
+Explicit field-equality checks in `validateCheckpointIntegrity` (lines 138–155 `resume.js`) reject drift even when internal checkpoint hashes appear self-consistent.
+
+---
+
+## 5. Independent OWNER manipulation matrix
+
+**Harness:** `/tmp/owner-final-review-harness.js` (ephemeral)  
+**Method:** Isolated `prepareResumeContext` per scenario; valid checkpoints built from `buildExpectedBatchPlanForScope`, not repair-test fixtures.
+
+| Scenario | Expected | `ok` | `code` | `realCalls` | Pass |
+|----------|----------|------|--------|-------------|------|
+| Valid checkpoint | OK | true | OK | 0 | ✓ |
+| Valid incomplete (no checkpoints) | OK | true | OK | 0 | ✓ |
 | Invalid JSON | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
 | Truncated JSON | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
+| Wrong `runId` | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
+| Wrong `scopeId` | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
+| Wrong `batchIndex` | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
+| Wrong `batchId` (content) | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
+| Wrong filename | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
+| Mutated `expectedObjectIds` | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
 | Wrong `expectedIdsHash` | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
+| Wrong `requestInputHash` | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
 | Missing returned ID | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
 | Extra returned ID | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
 | Duplicate returned ID | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
 | Schema mismatch | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
 | `status !== PASS` | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
-| Wrong `runId` | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
-| Wrong `scopeId` | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
-| Wrong `batchIndex` | `CHECKPOINT_CORRUPT` | **true** | — | 0 | **✗** |
-| Wrong `batchId` (filename) | `CHECKPOINT_CORRUPT` | **true** | — | 0 | **✗** |
-| Mutated `expectedObjectIds` (hash mismatch) | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
-| Mutated `requestInputHash` alone | `CHECKPOINT_CORRUPT` | **true** | — | 0 | **✗** |
-| Duplicate `batchId` in two files | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
-| `.tmp` file | ignored | true | `OK` | 0 | ✓ |
-| Fully valid checkpoint | OK | true | `OK` | 0 | ✓ |
+| Duplicate checkpoint | `CHECKPOINT_CORRUPT` | false | `CHECKPOINT_CORRUPT` | 0 | ✓ |
+| `.tmp` file | ignored | true | OK | 0 | ✓ |
 
-**Matrix score:** 14/17 enforced at prep time. **3 scenarios fail fail-closed requirement** (wrong `batchIndex`, wrong filename/`batchId`, isolated `requestInputHash` tamper).
+**Matrix score: 20/20 PASS.**
 
 ---
 
-## 5. Critical self-consistent manipulation test (decisive)
+## 6. Decisive self-consistent fake batch (independent harness)
 
-**Attack:** Simultaneously set internally consistent fake universe:
-
-- `expectedObjectIds` = `["FAKE-A","FAKE-B","FAKE-C"]`
-- Recomputed `expectedIdsHash`, `requestInputHash`, `returnedObjectIds`, `rawResult.items`
-- Recomputed `batchId` via `stableBatchId(scopeId, batchIndex, fakeIds)`
-- `status: PASS`, all other fields aligned
-
-**Result:**
+**Not** using repair-test fixture IDs. Owner harness uses `OWNER-FAKE-1/2/3`, `batchIndex=7`, all fields internally aligned.
 
 | Field | Value |
 |-------|-------|
-| `ok` | **`true`** |
-| `code` | *(none — prep authorized)* |
+| `ok` | **false** |
+| `code` | **`CHECKPOINT_CORRUPT`** |
 | `realCalls` | **0** |
 
-**Interpretation:** R-CKPT-002 is **not fully closed**. Validation trusts checkpoint-local fields as the reference source. An attacker (or disk corruption) can substitute an entirely fabricated batch that never existed in the manifest object plan and still pass `prepareResumeContext`.
+**R-CKPT-002 closure criterion: PASS.** Checkpoint cannot validate itself.
 
 ---
 
-## 6. Existing test coverage audit: `testTamperedCheckpointBlocksResumePrep`
+## 7. Batch plan edge cases
 
-**Location:** `scripts/test-phase1-luna-checkpoint-resume.js` (not modified in this review)
+| Case | Result |
+|------|--------|
+| One object → 1 batch | ✓ |
+| Exactly one full batch (25) | ✓ |
+| Full batch + 1 object → 2 batches | ✓ |
+| Multiple full batches (75 → 3) | ✓ |
+| Partial last batch (28 → 2) | ✓ |
+| Empty object catalog → 0 batches | ✓ |
+| Empty checkpoint directory | `ok: true` ✓ |
+| Unplanned batch file | `CHECKPOINT_CORRUPT` ✓ |
+| Two scopes (`et` + `lv`), both `batchIndex=0` | `ok: true` ✓ |
+| Inventory drift (`objectIdsHash`) | `RESUME_IDENTITY_MISMATCH` (pre-checkpoint) ✓ |
+| Batching config drift | `RESUME_IDENTITY_MISMATCH` (pre-checkpoint) ✓ |
+| `lunaObjectLimit=4` run vs full-inventory resume plan | `CHECKPOINT_CORRUPT` ✓ |
 
-| Question | Finding |
-|----------|---------|
-| Mutation scenarios executed | **1** composite tamper: `expectedIdsHash: "tampered-hash"` + `requestInputHash: "tampered-request"` |
-| Matrix rows automated | **~2/17** (invalid hash combo; does not isolate single-field tampers) |
-| Wrong `batchId` / filename tested? | **No** |
-| Mutated `expectedObjectIds` (self-consistent) tested? | **No** |
-| Self-consistent multi-field manipulation tested? | **No** |
-| Link to real expected batch content from manifest/objects? | **No** — checkpoint is hand-written, not derived from `loadObjectsForScope` |
-
-The repair test proves **inconsistent** tampering is blocked (hash fields disagree with `expectedObjectIds`). It does **not** prove protection against **self-consistent** substitution — the decisive R-CKPT-002 threat model.
-
-**Suite assertion count:** 34 (all PASS at reviewed SHA).
+**`lunaObjectLimit`:** Production `--resume-luna` does not pass `lunaObjectLimit` to `buildExpectedBatchPlanForScopes`. Limited test/smoke runs produce checkpoints that fail independent full-inventory plan — fail-closed. Not a production resume bypass.
 
 ---
 
-## 7. Interrupt/resume regression (3-batch, separate instances)
+## 8. Interrupt/resume regression (3 separate process instances)
 
-Re-run via independent harness (`interruptResume()`):
+Synthetic 9-object scope, `batchSize=3`, separate `initFreshRun` instances.
 
 | Metric | Expected | Actual | Match |
 |--------|----------|--------|-------|
@@ -194,94 +185,117 @@ Re-run via independent harness (`interruptResume()`):
 
 | Run | SHA-256 |
 |-----|---------|
-| Continuous | `f25d22f0ec21ceae2e6315ca84451bb05654a1f2f99bf8750e4c187f6d04d7a0` |
-| Interrupted + resumed | `f25d22f0ec21ceae2e6315ca84451bb05654a1f2f99bf8750e4c187f6d04d7a0` |
-| **Match** | **✓** |
+| Continuous | `eb679fa1ca1f97e99b554dc55f974f87a3a65a26438fefe2fe274e8e1e379b19` |
+| Interrupted + resumed | `eb679fa1ca1f97e99b554dc55f974f87a3a65a26438fefe2fe274e8e1e379b19` |
+| **Match** | **IDENTICAL ✓** |
 
-Interrupt/resume mechanics remain sound; the defect is isolated to resume-prep checkpoint integrity vs independent batch identity.
-
----
-
-## 8. Mandatory regression commands (11)
-
-| # | Command | Exit | Notes |
-|---|---------|------|-------|
-| 1 | `npm run test:phase1-luna-checkpoint-resume` | **0** | 34 assertions PASS |
-| 2 | `npm run test:phase1-findings-validation` | **0** | PASS |
-| 3 | `npm run test:phase1-coverage-gates` | **0** | PASS |
-| 4 | `npm run test:phase1-f0-comp` | **124** | stdout: `PASS`; process did not exit within 90s (open handles after PASS) |
-| 5 | `npm run test:phase1-real-luna-transport` | **124** | stdout: `PASS`; same hang-after-PASS behaviour |
-| 6 | `npm run test:phase1-dynamic-baseline-gate` | **0** | PASS |
-| 7 | `npm run i18n:content:phase0-exit` | **0** | `PHASE_0_COMPLETE` |
-| 8 | `npm run i18n:content:phase1-discovery -- --help` | **0** | PASS |
-| 9 | `npm run i18n:content:phase1-discovery -- --skip-luna --all-groups --dataset all --all-langs` | **0** | `lunaCalls: 0`, 320 scopes |
-| 10 | `npm run i18n:content:phase1-exit` (run A) | **0** | PASS |
-| 11 | `npm run i18n:content:phase1-exit` (run B) | **0** | PASS |
-
-**Phase 1 exit determinism:** `diff` of JSON excluding `generatedAt` = **0** between consecutive runs. Only timestamp field differs.
-
-**Note:** Commands 4–5 are pre-existing hang-after-PASS behaviour (unrelated to R-CKPT-002 verdict); functional assertions completed before timeout.
+Repair suite (`testInterruptResumeThreeBatchMetrics`): 94 assertions PASS.
 
 ---
 
-## 9. Repair IDs status
+## 9. Exit 124 / open-handle verification
 
-| ID | Summary | Status after repeat review | Blocks merge? |
-|----|---------|---------------------------|---------------|
-| **R-CKPT-001** | No disk read-back after atomic checkpoint rename | **OPEN** (unchanged) | No |
-| **R-CKPT-002** | Resume prep validates checkpoints against self-referential fields; self-consistent fake batch passes `prepareResumeContext` | **STILL_OPEN** | **Yes** |
-| **R-CKPT-003** | Progress `batchesExpected` / `objectsExpected` / `resumedBatches` incomplete | **OPEN** (unchanged, observability) | No |
+### Root cause (prior review)
 
-### R-CKPT-002 repair claim vs independent proof
+`runBatchedAdapter` created `setTimeout(TIMEOUT_MS=180_000)` for `Promise.race` but did not `clearTimeout` when transport resolved first — event loop held ~180s per batch call.
 
-The repair report (`d9303fe8`) states full `validateBatchCheckpoint` is now invoked at prep time. **Confirmed:** it is invoked. **Not sufficient:** references passed in are still taken from the checkpoint under test, so the repair closes inconsistent tampering only, not independent-identity tampering.
+### Fix at `18b069f8` (`luna-adapter-runner.js` lines 133–149)
 
-**Required fix direction (informational — not implemented in this review):** At `validateCheckpointIntegrity`, reconstruct expected batch identity per scope from manifest + `loadObjectsForScope` (batching plan), then validate each checkpoint file against that independent plan (index, ids, request hash, filename=`{batchId}.json`).
+```javascript
+} finally {
+  if (timeoutId) clearTimeout(timeoutId);
+  if (heartbeatTimer) clearInterval(heartbeatTimer);
+}
+```
+
+`finally` runs on: transport success, transport rejection, timeout, malformed response (retry loop), and per-attempt completion. Interrupt during in-flight call still clears timer when the race settles.
+
+### Natural exit verification (no external timeout wrapper)
+
+| Command | PASS printed | `NATURAL_EXIT_CODE` | `PROCESS_HANG` |
+|---------|--------------|---------------------|----------------|
+| `npm run test:phase1-f0-comp` | yes | **0** | **no** |
+| `npm run test:phase1-real-luna-transport` | yes | **0** | **no** |
+
+Exit 124 is **not** classified as PASS.
 
 ---
 
-## 10. OWNER verdict
+## 10. Mandatory regression commands (11)
+
+| # | Command | Natural exit |
+|---|---------|--------------|
+| 1 | `npm run test:phase1-luna-checkpoint-resume` | **0** (94 assertions) |
+| 2 | `npm run test:phase1-findings-validation` | **0** |
+| 3 | `npm run test:phase1-coverage-gates` | **0** |
+| 4 | `npm run test:phase1-f0-comp` | **0** |
+| 5 | `npm run test:phase1-real-luna-transport` | **0** |
+| 6 | `npm run test:phase1-dynamic-baseline-gate` | **0** |
+| 7 | `npm run i18n:content:phase0-exit` | **0** |
+| 8 | `npm run i18n:content:phase1-discovery -- --help` | **0** |
+| 9 | `npm run i18n:content:phase1-discovery -- --skip-luna --all-groups --dataset all --all-langs` | **0** (`lunaCalls: 0`) |
+| 10 | `npm run i18n:content:phase1-exit` (run A) | **0** |
+| 11 | `npm run i18n:content:phase1-exit` (run B) | **0** |
+
+**Phase 1 exit determinism:** `diff <(jq 'del(.generatedAt)' run1) <(jq 'del(.generatedAt)' run2)` = **0**.
+
+---
+
+## 11. Repair ID status
+
+| ID | Summary | Status | Blocks merge? |
+|----|---------|--------|---------------|
+| **R-CKPT-002** | Independent batch-plan validation at resume prep; self-consistent fake batch blocked | **CLOSED** | No |
+| **R-CKPT-001** | No disk read-back after atomic checkpoint rename | OPEN | No (observability hardening) |
+| **R-CKPT-003** | Progress `batchesExpected`/`objectsExpected`/`resumedBatches` incomplete | OPEN | No (observability) |
+
+No fail-closed or data-integrity risk identified tied to R-CKPT-001 or R-CKPT-003 in this review.
+
+---
+
+## 12. OWNER verdict
 
 | Field | Value |
 |-------|-------|
-| **`R-CKPT-002`** | **`STILL_OPEN`** |
+| **`R-CKPT-002`** | **`CLOSED`** |
 | **`R-CKPT-001`** | OPEN (non-blocking) |
 | **`R-CKPT-003`** | OPEN (non-blocking) |
-| **`CODE_OWNER_VERDICT`** | **`OWNER_REVIEW_NEEDS_REPAIR`** |
-| **`OPERATIONAL_VERDICT`** | **`BLOCKED`** |
+| **`CODE_OWNER_VERDICT`** | **`OWNER_ACCEPTED_FOR_MERGE`** |
+| **`OPERATIONAL_VERDICT`** | **`PENDING_POST_MERGE_REAL_SMOKE`** |
 | **`PR_STATUS`** | **`DRAFT`** |
 | **`LUNA_CALLS`** | **0** |
 | **`FULL_DISCOVERY`** | **NOT_RUN** |
 
-**Rationale:** Independent harness proves self-consistent checkpoint manipulation returns `prepareResumeContext → ok: true`. Additional prep-time gaps: wrong `batchIndex`, wrong `batchId` filename, and isolated `requestInputHash` tamper also pass. Existing `testTamperedCheckpointBlocksResumePrep` does not cover these cases. Interrupt/resume determinism and broader regression suite remain healthy, but fail-closed resume authorization against checkpoint store substitution is **not** proven.
-
-**After fix:** Re-run this OWNER matrix including the self-consistent manipulation test; expect `R-CKPT-002 = CLOSED`, `CODE_OWNER_VERDICT = OWNER_ACCEPTED_FOR_MERGE`, `OPERATIONAL_VERDICT = PENDING_POST_MERGE_REAL_SMOKE`.
+**Rationale:** At `18b069f8`, independent OWNER harness confirms all 20 manipulation scenarios, self-consistent fake batch rejection, runner/resume batch-plan parity (29 batches / 702 objects), edge-case fail-closed behavior, interrupt/resume determinism, natural exit 0 on all 11 mandatory commands, and exit-124 remediation. R-CKPT-002 is fully closed. Post-merge real-Luna smoke remains required before full 318-scope discovery.
 
 ---
 
-## 11. Review evidence summary
+## 13. Review evidence summary
 
 ```
-EXPECTED_PR_HEAD_SHA = 381c4e1bcfbe092b302fb8af6dedee09f54be349
-REPAIR_CODE_SHA      = d9303fe8d2e2c09ebe25ab2a0812fdb494a59474
-BASE_SHA             = fc822e8db76af40740073d90cc51873c80037354
-harnessSelfConsistent.ok = true  ← R-CKPT-002 NOT CLOSED
-matrixFailCount      = 3/17 prep-time scenarios
-continuousApiCalls   = 3
-interruptedApiCalls  = 2
-resumedApiCalls      = 2
-skippedBatches       = 1
-reconstructionHash   = f25d22f0ec21ceae2e6315ca84451bb05654a1f2f99bf8750e4c187f6d04d7a0
-productionDiff       = 0
-realLunaCalls        = 0
+REVIEWED_CODE_SHA     = 18b069f8377fa30771bc1a7e7d22dc9e9ddb8041
+FINAL_PR_HEAD_SHA     = 18b069f8377fa30771bc1a7e7d22dc9e9ddb8041
+matrixPass            = 20/20
+fakeBatch.ok          = false
+fakeBatch.code        = CHECKPOINT_CORRUPT
+planAlignment         = true (29 batches, 702 objects)
+continuousApiCalls    = 3
+interruptedApiCalls   = 2
+resumedApiCalls       = 2
+skippedBatches        = 1
+reconstructionHash    = eb679fa1ca1f97e99b554dc55f974f87a3a65a26438fefe2fe274e8e1e379b19
+f0CompNaturalExit     = 0
+transportNaturalExit  = 0
+productionDiff        = 0
+realLunaCalls         = 0
 ```
 
 ---
 
-## 12. Artifacts
+## 14. Artifacts
 
 | Artifact | Path |
 |----------|------|
 | OWNER review (this file) | `reports/phase1-luna-checkpoint-resume-owner-review.md` |
-| Independent harness (ephemeral) | `/tmp/owner-rckpt002-independent-harness.js` |
-| Harness stdout | `/tmp/owner-harness-output.json` |
+| Independent harness (ephemeral) | `/tmp/owner-final-review-harness.js` |
+| Harness stdout | `/tmp/owner-final-harness-out.json` |
