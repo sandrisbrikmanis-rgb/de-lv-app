@@ -1,0 +1,74 @@
+{
+  "batch": "study-041-041",
+  "cardIds": [
+    "b1-sich-befinden-study"
+  ],
+  "findings": [
+    {
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.important.example",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.tip.leftBlocks[1].text",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.comparison[3].example",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.sectionAccents.comparison",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    },
+    {
+      "cardId": "b1-sich-befinden-study",
+      "field": "study.accents.purple",
+      "severity": "MEDIUM",
+      "category": "TRANSLATION",
+      "de": "",
+      "lvSource": "",
+      "currentCs": "",
+      "proposedCs": "",
+      "reason": "",
+      "confidence": "medium",
+      "status": "FINDING"
+    }
+  ],
+  "passCount": 0
+}
