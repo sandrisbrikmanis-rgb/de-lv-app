@@ -22,7 +22,7 @@ No `BLOCKED_SHA_DRIFT`. Review executed against exact PR head.
 | Field | Value |
 |-------|-------|
 | `REVIEWED_CODE_SHA` | `381c4e1bcfbe092b302fb8af6dedee09f54be349` |
-| `REPORT_COMMIT_SHA` | `a5fbbcc141c9ebf8e69308188293254393f0468c` |
+| `REPORT_COMMIT_SHA` | `76b7978764c386e5a4807f27fdf48b94dbd8e797` |
 
 ---
 
