@@ -388,8 +388,9 @@ function testTamperedCheckpointBlocksResumePrep() {
   const tmp = patchRunsRoot(tempRunsRoot());
   const { initFreshRun, finalizeRun } = require("./lib/phase1-luna-checkpoint/runner");
   const { prepareResumeContext } = require("./lib/phase1-luna-checkpoint/resume");
-  const { stableBatchId } = require("./lib/phase1-luna-checkpoint/batch-checkpoint");
-  const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
+  const { buildExpectedBatchPlanForScope } = require("./lib/phase1-luna-checkpoint/batch-plan");
+  const { hashSortedList, hashRequestInput, stableBatchId } = require("./lib/phase1-luna-checkpoint/hash");
+  const { CHECKPOINT_SCHEMA_VERSION } = require("./lib/phase1-luna-checkpoint/constants");
   const constants = require("./lib/phase1-luna-checkpoint/constants");
 
   const scope = { scopeId: "g2/a1/et", group: "g2", dataset: "a1", lang: "et", lunaApplicable: true };
@@ -397,49 +398,340 @@ function testTamperedCheckpointBlocksResumePrep() {
   const cliScope = { groups: ["g2"], datasetsByGroup: { g2: ["a1"] }, langs: ["et"] };
   const baseline = { originMainSha: SHA_TEST, verdict: "PASS" };
   const gitIdentity = injectedGitIdentity();
-  const fresh = initFreshRun({
-    scopes,
-    cliScope,
-    transport: "MOCK",
-    baseline,
-    gitIdentity,
-    model: DEFAULT_MODEL,
-  });
 
-  const cpDir = constants.checkpointDir(fresh.runId, scope.scopeId);
-  fs.mkdirSync(cpDir, { recursive: true });
-  const ids = ["obj-1", "obj-2", "obj-3"];
-  const batchId = stableBatchId(scope.scopeId, 0, ids);
-  fs.writeFileSync(
-    path.join(cpDir, `${batchId}.json`),
-    JSON.stringify({
-      schemaVersion: "1.0.0",
+  function makeContext() {
+    const fresh = initFreshRun({
+      scopes,
+      cliScope,
+      transport: "MOCK",
+      baseline,
+      gitIdentity,
+      model: DEFAULT_MODEL,
+    });
+    const cpDir = constants.checkpointDir(fresh.runId, scope.scopeId);
+    fs.mkdirSync(cpDir, { recursive: true });
+    return { fresh, cpDir };
+  }
+
+  function buildValidCheckpoint(fresh, expectedBatch) {
+    return {
+      schemaVersion: CHECKPOINT_SCHEMA_VERSION,
       status: "PASS",
       runId: fresh.runId,
+      scopeId: expectedBatch.scopeId,
+      batchId: expectedBatch.batchId,
+      batchIndex: expectedBatch.batchIndex,
+      expectedObjectIds: expectedBatch.expectedObjectIds,
+      expectedIdsHash: expectedBatch.expectedIdsHash,
+      requestInputHash: expectedBatch.requestInputHash,
+      returnedObjectIds: expectedBatch.expectedObjectIds,
+      rawResult: {
+        items: expectedBatch.expectedObjectIds.map((id) => ({ id, status: "PASS" })),
+      },
+      model: DEFAULT_MODEL,
+      transport: "MOCK",
+    };
+  }
+
+  function resumePrep(fresh) {
+    return prepareResumeContext({
+      runId: fresh.runId,
+      scopes,
+      cliScope,
+      transport: "MOCK",
+      model: DEFAULT_MODEL,
+      options: { skipApiKeyCheck: true, skipPhase0Check: true, gitIdentity, baseline },
+    });
+  }
+
+  function assertBlocked(resume, label) {
+    assert(!resume.ok, `${label}: blocked`);
+    assert(resume.code === "CHECKPOINT_CORRUPT", `${label}: CHECKPOINT_CORRUPT`);
+    assert(resume.realCalls === 0, `${label}: realCalls 0`);
+  }
+
+  function assertOk(resume, label) {
+    assert(resume.ok, `${label}: ok`);
+    assert(resume.realCalls === 0, `${label}: realCalls 0`);
+  }
+
+  const expectedBatch = buildExpectedBatchPlanForScope(scope)[0];
+
+  {
+    const { fresh, cpDir } = makeContext();
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(buildValidCheckpoint(fresh, expectedBatch)));
+    assertOk(resumePrep(fresh), "valid checkpoint");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    fs.writeFileSync(path.join(cpDir, "corrupt.json"), "{bad");
+    assertBlocked(resumePrep(fresh), "invalid json");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    fs.writeFileSync(path.join(cpDir, "truncated.json"), '{"status":"PASS"');
+    assertBlocked(resumePrep(fresh), "truncated json");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.runId = "other-run";
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "wrong runId");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.scopeId = "g2/a1/de";
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "wrong scopeId");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.batchIndex = 99;
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "wrong batchIndex");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.batchId = "batch-fake-id";
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "wrong batchId content");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    fs.writeFileSync(path.join(cpDir, "wrong-filename.json"), JSON.stringify(buildValidCheckpoint(fresh, expectedBatch)));
+    assertBlocked(resumePrep(fresh), "wrong batchId filename");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.expectedObjectIds = ["fake-1", "fake-2"];
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "mutated expectedObjectIds");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.expectedIdsHash = "bad-hash";
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "wrong expectedIdsHash");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.requestInputHash = "tampered";
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "wrong requestInputHash");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.returnedObjectIds = cp.returnedObjectIds.slice(0, 1);
+    cp.rawResult.items = cp.rawResult.items.slice(0, 1);
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "missing returned id");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.returnedObjectIds = [...cp.returnedObjectIds, "extra"];
+    cp.rawResult.items = [...cp.rawResult.items, { id: "extra", status: "PASS" }];
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "extra returned id");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    const dupId = cp.returnedObjectIds[0];
+    cp.returnedObjectIds = [dupId, dupId, ...cp.returnedObjectIds.slice(1)];
+    cp.rawResult.items = cp.returnedObjectIds.map((id) => ({ id, status: "PASS" }));
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "duplicate returned id");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.schemaVersion = "9.9.9";
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "schema mismatch");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    cp.status = "FAIL";
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    assertBlocked(resumePrep(fresh), "status not pass");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const cp = buildValidCheckpoint(fresh, expectedBatch);
+    fs.writeFileSync(path.join(cpDir, expectedBatch.expectedFilename), JSON.stringify(cp));
+    fs.writeFileSync(path.join(cpDir, `${expectedBatch.batchId}-dup.json`), JSON.stringify({ ...cp, endedAt: "x" }));
+    assertBlocked(resumePrep(fresh), "duplicate batch checkpoint");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    fs.writeFileSync(path.join(cpDir, `.checkpoint.${process.pid}.tmp`), "{}");
+    assertOk(resumePrep(fresh), "tmp file ignored");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
+  {
+    const { fresh, cpDir } = makeContext();
+    const fakeIds = ["FAKE-A", "FAKE-B", "FAKE-C"];
+    const fakeBatchIndex = 0;
+    const fakeBatchId = stableBatchId(scope.scopeId, fakeBatchIndex, fakeIds);
+    const fakePayload = {
       scopeId: scope.scopeId,
-      batchId,
-      batchIndex: 0,
-      expectedObjectIds: ids,
-      expectedIdsHash: "tampered-hash",
-      returnedObjectIds: ids,
-      requestInputHash: "tampered-request",
-      rawResult: { items: ids.map((id) => ({ id, status: "PASS" })) },
-    }),
-  );
+      adapter: expectedBatch.adapterName,
+      objects: fakeIds.map((id) => ({ id })),
+    };
+    fs.writeFileSync(
+      path.join(cpDir, `${fakeBatchId}.json`),
+      JSON.stringify({
+        schemaVersion: CHECKPOINT_SCHEMA_VERSION,
+        status: "PASS",
+        runId: fresh.runId,
+        scopeId: scope.scopeId,
+        batchId: fakeBatchId,
+        batchIndex: fakeBatchIndex,
+        expectedObjectIds: fakeIds,
+        expectedIdsHash: hashSortedList(fakeIds),
+        requestInputHash: hashRequestInput(fakePayload),
+        returnedObjectIds: fakeIds,
+        rawResult: { items: fakeIds.map((id) => ({ id, status: "PASS" })) },
+        model: DEFAULT_MODEL,
+        transport: "MOCK",
+      }),
+    );
+    assertBlocked(resumePrep(fresh), "self-consistent fake batch");
+    finalizeRun(fresh.runId, "COMPLETED");
+  }
 
-  const resume = prepareResumeContext({
-    runId: fresh.runId,
-    scopes,
-    cliScope,
-    transport: "MOCK",
-    model: DEFAULT_MODEL,
-    options: { skipApiKeyCheck: true, skipPhase0Check: true, gitIdentity, baseline },
-  });
-  assert(!resume.ok, "tampered checkpoint blocks resume prep");
-  assert(resume.code === "CHECKPOINT_CORRUPT", "tampered checkpoint code CHECKPOINT_CORRUPT");
-  assert(resume.realCalls === 0, "tampered checkpoint realCalls 0");
+  fs.rmSync(tmp, { recursive: true, force: true });
+}
 
-  finalizeRun(fresh.runId, "COMPLETED");
+async function testInterruptResumeThreeBatchMetrics() {
+  const crypto = require("crypto");
+  const tmp = patchRunsRoot(tempRunsRoot());
+  const { createCheckpointHooks } = require("./lib/phase1-luna-checkpoint/runner");
+
+  const scope = { scopeId: "g2/a1/et", group: "g2", dataset: "a1", lang: "et", lunaApplicable: true };
+  const scopes = [scope];
+  const cliScope = { groups: ["g2"], datasetsByGroup: { g2: ["a1"] }, langs: ["et"] };
+  const baseline = { originMainSha: SHA_TEST, verdict: "PASS" };
+  const gitIdentity = injectedGitIdentity();
+  const objects = Array.from({ length: 9 }, (_, i) => ({
+    id: `synthetic-obj-${i + 1}`,
+    productionFile: "data/et/a1.js",
+  }));
+  const batchSize = 3;
+
+  function makeTransport(interruptOn) {
+    const log = [];
+    return {
+      mode: "MOCK",
+      get realCallsDelta() {
+        return 1;
+      },
+      log,
+      async call(payload) {
+        const idx = log.length;
+        log.push(payload.objects.map((o) => o.id));
+        if (interruptOn === idx) {
+          const err = new Error("INTERRUPTED");
+          err.code = "INTERRUPTED";
+          throw err;
+        }
+        return { items: payload.objects.map((o) => ({ ...o, status: "PASS" })), tokensUsed: 1 };
+      },
+    };
+  }
+
+  async function runScope(runId, transport, interruptState) {
+    const hooks = createCheckpointHooks({
+      runId,
+      scope,
+      transport,
+      model: DEFAULT_MODEL,
+      interruptState,
+    });
+    return runBatchedAdapter({
+      transport,
+      objects,
+      getId: (o) => o.id,
+      serialize: (o) => o,
+      batchSize,
+      scopeId: scope.scopeId,
+      adapterName: "g2",
+      checkpointHooks: hooks,
+      interruptState,
+    });
+  }
+
+  function reconHash(runId) {
+    const recon = reconstructFromCheckpoints(runId, [scope.scopeId]);
+    return crypto
+      .createHash("sha256")
+      .update(
+        JSON.stringify(
+          recon.checkpoints.map((c) => ({
+            ids: c.expectedObjectIds,
+            ret: c.returnedObjectIds,
+            findings: (c.normalizedFindings || []).map((f) => f.findingStableId),
+          })),
+        ),
+      )
+      .digest("hex");
+  }
+
+  const fresh1 = initFreshRun({ scopes, cliScope, transport: "MOCK", baseline, gitIdentity });
+  const t1 = makeTransport(null);
+  await runScope(fresh1.runId, t1, createInterruptState());
+  const hash1 = reconHash(fresh1.runId);
+  finalizeRun(fresh1.runId, "COMPLETED");
+
+  const fresh2 = initFreshRun({ scopes, cliScope, transport: "MOCK", baseline, gitIdentity });
+  const t2 = makeTransport(1);
+  try {
+    await runScope(fresh2.runId, t2, createInterruptState());
+  } catch (_) {
+    /* expected */
+  }
+  const t3 = makeTransport(null);
+  const resumeResult = await runScope(fresh2.runId, t3, createInterruptState());
+  const hash2 = reconHash(fresh2.runId);
+  const recon2 = reconstructFromCheckpoints(fresh2.runId, [scope.scopeId]);
+  finalizeRun(fresh2.runId, "COMPLETED");
+
+  assert(t1.log.length === 3, "continuousApiCalls 3");
+  assert(t2.log.length === 2, "interruptedApiCalls 2");
+  assert(t3.log.length === 2, "resumedApiCalls 2");
+  assert((resumeResult.stats?.skippedBatches || 0) === 1, "skippedBatches 1");
+  assert(recon2.stats.repeatedBatches === 0, "repeatedBatches 0");
+  assert(recon2.stats.duplicateFindings === 0, "duplicateFindings 0");
+  assert(recon2.stats.duplicateObjects === 0, "duplicateObjects 0");
+  assert(hash1 === hash2, "reconstruction hash match");
+
   fs.rmSync(tmp, { recursive: true, force: true });
 }
 
@@ -449,6 +741,7 @@ async function run() {
   assert(resumeStats.resumedCalls === 0, "resumed API calls 0");
   testFailClosedIdentityWrapper();
   testTamperedCheckpointBlocksResumePrep();
+  await testInterruptResumeThreeBatchMetrics();
   testLockMechanism();
   await testDeterministicRestarts();
 

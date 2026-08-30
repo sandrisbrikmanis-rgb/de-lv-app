@@ -2,6 +2,7 @@
 "use strict";
 
 const fs = require("fs");
+const path = require("path");
 const { authorizeWithLunaDiscovery } = require("../phase1-luna-authorize");
 const { resolvePhase1GitIdentity } = require("../phase1-git-identity");
 const { runBaselineGate } = require("../content-discovery/baseline-gate");
@@ -15,6 +16,7 @@ const {
 } = require("./manifest");
 const { readJsonFile, readJsonFileIfExists, listCheckpointFiles } = require("./atomic-io");
 const { validateBatchCheckpoint } = require("./batch-checkpoint");
+const { buildExpectedBatchPlanForScopes } = require("./batch-plan");
 
 function manifestPathFor(runId) {
   return require("./constants").manifestPath(runId);
@@ -70,15 +72,20 @@ function validateManifestForResume(manifest, expectedIdentity) {
   return { ok: true };
 }
 
-function validateCheckpointIntegrity(runId, scopeIds) {
+function validateCheckpointIntegrity(runId, lunaScopes, manifest) {
   const corrupt = [];
   const seenBatchIds = new Map();
+  const { planByScope } = buildExpectedBatchPlanForScopes(lunaScopes);
 
-  for (const scopeId of scopeIds) {
+  for (const scope of lunaScopes) {
+    const scopeId = scope.scopeId;
     const dir = checkpointDirFor(runId, scopeId);
     const files = listCheckpointFiles(dir);
+    const expectedBatches = planByScope.get(scopeId) || [];
+    const expectedByBatchId = new Map(expectedBatches.map((batch) => [batch.batchId, batch]));
 
     for (const file of files) {
+      const basename = path.basename(file);
       let cp;
       try {
         cp = readJsonFile(file);
@@ -92,12 +99,67 @@ function validateCheckpointIntegrity(runId, scopeIds) {
         continue;
       }
 
+      const expectedBatch = expectedByBatchId.get(cp.batchId);
+      if (!expectedBatch) {
+        corrupt.push({
+          file,
+          scopeId,
+          batchId: cp.batchId || null,
+          reason: "UNMAPPABLE_CHECKPOINT",
+          issues: ["CHECKPOINT_NOT_IN_EXPECTED_BATCH_PLAN"],
+        });
+        continue;
+      }
+
+      if (basename !== expectedBatch.expectedFilename) {
+        corrupt.push({
+          file,
+          scopeId,
+          batchId: cp.batchId,
+          reason: "CHECKPOINT_FILENAME_MISMATCH",
+          issues: ["CHECKPOINT_FILENAME_MISMATCH"],
+          expectedFilename: expectedBatch.expectedFilename,
+          actualFilename: basename,
+        });
+        continue;
+      }
+
+      if (cp.batchId !== expectedBatch.batchId) {
+        corrupt.push({
+          file,
+          scopeId,
+          batchId: cp.batchId,
+          reason: "CHECKPOINT_BATCH_ID_MISMATCH",
+          issues: ["BATCH_ID_MISMATCH"],
+        });
+        continue;
+      }
+
+      const fieldMismatches = [];
+      if (cp.batchIndex !== expectedBatch.batchIndex) fieldMismatches.push("BATCH_INDEX_MISMATCH");
+      if (cp.scopeId !== expectedBatch.scopeId) fieldMismatches.push("SCOPE_ID_FIELD_MISMATCH");
+      if (cp.expectedIdsHash !== expectedBatch.expectedIdsHash) fieldMismatches.push("EXPECTED_IDS_HASH_MISMATCH");
+      if (cp.requestInputHash !== expectedBatch.requestInputHash) fieldMismatches.push("REQUEST_INPUT_HASH_MISMATCH");
+      const cpExpectedIds = (cp.expectedObjectIds || []).join(",");
+      const planExpectedIds = expectedBatch.expectedObjectIds.join(",");
+      if (cpExpectedIds !== planExpectedIds) fieldMismatches.push("EXPECTED_OBJECT_IDS_MISMATCH");
+      if (fieldMismatches.length) {
+        corrupt.push({
+          file,
+          scopeId,
+          batchId: cp.batchId,
+          reason: "CHECKPOINT_FIELD_MISMATCH",
+          issues: fieldMismatches,
+        });
+        continue;
+      }
+
       const validation = validateBatchCheckpoint(cp, {
-        expectedRunId: runId,
-        scopeId,
-        batchIndex: cp.batchIndex,
-        expectedIds: cp.expectedObjectIds,
-        requestInputHash: cp.requestInputHash,
+        expectedRunId: manifest.runId,
+        scopeId: expectedBatch.scopeId,
+        batchIndex: expectedBatch.batchIndex,
+        expectedIds: expectedBatch.expectedObjectIds,
+        requestInputHash: expectedBatch.requestInputHash,
       });
 
       if (!validation.ok) {
@@ -183,8 +245,8 @@ function prepareResumeContext({
     return { ok: false, code: manifestCheck.code, details: manifestCheck, realCalls: 0 };
   }
 
-  const lunaScopeIds = scopes.filter((s) => s.lunaApplicable).map((s) => s.scopeId);
-  const checkpointCheck = validateCheckpointIntegrity(runId, lunaScopeIds);
+  const lunaScopes = scopes.filter((s) => s.lunaApplicable);
+  const checkpointCheck = validateCheckpointIntegrity(runId, lunaScopes, loaded.manifest);
   if (!checkpointCheck.ok) {
     return { ok: false, code: checkpointCheck.code, details: checkpointCheck, realCalls: 0 };
   }

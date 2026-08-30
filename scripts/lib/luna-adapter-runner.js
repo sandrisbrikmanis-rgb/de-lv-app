@@ -2,6 +2,7 @@
  * Luna adapter infrastructure — batching, retry, timeout, validation (mock transport in F0).
  */
 const { createLunaTransport } = require('./luna-transport');
+const { splitObjectsIntoBatches } = require('./phase1-luna-checkpoint/batch-split');
 
 const TIMEOUT_MS = 180_000;
 const MAX_RETRIES = 3;
@@ -80,10 +81,7 @@ async function runBatchedAdapter({
   const results = [];
   const checkpoints = [];
   let lastBatchId = null;
-  const batches = [];
-  for (let i = 0; i < objects.length; i += batchSize) {
-    batches.push(objects.slice(i, i + batchSize));
-  }
+  const batches = splitObjectsIntoBatches(objects, batchSize);
 
   const batchStart = Date.now();
 
@@ -132,9 +130,10 @@ async function runBatchedAdapter({
       checkInterrupted(interruptState);
       try {
         let heartbeatTimer;
+        let timeoutId;
         const callPromise = transport.call(payload);
         const timeoutPromise = new Promise((_, reject) => {
-          setTimeout(() => reject(new Error('TIMEOUT')), TIMEOUT_MS);
+          timeoutId = setTimeout(() => reject(new Error('TIMEOUT')), TIMEOUT_MS);
         });
         if (checkpointHooks?.onHeartbeat) {
           heartbeatTimer = setInterval(() => {
@@ -146,6 +145,7 @@ async function runBatchedAdapter({
         try {
           response = await Promise.race([callPromise, timeoutPromise]);
         } finally {
+          if (timeoutId) clearTimeout(timeoutId);
           if (heartbeatTimer) clearInterval(heartbeatTimer);
         }
 
