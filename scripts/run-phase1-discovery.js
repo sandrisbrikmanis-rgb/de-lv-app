@@ -38,6 +38,12 @@ const {
   runPreBacklogHistoryGate,
   generateOwnerPrep,
 } = require("./lib/content-discovery/phase1-owner-prep");
+const {
+  initFreshRun,
+  runLunaScopeWithCheckpoint,
+  finalizeRun,
+  prepareResumeContext,
+} = require("./lib/phase1-luna-checkpoint/runner");
 
 function parseLangsArg(value) {
   if (!value || value === "all") return [...CONTENT_LANGUAGES];
@@ -55,6 +61,9 @@ Options:
   --lang <code|all>     Limit language(s)
   --all-langs           All target languages
   --all-groups          g2 + g1 + g3
+  --fresh-luna          Start a new Luna checkpoint run (does not delete prior runs)
+  --resume-luna         Resume Luna from validated checkpoints (identity must match)
+  --resume-run-id <id>  Explicit run id for --resume-luna
   --debug               Show stack traces on errors
   --help                Show help
 `);
@@ -69,6 +78,9 @@ function parseArgs(argv) {
     datasetsByGroup: { ...PHASE1_DATASETS_BY_GROUP },
     help: false,
     debug: false,
+    freshLuna: false,
+    resumeLuna: false,
+    resumeRunId: null,
   };
 
   for (let i = 2; i < argv.length; i++) {
@@ -83,6 +95,9 @@ function parseArgs(argv) {
       args.skipLuna = false;
     } else if (arg === "--all-groups") args.groups = ["g2", "g1", "g3"];
     else if (arg === "--all-langs") args.langs = parseLangsArg("all");
+    else if (arg === "--fresh-luna") args.freshLuna = true;
+    else if (arg === "--resume-luna") args.resumeLuna = true;
+    else if (arg === "--resume-run-id") args.resumeRunId = argv[++i];
     else if (arg === "--group") args.groups = [argv[++i]];
     else if (arg === "--dataset") {
       const value = argv[++i];
@@ -197,9 +212,93 @@ async function runPhase1Discovery(options = {}) {
     lunaSuccessfulBatches: 0,
     lunaRetryAttempts: 0,
     tokensUsed: 0,
+    skippedBatches: 0,
+    repeatedBatches: 0,
     failures: [],
   };
 
+  const cliScope = {
+    groups: options.groups,
+    datasetsByGroup: options.datasetsByGroup,
+    langs: options.langs,
+  };
+
+  const useCheckpoint =
+    options.checkpointEnabled ||
+    options.resumeLuna ||
+    options.freshLuna ||
+    Boolean(options.checkpointRunId);
+
+  let checkpointRunId = options.checkpointRunId || null;
+  let checkpointRun = null;
+
+  if (useCheckpoint) {
+    const transportName = options.withLuna ? "REAL" : "MOCK";
+    if (options.resumeLuna) {
+      if (!checkpointRunId && !options.resumeRunId) {
+        return {
+          blocked: true,
+          verdict: "RESUME_RUN_ID_REQUIRED",
+          message: "--resume-luna requires --resume-run-id",
+        };
+      }
+      checkpointRunId = options.resumeRunId || checkpointRunId;
+      const resume = prepareResumeContext({
+        runId: checkpointRunId,
+        scopes,
+        cliScope,
+        transport: transportName,
+        model: options.lunaModel || DEFAULT_MODEL,
+        options: {
+          skipApiKeyCheck: !options.withLuna,
+          skipPhase0Check: options.skipPhase0Check,
+          gitIdentity: options.gitIdentity,
+          baseline,
+          phase0Matrix: options.phase0Matrix,
+        },
+      });
+      if (!resume.ok) {
+        return {
+          blocked: true,
+          verdict: resume.code,
+          blockers: resume.blockers,
+          details: resume.details,
+          realCalls: 0,
+        };
+      }
+      checkpointRun = resume;
+    } else {
+      try {
+        checkpointRun = initFreshRun({
+          scopes,
+          cliScope,
+          transport: transportName,
+          model: options.lunaModel || DEFAULT_MODEL,
+          command: options.command,
+          baseline,
+          gitIdentity: options.gitIdentity,
+        });
+        checkpointRunId = checkpointRun.runId;
+      } catch (error) {
+        if (error.code === "PHASE1_RUN_ALREADY_ACTIVE") {
+          return {
+            blocked: true,
+            verdict: "PHASE1_RUN_ALREADY_ACTIVE",
+            lock: error.lock,
+            realCalls: 0,
+          };
+        }
+        throw error;
+      }
+    }
+    matrix.checkpoint = {
+      runId: checkpointRunId,
+      mode: options.resumeLuna ? "RESUME" : "FRESH",
+      runsRoot: "reports/temp/phase1-luna-runs",
+    };
+  }
+
+  try {
   for (const scope of scopes) {
     const { findings: scopedFindings, stats } = collectPhase1Scope({
       group: scope.group,
@@ -239,11 +338,27 @@ async function runPhase1Discovery(options = {}) {
         (options.withLuna
           ? createLunaTransport({ mode: "real" })
           : createLunaTransport({ mode: "mock", fixtureMap: options.lunaFixtureMap }));
-      const lunaResult = await runLunaForScope(scope, {
-        transport: lunaTransport,
-        fixtureMap: options.lunaFixtureMap,
-        lunaObjectLimit: options.lunaObjectLimit,
-      });
+
+      let lunaResult;
+      if (useCheckpoint && checkpointRunId) {
+        lunaResult = await runLunaScopeWithCheckpoint(scope, {
+          runId: checkpointRunId,
+          transport: lunaTransport,
+          lunaObjectLimit: options.lunaObjectLimit,
+          interruptState: options.interruptState,
+        });
+        lunaResult.lunaObjectsExpected = lunaResult.stats?.objectsExpected || 0;
+        lunaResult.lunaObjectsReturned = lunaResult.stats?.objectsReturned || 0;
+        lunaResult.lunaStatus = lunaResult.ok ? "PASS" : "FAIL";
+        lunaResult.skipped = false;
+      } else {
+        lunaResult = await runLunaForScope(scope, {
+          transport: lunaTransport,
+          fixtureMap: options.lunaFixtureMap,
+          lunaObjectLimit: options.lunaObjectLimit,
+        });
+      }
+
       if (!lunaResult.skipped) {
         lunaAggregate.lunaScopesExpected += 1;
         lunaAggregate.lunaScopesProcessed += 1;
@@ -251,6 +366,7 @@ async function runPhase1Discovery(options = {}) {
         lunaAggregate.lunaSuccessfulBatches += lunaResult.stats?.batches || 0;
         lunaAggregate.lunaRetryAttempts += lunaResult.stats?.retries || 0;
         lunaAggregate.tokensUsed += lunaResult.stats?.tokensUsed || 0;
+        lunaAggregate.skippedBatches += lunaResult.skippedBatches || lunaResult.stats?.skippedBatches || 0;
         if (!lunaResult.ok) {
           lunaAggregate.failures.push({ scopeId: scope.scopeId, reason: lunaResult.reason });
         }
@@ -258,11 +374,24 @@ async function runPhase1Discovery(options = {}) {
         row.lunaObjectsExpected = lunaResult.lunaObjectsExpected || 0;
         row.lunaObjectsReturned = lunaResult.lunaObjectsReturned || 0;
         row.lunaStatus = lunaResult.lunaStatus;
-        row.findingsLuna = 0;
+        row.findingsLuna = (lunaResult.findings || []).length;
+        if (lunaResult.findings?.length) findings.push(...lunaResult.findings);
       }
     }
 
     summary.push(row);
+  }
+  } catch (error) {
+    if (useCheckpoint && checkpointRunId) {
+      finalizeRun(checkpointRunId, error.code === "INTERRUPTED" ? "INTERRUPTED" : "BLOCKED");
+    }
+    throw error;
+  }
+
+  if (useCheckpoint && checkpointRunId && lunaAggregate.failures.length === 0) {
+    finalizeRun(checkpointRunId, "COMPLETED");
+  } else if (useCheckpoint && checkpointRunId && lunaAggregate.failures.length > 0) {
+    finalizeRun(checkpointRunId, "BLOCKED");
   }
 
   const validation = validateFindings(findings);
@@ -397,16 +526,27 @@ async function main() {
       }
     }
 
+    if (args.resumeLuna && args.freshLuna) {
+      console.error("BLOCKED: Cannot combine --resume-luna and --fresh-luna");
+      process.exit(1);
+    }
+
+    const checkpointEnabled = args.withLuna || args.resumeLuna || args.freshLuna;
+
     const result = await runPhase1Discovery({
       ...args,
       skipLuna: !args.withLuna,
       allowWithLuna: args.withLuna,
       lunaTransport: args.withLuna ? createLunaTransport({ mode: "real" }) : undefined,
+      checkpointEnabled: checkpointEnabled && (args.withLuna || args.resumeLuna),
+      freshLuna: args.freshLuna || (args.withLuna && !args.resumeLuna),
+      command: process.argv.join(" "),
     });
 
     if (result.blocked) {
-      console.error("BLOCKED_BASELINE");
-      process.exit(2);
+      console.error(`BLOCKED: ${result.verdict || "BLOCKED"}`);
+      if (result.message) console.error(result.message);
+      process.exit(result.verdict === "BLOCKED_BASELINE" ? 2 : 1);
     }
 
     console.log(
