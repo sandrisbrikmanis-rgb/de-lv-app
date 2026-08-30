@@ -33,7 +33,8 @@ Actual article: die
 Actual plural: die Tagungen
 Current EN: Sitting
 OWNER FINAL EN: Conference / meeting
-Tageordnung production card exists: YES
+Tageordnung B1 production card exists: NO
+Tagesordnung B1 production card exists: YES (index 2835; EN Agenda; unrelated to HIGH #9 Tagung repair)
 Matching Tagung production cards: 1
 TAGUNG IDENTITY GATE: PASS
 Production ID changed: NO
