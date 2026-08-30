@@ -109,7 +109,7 @@ const B2_WORDS = [
   },
   {
     "de": "angebracht",
-    "lv": "Alkalmas • Alkalmas",
+    "lv": "Alkalmas",
     "level": "B2"
   },
   {
@@ -294,7 +294,7 @@ const B2_WORDS = [
   },
   {
     "de": "abhören",
-    "lv": "Lehallgatás • Lehallgatás",
+    "lv": "Lehallgatás",
     "level": "B2"
   },
   {
@@ -306,14 +306,14 @@ const B2_WORDS = [
     "de": "Abneigung",
     "de_article": "die",
     "de_plural": "die Abneigungen",
-    "lv": "Ellenszenv • Ellenszenv",
+    "lv": "Ellenszenv",
     "level": "B2"
   },
   {
     "de": "Abnutzung",
     "de_article": "die",
     "de_plural": "die Abnutzungen",
-    "lv": "Kopás • Kopás • Kopás",
+    "lv": "Kopás",
     "level": "B2"
   },
   {
@@ -344,7 +344,7 @@ const B2_WORDS = [
   },
   {
     "de": "abscheulich",
-    "lv": "Undorító • Undorító",
+    "lv": "Undorító",
     "level": "B2"
   },
   {
@@ -414,7 +414,7 @@ const B2_WORDS = [
     "de": "Absturz",
     "de_article": "der",
     "de_plural": "die Abstürze",
-    "lv": "Ősz • Ősz",
+    "lv": "Ősz",
     "level": "B2"
   },
   {
@@ -439,7 +439,7 @@ const B2_WORDS = [
   },
   {
     "de": "abweisen",
-    "lv": "Elutasít • Elutasít",
+    "lv": "Elutasít",
     "level": "B2"
   },
   {
@@ -481,12 +481,12 @@ const B2_WORDS = [
   {
     "de": "Abzweigung",
     "de_article": "die",
-    "lv": "Ág • Ág",
+    "lv": "Ág",
     "level": "B2"
   },
   {
     "de": "ächzen",
-    "lv": "Nyög • Nyög",
+    "lv": "Nyög",
     "level": "B2"
   },
   {
@@ -700,7 +700,7 @@ const B2_WORDS = [
   },
   {
     "de": "auswärtig",
-    "lv": "Külügy • Külügy",
+    "lv": "Külügy",
     "level": "B2"
   },
   {
@@ -715,12 +715,12 @@ const B2_WORDS = [
   },
   {
     "de": "auswerfen",
-    "lv": "Kidobni • Kidobni",
+    "lv": "Kidobni",
     "level": "B2"
   },
   {
     "de": "auswerten",
-    "lv": "Értékel • Értékel",
+    "lv": "Értékel",
     "level": "B2"
   },
   {
@@ -732,7 +732,7 @@ const B2_WORDS = [
     "de": "Auszeichnung",
     "de_article": "die",
     "de_plural": "die Auszeichnungen",
-    "lv": "Kitüntetés • Kitüntetés • Kitüntetés",
+    "lv": "Kitüntetés",
     "level": "B2"
   },
   {
@@ -890,7 +890,7 @@ const B2_WORDS = [
   {
     "de": "Bauwesen",
     "de_article": "das",
-    "lv": "Építés • Építés",
+    "lv": "Építés",
     "level": "B2"
   },
   {
@@ -1002,12 +1002,12 @@ const B2_WORDS = [
   },
   {
     "de": "beharrlich",
-    "lv": "Kitartó • Kitartó",
+    "lv": "Kitartó",
     "level": "B2"
   },
   {
     "de": "behüten",
-    "lv": "Védeni • Védeni",
+    "lv": "Védeni",
     "level": "B2"
   },
   {
@@ -1330,7 +1330,7 @@ const B2_WORDS = [
     "de": "Besinnung",
     "de_article": "die",
     "de_plural": "die Besinnungen",
-    "lv": "Tudat • Tudat",
+    "lv": "Tudat",
     "level": "B2"
   },
   {
@@ -1347,7 +1347,7 @@ const B2_WORDS = [
   },
   {
     "de": "beständig",
-    "lv": "Állandó • Állandó",
+    "lv": "Állandó",
     "level": "B2"
   },
   {
@@ -1419,12 +1419,12 @@ const B2_WORDS = [
   {
     "de": "Betracht",
     "de_article": "der",
-    "lv": "Megfontolás • Megfontolás",
+    "lv": "Megfontolás",
     "level": "B2"
   },
   {
     "de": "sich betragen",
-    "lv": "Viselkedni • Viselkedni",
+    "lv": "Viselkedni",
     "level": "B2"
   },
   {
@@ -1456,7 +1456,7 @@ const B2_WORDS = [
     "de": "Bewaffnung",
     "de_article": "die",
     "de_plural": "die Bewaffnungen",
-    "lv": "Fegyverzet • Fegyverzet",
+    "lv": "Fegyverzet",
     "level": "B2"
   },
   {
@@ -1502,7 +1502,7 @@ const B2_WORDS = [
     "de": "Bewusstsein",
     "de_article": "das",
     "de_plural": "die Bewusstseine",
-    "lv": "Tudat • Tudat",
+    "lv": "Tudat",
     "level": "B2"
   },
   {
@@ -1553,7 +1553,7 @@ const B2_WORDS = [
     "de": "Bildhauer",
     "de_article": "der",
     "de_plural": "die Bildhauer",
-    "lv": "Szobrász • Szobrász",
+    "lv": "Szobrász",
     "level": "B2"
   },
   {
@@ -1637,7 +1637,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich blähen",
-    "lv": "Felfújni • Felfújni",
+    "lv": "Felfújni",
     "level": "B2"
   },
   {
@@ -1838,7 +1838,7 @@ const B2_WORDS = [
     "de": "Bote",
     "de_article": "der",
     "de_plural": "die Boten",
-    "lv": "Messenger • Messenger • Messenger",
+    "lv": "Messenger",
     "level": "B2"
   },
   {
@@ -1922,7 +1922,7 @@ const B2_WORDS = [
   },
   {
     "de": "brillant",
-    "lv": "Kiváló • Kiváló",
+    "lv": "Kiváló",
     "level": "B2"
   },
   {
@@ -2022,7 +2022,7 @@ const B2_WORDS = [
     "de": "Bürde",
     "de_article": "die",
     "de_plural": "die Bürden",
-    "lv": "Teher • Teher",
+    "lv": "Teher",
     "level": "B2"
   },
   {
@@ -2213,7 +2213,7 @@ const B2_WORDS = [
     "de": "Darbietung",
     "de_article": "die",
     "de_plural": "die Darbietungen",
-    "lv": "Teljesítmény • Teljesítmény",
+    "lv": "Teljesítmény",
     "level": "B2"
   },
   {
@@ -2252,7 +2252,7 @@ const B2_WORDS = [
   {
     "de": "Dasein",
     "de_article": "das",
-    "lv": "Létezés • Létezés",
+    "lv": "Létezés",
     "level": "B2"
   },
   {
@@ -2327,12 +2327,12 @@ const B2_WORDS = [
     "de": "Defizit",
     "de_article": "das",
     "de_plural": "die Defizite",
-    "lv": "Hiány • Hiány • Hiány",
+    "lv": "Hiány",
     "level": "B2"
   },
   {
     "de": "dehnbar",
-    "lv": "Nyújtható • Nyújtható • Nyújtható",
+    "lv": "Nyújtható",
     "level": "B2"
   },
   {
@@ -2366,7 +2366,7 @@ const B2_WORDS = [
   },
   {
     "de": "delikat",
-    "lv": "Finom • Finom",
+    "lv": "Finom",
     "level": "B2"
   },
   {
@@ -2385,7 +2385,7 @@ const B2_WORDS = [
     "de": "Demission",
     "de_article": "die",
     "de_plural": "die Demissionen",
-    "lv": "Lemondás • Lemondás",
+    "lv": "Lemondás",
     "level": "B2"
   },
   {
@@ -2405,7 +2405,7 @@ const B2_WORDS = [
   },
   {
     "de": "deponieren",
-    "lv": "Letét • Letét",
+    "lv": "Letét",
     "level": "B2"
   },
   {
@@ -2493,7 +2493,7 @@ const B2_WORDS = [
   },
   {
     "de": "dichten",
-    "lv": "Énekelni • Énekelni",
+    "lv": "Énekelni",
     "level": "B2"
   },
   {
@@ -2544,7 +2544,7 @@ const B2_WORDS = [
   },
   {
     "de": "dingen",
-    "lv": "Egyetérteni • Egyetérteni",
+    "lv": "Egyetérteni",
     "level": "B2"
   },
   {
@@ -2652,12 +2652,12 @@ const B2_WORDS = [
   },
   {
     "de": "dornig",
-    "lv": "Szúrós • Szúrós",
+    "lv": "Szúrós",
     "level": "B2"
   },
   {
     "de": "dörren",
-    "lv": "Szárítani • Szárítani",
+    "lv": "Szárítani",
     "level": "B2"
   },
   {
@@ -2705,7 +2705,7 @@ const B2_WORDS = [
     "de": "Dosis",
     "de_article": "die",
     "de_plural": "die Dosen",
-    "lv": "Adag • Adag",
+    "lv": "Adag",
     "level": "B2"
   },
   {
@@ -2841,7 +2841,7 @@ const B2_WORDS = [
   },
   {
     "de": "drosseln",
-    "lv": "Megfojtani • Megfojtani",
+    "lv": "Megfojtani",
     "level": "B2"
   },
   {
@@ -3000,7 +3000,7 @@ const B2_WORDS = [
     "de": "Durchfahrt",
     "de_article": "die",
     "de_plural": "die Durchfahrten",
-    "lv": "Átjáró • Átjáró",
+    "lv": "Átjáró",
     "level": "B2"
   },
   {
@@ -3023,7 +3023,7 @@ const B2_WORDS = [
   },
   {
     "de": "durchlaufen",
-    "lv": "Átfolyik • Átfolyik",
+    "lv": "Átfolyik",
     "level": "B2"
   },
   {
@@ -3035,7 +3035,7 @@ const B2_WORDS = [
     "de": "Durchmesser",
     "de_article": "der",
     "de_plural": "die Durchmesser",
-    "lv": "Átmérő • Átmérő",
+    "lv": "Átmérő",
     "level": "B2"
   },
   {
@@ -3089,7 +3089,7 @@ const B2_WORDS = [
   },
   {
     "de": "dürsten",
-    "lv": "Szomjazni • Szomjazni • Szomjazni",
+    "lv": "Szomjazni",
     "level": "B2"
   },
   {
@@ -3177,7 +3177,7 @@ const B2_WORDS = [
     "de": "Eheschließung",
     "de_article": "die",
     "de_plural": "die Eheschließungen",
-    "lv": "Házasság • Házasság",
+    "lv": "Házasság",
     "level": "B2"
   },
   {
@@ -3315,7 +3315,7 @@ const B2_WORDS = [
   },
   {
     "de": "eigensinnig",
-    "lv": "Makacs • Makacs",
+    "lv": "Makacs",
     "level": "B2"
   },
   {
@@ -3434,7 +3434,7 @@ const B2_WORDS = [
   },
   {
     "de": "eingebildet",
-    "lv": "Beképzelt • Beképzelt",
+    "lv": "Beképzelt",
     "level": "B2"
   },
   {
@@ -3532,7 +3532,7 @@ const B2_WORDS = [
   },
   {
     "de": "einkleiden",
-    "lv": "Felöltözni • Felöltözni",
+    "lv": "Felöltözni",
     "level": "B2"
   },
   {
@@ -3610,7 +3610,7 @@ const B2_WORDS = [
   },
   {
     "de": "einrechnen",
-    "lv": "Számolni • Számolni",
+    "lv": "Számolni",
     "level": "B2"
   },
   {
@@ -3620,7 +3620,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich einschleichen",
-    "lv": "Besurranni • Besurranni",
+    "lv": "Besurranni",
     "level": "B2",
     "study": {
       "id": "b2-sich-einschleichen",
@@ -3711,7 +3711,7 @@ const B2_WORDS = [
   },
   {
     "de": "einstimmig",
-    "lv": "Egyhangú • Egyhangú",
+    "lv": "Egyhangú",
     "level": "B2"
   },
   {
@@ -3726,7 +3726,7 @@ const B2_WORDS = [
   },
   {
     "de": "eintönig",
-    "lv": "Monoton • Monoton • Monoton",
+    "lv": "Monoton",
     "level": "B2"
   },
   {
@@ -3737,7 +3737,7 @@ const B2_WORDS = [
   },
   {
     "de": "einträglich",
-    "lv": "Nyereséges • Nyereséges",
+    "lv": "Nyereséges",
     "level": "B2"
   },
   {
@@ -3844,7 +3844,7 @@ const B2_WORDS = [
   {
     "de": "Ekel",
     "de_article": "der",
-    "lv": "Undor • Undor",
+    "lv": "Undor",
     "level": "B2"
   },
   {
@@ -3894,7 +3894,7 @@ const B2_WORDS = [
   },
   {
     "de": "empor",
-    "lv": "Fel • Fel",
+    "lv": "Fel",
     "level": "B2"
   },
   {
@@ -3962,7 +3962,7 @@ const B2_WORDS = [
   },
   {
     "de": "enteignen",
-    "lv": "Kisajátít • Kisajátít",
+    "lv": "Kisajátít",
     "level": "B2"
   },
   {
@@ -4046,7 +4046,7 @@ const B2_WORDS = [
   },
   {
     "de": "entladen",
-    "lv": "Kirak • Kirak",
+    "lv": "Kirak",
     "level": "B2"
   },
   {
@@ -4056,7 +4056,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich entledigen",
-    "lv": "Megszabadulni • Megszabadulni",
+    "lv": "Megszabadulni",
     "level": "B2",
     "study": {
       "id": "b2-sich-entledigen",
@@ -4077,7 +4077,7 @@ const B2_WORDS = [
   },
   {
     "de": "entlegen",
-    "lv": "Távoli • Távoli • Távoli",
+    "lv": "Távoli",
     "level": "B2"
   },
   {
@@ -4116,7 +4116,7 @@ const B2_WORDS = [
   },
   {
     "de": "entsagen",
-    "lv": "Feladni • Feladni",
+    "lv": "Feladni",
     "level": "B2"
   },
   {
@@ -4126,7 +4126,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich entsinnen",
-    "lv": "Emlékezni • Emlékezni",
+    "lv": "Emlékezni",
     "level": "B2",
     "study": {
       "id": "b2-sich-entsinnen",
@@ -4215,7 +4215,7 @@ const B2_WORDS = [
   },
   {
     "de": "entzünden",
-    "lv": "Meggyújtani • Meggyújtani • Meggyújtani",
+    "lv": "Meggyújtani",
     "level": "B2"
   },
   {
@@ -4227,7 +4227,7 @@ const B2_WORDS = [
     "de": "Entzündung",
     "de_article": "die",
     "de_plural": "die Entzündungen",
-    "lv": "Gyulladás • Gyulladás • Gyulladás",
+    "lv": "Gyulladás",
     "level": "B2"
   },
   {
@@ -4252,7 +4252,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich erbarmen",
-    "lv": "Irgalmazni • Irgalmazni",
+    "lv": "Irgalmazni",
     "level": "B2",
     "study": {
       "id": "b2-sich-erbarmen",
@@ -4290,7 +4290,7 @@ const B2_WORDS = [
   },
   {
     "de": "erbrechen",
-    "lv": "Feltörni • Feltörni",
+    "lv": "Feltörni",
     "level": "B2"
   },
   {
@@ -4302,7 +4302,7 @@ const B2_WORDS = [
   },
   {
     "de": "erdrücken",
-    "lv": "Elnyomni • Elnyomni",
+    "lv": "Elnyomni",
     "level": "B2"
   },
   {
@@ -4389,7 +4389,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich erheben",
-    "lv": "Felkelni • Felkelni • Felkelni",
+    "lv": "Felkelni",
     "level": "B2"
   },
   {
@@ -4423,7 +4423,7 @@ const B2_WORDS = [
   },
   {
     "de": "erlassen",
-    "lv": "Kiadás • Kiadás • Kiadás",
+    "lv": "Kiadás",
     "level": "B2"
   },
   {
@@ -4460,7 +4460,7 @@ const B2_WORDS = [
   },
   {
     "de": "ermitteln",
-    "lv": "Megtudja • Megtudja",
+    "lv": "Megtudja",
     "level": "B2"
   },
   {
@@ -4508,7 +4508,7 @@ const B2_WORDS = [
   },
   {
     "de": "erörtern",
-    "lv": "Megbeszélni • Megbeszélni",
+    "lv": "Megbeszélni",
     "level": "B2"
   },
   {
@@ -4581,7 +4581,7 @@ const B2_WORDS = [
   },
   {
     "de": "erschöpfen",
-    "lv": "Kifárasztani • Kifárasztani",
+    "lv": "Kifárasztani",
     "level": "B2"
   },
   {
@@ -4591,7 +4591,7 @@ const B2_WORDS = [
   },
   {
     "de": "erschweren",
-    "lv": "Megnehezít • Megnehezít",
+    "lv": "Megnehezít",
     "level": "B2"
   },
   {
@@ -4608,7 +4608,7 @@ const B2_WORDS = [
     "de": "Ersparnis",
     "de_article": "die",
     "de_plural": "die Ersparnisse",
-    "lv": "Megtakarítás • Megtakarítás",
+    "lv": "Megtakarítás",
     "level": "B2"
   },
   {
@@ -4655,7 +4655,7 @@ const B2_WORDS = [
     "de": "Erwägung",
     "de_article": "die",
     "de_plural": "die Erwägungen",
-    "lv": "Megfontolás • Megfontolás",
+    "lv": "Megfontolás",
     "level": "B2"
   },
   {
@@ -4765,7 +4765,7 @@ const B2_WORDS = [
     "de": "Exil",
     "de_article": "das",
     "de_plural": "die Exile",
-    "lv": "Száműzetés • Száműzetés",
+    "lv": "Száműzetés",
     "level": "B2"
   },
   {
@@ -4796,7 +4796,7 @@ const B2_WORDS = [
     "de": "Export",
     "de_article": "der",
     "de_plural": "die Exporte",
-    "lv": "Export • Export",
+    "lv": "Export",
     "level": "B2"
   },
   {
@@ -5075,7 +5075,7 @@ const B2_WORDS = [
   },
   {
     "de": "festigen",
-    "lv": "Erősíteni • Erősíteni",
+    "lv": "Erősíteni",
     "level": "B2"
   },
   {
@@ -5183,7 +5183,7 @@ const B2_WORDS = [
   },
   {
     "de": "fleckig",
-    "lv": "Foltos • Foltos • Foltos • Foltos • Foltos",
+    "lv": "Foltos",
     "level": "B2"
   },
   {
@@ -5193,7 +5193,7 @@ const B2_WORDS = [
   },
   {
     "de": "flimmern",
-    "lv": "Csillogás • Csillogás • Csillogás • Csillogás • Csillogás",
+    "lv": "Csillogás",
     "level": "B2"
   },
   {
@@ -5367,7 +5367,7 @@ const B2_WORDS = [
     "de": "Fräser",
     "de_article": "der",
     "de_plural": "die Fräser",
-    "lv": "Marógép • Marógép",
+    "lv": "Marógép",
     "level": "B2"
   },
   {
@@ -5391,7 +5391,7 @@ const B2_WORDS = [
   },
   {
     "de": "freimütig",
-    "lv": "Őszinte • Őszinte",
+    "lv": "Őszinte",
     "level": "B2"
   },
   {
@@ -5503,7 +5503,7 @@ const B2_WORDS = [
     "de": "Funker",
     "de_article": "der",
     "de_plural": "die Funker",
-    "lv": "Rádiós • Rádiós",
+    "lv": "Rádiós",
     "level": "B2"
   },
   {
@@ -5611,7 +5611,7 @@ const B2_WORDS = [
     "de": "Garbe",
     "de_article": "die",
     "de_plural": "die Garben",
-    "lv": "Köteg • Köteg",
+    "lv": "Köteg",
     "level": "B2"
   },
   {
@@ -5637,7 +5637,7 @@ const B2_WORDS = [
     "de": "Garnspule",
     "de_article": "die",
     "de_plural": "die Garnspulen",
-    "lv": "Tekercs • Tekercs",
+    "lv": "Tekercs",
     "level": "B2"
   },
   {
@@ -5759,7 +5759,7 @@ const B2_WORDS = [
     "de": "Gefecht",
     "de_article": "das",
     "de_plural": "die Gefechte",
-    "lv": "Csata • Csata",
+    "lv": "Csata",
     "level": "B2"
   },
   {
@@ -5953,7 +5953,7 @@ const B2_WORDS = [
     "de": "Gemisch",
     "de_article": "das",
     "de_plural": "die Gemische",
-    "lv": "Keverék • Keverék • Keverék",
+    "lv": "Keverék",
     "level": "B2"
   },
   {
@@ -5996,14 +5996,14 @@ const B2_WORDS = [
   },
   {
     "de": "genesen",
-    "lv": "Gyógyulj meg • Gyógyulj meg",
+    "lv": "Gyógyulj meg",
     "level": "B2"
   },
   {
     "de": "Genesung",
     "de_article": "die",
     "de_plural": "die Genesungen",
-    "lv": "Helyreállítás • Helyreállítás",
+    "lv": "Helyreállítás",
     "level": "B2"
   },
   {
@@ -6048,7 +6048,7 @@ const B2_WORDS = [
     "de": "Genossin",
     "de_article": "die",
     "de_plural": "die Genossinnen",
-    "lv": "Egy tag • Egy tag",
+    "lv": "Egy tag",
     "level": "B2"
   },
   {
@@ -6156,7 +6156,7 @@ const B2_WORDS = [
     "de": "Geschöpf",
     "de_article": "das",
     "de_plural": "die Geschöpfe",
-    "lv": "Lény • Lény • Lény",
+    "lv": "Lény",
     "level": "B2"
   },
   {
@@ -6350,7 +6350,7 @@ const B2_WORDS = [
   },
   {
     "de": "gewaltsam",
-    "lv": "Erőszakkal • Erőszakkal",
+    "lv": "Erőszakkal",
     "level": "B2"
   },
   {
@@ -6376,7 +6376,7 @@ const B2_WORDS = [
     "de": "Gewebe",
     "de_article": "das",
     "de_plural": "die Gewebe",
-    "lv": "Szövet • Szövet",
+    "lv": "Szövet",
     "level": "B2"
   },
   {
@@ -6411,7 +6411,7 @@ const B2_WORDS = [
   },
   {
     "de": "gierig",
-    "lv": "Mohó • Mohó • Mohó",
+    "lv": "Mohó",
     "level": "B2"
   },
   {
@@ -6463,7 +6463,7 @@ const B2_WORDS = [
   },
   {
     "de": "gläsern",
-    "lv": "Üveges • Üveges",
+    "lv": "Üveges",
     "level": "B2"
   },
   {
@@ -6483,7 +6483,7 @@ const B2_WORDS = [
     "de": "Glasur",
     "de_article": "die",
     "de_plural": "die Glasuren",
-    "lv": "Máz • Máz",
+    "lv": "Máz",
     "level": "B2"
   },
   {
@@ -6875,7 +6875,7 @@ const B2_WORDS = [
   },
   {
     "de": "habsüchtig",
-    "lv": "Mohó • Mohó",
+    "lv": "Mohó",
     "level": "B2"
   },
   {
@@ -7437,7 +7437,7 @@ const B2_WORDS = [
     "de": "Hetze",
     "de_article": "die",
     "de_plural": "die Hetzen",
-    "lv": "Uszítás • Uszítás",
+    "lv": "Uszítás",
     "level": "B2"
   },
   {
@@ -7447,7 +7447,7 @@ const B2_WORDS = [
   },
   {
     "de": "heucheln",
-    "lv": "Színlelni • Színlelni",
+    "lv": "Színlelni",
     "level": "B2"
   },
   {
@@ -7482,7 +7482,7 @@ const B2_WORDS = [
   },
   {
     "de": "sich hingeben",
-    "lv": "Átadás • Átadás",
+    "lv": "Átadás",
     "level": "B2",
     "study": {
       "id": "b2-sich-hingeben",
@@ -7755,12 +7755,12 @@ const B2_WORDS = [
   {
     "de": "Hochmut",
     "de_article": "der",
-    "lv": "Arrogancia • Arrogancia",
+    "lv": "Arrogancia",
     "level": "B2"
   },
   {
     "de": "hochmütig",
-    "lv": "Gőgös • Gőgös",
+    "lv": "Gőgös",
     "level": "B2"
   },
   {
@@ -8011,7 +8011,7 @@ const B2_WORDS = [
   },
   {
     "de": "irrsinnig",
-    "lv": "Őrült • Őrült",
+    "lv": "Őrült",
     "level": "B2"
   },
   {
@@ -8100,7 +8100,7 @@ const B2_WORDS = [
     "de": "Klappe",
     "de_article": "die",
     "de_plural": "die Klappen",
-    "lv": "Szelep • Szelep",
+    "lv": "Szelep",
     "level": "B2"
   },
   {
@@ -8323,7 +8323,7 @@ const B2_WORDS = [
   },
   {
     "de": "langfristig",
-    "lv": "Hosszú távú • Hosszú távú",
+    "lv": "Hosszú távú",
     "level": "B2"
   },
   {
@@ -8371,7 +8371,7 @@ const B2_WORDS = [
     "de": "Laufwerk",
     "de_article": "das",
     "de_plural": "die Laufwerke",
-    "lv": "Motor • Motor",
+    "lv": "Motor",
     "level": "B2"
   },
   {
@@ -8657,12 +8657,12 @@ const B2_WORDS = [
   },
   {
     "de": "liebkosten",
-    "lv": "Simogatni • Simogatni",
+    "lv": "Simogatni",
     "level": "B2"
   },
   {
     "de": "liederlich",
-    "lv": "Hanyag • Hanyag",
+    "lv": "Hanyag",
     "level": "B2"
   },
   {
@@ -8766,7 +8766,7 @@ const B2_WORDS = [
     "de": "Luftaufnahme",
     "de_article": "die",
     "de_plural": "die Luftaufnahmen",
-    "lv": "Légi fényképezés • Légi fényképezés",
+    "lv": "Légi fényképezés",
     "level": "B2"
   },
   {
@@ -9051,7 +9051,7 @@ const B2_WORDS = [
   },
   {
     "de": "meutern",
-    "lv": "Lázadó • Lázadó",
+    "lv": "Lázadó",
     "level": "B2"
   },
   {
@@ -9155,7 +9155,7 @@ const B2_WORDS = [
   },
   {
     "de": "missglücken",
-    "lv": "Sikertelen • Sikertelen",
+    "lv": "Sikertelen",
     "level": "B2"
   },
   {
@@ -9247,12 +9247,12 @@ const B2_WORDS = [
   {
     "de": "Muße",
     "de_article": "die",
-    "lv": "Szabadidő • Szabadidő",
+    "lv": "Szabadidő",
     "level": "B2"
   },
   {
     "de": "müßig",
-    "lv": "Tétlen • Tétlen",
+    "lv": "Tétlen",
     "level": "B2"
   },
   {
@@ -9278,7 +9278,7 @@ const B2_WORDS = [
     "de": "Nachbildung",
     "de_article": "die",
     "de_plural": "die Nachbildungen",
-    "lv": "Utánzás • Utánzás",
+    "lv": "Utánzás",
     "level": "B2"
   },
   {
@@ -9609,7 +9609,7 @@ const B2_WORDS = [
     "de": "Nichtbeachtung",
     "de_article": "die",
     "de_plural": "die Nichtbeachtungen",
-    "lv": "Figyelmen kívül hagyása • Figyelmen kívül hagyása",
+    "lv": "Figyelmen kívül hagyása",
     "level": "B2"
   },
   {
@@ -9857,7 +9857,7 @@ const B2_WORDS = [
   },
   {
     "de": "orientalisch",
-    "lv": "Keleti • Keleti • Keleti",
+    "lv": "Keleti",
     "level": "B2"
   },
   {
@@ -10203,7 +10203,7 @@ const B2_WORDS = [
     "de": "Preisträger",
     "de_article": "der",
     "de_plural": "die Preisträger",
-    "lv": "Díjazott • Díjazott",
+    "lv": "Díjazott",
     "level": "B2"
   },
   {
@@ -10273,7 +10273,7 @@ const B2_WORDS = [
     "de": "Quantität",
     "de_article": "die",
     "de_plural": "die Quantitäten",
-    "lv": "Mennyiség • Mennyiség",
+    "lv": "Mennyiség",
     "level": "B2"
   },
   {
@@ -10404,7 +10404,7 @@ const B2_WORDS = [
   },
   {
     "de": "recken",
-    "lv": "Nyújtani • Nyújtani • Nyújtani • Nyújtani",
+    "lv": "Nyújtani",
     "level": "B2"
   },
   {
@@ -10599,7 +10599,7 @@ const B2_WORDS = [
     "de": "Rückhalt",
     "de_article": "der",
     "de_plural": "die Rückhalte",
-    "lv": "Támogatás • Támogatás",
+    "lv": "Támogatás",
     "level": "B2"
   },
   {
@@ -10623,7 +10623,7 @@ const B2_WORDS = [
     "de": "Rüge",
     "de_article": "die",
     "de_plural": "die Rügen",
-    "lv": "Szidás • Szidás",
+    "lv": "Szidás",
     "level": "B2"
   },
   {
@@ -10645,7 +10645,7 @@ const B2_WORDS = [
     "de": "Rüstung",
     "de_article": "die",
     "de_plural": "die Rüstungen",
-    "lv": "Fegyverzet • Fegyverzet",
+    "lv": "Fegyverzet",
     "level": "B2"
   },
   {
@@ -10859,7 +10859,7 @@ const B2_WORDS = [
   },
   {
     "de": "schelten",
-    "lv": "To bart • To bart",
+    "lv": "To bart",
     "level": "B2"
   },
   {
@@ -11055,7 +11055,7 @@ const B2_WORDS = [
   },
   {
     "de": "schrill",
-    "lv": "Éles • Éles",
+    "lv": "Éles",
     "level": "B2"
   },
   {
@@ -11384,7 +11384,7 @@ const B2_WORDS = [
   },
   {
     "de": "selbstlos",
-    "lv": "Önzetlen • Önzetlen",
+    "lv": "Önzetlen",
     "level": "B2"
   },
   {
@@ -11415,7 +11415,7 @@ const B2_WORDS = [
   },
   {
     "de": "sensibel",
-    "lv": "Érzékeny • Érzékeny",
+    "lv": "Érzékeny",
     "level": "B2"
   },
   {
@@ -11785,7 +11785,7 @@ const B2_WORDS = [
   },
   {
     "de": "spionieren",
-    "lv": "Kémkedni • Kémkedni",
+    "lv": "Kémkedni",
     "level": "B2"
   },
   {
@@ -11858,7 +11858,7 @@ const B2_WORDS = [
   },
   {
     "de": "spurlos",
-    "lv": "Nyom nélkül • Nyom nélkül",
+    "lv": "Nyom nélkül",
     "level": "B2"
   },
   {
@@ -11927,12 +11927,12 @@ const B2_WORDS = [
   },
   {
     "de": "starrköpfig",
-    "lv": "Makacs • Makacs",
+    "lv": "Makacs",
     "level": "B2"
   },
   {
     "de": "starrsinnig",
-    "lv": "Makacs • Makacs",
+    "lv": "Makacs",
     "level": "B2"
   },
   {
@@ -12063,7 +12063,7 @@ const B2_WORDS = [
   },
   {
     "de": "stur",
-    "lv": "Makacs • Makacs",
+    "lv": "Makacs",
     "level": "B2"
   },
   {
@@ -12124,7 +12124,7 @@ const B2_WORDS = [
     "de": "Tapferkeit",
     "de_article": "die",
     "de_plural": "die Tapferkeiten",
-    "lv": "Bátorság • Bátorság",
+    "lv": "Bátorság",
     "level": "B2"
   },
   {
@@ -12274,12 +12274,12 @@ const B2_WORDS = [
   },
   {
     "de": "treuherzig",
-    "lv": "Kiadós • Kiadós",
+    "lv": "Kiadós",
     "level": "B2"
   },
   {
     "de": "treulos",
-    "lv": "Megbízhatatlan • Megbízhatatlan",
+    "lv": "Megbízhatatlan",
     "level": "B2"
   },
   {
@@ -12348,7 +12348,7 @@ const B2_WORDS = [
   {
     "de": "Übereinkommen",
     "de_article": "das",
-    "lv": "Megállapodás • Megállapodás",
+    "lv": "Megállapodás",
     "level": "B2"
   },
   {
@@ -12567,7 +12567,7 @@ const B2_WORDS = [
   {
     "de": "Umsicht",
     "de_article": "die",
-    "lv": "Óvatosság • Óvatosság",
+    "lv": "Óvatosság",
     "level": "B2"
   },
   {
@@ -12589,7 +12589,7 @@ const B2_WORDS = [
   },
   {
     "de": "umwandeln",
-    "lv": "Konvertálni • Konvertálni",
+    "lv": "Konvertálni",
     "level": "B2"
   },
   {
@@ -12634,7 +12634,7 @@ const B2_WORDS = [
   },
   {
     "de": "unbegründet",
-    "lv": "Megalapozatlan • Megalapozatlan",
+    "lv": "Megalapozatlan",
     "level": "B2"
   },
   {
@@ -12694,7 +12694,7 @@ const B2_WORDS = [
   },
   {
     "de": "unerträglich",
-    "lv": "Elviselhetetlen • Elviselhetetlen",
+    "lv": "Elviselhetetlen",
     "level": "B2"
   },
   {
@@ -12718,7 +12718,7 @@ const B2_WORDS = [
     "de": "Union",
     "de_article": "die",
     "de_plural": "die Unionen",
-    "lv": "Szakszervezet • Szakszervezet",
+    "lv": "Szakszervezet",
     "level": "B2"
   },
   {
@@ -12729,7 +12729,7 @@ const B2_WORDS = [
   },
   {
     "de": "unmenschlich",
-    "lv": "Embertelen • Embertelen",
+    "lv": "Embertelen",
     "level": "B2"
   },
   {
@@ -12751,7 +12751,7 @@ const B2_WORDS = [
   },
   {
     "de": "unterdrücken",
-    "lv": "Elnyom • Elnyom",
+    "lv": "Elnyom",
     "level": "B2"
   },
   {
@@ -12776,7 +12776,7 @@ const B2_WORDS = [
   {
     "de": "Unterhalt",
     "de_article": "der",
-    "lv": "Ellátás • Ellátás • Ellátás",
+    "lv": "Ellátás",
     "level": "B2"
   },
   {
@@ -12852,7 +12852,7 @@ const B2_WORDS = [
   },
   {
     "de": "unüberlegt",
-    "lv": "Vakmerő • Vakmerő",
+    "lv": "Vakmerő",
     "level": "B2"
   },
   {
@@ -12872,7 +12872,7 @@ const B2_WORDS = [
   },
   {
     "de": "unwillkürlich",
-    "lv": "Akaratlan • Akaratlan • Akaratlan",
+    "lv": "Akaratlan",
     "level": "B2"
   },
   {
@@ -13075,7 +13075,7 @@ const B2_WORDS = [
   },
   {
     "de": "verführen",
-    "lv": "Elcsábítani • Elcsábítani",
+    "lv": "Elcsábítani",
     "level": "B2"
   },
   {
@@ -13097,7 +13097,7 @@ const B2_WORDS = [
   },
   {
     "de": "vergiften",
-    "lv": "Mérgezni • Mérgezni",
+    "lv": "Mérgezni",
     "level": "B2"
   },
   {
@@ -13146,7 +13146,7 @@ const B2_WORDS = [
     "de": "Verlauf",
     "de_article": "der",
     "de_plural": "die Verläufe",
-    "lv": "Haladás • Haladás",
+    "lv": "Haladás",
     "level": "B2"
   },
   {
@@ -13215,7 +13215,7 @@ const B2_WORDS = [
     "de": "Versager",
     "de_article": "der",
     "de_plural": "die Versager",
-    "lv": "Vesztes • Vesztes",
+    "lv": "Vesztes",
     "level": "B2"
   },
   {
@@ -13254,17 +13254,17 @@ const B2_WORDS = [
   },
   {
     "de": "verkünden",
-    "lv": "Bejelent • Bejelent",
+    "lv": "Bejelent",
     "level": "B2"
   },
   {
     "de": "verleumden",
-    "lv": "Rágalmazás • Rágalmazás",
+    "lv": "Rágalmazás",
     "level": "B2"
   },
   {
     "de": "vermehren",
-    "lv": "Szoroz • Szoroz",
+    "lv": "Szoroz",
     "level": "B2"
   },
   {
@@ -13299,7 +13299,7 @@ const B2_WORDS = [
   },
   {
     "de": "vernichten",
-    "lv": "Pusztít • Pusztít",
+    "lv": "Pusztít",
     "level": "B2"
   },
   {
@@ -13353,7 +13353,7 @@ const B2_WORDS = [
   },
   {
     "de": "versetzen",
-    "lv": "Mozog • Mozog",
+    "lv": "Mozog",
     "level": "B2"
   },
   {
@@ -13453,7 +13453,7 @@ const B2_WORDS = [
     "de": "Verstorbene",
     "de_article": "der",
     "de_plural": "die Verstorbenen",
-    "lv": "Az elhunyt • Az elhunyt",
+    "lv": "Az elhunyt",
     "level": "B2"
   },
   {
@@ -13504,7 +13504,7 @@ const B2_WORDS = [
     "de": "Verweis",
     "de_article": "der",
     "de_plural": "die Verweise",
-    "lv": "Megrovás • Megrovás",
+    "lv": "Megrovás",
     "level": "B2"
   },
   {
@@ -13528,12 +13528,12 @@ const B2_WORDS = [
     "de": "Verwirrung",
     "de_article": "die",
     "de_plural": "die Verwirrungen",
-    "lv": "Zavartság • Zavartság",
+    "lv": "Zavartság",
     "level": "B2"
   },
   {
     "de": "verwöhnen",
-    "lv": "Elrontani • Elrontani",
+    "lv": "Elrontani",
     "level": "B2"
   },
   {
@@ -13677,7 +13677,7 @@ const B2_WORDS = [
     "de": "Volumen",
     "de_article": "das",
     "de_plural": "die Volumen",
-    "lv": "Hangerő • Hangerő",
+    "lv": "Hangerő",
     "level": "B2"
   },
   {
@@ -13747,7 +13747,7 @@ const B2_WORDS = [
     "de": "Vorfall",
     "de_article": "der",
     "de_plural": "die Vorfälle",
-    "lv": "Esemény • Esemény",
+    "lv": "Esemény",
     "level": "B2"
   },
   {
@@ -13788,7 +13788,7 @@ const B2_WORDS = [
   },
   {
     "de": "vorsätzlich",
-    "lv": "Szándékosan • Szándékosan",
+    "lv": "Szándékosan",
     "level": "B2"
   },
   {
@@ -13826,7 +13826,7 @@ const B2_WORDS = [
   },
   {
     "de": "vortrefflich",
-    "lv": "Kiváló • Kiváló",
+    "lv": "Kiváló",
     "level": "B2"
   },
   {
@@ -13847,7 +13847,7 @@ const B2_WORDS = [
     "de": "Vorwand",
     "de_article": "der",
     "de_plural": "die Vorwände",
-    "lv": "Ürügy • Ürügy",
+    "lv": "Ürügy",
     "level": "B2"
   },
   {
@@ -13866,12 +13866,12 @@ const B2_WORDS = [
   },
   {
     "de": "vorzeitig",
-    "lv": "Idő előtti • Idő előtti",
+    "lv": "Idő előtti",
     "level": "B2"
   },
   {
     "de": "vorzüglich",
-    "lv": "Kiváló • Kiváló",
+    "lv": "Kiváló",
     "level": "B2"
   },
   {
@@ -13951,7 +13951,7 @@ const B2_WORDS = [
     "de": "Wall",
     "de_article": "der",
     "de_plural": "die Wälle",
-    "lv": "Töltés • Töltés",
+    "lv": "Töltés",
     "level": "B2"
   },
   {
@@ -14178,7 +14178,7 @@ const B2_WORDS = [
     "de": "Wettrennen",
     "de_article": "das",
     "de_plural": "die Wettrennen",
-    "lv": "Verseny • Verseny",
+    "lv": "Verseny",
     "level": "B2"
   },
   {
@@ -14210,7 +14210,7 @@ const B2_WORDS = [
   },
   {
     "de": "widerlich",
-    "lv": "Undorító • Undorító",
+    "lv": "Undorító",
     "level": "B2"
   },
   {
@@ -14323,7 +14323,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuerkennen",
-    "lv": "Rendelni • Rendelni",
+    "lv": "Rendelni",
     "level": "B2"
   },
   {
@@ -14373,7 +14373,7 @@ const B2_WORDS = [
   },
   {
     "de": "zusammenlegen",
-    "lv": "Összerakni • Összerakni",
+    "lv": "Összerakni",
     "level": "B2"
   },
   {
@@ -14388,7 +14388,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuteilen",
-    "lv": "Hozzárendelés • Hozzárendelés",
+    "lv": "Hozzárendelés",
     "level": "B2"
   },
   {
@@ -14412,7 +14412,7 @@ const B2_WORDS = [
   },
   {
     "de": "zuweisen",
-    "lv": "Hozzárendelés • Hozzárendelés",
+    "lv": "Hozzárendelés",
     "level": "B2",
     "study": {
       "id": "b2-zuweisen",
@@ -14812,7 +14812,7 @@ const B2_WORDS = [
   },
   {
     "de": "wechseln",
-    "lv": "Csere • Csere",
+    "lv": "Csere",
     "level": "B2",
     "study": {
       "id": "b2-wechseln",
