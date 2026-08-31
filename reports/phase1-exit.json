@@ -1,0 +1,494 @@
+{
+  "phase": 1,
+  "status": "PHASE_1_COMPLETE",
+  "generatedAt": "2026-08-31T19:06:16.728Z",
+  "originMainSha": "6cfb96105f7f741f6052d20ee1d1e342f198fda2",
+  "masterVersion": "1.12",
+  "ownerDecisionRef": "OWNER-APPROVED-2026-08-29",
+  "scope": {
+    "expected": 320,
+    "processed": 320,
+    "notApplicable": 2,
+    "lunaApplicable": 318,
+    "inventoryApplicable": 309,
+    "multiScanApplicable": 309
+  },
+  "gates": {
+    "F1-1": "PASS",
+    "F1-2": "PASS",
+    "F1-3": "PASS",
+    "F1-4": "PASS",
+    "F1-5": "FAIL",
+    "F1-6": "FAIL",
+    "F1-7": "PASS",
+    "F1-8": "PASS",
+    "F1-9": "FAIL"
+  },
+  "coverage": {
+    "deterministic": "320/320",
+    "mainTranslationFieldInventory": "309/309",
+    "multiTranslationScan": "309/309",
+    "lunaAudit": "318/318"
+  },
+  "constraints": {
+    "productionChanges": 0,
+    "deChanges": 0,
+    "crowdinProductionImport": 0,
+    "translationApply": 0
+  },
+  "lunaStats": {
+    "lunaScopesExpected": 318,
+    "lunaScopesProcessed": 318,
+    "lunaCalls": 6863,
+    "lunaSuccessfulBatches": 6863,
+    "lunaRetryAttempts": 49,
+    "failures": [
+      {
+        "scopeId": "g2/a2/bg",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/bs",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/cs",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/da",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/en",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/es",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/et",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/fi",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/fr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/gr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/hr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/hu",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/is",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/it",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/lb",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/lt",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/lv",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/mk",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/nb",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/nl",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/nn",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/pl",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/pt",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/ro",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/ru",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/sk",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/sl",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/sq",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/sr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/sv",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/tr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/a2/uk",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/bg",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/bs",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/cs",
+        "reason": "Luna response duplicate id: Gehalt"
+      },
+      {
+        "scopeId": "g2/b1/da",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/en",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/es",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/et",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/fi",
+        "reason": "Luna response duplicate id: Gehalt"
+      },
+      {
+        "scopeId": "g2/b1/fr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/gr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/hr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/hu",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/is",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/it",
+        "reason": "Luna response duplicate id: Gehalt"
+      },
+      {
+        "scopeId": "g2/b1/lb",
+        "reason": "Luna response duplicate id: Gehalt"
+      },
+      {
+        "scopeId": "g2/b1/lt",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/lv",
+        "reason": "Luna response duplicate id: Gehalt"
+      },
+      {
+        "scopeId": "g2/b1/mk",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/nb",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/nl",
+        "reason": "Luna response duplicate id: Gehalt"
+      },
+      {
+        "scopeId": "g2/b1/nn",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/pl",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/pt",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/ro",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/ru",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/sk",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/sl",
+        "reason": "Luna response duplicate id: Gehalt"
+      },
+      {
+        "scopeId": "g2/b1/sq",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/sr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/sv",
+        "reason": "Luna response duplicate id: Gehalt"
+      },
+      {
+        "scopeId": "g2/b1/tr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b1/uk",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/bg",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/bs",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/cs",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/da",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/en",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/es",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/et",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/fi",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/fr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/gr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/hr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/hu",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/is",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/it",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/lb",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/lt",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/lv",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/mk",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/nb",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/nl",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/nn",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/pl",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/pt",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/ro",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/ru",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/sk",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/sl",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/sq",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/sr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/sv",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/tr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g2/b2/uk",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g1/sentences/bg",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      },
+      {
+        "scopeId": "g1/sentences/fr",
+        "reason": "BATCH_WALL_CLOCK_EXCEEDED"
+      }
+    ],
+    "transport": "REAL",
+    "status": "REAL",
+    "model": "gpt-5.6-luna",
+    "tokensUsed": 30245756
+  },
+  "productionDiff": {
+    "clean": true,
+    "changedFiles": []
+  },
+  "details": {
+    "F1_1": {
+      "pass": true,
+      "status": "PASS"
+    },
+    "F1_2": {
+      "pass": true,
+      "status": "PASS",
+      "processed": 320,
+      "expected": 320,
+      "notApplicable": 2
+    },
+    "F1_3": {
+      "pass": true,
+      "status": "PASS",
+      "coverage": "309/309"
+    },
+    "F1_4": {
+      "pass": true,
+      "status": "PASS",
+      "coverage": "309/309"
+    },
+    "F1_5": {
+      "pass": false,
+      "status": "FAIL",
+      "coverage": "318/318"
+    },
+    "F1_6": {
+      "pass": false,
+      "status": "FAIL",
+      "schemaErrors": 0,
+      "unclassifiedCount": 0
+    },
+    "F1_7": {
+      "pass": true,
+      "status": "PASS",
+      "productionDiffClean": true
+    },
+    "F1_8": {
+      "pass": true,
+      "status": "PASS",
+      "validatedFindings": 9557,
+      "preBacklogPass": true
+    }
+  },
+  "pass": false
+}
