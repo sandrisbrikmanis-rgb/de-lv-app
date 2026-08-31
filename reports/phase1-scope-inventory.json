@@ -1,0 +1,3220 @@
+{
+  "expectedScope": 320,
+  "uniqueScopeIds": 320,
+  "notApplicable": [
+    "g1/training/lv",
+    "g1/training/et"
+  ],
+  "notApplicableCount": 2,
+  "lunaApplicable": 318,
+  "inventoryApplicable": 309,
+  "multiScanApplicable": 309,
+  "byGroup": {
+    "g1": 96,
+    "g2": 192,
+    "g3": 32
+  },
+  "generatedAt": "2026-08-30T08:56:50.162Z",
+  "scopes": [
+    {
+      "scopeId": "g2/a1/lv",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "lv",
+      "applicability": "LV_MASTER",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/lt",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/ru",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/pl",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/uk",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/et",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "et",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/en",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/ro",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/bg",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/tr",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/gr",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/sq",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/mk",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/sl",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/bs",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/sr",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/hr",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/sk",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/cs",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/fi",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/sv",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/nb",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/nn",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/da",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/nl",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/lb",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/fr",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/it",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/es",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/pt",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/hu",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a1/is",
+      "group": "g2",
+      "dataset": "a1",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/lv",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "lv",
+      "applicability": "LV_MASTER",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/lt",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/ru",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/pl",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/uk",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/et",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "et",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/en",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/ro",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/bg",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/tr",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/gr",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/sq",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/mk",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/sl",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/bs",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/sr",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/hr",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/sk",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/cs",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/fi",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/sv",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/nb",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/nn",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/da",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/nl",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/lb",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/fr",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/it",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/es",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/pt",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/hu",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/a2/is",
+      "group": "g2",
+      "dataset": "a2",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/lv",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "lv",
+      "applicability": "LV_MASTER",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/lt",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/ru",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/pl",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/uk",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/et",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "et",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/en",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/ro",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/bg",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/tr",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/gr",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/sq",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/mk",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/sl",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/bs",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/sr",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/hr",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/sk",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/cs",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/fi",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/sv",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/nb",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/nn",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/da",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/nl",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/lb",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/fr",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/it",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/es",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/pt",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/hu",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b1/is",
+      "group": "g2",
+      "dataset": "b1",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/lv",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "lv",
+      "applicability": "LV_MASTER",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/lt",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/ru",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/pl",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/uk",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/et",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "et",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/en",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/ro",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/bg",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/tr",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/gr",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/sq",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/mk",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/sl",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/bs",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/sr",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/hr",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/sk",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/cs",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/fi",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/sv",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/nb",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/nn",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/da",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/nl",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/lb",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/fr",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/it",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/es",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/pt",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/hu",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/b2/is",
+      "group": "g2",
+      "dataset": "b2",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/lv",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "lv",
+      "applicability": "LV_MASTER",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/lt",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/ru",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/pl",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/uk",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/et",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "et",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/en",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/ro",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/bg",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/tr",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/gr",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/sq",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/mk",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/sl",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/bs",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/sr",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/hr",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/sk",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/cs",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/fi",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/sv",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/nb",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/nn",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/da",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/nl",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/lb",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/fr",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/it",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/es",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/pt",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/hu",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c1/is",
+      "group": "g2",
+      "dataset": "c1",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/lv",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "lv",
+      "applicability": "LV_MASTER",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/lt",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/ru",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/pl",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/uk",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/et",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "et",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/en",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/ro",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/bg",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/tr",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/gr",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/sq",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/mk",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/sl",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/bs",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/sr",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/hr",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/sk",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/cs",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/fi",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/sv",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/nb",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/nn",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/da",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/nl",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/lb",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/fr",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/it",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/es",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/pt",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/hu",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g2/c2/is",
+      "group": "g2",
+      "dataset": "c2",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/lv",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "lv",
+      "applicability": "LV_MASTER",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/lt",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/ru",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/pl",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/uk",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/et",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "et",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/en",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/ro",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/bg",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/tr",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/gr",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/sq",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/mk",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/sl",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/bs",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/sr",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/hr",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/sk",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/cs",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/fi",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/sv",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/nb",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/nn",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/da",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/nl",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/lb",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/fr",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/it",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/es",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/pt",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/hu",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/sentences/is",
+      "group": "g1",
+      "dataset": "sentences",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/lv",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "lv",
+      "applicability": "LV_MASTER",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/lt",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/ru",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/pl",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/uk",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/et",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "et",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/en",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/ro",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/bg",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/tr",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/gr",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/sq",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/mk",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/sl",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/bs",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/sr",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/hr",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/sk",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/cs",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/fi",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/sv",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/nb",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/nn",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/da",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/nl",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/lb",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/fr",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/it",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/es",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/pt",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/hu",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/verbs/is",
+      "group": "g1",
+      "dataset": "verbs",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/lv",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "lv",
+      "applicability": "EXPECTED_NOT_APPLICABLE",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": false
+    },
+    {
+      "scopeId": "g1/training/lt",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/ru",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/pl",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/uk",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/et",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "et",
+      "applicability": "EXPECTED_NOT_APPLICABLE",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": false
+    },
+    {
+      "scopeId": "g1/training/en",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/ro",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/bg",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/tr",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/gr",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/sq",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/mk",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/sl",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/bs",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/sr",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/hr",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/sk",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/cs",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/fi",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/sv",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/nb",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/nn",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/da",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/nl",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/lb",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/fr",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/it",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/es",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/pt",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/hu",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g1/training/is",
+      "group": "g1",
+      "dataset": "training",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/lv",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "lv",
+      "applicability": "LV_MASTER",
+      "inventoryApplicable": false,
+      "multiScanApplicable": false,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/lt",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "lt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/ru",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "ru",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/pl",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "pl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/uk",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "uk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/et",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "et",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/en",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "en",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/ro",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "ro",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/bg",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "bg",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/tr",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "tr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/gr",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "gr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/sq",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "sq",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/mk",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "mk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/sl",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "sl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/bs",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "bs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/sr",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "sr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/hr",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "hr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/sk",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "sk",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/cs",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "cs",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/fi",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "fi",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/sv",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "sv",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/nb",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "nb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/nn",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "nn",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/da",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "da",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/nl",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "nl",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/lb",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "lb",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/fr",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "fr",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/it",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "it",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/es",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "es",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/pt",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "pt",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/hu",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "hu",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    },
+    {
+      "scopeId": "g3/courseLessons/is",
+      "group": "g3",
+      "dataset": "courseLessons",
+      "lang": "is",
+      "applicability": "APPLICABLE",
+      "inventoryApplicable": true,
+      "multiScanApplicable": true,
+      "lunaApplicable": true
+    }
+  ]
+}
