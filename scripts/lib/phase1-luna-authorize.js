@@ -66,7 +66,9 @@ function authorizeWithLunaDiscovery(options = {}) {
     identity.deDiffClean &&
     identity.productionDiffClean
   ) {
-    blockersOut = blockers.filter((b) => b.code !== "HEAD_NOT_AT_ORIGIN_MAIN");
+    blockersOut = blockers.filter(
+      (b) => b.code !== "HEAD_NOT_AT_ORIGIN_MAIN" && b.code !== "WORKING_TREE_DIRTY",
+    );
   }
 
   return {
