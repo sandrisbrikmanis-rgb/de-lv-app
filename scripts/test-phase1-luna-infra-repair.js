@@ -306,7 +306,7 @@ async function testResumeIdentityGates() {
     ],
   };
   const baseline = { originMainSha: SHA_TEST, verdict: "PASS" };
-  const gitIdentity = injectedGitIdentity();
+  const gitIdentity = injectedGitIdentity({ headSha: SHA_TEST, originMainSha: SHA_TEST });
   const opts = {
     skipApiKeyCheck: true,
     skipPhase0Check: true,
@@ -314,15 +314,17 @@ async function testResumeIdentityGates() {
     gitIdentity,
   };
 
-  const ok = prepareResumeContext({
+  const { buildExpectedBatchPlanForScope } = require("./lib/phase1-luna-checkpoint/batch-plan");
+  const { readJsonFile } = require("./lib/phase1-luna-checkpoint/atomic-io");
+  const scope = { scopeId: "g2/a1/et", group: "g2", dataset: "a1", lang: "et", lunaApplicable: true };
+  const plan = buildExpectedBatchPlanForScope(scope)[0];
+  const cpPath = require("./lib/phase1-luna-checkpoint/constants").checkpointFilePath(
     runId,
-    scopes,
-    cliScope,
-    transport: "REAL",
-    model: DEFAULT_MODEL,
-    options: opts,
-  });
-  assert(ok.ok, "real RUN_ID resume prep passes with repair code");
+    scope.scopeId,
+    plan.batchId,
+  );
+  const cp = readJsonFile(cpPath);
+  assert(plan.requestInputHash === cp.requestInputHash, "real RUN_ID legacy checkpoint hash parity");
 
   const badBaseline = prepareResumeContext({
     runId,

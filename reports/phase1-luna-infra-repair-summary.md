@@ -10,7 +10,10 @@
 | DISCOVERY_BASELINE_SHA | `6cfb96105f7f741f6052d20ee1d1e342f198fda2` |
 | RUN_ID | `phase1-2026-08-30T08-56-50-163Z-a8e1dec1` |
 | MODEL | `gpt-5.6-luna` |
+| IMPLEMENTATION_SHA | `2a3aa67e472c383c4b65fc6a2371418e7e1d91d5` |
+| FINAL_PR_HEAD_SHA | `2a3aa67e472c383c4b65fc6a2371418e7e1d91d5` |
 | BRANCH | `cursor/phase1-luna-infra-repair-6338` |
+| Draft PR | https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/705 |
 
 ## Root cause
 
@@ -89,6 +92,7 @@ npm run i18n:content:phase1-discovery -- \
 
 ```text
 PHASE_1_INFRA_REPAIR_COMPLETE (code + tests)
-REAL_RESUME = PENDING (requires clean worktree + long-running Luna)
+REAL_RESUME = IN_PROGRESS (tmux: phase1-luna-resume; first scope g2/a2/bg writing new checkpoints)
+PHASE_1_EXIT = PENDING (after 318/318 resume completes)
 PHASE_2_NOT_AUTHORIZED
 ```
