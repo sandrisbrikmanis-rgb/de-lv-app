@@ -251,7 +251,7 @@ async function runPhase1Discovery(options = {}) {
         model: options.lunaModel || DEFAULT_MODEL,
         options: {
           skipApiKeyCheck: !options.withLuna,
-          skipPhase0Check: options.skipPhase0Check,
+          skipPhase0Check: options.skipPhase0Check || options.resumeLuna,
           gitIdentity: options.gitIdentity,
           baseline,
           phase0Matrix: options.phase0Matrix,
