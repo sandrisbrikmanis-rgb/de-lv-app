@@ -52,6 +52,7 @@ function validateResumeAuthorization(options = {}) {
     baseline: options.baseline,
     phase0Matrix: options.phase0Matrix,
     productionDiff: options.productionDiff,
+    allowInfraHeadForResume: options.allowInfraHeadForResume,
   });
   if (!auth.pass) {
     return { ok: false, code: auth.blocker || "RESUME_AUTHORIZATION_FAILED", blockers: auth.blockers };
