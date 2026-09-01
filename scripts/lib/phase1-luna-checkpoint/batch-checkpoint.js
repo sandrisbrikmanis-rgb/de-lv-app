@@ -5,6 +5,7 @@ const { CHECKPOINT_SCHEMA_VERSION } = require("./constants");
 const { writeJsonAtomic, readJsonFile, readJsonFileIfExists, listCheckpointFiles } = require("./atomic-io");
 const { hashSortedList, hashRequestInput, stableBatchId } = require("./hash");
 const { normalizeLunaItemsToFindings } = require("./findings");
+const { resolveLegacyObjectId } = require("./object-identity");
 
 function checkpointFileFor(runId, scopeId, batchId) {
   return require("./constants").checkpointFilePath(runId, scopeId, batchId);
@@ -31,7 +32,7 @@ function buildBatchCheckpoint({
   endedAt = new Date().toISOString(),
 }) {
   const expectedIds = expectedObjects.map(getId);
-  const returnedIds = (rawResult?.items || []).map((item) => getId(item));
+  const returnedIds = (rawResult?.items || []).map((item) => resolveLegacyObjectId(item));
   const batchId = stableBatchId(scopeId, batchIndex, expectedIds);
 
   return {
@@ -71,13 +72,13 @@ function validateBatchCheckpoint(checkpoint, context = {}) {
     const expectedHash = hashSortedList(expectedIds);
     if (checkpoint.expectedIdsHash !== expectedHash) issues.push("EXPECTED_IDS_HASH_MISMATCH");
     const returned = checkpoint.returnedObjectIds || [];
-    const missing = expectedIds.filter((id) => !returned.includes(id));
-    if (missing.length) issues.push("MISSING_RETURNED_IDS");
-    const counts = {};
-    for (const id of returned) counts[id] = (counts[id] || 0) + 1;
-    if (Object.values(counts).some((c) => c > 1)) issues.push("DUPLICATE_RETURNED_IDS");
-    const extra = returned.filter((id) => !expectedIds.includes(id));
-    if (extra.length) issues.push("UNEXPECTED_RETURNED_IDS");
+    if (returned.length !== expectedIds.length) issues.push("RETURNED_COUNT_MISMATCH");
+    for (let i = 0; i < expectedIds.length; i += 1) {
+      if (returned[i] !== expectedIds[i]) {
+        issues.push("RETURNED_ID_POSITION_MISMATCH");
+        break;
+      }
+    }
   }
   if (requestInputHash && checkpoint.requestInputHash !== requestInputHash) issues.push("REQUEST_INPUT_HASH_MISMATCH");
   if (!checkpoint.rawResult || !Array.isArray(checkpoint.rawResult.items)) issues.push("MALFORMED_RAW_RESULT");

@@ -14,6 +14,28 @@ function mapLunaStatusToClassification(status) {
   return "NEEDS_REVIEW";
 }
 
+const { isCanonicalLunaRequestId } = require("./object-identity");
+
+function resolveFindingCardId(item) {
+  if (!item || typeof item !== "object") return "unknown";
+  if (item.rawCardId) return item.rawCardId;
+  if (item.cardId && !isCanonicalLunaRequestId(item.cardId)) return item.cardId;
+  if (item.id && !isCanonicalLunaRequestId(item.id)) return item.id;
+  return item.lessonKey || "unknown";
+}
+
+function resolveFindingObjectIndex(item) {
+  if (!item || typeof item !== "object") return null;
+  if (typeof item.objectIndex === "number") return item.objectIndex;
+  if (typeof item.index === "number") return item.index;
+  const canonical = item.id && isCanonicalLunaRequestId(item.id) ? item.id : null;
+  if (canonical) {
+    const match = canonical.match(/\|idx:(\d+)\|/);
+    if (match) return Number(match[1]);
+  }
+  return null;
+}
+
 function normalizeLunaItemsToFindings(items, scope, options = {}) {
   const findings = [];
   let seq = options.seqStart || 1;
@@ -23,16 +45,18 @@ function normalizeLunaItemsToFindings(items, scope, options = {}) {
     const classificationStatus = mapLunaStatusToClassification(item.status || item.lunaVerdict);
     if (!classificationStatus) continue;
 
-    const cardId = item.cardId || item.id || item.lessonKey || "unknown";
+    const cardId = resolveFindingCardId(item);
+    const objectIndex = resolveFindingObjectIndex(item);
     const fieldPath = item.field || item.fieldPath || "lv";
     const category = String(item.category || item.verdict || "TRANSLATION").toUpperCase();
     const auditId = `DISC-${String(group).toUpperCase()}-${String(dataset).toUpperCase()}-${String(lang).toUpperCase()}-L${String(seq).padStart(4, "0")}`;
     seq += 1;
+    const indexKey = objectIndex === null ? "?" : String(objectIndex);
 
     findings.push({
       auditId,
-      findingStableId: `${scope.scopeId}|${cardId}|${fieldPath}|${category}|gpt-5.6-luna`,
-      dedupKey: `${group}|${dataset}|${cardId}|${fieldPath}|${category}`,
+      findingStableId: `${scope.scopeId}|${cardId}|idx:${indexKey}|${fieldPath}|${category}|gpt-5.6-luna`,
+      dedupKey: `${group}|${dataset}|${cardId}|idx:${indexKey}|${fieldPath}|${category}`,
       scopeId: scope.scopeId,
       group,
       dataset,

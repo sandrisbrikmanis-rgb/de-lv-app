@@ -28,6 +28,7 @@ const {
   stableBatchId,
 } = require("./batch-checkpoint");
 const { normalizeLunaItemsToFindings } = require("./findings");
+const { buildLunaRequestPayload } = require("./object-identity");
 const { prepareResumeContext, buildExpectedIdentity } = require("./resume");
 const { createInterruptState, installSignalHandlers, assertNotInterrupted } = require("./signals");
 const { runBaselineGate } = require("../content-discovery/baseline-gate");
@@ -164,7 +165,8 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
 
   const batchSize = options.batchSize || getBatchSizeForScope(scope);
   const getId = getObjectId;
-  const serialize = (obj) => obj;
+  const serializeLuna = (obj) => buildLunaRequestPayload(scope.scopeId, obj);
+  const serializeCheckpoint = (obj) => obj;
 
   const hooks = createCheckpointHooks({
     runId,
@@ -191,7 +193,8 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
       transport,
       objects: limited,
       getId,
-      serialize,
+      serialize: serializeLuna,
+      serializeCheckpoint,
       batchSize,
       scopeId: scope.scopeId,
       adapterName: key,

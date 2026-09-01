@@ -43,6 +43,7 @@
     "test:phase1-real-luna-transport": "node scripts/test-phase1-real-luna-transport.js",
     "test:phase1-dynamic-baseline-gate": "node scripts/test-phase1-dynamic-baseline-gate.js",
     "test:phase1-luna-checkpoint-resume": "node scripts/test-phase1-luna-checkpoint-resume.js",
+    "test:phase1-luna-infra-repair": "node scripts/test-phase1-luna-infra-repair.js",
     "i18n:content:phase1-real-luna-smoke": "node scripts/run-phase1-real-luna-smoke.js"
   },
   "keywords": [],
