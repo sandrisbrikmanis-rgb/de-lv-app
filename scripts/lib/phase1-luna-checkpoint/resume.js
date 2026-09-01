@@ -26,11 +26,11 @@ function checkpointDirFor(runId, scopeId) {
   return require("./constants").checkpointDir(runId, scopeId);
 }
 
-function buildExpectedIdentity({ scopes, cliScope, transport, model, baseline, gitIdentity }) {
+function buildExpectedIdentity({ scopes, cliScope, transport, model, baseline, gitIdentity, resumeMode = false }) {
   const scopeIdentity = computeScopeIdentity(scopes);
   return {
     discoveryBaselineSha: baseline.originMainSha,
-    headSha: gitIdentity.headSha,
+    headSha: resumeMode ? baseline.originMainSha : gitIdentity.headSha,
     originMainSha: gitIdentity.originMainSha,
     model,
     transport,
@@ -223,6 +223,7 @@ function prepareResumeContext({
     model,
     baseline,
     gitIdentity,
+    resumeMode: true,
   });
 
   const auth = validateResumeAuthorization({
@@ -230,6 +231,7 @@ function prepareResumeContext({
     baseline,
     gitIdentity,
     productionDiff: gitIdentity.productionDiff,
+    allowInfraHeadForResume: true,
   });
   if (!auth.ok) {
     return { ok: false, code: auth.code, blockers: auth.blockers, realCalls: 0 };

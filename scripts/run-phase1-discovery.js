@@ -517,7 +517,9 @@ async function main() {
 
   try {
     if (args.withLuna) {
-      const auth = authorizeWithLunaDiscovery();
+      const auth = authorizeWithLunaDiscovery({
+        allowInfraHeadForResume: Boolean(args.resumeLuna),
+      });
       if (!auth.pass) {
         const first = auth.blockers[0];
         console.error(`BLOCKED: ${first.code}`);
