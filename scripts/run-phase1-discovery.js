@@ -519,6 +519,7 @@ async function main() {
     if (args.withLuna) {
       const auth = authorizeWithLunaDiscovery({
         allowInfraHeadForResume: Boolean(args.resumeLuna),
+        skipPhase0Check: Boolean(args.resumeLuna),
       });
       if (!auth.pass) {
         const first = auth.blockers[0];
