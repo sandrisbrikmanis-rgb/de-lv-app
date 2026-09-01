@@ -3,7 +3,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { authorizeWithLunaDiscovery } = require("../phase1-luna-authorize");
+const { authorizeInfraResume } = require("../phase1-luna-resume-auth");
 const { resolvePhase1GitIdentity } = require("../phase1-git-identity");
 const { runBaselineGate } = require("../content-discovery/baseline-gate");
 const { runPhase0ExitEvaluation } = require("../../run-phase0-exit-matrix");
@@ -43,22 +43,25 @@ function buildExpectedIdentity({ scopes, cliScope, transport, model, baseline, g
 }
 
 function validateResumeAuthorization(options = {}) {
-  const blockers = [];
-
-  const auth = authorizeWithLunaDiscovery({
+  const auth = authorizeInfraResume({
+    resumeLuna: true,
+    approvedInfraHeadSha: options.approvedInfraHeadSha,
+    runId: options.runId,
+    authorizedRunId: options.authorizedRunId,
+    discoveryBaselineSha: options.baseline?.originMainSha,
+    expectedDiscoveryBaselineSha: options.expectedDiscoveryBaselineSha,
+    model: options.model,
+    expectedModel: options.expectedModel,
     skipApiKeyCheck: options.skipApiKeyCheck,
-    skipPhase0Check: options.skipPhase0Check,
     gitIdentity: options.gitIdentity,
     baseline: options.baseline,
-    phase0Matrix: options.phase0Matrix,
-    productionDiff: options.productionDiff,
-    allowInfraHeadForResume: options.allowInfraHeadForResume,
+    gitIdentityDeps: options.gitIdentityDeps,
+    phase0Frozen: options.phase0Frozen,
   });
   if (!auth.pass) {
-    return { ok: false, code: auth.blocker || "RESUME_AUTHORIZATION_FAILED", blockers: auth.blockers };
+    return { ok: false, code: auth.blocker || "RESUME_AUTHORIZATION_FAILED", blockers: auth.blockers, realCalls: 0 };
   }
-
-  return { ok: true, auth };
+  return { ok: true, auth, realCalls: 0 };
 }
 
 function validateManifestForResume(manifest, expectedIdentity) {
@@ -229,10 +232,14 @@ function prepareResumeContext({
 
   const auth = validateResumeAuthorization({
     ...options,
+    runId,
+    authorizedRunId: runId,
     baseline,
     gitIdentity,
-    productionDiff: gitIdentity.productionDiff,
-    allowInfraHeadForResume: true,
+    model,
+    expectedModel: model,
+    expectedDiscoveryBaselineSha: baseline.originMainSha,
+    approvedInfraHeadSha: options.approvedInfraHeadSha,
   });
   if (!auth.ok) {
     return { ok: false, code: auth.code, blockers: auth.blockers, realCalls: 0 };

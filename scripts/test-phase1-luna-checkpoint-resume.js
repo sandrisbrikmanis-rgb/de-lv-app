@@ -274,7 +274,7 @@ function testFailClosedIdentity() {
       scopes,
       cliScope,
       transport: "MOCK",
-      options: { skipApiKeyCheck: true, skipPhase0Check: true, gitIdentity, baseline },
+      options: { skipApiKeyCheck: true, gitIdentity, baseline, approvedInfraHeadSha: SHA_TEST },
     });
     assert(!resume.ok && resume.code === scenario.expect, `${scenario.name} => ${resume.code}`);
     assert(resume.realCalls === 0, `${scenario.name}: realCalls 0`);
@@ -287,12 +287,12 @@ function testFailClosedIdentity() {
     transport: "MOCK",
     options: {
       skipApiKeyCheck: true,
-      skipPhase0Check: true,
       gitIdentity: injectedGitIdentity({ workingTreeClean: false, pass: false }),
       baseline,
+      approvedInfraHeadSha: SHA_TEST,
     },
   });
-  assert(!dirty.ok, "dirty working tree blocked");
+  assert(!dirty.ok && dirty.code === "WORKING_TREE_DIRTY", "dirty working tree blocked");
 
   finalizeRun(fresh.runId, "COMPLETED");
   fs.rmSync(tmp, { recursive: true, force: true });
@@ -440,7 +440,7 @@ function testTamperedCheckpointBlocksResumePrep() {
       cliScope,
       transport: "MOCK",
       model: DEFAULT_MODEL,
-      options: { skipApiKeyCheck: true, skipPhase0Check: true, gitIdentity, baseline },
+      options: { skipApiKeyCheck: true, gitIdentity, baseline, approvedInfraHeadSha: SHA_TEST },
     });
   }
 

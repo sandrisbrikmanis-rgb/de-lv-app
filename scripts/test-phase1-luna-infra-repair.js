@@ -309,9 +309,9 @@ async function testResumeIdentityGates() {
   const gitIdentity = injectedGitIdentity({ headSha: SHA_TEST, originMainSha: SHA_TEST });
   const opts = {
     skipApiKeyCheck: true,
-    skipPhase0Check: true,
     baseline,
     gitIdentity,
+    approvedInfraHeadSha: SHA_TEST,
   };
 
   const { buildExpectedBatchPlanForScope } = require("./lib/phase1-luna-checkpoint/batch-plan");
@@ -345,9 +345,25 @@ async function testResumeIdentityGates() {
     cliScope,
     transport: "REAL",
     model: DEFAULT_MODEL,
-    options: opts,
+    options: {
+      ...opts,
+      approvedInfraHeadSha: SHA_TEST,
+    },
   });
   assert(!badRun.ok && badRun.realCalls === 0, "wrong RUN_ID blocked");
+
+  const noApproved = prepareResumeContext({
+    runId,
+    scopes,
+    cliScope,
+    transport: "REAL",
+    model: DEFAULT_MODEL,
+    options: {
+      ...opts,
+      approvedInfraHeadSha: null,
+    },
+  });
+  assert(!noApproved.ok, "missing approved infra head blocked");
 }
 
 async function testLegacyReturnedIdsInCheckpoint() {

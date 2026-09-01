@@ -59,23 +59,11 @@ function authorizeWithLunaDiscovery(options = {}) {
 
   const productionDiff = options.productionDiff || identity.productionDiff || { clean: false, changed: [] };
 
-  let blockersOut = blockers;
-  if (
-    options.allowInfraHeadForResume &&
-    productionDiff.clean &&
-    identity.deDiffClean &&
-    identity.productionDiffClean
-  ) {
-    blockersOut = blockers.filter(
-      (b) => b.code !== "HEAD_NOT_AT_ORIGIN_MAIN" && b.code !== "WORKING_TREE_DIRTY",
-    );
-  }
-
   return {
-    pass: blockersOut.length === 0,
-    blockers: blockersOut,
-    blocker: blockersOut[0]?.code || null,
-    message: blockersOut[0]?.message || null,
+    pass: blockers.length === 0,
+    blockers,
+    blocker: blockers[0]?.code || null,
+    message: blockers[0]?.message || null,
     baseline,
     productionDiff,
     gitIdentity: identity,

@@ -33,6 +33,7 @@ const { parseDatasetsArg } = require("./lib/content-discovery/registry");
 const { runLunaForScope } = require("./lib/luna-orchestrator");
 const { createLunaTransport } = require("./lib/luna-transport");
 const { authorizeWithLunaDiscovery } = require("./lib/phase1-luna-authorize");
+const { authorizeInfraResume } = require("./lib/phase1-luna-resume-auth");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
 const {
   runPreBacklogHistoryGate,
@@ -64,6 +65,7 @@ Options:
   --fresh-luna          Start a new Luna checkpoint run (does not delete prior runs)
   --resume-luna         Resume Luna from validated checkpoints (identity must match)
   --resume-run-id <id>  Explicit run id for --resume-luna
+  --approved-infra-head-sha <sha>  Required with --resume-luna: explicit authorized infra repair HEAD
   --debug               Show stack traces on errors
   --help                Show help
 `);
@@ -81,6 +83,7 @@ function parseArgs(argv) {
     freshLuna: false,
     resumeLuna: false,
     resumeRunId: null,
+    approvedInfraHeadSha: null,
   };
 
   for (let i = 2; i < argv.length; i++) {
@@ -98,6 +101,7 @@ function parseArgs(argv) {
     else if (arg === "--fresh-luna") args.freshLuna = true;
     else if (arg === "--resume-luna") args.resumeLuna = true;
     else if (arg === "--resume-run-id") args.resumeRunId = argv[++i];
+    else if (arg === "--approved-infra-head-sha") args.approvedInfraHeadSha = argv[++i];
     else if (arg === "--group") args.groups = [argv[++i]];
     else if (arg === "--dataset") {
       const value = argv[++i];
@@ -251,7 +255,7 @@ async function runPhase1Discovery(options = {}) {
         model: options.lunaModel || DEFAULT_MODEL,
         options: {
           skipApiKeyCheck: !options.withLuna,
-          skipPhase0Check: options.skipPhase0Check || options.resumeLuna,
+          approvedInfraHeadSha: options.approvedInfraHeadSha,
           gitIdentity: options.gitIdentity,
           baseline,
           phase0Matrix: options.phase0Matrix,
@@ -517,15 +521,30 @@ async function main() {
 
   try {
     if (args.withLuna) {
-      const auth = authorizeWithLunaDiscovery({
-        allowInfraHeadForResume: Boolean(args.resumeLuna),
-        skipPhase0Check: Boolean(args.resumeLuna),
-      });
-      if (!auth.pass) {
-        const first = auth.blockers[0];
-        console.error(`BLOCKED: ${first.code}`);
-        console.error(first.message);
-        process.exit(1);
+      if (args.resumeLuna) {
+        const auth = authorizeInfraResume({
+          resumeLuna: true,
+          approvedInfraHeadSha: args.approvedInfraHeadSha,
+          runId: args.resumeRunId,
+          authorizedRunId: args.resumeRunId,
+          expectedDiscoveryBaselineSha: undefined,
+          model: DEFAULT_MODEL,
+          expectedModel: DEFAULT_MODEL,
+        });
+        if (!auth.pass) {
+          const first = auth.blockers[0];
+          console.error(`BLOCKED: ${first.code}`);
+          console.error(first.message);
+          process.exit(1);
+        }
+      } else {
+        const auth = authorizeWithLunaDiscovery();
+        if (!auth.pass) {
+          const first = auth.blockers[0];
+          console.error(`BLOCKED: ${first.code}`);
+          console.error(first.message);
+          process.exit(1);
+        }
       }
     }
 
@@ -543,6 +562,7 @@ async function main() {
       lunaTransport: args.withLuna ? createLunaTransport({ mode: "real" }) : undefined,
       checkpointEnabled: checkpointEnabled && (args.withLuna || args.resumeLuna),
       freshLuna: args.freshLuna || (args.withLuna && !args.resumeLuna),
+      approvedInfraHeadSha: args.approvedInfraHeadSha,
       command: process.argv.join(" "),
     });
 
