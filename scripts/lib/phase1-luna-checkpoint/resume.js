@@ -214,7 +214,7 @@ function prepareResumeContext({
   model,
   options = {},
 }) {
-  const baseline = options.baseline || runBaselineGate();
+  const baseline = options.baseline || runBaselineGate({ writeReports: false });
   const gitIdentity = options.gitIdentity || resolvePhase1GitIdentity(options.gitIdentityDeps || {});
   const expectedIdentity = buildExpectedIdentity({
     scopes,

@@ -179,7 +179,7 @@ async function runPhase1Discovery(options = {}) {
     );
   }
 
-  const baseline = runBaselineGate();
+  const baseline = runBaselineGate({ writeReports: !options.resumeLuna });
   if (baseline.verdict === "BLOCKED") {
     return {
       blocked: true,
