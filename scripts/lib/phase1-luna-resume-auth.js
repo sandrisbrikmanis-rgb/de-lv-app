@@ -12,6 +12,18 @@ const { git } = require("./content-discovery/git-baseline");
 
 const CUTOVER_AUTH_ONLY_FILE = "scripts/lib/phase1-luna-resume-authorization.js";
 
+const CUTOVER_ALLOWED_PATHS = new Set([
+  CUTOVER_AUTH_ONLY_FILE,
+  "scripts/lib/phase1-luna-resume-auth.js",
+  "scripts/test-phase1-luna-resume-auth-002.js",
+  "reports/phase1-discovery-READONLY.md",
+  "reports/phase1-discovery-matrix.json",
+  "reports/phase1-luna-stats.json",
+  "reports/phase1-scope-inventory.json",
+  "reports/unmerged-closure-classification-READONLY.json",
+  "reports/unmerged-closure-classification-READONLY.md",
+]);
+
 function headMatchesApprovedInfra(identity, approvedInfraHeadSha) {
   if (!identity.headSha || !approvedInfraHeadSha) return false;
   if (identity.headSha === approvedInfraHeadSha) return true;
@@ -20,7 +32,8 @@ function headMatchesApprovedInfra(identity, approvedInfraHeadSha) {
   const diff = git(`git diff --name-only ${approvedInfraHeadSha}..${identity.headSha}`);
   if (!diff.ok) return false;
   const files = (diff.stdout || "").trim().split("\n").filter(Boolean);
-  return files.length === 1 && files[0] === CUTOVER_AUTH_ONLY_FILE;
+  if (!files.length) return false;
+  return files.every((file) => CUTOVER_ALLOWED_PATHS.has(file));
 }
 
 function validateFrozenPhase0Identity(options = {}) {

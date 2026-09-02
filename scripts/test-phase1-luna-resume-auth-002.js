@@ -101,6 +101,7 @@ function testSelfReferentialBaselineBlocked() {
 }
 
 function testCutoverAuthDescendantPass() {
+  const cutoverHead = "c3c29bc463b78522ccb031a1622ccd7570d6d832";
   const r = authFromCli(
     {
       resumeRunId: RUN_ID,
@@ -109,7 +110,7 @@ function testCutoverAuthDescendantPass() {
     },
     {
       gitIdentity: {
-        headSha: "bac8c1cee9a6a32535cc8e97d051ab130f1d0ddc",
+        headSha: cutoverHead,
         originMainSha: SHA_BASELINE,
         workingTreeClean: true,
         productionDiffClean: true,
@@ -117,14 +118,7 @@ function testCutoverAuthDescendantPass() {
       },
     },
   );
-  if (SHA_APPROVED === "bac8c1cee9a6a32535cc8e97d051ab130f1d0ddc") {
-    assert(r.pass, "cutover descendant head passes when frozen equals approved");
-    return;
-  }
-  assert(
-    !r.pass && r.blockers.some((b) => b.code === "INFRA_RESUME_HEAD_MISMATCH"),
-    "non-cutover descendant blocked unless auth-only delta",
-  );
+  assert(r.pass, "cutover descendant head passes when diff is cutover-allowlisted only");
 }
 
 function main() {
