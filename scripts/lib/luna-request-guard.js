@@ -1,28 +1,80 @@
 #!/usr/bin/env node
 "use strict";
 
+const { performance } = require("perf_hooks");
+
+function nowMs() {
+  return performance.now();
+}
+
 function createRequestTimeoutError(code = "TIMEOUT") {
   const err = new Error(code);
   err.code = code;
   return err;
 }
 
+function createAttemptDeadlines({
+  attemptStart = nowMs(),
+  requestTimeoutMs,
+  batchDeadlineAt,
+}) {
+  const requestDeadlineAt = attemptStart + requestTimeoutMs;
+  const batchLimited = batchDeadlineAt <= requestDeadlineAt;
+  const effectiveDeadlineAt = Math.min(requestDeadlineAt, batchDeadlineAt);
+  const attemptLimitMs = Math.max(0, effectiveDeadlineAt - attemptStart);
+
+  return {
+    attemptStart,
+    requestDeadlineAt,
+    batchDeadlineAt,
+    effectiveDeadlineAt,
+    attemptLimitMs,
+    limitingReason: batchLimited ? "BATCH_WALL_CLOCK_EXCEEDED" : "TIMEOUT",
+    isBatchDeadlineLimited: batchLimited,
+  };
+}
+
+function getMonotonicBatchRemainingMs(batchDeadlineAt, at = nowMs()) {
+  return batchDeadlineAt - at;
+}
+
+function getMonotonicElapsedSince(attemptStart, at = nowMs()) {
+  return at - attemptStart;
+}
+
+function assertPostAwaitDeadline(deadlines, at = nowMs()) {
+  if (at > deadlines.effectiveDeadlineAt) {
+    throw createRequestTimeoutError(deadlines.limitingReason);
+  }
+  if (at > deadlines.batchDeadlineAt) {
+    throw createRequestTimeoutError("BATCH_WALL_CLOCK_EXCEEDED");
+  }
+  if (at > deadlines.requestDeadlineAt) {
+    throw createRequestTimeoutError("TIMEOUT");
+  }
+}
+
 /**
- * Run transport.call with AbortController-linked attempt guard.
- * Returns { response, dispose } — caller must dispose after handling response.
+ * AbortController-linked attempt guard using monotonic attemptLimitMs.
  */
-function createAttemptAbortContext({ attemptLimitMs, isBatchDeadlineLimited }) {
-  const controller = new AbortController();
+function createAttemptAbortContext({ attemptLimitMs, isBatchDeadlineLimited, controller = null }) {
+  const abortController = controller || new AbortController();
   let timeoutId = null;
   let settled = false;
+  const limitingReason = isBatchDeadlineLimited ? "BATCH_WALL_CLOCK_EXCEEDED" : "TIMEOUT";
 
   const guardPromise = new Promise((_, reject) => {
+    if (attemptLimitMs <= 0) {
+      settled = true;
+      abortController.abort();
+      reject(createRequestTimeoutError(limitingReason));
+      return;
+    }
     timeoutId = setTimeout(() => {
       if (settled) return;
       settled = true;
-      controller.abort();
-      const code = isBatchDeadlineLimited ? "BATCH_WALL_CLOCK_EXCEEDED" : "TIMEOUT";
-      reject(createRequestTimeoutError(code));
+      abortController.abort();
+      reject(createRequestTimeoutError(limitingReason));
     }, attemptLimitMs);
   });
 
@@ -32,12 +84,12 @@ function createAttemptAbortContext({ attemptLimitMs, isBatchDeadlineLimited }) {
       clearTimeout(timeoutId);
       timeoutId = null;
     }
-    if (!controller.signal.aborted) {
-      controller.abort();
+    if (!abortController.signal.aborted) {
+      abortController.abort();
     }
   };
 
-  return { controller, guardPromise, dispose };
+  return { controller: abortController, guardPromise, dispose, limitingReason };
 }
 
 function trackDetachedPromise(promise) {
@@ -58,14 +110,20 @@ function normalizeTransportError(err) {
   return err;
 }
 
+/** @deprecated use getMonotonicBatchRemainingMs with performance deadline */
 function getBatchRemainingMs(batchDeadlineMs) {
   return batchDeadlineMs - Date.now();
 }
 
 module.exports = {
+  nowMs,
   createRequestTimeoutError,
+  createAttemptDeadlines,
   createAttemptAbortContext,
   trackDetachedPromise,
   normalizeTransportError,
   getBatchRemainingMs,
+  getMonotonicBatchRemainingMs,
+  getMonotonicElapsedSince,
+  assertPostAwaitDeadline,
 };

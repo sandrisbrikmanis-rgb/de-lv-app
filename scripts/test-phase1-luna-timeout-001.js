@@ -4,12 +4,18 @@
 const fs = require("fs");
 const os = require("os");
 const path = require("path");
+const { performance } = require("perf_hooks");
 const {
   runBatchedAdapter,
   TIMEOUT_MS,
   BATCH_WALL_CLOCK_MS,
   MAX_RETRIES,
 } = require("./lib/luna-adapter-runner");
+const {
+  createAttemptDeadlines,
+  assertPostAwaitDeadline,
+  getMonotonicBatchRemainingMs,
+} = require("./lib/luna-request-guard");
 const { createCheckpointHooks, initFreshRun, finalizeRun } = require("./lib/phase1-luna-checkpoint/runner");
 const { getLegacyObjectId, buildLunaRequestPayload } = require("./lib/phase1-luna-checkpoint/object-identity");
 const { hashRequestInput } = require("./lib/phase1-luna-checkpoint/hash");
@@ -132,6 +138,370 @@ async function legacyRaceOnlyBatchAwait({
   } catch (err) {
     return { reason: err.message };
   }
+}
+
+function syncBlockMs(ms) {
+  const start = performance.now();
+  while (performance.now() - start < ms) {
+    // deterministic event-loop stall for post-await race fixtures
+  }
+}
+
+function createSyncBlockingTransport(blockMs, { respectAbort = true } = {}) {
+  return {
+    mode: "MOCK",
+    get realCallsDelta() {
+      return 1;
+    },
+    async call(payload, callOptions = {}) {
+      const { signal } = callOptions;
+      const start = performance.now();
+      while (performance.now() - start < blockMs) {
+        if (respectAbort && signal?.aborted) {
+          const err = new Error("TIMEOUT");
+          err.code = "TIMEOUT";
+          err.name = "AbortError";
+          throw err;
+        }
+      }
+      if (respectAbort && signal?.aborted) {
+        const err = new Error("TIMEOUT");
+        err.code = "TIMEOUT";
+        err.name = "AbortError";
+        throw err;
+      }
+      return {
+        items: payload.objects.map((o) => ({ ...o, status: "PASS" })),
+        tokensUsed: 1,
+      };
+    },
+  };
+}
+
+/**
+ * Simulates a067162b post-await path: race returns response with no deadline re-check.
+ */
+async function simulateOldPostAwaitAccept({ blockMs, requestTimeoutMs, batchWallClockMs }) {
+  const attemptStart = performance.now();
+  const batchDeadlineAt = attemptStart + batchWallClockMs;
+  const deadlines = createAttemptDeadlines({ attemptStart, requestTimeoutMs, batchDeadlineAt });
+  const guardPromise = new Promise((_, reject) => {
+    setTimeout(() => reject(new Error("TIMEOUT")), deadlines.attemptLimitMs);
+  });
+  const callPromise = Promise.resolve().then(() => {
+    syncBlockMs(blockMs);
+    return { items: [{ id: "x", status: "PASS" }], tokensUsed: 1 };
+  });
+  const response = await Promise.race([callPromise, guardPromise]);
+  return { ok: true, response, deadlines };
+}
+
+async function testLegacyProductionFormRequestTimeout() {
+  const transport = createHangingTransport();
+  const started = Date.now();
+  const result = await withHardTimeout(
+    legacyRaceOnlyBatchAwait({
+      transport,
+      batchWallClockMs: FIXTURE_BATCH_WALL_MS,
+      requestTimeoutMs: FIXTURE_REQUEST_TIMEOUT_MS,
+    }),
+    "legacy production-form request timeout",
+  );
+  const elapsed = Date.now() - started;
+  assert(result.reason === "TIMEOUT", `legacy hung promise should TIMEOUT, got ${result.reason}`);
+  assert(elapsed >= FIXTURE_REQUEST_TIMEOUT_MS - 15, `legacy timeout too fast: ${elapsed}ms`);
+  assert(elapsed < FIXTURE_BATCH_WALL_MS, `legacy should not wait for batch wall: ${elapsed}ms`);
+}
+
+async function testLegacyBatchWallBypassProductionRatios() {
+  const transport = createHangingTransport();
+  const started = Date.now();
+  const result = await withHardTimeout(
+    legacyRaceOnlyBatchAwait({
+      transport,
+      batchWallClockMs: 30,
+      requestTimeoutMs: 500,
+    }),
+    "legacy batch wall bypass scaled",
+  );
+  const elapsed = Date.now() - started;
+  assert(result.reason === "TIMEOUT", "legacy waits for request timeout when batchWall < requestTimeout");
+  assert(elapsed >= 450, `legacy bypass elapsed ${elapsed}ms`);
+}
+
+async function testPostAwaitRaceProvenOnOldPath() {
+  const blockMs = 120;
+  const oldResult = await withHardTimeout(
+    simulateOldPostAwaitAccept({
+      blockMs,
+      requestTimeoutMs: FIXTURE_REQUEST_TIMEOUT_MS,
+      batchWallClockMs: FIXTURE_BATCH_WALL_MS,
+    }),
+    "old post-await race accepts late response",
+  );
+  assert(oldResult.ok, "old path accepts response after event-loop stall");
+  assert(
+    performance.now() - oldResult.deadlines.attemptStart >= FIXTURE_BATCH_WALL_MS,
+    "old path elapsed exceeds batch wall",
+  );
+}
+
+async function testPostAwaitRaceRejectedByNewPath() {
+  const transport = createSyncBlockingTransport(120);
+  const result = await withHardTimeout(
+    runBatchedAdapter({
+      transport,
+      objects: sampleObjects("g2/a1/et", 1),
+      getId: getLegacyObjectId,
+      serialize: (o) => buildLunaRequestPayload("g2/a1/et", o),
+      serializeCheckpoint: (o) => o,
+      batchSize: 1,
+      scopeId: "g2/a1/et",
+      adapterName: "g2",
+      requestTimeoutMs: FIXTURE_REQUEST_TIMEOUT_MS,
+      batchWallClockMs: FIXTURE_BATCH_WALL_MS,
+      retryBackoffMs: FIXTURE_BACKOFF_MS,
+    }),
+    "new path rejects post-await late response",
+  );
+  assert(!result.ok, "post-await guard rejects late response");
+  assert(
+    result.reason === "BATCH_WALL_CLOCK_EXCEEDED" || result.reason === "TIMEOUT",
+    `expected deadline failure got ${result.reason}`,
+  );
+}
+
+async function testPostAwaitBatchExpiryNoCheckpoint() {
+  let checkpointWrites = 0;
+  const transport = createSyncBlockingTransport(120);
+  const patched = patchRunsRoot(tempRunsRoot());
+  const scope = { scopeId: "g2/a1/et", group: "g2", dataset: "a1", lang: "et", lunaApplicable: true };
+  const fresh = initFreshRun({
+    scopes: [scope],
+    cliScope: { groups: ["g2"], datasetsByGroup: { g2: ["a1"] }, langs: ["et"] },
+    transport: "MOCK",
+    baseline: { originMainSha: SHA_TEST, verdict: "PASS" },
+    gitIdentity: injectedGitIdentity(),
+    model: DEFAULT_MODEL,
+  });
+  const hooks = createCheckpointHooks({
+    runId: fresh.runId,
+    scope,
+    transport,
+    model: DEFAULT_MODEL,
+    interruptState: { interrupted: false },
+  });
+  const origOnBatchPass = hooks.onBatchPass;
+  hooks.onBatchPass = (...args) => {
+    checkpointWrites += 1;
+    return origOnBatchPass(...args);
+  };
+  const result = await withHardTimeout(
+    runBatchedAdapter({
+      transport,
+      objects: sampleObjects(scope.scopeId, 1),
+      getId: getLegacyObjectId,
+      serialize: (o) => buildLunaRequestPayload(scope.scopeId, o),
+      serializeCheckpoint: (o) => o,
+      batchSize: 1,
+      scopeId: scope.scopeId,
+      adapterName: "g2",
+      checkpointHooks: hooks,
+      requestTimeoutMs: FIXTURE_REQUEST_TIMEOUT_MS,
+      batchWallClockMs: FIXTURE_BATCH_WALL_MS,
+      retryBackoffMs: FIXTURE_BACKOFF_MS,
+    }),
+    "post-await no checkpoint",
+  );
+  assert(!result.ok, "late response does not pass");
+  assert(checkpointWrites === 0, "no PASS checkpoint written after post-await expiry");
+  finalizeRun(fresh.runId, "COMPLETED");
+  patched.restore();
+}
+
+async function testPostAwaitBatchExpiryNoRetry() {
+  let calls = 0;
+  const transport = {
+    mode: "MOCK",
+    get realCallsDelta() {
+      return 1;
+    },
+    async call(payload, callOptions = {}) {
+      calls += 1;
+      syncBlockMs(120);
+      return {
+        items: payload.objects.map((o) => ({ ...o, status: "PASS" })),
+        tokensUsed: 1,
+      };
+    },
+  };
+  const result = await withHardTimeout(
+    runBatchedAdapter({
+      transport,
+      objects: sampleObjects("g2/a1/et", 1),
+      getId: getLegacyObjectId,
+      serialize: (o) => buildLunaRequestPayload("g2/a1/et", o),
+      serializeCheckpoint: (o) => o,
+      batchSize: 1,
+      scopeId: "g2/a1/et",
+      adapterName: "g2",
+      requestTimeoutMs: FIXTURE_REQUEST_TIMEOUT_MS,
+      batchWallClockMs: FIXTURE_BATCH_WALL_MS,
+      retryBackoffMs: FIXTURE_BACKOFF_MS,
+    }),
+    "post-await batch expiry no retry",
+  );
+  assert(!result.ok, "batch expiry fails batch");
+  assert(result.reason === "BATCH_WALL_CLOCK_EXCEEDED", `got ${result.reason}`);
+  assert(calls === 1, `batch wall should not start new retry, calls=${calls}`);
+}
+
+async function testMonotonicDeadlineIgnoresWallClockJump() {
+  const attemptStart = performance.now();
+  const batchDeadlineAt = attemptStart + 80;
+  const realNow = Date.now;
+  Date.now = () => realNow() + 60_000;
+  try {
+    const remaining = getMonotonicBatchRemainingMs(batchDeadlineAt);
+    assert(remaining > 0 && remaining <= 80, `monotonic remaining stable under wall-clock jump: ${remaining}`);
+    const deadlines = createAttemptDeadlines({
+      attemptStart,
+      requestTimeoutMs: 40,
+      batchDeadlineAt,
+    });
+    syncBlockMs(90);
+    let threw = false;
+    try {
+      assertPostAwaitDeadline(deadlines);
+    } catch (err) {
+      threw = true;
+      assert(err.code === "BATCH_WALL_CLOCK_EXCEEDED" || err.code === "TIMEOUT", err.code);
+    }
+    assert(threw, "post-await rejects after monotonic elapsed exceeds deadline");
+  } finally {
+    Date.now = realNow;
+  }
+}
+
+async function testAbortSignalSettlesTransport() {
+  let settledAfterAbort = false;
+  const transport = {
+    mode: "MOCK",
+    get realCallsDelta() {
+      return 1;
+    },
+    async call(payload, callOptions = {}) {
+      const { signal } = callOptions;
+      return new Promise((resolve, reject) => {
+        const onAbort = () => {
+          settledAfterAbort = true;
+          const err = new Error("TIMEOUT");
+          err.code = "TIMEOUT";
+          err.name = "AbortError";
+          reject(err);
+        };
+        if (signal?.aborted) return onAbort();
+        signal?.addEventListener("abort", onAbort, { once: true });
+      });
+    },
+  };
+  await withHardTimeout(
+    runBatchedAdapter({
+      transport,
+      objects: sampleObjects("g2/a1/et", 1),
+      getId: getLegacyObjectId,
+      serialize: (o) => buildLunaRequestPayload("g2/a1/et", o),
+      serializeCheckpoint: (o) => o,
+      batchSize: 1,
+      scopeId: "g2/a1/et",
+      adapterName: "g2",
+      requestTimeoutMs: FIXTURE_REQUEST_TIMEOUT_MS,
+      batchWallClockMs: FIXTURE_BATCH_WALL_MS,
+      retryBackoffMs: FIXTURE_BACKOFF_MS,
+    }),
+    "abort settles transport",
+  ).catch(() => {});
+  assert(settledAfterAbort, "transport call settled via abort listener");
+}
+
+async function testResponseReadyBeforeDeadlinePasses() {
+  const transport = {
+    mode: "MOCK",
+    get realCallsDelta() {
+      return 1;
+    },
+    async call(payload) {
+      syncBlockMs(10);
+      return {
+        items: payload.objects.map((o) => ({ ...o, status: "PASS" })),
+        tokensUsed: 1,
+      };
+    },
+  };
+  const result = await withHardTimeout(
+    runBatchedAdapter({
+      transport,
+      objects: sampleObjects("g2/a1/et", 1),
+      getId: getLegacyObjectId,
+      serialize: (o) => buildLunaRequestPayload("g2/a1/et", o),
+      serializeCheckpoint: (o) => o,
+      batchSize: 1,
+      scopeId: "g2/a1/et",
+      adapterName: "g2",
+      requestTimeoutMs: FIXTURE_REQUEST_TIMEOUT_MS,
+      batchWallClockMs: FIXTURE_BATCH_WALL_MS,
+      retryBackoffMs: FIXTURE_BACKOFF_MS,
+    }),
+    "response under deadline passes",
+  );
+  assert(result.ok, "valid response under deadline passes");
+}
+
+async function testPostAwaitRequestTimeoutAllowsRetry() {
+  let calls = 0;
+  const transport = {
+    mode: "MOCK",
+    get realCallsDelta() {
+      return 1;
+    },
+    async call(payload, callOptions = {}) {
+      calls += 1;
+      const { signal } = callOptions;
+      if (calls === 1) {
+        return new Promise((resolve, reject) => {
+          const onAbort = () => {
+            const err = new Error("TIMEOUT");
+            err.code = "TIMEOUT";
+            reject(err);
+          };
+          if (signal?.aborted) return onAbort();
+          signal?.addEventListener("abort", onAbort, { once: true });
+        });
+      }
+      return {
+        items: payload.objects.map((o) => ({ ...o, status: "PASS" })),
+        tokensUsed: 1,
+      };
+    },
+  };
+  const result = await withHardTimeout(
+    runBatchedAdapter({
+      transport,
+      objects: sampleObjects("g2/a1/et", 1),
+      getId: getLegacyObjectId,
+      serialize: (o) => buildLunaRequestPayload("g2/a1/et", o),
+      serializeCheckpoint: (o) => o,
+      batchSize: 1,
+      scopeId: "g2/a1/et",
+      adapterName: "g2",
+      requestTimeoutMs: FIXTURE_REQUEST_TIMEOUT_MS,
+      batchWallClockMs: 500,
+      retryBackoffMs: FIXTURE_BACKOFF_MS,
+    }),
+    "post-await request timeout retry",
+  );
+  assert(result.ok, "retry after request timeout succeeds");
+  assert(calls === 2, `expected 2 calls got ${calls}`);
 }
 
 async function testLegacyBatchWallBypassDuringAwait() {
@@ -620,7 +990,17 @@ async function main() {
     `production defaults request=${TIMEOUT_MS}ms batchWall=${BATCH_WALL_CLOCK_MS}ms retries=${MAX_RETRIES}`,
   );
 
+  await testLegacyProductionFormRequestTimeout();
+  await testLegacyBatchWallBypassProductionRatios();
   await testLegacyBatchWallBypassDuringAwait();
+  await testPostAwaitRaceProvenOnOldPath();
+  await testPostAwaitRaceRejectedByNewPath();
+  await testResponseReadyBeforeDeadlinePasses();
+  await testPostAwaitBatchExpiryNoCheckpoint();
+  await testPostAwaitBatchExpiryNoRetry();
+  await testPostAwaitRequestTimeoutAllowsRetry();
+  await testMonotonicDeadlineIgnoresWallClockJump();
+  await testAbortSignalSettlesTransport();
   await testRequestTimeoutOnHangingTransport();
   await testAbortControllerFiresOnTimeout();
   await testSignalReachesFakeOpenAIClient();

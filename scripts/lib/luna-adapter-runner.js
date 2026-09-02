@@ -4,10 +4,13 @@
 const { createLunaTransport } = require('./luna-transport');
 const { splitObjectsIntoBatches } = require('./phase1-luna-checkpoint/batch-split');
 const {
+  nowMs,
+  createAttemptDeadlines,
   createAttemptAbortContext,
   trackDetachedPromise,
   normalizeTransportError,
-  getBatchRemainingMs,
+  getMonotonicBatchRemainingMs,
+  assertPostAwaitDeadline,
 } = require('./luna-request-guard');
 
 const TIMEOUT_MS = 180_000;
@@ -83,6 +86,19 @@ function batchWallExceededResult(stats, results, checkpoints, lastBatchId) {
   };
 }
 
+function failAttemptResult(reason, stats, results, checkpoints, lastBatchId, extra = {}) {
+  stats.failures += 1;
+  return {
+    ok: false,
+    reason,
+    stats,
+    results,
+    checkpoints,
+    lastBatchId,
+    ...extra,
+  };
+}
+
 async function runBatchedAdapter({
   transport,
   objects,
@@ -108,7 +124,8 @@ async function runBatchedAdapter({
   for (let batchIndex = 0; batchIndex < batches.length; batchIndex += 1) {
     const batch = batches[batchIndex];
     checkInterrupted(interruptState);
-    const batchDeadlineMs = Date.now() + batchWallClockMs;
+    const batchStartedMono = nowMs();
+    const batchDeadlineAt = batchStartedMono + batchWallClockMs;
 
     const checkpointSerialize = serializeCheckpoint || serialize;
     const checkpointPayload = {
@@ -152,21 +169,25 @@ async function runBatchedAdapter({
       attempt += 1;
       checkInterrupted(interruptState);
 
-      const remainingBatchMs = getBatchRemainingMs(batchDeadlineMs);
+      const remainingBatchMs = getMonotonicBatchRemainingMs(batchDeadlineAt);
       if (remainingBatchMs <= 0) {
         return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
       }
 
-      const isBatchDeadlineLimited = remainingBatchMs < requestTimeoutMs;
-      const attemptLimitMs = Math.min(requestTimeoutMs, remainingBatchMs);
+      const attemptStart = nowMs();
+      const deadlines = createAttemptDeadlines({
+        attemptStart,
+        requestTimeoutMs,
+        batchDeadlineAt,
+      });
 
       let heartbeatTimer;
       let attemptGuard = null;
 
       try {
         attemptGuard = createAttemptAbortContext({
-          attemptLimitMs,
-          isBatchDeadlineLimited,
+          attemptLimitMs: deadlines.attemptLimitMs,
+          isBatchDeadlineLimited: deadlines.isBatchDeadlineLimited,
         });
 
         if (checkpointHooks?.onHeartbeat) {
@@ -180,6 +201,8 @@ async function runBatchedAdapter({
 
         const response = await Promise.race([callPromise, attemptGuard.guardPromise]);
 
+        assertPostAwaitDeadline(deadlines);
+
         stats.realCalls += transport.realCallsDelta || 0;
         stats.tokensUsed += response?.tokensUsed || 0;
 
@@ -188,23 +211,19 @@ async function runBatchedAdapter({
           lastError = validation.issues.join(',');
           if (attempt < MAX_RETRIES) {
             const backoffDelayMs = retryBackoffMs[Math.min(attempt - 1, retryBackoffMs.length - 1)];
-            if (getBatchRemainingMs(batchDeadlineMs) <= backoffDelayMs) {
+            if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= backoffDelayMs) {
               return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
             }
             stats.retries += 1;
             await sleep(backoffDelayMs);
+            if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= 0) {
+              return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
+            }
             continue;
           }
-          stats.failures += 1;
-          return {
-            ok: false,
-            reason: lastError,
-            stats,
-            results,
-            checkpoints,
-            lastBatchId,
+          return failAttemptResult(lastError, stats, results, checkpoints, lastBatchId, {
             missingIds: validation.missingIds,
-          };
+          });
         }
 
         let savedCheckpoint = null;
@@ -238,14 +257,16 @@ async function runBatchedAdapter({
         lastError = normalized.code === "TIMEOUT" ? "TIMEOUT" : normalized.message;
         if (attempt < MAX_RETRIES) {
           const backoffDelayMs = retryBackoffMs[Math.min(attempt - 1, retryBackoffMs.length - 1)];
-          if (getBatchRemainingMs(batchDeadlineMs) <= backoffDelayMs) {
+          if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= backoffDelayMs) {
             return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
           }
           stats.retries += 1;
           await sleep(backoffDelayMs);
+          if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= 0) {
+            return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
+          }
         } else {
-          stats.failures += 1;
-          return { ok: false, reason: lastError, stats, results, checkpoints, lastBatchId };
+          return failAttemptResult(lastError, stats, results, checkpoints, lastBatchId);
         }
       } finally {
         if (heartbeatTimer) clearInterval(heartbeatTimer);
