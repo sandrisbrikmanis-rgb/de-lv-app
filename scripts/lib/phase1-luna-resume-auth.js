@@ -85,10 +85,16 @@ function authorizeInfraResume(options = {}) {
   }
 
   const approvedInfraHeadSha = options.approvedInfraHeadSha || null;
+  const ownerApprovedInfraHeadSha = options.ownerApprovedInfraHeadSha || null;
   if (!approvedInfraHeadSha || !isValidSha(approvedInfraHeadSha)) {
     blockers.push({
       code: "INFRA_RESUME_HEAD_NOT_AUTHORIZED",
       message: "approvedInfraHeadSha is required and must be a 40-char hex SHA for --resume-luna",
+    });
+  } else if (ownerApprovedInfraHeadSha && approvedInfraHeadSha !== ownerApprovedInfraHeadSha) {
+    blockers.push({
+      code: "INFRA_RESUME_HEAD_NOT_AUTHORIZED",
+      message: `approvedInfraHeadSha ${approvedInfraHeadSha} is not in OWNER authorization registry`,
     });
   } else if (!identity.headSha || identity.headSha !== approvedInfraHeadSha) {
     blockers.push({

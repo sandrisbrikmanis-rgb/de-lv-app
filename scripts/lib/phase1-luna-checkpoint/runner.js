@@ -209,8 +209,11 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
     ];
 
     const currentProgress = require("./atomic-io").readJsonFileIfExists(require("./constants").progressPath(runId)) || {};
+    const nextAttemptSeq =
+      (currentProgress.scopeAttemptSequence ?? currentProgress.scopesCompleted ?? 0) + 1;
     updateProgressAtomic(runId, {
-      scopesCompleted: (currentProgress.scopesCompleted || 0) + 1,
+      scopeAttemptSequence: nextAttemptSeq,
+      scopesCompleted: nextAttemptSeq,
       skippedBatches: (currentProgress.skippedBatches || 0) + skipped.skippedBatches,
       realCalls: (currentProgress.realCalls || 0) + (result.stats?.realCalls || 0),
       tokensUsed: (currentProgress.tokensUsed || 0) + (result.stats?.tokensUsed || 0),

@@ -34,6 +34,7 @@ const { runLunaForScope } = require("./lib/luna-orchestrator");
 const { createLunaTransport } = require("./lib/luna-transport");
 const { authorizeWithLunaDiscovery } = require("./lib/phase1-luna-authorize");
 const { authorizeInfraResume } = require("./lib/phase1-luna-resume-auth");
+const { buildResumeAuthOptionsFromCli } = require("./lib/phase1-luna-resume-authorization");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
 const {
   runPreBacklogHistoryGate,
@@ -522,15 +523,16 @@ async function main() {
   try {
     if (args.withLuna) {
       if (args.resumeLuna) {
-        const auth = authorizeInfraResume({
-          resumeLuna: true,
-          approvedInfraHeadSha: args.approvedInfraHeadSha,
-          runId: args.resumeRunId,
-          authorizedRunId: args.resumeRunId,
-          expectedDiscoveryBaselineSha: undefined,
-          model: DEFAULT_MODEL,
-          expectedModel: DEFAULT_MODEL,
-        });
+        const auth = authorizeInfraResume(
+          buildResumeAuthOptionsFromCli(
+            {
+              resumeRunId: args.resumeRunId,
+              approvedInfraHeadSha: args.approvedInfraHeadSha,
+              model: DEFAULT_MODEL,
+            },
+            { skipApiKeyCheck: false },
+          ),
+        );
         if (!auth.pass) {
           const first = auth.blockers[0];
           console.error(`BLOCKED: ${first.code}`);

@@ -24,11 +24,13 @@ function normalizeOwnerPrepFindings(findings = []) {
 
 function buildPhase1OwnerView(findings = [], options = {}) {
   const rows = normalizeOwnerPrepFindings(findings);
+  const sourceHash = options.sourceHash;
   const lines = [
     "# Phase 1 — OWNER preview (phase1-full)",
     "",
     `**Findings:** ${rows.length}`,
     `**Generated:** ${options.generatedAt || new Date().toISOString()}`,
+    sourceHash ? `**Source hash:** \`${sourceHash}\`` : null,
     "",
     options.mockNote ? `> ${options.mockNote}` : "",
     options.mockNote ? "" : null,

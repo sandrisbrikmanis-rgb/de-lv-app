@@ -63,6 +63,22 @@ function assert(condition, message) {
   }
 }
 
+function testResumeAuthOpts(runId, gitIdentity, baseline, extra = {}) {
+  return {
+    skipApiKeyCheck: true,
+    gitIdentity,
+    baseline,
+    approvedInfraHeadSha: SHA_TEST,
+    ownerApprovedResume: {
+      infraHeadSha: SHA_TEST,
+      resumeRunId: runId,
+      discoveryBaselineSha: SHA_TEST,
+      model: DEFAULT_MODEL,
+    },
+    ...extra,
+  };
+}
+
 function injectedGitIdentity(overrides = {}) {
   return {
     pass: true,
@@ -274,7 +290,7 @@ function testFailClosedIdentity() {
       scopes,
       cliScope,
       transport: "MOCK",
-      options: { skipApiKeyCheck: true, gitIdentity, baseline, approvedInfraHeadSha: SHA_TEST },
+      options: testResumeAuthOpts(fresh.runId, gitIdentity, baseline),
     });
     assert(!resume.ok && resume.code === scenario.expect, `${scenario.name} => ${resume.code}`);
     assert(resume.realCalls === 0, `${scenario.name}: realCalls 0`);
@@ -285,12 +301,9 @@ function testFailClosedIdentity() {
     scopes,
     cliScope,
     transport: "MOCK",
-    options: {
-      skipApiKeyCheck: true,
+    options: testResumeAuthOpts(fresh.runId, gitIdentity, baseline, {
       gitIdentity: injectedGitIdentity({ workingTreeClean: false, pass: false }),
-      baseline,
-      approvedInfraHeadSha: SHA_TEST,
-    },
+    }),
   });
   assert(!dirty.ok && dirty.code === "WORKING_TREE_DIRTY", "dirty working tree blocked");
 
@@ -440,7 +453,7 @@ function testTamperedCheckpointBlocksResumePrep() {
       cliScope,
       transport: "MOCK",
       model: DEFAULT_MODEL,
-      options: { skipApiKeyCheck: true, gitIdentity, baseline, approvedInfraHeadSha: SHA_TEST },
+      options: testResumeAuthOpts(fresh.runId, gitIdentity, baseline),
     });
   }
 

@@ -4,6 +4,7 @@
 const fs = require("fs");
 const path = require("path");
 const { authorizeInfraResume } = require("../phase1-luna-resume-auth");
+const { buildResumeAuthOptionsFromCli } = require("../phase1-luna-resume-authorization");
 const { resolvePhase1GitIdentity } = require("../phase1-git-identity");
 const { runBaselineGate } = require("../content-discovery/baseline-gate");
 const { runPhase0ExitEvaluation } = require("../../run-phase0-exit-matrix");
@@ -232,14 +233,24 @@ function prepareResumeContext({
 
   const auth = validateResumeAuthorization({
     ...options,
+    ...buildResumeAuthOptionsFromCli(
+      {
+        resumeRunId: runId,
+        approvedInfraHeadSha: options.approvedInfraHeadSha,
+        model,
+      },
+      {
+        skipApiKeyCheck: options.skipApiKeyCheck,
+        gitIdentity,
+        baseline,
+        phase0Frozen: options.phase0Frozen,
+        gitIdentityDeps: options.gitIdentityDeps,
+        ownerApprovedResume: options.ownerApprovedResume,
+      },
+    ),
     runId,
-    authorizedRunId: runId,
     baseline,
     gitIdentity,
-    model,
-    expectedModel: model,
-    expectedDiscoveryBaselineSha: baseline.originMainSha,
-    approvedInfraHeadSha: options.approvedInfraHeadSha,
   });
   if (!auth.ok) {
     return { ok: false, code: auth.code, blockers: auth.blockers, realCalls: 0 };

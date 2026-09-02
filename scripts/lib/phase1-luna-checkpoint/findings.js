@@ -62,6 +62,7 @@ function normalizeLunaItemsToFindings(items, scope, options = {}) {
       dataset,
       lang,
       cardId,
+      objectIndex: objectIndex === null ? null : objectIndex,
       fieldPath,
       severity: String(item.severity || "MEDIUM").toUpperCase(),
       category,
