@@ -102,7 +102,7 @@ function testSelfReferentialBaselineBlocked() {
 }
 
 function testCutoverAuthDescendantPass() {
-  const cutoverHead = "5bcc25d7efc3396082ce2093c733a56db9954aeb";
+  const cutoverHead = git("git rev-parse HEAD").stdout;
   const r = authFromCli(
     {
       resumeRunId: RUN_ID,
