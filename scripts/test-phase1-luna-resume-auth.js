@@ -12,6 +12,7 @@ const { prepareResumeContext } = require("./lib/phase1-luna-checkpoint/resume");
 const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-applicability");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
 const { buildOwnerAuthorizationDocument } = require("./lib/phase1-luna-owner-authorization-file");
+const { createMatchingExecutionGit } = require("./lib/test-helpers/phase1-execution-integrity-mock");
 
 const SHA_BASELINE = "6cfb96105f7f741f6052d20ee1d1e342f198fda2";
 const { OWNER_APPROVED_RESUME } = require("./lib/phase1-luna-resume-authorization");
@@ -128,6 +129,7 @@ function resumeOpts(overrides = {}) {
     skipApiKeyCheck: true,
     gitIdentity: injectedGitIdentity(overrides.gitIdentity),
     baseline: baselinePass(),
+    gitIdentityDeps: overrides.gitIdentityDeps || { git: createMatchingExecutionGit(), skipFetch: true },
     ...overrides,
   };
 }
@@ -249,6 +251,7 @@ function testPrepareResumeWithApprovedHead() {
       ownerAuthorizationFile,
       baseline: baselinePass(),
       gitIdentity: injectedGitIdentity(),
+      gitIdentityDeps: { git: createMatchingExecutionGit(), skipFetch: true },
     },
   });
   if (

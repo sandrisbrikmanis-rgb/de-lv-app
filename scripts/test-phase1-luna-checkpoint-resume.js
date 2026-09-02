@@ -51,6 +51,7 @@ const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-a
 const { createInterruptState } = require("./lib/phase1-luna-checkpoint/signals");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
 const { buildOwnerAuthorizationDocument } = require("./lib/phase1-luna-owner-authorization-file");
+const { createMatchingExecutionGit } = require("./lib/test-helpers/phase1-execution-integrity-mock");
 
 const SHA_TEST = "cccccccccccccccccccccccccccccccccccccccc";
 let testsRun = 0;
@@ -102,6 +103,7 @@ function testResumeAuthOpts(runId, gitIdentity, baseline, extra = {}) {
     baseline,
     approvedInfraHeadSha: gitIdentity.headSha || SHA_TEST,
     ownerAuthorizationFile,
+    gitIdentityDeps: extra.gitIdentityDeps || { git: createMatchingExecutionGit(), skipFetch: true },
     ...extra,
   };
 }

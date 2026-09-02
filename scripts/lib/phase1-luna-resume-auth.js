@@ -19,6 +19,7 @@ const {
   loadOwnerAuthorizationFile,
   validateOwnerAuthorizationAgainstRuntime,
 } = require("./phase1-luna-owner-authorization-file");
+const { validateExecutionIntegrity } = require("./phase1-luna-execution-integrity");
 
 function validateFrozenPhase0Identity(options = {}) {
   const exitPath = options.exitPath || path.join(ROOT, "reports", "phase0-exit.json");
@@ -192,6 +193,14 @@ function authorizeInfraResume(options = {}) {
 
   const identity = options.gitIdentity || resolvePhase1GitIdentity(options.gitIdentityDeps || {});
 
+  const executionIntegrity = validateExecutionIntegrity({
+    headSha: identity.headSha || options.approvedInfraHeadSha,
+    gitFn: options.gitIdentityDeps?.git,
+  });
+  if (!executionIntegrity.ok) {
+    blockers.push(...executionIntegrity.blockers);
+  }
+
   if (!identity.workingTreeClean) {
     blockers.push({
       code: "WORKING_TREE_DIRTY",
@@ -315,6 +324,7 @@ function authorizeInfraResume(options = {}) {
     ownerAuthorization,
     ownerAuthorizationFile,
     manifestValidation,
+    executionIntegrity,
     realCalls,
     transport: "REAL",
   };

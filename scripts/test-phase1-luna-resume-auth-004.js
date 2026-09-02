@@ -17,6 +17,7 @@ const {
 } = require("./lib/phase1-luna-owner-authorization-file");
 const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-applicability");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
+const { createMatchingExecutionGit } = require("./lib/test-helpers/phase1-execution-integrity-mock");
 const { ROOT } = require("./lib/audit-common");
 
 let testsRun = 0;
@@ -138,6 +139,7 @@ function authOpts(overrides = {}) {
     scopes: overrides.scopes || allScopes(),
     transport: "REAL",
     phase0Frozen: overrides.phase0Frozen,
+    gitIdentityDeps: overrides.gitIdentityDeps || { git: createMatchingExecutionGit(), skipFetch: true },
     ...overrides.extra,
   };
 }

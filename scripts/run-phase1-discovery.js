@@ -17,7 +17,7 @@ const {
   summarizeApplicability,
 } = require("./lib/content-discovery/phase1-applicability");
 const { collectPhase1Scope } = require("./lib/content-discovery/phase1-collect");
-const { writePhase1ScopeInventory } = require("./lib/content-discovery/phase1-scope-inventory");
+const { writePhase1ScopeInventory, readPhase1ScopeInventoryRef } = require("./lib/content-discovery/phase1-scope-inventory");
 const { validateFindings } = require("./lib/content-discovery/phase1-findings-validation");
 const { deduplicateFindings } = require("./lib/content-discovery/phase1-findings-dedup");
 const { evaluateAllCoverageGates } = require("./lib/content-discovery/phase1-coverage-gates");
@@ -198,8 +198,69 @@ async function runPhase1Discovery(options = {}) {
 
   const allScopes = getDeterministicScopeOrder();
   const scopes = filterScopes(allScopes, options);
-  const inventoryWrite = writePhase1ScopeInventory();
+  const cliScope = {
+    groups: options.groups,
+    datasetsByGroup: options.datasetsByGroup,
+    langs: options.langs,
+  };
 
+  const useCheckpoint =
+    options.checkpointEnabled ||
+    options.resumeLuna ||
+    options.freshLuna ||
+    Boolean(options.checkpointRunId);
+
+  let checkpointRunId = options.checkpointRunId || null;
+  let checkpointRun = null;
+
+  if (useCheckpoint && options.resumeLuna) {
+    if (!checkpointRunId && !options.resumeRunId) {
+      return {
+        blocked: true,
+        verdict: "RESUME_RUN_ID_REQUIRED",
+        message: "--resume-luna requires --resume-run-id",
+        realCalls: 0,
+      };
+    }
+    checkpointRunId = options.resumeRunId || checkpointRunId;
+    const transportName = options.withLuna ? "REAL" : "MOCK";
+    const resume = prepareResumeContext({
+      runId: checkpointRunId,
+      scopes,
+      cliScope,
+      transport: transportName,
+      model: options.lunaModel || DEFAULT_MODEL,
+      options: {
+        skipApiKeyCheck: !options.withLuna,
+        approvedInfraHeadSha: options.approvedInfraHeadSha,
+        ownerAuthorizationFile: options.ownerAuthorizationFile,
+        gitIdentity: options.gitIdentity,
+        baseline,
+        phase0Matrix: options.phase0Matrix,
+      },
+    });
+    if (!resume.ok) {
+      return {
+        blocked: true,
+        verdict: resume.code,
+        blockers: resume.blockers,
+        details: resume.details,
+        realCalls: 0,
+      };
+    }
+    checkpointRun = resume;
+  }
+
+  const inventoryWrite = options.resumeLuna
+    ? readPhase1ScopeInventoryRef()
+    : writePhase1ScopeInventory();
+  if (options.resumeLuna && !inventoryWrite.ok) {
+    return {
+      blocked: true,
+      verdict: inventoryWrite.code || "SCOPE_INVENTORY_MISSING",
+      realCalls: 0,
+    };
+  }
   const matrix = buildPhase1MatrixSkeleton({
     originMainSha: baseline.originMainSha,
     masterVersion: baseline.masterStandardVersion || "1.17",
@@ -225,81 +286,33 @@ async function runPhase1Discovery(options = {}) {
     failures: [],
   };
 
-  const cliScope = {
-    groups: options.groups,
-    datasetsByGroup: options.datasetsByGroup,
-    langs: options.langs,
-  };
-
-  const useCheckpoint =
-    options.checkpointEnabled ||
-    options.resumeLuna ||
-    options.freshLuna ||
-    Boolean(options.checkpointRunId);
-
-  let checkpointRunId = options.checkpointRunId || null;
-  let checkpointRun = null;
-
-  if (useCheckpoint) {
+  if (useCheckpoint && !options.resumeLuna) {
     const transportName = options.withLuna ? "REAL" : "MOCK";
-    if (options.resumeLuna) {
-      if (!checkpointRunId && !options.resumeRunId) {
-        return {
-          blocked: true,
-          verdict: "RESUME_RUN_ID_REQUIRED",
-          message: "--resume-luna requires --resume-run-id",
-        };
-      }
-      checkpointRunId = options.resumeRunId || checkpointRunId;
-      const resume = prepareResumeContext({
-        runId: checkpointRunId,
+    try {
+      checkpointRun = initFreshRun({
         scopes,
         cliScope,
         transport: transportName,
         model: options.lunaModel || DEFAULT_MODEL,
-        options: {
-          skipApiKeyCheck: !options.withLuna,
-          approvedInfraHeadSha: options.approvedInfraHeadSha,
-          ownerAuthorizationFile: options.ownerAuthorizationFile,
-          gitIdentity: options.gitIdentity,
-          baseline,
-          phase0Matrix: options.phase0Matrix,
-        },
+        command: options.command,
+        baseline,
+        gitIdentity: options.gitIdentity,
       });
-      if (!resume.ok) {
+      checkpointRunId = checkpointRun.runId;
+    } catch (error) {
+      if (error.code === "PHASE1_RUN_ALREADY_ACTIVE") {
         return {
           blocked: true,
-          verdict: resume.code,
-          blockers: resume.blockers,
-          details: resume.details,
+          verdict: "PHASE1_RUN_ALREADY_ACTIVE",
+          lock: error.lock,
           realCalls: 0,
         };
       }
-      checkpointRun = resume;
-    } else {
-      try {
-        checkpointRun = initFreshRun({
-          scopes,
-          cliScope,
-          transport: transportName,
-          model: options.lunaModel || DEFAULT_MODEL,
-          command: options.command,
-          baseline,
-          gitIdentity: options.gitIdentity,
-        });
-        checkpointRunId = checkpointRun.runId;
-      } catch (error) {
-        if (error.code === "PHASE1_RUN_ALREADY_ACTIVE") {
-          return {
-            blocked: true,
-            verdict: "PHASE1_RUN_ALREADY_ACTIVE",
-            lock: error.lock,
-            realCalls: 0,
-          };
-        }
-        throw error;
-      }
+      throw error;
     }
+  }
+
+  if (useCheckpoint && checkpointRunId) {
     matrix.checkpoint = {
       runId: checkpointRunId,
       mode: options.resumeLuna ? "RESUME" : "FRESH",

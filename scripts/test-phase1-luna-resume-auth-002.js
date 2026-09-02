@@ -12,6 +12,7 @@ const {
 const { authorizeInfraResume } = require("./lib/phase1-luna-resume-auth");
 const { buildOwnerAuthorizationDocument } = require("./lib/phase1-luna-owner-authorization-file");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
+const { createMatchingExecutionGit } = require("./lib/test-helpers/phase1-execution-integrity-mock");
 
 let testsRun = 0;
 let testsFailed = 0;
@@ -87,6 +88,7 @@ function authFromCli(cli, overrides = {}) {
     cliScope: manifest?.cliScope,
     scopes: getDeterministicScopeOrder(),
     transport: "REAL",
+    gitIdentityDeps: overrides.gitIdentityDeps || { git: createMatchingExecutionGit(), skipFetch: true },
   });
 }
 

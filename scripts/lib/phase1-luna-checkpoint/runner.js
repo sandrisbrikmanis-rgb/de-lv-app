@@ -106,8 +106,14 @@ function createCheckpointHooks({
         expectedIds,
         requestInputHash: requestHash,
       });
-      const classification = classifyCheckpointValidation(validation, existing);
-      if (classification === "RESUMABLE_INVALID" || classification === "PARTIAL") {
+      const classification = classifyCheckpointValidation(validation, existing, {
+        scopeId: scope.scopeId,
+      });
+      if (
+        classification === "RESUMABLE_INVALID" ||
+        classification === "UNTRUSTED_LOCAL_PATCH_RUN" ||
+        classification === "PARTIAL"
+      ) {
         return false;
       }
       if (classification !== "VALID_PASS") {

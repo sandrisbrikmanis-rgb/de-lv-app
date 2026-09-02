@@ -177,7 +177,10 @@ function validateCheckpointIntegrity(runId, lunaScopes, manifest) {
         requestInputHash: expectedBatch.requestInputHash,
       });
 
-      const classification = classifyCheckpointValidation(validation, cp);
+      const classification = classifyCheckpointValidation(validation, cp, {
+        filePath: file,
+        scopeId: expectedBatch.scopeId,
+      });
       const entry = {
         file,
         scopeId,
@@ -205,8 +208,8 @@ function validateCheckpointIntegrity(runId, lunaScopes, manifest) {
         continue;
       }
 
-      if (classification === "RESUMABLE_INVALID") {
-        resumableInvalid.push(entry);
+      if (classification === "RESUMABLE_INVALID" || classification === "UNTRUSTED_LOCAL_PATCH_RUN") {
+        resumableInvalid.push({ ...entry, classification });
         continue;
       }
 

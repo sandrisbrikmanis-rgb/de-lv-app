@@ -57,7 +57,14 @@ function buildBatchCheckpoint({
   };
 }
 
-function classifyCheckpointValidation(validation, checkpoint) {
+function classifyCheckpointValidation(validation, checkpoint, context = {}) {
+  const untrusted = require("../phase1-luna-untrusted-checkpoint-registry");
+  if (
+    (context.filePath && untrusted.isUntrustedLocalPatchCheckpoint(context.filePath)) ||
+    untrusted.isUntrustedLocalPatchCheckpoint(checkpoint, context.scopeId)
+  ) {
+    return "UNTRUSTED_LOCAL_PATCH_RUN";
+  }
   if (!checkpoint || typeof checkpoint !== "object") return "CORRUPT";
   if (checkpoint.status === "CORRUPT") return "CORRUPT";
   if (checkpoint.status !== "PASS") return "PARTIAL";
