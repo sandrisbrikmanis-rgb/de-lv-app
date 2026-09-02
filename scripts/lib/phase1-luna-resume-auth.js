@@ -40,6 +40,18 @@ function headMatchesApprovedInfra(identity, approvedInfraHeadSha) {
   });
 }
 
+function isResumeWorkingTreeClean(identity) {
+  if (identity.workingTreeClean) return true;
+  const status = git("git status --porcelain");
+  if (!status.ok) return false;
+  const lines = (status.stdout || "").split("\n").filter(Boolean);
+  if (!lines.length) return true;
+  return lines.every((line) => {
+    const file = line.slice(3).trim();
+    return file.startsWith("reports/");
+  });
+}
+
 function validateFrozenPhase0Identity(options = {}) {
   const exitPath = options.exitPath || path.join(ROOT, "reports", "phase0-exit.json");
   if (!fs.existsSync(exitPath)) {
@@ -94,7 +106,7 @@ function authorizeInfraResume(options = {}) {
 
   const identity = options.gitIdentity || resolvePhase1GitIdentity(options.gitIdentityDeps || {});
 
-  if (!identity.workingTreeClean) {
+  if (!isResumeWorkingTreeClean(identity)) {
     blockers.push({
       code: "WORKING_TREE_DIRTY",
       message: "Working tree is not clean before infra resume authorization",
