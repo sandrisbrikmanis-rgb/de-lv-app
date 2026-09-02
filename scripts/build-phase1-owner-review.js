@@ -70,9 +70,11 @@ function buildPhase1OwnerDecisions(findings = []) {
     "|----------|-------------------|-----------|------|-------|----------|----------|---------|--------|--------------|",
   ];
 
+  const escapeCell = (value) => String(value ?? "—").replace(/\|/g, "\\|");
+
   for (const f of rows) {
     lines.push(
-      `| ${f.auditId || "—"} | ${f.findingStableId || "—"} | ${f.dedupKey || "—"} | ${f.cardId || "—"} | ${f.fieldPath || "—"} | ${f.category || "—"} | ${f.severity || "—"} | ${String(f.current || "").replace(/\|/g, "\\|")} | ${f.source || "—"} | PENDING |`,
+      `| ${escapeCell(f.auditId)} | ${escapeCell(f.findingStableId)} | ${escapeCell(f.dedupKey)} | ${escapeCell(f.cardId)} | ${escapeCell(f.fieldPath)} | ${escapeCell(f.category)} | ${escapeCell(f.severity)} | ${escapeCell(f.current)} | ${escapeCell(f.source)} | PENDING |`,
     );
   }
 

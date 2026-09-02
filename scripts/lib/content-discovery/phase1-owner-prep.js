@@ -107,7 +107,7 @@ function evaluateOwnerPrepCoverage(options = {}) {
   const auditIds = validatedFindings.map((f) => f.auditId).filter(Boolean);
   const missing = auditIds.filter((id) => !decisionsText.includes(id));
   const duplicateAuditIds = auditIds.length - new Set(auditIds).size;
-  const rowCount = (decisionsText.match(/\| PH1-/g) || []).length;
+  const rowCount = (decisionsText.match(/^\| PH1-/gm) || []).length;
   const allPending =
     !/OWNER STATUS:\s*(LABOT|NELABOT|FALSE_POSITIVE)/i.test(viewText) &&
     !/\|\s*(LABOT|NELABOT|FALSE_POSITIVE)\s*\|/i.test(decisionsText);
