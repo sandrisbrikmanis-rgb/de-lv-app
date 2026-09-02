@@ -47,7 +47,7 @@ function isResumeWorkingTreeClean(identity) {
   const lines = (status.stdout || "").split("\n").filter(Boolean);
   if (!lines.length) return true;
   return lines.every((line) => {
-    const file = line.slice(3).trim();
+    const file = line.replace(/^\s*(.)(.)\s+/, "").trim();
     return file.startsWith("reports/");
   });
 }
