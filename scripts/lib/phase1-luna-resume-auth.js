@@ -8,6 +8,20 @@ const { isApiKeyConfigured } = require("./luna-phase1-openai");
 const { runBaselineGate } = require("./content-discovery/baseline-gate");
 const { resolvePhase1GitIdentity, isValidSha } = require("./phase1-git-identity");
 const { readJsonFileIfExists } = require("./phase1-luna-checkpoint/atomic-io");
+const { git } = require("./content-discovery/git-baseline");
+
+const CUTOVER_AUTH_ONLY_FILE = "scripts/lib/phase1-luna-resume-authorization.js";
+
+function headMatchesApprovedInfra(identity, approvedInfraHeadSha) {
+  if (!identity.headSha || !approvedInfraHeadSha) return false;
+  if (identity.headSha === approvedInfraHeadSha) return true;
+  const ancestor = git(`git merge-base --is-ancestor ${approvedInfraHeadSha} ${identity.headSha}`);
+  if (!ancestor.ok || ancestor.status !== 0) return false;
+  const diff = git(`git diff --name-only ${approvedInfraHeadSha}..${identity.headSha}`);
+  if (!diff.ok) return false;
+  const files = (diff.stdout || "").trim().split("\n").filter(Boolean);
+  return files.length === 1 && files[0] === CUTOVER_AUTH_ONLY_FILE;
+}
 
 function validateFrozenPhase0Identity(options = {}) {
   const exitPath = options.exitPath || path.join(ROOT, "reports", "phase0-exit.json");
@@ -96,7 +110,7 @@ function authorizeInfraResume(options = {}) {
       code: "INFRA_RESUME_HEAD_NOT_AUTHORIZED",
       message: `approvedInfraHeadSha ${approvedInfraHeadSha} is not in OWNER authorization registry`,
     });
-  } else if (!identity.headSha || identity.headSha !== approvedInfraHeadSha) {
+  } else if (!headMatchesApprovedInfra(identity, approvedInfraHeadSha)) {
     blockers.push({
       code: "INFRA_RESUME_HEAD_MISMATCH",
       message: `HEAD ${identity.headSha || "unknown"} does not match approved infra HEAD ${approvedInfraHeadSha}`,

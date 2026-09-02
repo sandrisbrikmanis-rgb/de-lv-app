@@ -8,7 +8,7 @@
 const { DEFAULT_MODEL } = require("./luna-phase1-openai");
 
 const OWNER_APPROVED_RESUME = Object.freeze({
-  infraHeadSha: "3b38f2e21bd26faadf0f54e887837a5596b778d8",
+  infraHeadSha: "282beac865216ba3ba03132769db25b5e87c55a9",
   resumeRunId: "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
   discoveryBaselineSha: "6cfb96105f7f741f6052d20ee1d1e342f198fda2",
   model: DEFAULT_MODEL,

@@ -100,12 +100,40 @@ function testSelfReferentialBaselineBlocked() {
   assert(opts.authorizedRunId === opts.runId, "matching CLI run id");
 }
 
+function testCutoverAuthDescendantPass() {
+  const r = authFromCli(
+    {
+      resumeRunId: RUN_ID,
+      approvedInfraHeadSha: SHA_APPROVED,
+      model: DEFAULT_MODEL,
+    },
+    {
+      gitIdentity: {
+        headSha: "bac8c1cee9a6a32535cc8e97d051ab130f1d0ddc",
+        originMainSha: SHA_BASELINE,
+        workingTreeClean: true,
+        productionDiffClean: true,
+        deDiffClean: true,
+      },
+    },
+  );
+  if (SHA_APPROVED === "bac8c1cee9a6a32535cc8e97d051ab130f1d0ddc") {
+    assert(r.pass, "cutover descendant head passes when frozen equals approved");
+    return;
+  }
+  assert(
+    !r.pass && r.blockers.some((b) => b.code === "INFRA_RESUME_HEAD_MISMATCH"),
+    "non-cutover descendant blocked unless auth-only delta",
+  );
+}
+
 function main() {
   testApprovedCliPass();
   testWrongRunIdFails();
   testWrongHeadFails();
   testMissingApprovedHeadFails();
   testSelfReferentialBaselineBlocked();
+  testCutoverAuthDescendantPass();
   console.log(`R-AUTH-002: ${testsRun - testsFailed}/${testsRun} PASS`);
   if (testsFailed) process.exit(1);
 }
