@@ -97,6 +97,7 @@ async function auditObjectsBatch({
   model = DEFAULT_MODEL,
   writeRawPath = null,
   client = null,
+  signal = null,
 }) {
   if (!Array.isArray(objects) || objects.length === 0) {
     throw new Error("Luna batch objects must be non-empty");
@@ -111,15 +112,19 @@ async function auditObjectsBatch({
   };
 
   const openai = client || getOpenAIClient();
-  const response = await openai.responses.create({
-    model,
-    instructions: PHASE1_SYSTEM_PROMPT,
-    input: [
-      "Phase 1 READ-ONLY audit. Return valid json object with an items array — explicit entry for every object id.",
-      JSON.stringify(payload),
-    ].join("\n"),
-    text: { format: { type: "json_object" } },
-  });
+  const requestOptions = signal ? { signal } : undefined;
+  const response = await openai.responses.create(
+    {
+      model,
+      instructions: PHASE1_SYSTEM_PROMPT,
+      input: [
+        "Phase 1 READ-ONLY audit. Return valid json object with an items array — explicit entry for every object id.",
+        JSON.stringify(payload),
+      ].join("\n"),
+      text: { format: { type: "json_object" } },
+    },
+    requestOptions,
+  );
 
   const rawText = response.output_text || "";
   if (writeRawPath) {

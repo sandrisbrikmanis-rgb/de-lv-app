@@ -50,6 +50,7 @@
     "test:phase1-findings-dedup-scope": "node scripts/test-phase1-findings-dedup-scope.js",
     "test:phase1-luna-resume-auth-002": "node scripts/test-phase1-luna-resume-auth-002.js",
     "test:phase1-owner-prep-coverage": "node scripts/test-phase1-owner-prep-coverage.js",
+    "test:phase1-luna-timeout-001": "node scripts/test-phase1-luna-timeout-001.js",
     "i18n:content:phase1-real-luna-smoke": "node scripts/run-phase1-real-luna-smoke.js"
   },
   "keywords": [],
