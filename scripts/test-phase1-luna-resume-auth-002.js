@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 "use strict";
 
+const fs = require("fs");
+const path = require("path");
 const {
   OWNER_APPROVED_RESUME,
   buildResumeAuthOptionsFromCli,
 } = require("./lib/phase1-luna-resume-authorization");
 const { authorizeInfraResume } = require("./lib/phase1-luna-resume-auth");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
-const { git } = require("./lib/content-discovery/git-baseline");
 
 let testsRun = 0;
 let testsFailed = 0;
@@ -36,12 +37,32 @@ function gitIdentity(overrides = {}) {
 }
 
 function authFromCli(cli, overrides = {}) {
+  const manifestPath = path.join(
+    __dirname,
+    "..",
+    "reports",
+    "temp",
+    "phase1-luna-runs",
+    RUN_ID,
+    "run-manifest.json",
+  );
+  let manifest = null;
+  if (fs.existsSync(manifestPath)) {
+    manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+  }
+  const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-applicability");
   return authorizeInfraResume({
     ...buildResumeAuthOptionsFromCli(cli, overrides),
     skipApiKeyCheck: true,
     gitIdentity: gitIdentity(overrides.gitIdentity),
     baseline: { originMainSha: SHA_BASELINE, verdict: "PASS" },
     phase0Frozen: overrides.phase0Frozen,
+    manifest,
+    requireManifestIdentity: Boolean(manifest),
+    runId: cli.resumeRunId || RUN_ID,
+    cliScope: manifest?.cliScope,
+    scopes: getDeterministicScopeOrder(),
+    transport: "REAL",
   });
 }
 
@@ -62,7 +83,7 @@ function testWrongRunIdFails() {
     model: DEFAULT_MODEL,
   });
   assert(!r.pass, "wrong run id fails");
-  assert(r.blocker === "RUN_ID_MISMATCH", "RUN_ID_MISMATCH");
+  assert(r.blockers.some((b) => b.code === "RUN_ID_MISMATCH"), "RUN_ID_MISMATCH");
 }
 
 function testWrongHeadFails() {
@@ -101,34 +122,12 @@ function testSelfReferentialBaselineBlocked() {
   assert(opts.authorizedRunId === opts.runId, "matching CLI run id");
 }
 
-function testCutoverAuthDescendantPass() {
-  const cutoverHead = git("git rev-parse HEAD").stdout;
-  const r = authFromCli(
-    {
-      resumeRunId: RUN_ID,
-      approvedInfraHeadSha: SHA_APPROVED,
-      model: DEFAULT_MODEL,
-    },
-    {
-      gitIdentity: {
-        headSha: cutoverHead,
-        originMainSha: SHA_BASELINE,
-        workingTreeClean: true,
-        productionDiffClean: true,
-        deDiffClean: true,
-      },
-    },
-  );
-  assert(r.pass, "cutover descendant head passes when diff is cutover-allowlisted only");
-}
-
 function main() {
   testApprovedCliPass();
   testWrongRunIdFails();
   testWrongHeadFails();
   testMissingApprovedHeadFails();
   testSelfReferentialBaselineBlocked();
-  testCutoverAuthDescendantPass();
   console.log(`R-AUTH-002: ${testsRun - testsFailed}/${testsRun} PASS`);
   if (testsFailed) process.exit(1);
 }

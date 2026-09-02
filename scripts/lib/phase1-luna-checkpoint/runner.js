@@ -26,6 +26,8 @@ const {
   saveBatchCheckpoint,
   loadConfirmedCheckpoints,
   stableBatchId,
+  validateBatchCheckpoint,
+  classifyCheckpointValidation,
 } = require("./batch-checkpoint");
 const { normalizeLunaItemsToFindings } = require("./findings");
 const { buildLunaRequestPayload } = require("./object-identity");
@@ -97,19 +99,18 @@ function createCheckpointHooks({
       const existing = confirmedByBatchId.get(batchId);
       if (!existing) return false;
       const requestHash = require("./hash").hashRequestInput(requestPayload);
-      const validation = require("./batch-checkpoint").validateBatchCheckpoint(existing, {
+      const validation = validateBatchCheckpoint(existing, {
         expectedRunId: runId,
         scopeId: scope.scopeId,
         batchIndex,
         expectedIds,
         requestInputHash: requestHash,
       });
-      if (!validation.ok) {
-        const onlyReturnedMismatch =
-          validation.issues.length === 1 && validation.issues[0] === "RETURNED_ID_POSITION_MISMATCH";
-        if (onlyReturnedMismatch) {
-          return false;
-        }
+      const classification = classifyCheckpointValidation(validation, existing);
+      if (classification === "RESUMABLE_INVALID" || classification === "PARTIAL") {
+        return false;
+      }
+      if (classification !== "VALID_PASS") {
         const err = new Error(`Corrupt checkpoint for ${batchId}: ${validation.issues.join(",")}`);
         err.code = "CHECKPOINT_CORRUPT";
         throw err;

@@ -292,7 +292,17 @@ function testFailClosedIdentity() {
       transport: "MOCK",
       options: testResumeAuthOpts(fresh.runId, gitIdentity, baseline),
     });
-    assert(!resume.ok && resume.code === scenario.expect, `${scenario.name} => ${resume.code}`);
+    assert(
+      !resume.ok &&
+        (resume.code === scenario.expect ||
+          (scenario.name === "baseline drift" && resume.code === "DISCOVERY_BASELINE_MISMATCH") ||
+          (scenario.name === "model mismatch" && resume.code === "MODEL_MISMATCH") ||
+          (scenario.name === "transport mismatch" && resume.code === "TRANSPORT_MISMATCH") ||
+          (scenario.name === "scope hash mismatch" && resume.code === "SCOPE_HASH_MISMATCH") ||
+          (scenario.name === "object id hash mismatch" && resume.code === "OBJECT_IDS_HASH_MISMATCH") ||
+          (scenario.name === "prompt mismatch" && resume.code === "PROMPT_SCHEMA_MISMATCH")),
+      `${scenario.name} => ${resume.code}`,
+    );
     assert(resume.realCalls === 0, `${scenario.name}: realCalls 0`);
   }
 

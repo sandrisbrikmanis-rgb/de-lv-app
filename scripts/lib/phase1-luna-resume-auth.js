@@ -8,53 +8,13 @@ const { isApiKeyConfigured } = require("./luna-phase1-openai");
 const { runBaselineGate } = require("./content-discovery/baseline-gate");
 const { resolvePhase1GitIdentity, isValidSha } = require("./phase1-git-identity");
 const { readJsonFileIfExists } = require("./phase1-luna-checkpoint/atomic-io");
-const { git } = require("./content-discovery/git-baseline");
-
-const CUTOVER_AUTH_ONLY_FILE = "scripts/lib/phase1-luna-resume-authorization.js";
-
-const CUTOVER_ALLOWED_PATHS = new Set([
-  CUTOVER_AUTH_ONLY_FILE,
-  "scripts/lib/phase1-luna-resume-auth.js",
-  "scripts/test-phase1-luna-resume-auth-002.js",
-  "reports/phase1-discovery-READONLY.md",
-  "reports/phase1-discovery-matrix.json",
-  "reports/phase1-luna-stats.json",
-  "reports/phase1-scope-inventory.json",
-  "reports/unmerged-closure-classification-READONLY.json",
-  "reports/unmerged-closure-classification-READONLY.md",
-]);
-
-function headMatchesApprovedInfra(identity, approvedInfraHeadSha) {
-  if (!identity.headSha || !approvedInfraHeadSha) return false;
-  if (identity.headSha === approvedInfraHeadSha) return true;
-  const ancestor = git(`git merge-base --is-ancestor ${approvedInfraHeadSha} ${identity.headSha}`);
-  if (!ancestor.ok) return false;
-  const diff = git(`git diff --name-only ${approvedInfraHeadSha}..${identity.headSha}`);
-  if (!diff.ok) return false;
-  const files = (diff.stdout || "").trim().split("\n").filter(Boolean);
-  if (!files.length) return false;
-  return files.every((file) => {
-    if (file.startsWith("scripts/")) return true;
-    if (file.startsWith("reports/")) return true;
-    return CUTOVER_ALLOWED_PATHS.has(file);
-  });
-}
-
-function gitPorcelainPath(line) {
-  const trimmed = line.trimEnd();
-  if (trimmed.length > 3 && trimmed[2] === " ") return trimmed.slice(3).trim();
-  if (trimmed.length > 2 && trimmed[1] === " ") return trimmed.slice(2).trim();
-  return trimmed.trim();
-}
-
-function isResumeWorkingTreeClean(identity) {
-  if (identity.workingTreeClean) return true;
-  const status = git("git status --porcelain");
-  if (!status.ok) return false;
-  const lines = (status.stdout || "").split("\n").filter(Boolean);
-  if (!lines.length) return true;
-  return lines.every((line) => gitPorcelainPath(line).startsWith("reports/"));
-}
+const {
+  validateManifestSchema,
+  compareManifestIdentity,
+  buildBatchingConfigSnapshot,
+  buildPromptSchemaHash,
+  computeScopeIdentity,
+} = require("./phase1-luna-checkpoint/manifest");
 
 function validateFrozenPhase0Identity(options = {}) {
   const exitPath = options.exitPath || path.join(ROOT, "reports", "phase0-exit.json");
@@ -91,9 +51,127 @@ function validateFrozenPhase0Identity(options = {}) {
   return { ok: true, frozen };
 }
 
+function buildManifestExpectedIdentity(manifest, scopes, cliScope) {
+  const scopeIdentity = computeScopeIdentity(scopes);
+  return {
+    discoveryBaselineSha: manifest.discoveryBaselineSha,
+    headSha: manifest.headSha,
+    originMainSha: manifest.originMainSha,
+    model: manifest.model,
+    transport: manifest.transport,
+    cliScope: manifest.cliScope,
+    scopeHash: manifest.scopeHash,
+    objectIdsHash: manifest.objectIdsHash,
+    batchingConfig: manifest.batchingConfig,
+    promptSchemaHash: manifest.promptSchemaHash,
+    runId: manifest.runId,
+    scopeIdentity,
+    runtimeCliScope: cliScope,
+  };
+}
+
+function validateRuntimeAgainstManifest(manifest, { runId, model, cliScope, scopes, transport }) {
+  const blockers = [];
+  const realCalls = 0;
+
+  const schema = validateManifestSchema(manifest);
+  if (!schema.ok) {
+    blockers.push({
+      code: "MANIFEST_CORRUPT",
+      message: `Run manifest schema invalid: ${schema.reason || "unknown"}`,
+    });
+    return { ok: false, blockers, realCalls };
+  }
+
+  if (manifest.runId !== runId) {
+    blockers.push({
+      code: "RUN_ID_MISMATCH",
+      message: `RUN_ID ${runId} != manifest ${manifest.runId}`,
+    });
+  }
+
+  if (manifest.model !== model) {
+    blockers.push({
+      code: "MODEL_MISMATCH",
+      message: `Model ${model} != manifest ${manifest.model}`,
+    });
+  }
+
+  if (manifest.transport !== transport) {
+    blockers.push({
+      code: "TRANSPORT_MISMATCH",
+      message: `Transport ${transport} != manifest ${manifest.transport}`,
+    });
+  }
+
+  const scopeIdentity = computeScopeIdentity(scopes);
+  if (manifest.scopeHash !== scopeIdentity.scopeHash) {
+    blockers.push({
+      code: "SCOPE_HASH_MISMATCH",
+      message: `scopeHash ${scopeIdentity.scopeHash} != manifest ${manifest.scopeHash}`,
+    });
+  }
+
+  if (manifest.objectIdsHash !== scopeIdentity.objectIdsHash) {
+    blockers.push({
+      code: "OBJECT_IDS_HASH_MISMATCH",
+      message: `objectIdsHash mismatch vs manifest`,
+    });
+  }
+
+  const expectedFromManifest = buildManifestExpectedIdentity(manifest, scopes, cliScope);
+  const identityCmp = compareManifestIdentity(manifest, {
+    discoveryBaselineSha: manifest.discoveryBaselineSha,
+    headSha: manifest.headSha,
+    originMainSha: manifest.originMainSha,
+    model,
+    transport,
+    cliScope,
+    scopeHash: scopeIdentity.scopeHash,
+    objectIdsHash: scopeIdentity.objectIdsHash,
+    batchingConfig: buildBatchingConfigSnapshot(),
+    promptSchemaHash: buildPromptSchemaHash(),
+  });
+
+  for (const mismatch of identityCmp.mismatches || []) {
+    if (mismatch.field === "cliScope") {
+      blockers.push({
+        code: "CLI_SCOPE_MISMATCH",
+        message: "CLI scope does not match run manifest cliScope",
+      });
+    } else if (mismatch.field === "batchingConfig") {
+      blockers.push({
+        code: "BATCHING_CONFIG_MISMATCH",
+        message: "Batching config does not match run manifest",
+      });
+    } else if (mismatch.field === "promptSchemaHash") {
+      blockers.push({
+        code: "PROMPT_SCHEMA_MISMATCH",
+        message: "Prompt schema hash does not match run manifest",
+      });
+    }
+  }
+
+  const baselineSha = manifest.discoveryBaselineSha;
+  if (!baselineSha || !isValidSha(baselineSha)) {
+    blockers.push({
+      code: "DISCOVERY_BASELINE_MISMATCH",
+      message: "Manifest discoveryBaselineSha is missing or invalid",
+    });
+  }
+
+  return {
+    ok: blockers.length === 0,
+    blockers,
+    realCalls,
+    manifest,
+    expectedFromManifest,
+  };
+}
+
 /**
- * Fail-closed authorization for --resume-luna from an approved infrastructure repair HEAD.
- * WORKING_TREE_DIRTY is always blocking. HEAD must match explicit approvedInfraHeadSha.
+ * Fail-closed authorization for --resume-luna.
+ * R-AUTH-003: exact HEAD equality, clean worktree, manifest-backed run identity.
  */
 function authorizeInfraResume(options = {}) {
   const blockers = [];
@@ -110,7 +188,7 @@ function authorizeInfraResume(options = {}) {
 
   const identity = options.gitIdentity || resolvePhase1GitIdentity(options.gitIdentityDeps || {});
 
-  if (!isResumeWorkingTreeClean(identity)) {
+  if (!identity.workingTreeClean) {
     blockers.push({
       code: "WORKING_TREE_DIRTY",
       message: "Working tree is not clean before infra resume authorization",
@@ -143,7 +221,7 @@ function authorizeInfraResume(options = {}) {
       code: "INFRA_RESUME_HEAD_NOT_AUTHORIZED",
       message: `approvedInfraHeadSha ${approvedInfraHeadSha} is not in OWNER authorization registry`,
     });
-  } else if (!headMatchesApprovedInfra(identity, approvedInfraHeadSha)) {
+  } else if (!identity.headSha || identity.headSha !== approvedInfraHeadSha) {
     blockers.push({
       code: "INFRA_RESUME_HEAD_MISMATCH",
       message: `HEAD ${identity.headSha || "unknown"} does not match approved infra HEAD ${approvedInfraHeadSha}`,
@@ -155,17 +233,6 @@ function authorizeInfraResume(options = {}) {
     blockers.push({
       code: "BASELINE_GATE_FAIL",
       message: `Baseline gate verdict=${baseline.verdict}`,
-    });
-  }
-
-  const discoveryBaselineSha = options.discoveryBaselineSha || baseline.originMainSha;
-  if (
-    options.expectedDiscoveryBaselineSha &&
-    discoveryBaselineSha !== options.expectedDiscoveryBaselineSha
-  ) {
-    blockers.push({
-      code: "DISCOVERY_BASELINE_MISMATCH",
-      message: `Discovery baseline ${discoveryBaselineSha} != expected ${options.expectedDiscoveryBaselineSha}`,
     });
   }
 
@@ -184,17 +251,33 @@ function authorizeInfraResume(options = {}) {
     });
   }
 
-  if (options.runId && options.authorizedRunId && options.runId !== options.authorizedRunId) {
+  let manifestValidation = null;
+  if (options.manifest && options.runId && options.model && options.cliScope && options.scopes) {
+    manifestValidation = validateRuntimeAgainstManifest(options.manifest, {
+      runId: options.runId,
+      model: options.model,
+      cliScope: options.cliScope,
+      scopes: options.scopes,
+      transport: options.transport || "REAL",
+    });
+    if (!manifestValidation.ok) {
+      blockers.push(...manifestValidation.blockers);
+    }
+  } else if (options.requireManifestIdentity) {
     blockers.push({
-      code: "RUN_ID_MISMATCH",
-      message: `RUN_ID ${options.runId} != authorized ${options.authorizedRunId}`,
+      code: "MANIFEST_IDENTITY_REQUIRED",
+      message: "Run manifest identity validation is required for resume authorization",
     });
   }
 
-  if (options.model && options.expectedModel && options.model !== options.expectedModel) {
+  if (
+    options.manifest?.discoveryBaselineSha &&
+    baseline.originMainSha &&
+    options.manifest.discoveryBaselineSha !== baseline.originMainSha
+  ) {
     blockers.push({
-      code: "MODEL_MISMATCH",
-      message: `Model ${options.model} != expected ${options.expectedModel}`,
+      code: "DISCOVERY_BASELINE_MISMATCH",
+      message: `Baseline ${baseline.originMainSha} != manifest ${options.manifest.discoveryBaselineSha}`,
     });
   }
 
@@ -207,6 +290,7 @@ function authorizeInfraResume(options = {}) {
     gitIdentity: identity,
     phase0Frozen: phase0.frozen || null,
     approvedInfraHeadSha,
+    manifestValidation,
     realCalls,
     transport: "REAL",
   };
@@ -214,5 +298,7 @@ function authorizeInfraResume(options = {}) {
 
 module.exports = {
   validateFrozenPhase0Identity,
+  validateRuntimeAgainstManifest,
+  buildManifestExpectedIdentity,
   authorizeInfraResume,
 };

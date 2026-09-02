@@ -3,11 +3,13 @@
 
 const fs = require("fs");
 const path = require("path");
-const { authorizeInfraResume } = require("../phase1-luna-resume-auth");
+const { DEFAULT_MODEL } = require("../luna-phase1-openai");
+const {
+  authorizeInfraResume,
+} = require("../phase1-luna-resume-auth");
 const { buildResumeAuthOptionsFromCli } = require("../phase1-luna-resume-authorization");
 const { resolvePhase1GitIdentity } = require("../phase1-git-identity");
 const { runBaselineGate } = require("../content-discovery/baseline-gate");
-const { runPhase0ExitEvaluation } = require("../../run-phase0-exit-matrix");
 const {
   validateManifestSchema,
   compareManifestIdentity,
@@ -16,7 +18,10 @@ const {
   computeScopeIdentity,
 } = require("./manifest");
 const { readJsonFile, readJsonFileIfExists, listCheckpointFiles } = require("./atomic-io");
-const { validateBatchCheckpoint } = require("./batch-checkpoint");
+const {
+  validateBatchCheckpoint,
+  classifyCheckpointValidation,
+} = require("./batch-checkpoint");
 const { buildExpectedBatchPlanForScopes } = require("./batch-plan");
 
 function manifestPathFor(runId) {
@@ -47,12 +52,14 @@ function validateResumeAuthorization(options = {}) {
   const auth = authorizeInfraResume({
     resumeLuna: true,
     approvedInfraHeadSha: options.approvedInfraHeadSha,
+    ownerApprovedInfraHeadSha: options.ownerApprovedInfraHeadSha,
     runId: options.runId,
-    authorizedRunId: options.authorizedRunId,
-    discoveryBaselineSha: options.baseline?.originMainSha,
-    expectedDiscoveryBaselineSha: options.expectedDiscoveryBaselineSha,
     model: options.model,
-    expectedModel: options.expectedModel,
+    cliScope: options.cliScope,
+    scopes: options.scopes,
+    transport: options.transport,
+    manifest: options.manifest,
+    requireManifestIdentity: options.requireManifestIdentity,
     skipApiKeyCheck: options.skipApiKeyCheck,
     gitIdentity: options.gitIdentity,
     baseline: options.baseline,
@@ -79,6 +86,9 @@ function validateManifestForResume(manifest, expectedIdentity) {
 
 function validateCheckpointIntegrity(runId, lunaScopes, manifest) {
   const corrupt = [];
+  const resumableInvalid = [];
+  const validPass = [];
+  const partial = [];
   const seenBatchIds = new Map();
   const { planByScope } = buildExpectedBatchPlanForScopes(lunaScopes);
 
@@ -167,42 +177,83 @@ function validateCheckpointIntegrity(runId, lunaScopes, manifest) {
         requestInputHash: expectedBatch.requestInputHash,
       });
 
-      if (!validation.ok) {
-        const onlyReturnedMismatch =
-          validation.issues.length === 1 && validation.issues[0] === "RETURNED_ID_POSITION_MISMATCH";
-        if (onlyReturnedMismatch) {
+      const classification = classifyCheckpointValidation(validation, cp);
+      const entry = {
+        file,
+        scopeId,
+        batchId: cp.batchId || null,
+        batchIndex: cp.batchIndex,
+        issues: validation.issues,
+        classification,
+      };
+
+      if (classification === "VALID_PASS") {
+        const batchKey = `${scopeId}|${cp.batchId}`;
+        if (seenBatchIds.has(batchKey)) {
+          corrupt.push({
+            file,
+            scopeId,
+            batchId: cp.batchId,
+            reason: "DUPLICATE_BATCH_CHECKPOINT",
+            issues: ["DUPLICATE_BATCH_CHECKPOINT"],
+            priorFile: seenBatchIds.get(batchKey),
+          });
           continue;
         }
+        seenBatchIds.set(batchKey, file);
+        validPass.push(entry);
+        continue;
+      }
+
+      if (classification === "RESUMABLE_INVALID") {
+        resumableInvalid.push(entry);
+        continue;
+      }
+
+      if (classification === "PARTIAL") {
         corrupt.push({
-          file,
-          scopeId,
-          batchId: cp.batchId || null,
-          reason: "CHECKPOINT_VALIDATION_FAILED",
-          issues: validation.issues,
+          ...entry,
+          reason: "CHECKPOINT_PARTIAL",
         });
         continue;
       }
 
-      const batchKey = `${scopeId}|${cp.batchId}`;
-      if (seenBatchIds.has(batchKey)) {
-        corrupt.push({
-          file,
-          scopeId,
-          batchId: cp.batchId,
-          reason: "DUPLICATE_BATCH_CHECKPOINT",
-          issues: ["DUPLICATE_BATCH_CHECKPOINT"],
-          priorFile: seenBatchIds.get(batchKey),
-        });
-        continue;
-      }
-      seenBatchIds.set(batchKey, file);
+      corrupt.push({
+        ...entry,
+        reason: "CHECKPOINT_VALIDATION_FAILED",
+      });
     }
   }
 
   if (corrupt.length) {
-    return { ok: false, code: "CHECKPOINT_CORRUPT", corrupt };
+    return {
+      ok: false,
+      code: "CHECKPOINT_CORRUPT",
+      corrupt,
+      resumableInvalid,
+      validPass,
+      partial,
+      metrics: {
+        validPassCount: validPass.length,
+        resumableInvalidCount: resumableInvalid.length,
+        corruptCount: corrupt.length,
+        partialCount: partial.length,
+      },
+    };
   }
-  return { ok: true };
+
+  return {
+    ok: true,
+    resumableInvalid,
+    validPass,
+    partial,
+    metrics: {
+      validPassCount: validPass.length,
+      resumableInvalidCount: resumableInvalid.length,
+      corruptCount: 0,
+      partialCount: partial.length,
+    },
+  };
 }
 
 function loadManifest(runId) {
@@ -221,9 +272,14 @@ function prepareResumeContext({
   scopes,
   cliScope,
   transport,
-  model,
+  model = DEFAULT_MODEL,
   options = {},
 }) {
+  const loaded = loadManifest(runId);
+  if (!loaded.ok) {
+    return { ok: false, code: loaded.code, realCalls: 0 };
+  }
+
   const baseline = options.baseline || runBaselineGate({ writeReports: false });
   const gitIdentity = options.gitIdentity || resolvePhase1GitIdentity(options.gitIdentityDeps || {});
   const expectedIdentity = buildExpectedIdentity({
@@ -236,34 +292,37 @@ function prepareResumeContext({
     resumeMode: true,
   });
 
+  const authOpts = buildResumeAuthOptionsFromCli(
+    {
+      resumeRunId: runId,
+      approvedInfraHeadSha: options.approvedInfraHeadSha,
+      model,
+    },
+    {
+      skipApiKeyCheck: options.skipApiKeyCheck,
+      gitIdentity,
+      baseline,
+      phase0Frozen: options.phase0Frozen,
+      gitIdentityDeps: options.gitIdentityDeps,
+      ownerApprovedResume: options.ownerApprovedResume,
+    },
+  );
+
   const auth = validateResumeAuthorization({
     ...options,
-    ...buildResumeAuthOptionsFromCli(
-      {
-        resumeRunId: runId,
-        approvedInfraHeadSha: options.approvedInfraHeadSha,
-        model,
-      },
-      {
-        skipApiKeyCheck: options.skipApiKeyCheck,
-        gitIdentity,
-        baseline,
-        phase0Frozen: options.phase0Frozen,
-        gitIdentityDeps: options.gitIdentityDeps,
-        ownerApprovedResume: options.ownerApprovedResume,
-      },
-    ),
+    ...authOpts,
     runId,
+    model,
+    cliScope,
+    scopes,
+    transport,
+    manifest: loaded.manifest,
+    requireManifestIdentity: true,
     baseline,
     gitIdentity,
   });
   if (!auth.ok) {
     return { ok: false, code: auth.code, blockers: auth.blockers, realCalls: 0 };
-  }
-
-  const loaded = loadManifest(runId);
-  if (!loaded.ok) {
-    return { ok: false, code: loaded.code, realCalls: 0 };
   }
 
   const manifestCheck = validateManifestForResume(loaded.manifest, expectedIdentity);
@@ -287,6 +346,8 @@ function prepareResumeContext({
     manifest: loaded.manifest,
     expectedIdentity,
     auth: auth.auth,
+    checkpointMetrics: checkpointCheck.metrics,
+    resumableInvalid: checkpointCheck.resumableInvalid,
     realCalls: 0,
   };
 }

@@ -523,8 +523,21 @@ async function main() {
   try {
     if (args.withLuna) {
       if (args.resumeLuna) {
-        const auth = authorizeInfraResume(
-          buildResumeAuthOptionsFromCli(
+        const { loadManifest } = require("./lib/phase1-luna-checkpoint/resume");
+        const allScopes = getDeterministicScopeOrder();
+        const scopes = filterScopes(allScopes, args);
+        const cliScope = {
+          groups: args.groups,
+          datasetsByGroup: args.datasetsByGroup,
+          langs: args.langs,
+        };
+        const loaded = loadManifest(args.resumeRunId);
+        if (!loaded.ok) {
+          console.error(`BLOCKED: ${loaded.code}`);
+          process.exit(1);
+        }
+        const auth = authorizeInfraResume({
+          ...buildResumeAuthOptionsFromCli(
             {
               resumeRunId: args.resumeRunId,
               approvedInfraHeadSha: args.approvedInfraHeadSha,
@@ -532,7 +545,13 @@ async function main() {
             },
             { skipApiKeyCheck: false },
           ),
-        );
+          manifest: loaded.manifest,
+          requireManifestIdentity: true,
+          runId: args.resumeRunId,
+          cliScope,
+          scopes,
+          transport: "REAL",
+        });
         if (!auth.pass) {
           const first = auth.blockers[0];
           console.error(`BLOCKED: ${first.code}`);

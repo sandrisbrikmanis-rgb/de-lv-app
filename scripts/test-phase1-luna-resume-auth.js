@@ -17,6 +17,51 @@ const { OWNER_APPROVED_RESUME } = require("./lib/phase1-luna-resume-authorizatio
 const SHA_APPROVED_INFRA = OWNER_APPROVED_RESUME.infraHeadSha;
 const RUN_ID = "phase1-2026-08-30T08-56-50-163Z-a8e1dec1";
 
+const CLI_SCOPE = {
+  groups: ["g2", "g1", "g3"],
+  datasetsByGroup: {
+    g2: ["a1", "a2", "b1", "b2", "c1", "c2"],
+    g1: ["sentences", "verbs", "training"],
+    g3: ["courseLessons"],
+  },
+  langs: [
+    "lv", "lt", "ru", "pl", "uk", "et", "en", "ro", "bg", "tr", "gr", "sq", "mk", "sl", "bs", "sr",
+    "hr", "sk", "cs", "fi", "sv", "nb", "nn", "da", "nl", "lb", "fr", "it", "es", "pt", "hu", "is",
+  ],
+};
+
+function loadManifestFixture() {
+  const manifestPath = path.join(
+    __dirname,
+    "..",
+    "reports",
+    "temp",
+    "phase1-luna-runs",
+    RUN_ID,
+    "run-manifest.json",
+  );
+  if (fs.existsSync(manifestPath)) {
+    return JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+  }
+  return {
+    runId: RUN_ID,
+    schemaVersion: "1.0.0",
+    discoveryBaselineSha: SHA_BASELINE,
+    headSha: SHA_BASELINE,
+    originMainSha: SHA_BASELINE,
+    model: DEFAULT_MODEL,
+    transport: "REAL",
+    cliScope: CLI_SCOPE,
+    expectedScopeIds: getDeterministicScopeOrder().map((s) => s.scopeId),
+    scopeHash: "fixture",
+    objectIdsHash: "fixture",
+    batchingConfig: {},
+    promptSchemaHash: "fixture",
+    startedAt: "2026-08-30T08:56:51.688Z",
+    status: "IN_PROGRESS",
+  };
+}
+
 let testsRun = 0;
 let testsFailed = 0;
 
@@ -50,17 +95,20 @@ function baselinePass() {
 }
 
 function resumeOpts(overrides = {}) {
+  const manifest = overrides.manifest || loadManifestFixture();
   return {
     resumeLuna: true,
     approvedInfraHeadSha: SHA_APPROVED_INFRA,
+    ownerApprovedInfraHeadSha: SHA_APPROVED_INFRA,
     runId: RUN_ID,
-    authorizedRunId: RUN_ID,
-    discoveryBaselineSha: SHA_BASELINE,
-    expectedDiscoveryBaselineSha: SHA_BASELINE,
     model: DEFAULT_MODEL,
-    expectedModel: DEFAULT_MODEL,
+    cliScope: CLI_SCOPE,
+    scopes: getDeterministicScopeOrder(),
+    transport: "REAL",
+    manifest,
+    requireManifestIdentity: overrides.requireManifestIdentity !== false,
     skipApiKeyCheck: true,
-    gitIdentity: injectedGitIdentity(),
+    gitIdentity: injectedGitIdentity(overrides.gitIdentity),
     baseline: baselinePass(),
     ...overrides,
   };
@@ -72,7 +120,7 @@ function testFrozenPhase0Pass() {
 }
 
 function testApprovedHeadPass() {
-  const r = authorizeInfraResume(resumeOpts());
+  const r = authorizeInfraResume(resumeOpts({ requireManifestIdentity: false }));
   assert(r.pass, "approved infra HEAD + clean worktree passes");
   assert(r.realCalls === 0, "approved pass realCalls 0");
 }
@@ -103,26 +151,39 @@ function testHeadMismatchFails() {
 }
 
 function testWrongRunIdFails() {
-  const r = authorizeInfraResume(resumeOpts({ runId: "phase1-fake", authorizedRunId: RUN_ID }));
+  const manifest = loadManifestFixture();
+  const r = authorizeInfraResume(
+    resumeOpts({
+      runId: "phase1-fake",
+      manifest: { ...manifest, runId: RUN_ID },
+    }),
+  );
   assert(!r.pass, "wrong RUN_ID fails");
-  assert(r.blocker === "RUN_ID_MISMATCH", "run id mismatch");
+  assert(r.blockers.some((b) => b.code === "RUN_ID_MISMATCH"), "run id mismatch");
 }
 
 function testWrongBaselineFails() {
+  const manifest = loadManifestFixture();
   const r = authorizeInfraResume(
     resumeOpts({
-      expectedDiscoveryBaselineSha: "deadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
-      baseline: { originMainSha: SHA_BASELINE, verdict: "PASS" },
+      manifest,
+      baseline: { originMainSha: "deadbeefdeadbeefdeadbeefdeadbeefdeadbeef", verdict: "PASS" },
     }),
   );
   assert(!r.pass, "wrong baseline fails");
-  assert(r.blocker === "DISCOVERY_BASELINE_MISMATCH", "baseline mismatch");
+  assert(r.blockers.some((b) => b.code === "DISCOVERY_BASELINE_MISMATCH"), "baseline mismatch");
 }
 
 function testWrongModelFails() {
-  const r = authorizeInfraResume(resumeOpts({ model: "wrong-model", expectedModel: DEFAULT_MODEL }));
+  const manifest = loadManifestFixture();
+  const r = authorizeInfraResume(
+    resumeOpts({
+      model: "wrong-model",
+      manifest: { ...manifest, model: DEFAULT_MODEL },
+    }),
+  );
   assert(!r.pass, "wrong model fails");
-  assert(r.blocker === "MODEL_MISMATCH", "model mismatch");
+  assert(r.blockers.some((b) => b.code === "MODEL_MISMATCH"), "model mismatch");
 }
 
 function testResumeModeRequired() {

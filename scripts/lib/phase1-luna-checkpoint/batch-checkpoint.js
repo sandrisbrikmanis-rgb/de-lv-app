@@ -57,6 +57,18 @@ function buildBatchCheckpoint({
   };
 }
 
+function classifyCheckpointValidation(validation, checkpoint) {
+  if (!checkpoint || typeof checkpoint !== "object") return "CORRUPT";
+  if (checkpoint.status === "CORRUPT") return "CORRUPT";
+  if (checkpoint.status !== "PASS") return "PARTIAL";
+  if (validation.ok) return "VALID_PASS";
+  const issues = validation.issues || [];
+  if (issues.length === 1 && issues[0] === "RETURNED_ID_POSITION_MISMATCH") {
+    return "RESUMABLE_INVALID";
+  }
+  return "CORRUPT";
+}
+
 function validateBatchCheckpoint(checkpoint, context = {}) {
   const { expectedRunId, scopeId, batchIndex, expectedIds, requestInputHash } = context;
   const issues = [];
@@ -142,6 +154,7 @@ function loadConfirmedCheckpoints(runId, scopeId, validationContext = {}) {
 module.exports = {
   buildBatchCheckpoint,
   validateBatchCheckpoint,
+  classifyCheckpointValidation,
   saveBatchCheckpoint,
   loadBatchCheckpoint,
   listScopeCheckpoints,
