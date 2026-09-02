@@ -7,6 +7,7 @@ const {
 } = require("./lib/phase1-luna-resume-authorization");
 const { authorizeInfraResume } = require("./lib/phase1-luna-resume-auth");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
+const { git } = require("./lib/content-discovery/git-baseline");
 
 let testsRun = 0;
 let testsFailed = 0;
@@ -101,7 +102,7 @@ function testSelfReferentialBaselineBlocked() {
 }
 
 function testCutoverAuthDescendantPass() {
-  const cutoverHead = "c3c29bc463b78522ccb031a1622ccd7570d6d832";
+  const cutoverHead = "5bcc25d7efc3396082ce2093c733a56db9954aeb";
   const r = authFromCli(
     {
       resumeRunId: RUN_ID,

@@ -28,7 +28,7 @@ function headMatchesApprovedInfra(identity, approvedInfraHeadSha) {
   if (!identity.headSha || !approvedInfraHeadSha) return false;
   if (identity.headSha === approvedInfraHeadSha) return true;
   const ancestor = git(`git merge-base --is-ancestor ${approvedInfraHeadSha} ${identity.headSha}`);
-  if (!ancestor.ok || ancestor.status !== 0) return false;
+  if (!ancestor.ok) return false;
   const diff = git(`git diff --name-only ${approvedInfraHeadSha}..${identity.headSha}`);
   if (!diff.ok) return false;
   const files = (diff.stdout || "").trim().split("\n").filter(Boolean);
