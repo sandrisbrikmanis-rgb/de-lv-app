@@ -105,6 +105,11 @@ function createCheckpointHooks({
         requestInputHash: requestHash,
       });
       if (!validation.ok) {
+        const onlyReturnedMismatch =
+          validation.issues.length === 1 && validation.issues[0] === "RETURNED_ID_POSITION_MISMATCH";
+        if (onlyReturnedMismatch) {
+          return false;
+        }
         const err = new Error(`Corrupt checkpoint for ${batchId}: ${validation.issues.join(",")}`);
         err.code = "CHECKPOINT_CORRUPT";
         throw err;

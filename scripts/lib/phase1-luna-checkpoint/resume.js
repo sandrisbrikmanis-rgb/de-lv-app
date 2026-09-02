@@ -168,6 +168,11 @@ function validateCheckpointIntegrity(runId, lunaScopes, manifest) {
       });
 
       if (!validation.ok) {
+        const onlyReturnedMismatch =
+          validation.issues.length === 1 && validation.issues[0] === "RETURNED_ID_POSITION_MISMATCH";
+        if (onlyReturnedMismatch) {
+          continue;
+        }
         corrupt.push({
           file,
           scopeId,
