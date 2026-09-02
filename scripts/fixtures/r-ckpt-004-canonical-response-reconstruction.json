@@ -1,0 +1,36 @@
+{
+  "description": "R-CKPT-004 read-only reconstruction — Luna strict parser returns canonical id + status only",
+  "scopeId": "g2/a1/et",
+  "batchIndex": 0,
+  "objects": [
+    {
+      "id": "card-alpha",
+      "de": "card-alpha",
+      "index": 0,
+      "productionFile": "data/et/a1.js"
+    },
+    {
+      "id": "card-beta",
+      "de": "card-beta",
+      "index": 1,
+      "productionFile": "data/et/a1.js"
+    }
+  ],
+  "canonicalResponse": {
+    "items": [
+      {
+        "id": "g2/a1/et|idx:1|raw:card-beta|src:a1.js",
+        "status": "PASS"
+      },
+      {
+        "id": "g2/a1/et|idx:0|raw:card-alpha|src:a1.js",
+        "status": "PASS"
+      }
+    ],
+    "tokensUsed": 42
+  },
+  "expected": {
+    "legacyIdsInBatchOrder": ["card-alpha", "card-beta"],
+    "classification": "VALID_PASS"
+  }
+}

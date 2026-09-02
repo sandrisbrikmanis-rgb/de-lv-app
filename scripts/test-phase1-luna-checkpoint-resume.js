@@ -159,7 +159,7 @@ async function testAtomicBatchCheckpoint() {
     expectedObjects: batch,
     getId: (o) => o.id,
     requestPayload: { objects: batch },
-    rawResult: { items: [{ id: "card-1", status: "PASS" }] },
+    rawResult: { items: [{ id: require("./lib/phase1-luna-checkpoint/object-identity").buildLunaRequestId(scope.scopeId, batch[0]), status: "PASS" }] },
     normalizedFindings: [],
     attemptCount: 1,
     tokensUsed: 10,
@@ -167,7 +167,15 @@ async function testAtomicBatchCheckpoint() {
     transport: "MOCK",
     startedAt: new Date().toISOString(),
   });
-  const saved = saveBatchCheckpoint(cp);
+  const validationContext = require("./lib/phase1-luna-checkpoint/batch-checkpoint").buildExternalBatchValidationContext({
+    runId,
+    scopeId: scope.scopeId,
+    batchIndex: 0,
+    expectedObjects: batch,
+    getId: (o) => o.id,
+    requestPayload: { objects: batch },
+  });
+  const saved = saveBatchCheckpoint(cp, validationContext);
   assert(fs.existsSync(saved), "checkpoint file exists");
   const loaded = loadBatchCheckpoint(runId, scope.scopeId, cp.batchId);
   assert(loaded?.status === "PASS", "loaded checkpoint PASS");
@@ -719,6 +727,8 @@ async function testInterruptResumeThreeBatchMetrics() {
     };
   }
 
+  const { buildLunaRequestPayload } = require("./lib/phase1-luna-checkpoint/object-identity");
+
   async function runScope(runId, transport, interruptState) {
     const hooks = createCheckpointHooks({
       runId,
@@ -731,7 +741,8 @@ async function testInterruptResumeThreeBatchMetrics() {
       transport,
       objects,
       getId: (o) => o.id,
-      serialize: (o) => o,
+      serialize: (o) => buildLunaRequestPayload(scope.scopeId, o),
+      serializeCheckpoint: (o) => o,
       batchSize,
       scopeId: scope.scopeId,
       adapterName: "g2",

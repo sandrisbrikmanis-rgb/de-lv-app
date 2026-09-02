@@ -1,11 +1,15 @@
 #!/usr/bin/env node
 "use strict";
 
+const fs = require("fs");
 const { CHECKPOINT_SCHEMA_VERSION } = require("./constants");
 const { writeJsonAtomic, readJsonFile, readJsonFileIfExists, listCheckpointFiles } = require("./atomic-io");
 const { hashSortedList, hashRequestInput, stableBatchId } = require("./hash");
 const { normalizeLunaItemsToFindings } = require("./findings");
-const { resolveLegacyObjectId } = require("./object-identity");
+const {
+  buildCanonicalToLegacyIdMap,
+  mapResponseItemsToLegacyIds,
+} = require("./object-identity");
 
 function checkpointFileFor(runId, scopeId, batchId) {
   return require("./constants").checkpointFilePath(runId, scopeId, batchId);
@@ -13,6 +17,25 @@ function checkpointFileFor(runId, scopeId, batchId) {
 
 function checkpointDirFor(runId, scopeId) {
   return require("./constants").checkpointDir(runId, scopeId);
+}
+
+function buildExternalBatchValidationContext({
+  runId,
+  scopeId,
+  batchIndex,
+  expectedObjects,
+  getId,
+  requestPayload,
+}) {
+  const expectedIds = expectedObjects.map(getId);
+  return {
+    expectedRunId: runId,
+    scopeId,
+    batchIndex,
+    expectedIds,
+    requestInputHash: hashRequestInput(requestPayload),
+    batchId: stableBatchId(scopeId, batchIndex, expectedIds),
+  };
 }
 
 function buildBatchCheckpoint({
@@ -32,8 +55,37 @@ function buildBatchCheckpoint({
   endedAt = new Date().toISOString(),
 }) {
   const expectedIds = expectedObjects.map(getId);
-  const returnedIds = (rawResult?.items || []).map((item) => resolveLegacyObjectId(item));
+  const idMapResult = buildCanonicalToLegacyIdMap(scopeId, expectedObjects, getId);
+  if (!idMapResult.ok) {
+    const err = new Error(`Canonical ID map failed: ${idMapResult.issues.join(",")}`);
+    err.code = "CANONICAL_ID_MAP_FAILED";
+    err.issues = idMapResult.issues;
+    throw err;
+  }
+
+  const mapping = mapResponseItemsToLegacyIds(
+    rawResult?.items || [],
+    idMapResult.map,
+    idMapResult.orderedCanonicalIds,
+  );
+  if (!mapping.ok) {
+    const err = new Error(`Legacy ID mapping failed: ${mapping.issues.join(",")}`);
+    err.code = "LEGACY_ID_MAPPING_FAILED";
+    err.issues = mapping.issues;
+    throw err;
+  }
+
+  for (let i = 0; i < expectedIds.length; i += 1) {
+    if (mapping.legacyIds[i] !== expectedIds[i]) {
+      const err = new Error("Legacy ID position mismatch after canonical mapping");
+      err.code = "LEGACY_ID_POSITION_MISMATCH";
+      err.issues = ["RETURNED_ID_POSITION_MISMATCH"];
+      throw err;
+    }
+  }
+
   const batchId = stableBatchId(scopeId, batchIndex, expectedIds);
+  const canonicalToLegacyIdMap = Object.fromEntries(idMapResult.map);
 
   return {
     schemaVersion: CHECKPOINT_SCHEMA_VERSION,
@@ -44,7 +96,8 @@ function buildBatchCheckpoint({
     expectedObjectIds: expectedIds,
     expectedIdsHash: hashSortedList(expectedIds),
     requestInputHash: hashRequestInput(requestPayload),
-    returnedObjectIds: returnedIds,
+    returnedObjectIds: mapping.legacyIds,
+    canonicalToLegacyIdMap,
     rawResult,
     normalizedFindings,
     attemptCount,
@@ -59,6 +112,7 @@ function buildBatchCheckpoint({
 
 function classifyCheckpointValidation(validation, checkpoint, context = {}) {
   const untrusted = require("../phase1-luna-untrusted-checkpoint-registry");
+  const idMapping = require("../phase1-luna-id-mapping-checkpoint-registry");
   if (
     context.filePath &&
     untrusted.isUntrustedLocalPatchCheckpoint(context.filePath, {
@@ -67,6 +121,15 @@ function classifyCheckpointValidation(validation, checkpoint, context = {}) {
     })
   ) {
     return "UNTRUSTED_LOCAL_PATCH_RUN";
+  }
+  if (
+    context.filePath &&
+    idMapping.isUntrustedIdMappingCheckpoint(context.filePath, {
+      scopeId: context.scopeId,
+      batchId: checkpoint?.batchId,
+    })
+  ) {
+    return "UNTRUSTED_ID_MAPPING_RUN";
   }
   if (!checkpoint || typeof checkpoint !== "object") return "CORRUPT";
   if (checkpoint.status === "CORRUPT") return "CORRUPT";
@@ -107,15 +170,47 @@ function validateBatchCheckpoint(checkpoint, context = {}) {
   return { ok: issues.length === 0, issues };
 }
 
-function saveBatchCheckpoint(checkpoint) {
-  const target = checkpointFileFor(checkpoint.runId, checkpoint.scopeId, checkpoint.batchId);
-  writeJsonAtomic(target, checkpoint);
-  const validation = validateBatchCheckpoint(checkpoint);
-  if (!validation.ok) {
-    const err = new Error(`Checkpoint validation failed after write: ${validation.issues.join(",")}`);
-    err.code = "CHECKPOINT_WRITE_VALIDATION_FAILED";
+function saveBatchCheckpoint(checkpoint, validationContext) {
+  if (!validationContext || !validationContext.expectedIds) {
+    const err = new Error("saveBatchCheckpoint requires external batch validation context");
+    err.code = "EXTERNAL_BATCH_VALIDATION_REQUIRED";
     throw err;
   }
+
+  const target = checkpointFileFor(checkpoint.runId, checkpoint.scopeId, checkpoint.batchId);
+  const preWrite = validateBatchCheckpoint(checkpoint, validationContext);
+  if (!preWrite.ok) {
+    const err = new Error(`Checkpoint write blocked: ${preWrite.issues.join(",")}`);
+    err.code = "CHECKPOINT_WRITE_BLOCKED";
+    err.issues = preWrite.issues;
+    throw err;
+  }
+
+  const hadExisting = fs.existsSync(target);
+  const previousBytes = hadExisting ? fs.readFileSync(target) : null;
+
+  try {
+    writeJsonAtomic(target, checkpoint);
+    const reread = readJsonFile(target);
+    const postWrite = validateBatchCheckpoint(reread, validationContext);
+    if (!postWrite.ok) {
+      if (previousBytes !== null) {
+        fs.writeFileSync(target, previousBytes);
+      } else if (fs.existsSync(target)) {
+        fs.unlinkSync(target);
+      }
+      const err = new Error(`Checkpoint post-write validation failed: ${postWrite.issues.join(",")}`);
+      err.code = "CHECKPOINT_WRITE_VALIDATION_FAILED";
+      err.issues = postWrite.issues;
+      throw err;
+    }
+  } catch (error) {
+    if (previousBytes !== null && fs.existsSync(target)) {
+      fs.writeFileSync(target, previousBytes);
+    }
+    throw error;
+  }
+
   return target;
 }
 
@@ -163,6 +258,7 @@ function loadConfirmedCheckpoints(runId, scopeId, validationContext = {}) {
 
 module.exports = {
   buildBatchCheckpoint,
+  buildExternalBatchValidationContext,
   validateBatchCheckpoint,
   classifyCheckpointValidation,
   saveBatchCheckpoint,

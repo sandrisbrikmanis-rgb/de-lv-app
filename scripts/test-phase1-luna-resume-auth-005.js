@@ -218,7 +218,13 @@ function testUntrustedRegistryNotValidPass() {
   const fixture = JSON.parse(
     fs.readFileSync(path.join(ROOT, "scripts/fixtures/r-auth-005-pid-327971-untrusted-checkpoints.json"), "utf8"),
   );
-  const sample = fixture.entries[0];
+  const sample = fixture.entries.find((entry) =>
+    isUntrustedLocalPatchCheckpoint(path.join(ROOT, entry.file), {
+      scopeId: entry.scopeId,
+      batchId: entry.batchId,
+    }),
+  );
+  assert(sample, "11: at least one PID 327971 SHA checkpoint remains on disk");
   const cp = JSON.parse(fs.readFileSync(path.join(ROOT, sample.file), "utf8"));
   const cls = classifyCheckpointValidation({ ok: false, issues: ["RETURNED_ID_POSITION_MISMATCH"] }, cp, {
     scopeId: sample.scopeId,

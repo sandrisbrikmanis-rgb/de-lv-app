@@ -29,6 +29,7 @@ const {
   stableBatchId,
   validateBatchCheckpoint,
   classifyCheckpointValidation,
+  buildExternalBatchValidationContext,
 } = require("./batch-checkpoint");
 const { normalizeLunaItemsToFindings } = require("./findings");
 const { buildLunaRequestPayload } = require("./object-identity");
@@ -115,6 +116,7 @@ function createCheckpointHooks({
       if (
         classification === "RESUMABLE_INVALID" ||
         classification === "UNTRUSTED_LOCAL_PATCH_RUN" ||
+        classification === "UNTRUSTED_ID_MAPPING_RUN" ||
         classification === "PARTIAL"
       ) {
         return false;
@@ -133,6 +135,14 @@ function createCheckpointHooks({
       const normalizedFindings = normalizeLunaItemsToFindings(rawResult.items, scope, {
         productionFile: batch[0]?.productionFile,
       });
+      const validationContext = buildExternalBatchValidationContext({
+        runId,
+        scopeId: scope.scopeId,
+        batchIndex,
+        expectedObjects: batch,
+        getId,
+        requestPayload,
+      });
       const checkpoint = buildBatchCheckpoint({
         runId,
         scopeId: scope.scopeId,
@@ -148,7 +158,7 @@ function createCheckpointHooks({
         transport,
         startedAt,
       });
-      saveBatchCheckpoint(checkpoint);
+      saveBatchCheckpoint(checkpoint, validationContext);
       touchRunLock(runId);
       return checkpoint;
     },

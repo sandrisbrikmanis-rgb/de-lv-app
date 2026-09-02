@@ -48,9 +48,85 @@ function isCanonicalLunaRequestId(id) {
   return typeof id === "string" && id.includes("|idx:") && id.includes("|raw:");
 }
 
+/**
+ * Build deterministic canonical Luna request id → legacy checkpoint id map for one batch.
+ */
+function buildCanonicalToLegacyIdMap(scopeId, objects, getLegacyId = getLegacyObjectId) {
+  const map = new Map();
+  const orderedCanonicalIds = [];
+  for (const obj of objects) {
+    const canonicalId = buildLunaRequestId(scopeId, obj);
+    if (map.has(canonicalId)) {
+      return {
+        ok: false,
+        issues: ["DUPLICATE_CANONICAL_ID_IN_BATCH"],
+        map,
+        orderedCanonicalIds,
+      };
+    }
+    map.set(canonicalId, getLegacyId(obj));
+    orderedCanonicalIds.push(canonicalId);
+  }
+  return { ok: true, issues: [], map, orderedCanonicalIds };
+}
+
+/**
+ * Map Luna strict response items to legacy checkpoint ids in expected batch order.
+ * Does not rely on rawCardId/cardId/de in the response.
+ */
+function mapResponseItemsToLegacyIds(items, idMap, orderedCanonicalIds) {
+  const issues = [];
+  if (!Array.isArray(items)) {
+    return { ok: false, issues: ["MALFORMED_RAW_RESULT"], legacyIds: [] };
+  }
+
+  const itemsByCanonical = new Map();
+  for (const item of items) {
+    const canonicalId = resolveLunaResponseId(item);
+    if (!canonicalId) {
+      issues.push("MISSING_CANONICAL_ID");
+      continue;
+    }
+    if (itemsByCanonical.has(canonicalId)) {
+      issues.push("DUPLICATE_CANONICAL_ID");
+      continue;
+    }
+    if (!idMap.has(canonicalId)) {
+      issues.push("UNKNOWN_CANONICAL_ID");
+      continue;
+    }
+    itemsByCanonical.set(canonicalId, item);
+  }
+
+  const legacyIds = [];
+  for (const canonicalId of orderedCanonicalIds) {
+    if (!itemsByCanonical.has(canonicalId)) {
+      issues.push("MISSING_CANONICAL_ID");
+      break;
+    }
+    legacyIds.push(idMap.get(canonicalId));
+  }
+
+  if (itemsByCanonical.size !== orderedCanonicalIds.length) {
+    issues.push("UNEXPECTED_CANONICAL_ID");
+  }
+
+  const uniqueIssues = [...new Set(issues)];
+  return {
+    ok: uniqueIssues.length === 0 && legacyIds.length === orderedCanonicalIds.length,
+    issues: uniqueIssues,
+    legacyIds,
+    itemsByCanonical,
+  };
+}
+
 /** Map Luna response item back to legacy checkpoint id (frozen for resume). */
-function resolveLegacyObjectId(item) {
+function resolveLegacyObjectId(item, idMap = null) {
   if (!item || typeof item !== "object") return "unknown";
+  const canonicalId = resolveLunaResponseId(item);
+  if (canonicalId && idMap?.has(canonicalId)) {
+    return idMap.get(canonicalId);
+  }
   if (item.rawCardId) return item.rawCardId;
   if (item.cardId && !isCanonicalLunaRequestId(item.cardId)) return item.cardId;
   if (item.id && !isCanonicalLunaRequestId(item.id)) return item.id;
@@ -65,4 +141,6 @@ module.exports = {
   resolveLunaResponseId,
   resolveLegacyObjectId,
   isCanonicalLunaRequestId,
+  buildCanonicalToLegacyIdMap,
+  mapResponseItemsToLegacyIds,
 };

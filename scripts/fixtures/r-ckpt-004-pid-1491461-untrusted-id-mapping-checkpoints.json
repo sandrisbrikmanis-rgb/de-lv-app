@@ -1,0 +1,218 @@
+{
+  "classification": "UNTRUSTED_ID_MAPPING_RUN",
+  "sourcePid": "1491461",
+  "runId": "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
+  "count": 15,
+  "entries": [
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-33-91f69c90f9d3ed71.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-33-91f69c90f9d3ed71",
+      "batchIndex": 33,
+      "sha256": "f96f17528399081d1243cc0356037d834dd218ca6bcf02b3b0a2d5a5da8c057b",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-34-b10ad1cbba0bb200.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-34-b10ad1cbba0bb200",
+      "batchIndex": 34,
+      "sha256": "00b249a5ee89e380b4e348f7e89290dda3abd7a192321967c900aec1551010c8",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-36-a8938a3d3e80f592.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-36-a8938a3d3e80f592",
+      "batchIndex": 36,
+      "sha256": "e1bf2be688b4d4926698cef5795741075baa42fedd5adf91b4eee7a6ee51435f",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-37-ffedff9cddbabc71.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-37-ffedff9cddbabc71",
+      "batchIndex": 37,
+      "sha256": "65f1816ff89000675fc9fc5c236da72ef813dace1bc0bc803647273cc0976fb7",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-38-7ed18018792da130.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-38-7ed18018792da130",
+      "batchIndex": 38,
+      "sha256": "9298f659ab28ec19f18e817a8bd91f72e266b2c1cdf7ad73c834ef350449edcf",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-39-5f66a9a7ae09d711.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-39-5f66a9a7ae09d711",
+      "batchIndex": 39,
+      "sha256": "54c283c16bdc782a3f68303dddedc94f18218c1e013ccb0fb048c0e2be160131",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-40-173f8e685d8c61ff.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-40-173f8e685d8c61ff",
+      "batchIndex": 40,
+      "sha256": "f69571bedb541949a53a935962e6ddee8144038f4606bc935b3af3a6f295b3d1",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-41-c690aa2019039338.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-41-c690aa2019039338",
+      "batchIndex": 41,
+      "sha256": "61be9bd62b2c3ba53da8db50bb265b12dc9926faec8ca5340ddd87593da6ed96",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-42-dde55a8377528a48.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-42-dde55a8377528a48",
+      "batchIndex": 42,
+      "sha256": "d456656e08e594521e327c3bae8cd8401c35502641e51f6d685274ae25386c43",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-43-bdeaa51482fd63fa.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-43-bdeaa51482fd63fa",
+      "batchIndex": 43,
+      "sha256": "d2e56413aa7e530bc3400fbf75eace43f339d527a58e0e1a884254b2e3b3ebf6",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-44-c39e7f1b527cc65d.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-44-c39e7f1b527cc65d",
+      "batchIndex": 44,
+      "sha256": "b414300b49b8579f0fc81cd4dcbbd2c3e587124c83c9070185e4805f4643a911",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-45-896b2ab323825618.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-45-896b2ab323825618",
+      "batchIndex": 45,
+      "sha256": "3dc90bc8e61cd5fee88c7423f233cc4c1caef137b317a2e48e92a366bb6c39ee",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-46-94e3eb144b13c429.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-46-94e3eb144b13c429",
+      "batchIndex": 46,
+      "sha256": "09275cecc1183edfb9a2f4c99f2df2a0fa8ce787639e4f8a078e6a6788c35688",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-47-b8329543e14fb044.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-47-b8329543e14fb044",
+      "batchIndex": 47,
+      "sha256": "ffe91afc8891a82f4377f164bb92a5ac53e2945d714d058586c55a4bee53affe",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bs/batch-48-469892572c396c01.json",
+      "scopeId": "g2/a2/bs",
+      "batchId": "batch-48-469892572c396c01",
+      "batchIndex": 48,
+      "sha256": "620bb1b7595edc7eeb2bf7aaab8c23e73041923d68c3a13ed4733db1e9525f49",
+      "classification": "UNTRUSTED_ID_MAPPING_RUN",
+      "returnedObjectIdsSample": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    }
+  ]
+}
