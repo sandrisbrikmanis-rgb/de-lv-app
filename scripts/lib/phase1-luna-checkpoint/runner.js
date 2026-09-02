@@ -33,6 +33,13 @@ const {
 } = require("./batch-checkpoint");
 const { normalizeLunaItemsToFindings } = require("./findings");
 const { buildLunaRequestPayload } = require("./object-identity");
+const {
+  computeRequestHashVersions,
+  extractRequestHashVersions,
+  REQUEST_HASH_V1_CHECKPOINT_PAYLOAD,
+  REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD,
+} = require("./request-hash");
+const { hashRequestInput } = require("./hash");
 const { prepareResumeContext, buildExpectedIdentity } = require("./resume");
 const { createInterruptState, installSignalHandlers, assertNotInterrupted } = require("./signals");
 const { runBaselineGate } = require("../content-discovery/baseline-gate");
@@ -100,14 +107,22 @@ function createCheckpointHooks({
       const batchId = stableBatchId(scope.scopeId, batchIndex, expectedIds);
       const existing = confirmedByBatchId.get(batchId);
       if (!existing) return false;
-      const requestHash = require("./hash").hashRequestInput(requestPayload);
+      const adapterName = adapterKey(scope.group, scope.dataset);
+      const v1Hash = hashRequestInput(requestPayload);
+      const canonicalVersions = extractRequestHashVersions(
+        computeRequestHashVersions(scope.scopeId, adapterName, batch),
+      );
+      const hashVersions = {
+        [REQUEST_HASH_V1_CHECKPOINT_PAYLOAD]: v1Hash,
+        [REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD]: canonicalVersions[REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD],
+      };
       const filePath = checkpointFilePath(runId, scope.scopeId, batchId);
       const validation = validateBatchCheckpoint(existing, {
         expectedRunId: runId,
         scopeId: scope.scopeId,
         batchIndex,
         expectedIds,
-        requestInputHash: requestHash,
+        requestInputHashVersions: hashVersions,
       });
       const classification = classifyCheckpointValidation(validation, existing, {
         scopeId: scope.scopeId,

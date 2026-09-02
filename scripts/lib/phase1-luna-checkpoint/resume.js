@@ -23,6 +23,7 @@ const {
   classifyCheckpointValidation,
 } = require("./batch-checkpoint");
 const { buildExpectedBatchPlanForScopes } = require("./batch-plan");
+const { validateCheckpointRequestInputHash } = require("./request-hash");
 
 function manifestPathFor(runId) {
   return require("./constants").manifestPath(runId);
@@ -154,7 +155,8 @@ function validateCheckpointIntegrity(runId, lunaScopes, manifest) {
       if (cp.batchIndex !== expectedBatch.batchIndex) fieldMismatches.push("BATCH_INDEX_MISMATCH");
       if (cp.scopeId !== expectedBatch.scopeId) fieldMismatches.push("SCOPE_ID_FIELD_MISMATCH");
       if (cp.expectedIdsHash !== expectedBatch.expectedIdsHash) fieldMismatches.push("EXPECTED_IDS_HASH_MISMATCH");
-      if (cp.requestInputHash !== expectedBatch.requestInputHash) fieldMismatches.push("REQUEST_INPUT_HASH_MISMATCH");
+      const hashCheck = validateCheckpointRequestInputHash(cp, expectedBatch);
+      if (!hashCheck.ok) fieldMismatches.push("REQUEST_INPUT_HASH_MISMATCH");
       const cpExpectedIds = (cp.expectedObjectIds || []).join(",");
       const planExpectedIds = expectedBatch.expectedObjectIds.join(",");
       if (cpExpectedIds !== planExpectedIds) fieldMismatches.push("EXPECTED_OBJECT_IDS_MISMATCH");
@@ -174,7 +176,7 @@ function validateCheckpointIntegrity(runId, lunaScopes, manifest) {
         scopeId: expectedBatch.scopeId,
         batchIndex: expectedBatch.batchIndex,
         expectedIds: expectedBatch.expectedObjectIds,
-        requestInputHash: expectedBatch.requestInputHash,
+        requestInputHashVersions: expectedBatch.requestHashVersions,
       });
 
       const classification = classifyCheckpointValidation(validation, cp, {
@@ -208,7 +210,11 @@ function validateCheckpointIntegrity(runId, lunaScopes, manifest) {
         continue;
       }
 
-      if (classification === "RESUMABLE_INVALID" || classification === "UNTRUSTED_LOCAL_PATCH_RUN") {
+      if (
+        classification === "RESUMABLE_INVALID" ||
+        classification === "UNTRUSTED_LOCAL_PATCH_RUN" ||
+        classification === "UNTRUSTED_ID_MAPPING_RUN"
+      ) {
         resumableInvalid.push({ ...entry, classification });
         continue;
       }
@@ -355,11 +361,16 @@ function prepareResumeContext({
   };
 }
 
+function runCheckpointIntegrityPreflight(runId, lunaScopes, manifest) {
+  return validateCheckpointIntegrity(runId, lunaScopes, manifest);
+}
+
 module.exports = {
   buildExpectedIdentity,
   validateResumeAuthorization,
   validateManifestForResume,
   validateCheckpointIntegrity,
+  runCheckpointIntegrityPreflight,
   loadManifest,
   prepareResumeContext,
 };

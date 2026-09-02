@@ -8,7 +8,7 @@ const { RUNS_ROOT } = require("./phase1-luna-checkpoint/constants");
 const { readJsonFileIfExists, listCheckpointFiles } = require("./phase1-luna-checkpoint/atomic-io");
 const { buildExpectedBatchPlanForScopes } = require("./phase1-luna-checkpoint/batch-plan");
 const { validateBatchCheckpoint } = require("./phase1-luna-checkpoint/batch-checkpoint");
-const { validateCheckpointIntegrity } = require("./phase1-luna-checkpoint/resume");
+const { validateCheckpointIntegrity, runCheckpointIntegrityPreflight } = require("./phase1-luna-checkpoint/resume");
 
 function loadScopeInventory(inventoryPath) {
   const file = inventoryPath || path.join(ROOT, "reports", "phase1-scope-inventory.json");
@@ -112,7 +112,7 @@ function reconcileUniqueScopeCoverage(options = {}) {
   const integrity =
     options.skipIntegrity === true
       ? { ok: true }
-      : validateCheckpointIntegrity(runId, lunaScopes, { runId, ...(manifest || {}) });
+      : runCheckpointIntegrityPreflight(runId, lunaScopes, { runId, ...(manifest || {}) });
 
   const rows = lunaScopes.map((scope) => {
     const row = evaluateScopeCheckpointStatus(scope, runId, planByScope);

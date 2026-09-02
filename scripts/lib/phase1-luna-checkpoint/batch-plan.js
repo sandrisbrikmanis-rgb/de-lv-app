@@ -9,6 +9,11 @@ const {
 } = require("./manifest");
 const { hashSortedList, hashRequestInput, stableBatchId } = require("./hash");
 const { splitObjectsIntoBatches } = require("./batch-split");
+const { buildLunaRequestPayload } = require("./object-identity");
+const {
+  REQUEST_HASH_V1_CHECKPOINT_PAYLOAD,
+  REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD,
+} = require("./request-hash");
 
 function buildRequestPayload(scopeId, adapterName, batch, serialize = (obj) => obj) {
   return {
@@ -32,14 +37,26 @@ function buildExpectedBatchPlanForScope(scope, options = {}) {
   return batches.map((batch, batchIndex) => {
     const expectedObjectIds = batch.map(getId);
     const requestPayload = buildRequestPayload(scope.scopeId, adapterName, batch, serialize);
+    const canonicalPayload = {
+      scopeId: scope.scopeId,
+      adapter: adapterName,
+      objects: batch.map((obj) => buildLunaRequestPayload(scope.scopeId, obj)),
+    };
     const batchId = stableBatchId(scope.scopeId, batchIndex, expectedObjectIds);
+    const requestInputHash = hashRequestInput(requestPayload);
+    const canonicalRequestInputHash = hashRequestInput(canonicalPayload);
     return {
       scopeId: scope.scopeId,
       batchIndex,
       expectedObjectIds,
       expectedIdsHash: hashSortedList(expectedObjectIds),
       requestPayload,
-      requestInputHash: hashRequestInput(requestPayload),
+      requestInputHash,
+      canonicalRequestInputHash,
+      requestHashVersions: {
+        [REQUEST_HASH_V1_CHECKPOINT_PAYLOAD]: requestInputHash,
+        [REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD]: canonicalRequestInputHash,
+      },
       batchId,
       expectedFilename: `${batchId}.json`,
       adapterName,

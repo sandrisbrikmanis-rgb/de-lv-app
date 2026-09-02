@@ -10,6 +10,11 @@ const {
   buildCanonicalToLegacyIdMap,
   mapResponseItemsToLegacyIds,
 } = require("./object-identity");
+const {
+  validateCheckpointRequestInputHash,
+  REQUEST_HASH_V1_CHECKPOINT_PAYLOAD,
+  REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD,
+} = require("./request-hash");
 
 function checkpointFileFor(runId, scopeId, batchId) {
   return require("./constants").checkpointFilePath(runId, scopeId, batchId);
@@ -165,7 +170,15 @@ function validateBatchCheckpoint(checkpoint, context = {}) {
       }
     }
   }
-  if (requestInputHash && checkpoint.requestInputHash !== requestInputHash) issues.push("REQUEST_INPUT_HASH_MISMATCH");
+  if (requestInputHash || context.requestInputHashVersions) {
+    const hashCheck = validateCheckpointRequestInputHash(checkpoint, {
+      requestInputHash,
+      canonicalRequestInputHash:
+        context.requestInputHashVersions?.[REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD],
+      requestHashVersions: context.requestInputHashVersions,
+    });
+    if (!hashCheck.ok) issues.push("REQUEST_INPUT_HASH_MISMATCH");
+  }
   if (!checkpoint.rawResult || !Array.isArray(checkpoint.rawResult.items)) issues.push("MALFORMED_RAW_RESULT");
   return { ok: issues.length === 0, issues };
 }
