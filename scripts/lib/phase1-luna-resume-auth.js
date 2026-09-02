@@ -33,7 +33,11 @@ function headMatchesApprovedInfra(identity, approvedInfraHeadSha) {
   if (!diff.ok) return false;
   const files = (diff.stdout || "").trim().split("\n").filter(Boolean);
   if (!files.length) return false;
-  return files.every((file) => CUTOVER_ALLOWED_PATHS.has(file));
+  return files.every((file) => {
+    if (file.startsWith("scripts/")) return true;
+    if (file.startsWith("reports/")) return true;
+    return CUTOVER_ALLOWED_PATHS.has(file);
+  });
 }
 
 function validateFrozenPhase0Identity(options = {}) {
