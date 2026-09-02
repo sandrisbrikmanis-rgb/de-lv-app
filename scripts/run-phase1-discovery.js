@@ -67,6 +67,7 @@ Options:
   --resume-luna         Resume Luna from validated checkpoints (identity must match)
   --resume-run-id <id>  Explicit run id for --resume-luna
   --approved-infra-head-sha <sha>  Required with --resume-luna: explicit authorized infra repair HEAD
+  --owner-authorization-file <path>  Required with --resume-luna: absolute path to external OWNER authorization JSON (outside repo)
   --debug               Show stack traces on errors
   --help                Show help
 `);
@@ -85,6 +86,7 @@ function parseArgs(argv) {
     resumeLuna: false,
     resumeRunId: null,
     approvedInfraHeadSha: null,
+    ownerAuthorizationFile: null,
   };
 
   for (let i = 2; i < argv.length; i++) {
@@ -103,6 +105,7 @@ function parseArgs(argv) {
     else if (arg === "--resume-luna") args.resumeLuna = true;
     else if (arg === "--resume-run-id") args.resumeRunId = argv[++i];
     else if (arg === "--approved-infra-head-sha") args.approvedInfraHeadSha = argv[++i];
+    else if (arg === "--owner-authorization-file") args.ownerAuthorizationFile = argv[++i];
     else if (arg === "--group") args.groups = [argv[++i]];
     else if (arg === "--dataset") {
       const value = argv[++i];
@@ -257,6 +260,7 @@ async function runPhase1Discovery(options = {}) {
         options: {
           skipApiKeyCheck: !options.withLuna,
           approvedInfraHeadSha: options.approvedInfraHeadSha,
+          ownerAuthorizationFile: options.ownerAuthorizationFile,
           gitIdentity: options.gitIdentity,
           baseline,
           phase0Matrix: options.phase0Matrix,
@@ -541,6 +545,7 @@ async function main() {
             {
               resumeRunId: args.resumeRunId,
               approvedInfraHeadSha: args.approvedInfraHeadSha,
+              ownerAuthorizationFile: args.ownerAuthorizationFile,
               model: DEFAULT_MODEL,
             },
             { skipApiKeyCheck: false },
@@ -584,6 +589,7 @@ async function main() {
       checkpointEnabled: checkpointEnabled && (args.withLuna || args.resumeLuna),
       freshLuna: args.freshLuna || (args.withLuna && !args.resumeLuna),
       approvedInfraHeadSha: args.approvedInfraHeadSha,
+      ownerAuthorizationFile: args.ownerAuthorizationFile,
       command: process.argv.join(" "),
     });
 

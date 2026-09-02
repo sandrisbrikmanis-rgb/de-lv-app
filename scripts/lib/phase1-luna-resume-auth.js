@@ -15,6 +15,10 @@ const {
   buildPromptSchemaHash,
   computeScopeIdentity,
 } = require("./phase1-luna-checkpoint/manifest");
+const {
+  loadOwnerAuthorizationFile,
+  validateOwnerAuthorizationAgainstRuntime,
+} = require("./phase1-luna-owner-authorization-file");
 
 function validateFrozenPhase0Identity(options = {}) {
   const exitPath = options.exitPath || path.join(ROOT, "reports", "phase0-exit.json");
@@ -171,7 +175,7 @@ function validateRuntimeAgainstManifest(manifest, { runId, model, cliScope, scop
 
 /**
  * Fail-closed authorization for --resume-luna.
- * R-AUTH-003: exact HEAD equality, clean worktree, manifest-backed run identity.
+ * R-AUTH-004: external owner authorization file + exact HEAD/CLI SHA equality.
  */
 function authorizeInfraResume(options = {}) {
   const blockers = [];
@@ -209,31 +213,49 @@ function authorizeInfraResume(options = {}) {
     });
   }
 
-  const approvedInfraHeadSha = options.approvedInfraHeadSha || null;
-  const ownerApprovedInfraHeadSha = options.ownerApprovedInfraHeadSha || null;
-  if (!approvedInfraHeadSha || !isValidSha(approvedInfraHeadSha)) {
-    blockers.push({
-      code: "INFRA_RESUME_HEAD_NOT_AUTHORIZED",
-      message: "approvedInfraHeadSha is required and must be a 40-char hex SHA for --resume-luna",
-    });
-  } else if (ownerApprovedInfraHeadSha && approvedInfraHeadSha !== ownerApprovedInfraHeadSha) {
-    blockers.push({
-      code: "INFRA_RESUME_HEAD_NOT_AUTHORIZED",
-      message: `approvedInfraHeadSha ${approvedInfraHeadSha} is not in OWNER authorization registry`,
-    });
-  } else if (!identity.headSha || identity.headSha !== approvedInfraHeadSha) {
-    blockers.push({
-      code: "INFRA_RESUME_HEAD_MISMATCH",
-      message: `HEAD ${identity.headSha || "unknown"} does not match approved infra HEAD ${approvedInfraHeadSha}`,
-    });
-  }
-
   const baseline = options.baseline || runBaselineGate({ writeReports: false });
   if (baseline.verdict !== "PASS") {
     blockers.push({
       code: "BASELINE_GATE_FAIL",
       message: `Baseline gate verdict=${baseline.verdict}`,
     });
+  }
+
+  const ownerAuthorizationFile = options.ownerAuthorizationFile || null;
+  let ownerAuthorization = null;
+  if (!ownerAuthorizationFile) {
+    blockers.push({
+      code: "OWNER_AUTHORIZATION_FILE_REQUIRED",
+      message: "--owner-authorization-file is required for --resume-luna",
+    });
+  } else {
+    const loaded = loadOwnerAuthorizationFile(ownerAuthorizationFile);
+    if (!loaded.ok) {
+      blockers.push({ code: loaded.code, message: loaded.message, missing: loaded.missing });
+    } else {
+      ownerAuthorization = loaded.authorization;
+    }
+  }
+
+  const approvedInfraHeadSha = options.approvedInfraHeadSha || null;
+  if (!approvedInfraHeadSha || !isValidSha(approvedInfraHeadSha)) {
+    blockers.push({
+      code: "INFRA_RESUME_HEAD_NOT_AUTHORIZED",
+      message: "approvedInfraHeadSha is required and must be a 40-char hex SHA for --resume-luna",
+    });
+  }
+
+  if (ownerAuthorization) {
+    const ownerRuntime = validateOwnerAuthorizationAgainstRuntime({
+      authorization: ownerAuthorization,
+      approvedInfraHeadSha,
+      headSha: identity.headSha,
+      manifest: options.manifest,
+      baselineOriginMainSha: baseline.originMainSha || null,
+    });
+    if (!ownerRuntime.ok) {
+      blockers.push(...ownerRuntime.blockers);
+    }
   }
 
   const phase0 = validateFrozenPhase0Identity(options.phase0Frozen || {});
@@ -290,6 +312,8 @@ function authorizeInfraResume(options = {}) {
     gitIdentity: identity,
     phase0Frozen: phase0.frozen || null,
     approvedInfraHeadSha,
+    ownerAuthorization,
+    ownerAuthorizationFile,
     manifestValidation,
     realCalls,
     transport: "REAL",

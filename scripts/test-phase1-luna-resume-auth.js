@@ -11,6 +11,7 @@ const {
 const { prepareResumeContext } = require("./lib/phase1-luna-checkpoint/resume");
 const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-applicability");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
+const { buildOwnerAuthorizationDocument } = require("./lib/phase1-luna-owner-authorization-file");
 
 const SHA_BASELINE = "6cfb96105f7f741f6052d20ee1d1e342f198fda2";
 const { OWNER_APPROVED_RESUME } = require("./lib/phase1-luna-resume-authorization");
@@ -62,6 +63,21 @@ function loadManifestFixture() {
   };
 }
 
+function writeOwnerAuthFile(manifest, executionSha) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-auth-r001-"));
+  const doc = buildOwnerAuthorizationDocument({
+    approvedExecutionSha: executionSha,
+    runId: manifest.runId,
+    discoveryBaselineSha: manifest.discoveryBaselineSha,
+    model: manifest.model,
+    scopeHash: manifest.scopeHash,
+    objectIdsHash: manifest.objectIdsHash,
+    issuedAt: "2026-09-02T12:00:00.000Z",
+  });
+  const filePath = path.join(dir, "owner-authorization.json");
+  fs.writeFileSync(filePath, `${JSON.stringify(doc, null, 2)}\n`);
+  return filePath;
+}
 let testsRun = 0;
 let testsFailed = 0;
 
@@ -96,10 +112,12 @@ function baselinePass() {
 
 function resumeOpts(overrides = {}) {
   const manifest = overrides.manifest || loadManifestFixture();
+  const ownerAuthorizationFile =
+    overrides.ownerAuthorizationFile || writeOwnerAuthFile(manifest, SHA_APPROVED_INFRA);
   return {
     resumeLuna: true,
     approvedInfraHeadSha: SHA_APPROVED_INFRA,
-    ownerApprovedInfraHeadSha: SHA_APPROVED_INFRA,
+    ownerAuthorizationFile,
     runId: RUN_ID,
     model: DEFAULT_MODEL,
     cliScope: CLI_SCOPE,
@@ -135,7 +153,9 @@ function testDirtyWorktreeFails() {
 }
 
 function testUnapprovedHeadFails() {
-  const r = authorizeInfraResume(resumeOpts({ approvedInfraHeadSha: null }));
+  const manifest = loadManifestFixture();
+  const ownerAuthorizationFile = writeOwnerAuthFile(manifest, SHA_APPROVED_INFRA);
+  const r = authorizeInfraResume(resumeOpts({ approvedInfraHeadSha: null, ownerAuthorizationFile }));
   assert(!r.pass, "missing approved SHA fails");
   assert(r.blocker === "INFRA_RESUME_HEAD_NOT_AUTHORIZED", "unauthorized head code");
 }
@@ -216,6 +236,7 @@ function testPrepareResumeWithApprovedHead() {
       "hr", "sk", "cs", "fi", "sv", "nb", "nn", "da", "nl", "lb", "fr", "it", "es", "pt", "hu", "is",
     ],
   };
+  const ownerAuthorizationFile = writeOwnerAuthFile(loadManifestFixture(), SHA_APPROVED_INFRA);
   const r = prepareResumeContext({
     runId: RUN_ID,
     scopes,
@@ -225,7 +246,7 @@ function testPrepareResumeWithApprovedHead() {
     options: {
       skipApiKeyCheck: true,
       approvedInfraHeadSha: SHA_APPROVED_INFRA,
-      ownerApprovedResume: OWNER_APPROVED_RESUME,
+      ownerAuthorizationFile,
       baseline: baselinePass(),
       gitIdentity: injectedGitIdentity(),
     },

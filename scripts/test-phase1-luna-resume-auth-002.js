@@ -2,12 +2,15 @@
 "use strict";
 
 const fs = require("fs");
+const os = require("os");
 const path = require("path");
 const {
   OWNER_APPROVED_RESUME,
+  HISTORICAL_OWNER_APPROVED_HEAD_SHA,
   buildResumeAuthOptionsFromCli,
 } = require("./lib/phase1-luna-resume-authorization");
 const { authorizeInfraResume } = require("./lib/phase1-luna-resume-auth");
+const { buildOwnerAuthorizationDocument } = require("./lib/phase1-luna-owner-authorization-file");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
 
 let testsRun = 0;
@@ -21,7 +24,7 @@ function assert(condition, message) {
   }
 }
 
-const SHA_APPROVED = OWNER_APPROVED_RESUME.infraHeadSha;
+const SHA_APPROVED = HISTORICAL_OWNER_APPROVED_HEAD_SHA;
 const RUN_ID = OWNER_APPROVED_RESUME.resumeRunId;
 const SHA_BASELINE = OWNER_APPROVED_RESUME.discoveryBaselineSha;
 
@@ -36,7 +39,7 @@ function gitIdentity(overrides = {}) {
   };
 }
 
-function authFromCli(cli, overrides = {}) {
+function loadManifest() {
   const manifestPath = path.join(
     __dirname,
     "..",
@@ -46,13 +49,34 @@ function authFromCli(cli, overrides = {}) {
     RUN_ID,
     "run-manifest.json",
   );
-  let manifest = null;
-  if (fs.existsSync(manifestPath)) {
-    manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
-  }
+  if (!fs.existsSync(manifestPath)) return null;
+  return JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+}
+
+function writeOwnerAuthFile(manifest, executionSha = SHA_APPROVED) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-auth-r002-"));
+  const doc = buildOwnerAuthorizationDocument({
+    approvedExecutionSha: executionSha,
+    runId: manifest.runId,
+    discoveryBaselineSha: manifest.discoveryBaselineSha,
+    model: manifest.model,
+    scopeHash: manifest.scopeHash,
+    objectIdsHash: manifest.objectIdsHash,
+    issuedAt: "2026-09-02T12:00:00.000Z",
+  });
+  const filePath = path.join(dir, "owner-authorization.json");
+  fs.writeFileSync(filePath, `${JSON.stringify(doc, null, 2)}\n`);
+  return filePath;
+}
+
+function authFromCli(cli, overrides = {}) {
+  const manifest = loadManifest();
   const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-applicability");
+  const ownerAuthorizationFile =
+    cli.ownerAuthorizationFile ||
+    (manifest ? writeOwnerAuthFile(manifest, cli.approvedInfraHeadSha || SHA_APPROVED) : null);
   return authorizeInfraResume({
-    ...buildResumeAuthOptionsFromCli(cli, overrides),
+    ...buildResumeAuthOptionsFromCli({ ...cli, ownerAuthorizationFile }, overrides),
     skipApiKeyCheck: true,
     gitIdentity: gitIdentity(overrides.gitIdentity),
     baseline: { originMainSha: SHA_BASELINE, verdict: "PASS" },
@@ -107,19 +131,20 @@ function testMissingApprovedHeadFails() {
   assert(!r.pass, "missing approved head fails");
 }
 
-function testSelfReferentialBaselineBlocked() {
+function testExternalAuthRequired() {
   const opts = buildResumeAuthOptionsFromCli({
     resumeRunId: RUN_ID,
     approvedInfraHeadSha: SHA_APPROVED,
+    ownerAuthorizationFile: "/tmp/example-owner-auth.json",
     model: DEFAULT_MODEL,
   });
-  assert(opts.authorizedRunId === OWNER_APPROVED_RESUME.resumeRunId, "authorized run from OWNER constant");
-  assert(
-    opts.expectedDiscoveryBaselineSha === OWNER_APPROVED_RESUME.discoveryBaselineSha,
-    "expected baseline from OWNER constant",
-  );
+  assert(opts.ownerAuthorizationFile === "/tmp/example-owner-auth.json", "owner auth file from CLI");
   assert(opts.runId === RUN_ID, "runtime run id from CLI");
-  assert(opts.authorizedRunId === opts.runId, "matching CLI run id");
+  assert(!("ownerApprovedInfraHeadSha" in opts), "no committed owner SHA in runtime opts");
+  assert(
+    HISTORICAL_OWNER_APPROVED_HEAD_SHA === OWNER_APPROVED_RESUME.infraHeadSha,
+    "historical fixture SHA preserved for docs/tests only",
+  );
 }
 
 function main() {
@@ -127,7 +152,7 @@ function main() {
   testWrongRunIdFails();
   testWrongHeadFails();
   testMissingApprovedHeadFails();
-  testSelfReferentialBaselineBlocked();
+  testExternalAuthRequired();
   console.log(`R-AUTH-002: ${testsRun - testsFailed}/${testsRun} PASS`);
   if (testsFailed) process.exit(1);
 }

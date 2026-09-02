@@ -19,6 +19,7 @@ const {
 } = require("./lib/phase1-luna-checkpoint/batch-checkpoint");
 const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-applicability");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
+const { buildOwnerAuthorizationDocument } = require("./lib/phase1-luna-owner-authorization-file");
 const { hashSortedList } = require("./lib/phase1-luna-checkpoint/hash");
 const { CHECKPOINT_SCHEMA_VERSION } = require("./lib/phase1-luna-checkpoint/constants");
 
@@ -99,20 +100,43 @@ function allScopes() {
   return getDeterministicScopeOrder();
 }
 
+function writeOwnerAuthFile(manifest, executionSha = SHA_APPROVED) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-auth-r003-"));
+  const doc = buildOwnerAuthorizationDocument({
+    approvedExecutionSha: executionSha,
+    runId: manifest.runId,
+    discoveryBaselineSha: manifest.discoveryBaselineSha,
+    model: manifest.model,
+    scopeHash: manifest.scopeHash,
+    objectIdsHash: manifest.objectIdsHash,
+    issuedAt: "2026-09-02T12:00:00.000Z",
+  });
+  const filePath = path.join(dir, "owner-authorization.json");
+  fs.writeFileSync(filePath, `${JSON.stringify(doc, null, 2)}\n`);
+  return filePath;
+}
+
 function authOpts(overrides = {}) {
+  const manifest = overrides.manifest || loadFixtureManifest();
+  const approvedSha = overrides.approvedInfraHeadSha ?? overrides.extra?.approvedInfraHeadSha ?? SHA_APPROVED;
+  const ownerAuthorizationFile =
+    overrides.ownerAuthorizationFile ||
+    overrides.extra?.ownerAuthorizationFile ||
+    writeOwnerAuthFile(manifest, approvedSha);
   return {
     ...buildResumeAuthOptionsFromCli(
       {
         resumeRunId: RUN_ID,
-        approvedInfraHeadSha: SHA_APPROVED,
+        approvedInfraHeadSha: approvedSha,
+        ownerAuthorizationFile,
         model: DEFAULT_MODEL,
       },
       overrides.authOverrides || {},
     ),
     skipApiKeyCheck: true,
     gitIdentity: gitIdentity(overrides.gitIdentity),
-    baseline: { originMainSha: SHA_BASELINE, verdict: "PASS" },
-    manifest: overrides.manifest || loadFixtureManifest(),
+    baseline: overrides.baseline || { originMainSha: SHA_BASELINE, verdict: "PASS" },
+    manifest,
     requireManifestIdentity: true,
     runId: RUN_ID,
     cliScope: overrides.cliScope || CLI_SCOPE,
@@ -146,15 +170,17 @@ function test4AuthFileDescendantFail() {
 }
 
 function test5CliNotOwnerShaFail() {
+  const manifest = loadFixtureManifest();
+  const ownerAuthorizationFile = writeOwnerAuthFile(manifest, SHA_APPROVED);
   const r = authorizeInfraResume(
     authOpts({
+      ownerAuthorizationFile,
       extra: {
         approvedInfraHeadSha: DESCENDANT_HEAD,
-        ownerApprovedInfraHeadSha: SHA_APPROVED,
       },
     }),
   );
-  assert(!r.pass, "5: CLI SHA != OWNER SHA → FAIL");
+  assert(!r.pass, "5: CLI SHA != authorization SHA → FAIL");
   assert(r.blockers.some((b) => b.code === "INFRA_RESUME_HEAD_NOT_AUTHORIZED"), "5: NOT_AUTHORIZED");
 }
 
@@ -227,15 +253,18 @@ function test12WrongScopeHashFail() {
   );
 }
 
-function test13OwnerShaPropagates() {
+function test13OwnerAuthFilePropagates() {
+  const manifest = loadFixtureManifest();
+  const ownerAuthorizationFile = writeOwnerAuthFile(manifest, SHA_APPROVED);
   const opts = buildResumeAuthOptionsFromCli({
     resumeRunId: RUN_ID,
     approvedInfraHeadSha: SHA_APPROVED,
+    ownerAuthorizationFile,
     model: DEFAULT_MODEL,
   });
   const viaResume = validateResumeAuthorization({
     ...opts,
-    manifest: loadFixtureManifest(),
+    manifest,
     requireManifestIdentity: true,
     runId: RUN_ID,
     cliScope: CLI_SCOPE,
@@ -245,12 +274,15 @@ function test13OwnerShaPropagates() {
     gitIdentity: gitIdentity(),
     baseline: { originMainSha: SHA_BASELINE, verdict: "PASS" },
   });
-  assert(opts.ownerApprovedInfraHeadSha === SHA_APPROVED, "13: ownerApprovedInfraHeadSha present in CLI opts");
+  assert(opts.ownerAuthorizationFile === ownerAuthorizationFile, "13: ownerAuthorizationFile present in CLI opts");
   if (!viaResume.ok && viaResume.code === "SCOPE_HASH_MISMATCH") {
-    assert(true, "13: owner SHA propagates (scope hash fixture tolerance)");
+    assert(true, "13: owner auth file propagates (scope hash fixture tolerance)");
     return;
   }
-  assert(viaResume.ok || viaResume.blockers?.every((b) => b.code !== "INFRA_RESUME_HEAD_NOT_AUTHORIZED"), "13: owner SHA not lost between layers");
+  assert(
+    viaResume.ok || viaResume.blockers?.every((b) => b.code !== "OWNER_AUTHORIZATION_FILE_REQUIRED"),
+    "13: owner auth file not lost between layers",
+  );
 }
 
 function test14ResumableInvalidRerunNotSkip() {
@@ -327,7 +359,7 @@ function main() {
   test10WrongBaselineFail();
   test11WrongModelFail();
   test12WrongScopeHashFail();
-  test13OwnerShaPropagates();
+  test13OwnerAuthFilePropagates();
   test14ResumableInvalidRerunNotSkip();
   test15OtherMismatchCorrupt();
   test16DuplicateBatchDetected();

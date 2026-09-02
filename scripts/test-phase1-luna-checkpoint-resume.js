@@ -50,6 +50,7 @@ const { runPhase1Discovery } = require("./run-phase1-discovery");
 const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-applicability");
 const { createInterruptState } = require("./lib/phase1-luna-checkpoint/signals");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
+const { buildOwnerAuthorizationDocument } = require("./lib/phase1-luna-owner-authorization-file");
 
 const SHA_TEST = "cccccccccccccccccccccccccccccccccccccccc";
 let testsRun = 0;
@@ -63,18 +64,44 @@ function assert(condition, message) {
   }
 }
 
+function writeOwnerAuthFileForRun(runId, manifest, executionSha = SHA_TEST) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-auth-ckpt-"));
+  const doc = buildOwnerAuthorizationDocument({
+    approvedExecutionSha: executionSha,
+    runId,
+    discoveryBaselineSha: manifest.discoveryBaselineSha,
+    model: manifest.model,
+    scopeHash: manifest.scopeHash,
+    objectIdsHash: manifest.objectIdsHash,
+    issuedAt: "2026-09-02T12:00:00.000Z",
+  });
+  const filePath = path.join(dir, "owner-authorization.json");
+  fs.writeFileSync(filePath, `${JSON.stringify(doc, null, 2)}\n`);
+  return filePath;
+}
+
 function testResumeAuthOpts(runId, gitIdentity, baseline, extra = {}) {
+  const manifestFile = manifestPath(runId);
+  let manifest = null;
+  if (fs.existsSync(manifestFile)) {
+    manifest = readJsonFile(manifestFile);
+  } else {
+    manifest = {
+      runId,
+      discoveryBaselineSha: baseline.originMainSha,
+      model: DEFAULT_MODEL,
+      scopeHash: "test-scope-hash",
+      objectIdsHash: "test-object-hash",
+    };
+  }
+  const ownerAuthorizationFile =
+    extra.ownerAuthorizationFile || writeOwnerAuthFileForRun(runId, manifest, gitIdentity.headSha || SHA_TEST);
   return {
     skipApiKeyCheck: true,
     gitIdentity,
     baseline,
-    approvedInfraHeadSha: SHA_TEST,
-    ownerApprovedResume: {
-      infraHeadSha: SHA_TEST,
-      resumeRunId: runId,
-      discoveryBaselineSha: SHA_TEST,
-      model: DEFAULT_MODEL,
-    },
+    approvedInfraHeadSha: gitIdentity.headSha || SHA_TEST,
+    ownerAuthorizationFile,
     ...extra,
   };
 }

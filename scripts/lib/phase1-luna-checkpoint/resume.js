@@ -52,7 +52,7 @@ function validateResumeAuthorization(options = {}) {
   const auth = authorizeInfraResume({
     resumeLuna: true,
     approvedInfraHeadSha: options.approvedInfraHeadSha,
-    ownerApprovedInfraHeadSha: options.ownerApprovedInfraHeadSha,
+    ownerAuthorizationFile: options.ownerAuthorizationFile,
     runId: options.runId,
     model: options.model,
     cliScope: options.cliScope,
@@ -296,6 +296,7 @@ function prepareResumeContext({
     {
       resumeRunId: runId,
       approvedInfraHeadSha: options.approvedInfraHeadSha,
+      ownerAuthorizationFile: options.ownerAuthorizationFile,
       model,
     },
     {
@@ -304,7 +305,6 @@ function prepareResumeContext({
       baseline,
       phase0Frozen: options.phase0Frozen,
       gitIdentityDeps: options.gitIdentityDeps,
-      ownerApprovedResume: options.ownerApprovedResume,
     },
   );
 
