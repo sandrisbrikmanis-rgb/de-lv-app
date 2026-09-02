@@ -40,16 +40,20 @@ function headMatchesApprovedInfra(identity, approvedInfraHeadSha) {
   });
 }
 
+function gitPorcelainPath(line) {
+  const trimmed = line.trimEnd();
+  if (trimmed.length > 3 && trimmed[2] === " ") return trimmed.slice(3).trim();
+  if (trimmed.length > 2 && trimmed[1] === " ") return trimmed.slice(2).trim();
+  return trimmed.trim();
+}
+
 function isResumeWorkingTreeClean(identity) {
   if (identity.workingTreeClean) return true;
   const status = git("git status --porcelain");
   if (!status.ok) return false;
   const lines = (status.stdout || "").split("\n").filter(Boolean);
   if (!lines.length) return true;
-  return lines.every((line) => {
-    const file = line.replace(/^\s*(.)(.)\s+/, "").trim();
-    return file.startsWith("reports/");
-  });
+  return lines.every((line) => gitPorcelainPath(line).startsWith("reports/"));
 }
 
 function validateFrozenPhase0Identity(options = {}) {
