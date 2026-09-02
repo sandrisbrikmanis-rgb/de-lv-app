@@ -13,6 +13,7 @@ const {
   loadG3LessonObjects,
 } = require("../luna-object-loaders");
 const { hashSortedList, hashObject } = require("./hash");
+const { getLegacyObjectId } = require("./object-identity");
 const {
   SCHEMA_VERSION,
   BATCHING_CONFIG,
@@ -38,7 +39,7 @@ function loadObjectsForScope(scope) {
 }
 
 function getObjectId(obj) {
-  return obj.id;
+  return getLegacyObjectId(obj);
 }
 
 function computeScopeIdentity(scopes) {

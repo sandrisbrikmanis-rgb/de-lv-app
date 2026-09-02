@@ -9,6 +9,22 @@ const {
   redactSecrets,
 } = require("./luna-phase1-openai");
 
+function rejectOnAbort(signal, reject) {
+  if (!signal) return null;
+  const onAbort = () => {
+    const err = new Error("TIMEOUT");
+    err.code = "TIMEOUT";
+    err.name = "AbortError";
+    reject(err);
+  };
+  if (signal.aborted) {
+    onAbort();
+    return null;
+  }
+  signal.addEventListener("abort", onAbort, { once: true });
+  return onAbort;
+}
+
 function createMockLunaTransport(fixtureMap = {}) {
   return {
     mode: "MOCK",
@@ -19,9 +35,26 @@ function createMockLunaTransport(fixtureMap = {}) {
     getRealCalls() {
       return 0;
     },
-    async call(payload) {
+    async call(payload, callOptions = {}) {
+      const { signal } = callOptions;
       const key = `${payload.adapter}:${payload.scopeId}`;
       const fixture = fixtureMap[key] || fixtureMap[payload.adapter] || fixtureMap.default;
+
+      if (fixture?.hang) {
+        return new Promise((resolve, reject) => {
+          const onAbort = rejectOnAbort(signal, reject);
+          if (!onAbort && signal?.aborted) return;
+          if (fixture.hang === "forever") return;
+          setTimeout(() => {
+            if (signal?.aborted) return;
+            resolve({
+              items: payload.objects.map((obj) => ({ ...obj, id: obj.id, status: "PASS" })),
+              tokensUsed: fixture.tokensUsed || 0,
+            });
+          }, fixture.hangDelayMs || 60_000);
+        });
+      }
+
       if (!fixture) {
         return {
           items: payload.objects.map((obj, idx) => ({
@@ -76,7 +109,7 @@ function createRealLunaTransport(options = {}) {
     getRealCalls() {
       return totalRealCalls;
     },
-    async call(payload) {
+    async call(payload, callOptions = {}) {
       pendingDelta = 1;
       totalRealCalls += 1;
       try {
@@ -98,6 +131,7 @@ function createRealLunaTransport(options = {}) {
           model,
           writeRawPath: rawPath,
           client: options.client,
+          signal: callOptions.signal,
         });
         return {
           items: result.items,

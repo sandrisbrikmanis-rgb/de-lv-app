@@ -3,6 +3,15 @@
  */
 const { createLunaTransport } = require('./luna-transport');
 const { splitObjectsIntoBatches } = require('./phase1-luna-checkpoint/batch-split');
+const {
+  nowMs,
+  createAttemptDeadlines,
+  createAttemptAbortContext,
+  trackDetachedPromise,
+  normalizeTransportError,
+  getMonotonicBatchRemainingMs,
+  assertPostAwaitDeadline,
+} = require('./luna-request-guard');
 
 const TIMEOUT_MS = 180_000;
 const MAX_RETRIES = 3;
@@ -22,6 +31,7 @@ function createAdapterStats() {
     objectsExpected: 0,
     objectsReturned: 0,
     realCalls: 0,
+    skippedBatches: 0,
   };
 }
 
@@ -64,48 +74,78 @@ function checkInterrupted(interruptState) {
   }
 }
 
+function batchWallExceededResult(stats, results, checkpoints, lastBatchId) {
+  stats.failures += 1;
+  return {
+    ok: false,
+    reason: 'BATCH_WALL_CLOCK_EXCEEDED',
+    stats,
+    results,
+    checkpoints,
+    lastBatchId,
+  };
+}
+
+function failAttemptResult(reason, stats, results, checkpoints, lastBatchId, extra = {}) {
+  stats.failures += 1;
+  return {
+    ok: false,
+    reason,
+    stats,
+    results,
+    checkpoints,
+    lastBatchId,
+    ...extra,
+  };
+}
+
 async function runBatchedAdapter({
   transport,
   objects,
   getId,
   serialize,
+  serializeCheckpoint = null,
   batchSize = 50,
   scopeId,
   adapterName,
   checkpointHooks = null,
   interruptState = null,
+  batchWallClockMs = BATCH_WALL_CLOCK_MS,
+  requestTimeoutMs = TIMEOUT_MS,
+  retryBackoffMs = BACKOFF_MS,
 }) {
   const stats = createAdapterStats();
   stats.objectsExpected = objects.length;
-  stats.skippedBatches = 0;
   const results = [];
   const checkpoints = [];
   let lastBatchId = null;
   const batches = splitObjectsIntoBatches(objects, batchSize);
 
-  const batchStart = Date.now();
-
   for (let batchIndex = 0; batchIndex < batches.length; batchIndex += 1) {
     const batch = batches[batchIndex];
     checkInterrupted(interruptState);
+    const batchStartedMono = nowMs();
+    const batchDeadlineAt = batchStartedMono + batchWallClockMs;
 
-    if (Date.now() - batchStart > BATCH_WALL_CLOCK_MS) {
-      stats.failures += 1;
-      return { ok: false, reason: 'BATCH_WALL_CLOCK_EXCEEDED', stats, results, checkpoints, lastBatchId };
-    }
-
-    const payload = {
+    const checkpointSerialize = serializeCheckpoint || serialize;
+    const checkpointPayload = {
+      scopeId,
+      adapter: adapterName,
+      objects: batch.map((obj) => checkpointSerialize(obj)),
+    };
+    const lunaPayload = {
       scopeId,
       adapter: adapterName,
       objects: batch.map((obj) => serialize(obj)),
     };
+    const getLunaId = (item) => item?.id;
 
     if (checkpointHooks?.shouldSkipBatch) {
       const skipResult = checkpointHooks.shouldSkipBatch({
         batchIndex,
         batch,
         getId,
-        requestPayload: payload,
+        requestPayload: checkpointPayload,
       });
       if (skipResult?.skip) {
         const cp = skipResult.checkpoint;
@@ -128,48 +168,62 @@ async function runBatchedAdapter({
     while (attempt < MAX_RETRIES && !batchOk) {
       attempt += 1;
       checkInterrupted(interruptState);
+
+      const remainingBatchMs = getMonotonicBatchRemainingMs(batchDeadlineAt);
+      if (remainingBatchMs <= 0) {
+        return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
+      }
+
+      const attemptStart = nowMs();
+      const deadlines = createAttemptDeadlines({
+        attemptStart,
+        requestTimeoutMs,
+        batchDeadlineAt,
+      });
+
+      let heartbeatTimer;
+      let attemptGuard = null;
+
       try {
-        let heartbeatTimer;
-        let timeoutId;
-        const callPromise = transport.call(payload);
-        const timeoutPromise = new Promise((_, reject) => {
-          timeoutId = setTimeout(() => reject(new Error('TIMEOUT')), TIMEOUT_MS);
+        attemptGuard = createAttemptAbortContext({
+          attemptLimitMs: deadlines.attemptLimitMs,
+          isBatchDeadlineLimited: deadlines.isBatchDeadlineLimited,
         });
+
         if (checkpointHooks?.onHeartbeat) {
           heartbeatTimer = setInterval(() => {
             checkpointHooks.onHeartbeat({ currentScopeId: scopeId, batchIndex });
           }, 15_000);
         }
 
-        let response;
-        try {
-          response = await Promise.race([callPromise, timeoutPromise]);
-        } finally {
-          if (timeoutId) clearTimeout(timeoutId);
-          if (heartbeatTimer) clearInterval(heartbeatTimer);
-        }
+        const callPromise = transport.call(lunaPayload, { signal: attemptGuard.controller.signal });
+        trackDetachedPromise(callPromise);
+
+        const response = await Promise.race([callPromise, attemptGuard.guardPromise]);
+
+        assertPostAwaitDeadline(deadlines);
 
         stats.realCalls += transport.realCallsDelta || 0;
         stats.tokensUsed += response?.tokensUsed || 0;
 
-        const validation = validateBatchResponse(batch, response, getId);
+        const validation = validateBatchResponse(lunaPayload.objects, response, getLunaId);
         if (!validation.ok) {
           lastError = validation.issues.join(',');
           if (attempt < MAX_RETRIES) {
+            const backoffDelayMs = retryBackoffMs[Math.min(attempt - 1, retryBackoffMs.length - 1)];
+            if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= backoffDelayMs) {
+              return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
+            }
             stats.retries += 1;
-            await sleep(BACKOFF_MS[Math.min(attempt - 1, BACKOFF_MS.length - 1)]);
+            await sleep(backoffDelayMs);
+            if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= 0) {
+              return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
+            }
             continue;
           }
-          stats.failures += 1;
-          return {
-            ok: false,
-            reason: lastError,
-            stats,
-            results,
-            checkpoints,
-            lastBatchId,
+          return failAttemptResult(lastError, stats, results, checkpoints, lastBatchId, {
             missingIds: validation.missingIds,
-          };
+          });
         }
 
         let savedCheckpoint = null;
@@ -178,7 +232,7 @@ async function runBatchedAdapter({
             batchIndex,
             batch,
             getId,
-            requestPayload: payload,
+            requestPayload: checkpointPayload,
             rawResult: { items: validation.items, tokensUsed: response?.tokensUsed || 0 },
             attemptCount: attempt,
             tokensUsed: response?.tokensUsed || 0,
@@ -196,14 +250,27 @@ async function runBatchedAdapter({
         batchOk = true;
       } catch (err) {
         if (err.code === "INTERRUPTED") throw err;
-        lastError = err.message === 'TIMEOUT' ? 'TIMEOUT' : err.message;
-        if (attempt < MAX_RETRIES) {
-          stats.retries += 1;
-          await sleep(BACKOFF_MS[Math.min(attempt - 1, BACKOFF_MS.length - 1)]);
-        } else {
-          stats.failures += 1;
-          return { ok: false, reason: lastError, stats, results, checkpoints, lastBatchId };
+        const normalized = normalizeTransportError(err);
+        if (normalized.code === "BATCH_WALL_CLOCK_EXCEEDED") {
+          return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
         }
+        lastError = normalized.code === "TIMEOUT" ? "TIMEOUT" : normalized.message;
+        if (attempt < MAX_RETRIES) {
+          const backoffDelayMs = retryBackoffMs[Math.min(attempt - 1, retryBackoffMs.length - 1)];
+          if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= backoffDelayMs) {
+            return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
+          }
+          stats.retries += 1;
+          await sleep(backoffDelayMs);
+          if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= 0) {
+            return batchWallExceededResult(stats, results, checkpoints, lastBatchId);
+          }
+        } else {
+          return failAttemptResult(lastError, stats, results, checkpoints, lastBatchId);
+        }
+      } finally {
+        if (heartbeatTimer) clearInterval(heartbeatTimer);
+        if (attemptGuard) attemptGuard.dispose();
       }
     }
   }
@@ -231,7 +298,7 @@ function createLunaAdapter({ name, loadObjects, getId, serialize, batchSize }) {
       transport,
       objects,
       getId,
-      serialize,
+      serialize: (obj) => serialize(obj, scopeId),
       batchSize: options.batchSize || batchSize,
       scopeId,
       adapterName: name,
@@ -246,4 +313,5 @@ module.exports = {
   TIMEOUT_MS,
   MAX_RETRIES,
   BATCH_WALL_CLOCK_MS,
+  BACKOFF_MS,
 };

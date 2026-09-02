@@ -24,11 +24,13 @@ function normalizeOwnerPrepFindings(findings = []) {
 
 function buildPhase1OwnerView(findings = [], options = {}) {
   const rows = normalizeOwnerPrepFindings(findings);
+  const sourceHash = options.sourceHash;
   const lines = [
     "# Phase 1 — OWNER preview (phase1-full)",
     "",
     `**Findings:** ${rows.length}`,
     `**Generated:** ${options.generatedAt || new Date().toISOString()}`,
+    sourceHash ? `**Source hash:** \`${sourceHash}\`` : null,
     "",
     options.mockNote ? `> ${options.mockNote}` : "",
     options.mockNote ? "" : null,
@@ -68,9 +70,11 @@ function buildPhase1OwnerDecisions(findings = []) {
     "|----------|-------------------|-----------|------|-------|----------|----------|---------|--------|--------------|",
   ];
 
+  const escapeCell = (value) => String(value ?? "—").replace(/\|/g, "\\|");
+
   for (const f of rows) {
     lines.push(
-      `| ${f.auditId || "—"} | ${f.findingStableId || "—"} | ${f.dedupKey || "—"} | ${f.cardId || "—"} | ${f.fieldPath || "—"} | ${f.category || "—"} | ${f.severity || "—"} | ${String(f.current || "").replace(/\|/g, "\\|")} | ${f.source || "—"} | PENDING |`,
+      `| ${escapeCell(f.auditId)} | ${escapeCell(f.findingStableId)} | ${escapeCell(f.dedupKey)} | ${escapeCell(f.cardId)} | ${escapeCell(f.fieldPath)} | ${escapeCell(f.category)} | ${escapeCell(f.severity)} | ${escapeCell(f.current)} | ${escapeCell(f.source)} | PENDING |`,
     );
   }
 

@@ -17,7 +17,7 @@ const {
   summarizeApplicability,
 } = require("./lib/content-discovery/phase1-applicability");
 const { collectPhase1Scope } = require("./lib/content-discovery/phase1-collect");
-const { writePhase1ScopeInventory } = require("./lib/content-discovery/phase1-scope-inventory");
+const { writePhase1ScopeInventory, readPhase1ScopeInventoryRef } = require("./lib/content-discovery/phase1-scope-inventory");
 const { validateFindings } = require("./lib/content-discovery/phase1-findings-validation");
 const { deduplicateFindings } = require("./lib/content-discovery/phase1-findings-dedup");
 const { evaluateAllCoverageGates } = require("./lib/content-discovery/phase1-coverage-gates");
@@ -33,6 +33,8 @@ const { parseDatasetsArg } = require("./lib/content-discovery/registry");
 const { runLunaForScope } = require("./lib/luna-orchestrator");
 const { createLunaTransport } = require("./lib/luna-transport");
 const { authorizeWithLunaDiscovery } = require("./lib/phase1-luna-authorize");
+const { authorizeInfraResume } = require("./lib/phase1-luna-resume-auth");
+const { buildResumeAuthOptionsFromCli } = require("./lib/phase1-luna-resume-authorization");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
 const {
   runPreBacklogHistoryGate,
@@ -64,6 +66,8 @@ Options:
   --fresh-luna          Start a new Luna checkpoint run (does not delete prior runs)
   --resume-luna         Resume Luna from validated checkpoints (identity must match)
   --resume-run-id <id>  Explicit run id for --resume-luna
+  --approved-infra-head-sha <sha>  Required with --resume-luna: explicit authorized infra repair HEAD
+  --owner-authorization-file <path>  Required with --resume-luna: absolute path to external OWNER authorization JSON (outside repo)
   --debug               Show stack traces on errors
   --help                Show help
 `);
@@ -81,6 +85,8 @@ function parseArgs(argv) {
     freshLuna: false,
     resumeLuna: false,
     resumeRunId: null,
+    approvedInfraHeadSha: null,
+    ownerAuthorizationFile: null,
   };
 
   for (let i = 2; i < argv.length; i++) {
@@ -98,6 +104,8 @@ function parseArgs(argv) {
     else if (arg === "--fresh-luna") args.freshLuna = true;
     else if (arg === "--resume-luna") args.resumeLuna = true;
     else if (arg === "--resume-run-id") args.resumeRunId = argv[++i];
+    else if (arg === "--approved-infra-head-sha") args.approvedInfraHeadSha = argv[++i];
+    else if (arg === "--owner-authorization-file") args.ownerAuthorizationFile = argv[++i];
     else if (arg === "--group") args.groups = [argv[++i]];
     else if (arg === "--dataset") {
       const value = argv[++i];
@@ -179,7 +187,7 @@ async function runPhase1Discovery(options = {}) {
     );
   }
 
-  const baseline = runBaselineGate();
+  const baseline = runBaselineGate({ writeReports: !options.resumeLuna });
   if (baseline.verdict === "BLOCKED") {
     return {
       blocked: true,
@@ -190,8 +198,69 @@ async function runPhase1Discovery(options = {}) {
 
   const allScopes = getDeterministicScopeOrder();
   const scopes = filterScopes(allScopes, options);
-  const inventoryWrite = writePhase1ScopeInventory();
+  const cliScope = {
+    groups: options.groups,
+    datasetsByGroup: options.datasetsByGroup,
+    langs: options.langs,
+  };
 
+  const useCheckpoint =
+    options.checkpointEnabled ||
+    options.resumeLuna ||
+    options.freshLuna ||
+    Boolean(options.checkpointRunId);
+
+  let checkpointRunId = options.checkpointRunId || null;
+  let checkpointRun = null;
+
+  if (useCheckpoint && options.resumeLuna) {
+    if (!checkpointRunId && !options.resumeRunId) {
+      return {
+        blocked: true,
+        verdict: "RESUME_RUN_ID_REQUIRED",
+        message: "--resume-luna requires --resume-run-id",
+        realCalls: 0,
+      };
+    }
+    checkpointRunId = options.resumeRunId || checkpointRunId;
+    const transportName = options.withLuna ? "REAL" : "MOCK";
+    const resume = prepareResumeContext({
+      runId: checkpointRunId,
+      scopes,
+      cliScope,
+      transport: transportName,
+      model: options.lunaModel || DEFAULT_MODEL,
+      options: {
+        skipApiKeyCheck: !options.withLuna,
+        approvedInfraHeadSha: options.approvedInfraHeadSha,
+        ownerAuthorizationFile: options.ownerAuthorizationFile,
+        gitIdentity: options.gitIdentity,
+        baseline,
+        phase0Matrix: options.phase0Matrix,
+      },
+    });
+    if (!resume.ok) {
+      return {
+        blocked: true,
+        verdict: resume.code,
+        blockers: resume.blockers,
+        details: resume.details,
+        realCalls: 0,
+      };
+    }
+    checkpointRun = resume;
+  }
+
+  const inventoryWrite = options.resumeLuna
+    ? readPhase1ScopeInventoryRef()
+    : writePhase1ScopeInventory();
+  if (options.resumeLuna && !inventoryWrite.ok) {
+    return {
+      blocked: true,
+      verdict: inventoryWrite.code || "SCOPE_INVENTORY_MISSING",
+      realCalls: 0,
+    };
+  }
   const matrix = buildPhase1MatrixSkeleton({
     originMainSha: baseline.originMainSha,
     masterVersion: baseline.masterStandardVersion || "1.17",
@@ -217,80 +286,33 @@ async function runPhase1Discovery(options = {}) {
     failures: [],
   };
 
-  const cliScope = {
-    groups: options.groups,
-    datasetsByGroup: options.datasetsByGroup,
-    langs: options.langs,
-  };
-
-  const useCheckpoint =
-    options.checkpointEnabled ||
-    options.resumeLuna ||
-    options.freshLuna ||
-    Boolean(options.checkpointRunId);
-
-  let checkpointRunId = options.checkpointRunId || null;
-  let checkpointRun = null;
-
-  if (useCheckpoint) {
+  if (useCheckpoint && !options.resumeLuna) {
     const transportName = options.withLuna ? "REAL" : "MOCK";
-    if (options.resumeLuna) {
-      if (!checkpointRunId && !options.resumeRunId) {
-        return {
-          blocked: true,
-          verdict: "RESUME_RUN_ID_REQUIRED",
-          message: "--resume-luna requires --resume-run-id",
-        };
-      }
-      checkpointRunId = options.resumeRunId || checkpointRunId;
-      const resume = prepareResumeContext({
-        runId: checkpointRunId,
+    try {
+      checkpointRun = initFreshRun({
         scopes,
         cliScope,
         transport: transportName,
         model: options.lunaModel || DEFAULT_MODEL,
-        options: {
-          skipApiKeyCheck: !options.withLuna,
-          skipPhase0Check: options.skipPhase0Check,
-          gitIdentity: options.gitIdentity,
-          baseline,
-          phase0Matrix: options.phase0Matrix,
-        },
+        command: options.command,
+        baseline,
+        gitIdentity: options.gitIdentity,
       });
-      if (!resume.ok) {
+      checkpointRunId = checkpointRun.runId;
+    } catch (error) {
+      if (error.code === "PHASE1_RUN_ALREADY_ACTIVE") {
         return {
           blocked: true,
-          verdict: resume.code,
-          blockers: resume.blockers,
-          details: resume.details,
+          verdict: "PHASE1_RUN_ALREADY_ACTIVE",
+          lock: error.lock,
           realCalls: 0,
         };
       }
-      checkpointRun = resume;
-    } else {
-      try {
-        checkpointRun = initFreshRun({
-          scopes,
-          cliScope,
-          transport: transportName,
-          model: options.lunaModel || DEFAULT_MODEL,
-          command: options.command,
-          baseline,
-          gitIdentity: options.gitIdentity,
-        });
-        checkpointRunId = checkpointRun.runId;
-      } catch (error) {
-        if (error.code === "PHASE1_RUN_ALREADY_ACTIVE") {
-          return {
-            blocked: true,
-            verdict: "PHASE1_RUN_ALREADY_ACTIVE",
-            lock: error.lock,
-            realCalls: 0,
-          };
-        }
-        throw error;
-      }
+      throw error;
     }
+  }
+
+  if (useCheckpoint && checkpointRunId) {
     matrix.checkpoint = {
       runId: checkpointRunId,
       mode: options.resumeLuna ? "RESUME" : "FRESH",
@@ -517,12 +539,51 @@ async function main() {
 
   try {
     if (args.withLuna) {
-      const auth = authorizeWithLunaDiscovery();
-      if (!auth.pass) {
-        const first = auth.blockers[0];
-        console.error(`BLOCKED: ${first.code}`);
-        console.error(first.message);
-        process.exit(1);
+      if (args.resumeLuna) {
+        const { loadManifest } = require("./lib/phase1-luna-checkpoint/resume");
+        const allScopes = getDeterministicScopeOrder();
+        const scopes = filterScopes(allScopes, args);
+        const cliScope = {
+          groups: args.groups,
+          datasetsByGroup: args.datasetsByGroup,
+          langs: args.langs,
+        };
+        const loaded = loadManifest(args.resumeRunId);
+        if (!loaded.ok) {
+          console.error(`BLOCKED: ${loaded.code}`);
+          process.exit(1);
+        }
+        const auth = authorizeInfraResume({
+          ...buildResumeAuthOptionsFromCli(
+            {
+              resumeRunId: args.resumeRunId,
+              approvedInfraHeadSha: args.approvedInfraHeadSha,
+              ownerAuthorizationFile: args.ownerAuthorizationFile,
+              model: DEFAULT_MODEL,
+            },
+            { skipApiKeyCheck: false },
+          ),
+          manifest: loaded.manifest,
+          requireManifestIdentity: true,
+          runId: args.resumeRunId,
+          cliScope,
+          scopes,
+          transport: "REAL",
+        });
+        if (!auth.pass) {
+          const first = auth.blockers[0];
+          console.error(`BLOCKED: ${first.code}`);
+          console.error(first.message);
+          process.exit(1);
+        }
+      } else {
+        const auth = authorizeWithLunaDiscovery();
+        if (!auth.pass) {
+          const first = auth.blockers[0];
+          console.error(`BLOCKED: ${first.code}`);
+          console.error(first.message);
+          process.exit(1);
+        }
       }
     }
 
@@ -540,6 +601,8 @@ async function main() {
       lunaTransport: args.withLuna ? createLunaTransport({ mode: "real" }) : undefined,
       checkpointEnabled: checkpointEnabled && (args.withLuna || args.resumeLuna),
       freshLuna: args.freshLuna || (args.withLuna && !args.resumeLuna),
+      approvedInfraHeadSha: args.approvedInfraHeadSha,
+      ownerAuthorizationFile: args.ownerAuthorizationFile,
       command: process.argv.join(" "),
     });
 

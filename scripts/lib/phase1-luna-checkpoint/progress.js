@@ -20,6 +20,7 @@ function createInitialProgress(runId, scopes) {
     scopesExpected: lunaScopes.length,
     scopesStarted: 0,
     scopesCompleted: 0,
+    scopeAttemptSequence: 0,
     currentScopeId: null,
     batchesExpected: 0,
     batchesCompleted: 0,
@@ -60,8 +61,16 @@ function touchHeartbeat(runId, extra = {}) {
 function formatProgressLine(progress) {
   const elapsedMs = Date.now() - new Date(progress.startedAt).getTime();
   const elapsedSec = Math.floor(elapsedMs / 1000);
+  const attemptSeq = progress.scopeAttemptSequence ?? progress.scopesCompleted ?? 0;
+  const uniqueComplete = progress.uniqueScopesComplete;
+  const uniqueCoverage =
+    uniqueComplete != null && progress.scopesExpected
+      ? `uniqueComplete ${uniqueComplete}/${progress.scopesExpected}`
+      : null;
   return [
-    `scope ${progress.scopesCompleted}/${progress.scopesExpected}`,
+    `scopeAttemptSequence ${attemptSeq}`,
+    uniqueCoverage,
+    `currentScope ${progress.currentScopeId || "—"}`,
     `batch ${progress.batchesCompleted}/${progress.batchesExpected}`,
     `objects ${progress.objectsProcessed}/${progress.objectsExpected}`,
     `realCalls ${progress.realCalls}`,
@@ -69,7 +78,9 @@ function formatProgressLine(progress) {
     `retries ${progress.retries}`,
     `elapsed ${elapsedSec}s`,
     `updatedAt ${progress.updatedAt}`,
-  ].join(" | ");
+  ]
+    .filter(Boolean)
+    .join(" | ");
 }
 
 module.exports = {

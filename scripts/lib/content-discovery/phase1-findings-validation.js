@@ -25,12 +25,25 @@ function buildFindingStableId(finding) {
 }
 
 function buildDedupKey(finding) {
-  const group = finding.group || "";
-  const dataset = finding.dataset || "";
+  const scopeId = finding.scopeId || `${finding.group}/${finding.dataset}/${finding.lang}`;
+  const parts = String(scopeId).split("/");
+  const lang = finding.lang || parts[2] || "";
+  const group = finding.group || parts[0] || "";
+  const dataset = finding.dataset || parts[1] || "";
   const cardId = finding.cardId || finding.nodePath || "aggregate";
   const fieldPath = (finding.fieldPath || finding.field || "").trim().replace(/\s+/g, " ");
   const category = finding.category || "UNKNOWN";
-  return `${group}|${dataset}|${cardId}|${fieldPath}|${category}`;
+  const objectIndex = resolveObjectIndexForDedup(finding);
+  return `${scopeId}|${lang}|${group}|${dataset}|${cardId}|idx:${objectIndex}|${fieldPath}|${category}`;
+}
+
+function resolveObjectIndexForDedup(finding) {
+  if (finding.objectIndex != null) return finding.objectIndex;
+  const fromStable = String(finding.findingStableId || "").match(/\|idx:([^|]+)\|/);
+  if (fromStable) return fromStable[1];
+  const fromDedup = String(finding.dedupKey || "").match(/\|idx:([^|]+)\|/);
+  if (fromDedup) return fromDedup[1];
+  return "?";
 }
 
 function normalizeFinding(finding, index = 0) {
@@ -152,6 +165,7 @@ module.exports = {
   ALLOWED_SEVERITY,
   buildFindingStableId,
   buildDedupKey,
+  resolveObjectIndexForDedup,
   normalizeFinding,
   validateFindingSchema,
   validateFindings,

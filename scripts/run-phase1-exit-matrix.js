@@ -15,6 +15,7 @@ const { evaluateAllCoverageGates } = require("./lib/content-discovery/phase1-cov
 const { validateFindings } = require("./lib/content-discovery/phase1-findings-validation");
 const { normalizeOperationalPaths, toRepoRelativePath } = require("./lib/content-discovery/report-builder");
 const { summarizeApplicability } = require("./lib/content-discovery/phase1-applicability");
+const { evaluateOwnerPrepCoverage } = require("./lib/content-discovery/phase1-owner-prep");
 
 const MATRIX_PATH = path.join(ROOT, "reports", "phase1-discovery-matrix.json");
 const SCOPE_INVENTORY_PATH = path.join(ROOT, "reports", "phase1-scope-inventory.json");
@@ -95,16 +96,19 @@ function evaluateF1Gates({ matrix, baseline, productionDiff, options = {} }) {
   };
 
   const validatedFindings = matrix?.totals?.findingsValidated || 0;
-  const preBacklogPass =
-    matrix?.gates?.PRE_BACKLOG_HISTORY_GATE === "PASS" ||
-    matrix?.gates?.PRE_BACKLOG_HISTORY_GATE?.pass === true;
+  const ownerPrepCoverage = f0Completion
+    ? { pass: true, status: "NOT_RUN" }
+    : evaluateOwnerPrepCoverage({
+        matrix,
+        ownerPrepOutDir: options.ownerPrepOutDir,
+      });
   const f1_8 = f0Completion
     ? { pass: true, status: "NOT_RUN", validatedFindings, note: "OWNER-PREP not required during F0 smoke" }
     : {
-        pass: validatedFindings === 0 || (validatedFindings > 0 && preBacklogPass),
-        status: gateStatus(validatedFindings === 0 || (validatedFindings > 0 && preBacklogPass)),
+        pass: ownerPrepCoverage.pass,
+        status: gateStatus(ownerPrepCoverage.pass),
         validatedFindings,
-        preBacklogPass,
+        ownerPrepCoverage,
       };
 
   const gates = {
@@ -132,7 +136,14 @@ function evaluateF1Gates({ matrix, baseline, productionDiff, options = {} }) {
 
   gates["F1-9"] = gateStatus(operationalGatesPass);
 
-  const status = f0Completion ? "PHASE_0_COMPLETION_PASS" : "PHASE_1_COMPLETE";
+  const allGatesPass = operationalGatesPass && gates["F1-9"] === "PASS";
+  const status = f0Completion
+    ? allGatesPass
+      ? "PHASE_0_COMPLETION_PASS"
+      : "PHASE_0_BLOCKED"
+    : allGatesPass
+      ? "PHASE_1_COMPLETE"
+      : "PHASE_1_BLOCKED";
 
   return {
     status,
@@ -171,7 +182,9 @@ function buildExitPayload({ matrix, baseline, productionDiff, evaluation }) {
     generatedAt: new Date().toISOString(),
     originMainSha: baseline?.originMainSha || matrix?.originMainSha || null,
     masterVersion: matrix?.masterVersion || "1.17",
-    ownerDecisionRef: "OWNER-APPROVED-2026-08-29",
+    ownerDecisionRef: options.ownerDecisionRef || "PENDING",
+    phase1StartAuthorizationRef: options.phase1StartAuthorizationRef || "OWNER-APPROVED-2026-08-29",
+    phase1TechnicalOwnerDecisionRef: options.phase1TechnicalOwnerDecisionRef || "PENDING",
     scope: {
       expected: 320,
       processed: matrix?.summary?.length || 0,

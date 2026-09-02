@@ -1,8 +1,8 @@
 # Unmerged closure candidate classification — READ-ONLY
 
-**Generated:** 2026-08-29T05:49:34.990Z
+**Generated:** 2026-09-01T06:09:56.598Z
 **Mode:** READ_ONLY
-**Raw candidates:** 90
+**Raw candidates:** 91
 **ACTIVE (D1 blocker):** 0
 **Unresolved NEEDS_OWNER_REVIEW (D1 blocker):** 0
 **OWNER decisions applied:** 53
@@ -11,7 +11,7 @@
 
 | Category | Count | D1 blocks? |
 |----------|------:|------------|
-| INTEGRATED_HISTORICAL | 37 | no |
+| INTEGRATED_HISTORICAL | 38 | no |
 | CLOSED_SUPERSEDED | 53 | no |
 | ACTIVE_UNMERGED_CLOSURE | 0 | **yes** |
 | NEEDS_OWNER_REVIEW (unresolved) | 0 | **yes** |
@@ -38,7 +38,7 @@ Each unresolved candidate requires an OWNER decision in
 
 | Category | Count |
 |----------|------:|
-| INTEGRATED_HISTORICAL | 37 |
+| INTEGRATED_HISTORICAL | 38 |
 | CLOSED_SUPERSEDED | 53 |
 | ACTIVE_UNMERGED_CLOSURE | 0 |
 | NEEDS_OWNER_REVIEW | 0 |
