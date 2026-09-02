@@ -9,6 +9,7 @@ const { adapterKey, ADAPTER_BY_SCOPE } = require("../luna-orchestrator");
 const {
   RUNS_ROOT,
   HEARTBEAT_INTERVAL_MS,
+  checkpointFilePath,
 } = require("./constants");
 const { writeJsonAtomic } = require("./atomic-io");
 const {
@@ -99,6 +100,7 @@ function createCheckpointHooks({
       const existing = confirmedByBatchId.get(batchId);
       if (!existing) return false;
       const requestHash = require("./hash").hashRequestInput(requestPayload);
+      const filePath = checkpointFilePath(runId, scope.scopeId, batchId);
       const validation = validateBatchCheckpoint(existing, {
         expectedRunId: runId,
         scopeId: scope.scopeId,
@@ -108,6 +110,7 @@ function createCheckpointHooks({
       });
       const classification = classifyCheckpointValidation(validation, existing, {
         scopeId: scope.scopeId,
+        filePath,
       });
       if (
         classification === "RESUMABLE_INVALID" ||

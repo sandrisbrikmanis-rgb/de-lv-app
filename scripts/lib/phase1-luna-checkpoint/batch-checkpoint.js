@@ -60,8 +60,11 @@ function buildBatchCheckpoint({
 function classifyCheckpointValidation(validation, checkpoint, context = {}) {
   const untrusted = require("../phase1-luna-untrusted-checkpoint-registry");
   if (
-    (context.filePath && untrusted.isUntrustedLocalPatchCheckpoint(context.filePath)) ||
-    untrusted.isUntrustedLocalPatchCheckpoint(checkpoint, context.scopeId)
+    context.filePath &&
+    untrusted.isUntrustedLocalPatchCheckpoint(context.filePath, {
+      scopeId: context.scopeId,
+      batchId: checkpoint?.batchId,
+    })
   ) {
     return "UNTRUSTED_LOCAL_PATCH_RUN";
   }

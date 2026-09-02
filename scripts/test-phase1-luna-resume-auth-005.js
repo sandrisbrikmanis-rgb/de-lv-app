@@ -222,9 +222,16 @@ function testUntrustedRegistryNotValidPass() {
   const cp = JSON.parse(fs.readFileSync(path.join(ROOT, sample.file), "utf8"));
   const cls = classifyCheckpointValidation({ ok: false, issues: ["RETURNED_ID_POSITION_MISMATCH"] }, cp, {
     scopeId: sample.scopeId,
+    filePath: path.join(ROOT, sample.file),
   });
   assert(cls === "UNTRUSTED_LOCAL_PATCH_RUN", "11: PID 327971 checkpoint not VALID_PASS");
-  assert(isUntrustedLocalPatchCheckpoint(cp, sample.scopeId), "11: registry recognizes checkpoint");
+  assert(
+    isUntrustedLocalPatchCheckpoint(path.join(ROOT, sample.file), {
+      scopeId: sample.scopeId,
+      batchId: sample.batchId,
+    }),
+    "11: registry recognizes checkpoint by SHA",
+  );
 }
 
 function testNoRealCallsInAuthTests() {
