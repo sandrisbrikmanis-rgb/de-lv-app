@@ -70,7 +70,8 @@ function parsePhase1LunaResponseStrict(raw, expectedIds) {
     ? recoverLunaResponseItems(items, expectedIds)
     : { ok: true, items, recoveries: [], issues: [] };
   if (!recovery.ok) {
-    throw new Error(`Luna ID recovery failed: ${recovery.issues.join(",")}`);
+    const summary = recovery.shortError || `Luna ID recovery failed: ${recovery.issues.join(",")}`;
+    throw new Error(summary);
   }
 
   const byId = new Map();

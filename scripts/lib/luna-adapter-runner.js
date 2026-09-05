@@ -5,6 +5,7 @@ const { isRealLunaTransport } = require('./luna-transport');
 const { splitObjectsIntoBatches } = require('./phase1-luna-checkpoint/batch-split');
 const { isCanonicalLunaRequestId, shouldAttemptCanonicalIdRecovery } = require('./phase1-luna-checkpoint/object-identity');
 const { recoverLunaResponseItems } = require('./phase1-luna-id-recovery');
+const { writeRecoveryDiagnostics, formatShortRecoveryError } = require('./phase1-luna-id-recovery-diagnostics');
 const {
   nowMs,
   createAttemptDeadlines,
@@ -37,7 +38,7 @@ function createAdapterStats() {
   };
 }
 
-function validateBatchResponse(batch, response, getId) {
+function validateBatchResponse(batch, response, getId, options = {}) {
   const issues = [];
   if (!response || typeof response !== 'object') {
     issues.push('MALFORMED_RESPONSE');
@@ -56,13 +57,22 @@ function validateBatchResponse(batch, response, getId) {
     expectedIds.every((id) => isCanonicalLunaRequestId(id)) &&
     shouldAttemptCanonicalIdRecovery(items, expectedIds)
   ) {
-    const recovery = recoverLunaResponseItems(items, expectedIds);
+    const recovery = recoverLunaResponseItems(items, expectedIds, { attempt: options.attempt || 1 });
     if (!recovery.ok) {
+      const diagnosticsPath = writeRecoveryDiagnostics(recovery.diagnostics, {
+        scopeId: options.scopeId,
+        batchIndex: options.batchIndex,
+        attempt: options.attempt || 1,
+      });
+      const shortError = recovery.shortError || formatShortRecoveryError(recovery.issues, recovery.diagnostics);
       return {
         ok: false,
         issues: recovery.issues,
         missingIds: expectedIds,
         idRecoveries: recovery.recoveries,
+        idRecoveryDiagnostics: recovery.diagnostics,
+        idRecoveryDiagnosticsPath: diagnosticsPath,
+        shortError,
       };
     }
     items = recovery.items;
@@ -230,9 +240,13 @@ async function runBatchedAdapter({
 
         stats.tokensUsed += response?.tokensUsed || 0;
 
-        const validation = validateBatchResponse(lunaPayload.objects, response, getLunaId);
+        const validation = validateBatchResponse(lunaPayload.objects, response, getLunaId, {
+          scopeId,
+          batchIndex,
+          attempt,
+        });
         if (!validation.ok) {
-          lastError = validation.issues.join(',');
+          lastError = validation.shortError || validation.issues.join(',');
           if (attempt < MAX_RETRIES) {
             const backoffDelayMs = retryBackoffMs[Math.min(attempt - 1, retryBackoffMs.length - 1)];
             if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= backoffDelayMs) {

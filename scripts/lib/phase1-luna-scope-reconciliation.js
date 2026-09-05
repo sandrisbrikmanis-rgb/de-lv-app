@@ -125,8 +125,13 @@ function reconcileUniqueScopeCoverage(options = {}) {
   const inventoryIds = new Set(lunaScopes.map((s) => s.scopeId));
   const seenIds = new Set(rows.map((r) => r.scopeId));
   const complete = rows.filter((r) => r.finalStatus === "COMPLETE").length;
+  const partialScopes = rows.filter((r) => r.finalStatus === "PARTIAL");
   const failed = rows.filter((r) => r.finalStatus === "FAILED" || r.finalStatus === "PARTIAL").length;
   const missing = rows.filter((r) => r.finalStatus === "MISSING").length;
+  const remainingBatches = partialScopes.reduce(
+    (sum, row) => sum + Math.max(0, (row.checkpointCountExpected || 0) - (row.checkpointCountValid || 0)),
+    0,
+  );
   const resumeSucceededUnique = rows.filter(
     (r) => r.originalStatus === "FAILED" && r.finalStatus === "COMPLETE",
   ).length;
@@ -157,6 +162,8 @@ function reconcileUniqueScopeCoverage(options = {}) {
     FINAL_COMPLETE: complete,
     FINAL_FAILED: failed,
     FINAL_MISSING: missing,
+    PARTIAL_SCOPES: partialScopes.length,
+    REMAINING_BATCHES: remainingBatches,
     CHECKPOINT_INTEGRITY: integrity.ok ? "PASS" : "FAIL",
     coverage: `${complete}/${expectedUniqueScopes}`,
     rows,

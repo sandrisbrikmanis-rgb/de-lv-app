@@ -231,7 +231,11 @@ function testWrongRawWithC0Rejected() {
   const items = [passItem("g2/b1/lb|idx:1718|raw:completely\u0002wrong|src:b1.js")];
   const result = recoverLunaResponseItems(items, expected);
   assert(!result.ok, "18: wrong raw plus C0 rejected");
-  assert(result.issues.includes("NON_C0_RAW_CORRUPTION") || result.issues.includes("MISSING_OR_UNRECOVERABLE_ID"), "18: fail-closed issue");
+  assert(
+    result.shortError?.includes("BLOCKED_UNCAPTURED_RAW_VARIANT") ||
+      result.issues.includes("MISSING_OR_UNRECOVERABLE_ID"),
+    "18: fail-closed classification",
+  );
 }
 
 function testCanonicalUnicodePreserved() {

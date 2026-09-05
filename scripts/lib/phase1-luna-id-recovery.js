@@ -3,6 +3,15 @@
 
 const C0_CONTROL_RE = /[\u0000-\u001F\u007F]/;
 const recoveryFixture = require("../fixtures/phase1-id-recovery-lb-sq.json");
+const {
+  isLandlichStructuralTarget,
+  evaluateLandlichStructuralSegment,
+  isLandlichStructuralC0Recovery,
+} = require("./phase1-luna-id-recovery-landlich");
+const {
+  buildRecoveryFailureDiagnostic,
+  formatShortRecoveryError,
+} = require("./phase1-luna-id-recovery-diagnostics");
 
 function stripC0ControlChars(value) {
   return String(value || "").replace(C0_CONTROL_RE, "");
@@ -19,9 +28,6 @@ function buildObservedRawCorruptionAllowlist() {
     allowlist.get(key).add(returnedParsed.raw);
   };
 
-  register(recoveryFixture.landlichCanonicalId, recoveryFixture.landlichLbMutationId);
-  register(recoveryFixture.landlichCanonicalId, recoveryFixture.landlichLbMutationIdU0014);
-  register(recoveryFixture.landlichCanonicalId, recoveryFixture.landlichLbMutationIdU0005);
   register(recoveryFixture.landlichSqExactId, recoveryFixture.landlichSqMutationIdA);
   register(recoveryFixture.landlichSqExactId, recoveryFixture.landlichSqMutationIdB);
 
@@ -85,12 +91,32 @@ function isAllowlistedRawCorruption(expectedParsed, returnedRaw) {
   return Boolean(allowed && allowed.has(returnedRaw));
 }
 
-function isOnlyC0RawSegmentCorruption(expectedParsed, returnedRaw) {
-  if (!expectedParsed || typeof returnedRaw !== "string") return false;
+function evaluateRawCorruptionRecovery(expectedParsed, returnedRaw) {
+  if (!expectedParsed || typeof returnedRaw !== "string") {
+    return { ok: false, reason: "INVALID_INPUT" };
+  }
   const expectedRaw = expectedParsed.raw;
-  if (expectedRaw === returnedRaw) return false;
-  if (isAllowlistedRawCorruption(expectedParsed, returnedRaw)) return true;
-  return isC0InsertionOnlyCorruption(expectedRaw, returnedRaw);
+  if (expectedRaw === returnedRaw) {
+    return { ok: false, reason: "EXACT_RAW_MATCH" };
+  }
+
+  if (isLandlichStructuralTarget(expectedParsed)) {
+    return evaluateLandlichStructuralSegment(returnedRaw);
+  }
+
+  if (isAllowlistedRawCorruption(expectedParsed, returnedRaw)) {
+    return { ok: true, reason: "ALLOWLISTED_RAW_CORRUPTION" };
+  }
+
+  if (isC0InsertionOnlyCorruption(expectedRaw, returnedRaw)) {
+    return { ok: true, reason: "C0_INSERTION_ONLY_CORRUPTION" };
+  }
+
+  return { ok: false, reason: "NON_C0_RAW_CORRUPTION" };
+}
+
+function isOnlyC0RawSegmentCorruption(expectedParsed, returnedRaw) {
+  return evaluateRawCorruptionRecovery(expectedParsed, returnedRaw).ok;
 }
 
 function resolveItemId(item) {
@@ -102,21 +128,22 @@ function resolveItemId(item) {
  * Recover corrupted Luna response IDs by unique scopeId + objectIndex + sourceFile identity.
  * Fail-closed unless C0-control corruption is present in the returned raw segment.
  */
-function recoverLunaResponseItems(items, expectedIds) {
+function recoverLunaResponseItems(items, expectedIds, options = {}) {
   const recoveries = [];
   const issues = [];
+  const diagnostics = [];
+  const attempt = options.attempt || 1;
 
   if (!Array.isArray(items)) {
-    return { ok: false, items: [], recoveries, issues: ["MALFORMED_ITEMS"] };
+    return { ok: false, items: [], recoveries, issues: ["MALFORMED_ITEMS"], diagnostics };
   }
   if (!Array.isArray(expectedIds) || expectedIds.length === 0) {
-    return { ok: false, items: [], recoveries, issues: ["MISSING_EXPECTED_IDS"] };
+    return { ok: false, items: [], recoveries, issues: ["MISSING_EXPECTED_IDS"], diagnostics };
   }
   if (items.length !== expectedIds.length) {
-    return { ok: false, items, recoveries, issues: ["COUNT_MISMATCH"] };
+    return { ok: false, items, recoveries, issues: ["COUNT_MISMATCH"], diagnostics };
   }
 
-  const expectedSet = new Set(expectedIds);
   const identityIndex = buildIdentityIndex(expectedIds);
   const itemsByReturnedId = new Map();
 
@@ -132,7 +159,7 @@ function recoverLunaResponseItems(items, expectedIds) {
     itemsByReturnedId.set(returnedId, item);
   }
   if (issues.length) {
-    return { ok: false, items, recoveries, issues: [...new Set(issues)] };
+    return { ok: false, items, recoveries, issues: [...new Set(issues)], diagnostics };
   }
 
   const resultByExpected = new Map();
@@ -169,10 +196,21 @@ function recoverLunaResponseItems(items, expectedIds) {
       if (!returnedParsed) continue;
       if (buildIdentityKey(returnedParsed) !== identityKey) continue;
       if (returnedId === expectedId) continue;
-      if (!isOnlyC0RawSegmentCorruption(expectedParsed, returnedParsed.raw)) {
-        issues.push("NON_C0_RAW_CORRUPTION");
+
+      const evaluation = evaluateRawCorruptionRecovery(expectedParsed, returnedParsed.raw);
+      if (!evaluation.ok) {
+        issues.push(evaluation.reason === "NON_C0_RAW_CORRUPTION" ? "NON_C0_RAW_CORRUPTION" : "RAW_RECOVERY_REJECTED");
+        diagnostics.push(
+          buildRecoveryFailureDiagnostic({
+            expectedCanonicalId: expectedId,
+            returnedId,
+            rejectionReason: evaluation.reason,
+            attempt,
+          }),
+        );
         continue;
       }
+
       if (matchedItem) {
         issues.push("AMBIGUOUS_IDENTITY");
         matchedItem = null;
@@ -190,10 +228,14 @@ function recoverLunaResponseItems(items, expectedIds) {
 
     consumedReturnedIds.add(matchedReturnedId);
     resultByExpected.set(expectedId, { ...matchedItem, id: expectedId });
+    const evaluation = evaluateRawCorruptionRecovery(
+      expectedParsed,
+      parseCanonicalLunaRequestId(matchedReturnedId).raw,
+    );
     recoveries.push({
       returnedId: matchedReturnedId,
       canonicalId: expectedId,
-      reason: "C0_CONTROL_RAW_SEGMENT_CORRUPTION",
+      reason: evaluation.reason || "C0_CONTROL_RAW_SEGMENT_CORRUPTION",
       identityKey,
       identity: {
         scopeId: expectedParsed.scopeId,
@@ -206,15 +248,36 @@ function recoverLunaResponseItems(items, expectedIds) {
   for (const returnedId of itemsByReturnedId.keys()) {
     if (!consumedReturnedIds.has(returnedId)) {
       issues.push("UNEXPECTED_RETURNED_ID");
+      const orphanParsed = parseCanonicalLunaRequestId(returnedId);
+      if (orphanParsed) {
+        diagnostics.push(
+          buildRecoveryFailureDiagnostic({
+            expectedCanonicalId: expectedIds.find((id) => {
+              const parsed = parseCanonicalLunaRequestId(id);
+              return parsed && buildIdentityKey(parsed) === buildIdentityKey(orphanParsed);
+            }) || expectedIds[0],
+            returnedId,
+            rejectionReason: "UNEXPECTED_RETURNED_ID",
+            attempt,
+          }),
+        );
+      }
     }
   }
 
   if (issues.length) {
-    return { ok: false, items, recoveries, issues: [...new Set(issues)] };
+    return {
+      ok: false,
+      items,
+      recoveries,
+      issues: [...new Set(issues)],
+      diagnostics,
+      shortError: formatShortRecoveryError([...new Set(issues)], diagnostics),
+    };
   }
 
   const normalized = expectedIds.map((expectedId) => resultByExpected.get(expectedId));
-  return { ok: true, items: normalized, recoveries, issues: [] };
+  return { ok: true, items: normalized, recoveries, issues: [], diagnostics };
 }
 
 module.exports = {
@@ -226,6 +289,8 @@ module.exports = {
   buildIdentityIndex,
   isC0InsertionOnlyCorruption,
   isAllowlistedRawCorruption,
+  isLandlichStructuralC0Recovery,
+  evaluateRawCorruptionRecovery,
   isOnlyC0RawSegmentCorruption,
   recoverLunaResponseItems,
   resolveItemId,
