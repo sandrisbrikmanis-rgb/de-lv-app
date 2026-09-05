@@ -20,6 +20,8 @@ function buildObservedRawCorruptionAllowlist() {
   };
 
   register(recoveryFixture.landlichCanonicalId, recoveryFixture.landlichLbMutationId);
+  register(recoveryFixture.landlichCanonicalId, recoveryFixture.landlichLbMutationIdU0014);
+  register(recoveryFixture.landlichCanonicalId, recoveryFixture.landlichLbMutationIdU0005);
   register(recoveryFixture.landlichSqExactId, recoveryFixture.landlichSqMutationIdA);
   register(recoveryFixture.landlichSqExactId, recoveryFixture.landlichSqMutationIdB);
 

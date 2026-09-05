@@ -92,9 +92,12 @@ function createMockLunaTransport(fixtureMap = {}) {
   };
 }
 
+function isRealLunaTransport(transport) {
+  return Boolean(transport && (transport.mode === "REAL" || transport.transport === "REAL"));
+}
+
 function createRealLunaTransport(options = {}) {
   let totalRealCalls = 0;
-  let pendingDelta = 0;
   const model = options.model || DEFAULT_MODEL;
 
   return {
@@ -102,15 +105,12 @@ function createRealLunaTransport(options = {}) {
     transport: "REAL",
     model,
     get realCallsDelta() {
-      const delta = pendingDelta;
-      pendingDelta = 0;
-      return delta;
+      return 0;
     },
     getRealCalls() {
       return totalRealCalls;
     },
     async call(payload, callOptions = {}) {
-      pendingDelta = 1;
       totalRealCalls += 1;
       try {
         const batchId = `batch-${totalRealCalls}`;
@@ -158,4 +158,5 @@ module.exports = {
   createLunaTransport,
   createMockLunaTransport,
   createRealLunaTransport,
+  isRealLunaTransport,
 };

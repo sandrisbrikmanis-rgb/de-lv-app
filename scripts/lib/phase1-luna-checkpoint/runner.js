@@ -3,7 +3,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { DEFAULT_MODEL } = require("../luna-phase1-openai");
+const { DEFAULT_MODEL, redactSecrets } = require("../luna-phase1-openai");
 const { runBatchedAdapter } = require("../luna-adapter-runner");
 const { adapterKey, ADAPTER_BY_SCOPE } = require("../luna-orchestrator");
 const {
@@ -251,7 +251,7 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
     const currentProgress = require("./atomic-io").readJsonFileIfExists(require("./constants").progressPath(runId)) || {};
     const nextAttemptSeq =
       (currentProgress.scopeAttemptSequence ?? currentProgress.scopesCompleted ?? 0) + 1;
-    updateProgressAtomic(runId, {
+    const progressPatch = {
       scopeAttemptSequence: nextAttemptSeq,
       scopesCompleted: nextAttemptSeq,
       skippedBatches: (currentProgress.skippedBatches || 0) + skipped.skippedBatches,
@@ -260,9 +260,13 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
       retries: (currentProgress.retries || 0) + (result.stats?.retries || 0),
       batchesCompleted: (currentProgress.batchesCompleted || 0) + (result.stats?.batches || 0),
       objectsProcessed: (currentProgress.objectsProcessed || 0) + (result.stats?.objectsReturned || 0),
-      lastSuccessfulBatchId: result.lastBatchId || null,
+      lastSuccessfulBatchId: result.ok ? result.lastBatchId || null : currentProgress.lastSuccessfulBatchId || null,
       currentScopeId: scope.scopeId,
-    });
+    };
+    if (!result.ok) {
+      progressPatch.lastError = redactSecrets(String(result.reason || "UNKNOWN"));
+    }
+    updateProgressAtomic(runId, progressPatch);
 
     return {
       ...result,

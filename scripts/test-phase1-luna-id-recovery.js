@@ -51,6 +51,35 @@ function testLbLandlichC0Recovery() {
   assert(result.recoveries[0].returnedId === fixture.landlichLbMutationId, "2: returned id preserved in proof");
 }
 
+function testLbLandlichC0RecoveryU0014() {
+  const expectedIds = fixture.expectedIds25;
+  const items = buildItems(
+    expectedIds.map((id) => (id === fixture.landlichCanonicalId ? fixture.landlichLbMutationIdU0014 : id)),
+  );
+  const result = recoverLunaResponseItems(items, expectedIds);
+  assert(result.ok, "2b: lb ländlich U0014 mutation recovers");
+  assert(result.recoveries.length === 1, "2b: one recovery");
+  assert(result.recoveries[0].returnedId === fixture.landlichLbMutationIdU0014, "2b: returned id U0014");
+}
+
+function testLbLandlichC0RecoveryU0005() {
+  const expectedIds = fixture.expectedIds25;
+  const items = buildItems(
+    expectedIds.map((id) => (id === fixture.landlichCanonicalId ? fixture.landlichLbMutationIdU0005 : id)),
+  );
+  const result = recoverLunaResponseItems(items, expectedIds);
+  assert(result.ok, "2c: lb ländlich U0005 mutation recovers");
+  assert(result.recoveries.length === 1, "2c: one recovery");
+  assert(result.recoveries[0].returnedId === fixture.landlichLbMutationIdU0005, "2c: returned id U0005");
+}
+
+function testLbUnknownSubstitutionFails() {
+  const expected = [fixture.landlichCanonicalId];
+  const items = [passItem(fixture.landlichLbUnknownSubstitutionId)];
+  const result = recoverLunaResponseItems(items, expected);
+  assert(!result.ok, "2d: unknown lb substitution fails");
+}
+
 function testSqMutationRecovery() {
   const expectedIds = fixture.expectedIds25.map((id) => id.replace("g2/b1/lb", "g2/b1/sq"));
   const canonical = fixture.landlichSqExactId;
@@ -248,6 +277,9 @@ function testValidateBatchResponseRecovery() {
 function main() {
   testExact25PassWithoutRemap();
   testLbLandlichC0Recovery();
+  testLbLandlichC0RecoveryU0014();
+  testLbLandlichC0RecoveryU0005();
+  testLbUnknownSubstitutionFails();
   testSqMutationRecovery();
   testSqExactPassWithoutRemap();
   testMultipleC0MutationsUniqueIdentity();

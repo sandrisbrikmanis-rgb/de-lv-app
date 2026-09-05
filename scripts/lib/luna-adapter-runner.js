@@ -1,7 +1,7 @@
 /**
  * Luna adapter infrastructure — batching, retry, timeout, validation (mock transport in F0).
  */
-const { createLunaTransport } = require('./luna-transport');
+const { isRealLunaTransport } = require('./luna-transport');
 const { splitObjectsIntoBatches } = require('./phase1-luna-checkpoint/batch-split');
 const { isCanonicalLunaRequestId, shouldAttemptCanonicalIdRecovery } = require('./phase1-luna-checkpoint/object-identity');
 const { recoverLunaResponseItems } = require('./phase1-luna-id-recovery');
@@ -217,6 +217,10 @@ async function runBatchedAdapter({
           }, 15_000);
         }
 
+        if (isRealLunaTransport(transport)) {
+          stats.realCalls += 1;
+        }
+
         const callPromise = transport.call(lunaPayload, { signal: attemptGuard.controller.signal });
         trackDetachedPromise(callPromise);
 
@@ -224,7 +228,6 @@ async function runBatchedAdapter({
 
         assertPostAwaitDeadline(deadlines);
 
-        stats.realCalls += transport.realCallsDelta || 0;
         stats.tokensUsed += response?.tokensUsed || 0;
 
         const validation = validateBatchResponse(lunaPayload.objects, response, getLunaId);
@@ -331,6 +334,7 @@ module.exports = {
   runBatchedAdapter,
   createLunaAdapter,
   validateBatchResponse,
+  isRealLunaTransport,
   TIMEOUT_MS,
   MAX_RETRIES,
   BATCH_WALL_CLOCK_MS,
