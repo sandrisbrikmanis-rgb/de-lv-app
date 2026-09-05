@@ -2,6 +2,12 @@
 "use strict";
 
 const path = require("path");
+const {
+  recoverLunaResponseItems,
+  parseCanonicalLunaRequestId,
+  containsC0ControlChars,
+  resolveItemId,
+} = require("../phase1-luna-id-recovery");
 
 /**
  * Legacy Luna/checkpoint object id (frozen for RUN_ID resume compatibility).
@@ -70,6 +76,19 @@ function buildCanonicalToLegacyIdMap(scopeId, objects, getLegacyId = getLegacyOb
   return { ok: true, issues: [], map, orderedCanonicalIds };
 }
 
+function shouldAttemptCanonicalIdRecovery(items, orderedCanonicalIds) {
+  if (!Array.isArray(items) || items.length !== orderedCanonicalIds.length) return false;
+  const expectedSet = new Set(orderedCanonicalIds);
+  const returnedIds = items.map((item) => resolveItemId(item)).filter(Boolean);
+  if (returnedIds.length !== orderedCanonicalIds.length) return false;
+  if (returnedIds.every((id) => expectedSet.has(id))) return false;
+  return returnedIds.some((id) => {
+    if (expectedSet.has(id)) return false;
+    const parsed = parseCanonicalLunaRequestId(id);
+    return parsed && containsC0ControlChars(parsed.raw);
+  });
+}
+
 /**
  * Map Luna strict response items to legacy checkpoint ids in expected batch order.
  * Does not rely on rawCardId/cardId/de in the response.
@@ -80,8 +99,24 @@ function mapResponseItemsToLegacyIds(items, idMap, orderedCanonicalIds) {
     return { ok: false, issues: ["MALFORMED_RAW_RESULT"], legacyIds: [] };
   }
 
+  let recoveredItems = items;
+  let idRecoveries = [];
+  if (shouldAttemptCanonicalIdRecovery(items, orderedCanonicalIds)) {
+    const recovery = recoverLunaResponseItems(items, orderedCanonicalIds);
+    idRecoveries = recovery.recoveries;
+    if (!recovery.ok) {
+      return {
+        ok: false,
+        issues: recovery.issues,
+        legacyIds: [],
+        idRecoveries: recovery.recoveries,
+      };
+    }
+    recoveredItems = recovery.items;
+  }
+
   const itemsByCanonical = new Map();
-  for (const item of items) {
+  for (const item of recoveredItems) {
     const canonicalId = resolveLunaResponseId(item);
     if (!canonicalId) {
       issues.push("MISSING_CANONICAL_ID");
@@ -117,6 +152,7 @@ function mapResponseItemsToLegacyIds(items, idMap, orderedCanonicalIds) {
     issues: uniqueIssues,
     legacyIds,
     itemsByCanonical,
+    idRecoveries,
   };
 }
 
@@ -142,5 +178,6 @@ module.exports = {
   resolveLegacyObjectId,
   isCanonicalLunaRequestId,
   buildCanonicalToLegacyIdMap,
+  shouldAttemptCanonicalIdRecovery,
   mapResponseItemsToLegacyIds,
 };

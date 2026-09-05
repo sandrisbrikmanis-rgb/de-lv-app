@@ -32,6 +32,8 @@ const {
   isUntrustedIdMappingCheckpoint,
   loadIdMappingCheckpointRegistry,
   clearIdMappingCheckpointRegistryFixtureForTests,
+  setIdMappingCheckpointRegistryFixtureForTests,
+  sha256File,
 } = require("./lib/phase1-luna-id-mapping-checkpoint-registry");
 
 let testsRun = 0;
@@ -362,9 +364,44 @@ function testExternalBatchPlanRequiredForSave() {
 function testPid1491461Registry() {
   const reg = loadIdMappingCheckpointRegistry();
   assert(reg.entries.length === 15, "12: PID 1491461 registry has 15 entries");
-  const sample = reg.entries[0];
-  const filePath = path.join(ROOT, sample.file);
-  assert(isUntrustedIdMappingCheckpoint(filePath, { scopeId: sample.scopeId, batchId: sample.batchId }), "12b: registry SHA match");
+
+  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "ckpt004-registry-"));
+  const sampleCheckpoint = {
+    schemaVersion: "1.0.0",
+    runId: "phase1-test",
+    scopeId: "g2/a2/bg",
+    batchId: "batch-33-test",
+    status: "PASS",
+    returnedObjectIds: ["unknown"],
+  };
+  const samplePath = path.join(tmpDir, "sample-checkpoint.json");
+  fs.writeFileSync(samplePath, `${JSON.stringify(sampleCheckpoint)}\n`, "utf8");
+  const hash = sha256File(samplePath);
+  const registryPath = path.join(tmpDir, "registry.json");
+  fs.writeFileSync(
+    registryPath,
+    JSON.stringify({
+      classification: "UNTRUSTED_ID_MAPPING_RUN",
+      entries: [
+        {
+          file: samplePath,
+          sha256: hash,
+          scopeId: "g2/a2/bg",
+          batchId: "batch-33-test",
+        },
+      ],
+    }),
+    "utf8",
+  );
+  setIdMappingCheckpointRegistryFixtureForTests(registryPath);
+  assert(
+    isUntrustedIdMappingCheckpoint(samplePath, {
+      scopeId: "g2/a2/bg",
+      batchId: "batch-33-test",
+    }),
+    "12b: registry SHA match via self-contained fixture",
+  );
+  clearIdMappingCheckpointRegistryFixtureForTests();
 }
 
 function testPid327971RegistryStillWorks() {

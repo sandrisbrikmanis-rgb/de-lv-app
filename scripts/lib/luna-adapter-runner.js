@@ -1,8 +1,11 @@
 /**
  * Luna adapter infrastructure — batching, retry, timeout, validation (mock transport in F0).
  */
-const { createLunaTransport } = require('./luna-transport');
+const { isRealLunaTransport } = require('./luna-transport');
 const { splitObjectsIntoBatches } = require('./phase1-luna-checkpoint/batch-split');
+const { isCanonicalLunaRequestId, shouldAttemptCanonicalIdRecovery } = require('./phase1-luna-checkpoint/object-identity');
+const { recoverLunaResponseItems } = require('./phase1-luna-id-recovery');
+const { writeRecoveryDiagnosticsBestEffort, formatShortRecoveryError } = require('./phase1-luna-id-recovery-diagnostics');
 const {
   nowMs,
   createAttemptDeadlines,
@@ -35,18 +38,48 @@ function createAdapterStats() {
   };
 }
 
-function validateBatchResponse(batch, response, getId) {
+function validateBatchResponse(batch, response, getId, options = {}) {
   const issues = [];
   if (!response || typeof response !== 'object') {
     issues.push('MALFORMED_RESPONSE');
     return { ok: false, issues, missingIds: batch.map(getId) };
   }
-  const items = Array.isArray(response.items) ? response.items : null;
-  if (!items) {
+  const itemsInput = Array.isArray(response.items) ? response.items : null;
+  if (!itemsInput) {
     issues.push('MALFORMED_RESPONSE');
     return { ok: false, issues, missingIds: batch.map(getId) };
   }
   const expectedIds = batch.map(getId);
+  let items = itemsInput;
+
+  if (
+    !response.idRecoveryParsedInTransport &&
+    expectedIds.length > 0 &&
+    expectedIds.every((id) => isCanonicalLunaRequestId(id)) &&
+    shouldAttemptCanonicalIdRecovery(items, expectedIds)
+  ) {
+    const recovery = recoverLunaResponseItems(items, expectedIds, { attempt: options.attempt || 1 });
+    if (!recovery.ok) {
+      const diagnosticsWrite = writeRecoveryDiagnosticsBestEffort(recovery.diagnostics, {
+        scopeId: options.scopeId,
+        batchIndex: options.batchIndex,
+        attempt: options.attempt || 1,
+      });
+      const shortError = recovery.shortError || formatShortRecoveryError(recovery.issues, recovery.diagnostics);
+      return {
+        ok: false,
+        issues: recovery.issues,
+        missingIds: expectedIds,
+        idRecoveries: recovery.recoveries,
+        idRecoveryDiagnostics: recovery.diagnostics,
+        idRecoveryDiagnosticsPath: diagnosticsWrite.path,
+        idRecoveryDiagnosticsWriteError: diagnosticsWrite.writeError,
+        shortError,
+      };
+    }
+    items = recovery.items;
+  }
+
   const returnedIds = items.map((item) => getId(item));
   const missingIds = expectedIds.filter((id) => !returnedIds.includes(id));
   if (missingIds.length) issues.push('PARTIAL_RESPONSE');
@@ -196,19 +229,29 @@ async function runBatchedAdapter({
           }, 15_000);
         }
 
-        const callPromise = transport.call(lunaPayload, { signal: attemptGuard.controller.signal });
+        if (isRealLunaTransport(transport)) {
+          stats.realCalls += 1;
+        }
+
+        const callPromise = transport.call(lunaPayload, {
+          signal: attemptGuard.controller.signal,
+          recoveryContext: { scopeId, batchIndex, attempt },
+        });
         trackDetachedPromise(callPromise);
 
         const response = await Promise.race([callPromise, attemptGuard.guardPromise]);
 
         assertPostAwaitDeadline(deadlines);
 
-        stats.realCalls += transport.realCallsDelta || 0;
         stats.tokensUsed += response?.tokensUsed || 0;
 
-        const validation = validateBatchResponse(lunaPayload.objects, response, getLunaId);
+        const validation = validateBatchResponse(lunaPayload.objects, response, getLunaId, {
+          scopeId,
+          batchIndex,
+          attempt,
+        });
         if (!validation.ok) {
-          lastError = validation.issues.join(',');
+          lastError = validation.shortError || validation.issues.join(',');
           if (attempt < MAX_RETRIES) {
             const backoffDelayMs = retryBackoffMs[Math.min(attempt - 1, retryBackoffMs.length - 1)];
             if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= backoffDelayMs) {
@@ -310,6 +353,7 @@ module.exports = {
   runBatchedAdapter,
   createLunaAdapter,
   validateBatchResponse,
+  isRealLunaTransport,
   TIMEOUT_MS,
   MAX_RETRIES,
   BATCH_WALL_CLOCK_MS,
