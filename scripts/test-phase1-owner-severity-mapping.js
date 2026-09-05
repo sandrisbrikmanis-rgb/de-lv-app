@@ -8,6 +8,7 @@ const { ROOT } = require("./lib/audit-common");
 const mappingFixture = require("./fixtures/phase1-owner-severity-mapping-5of5.json");
 const {
   OWNER_SEVERITY_MAPPINGS,
+  normalizeMappingEntry,
   applyOwnerSeverityMappings,
 } = require("./lib/content-discovery/phase1-owner-severity-mapping");
 const { validateFindings, validateFindingSchema } = require("./lib/content-discovery/phase1-findings-validation");
@@ -17,6 +18,13 @@ const RUN_ID = "phase1-2026-08-30T08-56-50-163Z-a8e1dec1";
 const MATRIX_PATH =
   process.env.PHASE1_MATRIX_PATH || "/workspace/reports/phase1-discovery-matrix.json";
 const RUN_ARTIFACT_ROOT = process.env.PHASE1_RUN_ARTIFACT_ROOT || baseline.runArtifactRoot;
+const COPIED_RUN_ARTIFACT_ROOT =
+  process.env.PHASE1_COPIED_RUN_ARTIFACT_ROOT ||
+  path.join(
+    "/tmp/cursor/worktrees/phase1-targeted-repair/reports/temp/phase1-luna-runs",
+    RUN_ID,
+    "checkpoints",
+  );
 
 let testsRun = 0;
 let testsFailed = 0;
@@ -27,6 +35,10 @@ function assert(condition, message) {
     testsFailed += 1;
     console.error(`FAIL: ${message}`);
   }
+}
+
+function firstCurrentVariant(entry) {
+  return normalizeMappingEntry(entry).currentVariants[0];
 }
 
 function baseFinding(overrides = {}) {
@@ -51,19 +63,23 @@ function baseFinding(overrides = {}) {
   };
 }
 
-function buildOwnerFixtureFindings() {
-  return OWNER_SEVERITY_MAPPINGS.map((entry) =>
-    baseFinding({
+function buildOwnerFixtureFindings(classificationStatus = "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE") {
+  return OWNER_SEVERITY_MAPPINGS.map((entry) => {
+    const variant =
+      normalizeMappingEntry(entry).currentVariants.find(
+        (row) => row.classificationStatus === classificationStatus,
+      ) || firstCurrentVariant(entry);
+    const parts = entry.findingId.split("|");
+    return baseFinding({
       findingStableId: entry.findingId,
-      severity: entry.current.severity,
-      category: entry.current.category,
-      classificationStatus: entry.current.classificationStatus,
-      scopeId: entry.findingId.split("|")[0],
-      cardId: entry.findingId.split("|")[1],
-      fieldPath: entry.findingId.split("|")[3],
-      category: entry.current.category,
-    }),
-  );
+      severity: variant.severity,
+      category: variant.category,
+      classificationStatus: variant.classificationStatus,
+      scopeId: parts[0],
+      cardId: parts[1],
+      fieldPath: parts[3],
+    });
+  });
 }
 
 function testFiveMappingsPass() {
@@ -91,6 +107,38 @@ function testFiveMappingsPass() {
   }
 }
 
+function testPreviouslySeenVariantPasses() {
+  const findings = buildOwnerFixtureFindings("PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE");
+  const mapped = applyOwnerSeverityMappings(findings);
+  assert(mapped.ownerMappingApplied === 5, "2: PREVIOUSLY_SEEN variant maps all 5");
+  assert(mapped.mappingErrors.length === 0, "2: PREVIOUSLY_SEEN variant has no errors");
+  let threw = false;
+  try {
+    validateFindings(findings);
+  } catch {
+    threw = true;
+  }
+  assert(!threw, "2: PREVIOUSLY_SEEN variant validateFindings passes");
+}
+
+function testValidatedRealFindingVariantPasses() {
+  const findings = buildOwnerFixtureFindings("VALIDATED_REAL_FINDING");
+  const mapped = applyOwnerSeverityMappings(findings);
+  assert(mapped.ownerMappingApplied === 5, "3: VALIDATED_REAL_FINDING variant maps all 5");
+  assert(mapped.mappingErrors.length === 0, "3: VALIDATED_REAL_FINDING variant has no errors");
+  for (const entry of OWNER_SEVERITY_MAPPINGS) {
+    const row = mapped.findings.find((f) => f.findingStableId === entry.findingId);
+    assert(row.severity === entry.next.severity, `3: runtime severity mapped ${entry.findingId}`);
+  }
+  let threw = false;
+  try {
+    validateFindings(findings);
+  } catch {
+    threw = true;
+  }
+  assert(!threw, "3: VALIDATED_REAL_FINDING variant validateFindings passes");
+}
+
 function testOtherStyleOnlyUntouched() {
   const findings = [
     ...buildOwnerFixtureFindings(),
@@ -103,8 +151,8 @@ function testOtherStyleOnlyUntouched() {
   ];
   const mapped = applyOwnerSeverityMappings(findings);
   const other = mapped.findings.find((f) => f.findingStableId.includes("OtherCard"));
-  assert(other.severity === "STYLE_ONLY", "3: other STYLE_ONLY untouched");
-  assert(mapped.ownerMappingApplied === 5, "3: only 5 mapped");
+  assert(other.severity === "STYLE_ONLY", "4: other STYLE_ONLY untouched");
+  assert(mapped.ownerMappingApplied === 5, "4: only 5 mapped");
 }
 
 function testOtherNeedsReviewUntouched() {
@@ -119,50 +167,92 @@ function testOtherNeedsReviewUntouched() {
   ];
   const mapped = applyOwnerSeverityMappings(findings);
   const other = mapped.findings.find((f) => f.findingStableId.includes("g2/b2/de"));
-  assert(other.severity === "NEEDS_REVIEW", "4: other NEEDS_REVIEW untouched");
+  assert(other.severity === "NEEDS_REVIEW", "5: other NEEDS_REVIEW untouched");
 }
 
 function testWrongCurrentSeverityFails() {
   const findings = buildOwnerFixtureFindings();
   findings[0].severity = "HIGH";
   const mapped = applyOwnerSeverityMappings(findings);
-  assert(mapped.mappingErrors.length === 1, "5: wrong severity fails");
+  assert(mapped.mappingErrors.length === 1, "6: wrong severity fails");
   let threw = false;
   try {
     validateFindings(findings);
   } catch (error) {
     threw = error.code === "OWNER_MAPPING_MISMATCH";
   }
-  assert(threw, "5: validateFindings fail-closed");
+  assert(threw, "6: validateFindings fail-closed on wrong severity");
 }
 
 function testWrongCategoryFails() {
   const findings = buildOwnerFixtureFindings();
   findings[1].category = "DUPLICATION";
   const mapped = applyOwnerSeverityMappings(findings);
-  assert(mapped.mappingErrors.length === 1, "6: wrong category fails");
+  assert(mapped.mappingErrors.length === 1, "7: wrong category fails");
 }
 
-function testWrongClassificationStatusFails() {
+function testUnprovenClassificationStatusFails() {
   const findings = buildOwnerFixtureFindings();
-  findings[2].classificationStatus = "VALIDATED_REAL_FINDING";
+  findings[2].classificationStatus = "RAW_LLM_CANDIDATE";
   const mapped = applyOwnerSeverityMappings(findings);
-  assert(mapped.mappingErrors.length === 1, "7: wrong classificationStatus fails");
+  assert(mapped.mappingErrors.length === 1, "8: unproven third classificationStatus fails");
+  let threw = false;
+  try {
+    validateFindings(findings);
+  } catch (error) {
+    threw = error.code === "OWNER_MAPPING_MISMATCH";
+  }
+  assert(threw, "8: validateFindings fail-closed on unproven status");
 }
 
 function testCountIdMessageEvidenceUnchanged() {
   const findings = buildOwnerFixtureFindings();
   const mapped = applyOwnerSeverityMappings(findings);
-  assert(mapped.findings.length === findings.length, "8: count unchanged");
+  assert(mapped.findings.length === findings.length, "9: count unchanged");
   for (let i = 0; i < findings.length; i += 1) {
-    assert(mapped.findings[i].findingStableId === findings[i].findingStableId, "8: id unchanged");
-    assert(mapped.findings[i].message === findings[i].message, "8: message unchanged");
-    assert(mapped.findings[i].current === findings[i].current, "8: current unchanged");
+    assert(mapped.findings[i].findingStableId === findings[i].findingStableId, "9: id unchanged");
+    assert(mapped.findings[i].message === findings[i].message, "9: message unchanged");
+    assert(mapped.findings[i].current === findings[i].current, "9: current unchanged");
   }
 }
 
 function sha256File(filePath) {
   return crypto.createHash("sha256").update(fs.readFileSync(filePath)).digest("hex");
+}
+
+function collectCopiedRunFindings() {
+  if (!fs.existsSync(COPIED_RUN_ARTIFACT_ROOT)) {
+    throw new Error(`PHASE1_COPIED_RUN_ARTIFACT_ROOT missing: ${COPIED_RUN_ARTIFACT_ROOT}`);
+  }
+  const findings = [];
+  const scopeDirs = fs.readdirSync(COPIED_RUN_ARTIFACT_ROOT, { withFileTypes: true });
+  for (const scopeDir of scopeDirs) {
+    if (!scopeDir.isDirectory()) continue;
+    const scopePath = path.join(COPIED_RUN_ARTIFACT_ROOT, scopeDir.name);
+    const files = fs.readdirSync(scopePath).filter((name) => name.endsWith(".json"));
+    for (const fileName of files) {
+      const checkpoint = JSON.parse(fs.readFileSync(path.join(scopePath, fileName), "utf8"));
+      for (const finding of checkpoint.normalizedFindings || []) {
+        findings.push(finding);
+      }
+    }
+  }
+  return findings;
+}
+
+function testCopiedRunFindingsZeroOwnerMismatch() {
+  const findings = collectCopiedRunFindings();
+  assert(findings.length > 0, `10: copied-run findings collected (${findings.length})`);
+  let threw = false;
+  let validation = null;
+  try {
+    validation = validateFindings(findings);
+  } catch (error) {
+    threw = error.code === "OWNER_MAPPING_MISMATCH";
+  }
+  assert(!threw, "10: copied-run validateFindings has 0 OWNER_MAPPING_MISMATCH");
+  assert(validation && validation.ownerMappingApplied === 5, "10: copied-run applies exactly 5 mappings");
+  assert(validation.schemaErrorCount === 0, "10: copied-run schema errors 0 after mapping");
 }
 
 function testMatrixSchemaErrorsZeroAfterMapping() {
@@ -178,10 +268,10 @@ function testMatrixSchemaErrorsZeroAfterMapping() {
     preSchemaErrors += validateFindingSchema(finding, index).errors.length;
   });
   const validation = validateFindings(matrix.findings || []);
-  assert(invalid.length === 5, `9: matrix has 5 invalid severity rows (got ${invalid.length})`);
-  assert(preSchemaErrors >= 5, `9: pre-mapping schema errors >= 5 (got ${preSchemaErrors})`);
-  assert(validation.schemaErrorCount === 0, "9: schema errors 0 after mapping");
-  assert(validation.ownerMappingApplied === 5, "9: owner mapping applied 5");
+  assert(invalid.length === 5, `11: matrix has 5 invalid severity rows (got ${invalid.length})`);
+  assert(preSchemaErrors >= 5, `11: pre-mapping schema errors >= 5 (got ${preSchemaErrors})`);
+  assert(validation.schemaErrorCount === 0, "11: schema errors 0 after mapping");
+  assert(validation.ownerMappingApplied === 5, "11: owner mapping applied 5");
 }
 
 function testCheckpointFilesByteIdentical() {
@@ -190,24 +280,39 @@ function testCheckpointFilesByteIdentical() {
   }
   for (const [rel, frozenSha] of Object.entries(baseline.frozenCheckpointSha256)) {
     const filePath = path.join(RUN_ARTIFACT_ROOT, rel);
-    assert(fs.existsSync(filePath), `10: checkpoint present ${rel}`);
-    assert(sha256File(filePath) === frozenSha, `10: checkpoint byte-identical to frozen baseline ${rel}`);
+    assert(fs.existsSync(filePath), `12: checkpoint present ${rel}`);
+    assert(sha256File(filePath) === frozenSha, `12: checkpoint byte-identical to frozen baseline ${rel}`);
   }
 }
 
 function testFixtureArtifactMatchesCode() {
   assert(mappingFixture.ownerMappingApplied === 5, "fixture: 5 mappings");
-  assert(mappingFixture.mappings.length === OWNER_SEVERITY_MAPPINGS.length, "fixture matches code");
+  assert(mappingFixture.mappings.length === OWNER_SEVERITY_MAPPINGS.length, "fixture matches code count");
+  for (let i = 0; i < OWNER_SEVERITY_MAPPINGS.length; i += 1) {
+    const codeEntry = normalizeMappingEntry(OWNER_SEVERITY_MAPPINGS[i]);
+    const fixtureEntry = mappingFixture.mappings[i];
+    assert(
+      JSON.stringify(codeEntry.currentVariants) === JSON.stringify(fixtureEntry.currentVariants),
+      `fixture variants match code ${codeEntry.findingId}`,
+    );
+    assert(
+      JSON.stringify(codeEntry.next) === JSON.stringify(fixtureEntry.next),
+      `fixture next match code ${codeEntry.findingId}`,
+    );
+  }
 }
 
 function main() {
   testFiveMappingsPass();
+  testPreviouslySeenVariantPasses();
+  testValidatedRealFindingVariantPasses();
   testOtherStyleOnlyUntouched();
   testOtherNeedsReviewUntouched();
   testWrongCurrentSeverityFails();
   testWrongCategoryFails();
-  testWrongClassificationStatusFails();
+  testUnprovenClassificationStatusFails();
   testCountIdMessageEvidenceUnchanged();
+  testCopiedRunFindingsZeroOwnerMismatch();
   testMatrixSchemaErrorsZeroAfterMapping();
   testCheckpointFilesByteIdentical();
   testFixtureArtifactMatchesCode();
@@ -222,5 +327,7 @@ if (require.main === module) {
 
 module.exports = {
   buildOwnerFixtureFindings,
+  collectCopiedRunFindings,
   testFiveMappingsPass,
+  testValidatedRealFindingVariantPasses,
 };

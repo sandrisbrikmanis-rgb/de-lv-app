@@ -119,8 +119,11 @@ function validateFindings(findings = []) {
   const ownerMapping = applyOwnerSeverityMappings(findings);
   if (ownerMapping.mappingErrors.length > 0) {
     const first = ownerMapping.mappingErrors[0];
+    const expectedLabel = Array.isArray(first.expectedVariants)
+      ? first.expectedVariants.join(" | ")
+      : String(first.expected ?? "");
     const err = new Error(
-      `OWNER_MAPPING_MISMATCH for ${first.findingId}: expected ${first.field}=${first.expected}, got ${first.actual}`,
+      `OWNER_MAPPING_MISMATCH for ${first.findingId}: expected ${first.field} in [${expectedLabel}], got ${first.actual}`,
     );
     err.code = "OWNER_MAPPING_MISMATCH";
     err.mappingErrors = ownerMapping.mappingErrors;
