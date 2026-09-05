@@ -132,12 +132,15 @@ function createRealLunaTransport(options = {}) {
           writeRawPath: rawPath,
           client: options.client,
           signal: callOptions.signal,
+          recoveryContext: callOptions.recoveryContext || null,
         });
         return {
           items: result.items,
           tokensUsed: result.tokensUsed,
           usage: result.usage,
           model: result.model,
+          idRecoveryParsedInTransport: result.idRecoveryParsedInTransport === true,
+          idRecoveries: result.idRecoveries || [],
         };
       } catch (error) {
         throw new Error(redactSecrets(error.message || String(error)));

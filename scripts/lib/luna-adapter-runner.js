@@ -5,7 +5,7 @@ const { isRealLunaTransport } = require('./luna-transport');
 const { splitObjectsIntoBatches } = require('./phase1-luna-checkpoint/batch-split');
 const { isCanonicalLunaRequestId, shouldAttemptCanonicalIdRecovery } = require('./phase1-luna-checkpoint/object-identity');
 const { recoverLunaResponseItems } = require('./phase1-luna-id-recovery');
-const { writeRecoveryDiagnostics, formatShortRecoveryError } = require('./phase1-luna-id-recovery-diagnostics');
+const { writeRecoveryDiagnosticsBestEffort, formatShortRecoveryError } = require('./phase1-luna-id-recovery-diagnostics');
 const {
   nowMs,
   createAttemptDeadlines,
@@ -53,13 +53,14 @@ function validateBatchResponse(batch, response, getId, options = {}) {
   let items = itemsInput;
 
   if (
+    !response.idRecoveryParsedInTransport &&
     expectedIds.length > 0 &&
     expectedIds.every((id) => isCanonicalLunaRequestId(id)) &&
     shouldAttemptCanonicalIdRecovery(items, expectedIds)
   ) {
     const recovery = recoverLunaResponseItems(items, expectedIds, { attempt: options.attempt || 1 });
     if (!recovery.ok) {
-      const diagnosticsPath = writeRecoveryDiagnostics(recovery.diagnostics, {
+      const diagnosticsWrite = writeRecoveryDiagnosticsBestEffort(recovery.diagnostics, {
         scopeId: options.scopeId,
         batchIndex: options.batchIndex,
         attempt: options.attempt || 1,
@@ -71,7 +72,8 @@ function validateBatchResponse(batch, response, getId, options = {}) {
         missingIds: expectedIds,
         idRecoveries: recovery.recoveries,
         idRecoveryDiagnostics: recovery.diagnostics,
-        idRecoveryDiagnosticsPath: diagnosticsPath,
+        idRecoveryDiagnosticsPath: diagnosticsWrite.path,
+        idRecoveryDiagnosticsWriteError: diagnosticsWrite.writeError,
         shortError,
       };
     }
@@ -231,7 +233,10 @@ async function runBatchedAdapter({
           stats.realCalls += 1;
         }
 
-        const callPromise = transport.call(lunaPayload, { signal: attemptGuard.controller.signal });
+        const callPromise = transport.call(lunaPayload, {
+          signal: attemptGuard.controller.signal,
+          recoveryContext: { scopeId, batchIndex, attempt },
+        });
         trackDetachedPromise(callPromise);
 
         const response = await Promise.race([callPromise, attemptGuard.guardPromise]);

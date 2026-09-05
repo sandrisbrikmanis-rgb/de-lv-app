@@ -93,7 +93,8 @@ function writeRecoveryDiagnostics(records, context = {}) {
   fs.mkdirSync(dir, { recursive: true });
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
   const scopePart = String(context.scopeId || "unknown").replace(/\//g, "_");
-  const filePath = path.join(dir, `id-recovery-failure-${scopePart}-${stamp}.json`);
+  const attemptPart = context.attempt != null ? `-attempt-${context.attempt}` : "";
+  const filePath = path.join(dir, `id-recovery-failure-${scopePart}${attemptPart}-${stamp}.json`);
   const payload = {
     schemaVersion: "1.0.0",
     scopeId: context.scopeId || null,
@@ -105,6 +106,18 @@ function writeRecoveryDiagnostics(records, context = {}) {
   return filePath;
 }
 
+function writeRecoveryDiagnosticsBestEffort(records, context = {}) {
+  if (!Array.isArray(records) || records.length === 0) {
+    return { path: null, writeError: null };
+  }
+  try {
+    const filePath = writeRecoveryDiagnostics(records, context);
+    return { path: filePath, writeError: null };
+  } catch (error) {
+    return { path: null, writeError: redactSecrets(error.message || String(error)) };
+  }
+}
+
 module.exports = {
   DEFAULT_DIAGNOSTICS_DIR,
   escapeDiagnosticString,
@@ -113,4 +126,5 @@ module.exports = {
   formatShortRecoveryError,
   getDiagnosticsDir,
   writeRecoveryDiagnostics,
+  writeRecoveryDiagnosticsBestEffort,
 };
