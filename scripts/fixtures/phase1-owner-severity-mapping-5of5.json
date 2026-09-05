@@ -1,0 +1,67 @@
+{
+  "runId": "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
+  "repairBaseHead": "fe2eb5ffe082a0019b40250e1849f69bdde4bf75",
+  "ownerMappingApplied": 5,
+  "mappings": [
+    {
+      "findingId": "g2/b2/fr|unknown|idx:926|lv|STYLE_ONLY|gpt-5.6-luna",
+      "current": {
+        "severity": "STYLE_ONLY",
+        "category": "STYLE_ONLY",
+        "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+      },
+      "next": {
+        "severity": "INFO",
+        "classificationStatus": "STYLE_ONLY"
+      }
+    },
+    {
+      "findingId": "g2/b2/fr|unknown|idx:947|lv|STYLE_ONLY|gpt-5.6-luna",
+      "current": {
+        "severity": "STYLE_ONLY",
+        "category": "STYLE_ONLY",
+        "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+      },
+      "next": {
+        "severity": "INFO",
+        "classificationStatus": "STYLE_ONLY"
+      }
+    },
+    {
+      "findingId": "g2/b2/hu|Böschung|lv|STYLE_ONLY|gpt-5.6-luna",
+      "current": {
+        "severity": "STYLE_ONLY",
+        "category": "STYLE_ONLY",
+        "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+      },
+      "next": {
+        "severity": "INFO",
+        "classificationStatus": "STYLE_ONLY"
+      }
+    },
+    {
+      "findingId": "g2/b2/sk|unknown|idx:2046|lv|AMBIGUITY|gpt-5.6-luna",
+      "current": {
+        "severity": "NEEDS_REVIEW",
+        "category": "AMBIGUITY",
+        "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+      },
+      "next": {
+        "severity": "HIGH",
+        "classificationStatus": "NEEDS_REVIEW"
+      }
+    },
+    {
+      "findingId": "g2/c1/bs|Erstaufführung|lv|DUPLICATION|gpt-5.6-luna",
+      "current": {
+        "severity": "STYLE_ONLY",
+        "category": "DUPLICATION",
+        "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+      },
+      "next": {
+        "severity": "INFO",
+        "classificationStatus": "STYLE_ONLY"
+      }
+    }
+  ]
+}

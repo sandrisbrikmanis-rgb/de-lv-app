@@ -1,0 +1,41 @@
+{
+  "scopeId": "g2/b1/lb",
+  "sourceFile": "b1.js",
+  "landlichCanonicalId": "g2/b1/lb|idx:1718|raw:ländlich|src:b1.js",
+  "landlichLbMutationId": "g2/b1/lb|idx:1718|raw:l\u00023ndlich|src:b1.js",
+  "landlichSqMutationIdA": "g2/b1/sq|idx:1718|raw:l\u0004ndlich|src:b1.js",
+  "landlichSqMutationIdB": "g2/b1/sq|idx:1718|raw:l\u000e4ndlich|src:b1.js",
+  "landlichSqExactId": "g2/b1/sq|idx:1718|raw:ländlich|src:b1.js",
+  "nonC0MutationId": "g2/b1/lb|idx:1718|raw:l\u0314ndlich|src:b1.js",
+  "expectedIds25": [
+    "g2/b1/lb|idx:1700|raw:laden|src:b1.js",
+    "g2/b1/lb|idx:1701|raw:Ladendieb|src:b1.js",
+    "g2/b1/lb|idx:1702|raw:Laderaum|src:b1.js",
+    "g2/b1/lb|idx:1703|raw:Ladung|src:b1.js",
+    "g2/b1/lb|idx:1704|raw:Lager|src:b1.js",
+    "g2/b1/lb|idx:1705|raw:lagern|src:b1.js",
+    "g2/b1/lb|idx:1706|raw:lahm|src:b1.js",
+    "g2/b1/lb|idx:1707|raw:lahm legen|src:b1.js",
+    "g2/b1/lb|idx:1708|raw:Hörer|src:b1.js",
+    "g2/b1/lb|idx:1709|raw:Inhalt|src:b1.js",
+    "g2/b1/lb|idx:1710|raw:Kante|src:b1.js",
+    "g2/b1/lb|idx:1711|raw:Kastanie|src:b1.js",
+    "g2/b1/lb|idx:1712|raw:Kosten|src:b1.js",
+    "g2/b1/lb|idx:1713|raw:Laib|src:b1.js",
+    "g2/b1/lb|idx:1714|raw:Lampenschirm|src:b1.js",
+    "g2/b1/lb|idx:1715|raw:landen|src:b1.js",
+    "g2/b1/lb|idx:1716|raw:Länderspiel|src:b1.js",
+    "g2/b1/lb|idx:1717|raw:Landhaus|src:b1.js",
+    "g2/b1/lb|idx:1718|raw:ländlich|src:b1.js",
+    "g2/b1/lb|idx:1719|raw:Landstraße|src:b1.js",
+    "g2/b1/lb|idx:1720|raw:Landwirt|src:b1.js",
+    "g2/b1/lb|idx:1721|raw:Landwirtschaft|src:b1.js",
+    "g2/b1/lb|idx:1722|raw:längs|src:b1.js",
+    "g2/b1/lb|idx:1723|raw:längst|src:b1.js",
+    "g2/b1/lb|idx:1724|raw:Lappen|src:b1.js"
+  ],
+  "unicodePreservation": {
+    "umlautId": "g2/b1/lb|idx:1722|raw:längs|src:b1.js",
+    "eszettId": "g2/b1/de|idx:99|raw:Straße|src:b1.js"
+  }
+}

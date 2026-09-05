@@ -54,6 +54,9 @@
     "test:phase1-luna-resume-auth-005": "node scripts/test-phase1-luna-resume-auth-005.js",
     "test:phase1-luna-ckpt-003": "node scripts/test-phase1-luna-ckpt-003.js",
     "test:phase1-luna-ckpt-004": "node scripts/test-phase1-luna-ckpt-004.js",
+    "test:phase1-luna-id-recovery": "node scripts/test-phase1-luna-id-recovery.js",
+    "test:phase1-owner-severity-mapping": "node scripts/test-phase1-owner-severity-mapping.js",
+    "test:phase1-run-id-compatibility": "node scripts/test-phase1-run-id-compatibility.js",
     "test:phase1-owner-prep-coverage": "node scripts/test-phase1-owner-prep-coverage.js",
     "test:phase1-luna-timeout-001": "node scripts/test-phase1-luna-timeout-001.js",
     "i18n:content:phase1-real-luna-smoke": "node scripts/run-phase1-real-luna-smoke.js"

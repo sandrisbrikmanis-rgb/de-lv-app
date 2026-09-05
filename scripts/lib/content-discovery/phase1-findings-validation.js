@@ -14,6 +14,7 @@ const ALLOWED_CLASSIFICATION = new Set([
 ]);
 
 const ALLOWED_SEVERITY = new Set(["CRITICAL", "HIGH", "MEDIUM", "LOW", "INFO"]);
+const { applyOwnerSeverityMappings } = require("./phase1-owner-severity-mapping");
 
 function buildFindingStableId(finding) {
   const scopeId = finding.scopeId || `${finding.group}/${finding.dataset}/${finding.lang}`;
@@ -115,11 +116,22 @@ function validateFindingSchema(finding, index = 0) {
 }
 
 function validateFindings(findings = []) {
+  const ownerMapping = applyOwnerSeverityMappings(findings);
+  if (ownerMapping.mappingErrors.length > 0) {
+    const first = ownerMapping.mappingErrors[0];
+    const err = new Error(
+      `OWNER_MAPPING_MISMATCH for ${first.findingId}: expected ${first.field}=${first.expected}, got ${first.actual}`,
+    );
+    err.code = "OWNER_MAPPING_MISMATCH";
+    err.mappingErrors = ownerMapping.mappingErrors;
+    throw err;
+  }
+
   const schemaErrors = [];
   const normalized = [];
   let unclassifiedCount = 0;
 
-  findings.forEach((finding, index) => {
+  ownerMapping.findings.forEach((finding, index) => {
     const { finding: f, errors } = validateFindingSchema(finding, index);
     normalized.push(f);
     schemaErrors.push(...errors);
@@ -157,6 +169,9 @@ function validateFindings(findings = []) {
     excludedCount,
     totalRawFindings: normalized.length,
     findings: normalized,
+    ownerMappingApplied: ownerMapping.ownerMappingApplied,
+    ownerMappingExpected: ownerMapping.ownerMappingExpected,
+    ownerSeverityNormalizationProofs: ownerMapping.proofs,
   };
 }
 

@@ -10,6 +10,8 @@ try {
 const fs = require("fs");
 const path = require("path");
 const OpenAI = require("openai");
+const { recoverLunaResponseItems } = require("./phase1-luna-id-recovery");
+const { shouldAttemptCanonicalIdRecovery } = require("./phase1-luna-checkpoint/object-identity");
 
 const DEFAULT_MODEL = "gpt-5.6-luna";
 
@@ -64,8 +66,15 @@ function parsePhase1LunaResponseStrict(raw, expectedIds) {
     throw new Error("Luna response missing items array");
   }
 
+  const recovery = shouldAttemptCanonicalIdRecovery(items, expectedIds)
+    ? recoverLunaResponseItems(items, expectedIds)
+    : { ok: true, items, recoveries: [], issues: [] };
+  if (!recovery.ok) {
+    throw new Error(`Luna ID recovery failed: ${recovery.issues.join(",")}`);
+  }
+
   const byId = new Map();
-  for (const item of items) {
+  for (const item of recovery.items) {
     const id = item?.id || item?.cardId || item?.objectId;
     if (!id) continue;
     if (byId.has(id)) {
@@ -84,10 +93,15 @@ function parsePhase1LunaResponseStrict(raw, expectedIds) {
       ...item,
       id: expectedId,
       status: String(item.status || "PASS").toUpperCase(),
+      ...(recovery.recoveries.length
+        ? {
+            idRecoveryProof: recovery.recoveries.find((entry) => entry.canonicalId === expectedId) || null,
+          }
+        : {}),
     });
   }
 
-  return { items: normalized };
+  return { items: normalized, idRecoveries: recovery.recoveries };
 }
 
 async function auditObjectsBatch({

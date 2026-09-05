@@ -3,6 +3,8 @@
  */
 const { createLunaTransport } = require('./luna-transport');
 const { splitObjectsIntoBatches } = require('./phase1-luna-checkpoint/batch-split');
+const { isCanonicalLunaRequestId, shouldAttemptCanonicalIdRecovery } = require('./phase1-luna-checkpoint/object-identity');
+const { recoverLunaResponseItems } = require('./phase1-luna-id-recovery');
 const {
   nowMs,
   createAttemptDeadlines,
@@ -41,12 +43,31 @@ function validateBatchResponse(batch, response, getId) {
     issues.push('MALFORMED_RESPONSE');
     return { ok: false, issues, missingIds: batch.map(getId) };
   }
-  const items = Array.isArray(response.items) ? response.items : null;
-  if (!items) {
+  const itemsInput = Array.isArray(response.items) ? response.items : null;
+  if (!itemsInput) {
     issues.push('MALFORMED_RESPONSE');
     return { ok: false, issues, missingIds: batch.map(getId) };
   }
   const expectedIds = batch.map(getId);
+  let items = itemsInput;
+
+  if (
+    expectedIds.length > 0 &&
+    expectedIds.every((id) => isCanonicalLunaRequestId(id)) &&
+    shouldAttemptCanonicalIdRecovery(items, expectedIds)
+  ) {
+    const recovery = recoverLunaResponseItems(items, expectedIds);
+    if (!recovery.ok) {
+      return {
+        ok: false,
+        issues: recovery.issues,
+        missingIds: expectedIds,
+        idRecoveries: recovery.recoveries,
+      };
+    }
+    items = recovery.items;
+  }
+
   const returnedIds = items.map((item) => getId(item));
   const missingIds = expectedIds.filter((id) => !returnedIds.includes(id));
   if (missingIds.length) issues.push('PARTIAL_RESPONSE');
