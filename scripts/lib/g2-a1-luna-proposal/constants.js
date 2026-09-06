@@ -9,7 +9,8 @@ const CHECKPOINT_SCHEMA_VERSION = "1.0.0";
 const PROGRESS_SCHEMA_VERSION = "1.0.0";
 
 const EXPECTED = {
-  originMain: "f04e31eb2f71cfdafa389381ea5eaf80c4918dbb",
+  productionBaselineSha: "d259701d7ac1d005a762b977795075f983c567a0",
+  originMain: "d259701d7ac1d005a762b977795075f983c567a0",
   matrixIdentitySha: "966a31529b82f0005b46bb059acfc655bde1045b34cd04852cba3f0cd892c965",
   sourceFileId: 16,
   sourceSha: "854f174e67cb0965fb24c884c43aa2b557a0d581f88bf0761cd846cac4eaf5e8",

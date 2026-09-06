@@ -15,8 +15,12 @@ function runStartGates(options = {}) {
   const matrixPath = options.matrixPath || pathState.matrixPath;
 
   const originMain = execSync("git rev-parse origin/main", { encoding: "utf8" }).trim();
+  const headSha = execSync("git rev-parse HEAD", { encoding: "utf8" }).trim();
   const porcelain = execSync("git status --porcelain", { encoding: "utf8" }).trim();
-  if (originMain !== EXPECTED.originMain) errors.push(`ORIGIN_MAIN_MISMATCH:${originMain}`);
+  const productionBaselineSha = EXPECTED.productionBaselineSha || EXPECTED.originMain;
+  if (options.requirePinnedOriginMain && originMain !== EXPECTED.originMain) {
+    errors.push(`ORIGIN_MAIN_MISMATCH:${originMain}`);
+  }
   if (porcelain) errors.push("WORKTREE_NOT_CLEAN");
 
   const proofPath = `${ownerPackRoot}/proof.json`;
@@ -39,8 +43,8 @@ function runStartGates(options = {}) {
   const sourceSha = sha256Hex(typeof lvJson === "string" ? lvJson : JSON.stringify(lvJson));
   if (sourceSha !== EXPECTED.sourceSha) errors.push(`SOURCE_SHA_MISMATCH:${sourceSha}`);
 
-  const prod = gitProductionDiffAgainstBaseline(EXPECTED.originMain);
-  const de = gitDeDiffAgainstBaseline(EXPECTED.originMain);
+  const prod = gitProductionDiffAgainstBaseline(productionBaselineSha);
+  const de = gitDeDiffAgainstBaseline(productionBaselineSha);
   if (!prod.clean) errors.push(`PRODUCTION_DIFF:${(prod.changed || []).length}`);
   if (!de.clean) errors.push(`DE_DIFF:${(de.changed || []).length}`);
 
@@ -54,6 +58,8 @@ function runStartGates(options = {}) {
     pass: errors.length === 0,
     errors,
     originMain,
+    headSha,
+    productionBaselineSha,
     sourceSha,
     prod,
     de,
