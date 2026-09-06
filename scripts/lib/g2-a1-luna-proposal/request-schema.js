@@ -18,6 +18,8 @@ function buildTaskRequest(task) {
     severity: task.severity,
     category: task.category,
     auditId: task.auditId,
+    groupedContextReadOnly: task.groupedContextReadOnly,
+    overlapClassification: task.overlapClassification,
     identity: task.identity,
   });
 
@@ -34,6 +36,10 @@ function buildTaskRequest(task) {
     lvSourceValue: task.lvSourceValue,
     currentValue: task.currentValue,
     deContextReadOnly: task.deContextReadOnly,
+    groupedContextReadOnly: task.groupedContextReadOnly,
+    overlapClassification: task.overlapClassification,
+    individualApplyEligible: task.individualApplyEligible !== false,
+    ownerConflictStatus: task.ownerConflictStatus,
     severity: task.severity,
     category: task.category,
     auditId: task.auditId,

@@ -34,6 +34,7 @@ const TASK_KINDS = Object.freeze({
   EMPTY_OR_MISSING: "EMPTY_OR_MISSING",
   SOURCE_IDENTICAL: "SOURCE_IDENTICAL",
   GROUPED_MANUAL_REVIEW: "GROUPED_MANUAL_REVIEW",
+  OWNER_CONFLICT_REVIEW: "OWNER_CONFLICT_REVIEW",
 });
 
 const LUNA_ACTIONS = Object.freeze([
@@ -61,8 +62,10 @@ const DEFAULT_RETRY = { maxRetries: 2, timeoutMs: 120_000 };
 const pathState = {
   ownerPackRoot: "/tmp/cursor/artifacts/phase2-g2-a1-owner-pack-v3",
   artifactsRoot: "/tmp/cursor/artifacts/phase2-g2-a1-luna-proposal-infra",
+  ownerReviewRoot: "/tmp/cursor/artifacts/phase2-g2-a1-luna-proposal-owner-review",
   runsRoot: path.join(ROOT, "reports", "temp", "phase2-g2-a1-luna-proposal-runs"),
   matrixPath: "/tmp/cursor/artifacts/phase1-compact-pub/phase1-full-bundle/phase1-discovery-matrix.json",
+  authFilePath: path.join(ROOT, "reports", "temp", "phase2-g2-a1-luna-proposal-auth.json"),
 };
 
 function runDir(runId) {

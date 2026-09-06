@@ -20,6 +20,8 @@ const {
   validateCheckpoint,
   detectCheckpointIntegrity,
   buildTaskRequest,
+  analyzeGroupedIndividualOverlaps,
+  OVERLAP_CLASS,
   EXPECTED,
   TASK_KINDS,
   pathState,
@@ -188,6 +190,71 @@ async function testMockRunnerNoRealCalls() {
   pathState.runsRoot = prev;
 }
 
+function testOverlap522Classification() {
+  const gates = runStartGates();
+  if (!gates.pass) return;
+  const { queues, reconciliation } = buildQueues({ gates });
+  const review = analyzeGroupedIndividualOverlaps(queues, reconciliation);
+  assert(review.total === 522, `overlap total ${review.total}`);
+  assert(review.summary.SAFE_WITH_GROUP_CONTEXT === 513, review.summary.SAFE_WITH_GROUP_CONTEXT);
+  assert(review.summary.OWNER_CONFLICT_REVIEW_REQUIRED === 9, review.summary.OWNER_CONFLICT_REVIEW_REQUIRED);
+  assert(review.summary.INVALID_OVERLAP === 0, review.summary.INVALID_OVERLAP);
+  for (const row of review.rows) {
+    if (row.classification === OVERLAP_CLASS.SAFE_WITH_GROUP_CONTEXT) {
+      assert(row.groupedContextInRequest, `missing grouped context for ${row.crowdinKey}`);
+      assert(row.individualApplyEligible === false, "overlap must not be apply-eligible");
+    }
+  }
+}
+
+function testOwnerConflictExcludedFromBatches() {
+  const gates = runStartGates();
+  if (!gates.pass) return;
+  const { queues } = buildQueues({ gates });
+  const plan = buildBatchPlan(queues);
+  const batchIds = new Set(plan.batches.flatMap((b) => b.taskIds));
+  for (const task of queues.OWNER_CONFLICT_REVIEW) {
+    assert(!batchIds.has(task.taskId), `conflict task in batches ${task.taskId}`);
+  }
+  assert(queues.OWNER_CONFLICT_REVIEW.length === 72, queues.OWNER_CONFLICT_REVIEW.length);
+}
+
+function testGroupedContextInRequest() {
+  const gates = runStartGates();
+  if (!gates.pass) return;
+  const { queues } = buildQueues({ gates });
+  const withOverlap = queues.AUDIT_MAPPED_UNIQUE.filter((t) => t.groupedOverlap);
+  assert(withOverlap.length > 0, "expected overlap tasks");
+  const req = buildTaskRequest(withOverlap[0]);
+  assert(req.groupedContextReadOnly && req.groupedContextReadOnly.length > 0, "grouped context missing");
+  assert(req.individualApplyEligible === false, "apply eligible must be false");
+}
+
+function testForbiddenStatuses() {
+  const fx = JSON.parse(fs.readFileSync(FIXTURE, "utf8"));
+  const task = fx.tasks[0];
+  for (const status of ["OWNER_APPROVED", "LABOT", "AUTO_APPLIED"]) {
+    const bad = validateLunaResponseItem(
+      { taskId: task.taskId, action: "KEEP_CURRENT", proposedValue: null, ownerStatus: status },
+      task,
+      { forbidDeWrite: true },
+    );
+    assert(!bad.ok, `${status} should be rejected`);
+  }
+  const ok = validateLunaResponseItem(fx.validResponse, task, { forbidDeWrite: true });
+  assert(ok.normalized.lunaResultStatus === "PROPOSED_LUNA_PENDING_OWNER", ok.normalized?.lunaResultStatus);
+}
+
+function testBatchPlanNoOverlapApplyEligible() {
+  const gates = runStartGates();
+  if (!gates.pass) return;
+  const { queues } = buildQueues({ gates });
+  const plan = buildBatchPlan(queues);
+  for (const batch of plan.batches) {
+    if (batch.overlapTaskCount > 0) assert(!batch.individualApplyEligible, batch.batchId);
+  }
+}
+
 function testBatchResponseIds() {
   const fx = JSON.parse(fs.readFileSync(FIXTURE, "utf8"));
   const tasks = fx.tasks;
@@ -217,6 +284,11 @@ const tests = [
   testQueueReconciliation,
   testSourceIdenticalNotAutoIntentional,
   testGroupedNotInIndividualBatches,
+  testOverlap522Classification,
+  testOwnerConflictExcludedFromBatches,
+  testGroupedContextInRequest,
+  testForbiddenStatuses,
+  testBatchPlanNoOverlapApplyEligible,
   testCheckpointResume,
   testCorruptCheckpointDetected,
   testDryRunIntegration,

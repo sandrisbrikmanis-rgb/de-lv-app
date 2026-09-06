@@ -20,17 +20,18 @@ function buildBatchPlan(queues, options = {}) {
     TASK_KINDS.EMPTY_OR_MISSING,
     TASK_KINDS.SOURCE_IDENTICAL,
   ]) {
-    const tasks = queues[queueKind] || [];
+    const tasks = (queues[queueKind] || []).filter((t) => !t.ownerConflictStatus);
     const size = batchSizes[queueKind] || 25;
     const chunks = chunk(tasks, size);
     for (const group of chunks) {
       const batch = buildBatchRequest(group, queueKind, batchIndex);
-    batches.push({
-      ...batch,
-      tasks: group,
-      taskCount: group.length,
-      individualApplyEligible: true,
-    });
+      batches.push({
+        ...batch,
+        tasks: group,
+        taskCount: group.length,
+        individualApplyEligible: group.every((t) => t.individualApplyEligible !== false),
+        overlapTaskCount: group.filter((t) => t.groupedOverlap).length,
+      });
       batchIndex += 1;
     }
   }

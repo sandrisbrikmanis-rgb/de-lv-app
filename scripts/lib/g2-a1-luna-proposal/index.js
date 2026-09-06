@@ -7,6 +7,8 @@ const { buildTaskRequest, buildBatchRequest } = require("./request-schema");
 const { validateLunaResponseItem, validateLunaBatchResponse } = require("./response-validator");
 const { buildBatchPlan } = require("./batch-plan");
 const { runDryRun } = require("./dry-run");
+const { runOwnerReview } = require("./owner-review");
+const { analyzeGroupedIndividualOverlaps, countIndividualOverlapStats, OVERLAP_CLASS } = require("./grouped-overlap");
 const { createMockLunaTransport } = require("./mock-transport");
 const { runProposalBatches } = require("./runner");
 const {
@@ -33,6 +35,10 @@ module.exports = {
   validateLunaBatchResponse,
   buildBatchPlan,
   runDryRun,
+  runOwnerReview,
+  analyzeGroupedIndividualOverlaps,
+  countIndividualOverlapStats,
+  OVERLAP_CLASS,
   createMockLunaTransport,
   runProposalBatches,
   buildCheckpoint,

@@ -35,6 +35,7 @@
     "test:phase2-g2-a1-luna-proposal-infra": "node scripts/test-phase2-g2-a1-luna-proposal-infra.js",
     "test:phase2-g2-a1-luna-proposal-infra:integration": "node scripts/test-phase2-g2-a1-luna-proposal-infra.js --integration",
     "phase2:g2-a1:luna-proposal:dry-run": "node scripts/run-phase2-g2-a1-luna-proposal-dry-run.js",
+    "phase2:g2-a1:luna-proposal:owner-review": "node scripts/run-phase2-g2-a1-luna-proposal-owner-review.js",
     "i18n:content:discovery": "node scripts/run-content-discovery.js --all-groups --dataset all --all-langs",
     "i18n:content:unmerged-closure-classify": "node scripts/run-unmerged-closure-classification.js",
     "i18n:content:unmerged-closure-owner-prep": "node scripts/run-unmerged-closure-owner-prep-audit.js",

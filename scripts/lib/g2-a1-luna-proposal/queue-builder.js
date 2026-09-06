@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const { TASK_KINDS, pathState } = require("./constants");
 const { stableTaskId, unitKey } = require("./hash");
+const { buildGroupedContextIndex, annotateIndividualTaskOverlaps } = require("./grouped-overlap");
 
 function isProperNounOrSymbol(s) {
   const t = String(s || "").trim();
@@ -232,7 +233,14 @@ function buildQueues(options = {}) {
     identity,
   );
 
-  const allIndividual = [...auditMappedUnique, ...emptyOrMissing, ...sourceIdentical];
+  const groupedByLocaleKey = buildGroupedContextIndex(groupedManualReview);
+  const annotateQueue = (tasks) => tasks.map((t) => annotateIndividualTaskOverlaps(t, groupedByLocaleKey));
+
+  const annotatedMapped = annotateQueue(auditMappedUnique);
+  const annotatedEmpty = annotateQueue(emptyOrMissing);
+  const annotatedSource = annotateQueue(sourceIdentical);
+  const allIndividual = [...annotatedMapped, ...annotatedEmpty, ...annotatedSource];
+
   const activeKeys = new Set();
   const duplicates = [];
   for (const task of allIndividual) {
@@ -242,20 +250,26 @@ function buildQueues(options = {}) {
   }
 
   const overlapWithGrouped = groupedManualReview.filter((t) => t.crowdinKey && activeKeys.has(unitKey(t.locale, t.crowdinKey)));
+  const ownerConflictReview = allIndividual.filter(
+    (t) => t.ownerConflictStatus === "OWNER_CONFLICT_REVIEW_REQUIRED",
+  );
 
   return {
     queues: {
-      AUDIT_MAPPED_UNIQUE: auditMappedUnique,
-      EMPTY_OR_MISSING: emptyOrMissing,
-      SOURCE_IDENTICAL: sourceIdentical,
+      AUDIT_MAPPED_UNIQUE: annotatedMapped,
+      EMPTY_OR_MISSING: annotatedEmpty,
+      SOURCE_IDENTICAL: annotatedSource,
       GROUPED_MANUAL_REVIEW: groupedManualReview,
+      OWNER_CONFLICT_REVIEW: ownerConflictReview,
     },
     counts: {
-      AUDIT_MAPPED_UNIQUE: auditMappedUnique.length,
-      EMPTY_OR_MISSING: emptyOrMissing.length,
-      SOURCE_IDENTICAL: sourceIdentical.length,
+      AUDIT_MAPPED_UNIQUE: annotatedMapped.length,
+      EMPTY_OR_MISSING: annotatedEmpty.length,
+      SOURCE_IDENTICAL: annotatedSource.length,
       GROUPED_MANUAL_REVIEW: groupedManualReview.length,
       individualExecutionUnits: allIndividual.length,
+      batchEligibleUnits: allIndividual.filter((t) => !t.ownerConflictStatus).length,
+      ownerConflictReviewRequired: ownerConflictReview.length,
     },
     reconciliation: {
       duplicates,
@@ -263,6 +277,7 @@ function buildQueues(options = {}) {
       excludedEmptyDueToMappedUnique: pack.emptyMissing.length - emptyOrMissing.length,
       excludedSourceDueToPriorQueues:
         pack.sourceIdentical.length - sourceIdentical.length,
+      ownerConflictReviewRequired: ownerConflictReview.length,
     },
     identity,
   };

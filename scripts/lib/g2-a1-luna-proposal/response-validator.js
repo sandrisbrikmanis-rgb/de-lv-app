@@ -71,6 +71,16 @@ function validateLunaResponseItem(item, task, options = {}) {
     issues.push("DE_FIELD_WRITE_TARGET");
   }
 
+  if (item.lunaResultStatus && item.lunaResultStatus !== "PROPOSED_LUNA_PENDING_OWNER") {
+    issues.push(`FORBIDDEN_STATUS:${item.lunaResultStatus}`);
+  }
+  if (item.ownerStatus && ["OWNER_APPROVED", "LABOT", "AUTO_APPLIED"].includes(item.ownerStatus)) {
+    issues.push(`FORBIDDEN_OWNER_STATUS:${item.ownerStatus}`);
+  }
+  if (task.taskKind === "GROUPED_MANUAL_REVIEW" && action === "PROPOSE_REPLACEMENT") {
+    issues.push("GROUPED_TASK_INDIVIDUAL_APPLY");
+  }
+
   return { ok: issues.length === 0, issues, normalized: issues.length === 0 ? { ...item, lunaResultStatus: "PROPOSED_LUNA_PENDING_OWNER" } : null };
 }
 
