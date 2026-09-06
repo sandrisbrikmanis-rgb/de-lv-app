@@ -296,7 +296,10 @@ function testStagedBundleIdentityMismatch() {
     assertFinalizedBundleIdentity({
       matrix,
       matrixPath: "/tmp/test-matrix.json",
+      ownerPrepOutDir: "/tmp/owner-prep",
       expectedMatrixSha256: `${sha.slice(0, -1)}0`,
+      expectedOwnerPrepSourceHash: "00",
+      requireExplicitHashes: true,
     });
   } catch (error) {
     threw = error.code === "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
@@ -342,7 +345,7 @@ function testDryRunIfRequested() {
   assert(result.stats?.conflictsAfter === 0, "dedup conflicts after");
   assert(result.stats?.idxUnknownAfter === 0, "idx:? after zero");
   assert(result.f1?.pass, "F1 pass");
-  assert(result.classification === "PHASE1_REPORT_FINALIZATION_OWNER_REVIEW_PASS", "classification");
+  assert(result.classification === "PHASE1_EXIT_INVOCATION_CONTRACT_READY_FOR_OWNER_REVIEW", "classification");
   assert(result.totalRealCalls === 15139, "historical realCalls preserved");
   assert(result.totalRetries === 763, "historical retries preserved");
   assert(result.finalizationLunaCalls === 0, "finalization luna calls zero");

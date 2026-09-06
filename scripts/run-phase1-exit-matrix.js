@@ -48,31 +48,70 @@ function assertFinalizedBundleIdentity({
   ownerPrepOutDir,
   expectedMatrixSha256,
   expectedOwnerPrepSourceHash,
+  requireExplicitHashes = false,
 }) {
+  if (requireExplicitHashes) {
+    const missing = [];
+    if (!matrixPath) missing.push("matrixPath");
+    if (!ownerPrepOutDir) missing.push("ownerPrepOutDir");
+    if (!expectedMatrixSha256) missing.push("expectedMatrixSha256");
+    if (!expectedOwnerPrepSourceHash) missing.push("expectedOwnerPrepSourceHash");
+    if (missing.length) {
+      const error = new Error(
+        `FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED: missing ${missing.join(", ")}`,
+      );
+      error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED";
+      error.missing = missing;
+      throw error;
+    }
+  }
+
   const actualMatrixSha256 = hashMatrixForIdentity(matrix);
-  if (expectedMatrixSha256 && actualMatrixSha256 !== expectedMatrixSha256) {
-    const error = new Error(
-      `FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH: matrixSha256 expected ${expectedMatrixSha256}, got ${actualMatrixSha256} (${matrixPath})`,
-    );
-    error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
-    error.field = "matrixSha256";
-    throw error;
+  if (requireExplicitHashes || expectedMatrixSha256) {
+    if (!expectedMatrixSha256) {
+      const error = new Error("FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED: expectedMatrixSha256");
+      error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED";
+      error.field = "expectedMatrixSha256";
+      throw error;
+    }
+    if (actualMatrixSha256 !== expectedMatrixSha256) {
+      const error = new Error(
+        `FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH: matrixSha256 expected ${expectedMatrixSha256}, got ${actualMatrixSha256} (${matrixPath})`,
+      );
+      error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
+      error.field = "matrixSha256";
+      throw error;
+    }
   }
 
   const validatedFindings = (matrix.findings || []).filter((f) =>
     ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
   );
   const actualOwnerPrepSourceHash = computeOwnerPrepSourceHash(validatedFindings);
-  if (expectedOwnerPrepSourceHash && actualOwnerPrepSourceHash !== expectedOwnerPrepSourceHash) {
-    const error = new Error(
-      `FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH: ownerPrepSourceHash expected ${expectedOwnerPrepSourceHash}, got ${actualOwnerPrepSourceHash}`,
-    );
-    error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
-    error.field = "ownerPrepSourceHash";
-    throw error;
+  if (requireExplicitHashes || expectedOwnerPrepSourceHash) {
+    if (!expectedOwnerPrepSourceHash) {
+      const error = new Error("FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED: expectedOwnerPrepSourceHash");
+      error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED";
+      error.field = "expectedOwnerPrepSourceHash";
+      throw error;
+    }
+    if (actualOwnerPrepSourceHash !== expectedOwnerPrepSourceHash) {
+      const error = new Error(
+        `FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH: ownerPrepSourceHash expected ${expectedOwnerPrepSourceHash}, got ${actualOwnerPrepSourceHash}`,
+      );
+      error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
+      error.field = "ownerPrepSourceHash";
+      throw error;
+    }
   }
 
-  if (ownerPrepOutDir) {
+  if (requireExplicitHashes || ownerPrepOutDir) {
+    if (!ownerPrepOutDir) {
+      const error = new Error("FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED: ownerPrepOutDir");
+      error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED";
+      error.field = "ownerPrepOutDir";
+      throw error;
+    }
     const coverage = evaluateOwnerPrepCoverage({ matrix, ownerPrepOutDir });
     if (!coverage.SOURCE_HASH_MATCH) {
       const error = new Error(
@@ -89,6 +128,107 @@ function assertFinalizedBundleIdentity({
     ownerPrepSourceHash: actualOwnerPrepSourceHash,
     match: true,
   };
+}
+
+function assertPhase1BundleInvocation(options = {}) {
+  if (!options.withLuna) return;
+  const missing = [];
+  if (!options.matrixPath) missing.push("matrixPath");
+  if (!options.ownerPrepOutDir) missing.push("ownerPrepOutDir");
+  if (!options.expectedMatrixSha256) missing.push("expectedMatrixSha256");
+  if (!options.expectedOwnerPrepSourceHash) missing.push("expectedOwnerPrepSourceHash");
+  if (missing.length) {
+    const error = new Error(
+      `FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED: missing ${missing.join(", ")}`,
+    );
+    error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED";
+    error.missing = missing;
+    throw error;
+  }
+  for (const [label, value] of [
+    ["matrixPath", options.matrixPath],
+    ["ownerPrepOutDir", options.ownerPrepOutDir],
+  ]) {
+    if (!path.isAbsolute(value)) {
+      const error = new Error(
+        `FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED: ${label} must be an absolute path, got ${value}`,
+      );
+      error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED";
+      error.field = label;
+      throw error;
+    }
+  }
+}
+
+function assertExitPreWriteGates({ matrix, evaluation, withLuna }) {
+  if (!withLuna) return;
+  if (matrix?.validation?.pass !== true) {
+    const error = new Error("PHASE1_EXIT_PREWRITE_GATE_FAILED: matrix.validation.pass !== true");
+    error.code = "PHASE1_EXIT_PREWRITE_GATE_FAILED";
+    error.field = "matrix.validation.pass";
+    throw error;
+  }
+  if (!evaluation?.pass) {
+    const error = new Error(
+      `PHASE1_EXIT_PREWRITE_GATE_FAILED: F1 gates not PASS (status=${evaluation?.status})`,
+    );
+    error.code = "PHASE1_EXIT_PREWRITE_GATE_FAILED";
+    error.field = "f1Gates";
+    error.gates = evaluation?.gates;
+    throw error;
+  }
+  if (!matrix?.ownerPrep || matrix?.gates?.ownerPrepGenerated !== true) {
+    const error = new Error(
+      "PHASE1_EXIT_PREWRITE_GATE_FAILED: matrix missing ownerPrep metadata (ownerPrep / gates.ownerPrepGenerated)",
+    );
+    error.code = "PHASE1_EXIT_PREWRITE_GATE_FAILED";
+    error.field = "ownerPrepMetadata";
+    throw error;
+  }
+}
+
+function parsePhase1ExitCliArgs(argv = process.argv.slice(2)) {
+  const options = {
+    withLuna: false,
+    dryRun: false,
+    writeReports: true,
+  };
+
+  for (let i = 0; i < argv.length; i += 1) {
+    const arg = argv[i];
+    if (arg === "--with-luna") {
+      options.withLuna = true;
+      continue;
+    }
+    if (arg === "--dry-run") {
+      options.dryRun = true;
+      options.writeReports = false;
+      continue;
+    }
+    const value = argv[i + 1];
+    if (arg === "--matrix-path") {
+      options.matrixPath = path.resolve(value);
+      i += 1;
+      continue;
+    }
+    if (arg === "--owner-prep-out-dir") {
+      options.ownerPrepOutDir = path.resolve(value);
+      i += 1;
+      continue;
+    }
+    if (arg === "--expected-matrix-sha256") {
+      options.expectedMatrixSha256 = value;
+      i += 1;
+      continue;
+    }
+    if (arg === "--expected-owner-prep-source-hash") {
+      options.expectedOwnerPrepSourceHash = value;
+      i += 1;
+      continue;
+    }
+  }
+
+  return options;
 }
 
 function gateStatus(pass) {
@@ -324,9 +464,17 @@ function runPhase1ExitMatrix(options = {}) {
     withLuna = options.withLuna,
   } = options;
 
+  assertPhase1BundleInvocation({
+    withLuna,
+    matrixPath,
+    ownerPrepOutDir,
+    expectedMatrixSha256,
+    expectedOwnerPrepSourceHash,
+  });
+
   const baseline = runBaselineGate({ writeReports: false });
-  const matrix = loadJson(matrixPath) || { summary: [], findings: [], totals: {} };
-  if (!matrix.findings && !matrix.summary?.length) {
+  const matrix = loadJson(matrixPath);
+  if (!matrix || (!matrix.findings?.length && !matrix.summary?.length)) {
     const error = new Error(`FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH: matrix missing at ${matrixPath}`);
     error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
     error.field = "matrixPath";
@@ -339,6 +487,7 @@ function runPhase1ExitMatrix(options = {}) {
     ownerPrepOutDir,
     expectedMatrixSha256,
     expectedOwnerPrepSourceHash,
+    requireExplicitHashes: withLuna === true,
   });
 
   const productionDiff = gitProductionDiffAgainstBaseline(baseline.originMainSha);
@@ -348,28 +497,63 @@ function runPhase1ExitMatrix(options = {}) {
     productionDiff,
     options: { withLuna, ownerPrepOutDir, lunaFixture: options.lunaFixture },
   });
+
+  assertExitPreWriteGates({ matrix, evaluation, withLuna });
+
   const exitPayload = buildExitPayload({ matrix, baseline, productionDiff, evaluation, options });
   const reports = writeReports ? writeExitReports(exitPayload) : null;
-  return { exitPayload, reports, evaluation, baseline, productionDiff, bundleIdentity, matrixPath, ownerPrepOutDir };
+  return {
+    exitPayload,
+    reports,
+    evaluation,
+    baseline,
+    productionDiff,
+    bundleIdentity,
+    matrixPath,
+    ownerPrepOutDir,
+    matrix,
+  };
 }
 
 function main() {
-  const withLuna = process.argv.includes("--with-luna");
-  const result = runPhase1ExitMatrix({ withLuna });
-  console.log(
-    JSON.stringify(
-      {
-        status: result.exitPayload.status,
-        pass: result.exitPayload.pass,
-        gates: result.exitPayload.gates,
-        lunaCalls: result.exitPayload.lunaStats.lunaCalls,
-        reports: result.reports,
-      },
-      null,
-      2,
-    ),
-  );
-  process.exit(result.exitPayload.pass ? 0 : 1);
+  const cli = parsePhase1ExitCliArgs();
+  try {
+    const result = runPhase1ExitMatrix(cli);
+    console.log(
+      JSON.stringify(
+        {
+          status: result.exitPayload.status,
+          pass: result.exitPayload.pass,
+          gates: result.exitPayload.gates,
+          lunaCalls: result.exitPayload.lunaStats.lunaCalls,
+          dryRun: cli.dryRun,
+          reports: result.reports,
+          bundleIdentity: result.bundleIdentity,
+          matrixHasOwnerPrep: Boolean(result.matrix?.ownerPrep),
+          ownerPrepGenerated: result.matrix?.gates?.ownerPrepGenerated === true,
+        },
+        null,
+        2,
+      ),
+    );
+    process.exit(result.exitPayload.pass ? 0 : 1);
+  } catch (error) {
+    console.error(
+      JSON.stringify(
+        {
+          pass: false,
+          code: error.code || "PHASE1_EXIT_FAILED",
+          message: error.message,
+          field: error.field,
+          missing: error.missing,
+          gates: error.gates,
+        },
+        null,
+        2,
+      ),
+    );
+    process.exit(1);
+  }
 }
 
 if (require.main === module) {
@@ -384,6 +568,9 @@ module.exports = {
   hashMatrixForIdentity,
   computeOwnerPrepSourceHash,
   assertFinalizedBundleIdentity,
+  assertPhase1BundleInvocation,
+  assertExitPreWriteGates,
+  parsePhase1ExitCliArgs,
   MATRIX_PATH,
   SCOPE_INVENTORY_PATH,
 };

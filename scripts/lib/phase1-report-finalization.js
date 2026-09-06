@@ -389,9 +389,7 @@ function runReportFinalizationDryRun({
   const ownerDir =
     ownerPrepOutDir || path.join(tempRoot, "phase1-owner-prep");
   fs.mkdirSync(tempRoot, { recursive: true });
-  fs.writeFileSync(stagedMatrixPath, `${JSON.stringify(built.matrix, null, 2)}\n`, "utf8");
 
-  const stagedMatrixSha256 = hashMatrixForIdentity(built.matrix);
   const validatedFindings = built.matrix.findings.filter((f) =>
     ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
   );
@@ -406,8 +404,12 @@ function runReportFinalizationDryRun({
       : null;
   if (ownerPrep) {
     built.matrix.ownerPrep = ownerPrep;
+    built.matrix.gates = built.matrix.gates || {};
     built.matrix.gates.ownerPrepGenerated = true;
   }
+
+  const stagedMatrixSha256 = hashMatrixForIdentity(built.matrix);
+  fs.writeFileSync(stagedMatrixPath, `${JSON.stringify(built.matrix, null, 2)}\n`, "utf8");
 
   const ownerPrepCoverage = evaluateOwnerPrepCoverage({
     matrix: built.matrix,
@@ -481,7 +483,7 @@ function runReportFinalizationDryRun({
     built.matrix.lunaStats.lunaCalls === PHASE1_RUN_PROGRESS_BASELINE.realCalls &&
     built.matrix.lunaStats.finalizationLunaCalls === 0;
 
-  let classification = "PHASE1_REPORT_FINALIZATION_OWNER_REVIEW_PASS";
+  let classification = "PHASE1_EXIT_INVOCATION_CONTRACT_READY_FOR_OWNER_REVIEW";
   if (!allPass) {
     classification = "PHASE1_REPORT_FINALIZATION_OWNER_REVIEW_NEEDS_REPAIR";
   }
