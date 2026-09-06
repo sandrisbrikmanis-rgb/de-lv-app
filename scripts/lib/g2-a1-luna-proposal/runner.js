@@ -12,6 +12,7 @@ const {
   DEFAULT_RETRY,
 } = require("./constants");
 const { buildCheckpoint, saveCheckpoint, loadCheckpoint, validateCheckpoint } = require("./checkpoint");
+const { hashObject } = require("./hash");
 const { assertTransportReceipt } = require("./transport-factory");
 const { RUNTIME_MODES } = require("./runtime-mode");
 
