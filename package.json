@@ -30,6 +30,8 @@
     "i18n:content:phase2-g2-a1:export": "node scripts/export-content-crowdin.js --group g2 --level a1 --lang lv --write",
     "i18n:content:phase2-g2-a1:verify-roundtrip": "node scripts/verify-content-crowdin-roundtrip.js --group g2 --level a1 --all-langs",
     "i18n:content:phase2-g2-a1:verify": "node scripts/test-phase2-g2-a1-crowdin-infra.js",
+    "test:phase2-g2-a1-audit-key-resolver": "node scripts/test-phase2-g2-a1-audit-key-resolver.js",
+    "test:phase2-g2-a1-audit-key-resolver:integration": "PHASE1_MATRIX_PATH=${PHASE1_MATRIX_PATH:-/tmp/cursor/artifacts/phase1-compact-pub/phase1-full-bundle/phase1-discovery-matrix.json} node scripts/test-phase2-g2-a1-audit-key-resolver.js --integration",
     "i18n:content:discovery": "node scripts/run-content-discovery.js --all-groups --dataset all --all-langs",
     "i18n:content:unmerged-closure-classify": "node scripts/run-unmerged-closure-classification.js",
     "i18n:content:unmerged-closure-owner-prep": "node scripts/run-unmerged-closure-owner-prep-audit.js",

@@ -1,0 +1,105 @@
+{
+  "level": "a1",
+  "cards": [
+    {
+      "de": "ab",
+      "lv": "no",
+      "study": {
+        "id": "a1-ab",
+        "translation": "off",
+        "comparison": [
+          { "meaning": "m0", "example": "ab Montag – no pirmdienas" },
+          { "meaning": "m1", "example": "von mir – no manis" }
+        ],
+        "examples": [{ "lv": "ex0" }, { "lv": "ex1" }],
+        "explanation": ["expl0", "expl1"],
+        "tip": ["tip0"],
+        "important": ["imp0"]
+      }
+    },
+    {
+      "de": "Liter",
+      "lv": "Litrs",
+      "study": {
+        "id": "a1-liter",
+        "translation": "der/das Liter",
+        "explanation": "Vācijā parasti saka 'der Liter'."
+      }
+    },
+    {
+      "de": "klein",
+      "lv": "mazs",
+      "study": {
+        "id": "a1-klein",
+        "translation": "klein",
+        "sectionAccents": { "examples": [{ "lv": "x" }] },
+        "examples": [{ "lv": "klein Beispiel" }, { "lv": "noch eins" }]
+      }
+    },
+    {
+      "de": "Eis",
+      "lv": "ledus",
+      "study": {
+        "id": "a1-eis",
+        "translation": "Eis",
+        "comparison": [
+          { "meaning": "a", "example": "e1" },
+          { "meaning": "b", "example": "e2" }
+        ],
+        "sectionAccents": { "comparison": [{ "meaning": "c", "example": "e3" }] }
+      }
+    },
+    {
+      "de": "tipExtra",
+      "lv": "extra",
+      "study": {
+        "id": "a1-tipExtra",
+        "translation": "extra",
+        "tip": ["only tip"],
+        "tipExtra": "must not match study.tip prefix"
+      }
+    },
+    {
+      "de": "bitte",
+      "lv": "lūdzu",
+      "study": {
+        "id": "a1-bitte",
+        "translation": "bitte"
+      }
+    },
+    {
+      "de": "bitte",
+      "lv": "lūdzu study",
+      "study": {
+        "id": "a1-bitte-study",
+        "translation": "bitte study"
+      }
+    }
+  ],
+  "findings": {
+    "leafNative": { "cardId": "ab", "objectIndex": 0, "fieldPath": "lv", "expectedStatus": "MAPPED_UNIQUE" },
+    "containerComparison": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.comparison", "expectedStatus": "MAPPED_EXPLICIT_SET" },
+    "wildcardExamples": { "cardId": "klein", "objectIndex": 2, "fieldPath": "study.examples[].lv", "expectedStatus": "MAPPED_EXPLICIT_SET" },
+    "wildcardComparisonExample": { "cardId": "Eis", "objectIndex": 3, "fieldPath": "study.comparison[].example", "expectedStatus": "MAPPED_EXPLICIT_SET" },
+    "wildcardUnknownLeaf": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.examples[].unknown", "expectedStatus": "GROUP_REVIEW_REQUIRED" },
+    "deExamples": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.examples[].de", "expectedStatus": "GROUP_REVIEW_REQUIRED", "expectedReason": "DE_SOURCE_FIELD_NOT_EXPORTABLE" },
+    "deComparison": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.comparison[].de", "expectedStatus": "GROUP_REVIEW_REQUIRED", "expectedReason": "DE_SOURCE_FIELD_NOT_EXPORTABLE" },
+    "deTitle": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.title.de", "expectedStatus": "GROUP_REVIEW_REQUIRED", "expectedReason": "DE_SOURCE_FIELD_NOT_EXPORTABLE" },
+    "unknownDe": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.unknown.de", "expectedStatus": "GROUP_REVIEW_REQUIRED", "expectedReason": "DE_SOURCE_FIELD_NOT_EXPORTABLE" },
+    "sectionAccents": { "cardId": "klein", "objectIndex": 2, "fieldPath": "study.sectionAccents.examples", "expectedStatus": "GROUP_REVIEW_REQUIRED" },
+    "stringExplanation": { "cardId": "Liter", "objectIndex": 1, "fieldPath": "study.explanation", "expectedStatus": "GROUP_REVIEW_REQUIRED" },
+    "partialCompound": { "cardId": "ab", "objectIndex": 0, "fieldPath": "lv; study.sectionAccents", "expectedStatus": "PARTIAL_MAPPING_REVIEW_REQUIRED" },
+    "unknownCardId": { "cardId": "definitely-wrong", "objectIndex": 0, "fieldPath": "lv", "expectedStatus": "AMBIGUOUS" },
+    "unknownCardIdProvenance": { "cardId": "unknown", "objectIndex": 0, "fieldPath": "lv", "expectedStatus": "MAPPED_UNIQUE", "expectedIdentityProof": "OBJECT_INDEX_ONLY" },
+    "prefixBoundaryTip": { "cardId": "tipExtra", "objectIndex": 4, "fieldPath": "study.tip", "expectedStatus": "MAPPED_UNIQUE" },
+    "aliasCollisionBitte93": { "cardId": "bitte", "objectIndex": 5, "fieldPath": "lv", "expectedStatus": "MAPPED_UNIQUE", "expectedIdentityProof": "DUPLICATE_CARD_ID_DISAMBIGUATED_BY_OBJECT_INDEX" },
+    "aliasCollisionBitte94": { "cardId": "bitte", "objectIndex": 6, "fieldPath": "lv", "expectedStatus": "MAPPED_UNIQUE", "expectedIdentityProof": "DUPLICATE_CARD_ID_DISAMBIGUATED_BY_OBJECT_INDEX" },
+    "aliasCollisionWrongIndex": { "cardId": "bitte", "objectIndex": 0, "fieldPath": "lv", "expectedStatus": "AMBIGUOUS", "expectedReason": "CARD_ID_OBJECT_INDEX_MISMATCH" },
+    "aliasCollisionNormalizedOnly": { "cardId": "BITTE", "objectIndex": 5, "fieldPath": "lv", "expectedStatus": "AMBIGUOUS", "expectedReason": "CARD_ID_ALIAS_COLLISION" },
+    "aliasCollisionWrongSourceFile": { "cardId": "bitte", "objectIndex": 5, "fieldPath": "lv", "productionFile": "wrong.js", "expectedStatus": "UNMATCHED", "expectedReason": "SOURCE_FILE_MISMATCH" },
+    "documentedTipTextAlias": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.tip.text", "expectedStatus": "MAPPED_UNIQUE" },
+    "unknownQuestionText": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.question.text", "expectedStatus": "GROUP_REVIEW_REQUIRED" },
+    "unknownStudyText": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.unknown.text", "expectedStatus": "GROUP_REVIEW_REQUIRED" },
+    "unknownComparisonText": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.comparison[].text", "expectedStatus": "GROUP_REVIEW_REQUIRED" }
+  }
+}
