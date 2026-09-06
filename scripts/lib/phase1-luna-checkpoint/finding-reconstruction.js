@@ -150,7 +150,14 @@ function reconstructFindingsFromCheckpoint(checkpoint, scope) {
     checkpoint.productionFile ||
     null;
 
-  const findings = normalizeLunaItemsToFindings(enrichedItems, scope, { productionFile });
+  const findings = normalizeLunaItemsToFindings(enrichedItems, scope, { productionFile }).map((finding) => ({
+    ...finding,
+    checkpointProvenance: {
+      scopeId: checkpoint.scopeId,
+      batchId: checkpoint.batchId,
+      batchIndex: checkpoint.batchIndex ?? null,
+    },
+  }));
   return {
     findings,
     identityStatus: "RECONSTRUCTED",

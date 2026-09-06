@@ -142,9 +142,15 @@ function buildOwnerMappingMismatchError(finding, mapping, field, actual) {
   return err;
 }
 
+function expectedAppliedCategory(mapping) {
+  const entry = normalizeMappingEntry(mapping);
+  return String(mapping.next.category ?? entry.currentVariants[0]?.category ?? "");
+}
+
 function matchesMappingNext(finding, mapping) {
   return (
     String(finding.severity ?? "") === String(mapping.next.severity ?? "") &&
+    String(finding.category ?? "") === expectedAppliedCategory(mapping) &&
     String(finding.classificationStatus ?? "") === String(mapping.next.classificationStatus ?? "")
   );
 }
@@ -237,4 +243,6 @@ module.exports = {
   findMatchingCurrentVariant,
   applyOwnerSeverityMappings,
   buildOwnerMappingMismatchError,
+  expectedAppliedCategory,
+  matchesMappingNext,
 };

@@ -241,6 +241,69 @@ function testStaleLastErrorFinalizeRun() {
   constants.RUNS_ROOT = previousRoot;
 }
 
+function testExactDuplicateProof() {
+  const scope = { scopeId: "g2/a1/bg", group: "g2", dataset: "a1", lang: "bg" };
+  const primary = reconstructFindingsFromCheckpoint(sampleCheckpoint(), scope).findings[0];
+  const duplicate = {
+    ...primary,
+    checkpointProvenance: { scopeId: "g2/a1/bg", batchId: "batch-1-dup", batchIndex: 1 },
+  };
+  const dedup = deduplicateFindings([primary, duplicate]);
+  assert(dedup.exactDuplicatesCollapsedCount === 1, "exact duplicate collapsed with proof");
+  assert(dedup.exactDuplicatesCollapsed[0].reason === "EXACT_STABLE_ID_DUPLICATE", "proof reason");
+  assert(dedup.exactDuplicatesCollapsed[0].findingStableId === primary.findingStableId, "proof stable id");
+  assert(dedup.findings.length === 1, "one canonical finding remains");
+}
+
+function testOwnerMappingWrongCategoryAlreadyApplied() {
+  const {
+    OWNER_SEVERITY_MAPPINGS,
+    applyOwnerSeverityMappings,
+    expectedAppliedCategory,
+  } = require("./lib/content-discovery/phase1-owner-severity-mapping");
+
+  for (const entry of OWNER_SEVERITY_MAPPINGS) {
+    const applied = applyOwnerSeverityMappings([
+      {
+        findingStableId: entry.findingId,
+        severity: entry.next.severity,
+        category: expectedAppliedCategory(entry),
+        classificationStatus: entry.next.classificationStatus,
+        source: "gpt-5.6-luna",
+      },
+    ]);
+    assert(applied.ownerMappingAlreadyApplied === 1, `already applied baseline ${entry.findingId}`);
+
+    const wrongCategory = {
+      ...applied.findings[0],
+      category: "GRAMMAR",
+    };
+    const remapped = applyOwnerSeverityMappings([wrongCategory]);
+    assert(remapped.mappingErrors.length === 1, `wrong category mismatch ${entry.findingId}`);
+    assert(remapped.ownerMappingAlreadyApplied === 0, `no already-applied on wrong category ${entry.findingId}`);
+  }
+}
+
+function testStagedBundleIdentityMismatch() {
+  const {
+    hashMatrixForIdentity,
+    assertFinalizedBundleIdentity,
+  } = require("./run-phase1-exit-matrix");
+  const matrix = { summary: [{ scopeId: "x" }], findings: [], totals: {} };
+  const sha = hashMatrixForIdentity(matrix);
+  let threw = false;
+  try {
+    assertFinalizedBundleIdentity({
+      matrix,
+      matrixPath: "/tmp/test-matrix.json",
+      expectedMatrixSha256: `${sha.slice(0, -1)}0`,
+    });
+  } catch (error) {
+    threw = error.code === "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
+  }
+  assert(threw, "staged bundle matrix sha mismatch fail-closed");
+}
+
 function testOwnerPrepCoverageWithGlobalIds() {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-prep-global-"));
   const findings = assignGlobalAuditIds([
@@ -279,17 +342,26 @@ function testDryRunIfRequested() {
   assert(result.stats?.conflictsAfter === 0, "dedup conflicts after");
   assert(result.stats?.idxUnknownAfter === 0, "idx:? after zero");
   assert(result.f1?.pass, "F1 pass");
-  assert(result.classification === "PHASE1_REPORT_FINALIZATION_REPAIR_READY_FOR_OWNER_REVIEW", "classification");
+  assert(result.classification === "PHASE1_REPORT_FINALIZATION_OWNER_REVIEW_PASS", "classification");
+  assert(result.totalRealCalls === 15139, "historical realCalls preserved");
+  assert(result.totalRetries === 763, "historical retries preserved");
+  assert(result.finalizationLunaCalls === 0, "finalization luna calls zero");
+  assert(result.stats.equations.validatedEqualsOwnerPrepRows, "validated = owner prep rows");
+  assert(result.stats.equations.validatedPlusExcludedEqualsFinal, "validated + excluded = final");
+  assert(result.bundleIdentity?.match, "staged bundle identity match");
 }
 
 function main() {
   testFindingIdentityReconstruction();
   testUnrecoverableIdentity();
   testDedupAfterIdentityRestore();
+  testExactDuplicateProof();
   testGlobalAuditIdDeterminism();
   testOwnerMappingIdempotence();
+  testOwnerMappingWrongCategoryAlreadyApplied();
   testBuildExitPayloadOptions();
   testStaleLastErrorFinalizeRun();
+  testStagedBundleIdentityMismatch();
   testOwnerPrepCoverageWithGlobalIds();
   testDryRunIfRequested();
   console.log(`Phase 1 report finalization tests: ${testsRun - testsFailed}/${testsRun} passed`);

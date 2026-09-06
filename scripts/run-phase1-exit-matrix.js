@@ -8,6 +8,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const crypto = require("crypto");
 const { ROOT } = require("./lib/audit-common");
 const { runBaselineGate } = require("./lib/content-discovery/baseline-gate");
 const { gitProductionDiffAgainstBaseline } = require("./lib/content-discovery/git-baseline");
@@ -19,10 +20,75 @@ const { evaluateOwnerPrepCoverage } = require("./lib/content-discovery/phase1-ow
 
 const MATRIX_PATH = path.join(ROOT, "reports", "phase1-discovery-matrix.json");
 const SCOPE_INVENTORY_PATH = path.join(ROOT, "reports", "phase1-scope-inventory.json");
+const MATRIX_TIMESTAMP_FIELDS = ["generatedAt", "updatedAt", "startedAt", "endedAt", "heartbeatAt"];
 
 function loadJson(filePath) {
   if (!fs.existsSync(filePath)) return null;
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function hashMatrixForIdentity(matrix) {
+  const clone = JSON.parse(JSON.stringify(matrix || {}));
+  for (const field of MATRIX_TIMESTAMP_FIELDS) {
+    delete clone[field];
+  }
+  return crypto.createHash("sha256").update(JSON.stringify(clone)).digest("hex");
+}
+
+function computeOwnerPrepSourceHash(validatedFindings = []) {
+  return crypto
+    .createHash("sha256")
+    .update(JSON.stringify(validatedFindings.map((f) => f.auditId).sort()))
+    .digest("hex");
+}
+
+function assertFinalizedBundleIdentity({
+  matrix,
+  matrixPath,
+  ownerPrepOutDir,
+  expectedMatrixSha256,
+  expectedOwnerPrepSourceHash,
+}) {
+  const actualMatrixSha256 = hashMatrixForIdentity(matrix);
+  if (expectedMatrixSha256 && actualMatrixSha256 !== expectedMatrixSha256) {
+    const error = new Error(
+      `FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH: matrixSha256 expected ${expectedMatrixSha256}, got ${actualMatrixSha256} (${matrixPath})`,
+    );
+    error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
+    error.field = "matrixSha256";
+    throw error;
+  }
+
+  const validatedFindings = (matrix.findings || []).filter((f) =>
+    ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
+  );
+  const actualOwnerPrepSourceHash = computeOwnerPrepSourceHash(validatedFindings);
+  if (expectedOwnerPrepSourceHash && actualOwnerPrepSourceHash !== expectedOwnerPrepSourceHash) {
+    const error = new Error(
+      `FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH: ownerPrepSourceHash expected ${expectedOwnerPrepSourceHash}, got ${actualOwnerPrepSourceHash}`,
+    );
+    error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
+    error.field = "ownerPrepSourceHash";
+    throw error;
+  }
+
+  if (ownerPrepOutDir) {
+    const coverage = evaluateOwnerPrepCoverage({ matrix, ownerPrepOutDir });
+    if (!coverage.SOURCE_HASH_MATCH) {
+      const error = new Error(
+        `FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH: OWNER-PREP source hash mismatch in ${ownerPrepOutDir}`,
+      );
+      error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
+      error.field = "ownerPrepFiles";
+      throw error;
+    }
+  }
+
+  return {
+    matrixSha256: actualMatrixSha256,
+    ownerPrepSourceHash: actualOwnerPrepSourceHash,
+    match: true,
+  };
 }
 
 function gateStatus(pass) {
@@ -249,18 +315,42 @@ function writeExitReports(exitPayload) {
 }
 
 function runPhase1ExitMatrix(options = {}) {
-  const baseline = runBaselineGate();
-  const matrix = loadJson(MATRIX_PATH) || { summary: [], findings: [], totals: {} };
+  const {
+    matrixPath = MATRIX_PATH,
+    ownerPrepOutDir = options.ownerPrepOutDir,
+    expectedMatrixSha256 = options.expectedMatrixSha256,
+    expectedOwnerPrepSourceHash = options.expectedOwnerPrepSourceHash,
+    writeReports = options.writeReports !== false,
+    withLuna = options.withLuna,
+  } = options;
+
+  const baseline = runBaselineGate({ writeReports: false });
+  const matrix = loadJson(matrixPath) || { summary: [], findings: [], totals: {} };
+  if (!matrix.findings && !matrix.summary?.length) {
+    const error = new Error(`FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH: matrix missing at ${matrixPath}`);
+    error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_MISMATCH";
+    error.field = "matrixPath";
+    throw error;
+  }
+
+  const bundleIdentity = assertFinalizedBundleIdentity({
+    matrix,
+    matrixPath,
+    ownerPrepOutDir,
+    expectedMatrixSha256,
+    expectedOwnerPrepSourceHash,
+  });
+
   const productionDiff = gitProductionDiffAgainstBaseline(baseline.originMainSha);
   const evaluation = evaluateF1Gates({
     matrix,
     baseline,
     productionDiff,
-    options,
+    options: { withLuna, ownerPrepOutDir, lunaFixture: options.lunaFixture },
   });
   const exitPayload = buildExitPayload({ matrix, baseline, productionDiff, evaluation, options });
-  const reports = writeExitReports(exitPayload);
-  return { exitPayload, reports, evaluation, baseline, productionDiff };
+  const reports = writeReports ? writeExitReports(exitPayload) : null;
+  return { exitPayload, reports, evaluation, baseline, productionDiff, bundleIdentity, matrixPath, ownerPrepOutDir };
 }
 
 function main() {
@@ -291,6 +381,9 @@ module.exports = {
   buildExitPayload,
   runPhase1ExitMatrix,
   writeExitReports,
+  hashMatrixForIdentity,
+  computeOwnerPrepSourceHash,
+  assertFinalizedBundleIdentity,
   MATRIX_PATH,
   SCOPE_INVENTORY_PATH,
 };

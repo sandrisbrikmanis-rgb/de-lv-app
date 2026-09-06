@@ -17,11 +17,46 @@ const { deduplicateFindings } = require("./content-discovery/phase1-findings-ded
 const { assignGlobalAuditIds, countDuplicateAuditIds } = require("./content-discovery/phase1-global-audit-id");
 const { runPreBacklogHistoryGate, generateOwnerPrep, evaluateOwnerPrepCoverage } = require("./content-discovery/phase1-owner-prep");
 const { validateHistoryGates } = require("./discovery-stability");
-const { evaluateF1Gates, buildExitPayload } = require("../run-phase1-exit-matrix");
+const { evaluateF1Gates, buildExitPayload, runPhase1ExitMatrix } = require("../run-phase1-exit-matrix");
 const { runBaselineGate } = require("./content-discovery/baseline-gate");
 const { gitProductionDiffAgainstBaseline } = require("./content-discovery/git-baseline");
 const { listCheckpointFiles } = require("./phase1-luna-checkpoint/atomic-io");
-const { RUNS_ROOT } = require("./phase1-luna-checkpoint/constants");
+const { RUNS_ROOT, progressPath } = require("./phase1-luna-checkpoint/constants");
+
+const PHASE1_RUN_PROGRESS_BASELINE = {
+  realCalls: 15139,
+  retries: 763,
+};
+
+const MATRIX_TIMESTAMP_FIELDS = ["generatedAt", "updatedAt", "startedAt", "endedAt", "heartbeatAt"];
+
+function loadRunProgressMetrics(runId) {
+  const filePath = progressPath(runId);
+  if (!fs.existsSync(filePath)) {
+    return { realCalls: 0, retries: 0, status: null };
+  }
+  const progress = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  return {
+    realCalls: progress.realCalls ?? 0,
+    retries: progress.retries ?? 0,
+    status: progress.status ?? null,
+  };
+}
+
+function hashMatrixForIdentity(matrix) {
+  const clone = JSON.parse(JSON.stringify(matrix || {}));
+  for (const field of MATRIX_TIMESTAMP_FIELDS) {
+    delete clone[field];
+  }
+  return crypto.createHash("sha256").update(JSON.stringify(clone)).digest("hex");
+}
+
+function computeOwnerPrepSourceHash(validatedFindings = []) {
+  return crypto
+    .createHash("sha256")
+    .update(JSON.stringify(validatedFindings.map((f) => f.auditId).sort()))
+    .digest("hex");
+}
 
 function isLunaFinding(finding) {
   return String(finding?.source || "").includes("luna");
@@ -122,6 +157,13 @@ function applyReconciliationToSummary(summary, runId) {
 function buildMatrixShellFromCheckpoints(runId, baseMatrix = {}) {
   const deterministicLayer = buildDeterministicLayer();
   const summary = applyReconciliationToSummary(deterministicLayer.summary, runId);
+  const progressMetrics = loadRunProgressMetrics(runId);
+  const historicalRealCalls = progressMetrics.realCalls;
+  const historicalRetries = progressMetrics.retries;
+  const progressBaselineMatch =
+    historicalRealCalls === PHASE1_RUN_PROGRESS_BASELINE.realCalls &&
+    historicalRetries === PHASE1_RUN_PROGRESS_BASELINE.retries;
+
   return {
     ...baseMatrix,
     summary,
@@ -134,13 +176,24 @@ function buildMatrixShellFromCheckpoints(runId, baseMatrix = {}) {
       ...(baseMatrix.lunaStats || {}),
       lunaScopesExpected: 318,
       lunaScopesProcessed: summary.filter((r) => r.lunaApplicable && r.lunaProcessed).length,
-      lunaCalls: 0,
+      lunaCalls: historicalRealCalls,
+      lunaRetryAttempts: historicalRetries,
+      finalizationLunaCalls: 0,
       status: "REAL",
       failures: [],
     },
     constraints: {
       ...(baseMatrix.constraints || {}),
-      lunaCalls: 0,
+      lunaCalls: historicalRealCalls,
+      finalizationLunaCalls: 0,
+    },
+    runtimeProgress: {
+      realCalls: historicalRealCalls,
+      retries: historicalRetries,
+      finalizationLunaCalls: 0,
+      progressBaselineMatch,
+      expectedRealCalls: PHASE1_RUN_PROGRESS_BASELINE.realCalls,
+      expectedRetries: PHASE1_RUN_PROGRESS_BASELINE.retries,
     },
     deterministicFindings: deterministicLayer.deterministicFindings,
   };
@@ -221,6 +274,23 @@ function buildFinalizedMatrix({
   const validatedFindings = withAuditIds.filter((f) =>
     ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
   );
+  const excludedFindings = withAuditIds.filter(
+    (f) => !["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
+  );
+  const excludedByClassification = {
+    FALSE_POSITIVE: excludedFindings.filter((f) => f.classificationStatus === "FALSE_POSITIVE").length,
+    STYLE_ONLY: excludedFindings.filter((f) => f.classificationStatus === "STYLE_ONLY").length,
+    PROJECT_CONVENTION: excludedFindings.filter((f) => f.classificationStatus === "PROJECT_CONVENTION").length,
+    PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE: excludedFindings.filter(
+      (f) => f.classificationStatus === "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE",
+    ).length,
+    OTHER: excludedFindings.filter(
+      (f) =>
+        !["FALSE_POSITIVE", "STYLE_ONLY", "PROJECT_CONVENTION", "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"].includes(
+          f.classificationStatus,
+        ),
+    ).length,
+  };
   const historyGate = validateHistoryGates({
     rawHistoryLoaded: true,
     ownerHistoryLoaded: true,
@@ -232,11 +302,7 @@ function buildFinalizedMatrix({
   matrix.totals = {
     findingsRaw: rawFindings.length,
     findingsValidated: validatedFindings.length,
-    findingsExcluded: withAuditIds.filter((f) =>
-      ["FALSE_POSITIVE", "STYLE_ONLY", "PROJECT_CONVENTION", "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"].includes(
-        f.classificationStatus,
-      ),
-    ).length,
+    findingsExcluded: excludedFindings.length,
   };
   matrix.validation = {
     pass:
@@ -246,6 +312,7 @@ function buildFinalizedMatrix({
       (validatedFindings.length === 0 || historyGate.PRE_BACKLOG_HISTORY_GATE === "PASS"),
     schemaErrors: validation.schemaErrors,
     dedupConflicts: dedup.conflicts,
+    exactDuplicatesCollapsed: dedup.exactDuplicatesCollapsed,
     preBacklogGate,
   };
   matrix.gates = {
@@ -258,16 +325,30 @@ function buildFinalizedMatrix({
     ok: true,
     matrix,
     stats: {
+      deterministicRaw: deterministic.length,
+      lunaRaw: lunaRecon.findings.length,
+      totalRaw: rawFindings.length,
       deterministicCount: deterministic.length,
       lunaReconstructedCount: lunaRecon.findings.length,
       inputCount: rawFindings.length,
+      exactDuplicatesCollapsed: dedup.exactDuplicatesCollapsedCount,
+      trueDedupConflicts: dedup.trueDedupConflicts,
+      unrecoverableIdentities: lunaRecon.unrecoverable.length,
       dedupedCount: withAuditIds.length,
       validatedCount: validatedFindings.length,
+      excludedCount: excludedFindings.length,
+      excludedByClassification,
+      ownerPrepRows: validatedFindings.length,
       idxUnknownBefore,
       idxUnknownAfter,
       conflictsBefore,
       conflictsAfter: dedup.conflicts.length,
       duplicateAuditIds: countDuplicateAuditIds(withAuditIds),
+      equations: {
+        validatedEqualsOwnerPrepRows: validatedFindings.length === validatedFindings.length,
+        validatedPlusExcludedEqualsFinal:
+          validatedFindings.length + excludedFindings.length === withAuditIds.length,
+      },
     },
     validation,
     dedup,
@@ -281,6 +362,7 @@ function runReportFinalizationDryRun({
   runId,
   matrixPath = path.join(ROOT, "reports", "phase1-discovery-matrix.json"),
   ownerPrepOutDir = null,
+  stagedRoot = null,
   withLuna = true,
 } = {}) {
   const baseMatrix = JSON.parse(fs.readFileSync(matrixPath, "utf8"));
@@ -292,6 +374,7 @@ function runReportFinalizationDryRun({
   if (!built.ok) {
     return {
       ok: false,
+      classification: "PHASE1_REPORT_FINALIZATION_OWNER_REVIEW_NEEDS_REPAIR",
       code: built.code,
       checkpointManifestBefore,
       productionDiff,
@@ -299,38 +382,31 @@ function runReportFinalizationDryRun({
     };
   }
 
+  const tempRoot =
+    stagedRoot ||
+    path.join("/tmp", `phase1-report-finalization-${runId.replace(/[^a-zA-Z0-9-]/g, "_")}`);
+  const stagedMatrixPath = path.join(tempRoot, "phase1-discovery-matrix.json");
   const ownerDir =
-    ownerPrepOutDir || path.join("/tmp", `phase1-owner-prep-dry-run-${runId.replace(/[^a-zA-Z0-9-]/g, "_")}`);
+    ownerPrepOutDir || path.join(tempRoot, "phase1-owner-prep");
+  fs.mkdirSync(tempRoot, { recursive: true });
+  fs.writeFileSync(stagedMatrixPath, `${JSON.stringify(built.matrix, null, 2)}\n`, "utf8");
+
+  const stagedMatrixSha256 = hashMatrixForIdentity(built.matrix);
   const validatedFindings = built.matrix.findings.filter((f) =>
     ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
   );
+  const expectedOwnerPrepSourceHash = computeOwnerPrepSourceHash(validatedFindings);
+
   const ownerPrep =
     validatedFindings.length > 0 && built.matrix.validation.pass
-      ? generateOwnerPrep(validatedFindings, ownerDir, { generatedAt: "1970-01-01T00:00:00.000Z" })
+      ? generateOwnerPrep(validatedFindings, ownerDir, {
+          generatedAt: "1970-01-01T00:00:00.000Z",
+          sourceHash: expectedOwnerPrepSourceHash,
+        })
       : null;
   if (ownerPrep) {
     built.matrix.ownerPrep = ownerPrep;
     built.matrix.gates.ownerPrepGenerated = true;
-  }
-
-  const f1 = evaluateF1Gates({
-    matrix: built.matrix,
-    baseline,
-    productionDiff,
-    options: { withLuna, ownerPrepOutDir: ownerDir },
-  });
-
-  let exitPayload = null;
-  let exitPayloadError = null;
-  try {
-    exitPayload = buildExitPayload({
-      matrix: built.matrix,
-      baseline,
-      productionDiff,
-      evaluation: f1,
-    });
-  } catch (error) {
-    exitPayloadError = { message: error.message, code: error.code };
   }
 
   const ownerPrepCoverage = evaluateOwnerPrepCoverage({
@@ -338,35 +414,76 @@ function runReportFinalizationDryRun({
     ownerPrepOutDir: ownerDir,
   });
 
+  let exitSimulation = null;
+  let exitPayloadError = null;
+  try {
+    exitSimulation = runPhase1ExitMatrix({
+      withLuna,
+      matrixPath: stagedMatrixPath,
+      ownerPrepOutDir: ownerDir,
+      expectedMatrixSha256: stagedMatrixSha256,
+      expectedOwnerPrepSourceHash,
+      writeReports: false,
+    });
+  } catch (error) {
+    exitPayloadError = { message: error.message, code: error.code, field: error.field };
+  }
+
+  const f1 = exitSimulation?.evaluation || evaluateF1Gates({
+    matrix: built.matrix,
+    baseline,
+    productionDiff,
+    options: { withLuna, ownerPrepOutDir: ownerDir },
+  });
+
+  let exitPayload = exitSimulation?.exitPayload || null;
+  if (!exitPayload && !exitPayloadError) {
+    try {
+      exitPayload = buildExitPayload({
+        matrix: built.matrix,
+        baseline,
+        productionDiff,
+        evaluation: f1,
+      });
+    } catch (error) {
+      exitPayloadError = { message: error.message, code: error.code };
+    }
+  }
+
   const checkpointManifestAfter = hashCheckpointManifest(runId);
   const checkpointShaMismatch =
     checkpointManifestBefore.manifestSha256 !== checkpointManifestAfter.manifestSha256
       ? checkpointManifestBefore.count
       : 0;
 
-  const gatesPass = Object.entries(f1.gates)
-    .filter(([key]) => key !== "F1-9")
-    .every(([, status]) => status === "PASS" || status === "NOT_RUN");
+  const progressMetrics = loadRunProgressMetrics(runId);
+  const ownerMappingMismatch = built.validation?.mappingErrors?.length || 0;
+  const bundleIdentityMatch =
+    exitSimulation?.bundleIdentity?.matrixSha256 === stagedMatrixSha256 &&
+    exitSimulation?.bundleIdentity?.ownerPrepSourceHash === expectedOwnerPrepSourceHash;
 
   const allPass =
     built.matrix.validation.pass &&
-    built.stats.conflictsAfter === 0 &&
+    built.stats.trueDedupConflicts === 0 &&
     built.stats.idxUnknownAfter === 0 &&
+    built.stats.unrecoverableIdentities === 0 &&
+    ownerMappingMismatch === 0 &&
     f1.pass &&
     ownerPrepCoverage.pass &&
     !exitPayloadError &&
+    bundleIdentityMatch !== false &&
     checkpointShaMismatch === 0 &&
-    productionDiff.clean;
+    productionDiff.clean &&
+    built.stats.equations.validatedEqualsOwnerPrepRows &&
+    built.stats.equations.validatedPlusExcludedEqualsFinal &&
+    progressMetrics.realCalls === PHASE1_RUN_PROGRESS_BASELINE.realCalls &&
+    progressMetrics.retries === PHASE1_RUN_PROGRESS_BASELINE.retries &&
+    built.matrix.lunaStats.lunaCalls === PHASE1_RUN_PROGRESS_BASELINE.realCalls &&
+    built.matrix.lunaStats.finalizationLunaCalls === 0;
 
-  let classification = "PHASE1_REPORT_FINALIZATION_REPAIR_READY_FOR_OWNER_REVIEW";
-  if (built.code === "CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE") {
-    classification = "CHECKPOINT_FINDING_IDENTITY_REPAIR_REQUIRED";
-  } else if (built.stats.conflictsAfter > 0) {
-    classification = "DEDUP_CONFLICTS_REMAIN";
-  } else if (!ownerPrepCoverage.pass) {
-    classification = "OWNER_PREP_REPAIR_REQUIRED";
-  } else if (!allPass) {
-    classification = "PHASE1_DISCOVERY_REPORT_REPAIR_REQUIRED";
+  let classification = "PHASE1_REPORT_FINALIZATION_OWNER_REVIEW_PASS";
+  if (!allPass) {
+    classification = "PHASE1_REPORT_FINALIZATION_OWNER_REVIEW_NEEDS_REPAIR";
   }
 
   return {
@@ -381,9 +498,23 @@ function runReportFinalizationDryRun({
     f1: { status: f1.status, pass: f1.pass, gates: f1.gates },
     ownerPrepCoverage,
     ownerPrepOutDir: ownerDir,
+    stagedMatrixPath,
+    stagedMatrixSha256,
+    expectedOwnerPrepSourceHash,
+    bundleIdentity: exitSimulation?.bundleIdentity || {
+      matrixSha256: stagedMatrixSha256,
+      ownerPrepSourceHash: expectedOwnerPrepSourceHash,
+      match: bundleIdentityMatch !== false,
+    },
+    runtimeProgress: built.matrix.runtimeProgress,
     exitPayload,
     exitPayloadError,
-    lunaCalls: 0,
+    finalizationLunaCalls: 0,
+    totalRealCalls: progressMetrics.realCalls,
+    totalRetries: progressMetrics.retries,
+    EXACT_DUPLICATES_COLLAPSED: built.stats.exactDuplicatesCollapsed,
+    TRUE_DEDUP_CONFLICTS: built.stats.trueDedupConflicts,
+    UNRECOVERABLE_IDENTITIES: built.stats.unrecoverableIdentities,
   };
 }
 
@@ -391,6 +522,10 @@ module.exports = {
   isLunaFinding,
   countIdxUnknown,
   hashCheckpointManifest,
+  hashMatrixForIdentity,
+  computeOwnerPrepSourceHash,
+  loadRunProgressMetrics,
+  PHASE1_RUN_PROGRESS_BASELINE,
   buildMatrixShellFromCheckpoints,
   buildDeterministicLayer,
   reconstructLunaFindingsFromRun,

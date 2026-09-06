@@ -302,6 +302,21 @@ function testFixtureArtifactMatchesCode() {
   }
 }
 
+function testAlreadyAppliedWrongCategoryFailsForAllFive() {
+  for (const entry of OWNER_SEVERITY_MAPPINGS) {
+    const alreadyApplied = {
+      findingStableId: entry.findingId,
+      severity: entry.next.severity,
+      category: "GRAMMAR",
+      classificationStatus: entry.next.classificationStatus,
+      source: "gpt-5.6-luna",
+    };
+    const mapped = applyOwnerSeverityMappings([alreadyApplied]);
+    assert(mapped.mappingErrors.length === 1, `13: wrong category on already-applied ${entry.findingId}`);
+    assert(mapped.ownerMappingAlreadyApplied === 0, `13: not already-applied with wrong category ${entry.findingId}`);
+  }
+}
+
 function main() {
   testFiveMappingsPass();
   testPreviouslySeenVariantPasses();
@@ -316,6 +331,7 @@ function main() {
   testMatrixSchemaErrorsZeroAfterMapping();
   testCheckpointFilesByteIdentical();
   testFixtureArtifactMatchesCode();
+  testAlreadyAppliedWrongCategoryFailsForAllFive();
 
   console.log(`\nPhase 1 OWNER severity mapping tests: ${testsRun - testsFailed}/${testsRun} passed`);
   if (testsFailed > 0) process.exit(1);

@@ -10,10 +10,15 @@ function normalizeFieldPath(fieldPath) {
     .replace(/\s+/g, " ");
 }
 
+function findingProvenance(finding) {
+  return finding.checkpointProvenance || finding.sourceProvenance || null;
+}
+
 function deduplicateFindings(findings = [], options = {}) {
   const normalized = findings.map((f, i) => normalizeFinding(f, i));
   const byDedupKey = new Map();
   const conflicts = [];
+  const exactDuplicatesCollapsed = [];
   const merged = [];
 
   for (const finding of normalized) {
@@ -56,12 +61,20 @@ function deduplicateFindings(findings = [], options = {}) {
       existing.classificationStatus === "VALIDATED_REAL_FINDING"
     ) {
       if (finding.findingStableId === existing.findingStableId) {
+        exactDuplicatesCollapsed.push({
+          findingStableId: finding.findingStableId,
+          dedupKey: key,
+          primarySource: findingProvenance(existing),
+          duplicateSource: findingProvenance(finding),
+          reason: "EXACT_STABLE_ID_DUPLICATE",
+        });
         continue;
       }
       conflicts.push({
         dedupKey: key,
         findingA: existing.findingStableId,
         findingB: finding.findingStableId,
+        type: "TRUE_DEDUP_CONFLICT",
       });
       continue;
     }
@@ -92,6 +105,9 @@ function deduplicateFindings(findings = [], options = {}) {
   return {
     pass,
     conflicts,
+    exactDuplicatesCollapsed,
+    exactDuplicatesCollapsedCount: exactDuplicatesCollapsed.length,
+    trueDedupConflicts: conflicts.filter((c) => c.type === "TRUE_DEDUP_CONFLICT").length,
     findings: semantic.findings,
     dedupedCount: semantic.findings.length,
     inputCount: normalized.length,
@@ -103,4 +119,5 @@ function deduplicateFindings(findings = [], options = {}) {
 module.exports = {
   normalizeFieldPath,
   deduplicateFindings,
+  findingProvenance,
 };

@@ -22,7 +22,6 @@ function reconstructFromCheckpoints(runId, scopeIds, scopeById = null) {
 
   const seenBatchIds = new Set();
   const seenObjectKeys = new Set();
-  const seenFindingKeys = new Set();
 
   for (const scopeId of scopeIds) {
     const checkpoints = listScopeCheckpoints(runId, scopeId).filter((cp) => cp.status === "PASS");
@@ -60,12 +59,6 @@ function reconstructFromCheckpoints(runId, scopeIds, scopeById = null) {
       throw new Error(`CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE: ${cp.batchId}`);
     }
     for (const finding of checkpointFindings.findings || []) {
-      const fKey = finding.findingStableId || finding.dedupKey || finding.auditId;
-      if (seenFindingKeys.has(fKey)) {
-        stats.duplicateFindings += 1;
-        continue;
-      }
-      seenFindingKeys.add(fKey);
       stats.findings.push(finding);
     }
   }
