@@ -44,7 +44,17 @@
     "releaseId": 383492355,
     "assetId": 546849008,
     "targetCommitish": "c88f06a602cd3d1a7396108b9b04ab1454228b1f",
-    "draft": true,
-    "published": false
+    "currentDraft": true,
+    "currentlyPublished": false,
+    "everPublished": true,
+    "publishedAtRecorded": "2026-09-06T06:57:42Z",
+    "redraftedAt": "2026-09-06T06:57:59Z",
+    "releaseByTagCurrentlyAccessible": false,
+    "releaseByTagApiStatus": 404,
+    "publicTagRefExists": true,
+    "tagTargetSha": "c88f06a602cd3d1a7396108b9b04ab1454228b1f",
+    "publicationIncident": "TRANSIENT_RELEASE_PUBLICATION_DURING_TARGET_UPDATE",
+    "assetBytes": 24647639,
+    "assetSha256": "ce00255490e797271039f2fb2a98670707198ffd4c8174bf3296c22f409b1cb2"
   }
 }
