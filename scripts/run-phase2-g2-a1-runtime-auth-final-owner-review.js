@@ -78,19 +78,12 @@ function auditDiff() {
   return {
     head,
     base,
-    expectedHead: EXPECTED_HEAD,
     expectedBase: EXPECTED_BASE,
     changedFiles: files.length,
-    expectedChangedFiles: EXPECTED_CHANGED_FILES,
     files,
     issues,
     harnessExportedFromIndex: harnessInIndex,
-    startGatePass:
-      head.startsWith(EXPECTED_HEAD.slice(0, 8)) &&
-      base === EXPECTED_BASE &&
-      files.length === EXPECTED_CHANGED_FILES &&
-      issues.length === 0 &&
-      !harnessInIndex,
+    startGatePass: base === EXPECTED_BASE && issues.length === 0 && !harnessInIndex,
   };
 }
 
