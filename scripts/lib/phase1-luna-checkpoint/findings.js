@@ -1,6 +1,12 @@
 #!/usr/bin/env node
 "use strict";
 
+const ALLOWED_SEVERITY = new Set(["CRITICAL", "HIGH", "MEDIUM", "LOW", "INFO"]);
+
+function normalizeSeverity(value) {
+  const severity = String(value || "MEDIUM").toUpperCase();
+  return ALLOWED_SEVERITY.has(severity) ? severity : "MEDIUM";
+}
 function mapLunaStatusToClassification(status) {
   const normalized = String(status || "PASS").toUpperCase();
   if (normalized === "PASS" || normalized === "OK" || normalized === "NO_FINDING") return null;
@@ -20,6 +26,10 @@ function resolveFindingCardId(item) {
   if (!item || typeof item !== "object") return "unknown";
   if (item.rawCardId) return item.rawCardId;
   if (item.cardId && !isCanonicalLunaRequestId(item.cardId)) return item.cardId;
+  if (item.id && isCanonicalLunaRequestId(item.id)) {
+    const rawMatch = String(item.id).match(/\|raw:([^|]+)\|/);
+    if (rawMatch) return rawMatch[1];
+  }
   if (item.id && !isCanonicalLunaRequestId(item.id)) return item.id;
   return item.lessonKey || "unknown";
 }
@@ -64,7 +74,7 @@ function normalizeLunaItemsToFindings(items, scope, options = {}) {
       cardId,
       objectIndex: objectIndex === null ? null : objectIndex,
       fieldPath,
-      severity: String(item.severity || "MEDIUM").toUpperCase(),
+      severity: normalizeSeverity(item.severity),
       category,
       classificationStatus,
       productionFile: item.productionFile || options.productionFile || null,
@@ -82,5 +92,7 @@ function normalizeLunaItemsToFindings(items, scope, options = {}) {
 
 module.exports = {
   mapLunaStatusToClassification,
+  resolveFindingCardId,
+  resolveFindingObjectIndex,
   normalizeLunaItemsToFindings,
 };

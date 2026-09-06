@@ -2,8 +2,9 @@
 "use strict";
 
 const { listScopeCheckpoints } = require("./batch-checkpoint");
+const { getCheckpointFindings } = require("./finding-reconstruction");
 
-function reconstructFromCheckpoints(runId, scopeIds) {
+function reconstructFromCheckpoints(runId, scopeIds, scopeById = null) {
   const allCheckpoints = [];
   const stats = {
     batches: 0,
@@ -53,7 +54,12 @@ function reconstructFromCheckpoints(runId, scopeIds) {
     }
     stats.objectsReturned += (cp.returnedObjectIds || []).length;
 
-    for (const finding of cp.normalizedFindings || []) {
+    const scope = scopeById?.get(cp.scopeId) || { scopeId: cp.scopeId };
+    const checkpointFindings = getCheckpointFindings(cp, scope);
+    if (checkpointFindings.identityStatus === "CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE") {
+      throw new Error(`CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE: ${cp.batchId}`);
+    }
+    for (const finding of checkpointFindings.findings || []) {
       const fKey = finding.findingStableId || finding.dedupKey || finding.auditId;
       if (seenFindingKeys.has(fKey)) {
         stats.duplicateFindings += 1;
