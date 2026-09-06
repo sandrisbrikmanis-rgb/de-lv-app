@@ -197,6 +197,7 @@ function verifyRuntimeArtifactGate() {
 async function runCheckpointResumeProof(runtimeAuth, queues, batchPlan) {
   const scenarios = [];
   const tmpRoot = path.join(pathState.ownerReviewRoot, "checkpoint-runs");
+  if (fs.existsSync(tmpRoot)) fs.rmSync(tmpRoot, { recursive: true, force: true });
   fs.mkdirSync(tmpRoot, { recursive: true });
   const prevRunsRoot = pathState.runsRoot;
   pathState.runsRoot = tmpRoot;
