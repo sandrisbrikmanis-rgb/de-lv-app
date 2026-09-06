@@ -58,6 +58,22 @@
         "tip": ["only tip"],
         "tipExtra": "must not match study.tip prefix"
       }
+    },
+    {
+      "de": "bitte",
+      "lv": "lūdzu",
+      "study": {
+        "id": "a1-bitte",
+        "translation": "bitte"
+      }
+    },
+    {
+      "de": "bitte",
+      "lv": "lūdzu study",
+      "study": {
+        "id": "a1-bitte-study",
+        "translation": "bitte study"
+      }
     }
   ],
   "findings": {
@@ -75,6 +91,12 @@
     "partialCompound": { "cardId": "ab", "objectIndex": 0, "fieldPath": "lv; study.sectionAccents", "expectedStatus": "PARTIAL_MAPPING_REVIEW_REQUIRED" },
     "unknownCardId": { "cardId": "definitely-wrong", "objectIndex": 0, "fieldPath": "lv", "expectedStatus": "AMBIGUOUS" },
     "unknownCardIdProvenance": { "cardId": "unknown", "objectIndex": 0, "fieldPath": "lv", "expectedStatus": "MAPPED_UNIQUE", "expectedIdentityProof": "OBJECT_INDEX_ONLY" },
-    "prefixBoundaryTip": { "cardId": "tipExtra", "objectIndex": 4, "fieldPath": "study.tip", "expectedStatus": "MAPPED_UNIQUE" }
+    "prefixBoundaryTip": { "cardId": "tipExtra", "objectIndex": 4, "fieldPath": "study.tip", "expectedStatus": "MAPPED_UNIQUE" },
+    "aliasCollisionBitte93": { "cardId": "bitte", "objectIndex": 5, "fieldPath": "lv", "expectedStatus": "AMBIGUOUS", "expectedReason": "CARD_ID_ALIAS_COLLISION" },
+    "aliasCollisionBitte94": { "cardId": "Bitte", "objectIndex": 6, "fieldPath": "lv", "expectedStatus": "AMBIGUOUS", "expectedReason": "CARD_ID_ALIAS_COLLISION" },
+    "documentedTipTextAlias": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.tip.text", "expectedStatus": "MAPPED_UNIQUE" },
+    "unknownQuestionText": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.question.text", "expectedStatus": "GROUP_REVIEW_REQUIRED" },
+    "unknownStudyText": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.unknown.text", "expectedStatus": "GROUP_REVIEW_REQUIRED" },
+    "unknownComparisonText": { "cardId": "ab", "objectIndex": 0, "fieldPath": "study.comparison[].text", "expectedStatus": "GROUP_REVIEW_REQUIRED" }
   }
 }

@@ -15,9 +15,35 @@ const {
   keysUnderRelative,
   crowdinLocaleToRepo,
   CROWDIN_TARGET_LOCALE_IDS,
+  assertPhase1MatrixIdentity,
+  hashMatrixForIdentity,
+  EXPECTED_PHASE1_MATRIX_IDENTITY_SHA256,
+  KNOWN_MAPPING_STATUSES,
+  normalizeSegment,
+  findingHasDeFieldPath,
 } = require("./lib/content-crowdin-bridge");
 
 const FIXTURE_PATH = path.join(ROOT, "scripts/fixtures/g2-a1-audit-key-resolver-fixture.json");
+
+const FROZEN_INTEGRATION = Object.freeze({
+  total: 13535,
+  MAPPED_UNIQUE: 10287,
+  MAPPED_EXPLICIT_SET: 2708,
+  PARTIAL_MAPPING_REVIEW_REQUIRED: 82,
+  GROUP_REVIEW_REQUIRED: 99,
+  AMBIGUOUS: 359,
+  UNMATCHED: 0,
+  SOURCE_KEY_MISSING: 0,
+  autoApplyEligible: 10287,
+  deFieldFindings: 8,
+  deAutoApply: 0,
+  identityStats: {
+    CANONICAL_CARD_ID: 13117,
+    OBJECT_INDEX_ONLY: 0,
+    CARD_ID_ALIAS_COLLISION: 359,
+    CARD_ID_OBJECT_INDEX_MISMATCH: 0,
+  },
+});
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -61,8 +87,45 @@ function crowdinLocaleForRepoLang(lang) {
 }
 
 function assertNotAutoApply(mapping, label) {
-  assert(mapping.status !== "MAPPED_UNIQUE" && mapping.status !== "MAPPED_EXPLICIT_SET", `${label}: ${mapping.status}`);
   assert(!mapping.autoApplyEligible, `${label} autoApplyEligible`);
+}
+
+function testMatrixGateRequiresPath() {
+  const prev = process.env.PHASE1_MATRIX_PATH;
+  delete process.env.PHASE1_MATRIX_PATH;
+  try {
+    let threw = false;
+    try {
+      runIntegrationClassification();
+    } catch (err) {
+      threw = true;
+      assert(/PHASE1_MATRIX_PATH/.test(err.message), err.message);
+    }
+    assert(threw, "integration must fail without PHASE1_MATRIX_PATH");
+  } finally {
+    if (prev) process.env.PHASE1_MATRIX_PATH = prev;
+  }
+}
+
+function testMatrixGateRejectsBadSha() {
+  const tmp = path.join(ROOT, ".tmp-phase1-matrix-bad.json");
+  fs.writeFileSync(tmp, JSON.stringify({ findings: [], bogus: true }));
+  const prev = process.env.PHASE1_MATRIX_PATH;
+  process.env.PHASE1_MATRIX_PATH = tmp;
+  try {
+    let threw = false;
+    try {
+      runIntegrationClassification();
+    } catch (err) {
+      threw = true;
+      assert(err.code === "PHASE1_MATRIX_IDENTITY_MISMATCH", err.message);
+    }
+    assert(threw, "integration must fail on matrix identity mismatch");
+  } finally {
+    if (prev) process.env.PHASE1_MATRIX_PATH = prev;
+    else delete process.env.PHASE1_MATRIX_PATH;
+    fs.unlinkSync(tmp);
+  }
 }
 
 function testFixtureCases() {
@@ -77,11 +140,42 @@ function testFixtureCases() {
     });
     const m = resolveG2A1AuditFinding(finding, reg);
     assert(m.status === spec.expectedStatus, `${name}: expected ${spec.expectedStatus}, got ${m.status}`);
-    if (spec.expectedReason) assert(m.reason === spec.expectedReason || m.proofs?.some((p) => p.reason === spec.expectedReason), `${name} reason`);
+    if (spec.expectedReason) {
+      assert(
+        m.reason === spec.expectedReason || m.proofs?.some((p) => p.reason === spec.expectedReason),
+        `${name} reason: ${m.reason}`,
+      );
+    }
     if (spec.expectedIdentityProof) assert(m.identityProof === spec.expectedIdentityProof, `${name} identity`);
     if (["GROUP_REVIEW_REQUIRED", "PARTIAL_MAPPING_REVIEW_REQUIRED", "AMBIGUOUS", "UNMATCHED"].includes(spec.expectedStatus)) {
       assertNotAutoApply(m, name);
     }
+    if (m.status === "MAPPED_UNIQUE") {
+      assert(m.keys.length === 1, `${name}: MAPPED_UNIQUE must have exactly one key`);
+      assert(m.keys.every((k) => reg.lvKeySet.has(k)), `${name}: mapped key missing from LV registry`);
+    }
+    if (m.status === "MAPPED_EXPLICIT_SET") {
+      assert(m.keys.length >= 2, `${name}: MAPPED_EXPLICIT_SET needs >=2 keys`);
+      assertNotAutoApply(m, name);
+      assert(m.keys.every((k) => reg.lvKeySet.has(k)), `${name}: explicit set key missing from LV registry`);
+    }
+  }
+}
+
+function testDocumentedTextAliases() {
+  assert(normalizeSegment("study.tip.text") === "study.tip", "study.tip.text alias");
+  assert(normalizeSegment("study.tip.example") === "study.tip", "study.tip.example alias");
+}
+
+function testUndocumentedTextPathsRejected() {
+  const reg = buildFixtureRegistry();
+  for (const fieldPath of ["study.question.text", "study.unknown.text", "study.comparison[].text"]) {
+    const m = resolveG2A1AuditFinding(baseFinding({ cardId: "ab", objectIndex: 0, fieldPath }), reg);
+    assert(
+      m.status === "GROUP_REVIEW_REQUIRED" || m.status === "UNMATCHED",
+      `${fieldPath}: expected GROUP_REVIEW_REQUIRED or UNMATCHED, got ${m.status}`,
+    );
+    assertNotAutoApply(m, fieldPath);
   }
 }
 
@@ -97,10 +191,7 @@ function testDeFieldProtection() {
 }
 
 function testPrefixBoundaryTip() {
-  const cardKeys = [
-    "a1.card.a1-demo.study.tip[0]",
-    "a1.card.a1-demo.study.tipExtra[0]",
-  ];
+  const cardKeys = ["a1.card.a1-demo.study.tip[0]", "a1.card.a1-demo.study.tipExtra[0]"];
   const keys = keysUnderRelative(cardKeys, "a1", "a1-demo", "study.tip");
   assert(keys.length === 1, `tip prefix boundary: ${keys.join(",")}`);
   assert(keys[0].endsWith("study.tip[0]"), keys[0]);
@@ -132,6 +223,8 @@ function testExplicitSetNotAggregated() {
   const finding = baseFinding({ fieldPath: "study.comparison" });
   const mapping = resolveG2A1AuditFinding(finding, reg);
   assert(mapping.status === "MAPPED_EXPLICIT_SET", mapping.status);
+  assert(mapping.keys.length >= 2, "explicit set keys");
+  assertNotAutoApply(mapping, "explicit set");
   const units = aggregateFindingsByCrowdinKey([{ finding, mapping }], crowdinLocaleForRepoLang);
   assert(units.length === 0, "explicit set must not create per-key apply units");
 }
@@ -141,11 +234,17 @@ function testAggregateConflictCategory() {
   const rows = [
     {
       finding: baseFinding({ auditId: "A1", severity: "HIGH", category: "MISTRANSLATION", fieldPath: "lv", current: "a" }),
-      mapping: resolveG2A1AuditFinding(baseFinding({ auditId: "A1", severity: "HIGH", category: "MISTRANSLATION", fieldPath: "lv", current: "a" }), reg),
+      mapping: resolveG2A1AuditFinding(
+        baseFinding({ auditId: "A1", severity: "HIGH", category: "MISTRANSLATION", fieldPath: "lv", current: "a" }),
+        reg,
+      ),
     },
     {
       finding: baseFinding({ auditId: "A2", severity: "HIGH", category: "GRAMMAR", fieldPath: "lv", current: "b" }),
-      mapping: resolveG2A1AuditFinding(baseFinding({ auditId: "A2", severity: "HIGH", category: "GRAMMAR", fieldPath: "lv", current: "b" }), reg),
+      mapping: resolveG2A1AuditFinding(
+        baseFinding({ auditId: "A2", severity: "HIGH", category: "GRAMMAR", fieldPath: "lv", current: "b" }),
+        reg,
+      ),
     },
   ];
   const units = aggregateFindingsByCrowdinKey(rows, crowdinLocaleForRepoLang);
@@ -153,10 +252,29 @@ function testAggregateConflictCategory() {
   assert(units[0].ownerStatus === "OWNER_CONFLICT_REVIEW_REQUIRED", units[0].ownerStatus);
 }
 
+function testAggregateOnlyMappedUnique() {
+  const reg = buildProductionRegistry();
+  const uniqueFinding = baseFinding({ auditId: "U1", fieldPath: "lv" });
+  const uniqueMapping = resolveG2A1AuditFinding(uniqueFinding, reg);
+  const explicitFinding = baseFinding({ auditId: "E1", fieldPath: "study.comparison" });
+  const explicitMapping = resolveG2A1AuditFinding(explicitFinding, reg);
+  const units = aggregateFindingsByCrowdinKey(
+    [
+      { finding: uniqueFinding, mapping: uniqueMapping },
+      { finding: explicitFinding, mapping: explicitMapping },
+    ],
+    crowdinLocaleForRepoLang,
+  );
+  assert(units.length === 1, "only MAPPED_UNIQUE aggregated");
+  assert(units[0].auditIds.includes("U1"), "unique finding aggregated");
+  assert(!units[0].auditIds.includes("E1"), "explicit set excluded");
+}
+
 function testUnknownCardIdAmbiguous() {
   const reg = buildProductionRegistry();
   const m = resolveG2A1AuditFinding(baseFinding({ cardId: "definitely-wrong-card", fieldPath: "lv" }), reg);
   assert(m.status === "AMBIGUOUS", m.status);
+  assert(m.reason === "CARD_ID_OBJECT_INDEX_MISMATCH", m.reason);
 }
 
 function testUnknownCardIdObjectIndexOnly() {
@@ -164,6 +282,15 @@ function testUnknownCardIdObjectIndexOnly() {
   const m = resolveG2A1AuditFinding(baseFinding({ cardId: "unknown", fieldPath: "lv", objectIndex: 17 }), reg);
   assert(m.status === "MAPPED_UNIQUE", m.status);
   assert(m.identityProof === "OBJECT_INDEX_ONLY", m.identityProof);
+}
+
+function loadValidatedG2A1Findings(matrix) {
+  return matrix.findings.filter(
+    (f) =>
+      f.group === "g2" &&
+      f.dataset === "a1" &&
+      ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
+  );
 }
 
 function runIntegrationClassification() {
@@ -175,47 +302,103 @@ function runIntegrationClassification() {
     throw new Error(`PHASE1_MATRIX_PATH not found: ${matrixPath}`);
   }
   const matrix = JSON.parse(fs.readFileSync(matrixPath, "utf8"));
-  const validated = matrix.findings.filter(
-    (f) =>
-      f.group === "g2" &&
-      f.dataset === "a1" &&
-      ["VALIDATED_REAL_FINDING", "OWNER_DECISION_REQUIRED"].includes(f.classificationStatus),
-  );
-  const reg = buildProductionRegistry();
-  const { stats, autoApplyEligible, total } = classifyValidatedFindings(validated, reg);
-  assert(total === 13535, `total ${total}`);
-  const sum = Object.values(stats).reduce((a, b) => a + b, 0);
-  assert(sum === 13535, `sum ${sum} stats=${JSON.stringify(stats)}`);
+  const identity = assertPhase1MatrixIdentity(matrix);
+  assert(identity.expected === EXPECTED_PHASE1_MATRIX_IDENTITY_SHA256, "expected matrix identity constant");
+  assert(identity.actual === hashMatrixForIdentity(matrix), "identity hash recomputation");
 
-  let deFindings = 0;
-  for (const f of validated) {
-    const segments = String(f.fieldPath || "").split(/[;,/]/);
-    if (segments.some((s) => /\.de$|\[\d*\]\.de$|\[\d+\]\.de$|^de$/i.test(s.trim()))) deFindings += 1;
-    const m = resolveG2A1AuditFinding(f, reg);
-    assert(
-      m.status !== "MAPPED_UNIQUE" && m.status !== "MAPPED_EXPLICIT_SET" || !String(f.fieldPath).toLowerCase().includes(".de"),
-      `DE mapped as apply-eligible: ${f.auditId}`,
-    );
+  const validated = loadValidatedG2A1Findings(matrix);
+  const reg = buildProductionRegistry();
+  const { stats, autoApplyEligible, total, identityStats, deFieldFindings, deAutoApply, rows } =
+    classifyValidatedFindings(validated, reg);
+
+  assert(total === FROZEN_INTEGRATION.total, `total ${total}`);
+  assert(stats.MAPPED_UNIQUE === FROZEN_INTEGRATION.MAPPED_UNIQUE, `MAPPED_UNIQUE ${stats.MAPPED_UNIQUE}`);
+  assert(stats.MAPPED_EXPLICIT_SET === FROZEN_INTEGRATION.MAPPED_EXPLICIT_SET, `MAPPED_EXPLICIT_SET ${stats.MAPPED_EXPLICIT_SET}`);
+  assert(
+    stats.PARTIAL_MAPPING_REVIEW_REQUIRED === FROZEN_INTEGRATION.PARTIAL_MAPPING_REVIEW_REQUIRED,
+    `PARTIAL ${stats.PARTIAL_MAPPING_REVIEW_REQUIRED}`,
+  );
+  assert(stats.GROUP_REVIEW_REQUIRED === FROZEN_INTEGRATION.GROUP_REVIEW_REQUIRED, `GROUP ${stats.GROUP_REVIEW_REQUIRED}`);
+  assert((stats.AMBIGUOUS || 0) === FROZEN_INTEGRATION.AMBIGUOUS, `AMBIGUOUS ${stats.AMBIGUOUS || 0}`);
+  assert((stats.UNMATCHED || 0) === FROZEN_INTEGRATION.UNMATCHED, `UNMATCHED ${stats.UNMATCHED || 0}`);
+  assert(
+    (stats.SOURCE_KEY_MISSING || 0) === FROZEN_INTEGRATION.SOURCE_KEY_MISSING,
+    `SOURCE_KEY_MISSING ${stats.SOURCE_KEY_MISSING || 0}`,
+  );
+  assert(autoApplyEligible === FROZEN_INTEGRATION.autoApplyEligible, `autoApplyEligible ${autoApplyEligible}`);
+  assert(deFieldFindings === FROZEN_INTEGRATION.deFieldFindings, `deFieldFindings ${deFieldFindings}`);
+  assert(deAutoApply === FROZEN_INTEGRATION.deAutoApply, `deAutoApply ${deAutoApply}`);
+
+  const sum = Object.values(stats).reduce((a, b) => a + b, 0);
+  assert(sum === FROZEN_INTEGRATION.total, `status sum ${sum}`);
+
+  let unknownStatusCount = 0;
+  for (const [status, count] of Object.entries(stats)) {
+    if (!KNOWN_MAPPING_STATUSES.has(status)) unknownStatusCount += count;
+  }
+  assert(unknownStatusCount === 0, `unknown statuses: ${unknownStatusCount}`);
+
+  for (const [key, expected] of Object.entries(FROZEN_INTEGRATION.identityStats)) {
+    assert(identityStats[key] === expected, `identityStats.${key} ${identityStats[key]} !== ${expected}`);
   }
 
-  const expected = {
-    total: 13535,
+  for (const row of rows) {
+    const { finding, mapping } = row;
+    if (mapping.status === "MAPPED_UNIQUE") {
+      assert(mapping.keys.length === 1, `${finding.auditId}: MAPPED_UNIQUE key count`);
+      assert(mapping.keys.every((k) => reg.lvKeySet.has(k)), `${finding.auditId}: key not in LV registry`);
+      assert(mapping.autoApplyEligible, `${finding.auditId}: unique must be auto-apply eligible`);
+    }
+    if (mapping.status === "MAPPED_EXPLICIT_SET") {
+      assert(mapping.keys.length >= 2, `${finding.auditId}: explicit set key count`);
+      assertNotAutoApply(mapping, finding.auditId);
+      assert(mapping.keys.every((k) => reg.lvKeySet.has(k)), `${finding.auditId}: explicit key not in LV registry`);
+    }
+    if (["PARTIAL_MAPPING_REVIEW_REQUIRED", "GROUP_REVIEW_REQUIRED", "AMBIGUOUS", "UNMATCHED"].includes(mapping.status)) {
+      assertNotAutoApply(mapping, finding.auditId);
+    }
+    if (findingHasDeFieldPath(finding.fieldPath)) {
+      assert(!mapping.autoApplyEligible, `${finding.auditId}: DE field must not auto-apply`);
+    }
+  }
+
+  const units = aggregateFindingsByCrowdinKey(rows, crowdinLocaleForRepoLang);
+  for (const unit of units) {
+    const sourceRows = rows.filter((r) => unit.auditIds.includes(r.finding.auditId));
+    assert(sourceRows.every((r) => r.mapping.status === "MAPPED_UNIQUE"), "aggregate includes non-unique mapping");
+  }
+
+  const result = {
+    matrixIdentity: identity,
+    total,
     stats,
     autoApplyEligible,
-    deFieldFindingsDetected: deFindings,
+    deFieldFindings,
+    deAutoApply,
+    identityStats,
+    aggregateUnits: units.length,
+    classification:
+      stats.AMBIGUOUS === 0 && stats.UNMATCHED === 0
+        ? "G2_A1_AUDIT_KEY_RESOLVER_FINAL_OWNER_REVIEW_READY"
+        : "G2_A1_AUDIT_KEY_RESOLVER_REPAIR_PARTIAL",
   };
-  console.log("OK integration classification", JSON.stringify(expected));
-  return expected;
+  console.log("OK integration classification", JSON.stringify(result));
+  return result;
 }
 
 const unitTests = [
+  testMatrixGateRequiresPath,
+  testMatrixGateRejectsBadSha,
   testFixtureCases,
+  testDocumentedTextAliases,
+  testUndocumentedTextPathsRejected,
   testDeFieldProtection,
   testPrefixBoundaryTip,
   testWildcardUnknownLeaf,
   testPartialMappingStatus,
   testExplicitSetNotAggregated,
   testAggregateConflictCategory,
+  testAggregateOnlyMappedUnique,
   testUnknownCardIdAmbiguous,
   testUnknownCardIdObjectIndexOnly,
 ];

@@ -1,10 +1,15 @@
 #!/usr/bin/env node
 "use strict";
 
-const { resolveCardSlug, slugify } = require("./slug");
-const { buildCardIndex } = require("./flatten-g2-flashcards");
+const { resolveCardSlug } = require("./slug");
+const { flattenG2Flashcards } = require("./flatten-g2-flashcards");
 
-const RESOLVER_VERSION = "g2-a1-audit-key-resolver-v2";
+const RESOLVER_VERSION = "g2-a1-audit-key-resolver-v2-final";
+
+const EXPECTED_PHASE1_MATRIX_IDENTITY_SHA256 =
+  "966a31529b82f0005b46bb059acfc655bde1045b34cd04852cba3f0cd892c965";
+
+const MATRIX_TIMESTAMP_FIELDS = ["generatedAt", "updatedAt", "startedAt", "endedAt", "heartbeatAt"];
 
 /** Documented legacy / canonical fieldPath normalizations (one-to-one segment transforms). */
 const LEGACY_SEGMENT_ALIASES = Object.freeze({
@@ -43,6 +48,35 @@ const SCALAR_STUDY_LEAVES = Object.freeze([
 
 const AUTO_APPLY_ELIGIBLE_STATUSES = new Set(["MAPPED_UNIQUE"]);
 
+const KNOWN_MAPPING_STATUSES = new Set([
+  "MAPPED_UNIQUE",
+  "MAPPED_EXPLICIT_SET",
+  "PARTIAL_MAPPING_REVIEW_REQUIRED",
+  "GROUP_REVIEW_REQUIRED",
+  "UNMATCHED",
+  "AMBIGUOUS",
+  "SOURCE_KEY_MISSING",
+]);
+
+function hashMatrixForIdentity(matrix) {
+  const crypto = require("crypto");
+  const clone = JSON.parse(JSON.stringify(matrix || {}));
+  for (const field of MATRIX_TIMESTAMP_FIELDS) delete clone[field];
+  return crypto.createHash("sha256").update(JSON.stringify(clone)).digest("hex");
+}
+
+function assertPhase1MatrixIdentity(matrix) {
+  const actual = hashMatrixForIdentity(matrix);
+  if (actual !== EXPECTED_PHASE1_MATRIX_IDENTITY_SHA256) {
+    const err = new Error(
+      `PHASE1_MATRIX_IDENTITY_MISMATCH: expected ${EXPECTED_PHASE1_MATRIX_IDENTITY_SHA256}, got ${actual}`,
+    );
+    err.code = "PHASE1_MATRIX_IDENTITY_MISMATCH";
+    throw err;
+  }
+  return { expected: EXPECTED_PHASE1_MATRIX_IDENTITY_SHA256, actual };
+}
+
 function isDeFieldPath(segment) {
   const s = String(segment || "").trim().toLowerCase();
   if (!s) return false;
@@ -51,6 +85,10 @@ function isDeFieldPath(segment) {
   if (/\[\s*\]\.de$/.test(s)) return true;
   if (/\[\d+\]\.de$/.test(s)) return true;
   return false;
+}
+
+function findingHasDeFieldPath(fieldPath) {
+  return splitFieldPath(fieldPath).some((segment) => isDeFieldPath(segment));
 }
 
 function isNonExportSegment(segment) {
@@ -67,7 +105,6 @@ function normalizeSegment(raw) {
   s = s.replace(/study\.examples\[\s*\]/gi, "study.examples[]");
   s = s.replace(/study\.comparison\[\s*\]/gi, "study.comparison[]");
   s = s.replace(/\[\s*\*\s*\]/g, "[]");
-  s = s.replace(/\.text$/i, "");
   if (LEGACY_SEGMENT_ALIASES[s]) return LEGACY_SEGMENT_ALIASES[s];
   if (s === "study" || s === "study.*") return "study";
   return s;
@@ -80,34 +117,44 @@ function splitFieldPath(fieldPath) {
     .filter(Boolean);
 }
 
-function canonicalCardAliases(entry, slug) {
-  const aliases = new Set();
-  if (entry?.de) {
-    aliases.add(String(entry.de).trim().toLowerCase());
-    aliases.add(slugify(entry.de));
-  }
-  if (entry?.study?.id) {
-    aliases.add(String(entry.study.id).trim().toLowerCase());
-    aliases.add(slugify(entry.study.id));
-  }
-  aliases.add(String(slug).trim().toLowerCase());
-  return aliases;
+function buildCardAliasIndex(cards) {
+  const aliasToCards = new Map();
+  (cards || []).forEach((entry, index) => {
+    const slug = resolveCardSlug(entry);
+    const records = [];
+    if (entry?.de) records.push({ key: String(entry.de).trim().toLowerCase(), source: "entry.de" });
+    if (entry?.study?.id) records.push({ key: String(entry.study.id).trim().toLowerCase(), source: "study.id" });
+    records.push({ key: String(slug).trim().toLowerCase(), source: "export.slug" });
+    for (const { key, source } of records) {
+      if (!aliasToCards.has(key)) aliasToCards.set(key, []);
+      aliasToCards.get(key).push({ index, slug, source });
+    }
+  });
+  return aliasToCards;
 }
 
-function verifyCardIdentity(cardId, entry, slug) {
+function verifyCardIdentity(cardId, objectIndex, registry) {
   if (!cardId || cardId === "unknown") {
     return { pass: true, proof: "OBJECT_INDEX_ONLY" };
   }
   const norm = String(cardId).trim().toLowerCase();
-  const aliases = canonicalCardAliases(entry, slug);
-  if (aliases.has(norm) || aliases.has(slugify(norm))) {
-    return { pass: true, proof: "CANONICAL_CARD_ID" };
+  const hits = registry.aliasIndex.get(norm) || [];
+  if (!hits.length) {
+    return { pass: false, proof: "CARD_ID_OBJECT_INDEX_MISMATCH" };
   }
-  return { pass: false, proof: "CARD_ID_OBJECT_INDEX_MISMATCH" };
+  const uniqueIndices = new Set(hits.map((h) => h.index));
+  if (uniqueIndices.size > 1) {
+    return { pass: false, proof: "CARD_ID_ALIAS_COLLISION" };
+  }
+  const hit = hits[0];
+  if (hit.index !== objectIndex) {
+    return { pass: false, proof: "CARD_ID_OBJECT_INDEX_MISMATCH" };
+  }
+  return { pass: true, proof: "CANONICAL_CARD_ID" };
 }
 
-function cardIdMatchesEntry(cardId, entry, slug) {
-  return verifyCardIdentity(cardId, entry, slug).pass;
+function cardIdMatchesEntry(cardId, objectIndex, registry) {
+  return verifyCardIdentity(cardId, objectIndex, registry).pass;
 }
 
 function cardExportKeys(lvKeySet, level, slug) {
@@ -145,7 +192,7 @@ function expandWildcard(cardKeys, level, slug, pattern) {
 
   const normalizedLeaf = leaf === "lv" ? "native" : leaf;
   const allowed = WILDCARD_LEAF_ALLOWLIST[base];
-  if (!allowed || !allowed.has(leaf) && !allowed.has(normalizedLeaf)) {
+  if (!allowed || (!allowed.has(leaf) && !allowed.has(normalizedLeaf))) {
     return { keys: [], reason: "WILDCARD_LEAF_UNSUPPORTED" };
   }
 
@@ -318,7 +365,8 @@ function buildG2A1AuditKeyRegistry({ level, cards, lvFlat }) {
     byIndex.set(index, meta);
     if (!bySlug.has(slug)) bySlug.set(slug, meta);
   });
-  return { level, lvFlat, lvKeySet, cards, byIndex, bySlug };
+  const aliasIndex = buildCardAliasIndex(cards);
+  return { level, lvFlat, lvKeySet, cards, byIndex, bySlug, aliasIndex };
 }
 
 function resolveG2A1AuditFinding(finding, registry) {
@@ -351,9 +399,17 @@ function resolveG2A1AuditFinding(finding, registry) {
     return { status: "SOURCE_KEY_MISSING", keys: [], mappedKeys: [], reason: "OBJECT_INDEX_NOT_IN_REGISTRY", autoApplyEligible: false, resolverVersion: RESOLVER_VERSION };
   }
 
-  const identity = verifyCardIdentity(finding.cardId, meta.entry, meta.slug);
+  const identity = verifyCardIdentity(finding.cardId, finding.objectIndex, registry);
   if (!identity.pass) {
-    return { status: "AMBIGUOUS", keys: [], mappedKeys: [], reason: identity.proof, autoApplyEligible: false, resolverVersion: RESOLVER_VERSION };
+    return {
+      status: "AMBIGUOUS",
+      keys: [],
+      mappedKeys: [],
+      reason: identity.proof,
+      identityProof: identity.proof,
+      autoApplyEligible: false,
+      resolverVersion: RESOLVER_VERSION,
+    };
   }
 
   const cardKeys = cardExportKeys(registry.lvKeySet, level, meta.slug);
@@ -445,26 +501,58 @@ function aggregateFindingsByCrowdinKey(mappedFindings, crowdinLocaleIdForLang) {
 function classifyValidatedFindings(findings, registry) {
   const stats = {};
   const rows = [];
+  const identityStats = {
+    CANONICAL_CARD_ID: 0,
+    OBJECT_INDEX_ONLY: 0,
+    CARD_ID_ALIAS_COLLISION: 0,
+    CARD_ID_OBJECT_INDEX_MISMATCH: 0,
+  };
+
   for (const finding of findings) {
     const mapping = resolveG2A1AuditFinding(finding, registry);
     stats[mapping.status] = (stats[mapping.status] || 0) + 1;
+    if (mapping.identityProof && identityStats[mapping.identityProof] !== undefined) {
+      identityStats[mapping.identityProof] += 1;
+    } else if (mapping.reason === "CARD_ID_ALIAS_COLLISION") {
+      identityStats.CARD_ID_ALIAS_COLLISION += 1;
+    } else if (mapping.reason === "CARD_ID_OBJECT_INDEX_MISMATCH") {
+      identityStats.CARD_ID_OBJECT_INDEX_MISMATCH += 1;
+    }
     rows.push({ finding, mapping });
   }
+
   const autoApplyEligible = rows.filter((r) => r.mapping.autoApplyEligible).length;
-  return { stats, rows, autoApplyEligible, total: findings.length };
+  const deFieldFindings = findings.filter((f) => findingHasDeFieldPath(f.fieldPath)).length;
+  const deAutoApply = rows.filter((r) => findingHasDeFieldPath(r.finding.fieldPath) && r.mapping.autoApplyEligible).length;
+
+  return {
+    stats,
+    rows,
+    autoApplyEligible,
+    total: findings.length,
+    identityStats,
+    deFieldFindings,
+    deAutoApply,
+  };
 }
 
 module.exports = {
   RESOLVER_VERSION,
+  EXPECTED_PHASE1_MATRIX_IDENTITY_SHA256,
   AUTO_APPLY_ELIGIBLE_STATUSES,
+  KNOWN_MAPPING_STATUSES,
   LEGACY_SEGMENT_ALIASES,
   NON_EXPORT_PREFIXES,
   WILDCARD_LEAF_ALLOWLIST,
   isDeFieldPath,
+  findingHasDeFieldPath,
   normalizeSegment,
   splitFieldPath,
+  hashMatrixForIdentity,
+  assertPhase1MatrixIdentity,
   verifyCardIdentity,
   cardIdMatchesEntry,
+  buildCardAliasIndex,
   keysUnderRelative,
   buildG2A1AuditKeyRegistry,
   resolveG2A1AuditFinding,
