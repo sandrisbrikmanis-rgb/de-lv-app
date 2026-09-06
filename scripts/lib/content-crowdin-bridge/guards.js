@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 "use strict";
 
+const { READ_ONLY_FIELD_SEGMENTS } = require("./constants");
+
 const PLACEHOLDER_RE = /\{(\w+)\}/g;
 const HTML_TAG_RE = /<\/?([a-zA-Z][\w-]*)\b[^>]*>/g;
 
@@ -33,11 +35,66 @@ function extractHtmlTagStructure(str) {
   return tokens.join("|");
 }
 
+function isStructuralOrForbiddenExportKey(key) {
+  const segments = key.split(".");
+  for (const segment of segments) {
+    const base = segment.replace(/\[\d+\]/g, "");
+    if (READ_ONLY_FIELD_SEGMENTS.has(base)) return true;
+  }
+  if (/\.de(\.|$)/.test(key)) return true;
+  if (/\.de_article(\.|$)/.test(key)) return true;
+  if (/\.de_plural(\.|$)/.test(key)) return true;
+  if (/\.word(\.|$)/.test(key)) return true;
+  return false;
+}
+
+function validateExportKeySet(flat) {
+  const errors = [];
+  const keys = Object.keys(flat);
+  const seen = new Set();
+  for (const key of keys) {
+    if (seen.has(key)) errors.push(`Duplicate export key: ${key}`);
+    seen.add(key);
+    if (isStructuralOrForbiddenExportKey(key)) {
+      errors.push(`Forbidden structural/DE key in export: ${key}`);
+    }
+  }
+  return errors;
+}
+
 function validateCrowdinKeySet(crowdinFlat, lvSourceKeys) {
   const errors = [];
   for (const key of Object.keys(crowdinFlat).sort()) {
     if (!lvSourceKeys.has(key)) {
       errors.push(`Unknown Crowdin key not in LV source set: ${key}`);
+    }
+    if (isStructuralOrForbiddenExportKey(key)) {
+      errors.push(`Forbidden structural/DE key in import: ${key}`);
+    }
+  }
+  return errors;
+}
+
+/**
+ * Compare translation placeholder/HTML structure against LV G2/A1 source values.
+ */
+function validateImportGuardsAgainstSource(lvSourceFlat, crowdinFlat) {
+  const errors = [];
+  for (const key of Object.keys(crowdinFlat).sort()) {
+    const sourceValue = lvSourceFlat[key];
+    const translated = crowdinFlat[key];
+    if (typeof sourceValue !== "string" || typeof translated !== "string") continue;
+
+    const phSource = extractPlaceholderMultiset(sourceValue);
+    const phTranslated = extractPlaceholderMultiset(translated);
+    if (!multisetEqual(phSource, phTranslated)) {
+      errors.push(`${key}: placeholder multiset mismatch vs LV source`);
+    }
+
+    const htmlSource = extractHtmlTagStructure(sourceValue);
+    const htmlTranslated = extractHtmlTagStructure(translated);
+    if (htmlSource !== htmlTranslated) {
+      errors.push(`${key}: HTML tag structure mismatch vs LV source`);
     }
   }
   return errors;
@@ -78,8 +135,26 @@ function exportFlatToJson(flat) {
   return `${JSON.stringify(sortFlatKeys(flat), null, 2)}\n`;
 }
 
-function parseCrowdinJson(text) {
-  const obj = JSON.parse(text);
+const { detectDuplicateJsonKeys: detectDuplicateJsonKeysTokenized } = require("./json-duplicate-keys");
+
+function detectDuplicateJsonKeys(rawText) {
+  return detectDuplicateJsonKeysTokenized(rawText);
+}
+
+function parseCrowdinJson(rawText) {
+  const dup = detectDuplicateJsonKeys(rawText);
+  if (dup.code === "MALFORMED_JSON") {
+    const err = new Error(dup.error);
+    err.code = dup.code;
+    throw err;
+  }
+  if (dup.duplicates.length > 0) {
+    const err = new Error(`DUPLICATE_JSON_KEY:${dup.duplicates[0]}`);
+    err.code = "DUPLICATE_JSON_KEY";
+    throw err;
+  }
+
+  const obj = JSON.parse(rawText);
   if (!obj || typeof obj !== "object" || Array.isArray(obj)) {
     throw new Error("Crowdin JSON must be a flat object");
   }
@@ -92,10 +167,14 @@ function parseCrowdinJson(text) {
 }
 
 module.exports = {
+  isStructuralOrForbiddenExportKey,
+  validateExportKeySet,
   validateCrowdinKeySet,
+  validateImportGuardsAgainstSource,
   validateImportGuards,
   sortFlatKeys,
   exportFlatToJson,
+  detectDuplicateJsonKeys,
   parseCrowdinJson,
   extractPlaceholderMultiset,
   extractHtmlTagStructure,

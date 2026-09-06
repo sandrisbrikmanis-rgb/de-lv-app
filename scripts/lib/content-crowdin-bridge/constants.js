@@ -41,6 +41,8 @@ const CONTENT_JSON_REL = (group, lang) => {
   return `crowdin/content/${safeGroup}/${lang}.json`;
 };
 
+const G2_LEVEL_JSON_REL = (lang, level) => `crowdin/content/g2/${lang}-${level}.json`;
+
 module.exports = {
   CONTENT_LANGUAGES,
   CROWDIN_SOURCE_LANG,
@@ -50,4 +52,5 @@ module.exports = {
   MASTER_VERSION,
   READ_ONLY_FIELD_SEGMENTS,
   CONTENT_JSON_REL,
+  G2_LEVEL_JSON_REL,
 };
