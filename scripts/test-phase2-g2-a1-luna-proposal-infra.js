@@ -7,10 +7,13 @@ const os = require("os");
 const { ROOT } = require("./lib/audit-common");
 const {
   runStartGates,
+  authorizeRuntimeExecution,
   buildQueues,
   buildBatchPlan,
   runDryRun,
   createMockLunaTransport,
+  createRealLunaTransport,
+  createLunaTransport,
   runProposalBatches,
   validateLunaResponseItem,
   validateLunaBatchResponse,
@@ -22,6 +25,7 @@ const {
   buildTaskRequest,
   analyzeGroupedIndividualOverlaps,
   OVERLAP_CLASS,
+  RUNTIME_MODES,
   EXPECTED,
   TASK_KINDS,
   pathState,
@@ -33,6 +37,24 @@ const FIXTURE = path.join(ROOT, "scripts/fixtures/g2-a1-luna-proposal-fixture.js
 
 function assert(cond, msg) {
   if (!cond) throw new Error(msg);
+}
+
+function mockInfrastructureGates() {
+  const auth = authorizeRuntimeExecution({ runtimeMode: RUNTIME_MODES.MOCK_DRY_RUN });
+  if (!auth.pass) throw new Error(`gates blocked: ${(auth.errors || [auth.code]).join(",")}`);
+  return auth.infrastructure;
+}
+
+function mockRuntimeAuth() {
+  const auth = authorizeRuntimeExecution({ runtimeMode: RUNTIME_MODES.MOCK_DRY_RUN });
+  if (!auth.pass) throw new Error(`auth blocked: ${(auth.errors || [auth.code]).join(",")}`);
+  return auth;
+}
+
+function testRunStartGatesRequiresMode() {
+  const blocked = runStartGates();
+  assert(!blocked.pass, "runStartGates without mode must fail");
+  assert(blocked.errors.includes("RUNTIME_MODE_REQUIRED"), blocked.errors.join(","));
 }
 
 function testStableTaskId() {
@@ -65,8 +87,10 @@ function testDeNeverWriteTarget() {
 }
 
 function testGroupedNotInIndividualBatches() {
-  const gates = runStartGates();
-  if (!gates.pass) {
+  let gates;
+  try {
+    gates = mockInfrastructureGates();
+  } catch {
     console.log("SKIP testGroupedNotInIndividualBatches (gates blocked in env)");
     return;
   }
@@ -79,8 +103,7 @@ function testGroupedNotInIndividualBatches() {
 }
 
 function testQueueReconciliation() {
-  const gates = runStartGates();
-  if (!gates.pass) throw new Error(`gates blocked: ${gates.errors.join(",")}`);
+  const gates = mockInfrastructureGates();
   const { counts, reconciliation } = buildQueues({ gates });
   assert(reconciliation.duplicates.length === 0, `duplicates: ${reconciliation.duplicates.length}`);
   assert(counts.AUDIT_MAPPED_UNIQUE === EXPECTED.queueCounts.AUDIT_MAPPED_UNIQUE, counts.AUDIT_MAPPED_UNIQUE);
@@ -90,8 +113,7 @@ function testQueueReconciliation() {
 }
 
 function testSourceIdenticalNotAutoIntentional() {
-  const gates = runStartGates();
-  if (!gates.pass) return;
+  const gates = mockInfrastructureGates();
   const { queues } = buildQueues({ gates });
   for (const row of queues.SOURCE_IDENTICAL) {
     assert(row.preliminaryClass, "preliminary class set");
@@ -175,11 +197,11 @@ function testCorruptCheckpointDetected() {
 }
 
 async function testMockRunnerNoRealCalls() {
-  const gates = runStartGates();
-  if (!gates.pass) return;
+  const auth = mockRuntimeAuth();
+  const gates = auth.infrastructure;
   const built = buildQueues({ gates });
   const plan = buildBatchPlan(built.queues, { batchSizes: { AUDIT_MAPPED_UNIQUE: 5000, EMPTY_OR_MISSING: 5000, SOURCE_IDENTICAL: 5000 } });
-  const transport = createMockLunaTransport();
+  const transport = createMockLunaTransport({}, auth.receipt);
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "g2-a1-proposal-run-"));
   const prev = pathState.runsRoot;
   pathState.runsRoot = path.join(tmp, "runs");
@@ -191,8 +213,7 @@ async function testMockRunnerNoRealCalls() {
 }
 
 function testOverlap522Classification() {
-  const gates = runStartGates();
-  if (!gates.pass) return;
+  const gates = mockInfrastructureGates();
   const { queues, reconciliation } = buildQueues({ gates });
   const review = analyzeGroupedIndividualOverlaps(queues, reconciliation);
   assert(review.total === 522, `overlap total ${review.total}`);
@@ -208,8 +229,7 @@ function testOverlap522Classification() {
 }
 
 function testOwnerConflictExcludedFromBatches() {
-  const gates = runStartGates();
-  if (!gates.pass) return;
+  const gates = mockInfrastructureGates();
   const { queues } = buildQueues({ gates });
   const plan = buildBatchPlan(queues);
   const batchIds = new Set(plan.batches.flatMap((b) => b.taskIds));
@@ -220,8 +240,7 @@ function testOwnerConflictExcludedFromBatches() {
 }
 
 function testGroupedContextInRequest() {
-  const gates = runStartGates();
-  if (!gates.pass) return;
+  const gates = mockInfrastructureGates();
   const { queues } = buildQueues({ gates });
   const all = [...queues.AUDIT_MAPPED_UNIQUE, ...queues.EMPTY_OR_MISSING, ...queues.SOURCE_IDENTICAL];
   const withOverlap = all.filter((t) => t.groupedOverlap && t.overlapClassification === OVERLAP_CLASS.SAFE_WITH_GROUP_CONTEXT);
@@ -247,8 +266,7 @@ function testForbiddenStatuses() {
 }
 
 function testBatchPlanNoOverlapApplyEligible() {
-  const gates = runStartGates();
-  if (!gates.pass) return;
+  const gates = mockInfrastructureGates();
   const { queues } = buildQueues({ gates });
   const plan = buildBatchPlan(queues);
   for (const batch of plan.batches) {
@@ -265,8 +283,12 @@ function testBatchResponseIds() {
 }
 
 function testDryRunIntegration() {
+  const blocked = runStartGates();
+  assert(!blocked.pass, "runStartGates without mode blocked");
   const result = runDryRun({ writeArtifacts: false });
-  if (!runStartGates().pass) {
+  try {
+    mockInfrastructureGates();
+  } catch {
     assert(result.classification === "START_GATE_BLOCKED", result.classification);
     return;
   }
@@ -275,10 +297,23 @@ function testDryRunIntegration() {
     result.classification,
   );
   assert(result.lunaRealCalls === 0, "lunaRealCalls");
+  assert(result.resultClassification === "NON_EXECUTABLE_MOCK_PROOF", result.resultClassification);
+}
+
+function testMockTransportRequiresReceipt() {
+  let threw = false;
+  try {
+    createMockLunaTransport();
+  } catch (e) {
+    threw = true;
+    assert(e.code === "REAL_LUNA_RUNTIME_AUTHORIZATION_REQUIRED", e.code);
+  }
+  assert(threw, "mock transport without receipt must fail");
 }
 
 const tests = [
   testStableTaskId,
+  testRunStartGatesRequiresMode,
   testResponseValidatorFixture,
   testDeNeverWriteTarget,
   testBatchResponseIds,
@@ -290,6 +325,7 @@ const tests = [
   testGroupedContextInRequest,
   testForbiddenStatuses,
   testBatchPlanNoOverlapApplyEligible,
+  testMockTransportRequiresReceipt,
   testCheckpointResume,
   testCorruptCheckpointDetected,
   testDryRunIntegration,

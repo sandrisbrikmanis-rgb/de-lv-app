@@ -2,11 +2,15 @@
 "use strict";
 
 const { validateLunaBatchResponse } = require("./response-validator");
+const { RUNTIME_MODES } = require("./runtime-mode");
+const { assertAuthorizedRuntimeReceipt } = require("./runtime-gates");
 
-function createMockLunaTransport(fixtureMap = {}) {
+function createMockLunaTransport(fixtureMap = {}, authorizedRuntimeReceipt = null) {
+  const receipt = assertAuthorizedRuntimeReceipt(authorizedRuntimeReceipt, RUNTIME_MODES.MOCK_DRY_RUN);
   const stats = { realCalls: 0, retries: 0, tokensUsed: 0 };
   return {
     mode: "MOCK",
+    authorizedRuntimeReceipt: receipt,
     stats,
     async executeBatch(batch, tasks) {
       const key = `${batch.queueKind}:${batch.batchIndex}`;

@@ -9,18 +9,51 @@ const { assertPhase1MatrixIdentity } = require("../content-crowdin-bridge/g2-a1-
 const bridge = require("../content-crowdin-bridge");
 const { gitProductionDiffAgainstBaseline, gitDeDiffAgainstBaseline } = require("../content-discovery/git-baseline");
 
-function runStartGates(options = {}) {
-  const errors = [];
-  const ownerPackRoot = options.ownerPackRoot || pathState.ownerPackRoot;
-  const matrixPath = options.matrixPath || pathState.matrixPath;
-
-  const originMain = execSync("git rev-parse origin/main", { encoding: "utf8" }).trim();
-  const headSha = execSync("git rev-parse HEAD", { encoding: "utf8" }).trim();
-  const porcelain = execSync("git status --porcelain", { encoding: "utf8" }).trim();
-  const productionBaselineSha = EXPECTED.productionBaselineSha || EXPECTED.originMain;
-  if (options.requirePinnedOriginMain && originMain !== EXPECTED.originMain) {
-    errors.push(`ORIGIN_MAIN_MISMATCH:${originMain}`);
+function resolveGitShas(options = {}) {
+  if (options._allowMockInfrastructureBypass && options.gitContext) {
+    return {
+      headSha: options.gitContext.headSha,
+      originMainSha: options.gitContext.originMainSha,
+    };
   }
+  return {
+    headSha: execSync("git rev-parse HEAD", { encoding: "utf8" }).trim(),
+    originMainSha: execSync("git rev-parse origin/main", { encoding: "utf8" }).trim(),
+  };
+}
+
+function runInfrastructureGates(options = {}) {
+  if (
+    options._allowMockInfrastructureBypass &&
+    options.skipInfrastructureGates &&
+    options.infrastructureContext
+  ) {
+    const ctx = options.infrastructureContext;
+    const git = resolveGitShas(options);
+    return {
+      pass: true,
+      errors: [],
+      originMainSha: git.originMainSha ?? ctx.originMainSha,
+      headSha: git.headSha ?? ctx.headSha,
+      productionBaselineSha: ctx.productionBaselineSha ?? EXPECTED.productionBaselineSha,
+      matrixIdentitySha: ctx.matrixIdentitySha ?? EXPECTED.matrixIdentitySha,
+      sourceSha: ctx.sourceSha ?? EXPECTED.sourceSha,
+      prod: ctx.prod ?? { clean: true, changed: [] },
+      de: ctx.de ?? { clean: true, changed: [] },
+      ownerPackRoot: ctx.ownerPackRoot ?? pathState.ownerPackRoot,
+      matrixPath: ctx.matrixPath ?? pathState.matrixPath,
+      mockBypass: true,
+    };
+  }
+
+  const errors = [];
+  const ownerPackRoot = pathState.ownerPackRoot;
+  const matrixPath = pathState.matrixPath;
+  const productionBaselineSha = EXPECTED.productionBaselineSha;
+
+  const { originMainSha, headSha } = resolveGitShas(options);
+
+  const porcelain = execSync("git status --porcelain", { encoding: "utf8" }).trim();
   if (porcelain) errors.push("WORKTREE_NOT_CLEAN");
 
   const proofPath = `${ownerPackRoot}/proof.json`;
@@ -32,10 +65,12 @@ function runStartGates(options = {}) {
     }
   }
 
+  let matrixIdentitySha = null;
   if (!fs.existsSync(matrixPath)) errors.push("MATRIX_MISSING");
   else {
     const matrix = JSON.parse(fs.readFileSync(matrixPath, "utf8"));
     const identity = assertPhase1MatrixIdentity(matrix);
+    matrixIdentitySha = identity.actual;
     if (identity.actual !== EXPECTED.matrixIdentitySha) errors.push("MATRIX_IDENTITY_MISMATCH");
   }
 
@@ -57,15 +92,17 @@ function runStartGates(options = {}) {
   return {
     pass: errors.length === 0,
     errors,
-    originMain,
+    originMainSha,
     headSha,
     productionBaselineSha,
+    matrixIdentitySha,
     sourceSha,
     prod,
     de,
     ownerPackRoot,
     matrixPath,
+    mockBypass: false,
   };
 }
 
-module.exports = { runStartGates };
+module.exports = { runInfrastructureGates, resolveGitShas };

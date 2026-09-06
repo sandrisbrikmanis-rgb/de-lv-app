@@ -10,7 +10,6 @@ const PROGRESS_SCHEMA_VERSION = "1.0.0";
 
 const EXPECTED = {
   productionBaselineSha: "d259701d7ac1d005a762b977795075f983c567a0",
-  originMain: "d259701d7ac1d005a762b977795075f983c567a0",
   matrixIdentitySha: "966a31529b82f0005b46bb059acfc655bde1045b34cd04852cba3f0cd892c965",
   sourceFileId: 16,
   sourceSha: "854f174e67cb0965fb24c884c43aa2b557a0d581f88bf0761cd846cac4eaf5e8",
@@ -60,6 +59,14 @@ const DEFAULT_BATCH_SIZES = Object.freeze({
 
 const DEFAULT_RETRY = { maxRetries: 2, timeoutMs: 120_000 };
 
+/** Frozen OWNER authorization contract values (G2/A1 REAL_LUNA). */
+const AUTH_FROZEN = Object.freeze({
+  model: "gpt-5.6-luna",
+  batchCount: 764,
+  maxAllowedCycles: 1,
+  queueCounts: EXPECTED.queueCounts,
+});
+
 const pathState = {
   ownerPackRoot: "/tmp/cursor/artifacts/phase2-g2-a1-owner-pack-v3",
   artifactsRoot: "/tmp/cursor/artifacts/phase2-g2-a1-luna-proposal-infra",
@@ -94,6 +101,7 @@ module.exports = {
   CHECKPOINT_SCHEMA_VERSION,
   PROGRESS_SCHEMA_VERSION,
   EXPECTED,
+  AUTH_FROZEN,
   TASK_KINDS,
   LUNA_ACTIONS,
   SOURCE_IDENTICAL_PRELIM,

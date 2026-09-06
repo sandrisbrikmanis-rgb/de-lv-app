@@ -36,7 +36,7 @@ function loadOwnerPack(ownerPackRoot = pathState.ownerPackRoot) {
 
 function buildIdentityContext(pack, gates) {
   return {
-    originMain: gates.originMain,
+    originMain: gates.originMainSha || gates.originMain,
     matrixIdentitySha: pack.proof.gates?.identity?.actual || null,
     ownerPackClassification: pack.proof.classification,
     ownerPackGeneratedAt: pack.proof.generatedAt,
