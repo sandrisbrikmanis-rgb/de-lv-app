@@ -337,18 +337,33 @@ function testOwnerPrepCoverageWithGlobalIds() {
 }
 
 function testLunaStatsConsistencyGates() {
-  const pass = assertLunaStatsConsistency(
-    {
-      status: "REAL",
-      transport: "REAL",
-      lunaSuccessfulBatches: 12830,
-      finalizationLunaCalls: 0,
-      tokensUsed: 100,
-      tokensUsedAvailable: true,
-    },
+  const baseStats = {
+    status: "REAL",
+    transport: "REAL",
+    finalizationLunaCalls: 0,
+    tokensUsed: 100,
+    tokensUsedAvailable: true,
+  };
+
+  const exactMatch = assertLunaStatsConsistency(
+    { ...baseStats, lunaSuccessfulBatches: 12830 },
     { validPassCount: 12830 },
   );
-  assert(pass.pass, "consistent luna stats pass");
+  assert(exactMatch.pass, "VALID_PASS 12830 + successful 12830 PASS");
+
+  const zeroSuccessful = assertLunaStatsConsistency(
+    { ...baseStats, lunaSuccessfulBatches: 0 },
+    { validPassCount: 12830 },
+  );
+  assert(!zeroSuccessful.pass, "VALID_PASS 12830 + successful 0 FAIL");
+  assert(zeroSuccessful.errors.includes("LUNA_SUCCESSFUL_BATCH_COUNT_MISMATCH"), "zero mismatch code");
+
+  const offByOne = assertLunaStatsConsistency(
+    { ...baseStats, lunaSuccessfulBatches: 12829 },
+    { validPassCount: 12830 },
+  );
+  assert(!offByOne.pass, "VALID_PASS 12830 + successful 12829 FAIL");
+  assert(offByOne.errors.includes("LUNA_SUCCESSFUL_BATCH_COUNT_MISMATCH"), "off-by-one mismatch code");
 
   const mockTransport = assertLunaStatsConsistency(
     { status: "REAL", transport: "MOCK", lunaSuccessfulBatches: 1, finalizationLunaCalls: 0 },
@@ -357,12 +372,6 @@ function testLunaStatsConsistencyGates() {
   assert(!mockTransport.pass, "REAL+MOCK transport fail-closed");
   assert(mockTransport.errors.includes("REAL_STATUS_WITH_MOCK_TRANSPORT"), "REAL+MOCK error code");
 
-  const zeroBatches = assertLunaStatsConsistency(
-    { status: "REAL", transport: "REAL", lunaSuccessfulBatches: 0, finalizationLunaCalls: 0 },
-    { validPassCount: 12830 },
-  );
-  assert(!zeroBatches.pass, "VALID_PASS with zero batches fail-closed");
-
   const unavailableTokens = assertLunaStatsConsistency({
     status: "REAL",
     transport: "REAL",
@@ -370,7 +379,7 @@ function testLunaStatsConsistencyGates() {
     finalizationLunaCalls: 0,
     tokensUsed: 0,
     tokensUsedAvailable: false,
-  });
+  }, { validPassCount: 1 });
   assert(!unavailableTokens.pass, "tokensUsed=0 without availability fail-closed");
 }
 
@@ -428,6 +437,7 @@ function testDryRunIfRequested() {
   assert(result.bundleIdentity?.match, "staged bundle identity match");
   assert(result.lunaStats?.transport === "REAL", "luna transport REAL");
   assert(result.lunaStats?.lunaSuccessfulBatches === 12830, "lunaSuccessfulBatches matches VALID_PASS");
+  assert(result.lunaStats?.lunaSuccessfulBatches === result.checkpointManifest?.validPassCount, "independent VALID_PASS match");
   assert(result.lunaStats?.lunaCalls === 15139, "lunaCalls baseline");
   assert(result.lunaStats?.lunaRetryAttempts === 763, "lunaRetryAttempts baseline");
   assert(result.lunaConsistency?.pass, "luna stats consistency pass");

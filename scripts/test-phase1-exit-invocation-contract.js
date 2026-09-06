@@ -110,6 +110,11 @@ function buildMinimalStagedBundle(tempRoot) {
       tokensUsed: null,
       tokensUsedAvailable: false,
     },
+    checkpointManifest: {
+      count: 318,
+      validPassCount: 318,
+      manifestSha256: "fixture-manifest-sha256",
+    },
     constraints: { lunaCalls: 15139, finalizationLunaCalls: 0 },
   };
   const matrixPath = path.join(tempRoot, "phase1-discovery-matrix.json");

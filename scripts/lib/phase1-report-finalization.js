@@ -101,13 +101,29 @@ function deriveLunaStatsFromRuntime(runId) {
   };
 }
 
+function getCheckpointManifestValidPassCount(runId) {
+  const scopes = getDeterministicScopeOrder().filter((scope) => scope.lunaApplicable);
+  let validPassCount = 0;
+  for (const scope of scopes) {
+    const checkpoints = listScopeCheckpoints(runId, scope.scopeId);
+    for (const checkpoint of checkpoints) {
+      if (checkpoint.status === "PASS") validPassCount += 1;
+    }
+  }
+  return validPassCount;
+}
+
 function assertLunaStatsConsistency(lunaStats, { validPassCount } = {}) {
   const errors = [];
   if (lunaStats?.status === "REAL" && lunaStats?.transport === "MOCK") {
     errors.push("REAL_STATUS_WITH_MOCK_TRANSPORT");
   }
-  const passCount = validPassCount ?? lunaStats?.lunaSuccessfulBatches ?? 0;
-  if (passCount > 0 && (lunaStats?.lunaSuccessfulBatches ?? 0) === 0) {
+  const reportedSuccessfulBatches = lunaStats?.lunaSuccessfulBatches ?? 0;
+  if (validPassCount != null) {
+    if (reportedSuccessfulBatches !== validPassCount) {
+      errors.push("LUNA_SUCCESSFUL_BATCH_COUNT_MISMATCH");
+    }
+  } else if (reportedSuccessfulBatches === 0 && (lunaStats?.lunaCalls ?? 0) > 0) {
     errors.push("VALID_PASS_WITH_ZERO_SUCCESSFUL_BATCHES");
   }
   if ((lunaStats?.finalizationLunaCalls ?? 0) !== 0) {
@@ -119,7 +135,12 @@ function assertLunaStatsConsistency(lunaStats, { validPassCount } = {}) {
   if (lunaStats?.tokensUsedAvailable === false && lunaStats?.tokensUsed != null) {
     errors.push("TOKENS_USED_SET_WITHOUT_AVAILABILITY");
   }
-  return { pass: errors.length === 0, errors };
+  return {
+    pass: errors.length === 0,
+    errors,
+    validPassCount,
+    lunaSuccessfulBatches: reportedSuccessfulBatches,
+  };
 }
 
 function hashMatrixForIdentity(matrix) {
@@ -243,13 +264,15 @@ function buildMatrixShellFromCheckpoints(runId, baseMatrix = {}) {
     historicalRealCalls === PHASE1_RUN_PROGRESS_BASELINE.realCalls &&
     historicalRetries === PHASE1_RUN_PROGRESS_BASELINE.retries;
   const runtimeLunaStats = deriveLunaStatsFromRuntime(runId);
+  const checkpointManifest = hashCheckpointManifest(runId);
+  const independentValidPassCount = getCheckpointManifestValidPassCount(runId);
   const lunaStats = {
     lunaScopesExpected: 318,
     lunaScopesProcessed: summary.filter((r) => r.lunaApplicable && r.lunaProcessed).length,
     ...runtimeLunaStats,
   };
   const lunaConsistency = assertLunaStatsConsistency(lunaStats, {
-    validPassCount: runtimeLunaStats.lunaSuccessfulBatches,
+    validPassCount: independentValidPassCount,
   });
   if (!lunaConsistency.pass) {
     const error = new Error(`LUNA_STATS_CONSISTENCY_FAILED: ${lunaConsistency.errors.join(", ")}`);
@@ -267,6 +290,10 @@ function buildMatrixShellFromCheckpoints(runId, baseMatrix = {}) {
       notApplicable: summary.filter((r) => r.applicability === "EXPECTED_NOT_APPLICABLE").length,
     },
     lunaStats,
+    checkpointManifest: {
+      ...checkpointManifest,
+      validPassCount: independentValidPassCount,
+    },
     constraints: {
       ...(baseMatrix.constraints || {}),
       lunaCalls: historicalRealCalls,
@@ -550,7 +577,7 @@ function runReportFinalizationDryRun({
     exitSimulation?.bundleIdentity?.ownerPrepSourceHash === expectedOwnerPrepSourceHash;
 
   const lunaConsistency = assertLunaStatsConsistency(built.matrix.lunaStats, {
-    validPassCount: built.matrix.lunaStats.lunaSuccessfulBatches,
+    validPassCount: built.matrix.checkpointManifest?.validPassCount,
   });
 
   const allPass =
@@ -605,6 +632,7 @@ function runReportFinalizationDryRun({
     exitPayloadError,
     finalizationLunaCalls: 0,
     lunaStats: built.matrix.lunaStats,
+    checkpointManifest: built.matrix.checkpointManifest,
     lunaConsistency,
     totalRealCalls: progressMetrics.realCalls,
     totalRetries: progressMetrics.retries,
@@ -624,6 +652,7 @@ module.exports = {
   loadRunManifest,
   countPassCheckpointsAndTokens,
   deriveLunaStatsFromRuntime,
+  getCheckpointManifestValidPassCount,
   assertLunaStatsConsistency,
   PHASE1_RUN_PROGRESS_BASELINE,
   buildMatrixShellFromCheckpoints,

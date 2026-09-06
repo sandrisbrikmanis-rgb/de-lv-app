@@ -209,8 +209,17 @@ function assertExitPreWriteGates({ matrix, evaluation, withLuna }) {
     throw error;
   }
   const { assertLunaStatsConsistency } = require("./lib/phase1-report-finalization");
+  const validPassCount = matrix.checkpointManifest?.validPassCount;
+  if (validPassCount == null) {
+    const error = new Error(
+      "PHASE1_EXIT_PREWRITE_GATE_FAILED: matrix missing checkpointManifest.validPassCount",
+    );
+    error.code = "PHASE1_EXIT_PREWRITE_GATE_FAILED";
+    error.field = "checkpointManifest.validPassCount";
+    throw error;
+  }
   const lunaConsistency = assertLunaStatsConsistency(matrix.lunaStats, {
-    validPassCount: matrix.lunaStats?.lunaSuccessfulBatches,
+    validPassCount,
   });
   if (!lunaConsistency.pass) {
     const error = new Error(
