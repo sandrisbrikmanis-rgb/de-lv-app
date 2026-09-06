@@ -1,0 +1,56 @@
+{
+  "bundleType": "PHASE1_CORRECTED_FULL_BUNDLE",
+  "classification": "PHASE1_COMPACT_PUBLICATION_READY_FOR_OWNER_REVIEW",
+  "runId": "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
+  "phase1ExitRerun": false,
+  "publicationModel": "GITHUB_RELEASE_ARTIFACT",
+  "release": {
+    "tag": "phase1-corrected-bundle-2026-09-06",
+    "draft": true,
+    "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/releases/tag/phase1-corrected-bundle-2026-09-06",
+    "assetName": "phase1-corrected-full-bundle.tar.gz",
+    "assetUrl": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/releases/download/phase1-corrected-bundle-2026-09-06/phase1-corrected-full-bundle.tar.gz",
+    "assetBytes": 24647639,
+    "assetSha256": "ce00255490e797271039f2fb2a98670707198ffd4c8174bf3296c22f409b1cb2"
+  },
+  "identity": {
+    "originalExitGeneratedAt": "2026-09-06T06:22:52.034Z",
+    "originalMatrixIdentitySha256": "f006124e8dac4312379f7ec809e03d36210abbc300b6a93092e845dda96d41ab",
+    "correctedMatrixIdentitySha256": "966a31529b82f0005b46bb059acfc655bde1045b34cd04852cba3f0cd892c965",
+    "ownerPrepSourceHash": "4619128258eaccd9dc29d22a3a696991fa089de3adc2f50df6226e7d99499687",
+    "checkpointManifestSha256": "56e000bf4b2373e4849332216ca9fa51644b2311d6ce0e74b146af4b6d0bd304",
+    "checkpointValidPassCount": 12830
+  },
+  "archiveContents": [
+    {
+      "path": "phase1-discovery-matrix.json",
+      "sha256": "d570635f0943b50e100b37ca2ced5cc06c313a6ab277755572cf4e372768a051"
+    },
+    {
+      "path": "phase1-exit.json",
+      "sha256": "ec43263144df1ce5622b3cd46a9c47c143239951d94e484a35ed921f2d07564b"
+    },
+    {
+      "path": "phase1-exit.md",
+      "sha256": "ded56185844a8147e7af2d4c5b184e542bf6442224215c25aa35e96c10f2ab21"
+    },
+    {
+      "path": "bundle-provenance.json",
+      "sha256": "80fda3ca0a7e9224d67cce08c09617ee17531876c61224dfadc2165d997bd7fd"
+    },
+    {
+      "path": "phase1-owner-prep/phase1-full-owner-view.md",
+      "sha256": "719bcffc8ad6429924cdec76b397ed2e0f32e6520f2dc54c2085c479c6d5d7ca"
+    },
+    {
+      "path": "phase1-owner-prep/phase1-full-owner-decisions.md",
+      "sha256": "d25a061638c3f645d4d002a292a34e1ec80dba44db6d84c6193d944d5e5213d3"
+    },
+    {
+      "path": "bundle-sha256-manifest.json",
+      "note": "included inside archive"
+    }
+  ],
+  "replacesPr": 708,
+  "infraPr": 709
+}
