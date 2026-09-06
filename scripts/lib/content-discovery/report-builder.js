@@ -107,6 +107,36 @@ function writeReportAtomic(targetPath, data) {
   return targetPath;
 }
 
+function writeReportAtomicStream(targetPath, writeFn) {
+  const dir = path.dirname(targetPath);
+  fs.mkdirSync(dir, { recursive: true });
+  const tempPath = path.join(dir, `.${path.basename(targetPath)}.${process.pid}.tmp`);
+  let fd;
+  try {
+    fd = fs.openSync(tempPath, "w");
+    writeFn((chunk) => fs.writeSync(fd, chunk, "utf8"));
+    fs.fsyncSync(fd);
+    fs.closeSync(fd);
+    fd = null;
+    fs.renameSync(tempPath, targetPath);
+  } catch (error) {
+    if (fd != null) {
+      try {
+        fs.closeSync(fd);
+      } catch (_) {
+        /* ignore */
+      }
+    }
+    try {
+      if (fs.existsSync(tempPath)) fs.unlinkSync(tempPath);
+    } catch (_) {
+      /* ignore */
+    }
+    throw error;
+  }
+  return targetPath;
+}
+
 function buildPhase1MatrixSkeleton({ originMainSha, masterVersion, status, mode = "READ_ONLY" }) {
   return {
     phase: 1,
@@ -156,5 +186,6 @@ module.exports = {
   normalizeOperationalPaths,
   findAbsoluteOperationalPaths,
   writeReportAtomic,
+  writeReportAtomicStream,
   buildPhase1MatrixSkeleton,
 };

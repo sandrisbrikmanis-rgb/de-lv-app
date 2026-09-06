@@ -9,6 +9,22 @@ const {
   redactSecrets,
 } = require("./luna-phase1-openai");
 
+function rejectOnAbort(signal, reject) {
+  if (!signal) return null;
+  const onAbort = () => {
+    const err = new Error("TIMEOUT");
+    err.code = "TIMEOUT";
+    err.name = "AbortError";
+    reject(err);
+  };
+  if (signal.aborted) {
+    onAbort();
+    return null;
+  }
+  signal.addEventListener("abort", onAbort, { once: true });
+  return onAbort;
+}
+
 function createMockLunaTransport(fixtureMap = {}) {
   return {
     mode: "MOCK",
@@ -19,9 +35,26 @@ function createMockLunaTransport(fixtureMap = {}) {
     getRealCalls() {
       return 0;
     },
-    async call(payload) {
+    async call(payload, callOptions = {}) {
+      const { signal } = callOptions;
       const key = `${payload.adapter}:${payload.scopeId}`;
       const fixture = fixtureMap[key] || fixtureMap[payload.adapter] || fixtureMap.default;
+
+      if (fixture?.hang) {
+        return new Promise((resolve, reject) => {
+          const onAbort = rejectOnAbort(signal, reject);
+          if (!onAbort && signal?.aborted) return;
+          if (fixture.hang === "forever") return;
+          setTimeout(() => {
+            if (signal?.aborted) return;
+            resolve({
+              items: payload.objects.map((obj) => ({ ...obj, id: obj.id, status: "PASS" })),
+              tokensUsed: fixture.tokensUsed || 0,
+            });
+          }, fixture.hangDelayMs || 60_000);
+        });
+      }
+
       if (!fixture) {
         return {
           items: payload.objects.map((obj, idx) => ({
@@ -59,9 +92,12 @@ function createMockLunaTransport(fixtureMap = {}) {
   };
 }
 
+function isRealLunaTransport(transport) {
+  return Boolean(transport && (transport.mode === "REAL" || transport.transport === "REAL"));
+}
+
 function createRealLunaTransport(options = {}) {
   let totalRealCalls = 0;
-  let pendingDelta = 0;
   const model = options.model || DEFAULT_MODEL;
 
   return {
@@ -69,15 +105,12 @@ function createRealLunaTransport(options = {}) {
     transport: "REAL",
     model,
     get realCallsDelta() {
-      const delta = pendingDelta;
-      pendingDelta = 0;
-      return delta;
+      return 0;
     },
     getRealCalls() {
       return totalRealCalls;
     },
-    async call(payload) {
-      pendingDelta = 1;
+    async call(payload, callOptions = {}) {
       totalRealCalls += 1;
       try {
         const batchId = `batch-${totalRealCalls}`;
@@ -98,12 +131,16 @@ function createRealLunaTransport(options = {}) {
           model,
           writeRawPath: rawPath,
           client: options.client,
+          signal: callOptions.signal,
+          recoveryContext: callOptions.recoveryContext || null,
         });
         return {
           items: result.items,
           tokensUsed: result.tokensUsed,
           usage: result.usage,
           model: result.model,
+          idRecoveryParsedInTransport: result.idRecoveryParsedInTransport === true,
+          idRecoveries: result.idRecoveries || [],
         };
       } catch (error) {
         throw new Error(redactSecrets(error.message || String(error)));
@@ -124,4 +161,5 @@ module.exports = {
   createLunaTransport,
   createMockLunaTransport,
   createRealLunaTransport,
+  isRealLunaTransport,
 };

@@ -1,0 +1,115 @@
+{
+  "phase": 1,
+  "status": "PHASE_1_COMPLETE",
+  "generatedAt": "2026-09-06T06:52:17.378Z",
+  "originMainSha": "6cfb96105f7f741f6052d20ee1d1e342f198fda2",
+  "masterVersion": "1.12",
+  "ownerDecisionRef": "PENDING",
+  "phase1StartAuthorizationRef": "OWNER-APPROVED-2026-08-29",
+  "phase1TechnicalOwnerDecisionRef": "PENDING",
+  "scope": {
+    "expected": 320,
+    "processed": 320,
+    "notApplicable": 2,
+    "lunaApplicable": 318,
+    "inventoryApplicable": 309,
+    "multiScanApplicable": 309
+  },
+  "gates": {
+    "F1-1": "PASS",
+    "F1-2": "PASS",
+    "F1-3": "PASS",
+    "F1-4": "PASS",
+    "F1-5": "PASS",
+    "F1-6": "PASS",
+    "F1-7": "PASS",
+    "F1-8": "PASS",
+    "F1-9": "PASS"
+  },
+  "coverage": {
+    "deterministic": "320/320",
+    "mainTranslationFieldInventory": "309/309",
+    "multiTranslationScan": "309/309",
+    "lunaAudit": "318/318"
+  },
+  "constraints": {
+    "productionChanges": 0,
+    "deChanges": 0,
+    "crowdinProductionImport": 0,
+    "translationApply": 0
+  },
+  "lunaStats": {
+    "lunaScopesExpected": 318,
+    "lunaScopesProcessed": 318,
+    "transport": "REAL",
+    "lunaSuccessfulBatches": 12830,
+    "lunaCalls": 15139,
+    "lunaRetryAttempts": 763,
+    "finalizationLunaCalls": 0,
+    "status": "REAL",
+    "failures": [],
+    "tokensUsed": 62959532,
+    "tokensUsedAvailable": true
+  },
+  "productionDiff": {
+    "clean": true,
+    "changedFiles": []
+  },
+  "details": {
+    "F1_1": {
+      "pass": true,
+      "status": "PASS"
+    },
+    "F1_2": {
+      "pass": true,
+      "status": "PASS",
+      "processed": 320,
+      "expected": 320,
+      "notApplicable": 2
+    },
+    "F1_3": {
+      "pass": true,
+      "status": "PASS",
+      "coverage": "309/309"
+    },
+    "F1_4": {
+      "pass": true,
+      "status": "PASS",
+      "coverage": "309/309"
+    },
+    "F1_5": {
+      "pass": true,
+      "status": "PASS",
+      "coverage": "318/318"
+    },
+    "F1_6": {
+      "pass": true,
+      "status": "PASS",
+      "schemaErrors": 0,
+      "unclassifiedCount": 0
+    },
+    "F1_7": {
+      "pass": true,
+      "status": "PASS",
+      "productionDiffClean": true
+    },
+    "F1_8": {
+      "pass": true,
+      "status": "PASS",
+      "validatedFindings": 161500,
+      "ownerPrepCoverage": {
+        "pass": true,
+        "OWNER_PREP_FILES_EXIST": true,
+        "EXPECTED_VALIDATED_FINDINGS": 161500,
+        "OWNER_PREP_ROWS": 161500,
+        "MISSING_AUDIT_IDS": 0,
+        "EXTRA_AUDIT_IDS": 0,
+        "DUPLICATE_AUDIT_IDS": 0,
+        "ALL_INITIAL_STATUSES_PENDING": true,
+        "SOURCE_HASH_MATCH": true,
+        "sourceHash": "4619128258eaccd9dc29d22a3a696991fa089de3adc2f50df6226e7d99499687"
+      }
+    }
+  },
+  "pass": true
+}

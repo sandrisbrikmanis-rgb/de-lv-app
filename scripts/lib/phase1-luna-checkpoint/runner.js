@@ -3,12 +3,13 @@
 
 const fs = require("fs");
 const path = require("path");
-const { DEFAULT_MODEL } = require("../luna-phase1-openai");
+const { DEFAULT_MODEL, redactSecrets } = require("../luna-phase1-openai");
 const { runBatchedAdapter } = require("../luna-adapter-runner");
 const { adapterKey, ADAPTER_BY_SCOPE } = require("../luna-orchestrator");
 const {
   RUNS_ROOT,
   HEARTBEAT_INTERVAL_MS,
+  checkpointFilePath,
 } = require("./constants");
 const { writeJsonAtomic } = require("./atomic-io");
 const {
@@ -26,8 +27,20 @@ const {
   saveBatchCheckpoint,
   loadConfirmedCheckpoints,
   stableBatchId,
+  validateBatchCheckpoint,
+  classifyCheckpointValidation,
+  buildExternalBatchValidationContext,
 } = require("./batch-checkpoint");
 const { normalizeLunaItemsToFindings } = require("./findings");
+const { getCheckpointFindings } = require("./finding-reconstruction");
+const { buildLunaRequestPayload } = require("./object-identity");
+const {
+  computeRequestHashVersions,
+  extractRequestHashVersions,
+  REQUEST_HASH_V1_CHECKPOINT_PAYLOAD,
+  REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD,
+} = require("./request-hash");
+const { hashRequestInput } = require("./hash");
 const { prepareResumeContext, buildExpectedIdentity } = require("./resume");
 const { createInterruptState, installSignalHandlers, assertNotInterrupted } = require("./signals");
 const { runBaselineGate } = require("../content-discovery/baseline-gate");
@@ -95,27 +108,62 @@ function createCheckpointHooks({
       const batchId = stableBatchId(scope.scopeId, batchIndex, expectedIds);
       const existing = confirmedByBatchId.get(batchId);
       if (!existing) return false;
-      const requestHash = require("./hash").hashRequestInput(requestPayload);
-      const validation = require("./batch-checkpoint").validateBatchCheckpoint(existing, {
+      const adapterName = adapterKey(scope.group, scope.dataset);
+      const v1Hash = hashRequestInput(requestPayload);
+      const canonicalVersions = extractRequestHashVersions(
+        computeRequestHashVersions(scope.scopeId, adapterName, batch),
+      );
+      const hashVersions = {
+        [REQUEST_HASH_V1_CHECKPOINT_PAYLOAD]: v1Hash,
+        [REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD]: canonicalVersions[REQUEST_HASH_V2_CANONICAL_LUNA_PAYLOAD],
+      };
+      const filePath = checkpointFilePath(runId, scope.scopeId, batchId);
+      const validation = validateBatchCheckpoint(existing, {
         expectedRunId: runId,
         scopeId: scope.scopeId,
         batchIndex,
         expectedIds,
-        requestInputHash: requestHash,
+        requestInputHashVersions: hashVersions,
       });
-      if (!validation.ok) {
+      const classification = classifyCheckpointValidation(validation, existing, {
+        scopeId: scope.scopeId,
+        filePath,
+      });
+      if (
+        classification === "RESUMABLE_INVALID" ||
+        classification === "UNTRUSTED_LOCAL_PATCH_RUN" ||
+        classification === "UNTRUSTED_ID_MAPPING_RUN" ||
+        classification === "PARTIAL"
+      ) {
+        return false;
+      }
+      if (classification !== "VALID_PASS") {
         const err = new Error(`Corrupt checkpoint for ${batchId}: ${validation.issues.join(",")}`);
         err.code = "CHECKPOINT_CORRUPT";
         throw err;
       }
       skippedBatches += 1;
-      resumedFindings.push(...(existing.normalizedFindings || []));
+      const checkpointFindings = getCheckpointFindings(existing, scope);
+      if (checkpointFindings.identityStatus === "CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE") {
+        const err = new Error(`CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE: ${batchId}`);
+        err.code = "CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE";
+        throw err;
+      }
+      resumedFindings.push(...(checkpointFindings.findings || []));
       return { skip: true, checkpoint: existing };
     },
     onBatchPass({ batchIndex, batch, getId, requestPayload, rawResult, attemptCount, tokensUsed, startedAt }) {
       const expectedIds = batch.map(getId);
       const normalizedFindings = normalizeLunaItemsToFindings(rawResult.items, scope, {
         productionFile: batch[0]?.productionFile,
+      });
+      const validationContext = buildExternalBatchValidationContext({
+        runId,
+        scopeId: scope.scopeId,
+        batchIndex,
+        expectedObjects: batch,
+        getId,
+        requestPayload,
       });
       const checkpoint = buildBatchCheckpoint({
         runId,
@@ -132,7 +180,7 @@ function createCheckpointHooks({
         transport,
         startedAt,
       });
-      saveBatchCheckpoint(checkpoint);
+      saveBatchCheckpoint(checkpoint, validationContext);
       touchRunLock(runId);
       return checkpoint;
     },
@@ -164,7 +212,8 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
 
   const batchSize = options.batchSize || getBatchSizeForScope(scope);
   const getId = getObjectId;
-  const serialize = (obj) => obj;
+  const serializeLuna = (obj) => buildLunaRequestPayload(scope.scopeId, obj);
+  const serializeCheckpoint = (obj) => obj;
 
   const hooks = createCheckpointHooks({
     runId,
@@ -191,7 +240,8 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
       transport,
       objects: limited,
       getId,
-      serialize,
+      serialize: serializeLuna,
+      serializeCheckpoint,
       batchSize,
       scopeId: scope.scopeId,
       adapterName: key,
@@ -202,21 +252,33 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
     const skipped = hooks.getSkippedStats();
     const allFindings = [
       ...skipped.resumedFindings,
-      ...(result.checkpoints || []).flatMap((cp) => cp.normalizedFindings || []),
+      ...(result.checkpoints || []).flatMap((cp) => {
+        const checkpointFindings = getCheckpointFindings(cp, scope);
+        return checkpointFindings.findings || [];
+      }),
     ];
 
     const currentProgress = require("./atomic-io").readJsonFileIfExists(require("./constants").progressPath(runId)) || {};
-    updateProgressAtomic(runId, {
-      scopesCompleted: (currentProgress.scopesCompleted || 0) + 1,
+    const nextAttemptSeq =
+      (currentProgress.scopeAttemptSequence ?? currentProgress.scopesCompleted ?? 0) + 1;
+    const progressPatch = {
+      scopeAttemptSequence: nextAttemptSeq,
+      scopesCompleted: nextAttemptSeq,
       skippedBatches: (currentProgress.skippedBatches || 0) + skipped.skippedBatches,
       realCalls: (currentProgress.realCalls || 0) + (result.stats?.realCalls || 0),
       tokensUsed: (currentProgress.tokensUsed || 0) + (result.stats?.tokensUsed || 0),
       retries: (currentProgress.retries || 0) + (result.stats?.retries || 0),
       batchesCompleted: (currentProgress.batchesCompleted || 0) + (result.stats?.batches || 0),
       objectsProcessed: (currentProgress.objectsProcessed || 0) + (result.stats?.objectsReturned || 0),
-      lastSuccessfulBatchId: result.lastBatchId || null,
+      lastSuccessfulBatchId: result.ok ? result.lastBatchId || null : currentProgress.lastSuccessfulBatchId || null,
       currentScopeId: scope.scopeId,
-    });
+    };
+    if (!result.ok) {
+      progressPatch.lastError = redactSecrets(String(result.reason || "UNKNOWN"));
+    } else {
+      progressPatch.lastError = null;
+    }
+    updateProgressAtomic(runId, progressPatch);
 
     return {
       ...result,
@@ -237,7 +299,11 @@ function finalizeRun(runId, status) {
     manifest.endedAt = new Date().toISOString();
     writeJsonAtomic(manifestFile, manifest);
   }
-  updateProgressAtomic(runId, { status });
+  const progressPatch = { status };
+  if (status === "COMPLETED") {
+    progressPatch.lastError = null;
+  }
+  updateProgressAtomic(runId, progressPatch);
   releaseRunLock(runId);
 }
 

@@ -46,7 +46,17 @@ function writePhase1ScopeInventory(options = {}) {
   return { inventory, outPath: toRepoRelativePath(outPath) };
 }
 
+function readPhase1ScopeInventoryRef(options = {}) {
+  const outPath =
+    options.outPath || path.join(ROOT, "reports", "phase1-scope-inventory.json");
+  if (!fs.existsSync(outPath)) {
+    return { ok: false, code: "SCOPE_INVENTORY_MISSING", outPath: toRepoRelativePath(outPath) };
+  }
+  return { ok: true, outPath: toRepoRelativePath(outPath), readOnly: true };
+}
+
 module.exports = {
   buildPhase1ScopeInventory,
   writePhase1ScopeInventory,
+  readPhase1ScopeInventoryRef,
 };

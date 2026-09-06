@@ -6,20 +6,36 @@ const {
   pathFamilyKey,
 } = require("../discovery-stability");
 
+function scopeSemanticIssueSignature(finding) {
+  const cardId = finding.cardId || finding.nodePath || "aggregate";
+  const fieldPath = finding.fieldPath || finding.field || "";
+  const scopeId = finding.scopeId || `${finding.group}/${finding.dataset}/${finding.lang}`;
+  const lang = finding.lang || scopeId.split("/")[2] || "";
+  const base = require("../discovery-stability").semanticIssueSignature(
+    cardId,
+    fieldPath,
+    finding.reason || finding.message || finding.current || "",
+    finding.category || "UNKNOWN",
+  );
+  return `${scopeId}|${lang}|${base}`;
+}
+
+function scopePathFamilyKey(finding) {
+  const cardId = finding.cardId || finding.nodePath || "aggregate";
+  const fieldPath = finding.fieldPath || finding.field || "";
+  const scopeId = finding.scopeId || `${finding.group}/${finding.dataset}/${finding.lang}`;
+  const lang = finding.lang || scopeId.split("/")[2] || "";
+  const base = require("../discovery-stability").pathFamilyKey(cardId, fieldPath);
+  return `${scopeId}|${lang}|${base}`;
+}
+
 function applySemanticRegistryDedup(findings = [], registry = new Map(), options = {}) {
   const conflicts = [];
   const output = [];
 
   for (const finding of findings) {
-    const cardId = finding.cardId || finding.nodePath || "aggregate";
-    const fieldPath = finding.fieldPath || finding.field || "";
-    const signature = semanticIssueSignature(
-      cardId,
-      fieldPath,
-      finding.reason || finding.message || finding.current || "",
-      finding.category || "UNKNOWN",
-    );
-    const familyKey = pathFamilyKey(cardId, fieldPath);
+    const signature = scopeSemanticIssueSignature(finding);
+    const familyKey = scopePathFamilyKey(finding);
 
     if (options.strictConflict && registry.has(signature) && registry.get(signature) !== finding.dedupKey) {
       conflicts.push({ signature, findingA: registry.get(signature), findingB: finding.dedupKey });

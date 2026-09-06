@@ -15,7 +15,8 @@ const {
   writeClassificationReports,
 } = require("./unmerged-closure-classifier");
 
-function runBaselineGate() {
+function runBaselineGate(options = {}) {
+  const writeReports = options.writeReports !== false;
   const origin = resolveOriginMainSha();
   const originMainSha = origin.sha;
   const headResult = git("git rev-parse HEAD");
@@ -68,10 +69,12 @@ function runBaselineGate() {
 
   if (origin.fetchStatus === "PASS" && origin.revParseStatus === "PASS") {
     closureClassification = classifyUnmergedClosureCandidates();
-    classificationReports = writeClassificationReports(closureClassification, {
-      outJson: path.join(ROOT, "reports", "unmerged-closure-classification-READONLY.json"),
-      outMd: path.join(ROOT, "reports", "unmerged-closure-classification-READONLY.md"),
-    });
+    if (writeReports) {
+      classificationReports = writeClassificationReports(closureClassification, {
+        outJson: path.join(ROOT, "reports", "unmerged-closure-classification-READONLY.json"),
+        outMd: path.join(ROOT, "reports", "unmerged-closure-classification-READONLY.md"),
+      });
+    }
 
     if (!closureClassification.ok) {
       blockers.push({

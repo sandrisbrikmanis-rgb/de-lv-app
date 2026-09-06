@@ -1,0 +1,19 @@
+{
+  "runId": "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
+  "repairBaseHead": "fe2eb5ffe082a0019b40250e1849f69bdde4bf75",
+  "referenceCheckpoint": {
+    "relPath": "g2_b1_lb/batch-67-4a93c93f28b91fd0.json",
+    "batchId": "batch-67-4a93c93f28b91fd0",
+    "expectedIdsHash": "d1b498f912d6a5f844793e56cd3209acc8f40cd79b0a85c83768cf98c86230af",
+    "requestInputHash": "f3010ed8c5cbf0561428359238fe2c99a449133c2009244042802b146fb81887",
+    "sha256": "509d5980db8742ab304e07c913dc12e5fa3287f6b8a9121ef18761ef53540b63"
+  },
+  "frozenCheckpointSha256": {
+    "g2_b2_fr/batch-37-23aa54ec8c5fa15b.json": "9e745e1203700447d4242b9158140a73ef64c610d4ec923b2fe4fcf96d47274c",
+    "g2_b2_hu/batch-11-6f57f775138b613b.json": "c5b1f296ded48508f532fa070a9fe50c897ba189191c3b70559702e26408f8ff",
+    "g2_b2_sk/batch-81-fec5b70fa9873ca8.json": "dc17cb73e7e79c22adbb18cbe3cd8d48474ddc263d1a6913ea40eee6729cff61",
+    "g2_c1_bs/batch-12-737d9c17125bd706.json": "4b5537efe9b2e41a569d56e5dbadb0af45c2e2ee09f564e21faac6a473915206",
+    "g2_b1_lb/batch-67-4a93c93f28b91fd0.json": "509d5980db8742ab304e07c913dc12e5fa3287f6b8a9121ef18761ef53540b63"
+  },
+  "runArtifactRoot": "/workspace/reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints"
+}

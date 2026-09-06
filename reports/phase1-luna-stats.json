@@ -1,0 +1,16 @@
+{
+  "lunaScopesExpected": 318,
+  "lunaScopesProcessed": 1,
+  "lunaCalls": 0,
+  "lunaSuccessfulBatches": 0,
+  "lunaRetryAttempts": 2,
+  "failures": [
+    {
+      "scopeId": "g2/a1/et",
+      "reason": "PARTIAL_RESPONSE"
+    }
+  ],
+  "transport": "MOCK",
+  "status": "MOCK",
+  "tokensUsed": 0
+}

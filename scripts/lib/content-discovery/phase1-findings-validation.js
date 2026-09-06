@@ -14,6 +14,7 @@ const ALLOWED_CLASSIFICATION = new Set([
 ]);
 
 const ALLOWED_SEVERITY = new Set(["CRITICAL", "HIGH", "MEDIUM", "LOW", "INFO"]);
+const { applyOwnerSeverityMappings } = require("./phase1-owner-severity-mapping");
 
 function buildFindingStableId(finding) {
   const scopeId = finding.scopeId || `${finding.group}/${finding.dataset}/${finding.lang}`;
@@ -25,12 +26,25 @@ function buildFindingStableId(finding) {
 }
 
 function buildDedupKey(finding) {
-  const group = finding.group || "";
-  const dataset = finding.dataset || "";
+  const scopeId = finding.scopeId || `${finding.group}/${finding.dataset}/${finding.lang}`;
+  const parts = String(scopeId).split("/");
+  const lang = finding.lang || parts[2] || "";
+  const group = finding.group || parts[0] || "";
+  const dataset = finding.dataset || parts[1] || "";
   const cardId = finding.cardId || finding.nodePath || "aggregate";
   const fieldPath = (finding.fieldPath || finding.field || "").trim().replace(/\s+/g, " ");
   const category = finding.category || "UNKNOWN";
-  return `${group}|${dataset}|${cardId}|${fieldPath}|${category}`;
+  const objectIndex = resolveObjectIndexForDedup(finding);
+  return `${scopeId}|${lang}|${group}|${dataset}|${cardId}|idx:${objectIndex}|${fieldPath}|${category}`;
+}
+
+function resolveObjectIndexForDedup(finding) {
+  if (finding.objectIndex != null) return finding.objectIndex;
+  const fromStable = String(finding.findingStableId || "").match(/\|idx:([^|]+)\|/);
+  if (fromStable) return fromStable[1];
+  const fromDedup = String(finding.dedupKey || "").match(/\|idx:([^|]+)\|/);
+  if (fromDedup) return fromDedup[1];
+  return "?";
 }
 
 function normalizeFinding(finding, index = 0) {
@@ -102,11 +116,25 @@ function validateFindingSchema(finding, index = 0) {
 }
 
 function validateFindings(findings = []) {
+  const ownerMapping = applyOwnerSeverityMappings(findings);
+  if (ownerMapping.mappingErrors.length > 0) {
+    const first = ownerMapping.mappingErrors[0];
+    const expectedLabel = Array.isArray(first.expectedVariants)
+      ? first.expectedVariants.join(" | ")
+      : String(first.expected ?? "");
+    const err = new Error(
+      `OWNER_MAPPING_MISMATCH for ${first.findingId}: expected ${first.field} in [${expectedLabel}], got ${first.actual}`,
+    );
+    err.code = "OWNER_MAPPING_MISMATCH";
+    err.mappingErrors = ownerMapping.mappingErrors;
+    throw err;
+  }
+
   const schemaErrors = [];
   const normalized = [];
   let unclassifiedCount = 0;
 
-  findings.forEach((finding, index) => {
+  ownerMapping.findings.forEach((finding, index) => {
     const { finding: f, errors } = validateFindingSchema(finding, index);
     normalized.push(f);
     schemaErrors.push(...errors);
@@ -144,6 +172,9 @@ function validateFindings(findings = []) {
     excludedCount,
     totalRawFindings: normalized.length,
     findings: normalized,
+    ownerMappingApplied: ownerMapping.ownerMappingApplied,
+    ownerMappingExpected: ownerMapping.ownerMappingExpected,
+    ownerSeverityNormalizationProofs: ownerMapping.proofs,
   };
 }
 
@@ -152,6 +183,7 @@ module.exports = {
   ALLOWED_SEVERITY,
   buildFindingStableId,
   buildDedupKey,
+  resolveObjectIndexForDedup,
   normalizeFinding,
   validateFindingSchema,
   validateFindings,

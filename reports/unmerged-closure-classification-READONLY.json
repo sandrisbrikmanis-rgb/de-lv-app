@@ -1,17 +1,17 @@
 {
   "ok": true,
-  "generatedAt": "2026-08-29T05:49:34.990Z",
+  "generatedAt": "2026-09-01T06:09:56.598Z",
   "mode": "READ_ONLY",
   "ghPrLookupError": null,
-  "unmergedClosureCountRaw": 90,
+  "unmergedClosureCountRaw": 91,
   "autoSummary": {
-    "INTEGRATED_HISTORICAL": 37,
+    "INTEGRATED_HISTORICAL": 38,
     "CLOSED_SUPERSEDED": 53,
     "ACTIVE_UNMERGED_CLOSURE": 0,
     "NEEDS_OWNER_REVIEW": 0
   },
   "summary": {
-    "INTEGRATED_HISTORICAL": 37,
+    "INTEGRATED_HISTORICAL": 38,
     "CLOSED_SUPERSEDED": 53,
     "ACTIVE_UNMERGED_CLOSURE": 0,
     "NEEDS_OWNER_REVIEW": 0
@@ -2332,6 +2332,23 @@
         "state": "OPEN",
         "isDraft": false,
         "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/373"
+      },
+      "ownerDecision": null,
+      "finalCategory": "INTEGRATED_HISTORICAL"
+    },
+    {
+      "ref": "origin/cursor/phase1-luna-infra-repair-6338",
+      "headRefName": "cursor/phase1-luna-infra-repair-6338",
+      "tipSha": "7ec7e924c386dbbaffb235ab292a81745fe4b6d2",
+      "category": "INTEGRATED_HISTORICAL",
+      "reason": "No production content blob diff vs origin/main",
+      "productionContentDiffFiles": [],
+      "productionCandidateFiles": [],
+      "pr": {
+        "number": 705,
+        "state": "OPEN",
+        "isDraft": true,
+        "url": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/705"
       },
       "ownerDecision": null,
       "finalCategory": "INTEGRATED_HISTORICAL"

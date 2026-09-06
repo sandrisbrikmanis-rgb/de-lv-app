@@ -4,7 +4,7 @@
 const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
-const { writeReportAtomic } = require("./lib/content-discovery/report-builder");
+const { writeReportAtomic, writeReportAtomicStream } = require("./lib/content-discovery/report-builder");
 
 const PHASE1_OWNER_PREP_DIR = "reports/phase1-owner-prep";
 const PHASE1_OWNER_VIEW_FILE = "phase1-full-owner-view.md";
@@ -24,11 +24,13 @@ function normalizeOwnerPrepFindings(findings = []) {
 
 function buildPhase1OwnerView(findings = [], options = {}) {
   const rows = normalizeOwnerPrepFindings(findings);
+  const sourceHash = options.sourceHash;
   const lines = [
     "# Phase 1 — OWNER preview (phase1-full)",
     "",
     `**Findings:** ${rows.length}`,
     `**Generated:** ${options.generatedAt || new Date().toISOString()}`,
+    sourceHash ? `**Source hash:** \`${sourceHash}\`` : null,
     "",
     options.mockNote ? `> ${options.mockNote}` : "",
     options.mockNote ? "" : null,
@@ -68,13 +70,62 @@ function buildPhase1OwnerDecisions(findings = []) {
     "|----------|-------------------|-----------|------|-------|----------|----------|---------|--------|--------------|",
   ];
 
+  const escapeCell = (value) => String(value ?? "—").replace(/\|/g, "\\|");
+
   for (const f of rows) {
     lines.push(
-      `| ${f.auditId || "—"} | ${f.findingStableId || "—"} | ${f.dedupKey || "—"} | ${f.cardId || "—"} | ${f.fieldPath || "—"} | ${f.category || "—"} | ${f.severity || "—"} | ${String(f.current || "").replace(/\|/g, "\\|")} | ${f.source || "—"} | PENDING |`,
+      `| ${escapeCell(f.auditId)} | ${escapeCell(f.findingStableId)} | ${escapeCell(f.dedupKey)} | ${escapeCell(f.cardId)} | ${escapeCell(f.fieldPath)} | ${escapeCell(f.category)} | ${escapeCell(f.severity)} | ${escapeCell(f.current)} | ${escapeCell(f.source)} | PENDING |`,
     );
   }
 
   return `${lines.join("\n")}\n`;
+}
+
+function writePhase1OwnerViewStream(findings = [], options = {}, write) {
+  const rows = normalizeOwnerPrepFindings(findings);
+  const sourceHash = options.sourceHash;
+  write("# Phase 1 — OWNER preview (phase1-full)\n\n");
+  write(`**Findings:** ${rows.length}\n`);
+  write(`**Generated:** ${options.generatedAt || new Date().toISOString()}\n`);
+  if (sourceHash) write(`**Source hash:** \`${sourceHash}\`\n`);
+  write("\n");
+  if (options.mockNote) {
+    write(`> ${options.mockNote}\n\n`);
+  }
+
+  for (let index = 0; index < rows.length; index += 1) {
+    const finding = rows[index];
+    write(`## Finding ${index + 1}\n\n`);
+    write(`**Audit ID:** \`${finding.auditId || "—"}\`\n`);
+    write(`**Finding Stable ID:** \`${finding.findingStableId || "—"}\`\n`);
+    write(`**Dedup key:** \`${finding.dedupKey || "—"}\`\n`);
+    write(`**Scope:** \`${finding.scopeId || "—"}\`\n`);
+    write(`**Card:** \`${finding.cardId || "—"}\`\n`);
+    write(`**Field:** \`${finding.fieldPath || "—"}\`\n`);
+    write(`**Category:** ${finding.category || "—"}\n`);
+    write(`**Severity:** ${finding.severity || "—"}\n`);
+    write(`**Source:** ${finding.source || "—"}\n`);
+    write(`**Current:** ${finding.current || "—"}\n`);
+    write(`**Proposed:** ${finding.proposed || "—"}\n`);
+    write("**OWNER STATUS:** PENDING\n\n---\n\n");
+  }
+}
+
+function writePhase1OwnerDecisionsStream(findings = [], write) {
+  const rows = normalizeOwnerPrepFindings(findings);
+  const escapeCell = (value) => String(value ?? "—").replace(/\|/g, "\\|");
+  write("# Phase 1 OWNER decisions\n\n");
+  write(
+    "| Audit ID | Finding Stable ID | Dedup key | Card | Field | Category | Severity | CURRENT | Source | OWNER STATUS |\n",
+  );
+  write(
+    "|----------|-------------------|-----------|------|-------|----------|----------|---------|--------|--------------|\n",
+  );
+  for (const f of rows) {
+    write(
+      `| ${escapeCell(f.auditId)} | ${escapeCell(f.findingStableId)} | ${escapeCell(f.dedupKey)} | ${escapeCell(f.cardId)} | ${escapeCell(f.fieldPath)} | ${escapeCell(f.category)} | ${escapeCell(f.severity)} | ${escapeCell(f.current)} | ${escapeCell(f.source)} | PENDING |\n`,
+    );
+  }
 }
 
 function writePhase1OwnerPrepReviewFiles(findings = [], options = {}) {
@@ -84,9 +135,15 @@ function writePhase1OwnerPrepReviewFiles(findings = [], options = {}) {
 
   const viewPath = path.join(outDir, PHASE1_OWNER_VIEW_FILE);
   const decisionsPath = path.join(outDir, PHASE1_OWNER_DECISIONS_FILE);
+  const useStream = options.stream !== false && findings.length > 1000;
 
-  writeReportAtomic(viewPath, buildPhase1OwnerView(findings, options));
-  writeReportAtomic(decisionsPath, buildPhase1OwnerDecisions(findings));
+  if (useStream) {
+    writeReportAtomicStream(viewPath, (write) => writePhase1OwnerViewStream(findings, options, write));
+    writeReportAtomicStream(decisionsPath, (write) => writePhase1OwnerDecisionsStream(findings, write));
+  } else {
+    writeReportAtomic(viewPath, buildPhase1OwnerView(findings, options));
+    writeReportAtomic(decisionsPath, buildPhase1OwnerDecisions(findings));
+  }
 
   return {
     outDir,

@@ -10,6 +10,12 @@ try {
 const fs = require("fs");
 const path = require("path");
 const OpenAI = require("openai");
+const { recoverLunaResponseItems } = require("./phase1-luna-id-recovery");
+const { shouldAttemptCanonicalIdRecovery } = require("./phase1-luna-checkpoint/object-identity");
+const {
+  formatShortRecoveryError,
+  writeRecoveryDiagnosticsBestEffort,
+} = require("./phase1-luna-id-recovery-diagnostics");
 
 const DEFAULT_MODEL = "gpt-5.6-luna";
 
@@ -49,7 +55,7 @@ function getOpenAIClient() {
   return new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 }
 
-function parsePhase1LunaResponseStrict(raw, expectedIds) {
+function parsePhase1LunaResponseStrict(raw, expectedIds, options = {}) {
   if (!raw || typeof raw !== "string") {
     throw new Error("Luna response empty");
   }
@@ -64,8 +70,30 @@ function parsePhase1LunaResponseStrict(raw, expectedIds) {
     throw new Error("Luna response missing items array");
   }
 
+  const recoveryContext = {
+    scopeId: options.scopeId ?? null,
+    batchIndex: options.batchIndex ?? null,
+    attempt: options.attempt ?? 1,
+  };
+
+  const recovery = shouldAttemptCanonicalIdRecovery(items, expectedIds)
+    ? recoverLunaResponseItems(items, expectedIds, { attempt: recoveryContext.attempt })
+    : { ok: true, items, recoveries: [], issues: [], diagnostics: [] };
+  if (!recovery.ok) {
+    const writeResult = writeRecoveryDiagnosticsBestEffort(recovery.diagnostics, recoveryContext);
+    const summary = recovery.shortError || formatShortRecoveryError(recovery.issues, recovery.diagnostics);
+    const err = new Error(summary);
+    err.code = "ID_RECOVERY_FAILED";
+    err.idRecoveryDiagnostics = recovery.diagnostics;
+    err.idRecoveryDiagnosticsPath = writeResult.path;
+    if (writeResult.writeError) {
+      err.idRecoveryDiagnosticsWriteError = writeResult.writeError;
+    }
+    throw err;
+  }
+
   const byId = new Map();
-  for (const item of items) {
+  for (const item of recovery.items) {
     const id = item?.id || item?.cardId || item?.objectId;
     if (!id) continue;
     if (byId.has(id)) {
@@ -84,10 +112,15 @@ function parsePhase1LunaResponseStrict(raw, expectedIds) {
       ...item,
       id: expectedId,
       status: String(item.status || "PASS").toUpperCase(),
+      ...(recovery.recoveries.length
+        ? {
+            idRecoveryProof: recovery.recoveries.find((entry) => entry.canonicalId === expectedId) || null,
+          }
+        : {}),
     });
   }
 
-  return { items: normalized };
+  return { items: normalized, idRecoveries: recovery.recoveries };
 }
 
 async function auditObjectsBatch({
@@ -97,6 +130,8 @@ async function auditObjectsBatch({
   model = DEFAULT_MODEL,
   writeRawPath = null,
   client = null,
+  signal = null,
+  recoveryContext = null,
 }) {
   if (!Array.isArray(objects) || objects.length === 0) {
     throw new Error("Luna batch objects must be non-empty");
@@ -111,15 +146,19 @@ async function auditObjectsBatch({
   };
 
   const openai = client || getOpenAIClient();
-  const response = await openai.responses.create({
-    model,
-    instructions: PHASE1_SYSTEM_PROMPT,
-    input: [
-      "Phase 1 READ-ONLY audit. Return valid json object with an items array — explicit entry for every object id.",
-      JSON.stringify(payload),
-    ].join("\n"),
-    text: { format: { type: "json_object" } },
-  });
+  const requestOptions = signal ? { signal } : undefined;
+  const response = await openai.responses.create(
+    {
+      model,
+      instructions: PHASE1_SYSTEM_PROMPT,
+      input: [
+        "Phase 1 READ-ONLY audit. Return valid json object with an items array — explicit entry for every object id.",
+        JSON.stringify(payload),
+      ].join("\n"),
+      text: { format: { type: "json_object" } },
+    },
+    requestOptions,
+  );
 
   const rawText = response.output_text || "";
   if (writeRawPath) {
@@ -142,12 +181,18 @@ async function auditObjectsBatch({
     );
   }
 
-  const parsed = parsePhase1LunaResponseStrict(rawText, expectedIds);
+  const parsed = parsePhase1LunaResponseStrict(rawText, expectedIds, {
+    scopeId: recoveryContext?.scopeId ?? scopeId,
+    batchIndex: recoveryContext?.batchIndex ?? null,
+    attempt: recoveryContext?.attempt ?? 1,
+  });
   return {
     items: parsed.items,
     tokensUsed: response.usage?.total_tokens || 0,
     usage: response.usage || null,
     model,
+    idRecoveryParsedInTransport: true,
+    idRecoveries: parsed.idRecoveries,
   };
 }
 

@@ -1,0 +1,102 @@
+{
+  "runId": "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
+  "repairBaseHead": "e087d25c326429bdc010130c3be167f39dee5cc0",
+  "ownerMappingApplied": 5,
+  "mappings": [
+    {
+      "findingId": "g2/b2/fr|unknown|idx:926|lv|STYLE_ONLY|gpt-5.6-luna",
+      "currentVariants": [
+        {
+          "severity": "STYLE_ONLY",
+          "category": "STYLE_ONLY",
+          "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+        },
+        {
+          "severity": "STYLE_ONLY",
+          "category": "STYLE_ONLY",
+          "classificationStatus": "VALIDATED_REAL_FINDING"
+        }
+      ],
+      "next": {
+        "severity": "INFO",
+        "classificationStatus": "STYLE_ONLY"
+      }
+    },
+    {
+      "findingId": "g2/b2/fr|unknown|idx:947|lv|STYLE_ONLY|gpt-5.6-luna",
+      "currentVariants": [
+        {
+          "severity": "STYLE_ONLY",
+          "category": "STYLE_ONLY",
+          "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+        },
+        {
+          "severity": "STYLE_ONLY",
+          "category": "STYLE_ONLY",
+          "classificationStatus": "VALIDATED_REAL_FINDING"
+        }
+      ],
+      "next": {
+        "severity": "INFO",
+        "classificationStatus": "STYLE_ONLY"
+      }
+    },
+    {
+      "findingId": "g2/b2/hu|Böschung|lv|STYLE_ONLY|gpt-5.6-luna",
+      "currentVariants": [
+        {
+          "severity": "STYLE_ONLY",
+          "category": "STYLE_ONLY",
+          "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+        },
+        {
+          "severity": "STYLE_ONLY",
+          "category": "STYLE_ONLY",
+          "classificationStatus": "VALIDATED_REAL_FINDING"
+        }
+      ],
+      "next": {
+        "severity": "INFO",
+        "classificationStatus": "STYLE_ONLY"
+      }
+    },
+    {
+      "findingId": "g2/b2/sk|unknown|idx:2046|lv|AMBIGUITY|gpt-5.6-luna",
+      "currentVariants": [
+        {
+          "severity": "NEEDS_REVIEW",
+          "category": "AMBIGUITY",
+          "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+        },
+        {
+          "severity": "NEEDS_REVIEW",
+          "category": "AMBIGUITY",
+          "classificationStatus": "VALIDATED_REAL_FINDING"
+        }
+      ],
+      "next": {
+        "severity": "HIGH",
+        "classificationStatus": "NEEDS_REVIEW"
+      }
+    },
+    {
+      "findingId": "g2/c1/bs|Erstaufführung|lv|DUPLICATION|gpt-5.6-luna",
+      "currentVariants": [
+        {
+          "severity": "STYLE_ONLY",
+          "category": "DUPLICATION",
+          "classificationStatus": "PREVIOUSLY_SEEN_RAW_LLM_CANDIDATE"
+        },
+        {
+          "severity": "STYLE_ONLY",
+          "category": "DUPLICATION",
+          "classificationStatus": "VALIDATED_REAL_FINDING"
+        }
+      ],
+      "next": {
+        "severity": "INFO",
+        "classificationStatus": "STYLE_ONLY"
+      }
+    }
+  ]
+}

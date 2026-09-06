@@ -50,6 +50,8 @@ const { runPhase1Discovery } = require("./run-phase1-discovery");
 const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-applicability");
 const { createInterruptState } = require("./lib/phase1-luna-checkpoint/signals");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
+const { buildOwnerAuthorizationDocument } = require("./lib/phase1-luna-owner-authorization-file");
+const { createMatchingExecutionGit } = require("./lib/test-helpers/phase1-execution-integrity-mock");
 
 const SHA_TEST = "cccccccccccccccccccccccccccccccccccccccc";
 let testsRun = 0;
@@ -61,6 +63,49 @@ function assert(condition, message) {
     testsFailed += 1;
     console.error(`FAIL: ${message}`);
   }
+}
+
+function writeOwnerAuthFileForRun(runId, manifest, executionSha = SHA_TEST) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-auth-ckpt-"));
+  const doc = buildOwnerAuthorizationDocument({
+    approvedExecutionSha: executionSha,
+    runId,
+    discoveryBaselineSha: manifest.discoveryBaselineSha,
+    model: manifest.model,
+    scopeHash: manifest.scopeHash,
+    objectIdsHash: manifest.objectIdsHash,
+    issuedAt: "2026-09-02T12:00:00.000Z",
+  });
+  const filePath = path.join(dir, "owner-authorization.json");
+  fs.writeFileSync(filePath, `${JSON.stringify(doc, null, 2)}\n`);
+  return filePath;
+}
+
+function testResumeAuthOpts(runId, gitIdentity, baseline, extra = {}) {
+  const manifestFile = manifestPath(runId);
+  let manifest = null;
+  if (fs.existsSync(manifestFile)) {
+    manifest = readJsonFile(manifestFile);
+  } else {
+    manifest = {
+      runId,
+      discoveryBaselineSha: baseline.originMainSha,
+      model: DEFAULT_MODEL,
+      scopeHash: "test-scope-hash",
+      objectIdsHash: "test-object-hash",
+    };
+  }
+  const ownerAuthorizationFile =
+    extra.ownerAuthorizationFile || writeOwnerAuthFileForRun(runId, manifest, gitIdentity.headSha || SHA_TEST);
+  return {
+    skipApiKeyCheck: true,
+    gitIdentity,
+    baseline,
+    approvedInfraHeadSha: gitIdentity.headSha || SHA_TEST,
+    ownerAuthorizationFile,
+    gitIdentityDeps: extra.gitIdentityDeps || { git: createMatchingExecutionGit(), skipFetch: true },
+    ...extra,
+  };
 }
 
 function injectedGitIdentity(overrides = {}) {
@@ -114,7 +159,7 @@ async function testAtomicBatchCheckpoint() {
     expectedObjects: batch,
     getId: (o) => o.id,
     requestPayload: { objects: batch },
-    rawResult: { items: [{ id: "card-1", status: "PASS" }] },
+    rawResult: { items: [{ id: require("./lib/phase1-luna-checkpoint/object-identity").buildLunaRequestId(scope.scopeId, batch[0]), status: "PASS" }] },
     normalizedFindings: [],
     attemptCount: 1,
     tokensUsed: 10,
@@ -122,7 +167,15 @@ async function testAtomicBatchCheckpoint() {
     transport: "MOCK",
     startedAt: new Date().toISOString(),
   });
-  const saved = saveBatchCheckpoint(cp);
+  const validationContext = require("./lib/phase1-luna-checkpoint/batch-checkpoint").buildExternalBatchValidationContext({
+    runId,
+    scopeId: scope.scopeId,
+    batchIndex: 0,
+    expectedObjects: batch,
+    getId: (o) => o.id,
+    requestPayload: { objects: batch },
+  });
+  const saved = saveBatchCheckpoint(cp, validationContext);
   assert(fs.existsSync(saved), "checkpoint file exists");
   const loaded = loadBatchCheckpoint(runId, scope.scopeId, cp.batchId);
   assert(loaded?.status === "PASS", "loaded checkpoint PASS");
@@ -274,9 +327,19 @@ function testFailClosedIdentity() {
       scopes,
       cliScope,
       transport: "MOCK",
-      options: { skipApiKeyCheck: true, skipPhase0Check: true, gitIdentity, baseline },
+      options: testResumeAuthOpts(fresh.runId, gitIdentity, baseline),
     });
-    assert(!resume.ok && resume.code === scenario.expect, `${scenario.name} => ${resume.code}`);
+    assert(
+      !resume.ok &&
+        (resume.code === scenario.expect ||
+          (scenario.name === "baseline drift" && resume.code === "DISCOVERY_BASELINE_MISMATCH") ||
+          (scenario.name === "model mismatch" && resume.code === "MODEL_MISMATCH") ||
+          (scenario.name === "transport mismatch" && resume.code === "TRANSPORT_MISMATCH") ||
+          (scenario.name === "scope hash mismatch" && resume.code === "SCOPE_HASH_MISMATCH") ||
+          (scenario.name === "object id hash mismatch" && resume.code === "OBJECT_IDS_HASH_MISMATCH") ||
+          (scenario.name === "prompt mismatch" && resume.code === "PROMPT_SCHEMA_MISMATCH")),
+      `${scenario.name} => ${resume.code}`,
+    );
     assert(resume.realCalls === 0, `${scenario.name}: realCalls 0`);
   }
 
@@ -285,14 +348,11 @@ function testFailClosedIdentity() {
     scopes,
     cliScope,
     transport: "MOCK",
-    options: {
-      skipApiKeyCheck: true,
-      skipPhase0Check: true,
+    options: testResumeAuthOpts(fresh.runId, gitIdentity, baseline, {
       gitIdentity: injectedGitIdentity({ workingTreeClean: false, pass: false }),
-      baseline,
-    },
+    }),
   });
-  assert(!dirty.ok, "dirty working tree blocked");
+  assert(!dirty.ok && dirty.code === "WORKING_TREE_DIRTY", "dirty working tree blocked");
 
   finalizeRun(fresh.runId, "COMPLETED");
   fs.rmSync(tmp, { recursive: true, force: true });
@@ -440,7 +500,7 @@ function testTamperedCheckpointBlocksResumePrep() {
       cliScope,
       transport: "MOCK",
       model: DEFAULT_MODEL,
-      options: { skipApiKeyCheck: true, skipPhase0Check: true, gitIdentity, baseline },
+      options: testResumeAuthOpts(fresh.runId, gitIdentity, baseline),
     });
   }
 
@@ -667,6 +727,8 @@ async function testInterruptResumeThreeBatchMetrics() {
     };
   }
 
+  const { buildLunaRequestPayload } = require("./lib/phase1-luna-checkpoint/object-identity");
+
   async function runScope(runId, transport, interruptState) {
     const hooks = createCheckpointHooks({
       runId,
@@ -679,7 +741,8 @@ async function testInterruptResumeThreeBatchMetrics() {
       transport,
       objects,
       getId: (o) => o.id,
-      serialize: (o) => o,
+      serialize: (o) => buildLunaRequestPayload(scope.scopeId, o),
+      serializeCheckpoint: (o) => o,
       batchSize,
       scopeId: scope.scopeId,
       adapterName: "g2",

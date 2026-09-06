@@ -1,0 +1,60 @@
+{
+  "phase1ExitRerun": false,
+  "originalExitGeneratedAt": "2026-09-06T06:22:52.034Z",
+  "originalBundleMatrixIdentitySha256": "f006124e8dac4312379f7ec809e03d36210abbc300b6a93092e845dda96d41ab",
+  "originalOwnerPrepSourceHash": "4619128258eaccd9dc29d22a3a696991fa089de3adc2f50df6226e7d99499687",
+  "repairReason": "Luna metadata reconstruction + independent VALID_PASS gate (PR #709)",
+  "correctedBundleMatrixIdentitySha256": "966a31529b82f0005b46bb059acfc655bde1045b34cd04852cba3f0cd892c965",
+  "correctedOwnerPrepSourceHash": "4619128258eaccd9dc29d22a3a696991fa089de3adc2f50df6226e7d99499687",
+  "runId": "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
+  "lunaStats": {
+    "lunaScopesExpected": 318,
+    "lunaScopesProcessed": 318,
+    "transport": "REAL",
+    "lunaSuccessfulBatches": 12830,
+    "lunaCalls": 15139,
+    "lunaRetryAttempts": 763,
+    "finalizationLunaCalls": 0,
+    "status": "REAL",
+    "failures": [],
+    "tokensUsed": 62959532,
+    "tokensUsedAvailable": true
+  },
+  "checkpointManifest": {
+    "count": 12830,
+    "validPassCount": 12830,
+    "manifestSha256": "56e000bf4b2373e4849332216ca9fa51644b2311d6ce0e74b146af4b6d0bd304"
+  },
+  "f1": {
+    "status": "PHASE_1_COMPLETE",
+    "pass": true,
+    "gates": {
+      "F1-1": "PASS",
+      "F1-2": "PASS",
+      "F1-3": "PASS",
+      "F1-4": "PASS",
+      "F1-5": "PASS",
+      "F1-6": "PASS",
+      "F1-7": "PASS",
+      "F1-8": "PASS",
+      "F1-9": "PASS"
+    }
+  },
+  "releaseBinding": {
+    "releaseId": 383492355,
+    "assetId": 546849008,
+    "targetCommitish": "c88f06a602cd3d1a7396108b9b04ab1454228b1f",
+    "currentDraft": true,
+    "currentlyPublished": false,
+    "everPublished": true,
+    "publishedAtRecorded": "2026-09-06T06:57:42Z",
+    "redraftedAt": "2026-09-06T06:57:59Z",
+    "releaseByTagCurrentlyAccessible": false,
+    "releaseByTagApiStatus": 404,
+    "publicTagRefExists": true,
+    "tagTargetSha": "c88f06a602cd3d1a7396108b9b04ab1454228b1f",
+    "publicationIncident": "TRANSIENT_RELEASE_PUBLICATION_DURING_TARGET_UPDATE",
+    "assetBytes": 24647639,
+    "assetSha256": "ce00255490e797271039f2fb2a98670707198ffd4c8174bf3296c22f409b1cb2"
+  }
+}

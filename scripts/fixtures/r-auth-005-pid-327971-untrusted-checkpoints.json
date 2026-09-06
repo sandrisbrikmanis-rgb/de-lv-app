@@ -1,0 +1,218 @@
+{
+  "classification": "UNTRUSTED_LOCAL_PATCH_RUN",
+  "sourcePid": "327971",
+  "runId": "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
+  "count": 30,
+  "entries": [
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-33-91f69c90f9d3ed71.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-33-91f69c90f9d3ed71",
+      "sha256": "f870717b25fefa4f6d5f7efe3672f58ea04f4c3ad6890589f5b0bb1703c6f551",
+      "mtime": "2026-09-02T16:05:09.046Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-34-b10ad1cbba0bb200.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-34-b10ad1cbba0bb200",
+      "sha256": "ed4ee1e2c5a4788dc593765d76362537ffead7abf418119925aba62c9aee097c",
+      "mtime": "2026-09-02T16:05:39.970Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-35-6f9ae73b83b10268.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-35-6f9ae73b83b10268",
+      "sha256": "a45d38e8093e4230ad109e0791643359a6e0e479cfdf673fa71f6c9dc1e48f42",
+      "mtime": "2026-09-02T16:06:12.502Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-36-f6d06dea66e77f93.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-36-f6d06dea66e77f93",
+      "sha256": "46d255a709b3830b7807d8d333a30e5e27e1afde06fc9c17d00fa3274dabaf3e",
+      "mtime": "2026-09-02T16:06:29.074Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-37-39f381bcd54001ec.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-37-39f381bcd54001ec",
+      "sha256": "5023dff262316f439aa9f6a312b4e8832fb62079a24d6107c546f2d123a7ee14",
+      "mtime": "2026-09-02T16:06:54.826Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-38-489bff2b6aecb087.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-38-489bff2b6aecb087",
+      "sha256": "bee94eff51adffadfca02cbeee175978000ecf7f46e383959c571341404eeea1",
+      "mtime": "2026-09-02T16:07:16.746Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-39-97c4b1a58bc34ec2.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-39-97c4b1a58bc34ec2",
+      "sha256": "a24200223284f7d636df77516772b88accd2a2b2b830f5620a8b1a4ef181c842",
+      "mtime": "2026-09-02T16:07:42.446Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-40-87d1304480c2eb2f.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-40-87d1304480c2eb2f",
+      "sha256": "5500992d50d6cbbfce0ff2f9c432bc76a63f352074c25a8656afeecc65a4b645",
+      "mtime": "2026-09-02T16:08:07.171Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-41-5c7782d9359a5d4f.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-41-5c7782d9359a5d4f",
+      "sha256": "c882096862845df7ffde07382d118274aa8ed290abcafa0be6a438ad18c8df75",
+      "mtime": "2026-09-02T16:08:40.291Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-42-1284abf2099737fb.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-42-1284abf2099737fb",
+      "sha256": "3247e822d53b9e315a3ec56c97ff9d7c426b9fd0118514d440709fe7a3e35591",
+      "mtime": "2026-09-02T16:09:12.126Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-43-6b0afaf7813d7123.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-43-6b0afaf7813d7123",
+      "sha256": "b49e97b1f28421e0f82956ce8fd4724661e7f5f7f9a7952bd118592009c820bd",
+      "mtime": "2026-09-02T16:10:01.174Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-44-20a1cc8cd99e1293.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-44-20a1cc8cd99e1293",
+      "sha256": "591fa5858f7e42730b5f7c42fc0a33746c426dbd58502109e1b05ff921af82e8",
+      "mtime": "2026-09-02T16:11:02.250Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-45-f1fdc2543bba8dcc.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-45-f1fdc2543bba8dcc",
+      "sha256": "5b6b9da4a9a1b7aadaf42acc11a77346d64e151428c6b15d67f201b96ec384ed",
+      "mtime": "2026-09-02T16:11:34.578Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-46-77c163de28e1e8ec.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-46-77c163de28e1e8ec",
+      "sha256": "329596c1168de8a1014a4118cf500e657fd25775a11cfcddad4d1f17f2fa4365",
+      "mtime": "2026-09-02T16:11:59.066Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-47-026f927537f97f7f.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-47-026f927537f97f7f",
+      "sha256": "cad79127c58071d72e55b3f755ff71e6ce50650c48d22b5eed20d3b8abf4ba6d",
+      "mtime": "2026-09-02T16:12:25.082Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-48-507bed7523a3370a.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-48-507bed7523a3370a",
+      "sha256": "c0ef515d0f0d9308da13c5358923c1fab64ca622350f8455a75ab649d3a88c82",
+      "mtime": "2026-09-02T16:12:50.866Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-49-f40b7b6dc62c76da.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-49-f40b7b6dc62c76da",
+      "sha256": "63255e3e13e60ac50d966c3391b9347ea83af8b1a7cff8bf33cc06cc125c0f66",
+      "mtime": "2026-09-02T16:13:11.974Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-50-cd0f4d0929aa91bd.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-50-cd0f4d0929aa91bd",
+      "sha256": "560964ce4f8cb69c4df57e7875bad90c1301179d05f5f947c7feaf605af0bcc3",
+      "mtime": "2026-09-02T16:13:40.114Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-51-40861f7a71a9c9c7.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-51-40861f7a71a9c9c7",
+      "sha256": "5a78019e1d102a78b6c77b2e24e91ed3833626f1a825009c6095603d9ce04731",
+      "mtime": "2026-09-02T16:14:14.575Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-52-b35bf7b9304ddc4d.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-52-b35bf7b9304ddc4d",
+      "sha256": "10a2d0f549c3397f4faa6440805691c1efc221a5deaef2af2f159b52a52c21c3",
+      "mtime": "2026-09-02T16:14:45.367Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-53-48bada2c04402acb.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-53-48bada2c04402acb",
+      "sha256": "601c16f0a8c66dce5105ff7f7e1c463cf45790bdcf1f5b80ff40860e07f0d446",
+      "mtime": "2026-09-02T16:15:14.075Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-54-cdac258bf1811dee.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-54-cdac258bf1811dee",
+      "sha256": "58a0a60ac2b9ed9ea56bf708b68037c589f962f0f68c527bb4c6bc4bf6bbb8a9",
+      "mtime": "2026-09-02T16:15:36.115Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-55-05792b21c40b2015.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-55-05792b21c40b2015",
+      "sha256": "c10a9b19881640ad95c0b7f73aaa604dd1cefb89a6dfe38a568295811148df6e",
+      "mtime": "2026-09-02T16:16:09.599Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-56-6b05ddb26eb447f5.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-56-6b05ddb26eb447f5",
+      "sha256": "25092ecdb94935048ff465f4308c0635c6d3916817a8caa85aba37f69e1dba56",
+      "mtime": "2026-09-02T16:16:39.587Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-57-289b6f011a2d2332.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-57-289b6f011a2d2332",
+      "sha256": "65cf15db725755f7acd3567c971e85b7c4005ab1e8b01521ec041b0d31325ce2",
+      "mtime": "2026-09-02T16:17:05.847Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-58-d58872086042c01a.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-58-d58872086042c01a",
+      "sha256": "81ee109338b0185ea1e476e23888a28bed7c20d139f42c5d1d0dae1c96875cd2",
+      "mtime": "2026-09-02T16:18:01.447Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-59-42a5c9e03ff4c86f.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-59-42a5c9e03ff4c86f",
+      "sha256": "db0d60761dba01b52b5c7e6eb9b69d42132060578b7f058359086ac3796d28f8",
+      "mtime": "2026-09-02T16:18:34.168Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-60-e883dc90f2dd63bb.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-60-e883dc90f2dd63bb",
+      "sha256": "1cdfefee8ed5594e4f4998247d4006ac56cb6e561c1c2db4515372d9757ffaae",
+      "mtime": "2026-09-02T16:19:12.492Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-61-eaf03c948fd169a2.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-61-eaf03c948fd169a2",
+      "sha256": "3f93a3eb445d48c12936ec0594ab5596c515942314b1060eb83a9f672886f911",
+      "mtime": "2026-09-02T16:19:24.892Z"
+    },
+    {
+      "file": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a2_bg/batch-62-e14c72a11fd51237.json",
+      "scopeId": "g2/a2/bg",
+      "batchId": "batch-62-e14c72a11fd51237",
+      "sha256": "372c992fbb678074e011fe26031772c13e68346563b8ae8aab40c36b91d94265",
+      "mtime": "2026-09-02T16:20:42.300Z"
+    }
+  ]
+}
