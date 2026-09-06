@@ -63,8 +63,12 @@ const {
   buildG2A1AuditKeyRegistry,
   resolveG2A1AuditFinding,
   aggregateFindingsByCrowdinKey,
+  classifyValidatedFindings,
   normalizeSegment,
   splitFieldPath,
+  isDeFieldPath,
+  keysUnderRelative,
+  verifyCardIdentity,
 } = require("./g2-a1-audit-key-resolver");
 
 const GROUPS = ["g1-sentences", "g1-verbs", "g1-training", "g2", "g3"];
@@ -136,4 +140,8 @@ module.exports = {
   aggregateFindingsByCrowdinKey,
   normalizeSegment,
   splitFieldPath,
+  isDeFieldPath,
+  keysUnderRelative,
+  verifyCardIdentity,
+  classifyValidatedFindings,
 };
