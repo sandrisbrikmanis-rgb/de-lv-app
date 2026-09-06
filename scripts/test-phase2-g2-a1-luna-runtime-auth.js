@@ -417,11 +417,9 @@ function testIsolatedProductionRealLunaPositivePath() {
   assert(isolated.result.auth.receipt.authorizationFileSha256.length === 64, "file sha len");
   assert(isolated.result.receiptFrozen === true, "receipt frozen");
   assert(isolated.result.receiptAcceptedByProductionBoundary === true, "production boundary");
-  assert(isolated.result.realCalls === 0, "realCalls 0");
-  assert(
-    isolated.result.executeBlocked === "REAL_LUNA_TRANSPORT_NOT_ENABLED_IN_THIS_BUILD",
-    isolated.result.executeBlocked
-  );
+  assert(isolated.result.executeOk === true, "executeBatch with fake client");
+  assert(isolated.result.realCalls === 1, `realCalls ${isolated.result.realCalls}`);
+  assert(isolated.result.executeBlocked == null, isolated.result.executeBlocked);
 }
 
 function testReceiptAcceptedByProductionBoundary() {

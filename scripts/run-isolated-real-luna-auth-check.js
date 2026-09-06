@@ -97,7 +97,17 @@ async function main() {
   }
 
   assertAuthorizedRuntimeReceipt(auth.receipt, RUNTIME_MODES.REAL_LUNA);
-  const transport = createRealLunaTransport(auth.receipt);
+  const useFakeClient = process.env.G2_A1_LUNA_USE_FAKE_CLIENT === "1";
+  const transportOptions = {};
+  if (useFakeClient) {
+    const { buildFakeProposalClient } = require("./lib/g2-a1-luna-proposal/fake-client-fixture");
+    const firstBatch = plan.batches[0];
+    const firstTasks = (firstBatch.tasks || firstBatch.items || []).slice(0, 1);
+    transportOptions.client = buildFakeProposalClient({ tasks: firstTasks });
+    transportOptions._testBatch = firstBatch;
+    transportOptions._testTasks = firstTasks;
+  }
+  const transport = createRealLunaTransport(auth.receipt, transportOptions);
   payload.receiptFrozen = Object.isFrozen(auth.receipt);
   payload.receiptAcceptedByProductionBoundary = true;
   payload.transportMode = transport.mode;
@@ -121,12 +131,20 @@ async function main() {
   payload.clonedReceiptRejected = clonedCode;
 
   let executeBlocked = null;
+  let executeOk = false;
   try {
-    await transport.executeBatch();
+    if (useFakeClient && transportOptions._testBatch && transportOptions._testTasks?.length) {
+      await transport.executeBatch(transportOptions._testBatch, transportOptions._testTasks);
+      executeOk = true;
+      payload.realCalls = transport.stats.realCalls;
+    } else {
+      await transport.executeBatch();
+    }
   } catch (error) {
     executeBlocked = error.code;
   }
   payload.executeBlocked = executeBlocked;
+  payload.executeOk = executeOk;
 
   console.log(JSON.stringify(payload));
   process.exit(0);

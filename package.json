@@ -37,6 +37,7 @@
     "phase2:g2-a1:luna-proposal:dry-run": "node scripts/run-phase2-g2-a1-luna-proposal-dry-run.js",
     "phase2:g2-a1:luna-proposal:owner-review": "node scripts/run-phase2-g2-a1-luna-proposal-owner-review.js",
     "test:phase2-g2-a1-luna-runtime-auth": "node scripts/test-phase2-g2-a1-luna-runtime-auth.js",
+    "test:phase2-g2-a1-luna-real-transport": "node scripts/test-phase2-g2-a1-luna-real-transport.js",
     "phase2:g2-a1:runtime-auth-contract-proof": "node scripts/run-phase2-g2-a1-runtime-auth-contract-proof.js",
     "phase2:g2-a1:runtime-auth-bypass-proof": "node scripts/run-phase2-g2-a1-runtime-auth-bypass-proof.js",
     "phase2:g2-a1:receipt-capability-proof": "node scripts/run-phase2-g2-a1-receipt-capability-proof.js",

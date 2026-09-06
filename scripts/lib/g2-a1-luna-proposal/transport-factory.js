@@ -6,7 +6,7 @@ const { createMockLunaTransport } = require("./mock-transport");
 const { createRealLunaTransport } = require("./real-transport");
 const { assertAuthorizedRuntimeReceipt } = require("./runtime-gates");
 
-function createLunaTransport({ authorizedRuntimeReceipt, fixtureMap = {} } = {}) {
+function createLunaTransport({ authorizedRuntimeReceipt, fixtureMap = {}, client = null, signal = null } = {}) {
   if (!authorizedRuntimeReceipt) {
     const err = new Error("REAL_LUNA_RUNTIME_AUTHORIZATION_REQUIRED");
     err.code = "REAL_LUNA_RUNTIME_AUTHORIZATION_REQUIRED";
@@ -16,7 +16,7 @@ function createLunaTransport({ authorizedRuntimeReceipt, fixtureMap = {} } = {})
     return createMockLunaTransport(fixtureMap, authorizedRuntimeReceipt);
   }
   if (authorizedRuntimeReceipt.mode === RUNTIME_MODES.REAL_LUNA) {
-    return createRealLunaTransport(authorizedRuntimeReceipt);
+    return createRealLunaTransport(authorizedRuntimeReceipt, { client, signal });
   }
   const err = new Error(`RUNTIME_RECEIPT_MODE_MISMATCH:${authorizedRuntimeReceipt.mode}`);
   err.code = "RUNTIME_RECEIPT_MODE_MISMATCH";
