@@ -4,7 +4,7 @@
 const { resolveCardSlug } = require("./slug");
 const { flattenG2Flashcards } = require("./flatten-g2-flashcards");
 
-const RESOLVER_VERSION = "g2-a1-audit-key-resolver-v2-final";
+const RESOLVER_VERSION = "g2-a1-audit-key-resolver-v2-disambig";
 
 const EXPECTED_PHASE1_MATRIX_IDENTITY_SHA256 =
   "966a31529b82f0005b46bb059acfc655bde1045b34cd04852cba3f0cd892c965";
@@ -117,40 +117,86 @@ function splitFieldPath(fieldPath) {
     .filter(Boolean);
 }
 
+function getRawAliasesForCard(entry, slug) {
+  const records = [];
+  if (entry?.de) records.push({ raw: String(entry.de).trim(), source: "entry.de" });
+  if (entry?.study?.id) records.push({ raw: String(entry.study.id).trim(), source: "study.id" });
+  records.push({ raw: String(slug).trim(), source: "export.slug" });
+  return records;
+}
+
 function buildCardAliasIndex(cards) {
   const aliasToCards = new Map();
   (cards || []).forEach((entry, index) => {
     const slug = resolveCardSlug(entry);
-    const records = [];
-    if (entry?.de) records.push({ key: String(entry.de).trim().toLowerCase(), source: "entry.de" });
-    if (entry?.study?.id) records.push({ key: String(entry.study.id).trim().toLowerCase(), source: "study.id" });
-    records.push({ key: String(slug).trim().toLowerCase(), source: "export.slug" });
-    for (const { key, source } of records) {
+    for (const { raw, source } of getRawAliasesForCard(entry, slug)) {
+      const key = raw.toLowerCase();
       if (!aliasToCards.has(key)) aliasToCards.set(key, []);
-      aliasToCards.get(key).push({ index, slug, source });
+      aliasToCards.get(key).push({ index, slug, source, raw });
     }
   });
   return aliasToCards;
+}
+
+function isExportSlugUnique(slug, registry) {
+  return registry.slugCounts.get(slug) === 1;
+}
+
+function isCrowdinPrefixUnique(level, slug, registry) {
+  if (!isExportSlugUnique(slug, registry)) return false;
+  const prefix = `${level}.card.${slug}.`;
+  for (const key of registry.lvKeySet) {
+    if (!key.startsWith(prefix)) continue;
+    const match = key.match(/^[^.]+\.card\.([^.]+)\./);
+    if (match && match[1] !== slug) return false;
+  }
+  return true;
 }
 
 function verifyCardIdentity(cardId, objectIndex, registry) {
   if (!cardId || cardId === "unknown") {
     return { pass: true, proof: "OBJECT_INDEX_ONLY" };
   }
-  const norm = String(cardId).trim().toLowerCase();
+  const rawCardId = String(cardId).trim();
+  const norm = rawCardId.toLowerCase();
   const hits = registry.aliasIndex.get(norm) || [];
   if (!hits.length) {
     return { pass: false, proof: "CARD_ID_OBJECT_INDEX_MISMATCH" };
   }
+
   const uniqueIndices = new Set(hits.map((h) => h.index));
-  if (uniqueIndices.size > 1) {
-    return { pass: false, proof: "CARD_ID_ALIAS_COLLISION" };
+  if (uniqueIndices.size === 1) {
+    const hit = hits[0];
+    if (hit.index !== objectIndex) {
+      return { pass: false, proof: "CARD_ID_OBJECT_INDEX_MISMATCH" };
+    }
+    return { pass: true, proof: "CANONICAL_CARD_ID" };
   }
-  const hit = hits[0];
-  if (hit.index !== objectIndex) {
+
+  if (!uniqueIndices.has(objectIndex)) {
     return { pass: false, proof: "CARD_ID_OBJECT_INDEX_MISMATCH" };
   }
-  return { pass: true, proof: "CANONICAL_CARD_ID" };
+
+  const meta = registry.byIndex.get(objectIndex);
+  if (!meta) {
+    return { pass: false, proof: "CARD_ID_OBJECT_INDEX_MISMATCH" };
+  }
+
+  const rawAliases = getRawAliasesForCard(meta.entry, meta.slug);
+  const exactHit = rawAliases.find((a) => a.raw === rawCardId);
+  if (!exactHit) {
+    return { pass: false, proof: "CARD_ID_ALIAS_COLLISION" };
+  }
+
+  if (!isExportSlugUnique(meta.slug, registry) || !isCrowdinPrefixUnique(registry.level || "a1", meta.slug, registry)) {
+    return { pass: false, proof: "CARD_ID_ALIAS_COLLISION" };
+  }
+
+  return {
+    pass: true,
+    proof: "DUPLICATE_CARD_ID_DISAMBIGUATED_BY_OBJECT_INDEX",
+    aliasSource: exactHit.source,
+  };
 }
 
 function cardIdMatchesEntry(cardId, objectIndex, registry) {
@@ -359,14 +405,16 @@ function buildG2A1AuditKeyRegistry({ level, cards, lvFlat }) {
   const lvKeySet = new Set(Object.keys(lvFlat || {}));
   const byIndex = new Map();
   const bySlug = new Map();
+  const slugCounts = new Map();
   (cards || []).forEach((entry, index) => {
     const slug = resolveCardSlug(entry);
+    slugCounts.set(slug, (slugCounts.get(slug) || 0) + 1);
     const meta = { slug, entry, index, cardId: entry.de || entry.study?.id || slug };
     byIndex.set(index, meta);
     if (!bySlug.has(slug)) bySlug.set(slug, meta);
   });
   const aliasIndex = buildCardAliasIndex(cards);
-  return { level, lvFlat, lvKeySet, cards, byIndex, bySlug, aliasIndex };
+  return { level, lvFlat, lvKeySet, cards, byIndex, bySlug, aliasIndex, slugCounts };
 }
 
 function resolveG2A1AuditFinding(finding, registry) {
@@ -504,6 +552,7 @@ function classifyValidatedFindings(findings, registry) {
   const identityStats = {
     CANONICAL_CARD_ID: 0,
     OBJECT_INDEX_ONLY: 0,
+    DUPLICATE_CARD_ID_DISAMBIGUATED_BY_OBJECT_INDEX: 0,
     CARD_ID_ALIAS_COLLISION: 0,
     CARD_ID_OBJECT_INDEX_MISMATCH: 0,
   };
@@ -550,6 +599,9 @@ module.exports = {
   splitFieldPath,
   hashMatrixForIdentity,
   assertPhase1MatrixIdentity,
+  getRawAliasesForCard,
+  isExportSlugUnique,
+  isCrowdinPrefixUnique,
   verifyCardIdentity,
   cardIdMatchesEntry,
   buildCardAliasIndex,

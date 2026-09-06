@@ -21,26 +21,28 @@ const {
   KNOWN_MAPPING_STATUSES,
   normalizeSegment,
   findingHasDeFieldPath,
+  isCrowdinPrefixUnique,
 } = require("./lib/content-crowdin-bridge");
 
 const FIXTURE_PATH = path.join(ROOT, "scripts/fixtures/g2-a1-audit-key-resolver-fixture.json");
 
 const FROZEN_INTEGRATION = Object.freeze({
   total: 13535,
-  MAPPED_UNIQUE: 10287,
-  MAPPED_EXPLICIT_SET: 2708,
-  PARTIAL_MAPPING_REVIEW_REQUIRED: 82,
-  GROUP_REVIEW_REQUIRED: 99,
-  AMBIGUOUS: 359,
+  MAPPED_UNIQUE: 10313,
+  MAPPED_EXPLICIT_SET: 3033,
+  PARTIAL_MAPPING_REVIEW_REQUIRED: 87,
+  GROUP_REVIEW_REQUIRED: 102,
+  AMBIGUOUS: 0,
   UNMATCHED: 0,
   SOURCE_KEY_MISSING: 0,
-  autoApplyEligible: 10287,
+  autoApplyEligible: 10313,
   deFieldFindings: 8,
   deAutoApply: 0,
   identityStats: {
     CANONICAL_CARD_ID: 13117,
     OBJECT_INDEX_ONLY: 0,
-    CARD_ID_ALIAS_COLLISION: 359,
+    DUPLICATE_CARD_ID_DISAMBIGUATED_BY_OBJECT_INDEX: 359,
+    CARD_ID_ALIAS_COLLISION: 0,
     CARD_ID_OBJECT_INDEX_MISMATCH: 0,
   },
 });
@@ -136,6 +138,7 @@ function testFixtureCases() {
       cardId: spec.cardId,
       objectIndex: spec.objectIndex,
       fieldPath: spec.fieldPath,
+      productionFile: spec.productionFile ?? "a1.js",
       auditId: `FIXTURE-${name}`,
     });
     const m = resolveG2A1AuditFinding(finding, reg);
@@ -277,6 +280,38 @@ function testUnknownCardIdAmbiguous() {
   assert(m.reason === "CARD_ID_OBJECT_INDEX_MISMATCH", m.reason);
 }
 
+function testDisambiguationDoesNotCrossAttachKeys() {
+  const reg = buildFixtureRegistry();
+  const first = resolveG2A1AuditFinding(baseFinding({ cardId: "bitte", objectIndex: 5, fieldPath: "lv" }), reg);
+  const second = resolveG2A1AuditFinding(baseFinding({ cardId: "bitte", objectIndex: 6, fieldPath: "lv" }), reg);
+  assert(first.status === "MAPPED_UNIQUE" && second.status === "MAPPED_UNIQUE", "both disambiguated");
+  assert(first.keys[0].includes("a1-bitte"), first.keys[0]);
+  assert(second.keys[0].includes("a1-bitte-study"), second.keys[0]);
+  assert(first.keys[0] !== second.keys[0], "keys must differ across collision pair");
+}
+
+function testDuplicateExportSlugAmbiguous() {
+  const cards = [
+    { de: "foo", lv: "a", study: { id: "dup-slug", translation: "a" } },
+    { de: "foo", lv: "b", study: { id: "dup-slug", translation: "b" } },
+  ];
+  const lvFlat = {
+    "a1.card.dup-slug.native": "a",
+    "a1.card.dup-slug.study.translation": "a",
+  };
+  const reg = buildG2A1AuditKeyRegistry({ level: "a1", cards, lvFlat });
+  const m = resolveG2A1AuditFinding(baseFinding({ cardId: "foo", objectIndex: 0, fieldPath: "lv" }), reg);
+  assert(m.status === "AMBIGUOUS", m.status);
+  assert(m.reason === "CARD_ID_ALIAS_COLLISION" || m.identityProof === "CARD_ID_ALIAS_COLLISION", m.reason);
+}
+
+function testDuplicateCrowdinPrefixAmbiguous() {
+  const reg = buildFixtureRegistry();
+  reg.slugCounts.set("a1-bitte", 2);
+  const m = resolveG2A1AuditFinding(baseFinding({ cardId: "bitte", objectIndex: 5, fieldPath: "lv" }), reg);
+  assert(m.status === "AMBIGUOUS", m.status);
+  assert(!isCrowdinPrefixUnique("a1", "a1-bitte", reg), "crowdin prefix guard must fail when slug is not unique");
+}
 function testUnknownCardIdObjectIndexOnly() {
   const reg = buildProductionRegistry();
   const m = resolveG2A1AuditFinding(baseFinding({ cardId: "unknown", fieldPath: "lv", objectIndex: 17 }), reg);
@@ -341,9 +376,20 @@ function runIntegrationClassification() {
   for (const [key, expected] of Object.entries(FROZEN_INTEGRATION.identityStats)) {
     assert(identityStats[key] === expected, `identityStats.${key} ${identityStats[key]} !== ${expected}`);
   }
+  assert(identityStats.CARD_ID_ALIAS_COLLISION === 0, `CARD_ID_ALIAS_COLLISION must be 0`);
+  assert(
+    identityStats.DUPLICATE_CARD_ID_DISAMBIGUATED_BY_OBJECT_INDEX === 359,
+    `disambiguated count ${identityStats.DUPLICATE_CARD_ID_DISAMBIGUATED_BY_OBJECT_INDEX}`,
+  );
 
   for (const row of rows) {
     const { finding, mapping } = row;
+    if (mapping.identityProof === "DUPLICATE_CARD_ID_DISAMBIGUATED_BY_OBJECT_INDEX") {
+      const meta = reg.byIndex.get(finding.objectIndex);
+      assert(meta, `${finding.auditId}: missing meta for disambiguated finding`);
+      const prefix = `a1.card.${meta.slug}.`;
+      assert(mapping.keys.every((k) => k.startsWith(prefix)), `${finding.auditId}: key from wrong card slug`);
+    }
     if (mapping.status === "MAPPED_UNIQUE") {
       assert(mapping.keys.length === 1, `${finding.auditId}: MAPPED_UNIQUE key count`);
       assert(mapping.keys.every((k) => reg.lvKeySet.has(k)), `${finding.auditId}: key not in LV registry`);
@@ -378,9 +424,11 @@ function runIntegrationClassification() {
     identityStats,
     aggregateUnits: units.length,
     classification:
-      stats.AMBIGUOUS === 0 && stats.UNMATCHED === 0
+      (stats.AMBIGUOUS || 0) === 0 &&
+      (stats.UNMATCHED || 0) === 0 &&
+      identityStats.CARD_ID_ALIAS_COLLISION === 0
         ? "G2_A1_AUDIT_KEY_RESOLVER_FINAL_OWNER_REVIEW_READY"
-        : "G2_A1_AUDIT_KEY_RESOLVER_REPAIR_PARTIAL",
+        : "G2_A1_AUDIT_KEY_RESOLVER_COLLISION_REVIEW_REQUIRED",
   };
   console.log("OK integration classification", JSON.stringify(result));
   return result;
@@ -400,6 +448,9 @@ const unitTests = [
   testAggregateConflictCategory,
   testAggregateOnlyMappedUnique,
   testUnknownCardIdAmbiguous,
+  testDisambiguationDoesNotCrossAttachKeys,
+  testDuplicateExportSlugAmbiguous,
+  testDuplicateCrowdinPrefixAmbiguous,
   testUnknownCardIdObjectIndexOnly,
 ];
 

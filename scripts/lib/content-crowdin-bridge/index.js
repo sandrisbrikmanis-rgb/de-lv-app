@@ -76,6 +76,9 @@ const {
   hashMatrixForIdentity,
   assertPhase1MatrixIdentity,
   buildCardAliasIndex,
+  getRawAliasesForCard,
+  isExportSlugUnique,
+  isCrowdinPrefixUnique,
 } = require("./g2-a1-audit-key-resolver");
 
 const GROUPS = ["g1-sentences", "g1-verbs", "g1-training", "g2", "g3"];
@@ -157,5 +160,8 @@ module.exports = {
   hashMatrixForIdentity,
   assertPhase1MatrixIdentity,
   buildCardAliasIndex,
+  getRawAliasesForCard,
+  isExportSlugUnique,
+  isCrowdinPrefixUnique,
   classifyValidatedFindings,
 };
