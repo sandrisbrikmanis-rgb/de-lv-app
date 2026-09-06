@@ -26,6 +26,9 @@ const {
   validateOwnerAuthorizationDocument,
   validateOwnerAuthorizationAgainstRuntime,
   buildOwnerAuthorizationDocument,
+  proveV1Defect,
+  validateGitIdentityChain,
+  validateAuthorizationFileHash,
   OWNER_AUTH_PURPOSE,
 } = require("./owner-authorization");
 const {
@@ -37,6 +40,7 @@ const {
 } = require("./checkpoint");
 const {
   EXPECTED,
+  AUTH_FROZEN,
   TASK_KINDS,
   LUNA_ACTIONS,
   pathState,
@@ -75,10 +79,14 @@ module.exports = {
   validateOwnerAuthorizationDocument,
   validateOwnerAuthorizationAgainstRuntime,
   buildOwnerAuthorizationDocument,
+  proveV1Defect,
+  validateGitIdentityChain,
+  validateAuthorizationFileHash,
   OWNER_AUTH_PURPOSE,
   RUNTIME_MODES,
   NON_EXECUTABLE_MOCK_PROOF,
   EXPECTED,
+  AUTH_FROZEN,
   TASK_KINDS,
   LUNA_ACTIONS,
   pathState,

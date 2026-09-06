@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 "use strict";
 
-const { execSync } = require("child_process");
 const { runInfrastructureGates } = require("./identity-gates");
 const { RUNTIME_MODES, NON_EXECUTABLE_MOCK_PROOF, assertRuntimeMode } = require("./runtime-mode");
 const { loadOwnerAuthorizationFile, validateOwnerAuthorizationAgainstRuntime } = require("./owner-authorization");
-const { hashObject } = require("./hash");
+const { AUTH_FROZEN } = require("./constants");
 
 function buildMockDryRunReceipt({ headSha, originMainSha, infrastructure }) {
   return {
@@ -20,14 +19,14 @@ function buildMockDryRunReceipt({ headSha, originMainSha, infrastructure }) {
   };
 }
 
-function buildRealLunaReceipt({ authorization, authorizationSha256, batchPlanSha256, runId }) {
+function buildRealLunaReceipt({ authorization, authorizationFileSha256, batchPlanSha256, runId }) {
   return {
     mode: RUNTIME_MODES.REAL_LUNA,
     validated: true,
     executable: true,
     runtimeHeadSha: authorization.runtimeHeadSha,
     originMainSha: authorization.originMainSha,
-    authorizationSha256,
+    authorizationFileSha256,
     batchPlanSha256: batchPlanSha256 || authorization.batchPlanSha256,
     runId: runId || authorization.runId,
     model: authorization.model,
@@ -45,10 +44,11 @@ function authorizeRuntimeExecution(options = {}) {
     const preErrors = [];
     if (!options.expectedRuntimeHeadSha) preErrors.push("EXPECTED_RUNTIME_HEAD_SHA_REQUIRED");
     if (!options.ownerAuthorizationFile) preErrors.push("OWNER_AUTHORIZATION_FILE_REQUIRED");
+    if (!options.expectedAuthorizationFileSha256) preErrors.push("EXPECTED_AUTHORIZATION_FILE_SHA256_REQUIRED");
     if (!options.runId) preErrors.push("RUN_ID_REQUIRED");
     if (!options.model) preErrors.push("MODEL_REQUIRED");
     if (!options.batchPlanSha256) preErrors.push("BATCH_PLAN_SHA_REQUIRED");
-    if (!options.batchCount) preErrors.push("BATCH_COUNT_REQUIRED");
+    if (options.batchCount == null) preErrors.push("BATCH_COUNT_REQUIRED");
     if (!options.queueCounts) preErrors.push("QUEUE_COUNTS_REQUIRED");
     if (preErrors.length) {
       return { pass: false, errors: preErrors, code: preErrors[0] };
@@ -84,14 +84,17 @@ function authorizeRuntimeExecution(options = {}) {
     return { pass: false, errors, code: errors[0], infrastructure };
   }
 
-  const loaded = loadOwnerAuthorizationFile(options.ownerAuthorizationFile);
+  const loaded = loadOwnerAuthorizationFile(options.ownerAuthorizationFile, {
+    allowInRepo: options.allowAuthFileInRepo,
+  });
   if (!loaded.ok) {
     return { pass: false, errors: [loaded.code], code: loaded.code, infrastructure };
   }
 
   const runtimeCheck = validateOwnerAuthorizationAgainstRuntime({
     authorization: loaded.authorization,
-    authorizationSha256: loaded.authorizationSha256,
+    authorizationFileSha256: loaded.authorizationFileSha256,
+    expectedAuthorizationFileSha256: options.expectedAuthorizationFileSha256,
     expectedRuntimeHeadSha: options.expectedRuntimeHeadSha,
     cliSha,
     headSha,
@@ -102,6 +105,7 @@ function authorizeRuntimeExecution(options = {}) {
     sourceSha: infrastructure.sourceSha,
     batchPlanSha256: options.batchPlanSha256,
     batchCount: options.batchCount,
+    maxAllowedCycles: options.maxAllowedCycles ?? AUTH_FROZEN.maxAllowedCycles,
     queueCounts: options.queueCounts,
   });
   if (!runtimeCheck.ok) {
@@ -116,7 +120,7 @@ function authorizeRuntimeExecution(options = {}) {
 
   const receipt = buildRealLunaReceipt({
     authorization: loaded.authorization,
-    authorizationSha256: loaded.authorizationSha256,
+    authorizationFileSha256: loaded.authorizationFileSha256,
     batchPlanSha256: options.batchPlanSha256,
     runId: options.runId,
   });

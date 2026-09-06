@@ -9,16 +9,49 @@ const { assertPhase1MatrixIdentity } = require("../content-crowdin-bridge/g2-a1-
 const bridge = require("../content-crowdin-bridge");
 const { gitProductionDiffAgainstBaseline, gitDeDiffAgainstBaseline } = require("../content-discovery/git-baseline");
 
+function resolveGitShas(options = {}) {
+  if (options.gitContext) {
+    return {
+      headSha: options.gitContext.headSha,
+      originMainSha: options.gitContext.originMainSha,
+    };
+  }
+  return {
+    headSha: execSync("git rev-parse HEAD", { encoding: "utf8" }).trim(),
+    originMainSha: execSync("git rev-parse origin/main", { encoding: "utf8" }).trim(),
+  };
+}
+
 function runInfrastructureGates(options = {}) {
+  if (options.skipInfrastructureGates && options.infrastructureContext) {
+    const ctx = options.infrastructureContext;
+    const git = resolveGitShas(options);
+    return {
+      pass: true,
+      errors: [],
+      originMainSha: git.originMainSha ?? ctx.originMainSha,
+      headSha: git.headSha ?? ctx.headSha,
+      productionBaselineSha: ctx.productionBaselineSha ?? EXPECTED.productionBaselineSha,
+      matrixIdentitySha: ctx.matrixIdentitySha ?? EXPECTED.matrixIdentitySha,
+      sourceSha: ctx.sourceSha ?? EXPECTED.sourceSha,
+      prod: ctx.prod ?? { clean: true, changed: [] },
+      de: ctx.de ?? { clean: true, changed: [] },
+      ownerPackRoot: ctx.ownerPackRoot ?? pathState.ownerPackRoot,
+      matrixPath: ctx.matrixPath ?? pathState.matrixPath,
+    };
+  }
+
   const errors = [];
   const ownerPackRoot = options.ownerPackRoot || pathState.ownerPackRoot;
   const matrixPath = options.matrixPath || pathState.matrixPath;
   const productionBaselineSha = EXPECTED.productionBaselineSha;
 
-  const originMainSha = execSync("git rev-parse origin/main", { encoding: "utf8" }).trim();
-  const headSha = execSync("git rev-parse HEAD", { encoding: "utf8" }).trim();
-  const porcelain = execSync("git status --porcelain", { encoding: "utf8" }).trim();
-  if (porcelain) errors.push("WORKTREE_NOT_CLEAN");
+  const { originMainSha, headSha } = resolveGitShas(options);
+
+  if (!options.skipWorktreeCheck) {
+    const porcelain = execSync("git status --porcelain", { encoding: "utf8" }).trim();
+    if (porcelain) errors.push("WORKTREE_NOT_CLEAN");
+  }
 
   const proofPath = `${ownerPackRoot}/proof.json`;
   if (!fs.existsSync(proofPath)) errors.push("OWNER_PACK_PROOF_MISSING");
@@ -68,4 +101,4 @@ function runInfrastructureGates(options = {}) {
   };
 }
 
-module.exports = { runInfrastructureGates };
+module.exports = { runInfrastructureGates, resolveGitShas };

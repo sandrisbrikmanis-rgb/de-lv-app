@@ -59,6 +59,14 @@ const DEFAULT_BATCH_SIZES = Object.freeze({
 
 const DEFAULT_RETRY = { maxRetries: 2, timeoutMs: 120_000 };
 
+/** Frozen OWNER authorization contract values (G2/A1 REAL_LUNA). */
+const AUTH_FROZEN = Object.freeze({
+  model: "gpt-5.6-luna",
+  batchCount: 764,
+  maxAllowedCycles: 1,
+  queueCounts: EXPECTED.queueCounts,
+});
+
 const pathState = {
   ownerPackRoot: "/tmp/cursor/artifacts/phase2-g2-a1-owner-pack-v3",
   artifactsRoot: "/tmp/cursor/artifacts/phase2-g2-a1-luna-proposal-infra",
@@ -93,6 +101,7 @@ module.exports = {
   CHECKPOINT_SCHEMA_VERSION,
   PROGRESS_SCHEMA_VERSION,
   EXPECTED,
+  AUTH_FROZEN,
   TASK_KINDS,
   LUNA_ACTIONS,
   SOURCE_IDENTICAL_PRELIM,

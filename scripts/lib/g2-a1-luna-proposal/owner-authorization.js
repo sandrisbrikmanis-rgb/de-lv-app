@@ -6,11 +6,13 @@ const path = require("path");
 const { ROOT } = require("../audit-common");
 const { isValidSha } = require("../phase1-git-identity");
 const { sha256Hex, hashObject } = require("./hash");
-const { EXPECTED } = require("./constants");
+const { EXPECTED, AUTH_FROZEN } = require("./constants");
 
-const OWNER_AUTH_SCHEMA_VERSION = "g2-a1-luna-proposal-auth-v1";
+const OWNER_AUTH_SCHEMA_VERSION = "g2-a1-luna-proposal-auth-v2";
+const OWNER_AUTH_SCHEMA_VERSION_V1 = "g2-a1-luna-proposal-auth-v1";
 const OWNER_AUTH_PURPOSE = "G2_A1_LUNA_PROPOSAL_EXECUTION";
 const EXPECTED_REPOSITORY = "sandrisbrikmanis-rgb/de-lv-app";
+const SHA256_HEX = /^[0-9a-f]{64}$/;
 
 const REQUIRED_FIELDS = [
   "schemaVersion",
@@ -29,8 +31,11 @@ const REQUIRED_FIELDS = [
   "allowedTransport",
   "issuedAt",
   "ownerReferences",
-  "authorizationSha256",
 ];
+
+function isValidSha256(value) {
+  return typeof value === "string" && SHA256_HEX.test(value);
+}
 
 function isPathInsideWorktree(targetPath, rootPath = ROOT) {
   const resolvedTarget = path.resolve(targetPath);
@@ -38,7 +43,11 @@ function isPathInsideWorktree(targetPath, rootPath = ROOT) {
   return resolvedTarget === resolvedRoot || resolvedTarget.startsWith(`${resolvedRoot}${path.sep}`);
 }
 
-function loadOwnerAuthorizationFile(filePath) {
+function frozenQueueCountsHash() {
+  return hashObject(AUTH_FROZEN.queueCounts);
+}
+
+function loadOwnerAuthorizationFile(filePath, options = {}) {
   if (!filePath || typeof filePath !== "string") {
     return { ok: false, code: "OWNER_AUTHORIZATION_FILE_REQUIRED", message: "ownerAuthorizationFile is required" };
   }
@@ -62,7 +71,7 @@ function loadOwnerAuthorizationFile(filePath) {
   if (stat.isSymbolicLink()) {
     return { ok: false, code: "OWNER_AUTHORIZATION_FILE_SYMLINK", message: "Symlink owner authorization files are blocked" };
   }
-  if (isPathInsideWorktree(filePath)) {
+  if (!options.allowInRepo && isPathInsideWorktree(filePath)) {
     return {
       ok: false,
       code: "OWNER_AUTHORIZATION_FILE_IN_REPO",
@@ -90,7 +99,7 @@ function loadOwnerAuthorizationFile(filePath) {
     ok: true,
     authorization: validated.authorization,
     filePath,
-    authorizationSha256: sha256Hex(raw),
+    authorizationFileSha256: sha256Hex(raw),
     raw,
   };
 }
@@ -98,6 +107,14 @@ function loadOwnerAuthorizationFile(filePath) {
 function validateOwnerAuthorizationDocument(doc) {
   if (!doc || typeof doc !== "object" || Array.isArray(doc)) {
     return { ok: false, code: "OWNER_AUTHORIZATION_SCHEMA_INVALID", message: "Authorization document must be a JSON object" };
+  }
+
+  if (doc.schemaVersion === OWNER_AUTH_SCHEMA_VERSION_V1 || doc.authorizationSha256 != null) {
+    return {
+      ok: false,
+      code: "OWNER_AUTH_SCHEMA_V1_REJECTED",
+      message: "Auth v1 and authorizationSha256 self-reference are rejected; use g2-a1-luna-proposal-auth-v2",
+    };
   }
 
   const missing = REQUIRED_FIELDS.filter((field) => doc[field] === undefined || doc[field] === null || doc[field] === "");
@@ -123,10 +140,19 @@ function validateOwnerAuthorizationDocument(doc) {
     return { ok: false, code: "OWNER_AUTHORIZATION_TRANSPORT_MISMATCH", message: "allowedTransport must be REAL_LUNA" };
   }
 
-  for (const shaField of ["runtimeHeadSha", "originMainSha", "authorizationSha256"]) {
+  for (const shaField of ["runtimeHeadSha", "originMainSha"]) {
     if (!isValidSha(doc[shaField])) {
-      return { ok: false, code: "OWNER_AUTHORIZATION_SCHEMA_INVALID", message: `${shaField} must be a 40-char hex SHA` };
+      return { ok: false, code: "OWNER_AUTHORIZATION_GIT_SHA_INVALID", message: `${shaField} must be a 40-char Git SHA` };
     }
+  }
+  if (!isValidSha256(doc.matrixIdentitySha)) {
+    return { ok: false, code: "OWNER_AUTHORIZATION_MATRIX_SHA_INVALID", message: "matrixIdentitySha must be a 64-char SHA-256" };
+  }
+  if (!isValidSha256(doc.sourceSha256)) {
+    return { ok: false, code: "OWNER_AUTHORIZATION_SOURCE_SHA_INVALID", message: "sourceSha256 must be a 64-char SHA-256" };
+  }
+  if (!isValidSha256(doc.batchPlanSha256)) {
+    return { ok: false, code: "OWNER_AUTHORIZATION_BATCH_PLAN_SHA_INVALID", message: "batchPlanSha256 must be a 64-char SHA-256" };
   }
   if (doc.matrixIdentitySha !== EXPECTED.matrixIdentitySha) {
     return { ok: false, code: "OWNER_AUTHORIZATION_MATRIX_SHA_MISMATCH", message: "matrixIdentitySha mismatch" };
@@ -134,20 +160,21 @@ function validateOwnerAuthorizationDocument(doc) {
   if (doc.sourceSha256 !== EXPECTED.sourceSha) {
     return { ok: false, code: "OWNER_AUTHORIZATION_SOURCE_SHA_MISMATCH", message: "sourceSha256 mismatch" };
   }
+  if (doc.model !== AUTH_FROZEN.model) {
+    return { ok: false, code: "OWNER_AUTHORIZATION_MODEL_MISMATCH", message: `model must be ${AUTH_FROZEN.model}` };
+  }
+  if (doc.batchCount !== AUTH_FROZEN.batchCount) {
+    return { ok: false, code: "OWNER_AUTHORIZATION_BATCH_COUNT_MISMATCH", message: `batchCount must be ${AUTH_FROZEN.batchCount}` };
+  }
+  if (doc.maxAllowedCycles !== AUTH_FROZEN.maxAllowedCycles) {
+    return {
+      ok: false,
+      code: "OWNER_AUTHORIZATION_MAX_CYCLES_MISMATCH",
+      message: `maxAllowedCycles must be ${AUTH_FROZEN.maxAllowedCycles}`,
+    };
+  }
   if (typeof doc.runId !== "string" || !doc.runId.startsWith("g2-a1-proposal-")) {
     return { ok: false, code: "OWNER_AUTHORIZATION_SCHEMA_INVALID", message: "runId must start with g2-a1-proposal-" };
-  }
-  if (typeof doc.model !== "string" || !doc.model.trim()) {
-    return { ok: false, code: "OWNER_AUTHORIZATION_SCHEMA_INVALID", message: "model must be a non-empty string" };
-  }
-  if (typeof doc.batchPlanSha256 !== "string" || !doc.batchPlanSha256.trim()) {
-    return { ok: false, code: "OWNER_AUTHORIZATION_SCHEMA_INVALID", message: "batchPlanSha256 required" };
-  }
-  if (!Number.isInteger(doc.batchCount) || doc.batchCount < 1) {
-    return { ok: false, code: "OWNER_AUTHORIZATION_SCHEMA_INVALID", message: "batchCount must be a positive integer" };
-  }
-  if (!Number.isInteger(doc.maxAllowedCycles) || doc.maxAllowedCycles < 1) {
-    return { ok: false, code: "OWNER_AUTHORIZATION_SCHEMA_INVALID", message: "maxAllowedCycles must be a positive integer" };
   }
   if (typeof doc.ownerReferences !== "string" || !doc.ownerReferences.trim()) {
     return { ok: false, code: "OWNER_AUTHORIZATION_SCHEMA_INVALID", message: "ownerReferences required" };
@@ -158,21 +185,77 @@ function validateOwnerAuthorizationDocument(doc) {
   if (!doc.queueCounts || typeof doc.queueCounts !== "object") {
     return { ok: false, code: "OWNER_AUTHORIZATION_SCHEMA_INVALID", message: "queueCounts required" };
   }
-
-  if (doc.runtimeHeadSha !== doc.originMainSha || doc.runtimeHeadSha !== doc.authorizationSha256) {
+  if (hashObject(doc.queueCounts) !== frozenQueueCountsHash()) {
+    return { ok: false, code: "OWNER_AUTHORIZATION_QUEUE_COUNTS_MISMATCH", message: "queueCounts frozen mismatch" };
+  }
+  if (doc.runtimeHeadSha !== doc.originMainSha) {
     return {
       ok: false,
-      code: "OWNER_AUTHORIZATION_SHA_CHAIN_INVALID",
-      message: "runtimeHeadSha, originMainSha, and authorizationSha256 must be identical",
+      code: "OWNER_AUTHORIZATION_GIT_SHA_CHAIN_INVALID",
+      message: "runtimeHeadSha and originMainSha must be identical Git SHAs",
     };
   }
 
   return { ok: true, authorization: { ...doc } };
 }
 
+function validateGitIdentityChain({ headSha, originMainSha, expectedRuntimeHeadSha, cliSha, authorization }) {
+  const blockers = [];
+  const chain = [
+    headSha,
+    originMainSha,
+    expectedRuntimeHeadSha,
+    cliSha,
+    authorization?.runtimeHeadSha,
+    authorization?.originMainSha,
+  ].filter(Boolean);
+  const unique = [...new Set(chain)];
+  if (unique.length !== 1) {
+    blockers.push({
+      code: "RUNTIME_GIT_IDENTITY_CHAIN_MISMATCH",
+      message: `Git identity chain mismatch: ${unique.join(" != ")}`,
+    });
+  }
+  for (const value of chain) {
+    if (!isValidSha(value)) {
+      blockers.push({ code: "OWNER_AUTHORIZATION_GIT_SHA_INVALID", message: "Git SHA must be 40 hex chars" });
+      break;
+    }
+  }
+  return { ok: blockers.length === 0, blockers };
+}
+
+function validateAuthorizationFileHash({ authorizationFileSha256, expectedAuthorizationFileSha256 }) {
+  const blockers = [];
+  if (!expectedAuthorizationFileSha256) {
+    blockers.push({
+      code: "EXPECTED_AUTHORIZATION_FILE_SHA256_REQUIRED",
+      message: "expectedAuthorizationFileSha256 is required for REAL_LUNA",
+    });
+  }
+  if (!isValidSha256(authorizationFileSha256)) {
+    blockers.push({ code: "AUTHORIZATION_FILE_SHA256_INVALID", message: "authorization file hash must be 64 hex chars" });
+  }
+  if (expectedAuthorizationFileSha256 && !isValidSha256(expectedAuthorizationFileSha256)) {
+    blockers.push({
+      code: "EXPECTED_AUTHORIZATION_FILE_SHA256_INVALID",
+      message: "expectedAuthorizationFileSha256 must be 64 hex chars",
+    });
+  }
+  if (
+    authorizationFileSha256 &&
+    expectedAuthorizationFileSha256 &&
+    authorizationFileSha256 !== expectedAuthorizationFileSha256
+  ) {
+    blockers.push({ code: "AUTHORIZATION_FILE_SHA256_MISMATCH", message: "authorization file SHA-256 mismatch" });
+  }
+  return { ok: blockers.length === 0, blockers };
+}
+
 function validateOwnerAuthorizationAgainstRuntime({
   authorization,
-  authorizationSha256,
+  authorizationFileSha256,
+  expectedAuthorizationFileSha256,
   expectedRuntimeHeadSha,
   cliSha,
   headSha,
@@ -183,44 +266,61 @@ function validateOwnerAuthorizationAgainstRuntime({
   sourceSha,
   batchPlanSha256,
   batchCount,
+  maxAllowedCycles,
   queueCounts,
 }) {
   const blockers = [];
-  const auth = authorization;
 
-  if (!expectedRuntimeHeadSha) {
-    blockers.push({ code: "EXPECTED_RUNTIME_HEAD_SHA_REQUIRED", message: "expectedRuntimeHeadSha is required for REAL_LUNA" });
-  }
   if (!authorization) {
     blockers.push({ code: "OWNER_AUTHORIZATION_FILE_REQUIRED", message: "Owner authorization document missing" });
     return { ok: false, blockers };
   }
 
-  const chain = [headSha, originMainSha, expectedRuntimeHeadSha, cliSha, auth.runtimeHeadSha, auth.originMainSha, auth.authorizationSha256];
-  const unique = [...new Set(chain.filter(Boolean))];
-  if (unique.length !== 1) {
-    blockers.push({
-      code: "RUNTIME_IDENTITY_CHAIN_MISMATCH",
-      message: `HEAD/origin/CLI/auth chain mismatch: ${unique.join(" != ")}`,
-    });
-  }
+  const gitChain = validateGitIdentityChain({
+    headSha,
+    originMainSha,
+    expectedRuntimeHeadSha,
+    cliSha,
+    authorization,
+  });
+  blockers.push(...gitChain.blockers);
 
-  if (authorizationSha256 && auth.authorizationSha256 !== authorizationSha256) {
-    blockers.push({ code: "AUTHORIZATION_SHA_MISMATCH", message: "authorizationSha256 does not match file hash" });
+  const fileHash = validateAuthorizationFileHash({
+    authorizationFileSha256,
+    expectedAuthorizationFileSha256,
+  });
+  blockers.push(...fileHash.blockers);
+
+  if (runId && authorization.runId !== runId) blockers.push({ code: "RUN_ID_MISMATCH", message: "runId mismatch" });
+  if (model && authorization.model !== model) blockers.push({ code: "MODEL_MISMATCH", message: "model mismatch" });
+  if (model && authorization.model !== AUTH_FROZEN.model) {
+    blockers.push({ code: "MODEL_MISMATCH", message: `model must be ${AUTH_FROZEN.model}` });
   }
-  if (runId && auth.runId !== runId) blockers.push({ code: "RUN_ID_MISMATCH", message: "runId mismatch" });
-  if (model && auth.model !== model) blockers.push({ code: "MODEL_MISMATCH", message: "model mismatch" });
-  if (matrixIdentitySha && auth.matrixIdentitySha !== matrixIdentitySha) {
+  if (matrixIdentitySha && authorization.matrixIdentitySha !== matrixIdentitySha) {
     blockers.push({ code: "MATRIX_SHA_MISMATCH", message: "matrixIdentitySha mismatch" });
   }
-  if (sourceSha && auth.sourceSha256 !== sourceSha) blockers.push({ code: "SOURCE_SHA_MISMATCH", message: "sourceSha256 mismatch" });
-  if (batchPlanSha256 && auth.batchPlanSha256 !== batchPlanSha256) {
+  if (sourceSha && authorization.sourceSha256 !== sourceSha) {
+    blockers.push({ code: "SOURCE_SHA_MISMATCH", message: "sourceSha256 mismatch" });
+  }
+  if (batchPlanSha256 && authorization.batchPlanSha256 !== batchPlanSha256) {
     blockers.push({ code: "BATCH_PLAN_SHA_MISMATCH", message: "batchPlanSha256 mismatch" });
   }
-  if (batchCount != null && auth.batchCount !== batchCount) {
+  if (batchCount != null && authorization.batchCount !== batchCount) {
     blockers.push({ code: "BATCH_COUNT_MISMATCH", message: "batchCount mismatch" });
   }
-  if (queueCounts && hashObject(auth.queueCounts) !== hashObject(queueCounts)) {
+  if (batchCount != null && authorization.batchCount !== AUTH_FROZEN.batchCount) {
+    blockers.push({ code: "BATCH_COUNT_MISMATCH", message: `batchCount must be ${AUTH_FROZEN.batchCount}` });
+  }
+  if (maxAllowedCycles != null && authorization.maxAllowedCycles !== maxAllowedCycles) {
+    blockers.push({ code: "MAX_ALLOWED_CYCLES_MISMATCH", message: "maxAllowedCycles mismatch" });
+  }
+  if (maxAllowedCycles != null && authorization.maxAllowedCycles !== AUTH_FROZEN.maxAllowedCycles) {
+    blockers.push({
+      code: "MAX_ALLOWED_CYCLES_MISMATCH",
+      message: `maxAllowedCycles must be ${AUTH_FROZEN.maxAllowedCycles}`,
+    });
+  }
+  if (queueCounts && hashObject(authorization.queueCounts) !== hashObject(queueCounts)) {
     blockers.push({ code: "QUEUE_COUNTS_MISMATCH", message: "queueCounts mismatch" });
   }
 
@@ -234,30 +334,49 @@ function buildOwnerAuthorizationDocument(overrides = {}) {
     repository: EXPECTED_REPOSITORY,
     runtimeHeadSha: overrides.runtimeHeadSha,
     originMainSha: overrides.originMainSha,
-    authorizationSha256: overrides.authorizationSha256,
     runId: overrides.runId,
-    model: overrides.model,
+    model: overrides.model || AUTH_FROZEN.model,
     matrixIdentitySha: overrides.matrixIdentitySha || EXPECTED.matrixIdentitySha,
     sourceSha256: overrides.sourceSha256 || EXPECTED.sourceSha,
     batchPlanSha256: overrides.batchPlanSha256,
-    queueCounts: overrides.queueCounts,
-    batchCount: overrides.batchCount,
-    maxAllowedCycles: overrides.maxAllowedCycles,
+    queueCounts: overrides.queueCounts || AUTH_FROZEN.queueCounts,
+    batchCount: overrides.batchCount ?? AUTH_FROZEN.batchCount,
+    maxAllowedCycles: overrides.maxAllowedCycles ?? AUTH_FROZEN.maxAllowedCycles,
     allowedTransport: "REAL_LUNA",
     issuedAt: overrides.issuedAt || new Date().toISOString(),
     ownerReferences: overrides.ownerReferences || "OWNER-TEST",
+    authorizationId: overrides.authorizationId || "auth-test-id",
     ...overrides,
+  };
+}
+
+function proveV1Defect() {
+  const gitSha = "a".repeat(40);
+  const fileHash = sha256Hex('{"schemaVersion":"g2-a1-luna-proposal-auth-v1"}');
+  return {
+    defect: "AUTHORIZATION_SHA_TYPE_COLLISION",
+    impossibleEquation: "runtimeHeadSha = originMainSha = authorizationSha256 AND authorizationSha256 = SHA256(rawFile)",
+    gitShaLength: gitSha.length,
+    fileSha256Length: fileHash.length,
+    v1SelfReferenceField: "authorizationSha256",
+    v2Fix: "Separate Git chain (40 hex) from authorizationFileSha256 (64 hex)",
+    gitShaEqualsFileHash: gitSha === fileHash,
   };
 }
 
 module.exports = {
   OWNER_AUTH_SCHEMA_VERSION,
+  OWNER_AUTH_SCHEMA_VERSION_V1,
   OWNER_AUTH_PURPOSE,
   EXPECTED_REPOSITORY,
   REQUIRED_FIELDS,
+  isValidSha256,
   loadOwnerAuthorizationFile,
   validateOwnerAuthorizationDocument,
+  validateGitIdentityChain,
+  validateAuthorizationFileHash,
   validateOwnerAuthorizationAgainstRuntime,
   buildOwnerAuthorizationDocument,
+  proveV1Defect,
   isPathInsideWorktree,
 };
