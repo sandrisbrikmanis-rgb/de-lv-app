@@ -41,7 +41,23 @@ function sha256File(filePath) {
 }
 
 function runCmd(cmd, cwd = ROOT) {
-  return execSync(cmd, { cwd, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] });
+  return execSync(cmd, {
+    cwd,
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "pipe"],
+    maxBuffer: 128 * 1024 * 1024,
+  });
+}
+
+function runCmdToFile(cmd, outFile, cwd = ROOT) {
+  execSync(`${cmd} > ${JSON.stringify(outFile)} 2>&1`, {
+    cwd,
+    encoding: "utf8",
+    stdio: "inherit",
+    shell: "/bin/bash",
+    maxBuffer: 128 * 1024 * 1024,
+  });
+  return fs.readFileSync(outFile, "utf8");
 }
 
 function parseTestStats(output) {
@@ -286,7 +302,8 @@ async function main() {
   const runtimeAuthOut = runCmd("npm run test:phase2-g2-a1-luna-runtime-auth");
   const infraOut = runCmd("npm run test:phase2-g2-a1-luna-proposal-infra");
   const infraIntOut = runCmd("npm run test:phase2-g2-a1-luna-proposal-infra:integration");
-  const dryRunOut = runCmd("npm run phase2:g2-a1:luna-proposal:dry-run");
+  const dryRunLog = path.join(ARTIFACT_ROOT, "dry-run.log");
+  const dryRunOut = runCmdToFile("npm run phase2:g2-a1:luna-proposal:dry-run", dryRunLog);
   const ownerReviewResult = await runOwnerReview({
     outDir: path.join(ARTIFACT_ROOT, "proposal-owner-review"),
   });
