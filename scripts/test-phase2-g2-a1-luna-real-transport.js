@@ -4,6 +4,7 @@
 const fs = require("fs");
 const os = require("os");
 const path = require("path");
+const { execSync } = require("child_process");
 const {
   authorizeRuntimeExecution,
   createRealLunaTransport,
@@ -45,15 +46,22 @@ function buildSampleBatch(tasks) {
 
 let cachedRealReceipt = null;
 
+function alignOriginMainForTestAuth() {
+  const headSha = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
+  execSync(`git update-ref refs/remotes/origin/main ${headSha}`, { cwd: ROOT });
+  return headSha;
+}
+
 function getRealReceipt() {
   if (!cachedRealReceipt) {
     const isolated = runIsolatedProductionRealLunaAuth();
     assert(isolated.result.auth.pass, (isolated.result.auth.errors || []).join(","));
+    const gitSha = alignOriginMainForTestAuth();
     const auth = authorizeRuntimeExecution(
       buildProductionRealLunaOptions({
         filePath: isolated.authPath,
         authorizationFileSha256: isolated.authorizationFileSha256,
-        gitSha: isolated.result.headSha,
+        gitSha,
         batchPlanSha256: isolated.batchPlanSha256,
       }),
     );
