@@ -105,9 +105,15 @@ function evaluateOwnerPrepCoverage(options = {}) {
   const viewText = fs.readFileSync(requiredFiles[0], "utf8");
   const decisionsText = fs.readFileSync(requiredFiles[1], "utf8");
   const auditIds = validatedFindings.map((f) => f.auditId).filter(Boolean);
-  const missing = auditIds.filter((id) => !decisionsText.includes(id));
+  const decisionsAuditIds = new Set();
+  for (const line of decisionsText.split("\n")) {
+    if (!line.startsWith("| PH1-")) continue;
+    const cell = line.slice(2).split("|")[0]?.trim();
+    if (cell) decisionsAuditIds.add(cell);
+  }
+  const missing = auditIds.filter((id) => !decisionsAuditIds.has(id));
   const duplicateAuditIds = auditIds.length - new Set(auditIds).size;
-  const rowCount = (decisionsText.match(/^\| PH1-/gm) || []).length;
+  const rowCount = decisionsAuditIds.size;
   const allPending =
     !/OWNER STATUS:\s*(LABOT|NELABOT|FALSE_POSITIVE)/i.test(viewText) &&
     !/\|\s*(LABOT|NELABOT|FALSE_POSITIVE)\s*\|/i.test(decisionsText);
