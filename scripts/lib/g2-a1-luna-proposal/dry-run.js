@@ -86,6 +86,10 @@ function runDryRun(options = {}) {
     classification,
     gates: { pass: gates.pass, originMain: gates.originMain, sourceSha: gates.sourceSha },
     counts,
+    rawCounts: {
+      EMPTY_OR_MISSING: EXPECTED.rawQueueCounts.EMPTY_OR_MISSING,
+      SOURCE_IDENTICAL: EXPECTED.rawQueueCounts.SOURCE_IDENTICAL,
+    },
     reconciliation,
     batchPlan: {
       totalBatches: batchPlan.totalBatches,
