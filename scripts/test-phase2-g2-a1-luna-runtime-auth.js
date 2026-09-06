@@ -244,6 +244,8 @@ function testAuthFileViaParentSymlinkIntoRepoRejected() {
       loaded.code
     );
   } finally {
+    const repoLeak = path.join(ROOT, "reports", "temp", "symlink-auth");
+    if (fs.existsSync(repoLeak)) fs.rmSync(repoLeak, { recursive: true, force: true });
     fs.rmSync(tmp, { recursive: true, force: true });
   }
 }
