@@ -5,6 +5,7 @@ const fs = require("fs");
 const os = require("os");
 const path = require("path");
 const {
+  authorizeRuntimeExecution,
   createRealLunaTransport,
   createLunaTransport,
   runProposalBatches,
@@ -13,7 +14,10 @@ const {
   pathState,
   TASK_KINDS,
 } = require("./lib/g2-a1-luna-proposal");
-const { runIsolatedProductionRealLunaAuth } = require("./lib/g2-a1-luna-proposal/auth-test-harness");
+const {
+  buildProductionRealLunaOptions,
+  runIsolatedProductionRealLunaAuth,
+} = require("./lib/g2-a1-luna-proposal/auth-test-harness");
 const { buildFakeProposalClient, defaultItemsForTasks } = require("./lib/g2-a1-luna-proposal/fake-client-fixture");
 const { redactSecrets } = require("./lib/luna-phase1-openai");
 const { ROOT } = require("./lib/audit-common");
@@ -45,7 +49,16 @@ function getRealReceipt() {
   if (!cachedRealReceipt) {
     const isolated = runIsolatedProductionRealLunaAuth();
     assert(isolated.result.auth.pass, (isolated.result.auth.errors || []).join(","));
-    cachedRealReceipt = isolated.result.auth.receipt;
+    const auth = authorizeRuntimeExecution(
+      buildProductionRealLunaOptions({
+        filePath: isolated.authPath,
+        authorizationFileSha256: isolated.authorizationFileSha256,
+        gitSha: isolated.result.headSha,
+        batchPlanSha256: isolated.batchPlanSha256,
+      }),
+    );
+    assert(auth.pass, (auth.errors || []).join(","));
+    cachedRealReceipt = auth.receipt;
   }
   return cachedRealReceipt;
 }
