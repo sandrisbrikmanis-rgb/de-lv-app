@@ -135,27 +135,19 @@ function exportFlatToJson(flat) {
   return `${JSON.stringify(sortFlatKeys(flat), null, 2)}\n`;
 }
 
-const FLAT_JSON_KEY_RE = /"((?:\\.|[^"\\])*)"\s*:\s*"/g;
+const { detectDuplicateJsonKeys: detectDuplicateJsonKeysTokenized } = require("./json-duplicate-keys");
 
 function detectDuplicateJsonKeys(rawText) {
-  const duplicates = [];
-  const seen = new Set();
-  const keys = [];
-  let match;
-  while ((match = FLAT_JSON_KEY_RE.exec(rawText)) !== null) {
-    const key = JSON.parse(`"${match[1]}"`);
-    keys.push(key);
-    if (seen.has(key)) {
-      duplicates.push(key);
-    } else {
-      seen.add(key);
-    }
-  }
-  return { keys, duplicates };
+  return detectDuplicateJsonKeysTokenized(rawText);
 }
 
 function parseCrowdinJson(rawText) {
   const dup = detectDuplicateJsonKeys(rawText);
+  if (dup.code === "MALFORMED_JSON") {
+    const err = new Error(dup.error);
+    err.code = dup.code;
+    throw err;
+  }
   if (dup.duplicates.length > 0) {
     const err = new Error(`DUPLICATE_JSON_KEY:${dup.duplicates[0]}`);
     err.code = "DUPLICATE_JSON_KEY";

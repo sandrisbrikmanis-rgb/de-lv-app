@@ -5,9 +5,34 @@ files:
     translation: /crowdin/content/g2/%locale%-a1.json
     languages_mapping:
       locale:
+        bg: bg
+        bs: bs
+        cs: cs
+        da: da
         el: gr
         en-GB: en
         es-ES: es
-        pt-PT: pt
+        et: et
+        fi: fi
+        fr: fr
+        hr: hr
+        hu: hu
+        is: is
+        it: it
+        lb: lb
+        lt: lt
+        mk: mk
+        nb: nb
+        nl: nl
         nn-NO: nn
+        pl: pl
+        pt-PT: pt
+        ro: ro
+        ru: ru
+        sk: sk
+        sl: sl
+        sq: sq
+        sr: sr
         sv-SE: sv
+        tr: tr
+        uk: uk

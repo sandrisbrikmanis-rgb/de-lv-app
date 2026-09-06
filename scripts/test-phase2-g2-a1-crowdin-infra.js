@@ -28,8 +28,13 @@ const {
   exportFlatToJson,
   detectDuplicateJsonKeys,
   validateCrowdinYmlG2A1,
+  loadCrowdinYmlConfig,
 } = require("./lib/content-crowdin-bridge");
-const { isProductionPath } = require("./lib/content-crowdin-bridge/import-staging");
+const { extractTopLevelJsonKeys } = require("./lib/content-crowdin-bridge/json-duplicate-keys");
+const {
+  assertLvSourceExportIdentity,
+  isProductionPath,
+} = require("./lib/content-crowdin-bridge/import-staging");
 
 const LV_EXPORT_PATH = path.join(ROOT, "crowdin", "content", "g2", "lv-a1.json");
 
@@ -48,11 +53,14 @@ function makeTempDir(prefix) {
 }
 
 function testCrowdinYmlOffline() {
+  const config = loadCrowdinYmlConfig();
+  assert(Array.isArray(config.files), "yaml parse must yield files array");
   const report = validateCrowdinYmlG2A1();
   assert(report.pass, report.errors.join("; "));
   assert(report.ui.source === "/crowdin/ui/lv.json", "UI source changed");
   assert(report.ui.translation === "/crowdin/ui/%two_letters_code%.json", "UI translation changed");
   assert(!report.ui.languages_mapping, "UI must not have languages_mapping");
+  assert(Object.keys(report.localeMap).length === 31, "yaml locale map must have 31 entries");
   assert(report.repoFilenames.includes("gr-a1.json"), "missing gr-a1.json");
   assert(report.repoFilenames.includes("en-a1.json"), "missing en-a1.json");
   assert(report.repoFilenames.includes("es-a1.json"), "missing es-a1.json");
@@ -60,7 +68,13 @@ function testCrowdinYmlOffline() {
   assert(report.repoFilenames.includes("nn-a1.json"), "missing nn-a1.json");
   assert(report.repoFilenames.includes("sv-a1.json"), "missing sv-a1.json");
   assert(report.repoFilenames.length === 31, `filename count ${report.repoFilenames.length}`);
-  console.log("OK crowdin.yml offline validation: 31/31 repo filenames, UI unchanged");
+  console.log("OK crowdin.yml YAML validation: 31/31 locale entries, UI unchanged");
+}
+
+function testLvSourceExportIdentity() {
+  const sha = assertLvSourceExportIdentity();
+  assert(sha === sha256File(LV_EXPORT_PATH), "identity gate sha must match committed export");
+  console.log(`OK LV source export identity gate: ${sha}`);
 }
 
 function testLvExportCountsAndKeys() {
@@ -146,22 +160,65 @@ function testStagingImportHappyPath() {
   console.log("OK valid staging import → PASS with SHA bindings");
 }
 
-function testGenuineDuplicateJsonKey() {
+function testDuplicateKeyDetector() {
+  const stringDup = `{
+  "same.key": "first",
+  "same.key": "second"
+}`;
+  const numStringDup = `{
+  "same.key": 1,
+  "same.key": "translation"
+}`;
+  const escapedDup = `{
+  "a": "x",
+  "\\u0061": "y"
+}`;
+  const nested = `{
+  "nested": { "inner": 1 },
+  "ok": "value"
+}`;
+  const arrayVal = `{
+  "arr": [1, 2],
+  "ok": "value"
+}`;
+
+  assert(detectDuplicateJsonKeys(stringDup).duplicates.includes("same.key"), "string/string");
+  assert(detectDuplicateJsonKeys(numStringDup).duplicates.includes("same.key"), "number/string");
+  assert(detectDuplicateJsonKeys(escapedDup).duplicates.includes("a"), "escaped equivalent");
+  assert(detectDuplicateJsonKeys(nested).duplicates.length === 0, "nested object allowed");
+  assert(detectDuplicateJsonKeys(arrayVal).duplicates.length === 0, "array value allowed");
+
+  let malformedCaught = false;
+  try {
+    extractTopLevelJsonKeys("{ invalid");
+  } catch (err) {
+    malformedCaught = err.code === "MALFORMED_JSON";
+  }
+  assert(malformedCaught, "malformed JSON");
+
+  let nonStringCaught = false;
+  try {
+    parseCrowdinJson('{"k": 1}');
+  } catch (err) {
+    nonStringCaught = /must be string/.test(err.message);
+  }
+  assert(nonStringCaught, "non-string value rejected");
+
+  console.log("OK duplicate-key detector: string/number/escaped/nested/array/malformed");
+}
+
+function testGenuineDuplicateJsonKeyImport() {
   const lang = "da";
   const stagingDir = makeTempDir("phase2-g2-a1-dupjson-");
-  const dupKey = "a1.card.apfel.native";
   const raw = `{
-  "${dupKey}": "first",
-  "${dupKey}": "second"
-}
-`;
+  "a1.card.apfel.native": 1,
+  "a1.card.apfel.native": "translation"
+}`;
   fs.writeFileSync(path.join(stagingDir, `${lang}-a1.json`), raw, "utf8");
-  const detected = detectDuplicateJsonKeys(raw);
-  assert(detected.duplicates.includes(dupKey), "scanner must detect duplicate before parse");
   const result = prepareG2A1StagingImport({ lang, stagingDir });
   assert(!result.ok, "duplicate JSON key must fail");
   assert(result.errors.some((e) => e.startsWith("DUPLICATE_JSON_KEY")), result.errors?.join("; "));
-  console.log("OK genuine duplicate JSON key → FAIL (DUPLICATE_JSON_KEY)");
+  console.log("OK genuine duplicate JSON key import → FAIL");
 }
 
 function testNegativeImportCases() {
@@ -181,8 +238,7 @@ function testNegativeImportCases() {
   const empty = prepareG2A1StagingImport({ lang, stagingDir: emptyDir });
   assert(!empty.ok && empty.errors.some((e) => e.startsWith("UNTRANSLATED")), "empty value");
 
-  const lvFlat = exportG2LevelFlat("lv", "a1");
-  const phKey = Object.keys(lvFlat)[10];
+  const phKey = Object.keys(base)[10];
   const phDir = makeTempDir("phase2-g2-a1-ph-");
   const phFlat = { ...base };
   phFlat[phKey] = `{INJECTED} ${phFlat[phKey]}`;
@@ -205,24 +261,113 @@ function testNegativeImportCases() {
   }
   assert(productionBlocked, "production staging path must fail");
 
-  console.log("OK negative cases: extra/empty/placeholder/symlink-path/structural");
+  console.log("OK negative import cases: extra/empty/placeholder/structural/production path");
+}
+
+function symlinkOrSkip(target, linkPath, type = "dir") {
+  try {
+    fs.symlinkSync(target, linkPath, type);
+    return true;
+  } catch (err) {
+    if (err.code === "EPERM" || err.code === "EACCES") return false;
+    throw err;
+  }
 }
 
 function testSymlinkStagingBlocked() {
   const lang = "et";
-  const tmp = makeTempDir("phase2-g2-a1-symlink-");
-  const linkPath = path.join(tmp, "staging-link");
-  const dataDir = path.join(ROOT, "data");
-  fs.symlinkSync(dataDir, linkPath, "dir");
+  let ran = 0;
 
-  let blocked = false;
-  try {
-    prepareG2A1StagingImport({ lang, stagingDir: linkPath });
-  } catch (err) {
-    blocked = err.code === "STAGING_PATH_FORBIDDEN";
+  const dataRoot = makeTempDir("phase2-g2-a1-symlink-data-");
+  const dataLink = path.join(dataRoot, "staging-link");
+  if (symlinkOrSkip(path.join(ROOT, "data"), dataLink)) {
+    let blocked = false;
+    try {
+      prepareG2A1StagingImport({ lang, stagingDir: dataLink });
+    } catch (err) {
+      blocked = err.code === "STAGING_PATH_FORBIDDEN";
+    }
+    assert(blocked, "staging root symlink → data/** must fail");
+    ran++;
   }
-  assert(blocked, "symlink to data/** staging must fail");
-  console.log("OK symlink to production data/** → FAIL");
+
+  const wwwDir = makeTempDir("phase2-g2-a1-symlink-www-");
+  fs.mkdirSync(wwwDir, { recursive: true });
+  const sub = path.join(wwwDir, "g2");
+  fs.mkdirSync(sub, { recursive: true });
+  const wwwLink = path.join(sub, "a1");
+  if (symlinkOrSkip(path.join(ROOT, "www", "data"), wwwLink)) {
+    const fixture = buildValidTranslationFixture(lang);
+    fs.writeFileSync(path.join(wwwDir, `${lang}-a1.json`), exportFlatToJson(fixture), "utf8");
+    let blocked = false;
+    try {
+      prepareG2A1StagingImport({ lang, stagingDir: wwwDir });
+    } catch (err) {
+      blocked = err.code === "STAGING_PATH_FORBIDDEN";
+    }
+    assert(blocked, "staging subdir symlink → www/data/** must fail");
+    ran++;
+  }
+
+  const langRoot = makeTempDir("phase2-g2-a1-symlink-lang-");
+  const fixture = buildValidTranslationFixture(lang);
+  fs.writeFileSync(path.join(langRoot, `${lang}-a1.json`), exportFlatToJson(fixture), "utf8");
+  const prepared = prepareG2A1StagingImport({ lang, stagingDir: langRoot });
+  assert(prepared.ok, prepared.errors?.join("; "));
+  const langParent = path.dirname(prepared.outDir);
+  if (fs.existsSync(langParent)) {
+    fs.rmSync(langParent, { recursive: true, force: true });
+  }
+  fs.mkdirSync(path.dirname(langParent), { recursive: true });
+  if (symlinkOrSkip(path.join(ROOT, "languages", lang), langParent, "dir")) {
+    let blocked = false;
+    try {
+      writeG2A1StagingImport(prepared);
+    } catch (err) {
+      blocked = err.code === "STAGING_PATH_FORBIDDEN";
+    }
+    assert(blocked, "output parent symlink → languages/** must fail");
+    ran++;
+  }
+
+  const wwwLangRoot = makeTempDir("phase2-g2-a1-symlink-wwwlang-");
+  const fixture2 = buildValidTranslationFixture("da");
+  fs.writeFileSync(path.join(wwwLangRoot, "da-a1.json"), exportFlatToJson(fixture2), "utf8");
+  const prepared2 = prepareG2A1StagingImport({ lang: "da", stagingDir: wwwLangRoot });
+  assert(prepared2.ok, prepared2.errors?.join("; "));
+  const outParent = path.dirname(prepared2.outDir);
+  if (fs.existsSync(outParent)) fs.rmSync(outParent, { recursive: true, force: true });
+  fs.mkdirSync(path.dirname(outParent), { recursive: true });
+  if (symlinkOrSkip(path.join(ROOT, "www", "languages", "da"), outParent, "dir")) {
+    let blocked = false;
+    try {
+      writeG2A1StagingImport(prepared2);
+    } catch (err) {
+      blocked = err.code === "STAGING_PATH_FORBIDDEN";
+    }
+    assert(blocked, "output parent symlink → www/languages/** must fail");
+    ran++;
+  }
+
+  const lateRoot = makeTempDir("phase2-g2-a1-symlink-late-");
+  const fixture3 = buildValidTranslationFixture("cs");
+  fs.writeFileSync(path.join(lateRoot, "cs-a1.json"), exportFlatToJson(fixture3), "utf8");
+  const prepared3 = prepareG2A1StagingImport({ lang: "cs", stagingDir: lateRoot });
+  assert(prepared3.ok, prepared3.errors?.join("; "));
+  fs.mkdirSync(path.dirname(prepared3.outDir), { recursive: true });
+  if (symlinkOrSkip(path.join(ROOT, "languages", "cs"), prepared3.outDir, "dir")) {
+    let blocked = false;
+    try {
+      writeG2A1StagingImport(prepared3);
+    } catch (err) {
+      blocked = err.code === "STAGING_PATH_FORBIDDEN";
+    }
+    assert(blocked, "symlink after prepare before write must fail");
+    ran++;
+  }
+
+  assert(ran >= 3, `expected at least 3 symlink tests, ran ${ran}`);
+  console.log(`OK symlink negative tests (${ran} cases)`);
 }
 
 function testProductionDiffZero() {
@@ -234,11 +379,13 @@ function testProductionDiffZero() {
 function main() {
   const exportSha = testDeterministicExportSha();
   testCrowdinYmlOffline();
+  testLvSourceExportIdentity();
   testLvExportCountsAndKeys();
   testLocaleMapping();
   testG2A1RoundTripAllLangs();
+  testDuplicateKeyDetector();
   testStagingImportHappyPath();
-  testGenuineDuplicateJsonKey();
+  testGenuineDuplicateJsonKeyImport();
   testNegativeImportCases();
   testSymlinkStagingBlocked();
   testProductionDiffZero();
@@ -247,7 +394,7 @@ function main() {
   console.log(
     JSON.stringify(
       {
-        classification: "PHASE2_G2_A1_CROWDIN_INFRA_REPAIR_TESTS_PASS",
+        classification: "PHASE2_G2_A1_CROWDIN_INFRA_FINAL_OWNER_REVIEW_READY",
         exportSha256: exportSha,
         objects: G2_A1_EXPECTED_OBJECT_COUNT,
         keys: G2_A1_EXPECTED_KEY_COUNT,

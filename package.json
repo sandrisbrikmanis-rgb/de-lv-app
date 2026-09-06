@@ -82,6 +82,7 @@
   "devDependencies": {
     "@capacitor/assets": "^3.0.5",
     "@capacitor/cli": "^8.4.1",
-    "google-translate-api-x": "^10.7.3"
+    "google-translate-api-x": "^10.7.3",
+    "yaml": "^2.9.0"
   }
 }

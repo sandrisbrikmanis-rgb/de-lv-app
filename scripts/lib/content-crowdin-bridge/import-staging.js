@@ -11,11 +11,12 @@ const {
   validateImportGuardsAgainstSource,
   exportFlatToJson,
 } = require("./guards");
-const { getLvG2SourceKeySet, exportG2LevelFlat, loadG2Level } = require("./roundtrip");
+const { getLvG2SourceKeySet, exportG2LevelFlat, loadG2Level, exportG2LevelToCrowdinJson } = require("./roundtrip");
 const { g2LevelCrowdinPath } = require("./locale-map");
 const {
   assertSymlinkSafeStagingPath,
   assertSymlinkSafeOutputParent,
+  assertSymlinkSafeOutputFilePath,
 } = require("./staging-path-guard");
 
 const MULTI_TRANSLATION_SEP = " • ";
@@ -167,10 +168,29 @@ function resolveTranslationInputPath({ stagingDir, lang, level, group }) {
   throw new Error(`TRANSLATION_FILE_NOT_FOUND:${lang}-${level}.json`);
 }
 
+function assertLvSourceExportIdentity() {
+  if (!fs.existsSync(LV_SOURCE_EXPORT_PATH)) {
+    const err = new Error("LV_SOURCE_EXPORT_MISSING");
+    err.code = "LV_SOURCE_EXPORT_IDENTITY_MISMATCH";
+    throw err;
+  }
+  const committedSha = sha256File(LV_SOURCE_EXPORT_PATH);
+  const runtimeSha = sha256Buffer(Buffer.from(exportG2LevelToCrowdinJson("lv", "a1"), "utf8"));
+  if (committedSha !== runtimeSha) {
+    const err = new Error(
+      `LV_SOURCE_EXPORT_IDENTITY_MISMATCH:committed=${committedSha} runtime=${runtimeSha}`,
+    );
+    err.code = "LV_SOURCE_EXPORT_IDENTITY_MISMATCH";
+    throw err;
+  }
+  return committedSha;
+}
+
 function prepareG2A1StagingImport({ lang, stagingDir, root = ROOT }) {
   if (lang === CROWDIN_SOURCE_LANG) {
     throw new Error("SOURCE_LANG_IMPORT_FORBIDDEN:lv");
   }
+  const lvSourceSha256 = assertLvSourceExportIdentity();
   const resolvedStaging = assertStagingDirectory(stagingDir);
   const inputPath = resolveTranslationInputPath({
     stagingDir: resolvedStaging,
@@ -192,7 +212,7 @@ function prepareG2A1StagingImport({ lang, stagingDir, root = ROOT }) {
   try {
     crowdinFlat = parseCrowdinJson(rawInput);
   } catch (err) {
-    if (err.code === "DUPLICATE_JSON_KEY") {
+    if (err.code === "DUPLICATE_JSON_KEY" || err.code === "MALFORMED_JSON") {
       return { ok: false, lang, inputPath, errors: [err.message] };
     }
     throw err;
@@ -213,9 +233,7 @@ function prepareG2A1StagingImport({ lang, stagingDir, root = ROOT }) {
   const outDir = path.join(resolvedStaging, "g2", "a1", lang);
   assertSymlinkSafeOutputParent(outDir);
   const outPath = path.join(outDir, "proposed.json");
-  const lvSourceSha256 = fs.existsSync(LV_SOURCE_EXPORT_PATH)
-    ? sha256File(LV_SOURCE_EXPORT_PATH)
-    : sha256Buffer(Buffer.from(exportFlatToJson(lvSourceFlat), "utf8"));
+  assertSymlinkSafeOutputFilePath(outPath);
 
   const payload = {
     meta: {
@@ -240,6 +258,7 @@ function prepareG2A1StagingImport({ lang, stagingDir, root = ROOT }) {
     inputPath,
     outPath,
     outDir,
+    stagingDir: resolvedStaging,
     payload,
     keyCount: Object.keys(crowdinFlat).length,
     ownerDecisionRequired,
@@ -250,9 +269,10 @@ function writeG2A1StagingImport(prepared) {
   if (!prepared.ok) {
     throw new Error("REFUSE_WRITE_UNVALIDATED_IMPORT");
   }
-  assertStagingDirectory(prepared.outDir);
-  assertSymlinkSafeOutputParent(prepared.outPath);
+  assertStagingDirectory(prepared.stagingDir || path.dirname(path.dirname(path.dirname(prepared.outDir))));
+  assertSymlinkSafeOutputFilePath(prepared.outPath);
   fs.mkdirSync(prepared.outDir, { recursive: true });
+  assertSymlinkSafeOutputFilePath(prepared.outPath);
   fs.writeFileSync(prepared.outPath, `${JSON.stringify(prepared.payload, null, 2)}\n`, "utf8");
   return prepared.outPath;
 }
@@ -272,6 +292,7 @@ module.exports = {
   validateG2A1TranslationKeys,
   buildProposedEntries,
   resolveTranslationInputPath,
+  assertLvSourceExportIdentity,
   prepareG2A1StagingImport,
   writeG2A1StagingImport,
 };

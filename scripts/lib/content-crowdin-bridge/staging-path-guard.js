@@ -63,53 +63,41 @@ function walkExistingPrefixes(absPath) {
   return parts;
 }
 
-function assertSymlinkSafeStagingPath(stagingDir) {
+function assertSymlinkSafeResolvedPath(absPath, label) {
   const rootCanonical = getRootCanonical();
-  const resolved = path.resolve(stagingDir);
+  const resolved = path.resolve(absPath);
 
   for (const prefixPath of walkExistingPrefixes(resolved)) {
     if (!fs.existsSync(prefixPath)) continue;
     const canonical = realpathExisting(prefixPath);
-    assertCanonicalNotForbidden(canonical, "STAGING_PATH");
-    if (prefixPath !== canonical && isForbiddenRepoRelative(relInsideRoot(canonical, rootCanonical))) {
-      const err = new Error(`STAGING_SYMLINK_FORBIDDEN:${prefixPath}->${canonical}`);
+    const rel = relInsideRoot(canonical, rootCanonical);
+    if (rel && isForbiddenRepoRelative(rel)) {
+      const err = new Error(`${label}_FORBIDDEN_CANONICAL:${canonical}`);
+      err.code = "STAGING_PATH_FORBIDDEN";
+      throw err;
+    }
+    if (prefixPath !== canonical && rel && isForbiddenRepoRelative(rel)) {
+      const err = new Error(`${label}_SYMLINK_FORBIDDEN:${prefixPath}->${canonical}`);
       err.code = "STAGING_PATH_FORBIDDEN";
       throw err;
     }
   }
 
   const canonical = canonicalizePath(resolved);
-  assertCanonicalNotForbidden(canonical, "STAGING_PATH");
+  assertCanonicalNotForbidden(canonical, label);
   return resolved;
 }
 
+function assertSymlinkSafeStagingPath(stagingDir) {
+  return assertSymlinkSafeResolvedPath(stagingDir, "STAGING_PATH");
+}
+
 function assertSymlinkSafeOutputParent(outDir) {
-  const rootCanonical = getRootCanonical();
-  const resolved = path.resolve(outDir);
-  const parent = path.dirname(resolved);
+  return assertSymlinkSafeResolvedPath(outDir, "OUTPUT_PARENT");
+}
 
-  for (const prefixPath of walkExistingPrefixes(parent)) {
-    if (!fs.existsSync(prefixPath)) continue;
-    const canonical = realpathExisting(prefixPath);
-    const rel = relInsideRoot(canonical, rootCanonical);
-    if (rel && isForbiddenRepoRelative(rel)) {
-      const err = new Error(`OUTPUT_PARENT_FORBIDDEN_CANONICAL:${canonical}`);
-      err.code = "STAGING_PATH_FORBIDDEN";
-      throw err;
-    }
-    if (prefixPath !== canonical) {
-      const targetRel = relInsideRoot(canonical, rootCanonical);
-      if (targetRel && isForbiddenRepoRelative(targetRel)) {
-        const err = new Error(`OUTPUT_PARENT_SYMLINK_FORBIDDEN:${prefixPath}->${canonical}`);
-        err.code = "STAGING_PATH_FORBIDDEN";
-        throw err;
-      }
-    }
-  }
-
-  const parentCanonical = canonicalizePath(parent);
-  assertCanonicalNotForbidden(parentCanonical, "OUTPUT_PARENT");
-  return resolved;
+function assertSymlinkSafeOutputFilePath(filePath) {
+  return assertSymlinkSafeResolvedPath(filePath, "OUTPUT_FILE");
 }
 
 module.exports = {
@@ -120,4 +108,5 @@ module.exports = {
   canonicalizePath,
   assertSymlinkSafeStagingPath,
   assertSymlinkSafeOutputParent,
+  assertSymlinkSafeOutputFilePath,
 };

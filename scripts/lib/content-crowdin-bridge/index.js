@@ -28,7 +28,7 @@ const {
   g2LevelCrowdinPath,
   CROWDIN_TARGET_LOCALE_IDS,
 } = require("./locale-map");
-const { validateCrowdinYmlG2A1 } = require("./crowdin-yml");
+const { validateCrowdinYmlG2A1, loadCrowdinYmlConfig } = require("./crowdin-yml");
 const {
   prepareG2A1StagingImport,
   writeG2A1StagingImport,
@@ -103,6 +103,7 @@ module.exports = {
   parseCrowdinJson,
   detectDuplicateJsonKeys,
   validateCrowdinYmlG2A1,
+  loadCrowdinYmlConfig,
   flattenG2Flashcards,
   applyG2FlashcardsFlat,
   buildCardIndex,
