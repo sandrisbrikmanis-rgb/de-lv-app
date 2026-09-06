@@ -148,7 +148,11 @@ function runIsolatedProductionRealLunaAuth() {
   fs.mkdirSync(authDir, { recursive: true });
 
   const runner = path.join(ROOT, "scripts/run-isolated-real-luna-auth-check.js");
-  const stdout = execSync(`node ${runner} ${authDir}`, { cwd: cloneDir, encoding: "utf8" });
+  const stdout = execSync(`node ${runner} ${authDir}`, {
+    cwd: cloneDir,
+    encoding: "utf8",
+    env: { ...process.env, G2_A1_LUNA_USE_FAKE_CLIENT: "1" },
+  });
   const result = JSON.parse(stdout.trim().split("\n").pop());
   return {
     tmpBase,
