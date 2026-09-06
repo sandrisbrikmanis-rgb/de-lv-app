@@ -29,9 +29,7 @@ const {
 const { runOwnerReview } = require("./lib/g2-a1-luna-proposal/owner-review");
 
 const ARTIFACT_ROOT = "/tmp/cursor/artifacts/phase2-g2-a1-runtime-auth-final-owner-review";
-const EXPECTED_HEAD = "de21f48f7d11e163c731e2d586308b43f3ec2d7b";
 const EXPECTED_BASE = "6e0a26dfa2f56aade0b981c50a71e5eaf94c0b54";
-const EXPECTED_CHANGED_FILES = 21;
 
 function writeJson(name, data) {
   fs.mkdirSync(ARTIFACT_ROOT, { recursive: true });
