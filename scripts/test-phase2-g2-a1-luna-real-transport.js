@@ -18,6 +18,7 @@ const {
 const {
   buildProductionRealLunaOptions,
   runIsolatedProductionRealLunaAuth,
+  ISOLATED_RUN_ID,
 } = require("./lib/g2-a1-luna-proposal/auth-test-harness");
 const { buildFakeProposalClient, defaultItemsForTasks } = require("./lib/g2-a1-luna-proposal/fake-client-fixture");
 const { redactSecrets } = require("./lib/luna-phase1-openai");
@@ -63,6 +64,7 @@ function getRealReceipt() {
         authorizationFileSha256: isolated.authorizationFileSha256,
         gitSha,
         batchPlanSha256: isolated.batchPlanSha256,
+        runId: ISOLATED_RUN_ID,
       }),
     );
     assert(auth.pass, (auth.errors || []).join(","));
