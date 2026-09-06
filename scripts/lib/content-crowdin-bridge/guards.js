@@ -75,6 +75,31 @@ function validateCrowdinKeySet(crowdinFlat, lvSourceKeys) {
   return errors;
 }
 
+/**
+ * Compare translation placeholder/HTML structure against LV G2/A1 source values.
+ */
+function validateImportGuardsAgainstSource(lvSourceFlat, crowdinFlat) {
+  const errors = [];
+  for (const key of Object.keys(crowdinFlat).sort()) {
+    const sourceValue = lvSourceFlat[key];
+    const translated = crowdinFlat[key];
+    if (typeof sourceValue !== "string" || typeof translated !== "string") continue;
+
+    const phSource = extractPlaceholderMultiset(sourceValue);
+    const phTranslated = extractPlaceholderMultiset(translated);
+    if (!multisetEqual(phSource, phTranslated)) {
+      errors.push(`${key}: placeholder multiset mismatch vs LV source`);
+    }
+
+    const htmlSource = extractHtmlTagStructure(sourceValue);
+    const htmlTranslated = extractHtmlTagStructure(translated);
+    if (htmlSource !== htmlTranslated) {
+      errors.push(`${key}: HTML tag structure mismatch vs LV source`);
+    }
+  }
+  return errors;
+}
+
 function validateImportGuards(existingFlat, crowdinFlat) {
   const errors = [];
   for (const key of Object.keys(crowdinFlat).sort()) {
@@ -110,8 +135,34 @@ function exportFlatToJson(flat) {
   return `${JSON.stringify(sortFlatKeys(flat), null, 2)}\n`;
 }
 
-function parseCrowdinJson(text) {
-  const obj = JSON.parse(text);
+const FLAT_JSON_KEY_RE = /"((?:\\.|[^"\\])*)"\s*:\s*"/g;
+
+function detectDuplicateJsonKeys(rawText) {
+  const duplicates = [];
+  const seen = new Set();
+  const keys = [];
+  let match;
+  while ((match = FLAT_JSON_KEY_RE.exec(rawText)) !== null) {
+    const key = JSON.parse(`"${match[1]}"`);
+    keys.push(key);
+    if (seen.has(key)) {
+      duplicates.push(key);
+    } else {
+      seen.add(key);
+    }
+  }
+  return { keys, duplicates };
+}
+
+function parseCrowdinJson(rawText) {
+  const dup = detectDuplicateJsonKeys(rawText);
+  if (dup.duplicates.length > 0) {
+    const err = new Error(`DUPLICATE_JSON_KEY:${dup.duplicates[0]}`);
+    err.code = "DUPLICATE_JSON_KEY";
+    throw err;
+  }
+
+  const obj = JSON.parse(rawText);
   if (!obj || typeof obj !== "object" || Array.isArray(obj)) {
     throw new Error("Crowdin JSON must be a flat object");
   }
@@ -127,9 +178,11 @@ module.exports = {
   isStructuralOrForbiddenExportKey,
   validateExportKeySet,
   validateCrowdinKeySet,
+  validateImportGuardsAgainstSource,
   validateImportGuards,
   sortFlatKeys,
   exportFlatToJson,
+  detectDuplicateJsonKeys,
   parseCrowdinJson,
   extractPlaceholderMultiset,
   extractHtmlTagStructure,

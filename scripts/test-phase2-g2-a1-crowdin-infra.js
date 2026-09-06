@@ -13,11 +13,9 @@ const { execSync } = require("child_process");
 const { ROOT } = require("./lib/audit-common");
 const {
   CONTENT_LANGUAGES,
-  TARGET_LANGUAGES,
   verifyRoundTrip,
   exportG2LevelFlat,
   exportG2LevelToCrowdinJson,
-  getLvG2SourceKeySet,
   loadG2Level,
   validateExportKeySet,
   validateLocaleMappingRegistry,
@@ -28,6 +26,8 @@ const {
   writeG2A1StagingImport,
   parseCrowdinJson,
   exportFlatToJson,
+  detectDuplicateJsonKeys,
+  validateCrowdinYmlG2A1,
 } = require("./lib/content-crowdin-bridge");
 const { isProductionPath } = require("./lib/content-crowdin-bridge/import-staging");
 
@@ -45,6 +45,22 @@ function sha256File(filePath) {
 
 function makeTempDir(prefix) {
   return fs.mkdtempSync(path.join(os.tmpdir(), prefix));
+}
+
+function testCrowdinYmlOffline() {
+  const report = validateCrowdinYmlG2A1();
+  assert(report.pass, report.errors.join("; "));
+  assert(report.ui.source === "/crowdin/ui/lv.json", "UI source changed");
+  assert(report.ui.translation === "/crowdin/ui/%two_letters_code%.json", "UI translation changed");
+  assert(!report.ui.languages_mapping, "UI must not have languages_mapping");
+  assert(report.repoFilenames.includes("gr-a1.json"), "missing gr-a1.json");
+  assert(report.repoFilenames.includes("en-a1.json"), "missing en-a1.json");
+  assert(report.repoFilenames.includes("es-a1.json"), "missing es-a1.json");
+  assert(report.repoFilenames.includes("pt-a1.json"), "missing pt-a1.json");
+  assert(report.repoFilenames.includes("nn-a1.json"), "missing nn-a1.json");
+  assert(report.repoFilenames.includes("sv-a1.json"), "missing sv-a1.json");
+  assert(report.repoFilenames.length === 31, `filename count ${report.repoFilenames.length}`);
+  console.log("OK crowdin.yml offline validation: 31/31 repo filenames, UI unchanged");
 }
 
 function testLvExportCountsAndKeys() {
@@ -96,11 +112,14 @@ function testG2A1RoundTripAllLangs() {
 
 function buildValidTranslationFixture(lang = "et") {
   const source = exportG2LevelFlat("lv", "a1");
-  const sourceKeys = Object.keys(source);
   const out = {};
-  sourceKeys.forEach((key, index) => {
-    out[key] = `${lang}-proposed-${index}`;
-  });
+  for (const [key, lvValue] of Object.entries(source)) {
+    if (/\{[^}]+\}/.test(lvValue) || /</.test(lvValue)) {
+      out[key] = `${lang} ${lvValue}`;
+    } else {
+      out[key] = `${lang}-proposed-${lvValue.length}`;
+    }
+  }
   assert(Object.keys(out).length === G2_A1_EXPECTED_KEY_COUNT, "fixture key count");
   return out;
 }
@@ -116,24 +135,38 @@ function testStagingImportHappyPath() {
   const prepared = prepareG2A1StagingImport({ lang, stagingDir });
   assert(prepared.ok, prepared.errors?.join("; "));
   assert(prepared.ownerDecisionRequired >= 1, "expected OWNER_DECISION_REQUIRED");
+  assert(prepared.payload.meta.lvSourceSha256, "missing lvSourceSha256");
+  assert(prepared.payload.meta.translationInputSha256, "missing translationInputSha256");
   const outPath = writeG2A1StagingImport(prepared);
   const payload = JSON.parse(fs.readFileSync(outPath, "utf8"));
   assert(payload.meta.classification === "PROPOSED", "meta.classification");
   const multiEntry = Object.values(payload.entries).find((e) => e.status === "OWNER_DECISION_REQUIRED");
   assert(multiEntry, "missing OWNER_DECISION_REQUIRED entry");
-  console.log("OK staging import happy path + multi-translation OWNER_DECISION_REQUIRED");
+  assert(!Object.values(payload.entries).some((e) => e.status === "NEW"), "no OWNER NEW allowed");
+  console.log("OK valid staging import → PASS with SHA bindings");
+}
+
+function testGenuineDuplicateJsonKey() {
+  const lang = "da";
+  const stagingDir = makeTempDir("phase2-g2-a1-dupjson-");
+  const dupKey = "a1.card.apfel.native";
+  const raw = `{
+  "${dupKey}": "first",
+  "${dupKey}": "second"
+}
+`;
+  fs.writeFileSync(path.join(stagingDir, `${lang}-a1.json`), raw, "utf8");
+  const detected = detectDuplicateJsonKeys(raw);
+  assert(detected.duplicates.includes(dupKey), "scanner must detect duplicate before parse");
+  const result = prepareG2A1StagingImport({ lang, stagingDir });
+  assert(!result.ok, "duplicate JSON key must fail");
+  assert(result.errors.some((e) => e.startsWith("DUPLICATE_JSON_KEY")), result.errors?.join("; "));
+  console.log("OK genuine duplicate JSON key → FAIL (DUPLICATE_JSON_KEY)");
 }
 
 function testNegativeImportCases() {
   const lang = "da";
   const base = buildValidTranslationFixture(lang);
-
-  const missingDir = makeTempDir("phase2-g2-a1-missing-");
-  const missingFlat = { ...base };
-  delete missingFlat[Object.keys(missingFlat)[0]];
-  fs.writeFileSync(path.join(missingDir, `${lang}-a1.json`), exportFlatToJson(missingFlat), "utf8");
-  const missing = prepareG2A1StagingImport({ lang, stagingDir: missingDir });
-  assert(!missing.ok && missing.errors.some((e) => e.startsWith("MISSING_KEYS")), "missing keys");
 
   const extraDir = makeTempDir("phase2-g2-a1-extra-");
   const extraFlat = { ...base, "a1.card.__injected__.native": "x" };
@@ -141,13 +174,21 @@ function testNegativeImportCases() {
   const extra = prepareG2A1StagingImport({ lang, stagingDir: extraDir });
   assert(!extra.ok && extra.errors.some((e) => e.startsWith("EXTRA_KEYS")), "extra keys");
 
-  const dupDir = makeTempDir("phase2-g2-a1-dup-");
-  const dupText = exportFlatToJson(base) + "\n";
-  fs.writeFileSync(path.join(dupDir, `${lang}-a1.json`), dupText.replace(/}\n$/, ',"dup":"y"}\n'), "utf8");
-  const dupParsed = { ...base, dup: "y" };
-  fs.writeFileSync(path.join(dupDir, `${lang}-a1.json`), exportFlatToJson(dupParsed), "utf8");
-  const dup = prepareG2A1StagingImport({ lang, stagingDir: dupDir });
-  assert(!dup.ok, "duplicate/extra should fail");
+  const emptyDir = makeTempDir("phase2-g2-a1-empty-");
+  const emptyFlat = { ...base };
+  emptyFlat[Object.keys(emptyFlat)[5]] = "   ";
+  fs.writeFileSync(path.join(emptyDir, `${lang}-a1.json`), exportFlatToJson(emptyFlat), "utf8");
+  const empty = prepareG2A1StagingImport({ lang, stagingDir: emptyDir });
+  assert(!empty.ok && empty.errors.some((e) => e.startsWith("UNTRANSLATED")), "empty value");
+
+  const lvFlat = exportG2LevelFlat("lv", "a1");
+  const phKey = Object.keys(lvFlat)[10];
+  const phDir = makeTempDir("phase2-g2-a1-ph-");
+  const phFlat = { ...base };
+  phFlat[phKey] = `{INJECTED} ${phFlat[phKey]}`;
+  fs.writeFileSync(path.join(phDir, `${lang}-a1.json`), exportFlatToJson(phFlat), "utf8");
+  const ph = prepareG2A1StagingImport({ lang, stagingDir: phDir });
+  assert(!ph.ok && ph.errors.some((e) => e.includes("placeholder multiset mismatch vs LV source")), ph.errors?.join("; "));
 
   const structuralDir = makeTempDir("phase2-g2-a1-struct-");
   const structuralFlat = { ...base, "a1.card.apfel.de": "verboten" };
@@ -164,7 +205,24 @@ function testNegativeImportCases() {
   }
   assert(productionBlocked, "production staging path must fail");
 
-  console.log("OK negative import cases: missing/extra/structural/production path");
+  console.log("OK negative cases: extra/empty/placeholder/symlink-path/structural");
+}
+
+function testSymlinkStagingBlocked() {
+  const lang = "et";
+  const tmp = makeTempDir("phase2-g2-a1-symlink-");
+  const linkPath = path.join(tmp, "staging-link");
+  const dataDir = path.join(ROOT, "data");
+  fs.symlinkSync(dataDir, linkPath, "dir");
+
+  let blocked = false;
+  try {
+    prepareG2A1StagingImport({ lang, stagingDir: linkPath });
+  } catch (err) {
+    blocked = err.code === "STAGING_PATH_FORBIDDEN";
+  }
+  assert(blocked, "symlink to data/** staging must fail");
+  console.log("OK symlink to production data/** → FAIL");
 }
 
 function testProductionDiffZero() {
@@ -175,18 +233,21 @@ function testProductionDiffZero() {
 
 function main() {
   const exportSha = testDeterministicExportSha();
+  testCrowdinYmlOffline();
   testLvExportCountsAndKeys();
   testLocaleMapping();
   testG2A1RoundTripAllLangs();
   testStagingImportHappyPath();
+  testGenuineDuplicateJsonKey();
   testNegativeImportCases();
+  testSymlinkStagingBlocked();
   testProductionDiffZero();
 
   console.log("");
   console.log(
     JSON.stringify(
       {
-        classification: "PHASE2_G2_A1_CROWDIN_INFRA_TESTS_PASS",
+        classification: "PHASE2_G2_A1_CROWDIN_INFRA_REPAIR_TESTS_PASS",
         exportSha256: exportSha,
         objects: G2_A1_EXPECTED_OBJECT_COUNT,
         keys: G2_A1_EXPECTED_KEY_COUNT,

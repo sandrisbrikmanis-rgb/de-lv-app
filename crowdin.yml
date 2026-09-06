@@ -3,13 +3,11 @@ files:
     translation: /crowdin/ui/%two_letters_code%.json
   - source: /crowdin/content/g2/lv-a1.json
     translation: /crowdin/content/g2/%locale%-a1.json
-
-# File-closed Crowdin locale → repo locale mapping (31 targets).
-# Unknown locales must be added explicitly — never auto-guess.
-languages_mapping:
-  el: gr
-  en-GB: en
-  es-ES: es
-  pt-PT: pt
-  nn-NO: nn
-  sv-SE: sv
+    languages_mapping:
+      locale:
+        el: gr
+        en-GB: en
+        es-ES: es
+        pt-PT: pt
+        nn-NO: nn
+        sv-SE: sv

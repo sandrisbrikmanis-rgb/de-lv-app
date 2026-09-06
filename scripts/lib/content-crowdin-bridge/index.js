@@ -16,8 +16,10 @@ const {
   validateCrowdinKeySet,
   validateExportKeySet,
   validateImportGuards,
+  validateImportGuardsAgainstSource,
   exportFlatToJson,
   parseCrowdinJson,
+  detectDuplicateJsonKeys,
 } = require("./guards");
 const {
   crowdinLocaleToRepo,
@@ -26,6 +28,7 @@ const {
   g2LevelCrowdinPath,
   CROWDIN_TARGET_LOCALE_IDS,
 } = require("./locale-map");
+const { validateCrowdinYmlG2A1 } = require("./crowdin-yml");
 const {
   prepareG2A1StagingImport,
   writeG2A1StagingImport,
@@ -95,8 +98,11 @@ module.exports = {
   validateCrowdinKeySet,
   validateExportKeySet,
   validateImportGuards,
+  validateImportGuardsAgainstSource,
   exportFlatToJson,
   parseCrowdinJson,
+  detectDuplicateJsonKeys,
+  validateCrowdinYmlG2A1,
   flattenG2Flashcards,
   applyG2FlashcardsFlat,
   buildCardIndex,
