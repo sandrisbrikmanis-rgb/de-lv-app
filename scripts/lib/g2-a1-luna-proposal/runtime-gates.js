@@ -4,7 +4,31 @@
 const { runInfrastructureGates } = require("./identity-gates");
 const { RUNTIME_MODES, NON_EXECUTABLE_MOCK_PROOF, assertRuntimeMode } = require("./runtime-mode");
 const { loadOwnerAuthorizationFile, validateOwnerAuthorizationAgainstRuntime } = require("./owner-authorization");
-const { AUTH_FROZEN } = require("./constants");
+const { registerIssuedRealLunaReceipt, isIssuedRealLunaReceipt } = require("./runtime-receipt-registry");
+
+const REAL_LUNA_FORBIDDEN_OPTIONS = Object.freeze([
+  "skipInfrastructureGates",
+  "infrastructureContext",
+  "gitContext",
+  "skipWorktreeCheck",
+  "allowAuthFileInRepo",
+  "_allowMockInfrastructureBypass",
+  "ownerPackRoot",
+  "matrixPath",
+]);
+
+function detectForbiddenRealLunaOverrides(options = {}) {
+  const found = REAL_LUNA_FORBIDDEN_OPTIONS.filter((key) => options[key] !== undefined && options[key] !== null);
+  if (found.length) {
+    return {
+      pass: false,
+      errors: ["TEST_OVERRIDE_FORBIDDEN_IN_REAL_LUNA"],
+      code: "TEST_OVERRIDE_FORBIDDEN_IN_REAL_LUNA",
+      forbiddenKeys: found,
+    };
+  }
+  return { pass: true };
+}
 
 function buildMockDryRunReceipt({ headSha, originMainSha, infrastructure }) {
   return {
@@ -20,18 +44,18 @@ function buildMockDryRunReceipt({ headSha, originMainSha, infrastructure }) {
 }
 
 function buildRealLunaReceipt({ authorization, authorizationFileSha256, batchPlanSha256, runId }) {
-  return {
+  return registerIssuedRealLunaReceipt({
     mode: RUNTIME_MODES.REAL_LUNA,
     validated: true,
     executable: true,
     runtimeHeadSha: authorization.runtimeHeadSha,
     originMainSha: authorization.originMainSha,
     authorizationFileSha256,
-    batchPlanSha256: batchPlanSha256 || authorization.batchPlanSha256,
-    runId: runId || authorization.runId,
+    batchPlanSha256,
+    runId,
     model: authorization.model,
     validatedAt: new Date().toISOString(),
-  };
+  });
 }
 
 function authorizeRuntimeExecution(options = {}) {
@@ -41,21 +65,38 @@ function authorizeRuntimeExecution(options = {}) {
   }
 
   if (options.runtimeMode === RUNTIME_MODES.REAL_LUNA) {
+    const overrideCheck = detectForbiddenRealLunaOverrides(options);
+    if (!overrideCheck.pass) return overrideCheck;
+
     const preErrors = [];
     if (!options.expectedRuntimeHeadSha) preErrors.push("EXPECTED_RUNTIME_HEAD_SHA_REQUIRED");
+    if (!options.cliSha) preErrors.push("CLI_SHA_REQUIRED");
     if (!options.ownerAuthorizationFile) preErrors.push("OWNER_AUTHORIZATION_FILE_REQUIRED");
     if (!options.expectedAuthorizationFileSha256) preErrors.push("EXPECTED_AUTHORIZATION_FILE_SHA256_REQUIRED");
     if (!options.runId) preErrors.push("RUN_ID_REQUIRED");
     if (!options.model) preErrors.push("MODEL_REQUIRED");
     if (!options.batchPlanSha256) preErrors.push("BATCH_PLAN_SHA_REQUIRED");
     if (options.batchCount == null) preErrors.push("BATCH_COUNT_REQUIRED");
+    if (options.maxAllowedCycles == null) preErrors.push("MAX_ALLOWED_CYCLES_REQUIRED");
     if (!options.queueCounts) preErrors.push("QUEUE_COUNTS_REQUIRED");
     if (preErrors.length) {
       return { pass: false, errors: preErrors, code: preErrors[0] };
     }
   }
 
-  const infrastructure = runInfrastructureGates(options);
+  const infrastructure =
+    options.runtimeMode === RUNTIME_MODES.MOCK_DRY_RUN
+      ? runInfrastructureGates({
+          ownerPackRoot: options.ownerPackRoot,
+          matrixPath: options.matrixPath,
+          skipInfrastructureGates: options.skipInfrastructureGates,
+          infrastructureContext: options.infrastructureContext,
+          gitContext: options.gitContext,
+          skipWorktreeCheck: options.skipWorktreeCheck,
+          _allowMockInfrastructureBypass: true,
+        })
+      : runInfrastructureGates();
+
   if (!infrastructure.pass) {
     return { pass: false, errors: infrastructure.errors, code: "INFRASTRUCTURE_GATE_BLOCKED", infrastructure };
   }
@@ -76,7 +117,7 @@ function authorizeRuntimeExecution(options = {}) {
   }
 
   const errors = [];
-  const cliSha = options.cliSha || options.expectedRuntimeHeadSha;
+  const cliSha = options.cliSha;
   if (headSha !== originMainSha) errors.push("HEAD_ORIGIN_MAIN_MISMATCH");
   if (headSha !== options.expectedRuntimeHeadSha) errors.push("HEAD_EXPECTED_RUNTIME_HEAD_MISMATCH");
   if (cliSha !== options.expectedRuntimeHeadSha) errors.push("CLI_SHA_MISMATCH");
@@ -84,9 +125,7 @@ function authorizeRuntimeExecution(options = {}) {
     return { pass: false, errors, code: errors[0], infrastructure };
   }
 
-  const loaded = loadOwnerAuthorizationFile(options.ownerAuthorizationFile, {
-    allowInRepo: options.allowAuthFileInRepo,
-  });
+  const loaded = loadOwnerAuthorizationFile(options.ownerAuthorizationFile);
   if (!loaded.ok) {
     return { pass: false, errors: [loaded.code], code: loaded.code, infrastructure };
   }
@@ -105,7 +144,7 @@ function authorizeRuntimeExecution(options = {}) {
     sourceSha: infrastructure.sourceSha,
     batchPlanSha256: options.batchPlanSha256,
     batchCount: options.batchCount,
-    maxAllowedCycles: options.maxAllowedCycles ?? AUTH_FROZEN.maxAllowedCycles,
+    maxAllowedCycles: options.maxAllowedCycles,
     queueCounts: options.queueCounts,
   });
   if (!runtimeCheck.ok) {
@@ -146,6 +185,11 @@ function assertAuthorizedRuntimeReceipt(receipt, expectedMode) {
     err.code = "RUNTIME_RECEIPT_MODE_MISMATCH";
     throw err;
   }
+  if (receipt.mode === RUNTIME_MODES.REAL_LUNA && !isIssuedRealLunaReceipt(receipt)) {
+    const err = new Error("RUNTIME_RECEIPT_NOT_ISSUED");
+    err.code = "RUNTIME_RECEIPT_NOT_ISSUED";
+    throw err;
+  }
   return receipt;
 }
 
@@ -178,7 +222,8 @@ function runStartGates(options = {}) {
 module.exports = {
   authorizeRuntimeExecution,
   buildMockDryRunReceipt,
-  buildRealLunaReceipt,
   assertAuthorizedRuntimeReceipt,
   runStartGates,
+  REAL_LUNA_FORBIDDEN_OPTIONS,
+  detectForbiddenRealLunaOverrides,
 };

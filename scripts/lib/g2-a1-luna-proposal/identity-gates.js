@@ -10,7 +10,7 @@ const bridge = require("../content-crowdin-bridge");
 const { gitProductionDiffAgainstBaseline, gitDeDiffAgainstBaseline } = require("../content-discovery/git-baseline");
 
 function resolveGitShas(options = {}) {
-  if (options.gitContext) {
+  if (options._allowMockInfrastructureBypass && options.gitContext) {
     return {
       headSha: options.gitContext.headSha,
       originMainSha: options.gitContext.originMainSha,
@@ -23,7 +23,11 @@ function resolveGitShas(options = {}) {
 }
 
 function runInfrastructureGates(options = {}) {
-  if (options.skipInfrastructureGates && options.infrastructureContext) {
+  if (
+    options._allowMockInfrastructureBypass &&
+    options.skipInfrastructureGates &&
+    options.infrastructureContext
+  ) {
     const ctx = options.infrastructureContext;
     const git = resolveGitShas(options);
     return {
@@ -38,20 +42,19 @@ function runInfrastructureGates(options = {}) {
       de: ctx.de ?? { clean: true, changed: [] },
       ownerPackRoot: ctx.ownerPackRoot ?? pathState.ownerPackRoot,
       matrixPath: ctx.matrixPath ?? pathState.matrixPath,
+      mockBypass: true,
     };
   }
 
   const errors = [];
-  const ownerPackRoot = options.ownerPackRoot || pathState.ownerPackRoot;
-  const matrixPath = options.matrixPath || pathState.matrixPath;
+  const ownerPackRoot = pathState.ownerPackRoot;
+  const matrixPath = pathState.matrixPath;
   const productionBaselineSha = EXPECTED.productionBaselineSha;
 
   const { originMainSha, headSha } = resolveGitShas(options);
 
-  if (!options.skipWorktreeCheck) {
-    const porcelain = execSync("git status --porcelain", { encoding: "utf8" }).trim();
-    if (porcelain) errors.push("WORKTREE_NOT_CLEAN");
-  }
+  const porcelain = execSync("git status --porcelain", { encoding: "utf8" }).trim();
+  if (porcelain) errors.push("WORKTREE_NOT_CLEAN");
 
   const proofPath = `${ownerPackRoot}/proof.json`;
   if (!fs.existsSync(proofPath)) errors.push("OWNER_PACK_PROOF_MISSING");
@@ -98,6 +101,7 @@ function runInfrastructureGates(options = {}) {
     de,
     ownerPackRoot,
     matrixPath,
+    mockBypass: false,
   };
 }
 

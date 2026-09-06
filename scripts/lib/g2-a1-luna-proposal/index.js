@@ -16,7 +16,6 @@ const { runProposalBatches } = require("./runner");
 const {
   authorizeRuntimeExecution,
   buildMockDryRunReceipt,
-  buildRealLunaReceipt,
   assertAuthorizedRuntimeReceipt,
   runStartGates,
 } = require("./runtime-gates");
@@ -51,7 +50,6 @@ module.exports = {
   runStartGates,
   authorizeRuntimeExecution,
   buildMockDryRunReceipt,
-  buildRealLunaReceipt,
   assertAuthorizedRuntimeReceipt,
   buildQueues,
   classifySourceIdenticalPreliminary,

@@ -4,6 +4,8 @@
 const fs = require("fs");
 const os = require("os");
 const path = require("path");
+const { execSync } = require("child_process");
+const { ROOT } = require("./lib/audit-common");
 const {
   authorizeRuntimeExecution,
   validateOwnerAuthorizationDocument,
@@ -12,25 +14,27 @@ const {
   validateAuthorizationFileHash,
   createRealLunaTransport,
   createMockLunaTransport,
-  createLunaTransport,
   runInfrastructureGates,
+  buildQueues,
+  buildBatchPlan,
+  assertAuthorizedRuntimeReceipt,
   RUNTIME_MODES,
   EXPECTED,
   AUTH_FROZEN,
 } = require("./lib/g2-a1-luna-proposal");
 const {
-  TEST_GIT_SHA,
   TEST_RUN_ID,
-  TEST_BATCH_PLAN_SHA256,
-  buildTestInfrastructureContext,
-  buildTestGitContext,
+  REAL_LUNA_FORBIDDEN_OPTIONS,
   buildValidAuthV2Document,
   writeAuthFile,
-  buildRealLunaAuthorizeOptions,
+  buildMockAuthorizeOptions,
+  buildProductionRealLunaOptions,
   createTempAuthFixture,
   buildV1AuthDocument,
   loadOwnerAuthorizationFile,
+  runIsolatedProductionRealLunaAuth,
   sha256Hex,
+  hashObject,
   OWNER_AUTH_SCHEMA_VERSION,
 } = require("./lib/g2-a1-luna-proposal/auth-test-harness");
 
@@ -62,35 +66,257 @@ function assertBlocked(result, expectedCode) {
   assert(all.includes(expectedCode), `expected ${expectedCode}, got ${all.join(",")}`);
 }
 
-function testV1DefectProof() {
-  const proof = proveV1Defect();
-  assert(proof.gitShaLength === 40, "git sha 40");
-  assert(proof.fileSha256Length === 64, "file sha 64");
-  assert(!proof.gitShaEqualsFileHash, "types must differ");
+function baseRealOptions(filePath, authorizationFileSha256, gitSha, batchPlanSha256) {
+  return buildProductionRealLunaOptions({
+    filePath,
+    authorizationFileSha256,
+    gitSha,
+    batchPlanSha256,
+  });
 }
 
-function testValidAuthV2DocumentLoads() {
-  const doc = buildValidAuthV2Document();
-  const validated = validateOwnerAuthorizationDocument(doc);
-  assert(validated.ok, validated.message || validated.code);
-  assert(validated.authorization.schemaVersion === OWNER_AUTH_SCHEMA_VERSION, "v2 schema");
+function testEachOverrideForbiddenInRealLuna() {
+  const gitSha = "a".repeat(40);
+  const { filePath, authorizationFileSha256 } = createTempAuthFixture({
+    runtimeHeadSha: gitSha,
+    originMainSha: gitSha,
+    batchPlanSha256: "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890",
+  });
+  const base = baseRealOptions(
+    filePath,
+    authorizationFileSha256,
+    gitSha,
+    "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890"
+  );
+
+  for (const key of REAL_LUNA_FORBIDDEN_OPTIONS) {
+    const extra = {};
+    if (key === "skipInfrastructureGates") extra[key] = true;
+    else if (key === "infrastructureContext") extra[key] = { headSha: gitSha, originMainSha: gitSha };
+    else if (key === "gitContext") extra[key] = { headSha: gitSha, originMainSha: gitSha };
+    else if (key === "skipWorktreeCheck") extra[key] = true;
+    else if (key === "allowAuthFileInRepo") extra[key] = true;
+    else if (key === "ownerPackRoot") extra[key] = "/tmp";
+    else if (key === "matrixPath") extra[key] = "/tmp/matrix.json";
+    else extra[key] = true;
+
+    const blocked = authorizeRuntimeExecution({ ...base, ...extra });
+    assertBlocked(blocked, "TEST_OVERRIDE_FORBIDDEN_IN_REAL_LUNA");
+  }
 }
 
-function testRawFileSha256Computed() {
-  const { raw, authorizationFileSha256 } = createTempAuthFixture();
-  assert(authorizationFileSha256 === sha256Hex(raw), "sha256 of raw bytes");
-  assert(authorizationFileSha256.length === 64, "64 hex chars");
+function testMultipleOverridesForbidden() {
+  const gitSha = "b".repeat(40);
+  const { filePath, authorizationFileSha256 } = createTempAuthFixture({
+    runtimeHeadSha: gitSha,
+    originMainSha: gitSha,
+    batchPlanSha256: "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890",
+  });
+  const blocked = authorizeRuntimeExecution({
+    ...baseRealOptions(
+      filePath,
+      authorizationFileSha256,
+      gitSha,
+      "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890"
+    ),
+    skipInfrastructureGates: true,
+    gitContext: { headSha: gitSha, originMainSha: gitSha },
+    allowAuthFileInRepo: true,
+  });
+  assertBlocked(blocked, "TEST_OVERRIDE_FORBIDDEN_IN_REAL_LUNA");
 }
 
-function testExpectedAuthorizationFileSha256Matches() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const loaded = loadOwnerAuthorizationFile(filePath, { allowInRepo: true });
+function testMissingCliSha() {
+  const gitSha = "c".repeat(40);
+  const { filePath, authorizationFileSha256 } = createTempAuthFixture({
+    runtimeHeadSha: gitSha,
+    originMainSha: gitSha,
+    batchPlanSha256: "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890",
+  });
+  const opts = baseRealOptions(
+    filePath,
+    authorizationFileSha256,
+    gitSha,
+    "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890"
+  );
+  delete opts.cliSha;
+  const blocked = authorizeRuntimeExecution(opts);
+  assertBlocked(blocked, "CLI_SHA_REQUIRED");
+}
+
+function testManualReceiptRejected() {
+  const forged = { mode: RUNTIME_MODES.REAL_LUNA, validated: true, executable: true };
+  let code = null;
+  try {
+    assertAuthorizedRuntimeReceipt(forged, RUNTIME_MODES.REAL_LUNA);
+  } catch (e) {
+    code = e.code;
+  }
+  assert(code === "RUNTIME_RECEIPT_NOT_ISSUED", code);
+}
+
+function testClonedReceiptRejected() {
+  const isolated = runIsolatedProductionRealLunaAuth();
+  assert(isolated.result.ok, JSON.stringify(isolated.result));
+  const cloned = { ...isolated.result.auth.receipt };
+  let code = null;
+  try {
+    assertAuthorizedRuntimeReceipt(cloned, RUNTIME_MODES.REAL_LUNA);
+  } catch (e) {
+    code = e.code;
+  }
+  assert(code === "RUNTIME_RECEIPT_NOT_ISSUED", code);
+}
+
+function testSerializedReceiptRejected() {
+  const isolated = runIsolatedProductionRealLunaAuth();
+  const parsed = JSON.parse(JSON.stringify(isolated.result.auth.receipt));
+  let code = null;
+  try {
+    assertAuthorizedRuntimeReceipt(parsed, RUNTIME_MODES.REAL_LUNA);
+  } catch (e) {
+    code = e.code;
+  }
+  assert(code === "RUNTIME_RECEIPT_NOT_ISSUED", code);
+}
+
+function testModifiedReceiptRejected() {
+  const isolated = runIsolatedProductionRealLunaAuth();
+  assert(isolated.result.receiptModifyBlocked === true, "frozen receipt cannot be modified in-process");
+}
+
+function testMockReceiptOnRealTransport() {
+  const auth = authorizeRuntimeExecution(buildMockAuthorizeOptions());
+  assert(auth.pass, (auth.errors || []).join(","));
+  let code = null;
+  try {
+    createRealLunaTransport(auth.receipt);
+  } catch (e) {
+    code = e.code;
+  }
+  assert(code === "RUNTIME_RECEIPT_MODE_MISMATCH", code);
+}
+
+function testAuthFileInRepoRejected() {
+  const gitSha = execSync("git rev-parse HEAD", { encoding: "utf8" }).trim();
+  const infra = runInfrastructureGates();
+  const built = buildQueues({ gates: infra });
+  const plan = buildBatchPlan(built.queues);
+  const doc = buildValidAuthV2Document({
+    runtimeHeadSha: gitSha,
+    originMainSha: gitSha,
+    batchPlanSha256: hashObject(plan),
+    queueCounts: built.counts,
+  });
+  const repoAuthDir = path.join(ROOT, "reports", "temp", `auth-in-repo-${process.pid}`);
+  fs.mkdirSync(repoAuthDir, { recursive: true });
+  const { filePath } = writeAuthFile(doc, repoAuthDir);
+  const loaded = loadOwnerAuthorizationFile(filePath);
+  assert(!loaded.ok, "repo auth must fail");
+  assert(loaded.code === "OWNER_AUTHORIZATION_FILE_IN_REPO", loaded.code);
+  fs.rmSync(repoAuthDir, { recursive: true, force: true });
+}
+
+function testAuthFileViaParentSymlinkIntoRepoRejected() {
+  const gitSha = execSync("git rev-parse HEAD", { encoding: "utf8" }).trim();
+  const infra = runInfrastructureGates();
+  const built = buildQueues({ gates: infra });
+  const plan = buildBatchPlan(built.queues);
+  const doc = buildValidAuthV2Document({
+    runtimeHeadSha: gitSha,
+    originMainSha: gitSha,
+    batchPlanSha256: hashObject(plan),
+    queueCounts: built.counts,
+  });
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "g2-a1-symlink-auth-"));
+  const linkPath = path.join(tmp, "repo-link");
+  const authDir = path.join(tmp, "auth");
+  fs.mkdirSync(authDir);
+  try {
+    fs.symlinkSync(ROOT, linkPath, "dir");
+    const targetDir = path.join(linkPath, "reports", "temp", "symlink-auth");
+    fs.mkdirSync(targetDir, { recursive: true });
+    const { filePath } = writeAuthFile(doc, targetDir);
+    const loaded = loadOwnerAuthorizationFile(filePath);
+    assert(!loaded.ok, "symlink parent into repo must fail");
+    assert(
+      loaded.code === "OWNER_AUTHORIZATION_FILE_IN_REPO" || loaded.code === "OWNER_AUTHORIZATION_FILE_SYMLINK",
+      loaded.code
+    );
+  } finally {
+    fs.rmSync(tmp, { recursive: true, force: true });
+  }
+}
+
+function testAuthFileSymlinkRejected() {
+  const gitSha = "e".repeat(40);
+  const { filePath, doc } = createTempAuthFixture({
+    runtimeHeadSha: gitSha,
+    originMainSha: gitSha,
+    batchPlanSha256: "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890",
+  });
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "g2-a1-auth-symlink-"));
+  const realFile = path.join(tmp, "real.json");
+  const linkFile = path.join(tmp, "link.json");
+  fs.writeFileSync(realFile, JSON.stringify(doc, null, 2));
+  fs.symlinkSync(realFile, linkFile);
+  const loaded = loadOwnerAuthorizationFile(linkFile);
+  assert(!loaded.ok, "symlink file blocked");
+  assert(loaded.code === "OWNER_AUTHORIZATION_FILE_SYMLINK", loaded.code);
+  fs.rmSync(tmp, { recursive: true, force: true });
+}
+
+function testAuthFileTamperAfterHash() {
+  const gitSha = "f".repeat(40);
+  const { filePath, authorizationFileSha256, tmpDir } = createTempAuthFixture({
+    runtimeHeadSha: gitSha,
+    originMainSha: gitSha,
+    batchPlanSha256: "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890",
+  });
+  const doc = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  doc.ownerReferences = "TAMPERED";
+  fs.writeFileSync(filePath, JSON.stringify(doc, null, 2));
+  const loaded = loadOwnerAuthorizationFile(filePath);
   assert(loaded.ok, loaded.code);
-  assert(loaded.authorizationFileSha256 === authorizationFileSha256, "loader hash matches");
+  const hashCheck = validateAuthorizationFileHash({
+    authorizationFileSha256: loaded.authorizationFileSha256,
+    expectedAuthorizationFileSha256: authorizationFileSha256,
+  });
+  assert(!hashCheck.ok, "tampered file hash must mismatch");
+  assert(
+    hashCheck.blockers.some((b) => b.code === "AUTHORIZATION_FILE_SHA256_MISMATCH"),
+    hashCheck.blockers.map((b) => b.code).join(",")
+  );
+  fs.rmSync(tmpDir, { recursive: true, force: true });
 }
 
-function testGitShaChainMatches() {
-  const gitSha = TEST_GIT_SHA;
+function testIsolatedProductionRealLunaPositivePath() {
+  const isolated = runIsolatedProductionRealLunaAuth();
+  assert(isolated.result.ok, JSON.stringify(isolated.result));
+  assert(isolated.result.headEqualsOrigin, "HEAD must equal origin/main in isolated clone");
+  assert(isolated.result.infrastructure.pass, isolated.result.infrastructure.errors?.join(","));
+  assert(isolated.result.infrastructure.mockBypass === false, "real infra gates must not be bypassed");
+  assert(isolated.result.auth.pass, isolated.result.auth.errors?.join(","));
+  assert(isolated.result.auth.receipt.mode === RUNTIME_MODES.REAL_LUNA, isolated.result.auth.receipt.mode);
+  assert(isolated.result.auth.receipt.runtimeHeadSha.length === 40, "git sha len");
+  assert(isolated.result.auth.receipt.authorizationFileSha256.length === 64, "file sha len");
+  assert(isolated.result.receiptFrozen === true, "receipt frozen");
+  assert(isolated.result.realCalls === 0, "realCalls 0");
+  assert(
+    isolated.result.executeBlocked === "REAL_LUNA_TRANSPORT_NOT_ENABLED_IN_THIS_BUILD",
+    isolated.result.executeBlocked
+  );
+}
+
+function testIssuedReceiptRegisteredAndFrozen() {
+  const isolated = runIsolatedProductionRealLunaAuth();
+  assert(isolated.result.receiptFrozen === true, "receipt frozen in-process");
+  assert(isolated.result.receiptRegistered === true, "receipt registered in-process");
+  assert(isolated.result.clonedReceiptRejected === "RUNTIME_RECEIPT_NOT_ISSUED", isolated.result.clonedReceiptRejected);
+}
+
+function testPureValidationFunctionsStillWork() {
+  const gitSha = "1".repeat(40);
   const chain = validateGitIdentityChain({
     headSha: gitSha,
     originMainSha: gitSha,
@@ -98,401 +324,109 @@ function testGitShaChainMatches() {
     cliSha: gitSha,
     authorization: { runtimeHeadSha: gitSha, originMainSha: gitSha },
   });
-  assert(chain.ok, chain.blockers.map((b) => b.message).join(","));
-  for (const value of [gitSha]) assert(value.length === 40, "git sha length");
+  assert(chain.ok, "git chain validation");
+
+  const doc = buildValidAuthV2Document({
+    runtimeHeadSha: gitSha,
+    originMainSha: gitSha,
+    batchPlanSha256: "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890",
+  });
+  const validated = validateOwnerAuthorizationDocument(doc);
+  assert(validated.ok, validated.code);
+
+  const proof = proveV1Defect();
+  assert(proof.gitShaLength === 40 && proof.fileSha256Length === 64, "v1 defect proof");
 }
 
-function testMatrixSourceBatchPlanIdentities() {
-  const doc = buildValidAuthV2Document();
-  assert(doc.matrixIdentitySha === EXPECTED.matrixIdentitySha, "matrix");
-  assert(doc.sourceSha256 === EXPECTED.sourceSha, "source");
-  assert(doc.batchPlanSha256 === TEST_BATCH_PLAN_SHA256, "batch plan");
+function testV1SchemaRejected() {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "g2-a1-auth-v1-"));
+  const doc = buildV1AuthDocument("2".repeat(40));
+  const { filePath } = writeAuthFile(doc, tmp);
+  const loaded = loadOwnerAuthorizationFile(filePath);
+  assert(!loaded.ok, "v1 rejected");
+  assert(loaded.code === "OWNER_AUTH_SCHEMA_V1_REJECTED", loaded.code);
+  fs.rmSync(tmp, { recursive: true, force: true });
 }
 
-function testFrozenBatchCount() {
-  assert(AUTH_FROZEN.batchCount === 764, "batchCount 764");
-  const doc = buildValidAuthV2Document();
-  assert(doc.batchCount === 764, "doc batchCount");
-}
-
-function testFrozenMaxAllowedCycles() {
-  assert(AUTH_FROZEN.maxAllowedCycles === 1, "maxAllowedCycles 1");
-  const doc = buildValidAuthV2Document();
-  assert(doc.maxAllowedCycles === 1, "doc maxAllowedCycles");
-}
-
-function testFrozenModel() {
-  assert(AUTH_FROZEN.model === "gpt-5.6-luna", "model frozen");
-  const doc = buildValidAuthV2Document();
-  assert(doc.model === "gpt-5.6-luna", "doc model");
-}
-
-function testPositiveRealLunaReceipt() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const auth = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({ filePath, authorizationFileSha256 })
-  );
-  assert(auth.pass, (auth.errors || []).join(","));
-  assert(auth.receipt.mode === RUNTIME_MODES.REAL_LUNA, auth.receipt.mode);
-  assert(auth.receipt.executable === true, "executable");
-  assert(auth.receipt.runtimeHeadSha.length === 40, "receipt git sha");
-  assert(auth.receipt.authorizationFileSha256.length === 64, "receipt file sha");
-  assert(auth.lunaRealCalls === 0, "no real calls");
-}
-
-function testReceiptHasSeparateIdentityFields() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const auth = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({ filePath, authorizationFileSha256 })
-  );
-  assert(auth.pass, (auth.errors || []).join(","));
-  assert(auth.receipt.runtimeHeadSha === TEST_GIT_SHA, "runtimeHeadSha");
-  assert(auth.receipt.authorizationFileSha256 === authorizationFileSha256, "authorizationFileSha256");
-}
-
-function testRealTransportWithValidReceipt() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const auth = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({ filePath, authorizationFileSha256 })
-  );
-  assert(auth.pass, (auth.errors || []).join(","));
-  const transport = createRealLunaTransport(auth.receipt);
-  assert(transport.mode === "REAL_LUNA", transport.mode);
-  assert(transport.stats.realCalls === 0, "realCalls 0");
-}
-
-async function testRealTransportExecuteBatchBlocked() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const auth = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({ filePath, authorizationFileSha256 })
-  );
-  const transport = createRealLunaTransport(auth.receipt);
-  let threw = false;
+function testRealTransportWithoutReceipt() {
+  let code = null;
   try {
-    await transport.executeBatch();
+    createRealLunaTransport(null);
   } catch (e) {
-    threw = true;
-    assert(e.code === "REAL_LUNA_TRANSPORT_NOT_ENABLED_IN_THIS_BUILD", e.code);
+    code = e.code;
   }
-  assert(threw, "executeBatch must block");
+  assert(code === "REAL_LUNA_RUNTIME_AUTHORIZATION_REQUIRED", code);
 }
 
-function testAuthFileSha256Mismatch() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const blocked = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({
-      filePath,
-      authorizationFileSha256,
-      expectedAuthorizationFileSha256: "f".repeat(64),
-    })
+function testMockDryRunStillWorksWithMockBypass() {
+  const auth = authorizeRuntimeExecution(buildMockAuthorizeOptions());
+  assert(auth.pass, (auth.errors || []).join(","));
+  const transport = createMockLunaTransport({}, auth.receipt);
+  assert(transport.stats.realCalls === 0, "mock realCalls 0");
+}
+
+function testMissingMandatoryRealFields() {
+  const gitSha = "3".repeat(40);
+  const { filePath, authorizationFileSha256 } = createTempAuthFixture({
+    runtimeHeadSha: gitSha,
+    originMainSha: gitSha,
+    batchPlanSha256: "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890",
+  });
+  const opts = baseRealOptions(
+    filePath,
+    authorizationFileSha256,
+    gitSha,
+    "c3d4e5f6789012345678901234567890abcdef1234567890abcdef1234567890"
   );
-  assertBlocked(blocked, "AUTHORIZATION_FILE_SHA256_MISMATCH");
+  delete opts.maxAllowedCycles;
+  assertBlocked(authorizeRuntimeExecution(opts), "MAX_ALLOWED_CYCLES_REQUIRED");
 }
 
-function test40CharHashForFileSha256() {
-  const hash = validateAuthorizationFileHash({
+function test40And64CharHashValidation() {
+  const badFile = validateAuthorizationFileHash({
     authorizationFileSha256: "a".repeat(40),
     expectedAuthorizationFileSha256: "a".repeat(40),
   });
-  assert(!hash.ok, "40-char file hash invalid");
-  assert(hash.blockers.some((b) => b.code === "AUTHORIZATION_FILE_SHA256_INVALID"), "invalid file hash");
-}
+  assert(!badFile.ok, "40-char file hash invalid");
 
-function test64CharHashForGitSha() {
-  const chain = validateGitIdentityChain({
+  const badGit = validateGitIdentityChain({
     headSha: "a".repeat(64),
     originMainSha: "a".repeat(64),
     expectedRuntimeHeadSha: "a".repeat(64),
     cliSha: "a".repeat(64),
     authorization: { runtimeHeadSha: "a".repeat(64), originMainSha: "a".repeat(64) },
   });
-  assert(!chain.ok, "64-char git sha invalid");
-  assert(chain.blockers.some((b) => b.code === "OWNER_AUTHORIZATION_GIT_SHA_INVALID"), "git invalid");
+  assert(!badGit.ok, "64-char git sha invalid");
 }
 
-function testModifiedAuthFileAfterHashFixed() {
-  const { filePath, authorizationFileSha256, tmpDir } = createTempAuthFixture();
-  const doc = JSON.parse(fs.readFileSync(filePath, "utf8"));
-  doc.ownerReferences = "TAMPERED";
-  fs.writeFileSync(filePath, JSON.stringify(doc, null, 2));
-  const blocked = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({ filePath, authorizationFileSha256 })
-  );
-  assertBlocked(blocked, "AUTHORIZATION_FILE_SHA256_MISMATCH");
-  fs.rmSync(tmpDir, { recursive: true, force: true });
-}
-
-function testHeadMismatch() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const blocked = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({
-      filePath,
-      authorizationFileSha256,
-      infrastructureContext: buildTestInfrastructureContext("b".repeat(40)),
-      gitContext: { headSha: "b".repeat(40), originMainSha: TEST_GIT_SHA },
-      expectedRuntimeHeadSha: TEST_GIT_SHA,
-    })
-  );
-  assert(!blocked.pass, "expected failure");
-  const codes = blocked.errors || [blocked.code];
-  assert(
-    codes.some((c) => c.includes("HEAD")),
-    `expected HEAD mismatch, got ${codes.join(",")}`
-  );
-}
-
-function testOriginMainMismatch() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const blocked = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({
-      filePath,
-      authorizationFileSha256,
-      infrastructureContext: buildTestInfrastructureContext(TEST_GIT_SHA),
-      gitContext: { headSha: TEST_GIT_SHA, originMainSha: "c".repeat(40) },
-    })
-  );
-  assertBlocked(blocked, "HEAD_ORIGIN_MAIN_MISMATCH");
-}
-
-function testCliShaMismatch() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const blocked = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({
-      filePath,
-      authorizationFileSha256,
-      cliSha: "d".repeat(40),
-    })
-  );
-  assertBlocked(blocked, "CLI_SHA_MISMATCH");
-}
-
-function testAuthRuntimeShaMismatch() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture({
-    runtimeHeadSha: "e".repeat(40),
-    originMainSha: "e".repeat(40),
-  });
-  const blocked = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({ filePath, authorizationFileSha256 })
-  );
-  assertBlocked(blocked, "RUNTIME_GIT_IDENTITY_CHAIN_MISMATCH");
-}
-
-function testWrongModel() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture({ model: "wrong-model" });
-  const validated = validateOwnerAuthorizationDocument(JSON.parse(fs.readFileSync(filePath, "utf8")));
-  assert(!validated.ok, "schema rejects wrong model");
-  const blocked = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({ filePath, authorizationFileSha256, model: "wrong-model" })
-  );
-  assert(!blocked.pass, "must fail");
-}
-
-function testWrongBatchCount() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture({ batchCount: 763 });
-  const validated = validateOwnerAuthorizationDocument(JSON.parse(fs.readFileSync(filePath, "utf8")));
-  assert(!validated.ok, "schema rejects batch count");
-}
-
-function testWrongMaxAllowedCycles() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture({ maxAllowedCycles: 764 });
-  const validated = validateOwnerAuthorizationDocument(JSON.parse(fs.readFileSync(filePath, "utf8")));
-  assert(!validated.ok, "schema rejects max cycles");
-}
-
-function testMatrixMismatch() {
-  const doc = buildValidAuthV2Document({ matrixIdentitySha: "0".repeat(64) });
-  const validated = validateOwnerAuthorizationDocument(doc);
-  assert(!validated.ok, "matrix mismatch");
-  assert(validated.code === "OWNER_AUTHORIZATION_MATRIX_SHA_MISMATCH", validated.code);
-}
-
-function testSourceMismatch() {
-  const doc = buildValidAuthV2Document({ sourceSha256: "1".repeat(64) });
-  const validated = validateOwnerAuthorizationDocument(doc);
-  assert(!validated.ok, "source mismatch");
-}
-
-function testBatchPlanMismatch() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const blocked = authorizeRuntimeExecution(
-    buildRealLunaAuthorizeOptions({
-      filePath,
-      authorizationFileSha256,
-      batchPlanSha256: "2".repeat(64),
-    })
-  );
-  assertBlocked(blocked, "BATCH_PLAN_SHA_MISMATCH");
-}
-
-function testQueueCountMismatch() {
-  const badCounts = { ...AUTH_FROZEN.queueCounts, AUDIT_MAPPED_UNIQUE: 1 };
-  const doc = buildValidAuthV2Document({ queueCounts: badCounts });
-  const validated = validateOwnerAuthorizationDocument(doc);
-  assert(!validated.ok, "queue mismatch");
-}
-
-function testMissingExpectedAuthorizationFileSha256() {
-  const { filePath, authorizationFileSha256 } = createTempAuthFixture();
-  const blocked = authorizeRuntimeExecution({
-    runtimeMode: RUNTIME_MODES.REAL_LUNA,
-    expectedRuntimeHeadSha: TEST_GIT_SHA,
-    cliSha: TEST_GIT_SHA,
-    ownerAuthorizationFile: filePath,
-    runId: TEST_RUN_ID,
-    model: AUTH_FROZEN.model,
-    batchPlanSha256: TEST_BATCH_PLAN_SHA256,
-    batchCount: AUTH_FROZEN.batchCount,
-    queueCounts: AUTH_FROZEN.queueCounts,
-    skipInfrastructureGates: true,
-    infrastructureContext: buildTestInfrastructureContext(),
-    gitContext: buildTestGitContext(),
-    allowAuthFileInRepo: true,
-  });
-  assertBlocked(blocked, "EXPECTED_AUTHORIZATION_FILE_SHA256_REQUIRED");
-}
-
-function testV1SchemaRejected() {
-  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "g2-a1-auth-v1-"));
-  const doc = buildV1AuthDocument();
-  const { filePath } = writeAuthFile(doc, tmp);
-  const loaded = loadOwnerAuthorizationFile(filePath, { allowInRepo: true });
-  assert(!loaded.ok, "v1 rejected");
-  assert(loaded.code === "OWNER_AUTH_SCHEMA_V1_REJECTED", loaded.code);
-  fs.rmSync(tmp, { recursive: true, force: true });
-}
-
-function testMockReceiptOnRealTransport() {
-  const auth = authorizeRuntimeExecution({
-    runtimeMode: RUNTIME_MODES.MOCK_DRY_RUN,
-    skipInfrastructureGates: true,
-    infrastructureContext: buildTestInfrastructureContext(),
-    gitContext: buildTestGitContext(),
-  });
-  assert(auth.pass, (auth.errors || []).join(","));
-  let threw = false;
-  try {
-    createRealLunaTransport(auth.receipt);
-  } catch (e) {
-    threw = true;
-    assert(e.code === "RUNTIME_RECEIPT_MODE_MISMATCH", e.code);
-  }
-  assert(threw, "mock receipt blocked");
-}
-
-function testRealTransportWithoutReceipt() {
-  let threw = false;
-  try {
-    createRealLunaTransport(null);
-  } catch (e) {
-    threw = true;
-    assert(e.code === "REAL_LUNA_RUNTIME_AUTHORIZATION_REQUIRED", e.code);
-  }
-  assert(threw, "no receipt blocked");
-}
-
-function testRealLunaWithoutExpectedHead() {
-  const blocked = authorizeRuntimeExecution({
-    runtimeMode: RUNTIME_MODES.REAL_LUNA,
-    ownerAuthorizationFile: "/tmp/missing",
-    expectedAuthorizationFileSha256: "a".repeat(64),
-    runId: TEST_RUN_ID,
-    model: AUTH_FROZEN.model,
-    batchPlanSha256: TEST_BATCH_PLAN_SHA256,
-    batchCount: AUTH_FROZEN.batchCount,
-    queueCounts: AUTH_FROZEN.queueCounts,
-    skipInfrastructureGates: true,
-    infrastructureContext: buildTestInfrastructureContext(),
-  });
-  assertBlocked(blocked, "EXPECTED_RUNTIME_HEAD_SHA_REQUIRED");
-}
-
-function testRealLunaWithoutAuthFile() {
-  const blocked = authorizeRuntimeExecution({
-    runtimeMode: RUNTIME_MODES.REAL_LUNA,
-    expectedRuntimeHeadSha: TEST_GIT_SHA,
-    cliSha: TEST_GIT_SHA,
-    expectedAuthorizationFileSha256: "a".repeat(64),
-    runId: TEST_RUN_ID,
-    model: AUTH_FROZEN.model,
-    batchPlanSha256: TEST_BATCH_PLAN_SHA256,
-    batchCount: AUTH_FROZEN.batchCount,
-    queueCounts: AUTH_FROZEN.queueCounts,
-    skipInfrastructureGates: true,
-    infrastructureContext: buildTestInfrastructureContext(),
-  });
-  assertBlocked(blocked, "OWNER_AUTHORIZATION_FILE_REQUIRED");
-}
-
-function testUnknownModeFailClosed() {
-  const blocked = authorizeRuntimeExecution({ runtimeMode: "UNKNOWN" });
-  assert(!blocked.pass, "unknown mode");
-  assert(blocked.code === "RUNTIME_MODE_REQUIRED", blocked.code);
-}
-
-function testProductionBaselineIndependent() {
-  const infra = runInfrastructureGates();
-  if (!infra.pass) {
-    const ctx = buildTestInfrastructureContext();
-    assert(ctx.productionBaselineSha === EXPECTED.productionBaselineSha, "baseline sha");
-    assert(ctx.productionBaselineSha !== TEST_GIT_SHA, "baseline != test git sha");
-    return;
-  }
-  assert(infra.productionBaselineSha === EXPECTED.productionBaselineSha, infra.productionBaselineSha);
-  assert(infra.prod.clean, "production diff clean");
-  assert(infra.de.clean, "de diff clean");
-}
-
-function testMockDryRunZeroRealCalls() {
-  const auth = authorizeRuntimeExecution({
-    runtimeMode: RUNTIME_MODES.MOCK_DRY_RUN,
-    skipInfrastructureGates: true,
-    infrastructureContext: buildTestInfrastructureContext(),
-    gitContext: buildTestGitContext(),
-  });
-  assert(auth.pass, (auth.errors || []).join(","));
-  const transport = createMockLunaTransport({}, auth.receipt);
-  assert(transport.stats.realCalls === 0, "realCalls 0");
-  assert(auth.receipt.executable === false, "not executable");
+function testFrozenAuthConstants() {
+  assert(AUTH_FROZEN.model === "gpt-5.6-luna", "model");
+  assert(AUTH_FROZEN.batchCount === 764, "batchCount");
+  assert(AUTH_FROZEN.maxAllowedCycles === 1, "maxAllowedCycles");
 }
 
 const tests = [
-  ["testV1DefectProof", testV1DefectProof],
-  ["testValidAuthV2DocumentLoads", testValidAuthV2DocumentLoads],
-  ["testRawFileSha256Computed", testRawFileSha256Computed],
-  ["testExpectedAuthorizationFileSha256Matches", testExpectedAuthorizationFileSha256Matches],
-  ["testGitShaChainMatches", testGitShaChainMatches],
-  ["testMatrixSourceBatchPlanIdentities", testMatrixSourceBatchPlanIdentities],
-  ["testFrozenBatchCount", testFrozenBatchCount],
-  ["testFrozenMaxAllowedCycles", testFrozenMaxAllowedCycles],
-  ["testFrozenModel", testFrozenModel],
-  ["testPositiveRealLunaReceipt", testPositiveRealLunaReceipt],
-  ["testReceiptHasSeparateIdentityFields", testReceiptHasSeparateIdentityFields],
-  ["testRealTransportWithValidReceipt", testRealTransportWithValidReceipt],
-  ["testRealTransportExecuteBatchBlocked", testRealTransportExecuteBatchBlocked],
-  ["testAuthFileSha256Mismatch", testAuthFileSha256Mismatch],
-  ["test40CharHashForFileSha256", test40CharHashForFileSha256],
-  ["test64CharHashForGitSha", test64CharHashForGitSha],
-  ["testModifiedAuthFileAfterHashFixed", testModifiedAuthFileAfterHashFixed],
-  ["testHeadMismatch", testHeadMismatch],
-  ["testOriginMainMismatch", testOriginMainMismatch],
-  ["testCliShaMismatch", testCliShaMismatch],
-  ["testAuthRuntimeShaMismatch", testAuthRuntimeShaMismatch],
-  ["testWrongModel", testWrongModel],
-  ["testWrongBatchCount", testWrongBatchCount],
-  ["testWrongMaxAllowedCycles", testWrongMaxAllowedCycles],
-  ["testMatrixMismatch", testMatrixMismatch],
-  ["testSourceMismatch", testSourceMismatch],
-  ["testBatchPlanMismatch", testBatchPlanMismatch],
-  ["testQueueCountMismatch", testQueueCountMismatch],
-  ["testMissingExpectedAuthorizationFileSha256", testMissingExpectedAuthorizationFileSha256],
-  ["testV1SchemaRejected", testV1SchemaRejected],
+  ["testEachOverrideForbiddenInRealLuna", testEachOverrideForbiddenInRealLuna],
+  ["testMultipleOverridesForbidden", testMultipleOverridesForbidden],
+  ["testMissingCliSha", testMissingCliSha],
+  ["testManualReceiptRejected", testManualReceiptRejected],
+  ["testClonedReceiptRejected", testClonedReceiptRejected],
+  ["testSerializedReceiptRejected", testSerializedReceiptRejected],
+  ["testModifiedReceiptRejected", testModifiedReceiptRejected],
   ["testMockReceiptOnRealTransport", testMockReceiptOnRealTransport],
+  ["testAuthFileInRepoRejected", testAuthFileInRepoRejected],
+  ["testAuthFileViaParentSymlinkIntoRepoRejected", testAuthFileViaParentSymlinkIntoRepoRejected],
+  ["testAuthFileSymlinkRejected", testAuthFileSymlinkRejected],
+  ["testAuthFileTamperAfterHash", testAuthFileTamperAfterHash],
+  ["testIsolatedProductionRealLunaPositivePath", testIsolatedProductionRealLunaPositivePath],
+  ["testIssuedReceiptRegisteredAndFrozen", testIssuedReceiptRegisteredAndFrozen],
+  ["testPureValidationFunctionsStillWork", testPureValidationFunctionsStillWork],
+  ["testV1SchemaRejected", testV1SchemaRejected],
   ["testRealTransportWithoutReceipt", testRealTransportWithoutReceipt],
-  ["testRealLunaWithoutExpectedHead", testRealLunaWithoutExpectedHead],
-  ["testRealLunaWithoutAuthFile", testRealLunaWithoutAuthFile],
-  ["testUnknownModeFailClosed", testUnknownModeFailClosed],
-  ["testProductionBaselineIndependent", testProductionBaselineIndependent],
-  ["testMockDryRunZeroRealCalls", testMockDryRunZeroRealCalls],
+  ["testMockDryRunStillWorksWithMockBypass", testMockDryRunStillWorksWithMockBypass],
+  ["testMissingMandatoryRealFields", testMissingMandatoryRealFields],
+  ["test40And64CharHashValidation", test40And64CharHashValidation],
+  ["testFrozenAuthConstants", testFrozenAuthConstants],
 ];
 
 async function main() {

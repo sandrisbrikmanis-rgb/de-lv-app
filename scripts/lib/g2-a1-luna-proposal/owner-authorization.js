@@ -37,17 +37,36 @@ function isValidSha256(value) {
   return typeof value === "string" && SHA256_HEX.test(value);
 }
 
+function resolveRealPath(targetPath) {
+  return fs.realpathSync.native ? fs.realpathSync.native(targetPath) : fs.realpathSync(targetPath);
+}
+
 function isPathInsideWorktree(targetPath, rootPath = ROOT) {
-  const resolvedTarget = path.resolve(targetPath);
-  const resolvedRoot = path.resolve(rootPath);
+  const resolvedTarget = resolveRealPath(targetPath);
+  const resolvedRoot = resolveRealPath(rootPath);
   return resolvedTarget === resolvedRoot || resolvedTarget.startsWith(`${resolvedRoot}${path.sep}`);
+}
+
+function assertAuthFileOutsideWorktree(filePath) {
+  try {
+    if (isPathInsideWorktree(filePath)) {
+      return {
+        ok: false,
+        code: "OWNER_AUTHORIZATION_FILE_IN_REPO",
+        message: "Owner authorization file must be outside the repository worktree",
+      };
+    }
+    return { ok: true, realPath: resolveRealPath(filePath) };
+  } catch (error) {
+    return { ok: false, code: "OWNER_AUTHORIZATION_FILE_UNREADABLE", message: error.message };
+  }
 }
 
 function frozenQueueCountsHash() {
   return hashObject(AUTH_FROZEN.queueCounts);
 }
 
-function loadOwnerAuthorizationFile(filePath, options = {}) {
+function loadOwnerAuthorizationFile(filePath) {
   if (!filePath || typeof filePath !== "string") {
     return { ok: false, code: "OWNER_AUTHORIZATION_FILE_REQUIRED", message: "ownerAuthorizationFile is required" };
   }
@@ -71,13 +90,9 @@ function loadOwnerAuthorizationFile(filePath, options = {}) {
   if (stat.isSymbolicLink()) {
     return { ok: false, code: "OWNER_AUTHORIZATION_FILE_SYMLINK", message: "Symlink owner authorization files are blocked" };
   }
-  if (!options.allowInRepo && isPathInsideWorktree(filePath)) {
-    return {
-      ok: false,
-      code: "OWNER_AUTHORIZATION_FILE_IN_REPO",
-      message: "Owner authorization file must be outside the repository worktree",
-    };
-  }
+
+  const outside = assertAuthFileOutsideWorktree(filePath);
+  if (!outside.ok) return outside;
 
   let raw;
   try {
@@ -379,4 +394,6 @@ module.exports = {
   buildOwnerAuthorizationDocument,
   proveV1Defect,
   isPathInsideWorktree,
+  assertAuthFileOutsideWorktree,
+  resolveRealPath,
 };
