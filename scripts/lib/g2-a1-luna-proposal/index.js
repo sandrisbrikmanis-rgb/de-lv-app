@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-const { runStartGates } = require("./identity-gates");
+const { runInfrastructureGates } = require("./identity-gates");
 const { buildQueues, classifySourceIdenticalPreliminary } = require("./queue-builder");
 const { buildTaskRequest, buildBatchRequest } = require("./request-schema");
 const { validateLunaResponseItem, validateLunaBatchResponse } = require("./response-validator");
@@ -10,7 +10,24 @@ const { runDryRun } = require("./dry-run");
 const { runOwnerReview } = require("./owner-review");
 const { analyzeGroupedIndividualOverlaps, countIndividualOverlapStats, OVERLAP_CLASS } = require("./grouped-overlap");
 const { createMockLunaTransport } = require("./mock-transport");
+const { createRealLunaTransport } = require("./real-transport");
+const { createLunaTransport, assertTransportReceipt } = require("./transport-factory");
 const { runProposalBatches } = require("./runner");
+const {
+  authorizeRuntimeExecution,
+  buildMockDryRunReceipt,
+  buildRealLunaReceipt,
+  assertAuthorizedRuntimeReceipt,
+  runStartGates,
+} = require("./runtime-gates");
+const { RUNTIME_MODES, NON_EXECUTABLE_MOCK_PROOF } = require("./runtime-mode");
+const {
+  loadOwnerAuthorizationFile,
+  validateOwnerAuthorizationDocument,
+  validateOwnerAuthorizationAgainstRuntime,
+  buildOwnerAuthorizationDocument,
+  OWNER_AUTH_PURPOSE,
+} = require("./owner-authorization");
 const {
   buildCheckpoint,
   validateCheckpoint,
@@ -26,7 +43,12 @@ const {
 } = require("./constants");
 
 module.exports = {
+  runInfrastructureGates,
   runStartGates,
+  authorizeRuntimeExecution,
+  buildMockDryRunReceipt,
+  buildRealLunaReceipt,
+  assertAuthorizedRuntimeReceipt,
   buildQueues,
   classifySourceIdenticalPreliminary,
   buildTaskRequest,
@@ -40,12 +62,22 @@ module.exports = {
   countIndividualOverlapStats,
   OVERLAP_CLASS,
   createMockLunaTransport,
+  createRealLunaTransport,
+  createLunaTransport,
+  assertTransportReceipt,
   runProposalBatches,
   buildCheckpoint,
   validateCheckpoint,
   saveCheckpoint,
   loadCheckpoint,
   detectCheckpointIntegrity,
+  loadOwnerAuthorizationFile,
+  validateOwnerAuthorizationDocument,
+  validateOwnerAuthorizationAgainstRuntime,
+  buildOwnerAuthorizationDocument,
+  OWNER_AUTH_PURPOSE,
+  RUNTIME_MODES,
+  NON_EXECUTABLE_MOCK_PROOF,
   EXPECTED,
   TASK_KINDS,
   LUNA_ACTIONS,

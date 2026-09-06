@@ -12,7 +12,8 @@ const {
   DEFAULT_RETRY,
 } = require("./constants");
 const { buildCheckpoint, saveCheckpoint, loadCheckpoint, validateCheckpoint } = require("./checkpoint");
-const { hashObject } = require("./hash");
+const { assertTransportReceipt } = require("./transport-factory");
+const { RUNTIME_MODES } = require("./runtime-mode");
 
 function buildRunManifest({ runId, gates, queues, batchPlan, transportMode }) {
   return {
@@ -49,6 +50,12 @@ async function runProposalBatches({
   transport,
   options = {},
 }) {
+  assertTransportReceipt(transport, transport.mode === "REAL_LUNA" ? RUNTIME_MODES.REAL_LUNA : RUNTIME_MODES.MOCK_DRY_RUN);
+  if (!transport.authorizedRuntimeReceipt?.validated) {
+    const err = new Error("REAL_LUNA_RUNTIME_AUTHORIZATION_REQUIRED");
+    err.code = "REAL_LUNA_RUNTIME_AUTHORIZATION_REQUIRED";
+    throw err;
+  }
   fs.mkdirSync(runDir(runId), { recursive: true });
   writeJsonAtomic(manifestPath(runId), buildRunManifest({ runId, gates, queues, batchPlan, transportMode: transport.mode }));
   const progress = buildProgress({ runId, batchPlan });

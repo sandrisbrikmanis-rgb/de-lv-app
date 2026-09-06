@@ -4,7 +4,8 @@
 const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
-const { runStartGates } = require("./identity-gates");
+const { authorizeRuntimeExecution } = require("./runtime-gates");
+const { RUNTIME_MODES, NON_EXECUTABLE_MOCK_PROOF } = require("./runtime-mode");
 const { buildQueues } = require("./queue-builder");
 const { buildBatchPlan } = require("./batch-plan");
 const { EXPECTED, pathState, TASK_KINDS } = require("./constants");
@@ -62,7 +63,8 @@ function renderQueueSummary(result) {
 
 function runDryRun(options = {}) {
   const outDir = options.outDir || pathState.artifactsRoot;
-  const gates = runStartGates(options);
+  const runtimeMode = options.runtimeMode || RUNTIME_MODES.MOCK_DRY_RUN;
+  const gates = authorizeRuntimeExecution({ ...options, runtimeMode });
   if (!gates.pass) {
     return { classification: "START_GATE_BLOCKED", gates, generatedAt: new Date().toISOString() };
   }
@@ -86,7 +88,16 @@ function runDryRun(options = {}) {
   const result = {
     generatedAt,
     classification,
-    gates: { pass: gates.pass, originMain: gates.originMain, sourceSha: gates.sourceSha },
+    gates: {
+      pass: gates.pass,
+      runtimeMode: gates.runtimeMode,
+      originMainSha: gates.infrastructure.originMainSha,
+      headSha: gates.infrastructure.headSha,
+      productionBaselineSha: gates.infrastructure.productionBaselineSha,
+      sourceSha: gates.infrastructure.sourceSha,
+      receipt: gates.receipt,
+    },
+    resultClassification: NON_EXECUTABLE_MOCK_PROOF,
     counts: { ...counts, batchEligibleUnits: built.counts.batchEligibleUnits },
     rawCounts: {
       EMPTY_OR_MISSING: EXPECTED.rawQueueCounts.EMPTY_OR_MISSING,

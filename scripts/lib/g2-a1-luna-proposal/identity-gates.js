@@ -9,18 +9,15 @@ const { assertPhase1MatrixIdentity } = require("../content-crowdin-bridge/g2-a1-
 const bridge = require("../content-crowdin-bridge");
 const { gitProductionDiffAgainstBaseline, gitDeDiffAgainstBaseline } = require("../content-discovery/git-baseline");
 
-function runStartGates(options = {}) {
+function runInfrastructureGates(options = {}) {
   const errors = [];
   const ownerPackRoot = options.ownerPackRoot || pathState.ownerPackRoot;
   const matrixPath = options.matrixPath || pathState.matrixPath;
+  const productionBaselineSha = EXPECTED.productionBaselineSha;
 
-  const originMain = execSync("git rev-parse origin/main", { encoding: "utf8" }).trim();
+  const originMainSha = execSync("git rev-parse origin/main", { encoding: "utf8" }).trim();
   const headSha = execSync("git rev-parse HEAD", { encoding: "utf8" }).trim();
   const porcelain = execSync("git status --porcelain", { encoding: "utf8" }).trim();
-  const productionBaselineSha = EXPECTED.productionBaselineSha || EXPECTED.originMain;
-  if (options.requirePinnedOriginMain && originMain !== EXPECTED.originMain) {
-    errors.push(`ORIGIN_MAIN_MISMATCH:${originMain}`);
-  }
   if (porcelain) errors.push("WORKTREE_NOT_CLEAN");
 
   const proofPath = `${ownerPackRoot}/proof.json`;
@@ -32,10 +29,12 @@ function runStartGates(options = {}) {
     }
   }
 
+  let matrixIdentitySha = null;
   if (!fs.existsSync(matrixPath)) errors.push("MATRIX_MISSING");
   else {
     const matrix = JSON.parse(fs.readFileSync(matrixPath, "utf8"));
     const identity = assertPhase1MatrixIdentity(matrix);
+    matrixIdentitySha = identity.actual;
     if (identity.actual !== EXPECTED.matrixIdentitySha) errors.push("MATRIX_IDENTITY_MISMATCH");
   }
 
@@ -57,9 +56,10 @@ function runStartGates(options = {}) {
   return {
     pass: errors.length === 0,
     errors,
-    originMain,
+    originMainSha,
     headSha,
     productionBaselineSha,
+    matrixIdentitySha,
     sourceSha,
     prod,
     de,
@@ -68,4 +68,4 @@ function runStartGates(options = {}) {
   };
 }
 
-module.exports = { runStartGates };
+module.exports = { runInfrastructureGates };

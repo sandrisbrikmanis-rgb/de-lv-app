@@ -4,7 +4,8 @@
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
-const { runStartGates } = require("./identity-gates");
+const { authorizeRuntimeExecution } = require("./runtime-gates");
+const { RUNTIME_MODES } = require("./runtime-mode");
 const { buildQueues } = require("./queue-builder");
 const { buildBatchPlan } = require("./batch-plan");
 const { buildTaskRequest } = require("./request-schema");
@@ -191,12 +192,14 @@ function verifyRuntimeArtifactGate() {
   return { pass, checks, note: "auth file intentionally absent until authorized cycle" };
 }
 
-async function runCheckpointResumeProof(gates, queues, batchPlan) {
+async function runCheckpointResumeProof(runtimeAuth, queues, batchPlan) {
   const scenarios = [];
   const tmpRoot = path.join(pathState.ownerReviewRoot, "checkpoint-runs");
   fs.mkdirSync(tmpRoot, { recursive: true });
   const prevRunsRoot = pathState.runsRoot;
   pathState.runsRoot = tmpRoot;
+  const receipt = runtimeAuth.receipt;
+  const gates = runtimeAuth.infrastructure;
 
   try {
     const smallPlan = {
@@ -205,7 +208,7 @@ async function runCheckpointResumeProof(gates, queues, batchPlan) {
       totalBatches: Math.min(3, batchPlan.batches.length),
     };
 
-    const transport = createMockLunaTransport();
+    const transport = createMockLunaTransport({}, receipt);
     const fullRunId = "owner-review-full";
     const full = await runProposalBatches({
       runId: fullRunId,
@@ -224,7 +227,7 @@ async function runCheckpointResumeProof(gates, queues, batchPlan) {
     const interruptRunId = "owner-review-interrupt";
     const interruptTransport = createMockLunaTransport({
       "AUDIT_MAPPED_UNIQUE:1": "error",
-    });
+    }, receipt);
     const interrupted = await runProposalBatches({
       runId: interruptRunId,
       gates,
@@ -241,7 +244,7 @@ async function runCheckpointResumeProof(gates, queues, batchPlan) {
     });
 
     const resumeRunId = interruptRunId;
-    const resumeTransport = createMockLunaTransport();
+    const resumeTransport = createMockLunaTransport({}, receipt);
     const resumed = await runProposalBatches({
       runId: resumeRunId,
       gates,
@@ -330,19 +333,19 @@ async function runCheckpointResumeProof(gates, queues, batchPlan) {
 async function runOwnerReview(options = {}) {
   const outDir = options.outDir || pathState.ownerReviewRoot;
   const head = execSync("git rev-parse HEAD", { encoding: "utf8" }).trim();
-  const gates = runStartGates(options);
-
-  if (!gates.pass) {
+  const runtimeAuth = authorizeRuntimeExecution({ ...options, runtimeMode: RUNTIME_MODES.MOCK_DRY_RUN });
+  if (!runtimeAuth.pass) {
     const blocked = {
       classification: "START_GATE_BLOCKED",
       head,
-      gates,
+      gates: runtimeAuth,
       generatedAt: new Date().toISOString(),
     };
     fs.mkdirSync(outDir, { recursive: true });
     writeJson(path.join(outDir, "review-proof.json"), blocked);
     return blocked;
   }
+  const gates = runtimeAuth.infrastructure;
 
   if (head !== "a1012b73700ad606d91554e2b442b267b05253d1" && !options.allowHeadDrift) {
     // Informational only — repairs during OWNER review advance HEAD intentionally.
@@ -354,7 +357,7 @@ async function runOwnerReview(options = {}) {
   const overlapReview = analyzeGroupedIndividualOverlaps(built.queues, built.reconciliation);
   const batchVerify = verifyBatchPlan(built.queues);
   const runtimeGate = verifyRuntimeArtifactGate();
-  const checkpointProof = await runCheckpointResumeProof(gates, built, batchVerify.plan);
+  const checkpointProof = await runCheckpointResumeProof(runtimeAuth, built, batchVerify.plan);
 
   let classification = "G2_A1_LUNA_PROPOSAL_INFRA_OWNER_REVIEW_PASS";
   if (!runtimeGate.pass) classification = "G2_A1_LUNA_PROPOSAL_RUNTIME_ARTIFACT_BLOCKED";
@@ -371,7 +374,7 @@ async function runOwnerReview(options = {}) {
   const result = {
     generatedAt: new Date().toISOString(),
     classification,
-    pr: { number: 714, head, reviewedHead: head, baselineHead: "a1012b73700ad606d91554e2b442b267b05253d1", base: EXPECTED.originMain },
+    pr: { number: 714, head, reviewedHead: head, baselineHead: "a1012b73700ad606d91554e2b442b267b05253d1", base: EXPECTED.productionBaselineSha },
     prDiff,
     queueRecon,
     overlapReview: {
