@@ -165,9 +165,10 @@ function testCorruptCheckpointDetected() {
     lastError: "fail",
     startedAt: new Date().toISOString(),
   });
-  saveCheckpoint(runId, batch.queueKind, cp);
+  const { checkpointFilePath } = require("./lib/g2-a1-luna-proposal/constants");
+  writeJsonAtomic(checkpointFilePath(runId, batch.queueKind, batch.batchId), cp);
   const integrity = detectCheckpointIntegrity(runId, { batches: [batch] });
-  assert(integrity.corrupt.length === 1 || integrity.missing.length === 0, "corrupt or failed checkpoint");
+  assert(integrity.corrupt.length === 1 || integrity.missing.length === 1, "corrupt or missing checkpoint");
   pathState.runsRoot = prev;
 }
 
