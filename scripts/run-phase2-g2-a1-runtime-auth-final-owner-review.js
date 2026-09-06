@@ -50,6 +50,7 @@ function runCmd(cmd, cwd = ROOT) {
 }
 
 function runCmdToFile(cmd, outFile, cwd = ROOT) {
+  fs.mkdirSync(path.dirname(outFile), { recursive: true });
   execSync(`${cmd} > ${JSON.stringify(outFile)} 2>&1`, {
     cwd,
     encoding: "utf8",
