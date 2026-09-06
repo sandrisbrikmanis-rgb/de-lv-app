@@ -39,5 +39,12 @@
       "F1-8": "PASS",
       "F1-9": "PASS"
     }
+  },
+  "releaseBinding": {
+    "releaseId": 383492355,
+    "assetId": 546849008,
+    "targetCommitish": "c88f06a602cd3d1a7396108b9b04ab1454228b1f",
+    "draft": true,
+    "published": false
   }
 }
