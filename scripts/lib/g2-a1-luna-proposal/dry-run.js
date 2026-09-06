@@ -103,14 +103,19 @@ function runDryRun(options = {}) {
   if (options.writeArtifacts !== false) {
     fs.mkdirSync(outDir, { recursive: true });
     writeJson(path.join(outDir, "queue-proof.json"), {
-      ...result,
-      queues: {
-        AUDIT_MAPPED_UNIQUE: queues.AUDIT_MAPPED_UNIQUE.length,
-        EMPTY_OR_MISSING: queues.EMPTY_OR_MISSING.length,
-        SOURCE_IDENTICAL: queues.SOURCE_IDENTICAL.length,
-        GROUPED_MANUAL_REVIEW: queues.GROUPED_MANUAL_REVIEW.length,
+      generatedAt: result.generatedAt,
+      classification: result.classification,
+      counts: result.counts,
+      rawCounts: result.rawCounts,
+      reconciliation: {
+        duplicates: result.reconciliation.duplicates.length,
+        excludedEmptyDueToMappedUnique: result.reconciliation.excludedEmptyDueToMappedUnique,
+        excludedSourceDueToPriorQueues: result.reconciliation.excludedSourceDueToPriorQueues,
+        overlapWithGrouped: result.reconciliation.overlapWithGrouped.length,
       },
-      conflicts: reconciliation.duplicates,
+      batchPlan: result.batchPlan,
+      lunaRealCalls: 0,
+      crowdinApiWrites: 0,
     });
     atomicWrite(path.join(outDir, "queue-summary.md"), renderQueueSummary(result));
     writeJson(path.join(outDir, "batch-plan.json"), batchPlan);
@@ -118,7 +123,21 @@ function runDryRun(options = {}) {
       count: queues.GROUPED_MANUAL_REVIEW.length,
       rows: queues.GROUPED_MANUAL_REVIEW,
     });
-    writeJson(path.join(outDir, "dry-run-proof.json"), result);
+    writeJson(path.join(outDir, "dry-run-proof.json"), {
+      generatedAt: result.generatedAt,
+      classification: result.classification,
+      counts: result.counts,
+      rawCounts: result.rawCounts,
+      reconciliation: {
+        duplicates: result.reconciliation.duplicates.length,
+        excludedEmptyDueToMappedUnique: result.reconciliation.excludedEmptyDueToMappedUnique,
+        excludedSourceDueToPriorQueues: result.reconciliation.excludedSourceDueToPriorQueues,
+        overlapWithGrouped: result.reconciliation.overlapWithGrouped.length,
+      },
+      batchPlan: result.batchPlan,
+      lunaRealCalls: 0,
+      crowdinApiWrites: 0,
+    });
 
     const manifestFiles = [
       "queue-proof.json",
