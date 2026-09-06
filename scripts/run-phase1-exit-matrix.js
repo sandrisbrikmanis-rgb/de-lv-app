@@ -208,6 +208,19 @@ function assertExitPreWriteGates({ matrix, evaluation, withLuna }) {
     error.field = "ownerPrepMetadata";
     throw error;
   }
+  const { assertLunaStatsConsistency } = require("./lib/phase1-report-finalization");
+  const lunaConsistency = assertLunaStatsConsistency(matrix.lunaStats, {
+    validPassCount: matrix.lunaStats?.lunaSuccessfulBatches,
+  });
+  if (!lunaConsistency.pass) {
+    const error = new Error(
+      `PHASE1_EXIT_PREWRITE_GATE_FAILED: lunaStats consistency failed (${lunaConsistency.errors.join(", ")})`,
+    );
+    error.code = "PHASE1_EXIT_PREWRITE_GATE_FAILED";
+    error.field = "lunaStats";
+    error.errors = lunaConsistency.errors;
+    throw error;
+  }
 }
 
 function parsePhase1ExitCliArgs(argv = process.argv.slice(2)) {

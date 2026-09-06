@@ -19,7 +19,9 @@ const { finalizeRun, initFreshRun } = require("./lib/phase1-luna-checkpoint/runn
 const { updateProgressAtomic, createInitialProgress } = require("./lib/phase1-luna-checkpoint/progress");
 const { writeJsonAtomic } = require("./lib/phase1-luna-checkpoint/atomic-io");
 const { progressPath, manifestPath } = require("./lib/phase1-luna-checkpoint/constants");
-const { runReportFinalizationDryRun } = require("./lib/phase1-report-finalization");
+const { runReportFinalizationDryRun, buildMatrixShellFromCheckpoints, assertLunaStatsConsistency, deriveLunaStatsFromRuntime } = require("./lib/phase1-report-finalization");
+
+const PHASE1_RUN_ID = "phase1-2026-08-30T08-56-50-163Z-a8e1dec1";
 
 let testsRun = 0;
 let testsFailed = 0;
@@ -334,10 +336,82 @@ function testOwnerPrepCoverageWithGlobalIds() {
   assert(cov.pass, "owner prep coverage pass");
 }
 
+function testLunaStatsConsistencyGates() {
+  const pass = assertLunaStatsConsistency(
+    {
+      status: "REAL",
+      transport: "REAL",
+      lunaSuccessfulBatches: 12830,
+      finalizationLunaCalls: 0,
+      tokensUsed: 100,
+      tokensUsedAvailable: true,
+    },
+    { validPassCount: 12830 },
+  );
+  assert(pass.pass, "consistent luna stats pass");
+
+  const mockTransport = assertLunaStatsConsistency(
+    { status: "REAL", transport: "MOCK", lunaSuccessfulBatches: 1, finalizationLunaCalls: 0 },
+    { validPassCount: 1 },
+  );
+  assert(!mockTransport.pass, "REAL+MOCK transport fail-closed");
+  assert(mockTransport.errors.includes("REAL_STATUS_WITH_MOCK_TRANSPORT"), "REAL+MOCK error code");
+
+  const zeroBatches = assertLunaStatsConsistency(
+    { status: "REAL", transport: "REAL", lunaSuccessfulBatches: 0, finalizationLunaCalls: 0 },
+    { validPassCount: 12830 },
+  );
+  assert(!zeroBatches.pass, "VALID_PASS with zero batches fail-closed");
+
+  const unavailableTokens = assertLunaStatsConsistency({
+    status: "REAL",
+    transport: "REAL",
+    lunaSuccessfulBatches: 1,
+    finalizationLunaCalls: 0,
+    tokensUsed: 0,
+    tokensUsedAvailable: false,
+  });
+  assert(!unavailableTokens.pass, "tokensUsed=0 without availability fail-closed");
+}
+
+function testStaleBaseMatrixLunaMetadataNotInherited() {
+  const { RUNS_ROOT } = require("./lib/phase1-luna-checkpoint/constants");
+  const runDir = path.join(RUNS_ROOT, PHASE1_RUN_ID);
+  if (!fs.existsSync(runDir)) {
+    console.log("SKIP: stale base matrix test (run artifacts unavailable)");
+    return;
+  }
+
+  const staleBase = {
+    lunaStats: {
+      transport: "MOCK",
+      lunaSuccessfulBatches: 0,
+      tokensUsed: 0,
+      status: "REAL",
+      lunaCalls: 0,
+      lunaRetryAttempts: 0,
+    },
+  };
+  const shell = buildMatrixShellFromCheckpoints(PHASE1_RUN_ID, staleBase);
+  const derived = deriveLunaStatsFromRuntime(PHASE1_RUN_ID);
+  assert(shell.lunaStats.transport === "REAL", "transport reconstructed from runtime, not stale base");
+  assert(shell.lunaStats.lunaSuccessfulBatches === derived.lunaSuccessfulBatches, "lunaSuccessfulBatches from checkpoints");
+  assert(shell.lunaStats.lunaCalls === derived.lunaCalls, "lunaCalls from progress, not stale base");
+  assert(shell.lunaStats.lunaRetryAttempts === derived.lunaRetryAttempts, "lunaRetryAttempts from progress");
+  assert(shell.lunaStats.finalizationLunaCalls === 0, "finalizationLunaCalls zero");
+  assert(
+    shell.lunaStats.tokensUsedAvailable !== false || shell.lunaStats.tokensUsed !== 0,
+    "tokensUsed not inherited as stale zero placeholder",
+  );
+  assert(shell.lunaStats.transport !== "MOCK", "stale MOCK transport not inherited");
+  assert(shell.lunaStats.lunaSuccessfulBatches !== 0, "stale zero successful batches not inherited");
+  assert(derived.transport === "REAL", "derived transport REAL");
+}
+
 function testDryRunIfRequested() {
   if (!process.env.PHASE1_REPORT_FINALIZATION_DRY_RUN) return;
   const result = runReportFinalizationDryRun({
-    runId: "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
+    runId: PHASE1_RUN_ID,
   });
   assert(result.checkpointShaMismatch === 0, "checkpoint sha unchanged");
   assert(result.productionDiff.clean, "production diff clean");
@@ -352,6 +426,16 @@ function testDryRunIfRequested() {
   assert(result.stats.equations.validatedEqualsOwnerPrepRows, "validated = owner prep rows");
   assert(result.stats.equations.validatedPlusExcludedEqualsFinal, "validated + excluded = final");
   assert(result.bundleIdentity?.match, "staged bundle identity match");
+  assert(result.lunaStats?.transport === "REAL", "luna transport REAL");
+  assert(result.lunaStats?.lunaSuccessfulBatches === 12830, "lunaSuccessfulBatches matches VALID_PASS");
+  assert(result.lunaStats?.lunaCalls === 15139, "lunaCalls baseline");
+  assert(result.lunaStats?.lunaRetryAttempts === 763, "lunaRetryAttempts baseline");
+  assert(result.lunaConsistency?.pass, "luna stats consistency pass");
+  if (result.lunaStats?.tokensUsedAvailable) {
+    assert(result.lunaStats.tokensUsed > 0, "tokensUsed sum from checkpoints when available");
+  } else {
+    assert(result.lunaStats?.tokensUsed == null, "tokensUsed null when unavailable");
+  }
 }
 
 function main() {
@@ -366,6 +450,8 @@ function main() {
   testStaleLastErrorFinalizeRun();
   testStagedBundleIdentityMismatch();
   testOwnerPrepCoverageWithGlobalIds();
+  testLunaStatsConsistencyGates();
+  testStaleBaseMatrixLunaMetadataNotInherited();
   testDryRunIfRequested();
   console.log(`Phase 1 report finalization tests: ${testsRun - testsFailed}/${testsRun} passed`);
   if (testsFailed) process.exit(1);

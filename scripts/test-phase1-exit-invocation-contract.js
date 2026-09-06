@@ -103,8 +103,12 @@ function buildMinimalStagedBundle(tempRoot) {
       lunaScopesProcessed: 318,
       lunaCalls: 15139,
       lunaRetryAttempts: 763,
+      lunaSuccessfulBatches: 318,
       finalizationLunaCalls: 0,
       status: "REAL",
+      transport: "REAL",
+      tokensUsed: null,
+      tokensUsedAvailable: false,
     },
     constraints: { lunaCalls: 15139, finalizationLunaCalls: 0 },
   };

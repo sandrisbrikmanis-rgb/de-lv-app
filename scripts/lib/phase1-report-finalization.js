@@ -21,7 +21,7 @@ const { evaluateF1Gates, buildExitPayload, runPhase1ExitMatrix } = require("../r
 const { runBaselineGate } = require("./content-discovery/baseline-gate");
 const { gitProductionDiffAgainstBaseline } = require("./content-discovery/git-baseline");
 const { listCheckpointFiles } = require("./phase1-luna-checkpoint/atomic-io");
-const { RUNS_ROOT, progressPath } = require("./phase1-luna-checkpoint/constants");
+const { RUNS_ROOT, progressPath, manifestPath } = require("./phase1-luna-checkpoint/constants");
 
 const PHASE1_RUN_PROGRESS_BASELINE = {
   realCalls: 15139,
@@ -33,14 +33,93 @@ const MATRIX_TIMESTAMP_FIELDS = ["generatedAt", "updatedAt", "startedAt", "ended
 function loadRunProgressMetrics(runId) {
   const filePath = progressPath(runId);
   if (!fs.existsSync(filePath)) {
-    return { realCalls: 0, retries: 0, status: null };
+    return { realCalls: 0, retries: 0, tokensUsed: null, status: null };
   }
   const progress = JSON.parse(fs.readFileSync(filePath, "utf8"));
   return {
     realCalls: progress.realCalls ?? 0,
     retries: progress.retries ?? 0,
+    tokensUsed: progress.tokensUsed ?? null,
     status: progress.status ?? null,
   };
+}
+
+function loadRunManifest(runId) {
+  const filePath = manifestPath(runId);
+  if (!fs.existsSync(filePath)) return null;
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function countPassCheckpointsAndTokens(runId) {
+  const runDir = path.join(RUNS_ROOT, runId, "checkpoints");
+  if (!fs.existsSync(runDir)) {
+    return { passCount: 0, tokensSum: null, tokensUsedAvailable: false };
+  }
+
+  let passCount = 0;
+  let tokensSum = 0;
+  let tokensUsedAvailable = true;
+
+  for (const scopeDir of fs.readdirSync(runDir).sort()) {
+    const fullDir = path.join(runDir, scopeDir);
+    if (!fs.statSync(fullDir).isDirectory()) continue;
+    for (const file of listCheckpointFiles(fullDir)) {
+      const checkpoint = JSON.parse(fs.readFileSync(file, "utf8"));
+      if (checkpoint.status !== "PASS") continue;
+      passCount += 1;
+      if (checkpoint.tokensUsed === null || checkpoint.tokensUsed === undefined) {
+        tokensUsedAvailable = false;
+      } else if (tokensUsedAvailable) {
+        tokensSum += checkpoint.tokensUsed;
+      }
+    }
+  }
+
+  return {
+    passCount,
+    tokensSum: tokensUsedAvailable ? tokensSum : null,
+    tokensUsedAvailable,
+  };
+}
+
+function deriveLunaStatsFromRuntime(runId) {
+  const progress = loadRunProgressMetrics(runId);
+  const manifest = loadRunManifest(runId);
+  const checkpointMetrics = countPassCheckpointsAndTokens(runId);
+  const transport = manifest?.transport || "REAL";
+
+  return {
+    transport,
+    lunaSuccessfulBatches: checkpointMetrics.passCount,
+    lunaCalls: progress.realCalls,
+    lunaRetryAttempts: progress.retries,
+    finalizationLunaCalls: 0,
+    status: "REAL",
+    failures: [],
+    tokensUsed: checkpointMetrics.tokensUsedAvailable ? checkpointMetrics.tokensSum : null,
+    tokensUsedAvailable: checkpointMetrics.tokensUsedAvailable,
+  };
+}
+
+function assertLunaStatsConsistency(lunaStats, { validPassCount } = {}) {
+  const errors = [];
+  if (lunaStats?.status === "REAL" && lunaStats?.transport === "MOCK") {
+    errors.push("REAL_STATUS_WITH_MOCK_TRANSPORT");
+  }
+  const passCount = validPassCount ?? lunaStats?.lunaSuccessfulBatches ?? 0;
+  if (passCount > 0 && (lunaStats?.lunaSuccessfulBatches ?? 0) === 0) {
+    errors.push("VALID_PASS_WITH_ZERO_SUCCESSFUL_BATCHES");
+  }
+  if ((lunaStats?.finalizationLunaCalls ?? 0) !== 0) {
+    errors.push("FINALIZATION_LUNA_CALLS_NONZERO");
+  }
+  if (lunaStats?.tokensUsedAvailable === false && lunaStats?.tokensUsed === 0) {
+    errors.push("TOKENS_USED_ZERO_WITHOUT_AVAILABILITY");
+  }
+  if (lunaStats?.tokensUsedAvailable === false && lunaStats?.tokensUsed != null) {
+    errors.push("TOKENS_USED_SET_WITHOUT_AVAILABILITY");
+  }
+  return { pass: errors.length === 0, errors };
 }
 
 function hashMatrixForIdentity(matrix) {
@@ -163,6 +242,21 @@ function buildMatrixShellFromCheckpoints(runId, baseMatrix = {}) {
   const progressBaselineMatch =
     historicalRealCalls === PHASE1_RUN_PROGRESS_BASELINE.realCalls &&
     historicalRetries === PHASE1_RUN_PROGRESS_BASELINE.retries;
+  const runtimeLunaStats = deriveLunaStatsFromRuntime(runId);
+  const lunaStats = {
+    lunaScopesExpected: 318,
+    lunaScopesProcessed: summary.filter((r) => r.lunaApplicable && r.lunaProcessed).length,
+    ...runtimeLunaStats,
+  };
+  const lunaConsistency = assertLunaStatsConsistency(lunaStats, {
+    validPassCount: runtimeLunaStats.lunaSuccessfulBatches,
+  });
+  if (!lunaConsistency.pass) {
+    const error = new Error(`LUNA_STATS_CONSISTENCY_FAILED: ${lunaConsistency.errors.join(", ")}`);
+    error.code = "LUNA_STATS_CONSISTENCY_FAILED";
+    error.errors = lunaConsistency.errors;
+    throw error;
+  }
 
   return {
     ...baseMatrix,
@@ -172,16 +266,7 @@ function buildMatrixShellFromCheckpoints(runId, baseMatrix = {}) {
       processed: summary.length,
       notApplicable: summary.filter((r) => r.applicability === "EXPECTED_NOT_APPLICABLE").length,
     },
-    lunaStats: {
-      ...(baseMatrix.lunaStats || {}),
-      lunaScopesExpected: 318,
-      lunaScopesProcessed: summary.filter((r) => r.lunaApplicable && r.lunaProcessed).length,
-      lunaCalls: historicalRealCalls,
-      lunaRetryAttempts: historicalRetries,
-      finalizationLunaCalls: 0,
-      status: "REAL",
-      failures: [],
-    },
+    lunaStats,
     constraints: {
       ...(baseMatrix.constraints || {}),
       lunaCalls: historicalRealCalls,
@@ -464,6 +549,10 @@ function runReportFinalizationDryRun({
     exitSimulation?.bundleIdentity?.matrixSha256 === stagedMatrixSha256 &&
     exitSimulation?.bundleIdentity?.ownerPrepSourceHash === expectedOwnerPrepSourceHash;
 
+  const lunaConsistency = assertLunaStatsConsistency(built.matrix.lunaStats, {
+    validPassCount: built.matrix.lunaStats.lunaSuccessfulBatches,
+  });
+
   const allPass =
     built.matrix.validation.pass &&
     built.stats.trueDedupConflicts === 0 &&
@@ -481,7 +570,10 @@ function runReportFinalizationDryRun({
     progressMetrics.realCalls === PHASE1_RUN_PROGRESS_BASELINE.realCalls &&
     progressMetrics.retries === PHASE1_RUN_PROGRESS_BASELINE.retries &&
     built.matrix.lunaStats.lunaCalls === PHASE1_RUN_PROGRESS_BASELINE.realCalls &&
-    built.matrix.lunaStats.finalizationLunaCalls === 0;
+    built.matrix.lunaStats.lunaRetryAttempts === PHASE1_RUN_PROGRESS_BASELINE.retries &&
+    built.matrix.lunaStats.finalizationLunaCalls === 0 &&
+    built.matrix.lunaStats.transport === "REAL" &&
+    lunaConsistency.pass;
 
   let classification = "PHASE1_EXIT_CONTRACT_FINAL_OWNER_REVIEW_READY";
   if (!allPass) {
@@ -512,6 +604,8 @@ function runReportFinalizationDryRun({
     exitPayload,
     exitPayloadError,
     finalizationLunaCalls: 0,
+    lunaStats: built.matrix.lunaStats,
+    lunaConsistency,
     totalRealCalls: progressMetrics.realCalls,
     totalRetries: progressMetrics.retries,
     EXACT_DUPLICATES_COLLAPSED: built.stats.exactDuplicatesCollapsed,
@@ -527,6 +621,10 @@ module.exports = {
   hashMatrixForIdentity,
   computeOwnerPrepSourceHash,
   loadRunProgressMetrics,
+  loadRunManifest,
+  countPassCheckpointsAndTokens,
+  deriveLunaStatsFromRuntime,
+  assertLunaStatsConsistency,
   PHASE1_RUN_PROGRESS_BASELINE,
   buildMatrixShellFromCheckpoints,
   buildDeterministicLayer,
