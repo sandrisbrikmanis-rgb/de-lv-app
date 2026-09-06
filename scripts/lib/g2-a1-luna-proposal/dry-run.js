@@ -118,7 +118,21 @@ function runDryRun(options = {}) {
       crowdinApiWrites: 0,
     });
     atomicWrite(path.join(outDir, "queue-summary.md"), renderQueueSummary(result));
-    writeJson(path.join(outDir, "batch-plan.json"), batchPlan);
+    writeJson(path.join(outDir, "batch-plan.json"), {
+      totalBatches: batchPlan.totalBatches,
+      byQueue: batchPlan.byQueue,
+      batchSizes: batchPlan.batchSizes,
+      batches: batchPlan.batches.map((b) => ({
+        batchId: b.batchId,
+        batchIndex: b.batchIndex,
+        queueKind: b.queueKind,
+        taskCount: b.taskCount,
+        taskIds: b.taskIds,
+        expectedIdsHash: b.expectedIdsHash,
+        requestInputHash: b.requestInputHash,
+        individualApplyEligible: b.individualApplyEligible,
+      })),
+    });
     writeJson(path.join(outDir, "grouped-manual-review.json"), {
       count: queues.GROUPED_MANUAL_REVIEW.length,
       rows: queues.GROUPED_MANUAL_REVIEW,
