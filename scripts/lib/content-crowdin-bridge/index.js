@@ -59,6 +59,13 @@ const {
   getLvG2SourceKeySet,
   loadG2Level,
 } = require("./roundtrip");
+const {
+  buildG2A1AuditKeyRegistry,
+  resolveG2A1AuditFinding,
+  aggregateFindingsByCrowdinKey,
+  normalizeSegment,
+  splitFieldPath,
+} = require("./g2-a1-audit-key-resolver");
 
 const GROUPS = ["g1-sentences", "g1-verbs", "g1-training", "g2", "g3"];
 
@@ -124,4 +131,9 @@ module.exports = {
   verifyRoundTrip,
   roundTripGroup,
   loadG2Level,
+  buildG2A1AuditKeyRegistry,
+  resolveG2A1AuditFinding,
+  aggregateFindingsByCrowdinKey,
+  normalizeSegment,
+  splitFieldPath,
 };
