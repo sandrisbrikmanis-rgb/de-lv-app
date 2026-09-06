@@ -166,7 +166,7 @@ function evaluateF1Gates({ matrix, baseline, productionDiff, options = {} }) {
   };
 }
 
-function buildExitPayload({ matrix, baseline, productionDiff, evaluation }) {
+function buildExitPayload({ matrix, baseline, productionDiff, evaluation, options = {} }) {
   const lunaStats = matrix?.lunaStats || {
     lunaScopesExpected: 0,
     lunaScopesProcessed: 0,
@@ -258,7 +258,7 @@ function runPhase1ExitMatrix(options = {}) {
     productionDiff,
     options,
   });
-  const exitPayload = buildExitPayload({ matrix, baseline, productionDiff, evaluation });
+  const exitPayload = buildExitPayload({ matrix, baseline, productionDiff, evaluation, options });
   const reports = writeExitReports(exitPayload);
   return { exitPayload, reports, evaluation, baseline, productionDiff };
 }

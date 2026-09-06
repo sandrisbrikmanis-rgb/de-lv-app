@@ -55,6 +55,9 @@ function deduplicateFindings(findings = [], options = {}) {
       finding.classificationStatus === "VALIDATED_REAL_FINDING" &&
       existing.classificationStatus === "VALIDATED_REAL_FINDING"
     ) {
+      if (finding.findingStableId === existing.findingStableId) {
+        continue;
+      }
       conflicts.push({
         dedupKey: key,
         findingA: existing.findingStableId,

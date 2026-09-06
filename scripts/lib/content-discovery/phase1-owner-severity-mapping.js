@@ -142,14 +142,40 @@ function buildOwnerMappingMismatchError(finding, mapping, field, actual) {
   return err;
 }
 
+function matchesMappingNext(finding, mapping) {
+  return (
+    String(finding.severity ?? "") === String(mapping.next.severity ?? "") &&
+    String(finding.classificationStatus ?? "") === String(mapping.next.classificationStatus ?? "")
+  );
+}
+
 function applyOwnerSeverityMappings(findings = []) {
   const mappingErrors = [];
   const proofs = [];
   let ownerMappingApplied = 0;
+  let ownerMappingAlreadyApplied = 0;
 
   const normalized = findings.map((finding) => {
     const mapping = OWNER_MAPPING_BY_ID.get(finding.findingStableId);
     if (!mapping) return finding;
+
+    if (matchesMappingNext(finding, mapping)) {
+      ownerMappingAlreadyApplied += 1;
+      return {
+        ...finding,
+        ownerSeverityNormalizationProof: finding.ownerSeverityNormalizationProof || {
+          findingId: mapping.findingId,
+          current: {
+            severity: finding.severity,
+            category: finding.category,
+            classificationStatus: finding.classificationStatus,
+          },
+          next: { ...mapping.next },
+          appliedAt: "read-time",
+          status: "ALREADY_APPLIED",
+        },
+      };
+    }
 
     const matchedVariant = findMatchingCurrentVariant(finding, mapping);
     if (!matchedVariant) {
@@ -180,6 +206,7 @@ function applyOwnerSeverityMappings(findings = []) {
       matchedVariant,
       next: { ...mapping.next },
       appliedAt: "read-time",
+      status: "APPLIED",
     };
     proofs.push(proof);
 
@@ -194,6 +221,7 @@ function applyOwnerSeverityMappings(findings = []) {
   return {
     findings: normalized,
     ownerMappingApplied,
+    ownerMappingAlreadyApplied,
     ownerMappingExpected: OWNER_SEVERITY_MAPPINGS.length,
     mappingErrors,
     proofs,

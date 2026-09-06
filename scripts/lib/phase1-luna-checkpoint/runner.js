@@ -32,6 +32,7 @@ const {
   buildExternalBatchValidationContext,
 } = require("./batch-checkpoint");
 const { normalizeLunaItemsToFindings } = require("./findings");
+const { getCheckpointFindings } = require("./finding-reconstruction");
 const { buildLunaRequestPayload } = require("./object-identity");
 const {
   computeRequestHashVersions,
@@ -142,7 +143,13 @@ function createCheckpointHooks({
         throw err;
       }
       skippedBatches += 1;
-      resumedFindings.push(...(existing.normalizedFindings || []));
+      const checkpointFindings = getCheckpointFindings(existing, scope);
+      if (checkpointFindings.identityStatus === "CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE") {
+        const err = new Error(`CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE: ${batchId}`);
+        err.code = "CHECKPOINT_FINDING_IDENTITY_UNRECOVERABLE";
+        throw err;
+      }
+      resumedFindings.push(...(checkpointFindings.findings || []));
       return { skip: true, checkpoint: existing };
     },
     onBatchPass({ batchIndex, batch, getId, requestPayload, rawResult, attemptCount, tokensUsed, startedAt }) {
@@ -245,7 +252,10 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
     const skipped = hooks.getSkippedStats();
     const allFindings = [
       ...skipped.resumedFindings,
-      ...(result.checkpoints || []).flatMap((cp) => cp.normalizedFindings || []),
+      ...(result.checkpoints || []).flatMap((cp) => {
+        const checkpointFindings = getCheckpointFindings(cp, scope);
+        return checkpointFindings.findings || [];
+      }),
     ];
 
     const currentProgress = require("./atomic-io").readJsonFileIfExists(require("./constants").progressPath(runId)) || {};
@@ -265,6 +275,8 @@ async function runLunaScopeWithCheckpoint(scope, options = {}) {
     };
     if (!result.ok) {
       progressPatch.lastError = redactSecrets(String(result.reason || "UNKNOWN"));
+    } else {
+      progressPatch.lastError = null;
     }
     updateProgressAtomic(runId, progressPatch);
 
@@ -287,7 +299,11 @@ function finalizeRun(runId, status) {
     manifest.endedAt = new Date().toISOString();
     writeJsonAtomic(manifestFile, manifest);
   }
-  updateProgressAtomic(runId, { status });
+  const progressPatch = { status };
+  if (status === "COMPLETED") {
+    progressPatch.lastError = null;
+  }
+  updateProgressAtomic(runId, progressPatch);
   releaseRunLock(runId);
 }
 
