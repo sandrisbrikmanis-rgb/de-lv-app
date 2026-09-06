@@ -223,8 +223,9 @@ function testGroupedContextInRequest() {
   const gates = runStartGates();
   if (!gates.pass) return;
   const { queues } = buildQueues({ gates });
-  const withOverlap = queues.AUDIT_MAPPED_UNIQUE.filter((t) => t.groupedOverlap);
-  assert(withOverlap.length > 0, "expected overlap tasks");
+  const all = [...queues.AUDIT_MAPPED_UNIQUE, ...queues.EMPTY_OR_MISSING, ...queues.SOURCE_IDENTICAL];
+  const withOverlap = all.filter((t) => t.groupedOverlap && t.overlapClassification === OVERLAP_CLASS.SAFE_WITH_GROUP_CONTEXT);
+  assert(withOverlap.length > 0, "expected safe overlap tasks");
   const req = buildTaskRequest(withOverlap[0]);
   assert(req.groupedContextReadOnly && req.groupedContextReadOnly.length > 0, "grouped context missing");
   assert(req.individualApplyEligible === false, "apply eligible must be false");
