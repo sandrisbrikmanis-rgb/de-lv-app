@@ -75,6 +75,119 @@ function baseRealOptions(filePath, authorizationFileSha256, gitSha, batchPlanSha
   });
 }
 
+function rejectReceipt(receipt) {
+  let code = null;
+  try {
+    assertAuthorizedRuntimeReceipt(receipt, RUNTIME_MODES.REAL_LUNA);
+  } catch (error) {
+    code = error.code;
+  }
+  return code;
+}
+
+function auditPublicReceiptExports() {
+  const libRoot = path.join(__dirname, "lib/g2-a1-luna-proposal");
+  const forbidden = [
+    "registerIssuedRealLunaReceipt",
+    "buildRealLunaReceipt",
+    "isIssuedRealLunaReceipt",
+    "issueRealLunaReceipt",
+  ];
+  const indexKeys = Object.keys(require("./lib/g2-a1-luna-proposal"));
+  const harnessKeys = Object.keys(require("./lib/g2-a1-luna-proposal/auth-test-harness"));
+  const indexViolations = forbidden.filter((name) => indexKeys.includes(name));
+  const harnessViolations = forbidden.filter((name) => harnessKeys.includes(name));
+  const registryPath = path.join(libRoot, "runtime-receipt-registry.js");
+  const sourceViolations = [];
+  for (const file of fs.readdirSync(libRoot).filter((f) => f.endsWith(".js"))) {
+    const content = fs.readFileSync(path.join(libRoot, file), "utf8");
+    for (const name of forbidden) {
+      if (content.includes(`${name},`) || content.includes(`${name}:`)) {
+        if (content.includes("module.exports")) sourceViolations.push(`${file}:${name}`);
+      }
+    }
+  }
+  return {
+    indexViolations,
+    harnessViolations,
+    registryExists: fs.existsSync(registryPath),
+    sourceViolations,
+  };
+}
+
+function testDirectRegistryImportUnavailable() {
+  const registryPath = path.join(__dirname, "lib/g2-a1-luna-proposal/runtime-receipt-registry.js");
+  assert(!fs.existsSync(registryPath), "runtime-receipt-registry.js must be removed");
+  let threw = false;
+  try {
+    require("./lib/g2-a1-luna-proposal/runtime-receipt-registry");
+  } catch (error) {
+    threw = error.code === "MODULE_NOT_FOUND";
+  }
+  assert(threw, "direct registry import must fail");
+}
+
+function testFrozenFakeReceiptRejected() {
+  const fake = Object.freeze({ mode: RUNTIME_MODES.REAL_LUNA, validated: true, executable: true });
+  assert(rejectReceipt(fake) === "RUNTIME_RECEIPT_NOT_ISSUED", rejectReceipt(fake));
+  let transportCode = null;
+  try {
+    createRealLunaTransport(fake);
+  } catch (error) {
+    transportCode = error.code;
+  }
+  assert(transportCode === "RUNTIME_RECEIPT_NOT_ISSUED", transportCode);
+}
+
+function testFakeReceiptWithFullShapeRejected() {
+  const isolated = runIsolatedProductionRealLunaAuth();
+  const template = isolated.result.auth.receipt;
+  const fake = Object.freeze({
+    mode: RUNTIME_MODES.REAL_LUNA,
+    validated: true,
+    executable: true,
+    runtimeHeadSha: template.runtimeHeadSha,
+    originMainSha: template.originMainSha,
+    authorizationFileSha256: template.authorizationFileSha256,
+    batchPlanSha256: template.batchPlanSha256,
+    runId: template.runId,
+    model: template.model,
+    validatedAt: template.validatedAt,
+  });
+  assert(rejectReceipt(fake) === "RUNTIME_RECEIPT_NOT_ISSUED", rejectReceipt(fake));
+}
+
+function testReceiptFromOtherProcessRejected() {
+  const isolated = runIsolatedProductionRealLunaAuth();
+  const receiptJson = JSON.stringify(isolated.result.auth.receipt);
+  const scriptPath = path.join(os.tmpdir(), `receipt-other-process-${process.pid}.js`);
+  fs.writeFileSync(
+    scriptPath,
+    `const { assertAuthorizedRuntimeReceipt, RUNTIME_MODES } = require(${JSON.stringify(path.join(ROOT, "scripts/lib/g2-a1-luna-proposal"))});
+try {
+  assertAuthorizedRuntimeReceipt(JSON.parse(process.env.RECEIPT_JSON), RUNTIME_MODES.REAL_LUNA);
+  process.exit(2);
+} catch (error) {
+  console.log(error.code || "ERR");
+}
+`
+  );
+  const out = execSync(`node ${scriptPath}`, {
+    encoding: "utf8",
+    env: { ...process.env, RECEIPT_JSON: receiptJson },
+  }).trim();
+  fs.unlinkSync(scriptPath);
+  assert(out === "RUNTIME_RECEIPT_NOT_ISSUED", out);
+}
+
+function testPublicIndexHasNoIssuerExport() {
+  const audit = auditPublicReceiptExports();
+  assert(audit.indexViolations.length === 0, audit.indexViolations.join(","));
+  assert(audit.harnessViolations.length === 0, audit.harnessViolations.join(","));
+  assert(!audit.registryExists, "registry file must not exist");
+  assert(audit.sourceViolations.length === 0, audit.sourceViolations.join(","));
+}
+
 function testEachOverrideForbiddenInRealLuna() {
   const gitSha = "a".repeat(40);
   const { filePath, authorizationFileSha256 } = createTempAuthFixture({
@@ -303,6 +416,7 @@ function testIsolatedProductionRealLunaPositivePath() {
   assert(isolated.result.auth.receipt.runtimeHeadSha.length === 40, "git sha len");
   assert(isolated.result.auth.receipt.authorizationFileSha256.length === 64, "file sha len");
   assert(isolated.result.receiptFrozen === true, "receipt frozen");
+  assert(isolated.result.receiptAcceptedByProductionBoundary === true, "production boundary");
   assert(isolated.result.realCalls === 0, "realCalls 0");
   assert(
     isolated.result.executeBlocked === "REAL_LUNA_TRANSPORT_NOT_ENABLED_IN_THIS_BUILD",
@@ -310,11 +424,12 @@ function testIsolatedProductionRealLunaPositivePath() {
   );
 }
 
-function testIssuedReceiptRegisteredAndFrozen() {
+function testReceiptAcceptedByProductionBoundary() {
   const isolated = runIsolatedProductionRealLunaAuth();
+  assert(isolated.result.receiptAcceptedByProductionBoundary === true, "production boundary accepts receipt");
   assert(isolated.result.receiptFrozen === true, "receipt frozen in-process");
-  assert(isolated.result.receiptRegistered === true, "receipt registered in-process");
   assert(isolated.result.clonedReceiptRejected === "RUNTIME_RECEIPT_NOT_ISSUED", isolated.result.clonedReceiptRejected);
+  assert(isolated.result.receiptModifyBlocked === true, "frozen receipt cannot be modified");
 }
 
 function testPureValidationFunctionsStillWork() {
@@ -408,6 +523,11 @@ function testFrozenAuthConstants() {
 }
 
 const tests = [
+  ["testDirectRegistryImportUnavailable", testDirectRegistryImportUnavailable],
+  ["testPublicIndexHasNoIssuerExport", testPublicIndexHasNoIssuerExport],
+  ["testFrozenFakeReceiptRejected", testFrozenFakeReceiptRejected],
+  ["testFakeReceiptWithFullShapeRejected", testFakeReceiptWithFullShapeRejected],
+  ["testReceiptFromOtherProcessRejected", testReceiptFromOtherProcessRejected],
   ["testEachOverrideForbiddenInRealLuna", testEachOverrideForbiddenInRealLuna],
   ["testMultipleOverridesForbidden", testMultipleOverridesForbidden],
   ["testMissingCliSha", testMissingCliSha],
@@ -421,7 +541,7 @@ const tests = [
   ["testAuthFileSymlinkRejected", testAuthFileSymlinkRejected],
   ["testAuthFileTamperAfterHash", testAuthFileTamperAfterHash],
   ["testIsolatedProductionRealLunaPositivePath", testIsolatedProductionRealLunaPositivePath],
-  ["testIssuedReceiptRegisteredAndFrozen", testIssuedReceiptRegisteredAndFrozen],
+  ["testReceiptAcceptedByProductionBoundary", testReceiptAcceptedByProductionBoundary],
   ["testPureValidationFunctionsStillWork", testPureValidationFunctionsStillWork],
   ["testV1SchemaRejected", testV1SchemaRejected],
   ["testRealTransportWithoutReceipt", testRealTransportWithoutReceipt],

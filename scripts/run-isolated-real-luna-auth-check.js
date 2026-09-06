@@ -22,7 +22,6 @@ const {
 } = require("./lib/g2-a1-luna-proposal");
 const { buildOwnerAuthorizationDocument } = require("./lib/g2-a1-luna-proposal/owner-authorization");
 const { hashObject, sha256Hex } = require("./lib/g2-a1-luna-proposal/hash");
-const { isIssuedRealLunaReceipt } = require("./lib/g2-a1-luna-proposal/runtime-receipt-registry");
 const { ROOT } = require("./lib/audit-common");
 
 const authDir = process.argv[2];
@@ -98,8 +97,11 @@ async function main() {
   }
 
   assertAuthorizedRuntimeReceipt(auth.receipt, RUNTIME_MODES.REAL_LUNA);
+  const transport = createRealLunaTransport(auth.receipt);
   payload.receiptFrozen = Object.isFrozen(auth.receipt);
-  payload.receiptRegistered = isIssuedRealLunaReceipt(auth.receipt);
+  payload.receiptAcceptedByProductionBoundary = true;
+  payload.transportMode = transport.mode;
+  payload.realCalls = transport.stats.realCalls;
 
   let modifyBlocked = false;
   try {
@@ -117,10 +119,6 @@ async function main() {
     clonedCode = error.code;
   }
   payload.clonedReceiptRejected = clonedCode;
-
-  const transport = createRealLunaTransport(auth.receipt);
-  payload.transportMode = transport.mode;
-  payload.realCalls = transport.stats.realCalls;
 
   let executeBlocked = null;
   try {

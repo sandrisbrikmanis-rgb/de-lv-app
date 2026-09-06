@@ -54,6 +54,7 @@ function verifyPrDiff() {
     "scripts/run-phase2-g2-a1-luna-proposal-",
     "scripts/run-phase2-g2-a1-runtime-auth-",
     "scripts/run-phase2-g2-a1-runtime-auth-bypass-proof.js",
+    "scripts/run-phase2-g2-a1-receipt-capability-proof.js",
     "scripts/run-isolated-real-luna-auth-check.js",
     "scripts/test-phase2-g2-a1-luna-proposal-",
     "scripts/test-phase2-g2-a1-luna-runtime-",

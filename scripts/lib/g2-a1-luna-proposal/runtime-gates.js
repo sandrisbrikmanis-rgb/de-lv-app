@@ -4,7 +4,9 @@
 const { runInfrastructureGates } = require("./identity-gates");
 const { RUNTIME_MODES, NON_EXECUTABLE_MOCK_PROOF, assertRuntimeMode } = require("./runtime-mode");
 const { loadOwnerAuthorizationFile, validateOwnerAuthorizationAgainstRuntime } = require("./owner-authorization");
-const { registerIssuedRealLunaReceipt, isIssuedRealLunaReceipt } = require("./runtime-receipt-registry");
+
+/** Process-local issued REAL_LUNA receipts — not exported. */
+const issuedRealLunaReceipts = new WeakSet();
 
 const REAL_LUNA_FORBIDDEN_OPTIONS = Object.freeze([
   "skipInfrastructureGates",
@@ -43,8 +45,13 @@ function buildMockDryRunReceipt({ headSha, originMainSha, infrastructure }) {
   };
 }
 
-function buildRealLunaReceipt({ authorization, authorizationFileSha256, batchPlanSha256, runId }) {
-  return registerIssuedRealLunaReceipt({
+function issueRealLunaReceipt({
+  authorization,
+  authorizationFileSha256,
+  batchPlanSha256,
+  runId,
+}) {
+  const receipt = Object.freeze({
     mode: RUNTIME_MODES.REAL_LUNA,
     validated: true,
     executable: true,
@@ -56,6 +63,8 @@ function buildRealLunaReceipt({ authorization, authorizationFileSha256, batchPla
     model: authorization.model,
     validatedAt: new Date().toISOString(),
   });
+  issuedRealLunaReceipts.add(receipt);
+  return receipt;
 }
 
 function authorizeRuntimeExecution(options = {}) {
@@ -157,7 +166,7 @@ function authorizeRuntimeExecution(options = {}) {
     };
   }
 
-  const receipt = buildRealLunaReceipt({
+  const receipt = issueRealLunaReceipt({
     authorization: loaded.authorization,
     authorizationFileSha256: loaded.authorizationFileSha256,
     batchPlanSha256: options.batchPlanSha256,
@@ -185,7 +194,7 @@ function assertAuthorizedRuntimeReceipt(receipt, expectedMode) {
     err.code = "RUNTIME_RECEIPT_MODE_MISMATCH";
     throw err;
   }
-  if (receipt.mode === RUNTIME_MODES.REAL_LUNA && !isIssuedRealLunaReceipt(receipt)) {
+  if (receipt.mode === RUNTIME_MODES.REAL_LUNA && !issuedRealLunaReceipts.has(receipt)) {
     const err = new Error("RUNTIME_RECEIPT_NOT_ISSUED");
     err.code = "RUNTIME_RECEIPT_NOT_ISSUED";
     throw err;
