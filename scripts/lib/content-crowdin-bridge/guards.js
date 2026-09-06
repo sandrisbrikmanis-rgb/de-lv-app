@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 "use strict";
 
+const { READ_ONLY_FIELD_SEGMENTS } = require("./constants");
+
 const PLACEHOLDER_RE = /\{(\w+)\}/g;
 const HTML_TAG_RE = /<\/?([a-zA-Z][\w-]*)\b[^>]*>/g;
 
@@ -33,11 +35,41 @@ function extractHtmlTagStructure(str) {
   return tokens.join("|");
 }
 
+function isStructuralOrForbiddenExportKey(key) {
+  const segments = key.split(".");
+  for (const segment of segments) {
+    const base = segment.replace(/\[\d+\]/g, "");
+    if (READ_ONLY_FIELD_SEGMENTS.has(base)) return true;
+  }
+  if (/\.de(\.|$)/.test(key)) return true;
+  if (/\.de_article(\.|$)/.test(key)) return true;
+  if (/\.de_plural(\.|$)/.test(key)) return true;
+  if (/\.word(\.|$)/.test(key)) return true;
+  return false;
+}
+
+function validateExportKeySet(flat) {
+  const errors = [];
+  const keys = Object.keys(flat);
+  const seen = new Set();
+  for (const key of keys) {
+    if (seen.has(key)) errors.push(`Duplicate export key: ${key}`);
+    seen.add(key);
+    if (isStructuralOrForbiddenExportKey(key)) {
+      errors.push(`Forbidden structural/DE key in export: ${key}`);
+    }
+  }
+  return errors;
+}
+
 function validateCrowdinKeySet(crowdinFlat, lvSourceKeys) {
   const errors = [];
   for (const key of Object.keys(crowdinFlat).sort()) {
     if (!lvSourceKeys.has(key)) {
       errors.push(`Unknown Crowdin key not in LV source set: ${key}`);
+    }
+    if (isStructuralOrForbiddenExportKey(key)) {
+      errors.push(`Forbidden structural/DE key in import: ${key}`);
     }
   }
   return errors;
@@ -92,6 +124,8 @@ function parseCrowdinJson(text) {
 }
 
 module.exports = {
+  isStructuralOrForbiddenExportKey,
+  validateExportKeySet,
   validateCrowdinKeySet,
   validateImportGuards,
   sortFlatKeys,
