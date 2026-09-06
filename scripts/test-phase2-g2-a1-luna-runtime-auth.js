@@ -172,12 +172,13 @@ try {
 }
 `
   );
-  const out = execSync(`node ${scriptPath}`, {
+  const raw = execSync(`node ${scriptPath}`, {
     encoding: "utf8",
     env: { ...process.env, RECEIPT_JSON: receiptJson },
   }).trim();
+  const out = raw.split("\n").filter((line) => line && !line.startsWith("◇")).pop();
   fs.unlinkSync(scriptPath);
-  assert(out === "RUNTIME_RECEIPT_NOT_ISSUED", out);
+  assert(out === "RUNTIME_RECEIPT_NOT_ISSUED", out || raw);
 }
 
 function testPublicIndexHasNoIssuerExport() {
