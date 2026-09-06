@@ -1,0 +1,80 @@
+{
+  "tasks": [
+    {
+      "taskId": "fixture-task-keep",
+      "taskKind": "AUDIT_MAPPED_UNIQUE",
+      "locale": "bg",
+      "repoLang": "bg",
+      "crowdinKey": "a1.card.fixture.native",
+      "objectIndex": 0,
+      "cardId": "fixture",
+      "fieldPath": "lv",
+      "lvSourceValue": "lv text",
+      "currentValue": "current bg",
+      "deContextReadOnly": "DE read only",
+      "severity": "HIGH",
+      "category": "MEANING",
+      "auditId": "FIX-001",
+      "identity": { "originMain": "test" }
+    },
+    {
+      "taskId": "fixture-task-empty",
+      "taskKind": "EMPTY_OR_MISSING",
+      "locale": "bg",
+      "repoLang": "bg",
+      "crowdinKey": "a1.card.empty.native",
+      "objectIndex": null,
+      "cardId": null,
+      "fieldPath": "a1.card.empty.native",
+      "lvSourceValue": "lv empty",
+      "currentValue": null,
+      "deContextReadOnly": null,
+      "severity": null,
+      "category": null,
+      "auditId": null,
+      "identity": { "originMain": "test" }
+    }
+  ],
+  "validResponse": {
+    "taskId": "fixture-task-keep",
+    "action": "KEEP_CURRENT",
+    "proposedValue": null,
+    "locale": "bg",
+    "crowdinKey": "a1.card.fixture.native"
+  },
+  "invalidResponses": {
+    "wrongId": { "taskId": "wrong", "action": "KEEP_CURRENT", "proposedValue": null },
+    "sameReplacement": {
+      "taskId": "fixture-task-keep",
+      "action": "PROPOSE_REPLACEMENT",
+      "proposedValue": "current bg",
+      "rationale": "bad",
+      "confidence": 0.9,
+      "targetLanguageConfirmed": true
+    },
+    "lvAsTarget": {
+      "taskId": "fixture-task-keep",
+      "action": "PROPOSE_REPLACEMENT",
+      "proposedValue": "lv text",
+      "rationale": "bad",
+      "confidence": 0.9,
+      "targetLanguageConfirmed": true
+    },
+    "deAsTarget": {
+      "taskId": "fixture-task-keep",
+      "action": "PROPOSE_REPLACEMENT",
+      "proposedValue": "DE read only",
+      "rationale": "bad",
+      "confidence": 0.9,
+      "targetLanguageConfirmed": true
+    },
+    "htmlBroken": {
+      "taskId": "fixture-task-keep",
+      "action": "PROPOSE_REPLACEMENT",
+      "proposedValue": "<b>open",
+      "rationale": "bad",
+      "confidence": 0.9,
+      "targetLanguageConfirmed": true
+    }
+  }
+}
