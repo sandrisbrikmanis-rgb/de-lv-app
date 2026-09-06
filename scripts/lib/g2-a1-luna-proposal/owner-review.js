@@ -52,6 +52,7 @@ function verifyPrDiff() {
   const allowedPrefixes = [
     "scripts/lib/g2-a1-luna-proposal/",
     "scripts/run-phase2-g2-a1-luna-proposal-",
+    "scripts/run-phase2-g2-a1-runtime-auth-",
     "scripts/test-phase2-g2-a1-luna-proposal-",
     "scripts/test-phase2-g2-a1-luna-runtime-",
     "scripts/fixtures/g2-a1-luna-proposal-",
