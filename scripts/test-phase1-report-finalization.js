@@ -345,7 +345,7 @@ function testDryRunIfRequested() {
   assert(result.stats?.conflictsAfter === 0, "dedup conflicts after");
   assert(result.stats?.idxUnknownAfter === 0, "idx:? after zero");
   assert(result.f1?.pass, "F1 pass");
-  assert(result.classification === "PHASE1_EXIT_INVOCATION_CONTRACT_READY_FOR_OWNER_REVIEW", "classification");
+  assert(result.classification === "PHASE1_EXIT_CONTRACT_FINAL_OWNER_REVIEW_READY", "classification");
   assert(result.totalRealCalls === 15139, "historical realCalls preserved");
   assert(result.totalRetries === 763, "historical retries preserved");
   assert(result.finalizationLunaCalls === 0, "finalization luna calls zero");

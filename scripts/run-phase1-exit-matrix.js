@@ -132,17 +132,25 @@ function assertFinalizedBundleIdentity({
 
 function assertPhase1BundleInvocation(options = {}) {
   if (!options.withLuna) return;
-  const missing = [];
-  if (!options.matrixPath) missing.push("matrixPath");
-  if (!options.ownerPrepOutDir) missing.push("ownerPrepOutDir");
-  if (!options.expectedMatrixSha256) missing.push("expectedMatrixSha256");
-  if (!options.expectedOwnerPrepSourceHash) missing.push("expectedOwnerPrepSourceHash");
-  if (missing.length) {
+  const requiredKeys = [
+    "matrixPath",
+    "ownerPrepOutDir",
+    "expectedMatrixSha256",
+    "expectedOwnerPrepSourceHash",
+  ];
+  const missing = requiredKeys.filter((key) => !Object.prototype.hasOwnProperty.call(options, key));
+  const empty = requiredKeys.filter(
+    (key) =>
+      Object.prototype.hasOwnProperty.call(options, key) &&
+      (options[key] == null || options[key] === ""),
+  );
+  if (missing.length || empty.length) {
+    const fields = [...new Set([...missing, ...empty])];
     const error = new Error(
-      `FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED: missing ${missing.join(", ")}`,
+      `FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED: missing ${fields.join(", ")}`,
     );
     error.code = "FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED";
-    error.missing = missing;
+    error.missing = fields;
     throw error;
   }
   for (const [label, value] of [
@@ -159,6 +167,21 @@ function assertPhase1BundleInvocation(options = {}) {
     }
   }
 }
+
+function createCliArgumentError(message, field) {
+  const error = new Error(message);
+  error.code = "PHASE1_EXIT_CLI_INVALID_ARGUMENT";
+  error.field = field;
+  return error;
+}
+
+const PHASE1_EXIT_BOOLEAN_FLAGS = new Set(["--with-luna", "--dry-run"]);
+const PHASE1_EXIT_VALUE_FLAGS = new Set([
+  "--matrix-path",
+  "--owner-prep-out-dir",
+  "--expected-matrix-sha256",
+  "--expected-owner-prep-source-hash",
+]);
 
 function assertExitPreWriteGates({ matrix, evaluation, withLuna }) {
   if (!withLuna) return;
@@ -196,36 +219,35 @@ function parsePhase1ExitCliArgs(argv = process.argv.slice(2)) {
 
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
-    if (arg === "--with-luna") {
-      options.withLuna = true;
+    if (!arg.startsWith("--")) {
+      throw createCliArgumentError(`PHASE1_EXIT_CLI_INVALID_ARGUMENT: unexpected token ${arg}`, arg);
+    }
+    if (PHASE1_EXIT_BOOLEAN_FLAGS.has(arg)) {
+      if (arg === "--with-luna") options.withLuna = true;
+      if (arg === "--dry-run") {
+        options.dryRun = true;
+        options.writeReports = false;
+      }
       continue;
     }
-    if (arg === "--dry-run") {
-      options.dryRun = true;
-      options.writeReports = false;
-      continue;
-    }
-    const value = argv[i + 1];
-    if (arg === "--matrix-path") {
-      options.matrixPath = path.resolve(value);
+    if (PHASE1_EXIT_VALUE_FLAGS.has(arg)) {
+      const value = argv[i + 1];
+      if (value == null || value === "" || value.startsWith("--")) {
+        throw createCliArgumentError(`PHASE1_EXIT_CLI_INVALID_ARGUMENT: ${arg} requires a value`, arg);
+      }
+      if (arg === "--matrix-path") {
+        options.matrixPath = path.resolve(value);
+      } else if (arg === "--owner-prep-out-dir") {
+        options.ownerPrepOutDir = path.resolve(value);
+      } else if (arg === "--expected-matrix-sha256") {
+        options.expectedMatrixSha256 = value;
+      } else if (arg === "--expected-owner-prep-source-hash") {
+        options.expectedOwnerPrepSourceHash = value;
+      }
       i += 1;
       continue;
     }
-    if (arg === "--owner-prep-out-dir") {
-      options.ownerPrepOutDir = path.resolve(value);
-      i += 1;
-      continue;
-    }
-    if (arg === "--expected-matrix-sha256") {
-      options.expectedMatrixSha256 = value;
-      i += 1;
-      continue;
-    }
-    if (arg === "--expected-owner-prep-source-hash") {
-      options.expectedOwnerPrepSourceHash = value;
-      i += 1;
-      continue;
-    }
+    throw createCliArgumentError(`PHASE1_EXIT_CLI_INVALID_ARGUMENT: unknown argument ${arg}`, arg);
   }
 
   return options;
@@ -455,22 +477,14 @@ function writeExitReports(exitPayload) {
 }
 
 function runPhase1ExitMatrix(options = {}) {
-  const {
-    matrixPath = MATRIX_PATH,
-    ownerPrepOutDir = options.ownerPrepOutDir,
-    expectedMatrixSha256 = options.expectedMatrixSha256,
-    expectedOwnerPrepSourceHash = options.expectedOwnerPrepSourceHash,
-    writeReports = options.writeReports !== false,
-    withLuna = options.withLuna,
-  } = options;
+  assertPhase1BundleInvocation(options);
 
-  assertPhase1BundleInvocation({
-    withLuna,
-    matrixPath,
-    ownerPrepOutDir,
-    expectedMatrixSha256,
-    expectedOwnerPrepSourceHash,
-  });
+  const withLuna = options.withLuna === true;
+  const writeReports = options.writeReports !== false;
+  const matrixPath = withLuna ? options.matrixPath : options.matrixPath ?? MATRIX_PATH;
+  const ownerPrepOutDir = options.ownerPrepOutDir;
+  const expectedMatrixSha256 = options.expectedMatrixSha256;
+  const expectedOwnerPrepSourceHash = options.expectedOwnerPrepSourceHash;
 
   const baseline = runBaselineGate({ writeReports: false });
   const matrix = loadJson(matrixPath);
@@ -516,7 +530,24 @@ function runPhase1ExitMatrix(options = {}) {
 }
 
 function main() {
-  const cli = parsePhase1ExitCliArgs();
+  let cli;
+  try {
+    cli = parsePhase1ExitCliArgs();
+  } catch (error) {
+    console.error(
+      JSON.stringify(
+        {
+          pass: false,
+          code: error.code || "PHASE1_EXIT_CLI_INVALID_ARGUMENT",
+          message: error.message,
+          field: error.field,
+        },
+        null,
+        2,
+      ),
+    );
+    process.exit(1);
+  }
   try {
     const result = runPhase1ExitMatrix(cli);
     console.log(
@@ -571,6 +602,9 @@ module.exports = {
   assertPhase1BundleInvocation,
   assertExitPreWriteGates,
   parsePhase1ExitCliArgs,
+  createCliArgumentError,
+  PHASE1_EXIT_BOOLEAN_FLAGS,
+  PHASE1_EXIT_VALUE_FLAGS,
   MATRIX_PATH,
   SCOPE_INVENTORY_PATH,
 };

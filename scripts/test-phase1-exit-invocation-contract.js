@@ -118,6 +118,132 @@ function buildMinimalStagedBundle(tempRoot) {
   return { matrixPath, ownerDir, matrixSha, ownerPrepHash, matrix };
 }
 
+function snapshotStagedBundle(bundle) {
+  const crypto = require("crypto");
+  const ownerFiles = fs.existsSync(bundle.ownerDir)
+    ? fs.readdirSync(bundle.ownerDir).map((name) => {
+        const filePath = path.join(bundle.ownerDir, name);
+        return {
+          name,
+          sha256: crypto.createHash("sha256").update(fs.readFileSync(filePath)).digest("hex"),
+        };
+      })
+    : [];
+  return {
+    matrixSha256: crypto.createHash("sha256").update(fs.readFileSync(bundle.matrixPath)).digest("hex"),
+    ownerFiles,
+  };
+}
+
+function assertStagedBundleUnchanged(before, bundle) {
+  const after = snapshotStagedBundle(bundle);
+  assert(JSON.stringify(before) === JSON.stringify(after), "staged bundle unchanged");
+}
+
+function buildFullCliArgs(bundle, omitFlag = null) {
+  const args = [
+    path.join(ROOT, "scripts/run-phase1-exit-matrix.js"),
+    "--with-luna",
+    "--dry-run",
+    "--matrix-path",
+    bundle.matrixPath,
+    "--owner-prep-out-dir",
+    bundle.ownerDir,
+    "--expected-matrix-sha256",
+    bundle.matrixSha,
+    "--expected-owner-prep-source-hash",
+    bundle.ownerPrepHash,
+  ];
+  if (omitFlag === "--matrix-path") return args.filter((a, i, arr) => a !== "--matrix-path" && arr[i - 1] !== "--matrix-path");
+  if (omitFlag === "--owner-prep-out-dir") {
+    return args.filter((a, i, arr) => a !== "--owner-prep-out-dir" && arr[i - 1] !== "--owner-prep-out-dir");
+  }
+  if (omitFlag === "--expected-matrix-sha256") {
+    return args.filter((a, i, arr) => a !== "--expected-matrix-sha256" && arr[i - 1] !== "--expected-matrix-sha256");
+  }
+  if (omitFlag === "--expected-owner-prep-source-hash") {
+    return args.filter(
+      (a, i, arr) => a !== "--expected-owner-prep-source-hash" && arr[i - 1] !== "--expected-owner-prep-source-hash",
+    );
+  }
+  return args;
+}
+
+function runCli(args) {
+  return spawnSync("node", args, { cwd: ROOT, encoding: "utf8" });
+}
+
+function testEachMissingBundleArgFailsClosed() {
+  const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), "phase1-exit-contract-missing-"));
+  const bundle = buildMinimalStagedBundle(tempRoot);
+  const stagedBefore = snapshotStagedBundle(bundle);
+  const repoBefore = snapshotRepoExitReports();
+
+  for (const omitFlag of [
+    "--matrix-path",
+    "--owner-prep-out-dir",
+    "--expected-matrix-sha256",
+    "--expected-owner-prep-source-hash",
+  ]) {
+    const result = runCli(buildFullCliArgs(bundle, omitFlag));
+    assert(result.status === 1, `${omitFlag} omitted exits 1`);
+    const payload = parseJsonPayload(`${result.stdout}\n${result.stderr}`);
+    assert(payload?.code === "FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED", `${omitFlag} omitted code REQUIRED`);
+    assert(payload?.missing?.length >= 1, `${omitFlag} omitted reports missing field`);
+    assertStagedBundleUnchanged(stagedBefore, bundle);
+  }
+  assertRepoExitReportsUnchanged(repoBefore);
+}
+
+function testExplicitMatrixPathRequiredDespiteDefault() {
+  const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), "phase1-exit-contract-explicit-"));
+  const bundle = buildMinimalStagedBundle(tempRoot);
+  const stagedBefore = snapshotStagedBundle(bundle);
+  const repoBefore = snapshotRepoExitReports();
+  let code = null;
+  let missing = null;
+  try {
+    runPhase1ExitMatrix({
+      withLuna: true,
+      writeReports: false,
+      ownerPrepOutDir: bundle.ownerDir,
+      expectedMatrixSha256: bundle.matrixSha,
+      expectedOwnerPrepSourceHash: bundle.ownerPrepHash,
+    });
+  } catch (error) {
+    code = error.code;
+    missing = error.missing;
+  }
+  assert(code === "FINALIZED_REPORT_BUNDLE_IDENTITY_REQUIRED", "implicit default matrixPath rejected");
+  assert(missing?.includes("matrixPath"), "matrixPath listed as missing");
+  assertStagedBundleUnchanged(stagedBefore, bundle);
+  assertRepoExitReportsUnchanged(repoBefore);
+}
+
+function testFlagWithoutValueFailsStructured() {
+  const before = snapshotRepoExitReports();
+  const result = runCli([
+    path.join(ROOT, "scripts/run-phase1-exit-matrix.js"),
+    "--with-luna",
+    "--matrix-path",
+  ]);
+  assert(result.status === 1, "flag without value exits 1");
+  const payload = parseJsonPayload(`${result.stdout}\n${result.stderr}`);
+  assert(payload?.code === "PHASE1_EXIT_CLI_INVALID_ARGUMENT", "flag without value structured fail");
+  assert(payload?.field === "--matrix-path", "flag without value names field");
+  assertRepoExitReportsUnchanged(before);
+}
+
+function testUnknownFlagFailsStructured() {
+  const before = snapshotRepoExitReports();
+  const result = runCli([path.join(ROOT, "scripts/run-phase1-exit-matrix.js"), "--with-luna", "--unknown-flag"]);
+  assert(result.status === 1, "unknown flag exits 1");
+  const payload = parseJsonPayload(`${result.stdout}\n${result.stderr}`);
+  assert(payload?.code === "PHASE1_EXIT_CLI_INVALID_ARGUMENT", "unknown flag structured fail");
+  assert(payload?.field === "--unknown-flag", "unknown flag names field");
+  assertRepoExitReportsUnchanged(before);
+}
+
 function testWithLunaWithoutBundleFailsClosed() {
   const before = snapshotRepoExitReports();
   let code = null;
@@ -249,6 +375,15 @@ function testParseCliArgs() {
   assert(parsed.writeReports === false, "parse writeReports false");
   assert(parsed.matrixPath === "/tmp/matrix.json", "parse matrix path");
   assert(parsed.expectedMatrixSha256 === "abc", "parse matrix sha");
+  assert(Object.prototype.hasOwnProperty.call(parsed, "matrixPath"), "parse sets explicit matrixPath property");
+
+  let parseError = null;
+  try {
+    parsePhase1ExitCliArgs(["--matrix-path"]);
+  } catch (error) {
+    parseError = error;
+  }
+  assert(parseError?.code === "PHASE1_EXIT_CLI_INVALID_ARGUMENT", "parse rejects flag without value");
 }
 
 function testIntegrationDryRunIfRequested() {
@@ -286,6 +421,10 @@ function testIntegrationDryRunIfRequested() {
 
 function main() {
   testParseCliArgs();
+  testEachMissingBundleArgFailsClosed();
+  testExplicitMatrixPathRequiredDespiteDefault();
+  testFlagWithoutValueFailsStructured();
+  testUnknownFlagFailsStructured();
   testWithLunaWithoutBundleFailsClosed();
   testCliWithLunaWithoutBundleFailsClosed();
   testWrongMatrixHashMismatch();

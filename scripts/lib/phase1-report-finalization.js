@@ -483,7 +483,7 @@ function runReportFinalizationDryRun({
     built.matrix.lunaStats.lunaCalls === PHASE1_RUN_PROGRESS_BASELINE.realCalls &&
     built.matrix.lunaStats.finalizationLunaCalls === 0;
 
-  let classification = "PHASE1_EXIT_INVOCATION_CONTRACT_READY_FOR_OWNER_REVIEW";
+  let classification = "PHASE1_EXIT_CONTRACT_FINAL_OWNER_REVIEW_READY";
   if (!allPass) {
     classification = "PHASE1_REPORT_FINALIZATION_OWNER_REVIEW_NEEDS_REPAIR";
   }
