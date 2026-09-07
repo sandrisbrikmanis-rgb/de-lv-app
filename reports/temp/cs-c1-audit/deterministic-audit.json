@@ -1,0 +1,4891 @@
+{
+  "meta": {
+    "dataset": "c1",
+    "label": "C1",
+    "date": "2026-08-10T18:28:01.661Z",
+    "lvFile": "data/c1.js",
+    "csFile": "data/cs/c1.js",
+    "wwwFile": "www/data/cs/c1.js",
+    "lvCount": 572,
+    "csCount": 572,
+    "batchSize": 50,
+    "batchCount": 12,
+    "lvStudyCount": 15,
+    "csStudyCount": 15,
+    "auditedObjects": 572,
+    "coverage": "100%",
+    "hashCs": "3016e7222013da13b562711f52c177d2",
+    "hashWww": "3016e7222013da13b562711f52c177d2",
+    "jsSyntax": "PASS"
+  },
+  "structural": {
+    "issues": [],
+    "pass": true
+  },
+  "germanIntegrity": {
+    "issues": [],
+    "pass": true
+  },
+  "technical": {
+    "issues": [],
+    "pass": true
+  },
+  "foreignRemnants": {
+    "issues": [
+      {
+        "severity": "HIGH",
+        "id": "c1-Modezeitschrift-110",
+        "path": "entry[110].lv",
+        "types": [
+          "PL_CHAR"
+        ],
+        "text": "Módní časopis"
+      },
+      {
+        "severity": "HIGH",
+        "id": "c1-Schlussverkauf-138",
+        "path": "entry[138].lv",
+        "types": [
+          "PL_CHAR"
+        ],
+        "text": "Výprodej zboží na konci sezóny za snížené ceny"
+      },
+      {
+        "severity": "HIGH",
+        "id": "c1-verschlüsseln-523",
+        "path": "entry[523].lv",
+        "types": [
+          "PL_CHAR"
+        ],
+        "text": "Zašifrovat • Zakódovat"
+      }
+    ],
+    "pass": false
+  },
+  "titleFormat": {
+    "issues": [],
+    "pass": true
+  },
+  "mainTranslations": {
+    "entries": [
+      {
+        "id": "c1-Wahrnehmung-0",
+        "de": "Wahrnehmung",
+        "csMain": "Vnímání",
+        "lvSource": "uztvere",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gewährleisten-1",
+        "de": "gewährleisten",
+        "csMain": "Poskytnout",
+        "lvSource": "nodrošināt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Auswirkung-2",
+        "de": "Auswirkung",
+        "csMain": "Vliv",
+        "lvSource": "ietekme",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-umstritten-3",
+        "de": "umstritten",
+        "csMain": "Rozporuplné",
+        "lvSource": "pretrunīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stellungnahme-4",
+        "de": "Stellungnahme",
+        "csMain": "Úřední vyjádření • Vyjádření názoru",
+        "lvSource": "oficiāls paziņojums • viedokļa paušana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-nachvollziehen-5",
+        "de": "nachvollziehen",
+        "csMain": "Rozumět • Následovat logiku",
+        "lvSource": "saprast • sekot loģikai",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-ausschlaggebend-6",
+        "de": "ausschlaggebend",
+        "csMain": "Rozhodující",
+        "lvSource": "izšķirošs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Belastbarkeit-7",
+        "de": "Belastbarkeit",
+        "csMain": "Odolnost proti namáhání • Odolnost proti zátěži",
+        "lvSource": "stresa noturība • izturība pret slodzi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-akkreditieren-8",
+        "de": "akkreditieren",
+        "csMain": "Akreditovat",
+        "lvSource": "akreditēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aktiengesellschaft-9",
+        "de": "Aktiengesellschaft",
+        "csMain": "Akciová společnost",
+        "lvSource": "akciju sabiedrība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aktionsprogramm-10",
+        "de": "Aktionsprogramm",
+        "csMain": "Program akcí",
+        "lvSource": "pasākumu programma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Alarmbereitschaft-11",
+        "de": "Alarmbereitschaft",
+        "csMain": "Pohotovosti",
+        "lvSource": "trauksmes gatavība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Altweibersommer-12",
+        "de": "Altweibersommer",
+        "csMain": "Jaro",
+        "lvSource": "atvasara",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-anfechten-13",
+        "de": "anfechten",
+        "csMain": "Spor • Otázka",
+        "lvSource": "apstrīdēt • apšaubīt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-allerseits-14",
+        "de": "allerseits",
+        "csMain": "Ze všech stran",
+        "lvSource": "no visām pusēm",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-anderweitig-15",
+        "de": "anderweitig",
+        "csMain": "Jinde • Jinak",
+        "lvSource": "citur • citādi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abrüstungsabkommen-16",
+        "de": "Abrüstungsabkommen",
+        "csMain": "Odzbrojovací smlouva",
+        "lvSource": "atbruņošanās līgums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abrüstungsverhandlungen-17",
+        "de": "Abrüstungsverhandlungen",
+        "csMain": "Rozhovory o odzbrojení",
+        "lvSource": "atbruņošanās sarunas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aal-18",
+        "de": "Aal",
+        "csMain": "Úhoř",
+        "lvSource": "zutis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abart-19",
+        "de": "Abart",
+        "csMain": "Odchylka • Aberace",
+        "lvSource": "novirze • aberrācija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-abstumpfen-20",
+        "de": "abstumpfen",
+        "csMain": "Otupit • Znecitlivět",
+        "lvSource": "notrulināt • padarīt nejūtīgu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abtreibung-21",
+        "de": "Abtreibung",
+        "csMain": "Potrat",
+        "lvSource": "aborts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Affekt-22",
+        "de": "Affekt",
+        "csMain": "Výbuch emocí",
+        "lvSource": "emociju uzliesmojums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-ächten-23",
+        "de": "ächten",
+        "csMain": "Ostrakizovat • Společensky ostrakizovat",
+        "lvSource": "izstumt • sociāli atstumt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Flottenstützpunkt-24",
+        "de": "Flottenstützpunkt",
+        "csMain": "Námořní základna",
+        "lvSource": "jūras bāze",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Flugwetter-25",
+        "de": "Flugwetter",
+        "csMain": "Povětrnostní podmínky pro létání",
+        "lvSource": "laika apstākļi lidošanai",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Frachtbrief-26",
+        "de": "Frachtbrief",
+        "csMain": "Nákladní nákladní list",
+        "lvSource": "kravas pavadzīme",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Frachtgeld-27",
+        "de": "Frachtgeld",
+        "csMain": "Poplatky za přepravu",
+        "lvSource": "maksa par kravas pārvadāšanu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Frauenrechtlerin-28",
+        "de": "Frauenrechtlerin",
+        "csMain": "Bojovník za rovnoprávnost žen",
+        "lvSource": "cīnītāja par sieviešu līdztiesību",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Freikörperkultur-29",
+        "de": "Freikörperkultur",
+        "csMain": "Nudismus",
+        "lvSource": "nūdisms",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kinderschänder-30",
+        "de": "Kinderschänder",
+        "csMain": "Pedofil",
+        "lvSource": "pedofils",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kindesmisshandlung-31",
+        "de": "Kindesmisshandlung",
+        "csMain": "Násilí na dětech",
+        "lvSource": "vardarbība pret bērniem",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Zivilgesetzbuch-32",
+        "de": "Zivilgesetzbuch",
+        "csMain": "Občanské právo",
+        "lvSource": "civillikums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aktie-33",
+        "de": "Aktie",
+        "csMain": "Akce",
+        "lvSource": "akcija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abenddämmerung-34",
+        "de": "Abenddämmerung",
+        "csMain": "Večerní soumrak",
+        "lvSource": "vakara krēsla",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Anwalt-35",
+        "de": "Anwalt",
+        "csMain": "Právník",
+        "lvSource": "advokāts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-außergewöhnlich-36",
+        "de": "außergewöhnlich",
+        "csMain": "Neobvyklý",
+        "lvSource": "neparasts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-außerordentlich-37",
+        "de": "außerordentlich",
+        "csMain": "Mimořádný",
+        "lvSource": "ārkārtējs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Autokennzeichen-38",
+        "de": "Autokennzeichen",
+        "csMain": "Písmena a čísla na poznávací značce auta",
+        "lvSource": "burti un cipari uz automašīnas numura zīmes",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bäckerhandwerk-39",
+        "de": "Bäckerhandwerk",
+        "csMain": "Práce pekaře",
+        "lvSource": "maiznieka amats",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bekannt geben-40",
+        "de": "bekannt geben",
+        "csMain": "Oznámit",
+        "lvSource": "paziņot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bergwanderung-41",
+        "de": "Bergwanderung",
+        "csMain": "Horská turistika",
+        "lvSource": "kalnu tūrisms",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beschäftigen-42",
+        "de": "beschäftigen",
+        "csMain": "Zaměstnat",
+        "lvSource": "nodarbināt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich beschäftigen-43",
+        "de": "sich beschäftigen",
+        "csMain": "Obsadit",
+        "lvSource": "nodarboties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Beschäftigung-44",
+        "de": "Beschäftigung",
+        "csMain": "Povolání",
+        "lvSource": "nodarbošanās",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beschleunigen-45",
+        "de": "beschleunigen",
+        "csMain": "Urychlit",
+        "lvSource": "paātrināt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Besichtigung-46",
+        "de": "Besichtigung",
+        "csMain": "Inspekce",
+        "lvSource": "apskate",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beurteilen-47",
+        "de": "beurteilen",
+        "csMain": "Hodnotit",
+        "lvSource": "vērtēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Autobahnbrücke-48",
+        "de": "Autobahnbrücke",
+        "csMain": "Silniční nadjezd",
+        "lvSource": "ceļa pārvads",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnbrücke-49",
+        "de": "Eisenbahnbrücke",
+        "csMain": "Železniční most",
+        "lvSource": "dzelzceļa tilts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dampfbügeleisen-50",
+        "de": "Dampfbügeleisen",
+        "csMain": "Napařovací žehlička",
+        "lvSource": "tvaika gludeklis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Büroangestellte-51",
+        "de": "Büroangestellte",
+        "csMain": "Kancelářský pracovník",
+        "lvSource": "biroja darbinieks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-charakteristisch-52",
+        "de": "charakteristisch",
+        "csMain": "Charakteristický",
+        "lvSource": "raksturīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Diplomat-53",
+        "de": "Diplomat",
+        "csMain": "Diplomat",
+        "lvSource": "diplomāts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dokumentarfilm-54",
+        "de": "Dokumentarfilm",
+        "csMain": "Dokumentární film",
+        "lvSource": "dokumentālā filma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-durchschnittlich-55",
+        "de": "durchschnittlich",
+        "csMain": "V průměru",
+        "lvSource": "vidēji",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-durchstreichen-56",
+        "de": "durchstreichen",
+        "csMain": "Vyškrtnout",
+        "lvSource": "pārsvītrot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-einfamilienhaus",
+        "de": "Einfamilienhaus",
+        "csMain": "Rodinný dům",
+        "lvSource": "vienģimenes māja",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnfahrt-58",
+        "de": "Eisenbahnfahrt",
+        "csMain": "Cesta vlakem",
+        "lvSource": "brauciens pa dzelzceļu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnstation-59",
+        "de": "Eisenbahnstation",
+        "csMain": "Nádraží",
+        "lvSource": "dzelzceļa stacija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-ekelhaft-60",
+        "de": "ekelhaft",
+        "csMain": "Nechutný",
+        "lvSource": "pretīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Energieverbrauch-61",
+        "de": "Energieverbrauch",
+        "csMain": "Spotřeba energie",
+        "lvSource": "enerģijas patēriņš",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gartenerdbeere-62",
+        "de": "Gartenerdbeere",
+        "csMain": "Zahradní jahoda",
+        "lvSource": "dārza zemene",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-erforderlich-63",
+        "de": "erforderlich",
+        "csMain": "Nutné",
+        "lvSource": "nepieciešams",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-fabelhaft-64",
+        "de": "fabelhaft",
+        "csMain": "Vynikající",
+        "lvSource": "lielisks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-fehlerhaft-65",
+        "de": "fehlerhaft",
+        "csMain": "Chybný",
+        "lvSource": "kļūdains",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-folgendermaßen-66",
+        "de": "folgendermaßen",
+        "csMain": "Následovně",
+        "lvSource": "šādi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geburtsschein-67",
+        "de": "Geburtsschein",
+        "csMain": "Rodný list",
+        "lvSource": "dzimšanas apliecība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gegeneinander-68",
+        "de": "gegeneinander",
+        "csMain": "Proti sobě",
+        "lvSource": "viens pret otru",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemüsegarten-69",
+        "de": "Gemüsegarten",
+        "csMain": "Zeleninová zahrada",
+        "lvSource": "sakņu dārzs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gepäckträger-70",
+        "de": "Gepäckträger",
+        "csMain": "Kufr",
+        "lvSource": "bagāžnieks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschäftlich-71",
+        "de": "geschäftlich",
+        "csMain": "Transakce",
+        "lvSource": "darījumu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geschäftsmann-72",
+        "de": "Geschäftsmann",
+        "csMain": "Podnikatel",
+        "lvSource": "uzņēmējs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschichtlich-73",
+        "de": "geschichtlich",
+        "csMain": "Historický",
+        "lvSource": "vēsturisks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschmacklos-74",
+        "de": "geschmacklos",
+        "csMain": "Bez chuti",
+        "lvSource": "bezgaumīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschmackvoll-75",
+        "de": "geschmackvoll",
+        "csMain": "Vkusný",
+        "lvSource": "gaumīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzlich-76",
+        "de": "gesetzlich",
+        "csMain": "Právní",
+        "lvSource": "likumīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesichtspunkt-77",
+        "de": "Gesichtspunkt",
+        "csMain": "Názor",
+        "lvSource": "viedoklis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gewichtheben-78",
+        "de": "Gewichtheben",
+        "csMain": "Vzpírání",
+        "lvSource": "svarcelšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gewissenhaft-79",
+        "de": "gewissenhaft",
+        "csMain": "Svědomitý",
+        "lvSource": "apzinīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gipfel-80",
+        "de": "Gipfel",
+        "csMain": "Vrchol",
+        "lvSource": "virsotne",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hausangestellte-81",
+        "de": "Hausangestellte",
+        "csMain": "Hospodyně",
+        "lvSource": "mājkalpotāja",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-hinaufklettern-82",
+        "de": "hinaufklettern",
+        "csMain": "Vylézt nahoru",
+        "lvSource": "kāpt augšā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-hintereinander-83",
+        "de": "hintereinander",
+        "csMain": "Jeden za druhým",
+        "lvSource": "viens aiz otra",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hochzeitsbrauch-84",
+        "de": "Hochzeitsbrauch",
+        "csMain": "Svatební zvyk",
+        "lvSource": "kāzu paraža",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hochzeitsfeier-85",
+        "de": "Hochzeitsfeier",
+        "csMain": "Svatební oslava",
+        "lvSource": "kāzu svinības",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hochzeitsreise-86",
+        "de": "Hochzeitsreise",
+        "csMain": "Líbánky",
+        "lvSource": "kāzu ceļojums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-identifizieren-87",
+        "de": "identifizieren",
+        "csMain": "Identifikovat",
+        "lvSource": "identificēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Inflationsrate-88",
+        "de": "Inflationsrate",
+        "csMain": "Míra inflace",
+        "lvSource": "inflācijas līmenis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schlaginstrument-89",
+        "de": "Schlaginstrument",
+        "csMain": "Bicí nástroj",
+        "lvSource": "sitamais instruments",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Tasteninstrument-90",
+        "de": "Tasteninstrument",
+        "csMain": "Klávesnice",
+        "lvSource": "taustiņinstruments",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Jahreseinkommen-91",
+        "de": "Jahreseinkommen",
+        "csMain": "Roční příjem",
+        "lvSource": "gada ienākums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kabelanschluss-92",
+        "de": "Kabelanschluss",
+        "csMain": "Připojení kabelové televize",
+        "lvSource": "televīzijas kabeļpieslēgums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kabelfernsehen-93",
+        "de": "Kabelfernsehen",
+        "csMain": "Kabelová televize",
+        "lvSource": "kabeļtelevīzija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kaltwasserhahn-94",
+        "de": "Kaltwasserhahn",
+        "csMain": "Kohoutek studené vody",
+        "lvSource": "aukstā ūdens krāns",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pressekampagne-95",
+        "de": "Pressekampagne",
+        "csMain": "Tisková kampaň",
+        "lvSource": "preses kampaņa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kandidatenliste-96",
+        "de": "Kandidatenliste",
+        "csMain": "Seznam kandidátů",
+        "lvSource": "kandidātu saraksts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Klage-97",
+        "de": "Klage",
+        "csMain": "Stížnost",
+        "lvSource": "sūdzība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-klagen-98",
+        "de": "klagen",
+        "csMain": "Stěžovat si",
+        "lvSource": "sūdzēties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kostenanschlag-99",
+        "de": "Kostenanschlag",
+        "csMain": "Odhad výdajů",
+        "lvSource": "izdevumu tāme",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-krampfhaft-100",
+        "de": "krampfhaft",
+        "csMain": "Křečovitý",
+        "lvSource": "krampjains",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Krankheitsbild-101",
+        "de": "Krankheitsbild",
+        "csMain": "Nemocná scéna",
+        "lvSource": "slimības aina",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lastkraftwagen-102",
+        "de": "Lastkraftwagen",
+        "csMain": "Těžké auto",
+        "lvSource": "smagā automašīna",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-lebhaft-103",
+        "de": "lebhaft",
+        "csMain": "Živý",
+        "lvSource": "rosīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Leichtathletik-104",
+        "de": "Leichtathletik",
+        "csMain": "Atletika",
+        "lvSource": "vieglatlētika",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Mehrwertsteuer-105",
+        "de": "Mehrwertsteuer",
+        "csMain": "Daň z přidané hodnoty",
+        "lvSource": "pievienotās vērtības nodoklis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Meinungsumfrage-106",
+        "de": "Meinungsumfrage",
+        "csMain": "Průzkum veřejného mínění",
+        "lvSource": "viedokļu aptauja",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Menschenrechte-107",
+        "de": "Menschenrechte",
+        "csMain": "Lidská práva",
+        "lvSource": "cilvēktiesības",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Ministerium-108",
+        "de": "Ministerium",
+        "csMain": "Ministerstvo",
+        "lvSource": "ministrija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Missverständnis-109",
+        "de": "Missverständnis",
+        "csMain": "Nedorozumění",
+        "lvSource": "pārpratums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Modezeitschrift-110",
+        "de": "Modezeitschrift",
+        "csMain": "Módní časopis",
+        "lvSource": "modes žurnāls",
+        "status": "ERROR",
+        "flags": [
+          "PL_CHAR"
+        ]
+      },
+      {
+        "id": "c1-Morgendämmerung-111",
+        "de": "Morgendämmerung",
+        "csMain": "Svítání",
+        "lvSource": "rītausma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Morgengymnastik-112",
+        "de": "Morgengymnastik",
+        "csMain": "Svítání",
+        "lvSource": "rītarosme",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-nahrhaft-113",
+        "de": "nahrhaft",
+        "csMain": "Výživný",
+        "lvSource": "barojošs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Nationaltracht-114",
+        "de": "Nationaltracht",
+        "csMain": "Národní kroj",
+        "lvSource": "tautastērps",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Notar-115",
+        "de": "Notar",
+        "csMain": "Notář",
+        "lvSource": "notārs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Notarzt-116",
+        "de": "Notarzt",
+        "csMain": "Pohotovostní lékař",
+        "lvSource": "ātrās palīdzības ārsts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-offentlichkeit",
+        "de": "Öffentlichkeit",
+        "csMain": "Společnost • Otevřenost",
+        "lvSource": "sabiedrība • atklātība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Parlament-118",
+        "de": "Parlament",
+        "csMain": "Parlament",
+        "lvSource": "parlaments",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-partei",
+        "de": "Partei",
+        "csMain": "Večírek • Večírek",
+        "lvSource": "partija • puse",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Persönlichkeit-120",
+        "de": "Persönlichkeit",
+        "csMain": "Osobnost",
+        "lvSource": "personība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Polizeieinheit-121",
+        "de": "Polizeieinheit",
+        "csMain": "Policejní jednotka",
+        "lvSource": "policijas vienība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Polizeistreife-122",
+        "de": "Polizeistreife",
+        "csMain": "Policejní hlídka",
+        "lvSource": "policijas patruļa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pollenallergie-123",
+        "de": "Pollenallergie",
+        "csMain": "Pylová alergie",
+        "lvSource": "putekšņu alerģija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Polstergarnitur-124",
+        "de": "Polstergarnitur",
+        "csMain": "Sestava čalouněného nábytku",
+        "lvSource": "mīksto mēbeļu garnitūra",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Premier-125",
+        "de": "Premier",
+        "csMain": "Ministerský předseda",
+        "lvSource": "premjerministrs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-prozess",
+        "de": "Prozess",
+        "csMain": "Proces • Žaloba",
+        "lvSource": "process • prāva",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Prozessor-127",
+        "de": "Prozessor",
+        "csMain": "Procesor",
+        "lvSource": "procesors",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Radioübertragung-128",
+        "de": "Radioübertragung",
+        "csMain": "Rozhlasové vysílání",
+        "lvSource": "radiopārraide",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rechtsanwalt-129",
+        "de": "Rechtsanwalt",
+        "csMain": "Právník",
+        "lvSource": "advokāts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rekonstruktion-130",
+        "de": "Rekonstruktion",
+        "csMain": "Rekonstrukce",
+        "lvSource": "rekonstrukcija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rennen mit Hindernissen-131",
+        "de": "Rennen mit Hindernissen",
+        "csMain": "Překážkovou dráhu",
+        "lvSource": "šķēršļu skrējiens",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Reparaturkosten-132",
+        "de": "Reparaturkosten",
+        "csMain": "Náklady na opravu",
+        "lvSource": "remonta izmaksas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rettungsstelle-133",
+        "de": "Rettungsstelle",
+        "csMain": "Bod první pomoci",
+        "lvSource": "ātrās palīdzības punkts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-rezeptpflichtig-134",
+        "de": "rezeptpflichtig",
+        "csMain": "Na předpis",
+        "lvSource": "pēc receptes",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schauspielhaus-135",
+        "de": "Schauspielhaus",
+        "csMain": "Divadlo",
+        "lvSource": "teātris",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Scheibenwischer-136",
+        "de": "Scheibenwischer",
+        "csMain": "Čistič oken automobilů",
+        "lvSource": "automašīnas logu tīrītājs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schiedsrichter-137",
+        "de": "Schiedsrichter",
+        "csMain": "Soudce",
+        "lvSource": "tiesnesis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schlussverkauf-138",
+        "de": "Schlussverkauf",
+        "csMain": "Výprodej zboží na konci sezóny za snížené ceny",
+        "lvSource": "preču izpārdošana sezonas beigās par pazeminātām cenām",
+        "status": "ERROR",
+        "flags": [
+          "PL_CHAR"
+        ]
+      },
+      {
+        "id": "c1-schmerzhaft-139",
+        "de": "schmerzhaft",
+        "csMain": "Bolestivé",
+        "lvSource": "sāpīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schneewittchen-140",
+        "de": "Schneewittchen",
+        "csMain": "Pohádková postava Sněhurka",
+        "lvSource": "pasaku tēls Sniegbaltīte",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schraubenzieher-141",
+        "de": "Schraubenzieher",
+        "csMain": "Šroubovák",
+        "lvSource": "skrūvgriezis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schutzumschlag-142",
+        "de": "Schutzumschlag",
+        "csMain": "Pokrýt",
+        "lvSource": "apvāks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwiegereltern-143",
+        "de": "Schwiegereltern",
+        "csMain": "Manželovi rodiče",
+        "lvSource": "vīra vecāki",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwiegermutter-144",
+        "de": "Schwiegermutter",
+        "csMain": "Tchyně",
+        "lvSource": "vīramāte",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwiegertochter-145",
+        "de": "Schwiegertochter",
+        "csMain": "Snacha",
+        "lvSource": "vedekla",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwiegervater-146",
+        "de": "Schwiegervater",
+        "csMain": "Tchán",
+        "lvSource": "vīratēvs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Selbstbedienung-147",
+        "de": "Selbstbedienung",
+        "csMain": "Samoobsluha",
+        "lvSource": "pašapkalpošanās",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stabhochspringen-148",
+        "de": "Stabhochspringen",
+        "csMain": "Skok o tyči",
+        "lvSource": "kārtslēkšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stadtrundfahrt-149",
+        "de": "Stadtrundfahrt",
+        "csMain": "Výlet městem",
+        "lvSource": "brauciens pa pilsētu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-stecken bleiben-150",
+        "de": "stecken bleiben",
+        "csMain": "Zaseknout se",
+        "lvSource": "iestrēgt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stellvertreter-151",
+        "de": "Stellvertreter",
+        "csMain": "Nahradit",
+        "lvSource": "aizstājējs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Steuererklärung-152",
+        "de": "Steuererklärung",
+        "csMain": "Daňové přiznání",
+        "lvSource": "nodokļu deklarācija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Strampelhöschen-153",
+        "de": "Strampelhöschen",
+        "csMain": "Dětská prolézačka",
+        "lvSource": "zīdaiņa rāpulītis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Stromverbrauch-154",
+        "de": "Stromverbrauch",
+        "csMain": "Aktuální spotřeba",
+        "lvSource": "strāvas patēriņš",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Tagesnachrichten-155",
+        "de": "Tagesnachrichten",
+        "csMain": "Zprávy dne",
+        "lvSource": "dienas ziņas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Teilzeitarbeit-156",
+        "de": "Teilzeitarbeit",
+        "csMain": "Práce na částečný úvazek",
+        "lvSource": "darbs nepilnu darba dienu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Terminkalender-157",
+        "de": "Terminkalender",
+        "csMain": "Poznámkový kalendář",
+        "lvSource": "piezīmju kalendārs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Thermosflasche-158",
+        "de": "Thermosflasche",
+        "csMain": "Termoska",
+        "lvSource": "termoss",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Tierkreiszeichen-159",
+        "de": "Tierkreiszeichen",
+        "csMain": "Znamení zvěrokruhu",
+        "lvSource": "zodiaka zīme",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-transportieren-160",
+        "de": "transportieren",
+        "csMain": "K přepravě",
+        "lvSource": "transportēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Überschwemmung-161",
+        "de": "Überschwemmung",
+        "csMain": "Zaplavit",
+        "lvSource": "plūdi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Unternehmen-162",
+        "de": "Unternehmen",
+        "csMain": "Společnost • Event",
+        "lvSource": "uzņēmums • pasākums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unterstreichen-163",
+        "de": "unterstreichen",
+        "csMain": "Podtrhnout",
+        "lvSource": "pasvītrot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unverständlich-164",
+        "de": "unverständlich",
+        "csMain": "Nepochopitelný",
+        "lvSource": "nesaprotams",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Heiratsurkunde-165",
+        "de": "Heiratsurkunde",
+        "csMain": "Oddací list",
+        "lvSource": "laulības apliecība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Urteil-166",
+        "de": "Urteil",
+        "csMain": "Rozsudek",
+        "lvSource": "spriedums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-veranstalten-167",
+        "de": "veranstalten",
+        "csMain": "Organizovat",
+        "lvSource": "organizēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verantworten-168",
+        "de": "verantworten",
+        "csMain": "Převzít zodpovědnost za",
+        "lvSource": "uzņemties atbildību par",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verantwortung-169",
+        "de": "Verantwortung",
+        "csMain": "Odpovědnost",
+        "lvSource": "atbildība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vereinbarung-170",
+        "de": "Vereinbarung",
+        "csMain": "Dohoda",
+        "lvSource": "vienošanās",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vergangenheit-171",
+        "de": "Vergangenheit",
+        "csMain": "Minulost",
+        "lvSource": "pagātne",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verkehrsstau-172",
+        "de": "Verkehrsstau",
+        "csMain": "Dopravní zácpa",
+        "lvSource": "satiksmes sastrēgums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verlegenheit-173",
+        "de": "Verlegenheit",
+        "csMain": "Zmatek",
+        "lvSource": "apjukums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschließen-174",
+        "de": "verschließen",
+        "csMain": "Zamknout",
+        "lvSource": "aizslēgt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschlucken-175",
+        "de": "verschlucken",
+        "csMain": "Polykat",
+        "lvSource": "norīt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschwenden-176",
+        "de": "verschwenden",
+        "csMain": "Plýtvat",
+        "lvSource": "izšķērdēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Versicherung-177",
+        "de": "Versicherung",
+        "csMain": "Pojištění",
+        "lvSource": "apdrošināšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich verständigen-178",
+        "de": "sich verständigen",
+        "csMain": "Vycházet spolu",
+        "lvSource": "saprasties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verständlich-179",
+        "de": "verständlich",
+        "csMain": "Srozumitelný",
+        "lvSource": "saprotams",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vertrag-180",
+        "de": "Vertrag",
+        "csMain": "Smlouva",
+        "lvSource": "līgums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-voll beschäftigt-181",
+        "de": "voll beschäftigt",
+        "csMain": "Zaměstnaný na plný úvazek",
+        "lvSource": "nodarbināts pilnu darba dienu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vorgesetzte-182",
+        "de": "Vorgesetzte",
+        "csMain": "Šéf",
+        "lvSource": "priekšnieks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vorteilhaft-183",
+        "de": "vorteilhaft",
+        "csMain": "Výhodný",
+        "lvSource": "izdevīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wettbewerb-184",
+        "de": "Wettbewerb",
+        "csMain": "Soutěž",
+        "lvSource": "konkurss",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich zufrieden geben-185",
+        "de": "sich zufrieden geben",
+        "csMain": "Uspokojit",
+        "lvSource": "apmierināties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenbringen-186",
+        "de": "zusammenbringen",
+        "csMain": "Dát dohromady",
+        "lvSource": "savest kopā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenfassen",
+        "de": "zusammenfassen",
+        "csMain": "Shrnout • Shrnout",
+        "lvSource": "apkopot • rezumēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenhängen-188",
+        "de": "zusammenhängen",
+        "csMain": "Být spojen (s)",
+        "lvSource": "būt saistītam (ar)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aufmerksamkeit-189",
+        "de": "Aufmerksamkeit",
+        "csMain": "Pozor",
+        "lvSource": "uzmanība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Fernsehsendung-190",
+        "de": "Fernsehsendung",
+        "csMain": "Televizní show",
+        "lvSource": "televīzijas raidījums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Landschaft-191",
+        "de": "Landschaft",
+        "csMain": "Krajina",
+        "lvSource": "ainava",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rechtschreibung-192",
+        "de": "Rechtschreibung",
+        "csMain": "Pravopis",
+        "lvSource": "pareizrakstība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Straßenkreuzung-193",
+        "de": "Straßenkreuzung",
+        "csMain": "Křižovatka ulic",
+        "lvSource": "ielu krustojums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-wahl",
+        "de": "Wahl",
+        "csMain": "Volba • Volba",
+        "lvSource": "izvēle • vēlēšanas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Herausforderung-195",
+        "de": "Herausforderung",
+        "csMain": "Výzva",
+        "lvSource": "izaicinājums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abfallbeseitigung-196",
+        "de": "Abfallbeseitigung",
+        "csMain": "Likvidace odpadu",
+        "lvSource": "atkritumu iznīcināšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abgeordnete-197",
+        "de": "Abgeordnete",
+        "csMain": "Zástupce • Zástupce • Delegát",
+        "lvSource": "deputāts • pārstāvis • delegāts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abkommen-198",
+        "de": "Abkommen",
+        "csMain": "Dohoda • Dohoda",
+        "lvSource": "nolīgums • vienošanās",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abschleppdienst-199",
+        "de": "Abschleppdienst",
+        "csMain": "Evakuační služba • Stěhovací služba",
+        "lvSource": "evakuācijas dienests • aizvākšanas dienests",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Abteilungsleiter-200",
+        "de": "Abteilungsleiter",
+        "csMain": "Vedoucí oddělení",
+        "lvSource": "nodaļas vadītājs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-antifaschistisch-201",
+        "de": "antifaschistisch",
+        "csMain": "Protifašistický",
+        "lvSource": "antifašistisks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Aufenthaltsdauer-202",
+        "de": "Aufenthaltsdauer",
+        "csMain": "Délka pobytu",
+        "lvSource": "uzturēšanās ilgums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-augenscheinlich-203",
+        "de": "augenscheinlich",
+        "csMain": "Zřejmě",
+        "lvSource": "acīmredzot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Güteraustausch-204",
+        "de": "Güteraustausch",
+        "csMain": "Výměna zboží",
+        "lvSource": "preču apmaiņa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Flottenbasis-205",
+        "de": "Flottenbasis",
+        "csMain": "Námořní základna",
+        "lvSource": "flotes bāze",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Basisforschung-206",
+        "de": "Basisforschung",
+        "csMain": "Základní výzkum",
+        "lvSource": "pamatpētījums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beachtenswert-207",
+        "de": "beachtenswert",
+        "csMain": "Pozoruhodný • Značný",
+        "lvSource": "ievērības cienīgs • vērā ņemams",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beanspruchen-208",
+        "de": "beanspruchen",
+        "csMain": "Vyžadovat • Nárokovat • Být zatížen",
+        "lvSource": "prasīt • pretendēt • būt noslogotam",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bedarfsartikel-209",
+        "de": "Bedarfsartikel",
+        "csMain": "Konzumní zboží",
+        "lvSource": "plaša patēriņa prece",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bedingungslos-210",
+        "de": "bedingungslos",
+        "csMain": "Bezpodmínečný • Bezpodmínečný • Bez výhrad • Bez podmínek",
+        "lvSource": "bezierunu • beznosacījumu • bez ierunām • bez nosacījumiem",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Befangenheit-211",
+        "de": "Befangenheit",
+        "csMain": "Rozpaky • Rozpaky",
+        "lvSource": "samulsums • apmulsums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beglaubigen-212",
+        "de": "beglaubigen",
+        "csMain": "Úředně osvědčit • Notářsky ověřit",
+        "lvSource": "oficiāli apliecināt • notariāli apstiprināt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beglückwünschen-213",
+        "de": "beglückwünschen",
+        "csMain": "Přát si štěstí • Blahopřát",
+        "lvSource": "novēlēt laimes • apsveikt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beiderseitig-214",
+        "de": "beiderseitig",
+        "csMain": "Oboustranný • Oboustranný",
+        "lvSource": "abpusīgs • abpusējs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Familienbeihilfe-215",
+        "de": "Familienbeihilfe",
+        "csMain": "Rodinný přídavek",
+        "lvSource": "ģimenes pabalsts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beispielhaft-216",
+        "de": "beispielhaft",
+        "csMain": "Vzorný • Vzorný",
+        "lvSource": "parauga • priekšzīmīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beklagen-217",
+        "de": "beklagen",
+        "csMain": "Litovat • Truchlit • Truchlit • Naříkat • Stěžovat si",
+        "lvSource": "nožēlot • skumt • apraudāt • žēloties • sūdzēties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Zahnbelag-218",
+        "de": "Zahnbelag",
+        "csMain": "Zubního plaku",
+        "lvSource": "zobu aplikums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Belegschaft-219",
+        "de": "Belegschaft",
+        "csMain": "Kolektivní • Zaměstnanci",
+        "lvSource": "kolektīvs • personāls",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-benachteiligen-220",
+        "de": "benachteiligen",
+        "csMain": "Škodit • Způsobit škodu • Škodit",
+        "lvSource": "kaitēt • nodarīt zaudējumus • nodarīt pāri",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Berufsberater-221",
+        "de": "Berufsberater",
+        "csMain": "Pracovní poradce",
+        "lvSource": "darba konsultants",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beratschlagen-222",
+        "de": "beratschlagen",
+        "csMain": "Diskutovat",
+        "lvSource": "apspriesties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einflussbereich-223",
+        "de": "Einflussbereich",
+        "csMain": "Sféra vlivu",
+        "lvSource": "ietekmes sfēra",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bereitwillig-224",
+        "de": "bereitwillig",
+        "csMain": "Připraven sloužit • Zavazující",
+        "lvSource": "gatavs pakalpot • pakalpīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Berufsberatung-225",
+        "de": "Berufsberatung",
+        "csMain": "Konzultace odborné orientace",
+        "lvSource": "profesionālās orientācijas konsultācija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Berufsgeheimnis-226",
+        "de": "Berufsgeheimnis",
+        "csMain": "Tajemství úřadu",
+        "lvSource": "amata noslēpums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Berufung-227",
+        "de": "Berufung",
+        "csMain": "Volání • Sklon • Apel",
+        "lvSource": "aicinājums • tieksme • atsaukšanās",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Besatzungsmacht-228",
+        "de": "Besatzungsmacht",
+        "csMain": "Okupační moc",
+        "lvSource": "okupācijas vara",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Beschaffenheit-229",
+        "de": "Beschaffenheit",
+        "csMain": "Kvalita • Příroda • Podstata",
+        "lvSource": "īpašība • daba • būtība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bescheinigen-230",
+        "de": "bescheinigen",
+        "csMain": "Osvědčit • Vydat osvědčení",
+        "lvSource": "apliecināt • izdot apliecību",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bescheinigung-231",
+        "de": "Bescheinigung",
+        "csMain": "Odkaz • Osvědčení • Atestace • Atest",
+        "lvSource": "uzziņa • apliecība • apliecinājums • apliecināšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beschlagnahmen-232",
+        "de": "beschlagnahmen",
+        "csMain": "Zabavit • Zabavit • Vyvlastnit",
+        "lvSource": "apķīlāt • konfiscēt • atsavināt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beschuldigen-233",
+        "de": "beschuldigen",
+        "csMain": "Obviňovat • Urážet",
+        "lvSource": "apsūdzēt • apvainot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Besonderheit-234",
+        "de": "Besonderheit",
+        "csMain": "Zvláštnost • Podivnost",
+        "lvSource": "īpatnība • savādība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beträchtlich-235",
+        "de": "beträchtlich",
+        "csMain": "Značný • Docela velký • Značný",
+        "lvSource": "ievērojams • krietni liels • krietns",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Betriebskosten-236",
+        "de": "Betriebskosten",
+        "csMain": "Provozní náklady podniku • Výrobní náklady",
+        "lvSource": "uzņēmuma ekspluatācijas izdevumi • ražošanas izdevumi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Betriebssystem-237",
+        "de": "Betriebssystem",
+        "csMain": "Počítačový instalační systém",
+        "lvSource": "datora instalācijas sistēma",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bevollmächtigen-238",
+        "de": "bevollmächtigen",
+        "csMain": "Zmocnit • Udělit pravomoc",
+        "lvSource": "pilnvarot • piešķirt pilnvaru",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bevorstehend-239",
+        "de": "bevorstehend",
+        "csMain": "Nadcházející • Další",
+        "lvSource": "gaidāmais • nākamais",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bewähren, sich-240",
+        "de": "bewähren, sich",
+        "csMain": "Ukázat se jako pravdivé • Ospravedlnit",
+        "lvSource": "izrādīties par patiesu • attaisnoties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Beweismaterial-241",
+        "de": "Beweismaterial",
+        "csMain": "Fyzické důkazy",
+        "lvSource": "lietiskie pierādījumi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bewerben, sich-242",
+        "de": "bewerben, sich",
+        "csMain": "Uplatnit • Běžet • Usilovat • Aspirovat",
+        "lvSource": "pretendēt • kandidēt • censties • tiekties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bezugsperson-243",
+        "de": "Bezugsperson",
+        "csMain": "Kontakt • Nejbližší osoba",
+        "lvSource": "kontaktpersona • tuvākais cilvēks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bildhauerkunst-244",
+        "de": "Bildhauerkunst",
+        "csMain": "Sochařství",
+        "lvSource": "tēlniecība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bilanz-245",
+        "de": "Bilanz",
+        "csMain": "Váhy",
+        "lvSource": "bilance",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Finanzblockade-246",
+        "de": "Finanzblockade",
+        "csMain": "Finanční blokáda",
+        "lvSource": "finanšu blokāde",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Blutuntersuchung-247",
+        "de": "Blutuntersuchung",
+        "csMain": "Rozbor krve",
+        "lvSource": "asinsanalīze",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Blutsverwandte-248",
+        "de": "Blutsverwandte",
+        "csMain": "Pokrevní příbuzný",
+        "lvSource": "asinsradinieks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Botschafter-249",
+        "de": "Botschafter",
+        "csMain": "Velvyslanec",
+        "lvSource": "vēstnieks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Bundesdeutsche-250",
+        "de": "Bundesdeutsche",
+        "csMain": "Občan FFR",
+        "lvSource": "VFR pilsonis vai pilsone",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Computersprache-251",
+        "de": "Computersprache",
+        "csMain": "Počítačový jazyk",
+        "lvSource": "datorvaloda",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dachgepäckträger-252",
+        "de": "Dachgepäckträger",
+        "csMain": "Střešní nosič auta",
+        "lvSource": "automašīnas jumta bagāžnieks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Datenübermittlung-253",
+        "de": "Datenübermittlung",
+        "csMain": "Přenos dat",
+        "lvSource": "datu pārraide",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Datenübertragung-254",
+        "de": "Datenübertragung",
+        "csMain": "Přenos dat",
+        "lvSource": "datu pārraide",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dauerhaft-255",
+        "de": "dauerhaft",
+        "csMain": "Trvanlivý • Dlouhý • Trvanlivý",
+        "lvSource": "ilgstošs • ilgs • izturīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dazwischenkommen-256",
+        "de": "dazwischenkommen",
+        "csMain": "Stát se • Stát se mezi • Zasáhnout",
+        "lvSource": "atgadīties • gadīties starpā • iejaukties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haushaltsdefizit-257",
+        "de": "Haushaltsdefizit",
+        "csMain": "Rozpočtový deficit",
+        "lvSource": "budžeta deficīts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Zolldeklaration-258",
+        "de": "Zolldeklaration",
+        "csMain": "Celní prohlášení",
+        "lvSource": "muitas deklarācija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Delegation-259",
+        "de": "Delegation",
+        "csMain": "Delegace",
+        "lvSource": "delegācija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eigentumsdelikt-260",
+        "de": "Eigentumsdelikt",
+        "csMain": "Porušení vlastnických práv",
+        "lvSource": "īpašuma tiesību pārkāpums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verkehrsdelikt-261",
+        "de": "Verkehrsdelikt",
+        "csMain": "Porušení pravidel silničního provozu",
+        "lvSource": "satiksmes noteikumu pārkāpums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dementsprechend-262",
+        "de": "dementsprechend",
+        "csMain": "Podle toho",
+        "lvSource": "atbilstoši tam",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dessen ungeachtet-263",
+        "de": "dessen ungeachtet",
+        "csMain": "Navzdory tomu • Navzdory tomu",
+        "lvSource": "neskatoties uz to • neievērojot to",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Nachrichtendienst-264",
+        "de": "Nachrichtendienst",
+        "csMain": "Státní tajná služba",
+        "lvSource": "valsts slepenais dienests",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rettungsdienst-265",
+        "de": "Rettungsdienst",
+        "csMain": "Záchranná služba",
+        "lvSource": "glābšanas dienests",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dienstleistung-266",
+        "de": "Dienstleistung",
+        "csMain": "Domácí služba",
+        "lvSource": "sadzīves pakalpojums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-dienstpflichtig-267",
+        "de": "dienstpflichtig",
+        "csMain": "Podroben vojenské službě",
+        "lvSource": "padots karadienestam",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-diensttauglich-268",
+        "de": "diensttauglich",
+        "csMain": "Způsobilý pro vojenskou službu",
+        "lvSource": "derīgs karadienestam",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dieseltreibstoff-269",
+        "de": "Dieseltreibstoff",
+        "csMain": "Motorová nafta",
+        "lvSource": "dīzeļdegviela",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Diplomatie-270",
+        "de": "Diplomatie",
+        "csMain": "Diplomacie",
+        "lvSource": "diplomātija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-diplomatisch-271",
+        "de": "diplomatisch",
+        "csMain": "Diplomatický",
+        "lvSource": "diplomātisks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Dirigentenstab-272",
+        "de": "Dirigentenstab",
+        "csMain": "Dirigentská taktovka",
+        "lvSource": "diriģenta zizlis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Diskettenlaufwerk-273",
+        "de": "Diskettenlaufwerk",
+        "csMain": "Disketová mechanika",
+        "lvSource": "disketes dzinis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-disqualifizieren-274",
+        "de": "disqualifizieren",
+        "csMain": "Diskvalifikovat",
+        "lvSource": "diskvalificēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Durchfuhrverbot-275",
+        "de": "Durchfuhrverbot",
+        "csMain": "Zákaz průjezdu",
+        "lvSource": "caurbraukšanas aizliegums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Durchgangsverkehr-276",
+        "de": "Durchgangsverkehr",
+        "csMain": "Tranzitní doprava",
+        "lvSource": "tranzītsatiksme",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-ehrenhaft-277",
+        "de": "ehrenhaft",
+        "csMain": "Čestný • Čestný • Úctyhodný",
+        "lvSource": "godīgs • godājams • cienījams",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einflusssphäre-278",
+        "de": "Einflusssphäre",
+        "csMain": "Sféra vlivu",
+        "lvSource": "ietekmes sfēra",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-eingeschrieben-279",
+        "de": "eingeschrieben",
+        "csMain": "Zaznamenané • Registrované",
+        "lvSource": "ierakstīts • reģistrēts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Währungseinheit-280",
+        "de": "Währungseinheit",
+        "csMain": "Jednotka peněz",
+        "lvSource": "naudas mērvienība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einkommensteuer-281",
+        "de": "Einkommensteuer",
+        "csMain": "Daň z příjmu",
+        "lvSource": "ienākuma nodoklis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einlage-282",
+        "de": "Einlage",
+        "csMain": "Příspěvek • Vklad • Příloha dopisu",
+        "lvSource": "iemaksa • noguldījums • pielikums vēstulei",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-einreden-283",
+        "de": "einreden",
+        "csMain": "Říct • Naléhat • Snažit se přesvědčit",
+        "lvSource": "iestāstīt • iegalvot • mēģināt pārliecināt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich einschmeicheln-284",
+        "de": "sich einschmeicheln",
+        "csMain": "Lichotit • Lichotit",
+        "lvSource": "pieglai­moties • pielabināties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einschreibebrief-285",
+        "de": "Einschreibebrief",
+        "csMain": "Doporučený dopis",
+        "lvSource": "ierakstīta vēstule",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einspruchsrecht-286",
+        "de": "Einspruchsrecht",
+        "csMain": "Právo protestu • Právo veta",
+        "lvSource": "protesta tiesības • veto tiesības",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einstandsgebühr-287",
+        "de": "Einstandsgebühr",
+        "csMain": "Vstupní poplatek",
+        "lvSource": "iestāšanās maksa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Einverständnis-288",
+        "de": "Einverständnis",
+        "csMain": "Porozumění • Konsensus • Souhlas",
+        "lvSource": "saprašanās • vienprātība • piekrišana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnunglück-289",
+        "de": "Eisenbahnunglück",
+        "csMain": "Železniční katastrofa",
+        "lvSource": "dzelzceļa katastrofa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Eisenbahnverkehr-290",
+        "de": "Eisenbahnverkehr",
+        "csMain": "Železniční provoz",
+        "lvSource": "dzelzceļa satiksme",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Elektrizitätswerk-291",
+        "de": "Elektrizitätswerk",
+        "csMain": "Elektrárna",
+        "lvSource": "elektrostacija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Elementarbegriff-292",
+        "de": "Elementarbegriff",
+        "csMain": "Základní koncept",
+        "lvSource": "pamatjēdziens",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Elementarregel-293",
+        "de": "Elementarregel",
+        "csMain": "Základní zákon",
+        "lvSource": "pamatlikums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Energieerzeugung-294",
+        "de": "Energieerzeugung",
+        "csMain": "Výroba energie",
+        "lvSource": "enerģijas ražošana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Energieversorgung-295",
+        "de": "Energieversorgung",
+        "csMain": "Zásobování energií",
+        "lvSource": "apgāde ar enerģiju",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-entgegensetzen-296",
+        "de": "entgegensetzen",
+        "csMain": "Postavit proti • Postavit proti",
+        "lvSource": "nostādīt pretī • likt pretī",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich entgegensetzen-297",
+        "de": "sich entgegensetzen",
+        "csMain": "Odolat",
+        "lvSource": "pretoties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-entschädigen-298",
+        "de": "entschädigen",
+        "csMain": "Kompenzovat • Kompenzovat",
+        "lvSource": "atlīdzināt • kompensēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich entschließen-299",
+        "de": "sich entschließen",
+        "csMain": "Rozhodnout se • Rozhodnout",
+        "lvSource": "izlemt • izšķirties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-entschlossen-300",
+        "de": "entschlossen",
+        "csMain": "Odhodlaný • Odhodlaný • Neochvějný",
+        "lvSource": "noteikts • apņēmīgs • nešaubīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-entschlüsseln-301",
+        "de": "entschlüsseln",
+        "csMain": "Rozluštit",
+        "lvSource": "atšifrēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesetzentwurf-302",
+        "de": "Gesetzentwurf",
+        "csMain": "Účtovat",
+        "lvSource": "likumprojekts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Entziehungskur-303",
+        "de": "Entziehungskur",
+        "csMain": "Léčebný kurz pro alkoholiky nebo drogově závislé",
+        "lvSource": "ārstniecības kurss alkoholiķiem vai narkomāniem",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Erbkrankheit-304",
+        "de": "Erbkrankheit",
+        "csMain": "Vrozené onemocnění",
+        "lvSource": "iedzimta slimība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kriegserklärung-305",
+        "de": "Kriegserklärung",
+        "csMain": "Vyhlášení války",
+        "lvSource": "kara pieteikums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Erntearbeiten-306",
+        "de": "Erntearbeiten",
+        "csMain": "Sklizňové operace",
+        "lvSource": "ražas novākšanas darbi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Ersatzspieler-307",
+        "de": "Ersatzspieler",
+        "csMain": "Záložní hráč • Záložní hráč",
+        "lvSource": "rezervists • rezerves spēlētājs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Erstaufführung-308",
+        "de": "Erstaufführung",
+        "csMain": "Premiéra • Premiéra",
+        "lvSource": "pirmuzvedums • pirmizrāde",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-festgesetzt-309",
+        "de": "festgesetzt",
+        "csMain": "Určený • Podmíněný • Stanovený",
+        "lvSource": "noteikts • nosacīts • nolikts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-feuergefährlich-310",
+        "de": "feuergefährlich",
+        "csMain": "Ohnivzdorný",
+        "lvSource": "ugunsnedrošs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Feuerversicherung-311",
+        "de": "Feuerversicherung",
+        "csMain": "Pojištění proti požáru",
+        "lvSource": "apdrošināšana pret ugunsgrēku",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Feuerwerkskörper-312",
+        "de": "Feuerwerkskörper",
+        "csMain": "Raketa pro ohňostroje",
+        "lvSource": "raķete uguņošanai",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Fleckenentferner-313",
+        "de": "Fleckenentferner",
+        "csMain": "Odstraňovač skvrn",
+        "lvSource": "traipu tīrāmais līdzeklis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Flüchtlingslager-314",
+        "de": "Flüchtlingslager",
+        "csMain": "Uprchlický tábor",
+        "lvSource": "bēgļu nometne",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Fortbildungskurse-315",
+        "de": "Fortbildungskurse",
+        "csMain": "Kurzy profesního rozvoje",
+        "lvSource": "kvalifikācijas paaugstināšanas kursi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-fortgeschritten-316",
+        "de": "fortgeschritten",
+        "csMain": "Relativně pozdě ve vývoji",
+        "lvSource": "samērā vēlā attīstības stadijā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-fortschrittlich-317",
+        "de": "fortschrittlich",
+        "csMain": "Progresivní",
+        "lvSource": "progresīvs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Freilichtmuseum-318",
+        "de": "Freilichtmuseum",
+        "csMain": "Skanzen",
+        "lvSource": "brīvdabas muzejs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Friedensangebot-319",
+        "de": "Friedensangebot",
+        "csMain": "Mírová nabídka",
+        "lvSource": "miera piedāvājums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Friedensvertrag-320",
+        "de": "Friedensvertrag",
+        "csMain": "Mírová smlouva",
+        "lvSource": "miera līgums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Friedenspolitik-321",
+        "de": "Friedenspolitik",
+        "csMain": "Mírová politika",
+        "lvSource": "miera politika",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Führunternehmen-322",
+        "de": "Führunternehmen",
+        "csMain": "Společnost pro nákladní dopravu",
+        "lvSource": "kravas transporta uzņēmums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-soziale Fürsorge-323",
+        "de": "soziale Fürsorge",
+        "csMain": "Sociální zabezpečení",
+        "lvSource": "sociālā apgāde",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Auffassungsgabe-324",
+        "de": "Auffassungsgabe",
+        "csMain": "Schopnost vnímat",
+        "lvSource": "uztveres spēja",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gebrauchtwaren-325",
+        "de": "Gebrauchtwaren",
+        "csMain": "Použité zboží",
+        "lvSource": "lietotas mantas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geburtenrate-326",
+        "de": "Geburtenrate",
+        "csMain": "Porodnost",
+        "lvSource": "dzimstības līmenis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gefängniszelle-327",
+        "de": "Gefängniszelle",
+        "csMain": "Vězeňská cela",
+        "lvSource": "cietuma kamera",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gefäßverengung-328",
+        "de": "Gefäßverengung",
+        "csMain": "Zúžení krevních cév",
+        "lvSource": "asinsvadu sašaurināšanās",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geflügelzucht-329",
+        "de": "Geflügelzucht",
+        "csMain": "Chov drůbeže",
+        "lvSource": "putnkopība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gefrierpunkt-330",
+        "de": "Gefrierpunkt",
+        "csMain": "Bod mrazu • Bod nula",
+        "lvSource": "sasalšanas punkts • nullpunkts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gehaltskürzung-331",
+        "de": "Gehaltskürzung",
+        "csMain": "Snížení platu",
+        "lvSource": "algas pazeminājums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Beichtgeheimnis-332",
+        "de": "Beichtgeheimnis",
+        "csMain": "Přiznané tajemství",
+        "lvSource": "bikts noslēpums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gehirnschlag-333",
+        "de": "Gehirnschlag",
+        "csMain": "Mrtvice",
+        "lvSource": "insults",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geisterstunde-334",
+        "de": "Geisterstunde",
+        "csMain": "Hodina duchů",
+        "lvSource": "spoku stunda",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geistesabwesend-335",
+        "de": "geistesabwesend",
+        "csMain": "Roztržitý",
+        "lvSource": "izklaidīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geisteskrank-336",
+        "de": "geisteskrank",
+        "csMain": "Duševně nemocný",
+        "lvSource": "garīgi slims",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geistesschwach-337",
+        "de": "geistesschwach",
+        "csMain": "Slabý duchem • Svévolný",
+        "lvSource": "garā vājš • plānprātīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geländefahrt-338",
+        "de": "Geländefahrt",
+        "csMain": "Výlet na běžkách",
+        "lvSource": "apvidus brauciens",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geldentwertung-339",
+        "de": "Geldentwertung",
+        "csMain": "Inflace",
+        "lvSource": "inflācija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gelegentlich",
+        "de": "gelegentlich",
+        "csMain": "Někdy • Příležitost • Kvůli",
+        "lvSource": "reizēm • gadījuma • sakarā ar",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemäldegalerie-341",
+        "de": "Gemäldegalerie",
+        "csMain": "Obrazová galerie",
+        "lvSource": "gleznu galerija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemäldesammlung-342",
+        "de": "Gemäldesammlung",
+        "csMain": "Sbírka obrazů",
+        "lvSource": "gleznu kolekcija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemeineigentum-343",
+        "de": "Gemeineigentum",
+        "csMain": "Veřejný majetek",
+        "lvSource": "sabiedriskais īpašums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gemütsmensch-344",
+        "de": "Gemütsmensch",
+        "csMain": "Laskavý a laskavý člověk",
+        "lvSource": "laipns un labsirdīgs cilvēks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Genmanipulation-345",
+        "de": "Genmanipulation",
+        "csMain": "Modifikace genu",
+        "lvSource": "gēnu pārveidošana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Generalprobe-346",
+        "de": "Generalprobe",
+        "csMain": "Generální zkouška",
+        "lvSource": "ģenerālmēģinājums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Generalstreik-347",
+        "de": "Generalstreik",
+        "csMain": "Generální stávka",
+        "lvSource": "vispārējs streiks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-genmanipuliert-348",
+        "de": "genmanipuliert",
+        "csMain": "S upravenými geny",
+        "lvSource": "ar pārveidotiem gēniem",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gepäckschein-349",
+        "de": "Gepäckschein",
+        "csMain": "Příjem zavazadel",
+        "lvSource": "bagāžas kvīts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gepflogenheit-350",
+        "de": "Gepflogenheit",
+        "csMain": "Vlastní • Vlastní",
+        "lvSource": "paradums • paraža",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geradebiegen-351",
+        "de": "geradebiegen",
+        "csMain": "Narovnat • Opravit",
+        "lvSource": "iztaisnot • izlabot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwurgericht-352",
+        "de": "Schwurgericht",
+        "csMain": "Porotní soud",
+        "lvSource": "zvērināto tiesa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gerichtshof-353",
+        "de": "Gerichtshof",
+        "csMain": "Soudní síň • Tribunál",
+        "lvSource": "tiesu palāta • tribunāls",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geringschätzig-354",
+        "de": "geringschätzig",
+        "csMain": "Pohrdavý • Pohrdavý • Pohrdavý",
+        "lvSource": "nicīgs • nievājošs • nicinošs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesamteindruck-355",
+        "de": "Gesamteindruck",
+        "csMain": "Celkový dojem",
+        "lvSource": "kopiespaids",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesamtergebnis-356",
+        "de": "Gesamtergebnis",
+        "csMain": "Konečný výsledek • Konečný výsledek",
+        "lvSource": "gala iznākums • gala rezultāts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesandtschaft-357",
+        "de": "Gesandtschaft",
+        "csMain": "Velvyslanectví",
+        "lvSource": "sūtniecība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geschäftshaus-358",
+        "de": "Geschäftshaus",
+        "csMain": "Obchodní dům",
+        "lvSource": "tirdzniecības nams",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Geschäftsjahr-359",
+        "de": "Geschäftsjahr",
+        "csMain": "Farmářský rok",
+        "lvSource": "saimniecības gads",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-geschlechtsreif-360",
+        "de": "geschlechtsreif",
+        "csMain": "Dosáhl pohlavní dospělosti",
+        "lvSource": "sasniedzis dzimumbriedumu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesetzbuch-361",
+        "de": "Gesetzbuch",
+        "csMain": "Kodex • Sbírka zákonů",
+        "lvSource": "kodekss • likumu krājums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzgebend-362",
+        "de": "gesetzgebend",
+        "csMain": "Zákonodárce",
+        "lvSource": "likumdevējs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzlos-363",
+        "de": "gesetzlos",
+        "csMain": "Ilegální",
+        "lvSource": "nelikumīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzmäßig-364",
+        "de": "gesetzmäßig",
+        "csMain": "Zákonný • Zákonný",
+        "lvSource": "likumīgs • likumsakarīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gesetzwidrig-365",
+        "de": "gesetzwidrig",
+        "csMain": "Proti zákonu",
+        "lvSource": "pretrunā ar likumu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gesichtskreis-366",
+        "de": "Gesichtskreis",
+        "csMain": "Horizont • Horizont",
+        "lvSource": "redzesloks • apvārsnis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gewinnanteil-367",
+        "de": "Gewinnanteil",
+        "csMain": "Podíl na zisku",
+        "lvSource": "peļņas daļa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gewissensbisse-368",
+        "de": "Gewissensbisse",
+        "csMain": "Lítost",
+        "lvSource": "sirdsapziņas pārmetumi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gewissermaßen-369",
+        "de": "gewissermaßen",
+        "csMain": "Do jisté míry • V jistém smyslu • Tak říkajíc",
+        "lvSource": "zināmā mērā • savā ziņā • tā sakot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-glaubhaft-370",
+        "de": "glaubhaft",
+        "csMain": "Uvěřitelný • Přesvědčivý",
+        "lvSource": "ticams • pārliecinošs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-gleichberechtigt-371",
+        "de": "gleichberechtigt",
+        "csMain": "Rovný • Se stejnými právy",
+        "lvSource": "līdztiesīgs • ar vienādām tiesībām",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Götzenverehrung-372",
+        "de": "Götzenverehrung",
+        "csMain": "Modlářství",
+        "lvSource": "elku pielūgšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Grenzverletzung-373",
+        "de": "Grenzverletzung",
+        "csMain": "Porušení hranic",
+        "lvSource": "robežpārkāpums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Grundgesetz-374",
+        "de": "Grundgesetz",
+        "csMain": "Základní zákon • Ústava",
+        "lvSource": "pamatlikums • konstitūcija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Gütertransport-375",
+        "de": "Gütertransport",
+        "csMain": "Přeprava zboží",
+        "lvSource": "preču pārvadājumi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haft-376",
+        "de": "Haft",
+        "csMain": "Zadržení • Zatčení",
+        "lvSource": "apcietinājums • arests",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haftbefehl-377",
+        "de": "Haftbefehl",
+        "csMain": "Zatýkací rozkaz",
+        "lvSource": "apcietināšanas orderis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-haften-378",
+        "de": "haften",
+        "csMain": "Přilepit • Být přilepený",
+        "lvSource": "pielipt • būt pielipušam",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haftung-379",
+        "de": "Haftung",
+        "csMain": "Odpovědnost",
+        "lvSource": "atbildība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haltbarkeitsdauer-380",
+        "de": "Haltbarkeitsdauer",
+        "csMain": "Doba skladování",
+        "lvSource": "uzglabāšanas laiks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Handelspartner-381",
+        "de": "Handelspartner",
+        "csMain": "Obchodního partnera",
+        "lvSource": "tirdzniecības partneris",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Handelsvertretung-382",
+        "de": "Handelsvertretung",
+        "csMain": "Obchodní zastoupení",
+        "lvSource": "tirdzniecības pārstāvniecība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hauptversammlung-383",
+        "de": "Hauptversammlung",
+        "csMain": "Valná hromada",
+        "lvSource": "kopsapulce",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hausdurchsuchung-384",
+        "de": "Hausdurchsuchung",
+        "csMain": "Policejní pátrání",
+        "lvSource": "policijas kratīšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haushaltsartikel-385",
+        "de": "Haushaltsartikel",
+        "csMain": "Předmět pro domácnost",
+        "lvSource": "saimniecības prece",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Haushaltshilfe-386",
+        "de": "Haushaltshilfe",
+        "csMain": "Placená výpomoc v domácnosti",
+        "lvSource": "algota palīdze mājsaimniecībā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hautentzündung-387",
+        "de": "Hautentzündung",
+        "csMain": "Zánět kůže",
+        "lvSource": "ādas iekaisums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-heldenhaft-388",
+        "de": "heldenhaft",
+        "csMain": "Hrdinný",
+        "lvSource": "varonīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Herrschaft-389",
+        "de": "Herrschaft",
+        "csMain": "Panství • Moc",
+        "lvSource": "kundzība • vara",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-herunterkommen-390",
+        "de": "herunterkommen",
+        "csMain": "Sestoupit • Chátrat • Klesat • Klesat",
+        "lvSource": "nonākt lejā • nonīkt • panīkt • pagrimt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-herunterstürzen-391",
+        "de": "herunterstürzen",
+        "csMain": "Spadnout na zem • Spadnout na zem",
+        "lvSource": "krist zemē • gāzties zemē",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich hinreißen lassen-392",
+        "de": "sich hinreißen lassen",
+        "csMain": "Vzrušit se",
+        "lvSource": "aizrauties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Industrieabgase-393",
+        "de": "Industrieabgase",
+        "csMain": "Průmyslové výfukové plyny",
+        "lvSource": "rūpnieciskās izplūdes gāzes",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Industrieabwässer-394",
+        "de": "Industrieabwässer",
+        "csMain": "Průmyslové odpadní vody",
+        "lvSource": "rūpnieciskie notekūdeņi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Industrieanlage-395",
+        "de": "Industrieanlage",
+        "csMain": "Průmyslový komplex",
+        "lvSource": "rūpniecības komplekss",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-inhaftieren-396",
+        "de": "inhaftieren",
+        "csMain": "Zatknout",
+        "lvSource": "apcietināt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Innenarchitekt-397",
+        "de": "Innenarchitekt",
+        "csMain": "Interiérový architekt",
+        "lvSource": "iekštelpu arhitekts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Innenminister-398",
+        "de": "Innenminister",
+        "csMain": "Ministr vnitra",
+        "lvSource": "iekšlietu ministrs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Intensivstation-399",
+        "de": "Intensivstation",
+        "csMain": "Jednotka intenzivní péče v nemocnici",
+        "lvSource": "reanimācijas nodaļa slimnīcā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-interpretieren-400",
+        "de": "interpretieren",
+        "csMain": "Vykládat • Vysvětlovat",
+        "lvSource": "interpretēt • izskaidrot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Justiz-401",
+        "de": "Justiz",
+        "csMain": "Spravedlnost • Právní případy",
+        "lvSource": "justīcija • tieslietas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kabinettsitzung-402",
+        "de": "Kabinettsitzung",
+        "csMain": "Zasedání kabinetu",
+        "lvSource": "kabineta sēde",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kapitalverbrechen-403",
+        "de": "Kapitalverbrechen",
+        "csMain": "Zvlášť závažný zločin",
+        "lvSource": "sevišķi smags noziegums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kaution-404",
+        "de": "Kaution",
+        "csMain": "Zástava • Ručení • Kauce • Záruka",
+        "lvSource": "ķīla • galvojums • drošības nauda • garantija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Koalition-405",
+        "de": "Koalition",
+        "csMain": "Koalice",
+        "lvSource": "koalīcija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-körperbehindert-406",
+        "de": "körperbehindert",
+        "csMain": "Tělesně postižený",
+        "lvSource": "fizisks invalīds",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Krankheitserreger-407",
+        "de": "Krankheitserreger",
+        "csMain": "Původce onemocnění",
+        "lvSource": "slimības ierosinātājs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kriegsbeschädigte-408",
+        "de": "Kriegsbeschädigte",
+        "csMain": "Válečný invalida",
+        "lvSource": "kara invalīds",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kriegsgefangene-409",
+        "de": "Kriegsgefangene",
+        "csMain": "Válečný zajatec",
+        "lvSource": "karagūsteknis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Kabinettskrise-410",
+        "de": "Kabinettskrise",
+        "csMain": "Kabinetní krize",
+        "lvSource": "kabineta krīze",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lawinenwarnung-411",
+        "de": "Lawinenwarnung",
+        "csMain": "Varování před lavinou",
+        "lvSource": "brīdinājums par lavīnu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lebenserwartung-412",
+        "de": "Lebenserwartung",
+        "csMain": "Průměrná délka života",
+        "lvSource": "vidējais dzīves ilgums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-lebensgefährlich-413",
+        "de": "lebensgefährlich",
+        "csMain": "Život ohrožující • Nebezpečný",
+        "lvSource": "dzīvību apdraudošs • bīstams",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lebensgefährte-414",
+        "de": "Lebensgefährte",
+        "csMain": "Manžel v neregistrovaném manželství",
+        "lvSource": "dzīvesbiedrs nereģistrētā laulībā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lebensstandard-415",
+        "de": "Lebensstandard",
+        "csMain": "Životní úroveň",
+        "lvSource": "dzīves līmenis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Leistungssport-416",
+        "de": "Leistungssport",
+        "csMain": "Profesionální sport",
+        "lvSource": "profesionālais sports",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-lichtempfindlich-417",
+        "de": "lichtempfindlich",
+        "csMain": "Fotosenzitivní",
+        "lvSource": "gaismjutīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Liebesbeziehung-418",
+        "de": "Liebesbeziehung",
+        "csMain": "Intimní vztahy",
+        "lvSource": "intīmas attiecības",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Liebeserklärung-419",
+        "de": "Liebeserklärung",
+        "csMain": "Objevení lásky",
+        "lvSource": "mīlestības atklāšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Linksextremismus-420",
+        "de": "Linksextremismus",
+        "csMain": "Levicový extremismus",
+        "lvSource": "kreisais ekstrēmisms",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Machtergreifung-421",
+        "de": "Machtergreifung",
+        "csMain": "Uchopení moci",
+        "lvSource": "varas sagrābšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Machtübernahme-422",
+        "de": "Machtübernahme",
+        "csMain": "Uchopení moci",
+        "lvSource": "varas pārņemšana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Magnetstreifen-423",
+        "de": "Magnetstreifen",
+        "csMain": "Magnetický proužek (na kreditní kartě)",
+        "lvSource": "magnētiskā josla (uz kredītkartes)",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Marschflugkörper-424",
+        "de": "Marschflugkörper",
+        "csMain": "Řízená střela • Řízená střela",
+        "lvSource": "kruīza raķete • kruīzraķete",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Massenherstellung-425",
+        "de": "Massenherstellung",
+        "csMain": "Sériová výroba",
+        "lvSource": "masveida ražošana",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-materialistisch-426",
+        "de": "materialistisch",
+        "csMain": "Materialistický",
+        "lvSource": "materiālistisks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Meineid-427",
+        "de": "Meineid",
+        "csMain": "Vědomě křivá přísaha u soudu",
+        "lvSource": "apzināti nepatiesa liecība tiesā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-menschenfeindlich-428",
+        "de": "menschenfeindlich",
+        "csMain": "Nepřátelský k lidem",
+        "lvSource": "naidīgs cilvēkiem",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-militärpflichtig-429",
+        "de": "militärpflichtig",
+        "csMain": "Podléhající vojenské službě",
+        "lvSource": "karaklausībai padots",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Nachschlagewerk-430",
+        "de": "Nachschlagewerk",
+        "csMain": "Referenční literatura • Slovník • Encyklopedie",
+        "lvSource": "uzziņu literatūra • vārdnīca • enciklopēdija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-namhaft-431",
+        "de": "namhaft",
+        "csMain": "Slavný • Pozoruhodný",
+        "lvSource": "slavens • ievērojams",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Nichtangriffspakt-432",
+        "de": "Nichtangriffspakt",
+        "csMain": "Pakt o neútočení",
+        "lvSource": "neuzbrukšanas pakts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-niedergeschlagen-433",
+        "de": "niedergeschlagen",
+        "csMain": "Skleslý • Skleslý",
+        "lvSource": "nomākts • depresīvs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Ölembargo-434",
+        "de": "Ölembargo",
+        "csMain": "Ropné embargo",
+        "lvSource": "naftas embargo",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Oppositionsführer-435",
+        "de": "Oppositionsführer",
+        "csMain": "Vůdce opozice",
+        "lvSource": "opozīcijas līderis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Oppositionspartei-436",
+        "de": "Oppositionspartei",
+        "csMain": "Opoziční strana",
+        "lvSource": "opozīcijas partija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Originalausgabe-437",
+        "de": "Originalausgabe",
+        "csMain": "Původní vydání",
+        "lvSource": "oriģinālizdevums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Originalfassung-438",
+        "de": "Originalfassung",
+        "csMain": "Původní varianta",
+        "lvSource": "oriģinālvariants",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Originalgemälde-439",
+        "de": "Originalgemälde",
+        "csMain": "Originální malba",
+        "lvSource": "oriģinālglezna",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Parteifunktionär-440",
+        "de": "Parteifunktionär",
+        "csMain": "Stranický pracovník",
+        "lvSource": "partijas darbinieks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pflichtlektüre-441",
+        "de": "Pflichtlektüre",
+        "csMain": "Povinná studijní literatura",
+        "lvSource": "obligātā mācību literatūra",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Preisfrage-442",
+        "de": "Preisfrage",
+        "csMain": "Soutěžní otázka",
+        "lvSource": "konkursa jautājums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pressefreiheit-443",
+        "de": "Pressefreiheit",
+        "csMain": "Svoboda tisku",
+        "lvSource": "preses brīvība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Pressevertreter-444",
+        "de": "Pressevertreter",
+        "csMain": "Tiskový zástupce",
+        "lvSource": "preses pārstāvis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Presseerklärung-445",
+        "de": "Presseerklärung",
+        "csMain": "Tisková zpráva",
+        "lvSource": "paziņojums presei",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Produktionskosten-446",
+        "de": "Produktionskosten",
+        "csMain": "Výrobní náklady",
+        "lvSource": "ražošanas pašizmaksa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Produktionsweise-447",
+        "de": "Produktionsweise",
+        "csMain": "Druh výroby",
+        "lvSource": "ražošanas veids",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rangierbahnhof-448",
+        "de": "Rangierbahnhof",
+        "csMain": "Kolejiště",
+        "lvSource": "šķirotava dzelzceļa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-rätselhaft-449",
+        "de": "rätselhaft",
+        "csMain": "Záhadný • Nepochopitelný",
+        "lvSource": "mīklains • neizprotams",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Raumausstatter-450",
+        "de": "Raumausstatter",
+        "csMain": "Interiérový designér",
+        "lvSource": "interjerists",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rechenschaft-451",
+        "de": "Rechenschaft",
+        "csMain": "Odpovědnost (za své činy) • Odpovědnost",
+        "lvSource": "atskaite (par savu rīcību) • atbildība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-rechtswidrig-452",
+        "de": "rechtswidrig",
+        "csMain": "Ilegální",
+        "lvSource": "nelikumīgi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Regenbogenpresse-453",
+        "de": "Regenbogenpresse",
+        "csMain": "Bulvární tisk",
+        "lvSource": "bulvārprese",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Regierungschef-454",
+        "de": "Regierungschef",
+        "csMain": "Předseda vlády • Předseda vlády",
+        "lvSource": "premjerministrs • valdības galva",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Regierungspartei-455",
+        "de": "Regierungspartei",
+        "csMain": "Vládní strana",
+        "lvSource": "valdības partija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Regierungswechsel-456",
+        "de": "Regierungswechsel",
+        "csMain": "Změna vlády",
+        "lvSource": "valdības maiņa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rentenanspruch-457",
+        "de": "Rentenanspruch",
+        "csMain": "Nárok na důchod",
+        "lvSource": "tiesības uz pensiju",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Rentenempfänger-458",
+        "de": "Rentenempfänger",
+        "csMain": "Důchodce",
+        "lvSource": "pensijas saņēmējs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-republikanisch-459",
+        "de": "republikanisch",
+        "csMain": "Republikánské • Republiky",
+        "lvSource": "republikānisks • republikas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sanktion-460",
+        "de": "Sanktion",
+        "csMain": "Sankce",
+        "lvSource": "sankcija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sanktionieren-461",
+        "de": "sanktionieren",
+        "csMain": "Podpora • Sankce",
+        "lvSource": "atbalstīt • sankcionēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Lüftungsschacht-462",
+        "de": "Lüftungsschacht",
+        "csMain": "Ventilační šachta",
+        "lvSource": "ventilācijas šahta",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Scheidungsgrund-463",
+        "de": "Scheidungsgrund",
+        "csMain": "Důvod k rozvodu",
+        "lvSource": "šķiršanās iemesls",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schicksalsschlag-464",
+        "de": "Schicksalsschlag",
+        "csMain": "Rána osudu",
+        "lvSource": "likteņa trieciens",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-schmerzstillend-465",
+        "de": "schmerzstillend",
+        "csMain": "Lék proti bolesti",
+        "lvSource": "sāpes remdējošs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Anklageschrift-466",
+        "de": "Anklageschrift",
+        "csMain": "Obžaloba",
+        "lvSource": "apsūdzības raksts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Schwerindustrie-467",
+        "de": "Schwerindustrie",
+        "csMain": "Těžký průmysl",
+        "lvSource": "smagā rūpniecība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Segelflugsport-468",
+        "de": "Segelflugsport",
+        "csMain": "Plachtařství",
+        "lvSource": "planierisms",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Selbstverwaltung-469",
+        "de": "Selbstverwaltung",
+        "csMain": "Obec",
+        "lvSource": "pašvaldība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-selbstzufrieden-470",
+        "de": "selbstzufrieden",
+        "csMain": "Samolibý",
+        "lvSource": "pašapmierināts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sensationsmeldung-471",
+        "de": "Sensationsmeldung",
+        "csMain": "Senzační prohlášení",
+        "lvSource": "sensacionāls paziņojums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sesshaft-472",
+        "de": "sesshaft",
+        "csMain": "Bydlení na jednom místě • Táborník",
+        "lvSource": "vienā vietā dzīvojošs • nometnieku",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sinfonieorchester-473",
+        "de": "Sinfonieorchester",
+        "csMain": "Symfonický orchestr",
+        "lvSource": "simfoniskais orķestris",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sinnestäuschung-474",
+        "de": "Sinnestäuschung",
+        "csMain": "Halucinace",
+        "lvSource": "halucinācija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Konfliktsituation-475",
+        "de": "Konfliktsituation",
+        "csMain": "Konfliktní situace",
+        "lvSource": "konflikta situācija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Krisensituation-476",
+        "de": "Krisensituation",
+        "csMain": "Krizová situace • Krize",
+        "lvSource": "krīzes situācija • krīze",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sommersonnenwende-477",
+        "de": "Sommersonnenwende",
+        "csMain": "Letní slunovrat",
+        "lvSource": "vasaras saulgrieži",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Sonnenfinsternis-478",
+        "de": "Sonnenfinsternis",
+        "csMain": "Zatmění slunce",
+        "lvSource": "saules aptumsums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Spitzenleistung-479",
+        "de": "Spitzenleistung",
+        "csMain": "Rekord • Nejvyšší výkon • Tech. maximální výkon",
+        "lvSource": "rekords • augstākais sasniegums • tehn. maksimālā jauda",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Staatsangehörige-480",
+        "de": "Staatsangehörige",
+        "csMain": "Občan",
+        "lvSource": "pavalstnieks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Staatsanwalt-481",
+        "de": "Staatsanwalt",
+        "csMain": "Žalobce",
+        "lvSource": "prokurors",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Staatsgeheimnis-482",
+        "de": "Staatsgeheimnis",
+        "csMain": "Státní tajemství",
+        "lvSource": "valsts noslēpums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Steuereinnahmen-483",
+        "de": "Steuereinnahmen",
+        "csMain": "Daňový příjem",
+        "lvSource": "nodokļu ieņēmumi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-stimmberechtigt-484",
+        "de": "stimmberechtigt",
+        "csMain": "Oprávněn volit",
+        "lvSource": "balsstiesīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Studienbewerber-485",
+        "de": "Studienbewerber",
+        "csMain": "Uchazeč o vysokou školu",
+        "lvSource": "augstskolas reflektants",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-synchronisieren-486",
+        "de": "synchronisieren",
+        "csMain": "Dabovat film",
+        "lvSource": "dublēt filmu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Tageseinnahmen-487",
+        "de": "Tageseinnahmen",
+        "csMain": "Denní výdělek",
+        "lvSource": "dienas ieņēmumi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Transfusion-488",
+        "de": "Transfusion",
+        "csMain": "Přímou transfuzi krve z jedné osoby na druhou",
+        "lvSource": "tieša asins pārliešana no viena cilvēka citam",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-überanstrengen-489",
+        "de": "überanstrengen",
+        "csMain": "Přetěžovat • Sich ü. k přepracování",
+        "lvSource": "pārpūlēt • sich ü. pārpūlēties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Überbevölkerung-490",
+        "de": "Überbevölkerung",
+        "csMain": "Přelidnění",
+        "lvSource": "pārapdzīvotība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Überbleibsel-491",
+        "de": "Überbleibsel",
+        "csMain": "Přebytek • Zůstává",
+        "lvSource": "pārpalikums • paliekas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-übereinstimmen-492",
+        "de": "übereinstimmen",
+        "csMain": "Souhlasit • Souhlasit s někým",
+        "lvSource": "saskanēt • būt ar kādu vienisprātis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Überschuss-493",
+        "de": "Überschuss",
+        "csMain": "Zbytek • Přebytek • Likvidace",
+        "lvSource": "atlikums • pārpalikums • uzvija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Umgangssprache-494",
+        "de": "Umgangssprache",
+        "csMain": "Hovorový jazyk",
+        "lvSource": "sarunvaloda",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Unannehmlichkeit-495",
+        "de": "Unannehmlichkeit",
+        "csMain": "Potíže • Nepříjemná příležitost",
+        "lvSource": "nepatikšanas • nepatīkams gadījums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unausgeglichen-496",
+        "de": "unausgeglichen",
+        "csMain": "Nevyvážený",
+        "lvSource": "nelīdzsvarots",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unerschütterlich-497",
+        "de": "unerschütterlich",
+        "csMain": "Neotřesitelný",
+        "lvSource": "nesatricināms",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Unterschätzung-498",
+        "de": "Unterschätzung",
+        "csMain": "Podceňovat • Podceňovat",
+        "lvSource": "nepietiekams novērtējums • novērtēšana par zemu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-urteilen-499",
+        "de": "urteilen",
+        "csMain": "Soudit",
+        "lvSource": "spriest",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verabschieden-500",
+        "de": "verabschieden",
+        "csMain": "Uvolnění z práce • Odejít do důchodu",
+        "lvSource": "atbrīvot no darba • aizlaist pensijā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-veränderlich-501",
+        "de": "veränderlich",
+        "csMain": "Proměnlivý • Proměnlivý",
+        "lvSource": "mainīgs • grozīgs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-veranschlagen-502",
+        "de": "veranschlagen",
+        "csMain": "Počítat • Počítat • Odhadovat",
+        "lvSource": "aprēķināt • kalkulēt • sastādīt tāmi",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verdrießlich-503",
+        "de": "verdrießlich",
+        "csMain": "Nepříjemný • Mrzutý • Mrzutý",
+        "lvSource": "nepatīkams • īgns • sapīcis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verfallsdatum-504",
+        "de": "Verfallsdatum",
+        "csMain": "Datum spotřeby",
+        "lvSource": "lietošanas termiņa beigas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verfassung-505",
+        "de": "Verfassung",
+        "csMain": "Ústava • Ústava",
+        "lvSource": "konstitūcija • satversme",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vergewaltigen-506",
+        "de": "vergewaltigen",
+        "csMain": "Znásilnění",
+        "lvSource": "izvarot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich vergewissern-507",
+        "de": "sich vergewissern",
+        "csMain": "Ujistěte se",
+        "lvSource": "pārliecināties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vergünstigung-508",
+        "de": "Vergünstigung",
+        "csMain": "Výhoda • Výsada • Úleva",
+        "lvSource": "priekšrocība • privilēģija • atvieglojums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verhaften-509",
+        "de": "verhaften",
+        "csMain": "Zatknout",
+        "lvSource": "apcietināt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verhältnismäßig-510",
+        "de": "verhältnismäßig",
+        "csMain": "Poměrně",
+        "lvSource": "samērā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verhandlungen-511",
+        "de": "Verhandlungen",
+        "csMain": "Rozhovory",
+        "lvSource": "sarunas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verheimlichen-512",
+        "de": "verheimlichen",
+        "csMain": "Skrývat • Tajit",
+        "lvSource": "slēpt • turēt slepenībā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verkehrsdichte-513",
+        "de": "Verkehrsdichte",
+        "csMain": "Hustota provozu",
+        "lvSource": "satiksmes blīvums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verkehrswesen-514",
+        "de": "Verkehrswesen",
+        "csMain": "Doprava",
+        "lvSource": "transports",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verpflichtung-515",
+        "de": "Verpflichtung",
+        "csMain": "Povinnost • Povinnost",
+        "lvSource": "pienākums • saistība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Verschwörung-516",
+        "de": "Verschwörung",
+        "csMain": "Spiknutí",
+        "lvSource": "sazvērestība",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verklagen-517",
+        "de": "verklagen",
+        "csMain": "Žalovat",
+        "lvSource": "iesūdzēt tiesā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vernachlässigen-518",
+        "de": "vernachlässigen",
+        "csMain": "Zanedbávat • Být nedbalý",
+        "lvSource": "atstāt novārtā • nevērīgi izturēties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verpflichten-519",
+        "de": "verpflichten",
+        "csMain": "Zavázat se",
+        "lvSource": "uzlikt par pienākumu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich verpflichten-520",
+        "de": "sich verpflichten",
+        "csMain": "Podniknout",
+        "lvSource": "uzņemties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich verschließen-521",
+        "de": "sich verschließen",
+        "csMain": "Vypnout • Vypnout",
+        "lvSource": "noslēgties • norobežoties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschlossen-522",
+        "de": "verschlossen",
+        "csMain": "Zamčený • Zavřený • Přel. uzavřený • Soběstačný",
+        "lvSource": "aizslēgts • noslēgts • pārn. noslēgts • sevī noslēdzies",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschlüsseln-523",
+        "de": "verschlüsseln",
+        "csMain": "Zašifrovat • Zakódovat",
+        "lvSource": "šifrēt • kodēt",
+        "status": "ERROR",
+        "flags": [
+          "PL_CHAR"
+        ]
+      },
+      {
+        "id": "c1-verschreiben-524",
+        "de": "verschreiben",
+        "csMain": "Med. podepsat",
+        "lvSource": "med. parakstīt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verschweigen-525",
+        "de": "verschweigen",
+        "csMain": "Zadržet • Neprozradit",
+        "lvSource": "noklusēt • neizpaust",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verständigen-526",
+        "de": "verständigen",
+        "csMain": "Informovat • Oznámit",
+        "lvSource": "informēt • paziņot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Versuchsanlage-527",
+        "de": "Versuchsanlage",
+        "csMain": "Testovací zařízení",
+        "lvSource": "izmēģinājumu iekārta",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Versuchsgelände-528",
+        "de": "Versuchsgelände",
+        "csMain": "Testovací hřiště",
+        "lvSource": "izmēģinājumu poligons",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Versuchsreihe-529",
+        "de": "Versuchsreihe",
+        "csMain": "Série testů",
+        "lvSource": "testu sērija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verunglücken-530",
+        "de": "verunglücken",
+        "csMain": "Trpět při nehodě • Trpět při nehodě",
+        "lvSource": "ciest nelaimes gadījumā • ciest avārijā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verurteilen-531",
+        "de": "verurteilen",
+        "csMain": "Odsoudit",
+        "lvSource": "notiesāt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vervielfältigen-532",
+        "de": "vervielfältigen",
+        "csMain": "Násobit",
+        "lvSource": "pavairot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-vervollkommnen-533",
+        "de": "vervollkommnen",
+        "csMain": "Doplnit • Zlepšit",
+        "lvSource": "papildināt • uzlabot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-sich vervollkommnen-534",
+        "de": "sich vervollkommnen",
+        "csMain": "Doplnit si znalosti",
+        "lvSource": "papildināt savas zināšanas",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-verwirklichen-535",
+        "de": "verwirklichen",
+        "csMain": "Realizovat • Realizovat",
+        "lvSource": "realizēt • īstenot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Volksabstimmung-536",
+        "de": "Volksabstimmung",
+        "csMain": "Lidové hlasování • Plebiscit",
+        "lvSource": "tautas nobalsošana • plebiscīts",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Volksbefragung-537",
+        "de": "Volksbefragung",
+        "csMain": "Anketa všech lidí • Referendum",
+        "lvSource": "visas tautas aptauja • referendums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Vollversammlung-538",
+        "de": "Vollversammlung",
+        "csMain": "Plénum • Valná hromada • Valná hromada",
+        "lvSource": "plēnums • pilnsapulce • ģenerālā asambleja",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-voreingenommen-539",
+        "de": "voreingenommen",
+        "csMain": "Zaujatý • Zaujatý",
+        "lvSource": "aizspriedumains • neobjektīvs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-waag[e]recht-540",
+        "de": "waag[e]recht",
+        "csMain": "Úroveň • Horizontální",
+        "lvSource": "līmenisks • horizontāls",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Waffenruhe-541",
+        "de": "Waffenruhe",
+        "csMain": "Přestávka v boji",
+        "lvSource": "cīņu pārtraukums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Waffenschein-542",
+        "de": "Waffenschein",
+        "csMain": "Zbrojní průkaz",
+        "lvSource": "ieroča atļauja",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-wahlberechtigt",
+        "de": "wahlberechtigt",
+        "csMain": "Ten, kdo má volební právo",
+        "lvSource": "tāds, kam ir vēlēšanu tiesības",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-wahrhaft-544",
+        "de": "wahrhaft",
+        "csMain": "Opravdu • Opravdu",
+        "lvSource": "patiesi • tiešām",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wäscheschleuder-545",
+        "de": "Wäscheschleuder",
+        "csMain": "Odstředivka na prádlo",
+        "lvSource": "veļas centrifūga",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wasserheilanstalt-546",
+        "de": "Wasserheilanstalt",
+        "csMain": "Zařízení na úpravu vody",
+        "lvSource": "ūdensdziedniecības iestāde",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wasserkraftwerk-547",
+        "de": "Wasserkraftwerk",
+        "csMain": "Vodní elektrárna",
+        "lvSource": "hidroelektrostacija",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wasserversorgung-548",
+        "de": "Wasserversorgung",
+        "csMain": "Vodovod",
+        "lvSource": "ūdensapgāde",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wechselbeziehung-549",
+        "de": "Wechselbeziehung",
+        "csMain": "Vzájemná komunikace",
+        "lvSource": "savstarpējs sakars",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wehrersatzdienst-550",
+        "de": "Wehrersatzdienst",
+        "csMain": "Civilní službu místo vojenské služby",
+        "lvSource": "civildienests karadienesta vietā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Weidenkätzchen-551",
+        "de": "Weidenkätzchen",
+        "csMain": "Mák",
+        "lvSource": "pūpols",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Weltanschauung-552",
+        "de": "Weltanschauung",
+        "csMain": "Pohled na svět",
+        "lvSource": "pasaules uzskats",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Wetterleuchten-553",
+        "de": "Wetterleuchten",
+        "csMain": "Rez",
+        "lvSource": "rūsa",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-widerrechtlich-554",
+        "de": "widerrechtlich",
+        "csMain": "Ilegální",
+        "lvSource": "prettiesisks",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-wiederherstellen-555",
+        "de": "wiederherstellen",
+        "csMain": "Obnovit • Obnovit",
+        "lvSource": "atjaunot • restaurēt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenfallen-556",
+        "de": "zusammenfallen",
+        "csMain": "Zhroucení • Stát se",
+        "lvSource": "sabrukt • sagadīties",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zusammenstellen-557",
+        "de": "zusammenstellen",
+        "csMain": "Skládat",
+        "lvSource": "sastādīt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-zuschlag",
+        "de": "Zuschlag",
+        "csMain": "Prémie • Přirážka",
+        "lvSource": "piemaksa • uzcenojums",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beziehen-sich-beziehen-auf",
+        "de": "beziehen / sich beziehen auf",
+        "csMain": "Aplikovat • Aplikovat na",
+        "lvSource": "attiecināt • attiekties uz",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-beabsichtigen",
+        "de": "beabsichtigen",
+        "csMain": "Zamýšlet • Plánovat",
+        "lvSource": "nodomāt • plānot",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-unterstellen",
+        "de": "unterstellen",
+        "csMain": "Obviňovat • Přičítat bez podkladu",
+        "lvSource": "pārmest • piedēvēt bez pamata",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-voraussetzen",
+        "de": "voraussetzen",
+        "csMain": "Brát jako podmínku",
+        "lvSource": "pieņemt kā priekšnoteikumu",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-bewahren",
+        "de": "bewahren",
+        "csMain": "Chránit • Chránit",
+        "lvSource": "pasargāt • saglabāt",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-aufrechterhalten",
+        "de": "aufrechterhalten",
+        "csMain": "Zachovat v platnosti",
+        "lvSource": "uzturēt spēkā",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Hektar-565",
+        "de": "Hektar",
+        "csMain": "Hektar",
+        "lvSource": "hektārs",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Karre-566",
+        "de": "Karre",
+        "csMain": "Kolečko",
+        "lvSource": "ķerra",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Karren-567",
+        "de": "Karren",
+        "csMain": "Kolečko",
+        "lvSource": "ķerra",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Krüppel-568",
+        "de": "Krüppel",
+        "csMain": "Mrzák",
+        "lvSource": "kroplis",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Matsch-569",
+        "de": "Matsch",
+        "csMain": "Bláto • Břečka",
+        "lvSource": "dubļi • šļaka",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Panter-570",
+        "de": "Panter",
+        "csMain": "Panter",
+        "lvSource": "pantera",
+        "status": "OK",
+        "flags": []
+      },
+      {
+        "id": "c1-Panther-571",
+        "de": "Panther",
+        "csMain": "Panter",
+        "lvSource": "pantera",
+        "status": "OK",
+        "flags": []
+      }
+    ],
+    "summary": {
+      "OK": 569,
+      "WARNING": 0,
+      "ERROR": 3
+    }
+  },
+  "studyCards": {
+    "issues": [],
+    "pass": true,
+    "standardStudy": 15,
+    "comparisonStudy": 0
+  },
+  "sectionAccents": {
+    "issues": [],
+    "pass": false
+  },
+  "layerIdentity": {
+    "pass": true,
+    "identical": true
+  },
+  "batches": [
+    {
+      "batch": "001-050",
+      "start": 0,
+      "end": 50,
+      "audited": 50,
+      "findings": 0
+    },
+    {
+      "batch": "051-100",
+      "start": 50,
+      "end": 100,
+      "audited": 50,
+      "findings": 0
+    },
+    {
+      "batch": "101-150",
+      "start": 100,
+      "end": 150,
+      "audited": 50,
+      "findings": 4
+    },
+    {
+      "batch": "151-200",
+      "start": 150,
+      "end": 200,
+      "audited": 50,
+      "findings": 0
+    },
+    {
+      "batch": "201-250",
+      "start": 200,
+      "end": 250,
+      "audited": 50,
+      "findings": 0
+    },
+    {
+      "batch": "251-300",
+      "start": 250,
+      "end": 300,
+      "audited": 50,
+      "findings": 0
+    },
+    {
+      "batch": "301-350",
+      "start": 300,
+      "end": 350,
+      "audited": 50,
+      "findings": 0
+    },
+    {
+      "batch": "351-400",
+      "start": 350,
+      "end": 400,
+      "audited": 50,
+      "findings": 0
+    },
+    {
+      "batch": "401-450",
+      "start": 400,
+      "end": 450,
+      "audited": 50,
+      "findings": 0
+    },
+    {
+      "batch": "451-500",
+      "start": 450,
+      "end": 500,
+      "audited": 50,
+      "findings": 0
+    },
+    {
+      "batch": "501-550",
+      "start": 500,
+      "end": 550,
+      "audited": 50,
+      "findings": 2
+    },
+    {
+      "batch": "551-572",
+      "start": 550,
+      "end": 572,
+      "audited": 22,
+      "findings": 3
+    }
+  ],
+  "findings": [
+    {
+      "dataset": "c1",
+      "batch": "101-150",
+      "cardId": "c1-Modezeitschrift-110",
+      "index": 110,
+      "field": "lv",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Módní časopis",
+      "de": "Modezeitschrift",
+      "lvSource": "modes žurnāls",
+      "problem": "Foreign language remnant in main translation: PL_CHAR",
+      "proposedCs": "(Czech replacement needed)",
+      "rationale": "Must be Czech only in CS fields"
+    },
+    {
+      "dataset": "c1",
+      "batch": "101-150",
+      "cardId": "c1-Modezeitschrift-110",
+      "field": "entry[110].lv",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Módní časopis",
+      "de": "Modezeitschrift",
+      "lvSource": "modes žurnāls",
+      "problem": "Foreign remnant (PL_CHAR) in entry[110].lv",
+      "proposedCs": "(Czech text required)",
+      "rationale": "CS field must not contain LV/PL/SK contamination"
+    },
+    {
+      "dataset": "c1",
+      "batch": "101-150",
+      "cardId": "c1-Schlussverkauf-138",
+      "index": 138,
+      "field": "lv",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Výprodej zboží na konci sezóny za snížené ceny",
+      "de": "Schlussverkauf",
+      "lvSource": "preču izpārdošana sezonas beigās par pazeminātām cenām",
+      "problem": "Foreign language remnant in main translation: PL_CHAR",
+      "proposedCs": "(Czech replacement needed)",
+      "rationale": "Must be Czech only in CS fields"
+    },
+    {
+      "dataset": "c1",
+      "batch": "101-150",
+      "cardId": "c1-Schlussverkauf-138",
+      "field": "entry[138].lv",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Výprodej zboží na konci sezóny za snížené ceny",
+      "de": "Schlussverkauf",
+      "lvSource": "preču izpārdošana sezonas beigās par pazeminātām cenām",
+      "problem": "Foreign remnant (PL_CHAR) in entry[138].lv",
+      "proposedCs": "(Czech text required)",
+      "rationale": "CS field must not contain LV/PL/SK contamination"
+    },
+    {
+      "dataset": "c1",
+      "batch": "501-550",
+      "cardId": "c1-verschlüsseln-523",
+      "index": 523,
+      "field": "lv",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Zašifrovat • Zakódovat",
+      "de": "verschlüsseln",
+      "lvSource": "šifrēt • kodēt",
+      "problem": "Foreign language remnant in main translation: PL_CHAR",
+      "proposedCs": "(Czech replacement needed)",
+      "rationale": "Must be Czech only in CS fields"
+    },
+    {
+      "dataset": "c1",
+      "batch": "501-550",
+      "cardId": "c1-verschlüsseln-523",
+      "field": "entry[523].lv",
+      "severity": "HIGH",
+      "status": "FINDING",
+      "currentCs": "Zašifrovat • Zakódovat",
+      "de": "verschlüsseln",
+      "lvSource": "šifrēt • kodēt",
+      "problem": "Foreign remnant (PL_CHAR) in entry[523].lv",
+      "proposedCs": "(Czech text required)",
+      "rationale": "CS field must not contain LV/PL/SK contamination"
+    },
+    {
+      "dataset": "c1",
+      "batch": "551-572",
+      "cardId": "c1-voraussetzen",
+      "field": "study.sectionAccents.explanation",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "voraus",
+      "de": "voraussetzen",
+      "lvSource": "pieņemt kā priekšnoteikumu",
+      "problem": "Accent term \"voraus\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "c1",
+      "batch": "551-572",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.sectionAccents.explanation",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "erhält",
+      "de": "aufrechterhalten",
+      "lvSource": "uzturēt spēkā",
+      "problem": "Accent term \"erhält\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    },
+    {
+      "dataset": "c1",
+      "batch": "551-572",
+      "cardId": "c1-aufrechterhalten",
+      "field": "study.sectionAccents.explanation",
+      "severity": "MEDIUM",
+      "status": "FINDING",
+      "currentCs": "auf",
+      "de": "aufrechterhalten",
+      "lvSource": "uzturēt spēkā",
+      "problem": "Accent term \"auf\" not found in section text",
+      "proposedCs": "(term matching Czech section text)",
+      "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+    }
+  ]
+}
