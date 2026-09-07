@@ -1,0 +1,125 @@
+{
+  "classification": "G2_A1_CROWDIN_AI_RECONCILIATION_PASS_OWNER_MAPPING_READY",
+  "jobId": "9147332b-a97d-46c1-b5c7-c0033ee07b1a",
+  "aiPromptId": 671153,
+  "aiPromptName": "DE-LV App G2-A1 Translation",
+  "crowdinFileId": 16,
+  "crowdinFilePath": "/main/crowdin/content/g2/lv-a1.json",
+  "ownerDecision": {
+    "date": "2026-09-07",
+    "summary": "5/5 LABOT",
+    "applyStatus": "APPLIED_VERIFIED_5_OF_5",
+    "scope": "narrow_html_repair_only_not_linguistic_review",
+    "applyFinishedAtUtc": "2026-09-07T09:17:01.022Z"
+  },
+  "summary": {
+    "affectedTranslationValues": 5,
+    "extraHtmlTagTokens": 10,
+    "fi": {
+      "values": 1,
+      "extraTokens": 2
+    },
+    "sl": {
+      "values": 4,
+      "extraTokens": 8
+    }
+  },
+  "rows": [
+    {
+      "row": 1,
+      "languageId": "fi",
+      "crowdinStringId": 9366,
+      "key": "a1.card.a1-mann.study.tip[0]",
+      "lvSource": "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
+      "CURRENT": "Omistusavulla <b>(mein/dein/ihr Mann)</b> lähes aina tarkoitetaan aviomiestä.",
+      "PROPOSED_NEW": "Omistusavulla (mein/dein/ihr Mann) lähes aina tarkoitetaan aviomiestä.",
+      "tokenDiff": {
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
+        "missingInTarget": []
+      },
+      "onlyBoldTagsRemoved": true,
+      "textIdenticalAsideFromBold": true,
+      "OWNER_DECISION": "LABOT"
+    },
+    {
+      "row": 2,
+      "languageId": "sl",
+      "crowdinStringId": 6672,
+      "key": "a1.card.a1-appetit.study.explanation[2]",
+      "lvSource": "Bieži raksturo: sajūtu (tikai vienskaitlī).",
+      "CURRENT": "Pogosto značilno: <b>(</b>samo ednina<b>)</b>.",
+      "PROPOSED_NEW": "Pogosto značilno: (samo ednina).",
+      "tokenDiff": {
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
+        "missingInTarget": []
+      },
+      "onlyBoldTagsRemoved": true,
+      "textIdenticalAsideFromBold": true,
+      "OWNER_DECISION": "LABOT"
+    },
+    {
+      "row": 3,
+      "languageId": "sl",
+      "crowdinStringId": 6794,
+      "key": "a1.card.a1-aufs.study.important[0]",
+      "lvSource": "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
+      "CURRENT": "aufs = auf das, samo pri srednjem spolu <b>(</b>das<b>)</b> kam? sklonu.",
+      "PROPOSED_NEW": "aufs = auf das, samo pri srednjem spolu (das) kam? sklonu.",
+      "tokenDiff": {
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
+        "missingInTarget": []
+      },
+      "onlyBoldTagsRemoved": true,
+      "textIdenticalAsideFromBold": true,
+      "OWNER_DECISION": "LABOT"
+    },
+    {
+      "row": 4,
+      "languageId": "sl",
+      "crowdinStringId": 8980,
+      "key": "a1.card.a1-lang.study.examples[5].native",
+      "lvSource": "visu dienu (garumā).",
+      "CURRENT": "ves dan <b>(</b>po dolžini<b>)</b>.",
+      "PROPOSED_NEW": "ves dan (po dolžini).",
+      "tokenDiff": {
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
+        "missingInTarget": []
+      },
+      "onlyBoldTagsRemoved": true,
+      "textIdenticalAsideFromBold": true,
+      "OWNER_DECISION": "LABOT"
+    },
+    {
+      "row": 5,
+      "languageId": "sl",
+      "crowdinStringId": 8988,
+      "key": "a1.card.a1-lang.study.explanation[3]",
+      "lvSource": "Frāzē den ganzen Tag lang tas nozīmē visu dienu (garumā).",
+      "CURRENT": "V stavku den ganzen Tag lang to pomeni ves dan <b>(</b>po dolžini<b>)</b>.",
+      "PROPOSED_NEW": "V stavku den ganzen Tag lang to pomeni ves dan (po dolžini).",
+      "tokenDiff": {
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
+        "missingInTarget": []
+      },
+      "onlyBoldTagsRemoved": true,
+      "textIdenticalAsideFromBold": true,
+      "OWNER_DECISION": "LABOT"
+    }
+  ],
+  "note": "OWNER LABOT applied to Crowdin 5/5 with read-back and export validation PASS."
+}
