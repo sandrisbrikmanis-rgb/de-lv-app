@@ -8,14 +8,21 @@
   "ownerDecision": {
     "date": "2026-09-07",
     "summary": "5/5 LABOT",
-    "applyStatus": "NOT_APPLIED",
-    "scope": "narrow_html_repair_only_not_linguistic_review"
+    "applyStatus": "APPLIED_VERIFIED_5_OF_5",
+    "scope": "narrow_html_repair_only_not_linguistic_review",
+    "applyFinishedAtUtc": "2026-09-07T09:17:01.022Z"
   },
   "summary": {
     "affectedTranslationValues": 5,
     "extraHtmlTagTokens": 10,
-    "fi": { "values": 1, "extraTokens": 2 },
-    "sl": { "values": 4, "extraTokens": 8 }
+    "fi": {
+      "values": 1,
+      "extraTokens": 2
+    },
+    "sl": {
+      "values": 4,
+      "extraTokens": 8
+    }
   },
   "rows": [
     {
@@ -27,7 +34,10 @@
       "CURRENT": "Omistusavulla <b>(mein/dein/ihr Mann)</b> lähes aina tarkoitetaan aviomiestä.",
       "PROPOSED_NEW": "Omistusavulla (mein/dein/ihr Mann) lähes aina tarkoitetaan aviomiestä.",
       "tokenDiff": {
-        "extraInTarget": ["<b>", "</b>"],
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
         "missingInTarget": []
       },
       "onlyBoldTagsRemoved": true,
@@ -43,7 +53,10 @@
       "CURRENT": "Pogosto značilno: <b>(</b>samo ednina<b>)</b>.",
       "PROPOSED_NEW": "Pogosto značilno: (samo ednina).",
       "tokenDiff": {
-        "extraInTarget": ["<b>", "</b>"],
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
         "missingInTarget": []
       },
       "onlyBoldTagsRemoved": true,
@@ -59,7 +72,10 @@
       "CURRENT": "aufs = auf das, samo pri srednjem spolu <b>(</b>das<b>)</b> kam? sklonu.",
       "PROPOSED_NEW": "aufs = auf das, samo pri srednjem spolu (das) kam? sklonu.",
       "tokenDiff": {
-        "extraInTarget": ["<b>", "</b>"],
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
         "missingInTarget": []
       },
       "onlyBoldTagsRemoved": true,
@@ -75,7 +91,10 @@
       "CURRENT": "ves dan <b>(</b>po dolžini<b>)</b>.",
       "PROPOSED_NEW": "ves dan (po dolžini).",
       "tokenDiff": {
-        "extraInTarget": ["<b>", "</b>"],
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
         "missingInTarget": []
       },
       "onlyBoldTagsRemoved": true,
@@ -91,7 +110,10 @@
       "CURRENT": "V stavku den ganzen Tag lang to pomeni ves dan <b>(</b>po dolžini<b>)</b>.",
       "PROPOSED_NEW": "V stavku den ganzen Tag lang to pomeni ves dan (po dolžini).",
       "tokenDiff": {
-        "extraInTarget": ["<b>", "</b>"],
+        "extraInTarget": [
+          "<b>",
+          "</b>"
+        ],
         "missingInTarget": []
       },
       "onlyBoldTagsRemoved": true,
@@ -99,5 +121,5 @@
       "OWNER_DECISION": "LABOT"
     }
   ],
-  "note": "OWNER approved LABOT for all 5 rows (2026-09-07). PROPOSED_NEW not yet written to Crowdin. Controlled apply + fi/sl re-validation required as next step."
+  "note": "OWNER LABOT applied to Crowdin 5/5 with read-back and export validation PASS."
 }

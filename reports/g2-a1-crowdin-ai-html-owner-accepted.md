@@ -2,7 +2,7 @@
 
 **Datums:** 2026-09-07  
 **OWNER lēmums:** Visas 5 rindas → **LABOT**  
-**Apply statuss:** **NAV VEIKTS** — gaida kontrolētu Crowdin apply autorizāciju  
+**Apply statuss:** **APPLIED_VERIFIED_5/5** (2026-09-07)  
 **Job ID:** `9147332b-a97d-46c1-b5c7-c0033ee07b1a`
 
 ## Apstiprinātais remonts
@@ -22,8 +22,8 @@
 | 4 | sl | 8980 | `a1.card.a1-lang.study.examples[5].native` | LABOT | `ves dan (po dolžini).` |
 | 5 | sl | 8988 | `a1.card.a1-lang.study.explanation[3]` | LABOT | `V stavku den ganzen Tag lang to pomeni ves dan (po dolžini).` |
 
-## Nākamais solis (nav automātisks)
+## Nākamais solis
 
-1. Kontrolēts **5 rindu Crowdin apply** (fi + sl)
-2. Atkārtota **fi/sl validācija** pēc apply
+1. ~~Kontrolēts **5 rindu Crowdin apply** (fi + sl)~~ — **DONE**
+2. ~~Atkārtota **fi/sl validācija** pēc apply~~ — **PASS**
 3. Production imports — tikai pēc atsevišķas OWNER autorizācijas
