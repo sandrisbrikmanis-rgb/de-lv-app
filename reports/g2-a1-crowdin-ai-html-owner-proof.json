@@ -5,6 +5,12 @@
   "aiPromptName": "DE-LV App G2-A1 Translation",
   "crowdinFileId": 16,
   "crowdinFilePath": "/main/crowdin/content/g2/lv-a1.json",
+  "ownerDecision": {
+    "date": "2026-09-07",
+    "summary": "5/5 LABOT",
+    "applyStatus": "NOT_APPLIED",
+    "scope": "narrow_html_repair_only_not_linguistic_review"
+  },
   "summary": {
     "affectedTranslationValues": 5,
     "extraHtmlTagTokens": 10,
@@ -26,7 +32,7 @@
       },
       "onlyBoldTagsRemoved": true,
       "textIdenticalAsideFromBold": true,
-      "OWNER_DECISION": "PENDING"
+      "OWNER_DECISION": "LABOT"
     },
     {
       "row": 2,
@@ -42,7 +48,7 @@
       },
       "onlyBoldTagsRemoved": true,
       "textIdenticalAsideFromBold": true,
-      "OWNER_DECISION": "PENDING"
+      "OWNER_DECISION": "LABOT"
     },
     {
       "row": 3,
@@ -58,7 +64,7 @@
       },
       "onlyBoldTagsRemoved": true,
       "textIdenticalAsideFromBold": true,
-      "OWNER_DECISION": "PENDING"
+      "OWNER_DECISION": "LABOT"
     },
     {
       "row": 4,
@@ -74,7 +80,7 @@
       },
       "onlyBoldTagsRemoved": true,
       "textIdenticalAsideFromBold": true,
-      "OWNER_DECISION": "PENDING"
+      "OWNER_DECISION": "LABOT"
     },
     {
       "row": 5,
@@ -90,8 +96,8 @@
       },
       "onlyBoldTagsRemoved": true,
       "textIdenticalAsideFromBold": true,
-      "OWNER_DECISION": "PENDING"
+      "OWNER_DECISION": "LABOT"
     }
   ],
-  "note": "PROPOSED_NEW not written to Crowdin. HTML apply requires separate OWNER authorization."
+  "note": "OWNER approved LABOT for all 5 rows (2026-09-07). PROPOSED_NEW not yet written to Crowdin. Controlled apply + fi/sl re-validation required as next step."
 }

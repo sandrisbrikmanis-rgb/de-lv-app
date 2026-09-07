@@ -15,7 +15,8 @@
 | Lieki HTML tagu tokeni | **10** (`<b>`, `</b>`) |
 | `fi` | 1 vērtība / 2 tokeni |
 | `sl` | 4 vērtības / 8 tokeni |
-| OWNER_DECISION (visas rindas) | **PENDING** |
+| OWNER_DECISION (visas rindas) | **LABOT** (5/5) |
+| Crowdin apply | **Nav veikts** |
 
 **Problēma:** AI pievienoja `<b>`/`</b>` tagus ap iekavām, kaut gan LV avotā HTML nav.
 
@@ -33,7 +34,7 @@
 
 - **Crowdin string ID:** 9366
 - **LV avots:** Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).
-- **OWNER_DECISION:** PENDING
+- **OWNER_DECISION:** LABOT
 
 **CURRENT:**
 ```
@@ -55,7 +56,7 @@ Omistusavulla (mein/dein/ihr Mann) lähes aina tarkoitetaan aviomiestä.
 
 - **Crowdin string ID:** 6672
 - **LV avots:** Bieži raksturo: sajūtu (tikai vienskaitlī).
-- **OWNER_DECISION:** PENDING
+- **OWNER_DECISION:** LABOT
 
 **CURRENT:**
 ```
@@ -77,7 +78,7 @@ Pogosto značilno: (samo ednina).
 
 - **Crowdin string ID:** 6794
 - **LV avots:** aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.
-- **OWNER_DECISION:** PENDING
+- **OWNER_DECISION:** LABOT
 
 **CURRENT:**
 ```
@@ -99,7 +100,7 @@ aufs = auf das, samo pri srednjem spolu (das) kam? sklonu.
 
 - **Crowdin string ID:** 8980
 - **LV avots:** visu dienu (garumā).
-- **OWNER_DECISION:** PENDING
+- **OWNER_DECISION:** LABOT
 
 **CURRENT:**
 ```
@@ -121,7 +122,7 @@ ves dan (po dolžini).
 
 - **Crowdin string ID:** 8988
 - **LV avots:** Frāzē den ganzen Tag lang tas nozīmē visu dienu (garumā).
-- **OWNER_DECISION:** PENDING
+- **OWNER_DECISION:** LABOT
 
 **CURRENT:**
 ```
@@ -143,6 +144,6 @@ V stavku den ganzen Tag lang to pomeni ves dan (po dolžini).
 
 - [OWNER decisions](g2-a1-crowdin-ai-html-owner-decisions.md)
 - [Proof JSON](g2-a1-crowdin-ai-html-owner-proof.json)
-- [GitHub indekss](g2-a1-crowdin-ai-html-owner-GITHUB.md)
+- [OWNER accepted (LABOT)](g2-a1-crowdin-ai-html-owner-accepted.md)
 
-**Piezīme:** `PROPOSED_NEW` nav ierakstīts Crowdin. HTML apply prasa atsevišķu OWNER autorizāciju.
+**Piezīme:** OWNER apstiprinājis LABOT (5/5). Crowdin apply **vēl nav veikts** — nepieciešams kontrolēts 5 rindu apply un fi/sl re-validācija.
