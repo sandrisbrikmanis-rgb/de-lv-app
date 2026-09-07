@@ -1,0 +1,6 @@
+row,languageId,crowdinStringId,key,CURRENT,PROPOSED_NEW,OWNER_DECISION
+1,fi,9366,a1.card.a1-mann.study.tip[0],"Omistusavulla <b>(mein/dein/ihr Mann)</b> lähes aina tarkoitetaan aviomiestä.","Omistusavulla (mein/dein/ihr Mann) lähes aina tarkoitetaan aviomiestä.",PENDING
+2,sl,6672,a1.card.a1-appetit.study.explanation[2],"Pogosto značilno: <b>(</b>samo ednina<b>)</b>.","Pogosto značilno: (samo ednina).",PENDING
+3,sl,6794,a1.card.a1-aufs.study.important[0],"aufs = auf das, samo pri srednjem spolu <b>(</b>das<b>)</b> kam? sklonu.","aufs = auf das, samo pri srednjem spolu (das) kam? sklonu.",PENDING
+4,sl,8980,a1.card.a1-lang.study.examples[5].native,"ves dan <b>(</b>po dolžini<b>)</b>.","ves dan (po dolžini).",PENDING
+5,sl,8988,a1.card.a1-lang.study.explanation[3],"V stavku den ganzen Tag lang to pomeni ves dan <b>(</b>po dolžini<b>)</b>.","V stavku den ganzen Tag lang to pomeni ves dan (po dolžini).",PENDING
