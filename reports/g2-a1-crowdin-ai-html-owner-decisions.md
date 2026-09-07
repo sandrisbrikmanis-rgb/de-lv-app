@@ -3,7 +3,7 @@
 **Datums:** 2026-09-07  
 **Avots:** `reports/g2-a1-crowdin-ai-html-owner-view.md`  
 **Job ID:** `9147332b-a97d-46c1-b5c7-c0033ee07b1a`  
-**Statuss:** OWNER lēmums **LABOT** (5/5) — **Crowdin apply vēl nav veikts**
+**Statuss:** OWNER lēmums **LABOT** (5/5) — **Crowdin apply: APPLIED_VERIFIED_5/5**
 
 ## Lēmumu tabula
 
