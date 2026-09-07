@@ -1,0 +1,1087 @@
+{
+  "meta": {
+    "auditType": "CS-DE B1 FINAL TARGETED REGRESSION / CLOSURE AUDIT",
+    "linguisticAuditModel": "GPT-5.6 Luna",
+    "apiModel": "gpt-5.6-luna",
+    "date": "2026-08-15T06:59:17.942Z",
+    "branch": "cursor/cs-b1-final-targeted-closure-audit-6ea4",
+    "auditCommit": "16e1d6f57981f4945d67a519d6617567b827d2e4",
+    "readOnly": true,
+    "residualApplyReport": "/workspace/reports/cs-b1-targeted-regression-residual-groups01-03-apply.md",
+    "preResidualApplySha": "b939ebdf",
+    "preRepairBaselineSha": "f66e36e9ce74e2355d31c1fa5c728d23daca2337"
+  },
+  "summary": {
+    "prerequisitePass": true,
+    "residualGroups": 3,
+    "residualWorklistCards": 116,
+    "residualTargetMatch": "116/116",
+    "actuallyChangedCards": 41,
+    "targetedCardsAudited": "41/41",
+    "currentValueMismatch": 0,
+    "diverged": 0,
+    "missing": 0,
+    "rawCandidates": 46,
+    "falsePositives": 31,
+    "ownerLockConfirmed": 12,
+    "ownerLockReopenRequired": 1,
+    "sourceDeIssue": 0,
+    "validated": {
+      "CRITICAL": 0,
+      "HIGH": 1,
+      "MEDIUM": 1,
+      "LOW": 0
+    },
+    "foreignRemnants": 0,
+    "placeholders": 4,
+    "staleSectionAccents": 1,
+    "foreignSectionAccents": 0,
+    "outOfScopeB1Changes": 0,
+    "unexpectedProductionChanges": 0,
+    "syntax": "PASS",
+    "importLoad": "PASS",
+    "cardCount": 3367,
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "structure": "PASS",
+    "studyStructure": "PASS",
+    "sectionAccentsStructure": "PASS",
+    "deIntegrity": "PASS",
+    "deChanges": 0,
+    "productionChangesDuringAudit": 0,
+    "lunaRequests": 5,
+    "lunaTokens": 84655,
+    "residualCardsCount": 2,
+    "verdict": "RESIDUAL REPAIR REQUIRED",
+    "overall": "FAIL"
+  },
+  "prerequisite": {
+    "pass": true,
+    "exact": 116,
+    "total": 116,
+    "mismatches": [],
+    "groupsApplied": 3
+  },
+  "changeScope": {
+    "worklistCards": 116,
+    "actuallyChangedCardIds": [
+      "b1-bedeutend",
+      "b1-sich-bemühen",
+      "b1-berichten",
+      "b1-beschwerde",
+      "b1-bestehen",
+      "b1-bildschirm",
+      "b1-dadurch",
+      "b1-dank-study",
+      "b1-durchführen",
+      "b1-einerlei",
+      "b1-einfallen",
+      "b1-einfügen",
+      "b1-einführen",
+      "b1-einführung",
+      "b1-einheit",
+      "b1-einsetzen",
+      "b1-empfangen",
+      "b1-entfernen",
+      "b1-entsprechen",
+      "b1-entstehen",
+      "b1-ersetzen",
+      "b1-feststellen",
+      "b1-folge",
+      "b1-fördern",
+      "b1-fressen",
+      "b1-herausgeben",
+      "b1-hinweis",
+      "b1-hort",
+      "b1-hupe",
+      "b1-kreuzen",
+      "b1-kündigen",
+      "b1-kurs",
+      "b1-kürze",
+      "b1-inhalt",
+      "b1-kosten-study",
+      "b1-laut-study",
+      "b1-pochen",
+      "b1-schmelzen",
+      "b1-sowie-2660",
+      "b1-tau",
+      "b1-sich-befinden-study"
+    ],
+    "changedCards": [
+      {
+        "cardId": "b1-bedeutend",
+        "productionIndex": 263,
+        "worklistIndex": 1,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-sich-bemühen",
+        "productionIndex": 339,
+        "worklistIndex": 2,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-berichten",
+        "productionIndex": 363,
+        "worklistIndex": 4,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-beschwerde",
+        "productionIndex": 382,
+        "worklistIndex": 5,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-bestehen",
+        "productionIndex": 396,
+        "worklistIndex": 6,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-bildschirm",
+        "productionIndex": 443,
+        "worklistIndex": 7,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-dadurch",
+        "productionIndex": 552,
+        "worklistIndex": 9,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-dank-study",
+        "productionIndex": 559,
+        "worklistIndex": 10,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-durchführen",
+        "productionIndex": 628,
+        "worklistIndex": 11,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-einerlei",
+        "productionIndex": 667,
+        "worklistIndex": 12,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-einfallen",
+        "productionIndex": 670,
+        "worklistIndex": 13,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-einfügen",
+        "productionIndex": 673,
+        "worklistIndex": 14,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-einführen",
+        "productionIndex": 674,
+        "worklistIndex": 15,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-einführung",
+        "productionIndex": 675,
+        "worklistIndex": 16,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-einheit",
+        "productionIndex": 679,
+        "worklistIndex": 17,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-einsetzen",
+        "productionIndex": 708,
+        "worklistIndex": 18,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-empfangen",
+        "productionIndex": 740,
+        "worklistIndex": 19,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-entfernen",
+        "productionIndex": 750,
+        "worklistIndex": 20,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-entsprechen",
+        "productionIndex": 761,
+        "worklistIndex": 21,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-entstehen",
+        "productionIndex": 762,
+        "worklistIndex": 22,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-ersetzen",
+        "productionIndex": 821,
+        "worklistIndex": 23,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-feststellen",
+        "productionIndex": 893,
+        "worklistIndex": 24,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-folge",
+        "productionIndex": 929,
+        "worklistIndex": 25,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-fördern",
+        "productionIndex": 932,
+        "worklistIndex": 26,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-fressen",
+        "productionIndex": 951,
+        "worklistIndex": 27,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-herausgeben",
+        "productionIndex": 1247,
+        "worklistIndex": 29,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-hinweis",
+        "productionIndex": 1276,
+        "worklistIndex": 30,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-hort",
+        "productionIndex": 1314,
+        "worklistIndex": 31,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-hupe",
+        "productionIndex": 1329,
+        "worklistIndex": 32,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-kreuzen",
+        "productionIndex": 1634,
+        "worklistIndex": 34,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-kündigen",
+        "productionIndex": 1665,
+        "worklistIndex": 36,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-kurs",
+        "productionIndex": 1679,
+        "worklistIndex": 38,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-kürze",
+        "productionIndex": 1682,
+        "worklistIndex": 39,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-inhalt",
+        "productionIndex": 1709,
+        "worklistIndex": 43,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-kosten-study",
+        "productionIndex": 1712,
+        "worklistIndex": 46,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-laut-study",
+        "productionIndex": 1736,
+        "worklistIndex": 48,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-pochen",
+        "productionIndex": 2130,
+        "worklistIndex": 49,
+        "group": "01"
+      },
+      {
+        "cardId": "b1-schmelzen",
+        "productionIndex": 2478,
+        "worklistIndex": 51,
+        "group": "02"
+      },
+      {
+        "cardId": "b1-sowie-2660",
+        "productionIndex": 2660,
+        "worklistIndex": 59,
+        "group": "02"
+      },
+      {
+        "cardId": "b1-tau",
+        "productionIndex": 2856,
+        "worklistIndex": 75,
+        "group": "02"
+      },
+      {
+        "cardId": "b1-sich-befinden-study",
+        "productionIndex": 3344,
+        "worklistIndex": 116,
+        "group": "03"
+      }
+    ]
+  },
+  "ownerLock": {
+    "matches": [
+      {
+        "source": "deterministic",
+        "cardId": "b1-einerlei",
+        "productionIndex": null,
+        "field": "entry[667].study.explanation",
+        "severity": "HIGH",
+        "category": null,
+        "currentCs": "Hlavní myšlenka: einerleii znamená „je mi to jedno“ nebo „nezáleží na tom“. Zní formálněji či staromódněji než běžné egal.",
+        "currentDe": "einerlei",
+        "recommendedCs": "(Czech text required)",
+        "reason": "Foreign remnant (PL_CHAR) in entry[667].study.explanation",
+        "problem": "Foreign remnant (PL_CHAR) in entry[667].study.explanation",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "651-700",
+          "cardId": "b1-einerlei",
+          "field": "entry[667].study.explanation",
+          "severity": "HIGH",
+          "status": "FINDING",
+          "currentCs": "Hlavní myšlenka: einerleii znamená „je mi to jedno“ nebo „nezáleží na tom“. Zní formálněji či staromódněji než běžné egal.",
+          "de": "einerlei",
+          "lvSource": "vienalga",
+          "problem": "Foreign remnant (PL_CHAR) in entry[667].study.explanation",
+          "proposedCs": "(Czech text required)",
+          "rationale": "CS field must not contain LV/PL/SK contamination"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "FALSE_POSITIVE",
+        "previousOwnerReason": "Čehu diakritika/teksts ir korekts; foreign-character heuristika nav valodas kļūda.",
+        "previousApprovedValue": "Hlavní myšlenka: einerleii znamená „je mi to jedno“ nebo „nezáleží na tom“. Zní formálněji či staromódněji než běžné egal.",
+        "currentValue": "Hlavní myšlenka: einerleii znamená „je mi to jedno“ nebo „nezáleží na tom“. Zní formálněji či staromódněji než běžné egal."
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-kreuzen",
+        "productionIndex": null,
+        "field": "study.sectionAccents.tip",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "krustu",
+        "currentDe": "kreuzen",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"krustu\" not found in section text",
+        "problem": "Accent term \"krustu\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1601-1650",
+          "cardId": "b1-kreuzen",
+          "field": "study.sectionAccents.tip",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "krustu",
+          "de": "kreuzen",
+          "lvSource": "šķērsot",
+          "problem": "Accent term \"krustu\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Finding does not require a production change after OWNER review.",
+        "previousApprovedValue": {
+          "blue": "kreuzen",
+          "purple": "krustu",
+          "yellow": [
+            "Pokud",
+            "Pokud"
+          ]
+        },
+        "currentValue": {
+          "blue": "kreuzen",
+          "purple": "krustu",
+          "yellow": [
+            "Pokud",
+            "Pokud"
+          ]
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-kündigen",
+        "productionIndex": null,
+        "field": "study.sectionAccents.tip",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "Úloha",
+        "currentDe": "kündigen",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"Úloha\" not found in section text",
+        "problem": "Accent term \"Úloha\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1651-1700",
+          "cardId": "b1-kündigen",
+          "field": "study.sectionAccents.tip",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "Úloha",
+          "de": "kündigen",
+          "lvSource": "uzteikt darbu",
+          "problem": "Accent term \"Úloha\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Finding does not require a production change after OWNER review.",
+        "previousApprovedValue": {
+          "blue": "kündigen",
+          "purple": "Úloha",
+          "yellow": [
+            "Úloha",
+            "Úloha",
+            "Úloha"
+          ]
+        },
+        "currentValue": {
+          "blue": "kündigen",
+          "purple": "Úloha",
+          "yellow": []
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-kündigen",
+        "productionIndex": null,
+        "field": "study.sectionAccents.important",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "konstrukcija",
+        "currentDe": "kündigen",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"konstrukcija\" not found in section text",
+        "problem": "Accent term \"konstrukcija\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1651-1700",
+          "cardId": "b1-kündigen",
+          "field": "study.sectionAccents.important",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "konstrukcija",
+          "de": "kündigen",
+          "lvSource": "uzteikt darbu",
+          "problem": "Accent term \"konstrukcija\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Finding does not require a production change after OWNER review.",
+        "previousApprovedValue": {
+          "blue": "kündigen",
+          "red": "entlassen",
+          "purple": "konstrukcija"
+        },
+        "currentValue": {
+          "blue": "kündigen",
+          "red": "entlassen",
+          "purple": "konstrukcija"
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-kurs",
+        "productionIndex": null,
+        "field": "study.sectionAccents.explanation",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "kurss",
+        "currentDe": "Kurs",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"kurss\" not found in section text",
+        "problem": "Accent term \"kurss\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1651-1700",
+          "cardId": "b1-kurs",
+          "field": "study.sectionAccents.explanation",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "kurss",
+          "de": "Kurs",
+          "lvSource": "kurss",
+          "problem": "Accent term \"kurss\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Finding does not require a production change after OWNER review.",
+        "previousApprovedValue": {
+          "blue": "der Kurs",
+          "purple": "kurss",
+          "yellow": [
+            "Hlavní",
+            "Hlavní",
+            "cenu"
+          ]
+        },
+        "currentValue": {
+          "blue": "der Kurs",
+          "purple": "kurss",
+          "yellow": [
+            "Hlavní",
+            "Hlavní"
+          ]
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-kurs",
+        "productionIndex": null,
+        "field": "study.sectionAccents.tip",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "Školení",
+        "currentDe": "Kurs",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"Školení\" not found in section text",
+        "problem": "Accent term \"Školení\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1651-1700",
+          "cardId": "b1-kurs",
+          "field": "study.sectionAccents.tip",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "Školení",
+          "de": "Kurs",
+          "lvSource": "kurss",
+          "problem": "Accent term \"Školení\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Finding does not require a production change after OWNER review.",
+        "previousApprovedValue": {
+          "blue": "der Kurs",
+          "purple": "Školení",
+          "yellow": [
+            "Školení",
+            "Školení",
+            "cena"
+          ]
+        },
+        "currentValue": {
+          "blue": "der Kurs",
+          "purple": "Školení",
+          "yellow": []
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-kurs",
+        "productionIndex": null,
+        "field": "study.sectionAccents.important",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "konteksts",
+        "currentDe": "Kurs",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"konteksts\" not found in section text",
+        "problem": "Accent term \"konteksts\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1651-1700",
+          "cardId": "b1-kurs",
+          "field": "study.sectionAccents.important",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "konteksts",
+          "de": "Kurs",
+          "lvSource": "kurss",
+          "problem": "Accent term \"konteksts\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Finding does not require a production change after OWNER review.",
+        "previousApprovedValue": {
+          "purple": "konteksts",
+          "yellow": [
+            "češtině",
+            "češtině",
+            "cenu"
+          ]
+        },
+        "currentValue": {
+          "purple": "konteksts",
+          "yellow": [
+            "češtině",
+            "češtině"
+          ]
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-kürze",
+        "productionIndex": null,
+        "field": "study.sectionAccents.explanation",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "die",
+        "currentDe": "Kürze",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"die\" not found in section text",
+        "problem": "Accent term \"die\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1651-1700",
+          "cardId": "b1-kürze",
+          "field": "study.sectionAccents.explanation",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "die",
+          "de": "Kürze",
+          "lvSource": "īsums",
+          "problem": "Accent term \"die\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Finding does not require a production change after OWNER review.",
+        "previousApprovedValue": {
+          "blue": [
+            "die Kürze",
+            "Hlavní"
+          ],
+          "purple": [
+            "Hlavní",
+            "Hlavní"
+          ],
+          "red": "die"
+        },
+        "currentValue": {
+          "blue": [],
+          "purple": [],
+          "red": "die"
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-kürze",
+        "productionIndex": null,
+        "field": "study.sectionAccents.important",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "in Kürze",
+        "currentDe": "Kürze",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"in Kürze\" not found in section text",
+        "problem": "Accent term \"in Kürze\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1651-1700",
+          "cardId": "b1-kürze",
+          "field": "study.sectionAccents.important",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "in Kürze",
+          "de": "Kürze",
+          "lvSource": "īsums",
+          "problem": "Accent term \"in Kürze\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Finding does not require a production change after OWNER review.",
+        "previousApprovedValue": {
+          "blue": "die Kürze",
+          "red": "in Kürze",
+          "purple": "Die"
+        },
+        "currentValue": {
+          "blue": "die Kürze",
+          "red": "in Kürze",
+          "purple": "Die"
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-inhalt",
+        "productionIndex": null,
+        "field": "study.sectionAccents.important",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "saturs",
+        "currentDe": "Inhalt",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"saturs\" not found in section text",
+        "problem": "Accent term \"saturs\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1701-1750",
+          "cardId": "b1-inhalt",
+          "field": "study.sectionAccents.important",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "saturs",
+          "de": "Inhalt",
+          "lvSource": "saturs",
+          "problem": "Accent term \"saturs\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Audita ieteikums nav konkrēts drošs target; production vērtība netiek mehāniski mainīta.",
+        "previousApprovedValue": {
+          "blue": "der Inhalt",
+          "purple": "saturs",
+          "red": "Tilpuma"
+        },
+        "currentValue": {
+          "blue": "der Inhalt",
+          "purple": "saturs",
+          "red": "Tilpuma"
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-inhalt",
+        "productionIndex": null,
+        "field": "study.sectionAccents.important",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "Tilpuma",
+        "currentDe": "Inhalt",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"Tilpuma\" not found in section text",
+        "problem": "Accent term \"Tilpuma\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "1701-1750",
+          "cardId": "b1-inhalt",
+          "field": "study.sectionAccents.important",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "Tilpuma",
+          "de": "Inhalt",
+          "lvSource": "saturs",
+          "problem": "Accent term \"Tilpuma\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Audita ieteikums nav konkrēts drošs target; production vērtība netiek mehāniski mainīta.",
+        "previousApprovedValue": {
+          "blue": "der Inhalt",
+          "purple": "saturs",
+          "red": "Tilpuma"
+        },
+        "currentValue": {
+          "blue": "der Inhalt",
+          "purple": "saturs",
+          "red": "Tilpuma"
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-schmelzen",
+        "productionIndex": null,
+        "field": "study.sectionAccents.explanation",
+        "severity": "MEDIUM",
+        "category": null,
+        "currentCs": "kust",
+        "currentDe": "schmelzen",
+        "recommendedCs": "(term matching Czech section text)",
+        "reason": "Accent term \"kust\" not found in section text",
+        "problem": "Accent term \"kust\" not found in section text",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "2451-2500",
+          "cardId": "b1-schmelzen",
+          "field": "study.sectionAccents.explanation",
+          "severity": "MEDIUM",
+          "status": "FINDING",
+          "currentCs": "kust",
+          "de": "schmelzen",
+          "lvSource": "kust",
+          "problem": "Accent term \"kust\" not found in section text",
+          "proposedCs": "(term matching Czech section text)",
+          "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+        },
+        "ownerLockStatus": "OWNER_LOCK_CONFIRMED",
+        "validationStatus": "OWNER_LOCK_CONFIRMED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Audita ieteikums nav konkrēts drošs target; OWNER neizdomā aizvietojumu.",
+        "previousApprovedValue": {
+          "blue": "schmelzen",
+          "purple": "kust",
+          "red": ""
+        },
+        "currentValue": {
+          "blue": "schmelzen",
+          "purple": "kust",
+          "red": ""
+        }
+      },
+      {
+        "source": "deterministic",
+        "cardId": "b1-sowie-2660",
+        "productionIndex": null,
+        "field": "study.sectionAccents",
+        "severity": "HIGH",
+        "category": null,
+        "currentCs": "(missing)",
+        "currentDe": "sowie",
+        "recommendedCs": "(add sectionAccents)",
+        "reason": "sectionAccents missing but LV etalon has them",
+        "problem": "sectionAccents missing but LV etalon has them",
+        "confidence": null,
+        "status": "FINDING",
+        "raw": {
+          "dataset": "b1",
+          "batch": "2651-2700",
+          "cardId": "b1-sowie-2660",
+          "field": "study.sectionAccents",
+          "severity": "HIGH",
+          "status": "FINDING",
+          "currentCs": "(missing)",
+          "de": "sowie",
+          "lvSource": "(LV has accents)",
+          "problem": "sectionAccents missing but LV etalon has them",
+          "proposedCs": "(add sectionAccents)",
+          "rationale": "STUDY_CARD_RULES — sectionAccents required"
+        },
+        "ownerLockStatus": "OWNER_LOCK_REOPEN_REQUIRED",
+        "validationStatus": "OWNER_LOCK_REOPEN_REQUIRED",
+        "previousOwnerDecision": "NELABOT",
+        "previousOwnerReason": "Nav konkrēta droša target; heuristisku aizvietojumu neizdomājam.",
+        "previousApprovedValue": "(missing)",
+        "newEvidence": "Objective new issue at study.sectionAccents not covered by prior NELABOT",
+        "reopenReason": "sectionAccents missing but LV etalon has them"
+      }
+    ],
+    "confirmed": 12,
+    "reopenRequired": 1
+  },
+  "b1TonReview": {
+    "cardId": "b1-ton",
+    "priorFirstAuditReopenCount": 3,
+    "finalStatuses": [],
+    "reopenRequired": 0,
+    "confirmed": 0
+  },
+  "validatedRealFindings": [
+    {
+      "source": "deterministic",
+      "cardId": "b1-inhalt",
+      "productionIndex": null,
+      "field": "study.sectionAccents.explanation",
+      "severity": "MEDIUM",
+      "category": null,
+      "currentCs": "der Inhalt",
+      "currentDe": "Inhalt",
+      "recommendedCs": "(term matching Czech section text)",
+      "reason": "Accent term \"der Inhalt\" not found in section text",
+      "problem": "Accent term \"der Inhalt\" not found in section text",
+      "confidence": null,
+      "status": "FINDING",
+      "raw": {
+        "dataset": "b1",
+        "batch": "1701-1750",
+        "cardId": "b1-inhalt",
+        "field": "study.sectionAccents.explanation",
+        "severity": "MEDIUM",
+        "status": "FINDING",
+        "currentCs": "der Inhalt",
+        "de": "Inhalt",
+        "lvSource": "saturs",
+        "problem": "Accent term \"der Inhalt\" not found in section text",
+        "proposedCs": "(term matching Czech section text)",
+        "rationale": "STUDY_CARD_RULES — stale/wrong accent"
+      },
+      "validationStatus": "VALIDATED_REAL"
+    },
+    {
+      "source": "deterministic",
+      "cardId": "b1-sowie-2660",
+      "productionIndex": 2660,
+      "field": "structure",
+      "severity": "HIGH",
+      "category": null,
+      "currentCs": "(missing fields)",
+      "currentDe": "sowie",
+      "recommendedCs": "Restore parity with LV structure",
+      "reason": "Missing fields vs LV: study.id, study.layout, study.translation, study.explanation, study.examples, study.tip, study.important",
+      "problem": "Missing fields vs LV: study.id, study.layout, study.translation, study.explanation, study.examples, study.tip, study.important",
+      "confidence": null,
+      "status": "FINDING",
+      "raw": {
+        "dataset": "b1",
+        "batch": "2651-2700",
+        "cardId": "b1-sowie-2660",
+        "index": 2660,
+        "field": "structure",
+        "severity": "HIGH",
+        "status": "FINDING",
+        "currentCs": "(missing fields)",
+        "de": "sowie",
+        "lvSource": "kā arī",
+        "problem": "Missing fields vs LV: study.id, study.layout, study.translation, study.explanation, study.examples, study.tip, study.important",
+        "proposedCs": "Restore parity with LV structure",
+        "rationale": "APP_QUALITY_STANDARD structural parity"
+      },
+      "validationStatus": "VALIDATED_REAL"
+    },
+    {
+      "source": "deterministic",
+      "cardId": "b1-sowie-2660",
+      "productionIndex": null,
+      "field": "study.sectionAccents",
+      "severity": "HIGH",
+      "category": null,
+      "currentCs": "(missing)",
+      "currentDe": "sowie",
+      "recommendedCs": "(add sectionAccents)",
+      "reason": "sectionAccents missing but LV etalon has them",
+      "problem": "sectionAccents missing but LV etalon has them",
+      "confidence": null,
+      "status": "FINDING",
+      "raw": {
+        "dataset": "b1",
+        "batch": "2651-2700",
+        "cardId": "b1-sowie-2660",
+        "field": "study.sectionAccents",
+        "severity": "HIGH",
+        "status": "FINDING",
+        "currentCs": "(missing)",
+        "de": "sowie",
+        "lvSource": "(LV has accents)",
+        "problem": "sectionAccents missing but LV etalon has them",
+        "proposedCs": "(add sectionAccents)",
+        "rationale": "STUDY_CARD_RULES — sectionAccents required"
+      },
+      "ownerLockStatus": "OWNER_LOCK_REOPEN_REQUIRED",
+      "validationStatus": "OWNER_LOCK_REOPEN_REQUIRED",
+      "previousOwnerDecision": "NELABOT",
+      "previousOwnerReason": "Nav konkrēta droša target; heuristisku aizvietojumu neizdomājam.",
+      "previousApprovedValue": "(missing)",
+      "newEvidence": "Objective new issue at study.sectionAccents not covered by prior NELABOT",
+      "reopenReason": "sectionAccents missing but LV etalon has them"
+    }
+  ],
+  "integrity": {
+    "b1Total": 3367,
+    "studyCount": 324,
+    "idUniqueness": "PASS",
+    "idOrder": "PASS",
+    "syntax": "PASS",
+    "importLoad": "PASS",
+    "structure": "PASS",
+    "studyStructure": "PASS",
+    "sectionAccentsStructure": "PASS",
+    "deIntegrity": "PASS",
+    "deChanges": 0
+  },
+  "lunaAudit": {
+    "cardsAudited": 41,
+    "cardsExpected": 41,
+    "apiUsage": {
+      "model": "gpt-5.6-luna",
+      "requestCount": 5,
+      "initialBatchRequests": 0,
+      "retryRequests": 0,
+      "batchCount": 5,
+      "batchSizes": [
+        10,
+        10,
+        10,
+        10,
+        1
+      ],
+      "retryCount": 0,
+      "retryReasons": {},
+      "inputTokens": 68276,
+      "cachedInputTokens": 0,
+      "outputTokens": 16379,
+      "reasoningTokens": 12418,
+      "totalTokens": 84655,
+      "findingsCount": 31,
+      "passCount": 14
+    }
+  }
+}
