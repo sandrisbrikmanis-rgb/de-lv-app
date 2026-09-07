@@ -1,0 +1,546 @@
+{
+  "generatedAt": "2026-09-07T09:47:28.249Z",
+  "stagingRoot": "reports/staging/g2-a1-phase3-crowdin",
+  "exports": [
+    {
+      "crowdinLocaleId": "bg",
+      "repoLang": "bg",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/bg-a1.json",
+      "sha256": "a3df8acab6b4c490f1c57f1cdab4e7b2c314d022f9e0e3ab999df8f2ec5c2fd0",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "bs",
+      "repoLang": "bs",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/bs-a1.json",
+      "sha256": "f15ec678baf11d85eccfcca9aafc40c3130620166b59200dc5cfdf12b20bfda6",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "cs",
+      "repoLang": "cs",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/cs-a1.json",
+      "sha256": "0f95996e7a927c20d23113cbbbd2ab3655a03be58f701ec4501ff814830cca8b",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "da",
+      "repoLang": "da",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/da-a1.json",
+      "sha256": "540c965073dd61af2828f978d4d7489a5bb0d92c95d1197ce8b20dfa51970993",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "el",
+      "repoLang": "gr",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/gr-a1.json",
+      "sha256": "af8c0540f1174469b1a8748177146d657bc023ee134e919d64c47882b69b37f8",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "en-GB",
+      "repoLang": "en",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/en-a1.json",
+      "sha256": "4b7684a20e097ceea0130dfe0423233708a08b9b7d6b96716798c6cc32fd0dbb",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "es-ES",
+      "repoLang": "es",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/es-a1.json",
+      "sha256": "bfff259b20a79eadf35cb809a7994b888ef3a7d49987f7acb3cd1f82e7b25eeb",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "et",
+      "repoLang": "et",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/et-a1.json",
+      "sha256": "89cf8275a37c423fa5a958dbfeaa331e20bc3ed7f61740649609e4ca8bc589ca",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "fi",
+      "repoLang": "fi",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/fi-a1.json",
+      "sha256": "d20d908eb988d39ab0e33f75e0dca85cfbe275357baabc32fbe89b496d999114",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "fr",
+      "repoLang": "fr",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/fr-a1.json",
+      "sha256": "4c2777aab44a212b3d1fa53682034c4c1ca920977ad1aa891e77afe69e3668cc",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "hr",
+      "repoLang": "hr",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/hr-a1.json",
+      "sha256": "7a1ed07da09be3548a6c9c4e6ad99cbc12567a4ee7aaf7c917c24ee6b6e02511",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "hu",
+      "repoLang": "hu",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/hu-a1.json",
+      "sha256": "9f954350ccf0ae992a02a7c14f69c0fd26aafa0a05d02b90d9ea2026945f815b",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "is",
+      "repoLang": "is",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/is-a1.json",
+      "sha256": "df7f9b181ff53591fae5a8456fe2660648fd26cf8e3e6f151b78456b80f94bdf",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "it",
+      "repoLang": "it",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/it-a1.json",
+      "sha256": "919b8d267fe20d73fdcbd9136713bef9ca5cdf449f6fdcc9ea887ed7310a0c5e",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "lb",
+      "repoLang": "lb",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/lb-a1.json",
+      "sha256": "9fb7b2953afb478039227bb8f18c5f5669749946a9b0ad6c841be2fa6137266e",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "lt",
+      "repoLang": "lt",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/lt-a1.json",
+      "sha256": "11c3a4bf9aaf3159d98239e0a2599ecd669d2a75722c5bb66ca9539a69c724df",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "mk",
+      "repoLang": "mk",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/mk-a1.json",
+      "sha256": "a87ea4b491c0acb2ded27576de89b6aeaf6d0ecbe41e9f559413eafc8a52bc1b",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "nb",
+      "repoLang": "nb",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/nb-a1.json",
+      "sha256": "1f00a634babf4e5f6b5073f564587e21daf5fd0f871e1999abe82ccb5d10f841",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "nl",
+      "repoLang": "nl",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/nl-a1.json",
+      "sha256": "d6483c79f32f55fcc86cd2b7e5773ba0f4039f8a3ace3d0d6608ff90d4c9df39",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "nn-NO",
+      "repoLang": "nn",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/nn-a1.json",
+      "sha256": "9ddff9d12d71cb90d8769bb8439685710253128d136b2528e4dea77fdb1bb5c2",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "pl",
+      "repoLang": "pl",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/pl-a1.json",
+      "sha256": "428f8d90b272150b93f2aae4fe6e2fa19639f8882368c71354dba10e5589185a",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "pt-PT",
+      "repoLang": "pt",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/pt-a1.json",
+      "sha256": "9f646f61b64e84f034ea15d3597492203392bc2edc9db27a022eea8c1bdfc3a1",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "ro",
+      "repoLang": "ro",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/ro-a1.json",
+      "sha256": "99dd85a496a606a0c433a850286f4e78826635a2077114bfdaa15e3d9033b92b",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "ru",
+      "repoLang": "ru",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/ru-a1.json",
+      "sha256": "a70ff2aac955b3f0fbca5b1124040b4cb8b2d0ed9427c8aae6686979db8fdd68",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "sk",
+      "repoLang": "sk",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/sk-a1.json",
+      "sha256": "5874d39b94b47bb49e1bac79b4538025ed9f0cb4e47e257c487626909798d959",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "sl",
+      "repoLang": "sl",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/sl-a1.json",
+      "sha256": "eaed07c1501b2948b7ff7a41c17528d84a9e4161075b5dd41b58c33f1f2adc97",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "sq",
+      "repoLang": "sq",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/sq-a1.json",
+      "sha256": "0d1e675c6186e5238f435e45f13fee64eebc318db3c07b21a393d0872af6355f",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "sr",
+      "repoLang": "sr",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/sr-a1.json",
+      "sha256": "6a0d5719785e317c90a6af091bb84280b9d4dcca22fad10f0dfceaa107cef076",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "sv-SE",
+      "repoLang": "sv",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/sv-a1.json",
+      "sha256": "d55e2d33830ca39e5ea114c33c1b407d287161f9a125595080cd4c2c77acd945",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "tr",
+      "repoLang": "tr",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/tr-a1.json",
+      "sha256": "5f6acdc94753001031b63994cb802812d27ea71ca13e9c9e52c26ca3e60d6fe5",
+      "skipped": true
+    },
+    {
+      "crowdinLocaleId": "uk",
+      "repoLang": "uk",
+      "outPath": "/workspace/reports/staging/g2-a1-phase3-crowdin/uk-a1.json",
+      "sha256": "fac9a40afef6155704e03c65aa7072a980f1fcac1e650afb1df5907441e22b76",
+      "skipped": true
+    }
+  ],
+  "verification": {
+    "pass": true,
+    "lvSha256": "854f174e67cb0965fb24c884c43aa2b557a0d581f88bf0761cd846cac4eaf5e8",
+    "languages": [
+      {
+        "crowdinLocaleId": "bg",
+        "repoLang": "bg",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "a3df8acab6b4c490f1c57f1cdab4e7b2c314d022f9e0e3ab999df8f2ec5c2fd0",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "bs",
+        "repoLang": "bs",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "f15ec678baf11d85eccfcca9aafc40c3130620166b59200dc5cfdf12b20bfda6",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "cs",
+        "repoLang": "cs",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "0f95996e7a927c20d23113cbbbd2ab3655a03be58f701ec4501ff814830cca8b",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "da",
+        "repoLang": "da",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "540c965073dd61af2828f978d4d7489a5bb0d92c95d1197ce8b20dfa51970993",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "el",
+        "repoLang": "gr",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "af8c0540f1174469b1a8748177146d657bc023ee134e919d64c47882b69b37f8",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "en-GB",
+        "repoLang": "en",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "4b7684a20e097ceea0130dfe0423233708a08b9b7d6b96716798c6cc32fd0dbb",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "es-ES",
+        "repoLang": "es",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "bfff259b20a79eadf35cb809a7994b888ef3a7d49987f7acb3cd1f82e7b25eeb",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "et",
+        "repoLang": "et",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "89cf8275a37c423fa5a958dbfeaa331e20bc3ed7f61740649609e4ca8bc589ca",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "fi",
+        "repoLang": "fi",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "d20d908eb988d39ab0e33f75e0dca85cfbe275357baabc32fbe89b496d999114",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "fr",
+        "repoLang": "fr",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "4c2777aab44a212b3d1fa53682034c4c1ca920977ad1aa891e77afe69e3668cc",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "hr",
+        "repoLang": "hr",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "7a1ed07da09be3548a6c9c4e6ad99cbc12567a4ee7aaf7c917c24ee6b6e02511",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "hu",
+        "repoLang": "hu",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "9f954350ccf0ae992a02a7c14f69c0fd26aafa0a05d02b90d9ea2026945f815b",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "is",
+        "repoLang": "is",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "df7f9b181ff53591fae5a8456fe2660648fd26cf8e3e6f151b78456b80f94bdf",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "it",
+        "repoLang": "it",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "919b8d267fe20d73fdcbd9136713bef9ca5cdf449f6fdcc9ea887ed7310a0c5e",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "lb",
+        "repoLang": "lb",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "9fb7b2953afb478039227bb8f18c5f5669749946a9b0ad6c841be2fa6137266e",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "lt",
+        "repoLang": "lt",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "11c3a4bf9aaf3159d98239e0a2599ecd669d2a75722c5bb66ca9539a69c724df",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "mk",
+        "repoLang": "mk",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "a87ea4b491c0acb2ded27576de89b6aeaf6d0ecbe41e9f559413eafc8a52bc1b",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "nb",
+        "repoLang": "nb",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "1f00a634babf4e5f6b5073f564587e21daf5fd0f871e1999abe82ccb5d10f841",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "nl",
+        "repoLang": "nl",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "d6483c79f32f55fcc86cd2b7e5773ba0f4039f8a3ace3d0d6608ff90d4c9df39",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "nn-NO",
+        "repoLang": "nn",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "9ddff9d12d71cb90d8769bb8439685710253128d136b2528e4dea77fdb1bb5c2",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "pl",
+        "repoLang": "pl",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "428f8d90b272150b93f2aae4fe6e2fa19639f8882368c71354dba10e5589185a",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "pt-PT",
+        "repoLang": "pt",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "9f646f61b64e84f034ea15d3597492203392bc2edc9db27a022eea8c1bdfc3a1",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "ro",
+        "repoLang": "ro",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "99dd85a496a606a0c433a850286f4e78826635a2077114bfdaa15e3d9033b92b",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "ru",
+        "repoLang": "ru",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "a70ff2aac955b3f0fbca5b1124040b4cb8b2d0ed9427c8aae6686979db8fdd68",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "sk",
+        "repoLang": "sk",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "5874d39b94b47bb49e1bac79b4538025ed9f0cb4e47e257c487626909798d959",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "sl",
+        "repoLang": "sl",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "eaed07c1501b2948b7ff7a41c17528d84a9e4161075b5dd41b58c33f1f2adc97",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "sq",
+        "repoLang": "sq",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "0d1e675c6186e5238f435e45f13fee64eebc318db3c07b21a393d0872af6355f",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "sr",
+        "repoLang": "sr",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "6a0d5719785e317c90a6af091bb84280b9d4dcca22fad10f0dfceaa107cef076",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "sv-SE",
+        "repoLang": "sv",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "d55e2d33830ca39e5ea114c33c1b407d287161f9a125595080cd4c2c77acd945",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "tr",
+        "repoLang": "tr",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "5f6acdc94753001031b63994cb802812d27ea71ca13e9c9e52c26ca3e60d6fe5",
+        "pass": true
+      },
+      {
+        "crowdinLocaleId": "uk",
+        "repoLang": "uk",
+        "keyCount": 2971,
+        "filled": 2971,
+        "missing": 0,
+        "extra": 0,
+        "sha256": "fac9a40afef6155704e03c65aa7072a980f1fcac1e650afb1df5907441e22b76",
+        "pass": true
+      }
+    ],
+    "langPassCount": 31,
+    "expectedLangCount": 31,
+    "totalValues": 92101,
+    "expectedValueCount": 92101,
+    "issues": [],
+    "stagingRoot": "/workspace/reports/staging/g2-a1-phase3-crowdin"
+  },
+  "crowdinApiWrites": 0
+}
