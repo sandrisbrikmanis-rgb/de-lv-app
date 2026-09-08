@@ -33,13 +33,14 @@ function main() {
     process.exit(0);
   }
 
-  const preRepairHeadSha = require("child_process")
+  const preStructureRepairHeadSha = require("child_process")
     .execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" })
     .trim();
   const result = runCrowdinStagingCopyOnlyApply({
     root: ROOT,
     dryRun: args.dryRun,
-    preRepairHeadSha,
+    preStructureRepairHeadSha,
+    alignStudyStructure: true,
   });
   result.finalHeadSha = require("child_process")
     .execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" })

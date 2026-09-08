@@ -2364,7 +2364,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "відвідування",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "відвідування",
+      "explanation": [
+        "Головна ідея: der Besuch означає відвідування, візит або оціномин.",
+        "Якщо мова йде про місце або подію, українською мовою доречно відвідування.",
+        "Якщо мова йде про відвідування людини, українською мовою можна сказати оціномин або візит.",
+        "Множина — die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Візит до музею був цікавий."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Дякую за твій візит."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Лікар робить хід."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "відвідування • оціномин • візит",
+          "example": "Danke für deinen Besuch. – Дякую за твій візит."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "відвідувач",
+          "example": "Der Besucher wartet draußen. – Відвідувач чекає надворі."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "відвідувати • оціновувати",
+          "example": "Ich besuche meine Großeltern. – Я відвідую своїх бабусю та дідуся."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch не тільки оціномин; це може бути також відвідування або візит.",
+        "Множина: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2376,7 +2560,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "відвідувати",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "відвідувати",
+      "explanation": [
+        "Головна ідея: besuchen використовується при відвідуванні місця, події або особи.",
+        "Місце, подію або курс українською мовою зазвичай відвідують.",
+        "Якщо besuchen стосується людини, українською мовою часто природніше оціновувати.",
+        "У німецькій мові besuchen використовується без прийменника і з акузативом."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Я відвідую музей."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Ми відвідуємо курс німецької мови."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Я оціновую своїх бабусю та дідуся."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "відвідувати місце або подію • оціновувати особу",
+          "example": "Ich besuche meine Großeltern. – Я відвідую своїх бабусю та дідуся."
+        },
+        {
+          "word": "treffen",
+          "meaning": "зустрічати",
+          "example": "Ich treffe meinen Freund. – Я зустрічаю свого друга."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "йти до когось",
+          "example": "Ich gehe zu meinem Freund. – Я йду до свого друга."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen використовується без прийменника: Ich besuche meine Freundin.",
+        "Український переклад залежить від об'єкта: відвідувати місце, оціновувати особу."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -6709,12 +7102,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "футбол",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "футбол",
+      "explanation": [
+        "Головна ідея: Fußball найчастіше означає футбол як вид спорту.",
+        "З артиклем і як лічильне іменник der Fußball може також означати футбольний м'яч.",
+        "Множина die Fußbälle означає футбольні м'ячі, а не кілька видів спорту."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "я граю у футбол."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "футбольний м'яч знаходиться в саду."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "ми купуємо два футбольних м'яча."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "футбол як вид спорту",
+          "example": "Ich spiele Fußball. – Я граю у футбол."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "футбольний м'яч",
+          "example": "Der Fußball ist neu. – М'яч футбольний новий."
+        }
+      ],
+      "tip": [
+        "Без артикля spielen Fußball зазвичай означає грати у футбол.",
+        "Як лічильне ein Fußball та die Fußbälle — це футбольний м'яч та футбольні м'ячі."
+      ],
+      "important": [
+        "die Fußbälle означають футбольні м'ячі.",
+        "Вид спорту Fußball зазвичай використовується в однині."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "здоровий",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "здоровий",
+      "explanation": [
+        "Головна ідея: ganz поряд з іменником означає цілий або все разом.",
+        "Перед прикметником або прислівником ganz може означати абсолютно, зовсім або досить.",
+        "ganz не те ж саме, що займенник alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "я працюю весь день."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "весь дім чистий."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "це абсолютно безпечно."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "їжа досить хороша."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "цілий • все разом • абсолютно",
+          "example": "der ganze Tag – весь день"
+        },
+        {
+          "word": "alles",
+          "meaning": "все",
+          "example": "Alles ist gut. – Все гаразд."
+        }
+      ],
+      "tip": [
+        "Перед іменником ganz часто означає все або цілий.",
+        "Перед прикметником ganz часто означає абсолютно або досить."
+      ],
+      "important": [
+        "der ganze Tag = весь день.",
+        "alles = все як займенник."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -6993,7 +7478,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "подобатися",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "подобатися",
+      "explanation": [
+        "Головна ідея: gefallen означає подобатися, але структура німецького речення відрізняється від української.",
+        "Річ, яка подобається, німецькою є підметом речення.",
+        "Особа, якій щось подобається, є в дативі: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "мені це подобається."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "чи тобі подобається сукня?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "нам подобається фільм."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "подобатися • особа в дативі",
+          "example": "Das gefällt mir. – Мені це подобається."
+        },
+        {
+          "word": "mögen",
+          "meaning": "подобатися • з радістю вибирати",
+          "example": "Ich mag das. – Мені це подобається."
+        }
+      ],
+      "tip": [
+        "Запам'ятай конструкцію: Das gefällt mir.",
+        "Не створюй буквальний український порядок слів."
+      ],
+      "important": [
+        "gefallen використовується з дативом: mir, dir, ihm, ihr.",
+        "Das gefällt mir = мені це подобається."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7036,13 +7565,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "розповідь",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "розповідь",
+      "explanation": [
+        "Головна ідея: Geschichte може означати розповідь або історію.",
+        "Множина die Geschichten зазвичай означає розповіді.",
+        "Коли мова йде про історію, слово Geschichte зазвичай використовується в однині."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "він розповідає розповідь."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "я вивчаю історію."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "це історія Німеччини."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "розповідь",
+          "example": "eine interessante Geschichte – цікава розповідь"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "історія",
+          "example": "Geschichte lernen – вивчати історію"
+        }
+      ],
+      "tip": [
+        "З eine та в множині зазвичай мова йде про розповідь.",
+        "Як навчальний предмет Geschichte означає історію."
+      ],
+      "important": [
+        "die Geschichten = розповіді.",
+        "Geschichte як історія зазвичай в однині."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "брати та сестри",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "брати та сестри",
+      "explanation": [
+        "Головна ідея: Geschwister означає братів та сестер разом.",
+        "Це слово зазвичай використовується тільки в множині.",
+        "Для однієї особи використовуй Bruder чи Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "у мене два брати чи сестри."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "мої брати та сестри живуть у Берліні."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "брати та сестри",
+          "example": "Meine Geschwister – мої брати та сестри"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "брат",
+          "example": "mein Bruder – мій брат"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "сестра",
+          "example": "meine Schwester – моя сестра"
+        }
+      ],
+      "tip": [
+        "Geschwister зазвичай використовується в множині.",
+        "Для однієї особи обери Bruder чи Schwester."
+      ],
+      "important": [
+        "Не використовуй ein Geschwister як звичайну однину форму А1."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7375,7 +7992,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "бабуся та дідусь",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "бабуся та дідусь",
+      "explanation": [
+        "Головна ідея: Großeltern означає бабусю та дідуся разом.",
+        "Це слово використовується в множині.",
+        "В однині використовуй Großmutter чи Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "мої бабуся та дідусь живуть на селі."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "я відвідую своїх бабусю та дідуся."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "бабуся та дідусь",
+          "example": "meine Großeltern – мої бабуся та дідусь"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "бабуся",
+          "example": "meine Großmutter – моя бабуся"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "дідусь",
+          "example": "mein Großvater – мій дідусь"
+        }
+      ],
+      "tip": [
+        "Großeltern — множина.",
+        "Для однієї особи використовуй Großmutter чи Großvater."
+      ],
+      "important": [
+        "die Großeltern = бабуся та дідусь."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8046,7 +8707,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "долоня",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "долоня",
+      "explanation": [
+        "Головна ідея: die Hand означає долоню.",
+        "У німецькій мові Arm та Hand — це два окремі слова.",
+        "У латвійській повсякденній мові слово roka часто може означати як Arm, так і Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "я миюся руки."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "вона тримає склянку в долоні."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "мені болить рука."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "долоня",
+          "example": "in der Hand – у долоні"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "руку",
+          "example": "Mein Arm tut weh. – Мені болить рука."
+        }
+      ],
+      "tip": [
+        "Hand = долоня.",
+        "Arm = рука від плеча до долоні."
+      ],
+      "important": [
+        "У німецькій мові Hand та Arm — це не одне й те ж слово."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -8609,7 +9313,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "гарна",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "гарна",
+      "explanation": [
+        "Головна ідея: hübsch означає гарна, привабливої зовнішності або симпатична.",
+        "hübsch часто характеризує зовнішність людини, одягу, кімнати або предмета.",
+        "Українське люб'язна в деяких контекстах можливе, але воно занадто широке як основний переклад.",
+        "Характер або люб'язну поведінку у німецькій мові частіше характеризує nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "У неї гарна сукня."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Кімната гарна."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Це гарна картина."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "гарна • привабливої зовнішності",
+          "example": "Das ist ein hübsches Kleid. – Це гарна сукня."
+        },
+        {
+          "word": "schön",
+          "meaning": "гарна • приємна",
+          "example": "Der Garten ist schön. – Сад гарний."
+        },
+        {
+          "word": "nett",
+          "meaning": "люб'язна • дружелюбна",
+          "example": "Sie ist sehr nett. – Вона дуже люб'язна."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch не є універсальним перекладом для люб'язна.",
+        "Для характеру людини або люб'язної поведінки зазвичай більш підходить nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

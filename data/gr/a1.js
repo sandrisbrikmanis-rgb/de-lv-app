@@ -2573,7 +2573,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "επίσκεψη",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "επίσκεψη",
+      "explanation": [
+        "Κύρια ιδέα: der Besuch σημαίνει επίσκεψη, επίσκεψη ή παρουσία.",
+        "Όταν πρόκειται για τόπο ή εκδήλωση, το κατάλληλο είναι επίσκεψη.",
+        "Όταν πρόκειται για επίσκεψη ατόμου, μπορείς να πεις επίσκεψη ή παρουσία.",
+        "Ο πληθυντικός είναι die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Η επίσκεψη στο μουσείο ήταν ενδιαφέρουσα."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Ευχαριστώ για την επίσκεψή σου."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Ο γιατρός κάνει επίσκεψη."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "επίσκεψη • επίσκεψη σε κάποιον • επίσκεψη",
+          "example": "Danke für deinen Besuch. – Ευχαριστώ για την επίσκεψή σου."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Επισκέπτης",
+          "example": "Der Besucher wartet draußen. – Ο επισκέπτης περιμένει έξω."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "επισκέπτομαι τόπο ή εκδήλωση • επισκέπτομαι άτομο",
+          "example": "Ich besuche meine Großeltern. – Επισκέπτομαι τους παππούδες και τις γιαγιάδες μου."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch δεν είναι μόνο επίσκεψη· μπορεί να είναι και επίσκεψη ή παρουσία.",
+        "Πληθυντικός: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2585,7 +2769,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "επισκέπτομαι",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "επισκέπτομαι",
+      "explanation": [
+        "Κύρια ιδέα: besuchen χρησιμοποιείται για επίσκεψη τόπου, εκδήλωσης ή ατόμου.",
+        "Τόπο, εκδήλωση ή μάθημα συνήθως επισκέπτονται στα λατβικά.",
+        "Όταν besuchen αναφέρεται σε άτομο, συχνά είναι πιο φυσικό να το πούμε επίσκεψη.",
+        "Στα γερμανικά, besuchen χρησιμοποιείται χωρίς πρόθεση και με αιτιατική."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Επισκέπτομαι το μουσείο."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Επισκεπτόμαστε το μάθημα της γερμανικής γλώσσας."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Επισκέπτομαι τους παππούδες και τις γιαγιάδες μου."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "επισκέπτομαι τόπο ή εκδήλωση • επισκέπτομαι άτομο",
+          "example": "Ich besuche meine Großeltern. – Επισκέπτομαι τους παππούδες και τις γιαγιάδες μου."
+        },
+        {
+          "word": "treffen",
+          "meaning": "συναντώ",
+          "example": "Ich treffe meinen Freund. – Συναντώ τον φίλο μου."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "πάω σε κάποιον",
+          "example": "Ich gehe zu meinem Freund. – Πάω στον φίλο μου."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen χρησιμοποιείται χωρίς πρόθεση: Ich besuche meine Freundin.",
+        "Η λατβική μετάφραση εξαρτάται από το αντικείμενο: επισκέπτομαι τόπο, επισκέπτομαι άτομο."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7157,12 +7550,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "ποδόσφαιρο",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "ποδόσφαιρο",
+      "explanation": [
+        "Κύρια ιδέα: Fußball συνήθως σημαίνει ποδόσφαιρο ως αθλητικό είδος.",
+        "Με άρθρο και αριθμήσιμη σημασία, der Fußball μπορεί να σημαίνει και μπάλα ποδοσφαίρου.",
+        "Ο πληθυντικός die Fußbälle σημαίνει μπάλες ποδοσφαίρου, όχι πολλά αθλητικά είδη."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "es spēlēju futbolu."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "futbola bumba atrodas dārzā."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "mēs pērkam divas futbola bumbas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "ποδόσφαιρο ως αθλητικό είδος",
+          "example": "Ich spiele Fußball. – Παίζω ποδόσφαιρο."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "μπάλα ποδοσφαίρου",
+          "example": "Der Fußball ist neu. – Η μπάλα του ποδοσφαίρου είναι καινούργια."
+        }
+      ],
+      "tip": [
+        "Χωρίς άρθρο spielen Fußball συνήθως σημαίνει παίζω ποδόσφαιρο.",
+        "Σε αριθμήσιμη σημασία ein Fußball και die Fußbälle είναι μπάλα ποδοσφαίρου και μπάλες ποδοσφαίρου."
+      ],
+      "important": [
+        "die Fußbälle σημαίνει μπάλες ποδοσφαίρου.",
+        "Το αθλητικό είδος Fußball συνήθως χρησιμοποιείται στον ενικό."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Υγιής",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Υγιής",
+      "explanation": [
+        "Κύρια ιδέα: ganz μαζί με ουσιαστικό σημαίνει ολόκληρος ή όλο μαζί.",
+        "Πριν από επίθετο ή επίρρημα, ganz μπορεί να σημαίνει εντελώς, τελείως ή αρκετά.",
+        "ganz δεν είναι το ίδιο με την αντωνυμία alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "es strādāju visu dienu."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "visa māja ir tīra."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "tas ir pilnīgi droši."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "ēdiens ir diezgan labs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "ολόκληρος • όλο μαζί • εντελώς",
+          "example": "der ganze Tag – όλη τη μέρα"
+        },
+        {
+          "word": "alles",
+          "meaning": "Πάντα",
+          "example": "Alles ist gut. – Όλα είναι εντάξει."
+        }
+      ],
+      "tip": [
+        "Πριν από ουσιαστικό, ganz συχνά σημαίνει όλα ή ολόκληρος.",
+        "Πριν από επίθετο, ganz συχνά σημαίνει εντελώς ή αρκετά."
+      ],
+      "important": [
+        "der ganze Tag = όλη τη μέρα.",
+        "alles = όλα ως αντωνυμία."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7455,7 +7940,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Να αρέσει",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Να αρέσει",
+      "explanation": [
+        "Κύρια ιδέα: gefallen σημαίνει αρέσει, αλλά η δομή της γερμανικής πρότασης διαφέρει από τα λατβικά.",
+        "Το πράγμα που αρέσει είναι το υποκείμενο της πρότασης στα γερμανικά.",
+        "Το πρόσωπο στο οποίο αρέσει κάτι είναι στη δοτική: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "man tas patīk."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "vai tev patīk kleita?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "mums patīk filma."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "αρέσει • πρόσωπο στη δοτική",
+          "example": "Das gefällt mir. – Μου αρέσει αυτό."
+        },
+        {
+          "word": "mögen",
+          "meaning": "αρέσει • προτιμώ",
+          "example": "Ich mag das. – Μου αρέσει αυτό."
+        }
+      ],
+      "tip": [
+        "Θυμήσου την κατασκευή: Das gefällt mir.",
+        "Μην φτιάχνεις κυριολεκτική σειρά λατβικών λέξεων."
+      ],
+      "important": [
+        "gefallen χρησιμοποιείται με δοτική: mir, dir, ihm, ihr.",
+        "Das gefällt mir = Μου αρέσει αυτό."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7498,13 +8027,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "ιστορία",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "ιστορία",
+      "explanation": [
+        "Κύρια ιδέα: Geschichte μπορεί να σημαίνει ιστορία ή ιστορία.",
+        "Ο πληθυντικός die Geschichten συνήθως σημαίνει ιστορίες.",
+        "Όταν σημαίνει ιστορία, ο λόγος Geschichte συνήθως χρησιμοποιείται στον ενικό."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "viņš stāsta stāstu."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "es mācos vēsturi."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "tā ir Vācijas vēsture."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "ιστορία",
+          "example": "eine interessante Geschichte – μια ενδιαφέρουσα ιστορία"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "ιστορία",
+          "example": "Geschichte lernen – μάθε ιστορία"
+        }
+      ],
+      "tip": [
+        "Με ein και πληθυντικό, συνήθως πρόκειται για ιστορία.",
+        "Ως μάθημα, Geschichte σημαίνει ιστορία."
+      ],
+      "important": [
+        "die Geschichten = ιστορίες.",
+        "Geschichte ως ιστορία συνήθως είναι στον ενικό."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "αδέλφια και αδελφές",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "αδέλφια και αδελφές",
+      "explanation": [
+        "Κύρια ιδέα: Geschwister σημαίνει αδέλφια και αδελφές μαζί.",
+        "Αυτή η λέξη χρησιμοποιείται συνήθως μόνο στον πληθυντικό.",
+        "Για ένα άτομο, χρησιμοποιούμε Bruder ή Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "man ir divi brāļi vai māsas."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "mani brāļi un māsas dzīvo Berlīnē."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "αδέλφια και αδελφές",
+          "example": "Meine Geschwister – τα αδέλφια και τις αδελφές μου"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Αδελφός",
+          "example": "mein Bruder – ο αδελφός μου"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Αδελφή",
+          "example": "meine Schwester – η αδελφή μου"
+        }
+      ],
+      "tip": [
+        "Geschwister συνήθως χρησιμοποιείται στον πληθυντικό.",
+        "Για ένα άτομο, επίλεξε Bruder ή Schwester."
+      ],
+      "important": [
+        "Μην χρησιμοποιήσεις ein Geschwister ως συνηθισμένη μορφή ενικού A1."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7870,7 +8487,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "παππούδες και γιαγιάδες",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "παππούδες και γιαγιάδες",
+      "explanation": [
+        "Κύρια ιδέα: Großeltern σημαίνει γιαγιά και παππού μαζί.",
+        "Αυτή η λέξη χρησιμοποιείται στον πληθυντικό.",
+        "Στον ενικό, χρησιμοποιούμε Großmutter ή Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "mani vecvecāki dzīvo laukos."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "es apciemoju savus vecvecākus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "παππούδες και γιαγιάδες",
+          "example": "meine Großeltern – τους παππούδες και τις γιαγιάδες μου"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Γιαγιά",
+          "example": "meine Großmutter – τη γιαγιά μου"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Παππούς",
+          "example": "mein Großvater – τον παππού μου"
+        }
+      ],
+      "tip": [
+        "Großeltern είναι πληθυντικός.",
+        "Για ένα άτομο, χρησιμοποιούμε Großmutter ή Großvater."
+      ],
+      "important": [
+        "die Großeltern = παππούδες και γιαγιάδες."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8598,7 +9259,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "παλάμη",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "παλάμη",
+      "explanation": [
+        "Κύρια ιδέα: die Hand σημαίνει παλάμη.",
+        "Στα γερμανικά, Arm και Hand είναι δύο διαφορετικές λέξεις.",
+        "Στα λατβικά, καθημερινή γλώσσα, η λέξη roka συχνά μπορεί να σημαίνει τόσο Arm όσο και Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "es mazgāju rokas."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "viņa tur glāzi plaukstā."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "man sāp roka."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "παλάμη",
+          "example": "in der Hand – στην παλάμη"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Χέρι",
+          "example": "Mein Arm tut weh. – Ο βραχίονάς μου πονάει."
+        }
+      ],
+      "tip": [
+        "Hand = παλάμη.",
+        "Arm = βραχίονας από τον ώμο μέχρι την παλάμη."
+      ],
+      "important": [
+        "Στα γερμανικά, Hand και Arm δεν είναι το ίδιο."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9189,7 +9893,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "όμορφος",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "όμορφος",
+      "explanation": [
+        "Κύρια ιδέα: hübsch σημαίνει όμορφος, ελκυστικός ή συμπαθητικός εμφανίσει.",
+        "hübsch συχνά περιγράφει την εμφάνιση ενός ανθρώπου, ρούχων, δωματίου ή αντικειμένου.",
+        "Τα λατβικά jauks σε ορισμένα περιεχόμενα είναι δυνατή, αλλά είναι πολύ ευρεία ως κύρια μετάφραση.",
+        "Στα γερμανικά, χαρακτήρ ή φιλική συμπεριφορά συχνά περιγράφεται με nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Φορά ένα όμορφο φόρεμα."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Το δωμάτιο είναι όμορφο."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Αυτή είναι μια όμορφη εικόνα."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "όμορφος • ελκυστικός εμφανίσει",
+          "example": "Das ist ein hübsches Kleid. – Αυτό είναι ένα όμορφο φόρεμα."
+        },
+        {
+          "word": "schön",
+          "meaning": "όμορφος • χαρωπός",
+          "example": "Der Garten ist schön. – Ο κήπος είναι όμορφος."
+        },
+        {
+          "word": "nett",
+          "meaning": "φιλικός • ευχάριστος",
+          "example": "Sie ist sehr nett. – Είναι πολύ φιλική."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch δεν είναι καθολική μετάφραση της λέξης jauks.",
+        "Για ανθρώπινο χαρακτήρ ή φιλική συμπεριφορά, nett συνήθως είναι πιο κατάλληλο."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

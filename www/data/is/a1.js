@@ -2577,7 +2577,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "heimsókn",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "heimsókn",
+      "explanation": [
+        "Meginhugsun: der Besuch þýðir heimsókn, besók eða aðkomu.",
+        "Ef um stað eða viðburð er að ræða, er heimsókn viðeigandi á íslensku.",
+        "Ef Besuch vísar til heimsóknar á mann, getur verið heimsókn eða besók á íslensku.",
+        "Fleirtala er die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Múseumsheimsóknin var áhugaverð."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Takk fyrir heimsóknina þína."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Læknirinn fer á heimsókn."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "heimsókn • aðkoma • besók",
+          "example": "Danke für deinen Besuch. – Takk fyrir heimsóknina þína."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Külastaja",
+          "example": "Der Besucher wartet draußen. – Gesturinn bíð úti."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "heimsækja • besóka",
+          "example": "Ich besuche meine Großeltern. – Ég heimsæki ömmu og afa minn."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch er ekki bara heimsókn; það getur líka verið aðkoma eða besók.",
+        "Fleirtala: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2589,7 +2773,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "heimsækja",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "heimsækja",
+      "explanation": [
+        "Meginhugsun: besuchen er notað þegar heimsóknir eru á stað, viðburð eða mann.",
+        "Stað, viðburð eða námskeiðið er venjulega heimsótt á íslensku.",
+        "Ef besuchen vísar til heimsóknar á mann, er heimsækja oft náttúrulegra á íslensku.",
+        "Á þýsku er besuchen notað án forsendis og með þolfall."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Ég heimsæki safnið."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Við heimsækjum þýskukennslustund."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Ég heimsæki ömmu og afa minn."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "heimsækja stað eða viðburð • besóka mann",
+          "example": "Ich besuche meine Großeltern. – Ég heimsæki ömmu og afa minn."
+        },
+        {
+          "word": "treffen",
+          "meaning": "hitta",
+          "example": "Ich treffe meinen Freund. – Ég hitti vini minn."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "fara til kanda",
+          "example": "Ich gehe zu meinem Freund. – Bring vennene dine nærmere."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen er notað án forsendis: Ich besuche meine Freundin.",
+        "Íslenska þýðingin fer eftir hlutnum: heimsækja stað, besóka mann."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7194,12 +7587,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "knattspyrna",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "knattspyrna",
+      "explanation": [
+        "Meginhugsun: Fußball þýðir oftast knattspyrnu sem íþrótt.",
+        "Með greininum og teljabili getur der Fußball einnig þýtt knattspyrnuna.",
+        "Fleirtalan die Fußbälle þýðir knattspyrnur, ekki margar íþróttir."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "es spēlēju futbolu."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "futbola bumba atrodas dārzā."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "mēs pērkam divas futbola bumbas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "knattspyrna sem íþrótt",
+          "example": "Ich spiele Fußball. – Ég spila knattspyrnu."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "knattspyrnan",
+          "example": "Der Fußball ist neu. – Knattspyrnan er ný."
+        }
+      ],
+      "tip": [
+        "Án greinis spielen Fußball þýðir venjulega spila knattspyrnu.",
+        "Talably ein Fußball og die Fußbälle eru knattspyrnan og knattspyrnur."
+      ],
+      "important": [
+        "die Fußbälle þýðir knattspyrnur.",
+        "Knattspyrnu sem íþrótt er venjulega notað í eintölu."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Hallo",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Hallo",
+      "explanation": [
+        "Meginhugsun: ganz samhliða nafnorði þýðir heill eða allt í heild.",
+        "Fyrir framan lýsingarorð eða staðarorð getur ganz þýtt fullkomlega, alveg eða nokkuð.",
+        "ganz er ekki það sama og fornafnið alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "es strādāju visu dienu."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "visa māja ir tīra."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "tas ir pilnīgi droši."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "ēdiens ir diezgan labs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "heill • allt í heild • fullkomlega",
+          "example": "der ganze Tag – heila daginn"
+        },
+        {
+          "word": "alles",
+          "meaning": "Alt",
+          "example": "Alles ist gut. – Allt er gott."
+        }
+      ],
+      "tip": [
+        "Frammi við nafnorð þýðir ganz oft allt eða heill.",
+        "Frammi við lýsingarorð þýðir ganz oft fullkomlega eða nokkuð."
+      ],
+      "important": [
+        "der ganze Tag = heila daginn.",
+        "alles = allt sem fornafn."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7495,7 +7980,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Meeldima",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Meeldima",
+      "explanation": [
+        "Meginhugsun: gefallen þýðir finnast, en þýsk setningarbygging er frábrugðin íslensku.",
+        "Hluturinn sem finnst, er þýsk setning aðalgreinir.",
+        "Sá sem finnst eitthvað er í þolfalli: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "man tas patīk."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "vai tev patīk kleita?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "mums patīk filma."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "finnast • persóna í þolfalli",
+          "example": "Das gefällt mir. – Mér finnst þetta gott."
+        },
+        {
+          "word": "mögen",
+          "meaning": "finnast • kjósa með gleði",
+          "example": "Ich mag das. – Mér finnst þetta gott."
+        }
+      ],
+      "tip": [
+        "Mundu smíðina: Das gefällt mir.",
+        "Ekki mynda bóklega íslenska orðaröð."
+      ],
+      "important": [
+        "gefallen er notað með þolfalli: mir, dir, ihm, ihr.",
+        "Das gefällt mir = mér finnst þetta gott."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7538,13 +8067,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "saga",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "saga",
+      "explanation": [
+        "Meginhugsun: Geschichte getur þýtt söguna eða söguna.",
+        "Fleirtalan die Geschichten þýðir venjulega sögur.",
+        "Merkingin saga er venjulega notuð í eintölu."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "viņš stāsta stāstu."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "es mācos vēsturi."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "tā ir Vācijas vēsture."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "saga",
+          "example": "eine interessante Geschichte – áhugaverð saga"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "saga",
+          "example": "Geschichte lernen – læra sögur"
+        }
+      ],
+      "tip": [
+        "Með eine og fleirtölu er venjulega um söguna.",
+        "Sem námsgrein þýðir Geschichte sögur."
+      ],
+      "important": [
+        "die Geschichten = sögur.",
+        "Geschichte sem saga er venjulega í eintölu."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "systkini",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "systkini",
+      "explanation": [
+        "Meginhugsun: Geschwister þýðir bræður og systur saman.",
+        "Þetta orð er venjulega notað aðeins í fleirtölu.",
+        "Fyrir eina persónu notaðu Bruder eða Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "man ir divi brāļi vai māsas."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "mani brāļi un māsas dzīvo Berlīnē."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "systkini",
+          "example": "Meine Geschwister – systkini mín"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Vend",
+          "example": "mein Bruder – bróðir minn"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Õde",
+          "example": "meine Schwester – systir mín"
+        }
+      ],
+      "tip": [
+        "Geschwister er venjulega notað í fleirtölu.",
+        "Fyrir eina persónu veldu Bruder eða Schwester."
+      ],
+      "important": [
+        "Ekki nota ein Geschwister sem venjulega A1 eintöluform."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7914,7 +8531,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "afi og amma",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "afi og amma",
+      "explanation": [
+        "Meginhugsun: Großeltern þýðir amma og afa saman.",
+        "Þetta orð er notað í fleirtölu.",
+        "Í eintölu notaðu Großmutter eða Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "mani vecvecāki dzīvo laukos."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "es apciemoju savus vecvecākus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "afi og amma",
+          "example": "meine Großeltern – afi og amma minn"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Vanaema",
+          "example": "meine Großmutter – amma mín"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Vanaisa",
+          "example": "mein Großvater – afi minn"
+        }
+      ],
+      "tip": [
+        "Großeltern er fleirtala.",
+        "Fyrir eina persónu notaðu Großmutter eða Großvater."
+      ],
+      "important": [
+        "die Großeltern = afi og amma."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8647,7 +9308,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "hönd",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "hönd",
+      "explanation": [
+        "Meginhugsun: die Hand þýðir hönd.",
+        "Á þýsku eru Arm og Hand tvö óskyld orð.",
+        "Á íslensku daglega máli getur orðið armur oft táknað bæði Arm og Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "es mazgāju rokas."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "viņa tur glāzi plaukstā."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "man sāp roka."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "hönd",
+          "example": "in der Hand – í hendinni"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Käsi",
+          "example": "Mein Arm tut weh. – Armurinn minn særir."
+        }
+      ],
+      "tip": [
+        "Hand = hönd.",
+        "Arm = armur frá herðinni til hendinnar."
+      ],
+      "important": [
+        "Á þýsku er Hand og Arm ekki sama orðið."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9250,7 +9954,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "fagurt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "fagurt",
+      "explanation": [
+        "Meginhugsun: hübsch þýðir fagurt, aðlaðandi eða glaumburt að útliti.",
+        "hübsch lýsir oft útliti manns, fats, herbergis eða hluts.",
+        "Íslenska jafn getur verið möguleg í sumum samhengi, en það er of víðtækt sem aðal þýðing.",
+        "Á þýsku lýsir rakstri eða vinsælri framkomu oft með nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Hún er með fagran kjól."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Herbergið er fagurt."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Það er fagur mynd."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "fagurt • aðlaðandi að útliti",
+          "example": "Das ist ein hübsches Kleid. – Þetta er fagurt kjóll."
+        },
+        {
+          "word": "schön",
+          "meaning": "fagurt • þægilegt",
+          "example": "Der Garten ist schön. – Garðurinn er fagurt."
+        },
+        {
+          "word": "nett",
+          "meaning": "vinsamleg • vin",
+          "example": "Sie ist sehr nett. – Hún er mjög vinsamleg."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch er ekki alhliða þýðing fyrir fagurt.",
+        "Fyrir rakstri eða vinsamlegri framkomu er oft hentugra nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

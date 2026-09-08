@@ -2573,7 +2573,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "bezoek",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "bezoek",
+      "explanation": [
+        "Hoofdidee: der Besuch betekent een bezoek, bezoekje of huisbezoek.",
+        "Als het gaat over een plaats of evenement, wordt in het Lets meestal 'bezoek' gezegd.",
+        "Als het gaat over het bezoeken van een persoon, kan in het Lets 'bezoekje' of 'huisbezoek' gezegd worden.",
+        "Het meervoud is die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Het museumbezoek was interessant."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Bedankt voor je bezoek."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "De dokter gaat op huisbezoek."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "bezoek • rondleiding • bezoekje",
+          "example": "Danke für deinen Besuch. – Dank voor je bezoek."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Apmeklētājs",
+          "example": "Der Besucher wartet draußen. – De bezoeker wacht buiten."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "bezoeken • een bezoek brengen",
+          "example": "Ich besuche meine Großeltern. – Ik bezoek mijn grootouders."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch is niet alleen bezoekje; het kan ook bezoek of huisbezoek zijn.",
+        "Meervoud: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2585,7 +2769,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "bezoeken",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "bezoeken",
+      "explanation": [
+        "Hoofdidee: besuchen wordt gebruikt bij het bezoeken van een plek, evenement of persoon.",
+        "Plaatsen, evenementen of cursussen worden meestal bezocht.",
+        "Als besuchen betrekking heeft op een persoon, is het in het Nederlands vaak natuurlijker om te zeggen 'bezoeken'.",
+        "In het Duits wordt besuchen zonder voorzetsel en met accusatief gebruikt."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Ik bezoek het museum."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "We bezoeken een Duitse taallescursus."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Ik ga mijn grootouders bezoeken."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "een plek of evenement bezoeken • een persoon bezoeken",
+          "example": "Ich besuche meine Großeltern. – Ik bezoek mijn grootouders."
+        },
+        {
+          "word": "treffen",
+          "meaning": "ontmoeten",
+          "example": "Ich treffe meinen Freund. – Ik ontmoet mijn vriend."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "naar iemand toe gaan",
+          "example": "Ich gehe zu meinem Freund. – Ik ga naar mijn vriend."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen wordt zonder voorzetsel gebruikt: Ich besuche meine Freundin.",
+        "De Nederlandse vertaling hangt af van het object: een plaats bezoeken, een persoon bezoeken."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7164,12 +7557,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "voetbal",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "voetbal",
+      "explanation": [
+        "Hoofdidee: Fußball betekent meestal voetbal als sportsoort.",
+        "Met artikel en telbaar betekent der Fußball ook een voetbal (de bal).",
+        "Meervoud die Fußbälle betekent voetballen, niet meerdere sportsoorten."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Ik speel voetbal."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "De voetbal ligt in de tuin."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "We kopen twee voetballen."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "voetbal als sportsoort",
+          "example": "Ich spiele Fußball. – Ik speel voetbal."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "voetbal",
+          "example": "Der Fußball ist neu. – De voetbal is nieuw."
+        }
+      ],
+      "tip": [
+        "Zonder artikel spielen Fußball betekent meestal voetbal spelen.",
+        "Telbaar: ein Fußball en die Fußbälle zijn voetbal en voetballen."
+      ],
+      "important": [
+        "die Fußbälle betekent voetballen.",
+        "De sportsoort Fußball wordt meestal in het enkelvoud gebruikt."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Vesels",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Vesels",
+      "explanation": [
+        "Hoofdidee: ganz samen met zelfstandig naamwoord betekent heel of alles in het geheel.",
+        "Voor bijvoeglijk naamwoord of bijwoord kan ganz helemaal, volledig of behoorlijk betekenen.",
+        "ganz is niet hetzelfde als het voornaamwoord alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Ik werk de hele dag."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Het hele huis is schoon."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "Het is helemaal veilig."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "Het eten is behoorlijk lekker."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "heel • alles in het geheel • helemaal",
+          "example": "der ganze Tag – de hele dag"
+        },
+        {
+          "word": "alles",
+          "meaning": "Viss",
+          "example": "Alles ist gut. – Alles is goed."
+        }
+      ],
+      "tip": [
+        "Voor zelfstandig naamwoord betekent ganz vaak heel of alles.",
+        "Voor bijvoeglijk naamwoord betekent ganz vaak helemaal of behoorlijk."
+      ],
+      "important": [
+        "der ganze Tag = de hele dag.",
+        "alles = alles als voornaamwoord."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7462,7 +7947,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Patikt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Patikt",
+      "explanation": [
+        "Hoofdidee: gefallen betekent bevallen, maar de Duitse zinsbouw verschilt van het Nederlands.",
+        "Hetgeen bevalt is in het Duits het onderwerp van de zin.",
+        "De persoon aan wie iets bevalt staat in de datief: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "Dat bevalt me."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Bevalt je de jurk?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "Ons bevalt de film."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "bevallen • persoon in datief",
+          "example": "Das gefällt mir. – Dat bevalt me."
+        },
+        {
+          "word": "mögen",
+          "meaning": "bevallen • graag willen kiezen",
+          "example": "Ich mag das. – Ik hou ervan."
+        }
+      ],
+      "tip": [
+        "Onthoud de constructie: Das gefällt mir.",
+        "Maak geen letterlijke Nederlandse zinsvolgorde."
+      ],
+      "important": [
+        "gefallen wordt gebruikt met datief: mir, dir, ihm, ihr.",
+        "Das gefällt mir = dat bevalt me."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7505,13 +8034,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "verhaal",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "verhaal",
+      "explanation": [
+        "Hoofdidee: Geschichte kan 'verhaal' of 'geschiedenis' betekenen.",
+        "Meervoud die Geschichten betekent meestal verhalen.",
+        "Wanneer het gaat om geschiedenis, wordt het woord Geschichte meestal in het enkelvoud gebruikt."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "Hij vertelt een verhaal."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Ik leer geschiedenis."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "Het is de geschiedenis van Duitsland."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "verhaal",
+          "example": "eine interessante Geschichte – een interessant verhaal"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "geschiedenis",
+          "example": "Geschichte lernen – geschiedenis leren"
+        }
+      ],
+      "tip": [
+        "Met 'eine' en meervoud gaat het meestal over verhalen.",
+        "Als leerplan is Geschichte een vak dat geschiedenis betekent."
+      ],
+      "important": [
+        "die Geschichten = verhalen.",
+        "Geschichte als geschiedenis is meestal enkelvoud."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "broers en zussen",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "broers en zussen",
+      "explanation": [
+        "Hoofdidee: Geschwister betekent broers en zussen samen.",
+        "Dit woord wordt meestal in het meervoud gebruikt.",
+        "Voor één persoon gebruik je Bruder of Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Ik heb twee broers of zussen."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "Mijn broers en zussen wonen in Berlijn."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "broers en zussen",
+          "example": "Meine Geschwister – mijn broers en zussen"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Broer",
+          "example": "mein Bruder – mijn broer"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Māsa",
+          "example": "meine Schwester – mijn zus"
+        }
+      ],
+      "tip": [
+        "Geschwister wordt meestal in het meervoud gebruikt.",
+        "Voor één persoon kies je Bruder of Schwester."
+      ],
+      "important": [
+        "Gebruik niet 'ein Geschwister' als normale A1 enkelvoudsvorm."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7877,7 +8494,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "grootouders",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "grootouders",
+      "explanation": [
+        "Hoofdidee: Großeltern betekent grootmoeder en grootvader samen.",
+        "Dit woord wordt in het meervoud gebruikt.",
+        "In het enkelvoud gebruik je Großmutter of Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "Mijn grootouders wonen op het platteland."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Ik ga mijn grootouders bezoeken."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "grootouders",
+          "example": "meine Großeltern – mijn grootouders"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Vecmāmiņa",
+          "example": "meine Großmutter – mijn grootmoeder"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Vectētiņš",
+          "example": "mein Großvater – mijn grootvader"
+        }
+      ],
+      "tip": [
+        "Großeltern is meervoud.",
+        "Voor één persoon gebruik je Großmutter of Großvater."
+      ],
+      "important": [
+        "die Großeltern = grootouders."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8605,7 +9266,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "palm",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "palm",
+      "explanation": [
+        "Hoofdidee: die Hand betekent handpalm.",
+        "In het Duits zijn Arm en Hand twee verschillende woorden.",
+        "In het Nederlands kan het woord 'hand' vaak zowel Arm als Hand betekenen."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Ik was mijn handen."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Ze houdt een glas in haar palm."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "Mijn hand doet pijn."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "palm",
+          "example": "in der Hand – in de palm"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Roka",
+          "example": "Mein Arm tut weh. – Mijn arm doet pijn."
+        }
+      ],
+      "tip": [
+        "Hand = handpalm.",
+        "Arm = arm van schouder naar handpalm."
+      ],
+      "important": [
+        "In het Duits zijn Hand en Arm niet hetzelfde woord."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9196,7 +9900,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "mooi",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "mooi",
+      "explanation": [
+        "Hoofdidee: hübsch betekent mooi, aantrekkelijk of sympathiek van uiterlijk.",
+        "hübsch beschrijft vaak het uiterlijk van een persoon, kleding, ruimte of voorwerp.",
+        "Het Nederlandse 'aardig' is in sommige contexten mogelijk, maar is te breed voor de hoofdvertaling.",
+        "Voor karakter of vriendelijk gedrag beschrijft het Duits dit vaker met nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Ze heeft een mooie jurk."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "De kamer is mooi."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Het is een mooie afbeelding."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "mooi • aantrekkelijk van uiterlijk",
+          "example": "Das ist ein hübsches Kleid. – Dat is een mooie jurk."
+        },
+        {
+          "word": "schön",
+          "meaning": "mooi • aangenaam",
+          "example": "Der Garten ist schön. – De tuin is mooi."
+        },
+        {
+          "word": "nett",
+          "meaning": "aardig • vriendelijk",
+          "example": "Sie ist sehr nett. – Ze is erg aardig."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch is niet de universele vertaling voor het woord 'aardig'.",
+        "Voor karaktereigenschappen of vriendelijk gedrag is nett meestal passender."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

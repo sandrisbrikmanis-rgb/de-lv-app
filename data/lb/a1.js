@@ -2573,7 +2573,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "Besuch",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "Besuch",
+      "explanation": [
+        "Haaptidee: der Besuch bedeit Besuch, Visit oder Aféierung.",
+        "Wann et ëm eng Stell oder eng Manifestatioun geet, ass de passende letteschen Ausdrock Besuch.",
+        "Wann Besuch op de Besoch vun enger Persoun bezitt, kann een och op Lettesh Aféierung oder Visit soen.",
+        "D'Mehrzahl ass die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "De Museemsbesuch war interessant."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Merci fir deng Besuch."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "De Dokter geet op Visite."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "Besuch • Visioun • Vizit",
+          "example": "Danke für deinen Besuch. – Merci fir deng Besuch."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "CAA -",
+          "example": "Der Besucher wartet draußen. – De Besucher waart draussedom."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "besuchen • op Besuch goen",
+          "example": "Ich besuche meine Großeltern. – Ech besiche meng Groussälter."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch ass net nëmmen Aféierung; et kann och Besuch oder Visit sinn.",
+        "Mehrzahl: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2585,7 +2769,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "besuchen",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "besuchen",
+      "explanation": [
+        "Haaptidee: besuchen benotzt een beim Besoch vun enger Plaz, enger Manifestatioun oder enger Persoun.",
+        "Eng Plaz, eng Manifestatioun oder e Kurs gëtt normalerweis besucht.",
+        "Wann besuchen sech op eng Persoun bezitt, ass et op Lettesh dacks méi natierlech, se besuchen ze goen.",
+        "Am Däitsche benotzt een besuchen ouni Prepositioun an nom Akkusativ."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Ech besiche d'Museem."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Mir besichen e Däitsch-Kurs."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Ech besiche meng Groussälter."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "eng Plaz oder eng Manifestatioun besuchen • eng Persoun besuchen",
+          "example": "Ich besuche meine Großeltern. – Ech besiche meng Groussälter."
+        },
+        {
+          "word": "treffen",
+          "meaning": "treffen",
+          "example": "Ich treffe meinen Freund. – Ech trëffe menge Frënd."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "zu mengem Frënd goen",
+          "example": "Ich gehe zu meinem Freund. – Ech ginn zu mengem Frënd."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen benotzt een ouni Prepositioun: Ich besuche meine Freundin.",
+        "De letteschen Iwwersetzung hänkt vum Objet of: eng Plaz besuchen, eng Persoun besuchen."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7164,12 +7557,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "Foussball",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "Foussball",
+      "explanation": [
+        "Haaptidee: Fußball bedeit dacks Foussball als Sportaart.",
+        "Mat Artikel a Zählform kann der Fußball och eng Foussball bedeiten.",
+        "Mehrzahl die Fußbälle bedeit Foussbailer, net méi Sportaarten."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "si spillen Foussball."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "de Foussball ass am Gaart."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "mir kafen zwee Foussbailer."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "Foussball als Sportaart",
+          "example": "Ich spiele Fußball. – Ech spillen Foussball."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "Foussball",
+          "example": "Der Fußball ist neu. – De Foussball ass nei."
+        }
+      ],
+      "tip": [
+        "Ouni Artikel spillen Fußball bedeit normalerweis Foussball spillen.",
+        "A Zählform ein Fußball an die Fußbälle sinn Foussball an Foussbailer."
+      ],
+      "important": [
+        "die Fußbälle bedeit Foussbailer.",
+        "De Sportaart Fußball gëtt normalerweis eenzegaarteg benotzt."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Schëffer",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Schëffer",
+      "explanation": [
+        "Haaptidee: ganz zesummen mat engem Substantiv bedeit ganz oder alles zesummen.",
+        "Vir engem Adjektiv oder Adverb kann ganz komplett, ganz oder zimlech bedeiten.",
+        "ganz ass net d'selwecht wéi d'Pronomen alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "ech schaffen de ganz Dag."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "d'ganz Haus ass souber."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "dat ass komplett sécher."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "d'Iessen ass zimlech gutt."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "ganz • alles zesummen • komplett",
+          "example": "der ganze Tag – de ganz Dag"
+        },
+        {
+          "word": "alles",
+          "meaning": "Fësch",
+          "example": "Alles ist gut. – Alles ass gutt."
+        }
+      ],
+      "tip": [
+        "Virun engem Substantiv bedeit ganz dacks alles oder ganz.",
+        "Virun engem Adjektiv bedeit ganz dacks komplett oder zimlech."
+      ],
+      "important": [
+        "der ganze Tag = de ganz Dag.",
+        "alles = alles als Pronomen."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7462,7 +7947,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "CAA -",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "CAA -",
+      "explanation": [
+        "Haaptidee: gefallen bedeit gefall, mä de välllesch Teekschdrok ass anescht wéi Letzebuerg.",
+        "D'Saach, déi gefällt, ass däitsch de Saz Sujet.",
+        "D'Persoun, fir déi eppes gefällt, ass am Dativ: mir, dir, him, hir, eis, iech, hinnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "dat gefällt mer."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "gefällt dir de Kleed?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "mir gefällt de Film."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "gefall • Persoun am Dativ",
+          "example": "Das gefällt mir. – Dat gefall mer."
+        },
+        {
+          "word": "mögen",
+          "meaning": "gefall • gär huelen",
+          "example": "Ich mag das. – Dat gefällt mer."
+        }
+      ],
+      "tip": [
+        "Erënnert dech d'Konstruktioun: Das gefällt mir.",
+        "Maw net d'wortwörtlech Letzebuerg Wuertséquence."
+      ],
+      "important": [
+        "gefallen gëtt mat Dativ benotzt: mir, dir, him, hir.",
+        "Das gefällt mir = dat gefall mer."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7505,13 +8034,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "Geschicht",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "Geschicht",
+      "explanation": [
+        "Haaptidee: Geschichte kann eng Geschicht oder Geschicht bedeiten.",
+        "D'Mehrzahl die Geschichten bedeit normalerweis Geschichten.",
+        "D'Bedeitung Geschicht gëtt de Wuert Geschichte normalerweis eenzegaarteg benotzt."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "hie gesäit e Geschicht."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "ech léieren Geschicht."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "dat ass Däitschland Geschicht."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "Geschicht",
+          "example": "eine interessante Geschichte – eng interessant Geschicht"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "Geschicht",
+          "example": "Geschichte lernen – Geschicht léieren"
+        }
+      ],
+      "tip": [
+        "Mat eine a Mehrzahl gëtt normalerweis iwwer eng Geschicht geschwat.",
+        "Als Léierfach bedeit Geschichte Geschicht."
+      ],
+      "important": [
+        "die Geschichten = Geschichten.",
+        "Geschicht als Geschicht ass normalerweis eenzegaarteg."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "Brieder an Schwëster",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "Brieder an Schwëster",
+      "explanation": [
+        "Haaptidee: Geschwister bedeit Brieder an Schwëster zesummen.",
+        "Dëse Wuert gëtt normalerweis nëmmen a Mehrzahl benotzt.",
+        "Fir eng Persoun benotzt Bruder oder Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "ech hunn zwee Brieder oder Schwëster."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "meng Brieder an Schwëster liewen a Berlinn."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "Brieder an Schwëster",
+          "example": "Meine Geschwister – meng Brieder an Schwëster"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Brudder",
+          "example": "mein Bruder – meng Broder"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "CAA -",
+          "example": "meine Schwester – meng Schwëster"
+        }
+      ],
+      "tip": [
+        "Geschwister gëtt normalerweis a Mehrzahl benotzt.",
+        "Fir eng Persoun wiel Bruder oder Schwester."
+      ],
+      "important": [
+        "Benotzt net ein Geschwister als normale A1 Eenzahl Form."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7877,7 +8494,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "Groussälter",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "Groussälter",
+      "explanation": [
+        "Haaptidee: Großeltern bedeit Grouss-Mamm an Grouss-Papp zesummen.",
+        "Dëse Wuert gëtt a Mehrzahl benotzt.",
+        "Eenzahl benotzt Großmutter oder Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "meng Groussälter liewen op dem Land."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "ech besiche meng Groussälter."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "Groussälter",
+          "example": "meine Großeltern – meng Groussälter"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "CAA -",
+          "example": "meine Großmutter – meng Grouss-Mamm"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "CAA -",
+          "example": "mein Großvater – meng Grouss-Papp"
+        }
+      ],
+      "tip": [
+        "Großeltern ass Mehrzahl.",
+        "Fir eng Persoun benotzt Großmutter oder Großvater."
+      ],
+      "important": [
+        "die Großeltern = Groussälter."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8605,7 +9266,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "Hand",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "Hand",
+      "explanation": [
+        "Haaptidee: die Hand bedeit Mutt.",
+        "An Däitsch sinn Arm an Hand zwee verschidde Wierder.",
+        "A Letzebuerg dacks de Wuert Aarm kann béid Hand an Aarm bedeiten."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "ech wäsch d'Hänn."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "si hält e Glas an der Mutt."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "mer deet d'Hand wéi."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "Hand",
+          "example": "in der Hand – an der Mutt"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "CAA -",
+          "example": "Mein Arm tut weh. – Meng Aarm deet wéi."
+        }
+      ],
+      "tip": [
+        "Hand = Mutt.",
+        "Arm = Aarm vum Oxel bis zur Mutt."
+      ],
+      "important": [
+        "Am Däitsche sinn Hand an Arm net d'selwett Wuert."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9196,7 +9900,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "schéin",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "schéin",
+      "explanation": [
+        "Haaptidee: hübsch bedeit schéin, attraktiv oder sympathisc vum Ausgesee.",
+        "hübsch charakteriséiert dacks d'Ausgesee vun enger Persoun, enger Kleider, enger Stëbung oder engem Objet.",
+        "De letteschen nett a ville Kontexter ass méiglech, mä et ass ze breet als Haaptiwwersetzung.",
+        "Persounlechkarakter oder nett Verhalen gëtt am Däitsche dacks mat nett charakteriséiert."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Si hunn eng schéin Kleider."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "D'Stëbung ass schéin."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Dat ass eng schéin Bild."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "schéin • attraktiv vum Ausgesee",
+          "example": "Das ist ein hübsches Kleid. – Dat ass eng schéin Kleider."
+        },
+        {
+          "word": "schön",
+          "meaning": "schéin • sympathisc",
+          "example": "Der Garten ist schön. – De Gaart ass schéin."
+        },
+        {
+          "word": "nett",
+          "meaning": "nett • frëndlech",
+          "example": "Sie ist sehr nett. – Si ass guer nett."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch ass net en universal Iwwersetzung fir de Wuert nett.",
+        "Fir Persounlechen Charakter oder nett Verhalen ass normalerweis nett passend."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

@@ -21,8 +21,17 @@ const {
 const {
   OWNER_AUTHORIZATION,
   OWNER_DECISION,
+  STUDY_STRUCTURE_OWNER_AUTH,
+  STUDY_STRUCTURE_OWNER_DECISION,
   EXPECTED_OWNER_SOURCE_HASH,
   PROOF_SCHEMA_VERSION,
+  STRUCTURE_ALIGNED_LANGS,
+  STUDY_STRUCTURE_AFFECTED_LANGS,
+  EXPECTED_STUDY_CARDS_PER_LANGUAGE,
+  EXPECTED_PRIMARY_STUDY_OBJECTS_ADDED,
+  EXPECTED_MISSING_STAGING_TO_RECOVER,
+  EXPECTED_PRODUCTION_EXTRA_KEYS,
+  KNOWN_AFFECTED_STABLE_CARD_IDS,
   copyNativeOntoProduction,
   buildStableIdMaps,
   assertStableIdPreflight,
@@ -30,7 +39,11 @@ const {
   mergeProductionViaIndex,
   exportProductionFlatViaStableId,
   compareProductionFileToStaging,
+  compareProductionCardsToStaging,
   loadProductionCardsFromDisk,
+  identifyAffectedStableCardIds,
+  validateStudyStructureScope,
+  snapshotExtraKeyValues,
   runCrowdinStagingCopyOnlyApply,
   checkpointSetSha,
   sha256File,
@@ -150,7 +163,7 @@ function testPermutedProductionStillMapsCorrectly() {
   ];
   const maps = buildStableIdMaps(lvCards, translated, productionPermuted);
   assert(maps.stats.stableIdSetMatch === "PASS", "permuted production stable-ID preflight pass");
-  const stableMerged = mergeProductionViaStableId(productionPermuted, lvCards, maps);
+  const stableMerged = mergeProductionViaStableId(productionPermuted, lvCards, maps, "lt");
   const indexMerged = mergeProductionViaIndex(productionPermuted, translated);
   const besuchStable = stableMerged.find((c) => c.de === "Besuch");
   const besuchIndex = indexMerged.find((c) => c.de === "Besuch");
@@ -254,7 +267,7 @@ function testNoIndexFallbackInMerge() {
     { de: "Apfel", lv: "old", level: "A1" },
   ];
   const maps = buildStableIdMaps(lvCards, translated, production);
-  const merged = mergeProductionViaStableId(production, lvCards, maps);
+  const merged = mergeProductionViaStableId(production, lvCards, maps, "lt");
   const apfel = merged.find((c) => c.de === "Apfel");
   assert(apfel.lv === "ābols-lt", "stable merge uses de identity not index");
 }
@@ -275,7 +288,7 @@ function testPostWriteReloadFromDisk() {
     { de: "Haus", lv: "old", level: "A1" },
   ];
   const maps = buildStableIdMaps(lvCards, translated, production);
-  const merged = mergeProductionViaStableId(production, lvCards, maps);
+  const merged = mergeProductionViaStableId(production, lvCards, maps, "lt");
   writeFixtureDataset(tmp, "lt", merged);
   const reloaded = loadProductionCardsFromDisk("data/lt/a1.js", tmp);
   assert(JSON.stringify(reloaded) === JSON.stringify(merged), "post-write reload matches merged");
@@ -309,7 +322,7 @@ function testFixtureDataAndWwwVerifiedIndependently() {
     return base;
   });
   const maps = buildStableIdMaps(lvCards, translated, production);
-  const merged = mergeProductionViaStableId(production, lvCards, maps);
+  const merged = mergeProductionViaStableId(production, lvCards, maps, "lt");
   writeFixtureDataset(tmp, "lt", merged);
   const dataCompare = compareProductionFileToStaging({
     lang: "lt",
@@ -341,7 +354,7 @@ function testMismatchDetection() {
   const staging = fixtureStagingFlat();
   const translated = applyG2FlashcardsFlat("a1", lvCards, staging);
   const maps = buildStableIdMaps(lvCards, translated, lvCards);
-  const merged = mergeProductionViaStableId(lvCards, lvCards, maps);
+  const merged = mergeProductionViaStableId(lvCards, lvCards, maps, "lt");
   merged[0].lv = "WRONG";
   const flat = exportProductionFlatViaStableId(merged, lvCards);
   let mismatches = 0;
@@ -409,13 +422,92 @@ function testAllStudyFieldsCoveredInFixture() {
   const translated = applyG2FlashcardsFlat("a1", lvCards, staging);
   const production = JSON.parse(JSON.stringify(lvCards));
   const maps = buildStableIdMaps(lvCards, translated, production);
-  const merged = mergeProductionViaStableId(production, lvCards, maps);
+  const merged = mergeProductionViaStableId(production, lvCards, maps, "lt");
   const flat = exportProductionFlatViaStableId(merged, lvCards);
   let matched = 0;
   for (const [k, v] of Object.entries(staging)) {
     if (flat[k] === v) matched += 1;
   }
   assert(matched === Object.keys(staging).length, "all study translation fields covered");
+}
+
+function testStudyStructureOwnerDecisionFile() {
+  const text = fs.readFileSync(
+    path.join(ROOT, "reports/g2-a1-crowdin-study-structure-owner-decision.md"),
+    "utf8",
+  );
+  assert(text.includes(STUDY_STRUCTURE_OWNER_AUTH), "study structure owner auth");
+  assert(text.includes(STUDY_STRUCTURE_OWNER_DECISION), "study structure owner decision");
+  assert(text.includes("MISSING_STAGING_VALUES_TO_RECOVER=3825"), "3825 missing values");
+}
+
+function testAffectedLanguagesScope() {
+  assert(STUDY_STRUCTURE_AFFECTED_LANGS.length === 25, "exactly 25 affected languages");
+  for (const lang of STRUCTURE_ALIGNED_LANGS) {
+    assert(!STUDY_STRUCTURE_AFFECTED_LANGS.includes(lang), `${lang} not in affected scope`);
+  }
+}
+
+function testTenStableStudyCardIds() {
+  assert(KNOWN_AFFECTED_STABLE_CARD_IDS.length === EXPECTED_STUDY_CARDS_PER_LANGUAGE, "10 stable card IDs");
+  const { loadG2Level } = require("./lib/content-crowdin-bridge");
+  const lv = loadG2Level("lv", "a1");
+  const ltBefore = JSON.parse(
+    execSync("git show b4e7f0be:data/lt/a1.js", { cwd: ROOT, encoding: "utf8" })
+      .match(/const A1_WORDS = (\[[\s\S]*\]);/)[1],
+  );
+  const ids = identifyAffectedStableCardIds(lv, ltBefore);
+  assert(ids.join(",") === KNOWN_AFFECTED_STABLE_CARD_IDS.join(","), "known 10 IDs match lt before repair");
+}
+
+function testMissingStagingScopeBeforeRepair() {
+  const { loadG2Level } = require("./lib/content-crowdin-bridge");
+  const { loadCrowdinFlat } = require("./lib/g2-a1-phase3/staging-objects");
+  const lv = loadG2Level("lv", "a1");
+  const ltBefore = JSON.parse(
+    execSync("git show b4e7f0be:data/lt/a1.js", { cwd: ROOT, encoding: "utf8" })
+      .match(/const A1_WORDS = (\[[\s\S]*\]);/)[1],
+  );
+  const staging = loadCrowdinFlat("lt");
+  const scope = validateStudyStructureScope(lv, ltBefore, staging);
+  assert(scope.missingStagingKeysPerLang === 153, "153 missing per lang before repair");
+  let totalMissing = 0;
+  for (const lang of STUDY_STRUCTURE_AFFECTED_LANGS) {
+    const staging = loadCrowdinFlat(lang);
+    const prod = JSON.parse(
+      execSync(`git show b4e7f0be:data/${lang}/a1.js`, { cwd: ROOT, encoding: "utf8" })
+        .match(/const A1_WORDS = (\[[\s\S]*\]);/)[1],
+    );
+    const flat = exportProductionFlatViaStableId(prod, lv);
+    for (const key of Object.keys(staging)) {
+      if (flat[key] === undefined) totalMissing += 1;
+    }
+  }
+  assert(totalMissing === EXPECTED_MISSING_STAGING_TO_RECOVER, "3825 total missing before repair");
+}
+
+function testStructureAlignedApplyPass() {
+  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true, alignStudyStructure: true });
+  assert(result.schemaVersion === "3.0.0", "proof schema v3");
+  assert(result.productionRelationToStaging === "STRUCTURE_AWARE_SUPERSET", "superset relation");
+  assert(result.classification === "G2_A1_CROWDIN_STAGING_TO_APP_STRUCTURE_ALIGNED_APPLY_PASS", "PASS classification");
+  assert(result.primaryStagingMatched === EXPECTED_VALUE_COUNT, "primary 92101/92101");
+  assert(result.wwwStagingMatched === EXPECTED_VALUE_COUNT, "www 92101/92101");
+  assert(result.combinedStagingMatched === EXPECTED_VALUE_COUNT * 2, "combined 184202/184202");
+  assert(result.primaryStagingMissing === 0, "primary missing 0");
+  assert(result.wwwStagingMissing === 0, "www missing 0");
+  assert(result.productionExtraKeys === EXPECTED_PRODUCTION_EXTRA_KEYS, "722 extra keys");
+  assert(result.productionExtraKeysPreserved === EXPECTED_PRODUCTION_EXTRA_KEYS, "722 preserved");
+  assert(result.productionExtraKeysChanged === 0, "extra changed 0");
+  assert(result.productionExtraKeysDeleted === 0, "extra deleted 0");
+  assert(result.primaryStudyObjectsAdded === 0, "0 study objects to add post-repair dry-run");
+  assert(result.deSourceChanges === 0, "DE source unchanged");
+  assert(result.existingDeValuesChanged === 0, "existing DE unchanged");
+  assert(result.deTemplateValueMismatches === 0, "DE template match");
+  assert(result.cardCountChanges === 0, "card count unchanged");
+  assert(result.cardOrderChanges === 0, "card order unchanged");
+  assert(result.lunaFindingsCount === 22750, "luna count");
+  assert(result.lunaFindingsPending === 22750, "luna pending");
 }
 
 function testDryRunStableIdPreflight() {
@@ -425,8 +517,8 @@ function testDryRunStableIdPreflight() {
     fs.readFileSync(path.join(ROOT, "reports/g2-a1-phase3-owner-proof.json"), "utf8"),
   ).sourceHash;
 
-  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true });
-  assert(result.schemaVersion === PROOF_SCHEMA_VERSION, "proof schema v2");
+  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true, alignStudyStructure: true });
+  assert(result.schemaVersion === "3.0.0", "proof schema v3");
   assert(result.verificationMode === "POST_WRITE_RELOAD_FROM_DISK", "post-write mode");
   assert(result.cardMapping === "STABLE_ID_OR_SLUG", "stable ID mapping");
   assert(result.positionalCardMappingUsed === false, "no positional mapping");
@@ -455,7 +547,7 @@ function testDeterministicDryRunHash() {
 }
 
 function testPerLanguageStableIdPreflight() {
-  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true });
+  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true, alignStudyStructure: true });
   for (const row of result.perLanguage) {
     assert(row.stableIdSetMatch === "PASS", `${row.lang} stable ID set match`);
     assert(row.stagingRoundTrip === "PASS", `${row.lang} staging roundtrip`);
@@ -464,7 +556,7 @@ function testPerLanguageStableIdPreflight() {
 }
 
 function testAllTargetLanguagesPresent() {
-  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true });
+  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true, alignStudyStructure: true });
   const langs = new Set(result.perLanguage.map((row) => row.lang));
   for (const id of CROWDIN_TARGET_LOCALE_IDS) {
     assert(langs.has(crowdinLocaleToRepo(id)), `language present ${crowdinLocaleToRepo(id)}`);
@@ -472,24 +564,24 @@ function testAllTargetLanguagesPresent() {
 }
 
 function testLunaFindingsUnchanged() {
-  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true });
+  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true, alignStudyStructure: true });
   assert(result.lunaFindingsCount === 22750, "luna findings count 22750");
   assert(result.lunaFindingsPending === 22750, "luna findings pending 22750");
 }
 
 function testCheckpointShaUnchanged() {
-  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true });
+  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true, alignStudyStructure: true });
   assert(result.checkpointShaBefore === result.checkpointShaAfter, "checkpoint SHA unchanged");
 }
 
 function testOwnerSourceHashUnchanged() {
-  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true });
+  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true, alignStudyStructure: true });
   assert(result.ownerSourceHashBefore === result.ownerSourceHashAfter, "owner source hash unchanged");
   assert(result.ownerSourceHashBefore === EXPECTED_OWNER_SOURCE_HASH, "expected owner source hash");
 }
 
 function testLvSourceUnchanged() {
-  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true });
+  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: true, alignStudyStructure: true });
   assert(result.lvSourceShaBefore === result.lvSourceShaAfter, "lv source SHA unchanged");
 }
 
@@ -510,6 +602,11 @@ function testStableIdUsesLvSlugAuthority() {
 }
 
 function main() {
+  testStudyStructureOwnerDecisionFile();
+  testAffectedLanguagesScope();
+  testTenStableStudyCardIds();
+  testMissingStagingScopeBeforeRepair();
+  testStructureAlignedApplyPass();
   testOwnerDecisionFile();
   testStagingComplete();
   testCopyNativePreservesDe();

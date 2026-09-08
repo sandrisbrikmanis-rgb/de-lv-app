@@ -2523,7 +2523,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "apsilankymas",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "apsilankymas",
+      "explanation": [
+        "Pagrindinė idėja: der Besuch reiškia apsilankymą, vizitą ar apsilankymo.",
+        "Jei kalbame apie vietą ar renginį, tai lietuviškai tinka apsilankymas.",
+        "Jei der Besuch reiškia vizitą pas žmogų, lietuviškai galima sakyti apsilankymas arba vizitas.",
+        "Daugiskaita yra die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Muziejaus apsilankymas buvo įdomus."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Ačiū už tavo apsilankymą."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Daktaras keliauja vizito."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "apsilankymas • apsilankymas pas ką nors • vizitas",
+          "example": "Danke für deinen Besuch. – Ačiū už tavo apsilankymą."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "lankytojas",
+          "example": "Der Besucher wartet draußen. – Žiūrovas laukia lauke."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "aplankau • aplankau",
+          "example": "Ich besuche meine Großeltern. – Aš aplankau savo senelį ir senelyje."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch yra ne tik apsilankymas; tai gali būti ir apsilankymas, arba vizitas.",
+        "Daugiskaita: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2535,7 +2719,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "aplankau",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "aplankau",
+      "explanation": [
+        "Pagrindinė idėja: besuchen yra vartojimas aplankant vietą, renginį ar asmenį.",
+        "Vietą, renginį ar kursą lietuviškai paprastai aplankau.",
+        "Jei besuchen reiškia vizitą pas žmogų, lietuviškai dažnai naturaliau yra apsilankyti.",
+        "Vokiečių kalboje besuchen vartojamas be prielinksio ir su akuzatyvu."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Aš aplankau muziejų."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Mes aplankome vokiečių kalbos kursą."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Aš aplankau savo senelį ir senelyje."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "aplankau vietą ar renginį • aplankau asmenį",
+          "example": "Ich besuche meine Großeltern. – Aš aplankau savo senelį ir senelyje."
+        },
+        {
+          "word": "treffen",
+          "meaning": "sutinku",
+          "example": "Ich treffe meinen Freund. – Aš sutinku savo draugą."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "einu pas ką nors",
+          "example": "Ich gehe zu meinem Freund. – Einu pas savo draugą."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen vartojamas be prielinksio: Ich besuche meine Freundin.",
+        "Lietuviško vertimo žodynas priklauso nuo objekto: aplankau vietą, aplankau asmenį."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7029,12 +7422,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "futbolas",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "futbolas",
+      "explanation": [
+        "Pagrindinė idėja: Fußball dažniausiai reiškia futbolą kaip sportą.",
+        "Su artikuliu ir skaitomoje reikšmėje der Fußball gali reiškti ir futbolo kamuolį.",
+        "Daugiskaita die Fußbälle reiškia futbolo kamuolius, o ne kelis sportus."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "aš žaidžiu futbolą."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "futbolo kamuolys yra sode."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "mes perkame du futbolo kamuolius."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "futbolas kaip sportas",
+          "example": "Ich spiele Fußball. – Aš žaidžiu futbolą."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "futbolo kamuolys",
+          "example": "Der Fußball ist neu. – Futbolo kamuolys yra naujas."
+        }
+      ],
+      "tip": [
+        "Be artikulio spielen Fußball paprastai reiškia žaisti futbolą.",
+        "Skaitomoje reikšmėje ein Fußball ir die Fußbälle yra futbolo kamuolys ir futbolo kamuoliai."
+      ],
+      "important": [
+        "die Fußbälle reiškia futbolo kamuolius.",
+        "Sporto rūšį Fußball paprastai vartojate vienaskaita."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "sveikas",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "sveikas",
+      "explanation": [
+        "Pagrindinė idėja: ganz su daiktavardžiu reiškia visą arba viską.",
+        "Prieš būdvardį arba adverbą ganz gali reikšti visiškai, visai ar gana.",
+        "ganz nėra tas pats žodis kaip įvardis alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "aš dirbu visą dieną."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "visa namas yra švari."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "tai yra visiškai saugus."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "maistas yra gana geras."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "visas • viskas • visiškai",
+          "example": "der ganze Tag – visa diena"
+        },
+        {
+          "word": "alles",
+          "meaning": "visas",
+          "example": "Alles ist gut. – Viskas yra gerai."
+        }
+      ],
+      "tip": [
+        "Prieš daiktavardį ganz dažnai reiškia viską arba visą.",
+        "Prieš būdvardį ganz dažnai reiškia visiškai arba gana."
+      ],
+      "important": [
+        "der ganze Tag = visa diena.",
+        "alles = viskas kaip įvardis."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7316,7 +7801,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "patikti",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "patikti",
+      "explanation": [
+        "Pagrindinė idėja: gefallen reiškia patinka, bet vokiečių sakinio struktūra skiriasi nuo lietuvių kalbos.",
+        "Dalykas, kuris patinka, vokiškai yra sakinio subjektas.",
+        "Asmuo, kuriam kažkas patinka, yra dative: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "man tai patinka."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "ar tau patinka suknelė?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "mums patinka filmas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "patinka • asmuo dative",
+          "example": "Das gefällt mir. – Man tai patinka."
+        },
+        {
+          "word": "mögen",
+          "meaning": "patinka • norėtų pasirinkti",
+          "example": "Ich mag das. – Man tai patinka."
+        }
+      ],
+      "tip": [
+        "Prisiminkite konstrukciją: Das gefällt mir.",
+        "Nesukurkite tiesioginio lietuviško žodžio tvarkos."
+      ],
+      "important": [
+        "gefallen vartojamas su dative: mir, dir, ihm, ihr.",
+        "Das gefällt mir = man tai patinka."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7359,13 +7888,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "istorija",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "istorija",
+      "explanation": [
+        "Pagrindinė idėja: Geschichte gali reikšti istoriją arba istoriją.",
+        "Daugiskaita die Geschichten paprastai reiškia istorijas.",
+        "Reikšme istorija, žodį Geschichte paprastai vartojate vienaskaita."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "jis pasakoja istoriją."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "aš mokausi istorijos."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "tai yra Vokietijos istorija."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "istorija",
+          "example": "eine interessante Geschichte – įdomi istorija"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "istorija",
+          "example": "Geschichte lernen – mokyti istoriją"
+        }
+      ],
+      "tip": [
+        "Su eine ir daugiskaita paprastai reiškiama istorija.",
+        "Kaip mokymo dalykas Geschichte reiškia istoriją."
+      ],
+      "important": [
+        "die Geschichten = istorijos.",
+        "Geschichte kaip istorija paprastai yra vienaskaita."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "broliai ir sesės",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "broliai ir sesės",
+      "explanation": [
+        "Pagrindinė idėja: Geschwister reiškia brolius ir seseris kartu.",
+        "Šį žodį paprastai vartojate tik daugiskaita.",
+        "Vienam asmeniui vartojate Bruder arba Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "man yra du broliai arba sesės."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "mani broliai ir sesės gyvena Berlīne."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "broliai ir sesės",
+          "example": "Meine Geschwister – mani broliai ir sesės"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "brolis",
+          "example": "mein Bruder – mano brolis"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "sesuo",
+          "example": "meine Schwester – mano sesuo"
+        }
+      ],
+      "tip": [
+        "Geschwister paprastai vartojate daugiskaita.",
+        "Vienam asmeniui pasirinkite Bruder arba Schwester."
+      ],
+      "important": [
+        "Nevartojama ein Geschwister kaip įprasta A1 vienaskaitos forma."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7732,7 +8349,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "seneliai",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "seneliai",
+      "explanation": [
+        "Pagrindinė idėja: Großeltern reiškia senelyje ir senelį kartu.",
+        "Šį žodį vartojate daugiskaita.",
+        "Vienaskaita vartojate Großmutter arba Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "mani seneliai gyvena kaime."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "aš aplankau savo senelį ir senelyje."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "seneliai",
+          "example": "meine Großeltern – mani seneliai"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "močiutė",
+          "example": "meine Großmutter – mano senelis"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "senelis",
+          "example": "mein Großvater – mano senelis"
+        }
+      ],
+      "tip": [
+        "Großeltern yra daugiskaita.",
+        "Vienam asmeniui vartojate Großmutter arba Großvater."
+      ],
+      "important": [
+        "die Großeltern = seneliai."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8454,7 +9115,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "ranka",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "ranka",
+      "explanation": [
+        "Pagrindinė idėja: die Hand reiškia ranką.",
+        "Vokiečių kalboje Arm ir Hand yra du atskiri žodžiai.",
+        "Lietuviškai kasdieniame žodyje žodis ranka dažnai gali reiškti tiek Arm, tiek Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "aš plaunu rankas."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "ji laiko stiklą rankoje."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "man skaudu ranka."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "ranka",
+          "example": "in der Hand – rankoje"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "ranka",
+          "example": "Mein Arm tut weh. – Man skaudu pekta."
+        }
+      ],
+      "tip": [
+        "Hand = ranka.",
+        "Arm = ranka nuo peties iki rankos."
+      ],
+      "important": [
+        "Vokiečių kalboje Hand ir Arm nėra tas pats žodis."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9042,7 +9746,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "gražus",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "gražus",
+      "explanation": [
+        "Pagrindinė idėja: hübsch reiškia gražus, patrauklus arba mielas pavidale.",
+        "hübsch dažnai charakterizuoja žmogaus, drabužio, kambario arba objekto išvaizdą.",
+        "Lietuviškas malonus kai kuriuose kontekstuose yra įmanomas, bet jis yra per platus kaip pirminis vertimas.",
+        "Žmogaus charakterį arba svetingą elgesį vokiečių kalboje dažniau charakterizuoja nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Ji turi gražią suknelę."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Kambarys yra gražus."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Tai graži nuotrauka."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "gražus • patrauklus išvaizda",
+          "example": "Das ist ein hübsches Kleid. – Tai graži suknelė."
+        },
+        {
+          "word": "schön",
+          "meaning": "gražus • malonus",
+          "example": "Der Garten ist schön. – Sodas yra gražus."
+        },
+        {
+          "word": "nett",
+          "meaning": "mili • draugiška",
+          "example": "Sie ist sehr nett. – Ji yra labai mili."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch nėra universalus vertimas žodžiui malonus.",
+        "Žmogaus charakteriui arba svetingam elgesiui dažniausiai tinkamasis yra nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

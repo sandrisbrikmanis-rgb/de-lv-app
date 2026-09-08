@@ -2577,7 +2577,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "vierailu",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "vierailu",
+      "explanation": [
+        "Pääajatus: der Besuch tarkoittaa vierailua, käyntiä tai vierailua.",
+        "Jos puhutaan paikasta tai tapahtumasta, latviaksi sopiva on vierailu.",
+        "Jos Besuch koskee henkilöä, latviaksi voi sanoa vierailu tai käynti.",
+        "Monikko on die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Museon vierailu oli mielenkiintoinen."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Kiitos vierailustasi."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Lääkäri menee käynnille."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "vierailu • käynti • vierailu",
+          "example": "Danke für deinen Besuch. – Kiitos vierailustasi."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Külastaja",
+          "example": "Der Besucher wartet draußen. – Vierailija odottaa ulkona."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "vierailla • käydä",
+          "example": "Ich besuche meine Großeltern. – Käyn isoäidin ja isoisän luona."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch ei ole pelkästään vierailu; se voi olla myös käynti tai vierailu.",
+        "Monikko: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2589,7 +2773,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "vierailla",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "vierailla",
+      "explanation": [
+        "Pääajatus: besuchen käytetään kun käydään paikalla, tapahtumassa tai henkilöllä.",
+        "Paikkaa, tapahtumaa tai kurssia latviaksi yleensä vieraillaan.",
+        "Jos besuchen koskee henkilöä, latviaksi usein luontevampaa on käydä jonkun luona.",
+        "Saksassa besuchen käytetään ilman esisijaa ja akkusatiivin kanssa."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Käyn museossa."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Osallistumme saksankielen kurssille."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Käyn isoäidin ja isoisän luona."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "vierailla paikkaa tai tapahtumaa • käydä henkilöllä",
+          "example": "Ich besuche meine Großeltern. – Käyn isoäidin ja isoisän luona."
+        },
+        {
+          "word": "treffen",
+          "meaning": "kohdata",
+          "example": "Ich treffe meinen Freund. – Kohtaan ystäväni."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "mennä jonkun luo",
+          "example": "Ich gehe zu meinem Freund. – Ma lähen oma sõbra juurde."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen käytetään ilman esisijaa: Ich besuche meine Freundin.",
+        "Latvian käännös riippuu objektista: vierailla paikalla, käydä henkilöllä."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7194,12 +7587,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "jalkapallo",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "jalkapallo",
+      "explanation": [
+        "Pääajatus: Fußball useimmiten tarkoittaa jalkapalloa urheilulajina.",
+        "Artikkelilla ja laskettavalla tavalla der Fußball voi tarkoittaa myös jalkapallon palloa.",
+        "Monikko die Fußbälle tarkoittaa jalkapallon palloja, ei useita urheilulajeja."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Pelaan jalkapalloa."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "Jalkapallo on puutarhassa."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "Ostamme kaksi jalkapalloa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "jalkapallo urheilulajina",
+          "example": "Ich spiele Fußball. – Pelaan jalkapalloa."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "jalkapallo",
+          "example": "Der Fußball ist neu. – Jalkapallo on uusi."
+        }
+      ],
+      "tip": [
+        "Ilman artikkelia spielen Fußball yleensä tarkoittaa pelata jalkapalloa.",
+        "Laskettavalla tavalla ein Fußball ja die Fußbälle ovat jalkapallon pallo ja jalkapallon pallot."
+      ],
+      "important": [
+        "die Fußbälle tarkoittaa jalkapallon palloja.",
+        "Urheilulajia Fußball käytetään yleensä yksikössä."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Terve",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Terve",
+      "explanation": [
+        "Pääajatus: ganz substantiivin kanssa tarkoittaa kokonaista tai kaikkea kokonaisuudessaan.",
+        "Adjektiivin tai adverbin edessä ganz voi tarkoittaa täysin, aivan tai melko.",
+        "ganz ei ole sama kuin pronomi alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Työskentelen koko päivän."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Koko talo on puhdas."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "Se on täysin turvallista."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "Ruoka on melko hyvää."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "kokonainen • kokonaan • täysin",
+          "example": "der ganze Tag – koko päivä"
+        },
+        {
+          "word": "alles",
+          "meaning": "Kõik",
+          "example": "Alles ist gut. – Kaikki on hyvin."
+        }
+      ],
+      "tip": [
+        "Substantiivin edessä ganz usein tarkoittaa kaikki tai kokonainen.",
+        "Adjektiivin edessä ganz usein tarkoittaa täysin tai melko."
+      ],
+      "important": [
+        "der ganze Tag = koko päivä.",
+        "alles = kaikki pronominina."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7495,7 +7980,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Meeldima",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Meeldima",
+      "explanation": [
+        "Pääajatus: gefallen tarkoittaa pitää, mutta saksalaisen lauseen rakenne eroaa latvian kielestä.",
+        "Asia, joka miellyttää, on saksalaisessa lauseessa predikaatti.",
+        "Henkilö, jolle jokin miellyttää, on datiivissa: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "Pidän siitä."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Pitkö sinä mekkoa?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "Pidämme elokuvasta."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "pitää • henkilö datiivissa",
+          "example": "Das gefällt mir. – Pidän siitä."
+        },
+        {
+          "word": "mögen",
+          "meaning": "pitää • haluta mieluusti",
+          "example": "Ich mag das. – Pidän siitä."
+        }
+      ],
+      "tip": [
+        "Muista rakenne: Das gefällt mir.",
+        "Älä tee kirjaimellista latvian sanajärjestystä."
+      ],
+      "important": [
+        "gefallen käytetään datiivilla: mir, dir, ihm, ihr.",
+        "Das gefällt mir = pidän siitä."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7538,13 +8067,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "tarina",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "tarina",
+      "explanation": [
+        "Pääajatus: Geschichte voi tarkoittaa tarinaa tai historiaa.",
+        "Monikko die Geschichten yleensä tarkoittaa tarinoita.",
+        "Merkityksessä historia sanaa Geschichte yleensä käytetään yksikössä."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "Hän kertoo tarinan."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Opiskelen historiaa."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "Se on Saksan historia."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "tarina",
+          "example": "eine interessante Geschichte – kiinnostava tarina"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "historia",
+          "example": "Geschichte lernen – opiskella historiaa"
+        }
+      ],
+      "tip": [
+        "Yhdellä ja monikolla se yleensä tarkoittaa tarinaa.",
+        "Oppiaineen nimellä Geschichte tarkoittaa historiaa."
+      ],
+      "important": [
+        "die Geschichten = tarinat.",
+        "Geschichte historiaa tarkoitettaessa on yleensä yksikössä."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "veljet ja sisaret",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "veljet ja sisaret",
+      "explanation": [
+        "Pääajatus: Geschwister tarkoittaa veljiä ja sisaria yhdessä.",
+        "Tätä sanaa käytetään yleensä vain monikossa.",
+        "Yhdelle henkilölle käytetään Bruder tai Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Minulla on kaksi veljeä tai sisarta."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "Minun veljeni ja sisareni asuvat Berliinissä."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "veljet ja sisaret",
+          "example": "Meine Geschwister – minun veljeni ja sisareni"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Vend",
+          "example": "mein Bruder – minun veljeni"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Õde",
+          "example": "meine Schwester – minun sisareni"
+        }
+      ],
+      "tip": [
+        "Geschwister käytetään yleensä monikossa.",
+        "Valitse Bruder tai Schwester yhdelle henkilölle."
+      ],
+      "important": [
+        "Älä käytä ein Geschwister tavallisena A1-yksikkömuotona."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7914,7 +8531,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "isovanhemmat",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "isovanhemmat",
+      "explanation": [
+        "Pääajatus: Großeltern tarkoittaa isoäitiä ja isoisää yhdessä.",
+        "Tätä sanaa käytetään monikossa.",
+        "Yksikössä käytetään Großmutter tai Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "Minun isovanhempani asuvat maalla."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Käyn isovanhempieni luona."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "isovanhemmat",
+          "example": "meine Großeltern – minun isovanhempani"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Vanaema",
+          "example": "meine Großmutter – minun isoäitini"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Vanaisa",
+          "example": "mein Großvater – minun isoisäni"
+        }
+      ],
+      "tip": [
+        "Großeltern on monikko.",
+        "Käytä Großmutter tai Großvater yhdelle henkilölle."
+      ],
+      "important": [
+        "die Großeltern = isovanhemmat."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8647,7 +9308,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "käsi",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "käsi",
+      "explanation": [
+        "Pääajatus: die Hand tarkoittaa kättä.",
+        "Saksassa Arm ja Hand ovat kaksi eri sanaa.",
+        "Latvian arkipuheessa sana käsi voi usein tarkoittaa sekä Arm-sanaa että Hand-sanaa."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Pesin käsiä."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Hän pitää lasia kädessään."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "Minun käsi / vartaloni sattuu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "käsi",
+          "example": "in der Hand – kädessä"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Käsi",
+          "example": "Mein Arm tut weh. – Minun käsi / vartaloni sattuu."
+        }
+      ],
+      "tip": [
+        "Hand = käsi.",
+        "Arm = käsi olkapäästä käteen."
+      ],
+      "important": [
+        "Saksassa Hand ja Arm eivät ole sama sana."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9250,7 +9954,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "kaunis",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "kaunis",
+      "explanation": [
+        "Pääajatus: hübsch tarkoittaa kaunista, houkuttelevaa tai sympatiaa herättävää ulkonäköä.",
+        "hübsch usein kuvailee henkilön, vaatteen, huoneen tai esineen ulkonäköä.",
+        "Latvian kieli mukava on joissakin yhteyksissä mahdollista, mutta se on liian laaja pääkäännökseksi.",
+        "Persoonallisuutta tai ystävällistä käytöstä saksassa yleensä kuvataan sanalla nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Hänellä on kaunis puku."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Huone on kaunis."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Se on kaunis kuva."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "kaunis • houkutteleva ulkonäöllään",
+          "example": "Das ist ein hübsches Kleid. – Se on kaunis puku."
+        },
+        {
+          "word": "schön",
+          "meaning": "kaunis • miellyttävä",
+          "example": "Der Garten ist schön. – Puutarha on kaunis."
+        },
+        {
+          "word": "nett",
+          "meaning": "mukava • ystävällinen",
+          "example": "Sie ist sehr nett. – Hän on hyvin mukava."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch ei ole yleinen käännös sanalle mukava.",
+        "Persoonallisuudelle tai ystävälliselle käytökselle sopii yleensä paremmin nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

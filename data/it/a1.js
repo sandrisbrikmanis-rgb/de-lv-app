@@ -2573,7 +2573,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "visita",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "visita",
+      "explanation": [
+        "Idea principale: der Besuch significa visita, ospite o apciemojums.",
+        "Se si parla di un luogo o di un evento, il termine latviano appropriato è \"visita\".",
+        "Se Besuch si riferisce a una persona, il latviano può dire \"visita\" o \"ospite\".",
+        "Il plurale è die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "La visita al museo è stata interessante."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Grazie per la tua visita."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Il dottore fa una visita."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "visita • apciemojums • visita",
+          "example": "Danke für deinen Besuch. – Grazie per la tua visita."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Apmekletājs",
+          "example": "Der Besucher wartet draußen. – Il visitatore aspetta fuori."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "visitare • apciemot",
+          "example": "Ich besuche meine Großeltern. – Visito i miei nonni."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch non è solo \"apciemojums\"; può essere anche una visita o un ospite.",
+        "Plurale: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2585,7 +2769,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "visitare",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "visitare",
+      "explanation": [
+        "Idea principale: besuchen si usa quando si visita un luogo, un evento o una persona.",
+        "Un luogo, un evento o un corso in latviano di solito si visita.",
+        "Se besuchen si riferisce a una persona, in latviano spesso è più naturale \"apciemot\".",
+        "In tedesco besuchen si usa senza preposizione e con l'accusativo."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Visito il museo."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Frequentiamo un corso di tedesco."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Visito i miei nonni."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "visitare un luogo o un evento • visitare una persona",
+          "example": "Ich besuche meine Großeltern. – Visito i miei nonni."
+        },
+        {
+          "word": "treffen",
+          "meaning": "incontrare",
+          "example": "Ich treffe meinen Freund. – Incontro il mio amico."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "andare da qualcuno",
+          "example": "Ich gehe zu meinem Freund. – È la tua torta sava drauga."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen si usa senza preposizione: Ich besuche meine Freundin.",
+        "La traduzione latviana dipende dall'oggetto: visitare un luogo, apciemot una persona."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7164,12 +7557,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "calcio",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "calcio",
+      "explanation": [
+        "Idea principale: Fußball molto spesso significa calcio come sport.",
+        "Con articolo e numero der Fußball può anche significare pallone da calcio.",
+        "Il plurale die Fußbälle significa palloni, non più sport."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Gioco a calcio."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "Il pallone è in giardino."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "Compriamo due palloni."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "calcio come sport",
+          "example": "Ich spiele Fußball. – Gioco a calcio."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "pallone da calcio",
+          "example": "Der Fußball ist neu. – Il pallone è nuovo."
+        }
+      ],
+      "tip": [
+        "Senza articolo spielen Fußball di solito significa giocare a calcio.",
+        "Con numero ein Fußball e die Fußbälle sono il pallone e i palloni."
+      ],
+      "important": [
+        "die Fußbälle significa palloni.",
+        "Lo sport calcio di solito si usa al singolare."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Navi",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Navi",
+      "explanation": [
+        "Idea principale: ganz insieme a un sostantivo significa intero o tutto nel complesso.",
+        "Prima di un aggettivo o avverbio ganz può significare completamente, interamente o piuttosto.",
+        "ganz non è lo stesso del pronome alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Lavoro tutto il giorno."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Tutta la casa è pulita."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "È completamente sicuro."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "Il cibo è abbastanza buono."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "intero • tutto nel complesso • completamente",
+          "example": "der ganze Tag – tutto il giorno"
+        },
+        {
+          "word": "alles",
+          "meaning": "Vite",
+          "example": "Alles ist gut. – Tutto va bene."
+        }
+      ],
+      "tip": [
+        "Prima di un sostantivo ganz spesso significa tutto o intero.",
+        "Prima di un aggettivo ganz spesso significa completamente o piuttosto."
+      ],
+      "important": [
+        "der ganze Tag = tutto il giorno.",
+        "alles = tutto come pronome."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7462,7 +7947,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Patikt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Patikt",
+      "explanation": [
+        "Idea principale: gefallen significa piacere, ma la struttura della frase tedesca è diversa dal latviano.",
+        "La cosa che piace in tedesco è il soggetto della frase.",
+        "La persona a cui piace qualcosa è al dativo: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "Mi piace."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Ti piace il vestito?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "Ci piace il film."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "piacere • persona al dativo",
+          "example": "Das gefällt mir. – Mi piace."
+        },
+        {
+          "word": "mögen",
+          "meaning": "piacere • preferire di buon grado",
+          "example": "Ich mag das. – Mi piace."
+        }
+      ],
+      "tip": [
+        "Ricorda la struttura: Das gefällt mir.",
+        "Non costruire l'ordine letterale latviano."
+      ],
+      "important": [
+        "gefallen si usa con il dativo: mir, dir, ihm, ihr.",
+        "Das gefällt mir = mi piace."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7505,13 +8034,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "storia",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "storia",
+      "explanation": [
+        "Idea principale: Geschichte può significare storia o storia.",
+        "Il plurale die Geschichten di solito significa storie.",
+        "Nel significato di storia la parola Geschichte di solito si usa al singolare."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "Racconta una storia."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Studio la storia."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "È la storia della Germania."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "storia",
+          "example": "eine interessante Geschichte – una storia interessante"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "storia",
+          "example": "Geschichte lernen – imparare la storia"
+        }
+      ],
+      "tip": [
+        "Con una e al plurale di solito si parla di storia.",
+        "Come materia scolastica Geschichte significa storia."
+      ],
+      "important": [
+        "die Geschichten = storie.",
+        "Geschichte come storia di solito è al singolare."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "fratelli e sorelle",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "fratelli e sorelle",
+      "explanation": [
+        "Idea principale: Geschwister significa fratelli e sorelle insieme.",
+        "Questa parola di solito si usa solo al plurale.",
+        "Per una persona usa Bruder o Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Ho due fratelli o sorelle."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "I miei fratelli e sorelle vivono a Berlino."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "fratelli e sorelle",
+          "example": "Meine Geschwister – i miei fratelli e sorelle"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Fratello",
+          "example": "mein Bruder – mio fratello"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Masa...",
+          "example": "meine Schwester – mia sorella"
+        }
+      ],
+      "tip": [
+        "Geschwister di solito si usa al plurale.",
+        "Per una persona scegli Bruder o Schwester."
+      ],
+      "important": [
+        "Non usare ein Geschwister come forma singolare ordinaria di A1."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7877,7 +8494,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "nonni",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "nonni",
+      "explanation": [
+        "Idea principale: Großeltern significa nonna e nonno insieme.",
+        "Questa parola si usa al plurale.",
+        "Al singolare usa Großmutter o Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "I miei nonni vivono in campagna."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Visito i miei nonni."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "nonni",
+          "example": "meine Großeltern – i miei nonni"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Vecmāmiņa",
+          "example": "meine Großmutter – mia nonna"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Vectētiņš",
+          "example": "mein Großvater – mio nonno"
+        }
+      ],
+      "tip": [
+        "Großeltern è plurale.",
+        "Per una persona usa Großmutter o Großvater."
+      ],
+      "important": [
+        "die Großeltern = nonni."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8601,7 +9262,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "mano",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "mano",
+      "explanation": [
+        "Idea principale: die Hand significa mano.",
+        "In tedesco Arm e Hand sono due parole diverse.",
+        "Nel linguaggio quotidiano latviano la parola roka spesso può designare sia Arm che Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Mi lavo le mani."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Tiene il bicchiere in mano."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "Mi fa male la mano."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "mano",
+          "example": "in der Hand – in mano"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Roka",
+          "example": "Mein Arm tut weh. – Mi fa male il braccio."
+        }
+      ],
+      "tip": [
+        "Hand = mano.",
+        "Arm = braccio dalla spalla al polso."
+      ],
+      "important": [
+        "In tedesco Hand e Arm non sono la stessa parola."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9192,7 +9896,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "carino",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "carino",
+      "explanation": [
+        "Idea principale: hübsch significa carino, attraente o simpatico nell'aspetto.",
+        "hübsch spesso descrive l'aspetto di una persona, vestiti, stanza o oggetto.",
+        "Il latviano \"jauks\" in alcuni contesti è possibile, ma è troppo ampio come traduzione principale.",
+        "Per il carattere o l'atteggiamento cortese il tedesco di solito usa nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Ha un bellissimo vestito."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "La stanza è bella."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "È una bella immagine."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "carino • attraente nell'aspetto",
+          "example": "Das ist ein hübsches Kleid. – È un vestito carino."
+        },
+        {
+          "word": "schön",
+          "meaning": "bellissimo • piacevole",
+          "example": "Der Garten ist schön. – Il giardino è bellissimo."
+        },
+        {
+          "word": "nett",
+          "meaning": "gentile • cortese",
+          "example": "Sie ist sehr nett. – È molto gentile."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch non è una traduzione universale per \"jauks\".",
+        "Per il carattere di una persona o l'atteggiamento cortese di solito è più appropriato nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

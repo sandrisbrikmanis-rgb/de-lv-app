@@ -2086,7 +2086,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "posjet",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "posjet",
+      "explanation": [
+        "Glavna ideja: der Besuch znači posjet, vizitu ili pohod.",
+        "Ako se radi o mjestu ili događaju, prikladno je posjet.",
+        "Ako se radi o posjet osobe, možeš reći pohod ili vizita.",
+        "Množina je die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Muzejski posjet je bio zanimljiv."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Hvala na tvoj posjet."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Liječnik odlazi u posjetu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "posjet • pohod • vizita",
+          "example": "Danke für deinen Besuch. – Hvala na tvoj posjet."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Посетител",
+          "example": "Der Besucher wartet draußen. – Posjetilac čeka vani."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "posjetiti • pohađati",
+          "example": "Ich besuche meine Großeltern. – Posjetim svoje bake i djedove."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch nije samo posjet; može biti i pohod ili vizita.",
+        "Množina: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2098,7 +2282,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "posjetiti",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "posjetiti",
+      "explanation": [
+        "Glavna ideja: besuchen se koristi kada se posjeduje mjesto, događaj ili osoba.",
+        "Mjesto, događaj ili tečaj se obično posjeduje.",
+        "Ako se besuchen odnosi na osobu, često je prirodnije reći pohađati.",
+        "U njemačkom jeziku besuchen se koristi bez prijedloga i s akuzativom."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Posjetim muzej."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Pohađamo tečaj německog jezika."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Posjetim svoje bake i djedove."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "posjetiti mjesto ili događaj • pohađati osobu",
+          "example": "Ich besuche meine Großeltern. – Posjetim svoje bake i djedove."
+        },
+        {
+          "word": "treffen",
+          "meaning": "susresti",
+          "example": "Ich treffe meinen Freund. – Susrećem svog prijatelja."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "ići kod nekoga",
+          "example": "Ich gehe zu meinem Freund. – Es eû pita sava drauga."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen se koristi bez prijedloga: Ich besuche meine Freundin.",
+        "Hrvatskog prijevoda ovisi o objektu: posjetiti mjesto, pohađati osobu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -5842,12 +6235,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "fudbal",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "fudbal",
+      "explanation": [
+        "Glavna ideja: Fußball najčešće znači fudbal kao vrstu sporta.",
+        "S članom i u brojivom obliku der Fußball može značiti i fudbalsku loptu.",
+        "Množina die Fußbälle znači fudbalske lopte, a ne više vrsta sporta."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Igramo fudbal."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "Fudbalska lopta je u vrtu."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "Kupujemo dvije fudbalske lopte."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "fudbal kao vrsta sporta",
+          "example": "Ich spiele Fußball. – Igram fudbal."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "fudbalska lopta",
+          "example": "Der Fußball ist neu. – Fudbalska lopta je nova."
+        }
+      ],
+      "tip": [
+        "Bez člana spielen Fußball obično znači igrati fudbal.",
+        "U brojivom obliku ein Fußball i die Fußbälle su fudbalska lopta i fudbalske lopte."
+      ],
+      "important": [
+        "die Fußbälle znače fudbalske lopte.",
+        "Vrstu sporta Fußball obično koristiš u jednini."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Zdravo",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Zdravo",
+      "explanation": [
+        "Glavna ideja: ganz s imenicom znači cijeli ili sve ukupno.",
+        "Ispred pridjevu ili priložnog određaja ganz može značiti potpuno, sasvim ili dosta.",
+        "ganz nije isto što i zamjenica alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Radim cijeli dan."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Cijela kuća je čista."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "To je potpuno sigurno."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "Jelo je sasvim dobro."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "cijeli • sve ukupno • potpuno",
+          "example": "der ganze Tag – cijeli dan"
+        },
+        {
+          "word": "alles",
+          "meaning": "Сите",
+          "example": "Alles ist gut. – Sve je u redu."
+        }
+      ],
+      "tip": [
+        "Ispred imenice ganz često znači sve ili cijeli.",
+        "Ispred pridjevu ganz često znači potpuno ili dosta."
+      ],
+      "important": [
+        "der ganze Tag = cijeli dan.",
+        "alles = sve kao zamjenica."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -6058,7 +6543,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Sviđa mi se",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Sviđa mi se",
+      "explanation": [
+        "Glavna ideja: gefallen znači sviđati se, ali se struktura njemačke rečenice razlikuje od hrvatske.",
+        "Stvar koja se sviđa je u njemačkom jeziku subjekt rečenice.",
+        "Osoba kojoj se nešto sviđa je u dativu: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "To mi se sviđa."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Sviđa li ti se haljina?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "Nam se sviđa film."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "sviđati se • osoba u dativu",
+          "example": "Das gefällt mir. – To mi se sviđa."
+        },
+        {
+          "word": "mögen",
+          "meaning": "sviđati se • rado birati",
+          "example": "Ich mag das. – To mi se sviđa."
+        }
+      ],
+      "tip": [
+        "Zapamti strukturu: Das gefällt mir.",
+        "Nemoj napraviti dosljevan hrvatski slijed rijeci."
+      ],
+      "important": [
+        "gefallen se koristi s dativom: mir, dir, ihm, ihr.",
+        "Das gefällt mir = To mi se sviđa."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -6101,13 +6630,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "priča",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "priča",
+      "explanation": [
+        "Glavna ideja: Geschichte može značiti priču ili povijest.",
+        "Množina die Geschichten obično znači priče.",
+        "Ako znači povijest, riječ Geschichte se obično koristi u jednini."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "On priča priču."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Učim povijest."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "To je povijest Njemačke."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "priča",
+          "example": "eine interessante Geschichte – zanimljiva priča"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "povijest",
+          "example": "Geschichte lernen – učiti povijest"
+        }
+      ],
+      "tip": [
+        "S članom eine i u množini obično se radi o priči.",
+        "Kao školski predmet Geschichte znači povijest."
+      ],
+      "important": [
+        "die Geschichten = priče.",
+        "Geschichte kao povijest obično je u jednini."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "brat i sestri",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "brat i sestrа",
+      "explanation": [
+        "Glavna ideja: Geschwister znači brata i sestru zajedno.",
+        "Ovu riječ obično koristiš samo u množini.",
+        "Za jednu osobu koristi Bruder ili Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Imam dva brata ili sestru."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "Moj brat i sestra žive u Berlinu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "brat i sestrа",
+          "example": "Meine Geschwister – Moji brat i sestrа"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Брат",
+          "example": "mein Bruder – moj brat"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Sestro",
+          "example": "meine Schwester – moja sestra"
+        }
+      ],
+      "tip": [
+        "Geschwister se obično koristi u množini.",
+        "Za jednu osobu odaberi Bruder ili Schwester."
+      ],
+      "important": [
+        "Ne koristi ein Geschwister kao redovan A1 oblik u jednini."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -6406,7 +7023,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "baka i djed",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "baka i djed",
+      "explanation": [
+        "Glavna ideja: Großeltern znači baku i djeda zajedno.",
+        "Ovu riječ koristi u množini.",
+        "U jednini koristi Großmutter ili Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "Moji baka i djed žive na selu."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Posjetim svoje bake i djedove."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "baka i djed",
+          "example": "meine Großeltern – Moji baka i djed"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Баба",
+          "example": "meine Großmutter – Moja baka"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Дедо",
+          "example": "mein Großvater – Moj djed"
+        }
+      ],
+      "tip": [
+        "Großeltern je množina.",
+        "Za jednu osobu koristi Großmutter ili Großvater."
+      ],
+      "important": [
+        "die Großeltern = baka i djed."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -6975,7 +7636,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "dlan",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "dlan",
+      "explanation": [
+        "Glavna ideja: die Hand znači dlan.",
+        "U njemačkom jeziku Arm i Hand su dvije odvojene riječi.",
+        "U hrvatskom svakodnevnom jeziku riječ ruka često može značiti i Arm i Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Perem si ruke."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Drži čašu u dlanu."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "Boli me ruka."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "dlan",
+          "example": "in der Hand – u dlanu"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Ruka",
+          "example": "Mein Arm tut weh. – Boli me ruka."
+        }
+      ],
+      "tip": [
+        "Hand = dlan.",
+        "Arm = ruka od ramena do dlana."
+      ],
+      "important": [
+        "U njemačkom jeziku Hand i Arm nisu ista riječ."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -7456,7 +8160,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "lijep",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "lijep",
+      "explanation": [
+        "Glavna ideja: hübsch znači lijep, privlačan ili prihvatljiv po izgledu.",
+        "hübsch često opisuje izgled osobe, odjeće, prostora ili predmeta.",
+        "Hrvatski ljubazna je u nekim kontekstima moguća, ali je premala kao glavni prijevod.",
+        "Za karakter ili ljubazno ponašanje u njemačkom jeziku se često koristi nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Ima lijepu haljinu."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Soba je lijepa."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "To je lijepa slika."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "lijep • privlačan po izgledu",
+          "example": "Das ist ein hübsches Kleid. – To je lijepa haljina."
+        },
+        {
+          "word": "schön",
+          "meaning": "lijep • ugodno",
+          "example": "Der Garten ist schön. – Vrt je lijep."
+        },
+        {
+          "word": "nett",
+          "meaning": "ljubazna • ljubazna",
+          "example": "Sie ist sehr nett. – Ona je vrlo ljubazna."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch nije univerzalan prijevod za riječ ljubazna.",
+        "Za ljudski karakter ili ljubazno ponašanje obično je bolje nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

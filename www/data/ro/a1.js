@@ -2078,7 +2078,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "vizită",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "vizită",
+      "explanation": [
+        "Ideea principală: der Besuch înseamnă o vizită, întâlnire sau apel.",
+        "Dacă vorbim despre un loc sau eveniment, în limba letonă cuvântul potrivit este apmeklējums.",
+        "Dacă se vorbeşte despre vizitarea unei persoane, în limba letonă putem spune apciemojums sau vizīte.",
+        "Pluralul este die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Vizita la muzeu a fost interesantă."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Mulţumesc pentru vizita ta."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Medicul merge în vizită."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "vizită • întâlnire • apel",
+          "example": "Mulţumesc pentru vizita ta. – Paldies par tavu apciemojumu."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Vizitator",
+          "example": "Vizitator aşteaptă afară. – Apmeklētājs gaida ārā."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "a vizita • a apela",
+          "example": "Vizitez bunicii mei. – Es apciemoju savus vecvecākus."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch nu este doar o vizită; poate fi, de asemenea, o întâlnire sau un apel.",
+        "Pluralul: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2090,7 +2274,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "a vizita",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "a vizita",
+      "explanation": [
+        "Ideea principală: besuchen se foloseşte pentru a vizita un loc, un eveniment sau o persoană.",
+        "Un loc, eveniment sau curs este vizitat de obicei.",
+        "Dacă besuchen se referă la o persoană, în limba letonă este adesea mai natural să spunem apciemot.",
+        "În limba germană, besuchen se foloseşte fără prepoziţie şi cu acuzativul."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Vizitez muzeu."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Vizităm cursul de limba germană."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Vizitez bunicii mei."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "a vizita un loc sau eveniment • a apela o persoană",
+          "example": "Vizitez bunicii mei. – Es apciemoju savus vecvecākus."
+        },
+        {
+          "word": "treffen",
+          "meaning": "a întâlni",
+          "example": "Îl întâlnesc pe prietenul meu. – Es satieku savu draugu."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "a merge la cineva",
+          "example": "Mă duc la prietenul meu. – Es eju pie sava drauga."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen se foloseşte fără prepoziţie: Ich besuche meine Freundin.",
+        "Traducerea în limba letonă depinde de obiect: a vizita un loc, a apela o persoană."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -5792,12 +6185,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "fotbal",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "fotbal",
+      "explanation": [
+        "Ideea principală: Fußball cel mai des înseamnă fotbal ca sport.",
+        "Cu articolul şi forma numerabilă, der Fußball poate înseamna şi o minge de fotbal.",
+        "Pluralul die Fußbälle înseamnă mingi de fotbal, nu mai multe sporturi."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "joc fotbal."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "mingea de fotbal este în grădină."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "cumpărăm două mingi de fotbal."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "fotbal ca sport",
+          "example": "Joc fotbal. – Es spēlēju futbolu."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "minge de fotbal",
+          "example": "Mingea de fotbal este nouă. – Futbola bumba ir jauna."
+        }
+      ],
+      "tip": [
+        "Fără articol spielen Fußball înseamnă de obicei a juca fotbal.",
+        "Forma numerabilă ein Fußball şi die Fußbälle sunt o minge de fotbal şi mingi de fotbal."
+      ],
+      "important": [
+        "die Fußbälle înseamnă mingi de fotbal.",
+        "Sportul Fußball este de obicei folosit în singular."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Sănătos",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Sănătos",
+      "explanation": [
+        "Ideea principală: ganz alături de substantiv înseamnă întreg sau tot.",
+        "Înainte de un adjectiv sau adverb ganz poate înseamna complet, destul sau destul de.",
+        "ganz nu este acelaşi lucru cu pronumele alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "lucrez toată ziua."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "toată casa este curată."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "aceasta este complet sigur."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "mâncarea este destul de bună."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "întreg • toate • complet",
+          "example": "toată ziua – visa diena"
+        },
+        {
+          "word": "alles",
+          "meaning": "Tot",
+          "example": "Totul e bine. – Viss ir kārtībā."
+        }
+      ],
+      "tip": [
+        "Înainte de substantiv ganz adesea înseamnă tot sau întreg.",
+        "Înainte de un adjectiv ganz adesea înseamnă complet sau destul de."
+      ],
+      "important": [
+        "der ganze Tag = toată ziua.",
+        "alles = tot ca pronume."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -6024,7 +6509,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Să placă",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Să placă",
+      "explanation": [
+        "Ideea principală: gefallen înseamnă a plăcea, dar construcţia propoziţiei în germană este diferită de limba letonă.",
+        "Lucrul care place este subiectul propoziţiei în limba germană.",
+        "Persoana căreia îi place ceva este în dativ: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "îmi place."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "ţi se pare frumoasă rochia?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "ne place filmul."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "a plăcea • persoană în dativ",
+          "example": "Asta îmi place. – Man tas patīk."
+        },
+        {
+          "word": "mögen",
+          "meaning": "a plăcea • a prefera",
+          "example": "Asta îmi place. – Man tas patīk."
+        }
+      ],
+      "tip": [
+        "Aminteşte-ţi construcţia: Das gefällt mir.",
+        "Nu construi ordinea cuvintelor literală din limba letonă."
+      ],
+      "important": [
+        "gefallen se foloseşte cu dativul: mir, dir, ihm, ihr.",
+        "Das gefällt mir = îmi place."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -6067,13 +6596,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "poveste",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "poveste",
+      "explanation": [
+        "Ideea principală: Geschichte poate înseamna o poveste sau istorie.",
+        "Pluralul die Geschichten de obicei înseamnă poveşti.",
+        "Când înseamnă istorie, cuvântul Geschichte este de obicei folosit în singular."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "el povesteşte o poveste."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "învăţ istorie."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "aceasta este istoria Germaniei."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "poveste",
+          "example": "o poveste interesantă – interesants stāsts"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "istorie",
+          "example": "Să înveţi istorie – mācīties vēsturi"
+        }
+      ],
+      "tip": [
+        "Cu o formă numerabilă şi plurală, vorbim de obicei despre o poveste.",
+        "Ca materie de studiu, Geschichte înseamnă istorie."
+      ],
+      "important": [
+        "die Geschichten = poveşti.",
+        "Geschichte ca istorie este de obicei în singular."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "fraţi şi surori",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "fraţi şi surori",
+      "explanation": [
+        "Ideea principală: Geschwister înseamnă fraţii şi surorile împreună.",
+        "Acest cuvânt se foloseşte de obicei doar la plural.",
+        "Pentru o persoană se foloseşte Bruder sau Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "am doi fraţi sau surori."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "fraţii şi surorile mele locuiesc în Berlin."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "fraţi şi surori",
+          "example": "Fraţii mei – mani brāļi un māsas"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Frate",
+          "example": "fratele meu – mans brālis"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Sora",
+          "example": "sora mea – mana māsa"
+        }
+      ],
+      "tip": [
+        "Geschwister se foloseşte de obicei la plural.",
+        "Pentru o persoană alege Bruder sau Schwester."
+      ],
+      "important": [
+        "Nu folosi ein Geschwister ca o formă regulată de singular A1."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -6366,7 +6983,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "bunici",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "bunici",
+      "explanation": [
+        "Ideea principală: Großeltern înseamnă bunica şi bunicul împreună.",
+        "Acest cuvânt se foloseşte la plural.",
+        "În singular se foloseşte Großmutter sau Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "bunicii mei locuiesc la ţară."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "îi vizitez pe bunicii mei."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "bunici",
+          "example": "bunicii mei – mani vecvecāki"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Bunica",
+          "example": "bunica mea – mana vecmāmiņa"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Bunicul",
+          "example": "bunicul meu – mans vectētiņš"
+        }
+      ],
+      "tip": [
+        "Großeltern este plural.",
+        "Pentru o persoană foloseşte Großmutter sau Großvater."
+      ],
+      "important": [
+        "die Großeltern = bunici."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -6911,7 +7572,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "mână",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "mână",
+      "explanation": [
+        "Ideea principală: die Hand înseamnă mâna.",
+        "În limba germană, Arm şi Hand sunt două cuvinte separate.",
+        "În limba letonă de zi cu zi, cuvântul roka poate desemna atât Arm cât şi Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "îmi spăl mâinile."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "ea ţine paharul în mână."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "mâna mea doare."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "mână",
+          "example": "în mână – plaukstā"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Mână",
+          "example": "Mâna mea doare. – Man sāp roka."
+        }
+      ],
+      "tip": [
+        "Hand = mână.",
+        "Arm = braţ de la umăr la mână."
+      ],
+      "important": [
+        "În limba germană, Hand şi Arm nu sunt acelaşi cuvânt."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -7384,7 +8088,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "frumos",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "frumos",
+      "explanation": [
+        "Ideea principală: hübsch înseamnă frumos, atractiv sau simpatic în aparenţă.",
+        "hübsch adesea descrie înfăţişarea unei persoane, îmbrăcăminte, cameră sau obiect.",
+        "Limba letonă jauks în unele contexte este posibil, dar este prea larg ca traducere principală.",
+        "Caracterul sau comportamentul amabil în limba germană este adesea descris cu nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Ea poartă o rochie frumoasă."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Camera este frumoasă."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Aceasta este o poză frumoasă."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "frumos • atractiv",
+          "example": "Aceasta este o rochie frumoasă. – Tā ir glīta kleita."
+        },
+        {
+          "word": "schön",
+          "meaning": "frumos • plăcut",
+          "example": "Grădina este frumoasă. – Dārzs ir skaists."
+        },
+        {
+          "word": "nett",
+          "meaning": "amabil • drăguţ",
+          "example": "Ea este foarte amabilă. – Viņa ir ļoti jauka."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch nu este o traducere universală pentru cuvântul jauks.",
+        "Pentru caracterul unei persoane sau comportamentul amabil, nett este de obicei mai potrivit."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

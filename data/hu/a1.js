@@ -2573,7 +2573,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "látogatás",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "látogatás",
+      "explanation": [
+        "Fő gondolat: der Besuch azt jelenti, hogy meglátogatás, vizita vagy meglátogatás.",
+        "Ha egy helyről vagy eseményről van szó, a magyarban az \"látogatás\" a megfelelő.",
+        "Ha a Besuch egy személyről szól, a magyarban szokása \"meglátogatás\" vagy \"vizita\".",
+        "A többes szám: die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "A múzeum meglátogatása érdekes volt."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Köszönöm a látogatásodat."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Az orvos vizitálni megy."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "látogatás • meglátogatás • vizita",
+          "example": "Danke für deinen Besuch. – Köszönöm a látogatásodat."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Látogató",
+          "example": "Der Besucher wartet draußen. – A látogató kívül vár."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "meglátogatni • meglátogatni",
+          "example": "Ich besuche meine Großeltern. – Meglátogatom az nagyszüleimet."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch nem csak meglátogatás; lehet látogatás vagy vizita is.",
+        "Többes szám: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2585,7 +2769,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "meglátogatni",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "meglátogatni",
+      "explanation": [
+        "Fő gondolat: besuchen akkor használjuk, amikor egy helyet, eseményt vagy személyt meglátogatunk.",
+        "Egy helyet, eseményt vagy kurzust általában meglátogatunk.",
+        "Ha a besuchen egy személyről szól, a magyarban gyakran természetesebb a \"meglátogatás\".",
+        "A német nyelvben a besuchen előzetes nélkül és akkuzatívussal jön."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Meglátogatom a múzeumot."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Meglátogatjuk a német nyelvkurzust."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Meglátogatom az nagyszüleimet."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "egy helyet vagy eseményt meglátogatni • egy személyt meglátogatni",
+          "example": "Ich besuche meine Großeltern. – Meglátogatom az nagyszüleimet."
+        },
+        {
+          "word": "treffen",
+          "meaning": "találkozni",
+          "example": "Ich treffe meinen Freund. – Találkozom a barátommal."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "elmenni valakihez",
+          "example": "Ich gehe zu meinem Freund. – Megyek a barátomhoz."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen előzetes nélkül: Ich besuche meine Freundin.",
+        "A magyar fordítás az objektumtól függ: egy helyet meglátogatni, egy személyt meglátogatni."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -7164,12 +7557,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "labdarúgás",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "labdarúgás",
+      "explanation": [
+        "Fő gondolat: Fußball leggyakrabban focit jelent mint sportágat.",
+        "Névelővel és számlálható értelemben a der Fußball labdát is jelenthet.",
+        "A többes szám die Fußbälle labdákat jelent, nem különféle sportágakat."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "Focizom."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "A futball labda az udvarban van."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "Két futball labdát veszünk."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "focizás mint sportzat",
+          "example": "Ich spiele Fußball. – Focizom."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "futball labda",
+          "example": "Der Fußball ist neu. – A labdám új."
+        }
+      ],
+      "tip": [
+        "Névelő nélkül spielen Fußball általában focizni jelent.",
+        "Számlálható értelemben ein Fußball és die Fußbälle futball labda és futball labdák."
+      ],
+      "important": [
+        "die Fußbälle labdákat jelent.",
+        "A sport típusként a Fußball általában egyes számban van."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Egészséges",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Egészséges",
+      "explanation": [
+        "Fő gondolat: ganz a főnév mellett az egész vagy az egész értelmezhető.",
+        "A melléknév vagy határozó elé helyezve a ganz teljesen, teljesen vagy elég lehet.",
+        "ganz nem ugyanaz, mint az alles névmás."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "Egész nap dolgozom."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "Az egész ház tiszta."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "Ez teljesen biztonságos."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "Az étel elég jó."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "egész • az egész • teljesen",
+          "example": "der ganze Tag – a teljes nap"
+        },
+        {
+          "word": "alles",
+          "meaning": "Minden",
+          "example": "Alles ist gut. – Minden rendben van."
+        }
+      ],
+      "tip": [
+        "A főnév előtt a ganz gyakran az egész vagy az egész értelmezhető.",
+        "A melléknév előtt a ganz gyakran teljesen vagy elég értelmezhető."
+      ],
+      "important": [
+        "der ganze Tag = a teljes nap.",
+        "alles = minden névmásként."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7462,7 +7947,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Kedvelni",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Kedvelni",
+      "explanation": [
+        "Fő gondolat: gefallen azt jelenti, hogy tetszik, de a német mondatszerkezet eltér a magyar nyelvtől.",
+        "A dolog, amely tetszik, németül a mondat tárgya.",
+        "Az a személy, akinek tetszik valami, datívusszban van: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "Tetszik nekem."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "Tetszik neked a ruha?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "A film tetszik nekünk."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "tetszik • személy datívusszal",
+          "example": "Das gefällt mir. – Ez tetszik nekem."
+        },
+        {
+          "word": "mögen",
+          "meaning": "tetszik • szívesen választani",
+          "example": "Ich mag das. – Ez tetszik nekem."
+        }
+      ],
+      "tip": [
+        "Emlékezz a szerkezetre: Das gefällt mir.",
+        "Ne fordítsd szó szerint a magyar szórendet."
+      ],
+      "important": [
+        "gefallen datívusszal: mir, dir, ihm, ihr.",
+        "Das gefällt mir = Ez tetszik nekem."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7505,13 +8034,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "történet",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "történet",
+      "explanation": [
+        "Fő gondolat: Geschichte azt jelenti, hogy történet vagy történelem.",
+        "A többes szám die Geschichten általában történeteket jelent.",
+        "A történelem értelmeként a Geschichte szót általában egyes számban használjuk."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "Ő meséli a történetet."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "Történelmet tanulok."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "Ez Németország története."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "történet",
+          "example": "eine interessante Geschichte – érdekes történet"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "történelem",
+          "example": "Geschichte lernen – a történelem tanulása"
+        }
+      ],
+      "tip": [
+        "Az eine és a többes szám mellett általában történetről van szó.",
+        "Tantárgyként a Geschichte a történelmet jelenti."
+      ],
+      "important": [
+        "die Geschichten = történetek.",
+        "Geschichte mint történelem általában egyes számban van."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "testvérek",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "testvérek",
+      "explanation": [
+        "Fő gondolat: Geschwister testvéreket jelent együtt.",
+        "Ez a szó általában csak többes számban használatos.",
+        "Egy személynél Bruder vagy Schwester szót használunk."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "Van két testvérem."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "Az én testvéreim Berlinben élnek."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "testvérek",
+          "example": "Meine Geschwister – az én testvéreim"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Testvér",
+          "example": "mein Bruder – az én bátyám"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Nővér",
+          "example": "meine Schwester – az én nővérem"
+        }
+      ],
+      "tip": [
+        "Geschwister általában többes számban van.",
+        "Egy személynél válaszd a Bruder vagy Schwester szót."
+      ],
+      "important": [
+        "Ne használd az ein Geschwister szót mint szokásos A1 egyes szám formát."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7877,7 +8494,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "nagyapák és nagymamák",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "nagyapák és nagymamák",
+      "explanation": [
+        "Fő gondolat: Großeltern nagyapát és nagymamát jelent együtt.",
+        "Ez a szó többes számban van.",
+        "Egyes számban Großmutter vagy Großvater szót használunk."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "Az én nagyszüleim a vidéken élnek."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Meglátogatom a nagyszüleimet."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "nagyapák és nagymamák",
+          "example": "meine Großeltern – az én nagyapáim és nagymamáim"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Nagymama",
+          "example": "meine Großmutter – az én nagymamám"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Nagypapa",
+          "example": "mein Großvater – az én nagyapám"
+        }
+      ],
+      "tip": [
+        "Großeltern többes szám.",
+        "Egy személynél használd a Großmutter vagy Großvater szót."
+      ],
+      "important": [
+        "die Großeltern = nagyapák és nagymamák."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -8605,7 +9266,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "tenyér",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "tenyér",
+      "explanation": [
+        "Fő gondolat: die Hand tenyért jelent.",
+        "A német nyelvben az Arm és a Hand két külön szó.",
+        "A magyar mindennapi nyelvben a kéz szó gyakran az Arm és a Hand szót is jelent."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "Megmosom a kezemet."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "Egy poharat tart a kezében."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "A kezem fáj."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "tenyér",
+          "example": "in der Hand – a kezében"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Kéz",
+          "example": "Mein Arm tut weh. – A karom fáj."
+        }
+      ],
+      "tip": [
+        "Hand = tenyér.",
+        "Arm = kar a vállától a kézzsúig."
+      ],
+      "important": [
+        "A német nyelvben a Hand és az Arm nem ugyanaz a szó."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -9196,7 +9900,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "szép",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "szép",
+      "explanation": [
+        "Fő gondolat: hübsch szépet, vonzót vagy szimpatikusat jelent a megjelenés tekintetében.",
+        "hübsch gyakran egy személy, ruha, szoba vagy tárgy megjelenésérő.",
+        "A magyar szimpatikus bizonyos kontextusban lehetséges, de túl tág a fő fordításnak.",
+        "Az ember jellegét vagy kedves viselkedését a német nyelvben gyakran a nett írja le."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Szép ruhája van."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "A szoba szép."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Ez egy szép kép."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "szép • vonzó a megjelenés tekintetében",
+          "example": "Das ist ein hübsches Kleid. – Ez egy szép ruha."
+        },
+        {
+          "word": "schön",
+          "meaning": "szép • kellemetes",
+          "example": "Der Garten ist schön. – A kert szép."
+        },
+        {
+          "word": "nett",
+          "meaning": "szimpatikus • kedves",
+          "example": "Sie ist sehr nett. – Ő nagyon szimpatikus."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch nem az univerzális fordítása a szimpatikus szónak.",
+        "Az ember jellegéhez vagy kedves viselkedéséhez általában a nett megfelelőbb."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

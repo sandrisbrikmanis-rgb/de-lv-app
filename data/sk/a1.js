@@ -2161,7 +2161,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "návšteva",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "návšteva",
+      "explanation": [
+        "Hlavná myšlienka: der Besuch znamená návštevu, vizitu alebo návštevu.",
+        "Ak ide o miesto alebo udalosť, v slovenčine sa používa návšteva.",
+        "Ak ide o návštevu človeka, v slovenčine sa dá povedať návšteva alebo vizita.",
+        "Množné číslo je die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Múzejná návšteva bola zaujímavá."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Ďakujem za tvoju návštevu."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Lekár ide na vizitu."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "návšteva • návštevou • vizita",
+          "example": "Danke für deinen Besuch. – Ďakujem za tvoju návštevu."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Hosť",
+          "example": "Der Besucher wartet draußen. – Návštevník čaká vonku."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "navštíviť • návšteva",
+          "example": "Ich besuche meine Großeltern. – Navštevujem svojich starých rodičov."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch nie je iba návšteva; môže to byť aj návšteva alebo vizita.",
+        "Množné číslo: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2173,7 +2357,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "navštíviť",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "navštíviť",
+      "explanation": [
+        "Hlavná myšlienka: besuchen sa používa pri návšteve miesta, udalosti alebo osoby.",
+        "Miesto, udalosť alebo kurz sa v slovenčine zvyčajne navštevuje.",
+        "Ak sa besuchen vzťahuje na osobu, v slovenčine je často prirodzenejšie navštíviť.",
+        "V nemčine sa besuchen používa bez predložky a s akuzatívom."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Navštevujem múzeum."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Navštevujeme nemecký jazykový kurz."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Navštevujem svojich starých rodičov."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "navštíviť miesto alebo udalosť • navštíviť osobu",
+          "example": "Ich besuche meine Großeltern. – Navštevujem svojich starých rodičov."
+        },
+        {
+          "word": "treffen",
+          "meaning": "stretnúť",
+          "example": "Ich treffe meinen Freund. – Stretávam svojho priateľa."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "ísť k niekomu",
+          "example": "Ich gehe zu meinem Freund. – Idem za kamarátom."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen sa používa bez predložky: Ich besuche meine Freundin.",
+        "Slovenský preklad závisí od objektu: navštíviť miesto, navštíviť osobu."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -6030,12 +6423,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "futbal",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "futbal",
+      "explanation": [
+        "Hlavná myšlienka: Fußball najčastejšie znamená futbal ako druh športu.",
+        "S článkom a v počitateľnom zmysle der Fußball môže znamenať aj futbalovú loptu.",
+        "Množné číslo die Fußbälle znamená futbalové lopty, nie viacerých typov športov."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "es spēlēju futbolu."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "futbola bumba atrodas dārzā."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "mēs pērkam divas futbola bumbas."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "futbal ako druh športu",
+          "example": "Ich spiele Fußball. – Hrám futbal."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "futbalová lopta",
+          "example": "Der Fußball ist neu. – Futbalová lopta je nová."
+        }
+      ],
+      "tip": [
+        "Bez článku spielen Fußball zvyčajne znamená hrať futbal.",
+        "V počitateľnom zmysle ein Fußball a die Fußbälle sú futbalová lopta a futbalové lopty."
+      ],
+      "important": [
+        "die Fußbälle znamená futbalové lopty.",
+        "Druh športu Fußball sa zvyčajne používa v jednotnom čísle."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Zdravý",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Zdravý",
+      "explanation": [
+        "Hlavná myšlienka: ganz spolu s podstatným menom znamená celý alebo všetko dohromady.",
+        "Pred prídavným menom alebo adverbiom ganz môže znamenať úplne, vôbec alebo dosť.",
+        "ganz nie je to isté ako zámeno alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "es strādāju visu dienu."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "visa māja ir tīra."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "tas ir pilnīgi droši."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "ēdiens ir diezgan labs."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "celý • všetko dohromady • úplne",
+          "example": "der ganze Tag – celý deň"
+        },
+        {
+          "word": "alles",
+          "meaning": "Všetky",
+          "example": "Alles ist gut. – Všetko je v poriadku."
+        }
+      ],
+      "tip": [
+        "Pred podstatným menom ganz často znamená všetko alebo celý.",
+        "Pred prídavným menom ganz často znamená úplne alebo dosť."
+      ],
+      "important": [
+        "der ganze Tag = celý deň.",
+        "alles = všetko ako zámeno."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -6266,7 +6751,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Ako",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Ako",
+      "explanation": [
+        "Hlavná myšlienka: gefallen znamená páčiť sa, ale nemecká vetná konštrukcia sa líši od slovenskej.",
+        "Vec, ktorá sa páči, je v nemčine predmetom vety.",
+        "Osoba, ktorej sa niečo páči, je v datíve: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "man tas patīk."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "vai tev patīk kleita?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "mums patīk filma."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "páčiť sa • osoba v datíve",
+          "example": "Das gefällt mir. – To sa mi páči."
+        },
+        {
+          "word": "mögen",
+          "meaning": "páčiť sa • radi si vybrať",
+          "example": "Ich mag das. – To sa mi páči."
+        }
+      ],
+      "tip": [
+        "Zapamätaj si konštrukciu: Das gefällt mir.",
+        "Neformuj doslovno slovenskú slovoslednosť."
+      ],
+      "important": [
+        "gefallen sa používa s datívom: mir, dir, ihm, ihr.",
+        "Das gefällt mir = to sa mi páči."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -6309,13 +6838,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "príbeh",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "príbeh",
+      "explanation": [
+        "Hlavná myšlienka: Geschichte môže znamenať príbeh alebo dejiny.",
+        "Množné číslo die Geschichten zvyčajne znamená príbehy.",
+        "Zmysel dejín sa zvyčajne používa v jednotnom čísle."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "viņš stāsta stāstu."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "es mācos vēsturi."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "tā ir Vācijas vēsture."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "príbeh",
+          "example": "eine interessante Geschichte – zaujímavý príbeh"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "dejiny",
+          "example": "Geschichte lernen – učiť sa dejiny"
+        }
+      ],
+      "tip": [
+        "S eine a v množnom čísle sa zvyčajne hovorí o príbehu.",
+        "Ako vyučovací predmet Geschichte znamená dejiny."
+      ],
+      "important": [
+        "die Geschichten = príbehy.",
+        "Geschichte ako dejiny sa zvyčajne používa v jednotnom čísle."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "bratia a sestry",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "bratia a sestry",
+      "explanation": [
+        "Hlavná myšlienka: Geschwister znamená bratov a sestry dohromady.",
+        "Toto slovo sa zvyčajne používa iba v množnom čísle.",
+        "Pre jednu osobu sa používa Bruder alebo Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "man ir divi brāļi vai māsas."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "mani brāļi un māsas dzīvo Berlīnē."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "bratia a sestry",
+          "example": "Meine Geschwister – moji bratia a sestry"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Súrodenec",
+          "example": "mein Bruder – môj brat"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Sestra",
+          "example": "meine Schwester – moja sestra"
+        }
+      ],
+      "tip": [
+        "Geschwister sa zvyčajne používa v množnom čísle.",
+        "Pre jednu osobu si vyberi Bruder alebo Schwester."
+      ],
+      "important": [
+        "Nepoužívaj ein Geschwister ako obvykľu singulárnu formu A1."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -6618,7 +7235,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "starí rodičia",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "starí rodičia",
+      "explanation": [
+        "Hlavná myšlienka: Großeltern znamená stará mama a starý otec dohromady.",
+        "Toto slovo sa používa v množnom čísle.",
+        "V jednotnom čísle sa používa Großmutter alebo Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "mani vecvecāki dzīvo laukos."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "es apciemoju savus vecvecākus."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "starí rodičia",
+          "example": "meine Großeltern – moji starí rodičia"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Babička",
+          "example": "meine Großmutter – moja stará mama"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Dedko",
+          "example": "mein Großvater – môj starý otec"
+        }
+      ],
+      "tip": [
+        "Großeltern je množné číslo.",
+        "Pre jednu osobu použi Großmutter alebo Großvater."
+      ],
+      "important": [
+        "die Großeltern = starí rodičia."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -7191,7 +7852,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "dlaň",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "dlaň",
+      "explanation": [
+        "Hlavná myšlienka: die Hand znamená dlaň.",
+        "V nemčine sú Arm a Hand dva samostatné slová.",
+        "V slovenskej každodennej reči slovo ruka často može označovať aj Arm aj Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "es mazgāju rokas."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "viņa tur glāzi plaukstā."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "man sāp roka."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "dlaň",
+          "example": "in der Hand – v dlani"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Ruka",
+          "example": "Mein Arm tut weh. – Bolí ma ruka."
+        }
+      ],
+      "tip": [
+        "Hand = dlaň.",
+        "Arm = ruka od ramena po dlaň."
+      ],
+      "important": [
+        "V nemčine Hand a Arm nie sú jedno a to isté slovo."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -7679,7 +8383,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "pekný",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "pekný",
+      "explanation": [
+        "Hlavná myšlienka: hübsch znamená pekný, atraktívny alebo sympatický vzhľadom.",
+        "hübsch často opisuje vzhľad človeka, oblečenia, miestnosti alebo predmetu.",
+        "Slovenské milý sa v niektorých kontextoch dá používať, ale je príliš širokého záberu ako hlavný preklad.",
+        "V nemčine sa charakter alebo priateľský postoj zvyčajne označuje slovom nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Má pekné šaty."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Izba je pekná."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "To je pekný obraz."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "pekný • atraktívny vzhľadom",
+          "example": "Das ist ein hübsches Kleid. – To je pekné šaty."
+        },
+        {
+          "word": "schön",
+          "meaning": "krásny • pekný",
+          "example": "Der Garten ist schön. – Záhrada je krásna."
+        },
+        {
+          "word": "nett",
+          "meaning": "milý • priateľský",
+          "example": "Sie ist sehr nett. – Je veľmi milá."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch nie je univerzálny preklad slova milý.",
+        "Pre charakter človeka alebo priateľský postoj je zvyčajne vhodnejšie nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",

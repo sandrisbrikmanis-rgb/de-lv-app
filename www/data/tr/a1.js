@@ -2095,7 +2095,191 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Besuche",
     "lv": "ziyaret",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "ziyaret",
+      "explanation": [
+        "Ana fikir: der Besuch ziyareti, görüşü veya misafirliği anlamına gelir.",
+        "Bir yer veya etkinlikten söz ediliyorsa, Letonca'da uygun olan ziyareti olur.",
+        "Bir kişinin ziyareti söz konusuysa, Letonca'da misafirlik veya görüş denebilir.",
+        "Çoğul: die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Müzenin ziyareti ilginç oldu."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Ziyaretiniz için teşekkürler."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Doktor ziyarete gidiyor."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "ziyaret • misafirlik • görüş",
+          "example": "Danke für deinen Besuch. – Ziyaretiniz için teşekkürler."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Misafir",
+          "example": "Der Besucher wartet draußen. – Ziyaretçi dışarıda bekliyor."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "ziyaret etmek • misafir etmek",
+          "example": "Ich besuche meine Großeltern. – Büyüklerimizi ziyaret ediyorum."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch sadece misafirlik değil; bu aynı zamanda ziyaret veya görüş olabilir.",
+        "Çoğul: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2107,7 +2291,216 @@ const A1_WORDS = [
   {
     "de": "besuchen",
     "lv": "ziyaret etmek",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "ziyaret etmek",
+      "explanation": [
+        "Ana fikir: besuchen bir yeri, bir etkinliği veya bir kişiyi ziyaret ederken kullanılır.",
+        "Bir yeri, bir etkinliği veya bir kursu Letonca'da genellikle ziyaret edilir.",
+        "Eğer besuchen bir kişiye atıfta bulunuyorsa, Letonca'da sıklıkla misafir etmek daha doğaldır.",
+        "Almanca'da besuchen önceden konumlandırılmaksızın ve yükleme hali ile kullanılır."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Müzeyi ziyaret ediyorum."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Almanca kursuna katılıyoruz."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Büyüklerimizi ziyaret ediyorum."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "bir yeri veya etkinliği ziyaret etmek • bir kişiyi misafir etmek",
+          "example": "Ich besuche meine Großeltern. – Büyüklerimizi ziyaret ediyorum."
+        },
+        {
+          "word": "treffen",
+          "meaning": "karşılaşmak",
+          "example": "Ich treffe meinen Freund. – Arkadaşımla tanışıyorum."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "birinin yerine gitmek",
+          "example": "Ich gehe zu meinem Freund. – Bir arkadaşımı göreceğim."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen ön konumlandırılmaksızın kullanılır: Ich besuche meine Freundin.",
+        "Letonca çevirisi nesneye bağlıdır: bir yeri ziyaret etmek, bir kişiyi misafir etmek."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -5786,12 +6179,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "futbol",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "futbol",
+      "explanation": [
+        "Ana fikir: Fußball çoğu zaman futbol sportu anlamına gelir.",
+        "Makale ve tekil biçim ile der Fußball, futbol topunu da ifade edebilir.",
+        "Çoğul die Fußbälle futbol toplarını değil, birden fazla spor türünü ifade etmez."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "futbol oynuyorum."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "futbol topu bahçededir."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "iki futbol topu satın alıyoruz."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "futbol sportu",
+          "example": "Ich spiele Fußball. – Futbol oynuyorum."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "futbol topu",
+          "example": "Der Fußball ist neu. – Futbol topu yeni."
+        }
+      ],
+      "tip": [
+        "Makale olmadan spielen Fußball genellikle futbol oynamak anlamına gelir.",
+        "Tekil anlamında ein Fußball ve die Fußbälle futbol topu ve futbol toplarıdır."
+      ],
+      "important": [
+        "die Fußbälle futbol toplarını anlamına gelir.",
+        "Spor türü Fußball genellikle tekil olarak kullanılır."
+      ]
+    }
   },
   {
     "de": "ganz",
     "lv": "Sağlıklı",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Sağlıklı",
+      "explanation": [
+        "Ana fikir: ganz isimle birlikte bütün veya hepsi anlamına gelir.",
+        "Sıfat veya zarf öncesinde ganz tamamen, hiç veya oldukça anlamına gelebilir.",
+        "ganz alles zamirine eşit değildir."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "bütün gün çalışıyorum."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "bütün ev temiz."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "bu tamamen güvenlidir."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "yemek oldukça iyidir."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "bütün • hepsi birlikte • tamamen",
+          "example": "der ganze Tag – bütün gün"
+        },
+        {
+          "word": "alles",
+          "meaning": "Tüm",
+          "example": "Alles ist gut. – Hepsi iyi."
+        }
+      ],
+      "tip": [
+        "İsim önünde ganz genellikle hepsi veya bütün anlamına gelir.",
+        "Sıfat önünde ganz genellikle tamamen veya oldukça anlamına gelir."
+      ],
+      "important": [
+        "der ganze Tag = bütün gün.",
+        "alles = hepsi bir zamir olarak."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -6014,7 +6499,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Beğenmek",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Beğenmek",
+      "explanation": [
+        "Ana fikir: gefallen hoşlanmak anlamına gelir, ancak Almanca cümle yapısı Letonca'dan farklıdır.",
+        "Almanca'da hoşlanan şey cümlenin ana konusudur.",
+        "Hoşlanan kişi datif halindedir: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "bana hoşlanıyorum."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "sana elbise hoşlanıyor mu?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "bize film hoşlanıyorum."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "hoşlanmak • kişi datif halinde",
+          "example": "Das gefällt mir. – Bana hoşlanıyorum."
+        },
+        {
+          "word": "mögen",
+          "meaning": "hoşlanmak • iyice seçmek",
+          "example": "Ich mag das. – Bana hoşlanıyorum."
+        }
+      ],
+      "tip": [
+        "Yapıyı hatırlayın: Das gefällt mir.",
+        "Kelimelerin tam Letonca sırasını oluşturmayın."
+      ],
+      "important": [
+        "gefallen datif ile kullanılır: mir, dir, ihm, ihr.",
+        "Das gefällt mir = bana hoşlanıyorum."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -6057,13 +6586,101 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Geschichten",
     "lv": "hikaye",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "hikaye",
+      "explanation": [
+        "Ana fikir: Geschichte hikaye veya tarih anlamına gelebilir.",
+        "Çoğul die Geschichten genellikle hikayeleri anlamına gelir.",
+        "Tarih anlamına gelen Geschichte kelimesi genellikle tekil olarak kullanılır."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "o bir hikaye anlatıyor."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "tarih öğreniyorum."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "bu Almanya'nın tarihidir."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "hikaye",
+          "example": "eine interessante Geschichte – ilginç bir hikaye"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "tarih",
+          "example": "Geschichte lernen – tarih öğrenmek"
+        }
+      ],
+      "tip": [
+        "Eine ve çoğul ile genellikle hikaye söz konusudur.",
+        "Bir ders konusu olarak Geschichte tarih anlamına gelir."
+      ],
+      "important": [
+        "die Geschichten = hikayeler.",
+        "Geschichte tarih olarak genellikle tekil haldir."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
     "lv": "kardeşler ve kızkardeşler",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "kardeşler ve kızkardeşler",
+      "explanation": [
+        "Ana fikir: Geschwister kardeşleri ve kızkardeşleri birlikte anlamına gelir.",
+        "Bu kelime genellikle yalnızca çoğul olarak kullanılır.",
+        "Bir kişi için Bruder veya Schwester kullanın."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "iki kardeşim veya kızkardeşim var."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "kardeşlerim ve kızkardeşlerim Berlin'de yaşıyorlar."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "kardeşler ve kızkardeşler",
+          "example": "Meine Geschwister – Benim kardeşlerim"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Kardeş",
+          "example": "mein Bruder – benim erkek kardeşim"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Kız kardeş",
+          "example": "meine Schwester – benim kızkardeşim"
+        }
+      ],
+      "tip": [
+        "Geschwister genellikle çoğul olarak kullanılır.",
+        "Bir kişi için Bruder veya Schwester seçin."
+      ],
+      "important": [
+        "Ein Geschwister'ı normal A1 tekil formu olarak kullanmayın."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -6358,7 +6975,51 @@ const A1_WORDS = [
     "de": "Großeltern",
     "de_article": "die",
     "lv": "büyükanne ve büyükbaba",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "büyükanne ve büyükbaba",
+      "explanation": [
+        "Ana fikir: Großeltern büyükanne ve büyükbabayı birlikte anlamına gelir.",
+        "Bu kelime çoğul olarak kullanılır.",
+        "Tekil olarak Großmutter veya Großvater kullanın."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "büyüklerim kırsal alanda yaşıyorlar."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "büyüklerimizi ziyaret ediyorum."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "büyükanne ve büyükbaba",
+          "example": "meine Großeltern – benim büyüklerim"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Büyükanne",
+          "example": "meine Großmutter – benim büyükanne"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Büyükbaba",
+          "example": "mein Großvater – benim büyükbabam"
+        }
+      ],
+      "tip": [
+        "Großeltern çoğuldur.",
+        "Bir kişi için Großmutter veya Großvater kullanın."
+      ],
+      "important": [
+        "die Großeltern = büyükanne ve büyükbaba."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -6911,7 +7572,50 @@ const A1_WORDS = [
     "de_article": "die",
     "de_plural": "die Hände",
     "lv": "el",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "el",
+      "explanation": [
+        "Ana fikir: die Hand eli anlamına gelir.",
+        "Almanca'da Arm ve Hand iki farklı kelimedir.",
+        "Letonca günlük dilde roka kelimesi hem Arm hem de Hand'ı gösterebilir."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "elleri yıkıyorum."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "elinde bir bardak tutuyor."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "elim ağrıyor."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "el",
+          "example": "in der Hand – elde"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "El",
+          "example": "Mein Arm tut weh. – Kolum ağrıyor."
+        }
+      ],
+      "tip": [
+        "Hand = el.",
+        "Arm = omuzdan ele kadar olan kol."
+      ],
+      "important": [
+        "Almanca'da Hand ve Arm aynı kelime değildir."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -7388,7 +8092,202 @@ const A1_WORDS = [
   {
     "de": "hübsch",
     "lv": "güzel",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "güzel",
+      "explanation": [
+        "Ana fikir: hübsch güzel, çekici veya sevimli anlamına gelir.",
+        "hübsch sıklıkla bir kişinin, kıyafetinin, odanın veya nesnenin görünüşünü tanımlar.",
+        "Letonca jauks bazı bağlamlarda mümkündür, ancak ana çeviri olarak çok geniştir.",
+        "Karakter veya kibar davranış Almanca'da genellikle nett ile tanımlanır."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Güzel bir elbisesi var."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Oda güzeldir."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Bu güzel bir resimdir."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "güzel • görüntüsü çekici",
+          "example": "Das ist ein hübsches Kleid. – Bu güzel bir elbisedir."
+        },
+        {
+          "word": "schön",
+          "meaning": "güzel • hoştur",
+          "example": "Der Garten ist schön. – Bahçe güzeldir."
+        },
+        {
+          "word": "nett",
+          "meaning": "hoş • kibar",
+          "example": "Sie ist sehr nett. – O çok hoştur."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch jauks kelimesinin evrensel çevirisi değildir.",
+        "Bir kişinin karakteri veya kibar davranışı için genellikle nett daha uygundur."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",
