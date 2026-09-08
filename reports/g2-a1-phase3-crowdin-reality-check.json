@@ -1,0 +1,1809 @@
+{
+  "classification": "CROWDIN_A1_LUNA_FINDINGS_REQUIRE_REVALIDATION",
+  "seed": "g2-a1-crowdin-reality-check-v1",
+  "outputHash": "43125d82e51e9fc17b5aa40944d04b5d3454b2f534a61cce9f59ab6b40d578b9",
+  "metrics": {
+    "staging": {
+      "totalValues": 92101,
+      "nonEmptyValues": 92101,
+      "emptyValues": 0,
+      "languagesComplete": 31,
+      "identicalToLv": 4121,
+      "identicalToDe": 3562,
+      "multiTranslationValues": 4283,
+      "placeholderOrStructureErrors": 0
+    },
+    "stagingPass": true,
+    "flagged": {
+      "sampled": 248,
+      "confirmedReal": 0,
+      "likelyReal": 204,
+      "falsePositive": 44,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "controls": {
+      "sampled": 62,
+      "confirmedReal": 0,
+      "likelyReal": 0,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 59,
+      "controlPossibleMissedError": 3
+    },
+    "sourceLv": {
+      "sampledClusters": 50,
+      "memberFindingsRepresented": 217,
+      "uniqueRealSourceIssues": 0,
+      "falsePositiveClusters": 50,
+      "conflictingLunaAssessments": 0,
+      "insufficientEvidence": 0,
+      "duplicateRepetitions": 0,
+      "allClusters": 1111
+    },
+    "byCategory": {
+      "WRONG_OR_MIXED_TARGET_LANGUAGE": {
+        "sampled": 87,
+        "confirmedReal": 0,
+        "likelyReal": 77,
+        "falsePositive": 10,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      },
+      "SEMANTIC_OR_MEANING_ERROR": {
+        "sampled": 66,
+        "confirmedReal": 0,
+        "likelyReal": 64,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      },
+      "MULTI_TRANSLATION_REVIEW_REQUIRED": {
+        "sampled": 38,
+        "confirmedReal": 0,
+        "likelyReal": 15,
+        "falsePositive": 23,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      },
+      "MISSING_OR_UNTRANSLATED": {
+        "sampled": 9,
+        "confirmedReal": 0,
+        "likelyReal": 0,
+        "falsePositive": 9,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      },
+      "GRAMMAR_MORPHOLOGY_OR_FORM": {
+        "sampled": 17,
+        "confirmedReal": 0,
+        "likelyReal": 17,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      },
+      "DUPLICATION": {
+        "sampled": 3,
+        "confirmedReal": 0,
+        "likelyReal": 3,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      },
+      "ORTHOGRAPHY_SPELLING_OR_DIACRITICS": {
+        "sampled": 9,
+        "confirmedReal": 0,
+        "likelyReal": 9,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      },
+      "STYLE_FLUENCY_OR_REGISTER": {
+        "sampled": 9,
+        "confirmedReal": 0,
+        "likelyReal": 9,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      },
+      "OTHER_REVIEW_REQUIRED": {
+        "sampled": 5,
+        "confirmedReal": 0,
+        "likelyReal": 5,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      },
+      "CONTENT_CORRUPTION_OR_UNRELATED": {
+        "sampled": 5,
+        "confirmedReal": 0,
+        "likelyReal": 5,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "duplicateSourceRepetition": 0,
+        "controlPass": 0,
+        "controlPossibleMissedError": 0
+      }
+    },
+    "byLanguage": {
+      "bg": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "bs": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 6,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "cs": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "da": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 5,
+        "falsePositive": 3,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "en": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 6,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "es": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 5,
+        "falsePositive": 3,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "et": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 8,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "fi": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 1
+      },
+      "fr": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "gr": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 1
+      },
+      "hr": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 6,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "hu": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 5,
+        "falsePositive": 3,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "is": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "it": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "lb": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 6,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "lt": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 6,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "mk": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 8,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "nb": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 5,
+        "falsePositive": 3,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "nl": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 6,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 1
+      },
+      "nn": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "pl": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "pt": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 6,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "ro": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "ru": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "sk": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 8,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "sl": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "sq": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 6,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "sr": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 8,
+        "falsePositive": 0,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "sv": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "tr": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 7,
+        "falsePositive": 1,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      },
+      "uk": {
+        "flaggedSampled": 8,
+        "confirmedReal": 0,
+        "likelyReal": 6,
+        "falsePositive": 2,
+        "insufficientEvidence": 0,
+        "controlsChecked": 2,
+        "possibleMissedErrors": 0
+      }
+    },
+    "linkedSamplePercent": 100,
+    "substitutions": [
+      {
+        "language": "bs",
+        "slot": "other",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "cs",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "cs",
+        "slot": "grammar_ortho",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "cs",
+        "slot": "other",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "da",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "es",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "et",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "et",
+        "slot": "other",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "fi",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "fi",
+        "slot": "grammar_ortho",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "fi",
+        "slot": "other",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "fr",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "gr",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "gr",
+        "slot": "other",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "hr",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "hr",
+        "slot": "grammar_ortho",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "hr",
+        "slot": "other",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "is",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "lt",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "mk",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "nb",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "nb",
+        "slot": "other",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "nn",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "nn",
+        "slot": "other",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "pl",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "pl",
+        "slot": "grammar_ortho",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "ro",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "ru",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "sk",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "sl",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "sr",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "sv",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "sv",
+        "slot": "grammar_ortho",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "sv",
+        "slot": "other",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "tr",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      },
+      {
+        "language": "uk",
+        "slot": "missing",
+        "requested": 1,
+        "picked": 0,
+        "fallbackUsed": 1
+      }
+    ]
+  },
+  "gates": {
+    "decisionablePercent": 100,
+    "precisionConfirmedOnly": 0,
+    "precisionConfirmedPlusLikely": 82.25806451612904,
+    "controlMissRate": 4.838709677419355,
+    "supports": false,
+    "classification": "CROWDIN_A1_LUNA_FINDINGS_REQUIRE_REVALIDATION"
+  },
+  "staging": {
+    "perLanguage": [
+      {
+        "language": "bg",
+        "file": "reports/staging/g2-a1-phase3-crowdin/bg-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 1,
+        "identicalToDe": 2,
+        "containsMultiTranslationDelimiter": 148,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 669,
+        "pass": true
+      },
+      {
+        "language": "bs",
+        "file": "reports/staging/g2-a1-phase3-crowdin/bs-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 54,
+        "identicalToDe": 64,
+        "containsMultiTranslationDelimiter": 46,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 513,
+        "pass": true
+      },
+      {
+        "language": "cs",
+        "file": "reports/staging/g2-a1-phase3-crowdin/cs-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 9,
+        "identicalToDe": 16,
+        "containsMultiTranslationDelimiter": 171,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 837,
+        "pass": true
+      },
+      {
+        "language": "da",
+        "file": "reports/staging/g2-a1-phase3-crowdin/da-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 4,
+        "identicalToDe": 57,
+        "containsMultiTranslationDelimiter": 134,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 827,
+        "pass": true
+      },
+      {
+        "language": "gr",
+        "file": "reports/staging/g2-a1-phase3-crowdin/gr-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 126,
+        "identicalToDe": 127,
+        "containsMultiTranslationDelimiter": 209,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 832,
+        "pass": true
+      },
+      {
+        "language": "en",
+        "file": "reports/staging/g2-a1-phase3-crowdin/en-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 2,
+        "identicalToDe": 32,
+        "containsMultiTranslationDelimiter": 142,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 603,
+        "pass": true
+      },
+      {
+        "language": "es",
+        "file": "reports/staging/g2-a1-phase3-crowdin/es-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 108,
+        "identicalToDe": 113,
+        "containsMultiTranslationDelimiter": 133,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 738,
+        "pass": true
+      },
+      {
+        "language": "et",
+        "file": "reports/staging/g2-a1-phase3-crowdin/et-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 151,
+        "identicalToDe": 172,
+        "containsMultiTranslationDelimiter": 75,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 729,
+        "pass": true
+      },
+      {
+        "language": "fi",
+        "file": "reports/staging/g2-a1-phase3-crowdin/fi-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 152,
+        "identicalToDe": 173,
+        "containsMultiTranslationDelimiter": 131,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 822,
+        "pass": true
+      },
+      {
+        "language": "fr",
+        "file": "reports/staging/g2-a1-phase3-crowdin/fr-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 17,
+        "identicalToDe": 38,
+        "containsMultiTranslationDelimiter": 152,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 712,
+        "pass": true
+      },
+      {
+        "language": "hr",
+        "file": "reports/staging/g2-a1-phase3-crowdin/hr-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 92,
+        "identicalToDe": 94,
+        "containsMultiTranslationDelimiter": 144,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 836,
+        "pass": true
+      },
+      {
+        "language": "hu",
+        "file": "reports/staging/g2-a1-phase3-crowdin/hu-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 119,
+        "identicalToDe": 129,
+        "containsMultiTranslationDelimiter": 134,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 761,
+        "pass": true
+      },
+      {
+        "language": "is",
+        "file": "reports/staging/g2-a1-phase3-crowdin/is-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 76,
+        "identicalToDe": 107,
+        "containsMultiTranslationDelimiter": 131,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 814,
+        "pass": true
+      },
+      {
+        "language": "it",
+        "file": "reports/staging/g2-a1-phase3-crowdin/it-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 451,
+        "identicalToDe": 286,
+        "containsMultiTranslationDelimiter": 129,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 670,
+        "pass": true
+      },
+      {
+        "language": "lb",
+        "file": "reports/staging/g2-a1-phase3-crowdin/lb-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 436,
+        "identicalToDe": 389,
+        "containsMultiTranslationDelimiter": 123,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 777,
+        "pass": true
+      },
+      {
+        "language": "lt",
+        "file": "reports/staging/g2-a1-phase3-crowdin/lt-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 148,
+        "identicalToDe": 123,
+        "containsMultiTranslationDelimiter": 130,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 548,
+        "pass": true
+      },
+      {
+        "language": "mk",
+        "file": "reports/staging/g2-a1-phase3-crowdin/mk-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 5,
+        "identicalToDe": 5,
+        "containsMultiTranslationDelimiter": 148,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 736,
+        "pass": true
+      },
+      {
+        "language": "nb",
+        "file": "reports/staging/g2-a1-phase3-crowdin/nb-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 4,
+        "identicalToDe": 35,
+        "containsMultiTranslationDelimiter": 131,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 813,
+        "pass": true
+      },
+      {
+        "language": "nl",
+        "file": "reports/staging/g2-a1-phase3-crowdin/nl-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 1442,
+        "identicalToDe": 893,
+        "containsMultiTranslationDelimiter": 135,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 344,
+        "pass": true
+      },
+      {
+        "language": "nn",
+        "file": "reports/staging/g2-a1-phase3-crowdin/nn-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 3,
+        "identicalToDe": 35,
+        "containsMultiTranslationDelimiter": 131,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 818,
+        "pass": true
+      },
+      {
+        "language": "pl",
+        "file": "reports/staging/g2-a1-phase3-crowdin/pl-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 10,
+        "identicalToDe": 18,
+        "containsMultiTranslationDelimiter": 152,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 810,
+        "pass": true
+      },
+      {
+        "language": "pt",
+        "file": "reports/staging/g2-a1-phase3-crowdin/pt-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 310,
+        "identicalToDe": 195,
+        "containsMultiTranslationDelimiter": 126,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 709,
+        "pass": true
+      },
+      {
+        "language": "ro",
+        "file": "reports/staging/g2-a1-phase3-crowdin/ro-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 3,
+        "identicalToDe": 13,
+        "containsMultiTranslationDelimiter": 154,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 787,
+        "pass": true
+      },
+      {
+        "language": "ru",
+        "file": "reports/staging/g2-a1-phase3-crowdin/ru-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 0,
+        "identicalToDe": 0,
+        "containsMultiTranslationDelimiter": 148,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 707,
+        "pass": true
+      },
+      {
+        "language": "sk",
+        "file": "reports/staging/g2-a1-phase3-crowdin/sk-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 137,
+        "identicalToDe": 143,
+        "containsMultiTranslationDelimiter": 152,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 825,
+        "pass": true
+      },
+      {
+        "language": "sl",
+        "file": "reports/staging/g2-a1-phase3-crowdin/sl-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 54,
+        "identicalToDe": 66,
+        "containsMultiTranslationDelimiter": 142,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 761,
+        "pass": true
+      },
+      {
+        "language": "sq",
+        "file": "reports/staging/g2-a1-phase3-crowdin/sq-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 3,
+        "identicalToDe": 3,
+        "containsMultiTranslationDelimiter": 155,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 739,
+        "pass": true
+      },
+      {
+        "language": "sr",
+        "file": "reports/staging/g2-a1-phase3-crowdin/sr-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 5,
+        "identicalToDe": 7,
+        "containsMultiTranslationDelimiter": 144,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 837,
+        "pass": true
+      },
+      {
+        "language": "sv",
+        "file": "reports/staging/g2-a1-phase3-crowdin/sv-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 74,
+        "identicalToDe": 96,
+        "containsMultiTranslationDelimiter": 131,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 822,
+        "pass": true
+      },
+      {
+        "language": "tr",
+        "file": "reports/staging/g2-a1-phase3-crowdin/tr-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 15,
+        "identicalToDe": 21,
+        "containsMultiTranslationDelimiter": 172,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 790,
+        "pass": true
+      },
+      {
+        "language": "uk",
+        "file": "reports/staging/g2-a1-phase3-crowdin/uk-a1.json",
+        "expectedValues": 2971,
+        "actualValues": 2971,
+        "nonEmptyValues": 2971,
+        "emptyValues": 0,
+        "identicalToLv": 110,
+        "identicalToDe": 110,
+        "containsMultiTranslationDelimiter": 130,
+        "placeholderMismatch": 0,
+        "htmlOrStructureMismatch": 0,
+        "findingsCount": 564,
+        "pass": true
+      }
+    ],
+    "verification": {
+      "pass": true,
+      "langPassCount": 31,
+      "totalValues": 92101,
+      "expectedValueCount": 92101
+    },
+    "crowdinTranslationsPresent": "YES",
+    "crowdinStagingComplete": "YES",
+    "crowdinTranslationsAppliedToApp": "NO"
+  },
+  "substitutions": [
+    {
+      "language": "bs",
+      "slot": "other",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "cs",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "cs",
+      "slot": "grammar_ortho",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "cs",
+      "slot": "other",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "da",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "es",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "et",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "et",
+      "slot": "other",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "fi",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "fi",
+      "slot": "grammar_ortho",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "fi",
+      "slot": "other",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "fr",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "gr",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "gr",
+      "slot": "other",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "hr",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "hr",
+      "slot": "grammar_ortho",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "hr",
+      "slot": "other",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "is",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "lt",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "mk",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "nb",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "nb",
+      "slot": "other",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "nn",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "nn",
+      "slot": "other",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "pl",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "pl",
+      "slot": "grammar_ortho",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "ro",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "ru",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "sk",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "sl",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "sr",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "sv",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "sv",
+      "slot": "grammar_ortho",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "sv",
+      "slot": "other",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "tr",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    },
+    {
+      "language": "uk",
+      "slot": "missing",
+      "requested": 1,
+      "picked": 0,
+      "fallbackUsed": 1
+    }
+  ],
+  "resultByCategory": {
+    "WRONG_OR_MIXED_TARGET_LANGUAGE": {
+      "sampled": 87,
+      "confirmedReal": 0,
+      "likelyReal": 77,
+      "falsePositive": 10,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "SEMANTIC_OR_MEANING_ERROR": {
+      "sampled": 66,
+      "confirmedReal": 0,
+      "likelyReal": 64,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "MULTI_TRANSLATION_REVIEW_REQUIRED": {
+      "sampled": 38,
+      "confirmedReal": 0,
+      "likelyReal": 15,
+      "falsePositive": 23,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "MISSING_OR_UNTRANSLATED": {
+      "sampled": 9,
+      "confirmedReal": 0,
+      "likelyReal": 0,
+      "falsePositive": 9,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "GRAMMAR_MORPHOLOGY_OR_FORM": {
+      "sampled": 17,
+      "confirmedReal": 0,
+      "likelyReal": 17,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "DUPLICATION": {
+      "sampled": 3,
+      "confirmedReal": 0,
+      "likelyReal": 3,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "ORTHOGRAPHY_SPELLING_OR_DIACRITICS": {
+      "sampled": 9,
+      "confirmedReal": 0,
+      "likelyReal": 9,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "STYLE_FLUENCY_OR_REGISTER": {
+      "sampled": 9,
+      "confirmedReal": 0,
+      "likelyReal": 9,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "OTHER_REVIEW_REQUIRED": {
+      "sampled": 5,
+      "confirmedReal": 0,
+      "likelyReal": 5,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    },
+    "CONTENT_CORRUPTION_OR_UNRELATED": {
+      "sampled": 5,
+      "confirmedReal": 0,
+      "likelyReal": 5,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "duplicateSourceRepetition": 0,
+      "controlPass": 0,
+      "controlPossibleMissedError": 0
+    }
+  },
+  "resultByLanguage": {
+    "bg": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "bs": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 6,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "cs": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "da": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 5,
+      "falsePositive": 3,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "en": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 6,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "es": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 5,
+      "falsePositive": 3,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "et": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 8,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "fi": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 1
+    },
+    "fr": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "gr": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 1
+    },
+    "hr": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 6,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "hu": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 5,
+      "falsePositive": 3,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "is": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "it": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "lb": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 6,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "lt": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 6,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "mk": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 8,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "nb": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 5,
+      "falsePositive": 3,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "nl": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 6,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 1
+    },
+    "nn": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "pl": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "pt": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 6,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "ro": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "ru": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "sk": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 8,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "sl": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "sq": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 6,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "sr": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 8,
+      "falsePositive": 0,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "sv": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "tr": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 7,
+      "falsePositive": 1,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    },
+    "uk": {
+      "flaggedSampled": 8,
+      "confirmedReal": 0,
+      "likelyReal": 6,
+      "falsePositive": 2,
+      "insufficientEvidence": 0,
+      "controlsChecked": 2,
+      "possibleMissedErrors": 0
+    }
+  }
+}
