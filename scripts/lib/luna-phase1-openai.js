@@ -124,19 +124,34 @@ function parsePhase1LunaResponseStrict(raw, expectedIds, options = {}) {
   return { items: normalized, idRecoveries: recovery.recoveries };
 }
 
+function attachUsageToParseError(error, usage) {
+  if (usage && !error.usage) {
+    error.usage = usage;
+    error.tokensUsed = usage.total_tokens || 0;
+  }
+  return error;
+}
+
 function parsePhase1LunaResponsePartial(raw, expectedIds, options = {}) {
+  const usage = options.usage || null;
   if (!raw || typeof raw !== "string") {
-    throw new Error("Luna response empty");
+    const err = new Error("Luna response empty");
+    err.code = "LUNA_RESPONSE_EMPTY";
+    throw attachUsageToParseError(err, usage);
   }
   let parsed;
   try {
     parsed = JSON.parse(raw);
   } catch (error) {
-    throw new Error(`Luna response invalid JSON: ${redactSecrets(error.message)}`);
+    const err = new Error(`Luna response invalid JSON: ${redactSecrets(error.message)}`);
+    err.code = "LUNA_RESPONSE_INVALID_JSON";
+    throw attachUsageToParseError(err, usage);
   }
   const items = parsed.items || parsed.results || [];
   if (!Array.isArray(items)) {
-    throw new Error("Luna response missing items array");
+    const err = new Error("Luna response missing items array");
+    err.code = "LUNA_RESPONSE_MALFORMED";
+    throw attachUsageToParseError(err, usage);
   }
 
   const recoveryContext = {
@@ -157,7 +172,8 @@ function parsePhase1LunaResponsePartial(raw, expectedIds, options = {}) {
     if (writeResult.writeError) {
       err.idRecoveryDiagnosticsWriteError = writeResult.writeError;
     }
-    throw err;
+    err.canonicalIdValidation = validation;
+    throw attachUsageToParseError(err, usage);
   }
 
   const partialOnlyIssues = new Set(["PARTIAL_RESPONSE", "ITEMS_WITHOUT_ID", "DUPLICATE_IDS", "UNEXPECTED_IDS"]);
@@ -166,7 +182,8 @@ function parsePhase1LunaResponsePartial(raw, expectedIds, options = {}) {
     const summary = formatShortRecoveryError(hardIssues, validation.idRecoveryDiagnostics || []);
     const err = new Error(summary);
     err.code = "ID_RECOVERY_FAILED";
-    throw err;
+    err.canonicalIdValidation = validation;
+    throw attachUsageToParseError(err, usage);
   }
 
   const normalized = validation.items.map((item) => ({
@@ -176,8 +193,16 @@ function parsePhase1LunaResponsePartial(raw, expectedIds, options = {}) {
 
   return {
     items: normalized,
+    validation,
+    canonicalIdValidation: validation,
     missingIds: validation.missingIds,
+    duplicateIds: validation.duplicateIds,
+    unexpectedIds: validation.unexpectedIds,
+    itemsWithoutId: validation.itemsWithoutId,
+    returnedItemCount: validation.returnedItemCount,
+    blockedReason: validation.blockedReason,
     idRecoveries: validation.idRecoveries || [],
+    partial: !validation.ok || Boolean(validation.blockedReason),
   };
 }
 
@@ -247,7 +272,15 @@ async function auditObjectsBatch({
   };
 
   if (allowPartialCanonicalIds) {
-    const partial = parsePhase1LunaResponsePartial(rawText, expectedIds, parseOptions);
+    let partial;
+    try {
+      partial = parsePhase1LunaResponsePartial(rawText, expectedIds, {
+        ...parseOptions,
+        usage: response.usage || null,
+      });
+    } catch (parseError) {
+      throw attachUsageToParseError(parseError, response.usage || null);
+    }
     return {
       items: partial.items,
       missingIds: partial.missingIds,
@@ -256,7 +289,13 @@ async function auditObjectsBatch({
       model,
       idRecoveryParsedInTransport: true,
       idRecoveries: partial.idRecoveries,
-      partial: partial.missingIds.length > 0,
+      canonicalIdValidation: partial.canonicalIdValidation,
+      duplicateIds: partial.duplicateIds,
+      unexpectedIds: partial.unexpectedIds,
+      itemsWithoutId: partial.itemsWithoutId,
+      returnedItemCount: partial.returnedItemCount,
+      blockedReason: partial.blockedReason,
+      partial: partial.partial === true,
     };
   }
 

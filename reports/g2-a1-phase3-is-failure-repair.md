@@ -1,61 +1,67 @@
-# G2/A1 Phase 3 — Targeted `is` Missing-ID Repair v2
+# G2/A1 Phase 3 — Targeted `is` Missing-ID Repair v3
 
-**Classification:** `TARGETED_IS_FAILURE_REPAIR_V2_READY_FOR_OWNER_REVIEW`  
+**Classification:** `TARGETED_IS_FAILURE_REPAIR_V3_READY_FOR_OWNER_REVIEW`  
 **Generated:** 2026-09-08  
 **Branch:** `cursor/phase3-g2-a1-full-discovery-6338`  
-**Repair v1:** `124e7b70383695c5a6b72ab6d394400d576faecf`  
+**Repair v2:** `2440960c15c7aa89391219347d7536ae2bcf80c4`  
 **Base:** `origin/main@dd4587da30e07e43aab3ba7faf3ca697018a4480`
 
-## Owner verdict addressed
+## v3 scope
 
-Prior verdict: `OWNER_REVIEW_NEEDS_REPAIR` — three safety blockers fixed in v2.
+Preserves full canonical-ID validation metadata through partial parser and transport layers. No change to opt-in scope (`missingCanonicalIdRetry` remains G2/A1 Phase 3 only).
 
-## Blocker fixes (proven)
+## Metadata preservation (v3)
 
-| ID | v1 defect | v2 fix | Proof |
-|----|-----------|--------|-------|
-| R-IS-001 | First duplicate item accepted | Frequency-based acceptance (`count===1` only); duplicates fully rejected and retried; persistent → `BLOCKED_DUPLICATE_CANONICAL_ID` | test07, dup-persist |
-| R-IS-002 | Transport catch emptied pending without retry | `subBatch` enqueued to `nextPending` on transient error; validated items preserved | transient: calls=2 retries=1 PASS; persistent: calls=3 BLOCKED |
-| R-IS-003 | All expected + extra unexpected could PASS | Immediate `BLOCKED_UNEXPECTED_CANONICAL_ID` | test08b |
+| Field | v2 gap | v3 fix |
+|-------|--------|--------|
+| `duplicateIds` | Lost when transport returned accepted-only items | Passed via `canonicalIdValidation` |
+| `unexpectedIds` | Lost in transport round-trip | Preserved end-to-end |
+| `itemsWithoutId` | Lost | Preserved |
+| `returnedItemCount` | Could reflect accepted count only | Raw `items.length` from API response |
+| `blockedReason` | Could be dropped | Preserved through transport + adapter |
 
-## v1 claims corrected
+`resolveCanonicalIdValidation()` reuses transport metadata instead of re-validating truncated item arrays.
 
-v1 incorrectly stated duplicate/unexpected IDs were fully rejected. v2 implements and tests:
+## Parse error token handling
 
-- duplicate → reject all instances, retry expected ID, fail-closed after limit
-- unexpected extra when all expected present → hard block (no silent PASS)
+- Invalid JSON / malformed responses attach `usage` and `tokensUsed` to thrown error
+- Runner catch path adds tokens **exactly once** (success path unchanged)
+- Proven: invalid JSON ×3 → `calls=3`, `retries=2`, `tokens=33`
 
-## Statistics
+## E2E `createRealLunaTransport` proofs
 
-- Each additional transport call after the first increments `stats.retries`
-- Tokens from failed responses preserved (`77 * MAX_RETRIES` proven)
-- `returnedItemCount` = raw response item count (not unique accepted count)
-- `lunaStats.failures` = current run only; `failureHistory` preserved separately
+| Case | Result | Evidence |
+|------|--------|----------|
+| All expected + unexpected extra | `BLOCKED_UNEXPECTED_CANONICAL_ID` | `returnedItemCount=4`, diagnostics preserve unexpected ID |
+| Duplicate expected ID | PASS after retry | No copy accepted on first response; retry unresolved only; `returnedItemCount=3` on duplicate attempt |
+
+## Invalid JSON tests
+
+| Case | calls | retries | tokens | result |
+|------|-------|---------|--------|--------|
+| Invalid then valid | 2 | 1 | 22 | PASS |
+| Invalid all 3 | 3 | 2 | 33 | BLOCKED |
 
 ## Evidence
 
 | Check | Result |
 |-------|--------|
-| `test:g2-a1-phase3-missing-id-retry` | **91/91 PASS** |
+| `test:g2-a1-phase3-missing-id-retry` | **113/113 PASS** |
 | `test:phase1-luna-id-recovery` | 44/44 PASS |
 | `test:phase1-luna-timeout-001` | 53/53 PASS |
 | `test-phase1-real-transport-id-recovery-diagnostics` | 42/42 PASS |
 | `test:phase1-luna-checkpoint-resume` | PASS |
 | `test:phase1-real-luna-transport` | PASS |
 | `test:phase1-luna-ckpt-004` | 26/26 PASS |
-| `test:phase1-luna-infra-repair` | ENOENT — missing runtime fixture (see below) |
+| `test:phase1-luna-infra-repair` | **27/27 PASS** |
 | `NEW_REAL_LUNA_CALLS` | 0 |
 | Production diff | 0 |
 | DE diff | 0 |
 
-### `test:phase1-luna-infra-repair` ENOENT
+### `test:phase1-luna-infra-repair`
 
-Missing path (not changed in this PR):
-
-`reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a1_et/batch-0-42782e520ea0bf40.json`
-
-This is a hardcoded legacy RUN_ID checkpoint from `scripts/test-phase1-luna-infra-repair.js:294` that must exist on disk from a prior phase1 Luna run. The cloud snapshot has an empty `reports/temp/phase1-luna-runs/` directory. `scripts/test-phase1-luna-infra-repair.js` has **no diff** vs repair v1 commit.
+Now reproducible: `testResumeIdentityGates` writes minimal inline checkpoint fixture when absent (hash parity only). No runtime Luna checkpoint dependency.
 
 ## Next step
 
-`OWNER_REVIEW_OF_REPAIR_V2` — real `is` resume remains blocked until OWNER approval.
+`OWNER_REVIEW_OF_REPAIR_V3` — real `is` resume remains blocked until OWNER approval.

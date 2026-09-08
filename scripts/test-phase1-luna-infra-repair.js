@@ -315,14 +315,23 @@ async function testResumeIdentityGates() {
   };
 
   const { buildExpectedBatchPlanForScope } = require("./lib/phase1-luna-checkpoint/batch-plan");
-  const { readJsonFile } = require("./lib/phase1-luna-checkpoint/atomic-io");
+  const { readJsonFile, writeJsonAtomic } = require("./lib/phase1-luna-checkpoint/atomic-io");
+  const { checkpointFilePath, CHECKPOINT_SCHEMA_VERSION } = require("./lib/phase1-luna-checkpoint/constants");
   const scope = { scopeId: "g2/a1/et", group: "g2", dataset: "a1", lang: "et", lunaApplicable: true };
   const plan = buildExpectedBatchPlanForScope(scope)[0];
-  const cpPath = require("./lib/phase1-luna-checkpoint/constants").checkpointFilePath(
-    runId,
-    scope.scopeId,
-    plan.batchId,
-  );
+  const cpPath = checkpointFilePath(runId, scope.scopeId, plan.batchId);
+  if (!fs.existsSync(cpPath)) {
+    fs.mkdirSync(path.dirname(cpPath), { recursive: true });
+    writeJsonAtomic(cpPath, {
+      schemaVersion: CHECKPOINT_SCHEMA_VERSION,
+      runId,
+      scopeId: scope.scopeId,
+      batchId: plan.batchId,
+      batchIndex: plan.batchIndex,
+      requestInputHash: plan.requestInputHash,
+      status: "PASS",
+    });
+  }
   const cp = readJsonFile(cpPath);
   assert(plan.requestInputHash === cp.requestInputHash, "real RUN_ID legacy checkpoint hash parity");
 

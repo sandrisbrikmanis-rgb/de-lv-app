@@ -11,6 +11,7 @@ const {
   BLOCKED_DUPLICATE_CANONICAL_ID,
   BLOCKED_UNEXPECTED_CANONICAL_ID,
   validateCanonicalIdSubset,
+  resolveCanonicalIdValidation,
   dedupeObjectsByCanonicalId,
   deterministicRetrySubBatchSize,
   recordMissingIdDiagnostic,
@@ -262,7 +263,7 @@ async function runMissingCanonicalIdRetryBatch({
 
         assertPostAwaitDeadline(deadlines);
 
-        const validation = validateCanonicalIdSubset(subBatch, response, {
+        const validation = resolveCanonicalIdValidation(subBatch, response, {
           scopeId,
           batchIndex,
           attempt: totalAttempts,
@@ -322,6 +323,10 @@ async function runMissingCanonicalIdRetryBatch({
           return batchWallExceededResult(stats, [], [], null);
         }
         lastBlocker = normalized.code === "TIMEOUT" ? "TIMEOUT" : BLOCKED_MISSING_CANONICAL_ID;
+        const tokensFromError = err.tokensUsed || err.usage?.total_tokens || 0;
+        if (tokensFromError > 0) {
+          stats.tokensUsed += tokensFromError;
+        }
         recordMissingIdDiagnostic({
           scopeId,
           cardType,

@@ -416,11 +416,11 @@ async function test14NoFindingsDuplicates() {
   assert(findings.length === result.results.length, "14: one finding per result item");
 }
 
-async function test15FailureStatsPersisted() {
+async function test15ValidationFailureStatsPersisted() {
   const raw = buildObjects(1);
   const transport = createScenarioMockTransport(() => ({ items: [], tokensUsed: 42 }));
   const result = await runRetryAdapter(raw, transport);
-  assert(!result.ok, "15: failure");
+  assert(!result.ok, "15: validation failure fail-closed");
   assert(result.stats.realCalls === 0, "15: mock has no real calls");
   assert(result.stats.tokensUsed > 0, "15: tokens from API responses");
   assert(result.stats.retries > 0, "15: retries counted");
@@ -536,6 +536,78 @@ async function testTimeoutThenSuccessfulRetry() {
   assert(result.ok, "timeout-retry: PASS");
   assert(transport.calls.length === 2, "timeout-retry: calls=2");
   assert(result.stats.retries === 1, "timeout-retry: retries=1");
+}
+
+async function testInvalidJsonThenSuccessfulResponse() {
+  const raw = buildObjects(1);
+  const batch = serializeBatch(raw);
+  let callNo = 0;
+  const transport = createRealLunaTransport({
+    client: {
+      responses: {
+        create: async () => {
+          callNo += 1;
+          return {
+            output_text:
+              callNo === 1
+                ? "not-json"
+                : JSON.stringify({ items: batch.map((obj) => passItem(obj.id)) }),
+            usage: { total_tokens: 11 },
+          };
+        },
+      },
+    },
+  });
+  const result = await runBatchedAdapter({
+    transport,
+    objects: raw,
+    getId: (obj) => obj.de,
+    serialize: (obj) => buildLunaRequestPayload(SCOPE_ID, obj),
+    batchSize: 1,
+    scopeId: `${SCOPE_ID}:${CARD_TYPE}:0`,
+    adapterName: "g2-phase3-staging",
+    retryBackoffMs: NO_BACKOFF,
+    missingCanonicalIdRetry: true,
+    cardType: CARD_TYPE,
+  });
+  assert(result.ok, "invalid-json-then-success: PASS");
+  assert(callNo === 2, "invalid-json-then-success: calls=2");
+  assert(result.stats.retries === 1, "invalid-json-then-success: retries=1");
+  assert(result.stats.tokensUsed === 22, "invalid-json-then-success: tokens from both responses");
+}
+
+async function testInvalidJsonAllThreeAttemptsBlocked() {
+  const raw = buildObjects(1);
+  let callNo = 0;
+  const transport = createRealLunaTransport({
+    client: {
+      responses: {
+        create: async () => {
+          callNo += 1;
+          return {
+            output_text: "not-json",
+            usage: { total_tokens: 11 },
+          };
+        },
+      },
+    },
+  });
+  const result = await runBatchedAdapter({
+    transport,
+    objects: raw,
+    getId: (obj) => obj.de,
+    serialize: (obj) => buildLunaRequestPayload(SCOPE_ID, obj),
+    batchSize: 1,
+    scopeId: `${SCOPE_ID}:${CARD_TYPE}:0`,
+    adapterName: "g2-phase3-staging",
+    retryBackoffMs: NO_BACKOFF,
+    missingCanonicalIdRetry: true,
+    cardType: CARD_TYPE,
+  });
+  assert(!result.ok, "invalid-json-all: BLOCKED");
+  assert(callNo === MAX_RETRIES, "invalid-json-all: calls=3");
+  assert(result.stats.retries === 2, "invalid-json-all: retries=2");
+  assert(result.stats.tokensUsed === 33, "invalid-json-all: tokens from all three responses");
 }
 
 async function testInvalidJsonFailClosedAfterRetries() {
@@ -693,6 +765,128 @@ async function testDiagnosticsWritten() {
   }
 }
 
+async function testE2ERealTransportUnexpectedExtraBlocked() {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "g2-a1-v3-unexpected-"));
+  const prev = process.env.G2_A1_PHASE3_ID_RECOVERY_DIR;
+  process.env.G2_A1_PHASE3_ID_RECOVERY_DIR = dir;
+  try {
+    const raw = buildObjects(3);
+    const serialized = serializeBatch(raw);
+    const transport = createRealLunaTransport({
+      client: {
+        responses: {
+          create: async () => ({
+            output_text: JSON.stringify({
+              items: [
+                ...serialized.map((obj) => passItem(obj.id)),
+                passItem(`${SCOPE_ID}|idx:9999|raw:extra|src:is-a1.json`),
+              ],
+            }),
+            usage: { total_tokens: 19 },
+          }),
+        },
+      },
+    });
+    const result = await runBatchedAdapter({
+      transport,
+      objects: raw,
+      getId: (obj) => obj.de,
+      serialize: (obj) => buildLunaRequestPayload(SCOPE_ID, obj),
+      batchSize: raw.length,
+      scopeId: `${SCOPE_ID}:${CARD_TYPE}:0`,
+      adapterName: "g2-phase3-staging",
+      retryBackoffMs: NO_BACKOFF,
+      missingCanonicalIdRetry: true,
+      cardType: CARD_TYPE,
+    });
+    assert(!result.ok, "e2e-unexpected: BLOCKED");
+    assert(result.reason === BLOCKED_UNEXPECTED_CANONICAL_ID, "e2e-unexpected: blocked reason");
+    assert(transport.getRealCalls() === 1, "e2e-unexpected: single call");
+    const files = fs.readdirSync(dir).filter((name) => name.endsWith(".json"));
+    assert(files.length > 0, "e2e-unexpected: diagnostics written");
+    const record = JSON.parse(fs.readFileSync(path.join(dir, files[0]), "utf8"));
+    assert(record.returnedItemCount === 4, "e2e-unexpected: returnedItemCount is raw response size");
+    assert(record.unexpectedIds?.length === 1, "e2e-unexpected: unexpected ID preserved");
+    assert(record.rejectionReason === BLOCKED_UNEXPECTED_CANONICAL_ID, "e2e-unexpected: blockedReason preserved");
+  } finally {
+    if (prev === undefined) delete process.env.G2_A1_PHASE3_ID_RECOVERY_DIR;
+    else process.env.G2_A1_PHASE3_ID_RECOVERY_DIR = prev;
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+}
+
+function parseFakeClientObjects(request) {
+  const inputLines = String(request?.input || "").split("\n");
+  const payload = JSON.parse(inputLines[inputLines.length - 1]);
+  return payload.objects || [];
+}
+
+async function testE2ERealTransportDuplicateRetriesUnresolvedOnly() {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "g2-a1-v3-duplicate-"));
+  const prev = process.env.G2_A1_PHASE3_ID_RECOVERY_DIR;
+  process.env.G2_A1_PHASE3_ID_RECOVERY_DIR = dir;
+  try {
+    const raw = buildObjects(3);
+    const serialized = serializeBatch(raw);
+    const duplicateId = serialized[0].id;
+    let callNo = 0;
+    const transport = createRealLunaTransport({
+      client: {
+        responses: {
+          create: async (request) => {
+            callNo += 1;
+            const objects = parseFakeClientObjects(request);
+            if (callNo === 1) {
+              return {
+                output_text: JSON.stringify({
+                  items: [
+                    passItem(duplicateId),
+                    passItem(duplicateId),
+                    passItem(serialized[2].id),
+                  ],
+                }),
+                usage: { total_tokens: 21 },
+              };
+            }
+            return {
+              output_text: JSON.stringify({
+                items: objects.map((obj) => passItem(obj.id)),
+              }),
+              usage: { total_tokens: 9 },
+            };
+          },
+        },
+      },
+    });
+    const result = await runBatchedAdapter({
+      transport,
+      objects: raw,
+      getId: (obj) => obj.de,
+      serialize: (obj) => buildLunaRequestPayload(SCOPE_ID, obj),
+      batchSize: raw.length,
+      scopeId: `${SCOPE_ID}:${CARD_TYPE}:0`,
+      adapterName: "g2-phase3-staging",
+      retryBackoffMs: NO_BACKOFF,
+      missingCanonicalIdRetry: true,
+      cardType: CARD_TYPE,
+    });
+    assert(result.ok, "e2e-duplicate: PASS after retry");
+    assert(callNo === 3, "e2e-duplicate: calls=3 with split unresolved subset");
+    assert(result.stats.retries === 2, "e2e-duplicate: retries=2");
+    const id0Count = result.results.filter((item) => item.id === duplicateId).length;
+    assert(id0Count === 1, "e2e-duplicate: exactly one accepted duplicate ID");
+    const files = fs.readdirSync(dir).filter((name) => name.endsWith(".json"));
+    assert(files.length > 0, "e2e-duplicate: diagnostics written");
+    const record = JSON.parse(fs.readFileSync(path.join(dir, files[0]), "utf8"));
+    assert(record.returnedItemCount === 3, "e2e-duplicate: returnedItemCount is raw response size");
+    assert(record.duplicateIds?.includes(duplicateId), "e2e-duplicate: duplicate metadata preserved");
+  } finally {
+    if (prev === undefined) delete process.env.G2_A1_PHASE3_ID_RECOVERY_DIR;
+    else process.env.G2_A1_PHASE3_ID_RECOVERY_DIR = prev;
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+}
+
 async function testRealTransportPreservesErrorMetadata() {
   const batch = [
     buildLunaRequestPayload(SCOPE_ID, { de: "ländlich", index: 1718, productionFile: "is-a1.json" }),
@@ -742,7 +936,7 @@ async function main() {
   await test12ValidatedObjectsNotReRequested();
   await test13FinalOrderMatchesExpected();
   await test14NoFindingsDuplicates();
-  await test15FailureStatsPersisted();
+  await test15ValidationFailureStatsPersisted();
   await test16CumulativeStatsNotOverwritten();
   await test17CompletedLangCacheUnchanged();
   test18ResumeCommandNoFreshLuna();
@@ -752,7 +946,11 @@ async function main() {
   await testTransientTransportErrorRetryPass();
   await testPersistentTransportErrorBlocked();
   await testTimeoutThenSuccessfulRetry();
+  await testInvalidJsonThenSuccessfulResponse();
+  await testInvalidJsonAllThreeAttemptsBlocked();
   await testInvalidJsonFailClosedAfterRetries();
+  await testE2ERealTransportUnexpectedExtraBlocked();
+  await testE2ERealTransportDuplicateRetriesUnresolvedOnly();
   await testRetryAfterErrorOnlyUnresolvedSubset();
   await testSplitSubsetRetryCounterMatchesCalls();
   await testFailedParseUsageTokensPreserved();

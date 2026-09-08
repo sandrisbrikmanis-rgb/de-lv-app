@@ -143,6 +143,12 @@ function createRealLunaTransport(options = {}) {
           idRecoveryParsedInTransport: result.idRecoveryParsedInTransport === true,
           idRecoveries: result.idRecoveries || [],
           missingIds: result.missingIds || [],
+          canonicalIdValidation: result.canonicalIdValidation || null,
+          duplicateIds: result.duplicateIds || [],
+          unexpectedIds: result.unexpectedIds || [],
+          itemsWithoutId: result.itemsWithoutId || 0,
+          returnedItemCount: result.returnedItemCount ?? result.items?.length ?? 0,
+          blockedReason: result.blockedReason || null,
           partial: result.partial === true,
         };
       } catch (error) {
@@ -155,6 +161,8 @@ function createRealLunaTransport(options = {}) {
           err.idRecoveryDiagnosticsWriteError = error.idRecoveryDiagnosticsWriteError;
         }
         if (error.usage) err.usage = error.usage;
+        if (error.tokensUsed) err.tokensUsed = error.tokensUsed;
+        if (error.canonicalIdValidation) err.canonicalIdValidation = error.canonicalIdValidation;
         throw err;
       }
     },

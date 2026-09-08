@@ -202,12 +202,28 @@ function recordMissingIdDiagnostic({
   return writeG2A1Phase3IdRecoveryDiagnosticBestEffort(diagnostic);
 }
 
+function resolveCanonicalIdValidation(batch, response, options = {}) {
+  if (response?.canonicalIdValidation && response.idRecoveryParsedInTransport) {
+    const expectedIds = batch.map((obj) => obj.id);
+    const validation = response.canonicalIdValidation;
+    if (
+      Array.isArray(validation.expectedIds) &&
+      validation.expectedIds.length === expectedIds.length &&
+      validation.expectedIds.every((id, index) => id === expectedIds[index])
+    ) {
+      return validation;
+    }
+  }
+  return validateCanonicalIdSubset(batch, response, options);
+}
+
 module.exports = {
   BLOCKED_MISSING_CANONICAL_ID,
   BLOCKED_DUPLICATE_CANONICAL_ID,
   BLOCKED_UNEXPECTED_CANONICAL_ID,
   getCanonicalResponseId,
   validateCanonicalIdSubset,
+  resolveCanonicalIdValidation,
   dedupeObjectsByCanonicalId,
   deterministicRetrySubBatchSize,
   splitObjectsIntoBatches,
