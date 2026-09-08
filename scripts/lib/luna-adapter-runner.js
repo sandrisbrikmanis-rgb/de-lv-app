@@ -8,6 +8,8 @@ const { recoverLunaResponseItems } = require('./phase1-luna-id-recovery');
 const { writeRecoveryDiagnosticsBestEffort, formatShortRecoveryError } = require('./phase1-luna-id-recovery-diagnostics');
 const {
   BLOCKED_MISSING_CANONICAL_ID,
+  BLOCKED_DUPLICATE_CANONICAL_ID,
+  BLOCKED_UNEXPECTED_CANONICAL_ID,
   validateCanonicalIdSubset,
   dedupeObjectsByCanonicalId,
   deterministicRetrySubBatchSize,
@@ -186,13 +188,15 @@ async function runMissingCanonicalIdRetryBatch({
   const batchDeadlineAt = batchStartedMono + batchWallClockMs;
   let totalAttempts = 0;
   let lastMissingIds = [];
+  let lastBlocker = BLOCKED_MISSING_CANONICAL_ID;
+  let batchTransportCalls = 0;
 
   while (pendingObjects.length > 0) {
     attemptRound += 1;
     checkInterrupted(interruptState);
 
     if (attemptRound > MAX_RETRIES) {
-      return failAttemptResult(BLOCKED_MISSING_CANONICAL_ID, stats, [], [], null, {
+      return failAttemptResult(lastBlocker, stats, [], [], null, {
         missingIds: lastMissingIds,
         missingCanonicalIdRetry: true,
       });
@@ -210,6 +214,10 @@ async function runMissingCanonicalIdRetryBatch({
       }
 
       totalAttempts += 1;
+      batchTransportCalls += 1;
+      if (batchTransportCalls > 1) {
+        stats.retries += 1;
+      }
       const attemptStart = nowMs();
       const deadlines = createAttemptDeadlines({
         attemptStart,
@@ -260,19 +268,40 @@ async function runMissingCanonicalIdRetryBatch({
           attempt: totalAttempts,
         });
 
+        if (validation.blockedReason === BLOCKED_UNEXPECTED_CANONICAL_ID) {
+          recordMissingIdDiagnostic({
+            scopeId,
+            cardType,
+            batchIndex,
+            attempt: totalAttempts,
+            validation,
+            usage: response?.usage || null,
+            retrySubsetIds: subBatch.map((obj) => obj.id),
+            rejectionReason: BLOCKED_UNEXPECTED_CANONICAL_ID,
+          });
+          return failAttemptResult(BLOCKED_UNEXPECTED_CANONICAL_ID, stats, [], [], null, {
+            missingIds: [],
+            unexpectedIds: validation.unexpectedIds,
+            missingCanonicalIdRetry: true,
+          });
+        }
+
         for (const [id, item] of validation.acceptedById.entries()) {
           if (!acceptedById.has(id)) {
             acceptedById.set(id, item);
           }
         }
 
-        const subMissing = subBatch.map((obj) => obj.id).filter((id) => !acceptedById.has(id));
-        for (const obj of subBatch) {
-          if (!acceptedById.has(obj.id)) {
-            nextPending.push(obj);
-          }
+        const subUnresolved = subBatch.filter((obj) => !acceptedById.has(obj.id));
+        for (const obj of subUnresolved) {
+          nextPending.push(obj);
         }
-        lastMissingIds = subMissing;
+        lastMissingIds = subUnresolved.map((obj) => obj.id);
+        if (validation.duplicateIds?.length) {
+          lastBlocker = BLOCKED_DUPLICATE_CANONICAL_ID;
+        } else if (subUnresolved.length) {
+          lastBlocker = BLOCKED_MISSING_CANONICAL_ID;
+        }
 
         if (!validation.ok) {
           recordMissingIdDiagnostic({
@@ -282,8 +311,8 @@ async function runMissingCanonicalIdRetryBatch({
             attempt: totalAttempts,
             validation,
             usage: response?.usage || null,
-            retrySubsetIds: subMissing,
-            rejectionReason: validation.issues.join(","),
+            retrySubsetIds: lastMissingIds,
+            rejectionReason: validation.blockedReason || validation.issues.join(","),
           });
         }
       } catch (err) {
@@ -292,6 +321,7 @@ async function runMissingCanonicalIdRetryBatch({
         if (normalized.code === "BATCH_WALL_CLOCK_EXCEEDED") {
           return batchWallExceededResult(stats, [], [], null);
         }
+        lastBlocker = normalized.code === "TIMEOUT" ? "TIMEOUT" : BLOCKED_MISSING_CANONICAL_ID;
         recordMissingIdDiagnostic({
           scopeId,
           cardType,
@@ -304,21 +334,18 @@ async function runMissingCanonicalIdRetryBatch({
             duplicateIds: [],
             unexpectedIds: [],
             itemsWithoutId: 0,
+            returnedItemCount: 0,
           },
           usage: err.usage || null,
           retrySubsetIds: subBatch.map((obj) => obj.id),
           rejectionReason: normalized.code === "TIMEOUT" ? "TIMEOUT" : normalized.message,
         });
-        if (attemptRound >= MAX_RETRIES) {
-          return failAttemptResult(
-            normalized.code === "TIMEOUT" ? "TIMEOUT" : normalized.message,
-            stats,
-            [],
-            [],
-            null,
-            { missingIds: subBatch.map((obj) => obj.id), missingCanonicalIdRetry: true },
-          );
+        for (const obj of subBatch) {
+          if (!acceptedById.has(obj.id)) {
+            nextPending.push(obj);
+          }
         }
+        lastMissingIds = subBatch.map((obj) => obj.id).filter((id) => !acceptedById.has(id));
       } finally {
         if (heartbeatTimer) clearInterval(heartbeatTimer);
         if (attemptGuard) attemptGuard.dispose();
@@ -337,7 +364,6 @@ async function runMissingCanonicalIdRetryBatch({
       if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= backoffDelayMs) {
         return batchWallExceededResult(stats, [], [], null);
       }
-      stats.retries += 1;
       await sleep(backoffDelayMs);
       if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= 0) {
         return batchWallExceededResult(stats, [], [], null);
@@ -656,4 +682,6 @@ module.exports = {
   BATCH_WALL_CLOCK_MS,
   BACKOFF_MS,
   BLOCKED_MISSING_CANONICAL_ID,
+  BLOCKED_DUPLICATE_CANONICAL_ID,
+  BLOCKED_UNEXPECTED_CANONICAL_ID,
 };

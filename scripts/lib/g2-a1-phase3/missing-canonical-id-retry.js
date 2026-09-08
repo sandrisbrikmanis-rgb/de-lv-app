@@ -10,6 +10,8 @@ const {
 } = require("../phase1-luna-id-recovery-diagnostics");
 
 const BLOCKED_MISSING_CANONICAL_ID = "BLOCKED_MISSING_CANONICAL_ID";
+const BLOCKED_DUPLICATE_CANONICAL_ID = "BLOCKED_DUPLICATE_CANONICAL_ID";
+const BLOCKED_UNEXPECTED_CANONICAL_ID = "BLOCKED_UNEXPECTED_CANONICAL_ID";
 
 function getCanonicalResponseId(item) {
   if (!item || typeof item !== "object") return null;
@@ -88,6 +90,9 @@ function validateCanonicalIdSubset(batch, response, options = {}) {
   const duplicateIds = [];
   const unexpectedIds = [];
   let itemsWithoutId = 0;
+  const idFrequency = new Map();
+  const itemsByReturnedId = new Map();
+  const returnedItemCount = items.length;
 
   for (const item of items) {
     const id = getCanonicalResponseId(item);
@@ -95,14 +100,22 @@ function validateCanonicalIdSubset(batch, response, options = {}) {
       itemsWithoutId += 1;
       continue;
     }
+    idFrequency.set(id, (idFrequency.get(id) || 0) + 1);
+    if (!itemsByReturnedId.has(id)) {
+      itemsByReturnedId.set(id, item);
+    }
+  }
+
+  for (const [id, count] of idFrequency.entries()) {
     if (!expectedSet.has(id)) {
       unexpectedIds.push(id);
       continue;
     }
-    if (acceptedById.has(id)) {
+    if (count !== 1) {
       duplicateIds.push(id);
       continue;
     }
+    const item = itemsByReturnedId.get(id);
     acceptedById.set(id, { ...item, id });
     returnedCanonicalIds.push(id);
   }
@@ -113,10 +126,20 @@ function validateCanonicalIdSubset(batch, response, options = {}) {
   if (unexpectedIds.length) issues.push("UNEXPECTED_IDS");
   if (itemsWithoutId > 0) issues.push("ITEMS_WITHOUT_ID");
 
+  const allExpectedExactlyOnce =
+    expectedIds.length > 0 &&
+    expectedIds.every((id) => idFrequency.get(id) === 1) &&
+    duplicateIds.length === 0;
+  let blockedReason = null;
+  if (unexpectedIds.length > 0 && allExpectedExactlyOnce) {
+    blockedReason = BLOCKED_UNEXPECTED_CANONICAL_ID;
+  }
+
   const orderedItems = expectedIds.filter((id) => acceptedById.has(id)).map((id) => acceptedById.get(id));
 
   return {
-    ok: issues.length === 0,
+    ok: issues.length === 0 && !blockedReason,
+    blockedReason,
     issues,
     expectedIds,
     missingIds,
@@ -125,8 +148,10 @@ function validateCanonicalIdSubset(batch, response, options = {}) {
     unexpectedIds,
     itemsWithoutId,
     returnedCanonicalIds,
+    returnedItemCount,
     items: orderedItems,
     idRecoveries,
+    unresolvedIds: [...new Set(missingIds)],
   };
 }
 
@@ -169,6 +194,7 @@ function recordMissingIdDiagnostic({
     duplicateIds: validation.duplicateIds,
     unexpectedIds: validation.unexpectedIds,
     itemsWithoutIdCount: validation.itemsWithoutId,
+    returnedItemCount: validation.returnedItemCount ?? validation.returnedCanonicalIds?.length ?? 0,
     retrySubsetIds,
     rejectionReason,
     usage,
@@ -178,6 +204,8 @@ function recordMissingIdDiagnostic({
 
 module.exports = {
   BLOCKED_MISSING_CANONICAL_ID,
+  BLOCKED_DUPLICATE_CANONICAL_ID,
+  BLOCKED_UNEXPECTED_CANONICAL_ID,
   getCanonicalResponseId,
   validateCanonicalIdSubset,
   dedupeObjectsByCanonicalId,

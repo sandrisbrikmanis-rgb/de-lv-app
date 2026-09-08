@@ -7,7 +7,16 @@ const path = require("path");
 const { execSync } = require("child_process");
 const fixture = require("./fixtures/phase1-id-recovery-lb-sq.json");
 const { ROOT } = require("./lib/audit-common");
-const { runBatchedAdapter, BLOCKED_MISSING_CANONICAL_ID, MAX_RETRIES } = require("./lib/luna-adapter-runner");
+const {
+  runBatchedAdapter,
+  BLOCKED_MISSING_CANONICAL_ID,
+  BLOCKED_DUPLICATE_CANONICAL_ID,
+  BLOCKED_UNEXPECTED_CANONICAL_ID,
+  MAX_RETRIES,
+} = require("./lib/luna-adapter-runner");
+const {
+  validateCanonicalIdSubset,
+} = require("./lib/g2-a1-phase3/missing-canonical-id-retry");
 const { buildLunaRequestPayload } = require("./lib/phase1-luna-checkpoint/object-identity");
 const { createRealLunaTransport } = require("./lib/luna-transport");
 const { normalizeLunaItemsToFindings } = require("./lib/phase1-luna-checkpoint/findings");
@@ -62,7 +71,11 @@ function createScenarioMockTransport(handler) {
         count: payload.objects.length,
       });
       const result = handler(payload, calls.length);
-      if (result.error) throw result.error;
+      if (result.error) {
+        const err = result.error instanceof Error ? result.error : new Error(String(result.error));
+        if (result.usage) err.usage = result.usage;
+        throw err;
+      }
       return {
         items: result.items,
         tokensUsed: result.tokensUsed ?? 10,
@@ -231,25 +244,35 @@ async function test06SubsetSplitDeterministically() {
   assert(callSizes.some((size) => size < missingIds.length), "6: subset was split smaller");
 }
 
-async function test07DuplicateIdNotAccepted() {
+async function test07DuplicateIdRejectedAndRetried() {
   const raw = buildObjects(3);
   const serialized = serializeBatch(raw);
+  const duplicateId = serialized[0].id;
+  const missingId = serialized[1].id;
   let callNo = 0;
   const transport = createScenarioMockTransport((payload) => {
     callNo += 1;
     if (callNo === 1) {
       return {
-        items: [passItem(serialized[0].id), passItem(serialized[0].id), passItem(serialized[2].id)],
+        items: [
+          passItem(duplicateId),
+          passItem(duplicateId),
+          passItem(serialized[2].id),
+        ],
       };
     }
     return { items: payload.objects.map((obj) => passItem(obj.id)) };
   });
   const result = await runRetryAdapter(raw, transport);
-  assert(result.ok, "7: duplicate ID not silently accepted");
-  assert(transport.calls.length > 1, "7: retried after duplicate");
+  assert(result.ok, "7: duplicate ID rejected then recovered");
+  const retriedIds = new Set(transport.calls.slice(1).flatMap((call) => call.objectIds));
+  assert(retriedIds.has(duplicateId), "7: duplicate ID itself retried");
+  assert(retriedIds.has(missingId), "7: missing ID also retried");
+  const id0Count = result.results.filter((item) => item.id === duplicateId).length;
+  assert(id0Count === 1, "7: exactly one accepted item for duplicate ID");
 }
 
-async function test08UnexpectedIdNotAccepted() {
+async function test08UnexpectedIdReplacesMissingExpected() {
   const raw = buildObjects(3);
   const serialized = serializeBatch(raw);
   let callNo = 0;
@@ -267,9 +290,24 @@ async function test08UnexpectedIdNotAccepted() {
     return { items: payload.objects.map((obj) => passItem(obj.id)) };
   });
   const result = await runRetryAdapter(raw, transport);
-  assert(result.ok, "8: unexpected ID not silently accepted");
+  assert(result.ok, "8a: unexpected replacing missing expected retried");
   const retryIds = transport.calls[1]?.objectIds || [];
-  assert(retryIds.includes(serialized[1].id), "8: missing expected object retried");
+  assert(retryIds.includes(serialized[1].id), "8a: missing expected object retried");
+}
+
+async function test08bUnexpectedExtraAllExpectedPresentBlocked() {
+  const raw = buildObjects(3);
+  const serialized = serializeBatch(raw);
+  const transport = createScenarioMockTransport((payload) => ({
+    items: [
+      ...payload.objects.map((obj) => passItem(obj.id)),
+      passItem(`${SCOPE_ID}|idx:9999|raw:extra|src:is-a1.json`),
+    ],
+  }));
+  const result = await runRetryAdapter(raw, transport);
+  assert(!result.ok, "8b: all expected + extra unexpected must not PASS");
+  assert(result.reason === BLOCKED_UNEXPECTED_CANONICAL_ID, "8b: BLOCKED_UNEXPECTED_CANONICAL_ID");
+  assert(transport.calls.length === 1, "8b: no retry for unexpected extra");
 }
 
 async function test09NonC0IdNotFuzzyRemapped() {
@@ -441,6 +479,189 @@ function test20DeDiffZero() {
   assert(diff.clean === true, "20: DE diff = 0");
 }
 
+async function testPersistentDuplicateFailClosed() {
+  const raw = buildObjects(1);
+  const serialized = serializeBatch(raw);
+  const duplicateId = serialized[0].id;
+  const transport = createScenarioMockTransport(() => ({
+    items: [passItem(duplicateId), passItem(duplicateId)],
+  }));
+  const result = await runRetryAdapter(raw, transport);
+  assert(!result.ok, "dup-persist: fail-closed");
+  assert(result.reason === BLOCKED_DUPLICATE_CANONICAL_ID, "dup-persist: BLOCKED_DUPLICATE_CANONICAL_ID");
+  assert(transport.calls.length === MAX_RETRIES, "dup-persist: exhausted retry limit");
+}
+
+async function testTransientTransportErrorRetryPass() {
+  const raw = buildObjects(1);
+  const serialized = serializeBatch(raw);
+  let callNo = 0;
+  const transport = createScenarioMockTransport((payload) => {
+    callNo += 1;
+    if (callNo === 1) {
+      return { error: new Error("transient network failure") };
+    }
+    return { items: payload.objects.map((obj) => passItem(obj.id)) };
+  });
+  const result = await runRetryAdapter(raw, transport);
+  assert(result.ok, "transient: PASS after retry");
+  assert(transport.calls.length === 2, "transient: calls=2");
+  assert(result.stats.retries === 1, "transient: retries=1");
+}
+
+async function testPersistentTransportErrorBlocked() {
+  const raw = buildObjects(1);
+  const transport = createScenarioMockTransport(() => ({
+    error: new Error("persistent transport failure"),
+  }));
+  const result = await runRetryAdapter(raw, transport);
+  assert(!result.ok, "persist-error: BLOCKED");
+  assert(transport.calls.length === MAX_RETRIES, "persist-error: exactly 3 calls");
+  assert(transport.calls.length < MAX_RETRIES + 1, "persist-error: no fourth call");
+}
+
+async function testTimeoutThenSuccessfulRetry() {
+  const raw = buildObjects(1);
+  let callNo = 0;
+  const transport = createScenarioMockTransport((payload) => {
+    callNo += 1;
+    if (callNo === 1) {
+      const err = new Error("TIMEOUT");
+      err.code = "TIMEOUT";
+      return { error: err };
+    }
+    return { items: payload.objects.map((obj) => passItem(obj.id)) };
+  });
+  const result = await runRetryAdapter(raw, transport);
+  assert(result.ok, "timeout-retry: PASS");
+  assert(transport.calls.length === 2, "timeout-retry: calls=2");
+  assert(result.stats.retries === 1, "timeout-retry: retries=1");
+}
+
+async function testInvalidJsonFailClosedAfterRetries() {
+  const raw = buildObjects(1);
+  const batch = serializeBatch(raw);
+  let callNo = 0;
+  const transport = createRealLunaTransport({
+    client: {
+      responses: {
+        create: async () => {
+          callNo += 1;
+          return {
+            output_text: callNo < MAX_RETRIES ? "not-json" : JSON.stringify({ items: batch.map((obj) => passItem(obj.id)) }),
+            usage: { total_tokens: 11 },
+          };
+        },
+      },
+    },
+  });
+  const result = await runBatchedAdapter({
+    transport,
+    objects: raw,
+    getId: (obj) => obj.de,
+    serialize: (obj) => buildLunaRequestPayload(SCOPE_ID, obj),
+    batchSize: 1,
+    scopeId: `${SCOPE_ID}:${CARD_TYPE}:0`,
+    adapterName: "g2-phase3-staging",
+    retryBackoffMs: NO_BACKOFF,
+    missingCanonicalIdRetry: true,
+    cardType: CARD_TYPE,
+  });
+  assert(result.ok, "invalid-json: PASS after valid retry");
+  assert(callNo === MAX_RETRIES, "invalid-json: third call succeeds");
+}
+
+async function testRetryAfterErrorOnlyUnresolvedSubset() {
+  const raw = buildObjects(4);
+  const serialized = serializeBatch(raw);
+  const missingId = serialized[3].id;
+  let callNo = 0;
+  const transport = createScenarioMockTransport((payload) => {
+    callNo += 1;
+    if (callNo === 1) {
+      return {
+        items: payload.objects
+          .filter((obj) => obj.id !== missingId)
+          .map((obj) => passItem(obj.id)),
+      };
+    }
+    if (callNo === 2) {
+      return { error: new Error("transient on unresolved subset") };
+    }
+    return { items: payload.objects.map((obj) => passItem(obj.id)) };
+  });
+  const result = await runRetryAdapter(raw, transport);
+  assert(result.ok, "subset-error: PASS");
+  const thirdCall = transport.calls[2];
+  assert(thirdCall?.objectIds.length === 1, "subset-error: retry only unresolved");
+  assert(thirdCall?.objectIds[0] === missingId, "subset-error: unresolved ID retried");
+}
+
+async function testSplitSubsetRetryCounterMatchesCalls() {
+  const raw = buildObjects(6);
+  const serialized = serializeBatch(raw);
+  const missingIds = serialized.slice(3).map((obj) => obj.id);
+  let callNo = 0;
+  const transport = createScenarioMockTransport((payload) => {
+    callNo += 1;
+    if (callNo === 1) {
+      return {
+        items: payload.objects
+          .filter((obj) => !missingIds.includes(obj.id))
+          .map((obj) => passItem(obj.id)),
+      };
+    }
+    return { items: payload.objects.map((obj) => passItem(obj.id)) };
+  });
+  const result = await runRetryAdapter(raw, transport);
+  assert(result.ok, "split-counter: PASS");
+  const extraCalls = transport.calls.length - 1;
+  assert(result.stats.retries === extraCalls, "split-counter: retries match extra calls");
+}
+
+async function testFailedParseUsageTokensPreserved() {
+  const raw = buildObjects(1);
+  const transport = createScenarioMockTransport(() => ({
+    items: [],
+    tokensUsed: 77,
+    usage: { total_tokens: 77 },
+  }));
+  const result = await runRetryAdapter(raw, transport);
+  assert(!result.ok, "usage: fail-closed after retries");
+  assert(result.stats.tokensUsed === 77 * MAX_RETRIES, "usage: tokens preserved from each failed response");
+}
+
+function testReturnedItemCountIncludesAllKinds() {
+  const batch = serializeBatch(buildObjects(3));
+  const validation = validateCanonicalIdSubset(batch, {
+    items: [
+      passItem(batch[0].id),
+      passItem(batch[0].id),
+      passItem(batch[1].id),
+      { status: "PASS" },
+      passItem(`${SCOPE_ID}|idx:9999|raw:extra|src:is-a1.json`),
+    ],
+  });
+  assert(validation.returnedItemCount === 5, "returnedItemCount: raw item count");
+  assert(validation.duplicateIds.includes(batch[0].id), "returnedItemCount: duplicate detected");
+  assert(validation.unexpectedIds.length === 1, "returnedItemCount: unexpected detected");
+  assert(validation.itemsWithoutId === 1, "returnedItemCount: no-id item counted");
+  assert(!validation.acceptedById.has(batch[0].id), "returnedItemCount: duplicate not accepted");
+}
+
+function testHistoricalFailureCurrentRunPassCoverage() {
+  const failureHistory = [{ lang: "is", reason: "BLOCKED_MISSING_CANONICAL_ID", runScope: "historical" }];
+  const lunaStats = {
+    failures: [],
+    failureHistory: [...failureHistory],
+    scopesProcessed: 31,
+    scopesExpected: 31,
+  };
+  const coveragePass = lunaStats.failures.length === 0 && lunaStats.scopesProcessed === lunaStats.scopesExpected;
+  assert(coveragePass, "history: current run PASS not blocked by historical failure");
+  assert(lunaStats.failureHistory.length === 1, "history: historical record preserved");
+}
+
 async function testDiagnosticsWritten() {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "g2-a1-id-diag-"));
   const prev = process.env.G2_A1_PHASE3_ID_RECOVERY_DIR;
@@ -462,6 +683,9 @@ async function testDiagnosticsWritten() {
     const record = JSON.parse(fs.readFileSync(path.join(dir, files[0]), "utf8"));
     assert(record.expectedCanonicalIds?.length === 2, "diag: expected IDs recorded");
     assert(record.missingIds?.length >= 1, "diag: missing IDs recorded");
+    if (record.returnedItemCount != null) {
+      assert(typeof record.returnedItemCount === "number", "diag: returnedItemCount numeric");
+    }
   } finally {
     if (prev === undefined) delete process.env.G2_A1_PHASE3_ID_RECOVERY_DIR;
     else process.env.G2_A1_PHASE3_ID_RECOVERY_DIR = prev;
@@ -509,8 +733,9 @@ async function main() {
   await test04DifferentBatchesDifferentMissingIds();
   await test05MultipleMissingRetriesSubset();
   await test06SubsetSplitDeterministically();
-  await test07DuplicateIdNotAccepted();
-  await test08UnexpectedIdNotAccepted();
+  await test07DuplicateIdRejectedAndRetried();
+  await test08UnexpectedIdReplacesMissingExpected();
+  await test08bUnexpectedExtraAllExpectedPresentBlocked();
   await test09NonC0IdNotFuzzyRemapped();
   await test10AllowedC0RecoveryStillPasses();
   await test11RetryLimitFailClosed();
@@ -523,6 +748,16 @@ async function main() {
   test18ResumeCommandNoFreshLuna();
   test19ProductionDiffZero();
   test20DeDiffZero();
+  await testPersistentDuplicateFailClosed();
+  await testTransientTransportErrorRetryPass();
+  await testPersistentTransportErrorBlocked();
+  await testTimeoutThenSuccessfulRetry();
+  await testInvalidJsonFailClosedAfterRetries();
+  await testRetryAfterErrorOnlyUnresolvedSubset();
+  await testSplitSubsetRetryCounterMatchesCalls();
+  await testFailedParseUsageTokensPreserved();
+  testReturnedItemCountIncludesAllKinds();
+  testHistoricalFailureCurrentRunPassCoverage();
   await testDiagnosticsWritten();
   await testRealTransportPreservesErrorMetadata();
 

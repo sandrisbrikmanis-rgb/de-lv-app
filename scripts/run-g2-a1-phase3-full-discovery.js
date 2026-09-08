@@ -322,6 +322,11 @@ async function main() {
   }
   const progress = loadProgress(progressPath);
   const previousLunaStats = progress.lunaStats || {};
+  const previousFailureHistory = Array.isArray(previousLunaStats.failureHistory)
+    ? previousLunaStats.failureHistory
+    : Array.isArray(previousLunaStats.failures)
+      ? previousLunaStats.failures
+      : [];
 
   const deterministic = collectAllDeterministic(STAGING_ROOT, args.langs);
   let allFindings = [...deterministic.findings];
@@ -332,7 +337,8 @@ async function main() {
     retries: previousLunaStats.retries || 0,
     scopesExpected: args.langs.length,
     scopesProcessed: 0,
-    failures: Array.isArray(previousLunaStats.failures) ? [...previousLunaStats.failures] : [],
+    failures: [],
+    failureHistory: [...previousFailureHistory],
   };
 
   if (args.withLuna) {
@@ -360,14 +366,18 @@ async function main() {
         lunaStats.tokensUsed += result.tokensUsed || 0;
         lunaStats.batches += result.batches || 0;
         lunaStats.retries += result.retries || 0;
-        lunaStats.failures.push({
+        const failureRecord = {
           lang,
           reason: result.reason,
           missingIds: result.missingIds || [],
           lunaCalls: result.lunaCalls || 0,
           tokensUsed: result.tokensUsed || 0,
           retries: result.retries || 0,
-        });
+          recordedAt: new Date().toISOString(),
+          runScope: "current",
+        };
+        lunaStats.failures.push(failureRecord);
+        lunaStats.failureHistory.push({ ...failureRecord, runScope: "historical" });
         progress.lunaStats = lunaStats;
         saveProgress(progressPath, progress);
         break;

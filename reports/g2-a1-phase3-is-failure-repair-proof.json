@@ -1,23 +1,24 @@
 {
-  "schemaVersion": "1.0.0",
-  "classification": "TARGETED_IS_FAILURE_REPAIR_READY_FOR_OWNER_REVIEW",
-  "generatedAt": "2026-09-08T05:30:00.000Z",
+  "schemaVersion": "2.0.0",
+  "classification": "TARGETED_IS_FAILURE_REPAIR_V2_READY_FOR_OWNER_REVIEW",
+  "generatedAt": "2026-09-08T05:35:00.000Z",
   "masterStandardVersion": "1.12",
   "branch": "cursor/phase3-g2-a1-full-discovery-6338",
   "originMainSha": "dd4587da30e07e43aab3ba7faf3ca697018a4480",
-  "repairBaseSha": "2ff180ec09e4d5deea631f25954855c9b5469730",
-  "provenRootCause": {
-    "confirmed": [
-      "parsePhase1LunaResponseStrict throws Luna response missing id when count mismatch or missing canonical ID; C0 recovery only activates when items.length === expectedIds.length",
-      "luna-transport.js wrapped errors in new Error() losing structured metadata (code, idRecoveryDiagnostics)",
-      "runBatchedAdapter retried entire batch on partial ID failure instead of missing-only subset",
-      "run-g2-a1-phase3-full-discovery.js did not accumulate lunaCalls/tokensUsed/retries on result.ok === false before break",
-      "Two distinct is failures (idx:153/Ei and idx:107/braun) prove non-object-specific systemic gap"
-    ],
-    "hypothesis": "Luna occasionally omits one canonical ID per large batch; without missing-only retry the whole scope fails and stats are lost",
-    "unrelated": [
-      "test:phase1-luna-infra-repair ENOENT on stale phase1 checkpoint fixture in snapshot (pre-existing env gap)"
-    ]
+  "repairV1Sha": "124e7b70383695c5a6b72ab6d394400d576faecf",
+  "blockersFixed": {
+    "R_IS_001": {
+      "issue": "Duplicate canonical ID first item was accepted; duplicate not retried",
+      "fix": "Frequency-based acceptance (count===1 only); duplicates rejected entirely and added to unresolved retry set; persistent duplicate → BLOCKED_DUPLICATE_CANONICAL_ID"
+    },
+    "R_IS_002": {
+      "issue": "Transport catch path did not enqueue subBatch for retry; pending emptied incorrectly",
+      "fix": "Transient transport errors enqueue unresolved subBatch; validated items preserved; retries counted per additional transport call"
+    },
+    "R_IS_003": {
+      "issue": "All expected IDs present + extra unexpected ID could silently PASS",
+      "fix": "Immediate fail-closed BLOCKED_UNEXPECTED_CANONICAL_ID with diagnostics"
+    }
   },
   "repair": {
     "optInFlag": "missingCanonicalIdRetry",
@@ -25,28 +26,44 @@
     "defaultBehaviorUnchanged": true,
     "positionalMappingUsed": false,
     "fuzzyMappingUsed": false,
+    "exactIdOnly": true,
     "missingOnlyRetry": true,
     "retryLimit": 3,
-    "failClosedCode": "BLOCKED_MISSING_CANONICAL_ID",
-    "diagnosticsDir": "/tmp/cursor/artifacts/g2-a1-phase3-id-recovery/"
+    "failClosedCodes": [
+      "BLOCKED_MISSING_CANONICAL_ID",
+      "BLOCKED_DUPLICATE_CANONICAL_ID",
+      "BLOCKED_UNEXPECTED_CANONICAL_ID"
+    ],
+    "diagnosticsDir": "/tmp/cursor/artifacts/g2-a1-phase3-id-recovery/",
+    "returnedItemCount": "raw response items.length (includes duplicate/unexpected/no-id)"
+  },
+  "proofs": {
+    "transientError": { "calls": 2, "retries": 1, "result": "PASS" },
+    "persistentError": { "calls": 3, "retries": 2, "result": "BLOCKED", "fourthCall": false },
+    "duplicateRetry": "duplicate expected ID retried; exactly one final item",
+    "unexpectedExtra": "BLOCKED_UNEXPECTED_CANONICAL_ID when all expected present + extra ID",
+    "currentFailuresVsHistory": "lunaStats.failures current-run only; failureHistory preserved separately; coverage gate uses failures.length===0"
   },
   "tests": {
     "mockMatrix": "scripts/test-g2-a1-phase3-missing-id-retry.js",
-    "mockMatrixResult": "57/57 PASS",
+    "mockMatrixResult": "91/91 PASS",
     "regression": {
       "test:phase1-luna-id-recovery": "44/44 PASS",
       "test:phase1-luna-timeout-001": "53/53 PASS",
       "test-phase1-real-transport-id-recovery-diagnostics": "42/42 PASS",
       "test:phase1-luna-checkpoint-resume": "94 assertions PASS",
       "test:phase1-real-luna-transport": "PASS",
-      "test:phase1-luna-ckpt-004": "26/26 PASS"
+      "test:phase1-luna-ckpt-004": "26/26 PASS",
+      "test:phase1-luna-infra-repair": {
+        "status": "ENOENT",
+        "missingFixture": "reports/temp/phase1-luna-runs/phase1-2026-08-30T08-56-50-163Z-a8e1dec1/checkpoints/g2_a1_et/batch-0-42782e520ea0bf40.json",
+        "changedInThisPr": false,
+        "note": "Fixture is runtime-generated phase1 checkpoint data; not present in cloud snapshot; scripts/test-phase1-luna-infra-repair.js unchanged since repair v1"
+      }
     }
   },
   "newRealLunaCalls": 0,
   "productionDiff": 0,
   "deDiff": 0,
-  "resumeCommand": "npm run phase3:g2-a1:resume",
-  "resumeCommandArgv": ["--with-luna"],
-  "freshLunaNotUsedInRepair": true,
-  "nextStep": "OWNER_REVIEW_OF_TARGETED_IS_FAILURE_REPAIR"
+  "nextStep": "OWNER_REVIEW_OF_REPAIR_V2"
 }
