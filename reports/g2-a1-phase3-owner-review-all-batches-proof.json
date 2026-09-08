@@ -40,7 +40,9 @@
   "preRepairFieldNotFound": 5199,
   "preRepairTargetNotFound": 367,
   "ownerStatuses": [
-    "PENDING"
+    "DECIDED",
+    "PENDING",
+    "PARTIAL"
   ],
   "automaticOwnerDecisions": 0,
   "targetLanguageBacklogPreserved": 29,
@@ -70,6 +72,15 @@
   },
   "checkpointShaBefore": "436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691",
   "checkpointShaAfter": "436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691",
-  "nextStep": "OWNER_PARALLEL_REVIEW_ALL_REMAINING_BATCHES",
-  "outputHash": "0d3b8fbb1aeed3a694c2301194d950a1034b91f2f376aca7a6a9b6f46588c1bb"
+  "nextStep": "OWNER_REVIEW_7737_ESCALATIONS_OR_SEPARATE_APPLY_AUTHORIZATION",
+  "outputHash": "0d3b8fbb1aeed3a694c2301194d950a1034b91f2f376aca7a6a9b6f46588c1bb",
+  "ownerReviewIngest": {
+    "classification": "G2_A1_OWNER_REVIEW_ALL_REMAINING_INGEST_READY",
+    "decided": 14913,
+    "pending": 7737,
+    "labot": 1476,
+    "nelabot": 13437,
+    "ingestProofSha256": "6dfad2501971d1a5bfff9936b74b5e6840a4be4025dd73f77457d68f6bdffa1a",
+    "outputHash": "3b4a60aaee698c37a8ad3256704402ea4a200d510bbc240aeebb5d050aed674f"
+  }
 }

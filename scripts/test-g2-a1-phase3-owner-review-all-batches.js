@@ -27,6 +27,7 @@ const OUT_DIR = path.join(ROOT, "reports/g2-a1-phase3-owner-review-all-batches")
 const OUT_INDEX = path.join(ROOT, "reports/g2-a1-phase3-owner-review-all-batches-index.json");
 const OUT_CONSOLIDATED = path.join(ROOT, "reports/g2-a1-phase3-owner-review-all-batches-consolidated.csv");
 const OUT_PROOF = path.join(ROOT, "reports/g2-a1-phase3-owner-review-all-batches-proof.json");
+const OUT_INGEST_PROOF = path.join(ROOT, "reports/g2-a1-phase3-owner-review-all-remaining-ingest-proof.json");
 const OUT_TARGET_BACKLOG = path.join(
   ROOT,
   "reports/g2-a1-phase3-owner-review-batch-001-target-language-backlog.json",
@@ -88,14 +89,43 @@ function testCoverageAndAssignments() {
   assert(proof.firstGeneratedBatch === "BATCH-002", "first batch 002");
   assert(proof.lastGeneratedBatch === "BATCH-233", "last batch 233");
 
+  const ingestProof = fs.existsSync(OUT_INGEST_PROOF)
+    ? JSON.parse(fs.readFileSync(OUT_INGEST_PROOF, "utf8"))
+    : null;
+  const ingested = ingestProof?.classification === "G2_A1_OWNER_REVIEW_ALL_REMAINING_INGEST_READY";
+  let decided = 0;
+  let pending = 0;
+  let labot = 0;
+  let nelabot = 0;
+
   for (const row of consolidated.rows) {
     assert(!batch001Ids.has(row.finding_stable_id), `batch001 id not repeated ${row.finding_stable_id}`);
     if (assigned.has(row.finding_stable_id)) {
       assert(false, `duplicate assignment ${row.finding_stable_id}`);
     }
     assigned.set(row.finding_stable_id, row.batch_id);
-    assert(row.owner_status === "PENDING", `owner pending ${row.finding_stable_id}`);
-    assert(row.owner_decision === "" && row.owner_new === "" && row.owner_note === "", "owner fields blank");
+    if (ingested) {
+      if (row.owner_status === "DECIDED") {
+        decided += 1;
+        assert(row.owner_decision === "LABOT" || row.owner_decision === "NELABOT", `decided decision ${row.finding_stable_id}`);
+        assert(row.owner_note, `decided note ${row.finding_stable_id}`);
+        if (row.owner_decision === "LABOT") {
+          labot += 1;
+          assert(row.owner_new, `labot owner_new ${row.finding_stable_id}`);
+        } else {
+          nelabot += 1;
+          assert(row.owner_new === "", `nelabot owner_new blank ${row.finding_stable_id}`);
+        }
+      } else {
+        pending += 1;
+        assert(row.owner_status === "PENDING", `owner pending ${row.finding_stable_id}`);
+        assert(row.owner_decision === "" && row.owner_new === "", `pending decision/new blank ${row.finding_stable_id}`);
+        assert(row.owner_note.includes("OWNER_REVIEW_REQUIRED"), `pending escalation note ${row.finding_stable_id}`);
+      }
+    } else {
+      assert(row.owner_status === "PENDING", `owner pending ${row.finding_stable_id}`);
+      assert(row.owner_decision === "" && row.owner_new === "" && row.owner_note === "", "owner fields blank");
+    }
     assert(POST_CROWDIN_STATES.has(row.post_crowdin_state), `valid post state ${row.post_crowdin_state}`);
     assert(MAPPING_RESOLUTIONS.has(row.mapping_resolution), `valid mapping resolution ${row.finding_stable_id}`);
     assert(row.post_crowdin_state !== "FIELD_NOT_FOUND" && row.post_crowdin_state !== "TARGET_NOT_FOUND", "no mapping failures");
@@ -116,7 +146,7 @@ function testCoverageAndAssignments() {
     assert(entry.findingCount === manifestBatch.findingCount, `finding count ${entry.batchId}`);
     assert(fs.existsSync(path.join(ROOT, entry.file)), `file exists ${entry.file}`);
     assert(entry.sha256 === sha256File(entry.file), `sha256 ${entry.file}`);
-    assert(entry.status === "PENDING", `status pending ${entry.batchId}`);
+    assert(entry.status === "DECIDED" || entry.status === "PENDING" || entry.status === "PARTIAL", `status valid ${entry.batchId}`);
 
     const batchCsv = loadCsv(path.join(ROOT, entry.file));
     assert(batchCsv.rows.length === entry.decisionTargetCount, `batch csv dt ${entry.batchId}`);
@@ -131,6 +161,12 @@ function testCoverageAndAssignments() {
   }
   assert(consolidatedFromBatches === 22650, "batch sum matches consolidated");
   assert(assigned.size === 22650, "all remaining assigned once");
+  if (ingested) {
+    assert(decided === 14913, "decided 14913");
+    assert(pending === 7737, "pending 7737");
+    assert(labot === 1476, "labot 1476");
+    assert(nelabot === 13437, "nelabot 13437");
+  }
 }
 
 function testImmutableArtifacts() {

@@ -4,7 +4,7 @@
     {
       "batchId": "BATCH-002",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-002.csv",
-      "sha256": "f497ce8d0d08dc150eb9cd85e9a0648d5d0e7d107edafac918f93cb5889deff2",
+      "sha256": "791f9bdbdc7b6d41c4c682b1bef5b5fe95f0ec6b5e0b51c4874f014ef15c3324",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -39,12 +39,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Land|idx:351|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|müssen|idx:423|lv, study|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-003",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-003.csv",
-      "sha256": "c0c543c4ff4596dec00fba418c4ea233e7aca65af0706e2707fd2adc1ef57202",
+      "sha256": "046b54a3f51abae6d6a44a0c4aa9280057ca96ae004918cfd24efa267df9526b",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -79,12 +79,12 @@
       "findingCount": 92,
       "firstStableId": "g2/a1/bg|Spielzeug|idx:573|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|sechste|idx:534|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-004",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-004.csv",
-      "sha256": "8563b6668ddaeec0d29e3e43a25170bc90d936c79180aa23960d732be484733e",
+      "sha256": "2172e9d47578247eaaca6021c14eb323cc77a4af15dcb0fd47fca83cb629f2c6",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -121,12 +121,12 @@
       "findingCount": 97,
       "firstStableId": "g2/a1/bg|Boot|idx:105|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zweimal|idx:681|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-005",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-005.csv",
-      "sha256": "14045064886309402f9afe568dba911dcfcc2dc2995e0a3e3efaee39ed11b99d",
+      "sha256": "9b7d73bdb0cd0594a3f0d1604e025c7eac27e83c7108721722e342e0a98e33a0",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -162,12 +162,12 @@
       "findingCount": 97,
       "firstStableId": "g2/a1/bg|Brief|idx:109|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|Wald|idx:638|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-006",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-006.csv",
-      "sha256": "215189f83a1ea04692f697fbecab81d9e97948a5a5494db0cb88ac569936e375",
+      "sha256": "e045166fe0e51a7914403b6e8f508b62a03a06b6d33ae270ab7f3ed7bf539aaf",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -202,12 +202,12 @@
       "findingCount": 96,
       "firstStableId": "g2/a1/bg|Büro|idx:118|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|fünf|idx:209|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-007",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-007.csv",
-      "sha256": "5a54dfc5916a49909db05dc51dc5c552c9ba03fd437fa9caf7d7aa7d3a3674ae",
+      "sha256": "5471ca9af14619fd5e037d42996b1bef0f9c5eef7ec12d61fae1c868ef4071be",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -237,12 +237,12 @@
       "findingCount": 95,
       "firstStableId": "g2/a1/bg|Blume|idx:104|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zwölf|idx:685|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-008",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-008.csv",
-      "sha256": "4e86dfa3e565f3f2cef44ee927e07eb401ab6861eb8257a1bc9f5c6674cc188d",
+      "sha256": "90a01dd09d9791bed1703712241b6544e2068f7a3edefed2edb356b8440ea843",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -278,12 +278,12 @@
       "findingCount": 94,
       "firstStableId": "g2/a1/bg|gern|idx:232|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|siebente|idx:552|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-009",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-009.csv",
-      "sha256": "3d493ef1c82ae8986f273f5ec1de8348d1002d2746e1445ebfc116fc53479363",
+      "sha256": "cfa9a1f260c144166f7ab5c44ccd9ae710c8c9f5580a865ba3e44ac6284734b8",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -319,12 +319,12 @@
       "findingCount": 96,
       "firstStableId": "g2/a1/bg|Sonne|idx:567|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|wann|idx:640|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-010",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-010.csv",
-      "sha256": "cf36db3ca740acfdf741087b72c0d50d2bfee872395eb100f6b5a18354557c58",
+      "sha256": "ff6d11614e38416fa1dd6065fddf1368608bedc560628dc944ba5bac71a73095",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -359,12 +359,12 @@
       "findingCount": 92,
       "firstStableId": "g2/a1/bg|Essen|idx:691|lv, study.translation, study.explanation, study.examples.lv, study.tip, study.important|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|sechs|idx:532|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-011",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-011.csv",
-      "sha256": "99c25df85b8cfcbd15a0253a251785dc1edfd0607285181fdd167ba0fb9c00d5",
+      "sha256": "24cb06f8ef96154b2bc36e89251a0c9f1eeaba572918fce41b853bd8cdf446e3",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -398,12 +398,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Butterbrot|idx:112|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|schwarz|idx:528|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-012",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-012.csv",
-      "sha256": "4bd3bf8bc9801e6bfef11cb5a560a47c02b99ff46fc5f24310a9aa62ff3e254b",
+      "sha256": "353ae6aa64743bbcdb65798b71c25c7b466f4783e9ab3eec9b088a60cc111711",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -438,12 +438,12 @@
       "findingCount": 97,
       "firstStableId": "g2/a1/bg|Laden|idx:349|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zumachen|idx:673|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-013",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-013.csv",
-      "sha256": "451ee0bd148c4964671d32cfcac1289c2227827f27afc77efacda422a192d48c",
+      "sha256": "040a0dca0a979318b3cc538986a36d0bdad38f7caed2de7a1fbe06d4bf53fbd8",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -477,12 +477,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Blatt|idx:99|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|müde|idx:420|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-014",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-014.csv",
-      "sha256": "18473a3eaa6ebac5fc423c51fb5b00573b4c18c0bd4a49d27b29a8341451af3d",
+      "sha256": "5a0d5cad28832e963dafe90e32a56d2a87247cf0f82010ea682b47a548eec64b",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -518,12 +518,12 @@
       "findingCount": 97,
       "firstStableId": "g2/a1/bg|fünfzehnte|idx:213|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|wenig|idx:654|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-015",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-015.csv",
-      "sha256": "6355c89238d78704085b87846ee6da7cdb206242487114c77c1be540ad630bbd",
+      "sha256": "44eb63bf891ea4225618b5cd511aca195f8da330f6c37c380bde1c360e2f77ee",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -560,12 +560,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|gestern|idx:236|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|stark|idx:575|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-016",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-016.csv",
-      "sha256": "5edc82c3db61ef004cdcc36b0a3cdad3d7e1326c4b3992f9a56363052bd22400",
+      "sha256": "47d4307812496bf97b7759b40b19d0bb9c5e2907f54e0806d821fb75580b6f93",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -601,12 +601,12 @@
       "findingCount": 95,
       "firstStableId": "g2/a1/bg|Stück|idx:580|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zweite|idx:682|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-017",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-017.csv",
-      "sha256": "ffdb07088a66d186c910c2921ba2360c338c9807423b32ea49b0ada3cbdbd814",
+      "sha256": "ea0858ad07bdfe04c1241ab260dee69907376e8a54f80db58aa1e54c1e41dc14",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -643,12 +643,12 @@
       "findingCount": 95,
       "firstStableId": "g2/a1/bg|gesund|idx:237|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|weiß|idx:651|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-018",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-018.csv",
-      "sha256": "a0377cfa4164efd25edb91dfcc94e10524e8e78b30a1f70715eeb5b50ac6706c",
+      "sha256": "af2c8ec7e911a0aa37a5d74ca591300fc54ad4f7bda8646e230da100473ac6a3",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -684,12 +684,12 @@
       "findingCount": 99,
       "firstStableId": "g2/a1/bg|Garage|idx:220|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zwölfte|idx:686|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-019",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-019.csv",
-      "sha256": "48257b34b2a71bb58482694f067a7d239849fa0970ab87d91143731709f1c4aa",
+      "sha256": "d9e3c528e5770475b489ef1f8f2ffada197ded1ac4d6cb4aa2e305d643c4af28",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -722,12 +722,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Brille|idx:110|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|so|idx:559|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-020",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-020.csv",
-      "sha256": "7f3ede094c4967e7b03badffaf0e75663c0c36ecdb8f6eb2110810b669e99352",
+      "sha256": "7607c5b9739fdf8d2c64020177fb8de43f9def765116ebbc7849c7a6a3004c37",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -760,12 +760,12 @@
       "findingCount": 94,
       "firstStableId": "g2/a1/bg|blau|idx:100|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|wieder|idx:661|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-021",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-021.csv",
-      "sha256": "72e91c60379900bc5fe1ea36cfe9ca41e6056d3a4302c158a54b89be988d7daf",
+      "sha256": "70eebb9e28c4186d8de8937f4953ef71eccbe5fd2bfc19785911a25241986179",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -801,12 +801,12 @@
       "findingCount": 95,
       "firstStableId": "g2/a1/bg|Straßenbahn|idx:579|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|wichtig|idx:659|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-022",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-022.csv",
-      "sha256": "3570d7943fed31526f96200f1a39f8c006709e2eb11eec7c6921777942aee45a",
+      "sha256": "49c87e0c26e89636248f6d4f2bf688d900cc8c9fbb4ea891a3256a1e70ac6a3d",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -841,12 +841,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|aber|idx:21|lv, study|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zwei|idx:679|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-023",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-023.csv",
-      "sha256": "4dbcd6c36c3f06b9668dbd4a0d6aa3b932c7dfa129ec45c996729d04f544c672",
+      "sha256": "3830800e80a0ee4e67022987487a70a6f060f1e03f5802e51ce8bb6f55f61912",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -881,12 +881,12 @@
       "findingCount": 94,
       "firstStableId": "g2/a1/bg|Weihnachten|idx:648|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zwanzigste|idx:678|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-024",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-024.csv",
-      "sha256": "8d83c8a9ba6f3964bfd36ff90a49bd721ba0191656d02df815f937f461ffc5b2",
+      "sha256": "3b7f3d50ada543904606d21becc362b8c4436948fb9b3b6f307e3e9af35c7370",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -920,12 +920,12 @@
       "findingCount": 98,
       "firstStableId": "g2/a1/bg|Bleistift|idx:102|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|gegen|idx:226|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-025",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-025.csv",
-      "sha256": "4aba663386e69dfae8f1d239f9fd8031afa87a05f265dc704d4a412dfb1a2374",
+      "sha256": "f7f39dc3f770ad11518436cf04598e469eb2bc960afeb8c60671649c912e7783",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -958,12 +958,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Brücke|idx:114|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|natürlich|idx:433|lv, study|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-026",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-026.csv",
-      "sha256": "0ff30d9933c27126b6b3971b12f49d16b0eee2af903816fe0f18996ec29c81f1",
+      "sha256": "42d8ee9867c0887fb7de2e3e7322cce8a5a60210d5c3d30565d2fc1808e98ad8",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -994,12 +994,12 @@
       "findingCount": 93,
       "firstStableId": "g2/a1/bg|Bier|idx:96|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zu viel|idx:676|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-027",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-027.csv",
-      "sha256": "9c0f063899fbafc27a47ca7d0a61db40bf17f625ca929028ca523c2eefbcbb5d",
+      "sha256": "6951ce2554f627406921fcb674cc75215cf83a78d75dd824cc0c5b86814c717f",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1034,12 +1034,12 @@
       "findingCount": 93,
       "firstStableId": "g2/a1/bg|Ferien|idx:694|lv, study.translation, study.explanation, study.examples.lv, study.comparison, study.tip, study.important|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|nach|idx:426|lv, study, sectionAccents|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-028",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-028.csv",
-      "sha256": "b4cefd3d2d5315551f323ace520f56ebe398672033cbc4fe1c5527b1442eb890",
+      "sha256": "a01a5ee5cb934eca34871c8fcf5c7732073a9d49b3bc9a2046d9eb35d071ec08",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1076,12 +1076,12 @@
       "findingCount": 92,
       "firstStableId": "g2/a1/bg|Gesicht|idx:235|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zusammen|idx:675|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-029",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-029.csv",
-      "sha256": "86c2320273b69c561d8a52414edcc20889d1645db5a77503c52e0c9d5ef83a8b",
+      "sha256": "dacc9e3ac2bbc96381afbc07d39815af42cb146cbb1171239c548e37f7e073b0",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1116,12 +1116,12 @@
       "findingCount": 93,
       "firstStableId": "g2/a1/bg|Wand|idx:639|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|schön|idx:522|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-030",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-030.csv",
-      "sha256": "f0633fbc1eff62f19a706c45a00c066735f3d8b3228ce22bee0945cb5c382376",
+      "sha256": "7aa3c88c76e942eff94237543104676fe574c6352da13330f517d9d6eb0701bd",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1159,12 +1159,12 @@
       "findingCount": 93,
       "firstStableId": "g2/a1/bg|Besucher|idx:88|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|fünfzig|idx:214|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-031",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-031.csv",
-      "sha256": "72c0dffa5651dd112761dc7b08ca0df03afd8adac861d9850df86beb9c9eef97",
+      "sha256": "cb7bf6240e12e06824fa6aad72b1f915160541369c73745ec28289f6b1aa244f",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1199,12 +1199,12 @@
       "findingCount": 99,
       "firstStableId": "g2/a1/bg|Geld|idx:229|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zwanzig|idx:677|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-032",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-032.csv",
-      "sha256": "77db788c92d8af4d43324f74816c88795c7ee509753b3db972a3b2a51355a2bc",
+      "sha256": "4afdf5dfdfd3eac32b65bc41bb9b4633028f2cc4f8631f4ae7a34e93efec9297",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1239,12 +1239,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|siebzigste|idx:556|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zweihundert|idx:680|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-033",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-033.csv",
-      "sha256": "fc71941d3e7a5ebf8d167d75685bccad6eb9738264d0ad3f1335c38d50eed780",
+      "sha256": "acb11edb4f24f966ec60df9a66f0a35ac2b42f9d219dec59b401c214e2d382d6",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1277,12 +1277,12 @@
       "findingCount": 99,
       "firstStableId": "g2/a1/bg|siebzehn|idx:553|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|siebzehn|idx:553|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-034",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-034.csv",
-      "sha256": "84cb0ec35cbbd1bfdd4d6fdf62f218279611b4ad911bb0bd94bf8a52b6303101",
+      "sha256": "7e60168687dc191298985f5af9c57a63cba4dee588ab78e209b9319d2eaddd02",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1314,12 +1314,12 @@
       "findingCount": 95,
       "firstStableId": "g2/a1/bg|Urlaub|idx:695|lv, study.translation, study.explanation, study.examples.lv, study.comparison, study.tip, study.important|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|sehr|idx:540|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-035",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-035.csv",
-      "sha256": "a790f539f96cb7c1eb5bf14b84e984ca923f02daa55688d8421278d1067a5785",
+      "sha256": "1b0e0f928e1a79036f0b9bbbe6e45017bc6b52ff2ae5b167d7067787f60a1327",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1353,12 +1353,12 @@
       "findingCount": 97,
       "firstStableId": "g2/a1/bs|Anzug|idx:37|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zum|idx:672|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-036",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-036.csv",
-      "sha256": "7d742c8d1732d33ea83e5e02a7527ed82e673e27cc8ad73ae9de99dc6a14b412",
+      "sha256": "12617881a5a7c4271c15d83014b2ad869ac12249ff81db049f43f6ab0924e8d1",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1391,12 +1391,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bs|Apfelsine|idx:39|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|achten|idx:22|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-037",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-037.csv",
-      "sha256": "df7915f5e48b2c0935a296c86802ee93d16e13e529fe2cabe010e0d6161e7a13",
+      "sha256": "b61ff2a6ba3a711c496703a4125b918db7a649dc63d314d0e6ac453665d0448f",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1431,12 +1431,12 @@
       "findingCount": 96,
       "firstStableId": "g2/a1/bg|Garten|idx:221|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|sechzig|idx:537|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-038",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-038.csv",
-      "sha256": "de7dee1d515f2cb8986ea96aa4d660e07f2ad2752859ebed6d280e8f88fb9f2c",
+      "sha256": "2ed368787dedc0f622311e68fc56d5c48a25d164a02155ccd4260678cb6e8c91",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1472,12 +1472,12 @@
       "findingCount": 98,
       "firstStableId": "g2/a1/bg|Samstag|idx:566|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|Sprache|idx:574|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-039",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-039.csv",
-      "sha256": "3737577b034a9d9c879c77ef84c5f3f9b123fb2964ff52f1aa9c8e550f4e96ff",
+      "sha256": "1717587e50f541633bc596f16707be68ea5fc25bf7667c5c0c9a117d8eb75dda",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1514,12 +1514,12 @@
       "findingCount": 95,
       "firstStableId": "g2/a1/bg|Reis|idx:496|lv and study LV content|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|brauchen|idx:106|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-040",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-040.csv",
-      "sha256": "acc1405f312cd6649f722c99c3085c565e43b3f08434cdea4bbba531895c24c5",
+      "sha256": "58dbd1c54f42c702ea01336eceea77149508719e797bffd6c2d034624b79c13f",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1551,12 +1551,12 @@
       "findingCount": 97,
       "firstStableId": "g2/a1/bg|Besuch|idx:87|lv, study.*|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|ankommen|idx:28|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-041",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-041.csv",
-      "sha256": "71426d804e913750d1693fb210768290804ef5dfd71a1b974c9f04fbe8eb0d23",
+      "sha256": "2b5b65b834b779f9727d83e11863420c1885d5ffb6095eb6e4961728bbfbf421",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1593,12 +1593,12 @@
       "findingCount": 99,
       "firstStableId": "g2/a1/bg|Zitrone|idx:666|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|warum|idx:643|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-042",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-042.csv",
-      "sha256": "35cd7f5b539a2752ce7f4acaf61b1288c0ed6cb1ec7d7a0dd68d695d08a18e9a",
+      "sha256": "b16c01d75d69fb7ebd33ff49ce643a5255ba267373f63289341ce905e4e2a70e",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1633,12 +1633,12 @@
       "findingCount": 95,
       "firstStableId": "g2/a1/bg|fünfhundert|idx:210|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|fünfhundert|idx:210|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-043",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-043.csv",
-      "sha256": "aee2940ce6141bf12e96bd83d52402e002bb6069070715d821d987287275e855",
+      "sha256": "389c66df8812cd6a8346e93c641c9750b157dddf277ab5a6aeda977c2e2528cf",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1673,12 +1673,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Obst|idx:693|lv, study.translation, study.explanation, study.examples.lv, study.tip, study.important|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|waschen|idx:645|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-044",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-044.csv",
-      "sha256": "0c41b1b7eab80bd69053320b4cec253d5c0e8cdd5a7ec87bf385449a025de1d4",
+      "sha256": "f3d1308b0574e57362c26df8031f6ae74b2f9bf0b050c63db50a01c6e3201fbc",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1715,12 +1715,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Hand|idx:267|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|weinen|idx:650|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-045",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-045.csv",
-      "sha256": "7aa6b8eed10553487c4004146ff5c4c8fd906d2ab2d7924574feac5e53b7b0c8",
+      "sha256": "a5d7bd7f624b3da37a575def98cda6641e2691742d707c631ee8871a761de929",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1756,12 +1756,12 @@
       "findingCount": 96,
       "firstStableId": "g2/a1/bg|fünfte|idx:211|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|putzen|idx:487|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-046",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-046.csv",
-      "sha256": "437d44d60ac75e39996e830b308072d9b8e70ba13182781c7bad599b103168b6",
+      "sha256": "155bb1d4e9223aaa1d45afde57aebf3db4462f3b709643193f3ac7c31c59f22b",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1794,12 +1794,12 @@
       "findingCount": 97,
       "firstStableId": "g2/a1/bg|Buch|idx:116|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|Mutter|idx:424|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-047",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-047.csv",
-      "sha256": "4715328661a7d2afcf6ca55adf4b24a8da41a4e90c8dd9fdeb568fff2d7745fe",
+      "sha256": "a611020ba27ea46fc09c4b6b7a22bb0bc1431b4ebc0dc209b88b65a92137fa2c",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1832,12 +1832,12 @@
       "findingCount": 96,
       "firstStableId": "g2/a1/bg|Bruder|idx:115|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zwischen|idx:684|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-048",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-048.csv",
-      "sha256": "3938091f9e1742ec1ed974daf57c9bdb81c4c954319bcd72f7ecd97726f96d1c",
+      "sha256": "9df19b05d2960323882ea48ca219507f0d16af74cceb90ad6b99ddb67acb6816",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1873,12 +1873,12 @@
       "findingCount": 99,
       "firstStableId": "g2/a1/bg|Bett|idx:90|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|sehen|idx:539|lv/study.examples|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-049",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-049.csv",
-      "sha256": "795a852b25667b60fd6c2ed56b9e194fcb2d9432a0ec771f3d9674a5819b1ebb",
+      "sha256": "eb813f0360090c8194dd601744cec4a71eedcc9f4444382403132a3979d5a841",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1914,12 +1914,12 @@
       "findingCount": 90,
       "firstStableId": "g2/a1/bg|Bild|idx:97|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|warten|idx:642|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-050",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-050.csv",
-      "sha256": "b8caf950b2602b8c680afd1c3cc2438a0d5d9c89e0e648fc7e9bf9ae47c457e0",
+      "sha256": "7ac067a2846a6bc055d761d155efcab24f2e4cb8a3fb126d32215bceb04e65c2",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1956,12 +1956,12 @@
       "findingCount": 96,
       "firstStableId": "g2/a1/bg|Zwiebel|idx:683|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|Zwiebel|idx:683|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-051",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-051.csv",
-      "sha256": "a98be653b827e2ddcd0946ced7c661bb3d8554ad6853faf04b264fb929f6b4b0",
+      "sha256": "605577cd8f2a8435c21f4a5e9ba6995c7fe3512e0668c8d13b8cd25ec94a582f",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -1995,12 +1995,12 @@
       "findingCount": 90,
       "firstStableId": "g2/a1/bg|Gesundheit|idx:238|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|warm|idx:641|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-052",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-052.csv",
-      "sha256": "83da1f09ee2df2791270c9fc68867cf013776315a3324ad6fec75d7f5180ca52",
+      "sha256": "0a75f4109dafebdc4a25341acc7be5ad6feedad65fd81de57db041fa6bd4ee74",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -2038,12 +2038,12 @@
       "findingCount": 95,
       "firstStableId": "g2/a1/bg|braun|idx:107|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|gefallen|idx:225|lv, study|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-053",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-053.csv",
-      "sha256": "3a3bbfcc8cd5408baee318fab42ea69a788537400b654a82ead0508ed5e286c4",
+      "sha256": "5fac172688cc719267e9fa46e6b1498f083622f8c1f53fafbe489efa6de5c480",
       "reviewTrack": "SOURCE_LV_REVIEW",
       "canonicalBucket": "SOURCE_LV_REVIEW_REQUIRED",
       "languages": [
@@ -2075,12 +2075,12 @@
       "findingCount": 37,
       "firstStableId": "g2/a1/bg|blond|idx:103|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|zuerst|idx:670|lv|SOURCE_LV_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-054",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-054.csv",
-      "sha256": "70ee7e441a8dac5081e09387f6f7d3f3415703e290d1d12763b208a9bb5e2fd0",
+      "sha256": "79808895665b3db6de8029e6c056c900e643a2a17bacff2f41530fd80c8bcbe4",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2091,12 +2091,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Abendessen|idx:19|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/bg|über|idx:608|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-055",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-055.csv",
-      "sha256": "27402ac2cd2a3184283c46a6100ce8762264c1c4aa2e1ffc4152ff60e7b7349c",
+      "sha256": "144ed26956ef3e0d7c744587e8aaa43ce836763f2e35b590c54e49cf824c4101",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2107,12 +2107,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Alter|idx:11|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/bg|überall|idx:609|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-056",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-056.csv",
-      "sha256": "7b8602a7179d6e33e724f87a3d59ea31ed954e4e6fa64797dbfce3d484957751",
+      "sha256": "bc35af26b5282ae10ab49c3e988cfd899d0ebdc4e18e67582b15546ae8ed431f",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2124,12 +2124,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Abend|idx:18|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/bs|wissen|idx:311|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-057",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-057.csv",
-      "sha256": "283b6993d853b0181332d9fd0dfa61a0e4d5240e9b1f8491c91d682ecde48600",
+      "sha256": "0f084a36f6a3c6c9a29538c39ffd26ccb04609d00f7c157b90eceefbbf7bf237",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2140,12 +2140,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bs|Ameise|idx:27|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/bs|zu|idx:668|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-058",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-058.csv",
-      "sha256": "aa33af258819c2327f7c872f1dfceda1b9ba9eeacd77ab1f53fbfffaa875a56c",
+      "sha256": "87ac18f94aceeaae9e9ae0235505de3ed168b9ff3c78ef9ff65d8ba9335c72ae",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2156,12 +2156,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bs|Abendessen|idx:19|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/bs|wie|idx:660|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-059",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-059.csv",
-      "sha256": "22a93a93f97981edce962bbc55cc320399f75d985828b3577beb18b2849547b0",
+      "sha256": "fb82e414a4c2c4d8ca7521d10bf104d0c342dcfdfc8e155d91f0e9a99d8417d4",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2173,12 +2173,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bs|Butter|idx:120|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/cs|zwischen|idx:684|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-060",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-060.csv",
-      "sha256": "10eca371195b429b8f9d3533477b8a28f1f432abd77de8dfb8034fd6f79618e2",
+      "sha256": "bf3ca76093135fc01f4a83ff55dd087b289529255ae96241aa090caeac4c0d10",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2189,12 +2189,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/cs|Alter|idx:11|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/cs|Ärztin|idx:46|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-061",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-061.csv",
-      "sha256": "1dbb791a464ef8b1ab6db9e69292d7344476000cf4c8b04f101b32287f26e8cc",
+      "sha256": "bb073807d346d8c7d41002a0dca442a7a6c4cb9f4115d3a1c8ce83bf78085975",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2205,12 +2205,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/cs|Anfang|idx:13|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/cs|zweimal|idx:681|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-062",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-062.csv",
-      "sha256": "07ae704ba3a4494a00c527ff194bddac1b3a5e3c8dc837790e1fa4302ea2230f",
+      "sha256": "d52d686b0479b29e0da2ed97216b4e0b29c0dd2f1f7554672c8defad27b4c165",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2221,12 +2221,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/cs|Abend|idx:18|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/cs|zwölf|idx:685|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-063",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-063.csv",
-      "sha256": "c97cc4088f43be65e92721dda6574854e5200bb2d314a457deee17a20e063bb7",
+      "sha256": "0b81c84bcf42a7ba941588d3d6df2a459a532d2f14a301767561f1f89107b656",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2238,12 +2238,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/cs|Adresse|idx:23|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/da|öffnen|idx:460|lv|TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-064",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-064.csv",
-      "sha256": "5936d57e1b2a867b80b11fb97a477626db71175df2869222395bbfb9db88d846",
+      "sha256": "ee1dba56e0a878440fee5b104071d6b4bc88a57810b23d624d058fefe0644e8f",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2254,12 +2254,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/da|Apfel|idx:0|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/da|übermorgen|idx:610|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-065",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-065.csv",
-      "sha256": "74881c2910dd0525aa9a2a1cd5463946e862b0626efb3f5ac6ac867eb6b589eb",
+      "sha256": "7f6383eeb6fd05a0aa90616165e37f2731d41f679b7727ec7f3aa21b6ca1224b",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2270,12 +2270,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/da|Affe|idx:24|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/da|überall|idx:609|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-066",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-066.csv",
-      "sha256": "f6482baa26b4a59271a4a35778865fa0d180acea5ea53f1fc3380d7b16508cc6",
+      "sha256": "ee50c44c52cb8389b91c2d622095e11ae1b06e95254b0e500402f2cf0bf9c631",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2286,12 +2286,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/da|Abendessen|idx:19|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/da|wieder|idx:661|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-067",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-067.csv",
-      "sha256": "09ee50012d0c916bfb718e4a5070e9213693ca3787837e4f143d7a04823783b5",
+      "sha256": "b5c7518239208e5f4cc12803c7657f98f02b2d9559e3ddc986d9c0be33cb9d22",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2303,12 +2303,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/da|Abend|idx:18|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/en|öffnen|idx:460|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-068",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-068.csv",
-      "sha256": "6db3f21ca5c8e93483deb39d84dca38047fae69d354bce7ae7a9d504bd375004",
+      "sha256": "b5757f992dc765d3cfa89f4e0f115e3a0b0a7891b275ef89503440996d7cc5ce",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2319,12 +2319,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/en|Angst|idx:32|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/en|zwölfte|idx:686|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-069",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-069.csv",
-      "sha256": "a4f5972f9167e27c7842f61515e9c81e6de67a4d4697280e9b1d550e09fc131b",
+      "sha256": "3bdc7277b4bebbca01d85910f6adcf2f989f5da02c9a5537015a09d47ce5e1a9",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2336,12 +2336,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/en|Antenne|idx:34|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/es|vierzigste|idx:631|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-070",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-070.csv",
-      "sha256": "a73909e3ffc203b9d54acfc69cd7540cc72040ec682c8160d369b00e98a16513",
+      "sha256": "82fafbe004131a316fa5be0123b38a242ea2c7b1b2c4ce4ec267653ddab1a8fb",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2352,12 +2352,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/es|Abendessen|idx:19|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/es|zum|idx:672|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-071",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-071.csv",
-      "sha256": "b70fcf2cb04bb4dcaa9b305a3a40230d12ec1a0f17c17f99fff985fe22373cc6",
+      "sha256": "fcf3d5e1615eeef42a9c77e92e756744953bd24de30c1188eb86828dc6fc9795",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2368,12 +2368,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/es|Abend|idx:18|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/es|übermorgen|idx:610|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-072",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-072.csv",
-      "sha256": "06b2e167eb6784ac1efe8ba1d4ceba2d3a8ebda5357612bc469e3f2f41a9d36f",
+      "sha256": "a976f63700570ef0deed452bdc41de0f5976ac6ffa762165bb45194f42cd28aa",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2385,12 +2385,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/es|Adresse|idx:23|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/et|wichtig|idx:659|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-073",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-073.csv",
-      "sha256": "122eb29d8c17f62a07e58696fc9e48dd3943d7216bbc7a1fc1e6429f222206ce",
+      "sha256": "8b6636d9bd96e16ea0dfb75018c889a0037d6db6e1eba2f451766878fc3104ff",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2401,12 +2401,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/et|Appetit|idx:689|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/et|zu|idx:668|lv, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-074",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-074.csv",
-      "sha256": "e7379c3a98cae5eee37b7d0e93da24a01db46601d9393a1f435b3da7c44087e0",
+      "sha256": "c4ff17d9813ba8c0e74930ee10e6c01580821238a9f5803e16a5fce0c22b4101",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2417,12 +2417,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/et|Bitte|idx:94|study|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/et|über|idx:608|lv, study.translation, study.explanation, study.examples.lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-075",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-075.csv",
-      "sha256": "0202c609c3707a6914776bb37e8e2c97b3d1b9092e3d053f5fecf53c78e60160",
+      "sha256": "34a4647a1a38092843cd0a9e53707b65f16e74b1b0749641b0551a69858343b9",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2434,12 +2434,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/et|Butter|idx:120|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|richtig|idx:497|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-076",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-076.csv",
-      "sha256": "6568a5a23cf8eb6c82d22d4ccfe8286cef1e8a766ea4a2e3265ce88104e94e74",
+      "sha256": "58e91603d9cab66e60979b9ea382a13f7ae24823aa0a6a9f439351522ed57037",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2455,7 +2455,7 @@
     {
       "batchId": "BATCH-077",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-077.csv",
-      "sha256": "04c858a8e75917fb87fca67c083bb136b4c0f6c482055f71090cbd76ab506692",
+      "sha256": "73f27c9d124d9375407e0ecb5273af098ea65b0181739c5640a748ae85200042",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2466,12 +2466,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fi|Abend|idx:18|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|übermorgen|idx:610|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-078",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-078.csv",
-      "sha256": "bdb6953167bf027675b4a9c630b91875c13747116d9d9f51da46d11ae600ce5e",
+      "sha256": "1e81c561ff1f047d86eb60f9a2971b81a82b0c3080caac1e7257b33276a96aaf",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2487,7 +2487,7 @@
     {
       "batchId": "BATCH-079",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-079.csv",
-      "sha256": "0240fa0d9f933a364b63fea587d44a392dd59713690b11644a061399257dfc05",
+      "sha256": "51069aaf079582aa4c89da66cff529afb4c6fa58243757250b1d02fab9576ed8",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2498,12 +2498,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fi|Cousine|idx:125|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|zusammen|idx:675|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-080",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-080.csv",
-      "sha256": "9a4289ddda8b2e25b089b72cc4946c0482d6351b012d12429b5424950c47ed46",
+      "sha256": "b41f1907187dee87ee3607b225ee91a3b09004a4726fabc3b8a7efe600936130",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2514,12 +2514,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fi|Abendessen|idx:19|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|öffnen|idx:460|lv|TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-081",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-081.csv",
-      "sha256": "e1f5e149e8497d70f9cb5122392a0231d083b112b72cb5fd8bb4cecb8c5d7106",
+      "sha256": "0c79ce8a45be73a6828e5e8ee37740446a1bebf0e7eec73559fc60a8d015ab97",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2531,12 +2531,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fi|Handschuh|idx:268|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/fr|zwanzig|idx:677|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-082",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-082.csv",
-      "sha256": "948c7796269a4783c65c2c94dab11e9c7228fefae21f65ae3a396730db983e71",
+      "sha256": "2344714244e42e9a5a6034cfbd835fad790d0daed58e83989d57b65051bd64fc",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2547,12 +2547,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fr|Abend|idx:18|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/fr|zwölf|idx:685|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-083",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-083.csv",
-      "sha256": "63f667d9649da37f9e041ec262584e36953fd16c3d75690e93ce64d30a9928b7",
+      "sha256": "e79c27b6ae141029c4e4a03415ea623a39698917f908cd3b628bbd1d251ac1dc",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2563,12 +2563,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fr|Appetit|idx:689|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/fr|über|idx:608|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-084",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-084.csv",
-      "sha256": "3c8fa132badc33ed4b860310a2260c1880f6ed055505a4102d44d7a4742b7b12",
+      "sha256": "9b1534fe03f31b0a79b75d8802c0948224bd30d6cf8c063625c35931859a6f72",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2580,12 +2580,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fr|Abendessen|idx:19|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/gr|zwölfte|idx:686|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-085",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-085.csv",
-      "sha256": "923d2c04e1ce56c2187dfcc793d6e30250fdd896daa06d92ebb9eaead5d632e8",
+      "sha256": "3b11f0674a5cda14cc5b6e4847dd4f89a4f406c47eb5666720229a8d638153fb",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2596,12 +2596,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/gr|Antwort|idx:35|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/gr|zwölf|idx:685|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-086",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-086.csv",
-      "sha256": "97b8fbd92cce6d04fd0e0ff7e734a8688c3c4ebb71afea4c9237894209286b88",
+      "sha256": "e7dc757800ba0c9f972813ad8c0dbc995631cf4e2e2efe7247a03620dab6bff3",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2612,12 +2612,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/gr|Antenne|idx:34|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/gr|zweite|idx:682|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-087",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-087.csv",
-      "sha256": "a92bbf2e9043480655a3406f6deba4cf63ce14f8bffde5e449a7da7cc25d998e",
+      "sha256": "d7c604a129858375949f07eb55024985862919583b19aac34c6a0d4606a66c32",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2628,12 +2628,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/gr|Angst|idx:32|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/gr|Ärztin|idx:46|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-088",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-088.csv",
-      "sha256": "a656a5d3baa17002d09c54540f6c325852ef801ea60dcdff522fea6abc49e393",
+      "sha256": "0260d2299e21568b2acbd72673645bb7453d50b865b730c69814f41266154c2a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2645,12 +2645,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/gr|Anzug|idx:37|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|Ärztin|idx:46|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-089",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-089.csv",
-      "sha256": "876f46bcf96f477c97711b39a4b142c8f4e5814488e651ada42f83cc72de0c2f",
+      "sha256": "2b7dfdccd5e70bda57a4f4f6ab4579c52e6eba122845e35053b14fe409fed290",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2661,12 +2661,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hr|Alter|idx:11|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|öffnen|idx:460|lv|WRONG_LANGUAGE_AND_FORM|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-090",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-090.csv",
-      "sha256": "d47cd3a6b11073a62e2dd23b733b456384597fa98eaea9bf8d1313c8feb846fd",
+      "sha256": "962550c99c388e978ee0be9b52729b367e00a611572d061b28ecabe2422a7e71",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2677,12 +2677,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hr|Abendessen|idx:19|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|über|idx:608|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-091",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-091.csv",
-      "sha256": "1b8eea36fd2a9f059927339d31590f2fba50f843e12519582d4acc06660f7bd8",
+      "sha256": "4fe16e84fc7c72915ebb36ac4a4e538f79a5a7bc71b70eda5984a8359f128382",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2693,12 +2693,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hr|Anzug|idx:37|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|zwölf|idx:685|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-092",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-092.csv",
-      "sha256": "8b69a3a0dcdc6c47d49a42f04f1a9e61a20455bdc507a3c298b5dace5f373dba",
+      "sha256": "be713aef4bf87777fbccb48534a736d2f5327c4875d3fae3599d5550e87ce3f3",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2709,12 +2709,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hr|Adresse|idx:23|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|übermorgen|idx:610|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-093",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-093.csv",
-      "sha256": "bbfc9dfc29ab7ead22732b119a05aae38c4a610c05b43e193528e7135c765692",
+      "sha256": "cfd4951d9d7b1562c1ac43941c3e0cb4fe3e3e8803ce4a53cd8daf440e0e267b",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2726,12 +2726,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hr|Abend|idx:18|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hu|über|idx:608|lv; study.translation; study.explanation; study.examples.lv; study.comparison.meaning; study.tip; study.important; study.sectionAccents|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-094",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-094.csv",
-      "sha256": "63214d79014bb3ce2a4d0d6019cb2bdb63b265e8898da1261b0ef06e442c3cfb",
+      "sha256": "3f5b94f652d06b15dff410f12c6c4045d673f10dfb2c4da2d64f2016a8ebfb64",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2742,12 +2742,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hu|Antwort|idx:35|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/hu|Ärztin|idx:46|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-095",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-095.csv",
-      "sha256": "077532a2204e57007d62e67350290a1dd47573524f7783ba02f4238f77eb4f00",
+      "sha256": "1872dfaae7e72189ff8c40e54fad74f03faf168764fc37acda2088eb5c04c455",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2758,12 +2758,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hu|Apfelsine|idx:39|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/hu|wenig|idx:654|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-096",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-096.csv",
-      "sha256": "d402b89b61b9d0771581a702f8dc1e511b83d0d74a577aea4c05fcd3ebe98460",
+      "sha256": "bae1c0d164a1e2bcf60eb99356e018594f7f8574f84c0007e3bbb83a01b2055b",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2775,12 +2775,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hu|Angst|idx:32|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|über|idx:608|study|LANGUAGE_MIX|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-097",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-097.csv",
-      "sha256": "e885c227a4e1e39eeef3472cbb5346796282a2ac7a6cc81940555d78a9bacdd6",
+      "sha256": "1177d4af722705dad015c999be537a2a391143fa38ad34ab48bfe194d5137fd6",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2791,12 +2791,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/is|Angst|idx:32|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|zweihundert|idx:680|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-098",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-098.csv",
-      "sha256": "a487892ca2fd9f8522dc3c71d3dd13d12c0f16f580773d701562d7a9b9c72df8",
+      "sha256": "391e9905d557b2f16fdf82be7179be8423c54b30ae277a5da182f4910ce19a2c",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2807,12 +2807,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/is|Abendessen|idx:19|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|öffnen|idx:460|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-099",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-099.csv",
-      "sha256": "4fc9afdf80d866c68b7c84a29dd3193167e7a5a21d5e55b5cb461e7470a65440",
+      "sha256": "09848cdb95e331d103ee261adf939b00966633756a5f3e0d413510401e961466",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2823,12 +2823,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/is|Affe|idx:24|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|zwölf|idx:685|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-100",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-100.csv",
-      "sha256": "9ee64c15b68d38c0272d84cdf35fcc0311de82c0dc0c6e32b42aabcdf1534bb5",
+      "sha256": "73d41e6846d5e512f8acbc56bd7c3890f448f02b8ff1c704d91923a5eb85b5df",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2839,12 +2839,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/is|Anfang|idx:13|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|Ärztin|idx:46|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-101",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-101.csv",
-      "sha256": "477fba44d3160a2a86a3d51ba2bcdb86739365f7c5ca522b05b73a4c427d7dea",
+      "sha256": "34b7b4457c695600f496bf01406d6d8ee64370fa60f4c478a2a103ff07353517",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2856,12 +2856,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/is|Abend|idx:18|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/it|wissen|idx:311|lv/study|WRONG_LANGUAGE_AND_MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-102",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-102.csv",
-      "sha256": "0c424eb44299c0c2a1ef634994a6a66c90416ff7651529f1814e6b98b739bed4",
+      "sha256": "dbdf631cd317296c0ab7546d288f4c72be6d31460214deafdc45cd292a45e64a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2873,12 +2873,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/it|Adresse|idx:23|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/lb|probieren|idx:482|lv/study|MIXED_LANGUAGE_CONTAMINATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-103",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-103.csv",
-      "sha256": "ce8b77335f878e5a51939aa42da33f4a151981566e43cf06fb0a69da8c298690",
+      "sha256": "a3dbb100575cbd9e94f7200585ed6251be3425043a2c2eba027c8e448da52317",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2890,12 +2890,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/lb|Beispiel|idx:81|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/lt|über|idx:608|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-104",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-104.csv",
-      "sha256": "9edc7b1966e2fa151ca3c04fadcf9d5a021edc25423724bda62ffcbb5b3d122b",
+      "sha256": "cf5c2ecdd947bc3f48e3f67c6addfc83c87a49491ada3db76afe3b6465e66965",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2907,12 +2907,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/lt|Besuch|idx:87|lv and study content|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/mk|Reis|idx:496|lv, study.explanation, study.examples, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-105",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-105.csv",
-      "sha256": "fe0334000323b3025b3df6e5a86add797ef6da574a43c4347f53008fbf3a4306",
+      "sha256": "70c585ab4f7b13098237aa442781b1664f96f53f8d523d66623756fcefafa4fe",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2923,12 +2923,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/mk|Appetit|idx:689|lv, study.translation, study.explanation, study.examples[].lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/mk|vor|idx:636|lv/study|TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-106",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-106.csv",
-      "sha256": "e5eb18fd2f12d7102bbac95fc197de5a51ae2d1e7970d63a58d6514d5c461c9b",
+      "sha256": "f912a8a51d2fb72ed600f178bd37c1296be63e007ed4845daf55a8493030c83f",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2939,12 +2939,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/mk|Augenfarbe|idx:62|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/mk|zum|idx:672|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-107",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-107.csv",
-      "sha256": "e34ad100b1b1f7a2e97a231dcfb6ae62dfd14ef977ca286194c588a244d97b14",
+      "sha256": "c0d1896fb3513b4dff93a794dcf09da929a36985605b4391167fe716cd2c3507",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2956,12 +2956,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/mk|Badezimmer|idx:65|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|zwölf|idx:685|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-108",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-108.csv",
-      "sha256": "d3bc16d72d6b2a2769fd09e5d9ba8e32479ee6d9f909d95dc5e148ca6768138a",
+      "sha256": "bb8080062b10b8f2447d2c802b8843314b7d1254dd1c296454dc5217e95af636",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2972,12 +2972,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nb|Abendessen|idx:19|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|öffnen|idx:460|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-109",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-109.csv",
-      "sha256": "34b1e614fc27fe864d2e43c1419a2c0f7f8ac1700cfcd6afe23508084f9bd96f",
+      "sha256": "fb54ad19a8de3b98fb28b5867e1d9b03bdec850561752cffa3bf47701327b62d",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2988,12 +2988,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nb|Angst|idx:32|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|Ärztin|idx:46|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-110",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-110.csv",
-      "sha256": "6a9558816a201eaef3b5ec9811e34bb6b79de8a6c4c64574d02ea6b4cdb3a742",
+      "sha256": "54498ed13314042d8cb8a0f280fde831ac37a307d4384d5463e489bf35e81aff",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3004,12 +3004,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nb|Alter|idx:11|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|übermorgen|idx:610|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-111",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-111.csv",
-      "sha256": "a52e0b54e48b36d260e8311969a278408d782916fd4e8e6c800daaced0df9cec",
+      "sha256": "6b199d6d1aedb91a0f9cc28fb4a4f4f481ca684a0d72d20cf3bc8f85378a58fe",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3021,12 +3021,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nb|Anzug|idx:37|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/nl|Ärztin|idx:46|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-112",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-112.csv",
-      "sha256": "6da2d0de74425f92ee774c1477f50d2a9f0c7f54bc897ee40e8fcb32c6010fe8",
+      "sha256": "b477085720b1b6355390ca6c3e3c478dd6229627f43cbf5eb5b68e1afeee1d2b",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3038,12 +3038,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nl|Apfelsine|idx:39|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|überall|idx:609|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-113",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-113.csv",
-      "sha256": "20050a0200bad23576b4bbca78d127a648fb8866ea482d75aa2e6783af341429",
+      "sha256": "2e5186b85fbc333db0746ab6032024976e5abc265564234b8d86063f11e44ffa",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3059,7 +3059,7 @@
     {
       "batchId": "BATCH-114",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-114.csv",
-      "sha256": "5b90d75d2a0ecb498b1388036e7b33ea48f26f1f8e92c7070b09cfa2a8271fef",
+      "sha256": "04f1a10ed78e1ff54df67db28b83ff25084ae01ae76da4fd0b6453947332480e",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3070,12 +3070,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nn|Adresse|idx:23|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|was|idx:644|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-115",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-115.csv",
-      "sha256": "d43b29ac4af65050ce0a2bf04ae5824c39e18873a3d73db3a73c442e4de491a0",
+      "sha256": "80f65f8c33f2a762ae5fc998a4a609d6c6e1c50923c5be42ce8092d0008d41a3",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3086,12 +3086,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nn|Alter|idx:11|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|über|idx:608|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-116",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-116.csv",
-      "sha256": "7869a2660245e9872edb170d257806411f9c5ab65fbe0297d996193a5f556ed1",
+      "sha256": "a7745cf5094ee9c97476a611d6cc45674a18a3f7f137a5c11b4c932ba5be638a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3103,12 +3103,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nn|Anzug|idx:37|lv|TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/pl|öffnen|idx:460|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-117",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-117.csv",
-      "sha256": "e9586c06f87c74abc60fc8888dc5d2f209ff44e6dd243c33c0c20528eba9ff70",
+      "sha256": "7819a3680f4877b07313d1b010f901174c4851c9ade67ea387c0ef7f2cd1eb7f",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3119,12 +3119,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pl|Anzug|idx:37|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/pl|über|idx:608|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-118",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-118.csv",
-      "sha256": "d75d3e93a70479514abd4ae60dcd1e8f760806a336b91dce18a3b3e36bd98df0",
+      "sha256": "7993e3b789d1bfa91cba06096507b1616db1171372f2de2fd084304494754622",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3135,12 +3135,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pl|Antwort|idx:35|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/pl|zwischen|idx:684|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-119",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-119.csv",
-      "sha256": "d4d46f9af5f9266c537acc64bf60a71a9a55f73d64e5a59a4fd6670072bc46e6",
+      "sha256": "847d09c1ffdef7de28c2d40169212963e7c3c667c0f14048d9e2782efecbeedd",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3152,12 +3152,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pl|Apfelbaum|idx:38|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|Oktober|idx:464|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-120",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-120.csv",
-      "sha256": "0435bf0e8046ab3925bba283e966983f20f393fd2eb99448cba59ab643b213cb",
+      "sha256": "d8409f1c5d3c226ce68eaa3f64fbbb6f4adea24f1c3610e52590e310fdcdbd4c",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3168,12 +3168,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pt|Ameise|idx:27|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|über|idx:608|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-121",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-121.csv",
-      "sha256": "81cb3cda0a03098078339aa5548e7f2f2676d898d60e0c910bf565a4aaf8bb34",
+      "sha256": "eede21acfeb37010ce1ef4cca35f3c166d514679a5c5a4a40f6289ea8d05a5f8",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3185,12 +3185,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pt|Adresse|idx:23|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/ro|vierzig|idx:630|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-122",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-122.csv",
-      "sha256": "450e986af0eb47653dd854d6e43734fd00ba53cf57fe8b64cdfb840a0278c0ff",
+      "sha256": "43da81ac6ccb6ccb63291caf76366769ae802a4ea418172035c7a1a9e4b26595",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3201,12 +3201,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/ro|Angst|idx:32|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/ro|überall|idx:609|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-123",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-123.csv",
-      "sha256": "e46fbb0cc92b693354b3934e4e7ba6570e2d2ef4fc27218b0e0bac611393bc12",
+      "sha256": "5b8aa8f372f428a6fbfb52a538365753975519f685fd0bd2d99ad1cc85c247fa",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3217,12 +3217,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/ro|Antenne|idx:34|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/ro|was|idx:644|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-124",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-124.csv",
-      "sha256": "51c1fa1f59de4acbe42a3d1a563185b75f8fb6f7b13fe476425235ecb38d6bbf",
+      "sha256": "36ea100b2382820760f16535e8c0b2d88753dde2a9dc1acd0b0d2e1aee4bb39c",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3233,12 +3233,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/ro|Apfelsine|idx:39|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/ro|übermorgen|idx:610|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-125",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-125.csv",
-      "sha256": "93b8205d2564fc5a6105da330ec447b78eeeef4ef7047d404728814747eb236e",
+      "sha256": "ab281158097662f2014f5d2f04b49d3e188d30dc3a79480fbf6ed3fdfe74d60f",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3250,12 +3250,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/ro|Mund|idx:421|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/ru|übermorgen|idx:610|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-126",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-126.csv",
-      "sha256": "18c58004f8108efd9d648129bd5171caf805aee5b5dae8c973fc6bf70dfc01e6",
+      "sha256": "301c5c7726f7eeaca153eceb798d13f613a99d16a2f4fb75904aaf416962f039",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3266,12 +3266,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/ru|Café|idx:121|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/ru|überall|idx:609|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-127",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-127.csv",
-      "sha256": "e466dc9c6d5495be5135050cb052d50a90e6c69ca829c69ccb879a6c51052219",
+      "sha256": "0c0640462e24b00698771767431a186eee85379686bf592a57cb235f4d28fede",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3283,12 +3283,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/ru|E-Mail|idx:159|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/sk|über|idx:608|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-128",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-128.csv",
-      "sha256": "7aea1926e4a41a92084f18c698ece0a8e8c26c2c77137938485c5eb07564948f",
+      "sha256": "465800e8729ef6b3cd84b4bd4167ac95a2cc3952c6ed6b20d013f27e875ec4b3",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3299,12 +3299,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sk|Abend|idx:18|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sk|zum|idx:672|lv / study|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-129",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-129.csv",
-      "sha256": "1331801701aa1e7ccfca82e45d8e13f702c57eaf9167e865b938d4c647e9901c",
+      "sha256": "81b6e94e04fca410a0816a979ffe3820c9023e3ffbcbea54447f1e86f9df14d8",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3315,12 +3315,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sk|Adresse|idx:23|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sk|wichtig|idx:659|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-130",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-130.csv",
-      "sha256": "499dcb6543ac365a2f0e0fe1e38c25f4b17ad5830f5af2b5be4b376c55387965",
+      "sha256": "9ccdba5042943eee9564a7a948e9e46d0da26a21ea350683fea2c39fa7e5b248",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3332,12 +3332,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sk|Abendessen|idx:19|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sl|spielen|idx:572|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-131",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-131.csv",
-      "sha256": "cf2d042661ef0305cd93d281f222cec3a3603c4da2550f5faf06192ace009efd",
+      "sha256": "7c70aaf8b406aadccac74d547fd09394892dddd01da24825ed0ff26789eabfb6",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3348,12 +3348,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sl|Appetit|idx:689|lv, study|LANGUAGE_MIX|gpt-5.6-luna",
       "lastStableId": "g2/a1/sl|zu|idx:668|lv, study|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-132",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-132.csv",
-      "sha256": "1f5c34b00d7f966145a2184f2d3be7b8aba6aefdc2ad54cf93cc972430545142",
+      "sha256": "9d685ce9fdea41b2c3a48d0bab61b82d51c97ae0006b5dac3bced53f905ad607",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3364,12 +3364,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sl|Augenbraue|idx:61|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sl|wie|idx:660|lv, study|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-133",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-133.csv",
-      "sha256": "4c036105d0edbf6ad0fe054c81fd910932aed894b941a574e43b220460d16626",
+      "sha256": "5c4d04f36be9336440e9f9a2cb87df2d7c1886752e6c009b44abd4d3668ae59a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3380,12 +3380,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sl|Auto|idx:63|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sl|öffnen|idx:460|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-134",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-134.csv",
-      "sha256": "00c3c7e104b7c9fe213f454220c0d9afd7d1f149c1ff280063955cf270bdd078",
+      "sha256": "1338d911f66083a0426b4bf4db0f38a3e31aae3d3c20623eccdc39c5ceca8a2a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3397,12 +3397,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sl|Cousin|idx:124|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/sq|über|idx:608|lv, study|LANGUAGE_MIX|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-135",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-135.csv",
-      "sha256": "1d959a086969952d53df92abbabb6baac7c3b0f10d43839fde151e022c7f2495",
+      "sha256": "554f652f14ad65b4a2e252e6eda08285c26f4a35c52424679573549c7a5d5968",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3413,12 +3413,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sq|Alter|idx:11|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/sq|zwölf|idx:685|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-136",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-136.csv",
-      "sha256": "3e46082167bb2ff0837e9b644c22839f189c290b722aaef5e229321ac9792e76",
+      "sha256": "223f897a870795a6a33bea42296e9b59b927cc2a23626b3d9fe10bd6a8d2422a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3429,12 +3429,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sq|Album|idx:25|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/sq|zwei|idx:679|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-137",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-137.csv",
-      "sha256": "9b66380532acc26e8cb95bae4af4f1ecd6b161bdbe6396c4d8363119cce98994",
+      "sha256": "bdc3e8679e472a2c0c72b9bde0bb34aa1355dce295ed78f7e770d9eaf09c1e0f",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3446,12 +3446,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sq|Abend|idx:18|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/sr|zweimal|idx:681|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-138",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-138.csv",
-      "sha256": "4d03dfac4877a868d9fa7c46aa51180ab662813cf2a71e6592956c9481b1f3e1",
+      "sha256": "9e08ad56e8ec4fd06df2b479fd81bec3b0932a280514a39cf19e1b22846c2780",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3462,12 +3462,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sr|Buch|idx:116|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/sr|zwölf|idx:685|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-139",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-139.csv",
-      "sha256": "678fe418ae710708d2cfef8b1d94d123789c0be34cb7ffbca24bf8ae4d71cdec",
+      "sha256": "ef2062ea31797e8d41bccd05b1a95919aa222b81ea5d2fc1f5b79ba55476b7a6",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3478,12 +3478,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sr|Ameise|idx:27|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sr|übermorgen|idx:610|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-140",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-140.csv",
-      "sha256": "bbb78301d66296f674dc29e6e4dfd87e1eb6afe415ecc71bb1b555cc31b1456a",
+      "sha256": "3fdd75dc7ea3849c2aafbe0221991ea6384fd2f0bcc78947be6f6f284db00894",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3494,12 +3494,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sr|Apfel|idx:0|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sr|über|idx:608|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-141",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-141.csv",
-      "sha256": "b18f49e58f25d8eaac8b13b2956a13f4e5ba2e155f219a3a5eb335cc919ec01f",
+      "sha256": "8cb0d177470ef41b277814a25a6454bcf53db57494b428b496f3dbf541d0dea1",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3510,12 +3510,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sr|Abend|idx:18|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sr|zwölfte|idx:686|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-142",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-142.csv",
-      "sha256": "f167d2fed48f83c8c83f4eda3d6b6f2fdbd65b96287dbe3fee5a7caa8a557c57",
+      "sha256": "7a44c0716185d7be27e863bcc276be2a2a6f6bf314f091989f41dc26203532ae",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3527,12 +3527,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sr|Abendessen|idx:19|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sv|übermorgen|idx:610|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-143",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-143.csv",
-      "sha256": "612cbe9f4f514ef9fb11f75d41179510e4708fadc79f87f1b5500041a9b8896e",
+      "sha256": "8f36867490da6b3c6584c42627f3c4ab6c63015973aadcb903dd0d492aaea3df",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3543,12 +3543,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sv|Abend|idx:18|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sv|zwischen|idx:684|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-144",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-144.csv",
-      "sha256": "9c142c1a72131c0e7079fa29132b97cc05394d9fd3cafdc3294ffa59b0c6cc06",
+      "sha256": "a4795244aba5a8611122863cef74111b089f70e132fbe9bbb8dfa0e8e27f5ac4",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3559,12 +3559,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sv|Album|idx:25|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sv|zwölfte|idx:686|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-145",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-145.csv",
-      "sha256": "e7bca039c94e09f2970dce0efd30a7a99736b34666c04db8fe74dd981ea92bd2",
+      "sha256": "006ccad6694fba2ae99e658143a31ebbd12e0a55f161304103b2c83fbefe38d6",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3575,12 +3575,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sv|Abendessen|idx:19|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sv|überall|idx:609|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-146",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-146.csv",
-      "sha256": "2b18bd1a70fbc96659684d648c434148bd208211792da1dca7454200cadcf1aa",
+      "sha256": "08164adebf9d7e8dbeb83c0e7b01d13cdc08d2a98ec2de26a5ed9dd0d274e1e5",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3591,12 +3591,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sv|Affe|idx:24|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sv|über|idx:608|study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-147",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-147.csv",
-      "sha256": "99d07b8c9212ce10a1eab5a51ff16df00f091d079c11ab4b803bc1a2076e25c4",
+      "sha256": "4d3e66e3c339605d175093e6298249cb707f86daa2ba8718ad71de450e9d4d5f",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3608,12 +3608,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sv|Badezimmer|idx:65|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/tr|zweihundert|idx:680|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-148",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-148.csv",
-      "sha256": "aae9f89163caa37abcd7e2ce26d1bebf26de0c70459286e7f4728ae54ae9185d",
+      "sha256": "1f4255457c33877f174ca9fa0111b50564f786400860056ef76bb3328c3a3e7c",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3624,12 +3624,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/tr|Adresse|idx:23|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/tr|zwölf|idx:685|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-149",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-149.csv",
-      "sha256": "4980f45848b12b9be019fbd8f864947b30c435f69cce7f54539378b2292d2080",
+      "sha256": "10dfff9d19494a080ec3a9f8b808e07db021bd1a3fb7ba9c2cceb4ec7d46a3e6",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3640,12 +3640,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/tr|Abendessen|idx:19|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/tr|übermorgen|idx:610|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-150",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-150.csv",
-      "sha256": "00f6d08f1a38fa5c9e90007f0e268a84b4dcfdca5f6c5dccdef82be3afe62fa2",
+      "sha256": "9f08638e5fd75dfc4c56db02f1af588f2efcafb35efbf573b0542b1df6ab0357",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3656,12 +3656,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/tr|Affe|idx:24|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/tr|zusammen|idx:675|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-151",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-151.csv",
-      "sha256": "f5c8bb146cfd4be40ab68fa75c29eb70b2a31b66f9b2356e7fbf075662f5211b",
+      "sha256": "0748b637202a96bed54836f090b7b51baae81383728fe1bc075b319f32316b44",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3673,12 +3673,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/tr|Abend|idx:18|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|vom|idx:634|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-152",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-152.csv",
-      "sha256": "d0a990e21097902760f02e1d82ffcbe64cba41b85ff44a022546a16052e40253",
+      "sha256": "91b0ddafdca5d3751b02d185ea66a3ef43e4b14c75d60a1764d967a76f901b46",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3689,12 +3689,12 @@
       "findingCount": 66,
       "firstStableId": "g2/a1/uk|Eis|idx:157|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|über|idx:608|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-153",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-153.csv",
-      "sha256": "7bb414af6401daaf466c6be53833d2e5e78fbc73b9132e5c0962314a4a10f822",
+      "sha256": "1fa66f85c57ccf7af6c1adf590258ac8b5392b7fffbe2aedc246761bbfdedaf7",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3710,12 +3710,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|etwas|idx:169|study.important|INCOMPLETE_TEXT|gpt-5.6-luna",
       "lastStableId": "g2/a1/lb|überall|idx:609|lv|MISSING_TRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-154",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-154.csv",
-      "sha256": "760bd0283da64af1ef3b5594a1c4aba9e3e91abc419d7a09154070098291a604",
+      "sha256": "d8427f58be521c8947b857e0236bc7b43146efcdb1f5350d0016a7153ade24cc",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3731,7 +3731,7 @@
     {
       "batchId": "BATCH-155",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-155.csv",
-      "sha256": "ad7bfd2096142c8ac78adde860451ec030238001b2123bca2880f02575a5c77a",
+      "sha256": "70202605fc64f86b57cf3804d947ad77e571154ab15c02e30d04915260dabf01",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3747,7 +3747,7 @@
     {
       "batchId": "BATCH-156",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-156.csv",
-      "sha256": "bdfd3f208d76ce5b21e916709dc9e69e0e60e17428266e318f7d9401cc147b49",
+      "sha256": "f111bc5b688f4665074d321bf26b7427d0cc63166c3ae16fece84890619a2ff1",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3763,7 +3763,7 @@
     {
       "batchId": "BATCH-157",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-157.csv",
-      "sha256": "0da262f2e6183671e1becb6861848064cb95772e83840cb62e061318ed0f0e88",
+      "sha256": "1fcc29a3a8ff5c25897b0be44d760272af0af8bbc17baff5ce2fb86cc0c7b4ac",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3777,12 +3777,12 @@
       "findingCount": 67,
       "firstStableId": "g2/a1/lb|Abendessen|idx:19|lv|MISSING_TRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/sq|geboren|idx:224|lv|OMISSION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-158",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-158.csv",
-      "sha256": "e4242a07342dfab13468180bad408d1b7c28ac5e1aa58f4d4439009099de721d",
+      "sha256": "1707133dd7aaac27f86f5069ceb4328857f6931305e079034d80b399c9379364",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3794,12 +3794,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Apfelbaum|idx:38|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/bs|über|idx:608|study.examples[3].lv|SEMANTIC_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-159",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-159.csv",
-      "sha256": "4ba50b75202111735d4b14f5e8617c03aa1ba8c428aeb4bfb0ce7f799de29564",
+      "sha256": "bf7e7e46c48a2d4602072683b6ef7bd9bb17b7b0202a9803eba53521e50036d9",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3813,12 +3813,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bs|Fernsehen|idx:688|lv, study|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/en|wie|idx:660|lv, study.important|MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-160",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-160.csv",
-      "sha256": "5b4a8a22a4b1c78af11f7a45b300bd3fb7cff184ced7679da8a357c03bba3039",
+      "sha256": "5258a8ad347c41bf1e87e5314777e4a3138878a5d461f4342a84972b07bfa8b6",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3832,12 +3832,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/en|Erde|idx:164|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-161",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-161.csv",
-      "sha256": "f23db30bb07f9b7ab17643815f325fd4f91f299f713c778e9a59efb2918629f9",
+      "sha256": "e2cc8dca849b09c21747f9cf75a07f65a823d5090908e5606353d2e298d85fa9",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3850,12 +3850,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fi|Augenbraue|idx:61|lv|LINGUISTIC_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/gr|zu|idx:668|lv, study.translation, study.explanation, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-162",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-162.csv",
-      "sha256": "ed01d22bd1c374e47e3cb38279a2fc1d2da36548220a1031134c85544d99c2fd",
+      "sha256": "0306ab39adb2f7f4ff1fb742160898b2c6303471d3ae32ac2489c74b5e1841ed",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3867,12 +3867,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/gr|elf|idx:158|lv|MEANING_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|zum|idx:672|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-163",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-163.csv",
-      "sha256": "8904259be641592aa92a333d0a69143a55b0b769ca1953e77abc29a5387f2e5a",
+      "sha256": "77762816ffb37b1b80cc51840ee5faa85c86961895a373584ef40a7d79cd65b4",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3885,12 +3885,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hr|Auge|idx:54|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|von|idx:635|lv|MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-164",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-164.csv",
-      "sha256": "b7c14f10046a98125a52dd3a778708fee25879b16fa5dfad6b7f8c234bac2a5e",
+      "sha256": "1ec3441a4e6f4b0ff44a7700ec280812fa1fe091530918df3adc1338e7776669",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3901,12 +3901,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/is|Arbeit|idx:42|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|warum|idx:643|lv|MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-165",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-165.csv",
-      "sha256": "6665b468f567921e9422bb0804b2caa5e5da121aac268d479df02aec61564b9c",
+      "sha256": "18b896e3363a824a44e5c7289a5cf2898cd5f1b327d80c7cbd583c676a73100b",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3918,12 +3918,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/is|Ball|idx:71|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/it|über|idx:608|lv, study|MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-166",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-166.csv",
-      "sha256": "0e525a3613ead968125023645748a18304e788bd07b7c0313b015480779d4d44",
+      "sha256": "c688d20fa705e2f85241da180bba12cb0277694e62b0d529cf3087315f9ff7f5",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3934,12 +3934,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/it|Antenne|idx:34|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/it|überall|idx:609|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-167",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-167.csv",
-      "sha256": "3e8a5c12ac022d4f7548f1a0d910feec5cc33522d6bb1b2e3326a4e7427f6c8b",
+      "sha256": "b3e70a9630e76b9074ffb4be94e00e828de1952bb383de145151597e3c50d358",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3951,12 +3951,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/it|April|idx:41|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/lb|zuerst|idx:670|lv|MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-168",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-168.csv",
-      "sha256": "39dd1eb77b33667676e1617995cb1585913548bcafed2c7d882cf3a113775a82",
+      "sha256": "3172ff7b22c44a730b6c356de8ef259633bc6253107058606b09036583fb3a9e",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3973,7 +3973,7 @@
     {
       "batchId": "BATCH-169",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-169.csv",
-      "sha256": "4f4dddf6ba332e404d1e3a1d5c82f382f5fa4dcfe82dcb0f2b6c542d309285a6",
+      "sha256": "92604e3c48a7f82dabe9a1fa48fe050c828c06bdc79aac8a02d10574fa643c02",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3986,12 +3986,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/lt|bringen|idx:111|study|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|zwölfte|idx:686|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-170",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-170.csv",
-      "sha256": "d389f8c7f45d923492706c2bc58dc290552352f0d1a2395d6618162210c7ae60",
+      "sha256": "4168e2a200208716487efc90b9decf85fdca4034384e2e7e39d877b32f7d87de",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4002,12 +4002,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nb|Abend|idx:18|lv|MEANING_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|über|idx:608|lv, study|MEANING_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-171",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-171.csv",
-      "sha256": "d7b76c572c5893d25ad1ec4ca4ed481e06f3889ffb3ff70387b27066136f1ba6",
+      "sha256": "6b2d8479d4b10514dcc5be05d1822075cacc288fcc0b28fae8777171556ee534",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4019,12 +4019,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nb|Augenbraue|idx:61|lv|WRONG_MEANING|gpt-5.6-luna",
       "lastStableId": "g2/a1/nl|wer|idx:656|study.explanation, study.examples, study.tip, study.important|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-172",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-172.csv",
-      "sha256": "c5b0d2caf3460b167ed4b5c29cbda901a3ef0ff4918818a5b2492d798b8b12d8",
+      "sha256": "483d3890cb8d41ad298663e6264acb5347e9952e1dff7524869b7bdd7dc99f59",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4036,12 +4036,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nl|Antenne|idx:34|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|zwölf|idx:685|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-173",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-173.csv",
-      "sha256": "5397a431b5dea9b3f64ce3add6a4e27c2bfecc8b47e6f65c7de2aabb93112b44",
+      "sha256": "1b420483335d79662b0bc7dbeb76fb9528cd3c891d906ecc26ea84f5b7b08ad2",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4052,12 +4052,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nn|Ameise|idx:27|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|zwischen|idx:684|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-174",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-174.csv",
-      "sha256": "afc62b74c62dde74fdac2dcf75f7a47b4bec609e6d840c399e09a1d4d9e37e3d",
+      "sha256": "bb8d0e3edac4c7f4d9d913b0b08a76aaafd9c9fdf623a41ad7802d49483b0dcf",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4073,7 +4073,7 @@
     {
       "batchId": "BATCH-175",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-175.csv",
-      "sha256": "4cf02ded4d2807de4e19afaedcccbc1b5bd951b847e1dda842f0564156dcb292",
+      "sha256": "3ba2e0acb57511af65e9b1b6af03fc8eab36d9893b01000ff0f5565336930ba9",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4086,12 +4086,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nn|Fleisch|idx:191|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|öffnen|idx:460|lv|MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-176",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-176.csv",
-      "sha256": "f4d790e0df8aee9cab850421987bdc6b419887b599265b54a7d49b578d3ccdc0",
+      "sha256": "b2133694af8e72f8965b8b86a17b9ca9dfa5ff2a5843ef1024c61d0de663ea87",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4102,12 +4102,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pt|Abend|idx:18|lv|MEANING_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|überall|idx:609|lv|MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-177",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-177.csv",
-      "sha256": "1c68e17811fae82afd0b8fea2fc8071cbfe298013977db0261514e2772d84114",
+      "sha256": "bc4c627fab28aee316e731dbedd1f086d3d22af088eed24d169ea84141625b64",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4118,12 +4118,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pt|Antenne|idx:34|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|übermorgen|idx:610|lv|MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-178",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-178.csv",
-      "sha256": "f2c29bfe871d638598ff143f1f8002ded86b9a1ebb236d518ddd067133d10d0a",
+      "sha256": "e5b5ab86b1bfd100a50e163b2f9d707626dd5bfa50a46595de4d457833639315",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4135,12 +4135,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pt|Brief|idx:109|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/ro|über|idx:608|lv, study.*|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-179",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-179.csv",
-      "sha256": "1087479dd647d2ac1451d005ed93071647ddf0e76a9fd5e6f53b70893d759776",
+      "sha256": "bfcfabf689d38080fe9db018595453c0c825c01ccd9353507dbbb528ea6b0fb9",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4153,12 +4153,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/ro|Buchstabe|idx:117|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/sk|wer|idx:656|lv, study.*|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-180",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-180.csv",
-      "sha256": "b2b5c8b3aac0b2420361cdc6ac9aef2ef2d890542ba0aba090fcb2adf4f2a01f",
+      "sha256": "1db68009e2f01bab2ed2d26636f1c7bb647be88552ae22c20e600d68f2100851",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4171,12 +4171,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sk|Dezember|idx:136|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/sq|langweilig|idx:355|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-181",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-181.csv",
-      "sha256": "a905c400c87527cef683a84d949b54520ec1104522e655b76a126fadb96d9098",
+      "sha256": "d95fdfa2188f6286152ac42c63b8dccdd6a60173174509fb16d4ed7280daca2a",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4187,12 +4187,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sq|Adresse|idx:23|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/sq|zweite|idx:682|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-182",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-182.csv",
-      "sha256": "0a6c2320d4fcadfa2aa04ecfccc9c20618f65360bd101f509cde5e34ec0c481b",
+      "sha256": "8262b849747a37c227960f8ad7afc4b22988802b8089dbe4bdee8a126b5d0a29",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4203,12 +4203,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sq|Abendessen|idx:19|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/sq|Ärztin|idx:46|lv|MISTRANSLATION|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-183",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-183.csv",
-      "sha256": "9fc297b25dd365059fd67974d95ed2c50a410101c7465e3ccc9cf9bd12aa6a87",
+      "sha256": "fb022fb1b786d895a47410e84450a96b04d3dff079040ee2ec8dfbd97dbf09d7",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4220,12 +4220,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sq|Anzug|idx:37|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/sr|zumachen|idx:673|lv|MEANING_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-184",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-184.csv",
-      "sha256": "8d11cdbc17acbf75a7fe3114cba8e6bb0e998f14517913a8d4351605df9b1248",
+      "sha256": "d88a2914a714f52c1fad2dab8c97262ae40465e32a5accdb4d8d0ed12a29099e",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4238,12 +4238,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sr|Anfang|idx:13|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/tr|wenn|idx:655|lv, study|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-185",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-185.csv",
-      "sha256": "901bd67c5ecad43e8757e8e9671802f2865b181eb48783d191805e07b103374e",
+      "sha256": "ef273dcf3216d052393a68651e7ce4523a628bb889185514e2cb8c804f6a223f",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4255,12 +4255,12 @@
       "findingCount": 91,
       "firstStableId": "g2/a1/tr|Arm|idx:44|lv|SEMANTIC_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|öffnen|idx:460|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-186",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-186.csv",
-      "sha256": "4e20d16e1f3cd8a34e30558c4b994b5f094f5f5ef25fc0ea0f66dbf6404faace",
+      "sha256": "0bce897ede5eb6315355b4fdc0aa3cfd3cfb95ae21f3a680c62686709b1b3e55",
       "reviewTrack": "GRAMMAR_MORPHOLOGY_OR_FORM",
       "canonicalBucket": "GRAMMAR_MORPHOLOGY_OR_FORM",
       "languages": [
@@ -4286,12 +4286,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|Augenbraue|idx:61|lv|NUMBER_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|warten|idx:642|lv|GRAMMAR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-187",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-187.csv",
-      "sha256": "fec05f11edcd17e964044776d85e9b064b9a3902f45dc96730caa32b971fb103",
+      "sha256": "56c8e2d89c5f0a78e31c26537656d9871566f397ace18720844204443da544c2",
       "reviewTrack": "GRAMMAR_MORPHOLOGY_OR_FORM",
       "canonicalBucket": "GRAMMAR_MORPHOLOGY_OR_FORM",
       "languages": [
@@ -4310,12 +4310,12 @@
       "findingCount": 63,
       "firstStableId": "g2/a1/pt|Stück|idx:580|lv|GRAMMAR|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|Ärztin|idx:46|lv|GENDER|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-188",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-188.csv",
-      "sha256": "b5b466651601fc631c185115ca0cd7621d11fea7f5cdc7112b6b50044ecb0ed4",
+      "sha256": "4601aaecce6f5c2dac4983e25883fa6ccadb8394aec63526eaa84c6b9d430d32",
       "reviewTrack": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "canonicalBucket": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "languages": [
@@ -4331,12 +4331,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bs|ein|idx:154|study.comparison[2].example|TYPO|gpt-5.6-luna",
       "lastStableId": "g2/a1/it|zusammen|idx:675|lv|DIACRITIC|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-189",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-189.csv",
-      "sha256": "edd9fc3f21a8f107901dbd8f699d05814fa2246be54b446b8112307e75034708",
+      "sha256": "d0a340b1b39d35e65a37d0283012ccf8eaba0d136f3c0d29d60f9568664799f7",
       "reviewTrack": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "canonicalBucket": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "languages": [
@@ -4353,12 +4353,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/it|Affe|idx:24|lv|ORTHOGRAPHY|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|vierzehn|idx:628|lv|ORTHOGRAPHY|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-190",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-190.csv",
-      "sha256": "2fee2c2845270996afe00680768bf0b49cba7b210d6fcfc3f98824b26312ca68",
+      "sha256": "8c2c3667584abecc8f691dd20a908793f775ef6a6eeee66c5c734882cf6aa880",
       "reviewTrack": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "canonicalBucket": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "languages": [
@@ -4374,7 +4374,7 @@
     {
       "batchId": "BATCH-191",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-191.csv",
-      "sha256": "d648337a9632de731a422552a0ece8dc303a7244251be21ebe84d6aea26fae8a",
+      "sha256": "4da18b7ce74fbd07e33b07929036503a2c836bbbf74c5a0b286e206906d53e4c",
       "reviewTrack": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "canonicalBucket": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "languages": [
@@ -4391,12 +4391,12 @@
       "findingCount": 22,
       "firstStableId": "g2/a1/pt|Affe|idx:24|lv|ORTHOGRAPHY|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|November|idx:453|lv|ORTHOGRAPHY|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-192",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-192.csv",
-      "sha256": "8aa38983e8abfd74b6a6acedd4f22411ab47fdb45bfa276b74bca91465dd6f6e",
+      "sha256": "7f639b43fddda842eadd2a9ef4cd29cc7c70c07f65961cc956a374d60857b159",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4407,12 +4407,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/bg|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-193",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-193.csv",
-      "sha256": "af9b81d8a7ad11ceba5f23910b78e598063e4f13a4ddd6c9323ef537bd3914b4",
+      "sha256": "523e5db279c0e6dbef78bd5621135c81551bef40df40f72d51f1ed2f0b83c913",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4425,12 +4425,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/cs|verlieren|a1.card.verlieren.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-194",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-194.csv",
-      "sha256": "f675c59debc1646e051aaec3bd2796fd1dff2dd0bc8e80c8178eb301c597adbe",
+      "sha256": "3a6ef34ab4256a4ae1cd9f9d9d763dac7a14e097ea388eeca7e4c88ac3abe75f",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4441,12 +4441,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/cs|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/cs|verheiratet|a1.card.verheiratet.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-195",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-195.csv",
-      "sha256": "660ccc3f028bac27e3201c6af663fe282fbf7b3e6580d2b0663a5e7e38a1792a",
+      "sha256": "301dea802f0bc5d5ba24c674062aae6670321f4212653043d851a673642fc4a1",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4458,12 +4458,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/cs|a1-aus|a1.card.a1-aus.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/da|a1-zum|a1.card.a1-zum.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-196",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-196.csv",
-      "sha256": "296911497672ae86c44a32586307fb620ffbc34abc1ee1a35a210230152d2e41",
+      "sha256": "a33ee0e47c6b3d46efbf794743e54efd048c91b386ad63611034cb4b5ba1f1b2",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4475,12 +4475,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/da|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/en|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-197",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-197.csv",
-      "sha256": "e3f7faeef41a498ab541c7427f518b2da6e65a06329f8c01073ed3abf65adc59",
+      "sha256": "4183456871e22e6d5c29aa5fc08bda0ed581459143048fd8245a255f941b0e20",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4492,12 +4492,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/en|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/es|a1-wie|a1.card.a1-wie.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-198",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-198.csv",
-      "sha256": "bc2ee69f16bc12732d13ea60850aa327366042bedbdc0256a16e196d0b1d215a",
+      "sha256": "a2007faea1a2a480971eef72e10bf637553e8c0e2e23d3e67545b4c2e305c536",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4508,12 +4508,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/es|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/es|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-199",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-199.csv",
-      "sha256": "144ec4bed2dc389e71dd0c6849b43af3643a0feac7d93bcaff51e0ee1d85c7ae",
+      "sha256": "c49664e54831c4ec3aae6355bb6bb600bb608cd02d7471e86b0e5a54228786c4",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4526,12 +4526,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/es|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/fi|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-200",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-200.csv",
-      "sha256": "29b02efaa6ee7389399e9f62769d4d4efa22fd0e9996ca080990def13a629afe",
+      "sha256": "547ddb01b582eebbd3edf12cf06995dc4c9d5215deeb7cc23a35c5b03509de0a",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4547,7 +4547,7 @@
     {
       "batchId": "BATCH-201",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-201.csv",
-      "sha256": "f678bbc331f935033ee95d8a27eb29e7354908a410b53ef7d0629ec7f4ae4b7a",
+      "sha256": "4561194eacde45ba18de8951603dcff4b99263abc77dd0a73ca163c6f690754c",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4559,12 +4559,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fi|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/fr|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-202",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-202.csv",
-      "sha256": "c42dfad7d93ae1659a7291bfc3db269f1c70ea3943dc8a7a4569fcfb1aa99836",
+      "sha256": "799a5a44ddfd46266fedd302731b1c71fc7c240b081c82aee07d4e7b54a35ce6",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4576,12 +4576,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/fr|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/gr|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-203",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-203.csv",
-      "sha256": "3f410da89ddd7791734471942329686f01d97a64364afef8634898bee6e7a401",
+      "sha256": "f87cf29c0ba46481accf7b1af655e5d191d47e799afbfbc1d8ecb041069958f3",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4592,12 +4592,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/gr|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/gr|jetzt|a1.card.jetzt.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-204",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-204.csv",
-      "sha256": "43c43865eebb7c74866e2ec7c84442707f52eda7fe42520a73af503fea1f21a9",
+      "sha256": "7dd9ba7bddce9b63d5cd2ee86115adc671122ce1c5771fe227b8f887b4e7d008",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4609,12 +4609,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/gr|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/hr|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-205",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-205.csv",
-      "sha256": "666e2b733c056c3172ad26e689797edbca9940771f10174ea3182d9984081202",
+      "sha256": "0e615ce748702ed2f78080745dd1107d7107b9781c7d3a1bae6fd37f037398b2",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4631,7 +4631,7 @@
     {
       "batchId": "BATCH-206",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-206.csv",
-      "sha256": "adc17eebe9d66ab5171638dd4f62d3d1a578faeaaeefead718900cf072bf31f4",
+      "sha256": "c9043f26f99f264cfa90b4643025a1c7d458bdc4bc6a2abe13eab7285ccd0bbb",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4648,7 +4648,7 @@
     {
       "batchId": "BATCH-207",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-207.csv",
-      "sha256": "d8dac5ec3b3eca552d9acd4f5e0e399af48914f399a508dd7b7066b23d63a037",
+      "sha256": "da7f4da8c8531f7fb3c6d2fdfcad8ad8e10f7c47a224aadb0ea86adf4ad997ee",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4664,7 +4664,7 @@
     {
       "batchId": "BATCH-208",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-208.csv",
-      "sha256": "67627c32ce3b332e63cc669d2dccd539b346d7d7f47f9fda216561cb809a5c65",
+      "sha256": "35c4f42ec4109d09e2e5acc809fc5161ce627301f38fa8bd038cae3016af2256",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4681,7 +4681,7 @@
     {
       "batchId": "BATCH-209",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-209.csv",
-      "sha256": "7669c2af849ef0d43c96a65a4adf8014167f0624e9fa3f7920a798239328ea7c",
+      "sha256": "b563cc798ef3578b24aa00b2a549bf01f1a895ae19d8a0dd4d6d3e23b2b327df",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4698,7 +4698,7 @@
     {
       "batchId": "BATCH-210",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-210.csv",
-      "sha256": "56b0ff5b5e569d41d7b9696f36f461e79a32137a7d5e2b537646511142be9957",
+      "sha256": "f5c31cb43d5a37c619c2a4bc489525290c0c29bc1e825ca505d5383ea4af7d10",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4715,7 +4715,7 @@
     {
       "batchId": "BATCH-211",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-211.csv",
-      "sha256": "76ee134a5cb4d14de67384049da715b5323d672cbaa1b09ec2f34fb2397dc490",
+      "sha256": "0bd6901663ecad5165572797c4239e4c3892eeee43d98395163ba5a4a062c8c6",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4732,7 +4732,7 @@
     {
       "batchId": "BATCH-212",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-212.csv",
-      "sha256": "a7e7305b32df5ef002c01c3d5fc562168e810e112b46457dd6a0060bcd9da24b",
+      "sha256": "794a8956504763a70c9c22ab2ea26ba3ffd73b77ec563fa6f48f0dcb7999057d",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4748,7 +4748,7 @@
     {
       "batchId": "BATCH-213",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-213.csv",
-      "sha256": "5c5fbf80bc0518d4b16618c8e7dcd4574eb5a01187db4e0af8bc2b7e2a02d14a",
+      "sha256": "c1f98477d976e2530582e231205c67288bc40a3557684bad21bf71760e8bcd1f",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4765,7 +4765,7 @@
     {
       "batchId": "BATCH-214",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-214.csv",
-      "sha256": "2986d5682a6f3d55e0171674199a934871e5da433c50468b7a0219d649a7ed5d",
+      "sha256": "ed3071631cef17b46e13668a62ae30ecd13a125db6b144a6db121bce8035d3db",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4782,7 +4782,7 @@
     {
       "batchId": "BATCH-215",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-215.csv",
-      "sha256": "14e25de37ac4a3b70c9c37350fab51dabe0cf8822edf01ebc38fb5fa8d680897",
+      "sha256": "613f6109b1d8fddb4c3c23785c7c48ce9d2042075c06330acca7c0a9e29f7eba",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4799,7 +4799,7 @@
     {
       "batchId": "BATCH-216",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-216.csv",
-      "sha256": "eb0aed64f1e0510beabda856429f6848913877300d815673f0b51c9f362ba465",
+      "sha256": "84293e4300ae176c8091c13afe8f2009d1b5323b899dad16e8d2b2e4703bc57e",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4816,7 +4816,7 @@
     {
       "batchId": "BATCH-217",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-217.csv",
-      "sha256": "946b422ada62691221671bc4de49e7558305bee7b4bef65c2ef2a4da800a3dab",
+      "sha256": "95d7aabeb204b4a67bb0337ba787ccc2aca8fe1268b5197a4cad3715e888c566",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4832,7 +4832,7 @@
     {
       "batchId": "BATCH-218",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-218.csv",
-      "sha256": "724e95b6089f431e89779e23d1ff271a8da9b6aa7ae270e8e4f790d8ab31a5ca",
+      "sha256": "e28657c0c78d6e06e8ad94554852bc6c5a2ae55609210928b2380f7d54133ac1",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4849,7 +4849,7 @@
     {
       "batchId": "BATCH-219",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-219.csv",
-      "sha256": "89fc3a6b59e90cc902661efb5f4497e6fab59d1683a584f166abe6191a830e5f",
+      "sha256": "60a74d152762f25e028c874832c5f2ed0e78bcc4c5c4a215ec26b5128608cc92",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4866,7 +4866,7 @@
     {
       "batchId": "BATCH-220",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-220.csv",
-      "sha256": "f3db019ea69b20471082c6a30857afcf2fef5290745788be0163322c886ce835",
+      "sha256": "9ccf624ae0d9c3862a3d01d40a0646900f31fe63677ae3e968876a9642b11216",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4883,7 +4883,7 @@
     {
       "batchId": "BATCH-221",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-221.csv",
-      "sha256": "ebb6a5c60be7442083ec9718a07b8ba7827b28a642bb826d8c64f7bb489ac68d",
+      "sha256": "4ce92db63e043f5e9a8246221c39775b9d375d64cb616b9d12c3432330834463",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4899,7 +4899,7 @@
     {
       "batchId": "BATCH-222",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-222.csv",
-      "sha256": "4b1d53284da165a1574b0d850b38f9d02ebb39280d44f915e755a6baca7a71c3",
+      "sha256": "b1d329f3e60d922b9248fe06965bdd962f08edcf1ffc53a858abe94ac484f6a6",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4916,7 +4916,7 @@
     {
       "batchId": "BATCH-223",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-223.csv",
-      "sha256": "d3186f44fbe257d4481619fbf7141da1ca3ff26631e4624927e65d3823481147",
+      "sha256": "c6186cd5c7c25a6750dece60bc299fb79f31c46691074f35bb207ea0af981eb6",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4928,12 +4928,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sk|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/sl|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-224",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-224.csv",
-      "sha256": "9a6d73d79184e592126c04d533a2a38a998d89c77c624f0109d0107f2d233199",
+      "sha256": "050c94244f464f9616f2ad958290c469ef8edbad40b4c61e62d47afb4c59e605",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4944,12 +4944,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sl|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/sl|von|a1.card.von.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-225",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-225.csv",
-      "sha256": "ab3080a990109454d1f218bc798626f22b1fc921f6c6d87411fac1c4a2eefc24",
+      "sha256": "bbb81f8123de5532ff984ea803621a5747a186033eb38fd418b2955732672ad3",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4961,12 +4961,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sl|a1-das|a1.card.a1-das.study.comparison[2].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/sq|a1-zu|a1.card.a1-zu.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-226",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-226.csv",
-      "sha256": "378c0a1b4802ef03197c5a9c45548762c9cdb4b54e1aa8d14da6b9bf237c79c8",
+      "sha256": "4ffcd2cec899592b7a52dbdf8abe2a8659a28239c46d282ffa53236610123672",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4978,12 +4978,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sq|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/sr|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-227",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-227.csv",
-      "sha256": "bf0bdc38adba07cad188904a4104f6f2128a474635de0ad030c2e769cfc5b145",
+      "sha256": "96cb93d37d35fc2dc8f4409580eb5a75208bd55d157984f37952f34e8b20a7fd",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4995,12 +4995,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sr|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/sv|jetzt|a1.card.jetzt.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-228",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-228.csv",
-      "sha256": "845ed76bd12fbfc87baf23da7623eee2b8aded0c4ea103516e5c5da367f3f5bd",
+      "sha256": "bb37d1ed6547f2200de7cdfb5e440e37b65a10fbaf729bce59f77f318c5b0cce",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -5011,12 +5011,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sv|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/sv|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-229",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-229.csv",
-      "sha256": "e949eb54f341712680259fca4e3ae79bdc826d5be1cf3ba6866d251fdd7c4568",
+      "sha256": "86f2448ba8be162d72b5f1a5a77ce3cfdad2d352afdba665f71d5588283fd39c",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -5028,12 +5028,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/sv|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/tr|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-230",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-230.csv",
-      "sha256": "161385f37bfb324c3e5644db443d09f05fbe423b0a06c7eac1fbc6b49bfe7aab",
+      "sha256": "b45a49b63b5532b7c3a562d90c83be12af8d4a6b355288a8563d1c5967292b75",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -5045,12 +5045,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/tr|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/uk|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-231",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-231.csv",
-      "sha256": "eea8715ac1d65657dddd575fd26faa60c924a3e1b2f5629dcb5b3069b610aac5",
+      "sha256": "3adc0cb05ce2fa4b24905c917c80ff0bc5ebe23e8eda831389592750b1bddbcd",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -5061,12 +5061,12 @@
       "findingCount": 85,
       "firstStableId": "g2/a1/uk|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/uk|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-232",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-232.csv",
-      "sha256": "ed4aa937a54f7fdb804d29ff96818c2587418fc8a07c0da690f61af905ff3fab",
+      "sha256": "3c48fee9fcb917be475fdc87429ce47ba8c258b971103cc15a508ee04d9fbdc4",
       "reviewTrack": "STYLE_FORMAT_AND_OTHER",
       "canonicalBucket": "MIXED_WITHIN_TRACK",
       "languages": [
@@ -5098,12 +5098,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/bg|jetzt|idx:302|lv|DUPLICATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|gut|idx:259|study.explanation[1]|DE_SOURCE_ISSUE|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-233",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-233.csv",
-      "sha256": "a89271f2e33d99877014e7b4aa1111cee9473f3f9d66515e0e385df3b868bcdd",
+      "sha256": "60c684ebfd18d7575e618d139d2463221bd60508232cc38ab9957b0e52dd4c95",
       "reviewTrack": "STYLE_FORMAT_AND_OTHER",
       "canonicalBucket": "STYLE_FLUENCY_OR_REGISTER",
       "languages": [
@@ -5114,7 +5114,7 @@
       "findingCount": 3,
       "firstStableId": "g2/a1/uk|deutsch|idx:135|lv|STYLE_ONLY|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|malen|idx:391|lv|STYLE_ONLY|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     }
   ]
 }
