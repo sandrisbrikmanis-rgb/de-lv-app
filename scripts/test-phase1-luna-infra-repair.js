@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 "use strict";
 
+const crypto = require("crypto");
 const fs = require("fs");
 const os = require("os");
 const path = require("path");
+const { ROOT } = require("./lib/audit-common");
 const {
   runBatchedAdapter,
   validateBatchResponse,
@@ -32,8 +34,18 @@ const { initFreshRun, createCheckpointHooks, finalizeRun } = require("./lib/phas
 const { normalizeLunaItemsToFindings } = require("./lib/phase1-luna-checkpoint/findings");
 const { DEFAULT_MODEL } = require("./lib/luna-phase1-openai");
 const { getDeterministicScopeOrder } = require("./lib/content-discovery/phase1-applicability");
+const { buildOwnerAuthorizationDocument } = require("./lib/phase1-luna-owner-authorization-file");
+const { CHECKPOINT_SCHEMA_VERSION } = require("./lib/phase1-luna-checkpoint/constants");
 
 const SHA_TEST = "6cfb96105f7f741f6052d20ee1d1e342f198fda2";
+/** Pinned legacy g2/a1/et batch-0 values (phase1-r-ckpt-005 matrix) — not derived from live plan at assert time. */
+const LEGACY_PARITY_FIXTURE = Object.freeze({
+  runId: "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
+  scopeId: "g2/a1/et",
+  batchId: "batch-0-42782e520ea0bf40",
+  expectedFilename: "batch-0-42782e520ea0bf40.json",
+  requestInputHash: "3100da1f7bb617aedb850884d7cdf44bc19cc2bb536b022f4282aa53a9075575",
+});
 let testsRun = 0;
 let testsFailed = 0;
 
@@ -68,18 +80,84 @@ function tempRunsRoot() {
 
 function patchRunsRoot(tmpRoot) {
   const constants = require("./lib/phase1-luna-checkpoint/constants");
-  const savedRunsRoot = constants.RUNS_ROOT;
+  const saved = {
+    runsRoot: constants.RUNS_ROOT,
+    activeLockPath: constants.ACTIVE_LOCK_PATH,
+    runDir: constants.runDir,
+    manifestPath: constants.manifestPath,
+    progressPath: constants.progressPath,
+    checkpointDir: constants.checkpointDir,
+    checkpointFilePath: constants.checkpointFilePath,
+  };
   constants.RUNS_ROOT = tmpRoot;
+  constants.ACTIVE_LOCK_PATH = path.join(tmpRoot, ".active-lock.json");
+  constants.runDir = (runId) => path.join(tmpRoot, runId);
+  constants.manifestPath = (runId) => path.join(tmpRoot, runId, "run-manifest.json");
+  constants.progressPath = (runId) => path.join(tmpRoot, runId, "progress.json");
+  constants.checkpointDir = (runId, scopeId) =>
+    path.join(tmpRoot, runId, "checkpoints", String(scopeId).replace(/\//g, "_"));
+  constants.checkpointFilePath = (runId, scopeId, batchId) =>
+    path.join(constants.checkpointDir(runId, scopeId), `${batchId}.json`);
   fs.mkdirSync(tmpRoot, { recursive: true });
-  if (fs.existsSync(constants.ACTIVE_LOCK_PATH)) fs.unlinkSync(constants.ACTIVE_LOCK_PATH);
+  if (fs.existsSync(saved.activeLockPath)) fs.unlinkSync(saved.activeLockPath);
   return {
     tmpRoot,
     restore() {
-      constants.RUNS_ROOT = savedRunsRoot;
-      if (fs.existsSync(constants.ACTIVE_LOCK_PATH)) fs.unlinkSync(constants.ACTIVE_LOCK_PATH);
+      constants.RUNS_ROOT = saved.runsRoot;
+      constants.ACTIVE_LOCK_PATH = saved.activeLockPath;
+      constants.runDir = saved.runDir;
+      constants.manifestPath = saved.manifestPath;
+      constants.progressPath = saved.progressPath;
+      constants.checkpointDir = saved.checkpointDir;
+      constants.checkpointFilePath = saved.checkpointFilePath;
+      if (fs.existsSync(saved.activeLockPath)) fs.unlinkSync(saved.activeLockPath);
       fs.rmSync(tmpRoot, { recursive: true, force: true });
     },
   };
+}
+
+function writeOwnerAuthFileForRun(runId, manifest, executionSha = SHA_TEST) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-auth-infra-"));
+  const doc = buildOwnerAuthorizationDocument({
+    approvedExecutionSha: executionSha,
+    runId,
+    discoveryBaselineSha: manifest.discoveryBaselineSha,
+    model: manifest.model,
+    scopeHash: manifest.scopeHash,
+    objectIdsHash: manifest.objectIdsHash,
+    issuedAt: "2026-09-02T12:00:00.000Z",
+  });
+  const filePath = path.join(dir, "owner-authorization.json");
+  fs.writeFileSync(filePath, `${JSON.stringify(doc, null, 2)}\n`);
+  return filePath;
+}
+
+function snapshotReportsTemp() {
+  const tempRoot = path.join(ROOT, "reports", "temp");
+  const entries = [];
+
+  function walk(dir, prefix = "") {
+    if (!fs.existsSync(dir)) return;
+    for (const name of fs.readdirSync(dir).sort()) {
+      const full = path.join(dir, name);
+      const rel = prefix ? `${prefix}/${name}` : name;
+      const stat = fs.statSync(full);
+      if (stat.isDirectory()) {
+        walk(full, rel);
+        continue;
+      }
+      entries.push({
+        path: rel,
+        sha256: crypto.createHash("sha256").update(fs.readFileSync(full)).digest("hex"),
+        size: stat.size,
+      });
+    }
+  }
+
+  walk(tempRoot);
+  entries.sort((a, b) => a.path.localeCompare(b.path));
+  const listingHash = crypto.createHash("sha256").update(JSON.stringify(entries)).digest("hex");
+  return { entries, listingHash, fileCount: entries.length };
 }
 
 function makeGehaltFixtures(scopeId) {
@@ -291,88 +369,130 @@ async function testFindingDedupUsesRawCardId() {
 }
 
 async function testResumeIdentityGates() {
-  const runId = "phase1-2026-08-30T08-56-50-163Z-a8e1dec1";
-  const scopes = getDeterministicScopeOrder();
-  const cliScope = {
-    groups: ["g2", "g1", "g3"],
-    datasetsByGroup: {
-      g2: ["a1", "a2", "b1", "b2", "c1", "c2"],
-      g1: ["sentences", "verbs", "training"],
-      g3: ["courseLessons"],
-    },
-    langs: [
-      "lv", "lt", "ru", "pl", "uk", "et", "en", "ro", "bg", "tr", "gr", "sq", "mk", "sl", "bs", "sr",
-      "hr", "sk", "cs", "fi", "sv", "nb", "nn", "da", "nl", "lb", "fr", "it", "es", "pt", "hu", "is",
-    ],
-  };
-  const baseline = { originMainSha: SHA_TEST, verdict: "PASS" };
-  const gitIdentity = injectedGitIdentity({ headSha: SHA_TEST, originMainSha: SHA_TEST });
-  const opts = {
-    skipApiKeyCheck: true,
-    baseline,
-    gitIdentity,
-    approvedInfraHeadSha: SHA_TEST,
-  };
+  const patched = patchRunsRoot(tempRunsRoot());
+  try {
+    const runId = LEGACY_PARITY_FIXTURE.runId;
+    const scopes = getDeterministicScopeOrder();
+    const cliScope = {
+      groups: ["g2", "g1", "g3"],
+      datasetsByGroup: {
+        g2: ["a1", "a2", "b1", "b2", "c1", "c2"],
+        g1: ["sentences", "verbs", "training"],
+        g3: ["courseLessons"],
+      },
+      langs: [
+        "lv", "lt", "ru", "pl", "uk", "et", "en", "ro", "bg", "tr", "gr", "sq", "mk", "sl", "bs", "sr",
+        "hr", "sk", "cs", "fi", "sv", "nb", "nn", "da", "nl", "lb", "fr", "it", "es", "pt", "hu", "is",
+      ],
+    };
+    const baseline = { originMainSha: SHA_TEST, verdict: "PASS" };
+    const gitIdentity = injectedGitIdentity({ headSha: SHA_TEST, originMainSha: SHA_TEST });
 
-  const { buildExpectedBatchPlanForScope } = require("./lib/phase1-luna-checkpoint/batch-plan");
-  const { readJsonFile, writeJsonAtomic } = require("./lib/phase1-luna-checkpoint/atomic-io");
-  const { checkpointFilePath, CHECKPOINT_SCHEMA_VERSION } = require("./lib/phase1-luna-checkpoint/constants");
-  const scope = { scopeId: "g2/a1/et", group: "g2", dataset: "a1", lang: "et", lunaApplicable: true };
-  const plan = buildExpectedBatchPlanForScope(scope)[0];
-  const cpPath = checkpointFilePath(runId, scope.scopeId, plan.batchId);
-  if (!fs.existsSync(cpPath)) {
-    fs.mkdirSync(path.dirname(cpPath), { recursive: true });
-    writeJsonAtomic(cpPath, {
-      schemaVersion: CHECKPOINT_SCHEMA_VERSION,
+    const { buildExpectedBatchPlanForScope } = require("./lib/phase1-luna-checkpoint/batch-plan");
+    const { readJsonFile } = require("./lib/phase1-luna-checkpoint/atomic-io");
+    const constants = require("./lib/phase1-luna-checkpoint/constants");
+    const scope = {
+      scopeId: LEGACY_PARITY_FIXTURE.scopeId,
+      group: "g2",
+      dataset: "a1",
+      lang: "et",
+      lunaApplicable: true,
+    };
+    const plan = buildExpectedBatchPlanForScope(scope)[0];
+
+    assert(plan.batchId === LEGACY_PARITY_FIXTURE.batchId, "plan batchId matches pinned legacy fixture");
+    assert(
+      plan.requestInputHash === LEGACY_PARITY_FIXTURE.requestInputHash,
+      "plan requestInputHash matches pinned legacy fixture",
+    );
+
+    const manifest = createRunManifest({
       runId,
-      scopeId: scope.scopeId,
-      batchId: plan.batchId,
-      batchIndex: plan.batchIndex,
-      requestInputHash: plan.requestInputHash,
-      status: "PASS",
+      discoveryBaselineSha: baseline.originMainSha,
+      headSha: baseline.originMainSha,
+      originMainSha: gitIdentity.originMainSha,
+      model: DEFAULT_MODEL,
+      transport: "REAL",
+      cliScope,
+      scopes,
+      status: "IN_PROGRESS",
     });
+    writeRunManifest(manifest);
+
+    const cpDir = constants.checkpointDir(runId, scope.scopeId);
+    fs.mkdirSync(cpDir, { recursive: true });
+    const inlineCheckpoint = {
+      schemaVersion: CHECKPOINT_SCHEMA_VERSION,
+      status: "PASS",
+      runId,
+      scopeId: plan.scopeId,
+      batchId: LEGACY_PARITY_FIXTURE.batchId,
+      batchIndex: plan.batchIndex,
+      expectedObjectIds: plan.expectedObjectIds,
+      expectedIdsHash: plan.expectedIdsHash,
+      requestInputHash: LEGACY_PARITY_FIXTURE.requestInputHash,
+      returnedObjectIds: plan.expectedObjectIds,
+      rawResult: {
+        items: plan.expectedObjectIds.map((id) => ({ id, status: "PASS" })),
+      },
+      model: DEFAULT_MODEL,
+      transport: "MOCK",
+    };
+    fs.writeFileSync(path.join(cpDir, LEGACY_PARITY_FIXTURE.expectedFilename), JSON.stringify(inlineCheckpoint));
+
+    const cpPath = constants.checkpointFilePath(runId, scope.scopeId, LEGACY_PARITY_FIXTURE.batchId);
+    const cp = readJsonFile(cpPath);
+    assert(
+      cp.requestInputHash === LEGACY_PARITY_FIXTURE.requestInputHash,
+      "temp inline fixture requestInputHash parity",
+    );
+    assert(cp.batchId === LEGACY_PARITY_FIXTURE.batchId, "temp inline fixture batchId parity");
+
+    function resumeAuthOpts(extra = {}) {
+      return {
+        skipApiKeyCheck: true,
+        gitIdentity,
+        baseline,
+        approvedInfraHeadSha: SHA_TEST,
+        ownerAuthorizationFile: writeOwnerAuthFileForRun(runId, manifest, SHA_TEST),
+        ...extra,
+      };
+    }
+
+    const badBaseline = prepareResumeContext({
+      runId,
+      scopes,
+      cliScope,
+      transport: "REAL",
+      model: DEFAULT_MODEL,
+      options: resumeAuthOpts({
+        baseline: { originMainSha: "deadbeefdeadbeefdeadbeefdeadbeefdeadbeef", verdict: "PASS" },
+      }),
+    });
+    assert(!badBaseline.ok && badBaseline.realCalls === 0, "wrong baseline blocked");
+
+    const badRun = prepareResumeContext({
+      runId: "phase1-fake-run-id",
+      scopes,
+      cliScope,
+      transport: "REAL",
+      model: DEFAULT_MODEL,
+      options: resumeAuthOpts(),
+    });
+    assert(!badRun.ok && badRun.realCalls === 0, "wrong RUN_ID blocked");
+
+    const noApproved = prepareResumeContext({
+      runId,
+      scopes,
+      cliScope,
+      transport: "REAL",
+      model: DEFAULT_MODEL,
+      options: resumeAuthOpts({ approvedInfraHeadSha: null }),
+    });
+    assert(!noApproved.ok, "missing approved infra head blocked");
+  } finally {
+    patched.restore();
   }
-  const cp = readJsonFile(cpPath);
-  assert(plan.requestInputHash === cp.requestInputHash, "real RUN_ID legacy checkpoint hash parity");
-
-  const badBaseline = prepareResumeContext({
-    runId,
-    scopes,
-    cliScope,
-    transport: "REAL",
-    model: DEFAULT_MODEL,
-    options: {
-      ...opts,
-      baseline: { originMainSha: "deadbeefdeadbeefdeadbeefdeadbeefdeadbeef", verdict: "PASS" },
-    },
-  });
-  assert(!badBaseline.ok && badBaseline.realCalls === 0, "wrong baseline blocked");
-
-  const badRun = prepareResumeContext({
-    runId: "phase1-fake-run-id",
-    scopes,
-    cliScope,
-    transport: "REAL",
-    model: DEFAULT_MODEL,
-    options: {
-      ...opts,
-      approvedInfraHeadSha: SHA_TEST,
-    },
-  });
-  assert(!badRun.ok && badRun.realCalls === 0, "wrong RUN_ID blocked");
-
-  const noApproved = prepareResumeContext({
-    runId,
-    scopes,
-    cliScope,
-    transport: "REAL",
-    model: DEFAULT_MODEL,
-    options: {
-      ...opts,
-      approvedInfraHeadSha: null,
-    },
-  });
-  assert(!noApproved.ok, "missing approved infra head blocked");
 }
 
 async function testLegacyReturnedIdsInCheckpoint() {
@@ -436,6 +556,7 @@ async function testDeterministicFixtureRuns() {
 
 async function main() {
   console.log("Phase 1 Luna infra repair tests");
+  const reportsTempBefore = snapshotReportsTemp();
   await testPerBatchWallClockReset();
   await testPartialBatchTimeoutPreservesComplete();
   await testResumeSkipsCompleteBatches();
@@ -444,8 +565,21 @@ async function main() {
   await testResumeIdentityGates();
   await testLegacyReturnedIdsInCheckpoint();
   await testDeterministicFixtureRuns();
+  const reportsTempAfter = snapshotReportsTemp();
+
+  assert(
+    reportsTempBefore.listingHash === reportsTempAfter.listingHash,
+    "reports/temp listing hash unchanged across tests",
+  );
+  assert(
+    reportsTempBefore.fileCount === reportsTempAfter.fileCount,
+    "reports/temp file count unchanged across tests",
+  );
 
   console.log(`\nResults: ${testsRun - testsFailed}/${testsRun} passed`);
+  console.log(
+    `reports/temp snapshot: ${reportsTempAfter.fileCount} files, listingHash=${reportsTempAfter.listingHash}`,
+  );
   if (testsFailed > 0) {
     process.exit(1);
   }

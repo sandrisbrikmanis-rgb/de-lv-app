@@ -1,12 +1,23 @@
-# G2/A1 Phase 3 — Targeted `is` Missing-ID Repair v3
+# G2/A1 Phase 3 — Targeted `is` Missing-ID Repair v4 (test isolation)
 
-**Classification:** `TARGETED_IS_FAILURE_REPAIR_V3_READY_FOR_OWNER_REVIEW`  
+**Classification:** `TARGETED_IS_FAILURE_REPAIR_V4_TEST_ISOLATION`  
 **Generated:** 2026-09-08  
 **Branch:** `cursor/phase3-g2-a1-full-discovery-6338`  
-**Repair v2:** `2440960c15c7aa89391219347d7536ae2bcf80c4`  
+**Repair v3:** `6979b58af723442790623464e2f514238818ce5d`  
 **Base:** `origin/main@dd4587da30e07e43aab3ba7faf3ca697018a4480`
 
-## v3 scope
+## v4 scope (test-only)
+
+Isolates `testResumeIdentityGates()` from production `reports/temp/phase1-luna-runs`. No Luna/transport/retry functional changes.
+
+| Change | Detail |
+|--------|--------|
+| Temp RUNS_ROOT | `patchRunsRoot(tempRunsRoot())` with mandatory `finally` cleanup |
+| Legacy parity fixture | Pinned `batch-0-42782e520ea0bf40` + hash `3100da1f…5575` (from r-ckpt-005 matrix) |
+| Plan independence | Fixture `batchId`/`requestInputHash` are code constants; plan is computed separately and must match |
+| reports/temp gate | SHA-256 listing hash identical before/after full test run (`1568` files, hash `f7f07b29…de4e`) |
+
+## v3 scope (unchanged functional repair)
 
 Preserves full canonical-ID validation metadata through partial parser and transport layers. No change to opt-in scope (`missingCanonicalIdRetry` remains G2/A1 Phase 3 only).
 
@@ -46,22 +57,24 @@ Preserves full canonical-ID validation metadata through partial parser and trans
 
 | Check | Result |
 |-------|--------|
-| `test:g2-a1-phase3-missing-id-retry` | **113/113 PASS** |
+| `test:g2-a1-phase3-missing-id-retry` | **111/111 PASS** |
 | `test:phase1-luna-id-recovery` | 44/44 PASS |
 | `test:phase1-luna-timeout-001` | 53/53 PASS |
 | `test-phase1-real-transport-id-recovery-diagnostics` | 42/42 PASS |
 | `test:phase1-luna-checkpoint-resume` | PASS |
 | `test:phase1-real-luna-transport` | PASS |
 | `test:phase1-luna-ckpt-004` | 26/26 PASS |
-| `test:phase1-luna-infra-repair` | **27/27 PASS** |
+| `test:phase1-luna-infra-repair` | **32/32 PASS** |
+| `reports/temp/**` listing hash | unchanged (`f7f07b29…de4e`) |
 | `NEW_REAL_LUNA_CALLS` | 0 |
 | Production diff | 0 |
 | DE diff | 0 |
+| Phase 3 checkpoint/findings/OWNER | 0 changes |
 
 ### `test:phase1-luna-infra-repair`
 
-Now reproducible: `testResumeIdentityGates` writes minimal inline checkpoint fixture when absent (hash parity only). No runtime Luna checkpoint dependency.
+`testResumeIdentityGates()` uses mkdtemp temp RUNS_ROOT only. Legacy parity uses pinned fixture constants; plan alignment is verified independently. No reads/writes to `reports/temp/phase1-luna-runs`.
 
 ## Next step
 
-`OWNER_REVIEW_OF_REPAIR_V3` — real `is` resume remains blocked until OWNER approval.
+`OWNER_REVIEW_OF_REPAIR_V4` — real `is` resume remains blocked until OWNER approval.
