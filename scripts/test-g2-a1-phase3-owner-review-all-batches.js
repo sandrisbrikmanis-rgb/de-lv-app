@@ -21,7 +21,7 @@ const {
   reconcileSource,
   prepareAllRemainingBatches,
 } = require("./lib/g2-a1-phase3/owner-review-all-batches");
-const { POST_CROWDIN_STATES } = require("./lib/g2-a1-phase3/post-crowdin-production");
+const { POST_CROWDIN_STATES, MAPPING_RESOLUTIONS } = require("./lib/g2-a1-phase3/post-crowdin-production");
 
 const OUT_DIR = path.join(ROOT, "reports/g2-a1-phase3-owner-review-all-batches");
 const OUT_INDEX = path.join(ROOT, "reports/g2-a1-phase3-owner-review-all-batches-index.json");
@@ -81,7 +81,7 @@ function testCoverageAndAssignments() {
   const consolidated = loadCsv(OUT_CONSOLIDATED);
   const assigned = new Map();
 
-  assert(proof.classification === "G2_A1_ALL_REMAINING_OWNER_REVIEW_BATCHES_READY", "classification ready");
+  assert(proof.classification === "G2_A1_ALL_REMAINING_OWNER_REVIEW_BATCHES_MAPPING_REPAIRED", "classification repaired");
   assert(proof.generatedBatchCount === 232, "232 generated batches");
   assert(index.batches.length === 232, "index has 232 batches");
   assert(consolidated.rows.length === 22650, "consolidated 22650 rows");
@@ -97,6 +97,8 @@ function testCoverageAndAssignments() {
     assert(row.owner_status === "PENDING", `owner pending ${row.finding_stable_id}`);
     assert(row.owner_decision === "" && row.owner_new === "" && row.owner_note === "", "owner fields blank");
     assert(POST_CROWDIN_STATES.has(row.post_crowdin_state), `valid post state ${row.post_crowdin_state}`);
+    assert(MAPPING_RESOLUTIONS.has(row.mapping_resolution), `valid mapping resolution ${row.finding_stable_id}`);
+    assert(row.post_crowdin_state !== "FIELD_NOT_FOUND" && row.post_crowdin_state !== "TARGET_NOT_FOUND", "no mapping failures");
     assert(row.discovery_current !== undefined, "discovery_current preserved");
   }
 
@@ -198,6 +200,19 @@ function testFailClosedMutations() {
   assert(!recon.pass, "source hash tamper fails reconciliation");
 }
 
+function testMappingRepairGates() {
+  const proof = JSON.parse(fs.readFileSync(OUT_PROOF, "utf8"));
+  assert(proof.fieldNotFound === 0, "FIELD_NOT_FOUND 0");
+  assert(proof.targetNotFound === 0, "TARGET_NOT_FOUND 0");
+  assert(proof.unresolvedMapping === 0, "unresolved 0");
+  assert(proof.ambiguousMapping === 0, "ambiguous 0");
+  assert(proof.primaryWwwParityMismatch === 0, "parity mismatch 0");
+  const resSum = Object.values(proof.mappingResolutionDistribution || {}).reduce((a, b) => a + b, 0);
+  assert(resSum === 22650, "mapping resolution sum 22650");
+  assert(proof.preRepairFieldNotFound === 5199, "pre-repair field not found");
+  assert(proof.preRepairTargetNotFound === 367, "pre-repair target not found");
+}
+
 function testPostCrowdinSum() {
   const proof = JSON.parse(fs.readFileSync(OUT_PROOF, "utf8"));
   const sum = Object.values(proof.postCrowdinDistribution).reduce((a, b) => a + b, 0);
@@ -211,6 +226,7 @@ function main() {
   testTargetLanguageBacklog();
   testDeterminism();
   testFailClosedMutations();
+  testMappingRepairGates();
   testPostCrowdinSum();
 
   console.log(`\nTests run: ${testsRun}, failed: ${testsFailed}`);

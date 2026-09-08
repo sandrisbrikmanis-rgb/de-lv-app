@@ -1,0 +1,29 @@
+# G2/A1 Phase 3 — OWNER batch production mapping repair
+
+**Classification:** `G2_A1_ALL_REMAINING_OWNER_REVIEW_BATCHES_MAPPING_REPAIRED`
+**Pre-repair mapping failures:** 5566
+**Post-repair FIELD_NOT_FOUND:** 0
+**Post-repair TARGET_NOT_FOUND:** 0
+
+## Root-cause distribution (5 566 pre-repair failures)
+
+| Bucket | Count |
+|--------|------:|
+| FIELD_NOT_FOUND|COMPOSITE_SCOPE_CAPTURED | 848 |
+| FIELD_NOT_FOUND|CONFIRMED_FIELD_ABSENT | 403 |
+| FIELD_NOT_FOUND|EXACT_FIELD | 3943 |
+| FIELD_NOT_FOUND|EXPLICIT_FIELD_ALIAS | 5 |
+| TARGET_NOT_FOUND|COMPOSITE_SCOPE_CAPTURED | 202 |
+| TARGET_NOT_FOUND|CONFIRMED_FIELD_ABSENT | 77 |
+| TARGET_NOT_FOUND|EXACT_FIELD | 29 |
+| TARGET_NOT_FOUND|EXPLICIT_FIELD_ALIAS | 59 |
+
+## Post-repair mapping resolution
+
+| Resolution | Count |
+|------------|------:|
+| COMPOSITE_SCOPE_CAPTURED | 2589 |
+| CONFIRMED_FIELD_ABSENT | 657 |
+| EXACT_FIELD | 4198 |
+| EXPLICIT_FIELD_ALIAS | 15206 |
+

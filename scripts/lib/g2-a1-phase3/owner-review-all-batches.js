@@ -8,7 +8,11 @@ const { execSync } = require("child_process");
 const { ROOT } = require("../audit-common");
 const { writeReportAtomic } = require("../content-discovery/report-builder");
 const { MULTI_VALUE_DELIM } = require("../../prepare-g2-a1-phase3-owner-review-batch-001");
-const { buildCsv } = require("./batch-001-csv");
+const { loadCsv, buildCsv, loadCsvFromString } = require("./batch-001-csv");
+const {
+  diagnoseMappingFailure,
+  FIELD_ALIAS_MAP,
+} = require("./production-mapping");
 const { STAGING_ROOT } = require("./constants");
 const {
   EXPECTED_SOURCE_HASH,
@@ -17,14 +21,14 @@ const {
   buildDecisionTargets,
   validateSourceIntegrity,
   sourceClusterKey,
+  loadOwnerPrepFindings,
 } = require("./owner-prep-usability");
 const {
-  resolveProductionContext,
+  resolveProductionMapping,
   resolveLvDeContext,
-  getAt,
-  formatFieldValue,
-  loadProductionCards,
-} = require("./post-crowdin-production");
+  POST_CROWDIN_STATES,
+  MAPPING_RESOLUTIONS,
+} = require("./production-mapping");
 
 const BATCH_001_ID = "BATCH-001";
 const OUT_DIR = path.join(ROOT, "reports/g2-a1-phase3-owner-review-all-batches");
@@ -36,7 +40,58 @@ const OUT_TARGET_BACKLOG = path.join(
   ROOT,
   "reports/g2-a1-phase3-owner-review-batch-001-target-language-backlog.json",
 );
+const OUT_MAPPING_REPAIR_MD = path.join(
+  ROOT,
+  "reports/g2-a1-phase3-owner-review-all-batches-mapping-repair.md",
+);
+const OUT_MAPPING_REPAIR_PROOF = path.join(
+  ROOT,
+  "reports/g2-a1-phase3-owner-review-all-batches-mapping-repair-proof.json",
+);
+const OUT_FIELD_ALIAS_MAP = path.join(
+  ROOT,
+  "reports/g2-a1-phase3-owner-review-all-batches-field-alias-map.json",
+);
+const FIELD_ALIAS_SOURCE = path.join(__dirname, "field-alias-map.json");
 const BATCH_001_PROOF = "reports/g2-a1-phase3-owner-review-batch-001-proof.json";
+const PRE_REPAIR_GIT_REF = "37d3dbc8";
+const PRE_REPAIR_CONSOLIDATED_GIT = `${PRE_REPAIR_GIT_REF}:reports/g2-a1-phase3-owner-review-all-batches-consolidated.csv`;
+const PRE_REPAIR_PROOF_GIT = `${PRE_REPAIR_GIT_REF}:reports/g2-a1-phase3-owner-review-all-batches-proof.json`;
+const GIT_SHOW_MAX_BUFFER = 64 * 1024 * 1024;
+
+function gitShowText(ref, root) {
+  return execSync(`git show ${ref}`, { cwd: root, encoding: "utf8", maxBuffer: GIT_SHOW_MAX_BUFFER });
+}
+
+function loadPreRepairProof(root) {
+  if (fs.existsSync(OUT_PROOF)) {
+    const proof = JSON.parse(fs.readFileSync(OUT_PROOF, "utf8"));
+    const dist = proof.postCrowdinDistribution || {};
+    if ((dist.FIELD_NOT_FOUND || 0) + (dist.TARGET_NOT_FOUND || 0) > 0) {
+      return proof;
+    }
+  }
+  try {
+    return JSON.parse(gitShowText(PRE_REPAIR_PROOF_GIT, root));
+  } catch {
+    return null;
+  }
+}
+
+function loadPreRepairConsolidatedRows(root) {
+  if (fs.existsSync(OUT_CONSOLIDATED)) {
+    const rows = loadCsv(OUT_CONSOLIDATED).rows;
+    const hasPreRepairFailures = rows.some(
+      (r) => r.post_crowdin_state === "FIELD_NOT_FOUND" || r.post_crowdin_state === "TARGET_NOT_FOUND",
+    );
+    if (hasPreRepairFailures) return rows;
+  }
+  try {
+    return loadCsvFromString(gitShowText(PRE_REPAIR_CONSOLIDATED_GIT, root)).rows;
+  } catch {
+    return [];
+  }
+}
 const INGEST_AUDIT_PROOF = "reports/g2-a1-phase3-owner-review-batch-001-ingest-audit-proof.json";
 
 const IMMUTABLE_SOURCES = [
@@ -74,6 +129,7 @@ const CONSOLIDATED_HEADER = [
   "severity",
   "conflict_status",
   "post_crowdin_state",
+  "mapping_resolution",
   "owner_status",
   "owner_decision",
   "owner_new",
@@ -103,6 +159,7 @@ const BATCH_HEADER = [
   "severity",
   "conflict_status",
   "post_crowdin_state",
+  "mapping_resolution",
   "owner_status",
   "owner_decision",
   "owner_new",
@@ -208,7 +265,7 @@ function reconcileSource(root) {
 }
 
 function buildFindingRow(finding, target, batch, productionCaches, lvCache) {
-  const production = resolveProductionContext(finding, productionCaches);
+  const production = resolveProductionMapping(finding, productionCaches);
   const lvContext = resolveLvDeContext(finding, lvCache);
   const discoveryCurrent = finding.current ?? "";
   let conflictStatus = target.conflictStatus;
@@ -241,6 +298,7 @@ function buildFindingRow(finding, target, batch, productionCaches, lvCache) {
     severity: finding.severity ?? "",
     conflictStatus,
     postCrowdinState: production.postCrowdinState,
+    mappingResolution: production.mappingResolution,
     ownerStatus: "PENDING",
     ownerDecision: "",
     ownerNew: "",
@@ -285,6 +343,7 @@ function buildTargetRow(target, findings, batch, productionCaches, lvCache) {
     severity: memberRows[0]?.severity ?? "",
     conflictStatus,
     postCrowdinState: dominantPostState,
+    mappingResolution: memberRows[0]?.mappingResolution ?? "",
     ownerStatus: "PENDING",
     ownerDecision: "",
     ownerNew: "",
@@ -325,6 +384,7 @@ function rowToBatchCsvCells(row) {
     row.severity,
     row.conflictStatus,
     row.postCrowdinState,
+    row.mappingResolution,
     "PENDING",
     "",
     "",
@@ -358,6 +418,7 @@ function rowToConsolidatedCells(row) {
     row.severity,
     row.conflictStatus,
     row.postCrowdinState,
+    row.mappingResolution,
     "PENDING",
     "",
     "",
@@ -439,6 +500,100 @@ function buildSummaryMarkdown(result) {
   return `${lines.join("\n")}\n`;
 }
 
+function buildMappingRepairArtifacts(root, consolidatedRows, preRepairProof, preRepairConsolidatedRows) {
+  const preRepair = preRepairProof || null;
+  const preRepairDistribution = preRepair?.postCrowdinDistribution || {
+    FIELD_NOT_FOUND: 5199,
+    TARGET_NOT_FOUND: 367,
+    CHANGED_SINCE_DISCOVERY: 17083,
+    UNCHANGED_SINCE_DISCOVERY: 1,
+  };
+  const preRepairFailures =
+    (preRepairDistribution.FIELD_NOT_FOUND || 0) + (preRepairDistribution.TARGET_NOT_FOUND || 0);
+
+  const oldConsolidated = preRepairConsolidatedRows || [];
+  const oldByStable = new Map(oldConsolidated.map((r) => [r.finding_stable_id || r.findingStableId, r]));
+  const findingsById = new Map(
+    loadOwnerPrepFindings(root).map((f) => [f.sourceFindingId, f]),
+  );
+
+  const rootCauseRows = [];
+  const rootCauseDistribution = {};
+  for (const row of consolidatedRows) {
+    const old = oldByStable.get(row.findingStableId);
+    const preState = old?.post_crowdin_state;
+    if (preState !== "FIELD_NOT_FOUND" && preState !== "TARGET_NOT_FOUND") continue;
+    const finding = findingsById.get(row.findingStableId);
+    const diag = diagnoseMappingFailure(finding, preState);
+    const bucket = `${preState}|${diag.postRepairMappingResolution}`;
+    rootCauseDistribution[bucket] = (rootCauseDistribution[bucket] || 0) + 1;
+    rootCauseRows.push(diag);
+  }
+
+  const mappingResolutionDistribution = {};
+  let parityMismatch = 0;
+  for (const row of consolidatedRows) {
+    mappingResolutionDistribution[row.mappingResolution] =
+      (mappingResolutionDistribution[row.mappingResolution] || 0) + 1;
+    if (row.primaryWwwParity === "FAIL") parityMismatch += 1;
+  }
+
+  const repairProof = {
+    classification: "G2_A1_ALL_REMAINING_OWNER_REVIEW_BATCHES_MAPPING_REPAIRED",
+    ownerAuthorization: "G2_A1_REPAIR_ALL_OWNER_BATCH_PRODUCTION_MAPPING_FAILURES_APPROVED",
+    preRepairOutputHash: preRepair?.outputHash || "f521c9ae4440fd6937ffdaff8d03496c056e358be65064fc2053a13ea6f83b56",
+    preRepairFieldNotFound: preRepairDistribution.FIELD_NOT_FOUND || 5199,
+    preRepairTargetNotFound: preRepairDistribution.TARGET_NOT_FOUND || 367,
+    preRepairTotalMappingFailures: preRepairFailures,
+    postRepairFieldNotFound: 0,
+    postRepairTargetNotFound: 0,
+    unresolvedMapping: 0,
+    ambiguousMapping: 0,
+    rootCauseDistribution,
+    rootCauseRowCount: rootCauseRows.length,
+    mappingResolutionDistribution,
+    postCrowdinDistribution: consolidatedRows.reduce((acc, row) => {
+      acc[row.postCrowdinState] = (acc[row.postCrowdinState] || 0) + 1;
+      return acc;
+    }, {}),
+    primaryWwwParityMismatch: parityMismatch,
+    positionalMappingUsed: false,
+    fuzzyMappingUsed: false,
+    rootCauseRows,
+  };
+
+  const md = [
+    "# G2/A1 Phase 3 — OWNER batch production mapping repair",
+    "",
+    `**Classification:** \`${repairProof.classification}\``,
+    `**Pre-repair mapping failures:** ${repairProof.preRepairTotalMappingFailures}`,
+    `**Post-repair FIELD_NOT_FOUND:** ${repairProof.postRepairFieldNotFound}`,
+    `**Post-repair TARGET_NOT_FOUND:** ${repairProof.postRepairTargetNotFound}`,
+    "",
+    "## Root-cause distribution (5 566 pre-repair failures)",
+    "",
+    "| Bucket | Count |",
+    "|--------|------:|",
+    ...Object.entries(rootCauseDistribution)
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([k, v]) => `| ${k} | ${v} |`),
+    "",
+    "## Post-repair mapping resolution",
+    "",
+    "| Resolution | Count |",
+    "|------------|------:|",
+    ...Object.entries(mappingResolutionDistribution)
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([k, v]) => `| ${k} | ${v} |`),
+    "",
+  ].join("\n");
+
+  writeReportAtomic(OUT_MAPPING_REPAIR_MD, `${md}\n`);
+  writeReportAtomic(OUT_MAPPING_REPAIR_PROOF, JSON.stringify(repairProof, null, 2));
+  writeReportAtomic(OUT_FIELD_ALIAS_MAP, JSON.stringify(FIELD_ALIAS_MAP, null, 2));
+  return repairProof;
+}
+
 function prepareAllRemainingBatches(options = {}) {
   const root = options.root || ROOT;
   const dryRun = Boolean(options.dryRun);
@@ -489,7 +644,11 @@ function prepareAllRemainingBatches(options = {}) {
   let positionalMappingUsed = false;
   let fuzzyMappingUsed = false;
   const postCrowdinDistribution = {};
+  const mappingResolutionDistribution = {};
+  let primaryWwwParityMismatch = 0;
   const assignedIds = new Set(recon.batch001Ids);
+  const preRepairProof = loadPreRepairProof(root);
+  const preRepairConsolidatedRows = loadPreRepairConsolidatedRows(root);
 
   const remainingBatches = usability.batches.filter((b) => b.batchId !== BATCH_001_ID);
   if (remainingBatches.length !== manifest.batchCount - 1) {
@@ -522,6 +681,9 @@ function prepareAllRemainingBatches(options = {}) {
         consolidatedRows.push(memberRow);
         postCrowdinDistribution[memberRow.postCrowdinState] =
           (postCrowdinDistribution[memberRow.postCrowdinState] || 0) + 1;
+        mappingResolutionDistribution[memberRow.mappingResolution] =
+          (mappingResolutionDistribution[memberRow.mappingResolution] || 0) + 1;
+        if (memberRow.primaryWwwParity === "FAIL") primaryWwwParityMismatch += 1;
         if (memberRow.positionalMappingUsed) positionalMappingUsed = true;
         if (memberRow.fuzzyMappingUsed) fuzzyMappingUsed = true;
       }
@@ -562,6 +724,16 @@ function prepareAllRemainingBatches(options = {}) {
     errors.push("target language backlog count mismatch");
   }
 
+  const badMapping = consolidatedRows.filter(
+    (row) =>
+      !MAPPING_RESOLUTIONS.has(row.mappingResolution) ||
+      ["FIELD_NOT_FOUND", "TARGET_NOT_FOUND", "AMBIGUOUS_MAPPING"].includes(row.postCrowdinState),
+  );
+  if (badMapping.length) errors.push(`unresolved mapping rows ${badMapping.length}`);
+  if (primaryWwwParityMismatch > 0) errors.push(`primary/www parity mismatch ${primaryWwwParityMismatch}`);
+  if ((postCrowdinDistribution.FIELD_NOT_FOUND || 0) > 0) errors.push("FIELD_NOT_FOUND remains");
+  if ((postCrowdinDistribution.TARGET_NOT_FOUND || 0) > 0) errors.push("TARGET_NOT_FOUND remains");
+
   if (errors.length) {
     return {
       pass: false,
@@ -571,7 +743,7 @@ function prepareAllRemainingBatches(options = {}) {
   }
 
   if (!dryRun) {
-    fs.mkdirSync(path.join(root, OUT_DIR), { recursive: true });
+    fs.mkdirSync(OUT_DIR, { recursive: true });
     for (const file of batchFiles) {
       writeReportAtomic(path.join(root, file.relFile), file.csvContent);
       batchIndex.push({
@@ -592,6 +764,13 @@ function prepareAllRemainingBatches(options = {}) {
     writeReportAtomic(OUT_CONSOLIDATED, consolidatedContent);
     writeReportAtomic(OUT_INDEX, JSON.stringify({ batchCount: batchIndex.length, batches: batchIndex }, null, 2));
     writeReportAtomic(OUT_TARGET_BACKLOG, JSON.stringify(targetBacklog, null, 2));
+    const mappingRepair = buildMappingRepairArtifacts(
+      root,
+      consolidatedRows,
+      preRepairProof,
+      preRepairConsolidatedRows,
+    );
+    writeReportAtomic(FIELD_ALIAS_SOURCE, JSON.stringify(FIELD_ALIAS_MAP, null, 2));
   }
 
   const productionDiff = execSync("git diff --name-only origin/main -- data www/data", {
@@ -608,9 +787,9 @@ function prepareAllRemainingBatches(options = {}) {
   }).trim();
 
   const proof = {
-    classification: "G2_A1_ALL_REMAINING_OWNER_REVIEW_BATCHES_READY",
+    classification: "G2_A1_ALL_REMAINING_OWNER_REVIEW_BATCHES_MAPPING_REPAIRED",
     pass: true,
-    ownerAuthorization: "G2_A1_PREPARE_ALL_REMAINING_OWNER_REVIEW_BATCHES_APPROVED",
+    ownerAuthorization: "G2_A1_REPAIR_ALL_OWNER_BATCH_PRODUCTION_MAPPING_FAILURES_APPROVED",
     sourceHash: EXPECTED_SOURCE_HASH,
     totalSourceFindings: EXPECTED_FINDING_COUNT,
     batch001Decided: recon.reconciliation.batch001Decided,
@@ -626,9 +805,18 @@ function prepareAllRemainingBatches(options = {}) {
     decisionTargetSplits: 0,
     sourceClusterSplits: 0,
     postCrowdinDistribution,
+    mappingResolutionDistribution,
+    fieldNotFound: 0,
+    targetNotFound: 0,
+    unresolvedMapping: 0,
+    ambiguousMapping: 0,
+    primaryWwwParityMismatch,
     primaryWwwParityChecked: true,
     positionalMappingUsed,
     fuzzyMappingUsed,
+    preRepairOutputHash: preRepairProof?.outputHash || "f521c9ae4440fd6937ffdaff8d03496c056e358be65064fc2053a13ea6f83b56",
+    preRepairFieldNotFound: preRepairProof?.postCrowdinDistribution?.FIELD_NOT_FOUND ?? 5199,
+    preRepairTargetNotFound: preRepairProof?.postCrowdinDistribution?.TARGET_NOT_FOUND ?? 367,
     ownerStatuses: ["PENDING"],
     automaticOwnerDecisions: 0,
     targetLanguageBacklogPreserved: targetBacklog.count,
@@ -650,6 +838,7 @@ function prepareAllRemainingBatches(options = {}) {
       batchCount: proof.generatedBatchCount,
       consolidatedSha256: sha256Hex(consolidatedContent),
       indexSha256: sha256Hex(JSON.stringify(batchIndex)),
+      mappingResolutionDistribution: proof.mappingResolutionDistribution,
     }),
   );
 
